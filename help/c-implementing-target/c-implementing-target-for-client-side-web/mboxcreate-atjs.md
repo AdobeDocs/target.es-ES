@@ -1,0 +1,50 @@
+---
+description: 'Información sobre la función mboxcreate (mbox, params) para at. js. '
+keywords: adobe.target.notification;elemento;selector;notificación;extensión
+seo-description: Información sobre la función mboxcreate (mbox, params) para la biblioteca JavaScript de Adobe Target at. js.
+seo-title: Información sobre la función mboxcreate (mbox, params) para la biblioteca JavaScript de Adobe Target at. js.
+solution: Target
+subtopic: Primeros pasos
+title: 'mboxCreate(mbox,params): at.js 2.x'
+topic: Standard
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# mboxCreate(mbox,params): at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
+
+Ejecuta una solicitud y aplica la oferta al DIV más cercano con nombre de clase mboxDefault.
+
+>[!NOTE]
+>
+>Esta función está disponible para las versiones 1 de at.js.Solamente *x*. Esta función quedó obsoleta con el lanzamiento de at. js 2. x. Esta función devuelve el contenido predeterminado si se utiliza con at. js 2. x.
+
+Esta función está creada en [!DNL at.js] principalmente para facilitar la transición de [!DNL mbox.js] a [!DNL at.js]. Una alternativa nueva a `mboxCreate()` es `adobe.target.getOffer()`/ `adobe.target.applyOffer()`/ o la directiva Angular.
+
+## Ejemplo
+
+```
+<div class="mboxDefault"> 
+  default content to replace by offer 
+</div> 
+<script> 
+  mboxCreate('mboxName','param1=value1','param2=value2'); 
+</script>
+```
+
+## Notas
+
+`mboxCreate()` ahora usa el extremo “json” en lugar del extremo “standard” y se activa asincrónicamente. Debido a ello:
+
+* [Depuración](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) es algo diferente.
+* Evite el código de oferta que requiere llamadas sincrónicas de bloqueo.
+
+   Por ejemplo, las ofertas que establecen variables de JavaScript utilizadas por código de sitio u otros mboxes que vienen después en la página.
+
+* Asegúrese de tener `<div class="mboxDefault"></div>` antes de invocar `mboxCreate()`, ya que [!DNL at.js] no lo agregará por usted.
+
+* No se recomiendan funciones `mboxCreate()` vacías que aparecen en la parte superior de la página como mbox global.
+
+   El mbox global creado automáticamente en [!DNL at.js] es una mejor opción porque se activa desde `<head>` y puede devolver contenido más rápido.
