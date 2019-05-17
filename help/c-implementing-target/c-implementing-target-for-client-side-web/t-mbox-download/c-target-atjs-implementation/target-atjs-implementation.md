@@ -1,0 +1,63 @@
+---
+description: La biblioteca at.js es una nueva biblioteca de implementación para Adobe Target que está diseñada tanto para implementaciones web típicas como para aplicaciones de una sola página.
+keywords: Target Standard;at.js;implementación
+seo-description: La biblioteca at.js es una nueva biblioteca de implementación para Adobe Target que está diseñada tanto para implementaciones web típicas como para aplicaciones de una sola página.
+seo-title: Migrar de mbox.js a at.js
+solution: Target
+title: Migrar de mbox.js a at.js
+topic: Standard
+uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Migrar de mbox.js a at.js{#migrate-from-mbox-js-to-at-js}
+
+La biblioteca at.js es una nueva biblioteca de implementación para [!DNL Adobe Target] que está diseñada tanto para implementaciones web típicas como para aplicaciones de una sola página.
+
+Entre otros beneficios, [!DNL at.js] mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página.
+
+[!DNL at.js] reemplaza [!DNL mbox.js] por las implementaciones [!DNL Target]. La biblioteca [!DNL at.js] también incluye los componentes que se incluían en [!DNL target.js], de modo que ya no se llama a [!DNL target.js].
+
+>[!NOTE]
+>
+>Adobe Experience Manager (AEM) 6.2 con FP-11577 (o posterior) admite las implementaciones de at.js mediante su integración con los Servicios en la nube de Adobe Target. Para obtener más información, consulte [Paquetes de características](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) e [Integración con Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) en la documentación de *Adobe Experience Manager 6.2*.
+
+Para usar [!DNL at.js], reemplace la referencia a [!DNL mbox.js] en páginas donde desea implementarla. No puede usar [!DNL mbox.js] y [!DNL at.js] en una misma página. Sin embargo, puede usar cualquiera en cada página de su sitio.
+
+La biblioteca de [!DNL at.js] funciona para implementaciones existentes que emplean las funciones `mboxCreate()`, `mboxDefine()` y `mboxUpdate()` admite nueva funcionalidad enfocada en las implementaciones basadas en aplicaciones de una sola página.
+
+Puede usar [!DNL at.js] en cualquier lugar donde actualmente use [!DNL mbox.js].
+
+La biblioteca [!DNL at.js] ofrece varias mejoras con respecto a la biblioteca [!DNL mbox.js]. Algunas de ellas son:
+
+* Comunicación completamente asincrónica mediante AJAX de dominio cruzado
+
+   >[!IMPORTANT]
+   >
+   >Aunque [!DNL at.js] se comunica con los servidores de [!DNL Target] de manera asíncrona, el archivo [!DNL at.js] en sí mismo debe cargarse sincrónicamente en la sección `<head>` de la página. Idealmente, debería ser uno de los primeros scripts cargados. Una vez cargado, [!DNL at.js] ejecuta llamadas de mbox asincrónicamente mediante `XMLHttpRequest` y no bloquea el procesamiento de la página.
+
+* No hay más bloqueos de llamadas
+* No se usa `document.write()`
+* No hay ejecución inmediata de JavaScript en las respuestas de [!DNL Target]
+* Mejores tiempos de espera y gestión de errores
+
+   * Personalizable [tiempo de espera](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) por llamada
+   * No hay recargas en tiempos de espera
+
+* Funciones diseñadas específicamente para marcos de aplicaciones de una sola página/MVC
+
+## Vídeo de formación: at.js; prácticas recomendadas para la implementación y sus ventajas
+
+Este vídeo es una grabación de “[Horario de oficina](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
+
+* Cómo funciona la biblioteca at.js
+* Las ventajas de at.js sobre mbox.js
+* Cómo gestiona at.js el parpadeo
+* Gestión de errores en at.js
+* Metodologías de depuración
+* Problemas conocidos y hoja de ruta
+
+>[!VIDEO](https://video.tv.adobe.com/v/22223/)
