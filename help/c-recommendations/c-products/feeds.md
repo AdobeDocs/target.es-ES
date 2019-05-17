@@ -1,0 +1,312 @@
+---
+description: Utilice fuentes para obtener entidades importadas en Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
+keywords: fuente de recomendaciones;fuente;SAINT;FTP;CSV
+seo-description: Utilice fuentes para obtener entidades importadas en Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
+seo-title: Fuentes
+solution: Target
+title: Fuentes
+title-outputclass: premium
+topic: Premium
+uuid: b228a0de-e201-4567-ad09-1190196babda
+badge: premium
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# ![PREMIUM](/help/assets/premium.png) Fuentes{#feeds}
+
+Utilice fuentes para obtener entidades importadas en Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
+
+## Resumen de las fuentes {#concept_D1E9C7347C5D4583AA69B02E79607890}
+
+Utilice fuentes para obtener entidades importadas en Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
+
+Las fuentes le permiten transferir [Entidades](../../c-recommendations/c-products/products.md#concept_FD935A24D98745FFB2447933FCEB8062) o ampliar los datos de mbox con información que, o bien no está disponible en la página, o bien no es seguro enviar directamente desde la página, como margen, COGS, etc.
+
+Puede seleccionar las columnas de su archivo de clasificaciones de productos de Adobe Target o del archivo de Búsqueda de productos de Google que desea enviar al servidor de [!DNL Recommendations]. Estos fragmentos de datos acerca de cada artículo pueden utilizarse posteriormente en la visualización de plantillas y para controlar las recomendaciones.
+
+Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
+
+La lista de [!UICONTROL Fuentes] (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado. Para editar el nombre de una fuente, debe editar la propia fuente. Cuando guarda la fuente con un nombre nuevo, esta se actualiza.
+
+>[!NOTE]
+>
+>Si la fuente [!UICONTROL Última actualización] indica “sin definir”, significa que la fuente procede de [!DNL Recommendations Classic] y no se puede cambiar desde [!DNL Target Premium Recommendations].
+
+## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+
+Puede crear un archivo `.csv` utilizando el formato de carga CSV de Adobe. El archivo contiene información de visualización sobre los atributos reservados y personalizados para sus productos. Para cargar atributos específicos de su implementación, reemplace `CustomN` en la fila del encabezado con el nombre del atributo que desea utilizar. En el ejemplo siguiente, `entity.Custom1` ha sido reemplazado por `entity.availability`. A continuación, puede subir de forma masiva el archivo al servidor de [!DNL Recommendations].
+
+El uso del formato .csv tiene las siguientes ventajas sobre el formato de Google Feed:
+
+* No requiere asignaciones de campo.
+* Admite atributos multivalor (vea el siguiente ejemplo).
+* Admite hasta 100 atributos personalizados. Si necesita más de 100 atributos personalizados, puede crear un segundo archivo de fuente con un conjunto diferente de atributos personalizados específicos.
+
+Utilice el método de carga masiva para enviar la información de visualización si no tiene mboxes en la página o si desea complementar dicha información con artículos que no estén disponibles en el sitio. Por ejemplo, es posible que desee enviar la información del inventario de que no esté publicada en el sitio.
+
+Cualquier dato cargado con el archivo [!DNL .csv], con la fuente de producto de Google o con la fuente de clasificación de productos Analytics sobrescribe el valor de atributo de entidad existente en nuestra base de datos. Si envía información de precios mediante solicitudes mbox y, a continuación, envía valores de precios diferentes en el archivo, los valores del archivo sobrescriben los valores establecidos en la solicitud mbox. Una excepción a esto es el atributo de entidad `categoryId` donde los valores de categoría se anexan en lugar de sobrescribirse hasta el límite de 250 caracteres.
+
+>[!IMPORTANT]
+>
+>No escriba los valores entre comillas dobles (“ ”) en el archivo [!DNL .csv] a menos que lo haga deliberadamente. Si coloca los valores entre comillas dobles, debe escaparlos escribiendo otro par de comillas dobles. Si las comillas dobles no se escapan, la fuente de recomendaciones no se carga correctamente.
+
+Por ejemplo, la sintaxis siguiente es incorrecta:
+
+```
+"Apples "Bananas" Grapes"",
+```
+
+La sintaxis correcta sería esta:
+
+```
+"Apples ""Bananas"" Grapes""",
+```
+
+>[!NOTE]
+>
+>No se puede sobrescribir un valor existente con un valor en blanco. Para sobrescribirlo, debe pasar otro valor en su lugar. En el caso del precio de venta, se suele enviar un “NULL” real u otro mensaje. A continuación, puede escribir una regla de plantilla para excluir los artículos con el valor en cuestión.
+
+El producto está disponible en la interfaz de administración de aproximadamente dos horas después de cargar su entidad correctamente.
+
+El siguiente es un código de muestra de un archivo .csv:
+
+```
+## RECSRecommendations Upload File 
+## RECS''## RECS'' indicates a Recommendations pre-process header. Please do not remove these lines. 
+## RECS 
+## RECSUse this file to upload product display information to Recommendations. Each product has its own row. Each line must contain 19 values and if not all are filled a space should be left. 
+## RECSThe last 100 columns (entity.custom1 - entity.custom100) are custom. The name 'customN' can be replaced with a custom name such as 'onSale' or 'brand'. 
+## RECSIf the products already exist in Recommendations then changes uploaded here will override the data in Recommendations. Any new attributes entered here will be added to the product''s entry in Recommendations. 
+## RECSentity.id,entity.name,entity.categoryId,entity.message,entity.thumbnailUrl,entity.value,entity.pageUrl,entity.inventory,entity.margin,entity.last_updated_by,entity.multi_english,entity.availability,entity.tax_country,entity.tax_region,entity.tax_rate,entity.product_type,entity.item_group_id,entity.color,entity.size,entity.brand,entity.gtin 
+na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium with round case,https://example.com/s7/na3456_Viewer,425,https://example.com/shop/en-us/na3456_RipCurl,24,0.25,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Titanium,44mm,RipCurl,"075380 01050 5" 
+na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
+```
+
+## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+
+>[!IMPORTANT]
+>
+>El tipo de fuente de Búsqueda de productos de Google utiliza el formato de Google. Es distinto al formato de carga CSV propiedad de Adobe.
+
+Si tiene una fuente de producto de Google existente, puede usarlo como su archivo de importación.
+
+>[!NOTE]
+>
+>No es obligatorio usar datos de Google. [!DNL Recommendations] solo utiliza el mismo formato que Google. Puede usar este método para cargar los datos que tenga y utilizar las funciones de programación disponibles. No obstante, debe conservar los nombres de atributo predefinidos de Google al configurar el archivo.
+
+La mayoría de vendedores cargan los productos a Google para que dichos productos se muestren cuando un visitante realice una búsqueda de productos en Google. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Las fuentes de entidad se pueden enviar a [!DNL Recommendations] través [!DNL .xml][!DNL .txt], o [!DNL .tsv], y pueden utilizar [los atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
+
+>[!NOTE]
+>
+>El método POST debe estar permitido en el servidor que hospeda el contenido de las fuentes de Google.
+
+Puesto que los usuarios de [!DNL Recommendations] ya configuran fuentes [!DNL .xml] o [!DNL .txt] para enviarlas a Google a través de URL o FTP, las fuentes de entidades aceptan esos datos de productos y los utilizan para crear el catálogo de Recommendations. Especifique si la fuente existe y si el servidor de Recommendations recupera los datos.
+
+Si utiliza la búsqueda de productos de Google para la carga de las fuentes de entidades, debe tener no obstante un mbox de página de producto en la página si desea mostrar recomendaciones en ella o hacer un seguimiento de las vistas de productos para la entrega de algoritmos basados en vistas.
+
+Las fuentes de Google no admiten valores múltiples para un atributo personalizado.
+
+La fuente se ejecuta en el momento en que la guarda y la activa. Se ejecuta en el momento en que guarda la fuente, y cada día una hora más tarde.
+
+El siguiente es un código de muestra para un archivo .xml de una fuente de Google Product Search:
+
+```
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<feed xmlns="https://www.w3.org/2005/Atom" xmlns:ns2="https://base.google.com/ns/1.0" xmlns:ns3="https://base.google.com/cns/1.0"> 
+    <title>Product Feed</title> 
+    <link href="https://example.com"/> 
+    <updated>2017-12-13T08:45:04.918-08:00</updated> 
+    <author> 
+        <name>Product Feed Author</name> 
+    </author> 
+    <id>https://example.com</id> 
+    <entry> 
+        <title>RipCurl Watch with Titanium Dial</title> 
+        <description>Cutting edge Titanium with Round case</description> 
+        <ns2:id>na3452</ns2:id> 
+        <ns2:link>https://example.com/shop/en-us/na3452_RipCurl</ns2:link> 
+        <ns2:availability>in stock</ns2:availability> 
+        <ns2:condition>NEW</ns2:condition> 
+        <ns2:google_product_category>Watches &amp; Sport</ns2:google_product_category> 
+        <ns2:gtin>075380 01050 5</ns2:gtin> 
+        <ns2:image_link>https://example.com/s7/na3452_Viewer</ns2:image_link> 
+        <ns2:mobile_link>https://m.example.com/s7/na3452_Viewer</ns2:mobile_link> 
+        <ns2:mpn>71050</ns2:mpn> 
+        <ns2:price>425</ns2:price> 
+        <ns2:product_review_average>5.0</ns2:product_review_average> 
+        <ns2:product_review_count>30</ns2:product_review_count> 
+        <ns2:product_type>Shop by Category > Watches </ns2:product_type> 
+        <ns2:brand>RipCurl</ns2:brand> 
+        <ns2:sale_price>375</ns2:sale_price> 
+        <ns2:tax> 
+          <ns2:country>US</ns2:country> 
+          <ns2:region>CA</ns2:region> 
+          <ns2:rate>9.25</ns2:rate> 
+          <ns2:tax_ship>y</ns2:tax_ship> 
+        </ns2:tax> 
+        <ns2:is_bundle>N</ns2:is_bundle> 
+    </entry> 
+    <entry> 
+        <title>RipCurl Watch with Black Dial</title> 
+        <description>Cutting edge matte black with Round case</description> 
+        <ns2:id>na3453</ns2:id> 
+        <ns2:link>https://example.com/shop/en-us/na3453_RipCurl</ns2:link> 
+        <ns2:availability>in stock</ns2:availability> 
+        <ns2:condition>NEW</ns2:condition> 
+        <ns2:google_product_category>Watches &amp; Sport</ns2:google_product_category> 
+        <ns2:gtin>075380 013450 5</ns2:gtin> 
+        <ns2:image_link>https://example.com/s7/na3453_Viewer</ns2:image_link> 
+        <ns2:mobile_link>https://m.example.com/s7/na3453_Viewer</ns2:mobile_link> 
+        <ns2:mpn>71050</ns2:mpn> 
+        <ns2:price>275</ns2:price> 
+        <ns2:product_review_average>4.8</ns2:product_review_average> 
+        <ns2:product_review_count>23</ns2:product_review_count> 
+        <ns2:product_type>Shop by Category > Watches </ns2:product_type> 
+        <ns2:brand>RipCurl</ns2:brand> 
+        <ns2:sale_price>249</ns2:sale_price> 
+        <ns2:tax> 
+          <ns2:country>US</ns2:country> 
+          <ns2:region>CA</ns2:region> 
+          <ns2:rate>9.25</ns2:rate> 
+          <ns2:tax_ship>y</ns2:tax_ship> 
+        </ns2:tax> 
+        <ns2:is_bundle>N</ns2:is_bundle> 
+    </entry> 
+</feed> 
+```
+
+El siguiente es un código de muestra para un archivo .tsv de una fuente de Google Product Search:
+
+```
+id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
+na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round case    https://example.com/shop/en-us/na3454_RipCurl    425    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075380 01050 5    DZ1437 
+na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
+```
+
+## Clasificaciones de productos Analytics   {#section_79E430D2C75443BEBC9AA0916A337E0A}
+
+La clasificación de productos Analytics es la única clasificación disponible para Recommendations. Para obtener más información sobre este archivo de clasificación, consulte [Clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) en la guía de *Ayuda y referencia de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía de usuario.
+
+>[!IMPORTANT]
+>
+>Antes de importar a Recommendations los datos de la entidad que usan clasificaciones de productos de Analytics, tenga en cuenta que este no es el método preferido.
+> Tenga en cuenta las siguientes advertencias:
+>* Las actualizaciones de los atributos de la entidad incurren en un retraso adicional de hasta 24 horas.
+>* Target solo admite clasificaciones de productos. El SKU del producto de Analytics debe asignarse al mismo nivel que la entidad de Recommendations.id. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
+
+
+## Crear fuente   {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+
+Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
+
+<!-- 
+
+recs/t_feeds_create.xml
+
+ -->
+
+1. En la interfaz de Target, haga clic en **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Fuentes]** &gt; **[!UICONTROL Crear fuente]**.
+
+   ![Resultado del paso](assets/CreateFeed.png)
+
+1. Elija un nombre descriptivo para la fuente.
+1. Seleccione un **[!UICONTROL Tipo de fuente]**.
+
+   Si desea información sobre fuentes de producto de Google y tipos de fuentes CSV, consulte [Información general de fuentes](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890).
+1. Especifique un grupo de informes, o la dirección URL o la ubicación FTP desde donde se puede acceder a la fuente.
+
+   Si elige la ubicación FTP, indique los datos del servidor FTP, las credenciales de inicio de sesión, el nombre de archivo y el directorio de FTP. Tiene la opción de usar FTP con SSL (FTPS) para que las cargas sean más seguras.
+
+   Si elige dirección URL, especifíquela.
+1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Programar].
+
+   ![Resultado del paso](assets/CreateFeedSchedule.png)
+
+1. Seleccione una opción de actualización:
+
+   * Diario
+   * Semanal
+   * Cada 2 semanas
+   * Nunca
+   No programe una actualización. Seleccione esta opción si no quiere que se ejecute esta fuente.
+
+1. Especifique durante cuánto tiempo quiere que se ejecute la fuente.
+
+   Esta opción está basada en la zona horaria establecida en el navegador. Si quiere usar una hora de otra zona horaria, tiene que calcularla según su propia zona horaria.
+1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Asignación] y, a continuación, especifique cómo quiere asignar los datos a las definiciones de [!DNL Target].
+
+   ![Resultado del paso](assets/CreatFeedMapping.png)
+
+1. (Opcional) Si quiere que la fuente pertenezca a un entorno (grupo de hosts), seleccione el grupo de hosts.
+
+   De manera predeterminada, la fuente pertenece a todos los grupos de hosts. De este modo se garantiza que los elementos de la fuente estén disponibles en cualquier entorno.
+
+   >[!NOTE]
+   >
+   >Para obtener más información, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+Después de crear o editar una fuente, esta se ejecuta de inmediato y después se actualiza según los parámetros que establezca. Se tarda un poco en mostrar toda la información. Primero es necesario sincronizar la fuente, después debe procesarse e indizarse para poder publicarla y ponerla a disposición del público. El estado actual aparece bajo   [Estado de fuente](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) en la lista Fuentes. Puede cerrar [!DNL Target] antes de que el proceso se haya completado y el proceso seguirá su curso.
+
+Mientras la indización está en curso, se muestran los encabezados de la fuente y los productos antes de indizar los valores individuales. Esto le permite buscar y ver productos para crear colecciones, exclusiones, diseños y actividades antes de que se haya completado el indizado.
+
+Cuando el estado indica “Correcto”, significa que el archivo se ha encontrado y se ha analizado correctamente. La información no está disponible para su uso en [!DNL Recommendations] hasta que se indexa el archivo. La tarea de indexación puede tardar bastante, en función del tamaño del archivo. Si se produce un error en el proceso, se debe a que no se encontró el archivo (por ejemplo, utilizó una dirección URL incorrecta o unos datos de FTP incorrectos) o que se produjo un error de análisis.
+
+## Estados e indicadores de alimentación   {#concept_E475986720D1400999868B3DFD14A7A0}
+
+Información sobre los posibles estados de alimentación y sus indicadores.
+
+### Estados de las fuentes {#section_5DDC2DECF70A42FDAFF2235E91371537}
+
+Estos son los posibles estados de una fuente:
+
+| Estado | Descripción |
+|--- |--- |
+| Sincronización | Los detalles de configuración de la fuente se están guardando en Target. |
+| Falló la sincronización | Los detalles de configuración de fuentes no se podían guardar en Target. Inténtelo de nuevo. |
+| Sin ejecución de fuente | Ha creado una fuente pero no se ha programado (la frecuencia se ha establecido en Nunca). |
+| Programado para *fecha y hora* | La fuente no se ha ejecutado, pero está programada para ejecutarse en la fecha y la hora establecidas. |
+| Esperando descarga | Target se está preparando para descargar el archivo de fuente. |
+| Descarga del archivo de fuente | Target está descargando el archivo de fuente. |
+| Importación de artículos | Target está importando elementos del archivo de fuente. Nota: Una vez que se complete este paso y se muestra &quot;Preparando actualizaciones del índice de búsqueda&quot;, se importaron los cambios a los atributos del elemento en nuestro sistema central y se reflejarán en el contenido de recomendaciones entregado devuelto por nuestros nodos de Edge geográficos en un lapso de 60 minutos. |
+| Preparación de las actualizaciones de índice de búsqueda | Target se está preparando para actualizar el índice de búsqueda del catálogo. Nota: Si se indica este estado, ya se han realizado cambios en los atributos del elemento y se reflejarán en breve en las recomendaciones enviadas, aunque aún no se hayan reflejado en la Búsqueda en catálogo. |
+| Actualización del índice de búsqueda | Target está actualizando el índice Buscar en el catálogo. Nota: Si se indica este estado, ya se han realizado cambios en los atributos del elemento y se reflejarán en breve en las recomendaciones enviadas, aunque es posible que aún no se reflejen en la Búsqueda en catálogo. |
+| Actualizaciones completadas | Target ha completado todas las actualizaciones asociadas con el archivo de fuente. |
+| Error al indexar | Error en la operación de índice. Inténtelo de nuevo. |
+| Servidor no encontrado | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
+
+Para actualizar una fuente (por ejemplo, si quiere hacer cambios en la configuración o el archivo de la fuente), ábrala, aplique los cambios y haga clic en **[!UICONTROL Guardar]**.
+
+>[!IMPORTANT]
+>
+>Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuente debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recomendaciones. Si un elemento no se incluye en un archivo de fuente (u otro método de actualización de entidad) al menos una vez cada 60 días, Adobe Target deduce el elemento ya no es relevante y lo elimina del catálogo.
+
+### Indicadores de estado de fuente   {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+
+En la columna [!UICONTROL Estado] se muestran los siguientes indicadores de estado de fuente:
+
+| Indicador de estado | Descripción |
+|--- |--- |
+| Indicador de estado verde | Cuando una fuente termina de indexarse correctamente, aparece un punto de estado verde que indica que la fuente tiene un estado correcto. |
+| Indicador de estado amarillo | Cuando una fuente o índice de fuente tiene un retraso de un 25 % de la frecuencia de la fuente, se muestra un punto de estado amarillo. Por ejemplo, el punto amarillo aparece en una fuente configurada para ejecutarse a diario si el índice aún no se ha completado pasadas seis horas de la hora programada.   Nota: Una vez que el estado de la fuente es “Esperando a la cola de índice”, los valores recién actualizados ya están disponibles para su publicación y el procesamiento de criterios. |
+| Indicador de estado blanco | Cuando una fuente no está programada, un punto de estado blanco indica que aún no se ha ejecutado. |
+| Indicador de estado rojo | Si la fuente no consigue cargar datos en el servidor, se muestra un indicador de estado rojo. |
+Veamos los siguientes ejemplos:
+
+**Ejemplo 1:**
+
+* Día uno: la fuente diaria se procesa a las 9:00 PST
+* Día dos: son las 15:30 y la fuente no se ha ejecutado desde ayer a las 9:00
+
+El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace 6 horas y media. 6,5 horas + 24 es un 127 % del plazo de la fuente.
+
+**Ejemplo 2:**
+
+* 1 de enero: la fuente mensual se procesa a las 9:00 PST
+* 3 de febrero: son las 10:00 y la fuente no se ha ejecutado desde hace un mes, un día y una hora
+
+El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace un día y una hora. Aunque esto es solo [31 + (1/25)]/30 = 1,03 % de la configuración de frecuencia, se ha superado el retraso máximo de un día.
