@@ -1,0 +1,70 @@
+---
+description: Use el Compositor de experiencias visuales para crear las ofertas que desea incluir en su prueba.
+seo-description: Use el Compositor de experiencias visuales para crear las ofertas que desea incluir en su prueba.
+seo-title: Crear combinaciones
+title: Crear combinaciones
+uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Crear combinaciones{#create-combinations}
+
+Use el Compositor de experiencias visuales para crear las ofertas que desea incluir en su prueba.
+
+>[!NOTE]
+>
+>Cuando seleccione los objetos de la página, puede hacer clic en **[!UICONTROL Expandir selección]** para seleccionar el elemento principal, además del elemento que seleccionó en un principio. Al seleccionar un elemento principal, se seleccionan automáticamente todos los elementos secundarios de dicho elemento. Puede expandir la selección varias veces.
+
+El Compositor de experiencias visuales permite editar ofertas, nombres de ofertas y nombres de ubicaciones. Se muestra una superposición para indicar dónde se han realizado cambios.
+
+![](assets/overlay.png)
+
+## Ofertas de imágenes   {#section_A48333211DB149ED926AE467D0032914}
+
+Pruebe varias ofertas de imágenes en una ubicación para determinar qué imagen logra un mayor éxito.
+
+1. Haga clic en una imagen de la página y seleccione **[!UICONTROL Cambiar imagen]**.
+
+   ![](assets/changeimage.png)
+
+1. Seleccione todas las imágenes que quiera incluir en la prueba y haga clic en **[!UICONTROL Guardar]**.
+
+   ![](assets/addimage.png)
+
+Cada imagen se convierte en una experiencia independiente en esa ubicación.
+
+## Ofertas HTML   {#section_DF016101AFA9412C9B99862C23DE77B1}
+
+Pruebe varias ofertas de texto/HTML en una ubicación para determinar qué oferta logra un mayor éxito.
+
+1. Haga clic en una oferta de texto/HTML de su página y seleccione **[!UICONTROL Cambiar texto/HTML]**.
+
+   ![](assets/changehtml.png)
+
+1. Haga clic en **[!UICONTROL Agregar oferta de texto/HTML]**, asigne un nombre a la oferta y escriba o pegue el código de la oferta.
+
+   ![](assets/editoffers.png)
+
+   >[!NOTE]
+   >
+   >Internet Explorer 10 no admite marcadores de posición de entrada HTML5. Por este motivo, si utiliza IE10, el texto del marcador de posición “Agregar contenido” permanecerá en el campo Texto cuando añada el contenido.
+
+   Repita este proceso para cualquier otra oferta de HTML que quiera incluir.
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+Cada oferta de texto/HTML se convierte en una experiencia independiente en esa ubicación.
+
+## Prácticas recomendadas {#section_2E98C23D2F1A460FA732A31799CE6291}
+
+* No incluya en la prueba más ubicaciones de las necesarias. Cada experiencia que incluya en la prueba aumenta considerablemente la cantidad de tráfico y el tiempo necesario para obtener resultados aceptables. Por ejemplo, si tiene elementos de página con tres ofertas cada uno, hay nueve combinaciones posibles (3x3). Cuando hay tres elementos, de los cuales dos contienen tres ofertas posibles y uno tiene dos ofertas, se generan 18 opciones (3x3x2). Los números aumentan considerablemente con cada elemento y oferta adicional.
+* Ahora, al crear pruebas multivariable, puede excluir más del 10 % de las experiencias de la prueba siempre y cuando tenga en cuenta la advertencia de utilizar la creación de informes sin conexión para el análisis.
+* Aproveche las características de vista previa para evitar combinaciones de contenido no deseadas. Por ejemplo, es posible que tenga dos imágenes que ofrezcan descuentos distintos en el mismo artículo o servicio. Mostrar las dos imágenes en la misma página no sería lógico y es probable que genere confusión.
+* Utilice el Estimador de tráfico para asegurarse de que la prueba está diseñada para la cantidad de tráfico que recibe su página. Asegúrese de que el Estimador de tráfico aprueba la configuración de la prueba, para que pueda obtener los resultados que desea.
+* Debe contar con un mínimo de tres elementos que probar. Si tiene menos, ejecute una serie de   pruebas A/B.
+* Es recomendable que las alternativas de cada elemento sean bastante diferentes entre sí.
+* Aunque no es necesario, es aconsejable que cada elemento tenga el mismo número de alternativas.
+
