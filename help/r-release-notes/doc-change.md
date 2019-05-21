@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # Cambios de la documentación{#documentation-changes}
 
 Esta página enumera los cambios importantes realizados en [!DNL Adobe Target] la documentación.
+
+## Adobe Target Standard/Premium 19.5.1 (21 de mayo de 2019) {tgt -19-5-1}
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| 21 de mayo de 2019 | [Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>Se ha actualizado la información sobre la opción «Mover».</li><li>Se agregó que se pueden realizar muchas acciones antes de que la página se cargue en el VEC, o incluso si la página no se puede cargar por completo. </li></ul> |
+|  | [Usuarios](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Texto uded, imágenes actualizadas y vídeo de formación añadido. |
+|  | [Configuración de permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Texto y imágenes definidos. |
+|  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha agregado el límite de caracteres para el ID de alias de atributos del cliente. |
+|  | [Notas de la versión](/help/r-release-notes/release-notes.md): 19.5.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 19.4.2 (30 de abril de 2019) {19-4-2}
 
