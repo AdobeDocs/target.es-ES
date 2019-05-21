@@ -8,7 +8,7 @@ title: Compositor de experiencias visuales para aplicaciones de una sola página
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -198,9 +198,9 @@ El panel [!UICONTROL Modificaciones], como se muestra a continuación, captura l
 
 **Acciones**
 
-Al hacer clic en una acción se resalta el elemento del sitio donde se aplicará esta acción. Cada acción de VEC creada dentro de una vista tiene cuatro iconos tal como se muestra más abajo: Información, Editar, Mover a “Carga de página” y Eliminar.
+Al hacer clic en una acción se resalta el elemento del sitio donde se aplicará esta acción. Cada acción del VEC creada en una Vista tiene cuatro iconos como se muestra a continuación: Información, Editar, Mover y Eliminar.
 
-![Panel de modificaciones](/help/c-experiences/assets/modifications.png)
+![Modificaciones](/help/c-experiences/assets/modifications-new.png)
 
 La siguiente tabla describe cada acción:
 
@@ -208,8 +208,12 @@ La siguiente tabla describe cada acción:
 | --- | --- |
 | Información | Muestra los detalles de esta acción. |
 | Editar | Permite editar las propiedades de esta acción directamente. |
-| Mover a “Carga de página” | Mueve la acción al evento de carga de página. Estas acciones suelen aplicarse al HTML estático de la SPA que se utiliza en todas las páginas, como el encabezado y el pie de página. |
+| Mover   | Mueve la acción a un Evento de carga de página o a cualquier otra Vista que ya exista en el panel de modificaciones.<br>[!UICONTROL Evento] de carga de página: cualquier acción que corresponda al evento de carga de página se aplica en la carga inicial de la página web.<br>**Nota** Después de realizar una operación de traslado, debe navegar a la vista en el VEC a través de Examinar para ver si el desplazamiento era una operación válida. Si la acción no se puede aplicar a la vista, verá un error |
 | Eliminar | Elimina la acción. |
+
+>[!NOTE]
+>
+>Puede realizar muchas acciones antes de que la página se cargue en el VEC, o incluso si la página no se puede cargar por completo. Las acciones que no se pueden editar antes de que el sitio web cargue no aparecerán en la IU de 
 
 **Ejemplo 1**
 
