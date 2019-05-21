@@ -9,7 +9,7 @@ title: Usuarios
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -45,7 +45,7 @@ Para tareas realizadas en Adobe Admin Console, acceda a la consola siguiendo est
 
    O
 
-   Si ya ha iniciado sesión en Experience Cloud, vaya a [https://www.marketing.adobe.com](https://www.marketing.adobe.com/), luego haga clic en el icono [!UICONTROL de la aplicación] en la barra de navegación superior &gt; haga clic **[!UICONTROL en Administración]** a la derecha &gt; luego haga clic **[!UICONTROL en Iniciar Admin Console]**.
+   Si ya ha iniciado sesión en Experience Cloud, vaya a [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)y, a continuación, haga clic en el icono [!UICONTROL de la aplicación] en la barra de navegación superior &gt; haga clic **[!UICONTROL en Administrador]** en el lado derecho.
 
 1. (Condicional) Si tiene acceso a [!DNL Admin Console for Enterprise] para más de una organización, haga clic en el avatar del usuario en la esquina derecha o en la barra de navegación superior y, a continuación, seleccione la organización que quiera.
 
@@ -53,14 +53,14 @@ Para tareas realizadas en Adobe Admin Console, acceda a la consola siguiendo est
 
 Toda la administración de usuarios debe realizarse en [!DNL Adobe Admin Console for Enterprise]. Sin embargo, todos los usuarios existentes en [!DNL Target] se migrarán de [!DNL Target] a [!DNL Admin Console for Enterprise].
 
-1. [En Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en **[!UICONTROL Administración de usuarios]** &gt; **[!UICONTROL Usuarios]** para crear usuarios nuevos o editar los existentes.
+1. [En Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic **[!UICONTROL en Usuarios]** &gt; **[!UICONTROL Usuarios]** para crear nuevos usuarios o editar los usuarios existentes.
 1. Siga las instrucciones de [Administrar usuarios y grupos en Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) en la *Guía del usuario de Enterprise*.
 
 ## Crear grupos de usuarios {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 Puede crear grupos de usuarios, como Desarrolladores, Analistas, Especialistas en marketing, Ejecutivos, etc., y luego asignar privilegios en varios productos y espacios de trabajo de Adobe. Asignar todos los privilegios apropiados en diferentes productos de Adobe a un nuevo miembro del equipo puede ser tan fácil como añadirlos a un grupo de usuarios específico.
 
-1. [En Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en **[!UICONTROL Administración de usuarios]** &gt; **[!UICONTROL Grupos de usuarios]** para crear grupos de usuarios nuevos o editar los existentes.
+1. [En Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic **[!UICONTROL en Usuarios]** &gt; **[!UICONTROL Grupos de usuarios]** para crear grupos de usuarios nuevos o editar los existentes.
 1. Siga las instrucciones de [Administrar usuarios y grupos en Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) en la *Guía del usuario de Enterprise*.
 
 ## Especificar roles y permisos {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
@@ -71,21 +71,33 @@ Los usuarios administradores del sistema deben agregar usuarios al sistema. Los 
 
 1. [En Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en **[!UICONTROL Productos]** y, a continuación, seleccione el nombre del producto deseado.
 
-   ![](assets/workspace.png)
+   ![Ficha Productos](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. Haga clic en el nombre de la configuración deseada.
-1. Haga clic en **[!UICONTROL Usuarios de configuración]**.
+1. Haga clic en **[!UICONTROL Usuarios]**.
 
-   La ficha [!UICONTROL Usuarios de configuración] muestra todos los usuarios de un espacio de trabajo.
+   La ficha [!UICONTROL Usuarios] muestra todos los usuarios de ese espacio de trabajo.
 
-   ![](assets/configuration_users.png)
+   ![usuarios de configuración](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
 1. Seleccione el rol de permisos deseado (Observador, Editor o Aprobador) utilizando la lista desplegable de cada usuario en la columna [!UICONTROL Rol del producto].
 
-| Función | Descripción |
-|--- |--- |
-| Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
-| Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
-| Aprobador | Puede crear, editar y activar o detener actividades. |
+   | Función | Descripción |
+   |--- |--- |
+   | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
+   | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
+   | Aprobador | Puede crear, editar y activar o detener actividades. |
 
 Para obtener más información, consulte [Administrar permisos y roles de producto en Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) en la *Guía del usuario de Enterprise*.
+
+## Vídeo de capacitación: Cómo configurar espacios de trabajo de Target
+
+Objetivos de aprendizaje:
+
+* Acceda a Adobe Admin Console desde la interfaz de Adobe Target (tres formas)
+* Configurar un espacio de trabajo en Adobe Admin Console
+   * Agregación de usuarios a espacios de trabajo
+   * Agregación de propiedades a espacios de trabajo
+* Explicación de los espacios de trabajo predeterminados
+
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
