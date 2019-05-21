@@ -8,7 +8,7 @@ title: Varias versiones de una experiencia en una prueba A/B
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -33,7 +33,9 @@ En este caso, lo que necesitamos son versiones geográficas de la experiencia pa
 
 1. [Cree una actividad A/B](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) del modo normal.
 
-   Al configurar la experiencia que tendrá varias versiones, seleccione la audiencia de cada versión, como vemos en los pasos siguientes. 1. Seleccione la experiencia y haga clic en **[!UICONTROL Configurar]** &gt; **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Múltiples audiencias.]**
+   Al configurar la experiencia que tendrá varias versiones, seleccione la audiencia de cada versión, como vemos en los pasos siguientes.
+
+1. Seleccione la experiencia y haga clic en **[!UICONTROL Configurar]** &gt; **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Múltiples audiencias]**.
 
    ![](assets/multiple-audiences.png)
 
@@ -44,6 +46,7 @@ En este caso, lo que necesitamos son versiones geográficas de la experiencia pa
    Si la audiencia todavía no existe, haga clic en [Crear audiencia](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) y configúrela.
 
    Si un visitante cumple los requisitos de más de una audiencia, se devuelve el contenido de todas las audiencias, pero en la página se representa la última de la lista.
+
 1. Continúe configurando la actividad.
 
 **Prácticas recomendadas**
