@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
+source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 ---
 
@@ -24,6 +24,7 @@ Esta página enumera los cambios importantes realizados en [!DNL Adobe Target] l
 | 22 de mayo de 2019 | [Compositor de experiencias visuales para aplicaciones móviles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | Se ha agregado un vídeo de capacitación. |
 |  | [iOS: configuración de la aplicación móvil](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | Se han añadido vínculos a nuevos tutoriales:<ul><li>Implementar Experience Cloud en aplicaciones Ios-C de Mobile iOS</li><li>Implementar Experience Cloud en aplicaciones móviles iOS de Mobile</li></ul> |
 |  | [Android: configuración de la aplicación móvil](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | Se agregó un vínculo al nuevo tutorial:<ul><li>Implementar Experience Cloud en aplicaciones Android móviles</li></ul> |
+|  | [Introducción a Target](/help/c-intro/intro.md#kit) | Se agregó un vínculo al kit de bienvenida de Adobe Target. |
 | 21 de mayo de 2019 | [Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>Se ha actualizado la información sobre la opción «Mover».</li><li>Se agregó que se pueden realizar muchas acciones antes de que la página se cargue en el VEC, o incluso si la página no se puede cargar por completo. </li></ul> |
 |  | [Usuarios](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Texto uded, imágenes actualizadas y vídeo de formación añadido. |
 |  | [Configuración de permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Texto y imágenes definidos. |
