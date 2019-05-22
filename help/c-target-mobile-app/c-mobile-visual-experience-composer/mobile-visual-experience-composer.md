@@ -7,7 +7,7 @@ title: Compositor de experiencias visuales para aplicaciones móviles
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -197,3 +197,6 @@ Tenga en cuenta que, cada vez que se obtienen ofertas de Target, también se apl
    * El cuadro de diálogo de dispositivos se muestra cuando se desplaza del paso “Objetivos y configuración” al paso “Creación” (paso 1). Si la aplicación ya está abierta, debe cerrar y volver a iniciar la aplicación para conectarse al VEC de la aplicación móvil.
    Asegúrese de cerrar la aplicación desde la sección de aplicaciones recientes y no presionando el botón [!UICONTROL Atrás].
 
+## Vídeo de capacitación: Compositor de experiencias visuales de la aplicación móvil de Adobe Target (3:33) {#video}
+
+>[!VIDEO](https://www.youtube.com/watch?v=VOahCFx0sV4)
