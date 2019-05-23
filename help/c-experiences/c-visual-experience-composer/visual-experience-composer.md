@@ -5,7 +5,7 @@ seo-title: Compositor de experiencias visuales (VEC) de Adobe Target
 title: Compositor de experiencias visuales (VEC)
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -14,7 +14,9 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 Información sobre el uso de VEC (Visual Experience Composer).
 
-El VEC es una de las características principales de [!DNL Adobe Target]. El VEC es un editor que permite a los comerciantes y diseñadores crear y cambiar contenido mediante una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
+El VEC es una interfaz de usuario WYSIWYG que permite crear y probar fácilmente experiencias y ofertas personalizadas en el contexto del sitio. Puede crear experiencias y ofertas para actividades de Target arrastrando y soltando, intercambiando y modificando el diseño y el contenido de una página Web (o oferta) o una página Web móvil.
+
+El VEC es una de las características principales de [!DNL Adobe Target]. El VEC permite a los comerciantes y diseñadores crear y cambiar contenido mediante una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
 
 En Target, en la pestaña **[!UICONTROL Configuración]** &gt; **[!UICONTROL Preferencias]**, puede introducir la dirección URL predeterminada del Compositor de experiencias visuales.
 
