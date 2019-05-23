@@ -7,7 +7,7 @@ solution: Target
 title: Audiencias
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 # Audiencias{#audiences}
 
 Para optimizar el marketing web, puede segmentar contenido y experiencias diferentes para determinadas audiencias mostrando los mensajes adecuados para cada tipo de persona y en el momento adecuado.
+
+Una audiencia es un grupo de participantes de actividades similares que verán una actividad segmentada. Grupo de personas con las mismas características, como un visitante nuevo, un visitante reincidente o visitantes que regresan desde Midwest. La función Audiencia le permite dirigir contenido y experiencias diferentes a audiencias específicas para optimizar su marketing digital mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará, según los criterios definidos durante la creación de la actividad.
 
 De manera predeterminada, el tráfico se divide a partes iguales entre las experiencias. Sin embargo, puede especificar    segmentos de porcentaje para cada experiencia.
 
