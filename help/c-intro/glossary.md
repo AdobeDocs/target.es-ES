@@ -7,7 +7,7 @@ title: Glosario
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -48,7 +48,7 @@ La biblioteca [!DNL at.js] es una nueva biblioteca de implementación para [!DNL
 
 **audiencia**
 
-Grupo de participantes con características similares en una actividad a los se les mostrará una actividad segmentada.
+Grupo de participantes con características similares en una actividad a los se les mostrará una actividad segmentada.  Grupo de personas con las mismas características, como un visitante nuevo, un visitante reincidente o visitantes que regresan desde Midwest. La función Audiencia le permite dirigir contenido y experiencias diferentes a audiencias específicas para optimizar su marketing digital mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará, según los criterios definidos durante la creación de la actividad.
 
 **Asignación automática**
 
@@ -154,6 +154,10 @@ Medición del interés de un visitante en un sitio, según el tiempo que ha perm
 
 El [!UICONTROL Compositor de experiencias mejorado] es una extensión del [!UICONTROL Compositor de experiencias visuales] que ayuda a editar una experiencia para un sitio con eliminación de iframes o páginas que aún no incluyen la implementación de [!DNL Target]. Si tiene problemas para abrir la página en el [!UICONTROL Compositor de experiencias visuales], pruebe con el [!UICONTROL Compositor de experiencias mejorado].
 
+**Permisos de usuario de Enterprise**
+
+Un medio de administración formal de usuarios en todo el sitio para Target. Agregue usuarios a Target, asigne permisos según sus funciones y cree espacios de trabajo para equipos en función de diferentes departamentos, ubicaciones globales, canal y otras agrupaciones lógicas. Puede asignar a los usuarios las funciones de Observador, Editor o Aprobador.
+
 **atributos de entidad**
 
 Parámetros personalizados que se usan para transmitir información de productos o de contenido a Recommendations.
@@ -168,7 +172,7 @@ Los hosts se agrupan en entornos para facilitar la administración. Los grupos d
 
 **experiencia**
 
-Define el contenido (o la oferta) que se muestra en un mbox. A veces se denomina fórmula.
+Oferta, imagen, texto, botón, vídeo, combinación de estos elementos en una página, una página Web completa o un conjunto de páginas que quizás forman un canal de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un ayudante de voz, una secuencia de comandos de servicio al cliente o incluso un sabor personalizado desde un equipo de bebidas. Las experiencias se prueban o [!DNL Target] personalizan.
 
 **segmentación de experiencias**
 
@@ -191,6 +195,10 @@ Devuelve elementos de contenido a un archivo Flash.
 **diagrama de flujo**
 
 Representación visual de una actividad en Target Standard.
+
+**Compositor de experiencias basadas en formularios
+
+Una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en pruebas A/B, Segmentación de experiencias, Personalización automatizada y actividades de Recomendaciones cuando el Compositor de experiencias visuales no está disponible o es práctico para su uso. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
 
 ## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -300,6 +308,10 @@ Grupo de usuarios con una serie de privilegios determinados.
 
 Utilice las ofertas remotas para alojar contenido fuera de [!DNL Target][!DNL Target] al que haga referencia y que entregue a los sitios web de los usuarios. Este contenido puede encontrarse en un sistema de gestión de contenido o de otro tipo por cuestiones de comodidad o de seguridad.
 
+**informes**
+
+Los informes proporcionan información sobre el progreso y los resultados de las actividades que le ayudan a tomar decisiones basadas en los datos. Los datos del informe pueden ayudarle a decidir cuándo finalizar una prueba, mostrar qué experiencia de oferta es la ganadora y proporcionar perspectivas o aprensiones que necesite para determinar las acciones siguientes.
+
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **parámetro de perfil de secuencia**
@@ -324,7 +336,7 @@ Es parecido al parámetro de perfil de secuencia, pero está predefinido para of
 
 **métricas de éxito**
 
-Parámetros usados para medir el éxito de una actividad.
+Parámetros usados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target. Por ejemplo, puede determinar si una oferta nueva aumenta los ingresos por visitante o si agrega un artículo a un carro de compras. Las métricas de éxito pueden resultar útiles para detectar problemas con el registro, la ordenación o los canalizadores de compra, pero también con la participación del visitante o del cliente.
 
 ## T   {#section_1841144841AF41169AF1E83B90C18292}
 
@@ -350,7 +362,7 @@ Cualquier persona que acceda al sitio. Un visitante se evalúa mediante criterio
 
 **Compositor de experiencias visuales**
 
-En Target Standard, es una representación de su página web que permite identificar de forma visual los componentes de una página compatible con Target, así como modificar partes de la página directamente, en lugar de usar la aplicación Target.
+En Target Standard, una interfaz de usuario WYSIWYG que le permite crear y probar fácilmente experiencias y ofertas personalizadas en el contexto del sitio. Puede crear experiencias y ofertas para actividades de Target arrastrando y soltando, intercambiando y modificando el diseño y el contenido de una página Web (o oferta) o una página Web móvil.
 
 ## W   {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
