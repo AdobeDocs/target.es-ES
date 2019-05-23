@@ -8,16 +8,14 @@ title: Compositor de experiencias basadas en formularios
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # Compositor de experiencias basadas en formularios{#form-based-experience-composer}
 
-El Compositor de experiencias basadas en formularios proporciona una creación de experiencias no visual.
-
-Esta característica permite que las pruebas A/B de Target Standard y las actividades de segmentación de experiencias, personalización automatizada y de Recommendations se entreguen en correos electrónicos, aplicaciones móviles, kioscos y otros lugares que no trabajan con un Compositor de experiencias visuales.
+El Compositor de experiencias basadas en formularios es una interfaz no visual y una interfaz de creación de ofertas que resulta útil para crear experiencias para utilizarlas en pruebas A/B, Segmentación de experiencias, Personalización automatizada y actividades de Recomendaciones cuando el Compositor de experiencias visuales no está disponible o es práctico para su uso. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
 
 Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus criterios y su diseño. Si elige varios criterios o diseños, Target genera las experiencias automáticamente.
 
