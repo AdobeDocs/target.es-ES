@@ -9,14 +9,14 @@ title: Informes
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e2638ad0438d637cce84b0387709d255b9f4a58d
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # Informes{#reports}
 
-Los informes proporcionan información sobre el rendimiento de sus actividades.
+Los informes proporcionan información sobre el progreso y los resultados de las actividades que le ayudan a tomar decisiones basadas en los datos. Los datos del informe pueden ayudarle a decidir cuándo finalizar una prueba, mostrar qué experiencia de oferta es la ganadora y proporcionar perspectivas o aprensiones que necesite para determinar las acciones siguientes.
 
 >[!NOTE]
 >
