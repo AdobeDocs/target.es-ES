@@ -7,7 +7,7 @@ solution: Target
 title: Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
 
 ---
 
