@@ -7,7 +7,7 @@ solution: Target
 title: Métricas de éxito
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 # Métricas de éxito{#success-metrics}
 
 En Target Standard, las métricas de éxito están preconfiguradas tanto para la generación de informes como para el seguimiento.
+
+Las métricas de éxito son parámetros utilizados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target. Por ejemplo, puede determinar si una oferta nueva aumenta los ingresos por visitante o si agrega un artículo a un carro de compras. Las métricas de éxito pueden resultar útiles para detectar problemas con el registro, la ordenación o los canalizadores de compra, pero también con la participación del visitante o del cliente.
 
 De igual manera que hace [!DNL Target Standard] para simplificar la creación de pruebas, la aplicación ajusta algunas de las opciones que se configuraban de forma manual en [!DNL Target Classic]. Por ejemplo, las métricas de éxito están preconfiguradas con las opciones óptimas.
 
