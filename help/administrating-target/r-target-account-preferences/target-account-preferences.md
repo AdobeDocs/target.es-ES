@@ -9,7 +9,7 @@ title: Preferencias
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: ecd707927629ff8bc3882a322f0744d93abced2c
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -69,7 +69,7 @@ Puede elegir una o ambas de las siguientes opciones:
 |--- |--- |
 | URL predeterminada del Compositor de experiencias visuales | La dirección URL predeterminada que utiliza el [!UICONTROL Compositor de experiencias visuales]. Esta es la página predeterminada, como la página principal, que se utiliza siempre que quiere configurar una experiencia para cada nueva actividad. Si no establece una URL predeterminada, tiene que escribir una URL para cada actividad en el momento de la creación. |
 | Activar el compositor de experiencias mejorado | Permite editar en sitios con eliminación de iframes y sitios con contenido mixto. Es posible que algunos sitios no sean compatibles con la versión mejorada. Desactive esta opción para revertir al Compositor de experiencias original. La publicación de actividades en los sitios no se verá afectada por esta opción.<br>Para obtener más información, consulte [Solución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).<br>**Nota:** También puede habilitar el Compositor de experiencias mejorado en el nivel de actividad. |
-| Cargar contenido mixto | Habilite el contenido mixto al abrir un sitio web con el Compositor de experiencias mejorado. Al habilitar esta opción, se evita sobrecarga adicional de carga de recursos estáticos a través de servidores proxy de Target. |
+| Cargar contenido mixto | Habilite el contenido mixto al abrir un sitio web usando el Compositor de experiencias mejorado (EEC). Al habilitar esta opción, se evita el sobrecarga adicional de carga de recursos estáticos a través de servidores proxy de Target.<br>Esta opción resulta útil, por ejemplo, si los encabezados de Políticas de seguridad de contenido (CSP) permiten cargar contenido mixto sin el uso de servidores proxy con el EEC habilitado.<br>Esta opción también resulta útil si el sitio web HTTP tiene una mayor cantidad de tiempo de carga en el EEC, donde JavaScript, imágenes, etc. tardan más de lo esperado en cargarse mediante proxy. |
 | Generar instantáneas de experiencia | Cuando se habilitan las instantáneas de experiencia, se generan miniaturas de las experiencias en el diagrama de flujo de trabajo de la actividad. Si deshabilita las instantáneas, podría obtener un rendimiento más rápido para algunos usuarios. |
 
 ## Configuración de las ventanillas móviles {#section_42176D062BCE4A28ADBB784CC4BEF84D}
