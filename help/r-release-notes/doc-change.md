@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,7 +21,9 @@ Esta página enumera los cambios importantes realizados en [!DNL Adobe Target] l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 23 de mayo de 2019 | [Servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Se ha actualizado el texto de la introducción. |
+| 24 de mayo de 2019 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre at.js 2.1.0. |
+| 23 de mayo de 2019 | [Gestión de exclusiones](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Se agregó información y vínculos para limitar qué audiencias pueden ver ofertas específicas en actividades AP usando reglas de objetivo. |
+|  | [Servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Se ha actualizado el texto de la introducción. |
 |  | [Experiencias y ofertas](/help/c-experiences/experiences.md) | Se ha actualizado el texto de la introducción. |
 |  | [Audiencias](/help/c-target/target.md) | Se ha actualizado el texto de la introducción. |
 |  | [Métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md) | Se ha actualizado el texto de la introducción. |
