@@ -8,7 +8,7 @@ title: Notas de la versión de Target (versión previa)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 En estas notas de la versión se proporciona información acerca de las funciones, las mejoras, las correcciones y los problemas conocidos de las últimas o de las próximas versiones de [!DNL Adobe Target].
 
-**Última actualización: 24 de mayo de 2019**
+**Última actualización: 28 de mayo de 2019**
 
 >[!NOTE]
 >
 >Las presentes notas de la versión contienen información previa al lanzamiento. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios. Para ver la información sobre la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma o diferir, según la hora de las versiones.
 
-## Versión 2.1.0 de at. js (28 de mayo de 2019)
+## Versión 2.1.0 de at. js (3 de junio de 2019)
 
 Estamos encantados de anunciar las siguientes magníficas funciones en at. js 2.1.0:
 
