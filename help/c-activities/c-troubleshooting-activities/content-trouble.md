@@ -9,7 +9,7 @@ title: Resolución de problemas de la entrega de contenido
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -145,6 +145,10 @@ O
 Para ofertas remotas, la respuesta de mbox puede contener `/* invalid remote offer URL */`
 
 Puede comprobar la respuesta del mbox en el navegador o utilizar mboxTrace. Consulte [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) para obtener más información sobre las direcciones URL válidas.
+
+## los mboxes no se activan en mi sitio.
+
+at. js no activa mboxes de Target si utiliza un doctype no válido. at. js requiere el doctype HTML 5.
 
 ## Vídeos de formación
 
