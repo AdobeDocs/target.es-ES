@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -25,6 +25,8 @@ Esta página enumera los cambios importantes realizados en [!DNL Adobe Target] l
 |  | [Determinar un ganador](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Se ha actualizado la información de los valores p. |
 |  | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha añadido una sección de solución de problemas sobre cómo gestiona Target los iframes de varios niveles. |
 |  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se ha añadido una nueva pregunta frecuente: &quot;¿Cuál es el intervalo de tiempo esperado de ingesta para operaciones de Recomendaciones? &quot; |
+|  | [Implementar Target utilizando Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Se ha actualizado la información en «Ventajas de implementar at. js con la extensión Launch Launch Extension». |
+|  | Solución de problemas[de entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Se ha añadido una nueva sección de solución de problemas sobre que at. js no activa mboxes si utiliza un doctype no válido. |
 | 24 de mayo de 2019 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre at.js 2.1.0. |
 | 23 de mayo de 2019 | [Gestión de exclusiones](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Se agregó información y vínculos para limitar qué audiencias pueden ver ofertas específicas en actividades AP usando reglas de objetivo. |
 |  | [Servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Se ha actualizado el texto de la introducción. |
