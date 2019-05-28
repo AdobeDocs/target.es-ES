@@ -7,7 +7,7 @@ solution: Target
 title: Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
 # Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
 Muestra los problemas que pueden producirse en determinadas circunstancias en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC).
+
+## ¿Admite Target los iframes de varios niveles?
+
+Target no admite iframes de varios niveles. Si el sitio web carga un iframe que tiene un iframe secundario, las bibliotecas de Target (at. js y mbox. js) interactúan únicamente con el iframe principal. Las bibliotecas de Target no interactúan con el iframe secundario.
+
+Como solución alternativa, puede agregar una página en la experiencia con la URL del iframe secundario.
 
 ## Cuando intento editar una página, lo único que veo es un control de número en lugar de mi página. (VEC y EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
