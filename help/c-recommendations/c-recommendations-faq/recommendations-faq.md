@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: c9fb157cda163f4ec37f89e7c9ff93ebc659a37d
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -18,6 +18,22 @@ source-git-commit: c9fb157cda163f4ec37f89e7c9ff93ebc659a37d
 # ![PREMIUM](/help/assets/premium.png) Preguntas más frecuentes sobre Recommendations{#recommendations-faq}
 
 Lista de las preguntas más frecuentes (FAQ) sobre actividades de Recommendations.
+
+## ¿Cuál es el intervalo de tiempo esperado para las operaciones de Recomendaciones?
+
+Los siguientes cambios deben reflejarse en aproximadamente 60 minutos:
+
+* Atributos de elemento que se devuelven en la plantilla Diseño.
+* Atributos de elemento utilizados en reglas de exclusión globales que impiden que el elemento se incluya en las recomendaciones devueltas.
+* Atributos de elemento utilizados en reglas de inclusión dentro de los criterios que afectan si el elemento se incluye o excluye en las recomendaciones devueltas.
+
+Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritmo (12-24 horas):
+
+* Atributos de elemento utilizados en las reglas de recopilación utilizadas para la actividad.
+* Atributos de elemento utilizados en una promoción en función de un atributo o una colección asociada con la actividad.
+* Categoría Elemento en la que el elemento aparece para una &quot;Categoría actual&quot; o &quot;Categoría favorita&quot; en los algoritmos Principales o Más visitados.
+* Clasificación de los elementos recomendados cuando el atributo cambió es un atributo personalizado que se usa como clave personalizada para un algoritmo.
+* Clasificación de los artículos recomendados en función de los atributos modificados cuando la lógica de recomendación es &quot;Elementos con atributos similares&quot;, cuando se utilizan factores de ponderación &quot;Similitud de contenido&quot; o cuando se utilizan factores de &quot;Ponderación de atributos&quot;.
 
 ## ¿Qué debo hacer si hay caracteres especiales que rompen la matriz?{#section_D27214116EE443638A60887C7D1C534E}
 
