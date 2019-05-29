@@ -7,7 +7,7 @@ solution: Target
 title: Funcionamiento de la segmentación
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Adobe Target se integra con sus páginas web mediante la biblioteca de JavaScript at.js o mbox.js.
 
-[!DNL Target Classic] utilizaba mboxes alrededor de cada área en la página donde quería mostrar contenido segmentado o recopilar datos. Estos mboxes no son necesarios en [!DNL Target Standard]. Lo único que necesitará para ejecutar las actividades de optimización es una referencia a una [biblioteca de JavaScript](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) en cada página.
+[!DNL Target Classic] utilizaba mboxes alrededor de cada área en la página donde quería mostrar contenido segmentado o recopilar datos. Estos mboxes no son necesarios en [!DNL Target Standard]. Lo único que necesitará para ejecutar las actividades de optimización es una referencia a una biblioteca de JavaScript en cada página.
 
 Cada vez que un visitante solicita una página con habilitado, [!DNL Target]Target usa el siguiente proceso para mostrar ofertas:
 
