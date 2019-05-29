@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -49,7 +49,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + [Información general sobre la implementación de Target](c-implementing-target/implementing-target.md)
    + Antes de la implementación {#before-implement}
       + [Antes de la implementación](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [Comprender las bibliotecas JavaScript de Target](c-implementing-target/c-considerations-before-you-implement-target/target-implement.md)
       + [Preparación para implementar Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacidad {#privacy}
          + [Información general sobre la privacidad](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
@@ -307,7 +306,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
       + [Cargar contenido](c-experiences/c-manage-content/assets-upload.md)
       + [Crear ofertas de redireccionamiento](c-experiences/c-manage-content/offer-redirect.md)
       + [Crear ofertas remotas](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md)
+      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md).
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Buscar contenido y crear colecciones inteligentes](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transferir datos dinámicos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
