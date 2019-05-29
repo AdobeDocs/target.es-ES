@@ -8,7 +8,7 @@ title: Transmisión dinámica de datos en ofertas
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: f792c0b995e0f4445d3c3849a431d64b6bd60324
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -46,7 +46,7 @@ Los siguientes valores se pueden “sustituir con testigos”:
 | ID de visitante único | `${user.pcId}` |
 | ID de sesión único | `${user.sessionId}` |
 | Primera sesión del visitante (verdadero o falso) | `${user.isFirstSession}` |
-| Comportamiento anterior | `{$user.endpoint.lastPurchasedEntity}`, `{$user.endpoint.lastViewedEntity}`, `{$user.endpoint.mostViewedEntity}`, `{$user.endpoint.categoryAffinity}` |
+| Comportamiento anterior | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
 
 Información de registro en la consola con fines de depuración como `${campaign.name}`, `${campaign.id}`por `${campaign.recipe.name}``${campaign.recipe.id}``${offer.name}`ejemplo `${offer.id}`, `${campaign.name}`
 
