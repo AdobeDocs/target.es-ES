@@ -8,7 +8,7 @@ title: Preguntas más frecuentes sobre la optimización y personalización de Ta
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 4ba74729accceb48d4325a6755f34a8e9028d1dc
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -41,7 +41,7 @@ Lea nuestros [exploradores permitidos](../c-implementing-target/c-considerations
 
 **¿Qué archivo JavaScript de implementación debo usar, at.js o mbox.js?**
 
-at.js es nuestra última y mejor biblioteca de JavaScript. mbox.js es nuestra versión anterior. Consulte [Comprender las bibliotecas JavaScript de Target](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) para comprender las diferencias entre las dos bibliotecas. Todos los clientes nuevos deberían utilizar at.js.
+at.js es nuestra última y mejor biblioteca de JavaScript. mbox.js es nuestra versión anterior. Consulte [Beneficios de at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para comprender las diferencias entre las dos bibliotecas. Todos los clientes nuevos deberían utilizar at.js.
 
 Todos los clientes existentes de mbox.js deberían migrar a at.js. Obtenga más información sobre los pasos que debe seguir   [al migrar de mbox.js a at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) antes de hacer la transición.
 
