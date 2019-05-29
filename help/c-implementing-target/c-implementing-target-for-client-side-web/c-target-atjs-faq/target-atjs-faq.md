@@ -8,7 +8,7 @@ subtopic: Primeros pasos
 title: Preguntas más frecuentes de at.js
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -29,6 +29,44 @@ El diagrama siguiente compara el rendimiento de carga de página de mbox.js y at
 
 Como se observa en la ilustración, al usar mbox.js, el contenido de la página no empieza a cargarse hasta que no se completa la llamada a [!DNL Target]. Con at.js, el contenido de la página empieza a cargarse cuando se inicia la llamada a [!DNL Target] y no espera hasta que ha finalizado.
 
+## ¿Cuál es el impacto de at. js y mbox. js en el tiempo de carga de página? {#page-load}
+
+Muchos clientes y consultores quieren conocer el impacto de [!DNL at.js] y [!DNL mbox.js] en el tiempo de carga de página, especialmente en el contexto de los nuevos usuarios frente a los que regresan. Lamentablemente, es difícil medir y ofrecer números concretos sobre la influencia de [!DNL at.js] o [!DNL mbox.js] en el tiempo de carga, ya que cada cliente dispone de una implementación diferente.
+
+No obstante, si la API de visitante está presente en la página, podemos comprender mejor cómo influyen [!DNL at.js] y [!DNL mbox.js] en este tiempo de carga.
+
+>[!NOTE]
+>
+>La API de visitante y [!DNL at.js] o [!DNL mbox.js] solo afectan al tiempo de carga de página cuando utiliza el mbox global (debido a la técnica de ocultación del cuerpo). Los mboxes regionales no se ven afectados por la integración del API de visitante.
+
+La siguiente tabla describe la secuencia de acciones para los visitantes nuevos y los habituales:
+
+### Visitantes nuevos
+
+1. El API de visitante se carga, se analiza y se ejecuta.
+1. at.js/mbox.js se carga, se analiza y se ejecuta.
+1. Si la creación automática de mbox global está habilitada, la biblioteca JavaScript de Target:
+
+   * Crea una instancia del objeto Visitante.
+   * La biblioteca de Target intenta recuperar datos de ID de visitante de Experience Cloud.
+   * Como se trata de un nuevo visitante, el API de visitante activa una solicitud entre dominios dirigida a demdex.net.
+   * Una vez recuperados los datos de ID de visitante de Experience Cloud, se activa una solicitud para Target.
+
+### Visitantes que regresan
+
+1. El API de visitante se carga, se analiza y se ejecuta.
+1. at.js/mbox.js se carga, se analiza y se ejecuta.
+1. Si la creación automática de mbox global está habilitada, la biblioteca JavaScript de Target:
+
+   * Crea una instancia del objeto Visitante.
+   * La biblioteca de Target intenta recuperar datos de ID de visitante de Experience Cloud.
+   * La API de visitante recupera datos de las cookies.
+   * Una vez recuperados los datos de ID de visitante de Experience Cloud, se activa una solicitud para Target.
+
+>[!NOTE]
+>
+>Para los nuevos visitantes, cuando la API de visitante está presente, Target debe actuar varias veces para garantizar que las solicitudes contengan datos de ID de visitante de Experience Cloud. Para los visitantes habituales, Target actúa únicamente para recuperar el contenido personalizado.
+
 ## ¿Por qué parece que se obtienen tiempos de respuesta más lentos después de actualizar desde una versión anterior de at.js a la versión 1.0.0?{#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
 [!DNL at.js] 1.0.0 y las versiones posteriores activan todas las solicitudes en paralelo. Las versiones anteriores ejecutan las solicitudes de forma secuencial, lo que significa que se ponen en cola y que Target espera a que la primera se complete antes de pasar a la siguiente.
@@ -45,10 +83,6 @@ Desde la perspectiva del tiempo de respuesta, matemáticamente se puede resumir 
 </ul>
 
 Como puede verse, [!DNL at.js] 1.0.0 completará antes las solicitudes. Además, las solicitudes de [!DNL at.js] son asíncronas, de modo que Target no bloquea la representación de páginas. Aunque las solicitudes tarden segundos en completarse, se verá la página representada; no obstante, algunas partes pueden quedar en blanco hasta que Target obtenga una respuesta de su perímetro.
-
-## ¿Cuál es el impacto de at.js en el tiempo de carga de las páginas?   {#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-Para obtener más información, consulte [Descripción de las bibliotecas de JavaScript de Target](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB).
 
 ## ¿Puedo cargar la biblioteca de Target de forma asíncrona?{#section_AB9A0CA30C5440C693413F1455841470}
 
