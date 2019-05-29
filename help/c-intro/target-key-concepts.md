@@ -9,7 +9,7 @@ title: Conceptos clave de Target
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -50,7 +50,7 @@ Las ubicaciones son esenciales para las actividades y las experiencias. Puede de
 
 En [!DNL Target Standard], una ubicación puede ser cualquier elemento de una página siempre que la página contenga una sola línea de código que active [!DNL Target] en la sección `<head>` de cada página que desee rastrear. Esta línea de código llama a las bibliotecas de JavaScript necesarias para recopilar información y ofrecer experiencias segmentadas para los visitantes de su sitio.
 
-Consulte [Conocimiento sobre las bibliotecas JavaScript de Target](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) para obtener más información sobre las diferencias entre la implementación de la ubicación en [!DNL Target Standard] y la implementación de mbox en [!DNL Target Classic].
+Consulte [Beneficios de at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para obtener más información sobre las diferencias entre la implementación de ubicación en [!DNL Target Standard] y la implementación de mbox en [!DNL Target Classic].
 
 Las ubicaciones se combinan con audiencias para proporcionar un número casi inagotable de opciones de segmentación de información a sus clientes. Por ejemplo, si un visitante nunca ha estado antes en el sitio, puede mostrar un cupón de descuento para nuevos clientes. Del mismo modo, puede cambiarse la página para que muestre ofertas que estén más optimizadas para clientes que vuelven a visitar el sitio.
 
