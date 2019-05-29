@@ -8,7 +8,7 @@ title: Afinidad de la categoría
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
+source-git-commit: 9e491a183b2704a77ffc39a6b44cc763ad9ee232
 
 ---
 
@@ -19,16 +19,19 @@ La función de afinidad de la categoría captura automáticamente las categoría
 
 ## Transferir información sobre la afinidad de la categoría a Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Cada vez que un usuario visite su sitio web, en la base de datos de [!DNL Target] se registrarán unos parámetros de perfil exclusivos para ese visitante. Dichos datos están unidos a la cookie del usuario. Un parámetro especialmente útil es `categoryId`, un parámetro de mbox asignado en una página de producto. A medida que el visitante continúa la visita, o vuelve para otra sesión, se pueden registrar las categorías de productos que un visitante concreto elige ver. También puede registrar información de categoría pasándola como el parámetro de mbox `user.categoryId` en cualquier mbox (incluido un mbox anidado), como un parámetro de URL `user.categoryId` o en parámetros de página de Target con un mbox global. Si desea obtener más detalles, consulte a su representante de cuentas.
+Cada vez que un usuario visite su sitio web, en la base de datos de [!DNL Target] se registrarán unos parámetros de perfil exclusivos para ese visitante. Dichos datos están unidos a la cookie del usuario. Un parámetro especialmente útil es `user.categoryId`, un parámetro de mbox asignado en una página de producto. A medida que el visitante continúa la visita, o vuelve para otra sesión, se pueden registrar las categorías de productos que un visitante concreto elige ver. También puede registrar información de categoría pasándola como el parámetro de mbox `user.categoryId` en cualquier mbox (incluido un mbox anidado), como un parámetro de URL `user.categoryId` o en parámetros de página de Target con un mbox global. Si desea obtener más detalles, consulte a su representante de cuentas.
 
-Separe las categorías con una coma para crear categorías independientes. Por ejemplo:
+Separe las categorías con una coma para incluir un elemento en varias categorías. Por ejemplo:
 
-* `categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
-* `entity.categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
+* `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
 Según la frecuencia y la proximidad en tiempo de las visitas a sus categorías de productos, se registrará la afinidad de la categoría de los usuarios (si existe). La afinidad de la categoría se puede usar para dirigir las actividades a una población concreta.
 
 Puede utilizar `user.categoryAffinities[]` en un script de perfil para devolver una matriz de las afinidades que ha rellenado un visitante.
+
+>[!IMPORTANT]
+>
+>El `user.categoryId` atributo utilizado para el algoritmo de afinidad de categoría de Adobe Target es distinto del `entity.categoryId` atributo utilizado para las recomendaciones de productos y de productos de Recomendaciones de Adobe Target. `user.categoryId` es necesario para rastrear la categoría favorita de un usuario. `entity.categoryId` es necesario para basar las recomendaciones en la categoría actual o del elemento actual. Pase ambos valores a Adobe Target si desea utilizar ambas capacidades.
 
 ## Caso de negocio para la afinidad de la categoría {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
