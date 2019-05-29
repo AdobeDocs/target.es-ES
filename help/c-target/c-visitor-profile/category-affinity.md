@@ -8,7 +8,7 @@ title: Afinidad de la categoría
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 9e491a183b2704a77ffc39a6b44cc763ad9ee232
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -31,7 +31,7 @@ Puede utilizar `user.categoryAffinities[]` en un script de perfil para devolver 
 
 >[!IMPORTANT]
 >
->El `user.categoryId` atributo utilizado para el algoritmo de afinidad de categoría de Adobe Target es distinto del `entity.categoryId` atributo utilizado para las recomendaciones de productos y de productos de Recomendaciones de Adobe Target. `user.categoryId` es necesario para rastrear la categoría favorita de un usuario. `entity.categoryId` es necesario para basar las recomendaciones en la categoría actual o del elemento actual. Pase ambos valores a Adobe Target si desea utilizar ambas capacidades.
+>El `user.categoryId` atributo utilizado para el algoritmo de afinidad de categoría de Adobe Target es distinto del `entity.categoryId` atributo utilizado para las recomendaciones de productos y de productos de Recomendaciones de Adobe Target. `user.categoryId` es necesario para rastrear la categoría favorita de un usuario. `entity.categoryId` es necesario para basar las recomendaciones en la categoría actual o del elemento actual. Pase ambos valores a Adobe Target si desea utilizar ambas funciones.
 
 ## Caso de negocio para la afinidad de la categoría {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
