@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -24,6 +24,7 @@ Esta página enumera los cambios importantes realizados en [!DNL Adobe Target] l
 | 29 de mayo de 2019 | [Afinidad de la categoría](/help/c-target/c-visitor-profile/category-affinity.md) | Se ha actualizado el texto para aclarar la diferencia entre `user.categoryId` y `entity.categoryId`. |
 |  | [Migrar de mbox.js a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | Sección reubicada a este tema: Beneficios de at. js. |
 |  | [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Sección reubicada a este tema: &quot;¿Cuál es el impacto de at. js y mbox. js en el tiempo de carga de página? &quot; |
+|  | [Transferir datos dinámicos en ofertas](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | Se corrigió la sintaxis en la fila de comportamiento Anterior. |
 | 28 de mayo de 2019 | [Acceder a Target desde Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | Se ha añadido una nueva sección: &quot; Cambiar el idioma de la documentación del producto de Target. &quot; |
 |  | [Determinar un ganador](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Se ha actualizado la información de los valores p. |
 |  | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha añadido una sección de solución de problemas sobre cómo gestiona Target los iframes de varios niveles. |
