@@ -9,7 +9,7 @@ title: Descarga de datos en un archivo CSV
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -84,4 +84,4 @@ La información siguiente se refiere a la opción Descargar:
 * Puede descargar informes para las actividades A/B, Personalización automatizada, Segmentación de experiencias y multivariable. No puede descargar el informe de métricas de éxito para actividades de Recommendations.
 * La opción Descargar no está disponible para actividades A/B ni Segmentación de experiencias creadas antes de la versión 15.7.1 de Target (julio de 2015).
 * Las experiencias que no tienen datos asociados no se registran en el informe descargado.
-
+* Las audiencias aplicadas en la interfaz de usuario de informes de Target no se transmiten al informe de descarga.
