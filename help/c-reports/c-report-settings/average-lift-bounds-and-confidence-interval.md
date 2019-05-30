@@ -8,7 +8,7 @@ title: Alza promedio, límites de alza e intervalo de confianza
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 721571e4257484af843d9ab5214cffc256c827db
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -38,7 +38,7 @@ La información de aumento en la IU de informes de Target incluye:
 
 En la ilustración siguiente, se muestra información sobre los límites de alza y el nivel de confianza:
 
-![](assets/lift-screenshot.png)
+![Informe de nivel promedio de alza y confianza](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## ¿Cómo se calculan los límites de aumento?   {#section_1D360781D972483693680BE0F07AEAD1}
 
