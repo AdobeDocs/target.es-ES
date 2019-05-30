@@ -8,7 +8,7 @@ title: Configuración de informes
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -19,7 +19,7 @@ Información para configurar los elementos que quiere que aparezcan en el inform
 
 Para mostrar un informe, haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **Informes[!UICONTROL .]**
 
-![](assets/report_ui.png)
+![Interfaz de usuario del informe](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Ajuste preestablecido de Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -32,11 +32,11 @@ También puede configurar un informe de actividad a su gusto y después guardar 
 1. Configure el informe de actividad a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etc.).
 1. Junto a **[!UICONTROL Ajuste preestablecido de Target]**, haga clic en el icono de tres elipses verticales &gt; **[!UICONTROL Guardar como Nuevo]**.
 
-   ![](assets/report_preset.png)
+   ![Ajuste preestablecido de informe](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    Se muestra el cuadro de diálogo Nuevo ajuste preestablecido:
 
-   ![](assets/report_preset_dialog.png)
+   ![Nuevo cuadro de diálogo Ajuste preestablecido](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Revise la información de las secciones Filtros y Configuración para asegurarse de que el informe esté configurado como desea y, a continuación, especifique el **[!UICONTROL Nombre del ajuste preestablecido]** (hasta 50 caracteres).
 1. (Condicional) Si desea que esta sea su vista de informe predeterminada/favorito, active la opción **[!UICONTROL Establecer como ajuste predeterminado].**
@@ -46,7 +46,7 @@ También puede configurar un informe de actividad a su gusto y después guardar 
 
 Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONTROL Ajuste preestablecido de Target].**
 
-![](assets/report_preset_drop-down.png)
+![Lista desplegable Preestablecida](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **Editar un ajuste preestablecido**
 
@@ -55,7 +55,7 @@ Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONT
 
    Una vez que hace clic en [!UICONTROL Guardar] después de editar la configuración del informe, aparece un asterisco (*) detrás del nombre del ajuste preestablecido para indicar que ha sido modificado, como se muestra a continuación:
 
-   ![](assets/report_preset_asterisk.png)
+   ![Ajuste preestablecido de informe con asterisco](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. Haga clic en el icono de tres elipses verticales &gt; **[!UICONTROL Guardar como Nuevo]para crear un ajuste preestablecido nuevo.**
 
@@ -63,14 +63,14 @@ Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONT
 
    Haga clic en el icono de tres elipses verticales &gt; **[!UICONTROL Actualizar]para actualizar el ajuste preestablecido actual.**
 
-   ![](assets/report_preset_update.png)
+   ![Actualización predeterminada del informe](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Eliminar un ajuste preestablecido**
 
 1. Seleccione el ajuste preestablecido que desee eliminar.
 1. Haga clic en el icono de tres elipses verticales &gt; **[!UICONTROL Eliminar]**.
 
-   ![](assets/report_preset_delete.png)
+   ![Eliminar informe predeterminado](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. Vuelva a hacer clic en **[!UICONTROL Eliminar]para confirmar la acción.**
 
@@ -104,7 +104,7 @@ Para obtener más información, consulte [Audiencias](../../c-target/target.md#c
 
 El cuadro Intervalo de fechas muestra el intervalo de fechas actual de los informes. Si hace clic en el icono desplegable, aparece un calendario que le permite cambiar el intervalo de fechas del informe.
 
-![](assets/date_range.png)
+![Calendario](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
 Seleccione las nuevas fechas **[!UICONTROL inicial]** y **final]del informe.[!UICONTROL ** También puede utilizar las casillas de verificación **[!UICONTROL Desde el comienzo de la actividad]** y **Hasta el fin de la actividad[!UICONTROL .]**
 
@@ -122,7 +122,7 @@ Haga clic en el icono del engranaje para definir la configuración del informe y
 
 La siguiente ilustración muestra el cuadro de diálogo Configuración para una actividad A/B:
 
-![](assets/ab_settings_dialog.png)
+![Cuadro de diálogo Configuración](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
 Las opciones dependen del tipo de actividad que se seleccione:
 
@@ -183,9 +183,9 @@ Haga clic en el icono de **[!UICONTROL Contribución de ubicación]para que el i
 
 Seleccione o anule la selección de las experiencias en la parte izquierda de la tabla para mostrar u ocultar las experiencias correspondientes.
 
-En la siguiente ilustración, vemos que en el informe solo aparecen las experiencias B y C:
+Si se muestra la siguiente ilustración, solo las experiencias predeterminadas, medias orientales y totales se muestran en el informe. La experiencia de Asia está oculta en el gráfico.
 
-![](assets/report_experiences.png)
+![Experiencias](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
 ## Media móvil {#section_59066693158C4433B87D07402C2BC6CD}
 
@@ -198,7 +198,7 @@ Seleccione la visualización de gráfico que desee:
 * Diario
 * Alza diaria
 
-![](assets/report_running_average.png)
+![Promedio móvil del informe](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
@@ -214,13 +214,13 @@ Para acceder a la opción Metodología de contabilización, mientras ve un infor
 
 La metodología de contabilización será la misma que se seleccionó en el cuadro de diálogo [!UICONTROL Ajustes] descrito anteriormente.
 
-![](assets/counting_methodology.png)
+![Metodología de contabilización](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 De forma predeterminada, el gráfico se representa en modo [!UICONTROL Diario].
 
 Puede cambiar el modo haciendo clic en la lista desplegable [!UICONTROL Diario] y seleccionando a continuación [!UICONTROL Acumulativo].
 
-![](assets/counting_methodology_2.png)
+![Acumulativo](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 >[!NOTE]
 >
