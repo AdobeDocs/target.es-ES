@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: b1195ddaa639ac51a3966777f3769fa46428b4a8
 
 ---
 
@@ -19,21 +19,25 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 Lista de las preguntas más frecuentes (FAQ) sobre actividades de Recommendations.
 
-## ¿Cuál es el intervalo de tiempo esperado para las operaciones de Recomendaciones?
+## ¿Cuánto tiempo llevará ver las actualizaciones de los elementos del catálogo en mi sitio?
 
-Los siguientes cambios deben reflejarse en aproximadamente 60 minutos:
+Tras importar un archivo de fuente o después de recibir actualizaciones de entidad mediante API o mbox, los cambios siguientes se reflejarán en menos de 60 minutos:
 
 * Atributos de elemento que se devuelven en la plantilla Diseño.
 * Atributos de elemento utilizados en reglas de exclusión globales que impiden que el elemento se incluya en las recomendaciones devueltas.
 * Atributos de elemento utilizados en reglas de inclusión dentro de los criterios que afectan si el elemento se incluye o excluye en las recomendaciones devueltas.
 
-Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritmo (12-24 horas):
+Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritmo (dentro de las 12-24 horas):
 
 * Atributos de elemento utilizados en las reglas de recopilación utilizadas para la actividad.
 * Atributos de elemento utilizados en una promoción en función de un atributo o una colección asociada con la actividad.
 * Categoría Elemento en la que el elemento aparece para una &quot;Categoría actual&quot; o &quot;Categoría favorita&quot; en los algoritmos Principales o Más visitados.
 * Clasificación de los elementos recomendados cuando el atributo cambió es un atributo personalizado que se usa como clave personalizada para un algoritmo.
 * Clasificación de los artículos recomendados en función de los atributos modificados cuando la lógica de recomendación es &quot;Elementos con atributos similares&quot;, cuando se utilizan factores de ponderación &quot;Similitud de contenido&quot; o cuando se utilizan factores de &quot;Ponderación de atributos&quot;.
+
+>[!NOTE]
+>
+>Un archivo de fuente se considera importado cuando su estado cambia de «Importación de elementos» a «Preparación de las actualizaciones del índice de búsqueda». Las actualizaciones pueden tardar más de 60 minutos en reflejarse en la interfaz de usuario Buscar en el catálogo; La búsqueda en catálogo está actualizada cuando el estado de la fuente cambia a &quot;Actualizaciones completadas&quot;. Incluso si la búsqueda en catálogo aún no está actualizada, su sitio reflejará las actualizaciones en los intervalos de tiempo enumerados arriba. El tiempo de actualización del índice de búsqueda del catálogo más reciente se muestra en la página Buscar en el catálogo.
 
 ## ¿Qué debo hacer si hay caracteres especiales que rompen la matriz?{#section_D27214116EE443638A60887C7D1C534E}
 
