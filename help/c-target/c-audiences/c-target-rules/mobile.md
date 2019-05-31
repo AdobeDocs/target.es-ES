@@ -8,7 +8,7 @@ title: Móvil
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -60,6 +60,12 @@ Los clientes que utilicen una integración personalizada (sin usar at.js o el SD
    * Anchura de la pantalla (px)
    >[!NOTE]
    >
+   >Debido a los nuevos cambios introducidos en iOS 12.2, la creación de una audiencia con reglas definidas por el nombre de marketing de dispositivo y el modelo de dispositivo que especifique modelos de iphone se ve afectada. Ya no podemos segmentar usuarios que tengan iphone con iOS 12.2 instalado en ellas. Sin embargo, si esos usuarios no tienen iOS 12.2, el targeting del modelo iphone seguirá funcionando correctamente.
+   >
+   >La actualización de iOS 12.2 no afecta a la identificación de los modelos siguientes porque estos modelos no admiten la actualización a iOS 12.2: Iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5, iphone 5 c, ipad, ipad 2, ipad/Pantalla Retina, ipad Retina (4 ª generación), ipod Touch 4 y ipod Touch 5.
+
+   >[!NOTE]
+   >
    >Puede segmentar por operador de dispositivo móvil mediante la [configuración Geográfica](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
@@ -72,4 +78,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
