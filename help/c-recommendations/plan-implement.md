@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
 
 ---
 
@@ -28,7 +28,7 @@ Lo que debe saber antes de crear una actividad de [!DNL Recommendations].
 | Paso   | Información | Detalles |
 |--- |--- |--- |
 | ![Paso 1](/help/c-recommendations/assets/step1_red.png) | Biblioteca de JavaScript | Cada página requiere una referencia a las versiones 0.9.1 (o posterior) de at.js o 55 (o posterior) de mbox.js. Este paso de implementación es necesario en todas las páginas donde se usará una actividad de Target y puede incluir claves como un ID de producto o categoría.<BR>Para obtener más información sobre at.js, consulte [Implementación de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Para obtener más información sobre mbox.js, consulte [Implementación de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
-| ![Paso 2](/help/c-recommendations/assets/step2_red.png) | Claves | La clave determina el tipo de producto o contenido que se muestra en las recomendaciones. Por ejemplo, la clave podría ser una categoría de producto. Consulte   [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
+| ![Paso 2](/help/c-recommendations/assets/step2_red.png) | Claves | La clave determina el tipo de producto o contenido que se muestra en las recomendaciones. Por ejemplo, la clave podría ser una categoría de producto. Consulte [Basar la Recomendación en una clave de Recommendations](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
 | ![Paso 3](/help/c-recommendations/assets/step3_red.png) | Atributos | Los atributos proporcionan información más específica sobre los productos que quiere mostrar. Por ejemplo, es posible que quiera mostrar productos dentro de un determinado rango de precios o artículos cuyo inventario se ajuste a un determinado umbral. Los atributos se pueden proporcionar en el mbox o a través de una   [fuente](/help/c-recommendations/c-products/feeds.md).<br>Consulte [Reglas de inclusión](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) y [Atributos de entidad](/help/c-recommendations/c-products/entity-attributes.md). |
 | ![Paso 4](/help/c-recommendations/assets/step4_red.png) | Exclusiones | Las exclusiones determinan qué artículos concretos no aparecen en las recomendaciones.<br>Consulte [Exclusiones](/help/c-recommendations/c-products/exclusions.md). |
 | ![Paso 5](/help/c-recommendations/assets/step5_red.png) | Detalles de la compra | Los detalles de la compra proporcionan información sobre los artículos comprados y el pedido una vez que se ha completado la compra. |
@@ -81,7 +81,7 @@ Después de configurar la fuente y pasarla a [!DNL Recommendations], pase los pa
 
 Se da prioridad a cualquier conjunto de datos ejecutado más recientemente. Si primero pasa la fuente y luego actualiza los parámetros de la página, los cambios que se hagan en estos se mostrarán y reemplazarán la información del artículo que se pasó en la fuente.
 
-## Ejemplo 2: Pasar todos los parámetros en la página de detalles del producto (o contenido)  {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
+## Ejemplo 2: Pasar todos los parámetros en la página de detalles del producto (o contenido) {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
 
 Si pasa todos los parámetros de la página, podrá hacer actualizaciones rápidamente cuando actualice la página. En algunas organizaciones, para hacer esto es necesario recurrir al personal de TI o al equipo de diseño web.
 
@@ -98,17 +98,15 @@ Este ejemplo puede resultar especialmente útil para una compañía de contenido
 Por ejemplo, puede usar el código siguiente en la sección de encabezado de sus páginas de producto o contenido.
 
 ```
-function targetPageParams() { 
-   return { 
-      "entity": { 
-         "id": " 
-32323", 
-         "categoryId": " 
-My Category", 
-         "value": 105.56, 
-         "inventory": 329 
-      } 
-   } 
+function targetPageParams() {
+ return {
+    "entity": {
+       "id": "32323",
+       "categoryId": "My Category",
+       "value": 105.56,
+       "inventory": 329
+    }
+ }
 }
 ```
 
