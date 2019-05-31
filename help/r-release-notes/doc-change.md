@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -21,7 +21,8 @@ Esta página enumera los cambios importantes realizados en [!DNL Adobe Target] l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 31 de mayo de 2019 | [Planificar e implementar recomendaciones](/help/c-recommendations/plan-implement.md) | Se ha actualizado el código de muestra. |
+| 31 de mayo de 2019 | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Se ha añadido una nota sobre los dispositivos de destino que ejecutan iOS 12.2. |
+|  | [Planificar e implementar recomendaciones](/help/c-recommendations/plan-implement.md) | Se ha actualizado el código de muestra. |
 | 30 de mayo de 2019 | [Acceder a Target desde Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | La documentación ahora está disponible en chino simplificado. |
 |  | [Descarga de datos en un archivo CSV](/help/c-reports/downloading-data-in-csv-file.md) | Se ha añadido nueva advertencia en la sección Exportar detalles del pedido a CSV: &quot; Las audiencias aplicadas en la interfaz de usuario de informes de Target no se transfieren al informe de descarga &quot;. |
 |  | [Configuración del informe](/help/c-reports/c-report-settings/report-settings.md) | Capturas de pantalla actualizadas. |
