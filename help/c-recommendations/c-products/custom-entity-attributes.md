@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
+source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
 
 Use atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los artículos de su catálogo.
 
-## Límites {límites}
+## Límites {#limits}
 
 Puede incluir hasta 100 atributos de entidad personalizados para definir información adicional sobre los artículos de su catálogo. Por ejemplo, puede crear un atributo personalizado llamado `entity.genre` para definir un libro o una película. O un vendedor de entradas podría crear atributos del lugar de celebración para incluir un actor secundario, como un equipo visitante en un evento deportivo o un acto de apertura en un concierto.
 
