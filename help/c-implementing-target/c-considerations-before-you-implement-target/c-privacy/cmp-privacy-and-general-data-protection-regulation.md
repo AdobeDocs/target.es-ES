@@ -8,7 +8,7 @@ title: Reglamento General de Protección de Datos (RGPD)
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 6c1b4f26f635eab661ec426f9241b26247e880c3
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -55,7 +55,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->La funcionalidad Opt-In es compatible con la versión 1.7.0 pero actualmente no es compatible con la versión 2.0.0.
+>La funcionalidad de inclusión se admite en la versión 1.7.0 de at. js y en at. js 2.1.0. La inclusión no es compatible con la versión 2.0.0 y 2.0.1 de at. js.
 >
 >El uso de Adobe Launch es el enfoque recomendado para administrar inclusiones. Existe un control granular adicional en Adobe Launch para ocultar elementos seleccionados de su página antes de la activación de Target que son útiles para aprovechar como parte de su estrategia de consentimiento.
 
