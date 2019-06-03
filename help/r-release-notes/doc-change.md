@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -29,6 +29,7 @@ Esta página enumera los cambios importantes realizados en [!DNL Adobe Target] l
 |  | [Funciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Se ha añadido una fila a la tabla para `adobe.target.sendNotifications(options)`. |
 |  | [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | Nuevo tema. |
 |  | [Actualización desde at. js 1. x a at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | Se ha añadido información sobre la compatibilidad con Adobe Opt-in en at. js 2.1.0. |
+|  | [Reglamento general de protección de datos](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Se ha actualizado la información sobre la compatibilidad de inclusión en at. js 2.1.0. |
 | 31 de mayo de 2019 | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Se ha añadido una nota sobre los dispositivos de destino que ejecutan iOS 12.2. |
 |  | [Planificar e implementar recomendaciones](/help/c-recommendations/plan-implement.md) | Se ha actualizado el código de muestra. |
 | 30 de mayo de 2019 | [Acceder a Target desde Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | La documentación ahora está disponible en chino simplificado. |
