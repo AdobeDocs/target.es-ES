@@ -9,7 +9,7 @@ title: Conceptos clave de Target
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -31,8 +31,8 @@ Target incluye varios tipos de actividades. En la tabla siguiente se proporciona
 | Tipo de actividad | Descripción |
 |--- |--- |
 | [Prueba A/B](/help/c-activities/t-test-ab/test-ab.md) | Una prueba A/B compara dos o más versiones del contenido de su sitio web para comprobar cuál mejora más las conversiones durante un periodo previamente establecido.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de actividades de prueba A/B](/help/c-recommendations/recommendations-as-an-offer.md). Esta funcionalidad requiere que tenga una licencia [de Target Premium](/help/c-intro/intro.md#premium). |
-| [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de actividades de asignación automática](/help/c-recommendations/recommendations-as-an-offer.md). Esta funcionalidad requiere que tenga una funcionalidad de testa requiere que tenga una licencia [de Target Premium](/help/c-intro/intro.md#premium). |
-| [Auto-targettarget](/help/c-activities/auto-target-to-optimize.md)<br>![Premium](/help/assets/premium.png) | La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de actividades de segmentación automática](/help/c-recommendations/recommendations-as-an-offer.md). Esta funcionalidad requiere que disponga de esta funcionalidad para que tenga una licencia [de Target Premium](/help/c-intro/intro.md#premium). |
+| [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de actividades de asignación automática](/help/c-recommendations/recommendations-as-an-offer.md). Esta funcionalidad requiere que tenga una licencia [de Target Premium](/help/c-intro/intro.md#premium). |
+| [Auto-targettarget](/help/c-activities/auto-target-to-optimize.md)<br>![Premium](/help/assets/premium.png) | La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de actividades de segmentación automática](/help/c-recommendations/recommendations-as-an-offer.md). Esta funcionalidad requiere que tenga una licencia [de Target Premium](/help/c-intro/intro.md#premium). |
 | [Uso de datos de Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A 4 T) | Puede configurar una actividad para que use [!DNL Adobe Analytics] como fuente de informes. Para este tipo de actividad es necesario que vincule su cuenta de [!DNL Adobe Experience Cloud] con [!DNL Analytics] y [!DNL Target]. |
 | [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | La prueba multivariable (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad. |
 | [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) | Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de actividades de Segmentación de experiencias](/help/c-recommendations/recommendations-as-an-offer.md). Esta funcionalidad requiere que tenga una licencia [de Target Premium](/help/c-intro/intro.md#premium). |
@@ -120,7 +120,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=spa)
 
 ### Uso de audiencias en Adobe Target (6:21)
 
@@ -132,4 +132,4 @@ En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Pr
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=spa)
