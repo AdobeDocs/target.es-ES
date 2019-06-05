@@ -8,7 +8,7 @@ title: Resolución de problemas de Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 
 ---
 
@@ -123,6 +123,10 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 ## Problemas conocidos
 
 * [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md)
+
+## Compositor de experiencias visuales para aplicaciones móviles
+
+* [Compositor de experiencias visuales para aplicaciones móviles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
 
 ## Creación de informes
 
