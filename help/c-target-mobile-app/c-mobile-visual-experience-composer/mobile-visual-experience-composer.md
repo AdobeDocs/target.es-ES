@@ -7,7 +7,7 @@ title: Compositor de experiencias visuales para aplicaciones móviles
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 766b6827b01d47fc83b685995deb4c2ed98323c8
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -182,6 +182,32 @@ Es posible realizar llamadas repetidas a `TargetVEC.prefetchOffersBackground()` 
 
 Tenga en cuenta que, cada vez que se obtienen ofertas de Target, también se aplican (si es posible) las ofertas para la última vista de Target activada con `AdobeTargetMobile.targetView()`.
 
+## Resolución de problemas {#ts}
+
+**He recibido un error diciendo que mi valor «context. application. name» contiene caracteres prohibidos. ¿Qué caracteres se permiten en los nombres de aplicaciones móviles?**
+
+Los caracteres permitidos en los nombres de aplicaciones móviles incluyen:
+
+| Caracteres permitidos | Descripción |
+| --- | --- |
+| Letras |  |
+| Números |  |
+| `-` | Guion |
+| `.` | Periodo |
+| `,` | Coma |
+| `:` | Dos puntos |
+| `#` | Signo de número  |
+| `(` | Paréntesis de apertura |
+| `)` | Paréntesis de cierre |
+| `&` | Ampersand |
+| `+` | Signo más |
+
+Si utiliza un carácter que no está permitido, por ejemplo, un apóstrofe ( `'` ) hace que reciba el siguiente mensaje de error:
+
+```
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+```
+
 ## Limitaciones conocidas {#limitations}
 
 * El VEC de aplicaciones móviles se puede utilizar actualmente para crear [actividades de prueba](/help/c-activities/t-test-ab/test-ab.md) A/B y [segmentación de experiencias (XT)](/help/c-activities/t-experience-target/experience-target.md) para aplicaciones móviles. En el futuro se admitirán otros tipos de actividades.
@@ -199,4 +225,4 @@ Tenga en cuenta que, cada vez que se obtienen ofertas de Target, también se apl
 
 ## Vídeo de capacitación: Compositor de experiencias visuales de la aplicación móvil de Adobe Target (3:33) {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27528)
+>[!VIDEO](https://video.tv.adobe.com/v/27528?captions=spa)
