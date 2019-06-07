@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 745eb38b18ce7b29d87abb588ecdbb3fffc8cfc1
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -22,8 +22,10 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 7 de junio de 2019 | [Personalización de un diseño mediante Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Se ha añadido una nueva sección: &quot; Escenario: Cree un diseño de recomendaciones predeterminado de 4 x 2 con lógica de verificación nula. &quot; |
+|  | [Vídeos de capacitación para Adobe Target Standard y Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Se ha actualizado el vínculo al nuevo sitio de tutoriales de Adobe Target. |
 |  | [iOS: configuración de la aplicación móvil](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Se han actualizado los fragmentos de código y texto. |
 |  | [Duración del perfil del visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) | Se han realizado pequeñas ediciones de texto. |
+|  | [Comprobar un adbox de imagen de correo electrónico](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | Se han realizado pequeñas ediciones de texto. |
 | 6 de junio de 2019 | [adobe.target.triggerView (viewName, options): at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Se ha actualizado la descripción del `options > page` parámetro. |
 |  | [Primeros pasos del administrador](/help/administrating-target/start-target.md) | Se actualizó el artículo completo. |
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han añadido notas de revisión preliminares para la versión 19.6.1 de Target. |
