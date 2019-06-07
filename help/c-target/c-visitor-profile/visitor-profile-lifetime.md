@@ -9,18 +9,18 @@ title: Duración del perfil del visitante
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 592fb6833a9bce1a4b9b5b698ee41331374a8a22
+source-git-commit: 745eb38b18ce7b29d87abb588ecdbb3fffc8cfc1
 
 ---
 
 
 # Duración del perfil del visitante{#visitor-profile-lifetime}
 
-De forma predeterminada, los perfiles de los visitantes se almacenan durante 14 días. Esta duración del perfil puede ampliarse.
+De forma predeterminada, un perfil de visitante caduca después de 14 días de inactividad para ese visitante. Esta duración del perfil puede ampliarse.
 
 [Póngase en contacto con ClientCare o con su consultor de Adobe](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para extender la duración del perfil sin coste adicional. La duración puede llegar a establecerse en 90 días.
 
-La biblioteca JavaScript de [!DNL Target] que utiliza ([!DNL mbox.js] o [!DNL at.js]) determina si necesita o no descargar un nuevo archivo:
+La biblioteca JavaScript de [!DNL Target] que utiliza ([!DNL at.js] o [!DNL mbox.js]) determina si necesita o no descargar un nuevo archivo:
 
 | Biblioteca de segmentos | Detalles |
 |--- |--- |
@@ -29,4 +29,4 @@ La biblioteca JavaScript de [!DNL Target] que utiliza ([!DNL mbox.js] o [!DNL at
 
 La fecha de caducidad no se restablece para los perfiles existentes. Si un visitante previo no regresa durante 15 días, ese perfil caduca. Si un visitante previo regresa antes de que el perfil de dos semanas original caduque, el perfil se restablece con la duración extendida. Todos los perfiles del visitante nuevos se establecen con el perfil de duración extendida.
 
-Si dispone de dos sitios bajo un único código de cliente y un visitante visita ambos sitios, el perfil se establece a la duración de perfil del sitio que visitó en último lugar. Por ejemplo, si el Sitio 1 cuenta con una duración de perfil de 84 días y el Sitio 2 tiene una duración de 14 días, y el visitante visita el Sitio 1 y, a continuación, visita el Sitio 2, el perfil de este visitante caducará en 14 días. Si el visitante visita el Sitio 1 después de visitar el Sitio 2, el perfil caducará en 84 días.
+Si dispone de dos sitios bajo un único código de cliente y un visitante visita ambos sitios, el perfil se establece a la duración de perfil del sitio que visitó en último lugar. Por ejemplo, si el Sitio 1 tiene una duración de perfil de 84 días y el Sitio 2 tiene una duración de 14 días, y el visitante visita el Sitio 1 y luego el Sitio 2, el perfil del visitante caducará en 14 días de inactividad. Si el visitante visita el Sitio 1 después de visitar el Sitio 2, el perfil caducará en 84 días de inactividad.
