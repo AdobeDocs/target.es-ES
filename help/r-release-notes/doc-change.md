@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,9 +23,14 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | --- | --- | --- |
 | 11 de junio de 2019 | [Creación de actividad](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Se ha eliminado la nota que indica que es unnessary para especificar un servidor de seguimiento si utiliza A 4 T. |
 |  | [Crear una prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Se han actualizado el texto y las imágenes. |
+|  | Prueba A/B: [URL de actividad](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | Se han actualizado el texto y las imágenes. |
+|  | Prueba A/B: [Seleccionar audiencia](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | Se han actualizado el texto y las imágenes. |
+|  | Prueba A/B: [Objetivos y configuración](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | Se han actualizado el texto y las imágenes. |
+|  | Prueba A/B: [Configurar métricas](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | Se han actualizado el texto y las imágenes. |
+|  | [Varias versiones de una experiencia en una prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | Se han actualizado el texto y las imágenes. |
 |  | [Actividades](/help/c-activities/activities.md) | Se ha subrayado que no se puede restaurar una actividad eliminada. Se recomienda archivar una actividad para que se pueda desarchivar, si es necesario. |
 |  | [Actualización de at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Se ha eliminado limitación que indica que Experience Cloud Debugger no es totalmente compatible con at. js 2. x. |
-|  | [Informes](/help/c-reports/reports.md) | Actualizaciones de texto menores y nuevas imágenes. |
+|  | [Informes](/help/c-reports/reports.md) | Se han actualizado el texto y las imágenes. |
 | 7 de junio de 2019 | [Personalización de un diseño mediante Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Se ha añadido una nueva sección: &quot; Escenario: Cree un diseño de recomendaciones predeterminado de 4 x 2 con lógica de verificación nula. &quot; |
 |  | [Vídeos de capacitación para Adobe Target Standard y Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Se ha actualizado el vínculo al nuevo sitio de tutoriales de Adobe Target. |
 |  | [iOS: configuración de la aplicación móvil](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Se han actualizado los fragmentos de código y texto. |
@@ -267,7 +272,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 |  | [Acerca de las audiencias](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | Se ha agregado información sobre el manejo de audiencias a las que se hace referencia en las actividades de Target que se han eliminado en Adobe Audience Manager (AAM). |
 |  | [Integraciones de at.js](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | Tema actualizado. |
 |  | [Implementación de Target sin un administrador de etiquetas](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | Se han actualizado todas las secciones.  Se ha agregado una sección nueva: implementación de at.js. |
-|  | Versión 18.10.1 [Notas de la versión](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
+|  | Versión 18.10.1  [Notas de la versión](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 18.9.1 (26 de septiembre de 2018)  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
@@ -437,7 +442,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Versión 18.9.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
+   <td colname="col2"> <p>Versión 18.9.1  <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
    <td colname="col3"> <p>Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. </p> </td> 
   </tr> 
  </tbody> 
@@ -603,7 +608,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Versión 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
+   <td colname="col2"> <p>Versión 18.8.1  <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
    <td colname="col3"> <p>Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. </p> </td> 
   </tr> 
  </tbody> 
