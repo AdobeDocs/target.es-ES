@@ -9,7 +9,7 @@ title: Informes
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -20,7 +20,7 @@ Los informes proporcionan información sobre el progreso y los resultados de las
 
 >[!NOTE]
 >
->Puede bloquear a visitantes de direcciones IP específicas para que no se cuenten en los informes. Póngase en contacto con ClientCare para configurar filtros IP. Este filtrado no se aplica al usar   [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) como fuente de informes.
+>Puede bloquear a visitantes de direcciones IP específicas para que no se cuenten en los informes. Póngase en contacto con ClientCare para configurar filtros IP. Este filtrado no se aplica al usar  [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) como fuente de informes.
 
 ## Información sobre la creación de informes para tipos de actividad específicos {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -42,21 +42,20 @@ Además de la información general sobre informes de este tema y sus apartados, 
 
    Por ejemplo, podría seleccionar [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] en la lista desplegable [!UICONTROL Tipo] y elegir [!UICONTROL Activo] en la lista desplegable [!UICONTROL Estado] para mostrar solo las pruebas A/B y actividades de Segmentación de experiencias que tengan este estado.
 
-   En la ilustración siguiente vemos la lista desplegable [!UICONTROL Tipo] con dos tipos marcados:
+   En la ilustración siguiente vemos la lista desplegable [!UICONTROL Tipo] con dos tipos marcados: Prueba A/B y Segmentación de experiencias. Tenga en cuenta que los tres tipos de pruebas A/B (manual, [asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)y [segmentación automática](/help/c-activities/auto-target-to-optimize.md)) están seleccionados de forma predeterminada. Puede anular la selección de uno o más tipos según sea necesario.
 
-   ![](assets/report_filters.png)
+   ![Filtrar informes por tipo](/help/c-reports/assets/report_filters-new.png)
 
 1. Haga clic en la pestaña **[!UICONTROL Informes].**
 
    En todos los informes se incluye una leyenda para ayudarle a entender el informe.
 
-   ![](assets/report_menu_bar.png)
+   ![Leyenda del informe](/help/c-reports/assets/report_menu_bar-new.png)
 
    La leyenda muestra la siguiente información:
 
    * El estado de la actividad, incluido el intervalo de fechas en que se ejecutó.
-   * La experiencia ganadora prevista.
-   * La fuente de la actividad, como [!DNL Adobe Target] o [!DNL Adobe Target Classic].
+   * La experiencia ganadora prevista (si está disponible).
    >[!NOTE]
    >
    >Los resultados de las experiencias aparecen después de que por lo menos un visitante haya visto la experiencia.
@@ -71,4 +70,4 @@ Además de la información general sobre informes de este tema y sus apartados, 
 
 1. (Opcional) Haga clic en los iconos **[!UICONTROL Visualización de tabla]** y **Visualización de gráfico]para cambiar entre los formatos de los informes.[!UICONTROL **
 
-   Solo para las pruebas multivariable, haga clic en el icono de **[!UICONTROL Contribución de ubicación]** ( ![icono de Contribución de ubicación](assets/icon_location_contribution.png)) para que el informe muestre la contribución por ubicación.
+   Solo para las pruebas multivariable, haga clic en el icono de **[!UICONTROL Contribución de ubicación]** (![icono de Contribución de ubicación](assets/icon_location_contribution.png)) para que el informe muestre la contribución por ubicación.
