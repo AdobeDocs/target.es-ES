@@ -7,7 +7,7 @@ solution: Target,estándar
 title: Definir métricas
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,12 +16,12 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 Utilice métricas en una actividad A/B para determinar si una visita es satisfactoria.
 
-Para obtener información detallada sobre las métricas de éxito, consulte   [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Para obtener información detallada sobre las métricas de éxito, consulte  [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Especificar el objetivo de la actividad.
 1. Seleccionar una [métrica de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![](assets/ab_metrics.png)
+   ![Seleccionar métrica de éxito](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
    En la página [!UICONTROL Seleccionar métricas] se muestra una lista de todas las métricas de éxito que puede elegir para la actividad. Las métricas de éxito se dividen en las categorías siguientes:
 
@@ -47,7 +47,7 @@ Tenga en cuenta que cuando nombra o renombra una métrica, no se permiten los si
 |--- |--- |
 | / | Barra oblicua |
 | ? | Signo de interrogación |
-| # | Signo de número    |
+| # | Signo de número |
 | : | Dos puntos |
 | = | Igual a |
 | + | Más |
@@ -62,4 +62,4 @@ Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 * Qué son y cómo compilar las métricas de conversión, ingresos y participación
 * Compilar una métrica para el rastreo de clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=spa)
