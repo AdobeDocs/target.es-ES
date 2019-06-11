@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -22,8 +22,10 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 11 de junio de 2019 | [Creación de actividad](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Se ha eliminado la nota que indica que es unnessary para especificar un servidor de seguimiento si utiliza A 4 T. |
+|  | [Crear una prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Se han actualizado el texto y las imágenes. |
 |  | [Actividades](/help/c-activities/activities.md) | Se ha subrayado que no se puede restaurar una actividad eliminada. Se recomienda archivar una actividad para que se pueda desarchivar, si es necesario. |
 |  | [Actualización de at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Se ha eliminado limitación que indica que Experience Cloud Debugger no es totalmente compatible con at. js 2. x. |
+|  | [Informes](/help/c-reports/reports.md) | Actualizaciones de texto menores y nuevas imágenes. |
 | 7 de junio de 2019 | [Personalización de un diseño mediante Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Se ha añadido una nueva sección: &quot; Escenario: Cree un diseño de recomendaciones predeterminado de 4 x 2 con lógica de verificación nula. &quot; |
 |  | [Vídeos de capacitación para Adobe Target Standard y Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Se ha actualizado el vínculo al nuevo sitio de tutoriales de Adobe Target. |
 |  | [iOS: configuración de la aplicación móvil](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Se han actualizado los fragmentos de código y texto. |
