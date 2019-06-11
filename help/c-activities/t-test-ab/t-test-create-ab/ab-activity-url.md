@@ -8,7 +8,7 @@ title: Dirección URL de actividad
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -21,13 +21,15 @@ Cuando se le pida durante la creación de la actividad, indique la dirección UR
 
 >[!NOTE]
 >
->[!DNL Target] no diferencia entre los protocolos URL ( [!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `http://www.adobe.com`] como [!DNL `https://www.adobe.com`] coinciden.
+>[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `http://www.adobe.com`] como [!DNL `https://www.adobe.com`] coinciden.
 
-De manera predeterminada, el [!UICONTROL Compositor de experiencias visuales] abre la página que se ha especificado en Preferencias de cuenta. Puede especificar una página diferente durante la creación de la actividad.
+## Especifique una dirección URL diferente
+
+De forma predeterminada, el [!UICONTROL Compositor de experiencias visuales] abre la página que se especifica en las preferencias de cuenta [de Target](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Puede especificar una página diferente durante la creación de la actividad.
 
 Para visualizar una página diferente tras abrir el [!UICONTROL Compositor de experiencias visuales], haga clic en el icono de engranaje **[!UICONTROL Configurar]** y, a continuación, seleccione **[!UICONTROL Publicación de página]**. Introduzca la URL en el campo URL de actividad.
 
-![](assets/url-config.png)
+![Cuadro de diálogo Entrega de página](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
 Haga clic en **[!UICONTROL Agregar regla de plantilla]para agregar más páginas o secciones a la actividad.**
 
