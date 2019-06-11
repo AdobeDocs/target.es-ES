@@ -7,7 +7,7 @@ title: Configuración y objetivos
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,19 +16,19 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 
-La configuración disponible depende de si usa Target o Analytics como fuente de datos.
+La configuración disponible dependerá de si usa Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) como fuente de datos.
 
-![](assets/ab_settings.png)
+![Cuadro de diálogo Configuración de actividad](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## Configuración de actividades {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
 | Configuración | Descripción |
 |--- |--- |
 | Objetivo | Escriba un objetivo opcional. El objetivo puede ser cualquier información que le ayude a usted y a su equipo a identificar la campaña. |
-| Prioridad | La interfaz de usuario y las opciones de Prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. <br>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<br>Si esta opción no está habilitada en Configuración (la predeterminada), indique un nivel de prioridad: bajo, medio o alto. <br>Para habilitar prioridades específicas, haga clic en Configuración y luego coloque la opción Habilitar prioridades específicas en la posición “Activado”. <br>Si esta opción está habilitada, indique un valor entre 0 y 999: 0 = bajo y 999 = alto. <br>En las actividades creadas en versiones anteriores de Target Standard/Premium, el nivel bajo de prioridad se convierte en 0; el medio, en 5; y el alto, en 10. Si lo necesita, puede ajustar estos valores.<br>Nota: Para deshabilitar esta opción después de usar las prioridades específicas, hay que volver a fijar todas las prioridades en 0, 5 y 10. |
+| Prioridad | La interfaz de usuario y las opciones de Prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999.<br>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<br>Si esta opción no está habilitada en Configuración (la predeterminada), indique un nivel de prioridad: bajo, medio o alto. <br>Para habilitar prioridades específicas, haga clic en Configuración y luego coloque la opción Habilitar prioridades específicas en la posición “Activado”. <br>Si esta opción está habilitada, indique un valor entre 0 y 999: 0 = bajo y 999 = alto. <br>En las actividades creadas en versiones anteriores de Target Standard/Premium, el nivel bajo de prioridad se convierte en 0; el medio, en 5; y el alto, en 10. Si lo necesita, puede ajustar estos valores.<br>Nota: Para deshabilitar esta opción después de usar las prioridades específicas, hay que volver a fijar todas las prioridades en 0, 5 y 10. |
 | Duración | La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo. |
 
-## Configuración de informes   {#section_13119392051044FBA6387D9B3B1C43CF}
+## Configuración de informes  {#section_13119392051044FBA6387D9B3B1C43CF}
 
 | Configuración | Descripción |
 |--- |--- |
@@ -41,16 +41,19 @@ La configuración disponible depende de si usa Target o Analytics como fuente de
 
 La Configuración avanzada está disponible para métricas de objetivo de Prueba A/B.
 
-![](assets/Menu_AdvancedSettings.png)
+![Menú Configuración avanzada](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
 >Si usa Adobe Analytics como fuente de informes, el servidor de Analytics administra la configuración. La opción de configuración avanzada no estará disponible.
 
+![Configuración avanzada](/help/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
+
 | Configuración | Descripción |
 |--- |--- |
 | ¿Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica? | Use esta opción para contar solamente que alguien alcanza la métrica de éxito si alcanzó previamente una métrica de éxito diferente. Por ejemplo, una conversión de prueba podría ser válida únicamente si el visitante hace clic en la oferta, o alcanza una página concreta antes de la conversión.  Dispone de dependencia respecto a varias métricas y tiene la posibilidad de elegir si una métrica debe alcanzarse o no para que su contador aumente.  Debe definir ambas (o varias) métricas de éxito antes de poder hacer una dependiente de la otra.  La opción Añadir dependencia permite que la métrica de éxito aumente si se alcanza otra métrica de éxito (o todo lo contrario, si no se alcanza).  Para agregar una dependencia:<ul><li>Después de agregar métricas adicionales, haga clic en Configuración avanzada.</li><li>Haga clic en la opción Añadir dependencia:</li><li>Arrastre y suelte las métricas deseadas del panel izquierdo al panel derecho y, a continuación, haga clic en Alcanzado para alternar el valor entre Alcanzado y No alcanzado.</li><li>Puede editar o eliminar dependencias después de añadirlas.</li></ul> |
 | ¿Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo? | Existen tres opciones para lo que ocurre después de que un visitante alcance la métrica de objetivo:<ul><li>Seleccione Aumentar recuento y mantener el usuario en la actividad para especificar cómo se aumenta el recuento.</li><li>Seleccione Aumentar recuento, liberar usuario y permitir la reentrada para especificar la experiencia que el usuario ve si vuelve a entrar a la actividad.</li><li>Seleccione Aumentar recuento, liberar usuario y bloquear su reentrada para especificar qué ve el usuario en lugar del contenido de la actividad.</li></ul> |
+| ¿Cómo aumentará el recuento? | Existen tres opciones para el aumento del recuento:<ul><li>Una vez por participante</li><li>En cada impresión (excluidas las actualizaciones de páginas)</li><li>En cada impresión</li></ul> |
 
 Para obtener más información sobre la configuración avanzada, consulte [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -83,4 +86,4 @@ En este vídeo se ve la configuración de actividades dentro del flujo de trabaj
 * Crear una actividad A/B en Adobe Target
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=spa)
