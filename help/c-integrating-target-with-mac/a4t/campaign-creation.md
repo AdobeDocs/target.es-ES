@@ -8,7 +8,7 @@ title: Creación de actividad
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -45,10 +45,6 @@ Crear una actividad de Target Standard que use Analytics como origen para la cre
 1. Indique el servidor de seguimiento.
 
    Consulte [Usar un servidor de seguimiento de Analytics](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
-
-   >[!NOTE]
-   >
-   >Si usa Adobe Analytics como fuente de informes de la actividad, no es necesario que especifique un servidor de seguimiento durante la creación de la actividad en las versiones 61 (o posterior) de mbox.js y 0.9.1 (o posterior) de at.js. La biblioteca mbox.js o at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
 
 1. Defina la experiencia..
 1. Especifique el objetivo de la actividad.
