@@ -8,7 +8,7 @@ title: Varias versiones de una experiencia en una prueba A/B
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -37,7 +37,7 @@ En este caso, lo que necesitamos son versiones geográficas de la experiencia pa
 
 1. Seleccione la experiencia y haga clic en **[!UICONTROL Configurar]** &gt; **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Múltiples audiencias]**.
 
-   ![](assets/multiple-audiences.png)
+   ![Opción Varias audiencias](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. Haga clic en **[!UICONTROL Añadir audiencia]** y seleccione la primera audiencia a la que se quiere dirigir. Haga lo mismo por cada audiencia.
 
