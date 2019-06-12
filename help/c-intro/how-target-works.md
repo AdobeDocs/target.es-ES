@@ -9,20 +9,20 @@ title: Cómo funciona Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bcf09c30147383ab14cdc253285970e0f03be4b7
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
 
 # Cómo funciona Adobe Target{#how-adobe-target-works}
 
-Información sobre cómo funciona Adobe Target, incluida la información sobre las bibliotecas de Target JavaScript (at. js y mbox. js) y los distintos tipos de actividades incluidos en Target.
+Información sobre cómo funciona Adobe Target, incluida la información sobre las bibliotecas de JavaScript de Target (at.js y mbox.js) y los distintos tipos de actividades incluidos en Target.
 
-## Bibliotecas de Target JavaScript {#libraries}
+## Bibliotecas de JavaScript de Target {#libraries}
 
 Adobe Target se integra con los sitios web mediante una de las dos bibliotecas de JavaScript. at.js o mbox.js
 
-* **at.js:** la [biblioteca at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a   [la versión más reciente de at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* **at.js:** la [biblioteca at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a  [la versión más reciente de at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** la biblioteca mbox.js es la biblioteca de implementación heredada para Target. La biblioteca mbox.js se sigue admitiendo, pero sus características ya no se actualizarán.
 
 >[!IMPORTANT]
@@ -106,6 +106,10 @@ En lugar de responder a todas las solicitudes de segmentación desde una sola ub
 
 La red también funciona como un mecanismo a prueba de errores. Si no funciona un nodo de Edge, la solicitud se envía al nodo más cercano para garantizar que el usuario no recibe contenido predeterminado (una respuesta de seguridad típica cuando no se puede completar una solicitud).
 
+>[!IMPORTANT]
+>
+>[!DNL Adobe Target] actualmente no tiene una red Edge en China y el rendimiento del usuario final se seguirá limitando para [!DNL Target] los clientes de China. Debido al gran servidor de seguridad y a la falta de nodos de Edge dentro del país, las experiencias de los sitios con [!DNL Target] implementado serán lentas para procesar y las cargas de páginas se verán afectadas. Asimismo, la [!DNL Target] interfaz de usuario también puede experimentar latencia.
+
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe garantiza que la disponibilidad y el rendimiento de la infraestructura de segmentación sea lo más segura posible. Sin embargo, la interrupción de las comunicaciones entre el navegador del usuario final y los servidores de Adobe puede imposibilitar la entrega de contenido.
@@ -160,7 +164,7 @@ Desde Google afirman que estas directrices “harán que las pruebas tengan un i
 
 Además de estas directrices, Google también proporciona otra pauta en la documentación de la herramienta Experimentos con contenido:
 
-* “Las páginas de variación deben mantener la esencia del contenido en las páginas originales. Estas variaciones no deben cambiar la percepción general ni el significado de esta que el usuario tiene del contenido original&quot;.
+* “Las páginas de variación deben mantener la esencia del contenido en las páginas originales. Estas variaciones no deben cambiar la percepción general ni el significado de esta que el usuario tiene del contenido original”.
 
 Google pone el ejemplo de que “si la página original de un sitio se carga con palabas clave que no están relacionadas con las combinaciones que se muestran a los usuarios, nos reservamos el derecho a eliminar el sitio de nuestro índice”.
 
