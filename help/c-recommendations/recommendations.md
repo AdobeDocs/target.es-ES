@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,7 +32,7 @@ Las actividades de Recommendations muestran automáticamente productos o conteni
 * Crear criterios (reglas) sofisticados para automatizar las recomendaciones
 * Mostrar automáticamente las recomendaciones mediante algunos fragmentos de código JavaScript
 * Probar y optimizar los criterios de recomendaciones y los diseños que se muestran en las recomendaciones
-* Crear informes con los resultados de las actividades de Recommendations 
+* Crear informes con los resultados de las actividades de Recommendations
 
 La siguiente ilustración muestra recomendaciones en una página web:
 
@@ -61,6 +61,6 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 ## Seminario web básico de Adobe Target: Introducción a Recommendations {#intro-to-recs}
 
-El seminario web Introducción al recomendaciones incluye una exploración exhaustiva de cómo aprovechar el valor de [!DNL Adobe Target Recommendations]. Averigüe cómo muestra automáticamente esta [!DNL Target] actividad los productos o el contenido que pueda interesar a sus clientes optimizando las sugerencias en tiempo real en función de las visitas anteriores. Además, sumérjase en [!DNL Target] la interfaz de usuario para obtener información general paso a paso sobre cómo generar [!DNL Recommendations] una actividad.
+El seminario web Introducción Recommendations incluye una exploración exhaustiva de cómo aprovechar el valor de [!DNL Adobe Target Recommendations]. Descubra cómo esta actividad [!DNL Target] muestra automáticamente los productos o el contenido que pueda interesar a sus clientes optimizando las sugerencias en tiempo real en función de las visitas anteriores. Además, sumérjase en la interfaz de usuario [!DNL Target] para obtener información general paso a paso sobre cómo generar una actividad [!DNL Recommendations].
 
 [Introducción a Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
