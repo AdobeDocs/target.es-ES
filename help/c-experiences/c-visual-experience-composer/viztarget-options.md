@@ -1,14 +1,14 @@
 ---
-description: Al hacer clic en un elemento de página en el Compositor de experiencias visuales (VEC), un menú muestra las opciones disponibles para ese tipo de elemento.
+description: Al hacer clic en un elemento de página en el Compositor de experiencias visuales (VEC), se muestra un menú con las opciones disponibles para dicho tipo de elemento.
 keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias;opciones de experiencias;editar texto;editar html;editar texto/html;editar color de fondo;color de fondo;insertar elemento;editar vínculo;vínculo;vínculo al compositor de experiencias visuales;editar clase css;clase css;intercambiar oferta;intercambio de oferta;intercambiar imagen;intercambio de imagen;eliminar artículo;eliminación de artículo;ocultar artículo;ocultación de artículo;reorganizar;mover elemento;movimiento de elemento;cambiar tamaño de elemento;cambio de tamaño de elemento;elemento;expandir selección;navegar a este vínculo;navegar a vínculo;navegación a vínculo;navegar;deshacer;rehacer;deshacer/rehacer
-seo-description: Al hacer clic en un elemento de página del Compositor de experiencias visuales de Adobe Target (VEC), un menú muestra las opciones disponibles para ese tipo de elemento.
-seo-title: Opciones del Compositor de experiencias visuales de Adobe Target (VEC)
+seo-description: Al hacer clic en un elemento de página del Compositor de experiencias visuales (VEC) de Adobe Target, se muestra un menú con las opciones disponibles para dicho tipo de elemento.
+seo-title: Opciones del Compositor de experiencias visuales (VEC) de Adobe Target
 solution: Target
 title: Opciones del Compositor de experiencias visuales
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
-translation-type: tm+mt
-source-git-commit: cd6bfcda582b7432c4082144dbd8e561f71673a5
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,13 +21,13 @@ Al hacer clic en un elemento de página en el Compositor de experiencias visuale
 
 Las distintas acciones del Compositor de experiencias visuales (VEC) agrupan las opciones de menú apropiadas para que su trabajo sea más rápido y eficiente:
 
-![Menú Opciones del VEC](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
+![Menú Opciones de VEC](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
 >Las opciones disponibles dependen del tipo de actividad que esté editando.
 
-### Editar  
+### Editar
 
 Las opciones disponibles son las siguientes:
 
@@ -39,7 +39,7 @@ Además del código HTML, puede editar e insertar JavaScript personalizado.
 
 Hay varias opciones disponibles para aplicar formato de texto enriquecido al editar texto y código HTML para actividades [!UICONTROL A/B] y de [!UICONTROL Segmentación de experiencias]. Puede seleccionar un tipo de letra, elegir un estilo de letra y cambiar la alineación del texto, entre otras opciones estándar de formato de texto. Cuando modifica el código HTML, puede cambiar entre la vista de código y la vista de edición enriquecida del código HTML.
 
-Se pueden anidar las siguientes etiquetas HTML 5:
+Se pueden anidar las siguientes etiquetas HTML5:
 
 | Etiqueta | Etiquetas anidadas permitidas |
 | --- | --- |
@@ -56,19 +56,19 @@ Use el selector de color para seleccionar o configurar un color de fondo. Puede 
 
 #### Estilos
 
-Utilice el panel [!UICONTROL Estilos] para ver o editar el valor de los estilos existentes para el elemento seleccionado. También puede añadir estilo adicional.
+Utilice el panel [!UICONTROL Estilos] para ver o editar el valor de los estilos existentes para el elemento seleccionado. También puede añadir estilos adicionales.
 
-Para acceder al panel [!UICONTROL Estilos] , haga clic en un elemento de página desde el VEC y, a continuación, haga clic **[!UICONTROL en Editar]** &gt; **[!UICONTROL Estilos]**.
+Para acceder al panel [!UICONTROL Estilos], haga clic en un elemento de página desde el VEC y, a continuación, haga clic en **[!UICONTROL Editar]** &gt; **[!UICONTROL Estilos]**.
 
-El panel [!UICONTROL Estilos] aparece a la derecha del VEC. El panel contiene una lista de estilos que le permite editar o agregar al elemento seleccionado. Un editor CSS en tiempo real permite ver cambios y agregar estilos si se siente cómodo utilizando hojas de estilo en cascada (CSS) o si recibe código de su desarrollador.
+El panel [!UICONTROL Estilos] aparece en la parte derecha del VEC. El panel contiene una lista de estilos que le permite editar o agregar al elemento seleccionado. Un editor CSS en tiempo real permite ver cambios y agregar estilos si se siente cómodo utilizando hojas de estilo en cascada (CSS) o si recibe código de su desarrollador.
 
 ![Panel Estilos](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-Al aplicar distintos estilos, siempre puede revertir los cambios haciendo clic en el icono [!UICONTROL Revertir] que aparece en la esquina superior derecha del panel [!UICONTROL Estilos] después de realizar un cambio en cualquier sección. Tenga en cuenta que al hacer clic en [!UICONTROL el] icono Revertir se revertirán todos los cambios en el panel de la sección actual.
+Al aplicar distintos estilos, siempre puede revertir los cambios haciendo clic en el icono [!UICONTROL Deshacer] que aparece en la esquina superior derecha del panel [!UICONTROL Estilos] después de realizar un cambio en cualquier sección. Tenga en cuenta que al hacer clic en el icono [!UICONTROL Deshacer] se revertirán todos los cambios en el panel de la sección actual.
 
-Expanda cada sección para editar o agregar estilos, como se explica más abajo. Para guardar los cambios, haga clic en el icono Atrás en la parte superior del panel para volver a la pantalla principal del panel y, a continuación, haga clic **[!UICONTROL en Guardar]**.
+Expanda cada sección para editar o agregar estilos, como se explica a continuación. Para guardar los cambios, haga clic en el icono Volver en la parte superior del panel para regresar a la pantalla principal del panel y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
-Observe que los puntos azules en el panel principal y junto a cada opción en los diversos paneles de sección indican que ha realizado cambios en los estilos correspondientes. Esto facilita la revisión de los cambios antes de hacer clic [!UICONTROL en Guardar].
+Observe que los puntos azules en el panel principal y junto a cada opción en los diversos paneles de sección indican que ha realizado cambios en los estilos correspondientes. Esto facilita la revisión de los cambios antes de hacer clic en [!UICONTROL Guardar].
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
 
    Cambie la tipografía de un elemento. Las ediciones tipográficas son rápidas y sencillas.
 
-   Aunque el editor de texto enriquecido (Editar texto/HTML) está disponible para ajuste, las acciones rápidas para realizar cambios en todo el elemento están disponibles a través de esta opción. Si desea aplicar cambios tipográficos solo a una parte del texto (no al texto completo), utilice el editor de texto [enriquecido](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+   Aunque el editor de texto enriquecido (Editar texto/HTML) está disponible para un mejor ajuste, las acciones rápidas para realizar cambios en todo el elemento están disponibles a través de esta opción. Si desea aplicar cambios tipográficos solo a una parte del texto (no al texto completo), utilice el [editor de texto enriquecido](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
    Puede editar los siguientes estilos tipográficos:
 
@@ -100,55 +100,55 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
    * Valor (arrastre el control deslizante para definir el margen o especificar el número de píxeles para cada margen)
    El margen admite valores positivos y negativos.
 
-   Target también admite otras unidades de tamaño, como rem, pc, em, etc. Para obtener más información sobre estas unidades, consulte [Consejos y trucos de CSS de hojas de estilo web](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target también admite otras unidades de tamaño, como rem, pc, em, etc. Para obtener más información sobre estas unidades, consulte [Consejos y trucos de las hojas de estilo web CSS](https://www.w3.org/Style/Examples/007/units.en.html).
 
-* **Margen**
+* **Relleno**
 
-   Cambie el margen del elemento seleccionado. Puede cambiar el margen izquierdo, derecho, inferior y superior.
+   Cambie el relleno del elemento seleccionado. Puede cambiar el relleno izquierdo, derecho, inferior y superior.
 
-   Arrastre el control deslizante para definir el margen o especifique el número de píxeles para el relleno.
+   Arrastre el control deslizante para definir el relleno o especifique el número de píxeles para el relleno.
 
-   El margen admite escalas de anchura a partir de 0 a partir de cero.
+   El relleno admite escalas de anchura a partir de 0.
 
-   Target también admite [otras unidades](https://www.w3.org/Style/Examples/007/units.en.html)de tamaño, como rem, pc, em, etc.
+   Target también admite [otras unidades de tamaño](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
 
 * **Borde**
 
-   Haga clic en los iconos del borde en la parte superior del panel para cambiar el borde del elemento seleccionado.
+   Haga clic en los iconos de borde en la parte superior del panel para cambiar el borde del elemento seleccionado.
 
-   Puede editar los estilos siguientes para cada borde (arriba, derecha, abajo e izquierda):
+   Puede editar los estilos siguientes para cada borde (superior, derecho, inferior e izquierdo):
 
-   * Estilo de borde (ninguno, oculto, punteado, discontinuo, sólido o doble)
-   * Color del borde (especifique el código de color o use el selector de color)
-   * Ancho del borde (arrastre el control deslizante para seleccionar un ancho de borde o especificar la anchura en píxeles)
-   El borde admite escalas de anchura a partir de 0 a partir de cero.
+   * Estilo de borde (ninguno, oculto, punteado, discontinuo, continuo o doble)
+   * Color de borde (especifique el código de color o use el selector de color)
+   * Ancho de borde (arrastre el control deslizante para seleccionar un ancho de borde o especificar la anchura en píxeles)
+   El borde admite escalas de anchura a partir de 0.
 
-   Target también admite [otras unidades](https://www.w3.org/Style/Examples/007/units.en.html)de tamaño, como rem, pc, em, etc.
+   Target también admite [otras unidades de tamaño](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
 
 * **Posición**
 
-   Mueve el elemento seleccionado desde su posición actual. Puede cambiar la posición superior, inferior, izquierda, derecha y [Z del](https://www.w3schools.com/cssref/pr_pos_z-index.asp) elemento del elemento.
+   Mueva el elemento seleccionado desde su posición actual. Puede cambiar la posición superior, inferior, izquierda, derecha y [z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) del elemento.
 
    Haga clic en la lista desplegable [!UICONTROL Estática] para elegir entre las siguientes opciones de posición:
 
    * Estático
    * Relativo
-   * Absoluta  
+   * Absoluta
    * Fijo
-   * Corregido
+   * Fijo
    Haga clic en el icono desplegable de cada posición para elegir entre las siguientes opciones:
 
    * Automático
-   * Valor (arrastre el control deslizante para colocar el elemento o especificar el número de píxeles que desea mover al elemento)
+   * Valor (arrastre el control deslizante para colocar el elemento o especificar el número de píxeles que desea desplazar el elemento)
    La posición admite valores positivos y negativos.
 
-   Target también admite [otras unidades](https://www.w3.org/Style/Examples/007/units.en.html)de tamaño, como rem, pc, em, etc.
+   Target también admite [otras unidades de tamaño](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
 
 * **Tamaño**
 
    Cambie la anchura y la altura del elemento seleccionado.
 
-   Haga clic en el icono desplegable situado junto [!UICONTROL a Anchura] y [!UICONTROL Altura] para elegir entre las siguientes opciones:
+   Haga clic en el icono desplegable situado junto a [!UICONTROL Anchura] y [!UICONTROL Altura] para elegir entre las siguientes opciones:
 
    * Automático
    * Valor (arrastre el control deslizante para cambiar el tamaño del elemento o especificar el número de píxeles para cada dimensión)
@@ -171,25 +171,25 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
 
    El editor CSS en tiempo real permite ver cambios y agregar estilos si se siente cómodo utilizando hojas de estilo en cascada (CSS) o si recibe código de su desarrollador.
 
-   El Editor de CSS muestra los cambios realizados en el panel Estilos. Como se muestra en la siguiente ilustración, se han cambiado el tamaño de fuente, el borde superior y el tamaño de imagen:
+   El editor CSS muestra los cambios realizados en el panel Estilos. Como se muestra en la siguiente ilustración, se han cambiado el tamaño de fuente, el borde superior y el tamaño de la imagen:
 
    ![Editor CSS con cambios](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   Observe los puntos azules junto a [!UICONTROL las opciones Tipografía], [!UICONTROL Borde]y [!UICONTROL Tamaño] de la ilustración anterior. Estos puntos indican que ha realizado cambios en estas secciones. Si abre estos paneles de sección, aparecen puntos azules junto a las opciones específicas que ha modificado.
+   Observe los puntos azules junto a las opciones de [!UICONTROL Tipografía], [!UICONTROL Borde] y [!UICONTROL Tamaño] de la ilustración anterior. Estos puntos indican que ha realizado cambios en estas secciones. Si abre estos paneles de sección, aparecen puntos azules junto a las opciones específicas que ha modificado.
 
    Puede escribir su propio código si el estilo deseado no está disponible de forma predeterminada en [!UICONTROL Estilos].
 
-   Tenga en cuenta que el Editor de CSS muestra los detalles de la sesión actual. Si guarda cambios y vuelve a abrir el editor, los detalles sobre el cambio anterior no se muestran en el editor, aunque vuelva a seleccionar el mismo elemento.
+   Tenga en cuenta que el editor CSS muestra solo los detalles de la sesión actual. Si guarda cambios y vuelve a abrir el editor, los detalles sobre el cambio anterior no se muestran en el editor, aunque vuelva a seleccionar el mismo elemento.
 
-   >[!Important]
+   >[!IImportante]
    >
-   >Puede aplicar una imagen de fondo mediante el Editor CSS, pero puede provocar parpadeos. Pruebe los cambios antes de la implementación.
+   >Puede aplicar una imagen de fondo mediante el editor CSS, pero puede provocar parpadeos. Pruebe los cambios antes de la implementación.
 
 #### Clase CSS
 
 Especifica la clase CSS predefinida usada para el elemento. Si selecciona más de un elemento, separe varias clases CSS con un espacio.
 
-Disponible para actividades de prueba[!UICONTROL A/B], [!UICONTROL Personalización automatizada] y [!UICONTROL Prueba multivariable].
+Disponible para actividades de prueba [!UICONTROL A/B], [!UICONTROL Personalización automatizada] y [!UICONTROL Prueba multivariable].
 
 #### Vínculo
 
@@ -219,7 +219,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Insertar después
 
@@ -243,7 +243,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Reemplazar con
 
@@ -263,7 +263,7 @@ Tras sincronizar la actividad, la URL de publicación podría tener el aspecto s
 
 `http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
 
-Recomendaciones admite Reemplazar con etiquetas DIV, SECCIÓN y ARTÍCULOS.
+Recommendations admite Reemplazar con etiquetas DIV, SECTION y ARTICLE.
 
 **Nota:** Para intercambiar imágenes se requiere una cuenta de Adobe Scene7 Publishing System.
 
@@ -271,7 +271,7 @@ Recomendaciones admite Reemplazar con etiquetas DIV, SECCIÓN y ARTÍCULOS.
 
 Seleccione una oferta distinta de la [!UICONTROL Biblioteca de contenido].
 
-**Nota:**[!DNL Target] Las ofertas HTML se almacenan en servidores de 
+**Nota:**[!DNL Target] Las ofertas HTML se almacenan en servidores de
 
 Una oferta de HTML puede tener un tamaño máximo de 256 kB.
 
@@ -281,7 +281,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Diseño
 
@@ -299,7 +299,7 @@ Cambia el tamaño de un elemento en la página. Al seleccionar [!UICONTROL Cambi
 
 **Nota:** No se puede cambiar el tamaño de los elementos en línea.
 
-#### Mover  
+#### Mover
 
 Mueve elementos en la página. A diferencia de [!UICONTROL Reorganizar], [!UICONTROL Mover] no desplaza otros elementos para conseguir espacio para el elemento que se va a mover. Use las teclas de dirección para ajustar el movimiento. (Mejora prevista: hacer que los elementos movidos no queden ocultos detrás de otros elementos).
 
@@ -319,7 +319,7 @@ Elimina el elemento. Se elimina el espacio en blanco detrás de la imagen y el e
 
 Selecciona el elemento principal además del elemento seleccionado originalmente. Al seleccionar un elemento principal, se seleccionan automáticamente todos los elementos secundarios de dicho elemento. Puede expandir la selección varias veces.
 
-### Navegar a vínculo
+### Navegar al vínculo
 
 Abre el destino del vínculo.
 
@@ -327,16 +327,16 @@ Abre el destino del vínculo.
 
 Deshace los cambios realizados en las actividades durante una sesión de edición. También puede rehacer cambios que haya deshecho anteriormente.
 
-## Desplazamiento por los elementos mediante la ruta DOM {#dom-path}
+## Desplazamiento por elementos utilizando la ruta DOM {#dom-path}
 
-Al hacer clic en un elemento de la página, aparece el menú de opciones del VEC. Además, al hacer clic en un elemento, la ruta DOM correspondiente se muestra en la parte inferior de la página.
+Al hacer clic en un elemento de la página, aparece el menú de opciones de VEC. Además, al hacer clic en un elemento, la ruta DOM correspondiente se muestra en la parte inferior de la página.
 
 ![Ruta DOM](/help/c-experiences/c-visual-experience-composer/assets/dom-path.png)
 
 Puede utilizar la ruta DOM para ver rápidamente información sobre el elemento seleccionado (tipo, ID y clase) y subir o bajar por la ruta DOM para seleccionar el elemento deseado.
 
-Al pasar el ratón por encima de la ruta DOM, un cuadro azul resalta el elemento correspondiente del VEC. Al hacer clic en el elemento, un cuadro naranja resalta el elemento y se muestra el menú de opciones VEC, como se explica más arriba.
+Al pasar el ratón por encima de la ruta DOM, un cuadro azul resalta el elemento correspondiente del VEC. Al hacer clic en el elemento, un cuadro naranja resalta el elemento y se muestra el menú de opciones de VEC, como se explica más arriba.
 
-Puede navegar fácilmente a cualquier elemento principal, secundario o secundario dentro del VEC utilizando la ruta DOM.
+Puede navegar fácilmente a cualquier elemento principal, del mismo nivel o secundario dentro del VEC utilizando la ruta DOM.
 
-La función de ruta DOM también está disponible al configurar el rastreo [de clics](/help/c-activities/r-success-metrics/click-tracking.md).
+La función de ruta DOM también está disponible al configurar el [rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md).
