@@ -7,8 +7,8 @@ solution: Target
 title: Resolución de problemas de la administración de usuarios
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
-translation-type: tm+mt
-source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,8 +17,8 @@ source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
 
 Información sobre la resolución de problemas de la administración de usuarios en Adobe Target.
 
-## He invitado a un usuario a Target, pero su nombre no aparece en la lista Usuarios (Configuración &gt; Usuarios).   {#section_13A1A9697BA44537BA569C81CF136160}
+## He invitado a un usuario a Target, pero su nombre no aparece en la lista Usuarios (Configuración &gt; Usuarios).  {#section_13A1A9697BA44537BA569C81CF136160}
 
 No verá el nombre del usuario nuevo en la página [!UICONTROL Usuarios] hasta que el usuario inicie sesión con la cuenta de Adobe Experience Cloud y luego inicie sesión en [!DNL Target Standard/Premium] haciendo clic en la tarjeta [!DNL Target].
 
-![Tarjeta de destino](/help/administrating-target/assets/target_card_new.png)
+![Tarjeta Target](/help/administrating-target/assets/target_card_new.png)
