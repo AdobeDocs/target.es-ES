@@ -7,8 +7,8 @@ solution: Target
 title: Control de calidad de la actividad
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
-translation-type: tm+mt
-source-git-commit: af03123e48376532cbbd150b2679eb855a7d6513
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,11 +21,11 @@ Use direcciones URL de control de calidad para realizar sencillos controles de c
 
 Control de calidad de la actividad le permite probar completamente las actividades de Target antes de su lanzamiento. La funcionalidad de control de calidad de la actividad incluye:
 
-* Vínculos que nunca cambian ni requieren regeneración, independientemente de las actualizaciones realizadas en las experiencias o actividades, para compartir con los integrantes del equipo. Esto le permite probar todas las actividades en todo el viaje del usuario.
+* Vínculos que nunca cambian ni requieren regeneración, independientemente de las actualizaciones realizadas en las experiencias o actividades, para compartir con los integrantes del equipo. Esto permite probar todas las actividades a lo largo del viaje del usuario.
 * Respeto opcional a las condiciones a audiencia, de forma que los expertos en marketing puedan probar o ignorar criterios de segmentación con el fin de evaluar el aspecto de las experiencias sin necesidad de cumplir sus condiciones de audiencia.
 * La realización de informes de control de calidad se captura; de este modo, los expertos en marketing pueden confirmar si las métricas aumentan del modo esperado y es posible mantener los datos de informes de control de calidad separados de los informes de producción (para la creación de informes ajenos a A4T).
 * La capacidad para obtener la vista previa de una experiencia de forma aislada o junto con otras actividades activas que satisfagan los criterios de entrega (página, mbox o audiencia).
-* Capacidad para realizar un control de calidad de todo el trayecto del usuario. Puede acceder a su sitio una vez con el vínculo de control de calidad y, a continuación, examinar el sitio entero durante el control de calidad de la actividad. Permanecerá en el control de calidad de la actividad hasta que termine la sesión o hasta que utilice el   [bookmarklet QA Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de dicho control de calidad. Esta característica es especialmente útil si su actividad abarca varias páginas web.
+* La capacidad para realizar un control de calidad del viaje del usuario completo. Puede acceder a su sitio una vez con el vínculo de control de calidad y, a continuación, examinar el sitio entero durante el control de calidad de la actividad. Permanecerá en el control de calidad de la actividad hasta que termine la sesión o hasta que utilice el  [bookmarklet QA Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de dicho control de calidad. Esta característica es especialmente útil si su actividad abarca varias páginas web.
 
 ## Acceso y uso compartido de una URL de control de calidad {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -45,7 +45,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
       Si el ajuste está desactivado, tenga en cuenta lo siguiente:
 
-      * En caso de conflicto entre la actividad que está probando y otras actividades en curso, se aplicarán   [reglas de prioridad normales](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Debido a esto, es posible que no vea la actividad que desea someter a control de calidad.
+      * En caso de conflicto entre la actividad que está probando y otras actividades en curso, se aplicarán  [reglas de prioridad normales](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Debido a esto, es posible que no vea la actividad que desea someter a control de calidad.
       * Las métricas aumentan para las actividades vistas, pero solo en el entorno de realización de informes de control de calidad.
 
 1. Haga clic en **[!UICONTROL Hecho]para guardar los cambios.**
@@ -55,11 +55,11 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
    Cada URL de vínculos de actividad (para Exp A, Exp B, etc.) le permite iniciar el viaje del usuario desde la experiencia correspondiente. Puede hacer clic en la URL generada para una experiencia y, a continuación, examinar normalmente el sitio para ver experiencias en varias páginas (de haberlas). Se genera una única URL por experiencia, aunque esta abarque múltiples páginas (prueba de plantilla o prueba multipágina). Puede explorar el sitio para ver las demás páginas, ya que el control de calidad de la actividad es persistente.
 
-1. Para ver los informes generados a partir de las URL de vínculos de actividad, haga clic en la página **[!UICONTROL Informes]** de la actividad, haga clic en el icono **[!UICONTROL Configuración]** ( ![](assets/icon_gear.png) ) y, a continuación, seleccione **[!UICONTROL Modo de control de calidad]** en la lista desplegable **[!UICONTROL Entorno]**.
+1. Para ver los informes generados a partir de las URL de vínculos de actividad, haga clic en la página **[!UICONTROL Informes]** de la actividad, haga clic en el icono **[!UICONTROL Configuración]** (![](assets/icon_gear.png)) y, a continuación, seleccione **[!UICONTROL Modo de control de calidad]** en la lista desplegable **[!UICONTROL Entorno]**.
 
 ## Consideraciones {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* El vínculo [!UICONTROL Control de calidad de la actividad] aparece en la página [!UICONTROL Información general] de todos los tipos de actividad excepto Personalización automatizada (AP). Puede usar [Vínculos de vista previa](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) para actividades AP.
+* El vínculo [!UICONTROL Control de calidad de la actividad] aparece en la página [!UICONTROL Información general] de todos los tipos de actividad excepto Personalización automatizada (AP). Puede usar  [Vínculos de vista previa](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) para actividades AP.
 * Las URL de control de calidad de la actividad están disponibles con actividades que tienen Analytics como fuente de informes (A4T). Las visitas generadas mientras se realiza un control de calidad utilizando el control de calidad de la actividad fluirán al mismo grupo de informes al que llegan los datos de la actividad, incluso después de activarse esta última.
 * El control de calidad de la actividad no muestra contenido para actividades archivadas o ya caducadas. Si desactiva una actividad terminada, debe guardar la actividad de nuevo para que el control de calidad de la actividad funcione.
 * Las actividades importadas en Target Standard/Premium (desde Target Classic, por ejemplo) no admiten direcciones URL de control de calidad.
@@ -70,7 +70,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
 * Si ha especificado “URL es” al crear la mejora de actividad [en el Compositor basado en formularios](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o en las opciones de envío [de página del Compositor de experiencias visuales,](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) la URL de control de calidad no funcionará porque el control de calidad de la actividad adjunta parámetros de URL. Para solucionar este problema, haga clic en la URL de control de calidad para ir a su sitio, elimine los parámetros añadidos a la URL y cargue la nueva dirección.
 * Para que el control de calidad de la actividad funcione apropiadamente en los navegadores Safari, las cookies de terceros deben estar habilitadas.
-* Si una actividad utiliza varias audiencias de experiencia (por ejemplo, un sitio de EE. UU. y Reino Unido que se incluye en la misma actividad), los vínculos de control de calidad no se generan para las cuatro combinaciones (Experiencia A/Sitio de EE. UU., Experiencia A/Sitio RU, Experiencia B/Sitio EE. UU., Experiencia B/Sitio RU). Se crean solo dos vínculos de QA (Experiencia A y Experiencia B) y los usuarios deben cumplir las condiciones de audiencia apropiadas para ver la página. Un usuario de QA para Reino Unido, no podría ver el sitio de EE. UU.
+* Si una actividad utiliza múltiples audiencias de experiencia (por ejemplo, un sitio con versiones para Reino Unido y Estados Unidos incluidas en la misma actividad), no se generan vínculos de control de calidad para las cuatro combinaciones (experiencia A/sitio EE. UU., experiencia A/sitio RU, experiencia B/sitio EE. UU., experiencia B/sitio RU). Se crean solo dos vínculos de QA (Experiencia A y Experiencia B) y los usuarios deben cumplir las condiciones de audiencia apropiadas para ver la página. Un usuario de QA para Reino Unido, no podría ver el sitio de EE. UU.
 * Todos los parámetros y valores de `at_preview` ya están codificados en la URL. La mayoría de las veces, todo funciona según lo esperado, pero algunos clientes podrían disponer de equilibradores de carga o servidores WEB que traten de codificar de nuevo los parámetros de la cadena de consulta.
 
    Debido a esta doble codificación, cuando intentamos decodificar el `at_preview_token`, Target no puede extraer el valor del token correcto, lo que hace que la vista previa no funcione.
@@ -86,7 +86,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
    | `at_preview_listed_activities_only` | Booleano (true/false) | Valor predeterminado: false | Si es “true”, se procesan todas las campañas especificadas en los parámetros `at_preview_index`.<br>Si es “false”, se procesan todas las campañas de la página, aunque no se especificaran en el token de vista previa. |
    | `at_preview_evaluate_as_true_audience_ids` | Cadena | Vacía | Lista de segmentId separada por guiones bajos (“_”) que siempre (en los niveles de segmentación e informes) deben evaluarse como “true” en el ámbito de la solicitud mbox. |
    | `_AT_Debug` | Cadena | Ventana o consola | Registro de consola o nueva ventana. |
-   | `adobe_mc_ref` | Pasa la URL de referencia de la página predeterminada a la nueva página. Cuando se utiliza con `AppMeasurement.js` versión 2.1 (o posterior), [!DNL Adobe Analytics] usa este valor de parámetro como URL de referencia en la nueva página. |
-   | `adobe_mc_sdid` | Transfiere los valores de [!DNL Supplemental Data Id] (SDID) y de [!DNL Experience Cloud Org Id] la página predeterminada a la nueva página, de modo que Analytics para Target (A4T) “una” la solicitud de Target en la página predeterminada a la solicitud de Analytics en la nueva página. |
+   | `adobe_mc_ref` |  |  | Pasa la URL de referencia de la página predeterminada a la nueva página. Cuando se utiliza con `AppMeasurement.js` versión 2.1 (o posterior), [!DNL Adobe Analytics] usa este valor de parámetro como URL de referencia en la nueva página. |
+   | `adobe_mc_sdid` |  |  | Transfiere los valores de [!DNL Supplemental Data Id] (SDID) y de [!DNL Experience Cloud Org Id] la página predeterminada a la nueva página, de modo que Analytics para Target (A4T) “una” la solicitud de Target en la página predeterminada a la solicitud de Analytics en la nueva página. |
 
-* La interfaz de usuario del modo QA de Target solo muestra la primera URL de una experiencia en una actividad de varias páginas. Se supone que está creando una prueba de viaje y pasará de URL 1 a URL 2. Sin embargo, si desea ir a la URL 2 independientemente, copie todos los parámetros de URL proporcionados con la URL 1 y aplíquelos a la URL 2 después de colocar &quot;?&quot; como se ve en la URL 1.
+* La interfaz de usuario del modo de control de calidad de Target solo muestra la primera URL de una experiencia en una actividad de varias páginas. Se supone que está creando una prueba de viaje y pasará de la URL 1 a la URL 2. Sin embargo, si desea ir a la URL 2 de forma independiente, copie todos los parámetros de la URL proporcionados con la URL 1 y aplíquelos a la URL 2 después de colocar “?” como se ve en la URL 1.
