@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
-translation-type: tm+mt
-source-git-commit: 049b473bac0b90399c0106fffefb1e905c62da4e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Mientras [crea criterios](../../c-recommendations/c-algorithms/create-new-algori
 
 Las opciones disponibles varían en función del sector seleccionado y la clave de recomendación.
 
-## Agregación de reglas de filtrado a las promociones   {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Agregación de reglas de filtrado a las promociones  {#section_D59AFB62E2EE423086281CF5D18B1076}
 
 Mientras [crea una promoción](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), seleccione **[!UICONTROL Promocionar por atributo]** y, a continuación, haga clic en **[!UICONTROL Agregar regla de filtrado**].
 
@@ -76,7 +76,7 @@ Los criterios y promociones dinámicos son mucho más potentes que los estático
 * sean episodios posteriores de la misma temporada
 * sean los primeros libros de una saga
 
-## Gestión de valores en blanco al filtrar por coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros   {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## Gestión de valores en blanco al filtrar por coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros  {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
 Puede elegir varias opciones para gestionar los valores en blanco al filtrar los criterios y promociones de salida por coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros.
 
@@ -94,7 +94,7 @@ Para seleccionar la acción deseada, pase el ratón sobre el icono del engranaje
 
 Como ejemplo de gestión de valores en blanco, considere la [Escenario 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) siguiente:
 
-## Escenarios de filtrado dinámico   {#section_9873E2F22E094E479569D05AD5BB1D40}
+## Escenarios de filtrado dinámico  {#section_9873E2F22E094E479569D05AD5BB1D40}
 
 **Escenario 1:** en vez de buscar coincidencias entre elementos de catálogo mediante un filtro estático, puede utilizar un filtro dinámico que busque coincidencias entre un elemento de un catálogo y un atributo del perfil del visitante.
 
@@ -106,9 +106,9 @@ Ahora puede utilizar las reglas de inclusión para buscar coincidencias entre la
 
 ![](assets/job_seeker.png)
 
-La oferta de empleo de la izquierda requiere que el visitante esté en San Francisco, Nueva York o Los Ángeles (`entity.jobCity`), y que cuente con un título BSCS o MBA ( `entity.requiredDegree`).
+La oferta de empleo de la izquierda requiere que el visitante esté en San Francisco, Nueva York o Los Ángeles (`entity.jobCity`), y que cuente con un título BSCS o MBA (`entity.requiredDegree`).
 
-Este buscador de empleo de la derecha está en Los Ángeles (`profile.usersCity`) y tiene un título MBA ( `profile.degree`).
+Este buscador de empleo de la derecha está en Los Ángeles (`profile.usersCity`) y tiene un título MBA (`profile.degree`).
 
 Utilizando un filtro dinámico con coincidencia de atributos de perfil, puede crear el filtro que se muestra en la parte inferior de la ilustración anterior, que recomienda únicamente ofertas de empleo para las que el visitante esté cualificado en virtud de su ubicación y titulación.
 
@@ -258,7 +258,7 @@ El equipo de contenido de un sitio multimedia deportivo quiere mostrar a los usu
 
 >[!IMPORTANT]
 >
->Es posible que no se puedan usar atributos de tipo de datos diferentes en los criterios dinámicos o promociones durante el tiempo de ejecución con los operadores “es igual que“ y “no es igual que”. Use de forma acertada los valores “Value”, “Margin”, “Inventory” y “Environment” en la parte de la derecha si la parte de la izquierda tiene atributos predefinidos o personalizados.
+>Es posible que no se puedan usar atributos de tipo de datos diferentes en los criterios dinámicos o promociones durante el tiempo de ejecución con los operadores “es igual que” y “no es igual que”. Use de forma acertada los valores “Value”, “Margin”, “Inventory” y “Environment” en la parte de la derecha si la parte de la izquierda tiene atributos predefinidos o personalizados.
 
 ![](assets/left_right.png)
 
@@ -266,7 +266,7 @@ La tabla siguiente contiene reglas eficaces y reglas que pueden no ser compatibl
 
 | Reglas compatibles | Posibles reglas incompatibles |
 |--- |--- |
-| value - está entre - 90 % and 110 % de Elemento actual - salesValue | salesValue - está entre - 90 % y 110%  de Elemento actual - value |
+| value - está entre - 90 % and 110 % de Elemento actual - salesValue | salesValue - está entre - 90 % y 110% de Elemento actual - value |
 | value - está entre - 90 % y 110 % de Elemento actual - value | clearancePrice - está entre - 90 % y 110 % de Elemento actual - margin |
 | margin - está entre - 90 % y 110 % de Elemento actual - margin | storeInventory - es igual que - Elemento actual - inventory |
-| inventory - es igual que - Elemento actual - inventory |
+| inventory - es igual que - Elemento actual - inventory |  |
