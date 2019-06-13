@@ -8,8 +8,8 @@ subtopic: Prueba multivariable
 title: Configuración de actividades
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,7 +23,7 @@ Use Configuración de actividades para administrar el objetivo, la prioridad y l
    Escriba la información sobre la actividad que sea útil tener disponible para el equipo. Arrastre para modificar el tamaño del campo [!UICONTROL Objetivo].
 1. Establezca la prioridad de actividades.
 
-   La interfaz de usuario y las opciones de [!UICONTROL Prioridad] varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. 
+   La interfaz de usuario y las opciones de [!UICONTROL Prioridad] varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999.
 
    La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
