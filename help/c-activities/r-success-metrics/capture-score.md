@@ -1,6 +1,6 @@
 ---
 description: La métrica de participación Puntuación de captación calcula una puntuación acumulada basada en el valor asignado a páginas visitadas del sitio, desde el punto en el que el visitante ve por primera vez el primer mbox de visualización de la campaña.
-keywords: puntuación de captura;puntuación
+keywords: puntuación de captación;puntuación
 seo-description: La métrica de participación Puntuación de captación calcula una puntuación acumulada basada en el valor asignado a páginas visitadas del sitio, desde el punto en el que el visitante ve por primera vez el primer mbox de visualización de la campaña.
 seo-title: Puntuación de captación
 solution: Target
@@ -8,8 +8,8 @@ subtopic: Primeros pasos
 title: Puntuación de captación
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -40,7 +40,7 @@ Existen dos métodos para asignar una puntuación a una página:
 
    Ejemplo: `('global_mbox', 'mboxPageValue=10');`
 
-   El valor especificado se añade a la puntuación cada vez que se visualiza la página con dicho mbox. Si varios mboxes de la página incluyen valores de puntuación, la puntuación de la página es el total de todos los valores de mboxes. `mboxPageValue` es un parámetro reservado usado para pasar valores en un mbox a fin de capturar una puntuación de participación. Se pueden pasar valores positivos y negativos. La suma se calcula al final de la visita de cada visitante para obtener la puntuación total de la visita. 
+   El valor especificado se añade a la puntuación cada vez que se visualiza la página con dicho mbox. Si varios mboxes de la página incluyen valores de puntuación, la puntuación de la página es el total de todos los valores de mboxes. `mboxPageValue` es un parámetro reservado usado para pasar valores en un mbox a fin de capturar una puntuación de participación. Se pueden pasar valores positivos y negativos. La suma se calcula al final de la visita de cada visitante para obtener la puntuación total de la visita.
 
 * Transmita el parámetro `?mboxPageValue=n` en la dirección URL de la página.
 
