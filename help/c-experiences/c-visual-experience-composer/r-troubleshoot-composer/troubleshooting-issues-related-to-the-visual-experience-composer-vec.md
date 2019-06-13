@@ -6,8 +6,8 @@ seo-title: Resolución de problemas relacionados con el Compositor de experienci
 solution: Target
 title: Resolución de problemas relacionados con el Compositor de experiencias visuales
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ En ocasiones pueden producirse problemas de visualización en el compositor de e
 
 Target añade dos parámetros (`mboxEdit=1` y `mboxDisable=1`) al abrir el sitio web en el Compositor de experiencias visuales.
 
-Si su sitio web (especialmente las aplicaciones de una sola página) recorta nuestros parámetros o los llega a eliminar al pasar de una página a otra (sin volver a cargar la página), la funcionalidad de Target se rompe y las bibliotecas de Target no se cargan.
+Si su sitio web (especialmente las aplicaciones de una sola página) recorta nuestros parámetros o los llega a eliminar al pasar de una página a otra (sin volver a cargar la página), la funcionalidad de Target se rompe y las bibliotecas de Target no se cargan. 
 Para evitar este problema, asegúrese de que no recorta ni elimina estos dos parámetros.
 
 ## Mi página no se abre en el EEC. O bien, la carga de la página es lenta. Las actividades o experiencias ser cargan lentamente en el VEC. (Solo VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
@@ -108,7 +108,7 @@ Para la extensión del encabezado de respuesta de modificación (Firefox), ya qu
 
 Después de configurar una extensión, abra Target. Sus páginas ahora deberían cargarse en el Compositor de experiencias visuales, incluso si está deshabilitado el Compositor de experiencias visuales.
 
-## Mi página no se muestra en el VEC (solo VEC)   {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Mi página no se muestra en el VEC (solo VEC)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * El navegador no es compatible.
 * El navegador bloquea una página no segura en un sitio seguro.
