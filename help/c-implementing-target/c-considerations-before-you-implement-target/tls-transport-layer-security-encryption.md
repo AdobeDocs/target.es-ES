@@ -7,8 +7,8 @@ solution: Target
 title: Cambios en el cifrado de TLS (Seguridad de capa de transporte)
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
-translation-type: tm+mt
-source-git-commit: 540f763f649364e8f424c9bed057675603a462d7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,7 +21,7 @@ Seguridad de capa de transporte (TLS) es el protocolo de seguridad más implemen
 
 >[!NOTE]
 >
->El 20 de febrero de 2019, la infraestructura de Adobe Target se actualizó en las regiones de EMEA, Japón y APAC para dejar de recopilar datos de usuarios finales con dispositivos antiguos o exploradores Web que no admiten TLS 1.1 o posterior. La misma actualización está planificada para la región de Norteamérica para **el 1 de abril de 2019**. Utilizar TLS 1.2 mejora la seguridad. Es importante que avance por los específicos y planifique los cambios con su equipo de TI para lograr una transición suave.
+>El 20 de febrero de 2019, la infraestructura de Adobe Target se actualizó en las regiones de EMEA, Japón y APAC para dejar de recopilar datos de usuarios finales con dispositivos antiguos o navegadores web que no son compatibles con TLS 1.1 o versiones posteriores. La misma actualización está planificada para la región de Norteamérica para **el 1 de abril de 2019**. Utilizar TLS 1.2 mejora la seguridad. Es importante que revise los detalles específicos y que planifique los cambios con su equipo informático para garantizar una transición sin contratiempos.
 
 No esperamos que esto tenga un impacto significativo en los datos de los clientes ni en los informes.
 
@@ -31,13 +31,13 @@ Hasta ahora, el [Compositor de experiencias mejorado](../../c-experiences/experi
 
 Adobe realizará la migración de sus clientes por etapas a TLS 1.2. Para aquellos cuyos dominios ya cumplan con 1.2, los pasaremos a TLS 1.2 sin que usted tenga que hacer ningún cambio. La mayoría de los dominios de los clientes ya admiten TLS 1.2. Sin embargo, si su dominio no admite TLS 1.2, conservaremos esos dominios en TLS 1.0 como hoy en día (hasta febrero de 2019).
 
-No debería tener ningún problema durante esta fase de migración. Si el VEC ha dejado de cargar un sitio que antes funcionaba,   [abra un ticket de Client Care](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) citando esta migración como causa posible.
+No debería tener ningún problema durante esta fase de migración. Si el VEC ha dejado de cargar un sitio que antes funcionaba,  [abra un ticket de Client Care](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) citando esta migración como causa posible.
 
 Si, sin embargo, es uno de los clientes que están en TSL 1.0 sin admitir TLS 1.2, debería planificar la migración de sus dominios e infraestructura a TLS 1.2. Seguiremos admitiendo el protocolo TLS 1.0 hasta febrero de 2019. A partir de febrero de 2019, Target no admitirá que el protocolo TLS 1.0 se use para VEC mediante la funcionalidad del Compositor de experiencias mejorado.
 
 Aunque recomendamos encarecidamente que todos estén en TLS 1.2 de ahora en adelante, si usted es un nuevo cliente, pero *NO* admite TLS 1.2, póngase en contacto con el Servicio de atención al cliente para informarles de que necesita estar en TLS 1.0 para el Compositor de experiencias mejorado. Sin embargo, planifique pasar a TLS 1.2, ya que la compatibilidad con TLS 1.0 terminará en febrero de 2019.
 
-## Entrega de actividades   {#section_46CA5943E4354B259014C2BF340AECD6}
+## Entrega de actividades  {#section_46CA5943E4354B259014C2BF340AECD6}
 
 A partir de febrero de 2019, los servidores de Target dejarán de ser compatibles con TLS 1.0. Este cambio significa que los servidores de Target ya no aceptarán solicitudes de usuarios finales que utilicen dispositivos antiguos o navegadores web que no sean compatibles con TLS 1.1 o versiones posteriores. Como resultado, los dispositivos y navegadores más antiguos y que solo admitan TLS 1.0 (o que admitan TLS 1.0 de forma predeterminada) no recibirán de Adobe Target contenido de actividades. Se mostrará el contenido predeterminado del sitio.
 
@@ -54,7 +54,7 @@ Mientras planifica este cambio, considere lo siguiente (tenga en cuenta que el p
 * Tenga presente que el número de visitantes de sus informes de Target puede experimentar una caída insignificante en el número de visitantes.
 * Puede que necesite cambiar de audiencia creada específicamente para dirigirse a dispositivos o navegadores antiguos que admiten TLS 1.0 (la entrega a esos dispositivos y navegadores dejará de funcionar).
 
-Para conocer más detalles sobre navegadores compatibles y sus versiones, consulte   [Exploradores admitidos](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+Para conocer más detalles sobre exploradores compatibles y sus versiones, consulte  [Exploradores admitidos](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## API de Adobe Target {#section_88797FA5434049EC89F908853CC76903}
 
@@ -64,11 +64,11 @@ A partir de febrero de 2019, Target dejará de admitir el cifrado TLS 1.0. Los c
 * Los clientes de API que usen Java 8 no deberían tener problemas, ya que la configuración predeterminada es TLS 1.2.
 * Los clientes de API que usen otros módulos deben ponerse en contacto con su proveedor para obtener más información acerca de la compatibilidad con TLS 1.2.
 
-## Acceso a interfaces de soluciones de Experience Cloud   {#section_748870ADE77B4CBEB18518DC784E64E5}
+## Acceso a interfaces de soluciones de Experience Cloud  {#section_748870ADE77B4CBEB18518DC784E64E5}
 
 Debido a que la interfaz de Target Standard/Premium ya requiere un [explorador web actual](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), no se esperan problemas. Si no puede conectarse a Target, deberá actualizar el navegador a la última versión.
 
-## Cómo comprobar la versión de TLS que usa el navegador   {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
+## Cómo comprobar la versión de TLS que usa el explorador  {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
 Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegadores tienen pasos similares):
 
@@ -85,7 +85,7 @@ Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegad
 
    ![](assets/firefox_more_info_3.png)
 
-## Comportamiento esperado con los navegadores compatibles con TLS 1.0 solamente   {#section_B5DA97A34EF248EB927610A5DA71EF2F}
+## Comportamiento esperado con los exploradores compatibles solo con TLS 1.0  {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
 En esta sección se describe qué esperar con los navegadores compatibles con TLS 1.0 solo cuando se utiliza una implementación at.js o mbox.js. Para fines de comparación, en esta sección también se describe qué esperar con los navegadores compatibles con TLS 1.1 y 1.2.
 
