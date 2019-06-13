@@ -7,8 +7,8 @@ solution: Target
 subtopic: Primeros pasos
 title: 'Crear un mbox de confirmación de pedido: mbox.js'
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
-translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -52,4 +52,4 @@ El mbox de confirmación de pedido utiliza los siguientes parámetros:
 |--- |--- |
 | `orderId` | Valor único para identificar un pedido de recuento de conversión.<br>El `orderId` debe ser único. Los pedidos duplicados se ignoran en los informes. |
 | `orderTotal` | Valor monetario de la compra.<br>No pase el símbolo de moneda. Use un punto (no una coma) para indicar valores decimales. |
-| `productPurchasedId` (Opcional) | Lista de ID de productos comprados en el pedido, separados por comas. <br>Estos ID de productos se muestran en el informe de auditoría para admitir un análisis de informe adicional. |
+| `productPurchasedId` (Opcional) | Lista de ID de productos comprados en el pedido, separados por comas.<br>Estos ID de productos se muestran en el informe de auditoría para admitir un análisis de informe adicional. |
