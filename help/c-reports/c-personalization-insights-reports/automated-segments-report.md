@@ -8,8 +8,8 @@ title: Informe Segmentos automatizados
 title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -114,7 +114,7 @@ Un “segmento automatizado” es como una audiencia, pero se define mediante mo
 
 Un segmento automatizado está formado por valores (o intervalos de valores) específicos de atributos específicos. Consulte el paso 5 anterior para ver ejemplos de segmentos automatizados. Tenga en cuenta que los segmentos pueden superponerse.
 
-Para obtener más información sobre el algoritmo de personalización de bosque aleatorio, que es la base de los modelos de personalización de Target, consulte   [Algoritmo de bosque aleatorio](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Para obtener más información sobre el algoritmo de personalización de bosque aleatorio, que es la base de los modelos de personalización de Target, consulte  [Algoritmo de bosque aleatorio](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
 **¿Cómo se decide el orden de los segmentos automatizados? **
 
@@ -166,6 +166,6 @@ En este momento, [!UICONTROL Perspectivas de personalización] solo está dispon
 * Vea qué atributos se utilizan en los modelos de personalización y qué importancia tienen.
 * Identifique oportunidades para incluir nuevos puntos de datos que puede pasar a Target para profundizar en la personalización.
 
-**¿Hay alguna lógica para el orden en que los atributos aparecen en una tarjeta de segmento?**
+**¿Hay alguna lógica en el orden en que aparecen los atributos en una tarjeta de segmento?**
 
 No, el orden de las tarjetas se basa solamente en una clasificación descrita anteriormente. El orden de los atributos dentro de una tarjeta no se basa en ninguna lógica.
