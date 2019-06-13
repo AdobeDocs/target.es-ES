@@ -7,8 +7,8 @@ solution: Target
 title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,11 +25,11 @@ La metodología de recuento especifica lo que Target usa como denominador para l
 * Visitantes
 * Visitas
 
-## ¿Puedo establecer una métrica predeterminada para los informes de Target?   {#section_50C20D286AA042CCA958184C9C0767DD}
+## ¿Puedo establecer una métrica predeterminada para los informes de Target?  {#section_50C20D286AA042CCA958184C9C0767DD}
 
 En el informe de actividades, los administradores pueden cambiar la métrica predeterminada para que cada vez que se realice el informe se reflejen las mismas métricas. De lo contrario, el informe usa la última métrica aplicada al último informe.
 
-Para obtener más información, consulte [Seleccionar métricas de informes predeterminadas](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) en la guía *Ayuda de la interfaz de Reports and Analytics*.
+Para obtener más información, consulte [Seleccionar métricas de informe predeterminadas](https://marketing.adobe.com/resources/help/es_ES/sc/user/t_metrics_set_default.html) en la *guía Ayuda para la interfaz de Reports and Analytics*.
 
 ## ¿Cuándo se aplica un segmento a la métrica (con una métrica calculada) y cuándo se aplica el segmento al informe?{#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -37,7 +37,7 @@ Los segmentos aplicados a los informes son como aplicar segmentos a la versión 
 
 Se pueden aplicar segmentos a métricas con una métrica calculada. Esto se suele hacer si se quiere crear un nuevo tipo de evento con éxito. Por ejemplo, si quiere ver cuántos visitantes de retorno ha generado su actividad o cuántos visitantes han llegado a una cierta página. Tenga en cuenta que actualmente el alza y la confianza no se pueden generar para las métricas calculadas.
 
-## ¿Debería usar visitantes, impresiones de actividad o visitas cuando consulto los informes?   {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## ¿Debería usar visitantes, impresiones de actividad o visitas cuando consulto los informes?  {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
 
 Existen varias opciones, cada una con sus propias ventajas:
 
@@ -110,19 +110,19 @@ El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. 
 
 Puesto que las dos experiencias se vieron antes de la conversión, ambas son las “responsables” del pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. A la hora de crear informes de Target, no importa que el origen se atribuya a todas las actividades que vio el usuario, ya que no se están comparando actividades de Target para ver cuál ha generado mejores resultados. Lo que se compara son los resultados de dos elementos de una misma actividad y, como un usuario no puede ver distintas experiencias en la misma actividad, no hay que preocuparse por la contaminación de los orígenes de los pedidos.
 
-Para obtener más información, consulte [Variables de conversión (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) en la Ayuda de Analytics.
+Para obtener más información, consulte [Variables de conversión (eVar)](https://marketing.adobe.com/resources/help/es_ES/reference/conversion_var_admin.html) en Ayuda de Analytics.
 
 ## ¿Por qué Analytics y Analytics for Target (A4T) calculan las cifras de la métrica Visitantes únicos de distinta forma?{#section_0C3B648AB54041F9A2AA839D51791883}
 
 Una de las presuposiciones que se dan al ejecutar una prueba A/B, que emplea la prueba T de estudiante (la métrica de confianza) para elegir al ganador de una prueba, es que hay un plazo de tiempo fijo. La prueba solo es válida estadísticamente si se mira este tamaño de muestra fijo.
 
-La métrica Visitantes únicos solo es distinta en Analytics y Target cuando se observa un intervalo de tiempo inferior al de la propia prueba. Si no se ha alcanzado el tamaño de la muestra, la prueba no es tan fiable. Consulte [Cómo no ejecutar una prueba A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) en [el sitio web de Evan Miller](https://www.evanmiller.org/index.html) para obtener más información.
+La métrica Visitantes únicos solo es distinta en Analytics y Target cuando se observa un intervalo de tiempo inferior al de la propia prueba. Si no se ha alcanzado el tamaño de la muestra, la prueba no es tan fiable. Para obtener más información, consulte [Cómo ejecutar una prueba A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) en [la página web de Evan Miller](https://www.evanmiller.org/index.html).
 
 La métrica Visitantes únicos muestra el número de personas que han estado expuestas a la prueba y que han visitado el sitio durante el periodo de tiempo especificado. Esas personas siguen formando parte de la prueba y se deben contabilizar. Si desea ver solo el número de personas que han estado expuestas durante una semana, puede crear un segmento de visitantes que efectuaron una impresión de actividad y aplicarlo al informe.
 
 Puede reducir a una sesión la cantidad de tiempo que la variable de Target persiste. No obstante, esto suele dar problemas en las pruebas donde no hay tanta probabilidad de que el evento de conversión se dé en la misma sesión.
 
-## ¿Por qué en Analytics a veces se cuenta el mismo visitante en diferentes experiencias?   {#section_1397E972D31C4207A142E4D2D6D794A2}
+## ¿Por qué en Analytics a veces se cuenta el mismo visitante en diferentes experiencias?  {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 A continuación se explican los motivos por los que puede ser que el mismo visitante se cuente en varias experiencias en Analytics:
 
@@ -130,18 +130,18 @@ A continuación se explican los motivos por los que puede ser que el mismo visit
 * Si el visitante utiliza `mbox3rdPartyId`, cuando el visitante anónimo se fusiona con su perfil de ID de terceros, Target podría poner al visitante en una experiencia distinta para emparejarlo con el ID de terceros. Para obtener más información, consulte [Sincronización de perfiles en tiempo real para mbox con ID de terceros](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * Puede ser que Analytics haga el seguimiento de diferentes dispositivos como si fuera el mismo visitante de forma distinta al seguimiento que hace Target de esos dispositivos, ya que la configuración del ID de terceros en Target es diferente que en Analytics.
 
-## ¿Admite A 4 T grupos de informes virtuales?
+## ¿Admite A4T grupos de informes virtuales?
 
-Los grupos de informes virtuales *no* se incluyen en la lista de grupos de informes y las audiencias de los grupos de informes virtuales no se admiten en los informes de A 4 T.
+Los grupos de informes virtuales *no* se incluyen en la lista de grupos de informes y las audiencias de los grupos de informes virtuales no se admiten en los informes de A4T.
 
-## ¿Puedo cambiar el porcentaje de asignación de tráfico en una actividad que utiliza A 4 T después de activar la actividad?
+## ¿Puedo cambiar el porcentaje de asignación de tráfico en una actividad que utiliza A4T después de activar la actividad?
 
 Cambiar el porcentaje de asignación de tráfico en una actividad después de la activación puede generar informes incoherentes en Analytics porque el cambio solo afecta a los nuevos visitantes. Los visitantes que regresan no se ven afectados.
 
-Se recomienda detener la actividad existente y luego crear una nueva en lugar de cambiar el porcentaje después de la activación. Los informes de la nueva actividad comienzan con nuevos visitantes y los datos de los visitantes que regresan no provocarán informes incoherentes.
+Se recomienda detener la actividad existente y luego crear una nueva, en lugar de cambiar el porcentaje después de la activación. Los informes de la nueva actividad comienzan con los nuevos visitantes y los datos de los visitantes que regresan no provocarán informes incoherentes.
 
-## ¿Puedo ver los datos de actividad de Target en Adobe Analysis Workspace?
+## ¿Puedo ver mis datos de actividad de Target en Adobe Analysis Workspace?
 
-Puede utilizar [!DNL Adobe Analysis Workspace] para explorar en mayor profundidad y visualizar los datos o descubrir las perspectivas ocultas ocultas debajo de la superficie.
+Puede utilizar [!DNL Adobe Analysis Workspace] para profundizar y visualizar los datos o descubrir la información oculta bajo la superficie.
 
-Para obtener información y ejemplos detallados, abra [Analytics &amp; Target: Optimizaciones para el tutorial de análisis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), proporcionado por Adobe Experience League.
+Para obtener información detallada y ejemplos, abra el tutorial [Analytics y Target: Prácticas recomendadas de análisis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) proporcionado por Adobe Experience League.
