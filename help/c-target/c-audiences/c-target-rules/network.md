@@ -6,8 +6,8 @@ seo-title: Red
 solution: Target
 title: Red
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -50,7 +50,7 @@ Puede crear audiencias que estén basadas en datos de la red.
 
       Si desea ver más ISP en esta tabla, comuníquese con el Servicio de atención al cliente con su sugerencia.
 
-      Puede probar los valores de ISP y nombre de dominio. [](https://www.whoismyisp.org)https://www.whoismyisp.org es un buen recurso para fines de segmentación. Puede usar las direcciones IP de ejemplo que aparecen en la tabla anterior o escribir sus propias direcciones. A continuación use el parámetro `themboxOverride.browserIp= URL` para imitar la dirección IP.
+      Puede probar los valores de ISP y nombre de dominio. [https://www.whoismyisp.org](https://www.whoismyisp.org) es un buen recurso para fines de segmentación. Puede usar las direcciones IP de ejemplo que aparecen en la tabla anterior o escribir sus propias direcciones. A continuación use el parámetro `themboxOverride.browserIp= URL` para imitar la dirección IP.
 
    * **Nombre de dominio: **es el nombre de dominio de la dirección IP del visitante. No es el nombre de dominio del sitio web que está usando con [!DNL Target]. Este nombre de dominio está relacionado con la dirección IP del visitante y a veces se denomina nombre de host. Generalmente es muy similar al nombre de ISP. A veces el nombre de host hace referencia a nombres más antiguos de compañías que han cambiado el nombre de marca de su ISP pero no el nombre de dominio.
    * **Velocidad de conexión:** es la velocidad de la conexión a Internet del visitante. Las opciones incluyen: banda ancha, cable, acceso telefónico, móvil, oc3, oc12, satélite, t1, t2, inalámbrico y xdsl.
