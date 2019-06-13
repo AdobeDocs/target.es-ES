@@ -7,8 +7,8 @@ solution: Target
 title: Combinación de varias audiencias
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
-translation-type: tm+mt
-source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,7 +25,7 @@ Puede combinar hasta diez audiencias usando los operadores Y y O.
 
 Puede crear y usar audiencias combinadas en varios lugares de la interfaz de usuario de [!DNL Target]. Esta sección contiene la información siguiente:
 
-## Crear una audiencia combinada al crear una actividad   {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Crear una audiencia combinada al crear una actividad  {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] de la actividad durante el flujo de trabajo guiado de tres pasos.
 
@@ -97,7 +97,7 @@ Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y
 
 Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y configuración] de la actividad para usarla en los informes.
 
-1. Al editar o crear una [actividad](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]** haga clic en el icono **[!UICONTROL Añadir audiencia]** de [!UICONTROL Audiencias para los informes] para mostrar la página [!UICONTROL Elegir audiencia].
+1. Al editar o crear una  [actividad](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]** haga clic en el icono **[!UICONTROL Añadir audiencia]** de [!UICONTROL Audiencias para los informes] para mostrar la página [!UICONTROL Elegir audiencia].
 
    ![](assets/combine_multiple_audiences6.png)
 
