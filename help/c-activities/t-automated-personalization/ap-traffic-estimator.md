@@ -8,8 +8,8 @@ title-outputclass: Premium
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 badge: Premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -25,6 +25,8 @@ El estimador de tráfico determina si hay suficiente tráfico para generar model
 Recuerde que Target ofrece experiencias aleatoriamente hasta que se crean los algoritmos de personalización. El icono de marca de verificación junto a cada oferta muestra cuándo está listo el modelo para esa oferta y Target puede comenzar a entregar contenido personalizado. Ya que se espera un alza solo después de que los modelos estén listos, la indicación visual permite establecer la expectativa adecuada. Use el estimador de tráfico en el Compositor de experiencias visuales (VEC) para obtener instrucciones sobre cuándo estarán listos los modelos.
 
 1. En el Compositor de experiencias, haga clic en **[!UICONTROL Tráfico]**.
+
+   ![Icono de tráfico](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
    Se abre el estimador de tráfico. Para ocultarlo, puede volver a hacer clic en **[!UICONTROL Estimador de tráfico].**
 
