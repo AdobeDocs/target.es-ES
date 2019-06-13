@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,7 +33,7 @@ La actividad de [!DNL Recommendations] en [!DNL Target] mejora con respecto a [!
 
 ## Recommendations como oferta
 
-Puede incluir recomendaciones dentro de la prueba [!UICONTROL A/B] (incluidas [!UICONTROL las actividades de asignación automática] y [!UICONTROL segmentación automática]) y [!UICONTROL de segmentación] de experiencias (XT).
+Puede incluir recomendaciones dentro de la [!UICONTROL prueba A/B] (incluidas las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]) y las actividades de [!UICONTROL Segmentación de experiencias] (XT).
 
 Esta funcionalidad revela capacidades completamente nuevas, como:
 
@@ -42,7 +42,7 @@ Esta funcionalidad revela capacidades completamente nuevas, como:
 * Insertar automáticamente tráfico a la experiencia de recomendaciones de mejor rendimiento mediante [!UICONTROL Asignación automática].
 * Asignar de forma dinámica a los visitantes a experiencias de recomendaciones adaptadas según su perfil mediante el uso de [!UICONTROL Segmentación automática].
 
-Para empezar, cree una actividad [!UICONTROL A/B] o de [!UICONTROL Segmentación de experiencias] con el [!UICONTROL Compositor de experiencias visuales] y use la acción [!UICONTROL Insertar antes], [!UICONTROL Insertar después] o [!UICONTROL Reemplazar con] para agregar recomendaciones a una experiencia.
+Para empezar, cree una actividad [!UICONTROL Prueba A/B] o de [!UICONTROL Segmentación de experiencias] con el [!UICONTROL Compositor de experiencias visuales] y use la acción [!UICONTROL Insertar antes], [!UICONTROL Insertar después] o [!UICONTROL Reemplazar con] para agregar recomendaciones a una experiencia.
 
 Para obtener más información, consulte [Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
 
@@ -61,10 +61,10 @@ Para obtener más información sobre el uso y la creación de criterios, consult
 El flujo de trabajo de [!DNL Recommendations] se ha simplificado. En lugar de tener que rellenar complicados formularios, solo tiene que seguir un flujo de trabajo visual para:
 
 1. Seleccionar el criterio.
-1. Seleccione un   [diseño](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Seleccione un  [diseño](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Obtener una vista previa de las recomendaciones resultantes.
 
-## Vista previa   {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Vista previa  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Puede obtener una vista previa de las recomendaciones después de configurarlas y realizar los cambios necesarios sin necesidad de crearlas en la página, publicarlas y probarlas. Las vistas previas están disponibles desde [!DNL Target].
 
