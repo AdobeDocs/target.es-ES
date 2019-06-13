@@ -7,8 +7,8 @@ solution: Target
 title: Prácticas recomendadas de pruebas multivariable
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 En este tema se ofrecen sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas conocidos que podrían producirse.
 
-## Planificar   {#section_4D4A1F6226F042379BF48DB753608579}
+## Planificar  {#section_4D4A1F6226F042379BF48DB753608579}
 
 * Tenga en cuenta las ubicaciones de la página que tienen probabilidad de generar resultados relevantes.
 
@@ -26,11 +26,11 @@ En este tema se ofrecen sugerencias para mejorar el rendimiento, evitar problema
 
    Tenga en cuenta las diferencias de contenido para cada oferta y cree cualquier oferta de imagen, texto y HTML que tenga pensado usar en la prueba MVT.
 
-## Crear   {#section_C59C722CA82E48ABA58A4A7FA758F193}
+## Crear  {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
 * No incluya en la prueba más combinaciones de las necesarias.
 
-   Cada combinación que incluya en la prueba aumenta considerablemente la cantidad de tráfico y el tiempo necesario para obtener resultados aceptables. Por ejemplo, si tiene tres ubicaciones con tres ofertas cada una, hay 27 combinaciones posibles (3x3x3). Tres ubicaciones, de los cuales dos contienen tres ofertas posibles y una tiene dos ofertas, generan 18 opciones (3x3x2). Los números aumentan considerablemente con cada ubicación y oferta que se añaden.
+   Cada combinación que incluya en la prueba aumenta considerablemente la cantidad de tráfico y el tiempo necesario para obtener resultados aceptables. Por ejemplo, si tiene tres ubicaciones con tres ofertas cada una, hay 27 combinaciones posibles (3x3). Tres ubicaciones, de los cuales dos contienen tres ofertas posibles y una tiene dos ofertas, generan 18 opciones (3x3x2). Los números aumentan considerablemente con cada ubicación y oferta que se añaden.
 * Asigne un nombre a las ubicaciones y las ofertas.
 
    Puede cambiar el nombre de cada ubicación y oferta en la prueba por uno que sea más descriptivo. El número de ofertas de cada ubicación se muestra en el encabezado de la ubicación. Los nombres descriptivos le ayudarán a identificar las ofertas cuando examine los informes.
@@ -42,14 +42,14 @@ En este tema se ofrecen sugerencias para mejorar el rendimiento, evitar problema
    Asegúrese de que el Estimador de tráfico aprueba la configuración de la prueba, para que pueda obtener los resultados que desea.
 * Es recomendable que las alternativas de cada elemento sean bastante diferentes entre sí.
 
-## Analizar   {#section_9A2118CF1039451681C13D9AE79A58AB}
+## Analizar  {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Utilice con frecuencia el informe Contribución de ubicación para supervisar el rendimiento de cada ubicación y cada oferta.
 * En el informe Rendimiento de experiencia, tome decisiones según los datos que se muestran con los filtros Los 5 mejores y Los 5 peores.
 
    Si usa el filtro Todos, será más difícil extraer la información que desea y, además, no todas las experiencias pueden mostrarse en el gráfico. Utilice el filtro Todo solamente si desea observar una experiencia concreta que no se encuentra entre las cinco mejores o las cinco peores.
 
-## Realizar el seguimiento   {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## Realizar el seguimiento  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
 * Aunque Target permite modificar una actividad que se está publicando, tenga en cuenta si lo hace podría provocar que se restablezca la prueba. Por lo tanto, es posible que los informes no reconozcan algunos de los cambios. Es seguro realizar cambios en las ofertas HTML solo en la biblioteca de ofertas.
 
