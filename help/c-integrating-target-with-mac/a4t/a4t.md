@@ -1,6 +1,6 @@
 ---
 description: Adobe “Analytics for Target” (A4T) es una integración de soluciones cruzadas que le permite crear actividades basadas en las métricas de conversión y los segmentos de audiencia de Analytics. Esta integración le permite utilizar informes de Analytics para examinar sus resultados. Si usa Analytics como fuente de informes de una actividad, todos los informes y la segmentación de dicha actividad se basarán en la recopilación de datos de Analytics.
-keywords: A4T;Analytics;Analytics para Target;fuente de informes de Analytics;adobe Analytics;fuente de informes para Target
+keywords: A4T;Analytics;Analytics para Target;fuente de informes de Analytics;Adobe Analytics;fuente de informes para Target
 seo-description: Adobe “Analytics for Target” (A4T) es una integración de soluciones cruzadas que le permite crear actividades basadas en las métricas de conversión y los segmentos de audiencia de Analytics. Esta integración le permite utilizar informes de Analytics para examinar sus resultados. Si usa Analytics como fuente de informes de una actividad, todos los informes y la segmentación de dicha actividad se basarán en la recopilación de datos de Analytics.
 seo-title: Adobe Analytics como fuente de informes para Adobe Target (A4T)
 solution: Target
@@ -8,8 +8,8 @@ subtopic: Prueba multivariable
 title: Adobe Analytics como fuente de informes para Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -30,7 +30,7 @@ Estos son los tres beneficios principales de utilizar los datos de Analytics en 
 
 >[!IMPORTANT]
 >
->Antes de empezar a usar A4T, debe solicitar el aprovisionamiento de su cuenta para la integración. Rellene [este formulario](https://www.adobe.com/go/audiences) para solicitar el aprovisionamiento.
+>Antes de empezar a usar A4T, debe solicitar el aprovisionamiento de su cuenta para la integración. Utilice [este formulario](https://www.adobe.com/go/audiences) para solicitar el aprovisionamiento.
 >
 >La integración que permite el uso de Adobe Analytics como la fuente de datos para Adobe Target (A4T) representa la siguiente generación del complemento para integrar Test&amp;Target con SiteCatalyst. Este complemento se considera obsoleto, pero aún se ofrece asistencia técnica para aquellos clientes que todavía lo usan.
 
@@ -59,25 +59,25 @@ La siguiente tabla muestra los tipos de actividades compatibles con Analytics co
 
 | Tipos de actividad | Compatible con A4T | Notas, si corresponde |
 |--- |--- |--- |
-| Actividad A/B con división de tráfico manual | Sí |
-| Actividad A/B con asignación automática | No |
-| Actividad A/B con segmentación automática | No |
-| Segmentación de experiencias (XT) | Sí |
+| Actividad A/B con división de tráfico manual | Sí |  |
+| Actividad A/B con asignación automática | No |  |
+| Actividad A/B con segmentación automática | No |  |
+| Segmentación de experiencias (XT) | Sí |  |
 | Prueba multivariable (MVT) | Sí | Requiere una métrica de objetivos basada en mbox para obtener el informe de contribución de elementos.  En este momento, el informe de contribución de elementos no admite métricas de Analytics. |
-| Actividad de personalización automatizada (AP) | No |
-| Actividad de Recommendations | Sí |
-| Aplicación móvil | Sí | Compatible con el SDK de Mobile Services, versión 4.13.1 o posterior.  Para obtener más información, consulte la [documentación de Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/). |
-| Correo electrónico | No |
+| Actividad de personalización automatizada (AP) | No |  |
+| Actividad de Recommendations | Sí |  |
+| Aplicación móvil | Sí | Compatible con el SDK de Mobile Services, versión 4.13.1 o posterior.  Para obtener más información, consulte la [Documentación de Mobile Services](https://marketing.adobe.com/resources/help/es_ES/mobile/) |
+| Correo electrónico | No |  |
 | API de envío del servidor | Sí | Para obtener más información, consulte [Lado de servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | SDK de NodeJS | Sí | Para obtener más información, consulte [Lado de servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
-| Integración de servicios en la nube AEM 6.1 (o anterior) | No |
-| Integración de servicios en la nube AEM 6.2 (o posterior) | Sí | Para obtener más información, consulte [Integración con Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) en la documentación de Adobe Experience Manager 6.2. |
+| Integración de servicios en la nube AEM 6.1 (o anterior) | No |  |
+| Integración de servicios en la nube AEM 6.2 (o posterior) | Sí | Para obtener más información, consulte [Integración con Adobe Target](https://helpx.adobe.com/es/experience-manager/6-2/sites/administering/using/target.html) en la documentación de Adobe Experience Manager 6.2. |
 | Cualquier actividad que utilice una oferta de redireccionamiento | Sí | Existen requisitos mínimos más estrictos para utilizar ofertas de redireccionamiento con A4T. Para obtener más información, consulte las [preguntas más frecuentes de A4T sobre las ofertas de redireccionamiento](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
-| Node.JS | Sí |
+| Node.JS | Sí |  |
 
 Dado que, de momento, no todos los tipos de actividades son compatibles con A4T, es recomendable mantener o implementar algunos mboxes de conversión importantes, como el mbox “orderConfirmPage”.
 
-## Ejemplos de informes de A4T   {#section_F0A43A1CB2F04E8282B909E4D7034361}
+## Ejemplos de informes de A4T  {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
 Para ver los informes de A4T en [!DNL Target]**, haga clic en[!UICONTROL Actividades]**, haga clic en la actividad deseada en la lista que usa [!DNL Analytics] como fuente de informes y, a continuación, haga clic en la pestaña **[!UICONTROL Informes].**
 
@@ -103,7 +103,7 @@ Para ver el informe en [!DNL Analytics] en lugar de en [!DNL Target], haga clic 
 
 ## Tutorial Analytics &amp; Target: Best Practices for Analysis (en inglés){#section_3438E6E77A464424B717A4FD333B84B2}
 
-Abra el tutorial [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) (Analytics y Target: prácticas recomendadas para el análisis), proporcionado por Adobe Experience League.
+Abra el tutorial [Analytics &amp; Target: Prácticas recomendadas de análisis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) proporcionado por Adobe Experience League.
 
 ## Vídeos de formación:
 
