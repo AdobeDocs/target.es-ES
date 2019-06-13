@@ -7,15 +7,15 @@ solution: Target
 title: Asignación automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Asignación automática{#auto-allocate}
 
-La asignación automática identifica un ganador entre dos o más experiencias y reasigna automáticamente más tráfico al ganador para aumentar las conversiones mientras la prueba continúa ejecutándose y aprendiendo.
+La asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ En este tipo de pruebas, la mayoría de los productos, incluido Target, utilizan
 
 Asignación automática realiza comparaciones implícitas entre todas las experiencias y produce una ganadora “real”. No existe ninguna experiencia de “control” en la prueba.
 
-Asignación automática asigna de forma inteligente nuevos visitantes a distintas experiencias hasta que el intervalo de confianza de la mejor experiencia no se superponga con el de ninguna otra experiencia. Normalmente, este proceso puede producir falsos positivos, pero Asignación automática utiliza intervalos de confianza basados en la [desigualdad de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) que compensan las evaluaciones repetidas. Entonces, conoceremos el auténtico ganador. Cuando se detiene la asignación automática, siempre que no haya una dependencia de tiempo considerable para los visitantes que llegan a la página, hay al menos un 95% de probabilidades de que asignación automática devuelva una experiencia cuya respuesta verdadera no sea menor que 1% (relativa) menor que la respuesta verdadera de la experiencia ganadora.
+Asignación automática asigna de forma inteligente nuevos visitantes a distintas experiencias hasta que el intervalo de confianza de la mejor experiencia no se superponga con el de ninguna otra experiencia. Normalmente, este proceso puede producir falsos positivos, pero Asignación automática utiliza intervalos de confianza basados en la [desigualdad de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) que compensan las evaluaciones repetidas. Entonces, conoceremos el auténtico ganador. Cuando la asignación automática se detiene, y siempre que no exista una dependencia del tiempo sustancial para los visitantes que llegan a la página, hay al menos un 95 % de probabilidades de que la asignación automática devuelva una experiencia cuya respuesta verdadera no difiera en más del 1 % (relativo) de la respuesta verdadera de la experiencia ganadora.
 
 ## Cuándo se debe utilizar la asignación automática y cuándo la personalización automatizada o A/B {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -47,7 +47,7 @@ Asignación automática asigna de forma inteligente nuevos visitantes a distinta
 * Utilice una **[prueba A/B](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** estándar cuando quiera caracterizar el rendimiento de todas las experiencias antes de optimizar el sitio web. Una prueba A/B le ayuda a clasificar todas las experiencias propias, mientras que la Asignación automática del tráfico encuentra las experiencias con mejor rendimiento pero no garantiza poder diferenciar entre las que tienen peor rendimiento.
 * Utilice [Personalización automatizada](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) cuando quiera algoritmos de optimización de la más alta complejidad, como pueden ser los modelos de aprendizaje automático que crean predicciones basadas en atributos concretos del perfil. La Asignación automática del tráfico examina el comportamiento agregado de las experiencias (como las pruebas A/B estándar) y no diferencia entre visitantes.
 
-## Ventajas principales   {#section_0913BF06F73C4794862561388BBDDFF0}
+## Ventajas principales  {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Tiene el mismo rigor que una prueba A/B
 * Encuentra una experiencia ganadora con relevancia estadística más rápido que una prueba A/B manual
@@ -57,7 +57,7 @@ Asignación automática asigna de forma inteligente nuevos visitantes a distinta
 
 Los siguientes términos pueden resultar útiles al tratar el tema de la asignación automática:
 
-**Multi-armed bandit:** un método [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) en la optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje.
+**Multi-armed bandit:** Un método [multi-armed bandit](https://es.wikipedia.org/wiki/Bandido_multibrazo) en la optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje.
 
 ## Cómo funciona el algoritmo {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -66,7 +66,7 @@ La lógica general de la asignación automática combina el rendimiento medido (
 * El 80 % de los visitantes se asigna mediante la lógica inteligente que se describe a continuación.
 * El otro 20 % de los visitantes se asigna de forma aleatoria entre todas las experiencias para adaptarse a los cambios de comportamiento de los visitantes.
 
-El método multi-armed bandit mantiene libres algunas experiencias para la exploración a la vez que explota las experiencias con buen rendimiento. Se colocan más visitantes nuevos en experiencias con buen rendimiento, mientras que se reserva la capacidad de reaccionar a condiciones cambiantes. Estos modelos se actualizan por lo menos una vez cada hora para garantizar que el modelo reaccione a los datos más recientes. 
+El método multi-armed bandit mantiene libres algunas experiencias para la exploración a la vez que explota las experiencias con buen rendimiento. Se colocan más visitantes nuevos en experiencias con buen rendimiento, mientras que se reserva la capacidad de reaccionar a condiciones cambiantes. Estos modelos se actualizan por lo menos una vez cada hora para garantizar que el modelo reaccione a los datos más recientes.
 
 A medida que entran más visitantes a la actividad, algunas experiencias empiezan a mejorar el rendimiento y se envía más tráfico hacia esas experiencias con buenos resultados. El 20 % del tráfico se sigue ofreciendo de forma aleatoria para explorar todas las experiencias. Si una de las experiencias de bajo rendimiento empieza a mejorar su rendimiento, se le asignará más tráfico. Del mismo modo, si disminuye el éxito de una actividad de alto rendimiento, se le asignará menos tráfico a dicha experiencia. Por ejemplo, si un evento provoca que los visitantes busquen información diferente en su sitio web multimedia o si las ventas del fin de semana de su sitio de comercio minorista proporcionan diferentes resultados.
 
@@ -93,7 +93,7 @@ Una vez que está listo el modelo para una actividad de asignación automática 
 * Cambiar el tipo de la métrica de objetivo
 * Cambiar opciones en el panel “Configuración avanzada”
 
-## Advertencias   {#section_5C83F89F85C14FD181930AA420435E1D}
+## Advertencias  {#section_5C83F89F85C14FD181930AA420435E1D}
 
 **Ya no se admiten las actividades A/B de asignación automática en Analytics for Target (A4T).**
 
@@ -169,15 +169,15 @@ Asignación automática, por su parte, es una prueba A/B que genera un ganador g
 
 En estos momentos, la lógica favorece a los visitantes que generan una conversión rápidamente o que realizan visitas más a menudo. Se debe a que estos visitantes inflan temporalmente la tasa de conversión de la experiencia a la que pertenecen. El algoritmo se ajusta a menudo, de modo que el aumento en la tasa de conversión se amplifica en cada instantánea. Si el sitio recibe muchos visitantes que vuelven, las conversiones que generen pueden inflar la tasa de conversión general de la experiencia a la que pertenecen. Hay probabilidades de que los visitantes que vuelven se distribuyan de forma aleatoria. En ese caso, el efecto agregado (alza incrementada) se equilibra. Para mitigar este impacto, plantéese la opción de cambiar el método de recuento de la métrica de éxito para que solo contabilice una vez por cada visitante.
 
-**¿Puedo utilizar la calculadora de tamaño de la muestra cuando use Asignación automática para estimar cuánto tardará la actividad en identificar al ganador?**
+**¿Puedo usar la calculadora de tamaño de la muestra al utilizar la asignación automática para estimar el tiempo que tardará la actividad en identificar al ganador?**
 
 Puede usar la [calculadora de tamaño de la muestra](https://docs.adobe.com/content/target-microsite/testcalculator.html) existente con la corrección de Bonferroni debidamente aplicada para obtener una estimación de lo que tardará en ejecutarse la prueba. En nuestros experimentos, hemos observado que la actividad de asignación automática termina mucho antes que este tamaño de muestra.
 
 **¿Debería eliminar una experiencia de bajo rendimiento de una actividad de asignación automática para acelerar el proceso de determinar un ganador?**
 
-No hay razón para eliminar una experiencia de bajo rendimiento. La asignación automática proporciona automáticamente experiencias de alto rendimiento con mayor frecuencia y ofrece experiencias con menor rendimiento con menor frecuencia. Dejar una experiencia con bajo rendimiento en la actividad no afectará de manera significativa la velocidad para determinar un ganador.
+No hay razón para eliminar una experiencia de bajo rendimiento. La asignación automática proporciona automáticamente experiencias de alto rendimiento con mayor frecuencia y de bajo rendimiento con menor frecuencia. Dejar una experiencia con bajo rendimiento en la actividad no afectará de manera significativa la velocidad para determinar un ganador.
 
-El 20% de los visitantes se asigna de forma aleatoria entre todas las experiencias. La cantidad de tráfico servida en una experiencia de bajo rendimiento es mínima (20% dividido por el número de experiencias).
+El 20 % de los visitantes se asigna de forma aleatoria entre todas las experiencias. La cantidad de tráfico proporcionado en una experiencia de bajo rendimiento es mínima (20 % dividido entre el número de experiencias).
 
 ## Vídeos de formación {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
