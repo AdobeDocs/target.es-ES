@@ -4,8 +4,8 @@ seo-description: El SDK de Adobe Mobile contacta con el servidor de Target para 
 seo-title: ¿Cómo funciona Target en las aplicaciones móviles?
 title: ¿Cómo funciona Target en las aplicaciones móviles?
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 El SDK de Adobe Mobile contacta con el servidor de Target para obtener el contenido y otros puntos de datos y, así, mostrar la experiencia adecuada a cada usuario.
 
-## Ubicaciones de Target y métricas de éxito   {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
+## Ubicaciones de Target y métricas de éxito  {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
 
 Las *ubicaciones de target* también se denominan mbox. Una ubicación identificada en la aplicación se habilita para realizar pruebas o personalizaciones (por ejemplo, el mensaje de bienvenida de la pantalla de inicio). Estas ubicaciones se identifican durante el proceso de creación de la prueba.
 
