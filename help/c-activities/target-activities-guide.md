@@ -7,8 +7,8 @@ solution: Target
 title: Tipos de actividades de Target
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
-translation-type: tm+mt
-source-git-commit: 5389431da497e18421f05ddf35755428b571ec6e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Descargue un PDF interactivo que describe los distintos tipos de actividad en Ad
 
 >[!NOTE]
 >
->Para obtener la mejor experiencia y compartir con otros, descargue el PDF interactivo [de la Guía de actividades de Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
+>Para obtener la mejor experiencia y compartir con otros, descargue la [Guía interactiva en PDF de actividades de Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
 
 ## ¿Qué hace?{#section_4ECAACC68723402EB3649033190E1BBC}
 
@@ -67,7 +67,7 @@ Descargue un PDF interactivo que describe los distintos tipos de actividad en Ad
 
 ## Ventajas y consideraciones {#section_56C46ABEF7B945DDA0C1E6D714377123}
 
-| Tipo de actividad | Beneficios | Consideraciones   |
+| Tipo de actividad | Beneficios | Consideraciones |
 |--- |--- |--- |
 | Prueba A/B manual | Las pruebas A/B le permiten comprender plenamente el rendimiento de cada experiencia, más allá de saber cuál de ellas tiene mejor comportamiento. | En una prueba A/B, si se observa el resultado antes de alcanzar el tamaño de la muestra, se corre el riesgo de ofrecer resultados imprecisos (¡no se debe mirar antes de tiempo!).</br>Esto se debe a que, al contrario que en la asignación automática, en una prueba A/B la distribución del tráfico permanece fija incluso después de reconocer que algunas experiencias se comportan mejor que otras. |
 | Asignación automática | La asignación automática reduce el coste de una prueba A/B típica porque tiene una mayor tasa de conversión general que una prueba A/B manual. La tasa de conversión es mayor porque la asignación automática desvía más tráfico a la experiencia con mayor rendimiento, lo que significa que se disfrutan las ventajas de la experiencia ganadora antes de concluir el periodo de prueba (¡aquí sí puede mirar los resultados!). | La asignación automática identifica al ganador pero no diferencia entre los perdedores. Si necesita conocer el comportamiento de cada experiencia, es preferible una prueba A/B.</br>La función de asignación automática funciona solo con una configuración de métrica avanzadas: “Aumentar recuento y mantener al usuario en la actividad”.Esto significa que, si no quiere contar conversiones repetidas, debe utilizar una prueba A/B.  La asignación automática no puede consumir informes en A4T. |
