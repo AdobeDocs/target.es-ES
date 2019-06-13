@@ -6,8 +6,8 @@ seo-title: Habilitar Target en el SDK
 title: Habilitar Target en el SDK
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
-translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,12 +20,12 @@ Añada el SDK de Adobe Mobile Services a su aplicación.
 
 1. Añada el SDK de Adobe Mobile Services a su aplicación.
 
-   Encontrará las instrucciones en [Implementación básica y ciclo de vida](https://marketing.adobe.com/resources/help/en_US/mobile/ios/dev_qs.html).
+   Puede encontrar las instrucciones en [Implementación principal y ciclo vital](https://marketing.adobe.com/resources/help/es_ES/mobile/ios/dev_qs.html).
 1. Añada código de cliente, tiempo de espera y habilite SSL.
 
    En Experience Cloud, abra Mobile Services y vaya a **[!UICONTROL Administrar configuración de aplicación]** &gt; **[!UICONTROL Opciones de SDK para Target]**.
 
-   Añada el código de cliente y el tiempo de espera de Target. El código de cliente es exclusivo de la cuenta o compañía. El tiempo de espera es el número de segundos que Target espera la respuesta antes de mostrar el contenido predeterminado. Compruebe que la opción **[!UICONTROL Utilizar HTTPS]esté marcada en la página Administrar configuración de aplicación de Adobe Mobile Services.** Si HTTPS no está habilitado, todas las llamadas que se hagan en iOS9 y posterior se bloquearán si no incluye el servidor de Target en la lista de direcciones permitidas.
+   Añada el código de cliente y el tiempo de espera de Target. El código de cliente es exclusivo de la cuenta o compañía. El tiempo de espera es el número de segundos que Target espera la respuesta antes de mostrar el contenido predeterminado. Compruebe que la opción **[!UICONTROL Utilizar HTTPS]** esté marcada en la página Administrar configuración de aplicación de Adobe Mobile Services. Si HTTPS no está habilitado, todas las llamadas que se hagan en iOS9 y posterior se bloquearán si no incluye el servidor de Target en la lista de direcciones permitidas.
 
    ![](assets/mobile-clientcode.png)
 
