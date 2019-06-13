@@ -7,8 +7,8 @@ solution: Target
 title: Crear audiencias
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
-translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 Las audiencias determinan quién ve el contenido y las experiencias en una actividad segmentada.
 
-Las audiencias se utilizan siempre que está disponible la determinación de objetivos. Cuando se segmenta una actividad, puede seleccionar una audiencia reutilizable de la lista [!UICONTROL Audiencias], crear una audiencia específica para una actividad y segmentarla o   [combinar varias audiencias](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad-hoc.
+Las audiencias se utilizan siempre que está disponible la determinación de objetivos. Cuando se segmenta una actividad, puede seleccionar una audiencia reutilizable de la lista [!UICONTROL Audiencias], crear una audiencia específica para una actividad y segmentarla o  [combinar varias audiencias](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad-hoc.
 
-También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. Consulte [Audiencias en la documentación del producto de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
+También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. Consulte [Audiencias en la documentación de producto Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/audience_library.html).
 
 [!DNL Target] distingue dos tipos de audiencias:
 
@@ -57,7 +57,7 @@ A la siguiente definición de audiencia se accede haciendo clic en el icono Ver 
 
 ![](assets/audience_definition.png)
 
-Haga clic en la pestaña [!UICONTROL Uso de la audiencia] para ver otras actividades que hacen referencia a esa audiencia, si es aplicable. De esta forma, puede evitar el impacto accidental en otras actividades mientras edita audiencias. La información incluye actividades en vivo, actividades inactivas, actividades archivadas y actividades de sincronización. Esta función está disponible para todas las audiencias (audiencias de biblioteca y   [audiencias solo de actividad](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Haga clic en la pestaña [!UICONTROL Uso de la audiencia] para ver otras actividades que hacen referencia a esa audiencia, si es aplicable. De esta forma, puede evitar el impacto accidental en otras actividades mientras edita audiencias. La información incluye actividades en vivo, actividades inactivas, actividades archivadas y actividades de sincronización. Esta función está disponible para todas las audiencias (audiencias de biblioteca y  [audiencias solo de actividad](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Si una audiencia se combina con otra audiencia y la audiencia combinada se usa para crear una actividad, la información de uso de ambas audiencias mostrará esa actividad recién creada.
 
