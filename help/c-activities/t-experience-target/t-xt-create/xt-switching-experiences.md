@@ -7,8 +7,8 @@ solution: Target
 title: Cambiar experiencias en segmentación de experiencias
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,7 +31,7 @@ Con la Segmentación de experiencias, puede controlar la experiencia que ve cada
 |--- |--- |
 | Ubicación geográfica | Mientras que los visitantes viajan por negocios o por ocio, es posible que accedan a su sitio web o aplicación móvil desde diferentes ubicaciones geográficas. |
 | Estado del cliente | Los visitantes pueden considerarse potenciales antes de crear una cuenta o comprar un producto. |
-| Afinidad de la categoría | La [función de afinidad de la categoría](/help/c-target/c-visitor-profile/category-affinity.md) en Target captura automáticamente las categorías que visitan los usuarios y calcula la afinidad de los usuarios por la categoría para fines de segmentación. Por ejemplo, a los visitantes que hayan visto varios artículos en su sitio web sobre un tema en particular se les podría presentar contenido relacionado con este tema. |
+| Afinidad de la categoría | La  [función de afinidad de la categoría](/help/c-target/c-visitor-profile/category-affinity.md) en Target captura automáticamente las categorías que visitan los usuarios y calcula la afinidad de los usuarios por la categoría para fines de segmentación. Por ejemplo, a los visitantes que hayan visto varios artículos en su sitio web sobre un tema en particular se les podría presentar contenido relacionado con este tema. |
 | Día de la semana | Conforme se aproxime el fin de semana, es posible que quiera mostrar a los visitantes contenidos sobre películas, lugares en los que cenar u otras formas de entretenimiento. |
 
 Para aprovechar estas capacidades en [!DNL Target], es importante entender la siguiente información cuando trabaje con actividades de XT:
