@@ -6,8 +6,8 @@ seo-title: Definir métricas
 solution: Target,estándar
 title: Definir métricas
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
-translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 Utilice métricas en una prueba multivariable para determinar si una visita es satisfactoria.
 
-Para obtener información detallada sobre las métricas de éxito, consulte   [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Para obtener información detallada sobre las métricas de éxito, consulte  [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Especificar el objetivo de la actividad.
 1. Seleccionar una [métrica de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
@@ -37,16 +37,15 @@ Para obtener información detallada sobre las métricas de éxito, consulte   [M
 
    La configuración correcta de las métricas de éxito es crítica para asegurarse de que obtiene los datos esperados.
 
-   Para obtener más información, consulte   [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+   Para obtener más información, consulte  [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. (Opcional) Añada otras métricas.
-1. Haga clic en **[!UICONTROL Continuar]** cuando termine de configurar las métricas.
-Tenga en cuenta que cuando nombra o renombra una métrica, no se permiten los siguientes caracteres:
+1. Haga clic en **[!UICONTROL Continuar]** cuando termine de configurar las métricas. Tenga en cuenta que cuando nombra o renombra una métrica, no se permiten los siguientes caracteres:
 
    | Carácter | Descripción |
    |--- |--- |
    | `/` | Barra oblicua |
    | `?` | Signo de interrogación |
-   | `#` | Signo de número  |
+   | `#` | Signo de número |
    | `:` | Dos puntos |
    | `=` | Igual a |
    | `+` | Más |
