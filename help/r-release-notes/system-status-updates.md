@@ -7,8 +7,8 @@ solution: Target
 title: Actualizaciones de estado del sistema
 topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
-translation-type: tm+mt
-source-git-commit: fcfbd04b9761b2a183afa383e730bcd836699501
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Para ver el estado de las soluciones de [!DNL Experience Cloud], incluida [!DNL 
 
 ![](assets/system_status.png)
 
-La parte superior de la página contiene información sobre eventos de mantenimiento en curso e incluye un enlace para suscribirse para recibir actualizaciones de soluciones individuales. 
+La parte superior de la página contiene información sobre eventos de mantenimiento en curso e incluye un enlace para suscribirse para recibir actualizaciones de soluciones individuales.
 
 En la ilustración anterior, [!DNL Adobe Analytics], [!DNL Adobe Target] y [!DNL Adobe Campaign] se encontraban bajo actualizaciones de mantenimiento. El resto de los productos y soluciones funcionaban normalmente. Siempre es recomendable consultar esta página si experimenta problemas al utilizar [!DNL Target].
 
