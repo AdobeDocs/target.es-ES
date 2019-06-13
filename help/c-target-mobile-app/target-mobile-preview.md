@@ -7,8 +7,8 @@ solution: Target
 title: Vista previa para móviles en Target
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
-translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,14 +25,14 @@ Use el vínculo de vista previa en móviles para realizar fácilmente un control
 
 La funcionalidad de vista previa para móviles le permite probar completamente sus actividades de aplicación móvil antes del lanzamiento.
 
-## Requisitos previos   {#section_A763C564C9E84B0EB448237B5B1E4068}
+## Requisitos previos  {#section_A763C564C9E84B0EB448237B5B1E4068}
 
 1. **Utilice una versión compatible del SDK:** la función de vista previa para móviles requiere que descargue e instale la versión apropiada (4.14 o posterior) del SDK de Adobe Mobile en las aplicaciones correspondientes.
 
    Para obtener instrucciones sobre la descarga del SDK apropiado, consulte:
 
-   * **iOS:**[Antes de comenzar](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) en la guía *SDK para iOS 4.x para soluciones de Experience Cloud*.
-   * **Android:**[Antes de comenzar](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)* en la guía SDK para Android 4.x para soluciones de Experience Cloud.*
+   * **iOS:** [Antes de comenzar](https://marketing.adobe.com/resources/help/es_ES/mobile/ios/requirements.html) en la guía *SDK para iOS 4.x para soluciones de Experience Cloud*.
+   * **Android:** [Antes de comenzar](https://marketing.adobe.com/resources/help/es_ES/mobile/android/requirements.html) en la guía *SDK para Android 4.x para soluciones de Experience Cloud*.
 
 1. **Configure un esquema de direcciones URL:** el vínculo de vista previa utiliza un esquema de direcciones URL para abrir la aplicación. Debe especificar un esquema de URL exclusivo para la vista previa.
 
