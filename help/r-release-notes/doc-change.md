@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -21,6 +21,10 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 13 de junio de 2019 | [Cree una actividad de personalización automatizada](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Se han actualizado el texto y las imágenes. |
+|  | [Calcular el tráfico necesario para realizar una prueba con éxito](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Se ha añadido una imagen nueva. |
+|  | [Previsualizar experiencias para una personalización automatizada en el Compositor de experiencias visuales](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | Se han actualizado el texto y las imágenes. |
+|  | [Ofertas de personalización automatizada de Target](/help/c-activities/t-automated-personalization/ap-target-offers.md) | Se han actualizado el texto y las imágenes. |
 | 12 de junio de 2019 | [Segmentación automática](/help/c-activities/auto-target-to-optimize.md) | Se han actualizado el texto y las imágenes. |
 |  | [Cómo funciona Adobe Target](/help/c-intro/how-target-works.md) | Se ha añadido una nota importante sobre el uso de Target en China. |
 |  | [Navegadores admitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Se eliminó Microsoft Internet Explorer 11 (IE 11) de la sección «Interfaz de Target Standard/Premium». Target ya no admite ni mantiene la compatibilidad para IE 11. Este cambio afecta únicamente a la interfaz de usuario de Target. La entrega de contenido no se ve afectada. Este cambio sigue anuncios similares realizados por Adobe Analytics, Adobe Experience Platform y Adobe Audience Manager. Recomendamos que los usuarios cambien a un explorador compatible. |
@@ -275,7 +279,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 |  | [Acerca de las audiencias](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | Se ha agregado información sobre el manejo de audiencias a las que se hace referencia en las actividades de Target que se han eliminado en Adobe Audience Manager (AAM). |
 |  | [Integraciones de at.js](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | Tema actualizado. |
 |  | [Implementación de Target sin un administrador de etiquetas](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | Se han actualizado todas las secciones.  Se ha agregado una sección nueva: implementación de at.js. |
-|  | Versión 18.10.1 [Notas de la versión](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
+|  | Versión 18.10.1  [Notas de la versión](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 18.9.1 (26 de septiembre de 2018)  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
@@ -445,7 +449,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Versión 18.9.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
+   <td colname="col2"> <p>Versión 18.9.1  <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
    <td colname="col3"> <p>Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. </p> </td> 
   </tr> 
  </tbody> 
@@ -611,7 +615,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Versión 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
+   <td colname="col2"> <p>Versión 18.8.1  <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
    <td colname="col3"> <p>Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. </p> </td> 
   </tr> 
  </tbody> 
