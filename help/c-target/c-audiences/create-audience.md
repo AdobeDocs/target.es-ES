@@ -7,8 +7,8 @@ solution: Target
 title: Crear audiencias en Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -45,7 +45,7 @@ Por ejemplo, la siguiente regla segmenta los visitantes que usan Chrome o Firefo
 
    O
 
-   Para copiar una audiencia existente, en la lista [!UICONTROL Audiencias], pase el ratón sobre la audiencia que quiera y luego haga clic en el icono **[!UICONTROL Copiar.]** Luego puede editar la audiencia para crear otra parecida.
+   Para copiar una audiencia existente, en la lista [!UICONTROL Audiencias], pase el ratón sobre la audiencia que quiera y luego haga clic en el icono **[!UICONTROL Copiar]**. Luego puede editar la audiencia para crear otra parecida.
 
 1. Escriba un nombre descriptivo y único para la audiencia.
 1. Haga clic en **[!UICONTROL + Agregar regla]**.
