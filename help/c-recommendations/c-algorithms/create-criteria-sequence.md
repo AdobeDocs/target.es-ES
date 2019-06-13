@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,7 +23,7 @@ Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre 
 >
 >Las secuencias de criterios no se pueden usar con las actividades de [!UICONTROL Recommendations] creadas antes de la versión de octubre de 2016 de [!DNL Target Premium].
 
-Para crear una secuencia de criterios, debe crear primero los criterios que desea incluir en la secuencia. Consulte [Creación de criterios](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) para obtener más información.
+Para crear una secuencia de criterios, debe crear primero los criterios que desea incluir en la secuencia. Consulte  [Creación de criterios](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) para obtener más información.
 
 Si utiliza una secuencia de criterios, puede ofrecer recomendaciones personalizadas adicionales, en lugar de utilizar más recomendaciones secundarias genéricas, cuando un criterio no obtenga suficientes resultados para llenar el diseño. Normalmente, las secuencias de criterios empezarán ofreciendo una segmentación más específica, que puede generar menos resultados, y acabarán ofreciendo una segmentación más generalizada, que suele generar más resultados.
 
