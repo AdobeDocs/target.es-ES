@@ -8,15 +8,15 @@ subtopic: Primeros pasos
 title: Métodos para obtener los datos en Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: tm+mt
-source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Métodos para obtener los datos en Target{#methods-to-get-data-into-target}
 
-Información sobre los diferentes métodos que puede utilizar para obtener datos en Target, incluidos los parámetros de página, los atributos de perfil en la página, los atributos de perfil de script, los proveedores de datos, la API de actualización masiva de perfiles, la API única de actualización de perfil y los atributos del cliente.
+Información sobre los distintos métodos que se pueden utilizar para introducir datos en Target, como el uso de parámetros de página, atributos de perfil en página, atributos de perfil en script, proveedores de datos, la API de actualización de perfiles en lote, la API de actualización de perfil único y los atributos del cliente.
 
 ## Parámetros de página (también denominados “parámetros de mbox”) {#section_5A297816173C4FE48DC4FE03860CB42B}
 
@@ -48,17 +48,17 @@ Ejemplos:
 
 Los datos se envían a Target en tiempo real y se pueden utilizar en la misma llamada de servidor en la que se integran los datos.
 
-### Advertencias  
+### Advertencias
 
 * Se requiere la actualización del código de la página (directamente o a través de un sistema de administración de etiquetas).
 * Si los datos se deben utilizar para segmentación en una página o llamada de servidor posterior, deben traducirse a un script de perfil.
-* Las cadenas de consulta solo pueden contener caracteres según el [estándar Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
+* Las cadenas de consulta solo pueden contener caracteres según el estándar del Grupo de Trabajo de Ingeniería de Internet [(IETF, Internet Engineering Task Force)](https://www.ietf.org/rfc/rfc3986.txt).
 
    Además de los mencionados en el sitio IETF, Target permite los siguientes caracteres en las cadenas de consulta:
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   Todo lo demás debe tener codificación URL. El estándar especifica el siguiente formato ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), como se ilustra a continuación:
+   Todo lo demás debe tener codificación URL. El estándar especifica el siguiente formato ([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt)), como se ilustra a continuación:
 
    ![](assets/ietf1.png)
 
@@ -117,7 +117,7 @@ Ejemplos:
 
 Los datos se envían a Target en tiempo real y se pueden utilizar en la misma llamada de servidor en la que se integran los datos.
 
-### Advertencias  
+### Advertencias
 
 Se requieren actualizaciones del código de la página (directamente o a través de un sistema de administración de etiquetas).
 
@@ -169,7 +169,7 @@ Se ejecuta antes de la toma de decisiones de audiencia y abono a la actividad, p
 
 Puede ser muy potente. Se pueden ejecutar hasta 2000 instrucciones por script.
 
-### Advertencias  
+### Advertencias
 
 Se requieren conocimientos de JavaScript.
 
@@ -211,7 +211,7 @@ Admite la recopilación de datos de múltiples proveedores a través de solicitu
 
 El uso de este enfoque facilita la administración del parpadeo del contenido predeterminado de la página, al tiempo que incluye tiempos de espera independientes para cada proveedor para limitar el impacto en el rendimiento de la página.
 
-### Advertencias  
+### Advertencias
 
 Si los proveedores de datos agregados a `window.targetGlobalSettings.dataProviders` son asincrónicos, se ejecutarán en paralelo. La solicitud de API del visitante se ejecutará en paralelo con las funciones agregadas a `window.targetGlobalSettings.dataProviders` para permitir un tiempo de espera mínimo.
 
@@ -227,8 +227,8 @@ Documentación: [Proveedores de datos](/help/c-implementing-target/c-implementin
 
 ### Vídeos de formación:
 
-* [Uso de Proveedores de datos en Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementación de Proveedores de datos en Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Uso de Proveedores de datos en Adobe Target](https://helpx.adobe.com/es/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Implementación de proveedores de datos en Adobe Target](https://helpx.adobe.com/es/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API de actualización de perfiles en lote {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -256,13 +256,13 @@ No hay ningún límite en la cantidad de atributos del perfil.
 
 Los atributos de perfil enviados a través del sitio se pueden actualizar a través de la API y viceversa.
 
-### Advertencias  
+### Advertencias
 
 El tamaño del archivo en lote debe ser inferior a 50 MB. Además, el número total de filas no puede superar las 500 000 filas por carga.
 
 No hay ningún límite en el número de filas que puede cargar en lotes consecutivos en un período de 24 horas. Sin embargo, el proceso de ingestión puede acelerarse durante el horario laboral para garantizar que otros procesos se ejecuten de forma eficaz.
 
-Las [actualizaciones de llamadas en lote V2](https://developers.adobetarget.com/api/#updating-profiles) consecutivas   sin llamadas mbox intermedias para los mismos ID de terceros ignoran las propiedades actualizadas en la primera actualización de la llamada en lote.
+Las [actualizaciones de llamadas en lote V2]( consecutivas https://developers.adobetarget.com/api/#updating-profiles) sin llamadas mbox intermedias para los mismos ID de terceros ignoran las propiedades actualizadas en la primera actualización de la llamada en lote.
 
 ### Ejemplos de código
 
@@ -278,7 +278,7 @@ Funciona de forma casi idéntica a la API de actualización de perfiles en lote,
 
 ### Formato
 
-El visitante se debe identificar a través del valor mboxPC de Target o del valor mboxThirdPartyId. El Experience Cloud ID (ECID) no se admite. 
+El visitante se debe identificar a través del valor mboxPC de Target o del valor mboxThirdPartyId. El Experience Cloud ID (ECID) no se admite.
 
 ### Casos de uso de ejemplo
 
@@ -290,7 +290,7 @@ No hay ningún límite en la cantidad de atributos del perfil.
 
 Los atributos de perfil enviados a través del sitio se pueden actualizar a través de la API y viceversa.
 
-### Advertencias  
+### Advertencias
 
 Límite de 1 000 000 (1 millón) de llamadas a la API por período de 24 horas
 
@@ -298,7 +298,7 @@ Solo se actualiza el perfil. No se puede crear un perfil para un usuario potenci
 
 ### Ejemplos de código
 
-Se admiten GET y POST.   `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+Se admiten GET y POST.  `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### Vínculos a información relevante
 
@@ -326,7 +326,7 @@ Los mismos datos están disponibles automáticamente en Target y Analytics.
 
 FTP puede ser un método de implementación más sencillo que la API.
 
-### Advertencias  
+### Advertencias
 
 Los clientes de Target Standard pueden utilizar 5 atributos; los clientes de Target Premium pueden utilizar 200 atributos.
 
@@ -336,8 +336,8 @@ Se requiere la implementación del Experience Cloud ID (ECID).
 
 ### Ejemplos de código
 
-Puede encontrar más información en [Crear un origen de atributo de cliente y cargar el archivo de datos](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) .
+Puede encontrar más información en [Crear un origen de atributo de cliente y cargar el archivo de datos](https://marketing.adobe.com/resources/help/es_ES/mcloud/t_crs_usecase.html).
 
 ### Vínculos a información relevante
 
-[Crear un origen de atributo de cliente y cargar el archivo de datos](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[Crear un origen de atributo de cliente y cargar el archivo de datos](https://marketing.adobe.com/resources/help/es_ES/mcloud/t_crs_usecase.html)
