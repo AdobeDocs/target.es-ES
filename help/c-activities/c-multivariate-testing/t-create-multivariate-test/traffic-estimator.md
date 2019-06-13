@@ -6,8 +6,8 @@ solution: Target
 title: Calcular el tráfico necesario para una prueba de éxito
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
-translation-type: tm+mt
-source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -38,12 +38,12 @@ El estimador de tráfico también proporciona información que le permite conoce
 
    ![](assets/estimatorempty.png)
 
-1. Proporcione la tasa de conversión típica, los visitantes estimados por día y la duración de la prueba.
+1. Indique la tasa de conversión típica, la estimación de visitantes al día y la duración de la prueba.
 
-   * [!UICONTROL Número de combinaciones de contenido]: Se calcula automáticamente en función de la cantidad de experiencias que se crean como parte de la actividad después de cualquier exclusión.
-   * [!UICONTROL Tasa de conversión típica]: La tasa de conversión se expresa como porcentaje, según la estimación o los datos anteriores del sistema de análisis.
-   * [!UICONTROL Visitantes estimados por día]: Es el número de visitantes que tienen probabilidades de ver esta página según los criterios de segmentación. Esta cifra puede estar basada en los datos de Analytics.
-   * [!UICONTROL Duración de la prueba]: Cantidad de días que desea que ejecute la actividad.
+   * [!UICONTROL Número de combinaciones de contenido]: se calcula automáticamente según el número de experiencias que se crean como parte de la actividad después de cualquier exclusión.
+   * [!UICONTROL Tasa de conversión típica]: la tasa de conversión se expresa como porcentaje según los datos o las estimaciones anteriores procedentes del sistema de Analytics
+   * [!UICONTROL Visitantes estimados por día]: es el número de visitantes que tienen probabilidades de ver esta página según los criterios de segmentación. Esta cifra puede estar basada en los datos de Analytics.
+   * [!UICONTROL Duración de la prueba]: número de días durante los cuales quiere ejecutar la actividad.
    El estimador de tráfico utiliza estas estadísticas para determinar qué ajustes se necesitan para ejecutar una prueba con éxito.
 
    Cerca de la parte superior del estimador de tráfico, se calculan los valores que ha indicado y se muestran los resultados.
