@@ -7,8 +7,8 @@ solution: Target
 title: Recommendations como oferta
 title-outputclass: premium
 topic: Premium
-translation-type: tm+mt
-source-git-commit: 9825c8faa6fcd4d74b57ac0d994da35e25d785ea
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -24,11 +24,11 @@ Esta funcionalidad revela capacidades completamente nuevas, como:
 * Insertar automáticamente tráfico a la experiencia de recomendaciones de mejor rendimiento mediante [!UICONTROL Asignación automática].
 * Asignar de forma dinámica a los visitantes a experiencias de recomendaciones adaptadas según su perfil mediante el uso de [!UICONTROL Segmentación automática].
 
-Para empezar, cree una actividad [!UICONTROL A/B] o de [!UICONTROL Segmentación de experiencias] con el [!UICONTROL Compositor de experiencias visuales] y use la acción [!UICONTROL Insertar antes], [!UICONTROL Insertar después] o [!UICONTROL Reemplazar con] para agregar recomendaciones a una experiencia.
+Para empezar, cree una actividad [!UICONTROL Prueba A/B] o de [!UICONTROL Segmentación de experiencias] con el [!UICONTROL Compositor de experiencias visuales] y use la acción [!UICONTROL Insertar antes], [!UICONTROL Insertar después] o [!UICONTROL Reemplazar con] para agregar recomendaciones a una experiencia.
 
 ## Adición de una recomendación como una oferta en una actividad de prueba A/B o XT
 
-1. Inicie el flujo de trabajo guiado de tres pasos con el Compositor de experiencias visuales (VEC) para crear una actividad [A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) o una actividad de [Segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT).
+1. Inicie el flujo de trabajo guiado de tres pasos con el Compositor de experiencias visuales (VEC) para crear una actividad [Prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) o una actividad de [Segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT).
 
    >[!NOTE]
    >
