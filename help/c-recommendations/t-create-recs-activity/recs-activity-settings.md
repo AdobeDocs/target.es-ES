@@ -10,8 +10,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -59,7 +59,7 @@ Establezca la duración de la actividad.
 
 La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
-## Configuración de informes  
+## Configuración de informes
 
 * **Objetivo:** asigne un nombre al objetivo y seleccione la métrica de éxito que determina si la actividad tiene éxito.
 * **Métricas adicionales:** configure métricas de éxito adicionales para usarlas en sus informes.
