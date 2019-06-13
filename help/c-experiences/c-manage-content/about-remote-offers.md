@@ -7,8 +7,8 @@ solution: Target
 title: Crear ofertas remotas
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -82,5 +82,5 @@ La matriz de selección de ofertas remotas ayuda a decidir qué tipo de oferta r
 | Tiempo de carga | Más rápido | Más lento debido al procesamiento de solicitudes |
 | Se puede ver JavaScript en la página | Sí | No, pero se puede transmitir por URL |
 | Las ofertas pueden incluir JavaScript | Sí | No |
-| URL de la oferta | Absoluta o relativa | Relativo |
+| URL de la oferta | Absoluta  o relativa | Relativo |
 | Equipo solicitante | Servidores de Adobe | El equipo del visitante, que lleva las cookies del visitante |
