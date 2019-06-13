@@ -7,8 +7,8 @@ solution: Target
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
-translation-type: tm+mt
-source-git-commit: d16f43524b18135b9173714a87a6d9f62173b900
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -46,7 +46,7 @@ Información sobre las condiciones que hay que cumplir para que [!DNL Target] re
 Para reconocer un host es necesario cumplir las condiciones siguientes:
 
 * Debe existir al menos un mbox en el host.
-* Una página del host debe tener   lo siguiente:
+* Una página del host debe tener  lo siguiente:
 
    * Una referencia precisa a [!DNL mbox.js].
    * Un mbox o una llamada de mbox global generada automáticamente
@@ -62,7 +62,7 @@ Tras ver la página, el host se incluye en la lista [!UICONTROL Hosts], lo que p
 Cuando un host se añada a la lista [!UICONTROL Hosts], compruebe si se reconoce.
 
 1. Haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Hosts]**.
-1. Si no está en la lista, actualice el navegador.
+1. Si no está en la lista, actualice el navegador. 
 De forma predeterminada, un host recién reconocido se incluye en el entorno Producción. Se trata del entorno más seguro, dado que desde estos hosts no se pueden visualizar actividades inactivas.
 1. (Condicional) Mueva el host al entorno de desarrollo o ensayo.
 
@@ -87,11 +87,11 @@ Para ordenar la lista [!UICONTROL Hosts], haga clic en cualquier encabezado de c
 
 Para buscar la lista [!UICONTROL Hosts], escriba un término de búsqueda en el cuadro Buscar.
 
-## Seleccionar varios hosts   {#section_EF3B458475184B7EA997C3559714397C}
+## Seleccionar varios hosts  {#section_EF3B458475184B7EA997C3559714397C}
 
 Para seleccionar varios hosts, marque las casillas de verificación que hay junto a la columna [!UICONTROL Nombre] de los hosts que quiera. Luego puede mover o eliminar todos los hosts seleccionados.
 
-## Crear un entorno   {#section_32097D0993724DF3A202D164D3F18674}
+## Crear un entorno  {#section_32097D0993724DF3A202D164D3F18674}
 
 1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Entornos].**
 1. Haga clic en **[!UICONTROL Crear entorno]**.
