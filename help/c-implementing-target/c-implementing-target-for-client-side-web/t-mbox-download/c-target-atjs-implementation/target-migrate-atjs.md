@@ -7,20 +7,20 @@ solution: Target
 title: Cómo migrar de mbox.js a at.js
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Cómo migrar de mbox.js a at.js{#how-to-migrate-to-at-js-from-mbox-js}
 
-Migrar desde mbox. js a at. js es [!DNL Adobe Target] un proceso directo.
+La migración de mbox.js a at.js en [!DNL Adobe Target] es un proceso directo.
 
 Siga estos pasos para migrar de [!DNL mbox.js] a [!DNL at.js] y para comprobar la migración:
 
 1. Determine los requisitos de [compatibilidad con exploradores](../../../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) de su organización.
-1. Compruebe si hay funciones que [!DNL mbox.js] no admite en la implementación de [!DNL at.js] actual de su sitio web. 
+1. Compruebe si hay funciones que [!DNL mbox.js] no admite en la implementación de [!DNL at.js] actual de su sitio web.
 
    Cuando audite su implementación, busque lo siguiente:
 
@@ -31,8 +31,8 @@ Siga estos pasos para migrar de [!DNL mbox.js] a [!DNL at.js] y para comprobar l
    | Mbox global creado automáticamente | El mbox global creado automáticamente se crea cuando la única línea del código de Target en su sitio es el archivo mbox.js. Ese archivo genera automáticamente una llamada de mbox. |
    | mboxCreate global y vacío | Se recomienda cambiar al mbox global creado automáticamente. |
    | Envolver mboxCreate | La migración debería ser sencilla, siempre y cuando su `mboxCreate()` esté precedida por `<div class="mboxDefault"></div>`. |
-   | mboxUpdate | La migración debería ser sencilla cuando   `mboxUpdate()` se usa junto con `mboxDefine()` o `mboxCreate()`. `mboxUpdate()` no actualiza el mbox global creado automáticamente ni un mbox creado originalmente por `getOffer()`. En estas circunstancias, se debería usar una combinación de `getOffer()` y `applyOffer()` para reemplazar a `mboxUpdate()` al migrar a at.js. |
-   | Mboxes personalizados de rastreo de clics, incluido mboxTrack | Le recomendamos que actualice el código para que use   `trackEvent()`. |
+   | mboxUpdate | La migración debería ser sencilla cuando  `mboxUpdate()` se usa junto con `mboxDefine()` o `mboxCreate()`. `mboxUpdate()` no actualiza el mbox global creado automáticamente ni un mbox creado originalmente por `getOffer()`. En estas circunstancias, se debería usar una combinación de `getOffer()` y `applyOffer()` para reemplazar a `mboxUpdate()` al migrar a at.js. |
+   | Mboxes personalizados de rastreo de clics, incluido mboxTrack | Le recomendamos que actualice el código para que use  `trackEvent()`. |
 
    >[!NOTE]
    >
@@ -82,14 +82,14 @@ Siga estos pasos para migrar de [!DNL mbox.js] a [!DNL at.js] y para comprobar l
 
    >[!NOTE]
    >
-   >Si actualmente no usa un administrador de etiquetas para implementar [!DNL Target], este puede ser un buen momento para planteárselo. [Dynamic Tag Management](https://dtm.adobe.com) de Adobe es una herramienta gratuita para los clientes de [!DNL Target] y es el método recomendado para implementar [!DNL Target]. Para obtener más información, consulte [Prácticas recomendadas para implementar Adobe Target mediante Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/target/).
+   >Si actualmente no usa un administrador de etiquetas para implementar [!DNL Target], este puede ser un buen momento para planteárselo. [Dynamic Tag Management](https://dtm.adobe.com) de Adobe es una herramienta gratuita para los clientes de [!DNL Target] y es el método recomendado para implementar [!DNL Target]. Para obtener más información, consulte [Prácticas recomendadas para implementar Adobe Target mediante Dynamic Tag Management ](https://marketing.adobe.com/resources/help/en_US/dtm/target/).
 
 1. Compruebe que todas las actividades e integraciones actuales funcionan correctamente.
 
    Estas son algunas acciones que puede realizar mientras prueba para confirmar que [!DNL at.js] funciona tal como se espera:
 
    * Asegúrese de que todas las actividades actuales funcionen con la nueva biblioteca JavaScript.
-   * Confirme que todas las   Las [integraciones](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) y [complementos](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) funcionan según lo esperado.
+   * Confirme que todas las  Las [integraciones](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) y [complementos](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) funcionan según lo esperado.
    * Asegúrese de estar cómodo con la [depuración](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) de los enfoques disponibles con [!DNL at.js].
 
 **Posibles problemas al migrar a at.js** Algunos clientes han informado de los siguientes problemas después de realizar la migración a at.js:
@@ -115,6 +115,6 @@ En estos casos, los selectores de elementos podrían iniciarse con algo parecido
    HTML > BODY > DIV:nth-of-type(1)
    ```
 
-   Para obtener más información sobre cómo utilizar el editor de código para hacer esto, consulte   [Editor de código](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
+   Para obtener más información sobre cómo utilizar el editor de código para hacer esto, consulte  [Editor de código](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Como todos los mboxes ahora son asincrónicos, no bloquearán el procesamiento de páginas ni devolverán el orden en que se activaron. Para obtener más información, consulte “Consideraciones asincrónicas” en   [Limitaciones de at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Como todos los mboxes ahora son asincrónicos, no bloquearán el procesamiento de páginas ni devolverán el orden en que se activaron. Para obtener más información, consulte “Consideraciones asincrónicas” en  [Limitaciones de at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
