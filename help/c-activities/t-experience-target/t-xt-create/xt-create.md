@@ -7,8 +7,8 @@ subtopic: Prueba multivariable
 title: Crear una actividad de segmentación de experiencias
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
-translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,8 +25,8 @@ Use el Compositor de experiencias visuales para crear una actividad de segmentac
    >
    >Los tipos de actividades disponibles dependen de su cuenta de Target. Algunos tipos de actividades podrían no aparecer en su lista.
 
-   Para obtener más información sobre los tipos de actividades, consulte   [Actividades](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
-1. Introduzca la [dirección URL de la actividad](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)y haga clic en **[!UICONTROL Siguiente]**.
+   Para obtener más información sobre los tipos de actividades, consulte  [Actividades](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Introduzca la [dirección URL de la actividad](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) y haga clic en **[!UICONTROL Siguiente]**.
 
    ![](assets/form_url.png)
 
@@ -34,7 +34,7 @@ Use el Compositor de experiencias visuales para crear una actividad de segmentac
 
    Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 
-   Si prefiere usar el Compositor de experiencias basadas en formularios, seleccione esa opción. Consulte [Compositor de experiencias basadas en formularios](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Si prefiere usar el Compositor de experiencias basadas en formularios, seleccione esa opción. Consulte [Compositor de experiencias basadas en formularios](https://marketing.adobe.com/resources/help/es_ES/target/target/t_form_experience_composer.html).
 
    Se abre el Compositor de experiencias visuales con la página especificada en la dirección URL.
 1. Escriba un nombre para la actividad en el espacio proporcionado.
@@ -47,7 +47,7 @@ Use el Compositor de experiencias visuales para crear una actividad de segmentac
    |--- |--- |
    | `/` | Barra oblicua |
    | `?` | Signo de interrogación |
-   | `#` | Signo de número  |
+   | `#` | Signo de número |
    | `:` | Dos puntos |
    | `=` | Igual a |
    | `+` | Más |
@@ -83,7 +83,7 @@ Use el Compositor de experiencias visuales para crear una actividad de segmentac
 
    ![](assets/xt_change_audience.png)
 
-   Se mostrará la biblioteca de audiencias. La biblioteca de audiencias contiene las audiencias que se han definido anteriormente, entre las que se incluyen algunas audiencias comunes predefinidas como parte de Target. Seleccione una audiencia de la biblioteca o    [cree una audiencia nueva](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Para mostrar la misma experiencia a todos los participantes, seleccione Todos los visitantes.
+   Se mostrará la biblioteca de audiencias. La biblioteca de audiencias contiene las audiencias que se han definido anteriormente, entre las que se incluyen algunas audiencias comunes predefinidas como parte de Target. Seleccione una audiencia de la biblioteca o  [cree una audiencia nueva](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Para mostrar la misma experiencia a todos los participantes, seleccione Todos los visitantes.
 
    >[!NOTE]
    >
