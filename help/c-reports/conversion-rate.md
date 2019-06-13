@@ -7,8 +7,8 @@ solution: Target
 title: Tasa de conversión
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: tm+mt
-source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -47,7 +47,7 @@ Alza = (tasa de conversión de la experiencia - tasa de conversión de control):
 
 Si el control es 0, no existe alza de porcentaje.
 
-## Confianza (relevancia estadística)   {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Confianza (relevancia estadística)  {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 Este número indica la probabilidad de que los resultados se dupliquen si la prueba se realiza de nuevo. La confianza se redondea al 100,00 % cuando la confianza es superior o igual al 99,995 %.
 
@@ -55,7 +55,7 @@ Consulte [Nivel de confianza e intervalo de confianza](../c-reports/conversion-r
 
 ## Datos comerciales {#section_30A674731BA6440E9BB93C421BE990EE}
 
-Si ha insertado un mbox [Realizar pedido](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) y lo ha seleccionado como mbox de conversión, se muestran los datos de AOV (valor de pedido promedio), RPV (ingresos por visitante) y ventas de cada experiencia.
+Si ha insertado un mbox [Realizar pedido](https://marketing.adobe.com/resources/help/es_ES/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) y lo ha seleccionado como mbox de conversión, se muestran los datos de AOV, RPV y ventas de cada experiencia.
 
 ## Nivel de confianza e intervalo de confianza {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -103,11 +103,11 @@ El *intervalo de confianza* es un intervalo en el que se puede encontrar el valo
 * **Tamaño de la muestra:** A medida que la muestra crece, el intervalo se reduce. Esto es recomendable, ya que pone de manifiesto que los informes se aproximan al valor real de la métrica de éxito.
 * **Desviación estándar menor:** Más resultados similares, como AOV similares o la conversión de números o visitantes similares cada día, reducen la desviación estándar.
 
-## El cálculo de confianza y cómo realizarlo sin conexión   {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## El cálculo de confianza y cómo realizarlo sin conexión  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 El [informe CSV descargado](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) solo contiene datos sin procesar; no incluye métricas calculadas, como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B.
 
-Para calcular estas métricas, descargue el archivo de Excel [Calculadora de confianza completa de Target](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) para introducir el valor de la actividad o revisar los [cálculos estadísticos usados por Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+Para calcular estas métricas, descargue el archivo de Excel [Calculadora de confianza completa de Target](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) para introducir el valor de la actividad o revisar los [cálculos estadísticos utilizados por Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -127,15 +127,15 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 1. Haga clic en **[!UICONTROL Herramientas]** &gt; **[!UICONTROL Data Warehouse]**.
 1. En la pestaña **[!UICONTROL Solicitud de Data Warehouse], rellene los campos.**
 
-   Para obtener más información acerca de cada campo, consulte &quot;Descripciones de Data Warehouse&quot; en [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
+   Para obtener más información sobre cada campo, consulte “Descripciones del Data Warehouse” en [Data Warehouse](https://marketing.adobe.com/resources/help/ee_ES/reference/data_warehouse.html).
 
    | Campo | Instrucciones |
    |--- |--- |
    | Nombre de la solicitud | Especifica un nombre para su solicitud. |
    | Fecha de informes | Especifica un periodo de tiempo y una granularidad.<br>Como práctica recomendada, elija no más de una hora o un día de datos para la primera solicitud.  Los archivos del Data Warehouse tardan más en procesarse cuanto mayor es el periodo solicitado, por lo que siempre se recomienda solicitar primero un periodo corto para garantizar que el archivo devuelva el resultado esperado. A continuación, vaya a Solicitar administrador, duplique la solicitud y solicite más datos esta vez. Además, si establece la granularidad en cualquier valor distinto de “Ninguna”, el tamaño del archivo aumentará de forma drástica.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
    | Segmentos disponibles | Aplique un segmento, según sus necesidades. |
-   | Desgloses | Seleccione las dimensiones que desee:      Estándar es el valor predeterminado, mientras que Personalizado incluye eVars y props. Se recomienda utilizar “ID de visitante” si se necesita información en este nivel, en vez de “ID de visitante de Experience Cloud”.<ul><li>El ID de visitante es el ID último utilizado por Analytics. Será AID (en el caso de un cliente heredado) o MID (si el cliente es nuevo o si borró las cookies desde el inicio del servicio ID de visitante de MC).</li><li>El ID de visitante de Experience Cloud solo se establecerá para clientes nuevos o que hayan borrado las cookies desde el inicio del servicio ID de visitante de MC.</li></ul> |
-   | Métricas | Seleccione las métricas que desee. Estándar es el valor predeterminado, mientras que Personalizado incluye eventos personalizados.  |
+   | Desgloses | Seleccione las dimensiones que desee:   Estándar es el valor predeterminado, mientras que Personalizado incluye eVars y props. Se recomienda utilizar “ID de visitante” si se necesita información en este nivel, en vez de “ID de visitante de Experience Cloud”.<ul><li>El ID de visitante es el ID último utilizado por Analytics. Será AID (en el caso de un cliente heredado) o MID (si el cliente es nuevo o si borró las cookies desde el inicio del servicio ID de visitante de MC).</li><li>El ID de visitante de Experience Cloud solo se establecerá para clientes nuevos o que hayan borrado las cookies desde el inicio del servicio ID de visitante de MC.</li></ul> |
+   | Métricas | Seleccione las métricas que desee. Estándar es el valor predeterminado, mientras que Personalizado incluye eventos personalizados. |
    | Vista previa del informe | Revise la configuración antes de programar el informe.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | Programar envío | Introduzca una dirección de correo electrónico a la que enviar el archivo, asigne un nombre a este y, a continuación, seleccione [!UICONTROL Enviar inmediatamente].<br>Nota: El archivo se puede enviar mediante FTP desde [!UICONTROL Opciones de envío avanzadas]<br>![Programar envío](/help/c-reports/assets/datawarehouse3.png). |
 
@@ -147,8 +147,8 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 
 Para obtener más información sobre el [!DNL Data Warehouse], vea los siguientes vínculos en la documentación de ayuda de [!DNL Analytics]:
 
-* [Crear una solicitud del Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Prácticas recomendadas del Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [Crear una solicitud del Data Warehouse](https://marketing.adobe.com/resources/help/es_ES/reference/t_dw_create_request.html)
+* [Prácticas recomendadas para Data Warehouse](https://marketing.adobe.com/resources/help/es_ES/reference/data_warehouse_bp.html)
 
 ## Metodología de contabilización {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
