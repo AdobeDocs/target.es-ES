@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
-translation-type: tm+mt
-source-git-commit: f2d5c7eafbdb21ff26d88b692266d0e43dae6744
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,13 +27,13 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
    >[!NOTE]
    >
-   >[!DNL Target] no diferencia entre los protocolos URL ( [!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `http://www.adobe.com`] como [!DNL `https://wwww.adobe.com`] coinciden.
+   >[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `http://www.adobe.com`] como [!DNL `https://wwww.adobe.com`] coinciden.
 
    La dirección URL de actividad es la página donde se mostrarán las recomendaciones.
 
    ![](assets/DB_NewRecAct.png)
 
-   Si prefiere usar el Compositor de experiencias basadas en formularios, seleccione esa opción. Consulte [Compositor de experiencias basadas en formularios](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Si prefiere usar el Compositor de experiencias basadas en formularios, seleccione esa opción. Consulte [Compositor de experiencias basadas en formularios](https://marketing.adobe.com/resources/help/es_ES/target/target/t_form_experience_composer.html).
 
    Tras hacer clic en [!UICONTROL Siguiente], VEC se abre y muestra su página. Puede reemplazar un artículo actual por recomendaciones, o insertar recomendaciones.
 
@@ -53,7 +53,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
    >[!NOTE]
    >
-   >No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o `entity.categoryId` para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desmarque la casilla de verificación **[!UICONTROL Compatible].** Es posible que no se muestre la opción [!UICONTROL Compatible], dependiendo de la configuración de Recommendations (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Configuración]** &gt; **[!UICONTROL Filtrar criterios incompatibles]**). Para obtener más información, consulte [Configuración](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o `entity.categoryId` para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desmarque la casilla de verificación **[!UICONTROL Compatible]**. Es posible que no se muestre la opción [!UICONTROL Compatible], dependiendo de la configuración de Recommendations (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Configuración]** &gt; **[!UICONTROL Filtrar criterios incompatibles]**). Para obtener más información, consulte [Configuración](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
    ![](assets/SCRN_SelectCriteria2.png)
 
@@ -69,7 +69,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 1. Haga clic en **[!UICONTROL Siguiente]**.
 1. Seleccionar un diseño.
 
-   Un diseño es una plantilla que determina el aspecto de las ubicaciones en la página. [!DNL Target] incluye varios diseños preconfigurados. También puede crear sus propios diseños personalizados. Para obtener más información, consulte   [Creación de diseños](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) y [Personalización de diseños](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Un diseño es una plantilla que determina el aspecto de las ubicaciones en la página. [!DNL Target] incluye varios diseños preconfigurados. También puede crear sus propios diseños personalizados. Para obtener más información, consulte  [Creación de diseños](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) y [Personalización de diseños](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![](assets/Card_SelectDesign.png)
 
@@ -83,7 +83,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
 1. Haga clic en **[!UICONTROL Siguiente]**.
 
-   Puede agregar promociones a sus recomendaciones. Para obtener más información sobre cómo agregar promociones principales y secundarias, consulte   [Añadir promociones](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   Puede agregar promociones a sus recomendaciones. Para obtener más información sobre cómo agregar promociones principales y secundarias, consulte  [Añadir promociones](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    La pantalla del compositor de experiencias visuales muestra el diseño de recomendaciones de su página.
@@ -139,6 +139,6 @@ Cuando termine con la vista previa de las recomendaciones, haga clic en **[!UICO
 * Ver el código de los diseños
 
 1. (Opcional) Abra la página [!UICONTROL Informes] para ver el informe que muestra el rendimiento de la actividad de [!DNL Recommendations].
-1. (Opcional) Abra la página [!UICONTROL Conflictos] para ver cualquier [conflicto de actividades](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html) que pueda producirse.
+1. (Opcional) Abra la página [!UICONTROL Conflictos] para ver los [conflictos de actividades](https://marketing.adobe.com/resources/help/es_ES/target/target/c_activity_collisions.html) que puedan producirse.
 
    Se produce un conflicto de actividades cuando existen varias actividades configuradas para publicar contenido en la misma página, lo cual puede hacer que se muestre contenido inesperado.
