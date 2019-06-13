@@ -7,8 +7,8 @@ solution: Target
 title: Incluir la misma experiencia en páginas similares
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
-translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,8 +35,8 @@ El siguiente vídeo de demostración incluye información sobre el uso de planti
 Puede especificar páginas que incluyan los elementos modificados o aplicar los cambios a todo el sitio.
 
 1. Cree una actividad como se describe en [Actividades](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
-1. Para especificar las páginas donde aparecerá la experiencia, en el Compositor de experiencias visuales haga clic en el icono de engranaje y seleccione **[!UICONTROL Entrega de página]**.
-1. Haga clic **[!UICONTROL en Agregar regla]** de plantilla y, a continuación, especifique los criterios de las páginas a las que desee agregar la experiencia.
+1. Para especificar las páginas en las que aparecerá la experiencia, vaya al Compositor de experiencias visuales, haga clic en el icono con forma de engranaje y, a continuación, seleccione **[!UICONTROL Publicación de página]**.
+1. Haga clic en **[!UICONTROL Agregar plantilla de regla]** y, a continuación, especifique los criterios para las páginas en las que quiera agregar la experiencia.
 
 1. Especifique el intervalo de páginas. El intervalo de páginas puede ser uno de los siguientes:
 
@@ -53,14 +53,14 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
 
    * Contiene
    * No contiene
-   * Es (distingue mayúsculas de minúsculas)
+   * Es (con distinción de mayúsculas y minúsculas)
    * No es
    * Comienza con
    * Finaliza con
 
 1. Escriba las cadenas que establecen dónde se agregará la experiencia, como el dominio o las cadenas contenidas en el nombre de la página.
 
-   Por ejemplo, si selecciona **[!UICONTROL Dominio]** y **[!UICONTROL Es (distingue entre mayúsculas y minúsculas)]**, escriba el dominio donde desee agregar la experiencia a todas las páginas.
+   Por ejemplo, si selecciona **[!UICONTROL Dominio]** y **[!UICONTROL Es (con distinción de mayúsculas y minúsculas)]**, escriba el dominio en el que desea que se agregue la experiencia a todas las páginas.
 
    Puede incluir varios elementos.
 
@@ -68,7 +68,7 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
    >
    >Cuando varios elementos usan la lógica `OR`, significa que cualquier elemento de la lista hace que la condición sea verdadera.
 
-1. Si lo desea, introduzca criterios adicionales haciendo clic **[!UICONTROL en Agregar regla]** de plantilla y repitiendo el procedimiento en el paso anterior.
+1. Si lo desea, escriba otros criterios adicionales haciendo clic en **[!UICONTROL Agregar plantilla de regla]** y repitiendo el procedimiento del paso anterior.
 
    Cuando hay varios criterios se unen entre sí con la lógica AND. Adobe Target agrega la experiencia a todas las páginas que cumplan todos los criterios especificados.
 
