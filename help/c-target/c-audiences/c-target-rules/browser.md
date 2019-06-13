@@ -8,8 +8,8 @@ subtopic: Prueba multivariable
 title: Explorador
 topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -66,7 +66,7 @@ En el ejemplo siguiente se muestra una audiencia que incluye a los usuarios de l
 
 Dirija la actividad a visitantes o exclúyalos en función del tipo, el idioma o la versión de navegador que tengan.
 
-### Tipo   {#section_6ADC758F23F145B3A310151546D83D56}
+### Tipo  {#section_6ADC758F23F145B3A310151546D83D56}
 
 Dirija la actividad a un navegador o exclúyalo.
 
@@ -79,7 +79,7 @@ Seleccione uno o varios.
 
 Si hay varias opciones, se conectan con un parámetro O.
 
-### Idioma   {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Idioma  {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Dirija la actividad a ciertos navegadores que estén configurados en idiomas específicos o exclúyalos.
 
@@ -108,7 +108,7 @@ Los siguientes idiomas de navegador se pueden incluir o excluir de la segmentaci
 
 Si hay varias opciones, se conectan con un parámetro O.
 
-### Versión   {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versión  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Dirija la actividad a ciertas versiones del navegador o exclúyalas.
 
