@@ -6,8 +6,8 @@ seo-title: 'iOS: crear una ubicación y una métrica de éxito de Target'
 title: 'iOS: crear una ubicación y una métrica de éxito de Target'
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
-translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
 Para usar Target en una aplicación móvil, cree una ubicación y una métrica de éxito.
 
-Esta sección incluye código de ejemplo que se puede usar como plantilla en la aplicación. Los ejemplos de esta sección contienen código para iOS. Los mismos patrones sirven para Android. La sintaxis de Android se encuentra en la guía [SDK para Android 4.x para soluciones de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/android/target_main.html).
+Esta sección incluye código de ejemplo que se puede usar como plantilla en la aplicación. Los ejemplos de esta sección contienen código para iOS. Los mismos patrones sirven para Android. La sintaxis específica de Android se encuentra en la guía de soluciones [Android SDK 4.x para Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mobile/android/target_main.html).
 
 >[!NOTE]
 >
->Consulte la documentación [de Mobile](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) para obtener una lista de todos los métodos de Target disponibles.
+>Consulte la [Documentación móvil ](https://marketing.adobe.com/resources/help/es_ES/mobile/ios/c_target_methods.html) para obtener una lista de todos los métodos de Target disponibles.
 
 Para crear una ubicación de Target en la aplicación y realizar una solicitud, existen dos métodos principales:
 
