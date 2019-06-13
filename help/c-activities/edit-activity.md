@@ -7,8 +7,8 @@ solution: Target
 title: Editar una actividad o guardar como borrador
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Información acerca de los distintos modos de editar una actividad existente, in
 
 Target ofrece en su interfaz varios puntos donde se pueden editar las actividades existentes. El proceso varía en función del método que elija.
 
-## Editar una actividad pasando sobre ella el cursor en la página de actividades   {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Editar una actividad pasando sobre ella el cursor en la página de actividades  {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. En la página **[!UICONTROL Actividades]**, pase el cursor sobre la actividad que desea editar y, a continuación, haga clic en el icono **Editar[!UICONTROL .]**
 
@@ -33,11 +33,11 @@ Target ofrece en su interfaz varios puntos donde se pueden editar las actividade
 
    ![](assets/edit_split_button_2.png)
 
-   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]para avanzar al paso deseado.** Por ejemplo, en la ilustración anterior, hacer clic en [!UICONTROL Siguiente] muestra el paso Segmentación.
+   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]** para avanzar al paso deseado. Por ejemplo, en la ilustración anterior, hacer clic en [!UICONTROL Siguiente] muestra el paso Segmentación.
    * **Guardar y cerrar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar y cerrar]** para guardar los cambios y mostrar la página [!UICONTROL Información general] de la actividad.
-   * **Guardar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar]para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios.** Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
+   * **Guardar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
 
-## Editar una actividad haciendo clic en su nombre en la página Actividades para abrirla   {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Editar una actividad haciendo clic en su nombre en la página Actividades para abrirla  {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Para evitar tener que pasar por todo el flujo de trabajo, haga clic en la actividad deseada de la página Actividades para abrirla y, a continuación, seleccione una opción en la lista desplegable **[!UICONTROL Editar actividad].**
 
@@ -48,19 +48,19 @@ Target ofrece en su interfaz varios puntos donde se pueden editar las actividade
    * **Editar experiencias:** lo lleva directamente a la página [!UICONTROL Experiencias] (el primer paso en el flujo de trabajo guiado). Realice los cambios que desee y, a continuación, utilice el botón dividido (explicado anteriormente) para guardar la actividad.
 
       * Haga clic en **[!UICONTROL Guardar y cerrar]para guardar los cambios y mostrar la página Información general de la actividad.**
-      * Haga clic en **[!UICONTROL Guardar]para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios.** Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
+      * Haga clic en **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
    * **Editar segmentación:** lo lleva directamente a la página [!UICONTROL Segmentación] (el primer paso en el flujo de trabajo guiado). Realice los cambios que desee y, a continuación, utilice el botón dividido (explicado anteriormente) para guardar la actividad.
 
       * Haga clic en **[!UICONTROL Guardar y cerrar]para guardar los cambios y mostrar la página Información general de la actividad.**
-      * Haga clic en **[!UICONTROL Guardar]para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios.** Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
+      * Haga clic en **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
    * **Editar objetivos y configuración:** lo lleva directamente a la página [!UICONTROL Objetivos y configuración] (el último paso del flujo de trabajo guiado). Realice los cambios que desee y, a continuación, utilice el botón dividido (explicado anteriormente) para guardar la actividad.
 
       * Haga clic en **[!UICONTROL Guardar y cerrar]para guardar los cambios y mostrar la página Información general de la actividad.**
-      * Haga clic en **[!UICONTROL Guardar]para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios.** Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
+      * Haga clic en **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
 
 
 
-## Guardar una actividad como borrador   {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Guardar una actividad como borrador  {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Cuando crea una nueva actividad que aún no se ha guardado, o cuando edita una actividad previamente guardada en forma de borrador, en el botón dividido se muestra la opción Guardar borrador.
 
@@ -85,13 +85,13 @@ Un espacio de trabajo permite que una organización asigne un conjunto de usuari
 
 Si forma parte de una organización multinacional, puede tener un espacio de trabajo para sus páginas web, propiedades o sitios europeos y otro para sus páginas web, propiedades o sitios estadounidenses. Si forma parte de una organización de varias marcas, puede contar con un espacio de trabajo independiente para cada una.
 
-Para obtener más información sobre los espacios de trabajo y la funcionalidad de los Permisos de usuario de la empresa, consulte   [Permisos de usuario de Enterprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
+Para obtener más información sobre los espacios de trabajo y la funcionalidad de los Permisos de usuario de Enterprise, consulte  [Permisos de usuario de Enterprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Si tiene Permisos de usuario de empresa habilitados en su entorno, puede copiar actividades en el mismo espacio de trabajo o en otro espacio de trabajo. No puede trasladar actualmente una actividad de un espacio de trabajo a otro. Para copiar una actividad en otro espacio de trabajo, desde la página [!UICONTROL Actividades], pase el cursor sobre la actividad que desea copiar, haga clic en el icono [!UICONTROL Copiar] y, a continuación, seleccione el espacio de trabajo deseado de la lista desplegable.
+Si tiene Permisos de usuario de Enterprise habilitados en su entorno, puede copiar actividades en el mismo espacio de trabajo o en otro espacio de trabajo. No puede trasladar actualmente una actividad de un espacio de trabajo a otro. Para copiar una actividad en otro espacio de trabajo, desde la página [!UICONTROL Actividades], pase el cursor sobre la actividad que desea copiar, haga clic en el icono [!UICONTROL Copiar] y, a continuación, seleccione el espacio de trabajo deseado de la lista desplegable.
 
 Tenga en cuenta la siguiente información cuando utilice la funcionalidad de copiar/editar con espacios de trabajo:
 
 * Cuando copie una actividad dentro del mismo espacio de trabajo, el primer paso del flujo de creación de la actividad recién copiada se abre en modo de edición.
 * Cuando copia una actividad en un espacio de trabajo diferente, la actividad se copia en el otro espacio de trabajo sin abrirlo en el flujo de creación de actividades. Después de que la actividad se haya copiado correctamente, aparece un mensaje que indica que la actividad se copió con éxito e incluye un vínculo para abrir la nueva actividad.
 
-Si su entorno no tiene habilitada la funcionalidad Permisos de usuario de la empresa, todas las actividades se abren en el modo de edición antes de copiarse.
+Si su entorno no tiene habilitada la funcionalidad Permisos de usuario de Enterprise, todas las actividades se abren en el modo de edición antes de copiarse.
