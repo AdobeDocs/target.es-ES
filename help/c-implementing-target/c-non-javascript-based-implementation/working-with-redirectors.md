@@ -8,8 +8,8 @@ subtopic: Primeros pasos
 title: Trabajar con redirectores
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Use un redirector de forma similar a como se usa un mbox en las pruebas.
 
 Los redirectores se crean con una dirección URL de redirector especial que carga un mbox de redirector en su cuenta. Use este redirector de forma similar a como se usa un mbox en las pruebas. Envíe la dirección URL del redirector a la red de publicidad como vínculo de destino de la publicidad.
 
-Use el redirector para   hacer lo siguiente:
+Use el redirector para  hacer lo siguiente:
 
 * Rastrear los clics de los anuncios en pantalla en su sitio
 * Crear un único informe centralizado para rastrear los clics efectuados en los anuncios en pantalla de las redes de publicidad múltiple
@@ -30,7 +30,7 @@ Use el redirector para   hacer lo siguiente:
 
 * Averigüe cuál es la página de aterrizaje que produce el mayor número de conversiones
 
-Para obtener ayuda para decidir la configuración adecuada, consulte   [Implementaciones no basadas en JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Para obtener ayuda para decidir la configuración adecuada, consulte  [Implementaciones no basadas en JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 ## Cree un redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
 
@@ -45,9 +45,9 @@ Antes de poder usar un redirector, debe crearlo.
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-   * Donde `yourclientcode` es el código de cliente de su empresa. El código de cliente de su empresa está por completo en minúscula y carece de caracteres especiales.
+   * Donde `yourclientcode` es el código de cliente de la empresa. El código de cliente de su empresa está por completo en minúscula y carece de caracteres especiales.
 
-      * **at.js:** El código de cliente se encuentra disponible en la parte superior de la página de la interfaz de [!UICONTROL  en ]Configuración &gt; Implementación &gt; Editar la configuración de at.js[!DNL Target].
+      * **at.js**: El código de cliente se encuentra disponible en la parte superior de la página de la interfaz de [!UICONTROL  en ]Configuración &gt; Implementación &gt; Editar la configuración de at.js[!DNL Target].
 
       * **mbox.js**: el código de cliente se encuentra disponible en la parte superior de la página en [!UICONTROL Configuración &gt; Implementación &gt; Editar la configuración de mbox.js].
    * `redirectorlink_456` es el nombre del mbox de redirector que aparecerá en la cuenta para usarlo en campañas y pruebas.
@@ -56,7 +56,7 @@ Antes de poder usar un redirector, debe crearlo.
 
    * Donde `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` es el destino predeterminado.
 
-      Debe tener codificación de dirección URL y ser una referencia absoluta. Puede utilizar la Referencia de codificación URL [HTML](https://www.w3schools.com/tags/ref_urlencode.asp) para codificar rápidamente las direcciones URL. |
+      Debe tener codificación de dirección URL y ser una referencia absoluta. Para codificar sus URL rápidamente, puede utilizar la [Referencia de codificación de la URL de HTML](https://www.w3schools.com/tags/ref_urlencode.asp).|
 
 
 
@@ -97,7 +97,7 @@ Use un redirector para pasar los costes por clic.
 
 >[!NOTE]
 >
->Lo mejor es averiguar el valor de costo mediante la métrica de compromiso **Puntaje por visita** , tal como se describe en [Participación](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>Lo mejor es averiguar el valor de coste mediante la métrica de compromiso **Puntación por visita**, tal como se describe en [Participación](https://marketing.adobe.com/resources/help/es_ES/tnt/help/c_Capturing_Engagement.html).
 
 Añada `&mboxPageValue=-value` a la dirección URL. Observe el valor negativo.
 
@@ -108,13 +108,13 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 &mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
-### Paso de los ingresos por clic   {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
+### Paso de los ingresos por clic  {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
 
 Use un redirector para pasar los ingresos por clic.
 
 >[!NOTE]
 >
->Lo mejor es averiguar el valor de los ingresos mediante la métrica de compromiso **Puntaje por visita** , tal como se describe en [Participación](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>Lo mejor es averiguar el valor de los ingresos mediante la métrica de compromiso **Puntuación por visita** tal como se describe en [Participación](https://marketing.adobe.com/resources/help/es_ES/tnt/help/c_Capturing_Engagement.html).
 
 Añada `&mboxPageValue=value` a la dirección URL.
 
