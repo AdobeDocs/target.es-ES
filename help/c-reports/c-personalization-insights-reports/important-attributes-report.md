@@ -8,8 +8,8 @@ title: Informe Atributos importantes
 title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 ---
 
@@ -110,6 +110,18 @@ En este momento, [!UICONTROL Perspectivas de personalización] solo está dispon
 **¿Qué representa la puntuación de importancia de atributo en el informe Atributos importantes?**
 
 La puntuación de importancia en la parte “Clasificación de la importancia del atributo” del informe ofrece información sobre cuáles de las variables que el algoritmo utilizó para aprender fueron más importantes al decidir el reparto de todos los visitantes entre los segmentos identificados. Se asigna una puntuación porcentual a los 100 principales atributos utilizados por el modelo.
+
+**¿Por qué, para un determinado segmento automatizado, algunas ofertas o experiencias con una tasa de conversión menor que otras reciben una mayor cantidad de tráfico?**
+
+Existen varias razones posibles por las cuales puede ver más visitas a una oferta o experiencia de conversión menor dentro de un segmento automatizado, incluso:
+
+* Hay un número de vistas pequeño para algunas o para todas las ofertas o experiencias en un segmento automatizado concreto.
+* Actividades de menor volumen en las que determinadas ofertas o experiencias no tienen modelos creados.
+* Actividades de menor volumen en las que los modelos se crearon antes para algunas ofertas o experiencias que otras. Por ejemplo, supongamos que se creó un modelo adicional el día 22 y que está viendo los datos de días 10-24.
+* Reglas de objetivo en una oferta específica que limita a qué visitantes pueden ver qué ofertas o experiencias.
+* No existen intervalos de confianza en los informes de perspectiva. Sin embargo, si las tasas de conversión son lo suficientemente cercanas, el modelo podría servir tráfico para que sea más alto en la cantidad de punto, pero no son números «estadísticamente distintos».
+
+El saber cómo funciona el modelo que proporciona tráfico puede ser útil. Cada persona se sirve en función de su perfil total. Sin embargo, los informes de perspectivas generalizan este comportamiento para hacerla más interpretativo por parte de un humano. Como resultado, los segmentos no son mutuamente excluyentes. Esto puede generar segmentos individuales que muestren este tipo de comportamiento porque la misma persona puede aparecer en varios segmentos.
 
 **¿De qué maneras puedo aprovechar la información de Perspectivas de personalización?**
 
