@@ -7,8 +7,8 @@ solution: Target
 title: Integración de Target con Adobe Campaign
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -40,20 +40,20 @@ Existen varias limitaciones:
    * El rawbox y la experiencia en Target
    * La entrega en Campaign
 
-## Antes de empezar   {#section_FF19BF1BCA064260930BF6C141313B0E}
+## Antes de empezar  {#section_FF19BF1BCA064260930BF6C141313B0E}
 
 Antes de usar Adobe Campaign para configurar las ofertas de correo electrónico segmentadas, configure los elementos siguientes en Target:
 
 * Dos o más ofertas de redireccionamiento de Target
 
-   Consulte [Creación de una oferta de redireccionamiento](https://marketing.adobe.com/resources/help/en_US/target/target/t_offer_redirect.html).
-* Una actividad de Target con una experiencia para cada oferta y la [métrica de éxito](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html) deseada.
+   Consulte [Crear ofertas de redireccionamiento](https://marketing.adobe.com/resources/help/es_ES/target/target/t_offer_redirect.html).
+* Una actividad de Target con una experiencia para cada oferta y la [métrica de éxito deseada](https://marketing.adobe.com/resources/help/es_ES/target/target/r_success_metrics.html).
 
-   Consulte [Redireccionar a una dirección URL](https://marketing.adobe.com/resources/help/en_US/target/target/t_redirect_offer.html).
+   Consulte [Redireccionar a una dirección URL](https://marketing.adobe.com/resources/help/es_ES/target/target/t_redirect_offer.html).
 
 Inicie la actividad en Target antes de configurar la parte de integración de Campaign.
 
-## Incluir una oferta de Target en un correo electrónico de Adobe Campaign   {#section_B201BBE27A704E18AF0D553F35695837}
+## Incluir una oferta de Target en un correo electrónico de Adobe Campaign  {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Cree un correo electrónico en Adobe Campaign.
 1. En las propiedades del correo electrónico, haga clic en **[!UICONTROL Incluir]** &gt; **[!UICONTROL Imagen dinámica proporcionada por Adobe Target]**.
