@@ -1,25 +1,25 @@
 ---
-description: 'Información sobre la función mboxcreate (mbox, params) para at. js. '
+description: 'Información sobre la función mboxCreate(mbox,params) para at.js. '
 keywords: adobe.target.notification;elemento;selector;notificación;extensión
-seo-description: Información sobre la función mboxcreate (mbox, params) para la biblioteca JavaScript de Adobe Target at. js.
-seo-title: Información sobre la función mboxcreate (mbox, params) para la biblioteca JavaScript de Adobe Target at. js.
+seo-description: Información sobre la función mboxCreate(mbox,params) para la biblioteca JavaScript at.js de Adobe Target.
+seo-title: Información sobre la función mboxCreate(mbox,params) para la biblioteca JavaScript at.js de Adobe Target.
 solution: Target
 subtopic: Primeros pasos
-title: 'mboxCreate(mbox,params): at.js 2.x'
+title: 'mboxCreate(mbox,params) - at.js 2.x '
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# mboxCreate(mbox,params): at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
+# mboxCreate(mbox,params) - at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
 
 Ejecuta una solicitud y aplica la oferta al DIV más cercano con nombre de clase mboxDefault.
 
 >[!NOTE]
 >
->Esta función está disponible para las versiones 1 de at.js.Solamente *x*. Esta función quedó obsoleta con el lanzamiento de at. js 2. x. Esta función devuelve el contenido predeterminado si se utiliza con at. js 2. x.
+>Esta función está disponible para las versiones 1 de at.js.Solamente *x*. Esta función quedó obsoleta con el lanzamiento de at.js 2.x. Esta función devuelve el contenido predeterminado si se utiliza con at.js 2.x.
 
 Esta función está creada en [!DNL at.js] principalmente para facilitar la transición de [!DNL mbox.js] a [!DNL at.js]. Una alternativa nueva a `mboxCreate()` es `adobe.target.getOffer()`/ `adobe.target.applyOffer()`/ o la directiva Angular.
 
