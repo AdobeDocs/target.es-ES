@@ -7,8 +7,8 @@ solution: Target
 title: Escenarios de modificación de página
 topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -289,7 +289,7 @@ Después
 </div>
 ```
 
-## Escenario: Cambiar el nombre de la clase del elemento seleccionado   {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Escenario: Cambiar el nombre de la clase del elemento seleccionado  {#section_79D244C588BA452DB8E433D82B7F63EA}
 
 En este escenario, se cambia la clase del elemento de lista seleccionado.
 
