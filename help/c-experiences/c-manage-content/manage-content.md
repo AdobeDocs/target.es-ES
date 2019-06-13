@@ -6,8 +6,8 @@ seo-title: Ofertas
 solution: Target
 title: Ofertas
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Use la biblioteca de Ofertas para administrar el contenido de ofertas de código
 >
 >En la versión de enero de 2017, las ofertas creadas mediante [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) y API pueden visualizarse en [!DNL Target Standard/Premium]la interfaz de usuario. Las ofertas actualizadas en los últimos dos años que usen estos métodos serán visibles (es decir, de enero de 2015 en adelante). La sincronización inicial se producirá la primera vez que cualquier usuario de su organización abra la página [!UICONTROL Ofertas]. La cantidad de tiempo de la sincronización inicial dependerá de la cantidad de datos. Tras la sincronización inicial, los datos se sincronizarán de forma incremental. Si tuviera código e imágenes en la misma carpeta antes de esta versión, [!DNL Target] lo separará en dos carpetas duplicadas. Tenga en cuenta que la fecha y la hora de actualización se refieren al momento en el que se migró la carpeta y no refleja la fecha de creación original de la carpeta.
 
-Haga clic en **[!UICONTROL Ofertas]para abrir la biblioteca.** La biblioteca contiene las ofertas que se han configurado mediante [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) y API. Las ofertas creadas en [!DNL Target Classic] o en otras soluciones pueden editarse en [!DNL Target Standard/Premium].
+Haga clic en **[!UICONTROL Ofertas]** para abrir la biblioteca. La biblioteca contiene las ofertas que se han configurado mediante [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) y API. Las ofertas creadas en [!DNL Target Classic] o en otras soluciones pueden editarse en [!DNL Target Standard/Premium].
 
 La página [!UICONTROL Ofertas] tiene dos fichas a la derecha: Ofertas de código y Ofertas de imágenes, que le permite visualizar las ofertas por tipo.
 
@@ -34,7 +34,7 @@ Puede editar o copiar una carpeta u oferta pasando el puntero sobre el elemento 
 
 ![](assets/offer-picker-large.png)
 
-## Visualización de definiciones de oferta   {#section_6B059DD121434E6292CAB393507D010E}
+## Visualización de definiciones de oferta  {#section_6B059DD121434E6292CAB393507D010E}
 
 Puede ver los detalles de una definición de oferta en forma de tarjeta emergente en la biblioteca de ofertas, sin necesidad de abrir la oferta.
 
@@ -83,14 +83,14 @@ Está disponible la siguiente información:
 * ID de oferta
 * Ruta de oferta
 * Última modificación
-* Tipo de URL de redireccionamiento 
+* Tipo de URL de redireccionamiento
 * URL absoluta o relativa
 
-## Vídeo de capacitación: El repositorio de contenido
+## Vídeo de formación: El repositorio de contenido
 
 Este vídeo incluye información sobre la administración de ofertas.
 
-* Conexión entre la [biblioteca de activos de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) y la biblioteca de contenido de Target
+* Conexión entre [Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/es_ES/mcloud/creative_cloud.html) y la biblioteca de contenido de Target
 * Ofertas HTML personalizadas
 * Oferta HTML personalizada en el Compositor de experiencias visuales
 
