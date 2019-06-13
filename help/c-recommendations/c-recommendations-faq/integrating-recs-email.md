@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Las actividades de
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 badge: premium
-translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,7 +21,7 @@ Información acerca del modo de integrar el correo electrónico con Recommendati
 
 Las funcionalidades del proveedor de servicios de correo electrónico determinan el método que se debe utilizar. Su administrador de cuenta o asesor puede ayudarle a elegir la opción más adecuada para usted.
 
-## Opción 1: usar la API de envío   {#section_9F00D271BABA4B7390B461F4C44EC319}
+## Opción 1: usar la API de envío  {#section_9F00D271BABA4B7390B461F4C44EC319}
 
 La API de envío es una solicitud POST que funciona con la hora de creación de correo electrónico. Esta opción es el método preferido para la hora de creación de correo electrónico.
 
@@ -60,7 +60,7 @@ El elemento `clientcode` es su código de cliente de Target.
 >
 >Asegúrese de proporcionar un valor único para `sessionId` y uno para `tntId` o `thirdPartyId` para cada destinatario de correo electrónico (por ejemplo, para cada llamada de API). Si no proporciona valores exclusivos en estos campos, la respuesta de la API podría ralentizarse o fallar debido al gran número de eventos generados dentro de un solo perfil.
 
-Consulte la [documentación de la API de envío](https://developers.adobetarget.com/api/#server-side-delivery) para obtener más información.
+Para obtener más información, consulte [documentación de API de envío](https://developers.adobetarget.com/api/#server-side-delivery).
 
 ## Opción 2: usar una plantilla de correo electrónico de rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
@@ -103,14 +103,14 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | Parámetro | Valor | Descripción | Información general |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | El código del cliente utilizado en Recommendations. Su asesor de Adobe puede facilitarle este valor. |
+| `client_code` | *client_code* | El código del cliente utilizado en Recommendations. Su asesor de Adobe puede facilitarle este valor. |  |
 | `mbox` | *mboxName* | El nombre de mbox que se utiliza para la segmentación. | Misma validación que la de todas las llamadas de mbox.<br>Límite de 250 caracteres.<br>No puede contener ninguno de los siguientes caracteres: `', ", %22, %27, <, >, %3C, %3E` |
-| `mboxXDomain` | disabled | Evita que la respuesta establezca una cookie en entornos que no son de web. |
-| `entity.id`<br>(Necesario para determinados tipos de criterio: visualización/visualización, visualización/compra, compra/compra) | *entity_id* | El productId en el que se basa la recomendación, como un producto que se ha dejado en el carro, o en una compra anterior.<br>Si el criterio lo requiere, la llamada de rawbox debe incluir el `entity.id`. |
-| `entity.event.detailsOnly` | true | Si se pasa el `entity.id`, se recomienda pasar también este parámetro para evitar que la solicitud incremente el número de visualizaciones escrutadas de la página para un elemento y para no distorsionar los algoritmos de productos basados en visualizaciones. |
-| `entity.categoryId`<br>(Necesario para determinados tipos de criterio: más vistos por categoría y más vendidos por categoría) | *category_id* | La categoría en la que se basa la recomendación, como los más vendidos en una categoría.<br>Si el criterio lo requiere, la llamada de rawbox debe incluir el `entity.categoryId`. |
-| `mboxDefault` | *`https://www.default.com`* | Si el parámetro `mboxNoRedirect` no está presente, `mboxDefault` debe ser una URL absoluta que devuelva el contenido predeterminado si no hay recomendaciones disponibles. Este puede ser una imagen u otro contenido estático.<br>Si el parámetro `mboxNoRedirect` está presente, `mboxDefault` puede ser cualquier texto que indique que no hay recomendaciones, por ejemplo `no_content`.<br>El proveedor de correo electrónico necesitará controlar el caso en el que este valor vuelva e inserte el HTML predeterminado en el correo electrónico. |
-| `mboxHost` | *mbox_host* | Este es el dominio que se añade al entorno predeterminado (grupo de host) al activar la llamada. |
+| `mboxXDomain` | disabled | Evita que la respuesta establezca una cookie en entornos que no son de web. |  |
+| `entity.id`<br>(Necesario para determinados tipos de criterio: visualización/visualización, visualización/compra, compra/compra) | *entity_id* | El productId en el que se basa la recomendación, como un producto que se ha dejado en el carro, o en una compra anterior.<br>Si el criterio lo requiere, la llamada de rawbox debe incluir el `entity.id`. |  |
+| `entity.event.detailsOnly` | true | Si se pasa el `entity.id`, se recomienda pasar también este parámetro para evitar que la solicitud incremente el número de visualizaciones escrutadas de la página para un elemento y para no distorsionar los algoritmos de productos basados en visualizaciones. |  |
+| `entity.categoryId`<br>(Necesario para determinados tipos de criterio: más vistos por categoría y más vendidos por categoría) | *category_id* | La categoría en la que se basa la recomendación, como los más vendidos en una categoría.<br>Si el criterio lo requiere, la llamada de rawbox debe incluir el `entity.categoryId`. |  |
+| `mboxDefault` | *`https://www.default.com`* | Si el parámetro `mboxNoRedirect` no está presente, `mboxDefault` debe ser una URL absoluta que devuelva el contenido predeterminado si no hay recomendaciones disponibles. Este puede ser una imagen u otro contenido estático.<br>Si el parámetro `mboxNoRedirect` está presente, `mboxDefault` puede ser cualquier texto que indique que no hay recomendaciones, por ejemplo `no_content`.<br>El proveedor de correo electrónico necesitará controlar el caso en el que este valor vuelva e inserte el HTML predeterminado en el correo electrónico. |  |
+| `mboxHost` | *mbox_host* | Este es el dominio que se añade al entorno predeterminado (grupo de host) al activar la llamada. |  |
 | `mboxPC` | Empty | (Necesario para recomendaciones que utilizan el perfil de un visitante).<br>Si no se proporcionó el valor “thirdPartyId”, se genera un nuevo tntId que se devuelve como parte de la respuesta. En caso contrario, permanece vacío.<br>**Nota**: Asegúrese de proporcionar un valor exclusivo de `mboxSession` y `mboxPC` para cada destinatario del correo electrónico (es decir, para cada llamada a la API). Si no proporciona valores exclusivos en estos campos, la respuesta de la API podría ralentizarse o fallar debido al gran número de eventos generados dentro de un solo perfil. | 1 &lt; Longitud &lt; 128<br>No puede contener más de un “.” (punto).<br>El único punto permitido es el del sufijo de ubicación del perfil. |
 
 **Parámetros opcionales**:
@@ -118,8 +118,8 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | Parámetro | Valor | Descripción | Información general |
 |--- |--- |--- |--- |
 | `mboxPC`<br>(Opcional) | *mboxPCId* | Id de visitante de Target Utilice este valor si desea rastrear el recorrido completo de un usuario hasta su sitio en varias visitas o cuando utiliza un parámetro de perfil de usuario.<br>Este valor necesita ser el PCID de Adobe Target real del usuario, que se exportaría desde el sitio web a su administración de la relación con los clientes. El proveedor de correo electrónico recuperaría este ID desde su administración de relación con los clientes o desde el Data Warehouse y lo usaría para el valor de este parámetro.<br>El valor `mboxPC` solo es útil para rastrear el comportamiento de visitantes en el sitio en varias visitas para métricas que rastrean si una recomendación es parte de una actividad A/B.<br>**Nota**: Asegúrese de proporcionar un valor exclusivo de `mboxSession` y `mboxPC` para cada destinatario del correo electrónico (es decir, para cada llamada a la API). Si no proporciona valores exclusivos en estos campos, la respuesta de la API podría ralentizarse o fallar debido al gran número de eventos generados dentro de un solo perfil. | 1 &lt; Longitud &lt; 128<br>No puede contener más de un “.” (punto).<br>El único punto permitido es el del sufijo de ubicación del perfil. |
-| `mboxNoRedirect`<br>(Opcional) | 1 | El llamador se redirige de forma predeterminada cuando no se encuentra contenido disponible. Utilícelo para desactivar el comportamiento predeterminado. |
-| `mbox3rdPartyId` | *xxx* | Utilícelo si tiene su propio ID de visitante personalizado para la segmentación de perfiles. |
+| `mboxNoRedirect`<br>(Opcional) | 1 | El llamador se redirige de forma predeterminada cuando no se encuentra contenido disponible. Utilícelo para desactivar el comportamiento predeterminado. |  |
+| `mbox3rdPartyId` | *xxx* | Utilícelo si tiene su propio ID de visitante personalizado para la segmentación de perfiles. |  |
 
 **Posibles respuestas del servidor de Target**:
 
