@@ -6,8 +6,8 @@ seo-title: Uso de instancias basadas en la nube con Target
 solution: Target
 title: Uso de instancias basadas en la nube con Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Los clientes de [!DNL Target] utilizan en ocasiones instancias basadas en la nub
 
 `azurewebsites.net`, `cloudapp.net`, `amazonaws.com`, `cloudfront.net`, `herokuapp.com` o `firebaseapp.com`.
 
-Estos dominios, y muchos otros, son parte de la [Lista pública de sufijos](https://publicsuffix.org/list/public_suffix_list.dat).
+Estos dominios, y muchos otros, forman parte de la lista de [Sufijos públicos](https://publicsuffix.org/list/public_suffix_list.dat).
 
 **Problema:** los navegadores modernos no guardarán las cookies si utiliza estos dominios.
 
