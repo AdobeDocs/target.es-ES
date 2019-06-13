@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -57,7 +57,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
    Las reglas de contenido determinan qué sucede si el número de artículos recomendados no completa su diseño. Por ejemplo, si el diseño tiene espacio para cinco artículos, pero los criterios hacen que solo se recomienden tres artículos, puede dejar vacío el espacio restante, o puede usar recomendaciones de copia de seguridad para completar el espacio adicional. Seleccione las conmutaciones adecuadas. Consulte [Configuración de contenido](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96).
 1. Establezca las **[!UICONTROL Reglas de inclusión]**.
 
-   Las reglas de inclusión le ayudan a reducir el número de artículos que aparecen en las recomendaciones. Consulte [ Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Seleccione la **[!UICONTROL Ubicación]** del archivo CSV.
+   Las reglas de inclusión le ayudan a reducir el número de artículos que aparecen en las recomendaciones. Consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Seleccione la **[!UICONTROL Ubicación]** del archivo CSV.
 
    El archivo CSV debe tener el formato correcto para que se pueda cargar. Haga clic en **[!UICONTROL Descargar plantilla CSV]para obtener un archivo CSV con el formato correcto.**
 
