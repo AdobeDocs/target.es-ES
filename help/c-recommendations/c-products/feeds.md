@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1ac2baf9d3fe7a84d7e65a0aec99c4bfdef613a4
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -97,7 +97,7 @@ Si tiene una fuente de producto de Google existente, puede usarlo como su archiv
 >
 >No es obligatorio usar datos de Google. [!DNL Recommendations] solo utiliza el mismo formato que Google. Puede usar este método para cargar los datos que tenga y utilizar las funciones de programación disponibles. No obstante, debe conservar los nombres de atributo predefinidos de Google al configurar el archivo.
 
-La mayoría de vendedores cargan los productos a Google para que dichos productos se muestren cuando un visitante realice una búsqueda de productos en Google. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Las fuentes de entidad se pueden enviar a [!DNL Recommendations] través [!DNL .xml][!DNL .txt], o [!DNL .tsv], y pueden utilizar [los atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
+La mayoría de vendedores cargan los productos a Google para que dichos productos se muestren cuando un visitante realice una búsqueda de productos en Google. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Las fuentes de entidades pueden enviarse a [!DNL Recommendations] por medio de [!DNL .txt], [!DNL .xml] o [!DNL .tsv] y puede utilizar los atributos [ definidos por Google](https://support.google.com/merchants/answer/188494?hl=es&amp;topic=2473824&amp;ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -186,9 +186,9 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Clasificaciones de productos Analytics   {#section_79E430D2C75443BEBC9AA0916A337E0A}
+## Clasificaciones de productos Analytics  {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de productos Analytics es la única clasificación disponible para Recommendations. Para obtener más información sobre este archivo de clasificación, consulte [Clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) en la guía de *Ayuda y referencia de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía de usuario.
+La clasificación de productos Analytics es la única clasificación disponible para Recommendations. Para obtener más información sobre este archivo de clasificación, consulte [Clasificaciones](https://marketing.adobe.com/resources/help/es_ES/reference/classifications.html) en la guía *Ayuda y referencia de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía de usuario.
 
 >[!IMPORTANT]
 >
@@ -198,7 +198,7 @@ La clasificación de productos Analytics es la única clasificación disponible 
 >* Target solo admite clasificaciones de productos. El SKU del producto de Analytics debe asignarse al mismo nivel que la entidad de Recommendations.id. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
 
 
-## Crear fuente   {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## Crear fuente  {#task_C6CD9EA905744C2CA0BB8259BB74C867}
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
@@ -250,13 +250,13 @@ recs/t_feeds_create.xml
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Después de crear o editar una fuente, esta se ejecuta de inmediato y después se actualiza según los parámetros que establezca. Se tarda un poco en mostrar toda la información. Primero es necesario sincronizar la fuente, después debe procesarse e indizarse para poder publicarla y ponerla a disposición del público. El estado actual aparece bajo   [Estado de fuente](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) en la lista Fuentes. Puede cerrar [!DNL Target] antes de que el proceso se haya completado y el proceso seguirá su curso.
+Después de crear o editar una fuente, esta se ejecuta de inmediato y después se actualiza según los parámetros que establezca. Se tarda un poco en mostrar toda la información. Primero es necesario sincronizar la fuente, después debe procesarse e indizarse para poder publicarla y ponerla a disposición del público. El estado actual aparece bajo  [Estado de fuente](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) en la lista Fuentes. Puede cerrar [!DNL Target] antes de que el proceso se haya completado y el proceso seguirá su curso.
 
 Mientras la indización está en curso, se muestran los encabezados de la fuente y los productos antes de indizar los valores individuales. Esto le permite buscar y ver productos para crear colecciones, exclusiones, diseños y actividades antes de que se haya completado el indizado.
 
 Cuando el estado indica “Correcto”, significa que el archivo se ha encontrado y se ha analizado correctamente. La información no está disponible para su uso en [!DNL Recommendations] hasta que se indexa el archivo. La tarea de indexación puede tardar bastante, en función del tamaño del archivo. Si se produce un error en el proceso, se debe a que no se encontró el archivo (por ejemplo, utilizó una dirección URL incorrecta o unos datos de FTP incorrectos) o que se produjo un error de análisis.
 
-## Estados e indicadores de alimentación   {#concept_E475986720D1400999868B3DFD14A7A0}
+## Estados e indicadores de alimentación  {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Información sobre los posibles estados de alimentación y sus indicadores.
 
@@ -267,25 +267,25 @@ Estos son los posibles estados de una fuente:
 | Estado | Descripción |
 |--- |--- |
 | Sincronización | Los detalles de configuración de la fuente se están guardando en Target. |
-| Falló la sincronización | Los detalles de configuración de fuentes no se podían guardar en Target. Inténtelo de nuevo. |
+| Error en la sincronización | No se pudieron guardar los detalles de configuración de fuente en Target. Inténtelo de nuevo. |
 | Sin ejecución de fuente | Ha creado una fuente pero no se ha programado (la frecuencia se ha establecido en Nunca). |
 | Programado para *fecha y hora* | La fuente no se ha ejecutado, pero está programada para ejecutarse en la fecha y la hora establecidas. |
 | Esperando descarga | Target se está preparando para descargar el archivo de fuente. |
-| Descarga del archivo de fuente | Target está descargando el archivo de fuente. |
-| Importación de artículos | Target está importando elementos del archivo de fuente. Nota: Una vez que se complete este paso y se muestra &quot;Preparando actualizaciones del índice de búsqueda&quot;, se importaron los cambios a los atributos del elemento en nuestro sistema central y se reflejarán en el contenido de recomendaciones entregado devuelto por nuestros nodos de Edge geográficos en un lapso de 60 minutos. |
-| Preparación de las actualizaciones de índice de búsqueda | Target se está preparando para actualizar el índice de búsqueda del catálogo. Nota: Si se indica este estado, ya se han realizado cambios en los atributos del elemento y se reflejarán en breve en las recomendaciones enviadas, aunque aún no se hayan reflejado en la Búsqueda en catálogo. |
-| Actualización del índice de búsqueda | Target está actualizando el índice Buscar en el catálogo. Nota: Si se indica este estado, ya se han realizado cambios en los atributos del elemento y se reflejarán en breve en las recomendaciones enviadas, aunque es posible que aún no se reflejen en la Búsqueda en catálogo. |
-| Actualizaciones completadas | Target ha completado todas las actualizaciones asociadas con el archivo de fuente. |
-| Error al indexar | Error en la operación de índice. Inténtelo de nuevo. |
+| Descargando del archivo de fuente | Target está descargando el archivo de fuente. |
+| Importando elementos | Target está importando elementos del archivo de fuente. Nota: Una vez que se complete este paso y se muestre &quot;Preparando actualizaciones del índice de búsqueda&quot;, se han importado los cambios a los atributos del elemento en nuestro sistema central y se reflejarán en el contenido de recomendaciones entregado devuelto por nuestros nodos geográficos de Edge en un lapso de 60 minutos. |
+| Preparando las actualizaciones del índice de búsqueda | Target se está preparando para actualizar el índice de búsqueda del catálogo. Nota: Si se indica este estado, ya se han realizado cambios en los atributos del elemento y se reflejarán en breve en las recomendaciones enviadas, aunque aún no se hayan reflejado en la búsqueda del catálogo. |
+| Actualizando el índice de búsqueda | Target está actualizando el índice de búsqueda del catálogo. Nota: Si se indica este estado, ya se han realizado cambios en los atributos del elemento y se reflejarán en breve en las recomendaciones enviadas, aunque es posible que aún no se reflejen en la búsqueda del catálogo. |
+| Actualizaciones completadas | Target ha completado todas las actualizaciones asociadas con el archivo de fuentes. |
+| Error en la indexación | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
 | Servidor no encontrado | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
 
 Para actualizar una fuente (por ejemplo, si quiere hacer cambios en la configuración o el archivo de la fuente), ábrala, aplique los cambios y haga clic en **[!UICONTROL Guardar]**.
 
 >[!IMPORTANT]
 >
->Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuente debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recomendaciones. Si un elemento no se incluye en un archivo de fuente (u otro método de actualización de entidad) al menos una vez cada 60 días, Adobe Target deduce el elemento ya no es relevante y lo elimina del catálogo.
+>Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un elemento no se incluye en un archivo de fuentes (u otro método de actualización de entidad) al menos una vez cada 60 días, Adobe Target deduce que el elemento ya no es relevante y lo elimina del catálogo.
 
-### Indicadores de estado de fuente   {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Indicadores de estado de fuente  {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
 En la columna [!UICONTROL Estado] se muestran los siguientes indicadores de estado de fuente:
 
