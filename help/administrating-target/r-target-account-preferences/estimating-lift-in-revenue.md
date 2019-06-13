@@ -7,8 +7,8 @@ solution: Target
 title: Estimar el aumento de ingresos
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,7 +31,7 @@ Esto calcula el aumento obtenido por la experiencia ganadora y el número total 
 
 El aumento estimado en los ingresos se calcula en función de los ingresos por visita (RPV) obtenidos de la métrica del objetivo principal.
 
-El alza estimada se calcula con la fórmula siguiente: (&lt; RPV de experiencia ganadora &gt; - &lt; RPV de experiencia de control &lt;) * &lt; número total de visitantes en la actividad &gt;
+El alza estimada se calcula mediante la fórmula siguiente: (&lt;RPV de experiencia ganadora&gt; - &lt;RPV de experiencia de control&gt;)*&lt;número total de visitantes en la actividad&gt;
 
 El número resultante se redondea a un decimal, como máximo, si la forma corta tiene un solo dígito antes del decimal. Por ejemplo: 1,6 millones de dólares, 60 000 dólares, 900 dólares, 8500 dólares, 205 000 dólares
 
