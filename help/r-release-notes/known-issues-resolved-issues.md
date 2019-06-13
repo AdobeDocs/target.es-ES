@@ -7,8 +7,8 @@ solution: Target
 title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
-source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,21 +27,21 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 
 ### Cancelación de la carga de una página dentro del VEC {#cancel}
 
-* El siguiente problema conocido existe al cancelar la carga de una prueba [!UICONTROL A/B] o de Segmentación [!UICONTROL de experiencias] (XT) dentro del VEC que contiene una dirección URL de redireccionamiento.
+* El siguiente problema conocido aparece al cancelar la carga de una [!UICONTROL prueba A/B] o de [!UICONTROL segmentación de experiencias] (XT) dentro del VEC que contiene una dirección URL de redireccionamiento.
 
-   En el paso uno del flujo de trabajo guiado de tres partes dentro del VEC, al cancelar la carga de página, se muestra el [!UICONTROL panel Modificaciones] del VEC y se aplica la redirección a la plantilla URL en la experiencia (por ejemplo, &quot;Experiencia B). Cuando avanza hacia los pasos dos o tres y regresa al paso uno, se produce la siguiente situación.
+   En el primer paso del flujo de trabajo guiado en tres partes dentro del VEC, al cancelar la carga de la página, se muestra el panel [!UICONTROL Modificaciones] del VEC y se aplica la redirección a la plantilla URL en la experiencia (por ejemplo, &quot;Experiencia B&quot;). Cuando avanza hacia los pasos dos o tres y, después, regresa al paso uno, se produce la siguiente situación.
 
-   En «Experiencia B», de forma predeterminada, el sitio web cancelado carga la plantilla y el panel [!UICONTROL Modificaciones] es accesible, lo cual no debería ser el caso porque esta experiencia tiene una redirección a la plantilla URL aplicada. Debería mostrarse el redireccionamiento a la plantilla URL.
+   De forma predeterminada, en la &quot;Experiencia B&quot;, se representa la plantilla de carga del sitio web cancelado y el panel [!UICONTROL Modificaciones] es accesible, lo cual no debería ser el caso porque esta experiencia tiene una redirección a la plantilla URL aplicada. Debería aparecer el redireccionamiento a la plantilla URL.
 
    Para mostrar el estado correcto de la experiencia en el VEC:
 
-   Si cambia a otra experiencia y vuelve a la «Experiencia B» [!DNL Target] , muestra la redirección a la plantilla URL aplicada a esta experiencia y el panel [!UICONTROL Modificaciones] no es accesible. (TGT-32138)
+   Si cambia a otra experiencia y vuelve a la Experiencia B, [!DNL Target] muestra la redirección a la plantilla URL aplicada a esta experiencia y el panel [!UICONTROL Modificaciones] no es accesible. (TGT-32138)
 
-* Para los sitios Web de aplicación de una sola página, la cancelación de la carga no permite editar acciones en el panel [!UICONTROL Modificaciones] .
+* Para los sitios web de aplicación de una sola página, la cancelación de la carga no permite editar acciones en el panel [!UICONTROL Modificaciones].
 
-### Compatibilidad con permisos de Enterprise en API de Target {#api}
+### Compatibilidad con permisos de Enterprise en las API de Target {#api}
 
-Es posible que las ofertas de código creadas desde la interfaz de usuario de Target en la biblioteca de ofertas se muestren en el espacio de trabajo predeterminado si se recupera la lista de ofertas mediante GET API. Este problema se solucionará en la primera semana de marzo de 2019. Una vez colocada la corrección, las ofertas de código se mostrarán en el espacio de trabajo apropiado cuando se extraigan de las API. Este problema *no* afecta a las ofertas creadas a partir de las API. Por ejemplo, las ofertas de código creadas a partir de API se muestran en el espacio de trabajo en el que fueron creadas, ya sea mediante API GET o desde la interfaz de usuario de Target.
+Es posible que las ofertas de código creadas desde la interfaz de usuario de Target en la biblioteca de ofertas se muestren en el espacio de trabajo predeterminado si se recupera la lista de ofertas mediante las API de GET. Este problema se solucionará en la primera semana de marzo de 2019. Una vez solucionado el problema, las ofertas de código se mostrarán en el espacio de trabajo apropiado cuando se extraigan de las API. Este problema *no* afecta a las ofertas creadas a partir de las API. Por ejemplo, las ofertas de código creadas a partir de las API se muestran en el espacio de trabajo en el que fueron creadas, ya sea mediante la API de GET o desde la interfaz de usuario de Target.
 
 ### Recommendations
 
@@ -70,7 +70,7 @@ En una actividad MVT, el ganador que se muestra en la tabla y en el gráfico no 
 
 A continuación, detallamos los problemas conocidos de at.js:
 
-* Cuando se carga una página en el Compositor de experiencias visuales (VEC), Target debe determinar si la configuración de mbox global está habilitada o deshabilitada, y si entityID o categoryID están presentes en la ubicación donde el usuario intenta aplicar las recomendaciones del VEC. La lista de criterios se filtra en función de esta información. La lista predeterminada tiene filtrados algunos algoritmos, pero la [casilla Compatible](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) le permite ver la lista de algoritmos completa.
+* Cuando se carga una página en el Compositor de experiencias visuales (VEC), Target debe determinar si la configuración de mbox global está habilitada o deshabilitada, y si entityID o categoryID están presentes en la ubicación donde el usuario intenta aplicar las recomendaciones del VEC. La lista de criterios se filtra en función de esta información. La lista predeterminada tiene algoritmos filtrados, pero [la casilla de verificación compatible](https://marketing.adobe.com/resources/help/es_ES/target/recs/t_algo_select_recs.html) permite ver la lista de algoritmos completa.
 
    Al usar at.js, la casilla Compatibilidad queda oculta, por lo que no puede ver los algoritmos no compatibles.
 
@@ -129,13 +129,13 @@ A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán
 * Cuando se aplica la deduplicación automática después de crear grupos de exclusión, el recuento del diagrama de la actividad en la interfaz de usuario podría ser incorrecto.
 * Cuando se edita una actividad existente con grupo de exclusión, las inclusiones manuales pueden no reflejarse correctamente en la interfaz.
 
-Se resolvieron estos problemas.
+Se han resuelto estos problemas.
 
 ### API de Target
 
 La versión v1 de las API de oferta en Adobe I/O trata todas las ofertas creadas a través de Target para que estén en el espacio de trabajo predeterminado. (TTTEAM-41957)
 
-Este problema se resolvió.
+Se ha resuelto este problema.
 
 ### at.js
 
