@@ -7,8 +7,8 @@ solution: Target
 title: Fragmentos de experiencia de AEM
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,15 +27,15 @@ Información sobre el uso de fragmentos de experiencia creados en Adobe Experien
 
 ## Información general {#section_95A91830530F493B81C5C9CDB9B783EA}
 
-El empleo en actividades de Target de fragmentos de experiencia creados en AEM le permite combinar la facilidad de uso y la potencia de AEM con potentes capacidades de Inteligencia automatizada (AI) y Aprendizaje automático (ML) en Target para probar y personalizar experiencias a escala. 
+El empleo en actividades de Target de fragmentos de experiencia creados en AEM le permite combinar la facilidad de uso y la potencia de AEM con potentes capacidades de Inteligencia automatizada (AI) y Aprendizaje automático (ML) en Target para probar y personalizar experiencias a escala.
 
 AEM aúna todos sus contenidos y recursos en una ubicación centralizada que potencia su estrategia de personalización. AEM le permite crear fácilmente contenido para equipos de escritorio, tabletas y dispositivos móviles en una misma ubicación y sin tener que escribir código. No es necesario crear páginas para cada dispositivo: AEM ajusta automáticamente la experiencia empleando su contenido.
 
-Target le permite ofrecer experiencias personalizadas a escala empleando una combinación de enfoques de aprendizaje automático basados en reglas y dirigidos por AI que incorporan variables de comportamiento, contextuales y sin conexión. Target le permite configurar y ejecutar fácilmente actividades A/B y multivariable (MVT) para determinar las mejores ofertas, contenidos y experiencias.
+Target le permite ofrecer experiencias personalizadas a escala empleando una combinación de enfoques de aprendizaje automático basados en reglas y dirigidos por AI que incorporan variables de comportamiento, contextuales y sin conexión.  Target le permite configurar y ejecutar fácilmente actividades A/B y multivariable (MVT) para determinar las mejores ofertas, contenidos y experiencias.
 
 Los fragmentos de experiencia representan un enorme paso adelante en el vínculo entre, por un lado, los creadores y gestores de contenido/experiencia y, por otro, los profesionales de la optimización y la personalización que dirigen mediante Target los resultados del negocio.
 
-## Requisitos   {#section_AE6F0971E1574B3AA324003599B96E5A}
+## Requisitos  {#section_AE6F0971E1574B3AA324003599B96E5A}
 
 Debe contar con la funcionalidad de fragmentos de experiencia dentro de Target. Además, debe utilizar AEM 6.3 con el Service Pack apropiado o AEM 6.4 (o posterior). El representante de cuentas puede ayudar a garantizar el cumplimiento de los requisitos para usar esta función:
 
@@ -52,15 +52,15 @@ Para utilizar fragmentos de experiencia de AEM en Target, debe realizar los sigu
 
 Para obtener más información, consulte:
 
-* **AEM 6.3:**[Participar en Adobe Analytics y Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) en la documentación de _Adobe Experience Manager 6.3_.
-* **AEM 6.4:**[Participar en Adobe Analytics y Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) en la documentación de _Adobe Experience Manager 6.4_.
+* **AEM 6.3:** [Desactivación en Adobe Analytics y Adobe Target](https://helpx.adobe.com/es/experience-manager/6-3/sites/administering/using/opt-in.html) en la documentación de _Adobe Experience Manager 6.3_.
+* **AEM 6.4:** [Desactivación en Adobe Analytics y Adobe Target](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/opt-in.html) en la documentación de _Adobe Experience Manager 6.4_.
 
 ### Paso 2: Crear el fragmento de experiencia
 
 Los fragmentos de experiencia se crean en AEM. Para obtener más información, consulte:
 
-* **AEM 6.3:**[Fragmentos de Experiencia](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) en la documentación de *Adobe Experience Manager 6.3*.
-* **AEM 6.4:**[Fragmentos de Experiencia](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) en la documentación de *Adobe Experience Manager 6.4*.
+* **AEM 6.3:** [Fragmentos de experiencia](https://helpx.adobe.com/es/experience-manager/6-3/sites/authoring/using/experience-fragments.html) en la documentación de *Adobe Experience Manager 6.3*.
+* **AEM 6.4:** [Fragmentos de Experiencia](https://helpx.adobe.com/es/experience-manager/6-4/sites/authoring/using/experience-fragments.html) en la documentación de *Adobe Experience Manager 6.4*.
 
 ### Paso 3: Configurar AEM para que comparta el fragmento de experiencia con Target
 
@@ -102,7 +102,7 @@ Después de realizar las tareas anteriores, el fragmento de experiencia se muest
 >
 >El fragmento de experiencia se importa a Target como una oferta HTML. Tenga en cuenta que la versión del fragmento de experiencia “maestro” permanece en AEM. No puede editar el fragmento de experiencia en Target.
 
-Puede situar el cursor sobre un fragmento de experiencia en la lista y luego hacer clic en el icono Ver ( ![](assets/icon_info.png)
+Puede situar el cursor sobre un fragmento de experiencia en la lista y luego hacer clic en el icono Ver (![](assets/icon_info.png)
 
 ) para ver información adicional sobre el fragmento de experiencia, incluida su dirección URL de entrega de oferta pública, su ruta de AEM y un vínculo para abrir el fragmento de experiencia dentro de AEM.
 
@@ -114,7 +114,7 @@ Puede consumir fragmentos de experiencia en actividades de Target empleando el C
 
 **Para consumir fragmentos de experiencia usando el VEC:**
 
-1. En Target, mientras crea o edita una experiencia en el   [Compositor de experiencias visuales](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), haga clic en la ubicación de la página donde desea insertar contenido AEM y, a continuación, seleccione **[!UICONTROL Intercambiar con fragmento de experiencia]** para mostrar la lista [!UICONTROL Elegir un fragmento de experiencia].
+1. En Target, mientras crea o edita una experiencia en el  [Compositor de experiencias visuales](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), haga clic en la ubicación de la página donde desea insertar contenido AEM y, a continuación, seleccione **[!UICONTROL Intercambiar con fragmento de experiencia]** para mostrar la lista [!UICONTROL Elegir un fragmento de experiencia].
 
    >[!NOTE]
    >
@@ -139,7 +139,7 @@ Puede consumir fragmentos de experiencia en actividades de Target empleando el C
 
 **Para consumir fragmentos de experiencia usando el Compositor de experiencias basadas en formularios:**
 
-1. En Target, mientras crea o edita una experiencia en el   [Compositor de experiencias basadas en formularios](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), seleccione la ubicación de la página donde desea insertar contenido AEM y, a continuación, seleccione **[!UICONTROL Cambiar fragmento de experiencia]** para mostrar la lista [!UICONTROL Elegir un fragmento de experiencia].
+1. En Target, mientras crea o edita una experiencia en el  [Compositor de experiencias basadas en formularios](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), seleccione la ubicación de la página donde desea insertar contenido AEM y, a continuación, seleccione **[!UICONTROL Cambiar fragmento de experiencia]** para mostrar la lista [!UICONTROL Elegir un fragmento de experiencia].
 
    ![](assets/experience_fragment_list.png)
 
@@ -150,4 +150,4 @@ Puede consumir fragmentos de experiencia en actividades de Target empleando el C
 
 ## Vídeo de formación: Uso de Fragmentos de experiencia de AEM con Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
 
-El siguiente vídeo muestra cómo se configuran y utilizan los fragmentos de experiencia: [Uso de fragmentos de experiencia AEM con Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html).
+El siguiente vídeo muestra cómo configurar y utilizar fragmentos de experiencia: [Uso de Fragmentos de experiencia de AEM con Adobe Target](https://helpx.adobe.com/es/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html).
