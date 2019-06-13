@@ -8,8 +8,8 @@ subtopic: Primeros pasos
 title: Navegadores admitidos
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
-translation-type: tm+mt
-source-git-commit: 17064ec4b3816f040f17277f5efc81f4eec9a3cc
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -41,7 +41,7 @@ La entrega de contenido se ha probado en los siguientes navegadores y dispositiv
 
 Para implementaciones de [!DNL at.js], [!DNL Target] muestra el contenido predeterminado en versiones anteriores de Internet Explorer y, posiblemente, en versiones anteriores de los exploradores enumerados anteriormente. Para implementaciones de [!DNL mbox.js], [!DNL Target] intenta reproducir contenido, aunque podría no tener éxito.
 
-[!DNL Target] muestra el contenido predeterminado en navegadores que no aparecen enumerados anteriormente y en navegadores que utilicen [quirks mode](https://en.wikipedia.org/wiki/Quirks_mode). at.js requiere un tipo de documento que se muestre en modo estándar, por ejemplo: `<!DOCTYPE html>`.
+[!DNL Target] muestra el contenido predeterminado en exploradores que no aparecen enumerados anteriormente y en los exploradores que usan la técnica [quirks mode](https://es.wikipedia.org/wiki/Quirks_Mode). at.js requiere un tipo de documento que se muestre en modo estándar, por ejemplo: `<!DOCTYPE html>`.
 
 >[!NOTE]
 >
