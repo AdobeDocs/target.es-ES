@@ -8,8 +8,8 @@ title: Informes Resumen de Personalización automatizada
 title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 badge: premium
-translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,13 +34,13 @@ Hay informes especializados disponibles para los usuarios de Personalización au
 
 [!UICONTROL Personalización automatizada] ofrece los siguientes informes:
 
-## Informe Nivel de actividad   {#section_6F72FC5C790B4492B3DCECBFFA971337}
+## Informe Nivel de actividad  {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
 El informe [!UICONTROL Nivel de actividad] compara el rendimiento global del uso de un algoritmo de [!UICONTROL Personalización automatizada] para el contenido suministrado de manera aleatoria (control).
 
 ![](assets/box_plot_ap.jpg)
 
-Las reglas estándar de interpretación de resultados para prueba A/B aún se aplican, incluidos alza, confianza, tendencias, duración, etc. Para obtener más información sobre interpretación de resultados, consulte   [Acerca de la tasa de conversión](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+Las reglas estándar de interpretación de resultados para prueba A/B aún se aplican, incluidos alza, confianza, tendencias, duración, etc. Para obtener más información sobre interpretación de resultados, consulte  [Acerca de la tasa de conversión](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
 
 ## Informe Nivel de oferta {#section_CAA6409879E349C6906E2BE8156D87A1}
 
