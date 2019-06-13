@@ -7,8 +7,8 @@ solution: Target
 title: 'Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,11 +33,11 @@ Su implementación debe cumplir los siguientes requisitos mínimos:
 
 Las tres bibliotecas deben incluirse en la página con la oferta de redireccionamiento y en aquella a la que se redireccione al visitante.
 
-## ¿Por qué algunas veces hay discrepancias de datos entre A 4 T y Analytics?
+## ¿Por qué algunas veces hay discrepancias en los datos entre A4T y Analytics?
 
-Se esperan algunas discrepancias de datos. Para obtener más información, consulte [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A 4 T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+Se esperan algunas discrepancias en los datos. Para obtener más información, consulte [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección?   {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 Existe la posibilidad de que se produzca una condición de carrera que provoque que Analytics haga una llamada de activación antes de que la redirección se ejecute en la primera página. Esto puede provocar que se cuenten tanto las vistas de página de la página original como las de la página de redirección. Como consecuencia, se cuenta una vista de página adicional en la primera página, cuando en realidad el visitante nunca “vio” esa primera página.
 
@@ -65,12 +65,12 @@ Los siguientes parámetros de cadena de consulta se asocian con las ofertas de r
 
 | Parámetro | Descripción |
 |--- |--- |
-| `adobe_mc_sdid` | El parámetro `adobe_mc_sdid` pasa los valores Supplemental Data Id (SDID) y Experience Cloud Org Id de la página predeterminada a la nueva página para que A4T “vincule“ la solicitud de Target para la página predeterminada con la solicitud de Analytic de la nueva página. |
+| `adobe_mc_sdid` | El parámetro `adobe_mc_sdid` pasa los valores Supplemental Data Id (SDID) y Experience Cloud Org Id de la página predeterminada a la nueva página para que A4T “vincule” la solicitud de Target para la página predeterminada con la solicitud de Analytic de la nueva página. |
 | `adobe_mc_ref` | El parámetro `adobe_mc_ref` pasa la dirección URL de referencia de la página predeterminada a la nueva página. Cuando se utiliza con la versión 2.1 (o posterior) de AppMeasurement.js, Analytics emplea el valor de este parámetro como dirección URL de referencia en la nueva página. |
 
 Estos parámetros se agregan automáticamente a las direcciones URL de redireccionamiento al utilizar las ofertas de redireccionamiento integradas en el Compositor de experiencias visuales y el Compositor de experiencias basado en formularios cuando se implementa en la página el servicio Visitor Id. Si está utilizando código personalizado de redireccionamiento en VEC o el Compositor de experiencias basado en formularios, debe asegurarse de pasar estos parámetros junto al código personalizado.
 
-## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Debe trabajar junto a su equipo de TI para que los parámetros (`adobe_mc_sdid` y `adobe_mc_ref`) resulten admitidos.
 
@@ -90,7 +90,7 @@ Se recomienda hablar con el equipo de TI para asegurar que `adobe_mc_ref` y `ado
 
 ## ¿Por qué se debe pasar la dirección URL de referencia a la nueva página?{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Supongamos que un visitante hace clic en [!DNL `www.google.com`] en un vínculo a su página de inicio ( [!DNL `www.mysite.com/index.html]`), y que una actividad de redireccionamiento en dicha página lo redirige a una nueva página ( [!DNL `www.mysite.com/index2.html`]).
+Supongamos que un visitante hace clic en [!DNL `www.google.com`] en un vínculo a su página de inicio ([!DNL `www.mysite.com/index.html]`), y que una actividad de redireccionamiento en dicha página lo redirige a una nueva página ([!DNL `www.mysite.com/index2.html`]).
 
 Anteriormente, la solicitud de [!DNL Analytics] para la nueva página informaría de que la dirección URL de referencia es [!DNL `www.mysite.com/index.html`], no [!DNL `www.google.com`]. Este comportamiento provocaba informes imprecisos en [!DNL Analytics] en cuanto a las direcciones URL de referencia (por ejemplo, en los informes de canales de mercadotecnia). No se reflejaba el hecho de que se había llegado al sitio desde [!DNL `www.google.com`].
 
