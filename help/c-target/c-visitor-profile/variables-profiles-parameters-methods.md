@@ -7,8 +7,8 @@ solution: Target
 title: Glosario de perfiles y variables
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
-translation-type: tm+mt
-source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,13 +22,13 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | Perfil | Notas |
 |--- |--- |
 | user.activeActivities<br>user.activeCampaigns | Devuelven el ID de campaña de todas las campañas o actividades en las que se encuentra el usuario aunque este no haya interactuado con la campaña o actividad en cuestión durante la sesión actual. |
-| user.pcId |
-| user.sessionId |
-| user.categoryAffinity |
+| user.pcId |  |
+| user.sessionId |  |
+| user.categoryAffinity |  |
 | user.categoryAffinities | Devuelve una matriz de afinidades que ha rellenado el visitante |
-| user.isFirstSession |
-| user.isNewSession |
-| user.daysSinceLastVisit |
+| user.isFirstSession |  |
+| user.isNewSession |  |
+| user.daysSinceLastVisit |  |
 | user.browser | El agente de usuario |
 | user.header | Todos los perfiles `user.header` están integrados en los datos de encabezado de las peticiones de mbox |
 | user.header(&#39;x-cluster-client-ip&#39;) | La dirección IP pública de la conexión de red en que se encuentra el visitante.<br>Se puede consultar de varias maneras, por ejemplo, usando [whatismyip.com](https://www.whatismyip.com/). La dirección IP no es la dirección NAT (dirección interna), que empieza por 10., 192.168. o 172. |
@@ -40,16 +40,16 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | user.header(&#39;accept&#39;) | Idioma del visitante y codificación de caracteres |
 | user.header(&#39;connection&#39;) | Conexión del servidor. Por ejemplo: keep-live |
 | user.header(&#39;referrer&#39;) | Dirección URL del sitio web de la página actual del visitante. No funciona con Internet Explorer. |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.get(&#39;param_name&#39;) |
+| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.get(&#39;param_name&#39;) |  |
 | user.parameter | Atributos de perfil persistentes creados desde scripts de perfil. También hace referencia a perfiles del “sistema” como la geolocalización, el recuento de visitas, etc. |
-| profile.get(&#39;param_name&#39;) |
-| profile.param(&#39;param_name&#39;); |
-| profile.parameter(&#39;parameter_name&#39;); | Los parámetros de mbox que se vuelven persistentes debido a su prefijo perfil.  prefijo. |
+| profile.get(&#39;param_name&#39;) |  |
+| profile.param(&#39;param_name&#39;); |  |
+| profile.parameter(&#39;parameter_name&#39;); | Los parámetros de mbox que se vuelven persistentes debido a su prefijo perfil.   |
 | profile.browserTime | La hora local del navegador del visitante. Para la hora del sistema, cree un nuevo objeto de fecha en la secuencia de comandos del perfil |
-| profile.averageDaysBetweenVisits |
-| profile.sessionCount |
+| profile.averageDaysBetweenVisits |  |
+| profile.sessionCount |  |
 | parameter= | Término genérico para los valores adicionales que se transmiten con un mbox, normalmente con el formato de pares de nombre-valor. No es persistente a menos que así se defina con `profile.parameter` o `user.parameter`. |
 
 ## Variables URL {#section_8F25958273164EBAA6DC659302993FD3}
@@ -80,11 +80,11 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 
 | Variable | Notas |
 |--- |--- |
-| `mbox.name` |
-| mbox.param(&#39;param_name&#39;) |
+| `mbox.name` |  |
+| mbox.param(&#39;param_name&#39;) |  |
 | Parámetros que se transfieren automáticamente en todas las peticiones<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | Parámetros transferidos con mboxes de pedidos:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | Un parámetro de mbox para sincronizar un ID de cliente con el mboxPCID de Target. Un ID de cliente es un ID que su empresa usa para rastrear los visitantes, como pueden ser un ID de administración de la relación con los clientes, un ID de pertenencia u otro similar. A continuación, ese ID se puede usar para agregar información a través de las API de perfil y   [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
+| mbox3rdPartyId | Un parámetro de mbox para sincronizar un ID de cliente con el mboxPCID de Target. Un ID de cliente es un ID que su empresa usa para rastrear los visitantes, como pueden ser un ID de administración de la relación con los clientes, un ID de pertenencia u otro similar. A continuación, ese ID se puede usar para agregar información a través de las API de perfil y  [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | En cada llamada de mbox, la página se asigna a un valor. |
 | mboxDebug | Solo se utiliza para información de depuración. Se añade a la URL de la página donde el mbox.js lo busca. |
 | mboxOverride.browserIp | Establece una configuración geográfica distinta a la ubicación actual para realizar pruebas.<br>**Nota:** Los parámetros mboxOverride solo deben utilizarse al probar la actividad, y no en la fase de producción. El uso de cualquier parámetro mboxOverride puede provocar discrepancias en los informes al usar [Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilice el [modo de control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) durante las pruebas para asegurarse de que la actividad funciona del modo esperado antes de insertarla en su entorno activo. |
