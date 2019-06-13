@@ -8,8 +8,8 @@ subtopic: Prueba multivariable
 title: Minimización de los recuentos inflados de visitas y visitantes en A4T
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
-translation-type: tm+mt
-source-git-commit: 95bd08b08591fdedfe2c3e17ad6da480de9d49ae
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -49,19 +49,19 @@ Estas son algunas de las causas que se han identificado para los datos parciales
 * **Desalineación de ID de grupos de informes (implementación):** el grupo de informes especificado durante la configuración de la actividad no coincide con el grupo de informes de la página en la que se realiza la prueba. Esto se muestra como datos parciales porque los datos no se pueden vincular a los servidores de [!DNL Analytics].
 * **Páginas lentas:** dado que las llamadas de [!DNL Target] se dan al principio de la página y las de [!DNL Analytics] se suelen dar al final, si la página se carga muy lentamente habrá más probabilidades de que un visitante salga de la página después de que se active la llamada [!DNL Target], pero antes de la llamada [!DNL Analytics]. Esto puede resultar especialmente problemático en los sitios web móviles, cuya conexión suele ser más lenta.
 * **Errores de página:** si hay algún error de JavaScript o cualquier otra situación en la que no se activen los puntos de contacto (servicio Experience Cloud ID, Target y Analytics), se obtendrán datos parciales.
-* **Ofertas de redireccionamiento en[!DNL Target]la actividad:** Para redirigir ofertas en actividades que usen A 4 T, su implementación debe cumplir ciertos requisitos mínimos. Además, hay información importante que debe conocer. Para obtener más información, consulte las [preguntas más frecuentes de A4T sobre las ofertas de redireccionamiento](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
+* **Redirección de ofertas en actividad[!DNL Target]:** para redireccionar ofertas en actividades que utilizan A4T, su implementación debe satisfacer ciertos requisitos mínimos. Además, hay información importante que debe conocer. Para obtener más información, consulte las [preguntas más frecuentes de A4T sobre las ofertas de redireccionamiento](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
 * **Versiones antiguas de bibliotecas:** a lo largo del último año Adobe ha realizado algunas mejoras en las bibliotecas JavaScript ([!DNL appMeasurement.js], `at.js/mbox.js` y `visitorAPI.js`) para garantizar que los datos se envían de la manera más eficiente posible. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Prácticas recomendadas para reducir la cantidad de datos parciales {#section_065C38501527451C8058278054A1818D}
 
 Revise los siguientes pasos con el fin de reducir la recopilación de datos parciales:
 
-| Paso   | Tarea |
+| Paso | Tarea |
 | --- | --- |
 | ![Paso 1](assets/step1_icon.png) | Asegúrese de que el grupo de informes seleccionado en [!DNL Target] coincide con el de la página en la que se mostrará la actividad. |
-| ![Paso 2](assets/step2_icon.png) | Asegúrese de que visitorapi.js, appMeasurement.js y bibliotecas at.js/mbox.js estén en versiones compatibles con A4T. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
+| ![Paso 2](assets/step2_icon.png) | Asegúrese de que visitorAPI.js, appMeasurement.js y bibliotecas at.js/mbox.js estén en versiones compatibles con A4T. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Paso 3](assets/step3_icon.png) | Compruebe que se define el SDID en todas las llamadas de [!DNL Target] y [!DNL Analytics] que salen de la página y que coinciden.<br/>Para ello, utilice un analizador de redes o una herramienta de depuración con el fin de garantizar que el parámetro `mboxMCSDID` de las llamadas de [!DNL Target] coincide con el parámetro SDID de la llamada de [!DNL Analytics]. |
-| ![Paso 4](assets/step4_icon.png) | Confirme que las bibliotecas de implementación se cargan en el orden correcto en sus sitios. Para obtener más información, consulte   [Implementación de Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| ![Paso 4](assets/step4_icon.png) | Confirme que las bibliotecas de implementación se cargan en el orden correcto en sus sitios. Para obtener más información, consulte  [Implementación de Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Ver la cantidad de datos parciales guardada {#section_89B663E2824A4805AB934153508A0F4B}
 
@@ -73,11 +73,11 @@ Dado que este cambio de procesamiento solo afecta a los datos a partir de la fec
 
 La siguiente información, relacionada con este cambio, incluye instrucciones que le ayudarán a definir el segmento y aplicarlo a un grupo de informes virtuales, de modo que el segmento siempre se aplique en sus visualizaciones de [!DNL Analytics].
 
-En la mayoría de los casos, una visita de [!DNL Target] se vincula con una visita de [!DNL Analytics] en cada página web. La vinculación se realiza si aparece un SDID consistente en ambas llamadas de [!DNL Target] y [!DNL Analytics] y si hay un [!DNL Experience Cloud ID] (MCID) en la llamada de [!DNL Analytics] en la misma página. Normalmente, [!DNL Target] también tiene el MCID, pero si la llamada a [!DNL Target] se realiza antes de que regrese el ID del visitante, la visita se vinculará debido al SDID. Además, el usuario debe permanecer en la página el tiempo suficiente para activar [!DNL Analytics] una llamada después de activar [!DNL Target]una llamada. Esta es la situación ideal.
+En la mayoría de los casos, una visita de [!DNL Target] se vincula con una visita de [!DNL Analytics] en cada página web. La vinculación se realiza si aparece un SDID consistente en ambas llamadas de [!DNL Target] y [!DNL Analytics] y si hay un [!DNL Experience Cloud ID] (MCID) en la llamada de [!DNL Analytics] en la misma página. Normalmente, [!DNL Target] también tiene el MCID, pero si la llamada a [!DNL Target] se realiza antes de que regrese el ID del visitante, la visita se vinculará debido al SDID. Además, el usuario debe permanecer en la página el tiempo suficiente para que se active una llamada de [!DNL Analytics] después de que se active una llamada de [!DNL Target]. Esta es la situación ideal.
 
 **Visitas de datos parciales:** a veces los usuarios no permanecen en una página el tiempo suficiente para que se envíe una llamada de [!DNL Analytics], pero [!DNL Target] tiene el MCID adecuado. Esto provoca la aparición de visitas de datos parciales (visitas sin visualizaciones de página de [!DNL Analytics]). Si estos usuarios vuelven al sitio y ven una página que contenga código de [!DNL Analytics], se contarán debidamente como visitantes que repiten. Estas son visitas que se habrían perdido si solo existiera código de [!DNL Analytics] en la página. Algunos clientes no quieren datos para estas visitas porque inflan algunas métricas (visitas) y desinflan otras (visualizaciones de la página por visita, tiempo por visita, etc.). También verá visitas que no tengan ninguna visualización de página. Sin embargo, existen varios motivos para conservar estos datos.
 
-Para minimizar las visitas de datos parciales, puede hacer que su página se cargue más rápido, actualizar las bibliotecas a la versión más reciente o crear un [grupo de informes virtuales](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html) que excluya esas visitas. Puede consultar las instrucciones paso a paso en [Creación de grupos de informes virtuales](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html), en la documentación del producto de [!DNL Analytics].
+Para minimizar las visitas de datos parciales, puede hacer que su página se cargue más rápido, actualice las bibliotecas a la versión más reciente o cree un [grupo de informes virtuales](https://marketing.adobe.com/resources/help/es_ES/reference/index.htmlvirtual-report-suites) que excluya esas visitas. Para obtener instrucciones paso a paso, consulte [Creación de grupos de informes virtuales](https://marketing.adobe.com/resources/help/es_ES/reference/vrs-create.html) en la documentación del producto[!DNL Analytics].
 
 En la siguiente ilustración se muestra la definición de un segmento para el grupo de informes virtuales:
 
@@ -86,7 +86,7 @@ En la siguiente ilustración se muestra la definición de un segmento para el gr
 Cuando cree un grupo de informes virtuales, especifique la siguiente configuración para la definición del segmento (tal y como se muestra en la ilustración anterior):
 
 * **Mostrar visitas:**
-* Analytics for Target: existe 
+* Analytics for Target: existe
 * Y
 * Visualizaciones de página: no existe
 * Y
@@ -96,9 +96,9 @@ Cuando cree un grupo de informes virtuales, especifique la siguiente configuraci
 * Y
 * Instancias de vínculos de salida: no existe
 
-**Visitas huérfanas:** En menos casos, los usuarios no permanecen en la página el tiempo suficiente para una llamada de Analytics y Target no obtuvo el MCID adecuado. Estas se denominan visitas “huérfanas”. Estas visitas representan a los clientes que raramente regresan e inflan indebidamente los recuentos de visitas y visitantes.
+**Visitas huérfanas:** con menor frecuencia, los usuarios no permanecen en la página el tiempo suficiente para que se realice la llamada de Analytics y, además, Target no tiene un MCID apropiado. Estas se denominan visitas “huérfanas”. Estas visitas representan a los clientes que raramente regresan e inflan indebidamente los recuentos de visitas y visitantes.
 
-Para minimizar estas visitas &quot;huérfanas&quot;, puede crear un [grupo de informes virtuales](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) que las excluya, tal y como hemos explicado.
+Para minimizar estas visitas “huérfanas” puede crear un [grupo de informe virtual](https://marketing.adobe.com/resources/help/es_ES/reference/vrs-create.html) que excluya esas visitas, tal y como se explica más arriba.
 
 ## Consecuencias para los informes de [!DNL Target] {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
