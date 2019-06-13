@@ -7,8 +7,8 @@ solution: Target
 title: Crear ofertas de redireccionamiento
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,7 +21,7 @@ Es posible que tenga dos páginas completamente distintas para probarlas, en lug
 
 >[!NOTE] {class=&quot;- topic/note &quot;}
 >
->No se pueden usar las ofertas de redireccionamiento en los mboxes de Ajax ( `mboxUpdate`).
+>No se pueden usar las ofertas de redireccionamiento en los mboxes de Ajax (`mboxUpdate`).
 
 >[!NOTE]
 >
@@ -60,11 +60,11 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 >
 >Consulte con su asesor de implementación antes de iniciar estas pruebas.
 
-## Vídeo de capacitación: El repositorio de contenido (4:56)
+## Vídeo de formación: El repositorio de contenido (4:56)
 
 Este vídeo incluye información sobre la administración de contenido.
 
-* Conexión entre la [biblioteca de activos de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) y la biblioteca de contenido de Target
+* Conexión entre [Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/es_ES/mcloud/creative_cloud.html) y la biblioteca de contenido de Target
 * Ofertas HTML personalizadas
 * Oferta HTML personalizada en el Compositor de experiencias visuales
 
