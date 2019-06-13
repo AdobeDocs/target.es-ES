@@ -4,8 +4,8 @@ seo-description: Información sobre cómo implementar de forma segura at.js en u
 seo-title: Implementar at.js en un entorno que no sea de producción
 title: Implementar at.js en un entorno que no sea de producción
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
-translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Si usa DTM, puede guardar fácilmente at.js en la configuración de herramienta 
 
 Una vez que haya guardado la biblioteca, use la herramienta de cambio de DTM para probarla con su código de producción. Esto también facilitará que los consultores de Adobe le proporcionen soporte técnico.
 
-Para obtener más información, consulte [Opción 3: Implementar Target manualmente con la biblioteca de JavaScript de Target alojada en DTM](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) en la guía _Prácticas recomendadas para implementar Adobe Target mediante Dynamic Tag Management_.
+Para obtener más información, consulte [Opción 3: Implemente Target manualmente con la biblioteca JavaScript de Target alojada en DTM](https://marketing.adobe.com/resources/help/es_ES/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) en la guía _Prácticas recomendadas para implementar Adobe Target mediante Dynamic Tag Management_.
 
 ## Usar la extensión “Requestly” de Chrome para asignar a otro archivo
 
@@ -28,7 +28,7 @@ Para obtener más información, consulte [Opción 3: Implementar Target manualme
 >
 >Además de la siguiente información, puede utilizar la [extensión del explorador Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para Google Chrome.
 
-[Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) es una extensión gratuita de Chrome que le permite redirigir las solicitudes a una URL alternativa.
+[A petición,](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=es) es una extensión gratuita de Chrome que permite redirigir las solicitudes a una URL alternativa.
 
 Se implementa at.js en una dirección URL y luego se usa Requestly para asignar la dirección URL del archivo mbox.js actual a la nueva dirección URL de at.js. A continuación, cada vez que el sitio web intente cargar mbox.js, cargará at.js en su lugar. Este enfoque también facilita que Adobe proporcione soporte técnico.
 
