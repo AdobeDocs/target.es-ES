@@ -7,8 +7,8 @@ solution: Target
 title: Resolución de problemas de actividades
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
-translation-type: tm+mt
-source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -85,7 +85,7 @@ Una vez que se lo agrega como usuario en Target, necesita tener la función Apro
 
 * Recompile la actividad.
 
-Para obtener más información sobre el modo en que las modificaciones de la página afectan a la capacidad de visualización de Target, consulte   [Escenarios de modificación de página](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para obtener más información sobre el modo en que las modificaciones de la página afectan a la capacidad de visualización de Target, consulte  [Escenarios de modificación de página](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## La estructura de la página se modifica durante la carga de la página (en tiempo de ejecución).
 
@@ -98,7 +98,7 @@ Para obtener más información sobre el modo en que las modificaciones de la pá
 * Actualice el código de la página para que identifique de manera única cada elemento que se probará (mediante un ID).
 * Deje de modificar dinámicamente la clase o los elementos del mismo nivel como se describe más arriba.
 
-Para obtener más información sobre el modo en que las modificaciones de la página afectan a la capacidad de visualización de Target, consulte   [Escenarios de modificación de página](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para obtener más información sobre el modo en que las modificaciones de la página afectan a la capacidad de visualización de Target, consulte  [Escenarios de modificación de página](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Mbox.js está sacando todo el código subsiguiente del encabezado y lo está incluyendo en el cuerpo.
 
@@ -123,7 +123,7 @@ Para obtener más información sobre el modo en que las modificaciones de la pá
 
 ## Aparece un mensaje de error cuando elimina un script de perfil.
 
-**Validar:** al eliminar un script de perfil de Target Standard/Premium, se muestra el mensaje de error “No se ha podido eliminar el script de perfil”. 
+**Validar:** al eliminar un script de perfil de Target Standard/Premium, se muestra el mensaje de error “No se ha podido eliminar el script de perfil”.
 
 **Opciones:**
 
