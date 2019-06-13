@@ -6,8 +6,8 @@ seo-title: Nueve escollos comunes de las pruebas A/B y cómo evitarlos
 solution: Target
 title: Nueve escollos comunes de las pruebas A/B y cómo evitarlos
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -148,7 +148,7 @@ Vamos a fijarnos en la oferta para esquiar que hay abajo. Genera una CTR mucho m
 
 Para evitar este problema, supervise atentamente las métricas del negocio a fin de identificar el impacto comercial de las ofertas o, mejor aún, use una métrica que se aproxime más al objetivo comercial (si es posible).
 
-## Conclusión: Reconocer y sortear los escollos es la clave para tener éxito en las pruebas A/B   {#section_54D33248163A481EBD4421A786FE2B15}
+## Conclusión: Reconocer y sortear los escollos es la clave para tener éxito en las pruebas A/B  {#section_54D33248163A481EBD4421A786FE2B15}
 
 Ahora que ya conoce los escollos más habituales de las pruebas A/B, esperamos que sea capaz de identificar cuándo y dónde podría haber incurrido en uno de estos errores. También esperamos que ahora comprenda mejor algunos de los conceptos de estadística y probabilidad que se usan en las pruebas A/B y que, a veces, parece que solo los matemáticos pueden entender.
 
