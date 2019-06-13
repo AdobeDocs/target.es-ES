@@ -1,13 +1,13 @@
 ---
 description: Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
-keywords: Segmentación;segmentación de experiencias;XT;página de aterrizaje;campaña de página de aterrizaje
+keywords: Segmentación;segmentación de experiencias;XT;página de aterrizaje;prueba de página de aterrizaje
 seo-description: Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 seo-title: Segmentación de experiencias
 solution: Target
 title: Segmentación de experiencias
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
