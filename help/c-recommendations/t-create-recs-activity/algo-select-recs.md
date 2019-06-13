@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 badge: premium
-translation-type: tm+mt
-source-git-commit: 37ddc2858eb8088f470f87c1a6c0927cd96cc48e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,8 +32,8 @@ Si selecciona varios criterios, el tráfico se distribuye uniformemente entre lo
 1. [Cree una nueva recomendación](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) o localice la recomendación cuyos criterios quiera configurar y haga clic en **[!UICONTROL Editar]**.
 1. Seleccione un tipo de sector y un tipo de página.
 
-* **Tipo de sector:** El tipo de sector se utiliza para categorizar [!DNL Recommendations] los criterios. Para cambiar el sector predeterminado, haga clic en **[!UICONTROL Configuración]** y seleccione la opción de **Sector]predeterminada.[!UICONTROL **
+* **Tipo de sector:** el tipo de sector se usa para categorizar los criterios de [!DNL Recommendations]. Para cambiar el sector predeterminado, haga clic en **[!UICONTROL Configuración]** y seleccione la opción de **[!UICONTROL Sector]** predeterminada.
 * **Tipo de página:** el tipo de página sirve para categorizar las recomendaciones. También hay criterios integrados que se pueden elegir para cada tipo de página.
-* **Compatible:** muestra solo aquellos criterios en los que la página seleccionada pasa los datos necesarios. No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o [!DNL entity.categoryId] para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desmarque la casilla de verificación **[!UICONTROL Compatible].** Esta opción se puede activar o desactivar en las [!DNL Target] [!UICONTROL Preferencias de].
+* **Compatible:** muestra solo aquellos criterios en los que la página seleccionada pasa los datos necesarios. No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o [!DNL entity.categoryId] para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desmarque la casilla de verificación **[!UICONTROL Compatible]**. Esta opción se puede activar o desactivar en las [!DNL Target] [!UICONTROL Preferencias de].
 
 1. Haga clic en **[!UICONTROL Agregar]**.
