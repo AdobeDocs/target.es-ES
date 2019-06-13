@@ -8,7 +8,7 @@ title: Crear una prueba A/B
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -35,7 +35,7 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
 
    >[!NOTE]
    >
-   >Además del VEC y del VEC basado en formularios, Target ofrece el VEC de aplicación de una sola página y el VEC para aplicaciones móviles. Para obtener más información acerca de las diversas vecs, consulte [Experiencias y ofertas](/help/c-experiences/experiences.md).
+   >Además del Compositor de experiencias visuales y el Compositor de experiencias basadas en formularios, Target ofrece el VEC de aplicación de una sola página y el VEC para aplicaciones móviles. Para obtener más información sobre los distintos compositores, consulte [Experiencias y ofertas](/help/c-experiences/experiences.md).
 
    Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 
@@ -98,7 +98,7 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
 
    * **[!UICONTROL Manual (predeterminado)]**: Especifique el porcentaje de participantes que desea ver cada experiencia. Puede dividir los porcentajes de manera uniforme entre todas las experiencias, o especificar porcentajes superiores o inferiores para cada experiencia. El total de todas las experiencias debe ser igual al 100%.
 
-   * **[!UICONTROL Asignar automáticamente a la mejor experiencia]**: La mayoría de los participantes de la actividad se dirigen automáticamente a experiencias de mayor rendimiento. Algunos visitantes se asignan a todas las experiencias para mantener la exploración de las experiencias y para detectar cambios en las tendencias de rendimiento. Consulte   [Asignación automática del tráfico](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   * **[!UICONTROL Asignar automáticamente a la mejor experiencia]**: La mayoría de los participantes de la actividad se dirigen automáticamente a experiencias de mayor rendimiento. Algunos visitantes se asignan a todas las experiencias para mantener la exploración de las experiencias y para detectar cambios en las tendencias de rendimiento. Consulte [Asignación automática del tráfico](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
    * **[!UICONTROL Segmentación automática para experiencias personalizadas]**: Target usa algoritmos avanzados de aprendizaje automático para dirigirse automáticamente a los visitantes con la mejor experiencia a fin de maximizar sus objetivos. Para obtener más información, consulte [Segmentación automática para optimizar](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
    También puede hacer clic en **[!UICONTROL Agregar experiencia]para agregar otra experiencia a la actividad.**
