@@ -7,8 +7,8 @@ solution: Target
 title: Cómo gestiona at.js el parpadeo
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,9 +29,9 @@ La opacidad establecida en 0 mantiene el contenido de la página oculto para evi
 
 Si la opacidad 0 no funciona en su implementación, también puede gestionar el parpadeo personalizando `bodyHiddenStyle` y estableciéndolo en `body {visibility:hidden !important}`. De los valores `{opacity:0 !important` body o `body {visibility:hidden !important}`, puede utilizar el que funcione mejor para sus circunstancias específicas.
 
-La ilustración siguiente muestra las llamadas a Ocultar cuerpo y Mostrar cuerpo en at.js 1.*x* y at. js 2. x.
+La ilustración siguiente muestra las llamadas a Ocultar cuerpo y Mostrar cuerpo en at.js 1.*x* y at.js 2.x.
 
-**at. js 2. x**
+**at.js 2.x**
 
 ![Flujo de Target: Solicitud de carga de página de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -103,9 +103,9 @@ En lugar del predeterminado:
 body {opacity: 0 !important}
 ```
 
-## Administración de parpadeo en at. js 2. x para activgerview ()
+## Administración del parpadeo en at.js 2.x para triggerView()
 
-Al utilizar `triggerView()` para mostrar contenido dirigido en su SPA, la administración de parpadeo se proporciona fuera del cuadro. Esto significa que no es necesario agregar manualmente la lógica de ocultamiento previo. En su lugar, at. js 2. x oculta previamente la ubicación donde debe mostrarse la vista antes de aplicar el contenido objetivo.
+Al utilizar `triggerView()` para mostrar contenido dirigido en su SPA, la administración de parpadeo se proporciona fuera del cuadro. Esto significa que no es necesario agregar manualmente la lógica de ocultamiento previo. En su lugar, at.js 2.x oculta previamente la ubicación donde debe mostrarse la vista antes de aplicar el contenido objetivo.
 
 ## Administración del parpadeo con getOffer() and applyOffer()
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Uso de un mbox regional con mboxcreate () en At. js 1. x (no compatible con at. js 2. x)
+## Uso de un mbox regional con mboxCreate() en at.js 1.x (no admitido en at.js 2.x)
 
 Si utiliza una implementación de mbox regional, puede usar `mboxCreate()` con su página aprovisionada similar al siguiente código de ejemplo:
 
