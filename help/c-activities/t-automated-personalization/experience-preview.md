@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,7 +36,7 @@ Utilice las direcciones URL de experiencia para compartir experiencias con integ
 1. Revise y/o especifique sus URL.
 
    * Si está utilizando el Compositor de experiencias visuales (VEC), la URL predeterminada que especificó para la actividad se introduce automáticamente y se genera un vínculo para cada experiencia de la actividad. Puede cambiar esta URL y añadir otras si lo desea.
-   * Si usa el Compositor de experiencias basadas en formularios, no aparece ninguna URL predeterminada automáticamente. Si no ha creado previamente una URL de experiencia, haga clic en **Añadir nueva URL.** Debe especificar todas las URL que desea visualizar previamente, así como un nombre para cada una.
+   * Si usa el Compositor de experiencias basadas en formularios, no aparece ninguna URL predeterminada automáticamente. Si no ha creado previamente una URL de experiencia, haga clic en **Añadir nueva URL**. Debe especificar todas las URL que desea visualizar previamente, así como un nombre para cada una.
    Puede añadir varias direcciones URL, lo cual es útil cuando ejecuta una prueba de varias páginas o una prueba de plantilla y quiere previsualizar la actividad en más de una página.
 
    En una ventana modal se muestran vínculos a sus experiencias en su sitio para obtener una “auténtica vista previa” de las experiencias fuera del Compositor de experiencias visuales de Target. Debe compartir los vínculos del mensaje para compartir la vista previa. Hacer clic en un vínculo y luego copiar la dirección URL resultante desde la página no funcionará porque la dirección URL contiene un parámetro que solo muestra la página correctamente cuando entra a la página desde el vínculo en el mensaje. Copie el texto de la ventana modal y envíelo por correo electrónico en su totalidad a su equipo.
