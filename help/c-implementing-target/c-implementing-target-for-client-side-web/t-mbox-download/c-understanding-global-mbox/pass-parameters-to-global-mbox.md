@@ -8,8 +8,8 @@ subtopic: Primeros pasos
 title: Pasar parámetros a un mbox global
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
-translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,7 +32,7 @@ Puede pasar parámetros a `target-global-mbox` mediante la función `targetPageP
 * Un objeto JSON
 * Una lista delimitada por Y comerciales
 
-Use estos tres métodos para verificar que los parámetros se estén pasando correctamente. También podría verificar el paso de parámetros con [Adobe Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html).
+Use estos tres métodos para verificar que los parámetros se estén pasando correctamente. También puede verificar el paso de parámetros con [Adobe Experience Cloud Debugger](https://marketing.adobe.com/resources/help/es_ES/sc/implement/debugger.html).
 
 Debe definir la función de JavaScript antes de añadir el mbox global a la página. El nombre debe ser `targetPageParams`.
 
@@ -45,7 +45,7 @@ p1=v1&p2=v2&p3=hello%20world
 * Nombre: `targetPageParams`
 * Valor devuelto: parámetros delimitados por “&amp;”, con valores de parámetro codificados con la dirección URL.
 
-   Ejemplo:  
+   Ejemplo:
 
    En este ejemplo, p3 tiene el valor `hello world`, que está codificado con la dirección URL.
 
