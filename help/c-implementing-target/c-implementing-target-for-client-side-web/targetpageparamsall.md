@@ -1,14 +1,14 @@
 ---
-description: 'Información sobre la función targetpageparamsall () para at. js. '
+description: 'Información sobre la función targetPageParamsAll() para at.js. '
 keywords: adobe.target.notification;elemento;selector;notificación;extensión
-seo-description: Información sobre la función targetpageparamsall () para la biblioteca JavaScript de Adobe Target at. js.
-seo-title: Información sobre la función targetpageparamsall () para la biblioteca JavaScript de Adobe Target at. js.
+seo-description: Información sobre la función targetPageParamsAll() para la biblioteca JavaScript at.js de Adobe Target.
+seo-title: Información sobre la función targetPageParamsAll() para la biblioteca JavaScript at.js de Adobe Target.
 solution: Target
 subtopic: Primeros pasos
 title: targetPageParamsAll()
 topic: Standard
-translation-type: tm+mt
-source-git-commit: d60f2d193fb9e157cb64f93f76d88f97b02a76e8
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
