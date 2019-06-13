@@ -7,23 +7,23 @@ solution: Target
 title: Preguntas más frecuentes sobre mbox global
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Preguntas más frecuentes sobre mbox global{#global-mbox-frequently-asked-questions}
 
-Lista de preguntas más frecuentes sobre mboxes globales.
+Lista de las preguntas más frecuentes (FAQ) sobre los mboxes globales.
 
 ## ¿Puedo tener más de un mbox global si mi cuenta de Target está establecida en múltiples dominios?{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 Se admite un único mbox global en su cuenta.
 
-Puede limitar dónde se ejecutan sus actividades añadiéndoles reglas de URL. Para obtener más información, consulte   [Incluir la misma experiencia en páginas similares](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
+Puede limitar dónde se ejecutan sus actividades añadiéndoles reglas de URL. Para obtener más información, consulte  [Incluir la misma experiencia en páginas similares](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-También puede pasar un parámetro en la página mediante [targetpageparams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) y, a continuación, seleccionar esos parámetros en la sección «configurar URL» del Compositor de experiencias [!UICONTROL visuales] (VEC) o añadiendo los parámetros como «refinamientos» en el Compositor de experiencias basadas en formularios.
+También puede transferir un parámetro en la página utilizando [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) y, a continuación, seleccionar esos parámetros en la sección “configurar URL” del [!UICONTROL Compositor de experiencias visuales] (VEC) o añadiendo los parámetros como “refinamientos” en el Compositor de experiencias basadas en formularios.
 
 ## ¿Cómo paso los datos de ingresos en un mbox global de Target?{#section_17AEA933BADA4D169CCEDF5833C41306}
 
