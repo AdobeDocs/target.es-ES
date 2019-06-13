@@ -8,8 +8,8 @@ subtopic: Prueba multivariable
 title: Informes de A4T
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
-translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ El uso de Analytics como fuente de informes para Target (A4T) permite acceder a 
 
 Puede ver informes de las actividades tanto en Analytics como en Target Standard/Premium.
 
-Para informar sobre las prácticas recomendadas utilizando Analytics for Target, [visite esta página de Adobe Spark](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Para informar sobre las prácticas recomendadas utilizando Analytics para Target, [visite esta página de Adobe Spark](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Información general {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -34,24 +34,24 @@ Cuando se usa la operación Seleccionar y ordenar por *participantes*, solo se m
 >
 >Los informes ofrecidos por Target tienen una latencia de cuatro minutos. En el caso de las actividades ofrecidas por A4T, en los informes tanto de Target como de Analytics, después de guardar la actividad por primera vez se puede tardar hasta 24 horas en poder desglosar los datos del informe por experiencia. Los datos recopilados en esas primeras 24 horas siguen siendo precisos y se asignan a la experiencia adecuada.
 
-## Informes en Analytics   {#section_F6884872DC864AE7913587FAED4CD11C}
+## Informes en Analytics  {#section_F6884872DC864AE7913587FAED4CD11C}
 
 En Analytics, en el menú de la izquierda, haga clic en **[!UICONTROL Target]** &gt; **[!UICONTROL Actividades de Target]**. En Target, los informes de actividad muestran automáticamente los datos, las métricas y los segmentos de Analytics. Los datos aparecen en estos informes aproximadamente una hora después de recopilarlos del sitio. Todas las métricas, las audiencias y los valores de los informes proceden del grupo de informes que seleccionó cuando configuró la actividad.
 
-En Analytics, utilice el informe de Actividades de Target para ver los resultados de su actividad de Target. Los informes de Test&amp;Target (solución anterior) ofrecen información sobre las integraciones de página de estilo del antiguo complemento Test&amp;Target, pero no incluyen los datos de Analytics for Target. En el informe Actividades, puede consultar la información sobre las experiencias de Target. Haga clic en **[!UICONTROL Métricas]** y seleccione el tipo de métrica **Target[!UICONTROL .]** Hay dos métricas disponibles para el informe:
+En Analytics, utilice el informe de Actividades de Target para ver los resultados de su actividad de Target. Los informes de Test&amp;Target (solución anterior) ofrecen información sobre las integraciones de página de estilo del antiguo complemento Test&amp;Target, pero no incluyen los datos de Analytics for Target. En el informe Actividades, puede consultar la información sobre las experiencias de Target. Haga clic en **[!UICONTROL Métricas]** y seleccione el tipo de métrica **[!UICONTROL Target]**. Hay dos métricas disponibles para el informe:
 
 * **Entradas de actividad:** coincide con el número de participantes en el informe de Target.
 * **Conversiones de actividad:** coincide con el número de conversiones personalizadas en el informe de Target.
 
 >[!NOTE]
 >
->Los detalles de alza y confianza de Target también están disponibles en Analytics. Para obtener más información, consulte [Tipo de informe de alza y confianza de Target](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html) en la documentación de Adobe Analytics.
+>Los detalles de alza y confianza de Target también están disponibles en Analytics. Para obtener más información, consulte [Tipo de informe de alza y confianza](https://marketing.adobe.com/resources/help/es_ES/reference/report_target_lift_confidence.html) en la documentación de producto de Adobe Analytics.
 
 >[!IMPORTANT]
 >
 >Si el informe Actividades de Target en Analytics indica “sin especificar” en lugar de enumerar las actividades, se requiere una actualización en la cuenta aprovisionada. Póngase en contacto con el Servicio de atención al cliente para resolver este problema.
 
-## Informes en Target   {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Informes en Target  {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 Cuando se usa Analytics como fuente de informes, los informes en Target Standard muestran los datos recopilados de Analytics. El informe es algo distinto de otros informes de Target Standard:
 
@@ -68,9 +68,9 @@ Haga clic para ver el informe de Analytics completo directamente desde la págin
 
 ## Informes en Analysis Workspace {#reports-in-analysis-workspace}
 
-Puede utilizar [!DNL Adobe Analysis Workspace] para explorar en mayor profundidad y visualizar los datos o descubrir las perspectivas ocultas ocultas debajo de la superficie.
+Puede utilizar [!DNL Adobe Analysis Workspace] para profundizar y visualizar los datos o descubrir la información oculta bajo la superficie.
 
-Para obtener información y ejemplos detallados, abra [Analytics &amp; Target: Optimizaciones para el tutorial de análisis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), proporcionado por Adobe Experience League.
+Para obtener información detallada y ejemplos, abra el tutorial [Analytics y Target: Prácticas recomendadas de análisis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) proporcionado por Adobe Experience League.
 
 ## Creación de actividades {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
