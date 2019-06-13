@@ -7,8 +7,8 @@ solution: Target,Analytics
 title: Geografía
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Usuarios de Target según su ubicación geográfica, incluidos país, estado/pro
 
 Los parámetros de ubicación geográfica permiten segmentar las actividades y experiencias en función de la ubicación geográfica de los visitantes. Puede incluir o excluir a visitantes en función de su país, estado/provincia, ciudad, código postal, DMA u operador de telefonía móvil. Estos datos se envían con cada petición de mbox y se basan en la dirección IP del visitante. Seleccione estos parámetros igual que cualquier otro valor de segmentación.
 
-## Crear una audiencia con segmentación geográfica   {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
+## Crear una audiencia con segmentación geográfica  {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
@@ -46,16 +46,16 @@ Los parámetros de ubicación geográfica permiten segmentar las actividades y e
 
 ## Precisión {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La precisión de la segmentación geográfica depende de varios factores. Las conexiones WiFi son más precisas que las redes móviles. Cuando el visitante está usando una conexión de datos móviles, la precisión de la búsqueda geográfica puede verse afectada por la ubicación, la relación de datos del proveedor con deviceatlas y otros factores. Las conexiones de redes basadas en torres celulares pueden ser menos precisas que las conexiones cableadas o WiFi. Además, la dirección IP de un usuario puede asignarse a su ubicación ISP, que quizás no coincida con la ubicación real del visitante. Algunos problemas de localización geográfica móvil se pueden resolver mediante la API [de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La precisión de la segmentación geográfica depende de varios factores. Las conexiones WiFi son más precisas que las redes móviles. Cuando el visitante está usando una conexión de datos móviles, la precisión de la búsqueda geográfica puede verse afectada por la ubicación, la relación de datos del proveedor con deviceatlas y otros factores. Las conexiones de redes basadas en torres celulares pueden ser menos precisas que las conexiones cableadas o WiFi. Además, la dirección IP de un usuario puede asignarse a su ubicación ISP, que quizás no coincida con la ubicación real del visitante. Algunos problemas de localización geográfica móvil se pueden resolver con [la API de geolocalización](https://developer.mozilla.org/es-ES/docs/Web/API/Geolocation_API).
 
-En la tabla siguiente se muestra la precisión de la información geográfica basada en IP desde [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexiones a Internet cableadas o WiFi. DigitalEnvoy proporciona los datos más precisos de la industria. La precisión global es de más del 99,9 por ciento en el ámbito de país y de hasta el 97 por ciento en el ámbito de ciudad. La información de precisión no se aplica a redes basadas en torres celulares.
+En la tabla siguiente se muestra la precisión de la información geográfica basada en IP desde [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexiones a Internet por cable o por WiFi. DigitalEnvoy proporciona los datos más precisos de la industria. La precisión global es de más del 99,9 por ciento en el ámbito de país y de hasta el 97 por ciento en el ámbito de ciudad. La información de precisión no se aplica a redes basadas en torres celulares.
 
 | País | Estado | Ciudad | Región |
 |--- |--- |--- |--- |
 | US | 99,99 % | 96 % | 94 % |
 | Canadá | 99,99 % | 96 % | 94 % |
-| Europa | 99,99 % |
-| RU | 99,99 % | 87 % |
+| Europa | 99,99 % |  |  |
+| RU | 99,99 % |  | 87 % |
 | Alemania | 99,99 % | 95 % | 93 % |
 | Escandinavia | 99 % | Entre el 90 % y el 95 % | Alrededor de 85 % |
 | España | 99,99 % | Alrededor del 90 % | Entre el 95 % y el 100 % |
@@ -63,7 +63,7 @@ En la tabla siguiente se muestra la precisión de la información geográfica ba
 | Japón | 99,99 % | Alrededor de 95 % | Entre el 90 % y el 95 % |
 | Australia | 99,99 % | 94 % | 91 % |
 
-## Uso de Segmentación geográfica en scripts de perfil   {#section_92C93138542C4A94997E3F4BE3F5DA28}
+## Uso de Segmentación geográfica en scripts de perfil  {#section_92C93138542C4A94997E3F4BE3F5DA28}
 
 Puede usar la información geográfica para scripts de perfil.
 
@@ -112,7 +112,7 @@ Por ejemplo, use:
 
 **¿Cómo funciona la segmentación geográfica en los dispositivos móviles?**
 
-La amplia mayoría de los usuarios de dispositivos móviles accede al contenido a través de una red WiFi, lo que significa que la segmentación geográfica basada en la IP de Target es tan precisa como en un equipo de escritorio. Las conexiones basadas en torres celulares pueden ser menos exactas porque la dirección IP del visitante se basa en la torre de donde se está recibiendo la señal. Algunos problemas de localización geográfica móvil se pueden resolver mediante la API [de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La amplia mayoría de los usuarios de dispositivos móviles accede al contenido a través de una red WiFi, lo que significa que la segmentación geográfica basada en la IP de Target es tan precisa como en un equipo de escritorio. Las conexiones basadas en torres celulares pueden ser menos exactas porque la dirección IP del visitante se basa en la torre de donde se está recibiendo la señal. Algunos problemas de localización geográfica móvil se pueden resolver con [la API de geolocalización](https://developer.mozilla.org/es-ES/docs/Web/API/Geolocation_API).
 
 **¿Cómo gestiona la función geográfica los visitantes de AOL?**
 
