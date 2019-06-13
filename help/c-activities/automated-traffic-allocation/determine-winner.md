@@ -8,7 +8,7 @@ title: Determinar un ganador
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,7 +23,7 @@ Muchos especialistas en marketing cometen el error de declarar una experiencia g
 
 Al utilizar la función de [!UICONTROL asignación automática], [!DNL Target] muestra un distintivo en la parte superior de la página de la actividad indicando “Ningún ganador aún” hasta que la actividad alcance el número mínimo de conversiones con suficiente confianza.
 
-![](assets/auto_traffic_no_winner.png)
+![Sin distintivo ganador](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 Cuando se declara un claro ganador, [!DNL Target] muestra “Ganador: Experiencia X”.
 
