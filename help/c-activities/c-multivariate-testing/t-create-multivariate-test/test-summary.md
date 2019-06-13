@@ -7,8 +7,8 @@ solution: Target
 title: Resumen de la prueba
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
-translation-type: tm+mt
-source-git-commit: 4a0731243ab23caf65fc15bc03c7da692b09cb36
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,4 +31,4 @@ En el resumen de la prueba se muestra:
    Actualmente, el único algoritmo que hay disponible es factorial completo. El nombre del algoritmo se proporciona a efectos informativos, para que conozca qué algoritmo se está usando.
 * La cantidad de experiencias incluidas y excluidas.
 
-Haga clic en **[!UICONTROL Continuar]cuando esté satisfecho con la configuración de la prueba.** Se abre la página Configuración y objetivos.
+Haga clic en **[!UICONTROL Continuar]** cuando esté satisfecho con la configuración de la prueba. Se abre la página Configuración y objetivos.
