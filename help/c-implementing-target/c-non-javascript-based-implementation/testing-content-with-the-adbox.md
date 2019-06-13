@@ -8,8 +8,8 @@ subtopic: Primeros pasos
 title: Creación de un AdBox para una imagen
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
-translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Utilice un AdBox para ofrecer imágenes en una implementación externa.
 
 Un AdBox es lo mismo que un mbox, con la diferencia de que se controla mediante una dirección URL en lugar de con JavaScript. Los AdBoxes se crean con una dirección URL de AdBox especial que carga un mbox de “publicidad” (o AdBox) en su cuenta de Adobe. Use este AdBox en lugar del mbox en las actividades. Use la URL de AdBox en vez de una referencia de imagen directa para correo electrónico y otras implementaciones no basadas en JavaScript.
 
-Si desea obtener ayuda para decidir la configuración adecuada, consulte   [Implementaciones no basadas en JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Si desea obtener ayuda para decidir la configuración adecuada, consulte  [Implementaciones no basadas en JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 1. Cree la dirección URL del AdBox:
 
@@ -30,18 +30,18 @@ Si desea obtener ayuda para decidir la configuración adecuada, consulte   [Impl
    mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif
    ```
 
-   * Donde `myClientCode` es el código de cliente de su empresa. El código de cliente de su empresa está por completo en minúscula y carece de caracteres especiales.
+   * Donde `myClientCode` es el código de cliente de la compañía. El código de cliente de su compañía está por completo en minúscula y carece de caracteres especiales.
 
-      * **at.js:** El código de cliente se encuentra disponible en la parte superior de la página de la interfaz de [!UICONTROL  en ]Configuración &gt; Implementación &gt; Editar la configuración de at.js[!DNL Target].
+      * **at.js**: El código de cliente se encuentra disponible en la parte superior de la página de la interfaz de [!UICONTROL  en ]Configuración &gt; Implementación &gt; Editar la configuración de at.js[!DNL Target].
 
       * **mbox.js**: el código de cliente se encuentra disponible en la parte superior de la página en [!UICONTROL Configuración &gt; Implementación &gt; Editar la configuración de mbox.js].
    * Donde `image` es el tipo de llamada. En este caso, se trata de una imagen.
 
-   * Donde `emailHeroImage123_320x200` es el nombre del adbox.
+   * Donde `emailHeroImage123_320x200` es el nombre del AdBox.
 
    * Donde `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` es el contenido predeterminado del mbox. Debe ser una imagen.
 
-      Debe tener codificación de dirección URL y ser una referencia absoluta. Puede utilizar la Referencia de codificación URL [HTML](https://www.w3schools.com/tags/ref_urlencode.asp) para codificar rápidamente las URL.
+      Debe tener codificación de dirección URL y ser una referencia absoluta. Para codificar sus URL rápidamente, puede utilizar la [Referencia de codificación de la URL de HTML](https://www.w3schools.com/tags/ref_urlencode.asp).
 
 
 1. Cree [Ofertas de redireccionamiento](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) para cada imagen alternativa.
