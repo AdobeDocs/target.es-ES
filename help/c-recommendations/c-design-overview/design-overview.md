@@ -7,8 +7,8 @@ solution: Target
 title: Información general de diseño
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
-translation-type: tm+mt
-source-git-commit: 3901aa72118adbc0862915da7c8b211090a4e7e7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,7 +27,7 @@ Target también puede enviar sus recomendaciones como objetos JSON que se pueden
 
 En el siguiente ejemplo se muestra cómo se pueden devolver respuestas JSON al configurar una actividad mediante el editor basado en formularios.
 
-1. Puede crear un diseño desde la biblioteca de diseños o desde el flujo de trabajo basado en formularios. Si intenta hacerlo desde el flujo de trabajo del Compositor de experiencias visuales (VEC), solo podrá crear diseños HTML, que se engloban dentro de `<div>` para fines de seguimiento de clics.
+1. Puede crear un diseño desde la biblioteca de diseños o desde el flujo de trabajo basado en formularios. Si intenta hacerlo desde el flujo de trabajo del Compositor de experiencias visuales (VEC), solo podrá crear diseños HTML, que se engloban dentro de  `<div>` para fines de seguimiento de clics.
 1. Compruebe que la opción “Diseño HTML” esté desactivada:
 
    ![](assets/html_design_toggle.png)
@@ -90,7 +90,7 @@ En el siguiente ejemplo se muestra cómo se pueden devolver respuestas JSON al c
 
 | Parámetro | Valor |
 |--- |--- |
-| `[YOUR_CLIENT_CODE]` | Código de cliente de Target (disponible en ../target/products.html # recssettings &gt; Token API de Recomendaciones &gt; Código de cliente. |
+| `[YOUR_CLIENT_CODE]` | Código de cliente de Target (disponible en ../target/products.html#recsSettings &gt; Token de API de Recommendations &gt; Código de cliente). |
 | `[YOUR_MBOX_NAME]` | El nombre que ha seleccionado en la sección “ubicaciones” de Recommendations basadas en formularios, en este caso, YOUR_CLIENT_CODE. |
 | `[ENTITY_ID`] | El `entity.id` de un artículo del catálogo. |
 | `[AT_PROPERTY_TOKEN]` | (Opcional) Añada este parámetro si ha seleccionado una Propiedad (parte de los permisos de empresa) durante la configuración de la actividad. |
