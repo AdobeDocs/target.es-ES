@@ -1,6 +1,6 @@
 ---
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Contribución
@@ -25,15 +25,15 @@ dentro de los hilos de problemas (cuando sea necesario).
 
 Todas las contribuciones de terceros a este proyecto deben estar acompañadas por un contrato de licencia de colaborador
 firmado. Esto le proporciona permiso a Adobe para redistribuir las contribuciones
-como parte del proyecto. [Firme nuestro CLA](http://opensource.adobe.com/cla.html). Solo 
+como parte del proyecto. [Firme nuestro contrato de licencia de colaborador](http://opensource.adobe.com/cla.html). Solo 
 tiene que enviar un contrato de licencia de colaborador de Adobe, por lo que, si ha enviado uno anteriormente,
 ya está listo para comenzar.
 
 ## Revisiones de código
 
 Todos los envíos deben ser solicitudes de extracción y deben ser revisados
-por los supervisores del proyecto. Lea [la documentación
-de solicitud extraíble de github](https://help.github.com/articles/about-pull-requests/)para obtener más información sobre el envío de solicitudes de extracción.
+por los supervisores del proyecto. Para obtener más información sobre el envío de solicitudes de extracción, 
+lea [la documentación sobre solicitudes de extracción de GitHub](https://help.github.com/articles/about-pull-requests/).
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -51,4 +51,4 @@ puede ponerse en contacto con los supervisores existentes para hablar sobre esto
 
 ## Problemas de seguridad
 
-Los problemas de seguridad no deberían notificarse en este rastreador de problemas. En lugar de eso [, envíe un problema a nuestros expertos en seguridad](https://helpx.adobe.com/security/alertus.html)
+Los problemas de seguridad no deberían notificarse en este rastreador de problemas. En su lugar, [notifique los problemas a nuestros expertos en seguridad](https://helpx.adobe.com/es/security/alertus.html).
