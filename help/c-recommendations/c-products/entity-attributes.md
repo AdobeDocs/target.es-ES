@@ -1,6 +1,6 @@
 ---
 description: Use los atributos de entidad para pasar la información de producto o contenido a Recommendations.
-keywords: entity; atributos de entidad; pasar información a Recommendations; datos de comportamiento; contador de datos; definir URL relativa; mostrar nivel de inventario; definir precio; definir margen de beneficio; atributos personalizados
+keywords: entidad;atributos de entidad;pasar información a Recommendations;datos de comportamiento;contador de datos;definir URL relativa;mostrar nivel de inventario;definir precio;definir margen de beneficios;atributos personalizados
 seo-description: Use los atributos de entidad para pasar la información de producto o contenido a Recommendations.
 seo-title: Atributos de entidad
 solution: Target
@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
-translation-type: tm+mt
-source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Solamente valor único.
 
 Este parámetro obligatorio identifica el producto. Este ID alfanumérico debe ser el mismo en todos los productos de [DNL Adobe Experience Cloud] que utilice, incluido [!DNL Analytics], a fin de que los distintos productos reconozcan el artículo y compartan los datos sobre él.
 
-`entity.id` no debe contener barras diagonales, ampersands, signos de interrogación, símbolos de porcentaje, comas u otros caracteres de puntuación que requieran codificación de URL cuando se pasan en una llamada de API REST. Se permiten guiones y guiones bajos. Incluida puntuación no válida en un valor `entity.id` hace que algunas funciones de [!DNL Recommendations] fallen.
+Los valores `entity.id` no deben contener barras diagonales, el símbolo &amp;, signos de interrogación, símbolos de porcentaje, comas u otros caracteres de puntuación que requieran codificación URL cuando se pasan en una llamada de API REST. Se permiten guiones y guiones bajos. Incluida puntuación no válida en un valor `entity.id` hace que algunas funciones de [!DNL Recommendations] fallen.
 
 Ejemplo: `'entity.id=67833'`
 
@@ -139,7 +139,7 @@ Define hasta 100 variables personalizadas que proporcionan información adiciona
 
 Restricciones:
 
-* No se pueden usar nombres de atributos de entidad predefinidos para atributos de entidad personalizados. 
+* No se pueden usar nombres de atributos de entidad predefinidos para atributos de entidad personalizados.
 * El atributo entity.environment se reserva para el sistema y no se puede usar en atributos de entidad personalizados. Se hará caso omiso de los intentos de pasar entity.environment usando targetPageParams, fuentes o API.
 
 Ejemplos:
@@ -235,7 +235,7 @@ mboxCreate('productPage',
 >
 >Las direcciones URL relativas son preferibles para `pageUrl` y `thumbnailUrl` en lugar de las direcciones URL absolutas, porque las recomendaciones reciben los datos que se han enviado desde todos los entornos del sitio. El uso de direcciones URL relativas evita los vínculos predeterminados de un servidor de ensayo o desarrollo.
 
-Si el mbox está en una página de productos, tiene la opción de incluir la ID del producto y la ID de la categoría. El algoritmo seleccionado determina cuál mostrar. La ID del producto se utiliza para algoritmos de afinidad y la ID de la categoría para algoritmos de categoría.
+Si el mbox está en una página de productos, tiene la opción de incluir el ID del producto y el ID de la categoría. El algoritmo seleccionado determina cuál mostrar. El ID del producto se utiliza para algoritmos de afinidad y el ID de la categoría para algoritmos de categoría.
 
 ## Temas relacionados:
 
