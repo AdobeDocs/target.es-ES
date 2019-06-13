@@ -8,8 +8,8 @@ subtopic: Primeros pasos
 title: Tokens de respuesta
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Los tokens de respuesta le permiten generar automáticamente información espec�
 
 Adobe Target Classic ofrecía una característica llamada complementos de servidor que le permitía enviar código JavaScript que se ejecutaba con una respuesta de mbox. Los tokens de respuesta son similares a los complementos: le permiten mostrar información específica de Target para su uso en alguna otra parte. Los tokens de respuesta le permiten elegir qué variables aprovecha y habilitarlas para su envío como parte de una respuesta de mbox. Para ello, solo tiene que utilizar el interruptor para habilitar una variable y se la enviará con las respuestas de mbox, que pueden validarse en llamadas de red. Los tokens de respuesta también funcionan en el modo de vista previa.
 
-Una diferencia clave entre complementos y tokens de respuesta es que, mientras que los primeros envían a la página código JavaScript que se ejecuta al recibirlo, los segundos envían un objeto que puede leerse y sobre el que puede actuarse utilizando detectores de eventos. Para obtener más información, consulte Más adelante en este artículo se encuentran los [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) y los ejemplos. El enfoque de tokens de respuesta es más seguro y debería facilitar el desarrollo y mantenimiento de integraciones de terceros.
+Una diferencia clave entre complementos y tokens de respuesta es que, mientras que los primeros envían a la página código JavaScript que se ejecuta al recibirlo, los segundos envían un objeto que puede leerse y sobre el que puede actuarse utilizando detectores de eventos. Para obtener más información, consulte  Más adelante en este artículo se encuentran los [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) y los ejemplos. El enfoque de tokens de respuesta es más seguro y debería facilitar el desarrollo y mantenimiento de integraciones de terceros.
 
 >[!NOTE]
 >
@@ -29,11 +29,11 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
 | Biblioteca de Target en uso | Acciones sugeridas |
 |--- |--- |
 | at.js | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre la descarga de la versión más reciente de at.js, consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Para obtener más información sobre las funcionalidades en cada versión de at.js, consulte [Detalles de la versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Se enviarán algunos complementos que dependen de métodos internos y que existen en mbox.js pero no en at.js, aunque no funcionarán. Para obtener más información, consulte [Limitaciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
-| mbox.js | Los complementos seguirán siendo compatibles y se enviarán al utilizar mbox.js.<br>Sin embargo, se recomienda a los clientes que utilicen mbox.js y los complementos que se pasen a at.js y a los tokens de respuesta. Para obtener más información sobre las ventajas de utilizar at.js sobre mbox.js, consulte [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Para obtener más información acerca de la migración, consulte [Migrar de mbox.js a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Cuando Target Classic sea declarado obsoleto (noviembre de 2017), es posible que deba ponerse en contacto con Client Care para editar o deshabilitar los complementos existentes. Tendría que haber auditado sus conectores antes de que Target Classic quedara obsoleto y haber deshabilitado los complementos no deseados.<br>No puede crear nuevos complementos en Target Standard/Premium. En su lugar, utiliza tokens de respuesta.<br>Los antiguos complementos de SiteCatalyst deben deshabilitarse y reemplazarse con [Adobe Analytics como Fuente de informes para Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). El complemento ttMeta debería deshabilitarse y reemplazarse con [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| mbox.js | Los complementos seguirán siendo compatibles y se enviarán al utilizar mbox.js.<br>Sin embargo, se recomienda a los clientes que utilicen mbox.js y los complementos que se pasen a at.js y a los tokens de respuesta. Para obtener más información sobre las ventajas de utilizar at.js sobre mbox.js, consulte [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Para obtener más información acerca de la migración, consulte [Migrar de mbox.js a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Cuando Target Classic sea declarado obsoleto (noviembre de 2017), es posible que deba ponerse en contacto con Client Care para editar o deshabilitar los complementos existentes. Tendría que haber auditado sus conectores antes de que Target Classic quedara obsoleto y haber deshabilitado los complementos no deseados.<br>No puede crear nuevos complementos en Target Standard/Premium. En su lugar, utiliza tokens de respuesta.<br>Los antiguos complementos de SiteCatalyst deben deshabilitarse y reemplazarse con [Adobe Analytics como Fuente de informes para Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). El complemento ttMeta debe deshabilitarse y reemplazarse por [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=es). |
 
 ## Uso de tokens de respuesta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Compruebe que está utilizando la versión 1.1 o posterior de [!DNL at.js]. 
+1. Compruebe que está utilizando la versión 1.1 o posterior de [!DNL at.js].
 
    Para obtener más información, consulte [Descargar at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
@@ -73,7 +73,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
 
 1. Cree una actividad.
 
-Use [los eventos personalizados at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) para escuchar la respuesta de mbox y leer los tokens de respuesta.
+Utilice [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) para detectar la respuesta de mbox y leer los tokens de respuesta.
 
 El siguiente ejemplo de código añade un controlador de evento personalizado [!DNL at.js] directamente a la página HTML:
 
@@ -164,7 +164,7 @@ Como se ha mencionado anteriormente, los tokens de respuesta operan con la infor
 
 Target realiza una actualización de atributos a intervalos regulares. Cualquier atributo que no esté activado se eliminará durante la siguiente actualización. Sin embargo, si se elimina un atributo activado (por ejemplo, si se elimina un script de perfil que se utilizaba como token), dicho script no se eliminará de la lista de atributos hasta que lo desactive. Target solo elimina de la lista los atributos desactivados cuando estos se eliminan o se cambia su nombre.
 
-## Envío de datos a Google Analytics mediante at.js   {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Envío de datos a Google Analytics mediante at.js  {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Es posible enviar datos a Google Analytics mediante at.js añadiendo el siguiente código en la página HTML:
 
@@ -230,7 +230,7 @@ Es posible enviar datos a Google Analytics mediante at.js añadiendo el siguient
 </script>
 ```
 
-## Depuración (similar al complemento ttMeta)   {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## Depuración (similar al complemento ttMeta)  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 Puede crearse el equivalente del complemento ttMeta para depuración añadiendo el siguiente código a la página HTML:
 
