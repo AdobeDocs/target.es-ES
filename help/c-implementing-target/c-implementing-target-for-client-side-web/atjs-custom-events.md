@@ -1,14 +1,14 @@
 ---
-description: 'Información sobre eventos personalizados para at. js. '
+description: 'Información sobre eventos personalizados para at.js. '
 keywords: adobe.target.notification;elemento;selector;notificación;extensión
-seo-description: Información sobre los eventos personalizados para la biblioteca JavaScript de Adobe Target at. js.
-seo-title: Información sobre los eventos personalizados para la biblioteca JavaScript de Adobe Target at. js.
+seo-description: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
+seo-title: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
 solution: Target
 subtopic: Primeros pasos
 title: Eventos personalizados de at.js
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 46e49267ba602a96b45ddb54ff99017423e5bf82
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
