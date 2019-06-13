@@ -7,8 +7,8 @@ title: Ofertas de personalización automatizada de Target
 title-outputclass: Premium
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 badge: Premium
-translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
