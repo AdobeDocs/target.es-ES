@@ -8,8 +8,8 @@ subtopic: Primeros pasos
 title: Privacidad
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
-translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,11 +18,11 @@ source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
 
 Adobe Target ha habilitado procesos y configuraciones que permiten utilizar Target en cumplimiento con las leyes aplicables sobre privacidad de datos.
 
-## Recopilación de direcciones IP   {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## Recopilación de direcciones IP  {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 La dirección IP de un visitante del sitio web se transmite a un centro de procesamiento de datos (DPC) de Adobe. Dependiendo de la configuración de red del visitante, la dirección IP no representa necesariamente la dirección IP del equipo del visitante. Por ejemplo, la dirección IP puede ser una dirección IP externa de un cortafuegos de traducción de direcciones de red (NAT), un proxy HTTP o una puerta de enlace de Internet. Target no almacena ninguna dirección IP del usuario ni ningún tipo de información personal de identificación (PII). Target utiliza las direcciones IP solo mientras dura la sesión (y lo hace en memoria, nunca de forma persistente).
 
-## Sustitución del último octeto de la dirección IP   {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## Sustitución del último octeto de la dirección IP  {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 Adobe ha desarrollado una nueva configuración de “privacidad mediante diseño” que Adobe ClientCare puede habilitar para Adobe Target. Cuando se habilita esta configuración, el último octeto (la última parte) de la dirección IP se oculta inmediatamente cuando Adobe recopila la dirección IP. Esta anonimización se realiza antes de cualquier procesamiento de la dirección IP, incluso antes de una consulta geográfica opcional de la dirección IP.
 
