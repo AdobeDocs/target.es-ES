@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,8 +21,13 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 14 de junio de 2019 | [Crear experiencia](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Se han actualizado el texto y las imágenes. |
+| 14 de junio de 2019 | [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) | Se ha añadido escenario de uso de mayúsculas y minúsculas. |
 |  | [Crear una actividad de segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Se han actualizado el texto y las imágenes. |
+|  | XT: [URL de actividad](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | Se ha actualizado el texto. |
+|  | XT: [Crear experiencia](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Se han actualizado el texto y las imágenes. |
+|  | [Cambio de experiencias en Segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | Se han actualizado el texto y las imágenes. |
+|  | XT: [Objetivos y configuración](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | Se han actualizado el texto y las imágenes. |
+|  | XT: [Configurar métricas](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | Se han actualizado el texto y la imagen. |
 | 13 de junio de 2019 | [Informe Atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Se ha añadido una nueva pregunta frecuente: &quot;¿Por qué algunas ofertas/experiencias tienen una tasa de conversión más baja que reciben una mayor cantidad de tráfico comparado con otras ofertas o experiencias para un determinado segmento automatizado? &quot; |
 |  | [Cree una actividad de personalización automatizada](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Se han actualizado el texto y las imágenes. |
 |  | [Calcular el tráfico necesario para realizar una prueba con éxito](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Se ha añadido una imagen nueva. |
@@ -283,7 +288,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 |  | [Acerca de las audiencias](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | Se ha agregado información sobre el manejo de audiencias a las que se hace referencia en las actividades de Target que se han eliminado en Adobe Audience Manager (AAM). |
 |  | [Integraciones de at.js](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | Tema actualizado. |
 |  | [Implementación de Target sin un administrador de etiquetas](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | Se han actualizado todas las secciones.  Se ha agregado una sección nueva: implementación de at.js. |
-|  | Versión 18.10.1  [Notas de la versión](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
+|  | Versión 18.10.1 [Notas de la versión](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 18.9.1 (26 de septiembre de 2018)  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
@@ -453,7 +458,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Versión 18.9.1  <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
+   <td colname="col2"> <p>Versión 18.9.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
    <td colname="col3"> <p>Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. </p> </td> 
   </tr> 
  </tbody> 
@@ -619,7 +624,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Versión 18.8.1  <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
+   <td colname="col2"> <p>Versión 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de la versión </a> </p> </td> 
    <td colname="col3"> <p>Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. </p> </td> 
   </tr> 
  </tbody> 
