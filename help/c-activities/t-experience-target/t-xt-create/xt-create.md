@@ -8,7 +8,7 @@ title: Crear una actividad de segmentación de experiencias
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 ---
 
@@ -64,61 +64,14 @@ Use el [!UICONTROL Compositor de experiencias visuales] (VEC) para crear una [!U
    | `-` | Menos |
    | `@` | Arroba |
 
-1. [Cree experiencias nuevas](../../../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) cambiando los elementos de la página.
+1. Cree experiencias nuevas cambiando los elementos de la página.
 
-
+   Para obtener instrucciones paso a paso, consulte [Añadir experiencia](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
    De manera predeterminada, el compositor de experiencias visuales no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede deshabilitar JavaScript si quiere poder modificar estos elementos con el Compositor de experiencias visuales.
 
-   >[!NOTE]
-   >
-   >Si cambia la dirección URL después de realizar cambios en una página para una o más experiencias, la experiencia se restablecerá con la nueva página y se perderán los cambios que haya realizado.
-
-   Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Los elementos resaltados se pueden modificar con el Compositor de experiencias.
+   Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Cualquier elemento resaltado puede modificarse con el VEC. Para obtener una lista de acciones que se pueden realizar en un elemento para cambiar la experiencia, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    Si creó un mbox en la página mediante Target Classic (antes denominado Test&amp;Target), ese mbox aparece como un elemento que muestra el nombre del mbox y se puede modificar como cualquier otro elemento.
 
-   >[!NOTE]
-   >
-   >Si entrega una imagen desde un origen distinto a la página principal (por ejemplo, una imagen alojada en akamai.net y entregada en dell.com), dicha imagen no se mostrará en la miniatura de la página mostrada en el diagrama de flujo.
-
-1. Haga clic en **[!UICONTROL Siguiente]**.
-
-   Se abrirá el diagrama de flujo.
-
-   ![](assets/xt_diagram.png)
-
-   El diagrama de flujo le guía durante el procedimiento para seleccionar una audiencia para la actividad y configurar las experiencias.
-1. Pase el cursor sobre la audiencia, haga clic en el icono **[!UICONTROL Editar]** (tres elipses verticales), haga clic en **[!UICONTROL Cambiar audiencia]** y, a continuación, seleccione la audiencia para la primera experiencia de su actividad.
-
-   ![](assets/xt_change_audience.png)
-
-   Se mostrará la biblioteca de audiencias. La biblioteca de audiencias contiene las audiencias que se han definido anteriormente, entre las que se incluyen algunas audiencias comunes predefinidas como parte de Target. Seleccione una audiencia de la biblioteca o  [cree una audiencia nueva](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Para mostrar la misma experiencia a todos los participantes, seleccione Todos los visitantes.
-
-   >[!NOTE]
-   >
-   >Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas específicas en lugar de crear una nueva. Para obtener más información, consulte [Combinar varias audiencias](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
-
-   Al crear una audiencia puede seleccionar una ubicación (mbox) y especificar parámetros para dicha ubicación. En Parámetros personalizados, seleccione el mbox y especifique los parámetros que desee.
-
-   >[!NOTE]
-   >
-   >Las audiencias se importan automáticamente en segundo plano cuando abre la lista de audiencias y las audiencias importadas tienen más de diez minutos de antigüedad.
-
-   Puede hacer clic en el icono [!UICONTROL Editar] (tres elipses verticales) que se muestra y, a continuación, hacer clic en [!UICONTROL Eliminar audiencia] para eliminar una audiencia existente.
-1. Haga clic en **[!UICONTROL Añadir segmentación de experiencias]**.
-
-   >[!NOTE]
-   >
-   >Si va a segmentar una experiencia a una audiencia, debe seleccionar la audiencia antes de añadir la experiencia. Aparecerá un mensaje para recordarle que elija una audiencia.
-
-1. (Opcional) Haga clic en **[!UICONTROL Agregar]** y configure otras experiencias segmentadas.
-
-   ![](assets/xt_add_xt.png)
-
-   Haga clic en **[!UICONTROL Continuar]cuando haya completado este paso.**
 1. Especifique los [objetivos y la configuración](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) para la actividad.
-
-   ![](assets/xt_settings.png)
-
-1. Haga clic en **[!UICONTROL Guardar y cerrar]**.
