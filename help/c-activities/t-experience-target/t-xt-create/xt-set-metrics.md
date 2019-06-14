@@ -1,13 +1,13 @@
 ---
 description: Utilice métricas en una actividad de segmentación de experiencias (XT) para determinar si una visita es satisfactoria.
 keywords: segmentación de experiencias;xt;métricas;definir métricas;métrica de segmentación;configuración de actividades;métrica de éxito;conversión;ingresos;participación
-seo-description: Utilice métricas en una actividad de segmentación de experiencias (XT) para determinar si una visita es satisfactoria.
+seo-description: Utilice métricas en una actividad de Segmentación de experiencias de Adobe Target (XT) para determinar si una visita se realiza correctamente.
 seo-title: Definir métricas
 solution: Target,estándar
 title: Definir métricas
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,7 +21,7 @@ Para obtener información detallada sobre las métricas de éxito, consulte  [M�
 1. Especificar el objetivo de la actividad.
 1. Seleccionar una [métrica de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![](assets/ab_metrics.png)
+   ![Seleccionar métrica de éxito](/help/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
    En la página [!UICONTROL Seleccionar métricas] se muestra una lista de todas las métricas de éxito que puede elegir para la actividad. Las métricas de éxito se dividen en las categorías siguientes:
 
@@ -60,4 +60,4 @@ Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 * Qué son y cómo compilar las métricas de conversión, ingresos y participación
 * Compilar una métrica para el rastreo de clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=spa)
