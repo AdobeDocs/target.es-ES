@@ -7,8 +7,8 @@ solution: Target
 title: Configuración y objetivos
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -23,7 +23,7 @@ La página Configuración y objetivos es donde se especifica información sobre 
 
 La configuración disponible depende de si usa [!DNL Target] o [!DNL Analytics] como fuente de datos.
 
-![](assets/ab_settings.png)
+![Página Configuración de actividades](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## Configuración de actividades {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -64,11 +64,11 @@ Las configuraciones disponibles son las siguientes:
 
 ### Solución de creación de informes
 
-Especifique si los datos se recopilan desde Adobe Target o Adobe Analytics. Para obtener más información sobre las diferencias entre las soluciones de informes y las ventajas de cada una, consulte [Adobe Analytics como fuente de informes para Target](https://marketing.adobe.com/resources/help/es_ES/target/a4t/a4t.html).
+Especifique si los datos se recopilan desde Adobe Target o Adobe Analytics. Consulte [Adobe Analytics como fuente de informes para Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) para conocer las diferencias entre las distintas soluciones de creación de informes y las ventajas que ofrece cada una.
 
 Si selecciona Analytics como fuente de informes para Target, debe seleccionar también un grupo de informes de Analytics en el que recibir los datos de la actividad en Target. Para ello, elija primero una de las empresas de Analytics a la que esté asociada su cuenta y, a continuación, seleccione el grupo de informes adecuado para la actividad. Solo se podrán seleccionar los grupos de informes que estén aprovisionados para conectarse a Adobe Target. Si no ve los grupos de informes previstos, cierre la sesión y vuelva a iniciarla en Adobe Experience Cloud para probar de nuevo. Si aún no aparece el grupo de informes en la lista, póngase en contacto con el Servicio de atención al cliente.
 
-Analytics for Target requiere un servidor de seguimiento para registrar los resultados correctamente. En el campo Servidor de seguimiento, aparecerá un servidor de seguimiento predeterminado. Si usa más de un servidor de seguimiento, debe asegurarse de incluir el servidor correcto en este campo. Consulte  [Usar un servidor de seguimiento de Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obtener más información.
+Analytics for Target requiere un servidor de seguimiento para registrar los resultados correctamente. En el campo Servidor de seguimiento, aparecerá un servidor de seguimiento predeterminado. Si usa más de un servidor de seguimiento, debe asegurarse de incluir el servidor correcto en este campo. Consulte [Usar un servidor de seguimiento de Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obtener más información.
 
 Si especifica una solución de creación de informes en la configuración de la cuenta, se utilizará la solución especificada y este ajuste no será visible.
 
@@ -76,7 +76,7 @@ Si especifica una solución de creación de informes en la configuración de la 
 >
 >La fuente de informes no se puede cambiar una vez publicada la actividad. Esto permite mantener la coherencia en los informes.
 
-### Objetivo
+### Métrica de objetivo
 
 Seleccione la acción realizada por un visitante para conseguir el objetivo. Por ejemplo, elija una métrica de Conversión y defina los parámetros que determinan cuándo se logra el éxito.
 
@@ -104,11 +104,15 @@ De manera predeterminada, en los informes se muestran resultados de todos los vi
 
 Esta configuración no está disponible si elige Analytics como solución de informes. Se aplica la audiencia definida para el grupo de informes de Analytics.
 
+## Otros metadatos
+
+Escriba la información sobre la actividad que sea útil tener disponible para el equipo. El panel Notas se puede redimensionar.
+
 ## Configuración avanzada {#section_E2FE441AFB324E498793ABB025ED9974}
 
 La Configuración avanzada está disponible para métricas de objetivo de Segmentación de experiencias.
 
-![](assets/Menu_AdvancedSettings.png)
+![Configuración avanzada](/help/c-activities/t-experience-target/t-xt-create/assets/Menu_AdvancedSettings-new.png)
 
 >[!NOTE]
 >
@@ -118,7 +122,7 @@ Las configuraciones disponibles son las siguientes:
 
 ### ¿Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica?
 
-Use esta opción para contar solamente que alguien alcanza la métrica de éxito si alcanzó previamente una métrica de éxito diferente. Por ejemplo, una conversión de prueba podría ser válida únicamente si el visitante hace clic en la oferta, o alcanza una página concreta antes de la conversión.
+Use esta opción para contar solamente que alguien alcanza la métrica de éxito si alcanzó previamente una métrica de éxito diferente. Por ejemplo, una conversión de prueba puede ser válida únicamente si el visitante hace clic en la oferta o alcanza una página concreta antes de la conversión.
 
 Dispone de dependencia respecto a varias métricas y tiene la posibilidad de elegir si una métrica debe alcanzarse o no para que su contador aumente.
 
@@ -128,15 +132,14 @@ La opción Añadir dependencia permite que la métrica de éxito aumente si se a
 
 Para agregar una dependencia:
 
-1. Después de agregar métricas adicionales, haga clic en Configuración avanzada.
-2. Haga clic en la opción Añadir dependencia:
+1. Después de agregar métricas adicionales, haga clic en **[!UICONTROL Configuración avanzada]**.
+2. Haga clic **[!UICONTROL en Agregar dependencia]**:
 
-   ![](assets/add_dependency.png)
+   ![Agregar vínculo de dependencia](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. Arrastre y suelte las métricas deseadas del panel izquierdo al panel derecho y, a continuación, haga clic en Alcanzado para alternar el valor entre Alcanzado y No alcanzado.
 
-   ![](assets/add_dependency_reached.png)
-
+   ![Cuadro de diálogo Agregar dependencia de métricas](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 Puede editar o eliminar dependencias después de añadirlas.
 
@@ -150,14 +153,6 @@ Existen tres opciones para lo que ocurre después de que un visitante alcance la
 
 Para obtener más información sobre la configuración avanzada, consulte [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-## Otros metadatos {#section_2E8917BEFB954480A4206B9E9E917F80}
-
-La configuración disponible es la siguiente:
-
-### Notas
-
-Escriba la información sobre la actividad que sea útil tener disponible para el equipo. El panel Notas se puede redimensionar.
-
 ## Vídeo de formación: Configuración de actividades (3:02)
 
 Este vídeo incluye información sobre la configuración de las actividades.
@@ -168,4 +163,4 @@ Este vídeo incluye información sobre la configuración de las actividades.
 * Añadir audiencias para los informes a fin de crear filtros de informes
 * Escribir notas en las actividades
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=spa)
