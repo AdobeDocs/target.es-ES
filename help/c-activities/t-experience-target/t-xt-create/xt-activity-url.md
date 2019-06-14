@@ -1,54 +1,49 @@
 ---
-description: La dirección URL de actividad determina la página que se usa en la prueba y que se abre cuando se diseña la prueba.
+description: La URL de actividad determina la página que se utiliza en la actividad de segmentación de experiencias y que se abre en el Compositor de experiencias visuales (VEC) o Compositor de experiencias basadas en formularios cuando se diseña la actividad.
 keywords: Segmentación
-seo-description: La dirección URL de actividad determina la página que se usa en la prueba y que se abre cuando se diseña la prueba.
+seo-description: La URL de actividad determina la página que se utiliza en la actividad de segmentación de experiencias y que se abre en el Compositor de experiencias visuales de Adobe Target (VEC) o Compositor de experiencias basadas en formularios cuando se diseña la actividad.
 seo-title: Dirección URL de actividad
 solution: Target
 title: Dirección URL de actividad
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
 
 # URL de actividad{#activity-url}
 
-La dirección URL de actividad determina la página que se usa en la prueba y que se abre cuando se diseña la prueba.
+La URL de actividad determina la página que se utiliza en la actividad de segmentación de experiencias (XT) y que se abre en el Compositor de experiencias visuales (VEC) o Compositor de experiencias basadas en formularios cuando se diseña la actividad.
 
-Cuando se le pida durante la creación de la actividad, indique la dirección URL de la actividad. Escriba la URL completa (incluido `https://`) y haga clic en **[!UICONTROL Crear actividad]**.
+1. Cuando se le pida al [crear una actividad](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)XT, especifique la URL de actividad. Escriba la URL completa (incluido `https://`) y haga clic en **[!UICONTROL Crear actividad]**.
 
->[!NOTE]
->
->[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `https://www.adobe.com`] como [!DNL `http://www.adobe.com`] coinciden.
+   >[!NOTE]
+   >
+   >[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `https://www.adobe.com`] como [!DNL `http://www.adobe.com`] coinciden.
+   >
+   >De forma predeterminada, el Compositor de experiencias visuales o VEC abre la página que se especifica en Preferencias [de cuenta](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Puede especificar una página diferente durante la creación de la actividad.
+   >
+   >Si especifica una URL para un sitio que no incluye el código JavaScript de Target Standard, no podrá seleccionar elementos de página.
 
-De manera predeterminada, el Compositor de experiencias visuales abre la página que se ha especificado en sus Preferencias de cuenta. Puede especificar una página diferente durante la creación de la actividad.
+1. (Condicional) Para mostrar una página diferente después de que se abra el VEC, haga clic **[!UICONTROL en Configurar]**, seleccione **[!UICONTROL Entrega]** de página y especifique la URL en el campo [!UICONTROL URL] .
 
-Para mostrar una página diferente después de que se abra el Compositor de experiencias visuales, haga clic en **[!UICONTROL Configurar]**, seleccione **[!UICONTROL URL]** e introduzca la URL en el cuadro URL de la actividad.
+   ![Cuadro de diálogo Entrega de página](/help/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
 
-![](assets/url-config.png)
+   >[!NOTE]
+   >
+   >Si cambia la dirección URL después de realizar cambios en una página para una o más experiencias, la experiencia se restablecerá con la nueva página y se perderán los cambios que haya realizado.
 
-Haga clic en **[!UICONTROL Agregar regla de plantilla]para agregar más páginas o secciones a la actividad.**
+1. (Condicional) Haga clic **[!UICONTROL en Agregar regla de plantilla]** para agregar más páginas o secciones a la actividad.
 
-Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
+   Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
 
-* Dirección URL
-* Dominio
-* Ruta
-* Fragmento hash (#)
-* Consulta
-* Parámetro de mbox
+   * Dirección URL
+   * Dominio
+   * Ruta
+   * Fragmento hash (#)
+   * Consulta
+   * Parámetro de mbox
+   Se pueden unir reglas adicionales a la dirección URL de la actividad con Y u O. Todas las reglas que agregue se evalúan entre sí con Y.
 
-Se pueden unir reglas adicionales a la dirección URL de la actividad con Y u O. Todas las reglas que agregue se evalúan entre sí con Y.
-
-Haga clic en **[!UICONTROL Guardar]cuando haya finalizado.**
-
->[!NOTE]
->
->Si escribe una dirección URL de un sitio que no incluye el código de JavaScript de Target Standard, no podrá seleccionar elementos de página.
-
-De manera predeterminada, el [!UICONTROL compositor de experiencias visuales] no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar **[!UICONTROL Representar con JavaScript]** si quiere modificar estos elementos con el [!UICONTROL compositor de experiencias visuales].
-
->[!NOTE]
->
->Si cambia la dirección URL después de realizar cambios en una página para una o más experiencias, la experiencia se restablecerá con la nueva página y se perderán los cambios que haya realizado.
+1. Haga clic en **[!UICONTROL Guardar]cuando haya finalizado.**
