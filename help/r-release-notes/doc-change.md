@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 ---
 
@@ -21,6 +21,9 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 15 de junio de 2019 | [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Se han realizado pequeñas ediciones de texto. |
+|  | [Prácticas recomendadas de pruebas multivariable](/help/c-activities/c-multivariate-testing/best-practices.md) | Se han realizado pequeñas ediciones de texto. |
+|  | [Planificar una prueba multivariable](/help/c-activities/c-multivariate-testing/plan-mvt.md) | Se han realizado pequeñas ediciones de texto. |
 | 14 de junio de 2019 | [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) | Se ha añadido escenario de uso de mayúsculas y minúsculas. |
 |  | [Crear una actividad de segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Se han actualizado el texto y las imágenes. |
 |  | XT: [URL de actividad](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | Se ha actualizado el texto. |
