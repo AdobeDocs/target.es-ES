@@ -8,7 +8,7 @@ title: Crear una prueba A/B
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -24,23 +24,24 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
    >[!NOTE]
    >
    >Nota: los tipos de actividades disponibles dependen de su cuenta de [!DNL Target]. Algunos tipos de actividades podrían no aparecer en su lista. Por ejemplo [!UICONTROL , Recommendations] es una función [de Target Premium](/help/c-intro/intro.md#premium).
+   >
+   >Para obtener información sobre los distintos tipos de actividades, consulte [Actividades](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) y la guía de actividades [de Target](/help/c-activities/target-activities-guide.md).
 
-   Para obtener información sobre los distintos tipos de actividades, consulte [Actividades](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) y la guía de actividades [de Target](/help/c-activities/target-activities-guide.md).
-
-   ![Cuadro de diálogo Crear actividad de prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newactivityurl-new.png)
+   ![Crear una prueba de prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
 1. Seleccione **[!UICONTROL Visual (Predeterminado)]**, si es necesario.
 
-   Si prefiere usar el Compositor de experiencias basadas en formularios, seleccione [!UICONTROL Formulario]. Consulte [Compositor de experiencias basadas en formularios](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) para obtener más información.
+   Si prefiere usar el Compositor de experiencias basadas en formularios, seleccione [!UICONTROL Formulario]. Consulte [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md) para obtener más información.
 
    >[!NOTE]
    >
    >Además del Compositor de experiencias visuales y el Compositor de experiencias basadas en formularios, Target ofrece el VEC de aplicación de una sola página y el VEC para aplicaciones móviles. Para obtener más información sobre los distintos compositores, consulte [Experiencias y ofertas](/help/c-experiences/experiences.md).
+   >
+   >Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
+   >El [! La opción [UICONTROL Elegir lugar de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md) en la ilustración anterior es una [función de Target Premium](/help/c-intro/intro.md) . Su organización tiene una licencia de Target Standard si no ve esta opción.]
 
-   Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
-
-1. (Condicional) Si es cliente [de Target Premium](/help/c-intro/intro.md#premium) , elija un [espacio de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md).
-
+1. (Condicional) Si es cliente de Target Premium, elija un espacio de trabajo.
 
 1. Especifique la URL [de la actividad](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)y haga clic **[!UICONTROL en Siguiente]**.
 
