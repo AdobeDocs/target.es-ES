@@ -6,8 +6,8 @@ seo-title: Solución de problemas del Compositor de experiencias visuales y el C
 solution: Target
 title: Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -23,3 +23,7 @@ El EEC es una extensión del VEC que ayuda a editar una experiencia para un siti
 Para obtener información acerca del VEC y el EEC, consulte  [Experiencias](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Tenga en cuenta que algunos problemas afectan tanto al VEC como a la CEE, y algunos problemas afectan solo a uno de los dos compositores. Revise la página apropiada para encontrar más información.
+
+* [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
+* [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
+* [Resolución de problemas relacionados con el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
