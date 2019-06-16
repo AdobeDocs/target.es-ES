@@ -8,14 +8,14 @@ title: Prácticas recomendadas de pruebas multivariable
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # Prácticas recomendadas de pruebas multivariable{#multivariate-test-best-practices}
 
-Sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas conocidos que podrían producirse al crear y ejecutar actividades multivariable (MVT) en [!DNL Adobe Target].
+Sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas conocidos que podrían producirse al crear y ejecutar actividades multivariable Test (MVT) en [!DNL Adobe Target].
 
 ## Planificar  {#section_4D4A1F6226F042379BF48DB753608579}
 
