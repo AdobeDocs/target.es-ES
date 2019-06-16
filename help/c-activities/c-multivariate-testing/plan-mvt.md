@@ -7,16 +7,16 @@ solution: Target
 title: Planificar una prueba multivariable
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # Planificar una prueba multivariable{#plan-a-multivariate-test}
 
-Las pruebas multivariable (MVT) en Adobe Target requieren cierta planificación para poder crear una prueba con éxito.
+[!UICONTROL Las pruebas multivariable] (MVT) requieren [!DNL Adobe Target] cierta planificación para poder crear una prueba con éxito.
 
-Para que las pruebas multivariable generen resultados útiles, es necesario disponer de tráfico suficiente. Antes de configurar la prueba, debe conocer la cantidad de tráfico que normalmente recibe, incluido el número de impresiones y conversiones. Con esta información, habrá menos probabilidades de que diseñe una prueba cuyos requisitos excedan el tráfico de su sitio.
+MVT requiere tráfico suficiente para generar resultados útiles. Antes de configurar la prueba, debe conocer la cantidad de tráfico que normalmente recibe, incluido el número de impresiones y conversiones. Con esta información, habrá menos probabilidades de que diseñe una prueba cuyos requisitos excedan el tráfico de su sitio.
 
 Es recomendable que los elementos sean independientes entre sí. (Por ejemplo, no realice una prueba del diseño y del contenido a la vez).
 
