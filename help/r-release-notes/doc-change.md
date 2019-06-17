@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,6 +21,15 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 17 de junio de 2019 | [Dirección URL de actividad](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | Se han actualizado el texto y las imágenes. |
+|  | [Crear combinaciones](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | Se han actualizado el texto y las imágenes. |
+|  | [Previsualizar experiencias para una prueba multivariable](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | Se han actualizado el texto y las imágenes. |
+|  | [Configuración y objetivos](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | Se han actualizado el texto y las imágenes. |
+|  | [Definir métricas](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | Se han actualizado el texto y la imagen. |
+|  | [Métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md) | Se han actualizado el texto y las imágenes. |
+|  | [Editar una actividad o guardar como borrador](/help/c-activities/edit-activity.md) | Se han actualizado el texto y las imágenes. |
+|  | [Registro de cambios de actividades](/help/c-activities/change-log.md) | Se han actualizado el texto y la imagen. |
+|  | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Se han actualizado el texto y las imágenes. |
 | 16 de junio de 2019 | [Crear una prueba multivariable](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | Se han actualizado el texto y las imágenes. |
 | 15 de junio de 2019 | [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Se han realizado pequeñas ediciones de texto. |
 |  | [Prácticas recomendadas de pruebas multivariable](/help/c-activities/c-multivariate-testing/best-practices.md) | Se han realizado pequeñas ediciones de texto. |
