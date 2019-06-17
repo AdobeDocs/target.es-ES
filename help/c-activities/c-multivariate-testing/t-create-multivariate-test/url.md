@@ -1,32 +1,32 @@
 ---
-description: La dirección URL de actividad determina la página que se usa en la prueba y que se abre cuando se diseña la prueba.
+description: La URL de actividad determina la página que se utiliza en la prueba multivariable (MVT) y que se abre cuando la prueba está diseñada en Target.
 keywords: Segmentación
-seo-description: La dirección URL de actividad determina la página que se usa en la prueba y que se abre cuando se diseña la prueba.
+seo-description: La URL de actividad determina la página que se utiliza en la prueba multivariable (MVT) y que se abre cuando la prueba está diseñada en Adobe Target.
 seo-title: Dirección URL de actividad
 solution: Target
 title: Dirección URL de actividad
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 ---
 
 
 # URL de actividad{#activity-url}
 
-La dirección URL de actividad determina la página que se usa en la prueba y que se abre cuando se diseña la prueba.
+La URL de actividad determina la página que se utiliza en la prueba [!Multivariada] (MVT) y que se abre cuando se diseña la prueba [!DNL Adobe Target].
 
-Cuando se le pida durante la creación de la actividad, indique la dirección URL de la actividad. Escriba la URL completa (incluido `https://`) y haga clic en **[!UICONTROL Crear actividad]**.
+Cuando se le pida durante [la creación](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)de la actividad, especifique la URL de actividad. Escriba la dirección URL completa (incluida `https://`) y haga clic **[!UICONTROL en Siguiente]**.
 
 >[!NOTE]
 >
 >[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `https://www.adobe.com`] como [!DNL `http://www.adobe.com`] coinciden.
 
-De manera predeterminada, el Compositor de experiencias visuales abre la página que se ha especificado en sus Preferencias de cuenta. Puede especificar una página diferente durante la creación de la actividad.
+De forma predeterminada, el [!UICONTROL Compositor] de experiencias visuales (VEC) abre la página que se especifica en Preferencias [de cuenta](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Puede especificar una página diferente durante la creación de la actividad.
 
-Para mostrar una página diferente después de que se abra el Compositor de experiencias visuales, haga clic en **[!UICONTROL Configurar]**, seleccione **[!UICONTROL URL]** y luego introduzca la URL en el cuadro URL de la actividad.
+Para mostrar una página diferente después de que se abra el VEC, haga clic en el icono **[!UICONTROL Configurar]** , luego seleccione Entrega **[!UICONTROL de página]** y, a continuación, especifique la dirección URL.
 
-![](assets/url-config.png)
+![Cuadro de diálogo Entrega de página](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
 Haga clic en **[!UICONTROL Agregar regla de plantilla]para agregar más páginas o secciones a la actividad.**
 
@@ -37,7 +37,7 @@ Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
 * Ruta
 * Fragmento hash (#)
 * Consulta
-* Parámetro de mbox
+* Parámetro
 
 Se pueden unir reglas adicionales a la dirección URL de la actividad con Y u O. Todas las reglas que agregue se evalúan entre sí con Y.
 
@@ -47,9 +47,8 @@ Haga clic en **[!UICONTROL Guardar]cuando haya finalizado.**
 >
 >Si escribe una dirección URL de un sitio que no incluye el código de JavaScript de Target Standard, no podrá seleccionar elementos de página.
 
-De manera predeterminada, el [!UICONTROL compositor de experiencias visuales] no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar **[!UICONTROL Representar con JavaScript]** si quiere modificar estos elementos con el [!UICONTROL compositor de experiencias visuales].
+De forma predeterminada, el VEC no permite cambios en elementos que contengan JavaScript, como banners rotativos. Puede desactivar **[!UICONTROL Representar con JavaScript]** si quiere modificar estos elementos con el [!UICONTROL compositor de experiencias visuales].
 
 >[!NOTE]
 >
 >Si cambia la dirección URL después de realizar cambios en una página para una o más experiencias, la experiencia se restablecerá con la nueva página y se perderán los cambios que haya realizado.
-
