@@ -7,7 +7,7 @@ solution: Target
 title: Añadir experiencia
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -39,7 +39,7 @@ Para obtener más información sobre las experiencias, consulte [Experiencias](.
    >
    >Si entrega una imagen desde un origen distinto a la página principal (por ejemplo, una imagen alojada en akamai.net y entregada en dell.com), dicha imagen no se mostrará en la miniatura de la página mostrada en el diagrama de flujo.
 
-1. Haga clic **[!Sen ave]** cuando termine de diseñar la experiencia.
+1. Haga clic **[!UICONTROL en Guardar]** cuando termine de diseñar la experiencia.
 
 ## Cambiar el nombre de la experiencia
 
