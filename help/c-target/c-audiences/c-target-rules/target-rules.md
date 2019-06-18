@@ -6,8 +6,8 @@ seo-title: Categorías para audiencias
 solution: Target
 title: Categorías para audiencias
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -22,11 +22,11 @@ Después de crear una regla, haga clic en **[!UICONTROL Guardar]**. Se mostrará
 
 Puede ajustar aún más la regla si agrega más condiciones o si crea reglas adicionales en otras categorías. Por ejemplo, para establecer como objetivo únicamente a los usuarios de Firefox de San Francisco que hayan accedido al sitio web desde Google, establezca que la categoría [!UICONTROL Geo] se dirija a los usuarios de San Francisco, que la categoría [!UICONTROL Comportamiento] de los visitantes se dirija a Firefox y [!UICONTROL Fuentes de tráfico] a Google. Todas las reglas creadas en las diferentes categorías se combinan con una condición “Y”. Para crear reglas de segmentación complejas que incluyan operaciones “O” de diferentes categorías, cree un objetivo de expresión.
 
-También puede segmentar parámetros de perfil personalizados y parámetros de `user.`. Para agregar una audiencia, haga clic en **[!UICONTROL Perfil del visitante]** y luego, en [!UICONTROL Parámetros de usuario personalizados] o [!UICONTROL Parámetros de perfil personalizados], en la lista desplegable [!UICONTROL Perfil del visitante], elija el parámetro que desea usar para segmentar la actividad. Si el parámetro que desea utilizar no está en la lista, significa que ningún mbox lo ha activado. Encontrará otros parámetros personalizados disponibles de mbox en la lista desplegable [!UICONTROL Parámetros personalizados].
+También puede segmentar parámetros de perfil personalizados y parámetros de `user.`. Al agregar una audiencia, haga clic **[!UICONTROL en Perfil del visitante]** y, a continuación, elija el parámetro que desee utilizar para dirigir la actividad. Si el parámetro que desea utilizar no está en la lista, significa que ningún mbox lo ha activado. Encontrará otros parámetros personalizados disponibles de mbox en la lista desplegable [!UICONTROL Parámetros personalizados].
 
 Use el cuadro de búsqueda para buscar la lista [!UICONTROL Audiencias]. Puede buscar cualquier parte del nombre de una audiencia, o bien encerrar entre comillas una cadena específica.
 
-Puede ordenar la lista de audiencias por nombre o por la fecha de la última modificación.
+Puede ordenar la lista de audiencias por nombre o por la fecha de la última modificación. Para ordenar por nombre o fecha, haga clic en el encabezado de columna y, a continuación, seleccione si quiere mostrar las audiencias en orden ascendente o descendente.
 
 ## Vídeo de formación: Creación de audiencias
 
@@ -35,5 +35,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
-
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
