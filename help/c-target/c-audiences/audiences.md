@@ -1,14 +1,14 @@
 ---
 description: Las audiencias determinan quién ve el contenido y las experiencias en una actividad segmentada.
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;segmentación de audiencia;informe de audiencia;audiencia de informe;segmento;parámetros de perfil personalizados;definición de audiencia;lista de audiencias
-seo-description: Las audiencias determinan quién ve el contenido y las experiencias en una actividad segmentada.
-seo-title: Crear audiencias
+seo-description: Las audiencias de Adobe Target determinan quién verá el contenido y las experiencias en una actividad segmentada.
+seo-title: Crear audiencias en Adobe Target
 solution: Target
 title: Crear audiencias
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -17,20 +17,22 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Las audiencias determinan quién ve el contenido y las experiencias en una actividad segmentada.
 
-Las audiencias se utilizan siempre que está disponible la determinación de objetivos. Cuando se segmenta una actividad, puede seleccionar una audiencia reutilizable de la lista [!UICONTROL Audiencias], crear una audiencia específica para una actividad y segmentarla o  [combinar varias audiencias](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad-hoc.
+Las audiencias se utilizan siempre que está disponible la determinación de objetivos. Al segmentar una actividad, puede seleccionar una audiencia reutilizable de la lista [!UICONTROL Audiencias] , [crear una audiencia específica de actividad](/help/c-target/creating-activity-only-audience.md) y segmentarla, o [combinar varias audiencias](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad-hoc.
 
-También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. Consulte [Audiencias en la documentación de producto Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/audience_library.html).
+También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. Consulte [Audiencias en la documentación del producto de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
 
 [!DNL Target] distingue dos tipos de audiencias:
 
 * **Audiencias de segmentación:** se usan para entregar distintos contenidos a varios tipos de visitantes.
 * **Audiencias de informes:** se usan para determinar cuántos tipos distintos de visitantes responden al mismo contenido y, así, analizar los resultados de las pruebas.
 
-   En [!DNL Target], las audiencias de informes solo se pueden configurar si se usa [!DNL Target] como fuente de informes. Si utiliza [ [!DNL Adobe Analytics] como fuente de informes (A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE), tiene que configurar la audiencia de informe en [!DNL Analytics].
+   En [!DNL Target], las audiencias de informes solo se pueden configurar si se usa [!DNL Target] como fuente de informes. Si utiliza [DNL Adobe Analytics como fuente de informes](/help/c-integrating-target-with-mac/a4t/a4t.md) (A 4 T), debe configurar las audiencias de informes dentro [!DNL Analytics]de.
+
+## Utilizar la lista Audiencias
 
 Para acceder a la lista [!UICONTROL Audiencias], haga clic en **[!UICONTROL Audiencias]en la barra de menús superior:**
 
-![](assets/audiences_list.png)
+![Lista de audiencias](assets/audiences_list.png)
 
 La lista [!UICONTROL Audiencias] contiene todas las audiencias que se pueden usar en las actividades. Utilice la lista [!UICONTROL Audiencias] para crear, editar, eliminar, copiar o combinar audiencias. La lista también muestra la fuente donde se creó la audiencia ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),], [!DNL Experience Cloud], etc.). No se puede cambiar el nombre a las audiencias predefinidas como “Nuevos visitantes” o “Visitantes que regresan”.
 
@@ -39,23 +41,23 @@ Al trabajar con audiencias que se crearon originalmente en AAM, Target le alerta
 * Si se eliminó una audiencia en AAM, se muestra un icono de advertencia tanto en la lista de [!UICONTROL Audiencias] como en el selector de audiencias. Una información sobre herramientas en la IU también indica que la audiencia se eliminó en AAM.
 * Si intenta combinar varias audiencias con una audiencia eliminada, o si intenta guardar una actividad que hace referencia a una audiencia eliminada, aparecerá un mensaje de advertencia.
 
-También puede segmentar parámetros de perfil personalizados y parámetros de `user.`. Para agregar una audiencia, haga clic en **[!UICONTROL Perfil del visitante]** y luego, en [!UICONTROL Parámetros de usuario personalizados] o [!UICONTROL Parámetros de perfil personalizados], en la lista desplegable [!UICONTROL Perfil del visitante], elija el parámetro que desea usar para segmentar la actividad. Si el parámetro que desea utilizar no está en la lista, significa que ningún mbox lo ha activado. Encontrará otros parámetros personalizados disponibles de mbox en la lista desplegable [!UICONTROL Parámetros personalizados].
+También puede segmentar parámetros de perfil personalizados y parámetros de `user.`. Al agregar una audiencia, haga clic **[!UICONTROL en Agregar regla]** &gt; **[!UICONTROL Perfil del visitante]** y, a continuación, elija el parámetro que desee utilizar para dirigir la actividad. Si el parámetro que desea utilizar no está en la lista, significa que ningún mbox lo ha activado. Encontrará otros parámetros personalizados disponibles de mbox en la lista desplegable [!UICONTROL Parámetros personalizados].
 
 Use el cuadro de búsqueda para buscar la lista [!UICONTROL Audiencias]. Puede buscar cualquier parte del nombre de una audiencia, o bien encerrar entre comillas una cadena específica.
 
 Puede ordenar la lista [!UICONTROL Audiencias] por nombre o por la fecha de la última modificación. Para ordenar por nombre o fecha, haga clic en el encabezado de columna y, a continuación, seleccione si quiere mostrar las audiencias en orden ascendente o descendente.
 
-## Visualización de la definición de las audiencias {#section_11B9C4A777E14D36BA1E925021945780}
+## Ver definiciones de audiencia {#section_11B9C4A777E14D36BA1E925021945780}
 
 En varios puntos de la interfaz de Target puede ver detalles de la definición de una audiencia en forma de tarjeta emergente, sin necesidad de abrir la audiencia. Esta funcionalidad se aplica a las audiencias creadas en Target Standard/Premium y a las importadas desde Target Classic o creadas mediante API.
 
 Por ejemplo, a la siguiente definición se accede pasando el puntero sobre una audiencia en la Lista de audiencias y haciendo clic en el icono Ver:
 
-![](assets/audience_definition_list.png)
+![Actividades &gt; Definición de audiencia](assets/audience_definition_list.png)
 
 A la siguiente definición de audiencia se accede haciendo clic en el icono Ver de la página Información general de una actividad:
 
-![](assets/audience_definition.png)
+![Actividades &gt; Definición de audiencia](assets/audience_definition_list.png)
 
 Haga clic en la pestaña [!UICONTROL Uso de la audiencia] para ver otras actividades que hacen referencia a esa audiencia, si es aplicable. De esta forma, puede evitar el impacto accidental en otras actividades mientras edita audiencias. La información incluye actividades en vivo, actividades inactivas, actividades archivadas y actividades de sincronización. Esta función está disponible para todas las audiencias (audiencias de biblioteca y  [audiencias solo de actividad](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
@@ -63,9 +65,9 @@ Si una audiencia se combina con otra audiencia y la audiencia combinada se usa p
 
 ![](assets/audience_definition_list_usage.png)
 
-La siguiente tarjeta de definición de audiencia corresponde a una audiencia importada desde Adobe Experience Cloud. En este caso, se importó desde Adobe Audience Manager (AAM). Fíjese en que Target no muestra información detallada de la definición de la audiencia porque dicha información no existe en Target.
+La siguiente tarjeta de definición de audiencia corresponde a una audiencia importada desde Adobe Experience Cloud. En este caso, se importó desde Adobe Audience Manager (AAM).
 
-![](assets/audience_definition_mc.png)
+![Ficha Uso en la tarjeta de Definición de audiencia](assets/audience_definition_mc.png)
 
 Estos tipos de audiencia importada cuentan con los siguientes detalles:
 
@@ -90,4 +92,4 @@ Este vídeo contiene información sobre el uso de las audiencias.
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=spa)
