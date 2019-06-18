@@ -1,21 +1,21 @@
 ---
-description: Puede segmentar por dispositivo móvil en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (en píxeles) y muchos más.
+description: Cree audiencias para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (por píxeles), etc.
 keywords: segmentación;móvil;segmentar por móvil;deviceatlas;iPhone;modelos de iPhone;device atlas;anchuradepantalla;anchura de pantalla;altura de pantalla;tipo de dispositivo;alturadepantalla;teléfono;tablet;modelo de dispositivo
-seo-description: Puede segmentar por dispositivo móvil en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (en píxeles) y muchos más.
-seo-title: Móvil
+seo-description: Cree audiencias en Adobe Target para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (por píxeles), etc.
+seo-title: Audiencia móvil en Adobe Target
 solution: Target
 title: Móvil
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Móvil{#mobile}
 
-Puede segmentar por dispositivo móvil en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (en píxeles) y muchos más.
+Cree audiencias para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (por píxeles), etc.
 
 Por ejemplo, es posible que quiera mostrar contenido distinto a los usuarios cuando acceden a su página desde un teléfono con respecto a cuando acceden desde un equipo. En ese caso, puede elegir la audiencia de dispositivos móviles y seleccionar la opción **[!UICONTROL Es un teléfono móvil]. Después, puede agregar cualquier detalle específico que sea importante para usted, como el tipo de teléfono, el tamaño de la pantalla (en píxeles), etc.**
 
@@ -44,9 +44,6 @@ Los clientes que utilicen una integración personalizada (sin usar at.js o el SD
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
 1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Móvil]**.
-
-   ![](assets/target_mobile.png)
-
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
    * Nombre de marketing del dispositivo
@@ -70,6 +67,10 @@ Los clientes que utilicen una integración personalizada (sin usar at.js o el SD
 
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+La siguiente ilustración muestra una audiencia segmentada por visitantes que utilizan dispositivos fabricados por Google que son dispositivos móviles.
+
+![Dispositivos móviles de Target](assets/target_mobile.png)
 
 ## Vídeo de formación: Creación de audiencias
 
