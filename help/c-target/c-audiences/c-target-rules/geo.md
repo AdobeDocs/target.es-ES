@@ -1,31 +1,29 @@
 ---
-description: Usuarios de Target según su ubicación geográfica, incluidos país, estado/provincia, ciudad, código postal, DMA y operador de telefonía móvil.
+description: Utilice audiencias para dirigirse a usuarios según su ubicación geográfica, incluidos su país, estado/provincia, ciudad, código postal, DMA o operador de telefonía móvil.
 keywords: segmentación;a4t;segmentación geográfica;geografía;precisión de segmentación geográfica;país;estado;ciudad;código postal;dma;operador de telefonía móvil;códigos de ciudad;códigos regionales;códigos de país;códigos de metro;scripts de perfil;scripts de perfil de segmentación geográfica;segmentación geográfica móvil
-seo-description: Usuarios de Target según su ubicación geográfica, incluidos país, estado/provincia, ciudad, código postal, DMA y operador de telefonía móvil.
+seo-description: Utilice las audiencias de Adobe Target para dirigirse a los usuarios según su ubicación geográfica, incluidos su país, estado/provincia, ciudad, código postal, DMA o operador de telefonía móvil.
 seo-title: Geografía
 solution: Target,Analytics
-title: Geografía
+title: Geografía segmentación en Adobe Target
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Segmentación geográfica{#geo}
 
-Usuarios de Target según su ubicación geográfica, incluidos país, estado/provincia, ciudad, código postal, DMA y operador de telefonía móvil.
+Utilice audiencias para dirigirse a usuarios según su ubicación geográfica, incluidos su país, estado/provincia, ciudad, código postal, DMA o operador de telefonía móvil.
 
-Los parámetros de ubicación geográfica permiten segmentar las actividades y experiencias en función de la ubicación geográfica de los visitantes. Puede incluir o excluir a visitantes en función de su país, estado/provincia, ciudad, código postal, DMA u operador de telefonía móvil. Estos datos se envían con cada petición de mbox y se basan en la dirección IP del visitante. Seleccione estos parámetros igual que cualquier otro valor de segmentación.
+Los parámetros de ubicación geográfica permiten segmentar las actividades y experiencias en función de la ubicación geográfica de los visitantes. Puede incluir o excluir visitantes en función de su país, estado/provincia, ciudad, código postal, latitud, longitud, DMA o operador de telefonía móvil. Estos datos se envían con cada solicitud de Target y se basan en la dirección IP del visitante. Seleccione estos parámetros igual que cualquier otro valor de segmentación.
 
 ## Crear una audiencia con segmentación geográfica  {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
 1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Geografía]**.
-
-   ![](assets/target_geo.png)
 
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
@@ -41,14 +39,19 @@ Los parámetros de ubicación geográfica permiten segmentar las actividades y e
 
    Para el operador de telefonía móvil, [!DNL Target] utiliza los datos de registro de la dirección IP (a quien pertenece el bloque de direcciones IP) para determinar el operador de telefonía móvil correspondiente mediante los códigos de país móviles [(MCC, Mobile Country Codes) y códigos de red móviles (MNC, Mobile Network Codes)](https://www.mcc-mnc.com).
 
+1. Especifique un operador y el valor adecuado.
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
+La siguiente ilustración muestra una audiencia dirigida a usuarios que acceden a la actividad desde una latitud superior a 44 grados y una longitud inferior a 22 grados.
+
+![](assets/target_geo.png)
+
 ## Precisión {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La precisión de la segmentación geográfica depende de varios factores. Las conexiones WiFi son más precisas que las redes móviles. Cuando el visitante está usando una conexión de datos móviles, la precisión de la búsqueda geográfica puede verse afectada por la ubicación, la relación de datos del proveedor con deviceatlas y otros factores. Las conexiones de redes basadas en torres celulares pueden ser menos precisas que las conexiones cableadas o WiFi. Además, la dirección IP de un usuario puede asignarse a su ubicación ISP, que quizás no coincida con la ubicación real del visitante. Algunos problemas de localización geográfica móvil se pueden resolver con [la API de geolocalización](https://developer.mozilla.org/es-ES/docs/Web/API/Geolocation_API).
+La precisión de la segmentación geográfica depende de varios factores. Las conexiones WiFi son más precisas que las redes móviles. Cuando el visitante utiliza una conexión de datos móviles, la precisión de la búsqueda geográfica puede verse afectada por la ubicación, la relación de datos del proveedor con [deviceatlas](https://deviceatlas.com/device-data/user-agent-tester)y otros factores. Las conexiones de redes basadas en torres celulares pueden ser menos precisas que las conexiones cableadas o WiFi. Además, la dirección IP de un usuario puede asignarse a su ubicación ISP, que quizás no coincida con la ubicación real del visitante. Algunos problemas de localización geográfica móvil se pueden resolver mediante la API [de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
-En la tabla siguiente se muestra la precisión de la información geográfica basada en IP desde [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexiones a Internet por cable o por WiFi. DigitalEnvoy proporciona los datos más precisos de la industria. La precisión global es de más del 99,9 por ciento en el ámbito de país y de hasta el 97 por ciento en el ámbito de ciudad. La información de precisión no se aplica a redes basadas en torres celulares.
+En la tabla siguiente se muestra la precisión de la información geográfica basada en IP desde [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexiones a Internet cableadas o WiFi. DigitalEnvoy proporciona los datos más precisos de la industria. La precisión global es de más del 99,9 por ciento en el ámbito de país y de hasta el 97 por ciento en el ámbito de ciudad. La información de precisión no se aplica a redes basadas en torres celulares.
 
 | País | Estado | Ciudad | Región |
 |--- |--- |--- |--- |
@@ -112,7 +115,7 @@ Por ejemplo, use:
 
 **¿Cómo funciona la segmentación geográfica en los dispositivos móviles?**
 
-La amplia mayoría de los usuarios de dispositivos móviles accede al contenido a través de una red WiFi, lo que significa que la segmentación geográfica basada en la IP de Target es tan precisa como en un equipo de escritorio. Las conexiones basadas en torres celulares pueden ser menos exactas porque la dirección IP del visitante se basa en la torre de donde se está recibiendo la señal. Algunos problemas de localización geográfica móvil se pueden resolver con [la API de geolocalización](https://developer.mozilla.org/es-ES/docs/Web/API/Geolocation_API).
+La amplia mayoría de los usuarios de dispositivos móviles accede al contenido a través de una red WiFi, lo que significa que la segmentación geográfica basada en la IP de Target es tan precisa como en un equipo de escritorio. Las conexiones basadas en torres celulares pueden ser menos exactas porque la dirección IP del visitante se basa en la torre de donde se está recibiendo la señal. Algunos problemas de localización geográfica móvil se pueden resolver mediante la API [de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **¿Cómo gestiona la función geográfica los visitantes de AOL?**
 
@@ -127,7 +130,7 @@ Debido a la forma en la que AOL dirige su tráfico, solo podemos segmentarlo a n
 * DMA/ITV (Reino Unido): EE. UU., Reino Unido
 * Operador de telefonía móvil - global
 
-**¿Cómo puedo probar las campañas si soy un usuario de una ubicación diferente?**
+**¿Cómo puedo probar mis actividades como si soy un usuario de una ubicación diferente?**
 
 Puede sustituir su dirección IP por una dirección IP de una ubicación diferente y usar el parámetro `mboxOverride.browserIp url`. Así pues, si su empresa está en el Reino Unido, pero la campaña global está dirigida a visitantes de Auckland, Nueva Zelanda, deberá usar este estilo de URL suponiendo que `60.234.0.39` sea una dirección IP de Auckland:
 
@@ -146,4 +149,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
