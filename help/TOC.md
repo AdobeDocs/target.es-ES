@@ -307,7 +307,7 @@ source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
       + [Cargar contenido](c-experiences/c-manage-content/assets-upload.md)
       + [Crear ofertas de redireccionamiento](c-experiences/c-manage-content/offer-redirect.md)
       + [Crear ofertas remotas](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md).
+      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md)
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Buscar contenido y crear colecciones inteligentes](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transferir datos dinámicos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
