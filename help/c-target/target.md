@@ -1,24 +1,24 @@
 ---
-description: Para optimizar el marketing web, puede segmentar contenido y experiencias diferentes para determinadas audiencias mostrando los mensajes adecuados para cada tipo de persona y en el momento adecuado.
+description: Utilice audiencias para segmentar contenido y experiencias diferentes para determinadas audiencias a fin de optimizar el marketing web mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado.
 keywords: Segmentación;audiencias;segmento de porcentaje
-seo-description: Para optimizar el marketing web, puede segmentar contenido y experiencias diferentes para determinadas audiencias mostrando los mensajes adecuados para cada tipo de persona y en el momento adecuado.
-seo-title: Audiencias
+seo-description: Utilice audiencias de Adobe Target para dirigir contenido y experiencias diferentes a audiencias específicas a fin de optimizar el marketing web mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado.
+seo-title: Audiencias en Adobe Target
 solution: Target
 title: Audiencias
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Audiencias{#audiences}
 
-Para optimizar el marketing web, puede segmentar contenido y experiencias diferentes para determinadas audiencias mostrando los mensajes adecuados para cada tipo de persona y en el momento adecuado.
+Utilice audiencias para segmentar contenido y experiencias diferentes para determinadas audiencias a fin de optimizar el marketing web mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado.
 
-Una audiencia es un grupo de participantes de actividades similares que verán una actividad segmentada. Grupo de personas con las mismas características, como un visitante nuevo, un visitante reincidente o visitantes que regresan desde Midwest. La función Audiencia le permite dirigir contenido y experiencias diferentes a audiencias específicas para optimizar su marketing digital mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará, según los criterios definidos durante la creación de la actividad.
+Una audiencia es un grupo de participantes de actividades similares que verán una actividad segmentada. Una audiencia es un grupo de personas con las mismas características, como un visitante nuevo, un visitante reincidente o visitantes que regresan desde Midwest. La función Audiencia le permite dirigir contenido y experiencias diferentes a audiencias específicas para optimizar su marketing digital mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará, según los criterios definidos durante la creación de la actividad.
 
-De manera predeterminada, el tráfico se divide a partes iguales entre las experiencias. Sin embargo, puede especificar    segmentos de porcentaje para cada experiencia.
+De manera predeterminada, el tráfico se divide a partes iguales entre las experiencias. Sin embargo, puede especificar  segmentos de porcentaje para cada experiencia.
 
 Los objetivos también pueden basarse en reglas. Un segmento basado en reglas se basa en información recopilada sobre el visitante, como la ubicación de los visitantes, el navegador, el sistema operativo, el dispositivo móvil u otros datos.
 
@@ -28,7 +28,7 @@ Cuando un visitante llega a una página donde ha configurado una actividad, [!DN
 
 Si el visitante cumple los criterios para pertenecer a una audiencia segmentada, [!DNL Target] determina qué experiencia se mostrará según los criterios definidos cuando se creó la actividad.
 
-## Vídeo de formación: Segmentación de actividades (2:13)
+## Vídeo de formación: Segmentación de actividades  (2:13)
 
 Este vídeo incluye información sobre cómo configurar la segmentación y las audiencias.
 
@@ -37,4 +37,4 @@ Este vídeo incluye información sobre cómo configurar la segmentación y las a
 * Seleccionar el método de asignación de tráfico
 * Asignar tráfico entre distintas experiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=spa)
