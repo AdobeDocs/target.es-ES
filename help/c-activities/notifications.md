@@ -7,8 +7,8 @@ solution: Target
 title: Notificaciones de actividades
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -19,11 +19,11 @@ Target puede intercambiar notificaciones con otras soluciones de Adobe Experienc
 
 Las notificaciones de [!DNL Target] se pueden ver en todas las soluciones los usuarios que tengan un [!DNL Experience Cloud] contexto de producto de [!DNL Target Standard/Premium].
 
-Para obtener más información sobre la configuración de Notificaciones, consulte [Notificaciones](https://marketing.adobe.com/resources/help/es_ES/mcloud/notifications.html) en la[!DNL Adobe Experience Cloud] documentación.
+Para obtener más información acerca de la configuración de Notificaciones, consulte [Notificaciones](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) en [!DNL Adobe Experience Cloud] la documentación.
 
 Obtenga acceso a las Notificaciones desde cualquier lugar en [!DNL Target], excepto desde dentro del flujo de trabajo de creación de actividades. Haga clic en el icono de la campana que hay en el encabezado de la página para mostrar u ocultar el widget de notificaciones.
 
-![](assets/notifications-shell.png)
+![Icono de notificaciones](assets/notifications-shell.png)
 
 [!DNL Target] envía dos tipos de notificaciones para todos los tipos de actividad:
 
