@@ -1,22 +1,22 @@
 ---
-description: Segmente a los visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
+description: Crear audiencias para dirigirse a visitantes según el motor de búsqueda o la página de aterrizaje que les lleve al sitio.
 keywords: Segmentación;fuentes de tráfico;fuentes de tráfico de Target;motor de búsqueda Target;motor de búsqueda;página de destino;página de destino Target;página de destino de referencia
-seo-description: Segmente a los visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
-seo-title: Informe de
+seo-description: Crear audiencias en Adobe Target para dirigirse a visitantes según el motor de búsqueda o la página de aterrizaje que les lleve a su sitio.
+seo-title: Fuentes de tráfico de Target en Adobe Target
 solution: Target
 title: Informe de
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Fuentes de tráfico {#traffic-sources}
 
-Segmente a los visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
+Crear audiencias para dirigirse a visitantes según el motor de búsqueda o la página de aterrizaje que les lleve al sitio.
 
-Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la página de aterrizaje de referencia del visitante. La página de aterrizaje de referencia es la página en la que hace clic para acceder al sitio actual en esta sesión. (Por ejemplo, si hace clic en una publicidad que se encuentra en Google y se le dirige a la página principal de [!DNL adobe.com], entonces la página de aterrizaje de referencia es [!DNL google.com]).
+Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la página de aterrizaje de referencia del visitante. La página de aterrizaje referente es la página donde hizo clic el visitante para llegar al sitio actual en esta sesión. (Por ejemplo, si el visitante hizo clic en una publicidad en Google y se dirige a la página `adobe.com` principal, entonces es `google.com`la página de aterrizaje referente).
 
 Puede combinar varias fuentes de tráfico para crear una regla de segmentación compleja.
 
@@ -35,6 +35,7 @@ Puede combinar varias fuentes de tráfico para crear una regla de segmentación 
    * Página de aterrizaje que deriva: dirección URL
    * Página de aterrizaje que deriva: dominio
    * Página de aterrizaje que deriva: consulta
+   Según su selección, es posible que necesite proporcionar información adicional (evaluador y/o valores).
 
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
@@ -48,4 +49,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
