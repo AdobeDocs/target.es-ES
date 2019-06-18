@@ -7,8 +7,8 @@ solution: Target
 title: Crear audiencias en Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -27,13 +27,13 @@ Cuando se combinan reglas o parámetros con O, cualquier miembro potencial de la
 
 Puede combinar ambos operadores booleanos para crear reglas complejas; sin embargo, los operadores del mismo nivel de regla deben coincidir. La interfaz de usuario se aplica automáticamente al operador correcto.
 
-Por ejemplo, la siguiente regla segmenta los visitantes que usan Chrome o Firefox en un equipo Windows:
+Por ejemplo, la regla siguiente segmenta a los visitantes que usan Chrome *o* Firefox en un equipo Windows:
 
-![](assets/audience_create.png)
+![Crear audiencia](assets/audience_create.png)
 
 >[!NOTE]
 >
->Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con los navegadores X e Y simultáneamente.
+>Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con Chrome *y* Firefox simultáneamente.
 
 ## Creación de una nueva audiencia
 
@@ -66,4 +66,4 @@ Este vídeo contiene información sobre la creación de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
