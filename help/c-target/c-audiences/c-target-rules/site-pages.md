@@ -7,8 +7,8 @@ solution: Target
 title: Páginas del sitio
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -25,7 +25,7 @@ Segmente a los visitantes que estén en una página concreta o que tengan un par
 1. Ponga un nombre a la audiencia.
 1. Haga clic en **[!UICONTROL Añadir regla]** &gt; **[!UICONTROL Páginas de sitio]**.
 
-   ![](assets/target_site_pages.png)
+   ![Audiencia de páginas del sitio](assets/target_site_pages.png)
 
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
@@ -64,4 +64,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
