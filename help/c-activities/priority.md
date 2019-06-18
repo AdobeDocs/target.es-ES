@@ -7,8 +7,8 @@ solution: Target
 title: Prioridad
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -139,4 +139,4 @@ Este vídeo incluye información sobre la configuración de las actividades.
 * Añadir audiencias para los informes a fin de crear filtros de informes
 * Escribir notas en las actividades
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=spa)
