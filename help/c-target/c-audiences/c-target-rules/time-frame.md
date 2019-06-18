@@ -6,8 +6,8 @@ seo-title: Periodo de tiempo
 solution: Target
 title: Periodo de tiempo
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -36,11 +36,11 @@ Por ejemplo, con las [funciones de audiencias combinadas específicas](../../../
 
 1. (Condicional) Haga clic en **[!UICONTROL Partición por semana y día]para establecer patrones recurrentes, incluyendo los días de las semanas y las horas.**
 
-   ![](assets/week_and_day_parting.png)
+   ![División por semana y día](assets/week_and_day_parting.png)
 
    Las opciones de Partición por semana y día se pueden usar, por ejemplo, para mostrar la opción “Chatear ahora” a los visitantes solo durante los días y las horas laborables de su centro de llamadas.
 
-   Seleccione uno o varios días de la semana y luego defina las horas de inicio y fin. Haga clic en [!UICONTROL Añadir más] para especificar otros patrones si lo desea.
+   Seleccione uno o varios días de la semana y luego defina las horas de inicio y fin. Haga clic en **[!UICONTROL Añadir más]para especificar otros patrones si lo desea.**
 
    >[!NOTE]
    >
@@ -59,4 +59,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
