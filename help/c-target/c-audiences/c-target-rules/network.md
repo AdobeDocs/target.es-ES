@@ -1,13 +1,13 @@
 ---
 description: Puede crear audiencias que estén basadas en datos de la red.
 keywords: segmentación;red;red de target;isp;nombre de dominio;velocidad de conexión;isp de target;nombre de dominio de target;velocidad de conexión de target
-seo-description: Puede crear audiencias que estén basadas en datos de la red.
-seo-title: Red
+seo-description: Puede crear audiencias en Adobe Target basándose en los detalles de la red.
+seo-title: Cree audiencias en Adobe Target basándose en los detalles de la red.
 solution: Target
 title: Red
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -19,12 +19,9 @@ Puede crear audiencias que estén basadas en datos de la red.
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
 1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Red]**.
-
-   ![](assets/target_network.png)
-
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
-   * **ISP: **Un ISP es una organización que proporciona acceso a Internet a sus suscriptores, generalmente por una tarifa mensual o anual. Muchos ISP proporcionan servicios adicionales, como hospedaje web o correo electrónico. El campo ISP es un ISP comercial (como Comcast o TimeWarner) u otra entidad como una institución comercial o educativa.
+   * **ISP:** un ISP es una organización que proporciona acceso a Internet a sus suscriptores, generalmente por una tarifa mensual o anual. Muchos ISP proporcionan servicios adicionales, como hospedaje web o correo electrónico. El campo ISP es un ISP comercial (como Comcast o TimeWarner) u otra entidad como una institución comercial o educativa.
 
       Los siguientes son algunos ejemplos de ISP populares en los Estados Unidos:
 
@@ -48,17 +45,19 @@ Puede crear audiencias que estén basadas en datos de la red.
       >
       >Al segmentar en función del ISP, use el nombre del ISP, no el nombre popular. Asegúrese de que la regla no distingue entre mayúsculas y minúsculas o utilice siempre minúsculas.
 
-      Si desea ver más ISP en esta tabla, comuníquese con el Servicio de atención al cliente con su sugerencia.
+      Puede probar los valores de ISP y nombre de dominio. [](https://www.whoismyisp.org)https://www.whoismyisp.org es un buen recurso para fines de segmentación. Puede usar las direcciones IP de ejemplo que aparecen en la tabla anterior o escribir sus propias direcciones. A continuación use el parámetro `themboxOverride.browserIp= URL` para imitar la dirección IP.
 
-      Puede probar los valores de ISP y nombre de dominio. [https://www.whoismyisp.org](https://www.whoismyisp.org) es un buen recurso para fines de segmentación. Puede usar las direcciones IP de ejemplo que aparecen en la tabla anterior o escribir sus propias direcciones. A continuación use el parámetro `themboxOverride.browserIp= URL` para imitar la dirección IP.
-
-   * **Nombre de dominio: **es el nombre de dominio de la dirección IP del visitante. No es el nombre de dominio del sitio web que está usando con [!DNL Target]. Este nombre de dominio está relacionado con la dirección IP del visitante y a veces se denomina nombre de host. Generalmente es muy similar al nombre de ISP. A veces el nombre de host hace referencia a nombres más antiguos de compañías que han cambiado el nombre de marca de su ISP pero no el nombre de dominio.
+   * **Nombre de dominio:** es el nombre de dominio de la dirección IP del visitante. No es el nombre de dominio del sitio web que está usando con [!DNL Target]. Este nombre de dominio está relacionado con la dirección IP del visitante y a veces se denomina nombre de host. Generalmente es muy similar al nombre de ISP. A veces el nombre de host hace referencia a nombres más antiguos de compañías que han cambiado el nombre de marca de su ISP pero no el nombre de dominio.
    * **Velocidad de conexión:** es la velocidad de la conexión a Internet del visitante. Las opciones incluyen: banda ancha, cable, acceso telefónico, móvil, oc3, oc12, satélite, t1, t2, inalámbrico y xdsl.
 
       Este campo está basado en el tipo de conexión y no en la velocidad real. [!DNL Target] no puede determinar las velocidades exactas de la conexión. El tipo de conexión Banda ancha se usa cuando no existe indicación de otros tipos de conexión, por lo que no se puede elegir un tipo específico.
 
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+La siguiente ilustración muestra una audiencia dirigida a visitantes que utilizan AT &amp; T con una velocidad de conexión [!UICONTROL móvil].
+
+![Objetivo de red](assets/target_network.png)
 
 ## Vídeo de formación: Creación de audiencias
 
@@ -67,4 +66,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
