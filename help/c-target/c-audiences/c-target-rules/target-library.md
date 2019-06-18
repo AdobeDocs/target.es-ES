@@ -6,8 +6,8 @@ seo-title: Biblioteca de segmentos
 solution: Target
 title: Biblioteca de segmentos
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -26,13 +26,13 @@ Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audien
 1. Ponga un nombre a la audiencia.
 1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Biblioteca de segmentos]**.
 
-   ![](assets/target_library.png)
+   ![Biblioteca de segmentos](assets/target_library.png)
 
 1. Haga clic en **[!UICONTROL Seleccionar]** y seleccione una regla de segmentación prediseñada.
 
    Las reglas de segmentación prediseñadas incluyen Sistema operativo Windows, Dispositivo de tableta, Navegador Safari, Visitantes que repiten, Remitidos desde Google, etc.
 
-   La audiencia predefinida “Tableta” ya cualifica cuando el agente usuario contiene una de las siguientes cadenas (algunas de las cuales son números de modelos de dispositivos). No es necesario crear reglas de segmentación personalizadas para estos dispositivos.
+   La audiencia predefinida &quot;Tableta&quot; ya cumple los requisitos cuando el agente de usuario contiene una de las siguientes cadenas (algunos de los cuales son números de modelos de dispositivos). No es necesario crear reglas de segmentación personalizadas para estos dispositivos.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 y Tablet PC.
 
@@ -46,4 +46,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
