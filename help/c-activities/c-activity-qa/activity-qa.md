@@ -7,8 +7,8 @@ solution: Target
 title: Control de calidad de la actividad
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -31,11 +31,11 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
 1. En la página [!UICONTROL Información general] de una actividad (de cualquier tipo excepto Personalización automatizada), haga clic en el vínculo **[!UICONTROL Control de calidad de la actividad].**
 
-   ![](assets/qa_link.png)
+   ![Vínculo de control de calidad de la actividad](assets/qa_link.png)
 
 1. Configure los siguientes ajustes:
 
-   ![](assets/qa_link_config.png)
+   ![Opciones de configuración de vínculo de control de calidad](assets/qa_link_config.png)
 
    * **Hacer coincidir reglas de audiencias para ver las experiencias:** en ocasiones se quiere confirmar que la coincidencia de audiencias funcione. Otra veces, solo se quiere comprobar el aspecto de la actividad. Si esta opción está activada, los analistas deben cumplir los requisitos de segmentación para poder ver las experiencias. En el caso de actividades de Segmentación de experiencias (XT), se proporciona una única URL de actividad. La experiencia que se ve la determina el cumplimiento de alguna de las reglas de segmentación.
 
@@ -59,7 +59,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
 ## Consideraciones {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* El vínculo [!UICONTROL Control de calidad de la actividad] aparece en la página [!UICONTROL Información general] de todos los tipos de actividad excepto Personalización automatizada (AP). Puede usar  [Vínculos de vista previa](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) para actividades AP.
+* El vínculo [!UICONTROL Control de calidad de la actividad] aparece en la página [!UICONTROL Información general] de todos los tipos de actividad excepto Personalización automatizada (AP). Puede usar [Vínculos de vista previa](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) para actividades AP.
 * Las URL de control de calidad de la actividad están disponibles con actividades que tienen Analytics como fuente de informes (A4T). Las visitas generadas mientras se realiza un control de calidad utilizando el control de calidad de la actividad fluirán al mismo grupo de informes al que llegan los datos de la actividad, incluso después de activarse esta última.
 * El control de calidad de la actividad no muestra contenido para actividades archivadas o ya caducadas. Si desactiva una actividad terminada, debe guardar la actividad de nuevo para que el control de calidad de la actividad funcione.
 * Las actividades importadas en Target Standard/Premium (desde Target Classic, por ejemplo) no admiten direcciones URL de control de calidad.
