@@ -1,13 +1,13 @@
 ---
 description: Elija una métrica de éxito que permita al usuario entrar en la audiencia de informes.
 keywords: Segmentación;audiencia;informe;métrica de éxito
-seo-description: Elija una métrica de éxito que permita al usuario entrar en la audiencia de informes.
-seo-title: Aplicación de una audiencia de informes a una métrica de éxito
+seo-description: Elija una métrica de éxito en Adobe Target que cualifique al usuario para la audiencia de informes.
+seo-title: Aplicación de una audiencia de informes a una métrica de éxito en Adobe Target
 solution: Target
 title: Aplicación de una audiencia de informes a una métrica de éxito
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
