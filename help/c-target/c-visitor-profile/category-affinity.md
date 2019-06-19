@@ -1,14 +1,14 @@
 ---
 description: La función de afinidad de la categoría captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de forma que se pueda establecer como objetivo y se le apliquen segmentos. Esto contribuye a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de realizar alguna acción a partir de esa información.
 keywords: afinidad;afinidad de la categoría
-seo-description: La función de afinidad de la categoría captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de forma que se pueda establecer como objetivo y se le apliquen segmentos. Esto contribuye a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de realizar alguna acción a partir de esa información.
-seo-title: Afinidad de la categoría
+seo-description: La función de afinidad de la categoría de Adobe Target captura automáticamente las categorías que visitan los usuarios y calcula la afinidad del usuario hacia la categoría para que se pueda segmentar y segmentarla. Esto contribuye a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de realizar alguna acción a partir de esa información.
+seo-title: Uso de afinidad de la categoría en Adobe Target
 solution: Target
 title: Afinidad de la categoría
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -52,9 +52,9 @@ El algoritmo de afinidad de la categoría funciona de la siguiente forma:
 * Si se hace clic en una sexta categoría nueva, se abandona la categoría con menos puntos de entre las primeras cinco categorías del cálculo.
 * Al final de la sesión, se dividen todos los valores entre 2.
 
-### Ejemplo: algoritmo de afinidad de categoría
+### Ejemplo: algoritmo de afinidad de la categoría
 
-Por ejemplo, si ve `mens-clothing` la categoría y luego `accessories`vuelve `jewelry`a entrar en `accessories` una sesión, resulta en afinidades de:
+Por ejemplo, si ve la categoría `mens-clothing` y luego `accessories`, después `jewelry` y después de nuevo `accessories` en una sesión, resultan las afinidades:
 
 * `accessories`: 9 (+5 – 1 + 5)
 
@@ -62,39 +62,39 @@ Por ejemplo, si ve `mens-clothing` la categoría y luego `accessories`vuelve `je
 
 * `jewelry`: 5 (+5)
 
-Cuando la sesión termina y el usuario vuelve al sitio, las puntuaciones se reducen:
+Cuando la sesión termina y el usuario vuelve al sitio, las puntuaciones se reducen a la mitad:
 
-* `accessories`: 4.5 (9/2)
+* `accessories`: 4,5 (9/2)
 
 * `mens-clothing`: 4 (8/2)
 
-* `jewelry`: 2.5 (5/2)
+* `jewelry`: 2,5 (5/2)
 
-Suponiendo que el usuario ve, en orden, `jewelry``accessories``beauty``shoes`y `womens-clothing`:
+Suponiendo que el usuario ve, en orden, `jewelry`, `accessories`, `beauty`, `shoes` y `womens-clothing`:
 
-* `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
+* `accessories`: 6,5 (4,5 + 5 – 1 – 1 – 1)
 
 * `womens-clothing`: 5 (+5)
 
-* `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
+* `jewelry`: 4,5 (2,5 + 5 – 1 – 1 – 1)
 
 * `shoes`: 4 (+5 – 1)
 
-* `beauty`: 3 (+5 – 1 - 1)
+* `beauty`: 3 (+5 – 1 – 1)
 
-* `mens-clothing` se borra después del último clic de `womens-clothing` la categoría de puntuación inferior con una puntuación de 1 (4 - 1 - 1 - 1)
+* `mens-clothing` se elimina después del último clic en `womens-clothing` como la categoría de puntuación inferior, con una puntuación de 1 (4 – 1 – 1 – 1)
 
-Cuando la sesión termina y el usuario vuelve al sitio, las puntuaciones se reducen:
+Cuando la sesión termina y el usuario vuelve al sitio, las puntuaciones se reducen a la mitad:
 
-* `accessories`: 3.3 (6.5/2)
+* `accessories`: 3,3 (6,5/2)
 
-* `womens-clothing`: 2.5 (5/2)
+* `womens-clothing`: 2,5 (5/2)
 
-* `jewelry`: 2.3 (4.5/2)
+* `jewelry`: 2,3 (4,5/2)
 
 * `shoes`: 2 (4/2)
 
-* `beauty`: 1.5 (3/2)
+* `beauty`: 1,5 (3/2)
 
 ## Usar la afinidad de la categoría para segmentar {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
@@ -117,9 +117,13 @@ Esta sección contiene la información siguiente:
 1. Haga clic en **[!UICONTROL + Agregar regla]** &gt; **[!UICONTROL Perfil del visitante]**.
 1. En la lista desplegable **[!UICONTROL Perfil del visitante]**, seleccione **[!UICONTROL Afinidad de la categoría]**.
 
-   ![](assets/affinity.png)
+   ![Perfil del visitante &gt; Afinidad de la categoría](assets/affinity.png)
 
 1. Seleccione la categoría que quiera:
+
+   ![Afinidad de la categoría &gt; Categoría](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+
+   Las categorías incluyen:
 
    * Categoría favorita
    * Primera categoría
