@@ -1,21 +1,21 @@
 ---
-description: Defina una audiencia con el fin de comparar dos atributos de perfil para su biblioteca de audiencias o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
+description: Defina una audiencia para comparar dos atributos de perfil para la biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
 keywords: audiencia;inclinación;atributo de perfil;comparar;comparación;crear audiencia;creación de audiencia
-seo-description: Defina una audiencia con el fin de comparar dos atributos de perfil para su biblioteca de audiencias o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
-seo-title: Crear una audiencia de comparación de atributos de perfil
+seo-description: Defina una audiencia para comparar dos atributos de perfil para la biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
+seo-title: Crear una audiencia de comparación de atributos de perfil en Adobe Target
 solution: Target
 title: Crear una audiencia de comparación de atributos de perfil
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
 
 # Crear una audiencia de comparación de atributos de perfil{#create-a-profile-attribute-comparison-audience}
 
-Defina una audiencia con el fin de comparar dos atributos de perfil para su biblioteca de audiencias o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
+Defina una audiencia para comparar dos atributos de perfil para la biblioteca [de audiencias](/help/c-target/c-audiences/audiences.md) o en una audiencia [solo de actividad](/help/c-target/creating-activity-only-audience.md). Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
 
 >[!NOTE]
 >
@@ -32,24 +32,24 @@ Por ejemplo, supongamos que trabaja para una empresa de muebles y que ha cargado
 
 Podría crear una audiencia definida como que la inclinación a comprar mobiliario de comedor es mayor que la inclinación a comprar mobiliario de salón. A continuación, Target compara dinámicamente las puntuaciones de inclinación hacia comedor y salón de un visitante específico para determinar si el visitante entra o no en la audiencia.
 
-Para obtener más información, consulte  [Métodos para obtener los datos en Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Para obtener más información, consulte [Métodos para obtener los datos en Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 ## Crear una audiencia de comparación de atributos de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. Haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]** &gt; **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Perfil del visitante]**.
 1. En la lista desplegable **[!UICONTROL Perfil del visitante], elija un atributo:**
 
-   ![](assets/propensity_score_1.png)
+   ![Puntuación de propensión 1](assets/propensity_score_1.png)
 
 1. Elija un evaluador:
 
-   ![](assets/propensity_score_2.png)
+   ![Puntuación de propensión 2](assets/propensity_score_2.png)
 
 1. En la lista desplegable **[!UICONTROL Elegir tipo de comparación]**, seleccione **[!UICONTROL Atributo]**.
 
    El tipo de comparación “valor estático” permite comparar el atributo de perfil del visitante con valores específicos.
 
-   ![](assets/propensity_score_3.png)
+   ![Puntuación de propensión 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
@@ -57,12 +57,10 @@ Para obtener más información, consulte  [Métodos para obtener los datos en Ta
 
 1. Elija el atributo adicional que desee comparar con su atributo inicial.
 
-   Por ejemplo, si la puntuación del atributo “Cocina” de un visitante específico es mayor que la puntuación para “Decoración”, se incluye al visitante en esta audiencia.
-
    ![](assets/propensity_score_4.png)
 
 ## Vídeo de capacitación {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Vea el siguiente vídeo para obtener más información y ver un caso en el que podría utilizar esta función:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=spa)
