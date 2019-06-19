@@ -2,13 +2,13 @@
 description: En esta página se detallan algunos cambios importantes que hemos realizado en la documentación de Target.
 keywords: registro de cambios en la documentación de target;actualizaciones en la documentación
 seo-description: En esta página se detallan algunos cambios importantes que hemos realizado en la documentación de Target.
-seo-title: Cambios de la documentación
+seo-title: Cambios de la documentación en la documentación del producto Adobe Target
 solution: Target
 title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
