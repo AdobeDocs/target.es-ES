@@ -1,36 +1,34 @@
 ---
-description: Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información acerca de ese visitante que puede utilizarse en las campañas.
+description: Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información sobre el visitante que se puede utilizar en las actividades de Adobe Target.
 keywords: Script de perfil;atributos de script de perfil;prácticas recomendadas de script de perfil;depurar;depuración
-seo-description: Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información acerca de ese visitante que puede utilizarse en las campañas.
-seo-title: Atributos de perfil
+seo-description: Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información sobre el visitante que se puede utilizar en las actividades de Adobe Target.
+seo-title: Atributos de perfil en Adobe Target
 solution: Target
 title: Atributos de perfil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
 
 # Atributos de perfil{#profile-attributes}
 
-Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información acerca de ese visitante que puede utilizarse en las campañas.
+Los atributos de perfil son parámetros específicos de un visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información sobre el visitante que se puede utilizar en las actividades.
 
-## Atributos de perfil {#concept_01A30B4762D64CD5946B3AA38DC8A201}
-
-Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información acerca de ese visitante que puede utilizarse en las campañas.
-
-Mientras el visitante navega o regresa para otra sesión, los valores de atributos de perfil guardados se pueden utilizar para destinar el contenido o registrar información para filtrar segmentos.
+Cuando un visitante navega por el sitio web o cuando el visitante regresa para otra sesión, los atributos de perfil guardados se pueden utilizar para destinar contenido o información de registro para filtrar segmentos.
 
 Para configurar atributos de perfil, haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Scripts de perfil.]**
+
+![Ficha Scripts de perfil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
 Se encuentran disponibles los siguientes tipos de atributos de perfil:
 
 | Tipo de parámetro | Descripción |
 |--- |--- |
-| Mbox | Se pasan directamente a través del código de la página cuando el mbox se crea. Consulte  [Pasar parámetros a un mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>Nota: Target tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a Target, puede hacerlo por medio del método de API Profile Update. Para obtener más información, consulte [Actualización de perfil en la documentación de la API de Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
-| Script | Definido directamente con un fragmento de código de JavaScript. Pueden almacenar totales acumulados (como, por ejemplo, el importe total que un usuario ha gastado) y se ejecutan en cada solicitud de mbox. Consulte  Atributos de script de perfil a continuación. |
+| Mbox | Se pasan directamente a través del código de la página cuando el mbox se crea. Consulte [Pasar parámetros a un mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Nota: Target tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a Target, puede hacerlo por medio del método de API Profile Update. Para obtener más información, consulte [Profile Update en la documentación de la API de Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| Script | Definido directamente con un fragmento de código de JavaScript. Pueden almacenar totales acumulados (como, por ejemplo, el importe total que un usuario ha gastado) y se ejecutan en cada solicitud de mbox. Consulte Atributos de script de perfil a continuación. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -56,7 +54,7 @@ Para copiar un script de perfil existente, en la lista [!UICONTROL Scripts de pe
 
 Luego puede editar la audiencia para crear otra parecida.
 
-![](assets/profile-script.png)
+![Cuadro de diálogo Crear script de perfil](assets/profile-script.png)
 
 Los scripts ejecutan “catchers” de atributos de perfil en cada solicitud de ubicación. Cuando se recibe una solicitud de ubicación, Target determina la actividad que debe ejecutarse y muestra el contenido apropiado para esa actividad y esa experiencia, rastrea el éxito de la actividad y ejecuta todos los script de perfil pertinentes. Esto le permite rastrear información sobre la visita como, por ejemplo, la ubicación del visitante, la hora del día, la cantidad de veces que el visitante ha estado en el sitio, si había realizado compras con anterioridad, etc. A continuación, esta información se agrega al perfil del visitante con el objetivo de rastrear mejor su actividad en el sitio.
 
@@ -72,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * Haga referencia a los atributos de script de perfil (incluido el que se está usando) en el código con `user.get('parameterName')`.
 * Guarde las variables a las que posiblemente se vaya a tener acceso la próxima vez que se ejecute el script (en la siguiente solicitud de mbox) con `user.setLocal('variable_name', 'value')`. Haga referencia a la variable con `user.getLocal('variable_name')`. Esto es práctico en situaciones en las que se quiere remitir a la fecha y hora de la última solicitud.
-* Los parámetros y valores hacen distinción de mayúsculas y minúsculas. Haga que las mayúsculas y minúsculas de los parámetros y valores que va a recibir durante la campaña o prueba sean las mismas.
+* Los parámetros y valores hacen distinción de mayúsculas y minúsculas. Haga coincidir el caso de los parámetros y valores que recibirá durante la actividad o la prueba.
 * Consulte la sección “Referencia JavaScript para parámetros de perfil de secuencia de comandos” para obtener más sintaxis de JavaScript.
 
 ## Visualización de tarjetas de información de scripts de perfil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -128,7 +126,7 @@ Las siguientes directrices pretenden ayudarle a escribir secuencias de comandos 
 * No supere las 2000 instrucciones de JavaScript. Target tiene un límite de 2000 instrucciones JavaScript por script, pero esto no se puede calcular simplemente de forma manual leyendo el JavaScript. Por ejemplo, Rhino trata todas las llamadas de función y “nuevas” llamadas como 100 instrucciones. Además, el tamaño de los datos de entrada, como los valores URL, puede afectar a la contabilización de instrucciones.
 * Tenga en cuenta no solo el rendimiento del script, sino también el rendimiento combinado de todos los scripts. Como práctica recomendada, debería utilizarse un máximo de 5000 instrucciones en total. La recuento de instrucciones no es obvio, pero el dato que es importante recordar es que los scripts que exceden los 2 KB se desactivan automáticamente. No hay límite al número de scripts que se pueden ejecutar, pero cada uno de ellos se ejecuta con cada llamada de mbox. Ejecute solo los scripts necesarios.
 * Si falla todo, ajuste el script a un try/catch.
-* Para obtener más información, consulte la documentación del motor JS Rhino: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Consulte la documentación del motor JS Rhino para obtener más información: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## Scripts de perfil para probar actividades mutuamente exclusivas {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
@@ -344,4 +342,4 @@ En este vídeo se explica cómo usar y crear scripts de perfil.
 * Usar el menú Token disponible para acceder a las opciones disponibles
 * Habilitar y deshabilitar scripts de perfil
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/17394?captions=spa)
