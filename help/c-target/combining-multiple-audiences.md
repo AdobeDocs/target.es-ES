@@ -8,7 +8,7 @@ title: Combinación de varias audiencias
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
@@ -25,11 +25,11 @@ Puede combinar hasta diez audiencias usando los operadores Y y O.
 
 Puede crear y usar audiencias combinadas en varios lugares de la interfaz de usuario de [!DNL Target]. 
 
-## Crear una audiencia combinada al crear una actividad  {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Crear una audiencia combinada al crear una actividad {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] de la actividad durante el flujo de trabajo guiado de tres pasos.
 
-1. Al crear una [actividad](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página de **[!UICONTROL Target]**, haga clic en el icono **[!UICONTROL Editar audiencia]** y, a continuación, en **[!UICONTROL Cambiar audiencia]**.
+1. Durante la creación [de una actividad](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL de Target]** , haga clic en las tres elipses verticales y, a continuación, haga clic **[!UICONTROL en Reemplazar audiencia]**.
 
    ![Resultado del paso](assets/edit_audience.png)
 
@@ -47,11 +47,11 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
    1. Puede usar la funcionalidad de arrastrar y soltar para añadir audiencias dentro de una sección existente como componente básico de nivel 2. Para añadir un componente básico de nivel 1, marque la casilla de verificación de la audiencia que quiera y luego haga clic en **[!UICONTROL Añadir a las reglas]**.
 
-      Supongamos que, en el ejemplo anterior, queremos incluir a los usuarios de Firefox en la audiencia combinada. Busque y arrastre la audiencia “Browser: Firefox” (Navegador: Firefox) al cuadro “Browser: Safari” (Navegador: Safari) de la derecha, como en el ejemplo siguiente:
+      Por ejemplo, supongamos que en el ejemplo anterior desea incluir a los usuarios de Safari en la audiencia combinada. Busque y arrastre la audiencia «Navegador Safari» al cuadro «Firefox Browser» (Navegador Firefox) de la derecha, como en el ejemplo siguiente:
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Observe que el operador que separa las dos audiencias de tipo de navegador es “Y”. Seleccione la lista desplegable “Y” y elija el valor “O” para crear una audiencia combinada nueva para los visitantes nuevos que utilizan Safari o Firefox. Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con los navegadores X e Y simultáneamente.
+      Observe que el operador que separa las dos audiencias de tipo de navegador es “Y”. Seleccione la lista desplegable Y y agréguela a &quot;OR&quot; para crear una audiencia combinada nueva para nuevos visitantes que utilicen Firefox o Safari. Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con Firefox y Safari simultáneamente.
 
       >[!NOTE]
       >
@@ -65,7 +65,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
       ![](assets/combine_multiple_audiences3b.png)
 
-      Por ejemplo, para excluir de los visitantes nuevos a los de San Francisco, puede arrastrar la audiencia de San Francisco al cuadro, como se ve a continuación:
+      Por ejemplo, para excluir a los visitantes de Estados Unidos de visitantes nuevos, puede arrastrar el Mercado: Audiencia de Estados Unidos en el cuadro, como se muestra a continuación:
 
       ![](assets/combine_multiple_audiences3b2.png)
 
@@ -77,7 +77,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
 1. Escriba un nombre descriptivo para la audiencia combinada y haga clic en **[!UICONTROL Guardar]**.
 
-## Crear una audiencia combinada para usarla en la segmentación de métrica {#section_A42E795AFCBD4575809C5942039910F0}
+## Crear una audiencia combinada para usarla en la segmentación de métricas {#section_A42E795AFCBD4575809C5942039910F0}
 
 Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y configuración] de la actividad para usarla en la segmentación de métrica. Por ejemplo, para crear una segmentación según la conversión empleando una audiencia combinada:
 
@@ -113,7 +113,12 @@ Cuando edita una actividad existente, puede crear una audiencia combinada ad-hoc
 
    Haga clic en la actividad para abrirla y luego haga clic en **[!UICONTROL Editar actividad]**.
 
-1. Haga clic en el icono del engranaje &gt; **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Varias audiencias]**.
-1. Haga clic en el icono de más opciones (tres puntos verticales), junto a la audiencia actual de la actividad y luego haga clic en **[!UICONTROL Cambiar audiencia]**.
-1. Realice el [paso 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) de la sección “Crear una audiencia combinada al crear una actividad” para crear una audiencia combinada.
+1. Haga clic en **[!UICONTROL Configurar]** &gt; **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Varias audiencias]**.
 
+   ![Configurar &gt; Audiencias &gt; Varias audiencias](/help/c-target/assets/combine_multiple_audiences7.png)
+
+1. Haga clic en el icono de más opciones (tres puntos verticales), junto a la audiencia actual de la actividad y luego haga clic en **[!UICONTROL Cambiar audiencia]**.
+
+   ![Cambiar audiencia](/help/c-target/assets/combine_multiple_audiences8.png)
+
+1. Realice el [paso 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) de la sección “Crear una audiencia combinada al crear una actividad” para crear una audiencia combinada.
