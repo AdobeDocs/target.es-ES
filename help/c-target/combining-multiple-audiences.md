@@ -2,13 +2,13 @@
 description: Combine varias audiencias (incluidas las de Adobe Experience Cloud y las de Target) sobre la marcha para crear audiencias ad-hoc. También puede crear reglas de exclusión y excluir audiencias de una regla.
 keywords: audiencia;reglas de audiencia;combinar audiencias;combinación de audiencias;exclusión;añadir exclusión;excluir;audiencia específica
 seo-description: Combine varias audiencias (incluidas las de Adobe Experience Cloud y las de Target) sobre la marcha para crear audiencias ad-hoc. También puede crear reglas de exclusión y excluir audiencias de una regla.
-seo-title: Combinación de varias audiencias
+seo-title: Combinar varias audiencias en Adobe Target
 solution: Target
 title: Combinación de varias audiencias
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
@@ -23,7 +23,7 @@ Otro ejemplo: puede dirigirse a todos los clientes fieles incluyendo un segmento
 
 Puede combinar hasta diez audiencias usando los operadores Y y O.
 
-Puede crear y usar audiencias combinadas en varios lugares de la interfaz de usuario de [!DNL Target]. Esta sección contiene la información siguiente:
+Puede crear y usar audiencias combinadas en varios lugares de la interfaz de usuario de [!DNL Target]. 
 
 ## Crear una audiencia combinada al crear una actividad  {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
