@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
+source-git-commit: b6b649e31173e80fd0a79b3ce695c130052bf81a
 
 ---
 
@@ -54,6 +54,7 @@ source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
          + [Información general sobre la privacidad](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Privacidad y Reglamento General de Protección de Datos (RGPD)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Eliminar la cookie de Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Políticas de cookies de Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + Métodos para obtener los datos en Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configuración de la API del perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -307,7 +308,7 @@ source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
       + [Cargar contenido](c-experiences/c-manage-content/assets-upload.md)
       + [Crear ofertas de redireccionamiento](c-experiences/c-manage-content/offer-redirect.md)
       + [Crear ofertas remotas](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md)
+      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md).
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Buscar contenido y crear colecciones inteligentes](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transferir datos dinámicos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
