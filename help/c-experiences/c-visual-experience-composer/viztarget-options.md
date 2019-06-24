@@ -8,7 +8,7 @@ title: Opciones del Compositor de experiencias visuales
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -54,7 +54,7 @@ Use el selector de color para seleccionar o configurar un color de fondo. Puede 
 
 **Nota:** Esta opción no está disponible para los elementos en los que haya establecida una imagen de fondo.
 
-#### Estilos {#styles}
+#### Estilos
 
 Utilice el panel [!UICONTROL Estilos] para ver o editar el valor de los estilos existentes para el elemento seleccionado. También puede añadir estilos adicionales.
 
@@ -73,20 +73,6 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
 >[!NOTE]
 >
 >Las acciones rápidas para cambios de diseño, color de fondo, cambio de tamaño y movimiento también están disponibles como acciones independientes en el menú VEC. Estas opciones se pueden aprovechar como acciones independientes o puede utilizar el menú Estilos, tal como se explica aquí.
-
-* **Contexto**
-
-   Cambie el color de fondo y la imagen.
-
-   * Color (especifique el código de color o use el selector de color)
-   * Imagen (seleccione una imagen del selector de imágenes)
-   * Origen de imagen (especifique una URL externa)
-   * Adjunto
-      * Haga clic en la lista desplegable superior para seleccionar desplazamiento, fijo o local
-      * Haga clic en la lista desplegable inferior para seleccionar repetir, repetir-x, repetir-y, no repetir, espacio o redonda
-   * Clip
-      * Haga clic en la lista desplegable superior para seleccionar el cuadro de borde, el relleno de margen, el cuadro de contenido o el texto.
-      * Haga clic en la lista desplegable inferior para seleccionar audio o audio automático
 
 * **Tipografía**
 
