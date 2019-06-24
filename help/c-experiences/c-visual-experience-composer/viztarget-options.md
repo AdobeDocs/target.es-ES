@@ -7,8 +7,8 @@ solution: Target
 title: Opciones del Compositor de experiencias visuales
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
 
 ---
 
@@ -54,7 +54,7 @@ Use el selector de color para seleccionar o configurar un color de fondo. Puede 
 
 **Nota:** Esta opción no está disponible para los elementos en los que haya establecida una imagen de fondo.
 
-#### Estilos
+#### Estilos {#styles}
 
 Utilice el panel [!UICONTROL Estilos] para ver o editar el valor de los estilos existentes para el elemento seleccionado. También puede añadir estilos adicionales.
 
@@ -73,6 +73,20 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
 >[!NOTE]
 >
 >Las acciones rápidas para cambios de diseño, color de fondo, cambio de tamaño y movimiento también están disponibles como acciones independientes en el menú VEC. Estas opciones se pueden aprovechar como acciones independientes o puede utilizar el menú Estilos, tal como se explica aquí.
+
+* **Contexto**
+
+   Cambie el color de fondo y la imagen.
+
+   * Color (especifique el código de color o use el selector de color)
+   * Imagen (seleccione una imagen del selector de imágenes)
+   * Origen de imagen (especifique una URL externa)
+   * Adjunto
+      * Haga clic en la lista desplegable superior para seleccionar desplazamiento, fijo o local
+      * Haga clic en la lista desplegable inferior para seleccionar repetir, repetir-x, repetir-y, no repetir, espacio o redonda
+   * Clip
+      * Haga clic en la lista desplegable superior para seleccionar el cuadro de borde, el relleno de margen, el cuadro de contenido o el texto.
+      * Haga clic en la lista desplegable inferior para seleccionar audio o audio automático
 
 * **Tipografía**
 
@@ -100,7 +114,7 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
    * Valor (arrastre el control deslizante para definir el margen o especificar el número de píxeles para cada margen)
    El margen admite valores positivos y negativos.
 
-   Target también admite otras unidades de tamaño, como rem, pc, em, etc. Para obtener más información sobre estas unidades, consulte [Consejos y trucos de las hojas de estilo web CSS](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target también admite otras unidades de tamaño, como rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Relleno**
 
@@ -110,7 +124,7 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
 
    El relleno admite escalas de anchura a partir de 0.
 
-   Target también admite [otras unidades de tamaño](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Borde**
 
@@ -123,11 +137,11 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
    * Ancho de borde (arrastre el control deslizante para seleccionar un ancho de borde o especificar la anchura en píxeles)
    El borde admite escalas de anchura a partir de 0.
 
-   Target también admite [otras unidades de tamaño](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Posición**
 
-   Mueva el elemento seleccionado desde su posición actual. Puede cambiar la posición superior, inferior, izquierda, derecha y [z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) del elemento.
+   Mueva el elemento seleccionado desde su posición actual. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Haga clic en la lista desplegable [!UICONTROL Estática] para elegir entre las siguientes opciones de posición:
 
@@ -142,7 +156,7 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
    * Valor (arrastre el control deslizante para colocar el elemento o especificar el número de píxeles que desea desplazar el elemento)
    La posición admite valores positivos y negativos.
 
-   Target también admite [otras unidades de tamaño](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Tamaño**
 
@@ -219,7 +233,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Insertar después
 
@@ -243,7 +257,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Reemplazar con
 
@@ -281,7 +295,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Diseño
 
