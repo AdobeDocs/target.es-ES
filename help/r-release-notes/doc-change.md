@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 # Cambios de la documentación{#documentation-changes}
 
 En esta página se detallan algunos cambios importantes que hemos realizado en la documentación de [!DNL Adobe Target].
+
+## Adobe Target Standard/Premium 19.6.1 (26 de junio de 2019) {#tgt-19-6-1}
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| 26 de junio de 2019 | [Opciones de experiencia visual](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
+|  | [Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
+|  | [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
+|  | [Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | Nueva sección: «Configuración de envío de página para el VEC de SPA». |
+|  | [Políticas de cookies de Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Nuevo tema. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 de mayo de 2019) {#tgt-19-5-1}
 
@@ -31,10 +41,10 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | 7 de junio de 2019 | [Personalización de un diseño mediante Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Se ha añadido una nueva sección: &quot; Escenario: Cree un diseño de recomendaciones predeterminado de 4 x 2 con lógica de verificación nula. &quot; |
 |  | [Vídeos de capacitación para Adobe Target Standard y Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Se ha actualizado el vínculo al nuevo sitio de tutoriales de Adobe Target. |
 |  | [iOS: configuración de la aplicación móvil](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Se han actualizado los fragmentos de código y texto. |
-| 6 de junio de 2019 | [adobe.target.triggerView (viewName, options): at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Se ha actualizado la descripción del `options > page` parámetro. |
+| 6 de junio de 2019 | [adobe.target.triggerView (viewName, options): at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Updated the description for the `options > page` parameter. |
 |  | [Primeros pasos del administrador](/help/administrating-target/start-target.md) | Se actualizó el artículo completo. |
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han añadido notas de revisión preliminares para la versión 19.6.1 de Target. |
-| 5 de junio de 2019 | [Compositor de experiencias visuales para aplicaciones móviles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Se ha añadido la nueva [sección Resolución de problemas](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) . |
+| 5 de junio de 2019 | [Compositor de experiencias visuales para aplicaciones móviles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Added new [Troubleshooting](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) section. |
 |  | [Actualización de at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Se ha actualizado la información sobre la implementación de at. js mediante Adobe Launch, que es el método preferido para la implementación. |
 |  | [Conceptos clave de Target](/help/c-intro/target-key-concepts.md) | Pequeñas ediciones de texto. |
 | 3 de junio de 2019 | [Notas de la versión (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la próxima versión de at. js 2.1.0. |
@@ -42,7 +52,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 |  | [Antes de realizar la acción](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Se ha añadido una nueva sección: «Registro de Analytics en el lado del cliente». |
 |  | [Implementación de Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Se revisó el paso 7. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Se agregaron filas a la tabla para los nombres de campo siguientes:<ul><li>Solicitud &gt; experiencecloud</li><li>Solicitud &gt; experiencecloud &gt; analytics</li><li>Solicitud &gt; experiencecloud &gt; analytics &gt; registro</li></ul> |
-|  | [Funciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Se ha añadido una fila a la tabla para `adobe.target.sendNotifications(options)`. |
+|  | [Funciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Added row to the table for `adobe.target.sendNotifications(options)`. |
 |  | [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | Nuevo tema. |
 |  | [Actualización de at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | Se ha añadido información sobre la compatibilidad con Adobe Opt-in en at. js 2.1.0. |
 |  | [Reglamento general de protección de datos](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Se ha actualizado la información sobre la compatibilidad de inclusión en at. js 2.1.0. |
@@ -51,7 +61,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | 30 de mayo de 2019 | [Acceder a Target desde Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | La documentación ahora está disponible en chino simplificado. |
 |  | [Descarga de datos en un archivo CSV](/help/c-reports/downloading-data-in-csv-file.md) | Se ha añadido nueva advertencia en la sección Exportar detalles del pedido a CSV: &quot; Las audiencias aplicadas en la interfaz de usuario de informes de Target no se transfieren al informe de descarga &quot;. |
 |  | [Configuración del informe](/help/c-reports/c-report-settings/report-settings.md) | Capturas de pantalla actualizadas. |
-| 29 de mayo de 2019 | [Afinidad de la categoría](/help/c-target/c-visitor-profile/category-affinity.md) | Se ha actualizado el texto para aclarar la diferencia entre `user.categoryId` y `entity.categoryId`. |
+| 29 de mayo de 2019 | [Afinidad de la categoría](/help/c-target/c-visitor-profile/category-affinity.md) | Updated text to clarify the difference between `user.categoryId` and `entity.categoryId`. |
 |  | [Migrar de mbox.js a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | Sección reubicada a este tema: Beneficios de at. js. |
 |  | [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Sección reubicada a este tema: &quot;¿Cuál es el impacto de at. js y mbox. js en el tiempo de carga de página? &quot; |
 |  | [Transferir datos dinámicos en ofertas](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | Se corrigió la sintaxis en la fila de comportamiento Anterior. |
