@@ -8,7 +8,7 @@ title: Compositor de experiencias visuales para aplicaciones de una sola página
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 62552bfe5a6eb65dc1760b17543a0f5c84f0ecc5
+source-git-commit: 91e108be21bd3759a17d7cf5f66bf134b1fab60a
 
 ---
 
@@ -61,25 +61,25 @@ Es posible que los especialistas en marketing deseen ejecutar una prueba A/B par
 
 Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovechar este concepto en Target para permitir a los especialistas en marketing ejecutar pruebas A/B y XT en SPA a través del VEC. Esto requiere una configuración de desarrollador única. Veamos los pasos para configurarlo.
 
-1. Instale at. js 2. x.
+1. Instale at.js 2.x.
 
-   Primero, necesitamos instalar at. js 2. x. Esta versión de at. js se desarrolló con los spas en mente. Las versiones anteriores de at.js y mbox.js no son compatibles con las vistas de Adobe Target y con el VEC para SPA.
+   En primer lugar, es necesario instalar at.js 2.x. Esta versión de at.js se desarrolló teniendo en cuenta las SPA. Las versiones anteriores de at.js y mbox.js no son compatibles con las vistas de Adobe Target y con el VEC para SPA.
 
    ![Cuadro de diálogo de detalles de implementación](/help/c-experiences/assets/imp-200.png)
 
-   Descargue at. js 2. x a través de la IU de Adobe Target ubicada en [!UICONTROL Configuración &gt; Implementación]. at. js 2. x también se puede implementar mediante [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
+   Descargue at.js 2 a través de la IU de Adobe Target ubicada en [!UICONTROL Configuración &gt; Implementación]. at.js 2.x también se puede implementar mediante [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
 
-1. Implementar la función más reciente de at. js 2. x: [Triggerview ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) en sus sitios.
+1. Implemente la función más reciente de at.js 2.x en sus sitios: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md).
 
-   Después de definir las vistas de la SPA donde desee ejecutar una prueba A/B o XT, implemente la `triggerView()` función at. js 2. x con las vistas pasadas como parámetro. Esto permite a los especialistas en marketing utilizar el VEC para diseñar y ejecutar las pruebas A/B y XT para esas vistas definidas. Si la función de `triggerView()` no está definida para estas vistas, el VEC no detectará las vistas y, por lo tanto, los especialistas en marketing no podrán utilizar el VEC para diseñar y ejecutar pruebas A/B y XT.
+   Después de definir las vistas de la SPA donde desea ejecutar una prueba A/B o XT, implemente la función de at.js 2.x `triggerView()` con las vistas transferidas como parámetro. Esto permite a los especialistas en marketing utilizar el VEC para diseñar y ejecutar las pruebas A/B y XT para esas vistas definidas. Si la función de `triggerView()` no está definida para estas vistas, el VEC no detectará las vistas y, por lo tanto, los especialistas en marketing no podrán utilizar el VEC para diseñar y ejecutar pruebas A/B y XT.
 
    **`adobe.target.triggerView(viewName, options)`**
 
    | Parámetro | Tipo | ¿Requerido? | Información general | Descripción |
    | --- | --- | --- | --- | --- |
    | Nombre de vista | Cadena | Sí | 1. No hay espacios al final.<br>2. No puede estar vacío.<br>3. El nombre de la vista debe ser único para todas las páginas.<br>4. **Advertencia**: el nombre de la vista no debe comenzar ni finalizar con “`/`”. Esto se debe a que el cliente generalmente extraería el nombre de la vista de la ruta de la URL. Para nosotros, “home” y “`/home`” son diferentes.<br>5. **Advertencia**: la misma vista no debe activarse varias veces con la opción `{page: true}`. | Pase cualquier nombre como tipo de cadena que desee que represente la vista. Este nombre de Vista se muestra en el panel [!UICONTROL Modificaciones] del VEC para que los especialistas en marketing creen acciones y ejecuten sus actividades A/B y XT. |
-   | opciones | Objeto | No |
-   | opciones &gt; página | Booleano | No | **VERDADERO**: el valor predeterminado de la página es verdadero. Cuando `page=true`, las notificaciones se enviarán a los servidores de Edge para incrementar el recuento de impresiones.<br>**FALSO**: cuando `page=false`, las notificaciones no se enviarán para incrementar el recuento de impresiones. Debe utilizarse cuando desee volver a procesar un componente en una página con una oferta. |
+   | opciones | Objeto | No |  |  |
+   | opciones &gt; página | Booleano | No |  | **VERDADERO**: el valor predeterminado de la página es verdadero. Cuando `page=true`, las notificaciones se enviarán a los servidores de Edge para incrementar el recuento de impresiones.<br>**FALSO**: cuando `page=false`, las notificaciones no se enviarán para incrementar el recuento de impresiones. Debe utilizarse cuando desee volver a procesar un componente en una página con una oferta. |
 
    Veamos algunos ejemplos de casos de uso sobre la invocación de la función `triggerView()` en React para el SPA de comercio electrónico hipotético:
 
@@ -198,9 +198,9 @@ El panel [!UICONTROL Modificaciones], como se muestra a continuación, captura l
 
 **Acciones**
 
-Al hacer clic en una acción se resalta el elemento del sitio donde se aplicará esta acción. Cada acción del VEC creada en una Vista tiene cuatro iconos como se muestra a continuación: Información, Editar, Mover y Eliminar.
+Al hacer clic en una acción se resalta el elemento del sitio donde se aplicará esta acción. Cada acción del VEC creada en una Vista tiene los iconos siguientes, como se muestra a continuación: Información, Editar, Clonar, Mover y Eliminar.
 
-![Modificaciones](/help/c-experiences/assets/modifications-new.png)
+![Modificaciones](/help/c-experiences/assets/modifications.png)
 
 La siguiente tabla describe cada acción:
 
@@ -208,7 +208,8 @@ La siguiente tabla describe cada acción:
 | --- | --- |
 | Información | Muestra los detalles de esta acción. |
 | Editar | Permite editar las propiedades de esta acción directamente. |
-| Mover   | Mueve la acción a un Evento de carga de página o a cualquier otra Vista que ya exista en el panel de modificaciones.<br>[!UICONTROL Evento] de carga de página: cualquier acción que corresponda al evento de carga de página se aplica en la carga inicial de la página web.<br>**Nota** Después de realizar una operación de traslado, debe navegar a la vista en el VEC a través de Examinar para ver si el desplazamiento era una operación válida. Si la acción no se puede aplicar a la vista, verá un error |
+| Clonar | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. En otras palabras, puede clonar una acción a una vista a la que haya navegado en el VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Nota**: Después de realizar una operación de clonación, debe navegar a la vista en el VEC a través [!UICONTROL de Examinar] para ver si la acción clonada era una operación válida. Si la acción no se puede aplicar a la vista, verá un error. |
+| Mover | Mueve la acción a un Evento de carga de página o a cualquier otra Vista que ya exista en el panel de modificaciones.<br>[!UICONTROL Evento] de carga de página: las acciones correspondientes al evento de carga de página se aplican en la carga inicial de la página web.<br>**Nota** Después de realizar una operación de traslado, debe navegar a la vista en el VEC a través de Examinar para comprobar si el movimiento era una operación válida. Si la acción no se puede aplicar a la vista, verá un error |
 | Eliminar | Elimina la acción. |
 
 >[!NOTE]
@@ -259,9 +260,9 @@ Por último, como se mencionó anteriormente, las vistas pueden definirse a nive
 
 **¿Cómo puedo recuperar vistas para los datos de audiencia más recientes mediante acciones después de la carga inicial de la página en mi SPA?**
 
-El flujo de trabajo típico de at. js 2. x es cuando se carga el sitio, todas las vistas y acciones se almacenan en caché para que las acciones subsiguientes del usuario en el sitio no desencadenen llamadas al servidor para recuperar ofertas. Si desea recuperar vistas según los datos de perfil más actualizados que puedan haberse actualizado, según las acciones de usuario subsiguientes, puede llamar a `getOffers()` y `applyOffers()` con los datos de perfil o usuario de audiencia más recientes.
+El flujo de trabajo típico de at.js 2.x es cuando se carga su sitio, cuando todas las vistas y acciones se almacenan en caché para que las acciones subsiguientes del usuario en el sitio no desencadenen llamadas al servidor para recuperar ofertas. Si desea recuperar vistas según los datos de perfil más actualizados que puedan haberse actualizado, según las acciones de usuario subsiguientes, puede llamar a `getOffers()` y `applyOffers()` con los datos de perfil o usuario de audiencia más recientes.
 
-Por ejemplo: considere que es una empresa de telecomunicaciones y tiene un SPA que usa at. js 2. x. Como negocio, desea lograr los siguientes objetivos:
+Por ejemplo, imaginemos que es una compañía de telecomunicaciones y tiene una SPA que utiliza at.js 2.x. Como empresa, desea lograr los siguientes objetivos:
 
 * Para un usuario anónimo o con sesión cerrada: mostrar la última promoción de la empresa, como una oferta de “Primer mes gratis” en `http://www.telecom.com/home`.
 * Para un usuario que ha iniciado sesión: mostrar una oferta promocional de actualización para usuarios cuyos contratos están surgiendo, como “Tiene derecho a un teléfono gratis” en `http://www.telecom.com/loggedIn/home`.
@@ -281,17 +282,17 @@ A continuación, los especialistas en marketing ejecutan las siguientes activida
 Ahora, veamos el flujo de este usuario:
 
 1. Un usuario que ha iniciado sesión anónima aterriza en su página.
-1. Como usa at. js 2. x, pasa el parámetro «`loggedIn = false`» en la carga de página para recuperar todas las vistas presentes en actividades activas que califican cuando la audiencia tiene parámetro «`loggedIn = false`».
-1. A continuación, at. js 2. x recupera la vista Inicio de sesión cerrada y la acción para mostrar la oferta «Primera mes gratis» y la almacena en la caché.
+1. Como está utilizando at.js 2.x, pasa el parámetro “`loggedIn = false`” en la carga de página para recuperar todas las vistas presentes en actividades activas que cumplen con los requisitos cuando la audiencia tiene el parámetro “`loggedIn = false`”.
+1. A continuación, at.js 2.x recupera la vista Inicio de sesión cerrada y la acción para mostrar la oferta “Primer mes gratis” y la almacena en la caché.
 1. Cuando `triggerView(“Logged Out Home”)` se invoca, la oferta “Primer mes gratis” se recupera desde la caché y la oferta se muestra sin una llamada al servidor.
 1. El usuario hace clic en “Iniciar sesión” y proporciona sus credenciales.
 1. Como el sitio web es un SPA, no realiza una carga de página completa y enruta al usuario a `http://www.telecom.com/loggedIn/home`.
 
-Ahora, aquí está el problema. El usuario inicia sesión y nos encontramos con `triggerView(“Logged In Home”)` porque hemos colocado este código en el cambio de ruta. Esto indica a at. js 2. x que recupere la vista y las acciones de la caché, pero la única vista que existe en la caché es la página de inicio cerrada.
+Ahora, aquí está el problema. El usuario inicia sesión y nos encontramos con `triggerView(“Logged In Home”)` porque hemos colocado este código en el cambio de ruta. Esto le indica a at.js 2.x que recupere la vista y las acciones de la caché, pero la única vista que existe en la caché es la página de inicio cerrada.
 
 Entonces, ¿cómo podemos recuperar la Vista de inicio de sesión y mostrar la oferta “Usted es apto para un conseguir un teléfono gratuito”? Y, dado que todas las acciones subsiguientes del sitio serán desde una perspectiva de usuario registrado, ¿cómo puede asegurarse de que todas las acciones subsiguientes resulten en ofertas personalizadas para usuarios que iniciaron sesión?
 
-Puede utilizar las nuevas `getOffers()``applyOffers()` funciones y funciones admitidas en at. js 2. x:
+Puede utilizar las nuevas funciones `getOffers()` y `applyOffers()` compatibles en at.js 2.x:
 
 ```
 adobe.target.getOffers({
@@ -308,17 +309,17 @@ adobe.target.getOffers({
 });
 ```
 
-Pase la respuesta `getOffers()` a `applyOffers()` y ahora todas las vistas y acciones asociadas con “loggedin = true” actualizarán la caché at.js.
+Pase la respuesta `getOffers()` a `applyOffers()` y ahora todas las vistas y acciones asociadas con “loggedIn = true” actualizarán la caché at.js.
 
-En otras palabras, at. js 2. x es compatible con una forma de recuperar vistas, acciones y ofertas con los datos de audiencia más actualizados en forma a petición.
+En otras palabras, at.js 2.x es compatible con una manera de recuperar vistas, acciones y ofertas con los datos de audiencia más actuales bajo demanda.
 
-**¿at. js 2. x admite A 4 T para aplicaciones de una sola página?**
+**¿at.js 2.x es compatible con A4T para aplicaciones de una sola página?**
 
-Sí, at. js 2. x admite A 4 T para SPA a través de la `triggerView()` función, ya que se ha implementado Adobe Analytics y el servicio de ID de visitante de Experience Cloud. Consulte el diagrama siguiente con descripciones paso a paso.
+Sí, at.js 2.x es compatible con A4T para SPA a través de la función `triggerView()`, ya que ha implementado Adobe Analytics y el servicio de ID de visitante de Experience Cloud. Consulte el diagrama siguiente con descripciones paso a paso.
 
 ![Flujo de destino](/help/c-experiences/assets/atjs-spa-flow.png)
 
-| Paso   | Descripción |
+| Paso | Descripción |
 | --- | --- |
 | 1 | `triggerView()` es llamado en la SPA para procesar una vista y aplicar acciones para modificar elementos visuales asociados a la vista. |
 | 2 | El contenido dirigido para la vista se lee desde la caché. |
@@ -345,7 +346,7 @@ Sí, at. js 2. x admite A 4 T para SPA a través de la `triggerView()` función,
 | [Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) | No |
 | [Recommendations](/help/c-recommendations/recommendations.md) | No |
 
-**Si instalamos at. js 2. x e implementamos`triggerView()`en nuestros sitios,¿cómo ejecutamos actividades A/B de segmentación automática porque el VEC de SPA no admite la segmentación automática?**
+**Si instalamos at.js 2.x e implementamos`triggerView()`en nuestras páginas, ¿cómo ejecutamos actividades A/B de la segmentación automática si el VEC de SPA no la admite?**
 
 Si desea utilizar actividades A/B de Segmentación automática puede mover todas las acciones que se ejecutan al evento de Carga de página en el VEC. Pase el ratón sobre cada acción y haga clic en el botón [!UICONTROL Mover al evento de Carga de página]. Hecho esto, puede seleccionar Segmentación automática para el método de asignación de tráfico.
 
@@ -358,20 +359,86 @@ Si desea utilizar actividades A/B de Segmentación automática puede mover todas
 | [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Sí |
 | [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Sí |
 
-## Funciones compatibles {#supported-features}
+## Funciones compatibles  {#supported-features}
 
 | Función | Compatible? |
 | --- | --- |
 | [Workspaces y propiedades](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Sí |
 | [Vínculos de control de calidad](/help/c-activities/c-activity-qa/activity-qa.md) | Sí |
 | [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md) | No |
-| [Código personalizado  ](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Sí |
+| [Código personalizado](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Sí |
 | [Opciones de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Todas |
 | [Seguimiento de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Sí |
 | [Entrega de varias actividades](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | Sí |
 
+## Page Delivery settings for the SPA VEC {#page-delivery-settings}
+
+[!UICONTROL La configuración de Entrega] de página permite configurar reglas para determinar cuándo una actividad de Target debe calificarse y ejecutarse para una audiencia.
+
+To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+
+![Cuadro de diálogo Opciones de envío de página](/help/c-experiences/assets/page-delivery.png)
+
+For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. Esto funciona perfectamente para cualquier aplicación multipágina en la que cada interacción con la página invoca una recarga de página, de la cual at. js recupera las actividades que cumplen con la URL a la que el usuario navega.
+
+However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity.
+
+### Ejemplo de uso de ejemplo
+
+Analice este ejemplo de uso de ejemplo:
+
+![Panel Modificaciones del VEC SPA](/help/c-experiences/assets/page-delivery-example.png)
+
+Se han realizado los cambios siguientes:
+
+* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+
+With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+
+![Cuadro de diálogo Entrega de página](/help/c-experiences/assets/spa-page-delivery.png)
+
+La siguiente ilustración muestra la solicitud de Flujo de Target - Carga de página en at. js 2.*x*:
+
+![Flujo de destino - Solicitud de carga de página de at. js 2.0](/help/c-experiences/assets/page-load-request.png)
+
+**Viaje del usuario n. º 1**
+
+* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x* realiza una consulta al borde para ver si hay alguna actividad que ejecutar para la URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* En el paso 6, Target Edge devuelve las acciones para la vista Inicio y Productos para que se almacenen en caché dentro del explorador.
+
+**Resultado**: El usuario ve el color de fondo verde en la vista de inicio. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen since the action is cached in the browser under the Products view.
+
+Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+
+**Viaje del usuario n. º 2**
+
+* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x* realiza una consulta al borde para ver si hay alguna actividad que ejecutar para la URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Debido a que no hay actividades cualificadas, no hay acciones y vistas que almacenar en caché para at. js 2.*x* para activar desde.
+
+**Resultado**: Aunque haya definido `triggerView()` la vista Productos y haya realizado una acción en la Vista de productos a través del VEC de SPA, no verá la acción esperada, ya que no creó ninguna regla que incluya [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) en la configuración de Entrega de página.
+
+### Práctica recomendada
+
+Puede ver que la administración del viaje del usuario puede resultar bastante difícil, ya que los usuarios pueden aterrizar en cualquier URL de su SPA y navegar a cualquier otra página. Por lo tanto, es mejor especificar una regla de publicación de página que incluya la dirección URL base para que incluya todo el SPA. De este modo, no tiene que pensar en todas las diferentes trayectorias y rutas que un usuario podría tomar para llegar a una página que desee mostrar una prueba A/B o una actividad de segmentación de experiencias (XT).
+
+Por ejemplo, para resolver el problema anterior, podemos especificar la dirección URL base en la configuración de Entrega de página como tal:
+
+![Cuadro de diálogo Entrega de página](/help/c-experiences/assets/conclusion.png)
+
+Esto garantiza que cuando un visitante aterrice en la SPA y navega a la página principal o a la vista de página verá las acciones aplicadas.
+
+Now, whenever you had an action to a View in the SPA VEC, we will show you the following pop-up message to remind you to think about the [!UICONTROL Page Delivery] rules.
+
+![Mensaje de configuración de envío de página](/help/c-experiences/assets/pop-up-message.png)
+
+Este mensaje aparece cuando agrega la primera acción a una Vista para cada nueva actividad que cree. This message helps ensure that everyone in your organization learns how to apply these [!UICONTROL Page Delivery] rules correctly.
+
 ## Vídeo de formación: Uso del VEC para SPA en Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?captions=spa)
 
-Consulte [Uso del Compositor de experiencias visuales para una aplicación de una sola página (SPA VEC) en Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obtener más información.
+See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
