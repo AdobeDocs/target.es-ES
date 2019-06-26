@@ -7,8 +7,8 @@ solution: Target
 title: Trabajar con contenido en la biblioteca
 topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,8 +32,8 @@ Información sobre las tareas que se pueden realizar en un recurso de la bibliot
    | Eliminar | Experience<br>Imagen<br>Carpeta<br>Texto/HTML | Elimine el recurso.<br>Puede eliminar una carpeta entera que contenga cualquier cantidad de activos y subcarpetas. Esta función está disponible en la interfaz de usuario de Target, así como en la interfaz de usuario de Recursos de Adobe Experience Cloud.<br>Si elimina una carpeta con un gran número de imágenes, el proceso que se ejecuta detrás de las escenas puede tardar cierto tiempo (varios minutos) antes de que la interfaz de usuario se actualice para mostrar el estado final. La cantidad de tiempo necesaria es una función del número de imágenes, no del tamaño de estas. Diez minutos para 2000 imágenes sería una buena estimación. Puede continuar con otros trabajos y comprobar el estado final después de varios minutos para verificar la eliminación.<br> Las carpetas que no estén vacías en la biblioteca de ofertas de imágenes se pueden eliminar. Si no se hace referencia a todas las imágenes de la carpeta en ninguna actividad, se eliminará toda la carpeta y su contenido. Si se hace referencia a algunas imágenes dentro de la carpeta en cualquier actividad, se eliminarán todas las imágenes sin referencia, pero se conservarán las imágenes referenciadas y las carpetas que contienen esas imágenes. |
    | Descargar | Experience<br>Imagen<br>Texto/HTML | Descargue el recurso en su dispositivo o equipo. |
    | Editar | Imagen<br>Texto/HTML | Edite el recurso. Se abrirá la pantalla Editar recurso, que contiene algunas opciones de edición, como girar y recortar. |
-   | Compartir tarjeta | Experiencia<br>Imagen<br>Texto/HTML | Comparta la tarjeta en otro tablero. Puede dibujar una anotación, seleccionar el tablero con el que quiera compartirla y agregar un comentario sobre la tarjeta. |
-   | Ver propiedades | Experiencia<br>Imagen<br>Texto/HTML | Vea las propiedades del recurso. Haga clic en el icono con forma de lápiz en la página de propiedades para editar las propiedades y agregar más información. Puede agregar información de metadatos, estado de publicación y datos de licencias. |
+   | Compartir tarjeta | Experience<br>Imagen<br>Texto/HTML | Comparta la tarjeta en otro tablero. Puede dibujar una anotación, seleccionar el tablero con el que quiera compartirla y agregar un comentario sobre la tarjeta. |
+   | Ver propiedades | Experience<br>Imagen<br>Texto/HTML | Vea las propiedades del recurso. Haga clic en el icono con forma de lápiz en la página de propiedades para editar las propiedades y agregar más información. Puede agregar información de metadatos, estado de publicación y datos de licencias. |
 
 1. Para cambiar la imagen que representa un elemento en la biblioteca, haga clic en el elemento, luego, en el icono **[!UICONTROL Propiedades]**, seleccione **[!UICONTROL Editar]** y agregue la imagen.
 
@@ -41,8 +41,8 @@ Información sobre las tareas que se pueden realizar en un recurso de la bibliot
 
 Este vídeo incluye información sobre la administración de contenido. (4:56)
 
-* Conexión entre [Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/es_ES/mcloud/creative_cloud.html) y la biblioteca de contenido de Target
+* Conexión entre la [biblioteca de activos de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) y la biblioteca de contenido de Target
 * Ofertas HTML personalizadas
 * Oferta HTML personalizada en el Compositor de experiencias visuales
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=spa)
