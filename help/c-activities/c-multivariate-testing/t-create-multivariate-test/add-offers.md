@@ -5,7 +5,7 @@ seo-title: Crear combinaciones en pruebas multivariable (MVT) con Adobe Target
 title: Crear combinaciones
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 Use el Compositor de experiencias visuales (VEC) en Adobe Target para crear las ofertas que desee incluir en la prueba multivariable (MVT).
 
-Para obtener más información sobre el uso del VEC para crear y editar ofertas, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
 >Cuando seleccione los objetos de la página, puede hacer clic en **[!UICONTROL Expandir selección]** para seleccionar el elemento principal, además del elemento que seleccionó en un principio. Al seleccionar un elemento principal, se seleccionan automáticamente todos los elementos secundarios de dicho elemento. Puede expandir la selección varias veces.
 >
->También puede utilizar la ruta [DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) para navegar por elementos.
+>You can also use the [DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) to navigate elements.
 
 ## Ofertas de imágenes  {#section_A48333211DB149ED926AE467D0032914}
 
