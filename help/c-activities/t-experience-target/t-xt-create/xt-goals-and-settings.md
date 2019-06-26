@@ -8,7 +8,7 @@ title: Configuración y objetivos
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -133,7 +133,7 @@ La opción Añadir dependencia permite que la métrica de éxito aumente si se a
 Para agregar una dependencia:
 
 1. Después de agregar métricas adicionales, haga clic en **[!UICONTROL Configuración avanzada]**.
-2. Haga clic **[!UICONTROL en Agregar dependencia]**:
+2. Click **[!UICONTROL Add Dependency]**:
 
    ![Agregar vínculo de dependencia](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
