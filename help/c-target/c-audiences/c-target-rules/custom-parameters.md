@@ -8,7 +8,7 @@ title: Parámetros personalizados
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic **[!UICONTROL en Agregar regla]** &gt; **[!UICONTROL Personalizar]**.
+1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
 
    Para seleccionar el parámetro deseado:
 
