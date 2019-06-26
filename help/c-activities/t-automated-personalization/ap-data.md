@@ -10,7 +10,7 @@ topic: Premium
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 badge: Premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -63,10 +63,10 @@ Las secciones siguientes contienen información detallada sobre los distintos ti
 | Explorador - Hora de la semana | Hora de la semana en la que el visitante accedió a la actividad. | 0 to 168<br>(Sunday midnight is 0) |
 | Navegador - Configuración de idioma | Idioma especificado en el explorador del visitante para acceder a la actividad. | English<br>German |
 | Explorador - Altura de la pantalla (px) | Altura de la pantalla del explorador del dispositivo (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
-| Explorador - Hora del día | Hora del día del explorador cuando el visitante accedió a la actividad. | 0, 6, 12, 18<br>(0 is night, 6 is morning, 12 is afternoon, 18 is evening) |
+| Explorador - Hora del día | Hora del día del explorador cuando el visitante accedió a la actividad. | 0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening) |
 | Navegador - Zona horaria | Zona horaria del visitante al acceder a la actividad. | Pacific Time<br>Eastern Time<br>GMT |
 | Navegador - Tipo | Tipo de explorador que el visitante utilizó al acceder a la actividad. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
-| Explorador - Día de la semana/Fin de semana | Estado de trabajo cuando el visitante accedió a la actividad (fin de semana, horas laborables o día de la semana). | Saturday and Sunday is weekend<br>Monday through Friday 0900 to 1800 is work time<br>Monday through Friday after 1800 until 0900 is weekday free time |
+| Explorador - Día de la semana/Fin de semana | Estado de trabajo cuando el visitante accedió a la actividad (fin de semana, horas laborables o día de la semana). | Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time |
 | Explorador - Altura de ventana (px) | Altura de la ventana del explorador (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
 | Explorador - Ancho de ventana (px) | Ancho de ventana del explorador (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
 | Dispositivo - Altura de la pantalla | Altura de pantalla del dispositivo que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
