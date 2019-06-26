@@ -9,7 +9,7 @@ title: Descarga de datos en un archivo CSV
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,7 +77,7 @@ El informe de detalles del pedido (conocido como el informe de auditoría en [!D
 * Los valores que se pasan mediante el parámetro de mbox `ProductPurchasedId` aparecen ahora recogidos en el informe de detalles del pedido.
 * Una práctica recomendada es incluir un `orderID`, así como un `orderTotal`. Esto permite ignorar automáticamente los pedidos duplicados.
 
-## Advertencias   {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## Advertencias  {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 La información siguiente se refiere a la opción Descargar:
 
