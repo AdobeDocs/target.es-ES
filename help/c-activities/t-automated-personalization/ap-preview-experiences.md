@@ -10,7 +10,7 @@ topic: Premium
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 Dado que una actividad de Personalización automatizada compara varias ofertas en una página, resulta útil previsualizar la página con cada experiencia.
 
-1. Desde el Compositor de experiencias visuales, haga clic **[!UICONTROL en Vista previa]**.
+1. From the Visual Experience Composer, click **[!UICONTROL Preview]**.
 
    ![Icono de vista previa](/help/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -29,7 +29,7 @@ Dado que una actividad de Personalización automatizada compara varias ofertas e
 
 1. Haga clic en una experiencia específica en la lista para visualizarla.
 
-1. (Condicional) Para excluir una o más experiencias de la actividad, haga clic en el icono **[!UICONTROL Excluir]** .
+1. (Conditional) To exclude one or more experiences from the activity, click the **[!UICONTROL Exclude]** icon.
 
    ![Icono Excluir](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
@@ -39,12 +39,12 @@ Dado que una actividad de Personalización automatizada compara varias ofertas e
 
    Puede elegir excluir una experiencia que muestre variaciones que entran en conflicto o una experiencia que no esté equilibrada desde el punto de vista estético.
 
-   Para excluir una experiencia, coloque el puntero sobre ella y haga clic en el icono **[!UICONTROL Excluir]** .
+   To exclude an experience, hover over the experience and click the **[!UICONTROL Exclude]** icon.
 
-   Para excluir varias experiencias, seleccione las casillas de verificación de las experiencias que desee y, a continuación, haga clic en **[!UICONTROL el icono Excluir]** en la parte superior derecha de la lista.
+   To exclude multiple experiences, select the checkboxes for the desired experiences, then click the **[!UICONTROL Exclude]** icon at the top right of the list.
 
-   De manera predeterminada, se incluyen todas las experiencias en la actividad de Personalización automatizada. Para incluir una experiencia que se haya excluido, coloque el puntero sobre ella y haga clic en el icono **[!UICONTROL Incluir]** .
+   De manera predeterminada, se incluyen todas las experiencias en la actividad de Personalización automatizada. To include an experience that has been excluded, hover over the experience and click the  **[!UICONTROL Include]** icon.
 
-   Para incluir varias experiencias que se han excluido, seleccione las casillas para las experiencias que desee y, a continuación, haga clic en el icono **[!UICONTROL Incluir]** en la parte superior derecha de la lista.
+   To include multiple experiences that have been excluded, select the checkboxes for the desired experiences, then click the **[!UICONTROL Include]** icon at the top right of the list.
 
-1. Haga clic en **[!UICONTROL Componer]** para regresar al Compositor de experiencias visuales para que pueda realizar cambios, o haga clic **[!UICONTROL en Siguiente]** para ir al [!UICONTROL paso de objetivo] .
+1. Click **[!UICONTROL Compose]** to return to the Visual Experience Composer so you can make changes, or click **[!UICONTROL Next]** to go to the [!UICONTROL Targeting] step.
