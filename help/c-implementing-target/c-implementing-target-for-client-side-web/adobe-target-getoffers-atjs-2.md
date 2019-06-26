@@ -1,25 +1,25 @@
 ---
-description: 'Información sobre la función adobe. target. getoffers (options) para at. js. '
+description: 'Información sobre la función adobe.target.getOffers(options) para at.js. '
 keywords: adobe.target.notification;elemento;selector;notificación;extensión
-seo-description: Información sobre la función adobe. target. getoffers (options) para la biblioteca JavaScript de Adobe Target at. js.
-seo-title: Información sobre la función adobe. target. getoffers (options) para la biblioteca JavaScript de Adobe Target at. js.
+seo-description: Información sobre la función adobe.target.getOffers(options) para la biblioteca de JavaScript at.js de Adobe Target.
+seo-title: Información sobre la función adobe.target.getOffers(options) para la biblioteca de JavaScript at.js de Adobe Target.
 solution: Target
 subtopic: Primeros pasos
-title: adobe.target.getOffer(options)
+title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# adobe. target. getoffers (options) - at. js 2. x
+# adobe.target.getOffers(options): at.js 2.x
 
 Esta función le permite recuperar varias ofertas pasando varios mboxes. Además, se pueden recuperar varias ofertas para todas las vistas de actividades activas.
 
 >[!NOTE]
 >
->Esta función se introdujo en at. js 2. x. Esta función no está disponible para la versión 1 de at. js.*x*.
+>Esta función se introdujo en at.js 2.x. Esta función no está disponible para la at.js versión 1.*x*.
 
 | Clave | Tipo | ¿Requerido? | Descripción |
 | --- | --- | --- | --- |
@@ -35,17 +35,17 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 | Solicitud &gt; ID &gt; thirdPartyId | No | Tamaño máximo = 128 |  |  |
 | Solicitud &gt; experiencecloud | No |  |  |
 | Solicitud &gt; experiencecloud &gt; analytics | No |  | Integración de Adobe Analytics |
-| Solicitud &gt; experiencecloud &gt; analytics &gt; registro | No | Se debe implementar lo siguiente en la página:<ul><li>Servicio de ID de visitante</li><li>Appmeasurement. js</li></ul> | Se admiten los siguientes valores:<br>**client_ side**: Cuando se especifique, se devolverá una carga útil de Analytics al llamador que debe utilizarse para enviarse a Adobe Analytics mediante la API de inserción de datos.<br>**server_ side**: Este es el valor predeterminado en el que el back-backend de Target y Analytics usará el SDID para unir las llamadas con fines de informes. |
+| Solicitud &gt; experiencecloud &gt; analytics &gt; registro | No | Se debe implementar lo siguiente en la página:<ul><li>Servicio de ID de visitante</li><li>Appmeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**: Este es el valor predeterminado en el que el back-backend de Target y Analytics usará el SDID para unir las llamadas con fines de informes. |
 | Solicitud &gt; Captura previa | No |  |  |
 | Solicitud &gt; Captura previa &gt; Vistas | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud del nombre `<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe empezar con “perfil”<br>Nombres no permitidos: “orderId”, “orderTotal”, “productPurchasedId” | Pase parámetros para utilizarlos para recuperar vistas relevantes en actividades activas. |
 | Solicitud &gt; Captura previa &gt; Vistas &gt; profileParameters | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud de nombre `<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe empezar con “perfil” | Pase parámetros de perfil para utilizarlos para recuperar vistas relevantes en actividades activas. |
 | Solicitud &gt; Captura previa &gt; Vistas &gt; Producto | No |  |  |
-| Solicitud &gt; Captura previa &gt; Vistas &gt; Producto &gt; Id. | No | Tamaño máximo<br>no vacío = 128 | Pase las ID de producto para que se utilicen para recuperar vistas relevantes en actividades activas. |
-| Solicitud &gt; Captura previa &gt; Vistas &gt; Producto &gt; categoryId | No | Tamaño máximo<br>no vacío = 128 | Pase las ID de categoría de producto para que se utilicen para recuperar vistas relevantes en las actividades. |
+| Solicitud &gt; Captura previa &gt; Vistas &gt; Producto &gt; Id. | No | Tamaño máximo<br>no vacío = 128 | Pase los ID de producto para que se utilicen para recuperar vistas relevantes en actividades activas. |
+| Solicitud &gt; Captura previa &gt; Vistas &gt; Producto &gt; categoryId | No | Tamaño máximo<br>no vacío = 128 | Pase los ID de categoría de producto para que se utilicen para recuperar vistas relevantes en las actividades. |
 | Solicitud &gt; Captura previa &gt; Vistas &gt; Pedido | No |  |  |
-| Solicitud &gt; Captura previa &gt; Vistas &gt; Pedido &gt; Id. | No | Longitud máxima = 250 | Pase las ID de pedido para que se utilicen para recuperar vistas relevantes en actividades activas. |
+| Solicitud &gt; Captura previa &gt; Vistas &gt; Pedido &gt; Id. | No | Longitud máxima = 250 | Pase los ID de pedido para que se utilicen para recuperar vistas relevantes en actividades activas. |
 | Solicitud &gt; Captura previa &gt; Vistas &gt; Pedido &gt; Total | No | Total `>=` 0 | Pase los totales del pedido para que se utilicen para recuperar vistas relevantes en actividades activas. |
-| Solicitud &gt; Captura previa &gt; Vistas &gt; Pedido &gt; purchasedProductIds | No | Valores no vacíos<br>Longitud máxima de cada valor 50<br><br>Longitud total de la ID de producto concatenado y separado por una coma `<=` 250 | Pase las ID de productos comprados para que se utilicen para recuperar vistas relevantes en actividades activas. |
+| Solicitud &gt; Captura previa &gt; Vistas &gt; Pedido &gt; purchasedProductIds | No | Valores no vacíos<br>Longitud máxima de cada valor 50<br><br>Longitud total del ID de producto concatenado y separado por una coma `<=` 250 | Pase los ID de productos comprados para que se utilicen para recuperar vistas relevantes en actividades activas. |
 | Solicitud &gt; Ejecutar | No |  |  |
 | Solicitud &gt; Ejecutar &gt; pageLoad | No |  |  |
 | Solicitud &gt; Ejecutar &gt; pageLoad &gt; Parámetros | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud del nombre`<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe comenzar con “perfil”.<br>Nombres no permitidos: “orderId”, “orderTotal”, “productPurchasedId” | Recupere ofertas con parámetros especificados cuando se carga la página. |
@@ -56,7 +56,7 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 | Solicitar &gt; Ejecutar &gt; pageLoad &gt;Pedido | No |  |  |
 | Solicitar &gt; Ejecutar &gt; pageLoad &gt; Pedido &gt; ID | No | Longitud máxima = 250 | Recupere ofertas con ID de pedidos especificados cuando se carga la página. |
 | Solicitar &gt; Ejecutar &gt; pageLoad &gt; Pedido &gt; Total | No | `>=` 0 | Recupere ofertas con totales de pedidos especificados cuando se carga la página. |
-| Solicitud &gt; Ejecutar &gt; pageLoad &gt; Pedido &gt; purchasedProductIds | No | Valores no vacíos<br>Longitud máxima de cada valor 50<br><br>Longitud total de la ID de producto concatenado y separado por una coma `<=` 250 | Recupere ofertas con ID de productos comprados cuando se carga la página. |
+| Solicitud &gt; Ejecutar &gt; pageLoad &gt; Pedido &gt; purchasedProductIds | No | Valores no vacíos<br>Longitud máxima de cada valor 50<br><br>Longitud total del ID de producto concatenado y separado por una coma `<=` 250 | Recupere ofertas con ID de productos comprados cuando se carga la página. |
 | Solicitud &gt; Ejecutar &gt; mboxes | No | Tamaño máximo = 50<br>Sin elementos nulos |  |
 | Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox | Sí | Tamaño máximo<br>Sin sufijo “-clicked”<br>no vacío = 250<br>Caracteres permitidos: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nombre del mbox. |
 | Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Índice | Sí | Sin<br>Único<br>`>=` 0 | Tenga en cuenta que el índice no representa el orden en que se procesarán los mboxes. Al igual que en una página web con varios mboxes regionales, no se puede especificar el orden en que se procesarán. |
@@ -64,11 +64,11 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 | Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; profileParameters | No | Recuento máximo = 50<br>Nombre no en blanco<br>Longitud del nombre`<=` 128<br>Valor de longitud `<=`256<br>El nombre no debe comenzar con “perfil”. | Recupere ofertas para un mbox determinado con los parámetros de perfil especificados. |
 | Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Producto | No |  |  |
 | Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Producto &gt; ID | No | Tamaño máximo<br>no vacío = 128 | Recupere ofertas para un mbox determinado con los ID de producto especificados. |
-| Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Producto &gt; categoryId | No | Tamaño máximo<br>no vacío = 128 | Recupere ofertas para un mbox determinado con las ID de categoría de producto especificados. |
+| Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Producto &gt; categoryId | No | Tamaño máximo<br>no vacío = 128 | Recupere ofertas para un mbox determinado con los ID de categoría de producto especificados. |
 | Solicitar &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Pedido | No |  |  |
-| Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Pedido &gt; ID | No | Longitud máxima = 250 | Recupere ofertas para un mbox determinado con las ID de pedidos especificados. |
+| Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Pedido &gt; ID | No | Longitud máxima = 250 | Recupere ofertas para un mbox determinado con los ID de pedidos especificados. |
 | Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Pedido &gt; Total | No | `>=` 0 | Recupere ofertas para un mbox determinado con los totales de pedidos especificados. |
-| Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Pedido &gt; purchasedProductIds | No | Valores no vacíos<br>Longitud máxima de cada valor = 50<br><br>Longitud total de ID de productos concatenados y separados por comas `<=` 250 | Recupere ofertas para un mbox determinado con las ID de pedido especificada del producto comprado. |
+| Solicitud &gt; Ejecutar &gt; mboxes &gt; mbox &gt; Pedido &gt; purchasedProductIds | No | Valores no vacíos<br>Longitud máxima de cada valor = 50<br><br>Longitud total de ID de productos concatenados y separados por comas `<=` 250 | Recupere ofertas para un mbox determinado con los ID de pedido especificada del producto comprado. |
 
 ## Llame a `getOffers()` para todas las vistas
 
@@ -181,13 +181,13 @@ adobe.target.getOffers({
 }
 ```
 
-La carga útil se puede reenviar a Adobe Analytics a través de [la API de inserción de datos](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-## Buscar y procesar datos de varios mboxes mediante getoffers () y applyoffers () {#multiple}
+## Buscar y procesar datos de varios mboxes a través de getOffers() y applyOffers() {#multiple}
 
-at. js 2. x le permite recuperar varios mboxes mediante `getOffers()` la API. También puede recuperar datos para varios mboxes y, a continuación, utilizar `applyOffers()` para procesar los datos en diferentes ubicaciones identificadas por un selector de CSS.
+at.js 2.x le permite recuperar varios mboxes a través de la API de `getOffers()`. También puede buscar datos para varios mboxes y, después, utilizar `applyOffers()` para representar los datos en diferentes ubicaciones identificadas por un selector de CSS.
 
-El siguiente ejemplo muestra una página HTML sencilla con at. js 2. x implementada:
+El siguiente ejemplo muestra una página HTML sencilla con at.js 2.x implementado:
 
 ```
 <!DOCTYPE html>
@@ -207,9 +207,9 @@ El siguiente ejemplo muestra una página HTML sencilla con at. js 2. x implement
 </html>
 ```
 
-Supongamos que tiene tres contenedores que desea modificar mediante el contenido recibido [!DNL Target]. Puede construir una sola solicitud para tres mboxes en los que cada mbox tiene contenido que procesar en el contenedor respectivo.
+Supongamos que tiene tres contenedores que desea modificar a través del contenido recibido de [!DNL Target]. Puede construir una sola solicitud para tres mboxes en los que cada uno tiene contenido que procesar en su respectivo contenedor.
 
-La solicitud y el código de procesamiento pueden tener el aspecto siguiente:
+La solicitud y el código de procesamiento pueden tener el siguiente aspecto:
 
 ```
 adobe.target.getOffers({
@@ -252,12 +252,12 @@ adobe.target.getOffers({
 });
 ```
 
-En `request > prefetch > mboxes` la sección, hay tres mboxes diferentes. Si la solicitud se completó correctamente, recibirá la respuesta de cada mbox de `response > prefetch > mboxes`. Una vez que tenga las respuestas y las ubicaciones que desee utilizar para procesar, puede invocar `applyOffers()` para procesar el contenido obtenido [!DNL Target]. En este ejemplo tenemos la siguiente asignación:
+En la sección `request > prefetch > mboxes`, hay tres mboxes diferentes. Si la solicitud se completó correctamente, recibe la respuesta de `response > prefetch > mboxes` para cada mbox. Una vez que tenga las respuestas y las ubicaciones que desee utilizar para la representación, puede invocar a `applyOffers()` para representar el contenido obtenido de [!DNL Target]. En este ejemplo tenemos la siguiente asignación:
 
-* mbox 1 &gt; selector CSS # container 1
-* mbox 2 &gt; selector CSS # container 2
-* mbox 3 &gt; selector CSS # container 3
+* mbox 1 &gt; selector CSS #contenedor 1
+* mbox 2 &gt; selector CSS #contenedor 2
+* mbox 3 &gt; selector CSS #contenedor 3
 
-Este ejemplo utiliza la variable count para construir los selectores CSS. En un escenario real, podría utilizar una asignación diferente entre el selector y el mbox CSS.
+Este ejemplo utiliza la variable de recuento para construir los selectores CSS. En una situación real, podría utilizar una asignación diferente entre el selector CSS y el mbox.
 
-Tenga en cuenta que este ejemplo utiliza `prefetch > mboxes`, pero también puede `execute > mboxes`utilizarlo. Asegúrese de que, si utiliza la precarga en `getOffers()`, también debe utilizar la precarga en `applyOffers()` la invocación.
+Tenga en cuenta que este ejemplo utiliza `prefetch > mboxes`, pero también puede utilizar `execute > mboxes`. Asegúrese de que, si utiliza la crga previa en `getOffers()`, también debe utilizar la carga previa en la invocación de `applyOffers()`.
