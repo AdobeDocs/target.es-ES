@@ -8,7 +8,7 @@ title: Límites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 5e8edb25f0b0255247c535bcac1d960b6e8acf94
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -47,44 +47,44 @@ Los valores más largos de 256 caracteres se truncan.
 
 **Límite**: La longitud máxima depende del idioma.
 
-* 15 000 caracteres (un solo valor, uno y dos bytes)
+* 15 000 caracteres (un solo valor, idiomas de uno y dos bytes)
 * 500 valores, 100 caracteres por valor (varios valores)
 
-La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15.000 caracteres (para lenguajes con codificación UTF -8 de uno y dos bytes, como inglés y otros alfabetos alfabetos latinos) o 10.000 caracteres (para lenguajes con codificación UTF -8 de byte múltiple como chino, japonés y coreano).
+La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15 000 caracteres (para idiomas con codificación UTF-8 de uno y dos bytes, como inglés y otros alfabetos latinos) o 10 000 caracteres (para lenguajes con codificación UTF-8 de tres bytes, como chino, japonés y coreano).
 
-Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (véase arriba).
+Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos de entidad personalizados de un solo valor (véase arriba).
 
-## Parámetros de entityid
+## Parámetros de entityID
 
 **Límite**: 1000 caracteres.
 
-## Excludedids {#excludedid}
+## excludedIds {#excludedid}
 
-**Límite**: 5 KB para solicitudes POST. 2.083 caracteres menos la longitud de la URL para las solicitudes GET.
+**Límite**: 5 kB para solicitudes POST. 2083 caracteres menos la longitud de la URL para las solicitudes GET.
 
-Para las solicitudes GET, aunque el límite del back-end es 5 KB, debido al hecho de que Microsoft Internet Explorer limita la dirección URL a 2.083 caracteres, el límite realista es de 2.083 caracteres menos la longitud actual de la dirección URL.
+Para las solicitudes GET, aunque el límite del back-end es 5 kB, debido al hecho de que Microsoft Internet Explorer limita la dirección URL a 2083 caracteres, el límite realista es de 2083 caracteres menos la longitud actual de la dirección URL.
 
 ## Nombres de experiencias
 
 **Límite**: 20 caracteres.
 
-## Valor de atributo de perfil en mbox
+## Valor de atributo de perfil In-mbox
 
 **Límite**: 256 caracteres.
 
 Los valores más largos que ese número se truncan.
 
-## Perfiles en mbox en una solicitud de mbox
+## Perfiles In-mbox en una petición de mbox
 
 **Límite**: 50 perfiles.
 
 Se ignorarán todos los perfiles por encima de 50.
 
-## Nombres de perfil en mbox
+## Nombres de perfiles In-mbox
 
 **Límite**: 128 caracteres.
 
-## nombres de mbox
+## Nombres de mbox
 
 **Límite**: 250 caracteres.
 
@@ -101,11 +101,11 @@ Para los parámetros que se registran en la base de datos de Target, los límite
 
 Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#server-side-batch-delivery) en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud supera estos valores, la API devolverá el siguiente mensaje de error: “El número de parámetros de mbox no puede superar los 100”.
 
-## URL de solicitudes de mbox
+## Direcciones URL de peticiones de mbox
 
-**Límite**: 2.083 caracteres.
+**Límite**: 2083 caracteres.
 
-Este límite se debe a las restricciones de longitud de URL de Microsoft Internet Explorer.
+Este límite se debe a las restricciones de longitud de dirección URL de Microsoft Internet Explorer.
 
 ## Parámetro mbox3rdPartyId
 
@@ -123,7 +123,7 @@ Este límite se debe a las restricciones de longitud de URL de Microsoft Interne
 * 64 kB para ofertas visuales de la interfaz de usuario.
 * 512 kB de la API.
 
-Si utiliza un mbox global, el límite es para todo el conjunto de contenido devuelto para la página. La limitación del tamaño de la oferta mejora los tiempos de carga de la página. Si se supera el límite, aparece un mensaje como este:
+Si usa un mbox global, el límite es para todo el conjunto de contenidos devueltos de la página. La limitación del tamaño de la oferta mejora los tiempos de carga de la página. Si se supera el límite, aparece un mensaje como este:
 
 El contenido de la experiencia es demasiado grande para su entrega. Modifique la experiencia para afectar a menos código de página.
 
@@ -141,9 +141,9 @@ Límite recomendado.
 
 ## Parámetro productPurchasedId
 
-**Límite**: 47 caracteres por valor separado por comas.
+**Límite**: 47 caracteres por valor separado por coma.
 
-El sistema trunca cualquiera más.
+El sistema truncará lo que supere este límite.
 
 ## Cuenta/Audiencias reutilizables
 
@@ -153,25 +153,25 @@ Límite recomendado. Se producen errores de tiempo de espera de JavaScript en la
 
 ## Cuadro de entrada de perfil de script en la interfaz de usuario de Target
 
-**Límite**: 2.000 caracteres.
+**Límite**: 2000 caracteres.
 
 Límite recomendado. Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado larga, producirá un error antes de llegar a Adobe Target.
 
-## Nombres de perfil de secuencia de comandos
+## Nombres de perfiles de secuencia
 
 **Límite**: 50 caracteres.
 
-## Valores de perfil de secuencia de comandos
+## Valores de perfil de secuencia
 
-**Límite**: 2.048 caracteres.
+**Límite**: 2048 caracteres.
 
 Por motivos de rendimiento, recomendamos un valor de retorno que no tenga más de 256 caracteres.
 
-Para un valor de retorno de cadena, si el tamaño del valor devuelto supera 2.048 caracteres, el sistema desactiva la secuencia de comandos.
+Para un valor de retorno de cadena, si el tamaño del valor devuelto supera los 2048 caracteres, el sistema desactiva la secuencia de comandos.
 
-Para un valor de devolución de matriz, si el tamaño de los valores concatenados de la matriz supera 2.048 caracteres, el sistema desactiva la secuencia de comandos.
+Para un valor de devolución de matriz, si el tamaño de los valores concatenados de la matriz supera los 2048 caracteres, el sistema desactiva la secuencia de comandos.
 
-## Condiciones de Target
+## Condiciones de segmentación
 
 **Límite**: 1000 valores.
 
