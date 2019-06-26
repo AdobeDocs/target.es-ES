@@ -7,7 +7,7 @@ title: Compositor de experiencias visuales para aplicaciones móviles
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -79,7 +79,7 @@ Las acciones realizadas en el VEC pueden verse en tiempo real en la aplicación,
 
 Cuando se detecta una nueva versión de la aplicación, se le notifica que la versión de la aplicación se ha agregado a la lista de versiones de destino.
 
-![Notificación de aplicación nueva](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification.png)
+![Notificación de aplicación nueva](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
