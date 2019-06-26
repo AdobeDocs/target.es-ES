@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -54,6 +54,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
          + [Información general sobre la privacidad](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Privacidad y Reglamento General de Protección de Datos (RGPD)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Eliminar la cookie de Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Políticas de cookies de Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + Métodos para obtener los datos en Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configuración de la API del perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -197,6 +198,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
       + [Previsualizar experiencias para una prueba de Personalización automatizada](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Ofertas de personalización automatizada de Target](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Gestión de exclusiones](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [Seleccione el control de la actividad de Personalización automatizada o de Segmentación automática](c-activities/t-automated-personalization/experience-as-control.md)
       + [Preguntas más frecuentes sobre Personalización automatizada](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Compartir URL de experiencia para previsualizar la personalización automatizada fuera de Target](c-activities/t-automated-personalization/experience-preview.md)
       + [Resolución de problemas de la personalización automatizada](c-activities/t-automated-personalization/ap-trouble.md)
@@ -307,7 +309,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
       + [Cargar contenido](c-experiences/c-manage-content/assets-upload.md)
       + [Crear ofertas de redireccionamiento](c-experiences/c-manage-content/offer-redirect.md)
       + [Crear ofertas remotas](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md)
+      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md).
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Buscar contenido y crear colecciones inteligentes](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transferir datos dinámicos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
