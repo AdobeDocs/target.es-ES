@@ -8,7 +8,7 @@ title: Geografía segmentación en Adobe Target
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -49,7 +49,7 @@ La siguiente ilustración muestra una audiencia dirigida a usuarios que acceden 
 
 ## Precisión {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La precisión de la segmentación geográfica depende de varios factores. Las conexiones WiFi son más precisas que las redes móviles. Cuando el visitante utiliza una conexión de datos móviles, la precisión de la búsqueda geográfica puede verse afectada por la ubicación, la relación de datos del proveedor con [deviceatlas](https://deviceatlas.com/device-data/user-agent-tester)y otros factores. Las conexiones de redes basadas en torres celulares pueden ser menos precisas que las conexiones cableadas o WiFi. Además, la dirección IP de un usuario puede asignarse a su ubicación ISP, que quizás no coincida con la ubicación real del visitante. Algunos problemas de localización geográfica móvil se pueden resolver mediante la API [de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La precisión de la segmentación geográfica depende de varios factores. Las conexiones WiFi son más precisas que las redes móviles. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. Las conexiones de redes basadas en torres celulares pueden ser menos precisas que las conexiones cableadas o WiFi. Además, la dirección IP de un usuario puede asignarse a su ubicación ISP, que quizás no coincida con la ubicación real del visitante. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 En la tabla siguiente se muestra la precisión de la información geográfica basada en IP desde [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexiones a Internet cableadas o WiFi. DigitalEnvoy proporciona los datos más precisos de la industria. La precisión global es de más del 99,9 por ciento en el ámbito de país y de hasta el 97 por ciento en el ámbito de ciudad. La información de precisión no se aplica a redes basadas en torres celulares.
 
@@ -115,7 +115,7 @@ Por ejemplo, use:
 
 **¿Cómo funciona la segmentación geográfica en los dispositivos móviles?**
 
-La amplia mayoría de los usuarios de dispositivos móviles accede al contenido a través de una red WiFi, lo que significa que la segmentación geográfica basada en la IP de Target es tan precisa como en un equipo de escritorio. Las conexiones basadas en torres celulares pueden ser menos exactas porque la dirección IP del visitante se basa en la torre de donde se está recibiendo la señal. Algunos problemas de localización geográfica móvil se pueden resolver mediante la API [de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La amplia mayoría de los usuarios de dispositivos móviles accede al contenido a través de una red WiFi, lo que significa que la segmentación geográfica basada en la IP de Target es tan precisa como en un equipo de escritorio. Las conexiones basadas en torres celulares pueden ser menos exactas porque la dirección IP del visitante se basa en la torre de donde se está recibiendo la señal. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **¿Cómo gestiona la función geográfica los visitantes de AOL?**
 
