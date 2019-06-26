@@ -7,8 +7,8 @@ solution: Target
 title: Recursos e información de contacto
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,28 +27,28 @@ Gracias a la Comunidad puede:
 * Conectar con tus compañeros y con los expertos de Adobe
 * Votar o enviar una idea propia para una futura versión de Target
 
-Visite el [Foro de la comunidad Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) para comenzar.
+Visite el [Foro de la comunidad de Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) para empezar.
 
 ## Serie de seminarios web sobre fundamentos de Target {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 Información de registro y vínculos a sesiones anteriores de la Serie de seminarios web sobre fundamentos de Target, una serie de seminarios web de éxito de los clientes ofrecida por la comunidad.
 
-[Haga clic aquí para ver sesiones anteriores o para obtener más información sobre próximas sesiones e información de registro](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
+[Haga clic aquí para ver sesiones anteriores o para obtener más información sobre las próximas sesiones y la información de registro](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
 
 
 ## Horario del servicio de atención al cliente de Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
 “Horario de oficina” es una iniciativa liderada por el equipo del Servicio de atención al cliente de Adobe. Estas sesiones están diseñadas tanto para informar como para ayudar a los participantes a solucionar problemas, y ofrecen sugerencias y trucos para alcanzar el éxito con las soluciones de Adobe Experience Cloud, como Target.
 
-Si desea registrarse en próximas sesiones y ver sesiones grabadas, consulte [Horario de oficina del Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/customer-care-office-hours.html).
+Si desea registrarse para sesiones próximas y ver sesiones grabadas, consulte [Horario de oficina del Servicio de atención al cliente de Adobe](https://helpx.adobe.com/customer-care-office-hours.html).
 
 Las sesiones de Target grabadas actualmente incluyen:
 
 | Tema / Tiempo de ejecución / Fecha de grabación | Lo que aprenderá |
 |--- |--- |
-| [Compositor de experiencias visuales (VEC)](https://helpx.adobe.com/es/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>diciembre de 2017 | Aprenderá:<ul><li>Cómo funciona el Compositor de experiencias visuales</li><li>Cómo evitar problemas comunes con el Compositor de experiencias visuales</li><li>Soluciones alternativas con el Compositor de experiencias visuales</li></ul>Para obtener más información en esta guía, consulte  [Experiencias](/help/c-experiences/experiences.md). |
-| [Adobe Target: integración de Analytics/Target (A4T)](https://helpx.adobe.com/es/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at.js: ventajas y prácticas recomendadas de implementación](https://helpx.adobe.com/es/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>abril de 2018 | Aprenderá: <ul><li>Cómo funciona la biblioteca at.js</li><li>Las ventajas de at.js sobre mbox.js</li><li>Cómo gestiona at.js el parpadeo</li><li>Gestión de errores en at.js</li><li>Metodologías de depuración</li><li>Problemas conocidos y hoja de ruta</li></ul>Para obtener más información en esta guía, consulte  [Implementación de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [Compositor de experiencias visuales (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>diciembre de 2017 | Aprenderá:<ul><li>Cómo funciona el Compositor de experiencias visuales</li><li>Cómo evitar problemas comunes con el Compositor de experiencias visuales</li><li>Soluciones alternativas con el Compositor de experiencias visuales</li></ul>Para obtener más información en esta guía, consulte  [Experiencias](/help/c-experiences/experiences.md). |
+| [Adobe Target: Integración de Analytics/Target (A 4 T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [at. js: Optimizaciones e implementación de implementación](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>de abril de 2018 | Aprenderá: <ul><li>Cómo funciona la biblioteca at.js</li><li>Las ventajas de at.js sobre mbox.js</li><li>Cómo gestiona at.js el parpadeo</li><li>Gestión de errores en at.js</li><li>Metodologías de depuración</li><li>Problemas conocidos y hoja de ruta</li></ul>Para obtener más información en esta guía, consulte  [Implementación de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
@@ -61,11 +61,11 @@ Además de las sesiones sobre Target, existen sesiones para otras soluciones de 
 Adobe Target Insider es un boletín de información mensual para los miembros de la comunidad de Adobe Target. Obtenga información sobre actualizaciones de productos y planes futuros, consejos y trucos para la personalización y la optimización, casos de éxito de clientes, eventos próximos, libros blancos repletos de información, publicaciones populares en blogs y más.
 
 
-Lea en la [carta de anuncio](https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/) cómo puede mantener la optimización gracias al boletín Adobe Target Insider.
+Compruebe en la [carta de anuncio](https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/) cómo puede mantener la optimización gracias al boletín Adobe Target Insider.
 
 >[!IMPORTANT]
 >
->[Regístrese para recibir automáticamente el boletín de Adobe Target Insider en su bandeja de entrada](https://www.adobe.com/subscription/adobe_target_newsletter.html).
+>[Regístrese para recibir automáticamente la newsletter de Adobe Target Insider en su bandeja de entrada](https://www.adobe.com/subscription/adobe_target_newsletter.html).
 
 Si se ha perdido algún boletín anterior, haga clic en los siguientes vínculos para que no le falte nada:
 
@@ -110,9 +110,9 @@ ClientCare está preparado para ayudarle a solucionar los problemas que pueda en
 
 Si tiene problemas o quiere realizar alguna pregunta sobre el uso de Target tiene varias opciones.
 
-Si tiene alguna duda puede preguntar a los expertos de Adobe Target en la [comunidad de Experience Cloud](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) o preguntarnos por Twitter en [@AdobeExpCare](https://twitter.com/adobeexpcare).
+For questions, you can ask the Adobe Target experts in the [Experience Cloud community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) or ask us on Twitter at [@AdobeExpCare](https://twitter.com/adobeexpcare).
 
-Si tiene problemas técnicos o quiere registrar un error, contacte con atención al cliente. Para contactar con atención al cliente por teléfono, llame al +1 800 497 0335. Puede encontrar los números de teléfono gratuitos fuera de Estados Unidos en la página [Números de teléfono regionales de servicio de atención al cliente de Adobe Digital Marketing](https://helpx.adobe.com/es/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Cuando se le pida que seleccione una opción para su producto, presione 3 para contactar con el equipo de Target.
+Si tiene problemas técnicos o quiere registrar un error, contacte con atención al cliente. Para contactar con atención al cliente por teléfono, llame al +1 800 497 0335. Toll free numbers outside the United States can be found on the [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) page. Cuando se le pida que seleccione una opción para su producto, presione 3 para contactar con el equipo de Target.
 
 Escriba un mensaje de correo electrónico al servicio de atención al cliente a [!DNL tt-support@adobe.com].
 
@@ -149,7 +149,7 @@ Además, prepare información relacionada con el problema concreto. Por ejemplo,
 
 ### En caso de una interrupción del servicio  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la página de [Estado del sistema de Experience Cloud](http://status.adobe.com) ([!DNL https://status.adobe.com]). En esta página se registran todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las soluciones de Experience Cloud, incluida Target, además de las últimas noticias del equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada anteriormente, cuando contacte con atención al cliente:
+Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la [página Estado del sistema de Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]). En esta página se registran todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las Soluciones de Experience Cloud, incluida Target, además de las últimas noticias del equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada anteriormente, cuando contacte con atención al cliente:
 
 * Hora en que se inició la interrupción del servicio
 * Explicación de lo que ocurre
@@ -170,15 +170,15 @@ target/c_contact_and_legal.xml
 
 El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ayudarle y, para ello, le ofrece una serie de opciones de asistencia:
 
-* [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/es/support/marketing-cloud.html)
-* [Preguntas rápidas por Twitter a @AdobeExpCare](https://twitter.com/adobeexpcare)
-* [Registre un incidente en nuestro portal para clientes](https://customers.omniture.com/login.php)
-* [Póngase directamente en contacto con el equipo de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
-* [Verificación de disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/)
+* [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/marketing-cloud.html)
+* [Preguntas rápidas a través de Twitter @AdobeExpCare](https://twitter.com/adobeexpcare)
+* [Registro de incidencias en el portal de clientes](https://customers.omniture.com/login.php)
+* [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/)
 
 Para recibir notificaciones sobre próximas mejoras de productos, regístrese en Adobe Priority Product Update:
 
-[Lista prioritaria de actualización de productos Adobe](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### Servicio, funcionalidad y facturación {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -186,14 +186,14 @@ Según la configuración de su solución, es posible que algunas de las opciones
 
 ### Comentarios  {#section_8154D6D712054220A90D85FA8E92933E}
 
-Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a esta solución. Se pueden añadir ideas y sugerencias de mejora para el conjunto de aplicaciones de Analytics [en nuestro Intercambio de ideas de clientes](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3).
+Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a esta solución. Las sugerencias e ideas sobre cómo mejorar el conjunto de Analytics [pueden añadirse en nuestro portal de intercambio de ideas de clientes](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3).
 
 ### Información legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
 * © 2019 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Condiciones de uso](https://www.adobe.com/go/marketingcloud_terms_of_use_es) | [Centro de privacidad](https://www.adobe.com/es/privacy.html)
+[Condiciones de uso](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Centro de privacidad](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
