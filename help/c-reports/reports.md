@@ -9,7 +9,7 @@ title: Informes
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -42,7 +42,7 @@ Además de la información general sobre informes de este tema y sus apartados, 
 
    Por ejemplo, podría seleccionar [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] en la lista desplegable [!UICONTROL Tipo] y elegir [!UICONTROL Activo] en la lista desplegable [!UICONTROL Estado] para mostrar solo las pruebas A/B y actividades de Segmentación de experiencias que tengan este estado.
 
-   En la ilustración siguiente vemos la lista desplegable [!UICONTROL Tipo] con dos tipos marcados: Prueba A/B y Segmentación de experiencias. Tenga en cuenta que los tres tipos de pruebas A/B (manual, [asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)y [segmentación automática](/help/c-activities/auto-target-to-optimize.md)) están seleccionados de forma predeterminada. Puede anular la selección de uno o más tipos según sea necesario.
+   En la ilustración siguiente vemos la lista desplegable [!UICONTROL Tipo] con dos tipos marcados: Prueba A/B y Segmentación de experiencias. Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. Puede anular la selección de uno o más tipos según sea necesario.
 
    ![Filtrar informes por tipo](/help/c-reports/assets/report_filters-new.png)
 
