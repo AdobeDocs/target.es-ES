@@ -7,7 +7,7 @@ title: Compositor de experiencias visuales para aplicaciones móviles
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 El Compositor de experiencias visuales (VEC) para aplicaciones móviles nativas le permite crear actividades y personalizar contenido en aplicaciones móviles nativas por su cuenta, sin las continuas dependencias y los ciclos de lanzamiento de aplicaciones de un desarrollo.
 
-El [Compositor de experiencias visuales](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) existente ofrece la capacidad de crear actividades y personalizar experiencias a su modo, y de enviarlas de forma dinámica a sus propiedades web mediante el mbox global de Target sin intervención del desarrollador. Ahora puede aprovechar el VEC para que haga lo mismo para sus aplicaciones móviles nativas. El VEC de aplicaciones móviles, disponible en [AEP SDK v 5](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec), se puede utilizar para crear [pruebas A/B](/help/c-activities/t-test-ab/test-ab.md) y [actividades de segmentación de experiencias (XT)](/help/c-activities/t-experience-target/experience-target.md) para aplicaciones móviles. En el futuro se admitirán otros tipos de actividades.
+El [Compositor de experiencias visuales](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) existente ofrece la capacidad de crear actividades y personalizar experiencias a su modo, y de enviarlas de forma dinámica a sus propiedades web mediante el mbox global de Target sin intervención del desarrollador. Ahora puede aprovechar el VEC para que haga lo mismo para sus aplicaciones móviles nativas. El VEC de aplicaciones móviles, disponible en [AEP SDK v5](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec), se puede utilizar para crear actividades de [Prueba A/B](/help/c-activities/t-test-ab/test-ab.md) y de [Segmentación de experiencias (XT)](/help/c-activities/t-experience-target/experience-target.md) para aplicaciones móviles. En el futuro se admitirán otros tipos de actividades.
 
-El VEC de aplicación móvil es compatible con los exploradores enumerados en [Exploradores admitidos](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+El VEC de aplicaciones móviles es compatible con los exploradores enumerados en [Exploradores compatibles](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
-## Uso del Compositor de experiencias visuales para aplicaciones móviles nativas   {#using-the-mobile-vec}
+## Uso del Compositor de experiencias visuales para aplicaciones móviles nativas  {#using-the-mobile-vec}
 
 La siguiente ilustración representa el proceso de uso del VEC de aplicaciones móviles:
 
@@ -28,13 +28,13 @@ La siguiente ilustración representa el proceso de uso del VEC de aplicaciones m
 
 | Proceso | Detalles |
 |--- |--- |
-| Enlace | Autorice de forma segura su aplicación móvil y dispositivo para trabajar con Target. Este paso solo es necesario una vez para un dispositivo. |
+| Enlace | Autorice de forma segura su aplicación móvil y dispositivo para trabajar con Target. Este paso solo es necesario una vez por dispositivo. |
 | Creación | Autor a [Actividad de Target](/help/c-activities/activities.md), con vista previa en tiempo real de acciones realizadas en la interfaz de usuario de Target. |
 | Entrega | Target entrega automáticamente actividades en su aplicación móvil nativa. |
 
 **Enlace:**
 
-El VEC de App App se conecta en tiempo real a la aplicación móvil del comerciante para crear actividades de Target. Para habilitar eso, el primer paso es vincular de forma segura (autorizar) el dispositivo y la aplicación móviles con Target.
+El VEC de aplicaciones móviles se conecta en tiempo real con la aplicación móvil del experto en marketing para la creación de actividades de Target. Para habilitar eso, el primer paso es vincular de forma segura (autorizar) el dispositivo y la aplicación móviles con Target.
 
 1. Al crear una actividad de prueba A/B, por ejemplo, seleccione **[!UICONTROL Aplicación móvil]**, **[!UICONTROL Visual (Predeterminada)]** y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
 
@@ -50,7 +50,7 @@ El proceso de enlace contiene los siguientes pasos:
 
    `mymobileapp://path?params`
 
-1. El vínculo profundo se encuentra disponible como código QR o URL. Los usuarios pueden escanear el código QR desde el teléfono o enviar por correo electrónico o mensaje la URL a sí mismos. La URL de vínculo profundo tiene un token de autorización que se usa para vincular de forma segura la aplicación móvil y el dispositivo con Target.
+1. El vínculo profundo se encuentra disponible como código QR o URL. Los usuarios pueden escanear el código QR desde el teléfono o enviarse la dirección URL por correo electrónico o mensaje. La URL de vínculo profundo tiene un token de autorización que se usa para vincular de forma segura la aplicación móvil y el dispositivo con Target.
 1. Abra la URL de vínculo profundo en su dispositivo móvil. Se inicia la aplicación móvil. El SDK identifica que la aplicación se abrió para enlace y creación en el VEC.
 
    El SDK realiza una solicitud al servidor de Target y se registra. El servidor de Target autoriza el token y establece una conexión en tiempo real con el dispositivo (usando actualmente sockets web).
@@ -67,27 +67,37 @@ Una vez que la aplicación esté conectada y que aparezca una vista en tiempo re
 
 | Acción | Detalles |
 |--- |--- |
-| Intercambiar imagen | Intercambie una imagen con otra seleccionando una oferta de imagen diferente o configurando directamente la URL de CDN de una imagen. Las ofertas de imágenes en Target se sirven a través de [Adobe Scene 7](/help/administrating-target/scene7-settings.md). |
+| Intercambiar imagen | Intercambie una imagen por otra seleccionando una oferta de imagen diferente o configurando directamente la dirección URL CDN de una imagen. Las ofertas de imágenes en Target se sirven a través de [Adobe Scene7](/help/administrating-target/scene7-settings.md). |
 | Cambiar texto | Cambie el contenido del texto, el color o el tamaño de fuente en un elemento de texto, botón o etiqueta. |
-| Cambiar fondo | Cambiar el contenido o el fondo del elemento para un área de texto o un botón. |
+| Cambio de fondo | Cambiar el contenido o el fondo del elemento para un área de texto o un botón. |
 
 Las acciones realizadas en el VEC pueden verse en tiempo real en la aplicación, lo que permite la funcionalidad de vista previa en tiempo real durante la creación. Las acciones están asociadas con pantallas móviles o vistas relevantes, y se asocian como corresponde.
 
 ![](assets/mobile-vec-create-4.png)
 
+**Administrar varias versiones de la aplicación**
+
+Cuando se detecta una nueva versión de la aplicación, se le notifica que la versión de la aplicación se ha agregado a la lista de versiones de destino.
+
+![Notificación de aplicación nueva](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification.png)
+
+Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
+
+![Cuadro de diálogo Administrar versiones](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
+
 ## Resolución de problemas {#troubleshooting}
 
-**El VEC de App App indica que mi aplicación se ha desconectado.**
+**El VEC de aplicaciones móviles indica que la aplicación está desconectada.**
 
-Puede que se haya interrumpido la conexión a Internet. Vuelva a abrir la aplicación después de que Internet esté disponible para que se establezca una nueva conexión. Recomendamos crear una actividad de VEC de aplicación móvil en una conexión Wifi.
+Puede que se haya interrumpido la conexión a Internet. Vuelva a abrir la aplicación después de que Internet esté disponible para que se establezca una nueva conexión. Recomendamos crear una actividad del VEC de aplicaciones móviles con conexión WiFi.
 
-**El VEC de la aplicación móvil no está sincronizado con mi aplicación móvil.**
+**El VEC de aplicaciones móviles no está sincronizado con mi aplicación móvil.**
 
 Haga clic en el botón [!UICONTROL Actualizar] del VEC para sincronizar la visualización.
 
 ## Vistas de Target y aplicaciones móviles {#target-views}
 
-El VEC de aplicaciones móviles aprovecha un nuevo concepto de vistas: un grupo lógico de elementos visuales que forman una experiencia de aplicación móvil.
+El VEC de aplicaciones móviles aprovecha un nuevo concepto de Vistas: un grupo lógico de elementos visuales que, juntos, constituyen una experiencia de aplicación móvil.
 
 **Presentación de las vistas de Target**
 
@@ -100,7 +110,7 @@ Tomemos como ejemplo una aplicación de compras para flores. La aplicación perm
 
 En esta aplicación, cada una de estas tareas puede lograrse en una pantalla separada de la aplicación móvil. A medida que los usuarios examinan la aplicación, se representa una pantalla que les permite realizar una de las siguientes tareas. Si es desarrollador de Android, es muy probable que cree cuatro clases de actividad diferentes de Android y que cada una de ellas se asocie a una de estas tareas.
 
-En este caso, cada una de estas tareas puede considerarse como vistas por las que pasa la aplicación móvil. Nos referiremos como vistas de objetivo, cada una de ellas de forma única. Una vista de Target, o una vista de forma más corta, es un contenedor lógico de elementos visuales que se muestran en la pantalla móvil. Algunos ejemplos de vista son una pantalla o una clase de actividad en Android.
+En este caso, cada una de estas tareas puede considerarse como vistas por las que pasa la aplicación móvil. Nos referiremos a estas como Vistas de Target (cada una caracterizada exclusivamente). Una vista de Target, o una vista de forma más corta, es un contenedor lógico de elementos visuales que se muestran en la pantalla móvil. Algunos ejemplos de vista son una pantalla o una clase de actividad en Android.
 
 Las aplicaciones móviles rara vez son tan simples. Vamos a hacerlo un poco más realista. En la primera tarea, que muestra una lista de flores y ramos disponibles, agreguemos la capacidad de crear varios diseños y, por ende, pantallas diferentes. Por ejemplo, vamos a agregar una función “Ordenar por” que tenga tres opciones:
 
@@ -112,44 +122,44 @@ En este ejemplo, cada vez que un usuario selecciona una opción “Ordenar por�
 
 Como experto en marketing, le interesa crear distintas experiencias y ejecutar ofertas diferentes en cada una de estas visualizaciones sin tener que pedir a los desarrolladores que configuren mboxes locales o que realicen un ciclo de lanzamiento de aplicación.
 
-## Configuración del VEC de la aplicación móvil de Target {#setting-up}
+## Configuración del VEC de aplicaciones móviles de Target {#setting-up}
 
 Los desarrolladores deben hacer lo siguiente para habilitar el VEC de aplicaciones móviles para una aplicación móvil:
 
-* Configurar la extensión VEC de Adobe Target en Launch
-   * La extensión VEC depende de la extensión [de Adobe Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Asegúrese de que la extensión de Adobe Target ya esté configurada y habilitada.
-* Agregue la extensión Target VEC a su aplicación.
+* Configuración de la extensión VEC de Adobe Target en Launch
+   * La extensión VEC depende de la [extensión de Adobe Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Asegúrese de que la extensión de Adobe Target ya está configurada y habilitada.
+* Agregue la extensión VEC de Target a su aplicación.
    * [Android: Configuración de la aplicación móvil](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
    * [iOS: Configuración de la aplicación móvil](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
 
 ## Métodos de implementación para el VEC de Target
 
-La extensión Target VEC recupera las experiencias de Target relevantes para su aplicación a través de una solicitud de red. Las ofertas se recuperan a través de esta llamada de red y se aplican automáticamente en las pantallas de destino. No se realizan solicitudes de red subsiguientes para recuperar las experiencias de VEC cuando el usuario navega por varias pantallas de la aplicación.
+La extensión VEC de Target recupera las experiencias de Target relevantes para su aplicación a través de una solicitud de red. Las ofertas se recuperan a través de esta llamada de red y se aplican automáticamente en las pantallas de destino. No se realizan solicitudes de red subsiguientes para recuperar las experiencias de VEC cuando el usuario navega por varias pantallas de la aplicación.
 
-El comportamiento predeterminado de la extensión es hacer una solicitud de red sincrónica (llamada de bloqueo) al momento del lanzamiento de la aplicación. Puede utilizar Launch para controlar el comportamiento de esta solicitud de red para cumplir con el comportamiento de la aplicación.
+El comportamiento predeterminado de la extensión es hacer una solicitud de red sincrónica (llamada de bloqueo) en el momento del lanzamiento de la aplicación. Puede utilizar Launch para controlar el comportamiento de esta solicitud de red para cumplir con el comportamiento de la aplicación.
 
-### Actividades de segmentación automática
+### Actividades de Target de recuperación automática
 
 Es el comportamiento predeterminado en el que la extensión VEC de Target inicia automáticamente una solicitud de red. Puede utilizar una de las siguientes opciones para hacer que esta solicitud sea una llamada de bloqueo o una solicitud asincrónica.
 
-* Traer en una llamada sincrónica (el fondo está DESACTIVADO)
+* Recuperación en una llamada sincrónica (el segundo plano está desactivado)
 
-   Cuando se selecciona, la extensión de Target VEC hace una solicitud de red como llamada bloqueadora al inicio de la aplicación. Las ofertas se aplican inmediatamente y no hay parpadeo en la aplicación. Es el comportamiento predeterminado de la extensión.
+   Cuando se selecciona, la extensión VEC de Target crea una solicitud de red como una llamada de bloqueo al inicio de la aplicación. Las ofertas se aplican inmediatamente y no hay parpadeo en la aplicación. Este es el comportamiento predeterminado de la extensión.
 
-* Traer en una llamada asincrónica (el fondo está activado)
+* Recuperación en una llamada asincrónica (el segundo plano está activado)
 
-   Cuando se selecciona, la extensión de Target VEC realiza una solicitud de red en segundo plano al inicio de la aplicación, pero no bloquea la carga de la aplicación. Si las experiencias se crean en la pantalla principal de la aplicación, es posible que las ofertas no se apliquen a la pantalla principal si la pantalla se procesa antes de que se complete la llamada. El procesamiento de la pantalla de la aplicación se suele identificar mediante eventos `didFinishLaunchingWithOptions` de ciclo vital y `onActivityResumed` en iOS y Android respectivamente. Las ofertas se aplican automáticamente en todas las pantallas subsiguientes.
+   Cuando se selecciona, la extensión VEC de Target realiza una solicitud de red en segundo plano al inicio de la aplicación, pero no bloquea la carga de la aplicación. Si las experiencias se crean en la pantalla principal de la aplicación, es posible que las ofertas no se apliquen a la pantalla principal si la pantalla se procesa antes de que se complete la llamada. El procesamiento de la pantalla de la aplicación se suele identificar mediante eventos de ciclo vital `didFinishLaunchingWithOptions` y `onActivityResumed` y en iOS y Android respectivamente. Las ofertas se aplican automáticamente en todas las pantallas subsiguientes.
 
-### Buscar actividades de Target mediante programación
+### Recuperación de actividades de Target mediante programación
 
-Puede deshabilitar la extensión de Target VEC para que la solicitud de red se realice automáticamente y decida llamar mediante programación a la API de extensiones. Esto proporciona a los programadores control sobre cómo desean integrar las ofertas de Target VEC en la aplicación. La extensión VEC de Target tiene dos métodos estáticos `prefetchOffers` y `prefetchOffersBackground` que pueden utilizarse para recuperar de forma programada ofertas de Target VEC.
+Puede deshabilitar la extensión VEC de Target para que la solicitud de red se realice automáticamente y que decida llamar mediante programación a la API de extensiones. Esto proporciona a los programadores control sobre cómo desean integrar las ofertas VEC de Target en la aplicación. La extensión VEC de Target tiene dos métodos estáticos `prefetchOffers` y `prefetchOffersBackground` que pueden utilizarse para recuperar de forma programada ofertas VEC de Target.
 
-* El `prefetchOffers` método oculta la pantalla actual hasta que se recuperan las ofertas de Target VEC. Las ofertas se aplican automáticamente a la pantalla actual, si corresponde, y la pantalla vuelve a ser visible.
-* El `prefetchOffersBackground` método no oculta la pantalla actual y se realiza una llamada para recuperar las ofertas de Target relevantes. Las ofertas de Target *no* se aplican en la pantalla actual y no hay parpadeo. A medida que el usuario navega a pantallas posteriores, las ofertas se aplican automáticamente, según corresponda.
+* El método `prefetchOffers` oculta la pantalla actual hasta que se recuperan las ofertas VEC de Target. Las ofertas se aplican automáticamente a la pantalla actual, si corresponde, y la pantalla vuelve a ser visible.
+* El método `prefetchOffersBackground` no oculta la pantalla actual y se realiza una llamada para recuperar las ofertas de Target relevantes. Las ofertas de Target *no* se aplican en la pantalla actual y no hay parpadeo. A medida que el usuario navega a pantallas subsiguientes, las ofertas se aplican automáticamente, según corresponda.
 
 ### Gestión de las restricciones del espacio de trabajo de Target
 
-Puede definir `at_property` el valor del espacio de trabajo mediante la interfaz de Launch. Esto garantiza que solo las actividades de ese espacio de trabajo se entreguen a la aplicación móvil.
+Puede definir el valor `at_property` del espacio de trabajo mediante la interfaz de Launch. Esto garantiza que solo las actividades de ese espacio de trabajo se entreguen a la aplicación móvil.
 
 ## Directrices generales para llamadas de API de Target {#section_C7276795F02540DCA230AEEDF882A833}
 
@@ -159,24 +169,24 @@ Para agregar correctamente vistas de Target para Android, le presentamos una tab
 |--- |--- |
 | Al final de `Activity::onStart`, `Activity::onResume` | El desarrollador debe considerar si `OnStart` y `OnResume` como iguales o diferentes `targetViews`. Si son iguales, use el mismo `viewName`. Si son diferentes, use diferentes `viewNames`. El SDK agrega automáticamente estos eventos. |
 | Inmediatamente después de una llamada de `Activity::SetContent` | Si la interfaz de usuario no cambia, podemos insertar una llamada a `targetView`. |
-| Dentro de `View::willAppear` | Si la vista seleccionada aparece exclusivamente en una jerarquía de vista específica. |
+| Dentro de `View::willAppear` | Si la vista seleccionada que aparece únicamente en una jerarquía de vista específica. |
 | Inmediatamente después de una llamada de `Activity::SetContentView` | Si la actividad no cambia ni modifica ningún contenido en el siguiente código. |
 
 Para Android, le presentamos una tabla de ubicaciones incorrectas para colocar la llamadas de `targetView`:
 
 | Ubicación de TargetView inaceptable | Motivo |
 |--- |--- |
-| Dentro de `Activity::onCreate` | La actividad se ha creado, pero no se garantiza que la vista asociada con la actividad se complete ni se adjunte a la ventana. Esta colocación podría llevar a que la pantalla de creación no se muestree o que se muestree incompletamente, o que las ofertas se apliquen de una manera no determinista. |
+| Dentro de `Activity::onCreate` | La actividad se ha creado, pero no se garantiza que la vista asociada con la actividad esté completa o que se adjunte a la ventana. Esta colocación podría llevar a que la pantalla de creación no se muestree o que se muestree incompletamente, o que las ofertas se apliquen de una manera no determinista. |
 | Dentro de `View::didAppear` | La vista ya ha aparecido y la aplicación de la oferta creará una mala experiencia de interfaz del usuario con parpadeo. |
 | Dentro de `View::didLoad` | La vista no está adjunta a la jerarquía de vista principal, y podría crearse una instancia, pero no se garantiza que se muestre en la interfaz del usuario de la aplicación. |
 
 ## Entrega {#delivery}
 
-Las actividades de Target creadas con el VEC de aplicaciones móviles se envían automáticamente en aplicaciones móviles. Estas actividades se recuperan previamente en el inicio de la aplicación (basadas en la configuración de inicio) y se aplican a medida que el usuario navega por distintas vistas de Target, asignadas a menudo directamente a las pantallas.
+Las actividades de Target creadas con el VEC de aplicaciones móviles se entregan de forma automática en aplicaciones móviles. Estas actividades se recuperan previamente al abrir la aplicación (según la configuración de lanzamiento) y se aplican a medida que el usuario navega por las diferentes Vistas de Target, a menudo asignadas directamente a las pantallas.
 
-Al llamar al método `TargetVEC.prefetchOffersBackground()` API, las ofertas de Target se recuperan desde Target Edge y se almacenan en caché localmente. De este modo la experiencia de usuario es más suave, ya que las ofertas de Target se aplican inmediatamente desde la caché cuando las vistas de Target se activan mediante llamadas a `targetView()`, en lugar de tener que obtenerse a través de la red.
+Al llamar al método API `TargetVEC.prefetchOffersBackground()`, las ofertas de Target se recuperan desde Target Edge y se almacenan en la caché localmente. De este modo la experiencia de usuario es más suave, ya que las ofertas de Target se aplican inmediatamente desde la caché cuando las vistas de Target se activan mediante llamadas a `targetView()`, en lugar de tener que obtenerse a través de la red.
 
-Para obtener más flexibilidad, también puede llamar a `TargetVEC.prefetchOffers()` la API, que oculta el diseño actual hasta que las ofertas de Target están prerecuperadas y aplicadas a la vista de objetivo (causando posiblemente parpadeo).
+Para obtener más flexibilidad, también puede llamar a la API `TargetVEC.prefetchOffers()`, que oculta el diseño actual hasta que las ofertas de Target sean previamente recuperadas y aplicadas a la Vista de Target (causando posiblemente parpadeo).
 
 Es posible realizar llamadas repetidas a `TargetVEC.prefetchOffersBackground()` mientras el usuario se desplaza por una aplicación de cliente para actualizar la caché local de ofertas de Target con el contenido más adecuado (en función de las últimas actualizaciones del perfil de Target del usuario actual).
 
@@ -184,7 +194,7 @@ Tenga en cuenta que, cada vez que se obtienen ofertas de Target, también se apl
 
 ## Resolución de problemas {#ts}
 
-**He recibido un error diciendo que mi valor «context. application. name» contiene caracteres prohibidos. ¿Qué caracteres se permiten en los nombres de aplicaciones móviles?**
+**He recibido un error diciendo que mi valor «context. application. name» contiene caracteres prohibidos. What characters are allowed in mobile app names?**
 
 Los caracteres permitidos en los nombres de aplicaciones móviles incluyen:
 
@@ -196,13 +206,13 @@ Los caracteres permitidos en los nombres de aplicaciones móviles incluyen:
 | `.` | Periodo |
 | `,` | Coma |
 | `:` | Dos puntos |
-| `#` | Signo de número  |
+| `#` | Signo de número |
 | `(` | Paréntesis de apertura |
 | `)` | Paréntesis de cierre |
 | `&` | Ampersand |
 | `+` | Signo más |
 
-Si utiliza un carácter que no está permitido, por ejemplo, un apóstrofe ( `'` ) hace que reciba el siguiente mensaje de error:
+Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
 
 ```
 Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
@@ -210,19 +220,19 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
 
 ## Limitaciones conocidas {#limitations}
 
-* El VEC de aplicaciones móviles se puede utilizar actualmente para crear [actividades de prueba](/help/c-activities/t-test-ab/test-ab.md) A/B y [segmentación de experiencias (XT)](/help/c-activities/t-experience-target/experience-target.md) para aplicaciones móviles. En el futuro se admitirán otros tipos de actividades.
-* Aún no se admite la función Vista previa. Estará disponible en una próxima versión.
-* Al intentar reconectar la aplicación al VEC de la aplicación móvil, debe salir de la aplicación completamente y volver a iniciarla.
+* El VEC de aplicaciones móviles se puede utilizar actualmente para crear actividades de [Prueba A/B](/help/c-activities/t-test-ab/test-ab.md) y Actividades de [segmentación de experiencias (XT)](/help/c-activities/t-experience-target/experience-target.md) para aplicaciones móviles. En el futuro se admitirán otros tipos de actividades.
+* Aún no es compatible la función Vista previa. Estará disponible en una próxima versión.
+* Al intentar reconectar la aplicación al VEC de aplicaciones móviles, debe salir de la aplicación completamente y volver a iniciarla.
 
    Si la aplicación móvil ya está abierta durante cualquiera de las situaciones enumeradas a continuación, debe cerrarla y volverla a abrir. No obstante, la aplicación *debe* cerrarse desde la sección de aplicaciones recientes y *no* presionando el botón Atrás. Si la aplicación se cierra presionando el botón Atrás, podrían producirse problemas de conexión intermitente.
 
-   Hay varias situaciones en las que debe reiniciar la aplicación para conectarse al VEC de aplicación móvil si la aplicación ya está abierta:
+   Hay varias situaciones en las que se debe reiniciar la aplicación para conectarse al VEC de aplicaciones móviles si la aplicación ya está abierta:
 
    * Cuando se crea una nueva actividad, después de seleccionar la aplicación móvil aparece el cuadro de diálogo de la lista de dispositivos. Si la aplicación ya está abierta, debe cerrarla y volver a iniciarla para que su dispositivo aparezca como disponible para seleccionar.
    * El cuadro de diálogo de dispositivos se muestra cuando se empieza a editar una actividad. Si la aplicación ya está abierta, debe cerrarla y volver a iniciarla para que su dispositivo aparezca como disponible para seleccionar.
-   * El cuadro de diálogo de dispositivos se muestra cuando se desplaza del paso “Objetivos y configuración” al paso “Creación” (paso 1). Si la aplicación ya está abierta, debe cerrar y volver a iniciar la aplicación para conectarse al VEC de la aplicación móvil.
+   * El cuadro de diálogo de dispositivos se muestra cuando se desplaza del paso “Objetivos y configuración” al paso “Creación” (paso 1). Si la aplicación ya está abierta, debe cerrarla y reiniciarla para conectarse de nuevo al VEC de aplicaciones móviles.
    Asegúrese de cerrar la aplicación desde la sección de aplicaciones recientes y no presionando el botón [!UICONTROL Atrás].
 
-## Vídeo de capacitación: Compositor de experiencias visuales de la aplicación móvil de Adobe Target (3:33) {#video}
+## Training video: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27528?captions=spa)
