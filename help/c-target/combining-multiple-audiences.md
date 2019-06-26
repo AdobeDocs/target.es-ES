@@ -8,7 +8,7 @@ title: Combinación de varias audiencias
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,11 +25,11 @@ Puede combinar hasta diez audiencias usando los operadores Y y O.
 
 Puede crear y usar audiencias combinadas en varios lugares de la interfaz de usuario de [!DNL Target]. 
 
-## Crear una audiencia combinada al crear una actividad {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Create a combined audience while creating an activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] de la actividad durante el flujo de trabajo guiado de tres pasos.
 
-1. Durante la creación [de una actividad](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL de Target]** , haga clic en las tres elipses verticales y, a continuación, haga clic **[!UICONTROL en Reemplazar audiencia]**.
+1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
 
    ![Resultado del paso](assets/edit_audience.png)
 
@@ -77,7 +77,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
 1. Escriba un nombre descriptivo para la audiencia combinada y haga clic en **[!UICONTROL Guardar]**.
 
-## Crear una audiencia combinada para usarla en la segmentación de métricas {#section_A42E795AFCBD4575809C5942039910F0}
+## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
 Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y configuración] de la actividad para usarla en la segmentación de métrica. Por ejemplo, para crear una segmentación según la conversión empleando una audiencia combinada:
 
@@ -103,7 +103,7 @@ Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y
 
 1. Realice el [paso 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) de la sección “Crear una audiencia combinada al crear una actividad” para crear una audiencia combinada.
 
-## Crear una audiencia combinada al editar una actividad {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Create a combined audience while editing an activity {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 Cuando edita una actividad existente, puede crear una audiencia combinada ad-hoc.
 
@@ -113,7 +113,7 @@ Cuando edita una actividad existente, puede crear una audiencia combinada ad-hoc
 
    Haga clic en la actividad para abrirla y luego haga clic en **[!UICONTROL Editar actividad]**.
 
-1. Haga clic en **[!UICONTROL Configurar]** &gt; **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Varias audiencias]**.
+1. Click the **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
 
    ![Configurar &gt; Audiencias &gt; Varias audiencias](/help/c-target/assets/combine_multiple_audiences7.png)
 
