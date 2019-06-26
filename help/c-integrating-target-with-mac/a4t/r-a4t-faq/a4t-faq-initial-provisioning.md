@@ -7,8 +7,8 @@ solution: Target
 title: 'Aprovisionamiento inicial: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,7 +27,7 @@ Para implementar un caso de uso de A4T básico de varias páginas:
 
 ## ¿Cómo puedo saber si A4T está habilitado en mi cuenta de Target?{#section_4437D284448F4313BF953D4B6EDBACA6}
 
-Para poder seleccionar un grupo de informes al definir una actividad de Analytics, necesita una cuenta de usuario de Analytics y una cuenta de usuario de Target. Sus cuentas de usuario deben estar configuradas tal como se describe en la documentación. Consulte  [Requisitos de permisos de usuario](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
+Para poder seleccionar un grupo de informes al definir una actividad de Analytics, necesita una cuenta de usuario de Analytics y una cuenta de usuario de Target. Sus cuentas de usuario deben estar configuradas tal como se describe en la documentación. Consulte [Requisitos de permisos de usuario](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
 Una vez que sea miembro de uno o varios grupos de Experience Cloud que tienen acceso a Analytics y Target y que tenga acceso a todos los grupos de informes, debería ver la opción para crear una prueba A/B con Analytics dentro de **[!UICONTROL Crear actividad]**.
 
