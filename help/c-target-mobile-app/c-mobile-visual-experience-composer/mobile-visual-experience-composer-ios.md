@@ -8,7 +8,7 @@ title: 'iOS: configuración de la aplicación móvil'
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 0447ec6a589534ec9ad2da8d809b66900e9b4617
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -233,7 +233,7 @@ Puede haber ciertas situaciones en las que desee volver a llamar a la API de rec
 + (void) prefetchOffersBackground;
 ```
 
-## Tutoriales: Implementar Experience Cloud en las aplicaciones Ios-C y Swift de Mobile iOS {#tutorial}
+## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
 
 * [Implementar Experience Cloud en aplicaciones Ios-C de Mobile iOS](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
 * [Implementar Experience Cloud en aplicaciones móviles iOS de Mobile](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
