@@ -7,8 +7,8 @@ solution: Target
 title: Informe Rendimiento de las experiencias (MVT)
 topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,4 +41,4 @@ Debajo del gráfico, se muestra una tabla con la cantidad de participantes que v
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Rendimiento de las experiencias se describe a partir del minuto 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=spa)
