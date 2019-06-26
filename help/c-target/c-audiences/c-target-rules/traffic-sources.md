@@ -7,7 +7,7 @@ solution: Target
 title: Informe de
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 Crear audiencias para dirigirse a visitantes según el motor de búsqueda o la página de aterrizaje que les lleve al sitio.
 
-Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la página de aterrizaje de referencia del visitante. La página de aterrizaje referente es la página donde hizo clic el visitante para llegar al sitio actual en esta sesión. (Por ejemplo, si el visitante hizo clic en una publicidad en Google y se dirige a la página `adobe.com` principal, entonces es `google.com`la página de aterrizaje referente).
+Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la página de aterrizaje de referencia del visitante. La página de aterrizaje referente es la página donde hizo clic el visitante para llegar al sitio actual en esta sesión. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
 
 Puede combinar varias fuentes de tráfico para crear una regla de segmentación compleja.
 
