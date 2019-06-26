@@ -7,8 +7,8 @@ solution: Target
 title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ La metodología de recuento especifica lo que Target usa como denominador para l
 
 En el informe de actividades, los administradores pueden cambiar la métrica predeterminada para que cada vez que se realice el informe se reflejen las mismas métricas. De lo contrario, el informe usa la última métrica aplicada al último informe.
 
-Para obtener más información, consulte [Seleccionar métricas de informe predeterminadas](https://marketing.adobe.com/resources/help/es_ES/sc/user/t_metrics_set_default.html) en la *guía Ayuda para la interfaz de Reports and Analytics*.
+Para obtener más información, consulte [Seleccionar métricas de informes predeterminadas](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) en la guía *Ayuda de la interfaz de Reports and Analytics*.
 
 ## ¿Cuándo se aplica un segmento a la métrica (con una métrica calculada) y cuándo se aplica el segmento al informe?{#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -110,13 +110,13 @@ El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. 
 
 Puesto que las dos experiencias se vieron antes de la conversión, ambas son las “responsables” del pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. A la hora de crear informes de Target, no importa que el origen se atribuya a todas las actividades que vio el usuario, ya que no se están comparando actividades de Target para ver cuál ha generado mejores resultados. Lo que se compara son los resultados de dos elementos de una misma actividad y, como un usuario no puede ver distintas experiencias en la misma actividad, no hay que preocuparse por la contaminación de los orígenes de los pedidos.
 
-Para obtener más información, consulte [Variables de conversión (eVar)](https://marketing.adobe.com/resources/help/es_ES/reference/conversion_var_admin.html) en Ayuda de Analytics.
+Para obtener más información, consulte [Variables de conversión (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) en la Ayuda de Analytics.
 
 ## ¿Por qué Analytics y Analytics for Target (A4T) calculan las cifras de la métrica Visitantes únicos de distinta forma?{#section_0C3B648AB54041F9A2AA839D51791883}
 
 Una de las presuposiciones que se dan al ejecutar una prueba A/B, que emplea la prueba T de estudiante (la métrica de confianza) para elegir al ganador de una prueba, es que hay un plazo de tiempo fijo. La prueba solo es válida estadísticamente si se mira este tamaño de muestra fijo.
 
-La métrica Visitantes únicos solo es distinta en Analytics y Target cuando se observa un intervalo de tiempo inferior al de la propia prueba. Si no se ha alcanzado el tamaño de la muestra, la prueba no es tan fiable. Para obtener más información, consulte [Cómo ejecutar una prueba A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) en [la página web de Evan Miller](https://www.evanmiller.org/index.html).
+La métrica Visitantes únicos solo es distinta en Analytics y Target cuando se observa un intervalo de tiempo inferior al de la propia prueba. Si no se ha alcanzado el tamaño de la muestra, la prueba no es tan fiable. Consulte [Cómo no ejecutar una prueba A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) en [el sitio web de Evan Miller](https://www.evanmiller.org/index.html) para obtener más información.
 
 La métrica Visitantes únicos muestra el número de personas que han estado expuestas a la prueba y que han visitado el sitio durante el periodo de tiempo especificado. Esas personas siguen formando parte de la prueba y se deben contabilizar. Si desea ver solo el número de personas que han estado expuestas durante una semana, puede crear un segmento de visitantes que efectuaron una impresión de actividad y aplicarlo al informe.
 
@@ -144,4 +144,4 @@ Se recomienda detener la actividad existente y luego crear una nueva, en lugar d
 
 Puede utilizar [!DNL Adobe Analysis Workspace] para profundizar y visualizar los datos o descubrir la información oculta bajo la superficie.
 
-Para obtener información detallada y ejemplos, abra el tutorial [Analytics y Target: Prácticas recomendadas de análisis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) proporcionado por Adobe Experience League.
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
