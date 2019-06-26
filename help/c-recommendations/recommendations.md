@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -57,7 +57,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=spa)
 
 ## Seminario web básico de Adobe Target: Introducción a Recommendations {#intro-to-recs}
 
