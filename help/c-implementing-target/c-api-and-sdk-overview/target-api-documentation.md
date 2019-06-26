@@ -7,8 +7,8 @@ solution: Target
 title: Transición de las API heredadas de Target a Adobe I/O
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -47,18 +47,18 @@ Los nuevos métodos API contienen vínculos a la sección correspondiente en el 
 
 | Grupo | Método de las API heredadas | Método de las nuevas API | Notas |
 |--- |--- |--- |--- |
-| Campaña/Actividad | Creación de campaña | [Crear actividad AB](http://developers.adobetarget.com/api/#create-ab-activity)<br>[Crear actividad XT ](http://developers.adobetarget.com/api/#create-xt-activity) | Las nuevas API proporcionan métodos de creación distintos para AB y XT |
-|  | Actualización de campaña | [Actualizar actividad AB](http://developers.adobetarget.com/api/#update-ab-activity)<br>[Actualizar actividad XT ](http://developers.adobetarget.com/api/#update-xt-activity) |  |
+| Campaña/Actividad | Creación de campaña | [Crear actividad AB](http://developers.adobetarget.com/api/#create-ab-activity)<br>[Crear actividad XT](http://developers.adobetarget.com/api/#create-xt-activity) | Las nuevas API proporcionan métodos de creación distintos para AB y XT |
+|  | Actualización de campaña | [Actualizar actividad AB](http://developers.adobetarget.com/api/#update-ab-activity)<br>[Actualizar actividad XT](http://developers.adobetarget.com/api/#update-xt-activity) |  |
 |  | Copiar campaña | N/A | Se usan las API de creación de actividad |
 |  | Lista de campañas | [Listar actividades](http://developers.adobetarget.com/api/#list-activities) |  |
 |  | Estado de la campaña | [Actualizar el estado de la actividad](http://developers.adobetarget.com/api/#update-activity-state) |  |
-|  | Vista de la campaña | [Obtener actividad AB por ID](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Obtener actividad XT mediante ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
+|  | Vista de la campaña | [Obtener actividad AB por ID](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Obtener actividad XT por ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
 |  | ID de campaña de terceros | N/A | Si utiliza un thirdpartyID, pueden usarse los métodos de actividad relevantes |
 | Ofertas | Creación de oferta | [Crear oferta](http://developers.adobetarget.com/api/#create-offer) |  |
 |  | Obtención de oferta | [Obtener oferta por ID](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
 |  | Lista de ofertas | [Listar ofertas](http://developers.adobetarget.com/api/#list-offers) |  |
 |  | Lista de carpetas | N/A | Las carpetas no son compatibles con Target Standard/Premium |
-| Creación de informes | Informe de rendimiento de la campaña | [Obtener informe de rendimiento AB](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Obtener informe de rendimiento de XT](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
+| Creación de informes | Informe de rendimiento de la campaña | [Obtener informe de rendimiento AB](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Obtener informe de rendimiento XT](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
 |  | Informe de auditoría | [Obtener informe de auditoría](http://developers.adobetarget.com/api/#get-audit-report) |  |
 |  | Informe de contenido 1-1 | [Obtener informe de rendimiento AP](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
 | Configuración de la cuenta | Obtener grupos de hosts | [Listar entornos](http://developers.adobetarget.com/api/#list-environments) |  |
