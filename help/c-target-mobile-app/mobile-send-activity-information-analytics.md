@@ -4,8 +4,8 @@ seo-description: En esta sección se describe cómo enviar información de activ
 seo-title: Enviar información de actividad a Adobe Analytics
 title: Enviar información de actividad a Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ En esta sección se describe cómo enviar información de actividad de la aplica
 
    Analice en la respuesta que regresó de Target en la retrollamada. Puede utilizar NSJSONSerialization para analizar esta respuesta y almacenarla en un diccionario o una matriz.
 
-   Para obtener más información, consulte [documentación de NSJSONSerialization](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error).
+   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
 1. Envíe los datos a Analytics.
 
    Agregue la información de actividad analizada (como `tntVal` en la respuesta anterior) al objeto de datos de contexto en una llamada de Analytics. La llamada de Analytics que contiene los datos de contexto se puede activar inmediatamente o puede esperar hasta que se active la siguiente llamada de Analytics.
