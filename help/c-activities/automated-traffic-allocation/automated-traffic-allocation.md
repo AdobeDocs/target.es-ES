@@ -7,8 +7,8 @@ solution: Target
 title: Asignación automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -57,7 +57,7 @@ Asignación automática asigna de forma inteligente nuevos visitantes a distinta
 
 Los siguientes términos pueden resultar útiles al tratar el tema de la asignación automática:
 
-**Multi-armed bandit:** Un método [multi-armed bandit](https://es.wikipedia.org/wiki/Bandido_multibrazo) en la optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje.
+**Multi-armed bandit:** un método [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) en la optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje.
 
 ## Cómo funciona el algoritmo {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -192,7 +192,7 @@ Este vídeo incluye información sobre cómo configurar la asignación de tráfi
 * Seleccionar el método de asignación de tráfico
 * Asignar tráfico entre distintas experiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=spa)
 
 ### Creación de pruebas A/B (8:36)
 
@@ -201,4 +201,4 @@ En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de traba
 * Crear una actividad A/B en Adobe Target
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=spa)
