@@ -8,8 +8,8 @@ title: Informes de Perspectivas de personalización
 title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,7 +28,7 @@ Los usuarios de las actividades de Personalización automatizada (AP) y Segmenta
 
 ## Descripción general de los informes de Perspectivas de personalización {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-El objetivo de los informes de [!UICONTROL Perspectivas de personalización] es proporcionar más información sobre cómo los modelos de personalización de Target que hay tras las actividades de AP y AT personalizan el tráfico de visitantes. El  [algoritmo de bosque aleatorio](/help/c-activities/t-automated-personalization/algo-random-forest.md) es la base de los modelos de personalización de Target.
+El objetivo de los informes de [!UICONTROL Perspectivas de personalización] es proporcionar más información sobre cómo los modelos de personalización de Target que hay tras las actividades de AP y AT personalizan el tráfico de visitantes. El [algoritmo de bosque aleatorio](/help/c-activities/t-automated-personalization/algo-random-forest.md) es la base de los modelos de personalización de Target.
 
 Como el objetivo de los informes de Perspectivas de personalización es comprender cómo han decidido los modelos de personalización de Target enviar el contenido a los visitantes, los informes de Perspectivas de personalización solo reflejan un subsegmento de todo el tráfico servido por su actividad de AP o AT. Específicamente, los dos informes reflejan todo el tráfico que utilizó el modelo de personalización. En otras palabras, los informes de Perspectivas de personalización no tienen en cuenta ni el tráfico de control ni el tráfico servido por el modelo ganador general.
 
@@ -43,7 +43,7 @@ Hay dos informes disponibles en:
 
 En los informes de [!UICONTROL Perspectivas de personalización] se representan dos tipos de atributos que se utilizan en los modelos de AP y Segmentación automática:
 
-* **Atributos recopilados automáticamente por Target:** Target utiliza un conjunto de datos base para crear sus algoritmos de personalización en actividades de AP y AT que se reflejan en Perspectivas de personalización. Consulte  [Recopilación de datos para los algoritmos de personalización de Target](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) para los tipos de datos, atributos de ejemplo y la convención de nomenclatura de [!UICONTROL Perspectivas de personalización]. Tenga en cuenta que, aunque estos atributos se toman en consideración, los modelos de una actividad concreta podrían no utilizarlos todos en el modelo final.
+* **Atributos recopilados automáticamente por Target:** Target utiliza un conjunto de datos base para crear sus algoritmos de personalización en actividades de AP y AT que se reflejan en Perspectivas de personalización. Consulte [Recopilación de datos para los algoritmos de personalización de Target](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) para los tipos de datos, atributos de ejemplo y la convención de nomenclatura de [!UICONTROL Perspectivas de personalización]. Tenga en cuenta que, aunque estos atributos se toman en consideración, los modelos de una actividad concreta podrían no utilizarlos todos en el modelo final.
 * **Atributos pasados a Target:** consulte  [Carga de datos para los algoritmos de personalización de Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 Target le ofrece muchas maneras de incluir datos adicionales con los que enriquecer el conjunto de datos base utilizado para crear sus algoritmos de personalización en actividades de AP y AT:
@@ -58,6 +58,6 @@ Target le ofrece muchas maneras de incluir datos adicionales con los que enrique
 
 ## Vídeo de formación: Uso de los informes de Perspectivas de personalización
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=spa)
 
-Para obtener más información, consulte [Uso de los informes de perspectivas de personalización en Adobe Target](https://helpx.adobe.com/es/target/kt/using/personalization-insights-report-feature-video-use.html).
+For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
