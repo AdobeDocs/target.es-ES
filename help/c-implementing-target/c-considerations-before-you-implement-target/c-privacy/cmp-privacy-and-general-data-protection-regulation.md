@@ -8,7 +8,7 @@ title: Reglamento General de Protección de Datos (RGPD)
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Experience Cloud proporcionará API listas para el RGPD a los responsables
 * Acceder a información del interesado almacenada dentro de Target
 * Eliminar información del interesado almacenada dentro de Target
 
-## El sitio web de la API del Reglamento General de Protección de Datos de Adobe   {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
+## El sitio web de la API del Reglamento General de Protección de Datos de Adobe  {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
 
 Para obtener más información, consulte:
 
@@ -101,21 +101,21 @@ Preguntas más frecuentes sobre el Reglamento General de Protección de Datos (R
 
 Adobe ya cumple o está implementando nuestras obligaciones como procesador de datos. Tenemos una base sólida de controles de privacidad y seguridad certificados e intencionales y seguiremos realizando mejoras de producto con antelación al plazo de mayo de 2018. Los clientes empresariales tendrán la responsabilidad de implementar estas mejoras, como así también actualizar cualquier política y procedimiento necesarios.
 
-### ¿Necesitará mi empresa, como responsable del tratamiento de datos, enviar una solicitud RGPD a cada solución de Adobe Experience Cloud que utilice?   {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
+### ¿Necesitará mi empresa, como responsable del tratamiento de datos, enviar una solicitud RGPD a cada solución de Adobe Experience Cloud que utilice?  {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
 No, Adobe ofrece una forma central de ayudar a los responsables del tratamiento de datos a cumplir sus requisitos del RGPD. Los responsables del tratamiento de datos no necesitan ir directamente a cada una de las soluciones.
 
 Todas las solicitudes RGPD entre soluciones de Experience Cloud, Target incluido, se realizarán a través de una API central de Adobe que en este momento se denomina API del RGPD. A continuación, la API completará la solicitud para el conjunto de soluciones de Experience Cloud del responsable del tratamiento de datos.
 
-### ¿Qué información Adobe permitirá que nuestros clientes eliminen en respuesta a una solicitud del interesado/usuario?    {#section_4B51D00924EC4166B2442218B69214F0}
+### ¿Qué información Adobe permitirá que nuestros clientes eliminen en respuesta a una solicitud del interesado/usuario?  {#section_4B51D00924EC4166B2442218B69214F0}
 
-La información relacionada con un visitante individual dentro de Target está contenida dentro del perfil del visitante de Target. Adobe Target permitirá que los clientes eliminen todos los datos asociados con un ID en su perfil del visitante. Para ver ejemplos de los datos de perfil que Adobe Target almacena, consulte   [Perfil del visitante](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+La información relacionada con un visitante individual dentro de Target está contenida dentro del perfil del visitante de Target. Adobe Target permitirá que los clientes eliminen todos los datos asociados con un ID en su perfil del visitante. Para ver ejemplos de los datos de perfil que Adobe Target almacena, consulte  [Perfil del visitante](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 Los datos agregados o anonimizados (por ejemplo, datos de informe) que no identifican a una persona en particular, o datos que no están relacionados con una persona específica (por ejemplo, datos de contenido) están fuera del alcance de una solicitud de eliminación de usuario.
 
 De forma predeterminada, los perfiles del visitante de Target inactivos durante 90 días se eliminan sin necesidad de realizar acción alguna.
 
-### ¿Qué ID se admiten para ayudar a los clientes a realizar una solicitud de eliminación y acceso de RGPD para Target?   {#section_F7D0EE4E6A28490FB20056A0D26118BC}
+### ¿Qué ID se admiten para ayudar a los clientes a realizar una solicitud de eliminación y acceso de RGPD para Target?  {#section_F7D0EE4E6A28490FB20056A0D26118BC}
 
 Target admite los siguientes tipos de ID para localizar un perfil de cliente:
 
@@ -123,7 +123,7 @@ Target admite los siguientes tipos de ID para localizar un perfil de cliente:
 |--- |--- |--- |--- |
 | Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud ID, conocido anteriormente como ID de visitante o Marketing Cloud ID. Puede usar la API de JavaScript para ubicar este ID (consulte los detalles más abajo). |
 | ID de TnT/ID de cookie(TNTID) | Standard | 9 | Identificador de Target establecido como cookie en el navegador del visitante. Puede usar la API de JavaScript para ubicar este ID (consulte los detalles más abajo). |
-| ID de terceros/ID de administración de la relación con los clientes   (THIRDPARTYID) | Específico de Target | N/A | Si proporciona a Target su administración de la relación con los clientes u otra información de identificador único para sus clientes. |
+| ID de terceros/ID de administración de la relación con los clientes  (THIRDPARTYID) | Específico de Target | N/A | Si proporciona a Target su administración de la relación con los clientes u otra información de identificador único para sus clientes. |
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Para obtener más información sobre el RGPD y Adobe Launch, consulte [El RGPD y
 
 Por ejemplo, Target elimina las cookies que almacenan sus ID, pero Adobe Audience Manager (AAM) no elimina el ID demdex, que se guarda en una cookie de terceros.
 
-### ¿Qué información debe incluirse en una solicitud de RGPD de Target?   {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### ¿Qué información debe incluirse en una solicitud de RGPD de Target?  {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 Además de los requisitos del Servicio de privacidad central, un mensaje de RGPD válido para Target contiene lo siguiente:
 
@@ -190,7 +190,7 @@ Además de los requisitos del Servicio de privacidad central, un mensaje de RGPD
 }
 ```
 
-### ¿Qué tipos de respuesta puedo esperar de Target a través de la API del RGPD?   {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### ¿Qué tipos de respuesta puedo esperar de Target a través de la API del RGPD?  {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | Estado de la solicitud | Mensaje de respuesta de Target | Situación |
 |--- |--- |--- |
@@ -282,6 +282,6 @@ La siguiente tabla contiene descripción de los campos JSON de perfil ilustrativ
 >
 >Esta es una versión abreviada del JSON de un perfil de Target con fines ilustrativos. Muchos de los campos del perfil de Target no son estándares. El resultado obtenido depende de la información que contenga ese perfil del visitante específico.
 
-## ¿Admite Target la ocultación de la IP?   {#section_428907B0CD9842D9B245B38C66A53C6A}
+## ¿Admite Target la ocultación de la IP?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-Target admite la ocultación de la IP en Target si se decide utilizar dicha ocultación como parte de la estrategia de implementación del RGPD. Para obtener más información, consulte   [Privacidad](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+Target admite la ocultación de la IP en Target si se decide utilizar dicha ocultación como parte de la estrategia de implementación del RGPD. Para obtener más información, consulte  [Privacidad](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
