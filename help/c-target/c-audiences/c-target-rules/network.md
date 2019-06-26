@@ -7,7 +7,7 @@ solution: Target
 title: Red
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ Puede crear audiencias que estén basadas en datos de la red.
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-La siguiente ilustración muestra una audiencia dirigida a visitantes que utilizan AT &amp; T con una velocidad de conexión [!UICONTROL móvil].
+The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
 
 ![Objetivo de red](assets/target_network.png)
 
