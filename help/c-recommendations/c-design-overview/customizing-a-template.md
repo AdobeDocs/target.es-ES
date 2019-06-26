@@ -10,7 +10,7 @@ topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 badge: premium
 translation-type: tm+mt
-source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación.
 
-## Información general de Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Velocity overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Puede encontrar información sobre Velocity en [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 También puede usar `algorithm.name` y `algorithm.dayCount` como variables en los diseños, de modo que se pueda utilizar un diseño para probar varios criterios y el nombre del criterio se pueda visualizar de forma dinámica en el diseño. Esto indica al visitante que está viendo productos de mayor venta o productos que otras personas han comprado en combinación con otros productos. Incluso puede utilizar dichas variables para visualizar el valor de `dayCount` (número de días de datos utilizados en el criterio), como por ejemplo, “productos más vendidos en los últimos 2 días”, etc.
 
-## Escenario: Mostrar elemento clave con productos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Scenario: Display key item with recommended products {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Puede modificar el diseño para que se muestre su artículo clave junto con otros productos recomendados. Por ejemplo, quizá quiera mostrar el artículo actual junto a las recomendaciones a título de referencia.
 
@@ -180,7 +180,7 @@ El resultado es un diseño como el siguiente, en el que se muestra el artículo 
 
 Al crear su actividad de [!DNL Recommendations], si el artículo clave se toma del perfil del visitante (por ejemplo, “último artículo comprado”), [!DNL Target] muestra un producto aleatorio en el [!UICONTROL Compositor de experiencias visuales] (VEC). Se debe a que no hay un perfil disponible mientras diseña la actividad. Cuando los visitantes vean la página, verán el artículo clave previsto.
 
-## Escenario: Reemplazar el punto decimal con el delimitador de coma en un precio de ventas {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Scenario: Replace the decimal point with the comma delimiter in a sales price {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Puede modificar su diseño para sustituir el delimitador de punto decimal utilizado en Estados Unidos por el delimitador de coma utilizado en Europa y otros países.
 
@@ -206,14 +206,14 @@ El siguiente código es un ejemplo condicional completo de un precio de venta:
                                     </span>
 ```
 
-## Escenario: Crear un diseño de recomendaciones predeterminado de 4 x 2 con lógica de verificación nula {#default}
+## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
 
-Si se utiliza una secuencia de comandos de Velocity para controlar el tamaño dinámico de la entidad, la siguiente plantilla admite un resultado de 1 a muchos para evitar la creación de elementos HTML vacíos cuando no hay suficientes entidades coincidentes devueltas [!DNL Recommendations]. Esta secuencia de comandos es mejor para los escenarios cuando recomendaciones de copia de seguridad no tendría sentido y [!UICONTROL la Representación parcial de plantillas] está habilitada.
+Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren&#39;t enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn&#39;t make sense and [!UICONTROL Partial Template Rendering] is enabled.
 
 El siguiente fragmento HTML sustituye la parte HTML existente en el diseño predeterminado de 4 x 2 (la CSS no se incluye aquí, en aras de la brevedad):
 
-* Si existe una quinta entidad, la secuencia de comandos inserta un div de cierre y abre una nueva fila con `<div class="at-table-row">`.
-* Con 4 x 2, los resultados máximos mostrados serán ocho, pero esto puede personalizarse para listas más pequeñas o grandes modificando `$count <=8`.
+* If a fifth entity exists, the script inserts a closing div and opens a new row with `<div class="at-table-row">`.
+* With 4x2, the maximum results shown will be eight, but this could be customized for smaller or larger lists by modifying `$count <=8`.
 * Tenga en cuenta que la lógica no equilibrará las entidades en varias filas. Por ejemplo, si hay cinco o seis entidades que mostrar, no se convertirán en tres en la parte superior y dos en la parte inferior (o tres en la parte inferior). La fila superior mostrará cuatro elementos antes de iniciar una segunda fila.
 
 ```
