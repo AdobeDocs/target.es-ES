@@ -8,12 +8,12 @@ title: Cambiar experiencias en segmentación de experiencias
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# Cambio de experiencias en Segmentación de experiencias{#switching-experiences-in-experience-targeting}
+# Switching experiences in Experience Targeting{#switching-experiences-in-experience-targeting}
 
 Información sobre cómo los visitantes pueden cambiar entre experiencias en una actividad de Segmentación de experiencias (XT) conforme evolucionan sus perfiles.
 
