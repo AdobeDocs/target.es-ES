@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Las actividades de
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -60,7 +60,7 @@ El elemento `clientcode` es su código de cliente de Target.
 >
 >Asegúrese de proporcionar un valor único para `sessionId` y uno para `tntId` o `thirdPartyId` para cada destinatario de correo electrónico (por ejemplo, para cada llamada de API). Si no proporciona valores exclusivos en estos campos, la respuesta de la API podría ralentizarse o fallar debido al gran número de eventos generados dentro de un solo perfil.
 
-Para obtener más información, consulte [documentación de API de envío](https://developers.adobetarget.com/api/#server-side-delivery).
+Consulte la [documentación de la API de envío](https://developers.adobetarget.com/api/#server-side-delivery) para obtener más información.
 
 ## Opción 2: usar una plantilla de correo electrónico de rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
