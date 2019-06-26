@@ -9,7 +9,7 @@ title: Usuarios
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -45,7 +45,7 @@ Para tareas realizadas en Adobe Admin Console, acceda a la consola siguiendo est
 
    O
 
-   Si ya ha iniciado sesión en Experience Cloud, vaya a [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)y, a continuación, haga clic en el icono [!UICONTROL de la aplicación] en la barra de navegación superior &gt; haga clic **[!UICONTROL en Administrador]** en el lado derecho.
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
 1. (Condicional) Si tiene acceso a [!DNL Admin Console for Enterprise] para más de una organización, haga clic en el avatar del usuario en la esquina derecha o en la barra de navegación superior y, a continuación, seleccione la organización que quiera.
 
@@ -76,7 +76,7 @@ Los usuarios administradores del sistema deben agregar usuarios al sistema. Los 
 1. Haga clic en el nombre de la configuración deseada.
 1. Haga clic en **[!UICONTROL Usuarios]**.
 
-   La ficha [!UICONTROL Usuarios] muestra todos los usuarios de ese espacio de trabajo.
+   The [!UICONTROL Users] tab displays all of the users in that workspace.
 
    ![usuarios de configuración](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
