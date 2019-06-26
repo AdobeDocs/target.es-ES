@@ -2,13 +2,13 @@
 description: Cuando se habilita Analytics como fuente de informes para Target (A4T), se producen varios cambios en el proceso de recopilación de datos.
 keywords: Recommendations
 seo-description: Cuando se habilita Analytics como fuente de informes para Target (A4T), se producen varios cambios en el proceso de recopilación de datos.
-seo-title: Antes de la implementación Adobe Analytics como fuente de informes para Adobe Target (A4T)
+seo-title: Antes de la implementación  Adobe Analytics como fuente de informes para Adobe Target (A4T)
 solution: Target
 title: Antes de la implementación
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,9 +25,9 @@ Antes de decidir si usará esta integración, lea el contenido de estas seccione
 >
 >Antes de empezar a usar A4T, debe solicitar el aprovisionamiento de su cuenta para la integración. Rellene [este formulario](https://www.adobe.com/go/audiences) para solicitar el aprovisionamiento.
 
-Esta integración de A 4 T requiere que implemente las versiones de biblioteca siguientes (o más recientes), dependiendo de si desea utilizar ofertas de redireccionamiento con A 4 T o no:
+Esta integración con A4T requiere que implemente las siguientes versiones de las bibliotecas (o versiones más recientes), en función de si quiere redireccionar ofertas con A4T o no:
 
-### Requisitos necesarios si *no* se utilizan ofertas de redireccionamiento con A 4 T
+### Requisitos necesarios si *no* se utilizan ofertas de redireccionamiento con A4T
 
 Esta integración requiere que implemente las siguientes versiones de la biblioteca (o versiones más recientes) si no planea utilizar ofertas de redireccionamiento con A4T. El orden de la lista es el orden de las operaciones.
 
@@ -35,12 +35,12 @@ Esta integración requiere que implemente las siguientes versiones de la bibliot
 * Adobe Target (según su implementación): at.js versión 0.9.1 o mbox.js versión 61
 * Adobe Analytics: appMeasurement.js versión 1.7.0
 
-### Requisitos necesarios si se utilizan ofertas de redireccionamiento con A 4 T
+### Requisitos necesarios si se utilizan ofertas de redireccionamiento con A4T
 
 Para utilizar ofertas de redireccionamiento con A4T, debe implementar las siguientes versiones de la biblioteca (o más recientes). El orden de la lista es el orden de las operaciones.
 
 * Servicio ID de visitante de Experience Cloud: visitorAPI.js versión 2.3.0
-* Adobe Target: Versión 1.6.2 de at. js
+* Adobe Target: versión 1.6.2 de at.js
 
    **Nota:** La biblioteca mbox.js no admite ofertas de redireccionamiento con A4T. La implementación debe utilizar at.js.
 
@@ -66,7 +66,7 @@ Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Anal
 
 Tenga en cuenta que el aumento de la latencia empieza después de implementar el servicio de ID de visitante de Experience Cloud, incluso aunque no haya implementado correctamente esta integración.
 
-## ID suplementario   {#section_2C1F745A2B7D41FE9E30915539226E3A}
+## ID suplementario  {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
 Todas las llamadas de Target que se utilicen en una actividad de A4T para ofrecer contenido o registrar la métrica de objetivos deben tener una coincidencia en Analytics que comparta el mismo ID complementario para que A4T funcione correctamente.
 
@@ -77,8 +77,8 @@ Las visitas que contienen datos de Analytics y Target contienen un ID de datos s
 
 Cuando solucione problemas, asegúrese de que el ID suplementario esté presente en las visitas de Analytics.
 
-## Registro de Analytics en el lado del cliente {#client-side}
+## Client-side Analytics logging {#client-side}
 
-De forma predeterminada, cuando [!DNL Experience Cloud Visitor ID Service]at. js, y appmeasurement. js están en la página, [!DNL Adobe Analytics] y se unen [!DNL Target] correctamente eventos para fines de informes y análisis en el back-backend, siempre y cuando se incluya el ID suplementario correcto desde la página, como se mencionó arriba. No tendrá que gestionar y realizar operaciones adicionales para A 4 T para funcionar correctamente.
+By default, when at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Adobe Analytics] and [!DNL Target] correctly stitch events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page, as mentioned above. No tendrá que gestionar y realizar operaciones adicionales para A 4 T para funcionar correctamente.
 
-Sin embargo, existen casos en los que es posible que desee tener más control sobre cuándo y cómo enviar datos de análisis relacionados con [!DNL Target][!DNL Analytics] los informes. Puede tener una herramienta de análisis interna que aproveche con fines internos pero también desea enviar los datos de análisis a [!DNL Analytics] través del producto de análisis interno para que otros miembros de su organización puedan seguir utilizándose [!DNL Analytics] como fuente de informes visual. Consulte [el paso 7: Consulte at. js o mbox. js en todas las páginas del sitio](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) en *Analytics para la implementación de Target* para obtener más información.
+However, there are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you leverage for internal purposes but also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to utilize [!DNL Analytics] as a visual reporting source. See [Step 7: Reference at.js or mbox.js on all site pages](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics for Target Implementation* for more information.
