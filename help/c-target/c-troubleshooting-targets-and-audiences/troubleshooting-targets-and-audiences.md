@@ -7,8 +7,8 @@ solution: Target
 title: Preguntas más frecuentes sobre audiencias y segmentación
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -47,7 +47,7 @@ Algunas audiencias de Target están predefinidas, como “Nuevos visitantes” y
 
 ## ¿Por qué no aparece ningún parámetro de perfil en la interfaz de usuario de Target?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a [!DNL Target], puede hacerlo por medio del método de API [!UICONTROL Profile Update]. Para obtener más información, consulte [Actualización de perfil](https://developers.adobetarget.com/api/#authentication-tokens) en la documentación de la API de Adobe Target.
+[!DNL Target] tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a [!DNL Target], puede hacerlo por medio del método de API [!UICONTROL Profile Update]. Para obtener más información, consulte [Profile Update](https://developers.adobetarget.com/api/#authentication-tokens) en la documentación de la API de Adobe Target.
 
 ## ¿Por qué los visitantes ven experiencias para una actividad AP que no deberían ver?{#section_41CECEAE0881446A8D9F3B016857914B}
 
