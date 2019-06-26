@@ -9,7 +9,7 @@ title: Navegadores admitidos
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ La interfaz [!DNL [!DNL Target]] Standard/Premium] es compatible con los siguien
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (versión más reciente, la anterior a la más reciente)</li><li>Mozilla Firefox (versiones última y penúltima)</li></ul> |
 | Mac | <ul><li>Firefox (versiones última y penúltima)</li><li>Chrome (versión más reciente, la anterior a la más reciente)</li></ul> |
 
-## Entrega de contenido {#section_1045A946056441268D40025529918D3D}
+## Content delivery {#section_1045A946056441268D40025529918D3D}
 
 La entrega de contenido se ha probado en los siguientes navegadores y dispositivos:
 
