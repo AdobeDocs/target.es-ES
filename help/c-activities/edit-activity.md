@@ -8,7 +8,7 @@ title: Editar una actividad o guardar como borrador
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,15 +19,15 @@ Información acerca de los distintos modos de editar una actividad existente, in
 
 Target ofrece en su interfaz varios puntos donde se pueden editar las actividades existentes. El proceso varía en función del método que elija.
 
-## Editar una actividad utilizando el botón Pasar por encima de la página Actividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. En la página **[!UICONTROL Actividades]**, pase el cursor sobre la actividad que desea editar y, a continuación, haga clic en el icono **Editar[!UICONTROL .]**
 
    ![Icono Editar](/help/c-activities/assets/hover_edit.png)
 
-   Target abre la actividad en el Compositor de experiencias visuales (VEC) y ve la página [!UICONTROL Experiencias] (el primer paso en el flujo de trabajo guiado de tres pasos).
+   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
 
-1. Edite la actividad según desee mediante las opciones [de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Haga clic en el botón dividido para avanzar al siguiente paso o para guardar la actividad.
 
@@ -37,7 +37,7 @@ Target ofrece en su interfaz varios puntos donde se pueden editar las actividade
    * **Guardar y cerrar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar y cerrar]** para guardar los cambios y mostrar la página [!UICONTROL Información general] de la actividad.
    * **Guardar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
 
-## Editar una actividad abriendo la actividad haciendo clic en su nombre en la página Actividades. {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Para evitar tener que pasar por todo el flujo de trabajo, haga clic en la actividad deseada de la página Actividades para abrirla y, a continuación, seleccione una opción en la lista desplegable **[!UICONTROL Editar actividad].**
 
@@ -60,7 +60,7 @@ Target ofrece en su interfaz varios puntos donde se pueden editar las actividade
 
 
 
-## Guardar una actividad en forma de borrador {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Cuando crea una nueva actividad que aún no se ha guardado, o cuando edita una actividad previamente guardada en forma de borrador, en el botón dividido se muestra la opción Guardar borrador.
 
