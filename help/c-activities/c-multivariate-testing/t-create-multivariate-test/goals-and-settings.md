@@ -8,7 +8,7 @@ title: Configuración y objetivos
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
