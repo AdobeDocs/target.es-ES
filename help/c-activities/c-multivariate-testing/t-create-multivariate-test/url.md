@@ -7,24 +7,24 @@ solution: Target
 title: Dirección URL de actividad
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # URL de actividad{#activity-url}
 
-La URL de actividad determina la página que se utiliza en la prueba [!Multivariada] (MVT) y que se abre cuando se diseña la prueba [!DNL Adobe Target].
+The activity URL determines the page that is used in the [!UICONTROL Multivariate Test] (MVT), and that opens when the test is designed in [!DNL Adobe Target].
 
-Cuando se le pida durante [la creación](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)de la actividad, especifique la URL de actividad. Escriba la dirección URL completa (incluida `https://`) y haga clic **[!UICONTROL en Siguiente]**.
+When prompted during [activity creation](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md), specify the activity URL. Type the complete URL (including `https://`), then click **[!UICONTROL Next]**.
 
 >[!NOTE]
 >
 >[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `https://www.adobe.com`] como [!DNL `http://www.adobe.com`] coinciden.
 
-De forma predeterminada, el [!UICONTROL Compositor] de experiencias visuales (VEC) abre la página que se especifica en Preferencias [de cuenta](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Puede especificar una página diferente durante la creación de la actividad.
+By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Puede especificar una página diferente durante la creación de la actividad.
 
-Para mostrar una página diferente después de que se abra el VEC, haga clic en el icono **[!UICONTROL Configurar]** , luego seleccione Entrega **[!UICONTROL de página]** y, a continuación, especifique la dirección URL.
+To display a different page after the VEC opens, click the **[!UICONTROL Configure]** icon, then select **[!UICONTROL Page Delivery]**, then specify the URL.
 
 ![Cuadro de diálogo Entrega de página](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
