@@ -7,8 +7,8 @@ solution: Target
 subtopic: Primeros pasos
 title: Cookies de at.js
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -145,7 +145,7 @@ De Apple:
 
 | Enfoque | Detalles |
 |--- |--- |
-| Prevención inteligente del seguimiento | Para obtener más información, consulte [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/)en el sitio del motor de navegación web de código abierto WebKit (en inglés). |
+| Prevención inteligente del seguimiento | Para obtener más información, consulte [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/) en el sitio del motor de navegación web de código abierto WebKit (en inglés). |
 | Cookies | Cómo gestiona Safari las cookies:<ul><li>Las cookies de terceros que no están en un dominio al que el usuario accede directamente no se guardan nunca. Este comportamiento no es nuevo. Safari ya no admite las cookies de terceros.</li><li>Las cookies de terceros establecidas en un dominio al que el usuario accede directamente se purgan pasadas 24 horas.</li><li>Las cookies de origen se purgan pasados 30 días si el dominio de origen está clasificado como uno que realiza un seguimiento de los usuarios entre sitios. Esto podría aplicarse a las grandes empresas que envían a los usuarios a distintos dominios en línea. Apple no ha aclarado cómo clasificará exactamente estos dominios ni cómo puede determinar un dominio si está clasificado como uno que realiza un seguimiento de los usuarios entre sitios.</li></ul> |
 | Aprendizaje automático para identificar dominios que abarcan varios sitios | De Apple:<br>Clasificador de aprendizaje automático: se utiliza un modelo de aprendizaje automático para clasificar qué dominios superiores de control privado tienen la capacidad de realizar un seguimiento de los usuarios entre sitios, basándose en las estadísticas recopiladas. De las distintas estadísticas recopiladas, tres vectores resultaron especialmente significativos para la clasificación, basándose en las prácticas de seguimiento actuales: subrecurso bajo número de dominios exclusivos, submarco bajo número de dominios exclusivos y número de dominios exclusivos a los que se redirecciona. Toda la recopilación y clasificación de datos se produce en el dispositivo.<br>Sin embargo, si el usuario interactúa con example.com como dominio principal, denominado con frecuencia dominio de origen, la prevención inteligente de seguimiento lo considera una señal de que el usuario está interesado en el sitio web y ajusta temporalmente su comportamiento como se ilustra en esta cronología:<br>Si el usuario interactuó con example.com en las últimas 24 horas, sus cookies estarán disponibles cuando `example.com` sea de terceros. Esto permite situaciones de inicio de sesión del tipo “Iniciar sesión con mi cuenta X en Y”.<ul><li>Los dominios visitados como dominio de primer nivel no se verán afectados. Sitios como OKTA, por ejemplo</li><li>Identifica los dominios que son subdominio o submarco de la página actual en varios dominios exclusivos.</li></ul> |
 
