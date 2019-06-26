@@ -7,7 +7,7 @@ solution: Target,estándar
 title: Definir métricas
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
