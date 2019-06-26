@@ -8,7 +8,7 @@ title: Configuración de informes
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -92,7 +92,7 @@ Haga clic en la lista desplegable **[!UICONTROL Métrica de informes]** para sel
 
 De manera predeterminada, la métrica principal se determina al configurar las métricas de éxito al crear la actividad. Si cambia la configuración y vuelve a guardar la actividad, se actualizará la métrica principal para informes.
 
-Para obtener más información acerca de la selección de varias métricas que se deben visualizar en los informes, consulte   [Visualización de varias métricas en un informe](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Para obtener más información acerca de la selección de varias métricas que se deben visualizar en los informes, consulte  [Visualización de varias métricas en un informe](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Audiencia {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -106,9 +106,9 @@ El cuadro Intervalo de fechas muestra el intervalo de fechas actual de los infor
 
 ![Calendario](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Seleccione las nuevas fechas **[!UICONTROL inicial]** y **final]del informe.[!UICONTROL ** También puede utilizar las casillas de verificación **[!UICONTROL Desde el comienzo de la actividad]** y **Hasta el fin de la actividad[!UICONTROL .]**
+Seleccione las nuevas fechas **[!UICONTROL inicial]** y **[!UICONTROL final]** del informe. También puede utilizar las casillas de verificación **[!UICONTROL Desde el comienzo de la actividad]** y **Hasta el fin de la actividad[!UICONTROL .]**
 
-Haga clic **[!UICONTROL Fechas personalizadas]para seleccionar intervalos de fecha predefinidos: Últimos 7 días, Últimos 15 días o Últimos 30 días.** Estos intervalos de fechas predefinidos se pueden extender. Si la fecha inicial es menor que el número de días elegido, el calendario mostrará el intervalo a partir de la ficha inicial, pero se extenderá una vez que la fecha inicial sea anterior al número de días elegido a medida que se incremente la duración de la actividad.
+Haga clic **[!UICONTROL Fechas personalizadas]** para seleccionar intervalos de fecha predefinidos: Últimos 7 días, Últimos 15 días o Últimos 30 días. Estos intervalos de fechas predefinidos se pueden extender. Si la fecha inicial es menor que el número de días elegido, el calendario mostrará el intervalo a partir de la ficha inicial, pero se extenderá una vez que la fecha inicial sea anterior al número de días elegido a medida que se incremente la duración de la actividad.
 
 Los informes tienen las siguientes restricciones de fechas:
 
@@ -150,11 +150,11 @@ Haga clic en el icono de descarga para descargar datos de informes en formato [!
 
 Haga clic en Actualizar para actualizar la tabla y la visualización de gráfico de un informe sin necesidad de actualizar toda la página, su configuración o su intervalo de fechas.
 
-## Más opciones   {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## Más opciones  {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Haga clic en el icono de Más opciones (tres elipses verticales) para acceder a las opciones [!UICONTROL Editar actividad] y [!UICONTROL Ver las URL de la experiencia].
 
-## Visualización de tabla   {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Visualización de tabla  {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
 Haga clic en el icono de **[!UICONTROL Visualización de tabla]para ver el informe como una tabla.**
 
@@ -173,7 +173,7 @@ Tenga en cuenta lo siguiente:
 * Solo disponible al ver informes en la vista Tabla.
 * Esta característica no está disponible para actividades que utilicen Analytics como fuente de informes (A4T).
 
-## Contribución de ubicación   {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Contribución de ubicación  {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Haga clic en el icono de **[!UICONTROL Contribución de ubicación]para que el informe muestre la contribución por ubicación.**
 
