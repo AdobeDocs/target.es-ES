@@ -7,8 +7,8 @@ solution: Target
 title: Preguntas más frecuentes sobre mbox global
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -21,7 +21,7 @@ Lista de las preguntas más frecuentes (FAQ) sobre los mboxes globales.
 
 Se admite un único mbox global en su cuenta.
 
-Puede limitar dónde se ejecutan sus actividades añadiéndoles reglas de URL. Para obtener más información, consulte  [Incluir la misma experiencia en páginas similares](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
+Puede limitar dónde se ejecutan sus actividades añadiéndoles reglas de URL. Para obtener más información, consulte [Incluir la misma experiencia en páginas similares](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
 También puede transferir un parámetro en la página utilizando [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) y, a continuación, seleccionar esos parámetros en la sección “configurar URL” del [!UICONTROL Compositor de experiencias visuales] (VEC) o añadiendo los parámetros como “refinamientos” en el Compositor de experiencias basadas en formularios.
 
