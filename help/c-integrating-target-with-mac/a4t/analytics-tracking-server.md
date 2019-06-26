@@ -5,8 +5,8 @@ seo-description: Si utiliza una versión antigua de at.js o mbox.js, debe especi
 seo-title: Uso de un servidor de seguimiento de Analytics
 title: Uso de un servidor de seguimiento de Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ El depurador se debería visualizar en una página donde se vaya a publicar la a
 
 1. Desde la página en la que esté creando la actividad, abra Adobe Experience Cloud Debugger.
 
-   Si no ha instalado el depurador, siga las instrucciones de [instalación de Adobe Debugger ](https://marketing.adobe.com/resources/help/es_ES/sc/implement/debugger_install.html).
+   Si no tiene instalado el depurador, siga las [Instrucciones de instalación de Adobe Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
