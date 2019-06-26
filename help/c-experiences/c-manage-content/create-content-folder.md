@@ -7,8 +7,8 @@ solution: Target
 title: Crear una carpeta de ofertas
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Cree una carpeta para guardar elementos en la biblioteca de ofertas.
    |--- |--- |
    | Título (se aplica solo a las ofertas de imágenes) | Elija un nombre descriptivo para la carpeta. Por ejemplo, puede incluir el tipo de contenido que albergará.<br>El nombre no puede contener los caracteres siguientes:<br>Símbolo de porcentaje `%`<br>Barra `/`<br>Barra inversa `\`<br>Dos puntos `:`<br>Asterisco `*`<br>Signo de interrogación `?`<br>Comillas inglesas `"`<br>Corchete `[`<br>Corchete `]`<br>Símbolo más: `+`<br>Barra vertical: `|`<br>Punto: `.`<br>Símbolo de número: `#`<br>Llave: `{`<br>Llave `}`<br>Signo de intercalación `^`<br>Punto y coma `;`<br>Puede usar un guion (`- `) en lugar de estos caracteres. |
    | Nombre (se aplica a las ofertas de código y de imagen) | Si lo desea, edite el nombre. |
-   | Privado  (se aplica solo a las ofertas de imágenes) | Indica que la carpeta es privada, de modo que solo usted pueda ver la carpeta y su contenido. |
+   | Privado (se aplica solo a las ofertas de imágenes) | Indica que la carpeta es privada, de modo que solo usted pueda ver la carpeta y su contenido. |
    | Se puede cambiar de orden en la vista de lista  (se aplica solo a las ofertas de imágenes) | Indica que usted y otras personas pueden reordenar la posición de la carpeta en la vista de lista.<br>Para alternar entre la vista de tarjeta y la vista de lista, haga clic en los iconos Vista de tarjeta o Vista de lista en la esquina superior derecha de la biblioteca de contenido. También puede seleccionar Configuración de vista para incluir o excluir columnas de la vista de lista. |
 
 1. Haga clic en **[!UICONTROL Crear]**.
