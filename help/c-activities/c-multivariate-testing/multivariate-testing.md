@@ -8,7 +8,7 @@ title: Prueba multivariable
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
    Por ejemplo, no realice una prueba del diseño y del contenido a la vez.
 * Planifique más tiempo para el control de calidad debido al aumento del número de experiencias.
 
-   [!DNL Target] ofrece pruebas multivariable totalmente factoriales como opción de actividad integrada. En estadística, Diseño de experimentos ofrece muchos enfoques, o diseños, para determinar qué factores influyen en los resultados. Uno de estos enfoques es [el método Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) para pruebas parciales-factoriales. Taguchi permite a los expertos en marketing realizar una serie de suposiciones que limitan el número de permutaciones de experiencias que se deben probar, lo que a su vez reduce los requisitos de tráfico para una prueba multivariable. Esta funcionalidad y enfoque de prueba se pueden aprovechar [!DNL Target] al utilizar esta [hoja de cálculo sin conexión](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+   [!DNL Target] ofrece pruebas multivariable totalmente factoriales como opción de actividad integrada. En estadística, Diseño de experimentos ofrece muchos enfoques, o diseños, para determinar qué factores influyen en los resultados. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Taguchi permite a los expertos en marketing realizar una serie de suposiciones que limitan el número de permutaciones de experiencias que se deben probar, lo que a su vez reduce los requisitos de tráfico para una prueba multivariable. This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    Si su equipo utiliza otros enfoques de Diseño de experimentos, puede utilizar esta hoja de cálculo como implementación de referencia para diseños de experimentos personalizados.
 
@@ -79,7 +79,7 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
    * Escoja los elementos que desea cambiar y el número de versiones de cada elemento (3x2, 4x3, etcétera).
    * Sea coherente en la numeración. Por ejemplo, si el botón es el Elemento 1 y las opciones son Azul, Verde y Amarillo, el botón azul es 1-1, el verde es 1-2 y el amarillo es 1-3.
    * La hoja de cálculo sin conexión ofrece el número apropiado de experiencias (cuatro para 3x2, nueve para 4x3, etcétera).
-   * Cree las experiencias en el flujo de trabajo A/B con el [Compositor de experiencias visuales (VEC) o el Compositor de experiencias basadas en formularios](/help/c-experiences/experiences.md). Si utiliza el VEC, puede emplear código personalizado, editar HTML, utilizar WYSIWYG o cualquier combinación.
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). Si utiliza el VEC, puede emplear código personalizado, editar HTML, utilizar WYSIWYG o cualquier combinación.
    * Una vez terminada la actividad (en función del calculador de tamaño de muestra), ejecute los resultados en la hoja de cálculo para obtener los demás detalles.
 
 Para obtener más consideraciones y prácticas recomendadas, consulte [Prácticas recomendadas de pruebas multivariable](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
