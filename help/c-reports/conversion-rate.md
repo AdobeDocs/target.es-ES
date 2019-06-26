@@ -7,8 +7,8 @@ solution: Target
 title: Tasa de conversión
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ Consulte [Nivel de confianza e intervalo de confianza](../c-reports/conversion-r
 
 ## Datos comerciales {#section_30A674731BA6440E9BB93C421BE990EE}
 
-Si ha insertado un mbox [Realizar pedido](https://marketing.adobe.com/resources/help/es_ES/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) y lo ha seleccionado como mbox de conversión, se muestran los datos de AOV, RPV y ventas de cada experiencia.
+Si ha insertado un mbox [Realizar pedido](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) y lo ha seleccionado como mbox de conversión, se muestran los datos de AOV (valor de pedido promedio), RPV (ingresos por visitante) y ventas de cada experiencia.
 
 ## Nivel de confianza e intervalo de confianza {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -107,7 +107,7 @@ El *intervalo de confianza* es un intervalo en el que se puede encontrar el valo
 
 El [informe CSV descargado](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) solo contiene datos sin procesar; no incluye métricas calculadas, como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B.
 
-Para calcular estas métricas, descargue el archivo de Excel [Calculadora de confianza completa de Target](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) para introducir el valor de la actividad o revisar los [cálculos estadísticos utilizados por Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+Para calcular estas métricas, descargue el archivo de Excel [Calculadora de confianza completa de Target](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) para introducir el valor de la actividad o revisar los [cálculos estadísticos usados por Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 1. Haga clic en **[!UICONTROL Herramientas]** &gt; **[!UICONTROL Data Warehouse]**.
 1. En la pestaña **[!UICONTROL Solicitud de Data Warehouse], rellene los campos.**
 
-   Para obtener más información sobre cada campo, consulte “Descripciones del Data Warehouse” en [Data Warehouse](https://marketing.adobe.com/resources/help/ee_ES/reference/data_warehouse.html).
+   Para obtener más información acerca de cada campo, consulte &quot;Descripciones de Data Warehouse&quot; en [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
 
    | Campo | Instrucciones |
    |--- |--- |
@@ -147,8 +147,8 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 
 Para obtener más información sobre el [!DNL Data Warehouse], vea los siguientes vínculos en la documentación de ayuda de [!DNL Analytics]:
 
-* [Crear una solicitud del Data Warehouse](https://marketing.adobe.com/resources/help/es_ES/reference/t_dw_create_request.html)
-* [Prácticas recomendadas para Data Warehouse](https://marketing.adobe.com/resources/help/es_ES/reference/data_warehouse_bp.html)
+* [Crear una solicitud del Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
+* [Prácticas recomendadas del Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
 
 ## Metodología de contabilización {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
