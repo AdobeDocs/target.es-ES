@@ -7,8 +7,8 @@ solution: Target
 title: Glosario de perfiles y variables
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -46,7 +46,7 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | user.parameter | Atributos de perfil persistentes creados desde scripts de perfil. También hace referencia a perfiles del “sistema” como la geolocalización, el recuento de visitas, etc. |
 | profile.get(&#39;param_name&#39;) |  |
 | profile.param(&#39;param_name&#39;); |  |
-| profile.parameter(&#39;parameter_name&#39;); | Los parámetros de mbox que se vuelven persistentes debido a su prefijo perfil.   |
+| profile.parameter(&#39;parameter_name&#39;); | Los parámetros de mbox que se vuelven persistentes debido a su prefijo perfil.  prefijo. |
 | profile.browserTime | La hora local del navegador del visitante. Para la hora del sistema, cree un nuevo objeto de fecha en la secuencia de comandos del perfil |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
