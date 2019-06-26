@@ -4,8 +4,8 @@ seo-description: Las actividades de Recommendations muestran automáticamente pr
 seo-title: Actividad de Recommendations
 title: Actividad de Recommendations
 uuid: 63bd6640-e8fd-472e-bd42-0fa540a54f11
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
