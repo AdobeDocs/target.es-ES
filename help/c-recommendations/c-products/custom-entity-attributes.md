@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,11 +23,11 @@ Use atributos de entidad personalizados de uno o varios valores para definir inf
 
 Puede incluir hasta 100 atributos de entidad personalizados para definir información adicional sobre los artículos de su catálogo. Por ejemplo, puede crear un atributo personalizado llamado `entity.genre` para definir un libro o una película. O un vendedor de entradas podría crear atributos del lugar de celebración para incluir un actor secundario, como un equipo visitante en un evento deportivo o un acto de apertura en un concierto.
 
-La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15.000 caracteres (para lenguajes con codificación UTF -8 de uno y dos bytes, como inglés y otros alfabetos alfabetos latinos) o 10.000 caracteres (para lenguajes con codificación UTF -8 de byte múltiple como chino, japonés y coreano).
+La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15 000 caracteres (para idiomas con codificación UTF-8 de uno y dos bytes, como inglés y otros alfabetos latinos) o 10 000 caracteres (para lenguajes con codificación UTF-8 de tres bytes, como chino, japonés y coreano).
 
-Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (véase arriba).
+Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos de entidad personalizados de un solo valor (véase arriba).
 
-## Valores de los atributos de entidad personalizados   {#section_313331A9F8194A89B5EDD89363018651}
+## Valores de los atributos de entidad personalizados  {#section_313331A9F8194A89B5EDD89363018651}
 
 Los atributos de entidad personalizados pueden contener uno o varios valores. Los valores de los atributos de entidad se muestran en la vista del producto.
 
@@ -62,14 +62,14 @@ Cuando un atributo personalizado se envía como matriz de JSON válida, se trata
 
 **Restricciones**:
 
-* No se pueden usar nombres de atributos de entidad predefinidos para atributos de entidad personalizados. (Consulte [Atributos de entidad](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
+* No se pueden usar nombres de atributos de entidad predefinidos para atributos de entidad personalizados. (Consulte [Atributos de entidad](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)).
 * El atributo `entity.environment` se reserva para el sistema y no se puede usar en atributos de entidad personalizados. Se hará caso omiso de los intentos de pasar `entity.environment` usando `targetPageParams`, fuentes o API.
-* Las matrices deben contener un solo tipo de valor. Las matrices con valores mezclados ( `["AB",1,true]`) no se admiten.
-* Un atributo de varios valores que incluye una matriz de JSON anidada ( `[10,12,[1,2,3]]`) se trata como un atributo de un valor.
+* Las matrices deben contener un solo tipo de valor. Las matrices con valores mezclados (`["AB",1,true]`) no se admiten.
+* Un atributo de varios valores que incluye una matriz de JSON anidada (`[10,12,[1,2,3]]`) se trata como un atributo de un valor.
 
 ## Implementar atributos de varios valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Los atributos de entidad personalizados de varios valores se admiten al usar fuentes (CSV), `targetPageParams`, la API Entrega y la API Guardar entidades para cargar productos. Los valores nuevos reemplazan a los actuales, no se adjuntan. Las matrices vacías ( [] ) se tratan como si no tuvieran valores.
+Los atributos de entidad personalizados de varios valores se admiten al usar fuentes (CSV), `targetPageParams`, la API Entrega y la API Guardar entidades para cargar productos. Los valores nuevos reemplazan a los actuales, no se adjuntan. Las matrices vacías ([]) se tratan como si no tuvieran valores.
 
 Las comillas dobles se deben escapar. Por ejemplo, `"[""test"", ""value""]"` es una matriz JSON válida que se pueden usar en CSV.
 
@@ -77,7 +77,7 @@ Puede incluir hasta 500 valores en un atributo multivalor.
 
 **Usar targetPageParams**
 
-En el siguiente ejemplo vemos cómo se utiliza.   `targetPageParams`
+En el siguiente ejemplo vemos cómo se utiliza.  `targetPageParams`
 
 ```
 function targetPageParams() { 
@@ -115,20 +115,20 @@ Tenga cuidado al editar directamente un archivo CSV de catálogo sin procesar.
 
 **Usar API**
 
-Consulte la documentación de la API de Recommendations de [Adobe](http://developers.adobetarget.com/api/recommendations) para obtener información sobre
-el uso de las API de envío y Guardar entidades.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
+using the Delivery and Save entities APIs.
 
 ## Usar operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Al aplicar operadores a atributos personalizados de varios valores en reglas de inclusión de algoritmos, reglas de catálogo y reglas de exclusión, el resultado es *true* si al menos un valor de la lista cumple el criterio de la operación (booleano *OR*).
 
-En el ejemplo siguiente, la regla es   `message contains abc`.
+En el ejemplo siguiente, la regla es  `message contains abc`.
 
 Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es false porque ningún valor contiene `abc`.
 
 Caso 2: `entity.genre = ["abcde","de","ef"]`. El resultado es true porque un valor contiene `abc`.
 
-En el caso de los operadores negativos, todos los valores de atributo deben cumplir el criterio (booleano *AND*). Por ejemplo, si el operador es   `notEquals`, el resultado será *false* si algún valor coincide.
+En el caso de los operadores negativos, todos los valores de atributo deben cumplir el criterio (booleano *AND*). Por ejemplo, si el operador es  `notEquals`, el resultado será *false* si algún valor coincide.
 
 En la tabla siguiente se detalla el comportamiento de los operadores en las reglas de inclusión de algoritmos, las reglas de catálogo y las reglas de exclusión.
 
@@ -150,11 +150,11 @@ En la tabla siguiente se detalla el comportamiento de los operadores en las regl
 >
 >*Doble* es un tipo de datos de Java. Con los operadores que requieren valores numéricos, convertir en doble elimina los valores no numéricos de los resultados, ya que no se tienen en cuenta.
 
-## Atributos de varios valores en diseños   {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Atributos de varios valores en diseños  {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Los atributos de varios valores aparecen como una lista separada por comas cuando se hace referencia a ellos en un diseño.
 
-Ejemplo:  
+Ejemplo:
 
 Cuando se hace referencia a `entity.genre=["genre1","genre2"]` en un diseño como `$entity<N>.genre`, el resultado es `genre1, genre2`.
 
