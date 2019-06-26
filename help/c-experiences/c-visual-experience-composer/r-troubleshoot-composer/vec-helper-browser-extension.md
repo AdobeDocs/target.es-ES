@@ -6,8 +6,8 @@ seo-title: Extensión del Compositor de experiencias visuales (VEC) Helper de Ad
 solution: Target
 title: Extensión del Helper del Compositor de experiencias visuales
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ Beneficios del uso de la extensión VEC Helper:
 
 ## Obtención e instalación de la extensión del explorador VEC Helper
 
-1. Vaya a la [extensión del explorador VEC Helper de Adobe Target en Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Haga clic en [!UICONTROL Añadir a Chrome &gt; Añadir extensión].
 1. Para utilizar la extensión, haga clic en el icono de la extensión del explorador VEC Helper (![icono de VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) en la barra de herramientas del explorador Chrome mientras está en VEC o en modo [control de calidad](/help/c-activities/c-activity-qa/activity-qa.md).
 
