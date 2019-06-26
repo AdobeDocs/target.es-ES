@@ -7,7 +7,7 @@ solution: Target
 title: Segmentación de experiencias
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
 
 Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 
-Segmentación de experiencias, incluida [la segmentación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md), es útil para definir reglas dirigidas a una experiencia o contenido específicos para una audiencia concreta. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintas audiencias.
+Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintas audiencias.
 
 Cuando los visitantes ven el sitio, Segmentación de experiencias (XT) los evalúa para determinar si cumplen los criterios establecidos. En caso afirmativo, participan en la actividad y se les muestra la experiencia diseñada para clasificar audiencias. Puede crear experiencias para varias audiencias dentro de una misma actividad.
 
@@ -26,7 +26,7 @@ La segmentación de experiencias es un primer paso en el mundo de la personaliza
 
 Suponga que su sitio web tiene equipos al aire libre. Los informes de Prueba A/B indican que tiene tres experiencias que se relacionan con distintas audiencias. Para aprovechar este descubrimiento, quiere mostrar una imagen hero distinta en la página principal para atraer a estas distintas audiencias, según la ubicación o los aficiones de los visitantes. En este escenario, desea mostrar una imagen de senderismo a visitantes de Nueva Jersey y una imagen de navegación a visitantes de Hawaii. También tiene una audiencia que le gusta el ciclismo. Desea mostrar una tercera imagen hero que atraiga a su audiencia de ciclismo.
 
-Una actividad XT permite dirigir estas tres audiencias con una imagen hero distinta que atrae a cada audiencia. El vídeo siguiente, *De Pruebas A/B a Segmentación* de experiencias, muestra cómo crear experiencias dirigidas a ambos estados y una tercera experiencia dirigida a los entusiastas ciclismo. El vídeo también muestra cómo ordenar las tres experiencias para lograr sus objetivos. Vea el vídeo y, a continuación, continúe con [la actividad Crear una segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
+Una actividad XT permite dirigir estas tres audiencias con una imagen hero distinta que atrae a cada audiencia. The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. El vídeo también muestra cómo ordenar las tres experiencias para lograr sus objetivos. Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## Vídeos de formación:
 
