@@ -7,7 +7,7 @@ solution: Target
 title: Añadir experiencia
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,11 +39,11 @@ Para obtener más información sobre las experiencias, consulte [Experiencias](.
    >
    >Si entrega una imagen desde un origen distinto a la página principal (por ejemplo, una imagen alojada en akamai.net y entregada en dell.com), dicha imagen no se mostrará en la miniatura de la página mostrada en el diagrama de flujo.
 
-1. Haga clic **[!UICONTROL en Guardar]** cuando termine de diseñar la experiencia.
+1. Click **[!UICONTROL Save]** when you are finished designing the experience.
 
 ## Cambiar el nombre de la experiencia
 
-Haga clic en [!UICONTROL el icono Cambiar nombre de experiencia] de una experiencia en una prueba A/B o de Segmentación de experiencias (XT) para dar a la experiencia un nombre nuevo.
+Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
 
 ![Cambiar el nombre de la experiencia](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,9 +62,9 @@ Tenga en cuenta que cuando nombra o renombra una experiencia, no se permiten los
 
 ## Redirigir a URL
 
-Haga clic en el icono Más (tres elipses verticales) de una experiencia en una prueba A/B o Segmentación de experiencias (XT) y, a continuación, haga clic [!UICONTROL en Redireccionar a URL].
+Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
 
-Para obtener más información, consulte [Redireccionamiento a URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 **NOTA**: Al asignar un nombre a una experiencia o cambiarle el nombre, no se permiten los siguientes caracteres:
 
