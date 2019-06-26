@@ -8,7 +8,7 @@ title: Introducción a Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,9 +29,9 @@ La solución [!DNL Adobe Target] tiene varios componentes:
 |--- |--- |
 | Target Standard | Proporciona una interfaz visual para crear y administrar pruebas A/B y actividades de segmentación basadas en reglas. |
 | Target Premium | Añade características avanzadas a la interfaz de Target Standard. |
-| Recommendations Classic | Muestra automáticamente los productos o el contenido que puedan ser de interés para sus clientes según la actividad anterior del usuario en el sitio web.  |
+| Recommendations Classic | Muestra automáticamente los productos o el contenido que puedan ser de interés para sus clientes según la actividad anterior del usuario en el sitio web. |
 
-## Target Standard   {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## Target Standard  {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
 [!DNL Target Standard] es un front-end para [!DNL Adobe Target] que sirve para crear y administrar de forma visual pruebas A/B y actividades de segmentación basada en reglas, además de permitir conectarse a Adobe Experience Cloud. [!DNL Target Standard] también admite la inserción de código personalizado tanto dentro como fuera del flujo de trabajo del [!UICONTROL Compositor de experiencias visuales]. [!DNL Target Standard] ofrece una estrategia de implementación simplificada con sus propiedades digitales: una sola línea de código en cada página gestiona toda la comunicación necesaria entre su sitio y [!DNL Adobe Target].
 
@@ -57,7 +57,7 @@ Personalización automatizada aprende por sí misma y requiere el mínimo análi
 
 ### Las actividades de
 
-[Las actividades de Recommendations muestran automáticamente productos o contenido que podría interesar a sus clientes, en función de la actividad previa del usuario. ](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
+[Las actividades de Recommendations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) muestran automáticamente productos o contenido que podría interesar a sus clientes, en función de la actividad previa del usuario. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
 
 Una recomendación determina cómo se sugiere un producto a un cliente, según las actividades de dicho cliente en el sitio. Por ejemplo:
 
@@ -75,7 +75,7 @@ Una recomendación determina cómo se sugiere un producto a un cliente, según l
 
 ### Recommendations como oferta
 
-[Las recomendaciones como una oferta](/help/c-recommendations/recommendations-as-an-offer.md) permiten incluir recomendaciones dentro de la prueba [!UICONTROL A/B] (incluidas [!UICONTROL las actividades de asignación automática] y [!UICONTROL segmentación automática]) y [!UICONTROL de segmentación] de experiencias (XT).
+[Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md) permite incluir recomendaciones dentro de la [!UICONTROL Prueba A/B] (incluidas [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]) y las actividades de [!UICONTROL Segmentación de experiencias] (XT).
 
 Esta funcionalidad revela capacidades completamente nuevas, como:
 
@@ -94,7 +94,7 @@ La funcionalidad de [Permisos de usuario de Enterprise](../administrating-target
 
 Para obtener más información, consulte la [documentación de Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
 
-## Liga de experiencias: Kit de bienvenida de Adobe Target {#kit}
+## Experience League: The Adobe Target Welcome Kit {#kit}
 
 Cree su programa de optimización y personalización en Adobe Target con este kit de bienvenida. Incluye información, herramientas y recursos clave para ayudarle a preparar e iniciar su primera actividad de Adobe Target, con beneficios rápidos a corto plazo y estrategias de optimización a largo plazo.
 
@@ -108,4 +108,4 @@ En el siguiente vídeo se describen los tipos de actividades disponibles en [!DN
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=spa)
