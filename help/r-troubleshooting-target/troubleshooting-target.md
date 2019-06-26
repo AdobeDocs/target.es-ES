@@ -8,7 +8,7 @@ title: Resolución de problemas de Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 * [Preguntas más frecuentes sobre la optimización y personalización de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Resolución de problemas de las actividades](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL Prueba A/B], [!UICONTROL Asignación automática]y [!UICONTROL Segmentación automática] (AT)
+### [!UICONTROL Prueba A/B], [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] (AT)
 
 * [Nueve escollos comunes de las pruebas A/B y cómo evitarlos](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
