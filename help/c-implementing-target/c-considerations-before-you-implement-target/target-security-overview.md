@@ -6,8 +6,8 @@ seo-title: Información general sobre la seguridad de Target
 solution: Target
 title: Información general sobre la seguridad de Target
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,4 +20,4 @@ En Adobe, nos tomamos muy en serio la seguridad de las experiencias digitales. L
 
 Además, gracias a nuestra colaboración con socios, investigadores prominentes, instituciones de investigación en seguridad y otras organizaciones del sector, estamos al día de las últimas amenazas y vulnerabilidades, y, de forma periódica, incorporamos técnicas de seguridad avanzadas en los productos y servicios que ofrecemos.
 
-Para obtener más información, consulte las notas de producto de [Información general sobre la seguridad de Adobe Target](https://www.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Para obtener más información, consulte el documento técnico [Información general sobre la seguridad de Adobe Target](https://wwwimages.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
