@@ -6,8 +6,8 @@ seo-title: Nueve escollos comunes de las pruebas A/B y cómo evitarlos
 solution: Target
 title: Nueve escollos comunes de las pruebas A/B y cómo evitarlos
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
