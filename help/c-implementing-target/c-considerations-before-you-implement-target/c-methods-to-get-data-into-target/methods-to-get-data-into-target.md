@@ -9,7 +9,7 @@ title: Métodos para obtener los datos en Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
 ---
 
@@ -54,7 +54,7 @@ Los datos se envían a Target en tiempo real y se pueden utilizar en la misma ll
 * Si los datos se deben utilizar para segmentación en una página o llamada de servidor posterior, deben traducirse a un script de perfil.
 * Las cadenas de consulta solo pueden contener caracteres según el [estándar Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
-   Además de los mencionados en el sitio IETF, Target permite los siguientes caracteres en las cadenas de consulta:
+   Además de los mencionados en el sitio IETF, Target permite los siguientes caracteres en cadenas de consulta:
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
