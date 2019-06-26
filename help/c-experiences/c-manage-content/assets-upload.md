@@ -7,8 +7,8 @@ solution: Target
 title: Cargar contenido
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,8 +28,8 @@ Puede añadir o eliminar elementos de la lista de ofertas de imágenes.
 
 Este vídeo incluye información sobre la administración de contenido.
 
-* Conexión entre [Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/es_ES/mcloud/creative_cloud.html) y la biblioteca de contenido de Target
+* Conexión entre la [biblioteca de activos de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) y la biblioteca de contenido de Target
 * Ofertas HTML personalizadas
 * Oferta HTML personalizada en el Compositor de experiencias visuales
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=spa)
