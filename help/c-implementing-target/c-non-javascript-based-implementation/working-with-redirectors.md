@@ -8,8 +8,8 @@ subtopic: Primeros pasos
 title: Trabajar con redirectores
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -45,7 +45,7 @@ Antes de poder usar un redirector, debe crearlo.
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-   * Donde `yourclientcode` es el código de cliente de la empresa. El código de cliente de su empresa está por completo en minúscula y carece de caracteres especiales.
+   * Donde `yourclientcode` es el código de cliente de la empresa. El código de cliente de su compañía está por completo en minúscula y carece de caracteres especiales.
 
       * **at.js**: El código de cliente se encuentra disponible en la parte superior de la página de la interfaz de [!UICONTROL  en ]Configuración &gt; Implementación &gt; Editar la configuración de at.js[!DNL Target].
 
@@ -56,7 +56,7 @@ Antes de poder usar un redirector, debe crearlo.
 
    * Donde `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` es el destino predeterminado.
 
-      Debe tener codificación de dirección URL y ser una referencia absoluta. Para codificar sus URL rápidamente, puede utilizar la [Referencia de codificación de la URL de HTML](https://www.w3schools.com/tags/ref_urlencode.asp).|
+      Debe tener codificación de dirección URL y ser una referencia absoluta. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 
@@ -97,7 +97,7 @@ Use un redirector para pasar los costes por clic.
 
 >[!NOTE]
 >
->Lo mejor es averiguar el valor de coste mediante la métrica de compromiso **Puntación por visita**, tal como se describe en [Participación](https://marketing.adobe.com/resources/help/es_ES/tnt/help/c_Capturing_Engagement.html).
+>Best practice is to determine the cost value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 Añada `&mboxPageValue=-value` a la dirección URL. Observe el valor negativo.
 
@@ -114,7 +114,7 @@ Use un redirector para pasar los ingresos por clic.
 
 >[!NOTE]
 >
->Lo mejor es averiguar el valor de los ingresos mediante la métrica de compromiso **Puntuación por visita** tal como se describe en [Participación](https://marketing.adobe.com/resources/help/es_ES/tnt/help/c_Capturing_Engagement.html).
+>Best practice is to determine the revenue value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 Añada `&mboxPageValue=value` a la dirección URL.
 
