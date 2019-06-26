@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ---
 
@@ -32,6 +32,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 |  | [Segmentación automática](/help/c-activities/auto-target-to-optimize.md) | Se ha añadido información y preguntas más frecuentes sobre cómo especificar una experiencia específica que se utilizará como control.<br>Se ha actualizado la sección «Determinación de asignación del tráfico». |
 |  | [Cree una actividad de personalización automatizada](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Se agregó un paso con información para seleccionar una experiencia específica como predeterminada. |
 |  | [Compositor de experiencias visuales para aplicaciones móviles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Se ha añadido información sobre cómo administrar varias versiones de aplicaciones móviles. |
+|  | [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) | Se agregó información sobre la clave de recomendación Elementos comprados anteriormente. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 19.6.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 de mayo de 2019) {#tgt-19-5-1}
