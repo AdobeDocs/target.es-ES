@@ -8,7 +8,7 @@ title: Crear audiencias en Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,13 +27,13 @@ Cuando se combinan reglas o parámetros con O, cualquier miembro potencial de la
 
 Puede combinar ambos operadores booleanos para crear reglas complejas; sin embargo, los operadores del mismo nivel de regla deben coincidir. La interfaz de usuario se aplica automáticamente al operador correcto.
 
-Por ejemplo, la regla siguiente segmenta a los visitantes que usan Chrome *o* Firefox en un equipo Windows:
+For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
 
 ![Crear audiencia](assets/audience_create.png)
 
 >[!NOTE]
 >
->Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con Chrome *y* Firefox simultáneamente.
+>Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
 
 ## Creación de una nueva audiencia
 
