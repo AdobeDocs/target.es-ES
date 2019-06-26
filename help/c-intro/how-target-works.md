@@ -9,7 +9,7 @@ title: Cómo funciona Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -108,7 +108,7 @@ La red también funciona como un mecanismo a prueba de errores. Si no funciona u
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] actualmente no tiene una red Edge en China y el rendimiento del usuario final se seguirá limitando para [!DNL Target] los clientes de China. Debido al gran servidor de seguridad y a la falta de nodos de Edge dentro del país, las experiencias de los sitios con [!DNL Target] implementado serán lentas para procesar y las cargas de páginas se verán afectadas. Asimismo, la [!DNL Target] interfaz de usuario también puede experimentar latencia.
+>[!DNL Adobe Target] actualmente no tiene una red Edge en China y el rendimiento del usuario final se seguirá limitando para [!DNL Target] los clientes de China. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
 
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
