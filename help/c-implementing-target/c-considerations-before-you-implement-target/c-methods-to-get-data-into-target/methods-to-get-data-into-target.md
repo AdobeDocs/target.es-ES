@@ -8,8 +8,8 @@ subtopic: Primeros pasos
 title: Métodos para obtener los datos en Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -52,13 +52,13 @@ Los datos se envían a Target en tiempo real y se pueden utilizar en la misma ll
 
 * Se requiere la actualización del código de la página (directamente o a través de un sistema de administración de etiquetas).
 * Si los datos se deben utilizar para segmentación en una página o llamada de servidor posterior, deben traducirse a un script de perfil.
-* Las cadenas de consulta solo pueden contener caracteres según el estándar del Grupo de Trabajo de Ingeniería de Internet [(IETF, Internet Engineering Task Force)](https://www.ietf.org/rfc/rfc3986.txt).
+* Las cadenas de consulta solo pueden contener caracteres según el [estándar Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
    Además de los mencionados en el sitio IETF, Target permite los siguientes caracteres en las cadenas de consulta:
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   Todo lo demás debe tener codificación URL. El estándar especifica el siguiente formato ([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt)), como se ilustra a continuación:
+   Todo lo demás debe tener codificación URL. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
    ![](assets/ietf1.png)
 
@@ -227,8 +227,8 @@ Documentación: [Proveedores de datos](/help/c-implementing-target/c-implementin
 
 ### Vídeos de formación:
 
-* [Uso de Proveedores de datos en Adobe Target](https://helpx.adobe.com/es/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementación de proveedores de datos en Adobe Target](https://helpx.adobe.com/es/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Uso de Proveedores de datos en Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Implementación de Proveedores de datos en Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API de actualización de perfiles en lote {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -262,7 +262,7 @@ El tamaño del archivo en lote debe ser inferior a 50 MB. Además, el número to
 
 No hay ningún límite en el número de filas que puede cargar en lotes consecutivos en un período de 24 horas. Sin embargo, el proceso de ingestión puede acelerarse durante el horario laboral para garantizar que otros procesos se ejecuten de forma eficaz.
 
-Las [actualizaciones de llamadas en lote V2]( consecutivas https://developers.adobetarget.com/api/#updating-profiles) sin llamadas mbox intermedias para los mismos ID de terceros ignoran las propiedades actualizadas en la primera actualización de la llamada en lote.
+Las [actualizaciones de llamadas en lote V2](https://developers.adobetarget.com/api/#updating-profiles) consecutivas   sin llamadas mbox intermedias para los mismos ID de terceros ignoran las propiedades actualizadas en la primera actualización de la llamada en lote.
 
 ### Ejemplos de código
 
@@ -336,8 +336,8 @@ Se requiere la implementación del Experience Cloud ID (ECID).
 
 ### Ejemplos de código
 
-Puede encontrar más información en [Crear un origen de atributo de cliente y cargar el archivo de datos](https://marketing.adobe.com/resources/help/es_ES/mcloud/t_crs_usecase.html).
+Puede encontrar más información en [Crear un origen de atributo de cliente y cargar el archivo de datos](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) .
 
 ### Vínculos a información relevante
 
-[Crear un origen de atributo de cliente y cargar el archivo de datos](https://marketing.adobe.com/resources/help/es_ES/mcloud/t_crs_usecase.html)
+[Crear un origen de atributo de cliente y cargar el archivo de datos](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
