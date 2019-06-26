@@ -7,7 +7,7 @@ title: Configuración y objetivos
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 
-La configuración disponible dependerá de si usa Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) como fuente de datos.
+The available settings depend on whether you use Target or [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) as the data source.
 
 ![Cuadro de diálogo Configuración de actividad](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
