@@ -11,7 +11,7 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: premium
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -54,7 +54,7 @@ Las propiedades son similares a las de la Dynamic Tag Management (Activation), e
 
 Una propiedad web es una biblioteca de reglas y un código incrustado. Una propiedad web puede ser cualquier conjunto de uno o varios dominios y subdominios.
 
-Las propiedades se activan añadiendo un par nombre/valor específico como un parámetro con una llamada (mbox, api, etc.) a Target.
+Las propiedades se activan añadiendo un par nombre/valor específico como un parámetro con una llamada (mbox, api, etc.) a Target. 
 Las propiedades pertenecen a canales específicos (web, móvil, correo electrónico o API/otros).
 
 ### Espacio de trabajo (perfil de producto)
@@ -103,7 +103,7 @@ El canal se refiere al tipo de contenido desde donde se suministran sus activida
 
 Cuando se crea una actividad nueva, esta se crea en el espacio de trabajo que está seleccionado. Verá las opciones de selección del canal en el primer cuadro de diálogo que le permite elegir el canal deseado para la actividad: web, aplicación móvil, correo electrónico o API/otro.
 
-## Información general sobre los permisos   {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Información general sobre los permisos  {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 En esta sección explicamos cómo se aplicaban antes los permisos en [!DNL Target] y cómo se aplican usando la funcionalidad [!UICONTROL Propiedades] y [!UICONTROL permisos].
 
@@ -113,7 +113,7 @@ La nueva funcionalidad [!UICONTROL Permisos] permite crear diferentes proyectos 
 
 Por ejemplo, un usuario determinado puede tener el acceso de aprobación en los sitios web de América, pero solo el acceso de visualización en la aplicación móvil europea. Ese mismo usuario puede no tener acceso ni siquiera a la visualización de las actividades ofrecidas en propiedades web y móviles en la región Asia-Pacífico.
 
-El modelo actual de [!DNL Target] [!UICONTROL Permisos] de  tiene tres funciones de permiso (Observador, Editor y Aprobador), como se muestra en la siguiente ilustración:
+El modelo actual de [!DNL Target] [!UICONTROL Permisos] de tiene tres funciones de permiso (Observador, Editor y Aprobador), como se muestra en la siguiente ilustración:
 
 ![](assets/permissions_1.png)
 
@@ -129,7 +129,7 @@ Es importante tener en cuenta que la función de cada usuario se aplica a cada p
 
 ![](assets/permissions_2.png)
 
-El nuevo modelo de [!DNL Target] [!UICONTROL Permisos] de  tiene las mismas funciones de permiso (Observador, Editor y Aprobador); sin embargo, estas funciones se pueden asignar a cada usuario por separado para páginas, propiedades o sitios concretos, como se muestra a continuación:
+El nuevo modelo de [!DNL Target] [!UICONTROL Permisos] de tiene las mismas funciones de permiso (Observador, Editor y Aprobador); sin embargo, estas funciones se pueden asignar a cada usuario por separado para páginas, propiedades o sitios concretos, como se muestra a continuación:
 
 ![](assets/permissions_3.png)
 
@@ -141,13 +141,13 @@ Además, Jan no podrá ver páginas, propiedades ni sitios en [!DNL Target] para
 
 En este ejemplo, Jan no ve las páginas de productos, el sitio de Rusia ni el sitio de ofertas de empleo.
 
-## Casos de uso   {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Casos de uso  {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 En los siguientes casos de uso, trataremos de explicar cómo lograr los objetivos de marketing con ayuda de las propiedades, los proyectos y las funciones de [!DNL Target]:
 
 ### Organización multinacional
 
-Si forma parte de una organización multinacional, puede tener un espacio de trabajo para sus páginas web, propiedades o sitios europeos y otro para sus páginas web, propiedades o sitios estadounidenses.
+Si forma parte de una organización multinacional, puede tener un espacio de trabajo para sus páginas web, propiedades o sitios europeos y otro para sus páginas web, propiedades o sitios estadounidenses. 
 Usando los personajes de las ilustraciones anteriores, tras una reorganización, podría configurar los espacios de trabajo y permisos de este modo:
 
 * **Jan:** Jan es la jefa de optimización del Centro de excelencia para las páginas web, las propiedades y los sitios estadounidenses de la organización. Es muy probable que tenga derechos de administración del sistema en Adobe Experience Cloud.
@@ -252,7 +252,7 @@ Considere lo siguiente cuando utilice o configure propiedades y permisos en Targ
 
 ## Preguntas frecuentes {#faqs}
 
-Las preguntas más frecuentes sobre permisos de Enterprise incluyen lo siguiente:
+Las preguntas más frecuentes sobre permisos de Enterprise incluyen las siguientes:
 
 ### ¿Puedo trasladar una actividad de un espacio de trabajo a otro?
 
@@ -260,23 +260,23 @@ Por desgracia, las actividades no se pueden trasladar de un espacio de trabajo a
 
 Las actividades creadas antes de la migración se siguen ejecutando del mismo modo en el espacio de trabajo predeterminado, a menos que se editen y se les asignen propiedades. Las actividades que se encuentran en un espacio de trabajo responden a las propiedades asignadas a ese espacio de trabajo y, por lo tanto, puede ser que el comportamiento no sea el mismo que antes de la migración.
 
-### ¿Por qué se muestra un mensaje de error que indica que ninguna propiedad está asociada con esta actividad, aunque haya una propiedad asignada?
+### ¿Por qué aparece un mensaje de error que indica que no hay ninguna propiedad asociada con esta actividad, aunque haya una propiedad asignada?
 
-Si ha implementado [!DNL Target] y [!DNL Adobe Launch] obtenido un mensaje de error indicando que no hay propiedad asociada con la actividad, pase el `at_property` parámetro con la `targetPageParams` función.
+Si ha implementado [!DNL Target] con [!DNL Adobe Launch] y ha obtenido un mensaje de error indicando que no hay propiedad asociada con la actividad, pase el parámetro `at_property` con la función `targetPageParams`.
 
 ### ¿Se registran conversiones de rastreo de clics si una página redireccionada y la dirección URL de actividad pertenecen a propiedades diferentes?
 
-El rastreo de clics no se registra en páginas donde la página y la dirección URL de actividad pertenecen a propiedades diferentes.
+El rastreo de clics no se registra en páginas en las que la URL de la página y de la actividad pertenecen a propiedades diferentes.
 
-Considere el siguiente escenario (se aplica tanto a at. js como a mbox. js):
+Considere el siguiente escenario (se aplica tanto a at.js como a mbox.js):
 
-* La página 1 pertenece a la propiedad 1.
-* La página 2 pertenece a la propiedad 2.
-* En la actividad, la página 1 redirige a la página 2, que contiene las pistas de clics.
+* Página1 pertenece a Propiedad1.
+* Página2 pertenece a Propiedad2.
+* En la actividad, Página1 redirige a Página2, que contiene los rastreos de clics.
 
-Cuando un visitante abre la Página 1 en un navegador, se le redirige a la Página 2. Debido a que la Página 2 no cumple los requisitos para entregar la actividad, su llamada de Target no contiene las pulsaciones en su respuesta.
+Cuando un visitante abre Página1 en un explorador, se le redirige a Página2. Debido a que Página2 no cumple los requisitos para entregar la actividad, su llamada de Target no contiene rastreos de clics en su respuesta.
 
-Si la página de redirección y la dirección URL de la actividad pertenecen a la misma propiedad, las pulsaciones funcionan según lo esperado. Para obtener más información, consulte [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md).
+Si la página de redirección y la dirección URL de la actividad pertenecen a la misma propiedad, los rastreos de clics funcionan según lo esperado. Para obtener más información, consulte [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md).
 
 ## Vídeo de formación: Vídeo de formación de permisos de Enterprise {#section_2FA080303A064242B63FF16CFA6DB31D}
 
@@ -286,4 +286,4 @@ Objetivos de aprendizaje:
 * Los conceptos de propiedad y espacio de trabajo, y cómo operan estos límites y agrupamientos para permitir controlar el nivel de acceso de los usuarios
 * Diferentes ejemplos de propiedades para la consideración de su organización
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=spa)
