@@ -7,8 +7,8 @@ solution: Target
 subtopic: Primeros pasos
 title: Detalles de la versión de mbox.js
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ La forma en la que Target responde a las llamadas provenientes de su página dep
 
 **Versión de Target:** 17.7.1
 
-Ya está disponible la versión 63 de [!DNL mbox.js]. Para obtener más información, consulte [Descargar mbox.js](https://marketing.adobe.com/resources/help/es_ES/target/ov/t_target-download-config-mbox.html).
+Ya está disponible la versión 63 de [!DNL mbox.js]. Para obtener más información, consulte [Descargar mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html).
 
 En la versión 63 de [!DNL mbox.js] se incluyen las siguientes mejoras y correcciones:
 
@@ -159,7 +159,7 @@ Se han realizado los siguientes cambios en esta versión:
 
       `<script src='external-url' async='true'></script>`
 
-      Tenga en cuenta que el atributo `async` tiene compatibilidad limitada en Internet Explorer (detalles en: [https://developer.mozilla.org/es/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/es/docs/Web/HTML/Element/script#Browser_compatibility)), de modo que debería excluir de las pruebas que incluyen scripts de terceros a los visitantes que usan versiones más antiguas de Internet Explorer.
+      Tenga en cuenta que el atributo `async` tiene compatibilidad limitada en Internet Explorer. Puede conocer (los detalles en: [https://developer.mozilla.org/es/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) de modo que debería excluir los visitantes que usan versiones más antiguas de IE de las pruebas que incluyen a estos scripts de otros fabricantes.
 
 * Se han corregido problemas informados en la Versión 56 debido a cambios en la sección Extra JavaScript de mbox.js. Todo código en la sección Extra JavaScript está disponible nuevamente en el alcance global.
 
@@ -246,7 +246,7 @@ La función mboxParameter ahora funciona en Target Standard y Premium.
 
 Se corrigió un problema que impedía que Analytics funcione en IE 9 y 11. Este cambio afecta solamente a usuarios de Analytics.
 
-Puede [pasar parámetros](https://marketing.adobe.com/resources/help/es_ES/target/ov/c_pass_parameters_to_global_mbox.html) como una matriz, un objeto JSON o como una lista delimitada por comas (anteriormente compatible) para el mbox global de target utilizando la función targetPageParams()
+Ahora puede [pasar parámetros](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html) como una matriz, como un objeto JSON o como una lista delimitada por comas (previamente compatible) a target-global-mbox mediante la función targetPageParams().
 
 Se ha cambiado el nombre de M2PcId y todo lo relacionado con VisitorId.
 
