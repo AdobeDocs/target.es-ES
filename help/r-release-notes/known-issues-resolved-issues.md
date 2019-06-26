@@ -8,7 +8,7 @@ title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -24,6 +24,10 @@ Información sobre problemas conocidos con esta versión de Target. También inc
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
+
+### No se puede procesar el informe de gráfico de una actividad de segmentación automática al utilizar una experiencia personalizada como control
+
+El informe gráfico de una actividad de segmentación automática no se puede procesar para modos &quot;diferenciales&quot; (Alza media y Alza diaria) si no hay datos (0 visitas) en ninguna experiencia. Esta situación puede suceder durante la etapa inicial de una actividad si la experiencia de control está definida como personalizada. Para los demás modos (Control promedio corriente y Segmentación, Control diario y Segmentación, y Visitas) funciona correctamente. Tan pronto como hay algunos datos (visitas que no sean cero), el informe se procesa según lo esperado.
 
 ### Cancelación de la carga de una página dentro del VEC {#cancel}
 
