@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -19,13 +19,21 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Lista de preguntas más frecuentes sobre la Personalización automatizada (AP).
 
+## ¿Puedo especificar una experiencia específica para utilizarla como control?
+
+You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+
+Esta función permite dirigir todo el tráfico de control a una experiencia específica, según el porcentaje de asignación de tráfico configurado en la actividad. Luego puede evaluar los informes de rendimiento del tráfico personalizado contra el tráfico de control a esa experiencia.
+
+For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+
 ## ¿Cómo puedo comparar la Personalización automatizada con una experiencia predeterminada?{#section_46C1A620A2384C2C8392D6716DD18495}
 
 No existe una opción para comparar la AP con una experiencia predeterminada. Sin embargo, como alternativa, si existe una oferta o experiencia predeterminada como parte de la actividad general, para comprender su rendimiento inicial puede hacer clic en el segmento “Control” de los informes y colocar la oferta concreta en el informe a nivel de oferta resultante. Las tasas de conversión registradas para esta oferta pueden usarse para compararlas con las tasas de conversión del segmento “Bosque aleatorio” al completo. Esto ayuda a comparar cómo funciona la máquina en comparación la oferta predeterminada.
 
 ## ¿Qué es lo mejor para configurar una actividad de Personalización automatizada?  {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Si está buscando personalizar una página de menor tráfico o si desea realizar cambios estructurales en la experiencia que está personalizando, considere usar la segmentación automática en lugar de la Personalización automatizada. Consulte  [Segmentación automática para experiencias personalizadas](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+* Si está buscando personalizar una página de menor tráfico o si desea realizar cambios estructurales en la experiencia que está personalizando, considere usar la segmentación automática en lugar de la Personalización automatizada. Consulte [Segmentación automática para experiencias personalizadas](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 * Considere completar una actividad A/B entre las ofertas y las ubicaciones que planea utilizar en su actividad de Personalización automatizada para garantizar que la ubicación y las ofertas tengan un impacto en el objetivo de optimización. Si una actividad A/B no puede demostrar una diferencia significativa, la Personalización automatizada probablemente tampoco generará elevación.
 
    * Si una prueba A/B...N no muestra diferencias estadísticamente significativas entre las experiencias, es probable que las ofertas que está considerando no sean suficientemente diferentes entre sí, las ubicaciones que seleccionó no influyen en la métrica de éxito o el objetivo de optimización está demasiado lejos en el embudo de conversión como para verse afectado por las ofertas elegidas.
@@ -33,9 +41,11 @@ No existe una opción para comparar la AP con una experiencia predeterminada. Si
 * Asegúrate de usar el  [Estimador de tráfico](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para que pueda tener una idea de cuánto tiempo tardará la creación de modelos de personalización en su actividad de Personalización automatizada.
 * Decida la asignación entre el control y el objetivo antes de comenzar la actividad en función de sus objetivos.
 
-   * ¿El objetivo de su actividad de personalización automatizada es determinar cómo funciona el algoritmo de personalización en general o ejecutar una optimización de personalización “siempre activada” en su página? Dependiendo de su respuesta a esta pregunta, querrá usar una asignación de tráfico diferente entre el control y el objetivo.
-   * si su objetivo es probar el algoritmo, utilice una división del 50/50 por ciento de los visitantes entre el control y el algoritmo seleccionado. Esta división proporciona la estimación más precisa del alza.
-   * Si su objetivo es crear una actividad “siempre activada”, ponga el del 10 % al 30 % de los visitantes en el control para asegurarse de que haya suficientes datos para que los algoritmos continúen aprendiendo a lo largo del tiempo. Tenga en cuenta que la compensación aquí es que, a cambio de personalizar una mayor proporción de su tráfico, tendrá menos precisión en la estimación del alza.
+   Hay tres situaciones que considerar en función del objetivo de la actividad y el tipo de control seleccionado:
+
+   * **Experiencias aleatorias como control y su objetivo de actividad es probar la eficacia del algoritmo de personalización**: Si su objetivo es evaluar el algoritmo de personalización, quiere tener una imagen más exacta del alza. Probablemente quiera comparar con lo que la tasa de conversión de las experiencias y ofertas sería si simplemente realizó una prueba A/B (un control servido aleatoriamente). En ese caso, se recomienda utilizar una asignación del 50% a un control de experiencias servidas aleatoriamente.
+   * **«Experiencias aleatorias» como control y objetivo de actividad para maximizar el tráfico personalizado**: Si se siente cómodo con el algoritmo y desea tener la máxima cantidad de tráfico personalizado, se recomienda una asignación de 10% a 30% para controlar. Este es el equilibrio que podrá ver en la información de alza (ya que los intervalos de confianza del tráfico de control serán más grandes porque hay menos tráfico fluido).
+   * **Experiencia específica como control, con cualquier tipo de objetivo**: Si desea comparar una experiencia específica basada en especialistas en mercadotecnia en los modelos de personalización, se recomienda una asignación de 10% a 30% para controlar. Cuando se selecciona una sola experiencia como control, ese tráfico no se propaga en todas las ofertas o experiencias de la actividad.
 
 * Las reglas de orientación deben usarse con la menor cantidad posible porque pueden interferir con la capacidad del modelo para optimizar.
 * Los grupos de informes pueden limitar el éxito de su actividad de personalización automatizada. Solo deben usarse bajo condiciones específicas.
@@ -63,7 +73,7 @@ Hay varios factores necesarios para que una actividad de AP genere un alza:
 
 El mejor curso de acción es asegurarse primero de que el contenido y las ubicaciones que componen las experiencias de actividad marquen realmente una diferencia en las tasas de respuesta generales mediante una prueba A/B simple no personalizada. Asegúrese de calcular los tamaños de muestra antes de tiempo para asegurarse de que haya suficiente energía para ver un levantamiento razonable y ejecutar la prueba A/B durante un tiempo determinado sin detenerlo ni realizar ningún cambio. Si los resultados de una prueba A/B muestran un aumento estadísticamente significativo en una o más de las experiencias, entonces es probable que una actividad personalizada funcione. Por supuesto, la personalización puede funcionar incluso si no hay diferencias en las tasas de respuesta general de las experiencias. Normalmente, el problema radica en que las ofertas/ubicaciones no tienen un impacto lo suficientemente grande en el objetivo de optimización para que se detecten con relevancia estadística.
 
-Para obtener más información,  [Resolución de problemas de personalización automatizada](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+Para obtener más información, [Resolución de problemas de personalización automatizada](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
 ## ¿Cómo está la personalización automatizada asignando el tráfico de mi actividad?{#section_4369364F77804E0D9B78BEE551DA5659}
 
@@ -77,7 +87,7 @@ La personalización automatizada se puede utilizar como una personalización “
 
 ## ¿Cuánto tiempo debo esperar para que los modelos se creen?  {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-La cantidad de tiempo que tardan los modelos en desarrollar su actividad depende típicamente del tráfico a la/s ubicación/es de la actividad seleccionada y la métrica de éxito de la actividad. Use la  [Estimador de tráfico](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para determinar la duración esperada que los modelos necesitarán para desarrollar su actividad.
+La cantidad de tiempo que tardan los modelos en desarrollar su actividad depende típicamente del tráfico a la/s ubicación/es de la actividad seleccionada y la métrica de éxito de la actividad. Use la [Estimador de tráfico](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para determinar la duración esperada que los modelos necesitarán para desarrollar su actividad.
 
 ## Se ha creado un modelo dentro de mi actividad. {#section_51EA953C6D1D4A3185FC9DD290D66621}¿Las visitas a esa experiencia están personalizadas?
 
