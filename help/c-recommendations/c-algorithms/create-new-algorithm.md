@@ -1,6 +1,6 @@
 ---
 description: Los criterios controlan el contenido de sus actividades de Recommendations. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad.
-seo-description: Los criterios controlan el contenido de las actividades de Recomendaciones de Adobe. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad.
+seo-description: Los criterios controlan el contenido de sus actividades de Adobe Recommendations. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad.
 seo-title: Crear criterios
 solution: Target
 title: Crear criterios
@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -63,7 +63,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
 1. Seleccione una **[!UICONTROL Clave de recomendación]**.
 
-   Para obtener más información sobre basar criterios en una clave, consulte [Basar la recomendación en una clave de recomendación](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Para obtener más información sobre cómo basar los criterios en una clave, consulte [Basar la recomendación en una clave de recomendación](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 
 1. Seleccione la **[!UICONTROL Lógica de recomendación]**.
 
@@ -93,7 +93,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
 1. Establezca las reglas de **[!UICONTROL Contenido]**.
 
-   Las reglas de contenido determinan qué sucede si el número de artículos recomendados no completa su diseño. Por ejemplo, si el diseño tiene espacio para cinco artículos, pero los criterios hacen que solo se recomienden tres artículos, puede dejar vacío el espacio restante, o puede usar recomendaciones de copia de seguridad para completar el espacio adicional. 
+   Las reglas de contenido determinan qué sucede si el número de artículos recomendados no completa su diseño. Por ejemplo, si el diseño tiene espacio para cinco artículos, pero los criterios hacen que solo se recomienden tres artículos, puede dejar vacío el espacio restante, o puede usar recomendaciones de copia de seguridad para completar el espacio adicional.
 
    Seleccione las conmutaciones adecuadas:
 
@@ -102,13 +102,13 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
    * [!UICONTROL Recomendar productos adquiridos anteriormente]
    Esta configuración se basa en `productPurchasedId`. Es útil si vende artículos que la gente suele comprar solo una vez como, por ejemplo, canoas. Le recomendamos desactivar esta opción si vende artículos que la gente suele volver para comprar de nuevo como, por ejemplo, champú u otros artículos personales.
 
-1. Configure las **[!UICONTROL reglas de inclusión]**.
+1. Establezca las **[!UICONTROL Reglas de inclusión]**.
 
    Las Reglas de inclusión determinan qué artículos se incluirán en sus recomendaciones. Las opciones disponibles dependen del sector.
 
    Para obtener más información, consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
-1. Configure **[!UICONTROL la ponderación de atributo]**.
+1. Configure la **[!UICONTROL Ponderación de atributos]**.
 
    Puede agregar varias reglas para “desplazar” el algoritmo basado en descripción o metadatos importantes sobre el catálogo de contenido. Por ejemplo, puede aplicar una ponderación más alta para artículos en venta de modo que aparezcan con más frecuencia en la recomendación.
 
@@ -116,13 +116,13 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
 1. Cuando termine, haga clic en **[!UICONTROL Guardar]**.
 
-   Si está creando una nueva actividad de [!UICONTROL Recommendations] o está editando una existente, la casilla **[!UICONTROL Guardar criterios para más adelante]está seleccionada de forma predeterminada.** Si no desea usar los criterios en otras actividades, desmarque la casilla antes de guardar.
+   Si está creando una nueva actividad de [!UICONTROL Recommendations] o está editando una existente, la casilla **[!UICONTROL Guardar criterios para más adelante]** está seleccionada de forma predeterminada. Si no desea usar los criterios en otras actividades, desmarque la casilla antes de guardar.
 
 ### Tiempo de procesamiento de criterios esperado
 
-* **mboxes**: Si los criterios utilizan mboxes como fuente de datos de comportamiento, una vez creada, los criterios se ejecutarán inmediatamente. Dependiendo de la cantidad de datos de comportamiento utilizados y del tamaño del catálogo, el algoritmo puede tardar hasta 12 horas en ejecutarse. Realizar cambios en los resultados de configuración de criterios en la ejecución de los criterios.
+* **mboxes**: si los criterios utilizan mboxes como fuente de datos de comportamiento, una vez creados, los criterios se ejecutarán de inmediato. Dependiendo de la cantidad de datos de comportamiento utilizados y del tamaño del catálogo, el algoritmo puede tardar hasta 12 horas en ejecutarse. Realizar cambios en los resultados de configuración de criterios en la ejecución de los criterios.
 
-* **Analytics**: Si los criterios se utilizan [!DNL Adobe Analytics] como fuente de datos de comportamiento, una vez creada, el tiempo de disponibilidad de los criterios depende de si el grupo de informes seleccionado y la ventana retroactiva se han utilizado para cualquier otro criterio. Si el grupo de informes se ha utilizado anteriormente con una ventana de búsqueda al menos durante el tiempo que la ventana de búsqueda seleccionada, entonces los datos de comportamiento ya están disponibles en Target y Recommendations ejecutan los criterios inmediatamente. El algoritmo puede tardar hasta 12 horas en ejecutarse, según la cantidad de datos de comportamiento utilizados y el tamaño del catálogo. Si el grupo de informes no se ha utilizado anteriormente, o si se usa con una ventana de visualización más larga, Recommendations debe solicitar y recibir datos de Adobe Analytics y luego ejecutar el algoritmo. El proceso de sincronización con Analytics generalmente toma al menos 2 días y puede tardar hasta 7 días en completarse, dependiendo de la carga del sistema de Analytics.
+* **Analytics**: si los criterios utilizan [!DNL Adobe Analytics] como fuente de datos de comportamiento, una vez creados, el tiempo de disponibilidad de los criterios depende de si el grupo de informes seleccionado y la ventana de vista al pasado se han utilizado para otros criterios. Si el grupo de informes se ha utilizado anteriormente con una ventana de búsqueda al menos durante el tiempo que la ventana de búsqueda seleccionada, entonces los datos de comportamiento ya están disponibles en Target y Recommendations ejecutan los criterios inmediatamente. El algoritmo puede tardar hasta 12 horas en ejecutarse, según la cantidad de datos de comportamiento utilizados y el tamaño del catálogo. Si el grupo de informes no se ha utilizado anteriormente, o si se usa con una ventana de visualización más larga, Recommendations debe solicitar y recibir datos de Adobe Analytics y luego ejecutar el algoritmo. El proceso de sincronización con Analytics generalmente toma al menos 2 días y puede tardar hasta 7 días en completarse, dependiendo de la carga del sistema de Analytics.
 
 ## Basar la recomendación en una clave de recomendación {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -181,7 +181,7 @@ Páginas de una sola categoría.
 
 NO lo utilice en páginas de resultados de búsqueda nulos.
 
-### Atributo personalizado {#custom}
+### Atributo personalizado  {#custom}
 
 La recomendación viene determinada por un elemento almacenado en el perfil de un visitante, utilizando los atributos user.*x* o perfil.atributos *x*.
 
@@ -204,26 +204,26 @@ Puede utilizarse en cualquier página.
 
 **Utilizar una clave de recomendaciones personalizada**
 
-Puede basar las recomendaciones en el valor de un atributo de perfil personalizado. Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la película que agregó un visitante recientemente a su cola.
+Puede basar las recomendaciones en el valor de un atributo de perfil personalizado. Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la película un visitante añadió recientemente a su cola.
 
-1. Seleccione su atributo de perfil personalizado en la lista **[!UICONTROL desplegable Clave]** de recomendación (por ejemplo, «Última visualización agregada a la lista de observación»).
-1. A continuación, seleccione la lógica **[!UICONTROL de recomendación]** (por ejemplo, &quot;Personas que vieron esto, Vieron aquello&quot;).
+1. Seleccione su atributo de perfil personalizado de la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, &quot;Última visualización agregada a la lista de observación&quot;).
+1. A continuación, seleccione la **[!UICONTROL Lógica de recomendación]** (por ejemplo, &quot;Las personas que vieron esto, vieron aquello&quot;).
 
-   ![Crear nuevo cuadro de diálogo de criterios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
+   ![Creación de un nuevo cuadro de diálogo de criterios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Si el atributo de perfil personalizado no coincide directamente con un ID de entidad único, es necesario explicar cómo [!DNL Recommendations] desea que se produzca la coincidencia en una entidad. Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la marca favorita de un visitante.
+Si el atributo de perfil personalizado no coincide directamente con un ID de entidad único, es necesario explicarle a [!DNL Recommendations] cómo desea que se produzca la coincidencia en una entidad. Por ejemplo, supongamos que desea mostrar los elementos más vendidos de la marca favorita de un visitante.
 
-1. Seleccione su atributo de perfil personalizado en **[!UICONTROL la lista desplegable Clave]** de recomendación (por ejemplo, «Marca favorita»).
+1. Seleccione su atributo de perfil personalizado en la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, &quot;Marca favorita&quot;).
 
-1. A continuación, seleccione **[!UICONTROL la lógica]** de recomendación que desee utilizar con esta clave (por ejemplo, &quot;Principales vendedores&quot;).
+1. A continuación, seleccione la **[!UICONTROL Lógica de recomendación]** que desee utilizar con esta clave (por ejemplo, &quot;Vendedores principales&quot;).
 
-   Se muestra [!UICONTROL la] opción Agrupar por valor único de.
+   Aparecerá la opción [!UICONTROL Agrupar por valor único de].
 
-1. Seleccione el atributo de entidad que coincida con la clave que ha elegido. En este caso, «Marca favorita» coincide con `entity.brand`.
+1. Seleccione el atributo de entidad que coincida con la clave que ha elegido. En este caso, &quot;Marca favorita&quot; coincide con `entity.brand`.
 
-   [!DNL Recommendations] ahora genera una lista «Principales vendedores» para cada marca y muestra al visitante la lista «Principales vendedores» adecuada en función del valor almacenado en el atributo de perfil de Marca favorita del visitante.
+   Ahora [!DNL Recommendations] creará una lista &quot;Vendedores principales&quot; para cada marca y le mostrará al visitante la lista &quot;Vendedores principales&quot; adecuada en función del valor almacenado en el atributo de perfil de Marca favorita del visitante.
 
-   ![Crear nuevo cuadro de diálogo de criterios 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
+   ![Creación de un nuevo cuadro de diálogo de criterios 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
 ### Último artículo comprado
 
@@ -345,7 +345,7 @@ Las opciones de reglas de inclusión varían por sector. De forma predeterminada
 
 >[!NOTE]
 >
->Debería usar las reglas de inclusión con cautela. Estos filtros son útiles si, por ejemplo, su organización ha establecido reglas que exigen que una marca no se recomiende al mismo tiempo que se está viendo otra marca. Sin embargo, esta función tiene un coste de oportunidad, ya que posiblemente pueda perder un porcentaje de alza al restringir la presentación de algunos elementos que normalmente se mostrarían con los criterios de la actividad. 
+>Debería usar las reglas de inclusión con cautela. Estos filtros son útiles si, por ejemplo, su organización ha establecido reglas que exigen que una marca no se recomiende al mismo tiempo que se está viendo otra marca. Sin embargo, esta función tiene un coste de oportunidad, ya que posiblemente pueda perder un porcentaje de alza al restringir la presentación de algunos elementos que normalmente se mostrarían con los criterios de la actividad.
 
 Las reglas de inclusión se unen mediante Y. Deben cumplirse todas las reglas para incluir un artículo en una recomendación.
 
@@ -369,7 +369,7 @@ Para crear una regla de inclusión sencilla, como se mencionó, previamente, que
 
 ## Ponderación de atributos {#task_2AEDA0DB15B74770B76F6982B24C2E42}
 
-Use la ponderación de atributos para retocar el algoritmo de modo que ciertos elementos tengan más probabilidad de mostrarse. Los comerciantes pueden influir en el algoritmo con base a la descripción importante o los metadatos concernientes al catálogo de contenido. 
+Use la ponderación de atributos para retocar el algoritmo de modo que ciertos elementos tengan más probabilidad de mostrarse. Los comerciantes pueden influir en el algoritmo con base a la descripción importante o los metadatos concernientes al catálogo de contenido.
 
 Aplique una mayor ponderación a estos artículos en liquidación para que aparezcan con más frecuencia en la recomendación. Los artículos que no están en liquidación no quedan completamente excluidos, pero aparecen con menos frecuencia. Se pueden aplicar múltiples atributos ponderados al mismo algoritmo y los atributos ponderados se pueden probar sobre el tráfico dividido en la recomendación.
 
@@ -396,7 +396,7 @@ La configuración de [!UICONTROL Contenido] determina cómo se visualizan las re
 
 Es posible que algunos criterios de [!UICONTROL Recommendations] devuelvan menos recomendaciones que las que exige el diseño. Por ejemplo, el diseño puede tener cinco “ranuras” disponibles, pero el criterio solo devuelve tres artículos recomendados. La configuración de [!UICONTROL Contenido] controla la manera en que se presentan las recomendaciones cuando ocurre esto.
 
-Las reglas de contenido determinan qué sucede si el número de artículos recomendados no completa su diseño. Por ejemplo, si el diseño tiene espacio para cinco artículos, pero los criterios hacen que solo se recomienden tres artículos, puede dejar vacío el espacio restante, o puede usar recomendaciones de copia de seguridad para completar el espacio adicional. 
+Las reglas de contenido determinan qué sucede si el número de artículos recomendados no completa su diseño. Por ejemplo, si el diseño tiene espacio para cinco artículos, pero los criterios hacen que solo se recomienden tres artículos, puede dejar vacío el espacio restante, o puede usar recomendaciones de copia de seguridad para completar el espacio adicional.
 
 Seleccione las conmutaciones adecuadas:
 
