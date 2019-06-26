@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,7 +38,7 @@ Puede crear un diseño de [!UICONTROL Recommendations] usando un diseño predete
    Cuando se usa un diseño predeterminado, en el campo **[!UICONTROL Nombre de contenido]** aparecen el nombre del diseño y “Copiar”. Puede editar el nombre. 1. (Opcional) Haga clic para seleccionar una imagen que se mostrará en la tarjeta de diseño.
 1. Edite el **[!UICONTROL Código]** de diseño.
 
-   Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Puede encontrar información sobre Velocity en [https://velocity.apache.org](https://velocity.apache.org).
+   Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Puede encontrar información sobre Velocity en [](https://velocity.apache.org)https://velocity.apache.org.
 
    Un diseño puede ser HTML o no HTML. De forma predeterminada, los diseños HTML se encapsulan con una <div> etiqueta para permitir el seguimiento de clics en un entorno web. Los diseños que no son HTML son para entornos que no son de web donde los clics no se pueden rastrear.
 
