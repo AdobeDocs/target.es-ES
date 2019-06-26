@@ -7,8 +7,8 @@ solution: Target
 title: 'Uso compartido de métricas, audiencias e informes: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -21,10 +21,10 @@ En este tema encontrará respuestas a preguntas que se plantean a menudo sobre c
 
 A menudo, es buena idea crear una vista de una prueba para diferentes grupos de usuarios para que les resulte más fácil consultar los resultados de la prueba. En Analytics, se puede crear un marcador que guarde la vista actual de un informe, incluyendo las métricas, los intervalos de fechas, los segmentos, etc.
 
-Para obtener más información, consulte [Crear un marcador](https://marketing.adobe.com/resources/help/es_ES/sc/user/t_bookmarks_creating.html).
+Para obtener más información, consulte [Crear un marcador](https://marketing.adobe.com/resources/help/en_US/sc/user/t_bookmarks_creating.html).
 
 ## ¿Cómo me puedo asegurar de que las métricas y los segmentos se compartan con mi equipo de optimización?{#section_38BCA134A2F64C21B670CBD4491B7099}
 
 Si usa segmentos y métricas especiales con una prueba, quizá le convenga crear un grupo de usuarios para el equipo de optimización. Comparta esos segmentos y métricas con el grupo en lugar de con miembros concretos, así se asegura de que todos tengan acceso a los segmentos y a las métricas. Solo los administradores pueden compartir contenido con los grupos.
 
-Consulte [Uso compartido de segmentos](https://marketing.adobe.com/resources/help/es_ES/analytics/segment/t_seg_share.html) y [Compartir métricas calculadas](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/cm_sharing.html).
+Consulte [Uso compartido de segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_share.html) y [Compartir métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_sharing.html).
