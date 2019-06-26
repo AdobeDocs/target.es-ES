@@ -10,7 +10,7 @@ topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 badge: premium
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 >[!NOTE]
 >
->La [!UICONTROL segmentación automática] está disponible como parte de la solución [!DNL Target Premium]. Esta característica no está disponible en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información sobre las funciones avanzadas que proporciona esta licencia, consulte [Target Premium](/help/c-intro/intro.md).
+>La [!UICONTROL segmentación automática] está disponible como parte de la solución [!DNL Target Premium]. Esta característica no está disponible en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. For more information about the advanced features this license provides, see [Target Premium](/help/c-intro/intro.md).
 
 Al [crear una actividad A/B mediante el flujo de trabajo guiado de tres pasos](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), tiene la opción de asignar el tráfico con la opción [!UICONTROL Segmentación automática para experiencias personalizadas]:
 
@@ -76,13 +76,15 @@ La lista desplegable [!UICONTROL Asignación personalizada] le permite elegir en
 
 | Objetivo de la actividad | Asignación de tráfico sugerida | Compensaciones |
 |--- |--- |--- |
-| **Evaluar algoritmo de personalización (50/50)**: Su objetivo es determinar cómo funciona el algoritmo de personalización en comparación con el control (es decir, una experiencia ofrecida al azar). Es posible que esté en las primeras etapas de evaluación de su programa de personalización. | 50 % de control/50 % de experiencia personalizada dividida | <ul><li>Maximiza la precisión del aumento entre el control y el personalizado</li><li>Relativamente, tendrá menos visitantes una experiencia personalizada</li></ul> |
-| **Maximizar tráfico de personalización (90/10)**: Su objetivo es crear una actividad de personalización &quot;siempre activada&quot; que maximice la cantidad de tráfico personalizado. Desea maximizar el aumento mientras continúa teniendo un aumento de referencia de control para comparar. | Lo mejor es usar una división de Experiencia personalizada del 10 % - 30 %/70 % - 90 % | <ul><li>Maximiza el número de visitantes que tienen una experiencia personalizada</li><li>Maximiza el alza</li><li>Menos precisión en cuanto a lo que significa el aumento para la actividad</li></ul> |
+| **Evaluar algoritmo de personalización (50/50)**: Si su objetivo es probar el algoritmo, utilice un porcentaje de visitantes del 50% al 50% entre el control y el algoritmo de objetivo. Esta división proporciona la estimación más precisa del alza. Se sugiere utilizar con «experiencias aleatorias» como control. | 50 % de control/50 % de experiencia personalizada dividida | <ul><li>Maximiza la precisión del aumento entre el control y el personalizado</li><li>Relativamente, tendrá menos visitantes una experiencia personalizada</li></ul> |
+| **Maximizar tráfico de personalización (90/10)**: Si su objetivo es crear una actividad «siempre activa», coloque el 10% de los visitantes en el control para asegurarse de que hay suficientes datos para que los algoritmos continúen aprendiendo a lo largo del tiempo. Tenga en cuenta que la compensación aquí es que, a cambio de personalizar una mayor proporción de su tráfico, tendrá menos precisión en la estimación del alza. Independientemente del objetivo, es la división de tráfico recomendada al usar una experiencia específica como control. | Lo mejor es usar una división de Experiencia personalizada del 10 % - 30 %/70 % - 90 % | <ul><li>Maximiza el número de visitantes que tienen una experiencia personalizada</li><li>Maximiza el alza</li><li>Menos precisión en cuanto a lo que significa el aumento para la actividad</li></ul> |
 | **Asignación personalizada** | Divida manualmente el porcentaje según lo desee. | <ul><li>Puede que no consiga los resultados deseados. Si no está seguro, siga las sugerencias de cualquiera de las opciones anteriores</li></ul> |
 
 Para ajustar el porcentaje de control, haga clic en los iconos de la columna Asignación. No se puede reducir el grupo de control por debajo del 10 %.
 
 ![Cambiar la asignación del tráfico de segmentación automática](/help/c-activities/assets/auto-target-control.png)
+
+[Puede seleccionar una experiencia específica para utilizarla como control](/help/c-activities/t-automated-personalization/experience-as-control.md) o utilizar la opción de experiencia aleatoria.
 
 ## ¿Cuándo se debe elegir la [!UICONTROL Segmentación automática] en lugar de la Personalización automatizada? {#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -206,6 +208,14 @@ No, debe haber al menos dos modelos integrados dentro de su actividad para que c
 **¿Cuándo puedo empezar a ver los resultados de mi actividad de la[!UICONTROL segmentación automática]?**
 
 Puede comenzar a observar los resultados de su actividad de [!UICONTROL segmentación automática] después de que tenga al menos dos experiencias con los modelos creados (marca de verificación verde) para la experiencia que tienen los modelos generados.
+
+**¿Puedo especificar una experiencia específica para utilizarla como control?**
+
+You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+
+Esta función permite dirigir todo el tráfico de control a una experiencia específica, según el porcentaje de asignación de tráfico configurado en la actividad. Luego puede evaluar los informes de rendimiento del tráfico personalizado contra el tráfico de control a esa experiencia.
+
+For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
 ## Solución de problemas de la [!UICONTROL segmentación automática] {#section_23995AB813F24525AF294D20A20875C8}
 
