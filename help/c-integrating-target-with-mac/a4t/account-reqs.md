@@ -7,8 +7,8 @@ solution: Target,Analytics
 title: Requisitos de permisos de usuario
 topic: Reports and Analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,13 +29,13 @@ Complete las siguientes tareas en [!DNL Adobe Experience Cloud][Admin Console](h
 
 Las cuentas de usuario de [!DNL Analytics] y de [!DNL Target] deben estar vinculadas a su Adobe ID.
 
-Para obtener más información, consulte [Organizaciones y vinculación de cuenta](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 ### Configuración de la pertenencia a grupo de Experience Cloud
 
 Debe ser miembro de uno o más grupos de [!DNL Experience Cloud] que tengan acceso a [!DNL Analytics] y [!DNL Target].
 
-Para obtener más información, consulte [Administración de usuarios y productos de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 
 ## Adobe Analytics  {#section_8F404FDE9A634534AB0AA4CB3075582B}
@@ -46,7 +46,7 @@ Complete las siguientes tareas en [!DNL Adobe Analytics]:
 
 Antes de crear o ver informes de una actividad basada en Analytics, debe ser miembro del grupo **[!UICONTROL Acceso a todos los informes]** o de un grupo que, como mínimo, tenga acceso a uno de los informes del grupo de informes que quiera usar. Si no puede ver informes, asegúrese de que es miembro de uno de estos grupos.
 
-Para obtener más información, consulte [Perfiles de producto y grupos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
+For more information, see [Product profiles and groups](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 
 ### Configuración del acceso al grupo de acceso a servicios web
 
