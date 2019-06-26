@@ -8,8 +8,8 @@ subtopic: Primeros pasos
 title: Configuración de la API de perfil
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ Como seguridad adicional, puede requerir que la llamada a la API de actualizaci�
 
    >[!NOTE]
    >
-   >También puede generar un token de autentificación de perfil mediante API. Para obtener más información, consulte [Perfiles](https://developers.adobetarget.com/api/#profiles) en la [página de desarrolladores de Adobe Target](https://developers.adobetarget.com/).
+   >También puede generar un token de autentificación de perfil mediante API. Para obtener más información, consulte [Perfiles](https://developers.adobetarget.com/api/#profiles) en el [sitio web de desarrolladores de Adobe Target](https://developers.adobetarget.com/).
 
 1. Copie el token e inclúyalo en el encabezado de la solicitud con el formato: “Autorización” : “Portador ”
 
