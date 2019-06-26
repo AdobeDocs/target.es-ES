@@ -7,7 +7,7 @@ title: Previsualizar experiencias para una prueba multivariable
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -24,7 +24,7 @@ Dado que una prueba multivariable compara varias experiencias en una página, re
 
 1. Haga clic en una experiencia de la lista para verla.
 
-1. Para excluir una o varias experiencias de la prueba multivariable, seleccione las experiencias que desee y haga clic **[!UICONTROL en Excluir]**.
+1. To exclude one or more experiences from the multivariate test, select the desired experiences, then click **[!UICONTROL Exclude]**.
 
    ![Excluir experiencias](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
