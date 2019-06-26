@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+translation-type: tm+mt
 
 ---
 # Contribución
@@ -11,7 +11,7 @@ A continuación se proporciona un conjunto de directrices para contribuir en est
 
 ## Código de conducta
 
-Este proyecto cumple con el [Código de conducta de Adobe ](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md). Por el mero hecho de participar se presupone que acepta este código. Informe de cualquier comportamiento inaceptable a SOMEEMAIL.
+Este proyecto cumple con el [Código de conducta](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md) de Adobe. Por el mero hecho de participar se presupone que acepta este código. Informe de cualquier comportamiento inaceptable a SOMEEMAIL.
 
 ## Acuerdo de licencia de colaborador
 
@@ -19,4 +19,4 @@ Todas las contribuciones de terceros a este proyecto deben estar acompañadas po
 
 ## Revisiones de código
 
-Todos los envíos deben ser solicitudes de extracción y deben ser revisados por los supervisores del proyecto. Para obtener más información sobre el envío de solicitudes de extracción, lea [la documentación sobre solicitudes de extracción de GitHub](https://help.github.com/articles/about-pull-requests/).
+Todos los envíos deben ser solicitudes de extracción y deben ser revisados por los supervisores del proyecto. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
