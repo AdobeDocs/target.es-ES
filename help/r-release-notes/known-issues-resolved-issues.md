@@ -2,13 +2,13 @@
 description: Información sobre problemas conocidos con esta versión de Target. También incluye información sobre problemas que ya se han resuelto.
 keywords: problemas conocidos;problemas resueltos;notas de la versión
 seo-description: Información sobre problemas conocidos con esta versión de Target. También incluye información sobre problemas que ya se han resuelto.
-seo-title: Problemas conocidos y problemas resueltos
+seo-title: Problemas conocidos y problemas resueltos en Adobe Target
 solution: Target
 title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -24,6 +24,14 @@ Información sobre problemas conocidos con esta versión de Target. También inc
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
+
+### Ofertas de redireccionamiento {#redirect}
+
+Los siguientes son problemas conocidos de las ofertas de redireccionamiento:
+
+* Bajo algunas condiciones, un número limitado de clientes ha informado de grados de varianza más altos en la distribución del tráfico al utilizar una oferta de redireccionamiento en actividades configuradas con Analytics para Target (A 4 T). Los ingenieros de Adobe están trabajando en este problema.
+* Una condición de carrera en la página puede provocar que se cuenten las vistas de página en la página original y en la página de redirección. Se planifican las actualizaciones a la implementación de at. js para garantizar que se pueda evitar esta condición de carrera. Para obtener más información sobre el problema y una solución alternativa, consulte [Ofertas de redireccionamiento: preguntas frecuentes sobre A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Las actividades de redirección en las implementaciones de at.js hacen que la dirección URL de vista previa entre en bucle (la oferta se suministra repetidamente). Puede utilizar el [Modo de control de calidad](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) para llevar a cabo la vista previa y el control de calidad. Este problema no afecta al suministro real de la oferta. (TGT-23019)
 
 ### No se puede procesar el informe de gráfico de una actividad de segmentación automática al utilizar una experiencia personalizada como control
 
@@ -92,13 +100,6 @@ A continuación, detallamos los problemas conocidos de at.js:
 La biblioteca mbox.js no admite los lenguajes de plantilla en el lado del cliente, como Handlebars y Mustache. La biblioteca at.js *sí* admite estos lenguajes.
 
 **Nota**: La biblioteca mbox.js ya no está en desarrollo. Todos los clientes deberían migrar de mbox.js a at.js. Para obtener más información, consulte [Migrar a at.js desde mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
-### Ofertas de redireccionamiento
-
-Los siguientes son problemas conocidos de las ofertas de redireccionamiento:
-
-* Una condición de carrera en la página puede provocar que se cuenten las vistas de página en la página original y en la página de redirección. Hay actualizaciones previstas para la implementación de at.js durante el segundo trimestre de 2018, para garantizar que se pueda evitar esta condición de carrera. Para obtener más información sobre el problema y una solución alternativa, consulte [Ofertas de redireccionamiento: preguntas frecuentes sobre A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
-* Las actividades de redirección en las implementaciones de at.js hacen que la dirección URL de vista previa entre en bucle (la oferta se suministra repetidamente). Puede utilizar el [Modo de control de calidad](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) para llevar a cabo la vista previa y el control de calidad. Este problema no afecta al suministro real de la oferta. (TGT-23019)
 
 ### Implementación: Crear mbox global automáticamente
 
