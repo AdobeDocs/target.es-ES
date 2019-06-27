@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -21,6 +21,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+|  | [Problemas conocidos y issuesvariaciones de](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[datos previstas entre Target y Analytics Al utilizar y no utilizar A 4 tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[ofrece preguntas más frecuentes de A 4 T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Se agregó información sobre un problema conocido que está ocasionando que un número limitado de clientes que utilizan redireccionamientos con A 4 T vean un porcentaje más alto de tasas de visitas no vinculadas. |
 | 26 de junio de 2019 | [Opciones de experiencia visual](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
 |  | [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
