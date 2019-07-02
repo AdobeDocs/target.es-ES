@@ -2,8 +2,8 @@
 product: Target
 audience: usuario final
 user-guide-title: Ayuda de Adobe Target
-user-guide-url: /content/help/en/target/using/target-home.html
-translation-type: tm+mt
+user-guide-url: /content/help/es/target/using/target-home.html
+translation-type: ht
 source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
@@ -309,7 +309,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
       + [Cargar contenido](c-experiences/c-manage-content/assets-upload.md)
       + [Crear ofertas de redireccionamiento](c-experiences/c-manage-content/offer-redirect.md)
       + [Crear ofertas remotas](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md).
+      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md)
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Buscar contenido y crear colecciones inteligentes](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transferir datos dinámicos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
@@ -349,7 +349,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
       + [Información general sobre criterios](c-recommendations/c-algorithms/algorithms.md)
       + [Crear criterios](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Crear secuencias de criterios](c-recommendations/c-algorithms/create-criteria-sequence.md)
-      + [Cargar criterios personalizados.](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [Cargar criterios personalizados](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Usar reglas de inclusión dinámicas y estáticas](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Usar una recomendación de copia de seguridad](c-recommendations/c-algorithms/backup-recs.md)
    + Diseño {#recommendations-design}
