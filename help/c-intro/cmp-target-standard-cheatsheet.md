@@ -8,7 +8,7 @@ title: Preguntas más frecuentes sobre la optimización y personalización de Ta
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
 
 ---
 
@@ -81,7 +81,7 @@ Tenga en cuenta que el requisito de tráfico aumenta con las actividades de MVT.
 
 **¿Puedo aplicar ofertas en diferentes ubicaciones (por ejemplo, el embudo de pago)?**
 
-Pruebe la [función Actividad multipágina](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) que permite crear varias páginas dentro de las experiencias.
+Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
 
 **¿Cómo puedo asegurarme de que una vez que se ha alcanzado un objetivo (primario o secundario), un usuario no vuelva a ingresar a la actividad y, en cambio, vea una actividad diferente en el futuro?**
 
@@ -89,9 +89,9 @@ Esto es fácil de lograr mediante el uso de la opción [Configuración avanzada]
 
 Por lo tanto, en este caso, puede elegir “Recuento de incrementos, Liberar usuario y barra de la reentrada” junto con “Contenido predeterminado/de otra actividad” para lograr el objetivo. Compruebe también otras opciones.
 
-**He creado múltiples objetivos en mi actividad. ¿Puedo crear una cadena de objetivos como un embudo para fines de informes y análisis?
+**He creado múltiples objetivos en mi actividad. ¿Puedo crear una cadena de objetivos como un embudo para fines de informes y análisis?**
 
-Por ejemplo, quiero considerar el Objetivo B cuando el usuario ha alcanzado el Objetivo A para poder seguir los números de un embudo en particular.**
+**Por ejemplo, quiero considerar el Objetivo B cuando el usuario ha alcanzado el Objetivo A para poder seguir los números de un embudo en particular.**
 
 Target tiene una forma sólida de lograr esto con nuestra función Dependencia de métricas. Simplemente [agregue dependencias en otras métricas de éxito](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Tiene opciones como “Alcanzado” y “No alcanzado”, junto con la capacidad de combinar métricas de múltiples maneras para crear la combinación que desee.
 
@@ -107,7 +107,7 @@ Esto es posible gracias a la configuración del objetivo primario en el paso 3 d
 
 Utilice la función Programación en el paso [Objetivos y configuración](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) del flujo de trabajo de actividad de tres partes especificando las fechas de inicio y finalización.
 
-Recuerde activar la campaña. Solo las campañas en vivo cumplen con el cronograma especificado. Una vez que se alcanza la fecha de finalización, la actividad entra en el estado Terminado.
+Recuerde activar la actividad. Solo las actividades activas se ajustan a la programación especificada. Una vez que se alcanza la fecha de finalización, la actividad entra en el estado Terminado.
 
 **¿Puedo hacer un cambio solo en el paso de segmentación y no pasar por todo el flujo de trabajo guiado de tres pasos para editar?**
 
@@ -131,24 +131,12 @@ Utilice el poder de [las actividades basadas en formularios](../c-experiences/fo
 
 Use la configuración Prioridad disponible en el paso 3 del flujo de trabajo guiado de tres partes de Target (página Objetivos y configuración) para [definir la prioridad de las actividades](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
-Existen algunas opciones:
-
-* [Biblioteca JavaScript de Target (at.js y mbox.js)](../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340)
-* Predeterminado, con tres niveles (bajo/medio/alto)
-* Personalizado, con un rango de 0 a 999. Para Personalizar, habilite la característica de Prioridades específicas (Configuración &gt; Preferencias).
-
-## Audiencias{#section_FA6314777ABC46D8B198D6F388051460}
-
-**He configurado dos actividades. ¿Cómo sé cuál terminará viendo un visitante?**
-
-**¿Puedo establecer el orden de prioridad de algunas actividades?**
-
-Use la configuración Prioridad disponible en el paso 3 del flujo de trabajo guiado de tres partes de Target (página Objetivos y configuración) para [definir la prioridad de las actividades](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
-
 Existen dos opciones:
 
 * Predeterminado, con tres niveles (bajo/medio/alto)
 * Personalizado, con un rango de 0 a 999. Para Personalizar, habilite la característica de Prioridades específicas (Configuración &gt; Preferencias).
+
+## Audiencias{#section_FA6314777ABC46D8B198D6F388051460}
 
 **¿Puedo crear un segmento de audiencia en una actividad que sea específica para la actividad? No creo que se cree una audiencia así en la Biblioteca de audiencias porque no hay factor de reutilización.**
 
@@ -246,21 +234,6 @@ Haga clic en la miniatura en frente del nombre de la experiencia en el Paso 2 y 
 
 Use el [enfoque basado en formularios](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) para crear actividades.
 
-**¿Puedo comenzar una actividad con menos visitantes?**
-
-Utilice los controles de asignación porcentual disponibles desde el [paso 2 del flujo de trabajo guiado de tres partes de (página de segmentación)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) para decidir cómo desea configurar la actividad.
-
-**He configurado dos actividades. ¿Cómo sé cuál terminará viendo un visitante?**
-
-**¿Puedo establecer el orden de prioridad de algunas actividades?**
-
-Use la configuración Prioridad disponible en el paso 3 del flujo de trabajo guiado de tres partes de Target (página Objetivos y configuración) para [definir la prioridad de las actividades](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
-
-Existen dos opciones:
-
-* Predeterminado, con tres niveles (bajo/medio/alto)
-* Personalizado, con un rango de 0 a 999. Para Personalizar, habilite la característica de Prioridades específicas (Configuración &gt; Preferencias).
-
 **¿Puedo asegurar que la misma experiencia se entregue de manera consistente en todos los dispositivos que un usuario pueda tener?**
 
 Eche un vistazo a nuestro [Dispositivo Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html) que le permite vincular de manera determinista y probabilística múltiples dispositivos de un usuario a través del poder de una cooperativa. 
@@ -283,7 +256,7 @@ Contamos con [Redirigir la función de la URL](../c-experiences/c-manage-content
 
 **¿Por qué no se realiza la entrega de contenido en mi proceso de control de calidad?**
 
-Es posible que su sitio tenga identificadores dinámicos, ID duplicados o clases dinámicas en elementos. Puede que tenga que evaluar las opciones de preferencia del sitio en el nivel de la cuenta (o en el nivel de actividad si el problema es específico de un dominio o una página). Consulte “Selectores de CSS” en los [selectores de CSS](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Es posible que su sitio tenga identificadores dinámicos, ID duplicados o clases dinámicas en elementos. Puede que tenga que evaluar las opciones de preferencia del sitio en el nivel de la cuenta (o en el nivel de actividad si el problema es específico de un dominio o una página). See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **¿Por qué no veo la oferta/experiencia deseada y, en cambio, estoy viendo alguna otra actividad?**
 
@@ -295,7 +268,7 @@ Utilice el poder de [las actividades basadas en formularios](../c-experiences/fo
 
 ## Informes (Incluyendo Analytics for Target—A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-También tengo Adobe Analytics y quiero aprovecharlo con Target. ¿Qué capacidades clave obtengo al integrar las dos soluciones?
+**También tengo Adobe Analytics y quiero aprovecharlo con Target. ¿Qué capacidades clave obtengo al integrar las dos soluciones?**
 
 Eche un vistazo a los siguientes aspectos del producto:
 
@@ -306,33 +279,29 @@ Eche un vistazo a los siguientes aspectos del producto:
 * [Audiencias](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 
-¿Puedo cortar y fragmentar los informes en múltiples segmentos de usuarios?
+**¿Puedo cortar y fragmentar los informes en múltiples segmentos de usuarios?**
 
 Aquí es donde aparece la [función audiencias para informes](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponible en la página objetivos y configuraciones en el paso 3 del flujo de trabajo de actividades guiadas de tres partes.
 
-Tiene la opción de agregar 50 de esos segmentos y también el punto de aplicación (entrada de campaña o una métrica específica) para tener una forma poderosa de cortar y fragmentar.
+Tiene la opción de agregar 50 segmentos de este tipo y también el punto de aplicación (Entrada de actividad o una métrica específica) para tener una manera eficaz de fraccionar y cortar.
 
 Tenga en cuenta que Target recopila los datos a este respecto desde el momento en que agrega estas audiencias, por lo que si olvida agregar segmentos antes de ejecutar la prueba, no tendrá suerte.
 
-No puedo definir audiencias antes de ejecutar la actividad. Considero que este aspecto de informar a las audiencias en las actividades de Target es restrictivo.
+**No puedo definir audiencias antes de ejecutar la actividad. Considero que este aspecto de informar a las audiencias en las actividades de Target es restrictivo.**
 
-¿Qué puedo hacer para facilitar este proceso?
+**¿Qué puedo hacer para facilitar este proceso?**
 
-Aquí es donde [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) es útil. Si tiene Adobe Analytics, simplemente elija una fuente como Analytics, que elimina esta restricción. Ahora puede realizar análisis en cualquier audiencia en cualquier punto y no necesita definir las audiencias de informes por adelantado.
+This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Si tiene Adobe Analytics, simplemente elija una fuente como Analytics, que elimina esta restricción. Ahora puede realizar análisis en cualquier audiencia en cualquier punto y no necesita definir las audiencias de informes por adelantado.
 
-¿Puedo limpiar informes y comenzar a registrar datos en el futuro? Por ejemplo, los hits iniciales registrados se debieron a mis propios resultados de prueba en la actividad.
+**¿Puedo realizar cálculos de informes sin conexión?**
 
-Use el  [la función Restablecer los datos de los informes](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA).
+Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
 
-¿Puedo realizar cálculos de informes sin conexión?
-
-Use el [Exportar informes a CSV y descargar detalles de pedidos a las opciones](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) de CSV en la página Informes para descargar los datos de informes deseados.
-
-¿Puedo cambiar la experiencia de control para evaluar informes o cambiar la metodología de conteo de Visitantes a Visitas?
+**¿Puedo cambiar la experiencia de control para evaluar informes o cambiar la metodología de conteo de Visitantes a Visitas?**
 
 Haga estos cambios usando los  [ajustes en la página de informes](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Lea más sobre estos ajustes para comprender cómo varían los cálculos.
 
-¿Cómo debo interpretar los informes?
+**¿Cómo debo interpretar los informes?**
 
 Hemos intentado hacer informes lo más intuitivos posible con características como  [las barras de intervalo de confianza, los límites de ascenso, la significancia/confianza y múltiples selecciones de métricas, vistas de tablas y gráficos, promedios de carrera y más](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para permitir análisis de informes potentes pero fáciles. Obviamente, puede comprobar Analytics si utiliza [Analytics para actividades de Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para un análisis más amplio de las audiencias.
 
