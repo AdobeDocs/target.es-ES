@@ -1,13 +1,13 @@
 ---
-description: Definición de términos.
+description: Definiciones de los términos utilizados en Adobe Target.
 seo-description: Definición de términos.
-seo-title: Glosario
+seo-title: Glosario de Adobe Target
 solution: Target
 title: Glosario
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -228,7 +228,7 @@ Una actividad de página de aterrizaje permite usar objetivos para mostrar disti
 
 **mbox**
 
-&quot; Cuadro de mercadotecnia &quot;, la ubicación de la página Web donde se muestra el contenido y el comportamiento de los visitantes. Algunos mboxes no muestran nada. Estos pueden realizar el seguimiento del progreso de un visitante a través del sitio web o rastrear si el visitante completa una métrica de éxito específica como, por ejemplo, añadir un artículo al carro de compras o realizar una compra. Uno de estos tipos de mbox es un *mbox de conversión*.
+“mbox de marketing”, es decir, la ubicación de la página web donde se muestra contenido y se registra el comportamiento de los visitantes. Algunos mboxes no muestran nada. Estos pueden realizar el seguimiento del progreso de un visitante a través del sitio web o rastrear si el visitante completa una métrica de éxito específica como, por ejemplo, añadir un artículo al carro de compras o realizar una compra. Uno de estos tipos de mbox es un *mbox de conversión*.
 
 **mbox.js**
 
@@ -309,10 +309,6 @@ Filtro de informe usado para mostrar informes relacionados con un segmento concr
 **aplicación de una sola página**
 
 Una aplicación de una sola página (SPA) es una aplicación Web o un sitio Web que se ajusta a una única página Web para ofrecer una experiencia de usuario más fluida, similar a una aplicación de escritorio.
-
-**parámetro de perfil de destino inteligente**
-
-Es parecido al parámetro de perfil de secuencia, pero está predefinido para ofrecer funcionalidad útil de segmentación.
 
 **métricas de éxito**
 
