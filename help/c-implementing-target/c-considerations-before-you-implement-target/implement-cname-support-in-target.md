@@ -8,14 +8,14 @@ title: CNAME y Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
 
 # CNAME y Adobe Target{#cname-and-adobe-target}
 
-Información sobre cómo trabajar con Adobe Client Care para implementar el soporte de CNAME (nombre canónico) en Adobe Target.
+Información sobre cómo trabajar con Adobe Client Care para implementar el soporte de CNAME (nombre canónico) en Adobe Target. Para gestionar mejor los problemas de bloqueo de publicidad, se utiliza un CNAME para que se realicen llamadas a un dominio propiedad del cliente en lugar de un dominio propiedad de Adobe.
 
 Realice los pasos siguientes para solicitar asistencia de CNAME en Target:
 
