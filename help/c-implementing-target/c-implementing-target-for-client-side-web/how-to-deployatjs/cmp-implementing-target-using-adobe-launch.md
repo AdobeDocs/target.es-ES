@@ -6,7 +6,7 @@ seo-title: Implementar Target utilizando Adobe Launch
 title: Implementar Target utilizando Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -24,8 +24,8 @@ En la siguiente tabla se enumeran distintos recursos donde puede obtener más in
 | Recurso | Detalles |
 |--- |--- |
 | [Implementación de Target con el tutorial de extensión de Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Este tutorial proporciona instrucciones paso a paso para implementar Adobe Target en un sitio web con Launch. Los temas incluyen añadir la biblioteca JavaScript at.js, activar el mbox global, añadir parámetros e integrar con otras soluciones. Este artículo forma parte de un tutorial más amplio que muestra cómo implementar Adobe Launch, así como otras soluciones de Adobe Experience Cloud. |
-| [Documentación de Adobe Launch](https://docs.adobelaunch.com/getting-started) | Información sobre la implementación y administración de todas las etiquetas de análisis, marketing y publicidad necesarias para lograr experiencias de cliente relevantes. |
-| [Documentación de Extension de Adobe Target](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension) | Información sobre la implementación de Target con Launch. |
+| [Documentación de Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Información sobre la implementación y administración de todas las etiquetas de análisis, marketing y publicidad necesarias para lograr experiencias de cliente relevantes. |
+| [Documentación de Extension de Adobe Target](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Información sobre la implementación de Target con Launch. |
 
 ## Ventajas de implementar at.js mediante la extensión Launch de Target {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
