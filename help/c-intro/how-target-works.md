@@ -9,7 +9,7 @@ title: Cómo funciona Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 834eee71f78765887e3e46f3cbab3eaf00b1ee39
 
 ---
 
@@ -20,7 +20,7 @@ Información sobre cómo funciona Adobe Target, incluida la información sobre l
 
 ## Bibliotecas de JavaScript de Target {#libraries}
 
-Adobe Target se integra con los sitios web mediante una de las dos bibliotecas de JavaScript. at.js o mbox.js
+Adobe Target se integra con los sitios web mediante una de las dos bibliotecas de JavaScript: at. js o mbox. js
 
 * **at.js:** la [biblioteca at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a  [la versión más reciente de at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** la biblioteca mbox.js es la biblioteca de implementación heredada para Target. La biblioteca mbox.js se sigue admitiendo, pero sus características ya no se actualizarán.
@@ -29,11 +29,11 @@ Adobe Target se integra con los sitios web mediante una de las dos bibliotecas d
 >
 >Todos los clientes deberían migrar a at.js. Para obtener más información, consulte [Migrar a at.js desde mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-Debe hacer referencia a uno de los archivos de JavaScript de Target en cada página del sitio. Por ejemplo, puede agregarlo en el encabezado global.
+Debe hacer referencia al archivo de biblioteca JavaScript de Target en todas las páginas del sitio. Por ejemplo, puede añadirlo a su encabezado global. Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-Cada vez que un visitante solicita una página que ha sido optimizada para Target, se envía una solicitud al sistema de segmentación para determinar qué contenido se mostrará al visitante. Este proceso se produce en tiempo real: cada vez que se carga una página, el sistema realiza una solicitud del contenido y la completa. El contenido está regido por reglas de actividades y experiencias controladas por especialistas en marketing y se segmenta para cada visitante del sitio. A cada visitante del sitio se le muestra el contenido que ofrece más probabilidades de que el visitante responda, interactúe y, en última instancia, compre los productos: la finalidad es lograr las máximas tasas de respuesta, de adquisición y de ingresos.
+Cada vez que un visitante solicita una página que ha sido optimizada para Target, se envía una solicitud al sistema de segmentación para determinar qué contenido se mostrará al visitante. Este proceso se produce en tiempo real— cada vez que se carga una página, el sistema realiza y completa una solicitud del contenido. El contenido está regido por reglas de actividades y experiencias controladas por especialistas en marketing y se segmenta para cada visitante del sitio. A cada visitante del sitio se le muestra el contenido que ofrece más probabilidades de que el visitante responda, interactúe y, en última instancia, compre los productos: la finalidad es lograr las máximas tasas de respuesta, de adquisición y de ingresos.
 
-En Target, cada elemento de la página forma parte de una única experiencia para la página completa. Cada experiencia incluye varios elementos en la página. Se optimiza la página con una única línea de código en `<head>` de cada página de la que desea realizar un seguimiento.
+En Target, cada elemento de la página forma parte de una única experiencia para la página completa. Cada experiencia puede incluir varios elementos en la página.
 
 El contenido que se muestra a los visitantes depende del tipo de actividad que cree:
 
@@ -48,7 +48,7 @@ Se pueden especificar los objetivos de porcentaje para cada experiencia. En este
 1. Un cliente solicita una página al servidor y esta se muestra en el navegador.
 2. Se establece una cookie de origen en el navegador del cliente para almacenar su comportamiento.
 3. La página realiza una llamada al sistema de segmentación.
-4. El contenido se muestra en función de las reglas establecidas para la campaña.
+4. El contenido se muestra en función de las reglas de su actividad.
 
 ### Asignación automática
 
@@ -60,7 +60,7 @@ Asignación automática identifica un ganador entre dos o más experiencias y re
 
 Para obtener más información, consulte [Segmentación automática](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 
-La segmentación automática utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y lograr conversiones.
+La segmentación automática utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias de alto nivel de rendimiento definidas por expertos en marketing y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, con el fin de personalizar el contenido y dirigir las conversiones.
 
 ### Personalización automatizada (AP)
 
@@ -92,7 +92,7 @@ Las actividades de Recommendations muestran automáticamente productos o conteni
 
 “Edge” es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para usuarios finales que solicitan contenido desde cualquier lugar del mundo.
 
-Para mejorar los tiempos de respuesta, los entornos de Edge solo hospedan lógica de actividad, perfiles en caché e información de ofertas. Las bases de datos de actividades y contenido, los datos de [!DNL Analytics], las API y las interfaces de usuario de los especialistas en marketing se hospedan en los entornos de datos centrales de Adobe. Las actualizaciones se envían a los nodos de Edge. Los entornos centrales y los nodos de Edge se sincronizan automáticamente para actualizar de forma continua los datos de actividades en caché. El modelado 1:1 también se almacena en cada Edge, de modo que las solicitudes más complejas también pueden permanecer en Edge.
+Para mejorar los tiempos de respuesta, los entornos de Edge solo hospedan lógica de actividad, perfil almacenado en caché y información de ofertas. Las bases de datos de actividades y contenido, los datos de [!DNL Analytics], las API y las interfaces de usuario de los especialistas en marketing se hospedan en los entornos de datos centrales de Adobe. Las actualizaciones se envían a los nodos de Edge. Los entornos centrales y los nodos de Edge se sincronizan automáticamente para actualizar continuamente los datos de actividad almacenados en caché. El modelado 1:1 también se almacena en cada Edge, de modo que estas solicitudes más complejas también se pueden procesar en Edge.
 
 Cada nodo de Edge dispone de toda la información necesaria para responder a la solicitud de contenido del usuario y realizar un seguimiento de los datos de análisis de dicha solicitud. Las solicitudes de los usuarios se dirigen al nodo de Edge más próximo.
 
@@ -102,21 +102,19 @@ Las ubicaciones de sitios principales y perimetrales contienen un centro de reco
 
 Adobe posee actualmente centros de datos en varios continentes, incluidas ubicaciones regionales en Norteamérica, Europa y Asia.
 
-En lugar de responder a todas las solicitudes de segmentación desde una sola ubicación, las solicitudes del entorno de Edge más próximo al punto de la solicitud reducen el impacto del tiempo de transferencia a través de la red/Internet.
-
-La red también funciona como un mecanismo a prueba de errores. Si no funciona un nodo de Edge, la solicitud se envía al nodo más cercano para garantizar que el usuario no recibe contenido predeterminado (una respuesta de seguridad típica cuando no se puede completar una solicitud).
+En lugar de responder a todas las solicitudes de segmentación desde una sola ubicación, las solicitudes son procesadas por el entorno Edge más cercano al visitante, mitigando así el impacto del tiempo de transferencia de red o Internet.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] actualmente no tiene una red Edge en China y el rendimiento del usuario final se seguirá limitando para [!DNL Target] los clientes de China. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
+>[!DNL Adobe Target] actualmente no tiene una red Edge en China y el rendimiento del usuario final se seguirá limitando para [!DNL Target] los clientes de China. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
 
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe garantiza que la disponibilidad y el rendimiento de la infraestructura de segmentación sea lo más segura posible. Sin embargo, la interrupción de las comunicaciones entre el navegador del usuario final y los servidores de Adobe puede imposibilitar la entrega de contenido.
 
-Para evitar interrupciones del servicio y problemas de conectividad, todas las ubicaciones están configuradas para incluir contenido predeterminado (definido por el cliente), que se muestra si el navegador del usuario no se puede conectar a [!DNL Target].
+To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
 
-No se realiza ningún cambio en la página si el navegador del usuario no se puede conectar en un plazo de tiempo de espera definido (de manera predeterminada, 15 segundos). Si se supera este umbral de tiempo de espera, se modificará un parámetro en la cookie para que el usuario vea el contenido predeterminado para todas las ubicaciones inmediatamente. Este estado dura media hora; transcurrido ese tiempo, el navegador del usuario volverá a intentar conectarse a los servidores de Adobe para las solicitudes de contenido.
+No se realizan cambios en la página si el explorador del usuario no puede conectarse dentro de un período de tiempo de espera definido (de forma predeterminada: 15 segundos). Si se alcanza este umbral de tiempo de espera, se muestra el contenido de ubicación predeterminado.
 
 Adobe protege la experiencia del usuario al optimizar y garantizar el rendimiento.
 
@@ -160,7 +158,7 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
    Tampoco hay que olvidar la accesibilidad de la página que se está probando. Si la página no es accesible para los motores de búsqueda y no se diseñó para aparecer en primer lugar en la búsqueda orgánica, como una página de aterrizaje para una campaña de correo electrónico, no se aplica ninguna de las consideraciones anteriores.
 
-Desde Google afirman que estas directrices “harán que las pruebas tengan un impacto mínimo o nulo en los resultados de búsqueda del sitio”.
+Google establece que, siguiendo estas instrucciones, las pruebas tienen un impacto pequeño o nulo en el sitio en los resultados de búsqueda.»
 
 Además de estas directrices, Google también proporciona otra pauta en la documentación de la herramienta Experimentos con contenido:
 
