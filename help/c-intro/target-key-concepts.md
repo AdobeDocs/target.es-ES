@@ -9,7 +9,7 @@ title: Conceptos clave de Target
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -98,11 +98,11 @@ Por ejemplo, puede segmentar una actividad para una audiencia formada por visita
 
 O puede segmentar la actividad para los visitantes que procedan de una zona geográfica concreta o para los usuarios que accedan a la página desde un determinado motor de búsqueda.
 
-Las audiencias se pueden guardar para reutilizarlas en varias actividades o pueden crearse para una campaña específica.
+Las audiencias se pueden guardar para reutilizarlas en varias actividades, o bien pueden crearse para una actividad específica.
 
 | Tipo de audiencia | Descripción |
 |--- |--- |
-| Audiencias reutilizables | Pueden seleccionarse audiencias reutilizables para cualquier prueba. Si cambia una de estas audiencias, se cambia para todas las actividades que la usen. |
+| Audiencias reutilizables | Se pueden seleccionar audiencias reutilizables para cualquier actividad. Si cambia una de estas audiencias, se cambia para todas las actividades que la usen. |
 | Segmentos personalizados | Los segmentos personalizados (también conocidos como segmentos específicos de campaña) son lo que se utilizan en una campaña de Target Classic. Se crean como parte de la campaña y no se pueden reutilizar en otras campañas. |
 | Audiencias compartidas | Las audiencias se pueden compartir entre las distintas soluciones de [!DNL Adobe Experience Cloud]. Para ver algunos ejemplos, consulte [Audiencias de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html). |
 
