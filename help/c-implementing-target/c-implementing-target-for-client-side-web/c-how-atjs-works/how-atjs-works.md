@@ -8,7 +8,7 @@ title: Cómo funciona at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -45,7 +45,7 @@ Los siguientes diagramas le ayudan a comprender el flujo de trabajo de at.js 2.x
 | Paso | Detalles |
 | --- | --- |
 | 1 | La llamada devuelve el [!DNL Experience Cloud ID] si el usuario se autentica, y otra llamada sincroniza el ID del cliente. |
-| 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.at.js <br> también se puede cargar de manera asíncrona con una opción de fragmento de ocultamiento previo implementado en la página. |
+| 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>at. js también se puede cargar asincrónicamente con un fragmento de ocultamiento predeterminado implementado en la página. |
 | 3 | Se solicita una carga de página que incluye todos los parámetros configurados (MCID, SDID y el ID del cliente). |
 | 4 | Se ejecutan los scripts de perfiles y se incluyen en el Almacenamiento de perfiles. El Almacenamiento solicita audiencias de la Biblioteca de audiencias que cumplan los requisitos (por ejemplo, audiencias compartidas de Adobe Analytics, Gestión de público, etc.).<br>Se envían los atributos del cliente al Almacenamiento de perfiles en un procesamiento de lotes. |
 | 5 | Según los parámetros de la solicitud de la URL y los datos de perfil, [!DNL Target] decide qué actividades y experiencias vuelven al visitante para la página actual y las vistas futuras. |
