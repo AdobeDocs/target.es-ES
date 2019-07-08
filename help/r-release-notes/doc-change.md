@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -21,7 +21,8 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-|  | [Problemas conocidos y issuesvariaciones de](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[datos previstas entre Target y Analytics Al utilizar y no utilizar A 4 tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[ofrece preguntas más frecuentes de A 4 T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Se agregó información sobre un problema conocido que está ocasionando que un número limitado de clientes que utilizan redireccionamientos con A 4 T vean un porcentaje más alto de tasas de visitas no vinculadas. |
+| 8 de julio de 2019 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Se agregó información que explica por qué debe utilizar CNAME. |
+| 28 de junio de 2019 | [Problemas conocidos y issuesvariaciones de](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[datos previstas entre Target y Analytics Al utilizar y no utilizar A 4 tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[ofrece preguntas más frecuentes de A 4 T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Se agregó información sobre un problema conocido que está ocasionando que un número limitado de clientes que utilizan redireccionamientos con A 4 T vean un porcentaje más alto de tasas de visitas no vinculadas. |
 | 26 de junio de 2019 | [Opciones de experiencia visual](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
 |  | [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
@@ -83,7 +84,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 |  | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Se ha añadido una nueva sección de solución de problemas sobre que at. js no activa mboxes si utiliza un doctype no válido. |
 | 24 de mayo de 2019 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre at.js 2.1.0. |
 | 23 de mayo de 2019 | [Gestión de exclusiones](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Se agregó información y vínculos para limitar qué audiencias pueden ver ofertas específicas en actividades AP usando reglas de objetivo. |
-|  | [Servidor: implementación de Target ](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Se ha actualizado el texto de la introducción. |
+|  | [Servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Se ha actualizado el texto de la introducción. |
 |  | [Experiencias y ofertas](/help/c-experiences/experiences.md) | Se ha actualizado el texto de la introducción. |
 |  | [Audiencias](/help/c-target/target.md) | Se ha actualizado el texto de la introducción. |
 |  | [Métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md) | Se ha actualizado el texto de la introducción. |
