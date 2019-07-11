@@ -8,7 +8,7 @@ title: Notas de la versión de Target (versión previa)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 En estas notas de la versión se proporciona información acerca de las funciones, las mejoras, las correcciones y los problemas conocidos de las últimas o de las próximas versiones de [!DNL Adobe Target].
 
-**Última actualización: 9 de julio de 2019**
+**Última actualización: 10 de julio de 2019**
 
 >[!NOTE]
 >
