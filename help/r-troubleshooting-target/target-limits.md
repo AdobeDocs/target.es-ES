@@ -8,7 +8,7 @@ title: Límites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8038b4758e9ce72ff8e43e7427c273aeed734288
 
 ---
 
@@ -17,9 +17,19 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Información sobre los límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
 
-A continuación se indican los límites recomendados. Al aproximarse o superar estos límites, pueden producirse problemas de rendimiento. Si la interfaz tarda tiempo en cargarse también puede ser debido a una actividad muy compleja, como por ejemplo muchas audiencias, objetivos y experiencias en la misma actividad.
+>[!NOTE]
+>
+>Los límites enumerados a continuación deben considerarse límites &quot;duros&quot; a menos que se especifique como &quot;recomendado&quot;.
+>
+>Cuando se aproximan o se exceden los límites designados como &quot;recomendados&quot;, el rendimiento puede ralentizarse. Si la interfaz tarda tiempo en cargarse también puede ser debido a una actividad muy compleja, como por ejemplo muchas audiencias, objetivos y experiencias en la misma actividad.
+>
+>Las actividades muy complejas deben ser revisadas por los asesores de Adobe y probadas en un entorno limitado antes de su lanzamiento en producción.
 
-Las actividades muy complejas deben ser revisadas por los asesores de Adobe y probadas en un entorno limitado antes de su lanzamiento en producción.
+## Actividades
+
+**Límite recomendado**: 10 000 actividades activas activas.
+
+**Límite recomendado**: 10 000 acciones guardadas (y no finalizadas).
 
 ## Nombres de actividades
 
@@ -30,6 +40,10 @@ Las actividades muy complejas deben ser revisadas por los asesores de Adobe y pr
 **Límite**: 256 caracteres.
 
 Los valores más largos de 256 caracteres se truncan.
+
+## Audiencias
+
+**Límite**: 50 audiencias por mbox, métrica o experiencia.
 
 ## Parámetro categoryId
 
@@ -50,7 +64,7 @@ Los valores más largos de 256 caracteres se truncan.
 * 15 000 caracteres (un solo valor, idiomas de uno y dos bytes)
 * 500 valores, 100 caracteres por valor (varios valores)
 
-La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15 000 caracteres (para idiomas con codificación UTF-8 de uno y dos bytes, como inglés y otros alfabetos latinos) o 10 000 caracteres (para lenguajes con codificación UTF-8 de tres bytes, como chino, japonés y coreano).
+La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15.000 caracteres (para los lenguajes con codificación UTF -8 de byte único, como inglés y otros alfabetos latinos, como inglés y otros alfabetos latinos) o 10.000 caracteres (para idiomas con codificación UTF -8 de byte múltiple como chino, japonés y coreano).
 
 Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos de entidad personalizados de un solo valor (véase arriba).
 
@@ -67,6 +81,12 @@ Para las solicitudes GET, aunque el límite del back-end es 5 kB, debido al hech
 ## Nombres de experiencias
 
 **Límite**: 20 caracteres.
+
+## Experiencias por actividad
+
+**Límite**: 2.000 experiencias por segmentación de experiencias (XT), Prueba A/B, Prueba multivariable (MVT) y actividad de segmentación automática.
+
+30 000 experiencias por actividad de Personalización automatizada (AP).
 
 ## Valor de atributo de perfil In-mbox
 
@@ -127,17 +147,17 @@ Si usa un mbox global, el límite es para todo el conjunto de contenidos devuelt
 
 El contenido de la experiencia es demasiado grande para su entrega. Modifique la experiencia para afectar a menos código de página.
 
+## Ofertas
+
+**Límite recomendado**: 50 000 ofertas totales.
+
 ## Parámetro orderId
 
-**Límite**: 120 caracteres.
-
-Límite recomendado.
+**Límite recomendado**: 120 caracteres.
 
 ## Parámetro orderTotal
 
-**Límite**: 120 caracteres.
-
-Límite recomendado.
+**Límite recomendado**: 120 caracteres.
 
 ## Parámetro productPurchasedId
 
@@ -145,17 +165,31 @@ Límite recomendado.
 
 El sistema truncará lo que supere este límite.
 
+## Scripts de perfil
+
+**Límite recomendado**: 300 scripts de perfil activos.
+
+**Límite recomendado**: 500 000 número máximo de bucles por script de perfil.
+
+## Propiedades
+
+**Límite recomendado**: 5000 propiedades.
+
+## Audiencias o segmentos de informes
+
+**Límite**: 50 audiencias/segmentos por actividad.
+
 ## Cuenta/Audiencias reutilizables
 
-**Límite**: 75 audiencias.
+**Límite recomendado**: 75 audiencias.
 
-Límite recomendado. Se producen errores de tiempo de espera de JavaScript en la interfaz si tiene demasiados.
+Se producen errores de tiempo de espera de JavaScript en la interfaz si tiene demasiados.
 
 ## Cuadro de entrada de perfil de script en la interfaz de usuario de Target
 
-**Límite**: 2000 caracteres.
+**Límite recomendado**: 2.000 caracteres.
 
-Límite recomendado. Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado larga, producirá un error antes de llegar a Adobe Target.
+Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado larga, producirá un error antes de llegar a Adobe Target.
 
 ## Nombres de perfiles de secuencia
 
@@ -171,8 +205,20 @@ Para un valor de retorno de cadena, si el tamaño del valor devuelto supera los 
 
 Para un valor de devolución de matriz, si el tamaño de los valores concatenados de la matriz supera los 2048 caracteres, el sistema desactiva la secuencia de comandos.
 
+## Métricas de éxito
+
+**Límite**: 200 por actividad.
+
 ## Condiciones de segmentación
 
-**Límite**: 1000 valores.
+**Límite recomendado**: 1000 valores.
 
-Límite recomendado. Esto hace referencia al número de valores separados por líneas en el área de texto de determinación de objetivos. Por ejemplo, si se escriben 1000 códigos postales en un solo objetivo de código postal.
+Esto hace referencia al número de valores separados por líneas en el área de texto de determinación de objetivos. Por ejemplo, si se escriben 1000 códigos postales en un solo objetivo de código postal.
+
+## Reglas de objetivo
+
+**Límite recomendado**: 2.500 valores únicos por regla de objetivo.
+
+**Límite recomendado**: 30 000 valores únicos por audiencia en reglas de segmentación.
+
+**Límite recomendado**: 100 000 valores únicos de reglas de segmentación por actividad.
