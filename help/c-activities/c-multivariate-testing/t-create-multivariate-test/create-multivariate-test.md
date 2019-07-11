@@ -1,13 +1,13 @@
 ---
-description: El Compositor de experiencias visuales de Target le permite crear su prueba directamente en una página compatible con Target y modificar las partes de la página desde Target, todo ello de una manera sencilla.
+description: El Compositor de experiencias visuales de Target facilita la creación de una prueba multivariable (MVT) en una página con Target habilitado y para modificar partes de la página en Target.
 keywords: mvt; prueba multivariable; crear prueba multivariable; creación de prueba multivariable; crear mvt; creación de mvt, procedimiento de mvt; procedimiento de prueba multivariable
-seo-description: El Compositor de experiencias visuales de Target le permite crear su prueba directamente en una página compatible con Target y modificar las partes de la página desde Target, todo ello de una manera sencilla.
+seo-description: El Compositor de experiencias visuales (VEC) de Adobe Target facilita la creación de una prueba multivariable (MVT) en una página con Target habilitado y para modificar partes de la página en Target.
 seo-title: Crear una prueba multivariable
 solution: Target
 title: Crear una prueba multivariable
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 ---
 
@@ -32,13 +32,9 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. Es decir, la
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   ![Cuadro de diálogo Crear actividad de segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
-
-   Si prefiere usar el Compositor de experiencias basadas en formularios, seleccione [!UICONTROL Formulario]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   ![Cuadro de diálogo Crear actividad de prueba multivariada](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
 
    >[!NOTE]
-   >
-   >Además del Compositor de experiencias visuales y el Compositor de experiencias basadas en formularios, Target ofrece el VEC de aplicación de una sola página y el VEC para aplicaciones móviles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
