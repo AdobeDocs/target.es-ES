@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 
 ---
 
@@ -21,6 +21,8 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 10 de julio de 2019 | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha añadido información limitada para los siguientes elementos:<ul><li>Número de expertos por actividad.</li><li>Número de métricas de éxito por actividad.</li><li>Número de audiencias/segmentos de informes por actividad.</li><li>Número de audiencias por mbox, métrica y experiencia.</li><li>Número de valores únicos por regla de objetivo.</li><li>Número de audiencias únicas por regla de objetivo.</li><li>Número de reglas de segmentación únicas por actividad.</li><li>Número de scripts de perfil activos.</li><li>Número de scripts de perfil totales.</li><li>Número total de bucles por script de perfil.</li><li>Número de actividades activas.</li><li>Número de actividades guardadas (y no finalizadas) activas.</li><li>Número de propiedades.</li><li>Número de ofertas.</li></ul> |
+|  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la próxima versión de Target 19.7.1 (23 de julio de 2019).<br>Tenga en cuenta que esta información está sujeta a cambios. |
 | 8 de julio de 2019 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Se agregó información que explica por qué debe utilizar CNAME. |
 | 28 de junio de 2019 | [Problemas conocidos y issuesvariaciones de](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[datos previstas entre Target y Analytics Al utilizar y no utilizar A 4 tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[ofrece preguntas más frecuentes de A 4 T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Se agregó información sobre un problema conocido que está ocasionando que un número limitado de clientes que utilizan redireccionamientos con A 4 T vean un porcentaje más alto de tasas de visitas no vinculadas. |
 | 26 de junio de 2019 | [Opciones de experiencia visual](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
