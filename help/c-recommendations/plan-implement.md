@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -44,7 +44,7 @@ Existen dos métodos para proporcionar información sobre productos y servicios 
 | Método | Descripción |
 |--- |--- |
 | Pasar parámetros directamente a la página | Este método funciona bien para artículos que cambian con frecuencia. Sin embargo, como este método requiere que los cambios se realicen directamente en la página, en muchas organizaciones es necesario recurrir al departamento de TI y al personal que implementa las páginas. |
-| Pasar parámetros a través de una fuente de Google o de CSV | Este método funciona bien para las colecciones que no cambian con frecuencia. Normalmente no es necesario cambiar la implementación de mbox o el código de otra página para proporcionar información de producto a través de una fuente. Sin embargo, la lista de productos permanece estática, así que los cambios rápidos con más difíciles. Para obtener más información, consulte [Fuentes](/help/c-recommendations/c-products/feeds.md). |
+| Pasar parámetros a través de una fuente de Google o de CSV | Este método funciona bien para las colecciones que no cambian con frecuencia. Normalmente no es necesario cambiar la implementación de o el código de otra página para proporcionar información de producto a través de una fuente. Sin embargo, la lista de productos permanece estática, así que los cambios rápidos con más difíciles. Para obtener más información, consulte [Fuentes](/help/c-recommendations/c-products/feeds.md). |
 
 Estos métodos se pueden usar juntos o separados, como en los ejemplos siguientes.
 
