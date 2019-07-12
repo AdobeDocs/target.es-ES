@@ -76,7 +76,7 @@ Tenga en cuenta los detalles siguientes sobre la lista de Actividades:
 
 * Las actividades archivadas y finalizadas no se incluyen en la lista [!UICONTROL Actividades]. Para verlas, fíltrelas con la configuración avanzada de filtrado del carril izquierdo.
 * En cuanto una actividad creada originalmente en [!DNL Target Classic] se desactiva o elimina, se elimina de [!DNL Target Standard/Premium]. Las actividades eliminadas creadas originalmente en [!DNL Target Classic] no se envían a la carpeta [!UICONTROL Archivo] de [!DNL Target Standard/Premium]. La funcionalidad de carpeta archivada se aplica solo a las actividades creadas en [!DNL Target Standard/Premium].
-* Todos los tipos de actividades que no son [!UICONTROL Personalización automatizada](AP), [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] le dan la opción de usar [!DNL Target] o [!DNL Adobe Analytics] como fuente de datos. [!UICONTROL La personalización automatizada], [!UICONTROL la asignación automática] y [!UICONTROL la segmentación automática] *siempre* utilizan datos de [!DNL Target].
+* Todos los tipos de actividades que no son [!UICONTROL Personalización automatizada] (AP), [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] le dan la opción de usar [!DNL Target] o [!DNL Adobe Analytics] como fuente de datos. [!UICONTROL La personalización automatizada], [!UICONTROL la asignación automática] y [!UICONTROL la segmentación automática] *siempre* utilizan datos de [!DNL Target].
 * Las actividades están disponibles en varios canales:
 
    * Sitios web y móviles
