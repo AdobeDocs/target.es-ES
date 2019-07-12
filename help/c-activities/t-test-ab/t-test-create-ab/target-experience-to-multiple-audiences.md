@@ -8,12 +8,12 @@ title: Varias versiones de una experiencia en una prueba A/B
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 ---
 
 
-# Varias versiones de una experiencia en una prueba A/B{#multiple-experience-versions-in-an-a-b-test}
+# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
 
 Puede dirigir versiones de la misma experiencia a distintas audiencias en actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
 
