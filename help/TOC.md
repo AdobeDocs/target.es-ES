@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/es/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
+source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
       + Permisos de usuario de Enterprise {#enterprise}
          + [Permisos de usuario de Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuración de permisos de Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
-   + [Configuración de Scene7](administrating-target/scene7-settings.md)
+   + [Integración de Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Tokens de respuesta](administrating-target/response-tokens.md)
 + Implementación de Target {#implement-target}
