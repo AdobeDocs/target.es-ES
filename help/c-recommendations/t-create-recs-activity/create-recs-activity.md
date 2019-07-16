@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1e0118d18d49235c7d5c437148db09273c218659
+source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
 ---
 
@@ -82,11 +82,11 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
    Si selecciona varios criterios, el tráfico se distribuye uniformemente entre los criterios seleccionados. Por ejemplo, si ha seleccionado dos criterios y la actividad está diseñada para mostrar contenido predeterminado al 20 % de participantes de la actividad, el 40 % de los participantes de la actividad verá las recomendaciones controladas por cada criterio. No hay posibilidad de cambiar los porcentajes para cada criterio.
 
    * To search for an existing criteria (for example, if a large number of criteria cards are displayed), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Next]**.
-   Algunos criterios se proporcionan con [!DNL Recommendations]. También puede crear sus propios criterios personalizados.
+
+      Algunos criterios se proporcionan con [!DNL Recommendations]. También puede crear sus propios criterios personalizados.
 
    * To create a new criteria, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Para obtener información sobre la creación de criterios nuevos, consulte [Creación de criterios](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)
    * También puede agrupar criterios en secuencias. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria Sequence]**. Consulte [Creación de secuencias de criterios](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) para obtener más información.
-
 
 1. Haga clic en **[!UICONTROL Siguiente]**.
 1. Select a [design](/help/c-recommendations/c-design-overview/design-overview.md).
