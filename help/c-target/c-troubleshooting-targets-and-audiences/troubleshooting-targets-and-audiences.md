@@ -37,7 +37,7 @@ Por ejemplo, en la siguiente ilustración, un usuario de California que utiliza 
 
 ## ¿Por qué los nombres de las mismas audiencias en Target, Adobe Audience Manager (AAM) y la Biblioteca de audiencias en los servicios principales son diferentes?{#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Los nombres de las audiencias en [!DNL Target] son únicos; sin embargo, en [!DNL AAM] y en la [!DNL Audience Library], varias audiencias pueden tener el mismo nombre (si están en carpetas diferentes). Cuando [!DNL Target] encuentra un nombre de audiencia que coincide con el de una audiencia [!DNL AAM] o [!DNL Audience Library], [!DNL Target] añade &quot;#&lt;number&gt;&quot; al nombre.
+Los nombres de las audiencias en [!DNL Target] son únicos; sin embargo, en [!DNL AAM] y en la [!DNL Audience Library], varias audiencias pueden tener el mismo nombre (si están en carpetas diferentes). Cuando [!DNL Target] encuentra un nombre de audiencia que coincide con el de una audiencia [!DNL AAM] o [!DNL Audience Library], [!DNL Target] añade "#&lt;number&gt;" al nombre.
 
 Por ejemplo, es posible que vea las siguientes audiencias: “Usuarios en PC” (en [!DNL AAM]) y “Usuarios en PC #1” (en [!DNL Target]).
 
