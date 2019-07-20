@@ -33,7 +33,7 @@ Target ofrece en su interfaz varios puntos donde se pueden editar las actividade
 
    ![Botón Dividido](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]** para avanzar al paso deseado. Por ejemplo, en la ilustración anterior, hacer clic en [!UICONTROL Siguiente] muestra el paso Segmentación.[!UICONTROL ]
+   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]** para avanzar al paso deseado. Por ejemplo, en la ilustración anterior, hacer clic en [!UICONTROL Siguiente] muestra el paso Segmentación.
    * **Guardar y cerrar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar y cerrar]** para guardar los cambios y mostrar la página [!UICONTROL Información general] de la actividad.
    * **Guardar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
 
