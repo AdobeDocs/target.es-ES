@@ -375,7 +375,7 @@ Si desea utilizar actividades A/B de Segmentación automática puede mover todas
 
 [!UICONTROL La configuración de Entrega] de página permite configurar reglas para determinar cuándo una actividad de Target debe calificarse y ejecutarse para una audiencia.
 
-To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
 
 ![Cuadro de diálogo Opciones de envío de página](/help/c-experiences/assets/page-delivery.png)
 
