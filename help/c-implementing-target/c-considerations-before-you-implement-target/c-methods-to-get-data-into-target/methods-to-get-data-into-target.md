@@ -56,7 +56,7 @@ Los datos se envían a Target en tiempo real y se pueden utilizar en la misma ll
 
    Además de los mencionados en el sitio IETF, Target permite los siguientes caracteres en cadenas de consulta:
 
-   `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
+   `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
    Todo lo demás debe tener codificación URL. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
@@ -151,7 +151,7 @@ Los usuarios escriben pequeños fragmentos de código que se ejecutan mediante u
 
 ### Formato
 
-Los atributos de perfil en script se crean en la sección Audiencias de Target. Cualquier nombre de atributo es válido y el valor es el resultado de una función JavaScript escrita por el usuario de Target. Al nombre de atributo se le añade automáticamente el prefijo “user. &quot; en Target para distinguirlo de los atributos del perfil en página.
+Los atributos de perfil en script se crean en la sección Audiencias de Target. Cualquier nombre de atributo es válido y el valor es el resultado de una función JavaScript escrita por el usuario de Target. Al nombre de atributo se le añade automáticamente el prefijo “user. " en Target para distinguirlo de los atributos del perfil en página.
 
 El fragmento de código se escribe en lenguaje Rhino JS y puede hacer referencia a tokens y a otros valores.
 
