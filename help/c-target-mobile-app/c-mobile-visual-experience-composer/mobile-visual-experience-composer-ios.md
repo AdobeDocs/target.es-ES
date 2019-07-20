@@ -21,11 +21,11 @@ Para obtener más información sobre la activación de la extensión VEC de Adob
 
 ## Incluir el SDK móvil y la biblioteca de Target {#sdk-library}
 
-1. Agregue la biblioteca a su proyecto a través de sus Cocoapods [!DNL Podfile] agregando el pod &#39;`ACPTargetVEC`&#39;.
+1. Agregue la biblioteca a su proyecto a través de sus Cocoapods [!DNL Podfile] agregando el pod '`ACPTargetVEC`'.
 
 1. Abra el proyecto Objective-C de la aplicación en XCode.
 
-1. Vaya a la configuración de creación del proyecto y en &quot;Incorporar siempre bibliotecas estándar de Swift&quot; establezca Sí, si aún no lo está.
+1. Vaya a la configuración de creación del proyecto y en "Incorporar siempre bibliotecas estándar de Swift" establezca Sí, si aún no lo está.
 
 1. En la configuración de creación del proyecto, busque “Otros indicadores de enlace” y añada `$(inherited)` si no aparece ahí.
 
@@ -173,7 +173,7 @@ ACPTargetVEC.setGlobalRequest(targetParams)
 
 **Pasar parámetros para el activador de vista siguiente:**
 
-Hemos proporcionado algunas vistas automáticas que se crean de forma predeterminada, como &quot;`AUTO_<viewControllerName>`&quot; para todos los controladores de su aplicación. Si desea pasar estos parámetros, puede llamar a la API siguiente:
+Hemos proporcionado algunas vistas automáticas que se crean de forma predeterminada, como "`AUTO_<viewControllerName>`" para todos los controladores de su aplicación. Si desea pasar estos parámetros, puede llamar a la API siguiente:
 
 ```
 //For Objective-c 
