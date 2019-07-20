@@ -485,7 +485,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
 
 En esta versión de [!DNL Target] se incluyen las siguientes mejoras, correcciones y cambios:
 
-* La fila Copia de seguridad de la descarga de CSV de Recomendaciones ahora comienza con &quot;*&quot; (un asterisco entre comillas dobles), no con * (un solo asterisco).
+* La fila Copia de seguridad de la descarga de CSV de Recomendaciones ahora comienza con "*" (un asterisco entre comillas dobles), no con * (un solo asterisco).
 * La fila Más vendidos/Más visitados de la descarga de CSV de Recommendations ya no comienza con una coma.
 
 ### Cambios en la plataforma de Target (19 de junio de 2018)  {#section_0638BD69F3C640479A2A258AD78C0884}
