@@ -19,4 +19,4 @@ Todas las contribuciones de terceros a este proyecto deben estar acompañadas po
 
 ## Revisiones de código
 
-Todos los envíos deben ser solicitudes de extracción y deben ser revisados por los supervisores del proyecto. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+Todos los envíos deben ser solicitudes de extracción y deben ser revisados por los supervisores del proyecto. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
