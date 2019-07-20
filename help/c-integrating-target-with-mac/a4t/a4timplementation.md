@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. Cuando se configura, el formato de la carga útil que se devuelve es el siguiente:
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. Cuando se configura, el formato de la carga útil que se devuelve es el siguiente:
 
 ```
 "analytics": {
@@ -100,7 +100,7 @@ This set up has a global effect, which means that every call made by at.js will 
 
 The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. La carga útil de Analytics solo se devolverá para esta llamada y el back-backend de Target no reenviará la carga útil a Analytics. Al llevar a cabo este enfoque, cada solicitud de at. js de Target no devolverá la carga útil de forma predeterminada, sino solo si se desea y se especifica.
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. La carga útil de Analytics solo se devolverá para esta llamada y el back-backend de Target no reenviará la carga útil a Analytics. Al llevar a cabo este enfoque, cada solicitud de at. js de Target no devolverá la carga útil de forma predeterminada, sino solo si se desea y se especifica.
 
 Por ejemplo:
 
