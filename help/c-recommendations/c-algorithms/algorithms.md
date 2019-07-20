@@ -59,7 +59,7 @@ La clave de recomendación que seleccione determina el tipo de criterio. Existen
 | Más visitados | Los artículos o medios que se visitan con mayor frecuencia. |
 | Elementos/Medios vistos recientemente | Artículos que el visitante ha visto recientemente. Cuando utilice este criterio, deberá actualizar el diseño de Target para controlar los casos en los que se mostrarían recomendaciones en blanco cuando no hubiera suficientes artículos vistos previamente para mostrar. |
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Si está ejecutando una recomendación y cambia su criterio, perderá los datos de informes.
 
