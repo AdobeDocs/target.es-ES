@@ -97,7 +97,7 @@ En el siguiente ejemplo se muestra cómo se pueden devolver respuestas JSON al c
 
 Cuando se haya ejecutado el algoritmo y tenga los resultados, su respuesta tendría que parecerse a esta:
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![](assets/json_recommendation.png){width="575px"}
 
 ## Trucos y consejos adicionales sobre objetos JSON {#section_C305673C68944749969DB239E3221DC2}
 
