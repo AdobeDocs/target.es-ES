@@ -50,7 +50,7 @@ Devuelve parámetros adicionales para pasarlos a cada llamada de mbox.
 
 Por ejemplo:
 
-return &quot;test=123&quot;;
+return "test=123";
 
 ## Cuerpo de función mboxSupported()
 
@@ -58,7 +58,7 @@ Devuelve “falso” para excluir a usuarios concretos.
 
 Por ejemplo:
 
-return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
+return !navigator.userAgent.indexOf('Safari') != -1;
 
 Los siguientes navegadores se pueden aceptar o excluir:
 
