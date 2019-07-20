@@ -233,7 +233,7 @@ Se puede acceder a los selectores que faltan mediante el modo Examinar. Recomend
 
 ![](assets/code_editor_2.png)
 
-* **Cuando elimino un elemento, veo una advertencia que dice “Eliminar esta acción puede afectar a las acciones siguientes”. ¿Qué significa esto?** *
+***Cuando elimino un elemento, veo una advertencia que dice “Eliminar esta acción puede afectar a las acciones siguientes”. ¿Qué significa esto?***
 
 Por ejemplo, si ha realizado dos acciones:
 
