@@ -35,15 +35,15 @@ Los siguientes son problemas conocidos de las ofertas de redireccionamiento:
 
 ### No se puede procesar el informe de gráfico de una actividad de segmentación automática al utilizar una experiencia personalizada como control
 
-El informe gráfico de una actividad de segmentación automática no se puede procesar para modos &quot;diferenciales&quot; (Alza media y Alza diaria) si no hay datos (0 visitas) en ninguna experiencia. Esta situación puede suceder durante la etapa inicial de una actividad si la experiencia de control está definida como personalizada. Para los demás modos (Control promedio corriente y Segmentación, Control diario y Segmentación, y Visitas) funciona correctamente. Tan pronto como hay algunos datos (visitas que no sean cero), el informe se procesa según lo esperado.
+El informe gráfico de una actividad de segmentación automática no se puede procesar para modos "diferenciales" (Alza media y Alza diaria) si no hay datos (0 visitas) en ninguna experiencia. Esta situación puede suceder durante la etapa inicial de una actividad si la experiencia de control está definida como personalizada. Para los demás modos (Control promedio corriente y Segmentación, Control diario y Segmentación, y Visitas) funciona correctamente. Tan pronto como hay algunos datos (visitas que no sean cero), el informe se procesa según lo esperado.
 
 ### Cancelación de la carga de una página dentro del VEC {#cancel}
 
 * El siguiente problema conocido aparece al cancelar la carga de una [!UICONTROL prueba A/B] o de [!UICONTROL segmentación de experiencias] (XT) dentro del VEC que contiene una dirección URL de redireccionamiento.
 
-   En el primer paso del flujo de trabajo guiado en tres partes dentro del VEC, al cancelar la carga de la página, se muestra el panel [!UICONTROL Modificaciones] del VEC y se aplica la redirección a la plantilla URL en la experiencia (por ejemplo, &quot;Experiencia B&quot;). Cuando avanza hacia los pasos dos o tres y, después, regresa al paso uno, se produce la siguiente situación.
+   En el primer paso del flujo de trabajo guiado en tres partes dentro del VEC, al cancelar la carga de la página, se muestra el panel [!UICONTROL Modificaciones] del VEC y se aplica la redirección a la plantilla URL en la experiencia (por ejemplo, "Experiencia B"). Cuando avanza hacia los pasos dos o tres y, después, regresa al paso uno, se produce la siguiente situación.
 
-   De forma predeterminada, en la &quot;Experiencia B&quot;, se representa la plantilla de carga del sitio web cancelado y el panel [!UICONTROL Modificaciones] es accesible, lo cual no debería ser el caso porque esta experiencia tiene una redirección a la plantilla URL aplicada. Debería aparecer el redireccionamiento a la plantilla URL.
+   De forma predeterminada, en la "Experiencia B", se representa la plantilla de carga del sitio web cancelado y el panel [!UICONTROL Modificaciones] es accesible, lo cual no debería ser el caso porque esta experiencia tiene una redirección a la plantilla URL aplicada. Debería aparecer el redireccionamiento a la plantilla URL.
 
    Para mostrar el estado correcto de la experiencia en el VEC:
 
