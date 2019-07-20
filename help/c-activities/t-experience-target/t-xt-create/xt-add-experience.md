@@ -23,7 +23,7 @@ El Compositor de experiencias visuales (VEC) proporciona una interfaz visual par
 
    ![Audiencia de todos los visitantes](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
    Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Cualquier elemento resaltado puede modificarse con el VEC. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
