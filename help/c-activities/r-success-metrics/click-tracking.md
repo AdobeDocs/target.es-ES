@@ -59,7 +59,7 @@ Si ya conoce la ruta DOM al selector, puede agregarla manualmente haciendo clic 
 
 ### Elemento emergente Elementos seleccionados
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. La lista contiene la ruta DOM completa para el elemento que le ayudará a validar que el elemento seleccionado se utilizará para el rastreo de clics.
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. La lista contiene la ruta DOM completa para el elemento que le ayudará a validar que el elemento seleccionado se utilizará para el rastreo de clics.
 
 ![Vínculo Elementos seleccionados](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -71,7 +71,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 
    ![Ilustración de la ruta DOM](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   Del mismo modo que cuando se crean experiencias en el paso 1 del flujo de trabajo de creación de actividad, el selector de ruta DOM en la parte inferior de la página le permite elegir un elemento. Al seleccionar un elemento desde la ruta DOM, el elemento correspondiente del VEC se muestra como &quot;Seleccionado&quot;. Para anular la selección de un elemento seleccionado, vuelva a hacer clic en dicho elemento en el selector de rutas DOM o haga clic en el cuadro &quot;Seleccionado&quot; dentro del VEC.
+   Del mismo modo que cuando se crean experiencias en el paso 1 del flujo de trabajo de creación de actividad, el selector de ruta DOM en la parte inferior de la página le permite elegir un elemento. Al seleccionar un elemento desde la ruta DOM, el elemento correspondiente del VEC se muestra como "Seleccionado". Para anular la selección de un elemento seleccionado, vuelva a hacer clic en dicho elemento en el selector de rutas DOM o haga clic en el cuadro "Seleccionado" dentro del VEC.
 
    Para obtener más información, consulte [Desplazamiento por elementos utilizando la ruta DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en *Opciones del Compositor de experiencias visuales*.
 
