@@ -76,7 +76,7 @@ Realiza pruebas y un seguimiento de las visitas e los anuncios y otro contenido 
 
 **campaña**
 
-Igual que &quot;actividad&quot;
+Igual que "actividad"
 
 **puntuación de captación**
 
