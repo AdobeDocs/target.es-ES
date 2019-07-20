@@ -206,22 +206,22 @@ Puede utilizarse en cualquier página.
 
 Puede basar las recomendaciones en el valor de un atributo de perfil personalizado. Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la película un visitante añadió recientemente a su cola.
 
-1. Seleccione su atributo de perfil personalizado de la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, &quot;Última visualización agregada a la lista de observación&quot;).
-1. A continuación, seleccione la **[!UICONTROL Lógica de recomendación]** (por ejemplo, &quot;Las personas que vieron esto, vieron aquello&quot;).
+1. Seleccione su atributo de perfil personalizado de la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, "Última visualización agregada a la lista de observación").
+1. A continuación, seleccione la **[!UICONTROL Lógica de recomendación]** (por ejemplo, "Las personas que vieron esto, vieron aquello").
 
    ![Creación de un nuevo cuadro de diálogo de criterios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
 Si el atributo de perfil personalizado no coincide directamente con un ID de entidad único, es necesario explicarle a [!DNL Recommendations] cómo desea que se produzca la coincidencia en una entidad. Por ejemplo, supongamos que desea mostrar los elementos más vendidos de la marca favorita de un visitante.
 
-1. Seleccione su atributo de perfil personalizado en la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, &quot;Marca favorita&quot;).
+1. Seleccione su atributo de perfil personalizado en la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, "Marca favorita").
 
-1. A continuación, seleccione la **[!UICONTROL Lógica de recomendación]** que desee utilizar con esta clave (por ejemplo, &quot;Vendedores principales&quot;).
+1. A continuación, seleccione la **[!UICONTROL Lógica de recomendación]** que desee utilizar con esta clave (por ejemplo, "Vendedores principales").
 
    Aparecerá la opción [!UICONTROL Agrupar por valor único de].
 
-1. Seleccione el atributo de entidad que coincida con la clave que ha elegido. En este caso, &quot;Marca favorita&quot; coincide con `entity.brand`.
+1. Seleccione el atributo de entidad que coincida con la clave que ha elegido. En este caso, "Marca favorita" coincide con `entity.brand`.
 
-   Ahora [!DNL Recommendations] creará una lista &quot;Vendedores principales&quot; para cada marca y le mostrará al visitante la lista &quot;Vendedores principales&quot; adecuada en función del valor almacenado en el atributo de perfil de Marca favorita del visitante.
+   Ahora [!DNL Recommendations] creará una lista "Vendedores principales" para cada marca y le mostrará al visitante la lista "Vendedores principales" adecuada en función del valor almacenado en el atributo de perfil de Marca favorita del visitante.
 
    ![Creación de un nuevo cuadro de diálogo de criterios 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
@@ -333,7 +333,7 @@ Páginas generales, como páginas principales o de aterrizaje y anuncios externo
 
 ### Previously Purchased Items {#previously-purchased}
 
-Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 
 The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Si dos sitios pertenecen a entornos diferentes y un visitante cambia entre los dos sitios, cada sitio muestra solamente los artículos comprados recientemente del sitio apropiado. Si dos sitios están en el mismo entorno y un visitante cambia entre los dos sitios, el visitante verá los mismos artículos comprados recientemente para ambos sitios.
 
