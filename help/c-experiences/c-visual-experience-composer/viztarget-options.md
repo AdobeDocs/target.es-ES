@@ -141,7 +141,7 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
 
 * **Posición**
 
-   Mueva el elemento seleccionado desde su posición actual. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Mueva el elemento seleccionado desde su posición actual. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Haga clic en la lista desplegable [!UICONTROL Estática] para elegir entre las siguientes opciones de posición:
 
@@ -233,7 +233,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Insertar después
 
@@ -257,7 +257,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Reemplazar con
 
@@ -295,7 +295,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Diseño
 
