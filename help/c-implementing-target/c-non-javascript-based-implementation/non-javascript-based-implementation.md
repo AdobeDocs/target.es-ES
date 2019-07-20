@@ -26,8 +26,8 @@ Tanto la publicidad de AdBox como redirector se pueden usar en cualquier tipo de
 
 |  | Finalidad | Cuándo se utiliza | Estructura de la dirección URL | Tipo de oferta | Contenido de la oferta |
 |--- |--- |--- |--- |--- |--- |
-| AdBox | Devuelve distintas imágenes a la publicidad | Cambiar el contenido de una publicidad | `clientcode​.tt.​omtrdc​.net/​m2​/​clientcode/ubox/​image?` | oferta de redireccionamiento | Dirección URL de una imagen |
-| Redirector | Redirige a un visitante a otra página Web | Cambiar la página de aterrizaje de una publicidad | `clientcode​.tt.omtrdc.net/​m2/clientcode​/ubox/page?` | oferta de redireccionamiento | Dirección URL de una página |
+| AdBox | Devuelve distintas imágenes a la publicidad | Cambiar el contenido de una publicidad | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | oferta de redireccionamiento | Dirección URL de una imagen |
+| Redirector | Redirige a un visitante a otra página Web | Cambiar la página de aterrizaje de una publicidad | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | oferta de redireccionamiento | Dirección URL de una página |
 
 ## Restricciones {#section_38F559DCF1324271926608BCD4AB1227}
 
