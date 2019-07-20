@@ -88,7 +88,7 @@ Los usuarios pueden formar parte de varios espacios de trabajo y pueden incluso 
 Tendrá que pasar el ID de espacio de trabajo para aprovechar los permisos de Enterprise en [las API de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
 1. En [Adobe Admin Console](https://adminconsole.adobe.com), haga clic en la pestaña [!UICONTROL Productos] y, a continuación, seleccione el producto en el menú izquierdo para mostrar la lista PLC (espacio de trabajo).
-1. Haga clic en el PLC (espacio de trabajo) deseado y luego busque el ID &quot;perfiles&quot; en la URL, como se muestra a continuación.
+1. Haga clic en el PLC (espacio de trabajo) deseado y luego busque el ID "perfiles" en la URL, como se muestra a continuación.
 
    ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
@@ -149,11 +149,11 @@ Para utilizar la funcionalidad de permisos de usuario de [!DNL Target], debe añ
 
    Existen varias formas de actualizar la implementación de [!DNL Target]. Por ejemplo, puede usar los siguientes métodos para páginas web:
 
-   * **Mediante un &quot;Parámetro global en[!DNL Adobe Launch]:**
+   * **Mediante un "Parámetro global en[!DNL Adobe Launch]:**
 
       For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
-   * **Mediante un &quot;Parámetro global&quot; en[!DNL Dynamic Tag Management]:**
+   * **Mediante un "Parámetro global" en[!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
