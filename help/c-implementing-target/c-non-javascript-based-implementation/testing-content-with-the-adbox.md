@@ -46,7 +46,7 @@ Si desea obtener ayuda para decidir la configuración adecuada, consulte  [Imple
 
 1. Cree [Ofertas de redireccionamiento](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) para cada imagen alternativa.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE] {class="- topic/note "}
    >
    >Los AdBox se deben cargar con una oferta de redireccionamiento o con la oferta de contenido predeterminado. El resto de tipos de oferta no funcionará. Como el AdBox es una dirección URL, solo puede mostrar las direcciones URL que recibe, por lo que solo funciona la oferta de redireccionamiento.
 
