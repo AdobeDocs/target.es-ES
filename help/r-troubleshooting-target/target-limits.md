@@ -19,9 +19,9 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 
 >[!NOTE]
 >
->Los límites enumerados a continuación deben considerarse límites &quot;duros&quot; a menos que se especifique como &quot;recomendado&quot;.
+>Los límites enumerados a continuación deben considerarse límites "duros" a menos que se especifique como "recomendado".
 >
->Cuando se aproximan o se exceden los límites designados como &quot;recomendados&quot;, el rendimiento puede ralentizarse. Si la interfaz tarda tiempo en cargarse también puede ser debido a una actividad muy compleja, como por ejemplo muchas audiencias, objetivos y experiencias en la misma actividad.
+>Cuando se aproximan o se exceden los límites designados como "recomendados", el rendimiento puede ralentizarse. Si la interfaz tarda tiempo en cargarse también puede ser debido a una actividad muy compleja, como por ejemplo muchas audiencias, objetivos y experiencias en la misma actividad.
 >
 >Las actividades muy complejas deben ser revisadas por los asesores de Adobe y probadas en un entorno limitado antes de su lanzamiento en producción.
 
