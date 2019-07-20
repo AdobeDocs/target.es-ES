@@ -140,7 +140,7 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
    Target, como plataforma, se ha configurado para que trate a los bots de los motores de búsqueda como a cualquier usuario. Esto significa que los bots podrían incluirse en las pruebas que realice, si se seleccionan al azar, y “ver” las variaciones de las pruebas.
 
-* **Usar rel=&quot;canonical&quot;**: algunas veces, hay que configurar una prueba A/B con distintas direcciones URL para las variaciones. En estos casos, todas las variaciones deben contener una etiqueta de `rel="canonical"` que haga referencia a la URL (de control) original. Por ejemplo, si Adobe probara su página de inicio utilizando distintas URL para cada variación, la siguiente etiqueta canónica para la página principal iría en la etiqueta `<head>` de todas las variaciones:
+* **Usar rel="canonical"**: algunas veces, hay que configurar una prueba A/B con distintas direcciones URL para las variaciones. En estos casos, todas las variaciones deben contener una etiqueta de `rel="canonical"` que haga referencia a la URL (de control) original. Por ejemplo, si Adobe probara su página de inicio utilizando distintas URL para cada variación, la siguiente etiqueta canónica para la página principal iría en la etiqueta `<head>` de todas las variaciones:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
