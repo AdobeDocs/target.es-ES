@@ -21,7 +21,7 @@ La siguiente ilustración muestra el encabezado de gráfico de una actividad de 
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >En todos los datos se omiten los pedidos duplicados si se pasa un `orderID`. En el informe de auditoría se enumeran los pedidos duplicados que se han omitido.
 
@@ -127,7 +127,7 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 1. Haga clic en **[!UICONTROL Herramientas]** &gt; **[!UICONTROL Data Warehouse]**.
 1. En la pestaña **[!UICONTROL Solicitud de Data Warehouse], rellene los campos.**
 
-   Para obtener más información acerca de cada campo, consulte &quot;Descripciones de Data Warehouse&quot; en [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
+   Para obtener más información acerca de cada campo, consulte "Descripciones de Data Warehouse" en [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
 
    | Campo | Instrucciones |
    |--- |--- |
@@ -183,6 +183,6 @@ Puede visualizar informes siguiendo las siguientes metodologías de contabilizac
 
    Una sola visita puede abarcar varias impresiones de, por ejemplo, su página principal.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Los recuentos se suelen determinar a partir de las cookies y la actividad de la sesión. Sin embargo, si se alcanza el punto de conversión final de una actividad y se vuelve a entrar en ella, se le considerará un visitante nuevo y una nueva visita a la actividad. Esto ocurre incluso cuando los valores de PCID y `sessionID` no han variado.
