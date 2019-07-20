@@ -16,7 +16,7 @@ source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] makes it easy to create your test right on a Target-enabled page and to modify portions of the page within [!DNL Target].
 
-El editor de &quot;apuntar y hacer clic&quot; de Target permite elegir cualquier ubicación y añadirle varias ofertas.
+El editor de "apuntar y hacer clic" de Target permite elegir cualquier ubicación y añadirle varias ofertas.
 
 The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. Es decir, la prueba se ejecuta en una determinada dirección URL, con las experiencias que diseño para esa página.
 
