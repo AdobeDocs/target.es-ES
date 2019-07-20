@@ -98,7 +98,7 @@ Cuando cree un grupo de informes virtuales, especifique la siguiente configuraci
 
 **Visitas huérfanas:** con menor frecuencia, los usuarios no permanecen en la página el tiempo suficiente para que se realice la llamada de Analytics y, además, Target no tiene un MCID apropiado. Estas se denominan visitas “huérfanas”. Estas visitas representan a los clientes que raramente regresan e inflan indebidamente los recuentos de visitas y visitantes.
 
-Para minimizar estas visitas &quot;huérfanas&quot;, puede crear un [grupo de informes virtuales](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) que las excluya, tal y como hemos explicado.
+Para minimizar estas visitas "huérfanas", puede crear un [grupo de informes virtuales](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) que las excluya, tal y como hemos explicado.
 
 ## Consecuencias para los informes de [!DNL Target] {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
