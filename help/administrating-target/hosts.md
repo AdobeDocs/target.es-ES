@@ -55,7 +55,7 @@ Para reconocer un host es necesario cumplir las condiciones siguientes:
 
 Tras ver la página, el host se incluye en la lista [!UICONTROL Hosts], lo que permite administrarla en el entorno, así como obtener una vista previa de las actividades y pruebas e iniciarlas.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Esto engloba todos los servidores de desarrollo personal.
 
