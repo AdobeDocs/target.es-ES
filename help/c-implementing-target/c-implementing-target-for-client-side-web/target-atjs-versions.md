@@ -204,7 +204,7 @@ Ya está disponible la versión 1.2.2 de [!DNL at.js].
 
 Ya está disponible la versión 1.2.1 de [!DNL at.js].
 
-* Se ha corregido un error al rastrear los clics de un vínculo con target=&quot;_blank&quot; que impedía que Target lo abriera en una nueva pestaña.
+* Se ha corregido un error al rastrear los clics de un vínculo con target="_blank" que impedía que Target lo abriera en una nueva pestaña.
 
 ## Versión 1.2.0 de at.js {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
