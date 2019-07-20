@@ -75,7 +75,7 @@ adobe.target.getOffer({
 
 Utilizar el tiempo de espera personalizado y la gestión del éxito personalizada con getOffer():
 
-&quot;YOUR_OWN_CUSTOM_HANDLING_FUNCTION&quot; es un marcador de posición para una función que tiene que definir el cliente.
+"YOUR_OWN_CUSTOM_HANDLING_FUNCTION" es un marcador de posición para una función que tiene que definir el cliente.
 
 ```
 adobe.target.getOffer({     
