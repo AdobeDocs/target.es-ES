@@ -139,7 +139,7 @@ Para la [!UICONTROL segmentación automática], se pueden usar reglas simples pa
 
 **[!UICONTROL La segmentación automática]cuenta con una funcionalidad de configuración completa.**
 
-* Al estar integrado en el flujo de trabajo de la actividad A/B, la [!UICONTROL segmentación automática][!UICONTROL ] utiliza el compositor de experiencias visuales (VEC), una herramienta más antigua y completa. También puede aprovechar los [vínculos de control de calidad](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) con la [!UICONTROL segmentación automática].
+* Al estar integrado en el flujo de trabajo de la actividad A/B, la [!UICONTROL segmentación automática] utiliza el compositor de experiencias visuales (VEC), una herramienta más antigua y completa. También puede aprovechar los [vínculos de control de calidad](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) con la [!UICONTROL segmentación automática].
 
 **[!UICONTROL La segmentación automática]proporciona un amplio marco de pruebas en línea.**
 
