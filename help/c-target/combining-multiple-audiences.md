@@ -51,7 +51,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Observe que el operador que separa las dos audiencias de tipo de navegador es “Y”. Seleccione la lista desplegable Y y agréguela a &quot;OR&quot; para crear una audiencia combinada nueva para nuevos visitantes que utilicen Firefox o Safari. Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con Firefox y Safari simultáneamente.
+      Observe que el operador que separa las dos audiencias de tipo de navegador es “Y”. Seleccione la lista desplegable Y y agréguela a "OR" para crear una audiencia combinada nueva para nuevos visitantes que utilicen Firefox o Safari. Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con Firefox y Safari simultáneamente.
 
       >[!NOTE]
       >
