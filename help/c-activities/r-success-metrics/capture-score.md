@@ -48,13 +48,13 @@ Existen dos métodos para asignar una puntuación a una página:
 
    Al utilizar este método, el valor especificado se añade a la puntuación para cada mbox de la página. Por ejemplo, si transfiere el parámetro `?mboxPageValue=10` y la página contiene tres mboxes, la puntuación de la página es 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Los mboxes ubicados por encima del primer mbox de visualización de la campaña no se incluirán en la puntuación.
 
 Una práctica recomendada es asignar valores al código del mbox. Esto permite precisar los valores que mide en función del contenido de cada mbox.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Para facilitar el mantenimiento puede configurar cada asignación de valor de puntuación de página del sitio en el archivo [!DNL at.js] o [!DNL mbox.js] con alguna lógica JavaScript condicional. De este modo se elimina la necesidad de añadir más código a las páginas. Póngase en contacto con su consultor de cuentas para solicitar asistencia.
 
