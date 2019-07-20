@@ -31,17 +31,17 @@ Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritm
 
 * Atributos de elemento utilizados en las reglas de recopilación utilizadas para la actividad.
 * Atributos de elemento utilizados en una promoción en función de un atributo o una colección asociada con la actividad.
-* Categoría Elemento en la que el elemento aparece para una &quot;Categoría actual&quot; o &quot;Categoría favorita&quot; en los algoritmos Principales o Más visitados.
+* Categoría Elemento en la que el elemento aparece para una "Categoría actual" o "Categoría favorita" en los algoritmos Principales o Más visitados.
 * Clasificación de los elementos recomendados cuando el atributo cambió es un atributo personalizado que se usa como clave personalizada para un algoritmo.
-* Clasificación de los artículos recomendados en función de los atributos modificados cuando la lógica de recomendación es &quot;Elementos con atributos similares&quot;, cuando se utilizan factores de ponderación &quot;Similitud de contenido&quot; o cuando se utilizan factores de &quot;Ponderación de atributos&quot;.
+* Clasificación de los artículos recomendados en función de los atributos modificados cuando la lógica de recomendación es "Elementos con atributos similares", cuando se utilizan factores de ponderación "Similitud de contenido" o cuando se utilizan factores de "Ponderación de atributos".
 
 >[!NOTE]
 >
->Un archivo de fuente se considera importado cuando su estado cambia de «Importación de elementos» a «Preparación de las actualizaciones del índice de búsqueda». Las actualizaciones pueden tardar más de 60 minutos en reflejarse en la interfaz de usuario Buscar en el catálogo; La búsqueda en catálogo está actualizada cuando el estado de la fuente cambia a &quot;Actualizaciones completadas&quot;. Incluso si la búsqueda en catálogo aún no está actualizada, su sitio reflejará las actualizaciones en los intervalos de tiempo enumerados arriba. El tiempo de actualización del índice de búsqueda del catálogo más reciente se muestra en la página Buscar en el catálogo.
+>Un archivo de fuente se considera importado cuando su estado cambia de «Importación de elementos» a «Preparación de las actualizaciones del índice de búsqueda». Las actualizaciones pueden tardar más de 60 minutos en reflejarse en la interfaz de usuario Buscar en el catálogo; La búsqueda en catálogo está actualizada cuando el estado de la fuente cambia a "Actualizaciones completadas". Incluso si la búsqueda en catálogo aún no está actualizada, su sitio reflejará las actualizaciones en los intervalos de tiempo enumerados arriba. El tiempo de actualización del índice de búsqueda del catálogo más reciente se muestra en la página Buscar en el catálogo.
 
 ## ¿Qué debo hacer si hay caracteres especiales que rompen la matriz?{#section_D27214116EE443638A60887C7D1C534E}
 
-Utilice valores escapados en JavaScript. Las comillas ( &quot; ) pueden romper la matriz. El siguiente fragmento de código es un ejemplo de valores escapados:
+Utilice valores escapados en JavaScript. Las comillas ( " ) pueden romper la matriz. El siguiente fragmento de código es un ejemplo de valores escapados:
 
 ```
 #set($String='') 
