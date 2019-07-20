@@ -32,7 +32,7 @@ Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audien
 
    Las reglas de segmentación prediseñadas incluyen Sistema operativo Windows, Dispositivo de tableta, Navegador Safari, Visitantes que repiten, Remitidos desde Google, etc.
 
-   La audiencia predefinida &quot;Tableta&quot; ya cumple los requisitos cuando el agente de usuario contiene una de las siguientes cadenas (algunos de los cuales son números de modelos de dispositivos). No es necesario crear reglas de segmentación personalizadas para estos dispositivos.
+   La audiencia predefinida "Tableta" ya cumple los requisitos cuando el agente de usuario contiene una de las siguientes cadenas (algunos de los cuales son números de modelos de dispositivos). No es necesario crear reglas de segmentación personalizadas para estos dispositivos.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 y Tablet PC.
 
