@@ -1,14 +1,14 @@
 ---
-description: Estas notas de revisión proporcionan información sobre características, mejoras y correcciones de las últimas o más próximas [! Versiones de DNL Adobe Target.
+description: Notas de la versión que proporcionan información sobre características, mejoras y correcciones de las últimas o más próximas [! Versiones de DNL Adobe Target.
 keywords: notas de la versión
-seo-description: Estas notas de revisión proporcionan información sobre características, mejoras y correcciones de las últimas o más próximas [! Versiones de DNL Adobe Target.
+seo-description: Notas de la versión que proporcionan información sobre características, mejoras y correcciones de las últimas o más próximas [! Versiones de DNL Adobe Target.
 seo-title: Notas de la versión de Adobe Target (versión preliminar)
 solution: Target
 title: Notas de la versión de Target (versión previa)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 45d0a73faafd216b5a4686501c548f5771943050
+source-git-commit: 48d265feb329355f5aabe34a6a950d78df981966
 
 ---
 
