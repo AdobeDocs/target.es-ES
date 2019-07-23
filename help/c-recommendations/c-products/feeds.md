@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
 
 ---
 
@@ -198,7 +198,7 @@ La clasificación de productos Analytics es la única clasificación disponible 
 >* Target solo admite clasificaciones de productos. El SKU del producto de Analytics debe asignarse al mismo nivel que la entidad de Recommendations.id. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
 
 
-## Crear fuente  {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## Crear fuente  {#steps}
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
@@ -220,7 +220,13 @@ recs/t_feeds_create.xml
 
    Si elige la ubicación FTP, indique los datos del servidor FTP, las credenciales de inicio de sesión, el nombre de archivo y el directorio de FTP. Tiene la opción de usar FTP con SSL (FTPS) para que las cargas sean más seguras.
 
+   Configuración del servidor FTP admitida:
+
+   * FTP y FTPS deben estar configurados para utilizar FTP pasivo.
+   * En FTPS, configure el servidor para aceptar conexiones FTPS explícita.
+   * No se admite SFTP.
    Si elige dirección URL, especifíquela.
+
 1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Programar].
 
    ![Resultado del paso](assets/CreateFeedSchedule.png)
@@ -260,7 +266,7 @@ Cuando el estado indica “Correcto”, significa que el archivo se ha encontrad
 
 Información sobre los posibles estados de alimentación y sus indicadores.
 
-### Estados de las fuentes {#section_5DDC2DECF70A42FDAFF2235E91371537}
+### Estados de las fuentes {#status}
 
 Estos son los posibles estados de una fuente:
 
@@ -272,10 +278,8 @@ Estos son los posibles estados de una fuente:
 | Programado para *fecha y hora* | La fuente no se ha ejecutado, pero está programada para ejecutarse en la fecha y la hora establecidas. |
 | Esperando descarga | Target se está preparando para descargar el archivo de fuente. |
 | Descargando del archivo de fuente | Target está descargando el archivo de fuente. |
-| Importando elementos | Target está importando elementos del archivo de fuente. Nota: Una vez que se complete este paso y se muestre "Preparando actualizaciones del índice de búsqueda", se han importado los cambios a los atributos del elemento en nuestro sistema central y se reflejarán en el contenido de recomendaciones entregado devuelto por nuestros nodos geográficos de Edge en un lapso de 60 minutos. |
-| Preparando las actualizaciones del índice de búsqueda | Target se está preparando para actualizar el índice de búsqueda del catálogo. Nota: Si se indica este estado, ya se han realizado cambios en los atributos del elemento y se reflejarán en breve en las recomendaciones enviadas, aunque aún no se hayan reflejado en la búsqueda del catálogo. |
-| Actualizando el índice de búsqueda | Target está actualizando el índice de búsqueda del catálogo. Nota: Si se indica este estado, ya se han realizado cambios en los atributos del elemento y se reflejarán en breve en las recomendaciones enviadas, aunque es posible que aún no se reflejen en la búsqueda del catálogo. |
-| Actualizaciones completadas | Target ha completado todas las actualizaciones asociadas con el archivo de fuentes. |
+| Importando elementos | Target está importando elementos del archivo de fuente. |
+| Feed Imported Successfully at *time* | Target ha importado el archivo de fuente al sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido y se reflejarán en breve en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo en breve y actualice la página que contenga recomendaciones.<br>*Nota 1:* Si los cambios realizados en los atributos de un elemento resultan en excluir un elemento de las recomendaciones, la exclusión se reflejará inmediatamente. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Nota 2:* Cuando se muestra este estado, es posible que las actualizaciones no se reflejen aún en la interfaz de usuario Buscar en el catálogo. Aparece un estado separado en la búsqueda en catálogo que indica la última vez que se actualizó el catálogo en el que se puede buscar. |
 | Error en la indexación | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
 | Servidor no encontrado | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
 
