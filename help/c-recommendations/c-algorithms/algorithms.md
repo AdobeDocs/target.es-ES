@@ -1,7 +1,7 @@
 ---
 description: Los criterios son reglas que determinan qué productos se recomiendan en función de un conjunto predeterminado de comportamientos del visitante.
-keywords: recomendaciones;actividad de recomendaciones;criterios
-seo-description: Los criterios son reglas que determinan qué productos se recomiendan en función de un conjunto predeterminado de comportamientos del visitante.
+keywords: recomendaciones;actividad de recomendaciones;criterios; algoritmo
+seo-description: Los criterios de Adobe Target son reglas que determinan qué productos se recomiendan según un conjunto predeterminado de comportamientos del visitante.
 seo-title: Criterios
 solution: Target
 title: Criterios
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -71,15 +71,15 @@ Todos los criterios de un día se ejecutan dos veces al día. Todos los criterio
 
 Para ver los detalles de los criterios de una tarjeta emergente, pase el cursor sobre una tarjeta y haga clic en el icono Información sin necesidad de abrir los criterios.
 
-![](assets/criteria_hover.png)
+![Pasar el ratón por encima de la tarjeta de criterios](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 Haga clic en la pestaña **[!UICONTROL Información del algoritmo]para ver información general sobre los criterios seleccionados, como Nombre, Descripciones, Sector, Tipos de página, Clave de recomendación, Lógica de recomendación e ID del algoritmo.**
 
-![](assets/criteria_info.png)
+![Ficha Información del algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
 Haga clic en la pestaña **[!UICONTROL Uso del algoritmo]** para ver una lista de actividades que hacen referencia a los criterios seleccionados. La tarjeta enumera las actividades activas e inactivas. Haga clic en las listas desplegables Actividades activas o Inactividades para ver la lista completa de actividades que hacen referencia a ese criterio. Puede hacer clic en el vínculo de la actividad para abrirla y modificarla.
 
-![](assets/criteria_usage.png)
+![Ficha Uso de criterios](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 ## Determinación de cuándo los resultados de criterios están listos para mostrarse  {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -91,7 +91,7 @@ En el diagrama de actividad, las tarjetas de criterios ahora indican cuándo los
 
 En la siguiente ilustración se muestra el diagrama de actividad en la página Información general de una actividad de Recommendations. También puede ver el diagrama de actividad con los resultados de estado de los criterios, obtenidos en el paso 2 del flujo de trabajo de creación de la actividad.
 
-![](assets/criteria_status.png)
+![Estado de los criterios en la página Información general](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 Los resultados de estado pueden ser: Resultados preparados, Resultados no preparados y Error de fuente, como se muestra en el diagrama siguiente:
 
