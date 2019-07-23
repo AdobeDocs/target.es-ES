@@ -8,7 +8,7 @@ title: Atributos de perfil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 5af98ebdb15ddbb3c57a4e76c66db2a5ce1c576f
+source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 ---
 
@@ -114,7 +114,7 @@ Estas son las razones habituales por las que el sistema deshabilita los scripts 
 * Se están utilizando demasiadas instrucciones JavaScript. Target tiene un límite de 2000 instrucciones JavaScript por script, pero esto no se puede calcular simplemente de forma manual leyendo el JavaScript. Por ejemplo, Rhino trata todas las llamadas de función y “nuevas” llamadas como 100 instrucciones. Además, el tamaño de los datos de entrada, como los valores URL, puede afectar a la contabilización de instrucciones.
 * Elementos no destacados en la sección [prácticas recomendadas](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) a continuación.
 
-## Prácticas recomendadas {#section_64AFE5D2B0C8408A912FC2A832B3AAE0}
+## Prácticas recomendadas {#best}
 
 Las siguientes directrices pretenden ayudarle a escribir secuencias de comandos de perfil simplificadas que tengan la menor probabilidad de caer en errores mientras escribe el código que falla, por lo que se procesa sin forzar una parada de secuencia de comandos del sistema. Estas instrucciones son el resultado de las prácticas recomendadas cuya eficacia ha sido demostrada. Estas directrices se tiene que aplicar junto a los principios y recomendaciones descritos por la comunidad de desarrollo Rhino.
 
@@ -125,7 +125,7 @@ Las siguientes directrices pretenden ayudarle a escribir secuencias de comandos 
 * No supere los 1300 caracteres o las 50 repeticiones de bucle.
 * No supere las 2000 instrucciones de JavaScript. Target tiene un límite de 2000 instrucciones JavaScript por script, pero esto no se puede calcular simplemente de forma manual leyendo el JavaScript. Por ejemplo, Rhino trata todas las llamadas de función y “nuevas” llamadas como 100 instrucciones. Además, el tamaño de los datos de entrada, como los valores URL, puede afectar a la contabilización de instrucciones.
 * Tenga en cuenta no solo el rendimiento del script, sino también el rendimiento combinado de todos los scripts. Como práctica recomendada, debería utilizarse un máximo de 5000 instrucciones en total. La recuento de instrucciones no es obvio, pero el dato que es importante recordar es que los scripts que exceden los 2 KB se desactivan automáticamente. No hay límite al número de scripts que se pueden ejecutar, pero cada uno de ellos se ejecuta con cada llamada de mbox. Ejecute solo los scripts necesarios.
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed: the regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. La ejecución de la secuencia de comandos se puede interrumpir si este regex coincide con datos de entrada lo suficientemente largos (que pueden ser tan bajos como varios cientos de caracteres).
+* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. La ejecución de la secuencia de comandos se puede interrumpir si este regex coincide con datos de entrada lo suficientemente largos (que pueden contener varios cientos de caracteres).
 * Si falla todo, ajuste el script a un try/catch.
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
