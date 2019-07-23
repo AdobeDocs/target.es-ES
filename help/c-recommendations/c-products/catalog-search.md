@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -29,9 +29,7 @@ En los resultados de búsqueda, haga clic en **[UICONTROL Entorno]** para especi
 
 El número que se muestra junto a “Productos” es el número de productos que coincide con el término de búsqueda, con respecto al total disponible en el entorno especificado.
 
-Haga clic en el icono de actualizar para volver a indexar el catálogo. Tenga en cuenta que la indexación puede tardar un tiempo, en función del tamaño de la fuente.
-
-El catálogo se actualiza automáticamente cada hora. Haga clic en **[!UICONTROL Actualizar]** para reindexar el catálogo entre actualizaciones automáticas.
+El catálogo se actualiza automáticamente cuando se reciben actualizaciones mediante archivos de fuentes, API o actualizaciones de mbox. Las actualizaciones se suelen completar en una hora. Si las actualizaciones están en curso, se muestra la hora en la que se inició la actualización más reciente. Si no hay actualizaciones en curso, se muestra la hora de inicio y finalización de la actualización más reciente.
 
 Puede crear colecciones o exclusiones utilizando Búsqueda avanzada en la página Buscar en el catálogo ([!UICONTROL Recommendations] &gt; [!UICONTROL Buscar en el catálogo] &gt; [!UICONTROL Búsqueda avanzada]). Después de crear una búsqueda utilizando “id &gt; contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] &gt; [!UICONTROL Colección o Exclusión].
 
