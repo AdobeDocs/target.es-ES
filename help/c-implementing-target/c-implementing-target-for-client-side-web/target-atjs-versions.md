@@ -8,7 +8,7 @@ subtopic: Primeros pasos
 title: Detalles de las versiones de at.js
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -20,6 +20,24 @@ Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScri
 >[!IMPORTANT]
 >
 >El equipo de Target mantiene solo dos versiones de [!DNL at.js]: la actual y la penúltima. Actualice [!DNL at.js] cuando sea posible para garantizar que dispone de una versión compatible.
+
+## Versión 2.1.1 de at. js (24 de julio de 2019)
+
+Esta versión de at. js es una versión de mantenimiento e incluye las siguientes mejoras y correcciones:
+
+(Los números entre paréntesis son para uso interno de Adobe).
+
+* Se ha corregido un problema que hacía que se activaran varias señalizaciones al utilizar la métrica Rastreo de clics en la página Objetivos y configuración del Compositor de experiencias visuales (VEC). (TNT-32812)
+* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
+* Se ha corregido un problema que provocaba un error debido al uso de decodeuricomponent que causaba problemas cuando la dirección URL contenía un parámetro de cadena de consulta incorrecto. (TNT-32710)
+* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
+* Se ha corregido un problema que impedía que las ofertas de Recommendations se mostraran en sitios web para algunos clientes. Los clientes podían ver el contenido de la oferta en la llamada de API de entrega pero la oferta no se aplicaba al sitio web. (TNT-32680)
+* Se ha corregido un problema que provocaba que el seguimiento de clics en varias experiencias no funcionara según lo esperado. (TNT-32644)
+* Se ha corregido un problema que impedía que at. js aplicara la segunda métrica después de que fallara la representación de la primera métrica. (TNT-32628)
+* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* Se ha corregido un problema que provocaba que las respuestas de notificación de clics y visualización se bloquearan en exploradores basados en Chromium (incluido Google Chrome). (TNT-32290)
 
 ## Versión 2.1.0 de at. js (3 de junio de 2019)
 
@@ -46,10 +64,10 @@ Esta es una versión de mantenimiento e incluye las siguientes mejoras y correcc
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
 * Se ha corregido una condición de carrera en el código de sondeo DOM que provocaba excepciones de JavaScript para ciertos clientes. (TNT-31869)
-* Se han separado las notificaciones de vistas representadas de los controladores de eventos de seguimiento de clics. Inicialmente, Target no enviaba notificaciones si no se podían adjuntar controladores de eventos de clic que pertenecían a una vista representada. Ahora, Target envía una notificación de vista incluso cuando no se encuentran elementos de clic. (TNT-31969)
+* Se han desunido las notificaciones que visualizaban los controladores de eventos de seguimiento de clics. Inicialmente, Target no enviaba notificaciones si no se podían adjuntar controladores de eventos de clic que pertenecían a una vista representada. Target ahora envía una notificación de vista incluso cuando no se encuentran elementos de clic. (TNT-31969)
 * Se ha corregido un problema que provocaba que el indicador de redireccionamiento de eventos de solicitud se defina siempre como verdadero. (TNT-31907)
-* Se ha corregido un problema que provocaba que la acción de reorganizar VEC se registrara como correcta, incluso cuando faltaban elementos. (TNT-31924)
-* Se ha corregido un problema que causaba que las notificaciones para determinados clientes no contuvieran el token de propiedad de permisos de Enterprise. (TNT-31999)
+* Se ha corregido un problema que provocaba que la acción de reorganizar VEC se registrara como éxito, incluso cuando faltaban elementos. (TNT-31924)
+* Se ha corregido un problema que causaba que las notificaciones para determinados clientes no contenderan el token de propiedad de permisos de Enterprise. (TNT-31999)
 
 ## Versión 1.7.1 de at.js (19 de marzo de 2019)
 
