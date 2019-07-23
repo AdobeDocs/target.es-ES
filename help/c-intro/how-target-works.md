@@ -9,7 +9,7 @@ title: Cómo funciona Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 834eee71f78765887e3e46f3cbab3eaf00b1ee39
+source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 ---
 
@@ -96,7 +96,9 @@ Para mejorar los tiempos de respuesta, los entornos de Edge solo hospedan lógic
 
 Cada nodo de Edge dispone de toda la información necesaria para responder a la solicitud de contenido del usuario y realizar un seguimiento de los datos de análisis de dicha solicitud. Las solicitudes de los usuarios se dirigen al nodo de Edge más próximo.
 
-![](assets/edge_network.png)
+![Mapa con sitios Edge y sitios Edge principales](assets/edge_network.png)
+
+Adobe tiene actualmente sitios principales de Edge en Oregón y Texas en Estados Unidos; Londres, Inglaterra; y Singapur. Adobe tiene sitios Edge en Virginia (EE. UU.), Ámsterdam, Países Bajos; Tokio, Japón; y Sídney, Australia.
 
 Las ubicaciones de sitios principales y perimetrales contienen un centro de recopilación de datos y un centro de procesamiento de datos. Las ubicaciones de sitios perimetrales contienen solamente un centro de recopilación de datos. Cada grupo de informes está asignado a un centro de procesamiento de datos específico.
 
@@ -167,3 +169,16 @@ Además de estas directrices, Google también proporciona otra pauta en la docum
 Google pone el ejemplo de que “si la página original de un sitio se carga con palabas clave que no están relacionadas con las combinaciones que se muestran a los usuarios, nos reservamos el derecho a eliminar el sitio de nuestro índice”.
 
 Creemos que es difícil cambiar sin querer el significado del contenido original en las variaciones de prueba, pero le recomendamos que consulte los temas de palabras clave de una página y los mantenga. Al cambiar el contenido de una página, especialmente añadiendo o eliminando palabras clave importantes, puede variar la clasificación de la URL en la búsqueda orgánica. Le recomendamos que incluya al socio de SEO en el protocolo de prueba.
+
+Bots {#bots}
+
+Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. El tráfico identificado como generado por un bot sigue siendo contenido, como un usuario normal, para garantizar que esté en armonía con las directrices SEO. El uso del tráfico de bots puede inclinar pruebas A/B o algoritmos de personalización si se tratan como usuarios normales. Por lo tanto, si se detecta un bot conocido en la actividad de Target, el tráfico se trata de un modo ligeramente distinto. La eliminación del tráfico de bots proporciona una medición más precisa de la actividad del usuario.
+
+Específicamente, para el tráfico de bots conocido Target no lo hace:
+
+* Crear o recuperar un perfil de visitante
+* Registro de cualquier atributo de perfil o ejecución de scripts de perfil
+* Buscar segmentos de Adobe Audience Manager (AAM) (si corresponde)
+* Utilice el tráfico de bots para modelar y ofrecer contenido personalizado para actividades de Recomendaciones, Segmentación automática, Personalización automatizada o Asignación automática
+* Registro de una visita de actividad para informes
+* Datos de registro que se enviarán a la plataforma de Adobe Experience Cloud
