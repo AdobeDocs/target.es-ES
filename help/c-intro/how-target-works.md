@@ -9,7 +9,7 @@ title: Cómo funciona Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
 
 ---
 
@@ -170,7 +170,7 @@ Google pone el ejemplo de que “si la página original de un sitio se carga con
 
 Creemos que es difícil cambiar sin querer el significado del contenido original en las variaciones de prueba, pero le recomendamos que consulte los temas de palabras clave de una página y los mantenga. Al cambiar el contenido de una página, especialmente añadiendo o eliminando palabras clave importantes, puede variar la clasificación de la URL en la búsqueda orgánica. Le recomendamos que incluya al socio de SEO en el protocolo de prueba.
 
-Bots {#bots}
+## Bots {#bots}
 
 Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. El tráfico identificado como generado por un bot sigue siendo contenido, como un usuario normal, para garantizar que esté en armonía con las directrices SEO. El uso del tráfico de bots puede inclinar pruebas A/B o algoritmos de personalización si se tratan como usuarios normales. Por lo tanto, si se detecta un bot conocido en la actividad de Target, el tráfico se trata de un modo ligeramente distinto. La eliminación del tráfico de bots proporciona una medición más precisa de la actividad del usuario.
 
