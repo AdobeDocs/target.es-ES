@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: 378cf9f38d2758541b8425c8786259739751cd74
 
 ---
 
@@ -204,26 +204,26 @@ Puede utilizarse en cualquier página.
 
 **Utilizar una clave de recomendaciones personalizada**
 
-Puede basar las recomendaciones en el valor de un atributo de perfil personalizado. Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la película un visitante añadió recientemente a su cola.
+Puede basar las recomendaciones en el valor de un atributo de perfil personalizado. Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la película que agregó un visitante recientemente a su cola.
 
-1. Seleccione su atributo de perfil personalizado de la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, "Última visualización agregada a la lista de observación").
-1. A continuación, seleccione la **[!UICONTROL Lógica de recomendación]** (por ejemplo, "Las personas que vieron esto, vieron aquello").
+1. Seleccione su atributo de perfil personalizado en la lista **[!UICONTROL desplegable Clave]** de recomendación (por ejemplo, «Última visualización agregada a la lista de observación»).
+1. A continuación, seleccione la lógica **[!UICONTROL de recomendación]** (por ejemplo, "Personas que vieron esto, Vieron aquello").
 
-   ![Creación de un nuevo cuadro de diálogo de criterios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
+   ![Crear nuevo cuadro de diálogo de criterios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Si el atributo de perfil personalizado no coincide directamente con un ID de entidad único, es necesario explicarle a [!DNL Recommendations] cómo desea que se produzca la coincidencia en una entidad. Por ejemplo, supongamos que desea mostrar los elementos más vendidos de la marca favorita de un visitante.
+Si el atributo de perfil personalizado no coincide directamente con un ID de entidad único, es necesario explicar cómo [!DNL Recommendations] desea que se produzca la coincidencia en una entidad. Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la marca favorita de un visitante.
 
-1. Seleccione su atributo de perfil personalizado en la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, "Marca favorita").
+1. Seleccione su atributo de perfil personalizado en **[!UICONTROL la lista desplegable Clave]** de recomendación (por ejemplo, «Marca favorita»).
 
-1. A continuación, seleccione la **[!UICONTROL Lógica de recomendación]** que desee utilizar con esta clave (por ejemplo, "Vendedores principales").
+1. A continuación, seleccione **[!UICONTROL la lógica]** de recomendación que desee utilizar con esta clave (por ejemplo, "Principales vendedores").
 
-   Aparecerá la opción [!UICONTROL Agrupar por valor único de].
+   Se muestra [!UICONTROL la] opción Agrupar por valor único de.
 
-1. Seleccione el atributo de entidad que coincida con la clave que ha elegido. En este caso, "Marca favorita" coincide con `entity.brand`.
+1. Seleccione el atributo de entidad que coincida con la clave que ha elegido. En este caso, «Marca favorita» coincide con `entity.brand`.
 
-   Ahora [!DNL Recommendations] creará una lista "Vendedores principales" para cada marca y le mostrará al visitante la lista "Vendedores principales" adecuada en función del valor almacenado en el atributo de perfil de Marca favorita del visitante.
+   [!DNL Recommendations] ahora genera una lista «Principales vendedores» para cada marca y muestra al visitante la lista «Principales vendedores» adecuada en función del valor almacenado en el atributo de perfil de Marca favorita del visitante.
 
-   ![Creación de un nuevo cuadro de diálogo de criterios 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
+   ![Crear nuevo cuadro de diálogo de criterios 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
 ### Último artículo comprado
 
@@ -330,6 +330,8 @@ Los criterios de Elementos visualizados recientemente ahora devuelven resultados
 **Ubicación en el sitio**
 
 Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
+
+[!NOTE]Elementos vistos recientemente Respeta tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento queda excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; Por lo tanto, al utilizar los criterios de Artículos vistos recientemente, se suele utilizar la opción «Todas las colecciones».
 
 ### Previously Purchased Items {#previously-purchased}
 
