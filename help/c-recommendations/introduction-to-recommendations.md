@@ -9,7 +9,7 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -129,7 +129,7 @@ What is a [!DNL Recommendations] activity?
 
 ![Ilustración que muestra lo que constituye una actividad de recomendaciones: Audiencias, criterios y diseños](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. Puede personalizar cada uno de estos elementos o agregarlos. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Esta sección se centra en definir los criterios que definen los elementos de la bruja.
+Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. Puede personalizar cada uno de estos elementos o agregarlos. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Esta sección se centra en definir los criterios, que definen qué elementos se recomiendan.
 
 Target usa el concepto de la tarjeta de criterios. Una tarjeta de criterios es como una fórmula para personalización.
 
@@ -166,7 +166,7 @@ Puede basar su recomendación en:
 * El artículo que el visitante compró o agregó por última vez al carro de compras
 * Un atributo personalizado relacionado con un visitante o un elemento
 
-Según estas claves, elija la lógica de recomendación:
+Según estas claves, elija la lógica de recomendación que desee:
 
 * Elementos con atributos similares.
 * Los elementos más vistos de una categoría en particular
