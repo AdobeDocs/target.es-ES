@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 378cf9f38d2758541b8425c8786259739751cd74
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -331,7 +331,9 @@ Los criterios de Elementos visualizados recientemente ahora devuelven resultados
 
 Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
 
-[!NOTE]Elementos vistos recientemente Respeta tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento queda excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; Por lo tanto, al utilizar los criterios de Artículos vistos recientemente, se suele utilizar la opción «Todas las colecciones».
+>[!NOTE]
+>
+>Elementos vistos recientemente Respeta tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento queda excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; Por lo tanto, al utilizar los criterios de Artículos vistos recientemente, se suele utilizar la opción «Todas las colecciones».
 
 ### Previously Purchased Items {#previously-purchased}
 
