@@ -8,7 +8,7 @@ title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
 
 ---
 
@@ -25,9 +25,9 @@ Información sobre problemas conocidos con esta versión de Target. También inc
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
 
-### Vista previa de vínculos {#preview}
+### Activity QA preview links {#preview}
 
-Es posible que los vínculos de vista previa de actividades guardadas no se carguen si hay demasiadas actividades guardadas en su cuenta. Volver a intentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se usan de forma activa. (TNT-32697)
+[Es posible que](/help/c-activities/c-activity-qa/activity-qa.md) los vínculos de vista previa de control de calidad de la actividad para actividades guardadas no se carguen si hay demasiadas actividades guardadas en su cuenta. Volver a intentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se usan de forma activa. (TNT-32697)
 
 ### Ofertas de redireccionamiento {#redirect}
 
