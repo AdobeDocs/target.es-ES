@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -21,6 +21,9 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 30 de julio de 2019 | [Introducción a Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Nuevo tema. |
+|  | [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Se agregó una nota a los Artículos vistos recientemente. |
+|  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Se ha añadido un problema conocido con vínculos de vista previa. |
 | 29 de julio de 2019 | [Preguntas más frecuentes sobre la creación de informes](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
 | 24 de julio de 2019 | [Actualización desde at. js 1.*x* a at. js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Nuevo tema. |
