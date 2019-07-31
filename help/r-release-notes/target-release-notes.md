@@ -8,7 +8,7 @@ title: Notas de la versión de Target (versión previa)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
+source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
 
 ---
 
@@ -43,7 +43,7 @@ Esta actualización admitirá los siguientes casos de uso:
 
 **Acción necesaria**: Los clientes que actualmente aprovechan las API para operaciones de CRUD en recursos (actividades, audiencias, ofertas e informes) en todos los espacios de trabajo deben conceder su acceso de integración de Adobe I/O a todos los espacios de trabajo con la función deseada según su caso de uso. You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, irrespective of choice made in the [!UICONTROL Product Role] drop-down list. Ahora puede elegir la función que desee.
 
-This action *must* be performed before September 4, 2019 to not face any disruption on your end. Si no se realiza esta acción, después del [! La versión de septiembre de Target DNL, los controles de acceso se activarán y podrá observar el acceso solo al espacio de trabajo predeterminado, si es así. No hay reacciones adversas para configurar integraciones de antemano según las directrices anteriores. Cuanto antes realice este cambio, mejor. Se requiere poco tiempo para configurar esto, según el número de espacios de trabajo de su organización. Este proceso solo toma unos pocos clics para agregar una integración existente en espacios de trabajo con la función deseada.
+This action *must* be performed before September 4, 2019 to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. No hay reacciones adversas para configurar integraciones de antemano según las directrices anteriores. Cuanto antes realice este cambio, mejor. Se requiere poco tiempo para configurar esto, según el número de espacios de trabajo de su organización. Este proceso solo toma unos pocos clics para agregar una integración existente en espacios de trabajo con la función deseada.
 
 ## Target Standard/Premium 19.8.1 (20 de agosto de 2019) {#tgt-19-8-1}
 
