@@ -8,18 +8,18 @@ title: Crear experiencia
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 
 ---
 
 
 # Create experience{#create-experience}
 
-El Compositor de experiencias visuales (VEC) proporciona una interfaz visual para editar las experiencias en su página en una actividad de segmentación de experiencias (XT).
+The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
 
 1. Seleccione los elementos que quiera cambiar y realice los cambios necesarios.
 
-   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow (Experiences) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
+   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
 
    ![Audiencia de todos los visitantes](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -27,19 +27,19 @@ El Compositor de experiencias visuales (VEC) proporciona una interfaz visual par
 
    Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Cualquier elemento resaltado puede modificarse con el VEC. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Si creó un mbox en la página mediante Target Classic (antes denominado Test&amp;Target), ese mbox aparece como un elemento que muestra el nombre del mbox y se puede modificar como cualquier otro elemento.
+   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
    >[!NOTE]
    >
-   >De manera predeterminada, el compositor de experiencias visuales no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede seleccionar deshabilitar JavaScript si desea poder modificar esos elementos mediante el VEC.
+   >De forma predeterminada, el VEC no permite cambios en elementos que contengan JavaScript, como banners rotativos. Puede seleccionar deshabilitar JavaScript para alterar esos elementos mediante el VEC.
 
-1. To create additional experiences, click **[!Add Experience Targeting]**.
+1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
 
    ![Agregar vínculo de segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    The [!UICONTROL Choose Audience] dialog box displays. Para dirigir una experiencia a una audiencia, debe seleccionar la audiencia antes de agregar una experiencia.
 
-   La biblioteca de audiencias contiene las audiencias que se han definido anteriormente, entre las que se incluyen algunas audiencias comunes predefinidas como parte de Target. Seleccione una audiencia de la biblioteca o  [cree una audiencia nueva](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). 
+   La biblioteca de audiencias contiene las audiencias que se han definido anteriormente, entre las que se incluyen algunas audiencias comunes predefinidas como parte de [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ El Compositor de experiencias visuales (VEC) proporciona una interfaz visual par
 
    >[!NOTE]
    >
-   >Si entrega una imagen desde una fuente distinta a la página principal (como una imagen alojada en akamai. net y entregada en adobe.com), dicha imagen no se muestra en la miniatura de la página mostrada en el diagrama de flujo.
+   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
 1. (Condicional) Arrastre y suelte pares de audiencia/experiencia al crear o editar actividades XT para organizar los pares en el orden deseado.
 
@@ -77,7 +77,7 @@ El Compositor de experiencias visuales (VEC) proporciona una interfaz visual par
 
    ![Mover experiencias](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   La segmentación de experiencias supone que ese orden importa. Si un visitante encaja en el primer par de audiencia/experiencia, se le sirve la primera experiencia.
+   [!UICONTROL La segmentación de experiencias supone que ese orden importa. ] Si un visitante encaja en el primer par de audiencia/experiencia, se le sirve la primera experiencia.
 
    Por ejemplo, suponga que no es consciente de que el orden importa al crear una actividad XT. Más adelante repara, durante las pruebas, que los visitantes que creía que encajarían en las experiencias B o C acaban en la experiencia A. Podría deberse a que las audiencias no son mutuamente excluyentes y no están situadas en el orden apropiado (por ejemplo, experiencia A = Estados Unidos, experiencia B = San Francisco, experiencia C = California). En este escenario, todos los usuarios de Estados Unidos entrarán en la experiencia A, aunque se encuentren en San Francisco o alguna otra parte de California. Puede reordenar los pares de audiencia/experiencia de más restrictivo a menos restrictivo (San Francisco &gt; California &gt; Estados Unidos) sin necesidad de reconstruir toda la actividad.
 
@@ -98,9 +98,9 @@ On the **[!UICONTROL Experiences]** page (the first step in the three-step guide
 
 ![Eliminar experiencia](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
-## Duplicar experiencias
+## Duplicar una experiencia
 
-Puede copiar una experiencia en una actividad de segmentación de experiencias (XT), por lo que puede realizar cambios menores sin tener que volver a crear la experiencia desde cero.
+Puede copiar una experiencia en una actividad XT para poder realizar pequeños cambios sin tener que volver a crear la experiencia desde cero.
 
 En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales &gt; **[!UICONTROL Duplicar]**.
 
