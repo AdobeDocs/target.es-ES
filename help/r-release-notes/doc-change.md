@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 
 ---
 
@@ -22,7 +22,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 1 de agosto de 2019 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido un anuncio importante sobre la compatibilidad de API para permisos de Enterprise. |
-|  | Otorgar acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones | Nuevo tema. |
+|  | [Otorgar acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Nuevo tema. |
 | 31 de julio de 2019 | [Introducción a Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Nuevo tema. |
 |  | [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Se agregó una nota a los Artículos vistos recientemente. |
 |  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Se ha añadido un problema conocido con los vínculos de vista previa de control de calidad de la actividad. |
