@@ -9,7 +9,7 @@ title: Cómo funciona Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Target se integra con los sitios web mediante una de las dos bibliotecas d
 >
 >Todos los clientes deberían migrar a at.js. Para obtener más información, consulte [Migrar a at.js desde mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-Debe hacer referencia al archivo de biblioteca JavaScript de Target en todas las páginas del sitio. Por ejemplo, puede añadirlo a su encabezado global. Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+Debe hacer referencia al archivo de biblioteca JavaScript de Target en todas las páginas del sitio. Por ejemplo, puede añadirlo a su encabezado global. También puede utilizar el [administrador de etiquetas de Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Cada vez que un visitante solicita una página que ha sido optimizada para Target, se envía una solicitud al sistema de segmentación para determinar qué contenido se mostrará al visitante. Este proceso se produce en tiempo real— cada vez que se carga una página, el sistema realiza y completa una solicitud del contenido. El contenido está regido por reglas de actividades y experiencias controladas por especialistas en marketing y se segmenta para cada visitante del sitio. A cada visitante del sitio se le muestra el contenido que ofrece más probabilidades de que el visitante responda, interactúe y, en última instancia, compre los productos: la finalidad es lograr las máximas tasas de respuesta, de adquisición y de ingresos.
 
@@ -98,17 +98,17 @@ Cada nodo de Edge dispone de toda la información necesaria para responder a la 
 
 ![Mapa con sitios Edge y sitios Edge principales](assets/edge_network.png)
 
-Adobe tiene actualmente sitios principales de Edge en Oregón y Texas en Estados Unidos; Londres, Inglaterra; y Singapur. Adobe tiene sitios Edge en Virginia (EE. UU.), Ámsterdam, Países Bajos; Tokio, Japón; y Sídney, Australia.
+El origen de este mage es el documento [técnico Información general](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) sobre seguridad de Adobe Target.
 
-Las ubicaciones de sitios principales y perimetrales contienen un centro de recopilación de datos y un centro de procesamiento de datos. Las ubicaciones de sitios perimetrales contienen solamente un centro de recopilación de datos. Cada grupo de informes está asignado a un centro de procesamiento de datos específico.
+La solución Adobe Target está alojada en centros de datos que Adobe posee y en los que Adobe ha alquilado en todo el mundo. Los servidores de administración se alojan íntegramente dentro de los centros de datos propios de Adobe en Londres, Singapur y varias ubicaciones de EE. UU., incluso Oregon y Virginia. Los servidores Edge están alojados en servidores con propiedad de Adobe y Adobe, en centros de datos de Amazon AWS en Londres, Hong Kong, Singapur, Tokio y Sídney.
 
-Adobe posee actualmente centros de datos en varios continentes, incluidas ubicaciones regionales en Norteamérica, Europa y Asia.
+Las ubicaciones de Servidor de administración contienen un centro de recopilación de datos y un centro de procesamiento de datos. Las ubicaciones de sitios perimetrales contienen solamente un centro de recopilación de datos. Cada grupo de informes está asignado a un centro de procesamiento de datos específico.
 
 En lugar de responder a todas las solicitudes de segmentación desde una sola ubicación, las solicitudes son procesadas por el entorno Edge más cercano al visitante, mitigando así el impacto del tiempo de transferencia de red o Internet.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] actualmente no tiene una red Edge en China y el rendimiento del usuario final se seguirá limitando para [!DNL Target] los clientes de China. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] actualmente no tiene una red Edge en China y el rendimiento del usuario final se seguirá limitando para [!DNL Target] los clientes de China. Debido al gran servidor de seguridad y a la falta de nodos de Edge dentro del país, las experiencias de los sitios con [!DNL Target] implementado serán lentas para procesar y las cargas de páginas se verán afectadas. Además, los especialistas en marketing pueden experimentar latencia al utilizar la IU [!DNL Target] de creación.
 
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -172,7 +172,7 @@ Creemos que es difícil cambiar sin querer el significado del contenido original
 
 ## Bots {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. El tráfico identificado como generado por un bot sigue siendo contenido, como un usuario normal, para garantizar que esté en armonía con las directrices SEO. El uso del tráfico de bots puede inclinar pruebas A/B o algoritmos de personalización si se tratan como usuarios normales. Por lo tanto, si se detecta un bot conocido en la actividad de Target, el tráfico se trata de un modo ligeramente distinto. La eliminación del tráfico de bots proporciona una medición más precisa de la actividad del usuario.
+Adobe Target utiliza [deviceatlas](https://deviceatlas.com/) para detectar bots conocidos. El tráfico identificado como generado por un bot sigue siendo contenido, como un usuario normal, para garantizar que esté en armonía con las directrices SEO. El uso del tráfico de bots puede inclinar pruebas A/B o algoritmos de personalización si se tratan como usuarios normales. Por lo tanto, si se detecta un bot conocido en la actividad de Target, el tráfico se trata de un modo ligeramente distinto. La eliminación del tráfico de bots proporciona una medición más precisa de la actividad del usuario.
 
 Específicamente, para el tráfico de bots conocido Target no lo hace:
 
