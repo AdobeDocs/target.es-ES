@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 
 ---
 
@@ -106,7 +106,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
    Las Reglas de inclusión determinan qué artículos se incluirán en sus recomendaciones. Las opciones disponibles dependen del sector.
 
-   Para obtener más información, consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
+   Para obtener más información, consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
 
 1. Configure la **[!UICONTROL Ponderación de atributos]**.
 
@@ -118,11 +118,15 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
    Si está creando una nueva actividad de [!UICONTROL Recommendations] o está editando una existente, la casilla **[!UICONTROL Guardar criterios para más adelante]** está seleccionada de forma predeterminada. Si no desea usar los criterios en otras actividades, desmarque la casilla antes de guardar.
 
-### Tiempo de procesamiento de criterios esperado
+### Tiempo de procesamiento de criterios esperado {#time}
 
 * **mboxes**: si los criterios utilizan mboxes como fuente de datos de comportamiento, una vez creados, los criterios se ejecutarán de inmediato. Dependiendo de la cantidad de datos de comportamiento utilizados y del tamaño del catálogo, el algoritmo puede tardar hasta 12 horas en ejecutarse. Realizar cambios en los resultados de configuración de criterios en la ejecución de los criterios.
 
-* **Analytics**: si los criterios utilizan [!DNL Adobe Analytics] como fuente de datos de comportamiento, una vez creados, el tiempo de disponibilidad de los criterios depende de si el grupo de informes seleccionado y la ventana de vista al pasado se han utilizado para otros criterios. Si el grupo de informes se ha utilizado anteriormente con una ventana de búsqueda al menos durante el tiempo que la ventana de búsqueda seleccionada, entonces los datos de comportamiento ya están disponibles en Target y Recommendations ejecutan los criterios inmediatamente. El algoritmo puede tardar hasta 12 horas en ejecutarse, según la cantidad de datos de comportamiento utilizados y el tamaño del catálogo. Si el grupo de informes no se ha utilizado anteriormente, o si se usa con una ventana de visualización más larga, Recommendations debe solicitar y recibir datos de Adobe Analytics y luego ejecutar el algoritmo. El proceso de sincronización con Analytics generalmente toma al menos 2 días y puede tardar hasta 7 días en completarse, dependiendo de la carga del sistema de Analytics.
+* **Analytics**: si los criterios utilizan [!DNL Adobe Analytics] como fuente de datos de comportamiento, una vez creados, el tiempo de disponibilidad de los criterios depende de si el grupo de informes seleccionado y la ventana de vista al pasado se han utilizado para otros criterios.
+
+   * **Latencia inicial**: La latencia inicial está entre dos y siete días. Esta latencia inicial se produce una sola vez, cuando los criterios están configurados con un grupo de informes que no se ha utilizado anteriormente o que se utilizan con una ventana retroactiva más larga.
+   * **Latencia continua**: Si el grupo de informes se ha utilizado anteriormente con una ventana retroactiva al menos mientras la ventana retroactiva seleccionada, la latencia esperada para los criterios nuevos y existentes es inferior a 12 horas, según la cantidad de datos de comportamiento que utilice y el tamaño del catálogo.
+   Por ejemplo, para la recomendación «Afinidad visualizada», cuando un usuario ve un producto, se pasa una llamada de seguimiento de vista de producto a Analytics cerca de en tiempo real. Los datos de Analytics se insertan a principios de Target al día siguiente y Target ejecuta el algoritmo con menos de 12 horas.
 
 ## Basar la recomendación en una clave de recomendación {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -333,9 +337,9 @@ Páginas generales, como páginas principales o de aterrizaje y anuncios externo
 
 >[!NOTE]
 >
->Elementos vistos recientemente Respeta tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento queda excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; Por lo tanto, al utilizar los criterios de Artículos vistos recientemente, se suele utilizar la opción «Todas las colecciones».
+>Artículos vistos recientemente respeta tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento queda excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; Por lo tanto, al utilizar los criterios de Artículos vistos recientemente, se suele utilizar la opción «Todas las colecciones».
 
-### Previously Purchased Items {#previously-purchased}
+### Elementos comprados anteriormente {#previously-purchased}
 
 Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 
