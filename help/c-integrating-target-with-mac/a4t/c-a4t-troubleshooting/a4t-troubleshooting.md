@@ -9,7 +9,7 @@ title: Resolución de problemas de integración de Analytics y Target (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -24,7 +24,7 @@ Esto puede deberse a varios motivos:
 
 * La clasificación no se ha procesado del todo en [!DNL Target].
 
-   La clasificación puede tardar hasta 24 horas en procesarse desde que se guarda la actividad por primera vez.
+   La clasificación suele tardar entre 24 y 72 horas para clasificar los informes después del primer almacenamiento.
 
 * El grupo de informes no contiene datos, pero [!DNL Target] ha intentado clasificar las visitas. [!DNL Target] no puede clasificar los datos hasta que no se efectúa la primera visita.
 
@@ -50,7 +50,7 @@ Los detalles de alza y confianza no están disponibles en Analytics. Sin embargo
 
 ## Las actividades no aparecen en los informes de Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Las actividades de A4T requieren que se especifique un servidor de seguimiento. Consulte  [Usar un servidor de seguimiento de Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para comprobar si el servidor de seguimiento de Analytics está correctamente configurado.
+Las actividades de A4T requieren que se especifique un servidor de seguimiento. Consulte [Usar un servidor de seguimiento de Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para comprobar si el servidor de seguimiento de Analytics está correctamente configurado.
 
 >[!NOTE]
 >
