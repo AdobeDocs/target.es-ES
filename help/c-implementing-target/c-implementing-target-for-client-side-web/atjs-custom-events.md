@@ -1,6 +1,6 @@
 ---
 description: 'Información sobre eventos personalizados para at.js. '
-keywords: adobe.target.notification;elemento;selector;notificación;extensión
+keywords: custom events; at. js; request failed; solicitud correcta; error de procesamiento de contenido; procesamiento de contenido correctamente; library loaded; start start; inicio de contenido; no procesar ofertas; redirelreador de representación de contenido
 seo-description: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
 seo-title: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Primeros pasos
 title: Eventos personalizados de at.js
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
