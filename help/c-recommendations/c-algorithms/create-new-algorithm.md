@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: 6f15e460e5c998b4662310309d333667fed04308
 
 ---
 
@@ -106,7 +106,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
    Las Reglas de inclusión determinan qué artículos se incluirán en sus recomendaciones. Las opciones disponibles dependen del sector.
 
-   Para obtener más información, consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
+   Para obtener más información, consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
 1. Configure la **[!UICONTROL Ponderación de atributos]**.
 
@@ -118,15 +118,21 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
    Si está creando una nueva actividad de [!UICONTROL Recommendations] o está editando una existente, la casilla **[!UICONTROL Guardar criterios para más adelante]** está seleccionada de forma predeterminada. Si no desea usar los criterios en otras actividades, desmarque la casilla antes de guardar.
 
-### Tiempo de procesamiento de criterios esperado {#time}
+## Tiempo de procesamiento de criterios esperado {#process-time}
 
-* **mboxes**: si los criterios utilizan mboxes como fuente de datos de comportamiento, una vez creados, los criterios se ejecutarán de inmediato. Dependiendo de la cantidad de datos de comportamiento utilizados y del tamaño del catálogo, el algoritmo puede tardar hasta 12 horas en ejecutarse. Realizar cambios en los resultados de configuración de criterios en la ejecución de los criterios.
+Después de guardar un criterio [!DNL Target] , calcula las recomendaciones. Este cálculo tarda unos minutos en realizarse y el intervalo de tiempo difiere según la lógica de recomendación, el intervalo de datos, el número de elementos del catálogo, la cantidad de datos de comportamiento que sus clientes hayan generado y la fuente de datos de comportamiento seleccionada. La fuente de datos de comportamiento tiene el mayor impacto en el tiempo de procesamiento, de la siguiente manera:
 
-* **Analytics**: si los criterios utilizan [!DNL Adobe Analytics] como fuente de datos de comportamiento, una vez creados, el tiempo de disponibilidad de los criterios depende de si el grupo de informes seleccionado y la ventana de vista al pasado se han utilizado para otros criterios.
+### moboxes
 
-   * **Latencia inicial**: La latencia inicial está entre dos y siete días. Esta latencia inicial se produce una sola vez, cuando los criterios están configurados con un grupo de informes que no se ha utilizado anteriormente o que se utilizan con una ventana retroactiva más larga.
-   * **Latencia continua**: Si el grupo de informes se ha utilizado anteriormente con una ventana retroactiva al menos mientras la ventana retroactiva seleccionada, la latencia esperada para los criterios nuevos y existentes es inferior a 12 horas, según la cantidad de datos de comportamiento que utilice y el tamaño del catálogo.
-   Por ejemplo, para la recomendación «Afinidad visualizada», cuando un usuario ve un producto, se pasa una llamada de seguimiento de vista de producto a Analytics cerca de en tiempo real. Los datos de Analytics se insertan a principios de Target al día siguiente y Target ejecuta el algoritmo con menos de 12 horas.
+Si se seleccionan mboxes como fuente de datos de comportamiento, una vez creada, los criterios se ejecutan inmediatamente. Dependiendo de la cantidad de datos de comportamiento utilizados y del tamaño del catálogo, el algoritmo puede tardar hasta 12 horas en ejecutarse. Si se realizan cambios en la configuración de criterios, se vuelve a ejecutar el algoritmo. Según el cambio realizado, las recomendaciones calculadas anteriormente podrían estar disponibles hasta que se complete una reejecución, o para cambios más grandes, solo el contenido predeterminado o de copia de seguridad estará disponible hasta que se complete una reejecución. Si no se modifica un algoritmo, se vuelve a ejecutar automáticamente [!DNL Target] cada 12 a 48 horas, según el intervalo de datos seleccionado.
+
+### Adobe Analytics 
+
+If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+
+* **Configuración de grupos de informes única**: La primera vez que se utiliza un grupo de informes con una ventana retrospectiva de intervalo de datos determinada, [!DNL Target Recommendations] puede pasar de dos a siete días para descargar completamente los datos de comportamiento del grupo de informes seleccionado. [!DNL Analytics] Este intervalo de tiempo depende de la carga [!DNL Analytics] del sistema.
+* **Criterios nuevos o editados utilizando un grupo de informes ya disponible**: Al crear un nuevo criterio o editar uno existente, si el grupo de informes seleccionado ya se ha utilizado con [!DNL Target Recommendations]un intervalo de datos igual o inferior al intervalo de datos seleccionado, entonces los datos estarán disponibles inmediatamente y no se requiere una configuración única. En este caso, o si la configuración de un algoritmo se edita sin modificar el grupo de informes o el intervalo de datos seleccionado, el algoritmo se ejecuta o vuelve a ejecutarse en un plazo de 12 horas.
+* **Se ejecuta el algoritmo en curso**: Los datos [!DNL Analytics] fluyen [!DNL Target Recommendations] diariamente. Por ejemplo, para [!UICONTROL la recomendación Afinidad] visto, cuando un usuario ve un producto, se pasa una llamada de seguimiento de vista de producto [!DNL Analytics] a cerca de tiempo real. [!DNL Analytics] Los datos se insertan al [!DNL Target] principio del día siguiente y [!DNL Target] ejecutan el algoritmo en menos de 12 horas.
 
 ## Basar la recomendación en una clave de recomendación {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -337,7 +343,7 @@ Páginas generales, como páginas principales o de aterrizaje y anuncios externo
 
 >[!NOTE]
 >
->Artículos vistos recientemente respeta tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento queda excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; Por lo tanto, al utilizar los criterios de Artículos vistos recientemente, se suele utilizar la opción «Todas las colecciones».
+>Elementos vistos recientemente Respeta tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento queda excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; Por lo tanto, al utilizar los criterios de Artículos vistos recientemente, se suele utilizar la opción «Todas las colecciones».
 
 ### Elementos comprados anteriormente {#previously-purchased}
 
