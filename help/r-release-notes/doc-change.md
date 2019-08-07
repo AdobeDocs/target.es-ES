@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
@@ -24,6 +24,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | 7 de agosto de 2019 | [Recuperación previa de contenido de ofertas](/help/c-target-mobile-app/prefetch-offer-content.md) | Se ha añadido la nota de que la funcionalidad de recuperación previa de los SDK no es compatible con los tipos de actividades de Segmentación automática, Asignación automática y Personalización automatizada. |
 |  | [Resolución de problemas de integración de Analytics y Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Se ha actualizado la nota para indicar cuánto tarda el proceso de clasificación en completarse. |
 |  | [Ver informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Se ha actualizado la nota para indicar cuánto tarda el proceso de clasificación en completarse. |
+|  | [Normativas de privacidad y protección de datos](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Se ha actualizado el tema para incluir información sobre la Ley de privacidad del consumidor de California (CCPA). |
 | 6 de agosto de 2019 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se han añadido notas de revisión para la versión iOS Mobile VEC SDK iOS 2.1.0 y Android 1.1.0. |
 |  | [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Se ha actualizado la siguiente sección: «Tiempo de procesamiento de criterios esperado.» |
 |  | [Ver informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Se ha actualizado la consideración sobre el uso [!UICONTROL de las métricas de Impresiones] de actividad y [!UICONTROL Conversiones] de actividad en [!DNL Analysis Workspace]. |
