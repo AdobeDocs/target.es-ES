@@ -8,7 +8,7 @@ title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -58,11 +58,11 @@ Tenga en cuenta lo siguiente:
 
 “Conversiones de la actividad” no tendrá datos si se ha seleccionado una métrica de Analytics como métrica de conversión de la actividad.
 
-## ¿Por qué pone “sin especificar” en los informes de Analytics? ¿Qué quiere decir? {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
+## ¿Por qué pone “sin especificar” en los informes de Analytics? ¿Qué quiere decir? {#unspecified}
 
 ![](assets/unspecified.png)
 
-En otros informes, “sin especificar” significa que los datos no cumplían una regla de clasificación, pero esto no debería suceder nunca en A4T. Si ve “sin especificar”, aún no se ha ejecutado el servicio de clasificación. Los datos de la actividad pueden tardar hasta 36 horas en aparecer en los informes. Aunque las actividades no aparecen en este informe hasta llegado ese momento, todos los datos de visitantes asociados a esas actividades se recopilan y aparecerán cuando se complete la clasificación.
+En otros informes, “sin especificar” significa que los datos no cumplían una regla de clasificación, pero esto no debería suceder nunca en A4T. Si ve “sin especificar”, aún no se ha ejecutado el servicio de clasificación. Por lo general, los datos de actividad tardan entre 24 y 72 horas en aparecer en los informes. Aunque las actividades no aparecen en este informe hasta llegado ese momento, todos los datos de visitantes asociados a esas actividades se recopilan y aparecerán cuando se complete la clasificación.
 
 Tras el periodo de clasificación, los datos aparecen en estos informes aproximadamente una hora después de recabarse del sitio web. Todas las métricas, los segmentos y los valores de los informes proceden del grupo de informes que seleccionó cuando configuró la actividad.
 
