@@ -9,7 +9,7 @@ title: Resolución de problemas de integración de Analytics y Target (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Este tema cubre algunos problemas comunes que se han encontrado al usar Analytics como fuente de informes para Target (A4T).
 
-## Las actividades no muestran datos en Analytics y aparecen como “sin especificar”.{#section_EB97F0499B0E40E69A21C30DC539BF67}
+## Las actividades no muestran datos en Analytics y aparecen como “sin especificar”.{#unspecified}
 
 Esto puede deberse a varios motivos:
 
@@ -34,9 +34,9 @@ Esto puede deberse a varios motivos:
 
    [Póngase en contacto con el servicio de atención al cliente](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para solicitar ayuda.
 
-En ocasiones, los datos se muestran correctamente en los informes, pero luego vuelven a aparecer como “sin especificar” porque se ha añadido una actividad nueva que no ha completado la clasificación. Recuerde que la clasificación de los informes puede tardar hasta 24 horas desde que se guarda por primera vez.
-
 >[!NOTE]
+>
+>En ocasiones, los datos se muestran correctamente en los informes, pero luego vuelven a aparecer como “sin especificar” porque se ha añadido una actividad nueva que no ha completado la clasificación. Recuerde que generalmente tarda entre 24 y 72 horas en clasificar los informes después del primer guardado.
 >
 >No se pierde ningún dato cuando aparece como “sin especificar”. Los datos se asignan correctamente a la actividad o experiencia apropiadas cuando se efectúa la clasificación.
 
@@ -50,7 +50,7 @@ Los detalles de alza y confianza no están disponibles en Analytics. Sin embargo
 
 ## Las actividades no aparecen en los informes de Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Las actividades de A4T requieren que se especifique un servidor de seguimiento. Consulte [Usar un servidor de seguimiento de Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para comprobar si el servidor de seguimiento de Analytics está correctamente configurado.
+Las actividades de A4T requieren que se especifique un servidor de seguimiento. Consulte  [Usar un servidor de seguimiento de Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para comprobar si el servidor de seguimiento de Analytics está correctamente configurado.
 
 >[!NOTE]
 >
