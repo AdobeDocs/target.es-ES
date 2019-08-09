@@ -8,7 +8,7 @@ title: Opciones del Compositor de experiencias visuales
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -233,7 +233,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Insertar después
 
@@ -257,7 +257,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Reemplazar con
 
@@ -295,7 +295,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 #### Fragmento de experiencia
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Diseño
 
@@ -340,6 +340,10 @@ Abre el destino del vínculo.
 ### Deshacer/rehacer
 
 Deshace los cambios realizados en las actividades durante una sesión de edición. También puede rehacer cambios que haya deshecho anteriormente.
+
+## Consideraciones {#considerations}
+
+* Si una oferta contiene contenido HTML, consulte «How at. js renders offers with HTML content» in [How at. js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
 
 ## Desplazamiento por elementos utilizando la ruta DOM {#dom-path}
 
