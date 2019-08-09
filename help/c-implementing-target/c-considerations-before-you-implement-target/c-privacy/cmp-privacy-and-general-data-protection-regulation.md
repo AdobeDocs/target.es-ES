@@ -8,7 +8,7 @@ title: Normativas de privacidad y protección de datos
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: aa077c92e0b6aaec27429acd9292a5edcf6c60fa
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -289,6 +289,6 @@ La siguiente tabla contiene descripción de los campos JSON de perfil ilustrativ
 >
 >This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. Many of the fields of the [!DNL Target] profile are not standard. El resultado obtenido depende de la información que contenga ese perfil del visitante específico.
 
-## ¿Admite Target la ocultación de la IP?  {#section_428907B0CD9842D9B245B38C66A53C6A}
+### ¿Admite Target la ocultación de la IP?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] admite la confusión de IP si decide usarla como parte de su estrategia de implementación GDPR o CCPA. For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
