@@ -1,21 +1,21 @@
 ---
-description: Información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea y la Ley de privacidad del consumidor de California (CCPA) y cómo estos reglamentos afectan a su organización y Adobe Target.
+description: Información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de privacidad del consumidor de California (CCPA) y otros requisitos de privacidad internacionales, y cómo estos reglamentos afectan a su organización y a Adobe Target.
 keywords: gdpr; eu; unión europea; privacy; faq; preguntas más frecuentes; california consumer privacy act; ccpa; privacy; protección de datos; opt-out; opt-out; gobierno; regulación
-seo-description: Información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea y la Ley de privacidad del consumidor de California (CCPA) y cómo estos reglamentos afectan a su organización y Adobe Target.
-seo-title: Reglamento general de protección de datos (RGPD), Ley de privacidad del consumidor de California (CCPA) y Adobe Target
+seo-description: Información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de privacidad del consumidor de California (CCPA) y otros requisitos de privacidad internacionales, y cómo estos reglamentos afectan a su organización y a Adobe Target.
+seo-title: Información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de privacidad del consumidor de California (CCPA) y otros requisitos de privacidad internacionales, y cómo estos reglamentos afectan a su organización y a Adobe Target.
 solution: Target
 title: Normativas de privacidad y protección de datos
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
 
 ---
 
 
 # Normativas de privacidad y protección de datos {#privacy-and-general-data-protection-regulation-gdpr}
 
-Información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea y la Ley de privacidad del consumidor de California (CCPA) y cómo estos reglamentos afectan a su organización y [!DNL Adobe Target].
+Información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de privacidad del consumidor de California (CCPA) y otros requisitos de privacidad internacionales, y cómo estos reglamentos afectan a su organización y a Adobe Target.
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -37,9 +37,7 @@ Para obtener más información, consulte:
 
 ## Información general sobre la Ley de privacidad del consumidor de California (CCPA)
 
-La Ley de privacidad del consumidor de California (CCPA) entró en vigor el 1 de enero de 2020. Por diseño, la ley proporciona al programador de California un margen para realizar ajustes y aclarar los detalles, lo que significa que puede tener muchas preguntas. Si tiene alguna duda, no es la única persona que trabaja a través de las incertidumbres de la ley e intenta comprender y desarrollar un enfoque para satisfacer los requisitos legales, operativos y técnicos.
-
-CCPA proporciona a los consumidores de California nuevos derechos relacionados con su información personal e impone responsabilidades de protección de datos en determinadas entidades que realizan negocios en California. En un nivel alto, la ley otorga a California varios derechos clave, incluidos los derechos para:
+La Ley de privacidad del consumidor de California (CCPA) proporciona a los consumidores de California nuevos derechos relacionados con su información personal e impone responsabilidades de protección de datos en determinadas entidades que realizan negocios en California. En un nivel alto, la ley otorga a California varios derechos clave, incluidos los derechos para:
 
 * Solicitar información (acceso a datos)
 * Desactivación de la venta de información personal (se ha definido un derecho muy amplio para dejar de compartir información con terceros)
@@ -102,7 +100,7 @@ Hay tres escenarios a considerar cuando se usa la inclusión:
 
 ## Preguntas frecuentes sobre reglas de protección de datos y privacidad {#concept_41F88DE95D2943178BEC382736B5C038}
 
-Preguntas más frecuentes sobre el Reglamento General de Protección de Datos (RGPD) y la Ley de Privacidad del Consumidor de California (CCPA) para [!DNL Target].
+Preguntas más frecuentes sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de privacidad del consumidor de California (CCPA) y otros requisitos de privacidad internacionales específicos de Target.
 
 ### ¿Qué es la política de Adobe para estas regulaciones? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
