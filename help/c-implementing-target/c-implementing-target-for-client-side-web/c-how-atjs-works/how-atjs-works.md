@@ -8,7 +8,7 @@ title: Cómo funciona at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ---
 
@@ -77,10 +77,27 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 | 5 | Según la URL, los parámetros de mbox y los datos de perfil, [!DNL Target] decide qué actividades y experiencias vuelven al visitante. | 6 | Se devuelve el contenido dirigido a la página, incluyendo de manera opcional los valores de perfil para una personalización adicional.<br>Se muestra la experiencia lo más rápido posible sin parpadeos del contenido predeterminado. |
 | 7 | Se envían los datos de [!DNL Analytics] a los servidores de recopilación de datos. | 8 | Se comparan los datos de [!DNL Target] con los datos de [!DNL Analytics] mediante el SDID y se procesan en el almacén de informes de [!DNL Analytics].<br>Por lo tanto, los datos de [!DNL Analytics] se pueden visualizar tanto en [!DNL Analytics] como en [!DNL Target] mediante los informes de [!DNL Analytics for Target] (A4T). |
 
+## Cómo at. js procesa ofertas con contenido HTML {#render}
+
+Al procesar ofertas con contenido HTML, at. js aplica el siguiente algoritmo:
+
+1. Las imágenes se cargan previamente (si hay `<img>` etiquetas en el contenido HTML).
+
+1. El contenido HTML se adjunta al nodo DOM.
+
+1. Se ejecutan secuencias de comandos en línea (código delimitado por `<script>` etiquetas).
+
+1. Las secuencias de comandos remotas se cargan de forma asíncrona y se ejecutan (`<script>` etiquetas con `src` atributos).
+
+Notas importantes:
+
+* at. js no proporciona garantías en el orden de ejecución de la secuencia de comandos remota, ya que se cargan asincrónicamente.
+* Los scripts en línea no deberían tener dependencias en secuencias de comandos remotas, ya que se cargan y ejecutan más adelante.
+
 ## Vídeo de formación: Diagrama arquitectónico de at.js 2.x
 
 at.js 2.x mejora la compatibilidad de Adobe Target con las SPA e integra otras soluciones de Experience Cloud. Este vídeo explica cómo se vincula todo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=spa)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Consulte [Explicación de cómo funciona at. js 2. x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obtener más información.
