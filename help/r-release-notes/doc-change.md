@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -21,6 +21,8 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 9 de agosto de 2019 | [Cómo funciona at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Se ha añadido una nueva sección: " How at. js renders offers with HTML content. " |
+|  | [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Se ha añadido una nueva sección: " Consideraciones ". |
 | 7 de agosto de 2019 | [Recuperación previa de contenido de ofertas](/help/c-target-mobile-app/prefetch-offer-content.md) | Se ha añadido la nota de que la funcionalidad de recuperación previa de los SDK no es compatible con los tipos de actividades de Segmentación automática, Asignación automática y Personalización automatizada. |
 |  | [Resolución de problemas de integración de Analytics y Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Se ha actualizado la nota para indicar cuánto tarda el proceso de clasificación en completarse. |
 |  | [Ver informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Se ha actualizado la nota para indicar cuánto tarda el proceso de clasificación en completarse. |
