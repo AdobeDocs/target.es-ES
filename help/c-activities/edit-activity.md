@@ -8,7 +8,7 @@ title: Editar una actividad o guardar como borrador
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -60,9 +60,9 @@ Target ofrece en su interfaz varios puntos donde se pueden editar las actividade
 
 
 
-## Trabajo con actividades heredadas creadas en Adobe Target Classic {#classic}
+## Trabajo con actividades heredadas creadas en Recommendations Classic {#classic}
 
-La lista [!UICONTROL Actividades] muestra actividades creadas en varias fuentes, incluyendo [!DNL Adobe Target Classic]. Las siguientes acciones están disponibles cuando se trabaja con actividades heredadas creadas en [!DNL Target Classic]:
+La lista [!UICONTROL Actividades] muestra actividades creadas en varias fuentes, incluyendo [!DNL Recommendations Classic]. Las siguientes acciones están disponibles cuando se trabaja con actividades heredadas creadas en [!DNL Recommendations Classic]:
 
 * [!UICONTROL Activar]
 * [!UICONTROL Desactivar]
@@ -70,7 +70,7 @@ La lista [!UICONTROL Actividades] muestra actividades creadas en varias fuentes,
 * [!UICONTROL Copiar]
 * [!UICONTROL Eliminar]
 
-No puede editar una [!DNL Target Classic] actividad directamente. Si desea editar la actividad, debe crear una copia de la actividad y [!DNL Target Standard/Premium] luego guardar la actividad recién creada.
+No puede editar una [!DNL Recommendations] actividad directamente. Si desea editar la actividad, debe crear una copia de la actividad y [!DNL Target Premium] luego guardar la actividad recién creada. Esta actividad recién creada puede editarse según sea necesario.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
