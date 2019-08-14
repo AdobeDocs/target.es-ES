@@ -8,7 +8,7 @@ title: Normativas de privacidad y protección de datos
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -37,7 +37,9 @@ Para obtener más información, consulte:
 
 ## Información general sobre la Ley de privacidad del consumidor de California (CCPA)
 
-La Ley de privacidad del consumidor de California (CCPA) proporciona a los consumidores de California nuevos derechos relacionados con su información personal e impone responsabilidades de protección de datos en determinadas entidades que realizan negocios en California. En un nivel alto, la ley otorga a California varios derechos clave, incluidos los derechos para:
+La Ley de privacidad del consumidor de California (CCPA) proporciona a los consumidores de California nuevos derechos relacionados con su información personal e impone responsabilidades de protección de datos en determinadas entidades que realizan negocios en California. CCPA entrará en vigor el 1 de enero de 2020.
+
+En un nivel alto, la ley otorga a California varios derechos clave, incluidos los derechos para:
 
 * Solicitar información (acceso a datos)
 * Desactivación de la venta de información personal (se ha definido un derecho muy amplio para dejar de compartir información con terceros)
