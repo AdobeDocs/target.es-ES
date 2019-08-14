@@ -8,7 +8,7 @@ title: Opciones del Compositor de experiencias visuales
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -313,11 +313,11 @@ Cambia el tamaño de un elemento en la página. Al seleccionar [!UICONTROL Cambi
 
 **Nota:** No se puede cambiar el tamaño de los elementos en línea.
 
-#### Mover
+#### Mover {#move}
 
 Mueve elementos en la página. A diferencia de [!UICONTROL Reorganizar], [!UICONTROL Mover] no desplaza otros elementos para conseguir espacio para el elemento que se va a mover. Use las teclas de dirección para ajustar el movimiento. (Mejora prevista: hacer que los elementos movidos no queden ocultos detrás de otros elementos).
 
-En algunos casos, como cuando una restricción de CSS requiere que un elemento permanezca dentro de su elemento principal, no se puede mover el elemento fuera del elemento principal.
+En algunos casos, como cuando una restricción de CSS requiere que un elemento permanezca dentro de su elemento principal, no se puede mover el elemento fuera del elemento principal. Un elemento no se puede mover fuera de un contenedor que tenga la propiedad CSS siguiente: `overflow: hidden`.
 
 #### Ocultar
 
