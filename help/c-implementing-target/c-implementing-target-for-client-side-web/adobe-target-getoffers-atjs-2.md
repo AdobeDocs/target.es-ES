@@ -8,7 +8,7 @@ subtopic: Primeros pasos
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -23,7 +23,7 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 
 | Clave | Tipo | ¿Requerido? | Descripción |
 | --- | --- | --- | --- |
-| consumerId | Cadena | No | Si no se proporciona, el valor predeterminado es el mbox global del cliente. Esta clave se utiliza para generar el ID de datos suplementario utilizado para la integración de A4T. |
+| consumerId | Cadena | No | Si no se proporciona, el valor predeterminado es el mbox global del cliente. Esta clave se utiliza para generar el ID de datos suplementario utilizado para la integración de A4T. Esta clave es una cadena única por visitante. |
 | de eventos | Objeto | Sí | Consulte la tabla Solicitudes a continuación. |
 | timeout | Número | No | Tiempo de espera de solicitud. Si no se especifica, se usará el tiempo de espera predeterminado en at.js. |
 
