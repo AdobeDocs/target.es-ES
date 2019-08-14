@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -21,9 +21,10 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 14 de agosto de 2019 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Se ha actualizado el texto y se ha añadido un vínculo de vídeo de capacitación. |
 | 12 de agosto de 2019 | [Android: configuración de la aplicación móvil](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Se ha actualizado la información sobre dependencias y artefactos.<br>Se ha actualizado la muestra de código del `AndroidManifest.XML` archivo. |
 |  | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha actualizado la lista de mejoras y correcciones en la sección «Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1». |
-|  | [Editar una actividad o guardar como borrador](/help/c-activities/edit-activity.md#classic) | Se ha añadido una nueva sección: " Trabajo con actividades heredadas creadas en Adobe Target Classic. " |
+|  | [Editar una actividad o guardar como borrador](/help/c-activities/edit-activity.md#classic) | Se ha añadido una nueva sección: " Trabajo con actividades heredadas creadas en Recommendations Classic. " |
 | 9 de agosto de 2019 | [Cómo funciona at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Se ha añadido una nueva sección: " How at. js renders offers with HTML content. " |
 |  | [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Se ha añadido una nueva sección: " Consideraciones ". |
 | 7 de agosto de 2019 | [Recuperación previa de contenido de ofertas](/help/c-target-mobile-app/prefetch-offer-content.md) | Se ha añadido la nota de que la funcionalidad de recuperación previa de los SDK no es compatible con los tipos de actividades de Segmentación automática, Asignación automática y Personalización automatizada. |
