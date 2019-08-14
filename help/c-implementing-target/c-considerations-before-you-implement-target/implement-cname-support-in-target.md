@@ -1,6 +1,6 @@
 ---
 description: Información sobre cómo trabajar con Adobe Client Care para implementar el soporte de CNAME (nombre canónico) en Adobe Target.
-keywords: client care;cname;programa certificado;nombre canónico;cookies;certificado
+keywords: client care;cname;programa certificado;nombre canónico;cookies;certificado; amc; certificado administrado de Adobe
 seo-description: Información sobre cómo trabajar con Adobe Client Care para implementar el soporte de CNAME (nombre canónico) en Adobe Target.
 seo-title: CNAME y Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: CNAME y Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -19,8 +19,8 @@ Información sobre cómo trabajar con Adobe Client Care para implementar el sopo
 
 Realice los pasos siguientes para solicitar asistencia de CNAME en Target:
 
-1. Abra un  [ticket de atención al cliente](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) solicitando asistencia de CNAME para sus llamadas de Adobe Target.
-1. Inscríbase en el [programa Adobe Managed Certificate (AMC)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) y siga los pasos de implementación que se proporcionan en la guía [!DNL Adobe Analytics]*Cookies de origen*.
+1. Abra un [ticket de atención al cliente](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) solicitando asistencia de CNAME para sus llamadas de Adobe Target.
+1. Inscríbase en el [programa Adobe Managed Certificate (AMC)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) y siga los pasos de implementación que se proporcionan en la guía [!DNL Adobe Analytics]*Cookies de origen.* [!DNL Target] utiliza el mismo método que utiliza la compatibilidad [!DNL Analytics] con CNAME.
 
    El programa AMC ayuda a eliminar el esfuerzo y la confusión que experimentan los clientes al implementar cookies de origen. Después de inscribirse en este programa, Adobe comprará y emitirá el certificado para instalarlo en servidores seguros.
 
