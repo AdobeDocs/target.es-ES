@@ -8,7 +8,7 @@ title: 'Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -43,15 +43,15 @@ Se esperan algunas discrepancias en los datos. Para obtener más información, c
 
 ## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Existe la posibilidad de que se produzca una condición de carrera que provoque que Analytics haga una llamada de activación antes de que la redirección se ejecute en la primera página. Esto puede provocar que se cuenten tanto las vistas de página de la página original como las de la página de redirección. Como consecuencia, se cuenta una vista de página adicional en la primera página, cuando en realidad el visitante nunca “vio” esa primera página.
+Al utilizar la versión 1.6.3 o posterior de at. js, no es un problema. Esta condición de carrera solo afecta a los clientes que utilizan versiones anteriores. El equipo de Target mantiene dos versiones de at. js: la versión actual y la segunda versión más reciente. Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+Si utiliza una versión anterior no compatible de at. js, existe la posibilidad de que se produzca una condición de carrera que pueda provocar que la llamada de Analytics se active antes de que se ejecute la redirección en la primera página. Esto puede provocar que se cuenten tanto las vistas de página de la página original como las de la página de redirección. Como consecuencia, se cuenta una vista de página adicional en la primera página, cuando en realidad el visitante nunca “vio” esa primera página.
 
 Para aumentar la velocidad de redirección de la página, se recomienda utilizar el compositor basado en formulario para crear una actividad de redirección. Esto depende del lugar de la página en que se ejecuta el código. También se recomienda crear una oferta de redireccionamiento para cada experiencia, incluso para la experiencia predeterminada, en la que la redirección devuelva la página original. Así se garantiza que si se produce un error de recuento, este se produzca en todas las experiencias, de modo que los informes y los análisis sigan siendo válidos para la prueba.
 
->[!NOTE]
->
->Esta condición de carrera solo afecta a los clientes que utilizan la versión 1.6.3 o anterior de at.js. Tenga en cuenta que el equipo de Target mantiene solo dos versiones de at.js: la actual y la penúltima. Actualice at.js cuando sea posible para garantizar que dispone de una [versión compatible](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+La razón por la que puede interesarle utilizar ofertas de redireccionamiento para todas las experiencias de la actividad, incluida la experiencia predeterminada (control), es reunir las mismas condiciones en todas las experiencias. Por ejemplo, si la experiencia predeterminada no tiene una oferta de redireccionamiento pero las demás experiencias tienen ofertas de redireccionamiento, la velocidad de la experiencia sin la oferta de redireccionamiento tiene una ventaja inherente. Solo se recomiendan las ofertas de redireccionamiento para situaciones temporales, como las pruebas. No se recomiendan ofertas de redireccionamiento para escenarios permanentes, como personalización. Después de determinar el ganador, debe eliminar la redirección para mejorar el rendimiento de carga de página.
 
-Para obtener más información sobre este problema, consulte la columna “Ofertas de redireccionamiento” en la tabla [Problemas conocidos](../../../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541).
+For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## ¿Puedo utilizar ofertas de redireccionamiento con A4T si empleo la biblioteca mbox.js de JavaScript?{#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
