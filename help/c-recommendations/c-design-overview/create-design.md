@@ -10,7 +10,7 @@ topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -47,3 +47,12 @@ Puede crear un diseño de [!UICONTROL Recommendations] usando un diseño predete
    >El número máximo de entidades a las que se puede hacer referencia en un diseño, tanto codificadas como mediante bucles, es de 99.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+## Vídeo de capacitación: Creación de diseños personalizados en Recomendaciones (3:20)
+
+Este vídeo contiene la siguiente información:
+
+* Creación de un diseño personalizado
+* Comprender cómo hacer referencia a las variables de visualización en los diseños
+
+>[!VIDEO](https://video.tv.adobe.com/v/27687?captions=spa)
