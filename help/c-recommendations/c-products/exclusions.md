@@ -8,7 +8,7 @@ title: Exclusiones
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -46,3 +46,12 @@ Cree una lista de exclusión para impedir que se recomienden determinados artíc
 >[!IMPORTANT]
 >
 >La función Búsqueda avanzada diferencia entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que diferencia entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear exclusiones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea una exclusión con la intención de excluir productos que contengan “vacaciones”, solo se excluirán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
+
+## Vídeo de capacitación: Creación de colecciones y exclusiones en Recommendations (7:05)
+
+Este vídeo contiene la siguiente información:
+
+* Creación de una colección
+* Crear una exclusión
+
+>[!VIDEO](https://video.tv.adobe.com/v/27689?captions=spa)
