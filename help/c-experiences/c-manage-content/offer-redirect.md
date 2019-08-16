@@ -1,14 +1,14 @@
 ---
 description: La oferta de redireccionamiento hace que un navegador redirija a una página nueva.
 keywords: oferta de redireccionamiento;crear oferta de redireccionamientoa;añadir oferta de html;Pasar los parámetros de URL en el redireccionamiento;Pasar mboxSessionId en el redireccionamiento (solo cuando el redireccionamiento va a un dominio diferente)
-seo-description: La oferta de redireccionamiento hace que un navegador redirija a una página nueva.
+seo-description: Información sobre ofertas de redireccionamiento en Adobe Target que hace que un explorador redirija a una página nueva.
 seo-title: Crear ofertas de redireccionamiento
 solution: Target
 title: Crear ofertas de redireccionamiento
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 ---
 
@@ -22,8 +22,6 @@ Es posible que tenga dos páginas completamente distintas para probarlas, en lug
 >[!NOTE] {class="- topic/note "}
 >
 >No se pueden usar las ofertas de redireccionamiento en los mboxes de Ajax (`mboxUpdate`).
-
->[!NOTE]
 >
 >Para redireccionar ofertas en actividades que utilizan A4T, su implementación debe satisfacer ciertos requisitos mínimos. Además, hay información importante que debe conocer. Para obtener más información, consulte las [preguntas más frecuentes de A4T sobre las ofertas de redireccionamiento](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 
