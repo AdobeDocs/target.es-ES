@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -279,7 +279,7 @@ Estos son los posibles estados de una fuente:
 | Esperando descarga | Target se está preparando para descargar el archivo de fuente. |
 | Descargando del archivo de fuente | Target está descargando el archivo de fuente. |
 | Importando elementos | Target está importando elementos del archivo de fuente. |
-| Feed Imported Successfully at *time* | Target ha importado el archivo de fuente al sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido y se reflejarán en breve en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo en breve y actualice la página que contenga recomendaciones.<br>*Nota 1:* Si los cambios realizados en los atributos de un elemento resultan en excluir un elemento de las recomendaciones, la exclusión se reflejará inmediatamente. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Nota 2:* Cuando se muestra este estado, es posible que las actualizaciones no se reflejen aún en la interfaz de usuario Buscar en el catálogo. Aparece un estado separado en la búsqueda en catálogo que indica la última vez que se actualizó el catálogo en el que se puede buscar. |
+| Fuente importada correctamente en *el momento* | Target ha importado el archivo de fuente al sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido y se reflejarán en breve en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo en breve y actualice la página que contenga recomendaciones.<br>*Nota 1:* Si los cambios realizados en los atributos de un elemento resultan en excluir un elemento de las recomendaciones, la exclusión se reflejará inmediatamente. Si se agrega un elemento recientemente o cambia a atributos, el elemento ya *no* se excluye de las recomendaciones, sino que no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.<br>*Nota 2:* Cuando se muestra este estado, es posible que las actualizaciones no se reflejen aún en la interfaz de usuario Buscar en el catálogo. Aparece un estado separado en la búsqueda en catálogo que indica la última vez que se actualizó el catálogo en el que se puede buscar. |
 | Error en la indexación | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
 | Servidor no encontrado | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
 
@@ -314,3 +314,25 @@ El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutad
 * 3 de febrero: son las 10:00 y la fuente no se ha ejecutado desde hace un mes, un día y una hora
 
 El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace un día y una hora. Aunque esto es solo [31 + (1/25)]/30 = 1,03 % de la configuración de frecuencia, se ha superado el retraso máximo de un día.
+
+## Vídeos de formación
+
+Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
+
+### Explicación de las fuentes en Recomendaciones (3:01)
+
+Este vídeo contiene la siguiente información:
+
+* Comprender el propósito de las fuentes
+* Comprender el valor de las fuentes
+
+>[!VIDEO](https://video.tv.adobe.com/v/27695?captions=spa)
+
+### Creación de una fuente (6:44)
+
+Este vídeo contiene la siguiente información:
+
+* Configuración de una fuente
+* Saber qué tipo de fuente utilizar
+
+>[!VIDEO](https://video.tv.adobe.com/v/27696?captions=spa)
