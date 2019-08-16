@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -22,6 +22,14 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 16 de agosto de 2019 | [Sincronización de perfiles en tiempo real para mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Se ha añadido una nueva sección: " Consideraciones ". |
+|  | [Crear una actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | Se ha agregado un vídeo de capacitación. |
+|  | [Fuentes](/help/c-recommendations/c-products/feeds.md) | Se han añadido vídeos de capacitación. |
+|  | [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Se ha agregado un vídeo de capacitación. |
+|  | [Cargar criterios personalizados](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Se ha agregado un vídeo de capacitación. |
+|  | [Crear secuencias de criterios](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Se ha agregado un vídeo de capacitación. |
+|  | [Crear un diseño](/help/c-recommendations/c-design-overview/create-design.md) | Se ha agregado un vídeo de capacitación. |
+|  | [Colecciones](/help/c-recommendations/c-products/collections.md) | Se ha agregado un vídeo de capacitación. |
+|  | [Exclusiones](/help/c-recommendations/c-products/exclusions.md) | Se ha agregado un vídeo de capacitación. |
 | 14 de agosto de 2019 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Se ha actualizado el texto y se ha añadido un vínculo de vídeo de capacitación. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Información de Clarrifed sobre `consumerID` la clave. |
 |  | [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Se ha actualizado la información en la sección «Diseño &gt; Mover». |
