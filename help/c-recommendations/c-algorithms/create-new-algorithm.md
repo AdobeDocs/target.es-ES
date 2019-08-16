@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -126,7 +126,7 @@ Después de guardar un criterio [!DNL Target] , calcula las recomendaciones. Est
 
 Si se seleccionan mboxes como fuente de datos de comportamiento, una vez creada, los criterios se ejecutan inmediatamente. Dependiendo de la cantidad de datos de comportamiento utilizados y del tamaño del catálogo, el algoritmo puede tardar hasta 12 horas en ejecutarse. Si se realizan cambios en la configuración de criterios, se vuelve a ejecutar el algoritmo. Según el cambio realizado, las recomendaciones calculadas anteriormente podrían estar disponibles hasta que se complete una reejecución, o para cambios más grandes, solo el contenido predeterminado o de copia de seguridad estará disponible hasta que se complete una reejecución. Si no se modifica un algoritmo, se vuelve a ejecutar automáticamente [!DNL Target] cada 12 a 48 horas, según el intervalo de datos seleccionado.
 
-### Adobe Analytics 
+### Adobe Analytics.
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
@@ -191,7 +191,7 @@ Páginas de una sola categoría.
 
 NO lo utilice en páginas de resultados de búsqueda nulos.
 
-### Atributo personalizado  {#custom}
+### Atributo personalizado. {#custom}
 
 La recomendación viene determinada por un elemento almacenado en el perfil de un visitante, utilizando los atributos user.*x* o perfil.atributos *x*.
 
@@ -331,7 +331,7 @@ La recomendación está determinada por la popularidad de los artículos del sit
 
 Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
 
-### Artículos vistos recientemente {#recently-viewed}
+### Artículos vistos recientemente. {#recently-viewed}
 
 Utiliza el historial del visitante (sesiones de alcance) para presentar el último elemento *X* que el visitante haya visto, según el número de espacios en el diseño.
 
@@ -347,9 +347,9 @@ Páginas generales, como páginas principales o de aterrizaje y anuncios externo
 
 ### Elementos comprados anteriormente {#previously-purchased}
 
-Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+Utiliza el historial del visitante (sesiones de alcance) para presentar los últimos elementos *X* que el visitante haya comprado, según el número de espacios en el diseño.
 
-The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Si dos sitios pertenecen a entornos diferentes y un visitante cambia entre los dos sitios, cada sitio muestra solamente los artículos comprados recientemente del sitio apropiado. Si dos sitios están en el mismo entorno y un visitante cambia entre los dos sitios, el visitante verá los mismos artículos comprados recientemente para ambos sitios.
+Los criterios de Elementos comprados recientemente ahora devuelven resultados específicos de un [entorno](/help/administrating-target/hosts.md) determinado. Si dos sitios pertenecen a entornos distintos y un visitante alterna entre ellos, cada sitio muestra solo los elementos comprados recientemente desde el sitio adecuado. Si dos sitios se encuentran en el mismo entorno y un visitante cambia entre los dos, el visitante verá los mismos artículos comprados recientemente en ambos.
 
 **Ubicación en el sitio**
 
@@ -457,3 +457,13 @@ Al seleccionar **[!UICONTROL Artículos]**/ **[!UICONTROL Medios con atributos s
 Como la similitud de contenido emplea palabras clave para comparar los artículos, algunos atributos, como *mensaje* o *descripción*, pueden producir “ruido” en la comparación. Puede crear reglas para pasar por alto estos atributos.
 
 De forma predeterminada, todos los atributos están definidos en *Línea de base*. Solo es necesario crear una regla si quiere cambiar esta configuración.
+
+## Vídeo de capacitación: Crear criterios en Recomendaciones (12:33)
+
+Este vídeo contiene la siguiente información:
+
+* Crear criterios
+* Crear secuencias de criterios
+* Cargar criterios personalizados.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=spa)
