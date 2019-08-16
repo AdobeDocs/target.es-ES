@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -92,3 +92,13 @@ Algunos de los posibles mensajes de error que podría recibir si Target detectar
 | Error de credenciales | Proporcione un usuario y una contraseña válidos para una cuenta activa en el servidor. |
 | No se ha encontrado el directorio | Indique un directorio que exista en el servidor. |
 | No se ha encontrado el archivo | Indique el nombre de un archivo que exista en el servidor del directorio indicado. |
+
+## Vídeo de capacitación: Crear criterios en Recomendaciones (12:33)
+
+Este vídeo contiene la siguiente información:
+
+* Crear criterios
+* Crear secuencias de criterios
+* Cargar criterios personalizados.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=spa)
