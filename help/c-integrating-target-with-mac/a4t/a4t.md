@@ -9,7 +9,7 @@ title: Adobe Analytics como fuente de informes para Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
 
 ---
 
@@ -128,4 +128,4 @@ Este vídeo es una grabación de “[Horario de oficina](../../cmp-resources-and
 * Obtenga información sobre los informes ideales para su uso en Analytics
 * Respuestas a preguntas más frecuentes sobre A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=spa)
+[Integración de Analytics/Target (A 4 T) con Office](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
