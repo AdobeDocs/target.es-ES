@@ -10,7 +10,7 @@ topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -18,6 +18,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ![PREMIUM](/help/assets/premium.png) FAQ de diseño{#design-faq}
 
 Lista de las preguntas más frecuentes (FAQ) sobre diseños de recomendaciones.
+
+## El precio del elemento recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?
+
+De forma predeterminada, los valores numéricos (como `entity.value`) que se devuelven en plantillas de diseño no mostrarán ceros finales tras la coma decimal. Por ejemplo, si un elemento es de 35,00 $, `entity.value` es igual a 35 y solo se muestra 35 en la página, no 35,00 $.
+
+Hay dos opciones disponibles para resolver este problema.
+
+* Puede utilizar Secuencias de comandos de Velocity o Javascript para aplicar formato al valor devuelto.
+
+* Puede pasar el precio del elemento en dos atributos de entidad independientes. La primera, `entity.value`se puede utilizar para comparaciones numéricas (como reglas de comparación de precios). La segunda debe ser un atributo personalizado, como `entity.displayValue` almacenar el valor de la entidad como una cadena para permitir un procesamiento adecuado.
+
+   Por ejemplo,
+
+   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## ¿Por qué la categoría no se muestra en el diseño? Estoy utilizando $entity1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
 
