@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
 
 ---
 
@@ -21,6 +21,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 20 de agosto de 2019 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha aplazado la versión Target/Premium 19.8.1 (20 de agosto de 2019). El contenido de esta versión se iniciará en la versión 19.9.1 (24 de septiembre de 2019). |
 | 16 de agosto de 2019 | [Sincronización de perfiles en tiempo real para mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Se ha añadido una nueva sección: " Consideraciones ". |
 |  | [Crear una actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | Se ha agregado un vídeo de capacitación. |
 |  | [Fuentes](/help/c-recommendations/c-products/feeds.md) | Se han añadido vídeos de capacitación. |
