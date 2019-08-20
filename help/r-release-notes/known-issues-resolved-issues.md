@@ -2,13 +2,13 @@
 description: Información sobre problemas conocidos con esta versión de Target. También incluye información sobre problemas que ya se han resuelto.
 keywords: problemas conocidos;problemas resueltos;notas de la versión
 seo-description: Información sobre problemas conocidos con esta versión de Target. También incluye información sobre problemas que ya se han resuelto.
-seo-title: Problemas conocidos y problemas resueltos en Adobe Target
+seo-title: Problemas conocidos y problemas resueltos. en Adobe Target
 solution: Target
 title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -25,7 +25,7 @@ Información sobre problemas conocidos con esta versión de Target. También inc
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
 
-### Activity QA preview links {#preview}
+### Vínculos de vista previa de control de calidad de la actividad {#preview}
 
 [Es posible que](/help/c-activities/c-activity-qa/activity-qa.md) los vínculos de vista previa de control de calidad de la actividad para actividades guardadas no se carguen si hay demasiadas actividades guardadas en su cuenta. Volver a intentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se usan de forma activa. (TNT-32697)
 
@@ -33,13 +33,12 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 
 Los siguientes son problemas conocidos de las ofertas de redireccionamiento:
 
-* Bajo algunas condiciones, un número limitado de clientes ha informado de grados de varianza más altos en la distribución del tráfico al utilizar una oferta de redireccionamiento en actividades configuradas con Analytics para Target (A 4 T). Los ingenieros de Adobe están trabajando en este problema.
-* Una condición de carrera en la página puede provocar que se cuenten las vistas de página en la página original y en la página de redirección. Se planifican las actualizaciones a la implementación de at. js para garantizar que se pueda evitar esta condición de carrera. Para obtener más información sobre el problema y una solución alternativa, consulte [Ofertas de redireccionamiento: preguntas frecuentes sobre A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* En algunas condiciones, un número limitado de clientes ha informado de grados de variación más altos en la distribución del tráfico al utilizar una oferta de redireccionamiento en actividades configuradas con Analytics para Target (A4T). Los ingenieros de Adobe están trabajando en este problema.
 * Las actividades de redirección en las implementaciones de at.js hacen que la dirección URL de vista previa entre en bucle (la oferta se suministra repetidamente). Puede utilizar el [Modo de control de calidad](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) para llevar a cabo la vista previa y el control de calidad. Este problema no afecta al suministro real de la oferta. (TGT-23019)
 
-### No se puede procesar el informe de gráfico de una actividad de segmentación automática al utilizar una experiencia personalizada como control
+### No se puede procesar el informe de gráfico de una actividad de Segmentación automática al utilizar una experiencia personalizada como control
 
-El informe gráfico de una actividad de segmentación automática no se puede procesar para modos "diferenciales" (Alza media y Alza diaria) si no hay datos (0 visitas) en ninguna experiencia. Esta situación puede suceder durante la etapa inicial de una actividad si la experiencia de control está definida como personalizada. Para los demás modos (Control promedio corriente y Segmentación, Control diario y Segmentación, y Visitas) funciona correctamente. Tan pronto como hay algunos datos (visitas que no sean cero), el informe se procesa según lo esperado.
+El informe gráfico de una actividad de segmentación automática no se puede procesar para modos “diferenciales” (Alza media y Alza diaria) si no hay datos (0 visitas) en ninguna experiencia. Esta situación puede suceder durante la etapa inicial de una actividad si la experiencia de control está definida como personalizada. Para los demás modos (Control medio de ejecución y segmentaciones, Control diario y segmentaciones y Visitas) funciona correctamente. Tan pronto como hay algunos datos (visitas que no sean cero), el informe se procesa según lo esperado.
 
 ### Cancelación de la carga de una página dentro del VEC {#cancel}
 
@@ -63,20 +62,8 @@ Es posible que las ofertas de código creadas desde la interfaz de usuario de Ta
 
 Los siguientes son problemas conocidos de las actividades de Recommendations:
 
-* El índice de fuentes de Recommendations puede mostrar “Esperando índice” si los elementos de la fuente son los mismos que en la ejecución anterior. La ingesta del producto para la entrega no se ve afectada. (RECS-6663)
 * El error de Recommendations “error.restapi.algorithmProfileAttributeInvalid” se produce cuando se usan atributos de perfil específicos como clave de los criterios.
 * Cuando se usa Promoción secundaria en una actividad de Recommendations, los filtros de inclusión de criterios no se aplican a los ER de copia de seguridad.
-* La interfaz de usuario de fuentes de Recommendations no muestra el estado de indexación correcto. Las tareas de back-end funcionan correctamente, pero la interfaz de usuario no puede recuperar ni mostrar el estado actual.
-
-   **Solución alternativa**: otro modo de determinar si una fuente de Recommendations para un grupo de hosts determinado ha indexado correctamente es comprobar la interfaz de usuario de búsqueda de productos (desde una cuenta de administrador) y ver la hora de la última indexación. Esta marca de tiempo representa la última vez que se indexó la fuente de un grupo de hosts dado. (TGT-27116)
-
-* Los productos recomendados podrían no mostrar el valor de hasta dos posiciones decimales. Por ejemplo, si intenta mostrar en el diseño el valor como 35.00, Recommendations muestra 35 (sin decimales, en vez de mostrar dos posiciones decimales). (RECS-5972)
-
-   **Solución alternativa**: pase el valor de la entidad en dos parámetros entity.attributes. El primero, `entity.value`, es un parámetro reservado que espera un valor doble. El segundo puede ser un entity.attribute personalizado que almacenará el valor de la entidad como una cadena para permitir una representación adecuada.
-
-   Por ejemplo:
-
-   `"entity.value" : 35.00, "entity.displayValue" : "35.00",`
 
 ### Actividades de prueba multivariable (MVT)
 
@@ -133,6 +120,26 @@ Los clientes no pueden realizar operaciones de CRUD en actividades de asignació
 
 A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán a las siguientes secciones y, si es necesario, se añadirán notas adicionales.
 
+### Recommendations
+
+* El índice de fuentes de Recommendations puede mostrar “Esperando índice” si los elementos de la fuente son los mismos que en la ejecución anterior. La ingesta del producto para la entrega no se ve afectada. (RECS-6663)
+
+   Este problema se solucionó en la versión 19.4.2 de Target.
+
+* Las fuentes de Recommendations tardan más de lo esperado en procesarse. (COR-2836)
+
+   Este problema se corrigió en la versión 16.10.1 de Target.
+
+* La interfaz de usuario de fuentes de Recommendations no muestra el estado de indexación correcto. Las tareas de back-end funcionan correctamente, pero la interfaz de usuario no puede recuperar ni mostrar el estado actual.
+
+   Se corrigió en la versión 17.10.1.
+
+### Ofertas de redireccionamiento
+
+Una condición de carrera en la página puede provocar que se cuenten las vistas de página en la página original y en la página de redirección. Hay actualizaciones previstas para la implementación de at.js para garantizar que se pueda evitar esta condición de carrera.
+
+Este problema se solucionó en at. js 1.6.3.
+
 ### Grupos de exclusión
 
 * Cuando se aplica la deduplicación automática después de crear grupos de exclusión, el recuento del diagrama de la actividad en la interfaz de usuario podría ser incorrecto.
@@ -187,12 +194,6 @@ Se corrigió en la versión 18.9.1.
 Cuando edita o copia una actividad de Recommendations que usa una regla de promoción de atributos, el error “Le faltan campos” se muestra al hacer clic en Guardar.
 
 Se corrigió en la versión 17.8.1.
-
-### Estado del índice de fuentes de Recommendations
-
-La interfaz de usuario de fuentes de Recommendations no muestra el estado de indexación correcto. Las tareas de back-end funcionan correctamente, pero la interfaz de usuario no puede recuperar ni mostrar el estado actual.
-
-Se corrigió en la versión 17.10.1.
 
 ### Recomendaciones de copia de seguridad
 
@@ -252,12 +253,6 @@ El segundo problema se corrigió en la versión de Target 17.6.1 (junio de 2017)
 Desde la publicación de Target 17.4.1 (27 de abril de 2017), el uso de la acción Insertar imagen en el Compositor de experiencias visuales (VEC) provoca que el contenido de la oferta no se envíe al usar la biblioteca at.js.
 
 En la versión 0.9.7 de at.js, publicada el 22 de mayo de 2017, se incluyó una solución para este problema.
-
-### Las actividades de
-
-Las fuentes de Recommendations tardan más de lo esperado en procesarse. (COR-2836)
-
-Este problema se corrigió en la versión 16.10.1 de Target.
 
 ### Creación de informes: actividades A/B y de segmentación de experiencias (XT)
 
