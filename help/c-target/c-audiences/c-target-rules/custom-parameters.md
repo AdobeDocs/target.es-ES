@@ -8,7 +8,7 @@ title: Parámetros personalizados
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -23,7 +23,7 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
+1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Personalizado]**.
 
    Para seleccionar el parámetro deseado:
 
@@ -36,11 +36,11 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
 1. Elija un evaluador:
 
    * Contiene (sin distinción de mayúsculas y minúsculas)
-   * No contiene (distingue mayúsculas de minúsculas)
+   * No contiene (sin distinción de mayúsculas y minúsculas)
    * Es igual a
    ![Audiencia de parámetros personalizados](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
-1. Introduzca cada valor en una línea nueva.
+1. Introduzca cada valor en una línea nueva
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -49,6 +49,10 @@ La [tarjeta emergente de detalles de definición](../../../c-target/c-audiences/
 >[!NOTE]
 >
 >Para audiencias personalizadas creadas antes de la versión 18.5.1 de Target (22 de mayo de 2018), los nombres de mbox no se mostrarán en la tarjeta emergente de definición de la audiencia. Debe volver a guardar la audiencia personalizada para obtener el nombre de mbox que se mostrará en la tarjeta.
+
+## Consideraciones {#considerations}
+
+* Las audiencias y actividades se evalúan para un mbox específico. Si el mbox global pasa un determinado parámetro, pero no el mbox regional, el visitante no cumple los requisitos para esa actividad.
 
 ## Vídeo de formación: Creación de audiencias
 
