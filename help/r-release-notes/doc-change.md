@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 
 ---
 
@@ -22,6 +22,8 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 22 de agosto de 2019 | [Compositor de experiencias visuales para aplicaciones móviles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Se ha eliminado información sobre el uso de caracteres prohibidos en los ID de aplicaciones móviles. Ya no existen restricciones. |
+|  | [Parámetros personalizados](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Se ha añadido una nueva sección: " Consideraciones ". |
+|  | [Cargar criterios personalizados](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Se ha actualizado la siguiente frase: Las actualizaciones de criterios personalizados son de forma predeterminada "acumulativas". Los nuevos pares de clave-valor especificados en el archivo de carga CSV sobrescribirán los pares existentes. Los pares de clave-valor existentes que no tengan claves especificadas en la carga de CSV seguirán estando disponibles para su envío y caducarán en 31 días desde la última vez que se carguen como parte del archivo CSV. |
 | 20 de agosto de 2019 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha aplazado la versión Target/Premium 19.8.1 (20 de agosto de 2019). El contenido de esta versión se iniciará en la versión 19.9.1 (24 de septiembre de 2019). |
 |  | [Preguntas más frecuentes sobre diseño](/help/c-recommendations/c-design-overview/template-faq.md) | Se agregaron las preguntas más frecuentes siguientes: " El precio del artículo recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?» |
 | 16 de agosto de 2019 | [Sincronización de perfiles en tiempo real para mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Se ha añadido una nueva sección: " Consideraciones ". |
