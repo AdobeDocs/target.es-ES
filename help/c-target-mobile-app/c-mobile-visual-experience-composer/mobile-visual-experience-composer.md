@@ -7,7 +7,7 @@ title: Compositor de experiencias visuales para aplicaciones móviles
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
+source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 
 ---
 
@@ -20,7 +20,7 @@ El [Compositor de experiencias visuales](../../c-experiences/experiences.md#sect
 
 El VEC de aplicaciones móviles es compatible con los exploradores enumerados en [Exploradores compatibles](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
-## Uso del Compositor de experiencias visuales para aplicaciones móviles nativas  {#using-the-mobile-vec}
+## Uso del Compositor de experiencias visuales para aplicaciones móviles nativas. {#using-the-mobile-vec}
 
 La siguiente ilustración representa el proceso de uso del VEC de aplicaciones móviles:
 
@@ -81,7 +81,7 @@ Cuando se detecta una nueva versión de la aplicación, se le notifica que la ve
 
 ![Notificación de aplicación nueva](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
-Se pueden agregar y eliminar varias versiones de aplicaciones móviles de forma manual del cuadro [!UICONTROL de] diálogo Administrar versiones.
+Se pueden agregar y eliminar varias versiones de aplicaciones móviles de forma manual del cuadro de diálogo [!UICONTROL Administrar versiones].
 
 ![Cuadro de diálogo Administrar versiones](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
@@ -158,9 +158,9 @@ Para agregar correctamente vistas de Target para Android, le presentamos una tab
 | Ubicación de TargetView aceptable | Debajo de las adiciones correctas |
 |--- |--- |
 | Al final de `Activity::onStart`, `Activity::onResume` | El desarrollador debe considerar si `OnStart` y `OnResume` como iguales o diferentes `targetViews`. Si son iguales, use el mismo `viewName`. Si son diferentes, use diferentes `viewNames`. El SDK agrega automáticamente estos eventos. |
-| Inmediatamente después de una llamada de `Activity::SetContent` | Si la interfaz de usuario no cambia, podemos insertar una llamada a `targetView`. |
+| Inmediatamente después de una llamada de.`Activity::SetContent` | Si la interfaz de usuario no cambia, podemos insertar una llamada a `targetView`. |
 | Dentro de `View::willAppear` | Si la vista seleccionada que aparece únicamente en una jerarquía de vista específica. |
-| Inmediatamente después de una llamada de `Activity::SetContentView` | Si la actividad no cambia ni modifica ningún contenido en el siguiente código. |
+| Inmediatamente después de una llamada de.`Activity::SetContentView` | Si la actividad no cambia ni modifica ningún contenido en el siguiente código. |
 
 Para Android, le presentamos una tabla de ubicaciones incorrectas para colocar la llamadas de `targetView`:
 
@@ -192,30 +192,6 @@ Puede que se haya interrumpido la conexión a Internet. Vuelva a abrir la aplica
 
 Haga clic en el botón [!UICONTROL Actualizar] del VEC para sincronizar la visualización.
 
-**He recibido un error diciendo que mi valor «context. application. id» contiene caracteres prohibidos. ¿Qué caracteres se permiten en los ID de aplicación móvil?**
-
-Los caracteres permitidos en los ID de aplicaciones móviles son los siguientes:
-
-| Caracteres permitidos | Descripción |
-| --- | --- |
-| Letras |  |
-| Números |  |
-| `-` | Guion |
-| `.` | Periodo |
-| `,` | Coma |
-| `:` | Dos puntos |
-| `#` | Signo de número |
-| `(` | Paréntesis de apertura |
-| `)` | Paréntesis de cierre |
-| `&` | Ampersand |
-| `+` | Signo más |
-
-Si utiliza un carácter que no está permitido, por ejemplo, un apóstrofe ( `'` ) hace que reciba el siguiente mensaje de error:
-
-```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
-```
-
 ## Limitaciones conocidas {#limitations}
 
 * El VEC de aplicaciones móviles se puede utilizar actualmente para crear actividades de [Prueba A/B](/help/c-activities/t-test-ab/test-ab.md) y Actividades de [segmentación de experiencias (XT)](/help/c-activities/t-experience-target/experience-target.md) para aplicaciones móviles. En el futuro se admitirán otros tipos de actividades.
@@ -230,6 +206,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
    * El cuadro de diálogo de dispositivos se muestra cuando se desplaza del paso “Objetivos y configuración” al paso “Creación” (paso 1). Si la aplicación ya está abierta, debe cerrarla y reiniciarla para conectarse de nuevo al VEC de aplicaciones móviles.
    Asegúrese de cerrar la aplicación desde la sección de aplicaciones recientes y no presionando el botón [!UICONTROL Atrás].
 
-## Vídeo de capacitación: Compositor de experiencias visuales de la aplicación móvil de Adobe Target (3:33) {#video}
+## Vídeo de formación: Compositor de experiencias visuales de la aplicación móvil de Adobe Target (3:33) {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27528?captions=spa)
