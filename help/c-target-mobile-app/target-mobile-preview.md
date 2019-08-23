@@ -1,14 +1,14 @@
 ---
 description: Use el vínculo de vista previa en móviles para realizar fácilmente un control de calidad exhaustivo de las actividades de aplicaciones móviles y registrarse en diversas experiencias directamente en el dispositivo sin tener que usar uno especial para pruebas.
-keywords: control de calidad;vista previa;vínculos de vista previa;móvil;vista previa para móviles
+keywords: qa; vista previa; vista previa del vínculo; mobile; vista previa para móviles
 seo-description: Use el vínculo de vista previa en móviles para realizar fácilmente un control de calidad exhaustivo de las actividades de aplicaciones móviles y registrarse en diversas experiencias directamente en el dispositivo sin tener que usar uno especial para pruebas.
-seo-title: Vista previa para móviles en Target
+seo-title: Uso del vínculo de vista previa móvil en Adobe Target mobile
 solution: Target
 title: Vista previa para móviles en Target
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -19,7 +19,7 @@ Use el vínculo de vista previa en móviles para realizar fácilmente un control
 
 >[!NOTE]
 >
->Esta función se activará en la interfaz de usuario para todos los clientes a partir del 12 de octubre de 2017. La función de vista previa para móviles requiere que descargue e instale la versión apropiada (4.14 o posterior) del SDK de Adobe Mobile.
+>La función de vista previa para móviles requiere que descargue e instale la versión apropiada (4.14 o posterior) del SDK de Adobe Mobile.
 
 ## Información general {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -80,7 +80,7 @@ La funcionalidad de vista previa para móviles le permite probar completamente s
    Para que la vista previa para móviles funcione en Android, también debe añadir el siguiente fragmento de código en [!DNL AndroidManifest.xml]:
 
    ```
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
+   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
 ## Generación de un vínculo de vista previa {#section_D9D58173FFF34E9BB75EBF357273F128}
