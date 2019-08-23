@@ -1,14 +1,14 @@
 ---
 description: Información para utilizar at.js 2.x para implementar Aplicaciones de una sola página (SPA).
-keywords: implementación de aplicación de una sola página;implementar aplicación de una sola página;spa;at.js 2.x
+keywords: implementación de aplicación de una sola página;implementar aplicación de una sola página;spa;at.js 2.x; at. js; aplicación de una sola página; aplicación de una sola página
 seo-description: Información para utilizar Adobe Target at.js 2.x para implementar Aplicaciones de una sola página (SPA).
-seo-title: Implementación de aplicación de página única
+seo-title: Implementación de una aplicación de una sola página en Adobe Target
 solution: Target
 title: Implementación de aplicación de página única
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -67,7 +67,7 @@ Es posible que los especialistas en marketing deseen ejecutar una prueba A/B par
 
 Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovechar este concepto en Target para permitir a los especialistas en marketing ejecutar pruebas A/B y XT en SPA a través del VEC. Esto requiere una configuración de desarrollador única. Veamos los pasos para configurarlo.
 
-1. Instale at.js 2.x.
+1. Instale at. js 2. x.
 
    En primer lugar, es necesario instalar at.js 2.x. Esta versión de at.js se desarrolló teniendo en cuenta las SPA. Las versiones anteriores de at.js y mbox.js no son compatibles con las vistas de Adobe Target y con el VEC para SPA.
 
@@ -281,13 +281,13 @@ Los vídeos siguientes contienen más información:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=spa)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Consulte [Explicación de cómo funciona at. js 2. x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obtener más información.
 
 ### Implementación de at.js 2.x en un SPA
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=spa)
 
-See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+Consulte [Implementar s. js de Adobe Target 2. x en una aplicación de una sola página (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obtener más información.
 
 ### Uso del VEC para SPA en Adobe Target
 
