@@ -2,13 +2,13 @@
 description: En esta página se detallan algunos cambios importantes que hemos realizado en la documentación de Target.
 keywords: registro de cambios en la documentación de target;actualizaciones en la documentación
 seo-description: Esta página enumera los cambios importantes realizados en la documentación de Adobe Target.
-seo-title: Cambios de documentación en la documentación del producto Adobe Target
+seo-title: Cambios en la documentación de la documentación del producto de Adobe Target.
 solution: Target
 title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
+source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
 
 ---
 
@@ -22,7 +22,6 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 23 de agosto de 2019 | [Vista previa para móviles en Target](/help/c-target-mobile-app/target-mobile-preview.md) | Se ha actualizado el fragmento de código en `AndroidManifest.xml`. |
-|  | [Complementos de at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) | Se ha actualizado la fila ttmeta. Este complemento ya no se admite. En su lugar, utilice tokens de respuesta. |
 | 22 de agosto de 2019 | [Compositor de experiencias visuales para aplicaciones móviles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Se ha eliminado información sobre el uso de caracteres prohibidos en los ID de aplicaciones móviles. Ya no existen restricciones. |
 |  | [Parámetros personalizados](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Se ha añadido una nueva sección: " Consideraciones ". |
 |  | [Cargar criterios personalizados](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Se ha actualizado la siguiente frase: Las actualizaciones de criterios personalizados son de forma predeterminada "acumulativas". Los nuevos pares de clave-valor especificados en el archivo de carga CSV sobrescribirán los pares existentes. Los pares de clave-valor existentes que no tengan claves especificadas en la carga de CSV seguirán estando disponibles para su envío y caducarán en 31 días desde la última vez que se carguen como parte del archivo CSV. |
