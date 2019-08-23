@@ -2,9 +2,9 @@
 product: Target
 audience: usuario final
 user-guide-title: Ayuda de Adobe Target
-user-guide-url: /content/help/es/target/using/target-home.html
+user-guide-url: /content/help/es-ES/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Permisos de usuario de Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuración de permisos de Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Otorgar acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Integración de Dynamic Media Classic](administrating-target/scene7-settings.md)
+   + [Integración con Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Tokens de respuesta](administrating-target/response-tokens.md)
 + Implementación de Target {#implement-target}
@@ -90,7 +90,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
          + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
          + [registerExtension(): at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-         + [Sendnotifications () - at. js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+         + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
          + [Eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [Depurar at.js mediante Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [Uso de instancias basadas en la nube con Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
@@ -140,7 +140,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [Servidor: información general sobre la implementación de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transición de las API heredadas de Target a Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Correo electrónico: implementación de Target {#implement-email}
-      + [Correo electrónico: información general sobre la implementación de Target ](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
+      + [Correo electrónico: información general sobre la implementación de Target.](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Crear un Adbox para una imagen](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [Comprobar un adbox de imagen de correo electrónico](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Trabajar con redirectores](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
@@ -156,7 +156,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + Resolución de problemas de integración de Analytics y Target (A4T){#troubleshoot-a4t}
          + [Resolución de problemas de A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimización de los recuentos inflados de visitas y visitantes en A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + Preguntas más frecuentes sobre A4T  {#a4t-faq}
+      + Preguntas más frecuentes sobre A4T. {#a4t-faq}
          + [Aprovisionamiento inicial: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Configuración de actividades: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Ver informes: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -185,7 +185,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Configuración y objetivos](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Uso de datos de Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Definir métricas](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Varias audiencias de experiencia en una prueba A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Varias audiencias de una experiencia en una prueba A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Asignación automática {#auto-allocate}
       + [Asignación automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Determinar un ganador](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -274,14 +274,14 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [Atributos de perfil](c-target/c-visitor-profile/profile-parameters.md)
       + [Afinidad de la categoría](c-target/c-visitor-profile/category-affinity.md)
       + [Atributos del cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Sincronización de perfiles en tiempo real para mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Sincronización de perfiles en tiempo real para mbox 3 rdpartyid](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glosario de perfiles y variables](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Preguntas más frecuentes sobre audiencias y segmentación {#faq-audiences}
       + [Preguntas más frecuentes sobre audiencias y segmentación](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
       + [Compartir métricas, audiencias e informes: preguntas más frecuentes sobre A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiencias y ofertas {#experiences}
    + [Información general sobre experiencias y ofertas](c-experiences/experiences.md)
-   + Compositor de experiencias visuales (VEC)  {#vec}
+   + Compositor de experiencias visuales (VEC). {#vec}
       + [Información general sobre el Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Opciones del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Incluir la misma experiencia en páginas similares](c-experiences/c-visual-experience-composer/temtest.md)
@@ -294,7 +294,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [Ventanillas móviles para las experiencias adaptables](c-experiences/c-visual-experience-composer/mobile-viewports.md)
       + [Prácticas recomendadas y limitaciones del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
       + Solución de problemas del compositor de experiencias visuales {#troubleshoot-composer}
-         + [Información general sobre la resolución de problemas del Compositor de experiencias visuales ](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+         + [Información general sobre la resolución de problemas del Compositor de experiencias visuales.](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [Resolución de problemas del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [Solución de problemas del Compositor de experiencias mejorado](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
