@@ -2,13 +2,13 @@
 description: Los parámetros personalizados son parámetros mbox. Si pasa algún parámetro mbox a mboxes, o usa la función targetPageParams, ese parámetro aparece aquí para su uso en audiencias.
 keywords: parámetros personalizados;parámetros personalizados de target;targetpageparams;segmentación de parámetros mbox
 seo-description: Los parámetros personalizados son parámetros mbox. Si pasa algún parámetro mbox a mboxes, o usa la función targetPageParams, ese parámetro aparece aquí para su uso en audiencias.
-seo-title: Parámetros personalizados
+seo-title: Parámetros personalizados en Adobe Target
 solution: Target
 title: Parámetros personalizados
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -52,7 +52,7 @@ La [tarjeta emergente de detalles de definición](../../../c-target/c-audiences/
 
 ## Consideraciones {#considerations}
 
-* Las audiencias y actividades se evalúan para un mbox específico. Si el mbox global pasa un determinado parámetro, pero no el mbox regional, el visitante no cumple los requisitos para esa actividad.
+* Las audiencias y actividades se evalúan para un mbox específico. Por ejemplo, si el mbox global pasa un determinado parámetro pero el mbox regional no, la actividad o el destino de la audiencia que el parámetro no será calificado para en el mbox regional.
 
 ## Vídeo de formación: Creación de audiencias
 
