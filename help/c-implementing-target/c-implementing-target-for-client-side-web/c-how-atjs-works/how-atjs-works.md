@@ -1,6 +1,6 @@
 ---
 description: Diagrama del sistema de Target que muestra el flujo de llamadas e información enviada o recopilada para un mbox global creado automáticamente usando at.js.
-keywords: diagrama del sistema;parpadeo;Target Standard;at.js;implementación
+keywords: diagrama del sistema;parpadeo;Target Standard;at.js;implementación; javascript library; js
 seo-description: Diagrama del sistema de Adobe Target que muestra el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente usando at.js.
 seo-title: Cómo funciona at.js de Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: Cómo funciona at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -21,7 +21,7 @@ En una implementación del lado del cliente de [!DNL Adobe Target], [!DNL Target
 
 ## ¿Qué es at.js?
 
-La [biblioteca at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a  [la versión más reciente de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+La [biblioteca at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a [la versión más reciente de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 Para obtener más información, consulte [Bibliotecas de JavaScript de Target](/help/c-intro/how-target-works.md#libraries).
 
@@ -45,7 +45,7 @@ Los siguientes diagramas le ayudan a comprender el flujo de trabajo de at.js 2.x
 | Paso | Detalles |
 | --- | --- |
 | 1 | La llamada devuelve el [!DNL Experience Cloud ID] si el usuario se autentica, y otra llamada sincroniza el ID del cliente. |
-| 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>at. js también se puede cargar asincrónicamente con un fragmento de ocultamiento predeterminado implementado en la página. |
+| 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>at.js también se puede cargar de manera asíncrona con una opción de fragmento de ocultamiento previo implementado en la página. |
 | 3 | Se solicita una carga de página que incluye todos los parámetros configurados (MCID, SDID y el ID del cliente). |
 | 4 | Se ejecutan los scripts de perfiles y se incluyen en el Almacenamiento de perfiles. El Almacenamiento solicita audiencias de la Biblioteca de audiencias que cumplan los requisitos (por ejemplo, audiencias compartidas de Adobe Analytics, Gestión de público, etc.).<br>Se envían los atributos del cliente al Almacenamiento de perfiles en un procesamiento de lotes. |
 | 5 | Según los parámetros de la solicitud de la URL y los datos de perfil, [!DNL Target] decide qué actividades y experiencias vuelven al visitante para la página actual y las vistas futuras. |
@@ -68,9 +68,9 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 
 ## Diagrama de at.js 1.x
 
-![](assets/target-flow.png)
+![Flujo de Target: at. js 1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
-| Paso | Descripción | La llamada | Descripción |
+| Paso   | Descripción | La llamada | Descripción |
 |--- |--- |--- |--- |
 | 1 | La llamada devuelve el [!DNL Experience Cloud ID] (MCID) si el usuario se autentica; otra llamada sincroniza el ID del cliente. | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento. |
 | 3 | Se realiza una solicitud de mbox global que incluye todos los parámetros, MCID, SDID e ID de cliente (opcional) configurados. | 4 | Se ejecutan los scripts de perfiles y se incluyen en el Almacenamiento de perfiles. El Almacenamiento solicita audiencias de la [!UICONTROL Biblioteca de audiencias] que cumplan los requisitos (por ejemplo, audiencias compartidas de [!DNL Adobe Analytics], [!DNL Audience Manager], etc.).<br>Los atributos del cliente se envían a [!DNL Profile Store] en un procesamiento de lotes. |
