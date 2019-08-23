@@ -1,19 +1,19 @@
 ---
 description: Información sobre los complementos compatibles e incompatibles de at.js.
-keywords: complementos de at.js;complementos compatibles;complementos incompatibles
-seo-description: Información sobre los complementos compatibles e incompatibles de at.js.
-seo-title: Complementos de at.js
+keywords: complementos de at.js;complementos compatibles;complementos incompatibles; Ttmeta; ttmeta; Mboxtrack
+seo-description: Información sobre los complementos compatibles y no compatibles de at. js para Adobe Target.
+seo-title: Complementos de at. js para Adobe Target
 solution: Target
 title: Complementos de at.js
 topic: Standard
 uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
 
 ---
 
 
-# Complementos de at.js{#at-js-plug-ins}
+# at.js plug-ins{#at-js-plug-ins}
 
 Información sobre los complementos compatibles e incompatibles de at.js.
 
@@ -27,4 +27,4 @@ Este es el estado actual de algunos de los complementos que muchos clientes usan
 |--- |--- |
 | mboxTrack | No compatible.<br>Esto se sustituye por la función [adobe.target.trackEvent(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md). Actualice los complementos para aplicar la nueva función.<br>Consulte la página de [integraciones](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md). |
 | Plugin de copia de seguridad de perfil persistente | No compatible.<br>Este complemento se consideró obsoleto cuando la duración del perfil de Target se amplió de dos semanas a 90 días. Consulte la fecha de caducidad de su cookie de mbox para ver la configuración de duración del perfil definida en su cuenta.<br>Póngase en contacto con ClientCare si le gustaría extender la duración del perfil a 90 días. |
-| ttMeta | Compatible.<br>Este complemento debería seguir funcionando con at.js. |
+| ttMeta | No compatible.<br>En lugar de este complemento, use [tokens de respuesta](/help/administrating-target/response-tokens.md). |
