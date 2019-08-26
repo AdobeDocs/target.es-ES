@@ -1,7 +1,7 @@
 ---
 description: Utilice fuentes para obtener entidades importadas en Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
-keywords: fuente de recomendaciones;fuente;SAINT;FTP;CSV
-seo-description: Utilice fuentes para obtener entidades importadas en Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
+keywords: fuente de recomendaciones;fuente;SAINT;FTP;CSV; clasificaciones; clasificaciones de analytics
+seo-description: Utilice fuentes para obtener entidades importadas en Adobe Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
 seo-title: Fuentes
 solution: Target
 title: Fuentes
@@ -10,30 +10,35 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 83da8c014f46f9b5e2d17dc616097b59050f2549
+source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Fuentes{#feeds}
 
-Utilice fuentes para obtener entidades importadas en Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
+Utilice fuentes para obtener entidades importadas en [!DNL Recommendations]. Las entidades se pueden enviar mediante archivos CSV, el formato de fuente de Búsqueda de productos de Google y clasificaciones de productos de Adobe Analytics.
 
 ## Resumen de las fuentes {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Utilice fuentes para obtener entidades importadas en Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
+Las fuentes le permiten transferir [Entidades](/help/c-recommendations/c-products/products.md) o ampliar los datos de mbox con información que, o bien no está disponible en la página, o bien no es seguro enviar directamente desde la página, como margen, COGS, etc.
 
-Las fuentes le permiten transferir [Entidades](../../c-recommendations/c-products/products.md#concept_FD935A24D98745FFB2447933FCEB8062) o ampliar los datos de mbox con información que, o bien no está disponible en la página, o bien no es seguro enviar directamente desde la página, como margen, COGS, etc.
-
-Puede seleccionar las columnas de su archivo de clasificaciones de productos de Adobe Target o del archivo de Búsqueda de productos de Google que desea enviar al servidor de [!DNL Recommendations]. Estos fragmentos de datos acerca de cada artículo pueden utilizarse posteriormente en la visualización de plantillas y para controlar las recomendaciones.
+You can select which columns from your [!DNL Target] product classifications file or Google Product Search file you want to send to the [!DNL Recommendations] server. Estos fragmentos de datos acerca de cada artículo pueden utilizarse posteriormente en la visualización de plantillas y para controlar las recomendaciones.
 
 Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
 
-La lista de [!UICONTROL Fuentes] (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado. Para editar el nombre de una fuente, debe editar la propia fuente. Cuando guarda la fuente con un nombre nuevo, esta se actualiza.
+La lista de [!UICONTROL Fuentes] (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado.
 
->[!NOTE]
->
->Si la fuente [!UICONTROL Última actualización] indica “sin definir”, significa que la fuente procede de [!DNL Recommendations Classic] y no se puede cambiar desde [!DNL Target Premium Recommendations].
+![Página Fuentes](/help/c-recommendations/c-products/assets/feeds-page.png)
+
+La página Fuentes contiene las columnas siguientes:
+
+* **Nombre**: El nombre de la fuente especificada durante la creación. Para editar el nombre de una fuente, debe editar la propia fuente. Cuando guarda la fuente con un nombre nuevo, esta se actualiza.
+* **Tipo**: Los tipos son [: CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Fuente](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)de productos de Google y [Clasificaciones de Analytics](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
+* **Estado**: Estado actual [de la fuente](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
+* **Programación**: Muestra el programa de actualización de la fuente: Diario, Semanal, Cada 2 semanas o Nunca.
+* **Elementos**: Muestra el número de elementos de la fuente.
+* **Última actualización**: Muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que ha actualizado la fuente. If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -47,11 +52,11 @@ El uso del formato .csv tiene las siguientes ventajas sobre el formato de Google
 
 Utilice el método de carga masiva para enviar la información de visualización si no tiene mboxes en la página o si desea complementar dicha información con artículos que no estén disponibles en el sitio. Por ejemplo, es posible que desee enviar la información del inventario de que no esté publicada en el sitio.
 
-Cualquier dato cargado con el archivo [!DNL .csv], con la fuente de producto de Google o con la fuente de clasificación de productos Analytics sobrescribe el valor de atributo de entidad existente en nuestra base de datos. Si envía información de precios mediante solicitudes mbox y, a continuación, envía valores de precios diferentes en el archivo, los valores del archivo sobrescriben los valores establecidos en la solicitud mbox. Una excepción a esto es el atributo de entidad `categoryId` donde los valores de categoría se anexan en lugar de sobrescribirse hasta el límite de 250 caracteres.
+Cualquier dato cargado con el archivo .csv, fuente de producto de Google o fuente de clasificación de productos Analytics sobrescribe el valor de atributo de entidad existente en nuestra base de datos. Si envía información de precios mediante solicitudes mbox y, a continuación, envía valores de precios diferentes en el archivo, los valores del archivo sobrescriben los valores establecidos en la solicitud mbox. Una excepción a esto es el atributo de entidad `categoryId` donde los valores de categoría se anexan en lugar de sobrescribirse hasta el límite de 250 caracteres.
 
 >[!IMPORTANT]
 >
->No escriba los valores entre comillas dobles (“ ”) en el archivo [!DNL .csv] a menos que lo haga deliberadamente. Si coloca los valores entre comillas dobles, debe escaparlos escribiendo otro par de comillas dobles. Si las comillas dobles no se escapan, la fuente de recomendaciones no se carga correctamente.
+>No encierre valores entre comillas dobles (") en el archivo. csv a menos que éstos sean intencionados. Si coloca los valores entre comillas dobles, debe escaparlos escribiendo otro par de comillas dobles. Las comillas dobles que no se escapan evitan que la fuente de Recomendaciones se cargue correctamente.
 
 Por ejemplo, la sintaxis siguiente es incorrecta:
 
@@ -87,11 +92,9 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
->[!IMPORTANT]
->
->El tipo de fuente de Búsqueda de productos de Google utiliza el formato de Google. Es distinto al formato de carga CSV propiedad de Adobe.
+El tipo de fuente de Búsqueda de productos de Google utiliza el formato de Google. Es distinto al formato de carga CSV propiedad de Adobe.
 
-Si tiene una fuente de producto de Google existente, puede usarlo como su archivo de importación.
+Si tiene una fuente de productos Google existente, puede utilizarla como archivo de importación.
 
 >[!NOTE]
 >
@@ -188,45 +191,47 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ## Clasificaciones de productos Analytics  {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de productos Analytics es la única clasificación disponible para Recommendations. Para obtener más información sobre este archivo de clasificación, consulte [Clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) en la guía de *Ayuda y referencia de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía de usuario.
+La clasificación de productos Analytics es la única clasificación disponible para Recommendations. For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía de usuario.
 
 >[!IMPORTANT]
 >
 >Antes de importar a Recommendations los datos de la entidad que usan clasificaciones de productos de Analytics, tenga en cuenta que este no es el método preferido.
+>
 > Tenga en cuenta las siguientes advertencias:
 >* Las actualizaciones de los atributos de la entidad incurren en un retraso adicional de hasta 24 horas.
->* Target solo admite clasificaciones de productos. El SKU del producto de Analytics debe asignarse al mismo nivel que la entidad de Recommendations.id. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
+>* Target solo admite clasificaciones de productos. The Analytics product SKU must map to the same level as the Recommendations `entity.id`. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
 
 
 ## Crear fuente  {#steps}
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
-<!-- 
-
-recs/t_feeds_create.xml
-
- -->
-
 1. En la interfaz de Target, haga clic en **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Fuentes]** &gt; **[!UICONTROL Crear fuente]**.
 
-   ![Resultado del paso](assets/CreateFeed.png)
+   ![Cuadro de diálogo Crear fuente](assets/CreateFeed.png)
 
 1. Elija un nombre descriptivo para la fuente.
 1. Seleccione un **[!UICONTROL Tipo de fuente]**.
 
-   Si desea información sobre fuentes de producto de Google y tipos de fuentes CSV, consulte [Información general de fuentes](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890).
-1. Especifique un grupo de informes, o la dirección URL o la ubicación FTP desde donde se puede acceder a la fuente.
+   * CSV
+   * Fuente de productos de Google
+   * Clasificaciones de Analytics
+   Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). [También puede descargar una guía CSV modelo](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
 
-   Si elige la ubicación FTP, indique los datos del servidor FTP, las credenciales de inicio de sesión, el nombre de archivo y el directorio de FTP. Tiene la opción de usar FTP con SSL (FTPS) para que las cargas sean más seguras.
+1. (Condicional) Si seleccionó **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
 
-   Configuración del servidor FTP admitida:
+   * **FTP**: Si ha seleccionado FTP, indique la información del servidor FTP, las credenciales de inicio de sesión, el nombre de archivo y el directorio FTP. Tiene la opción de usar FTP con SSL (FTPS) para que las cargas sean más seguras.
 
-   * FTP y FTPS deben estar configurados para utilizar FTP pasivo.
-   * En FTPS, configure el servidor para aceptar conexiones FTPS explícita.
-   * No se admite SFTP.
-   * Puede especificar manualmente un puerto en el que iniciar la conexión (por ejemplo, ftp://ftp.yoursite.com:2121). Si no especifica un puerto, se utilizará el puerto FTP o FTPS predeterminado.
-   Si elige dirección URL, especifíquela.
+      Configuración del servidor FTP admitida:
+
+      * FTP y FTPS deben estar configurados para utilizar FTP pasivo.
+      * En FTPS, configure el servidor para aceptar conexiones FTPS explícita.
+      * No se admite SFTP.
+      * Puede especificar manualmente un puerto en el que iniciar la conexión (p. ej. `ftp://ftp.yoursite.com:2121`,). Si no especifica un puerto, se utilizará el puerto FTP o FTPS predeterminado.
+   * **URL**: Si selecciona URL, especifique la URL.
+
+
+1. (Condicional) Si seleccionó **[!UICONTROL Clasificaciones]** de Analytics, elija el grupo de informes en la lista desplegable.
 
 1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Programar].
 
@@ -237,27 +242,23 @@ recs/t_feeds_create.xml
    * Diario
    * Semanal
    * Cada 2 semanas
-   * Nunca
-   No programe una actualización. Seleccione esta opción si no quiere que se ejecute esta fuente.
+   * Nunca: No programe una actualización. Seleccione esta opción si no quiere que se ejecute esta fuente.
 
 1. Especifique durante cuánto tiempo quiere que se ejecute la fuente.
 
    Esta opción está basada en la zona horaria establecida en el navegador. Si quiere usar una hora de otra zona horaria, tiene que calcularla según su propia zona horaria.
+
 1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Asignación] y, a continuación, especifique cómo quiere asignar los datos a las definiciones de [!DNL Target].
 
    ![Resultado del paso](assets/CreatFeedMapping.png)
 
 1. (Opcional) Si quiere que la fuente pertenezca a un entorno (grupo de hosts), seleccione el grupo de hosts.
 
-   De manera predeterminada, la fuente pertenece a todos los grupos de hosts. De este modo se garantiza que los elementos de la fuente estén disponibles en cualquier entorno.
-
-   >[!NOTE]
-   >
-   >Para obtener más información, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+   De manera predeterminada, la fuente pertenece a todos los grupos de hosts. De este modo se garantiza que los elementos de la fuente estén disponibles en cualquier entorno. Para obtener más información, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Después de crear o editar una fuente, esta se ejecuta de inmediato y después se actualiza según los parámetros que establezca. Se tarda un poco en mostrar toda la información. Primero es necesario sincronizar la fuente, después debe procesarse e indizarse para poder publicarla y ponerla a disposición del público. El estado actual aparece bajo  [Estado de fuente](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) en la lista Fuentes. Puede cerrar [!DNL Target] antes de que el proceso se haya completado y el proceso seguirá su curso.
+Después de crear o editar una fuente, esta se ejecuta de inmediato y después se actualiza según los parámetros que establezca. Se tarda un poco en mostrar toda la información. Primero es necesario sincronizar la fuente, después debe procesarse e indizarse para poder publicarla y ponerla a disposición del público. El estado actual aparece bajo  [Estado de fuente](/help/c-recommendations/c-products/feeds.md#status) en la lista Fuentes. Puede cerrar [!DNL Target] antes de que el proceso se haya completado y el proceso seguirá su curso.
 
 Mientras la indización está en curso, se muestran los encabezados de la fuente y los productos antes de indizar los valores individuales. Esto le permite buscar y ver productos para crear colecciones, exclusiones, diseños y actividades antes de que se haya completado el indizado.
 
