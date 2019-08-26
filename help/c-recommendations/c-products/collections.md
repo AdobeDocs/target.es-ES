@@ -1,8 +1,8 @@
 ---
 description: Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación.
 keywords: colección;Segmentación
-seo-description: Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación.
-seo-title: Colecciones
+seo-description: Una colección es un conjunto de productos o elementos de Adobe Target que cumplen los requisitos de una recomendación.
+seo-title: Colecciones en Adobe Target
 solution: Target
 title: Colecciones
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
 
 ---
 
@@ -19,15 +19,11 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación.
 
-## Colecciones {#concept_671BEFFB997D4F1282665BF3CAC00AC5}
-
-Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación.
-
 Normalmente, una colección es un conjunto de artículos similares o relacionados, como una única colección de productos. Sin embargo, puede agrupar cualquier artículo en una categoría que tenga sentido para su negocio, como los productos de un determinado color o rango de precios, o los artículos que pueden resultar interesantes en una determinada área geográfica.
 
 Utilice las colecciones para organizar sus productos en bloques lógicos. Por ejemplo, si algunos artículos están disponibles en una región pero no en otra, puede crear una colección que excluya los artículos que no están disponibles en la región del visitante. También puede usar las colecciones para organizar los artículos por temporadas, o cualquier otro parámetro de organización que sea útil para su negocio.
 
-Las recomendaciones de copia de seguridad generadas para cada criterio dentro de la recomendación también utilizan esta colección. Por eso, en la recomendación de copia de seguridad solo se incluyen los artículos de la recomendación. Con las colecciones, tendrá la garantía de que solo se mostrarán aquellos productos que tenga sentido mostrar en una ubicación.
+The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. Con las colecciones, tendrá la garantía de que solo se mostrarán aquellos productos que tenga sentido mostrar en una ubicación.
 
 Las colecciones se vuelven a generar o se actualizan cada vez que se ejecuta un criterio.
 
@@ -47,9 +43,9 @@ Puede crear una colección para organizar los productos que quiere mostrar en su
 
 1. Haga clic en **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Colecciones]** para visualizar la lista de colecciones existentes.
 
-   El “Número de elementos” registrado para cada colección en la vista de la lista [!UICONTROL Colecciones] es el número de productos que coinciden con las reglas para esa colección en el [grupo de hosts](/help/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Para cambiar el grupo de hosts predeterminado, consulte [Configuración](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   ![Lista de colecciones](assets/collections_list.png)
 
-   ![](assets/collections_list.png)
+   El “Número de elementos” registrado para cada colección en la vista de la lista [!UICONTROL Colecciones] es el número de productos que coinciden con las reglas para esa colección en el [grupo de hosts](/help/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Para cambiar el grupo de hosts predeterminado, consulte [Configuración](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
 1. Haga clic en **[!UICONTROL Crear colección]**.
 
@@ -67,8 +63,15 @@ Puede crear una colección para organizar los productos que quiere mostrar en su
 
    Puede añadir reglas para usar varios parámetros para definir una colección. Si hay varias reglas, debe unirlas mediante AND. Todas las reglas especificadas deben coincidir con la colección que se va a aplicar.
 
-1. Haga clic en **[!UICONTROL Guardar]**. 
-También puede crear colecciones utilizando Búsqueda avanzada en la página Buscar en el catálogo ([!UICONTROL Recommendations] &gt; [!UICONTROL Buscar en el catálogo] &gt; [!UICONTROL Búsqueda avanzada]). Después de crear una búsqueda utilizando “id &gt; contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] &gt; [!UICONTROL Colección].
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+## Crear una colección utilizando Búsqueda avanzada
+
+You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+
+![Guardar como](/help/c-recommendations/c-products/assets/save-as.png)
+
+Después de crear una búsqueda utilizando “id &gt; contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] &gt; [!UICONTROL Colección].
 
 >[!IMPORTANT]
 >
