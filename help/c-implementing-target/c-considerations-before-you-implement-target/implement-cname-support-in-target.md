@@ -8,30 +8,27 @@ title: CNAME y Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: b7a80326b0b89f6fe3bac70ccc6941be09d14ac1
 
 ---
 
 
-# CNAME y Adobe Target{#cname-and-adobe-target}
+# CNAME y Adobe Target {#cname-and-adobe-target}
 
-Información sobre cómo trabajar con Adobe Client Care para implementar el soporte de CNAME (nombre canónico) en Adobe Target. Para gestionar mejor los problemas de bloqueo de publicidad, se utiliza un CNAME para que se realicen llamadas a un dominio propiedad del cliente en lugar de un dominio propiedad de Adobe.
+Información sobre cómo trabajar con Adobe Client Care para implementar el soporte de CNAME (nombre canónico) en [!DNL Target]. Para gestionar mejor los problemas de bloqueo de publicidad o las políticas de cookies relacionadas con ITP, se utiliza un CNAME para que se realicen llamadas a un dominio propiedad del cliente en lugar de un dominio propiedad de Adobe.
 
-Realice los pasos siguientes para solicitar asistencia de CNAME en Target:
+Realice los pasos siguientes para solicitar asistencia de CNAME en [!DNL Target]:
 
-1. Abra un [ticket de atención al cliente](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) solicitando asistencia de CNAME para sus llamadas de Adobe Target.
-1. Inscríbase en el [programa Adobe Managed Certificate (AMC)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) y siga los pasos de implementación que se proporcionan en la guía [!DNL Adobe Analytics]*Cookies de origen.* [!DNL Target] utiliza el mismo método que utiliza la compatibilidad [!DNL Analytics] con CNAME.
+1. Open a [Customer Care ticket requesting CNAME support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for your [!DNL Target] calls.
 
-   El programa AMC ayuda a eliminar el esfuerzo y la confusión que experimentan los clientes al implementar cookies de origen. Después de inscribirse en este programa, Adobe comprará y emitirá el certificado para instalarlo en servidores seguros.
+1. Cree registros CNAME (consulte las instrucciones más abajo).
 
-   >[!NOTE]
-   >
-   >Es necesario configurar CNAME antes de inscribirse en el programa AMC.
+   Una vez recibidos el ticket, un especialista de FPSSL deberá proporcionarle un par de registros CNAME. Estos registros deben configurarse en el servidor DNS de su empresa antes de que Adobe pueda adquirir el certificado en su nombre.
+
+   CNAMES será similar al siguiente ejemplo:
+
+   `DNS record: metrics.example.com IN CNAME metricsexample-fpssl.tt.omtrdc.net`
+
+1. Cuando estos CNAMES estén en su sitio, Adobe trabajará con digicert para adquirir e instalar un certificado en los servidores de producción de Adobe.
 
 1. Tras completar las tareas anteriores, debe actualizar `serverDomain` el nuevo CNAME en at. js.
-
-## Vídeo de capacitación: Cookies individuales y uso de certificados administrados de Adobe
-
-This video is a recording of [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7), an initiative led by the Adobe Customer Care team. La conversación del programa Certificado gestionado de Adobe comienza a las 10:21.
-
-[Adobe Analytics: Cookies personales y uso de certificados administrados de Adobe](https://helpx.adobe.com/customer-care-office-hours/analytics/first-party-cookies-adobe-managed-certificates.html)
