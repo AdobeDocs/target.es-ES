@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0d0ae6bcd401777169e74b93a4fb18f1a9b24dc
 
 ---
 
@@ -25,6 +25,8 @@ Los usuarios de las actividades de Personalización automatizada (AP) y Segmenta
 >Los informes de Perspectivas de personalización están disponibles solo para actividades de AP y AT que utilizan un objetivo de optimización de conversión. Tampoco se admiten las actividades en las que el objetivo de optimización se cambió a la conversión de ingresos después de que la actividad ya estaba activa.
 >
 >Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](../../administrating-target/hosts.md).
+>
+>Los informes de perspectivas de personalización se generan solamente para actividades que están en estado Activo y que se han activado y recibido durante al menos 15 días.
 
 ## Descripción general de los informes de Perspectivas de personalización {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -32,7 +34,7 @@ El objetivo de los informes de [!UICONTROL Perspectivas de personalización] es 
 
 Como el objetivo de los informes de Perspectivas de personalización es comprender cómo han decidido los modelos de personalización de Target enviar el contenido a los visitantes, los informes de Perspectivas de personalización solo reflejan un subsegmento de todo el tráfico servido por su actividad de AP o AT. Específicamente, los dos informes reflejan todo el tráfico que utilizó el modelo de personalización. En otras palabras, los informes de Perspectivas de personalización no tienen en cuenta ni el tráfico de control ni el tráfico servido por el modelo ganador general.
 
-Hay dos informes disponibles en:
+Hay dos informes de Perspectivas de Personalización disponibles:
 
 | Informe | Detalles |
 |--- |--- |
@@ -60,4 +62,4 @@ Target le ofrece muchas maneras de incluir datos adicionales con los que enrique
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=spa)
 
-For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Para obtener más información, consulte [Uso de los informes de perspectivas de personalización en Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
