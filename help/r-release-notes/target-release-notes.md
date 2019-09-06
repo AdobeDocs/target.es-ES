@@ -8,7 +8,7 @@ title: Notas de la versión de Target (versión previa)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 3b21fede9df1ef61da194fac55ffb862c037258a
+source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 3b21fede9df1ef61da194fac55ffb862c037258a
 
 En estas notas de la versión se proporciona información acerca de las funciones, las mejoras, las correcciones y los problemas conocidos de las últimas o de las próximas versiones de [!DNL Adobe Target].
 
-**Última actualización: 31 de julio de 2019**
+**Última actualización: 6 de septiembre de 2019**
 
 >[!NOTE]
 >
@@ -42,7 +42,13 @@ Esta acción debe realizarse durante el mes **de agosto de 2019**. Después de [
 
 Para obtener instrucciones paso a paso y más información, consulte [Concesión de integraciones de Adobe I/O a espacios de trabajo y asignación de funciones](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-## Target Standard/Premium 19.9.1 (24 de septiembre de 2019)
+## Target Standard/Premium 19.9.1 (10 de septiembre de 2019)
+
+| Función. / Mejora | Descripción |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Enterprise Permissions | Con la próxima versión de Target septiembre de 2019, los permisos de Enterprise proporcionan a los clientes los siguientes controles de acceso:<UL><li>Puede elegir los espacios de trabajo a los que se puede aplicar la integración.</li><li>Puede aplicar una función a la integración de Adobe I/O: Aprobador, Editor o Observador.</li></ul>Para obtener instrucciones paso a paso y más información, consulte [Concesión de integraciones de Adobe I/O a espacios de trabajo y asignación de funciones](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+
+## Target Standard/Premium 19.9.2 (24 de septiembre de 2019)
 
 Esta versión de mantenimiento incluye la siguiente mejora:
 
