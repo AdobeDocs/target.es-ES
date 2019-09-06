@@ -8,7 +8,7 @@ title: Páginas del sitio
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -39,7 +39,7 @@ Segmente a los visitantes que estén en una página concreta o que tengan un par
 
    * **Mbox:** el mbox sobre el que está estableciendo el objetivo. Por ejemplo, si desea contar los pedidos con un total de 100 dólares o más, pasaría `orderTotal` como parámetro de mbox con esa segmentación especificada aquí.
    * **Dominio:** el dominio completo de la página. Al especificar un dominio, se recomienda utilizar “contains” (contiene). Por ejemplo, “Domain equals facebook.com” (Dominio igual a facebook.com) no aceptará `m.facebook.com` ni `www.facebook.com`. “Domain contains facebook.com” (Dominio contiene facebook.com) aceptará cualquier variante de facebook.com.
-   * **Consulta:** el contenido de la dirección URL que hay después del primer signo de interrogación (?). En este ejemplo de URL, la consulta aparece destacada en negrita.
+   * **Consulta:** el contenido de la dirección URL que hay después del primer signo de interrogación (?).
 
       `foo.html?e0a72cb2a2c7`
 
