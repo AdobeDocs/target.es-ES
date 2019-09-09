@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/es-ES/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
+source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 ---
 
@@ -51,12 +51,13 @@ source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
    + Antes de la implementación {#before-implement}
       + [Antes de la implementación](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Preparación para implementar Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + Privacidad {#privacy}
+      + Privacidad y seguridad {#privacy}
          + [Información general sobre la privacidad](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Normativas de privacidad y protección de datos](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Eliminar la cookie de Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Políticas de cookies de Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [Directivas de políticas de seguridad de contenido (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + Métodos para obtener los datos en Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configuración de la API del perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
