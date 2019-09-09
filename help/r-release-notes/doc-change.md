@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
+source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
 
 ---
 
@@ -21,7 +21,9 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 9 de septiembre de 2019 | [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Se ha añadido la sección «Consideraciones». |
 | 6 de septiembre de 2019 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión de Target Standard/Premium 19.9.1 (10 de septiembre de 2019). |
+|  | [Target para preguntas más frecuentes sobre aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Nuevo tema. |
 | 4 de septiembre de 2019 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tema actualizado. |
 | 23 de agosto de 2019 | [Vista previa para móviles en Target](/help/c-target-mobile-app/target-mobile-preview.md) | Se ha actualizado el fragmento de código en `AndroidManifest.xml`. |
 | 22 de agosto de 2019 | [Compositor de experiencias visuales para aplicaciones móviles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Se ha eliminado información sobre el uso de caracteres prohibidos en los ID de aplicaciones móviles. Ya no existen restricciones. |
