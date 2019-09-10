@@ -7,7 +7,7 @@ solution: Target
 subtopic: Primeros pasos
 title: Otorgar acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -20,27 +20,29 @@ source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 >
 >La funcionalidad Propiedades y Permisos está disponible como parte de la solución [Target Premium](/help/c-intro/intro.md#premium). No están disponibles en [!DNL Target Standard] sin una licencia de [!DNL Target Premium].
 
-The [!UICONTROL Enterprise Permissions] feature facilitates effective scaling of optimization programs across teams. Although the feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until earlier in 2019. In the [!DNL Target] February 2019 release, Adobe updated the Admin APIs so that you can use the integration account to access all workspaces created in your organization. So, while earlier, Admin APIs were restricted to just the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
+La función [!UICONTROL Permisos] de Enterprise facilita la escala efectiva de los programas de optimización entre los equipos. Aunque la función estaba disponible en [!DNL Target] la interfaz de usuario, las API de administración no tenían la compatibilidad correspondiente hasta principios de 2019. En la versión [!DNL Target] de febrero de 2019, Adobe ha actualizado las API de administración para que pueda utilizar la cuenta de integración para acceder a todos los espacios de trabajo creados en su organización. Por lo tanto, si bien las API de administración estaban restringidas a solo el espacio de trabajo predeterminado, la actualización de febrero de 2019 otorgaba acceso a todos los espacios de trabajo con [!UICONTROL acceso de aprobador] .
 
-With the upcoming [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+Con la versión [!DNL Target] de septiembre de 2019, los permisos [!DNL Target][!UICONTROL de Enterprise] proporcionan a los clientes los siguientes controles de acceso:
 
 * Puede elegir los espacios de trabajo a los que se puede aplicar la integración
-* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
+* Puede aplicar una función a la integración de Adobe I/O: [!UICONTROL Aprobador], [!UICONTROL Editor]o [!UICONTROL Observador].
 
 Esta actualización admite los siguientes casos de uso:
 
-* Grant the Adobe I/O integration access to all workspaces with the [!UICONTROL Observer] role for reporting purposes with no rights to create or edit resources.
+* Conceda acceso a la integración de Adobe I/O a todos los espacios de trabajo con [!UICONTROL la] función Observador con fines de creación de informes sin tener derechos para crear o editar recursos.
 * Conceda a la integración de Adobe I/O el acceso para seleccionar espacios de trabajo con la función apropiada para permitir que un equipo central realice cambios controlados por API en solo unos pocos espacios de trabajo.
 * Permita que cada equipo propietario de su espacio de trabajo tenga su propia integración siempre que el equipo esté listo para explorar las API y elija la función correspondiente.
 * Combina y coincide con cualquiera de los escenarios anteriores.
 
-**Acción necesaria**: Los clientes que actualmente aprovechan las API para operaciones de CRUD en recursos (actividades, audiencias, ofertas e informes) en todos los espacios de trabajo deben conceder su acceso de integración de Adobe I/O a todos los espacios de trabajo con la función deseada según su caso de uso. You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of choice made from the [!UICONTROL Product Role] drop-down list. Ahora puede elegir la función que desee.
+**Acción necesaria**: Los clientes que actualmente aprovechan las API para operaciones de CRUD en recursos (actividades, audiencias, ofertas e informes) en todos los espacios de trabajo deben conceder su acceso de integración de Adobe I/O a todos los espacios de trabajo con la función deseada según su caso de uso. Para ello, seleccione cada perfil [!DNL Target][!UICONTROL de producto] en la [!DNL Adobe Admin Console] y agregue las integraciones en la ficha [!UICONTROL Integración] . Antes de la versión de septiembre, todas las integraciones operaban usando el acceso [!UICONTROL de aprobador] , independientemente de la opción que se realice en la [!UICONTROL lista desplegable Función] del producto. Ahora puede elegir la función que desee.
 
-This action should be performed during the month of **August 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. No hay reacciones adversas para configurar integraciones por adelantado. Cuanto antes realice este cambio, mejor. Se requiere poco tiempo para configurar esto, según el número de espacios de trabajo de su organización. Este proceso solo toma unos pocos clics para agregar una integración existente en espacios de trabajo con la función deseada.
+>[!NOTE]
+>
+>Si no se realiza esta acción, después de [!DNL Target] la versión de septiembre de 2019, los controles de acceso se activarán y observará el acceso a solo el espacio de trabajo predeterminado, si está configurado actualmente. No hay reacciones adversas para configurar integraciones por adelantado. Cuanto antes realice este cambio, mejor. Según el número de espacios de trabajo de su organización, este proceso solo toma unos pocos clics para agregar una integración existente en espacios de trabajo con la función deseada.
 
 **Para otorgar acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones:**
 
-1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. Abra **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Click the **[!UICONTROL Products]** tab, then select the name of the desired product.
 
@@ -54,9 +56,9 @@ This action should be performed during the month of **August 2019** to not face 
 
    ![Ficha Integraciones](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
-1. (Conditional) To add a new integration, click **[!UICONTROL Add Integration]**, select the desired integration, then click **[!UICONTROL Save]**.
+1. (Condicional) Para agregar una nueva integración, haga clic **[!UICONTROL en Agregar integración]**, seleccione la integración que desee y haga clic **[!UICONTROL en Guardar]**.
 
-1. From the **[!UICONTROL Product Role]** drop-down list, select the desired role for that workspace:
+1. En la lista **[!UICONTROL desplegable Función]** del producto, seleccione la función que desee para ese espacio de trabajo:
 
    * [!UICONTROL Aprobador]
    * [!UICONTROL Editor]
