@@ -1,15 +1,15 @@
 ---
 description: Descargue datos en formato .csv para poder importarlos rápidamente a Excel, Access o cualquier otro programa de análisis de datos.
 keywords: informes;informes de descargas;csv;métricas de éxito;detalles de pedidos
-seo-description: Descargue datos en formato .csv para poder importarlos rápidamente a Excel, Access o cualquier otro programa de análisis de datos.
-seo-title: Descarga de datos en un archivo CSV
+seo-description: Descargue datos en formato .csv para importarlos rápidamente a Excel, Access u otros programas de análisis de datos mediante Adobe Target.
+seo-title: Descarga de datos en un archivo CSV con Adobe Target
 solution: Target
 subtopic: Prueba multivariable
 title: Descarga de datos en un archivo CSV
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -20,12 +20,16 @@ Descargue datos en formato .csv para poder importarlos rápidamente a Excel, Acc
 
 Para descargar datos en un archivo CSV:
 
-1. Haga clic en [!DNL Activities] y luego en una actividad de la lista.
+1. Haga clic en **[!UICONTROL Actividades]** y luego en una actividad de la lista.
 
    Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Fuente de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas] y [!UICONTROL Fuente de la actividad].
 
 1. Haga clic en la pestaña **[!UICONTROL Informes].**
-1. Haga clic en el icono [!UICONTROL Descargar] y, a continuación, seleccione un tipo de informe que quiera descargar para analizarlo en Excel y otras herramientas.
+1. Haga clic en el icono **[!UICONTROL Descargar]y, a continuación, seleccione un tipo de informe que quiera descargar para analizarlo en Excel y otras herramientas.**
+
+   * [!UICONTROL Exportar informes a CSV]
+   * [!UICONTROL Exportar detalles del pedido a un archivo .csv]
+   ![Opciones de descarga](/help/c-reports/assets/download-options.png)
 
 ## Exportar informes a CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -38,7 +42,7 @@ Los datos se guardan hasta que finaliza la actividad.
 
 >[!NOTE]
 >
->El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza, utilizadas para las pruebas A/B. Para calcular estas métricas, descargue el archivo de Excel [Calculadora de confianza completa de Target](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) para introducir el valor de la actividad o revisar los [cálculos estadísticos usados por Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+>El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza que se utilizan en las pruebas A/B. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## Exportar detalles del pedido a un archivo .csv {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -77,11 +81,11 @@ El informe de detalles del pedido (conocido como el informe de auditoría en [!D
 * Los valores que se pasan mediante el parámetro de mbox `ProductPurchasedId` aparecen ahora recogidos en el informe de detalles del pedido.
 * Una práctica recomendada es incluir un `orderID`, así como un `orderTotal`. Esto permite ignorar automáticamente los pedidos duplicados.
 
-## Advertencias  {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## Advertencias {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 La información siguiente se refiere a la opción Descargar:
 
-* Puede descargar informes para las actividades A/B, Personalización automatizada, Segmentación de experiencias y multivariable. No puede descargar el informe de métricas de éxito para actividades de Recommendations.
+* Puede descargar ambos informes para las actividades Prueba A/B, Personalización automatizada, Segmentación de experiencias y multivariable. No puede descargar el informe de métricas de éxito para actividades de Recommendations.
 * La opción Descargar no está disponible para actividades A/B ni Segmentación de experiencias creadas antes de la versión 15.7.1 de Target (julio de 2015).
 * Las experiencias que no tienen datos asociados no se registran en el informe descargado.
 * Las audiencias aplicadas en la interfaz de usuario de informes de Target no se transmiten al informe de descarga.
