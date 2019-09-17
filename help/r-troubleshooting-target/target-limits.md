@@ -8,7 +8,7 @@ title: Límites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 8038b4758e9ce72ff8e43e7427c273aeed734288
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -19,17 +19,17 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 
 >[!NOTE]
 >
->Los límites enumerados a continuación deben considerarse límites "duros" a menos que se especifique como "recomendado".
+>Los límites listados a continuación deben considerarse límites “duros” a menos que se especifique como “recomendado”.
 >
->Cuando se aproximan o se exceden los límites designados como "recomendados", el rendimiento puede ralentizarse. Si la interfaz tarda tiempo en cargarse también puede ser debido a una actividad muy compleja, como por ejemplo muchas audiencias, objetivos y experiencias en la misma actividad.
+>Cuando se aproximan o se exceden los límites designados como “recomendados”, el rendimiento puede ralentizarse. Si la interfaz tarda tiempo en cargarse también puede ser debido a una actividad muy compleja, como por ejemplo muchas audiencias, objetivos y experiencias en la misma actividad.
 >
 >Las actividades muy complejas deben ser revisadas por los asesores de Adobe y probadas en un entorno limitado antes de su lanzamiento en producción.
 
 ## Actividades
 
-**Límite recomendado**: 10 000 actividades activas activas.
+**Límite recomendado**: 10 000 actividades activas.
 
-**Límite recomendado**: 10 000 acciones guardadas (y no finalizadas).
+**Límite** recomendado: 10.000 actividades activas guardadas (y no finalizadas).
 
 ## Nombres de actividades
 
@@ -55,28 +55,28 @@ Los valores más largos de 256 caracteres se truncan.
 
 ## ID de alias de atributo de cliente
 
-**Límite de** 50 caracteres.
+**Límite** 50 caracteres.
 
 ## Atributos personalizados de entidad
 
 **Límite**: La longitud máxima depende del idioma.
 
-* 15 000 caracteres (un solo valor, idiomas de uno y dos bytes)
+* 15 000 caracteres (un solo valor, uno y dos bytes)
 * 500 valores, 100 caracteres por valor (varios valores)
 
-La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15.000 caracteres (para los lenguajes con codificación UTF -8 de byte único, como inglés y otros alfabetos latinos, como inglés y otros alfabetos latinos) o 10.000 caracteres (para idiomas con codificación UTF -8 de byte múltiple como chino, japonés y coreano).
+La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15 000 caracteres (para lenguajes con codificación UTF-8 de uno y dos bytes, como inglés y otros alfabetos latinos) o 10 000 caracteres (para lenguajes con codificación UTF-8 de 3 bytes como chino, japonés y coreano).
 
-Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos de entidad personalizados de un solo valor (véase arriba).
+Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (véase arriba).
 
-## Parámetros de entityID
+## Parámetros de entityid
 
 **Límite**: 1000 caracteres.
 
-## excludedIds {#excludedid}
+## Excludedids {#excludedid}
 
-**Límite**: 5 kB para solicitudes POST. 2083 caracteres menos la longitud de la URL para las solicitudes GET.
+**Límite**: 5 KB para solicitudes POST. 2.083 caracteres menos la longitud de la URL para las solicitudes GET.
 
-Para las solicitudes GET, aunque el límite del back-end es 5 kB, debido al hecho de que Microsoft Internet Explorer limita la dirección URL a 2083 caracteres, el límite realista es de 2083 caracteres menos la longitud actual de la dirección URL.
+Para las solicitudes GET, aunque el límite del back-end es 5 KB, debido al hecho de que Microsoft Internet Explorer limita la dirección URL a 2.083 caracteres, el límite realista es de 2.083 caracteres menos la longitud actual de la dirección URL.
 
 ## Nombres de experiencias
 
@@ -84,9 +84,9 @@ Para las solicitudes GET, aunque el límite del back-end es 5 kB, debido al hech
 
 ## Experiencias por actividad
 
-**Límite**: 2.000 experiencias por segmentación de experiencias (XT), Prueba A/B, Prueba multivariable (MVT) y actividad de segmentación automática.
+**Límite**: 2000 experiencias por Segmentación de experiencias (XT), Prueba A/B, Prueba multivariada (MVT) y actividad de Segmentación automática.
 
-30 000 experiencias por actividad de Personalización automatizada (AP).
+30 000 experiencias por actividad de Automated Personalization (AP).
 
 ## Valor de atributo de perfil In-mbox
 
@@ -104,7 +104,7 @@ Se ignorarán todos los perfiles por encima de 50.
 
 **Límite**: 128 caracteres.
 
-## Nombres de mbox
+## nombres de mbox
 
 **Límite**: 250 caracteres.
 
@@ -123,9 +123,9 @@ Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#
 
 ## Direcciones URL de peticiones de mbox
 
-**Límite**: 2083 caracteres.
+**Límite**: 2.083 caracteres.
 
-Este límite se debe a las restricciones de longitud de dirección URL de Microsoft Internet Explorer.
+Este límite se debe a las restricciones de longitud de URL de Microsoft Internet Explorer.
 
 ## Parámetro mbox3rdPartyId
 
@@ -169,13 +169,13 @@ El sistema truncará lo que supere este límite.
 
 **Límite recomendado**: 300 scripts de perfil activos.
 
-**Límite recomendado**: 500 000 número máximo de bucles por script de perfil.
+**Límite recomendado**: 500 000 es el número máximo de bucles por script de perfil.
 
 ## Propiedades
 
 **Límite recomendado**: 5000 propiedades.
 
-## Audiencias o segmentos de informes
+## Informes de audiencias o segmentos
 
 **Límite**: 50 audiencias/segmentos por actividad.
 
@@ -187,7 +187,7 @@ Se producen errores de tiempo de espera de JavaScript en la interfaz si tiene de
 
 ## Cuadro de entrada de perfil de script en la interfaz de usuario de Target
 
-**Límite recomendado**: 2.000 caracteres.
+**Límite recomendado**: 2000 caracteres.
 
 Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado larga, producirá un error antes de llegar a Adobe Target.
 
@@ -195,9 +195,9 @@ Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la ca
 
 **Límite**: 50 caracteres.
 
-## Valores de perfil de secuencia
+## Valores de perfil de secuencia de comandos
 
-**Límite**: 2048 caracteres.
+**Límite**: 2.048 caracteres.
 
 Por motivos de rendimiento, recomendamos un valor de retorno que no tenga más de 256 caracteres.
 
@@ -215,9 +215,9 @@ Para un valor de devolución de matriz, si el tamaño de los valores concatenado
 
 Esto hace referencia al número de valores separados por líneas en el área de texto de determinación de objetivos. Por ejemplo, si se escriben 1000 códigos postales en un solo objetivo de código postal.
 
-## Reglas de objetivo
+## Reglas de segmentación
 
-**Límite recomendado**: 2.500 valores únicos por regla de objetivo.
+**Límite recomendado**: 2500 valores únicos por regla de segmentación.
 
 **Límite recomendado**: 30 000 valores únicos por audiencia en reglas de segmentación.
 
