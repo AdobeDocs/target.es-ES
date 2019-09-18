@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -167,7 +167,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
    * Ver el código de los diseños
 
 1. (Opcional) Abra la página [!UICONTROL Informes] para ver el informe que muestra el rendimiento de la actividad de [!DNL Recommendations].
-1. (Opcional) Abra la página [!UICONTROL Conflictos] para ver cualquier [conflicto de actividades](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html) que pueda producirse.
+1. (Opcional) Abra la página [!UICONTROL Conflictos] para ver cualquier [conflicto de actividades](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) que pueda producirse.
 
    Se produce un conflicto de actividades cuando existen varias actividades configuradas para publicar contenido en la misma página, lo cual puede hacer que se muestre contenido inesperado.
 
