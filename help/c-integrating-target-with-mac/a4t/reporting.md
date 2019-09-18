@@ -9,7 +9,7 @@ title: Informes de A4T
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -45,7 +45,7 @@ En Analytics, utilice el informe de Actividades de Target para ver los resultado
 
 >[!NOTE]
 >
->Los detalles de alza y confianza de Target también están disponibles en Analytics. Para obtener más información, consulte [Tipo de informe de alza y confianza de Target](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html) en la documentación de Adobe Analytics.
+>Los detalles de alza y confianza de Target también están disponibles en Analytics. Para obtener más información, consulte Alza y confianza [de](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) Target en la Guía *de componentes de* Analytics.
 
 >[!IMPORTANT]
 >
