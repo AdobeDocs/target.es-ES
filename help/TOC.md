@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/es-ES/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + Permisos de usuario de Enterprise {#enterprise}
          + [Permisos de usuario de Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuración de permisos de Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Otorgar acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Conceder a las integraciones de Adobe I/O acceso a espacios de trabajo y asignar funciones](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Integración con Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Tokens de respuesta](administrating-target/response-tokens.md)
@@ -53,11 +53,11 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + [Preparación para implementar Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacidad y seguridad {#privacy}
          + [Información general sobre la privacidad](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Normativas de privacidad y protección de datos](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Normas de privacidad y protección de datos](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Eliminar la cookie de Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Políticas de cookies de Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Directivas de políticas de seguridad de contenido (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [Directivas de directiva de seguridad de contenido (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + Métodos para obtener los datos en Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configuración de la API del perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -137,7 +137,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [Android: configuración de la aplicación móvil](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS: configuración de la aplicación móvil](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configurar el rastreo de clics en el VEC móvil](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [Target para preguntas más frecuentes sobre aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Preguntas más frecuentes sobre Target para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Servidor: implementación de Target {#server-side}
       + [Servidor: información general sobre la implementación de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transición de las API heredadas de Target a Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
@@ -167,6 +167,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [Definiciones de métricas: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [Recuentos inflados de visitas y visitantes: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [Clasificaciones: Preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
+         + [Compartir métricas, audiencias e informes: preguntas más frecuentes sobre A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integración heredada de SiteCatalyst con Test&amp;Target: Preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Audiencias de Experience Cloud](c-integrating-target-with-mac/mmp.md)
@@ -276,7 +277,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + [Atributos de perfil](c-target/c-visitor-profile/profile-parameters.md)
       + [Afinidad de la categoría](c-target/c-visitor-profile/category-affinity.md)
       + [Atributos del cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Sincronización de perfiles en tiempo real para mbox 3 rdpartyid](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Sincronización de perfiles en tiempo real para mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glosario de perfiles y variables](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Preguntas más frecuentes sobre audiencias y segmentación {#faq-audiences}
       + [Preguntas más frecuentes sobre audiencias y segmentación](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -340,7 +341,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
    + [Preguntas más frecuentes sobre la creación de informes](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Información general de Recommendations](c-recommendations/recommendations.md)
-   + [Introducción a Recommendations](c-recommendations/introduction-to-recommendations.md)
+   + [Introducción a Recomendaciones](c-recommendations/introduction-to-recommendations.md)
    + [Planificar e implementar Recommendations](c-recommendations/plan-implement.md)
    + Entidades {#entities}
       + [Información general sobre entidades](c-recommendations/c-products/products.md)
