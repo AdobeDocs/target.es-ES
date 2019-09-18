@@ -8,7 +8,7 @@ title: Notas de la versión para versiones anteriores
 topic: Las actividades de
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -23,17 +23,17 @@ Notas de la versión de versiones anteriores de Target, incluidas las notas de l
 
 ## Notas de la versión - 2019 {#releases-2019}
 
-### Target Mobile VEC SDK iOS 2.1.0 y Android 1.1.1 (7 de agosto de 2019)
+### SDK de VEC móvil de Target iOS 2.1.0 y Android 1.1.1 (7 de agosto de 2019)
 
-Esta versión del SDK Mobile VEC incluye las siguientes mejoras y correcciones:
+Esta versión de Mobile VEC SDK incluye las siguientes mejoras y correcciones:
 
 (Los números entre paréntesis son para uso interno de Adobe).
 
-* Se agregó compatibilidad con la vista previa de actividades visuales en dispositivos móviles. (TGT-27875)
-* Se ha corregido un problema que provocaba una infracción estándar de Apple debido `UIImagePickerController` al uso.
-* Se eliminó la dependencia GSON del SDK de Android. (TGT-31710)
-* Eliminadas otras dependencias de Gradle redundantes (TGT -35479)
-* Se ha corregido un problema que hacía que la oferta de envío no se restableciera durante la creación. (TGT-35270)
+* Se agregó compatibilidad con Vista previa para actividades visuales en dispositivos móviles. (TGT-27875)
+* Se ha corregido un problema que provocaba una infracción de Apple Standard debido al `UIImagePickerController` uso.
+* Se ha eliminado la dependencia de GSON del SDK de Android. (TGT-31710)
+* Se han eliminado otras dependencias de Gradle redundantes (TGT-35479)
+* Se ha corregido un problema que provocaba que la oferta de entrega no se restableciera en el momento de la creación. (TGT-35270)
 
 ### Target Standard/Premium 19.7.1 (24 de julio de 2019) {#tgt-19-7-1}
 
@@ -43,34 +43,34 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Función. / Mejora | Descripción |
 | --- | --- |
-| Compositor de experiencias visuales para aplicaciones móviles | Un nuevo panel Modificaciones aparece en el VEC de la aplicación móvil que muestra los elementos configurados para el seguimiento de clics. (TGT-31741)<br> Consulte [Configuración del rastreo de clics en la aplicación móvil](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
+| Compositor de experiencias visuales para aplicaciones móviles | Un nuevo panel Modificaciones aparece en el VEC de la aplicación móvil que muestra los elementos configurados para el seguimiento de clics. (TGT-31741)<br> Consulte [Configuración del seguimiento de clics en la aplicación](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)móvil. |
 | ![Distintivo Premium](/help/assets/premium.png)<br> Recommendations en las actividades de prueba A/B y segmentación de experiencias (XT) | El estado de oferta de Recommendations (algoritmo) aparece en la página Información general de las actividades de prueba A/B y XT que contienen ofertas de Recommendations. Los estados incluyen: Resultados preparados, Resultados no preparados y Error de fuente. (TGT-33649)<br>Consulte [Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Compatibilidad de seguimiento entre dominios para at.js 2.0+ a través de la biblioteca de Experience Cloud ID (ECID) | Anteriormente, el seguimiento entre dominios no era compatible con at.js 2.*x*. Con esta versión, los clientes que utilizan at.js 2.0 o una versión superior pueden utilizar el seguimiento entre dominios a través de la biblioteca ECID. La biblioteca ECID debe instalarse en la página junto con at.js 2.0 o una versión superior para que funcione el seguimiento entre dominios. [Se debe usar la biblioteca de ID de Experience Cloud 4.3.0 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) .<br>Consulte [Compatibilidad con seguimiento entre dominios en at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Compatibilidad de Target con ITP 2.1 y ITP 2.2 de Apple a través de la biblioteca 4.3 de Experience Cloud ID (ECID) | Actualmente, los clientes de Target pueden mitigar ITP 2.1 y ITP 2.2 de Apple mediante el uso del programa de certificación CNAME de Adobe.<br>Con esta versión, Target introduce una integración sin fisuras con la biblioteca ECID 4.3, que aprovecha una cookie del lado del servidor para mitigar ITP 2.1 y ITP 2.2. Es muy recomendable que los clientes de Target implementen [la biblioteca ECID 4.3 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) junto con la biblioteca JavaScript de Target para mitigar cualquier versión futura de ITP. La biblioteca ECID ofrecerá más mejoras que proporcionen una solución sólida para las cambiantes políticas de cookies ingresadas por los exploradores.<br>Consulte [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
+| Compatibilidad de seguimiento entre dominios para at.js 2.0+ a través de la biblioteca de Experience Cloud ID (ECID) | Anteriormente, el seguimiento entre dominios no era compatible con at.js 2.*x*. Con esta versión, los clientes que utilizan at.js 2.0 o una versión superior pueden utilizar el seguimiento entre dominios a través de la biblioteca ECID. La biblioteca ECID debe instalarse en la página junto con at.js 2.0 o una versión superior para que funcione el seguimiento entre dominios. [Debe utilizarse la biblioteca de ID de Experience Cloud 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) .<br>Consulte Compatibilidad con el seguimiento [entre dominios en at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
+| Compatibilidad de Target con ITP 2.1 y ITP 2.2 de Apple a través de la biblioteca 4.3 de Experience Cloud ID (ECID) | Actualmente, los clientes de Target pueden mitigar ITP 2.1 y ITP 2.2 de Apple mediante el uso del programa de certificación CNAME de Adobe.<br>Con esta versión, Target introduce una integración perfecta con la biblioteca ECID 4.3, que aprovecha una cookie del lado del servidor para mitigar ITP 2.1 e ITP 2.2. Se recomienda encarecidamente que los clientes de Target implementen la biblioteca [ECID 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) junto con la biblioteca JavaScript de Target para mitigar cualquier versión futura de ITP. La biblioteca ECID ofrecerá más mejoras que proporcionen una solución sólida para las cambiantes políticas de cookies ingresadas por los exploradores.<br>Consulte [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
 
 **Mejoras, correcciones y cambios**
 
-* Se ha corregido un problema que impedía borrar valores de exclusión en actividades de Recomendaciones al agregar valores duplicados. (TGT-34996)
-* Ahora puede eliminar un diseño en una actividad de Recomendaciones desde la página Segmentación (Paso 2 del flujo de trabajo guiado de tres partes). Tenga en cuenta que para eliminar un diseño debe haber más de un diseño seleccionado. (TGT-35118)
-* Se ha corregido un problema que impedía que las tarjetas de criterios personalizados para algunos clientes se cargaran correctamente en la interfaz de usuario de Target o que se podían editar. (TGT-35170)
+* Se ha corregido un problema que impedía que los valores de exclusión de las actividades de Recomendaciones se borraran al agregar valores duplicados. (TGT-34996)
+* Ahora puede eliminar un diseño de una actividad de Recomendaciones de la página Segmentación (paso 2 del flujo de trabajo guiado de tres partes). Tenga en cuenta que para eliminar un diseño, debe haber más de un diseño seleccionado. (TGT-35118)
+* Se ha corregido un problema que impedía que algunas tarjetas de criterios personalizados se cargaran correctamente en la interfaz de usuario de Target o se pudieran editar. (TGT-35170)
 
-### Versión 2.1.1 de at. js (24 de julio de 2019)
+### Versión 2.1.1 de at.js (24 de julio de 2019)
 
-Esta versión de at. js es una versión de mantenimiento e incluye las siguientes mejoras y correcciones:
+Esta versión de at.js es una versión de mantenimiento que incluye las siguientes mejoras y correcciones:
 
 (Los números entre paréntesis son para uso interno de Adobe).
 
-* Se ha corregido un problema que hacía que se activaran varias señalizaciones al utilizar la métrica Rastreo de clics en la página Objetivos y configuración del Compositor de experiencias visuales (VEC). (TNT-32812)
-* Se ha corregido un problema que causaba `triggerView()` que no se procesaran ofertas más de una vez. (TNT-32780)
-* Se ha corregido un problema con `triggerView()` el cual garantizar que la solicitud contenga información de Marketing Cloud ID (MCID). (TNT-32776)
-* Se ha corregido un problema que impedía que se activara `triggerView()` la notificación aunque no hubiera vistas guardadas. (TNT-32614)
-* Se ha corregido un problema que provocaba un error debido al uso de decodeuricomponent que causaba problemas cuando la dirección URL contenía un parámetro de cadena de consulta incorrecto. (TNT-32710)
-* El indicador de señalización ahora se establece en "true" en el contexto de las solicitudes de envío enviadas mediante `Navigator.sendBeacon()` la API. (TNT-32683)
-* Se ha corregido un problema que impedía que las ofertas de Recommendations se mostraran en sitios web para algunos clientes. Los clientes podían ver el contenido de la oferta en la llamada de API de entrega pero la oferta no se aplicaba al sitio web. (TNT-32680)
-* Se ha corregido un problema que provocaba que el seguimiento de clics en varias experiencias no funcionara según lo esperado. (TNT-32644)
-* Se ha corregido un problema que impedía que at. js aplicara la segunda métrica después de que fallara la representación de la primera métrica. (TNT-32628)
-* Se ha corregido un problema al pasar `mboxThirdPartyId` usando `targetPageParams` la función que provocaba que la carga útil de la solicitud no estuviera presente en los parámetros de consulta ni en la carga útil de la solicitud. (TNT-32613)
-* Se ha corregido un problema que provocaba que las respuestas de notificación de clics y visualización se bloquearan en exploradores basados en Chromium (incluido Google Chrome). (TNT-32290)
+* Se ha corregido un problema que provocaba que se activaran varias señalizaciones al usar la métrica Seguimiento de clics en la página Objetivos y configuración del Compositor de experiencias visuales (VEC). (TNT-32812)
+* Se ha corregido un problema que provocaba `triggerView()` que las ofertas no se procesaran más de una vez. (TNT-32780)
+* Se ha corregido un problema con `triggerView()` el que se aseguraba de que la solicitud contiene información de Marketing Cloud ID (MCID). (TNT-32776)
+* Se ha corregido un problema que impedía que la notificación se activara aunque no hubiera vistas guardadas. `triggerView()` (TNT-32614)
+* Se ha corregido un problema que provocaba un error debido al uso de decodeURIcomponent que generaba problemas cuando la dirección URL contenía un parámetro de cadena de consulta mal formado. (TNT-32710)
+* El indicador de señalización ahora se establece en "true" en el contexto de las solicitudes de entrega enviadas mediante la `Navigator.sendBeacon()` API. (TNT-32683)
+* Se ha corregido un problema que impedía que las ofertas de Recomendaciones se mostraran en sitios web para algunos clientes. Los clientes podían ver el contenido de la oferta en la llamada de API de envío, pero la oferta no se aplicaba en el sitio web. (TNT-32680)
+* Se ha corregido un problema que provocaba que el rastreo de clics en varias experiencias no funcionara según lo esperado. (TNT-32644)
+* Se ha corregido un problema que impedía que at.js aplicara la segunda métrica después de que fallara el procesamiento de la primera métrica. (TNT-32628)
+* Se corrigió un problema al pasar `mboxThirdPartyId` usando la `targetPageParams` función que ocasionaba que la carga útil de la solicitud no estuviera presente ni en los parámetros de consulta ni en la carga útil de la solicitud. (TNT-32613)
+* Se ha corregido un problema que provocaba que las respuestas de notificación de visualización y clic se bloquearan en los exploradores basados en Chrome (incluido Google Chrome). (TNT-32290)
 
 For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -303,15 +303,15 @@ Esta versión incorpora las siguientes funciones y mejoras:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experiencias </p> </td> 
-   <td colname="col2"> <p>Ahora puede copiar una experiencia en una actividad de Segmentación por experiencia (XT), por lo que puede realizar cambios menores sin tener que volver a crear la experiencia desde cero. Esta capacidad ya estaba disponible para las pruebas A/B. (TGT-31504) </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_xt_add_experience.html" format="html" scope="external">Crear experiencia</a>. </p> </td> 
+   <td colname="col2"> <p>Ahora puede copiar una experiencia en una actividad de Segmentación por experiencia (XT), por lo que puede realizar cambios menores sin tener que volver a crear la experiencia desde cero. Esta capacidad ya estaba disponible para las pruebas A/B. (TGT-31504) </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/create-targeting/xt-add-experience.html" format="html" scope="external">Crear experiencia</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Ofertas en actividades de Personalización Automatizada (AP) </p> </td> 
-   <td colname="col2"> <p>En la versión de septiembre de 2018, agregamos una mejora que permite filtrar ofertas por grupos de informes. Ahora puede filtrar por Ofertas no asignadas, de modo que puede asignar un grupo de informes a una oferta que no está actualmente asignada a ningún grupo de informes. (TGT-31882) </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_create_ap_activity.html" format="html" scope="external">Crear una actividad de personalización automatizada</a>. </p> </td> 
+   <td colname="col2"> <p>En la versión de septiembre de 2018, agregamos una mejora que permite filtrar ofertas por grupos de informes. Ahora puede filtrar por Ofertas no asignadas, de modo que puede asignar un grupo de informes a una oferta que no está actualmente asignada a ningún grupo de informes. (TGT-31882) </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/target/using/activities/automated-personalization/create-ap-activity.html" format="html" scope="external">Crear una actividad de personalización automatizada</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fuente de informes para actividades </p> </td> 
-   <td colname="col2"> <p>En <span class="wintitle">Configuración</span> &gt; <span class="wintitle">Preferencias</span>, puede seleccionar la fuente de informes para sus actividades, <span class="keyword">Target</span> o <span class="keyword">Adobe Analytics</span>. Si lo desea, también puede elegir la fuente de informes por actividad. </p> <p>A partir de esta versión, hay algunas consideraciones importantes sobre el flujo de trabajo que debe tener en cuenta al elegir el origen de informes en <span class="wintitle">Preferencias</span> o por actividad. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/r_target-account-preferences.html" format="html" scope="external">Preferencias</a>. </p> </td> 
+   <td colname="col2"> <p>En <span class="wintitle">Configuración</span> &gt; <span class="wintitle">Preferencias</span>, puede seleccionar la fuente de informes para sus actividades, <span class="keyword">Target</span> o <span class="keyword">Adobe Analytics</span>. Si lo desea, también puede elegir la fuente de informes por actividad. </p> <p>A partir de esta versión, hay algunas consideraciones importantes sobre el flujo de trabajo que debe tener en cuenta al elegir el origen de informes en <span class="wintitle">Preferencias</span> o por actividad. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">Preferencias</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,7 +324,7 @@ En esta versión de [!DNL Target] se incluyen las siguientes mejoras, correccion
 
    * Si se eliminó una audiencia en AAM, se muestra un icono de advertencia tanto en la lista de [!UICONTROL Audiencias] como en el selector de audiencias. Una información sobre herramientas en la IU también indica que la audiencia se eliminó en AAM.
    * Si intenta combinar varias audiencias con una audiencia eliminada, o si intenta guardar una actividad que hace referencia a una audiencia eliminada, aparecerá un mensaje de advertencia.
-   Consulte [Acerca de las audiencias](https://marketing.adobe.com/resources/help/en_US/target/target/c_audiences.html).
+   Consulte [Acerca de las audiencias](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html).
 
 * Se ha solucionado un problema que impedía a los usuarios en ciertas situaciones poder crear una actividad cuando se seleccionaba Adobe Analytics como fuente de informes en la página [!UICONTROL Configuración]. Los usuarios veían el mensaje “Seleccione un grupo de informes”, pero no se les daba la opción de seleccionar el grupo de informes. (TGT-31968)
 
@@ -343,7 +343,7 @@ En esta versión de [!DNL Target] se incluyen las siguientes mejoras, correccion
    <td colname="col2"> <p>Esta es una versión de mantenimiento y aborda el siguiente problema: </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Se ha solucionado un problema que en algunos sitios de clientes conducía a un bucle infinito “asíncrono”. </p> </li> 
-     </ul> </p> <p> <p>Importante: Además, la versión 1.6.2 de at.js también contiene todas las mejoras y correcciones incluidas en las versiones 1.6.1 y 1.6.0 de at.js. Estas versiones ya no están disponibles para descargar. Le recomendamos que actualice a la versión 1.6.2 si usa 1.6.1 o 1.6.0. </p> </p> <p>Para obtener más información, consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-versions.html" format="html" scope="external">Detalles de la versión de at.js</a>. </p> </td> 
+     </ul> </p> <p> <p>Importante: Además, la versión 1.6.2 de at.js también contiene todas las mejoras y correcciones incluidas en las versiones 1.6.1 y 1.6.0 de at.js. Estas versiones ya no están disponibles para descargar. Le recomendamos que actualice a la versión 1.6.2 si usa 1.6.1 o 1.6.0. </p> </p> <p>Para obtener más información, consulte <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">Detalles de la versión de at.js</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -661,7 +661,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Fragmentos de experiencia de Adobe Experience Manager (AEM) </p> </td> 
-   <td colname="col2"> <p>El empleo en actividades de Target de fragmentos de experiencia creados en AEM le permite combinar la facilidad de uso y la potencia de AEM con potentes capacidades de Inteligencia automatizada (AI) y Aprendizaje automático (ML) en Target para probar y personalizar experiencias a escala. &amp; amp; nbsp; &amp; amp; nbsp; </p> <p>AEM aúna todos sus contenidos y recursos en una ubicación centralizada que potencia su estrategia de personalización. AEM le permite crear fácilmente contenido para equipos de escritorio, tabletas y dispositivos móviles en una misma ubicación y sin tener que escribir código. No es necesario crear páginas para cada dispositivo: AEM ajusta automáticamente la experiencia empleando su contenido. </p> <p> Target le permite ofrecer experiencias personalizadas a escala empleando una combinación de enfoques de aprendizaje automático basados en reglas y dirigidos por AI que incorporan variables de comportamiento, contextuales y sin conexión.Target le permite configurar y ejecutar fácilmente actividades A/B y multivariable para determinar las mejores ofertas, contenidos y experiencias. </p> <p>Los fragmentos de experiencia representan un enorme paso adelante en el vínculo entre, por un lado, los creadores y gestores de contenido/experiencia y, por otro, los profesionales de la optimización y la personalización que dirigen mediante Target los resultados del negocio. </p> <p>Para obtener más información, consulte <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">Fragmentos de experiencia de AEM</a>. </p> </td> 
+   <td colname="col2"> <p>El empleo en actividades de Target de fragmentos de experiencia creados en AEM le permite combinar la facilidad de uso y la potencia de AEM con potentes capacidades de Inteligencia automatizada (AI) y Aprendizaje automático (ML) en Target para probar y personalizar experiencias a escala. &amp;nbsp;&amp;nbsp; </p> <p>AEM aúna todos sus contenidos y recursos en una ubicación centralizada que potencia su estrategia de personalización. AEM le permite crear fácilmente contenido para equipos de escritorio, tabletas y dispositivos móviles en una misma ubicación y sin tener que escribir código. No es necesario crear páginas para cada dispositivo: AEM ajusta automáticamente la experiencia empleando su contenido. </p> <p> Target le permite ofrecer experiencias personalizadas a escala empleando una combinación de enfoques de aprendizaje automático basados en reglas y dirigidos por AI que incorporan variables de comportamiento, contextuales y sin conexión.Target le permite configurar y ejecutar fácilmente actividades A/B y multivariable para determinar las mejores ofertas, contenidos y experiencias. </p> <p>Los fragmentos de experiencia representan un enorme paso adelante en el vínculo entre, por un lado, los creadores y gestores de contenido/experiencia y, por otro, los profesionales de la optimización y la personalización que dirigen mediante Target los resultados del negocio. </p> <p>Para obtener más información, consulte <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">Fragmentos de experiencia de AEM</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Informes </p> </td> 
@@ -681,7 +681,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
       <li id="li_341FDC1CEC2B4C4BBD45CB2A0A54F2A3"> <p>Coreano </p> </li> 
       <li id="li_A4C31539B98E42348D5F1A18C63EAB6C"> <p>Italiano </p> </li> 
       <li id="li_97E3E0A916B64601BBF601AAED581174"> <p>Portugués </p> </li> 
-     </ul> </p> <p>La <a href="https://marketing.adobe.com/resources/help/en_US/target/" format="https" scope="external">documentación de producto de Target</a> se está localizando en estos momentos y se publicará en los idiomas anteriores cuando haya concluido el proceso. </p> </td> 
+     </ul> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audiencias </p> </td> 
@@ -814,7 +814,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Se ha cambiado el nombre de Adobe Marketing Cloud y ahora se conoce como Adobe Experience Cloud. </p> </td> 
-   <td colname="col2"> <p>Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube. </p> <p>Cambio de marca y cambios de IU: Adobe Marketing Cloud ha cambiado de marca y ahora se llama Adobe Experience Cloud. Además, verá modificaciones de la IU en la interfaz de Target y en la aplicación de cambio de solución. </p> <p>Para obtener más información sobre este cambio, consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/solutions-core-services.html" format="html" scope="external">Acerca de los nuevos nombres de las nubes en Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube. </p> <p>Cambio de marca y cambios de IU: Adobe Marketing Cloud ha cambiado de marca y ahora se llama Adobe Experience Cloud. Además, verá modificaciones de la IU en la interfaz de Target y en la aplicación de cambio de solución. </p> <p>Para obtener más información sobre este cambio, consulte <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/solutions-core-services.html" format="html" scope="external">Acerca de los nuevos nombres de las nubes en Experience Cloud</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -958,7 +958,7 @@ Esta versión incluye las siguientes características y mejoras (los números de
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ofertas </p> </td> 
-   <td colname="col2"> <p> Si un usuario tiene el permiso de “Editor”, no podrá editar una oferta que haga referencia a una actividad programada o en directo. </p> <p> <p>Nota: En el caso de clientes de Target Premium que tengan <a href="https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html" format="html" scope="external">Permisos de usuario de Enterprise</a>, si un usuario selecciona la opción Todos los espacios de trabajo, Target utiliza el permiso más alto del usuario a través de los espacios de trabajo. Si el permiso más alto es “Editor”, Target restringe la edición, como se ha indicado anteriormente </p>. </p> <p>Estas restricciones se aplican a todas las ofertas, no solo a las ofertas creadas en Target. (TGT-27276) </p> </td> 
+   <td colname="col2"> <p> Si un usuario tiene el permiso de “Editor”, no podrá editar una oferta que haga referencia a una actividad programada o en directo. </p> <p> <p>Nota: En el caso de clientes de Target Premium que tengan <a href="https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external">Permisos de usuario de Enterprise</a>, si un usuario selecciona la opción Todos los espacios de trabajo, Target utiliza el permiso más alto del usuario a través de los espacios de trabajo. Si el permiso más alto es “Editor”, Target restringe la edición, como se ha indicado anteriormente </p>. </p> <p>Estas restricciones se aplican a todas las ofertas, no solo a las ofertas creadas en Target. (TGT-27276) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tokens de respuesta </p> </td> 
@@ -1488,7 +1488,7 @@ Esta versión de [!DNL Target] se centra en la corrección de errores en el back
       <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p>Se ha añadido la opción <span class="codeph">selectorsPollingTimeout</span>. Para obtener más información, consulte <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p>Se ha cambiado el formato de la respuesta de <span class="codeph">getOffer()</span>. Para obtener más información, consulte <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF" format="dita" scope="local">adobe.target.getOffer(options)</a>. </p> </li> 
       <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>Se ha añadido el registro en la consola de declaraciones <span class="codeph">&lt;!DOCTYPE&gt;</span> no admitidas. </p> </li> 
-      <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>Se ha corregido un problema por el que los complementos de <span class="keyword">Target Classic</span> no se aplicaban correctamente cuando se enviaban varias ofertas predeterminadas a un único mbox. (TGT-22664) Para obtener más información, consulte <a href="https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html" format="html" scope="external">Complementos</a> en la documentación de Adobe Target Classic. </p> </li> 
+      <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>Se ha corregido un problema por el que los complementos de <span class="keyword">Target Classic</span> no se aplicaban correctamente cuando se enviaban varias ofertas predeterminadas a un único mbox. (TGT-22664)</p> </li> 
       <li id="li_7016022D9DDE4529B77984F195825AB7"> <p>Se ha mejorado el establecimiento de cookies para los dominios de nivel superior (TLD) de dos letras con la finalidad de garantizar que la cookie de mbox se establezca correctamente en dichos dominios (por ejemplo, <span class="filepath">test.no</span>, <span class="filepath">autodrives.ca</span>, etc.). </p> </li> 
       <li id="li_3B1F618DEC744056B5BB172C4DBB359A"> <p>El algoritmo para extraer el dominio de nivel superior que debería usarse al guardar cookies ha cambiado en la versión 0.9.6 de <span class="codeph">at.js</span>. Debido a ello, no es posible guardar cookies en direcciones que utilicen IP. La mayoría de las veces se usan direcciones IP con fines de prueba, pero como solución alternativa se pueden utilizar entradas DNS o ajustar el archivo de anfitriones en un cuadro local. </p> </li> 
       <li id="li_A52181499E63402DB4E16E33E36A9400"> <p>Se ha corregido la gestión de las acciones mover y reorganizar cuando las propiedades son valores de cadena, no números enteros. </p> </li> 
@@ -1595,7 +1595,7 @@ Esta versión de [!DNL Target] se centra en las mejoras del uso y el rendimiento
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> Los nombres de mbox ahora pueden contener caracteres especiales, incluido el símbolo &amp;, para que sean coherentes con los requisitos de los nombres de mbox que usan <span class="codeph">mbox.js</span>. (TNT-26144) </p> <p>Para obtener más información, consulte <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">Configuración de at.js</a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Se ha añadido la opción de configuración <span class="codeph">secureOnly</span> que indica si <span class="codeph">at.js</span> debería utilizar solo HTTPS o se le debería permitir alternar entre HTTP y HTTPS según el protocolo de la página. Se trata de un ajuste avanzado que se establece en False de manera predeterminada y puede anularse mediante <span class="codeph">targetGlobalSettings</span>. (TNT-26183) </p> <p>Para obtener más información, consulte <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>La opción <span class="wintitle">Compatibilidad con navegadores anteriores</span> está disponible en la versión 0.9.3 (y anteriores) de <span class="codeph">at.js</span>. Esta opción se ha eliminado en la versión 0.9.4 de <span class="codeph">at.js</span>. </p> <p>Para obtener más información, consulte <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">Configuración de at.js</a>. </p> </li> 
-     </ul> </p> <p>Para obtener información detallada sobre los cambios en cada versión de <span class="codeph">at.js</span>, consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-versions.html" format="html" scope="external">Detalles de la versiones de at.js</a>. </p> </td> 
+     </ul> </p> <p>Para obtener información detallada sobre los cambios en cada versión de <span class="codeph">at.js</span>, consulte <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">Detalles de la versiones de at.js</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Versión 62 de <span class="codeph">mbox.js</span> </p> </td> 
@@ -1603,7 +1603,7 @@ Esta versión de [!DNL Target] se centra en las mejoras del uso y el rendimiento
      <ul id="ul_1D4351AEB0D74FE4B09196113A4672C1"> 
       <li id="li_653D9C605A0B447AB1FFEE5D22D3AD05"> <p>Se han solucionado los problemas de parpadeo en actividades redirigidas al visualizarlas en navegadores de Google Chrome. (TNT-24928) </p> </li> 
       <li id="li_2196D7CD9B144C0A96AE8B8D13976C69"> <p>Se ha añadido la opción de configuración <span class="codeph">secureOnly</span> que indica si <span class="codeph">mbox.js</span> debería utilizar solo HTTPS o se le debería permitir alternar entre HTTP y HTTPS según el protocolo de la página. Se trata de un ajuste avanzado que se establece en False de manera predeterminada. (TNT-26183) </p> <p>Para obtener más información, consulte <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C" format="dita" scope="local">Configurar mbox.js</a>. </p> </li> 
-     </ul> </p> <p>Para obtener información detallada sobre los cambios en cada versión de <span class="codeph">mbox.js</span>, consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html" format="html" scope="external">Detalles de la versión de mbox.js</a>. </p> </td> 
+     </ul> </p> <p>Para obtener información detallada sobre los cambios en cada versión de <span class="codeph">mbox.js</span>, consulte <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html" format="html" scope="external">Detalles de la versión de mbox.js</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2195,7 +2195,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
       <li id="li_C47240826E5844D6843314F453F042FC">La navegación se ha movido de la izquierda a la zona superior. </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">Se han mejorado los cuadros de diálogo. </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">Ha mejorado el flujo de creación de actividades. </li> 
-     </ul> </p> <p>Se ha cambiado la forma de seleccionar las soluciones de Experience Cloud, incluyendo Target. Para acceder a las soluciones y los servicios de Experience Cloud, haga clic en el icono de menú. </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Para obtener más información sobre cómo tener acceso a Target y hacer que Target sea la página predeterminada después de iniciar sesión en Experience Cloud, consulte <a href="../c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Acceder a Target desde Adobe Experience Cloud</a>. </p> <p>Para obtener más información sobre las mejoras en la interfaz de usuario, consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/marketing-cloud-interface.html" format="https" scope="external">Novedades de Adobe Experience Cloud: primavera de 2016</a>. </p> </td> 
+     </ul> </p> <p>Se ha cambiado la forma de seleccionar las soluciones de Experience Cloud, incluyendo Target. Para acceder a las soluciones y los servicios de Experience Cloud, haga clic en el icono de menú. </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Para obtener más información sobre cómo tener acceso a Target y hacer que Target sea la página predeterminada después de iniciar sesión en Experience Cloud, consulte <a href="../c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Acceder a Target desde Adobe Experience Cloud</a>. </p> <p>Para obtener más información sobre las mejoras en la interfaz de usuario, consulte <a href="https://docs.adobe.com/content/help/en/core-services/interface/release-notes/marketing-cloud-interface.html" format="https" scope="external">Novedades de Adobe Experience Cloud: primavera de 2016</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Las reglas de inclusión se pueden deshabilitar para recomendaciones de copia de seguridad </td> 
@@ -2430,7 +2430,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atributos del cliente </p> </td> 
-   <td colname="col2"> <p> Cargue datos propios, llamados Atributos del cliente, con el servicio principal de Experience Cloud y elija atributos para compartirlos con Target. Esta funcionalidad se lanzó en marzo para Analytics y ahora se integra directamente en Target. </p> <p> Por ejemplo, puede usar datos de cliente como el estado de pertenencia (oro, plata, etc.), el historial de compras, el destino favorito, la tienda local, etc. en el sistema de administración de la relación con los clientes o en el sistema de comercio electrónico o de punto de venta. Ahora puede cargar esos datos en Experience Cloud. Después de que el usuario se autentique en el sitio, Target puede relacionar esos datos con su comportamiento en Internet. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html" format="https" scope="external">Atributos del cliente</a>. </p> </td> 
+   <td colname="col2"> <p> Cargue datos propios, llamados Atributos del cliente, con el servicio principal de Experience Cloud y elija atributos para compartirlos con Target. Esta funcionalidad se lanzó en marzo para Analytics y ahora se integra directamente en Target. </p> <p> Por ejemplo, puede usar datos de cliente como el estado de pertenencia (oro, plata, etc.), el historial de compras, el destino favorito, la tienda local, etc. en el sistema de administración de la relación con los clientes o en el sistema de comercio electrónico o de punto de venta. Ahora puede cargar esos datos en Experience Cloud. Después de que el usuario se autentique en el sitio, Target puede relacionar esos datos con su comportamiento en Internet. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html" format="https" scope="external">Atributos del cliente</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hay varias empresas disponibles al seleccionar Analytics como fuente de informes para Target. </p> </td> 
@@ -2451,7 +2451,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> Ponderación de atributo </p> </td> 
-   <td colname="col2"> <p> Las reglas de clasificación de Recommendations han cambiado los criterios. Este cambio afecta a las Recomendaciones existentes. </p> <p> Use la ponderación de atributo para “desplazar” el algoritmo. Los comerciantes pueden influir en el algoritmo con base a la descripción importante o los metadatos concernientes al catálogo de contenido. Aplique una mayor ponderación a estos artículos en liquidación para que aparezcan con más frecuencia en la recomendación. Los artículos que no están en liquidación no quedan completamente excluidos pero se muestran con menor frecuencia. Se pueden aplicar ponderaciones múltiples al mismo algoritmo y las ponderaciones se pueden probar sobre el tráfico dividido en la recomendación. </p> <p>Estas nuevas ponderaciones se han aplicado automáticamente a todas las actividades. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_attribute_weighting.html" format="https" scope="external">Ponderación de atributo</a>. </p> </td> 
+   <td colname="col2"> <p> Las reglas de clasificación de Recommendations han cambiado los criterios. Este cambio afecta a las Recomendaciones existentes. </p> <p> Use la ponderación de atributo para “desplazar” el algoritmo. Los comerciantes pueden influir en el algoritmo con base a la descripción importante o los metadatos concernientes al catálogo de contenido. Aplique una mayor ponderación a estos artículos en liquidación para que aparezcan con más frecuencia en la recomendación. Los artículos que no están en liquidación no quedan completamente excluidos pero se muestran con menor frecuencia. Se pueden aplicar ponderaciones múltiples al mismo algoritmo y las ponderaciones se pueden probar sobre el tráfico dividido en la recomendación. </p> <p>Estas nuevas ponderaciones se han aplicado automáticamente a todas las actividades. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Establecer la hora para el procesamiento de la fuente </p> </td> 
@@ -2544,7 +2544,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> Mostrar información sobre la clave del diseño </p> </td> 
-   <td colname="col2"> <p>Muestre el elemento clave del diseño de Recommendations. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_customizing_a_template.html" format="https" scope="external">Personalizar un diseño</a>. </p> </td> 
+   <td colname="col2"> <p>Muestre el elemento clave del diseño de Recommendations. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Personalización automatizada </p> <p>Informe basado en conversiones </p> </td> 
@@ -2552,7 +2552,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> Integración del correo electrónico de Adobe Campaign en Target Standard </td> 
-   <td colname="col2"> <p> Anteriormente, era necesario usar Target Classic para configurar mediante Adobe Campaign una campaña de correo electrónico segmentada. Con la publicación de dos nuevas características en Target Standard (la creación de actividades basada en formularios y las ofertas de redireccionamiento), ahora es posible usar Target Standard para configurar una campaña de correo electrónico segmentada con Adobe Campaign. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html" format="https" scope="external">Integrar Target en Adobe Campaign</a>. </p> </td> 
+   <td colname="col2"> <p> Anteriormente, era necesario usar Target Classic para configurar mediante Adobe Campaign una campaña de correo electrónico segmentada. Con la publicación de dos nuevas características en Target Standard (la creación de actividades basada en formularios y las ofertas de redireccionamiento), ahora es posible usar Target Standard para configurar una campaña de correo electrónico segmentada con Adobe Campaign.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Redirigir ofertas en la creación de actividades basada en formularios </td> 
@@ -2564,7 +2564,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> <p> Mejora en los informes con Analytics como fuente de informes para Target </p> </td> 
-   <td colname="col2"> <p> Haga clic para ver el informe de Analytics completo directamente desde la página de informes de la actividad. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_reporting.html" format="https" scope="external">Informes</a>. </p> </td> 
+   <td colname="col2"> <p> Haga clic para ver el informe de Analytics completo directamente desde la página de informes de la actividad. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mejoras en el rendimiento de la lista de actividades </td> 
@@ -2631,15 +2631,15 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>Mostrar el número de actividades que usan un diseño </p> </td> 
-   <td colname="col2"> <p>En la biblioteca de diseños se muestra cuántas actividades publicadas e inactivas usan cada diseño. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html" format="https" scope="external">Crear una actividad de Recommendations</a>. </p> </td> 
+   <td colname="col2"> <p>En la biblioteca de diseños se muestra cuántas actividades publicadas e inactivas usan cada diseño. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>Se muestra un título dinámico personalizado en el diseño </p> </td> 
-   <td colname="col2"> <p>Elija un título para mostrarlo cuando se use un diseño concreto. No es necesario que ese título coincida con el que se muestra a los visitantes de la página. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_new_algorithm.html" format="https" scope="external">Crear un nuevo criterio</a>. </p> </td> 
+   <td colname="col2"> <p>Elija un título para mostrarlo cuando se use un diseño concreto. No es necesario que ese título coincida con el que se muestra a los visitantes de la página. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>Token de la API </p> </td> 
-   <td colname="col2"> <p>Puede establecer el token de la API cliente desde Recommendations Premium. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_setup.html" format="https" scope="external">Configuración</a>. </p> </td> 
+   <td colname="col2"> <p>Puede establecer el token de la API cliente desde Recommendations Premium. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mejora: direcciones URL usadas a menudo </td> 
@@ -2678,7 +2678,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nuevo mbox.js </p> </td> 
-   <td colname="col2"> <p> La versión 58 de mbox.js garantiza que el servicio de ID de visitante de Experience Cloud esté listo antes de que se realicen las llamadas de Target. Esto garantiza que los datos de audiencia compartidos a través del servicio principal Perfiles y audiencias estén disponibles en la misma visita. Sin embargo, puede ocurrir un desplazamiento en la página mientras Target espera que el servicio vuelva, por lo que es importante un control de calidad completo antes de la actualización. Esta versión de mbox.js solo está disponible a través de la API. </p> <p>Consulte el <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html" format="https" scope="external">registro de cambios mbox.js</a> para obtener información sobre cada versión de mbox.js. </p> </td> 
+   <td colname="col2"> <p> La versión 58 de mbox.js garantiza que el servicio de ID de visitante de Experience Cloud esté listo antes de que se realicen las llamadas de Target. Esto garantiza que los datos de audiencia compartidos a través del servicio principal Perfiles y audiencias estén disponibles en la misma visita. Sin embargo, puede ocurrir un desplazamiento en la página mientras Target espera que el servicio vuelva, por lo que es importante un control de calidad completo antes de la actualización. Esta versión de mbox.js solo está disponible a través de la API. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Métricas de éxito configurables </td> 
@@ -2740,11 +2740,11 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Compatibilidad de Segmentación de experiencias con Analytics como fuente de informes </p> </td> 
-   <td colname="col2"> <p>Ahora puede usar Analytics como fuente de informes para actividades de Segmentación de experiencias. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_xt_goals_and_settings.html" format="https" scope="external">Configuración y objetivos</a>. </p> </td> 
+   <td colname="col2"> <p>Ahora puede usar Analytics como fuente de informes para actividades de Segmentación de experiencias. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Personalización automatizada: Indicación visual de estado de modelo </p> </td> 
-   <td colname="col2"> <p> Una vez que un modelo predictivo pasa los criterios de calidad requeridos y que se considera válido, se considera listo y se usa para calcular una puntuación personalizada para decisiones de ofertas. Un icono de reloj cambia a un marca de verificación cuando el modelo está listo y Target puede comenzar a entregar contenido personalizado. Como se espera un alza solo después de que los modelos estén listos, la indicación visual permite establecer la expectativa adecuada. Use el estimador de tráfico en el Compositor de experiencias visuales para obtener instrucciones sobre cuándo estarán listos los modelos. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_ap_traffic_estimator.html" format="https" scope="external">Calcular el tráfico necesario para realizar una prueba con éxito</a>. </p> </td> 
+   <td colname="col2"> <p> Una vez que un modelo predictivo pasa los criterios de calidad requeridos y que se considera válido, se considera listo y se usa para calcular una puntuación personalizada para decisiones de ofertas. Un icono de reloj cambia a un marca de verificación cuando el modelo está listo y Target puede comenzar a entregar contenido personalizado. Como se espera un alza solo después de que los modelos estén listos, la indicación visual permite establecer la expectativa adecuada. Use el estimador de tráfico en el Compositor de experiencias visuales para obtener instrucciones sobre cuándo estarán listos los modelos. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium: Examinar y navegar en el Compositor de experiencias visuales </p> </td> 
@@ -2814,10 +2814,9 @@ Esta versión incorpora las siguientes funciones y mejoras:
    <td colname="col1" class="premium"> <p>Nuevas características de Recommendations Premium </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6DC206CB52E34498BC762FCCF77807AA"> 
-      <li id="li_B26568D642974F17B4B2D6E42CFDC5B9"> <p>Nuevo modo Vista previa para ver diseños con JavaScript </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html" format="https" scope="external">Crear una actividad de Recommendations</a>. </p> </li> 
+      <li id="li_B26568D642974F17B4B2D6E42CFDC5B9"> <p>Nuevo modo Vista previa para ver diseños con JavaScript </p></li> 
       <li id="li_B8D1ADE874D244F198CBD3387ED3E310"> <p>La Búsqueda en catálogo ahora admite búsqueda libre para el idioma inglés </p> </li> 
-      <li id="li_EB8D595EA8A84B37A3262F76543E1B05"> <p>Compatibilidad de nivel de cuenta para escribir una dirección url base y estática con el fin de anteponer a todos los valores de <span class="codeph">entity.thumbnailUrl</span> relativa </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_setup.html" format="https" scope="external">Configuración</a>. </p> </li> 
-     </ul> </p> </td> 
+      <li id="li_EB8D595EA8A84B37A3262F76543E1B05"> <p>Compatibilidad de nivel de cuenta para escribir una dirección url base y estática con el fin de anteponer a todos los valores de <span class="codeph">entity.thumbnailUrl</span> relativa </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium"> Mejoras de Recommendations Premium </p> </td> 
@@ -2825,8 +2824,8 @@ Esta versión incorpora las siguientes funciones y mejoras:
      <ul id="ul_1CF5F2D0CDE84DDC9C445B5CD878EEAA"> 
       <li id="li_EB225752776449C6B21C2B2514B508C5"> <p>Mejoras para la vista previa de diseño en VEC </p> </li> 
       <li id="li_2CD8267EF166421DBB6EFBF704625848"> <p>Mejoras de diseño en diseños novedosos </p> </li> 
-      <li id="li_D737754C200844638B536A3BE02E9C5F"> La colección se muestra en el diagrama de segmentación <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_collections.html" format="https" scope="external">Colecciones</a>. </p> </li> 
-     </ul> </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external">Recommendations</a>. </p> </td> 
+      <li id="li_D737754C200844638B536A3BE02E9C5F"> La colección se muestra en el diagrama de segmentación</li> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium"> La funcionalidad de Recommendations Classic ahora se admite en Recommendations Premium </p> </td> 
@@ -2834,9 +2833,9 @@ Esta versión incorpora las siguientes funciones y mejoras:
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
       <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Representación de plantilla parcial <p>Consulte <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local">Configuración de contenido</a>. </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> Especifique reglas de copia de seguridad por criterios </li> 
-      <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> FTPS admitido para fuentes de productos <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_feeds_create.html" format="https" scope="external">Crear fuente</a>. </p> </li> 
-      <li id="li_3C0FA493C87345E4BE994936DF0D0162"> Los algoritmos personalizados ahora aparecen automáticamente como criterios <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_algorithms.html" format="https" scope="external">Criterios</a>. </p> </li> 
-      <li id="li_5B074C9FB3CB46EBA6EB4D8B1098480E"> Reindexación automática por hora de catálogos de producto para clientes sin fuentes <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_catalog_search.html" format="https" scope="external">Buscar en el catálogo</a>. </p> </li> 
+      <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> FTPS admitido para fuentes de productos</li> 
+      <li id="li_3C0FA493C87345E4BE994936DF0D0162"> Los algoritmos personalizados ahora aparecen automáticamente como criterios</li> 
+      <li id="li_5B074C9FB3CB46EBA6EB4D8B1098480E"> Reindexación automática por hora de catálogos de producto para clientes sin fuentes </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -2905,15 +2904,15 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">Recommendations: visualización de contenido mejorada </p> </td> 
-   <td colname="col2"> <p>Ahora, cuando vea o edite la colección, podrá ver cada uno de los artículos que cumplen los requisitos para entrar en una colección o para excluirlos de ella. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external">Recommendations</a>. </p> </td> 
+   <td colname="col2"> <p>Ahora, cuando vea o edite la colección, podrá ver cada uno de los artículos que cumplen los requisitos para entrar en una colección o para excluirlos de ella. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">Recommendations: resultados de búsqueda mejorados </p> </td> 
-   <td colname="col2"> <p>Se muestra el número total de artículos que cumplen cada cadena de búsqueda. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external">Recommendations</a>. </p> </td> 
+   <td colname="col2"> <p>Se muestra el número total de artículos que cumplen cada cadena de búsqueda. </p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cargar atributos de clientes en Adobe Analytics </p> </td> 
-   <td colname="col2"> <p>Los usuarios de Analytics que capturan los datos de clientes empresariales en una base de datos de administración de la relación con los clientes (CRM) pueden cargar esos datos en Experience Cloud. </p> <p>Una vez que los datos se encuentran en Experience Cloud, se puede crear un segmento de audiencia en Analytics que incluya los atributos del cliente en la definición del segmento y, después, compartir esa audiencia con Target. </p> <p> <p>Nota: Target aún no es capaz de utilizar directamente atributos de cliente sin procesar. </p> </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html" format="https" scope="external">Atributos del cliente</a> en la documentación del producto de Experience Cloud. </p> </td> 
+   <td colname="col2"> <p>Los usuarios de Analytics que capturan los datos de clientes empresariales en una base de datos de administración de la relación con los clientes (CRM) pueden cargar esos datos en Experience Cloud. </p> <p>Una vez que los datos se encuentran en Experience Cloud, se puede crear un segmento de audiencia en Analytics que incluya los atributos del cliente en la definición del segmento y, después, compartir esa audiencia con Target. </p> <p> <p>Nota: Target aún no es capaz de utilizar directamente atributos de cliente sin procesar. </p> </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -2930,7 +2929,7 @@ Esta versión incluye las siguientes correcciones:
 * Los eventos de conversión basados en Target para las pruebas multivariable en Target Standard/Premium no se notifican cuando Analytics se usa como fuente de informes para Target. Se espera poder resolver el problema pronto.
 * Se ha cambiado la ubicación de mbox.js versión 56 a la sección “JavaScript extra” para ejecutarlo antes que el mbox global.
 
-   Todos los ajustes en V56+ tienen espacio de nombres. Si hay funciones declaradas en la sección “JavaScript extra”, debe añadirse el prefijo window a cada una de ellas. Consulte el [registro de cambios en mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html).
+   Todos los ajustes en V56+ tienen espacio de nombres. Si hay funciones declaradas en la sección “JavaScript extra”, debe añadirse el prefijo window a cada una de ellas. Consulte el [registro de cambios en mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html).
 
 ### Adobe Target 15.2.1 (19 de febrero de 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
@@ -2979,7 +2978,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  <tbody> 
   <tr> 
    <td colname="col1"> Nuevo tipo de actividad: prueba multivariable </td> 
-   <td colname="col2"> <p> Una prueba multivariable factorial completa compara todas las combinaciones posibles de ofertas en las áreas de contenido para ayudarle a decidir cuál es la mejor combinación de contenido. Las pruebas multivariable también muestran qué contenido de qué áreas contribuye en mayor medida al éxito de la campaña. Un uso habitual de las pruebas multivariable es el que tiene como finalidad optimizar una página entera después de haber usado una prueba A/B para determinar un diseño óptimo. Con este tipo de prueba, puede optimizar los activos concretos de la página (por ejemplo, la imagen principal, titulares o contenido promocional). </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/target/mvt/c_multivariate_testing.html" format="https" scope="external">Prueba multivariable</a> para obtener más información. </p> <p>Para ver un vídeo introductorio, visite <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external">https://my.adobeconnect.com/p2k6u8iiu6l/</a>. </p> </td> 
+   <td colname="col2"> <p> Una prueba multivariable factorial completa compara todas las combinaciones posibles de ofertas en las áreas de contenido para ayudarle a decidir cuál es la mejor combinación de contenido. Las pruebas multivariable también muestran qué contenido de qué áreas contribuye en mayor medida al éxito de la campaña. Un uso habitual de las pruebas multivariable es el que tiene como finalidad optimizar una página entera después de haber usado una prueba A/B para determinar un diseño óptimo. Con este tipo de prueba, puede optimizar los activos concretos de la página (por ejemplo, la imagen principal, titulares o contenido promocional). </p> <p>Para ver un vídeo introductorio, visite <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external">https://my.adobeconnect.com/p2k6u8iiu6l/</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Examinar las páginas y los elementos dentro de las páginas en el Compositor de experiencias visuales </td> 
@@ -3106,7 +3105,7 @@ Esta versión incluye las siguientes funciones nuevas:
   </tr> 
   <tr> 
    <td colname="col1"> Múltiples actividades en una página </td> 
-   <td colname="col2"> <p>El contenido de las diversas actividades Target Standard puede suministrarse en una página desde una llamada al servidor <span class="keyword">Target</span>. </p> <p> <p>Nota: Esto no afecta a la evaluación de prioridades de Target Classic. </p> </p> <p>Para obtener más información sobre el proceso de decisión de prioridades de Target, consulte la <a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_priority.html" format="http" scope="external">ayuda de Target Standard</a>. </p> <p>Para obtener información sobre el modo en que Target determina qué experiencia muestra cuando varias actividades se dirijan a la misma ubicación en una página, consulte <a href="../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local"> Prioridad</a>. </p> </td> 
+   <td colname="col2"> <p>El contenido de las diversas actividades Target Standard puede suministrarse en una página desde una llamada al servidor <span class="keyword">Target</span>. </p> <p> <p>Nota: Esto no afecta a la evaluación de prioridades de Target Classic. </p> </p><p>Para obtener información sobre el modo en que Target determina qué experiencia muestra cuando varias actividades se dirijan a la misma ubicación en una página, consulte <a href="../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local"> Prioridad</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3145,11 +3144,11 @@ Esta versión incluye las siguientes funciones nuevas:
  <tbody> 
   <tr> 
    <td colname="col1"> Mejora de los informes de Adobe Analytics para Adobe Target </td> 
-   <td colname="col2"> Los clientes de Adobe Analytics pueden seleccionar <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external"> Analytics como fuente de informes predeterminada </a> durante <a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> el proceso de configuración de prueba </a>. Ya no es necesaria la selección de todas las métricas o audiencias de éxito que quiere utilizar para filtrar sus resultados. En los informes, puede seleccionar cualquier métrica o segmento de audiencia de éxito definida en Analytics y aplicarla de manera retroactiva a sus informes para realizar filtros amplios o análisis en profundidad de sus resultados de optimización. <p> <p>Nota: Para solicitar acceso a esta función, visite <a href="https://www.adobe.com/go/audiences" format="http" scope="external">http://www.adobe.com/go/audiences</a>. </p> </p> </td> 
+   <td colname="col2"> Los clientes de Adobe Analytics pueden seleccionar  Analytics como fuente de informes predeterminada  durante <a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> el proceso de configuración de prueba </a>. Ya no es necesaria la selección de todas las métricas o audiencias de éxito que quiere utilizar para filtrar sus resultados. En los informes, puede seleccionar cualquier métrica o segmento de audiencia de éxito definida en Analytics y aplicarla de manera retroactiva a sus informes para realizar filtros amplios o análisis en profundidad de sus resultados de optimización. <p> <p>Nota: Para solicitar acceso a esta función, visite <a href="https://www.adobe.com/go/audiences" format="http" scope="external">http://www.adobe.com/go/audiences</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Perfil de marketing principal de audiencia en tiempo real </td> 
-   <td colname="col2"> Aproveche el <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external">perfil de marketing principal</a> que unifica el ID y los datos de los visitantes en un único perfil que se puede activar para utilizarlo en todos los programas. Durante el proceso de creación de un segmento en Adobe Analytics, se puede marcar una casilla de verificación para que el segmento esté disponible en la biblioteca de audiencias personalizada de Adobe Target. Un segmento creado en Analytics o Audience Manager puede utilizarse para segmentar visitantes en Target. <p> <p>Nota: Para solicitar acceso a esta función, visite <a href="https://www.adobe.com/go/audiences" format="http" scope="external">http://www.adobe.com/go/audiences</a>. </p> </p> </td> 
+   <td colname="col2"> Aproveche el perfil de marketing principal que unifica el ID y los datos de los visitantes en un único perfil que se puede activar para utilizarlo en todos los programas. Una casilla de verificación durante el proceso de creación de segmentos en Adobe Analytics permite que el segmento esté disponible dentro de la biblioteca de audiencias personalizada de Adobe Target. Un segmento creado en Analytics o Audience Manager puede utilizarse para segmentar visitantes en Target. <p> <p>Nota: Para solicitar acceso a esta función, visite <a href="https://www.adobe.com/go/audiences" format="http" scope="external">http://www.adobe.com/go/audiences</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tipo de actividad de segmentación de experiencias </td> 
