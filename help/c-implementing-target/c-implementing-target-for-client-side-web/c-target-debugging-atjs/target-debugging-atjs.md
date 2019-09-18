@@ -7,7 +7,7 @@ title: Depurar at.js mediante Adobe Experience Cloud Debugger
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -18,7 +18,7 @@ Información sobre el uso de la extensión Adobe Experience Cloud Debugger, que 
 
 Puede ver rápidamente la configuración de la biblioteca, examinar las solicitudes para asegurarse de que los parámetros personalizados se pasan correctamente, activar el registro de consola y desactivar todas las solicitudes de Target. Si se autentica en Experience Cloud, podrá utilizar la potente herramienta Mbox Trace para inspeccionar su actividad, las cualificaciones de audiencia y el perfil del visitante.
 
-Revise la [documentación de ampliación de Adobe Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) para obtener más información. En la sección [Herramientas](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html) encontrará información específica de Target.
+Revise la [documentación de ampliación de Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) para obtener más información. En la sección [Herramientas](https://docs.adobe.com/content/help/en/debugger/using/tools.html) encontrará información específica de Target.
 
 ## Vídeos de formación
 
