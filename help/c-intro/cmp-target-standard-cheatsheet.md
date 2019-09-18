@@ -8,7 +8,7 @@ title: Preguntas más frecuentes sobre la optimización y personalización de Ta
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -37,13 +37,13 @@ Consulte el [Foro de la comunidad de Target](../cmp-resources-and-contact-inform
 
 Lea nuestros [exploradores permitidos](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
 
-## Biblioteca JavaScript de Target (at.js y mbox.js)  {#section_C2AC78DFDAD84981A8C84DF20893E340}
+## Biblioteca JavaScript de Target (at.js y mbox.js). {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
 **¿Qué archivo JavaScript de implementación debo usar, at.js o mbox.js?**
 
-at.js es nuestra última y mejor biblioteca de JavaScript. mbox.js es nuestra versión anterior. Consulte [Beneficios de at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para comprender las diferencias entre las dos bibliotecas. Todos los clientes nuevos deberían utilizar at.js.
+at.js es nuestra última y mejor biblioteca de JavaScript. mbox.js es nuestra versión anterior. Consulte [Ventajas de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para comprender las diferencias entre las dos bibliotecas. Todos los clientes nuevos deberían utilizar at.js.
 
-Todos los clientes existentes de mbox.js deberían migrar a at.js. Obtenga más información sobre los pasos que debe seguir  [al migrar de mbox.js a at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) antes de hacer la transición.
+Todos los clientes existentes de mbox.js deberían migrar a at.js. Obtenga más información sobre los pasos que debe seguir [al migrar de mbox.js a at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) antes de hacer la transición.
 
 ## Actividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -81,7 +81,7 @@ Tenga en cuenta que el requisito de tráfico aumenta con las actividades de MVT.
 
 **¿Puedo aplicar ofertas en diferentes ubicaciones (por ejemplo, el embudo de pago)?**
 
-Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
+Pruebe la [función Actividad multipágina](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) que permite usar varias páginas dentro de las experiencias.
 
 **¿Cómo puedo asegurarme de que una vez que se ha alcanzado un objetivo (primario o secundario), un usuario no vuelva a ingresar a la actividad y, en cambio, vea una actividad diferente en el futuro?**
 
@@ -107,7 +107,7 @@ Esto es posible gracias a la configuración del objetivo primario en el paso 3 d
 
 Utilice la función Programación en el paso [Objetivos y configuración](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) del flujo de trabajo de actividad de tres partes especificando las fechas de inicio y finalización.
 
-Recuerde activar la actividad. Solo las actividades activas se ajustan a la programación especificada. Una vez que se alcanza la fecha de finalización, la actividad entra en el estado Terminado.
+Recuerde activar la actividad. Solo las actividades en vivo cumplen con la programación especificada. Una vez que se alcanza la fecha de finalización, la actividad entra en el estado Terminado.
 
 **¿Puedo hacer un cambio solo en el paso de segmentación y no pasar por todo el flujo de trabajo guiado de tres pasos para editar?**
 
@@ -178,7 +178,7 @@ Revise las [reglas de plantilla](../c-experiences/c-visual-experience-composer/t
 
 Esto se debe a que su sitio tiene contenido mixto; es un sitio que obtiene recursos HTTP y HTTPS. Solicite que su equipo de TI se mueva completamente a HTTPS.
 
-Hasta que esto suceda, siga las instrucciones en  [Habilitar contenido mixto en el explorador](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para que el explorador cargue contenido mixto. Esta es una característica de seguridad de la mayoría de los navegadores modernos.
+Hasta que esto suceda, siga las instrucciones en [Habilitar contenido mixto en el explorador](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para que el explorador cargue contenido mixto. Esta es una característica de seguridad de la mayoría de los navegadores modernos.
 
 **¿Puedo probar el Compositor de experiencias visuales (VEC) en mi sitio aunque la biblioteca Target at.js aún no se haya desplegado?**
 
@@ -190,7 +190,7 @@ Pruebe la [información de solución de problemas](../c-experiences/c-visual-exp
 
 También tenemos un [método basado en formularios](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que puede desbloquearlo.
 
-Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que deba comunicarse con su departamento de TI para  [incluir también en la lista blanca los servidores proxy de Adobe](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que deba comunicarse con su departamento de TI para [incluir también en la lista blanca los servidores proxy de Adobe](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Tengo un sitio adaptable. Al crear una actividad, ¿cómo puedo estar seguro de que estoy considerando dispositivos clave?**
 
@@ -236,7 +236,7 @@ Use el [enfoque basado en formularios](../c-experiences/form-experience-composer
 
 **¿Puedo asegurar que la misma experiencia se entregue de manera consistente en todos los dispositivos que un usuario pueda tener?**
 
-Eche un vistazo a nuestro [Dispositivo Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html) que le permite vincular de manera determinista y probabilística múltiples dispositivos de un usuario a través del poder de una cooperativa. 
+Eche un vistazo a nuestro [Dispositivo Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) que le permite vincular de manera determinista y probabilística múltiples dispositivos de un usuario a través del poder de una cooperativa. 
 
 Si está en la Co-op, un simple indicador en la página Objetivos y configuración habilitará la función. Ahora, los informes también cambian para reflejar a las personas en lugar de a los visitantes. Hable con su contacto de Adobe para obtener más información sobre esta característica, ya que no está disponible en todas las regiones.
 
@@ -256,7 +256,7 @@ Contamos con [Redirigir la función de la URL](../c-experiences/c-manage-content
 
 **¿Por qué no se realiza la entrega de contenido en mi proceso de control de calidad?**
 
-Es posible que su sitio tenga identificadores dinámicos, ID duplicados o clases dinámicas en elementos. Puede que tenga que evaluar las opciones de preferencia del sitio en el nivel de la cuenta (o en el nivel de actividad si el problema es específico de un dominio o una página). See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Es posible que su sitio tenga identificadores dinámicos, ID duplicados o clases dinámicas en elementos. Puede que tenga que evaluar las opciones de preferencia del sitio en el nivel de la cuenta (o en el nivel de actividad si el problema es específico de un dominio o una página). Consulte [Selectores CSS](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **¿Por qué no veo la oferta/experiencia deseada y, en cambio, estoy viendo alguna otra actividad?**
 
@@ -283,7 +283,7 @@ Eche un vistazo a los siguientes aspectos del producto:
 
 Aquí es donde aparece la [función audiencias para informes](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponible en la página objetivos y configuraciones en el paso 3 del flujo de trabajo de actividades guiadas de tres partes.
 
-Tiene la opción de agregar 50 segmentos de este tipo y también el punto de aplicación (Entrada de actividad o una métrica específica) para tener una manera eficaz de fraccionar y cortar.
+Tiene la opción de agregar 50 de esos segmentos y también el punto de aplicación (Entrada de actividad o una métrica específica) para tener una forma potente para cortar y fragmentar.
 
 Tenga en cuenta que Target recopila los datos a este respecto desde el momento en que agrega estas audiencias, por lo que si olvida agregar segmentos antes de ejecutar la prueba, no tendrá suerte.
 
@@ -291,19 +291,19 @@ Tenga en cuenta que Target recopila los datos a este respecto desde el momento e
 
 **¿Qué puedo hacer para facilitar este proceso?**
 
-This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Si tiene Adobe Analytics, simplemente elija una fuente como Analytics, que elimina esta restricción. Ahora puede realizar análisis en cualquier audiencia en cualquier punto y no necesita definir las audiencias de informes por adelantado.
+Es allí donde [Analytics para Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) resulta más práctico. Si tiene Adobe Analytics, simplemente elija una fuente como Analytics, que elimina esta restricción. Ahora puede realizar análisis en cualquier audiencia en cualquier punto y no necesita definir las audiencias de informes por adelantado.
 
 **¿Puedo realizar cálculos de informes sin conexión?**
 
-Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
+Use [Exportar informes a CSV y descargar detalles de pedidos a las opciones de CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) en la página Informes para descargar los datos de informes deseados.
 
 **¿Puedo cambiar la experiencia de control para evaluar informes o cambiar la metodología de conteo de Visitantes a Visitas?**
 
-Haga estos cambios usando los  [ajustes en la página de informes](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Lea más sobre estos ajustes para comprender cómo varían los cálculos.
+Haga estos cambios usando los [ajustes en la página de informes](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Lea más sobre estos ajustes para comprender cómo varían los cálculos.
 
 **¿Cómo debo interpretar los informes?**
 
-Hemos intentado hacer informes lo más intuitivos posible con características como  [las barras de intervalo de confianza, los límites de ascenso, la significancia/confianza y múltiples selecciones de métricas, vistas de tablas y gráficos, promedios de carrera y más](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para permitir análisis de informes potentes pero fáciles. Obviamente, puede comprobar Analytics si utiliza [Analytics para actividades de Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para un análisis más amplio de las audiencias.
+Hemos intentado hacer informes lo más intuitivos posible con características como [las barras de intervalo de confianza, los límites de ascenso, la significancia/confianza y múltiples selecciones de métricas, vistas de tablas y gráficos, promedios de carrera y más](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para permitir análisis de informes potentes pero fáciles. Obviamente, puede comprobar Analytics si utiliza [Analytics para actividades de Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para un análisis más amplio de las audiencias.
 
 ## Tokens de respuesta {#section_C2A7118B4B62482A9D630C2212112A3D}
 
