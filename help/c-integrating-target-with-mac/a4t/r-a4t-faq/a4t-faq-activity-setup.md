@@ -8,7 +8,7 @@ title: 'Configuración de actividades: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -23,7 +23,7 @@ Para obtener una lista completa, consulte “Tipos de actividades compatibles”
 
 ## Acabo de crear una actividad. ¿Por qué no entran datos? {#section_9F8092BE4225442896F926540292F221}
 
-Cuando se crea una actividad, Target envía un archivo de clasificación a Analytics. Aunque Analytics esté recopilando datos y procesándolos, no se muestran en los informes hasta que se actualice el archivo de clasificación. Este proceso puede tardar hasta 24 horas. Si al cabo de 48 horas no ve los datos, [contacte con ClientCare](https://marketing.adobe.com/resources/help/en_US/target/target/r_problem.html). De forma alternativa, si sabe que va a iniciar una actividad, puede crearla con unos días de antelación y el archivo de clasificación se enviará cuando se guarde la actividad. De este modo, aparecerán datos en el informe en cuanto se inicie la actividad. Tenga en cuenta que los datos tardan entre 45 y 90 minutos en procesarse en Analytics.
+Cuando se crea una actividad, Target envía un archivo de clasificación a Analytics. Aunque Analytics esté recopilando datos y procesándolos, no se muestran en los informes hasta que se actualice el archivo de clasificación. Este proceso puede tardar hasta 24 horas. Si al cabo de 48 horas no ve los datos, [contacte con ClientCare](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). De forma alternativa, si sabe que va a iniciar una actividad, puede crearla con unos días de antelación y el archivo de clasificación se enviará cuando se guarde la actividad. De este modo, aparecerán datos en el informe en cuanto se inicie la actividad. Tenga en cuenta que los datos tardan entre 45 y 90 minutos en procesarse en Analytics.
 
 ## ¿Por qué no puedo seleccionar Analytics como fuente de informes cuando creo una actividad nueva?  {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
