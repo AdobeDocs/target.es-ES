@@ -9,7 +9,7 @@ title: Conceptos clave de Target
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -50,7 +50,7 @@ Las ubicaciones son esenciales para las actividades y las experiencias. Puede de
 
 En [!DNL Target Standard], una ubicación puede ser cualquier elemento de una página siempre que la página contenga una sola línea de código que active [!DNL Target] en la sección `<head>` de cada página que desee rastrear. Esta línea de código llama a las bibliotecas de JavaScript necesarias para recopilar información y ofrecer experiencias segmentadas para los visitantes de su sitio.
 
-See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) for more information about the differences between location implementation in [!DNL Target Standard] and the mbox implementation in [!DNL Target Classic].
+Consulte [Ventajas de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para obtener más información sobre las diferencias entre la implementación de la ubicación en [!DNL Target Standard] y la implementación de mbox en [!DNL Target Classic].
 
 Las ubicaciones se combinan con audiencias para proporcionar un número casi inagotable de opciones de segmentación de información a sus clientes. Por ejemplo, si un visitante nunca ha estado antes en el sitio, puede mostrar un cupón de descuento para nuevos clientes. Del mismo modo, puede cambiarse la página para que muestre ofertas que estén más optimizadas para clientes que vuelven a visitar el sitio.
 
@@ -98,13 +98,13 @@ Por ejemplo, puede segmentar una actividad para una audiencia formada por visita
 
 O puede segmentar la actividad para los visitantes que procedan de una zona geográfica concreta o para los usuarios que accedan a la página desde un determinado motor de búsqueda.
 
-Las audiencias se pueden guardar para reutilizarlas en varias actividades, o bien pueden crearse para una actividad específica.
+Las audiencias se pueden guardar para reutilizarlas en varias actividades o pueden crearse para una actividad específica.
 
 | Tipo de audiencia | Descripción |
 |--- |--- |
-| Audiencias reutilizables | Se pueden seleccionar audiencias reutilizables para cualquier actividad. Si cambia una de estas audiencias, se cambia para todas las actividades que la usen. |
+| Audiencias reutilizables | Pueden seleccionarse audiencias reutilizables para cualquier actividad. Si cambia una de estas audiencias, se cambia para todas las actividades que la usen. |
 | Segmentos personalizados | Los segmentos personalizados (también conocidos como segmentos específicos de campaña) son lo que se utilizan en una campaña de Target Classic. Se crean como parte de la campaña y no se pueden reutilizar en otras campañas. |
-| Audiencias compartidas | Las audiencias se pueden compartir entre las distintas soluciones de [!DNL Adobe Experience Cloud]. Para ver algunos ejemplos, consulte [Audiencias de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html). |
+| Audiencias compartidas | Las audiencias se pueden compartir entre las distintas soluciones de [!DNL Adobe Experience Cloud]. See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
 
 Si desea obtener información sobre el modo en que el perfil del visitante realiza el seguimiento de la información sobre los visitantes de su página, consulte.[Perfiles de visitantes](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
