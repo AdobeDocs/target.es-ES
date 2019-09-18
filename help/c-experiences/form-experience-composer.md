@@ -8,14 +8,14 @@ title: Compositor de experiencias basadas en formularios
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
 # Compositor de experiencias basadas en formularios{#form-based-experience-composer}
 
-El Compositor de experiencias basadas en formularios es una interfaz no visual y una interfaz de creación de ofertas que resulta útil para crear experiencias para utilizarlas en pruebas A/B, Segmentación de experiencias, Personalización automatizada y actividades de Recomendaciones cuando el Compositor de experiencias visuales no está disponible o es práctico para su uso. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
+El Compositor de experiencias basadas en formularios es una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en pruebas A/B, Segmentación de experiencias, Automated Personalization y actividades de Recomendaciones cuando el Compositor de experiencias visuales no está disponible o su uso no es práctico. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
 
 Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus criterios y su diseño. Si elige varios criterios o diseños, Target genera las experiencias automáticamente.
 
@@ -39,7 +39,7 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 
    ![](assets/location_refinements_2.png)
 
-   En el Compositor de experiencias basadas en formularios, los refinamientos se han sustituido por funciones de audiencia completas. Los refinamientos para las actividades existentes se han migrado a  [audiencias solo de actividad](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   En el Compositor de experiencias basadas en formularios, los refinamientos se han sustituido por funciones de audiencia completas. Los refinamientos para las actividades existentes se han migrado a [audiencias solo de actividad](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 1. Seleccione el tipo de contenido que desea que aparezca en esa ubicación.
 
    ![](assets/form_content.png)
@@ -77,7 +77,7 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
    1. Escriba el nombre de una oferta.
    1. Escriba o pegue su código JSON en el recuadro Código.
    1. Haga clic en [!UICONTROL Guardar].
-   Para una actividad de Recommendations, la lista desplegable Contenido ofrece la opción Agregar recomendación. Haga clic en **[!UICONTROL Agregar recomendación]** y seleccione el tipo de página. Después siga los pasos habituales que se definen en la interfaz para [crear una actividad de Recomendaciones](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html).
+   Para una actividad de Recommendations, la lista desplegable Contenido ofrece la opción Agregar recomendación. Haga clic en **[!UICONTROL Agregar recomendación]** y seleccione el tipo de página. Después siga los pasos habituales que se definen en la interfaz para [crear una actividad de Recomendaciones](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Cuando se seleccionan los criterios de Recommendations en el Compositor de experiencias basadas en formularios, ahora existe un vínculo directo a la tarjeta de criterios seleccionada de modo que pueda editarlos de forma rápida y sencilla.
 
