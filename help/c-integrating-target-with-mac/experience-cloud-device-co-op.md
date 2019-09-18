@@ -8,7 +8,7 @@ title: Cooperación entre dispositivos de Experience Cloud
 topic: Standard
 uuid: b689a964-613f-4a64-9f15-e9111e6bf945
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -17,6 +17,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Información sobre [!DNL Adobe Experience Cloud Device Co-op], un programa que permite a los participantes colaborar para identificar mejor a los consumidores en distintos puntos táctiles digitales, siempre asegurando el máximo nivel de privacidad y transparencia.
 
-[!DNL Experience Cloud Device Co-op] permite a las marcas participantes reconocer a sus consumidores, de modo que puedan ofrecerles a escala masiva experiencias más personalizadas entre dispositivos y aplicaciones. [!DNL Device Co-op] es un servicio central de [!DNL Adobe Experience Cloud]. Está disponible para los clientes de [!DNL Adobe] que utilizan [!DNL Analytics], [!DNL Audience Manager], [!DNL Media Optimizer] o [!DNL Target]. Para obtener más información, consulte la [documentación de Cooperación entre dispositivos de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+[!DNL Experience Cloud Device Co-op] permite a las marcas participantes reconocer a sus consumidores, de modo que puedan ofrecerles a escala masiva experiencias más personalizadas entre dispositivos y aplicaciones. [!DNL Device Co-op] es un servicio central de [!DNL Adobe Experience Cloud]. Está disponible para los clientes de [!DNL Adobe] que utilizan [!DNL Analytics], [!DNL Audience Manager], [!DNL Media Optimizer] o [!DNL Target]. Para obtener más información, consulte la [documentación de Cooperación entre dispositivos de Adobe Experience Cloud](https://docs.adobe.com/content/help/en/device-co-op/using/home.html).
 
-En [!DNL Target], puede utilizar datos de [!DNL Device Co-op] en pruebas A/B, pruebas multivariable (MVT) y actividades de segmentación de experiencias. La opción [!UICONTROL Device Co-op] está disponible durante la creación de actividad en la página [!UICONTROL Objetivos y configuración] del flujo de trabajo guiado de tres pasos de [!DNL Target]. Para obtener más información, consulte [Target: Pruebas A/B, Pruebas multivariable y Segmentación de experiencias](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-target.html).
+En [!DNL Target], puede utilizar datos de [!DNL Device Co-op] en pruebas A/B, pruebas multivariable (MVT) y actividades de segmentación de experiencias. La opción [!UICONTROL Device Co-op] está disponible durante la creación de actividad en la página [!UICONTROL Objetivos y configuración] del flujo de trabajo guiado de tres pasos de [!DNL Target]. For more information, see [Target - A/B Tests, Multivariate Tests, and Experience Targeting](https://docs.adobe.com/content/help/en/device-co-op/using/data/target.html).
