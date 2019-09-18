@@ -9,7 +9,7 @@ title: Métodos para obtener los datos en Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -54,7 +54,7 @@ Los datos se envían a Target en tiempo real y se pueden utilizar en la misma ll
 * Si los datos se deben utilizar para segmentación en una página o llamada de servidor posterior, deben traducirse a un script de perfil.
 * Las cadenas de consulta solo pueden contener caracteres según el [estándar Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
-   Además de los mencionados en el sitio IETF, Target permite los siguientes caracteres en cadenas de consulta:
+   Además de los mencionados en el sitio IETF, Target permite los siguientes caracteres en las cadenas de consulta:
 
    `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
@@ -298,7 +298,7 @@ Solo se actualiza el perfil. No se puede crear un perfil para un usuario potenci
 
 ### Ejemplos de código
 
-Se admiten GET y POST.  `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+Se admiten GET y POST. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### Vínculos a información relevante
 
@@ -336,8 +336,8 @@ Se requiere la implementación del Experience Cloud ID (ECID).
 
 ### Ejemplos de código
 
-Puede encontrar más información en [Crear un origen de atributo de cliente y cargar el archivo de datos](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) .
+Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Vínculos a información relevante
 
-[Crear un origen de atributo de cliente y cargar el archivo de datos](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[Creación de un origen de atributos del cliente y carga del archivo de datos](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
