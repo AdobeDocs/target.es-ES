@@ -8,7 +8,7 @@ subtopic: Primeros pasos
 title: Detalles de las versiones de at.js
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -21,41 +21,41 @@ Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScri
 >
 >El equipo de Target mantiene solo dos versiones de [!DNL at.js]: la actual y la penúltima. Actualice [!DNL at.js] cuando sea posible para garantizar que dispone de una versión compatible.
 
-## Versión 2.1.1 de at. js (24 de julio de 2019)
+## Versión 2.1.1 de at.js (24 de julio de 2019)
 
-Esta versión de at. js es una versión de mantenimiento e incluye las siguientes mejoras y correcciones:
+Esta versión de at.js es una versión de mantenimiento que incluye las siguientes mejoras y correcciones:
 
 (Los números entre paréntesis son para uso interno de Adobe).
 
-* Se ha corregido un problema que hacía que se activaran varias señalizaciones al utilizar la métrica Rastreo de clics en la página Objetivos y configuración del Compositor de experiencias visuales (VEC). (TNT-32812)
-* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
-* Se ha corregido un problema que provocaba un error debido al uso de decodeuricomponent que causaba problemas cuando la dirección URL contenía un parámetro de cadena de consulta incorrecto. (TNT-32710)
-* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
-* Se ha corregido un problema que impedía que las ofertas de Recommendations se mostraran en sitios web para algunos clientes. Los clientes podían ver el contenido de la oferta en la llamada de API de entrega pero la oferta no se aplicaba al sitio web. (TNT-32680)
-* Se ha corregido un problema que provocaba que el seguimiento de clics en varias experiencias no funcionara según lo esperado. (TNT-32644)
-* Se ha corregido un problema que impedía que at. js aplicara la segunda métrica después de que fallara la representación de la primera métrica. (TNT-32628)
-* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
-* Se ha corregido un problema que provocaba que las respuestas de notificación de clics y visualización se bloquearan en exploradores basados en Chromium (incluido Google Chrome). (TNT-32290)
+* Se ha corregido un problema que provocaba que se activaran varias señalizaciones al usar la métrica Seguimiento de clics en la página Objetivos y configuración del Compositor de experiencias visuales (VEC). (TNT-32812)
+* Se ha corregido un problema que provocaba `triggerView()` que las ofertas no se procesaran más de una vez. (TNT-32780)
+* Se ha corregido un problema con `triggerView()` el que se aseguraba de que la solicitud contiene información de Marketing Cloud ID (MCID). (TNT-32776)
+* Se ha corregido un problema que impedía que la notificación se activara aunque no hubiera vistas guardadas. `triggerView()` (TNT-32614)
+* Se ha corregido un problema que provocaba un error debido al uso de decodeURIcomponent que generaba problemas cuando la dirección URL contenía un parámetro de cadena de consulta mal formado. (TNT-32710)
+* El indicador de señalización ahora se establece en "true" en el contexto de las solicitudes de entrega enviadas mediante la `Navigator.sendBeacon()` API. (TNT-32683)
+* Se ha corregido un problema que impedía que las ofertas de Recomendaciones se mostraran en sitios web para algunos clientes. Los clientes podían ver el contenido de la oferta en la llamada de API de envío, pero la oferta no se aplicaba en el sitio web. (TNT-32680)
+* Se ha corregido un problema que provocaba que el rastreo de clics en varias experiencias no funcionara según lo esperado. (TNT-32644)
+* Se ha corregido un problema que impedía que at.js aplicara la segunda métrica después de que fallara el procesamiento de la primera métrica. (TNT-32628)
+* Se corrigió un problema al pasar `mboxThirdPartyId` usando la `targetPageParams` función que ocasionaba que la carga útil de la solicitud no estuviera presente ni en los parámetros de consulta ni en la carga útil de la solicitud. (TNT-32613)
+* Se ha corregido un problema que provocaba que las respuestas de notificación de visualización y clic se bloquearan en los exploradores basados en Chrome (incluido Google Chrome). (TNT-32290)
 
 ## Versión 2.1.0 de at. js (3 de junio de 2019)
 
 Esta versión incorpora las siguientes funciones y mejoras:
 
-* **Compatibilidad con Adobe Opt-in**: Adobe Opt-In es una forma de simplificar las integraciones de soluciones de Adobe con plataformas de administración de consentimiento. Para obtener más información sobre Adobe Opt-in, consulte [Privacidad y Reglamento General de Protección de Datos (RGPD)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Compatibilidad de Adobe Opt-In**: Adobe Opt-in es una forma de simplificar las integraciones de soluciones de Adobe con plataformas de administración de consentimiento. Para obtener más información sobre Adobe Opt-in, consulte [Privacidad y Reglamento General de Protección de Datos (RGPD)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
-* **Compatible con CSP estándar del sector**: at. js ya no utiliza eval () para ejecutar JavaScript.
+* **Compatible con CSP estándar del sector**: at.js ya no utiliza eval() para ejecutar JavaScript.
 
 * **Registro de análisis de cliente**: Proporcione a los clientes control total sobre cómo desean enviar datos de análisis a Adobe Analytics, ya sea en el lado del cliente o en el servidor.
 
-   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
+   Para obtener más información, consulte [Inicio de sesión en el lado del cliente](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) en *Antes de implementar*.
 
 * **Enviar notificaciones**: Permita que los desarrolladores envíen notificaciones cuando su código procese una experiencia en lugar de utilizar `applyOffer()` o `applyOffers()`.
 
-   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+   Para obtener más información, consulte [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
-* **El tamaño de at. js disminuyó ~ 24%**: El tamaño de at. js se reduce en ~ 24%. El menor tamaño de archivo mejora el rendimiento de carga de página y reduce el tiempo para descargar at. js en la página.
+* **El tamaño de at.js disminuyó ~24%**: El tamaño de at.js se reduce en ~24%. El menor tamaño de archivo mejora el rendimiento de carga de página y reduce el tiempo para descargar at.js en la página.
 
 ## Versión 2.0.1 de at.js (19 de marzo de 2019)
 
@@ -103,7 +103,7 @@ Para obtener más información, consulte [Actualización de at.js 1.x a at.js 2.
 
 >[!NOTE]
 >
->If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0 or at.js 2.1.0.
+>Si necesita compatibilidad con Adobe Opt-in para el [Reglamento General de Protección de Datos](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (RGPD), debe utilizar at.js 1.7.0 o at.js 2.1.0 en la actualidad.
 
 ## Versión 1.7.0 de at.js {#at-js-170}
 
@@ -115,7 +115,7 @@ Esta versión también corrige un problema en el que Target podía anular los pa
 
 >[! NOTA]
 >
->If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>Si necesita compatibilidad con Adobe Opt-in para el RGPD, actualmente debe utilizar at.js 1.7.0 o 2.1.0.<br>Para obtener una lista de todas las versiones, consulte [Detalles de la versión de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Versión 1.6.4 de at.js {#at-js-164}
 
@@ -201,7 +201,7 @@ Ya está disponible la versión 1.3.0 de at.js.
 * at.js ha mejorado la funcionalidad de seguimiento de eventos y clics. at.js utiliza `navigator.sendBeacon()` para enviar datos de seguimiento de eventos y se volverá a utilizar XHR sincrónico cuando no se admita `navigator.sendBeacon()`. Este reutilización afecta principalmente a Internet Explorer 10 y 11 y algunas versiones de Safari. Safari añadirá compatibilidad para `navigator.sendBeacon()` en la próxima versión de iOS 11.3.
 * Ahora, at.js puede presentar ofertas incluso cuando una página se abre en pestañas de fondo. Algunos clientes de Target encontraban un problema cuando `requestAnimationFrame()` se deshabilitaba debido al comportamiento de regulación del explorador para las pestañas de fondo.
 * Esta versión agrega muchas mejoras de rendimiento, incluyendo pilas de llamadas más cortas al inspeccionar un perfil de la CPU de Chrome.
-* at.js 1.3.0 ya no admite la publicación de contenido en Microsoft Internet Explorer 9. Para ver la lista de navegadores compatibles, consulte  [Exploradores admitidos](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100). En el futuro, todas las solicitudes se ejecutarán a través de `XMLHttpRequest` con compatibilidad con CORS sin solicitudes JSONP. Este cambio mejora mucho la seguridad.
+* at.js 1.3.0 ya no admite la publicación de contenido en Microsoft Internet Explorer 9. Para ver la lista de navegadores compatibles, consulte [Exploradores admitidos](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100). En el futuro, todas las solicitudes se ejecutarán a través de `XMLHttpRequest` con compatibilidad con CORS sin solicitudes JSONP. Este cambio mejora mucho la seguridad.
 
 ## Versión 1.2.3 de at.js {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
@@ -287,7 +287,7 @@ En la versión 0.9.6 de [!DNL at.js] se incluyen las siguientes mejoras y correc
 * Se ha añadido la opción `selectorsPollingTimeout`. Para obtener más información, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Se ha cambiado el formato de la respuesta de `getOffer()`. Para obtener más información, consulte [adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
 * Se ha añadido el registro en la consola de declaraciones `<!DOCTYPE>` no admitidas.
-* Se ha corregido un problema por el que los complementos de [!DNL Target Classic] no se aplicaban correctamente cuando se enviaban varias ofertas predeterminadas a un único mbox. (TGT-22664) Para obtener más información, consulte [Complementos](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html) en la documentación de Adobe Target Classic.
+* Se ha corregido un problema por el que los complementos de [!DNL Target Classic] no se aplicaban correctamente cuando se enviaban varias ofertas predeterminadas a un único mbox. (TGT-22664)
 * Se ha mejorado el establecimiento de cookies para los dominios de nivel superior (TLD) de dos letras con la finalidad de garantizar que la cookie de mbox se establezca correctamente en dichos dominios (por ejemplo, [!DNL test.no], [!DNL autodrives.ca], etc.).
 * El algoritmo para extraer el dominio de nivel superior que debería usarse al guardar cookies ha cambiado en la versión 0.9.6 de at.js. Debido a ello, no es posible guardar cookies en direcciones que utilicen IP. La mayoría de las veces se usan direcciones IP con fines de prueba, pero como solución alternativa se pueden utilizar entradas DNS o ajustar el archivo de anfitriones en un cuadro local.
 * Se ha corregido la gestión de las acciones mover y reorganizar cuando las propiedades son valores de cadena, no números enteros.
@@ -347,7 +347,7 @@ En la versión 0.9.6 de [!DNL at.js] se incluyen las siguientes mejoras y correc
 
    El objetivo de este sistema de notificación es ofrecer más información sobre lo que [!DNL at.js] hace en la página y avisar cuando hay problemas. Un problema común del VEC es que un lanzamiento de TI modifica la página, un selector del VEC se interrumpe y la prueba deja de entregar el contenido correctamente. Uno de los objetivos de este sistema de notificación es poner en conocimiento de la página este problema de entrega con el fin de que los desarrolladores puedan acceder a la información para pasarla a un sistema como [!DNL Adobe Analytics] y de que se puedan enviar alertas a los propietarios del negocio con el aviso de que la prueba se ha interrumpido.
 
-* Método de la nueva API `targetGlobalSettings()`
+* Método de la nueva API.`targetGlobalSettings()`
 
    En lugar de definir la configuración en la [!DNL Target Standard/Premium UI] o usando las API de REST, puede anular la configuración en la biblioteca de at.js.
 
