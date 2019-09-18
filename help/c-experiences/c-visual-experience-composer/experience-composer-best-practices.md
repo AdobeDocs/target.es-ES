@@ -8,7 +8,7 @@ title: Prácticas recomendadas y limitaciones del Compositor de experiencias vis
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -82,17 +82,6 @@ O
 **Evite los elementos de nivel de bloque dentro de un elemento en línea.**
 
 Los elementos de nivel de bloque no deben usarse dentro de elementos en línea como anclaje, intervalo, etc. Si lo hace, provocará que los elementos en línea pierdan su alto y su ancho, y la herramienta de superposición del Compositor de experiencias visuales podría no funcionar correctamente.
-
-**Cuando actualice las ofertas para mbox en Classic, asegúrese de que los mbox se crean tal y como se describe en la sección[Crear un único Mbox](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)en la ayuda de Target Classic.**
-
-Si está considerando la posibilidad de colocar un elemento o un grupo de elementos en un mbox, encapsúlelos en un nuevo div con `class mboxDefault`:
-
-```
-<div class="mboxDefault">
-    //Content goes here 
-</div> 
-<script> mboxCreate('mboxName'); </script>`
-```
 
 **No use la etiqueta de base en su sitio web para resolver la dirección URL y los vínculos.**
 
