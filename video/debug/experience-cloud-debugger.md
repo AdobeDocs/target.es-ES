@@ -5,7 +5,7 @@ title: Depurar Target con Experience Cloud Debugger
 seo-title: Depurar Target con Experience Cloud Debugger
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 6627c8cd5edb882d8af8fc71b069f7f5edbaa706
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -26,6 +26,6 @@ source-git-commit: 6627c8cd5edb882d8af8fc71b069f7f5edbaa706
 
 ## Recursos adicionales
 
-+ [Adobe Experience Cloud Debugger en Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Solución de problemas de la Ayuda de Target Documentación](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
-+ [Cómo utilizar el vídeo de Depurador de Experience Cloud](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Adobe Experience Cloud Debugger en la tienda de Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Solución de problemas de la documentación de ayuda de Target](/help/r-troubleshooting-target/troubleshooting-target.md)
++ [Cómo usar el vídeo de Experience Cloud Debugger](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
