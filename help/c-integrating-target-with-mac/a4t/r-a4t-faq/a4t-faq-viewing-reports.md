@@ -8,7 +8,7 @@ title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -29,7 +29,7 @@ La metodología de recuento especifica lo que Target usa como denominador para l
 
 En el informe de actividades, los administradores pueden cambiar la métrica predeterminada para que cada vez que se realice el informe se reflejen las mismas métricas. De lo contrario, el informe usa la última métrica aplicada al último informe.
 
-Para obtener más información, consulte [Seleccionar métricas de informes predeterminadas](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) en la guía *Ayuda de la interfaz de Reports and Analytics*.
+For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
 
 ## ¿Cuándo se aplica un segmento a la métrica (con una métrica calculada) y cuándo se aplica el segmento al informe?{#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -52,7 +52,7 @@ Tenga en cuenta lo siguiente:
 
 * Todas las métricas anteriores se activan cuando un usuario reúne los requisitos para una actividad y el contenido se devuelve de [!DNL Target]. Esto no significa necesariamente que el usuario haya visto la oferta. Si una experiencia de actividad está por debajo del pliegue y el usuario no se desplaza hacia abajo en la página significa que [!DNL Target] proporcionó la oferta, pero el usuario no la vio.
 * [!UICONTROL Impresiones de actividad] (medida mediante [!DNL Target]) e [!UICONTROL Instancias] (medida mediante [!DNL Analytics]) son iguales, a menos que haya varias llamadas de mbox en la misma página de la misma actividad. De esta forma se contabilizan varias [!UICONTROL Impresiones de actividad], pero una sola [!UICONTROL Instancia].
-* Cuando utilice [!UICONTROL las métricas de Impresiones] de actividad y [!UICONTROL Conversiones] de actividad, [!DNL Analysis Workspace]asegúrese de que ambas métricas tengan los [!UICONTROL mismos modelos] de atribución táctiles aplicados. Los modelos se pueden aplicar haciendo clic en el engranaje de configuración de columna, habilitar [!UICONTROL modelos de atribución no predeterminados]y, a continuación, seleccionar [!UICONTROL Mismo toque]. Obtenga más información sobre la atribución en [la descripción general de Atributos IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) en la *Guía de herramientas de Analytics*.
+* Al utilizar las métricas Impresiones  de actividad y Conversiones [!UICONTROL de] actividad en [!DNL Analysis Workspace], asegúrese de que ambas métricas tengan aplicados modelos de atribución de [!UICONTROL mismo toque] . Los modelos se pueden aplicar haciendo clic en el engranaje de configuración de columna, activando modelos [!UICONTROL de atribución]no predeterminados y seleccionando [!UICONTROL Mismo toque]. Obtenga más información sobre la atribución en Información general [de IQ de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) atributos en la Guía *de herramientas de* Analytics.
 
 ## ¿Qué significa “conversiones de la actividad” si el especialista en marketing elige una métrica de Analytics durante la configuración de la actividad?{#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +62,7 @@ Tenga en cuenta lo siguiente:
 
 ![](assets/unspecified.png)
 
-En otros informes, “sin especificar” significa que los datos no cumplían una regla de clasificación, pero esto no debería suceder nunca en A4T. Si ve “sin especificar”, aún no se ha ejecutado el servicio de clasificación. Por lo general, los datos de actividad tardan entre 24 y 72 horas en aparecer en los informes. Aunque las actividades no aparecen en este informe hasta llegado ese momento, todos los datos de visitantes asociados a esas actividades se recopilan y aparecerán cuando se complete la clasificación.
+En otros informes, “sin especificar” significa que los datos no cumplían una regla de clasificación, pero esto no debería suceder nunca en A4T. Si ve “sin especificar”, aún no se ha ejecutado el servicio de clasificación. Los datos de actividad generalmente tardan entre 24 y 72 horas en aparecer en los informes. Aunque las actividades no aparecen en este informe hasta llegado ese momento, todos los datos de visitantes asociados a esas actividades se recopilan y aparecerán cuando se complete la clasificación.
 
 Tras el periodo de clasificación, los datos aparecen en estos informes aproximadamente una hora después de recabarse del sitio web. Todas las métricas, los segmentos y los valores de los informes proceden del grupo de informes que seleccionó cuando configuró la actividad.
 
@@ -110,7 +110,7 @@ El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. 
 
 Puesto que las dos experiencias se vieron antes de la conversión, ambas son las “responsables” del pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. A la hora de crear informes de Target, no importa que el origen se atribuya a todas las actividades que vio el usuario, ya que no se están comparando actividades de Target para ver cuál ha generado mejores resultados. Lo que se compara son los resultados de dos elementos de una misma actividad y, como un usuario no puede ver distintas experiencias en la misma actividad, no hay que preocuparse por la contaminación de los orígenes de los pedidos.
 
-Para obtener más información, consulte [Variables de conversión (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) en la Ayuda de Analytics.
+For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## ¿Por qué Analytics y Analytics for Target (A4T) calculan las cifras de la métrica Visitantes únicos de distinta forma?{#section_0C3B648AB54041F9A2AA839D51791883}
 
