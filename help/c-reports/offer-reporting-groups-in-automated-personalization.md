@@ -1,8 +1,8 @@
 ---
 description: Información sobre el uso de grupos de informes en actividades de Personalización automatizada (AP).
-keywords: personalización automatizada;oferta;informes;grupo
-seo-description: Información sobre el uso de grupos de informes en actividades de Personalización automatizada (AP).
-seo-title: Grupos de informes de ofertas en Personalización automatizada
+keywords: personalización automatizada;oferta;informes;grupo;grupo de informes
+seo-description: Información sobre el uso de grupos de informes en actividades de Personalización automatizada (AP) en Adobe Target.
+seo-title: Ofrezca grupos de informes en actividades de Personalización automatizada (AP) en Adobe Target
 solution: Target
 title: Grupos de informes de ofertas en Personalización automatizada
 title-outputclass: premium
@@ -10,33 +10,33 @@ topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Grupos de informes de ofertas en Personalización automatizada{#offer-reporting-groups-in-automated-personalization}
 
-Información sobre el uso de grupos de informes en actividades de Personalización automatizada (AP).
+Information about using reporting groups in [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
 
 Los grupos de informes realizan dos funciones clave:
 
 * Permiten ver las ofertas agrupadas en informes de actividad de AP.
-* Tienen un papel esencial en el funcionamiento de los modelos de personalización de Target.
+* They play a key role with how the [!DNL Target] personalization models function.
 
-Cuando se utilizan grupos de informes, Target crea en su actividad de AP un único modelo de personalización para cada grupo de informes en vez de para cada oferta, utilizando para ello los datos de todas las ofertas de ese grupo.
+When you use reporting groups, [!DNL Target] creates only one personalization model for each reporting group instead of each offer in your AP activity using the data from all offers in that group.
 
 Si la configuración de su actividad no tiene datos suficientes para crear un modelo de personalización para cada oferta, los grupos de informes pueden ayudar a reducir los requisitos de datos para el uso de la personalización automatizada. Los grupos de informes también pueden ayudar a resolver el problema de “inicio en frío” de las nuevas ofertas. Lo hacen agrupando ofertas similares, de modo que cada modelo disponga de más datos con los que trabajar. Los grupos de modelado también se pueden utilizar para aquellas actividades de AP en las que se introducen nuevas ofertas con regularidad.
 
-Este enfoque funciona bien si los visitantes responden de la misma manera a todas las ofertas de un grupo. Una práctica recomendada es agrupar aquellas ofertas a las que grupos de visitantes similares responden de forma similar. En otras palabras, agrupe las ofertas con tasas de conversión similares. Nunca debe colocar todas las ofertas en un solo grupo de informes. Si agrupa todas las ofertas, o si agrupa ofertas con tasas de conversión muy diversas, es probable que la efectividad de los modelos de personalización de Target se reduzca.
+Este enfoque funciona bien si los visitantes responden de la misma manera a todas las ofertas de un grupo. Una práctica recomendada es agrupar aquellas ofertas a las que grupos de visitantes similares responden de forma similar. En otras palabras, agrupe las ofertas con tasas de conversión similares. Nunca debe colocar todas las ofertas en un solo grupo de informes. Grouping all offers or grouping offers with very different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
 
 >[!NOTE]
 >
->Si se remplaza o elimina una oferta de un grupo de modelado particular, el tráfico histórico de la oferta también se elimina del grupo de modelado. En otras palabras, las ofertas eliminadas no contribuyen a los datos que los modelos de personalización de Target utilizan para aprender.
+>Si se remplaza o elimina una oferta de un grupo de modelado particular, el tráfico histórico de la oferta también se elimina del grupo de modelado. In other words, deleted offers do not contribute to what data is used for the [!DNL Target] personalization models to learn.
 
 **Para configurar grupos de informes:**
 
-1. En la página Experiencias de una actividad de AP, haga clic en el icono **[!UICONTROL Gestionar contenido].**
+1. On the [!UICONTROL Experiences] page of an AP activity, click the **[!UICONTROL Manage Content]** icon.
 
    ![](assets/ap_manage_content.png)
 
@@ -47,13 +47,13 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
 
 1. (Condicional) Incluya experiencias en lote en un grupo de informes seleccionando la casilla de las experiencias relevantes y haciendo clic en el icono de la carpeta **[!UICONTROL Grupo de informes], en la esquina superior derecha del cuadro de diálogo.**
 
-   ![](assets/ap_reporting_groups.png)
+   ![](assets/ap_manage_content_3.png)
 
-1. Para asignar la oferta seleccionada a un grupo de informes existente, seleccione **[!UICONTROL Existente]**, elija un grupo de informes en la lista desplegable y luego haga clic en **[!UICONTROL Aplicar]**.
+1. (Conditional) To assign the selected offer to an existing reporting group, select **[!UICONTROL Existing]**, select the desired reporting group from the drop-down list, then click **[!UICONTROL Apply]**.
 
    O
 
    Para crear un nuevo grupo de informes al que asignar la oferta seleccionada, elija **[!UICONTROL Nuevo]**, asigne un nombre al nuevo grupo de informes y haga clic en **[!UICONTROL Aplicar]**.
 
-   ![](assets/ap_manage_content_3.png)
+   ![](assets/ap_reporting_groups.png)
 
