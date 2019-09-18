@@ -8,7 +8,7 @@ title: Parámetros personalizados
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 Los parámetros personalizados son parámetros mbox. Si pasa algún parámetro mbox a mboxes, o usa la función targetPageParams, ese parámetro aparece aquí para su uso en audiencias.
 
-Para obtener más información, consulte [Pasar parámetros a un mbox global](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html).
+For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
 Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParameter` ya no le pide que especifique un valor para `mboxName`. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro.
 
@@ -52,7 +52,7 @@ La [tarjeta emergente de detalles de definición](../../../c-target/c-audiences/
 
 ## Consideraciones {#considerations}
 
-* Las audiencias y actividades se evalúan para un mbox específico. Por ejemplo, si el mbox global pasa un determinado parámetro pero el mbox regional no, la actividad o el destino de la audiencia que el parámetro no será calificado para en el mbox regional.
+* Las audiencias y las actividades se evalúan para un mbox específico. Por ejemplo, si el mbox global pasa un determinado parámetro, pero el mbox regional no, la segmentación de actividad/audiencia para ese parámetro no se calificará en el mbox regional.
 
 ## Vídeo de formación: Creación de audiencias
 
