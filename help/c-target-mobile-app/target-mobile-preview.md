@@ -1,14 +1,14 @@
 ---
 description: Use el vínculo de vista previa en móviles para realizar fácilmente un control de calidad exhaustivo de las actividades de aplicaciones móviles y registrarse en diversas experiencias directamente en el dispositivo sin tener que usar uno especial para pruebas.
-keywords: qa; vista previa; vista previa del vínculo; mobile; vista previa para móviles
+keywords: qa;vista previa;vínculo de vista previa;móvil;vista previa móvil
 seo-description: Use el vínculo de vista previa en móviles para realizar fácilmente un control de calidad exhaustivo de las actividades de aplicaciones móviles y registrarse en diversas experiencias directamente en el dispositivo sin tener que usar uno especial para pruebas.
-seo-title: Uso del vínculo de vista previa móvil en Adobe Target mobile
+seo-title: Uso del vínculo de vista previa móvil en Adobe Target Mobile
 solution: Target
 title: Vista previa para móviles en Target
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -31,8 +31,8 @@ La funcionalidad de vista previa para móviles le permite probar completamente s
 
    Para obtener instrucciones sobre la descarga del SDK apropiado, consulte:
 
-   * **iOS:**[Antes de comenzar](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) en la guía *SDK para iOS 4.x para soluciones de Experience Cloud*.
-   * **Android:**[Antes de comenzar](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*en la guía SDK para Android 4.x para soluciones de Experience Cloud.*
+   * **** iOS: [Antes de empezar](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) en la Ayuda *de iOS de* Mobile Services.
+   * **** Android: [Antes de empezar](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) en la Ayuda *de Android de* Mobile Services.
 
 1. **Configure un esquema de direcciones URL:** el vínculo de vista previa utiliza un esquema de direcciones URL para abrir la aplicación. Debe especificar un esquema de URL exclusivo para la vista previa.
 
