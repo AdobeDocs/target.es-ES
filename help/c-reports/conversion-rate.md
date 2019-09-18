@@ -8,7 +8,7 @@ title: Tasa de conversión
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -55,7 +55,7 @@ Consulte [Nivel de confianza e intervalo de confianza](../c-reports/conversion-r
 
 ## Datos comerciales {#section_30A674731BA6440E9BB93C421BE990EE}
 
-Si ha insertado un mbox [Realizar pedido](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) y lo ha seleccionado como mbox de conversión, se muestran los datos de AOV (valor de pedido promedio), RPV (ingresos por visitante) y ventas de cada experiencia.
+Si ha insertado un mbox [Realizar pedido](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) y lo ha seleccionado como mbox de conversión, se muestran los datos de AOV (valor de pedido promedio), RPV (ingresos por visitante) y ventas de cada experiencia.
 
 ## Nivel de confianza e intervalo de confianza {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -127,7 +127,7 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 1. Haga clic en **[!UICONTROL Herramientas]** &gt; **[!UICONTROL Data Warehouse]**.
 1. En la pestaña **[!UICONTROL Solicitud de Data Warehouse], rellene los campos.**
 
-   Para obtener más información acerca de cada campo, consulte "Descripciones de Data Warehouse" en [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
+   Para obtener más información acerca de cada campo, consulte "Descripciones de Data Warehouse" en [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
 
    | Campo | Instrucciones |
    |--- |--- |
@@ -147,8 +147,8 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 
 Para obtener más información sobre el [!DNL Data Warehouse], vea los siguientes vínculos en la documentación de ayuda de [!DNL Analytics]:
 
-* [Crear una solicitud del Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Prácticas recomendadas del Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [Crear una solicitud del Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Prácticas recomendadas del almacén de datos](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodología de contabilización {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
