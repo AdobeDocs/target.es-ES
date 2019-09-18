@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -99,7 +99,7 @@ Tenga en cuenta la siguiente información si ve que una colección que era disti
 * ¿Está actualizado el índice? Vaya a [!DNL /target/products.html#productSearch] y compruebe cuándo se actualizó el índice (por ejemplo, “Indexado hace 3 hora(s)”). Puede actualizar el índice si lo desea.
 * ¿Ha cambiado algo en la fuente o en la capa de datos que resulte en que sus entidades ya no cumplan las reglas de la colección? Compruebe que las mayúsculas y minúsculas concuerden.
 * ¿Se ejecutó correctamente la fuente? ¿Ha cambiado alguien el directorio FTP, la contraseña, etc.?
-* Target intenta que las actualizaciones del envío (en la página/aplicación del cliente) se produzcan lo más rápido posible. No obstante, también debemos proporcionar determinada representación en la interfaz de usuario para el experto en marketing. No retrasamos necesariamente las actualizaciones de envío hasta que las actualizaciones de la interfaz de usuario se sincronizan con ellas. Puede utilizar [mboxTrace](https://marketing.adobe.com/resources/help/en_US/target/target/c_content_trouble.html#) para comprobar el contenido del sistema en el momento de recibirse una solicitud.
+* Target intenta que las actualizaciones del envío (en la página/aplicación del cliente) se produzcan lo más rápido posible. No obstante, también debemos proporcionar determinada representación en la interfaz de usuario para el experto en marketing. No retrasamos necesariamente las actualizaciones de envío hasta que las actualizaciones de la interfaz de usuario se sincronizan con ellas. Puede utilizar [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) para comprobar el contenido del sistema en el momento de recibirse una solicitud.
 
 ## ¿Cuál es la diferencia entre la ponderación de atributos general y la específica para similitud de contenido?{#section_FCD96598CBB44B16A4C6C084649928FF}
 
