@@ -8,7 +8,7 @@ title: Configuración y objetivos
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -58,13 +58,13 @@ En las actividades creadas en versiones anteriores de Target Standard/Premium, e
 
 La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
-## Configuración de informes  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Configuración de informes. {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Las configuraciones disponibles son las siguientes:
 
 ### Solución de creación de informes
 
-Especifique si los datos se recopilan desde Adobe Target o Adobe Analytics. Consulte [Adobe Analytics como fuente de informes para Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) para conocer las diferencias entre las distintas soluciones de creación de informes y las ventajas que ofrece cada una.
+Especifique si los datos se recopilan desde Adobe Target o Adobe Analytics. Consulte [Adobe Analytics como fuente de informes para Target](/help/c-integrating-target-with-mac/a4t/a4t.md) para conocer las diferencias entre las distintas soluciones de creación de informes y las ventajas que ofrece cada una.
 
 Si selecciona Analytics como fuente de informes para Target, debe seleccionar también un grupo de informes de Analytics en el que recibir los datos de la actividad en Target. Para ello, elija primero una de las empresas de Analytics a la que esté asociada su cuenta y, a continuación, seleccione el grupo de informes adecuado para la actividad. Solo se podrán seleccionar los grupos de informes que estén aprovisionados para conectarse a Adobe Target. Si no ve los grupos de informes previstos, cierre la sesión y vuelva a iniciarla en Adobe Experience Cloud para probar de nuevo. Si aún no aparece el grupo de informes en la lista, póngase en contacto con el Servicio de atención al cliente.
 
@@ -122,7 +122,7 @@ Las configuraciones disponibles son las siguientes:
 
 ### ¿Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica?
 
-Use esta opción para contar solamente que alguien alcanza la métrica de éxito si alcanzó previamente una métrica de éxito diferente. Por ejemplo, una conversión de prueba puede ser válida únicamente si el visitante hace clic en la oferta o alcanza una página concreta antes de la conversión.
+Use esta opción para contar solamente que alguien alcanza la métrica de éxito si alcanzó previamente una métrica de éxito diferente. Por ejemplo, una conversión de prueba podría ser válida únicamente si el visitante hace clic en la oferta, o alcanza una página concreta antes de la conversión.
 
 Dispone de dependencia respecto a varias métricas y tiene la posibilidad de elegir si una métrica debe alcanzarse o no para que su contador aumente.
 
@@ -133,13 +133,13 @@ La opción Añadir dependencia permite que la métrica de éxito aumente si se a
 Para agregar una dependencia:
 
 1. Después de agregar métricas adicionales, haga clic en **[!UICONTROL Configuración avanzada]**.
-2. Click **[!UICONTROL Add Dependency]**:
+2. Haga clic en **[!UICONTROL Añadir dependencia]**:
 
-   ![Agregar vínculo de dependencia](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
+   ![Añadir vínculo de dependencia](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. Arrastre y suelte las métricas deseadas del panel izquierdo al panel derecho y, a continuación, haga clic en Alcanzado para alternar el valor entre Alcanzado y No alcanzado.
 
-   ![Cuadro de diálogo Agregar dependencia de métricas](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
+   ![Cuadro de diálogo Añadir dependencia de métricas](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 Puede editar o eliminar dependencias después de añadirlas.
 
