@@ -8,7 +8,7 @@ title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -27,7 +27,7 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 
 ### Vínculos de vista previa de control de calidad de la actividad {#preview}
 
-[Es posible que](/help/c-activities/c-activity-qa/activity-qa.md) los vínculos de vista previa de control de calidad de la actividad para actividades guardadas no se carguen si hay demasiadas actividades guardadas en su cuenta. Volver a intentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se usan de forma activa. (TNT-32697)
+[Es posible que los vínculos de vista previa](/help/c-activities/c-activity-qa/activity-qa.md) del control de calidad de la actividad de las actividades guardadas no se carguen si hay demasiadas actividades guardadas en la cuenta. Reintentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se utilizan activamente. (TNT-32697)
 
 ### Ofertas de redireccionamiento {#redirect}
 
@@ -73,7 +73,7 @@ En una actividad MVT, el ganador que se muestra en la tabla y en el gráfico no 
 
 A continuación, detallamos los problemas conocidos de at.js:
 
-* Cuando se carga una página en el Compositor de experiencias visuales (VEC), Target debe determinar si la configuración de mbox global está habilitada o deshabilitada, y si entityID o categoryID están presentes en la ubicación donde el usuario intenta aplicar las recomendaciones del VEC. La lista de criterios se filtra en función de esta información. La lista predeterminada tiene filtrados algunos algoritmos, pero la [casilla Compatible](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) le permite ver la lista de algoritmos completa.
+* Cuando se carga una página en el Compositor de experiencias visuales (VEC), Target debe determinar si la configuración de mbox global está habilitada o deshabilitada, y si entityID o categoryID están presentes en la ubicación donde el usuario intenta aplicar las recomendaciones del VEC. La lista de criterios se filtra en función de esta información. La lista predeterminada tiene filtrados algunos algoritmos, pero la [casilla Compatible](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) le permite ver la lista de algoritmos completa.
 
    Al usar at.js, la casilla Compatibilidad queda oculta, por lo que no puede ver los algoritmos no compatibles.
 
@@ -124,7 +124,7 @@ A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán
 
 * El índice de fuentes de Recommendations puede mostrar “Esperando índice” si los elementos de la fuente son los mismos que en la ejecución anterior. La ingesta del producto para la entrega no se ve afectada. (RECS-6663)
 
-   Este problema se solucionó en la versión 19.4.2 de Target.
+   Este problema se ha corregido en la versión 19.4.2 de Target.
 
 * Las fuentes de Recommendations tardan más de lo esperado en procesarse. (COR-2836)
 
@@ -138,7 +138,7 @@ A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán
 
 Una condición de carrera en la página puede provocar que se cuenten las vistas de página en la página original y en la página de redirección. Hay actualizaciones previstas para la implementación de at.js para garantizar que se pueda evitar esta condición de carrera.
 
-Este problema se solucionó en at. js 1.6.3.
+Este problema se ha corregido en at.js 1.6.3.
 
 ### Grupos de exclusión
 
