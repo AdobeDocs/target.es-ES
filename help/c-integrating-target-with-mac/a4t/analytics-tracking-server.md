@@ -6,7 +6,7 @@ seo-title: Uso de un servidor de seguimiento de Analytics
 title: Uso de un servidor de seguimiento de Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -25,7 +25,7 @@ El depurador se debería visualizar en una página donde se vaya a publicar la a
 
 1. Desde la página en la que esté creando la actividad, abra Adobe Experience Cloud Debugger.
 
-   Si no tiene instalado el depurador, siga las [Instrucciones de instalación de Adobe Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
+   Si no ha instalado el depurador, consulte [Instalación de Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
