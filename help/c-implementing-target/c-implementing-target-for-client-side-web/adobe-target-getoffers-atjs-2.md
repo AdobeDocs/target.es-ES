@@ -1,6 +1,6 @@
 ---
 description: 'Información sobre la función adobe.target.getOffers() para at.js. '
-keywords: adobe. target. getoffers; Getoffers; getoffers; obtener ofertas; at. js; funciones; function
+keywords: adobe.target.getOffers;getOffers;getoffer;get options;at.js;funciones;function
 seo-description: Información sobre la función adobe.target.getOffers(options) para la biblioteca de JavaScript at.js de Adobe Target.
 seo-title: Información sobre la función adobe.target.getOffers() para la biblioteca de JavaScript at.js de Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Primeros pasos
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 ---
 
@@ -33,9 +33,9 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 | --- | --- | --- | --- |
 | solicitud &gt; id | No |  | Uno de `tntId`, `thirdPartyId` o `marketingCloudVisitorId` es obligatorio. |
 | Solicitud &gt; ID &gt; thirdPartyId | No | Tamaño máximo = 128 |  |  |
-| Solicitud &gt; experiencecloud | No |  |  |
-| Solicitud &gt; experiencecloud &gt; analytics | No |  | Integración de Adobe Analytics |
-| Solicitud &gt; experiencecloud &gt; analytics &gt; registro | No | Se debe implementar lo siguiente en la página:<ul><li>Servicio de ID de visitante</li><li>Appmeasurement. js</li></ul> | Se admiten los siguientes valores:<br>**client_ side**: Cuando se especifique, se devolverá una carga útil de Analytics al llamador que debe utilizarse para enviarse a Adobe Analytics mediante la API de inserción de datos.<br>**server_ side**: Este es el valor predeterminado en el que el back-backend de Target y Analytics usará el SDID para unir las llamadas con fines de informes. |
+| Request &gt; experienceCloud | No |  |  |
+| Request &gt; experienceCloud &gt; analytics | No |  | Integración de Adobe Analytics |
+| Request &gt; experienceCloud &gt; analytics &gt; logging | No | Se debe implementar lo siguiente en la página:<ul><li>Servicio de ID de visitante</li><li>AppMeasurement.js</li></ul> | Se admiten los siguientes valores:<br>**client_side**: Cuando se especifique, se devolverá una carga útil de Analytics al que ha realizado la llamada, que debe utilizarse para enviar a Adobe Analytics mediante la API de inserción de datos.<br>**server_side**: Este es el valor predeterminado en el que el backend de Target y Analytics usará el SDID para unir las llamadas con fines de informes. |
 | Solicitud &gt; Captura previa | No |  |  |
 | Solicitud &gt; Captura previa &gt; Vistas | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud del nombre `<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe empezar con “perfil”<br>Nombres no permitidos: “orderId”, “orderTotal”, “productPurchasedId” | Pase parámetros para utilizarlos para recuperar vistas relevantes en actividades activas. |
 | Solicitud &gt; Captura previa &gt; Vistas &gt; profileParameters | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud de nombre `<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe empezar con “perfil” | Pase parámetros de perfil para utilizarlos para recuperar vistas relevantes en actividades activas. |
@@ -74,8 +74,9 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 
 ```
 adobe.target.getOffers({
-    prefetch: {
-      views: []
+    request: {
+      prefetch: {
+        views: []
     }
   }
 });
@@ -129,7 +130,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Realice una llamada a getoffers () para recuperar la carga útil de Analytics desde el lado del cliente
+## Realice una llamada a getOffers() para recuperar la carga útil de Analytics desde el lado del cliente
 
 ```
 adobe.target.getOffers({
@@ -181,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-La carga útil se puede reenviar a Adobe Analytics a través de [la API de inserción de datos](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+La carga útil se puede reenviar a Adobe Analytics mediante la API [de inserción de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)datos.
 
 ## Buscar y procesar datos de varios mboxes a través de getOffers() y applyOffers() {#multiple}
 
