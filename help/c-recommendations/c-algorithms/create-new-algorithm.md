@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
+source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
 
 ---
 
@@ -120,7 +120,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
 ## Tiempo de procesamiento de criterios esperado {#process-time}
 
-Después de guardar un criterio, [!DNL Target] calcula las recomendaciones. Este cálculo tarda algún tiempo en realizarse y el intervalo de tiempo varía según la lógica de recomendación seleccionada, el intervalo de datos, el número de artículos en el catálogo, la cantidad de datos de comportamiento que han generado los clientes y la fuente de datos de comportamiento seleccionada. La fuente de datos de comportamiento tiene el mayor impacto en el tiempo de procesamiento, como se indica a continuación:
+Después de guardar una actividad que contiene un criterio, calcula las recomendaciones en función de la colección y los criterios seleccionados [!DNL Target] . Este cálculo tarda algún tiempo en realizarse y el intervalo de tiempo varía según la lógica de recomendación seleccionada, el intervalo de datos, el número de artículos en el catálogo, la cantidad de datos de comportamiento que han generado los clientes y la fuente de datos de comportamiento seleccionada. La fuente de datos de comportamiento tiene el mayor impacto en el tiempo de procesamiento, como se indica a continuación:
 
 ### mboxes regionales clásicos
 
@@ -343,7 +343,7 @@ Páginas generales, como páginas principales o de aterrizaje y anuncios externo
 
 >[!NOTE]
 >
->Los elementos vistos recientemente respetan tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento está excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; por lo tanto, cuando se utiliza un criterio de Artículos vistos recientemente, generalmente se debe utilizar la configuración "Todas las colecciones".
+>Artículos vistos recientemente. respeta tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento está excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; por lo tanto, cuando se utiliza un criterio de Artículos vistos recientemente, generalmente se debe utilizar la configuración "Todas las colecciones".
 
 ## Reglas de inclusión {#task_28DB20F968B1451481D8E51BAF947079}
 
