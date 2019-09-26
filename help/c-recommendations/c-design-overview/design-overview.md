@@ -8,7 +8,7 @@ title: Información general de diseño
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -91,7 +91,7 @@ En el siguiente ejemplo se muestra cómo se pueden devolver respuestas JSON al c
 | Parámetro | Valor |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Código de cliente de Target (disponible en ../target/products.html#recsSettings &gt; Token de API de Recommendations &gt; Código de cliente). |
-| `[YOUR_MBOX_NAME]` | El nombre que ha seleccionado en la sección “ubicaciones” de Recommendations basadas en formularios, en este caso, YOUR_CLIENT_CODE. |
+| `[YOUR_MBOX_NAME]` | Nombre seleccionado en la sección "ubicaciones" de Recomendaciones basadas en formularios, en este caso Sample_Recs_Response. |
 | `[ENTITY_ID`] | El `entity.id` de un artículo del catálogo. |
 | `[AT_PROPERTY_TOKEN]` | (Opcional) Añada este parámetro si ha seleccionado una Propiedad (parte de los permisos de empresa) durante la configuración de la actividad. |
 
