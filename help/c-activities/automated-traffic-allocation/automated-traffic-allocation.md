@@ -8,7 +8,7 @@ title: Asignación automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -171,7 +171,7 @@ En estos momentos, la lógica favorece a los visitantes que generan una conversi
 
 **¿Puedo usar la calculadora de tamaño de la muestra al utilizar la asignación automática para estimar el tiempo que tardará la actividad en identificar al ganador?**
 
-Puede usar la [calculadora de tamaño de la muestra](https://docs.adobe.com/content/target-microsite/testcalculator.html) existente con la corrección de Bonferroni debidamente aplicada para obtener una estimación de lo que tardará en ejecutarse la prueba. En nuestros experimentos, hemos observado que la actividad de asignación automática termina mucho antes que este tamaño de muestra.
+Puede usar la [calculadora de tamaño de la muestra](https://docs.adobe.com/content/target-microsite/testcalculator.html) existente con la corrección de Bonferroni debidamente aplicada para obtener una estimación de lo que tardará en ejecutarse la prueba. El uso de la calculadora para una actividad de asignación automática es opcional porque la asignación automática le declarará ganador. La calculadora proporciona una estimación aproximada del tamaño de la muestra necesario. En nuestros experimentos, hemos observado que la actividad de asignación automática termina mucho antes que este tamaño de muestra.
 
 **¿Debería eliminar una experiencia de bajo rendimiento de una actividad de asignación automática para acelerar el proceso de determinar un ganador?**
 
