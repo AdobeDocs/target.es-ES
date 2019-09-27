@@ -7,7 +7,7 @@ solution: Target
 title: ¿Durante cuánto tiempo se debe ejecutar una prueba A/B?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -18,7 +18,7 @@ Una prueba A/B exitosa requiere un número adecuado de visitantes (tamaño de mu
 
 Es tentador detener una actividad si una de las ofertas muestra un rendimiento mucho mejor o peor que las otras en los primeros días de la actividad. Sin embargo, cuando el número de observaciones es reducido, existe una alta probabilidad de observar un alza positiva o negativa solo por casualidad, puesto que la tasa de conversión se promedia a partir de un número bajo de visitantes. A medida que la actividad recopila más puntos de datos, las tasas de conversión convergen hacia sus verdaderos valores a largo plazo.
 
-Detener una actividad de forma prematura es uno de los nueve escollos importantes con los que se puede encontrar al realizar una prueba A/B. Para obtener más información, consulte  [Nueve escollos comunes de las pruebas A/B y cómo evitarlos](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+Detener una actividad de forma prematura es uno de los nueve escollos importantes con los que se puede encontrar al realizar una prueba A/B. Para obtener más información, consulte [Nueve escollos comunes de las pruebas A/B y cómo evitarlos](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 Target proporciona herramientas para ayudar a garantizar que su actividad tenga un tamaño de muestra lo suficientemente grande como para lograr sus objetivos de conversión:
 
@@ -34,13 +34,13 @@ Target proporciona herramientas para ayudar a garantizar que su actividad tenga 
 
    Para obtener más información, consulte [Asignación automática](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-* **Calculadora de tamaño de muestra:** si elige usar una prueba A/B manual en lugar de Asignación automática, la Calculadora de tamaño de muestra de Target le ayuda a determinar el tamaño de muestra necesario para una prueba exitosa. Siga leyendo para obtener más información sobre cómo usar la calculadora.
+* **Calculadora de tamaño de muestra:** si elige usar una prueba A/B manual en lugar de Asignación automática, la Calculadora de tamaño de muestra de Target le ayuda a determinar el tamaño de muestra necesario para una prueba exitosa. A manual A/B test is a fixed horizon test, so the calculator is extremely helpful. Using the calculator for an Auto-Allocate activity is optional because Auto-Allocate will declare a winner for you. The calculator gives you a rough estimate of the sample size needed. Siga leyendo para obtener más información sobre cómo usar la calculadora.
 
-## Calculadora de tamaño de muestra de Adobe Target  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Calculadora de tamaño de muestra de Adobe Target. {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
-![Calculadora de tamaño de muestra de Adobe Target ](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
+![Calculadora de tamaño de muestra de Adobe Target.](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 Es importante determinar un tamaño de la muestra (número de visitantes) que sea adecuado antes de realizar una prueba A/B, a fin de establecer el tiempo con el que deberá contar para realizar la prueba antes de evaluar los resultados. Si solo se supervisa la prueba hasta que se consigue una relevancia estadística, el intervalo de confianza quedará ampliamente subestimado y la prueba no será fiable. La intuición que hay tras el resultado es que, en el caso de que se detecte un resultado estadísticamente relevante, se detendrá la prueba y se declarará un ganador. Sin embargo, si el resultado no es estadísticamente relevante, se permite que la prueba siga realizándose. Este procedimiento favorece enormemente un resultado positivo, que aumenta la tasa de falsos positivos y, por tanto, distorsiona el nivel de relevancia estadística de la prueba.
 
@@ -130,7 +130,7 @@ Existe un equilibrio entre el alza mínima que la prueba puede detectar de maner
 
 En este ejemplo, es posible que considere adecuado poder detectar un alza del 5 % (correspondiente a una tasa de conversión de la oferta alternativa (100 % + 5 %)*5 % = 5,25 %) en 80 de 100 pruebas, por lo que necesitará un tamaño de muestra de 100 000 visitantes para cada oferta. Si el sitio tiene 20 000 visitantes al día y realiza la prueba de dos ofertas, la prueba debería permitir ejecutar 2*100 000/20 000 = 10 días, antes de poder determinar si la oferta alternativa tiene una relevancia estadística superior a la de la oferta de control. Una vez más, se recomienda que el tiempo necesario se redondee siempre a la semana completa más próxima, para evitar cualquier efecto de día de la semana. Por tanto, en este ejemplo, la prueba se realizaría durante dos semanas antes de evaluar los resultados.
 
-## Métrica de ingresos por visita  {#section_C704C0861C9B4641AB02E911648D2DC2}
+## Métrica de ingresos por visita. {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Cuando se usan los ingresos por visita (RPV) como métrica, se añade una fuente de varianza adicional, ya que RPV es el producto de los ingresos por pedido y la tasa de conversión (RPV = ingresos/nº visitantes = (ingresos por pedido * nº de pedidos)/nº de visitantes = ingresos por pedido * (nº de visitantes * CTR)/nº de visitantes = ingresos por pedido * CTR), cada uno con su propia varianza. La varianza de la tasa de conversión se puede calcular directamente mediante un modelo matemático pero la varianza de los ingresos por pedido es específica de la campaña. Por tanto, aproveche los datos de esta varianza que tenga de campañas anteriores o realice la prueba A/B durante unos pocos días para calcular la varianza en los ingresos. La varianza se calcula a partir de los valores de Suma de ventas, Suma de ventas al cuadrado y Número de visitantes que se encuentran en el archivo CSV descargable. Después de establecerla, utilice la hoja de cálculo para calcular el tiempo necesario para completar la prueba.
 
@@ -150,7 +150,7 @@ En general, el uso de RPV como métrica exige entre un 20 y un 30 % más de tie
 
 Cada vez que compara dos ofertas, las posibilidades de obtener un falso positivo (es decir, observar una diferencia con relevancia estadística aunque no haya diferencia en la tasa de conversión) son iguales al nivel de relevancia. Por ejemplo, si hay cinco ofertas, A/B/C/D/E, y A es la oferta control, se realizan las cuatro comparaciones (control frente a B, control frente a C, control frente a D y control frente a E), y la probabilidad de obtener un falso positivo es del 18,5 % aunque el nivel de confianza sea del 95 % porque Pr (al menos un falso positivo) = 1 - Pr (sin falsos positivos) = 1 - 0,95 = 18,5 %. En este contexto, un falso positivo se define como la notificación de que el control es mejor que la alternativa, o que la alternativa es mejor que el control cuando, de hecho, no hay ninguna diferencia entre ellos.
 
-## Conclusión  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusión. {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Al utilizar una actividad de Asignación automática, Target identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo. La asignación automática facilita el logro de sus objetivos de conversión y elimina las suposiciones.
 
