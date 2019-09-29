@@ -20,6 +20,6 @@ El registro de cambios proporciona un registro de quién realizó cambios en las
 
    ![Registro de cambios de actividades](/help/c-activities/assets/change_log.png)
 
-   La fecha y el usuario se muestran cada vez que se crea, actualiza, activa o desactiva una actividad. Asimismo, también se enumeran los cambios en los objetivos personalizados y en las ofertas utilizadas en la actividad. La columna Estado muestra si la acción está completa, pendiente o si tiene error.
+   La fecha y el usuario aparecen en cualquier momento en que se crea, actualiza, activa o desactiva una actividad. Asimismo, también se enumeran los cambios en los objetivos personalizados y en las ofertas utilizadas en la actividad. La columna Estado muestra si la acción está completa, pendiente o si tiene error.
 
    Actualice la página para ver los cambios de estado.
