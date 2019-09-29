@@ -1,8 +1,8 @@
 ---
 description: Añada elementos promocionados y controle su ubicación en sus diseños de Recommendations. Puede añadir promociones estáticas y dinámicas.
 keywords: promociones;promociones principales;promociones secundarias;tipo de promociones
-seo-description: Agregue elementos promocionados y controle su ubicación en sus diseños de Recomendaciones de Adobe Target. Puede añadir promociones estáticas y dinámicas.
-seo-title: Agregue promociones en diseños de Recomendaciones de Adobe Target.
+seo-description: Añada elementos promocionados y controle su ubicación en sus diseños de Recommendations de Adobe Target. Puede añadir promociones estáticas y dinámicas.
+seo-title: Agregue promociones en diseños de Recommendations de Adobe Target.
 solution: Target
 title: Agregar promociones
 title-outputclass: premium
@@ -35,9 +35,9 @@ Puede promocionar elementos concretos del modo habitual o de forma dinámica, as
 >
 >Si utiliza promociones, se cambiarán la estructura y los resultados del CSV. Estos cambios no afectan a ningún proceso externo que utilice el CSV, como el correo electrónico.
 
-1. On the **[!UICONTROL Options]** page, click the **[!UICONTROL Front Promotion]** or **[!UICONTROL Back Promotion]** toggle.
+1. En la página **[!UICONTROL Opciones]**, haga clic en la opción **[!UICONTROL Promoción principal]** o **[!UICONTROL Promoción secundaria]**.
 
-   The following illustration shows the [!UICONTROL Front Promotion] toggle in the "On" position.
+   La siguiente ilustración muestra la opción de [!UICONTROL Promoción principal] en la posición “Activada”.
 
    ![Agregar opciones de promoción principal](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
@@ -48,13 +48,13 @@ Puede promocionar elementos concretos del modo habitual o de forma dinámica, as
 
 1. Defina una fecha de inicio y una fecha de finalización para los elementos promocionados.
 
-   Si no establece una fecha de inicio, la promoción comienza inmediatamente. Si no establece una fecha de finalización, la promoción se ejecuta indefinidamente.
+   Si no define una fecha de inicio, la promoción se inicia inmediatamente. Si no define una fecha de finalización, la promoción se ejecuta indefinidamente.
 
 1. Seleccione un **[!UICONTROL Tipo de promoción]**.
 
    * Seleccione **[!UICONTROL Lista de elementos]** e introduzca los valores `entity.id`, separados por comas, de los elementos específicos que desea promocionar.
 
-      Si la lista incluye más elementos que el número de espacios definido para las promociones, puede seleccionar la casilla **[!UICONTROL Ordenar elementos de forma aleatoria]para que se vayan mostrando distintos elementos promocionados en el diseño.** Si elige esta opción, se selecciona aleatoriamente el número de elementos habilitados para las promociones de la plantilla en toda la promoción de la promoción.
+      Si la lista incluye más elementos que el número de espacios definido para las promociones, puede seleccionar la casilla **[!UICONTROL Ordenar elementos de forma aleatoria]** para que se vayan mostrando distintos elementos promocionados en el diseño. Elegir esta opción hace que Target seleccione aleatoriamente la cantidad de elementos habilitados para las promociones en la plantilla de todo el conjunto de promociones para cada visita.
 
    * Seleccione **[!UICONTROL Promocionar por atributo]y agregue reglas para definir los atributos de los elementos que desea promocionar.**
 
