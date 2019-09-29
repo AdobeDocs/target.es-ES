@@ -76,16 +76,16 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
 
 * **Contexto**
 
-   Cambie el color de fondo y la imagen.
+   Cambiar el color de fondo y la imagen.
 
    * Color (especifique el código de color o use el selector de color)
    * Imagen (seleccione una imagen del selector de imágenes)
    * Origen de imagen (especifique una URL externa)
    * Adjunto
       * Haga clic en la lista desplegable superior para seleccionar desplazamiento, fijo o local
-      * Haga clic en la lista desplegable inferior para seleccionar repetir, repetir-x, repetir-y, no repetir, espacio o redonda
+      * Haga clic en la lista desplegable inferior para seleccionar repetir, repetir-x, repetir-y, no repetir, espacio o redondo
    * Clip
-      * Haga clic en la lista desplegable superior para seleccionar el cuadro de borde, el relleno de margen, el cuadro de contenido o el texto.
+      * Haga clic en la lista desplegable superior para seleccionar el cuadro de borde, el relleno de margen, el cuadro de contenido o el texto
       * Haga clic en la lista desplegable inferior para seleccionar audio o audio automático
 
 * **Tipografía**
@@ -317,7 +317,7 @@ Cambia el tamaño de un elemento en la página. Al seleccionar [!UICONTROL Cambi
 
 Mueve elementos en la página. A diferencia de [!UICONTROL Reorganizar], [!UICONTROL Mover] no desplaza otros elementos para conseguir espacio para el elemento que se va a mover. Use las teclas de dirección para ajustar el movimiento. (Mejora prevista: hacer que los elementos movidos no queden ocultos detrás de otros elementos).
 
-En algunos casos, como cuando una restricción de CSS requiere que un elemento permanezca dentro de su elemento principal, no se puede mover el elemento fuera del elemento principal. Un elemento no se puede mover fuera de un contenedor que tenga la propiedad CSS siguiente: `overflow: hidden`.
+En algunos casos, como cuando una restricción de CSS requiere que un elemento permanezca dentro de su elemento principal, no se puede mover el elemento fuera del elemento principal. Un elemento no se puede mover fuera de un contenedor que tenga la siguiente propiedad CSS: `overflow: hidden`.
 
 #### Ocultar
 
@@ -343,7 +343,7 @@ Deshace los cambios realizados en las actividades durante una sesión de edició
 
 ## Consideraciones {#considerations}
 
-* Si una oferta contiene contenido HTML, consulte «How at. js renders offers with HTML content» in [How at. js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
+* Si una oferta contiene contenido HTML, consulte "Cómo at.js procesa las ofertas con contenido HTML" en [Cómo funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) at.js para obtener más información.
 
 ## Desplazamiento por elementos utilizando la ruta DOM {#dom-path}
 
