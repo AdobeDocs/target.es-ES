@@ -1,6 +1,6 @@
 ---
 description: 'Información sobre las funciones mboxDefine() y mboxUpdate() para at.js. '
-keywords: Mboxdefine; mboxdefine; mbox definir; Mboxupdate; mboxupdate; actualización de mbox; at. js; funciones; function
+keywords: mboxDefine;mboxDefine;mbox define;mboxUpdate;mboxUpdate;mboxUpdate;mbox update;at.js;funciones;function
 seo-description: Información sobre las funciones mboxDefine() y mboxUpdate() para la biblioteca JavaScript at.js de Adobe Target.
 seo-title: Información sobre las funciones mboxDefine() y mboxUpdate() para la biblioteca JavaScript at.js de Adobe Target.
 solution: Target
