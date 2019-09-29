@@ -23,17 +23,17 @@ Notas de la versión de versiones anteriores de Target, incluidas las notas de l
 
 ## Notas de la versión - 2019 {#releases-2019}
 
-### SDK de VEC móvil de Target iOS 2.1.0 y Android 1.1.1 (7 de agosto de 2019)
+### Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1 (August 7, 2019)
 
-Esta versión de Mobile VEC SDK incluye las siguientes mejoras y correcciones:
+This release of Mobile VEC SDK includes the following enhancements and fixes:
 
 (Los números entre paréntesis son para uso interno de Adobe).
 
-* Se agregó compatibilidad con Vista previa para actividades visuales en dispositivos móviles. (TGT-27875)
-* Se ha corregido un problema que provocaba una infracción de Apple Standard debido al `UIImagePickerController` uso.
-* Se ha eliminado la dependencia de GSON del SDK de Android. (TGT-31710)
-* Se han eliminado otras dependencias de Gradle redundantes (TGT-35479)
-* Se ha corregido un problema que provocaba que la oferta de entrega no se restableciera en el momento de la creación. (TGT-35270)
+* Added support for Preview for Visual Activities on mobile device. (TGT-27875)
+* Fixed an issue that caused an Apple Standard violation due to  usage.`UIImagePickerController`
+* Removed GSON dependency from Android SDK. (TGT-31710)
+* Removed Other redundant Gradle dependencies (TGT-35479)
+* Fixed an issue that caused the delivery offer to not reset at the time of authoring. (TGT-35270)
 
 ### Target Standard/Premium 19.7.1 (24 de julio de 2019) {#tgt-19-7-1}
 
@@ -45,13 +45,13 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | --- | --- |
 | Compositor de experiencias visuales para aplicaciones móviles | Un nuevo panel Modificaciones aparece en el VEC de la aplicación móvil que muestra los elementos configurados para el seguimiento de clics. (TGT-31741)<br> Consulte [Configuración del seguimiento de clics en la aplicación](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)móvil. |
 | ![Distintivo Premium](/help/assets/premium.png)<br> Recommendations en las actividades de prueba A/B y segmentación de experiencias (XT) | El estado de oferta de Recommendations (algoritmo) aparece en la página Información general de las actividades de prueba A/B y XT que contienen ofertas de Recommendations. Los estados incluyen: Resultados preparados, Resultados no preparados y Error de fuente. (TGT-33649)<br>Consulte [Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Compatibilidad de seguimiento entre dominios para at.js 2.0+ a través de la biblioteca de Experience Cloud ID (ECID) | Anteriormente, el seguimiento entre dominios no era compatible con at.js 2.*x*. Con esta versión, los clientes que utilizan at.js 2.0 o una versión superior pueden utilizar el seguimiento entre dominios a través de la biblioteca ECID. La biblioteca ECID debe instalarse en la página junto con at.js 2.0 o una versión superior para que funcione el seguimiento entre dominios. [Debe utilizarse la biblioteca de ID de Experience Cloud 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) .<br>Consulte Compatibilidad con el seguimiento [entre dominios en at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Compatibilidad de Target con ITP 2.1 y ITP 2.2 de Apple a través de la biblioteca 4.3 de Experience Cloud ID (ECID) | Actualmente, los clientes de Target pueden mitigar ITP 2.1 y ITP 2.2 de Apple mediante el uso del programa de certificación CNAME de Adobe.<br>Con esta versión, Target introduce una integración perfecta con la biblioteca ECID 4.3, que aprovecha una cookie del lado del servidor para mitigar ITP 2.1 e ITP 2.2. Se recomienda encarecidamente que los clientes de Target implementen la biblioteca [ECID 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) junto con la biblioteca JavaScript de Target para mitigar cualquier versión futura de ITP. La biblioteca ECID ofrecerá más mejoras que proporcionen una solución sólida para las cambiantes políticas de cookies ingresadas por los exploradores.<br>Consulte [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
+| Compatibilidad de seguimiento entre dominios para at.js 2.0+ a través de la biblioteca de Experience Cloud ID (ECID) | Anteriormente, el seguimiento entre dominios no era compatible con at.js 2.*x*. Con esta versión, los clientes que utilizan at.js 2.0 o una versión superior pueden utilizar el seguimiento entre dominios a través de la biblioteca ECID. La biblioteca ECID debe instalarse en la página junto con at.js 2.0 o una versión superior para que funcione el seguimiento entre dominios. [Experience Cloud ID library 4.3.0+ must be used.](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)<br>Consulte Compatibilidad con el seguimiento [entre dominios en at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
+| Compatibilidad de Target con ITP 2.1 y ITP 2.2 de Apple a través de la biblioteca 4.3 de Experience Cloud ID (ECID) | Actualmente, los clientes de Target pueden mitigar ITP 2.1 y ITP 2.2 de Apple mediante el uso del programa de certificación CNAME de Adobe.<br>Con esta versión, Target introduce una integración perfecta con la biblioteca ECID 4.3, que aprovecha una cookie del lado del servidor para mitigar ITP 2.1 e ITP 2.2. Se recomienda encarecidamente que los clientes de Target implementen la biblioteca [ECID 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) junto con la biblioteca JavaScript de Target para mitigar cualquier versión futura de ITP. La biblioteca ECID ofrecerá más mejoras que proporcionen una solución sólida para las cambiantes políticas de cookies ingresadas por los exploradores.<br>See Apple Intelligent Tracking Prevention (ITP) 2.x.[](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |
 
 **Mejoras, correcciones y cambios**
 
 * Se ha corregido un problema que impedía que los valores de exclusión de las actividades de Recomendaciones se borraran al agregar valores duplicados. (TGT-34996)
-* Ahora puede eliminar un diseño de una actividad de Recomendaciones de la página Segmentación (paso 2 del flujo de trabajo guiado de tres partes). Tenga en cuenta que para eliminar un diseño, debe haber más de un diseño seleccionado. (TGT-35118)
+* You can now remove a design in a Recommendations activity from the Targeting page (Step 2 of the three-part guided workflow). Tenga en cuenta que para eliminar un diseño, debe haber más de un diseño seleccionado. (TGT-35118)
 * Se ha corregido un problema que impedía que algunas tarjetas de criterios personalizados se cargaran correctamente en la interfaz de usuario de Target o se pudieran editar. (TGT-35170)
 
 ### Versión 2.1.1 de at.js (24 de julio de 2019)
@@ -60,7 +60,7 @@ Esta versión de at.js es una versión de mantenimiento que incluye las siguient
 
 (Los números entre paréntesis son para uso interno de Adobe).
 
-* Se ha corregido un problema que provocaba que se activaran varias señalizaciones al usar la métrica Seguimiento de clics en la página Objetivos y configuración del Compositor de experiencias visuales (VEC). (TNT-32812)
+* Fixed an issue that caused multiple beacons to fire when using the Click Tracking metric on the Goals &amp; Settings page in the Visual Experience Composer (VEC). (TNT-32812)
 * Se ha corregido un problema que provocaba `triggerView()` que las ofertas no se procesaran más de una vez. (TNT-32780)
 * Se ha corregido un problema con `triggerView()` el que se aseguraba de que la solicitud contiene información de Marketing Cloud ID (MCID). (TNT-32776)
 * Se ha corregido un problema que impedía que la notificación se activara aunque no hubiera vistas guardadas. `triggerView()` (TNT-32614)
