@@ -1,6 +1,6 @@
 ---
 description: Información sobre el uso de grupos de informes en actividades de Personalización automatizada (AP).
-keywords: personalización automatizada;oferta;informes;grupo;grupo de informes
+keywords: personalización automatizada;oferta;informes;grupo;reporting group
 seo-description: Información sobre el uso de grupos de informes en actividades de Personalización automatizada (AP) en Adobe Target.
 seo-title: Ofrezca grupos de informes en actividades de Personalización automatizada (AP) en Adobe Target
 solution: Target
