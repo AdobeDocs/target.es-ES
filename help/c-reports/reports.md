@@ -16,11 +16,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Informes{#reports}
 
-Los informes proporcionan información sobre el progreso y los resultados de las actividades que le ayudan a tomar decisiones basadas en los datos. Los datos del informe pueden ayudarle a decidir cuándo finalizar una prueba, mostrar qué experiencia de oferta es la ganadora y proporcionar perspectivas o aprensiones que necesite para determinar las acciones siguientes.
+Los informes proporcionan información sobre el progreso y los resultados de las actividades que le ayudan a tomar decisiones basadas en sus datos. Los datos del informe pueden ayudarle a decidir cuándo finalizar una prueba, mostrar qué experiencia de oferta es la ganadora y proporcionar las perspectivas o los datos que necesite para determinar las acciones siguientes.
 
 >[!NOTE]
 >
->Puede bloquear a visitantes de direcciones IP específicas para que no se cuenten en los informes. Póngase en contacto con ClientCare para configurar filtros IP. Este filtrado no se aplica al usar  [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) como fuente de informes.
+>Puede bloquear a visitantes de direcciones IP específicas para que no se cuenten en los informes. Póngase en contacto con ClientCare para configurar filtros IP. Este filtrado no se aplica al usar [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) como fuente de informes.
 
 ## Información sobre la creación de informes para tipos de actividad específicos {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -42,7 +42,7 @@ Además de la información general sobre informes de este tema y sus apartados, 
 
    Por ejemplo, podría seleccionar [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] en la lista desplegable [!UICONTROL Tipo] y elegir [!UICONTROL Activo] en la lista desplegable [!UICONTROL Estado] para mostrar solo las pruebas A/B y actividades de Segmentación de experiencias que tengan este estado.
 
-   En la ilustración siguiente vemos la lista desplegable [!UICONTROL Tipo] con dos tipos marcados: Prueba A/B y Segmentación de experiencias. Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. Puede anular la selección de uno o más tipos según sea necesario.
+   En la ilustración siguiente vemos la lista desplegable [!UICONTROL Tipo] con dos tipos marcados: Prueba A/B y Segmentación de experiencias. Tenga en cuenta que los tres tipos de pruebas A/B (Manual, [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) y [Segmentación automática](/help/c-activities/auto-target-to-optimize.md)) están seleccionados de forma predeterminada. Puede anular la selección de uno o más tipos según sea necesario.
 
    ![Filtrar informes por tipo](/help/c-reports/assets/report_filters-new.png)
 
