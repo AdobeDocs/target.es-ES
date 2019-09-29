@@ -52,7 +52,7 @@ Puede crear un diseño de [!UICONTROL Recommendations] usando un diseño predete
 
 Este vídeo contiene la siguiente información:
 
-* Creación de un diseño personalizado
-* Comprender cómo hacer referencia a las variables de visualización en los diseños
+* Crear un diseño personalizado
+* Comprender cómo hacer referencia a variables de visualización en los diseños
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=spa)
