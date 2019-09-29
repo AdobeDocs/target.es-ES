@@ -38,9 +38,9 @@ La información de aumento en la IU de informes de Target incluye:
 
 En la ilustración siguiente, se muestra información sobre los límites de alza y el nivel de confianza:
 
-![Informe de nivel promedio de alza y confianza](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
+![Informe de nivel promedio de alza y de confianza](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-## ¿Cómo se calculan los límites de aumento?  {#section_1D360781D972483693680BE0F07AEAD1}
+## ¿Cómo se calculan los límites de aumento? {#section_1D360781D972483693680BE0F07AEAD1}
 
 Los límites de elevación representan los intervalos de confianza del 95 % del aumento que tiene la experiencia u oferta específica sobre la experiencia u oferta de control. En términos generales, significa que el aumento real tiene aproximadamente un 95 % de posibilidades de estar entre estos límites.
 
