@@ -18,7 +18,7 @@ Muestra los problemas que pueden producirse en determinadas circunstancias en el
 
 ## ¿Admite Target los iframes de varios niveles?
 
-Target no admite iframes de varios niveles. Si el sitio web carga un iframe que tiene un iframe secundario, las bibliotecas de Target (at. js y mbox. js) interactúan únicamente con el iframe principal. Las bibliotecas de Target no interactúan con el iframe secundario.
+Target no admite iframes de varios niveles. Si el sitio web carga un iframe que tiene un iframe secundario, las bibliotecas de Target (at.js y mbox.js) interactúan únicamente con el iframe principal. Las bibliotecas de Target no interactúan con el iframe secundario.
 
 Como solución alternativa, puede agregar una página en la experiencia con la URL del iframe secundario.
 
@@ -63,11 +63,11 @@ Recomendamos que todos los usuarios de VEC actualicen a la [versión más recien
 
 ## Al cambiar un elemento de la página, se cambian varios elementos. (VEC y EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
-Si se usa el mismo ID de elemento DOM en varios elementos de la página, al cambiar uno de estos elementos se cambiarán todos los elementos con dicho ID. Para evitar este error, los ID solo han de usarse una vez por página. Esta es una práctica recomendada estándar para HTML. Para obtener más información, consulte  [Escenarios de modificación de página](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Si se usa el mismo ID de elemento DOM en varios elementos de la página, al cambiar uno de estos elementos se cambiarán todos los elementos con dicho ID. Para evitar este error, los ID solo han de usarse una vez por página. Esta es una práctica recomendada estándar para HTML. Para obtener más información, consulte [Escenarios de modificación de página](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## No puedo modificar experiencias desde un sitio con eliminación de iFrames. (VEC y EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Este problema se puede solucionar habilitando el Compositor de experiencias mejorado. Haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Preferencias]** y seleccione la casilla que habilita el Compositor de experiencias mejorado. El Compositor de experiencias mejorado utiliza un proxy administrado por Adobe para cargar la página para editarla. Esto permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha añadido código de Adobe Target. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del Compositor de experiencias visuales. En este caso, puede desactivar esta opción para cargar el Compositor de experiencias visuales a través de un iFrame.  []
+Este problema se puede solucionar habilitando el Compositor de experiencias mejorado. Haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Preferencias]** y seleccione la casilla que habilita el Compositor de experiencias mejorado. El Compositor de experiencias mejorado utiliza un proxy administrado por Adobe para cargar la página para editarla. Esto permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha añadido código de Adobe Target. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del Compositor de experiencias visuales. En este caso, puede desactivar esta opción para cargar el Compositor de experiencias visuales a través de un iFrame. []
 
 >[!NOTE]
 >
