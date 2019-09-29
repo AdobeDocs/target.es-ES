@@ -1,7 +1,7 @@
 ---
 description: Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación.
 keywords: colección;Segmentación
-seo-description: Una colección es un conjunto de productos o elementos de Adobe Target que cumplen los requisitos de una recomendación.
+seo-description: Una colección es un conjunto de productos o artículos de Adobe Target que cumplen los requisitos para recibir una recomendación.
 seo-title: Colecciones en Adobe Target
 solution: Target
 title: Colecciones
@@ -65,7 +65,7 @@ Puede crear una colección para organizar los productos que quiere mostrar en su
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Crear una colección utilizando Búsqueda avanzada
+## Creación de una colección mediante Búsqueda avanzada
 
 You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
 
@@ -77,7 +77,7 @@ Después de crear una búsqueda utilizando “id &gt; contiene”, por ejemplo, 
 >
 >La función Búsqueda avanzada diferencia entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que diferencia entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear colecciones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea un catálogo con la intención de obtener productos que contengan “vacaciones”, solo se devolverán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
 
-## Vídeo de capacitación: Creación de colecciones y exclusiones en Recommendations (7:05)
+## Vídeo de capacitación: Creación de colecciones y exclusiones en Recomendaciones (7:05)
 
 Este vídeo contiene la siguiente información:
 
