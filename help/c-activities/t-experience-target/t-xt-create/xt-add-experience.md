@@ -13,7 +13,7 @@ source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 ---
 
 
-# Create experience{#create-experience}
+# Crear experiencia{#create-experience}
 
 The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
 
@@ -23,21 +23,21 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    ![Audiencia de todos los visitantes](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   Los cambios que realice ahora se aplican a la Experiencia A. En un paso inferior, haga clic en **[!UICONTROL Añadir segmentación de experiencias]** para crear experiencias adicionales.
 
-   Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Cualquier elemento resaltado puede modificarse con el VEC. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+   Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Los elementos resaltados se pueden modificar con el VEC. Para obtener una lista de las acciones que se pueden realizar en un elemento para cambiar la experiencia, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
    >[!NOTE]
    >
-   >De forma predeterminada, el VEC no permite cambios en elementos que contengan JavaScript, como banners rotativos. Puede seleccionar deshabilitar JavaScript para alterar esos elementos mediante el VEC.
+   >De manera predeterminada, el VEC no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar JavaScript para modificar esos elementos mediante el VEC.
 
 1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
 
-   ![Agregar vínculo de segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+   ![Añadir vínculo de Segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   The [!UICONTROL Choose Audience] dialog box displays. Para dirigir una experiencia a una audiencia, debe seleccionar la audiencia antes de agregar una experiencia.
+   Se abre el cuadro de diálogo [!UICONTROL Seleccionar audiencia]. Si va a segmentar una experiencia a una audiencia, debe seleccionar la audiencia antes de añadir la experiencia.
 
    La biblioteca de audiencias contiene las audiencias que se han definido anteriormente, entre las que se incluyen algunas audiencias comunes predefinidas como parte de [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
@@ -45,35 +45,35 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
    >
    >Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas específicas en lugar de crear una nueva. Para obtener más información, consulte [Combinar varias audiencias](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Al crear una audiencia puede seleccionar una ubicación (mbox) y especificar parámetros para dicha ubicación. Under [!UICONTROL Custom] (Create Audience &gt; Add Rule &gt; Custom), select the mbox, then specify the desired parameters.
+   Al crear una audiencia puede seleccionar una ubicación (mbox) y especificar parámetros para dicha ubicación. En [!UICONTROL Personalizado] (Crear audiencia &gt; Agregar regla &gt; Personalizar), seleccione el mbox y, a continuación, especifique los parámetros que desee.
 
    >[!NOTE]
    >
    >Las audiencias se importan automáticamente en segundo plano cuando abre la lista de audiencias y las audiencias importadas tienen más de diez minutos de antigüedad.
 
-1. Select one or more audiences to target with the experience, then click **[!UICONTROL Done]**.
+1. Seleccione una o varias audiencias para segmentar con la experiencia y, a continuación, haga clic en **[!UICONTROL Listo]**.
 
    ![Experiencia B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
-   Observará que la Experiencia B ahora aparece en la ilustración anterior y esta experiencia está dirigida a la audiencia de Visitantes de EE. UU.
+   Verá que la Experiencia B ahora aparece en la ilustración anterior y esta experiencia está dirigida a la audiencia de Visitantes de EE. UU.
 
-1. Seleccione los elementos que desee cambiar para esta experiencia y realice los cambios deseados, como se explica en el paso 1 de arriba.
+1. Seleccione los elementos que desee cambiar para esta experiencia y realice los cambios necesarios, como se explica en el paso 1.
 
-1. Repita los pasos anteriores para crear experiencias segmentadas adicionales, según sea necesario.
+1. Repita los pasos anteriores para crear más experiencias segmentadas, según sea necesario.
 
-1. Click **[!UICONTROL Next]** when you are finished designing your experiences.
+1. Haga clic en **[!UICONTROL Siguiente]** cuando termine de diseñar las experiencias.
 
    Se muestra el diagrama de actividad:
 
-   ![Diagrama de segmentación XT](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
+   ![Diagrama de segmentación de XT](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
 
    >[!NOTE]
    >
    >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
-1. (Condicional) Arrastre y suelte pares de audiencia/experiencia al crear o editar actividades XT para organizar los pares en el orden deseado.
+1. (Condicional) Arrastre y suelte una pareja de audiencia/experiencia mientras cuando cree o edite actividades XT para colocar las parejas en el orden deseado.
 
-   Los visitantes se evalúan para experiencias en orden, de arriba a abajo.
+   Las experiencias de los visitantes se evalúan en orden, de arriba abajo.
 
    ![Mover experiencias](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
@@ -81,11 +81,11 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    Por ejemplo, suponga que no es consciente de que el orden importa al crear una actividad XT. Más adelante repara, durante las pruebas, que los visitantes que creía que encajarían en las experiencias B o C acaban en la experiencia A. Podría deberse a que las audiencias no son mutuamente excluyentes y no están situadas en el orden apropiado (por ejemplo, experiencia A = Estados Unidos, experiencia B = San Francisco, experiencia C = California). En este escenario, todos los usuarios de Estados Unidos entrarán en la experiencia A, aunque se encuentren en San Francisco o alguna otra parte de California. Puede reordenar los pares de audiencia/experiencia de más restrictivo a menos restrictivo (San Francisco &gt; California &gt; Estados Unidos) sin necesidad de reconstruir toda la actividad.
 
-   If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. Se puede utilizar una experiencia segmentada a “Todos los visitantes” como la última experiencia de la actividad de segmentación de experiencias para “captar” a los visitantes que no han participado de otras experiencias.
+   Si tiene una audiencia de [!UICONTROL Todos los visitantes], compruebe que no sea la primera audiencia en el diagrama. Se puede utilizar una experiencia segmentada a “Todos los visitantes” como la última experiencia de la actividad de segmentación de experiencias para “captar” a los visitantes que no han participado de otras experiencias.
 
 ## Cambiar el nombre o editar una experiencia
 
-You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
+Puede hacer clic en el icono [!UICONTROL Editar] (tres puntos verticales) de una experiencia en una actividad de segmentación de experiencias (XT) y elegir de las siguientes opciones, según sea necesario:
 
 * Cambiar nombre
 * Editar
@@ -94,13 +94,13 @@ You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experie
 
 ## Eliminar una experiencia
 
-On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses &gt; **[!UICONTROL Delete]**.
+En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales &gt; **[!UICONTROL Eliminar]**.
 
 ![Eliminar experiencia](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
 ## Duplicar una experiencia
 
-Puede copiar una experiencia en una actividad XT para poder realizar pequeños cambios sin tener que volver a crear la experiencia desde cero.
+Puede copiar una experiencia en una actividad XT para poder realizar cambios menores en ella sin tener que volver a crear la experiencia desde cero.
 
 En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales &gt; **[!UICONTROL Duplicar]**.
 
