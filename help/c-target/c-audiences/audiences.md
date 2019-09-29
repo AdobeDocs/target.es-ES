@@ -19,7 +19,7 @@ Las audiencias determinan quién ve el contenido y las experiencias en una activ
 
 Las audiencias se utilizan siempre que está disponible la determinación de objetivos. Al segmentar una actividad, puede seleccionar una audiencia reutilizable de la lista [!UICONTROL Audiencias], [crear una audiencia específica de actividad](/help/c-target/creating-activity-only-audience.md) y segmentarla, o [combinar varias audiencias](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad-hoc.
 
-También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. Consulte [Audiencias](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) en la Guía *del usuario de servicios* principales.
+También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. See Audiences in the Core Services User Guide.[](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)**
 
 [!DNL Target] distingue dos tipos de audiencias:
 
