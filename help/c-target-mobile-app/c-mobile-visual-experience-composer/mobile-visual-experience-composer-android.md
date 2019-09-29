@@ -1,8 +1,8 @@
 ---
 description: La nueva biblioteca de SDK de Target permite a los desarrolladores realizar una única configuración de sus aplicaciones móviles Android, mientras que los expertos en marketing pueden utilizar las capacidades del nuevo Compositor de experiencias visuales (VEC) móvil.
 keywords: vec móvil;compositor de experiencias visuales móvil;opciones del compositor de experiencias móvil;configuración;android
-seo-description: La nueva biblioteca SDK de Adobe Target permite a los desarrolladores realizar una configuración única en sus aplicaciones móviles Android y permitir a los especialistas en marketing utilizar las capacidades del Compositor de experiencias visuales móviles (VEC).
-seo-title: 'Android: configurar la aplicación móvil para Adobe Target'
+seo-description: La nueva biblioteca de SDK de Adobe Target permite a los desarrolladores realizar una configuración única en sus aplicaciones móviles de Android y a los especialistas en marketing utilizar las funciones del Compositor de experiencias visuales móviles (VEC).
+seo-title: 'Android: configuración de la aplicación móvil para Adobe Target'
 solution: Target
 title: 'Android: configuración de la aplicación móvil'
 topic: Standard
@@ -57,7 +57,7 @@ Para obtener más información sobre la activación de la extensión VEC de Adob
    </activity>
    ```
 
-1. Vaya al proyecto móvil e inserte las siguientes líneas al final del `Application::onCreate override`
+1. Vaya al proyecto móvil e inserte las siguientes líneas al final del.`Application::onCreate override`
 
    ```
    public class SDKTest extends MultiDexApplication { 
@@ -305,12 +305,12 @@ Puede haber ciertas situaciones en las que desee volver a llamar a la API de rec
 
 Tras completar este tutorial, podrá:
 
-* Creación de una propiedad de Launch móvil
-* Instalación de una propiedad Launch en una aplicación de Android
-* Implemente las siguientes soluciones de Adobe Experience Cloud:
+* Crear una propiedad de Launch móvil
+* Instalar una propiedad Launch en una aplicación de Android
+* Implementar las siguientes soluciones de Adobe Experience Cloud:
    * Servicio Experience Cloud ID
    * Adobe Target
-   * Adobe Analytics 
+   * Adobe Analytics.
    * Adobe Audience Manager
 
 * Publicar cambios en Launch a través de los entornos de desarrollo, ensayo y producción
