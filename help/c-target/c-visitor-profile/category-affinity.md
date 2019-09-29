@@ -1,7 +1,7 @@
 ---
 description: La función de afinidad de la categoría captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de forma que se pueda establecer como objetivo y se le apliquen segmentos. Esto contribuye a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de realizar alguna acción a partir de esa información.
 keywords: afinidad;afinidad de la categoría
-seo-description: La función de afinidad de la categoría de Adobe Target captura automáticamente las categorías que visitan los usuarios y calcula la afinidad del usuario hacia la categoría para que se pueda segmentar y segmentarla. Esto contribuye a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de realizar alguna acción a partir de esa información.
+seo-description: La función de afinidad de la categoría en Adobe Target captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de forma que se pueda establecer como objetivo y se le apliquen segmentos. Esto contribuye a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de realizar alguna acción a partir de esa información.
 seo-title: Uso de afinidad de la categoría en Adobe Target
 solution: Target
 title: Afinidad de la categoría
@@ -31,7 +31,7 @@ Puede utilizar `user.categoryAffinities[]` en un script de perfil para devolver 
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` es necesario para rastrear la categoría favorita de un usuario. `entity.categoryId` es necesario para basar las recomendaciones en la categoría actual o del elemento actual. Pase ambos valores a Adobe Target si desea utilizar ambas funciones.
+>El atributo `user.categoryId` utilizado para el algoritmo de afinidad de categoría de Adobe Target es distinto del atributo `entity.categoryId` utilizado para las recomendaciones de productos y de productos en Recommendations de Adobe Target. `user.categoryId` es necesario para rastrear la categoría favorita de un usuario. `entity.categoryId` es necesario para basar las recomendaciones en la categoría o el elemento actual. Pase ambos valores a Adobe Target si desea utilizar ambas funciones.
 
 ## Caso de negocio para la afinidad de la categoría {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
