@@ -1,7 +1,7 @@
 ---
 description: Utilice métricas en una actividad de segmentación de experiencias (XT) para determinar si una visita es satisfactoria.
 keywords: segmentación de experiencias;xt;métricas;definir métricas;métrica de segmentación;configuración de actividades;métrica de éxito;conversión;ingresos;participación
-seo-description: Utilice métricas en una actividad de Segmentación de experiencias de Adobe Target (XT) para determinar si una visita se realiza correctamente.
+seo-description: Utilice métricas en una actividad de segmentación de experiencias (XT) de Adobe Target para determinar si una visita tiene éxito.
 seo-title: Definir métricas
 solution: Target,estándar
 title: Definir métricas
@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Utilice métricas en una actividad de segmentación de experiencias (XT) para determinar si una visita es satisfactoria.
 
-Para obtener información detallada sobre las métricas de éxito, consulte  [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Para obtener información detallada sobre las métricas de éxito, consulte [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Especificar el objetivo de la actividad.
 1. Seleccionar una [métrica de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
