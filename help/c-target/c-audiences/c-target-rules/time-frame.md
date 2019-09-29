@@ -40,7 +40,7 @@ Por ejemplo, con las [funciones de audiencias combinadas específicas](../../../
 
    Las opciones de Partición por semana y día se pueden usar, por ejemplo, para mostrar la opción “Chatear ahora” a los visitantes solo durante los días y las horas laborables de su centro de llamadas.
 
-   Seleccione uno o varios días de la semana y luego defina las horas de inicio y fin. Haga clic en **[!UICONTROL Añadir más]para especificar otros patrones si lo desea.**
+   Seleccione uno o varios días de la semana y luego defina las horas de inicio y fin. Haga clic en **[!UICONTROL Añadir más]** para especificar otros patrones si lo desea.
 
    >[!NOTE]
    >
