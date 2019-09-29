@@ -16,17 +16,17 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 
-Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintas audiencias.
+La segmentación de experiencias, incluyendo [Segmentación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md), sirve para definir reglas que dirigen un contenido o experiencia determinados a una audiencia concreta. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintas audiencias.
 
 Cuando los visitantes ven el sitio, Segmentación de experiencias (XT) los evalúa para determinar si cumplen los criterios establecidos. En caso afirmativo, participan en la actividad y se les muestra la experiencia diseñada para clasificar audiencias. Puede crear experiencias para varias audiencias dentro de una misma actividad.
 
 La segmentación de experiencias es un primer paso en el mundo de la personalización y a menudo comienza con las pruebas A/B. Un experto en marketing realiza una prueba A/B y, a través del uso de audiencias de informes, detecta que cada experiencia estimula a una audiencia diferente. La segmentación de experiencias permite al experto aprovechar fácilmente esta información y empezar a utilizar segmentación de contenido a largo plazo para cada uno de estos segmentos de usuarios.
 
-## Escenario: Segmentación de experiencias
+## Caso: Segmentación de experiencias
 
-Suponga que su sitio web tiene equipos al aire libre. Los informes de Prueba A/B indican que tiene tres experiencias que se relacionan con distintas audiencias. Para aprovechar este descubrimiento, quiere mostrar una imagen hero distinta en la página principal para atraer a estas distintas audiencias, según la ubicación o los aficiones de los visitantes. En este escenario, desea mostrar una imagen de senderismo a visitantes de Nueva Jersey y una imagen de navegación a visitantes de Hawaii. También tiene una audiencia que le gusta el ciclismo. Desea mostrar una tercera imagen hero que atraiga a su audiencia de ciclismo.
+Suponga que su sitio web incluye equipos para actividades al aire libre. Los informes de Prueba A/B indican que tiene tres experiencias que se relacionan con distintas audiencias. Para aprovechar este descubrimiento, quiere mostrar una imagen distinta en la página principal para atraer a estas distintas audiencias, según la ubicación o las aficiones de los visitantes. En este escenario, desea mostrar una imagen de senderismo a visitantes de Nueva Jersey y una imagen de navegación deportiva a visitantes de Hawaii. También tiene una audiencia a la que le gusta el ciclismo. Desea mostrar una tercera imagen que atraiga a su audiencia de ciclismo.
 
-Una actividad XT permite dirigir estas tres audiencias con una imagen hero distinta que atrae a cada audiencia. The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. El vídeo también muestra cómo ordenar las tres experiencias para lograr sus objetivos. Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
+Una actividad XT permite dirigir estas tres audiencias con una imagen distinta que atrae a cada audiencia. El vídeo siguiente, *De Pruebas A/B a la Segmentación de experiencias*, muestra cómo crear experiencias dirigidas a ambos estados y una tercera experiencia dirigida a los aficionados del ciclismo. El vídeo también muestra cómo ordenar las tres experiencias para lograr sus objetivos. Vea el vídeo y, a continuación, continúe con [Crear una actividad de segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## Vídeos de formación:
 
