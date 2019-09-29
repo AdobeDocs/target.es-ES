@@ -27,13 +27,13 @@ El VEC de Adobe Target para SPA aprovecha un nuevo concepto llamado Vistas: un g
 
 Para explicar más sobre las vistas, vamos a navegar por este hipotético sitio de comercio electrónico en línea, implementado en React, y a explorar algunas de las vistas de ejemplo. Haga clic en los vínculos siguientes para abrir el sitio en una nueva pestaña del explorador.
 
-**Vínculo:[Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
+**Link:[Home Site](https://target.enablementadobe.com/react/demo/#/)**
 
 ![página de inicio](/help/c-experiences/assets/home.png)
 
 Si vamos a la página de inicio, podemos ver inmediatamente una imagen promocional de Pascua, así como los productos más recientes que venden en el sitio. En este caso, una vista puede definirse como toda la página de inicio. Es práctico tenerlo en cuenta porque se ampliará en la sección Implementación de vistas de Adobe Target, que se describe a continuación.
 
-**Vínculo:[Sitio de productos](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Product Site](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sitio del producto](/help/c-experiences/assets/product-site.png)
 
@@ -47,7 +47,7 @@ Al principio de esta sección, definimos Vistas como el sitio completo o incluso
 
 Decidimos hacer clic en el botón Cargar más para explorar más productos en el sitio. En este caso, la dirección URL del sitio web no cambia. Sin embargo, aquí, una vista puede representar solamente la segunda fila de productos que se muestra arriba. El nombre de la vista puede ser “PRODUCTS-PAGE-2”.
 
-**Vínculo:[Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Vínculo: Cierre[de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de salida](/help/c-experiences/assets/checkout.png)
 
@@ -61,7 +61,7 @@ Es posible que los especialistas en marketing deseen ejecutar una prueba A/B par
 
 Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovechar este concepto en Target para permitir a los especialistas en marketing ejecutar pruebas A/B y XT en SPA a través del VEC. Esto requiere una configuración de desarrollador única. Veamos los pasos para configurarlo.
 
-1. Instale at.js 2.x.
+1. Instale at. js 2. x.
 
    En primer lugar, es necesario instalar at.js 2.x. Esta versión de at.js se desarrolló teniendo en cuenta las SPA. Las versiones anteriores de at.js y mbox.js no son compatibles con las vistas de Adobe Target y con el VEC para SPA.
 
@@ -83,7 +83,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    Veamos algunos ejemplos de casos de uso sobre la invocación de la función `triggerView()` en React para el SPA de comercio electrónico hipotético:
 
-   **Vínculo:[Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
+   **Vínculo: Sitio[principal](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -114,7 +114,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Vínculo:[Sitio de productos](https://target.enablementadobe.com/react/demo/#/products)**
+   **Vínculo: Sitio[de productos](https://target.enablementadobe.com/react/demo/#/products)**
 
    Veamos un ejemplo que es un poco más complicado. Digamos que como especialistas en marketing queremos personalizar la segunda fila de los productos cambiando el color de la etiqueta Precio a rojo después de que un usuario haga clic en el botón Cargar más.
 
@@ -143,7 +143,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
    }
    ```
 
-   **Vínculo:[Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Vínculo: Cierre[de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![Reacción de finalización de compra](/help/c-experiences/assets/react6.png)
 
@@ -208,13 +208,13 @@ La siguiente tabla describe cada acción:
 | --- | --- |
 | Información | Muestra los detalles de esta acción. |
 | Editar | Permite editar las propiedades de esta acción directamente. |
-| Clonar | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Nota**: Después de realizar una operación de clonación, debe navegar a la vista en el VEC a través [!UICONTROL de Examinar] para ver si la acción clonada era una operación válida. Si la acción no se puede aplicar a la vista, verá un error. |
-| Mover | Mueve la acción a un Evento de carga de página o a cualquier otra Vista que ya exista en el panel de modificaciones.<br>[!UICONTROL Evento] de carga de página: las acciones correspondientes al evento de carga de página se aplican en la carga inicial de la página web.<br>**Nota** Después de realizar una operación de traslado, debe navegar a la vista en el VEC a través de Examinar para comprobar si el movimiento era una operación válida. Si la acción no se puede aplicar a la vista, verá un error |
+| Clonar | Clona la acción a una o varias vistas del panel [!UICONTROL Modificaciones] o a una o varias vistas a las que ha llegado a través del VEC. La acción no tiene que incluirse necesariamente en el panel [!UICONTROL Modificaciones].<br>**Nota**: Después de realizar una operación de clonado, debe navegar a la vista en el VEC a través de [!UICONTROL Examinar] para ver si la acción clonada era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error. |
+| Mover | Mueve la acción a un Evento de carga de página o a cualquier otra Vista que ya se encuentre en el panel Modificaciones.<br>[!UICONTROL Evento de carga de página]: cualquier acción que corresponda al evento de carga de página se aplica en la carga inicial de la página web.<br>**Nota:** Después de realizar una operación Mover, debe navegar a la vista en el VEC a través de Examinar para comprobar si el desplazamiento era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error |
 | Eliminar | Elimina la acción. |
 
 >[!NOTE]
 >
->Puede realizar muchas acciones antes de que la página se cargue en el VEC, o incluso si la página no se puede cargar por completo. Las acciones que no se pueden editar antes de que el sitio web cargue no aparecerán en la IU de 
+>Puede realizar muchas acciones antes de que la página se cargue en el VEC, o incluso si la página no se puede cargar. Las acciones que no se pueden editar antes de que el sitio web cargue no aparecerán en la IU de.
 
 **Ejemplo 1**
 
@@ -309,7 +309,7 @@ adobe.target.getOffers({
 });
 ```
 
-Pase la respuesta `getOffers()` a `applyOffers()` y ahora todas las vistas y acciones asociadas con “loggedIn = true” actualizarán la caché at.js.
+Pase la respuesta `getOffers()` a `applyOffers()` y ahora todas las vistas y acciones asociadas con “loggedin = true” actualizarán la caché at.js.
 
 En otras palabras, at.js 2.x es compatible con una manera de recuperar vistas, acciones y ofertas con los datos de audiencia más actuales bajo demanda.
 
@@ -319,7 +319,7 @@ Sí, at.js 2.x es compatible con A4T para SPA a través de la función `triggerV
 
 ![Flujo de destino](/help/c-experiences/assets/atjs-spa-flow.png)
 
-| Paso | Descripción |
+| Paso   | Descripción |
 | --- | --- |
 | 1 | `triggerView()` es llamado en la SPA para procesar una vista y aplicar acciones para modificar elementos visuales asociados a la vista. |
 | 2 | El contenido dirigido para la vista se lee desde la caché. |
@@ -359,83 +359,83 @@ Si desea utilizar actividades A/B de Segmentación automática puede mover todas
 | [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Sí |
 | [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Sí |
 
-## Funciones compatibles  {#supported-features}
+## Funciones compatibles. {#supported-features}
 
 | Función | Compatible? |
 | --- | --- |
 | [Workspaces y propiedades](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Sí |
 | [Vínculos de control de calidad](/help/c-activities/c-activity-qa/activity-qa.md) | Sí |
 | [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md) | No |
-| [Código personalizado](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Sí |
+| [Código personalizado  ](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Sí |
 | [Opciones de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Todas |
 | [Seguimiento de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Sí |
 | [Entrega de varias actividades](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | Sí |
 
-## Page Delivery settings for the SPA VEC {#page-delivery-settings}
+## Configuración de entrega de páginas para el VEC de SPA {#page-delivery-settings}
 
-[!UICONTROL La configuración de Entrega] de página permite configurar reglas para determinar cuándo una actividad de Target debe calificarse y ejecutarse para una audiencia.
+La configuración de [!UICONTROL Entrega de páginas] permite establecer reglas para determinar cuándo se debe calificar y ejecutar una actividad de Target para una audiencia determinada.
 
-To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+Para acceder a las opciones de [!UICONTROL Entrega de páginas] desde el flujo de trabajo de creación guiada de actividades del VEC, desde el paso **[!UICONTROL Experiencias]**, haga clic en **[!UICONTROL Configurar]** (icono de engranaje) &gt; **[!UICONTROL Entrega de páginas]**.
 
-![Cuadro de diálogo Opciones de envío de página](/help/c-experiences/assets/page-delivery.png)
+![Cuadro de diálogo Opciones de Entrega de páginas](/help/c-experiences/assets/page-delivery.png)
 
-For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. Esto funciona perfectamente para cualquier aplicación de varias páginas en la que cada interacción con la página invoca una recarga de página, para la cual at. js recupera las actividades que cumplen con la URL a la que el usuario navega.
+Por ejemplo, según se define en la configuración [!UICONTROL Entrega de páginas] que se muestra arriba, una actividad de Target se califica y se ejecuta cuando un visitante aterriza directamente en `https://www.adobe.com` *o* cuando un visitante aterriza en cualquier dirección URL que contenga `https://www.adobe.com/products`. Esto funciona perfectamente para cualquier aplicación de varias páginas en la que cada interacción con la página invoca una recarga de página, para la cual at.js recupera las actividades que cumplen con la URL a la que va el usuario.
 
-However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity.
+Sin embargo, como los SPA funcionan de forma diferente, la configuración de [!UICONTROL Entrega de páginas] debe estar plantearse de tal manera que todas las acciones deban aplicarse a las vistas tal como se define en la actividad del VEC de SPA.
 
-### Ejemplo de uso de ejemplo
+### Ejemplo de uso
 
-Analice este ejemplo de uso de ejemplo:
+Analice este ejemplo de uso:
 
 ![Panel Modificaciones del VEC SPA](/help/c-experiences/assets/page-delivery-example.png)
 
 Se han realizado los cambios siguientes:
 
-* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Se ha cambiado el color de fondo en la vista de Inicio, que se encuentra en la dirección URL: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
 * Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
 With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
 
-![Cuadro de diálogo Entrega de página](/help/c-experiences/assets/spa-page-delivery.png)
+![Cuadro de diálogo Entrega de páginas](/help/c-experiences/assets/spa-page-delivery.png)
 
-La siguiente ilustración muestra la solicitud de Flujo de Target - Carga de página en at. js 2.*x*:
+La siguiente ilustración muestra el flujo de Target: carga de página en at.js 2.*x*:
 
-![Flujo de destino - Solicitud de carga de página de at. js 2.0](/help/c-experiences/assets/page-load-request.png)
+![Flujo de Target: Solicitud de carga de página de at.js 2.0](/help/c-experiences/assets/page-load-request.png)
 
-**Viaje del usuario n. º 1**
+**Recorrido del usuario número 1**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* realiza una consulta al borde para ver si hay alguna actividad que ejecutar para la URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* En el paso 6, Target Edge devuelve las acciones para la vista Inicio y Productos para que se almacenen en caché dentro del explorador.
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* En el paso 6, Target Edge devuelve las acciones para la vista Inicio y Productos para que se almacenen en la caché del explorador.
 
-**Resultado**: El usuario ve el color de fondo verde en la vista de inicio. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view.
+**Resultado**: El usuario ve el color de fondo verde en la vista Inicio. Cuando el usuario navega a [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, el color de fondo azul del botón se ve porque la acción se almacena en la caché del explorador en la vista Productos.
 
 Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
 
-**Viaje del usuario n. º 2**
+**Recorrido del usuario número 2**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* realiza una consulta al borde para ver si hay alguna actividad que ejecutar para la URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* Debido a que no hay actividades cualificadas, no hay acciones y vistas que almacenar en caché para at. js 2.*x* para activar desde.
+* Debido a que no hay actividades cualificadas, no hay acciones ni vistas que almacenar en caché para at.js 2.*x* para activarse.
 
-**Resultado**: Aunque haya definido `triggerView()` la vista Productos y haya realizado una acción en la Vista de productos a través del VEC de SPA, no verá la acción esperada, ya que no creó ninguna regla que incluya [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) en la configuración de Entrega de página.
+**Resultado**: Aunque haya definido `triggerView()` para la vista Productos y haya realizado una acción en la vista Productos a través del SPA de VEC, no verá la acción esperada, ya que no creó ninguna regla que incluya [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products en la configuración de Entrega de páginas.
 
 ### Práctica recomendada
 
-Puede ver que la administración del viaje del usuario puede resultar bastante difícil, ya que los usuarios pueden aterrizar en cualquier URL de su SPA y navegar a cualquier otra página. Por lo tanto, es mejor especificar una regla de publicación de página que incluya la dirección URL base para que incluya todo el SPA. De este modo, no tiene que pensar en todas las diferentes trayectorias y rutas que un usuario podría tomar para llegar a una página en la que desee mostrar una prueba A/B o una actividad de segmentación de experiencias (XT).
+Puede ver que la administración del recorrido del usuario puede resultar bastante difícil, ya que los usuarios pueden aterrizar en cualquier URL de su SPA y navegar a cualquier otra página. Por lo tanto, es mejor especificar una regla de publicación de página que incluya la dirección URL base para que incluya todo el SPA. De este modo, no tiene que pensar en todos los recorridos y trayectos que un usuario podría desarrollar para llegar a una página en la que desee mostrar una prueba A/B o una actividad de segmentación de experiencias (XT).
 
-Por ejemplo, para resolver el problema anterior, podemos especificar la dirección URL base en la configuración de Entrega de página como tal:
+Por ejemplo, para resolver el problema anterior, podemos especificar la dirección URL base en la configuración de Entrega de páginas de esta forma:
 
-![Cuadro de diálogo Entrega de página](/help/c-experiences/assets/conclusion.png)
+![Cuadro de diálogo Entrega de páginas](/help/c-experiences/assets/conclusion.png)
 
-Esto garantiza que cuando un visitante aterrice en la SPA y navega a la página principal o a la vista de página verá las acciones aplicadas.
+Esto garantiza que cuando un visitante aterrice en la SPA y navegue a la página principal o a la vista de página verá las acciones aplicadas.
 
-Now, whenever you add an action to a View in the SPA VEC, we will show you the following pop-up message to remind you to think about the [!UICONTROL Page Delivery] rules.
+Ahora, cada vez que agregue una acción a una Vista en el VEC de SPA, le mostraremos el siguiente mensaje emergente para recordarle que tenga en cuenta las reglas de [!UICONTROL Entrega de páginas].
 
-![Mensaje de configuración de envío de página](/help/c-experiences/assets/pop-up-message.png)
+![Mensaje de configuración de Entrega de páginas](/help/c-experiences/assets/pop-up-message.png)
 
-Este mensaje aparece cuando agrega la primera acción a una Vista para cada nueva actividad que cree. This message helps ensure that everyone in your organization learns how to apply these [!UICONTROL Page Delivery] rules correctly.
+Este mensaje aparece cuando agrega la primera acción a una Vista para cada nueva actividad que cree. Este mensaje garantiza que todos los miembros de su organización aprendan a aplicar correctamente estas reglas de [!UICONTROL Entrega de páginas].
 
 ## Vídeo de formación: Uso del VEC para SPA en Adobe Target
 
