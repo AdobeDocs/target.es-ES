@@ -25,7 +25,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 * Respeto opcional a las condiciones a audiencia, de forma que los expertos en marketing puedan probar o ignorar criterios de segmentación con el fin de evaluar el aspecto de las experiencias sin necesidad de cumplir sus condiciones de audiencia.
 * La realización de informes de control de calidad se captura; de este modo, los expertos en marketing pueden confirmar si las métricas aumentan del modo esperado y es posible mantener los datos de informes de control de calidad separados de los informes de producción (para la creación de informes ajenos a A4T).
 * La capacidad para obtener la vista previa de una experiencia de forma aislada o junto con otras actividades activas que satisfagan los criterios de entrega (página, mbox o audiencia).
-* La capacidad para realizar un control de calidad del viaje del usuario completo. Puede acceder a su sitio una vez con el vínculo de control de calidad y, a continuación, examinar el sitio entero durante el control de calidad de la actividad. Permanecerá en el control de calidad de la actividad hasta que termine la sesión o hasta que utilice el  [bookmarklet QA Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de dicho control de calidad. Esta característica es especialmente útil si su actividad abarca varias páginas web.
+* La capacidad para realizar un control de calidad del viaje del usuario completo. Puede acceder a su sitio una vez con el vínculo de control de calidad y, a continuación, examinar el sitio entero durante el control de calidad de la actividad. Permanecerá en el control de calidad de la actividad hasta que termine la sesión o hasta que utilice el [bookmarklet QA Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de dicho control de calidad. Esta característica es especialmente útil si su actividad abarca varias páginas web.
 
 ## Acceso y uso compartido de una URL de control de calidad {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -45,7 +45,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
       Si el ajuste está desactivado, tenga en cuenta lo siguiente:
 
-      * En caso de conflicto entre la actividad que está probando y otras actividades en curso, se aplicarán  [reglas de prioridad normales](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Debido a esto, es posible que no vea la actividad que desea someter a control de calidad.
+      * En caso de conflicto entre la actividad que está probando y otras actividades en curso, se aplicarán [reglas de prioridad normales](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Debido a esto, es posible que no vea la actividad que desea someter a control de calidad.
       * Las métricas aumentan para las actividades vistas, pero solo en el entorno de realización de informes de control de calidad.
 
 1. Haga clic en **[!UICONTROL Hecho]para guardar los cambios.**
