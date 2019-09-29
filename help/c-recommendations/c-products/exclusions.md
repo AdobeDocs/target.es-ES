@@ -1,7 +1,7 @@
 ---
 description: Cree una lista de exclusión para impedir que se recomienden determinados artículos.
 keywords: exclusiones
-seo-description: Cree una lista de exclusión en Adobe Target para evitar que se recomienden los elementos.
+seo-description: Cree una lista de exclusión en Adobe Target para evitar que se recomienden elementos.
 seo-title: Exclusiones en Adobe Target
 solution: Target
 title: Exclusiones
@@ -43,19 +43,19 @@ Cree una lista de exclusión para impedir que se recomienden determinados artíc
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Crear una exclusión utilizando Búsqueda avanzada
+## Crear una exclusión mediante la búsqueda avanzada
 
 También puede crear exclusiones utilizando Búsqueda avanzada en la página Buscar en el catálogo ([!UICONTROL Recommendations] &gt; [!UICONTROL Buscar en el catálogo] &gt; [!UICONTROL Búsqueda avanzada]).
 
 [Guardar como](/help/c-recommendations/c-products/assets/save-as.png)
 
-Después de crear una búsqueda utilizando “id &gt; contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] &gt; [!UICONTROL Exclusión]. Para obtener más información, consulte [Búsqueda en catálogo](/help/c-recommendations/c-products/catalog-search.md).
+Después de crear una búsqueda utilizando “id &gt; contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] &gt; [!UICONTROL Exclusión]. Para obtener más información, consulte Búsqueda [de catálogos](/help/c-recommendations/c-products/catalog-search.md).
 
 >[!IMPORTANT]
 >
 >La función Búsqueda avanzada diferencia entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que diferencia entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear exclusiones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea una exclusión con la intención de excluir productos que contengan “vacaciones”, solo se excluirán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
 
-## Vídeo de capacitación: Creación de colecciones y exclusiones en Recommendations (7:05)
+## Vídeo de capacitación: Creación de colecciones y exclusiones en Recomendaciones (7:05)
 
 Este vídeo contiene la siguiente información:
 
