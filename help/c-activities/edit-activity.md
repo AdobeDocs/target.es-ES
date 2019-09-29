@@ -19,29 +19,29 @@ Información acerca de los distintos modos de editar una actividad existente, in
 
 Target ofrece en su interfaz varios puntos donde se pueden editar las actividades existentes. El proceso varía en función del método que elija.
 
-## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Editar una actividad pasando sobre ella el cursor en la página Actividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. En la página **[!UICONTROL Actividades]**, pase el cursor sobre la actividad que desea editar y, a continuación, haga clic en el icono **Editar[!UICONTROL .]**
+1. En la página **[!UICONTROL Actividades]**, pase el cursor sobre la actividad que desea editar y, a continuación, haga clic en el icono **[!UICONTROL Editar]**.
 
    ![Icono Editar](/help/c-activities/assets/hover_edit.png)
 
-   Target abre la actividad en el Compositor de experiencias visuales (VEC) y ve la página [!UICONTROL Experiencias] (el primer paso en el flujo de trabajo guiado de tres pasos).
+   Target abre la actividad en el Compositor de experiencias visuales (VEC), y usted ve la página [!UICONTROL Experiencias] (el primero en el flujo de trabajo guiado de tres pasos).
 
-1. Edite la actividad según desee mediante las opciones [de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Edite la actividad según desee con las [Opciones de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Haga clic en el botón dividido para avanzar al siguiente paso o para guardar la actividad.
 
    ![Botón Dividido](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]** para avanzar al paso deseado. Por ejemplo, en la ilustración anterior, hacer clic en [!UICONTROL Siguiente] muestra el paso Segmentación.
+   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]** para avanzar al paso deseado. Por ejemplo, en la ilustración anterior, hacer clic en [!UICONTROL Siguiente] muestra el paso [!UICONTROL Segmentación].
    * **Guardar y cerrar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar y cerrar]** para guardar los cambios y mostrar la página [!UICONTROL Información general] de la actividad.
    * **Guardar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
 
-## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Editar una actividad haciendo clic en su nombre en la página Actividades para abrirla {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. Para evitar tener que pasar por todo el flujo de trabajo, haga clic en la actividad deseada de la página Actividades para abrirla y, a continuación, seleccione una opción en la lista desplegable **[!UICONTROL Editar actividad].**
+1. Para evitar tener que pasar por todo el flujo de trabajo, haga clic en la actividad deseada de la página Actividades para abrirla y, a continuación, seleccione una opción en la lista desplegable **[!UICONTROL Editar actividad]**.
 
-   ![Editar actividad desplegable](/help/c-activities/assets/edit_activity.png)
+   ![Editar Desplegable de actividad](/help/c-activities/assets/edit_activity.png)
 
 1. Seleccione la opción que desee:
 
@@ -60,9 +60,9 @@ Target ofrece en su interfaz varios puntos donde se pueden editar las actividade
 
 
 
-## Trabajo con actividades heredadas creadas en Recommendations Classic {#classic}
+## Trabajar con actividades heredadas creadas en Recommendations Classic {#classic}
 
-La lista [!UICONTROL Actividades] muestra actividades creadas en varias fuentes, incluyendo [!DNL Recommendations Classic]. Las siguientes acciones están disponibles cuando se trabaja con actividades heredadas creadas en [!DNL Recommendations Classic]:
+La lista [!UICONTROL Actividades] muestra las actividades creadas en varias fuentes, incluida [!DNL Recommendations Classic]. Las siguientes acciones están disponibles al trabajar con actividades heredadas creadas en [!DNL Recommendations Classic]:
 
 * [!UICONTROL Activar]
 * [!UICONTROL Desactivar]
@@ -70,9 +70,9 @@ La lista [!UICONTROL Actividades] muestra actividades creadas en varias fuentes,
 * [!UICONTROL Copiar]
 * [!UICONTROL Eliminar]
 
-No puede editar una [!DNL Recommendations] actividad directamente. Si desea editar la actividad, debe crear una copia de la actividad y [!DNL Target Premium] luego guardar la actividad recién creada. Esta actividad recién creada puede editarse según sea necesario.
+No puede editar una [!DNL Recommendations] actividad directamente. Si desea editar la actividad, debe crear una copia de la actividad mediante [!DNL Target Premium] y, a continuación, guardar la actividad recién creada. Esta actividad recién creada se puede editar según sea necesario.
 
-## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Guardar una actividad como borrador {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Cuando crea una nueva actividad que aún no se ha guardado, o cuando edita una actividad previamente guardada en forma de borrador, en el botón dividido se muestra la opción Guardar borrador.
 
@@ -83,7 +83,7 @@ Puede guardar una actividad en modo borrador si se ha comenzado su configuració
 
    ![Guardar borrador](/help/c-activities/assets/save_draft.png)
 
-   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]para avanzar al paso deseado.**
+   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]para avanzar al paso deseado..**
    * **Guardar borrador y cerrar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar y cerrar]** para guardar los cambios y mostrar la página [!UICONTROL Información general] de la actividad.
    * **Guardar borrador:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar borrador]para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios.**
 
@@ -97,7 +97,7 @@ Un espacio de trabajo permite que una organización asigne un conjunto de usuari
 
 Si forma parte de una organización multinacional, puede tener un espacio de trabajo para sus páginas web, propiedades o sitios europeos y otro para sus páginas web, propiedades o sitios estadounidenses. Si forma parte de una organización de varias marcas, puede contar con un espacio de trabajo independiente para cada una.
 
-Para obtener más información sobre los espacios de trabajo y la funcionalidad de los Permisos de usuario de Enterprise, consulte  [Permisos de usuario de Enterprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
+Para obtener más información sobre los espacios de trabajo y la funcionalidad de los Permisos de usuario de Enterprise, consulte [Permisos de usuario de Enterprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
 Si tiene Permisos de usuario de Enterprise habilitados en su entorno, puede copiar actividades en el mismo espacio de trabajo o en otro espacio de trabajo. No puede trasladar actualmente una actividad de un espacio de trabajo a otro. Para copiar una actividad en otro espacio de trabajo, desde la página [!UICONTROL Actividades], pase el cursor sobre la actividad que desea copiar, haga clic en el icono [!UICONTROL Copiar] y, a continuación, seleccione el espacio de trabajo deseado de la lista desplegable.
 
