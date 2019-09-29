@@ -27,7 +27,7 @@ La longitud máxima de los atributos personalizados de entidad de un solo valor 
 
 Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos de entidad personalizados de un solo valor (véase arriba).
 
-## Valores de los atributos de entidad personalizados  {#section_313331A9F8194A89B5EDD89363018651}
+## Valores de los atributos de entidad personalizados. {#section_313331A9F8194A89B5EDD89363018651}
 
 Los atributos de entidad personalizados pueden contener uno o varios valores. Los valores de los atributos de entidad se muestran en la vista del producto.
 
@@ -77,7 +77,7 @@ Puede incluir hasta 500 valores en un atributo multivalor.
 
 **Usar targetPageParams**
 
-En el siguiente ejemplo vemos cómo se utiliza.  `targetPageParams`
+En el siguiente ejemplo vemos cómo se utiliza `targetPageParams`
 
 ```
 function targetPageParams() { 
@@ -122,13 +122,13 @@ using the Delivery and Save entities APIs.
 
 Al aplicar operadores a atributos personalizados de varios valores en reglas de inclusión de algoritmos, reglas de catálogo y reglas de exclusión, el resultado es *true* si al menos un valor de la lista cumple el criterio de la operación (booleano *OR*).
 
-En el ejemplo siguiente, la regla es  `message contains abc`.
+En el ejemplo siguiente, la regla es `message contains abc`.
 
 Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es false porque ningún valor contiene `abc`.
 
 Caso 2: `entity.genre = ["abcde","de","ef"]`. El resultado es true porque un valor contiene `abc`.
 
-En el caso de los operadores negativos, todos los valores de atributo deben cumplir el criterio (booleano *AND*). Por ejemplo, si el operador es  `notEquals`, el resultado será *false* si algún valor coincide.
+En el caso de los operadores negativos, todos los valores de atributo deben cumplir el criterio (booleano *AND*). Por ejemplo, si el operador es `notEquals`, el resultado será *false* si algún valor coincide.
 
 En la tabla siguiente se detalla el comportamiento de los operadores en las reglas de inclusión de algoritmos, las reglas de catálogo y las reglas de exclusión.
 
@@ -150,7 +150,7 @@ En la tabla siguiente se detalla el comportamiento de los operadores en las regl
 >
 >*Doble* es un tipo de datos de Java. Con los operadores que requieren valores numéricos, convertir en doble elimina los valores no numéricos de los resultados, ya que no se tienen en cuenta.
 
-## Atributos de varios valores en diseños  {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Atributos de varios valores en diseños. {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Los atributos de varios valores aparecen como una lista separada por comas cuando se hace referencia a ellos en un diseño.
 
