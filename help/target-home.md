@@ -1,5 +1,5 @@
 ---
-keywords: Target;inicio;temas populares;adobe target;estándar;premium;documentación de destino;documentación de adobe target
+keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
 seo-title: Documentación de producto de Adobe Target
 solution: Target
 title: Documentación de producto de Adobe Target
@@ -58,4 +58,4 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 
 | Ayuda sobre soluciones de Adobe.[!DNL Target] | Recursos de.[!DNL Adobe Experience Cloud] |
 |--- |--- |
-| <ul><li>[Información y asistencia de Adobe Target](https://helpx.adobe.com/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Documentación de API de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Foro de la comunidad de Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Inicio de la ayuda de Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target Learn &amp; Support](https://helpx.adobe.com/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Documentación de API de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Foro de la comunidad de Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Inicio de la ayuda de Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
