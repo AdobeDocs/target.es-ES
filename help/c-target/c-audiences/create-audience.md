@@ -27,13 +27,13 @@ Cuando se combinan reglas o parámetros con O, cualquier miembro potencial de la
 
 Puede combinar ambos operadores booleanos para crear reglas complejas; sin embargo, los operadores del mismo nivel de regla deben coincidir. La interfaz de usuario se aplica automáticamente al operador correcto.
 
-For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
+Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Firefox en un equipo Windows:
 
 ![Crear audiencia](assets/audience_create.png)
 
 >[!NOTE]
 >
->Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
+>Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con los navegadores Chrome *y* Firefox simultáneamente.
 
 ## Creación de una nueva audiencia
 
