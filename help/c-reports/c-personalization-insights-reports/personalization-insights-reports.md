@@ -26,7 +26,7 @@ Los usuarios de las actividades de Personalización automatizada (AP) y Segmenta
 >
 >Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](../../administrating-target/hosts.md).
 >
->Los informes de perspectivas de personalización se generan solamente para actividades que están en estado Activo y que se han activado y recibido durante al menos 15 días.
+>Personalization Insights reports are generated only for activities that are in the Live status and have been activated and receiving traffic for at least 15 days.
 
 ## Descripción general de los informes de Perspectivas de personalización {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -34,7 +34,7 @@ El objetivo de los informes de [!UICONTROL Perspectivas de personalización] es 
 
 Como el objetivo de los informes de Perspectivas de personalización es comprender cómo han decidido los modelos de personalización de Target enviar el contenido a los visitantes, los informes de Perspectivas de personalización solo reflejan un subsegmento de todo el tráfico servido por su actividad de AP o AT. Específicamente, los dos informes reflejan todo el tráfico que utilizó el modelo de personalización. En otras palabras, los informes de Perspectivas de personalización no tienen en cuenta ni el tráfico de control ni el tráfico servido por el modelo ganador general.
 
-Hay dos informes de Perspectivas de Personalización disponibles:
+Two Personalization Insights reports are available:
 
 | Informe | Detalles |
 |--- |--- |
@@ -62,4 +62,4 @@ Target le ofrece muchas maneras de incluir datos adicionales con los que enrique
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=spa)
 
-Para obtener más información, consulte [Uso de los informes de perspectivas de personalización en Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+For more information, see Using the Personalization Insights Reports in Adobe Target.[](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)
