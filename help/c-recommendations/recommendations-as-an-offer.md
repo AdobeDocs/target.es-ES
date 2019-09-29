@@ -72,7 +72,7 @@ Hay dos maneras de editar la configuración de una oferta:
 
 1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![Editar oferta de recomendaciones](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Edit recommendations offer](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. Elija entre las siguientes opciones:
 
@@ -116,12 +116,12 @@ Existen dos maneras de eliminar una oferta de Recommendations:
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
-* Lista de resultados
-* Resultados no listos
-* Error de fuente
+* Results Ready
+* Results Not Ready
+* Feed Failure
 
-![Estado de la oferta de Recomendaciones](/help/c-recommendations/assets/recs-offer-status.png)
+![Recommendations offer status](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vídeo de capacitación: Recomendaciones como oferta
+## Training video: Recommendations as an offer
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878?captions=spa)
