@@ -1,7 +1,7 @@
 ---
 description: Información sobre problemas conocidos con esta versión de Target. También incluye información sobre problemas que ya se han resuelto.
 keywords: problemas conocidos;problemas resueltos;notas de la versión;errores;problemas;correcciones
-seo-description: Información sobre problemas conocidos de esta versión de Adobe Target. También incluye información sobre problemas que ya se han resuelto.
+seo-description: Information about known issues for this release of Adobe Target. También incluye información sobre problemas que ya se han resuelto.
 seo-title: Problemas conocidos y problemas resueltos. en Adobe Target
 solution: Target
 title: Problemas conocidos y problemas resueltos
@@ -25,9 +25,9 @@ Información sobre problemas conocidos con esta versión de Target. También inc
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
 
-### Activity QA preview links {#preview}
+### Vínculos de vista previa de control de calidad de la actividad {#preview}
 
-[Es posible que los vínculos de vista previa](/help/c-activities/c-activity-qa/activity-qa.md) del control de calidad de la actividad de las actividades guardadas no se carguen si hay demasiadas actividades guardadas en la cuenta. Reintentar los vínculos de vista previa debería funcionar. To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
+[Es posible que los vínculos de vista previa](/help/c-activities/c-activity-qa/activity-qa.md) del control de calidad de la actividad de las actividades guardadas no se carguen si hay demasiadas actividades guardadas en la cuenta. Reintentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se utilizan activamente. (TNT-32697)
 
 ### Ofertas de redireccionamiento {#redirect}
 
@@ -124,7 +124,7 @@ A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán
 
 * El índice de fuentes de Recommendations puede mostrar “Esperando índice” si los elementos de la fuente son los mismos que en la ejecución anterior. La ingesta del producto para la entrega no se ve afectada. (RECS-6663)
 
-   This issue was fixed in the Target 19.4.2 release.
+   Este problema se ha corregido en la versión 19.4.2 de Target.
 
 * Las fuentes de Recommendations tardan más de lo esperado en procesarse. (COR-2836)
 
@@ -138,7 +138,7 @@ A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán
 
 Una condición de carrera en la página puede provocar que se cuenten las vistas de página en la página original y en la página de redirección. Hay actualizaciones previstas para la implementación de at.js para garantizar que se pueda evitar esta condición de carrera.
 
-This issue was fixed in at.js 1.6.3.
+Este problema se ha corregido en at.js 1.6.3.
 
 ### Grupos de exclusión
 
