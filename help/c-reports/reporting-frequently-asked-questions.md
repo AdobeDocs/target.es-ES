@@ -1,8 +1,8 @@
 ---
 description: Lista de las preguntas más frecuentes sobre los informes en Target.
 keywords: resolución de problemas;discrepancias entre métricas;preguntas más frecuentes;informes
-seo-description: Lista de las preguntas más frecuentes sobre los informes en Adobe Target.
-seo-title: Preguntas más frecuentes sobre los informes de Adobe Target
+seo-description: Lista de preguntas más frecuentes sobre la creación de informes en Adobe Target.
+seo-title: Preguntas más frecuentes sobre informes para Adobe Target
 solution: Target
 title: Preguntas más frecuentes sobre la creación de informes
 topic: Standard
@@ -17,16 +17,16 @@ source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
 
 Lista de las preguntas más frecuentes sobre los informes en [!DNL Target].
 
-## Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?
+## ¿Por qué los informes de [!UICONTROL Segmentación] de experiencias (XT) contienen métricas para las experiencias de control?
 
-Las actividades XT siempre deben tener una experiencia de control. If you are using an XT activity in a similar manner to an [!UICONTROL A/B Test] activity, which is a fairly common scenario, the control experience data is useful. Puede ignorar los datos de experiencia de control si no lo considera útil en sus informes.
+Las actividades XT siempre deben tener una experiencia de control. Si está utilizando una actividad XT de forma similar a una actividad de prueba [!UICONTROL A/] B, que es un escenario bastante común, los datos de experiencia de control son útiles. Puede ignorar los datos de la experiencia de control si los informes no le resultan útiles.
 
 ## Why are the number of visits lower in [!DNL Target] than in other [!DNL Adobe Experience Cloud] solutions? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 Los números de las métricas que recoge [!DNL Target], como las visitas, siempre serán menores que los números recogidos en otras soluciones de [!DNL Experience Cloud] por varios motivos:
 
 * [!DNL Target] solo cuenta las visitas de las personas que cumplen los requisitos de la actividad. Otras soluciones cuentan las visitas de las personas que muestran la página sea cual sea la actividad que los trajo a la página.
-* Puede haber situaciones en las que diferentes actividades compitan por la misma ubicación (mutuamente excluyente). Como resultado, los visitantes ven contenido distinto en una página web, lo cual afecta a los números de las métricas que [!DNL Target] recaba.
+* Podría haber situaciones en las que distintas actividades compitan por la misma ubicación (mutuamente excluyentes). Como resultado, los visitantes ven contenido distinto en una página web, lo cual afecta a los números de las métricas que [!DNL Target] recaba.
 
 ## ¿Por qué no hay datos disponibles en el informe de mi actividad?{#section_E4722F6445884130951DF79981C8289B}
 
