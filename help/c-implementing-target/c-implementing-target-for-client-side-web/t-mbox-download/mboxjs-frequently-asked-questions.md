@@ -19,13 +19,13 @@ Respuestas a las preguntas más frecuentes sobre mbox.js.
 
 ## ¿Cuál es el impacto de mbox.js en el tiempo de carga de las páginas?{#section_90B3B94FE0BF4B369577FCB97B67F089}
 
-For more information, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+Para obtener más información, consulte [Ventajas de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## ¿Por qué recibo mensajes de advertencia de “Analizador bloqueado” en Google Chrome cuando uso mbox.js y document.write?{#section_355A3A5BF02F42EEB8271C96EF41590A}
 
 Este mensaje de la consola aparece cuando utiliza Chrome en diferentes casos en los que se está usando la función `document.write` en el archivo mbox.js. Este es un mensaje de advertencia y no debe afectar a su proceso de configuración de la actividad.
 
-La mejor manera de evitar esta situación es  [migrar su implementación de Target a la biblioteca de JavaScript de at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), que no utiliza la función `document.write`. El uso de at.js ofrece más ventajas que el uso de mbox.js. Para obtener más información, consulte [Preguntas más frecuentes de at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+La mejor manera de evitar esta situación es [migrar su implementación de Target a la biblioteca de JavaScript de at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), que no utiliza la función `document.write`. El uso de at.js ofrece más ventajas que el uso de mbox.js. Para obtener más información, consulte [Preguntas más frecuentes de at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## ¿Por qué no se activan los mboxes en mis páginas web?{#section_4BA5DA424B734324AAB51E4588FA50F5}
 
