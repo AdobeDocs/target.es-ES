@@ -52,7 +52,7 @@ En la lista Actividades encontrará una descripción general de todas las activi
 | Nombre | El nombre de la actividad. |
 | Dirección URL | La dirección URL aparece en el texto más claro debajo del nombre.<br>La dirección URL de la actividad indica dónde se muestra la actividad. De este modo, se puede identificar rápidamente una actividad y determinar si ya se está realizando una prueba en una página en particular.<br>Si se realiza una prueba en varias direcciones URL, se indica mediante un vínculo cuántas direcciones URL más se están usando. Haga clic en el vínculo para ver la lista completa de direcciones URL de esa actividad.<br>Puede buscar según la dirección URL. Utilice la lista desplegable situada junto al cuadro de búsqueda y seleccione [!UICONTROL Buscar URL]. |
 | Estado | Las actividades pueden tener uno de los estados siguientes:<ul><li>**Activa:** la actividad está ejecutándose.</li><li>**Borrador:** se ha iniciado la configuración de la actividad, pero aún no está lista para ejecutarse.</li><li>**Programada:** la actividad está preparada para activarse en la fecha y hora de inicio especificadas.</li><li>**Inactiva:** la actividad se ha pausado o desactivado.</li><li>**Sincronizando**: la actividad se ha guardado y se está sincronizando con la red de entrega de Target.</li><li>**Completada**: se han alcanzado la fecha y hora de finalización especificadas para la actividad y esta ya no se sirve.</li><li>**Archivada**: se archivó la actividad. Puede activar una actividad archivada para volver a usarla.</li></ul>**Nota:** Cuando se realizan determinadas acciones (por ejemplo, activar una actividad fuera de la interfaz de usuario empleando métodos API), los cambios pueden tardar hasta 10 minutos en propagarse a la IU. |
-| Fuente | Muestra dónde se creó la actividad:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager  (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Fuente | Muestra dónde se creó la actividad:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager. (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
 | Propiedad | Muestra la [propiedad](/help/administrating-target/c-user-management/property-channel/property-channel.md) de la actividad. |
 | Alza estimada en ingresos | Muestra el aumento previsto en ingresos si el 100 % de la audiencia ve la experiencia ganadora.<br>Se calcula utilizando la fórmula siguiente:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br> el número resultante se redondea a un decimal, como máximo, si la forma corta tiene un solo dígito antes del decimal. Por ejemplo: 1,6 millones de dólares, 60 mil dólares, 900 dólares, 8500 dólares, 205 mil dólares<br> En esta columna se muestra “---” para las actividades que no tienen datos suficientes para convocar un concurso ganador o que no tienen una previsión del coste.Para obtener más información, <br>consulte [Alza estimada en ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
 | Última actualización | La fecha y el autor de la última actualización de la actividad. |
@@ -70,13 +70,13 @@ Las siguientes acciones están disponibles (en función de sus permisos):
 | Activar | Inicia una actividad inactiva o preparada. |
 | Archivar | Enviar la actividad al archivo. De forma predeterminada, las actividades archivadas se dejan de incluir en la lista de actividades. Si quiere verlas, cambie el filtro de la lista de actividades para que se incluyan. Puede activar una actividad archivada para volver a usarla.<br>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en ella antes de la desactivación o del archivado. No se atribuirá a esa actividad ninguna métrica de conversión registrada durante el tiempo entre los dos eventos. |
 | Copiar | Copia una actividad. Se pueden copiar todas las actividades. Al copiar una actividad, se crea una nueva actividad con el mismo nombre y se anexa el texto “copia”. Por ejemplo, una prueba llamada “Ofertas de navegador” se copiará en “Ofertas de navegador copia”.<br>Las ofertas visuales se copian con la actividad. Puede editar las ofertas de forma segura en la copia sin que la actividad original se vea afectada. La única excepción son las imágenes y las ofertas guardadas en la carpeta Contenido/Recursos. |
-| Eliminar | Elimine un borrador o una actividad.<BR>**NOTA**: Las actividades eliminadas no se pueden recuperar. Unless you are absolutely sure that you'll never need this activity again, use the [!UICONTROL Archive] action. A continuación, puede volver a activar la actividad si es necesario. |
+| Eliminar | Eliminar un borrador o una actividad.<BR>**NOTA**: Las actividades eliminadas no se pueden recuperar. A menos que esté absolutamente seguro de que nunca necesitará esta actividad, utilice la acción [!UICONTROL Archivar]. A continuación, puede volver a activar la actividad si es necesario. |
 
 Tenga en cuenta los detalles siguientes sobre la lista de Actividades:
 
 * Las actividades archivadas y finalizadas no se incluyen en la lista [!UICONTROL Actividades]. Para verlas, fíltrelas con la configuración avanzada de filtrado del carril izquierdo.
 * En cuanto una actividad creada originalmente en [!DNL Target Classic] se desactiva o elimina, se elimina de [!DNL Target Standard/Premium]. Las actividades eliminadas creadas originalmente en [!DNL Target Classic] no se envían a la carpeta [!UICONTROL Archivo] de [!DNL Target Standard/Premium]. La funcionalidad de carpeta archivada se aplica solo a las actividades creadas en [!DNL Target Standard/Premium].
-* Todos los tipos de actividades que no son [!UICONTROL Personalización automatizada] (AP), [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] le dan la opción de usar [!DNL Target] o [!DNL Adobe Analytics] como fuente de datos. [!UICONTROL La personalización automatizada], [!UICONTROL la asignación automática] y [!UICONTROL la segmentación automática] *siempre* utilizan datos de [!DNL Target].
+* Todos los tipos de actividades que no son [!UICONTROL Personalización automatizada](AP), [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] le dan la opción de usar [!DNL Target] o [!DNL Adobe Analytics] como fuente de datos. [!UICONTROL La personalización automatizada], [!UICONTROL la asignación automática] y [!UICONTROL la segmentación automática] *siempre* utilizan datos de [!DNL Target].
 * Las actividades están disponibles en varios canales:
 
    * Sitios web y móviles
@@ -89,13 +89,13 @@ Tenga en cuenta los detalles siguientes sobre la lista de Actividades:
 
 De manera predeterminada, la lista se ordena por la fecha de la última modificación de la actividad, con la más reciente al principio. Sin embargo, hay varias opciones de filtrado que le pueden ayudar a personalizar la lista para que se muestren las actividades que le interesa consultar.
 
-### Búsqueda  {#search-heading}
+### Búsqueda {#search-heading}
 
 Utilice el campo de búsqueda para buscar las actividades que cumplen sus criterios de búsqueda.
 
 ![Búsqueda de actividades](/help/c-activities/assets/activities_search_new.png)
 
-El campo de búsqueda incluye un menú desplegable para ayudarle a limitar la búsqueda. Solo tiene que especificar uno de los siguientes filtros de búsqueda:  [!UICONTROL Nombre de la actividad] y [!UICONTROL URL].
+El campo de búsqueda incluye un menú desplegable para ayudarle a limitar la búsqueda. Solo tiene que especificar uno de los siguientes filtros de búsqueda: [!UICONTROL Nombre de la actividad] y [!UICONTROL URL].
 
 ### Filtros de la lista de actividades
 
