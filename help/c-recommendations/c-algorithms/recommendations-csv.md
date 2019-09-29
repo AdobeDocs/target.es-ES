@@ -54,7 +54,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
    Para obtener más información, consulte [Basar la recomendación en una clave de recomendación](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 1. Establezca las reglas de **[!UICONTROL Contenido]**.
 
-   Las reglas de contenido determinan qué sucede si el número de artículos recomendados no completa su diseño. Por ejemplo, si el diseño tiene espacio para cinco artículos, pero los criterios hacen que solo se recomienden tres artículos, puede dejar vacío el espacio restante, o puede usar recomendaciones de copia de seguridad para completar el espacio adicional. Seleccione las conmutaciones adecuadas. Consulte   [Configuración de contenido](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96).
+   Las reglas de contenido determinan qué sucede si el número de artículos recomendados no completa su diseño. Por ejemplo, si el diseño tiene espacio para cinco artículos, pero los criterios hacen que solo se recomienden tres artículos, puede dejar vacío el espacio restante, o puede usar recomendaciones de copia de seguridad para completar el espacio adicional. Seleccione las conmutaciones adecuadas. Consulte [Configuración de contenido](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96).
 1. Establezca las **[!UICONTROL Reglas de inclusión]**.
 
    Las reglas de inclusión le ayudan a reducir el número de artículos que aparecen en las recomendaciones. Consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Seleccione la **[!UICONTROL Ubicación]** del archivo CSV.
@@ -72,7 +72,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
    >
    >Las entidades de criterios personalizados (filas) pueden contener 1000 artículos recomendados (columnas).
 
-Las actualizaciones de criterios personalizados son “acumulativas” de forma predeterminada. Los nuevos pares de clave-valor especificados en el archivo de carga CSV sobrescribirán los pares existentes. Los pares de clave-valor existentes que no tengan claves especificadas en la carga de CSV seguirán estando disponibles para su envío y caducarán en 31 días desde la última vez que se carguen como parte del archivo CSV.
+Las actualizaciones de criterios personalizados son “acumulativas” de forma predeterminada. Los nuevos pares de clave-valor especificados en el archivo de carga CSV sobrescribirán los pares existentes. Los pares de clave-valor existentes que no tengan claves especificadas en la carga del CSV seguirán estando disponibles para su envío y caducarán en los 31 días posteriores a la última vez que se carguen como parte del archivo CSV.
 
 Póngase en contacto con el servicio de atención al cliente si desea activar la configuración que descarta los resultados existentes que no están incluidos en la siguiente carga CSV. Si esta opción está activada, solo estarán disponibles para su envío las claves presentes en el archivo CSV personalizado. Esta configuración se aplica a todos los criterios personalizados.
 
