@@ -1,6 +1,6 @@
 ---
 description: 'Información sobre la función registerExtension() para at.js. '
-keywords: Registerextension; registerextension; registrar extensión; at. js; funciones; function; Clientcode; Serverdomain; Globalmboxname; Globalmboxautocreate; timeout
+keywords: registerExtension;registerextension;extensión de registro;at.js;funciones;función;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
 seo-description: Información sobre la función registerExtension() para la biblioteca JavaScript at.js de Adobe Target.
 seo-title: Información sobre la función registerExtension() para la biblioteca JavaScript at.js de Adobe Target.
 solution: Target
