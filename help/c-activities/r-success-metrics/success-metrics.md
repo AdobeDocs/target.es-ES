@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 En Target Standard, las métricas de éxito están preconfiguradas tanto para la generación de informes como para el seguimiento.
 
-Las métricas de éxito son parámetros utilizados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target. Por ejemplo, puede determinar si una oferta nueva aumenta los ingresos por visitante o si agrega un artículo a un carro de compras. Las métricas de éxito pueden resultar útiles para detectar problemas con el registro, la ordenación o los canalizadores de compra, pero también con la participación del visitante o del cliente.
+Las métricas de éxito son parámetros usados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target. Por ejemplo, puede determinar si una oferta nueva aumenta los ingresos por visitante o si agregar un artículo a un carro de compras. Las métricas de éxito pueden resultar útiles para detectar problemas con el registro, el pedido o los canales de compra, pero también con la participación del visitante o del cliente.
 
 De igual manera que hace [!DNL Target Standard] para simplificar la creación de pruebas, la aplicación ajusta algunas de las opciones que se configuraban de forma manual en [!DNL Target Classic]. Por ejemplo, las métricas de éxito están preconfiguradas con las opciones óptimas.
 
@@ -75,9 +75,9 @@ Use la configuración avanzada para determinar qué sucede después de que un us
 
 | Después de que un usuario encuentra la métrica de objetivo | Opciones |
 |--- |--- |
-| Incremente el recuento y conserve el usuario en la actividad | Especifique cómo se incrementa el recuento:<ul><li>Una vez por participante  (predeterminada)</li><li>En cada impresión, excluidas las actualizaciones de páginas</li><li>En cada impresión</li></ul> |
-| Incremente el recuento, libere al usuario y permita que vuelva a participar | Seleccione la experiencia que el visitante ve si vuelve a participar en la actividad:<ul><li>La misma experiencia  (predeterminada)</li><li>Una experiencia aleatoria</li><li>Una experiencia no vista</li></ul> |
-| Incremente el recuento, libere al usuario y prohíba que el usuario vuelva a participar | Determine lo que el usuario ve en lugar del contenido de actividad:<ul><li>La misma experiencia, sin seguimiento  (predeterminada)</li><li>Un contenido predeterminado, u otro contenido de actividad</li></ul> |
+| Incremente el recuento y conserve el usuario en la actividad | Especifique cómo se incrementa el recuento:<ul><li>Una vez por participante (predeterminada)</li><li>En cada impresión, excluidas las actualizaciones de páginas</li><li>En cada impresión</li></ul> |
+| Incremente el recuento, libere al usuario y permita que vuelva a participar | Seleccione la experiencia que el visitante ve si vuelve a participar en la actividad:<ul><li>La misma experiencia (predeterminada)</li><li>Una experiencia aleatoria</li><li>Una experiencia no vista</li></ul> |
+| Incremente el recuento, libere al usuario y prohíba que el usuario vuelva a participar | Determine lo que el usuario ve en lugar del contenido de actividad:<ul><li>La misma experiencia, sin seguimiento (predeterminada)</li><li>Un contenido predeterminado, u otro contenido de actividad</li></ul> |
 
 ## Vídeo de formación: Métricas de actividad
 
