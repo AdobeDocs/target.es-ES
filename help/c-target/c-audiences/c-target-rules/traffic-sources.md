@@ -1,8 +1,8 @@
 ---
-description: Crear audiencias para dirigirse a visitantes según el motor de búsqueda o la página de aterrizaje que les lleve al sitio.
+description: Cree audiencias para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
 keywords: Segmentación;fuentes de tráfico;fuentes de tráfico de Target;motor de búsqueda Target;motor de búsqueda;página de destino;página de destino Target;página de destino de referencia
-seo-description: Crear audiencias en Adobe Target para dirigirse a visitantes según el motor de búsqueda o la página de aterrizaje que les lleve a su sitio.
-seo-title: Fuentes de tráfico de Target en Adobe Target
+seo-description: Cree audiencias en Adobe Target para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
+seo-title: Segmentar fuentes de tráfico en Adobe Target
 solution: Target
 title: Informe de
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
@@ -12,11 +12,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# Fuentes de tráfico {#traffic-sources}
+# Fuentes de tráfico.{#traffic-sources}
 
-Crear audiencias para dirigirse a visitantes según el motor de búsqueda o la página de aterrizaje que les lleve al sitio.
+Cree audiencias para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
 
-Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la página de aterrizaje de referencia del visitante. La página de aterrizaje referente es la página donde hizo clic el visitante para llegar al sitio actual en esta sesión. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
+Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la página de aterrizaje de referencia del visitante. La página de aterrizaje de referencia es la página en la que el visitante hace clic para llegar al sitio actual de la sesión. (Por ejemplo, si el visitante hace clic en un anuncio que se encuentra en Google y se le dirige a la página principal de `adobe.com`, entonces la página de aterrizaje de referencia es `google.com`).
 
 Puede combinar varias fuentes de tráfico para crear una regla de segmentación compleja.
 
