@@ -284,6 +284,6 @@ Puede crearse el equivalente del complemento ttMeta para depuración añadiendo 
 
 ## Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Vea el siguiente vídeo para aprender a utilizar tokens de respuesta y eventos personalizados at. js para compartir información de perfil de Target a sistemas de terceros.
+Vea el siguiente vídeo para aprender a usar tokens de respuesta y eventos personalizados de at.js para compartir información de perfil de Target con sistemas de terceros.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=spa)
