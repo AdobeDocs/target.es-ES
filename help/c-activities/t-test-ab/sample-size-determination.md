@@ -34,7 +34,7 @@ Target proporciona herramientas para ayudar a garantizar que su actividad tenga 
 
    Para obtener más información, consulte [Asignación automática](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-* **Calculadora de tamaño de muestra:** si elige usar una prueba A/B manual en lugar de Asignación automática, la Calculadora de tamaño de muestra de Target le ayuda a determinar el tamaño de muestra necesario para una prueba exitosa. A manual A/B test is a fixed horizon test, so the calculator is extremely helpful. Using the calculator for an Auto-Allocate activity is optional because Auto-Allocate will declare a winner for you. The calculator gives you a rough estimate of the sample size needed. Siga leyendo para obtener más información sobre cómo usar la calculadora.
+* **Calculadora de tamaño de muestra:** si elige usar una prueba A/B manual en lugar de Asignación automática, la Calculadora de tamaño de muestra de Target le ayuda a determinar el tamaño de muestra necesario para una prueba exitosa. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta extremadamente útil. El uso de la calculadora para una actividad de asignación automática es opcional porque la asignación automática le declarará ganador. La calculadora proporciona una estimación aproximada del tamaño de la muestra necesario. Siga leyendo para obtener más información sobre cómo usar la calculadora.
 
 ## Calculadora de tamaño de muestra de Adobe Target. {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
