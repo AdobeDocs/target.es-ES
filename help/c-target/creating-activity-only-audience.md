@@ -1,8 +1,8 @@
 ---
 description: Cree audiencias solo de actividad dentro del flujo de trabajo guiado de tres pasos para la creación de una actividad. Estas audiencias ad-hoc pueden usarse en otros lugares dentro de la misma actividad, pero no se almacenan en la biblioteca de audiencias para su uso en otras actividades.
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;solo actividad;específica
-seo-description: Cree audiencias solo de actividad desde el flujo de trabajo guiado de tres pasos de Adobe Target al crear una actividad. Estas audiencias ad-hoc pueden usarse en otros lugares dentro de la misma actividad, pero no se almacenan en la biblioteca de audiencias para su uso en otras actividades.
-seo-title: Crear una audiencia solo de actividad en Adobe Target
+seo-description: Cree audiencias solo de actividad dentro del flujo de trabajo guiado de tres pasos de Adobe Target para la creación de una actividad. Estas audiencias ad-hoc pueden usarse en otros lugares dentro de la misma actividad, pero no se almacenan en la biblioteca de audiencias para su uso en otras actividades.
+seo-title: Crear una audiencia solo de actividad. en Adobe Target
 solution: Target
 title: Crear una audiencia solo de actividad
 topic: Advanced,Standard,Classic
@@ -15,18 +15,18 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Crear una audiencia solo de actividad{#create-an-activity-only-audience}
 
-Cree audiencias solo de actividad dentro del flujo de trabajo guiado de tres pasos para la creación de una actividad. These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
+Cree audiencias solo de actividad dentro del flujo de trabajo guiado de tres pasos para la creación de una actividad. Estas audiencias ad-hoc pueden usarse en otros lugares dentro de la misma actividad, pero no se almacenan en la [!UICONTROL Biblioteca de audiencias] para su uso en otras actividades.
 
 Las audiencias solo de actividad proporcionan las siguientes ventajas:
 
-* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
-* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. Por ello quedan resguardadas de cualquier cambio no deseado por parte de otros usuarios de la organización.
+* Puede utilizar audiencias solo de actividad para crear una audiencia que quiera usar una única vez y que no desee almacenar en la [!UICONTROL Biblioteca de audiencias]. Así se evita que la [!UICONTROL Biblioteca de audiencias] se llene de elementos que no va a volver a utilizar.
+* Las audiencias solo de actividad no pueden verse en la [!UICONTROL Biblioteca de audiencias]. Por ello quedan resguardadas de cualquier cambio no deseado por parte de otros usuarios de la organización.
 
-1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
+1. Al crear una [actividad](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página de **[!UICONTROL Target]**, haga clic en el icono Editar audiencia y, a continuación, en **[!UICONTROL Reemplazar audiencia]**.
 
    ![Resultado del paso](assets/edit_audience.png)
 
-1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
+1. En la página [!UICONTROL Elegir audiencia], haga clic en **[!UICONTROL Audiencia solo de actividad]**.
 
    ![](assets/activity-only-aud.png)
 
@@ -48,9 +48,9 @@ Las audiencias solo de actividad proporcionan las siguientes ventajas:
 Tenga en cuenta lo siguiente al trabajar con audiencias solo de actividad:
 
 * Puede crear audiencias solo de actividad en el Compositor de experiencias visuales (VEC) o en el Compositor de experiencias basadas en formularios. Esta funcionalidad reemplaza las reglas de refinamiento de versiones anteriores de Target.
-* You can create an activity to store in the [!UICONTROL Audience Library] for reuse in other activities or you create an activity-only audience. Después de guardar la audiencia, no puede cambiar su tipo.
+* Puede crear una actividad para almacenarla en la [!UICONTROL Biblioteca de audiencias] y reutilizarla en otras actividades, o crear una audiencia solo de actividad. Después de guardar la audiencia, no puede cambiar su tipo.
 * Los refinamientos de actividades existentes se migran a audiencias solo de actividad.
-* Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. Las audiencias solo de actividad no utilizadas se muestran hasta que la actividad se guarda. Si se dejan sin utilizar e intenta guardarlas, se muestra un mensaje de advertencia que indica que las audiencias solo de actividad no utilizadas se eliminarán.
+* Las audiencias solo de actividad tienen un estado de [!UICONTROL Utilizada] o [!UICONTROL No utilizada]. Las audiencias solo de actividad no utilizadas se muestran hasta que la actividad se guarda. Si se dejan sin utilizar e intenta guardarlas, se muestra un mensaje de advertencia que indica que las audiencias solo de actividad no utilizadas se eliminarán.
 * Puede ver los detalles de definición de una audiencia en forma de tarjeta emergente a la que se accede desde el selector de audiencias, sin necesidad de abrir la audiencia.
 * Puede [combinar varias audiencias](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear audiencias solo de actividad.
 
