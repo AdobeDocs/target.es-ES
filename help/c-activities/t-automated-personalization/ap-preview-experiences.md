@@ -1,8 +1,8 @@
 ---
-description: Dado que una actividad de personalización automatizada compara varias ofertas en una página, resulta útil previsualizar la página con cada experiencia.
+description: Dado que una actividad de Automated Personalization compara varias ofertas en una página, resulta útil previsualizar la página con cada experiencia.
 keywords: Recommendations
-seo-description: Dado que una actividad de Personalización automatizada compara varias ofertas en una página, resulta útil previsualizar la página con cada experiencia.
-seo-title: Previsualizar experiencias para una actividad de Personalización automatizada (AP) en el Compositor de experiencias visuales de Adobe Target
+seo-description: Dado que una actividad de Personalización automatizada (AP) compara varias ofertas en una página, resulta útil previsualizar la página con cada experiencia.
+seo-title: Previsualizar experiencias para una actividad de Automated Personalization (AP) en el Compositor de experiencias visuales de Adobe Target
 solution: Target
 title: Previsualizar experiencias para una personalización automatizada en el Compositor de experiencias visuales
 title-outputclass: Premium
@@ -17,9 +17,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Previsualizar experiencias para una personalización automatizada en el Compositor de experiencias visuales{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-Dado que una actividad de Personalización automatizada compara varias ofertas en una página, resulta útil previsualizar la página con cada experiencia.
+Dado que una actividad de Personalización automatizada (AP) compara varias ofertas en una página, resulta útil previsualizar la página con cada experiencia.
 
-1. From the Visual Experience Composer, click **[!UICONTROL Preview]**.
+1. En el Compositor de experiencias visuales, haga clic en **[!UICONTROL Vista previa]**.
 
    ![Icono de vista previa](/help/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -29,22 +29,22 @@ Dado que una actividad de Personalización automatizada compara varias ofertas e
 
 1. Haga clic en una experiencia específica en la lista para visualizarla.
 
-1. (Conditional) To exclude one or more experiences from the activity, click the **[!UICONTROL Exclude]** icon.
+1. (Condicional) Para excluir una o más experiencias de la actividad, haga clic en el icono **[!UICONTROL Excluir]**.
 
    ![Icono Excluir](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   Se abre el cuadro de diálogo Administrar contenido.
+   Se muestra el cuadro de diálogo Administrar contenido.
 
    ![Cuadro de diálogo Administrar contenido](/help/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
    Puede elegir excluir una experiencia que muestre variaciones que entran en conflicto o una experiencia que no esté equilibrada desde el punto de vista estético.
 
-   To exclude an experience, hover over the experience and click the **[!UICONTROL Exclude]** icon.
+   Para excluir una experiencia, coloque el puntero sobre ella y haga clic en el icono **[!UICONTROL Excluir]**.
 
-   To exclude multiple experiences, select the checkboxes for the desired experiences, then click the **[!UICONTROL Exclude]** icon at the top right of the list.
+   Para excluir varias experiencias, seleccione las casillas de verificación de las experiencias que desee y, a continuación, haga clic en el icono **[!UICONTROL Excluir]** en la parte superior derecha de la lista.
 
-   De manera predeterminada, se incluyen todas las experiencias en la actividad de Personalización automatizada. To include an experience that has been excluded, hover over the experience and click the  **[!UICONTROL Include]** icon.
+   De manera predeterminada, se incluyen todas las experiencias en la actividad de Personalización automatizada. Para incluir una experiencia que se haya excluido, pase el ratón por encima de la experiencia y haga clic en el icono **[!UICONTROL Incluir]**.
 
-   To include multiple experiences that have been excluded, select the checkboxes for the desired experiences, then click the **[!UICONTROL Include]** icon at the top right of the list.
+   Para incluir varias experiencias que se han excluido, seleccione las casillas para las experiencias que desee y, a continuación, haga clic en el icono **[!UICONTROL Incluir]** en la parte superior derecha de la lista.
 
-1. Click **[!UICONTROL Compose]** to return to the Visual Experience Composer so you can make changes, or click **[!UICONTROL Next]** to go to the [!UICONTROL Targeting] step.
+1. Haga clic en **[!UICONTROL Componer]** para volver al Compositor de experiencias visuales y realizar cambios, o haga clic en **[!UICONTROL Siguiente]** para ir al paso de [!UICONTROL Segmentación].
