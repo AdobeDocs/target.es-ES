@@ -1,8 +1,8 @@
 ---
 description: La búsqueda en el catálogo permite encontrar los productos o el contenido en su catálogo.
 keywords: catálogo;buscar
-seo-description: La búsqueda en el catálogo de Adobe Target le ayuda a localizar los productos o el contenido del catálogo.
-seo-title: Buscar en el catálogo en Adobe Target
+seo-description: La búsqueda de catálogos en Adobe Target le ayuda a localizar los productos o el contenido en el catálogo.
+seo-title: Búsqueda de catálogos en Adobe Target
 solution: Target
 title: Búsqueda en el catálogo
 title-outputclass: premium
@@ -19,7 +19,7 @@ source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 La búsqueda en el catálogo permite encontrar los productos o el contenido en su catálogo.
 
-Para acceder a la búsqueda en el catálogo, haga clic **[!UICONTROL en Recomendaciones]** &gt; **[!UICONTROL Buscar en el catálogo]**.
+Para obtener acceso a la búsqueda de catálogos, haga clic en **[!UICONTROL Recomendaciones]** &gt; Búsqueda **[!UICONTROL de catálogos]**.
 
 Puede restringir la búsqueda: seleccione una opción de búsqueda en el menú de opciones que se muestra al hacer clic en la flecha abajo del campo de búsqueda.
 
@@ -40,9 +40,9 @@ En los resultados de búsqueda, haga clic en **[!UICONTROL Entorno]** para espec
 
 El número que se muestra junto a “Productos” es el número de productos que coincide con el término de búsqueda, con respecto al total disponible en el entorno especificado.
 
-El catálogo se actualiza automáticamente cuando se reciben actualizaciones mediante archivos de fuentes, API o actualizaciones de mbox. Las actualizaciones se suelen completar en una hora. Si las actualizaciones están en curso, se muestra la hora en la que se inició la actualización más reciente. Si no hay actualizaciones en curso, se muestra la hora de inicio y finalización de la actualización más reciente.
+El catálogo se actualiza automáticamente cuando se reciben actualizaciones a través de archivos de fuentes, API o actualizaciones de mbox. Las actualizaciones suelen completarse en una hora. Si las actualizaciones están en curso, se muestra el tiempo en que se inició la actualización más reciente. Si no hay actualizaciones en curso, se muestra el tiempo en que se inició y finalizó la actualización más reciente.
 
-## Crear una colección o exclusión basada en Búsqueda avanzada
+## Crear una colección o exclusión basada en la búsqueda avanzada
 
 You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
 
