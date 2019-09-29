@@ -1,7 +1,7 @@
 ---
-description: Utilice audiencias para segmentar contenido y experiencias diferentes para determinadas audiencias a fin de optimizar el marketing web mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado.
+description: Utilice audiencias para segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para cada tipo de persona y en el momento adecuado.
 keywords: Segmentación;audiencias;segmento de porcentaje
-seo-description: Utilice audiencias de Adobe Target para dirigir contenido y experiencias diferentes a audiencias específicas a fin de optimizar el marketing web mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado.
+seo-description: Utilice audiencias en Adobe Target para segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado.
 seo-title: Audiencias en Adobe Target
 solution: Target
 title: Audiencias
@@ -14,11 +14,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Audiencias{#audiences}
 
-Utilice audiencias para segmentar contenido y experiencias diferentes para determinadas audiencias a fin de optimizar el marketing web mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado.
+Utilice audiencias para segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para cada tipo de persona y en el momento adecuado.
 
-Una audiencia es un grupo de participantes de actividades similares que verán una actividad segmentada. Una audiencia es un grupo de personas con las mismas características, como un visitante nuevo, un visitante reincidente o visitantes que regresan desde Midwest. La función Audiencia le permite dirigir contenido y experiencias diferentes a audiencias específicas para optimizar su marketing digital mostrando los mensajes adecuados para cada tipo de persona en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará, según los criterios definidos durante la creación de la actividad.
+Una audiencia es un grupo de participantes con actividades similares a los se les mostrará una actividad segmentada.  Una audiencia es un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La funcionalidad Audiencia le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará según los criterios definidos durante la creación de la actividad.
 
-De manera predeterminada, el tráfico se divide a partes iguales entre las experiencias. Sin embargo, puede especificar  segmentos de porcentaje para cada experiencia.
+De manera predeterminada, el tráfico se divide a partes iguales entre las experiencias. Sin embargo, puede especificar segmentos de porcentaje para cada experiencia.
 
 Los objetivos también pueden basarse en reglas. Un segmento basado en reglas se basa en información recopilada sobre el visitante, como la ubicación de los visitantes, el navegador, el sistema operativo, el dispositivo móvil u otros datos.
 
@@ -28,7 +28,7 @@ Cuando un visitante llega a una página donde ha configurado una actividad, [!DN
 
 Si el visitante cumple los criterios para pertenecer a una audiencia segmentada, [!DNL Target] determina qué experiencia se mostrará según los criterios definidos cuando se creó la actividad.
 
-## Vídeo de formación: Segmentación de actividades  (2:13)
+## Vídeo de formación: Segmentación de actividades (2:13)
 
 Este vídeo incluye información sobre cómo configurar la segmentación y las audiencias.
 
