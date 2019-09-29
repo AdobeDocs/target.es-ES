@@ -1,7 +1,7 @@
 ---
-description: Cree audiencias para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (por píxeles), etc.
+description: Cree audiencias para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (en píxeles) y muchos más.
 keywords: segmentación;móvil;segmentar por móvil;deviceatlas;iPhone;modelos de iPhone;device atlas;anchuradepantalla;anchura de pantalla;altura de pantalla;tipo de dispositivo;alturadepantalla;teléfono;tablet;modelo de dispositivo
-seo-description: Cree audiencias en Adobe Target para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (por píxeles), etc.
+seo-description: Cree audiencias en Adobe Target para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (en píxeles) y muchos más.
 seo-title: Audiencia móvil en Adobe Target
 solution: Target
 title: Móvil
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Móvil{#mobile}
 
-Cree audiencias para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (por píxeles), etc.
+Cree audiencias para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (en píxeles) y muchos más.
 
 Por ejemplo, es posible que quiera mostrar contenido distinto a los usuarios cuando acceden a su página desde un teléfono con respecto a cuando acceden desde un equipo. En ese caso, puede elegir la audiencia de dispositivos móviles y seleccionar la opción **[!UICONTROL Es un teléfono móvil]. Después, puede agregar cualquier detalle específico que sea importante para usted, como el tipo de teléfono, el tamaño de la pantalla (en píxeles), etc.**
 
@@ -57,9 +57,9 @@ Los clientes que utilicen una integración personalizada (sin usar at.js o el SD
    * Anchura de la pantalla (px)
    >[!NOTE]
    >
-   >Debido a los nuevos cambios introducidos en iOS 12.2, la creación de una audiencia con reglas definidas por el nombre de marketing de dispositivo y el modelo de dispositivo que especifique modelos de iphone se ve afectada. Ya no podemos segmentar usuarios que tengan iphone con iOS 12.2 instalado en ellas. Sin embargo, si esos usuarios no tienen iOS 12.2, el targeting del modelo iphone seguirá funcionando correctamente.
+   >Debido a los nuevos cambios introducidos en iOS 12.2, la creación de una audiencia con reglas definidas por un Nombre de marketing de dispositivo y un Modelo de dispositivo que especifique modelos de iPhone se ve afectada. Ya no podemos segmentar usuarios que tengan iPhone con iOS 12.2 instalado. Sin embargo, si esos usuarios no tienen iOS 12.2, la segmentación del modelo iPhone seguirá funcionando correctamente.
    >
-   >La actualización de iOS 12.2 no afecta a la identificación de los modelos siguientes porque estos modelos no admiten la actualización a iOS 12.2: Iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5, iphone 5 c, ipad, ipad 2, ipad/Pantalla Retina, ipad Retina (4 ª generación), ipod Touch 4 y ipod Touch 5.
+   >La actualización de iOS 12.2 no afecta a la identificación de los modelos siguientes, ya que estos modelos no son compatibles con la actualización a iOS 12.2: iPhone, iPhone 3 G, iPhone 3 GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Pantalla Retina, iPad Retina (4ª generación), iPod Touch 4 y iPod Touch 5.
 
    >[!NOTE]
    >
@@ -68,9 +68,9 @@ Los clientes que utilicen una integración personalizada (sin usar at.js o el SD
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-La siguiente ilustración muestra una audiencia segmentada por visitantes que utilizan dispositivos fabricados por Google que son dispositivos móviles.
+La siguiente ilustración muestra una audiencia segmentada para visitantes que utilicen dispositivos fabricados por Google que sean dispositivos móviles.
 
-![Dispositivos móviles de Target](assets/target_mobile.png)
+![Segmentar dispositivos móviles](assets/target_mobile.png)
 
 ## Vídeo de formación: Creación de audiencias
 
