@@ -1,7 +1,7 @@
 ---
 description: Los criterios son reglas que determinan qué productos se recomiendan en función de un conjunto predeterminado de comportamientos del visitante.
-keywords: recomendaciones;actividad de recomendaciones;criterios; algoritmo
-seo-description: Los criterios de Adobe Target son reglas que determinan qué productos se recomiendan según un conjunto predeterminado de comportamientos del visitante.
+keywords: recomendaciones;actividad de recomendaciones;criterios;algoritmo
+seo-description: Los criterios de Adobe Target son reglas que determinan qué productos recomendar en función de un conjunto predeterminado de comportamientos de visitantes.
 seo-title: Criterios
 solution: Target
 title: Criterios
@@ -31,7 +31,7 @@ Puede seleccionar un sector según los objetivos de la actividad de recomendaci�
 | Generación de vanguardia/B2B/Servicios financieros | Conversión sin compra |
 | Medios/Publicación | Participación |
 
-## Clave de recomendación  {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Clave de recomendación. {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 La clave de recomendación que seleccione determina el tipo de criterio. Existen varios tipos de criterios que se representan como tarjetas de criterio cuando configura una actividad de [!DNL Recommendations].
 
@@ -44,7 +44,7 @@ La clave de recomendación que seleccione determina el tipo de criterio. Existen
 | Artículos vistos recientemente | Recomiende los artículos que un visitante ha visto más recientemente, como los artículos que vio la última vez que estuvo en el sitio o los artículos más de moda en este momento.<br>El algoritmo de artículos vistos recientemente devuelve los resultados específicos de la actividad de un visitante dentro de un [entorno](/help/administrating-target/hosts.md). Si dos sitios pertenecen a entornos diferentes y un visitante cambia entre los dos, el algoritmo devuelve solamente los artículos vistos recientemente en el sitio apropiado.<br>Este tipo de criterios no está limitado por colecciones.<ul><li>Artículos vistos recientemente</li></ul>**Nota:** No puede usar los criterios de Artículos vistos recientemente para recomendaciones de copia de seguridad.<br>Los elementos/medios vistos recientemente se pueden filtrar para que solo se muestren los elementos con un atributo en particular.<ul><li>Los criterios visualizados recientemente se pueden configurar, como otros criterios en las recomendaciones.</li><li>Puede usar [colecciones](/help/c-recommendations/c-products/collections.md), [exclusiones](/help/c-recommendations/c-products/exclusions.md) e [inclusiones](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluyendo las reglas especiales para Precio e Inventario) de la misma forma que cualquier otro criterio.</li></ul>Los posibles casos de uso incluyen:<ul><li>Una empresa multinacional con múltiples negocios podría tener elementos de visualización de visitantes en múltiples propiedades digitales. En este caso, se pueden limitar los elementos vistos recientemente para que solo se muestren en relación con la propiedad respectiva en la que se visualizaron. Esto impide que los Elementos visualizados recientemente se muestren en el sitio de otra propiedad digital.</li></ul> |
 
 
-## Criterios y algoritmos  {#section_DC4E38A00B9744959F05F8E10A0087A1}
+## Criterios y algoritmos. {#section_DC4E38A00B9744959F05F8E10A0087A1}
 
 [!DNL Target Recommendations] emplea sofisticados algoritmos que determinan si las acciones de un visitante cumplen los criterios establecidos en su actividad. La clave de recomendación determina las opciones de lógica de recomendaciones que se encuentran disponibles.
 
@@ -67,11 +67,11 @@ También puede utilizar información adicional conocida acerca de un visitante p
 
 Todos los criterios de un día se ejecutan dos veces al día. Todos los criterios de una semana y un período mayor se ejecutan una vez al día. Los criterios de afinidad del sitio se ejecutan una vez al día. Los criterios de copia de seguridad se ejecutan dos veces al día.
 
-## Información sobre los criterios de visualización  {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Información sobre los criterios de visualización. {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 Para ver los detalles de los criterios de una tarjeta emergente, pase el cursor sobre una tarjeta y haga clic en el icono Información sin necesidad de abrir los criterios.
 
-![Pasar el ratón por encima de la tarjeta de criterios](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
+![Pase el ratón por la tarjeta de criterios](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 Haga clic en la pestaña **[!UICONTROL Información del algoritmo]para ver información general sobre los criterios seleccionados, como Nombre, Descripciones, Sector, Tipos de página, Clave de recomendación, Lógica de recomendación e ID del algoritmo.**
 
@@ -81,7 +81,7 @@ Haga clic en la pestaña **[!UICONTROL Uso del algoritmo]** para ver una lista d
 
 ![Ficha Uso de criterios](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
-## Determinación de cuándo los resultados de criterios están listos para mostrarse  {#section_03F328C07F234692B6D996DF745584B3}
+## Determinación de cuándo los resultados de criterios están listos para mostrarse. {#section_03F328C07F234692B6D996DF745584B3}
 
 En el diagrama de actividad, las tarjetas de criterios ahora indican cuándo los resultados están listos para mostrarse. Saber si los resultados están listos para mostrarse ayuda a determinar si la actividad está preparada para su activación. Saber si los resultados están listos para mostrarse también ayuda a saber si hay algún problema con los criterios.
 
@@ -91,7 +91,7 @@ En el diagrama de actividad, las tarjetas de criterios ahora indican cuándo los
 
 En la siguiente ilustración se muestra el diagrama de actividad en la página Información general de una actividad de Recommendations. También puede ver el diagrama de actividad con los resultados de estado de los criterios, obtenidos en el paso 2 del flujo de trabajo de creación de la actividad.
 
-![Estado de los criterios en la página Información general](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
+![Estado de criterios en la página Información general](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 Los resultados de estado pueden ser: Resultados preparados, Resultados no preparados y Error de fuente, como se muestra en el diagrama siguiente:
 
