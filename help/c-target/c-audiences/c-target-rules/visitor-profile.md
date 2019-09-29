@@ -1,10 +1,10 @@
 ---
-description: Cree audiencias para dirigirse a visitantes que cumplan parámetros de perfil específicos.
+description: Cree audiencias para segmentar visitantes que cumplan parámetros de perfil específicos.
 keywords: perfil del visitante;segmentar el perfil del visitante;
-seo-description: Cree audiencias en Adobe Target para dirigirse a visitantes que cumplan parámetros de perfil específicos.
+seo-description: Cree audiencias en Adobe Target para segmentar visitantes que cumplan parámetros de perfil específicos.
 seo-title: Perfil del visitante
 solution: Target
-title: Crear audiencias para dirigir perfiles de visitantes mediante Adobe Target
+title: Cree audiencias para segmentar perfiles de visitantes mediante Adobe Target
 topic: Premium
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Perfil del visitante{#visitor-profile}
 
-Cree audiencias para dirigirse a visitantes que cumplan parámetros de perfil específicos.
+Cree audiencias para segmentar visitantes que cumplan parámetros de perfil específicos.
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
