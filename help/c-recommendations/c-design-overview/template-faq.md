@@ -19,15 +19,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 Lista de las preguntas más frecuentes (FAQ) sobre diseños de recomendaciones.
 
-## El precio del elemento recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?
+## El precio del artículo recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?
 
-De forma predeterminada, los valores numéricos (como `entity.value`) que se devuelven en plantillas de diseño no mostrarán ceros finales tras la coma decimal. Por ejemplo, si un elemento es de 35,00 $, `entity.value` es igual a 35 y solo se muestra 35 en la página, no 35,00 $.
+De forma predeterminada, los valores numéricos (como `entity.value`) devueltos en las plantillas de diseño no mostrarán ningún cero final después del punto decimal. Por ejemplo, si un elemento es 35,00 $, `entity.value` es igual a 35 y solo se muestra 35 $ en la página, no 35,00 $.
 
-Hay dos opciones disponibles para resolver este problema.
+Hay dos opciones disponibles para solucionar este problema.
 
-* Puede utilizar Secuencias de comandos de Velocity o Javascript para aplicar formato al valor devuelto.
+* Puede utilizar secuencias de comandos Velocity o JavaScript para aplicar formato al valor devuelto.
 
-* Puede pasar el precio del elemento en dos atributos de entidad independientes. La primera, `entity.value`se puede utilizar para comparaciones numéricas (como reglas de comparación de precios). La segunda debe ser un atributo personalizado, como `entity.displayValue` almacenar el valor de la entidad como una cadena para permitir un procesamiento adecuado.
+* Puede pasar el precio del artículo en dos atributos de entidad independientes. El primero, `entity.value`, se puede utilizar para comparaciones numéricas (como reglas de comparación de precios). El segundo debe ser un atributo personalizado, como `entity.displayValue` que almacene el valor de la entidad como una cadena para permitir una representación adecuada.
 
    Por ejemplo,
 
