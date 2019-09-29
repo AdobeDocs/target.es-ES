@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Las experiencias determinan el contenido que se mostrará cuando el visitante cumpla los criterios de audiencia de una actividad.
 
-Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, combinación de estos elementos en una página, una página Web completa o un conjunto de páginas que quizás forman un canal de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un ayudante de voz, una secuencia de comandos de servicio al cliente o incluso un sabor personalizado desde un equipo de bebidas. You test or personalize experiences in [!DNL Target] activities.
+Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un canal de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un ayudante de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
 
 Una actividad generalmente contiene más de una experiencia. Por ejemplo, los visitantes del área de Salt Lake City podrían ver una oferta para un descuento de 30 dólares en botas de ski, mientras que los visitantes de San Diego ven una oferta para un descuento en trajes de agua. O bien, podría probar una página con diferentes ofertas especiales para los visitantes que regresan. Cada una de estas ofertas se presenta en una experiencia separada.
 
