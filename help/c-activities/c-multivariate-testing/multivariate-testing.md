@@ -1,7 +1,7 @@
 ---
 description: La prueba multivariable (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 keywords: prueba multivariable;mvt;factorial completa;mvt o a/b;a/b multivariable;estimador de tráfico;cuándo usar mvt;consideraciones de mvt;multivariable
-seo-description: La prueba multivariable (MVT) en Adobe Target compara combinaciones de ofertas en elementos de una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica e identifica qué elemento tiene mayor impacto en el éxito de la actividad.
+seo-description: La prueba multivariada (MVT) en Adobe Target compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 seo-title: Prueba multivariable
 solution: Target
 title: Prueba multivariable
@@ -15,9 +15,9 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 # Prueba multivariable{#multivariate-test}
 
-[!UICONTROL La prueba] multivariable (MVT) en [!DNL Adobe Target] compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica e identifica qué elemento tiene mayor impacto en el éxito de la actividad.
+La [!UICONTROL prueba multivariada] (MVT) en [!DNL Adobe Target] compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 
-## Información general de MVT  {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## Información general de MVT. {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 Las pruebas multivariable sirven para descubrir la influencia relativa que cada elemento tiene en la conversión en comparación con otros elementos de la página. También sirven para acotar una combinación de elementos que han demostrado ser eficaces.
 
@@ -53,15 +53,15 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
 
 * Utilice una prueba A/B para optimizar el diseño de la página, seguida de una prueba MVT para determinar cuál es el mejor contenido en cada elemento de la página..
 
-   Una prueba A/B puede proporcionar información importante sobre el diseño, mientras que una prueba MVT es excelente para probar contenido dentro de los elementos del diseño de la página. Si ejecuta una prueba A/B en el diseño antes de probar varias opciones de contenido, podrá determinar cuál es el mejor diseño y el contenido que más impacto tiene.
+   Una prueba A/B puede proporcionar información importante sobre el diseño, mientras que una prueba MVT es excelente para probar contenido dentro de los elementos del diseño de la página. Si ejecuta una prueba A/B sobre el diseño antes de probar varias opciones de contenido, podrá determinar cuál es el mejor diseño y qué contenido logra un mayor impacto.
 
 * Utilice una prueba MVT para determinar qué elemento es el más importante y, después, realice una prueba A/B que se centre en ese elemento.
 
-   Cuando el número de experiencias diferentes supera cinco y abarcan dos o más elementos, es aconsejable realizar una prueba MVT antes de ejecutar las pruebas A/B. La prueba MVT muestra qué áreas de la página tienen más posibilidades de mejorar la conversión. Estos son los elementos en los que debería centrarse un especialista en marketing. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es el elemento más importante para lograr sus objetivos. Una vez que haya determinado qué elementos y contenido son los más útiles para ayudarle a lograr sus objetivos, puede ejecutar una prueba A/B para restringir aún más los resultados, como probar dos imágenes específicas entre sí, o comparar las palabras o los colores de una llamada a la acción. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
+   Cuando el número de experiencias diferentes es mayor de cinco y abarca dos o más elementos, es aconsejable realizar una prueba MVT antes de ejecutar sus pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estos son los elementos en los que debería centrarse un especialista en marketing. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es el elemento más importante para lograr sus objetivos. Una vez que haya determinado qué elementos y contenido son los más útiles para ayudarle a lograr sus objetivos, puede ejecutar una prueba A/B para restringir aún más los resultados, como probar dos imágenes específicas entre sí, o comparar las palabras o los colores de una llamada a la acción. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
 
 ## Consideraciones {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
-* Utilice una prueba MVT cuando tenga al menos tres elementos que probar. Si tiene menos, ejecute una serie de  pruebas A/B.
+* Utilice una prueba MVT cuando tenga al menos tres elementos que probar. Si tiene menos, ejecute una serie de pruebas A/B.
 * Seleccione los elementos de página que crea que tendrán un impacto más significativo en los resultados.
 * No incluya demasiados elementos o ubicaciones en una prueba. Cuanto mayor sea el número, más tiempo durará la prueba.
 * Planifique el diseño de la prueba con antelación. No se recomienda modificar una prueba después de haberla activado y cuando los datos ya han empezado a recopilarse y analizarse.
@@ -70,7 +70,7 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
    Por ejemplo, no realice una prueba del diseño y del contenido a la vez.
 * Planifique más tiempo para el control de calidad debido al aumento del número de experiencias.
 
-   [!DNL Target] ofrece pruebas multivariable totalmente factoriales como opción de actividad integrada. En estadística, Diseño de experimentos ofrece muchos enfoques, o diseños, para determinar qué factores influyen en los resultados. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Taguchi permite a los expertos en marketing realizar una serie de suposiciones que limitan el número de permutaciones de experiencias que se deben probar, lo que a su vez reduce los requisitos de tráfico para una prueba multivariable. This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+   [!DNL Target] ofrece pruebas multivariable totalmente factoriales como opción de actividad integrada. En estadística, Diseño de experimentos ofrece muchos enfoques, o diseños, para determinar qué factores influyen en los resultados. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Taguchi permite a los expertos en marketing realizar una serie de suposiciones que limitan el número de permutaciones de experiencias que se deben probar, lo que a su vez reduce los requisitos de tráfico para una prueba multivariable. Esta funcionalidad y enfoque de prueba puede aprovecharse en [!DNL Target] con esta [hoja de cálculo sin conexión](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    Si su equipo utiliza otros enfoques de Diseño de experimentos, puede utilizar esta hoja de cálculo como implementación de referencia para diseños de experimentos personalizados.
 
@@ -79,7 +79,7 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
    * Escoja los elementos que desea cambiar y el número de versiones de cada elemento (3x2, 4x3, etcétera).
    * Sea coherente en la numeración. Por ejemplo, si el botón es el Elemento 1 y las opciones son Azul, Verde y Amarillo, el botón azul es 1-1, el verde es 1-2 y el amarillo es 1-3.
    * La hoja de cálculo sin conexión ofrece el número apropiado de experiencias (cuatro para 3x2, nueve para 4x3, etcétera).
-   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). Puede utilizar código personalizado, editar HTML, WYSIWYG o cualquier combinación.
+   * Cree las experiencias en el flujo de trabajo A/B con el [Compositor de experiencias visuales (VEC)](/help/c-experiences/experiences.md). Puede utilizar código personalizado, editar HTML, WYSIWYG o cualquier combinación.
    * Una vez terminada la actividad (en función del calculador de tamaño de muestra), ejecute los resultados en la hoja de cálculo para obtener los demás detalles.
 
 Para obtener más consideraciones y prácticas recomendadas, consulte [Prácticas recomendadas de pruebas multivariable](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
