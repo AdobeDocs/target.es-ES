@@ -1,7 +1,7 @@
 ---
 description: El Compositor de experiencias visuales proporciona una interfaz visual para editar las experiencias en la página.
 keywords: Segmentación;experiencia;añadir experiencia;adición de experiencia
-seo-description: El Compositor de experiencias visuales (VEC) de Adobe Target proporciona una interfaz visual para editar las experiencias en su página.
+seo-description: El Compositor de experiencias visuales (VEC) de Adobe Target proporciona una interfaz visual para editar las experiencias en la página.
 seo-title: Añadir experiencia
 solution: Target
 title: Añadir experiencia
@@ -14,13 +14,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Añadir experiencia{#add-experience}
 
-El Compositor de experiencias visuales (VEC) proporciona una interfaz visual para agregar y editar las experiencias en la página.
+El Compositor de experiencias visuales (VEC) proporciona una interfaz visual para añadir y editar las experiencias en la página.
 
 Para obtener más información sobre las experiencias, consulte [Experiencias](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 1. Haga clic en **[!UICONTROL Agregar experiencia]**.
 
-   ![Opción Agregar experiencia](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
+   ![Opción Añadir experiencia](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
    >[!NOTE]
    >
@@ -39,11 +39,11 @@ Para obtener más información sobre las experiencias, consulte [Experiencias](.
    >
    >Si entrega una imagen desde un origen distinto a la página principal (por ejemplo, una imagen alojada en akamai.net y entregada en dell.com), dicha imagen no se mostrará en la miniatura de la página mostrada en el diagrama de flujo.
 
-1. Click **[!UICONTROL Save]** when you are finished designing the experience.
+1. Haga clic en **[!UICONTROL Guardar]** cuando termine de diseñar la experiencia.
 
 ## Cambiar el nombre de la experiencia
 
-Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
+Haga clic en el icono [!UICONTROL Cambiar el nombre de la experiencia] en una prueba A/B o de Segmentación de experiencias (XT) para modificar el nombre de la experiencia.
 
 ![Cambiar el nombre de la experiencia](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,11 +62,11 @@ Tenga en cuenta que cuando nombra o renombra una experiencia, no se permiten los
 
 ## Redirigir a URL
 
-Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
+Haga clic en el icono Más (tres puntos verticales) de una experiencia en una prueba A/B o Segmentación de experiencias (XT) y, a continuación, haga clic en [!UICONTROL Redireccionar a URL].
 
-For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+Para obtener más información, consulte [Redireccionamiento a URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
-**NOTA**: Al asignar un nombre a una experiencia o cambiarle el nombre, no se permiten los siguientes caracteres:
+**NOTA**: Cuando nombra o cambia el nombre de una experiencia, no se permiten los siguientes caracteres:
 
 | Carácter | Descripción |
 |--- |--- |
@@ -91,7 +91,7 @@ En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo
 
 En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales &gt; **[!UICONTROL Duplicar]**.
 
-![Eliminar experiencia, opción](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
+![Opción Eliminar experiencia](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
 ## Vídeo de formación: Uso del Compositor de experiencias visuales
 
