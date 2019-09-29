@@ -127,7 +127,7 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 ## Aplicaciones móviles
 
 * [Compositor de experiencias visuales para aplicaciones móviles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
-* [Target para preguntas más frecuentes sobre aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Creación de informes
 
