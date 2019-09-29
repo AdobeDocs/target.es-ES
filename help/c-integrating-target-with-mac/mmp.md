@@ -17,4 +17,4 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 Audiencias de Experience Cloud permite que las soluciones de Adobe Experience Cloud puedan comunicarse entre sí y compartir información sobre los visitantes de un sitio web para que todas las soluciones puedan usar los mismos datos.
 
-Para obtener información detallada, consulte [Audiencias](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) en la Guía *del usuario de servicios* principales.
+For detailed information, see [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) in the *Core Services User Guide*.
