@@ -343,7 +343,7 @@ Páginas generales, como páginas principales o de aterrizaje y anuncios externo
 
 >[!NOTE]
 >
->Artículos vistos recientemente. respeta tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento está excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; por lo tanto, cuando se utiliza un criterio de Artículos vistos recientemente, generalmente se debe utilizar la configuración "Todas las colecciones".
+>Los elementos vistos recientemente respetan tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento está excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; por lo tanto, cuando se utiliza un criterio de Artículos vistos recientemente, generalmente se debe utilizar la configuración "Todas las colecciones".
 
 ## Reglas de inclusión {#task_28DB20F968B1451481D8E51BAF947079}
 
