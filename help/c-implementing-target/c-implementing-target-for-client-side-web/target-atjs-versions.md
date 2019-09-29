@@ -31,13 +31,13 @@ Esta versión de at.js es una versión de mantenimiento que incluye las siguient
 * Se ha corregido un problema que provocaba `triggerView()` que las ofertas no se procesaran más de una vez. (TNT-32780)
 * Se ha corregido un problema con `triggerView()` el que se aseguraba de que la solicitud contiene información de Marketing Cloud ID (MCID). (TNT-32776)
 * Se ha corregido un problema que impedía que la notificación se activara aunque no hubiera vistas guardadas. `triggerView()` (TNT-32614)
-* Se ha corregido un problema que provocaba un error debido al uso de decodeURIcomponent que generaba problemas cuando la dirección URL contenía un parámetro de cadena de consulta mal formado. (TNT-32710)
+* Fixed an issue that caused an error due to the use of decodeURIcomponent that caused issues when the URL contains a malformed query string parameter. (TNT-32710)
 * El indicador de señalización ahora se establece en "true" en el contexto de las solicitudes de entrega enviadas mediante la `Navigator.sendBeacon()` API. (TNT-32683)
 * Se ha corregido un problema que impedía que las ofertas de Recomendaciones se mostraran en sitios web para algunos clientes. Los clientes podían ver el contenido de la oferta en la llamada de API de envío, pero la oferta no se aplicaba en el sitio web. (TNT-32680)
 * Se ha corregido un problema que provocaba que el rastreo de clics en varias experiencias no funcionara según lo esperado. (TNT-32644)
 * Se ha corregido un problema que impedía que at.js aplicara la segunda métrica después de que fallara el procesamiento de la primera métrica. (TNT-32628)
 * Se corrigió un problema al pasar `mboxThirdPartyId` usando la `targetPageParams` función que ocasionaba que la carga útil de la solicitud no estuviera presente ni en los parámetros de consulta ni en la carga útil de la solicitud. (TNT-32613)
-* Se ha corregido un problema que provocaba que las respuestas de notificación de visualización y clic se bloquearan en los exploradores basados en Chrome (incluido Google Chrome). (TNT-32290)
+* Fixed an issue that caused display and click notification responses to be blocked in Chromium-based browsers (including Google Chrome). (TNT-32290)
 
 ## Versión 2.1.0 de at. js (3 de junio de 2019)
 
