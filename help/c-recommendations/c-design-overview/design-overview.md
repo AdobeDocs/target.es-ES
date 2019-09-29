@@ -91,7 +91,7 @@ En el siguiente ejemplo se muestra cómo se pueden devolver respuestas JSON al c
 | Parámetro | Valor |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Código de cliente de Target (disponible en ../target/products.html#recsSettings &gt; Token de API de Recommendations &gt; Código de cliente). |
-| `[YOUR_MBOX_NAME]` | Nombre seleccionado en la sección "ubicaciones" de Recomendaciones basadas en formularios, en este caso Sample_Recs_Response. |
+| `[YOUR_MBOX_NAME]` | The name you've selected in the "locations" section of the form-based Recommendations, in this case Sample_Recs_Response. |
 | `[ENTITY_ID`] | El `entity.id` de un artículo del catálogo. |
 | `[AT_PROPERTY_TOKEN]` | (Opcional) Añada este parámetro si ha seleccionado una Propiedad (parte de los permisos de empresa) durante la configuración de la actividad. |
 
