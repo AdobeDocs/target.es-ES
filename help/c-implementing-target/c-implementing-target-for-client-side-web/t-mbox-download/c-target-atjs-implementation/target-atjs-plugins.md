@@ -1,8 +1,8 @@
 ---
-description: Información sobre los complementos compatibles y no compatibles de at. js en Target.
-keywords: complementos de at. js; complementos admitidos; complementos no admitidos; Ttmeta; ttmeta; Mboxtrack
-seo-description: Información sobre los complementos compatibles y no compatibles de at. js para Adobe Target.
-seo-title: Complementos de at. js para Adobe Target
+description: Información sobre los complementos at.js admitidos y no admitidos en Target.
+keywords: complementos de at.js;complementos admitidos;complementos no admitidos;ttMeta;ttmeta;mboxTrack
+seo-description: Información sobre los complementos at.js admitidos y no admitidos para Adobe Target.
+seo-title: Complementos de at.js para Adobe Target
 solution: Target
 title: Complementos de at.js
 topic: Standard
@@ -15,7 +15,7 @@ source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 # at.js plug-ins{#at-js-plug-ins}
 
-Información sobre los complementos compatibles y no compatibles de at. js en Adobe Target.
+Información sobre los complementos at.js admitidos y no admitidos en Adobe Target.
 
 Muchas personas han compilado complementos personalizados y complementos de respuesta para [!DNL mbox.js]. Puede que [!DNL at.js] no admita estos complementos personalizados sin que se actualicen.
 
