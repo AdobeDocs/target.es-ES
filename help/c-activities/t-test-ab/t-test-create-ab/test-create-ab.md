@@ -23,29 +23,29 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
 
    >[!NOTE]
    >
-   >Nota: los tipos de actividades disponibles dependen de su cuenta de [!DNL Target]. Algunos tipos de actividades podrían no aparecer en su lista. For example, [!UICONTROL Recommendations] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >Nota: los tipos de actividades disponibles dependen de su cuenta de [!DNL Target]. Algunos tipos de actividades podrían no aparecer en su lista. Por ejemplo, [!UICONTROL Recommendations] es una funcionalidad de [Target Premium](/help/c-intro/intro.md#premium).
    >
-   >For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) and the [Target activities guide](/help/c-activities/target-activities-guide.md).
+   >Para obtener información sobre los distintos tipos de actividades, consulte [Actividades](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) y la [Guía de actividades de Target](/help/c-activities/target-activities-guide.md).
 
-   ![Crear una prueba de prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
+   ![Crear una actividad de prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. Seleccione **[!UICONTROL Visual (Predeterminado)]**, si es necesario.
 
-   Si prefiere usar el Compositor de experiencias basadas en formularios, seleccione [!UICONTROL Formulario]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   Si prefiere usar el Compositor de experiencias basadas en formularios, seleccione [!UICONTROL Formulario]. Consulte [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md) para obtener más información.
 
    >[!NOTE]
    >
-   >Además del Compositor de experiencias visuales y el Compositor de experiencias basadas en formularios, Target ofrece el VEC de aplicación de una sola página y el VEC para aplicaciones móviles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Además del VEC y del Compositor de experiencias basadas en formularios, Target ofrece el VEC de aplicación de una sola página y el VEC para aplicaciones móviles. Para obtener más información sobre los distintos compositores, consulte [Experiencias y ofertas](/help/c-experiences/experiences.md).
    >
    >Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
    >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Su organización tiene una licencia de Target Standard si no ve esta opción.]
 
-1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condicional) Si es [cliente de Target Premium](/help/c-intro/intro.md#premium), elija un [espacio de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Specify your [activity URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
+1. Especifique la [URL de la actividad](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) y haga clic en **[!UICONTROL Siguiente]**.
 
-   Si la cuenta se configura con una dirección URL predeterminada, esa dirección URL aparece de manera predeterminada. Puede cambiar la dirección URL predeterminada con otra dirección.
+   Si la cuenta se configura con una dirección URL predeterminada esa dirección URL aparece de manera predeterminada. Puede cambiar la dirección URL predeterminada con otra dirección.
 
    Se abre el [!UICONTROL Compositor de experiencias visuales] con la página especificada en la dirección URL.
 
@@ -72,9 +72,9 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
 
    El [!UICONTROL Compositor de experiencias visuales] muestra dos fichas en la parte izquierda después de crear una actividad nueva: Experiencia A, que es la de control, y Experiencia B. Nos vamos a centrar en la ficha Experiencia B, que podemos modificar si es necesario. Experiencia B es la experiencia alternativa que se puede añadir a la prueba. Se pueden añadir varias experiencias a la prueba. También podemos eliminar Experiencia A de la actividad si no queremos incluir una experiencia de sitio predeterminada como opción.
 
-   Si desea más información sobre cómo añadir y modificar experiencias en el [!UICONTROL Compositor de experiencias visuales], consulte  [Añadir experiencia](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Para modificar Experiencia B, empiece con el paso 3.
+   Si desea más información sobre cómo añadir y modificar experiencias en el [!UICONTROL Compositor de experiencias visuales], consulte [Añadir experiencia](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Para modificar Experiencia B, empiece con el paso 3.
 
-1. Click **[!UICONTROL Targeting]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
+1. Haga clic en **[!UICONTROL Segmentación]**, en la parte superior del [!UICONTROL Compositor de experiencias visuales], para ir al paso siguiente en el flujo de trabajo guiado de tres pasos.
 
    Se abrirá el diagrama de flujo.
 
@@ -97,18 +97,18 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
 
    Elija el método de asignación de tráfico que desee:
 
-   * **[!UICONTROL Manual (predeterminado)]**: Especifique el porcentaje de participantes que desea ver cada experiencia. Puede dividir los porcentajes de manera uniforme entre todas las experiencias, o especificar porcentajes superiores o inferiores para cada experiencia. El total de todas las experiencias debe ser igual al 100%.
+   * **[!UICONTROL Manual (predeterminado)]**: Especifique el porcentaje de visitantes que quiere que vean cada experiencia. Puede dividir los porcentajes de manera uniforme entre todas las experiencias, o especificar porcentajes superiores o inferiores para cada experiencia. El total de todas las experiencias debe ser igual al 100%.
 
-   * **[!UICONTROL Asignar automáticamente a la mejor experiencia]**: La mayoría de los participantes de la actividad se dirigen automáticamente a experiencias de mayor rendimiento. Algunos visitantes se asignan a todas las experiencias para mantener la exploración de las experiencias y para detectar cambios en las tendencias de rendimiento. Consulte [Asignación automática del tráfico](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   * **[!UICONTROL Asignar automáticamente a la mejor experiencia]**: La mayoría de los visitantes de la actividad se dirigen automáticamente a experiencias de mejor rendimiento. Algunos visitantes se asignan a todas las experiencias para mantener la exploración de las experiencias y para detectar cambios en las tendencias de rendimiento. Consulte [Asignación automática del tráfico](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-   * **[!UICONTROL Segmentación automática para experiencias personalizadas]**: Target usa algoritmos avanzados de aprendizaje automático para dirigirse automáticamente a los visitantes con la mejor experiencia a fin de maximizar sus objetivos. Para obtener más información, consulte [Segmentación automática para optimizar](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+   * **[!UICONTROL Asignación automática para experiencias personalizadas]**: Target utilizará algoritmos avanzados de aprendizaje automático para ofrecer automáticamente la mejor experiencia a los visitantes objetivo y, de ese modo, maximizar sus objetivos. Para obtener más información, consulte [Segmentación automática para optimizar](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
    También puede hacer clic en **[!UICONTROL Agregar experiencia]para agregar otra experiencia a la actividad.**
 
 1. Cuando esté satisfecho con las elecciones de audiencias y experiencias, haga clic en **[!UICONTROL Siguiente]** para ir al tercer paso del flujo de trabajo guiado de tres pasos.
 
 1. Especifique los [objetivos y la configuración](../../../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) para la actividad.
 
-   ![Configuración de actividad A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+   ![Configuración de actividades A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
