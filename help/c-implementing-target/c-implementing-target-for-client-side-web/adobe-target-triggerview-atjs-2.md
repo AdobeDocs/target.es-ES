@@ -1,6 +1,6 @@
 ---
 description: 'Información sobre la función adobe.target.triggerView (viewName, options) para at.js. '
-keywords: adobe. target. triggerview; Triggerview; triggerview; activar vista; at. js; funciones; function; Viewname; viewname; view name
+keywords: adobe.target.activateView;desencadenadorView;desencadenadorVer;vista;desencadenador;at.js;funciones;función;nombreVista;nombreVista;nombreVista
 seo-description: Información sobre la función adobe.target.triggerView (viewName, options) para la biblioteca JavaScript at.js de Adobe Target.
 seo-title: Información sobre la función adobe.target.triggerView (viewName, options) para la biblioteca JavaScript at.js de Adobe Target.
 solution: Target
@@ -29,7 +29,7 @@ Se puede llamar a esta función cada vez que se carga una página nueva o cuando
 
 ## Ejemplo: True
 
-`triggerView()` para enviar una notificación al back-backend de Target para aumentar las impresiones de actividad y otras métricas.
+Llamada de `triggerView()` para enviar una notificación al backend de Target para aumentar las impresiones de actividad y otras métricas.
 
 ```
 adobe.target.triggerView("homeView")
@@ -37,7 +37,7 @@ adobe.target.triggerView("homeView")
 
 ## Ejemplo: False
 
-`triggerView()` para no tener notificaciones enviadas al back-backend de Target para la contabilización de impresión.
+Llamada de `triggerView()` para no tener notificaciones enviadas al backend de Target para el recuento de impresiones.
 
 ```
 adobe.target.triggerView("homeView", {page: false})
