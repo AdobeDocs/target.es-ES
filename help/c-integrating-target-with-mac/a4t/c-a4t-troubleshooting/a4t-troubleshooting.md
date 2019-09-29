@@ -24,7 +24,7 @@ Esto puede deberse a varios motivos:
 
 * La clasificación no se ha procesado del todo en [!DNL Target].
 
-   La clasificación suele tardar entre 24 y 72 horas para clasificar los informes después del primer almacenamiento.
+   La clasificación generalmente tarda entre 24 y 72 horas en clasificar los informes después de la primera vez que se guarda.
 
 * El grupo de informes no contiene datos, pero [!DNL Target] ha intentado clasificar las visitas. [!DNL Target] no puede clasificar los datos hasta que no se efectúa la primera visita.
 
@@ -36,7 +36,7 @@ Esto puede deberse a varios motivos:
 
 >[!NOTE]
 >
->En ocasiones, los datos se muestran correctamente en los informes, pero luego vuelven a aparecer como “sin especificar” porque se ha añadido una actividad nueva que no ha completado la clasificación. Recuerde que generalmente tarda entre 24 y 72 horas en clasificar los informes después del primer guardado.
+>En ocasiones, los datos se muestran correctamente en los informes, pero luego vuelven a aparecer como “sin especificar” porque se ha añadido una actividad nueva que no ha completado la clasificación. Recuerde que generalmente se tarda entre 24 y 72 horas en clasificar los informes después de la primera vez que se guarda.
 >
 >No se pierde ningún dato cuando aparece como “sin especificar”. Los datos se asignan correctamente a la actividad o experiencia apropiadas cuando se efectúa la clasificación.
 
