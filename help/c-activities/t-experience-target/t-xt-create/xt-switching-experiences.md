@@ -13,7 +13,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# Switching experiences in Experience Targeting{#switching-experiences-in-experience-targeting}
+# Cambiar experiencias en segmentación de experiencias{#switching-experiences-in-experience-targeting}
 
 Información sobre cómo los visitantes pueden cambiar entre experiencias en una actividad de Segmentación de experiencias (XT) conforme evolucionan sus perfiles.
 
@@ -21,9 +21,9 @@ Información sobre cómo los visitantes pueden cambiar entre experiencias en una
 >
 >**21 de septiembre de 2017**
 >
->Con la versión del 21 de septiembre de 2017, Target cambió la forma en que los usuarios se colocan en experiencias en actividades de segmentación de experiencias (XT) (campañas de página de aterrizaje en Target Classic). Para todas las actividades nuevas y existentes, los usuarios deben cumplir las reglas de segmentación de experiencias en cada impresión para continuar viendo el contenido de la experiencia y ser contabilizados en los informes. Anteriormente, aunque un usuario dejara de cumplir los requisitos de cualquier experiencia, seguía viendo el contenido de la última experiencia para la que estuvo cualificado y se lo contabilizaba en sus informes.
+>Con la versión del 21 de septiembre de 2017, Target cambió el modo en que se coloca a los usuarios en experiencias en las actividades de segmentación de experiencias (XT; pruebas de página de aterrizaje en Target Classic). Para todas las actividades nuevas y existentes, los usuarios deben satisfacer las reglas de segmentación de experiencias en todos los aspectos para seguir viendo el contenido de la experiencia y ser contabilizados en los informes. Anteriormente, aunque un usuario dejara de cumplir los requisitos de cualquier experiencia, seguía viendo el contenido de la última experiencia para la que estuvo cualificado y se lo contabilizaba en sus informes.
 >
->Este cambio se producía automáticamente como parte del lanzamiento de todas las actividades existentes y de cualquier actividad creada posteriormente. Si prefiere el método antiguo (el anterior al 21 de septiembre), puede crear audiencias empleando scripts de perfil, de modo que el usuario solo deba satisfacer una vez una condición para poder seguir perteneciendo a esa audiencia en el futuro. A continuación, utilice esas audiencias para cada experiencia de la actividad.
+>Este cambio se produjo automáticamente como parte de la versión para todas las actividades existentes y para cualquier actividad creada posteriormente. Si prefiere el método antiguo (el anterior al 21 de septiembre), puede crear audiencias empleando scripts de perfil, de modo que el usuario solo deba satisfacer una vez una condición para poder seguir perteneciendo a esa audiencia en el futuro. A continuación, utilice esas audiencias para cada experiencia de la actividad.
 
 Con la Segmentación de experiencias, puede controlar la experiencia que ve cada visitante conforme evoluciona su perfil. La siguiente lista muestra solo algunas situaciones en las que los perfiles de los visitantes pueden evolucionar y es posible que quiera presentar contenido diferente:
 
@@ -39,38 +39,38 @@ Para aprovechar estas capacidades en [!DNL Target], es importante entender la si
 * **La prioridad la controla el orden de las experiencias, de arriba abajo.** Si un visitante cumple los requisitos de más de dos audiencias, recibe el contenido de la experiencia con mayor prioridad.
 * **Los visitantes cambiarán de experiencia en una actividad XT si empiezan a cumplir los requisitos de audiencia para obtener una experiencia de prioridad superior.**
 
-   Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Alemania, desde donde visitó de nuevo su página web. Durante la primera visita, este visitante cumplió los requisitos para la Experiencia A (visitantes de EE. UU.). Después de ver su sitio web desde Alemania, este visitante cambió a la Experiencia B (visitantes de Alemania).
+   Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Alemania, desde donde visitó de nuevo su página web. En la primera visita, el visitante cumplía los requisitos para la Experiencia A (visitantes estadounidenses). Tras ver su sitio web desde Alemania, este visitante cambia a la Experiencia B (visitantes alemanes).
 
    ![Prioridad de EE. UU. &gt; Alemania](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **También cambiarán de experiencia si dejan de cumplir los requisitos de su audiencia actual, pero cumplen los de una experiencia de prioridad inferior.**
 * **Si los visitantes dejan de cumplir los requisitos para su experiencia actual y no cumplen los de ninguna otra, verán el contenido predeterminado.**
 
-   Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Francia, desde donde visitó de nuevo su página web. Durante la primera visita, este visitante cumplió los requisitos para la Experiencia A (visitantes de EE. UU.). Tras ver su sitio web desde Francia, este visitante permanecerá en la experiencia original.
+   Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Francia, desde donde visitó de nuevo su página web. En la primera visita, el visitante cumplía los requisitos para la Experiencia A (visitantes estadounidenses). Tras ver su sitio web desde Francia, este visitante permanecerá en la experiencia original.
 
    ![Prioridad de EE. UU. &gt; Alemania](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **Se puede utilizar una experiencia segmentada a “Todos los visitantes” como la última experiencia de la actividad de segmentación de experiencias para “captar” a los visitantes que no han participado de otras experiencias. Si una experiencia segmentada a “Todos los visitantes” no es la última del pedido, se evaluarán otras experiencias segmentadas que aparezcan por debajo de esta experiencia.**
 
-   Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Alemania, desde donde visitó de nuevo su página web. Durante la primera visita, este visitante cumplió los requisitos para la Experiencia A (visitantes de EE. UU.). Después de ver su sitio web desde Alemania, este visitante permanecerá en la Experiencia A (visitantes de EE. UU.).
+   Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Alemania, desde donde visitó de nuevo su página web. En la primera visita, el visitante cumplía los requisitos para la Experiencia A (visitantes estadounidenses). Tras ver su sitio web desde Alemania, este visitante permanecerá en la Experiencia A (visitantes estadounidenses).
 
    ![Prioridad de EE. UU. &gt; Todos los visitantes](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
    Si no desea que ocurra esto, puede crear una audiencia nueva que esté definida de forma explícita como audiencia contraria a la de destino, como se muestra en el siguiente ejemplo:
 
-   ![Prioridad estadounidense &gt; No EE. UU.](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
+   ![Prioridad de EE. UU. &gt; No EE. UU.](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
 * **Con una actividad de XT de una sola experiencia, los visitantes permanecerán en una experiencia aunque dejen de cumplir los requisitos para la audiencia que les asigne dicha experiencia.**
 
-   Si no desea que ocurra esto, podría crear otra experiencia dirigida a la audiencia contraria (por ejemplo, “No Estados Unidos” en oposición a “Estados Unidos”). 
+   Si no desea que ocurra esto, podría crear otra experiencia dirigida a la audiencia contraria (por ejemplo, “No Estados Unidos” en oposición a “Estados Unidos”)..
 
    También tiene la opción de crear una actividad A/B dirigida a su audiencia deseada con una asignación del tráfico del 100 %, como se muestra a continuación:
 
-   ![Prioridad una experiencia](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-new.png)
+   ![Experiencia de prioridad 1](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-new.png)
 
 * **La prioridad de las experiencias la define su orden (de arriba a abajo) al mostrarse en la interfaz de usuario de Target.**
 
    Es importante tener esto en cuenta cuando es posible que un visitante cumpla los requisitos de más de una de sus audiencias. Por ejemplo, si tiene dos experiencias, una dirigida a “Estados Unidos” y otra a “Nueva York”, un visitante en Nueva York cumpliría los requisitos para ambas audiencias. Por lo tanto, debe asegurarse de que la experiencia “Nueva York” se define antes que “Estados Unidos” en la interfaz de usuario de Target. De este modo se asegura de que la experiencia más dirigida, “Nueva York”, tenga mayor prioridad, como se muestra en el siguiente ejemplo:
 
-   ![Prioridad NY &gt; EE. UU.](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
+   ![Prioridad NY &gt; EE. UU.](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
 
