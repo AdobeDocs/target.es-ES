@@ -32,11 +32,11 @@ También puede configurar un informe de actividad a su gusto y después guardar 
 1. Configure el informe de actividad a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etc.).
 1. Junto a **[!UICONTROL Ajuste preestablecido de Target]**, haga clic en el icono de tres elipses verticales &gt; **[!UICONTROL Guardar como Nuevo]**.
 
-   ![Ajuste preestablecido de informe](/help/c-reports/c-report-settings/assets/report_preset-new.png)
+   ![Ajustes preestablecidos de informes](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    Se muestra el cuadro de diálogo Nuevo ajuste preestablecido:
 
-   ![Nuevo cuadro de diálogo Ajuste preestablecido](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
+   ![Cuadro de diálogo Nuevos ajustes preestablecidos](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Revise la información de las secciones Filtros y Configuración para asegurarse de que el informe esté configurado como desea y, a continuación, especifique el **[!UICONTROL Nombre del ajuste preestablecido]** (hasta 50 caracteres).
 1. (Condicional) Si desea que esta sea su vista de informe predeterminada/favorito, active la opción **[!UICONTROL Establecer como ajuste predeterminado].**
@@ -46,7 +46,7 @@ También puede configurar un informe de actividad a su gusto y después guardar 
 
 Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONTROL Ajuste preestablecido de Target].**
 
-![Lista desplegable Preestablecida](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
+![Lista desplegable de Ajustes preestablecidos](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **Editar un ajuste preestablecido**
 
@@ -55,7 +55,7 @@ Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONT
 
    Una vez que hace clic en [!UICONTROL Guardar] después de editar la configuración del informe, aparece un asterisco (*) detrás del nombre del ajuste preestablecido para indicar que ha sido modificado, como se muestra a continuación:
 
-   ![Ajuste preestablecido de informe con asterisco](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
+   ![Informe de Ajustes preestablecidos con asterisco](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. Haga clic en el icono de tres elipses verticales &gt; **[!UICONTROL Guardar como Nuevo]para crear un ajuste preestablecido nuevo.**
 
@@ -63,7 +63,7 @@ Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONT
 
    Haga clic en el icono de tres elipses verticales &gt; **[!UICONTROL Actualizar]para actualizar el ajuste preestablecido actual.**
 
-   ![Actualización predeterminada del informe](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
+   ![Actualización del informe predeterminado](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Eliminar un ajuste preestablecido**
 
@@ -92,7 +92,7 @@ Haga clic en la lista desplegable **[!UICONTROL Métrica de informes]** para sel
 
 De manera predeterminada, la métrica principal se determina al configurar las métricas de éxito al crear la actividad. Si cambia la configuración y vuelve a guardar la actividad, se actualizará la métrica principal para informes.
 
-Para obtener más información acerca de la selección de varias métricas que se deben visualizar en los informes, consulte  [Visualización de varias métricas en un informe](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Para obtener más información acerca de la selección de varias métricas que se deben visualizar en los informes, consulte [Visualización de varias métricas en un informe](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Audiencia {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -150,11 +150,11 @@ Haga clic en el icono de descarga para descargar datos de informes en formato [!
 
 Haga clic en Actualizar para actualizar la tabla y la visualización de gráfico de un informe sin necesidad de actualizar toda la página, su configuración o su intervalo de fechas.
 
-## Más opciones  {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## Más opciones. {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Haga clic en el icono de Más opciones (tres elipses verticales) para acceder a las opciones [!UICONTROL Editar actividad] y [!UICONTROL Ver las URL de la experiencia].
 
-## Visualización de tabla  {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Visualización de tabla. {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
 Haga clic en el icono de **[!UICONTROL Visualización de tabla]para ver el informe como una tabla.**
 
@@ -173,7 +173,7 @@ Tenga en cuenta lo siguiente:
 * Solo disponible al ver informes en la vista Tabla.
 * Esta característica no está disponible para actividades que utilicen Analytics como fuente de informes (A4T).
 
-## Contribución de ubicación  {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Contribución de ubicación. {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Haga clic en el icono de **[!UICONTROL Contribución de ubicación]para que el informe muestre la contribución por ubicación.**
 
@@ -183,7 +183,7 @@ Haga clic en el icono de **[!UICONTROL Contribución de ubicación]para que el i
 
 Seleccione o anule la selección de las experiencias en la parte izquierda de la tabla para mostrar u ocultar las experiencias correspondientes.
 
-Si se muestra la siguiente ilustración, solo las experiencias predeterminadas, medias orientales y totales se muestran en el informe. La experiencia de Asia está oculta en el gráfico.
+En la siguiente ilustración, vemos que en el informe solo aparecen las experiencias Predeterminada, Oriente medio y Total. La experiencia de Asia está oculta en el gráfico.
 
 ![Experiencias](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
@@ -198,7 +198,7 @@ Seleccione la visualización de gráfico que desee:
 * Diario
 * Alza diaria
 
-![Promedio móvil del informe](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
+![Promedio en ejecución del informe](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
