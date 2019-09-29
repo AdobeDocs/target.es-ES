@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Permisos de usuario de Enterprise{#enterprise-user-permissions}
 
-Los permisos de usuario de Enterprise son un medio para administrar de forma formal el acceso de usuarios a nivel empresarial a Target. Agregue usuarios a Target, asigne permisos según sus funciones y cree espacios de trabajo para equipos en función de diferentes departamentos, ubicaciones globales, canal y otras agrupaciones lógicas. Puede asignar a los usuarios las funciones de Observador, Editor o Aprobador.
+Los permisos de usuario de Enterprise son un medio para administrar formalmente el acceso de usuarios de nivel Enterprise a Target. Agregue usuarios a Target, asigne permisos según sus funciones y cree espacios de trabajo para equipos en función de diferentes departamentos, ubicaciones globales, canales y otras agrupaciones lógicas. Puede asignar a los usuarios las funciones de Observador, Editor o Aprobador.
 
 ## Determinar si tiene acceso a permisos de usuario de Enterprise
 
@@ -28,7 +28,7 @@ Los permisos de usuario de Enterprise son un medio para administrar de forma for
 >
 >Su implementación de Target puede utilizar cualquier versión de at.js o mbox.js.
 
-Puede comprobar si su organización dispone de una licencia Standard o Premium haciendo clic en el vínculo [!UICONTROL Configuración] en la parte superior de la interfaz de usuario de [!DNL Target]
+Puede comprobar si su organización dispone de una licencia Standard o Premium haciendo clic en el vínculo [!UICONTROL Configuración] en la parte superior de la interfaz de usuario de.[!DNL Target]
 
 * **[!DNL Target Standard]Clientes de**: si ve la pestaña [!UICONTROL Usuarios] ([!UICONTROL Configuración &gt; Usuarios]), su organización dispone de una licencia [!DNL Target Standard]. Los clientes de [!DNL Target Standard] deben seguir las instrucciones de [Usuarios](/help/administrating-target/c-user-management/c-user-management/user-management.md) para agregar usuarios y asignar permisos en Adobe Admin Console.
 
@@ -103,7 +103,7 @@ El canal se refiere al tipo de contenido desde donde se suministran sus activida
 
 Cuando se crea una actividad nueva, esta se crea en el espacio de trabajo que está seleccionado. Verá las opciones de selección del canal en el primer cuadro de diálogo que le permite elegir el canal deseado para la actividad: web, aplicación móvil, correo electrónico o API/otro.
 
-## Información general sobre los permisos  {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Información general sobre los permisos. {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 En esta sección explicamos cómo se aplicaban antes los permisos en [!DNL Target] y cómo se aplican usando la funcionalidad [!UICONTROL Propiedades] y [!UICONTROL permisos].
 
@@ -141,7 +141,7 @@ Además, Jan no podrá ver páginas, propiedades ni sitios en [!DNL Target] para
 
 En este ejemplo, Jan no ve las páginas de productos, el sitio de Rusia ni el sitio de ofertas de empleo.
 
-## Casos de uso  {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Casos de uso. {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 En los siguientes casos de uso, trataremos de explicar cómo lograr los objetivos de marketing con ayuda de las propiedades, los proyectos y las funciones de [!DNL Target]:
 
