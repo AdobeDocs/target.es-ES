@@ -1,8 +1,8 @@
 ---
-description: Defina una audiencia para comparar dos atributos de perfil para la biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
+description: Defina una audiencia con el fin de comparar dos atributos de perfil para su Biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
 keywords: audiencia;inclinación;atributo de perfil;comparar;comparación;crear audiencia;creación de audiencia
-seo-description: Defina una audiencia para comparar dos atributos de perfil para la biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
-seo-title: Crear una audiencia de comparación de atributos de perfil en Adobe Target
+seo-description: Defina una audiencia con el fin de comparar dos atributos de perfil para su Biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
+seo-title: Crear una audiencia de comparación de atributos de perfil. en Adobe Target
 solution: Target
 title: Crear una audiencia de comparación de atributos de perfil
 topic: Advanced,Standard,Classic
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Crear una audiencia de comparación de atributos de perfil{#create-a-profile-attribute-comparison-audience}
 
-Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
+Defina una audiencia con el fin de comparar dos atributos de perfil para su [biblioteca de audiencias](/help/c-target/c-audiences/audiences.md) o en una [audiencia solo de actividad](/help/c-target/creating-activity-only-audience.md). Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
 
 >[!NOTE]
 >
