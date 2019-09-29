@@ -52,7 +52,7 @@ La [tarjeta emergente de detalles de definición](../../../c-target/c-audiences/
 
 ## Consideraciones {#considerations}
 
-* Las audiencias y las actividades se evalúan para un mbox específico. Por ejemplo, si el mbox global pasa un determinado parámetro, pero el mbox regional no, la segmentación de actividad/audiencia para ese parámetro no se calificará en el mbox regional.
+* Las audiencias y las actividades se evalúan para un mbox específico. For example, if the global mbox passes a certain parameter, but the regional mbox does not, the activity/audience targeting that parameter will not be qualified for on the regional mbox.
 
 ## Vídeo de formación: Creación de audiencias
 
