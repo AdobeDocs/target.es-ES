@@ -1,8 +1,8 @@
 ---
 description: Puede crear audiencias que estén basadas en datos de la red.
 keywords: segmentación;red;red de target;isp;nombre de dominio;velocidad de conexión;isp de target;nombre de dominio de target;velocidad de conexión de target
-seo-description: Puede crear audiencias en Adobe Target basándose en los detalles de la red.
-seo-title: Cree audiencias en Adobe Target basándose en los detalles de la red.
+seo-description: Puede crear audiencias en Adobe Target basadas en los detalles de la red.
+seo-title: Cree audiencias en Adobe Target basadas en los detalles de la red.
 solution: Target
 title: Red
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
@@ -55,7 +55,7 @@ Puede crear audiencias que estén basadas en datos de la red.
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
+La siguiente ilustración muestra una audiencia dirigida a visitantes que utilizan AT&amp;T con una velocidad de conexión [!UICONTROL móvil].
 
 ![Objetivo de red](assets/target_network.png)
 
