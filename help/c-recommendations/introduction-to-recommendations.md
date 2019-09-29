@@ -39,29 +39,29 @@ Los especialistas en marketing utilizan [!DNL Adobe Target] para impulsar experi
 ![Ilustración que muestra cómo Target ofrece recomendaciones en varios lugares](/help/c-recommendations/assets/intro-3.png)
 
 * **Publicación**: Los editores web utilizan [!DNL Target Recommendations] para recomendar artículos a los visitantes del sitio y fomentar una mayor participación.
-* **Tutoriales** de vídeo: [!DNL Adobe Creative Cloud] se utiliza [!DNL Target] para recomendar tutoriales de vídeo a los usuarios de Photoshop en la aplicación de Photoshop.
-* **Juegos**: Las empresas de juegos utilizan [!DNL Target] para recomendar juegos y contenido a los usuarios en sus consolas.
-* **Ventas** B2B: Las empresas [de empresa a empresa utilizan Target para recomendar vídeos, documentos técnicos y anuncios de blogs a los posibles clientes de B2B; entregar descargas; y proporcionar ayuda a los clientes](https://theblog.adobe.com/testing-shifts-high-gear-intel)existentes.
+* **Video Tutorials:  uses  to recommend video tutorials to Photoshop users in the Photoshop application.**[!DNL Adobe Creative Cloud][!DNL Target]
+* **Gaming: Gaming companies use  to recommend games and content to users on their consoles.**[!DNL Target]
+* **B2B Sales: Business-to-business companies use Target to recommend videos, whitepapers, and blog posts to B2B prospects; deliver downloads; and provide help to existing customers.**[](https://theblog.adobe.com/testing-shifts-high-gear-intel)
 
-* **Viajes**: [Un corredor de viajes alemán usa Target para recomendar hoteles y más a los viajeros](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+* **Travel: A German travel booker uses Target to recommend hotels and more to travelers.**[](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)
 
-* **Minorista**: [Un importante minorista B2B usa Target para recomendar categorías y productos principales para devolver visitantes en el explorador y en su aplicación](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)móvil.
+* **Retail: A leading B2B retailer uses Target to recommend top categories and products to return visitors in the browser and in its mobile app.**[](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)
 
-Estas son solo algunas de las formas en que los clientes utilizan Target para ofrecer recomendaciones personalizadas.
+These are just a few of the ways customers use Target to deliver personalized recommendations.
 
-¿Qué hace que haya recomendaciones excelentes?
+What makes for great recommendations?
 
-![Ilustración que muestra los tres elementos que hacen grandes recomendaciones](/help/c-recommendations/assets/intro-4.png)
+![Illustration showing the three elements that make great recommendations](/help/c-recommendations/assets/intro-4.png)
 
-Las grandes recomendaciones deben ser pertinentes y personalizadas. Esto significa que necesita tres elementos para impulsar la relevancia y la personalización:
+Great recommendations should be relevant and personalized. This means you need three things to drive relevance and personalization:
 
-* **Los controles** de marketing ayudan a aumentar la relevancia de los elementos recomendados. Como especialista en mercadotecnia, aporta un contexto valioso a la tabla y sabe qué atributos de los productos o del contenido son relevantes para que un modelo de recomendaciones los considere. Si está ejecutando un sitio de vídeos, sabe que los usuarios pueden estar interesados en ver películas del mismo director, pero probablemente no les importe ver películas producidas por el mismo estudio. [!DNL Target] le permite utilizar controles que le permiten mejorar sus algoritmos con este conocimiento de dominio.
+* **Marketer controls to help drive relevance of the items that are recommended.** As a marketer, you bring valuable context to the table and you know what attributes of your products or content are relevant for a recommendations model to consider. Si está ejecutando un sitio de vídeos, sabe que los usuarios pueden estar interesados en ver películas del mismo director, pero probablemente no les importe ver películas producidas por el mismo estudio. [!DNL Target] le permite utilizar controles que le permiten mejorar sus algoritmos con este conocimiento de dominio.
 * **Modelos** sofisticados para dar sentido a millones de artículos en el catálogo y eventos de interacción. [!DNL Target] cuenta con sofisticadas capacidades de aprendizaje automático, creadas a lo largo de una década de experiencia, y gestionamos miles de millones de recomendaciones al año.
 * **Contexto** del usuario para garantizar que las recomendaciones sean oportunas y relevantes para los usuarios. No quiere recomendar el vídeo que alguien acaba de ver o la camisa que alguien acaba de añadir al carro. El perfil de usuario enriquecido de Target se puede usar en Recomendaciones para garantizar la personalización.
 
 ## Implementar recomendaciones de Target
 
-Empiece con una estrategia.
+Start with a strategy.
 
 ![Ilustración que muestra la estrategia de recomendaciones](/help/c-recommendations/assets/intro-5.png)
 
@@ -77,13 +77,13 @@ Existen tres pasos generales para crear la implementación de recomendaciones:
 
 1. Enseñe [!DNL Target] sobre su contexto o productos.
 1. Capturar el comportamiento del usuario.
-1. Obtenga recomendaciones con el contexto adecuado.
+1. Get recommendations with the right context.
 
-### Enseñar [!DNL Target] acerca de su contexto o productos
+### Teach  about your context or products[!DNL Target]
 
 Al comenzar con [!DNL Recommendations], se pasa información sobre cada elemento que se desea recomendar. [!DNL Target] ofrece varias opciones de integración para crear el catálogo.
 
-![Ilustración que muestra cómo enseñar a Target sobre su contexto o productos](/help/c-recommendations/assets/intro-7.png)
+![Illustration showing how to teach Target about your context or products](/help/c-recommendations/assets/intro-7.png)
 
 El método más sencillo y utilizado con más frecuencia es enviar un archivo CSV diario o semanalmente desde el sistema de administración de la información del producto o desde el sistema de administración de contenido. Pero también puede pasar información sobre la capa de datos de su página mediante la biblioteca [!DNL Adobe Target] Javascript, aprovechar nuestras API para pasar información directamente desde su sistema de origen o utilizar nuestra [!DNL Adobe Analytics] integración si ya está pasando datos de catálogo a [!DNL Analytics].
 
@@ -95,7 +95,7 @@ Independientemente del método que elija, debe incluir metadatos sobre cada elem
 
 ![Ilustración que muestra información de metadatos para el catálogo](/help/c-recommendations/assets/intro-8.png)
 
-* Datos que desea mostrar al usuario que recibe la recomendación. Por ejemplo, el nombre de la película y una URL de imagen en miniatura.
+* Data that you want to display to the user receiving the recommendation. Por ejemplo, el nombre de la película y una URL de imagen en miniatura.
 * Datos útiles para aplicar controles de marketing y comercialización. Por ejemplo, la clasificación de la película para que no se recomienden películas NC-17.
 * Datos útiles para determinar la similitud de elementos con otros elementos. Por ejemplo, el género de la película o los actores que están en ella.
 
@@ -117,7 +117,7 @@ Pasa información sobre el usuario y el contexto en el punto de interacción par
 
 Además del comportamiento agregado del usuario, debe pasar [!DNL Target] el contexto específico donde se muestran las recomendaciones. Esto incluye información sobre la página e información del perfil de usuario. [!DNL Target] utiliza esta información para realizar recomendaciones personalizadas. Por ejemplo: en un sitio web de venta minorista, desea conocer el producto y la categoría de producto que el visitante está viendo en ese momento. También desea obtener información sobre ese usuario (marca favorita, categoría de producto favorita, nivel de fidelidad, etc.). Esta información es importante para que [!DNL Target] pueda filtrar elementos y mejorar la personalización de las recomendaciones.
 
-## Cree su primera actividad de Recomendaciones
+## Build your first Recommendations activity
 
 ¿Qué es una [!DNL Recommendations] actividad?
 
