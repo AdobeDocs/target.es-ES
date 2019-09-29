@@ -22,7 +22,7 @@ Target permite rastrear clics en cualquier elemento como una métrica de éxito.
 >
 >El rastreo de clics no se admite en el mbox global de Target cuando se utiliza como ubicación en una actividad basada en formularios.
 
-## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+## Configuración del rastreo de clics {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Al establecer los objetivos en la página [!UICONTROL Objetivos y configuración] para su actividad, seleccione la métrica de conversión **[!UICONTROL Conversión].**
 1. Para la acción, seleccione **[!UICONTROL Se hizo clic en un elemento]** y luego haga clic en **[!UICONTROL Seleccionar elementos]**.
@@ -37,13 +37,13 @@ Target permite rastrear clics en cualquier elemento como una métrica de éxito.
 
 Cuando el participante de una actividad hace clic en un elemento seleccionado, ese clic se cuenta como una conversión.
 
-## Selected Elements panel {#selected-elements}
+## Panel Elementos seleccionados {#selected-elements}
 
-For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+En las actividades Prueba A/B, Segmentación de experiencias (XT), Automated Personalization (AP) y Prueba multivariada (MVT), un [!UICONTROL panel Elementos seleccionados] enumera todos los elementos seleccionados para el rastreo de clics en el lado derecho.
 
 ![Panel Elementos seleccionados](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. La siguiente tabla describe cada acción que se puede realizar en un elemento:
+Existen varias acciones que se pueden aplicar al situar el cursor sobre un elemento del panel [!UICONTROL Elementos seleccionados]. La siguiente tabla describe cada acción que se puede realizar en un elemento:
 
 | Acción | Descripción |
 | --- | --- |
@@ -53,13 +53,13 @@ There are a several actions that can be applied when you hover over an element i
 
 ### Agregar elemento
 
-Si ya conoce la ruta DOM al selector, puede agregarla manualmente haciendo clic en el icono de signo + situado en la parte superior del panel.
+Si ya conoce la ruta DOM al selector, puede agregarla manualmente si hace clic en el icono de signo + situado en la parte superior del panel.
 
 ![Icono Agregar elemento](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### Elemento emergente Elementos seleccionados
+### Elemento emergente al pasar el cursor sobre Elementos seleccionados
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. La lista contiene la ruta DOM completa para el elemento que le ayudará a validar que el elemento seleccionado se utilizará para el rastreo de clics.
+Después de seleccionar varios elementos para el rastreo de clics, puede hacer clic en el vínculo [!UICONTROL Elementos seleccionados] en el paso [!UICONTROL Objetivos y configuración] de la actividad para ver la lista completa de elementos seleccionados para el rastreo de clics. La lista contiene la ruta DOM completa para el elemento, que le ayudará a validar que el elemento seleccionado se utilizará para el rastreo de clics.
 
 ![Vínculo Elementos seleccionados](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -75,7 +75,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 
    Para obtener más información, consulte [Desplazamiento por elementos utilizando la ruta DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en *Opciones del Compositor de experiencias visuales*.
 
-* Puede buscar una página diferente para rastrear clics en una página donde podría no estar modificando contenido. Esta página diferente debe incluirse en la actividad que usa la  [función multipágina](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48), y debe tener implementada [!DNL at.js] o [!DNL mbox.js].
+* Puede buscar una página diferente para rastrear clics en una página donde podría no estar modificando contenido. Esta página diferente debe incluirse en la actividad que usa la [función multipágina](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48), y debe tener implementada [!DNL at.js] o [!DNL mbox.js].
 * Si selecciona más de un elemento, si un participante hace clic en cualquiera de los elementos elegidos, se cuenta el clic. Para contar cada elemento por separado, configure métricas de éxito individuales para cualquier elemento.
 * Asegúrese de seleccionar el nivel de elemento que desee rastrear. Por ejemplo, al especificar un botón, asegúrese de seleccionar el vínculo y no el texto del botón.
 * Los eventos de clic se envían a [!DNL Target] en la misma página que el clic.
@@ -84,7 +84,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 
    | Carácter | Descripción |
    |---|---|
-   | # | Signo de número  o almohadilla |
+   | # | Signo de número o almohadilla |
    | : | Dos puntos |
    | . | Periodo |
    | $ | Símbolo del dólar |
@@ -96,7 +96,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 
    [!DNL at.js] ejecuta los siguientes pasos cuando el evento de rastreo de clics se adjunta una etiqueta `A`A (vínculo) o `FORM`:
 
-   1. Invocar. `event.preventDefault()`
+   1. Invocar..`event.preventDefault()`
 
    1. Activar la solicitud de Target.
 
