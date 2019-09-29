@@ -1,8 +1,8 @@
 ---
 description: Se pueden utilizar varios ajustes para describir y controlar una actividad de Recommendations.
 keywords: Recommendations;Configuración;nombre;objetivo;prioridad;duración;configuración de informes;otros metadatos
-seo-description: Se pueden utilizar varias opciones para describir y controlar una actividad de Recomendaciones en Adobe Target.
-seo-title: Configuración de actividades de Recomendaciones en Adobe Target
+seo-description: Se pueden utilizar varios ajustes para describir y controlar una actividad de Recommendations en Adobe Target.
+seo-title: Configuración de actividades de Recommendations en Adobe Target
 solution: Target
 subtopic: Las actividades de
 title: Configuración de actividades de Recommendations
@@ -20,7 +20,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 Información sobre la configuración que puede utilizar para describir y controlar una actividad de [!UICONTROL Recommendations].
 
-![Página Objetivos y configuración de Recomendaciones](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
+![Página Objetivos y configuración de Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
 En las siguientes secciones se describen las configuraciones disponibles para una actividad de [!UICONTROL Recommendations].
 
@@ -55,14 +55,14 @@ La prioridad se utiliza si se asignan varias actividades a la misma ubicación c
 
 Establezca la duración de la actividad.
 
-La actividad puede iniciarse cuando se activa o puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
+La actividad se puede iniciar cuando se activa, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
-## Configuración de informes 
+## Configuración de informes.
 
-* **Fuente de informes:** Seleccione la fuente de informes: Adobe Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). No cambie la fuente de informes después de que la actividad se active. Cambiar la fuente de informes después de una actividad activa un informe incoherente.
-* **Métrica objetivo:** Seleccione la métrica de éxito que determina si la actividad es correcta.
-* **Métricas adicionales:** configure métricas de éxito adicionales para usarlas en sus informes.
-* **Audiencias para creación de informes:** defina las audiencias que se pueden usar cuando filtre los informes.
+* **Fuente de informes:** Seleccione la fuente de informes: Adobe Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). No cambie la fuente de informes después de que la actividad se active. Cambiar la fuente de informes después de una actividad causa un informe incoherente.
+* **Métrica de objetivo:** Asigne un nombre al objetivo y seleccione la métrica de éxito que determina si la actividad tiene éxito.
+* **Métricas adicionales:** Configure métricas de éxito adicionales para usarlas en sus informes.
+* **Audiencias para creación de informes:** Defina las audiencias que se pueden usar cuando filtre los informes.
 
 ## Otros metadatos
 
