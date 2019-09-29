@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Usuarios de Target según las reglas de segmentación prediseñadas.
 
-Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Si desea conocer más información y prácticas recomendadas, consulte  [Preguntas más frecuentes sobre audiencias y segmentación de experiencias](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Si desea conocer más información y prácticas recomendadas, consulte [Preguntas más frecuentes sobre audiencias y segmentación de experiencias](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audien
 
    Las reglas de segmentación prediseñadas incluyen Sistema operativo Windows, Dispositivo de tableta, Navegador Safari, Visitantes que repiten, Remitidos desde Google, etc.
 
-   La audiencia predefinida "Tableta" ya cumple los requisitos cuando el agente de usuario contiene una de las siguientes cadenas (algunos de los cuales son números de modelos de dispositivos). No es necesario crear reglas de segmentación personalizadas para estos dispositivos.
+   La audiencia predefinida “Tablet” ya cualifica cuando el agente usuario contiene una de las siguientes cadenas (algunas de las cuales son números de modelos de dispositivos). No es necesario crear reglas de segmentación personalizadas para estos dispositivos.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 y Tablet PC.
 
