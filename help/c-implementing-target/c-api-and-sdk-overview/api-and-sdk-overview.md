@@ -1,8 +1,8 @@
 ---
 description: Información sobre las API de envío del servidor de Target, las API de Recommendations y el SDK de NodeJS.
 keywords: servidor;api;sdk;nodejs;node js;api de recomendaciones
-seo-description: Información sobre las API de entrega del servidor de Adobe Target, las API de Recommendations y el SDK de nodejs.
-seo-title: Implementación del servidor en Adobe Target
+seo-description: Información sobre las API de envío del servidor de Adobe Target, las API de Recommendations y el SDK de NodeJS.
+seo-title: Implementación de Adobe Target del lado del servidor
 solution: Target
 title: Implementación de Target en el servidor
 topic: Las actividades de
@@ -15,16 +15,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Servidor: implementación de Target{#server-side-implement-target}
 
-Information about [!DNL Adobe Target] Server Side delivery APIs, Server Side Batch Delivery APIs, NodeJS SDK, [!DNL Target Recommendations] APIs, and [!DNL Target Classic] APIs (decommissioned).
+Información sobre las API de envío del servidor de [!DNL Adobe Target], las API de envío por lotes del servidor, el SDK de NodeJS, las API de [!DNL Target Recommendations]y las API de [!DNL Target Classic] (retiradas).
 
-The following process occurs in a server-side implementation of [!DNL Target]:
+El proceso siguiente se produce en una implementación del lado del servidor de [!DNL Target]:
 
 1. Un dispositivo cliente realiza una solicitud de una experiencia a través del servidor.
-1. Your server sends that request to [!DNL Target].
+1. El servidor envía esa solicitud a [!DNL Target].
 1. [!DNL Target] devuelve la respuesta al servidor.
-1. El servidor toma la decisión sobre la experiencia que se debe ofrecer al dispositivo cliente para que se represente.
+1. El servidor toma la decisión sobre la experiencia más adecuada para el dispositivo del cliente.
 
-La experiencia no necesita mostrarse en un navegador; puede mostrarse en un correo electrónico o quiosco, a través de un ayudante de voz o a través de algún otro dispositivo no visual o no basado en explorador. Because your server sits between the client and [!DNL Target], this type of implementation is also ideal if you need greater control and security or have complex backend processes that you want to run on your server.
+La experiencia no necesita mostrarse en un explorador; puede mostrarse en un correo electrónico o quiosco, a través de un asistente de voz o a través de otro dispositivo no visual o no basado en un explorador. Dado que su servidor se encuentra entre el cliente y [!DNL Target], este tipo de implementación también es ideal si necesita mayor control y seguridad o si tiene procesos backend complejos que desee ejecutar en el servidor.
 
 En la siguiente sección se enumeran las distintas API y el SDK de NodeJS, y se proporciona información adicional:
 
@@ -34,7 +34,7 @@ Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/#server
 
 `/rest/v1/mbox`
 
-[!DNL Target] permite que su aplicación realice llamadas de mbox desde cualquier navegador, dispositivo móvil o incluso otro servidor. The Server Side delivery API is specifically designed to integrate [!DNL Target] with any server-side platform that makes HTTP/HTTPS calls.
+[!DNL Target] permite que su aplicación realice llamadas de mbox desde cualquier navegador, dispositivo móvil o incluso otro servidor. La API de envío del servidor está diseñada específicamente para integrar [!DNL Target] en cualquier plataforma de servidor que realice llamadas HTTP/HTTPS.
 
 Puede utilizar la API para integrar su aplicación personalizada con [!DNL Target]. Es especialmente útil para las organizaciones que deseen ofrecer segmentación para un dispositivo IoT no basado en navegador, como un televisor, un quiosco o una pantalla digital.
 
@@ -50,13 +50,13 @@ Link: [Server Side Batch Delivery APIs](https://developers.adobetarget.com/api/#
 
 `/rest/v2/batchmbox`
 
-La API de envío por lotes permite que su aplicación solicite contenido para varios mboxes mediante una sola llamada. It also has a prefetch mode that enables clients like mobile apps, servers, and so forth to fetch content for multiple mboxes in one request, cache it locally, and later notify [!DNL Target] when the user visits those mboxes.
+La API de envío por lotes permite que su aplicación solicite contenido para varios mboxes mediante una sola llamada. También cuenta con un modo de recuperación previa que permite a clientes como aplicaciones móviles, servidores, etcétera, recuperar contenido para varios mboxes mediante una única solicitud, almacenar dicho contenido en la caché local y más tarde notificar a [!DNL Target] cuando el usuario visite estos mboxes.
 
 Este extremo solo puede devolver ofertas para mboxes normales. Como es posible recuperar contenido para varios mboxes, si desea mejorar el rendimiento es conveniente utilizar la API de mbox por lotes. De este modo evita la ejecución de varias solicitudes HTTP, lo que puede resultar costoso.
 
 ## SDK de NodeJS
 
-Link: [NodeJS SDK](https://www.npmjs.com/package/@adobe/target-node-client)
+Vínculo: SDK [de NodeJS](https://www.npmjs.com/package/@adobe/target-node-client)
 
 En cuanto a SDK, en este momento tenemos uno solo: el SDK de NodeJS.
 
@@ -75,7 +75,7 @@ Las API de Recommendations le permiten interactuar mediante programación con lo
 
 ## [!DNL Target Classic] API
 
-The [!DNL Target Classic] UI and APIs have been decommissioned. Para obtener más información sobre cómo dar el salto a las API modernas de Target, consulte [Transición de las API anteriores de Target a Adobe I/O](../../c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2).
+Se han retirado la interfaz de usuario y las API de [!DNL Target Classic]. Para obtener más información sobre cómo dar el salto a las API modernas de Target, consulte [Transición de las API anteriores de Target a Adobe I/O](../../c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2).
 
 >[!NOTE]
 >Las API de creación (en las que se crean actividades, ofertas, audiencias, etc.) no admiten el intercambio de recursos de origen cruzado (CORS).
@@ -92,4 +92,4 @@ Si está utilizando NodeJS como tecnología de back-end, el SDK de NodeJS es la 
 
 **¿Debería percibir mejoras de rendimiento al utilizar el SDK de NodeJS?**
 
-Lamentablemente, carecemos de cifras sobre rendimiento. Sin embargo, y en general, el SDK de NodeJS debería ofrecer un buen rendimiento gracias a la arquitectura orientada a eventos de NodeJS. Be aware that most of the time is spent on the [!DNL Target] backend. El SDK de NodeJS realiza muy poco procesamiento. The SDK is basically responsible for packaging a [!DNL Target] request and parsing a [!DNL Target] response.
+Lamentablemente, carecemos de cifras sobre rendimiento. Sin embargo, y en general, el SDK de NodeJS debería ofrecer un buen rendimiento gracias a la arquitectura orientada a eventos de NodeJS. Tenga en cuenta que la mayoría del tiempo se pasa en el backend de [!DNL Target]. El SDK de NodeJS realiza muy poco procesamiento. Básicamente se ocupa de empaquetar solicitudes de [!DNL Target] y analizar respuestas de [!DNL Target].
