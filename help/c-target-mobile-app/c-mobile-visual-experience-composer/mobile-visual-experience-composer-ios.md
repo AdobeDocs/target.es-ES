@@ -1,7 +1,7 @@
 ---
-description: El Compositor de experiencias visuales de Adobe Target (VEC) permite a los desarrolladores hacer una configuración única en sus aplicaciones móviles iOS y permitir a los especialistas en marketing utilizar las funcionalidades del VEC de aplicaciones móviles.
+description: El Compositor de experiencias visuales para móviles de Adobe Target (VEC) permite a los desarrolladores hacer una configuración única en sus aplicaciones móviles iOS y permitir a los especialistas en marketing utilizar las funcionalidades del VEC de aplicaciones móviles.
 keywords: vec de aplicaciones móviles;compositor de experiencias visuales móvil;opciones del compositor de experiencias móvil;configuración;ios;apple
-seo-description: El Compositor de experiencias visuales de Adobe Target (VEC) permite a los desarrolladores hacer una configuración única en sus aplicaciones móviles iOS y permitir a los especialistas en marketing utilizar las funcionalidades del VEC de aplicaciones móviles.
+seo-description: El Compositor de experiencias visuales para móviles de Adobe Target (VEC) permite a los desarrolladores hacer una configuración única en sus aplicaciones móviles iOS y permitir a los especialistas en marketing utilizar las funcionalidades del VEC de aplicaciones móviles.
 seo-title: 'iOS: configuración de la aplicación móvil'
 solution: Target
 title: 'iOS: configuración de la aplicación móvil'
@@ -233,19 +233,19 @@ Puede haber ciertas situaciones en las que desee volver a llamar a la API de rec
 + (void) prefetchOffersBackground;
 ```
 
-## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
+## Tutoriales: Implementar Experience Cloud en las aplicaciones Objective-C y Swift de iOS móvil {#tutorial}
 
-* [Implementar Experience Cloud en aplicaciones Ios-C de Mobile iOS](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-* [Implementar Experience Cloud en aplicaciones móviles iOS de Mobile](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [Implementar Experience Cloud en aplicaciones Objective-C de iOS móvil](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [Implementar Experience Cloud en aplicaciones Swift de iOS móvil](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 
 Tras completar estos tutoriales, podrá:
 
-* Creación de una propiedad de Launch móvil
-* Instalación de una propiedad Launch en una aplicación Objective-C o Swift
-* Implemente las siguientes soluciones de Adobe Experience Cloud:
+* Crear una propiedad de Launch móvil
+* Instalar una propiedad Launch en una aplicación Objective-C o Swift
+* Implementar las siguientes soluciones de Adobe Experience Cloud:
    * Servicio Experience Cloud ID
    * Adobe Target
-   * Adobe Analytics 
+   * Adobe Analytics.
    * Adobe Audience Manager
 
 * Publicar cambios en Launch a través de los entornos de desarrollo, ensayo y producción
