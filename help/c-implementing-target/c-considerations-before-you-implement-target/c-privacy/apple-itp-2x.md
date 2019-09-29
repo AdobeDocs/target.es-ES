@@ -2,7 +2,7 @@
 description: Información sobre la compatibilidad de Target con ITP 2.1 e ITP 2.2 de Apple mediante la biblioteca 4.3 de Experience Cloud ID (ECID).
 keywords: apple;ITP;prevención inteligente del seguimiento
 seo-description: Información sobre la compatibilidad de Adobe Target con ITP 2.1 e ITP 2.2 de Apple a través de la biblioteca 4.3 de Experience Cloud ID (ECID).
-seo-title: Compatibilidad con Adobe Target y Apple ITP
+seo-title: Adobe Target and Apple ITP support
 solution: Target
 subtopic: Primeros pasos
 title: Apple ITP 2.x
@@ -28,32 +28,32 @@ Estas versiones de ITP incluyen las siguientes restricciones:
 
 [!DNL Target] proporciona bibliotecas de JavaScript para que las implemente en las páginas y así [!DNL Target] pueda ofrecer personalización en tiempo real a los visitantes. Existen tres bibliotecas de Target JavaScript ([at.js 1).*x* y at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)y [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) que colocan [!DNL Target] cookies de cliente en los exploradores de los visitantes a través de la `document.cookie` API. Como resultado, [!DNL Target] las cookies se ven afectadas por el ITP 2.1 y 2.2 de Apple y caducan al cabo de siete días (con ITP 2.1) y al cabo de un día (con ITP 2.2).
 
-Apple ITP 2.1 y 2.1 tienen un impacto [!DNL Target] en las siguientes áreas:
+Apple ITP 2.1 and 2.1 impact  in the following areas:[!DNL Target]
 
 | Impacto | Detalles |
 | --- | --- |
-| Posible aumento de los recuentos de visitantes únicos | Debido a que la ventana de caducidad está configurada en siete días (con ITP 2.1) y un día (con ITP 2.2), es posible que vea un aumento de visitantes únicos procedentes de los exploradores Safari. Si los visitantes vuelven a visitar su dominio después de siete días (ITP 2.1) o un día (ITP 2.2), [!DNL Target] se ve obligado a colocar una nueva [!DNL Target] cookie en su dominio en lugar de la cookie caducada. La nueva [!DNL Target] cookie se traduce como un nuevo visitante único aunque el usuario sea el mismo. |
-| Menores períodos de búsqueda de [!DNL Target] actividades | Los perfiles de visitante de [!DNL Target] las actividades pueden tener un período de retroactividad reducido para la toma de decisiones. [!DNL Target] las cookies se utilizan para identificar a un visitante y almacenar atributos de perfil de usuario para su personalización. Dado que [!DNL Target] las cookies pueden caducar en Safari después de siete días (ITP 2.1) o de un día (ITP 2.2), los datos de perfil de usuario que estaban vinculados a la [!DNL Target] cookie purgada no se pueden usar para tomar decisiones. |
+| Posible aumento de los recuentos de visitantes únicos | Debido a que la ventana de caducidad está configurada en siete días (con ITP 2.1) y un día (con ITP 2.2), es posible que vea un aumento de visitantes únicos procedentes de los exploradores Safari. Si los visitantes vuelven a visitar su dominio después de siete días (ITP 2.1) o un día (ITP 2.2), [!DNL Target] se ve obligado a colocar una nueva [!DNL Target] cookie en su dominio en lugar de la cookie caducada. The new [!DNL Target] cookie translates to a new unique visitor even though the user is the same. |
+| Menores períodos de búsqueda de [!DNL Target] actividades | Visitor profiles for  activities might have a decreased lookback period for decisioning. [!DNL Target] [!DNL Target] cookies are leveraged to identity a visitor and store user profile attributes for personalization. Given that  cookies can be expired on Safari after seven days (ITP 2.1) or one day (ITP 2.2), the user profile data that was tied to the purged  cookie cannot be used for decisioning.[!DNL Target][!DNL Target] |
 
-## ¿Se ve afectada mi implementación actual de [!DNL Target] DPS?
+## Is my current implementation of  impacted?[!DNL Target]
 
-En un navegador Safari, navegue hasta el sitio web en el que tenga una biblioteca [!DNL Target] JavaScript. Si ve una [!DNL Target] cookie configurada en el contexto de un CNAME, como `analytics.company.com`, entonces ITP 2.1 o 2.2 no le afecta.
+In a Safari browser, navigate to your website on which you have a  JavaScript library. [!DNL Target] If you see a  cookie set in the context of a CNAME, such as , then you are not impacted by ITP 2.1 or 2.2.[!DNL Target]`analytics.company.com`
 
-Si utiliza la biblioteca de ID de Experience Cloud (ECID) además de la biblioteca de JavaScript de Target, su implementación se verá afectada de la forma que se indica en este artículo: Impacto de [Safari ITP 2.1 en Adobe Experience Cloud y los clientes](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)de la plataforma de experiencia.
+If you are using the Experience Cloud ID (ECID) library in addition to the Target JavaScript library, your implementation will be impacted in the ways listed in this article: Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers.[](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)
 
-## ¿Cómo puedo mitigar el impacto de ITP 2.1, ITP 2.2 y futuras versiones de ITP a [!DNL Target]?
+## How can I mitigate the impact of ITP 2.1, ITP 2.2, and future ITP releases to ?[!DNL Target]
 
-Para mitigar el impacto de ITP 2.1, ITP 2.2 y futuras versiones de ITP en [!DNL Target], complete las siguientes tareas:
+To mitigate the impact of ITP 2.1, ITP 2.2, and future ITP releases to , complete the following tasks:[!DNL Target]
 
-1. Implemente la biblioteca de Experience Cloud ID (ECID) en sus páginas.
+1. Deploy the Experience Cloud ID (ECID) library to your pages.
 
-   La biblioteca ECID habilita el marco de identificación de personas para las soluciones principales de Experience Cloud. La biblioteca ECID le permite identificar a los mismos visitantes del sitio y sus datos en diferentes soluciones de Experience Cloud mediante la asignación de identificadores únicos y persistentes. La biblioteca ECID se actualizará con frecuencia para ayudarle a mitigar los cambios relacionados con ITP que afecten a su implementación.
+   The ECID library enables the people identification framework for Experience Cloud Core solutions. La biblioteca ECID le permite identificar a los mismos visitantes del sitio y sus datos en diferentes soluciones de Experience Cloud mediante la asignación de identificadores únicos y persistentes. La biblioteca ECID se actualizará con frecuencia para ayudarle a mitigar los cambios relacionados con ITP que afecten a su implementación.
 
    Para ITP 2.1 e ITP 2.2, la biblioteca [ECID 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) debe utilizarse para la mitigación.
 
 1. Utilice el CNAME de Adobe e inscríbase en el programa de certificados administrados de Adobe Analytics.
 
-   Después de instalar la biblioteca ECID 4.3.0 o posterior, puede aprovechar el CNAME y el programa de certificados administrados de Adobe Analytics. Este programa le permite implementar un certificado de origen para cookies de origen de forma gratuita. El aprovechamiento de CNAME ayudará a [!DNL Target] los clientes a mitigar el impacto de ITP 2.1 e ITP 2.2.
+   Después de instalar la biblioteca ECID 4.3.0 o posterior, puede aprovechar el CNAME y el programa de certificados administrados de Adobe Analytics. This program lets you implement a first-party certificate for first-party cookies at no charge. El aprovechamiento de CNAME ayudará a [!DNL Target] los clientes a mitigar el impacto de ITP 2.1 e ITP 2.2.
 
    Si no aprovecha CNAME, puede iniciar el proceso hablando con el representante de su cuenta e inscribiéndose en el programa [de certificados administrados de](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program)Adobe.
 
@@ -61,4 +61,4 @@ Después de implementar una biblioteca JavaScript de Target junto con la bibliot
 
 As the industry makes strides to create a more secure web for consumers, [!DNL Adobe Target] is absolutely committed to delivering personalized experiences while meeting and exceeding the privacy expectations of visitors. [!DNL Adobe Target] ya ha anunciado la compatibilidad con las políticas [de Chrome del mismo sitio de](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) Google, además de la compatibilidad con ITP 2.1 y ITP 2.2 de Apple.
 
-A medida que las políticas sigan evolucionando para proteger a nuestros consumidores, también [!DNL Adobe] continuarán apoyando estas iniciativas en [!DNL Target], al tiempo que ayudarán a nuestros clientes a ofrecer las mejores experiencias personalizadas de su clase.
+As policies continue to evolve to protect our consumers,  will also continue to support these initiatives in , while helping our customers provide the best-in-class personalized experiences.[!DNL Adobe][!DNL Target]
