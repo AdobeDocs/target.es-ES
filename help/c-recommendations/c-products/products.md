@@ -2,7 +2,7 @@
 description: Las entidades se refieren a los elementos que desea recomendar. Puede tratarse de productos, contenido (p. ej., artículos, pases de diapositivas, imágenes, películas y programas de TV), ofertas de empleo, restaurantes, etcétera.
 keywords: producto;colecciones
 seo-description: Las entidades hacen referencia a los elementos que desea recomendar mediante Adobe Target. Puede tratarse de productos, contenido (p. ej., artículos, pases de diapositivas, imágenes, películas y programas de TV), ofertas de empleo, restaurantes, etcétera.
-seo-title: Entidades en Adobe Target
+seo-title: Entidades de Adobe Target
 solution: Target
 title: Entidades
 title-outputclass: premium
