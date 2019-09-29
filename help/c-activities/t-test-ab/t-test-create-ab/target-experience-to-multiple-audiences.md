@@ -13,7 +13,7 @@ source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 ---
 
 
-# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
+# Varias audiencias de una experiencia en una prueba A/B{#multiple-experience-versions-in-an-a-b-test}
 
 Puede dirigir versiones de la misma experiencia a distintas audiencias en actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
 
