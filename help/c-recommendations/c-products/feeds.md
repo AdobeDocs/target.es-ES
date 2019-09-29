@@ -1,7 +1,7 @@
 ---
 description: Utilice fuentes para obtener entidades importadas en Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
-keywords: fuente de recomendaciones;fuente;SAINT;FTP;CSV; clasificaciones; clasificaciones de analytics
-seo-description: Utilice fuentes para obtener entidades importadas en Adobe Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
+keywords: fuente de recomendaciones;fuente;SAINT;FTP;CSV;classifications;analytics classifications
+seo-description: Use feeds to get entities imported into Adobe Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
 seo-title: Fuentes
 solution: Target
 title: Fuentes
@@ -17,7 +17,7 @@ source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 # ![PREMIUM](/help/assets/premium.png) Fuentes{#feeds}
 
-Utilice fuentes para obtener entidades importadas en [!DNL Recommendations]. Las entidades se pueden enviar mediante archivos CSV, el formato de fuente de Búsqueda de productos de Google y clasificaciones de productos de Adobe Analytics.
+Utilice fuentes para obtener entidades importadas en [!DNL Recommendations]. Entities can be sent using CSV files, the Google Product Search feed format, and Adobe Analytics product classifications.
 
 ## Resumen de las fuentes {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
@@ -29,16 +29,16 @@ Si los datos son recopilados tanto por una fuente de entidades como por un mbox,
 
 La lista de [!UICONTROL Fuentes] (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado.
 
-![Página Fuentes](/help/c-recommendations/c-products/assets/feeds-page.png)
+![Feeds page](/help/c-recommendations/c-products/assets/feeds-page.png)
 
-La página Fuentes contiene las columnas siguientes:
+The Feeds page contains the following columns:
 
-* **Nombre**: El nombre de la fuente especificada durante la creación. Para editar el nombre de una fuente, debe editar la propia fuente. Cuando guarda la fuente con un nombre nuevo, esta se actualiza.
-* **Tipo**: Los tipos son [: CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Fuente](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)de productos de Google y [Clasificaciones de Analytics](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
-* **Estado**: Estado actual [de la fuente](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Programación**: Muestra el programa de actualización de la fuente: Diario, Semanal, Cada 2 semanas o Nunca.
-* **Elementos**: Muestra el número de elementos de la fuente.
-* **Última actualización**: Muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que ha actualizado la fuente. If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
+* **Name: The name of the feed specified during creation.** Para editar el nombre de una fuente, debe editar la propia fuente. Cuando guarda la fuente con un nombre nuevo, esta se actualiza.
+* **Tipo**: Los tipos incluyen [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), Alimentación [de productos de](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)Google y Clasificaciones [](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)de análisis.
+* **Status: The feed's current status.**[](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)
+* **Schedule: Displays the update schedule for the feed: Daily, Weekly, Every 2 Weeks, or Never.**
+* **Items: Displays the number of items in the feed.**
+* **Last Updated: Displays the date and time when the feed was last updated and the name of the person who updated the feed.** If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -56,7 +56,7 @@ Cualquier dato cargado con el archivo .csv, fuente de producto de Google o fuent
 
 >[!IMPORTANT]
 >
->No encierre valores entre comillas dobles (") en el archivo. csv a menos que éstos sean intencionados. Si coloca los valores entre comillas dobles, debe escaparlos escribiendo otro par de comillas dobles. Las comillas dobles que no se escapan evitan que la fuente de Recomendaciones se cargue correctamente.
+>No encierre valores entre comillas dobles ( " ) en el archivo .csv a menos que sean intencionales. Si coloca los valores entre comillas dobles, debe escaparlos escribiendo otro par de comillas dobles. Las comillas dobles que no se escapan impiden que la fuente de recomendaciones se cargue correctamente.
 
 Por ejemplo, la sintaxis siguiente es incorrecta:
 
@@ -94,7 +94,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 El tipo de fuente de Búsqueda de productos de Google utiliza el formato de Google. Es distinto al formato de carga CSV propiedad de Adobe.
 
-Si tiene una fuente de productos Google existente, puede utilizarla como archivo de importación.
+Si ya tiene una fuente de productos de Google, puede utilizarla como archivo de importación.
 
 >[!NOTE]
 >
@@ -208,30 +208,30 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
 1. En la interfaz de Target, haga clic en **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Fuentes]** &gt; **[!UICONTROL Crear fuente]**.
 
-   ![Cuadro de diálogo Crear fuente](assets/CreateFeed.png)
+   ![Create Feed dialog box](assets/CreateFeed.png)
 
 1. Elija un nombre descriptivo para la fuente.
 1. Seleccione un **[!UICONTROL Tipo de fuente]**.
 
    * CSV
-   * Fuente de productos de Google
+   * Google Product Feed
    * Clasificaciones de Analytics
-   Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). [También puede descargar una guía CSV modelo](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
+   For information about the CSV and Google Product Feed feed types, see Feeds Overview. [](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890) También puede [descargar una guía](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) CSV de modelo para ayudarle a dar un formato correcto a la fuente.
 
-1. (Condicional) Si seleccionó **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
+1. (Condicional) Si seleccionó **[!UICONTROL CSV]** o Alimentación de productos de **[!UICONTROL Google]**, especifique la ubicación en la que se puede acceder a la fuente.
 
-   * **FTP**: Si ha seleccionado FTP, indique la información del servidor FTP, las credenciales de inicio de sesión, el nombre de archivo y el directorio FTP. Tiene la opción de usar FTP con SSL (FTPS) para que las cargas sean más seguras.
+   * **FTP**: Si seleccionó FTP, proporcione la información del servidor FTP, las credenciales de inicio de sesión, el nombre de archivo y el directorio FTP. Tiene la opción de usar FTP con SSL (FTPS) para que las cargas sean más seguras.
 
       Configuración del servidor FTP admitida:
 
-      * FTP y FTPS deben estar configurados para utilizar FTP pasivo.
-      * En FTPS, configure el servidor para aceptar conexiones FTPS explícita.
-      * No se admite SFTP.
-      * Puede especificar manualmente un puerto en el que iniciar la conexión (p. ej. `ftp://ftp.yoursite.com:2121`,). Si no especifica un puerto, se utilizará el puerto FTP o FTPS predeterminado.
-   * **URL**: Si selecciona URL, especifique la URL.
+      * FTP y FTPS deben configurarse para utilizar FTP pasivo.
+      * Para FTPS, configure server para que acepte conexiones FTPS explícitas.
+      * SFTP no es compatible.
+      * Puede especificar manualmente un puerto en el que iniciar la conexión (p. ej. `ftp://ftp.yoursite.com:2121`). Si no especifica un puerto, se utiliza el puerto FTP o FTPS predeterminado.
+   * **Dirección URL**: Si selecciona URL, especifique la URL.
 
 
-1. (Condicional) Si seleccionó **[!UICONTROL Clasificaciones]** de Analytics, elija el grupo de informes en la lista desplegable.
+1. (Condicional) Si seleccionó Clasificaciones **** de Analytics, elija el grupo de informes en la lista desplegable.
 
 1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Programar].
 
@@ -281,7 +281,7 @@ Estos son los posibles estados de una fuente:
 | Esperando descarga | Target se está preparando para descargar el archivo de fuente. |
 | Descargando del archivo de fuente | Target está descargando el archivo de fuente. |
 | Importando elementos | Target está importando elementos del archivo de fuente. |
-| Fuente importada correctamente en *el momento* | Target ha importado el archivo de fuente al sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido y se reflejarán en breve en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo en breve y actualice la página que contenga recomendaciones.<br>*Nota 1:* Si los cambios realizados en los atributos de un elemento resultan en excluir un elemento de las recomendaciones, la exclusión se reflejará inmediatamente. Si se agrega un elemento recientemente o cambia a atributos, el elemento ya *no* se excluye de las recomendaciones, sino que no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.<br>*Nota 2:* Cuando se muestra este estado, es posible que las actualizaciones no se reflejen aún en la interfaz de usuario Buscar en el catálogo. Aparece un estado separado en la búsqueda en catálogo que indica la última vez que se actualizó el catálogo en el que se puede buscar. |
+| Fuente importada correctamente en el *momento* | Target ha importado el archivo de fuente en su sistema de entrega de contenido. Los cambios en los atributos de los artículos se han realizado en el sistema de entrega de contenido y en breve se reflejarán en las recomendaciones enviadas. Si no ve los cambios esperados, vuelva a intentarlo más tarde y actualice la página que contiene recomendaciones.<br>** Nota 1: Si los cambios realizados en los atributos de un artículo provocan que un artículo se excluya de las recomendaciones, la exclusión se reflejará inmediatamente. Si se agrega un artículo recientemente o si los cambios en los atributos *dejan de excluirse* un artículo de las recomendaciones, no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.<br>** Nota 2: Cuando se muestra este estado, es posible que las actualizaciones aún no se reflejen en la interfaz de usuario de Búsqueda en el catálogo. En la búsqueda en el catálogo se muestra un estado independiente que indica la última vez que se actualizó el catálogo en el que se puede realizar una búsqueda. |
 | Error en la indexación | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
 | Servidor no encontrado | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
 
