@@ -1,7 +1,7 @@
 ---
-description: El Compositor de experiencias visuales de Target facilita la creación de una prueba multivariable (MVT) en una página con Target habilitado y para modificar partes de la página en Target.
+description: El Compositor de experiencias visuales de Target le permite crear su Prueba multivariada (MVT) directamente en una página compatible con Target y modificar las partes de la página desde Target, todo ello de una manera sencilla.
 keywords: mvt; prueba multivariable; crear prueba multivariable; creación de prueba multivariable; crear mvt; creación de mvt, procedimiento de mvt; procedimiento de prueba multivariable
-seo-description: El Compositor de experiencias visuales (VEC) de Adobe Target facilita la creación de una prueba multivariable (MVT) en una página con Target habilitado y para modificar partes de la página en Target.
+seo-description: El Compositor de experiencias visuales (VEC) de Adobe Target le permite crear su prueba multivariada (MVT) directamente en una página compatible con Target y modificar las partes de la página desde Target, todo ello de una manera sencilla.
 seo-title: Crear una prueba multivariable
 solution: Target
 title: Crear una prueba multivariable
@@ -14,23 +14,23 @@ source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 # Crear una prueba multivariable{#create-a-multivariate-test}
 
-The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] makes it easy to create your test right on a Target-enabled page and to modify portions of the page within [!DNL Target].
+El [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Target] le permite crear su prueba directamente en una página compatible con Target y modificar partes de la página en [!DNL Target], todo ello de una manera sencilla.
 
 El editor de "apuntar y hacer clic" de Target permite elegir cualquier ubicación y añadirle varias ofertas.
 
-The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. Es decir, la prueba se ejecuta en una determinada dirección URL, con las experiencias que diseño para esa página.
+La [!UICONTROL prueba multivariada] (MVT) toma un informe centrado en una página. Es decir, la prueba se ejecuta en una determinada dirección URL, con las experiencias que diseño para esa página.
 
 1. Haga clic en **[!UICONTROL Crear actividad]** &gt; **[!UICONTROL Prueba multivariable]**.
 
-   ![Crear prueba multivariada](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
+   ![Crear una prueba multivariada](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
    >[!NOTE]
    >
-   >Los tipos de actividades disponibles dependen de su cuenta de Target. Algunos tipos de actividades podrían no aparecer en su lista. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >Los tipos de actividades disponibles dependen de su cuenta de Target. Algunos tipos de actividades podrían no aparecer en su lista. Por ejemplo, [!UICONTROL Automated Personalization] es una funcionalidad de [Target Premium](/help/c-intro/intro.md#premium).
    >
-   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
+   >Para obtener más información sobre los distintos tipos de actividades disponibles en [!DNL Target] y sus diferencias, consulte [Actividades](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulte [Tipos de actividades de Target](/help/c-activities/target-activities-guide.md) para ayudarle a decidir qué tipo de actividad encaja con sus necesidades.
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. Seleccione **[!UICONTROL Visual (Predeterminado)]**, si es necesario.
 
    ![Cuadro de diálogo Crear actividad de prueba multivariada](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
 
@@ -38,11 +38,11 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. Es decir, la
    >
    >Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Su organización tiene una licencia de Target Standard si no ve esta opción.]
+   >La opción [!UICONTROL Elegir lugar de trabajo] de la ilustración anterior es una [función de Target Premium](/help/c-intro/intro.md). Su organización tiene una licencia de Target Standard si no ve esta opción.]
 
-1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condicional) Si es cliente de Target Premium, [elija un espacio de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Especifique la URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) de la página que desee probar y haga clic **[!UICONTROL en Siguiente]**.
+1. [Especifique la dirección URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) para la página que desea probar y haga clic en **[!UICONTROL Siguiente]**.
 
    >[!NOTE]
    >
@@ -79,11 +79,11 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. Es decir, la
    * Imagen
    * Texto
 
-1. Click **[!UICONTROL Preview]** to [preview your experiences](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
+1. Haga clic en **[!UICONTROL Vista preliminar]** para [obtener una vista previa de las experiencias](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
    ![Previsualizar experiencias](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   Puede ver cada experiencia y excluir aquellas que no quiere incluir en la prueba. To exclude one or more experiences, select the desired checkboxes, then click **[!UICONTROL Exclude]** .
+   Puede ver cada experiencia y excluir aquellas que no quiere incluir en la prueba. Para excluir una o varias experiencias, seleccione las casillas que desee y haga clic en **[!UICONTROL Excluir]**.
 
    ![Excluir experiencias](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
@@ -99,11 +99,11 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. Es decir, la
 
    ![](assets/estimator2.png)
 
-1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.]
+1. Haga clic en **[!UICONTROL Siguiente]** para avanzar a la página [!UICONTROL Segmentación].]
 
 1. Elija la audiencia y el porcentaje de visitantes correspondiente que desea que participen de la actividad.
 
-   ![Página de destino en actividad MVT](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
+   ![Página de segmentación en actividad MVT](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
 
    Por ejemplo, podría limitar las entradas al 50 % de todos los visitantes o al 45 % de la audiencia de California.
 
