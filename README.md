@@ -1,6 +1,6 @@
 ---
 source-git-commit: bae4cd6ae1efaf4e9b057750dda11267e0e9a181
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Artículo de Contribute
@@ -15,13 +15,13 @@ Este proyecto ha adoptado el [Código de conducta de Adobe Open Source](code-of-
 
 ## Acerca de las contribuciones al contenido de Adobe
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Consulte la [Guía de contribuciones para documentos de Adobe](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 La manera en que contribuya depende de quién sea y del tipo de cambios con los que desee contribuir:
 
 ### Cambios menores
 
-Si va a contribuir con actualizaciones menores positivas, visite el artículo y haga clic en el vínculo **Editar** del artículo que va al origen de GitHub. A continuación, utilice la interfaz de usuario de GitHub para realizar los cambios. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
+Si va a contribuir con actualizaciones menores positivas, visite el artículo y haga clic en el vínculo **Editar** del artículo que va al origen de GitHub. A continuación, utilice la interfaz de usuario de GitHub para realizar los cambios. Para obtener más información, consulte la [Guía general de contribuciones para documentos de Adobe](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 Las correcciones menores o las aclaraciones que envíe para la documentación y los ejemplos de código en este repositorio están sujetos a las condiciones de uso de Adobe.
 
@@ -43,14 +43,14 @@ Si es un redactor técnico, administrador de programa o desarrollador del equipo
 
 Los colaboradores de la comunidad pueden utilizar la IU de GitHub para hacer cambios básicos o para que el repositorio realice contribuciones importantes.
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
+Para obtener más información, consulte la [Guía de contribuciones para documentos de Adobe](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 ## Usar Markdown para dar formato al tema
 
 Todos los artículos de este repositorio utilizan Markdown de GitHub. Si no está familiarizado con Markdown, consulte:
 
 * [Conceptos básicos de Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Hoja de consejos de marcado imprimible](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Hoja resumen de Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etiquetas
 
