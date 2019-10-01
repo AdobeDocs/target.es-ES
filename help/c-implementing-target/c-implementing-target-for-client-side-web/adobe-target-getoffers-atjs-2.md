@@ -1,6 +1,6 @@
 ---
 description: 'Información sobre la función adobe.target.getOffers() para at.js. '
-keywords: adobe.target.getOffers;getOffers;getoffer;get options;at.js;funciones;function
+keywords: adobe.target.getOffers;getOffers;getoffers;obtener oferta;at.js;funciones;función
 seo-description: Información sobre la función adobe.target.getOffers(options) para la biblioteca de JavaScript at.js de Adobe Target.
 seo-title: Información sobre la función adobe.target.getOffers() para la biblioteca de JavaScript at.js de Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Primeros pasos
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
+source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
 
 ---
 
@@ -76,7 +76,7 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 adobe.target.getOffers({
     request: {
       prefetch: {
-        views: []
+        views: [{}]
     }
   }
 });
