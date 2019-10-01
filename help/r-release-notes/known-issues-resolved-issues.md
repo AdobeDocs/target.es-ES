@@ -1,14 +1,14 @@
 ---
 description: Información sobre problemas conocidos con esta versión de Target. También incluye información sobre problemas que ya se han resuelto.
-keywords: problemas conocidos;problemas resueltos;notas de la versión;errores;problemas;correcciones
-seo-description: Information about known issues for this release of Adobe Target. También incluye información sobre problemas que ya se han resuelto.
-seo-title: Problemas conocidos y problemas resueltos. en Adobe Target
+keywords: problemas conocidos;problemas resueltos;notas de la versión;bugs;issues;fixes
+seo-description: Información sobre problemas conocidos de esta versión de Adobe Target. También incluye información sobre problemas que ya se han resuelto.
+seo-title: Problemas conocidos y problemas resueltos  en Adobe Target
 solution: Target
 title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 ---
 
@@ -27,7 +27,7 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 
 ### Vínculos de vista previa de control de calidad de la actividad {#preview}
 
-[Es posible que los vínculos de vista previa](/help/c-activities/c-activity-qa/activity-qa.md) del control de calidad de la actividad de las actividades guardadas no se carguen si hay demasiadas actividades guardadas en la cuenta. Reintentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se utilizan activamente. (TNT-32697)
+Es posible que los vínculos de [Vista previa de control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) para las actividades guardadas no se carguen si hay demasiadas guardadas en su cuenta. Volver a intentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se usan de forma activa. (TNT-32697)
 
 ### Ofertas de redireccionamiento {#redirect}
 
@@ -62,8 +62,9 @@ Es posible que las ofertas de código creadas desde la interfaz de usuario de Ta
 
 Los siguientes son problemas conocidos de las actividades de Recommendations:
 
-* El error de Recommendations “error.restapi.algorithmProfileAttributeInvalid” se produce cuando se usan atributos de perfil específicos como clave de los criterios.
-* Cuando se usa Promoción secundaria en una actividad de Recommendations, los filtros de inclusión de criterios no se aplican a los ER de copia de seguridad.
+* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
+* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
 
 ### Actividades de prueba multivariable (MVT)
 
@@ -124,7 +125,7 @@ A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán
 
 * El índice de fuentes de Recommendations puede mostrar “Esperando índice” si los elementos de la fuente son los mismos que en la ejecución anterior. La ingesta del producto para la entrega no se ve afectada. (RECS-6663)
 
-   Este problema se ha corregido en la versión 19.4.2 de Target.
+   Este problema se solucionó en la versión 19.4.2 de Target.
 
 * Las fuentes de Recommendations tardan más de lo esperado en procesarse. (COR-2836)
 
@@ -138,7 +139,7 @@ A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán
 
 Una condición de carrera en la página puede provocar que se cuenten las vistas de página en la página original y en la página de redirección. Hay actualizaciones previstas para la implementación de at.js para garantizar que se pueda evitar esta condición de carrera.
 
-Este problema se ha corregido en at.js 1.6.3.
+Este problema se solucionó en at.js 1.6.3.
 
 ### Grupos de exclusión
 
