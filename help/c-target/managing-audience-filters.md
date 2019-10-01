@@ -1,13 +1,13 @@
 ---
 description: Los filtros de audiencia (o audiencias) son grupos de visitantes que comparten una característica o un conjunto de características específicos.
-keywords: Segmentación;filtro de audiencia;audiencias
-seo-description: Los filtros de audiencia (o audiencias) son grupos de visitantes que comparten una característica o un conjunto de características específicos.
-seo-title: Filtros de audiencia para la creación de informes
+keywords: Segmentación;filtro de audiencia;audiencias;filter
+seo-description: Los filtros de audiencia en Adobe Target (o audiencias) son grupos de visitantes que comparten una característica o un conjunto de características específicos.
+seo-title: Filtros de audiencia para informes en Adobe Target
 solution: Target
 title: Filtros de audiencia para la creación de informes
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -22,8 +22,8 @@ Por ejemplo, una audiencia puede ser la de los visitantes que llegan a la págin
 
 Cuando vaya a utilizar filtros de audiencia en una actividad, tenga en cuenta las pautas siguientes:
 
-* **Los visitantes pueden estar en varias audiencias.** Si hay dos audiencias configuradas (por ejemplo, “nuevos visitantes” y “visitantes de Google”) y una persona cumple ambos criterios, esa persona se contabiliza y se rastrea en ambas audiencias. Por lo tanto, la suma de los visitantes de las audiencias no coincide con el número de visitantes de una actividad.
-* **Configure las audiencias antes de lanzar la campaña.** Los datos de audiencia no se pueden recuperar de manera retroactiva. Si no configura los filtros de audiencia antes de iniciar la actividad y luego decide usarlos cuando esta ya lleva un tiempo en marcha, no recabará los datos correspondientes al tiempo que ya ha pasado.
+* **Los visitantes pueden estar en varias audiencias.** If there are two audiences set up (for example, "new visitors" and "visitors from Google"), and a person meets both criteria, then this visitor is counted and tracked in both audiences. Por lo tanto, la suma de los visitantes de las audiencias no coincide con el número de visitantes de una actividad.
+* **Configure las audiencias antes de iniciar la actividad.** Los datos de audiencia no se pueden recuperar de manera retroactiva. Si no configura los filtros de audiencia antes de iniciar la actividad y luego decide usarlos cuando esta ya lleva un tiempo en marcha, no recabará los datos correspondientes al tiempo que ya ha pasado.
 * **Empiece con un número de audiencias de entre dos y cuatro.** Céntrese en la información básica, como la fuente del tráfico.
 * **Cambie el nombre de las audiencias cuando sea necesario.** Puede cambiarles el nombre sin que ello afecte a los datos con el fin de que el nombre de la audiencia represente mejor los resultados que se están recopilando aunque la actividad esté activa.
 * **Introduzca valores precisos.** Los valores de los filtros de audiencia distinguen entre mayúsculas y minúsculas. Por ejemplo, si usa un audiencia que filtra por ciudad, debe usar una condición “O” para que se incluyan variantes de escritura y mayúsculas/minúsculas, como “Vienna”, “Viena”, “viena”, “wien” y “Wien”.
@@ -36,6 +36,6 @@ Las secciones siguientes contienen más información sobre la configuración y l
 | Crear la actividad o prueba apropiadas. | [Actividades y pruebas](/help/c-intro/target-key-concepts.md) |
 | Crear audiencias en caso necesario. | [Crear una audiencia](/help/c-target/c-audiences/create-audience.md) |
 | Combinar varias audiencias en caso necesario. | [Combinación de varias audiencias](/help/c-target/combining-multiple-audiences.md) |
-| Aplicar audiencias en la página Objetivos y configuración de la actividad. | Prueba A/B: [Objetivos y configuración](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Personalización automatizada: [Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Segmentación de experiencias: [Objetivos y configuración](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Prueba multivariable: [Objetivos y configuración](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Configuración de la actividad: [Configuración de actividades](/help/c-activities/activity-settings.md) |
-| Ver informes con datos sobre los filtros de audiencia. | Configuración de informes |
+| Aplicar audiencias en la página Objetivos y configuración de la actividad. | A/B Test: [Goals and Settings](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization:  [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Goals and Settings](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Multivariate Test:  [Goals and Settings](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Recommendations activity settings](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Activity Settings: [Activity Settings](/help/c-activities/activity-settings.md) |
+| Ver informes con datos sobre los filtros de audiencia. | [Configuración de informes](/help/c-reports/c-report-settings/report-settings.md) |
 
