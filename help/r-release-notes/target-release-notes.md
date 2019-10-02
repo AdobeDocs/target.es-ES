@@ -1,14 +1,14 @@
 ---
-description: Notas de la versión que proporcionan información sobre funciones, mejoras y correcciones para las versiones más recientes o futuras de Adobe Target.
+description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming Adobe Target releases.
 keywords: notas de la versión;versiones;actualizaciones;versión futura;mejoras;nuevas funciones;correcciones
-seo-description: Notas de la versión que proporcionan información sobre funciones, mejoras y correcciones para las versiones más recientes o futuras de Adobe Target de DNL.
-seo-title: Notas de la versión de Adobe Target (versión prelanzamiento)
+seo-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming DNL Adobe Target releases.
+seo-title: Notas de la versión de evaluación de Adobe Target
 solution: Target
 title: Notas de la versión de Target (versión previa)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 285a09503ba6abaf2bfe19fc2b214c32ebd2de3a
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 En estas notas de la versión se proporciona información acerca de las funciones, las mejoras, las correcciones y los problemas conocidos de las últimas o de las próximas versiones de [!DNL Adobe Target].
 
-**Última actualización: 24 de septiembre de 2019**
+**Última actualización: 2 de octubre de 2019**
 
 >[!NOTE]
 >
@@ -25,34 +25,20 @@ En estas notas de la versión se proporciona información acerca de las funcione
 >
 >Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## Anuncios
+## Plataforma de destino (fechas por determinar)
 
-**July 31, 2019**
-
-[!UICONTROL Los permisos] de Enterprise permiten a [!DNL Target] los clientes utilizar una sola organización, pero dividirla en espacios de trabajo para diferentes equipos o flujos de trabajo. The Enterprise Permissions feature facilitates effective scaling of optimization programs across teams.  Although this feature was available in the  UI, the Admin APIs lacked the corresponding support until the  February 2019 release. [!DNL Target][!DNL Target] Adobe updated the Admin APIs so that you can use the integration account to access all workspaces created in your organization. So, while earlier, Admin APIs were restricted to the default workspace, the February 2019 update granted access to all workspaces with Approver access.
-
-Con la próxima versión de [!DNL Target] septiembre de 2019, los permisos [!UICONTROL de] Enterprise proporcionarán a los clientes los siguientes controles de acceso:
-
-* You can choose the workspaces to which the integration can be applied
-* You can apply a role to the Adobe I/O integration: Approver, Editor, or Observer.
-
-**Action Required**: Customers who are currently leveraging APIs for CRUD operations on resources (activities, audiences, offers, and reporting) across all workspaces need to grant their existing Adobe I/O integration access to all workspaces with the desired role. Prior to the September release, all integrations operated using Approver access, regardless of the role selected from the Product Role drop-down list.  With the upcoming release, you can now select the desired role.
-
-This action should be performed during the month of August 2019. **** After the  September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. [!DNL Target] There is no adverse consequence to setting up integration roles in advance.
-
-Para obtener instrucciones paso a paso y más información, consulte [Conceder acceso a las integraciones de Adobe I/O a los espacios de trabajo y asignar funciones](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
-
-## Target Standard/Premium 19.9.2 (30 de septiembre de 2019)
-
-Esta versión de mantenimiento incluye la siguiente mejora:
-
-* Several security fixes, including a security update to the Rich Text Editor (RTE) in the Visual Experience Composer (VEC). (TGT-35383)
-
-## Target Standard/Premium 19.9.1 (10 de septiembre de 2019)
-
-| Función. / Mejora | Descripción |
+| Función.  / Mejora | Descripción |
 | --- | --- |
-| ![Permisos de Enterprise con distintivo](/help/assets/premium.png) Premium | Con la versión de Target de septiembre de 2019, los permisos de Enterprise proporcionan a los clientes los siguientes controles de acceso:<UL><li>Puede elegir los espacios de trabajo a los que se puede aplicar la integración.</li><li>Puede aplicar una función a la integración de Adobe I/O: Aprobador, Editor u Observador.</li></ul>Para obtener instrucciones paso a paso y más información, consulte [Conceder acceso a las integraciones de Adobe I/O a los espacios de trabajo y asignar funciones](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| SDK de Node.js versión 1.0 | El SDK de Node.js de Target permite implementar Target en el servidor.<br>Este SDK de Node.js ayuda a integrar fácilmente Target con otras soluciones de Experience Cloud, como el servicio de identidad de Adobe Experience Cloud, Adobe Analytics y Adobe Audience Manager.<br>El SDK de Node.js introduce prácticas recomendadas y elimina las complejidades al integrarse con Adobe Target a través de nuestra API de entrega, de modo que sus equipos de ingeniería puedan centrarse en la lógica empresarial. Las siguientes son funciones destacadas que presentamos en la versión más reciente:<ul><li>Compatibilidad con la recuperación previa y las notificaciones que le permiten optimizar el rendimiento mediante almacenamiento en caché.</li><li>Compatibilidad para optimizar el rendimiento cuando se dispone de una integración híbrida de Target en las páginas web y en el servidor. We are introducing a setting called  that will be populated by experiences retrieved via the server-side so that at.js 2.2 will no longer make an additional server call to retrieve the experiences. `serverState` Este método optimiza el rendimiento de carga de la página.</li><li> Compatibilidad con la recuperación de actividades creadas por VEC mediante el SDK de Node.js, lo cual es posible gracias a la nueva API de envío.</li><li>Abra source para que los desarrolladores puedan contribuir al SDK de Node.js.</li></ul> |
+| API de envío | En la producción habrá disponible un extremo de la API de entrega completamente nuevo (/v1/delivery). Las características destacables son:<ul><li>Un punto final para recuperar experiencias para uno o varios mboxes.</li><li>Recupere actividades creadas por VEC mediante la API.</li><li>Compatibilidad con un objeto completamente nuevo llamado Vistas que se utiliza en aplicaciones de una sola página (SPA) y aplicaciones móviles.</li></ul> |
+| Versión 2.2.<br><br>y at.js versión 1.8 de at.js | Estas versiones de at.js proporcionan:<ul><li>Se ha mejorado el rendimiento al usar tanto el servicio Experience Cloud ID (ECID) v4.4 como at.js 2.2 o at.js 1.8 en las páginas web.</li><li>Anteriormente, el ECID realizaba dos llamadas de bloqueo antes de que at.js pudiera recuperar experiencias. Esto se ha reducido a una sola llamada, lo que mejora significativamente el rendimiento.</li></ul> Para aprovechar estas mejoras de rendimiento, actualice a at.js 2.2 o at.js 1.8 junto con la biblioteca ECID v4.4. |
+
+
+## Target Standard/Premium 19.10.1 (22 de octubre de 2019)
+
+| Función.  / Mejora | Descripción |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) User-Based Recommendations | Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como "Recomendado para usted".<br>Este criterio le permite entregar contenido y experiencias personalizados tanto a visitantes nuevos como a visitantes que regresan. La lista de recomendaciones se centra en la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el visitante navega por el sitio. |
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
