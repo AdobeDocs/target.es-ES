@@ -2,13 +2,13 @@
 description: Estas notas de la versión proporcionan información sobre características, mejoras, correcciones y problemas conocidos para todas las versiones de Target Standard y Target Premium.
 keywords: Notas de la versión;nuevas funciones;versiones;actualizaciones;actualización;versión;mejora;mejoras;correcciones;correcciones de errores
 seo-description: Estas notas de la versión proporcionan información sobre características, mejoras, correcciones y problemas conocidos para todas las versiones de Adobe Target Standard y Target Premium.
-seo-title: Notas de la versión de Adobe Target (actual)
+seo-title: 'Notas de la versión de Adobe Target (actual) '
 solution: Target
 title: Notas de la versión de Target (actual)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dd6bbdc6ab571b769d8426e7554e8a1d52813c3a
+source-git-commit: 2dc67c9d864cea3df2806dfcaafd4a56aa2eca4f
 
 ---
 
@@ -22,7 +22,7 @@ Estas notas de la versión proporcionan información sobre características, mej
 Esta versión de mantenimiento incluye las siguientes mejoras:
 
 * Varias correcciones de seguridad, incluida una actualización de seguridad del Editor de texto enriquecido (RTE) en el Compositor de experiencias visuales (VEC). (TGT-35383)
-* Recommendations Offers can now be added to elements other than DIV (e.g. P, UL, H1), in addition to DIV, in A/B Test and Experience Targeting activities. (TGT-34333)
+* Las ofertas de Recomendaciones ahora se pueden agregar a elementos que no sean DIV (por ejemplo, P, UL, H1), además de DIV, en las actividades de Prueba A/B y de Segmentación de experiencias. (TGT-34333)
 
 ## Target Standard/Premium 19.9.1 (10 de septiembre de 2019)
 
