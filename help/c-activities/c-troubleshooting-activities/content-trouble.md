@@ -1,15 +1,15 @@
 ---
 description: Si su página no muestra el contenido esperado, puede seguir algunos pasos que le ayudarán a depurar la publicación de contenido.
 keywords: depurar mbox;problemas de mbox;solucionar problemas de mbox;parpadeo;mboxDebug;mboxTrace;token;depurador;prioridad;prioridad de actividad;Adobe Experience Cloud Debugger;mbox orderConfirmPage;SiteCatalyst;mbox compra;más vendidos;más vendido
-seo-description: Si su página no muestra el contenido esperado, puede seguir algunos pasos que le ayudarán a depurar la publicación de contenido.
-seo-title: Resolución de problemas de la entrega de contenido
+seo-description: Si su página no muestra el contenido esperado, puede seguir algunos pasos para depurar la entrega de contenido en Adobe Target.
+seo-title: Solución de problemas de entrega de contenido en Adobe Target
 solution: Target
 subtopic: Prueba multivariable
 title: Resolución de problemas de la entrega de contenido
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -75,11 +75,11 @@ Entre esta información se incluyen los ID de objetivo y los segmentos con coinc
 * Exclusiones e inclusiones aplicadas
 * Reglas de recopilación
 
-No tiene que incluir `=console`, `=json` ni `=window` en el parámetro de consulta. Cuando termine con los detalles de mboxTrace, agregue `=disable` y pulse **[!UICONTROL Intro]** para volver al modo de visualización normal.
+No tiene que incluir  `=console`, `=json` ni `=window` en el parámetro de consulta. Cuando termine con los detalles de mboxTrace, agregue `=disable` y pulse **[!UICONTROL Intro]** para volver al modo de visualización normal.
 
 mboxTrace no afecta a la apariencia ni al funcionamiento normal de su sitio. Los visitantes verán su diseño habitual de Recommendations.
 
-## mboxDebug {#section_DC92A0E4388A4A2787365AD9D556FEFA}
+## mboxDebug {#mboxdebug}
 
 Para usar mboxDebug, añada un parámetro de mboxDebug al final de la dirección URL. La tabla siguiente contiene información sobre los parámetros de URL relacionados con mbox.
 
@@ -96,7 +96,11 @@ Para usar mboxDebug, añada un parámetro de mboxDebug al final de la dirección
 | `mboxDebug=x-time` | Mostrar el tiempo de respuesta de cada solicitud de mbox |
 | `mboxOverride.browserIp=<Insert IP address>` | Pruebe Geotargeting<br>Pruebe Geotargeting con este parámetro de URL. Escriba una dirección IP como valor para este atributo. La segmentación geográfica de Test&amp;Target evalúa esa dirección IP para compararla con cualquier segmentación geográfica o conjunto de segmentación definido en una campaña. |
 
-## Adobe Experience Cloud Debugger. {#section_A2798ED3A431409690A4BE08A1BFCF17}
+>[!NOTE]
+>
+>Asegúrese de que el fragmento de URL se encuentra después de los parámetros de cadena de consulta. Cualquier cosa después de la primera `#` es un identificador de fragmento y hace que los parámetros de depuración no funcionen correctamente.
+
+## Adobe Experience Cloud Debugger.  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla su implementación de Target. Puede ver rápidamente la configuración de la biblioteca, examinar las solicitudes para asegurarse de que los parámetros personalizados se pasan correctamente, activar el registro de consola y desactivar todas las solicitudes de Target. Si se autentica en Experience Cloud, podrá utilizar la potente herramienta Mbox Trace para inspeccionar su actividad, las cualificaciones de audiencia y el perfil del visitante.
 
@@ -108,7 +112,7 @@ Para obtener más información, consulte [Depuración de at.js con el depurador]
 
 Mbox.js envía una cookie denominada “em-disabled” al visitante si target.js no se puede cargar durante la entrega. Esta cookie impide que las ofertas creadas con el Compositor de experiencias visuales se procesen en el sitio. Los visitantes con esta cookie no ven el contenido de prueba ni se cuentan en esos informes de actividades. Todo el demás contenido de ofertas (de campañas en Target Classic, por ejemplo) sigue cargándose. La cookie tiene una vida útil de 30 minutos desde el momento del error en la carga.
 
-## Los principales vendedores no aparecen en Recommendations. {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Los principales vendedores no aparecen en Recommendations.  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 No se puede usar el *`SIteCatalyst: purchase`* de mbox para los datos del tráfico del algoritmo Compra. Utilice el *`orderConfirmPage`* de mbox en su lugar.
 
@@ -126,7 +130,7 @@ Actualice a la versión 58 o posterior de [!DNL mbox.js].
 
 Las versiones 58 y posteriores de mbox.js ejecutan contenido que no es de JavaScript para el mbox global inmediatamente después de la etiqueta `BODY` de HTML. El contenido de JavaScript que está dentro de las etiquetas `<script>` para el mbox global se ejecuta una vez activado el evento `DOMContentLoaded`. Este orden en la entrega de contenido garantiza que el contenido de JavaScript para el mbox global se entregue y represente adecuadamente.
 
-## La cookie de Target no se puede establecer. {#section_77AFEB541C0B495EB67E29A4475DF960}
+## La cookie de Target no se puede establecer.  {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Si su sitio tiene un subdominio, como [!DNL us.domain.com], pero necesita establecer la cookie de Target en [!DNL domain.com] (en lugar de [!DNL us.domain.com]), tiene que anular el valor de configuración `cookieDomain`. Para obtener más información, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
@@ -136,7 +140,7 @@ Si un elemento DOM es parte de una segmentación de personalización de Adobe Ex
 
 A fin de remediar esto, puede deshabilitar la personalización de AEM en las páginas en las que Target se está ejecutando.
 
-## Las ofertas de redirección y remotas no se pueden entregar debido a una dirección URL no válida. {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Las ofertas de redirección y remotas no se pueden entregar debido a una dirección URL no válida.  {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Si la oferta de redirección o remota utiliza una dirección URL no válida, es posible que no se pueda entregar.
 
