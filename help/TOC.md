@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/es-ES/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + Permisos de usuario de Enterprise {#enterprise}
          + [Permisos de usuario de Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuración de permisos de Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Conceder a las integraciones de Adobe I/O acceso a espacios de trabajo y asignar funciones](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Conceder acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Integración con Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Tokens de respuesta](administrating-target/response-tokens.md)
@@ -53,10 +53,10 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Preparación para implementar Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacidad y seguridad {#privacy}
          + [Información general sobre la privacidad](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Normas de privacidad y protección de datos](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Reglamentos de protección de datos y privacidad](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Eliminar la cookie de Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Políticas de cookies de Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Directivas de directiva de seguridad de contenido (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + Métodos para obtener los datos en Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
@@ -137,15 +137,15 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
          + [Android: configuración de la aplicación móvil](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS: configuración de la aplicación móvil](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configurar el rastreo de clics en el VEC móvil](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [Preguntas más frecuentes sobre Target para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Servidor: implementación de Target {#server-side}
-      + [Notas de la versión: API y SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Servidor: información general sobre la implementación de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transición de las API heredadas de Target a Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Correo electrónico: implementación de Target {#implement-email}
       + [Correo electrónico: información general sobre la implementación de Target.](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Crear un Adbox para una imagen](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
-      + [Comprobar un adbox de imagen de correo electrónico](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
+      + [Comprobación de un Adbox de imagen de correo electrónico](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Trabajar con redirectores](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Integración de Adobe Target con Experience Cloud {#integrate}
    + Adobe Analytics como fuente de informes para Adobe Target (A4T) {#a4t}
@@ -159,10 +159,10 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + Resolución de problemas de integración de Analytics y Target (A4T){#troubleshoot-a4t}
          + [Resolución de problemas de A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimización de los recuentos inflados de visitas y visitantes en A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + Preguntas más frecuentes sobre A4T. {#a4t-faq}
+      + Preguntas más frecuentes sobre A4T.  {#a4t-faq}
          + [Aprovisionamiento inicial: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Configuración de actividades: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
-         + [Ver informes: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
+         + [Visualización de informes: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
          + [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
          + [Alza y confianza: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [Definiciones de métricas: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
@@ -247,7 +247,6 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Información general sobre el control de calidad de la actividad](c-activities/c-activity-qa/activity-qa.md)
       + [Bookmarklet de control de calidad de la actividad](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Usar el control de calidad de la actividad con entrega de servidor](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-   + [Notificaciones de actividades](c-activities/notifications.md)
 + Audiencias{#audiences}
    + [Información general de las audiencias](c-target/target.md)
    + [Cómo funciona la segmentación](c-target/target-how-target-works.md)
@@ -285,7 +284,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Compartir métricas, audiencias e informes: preguntas más frecuentes sobre A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiencias y ofertas {#experiences}
    + [Información general sobre experiencias y ofertas](c-experiences/experiences.md)
-   + Compositor de experiencias visuales (VEC). {#vec}
+   + Compositor de experiencias visuales (VEC).  {#vec}
       + [Información general sobre el Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Opciones del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Incluir la misma experiencia en páginas similares](c-experiences/c-visual-experience-composer/temtest.md)
@@ -342,7 +341,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
    + [Preguntas más frecuentes sobre la creación de informes](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Información general de Recommendations](c-recommendations/recommendations.md)
-   + [Introducción a Recomendaciones](c-recommendations/introduction-to-recommendations.md)
+   + [Introducción a Recommendations](c-recommendations/introduction-to-recommendations.md)
    + [Planificar e implementar Recommendations](c-recommendations/plan-implement.md)
    + Entidades {#entities}
       + [Información general sobre entidades](c-recommendations/c-products/products.md)
