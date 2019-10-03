@@ -1,14 +1,14 @@
 ---
 description: Información sobre problemas conocidos con esta versión de Target. También incluye información sobre problemas que ya se han resuelto.
-keywords: problemas conocidos;problemas resueltos;notas de la versión;bugs;issues;fixes
-seo-description: Information about known issues for this release of Adobe Target. También incluye información sobre problemas que ya se han resuelto.
+keywords: problemas conocidos;problemas resueltos;notas de la versión;errores;problemas;correcciones
+seo-description: Información sobre problemas conocidos de esta versión de Adobe Target. También incluye información sobre problemas que ya se han resuelto.
 seo-title: Problemas conocidos y problemas resueltos  en Adobe Target
 solution: Target
 title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d29da9303be3dfd017fc738c5b4ecc68f837077
+source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
 
 ---
 
@@ -62,11 +62,11 @@ Es posible que las ofertas de código creadas desde la interfaz de usuario de Ta
 
 Los siguientes son problemas conocidos de las actividades de Recommendations:
 
-* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
-* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
-* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
-* Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API. (TGT-35777)
-* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API
+* Las entidades caducan correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después de la caducidad. (IRI-857)
+* Las superposiciones "Información de uso" para criterios y diseños no reflejan su uso en actividades A/B y de segmentación de experiencias (TGT-34331)
+* Las ofertas de Recomendaciones de las actividades A/B y de Segmentación de experiencias no muestran una vista previa visual de la bandeja Recomendaciones (TGT-33426)
+* Las colecciones, exclusiones, criterios y diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API. (TGT-35777)
+* Las actividades de Recomendaciones creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
 
 ### Actividades de prueba multivariable (MVT)
 
@@ -76,7 +76,7 @@ En una actividad MVT, el ganador que se muestra en la tabla y en el gráfico no 
 
 A continuación, detallamos los problemas conocidos de at.js:
 
-* If you create an experience with no modifications using at.js 2.*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.* In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
+* Si crea una experiencia sin modificaciones con at.js 2.*x* (por ejemplo, una experiencia predeterminada), es posible que la experiencia no se cuente en informes, Analytics para Target (A4T), Analytics o Google Analytics. In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
 
    As a workaround, use a whitespace in the experience content. (TNT-33366)
 
