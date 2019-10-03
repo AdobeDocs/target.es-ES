@@ -1,14 +1,14 @@
 ---
 description: Información sobre problemas conocidos con esta versión de Target. También incluye información sobre problemas que ya se han resuelto.
 keywords: problemas conocidos;problemas resueltos;notas de la versión;bugs;issues;fixes
-seo-description: Información sobre problemas conocidos de esta versión de Adobe Target. También incluye información sobre problemas que ya se han resuelto.
+seo-description: Information about known issues for this release of Adobe Target. También incluye información sobre problemas que ya se han resuelto.
 seo-title: Problemas conocidos y problemas resueltos  en Adobe Target
 solution: Target
 title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -73,6 +73,10 @@ En una actividad MVT, el ganador que se muestra en la tabla y en el gráfico no 
 ### at.js
 
 A continuación, detallamos los problemas conocidos de at.js:
+
+* If you create an experience with no modifications using at.js 2.*x* (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics. In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
+
+   Como solución alternativa, utilice un espacio en blanco en el contenido de la experiencia. (TNT-33366)
 
 * Cuando se carga una página en el Compositor de experiencias visuales (VEC), Target debe determinar si la configuración de mbox global está habilitada o deshabilitada, y si entityID o categoryID están presentes en la ubicación donde el usuario intenta aplicar las recomendaciones del VEC. La lista de criterios se filtra en función de esta información. La lista predeterminada tiene filtrados algunos algoritmos, pero la [casilla Compatible](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) le permite ver la lista de algoritmos completa.
 
