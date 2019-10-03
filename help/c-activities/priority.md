@@ -1,14 +1,14 @@
 ---
 description: Target determina qué actividad (o actividades) ofrece en una página de forma diferente en función de qué interfaz de Target y de qué función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) esté usando.
 keywords: configuración;prioridad
-seo-description: Target determina qué actividad (o actividades) ofrece en una página de forma diferente en función de qué interfaz de Target y de qué función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) esté usando.
-seo-title: Prioridad
+seo-description: Adobe Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
+seo-title: Prioridad en Adobe Target
 solution: Target
 title: Prioridad
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -28,7 +28,7 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
    Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
 
 1. Se devuelve a la página el contenido de todas las actividades y experiencias con las que el visitante se ve relacionado.
-1. Si el contenido de cada actividad hace referencia a diferentes. [selectores CSS](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), se muestra todo el contenido.
+1. Si el contenido de cada actividad hace referencia a diferentes.  [selectores CSS](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), se muestra todo el contenido.
 
    Si se produce solapamiento o si hay un selector CSS duplicado, se muestra el contenido de la actividad con mayor prioridad. Los resultados de todas las actividades que se ejecutan en la página se contabilizan y se reflejan en los informes.
 
@@ -41,7 +41,7 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
    * Si solo una actividad tiene segmentación de la audiencia, se muestra esa actividad.
    * Si todas o ninguna tienen segmentación, se muestra la actividad que se aprobó en primer lugar.
 
-## Compositor basado en formularios de Target Standard/Premium y Compositor de experiencias visuales de Target Standard/Premium. {#section_4620253E1CE942DD830724C7822B175F}
+## Compositor basado en formularios de Target Standard/Premium y Compositor de experiencias visuales de Target Standard/Premium.  {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Si tiene dos actividades, una que segmenta por la palabra clave de búsqueda por
 
 Si ambas actividades segmentadas tienen la misma prioridad, se muestra la última actividad que se vio. Si el visitante es nuevo en la página, se muestra la última actividad que se activó.
 
-## Compositor basado en formularios de Target Standard/Premium con mboxes no globales. {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositor basado en formularios de Target Standard/Premium con mboxes no globales.  {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Si su empresa utiliza mboxes no globales en el compositor basado en formularios,
 
 >[!NOTE]
 >
->Los valores de prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. Para obtener más información, consulte [Configuración de actividades](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Los valores de prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. Para obtener más información, consulte  [Configuración de actividades](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 **Dos campañas de Target Classic usan mboxes que no son globales**
 
