@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 810ea6ab6ebb46710e176b1bc94b02ef3b7c1d31
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -17,26 +17,28 @@ source-git-commit: 810ea6ab6ebb46710e176b1bc94b02ef3b7c1d31
 
 En esta página se detallan algunos cambios importantes que hemos realizado en la documentación de [!DNL Adobe Target].
 
-## Adobe Target/Standard/Premium 19.9.1 (September 30, 2019)
+## Adobe Target/Standard/Premium 19.9.1 (30 de septiembre de 2019)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 2 de octubre de 2029 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Added information about upcoming releases. |
-| 1 de octubre de 2019 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Updated text in the "Customer attributes" section. |
-|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Updated code sample in the "Call getOffers() for all views" section. |
-| September 30, 2019 | [Notas de la versión](/help/r-release-notes/release-notes.md): 19.9.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
+| 3 de octubre de 2019 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Added known issue and workaround when creating an experience with no modifications using the at.js 2.*x* library. |
+|  | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Added note to "mboxDebug" section. |
+| 2 de octubre de 2029 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha agregado información sobre próximas versiones. |
+| 1 de octubre de 2019 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Se ha actualizado el texto en la sección "Atributos del cliente". |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Se ha actualizado el ejemplo de código en la sección "Llamar a getOffers() para todas las vistas". |
+| 30 de septiembre de 2019 | [Notas de la versión](/help/r-release-notes/release-notes.md): 19.9.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 19.7.1 (23 de julio de 2019) {#tgt-19-7-1}
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 27 de septiembre de 2019 | [¿Durante cuánto tiempo se debe ejecutar una prueba A/B?](/help/c-activities/t-test-ab/sample-size-determination.md) | Updated text about the Target Sample Size Calculator. |
-|  | [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Updated text about the Target Sample Size Calculator. |
-| September 24, 2019 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha cambiado la fecha de la versión 19.2.1 de Target/Standard al 30 de septiembre de 2019. |
+| 27 de septiembre de 2019 | [¿Durante cuánto tiempo se debe ejecutar una prueba A/B?](/help/c-activities/t-test-ab/sample-size-determination.md) | Se ha actualizado el texto sobre la calculadora de tamaño de la muestra de Target. |
+|  | [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Se ha actualizado el texto sobre la calculadora de tamaño de la muestra de Target. |
+| 24 de septiembre de 2019 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha cambiado la fecha de la versión 19.2.1 de Target/Standard al 30 de septiembre de 2019. |
 |  | [Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md) | Se ha agregado un vídeo de capacitación. |
 | 10 de septiembre de 2019 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión Target Standard/Premium 19.9.1. |
-| 9 de septiembre de 2019 | [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
-|  | [Políticas de cookies de Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Updated text for entire topic. |
+| 9 de septiembre de 2019 | [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Se ha añadido la sección "Consideraciones". |
+|  | [Políticas de cookies de Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Se ha actualizado el texto de todo el tema. |
 |  | [Directiva de seguridad de contenido (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Nuevo tema. |
 | 6 de septiembre de 2019 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión 19.9.1 de Target Standard/Premium (10 de septiembre de 2019). |
 |  | [Preguntas más frecuentes sobre Target para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Nuevo tema. |
