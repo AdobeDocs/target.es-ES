@@ -1,6 +1,6 @@
 ---
 description: Información sobre cómo la biblioteca de JavaScript de at.js de Target evita el parpadeo mientras se carga una página o una aplicación.
-keywords: parpadeo;Target Standard;at.js;implementación
+keywords: parpadeo;at.js;implementación
 seo-description: Información sobre cómo la biblioteca de JavaScript de at.js de Adobe Target evita el parpadeo mientras se carga una página o una aplicación.
 seo-title: Gestión de parpadeos de Adobe Target at.js
 solution: Target
@@ -8,7 +8,7 @@ title: Cómo gestiona at.js el parpadeo
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -19,7 +19,7 @@ Información sobre cómo la biblioteca de JavaScript de at.js de Target evita el
 
 El parpadeo tiene lugar cuando se muestra momentáneamente el contenido predeterminado a los visitantes antes de que lo reemplace el contenido de la actividad. El parpadeo no es deseable porque confunde a los visitantes.
 
-## Utilizar un mbox global creado automáticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
+## Uso de un mbox global creado automáticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
 Si habilita la función [mbox global creado automáticamente](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) al configurar at.js, éste gestiona el parpadeo cambiando al configuración de opacidad mientras la página carga. Cuando se carga at.js, cambia la configuración de opacidad del <body> elemento a “0”, para que la página sea invisible inicialmente para los visitantes. Después de recibir una respuesta de Target (o si se detecta un error en la solicitud de Target), at.js restablece la opacidad a “1”. Esto garantiza que el visitante solo vea la página después de haberse aplicado el contenido de sus actividades.
 
@@ -103,11 +103,11 @@ En lugar del predeterminado:
 body {opacity: 0 !important}
 ```
 
-## Administración del parpadeo en at.js 2.x para triggerView()
+## Administrar parpadeo en at.js 2.x para desencadenadorView()
 
 Al utilizar `triggerView()` para mostrar contenido dirigido en su SPA, la administración de parpadeo se proporciona fuera del cuadro. Esto significa que no es necesario agregar manualmente la lógica de ocultamiento previo. En su lugar, at.js 2.x oculta previamente la ubicación donde debe mostrarse la vista antes de aplicar el contenido objetivo.
 
-## Administración del parpadeo con getOffer() and applyOffer()
+## Gestionar el parpadeo con getOffer() y applyOffer()
 
 Dado que tanto `getOffer()` como `applyOffer()` son API de bajo nivel, no hay control integrado de parpadeo. Puede transferir un selector o un elemento HTML como opción para `applyOffer()`, en este caso `applyOffer()` añade el contenido de la actividad a este elemento concreto; sin embargo, debe asegurarse de que el elemento esté oculto previamente de forma correcta antes de invocar a `getOffer()` y `applyOffer()`.
 
