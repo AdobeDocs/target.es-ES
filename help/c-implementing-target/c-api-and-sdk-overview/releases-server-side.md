@@ -1,17 +1,17 @@
 ---
-description: Release notes related to Adobe Target's server-side APIs and SDKs
-keywords: at.js;api;sdk;release;updates;apis;sdks;server side;serverside;server-side
-seo-description: Release notes related to Adobe Target's server-side APIs and SDKs
-seo-title: Release notes related to Adobe Target's server-side APIs and SDKs
+description: Notas de la versión relacionadas con los SDK y las API del servidor de Adobe Target
+keywords: at.js;api;release;updates;apis;sdks;server side;serverside;server-side
+seo-description: Notas de la versión relacionadas con las API del servidor de Adobe Target.
+seo-title: Notas de la versión relacionadas con las API del servidor de Adobe Target.
 solution: Target
-title: Release notes - APIs and SDKs
+title: 'Notas de la versión: API de servidor de Target'
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
-# Release notes - APIs and SDKs
+# Notas de la versión: API de servidor de Target
 
-Release notes related to Adobe Target's server-side APIs and SDKs.
+Notas de la versión relacionadas con las API del servidor de Adobe Target.
