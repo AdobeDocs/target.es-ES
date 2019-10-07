@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/es-ES/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -137,9 +137,10 @@ source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
          + [Android: configuración de la aplicación móvil](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS: configuración de la aplicación móvil](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configurar el rastreo de clics en el VEC móvil](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Preguntas más frecuentes sobre Target para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Servidor: implementación de Target {#server-side}
-      + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Notas de la versión: API de servidor de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Notas de la versión: SDK de Node.js de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Servidor: información general sobre la implementación de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transición de las API heredadas de Target a Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Correo electrónico: implementación de Target {#implement-email}
