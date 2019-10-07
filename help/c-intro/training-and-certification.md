@@ -1,22 +1,22 @@
 ---
-description: Adobe Training Services ofrece clases y concede certificados.
-keywords: Información general y referencia
-seo-description: Adobe Training Services ofrece clases y concede certificados.
-seo-title: Capacitación y certificación
+description: Los servicios de formación de Adobe ofrecen clases y certificaciones para productos y soluciones de Adobe, incluido Adobe Target.
+keywords: formación;certificación;destino;cursos en línea;cursos;clase;clases
+seo-description: Los servicios de formación de Adobe ofrecen clases y certificaciones para productos y soluciones de Adobe, incluido Adobe Target.
+seo-title: Formación y certificación para productos y soluciones de Adobe, incluido Adobe Target
 solution: Target
 subtopic: Primeros pasos
-title: Capacitación y certificación
+title: Formación y certificación para Adobe Target
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # Capacitación y certificación{#training-and-certification}
 
-Adobe Training Services ofrece clases y concede certificados.
+Los servicios de formación de Adobe ofrecen clases y certificaciones para productos y soluciones de Adobe, incluido Adobe Target.
 
 Para ver una lista de los cursos en línea y los presenciales con profesor, visite el [sitio web de formación para clientes de Adobe](https://training.adobe.com/training/courses.html#solution=adobeTarget).
 
