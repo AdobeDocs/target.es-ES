@@ -4,12 +4,12 @@ keywords: A4T;Analytics;Analytics para Target;fuente de informes de Analytics;Ad
 seo-description: Adobe “Analytics for Target” (A4T) es una integración de soluciones cruzadas que le permite crear actividades basadas en las métricas de conversión y los segmentos de audiencia de Analytics. Esta integración le permite utilizar informes de Analytics para examinar sus resultados. Si usa Analytics como fuente de informes de una actividad, todos los informes y la segmentación de dicha actividad se basarán en la recopilación de datos de Analytics.
 seo-title: Adobe Analytics como fuente de informes para Adobe Target (A4T)
 solution: Target
-subtopic: Prueba multivariable
+subtopic: Integración
 title: Adobe Analytics como fuente de informes para Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -79,9 +79,9 @@ La siguiente tabla muestra los tipos de actividades compatibles con Analytics co
 
 Dado que, de momento, no todos los tipos de actividades son compatibles con A4T, es recomendable mantener o implementar algunos mboxes de conversión importantes, como el mbox “orderConfirmPage”.
 
-## Ejemplos de informes de A4T  {#section_F0A43A1CB2F04E8282B909E4D7034361}
+## Ejemplos de informes de A4T   {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Para ver los informes de A4T en [!DNL Target]**, haga clic en[!UICONTROL Actividades]**, haga clic en la actividad deseada en la lista que usa [!DNL Analytics] como fuente de informes y, a continuación, haga clic en la pestaña **[!UICONTROL Informes].**
+Para ver los informes de A4T en [!DNL Target], haga clic en **[!UICONTROL Actividades]**, haga clic en la actividad deseada en la lista que usa [!DNL Analytics] como fuente de informes y, a continuación, haga clic en la pestaña **[!UICONTROL Informes].**
 
 >[!NOTE]
 >
