@@ -1,8 +1,8 @@
 ---
 description: Las actividades de Recommendations muestran automáticamente productos o contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
-keywords: Recommendations;criterios de Recommendations;algoritmos de Recommendations;actividad de Recommendations;criterios;segmentación en Recommendations
-seo-description: Las actividades de Recommendations muestran automáticamente productos o contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
-seo-title: Recommendations
+keywords: Recommendations;criterios de Recommendations;algoritmos de Recommendations;actividad de Recommendations;criterios;segmentación en Recommendations;recs
+seo-description: Las actividades de Recomendaciones de Adobe Target muestran automáticamente productos o contenido que puede interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
+seo-title: Recomendaciones de Adobe Target
 solution: Target
 title: Las actividades de
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -63,4 +63,4 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 El seminario web *Introducción a Recommendations* incluye una exploración exhaustiva de cómo aprovechar el valor de [!DNL Adobe Target Recommendations]. Descubra cómo esta actividad [!DNL Target] muestra automáticamente los productos o el contenido que pueda interesar a sus clientes optimizando las sugerencias en tiempo real en función de las visitas anteriores. Además, sumérjase en la interfaz de usuario [!DNL Target] para obtener información general paso a paso sobre cómo generar una actividad [!DNL Recommendations].
 
-[Introduction to Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introducción a Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
