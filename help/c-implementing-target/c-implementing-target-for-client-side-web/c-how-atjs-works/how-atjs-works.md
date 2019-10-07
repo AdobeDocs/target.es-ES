@@ -1,27 +1,27 @@
 ---
-description: Diagrama del sistema de Target que muestra el flujo de llamadas e información enviada o recopilada para un mbox global creado automáticamente usando at.js.
-keywords: diagrama del sistema;parpadeo;Target Standard;at.js;implementación;biblioteca javascript;js
+description: diagramas del sistema de Target que muestran el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente mediante at.js.
+keywords: diagrama del sistema;parpadeo;at.js;implementación;biblioteca javascript;js
 seo-description: Diagrama del sistema de Adobe Target que muestra el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente usando at.js.
-seo-title: Cómo funciona at.js de Adobe Target
+seo-title: Funcionamiento de la biblioteca JavaScript de Adobe Target at.js
 solution: Target
 title: Cómo funciona at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # Cómo funciona at.js{#how-at-js-works}
 
-Para implementar [!DNL Adobe Target] del lado del cliente, debe utilizar la biblioteca at.js.
+To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
 
-En una implementación del lado del cliente de [!DNL Adobe Target], [!DNL Target] envía las experiencias asociadas con una actividad directamente al explorador del cliente. El explorador decide qué experiencia mostrar y lo hace. Con una implementación del lado del cliente, puede utilizar un editor WYSIWYG, el [Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) o una interfaz no visual, el [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md), para crear experiencias de prueba y personalización.
+En una implementación del lado del cliente de [!DNL Adobe Target], [!DNL Target] envía las experiencias asociadas a una actividad directamente al explorador del cliente. El explorador decide qué experiencia mostrar y lo hace. Con una implementación del lado del cliente, puede utilizar un editor WYSIWYG, el [Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) o una interfaz no visual, el [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md), para crear experiencias de prueba y personalización.
 
 ## ¿Qué es at.js?
 
-La [biblioteca at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a [la versión más reciente de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+La [biblioteca at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a  [la versión más reciente de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 Para obtener más información, consulte [Bibliotecas de JavaScript de Target](/help/c-intro/how-target-works.md#libraries).
 
@@ -68,7 +68,7 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 
 ## Diagrama de at.js 1.x
 
-![Flujo de destino: at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Flujo de Target - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Paso   | Descripción | La llamada | Descripción |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 | 5 | Según la URL, los parámetros de mbox y los datos de perfil, [!DNL Target] decide qué actividades y experiencias vuelven al visitante. | 6 | Se devuelve el contenido dirigido a la página, incluyendo de manera opcional los valores de perfil para una personalización adicional.<br>Se muestra la experiencia lo más rápido posible sin parpadeos del contenido predeterminado. |
 | 7 | Se envían los datos de [!DNL Analytics] a los servidores de recopilación de datos. | 8 | Se comparan los datos de [!DNL Target] con los datos de [!DNL Analytics] mediante el SDID y se procesan en el almacén de informes de [!DNL Analytics].<br>Por lo tanto, los datos de [!DNL Analytics] se pueden visualizar tanto en [!DNL Analytics] como en [!DNL Target] mediante los informes de [!DNL Analytics for Target] (A4T). |
 
-## Cómo procesa at.js las ofertas con contenido HTML {#render}
+## Cómo procesa at.js ofertas con contenido HTML {#render}
 
 Al procesar ofertas con contenido HTML, at.js aplica el siguiente algoritmo:
 
-1. Las imágenes se cargan previamente (si hay alguna `<img>` etiqueta en el contenido HTML).
+1. Las imágenes se cargan previamente (si el contenido HTML tiene etiquetas `<img>`).
 
 1. El contenido HTML se adjunta al nodo DOM.
 
-1. Se ejecutan las secuencias de comandos en línea (código entre `<script>` etiquetas).
+1. Se ejecutan scripts en línea (código delimitado por etiquetas `<script>`).
 
-1. Los scripts remotos se cargan de forma asíncrona y se ejecutan (`<script>` etiquetas con `src` atributos).
+1. Los scripts remotos se cargan de forma asíncrona y se ejecutan (etiquetas `<script>` con atributos `src`).
 
 Notas importantes:
 
-* at.js no proporciona ninguna garantía en el orden de ejecución remota de secuencias de comandos, ya que se cargan de forma asíncrona.
-* Las secuencias de comandos en línea no deben tener dependencias en scripts remotos, ya que se cargan y ejecutan más tarde.
+* at.js no proporciona garantías en el orden de ejecución del script remoto, ya que estos se cargan de forma asincrónica.
+* Los scripts en línea no deberían tener dependencias en scripts remotos, ya que se cargan y ejecutan más adelante.
 
 ## Vídeo de formación: Diagrama arquitectónico de at.js 2.x
 
