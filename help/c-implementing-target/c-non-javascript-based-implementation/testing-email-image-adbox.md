@@ -1,14 +1,14 @@
 ---
 description: Pruebe de forma dinámica imágenes en correos electrónicos e incluso puede cambiar dichas imágenes automáticamente cuando el destinatario recibe el correo.
-keywords: correo electrónico;AdBox
-seo-description: Pruebe de forma dinámica imágenes en correos electrónicos e incluso puede cambiar dichas imágenes automáticamente cuando el destinatario recibe el correo.
-seo-title: Comprobación de un AdBox de imagen de correo electrónico
+keywords: correo electrónico;adbox;adbox de imagen de correo electrónico
+seo-description: Con Adobe Target, pruebe dinámicamente las imágenes en el correo electrónico e incluso cambie dichas imágenes sobre la marcha cuando alguien abra el correo electrónico.
+seo-title: Prueba de un adbox de imagen de correo electrónico con Adobe Target
 solution: Target
 title: Comprobación de un AdBox de imagen de correo electrónico
 topic: Las actividades de
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -28,12 +28,12 @@ La comprobación de imágenes de correo electrónico se lleva a cabo usando vers
 **Código de ejemplo de un AdBox de imagen de correo electrónico:**
 
 ```
-<img src=“https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
+<img src="https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
 mbox={email_header}&
 mboxDefault=​{http%3A%2F%2Fwww.domain.com%2Fheader.jpg}&
 mboxXDomain=disabled&
 mboxSession={123456}&
-mboxPC={123456}” border=“0"/>
+mboxPC={123456}” border=:"0"/>
 ```
 
 Donde los siguientes valores son específicos del usuario:
@@ -41,7 +41,7 @@ Donde los siguientes valores son específicos del usuario:
 | Valor | Descripción |
 |--- |--- |
 | clientcode | El código de cliente de su compañía: Lo encontrará en at.js o mbox.js como `clientCode='yourclientcode'`. Todo esto se escribe en minúsculas y no contiene caracteres especiales. |
-| image | El tipo de oferta. Siempre es “image” para las publicidades gráficas y “page” para los redirectores. |
+| imagen | El tipo de oferta. Siempre es “image” para las publicidades gráficas y “page” para los redirectores. |
 | email_header | El nombre del AdBox. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Requerido. Reemplace la URL con el contenido predeterminado apropiado para su adbox. Debe ser una referencia absoluta y debe estar codificado en la dirección URL. |
 | `mboxXDomain=disabled` | Indica a Target que no trate de establecer una cookie. |
