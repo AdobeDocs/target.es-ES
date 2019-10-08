@@ -1,14 +1,14 @@
 ---
 description: Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes a fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
-keywords: Target Standard;Recommendations;Target Premium;Personalización automatizada;segmentación automática;permisos
+keywords: Target Standard;Recommendations;Target Premium;Personalización automatizada;segmentación automática;permisos;qué es adobe target;
 seo-description: Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes a fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
-seo-title: Introducción a Target
+seo-title: Introducción a Adobe Target
 solution: Target
 title: Introducción a Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -31,7 +31,7 @@ La solución [!DNL Adobe Target] tiene varios componentes:
 | Target Premium | Añade características avanzadas a la interfaz de Target Standard. |
 | Recommendations Classic | Muestra automáticamente los productos o el contenido que puedan ser de interés para sus clientes según la actividad anterior del usuario en el sitio web. |
 
-## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## Target Standard  {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
 [!DNL Target Standard] es un front-end para [!DNL Adobe Target] que sirve para crear y administrar de forma visual pruebas A/B y actividades de segmentación basada en reglas, además de permitir conectarse a Adobe Experience Cloud. [!DNL Target Standard] también admite la inserción de código personalizado tanto dentro como fuera del flujo de trabajo del [!UICONTROL Compositor de experiencias visuales]. [!DNL Target Standard] ofrece una estrategia de implementación simplificada con sus propiedades digitales: una sola línea de código en cada página gestiona toda la comunicación necesaria entre su sitio y [!DNL Adobe Target].
 
