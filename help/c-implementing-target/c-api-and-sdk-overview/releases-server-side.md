@@ -7,14 +7,14 @@ solution: Target
 title: 'Notas de la versión: API de servidor de Target'
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 
 ---
 
 
 # Notas de la versión: API de servidor de Target
 
-Notas de la versión relacionadas con las API del lado del [!DNL Adobe Target] servidor.
+Notas de la versión relacionadas con las API [de servidor de](https://developers.adobetarget.com/api/delivery-api/)Adobe Target.
 
 ## V1/entrega (9 de octubre de 2019)
 
