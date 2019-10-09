@@ -1,6 +1,6 @@
 ---
 description: diagramas del sistema de Target que muestran el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente mediante at.js.
-keywords: diagrama del sistema;parpadeo;at.js;implementación;biblioteca javascript;js
+keywords: diagrama del sistema;parpadeo;at.js;implementación;biblioteca javascript;js;atjs
 seo-description: Diagrama del sistema de Adobe Target que muestra el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente usando at.js.
 seo-title: Funcionamiento de la biblioteca JavaScript de Adobe Target at.js
 solution: Target
@@ -8,7 +8,7 @@ title: Cómo funciona at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -27,7 +27,7 @@ Para obtener más información, consulte [Bibliotecas de JavaScript de Target](/
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. Además, se han implementado los siguientes servicios principales de Experience Cloud: Adobe Launch, Audiencias y el servicio de ID de visitante
 
-## ¿Cuál es la diferencia entre At.js 1¿Diagramas de flujo de trabajo de *x* y at.js 2.x?
+## Cuál es la diferencia entre at.js 1.¿Diagramas de flujo de trabajo de *x* y at.js 2.x?
 
 Para obtener más información sobre las diferencias introducidas en 2.O de 1, consulte [Actualización de at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md).*x*.
 
