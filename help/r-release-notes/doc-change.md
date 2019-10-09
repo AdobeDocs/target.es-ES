@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -21,6 +21,10 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 9 de octubre de 2019 | [Servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Tema actualizado. |
+|  | [Notas de la versión: API de servidor de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Nuevo tema. |
+|  | [Notas de la versión: SDK de Node.js de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Nuevo tema. |
+|  | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre las versiones de V1/Delivery API y Node.js SDK. |
 | 8 de octubre de 2019 | [Boletín de Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Nuevo tema con enlaces al primer lote de boletines informativos, con más por venir. |
 | 3 de octubre de 2019 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido lo siguiente: <ul><li>Problema conocido y solución temporal al crear una experiencia sin modificaciones con at.js 2.*x* library.</li><li>Las colecciones, exclusiones, criterios y diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API.</li><li>Las actividades de Recomendaciones creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.</li></ul> |
 |  | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Se ha añadido una nota a la sección "mboxDebug". |
