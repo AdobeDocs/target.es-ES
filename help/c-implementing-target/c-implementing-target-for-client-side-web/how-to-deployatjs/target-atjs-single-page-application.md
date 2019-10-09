@@ -1,14 +1,14 @@
 ---
 description: Información para utilizar at.js 2.x para implementar Aplicaciones de una sola página (SPA).
-keywords: implementación de aplicación de una sola página;implementar aplicación de una sola página;spa;at.js 2.x;at.js;single page application;single page app
+keywords: implementación de aplicación de una sola página;implementar aplicación de una sola página;spa;at.js 2.x;at.js; aplicación de una sola página; app de una sola página;spa;SPA
 seo-description: Información para utilizar Adobe Target at.js 2.x para implementar Aplicaciones de una sola página (SPA).
-seo-title: Single Page Application implementation in Adobe Target
+seo-title: Implementación de una aplicación de una sola página en Adobe Target
 solution: Target
 title: Implementación de aplicación de página única
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -33,13 +33,13 @@ El VEC de Adobe Target para SPA aprovecha un nuevo concepto llamado Vistas: un g
 
 Para explicar más sobre las vistas, vamos a navegar por este hipotético sitio de comercio electrónico en línea, implementado en React, y a explorar algunas de las vistas de ejemplo. Haga clic en los vínculos siguientes para abrir el sitio en una nueva pestaña del explorador.
 
-**Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
+**Vínculo: Sitio[principal](https://target.enablementadobe.com/react/demo/#/)**
 
 ![página de inicio](/help/c-experiences/assets/home.png)
 
 Si vamos a la página de inicio, podemos ver inmediatamente una imagen promocional de Pascua, así como los productos más recientes que venden en el sitio. En este caso, una vista puede definirse como toda la página de inicio. Es práctico tenerlo en cuenta porque se ampliará en la sección Implementación de vistas de Adobe Target, que se describe a continuación.
 
-**Link: Product Site[](https://target.enablementadobe.com/react/demo/#/products)**
+**Vínculo: Sitio[del producto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sitio del producto](/help/c-experiences/assets/product-site.png)
 
@@ -75,7 +75,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
 1. Implemente la función más reciente de at.js 2.x `triggerView()` en sus sitios.
 
-   Después de definir las Vistas de la SPA donde desea ejecutar una prueba A/B o XT, implemente la función de at.js 2.x `triggerView()` con las Vistas pasadas como parámetro. Esto permite a los especialistas en marketing utilizar el VEC para diseñar y ejecutar las pruebas A/B y XT para esas vistas definidas. Si la función de `triggerView()` no está definida para estas vistas, el VEC no detectará las vistas y, por lo tanto, los especialistas en marketing no podrán utilizar el VEC para diseñar y ejecutar pruebas A/B y XT.
+   Después de definir las Vistas de la SPA donde desea ejecutar una prueba A/B o XT, implemente la función de at.js 2.x `triggerView()` con las vistas transferidas como parámetro. Esto permite a los especialistas en marketing utilizar el VEC para diseñar y ejecutar las pruebas A/B y XT para esas vistas definidas. Si la función de `triggerView()` no está definida para estas vistas, el VEC no detectará las vistas y, por lo tanto, los especialistas en marketing no podrán utilizar el VEC para diseñar y ejecutar pruebas A/B y XT.
 
    **`adobe.target.triggerView(viewName, options)`**
 
@@ -87,7 +87,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    Veamos algunos ejemplos de casos de uso sobre la invocación de la función `triggerView()` en React para el SPA de comercio electrónico hipotético:
 
-   **Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
+   **Vínculo: Sitio[principal](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -147,7 +147,7 @@ Veamos un ejemplo que es un poco más complicado. Digamos que como especialistas
  }
 ```
 
-**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Vínculo: Cierre[de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Reacción de finalización de compra](/help/c-experiences/assets/react6.png)
 
@@ -281,7 +281,7 @@ Los vídeos siguientes contienen más información:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=spa)
 
-See Understanding how at.js 2.x works for more information.[](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)
+Consulte [Explicación del funcionamiento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) de at.js 2.x para obtener más información.
 
 ### Implementación de at.js 2.x en un SPA
 
