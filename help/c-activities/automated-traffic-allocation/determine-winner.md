@@ -8,7 +8,7 @@ title: Determinar un ganador
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -63,6 +63,6 @@ Alguna de las siguientes razones describe la razón por la que se muestra un 0 
 
    La asignación automática muestra la probabilidad de que una experiencia indicada sea la auténtica ganadora de todas las experiencias de la actividad. Esto significa que solo una experiencia ganadora (que tiene más probabilidades de ganar) tendrá un valor de confianza diferente a cero. El resto tienen más probabilidades de perder y mostrarán un 0 %.
 
-* La asignación automática solo empieza a mostrar la confianza después de que la experiencia ganadora reúna un 60 % de confianza. La asignación automática es aproximadamente el doble de rápida que una prueba A/B normal. Para determinar cuánto tiempo tarda en ejecutarse una prueba A/B normal, utilice una [calculadora de tamaño de muestra](https://docs.adobe.com/content/target-microsite/testcalculator.html): introduzca la tasa de conversión de control en “Tasa de conversión de línea de base”, “5 %” para “Alza” y “95 %” para “Confianza”. Normalmente, la confianza empieza a mostrarse después de que cada experiencia haya reunido al menos un 50 % de las muestras por experiencia necesarias. Esto le dará una idea de cuándo empezará a aparecer la confianza.
+* La asignación automática solo empieza a mostrar la confianza después de que la experiencia ganadora reúna un 60 % de confianza. Estos niveles de confianza suelen aparecer en aproximadamente la mitad del tiempo que tardaría una prueba A/B normal en completarse (aunque esto no está garantizado). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." Normalmente, la confianza empieza a mostrarse después de que cada experiencia haya reunido al menos un 50 % de las muestras por experiencia necesarias. Esto le dará una idea de cuándo empezará a aparecer la confianza.
 * Si el informe muestra un 0 % en el panel, es probable que sea pronto para la actividad.
 
