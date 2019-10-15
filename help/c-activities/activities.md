@@ -1,21 +1,21 @@
 ---
-description: Las actividades permiten probar diseños de página y dirigir contenido a audiencias específicas.
-keywords: actividad;actividades;tipos de actividades;editar actividad;acciones de actividades;atributo de actividad;limitaciones de las actividades;lista de actividades;filtro de la lista de actividades
-seo-description: Las actividades en Adobe Target permiten probar diseños de página y dirigir contenido a audiencias específicas.
-seo-title: Actividades en Adobe Target
+description: Las actividades de Adobe Target le permiten personalizar el contenido para audiencias específicas y probar los diseños de página.
+keywords: lista de actividades;actividades;actividad;tipos de actividad;editar actividad;acciones de actividad;atributo de actividad;filtro de lista de actividades;limitaciones de actividad;personalización;personalización
+seo-description: Las actividades de Adobe Target le permiten personalizar el contenido para audiencias específicas y probar diseños de página
+seo-title: Las actividades de Adobe Target le permiten personalizar el contenido para audiencias específicas y probar los diseños de página.
 solution: Target
 title: Actividades
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
 
 ---
 
 
 # Actividades{#activities}
 
-Las actividades permiten probar diseños de página y dirigir contenido a audiencias específicas. Una actividad determina las experiencias que puede recibir un visitante del sitio.
+Las actividades de Adobe Target le permiten personalizar el contenido para audiencias específicas y probar los diseños de página.
 
 Por ejemplo, podría diseñar una actividad que pruebe dos páginas de aterrizaje diferentes: una que destaque información sobre calzado de verano de mujer y otra que destaque ropa de verano más general. La actividad determina las condiciones que controlan cuándo aparece cada una de estas páginas de aterrizaje y las métricas que determinan qué página tiene mayor éxito. La actividad está configurada para comenzar y finalizar cuando se cumplan unas condiciones específicas como, por ejemplo, entre fechas concretas o que comience cuando se apruebe la actividad y finalice cuando se desactive.
 
@@ -52,7 +52,7 @@ En la lista Actividades encontrará una descripción general de todas las activi
 | Nombre | El nombre de la actividad. |
 | Dirección URL | La dirección URL aparece en el texto más claro debajo del nombre.<br>La dirección URL de la actividad indica dónde se muestra la actividad. De este modo, se puede identificar rápidamente una actividad y determinar si ya se está realizando una prueba en una página en particular.<br>Si se realiza una prueba en varias direcciones URL, se indica mediante un vínculo cuántas direcciones URL más se están usando. Haga clic en el vínculo para ver la lista completa de direcciones URL de esa actividad.<br>Puede buscar según la dirección URL. Utilice la lista desplegable situada junto al cuadro de búsqueda y seleccione [!UICONTROL Buscar URL]. |
 | Estado | Las actividades pueden tener uno de los estados siguientes:<ul><li>**Activa:** la actividad está ejecutándose.</li><li>**Borrador:** se ha iniciado la configuración de la actividad, pero aún no está lista para ejecutarse.</li><li>**Programada:** la actividad está preparada para activarse en la fecha y hora de inicio especificadas.</li><li>**Inactiva:** la actividad se ha pausado o desactivado.</li><li>**Sincronizando**: la actividad se ha guardado y se está sincronizando con la red de entrega de Target.</li><li>**Completada**: se han alcanzado la fecha y hora de finalización especificadas para la actividad y esta ya no se sirve.</li><li>**Archivada**: se archivó la actividad. Puede activar una actividad archivada para volver a usarla.</li></ul>**Nota:** Cuando se realizan determinadas acciones (por ejemplo, activar una actividad fuera de la interfaz de usuario empleando métodos API), los cambios pueden tardar hasta 10 minutos en propagarse a la IU. |
-| Fuente | Muestra dónde se creó la actividad:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager. (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Fuente | Muestra dónde se creó la actividad:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager.  (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
 | Propiedad | Muestra la [propiedad](/help/administrating-target/c-user-management/property-channel/property-channel.md) de la actividad. |
 | Alza estimada en ingresos | Muestra el aumento previsto en ingresos si el 100 % de la audiencia ve la experiencia ganadora.<br>Se calcula utilizando la fórmula siguiente:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br> el número resultante se redondea a un decimal, como máximo, si la forma corta tiene un solo dígito antes del decimal. Por ejemplo: 1,6 millones de dólares, 60 mil dólares, 900 dólares, 8500 dólares, 205 mil dólares<br> En esta columna se muestra “---” para las actividades que no tienen datos suficientes para convocar un concurso ganador o que no tienen una previsión del coste.Para obtener más información, <br>consulte [Alza estimada en ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
 | Última actualización | La fecha y el autor de la última actualización de la actividad. |
@@ -89,13 +89,13 @@ Tenga en cuenta los detalles siguientes sobre la lista de Actividades:
 
 De manera predeterminada, la lista se ordena por la fecha de la última modificación de la actividad, con la más reciente al principio. Sin embargo, hay varias opciones de filtrado que le pueden ayudar a personalizar la lista para que se muestren las actividades que le interesa consultar.
 
-### Búsqueda {#search-heading}
+### Búsqueda  {#search-heading}
 
 Utilice el campo de búsqueda para buscar las actividades que cumplen sus criterios de búsqueda.
 
 ![Búsqueda de actividades](/help/c-activities/assets/activities_search_new.png)
 
-El campo de búsqueda incluye un menú desplegable para ayudarle a limitar la búsqueda. Solo tiene que especificar uno de los siguientes filtros de búsqueda: [!UICONTROL Nombre de la actividad] y [!UICONTROL URL].
+El campo de búsqueda incluye un menú desplegable para ayudarle a limitar la búsqueda. Solo tiene que especificar uno de los siguientes filtros de búsqueda:  [!UICONTROL Nombre de la actividad] y [!UICONTROL URL].
 
 ### Filtros de la lista de actividades
 
