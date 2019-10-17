@@ -8,7 +8,7 @@ title: Notas de la versión de Target (versión previa)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
+source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
 
 ---
 
@@ -33,18 +33,18 @@ En estas notas de la versión se proporciona información acerca de las funcione
 
 ### Mejoras, correcciones y cambios
 
-* Cambios en el shell unificado de Adobe.
+* Cambios en el [!DNL Experience Cloud] shell.
 
    Adobe está actualizando el shell existente (la barra negra en la parte superior de [!DNL Experience Cloud] las soluciones) para unificar y mejorar su experiencia en todas [!DNL Adobe Experience Cloud] las soluciones.
 
    No hay cambios en los flujos de trabajo actuales y estos cambios aparentemente sencillos están diseñados para facilitar su vida de maneras pequeñas pero importantes.
 
-   Al iniciar sesión en el [!DNL Adobe Experience Cloud], se le dirigirá al nuevo shell unificado. Tiene un aspecto muy similar al anterior Shell con la barra negra en la parte superior, pero ofrece las siguientes mejoras:
+   Al iniciar sesión en el [!DNL Adobe Experience Cloud], se le llevará al nuevo shell. Se parece mucho al anterior shell con la barra negra en la parte superior, pero proporciona las siguientes mejoras:
 
    * Cambio más fácil entre las organizaciones de Identity Management System (IMS) o una solución de Experience Cloud [!E] diferente.
    * Se ha mejorado la ayuda del usuario: Los resultados de la búsqueda incluyen los resultados de la documentación del [!DNL Target] producto, así como los foros de la comunidad y más contenido de vídeo, lo que facilita el acceso a más contenido para sacar el máximo partido [!DNL Target]. También hemos agregado un mecanismo de comentarios en el menú Ayuda, lo que facilita informar sobre problemas o compartir ideas.
    * Se ha mejorado la funcionalidad de Net Promoter Score (NPS). A veces, algunos clientes veían [!DNL Target] las encuestas con una frecuencia mayor de la que esperábamos. Además, el modo de estudio utilizado para perturbar el flujo de trabajo. Hemos actualizado esta funcionalidad completamente para que se convierta en un pequeño estudio que ya no sea intrusivo. Además, con el nuevo diseño, podemos asegurar que la frecuencia del estudio esté mejor controlada.
-   * Se ha mejorado el flujo de inicio de sesión. Anteriormente, todos [!DNL Target] los clientes aterrizaban en la página de aterrizaje de Target después de hacer clic en el icono [!DNL Target] del Shell. A continuación, esta página permite a los clientes continuar con [!DNL Target Standard/Premium], [!DNl Recommendations Classic]o [!DNL Search&Promote], como se muestra a continuación:
+   * Se ha mejorado el flujo de inicio de sesión. Anteriormente, todos [!DNL Target] los clientes aterrizaban en la página de aterrizaje de Target después de hacer clic en el [!DNL Target] icono del shell. A continuación, esta página permite a los clientes continuar con [!DNL Target Standard/Premium], [!DNl Recommendations Classic]o [!DNL Search&Promote], como se muestra a continuación:
 
       ![Página de destino](/help/r-release-notes/assets/landing.png)
 
@@ -54,8 +54,8 @@ En estas notas de la versión se proporciona información acerca de las funcione
 
       ![Vínculo profundo de Recs Classic](/help/r-release-notes/assets/recs-classic.png)
 
-      Si utiliza [!DNL Search&Promote], debe ir directamente al vínculo. La ruta para llegar a Search&amp;Promote desde dentro de [!DNL Adobe Target] se ha eliminado completamente.
-   * Las notificaciones de ya no [!DNL Target] están visibles en la lista desplegable [!UICONTROL Notificaciones] en Shell.
+      Si utiliza [!DNL Search&Promote], debe ir directamente al vínculo. Se ha eliminado completamente la ruta [!DNL Search&Promote] de acceso desde el interior de [!DNL Adobe Target] .
+   * Las notificaciones de ya no [!DNL Target] están visibles en la lista desplegable [!UICONTROL Notificaciones] del shell.
    >[!NOTE]
    >
    >Estas funciones no se implementarán a la vez ni se distribuirán a todos los clientes. Estas funciones se implementarán en los próximos días a partir de la versión [!DNL Target Standard/Premium] 19.10.1 (22 de octubre de 2019).
