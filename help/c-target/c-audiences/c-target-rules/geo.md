@@ -4,11 +4,11 @@ keywords: segmentación;a4t;segmentación geográfica;geografía;precisión de s
 seo-description: Utilice las audiencias de Adobe Target para segmentar usuarios según su ubicación geográfica, incluidos país, estado/provincia, ciudad, código postal, DMA y operador de telefonía móvil.
 seo-title: Geografía
 solution: Target,Analytics
-title: Geografía segmentación en Adobe Target
+title: Geografía  segmentación en Adobe Target
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
 
 ---
 
@@ -19,7 +19,7 @@ Utilice audiencias para segmentar usuarios según su ubicación geográfica, inc
 
 Los parámetros de ubicación geográfica permiten segmentar las actividades y experiencias en función de la ubicación geográfica de los visitantes. Puede incluir o excluir visitantes en función de su país, estado/provincia, ciudad, código postal, latitud, longitud, DMA y operador de telefonía móvil. Estos datos se envían con cada petición de Target y se basan en la dirección IP del visitante. Seleccione estos parámetros igual que cualquier otro valor de segmentación.
 
-## Crear una audiencia con segmentación geográfica. {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
+## Crear una audiencia con segmentación geográfica.  {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
@@ -66,7 +66,7 @@ En la tabla siguiente se muestra la precisión de la información geográfica ba
 | Japón | 99,99 % | Alrededor de 95 % | Entre el 90 % y el 95 % |
 | Australia | 99,99 % | 94 % | 91 % |
 
-## Uso de Segmentación geográfica en scripts de perfil. {#section_92C93138542C4A94997E3F4BE3F5DA28}
+## Uso de Segmentación geográfica en scripts de perfil.  {#section_92C93138542C4A94997E3F4BE3F5DA28}
 
 Puede usar la información geográfica para scripts de perfil.
 
