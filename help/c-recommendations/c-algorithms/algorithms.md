@@ -1,7 +1,7 @@
 ---
 description: Los criterios son reglas que determinan qué productos se recomiendan en función de un conjunto predeterminado de comportamientos del visitante.
 keywords: recomendaciones;actividad de recomendaciones;criterios;algoritmo
-seo-description: Los criterios de Adobe Target son reglas que determinan qué productos recomendar en función de un conjunto predeterminado de comportamientos de visitantes.
+seo-description: Los criterios de Adobe Target son reglas que determinan qué productos se recomiendan en función de un conjunto predeterminado de comportamientos del visitante.
 seo-title: Criterios
 solution: Target
 title: Criterios
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
+source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 
 ---
 
@@ -31,7 +31,7 @@ Puede seleccionar un sector según los objetivos de la actividad de recomendaci�
 | Generación de vanguardia/B2B/Servicios financieros | Conversión sin compra |
 | Medios/Publicación | Participación |
 
-## Clave de recomendación. {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Clave de recomendación.  {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 La clave de recomendación que seleccione determina el tipo de criterio. Existen varios tipos de criterios que se representan como tarjetas de criterio cuando configura una actividad de [!DNL Recommendations].
 
@@ -44,7 +44,7 @@ La clave de recomendación que seleccione determina el tipo de criterio. Existen
 | Artículos vistos recientemente | Recomiende los artículos que un visitante ha visto más recientemente, como los artículos que vio la última vez que estuvo en el sitio o los artículos más de moda en este momento.<br>El algoritmo de artículos vistos recientemente devuelve los resultados específicos de la actividad de un visitante dentro de un [entorno](/help/administrating-target/hosts.md). Si dos sitios pertenecen a entornos diferentes y un visitante cambia entre los dos, el algoritmo devuelve solamente los artículos vistos recientemente en el sitio apropiado.<br>Este tipo de criterios no está limitado por colecciones.<ul><li>Artículos vistos recientemente</li></ul>**Nota:** No puede usar los criterios de Artículos vistos recientemente para recomendaciones de copia de seguridad.<br>Los elementos/medios vistos recientemente se pueden filtrar para que solo se muestren los elementos con un atributo en particular.<ul><li>Los criterios visualizados recientemente se pueden configurar, como otros criterios en las recomendaciones.</li><li>Puede usar [colecciones](/help/c-recommendations/c-products/collections.md), [exclusiones](/help/c-recommendations/c-products/exclusions.md) e [inclusiones](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluyendo las reglas especiales para Precio e Inventario) de la misma forma que cualquier otro criterio.</li></ul>Los posibles casos de uso incluyen:<ul><li>Una empresa multinacional con múltiples negocios podría tener elementos de visualización de visitantes en múltiples propiedades digitales. En este caso, se pueden limitar los elementos vistos recientemente para que solo se muestren en relación con la propiedad respectiva en la que se visualizaron. Esto impide que los Elementos visualizados recientemente se muestren en el sitio de otra propiedad digital.</li></ul> |
 
 
-## Criterios y algoritmos. {#section_DC4E38A00B9744959F05F8E10A0087A1}
+## Criterios y algoritmos.  {#criteria-algorithms}
 
 [!DNL Target Recommendations] emplea sofisticados algoritmos que determinan si las acciones de un visitante cumplen los criterios establecidos en su actividad. La clave de recomendación determina las opciones de lógica de recomendaciones que se encuentran disponibles.
 
@@ -58,6 +58,7 @@ La clave de recomendación que seleccione determina el tipo de criterio. Existen
 | Principales vendedores | Los artículos que están incluidos en los pedidos más completados. Varias unidades del mismo artículo en un único pedido se cuentan como un solo pedido. |
 | Más visitados | Los artículos o medios que se visitan con mayor frecuencia. |
 | Elementos/Medios vistos recientemente | Artículos que el visitante ha visto recientemente. Cuando utilice este criterio, deberá actualizar el diseño de Target para controlar los casos en los que se mostrarían recomendaciones en blanco cuando no hubiera suficientes artículos vistos previamente para mostrar. |
+| Recomendaciones basadas en el usuario | Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como "Recomendado para usted".<br>Este criterio le permite entregar contenido y experiencias personalizados tanto a visitantes nuevos como a visitantes que regresan. La lista de recomendaciones se centra en la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el usuario navega por el sitio.<br>Tanto las vistas como las compras se utilizan para determinar los artículos recomendados. La clave de recomendación especificada (por ejemplo, Elemento actual) se utiliza para aplicar cualquier filtro de regla de inclusión que seleccione. Por ejemplo, puede:<ul><li>Excluir elementos que no cumplen determinados criterios (productos sin existencias, artículos publicados hace más de 30 días, películas clasificadas como R, etc.)</li><li>Limitar los artículos incluidos a una sola categoría o a la categoría actual</li></ul> |
 
 >[!NOTE] {class="- topic/note "}
 >
@@ -67,21 +68,21 @@ También puede utilizar información adicional conocida acerca de un visitante p
 
 Todos los criterios de un día se ejecutan dos veces al día. Todos los criterios de una semana y un período mayor se ejecutan una vez al día. Los criterios de afinidad del sitio se ejecutan una vez al día. Los criterios de copia de seguridad se ejecutan dos veces al día.
 
-## Información sobre los criterios de visualización. {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Información sobre los criterios de visualización.  {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 Para ver los detalles de los criterios de una tarjeta emergente, pase el cursor sobre una tarjeta y haga clic en el icono Información sin necesidad de abrir los criterios.
 
-![Pase el ratón por la tarjeta de criterios](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
+![Mantener el puntero encima de la tarjeta de criterios](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
-Haga clic en la pestaña **[!UICONTROL Información del algoritmo]para ver información general sobre los criterios seleccionados, como Nombre, Descripciones, Sector, Tipos de página, Clave de recomendación, Lógica de recomendación e ID del algoritmo.**
+Haga clic en la pestaña **[!UICONTROL Información del algoritmo]** para ver información general sobre los criterios seleccionados, como Nombre, Descripciones, Sector, Tipos de página, Clave de recomendación, Lógica de recomendación e ID del algoritmo.
 
-![Ficha Información del algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
+![Pestaña Información del algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
 Haga clic en la pestaña **[!UICONTROL Uso del algoritmo]** para ver una lista de actividades que hacen referencia a los criterios seleccionados. La tarjeta enumera las actividades activas e inactivas. Haga clic en las listas desplegables Actividades activas o Inactividades para ver la lista completa de actividades que hacen referencia a ese criterio. Puede hacer clic en el vínculo de la actividad para abrirla y modificarla.
 
-![Ficha Uso de criterios](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![Pestaña Uso de criterios](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
-## Determinación de cuándo los resultados de criterios están listos para mostrarse. {#section_03F328C07F234692B6D996DF745584B3}
+## Determinación de cuándo los resultados de criterios están listos para mostrarse.  {#section_03F328C07F234692B6D996DF745584B3}
 
 En el diagrama de actividad, las tarjetas de criterios ahora indican cuándo los resultados están listos para mostrarse. Saber si los resultados están listos para mostrarse ayuda a determinar si la actividad está preparada para su activación. Saber si los resultados están listos para mostrarse también ayuda a saber si hay algún problema con los criterios.
 
