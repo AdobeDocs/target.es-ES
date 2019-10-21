@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 9e7d1b0b9beae7817e958735e306c24318109b9f
 
 ---
 
@@ -21,7 +21,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 22 de octubre de 2019 |  |  |
+| 22 de octubre de 2019 | [Criterios y algoritmos. ](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | Se agregó una fila para Recomendaciones basadas en el usuario. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 19.10.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target/Standard/Premium 19.9.1 (30 de septiembre de 2019)
