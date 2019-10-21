@@ -8,7 +8,7 @@ title: Control de calidad de la actividad
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -75,7 +75,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
    También puede forzar la salida manual cargando una página en su sitio con un valor en blanco en el parámetro `at_preview_token` (por ejemplo, `https://www.mysite.com/?at_preview_token=`).
 
 * Si ha especificado “URL es” al crear la mejora de actividad [en el Compositor basado en formularios](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o en las opciones de envío [de página del Compositor de experiencias visuales,](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) la URL de control de calidad no funcionará porque el control de calidad de la actividad adjunta parámetros de URL. Para solucionar este problema, haga clic en la URL de control de calidad para ir a su sitio, elimine los parámetros añadidos a la URL y cargue la nueva dirección.
-* Si tiene at.js 1.*x* o mbox.js, el modo de control de calidad de la actividad no se mantiene si el explorador bloquea las cookies de terceros. En estos casos, debe agregar los parámetros de vista previa a cada dirección URL a la que navegue.
+* Si tiene at.js 1.*x*, o mbox.js, el modo de control de calidad de la actividad no será persistente si utiliza Safari u otro explorador que bloquee las cookies de terceros. En estos casos, debe agregar los parámetros de vista previa a cada dirección URL a la que navegue.
 * Si una actividad utiliza múltiples audiencias de experiencia (por ejemplo, un sitio con versiones para Reino Unido y Estados Unidos incluidas en la misma actividad), no se generan vínculos de control de calidad para las cuatro combinaciones (experiencia A/sitio EE. UU., experiencia A/sitio RU, experiencia B/sitio EE. UU., experiencia B/sitio RU). Se crean solo dos vínculos de QA (Experiencia A y Experiencia B) y los usuarios deben cumplir las condiciones de audiencia apropiadas para ver la página. Un usuario de QA para Reino Unido, no podría ver el sitio de EE. UU.
 * Todos los parámetros y valores de `at_preview` ya están codificados en la URL. La mayoría de las veces, todo funciona según lo esperado, pero algunos clientes podrían disponer de equilibradores de carga o servidores WEB que traten de codificar de nuevo los parámetros de la cadena de consulta.
 
