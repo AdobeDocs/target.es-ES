@@ -8,7 +8,7 @@ title: Notas de la versión de Target (versión previa)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d2a36e78f4487fd180812c9e9c82e08f0f385b4e
+source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
 
 ---
 
@@ -29,7 +29,7 @@ En estas notas de la versión se proporciona información acerca de las funcione
 
 | Función.  / Mejora | Descripción |
 | --- | --- |
-| ![Premium](/help/assets/premium.png) Recomendaciones basadas en el usuario | Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como "Recomendado para usted".<br>Este criterio le permite entregar contenido y experiencias personalizados tanto a visitantes nuevos como a visitantes que regresan. La lista de recomendaciones se centra en la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el visitante navega por el sitio. |
+| ![Premium badge](/help/assets/premium.png) Recomendaciones<br>basadas en el usuario (24 de octubre de 2019) | Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como "Recomendado para usted".<br>Este criterio le permite entregar contenido y experiencias personalizados tanto a visitantes nuevos como a visitantes que regresan. La lista de recomendaciones se centra en la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el visitante navega por el sitio.<br>Para obtener más información, consulte "Recomendaciones basadas en el usuario" en [Criterios y algoritmos](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
 ### Mejoras, correcciones y cambios
 
@@ -56,7 +56,7 @@ En estas notas de la versión se proporciona información acerca de las funcione
    >
    >Estas funciones no se implementarán a la vez ni se distribuirán a todos los clientes. Estas funciones se implementarán en los próximos días a partir de la versión [!DNL Target Standard/Premium] 19.10.1 (22 de octubre de 2019).
    >
-   >Como parte de la implementación del nuevo shell, también verá algunos cambios en la dirección URL. Todos los vínculos con marcador anteriores siguen funcionando pero le recomendamos que marque nuevos vínculos para una apertura más rápida.
+   >Como parte de la implementación de la nueva barra de navegación, también verá algunos cambios en la dirección URL. Todos los vínculos con marcador anteriores siguen funcionando pero le recomendamos que marque nuevos vínculos para una apertura más rápida.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
