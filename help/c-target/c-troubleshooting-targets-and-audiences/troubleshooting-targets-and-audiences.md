@@ -8,7 +8,7 @@ title: Preguntas más frecuentes sobre audiencias y segmentación
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -17,17 +17,27 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
 
+## Al crear cadenas URL complejas, ¿ [!DNL Target] evalúa toda la dirección URL?
+
+Si utiliza el mismo nombre de parámetro más de una vez en una cadena URL, HTTP considera el nombre del primer parámetro y omite los parámetros posteriores con el mismo nombre.
+
+Por ejemplo, en la siguiente cadena URL:
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
+
+se evalúa la primera instancia del `Category` parámetro y se ignora el segundo `Category` parámetro.
+
 ## A la hora de crear audiencias, ¿por qué las audiencias prediseñadas en Biblioteca de Objetivos se encuentran en otras categorías? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Por ejemplo, la audiencia heredada Biblioteca de objetivos &gt; Nuevos visitantes tiene un equivalente actualizado: Perfil del visitante &gt; Nuevo visitante.
 
 Se recomienda utilizar las audiencias más nuevas porque han mejorado su rendimiento. Es posible que algunos clientes que utilicen audiencias prediseñadas heredadas, de modo que no se han eliminado de la interfaz de Target.
 
-## ¿Cómo sé de qué manera se dividirá el tráfico entre las audiencias?  {#section_067EEFB956E7465CBF77EC86834470AB}
+## ¿Cómo sé de qué manera se dividirá el tráfico entre las audiencias?   {#section_067EEFB956E7465CBF77EC86834470AB}
 
-De manera predeterminada, el tráfico se divide a partes iguales entre las experiencias. Sin embargo, puede especificar  segmentos de porcentaje para cada experiencia. En este caso, se genera un número aleatorio que se utiliza para elegir la experiencia que se mostrará. Es posible que los porcentajes resultantes no coincidan exactamente con los objetivos especificados, pero con más tráfico resulta necesario dividir las experiencias para aproximarse a los objetivos.
+De manera predeterminada, el tráfico se divide a partes iguales entre las experiencias. Sin embargo, puede especificar   segmentos de porcentaje para cada experiencia. En este caso, se genera un número aleatorio que se utiliza para elegir la experiencia que se mostrará. Es posible que los porcentajes resultantes no coincidan exactamente con los objetivos especificados, pero con más tráfico resulta necesario dividir las experiencias para aproximarse a los objetivos.
 
-## ¿Qué experiencia se muestra si un usuario cumple los criterios de una actividad que contiene varias experiencias con varias audiencias aptas?  {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## ¿Qué experiencia se muestra si un usuario cumple los criterios de una actividad que contiene varias experiencias con varias audiencias aptas?   {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 El usuario cumple los criterios de la primera experiencia o audiencia que se muestra en la página de [!UICONTROL Target] de la actividad.
 
@@ -45,7 +55,7 @@ Por ejemplo, es posible que vea las siguientes audiencias: “Usuarios en PC” 
 
 Algunas audiencias de Target están predefinidas, como “Nuevos visitantes” y “Visitantes que repiten”. Los usuarios no pueden cambiar el nombre de estas audiencias predefinidas.
 
-## ¿Por qué no aparece ningún parámetro de perfil en la interfaz de usuario de Target?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## ¿Por qué no aparece ningún parámetro de perfil en la interfaz de usuario de Target?   {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a [!DNL Target], puede hacerlo por medio del método de API [!UICONTROL Profile Update]. Para obtener más información, consulte [Profile Update](https://developers.adobetarget.com/api/#authentication-tokens) en la documentación de la API de Adobe Target.
 
@@ -53,7 +63,7 @@ Algunas audiencias de Target están predefinidas, como “Nuevos visitantes” y
 
 Las actividades de personalización automatizada se evalúan una vez por sesión. Si hubo sesiones activas que se han calificado para una experiencia en particular y ahora se han agregado nuevas ofertas, los usuarios verán el nuevo contenido junto con las ofertas que se mostraron anteriormente. Debido a que anteriormente se han calificado para esas experiencias, todavía las verían durante la sesión. Si desea evaluar esto en cada visita a una página, debe cambiar al tipo de actividad de segmentación de experiencias (XT).
 
-## ¿Por qué los cambios realizados en las audiencias creadas mediante API no se reflejan en la interfaz de usuario de Target?  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## ¿Por qué los cambios realizados en las audiencias creadas mediante API no se reflejan en la interfaz de usuario de Target?   {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 A diferencia de las ofertas y los scripts de perfil, los cambios realizados por API en las audiencias creadas mediante Target Standard no se sincronizan con la interfaz de usuario de Target.
 
