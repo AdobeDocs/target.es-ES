@@ -2,15 +2,15 @@
 description: Cargue un archivo CSV para personalizar las recomendaciones.
 keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;cargar csv
 seo-description: Cargue un archivo CSV para personalizar las recomendaciones.
-seo-title: Cargar criterios personalizados.
+seo-title: Cargar criterios personalizados
 solution: Target
-title: Cargar criterios personalizados.
+title: Cargar criterios personalizados
 title-outputclass: premium
 topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
 
 ---
 
@@ -44,7 +44,9 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
    La descripción debería ayudarle a identificar el criterio y puede incluir información sobre la finalidad del criterio.
 1. Seleccione un **[!UICONTROL Segmento de mercado vertical]**.
 
-   Otras opciones de criterios pueden cambiar según el sector que seleccione. 1. Seleccione un **[!UICONTROL Tipo de página]**.
+   Otras opciones de criterios pueden cambiar según el sector que seleccione.
+
+1. Seleccione un **[!UICONTROL Tipo de página]**.
 
    Puede seleccionar varios tipos de página.
 
@@ -59,7 +61,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
    Las reglas de inclusión le ayudan a reducir el número de artículos que aparecen en las recomendaciones. Consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Seleccione la **[!UICONTROL Ubicación]** del archivo CSV.
 
-   El archivo CSV debe tener el formato correcto para que se pueda cargar. Haga clic en **[!UICONTROL Descargar plantilla CSV]para obtener un archivo CSV con el formato correcto.**
+   El archivo CSV debe tener el formato correcto para que se pueda cargar. Haga clic en **[!UICONTROL Descargar plantilla CSV]** para obtener un archivo CSV con el formato correcto.
 
    Tiene dos opciones de ubicación:
 
@@ -72,7 +74,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
    >
    >Las entidades de criterios personalizados (filas) pueden contener 1000 artículos recomendados (columnas).
 
-Las actualizaciones de criterios personalizados son “acumulativas” de forma predeterminada. Los nuevos pares de clave-valor especificados en el archivo de carga CSV sobrescribirán los pares existentes. Los pares de clave-valor existentes que no tengan claves especificadas en la carga del CSV seguirán estando disponibles para su envío y caducarán en los 31 días posteriores a la última vez que se carguen como parte del archivo CSV.
+Las actualizaciones de criterios personalizados son “acumulativas” de forma predeterminada. Los nuevos pares de clave-valor especificados en el archivo de carga CSV sobrescribirán los pares existentes. Los pares de clave-valor existentes que no tengan claves especificadas en la carga de CSV seguirán estando disponibles para su envío y caducarán en 31 días desde la última vez que se carguen como parte del archivo CSV.
 
 Póngase en contacto con el servicio de atención al cliente si desea activar la configuración que descarta los resultados existentes que no están incluidos en la siguiente carga CSV. Si esta opción está activada, solo estarán disponibles para su envío las claves presentes en el archivo CSV personalizado. Esta configuración se aplica a todos los criterios personalizados.
 
@@ -93,12 +95,12 @@ Algunos de los posibles mensajes de error que podría recibir si Target detectar
 | No se ha encontrado el directorio | Indique un directorio que exista en el servidor. |
 | No se ha encontrado el archivo | Indique el nombre de un archivo que exista en el servidor del directorio indicado. |
 
-## Vídeo de capacitación: Crear criterios en Recomendaciones (12:33)
+## Vídeo de formación: Crear criterios en Recommendations (12:33)
 
-Este vídeo contiene la siguiente información:
+Este vídeo contiene la información siguiente:
 
 * Crear criterios
 * Crear secuencias de criterios
-* Cargar criterios personalizados.
+* Cargar criterios personalizados
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=spa)
