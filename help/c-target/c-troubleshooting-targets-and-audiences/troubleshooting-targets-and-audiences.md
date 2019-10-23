@@ -8,7 +8,7 @@ title: Preguntas más frecuentes sobre audiencias y segmentación
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
@@ -26,6 +26,10 @@ Por ejemplo, en la siguiente cadena URL:
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
 se evalúa la primera instancia del `Category` parámetro y se ignora el segundo `Category` parámetro.
+
+Lo mejor es tener varios valores asociados a una sola categoría, como se muestra a continuación:
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
 ## A la hora de crear audiencias, ¿por qué las audiencias prediseñadas en Biblioteca de Objetivos se encuentran en otras categorías? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
