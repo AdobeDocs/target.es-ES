@@ -1,5 +1,5 @@
 ---
-description: Las audiencias determinan quién ve el contenido y las experiencias en una actividad segmentada.
+description: Las audiencias en Adobe Target determinan quién ve el contenido y las experiencias en una actividad segmentada.
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;segmentación de audiencia;informe de audiencia;audiencia de informe;segmento;parámetros de perfil personalizados;definición de audiencia;lista de audiencias
 seo-description: Las audiencias en Adobe Target determinan quién ve el contenido y las experiencias en una actividad segmentada.
 seo-title: Cree audiencias en Adobe Target
@@ -8,18 +8,18 @@ title: Crear audiencias
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
 
 # Crear audiencias{#create-audiences}
 
-Las audiencias determinan quién ve el contenido y las experiencias en una actividad segmentada.
+Las audiencias en Adobe Target determinan quién ve el contenido y las experiencias en una actividad segmentada.
 
 Las audiencias se utilizan siempre que está disponible la determinación de objetivos. Al segmentar una actividad, puede seleccionar una audiencia reutilizable de la lista [!UICONTROL Audiencias], [crear una audiencia específica de actividad](/help/c-target/creating-activity-only-audience.md) y segmentarla, o [combinar varias audiencias](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad-hoc.
 
-También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. See Audiences in the Core Services User Guide.[](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)**
+También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. Consulte [Audiencias](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) en la Guía *del usuario de servicios* principales.
 
 [!DNL Target] distingue dos tipos de audiencias:
 
@@ -59,7 +59,7 @@ A la siguiente definición de audiencia se accede haciendo clic en el icono Ver 
 
 ![Actividades &gt; Definición de audiencia](assets/audience_definition_list.png)
 
-Haga clic en la pestaña [!UICONTROL Uso de la audiencia] para ver otras actividades que hacen referencia a esa audiencia, si es aplicable. De esta forma, puede evitar el impacto accidental en otras actividades mientras edita audiencias. La información incluye actividades en vivo, actividades inactivas, actividades archivadas y actividades de sincronización. Esta función está disponible para todas las audiencias (audiencias de biblioteca y [audiencias solo de actividad](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Haga clic en la pestaña [!UICONTROL Uso de la audiencia] para ver otras actividades que hacen referencia a esa audiencia, si es aplicable. De esta forma, puede evitar el impacto accidental en otras actividades mientras edita audiencias. La información incluye actividades en vivo, actividades inactivas, actividades archivadas y actividades de sincronización. Esta función está disponible para todas las audiencias (audiencias de biblioteca y  [audiencias solo de actividad](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Si una audiencia se combina con otra audiencia y la audiencia combinada se usa para crear una actividad, la información de uso de ambas audiencias mostrará esa actividad recién creada.
 
