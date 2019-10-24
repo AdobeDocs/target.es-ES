@@ -8,7 +8,7 @@ title: Notas de la versión de Target (versión previa)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 34809d458b4e43e5ed9715803541a81754ee7e0f
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -27,7 +27,7 @@ En estas notas de la versión se proporciona información acerca de las funcione
 
 ## Target Standard/Premium 20.1.1
 
-La próxima versión de Target se publicará en enero de 2020. La fecha exacta y las características se anunciarán aquí.
+La versión de Target Standard/Premium 20.1.1 estará disponible en enero de 2020. La fecha exacta, las funciones y las mejoras se anunciarán aquí.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
