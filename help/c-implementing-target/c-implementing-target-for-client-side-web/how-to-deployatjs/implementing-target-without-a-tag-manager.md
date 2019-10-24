@@ -9,7 +9,7 @@ title: Implementación de Target sin un administrador de etiquetas
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -63,7 +63,7 @@ Consulte con ClientCare antes de cambiar estas opciones de configuración. Son n
 | Tiempo de espera | Si [!DNL Target] no responde con contenido dentro del periodo definido, se agota el tiempo de espera de la llamada del servidor y se muestra el contenido predeterminado. Se siguen realizando llamadas adicionales durante la sesión del visitante. El valor predeterminado es de 5 segundos.<br>Cambiar esta opción afecta a at.js y a mbox.js.<br>La biblioteca de at.js utiliza la configuración de tiempo de espera de `XMLHttpRequest`. El tiempo de espera empieza cuando una solicitud se activa y se detiene cuando Target obtiene una respuesta del servidor. Para obtener más información, consulte [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) en la red de desarrolladores de Mozilla.<br>Si el tiempo de espera especificado se agota antes de recibir una respuesta, se mostrará el contenido predeterminado y el visitante se podrá contar como un participante de la actividad, ya que la recopilación de datos se realizará a partir del límite de [!DNL Target]. Si la solicitud alcanza el límite de [!DNL Target], se contará al visitante.<br>Considere los siguientes puntos a la hora de configurar el tiempo de espera:<ul><li>Si el valor es demasiado bajo, los usuarios podrían ver el contenido predeterminado la mayor parte del tiempo, aunque se cuente al visitante como un participante de la actividad.</li><li>Si el valor es demasiado alto, los visitantes podrían ver áreas negras en la página web o páginas en blanco si oculta el cuerpo durante periodos muy largos.</li></ul>Para comprender mejor cómo funcionan los tiempos de respuesta de mbox, consulte la ficha Red en las herramientas para desarrolladores de su navegador. También puede utilizar herramientas de supervisión del rendimiento web de terceros, como Catchpoint.<br>**Nota:** Las características de [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) garantizan que [!DNL Target] no tenga que esperar a la respuesta de la API del visitante durante demasiado tiempo. Esta configuración y la configuración Tiempo de espera para at.js descrita no se afectan entre sí. |
 | Compatibilidad con navegadores anteriores | **Nota:** La opción Compatibilidad con exploradores anteriores está disponible en la versión at.js 0.9.3 y anteriores. Esta opción se ha eliminado de la versión 0.9.4 de at.js. Para saber cuáles con los exploradores compatibles con at.js, consulte [Exploradores compatibles](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)<br>Los navegadores anteriores son navegadores más viejos que no admiten completamente CORS (Uso compartido de recursos de origen cruzado). Algunos de estos navegadores son: Internet Explorer antes de la versión 11 y Safari versión 6 y anteriores. Si está deshabilitada la Compatibilidad con navegadores anteriores, Target no entrega contenido ni cuenta los visitantes en informes en estos navegadores. Si esta opción está habilitada, se recomienda efectuar un control de calidad en todos los navegadores anteriores para garantizar una buena experiencia del cliente. |
 
-## Configuración de código  {#section_D41C905D0F8149949F525C85F2CCFF7F}
+## Configuración de código   {#section_D41C905D0F8149949F525C85F2CCFF7F}
 
 | Configuración | Descripción |
 |--- |--- |
@@ -112,7 +112,7 @@ Para descargar [!DNL at.js] con la API
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   Sustituya el ` < *`código de cliente`*>` por el código de cliente del paso 1.
+   Replace `client code` with the client code from Step 1.
 
    El resultado de cargar esta dirección URL debería parecerse al siguiente ejemplo:
 
@@ -132,9 +132,9 @@ Para descargar [!DNL at.js] con la API
    https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
    ```
 
-   * Sustituya el ` < *`número de administrador`*>` por su número de administrador.
-   * Sustituya el ` < *`código de cliente`*>` por el código de cliente del paso 1.
-   * Reemplace el ` < *`número de versión`*>` con el número de versión [ [!DNL at.js] ](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) deseado (por ejemplo, 1.6.2).
+   * Replace `admin number` with your admin number.
+   * Replace `client code` with the client code from Step 1.
+   * Replace `version number` with the desired at.js version number (for example, 2.2).
    >[!IMPORTANT]
    >
    >El equipo de Target mantiene solo dos versiones de [!DNL at.js]: la actual y la penúltima. Actualice [!DNL at.js] cuando sea posible para garantizar que dispone de una versión compatible. Para obtener información detallada sobre los cambios en cada versión de at.js, consulte [Detalles de las versiones de at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
@@ -207,7 +207,7 @@ Tenga en cuenta las siguientes notas importantes:
 * Se debe utilizar el tipo de documento HTML5 (por ejemplo, `<!doctype html>`). Los tipos de documentos no admitidos o anteriores pueden hacer que Target no pueda realizar una solicitud.
 * Conexión previa y Recuperación previa son opciones que pueden ayudar a que sus páginas web se carguen más rápido. Si usa estas configuraciones, asegúrese de reemplazar `<client code>` con su propio código de cliente, que puede obtener desde la página **[!UICONTROL Configuración]** &gt; **[!UICONTROL Implementación]** &gt; **[!UICONTROL Editar configuración de at.js]**.
 * Si tiene una capa de datos es óptimo definir la mayor cantidad posible en el `<head>` de sus páginas antes de que se cargue at.js. Esta ubicación proporciona la máxima capacidad para aprovechar esta información en Target para personalización.
-* Las funciones especiales de Target, como `targetPageParams()`, `targetPageParamsAll()`, proveedores de datos y `targetGlobalSettings()` deben definirse después de la capa de datos y antes de que at.js cargue. Alternativamente, se podrían guardar en la sección [!UICONTROL Encabezado de biblioteca] de la página [!UICONTROL Editar configuración de at.js] y guardarse como parte de la propia biblioteca de at.js. Para obtener más información sobre estas funciones, consulte  [Funciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* Las funciones especiales de Target, como `targetPageParams()`, `targetPageParamsAll()`, proveedores de datos y `targetGlobalSettings()` deben definirse después de la capa de datos y antes de que at.js cargue. Alternativamente, se podrían guardar en la sección [!UICONTROL Encabezado de biblioteca] de la página [!UICONTROL Editar configuración de at.js] y guardarse como parte de la propia biblioteca de at.js. Para obtener más información sobre estas funciones, consulte   [Funciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * Si usa las bibliotecas de ayuda de JavaScript, como jQuery, inclúyalas antes de Target para poder aprovechar su sintaxis y sus métodos al crear experiencias de Target.
 * Incluya at.js en el `<head>` de sus páginas.
 
