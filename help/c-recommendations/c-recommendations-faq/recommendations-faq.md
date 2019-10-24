@@ -1,8 +1,8 @@
 ---
 description: Lista de las preguntas más frecuentes (FAQ) sobre actividades de Recommendations.
 keywords: solución de problemas;preguntas más frecuentes;FAQ;recomendaciones;caracteres especiales;ponderación de atributos;similitud de contenido
-seo-description: Lista de las preguntas más frecuentes (FAQ) sobre actividades de Recommendations.
-seo-title: Preguntas más frecuentes de Recommendations
+seo-description: Lista de preguntas más frecuentes sobre las actividades de Recomendaciones de Adobe Target.
+seo-title: Preguntas más frecuentes sobre Recomendaciones de Adobe Target
 solution: Target
 title: Preguntas más frecuentes de Recommendations
 title-outputclass: premium
@@ -10,14 +10,14 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Preguntas más frecuentes sobre Recommendations{#recommendations-faq}
 
-Lista de las preguntas más frecuentes (FAQ) sobre actividades de Recommendations.
+Lista de preguntas más frecuentes sobre las actividades de Recomendaciones de Adobe Target.
 
 ## ¿Cuánto tiempo llevará ver las actualizaciones de los elementos del catálogo en mi sitio?
 
@@ -54,7 +54,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## ¿Por qué no están disponibles para su selección todos los criterios, incluidos los personalizados, al crear una actividad de Recommendations? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## ¿Por qué no están disponibles para su selección todos los criterios, incluidos los personalizados, al crear una actividad de Recommendations?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Los criterios disponibles dependen de la categoría actual. Cuando crea ofertas de recomendaciones, el selector de algoritmo muestra criterios basados en el Id. de la categoría.
 
@@ -62,7 +62,7 @@ Si la ubicación en la que aplica los criterios no contiene el Id. de categoría
 
 Si utiliza una ubicación en la que el Id. de categoría está presente en el mbox, el selector de criterio contendrá todos los criterios aplicables.
 
-Target dispone de un ajuste [Filtrar los criterios no compatibles](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) para controlar el filtrado inteligente del selector de algoritmo.
+Target dispone de un ajuste  [Filtrar los criterios no compatibles](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) para controlar el filtrado inteligente del selector de algoritmo.
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ La siguiente lista contiene casos especiales en los que Target no muestra la cas
 * No se activa ninguna llamada a mbox desde la página (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Los parámetros de Target no están definidos.
 
-## ¿Qué debería hacer si una colección en Recommendations resulta en cero (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## ¿Qué debería hacer si una colección en Recommendations resulta en cero (0)?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Tenga en cuenta la siguiente información si ve que una colección que era distinta de cero resulta en cero:
 
@@ -115,13 +115,13 @@ Este tipo de ponderación es más dinámico y se basa en la “clave de recomend
 
 ![](assets/content_similarity_example.png)
 
-## ¿Por qué a veces Target no puede mostrar recomendaciones? {#section_DB3F40673AED42228E407C05437D99E9}
+## ¿Por qué a veces Target no puede mostrar recomendaciones?  {#section_DB3F40673AED42228E407C05437D99E9}
 
 Target a veces no puede mostrar recomendaciones debido al bajo número de recomendaciones disponibles.
 
-La cantidad de valores generados por criterio es 5 veces el número de entidades especificadas en el diseño. El filtrado en tiempo de ejecución (por ejemplo, el inventario, la coincidencia de atributos de mbox) se aplica después de que se generen los valores de 5x, por lo que es posible terminar con menos de 5 valores en el momento de la entrega. Para mitigar esta situación, aumente el número de entidades en el diseño al ocultar entidades adicionales.
+La cantidad de valores generados por criterio es 3 veces el número de entidades especificadas en el diseño. El filtrado en tiempo de ejecución (por ejemplo, el inventario, la coincidencia de atributos de mbox) se aplica después de que se generen los valores de 3x, por lo que es posible terminar con menos de 3 valores en el momento de la entrega. Para mitigar esta situación, aumente el número de entidades en el diseño al ocultar entidades adicionales.
 
-Puede usar el siguiente JavaScript al comienzo del diseño para incrementar el número de entidades solicitadas. En este ejemplo, el recuento de entidades solicitadas sería 50 (5 x 10).
+Puede usar el siguiente JavaScript al comienzo del diseño para incrementar el número de entidades solicitadas. En este ejemplo, el recuento de entidades solicitadas sería 30 (3 x 10).
 
 ```
 #foreach($entity in $entities) 
@@ -132,13 +132,13 @@ Puede usar el siguiente JavaScript al comienzo del diseño para incrementar el n
 #end 
 ```
 
-## ¿Cuál es el límite de tamaño de una llamada API para insertar/actualizar productos? ¿Puedo actualizar 50 000 productos en una llamada usando la API en vez de una fuente? {#section_434FE1F187B7436AA39B7C14C7895168}
+## ¿Cuál es el límite de tamaño de una llamada API para insertar/actualizar productos? ¿Puedo actualizar 50 000 productos en una llamada usando la API en vez de una fuente?  {#section_434FE1F187B7436AA39B7C14C7895168}
 
 Target impone a las publicaciones un límite de 50 MB en el nivel de aplicación. Sin embargo, eso ocurre solamente cuando pasa el encabezado de tipo de contenido `application/x-www-form-urlencoded`.
 
 Bien podría probar enviar 50 000 productos en una sola llamada. Si falla, debería dividir ese número en lotes. Habitualmente recomendamos que los clientes dividan sus llamadas en lotes de 5000 o 10 000 productos para reducir la probabilidad de tiempo de espera agotado debido a la carga del sistema.
 
-## ¿Es necesario especificar el nombre del mbox al crear en Recommendations criterios, promociones o reglas de prueba de plantillas? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## ¿Es necesario especificar el nombre del mbox al crear en Recommendations criterios, promociones o reglas de prueba de plantillas?  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Cuando se crean en Recommendations criterios, promociones o reglas de prueba de plantilla basadas en un parámetro de mbox, `mboxParameter` ya no le solicita `mboxName`. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro.
 
@@ -151,13 +151,13 @@ Con ninguno de estos métodos existe vínculo entre el mbox y el parámetro. Los
 
 Si edita un criterio, promoción o regla de prueba de plantilla existente, el criterio de filtrado se muestra con el nombre de mbox que se suministró durante la creación.
 
-## ¿Por qué no puedo guardar la actividad de Mis recomendaciones heredadas después de definir una nueva audiencia? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## ¿Por qué no puedo guardar la actividad de Mis recomendaciones heredadas después de definir una nueva audiencia?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Asegúrese de que la audiencia tiene un nombre único. Si le dio a la audiencia el mismo nombre que una audiencia existente, no puede guardar su actividad de Recommendations heredada (una actividad de Recommendations creada antes de octubre de 2016).
 
-## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente? {#section_20F1AF4839A447B9889B246D6E873538}
+## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente?  {#section_20F1AF4839A447B9889B246D6E873538}
 
-No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, recomendamos limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Los límites adicionales en la longitud de las columnas requeridas están disponibles en la [página Limitaciones de Target](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, recomendamos limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Los límites adicionales en la longitud de las columnas requeridas están disponibles en la  [página Limitaciones de Target](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## ¿Puedo excluir dinámicamente una entidad?
 
