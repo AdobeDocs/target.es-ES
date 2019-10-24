@@ -8,7 +8,7 @@ title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -72,13 +72,17 @@ Los siguientes son problemas conocidos de las actividades de Recommendations:
 
 En una actividad MVT, el ganador que se muestra en la tabla y en el gráfico no concuerdan al comprobar métricas. Esto ocurre si un usuario cambia de la vista Resumen a la Visualización de gráfico, después regresa a Resumen, modifica una métrica y vuelve a cambiar a Visualización de gráfico. Cuando se produce este problema, la vista Resumen siempre muestra el ganador correcto. Si el usuario no cambia entre Visualización de gráfico y la vista Resumen, la Visualización de gráfico muestra al ganador correcto.
 
-### at.js
+### at.js {#atjs}
 
 A continuación, detallamos los problemas conocidos de at.js:
 
-* Si crea una experiencia sin modificaciones con at.js 2.*x* (por ejemplo, una experiencia predeterminada), es posible que la experiencia no se cuente en informes, Analytics para Target (A4T), Analytics o Google Analytics. In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
+* Si crea una experiencia sin modificaciones con at.js 2.1.1 o anterior (por ejemplo, una experiencia predeterminada), es posible que la experiencia no se cuente en informes, Analytics para Target (A4T), Adobe Analytics o Google Analytics. Además, es posible que el [complemento](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) ttMeta no funcione correctamente.
 
-   As a workaround, use a whitespace in the experience content. (TNT-33366)
+   Como solución alternativa, utilice un espacio en blanco en el contenido de la experiencia. (TNT-33366)
+
+   >[!NOTE]
+   >
+   >Se ha incluido una corrección para este problema en at.js 2.2.0. Debe actualizar a la versión [más reciente o a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) o utilizar la solución mencionada anteriormente solo para las versiones de at.js anteriores a la 2.2.0.
 
 * Cuando se carga una página en el Compositor de experiencias visuales (VEC), Target debe determinar si la configuración de mbox global está habilitada o deshabilitada, y si entityID o categoryID están presentes en la ubicación donde el usuario intenta aplicar las recomendaciones del VEC. La lista de criterios se filtra en función de esta información. La lista predeterminada tiene filtrados algunos algoritmos, pero la [casilla Compatible](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) le permite ver la lista de algoritmos completa.
 
