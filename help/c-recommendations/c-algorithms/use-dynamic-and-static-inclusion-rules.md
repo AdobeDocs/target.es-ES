@@ -1,8 +1,8 @@
 ---
 description: Información acerca de la creación de reglas de inclusión para criterios y promociones, y agregación de reglas de filtrado dinámicas o estáticas adicionales para lograr mejores resultados.
 keywords: reglas de inclusión;criterios de inclusión;Recommendations;creación de nuevos criterios;promoción;promociones;filtrado dinámico;dinámico;valores en blanco;ignorar regla de filtrado;filtro estático;filtrar por valor;coincidencia de atributos de entidad;coincidencia de atributos de perfil;coincidencia de parámetros;filtrado por valor;filtro estático
-seo-description: Información acerca de la creación de reglas de inclusión para criterios y promociones, y agregación de reglas de filtrado dinámicas o estáticas adicionales para lograr mejores resultados.
-seo-title: Uso de reglas de inclusión dinámicas y estáticas
+seo-description: Información sobre la creación de reglas de inclusión en Recomendaciones de Adobe Target para criterios y promociones, y la adición de reglas de filtrado dinámicas o estáticas adicionales para obtener mejores resultados.
+seo-title: Usar reglas de inclusión dinámicas y estáticas en Recomendaciones de Adobe Target
 solution: Target
 title: Uso de reglas de inclusión dinámicas y estáticas
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
 translation-type: tm+mt
-source-git-commit: 32fea099784cfc481028358c2270a40a98696a33
+source-git-commit: 5ab3258eda4363072b7cec1d4b5284f1d5638472
 
 ---
 
