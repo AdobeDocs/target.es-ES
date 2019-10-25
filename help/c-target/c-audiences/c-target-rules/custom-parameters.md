@@ -8,7 +8,7 @@ title: Parámetros personalizados
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -52,7 +52,8 @@ La [tarjeta emergente de detalles de definición](../../../c-target/c-audiences/
 
 ## Consideraciones {#considerations}
 
-* Las audiencias y las actividades se evalúan para un mbox específico. For example, if the global mbox passes a certain parameter, but the regional mbox does not, the activity/audience targeting that parameter will not be qualified for on the regional mbox.
+* Las audiencias y actividades se evalúan para un mbox específico. Por ejemplo, si el mbox global pasa un determinado parámetro pero el mbox regional no, la actividad o la audiencia orientada a ese parámetro no será calificada para el mbox regional.
+* La segmentación no se evalúa en parámetros de mbox internos, como mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId y mboxVersion.
 
 ## Vídeo de formación: Creación de audiencias
 
