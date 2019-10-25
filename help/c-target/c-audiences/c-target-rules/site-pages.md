@@ -1,21 +1,21 @@
 ---
 description: Segmente a los visitantes que estén en una página concreta o que tengan un parámetro de mbox específico.
 keywords: páginas de sitio;páginas de sitio Target;segmentación;página actual;página actual Target;página anterior;página anterior Target;página de destino;página de destino Target;mbox;mbox Target
-seo-description: Segmente a los visitantes que estén en una página concreta o que tengan un parámetro de mbox específico.
-seo-title: Páginas del sitio
+seo-description: Puede segmentar visitantes que estén en una página específica o que tengan un parámetro de mbox específico mediante Adobe Target.
+seo-title: Páginas de sitio en Adobe Target
 solution: Target
 title: Páginas del sitio
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
 
 # Páginas del sitio{#site-pages}
 
-Segmente a los visitantes que estén en una página concreta o que tengan un parámetro de mbox específico.
+Puede segmentar visitantes que estén en una página específica o que tengan un parámetro de mbox específico.
 
 >[!NOTE]
 >
@@ -56,6 +56,19 @@ Utilice un:
 como se ilustra a continuación:
 
 ![](assets/site_pages.png)
+
+## Resolución de problemas {#ts}
+
+* Para que las audiencias de página de aterrizaje funcionen correctamente, las solicitudes deben tener el parámetro `mboxReferrer` mbox configurado correctamente. La biblioteca JavaScript de at.js se obtiene `mboxReferrer` de la página mediante `document.referrer`.
+
+   Si estos parámetros no se configuran correctamente, un visitante podría abandonar una actividad después de navegar a una página posterior. Por ejemplo: si `document.referrer` se utiliza en la página de aterrizaje pero no en páginas posteriores, [!DNL Target] no se puede garantizar que el visitante permanezca en la actividad.
+
+   Si se encuentra con esta situación, considere la posibilidad de realizar una de las siguientes acciones:
+
+   * Asegúrese de que el sitio web se carga `document.referrer` correctamente.
+   * Pase parámetros [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) de mbox para [!DNL Target] usarlos con fines de segmentación.
+   * Utilice una actividad [de prueba](/help/c-activities/t-test-ab/test-ab.md) A/B en lugar de una actividad de página de aterrizaje. Las actividades de prueba A/B no cambian experiencias para el mismo visitante.
+   * Utilice un perfil [de visitante](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) en su lugar.
 
 ## Vídeo de formación: Creación de audiencias
 
