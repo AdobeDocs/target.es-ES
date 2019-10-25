@@ -1,6 +1,6 @@
 ---
 description: 'Información sobre la función adobe.target.applyOffers() para at.js. '
-keywords: adobe.target.applyOffers;applyOffers;applyoffer;apply options;at.js;funciones;function
+keywords: adobe.target.applyOffers;applyOffers;applyoffers;aplicar oferta;at.js;funciones;función
 seo-description: Información sobre la función adobe.target.applyOffers(options) para la biblioteca JavaScript at.js de Adobe Target.
 seo-title: Información sobre la función adobe.target.applyOffers(options) para la biblioteca JavaScript at.js de Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Primeros pasos
 title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -27,6 +27,10 @@ Esta función permite aplicar más de una oferta recuperada por `adobe.target.ge
 | Respuesta | Objeto | Sí | Objeto de respuesta de `getOffers()`.<br>Consulte la tabla Solicitudes a continuación. |
 
 ## Respuesta
+
+>[!NOTE]
+>
+>Consulte la documentación [de la API de](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) envío para obtener información sobre los tipos aceptables para todos los campos que se enumeran a continuación.
 
 | Nombre del campo | Descripción |
 | --- | --- |
