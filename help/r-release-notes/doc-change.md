@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
 
 ---
 
@@ -21,7 +21,6 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 25 de octubre de 2019 | [Sincronización de perfiles en tiempo real para mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Se agregó una nota que explica cómo distinguir entre usuarios autenticados y usuarios no autenticados. |
 |  | [Parámetros personalizados](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Se ha añadido un nuevo elemento en "Consideraciones" para explicar que la segmentación no se evalúa en los parámetros de mbox internos. |
 |  | [Usar reglas de inclusión dinámicas y estáticas](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Se ha actualizado el tema por completo y se han eliminado ejemplos obsoletos. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Se ha agregado un vínculo de nota a la documentación de la API de envío de Target para ayudarle a comprender los tipos disponibles para solicitudes/respuestas (matriz, cadena, etc.). |
