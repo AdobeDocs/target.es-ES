@@ -2,13 +2,13 @@
 description: Lista de temas útiles para resolver problemas en Adobe Target. Incluye temas de resolución de problemas, preguntas más frecuentes (PF) y otros temas.
 keywords: resolución de problemas de target;solucionar problemas de target
 seo-description: Lista de temas útiles para resolver problemas en Adobe Target. Incluye temas de resolución de problemas, preguntas más frecuentes (PF) y otros temas.
-seo-title: Resolución de problemas de Target
+seo-title: Solución de problemas de Adobe Target
 solution: Target
 title: Resolución de problemas de Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
 
 ---
 
@@ -70,7 +70,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 * [Preguntas más frecuentes sobre la optimización y personalización de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Preguntas más frecuentes sobre audiencias y segmentación](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [Atributos de script de perfil](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
+* [Páginas del sitio](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## Contenido
 
