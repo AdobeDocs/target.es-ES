@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
+source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 
 ---
 
@@ -106,7 +106,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
    Las Reglas de inclusión determinan qué artículos se incluirán en sus recomendaciones. Las opciones disponibles dependen del sector.
 
-   Para obtener más información, consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
+   Para obtener más información, consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
 
 1. Configure la **[!UICONTROL Ponderación de atributos]**.
 
@@ -118,21 +118,21 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
    Si está creando una nueva actividad de [!UICONTROL Recommendations] o está editando una existente, la casilla **[!UICONTROL Guardar criterios para más adelante]** está seleccionada de forma predeterminada. Si no desea usar los criterios en otras actividades, desmarque la casilla antes de guardar.
 
-## Tiempo de procesamiento de criterios esperado {#process-time}
+## Tiempo de procesamiento de criterios esperado  {#process-time}
 
-Después de guardar una actividad que contiene un criterio, calcula las recomendaciones en función de la colección y los criterios seleccionados [!DNL Target] . Este cálculo tarda algún tiempo en realizarse y el intervalo de tiempo varía según la lógica de recomendación seleccionada, el intervalo de datos, el número de artículos en el catálogo, la cantidad de datos de comportamiento que han generado los clientes y la fuente de datos de comportamiento seleccionada. La fuente de datos de comportamiento tiene el mayor impacto en el tiempo de procesamiento, como se indica a continuación:
+Después de guardar una actividad que contiene un criterio, calcula las recomendaciones en función de la colección y los criterios seleccionados [!DNL Target] . Este cálculo tarda unos minutos en realizarse. El periodo de tiempo difiere según la lógica de recomendación, el intervalo de datos, el número de elementos del catálogo, la cantidad de datos de comportamiento que sus clientes hayan generado y la fuente de datos de comportamiento seleccionada. La fuente de datos de comportamiento tiene el impacto mayor sobre el tiempo de procesamiento, como se indica a continuación:
 
 ### mboxes regionales clásicos
 
-Si se seleccionan mboxes como el origen de datos de comportamiento, una vez creados, los criterios se ejecutan inmediatamente. Dependiendo de la cantidad de datos de comportamiento utilizados y del tamaño del catálogo, el algoritmo puede tardar hasta 12 horas en ejecutarse. Al realizar cambios en la configuración de criterios, el algoritmo se vuelve a ejecutar. Según el cambio realizado, las recomendaciones calculadas anteriormente podrían estar disponibles hasta que se complete una nueva ejecución, o para cambios mayores, solo el contenido predeterminado o de copia de seguridad estará disponible hasta que se complete una nueva ejecución. Si un algoritmo no se modifica, se vuelve a ejecutar automáticamente [!DNL Target] cada 12-48 horas, según el intervalo de datos seleccionado.
+Si se seleccionan mboxes como fuente de datos de comportamiento, una vez creada, los criterios se ejecutan inmediatamente. Dependiendo de la cantidad de datos de comportamiento utilizados y del tamaño del catálogo, el algoritmo puede tardar hasta 12 horas en ejecutarse. Realizar cambios en la configuración de criterios suele resultar en una nueva ejecución del algoritmo. Según el cambio realizado, las recomendaciones calculadas anteriormente podrían estar disponibles hasta que se complete una nueva ejecución; o para cambios más grandes, solo el contenido predeterminado o de copia de seguridad estará disponible hasta que se complete una nueva ejecución. Si no se modifica un algoritmo, [!DNL Target] se vuelve a ejecutar automáticamente cada 12 a 48 horas, según el intervalo de datos seleccionado.
 
 ### Adobe Analytics.
 
-If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+Si los criterios utilizan [!DNL Adobe Analytics] como fuente de datos de comportamiento, una vez creados, el tiempo de disponibilidad de los criterios depende de si el grupo de informes seleccionado y la ventana de vista al pasado se han utilizado para otros criterios.
 
-* **Configuración** de grupos de informes únicos: La primera vez que se utiliza un grupo de informes con una ventana retrospectiva de un intervalo de datos determinado, [!DNL Target Recommendations] puede tardar entre dos y siete días en descargar completamente los datos de comportamiento del grupo de informes seleccionado desde [!DNL Analytics]. Este intervalo de tiempo depende de la carga [!DNL Analytics] del sistema.
-* **Criterios nuevos o editados con un grupo** de informes ya disponible: Al crear un nuevo criterio o editar un criterio existente, si el grupo de informes seleccionado ya se ha utilizado con [!DNL Target Recommendations], con un intervalo de datos igual o inferior al intervalo de datos seleccionado, los datos estarán disponibles inmediatamente y no se requerirá ninguna configuración por única vez. En este caso, o si se edita la configuración de un algoritmo sin modificar el grupo de informes o intervalo de datos seleccionado, el algoritmo se ejecuta o se vuelve a ejecutar en un plazo de 12 horas.
-* **Se está ejecutando** el algoritmo: Los datos fluyen de [!DNL Analytics] a [!DNL Target Recommendations] diario. Por ejemplo: para la recomendación Afinidad  vista, cuando un usuario ve un producto, una llamada de seguimiento de vista de producto se pasa a [!DNL Analytics] casi en tiempo real. Los [!DNL Analytics] datos se insertan [!DNL Target] al principio del día siguiente y [!DNL Target] ejecuta el algoritmo en menos de 12 horas.
+* **Configuración de grupos de informes única**: La primera vez que se utiliza un grupo de informes con una ventana retrospectiva de intervalo de datos determinada, [!DNL Target Recommendations] puede tardar de dos a siete días en descargar completamente los datos de comportamiento del grupo de informes seleccionado de [!DNL Analytics]. Este periodo de tiempo depende de la carga del sistema de [!DNL Analytics].
+* **Criterios nuevos o editados que usan un grupo de informes ya disponible**: Al crear un nuevo criterio o editar uno existente, si el grupo de informes seleccionado ya se ha utilizado con [!DNL Target Recommendations] con un intervalo de datos igual o inferior al seleccionado, entonces los datos estarán disponibles inmediatamente y no se requiere una configuración única. En este caso, o si la configuración de un algoritmo se edita sin modificar el grupo de informes o el intervalo de datos seleccionado, el algoritmo se ejecuta o vuelve a ejecutarse en un plazo de 12 horas.
+* **Se ejecuta el algoritmo en curso**: Los datos fluyen desde [!DNL Analytics] a [!DNL Target Recommendations] diariamente. Por ejemplo, para la recomendación [!UICONTROL Afinidad de visualización], cuando un usuario ve un producto, se pasa una llamada de seguimiento de visualización de producto a [!DNL Analytics] casi en tiempo real. Los datos de [!DNL Analytics] se insertan en [!DNL Target] al principio del día siguiente y [!DNL Target] ejecuta el algoritmo en menos de 12 horas.
 
 ## Basar la recomendación en una clave de recomendación {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -191,7 +191,7 @@ Páginas de una sola categoría.
 
 NO lo utilice en páginas de resultados de búsqueda nulos.
 
-### Atributo personalizado. {#custom}
+### Atributo personalizado.  {#custom}
 
 La recomendación viene determinada por un elemento almacenado en el perfil de un visitante, utilizando los atributos user.*x* o perfil.atributos *x*.
 
@@ -331,7 +331,7 @@ La recomendación está determinada por la popularidad de los artículos del sit
 
 Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
 
-### Artículos vistos recientemente. {#recently-viewed}
+### Artículos vistos recientemente.  {#recently-viewed}
 
 Utiliza el historial del visitante (sesiones de alcance) para presentar el último elemento *X* que el visitante haya visto, según el número de espacios en el diseño.
 
@@ -343,7 +343,7 @@ Páginas generales, como páginas principales o de aterrizaje y anuncios externo
 
 >[!NOTE]
 >
->Los elementos vistos recientemente respetan tanto la configuración global de Exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento está excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará; por lo tanto, cuando se utiliza un criterio de Artículos vistos recientemente, generalmente se debe utilizar la configuración "Todas las colecciones".
+>Elementos vistos recientemente respeta tanto la configuración global de Exclusiones como la configuración de Colección seleccionada para la Actividad. Si un elemento queda excluido por una Exclusión global o no está contenido en la Colección seleccionada, no se mostrará; por lo tanto, al utilizar los criterios de Artículos vistos recientemente, se suele utilizar la opción «Todas las colecciones».
 
 ## Reglas de inclusión {#task_28DB20F968B1451481D8E51BAF947079}
 
@@ -442,18 +442,22 @@ Resulta especialmente eficaz usar la similitud de contenido para generar recomen
 
 Al seleccionar **[!UICONTROL Artículos]**/ **[!UICONTROL Medios con atributos similares]**, tiene la opción de crear reglas para aumentar o reducir la importancia que ciertos atributos de artículo tienen a la hora de determinar las Recommendations. En el caso de artículos como libros, puede aumentar la importancia de atributos como el *género*, el *autor* o la *serie* para recomendar libros parecidos.
 
+>[!NOTE]
+>
+>El algoritmo de similitud de contenido puede usar muestras aleatorias para calcular similitudes entre elementos. Como resultado, las clasificaciones de similitud entre elementos pueden variar entre ejecuciones de algoritmos.
+
 ![](assets/ContentSimilarity.png)
 
 Como la similitud de contenido emplea palabras clave para comparar los artículos, algunos atributos, como *mensaje* o *descripción*, pueden producir “ruido” en la comparación. Puede crear reglas para pasar por alto estos atributos.
 
 De forma predeterminada, todos los atributos están definidos en *Línea de base*. Solo es necesario crear una regla si quiere cambiar esta configuración.
 
-## Vídeo de capacitación: Crear criterios en Recomendaciones (12:33)
+## Vídeo de formación: Crear criterios en Recommendations (12:33)
 
-Este vídeo contiene la siguiente información:
+Este vídeo contiene la información siguiente:
 
 * Crear criterios
 * Crear secuencias de criterios
-* Cargar criterios personalizados.
+* Cargar criterios personalizados
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=spa)
