@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 
 ---
 
@@ -21,6 +21,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 29 de octubre de 2019 | [Similitud de contenido](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Se agregó una nota. |
 |  | [Parámetros personalizados](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Se ha añadido un nuevo elemento en "Consideraciones" para explicar que la segmentación no se evalúa en los parámetros de mbox internos. |
 |  | [Usar reglas de inclusión dinámicas y estáticas](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Se ha actualizado el tema por completo y se han eliminado ejemplos obsoletos. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Se ha agregado un vínculo de nota a la documentación de la API de envío de Target para ayudarle a comprender los tipos disponibles para solicitudes/respuestas (matriz, cadena, etc.). |
