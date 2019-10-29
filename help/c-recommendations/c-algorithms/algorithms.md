@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -112,20 +112,4 @@ Haga clic en la pestaña **[!UICONTROL Información del algoritmo]** para ver in
 Haga clic en la pestaña **[!UICONTROL Uso del algoritmo]** para ver una lista de actividades que hacen referencia a los criterios seleccionados. La tarjeta enumera las actividades activas e inactivas. Haga clic en las listas desplegables Actividades activas o Inactividades para ver la lista completa de actividades que hacen referencia a ese criterio. Puede hacer clic en el vínculo de la actividad para abrirla y modificarla.
 
 ![Pestaña Uso de criterios](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
-
-## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
-
-En el diagrama de actividad, las tarjetas de criterios ahora indican cuándo los resultados están listos para mostrarse. Saber si los resultados están listos para mostrarse ayuda a determinar si la actividad está preparada para su activación. Saber si los resultados están listos para mostrarse también ayuda a saber si hay algún problema con los criterios.
-
->[!NOTE]
->
->Para consultar la cuestión sobre los tiempo de carga, vea “Tiempo esperado de procesamiento de criterios” en [Creación de criterios](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
-
-En la siguiente ilustración se muestra el diagrama de actividad en la página Información general de una actividad de Recommendations. También puede ver el diagrama de actividad con los resultados de estado de los criterios, obtenidos en el paso 2 del flujo de trabajo de creación de la actividad.
-
-![Estado de criterios en la página Información general](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
-
-Los resultados de estado pueden ser: Resultados preparados, Resultados no preparados y Error de fuente, como se muestra en el diagrama siguiente:
-
-![](assets/criteria_status_multi.png)
 
