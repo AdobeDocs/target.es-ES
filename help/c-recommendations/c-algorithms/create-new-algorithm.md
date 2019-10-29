@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
+source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 
 ---
 
@@ -106,7 +106,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
    Las Reglas de inclusión determinan qué artículos se incluirán en sus recomendaciones. Las opciones disponibles dependen del sector.
 
-   Para obtener más información, consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
+   Para obtener más información, consulte [Reglas de inclusión](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
 1. Configure la **[!UICONTROL Ponderación de atributos]**.
 
@@ -442,15 +442,15 @@ Resulta especialmente eficaz usar la similitud de contenido para generar recomen
 
 Al seleccionar **[!UICONTROL Artículos]**/ **[!UICONTROL Medios con atributos similares]**, tiene la opción de crear reglas para aumentar o reducir la importancia que ciertos atributos de artículo tienen a la hora de determinar las Recommendations. En el caso de artículos como libros, puede aumentar la importancia de atributos como el *género*, el *autor* o la *serie* para recomendar libros parecidos.
 
->[!NOTE]
->
->El algoritmo de similitud de contenido puede usar muestras aleatorias para calcular similitudes entre elementos. Como resultado, las clasificaciones de similitud entre elementos pueden variar entre ejecuciones de algoritmos.
-
 ![](assets/ContentSimilarity.png)
 
 Como la similitud de contenido emplea palabras clave para comparar los artículos, algunos atributos, como *mensaje* o *descripción*, pueden producir “ruido” en la comparación. Puede crear reglas para pasar por alto estos atributos.
 
 De forma predeterminada, todos los atributos están definidos en *Línea de base*. Solo es necesario crear una regla si quiere cambiar esta configuración.
+
+>[!NOTE]
+>
+>El algoritmo de similitud de contenido puede usar muestras aleatorias para calcular similitudes entre elementos. Como resultado, las clasificaciones de similitud entre elementos pueden variar entre ejecuciones de algoritmos.
 
 ## Vídeo de formación: Crear criterios en Recommendations (12:33)
 
