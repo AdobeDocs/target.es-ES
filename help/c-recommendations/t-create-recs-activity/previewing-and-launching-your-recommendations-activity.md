@@ -10,7 +10,7 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
 
 ---
 
@@ -23,6 +23,7 @@ Después de crear la actividad [!UICONTROL Recomendaciones], Prueba [!UICONTROL 
 
 Después de crear una actividad, [!DNL Recommendations] ejecuta un algoritmo para generar recomendaciones. Este algoritmo podría tardar unas horas en ejecutarse.
 
+Puede comprobar si el algoritmo ha terminado de ejecutarse en el diagrama de información general de la [!UICONTROL actividad] , donde se muestra el estado de los criterios. The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity's [!UICONTROL Overview] page:
 
 ![Página de información general de la actividad de Recomendaciones](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
@@ -36,7 +37,7 @@ Los resultados de estado incluyen lo siguiente, como se ilustra a continuación:
 * [!UICONTROL Resultados no listos]: Indica que el algoritmo no ha terminado de ejecutarse.
 * [!UICONTROL Error]de fuente: Indica que no se pudo recuperar el archivo de fuente de criterios personalizados.
 
-![Cuadro de diálogo Resultados](/help/c-recommendations/t-create-recs-activity/assets/results.png)
+![Cuadro de diálogo Resultados](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## ¿Cuánto tiempo tardará el algoritmo en ejecutarse?
 
@@ -48,7 +49,7 @@ La fuente de datos de comportamiento tiene el impacto mayor sobre el tiempo de p
 
 Si se seleccionan mboxes como fuente de datos de comportamiento, una vez creada, los criterios se ejecutan inmediatamente. Dependiendo de la cantidad de datos de comportamiento utilizados y del tamaño del catálogo, el algoritmo puede tardar hasta 12 horas en ejecutarse. Realizar cambios en la configuración de criterios suele resultar en una nueva ejecución del algoritmo. Según el cambio realizado, es posible que las recomendaciones calculadas anteriormente no estén disponibles hasta que se complete una nueva ejecución, o para cambios más grandes, solo el contenido predeterminado o de copia de seguridad estará disponible hasta que se complete una nueva ejecución. Si no se modifica un algoritmo, [!DNL Target] se vuelve a ejecutar automáticamente cada 12 a 48 horas, según el intervalo de datos seleccionado.
 
-## Adobe Analytics.
+### Adobe Analytics.
 
 Si los criterios utilizan [!DNL Adobe Analytics] como fuente de datos de comportamiento, una vez creados, el tiempo de disponibilidad de los criterios depende de si el grupo de informes seleccionado y la ventana de vista al pasado se han utilizado para otros criterios.
 
