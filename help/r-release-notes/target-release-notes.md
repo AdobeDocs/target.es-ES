@@ -8,7 +8,7 @@ title: Notas de la versión de Target (versión previa)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 
 ---
 
@@ -17,13 +17,19 @@ source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 En estas notas de la versión se proporciona información acerca de las funciones, las mejoras, las correcciones y los problemas conocidos de las últimas o de las próximas versiones de [!DNL Adobe Target].
 
-**Última actualización: 230 de octubre de 2019**
+**Última actualización: 31 de octubre de 2019**
 
 >[!NOTE]
 >
 >Las presentes notas de la versión contienen información previa al lanzamiento. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso. Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma o diferir, según la hora de las versiones.
 >
 >Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+## Plataforma de Target (31 de octubre de 2019)
+
+| Función.  / Mejora | Descripción |
+| --- | --- |
+| Java SDK | El SDK de [!DNL Target] Java permite implementar [!DNL Target] el servidor. Este SDK de Java le ayuda a integrarse fácilmente [!DNL Target] con otras [!DNL Adobe Experience Cloud] soluciones, como [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]y [!DNL Adobe Audience Manager].<br>El SDK de Java introduce prácticas recomendadas y elimina las complejidades al realizar la integración con [!DNL Target] mediante nuestra API de entrega, de modo que sus equipos de ingeniería puedan centrarse en la lógica empresarial. Las siguientes son funciones destacadas que presentamos en la versión más reciente:<ul><li>Compatibilidad con la recuperación previa y las notificaciones que le permiten optimizar el rendimiento mediante almacenamiento en caché.</li><li>Compatibilidad para optimizar el rendimiento cuando se dispone de una integración híbrida de [!DNL Target] en las páginas web y en el servidor. Estamos introduciendo una configuración llamada `serverState` que se rellena con las experiencias recuperadas a través del servidor para que at.js 2.2 ya no realice una llamada adicional al servidor para recuperar las experiencias. Este método optimiza el rendimiento de carga de la página.</li><li>Compatibilidad con la recuperación de actividades creadas por VEC mediante el SDK de Java, lo cual es posible gracias a la nueva API de envío.</li><li>Abra el código fuente para que los desarrolladores puedan contribuir al SDK [Java de](https://github.com/adobe/target-java-sdk)Target.</li></ul>Para obtener más información, consulte [Notas de la versión: SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)de Java de Target. |
 
 ## Target Standard/Premium 19.10.2 (31 de octubre de 2019)
 
