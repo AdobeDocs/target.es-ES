@@ -8,7 +8,7 @@ title: Problemas conocidos y problemas resueltos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -24,6 +24,10 @@ Información sobre problemas conocidos con esta versión de Target. También inc
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
+
+### Entrega de página {#page-delivery}
+
+Si agrega una regla de plantilla, como URL que contiene (/cierre de compra, /carro) en la entrega [de](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)página, se añadirán espacios adicionales a las reglas. Se trata de un problema estético que no afecta a la creación de definiciones de audiencia ni a la entrega de ofertas. (TGT-35916)
 
 ### Vínculos de vista previa de control de calidad de la actividad {#preview}
 
