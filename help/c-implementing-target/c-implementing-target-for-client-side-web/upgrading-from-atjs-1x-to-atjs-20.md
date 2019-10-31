@@ -8,7 +8,7 @@ subtopic: Primeros pasos
 title: Actualización de at.js 1.*x* a at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
 
 ---
 
@@ -316,6 +316,19 @@ Cuando se realiza una llamada de recuperación previa al back-end de [!DNL Targe
 
 No, no es necesario agregar el código de ocultamiento previo antes de llamar a `triggerView()`. at.js 2.*x*  administra la lógica de ocultamiento previo y el parpadeo antes de que se muestre y se aplique la vista.
 
+### Qué at.js 1.*at.js 2 no admite parámetros x* para crear audiencias.*x*? {#audience-parameters}
+
+Los siguientes parámetros de at.js 1.x *NO se admiten* actualmente para la creación de audiencias al usar at.js 2.*x*:
+
+* browserHeight
+* browserWidth
+* browserTimeOffset
+* screenHeight
+* screenWidth
+* screenOrientation
+* colorDepth
+* devicePixelRatio
+
 ## Compatibilidad de at.js
 
 Las tablas siguientes explican la 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
@@ -411,112 +424,6 @@ Se utiliza para [Permisos de usuario de Enterprise](/help/administrating-target/
     "token": "1213213123122313121"
   }
   ....
-}
-```
-
-### browserHeight
-
-(at.js 1.*x* parámetro)
-
-Altura de la ventana del explorador del visitante.
-
-at.js 2.*x*  Carga útil JSON:
-
-```
-{
-  "context": {
-    "window": {
-       "height": 200
-    }
-  }
-}
-```
-
-### browserWidth
-
-(at.js 1.*x* parámetro)
-
-Ancho de la ventana del explorador del visitante.
-
-at.js 2.*x*  Carga útil JSON:
-
-```
-{
-  "context": {
-    "window": {
-       "width": 200
-    }
-  }
-}
-```
-
-### browserTimeOffset
-
-(at.js 1.*x* parámetro)
-
-Desplazamiento de zona horaria.
-
-at.js 2.*x*  Carga útil JSON:
-
-```
-{
-  "context": {
-    "timeOffsetInMinutes": -480
-  }
-}
-```
-
-### screenHeight
-
-(at.js 1.*x* parámetro)
-
-Altura de la pantalla del visitante.
-
-at.js 2.*x*  Carga útil JSON:
-
-```
-{
-  "context": {
-    "screen": {
-       "height": 200
-    }
-  }
-}
-```
-
-### screenWidth
-
-(at.js 1.*x* parámetro)
-
-Ancho de la pantalla del visitante.
-
-at.js 2.*x*  Carga útil JSON:
-
-```
-{
-  "context": {
-    "screen": {
-       "width": 200
-    }
-  }
-}
-```
-
-### colorDepth
-
-(at.js 1.*x* parámetro)
-
-Profundidad de color de la pantalla del visitante.
-
-at.js 2.*x*  Carga útil JSON:
-
-```
-{
-  "context": {
-    "screen": {
-       "colorDepth": 24
-    }
-  }
 }
 ```
 
