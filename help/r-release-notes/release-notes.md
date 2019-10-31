@@ -8,7 +8,7 @@ title: Notas de la versión de Target (actual)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -18,6 +18,12 @@ source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 Estas notas de la versión proporcionan información sobre características, mejoras, correcciones y problemas conocidos para todas las versiones de Target Standard y Target Premium. Además, también se incluyen las notas de la versión de las API de Target, los SDK, la biblioteca JavaScript (at.js) y otros cambios en la plataforma, cuando corresponde.
 
 Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+## Target Standard/Premium 19.10.2 (31 de octubre de 2019)
+
+| Función.  / Mejora | Descripción |
+| --- | --- |
+| ![Atributo](/help/assets/premium.png) de varios valores Premium | A veces desea trabajar con un campo de varios valores. Veamos los siguientes ejemplos:<ul><li>Puede ofrecer películas a los usuarios. Una película determinada tiene múltiples actores.</li><li>Vendes entradas a conciertos. Un usuario determinado tiene varias bandas favoritas.</li><li>Vendes ropa. Hay una camisa disponible en varios tamaños.</li></ul>Para administrar las recomendaciones en estos escenarios, puede pasar datos de varios valores a Recomendaciones de Target y usar operadores especiales de varios valores.<br>Para obtener más información, consulte [Trabajo con atributos](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)de varios valores. |
 
 ## Target Standard/Premium 19.10.1 (22 de octubre de 2019)
 
