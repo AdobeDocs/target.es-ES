@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -23,7 +23,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | --- | --- | --- |
 | 31 de octubre de 2019 | [Trabajar con atributos de varios valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nuevo tema. |
 |  | [Notas de la versión: SDK de Java de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Nuevo tema. |
-|  | [Actualización de at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Se ha añadido una nueva sección: "Qué at.js 1.*at.js 2 no admite parámetros x* para crear audiencias.*x*?" |
+|  | [Actualización de at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Se ha añadido una nueva sección: "Qué at.js 1.*at.js 2 no admite parámetros x* para crear audiencias.*x*?" |
 |  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido un nuevo problema conocido sobre la adición de espacios adicionales a las reglas de plantilla. |
 |  | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión 19.10.2 de Target Premium y la versión del SDK de Java de Target. |
 | 30 de octubre de 2019 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la próxima versión de Target Premium 19.10.2 (31 de octubre de 2019). |
