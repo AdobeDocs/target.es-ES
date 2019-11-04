@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -21,6 +21,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 4 de noviembre de 2019 | [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Se ha actualizado el texto en las siguientes preguntas más frecuentes: "¿Por qué veo mensajes de advertencia, como "acciones con selectores ausentes"?" |
 | 31 de octubre de 2019 | [Trabajar con atributos de varios valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nuevo tema. |
 |  | [Notas de la versión: SDK de Java de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Nuevo tema. |
 |  | [Actualización de at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Se ha añadido una nueva sección: "Qué at.js 1.*at.js 2 no admite parámetros x* para crear audiencias.*x*?" |
