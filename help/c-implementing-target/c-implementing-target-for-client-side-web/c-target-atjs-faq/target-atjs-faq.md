@@ -8,7 +8,7 @@ subtopic: Primeros pasos
 title: Preguntas más frecuentes de at.js
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -198,12 +198,14 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 }
 ```
 
-## ¿Por qué veo mensajes de aviso como “acciones con selectores ausentes”? {#section_C36BED5B16634361A1BA46FCB731489D}
+## ¿Por qué veo mensajes de aviso como “acciones con selectores ausentes”?  {#section_C36BED5B16634361A1BA46FCB731489D}
 
 Estos mensajes no están relacionados con la funcionalidad de [!DNL at.js]. La biblioteca [!DNL at.js] intenta informar de todo lo que no pueda encontrarse en el DOM.
 
 Las siguientes son posibles causas para que aparezca este mensaje de advertencia:
 
+* La página se está generando dinámicamente y at.js no puede encontrar el elemento.
+* El usuario está en una red lenta y at.js no puede encontrar el selector en el DOM.
 * La estructura de la página en la que se ejecuta la actividad ha cambiado. Si vuelve a abrir la actividad en el Compositor de experiencias visuales (VEC), debería recibir un mensaje de advertencia. Se debe actualizar la actividad de modo que se encuentren todos los elementos necesarios.
 * La página subyacente es parte de una aplicación de una sola página (SPA) o la página contiene elementos que aparecen más adelante y el “mecanismo de sondeo selector” de [!DNL at.js] no puede encontrar dichos elementos. Aumentar el valor de `selectorsPollingTimeout` podría ser de ayuda. Para obtener más información, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Cualquier métrica de seguimiento de clics intenta añadirse a todas las páginas, independientemente de la dirección URL en la que se estableciera dicha métrica. Aunque es algo inofensivo, esta situación provoca la aparición de muchos de estos mensajes. Las versiones más recientes de [!DNL at.js] intentan suprimir estos mensajes, pero muchos clientes siguen utilizando versiones antiguas de [!DNL at.js], o bien [!DNL mbox.js].
@@ -222,7 +224,7 @@ Secure se puede establecer mediante JavaScript solo cuando la página se carga m
 
 Para garantizar que Target pueda rastrear correctamente a los usuarios, y dado que las cookies se generan en el cliente, Target no utiliza ninguno de estos indicadores.
 
-## ¿Con qué frecuencia inicia at.js una solicitud de red? {#section_57C5235DF7694AF093A845D73EABADFD}
+## ¿Con qué frecuencia inicia at.js una solicitud de red?  {#section_57C5235DF7694AF093A845D73EABADFD}
 
 Adobe Target ejecuta todas sus decisiones en el servidor. Esto significa que at.js inicia una solicitud de red cada vez que la página se vuelve a cargar o se invoca una API pública at.js.
 
@@ -230,7 +232,7 @@ Adobe Target ejecuta todas sus decisiones en el servidor. Esto significa que at.
 
 at.js intenta evitar la ocultación previa de los elementos BODY de HTML u otros elementos DOM durante un periodo prolongado de tiempo, pero esto depende de las condiciones de la red y la configuración de la actividad. at.js proporciona [ajustes](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) que puede utilizar para personalizar el estilo del CSS oculto de BODY, de modo que, en lugar de borrar todo el BODY de HTML, puede ocultar solo algunas partes de la página. La expectativa es que esas partes contengan elementos DOM que deben ser “personalizados”.
 
-## ¿Cuál es la secuencia de eventos en un escenario promedio donde un usuario califica para una actividad? {#section_56E6F448E901403FB77DF02F44C44452}
+## ¿Cuál es la secuencia de eventos en un escenario promedio donde un usuario califica para una actividad?  {#section_56E6F448E901403FB77DF02F44C44452}
 
 La solicitud at.js es una solicitud `XMLHttpRequest` asincrónica, por lo que realizamos los pasos siguientes:
 
@@ -250,11 +252,11 @@ Teniendo en cuenta el escenario anterior, ¿con qué frecuencia el contenido de 
 
 at.js no bloquea el procesamiento de la página. Un usuario puede ver que Target personalizará algunas regiones en blanco de la página que representan elementos. Si el contenido que se va a aplicar no contiene muchos recursos remotos, como SCRIPT o IMG, todo debería procesarse rápidamente.
 
-## ¿Cómo afectaría una página en caché completa al escenario anterior? ¿Sería más probable que el contenido de la actividad se hiciera visible después de que se cargara el resto del contenido de la página? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## ¿Cómo afectaría una página en caché completa al escenario anterior? ¿Sería más probable que el contenido de la actividad se hiciera visible después de que se cargara el resto del contenido de la página?  {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 Si una página se almacena en caché en un CDN que está cerca de la ubicación del usuario, pero no cerca del perímetro de Target, ese usuario puede ver algunos retrasos. Los perímetros de Target están bien distribuidos en todo el mundo, por lo que no es un problema la mayor parte del tiempo.
 
-## ¿Es posible que se muestre una imagen a pantalla completa y cambie después de un breve retraso? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## ¿Es posible que se muestre una imagen a pantalla completa y cambie después de un breve retraso?  {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Si tenemos en cuenta el escenario siguiente:
 
