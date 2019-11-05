@@ -8,7 +8,7 @@ title: Cambios de la documentación
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -21,6 +21,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 5 de noviembre de 2019 | [Páginas del sitio](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Se ha actualizado el texto en la sección "Solución de problemas". |
 | 4 de noviembre de 2019 | [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Se ha actualizado el texto en las siguientes preguntas más frecuentes: "¿Por qué veo mensajes de advertencia, como "acciones con selectores ausentes"?" |
 | 31 de octubre de 2019 | [Trabajar con atributos de varios valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nuevo tema. |
 |  | [Notas de la versión: SDK de Java de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Nuevo tema. |
