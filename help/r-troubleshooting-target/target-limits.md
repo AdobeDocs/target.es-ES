@@ -8,7 +8,7 @@ title: Límites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: ce1202589faa4328ee74d15c7690552cfd9fde86
 
 ---
 
@@ -37,9 +37,7 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 
 ## Nombres de audiencia
 
-**Límite**: 256 caracteres.
-
-Los valores más largos de 256 caracteres se truncan.
+**Límite**: 255 caracteres.
 
 ## Audiencias
 
@@ -47,7 +45,7 @@ Los valores más largos de 256 caracteres se truncan.
 
 ## Parámetro categoryId
 
-**Límite**: 250 caracteres.
+**Límite**: 128 caracteres.
 
 ## Nombres de atributos del cliente
 
@@ -80,7 +78,7 @@ Para las solicitudes GET, aunque el límite del back-end es 5 KB, debido al hech
 
 ## Nombres de experiencias
 
-**Límite**: 20 caracteres.
+**Límite**: 50 caracteres.
 
 ## Experiencias por actividad
 
@@ -217,8 +215,9 @@ Esto hace referencia al número de valores separados por líneas en el área de 
 
 ## Reglas de segmentación
 
-**Límite recomendado**: 2500 valores únicos por regla de segmentación.
+**Límite** recomendado: 2.500 caracteres por valor de regla de objetivo.
 
 **Límite recomendado**: 30 000 valores únicos por audiencia en reglas de segmentación.
 
 **Límite recomendado**: 100 000 valores únicos de reglas de segmentación por actividad.
+
