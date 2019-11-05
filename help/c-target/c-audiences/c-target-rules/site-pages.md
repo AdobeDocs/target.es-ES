@@ -8,7 +8,7 @@ title: Páginas del sitio
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -59,13 +59,10 @@ como se ilustra a continuación:
 
 ## Resolución de problemas {#ts}
 
-* Para que las audiencias de página de aterrizaje funcionen correctamente, las solicitudes deben tener el parámetro `mboxReferrer` mbox configurado correctamente. La biblioteca JavaScript de at.js se obtiene `mboxReferrer` de la página mediante `document.referrer`.
+* Para que las audiencias de página de aterrizaje funcionen correctamente, las solicitudes deben tener el `mboxReferrer` parámetro establecido (para la API de envío el `context.address.referringUrl` parámetro) que la biblioteca JavaScript de at.js toma de la página mediante el `document.referrer` atributo . Este `HTMLDocument` atributo devuelve el URI de la página desde la que el usuario ha navegado. El valor de este atributo es una cadena vacía cuando el usuario navega directamente a la página (no a través de un vínculo, sino, por ejemplo, a través de un marcador).
 
-   Si estos parámetros no se configuran correctamente, un visitante podría abandonar una actividad después de navegar a una página posterior. Por ejemplo: si `document.referrer` se utiliza en la página de aterrizaje pero no en páginas posteriores, [!DNL Target] no se puede garantizar que el visitante permanezca en la actividad.
+   Si este comportamiento no coincide con sus necesidades, considere la posibilidad de realizar una de las siguientes acciones:
 
-   Si se encuentra con esta situación, considere la posibilidad de realizar una de las siguientes acciones:
-
-   * Asegúrese de que el sitio web se carga `document.referrer` correctamente.
    * Pase parámetros [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) de mbox para [!DNL Target] usarlos con fines de segmentación.
    * Utilice una actividad [de prueba](/help/c-activities/t-test-ab/test-ab.md) A/B en lugar de una actividad de página de aterrizaje. Las actividades de prueba A/B no cambian experiencias para el mismo visitante.
    * Utilice un perfil [de visitante](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) en su lugar.
