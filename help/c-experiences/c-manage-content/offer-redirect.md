@@ -1,14 +1,11 @@
 ---
-description: La oferta de redireccionamiento hace que un navegador redirija a una página nueva.
 keywords: oferta de redireccionamiento;crear oferta de redireccionamientoa;añadir oferta de html;Pasar los parámetros de URL en el redireccionamiento;Pasar mboxSessionId en el redireccionamiento (solo cuando el redireccionamiento va a un dominio diferente)
-seo-description: Información sobre ofertas de redireccionamiento en Adobe Target que hacen que un explorador redirija a una página nueva.
-seo-title: Crear ofertas de redireccionamiento
-solution: Target
+description: Información sobre ofertas de redireccionamiento en Adobe Target que provocan que un explorador redirija a una página nueva.
 title: Crear ofertas de redireccionamiento
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
