@@ -1,15 +1,12 @@
 ---
-description: Información sobre la interpretación del informe Resumen de segmentación automática.
 keywords: informes;segmentación automática;AT
-seo-description: Información sobre la interpretación del informe Resumen de segmentación automática.
-seo-title: Informe Resumen de segmentación automática
-solution: Target
-subtopic: Prueba multivariable
+description: Información sobre la interpretación del informe Resumen de segmentación automática.
 title: Informe Resumen de segmentación automática
+subtopic: Prueba multivariable
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
