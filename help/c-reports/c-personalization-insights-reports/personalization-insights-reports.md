@@ -1,15 +1,10 @@
 ---
-description: 'Los usuarios de las actividades de Personalización automatizada (AP) y Segmentación automática (AT) disponen de dos informes especializados: los informes Segmentación automática y Atributos importantes.'
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;informes de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes;atributos importantes
-seo-description: 'Los usuarios de las actividades de Personalización automatizada (AP) y Segmentación automática (AT) disponen de dos informes especializados: los informes Segmentación automática y Atributos importantes.'
-seo-title: Informes de Perspectivas de personalización
-solution: Target
+description: 'Los usuarios de las actividades de Personalización automatizada (AP) y Segmentación automática (AT) disponen de dos informes especializados: los informes Segmentación automática y Atributos importantes.'
 title: Informes de Perspectivas de personalización
-title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
-badge: premium
 translation-type: tm+mt
-source-git-commit: c0d0ae6bcd401777169e74b93a4fb18f1a9b24dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -26,7 +21,7 @@ Los usuarios de las actividades de Personalización automatizada (AP) y Segmenta
 >
 >Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](../../administrating-target/hosts.md).
 >
->Personalization Insights reports are generated only for activities that are in the Live status and have been activated and receiving traffic for at least 15 days.
+>Los informes de perspectiva de personalización se generan solo para las actividades que están en estado Activo y que se han activado y recibido tráfico durante al menos 15 días.
 
 ## Descripción general de los informes de Perspectivas de personalización {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -34,7 +29,7 @@ El objetivo de los informes de [!UICONTROL Perspectivas de personalización] es 
 
 Como el objetivo de los informes de Perspectivas de personalización es comprender cómo han decidido los modelos de personalización de Target enviar el contenido a los visitantes, los informes de Perspectivas de personalización solo reflejan un subsegmento de todo el tráfico servido por su actividad de AP o AT. Específicamente, los dos informes reflejan todo el tráfico que utilizó el modelo de personalización. En otras palabras, los informes de Perspectivas de personalización no tienen en cuenta ni el tráfico de control ni el tráfico servido por el modelo ganador general.
 
-Two Personalization Insights reports are available:
+Hay dos informes de perspectivas de personalización disponibles:
 
 | Informe | Detalles |
 |--- |--- |
@@ -46,7 +41,7 @@ Two Personalization Insights reports are available:
 En los informes de [!UICONTROL Perspectivas de personalización] se representan dos tipos de atributos que se utilizan en los modelos de AP y Segmentación automática:
 
 * **Atributos recopilados automáticamente por Target:** Target utiliza un conjunto de datos base para crear sus algoritmos de personalización en actividades de AP y AT que se reflejan en Perspectivas de personalización. Consulte [Recopilación de datos para los algoritmos de personalización de Target](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) para los tipos de datos, atributos de ejemplo y la convención de nomenclatura de [!UICONTROL Perspectivas de personalización]. Tenga en cuenta que, aunque estos atributos se toman en consideración, los modelos de una actividad concreta podrían no utilizarlos todos en el modelo final.
-* **Atributos pasados a Target:** consulte  [Carga de datos para los algoritmos de personalización de Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **Atributos pasados a Target:** consulte   [Carga de datos para los algoritmos de personalización de Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 Target le ofrece muchas maneras de incluir datos adicionales con los que enriquecer el conjunto de datos base utilizado para crear sus algoritmos de personalización en actividades de AP y AT:
 
@@ -62,4 +57,4 @@ Target le ofrece muchas maneras de incluir datos adicionales con los que enrique
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=spa)
 
-For more information, see Using the Personalization Insights Reports in Adobe Target.[](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)
+Para obtener más información, consulte [Uso de los informes de perspectivas de personalización en Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
