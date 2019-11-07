@@ -1,14 +1,11 @@
 ---
-description: El Compositor de experiencias visuales para móviles de Adobe Target (VEC) permite a los desarrolladores hacer una configuración única en sus aplicaciones móviles iOS y permitir a los especialistas en marketing utilizar las funcionalidades del VEC de aplicaciones móviles.
 keywords: vec de aplicaciones móviles;compositor de experiencias visuales móvil;opciones del compositor de experiencias móvil;configuración;ios;apple
-seo-description: El Compositor de experiencias visuales para móviles de Adobe Target (VEC) permite a los desarrolladores hacer una configuración única en sus aplicaciones móviles iOS y permitir a los especialistas en marketing utilizar las funcionalidades del VEC de aplicaciones móviles.
-seo-title: 'iOS: configuración de la aplicación móvil'
-solution: Target
+description: El Compositor de experiencias visuales para móviles de Adobe Target (VEC) permite a los desarrolladores hacer una configuración única en sus aplicaciones móviles iOS y permitir a los especialistas en marketing utilizar las funcionalidades del VEC de aplicaciones móviles.
 title: 'iOS: configuración de la aplicación móvil'
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
