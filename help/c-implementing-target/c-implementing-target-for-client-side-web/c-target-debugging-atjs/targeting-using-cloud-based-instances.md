@@ -1,13 +1,10 @@
 ---
-description: Información acerca de problemas que los clientes afrontan al usar instancias basadas en la nube para probar Adobe Target.
 keywords: instancias en la nube;lista de sufijos públicos;sufijos públicos;cookie;cookie de origen;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-seo-description: Información acerca de problemas que los clientes afrontan al usar instancias basadas en la nube para probar Adobe Target.
-seo-title: Uso de instancias basadas en la nube con Target
-solution: Target
+description: Información acerca de problemas que los clientes afrontan al usar instancias basadas en la nube para probar Adobe Target.
 title: Uso de instancias basadas en la nube con Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
