@@ -1,14 +1,10 @@
 ---
-description: Información general acerca de diseños que definen cómo aparecen las recomendaciones en una página.
 keywords: diseño de recomendaciones;plantilla;crear diseño;entrega;resultado
-seo-description: Información general acerca de diseños que definen cómo aparecen las recomendaciones en una página.
-seo-title: Información general de diseño
-solution: Target
+description: Información general acerca de diseños que definen cómo aparecen las recomendaciones en una página.
 title: Información general de diseño
-topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -27,7 +23,7 @@ Target también puede enviar sus recomendaciones como objetos JSON que se pueden
 
 En el siguiente ejemplo se muestra cómo se pueden devolver respuestas JSON al configurar una actividad mediante el editor basado en formularios.
 
-1. Puede crear un diseño desde la biblioteca de diseños o desde el flujo de trabajo basado en formularios. Si intenta hacerlo desde el flujo de trabajo del Compositor de experiencias visuales (VEC), solo podrá crear diseños HTML, que se engloban dentro de  `<div>` para fines de seguimiento de clics.
+1. Puede crear un diseño desde la biblioteca de diseños o desde el flujo de trabajo basado en formularios. Si intenta hacerlo desde el flujo de trabajo del Compositor de experiencias visuales (VEC), solo podrá crear diseños HTML, que se engloban dentro de   `<div>` para fines de seguimiento de clics.
 1. Compruebe que la opción “Diseño HTML” esté desactivada:
 
    ![](assets/html_design_toggle.png)
@@ -91,7 +87,7 @@ En el siguiente ejemplo se muestra cómo se pueden devolver respuestas JSON al c
 | Parámetro | Valor |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Código de cliente de Target (disponible en ../target/products.html#recsSettings &gt; Token de API de Recommendations &gt; Código de cliente). |
-| `[YOUR_MBOX_NAME]` | The name you've selected in the "locations" section of the form-based Recommendations, in this case Sample_Recs_Response. |
+| `[YOUR_MBOX_NAME]` | Nombre seleccionado en la sección "ubicaciones" de Recomendaciones basadas en formularios, en este caso Sample_Recs_Response. |
 | `[ENTITY_ID`] | El `entity.id` de un artículo del catálogo. |
 | `[AT_PROPERTY_TOKEN]` | (Opcional) Añada este parámetro si ha seleccionado una Propiedad (parte de los permisos de empresa) durante la configuración de la actividad. |
 
