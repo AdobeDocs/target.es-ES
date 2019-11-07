@@ -1,15 +1,12 @@
 ---
-description: Adobe Target se integra con sitios web mediante una de las dos bibliotecas de JavaScript. at.js o mbox.js
 keywords: Información general y referencias;SEO;optimización de los motores de búsqueda
-seo-description: Adobe Target se integra con sitios web mediante una de las dos bibliotecas de JavaScript. at.js o mbox.js
-seo-title: Cómo funciona Adobe Target
-solution: Target
-subtopic: Primeros pasos
+description: Adobe Target se integra con los sitios web mediante una de las dos bibliotecas de JavaScript. at.js o mbox.js
 title: Cómo funciona Adobe Target
+subtopic: Primeros pasos
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -22,7 +19,7 @@ Información sobre cómo funciona Adobe Target, incluida la información sobre l
 
 Adobe Target se integra con los sitios web mediante una de las dos bibliotecas de JavaScript: at.js o mbox.js
 
-* **at.js:** la [biblioteca at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a [la versión más reciente de at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* **at.js:** la [biblioteca at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a  [la versión más reciente de at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** la biblioteca mbox.js es la biblioteca de implementación heredada para Target. La biblioteca mbox.js se sigue admitiendo, pero sus características ya no se actualizarán.
 
 >[!IMPORTANT]
@@ -96,13 +93,13 @@ Para mejorar los tiempos de respuesta, los entornos de Edge solo hospedan lógic
 
 Cada nodo de Edge dispone de toda la información necesaria para responder a la solicitud de contenido del usuario y realizar un seguimiento de los datos de análisis de dicha solicitud. Las solicitudes de los usuarios se dirigen al nodo de Edge más próximo.
 
-![Asignación con sitios de Edge y sitios de Edge principales](assets/edge_network.png)
+![Mapa con sitios Edge y sitios Edge principales](assets/edge_network.png)
 
-La fuente de esta imagen es el documento técnico Información general [de seguridad de](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Adobe Target.
+The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-La solución Adobe Target está alojada en centros de datos de propiedad de Adobe y alquilados por Adobe en todo el mundo. Los servidores de administración están alojados en su totalidad en centros de datos propiedad de Adobe en Londres, Singapur y en varias ubicaciones de EE.UU., incluidas Oregon y Virginia. Los servidores Edge están alojados en servidores de propiedad de Adobe y en servidores alquilados por Adobe en centros de datos de Amazon AWS en Londres, Hong Kong, Singapur, Tokio y Sydney.
+La solución Adobe Target está alojada en centros de datos de todo el mundo que Adobe tiene alquilados o en propiedad. Los servidores de administración se alojan íntegramente dentro de los centros de datos propiedad de Adobe en Londres, Singapur y varias ubicaciones de EE. UU., entre ellas Oregón y Virginia. Los servidores Edge están alojados en servidores alquilados por Adobe o de su propiedad que se encuentran en centros de datos de Amazon AWS en Londres, Hong Kong, Singapur, Tokyo y Sídney.
 
-Las ubicaciones del servidor de administración contienen un centro de recopilación de datos y un centro de procesamiento de datos. Las ubicaciones de sitios perimetrales contienen solamente un centro de recopilación de datos. Cada grupo de informes está asignado a un centro de procesamiento de datos específico.
+Las ubicaciones de los servidores de administración contienen un centro de recopilación de datos y un centro de procesamiento de datos. Las ubicaciones de sitios perimetrales contienen solamente un centro de recopilación de datos. Cada grupo de informes está asignado a un centro de procesamiento de datos específico.
 
 En lugar de responder a todas las solicitudes de segmentación desde una sola ubicación, las solicitudes se procesan a través del Edge más próximo al visitante, y así reducen el impacto del tiempo de transferencia a través de la red/Internet.
 
@@ -172,13 +169,13 @@ Creemos que es difícil cambiar sin querer el significado del contenido original
 
 ## Bots {#bots}
 
-Adobe Target usa [DeviceAtlas](https://deviceatlas.com/) para detectar bots conocidos. El tráfico que se identifica como generado por un bot sigue recibiendo contenido, como un usuario normal, para asegurarse de que se ajusta a las directrices de SEO. El uso del tráfico de bots puede distorsionar las pruebas A/B o los algoritmos de personalización si se tratan como usuarios normales. Por lo tanto, si se detecta un bot conocido en la actividad de Target, el tráfico se trata de forma ligeramente diferente. La eliminación del tráfico de bots proporciona una medición más precisa de la actividad del usuario.
+Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. El tráfico generado por un bot sigue siendo contenido servido, como un usuario normal, para garantizar que esté en armonía con las directrices SEO. El uso del tráfico de bots puede afectar a las pruebas A/B o los algoritmos de personalización, si se tratan como usuarios normales. Por lo tanto, si se detecta un bot conocido en la actividad de Target, el tráfico se trata de manera ligeramente diferente. La eliminación del tráfico de bots proporciona una medición más precisa sobre la actividad del usuario.
 
-En concreto, para el tráfico de bots conocido, Target no:
+En concreto, para el tráfico de bots conocidos, Target no:
 
-* Crear o recuperar un perfil de visitante
-* Registrar cualquier atributo de perfil o ejecutar scripts de perfil
-* Buscar segmentos de Adobe Audience Manager (AAM) (si corresponde)
-* Utilizar el tráfico de bots en el modelado y el servicio de contenido personalizado para las actividades de Recomendaciones, Segmentación automática, Personalización automatizada o Asignación automática
-* Registrar una visita de actividad para informes
-* Datos de registro que se enviarán a la plataforma de Adobe Experience Cloud
+* Crea ni recupera un perfil de visitante.
+* Registra atributos de perfil ni ejecuta scripts de perfil.
+* Busca segmentos de Adobe Audience Manager (AAM) (si corresponde).
+* Utiliza el tráfico de bots para modelar y ofrecer contenido personalizado para actividades de Recommendations, Segmentación automática, Personalización automatizada o Asignación automática.
+* Registra una visita de actividad para la creación informes.
+* Registra datos que se enviarán a la plataforma de Adobe Experience Cloud.
