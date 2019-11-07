@@ -1,13 +1,10 @@
 ---
-description: Puede configurar una actividad en Target Standard para que use Adobe Analytics como fuente de informes (A4T).
 keywords: Segmentación;analytics;servidor de seguimiento
-seo-description: Puede configurar una actividad en Target Standard para que use Adobe Analytics como fuente de informes (A4T).
-seo-title: Usar datos de Analytics
-solution: Target
+description: Puede configurar una actividad en Target Standard para que use Adobe Analytics como fuente de informes (A4T).
 title: Usar datos de Analytics
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
