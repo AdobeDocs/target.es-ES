@@ -1,14 +1,11 @@
 ---
-description: Puede crear audiencias personalizadas y guardarlas en la biblioteca de Target para usarlas en las actividades. Puede copiar una audiencia existente que después puede editar para crear una audiencia parecida y combinar varias.
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia
-seo-description: Puede crear audiencias personalizadas y guardarlas en la biblioteca de Target para usarlas en las actividades. Puede copiar una audiencia existente que después puede editar para crear una audiencia parecida y combinar varias.
-seo-title: Crear audiencias en Target
-solution: Target
+description: Puede crear audiencias personalizadas y guardarlas en la biblioteca de Target para usarlas en las actividades. Puede copiar una audiencia existente que después puede editar para crear una audiencia parecida y combinar varias.
 title: Crear audiencias en Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
