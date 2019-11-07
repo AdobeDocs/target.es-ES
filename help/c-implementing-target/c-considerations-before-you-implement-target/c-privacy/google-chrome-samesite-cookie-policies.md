@@ -1,15 +1,12 @@
 ---
-description: Información sobre Target y el estándar SameSite IETF utilizado con Google Chrome versión 76.
 keywords: google;samesite;cookies;chrome 80;ietf
-seo-description: Información sobre Adobe Target y el estándar SameSite IETF introducido con Google Chrome versión 80.
-seo-title: Directivas de cookies de Adobe Target y SameSite de Google
-solution: Target
+description: Información sobre Adobe Target y el estándar SameSite IETF introducido con Google Chrome versión 80.
+title: Directivas de cookies de Adobe Target y SameSite de Google
 subtopic: Primeros pasos
-title: Políticas de cookies de Google Chrome samesite
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -91,9 +88,9 @@ Para comprender lo que debe hacer para que los usuarios de Google Chrome 80+ [!D
 | --- | --- | --- |
 | mbox.js solo con cookies de origen. | Sin impacto. | No tiene impacto si no utiliza el seguimiento entre dominios. |
 | mbox.js con el seguimiento entre dominios habilitado. | Sin impacto. | Debe habilitar el protocolo HTTPS para el sitio.<br>[!DNL Target] utiliza una cookie de terceros para rastrear a los usuarios y Google requiere que las cookies de terceros tengan `SameSite = None` y un indicador de seguridad. El indicador de seguridad requiere que los sitios utilicen el protocolo HTTPS. |
-| at.js 1.*x* con cookie de origen. | Sin impacto. | No tiene impacto si no utiliza el seguimiento entre dominios. |
-| at.js 1.*x* con el seguimiento entre dominios habilitado. | Sin impacto. | Debe habilitar el protocolo HTTPS para el sitio.<br>[!DNL Target] utiliza una cookie de terceros para rastrear a los usuarios y Google requiere que las cookies de terceros tengan `SameSite = None` y un indicador de seguridad. El indicador de seguridad requiere que los sitios utilicen el protocolo HTTPS. |
-| at.js 2.*x* | Sin impacto. | Sin impacto. |
+| at.js 1.*x*  con cookie de origen. | Sin impacto. | No tiene impacto si no utiliza el seguimiento entre dominios. |
+| at.js 1.*x*  con el seguimiento entre dominios habilitado. | Sin impacto. | Debe habilitar el protocolo HTTPS para el sitio.<br>[!DNL Target] utiliza una cookie de terceros para rastrear a los usuarios y Google requiere que las cookies de terceros tengan `SameSite = None` y un indicador de seguridad. El indicador de seguridad requiere que los sitios utilicen el protocolo HTTPS. |
+| at.js 2.*x*  | Sin impacto. | Sin impacto. |
 
 ## ¿Qué debe hacer Target?
 
@@ -103,14 +100,14 @@ Entonces, ¿qué teníamos que hacer en nuestra plataforma para ayudarle a cumpl
 | --- | --- | --- |
 | mbox.js solo con cookies de origen. | Sin impacto. | No tiene impacto si no utiliza el seguimiento entre dominios. |
 | mbox.js con el seguimiento entre dominios habilitado. | Sin impacto. | [!DNL Target] agrega `SameSite = None` y marca de seguridad a la cookie de terceros cuando se llama a [!DNL Target] los servidores. |
-| at.js 1.*x* con cookie de origen. | Sin impacto. | No tiene impacto si no utiliza el seguimiento entre dominios. |
-| at.js 1.*x* con el seguimiento entre dominios habilitado. | Sin impacto. | at.js 1.*x* con el seguimiento entre dominios habilitado. |
-| at.js 2.*x* | Sin impacto. | Sin impacto. |
+| at.js 1.*x*  con cookie de origen. | Sin impacto. | No tiene impacto si no utiliza el seguimiento entre dominios. |
+| at.js 1.*x*  con el seguimiento entre dominios habilitado. | Sin impacto. | at.js 1.*x*  con el seguimiento entre dominios habilitado. |
+| at.js 2.*x*  | Sin impacto. | Sin impacto. |
 
 ## ¿Cuál es el impacto si no pasa a utilizar el protocolo HTTPS?
 
 El único caso de uso que le afectará es si está utilizando la función de seguimiento entre dominios en [!DNL Target] mbox.js o at.js 1.*x*. Sin pasar a HTTPS, que es un requisito de Google, verá un pico de visitantes únicos en sus dominios porque Google eliminará la cookie de terceros que utilizamos. Y como la cookie de terceros se eliminará, no [!DNL Target] podrá proporcionar una experiencia consistente y personalizada para ese usuario a medida que el usuario navega de un dominio a otro. La cookie de terceros se utiliza principalmente para identificar a un único usuario que navega por los dominios que le pertenecen.
 
-## Conclusión.
+## Conclusión. 
 
 A medida que la industria avanza en la creación de una web más segura para los consumidores, [!DNL Adobe] está totalmente comprometida a ayudar a nuestros clientes a ofrecer experiencias personalizadas de manera que se garantice la seguridad y la privacidad de los usuarios finales. Todo lo que necesita hacer es seguir las prácticas recomendadas antes mencionadas y aprovechar [!DNL Target] para cumplir con las nuevas directivas de cookies del mismo sitio de Google Chrome.
