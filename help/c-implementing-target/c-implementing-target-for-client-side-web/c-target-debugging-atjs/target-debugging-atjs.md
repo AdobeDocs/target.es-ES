@@ -1,13 +1,11 @@
 ---
-description: Información sobre el uso de la extensión Adobe Experience Cloud Debugger, que facilita y agiliza la comprensión de su implementación de Target.
 keywords: at.js;depurar at.js;depurador de adobe Experience Cloud;Experience Cloud Debugger;mbox Trace;mbox highlight;depurar;depuración
-seo-description: Información sobre el uso de la extensión Adobe Experience Cloud Debugger, que facilita y agiliza la comprensión de su implementación de Target.
-seo-title: Depurar at.js mediante Adobe Experience Cloud Debugger
+description: Información sobre el uso de la extensión Adobe Experience Cloud Debugger, que facilita y agiliza la comprensión de su implementación de Target.
 title: Depurar at.js mediante Adobe Experience Cloud Debugger
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,7 +22,7 @@ Revise la [documentación de ampliación de Adobe Experience Cloud Debugger](htt
 
 Los siguientes vídeos le guían a través del proceso de depuración:
 
-### Agregue la extensión Adobe Experience Cloud Debugger  {#section_8CD96F76E397476193529573F3199615}
+### Agregue la extensión Adobe Experience Cloud Debugger   {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=spa)
 
