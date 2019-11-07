@@ -1,14 +1,10 @@
 ---
-description: Los escenarios de este tema muestran cómo afectan los cambios realizados en la página a la capacidad de Target para mostrar una experiencia.
 keywords: Recommendations
-seo-description: Los escenarios de este tema muestran cómo afectan los cambios realizados en la página a la capacidad de Target para mostrar una experiencia.
-seo-title: Escenarios de modificación de página
-solution: Target
+description: Los escenarios de este tema muestran cómo afectan los cambios realizados en la página a la capacidad de Target para mostrar una experiencia.
 title: Escenarios de modificación de página
-topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -289,7 +285,7 @@ Después
 </div>
 ```
 
-## Escenario: Cambiar el nombre de la clase del elemento seleccionado  {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Escenario: Cambiar el nombre de la clase del elemento seleccionado   {#section_79D244C588BA452DB8E433D82B7F63EA}
 
 En este escenario, se cambia la clase del elemento de lista seleccionado.
 
