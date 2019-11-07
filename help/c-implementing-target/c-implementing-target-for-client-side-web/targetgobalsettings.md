@@ -1,14 +1,11 @@
 ---
-description: 'Información sobre la función targetGlobalSettings() para at.js. '
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;funciones;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContent VisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;optOut;selectorsPollingTimeout;dataProviders
-seo-description: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
-seo-title: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
-solution: Target
+description: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
+title: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
 subtopic: Primeros pasos
-title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
