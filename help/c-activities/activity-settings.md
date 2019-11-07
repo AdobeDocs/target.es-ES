@@ -1,15 +1,12 @@
 ---
-description: Use Configuración de actividades para administrar el objetivo, la prioridad y la duración de las actividades.
 keywords: Objetivo y configuración;objetivo;prioridad;duración
-seo-description: Use Configuración de actividades para administrar el objetivo, la prioridad y la duración de las actividades.
-seo-title: Configuración de actividades
-solution: Target
-subtopic: Prueba multivariable
+description: Use Configuración de actividades para administrar el objetivo, la prioridad y la duración de las actividades.
 title: Configuración de actividades
+subtopic: Prueba multivariable
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
