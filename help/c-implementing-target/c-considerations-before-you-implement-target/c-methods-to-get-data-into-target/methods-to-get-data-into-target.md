@@ -1,15 +1,12 @@
 ---
-description: Información sobre los distintos métodos que se pueden utilizar para introducir datos en Target, como el uso de parámetros de página, atributos de perfil en página, atributos de perfil en script, proveedores de datos, la API de actualización de perfiles en lote, la API de actualización de perfil único y los atributos del cliente.
 keywords: implementar;implementación;configurar;configuración;parámetro de página;tomcat;codificación url;atributo de perfil de página;parámetro mbox;atributos de perfil en página;atributo de perfil en script;API de actualización de perfiles en lote;API de actualización de archivo único;atributos del cliente;proveedores de datos;proveedor de datos
-seo-description: Información sobre los distintos métodos que se pueden utilizar para introducir datos en Target, como el uso de parámetros de página, atributos de perfil en página, atributos de perfil en script, proveedores de datos, la API de actualización de perfiles en lote, la API de actualización de perfil único y los atributos del cliente.
-seo-title: Métodos para obtener los datos en Target
-solution: Target
-subtopic: Primeros pasos
+description: Información sobre los distintos métodos que se pueden utilizar para introducir datos en Target, como el uso de parámetros de página, atributos de perfil en página, atributos de perfil en script, proveedores de datos, la API de actualización de perfiles en lote, la API de actualización de perfil único y los atributos del cliente.
 title: Métodos para obtener los datos en Target
+subtopic: Primeros pasos
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -298,7 +295,7 @@ Solo se actualiza el perfil. No se puede crear un perfil para un usuario potenci
 
 ### Ejemplos de código
 
-Se admiten GET y POST. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+Se admiten GET y POST.  `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### Vínculos a información relevante
 
