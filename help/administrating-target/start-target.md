@@ -1,15 +1,12 @@
 ---
-description: En esta sección se explican los primeros pasos que deben realizar los administradores de Target tras recibir por correo electrónico la invitación de Adobe Experience Cloud.
 keywords: Administración;función de aprobador;aprobador
-seo-description: En esta sección se explican los primeros pasos que deben realizar los administradores de Adobe Target tras recibir por correo electrónico la invitación de Adobe Experience Cloud.
-seo-title: Primeros pasos del administrador
-solution: Target
-subtopic: Primeros pasos
+description: En esta sección se explican los primeros pasos que deben realizar los administradores de Adobe Target tras recibir por correo electrónico la invitación de Adobe Experience Cloud.
 title: Primeros pasos del administrador
+subtopic: Primeros pasos
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -42,7 +39,7 @@ Cuando reciba la invitación para unirse a [!DNL Adobe Experience Cloud], acépt
    >
    >Si no vincula la cuenta, no podrá acceder a [!DNL Target].
 
-   Todos los productos de Experience Cloud aparecen en la página de vinculación. Click `Link Target` and enter your Target username and password to access Target Standard.
+   Todos los productos de Experience Cloud aparecen en la página de vinculación. Haga clic en `Link Target` e introduzca su nombre de usuario y contraseña de Target para acceder a Target Standard.
 1. Haga clic en **[!UICONTROL Continuar en Experience Cloud]**.
 
    En este punto, todavía no dispone de ningún grupo configurado con concesiones para su vínculo.
