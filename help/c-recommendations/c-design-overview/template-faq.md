@@ -1,16 +1,10 @@
 ---
-description: Lista de las preguntas más frecuentes (FAQ) sobre diseños de recomendaciones.
 keywords: recomendaciones;preguntas más frecuentes;FAQ
-seo-description: Lista de las preguntas más frecuentes (FAQ) sobre diseños de recomendaciones.
-seo-title: Preguntas más frecuentes sobre diseño
-solution: Target
+description: Lista de las preguntas más frecuentes (FAQ) sobre diseños de recomendaciones.
 title: Preguntas más frecuentes sobre diseño
-title-outputclass: premium
-topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
-badge: premium
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,15 +13,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 Lista de las preguntas más frecuentes (FAQ) sobre diseños de recomendaciones.
 
-## El precio del artículo recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?
+## El precio del elemento recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?
 
-De forma predeterminada, los valores numéricos (como `entity.value`) devueltos en las plantillas de diseño no mostrarán ningún cero final después del punto decimal. Por ejemplo, si un elemento es 35,00 $, `entity.value` es igual a 35 y solo se muestra 35 $ en la página, no 35,00 $.
+De forma predeterminada, los valores numéricos (como `entity.value`) que se devuelven en plantillas de diseño no mostrarán ceros finales tras la coma decimal. Por ejemplo, si un elemento es de 35 $, `entity.value` es igual a 35 y solo se muestra 35 en la página, no 35 $.
 
-Hay dos opciones disponibles para solucionar este problema.
+Hay dos opciones disponibles para resolver este problema.
 
-* Puede utilizar secuencias de comandos Velocity o JavaScript para aplicar formato al valor devuelto.
+* Puede utilizar Secuencias de comandos de Velocity o Javascript para aplicar formato al valor devuelto.
 
-* Puede pasar el precio del artículo en dos atributos de entidad independientes. El primero, `entity.value`, se puede utilizar para comparaciones numéricas (como reglas de comparación de precios). El segundo debe ser un atributo personalizado, como `entity.displayValue` que almacene el valor de la entidad como una cadena para permitir una representación adecuada.
+* Puede pasar el precio del artículo en dos atributos de entidad independientes. La primera, `entity.value`, se puede utilizar para realizar comparaciones numéricas (como reglas de comparación de precios). La segunda debe ser un atributo personalizado, como `entity.displayValue`, que almacene el valor de la entidad como una cadena para permitir un procesamiento adecuado.
 
    Por ejemplo,
 
@@ -37,11 +31,11 @@ Hay dos opciones disponibles para solucionar este problema.
 
 El ID de categoría no se puede mostrar en el diseño. Dado que es posible almacenar varias categorías, el sistema no sabría determinar cuál mostrar.
 
-## ¿Cómo debo cambiar un diseño para obtener una actualización instantánea?  {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## ¿Cómo debo cambiar un diseño para obtener una actualización instantánea?   {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 La alteración del diseño que se está usando actualmente tarda unos minutos en actualizarse. Para cambiar el diseño de forma instantánea, cree un nuevo diseño, selecciónelo en la campaña y guarde la recomendación.
 
-## ¿Cómo se puede capturar información esencial para mostrarla en el diseño? Ejemplo: si queremos visualizar la categoría del producto principal, ¿se codifica el valor en el diseño Velocity?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## ¿Cómo se puede capturar información esencial para mostrarla en el diseño? Ejemplo: si queremos visualizar la categoría del producto principal, ¿se codifica el valor en el diseño Velocity?   {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 El parámetro `$key. *`valor`*` captura la mayor parte de la información principal del producto para mostrarla dentro del diseño. Ejemplo: para visualizar la miniatura del producto clave, debe utilizar `$key.thumbnailURL`.
 
