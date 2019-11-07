@@ -1,14 +1,11 @@
 ---
-description: Utilice Target con Adobe Campaign para optimizar el contenido del correo electrónico.
 keywords: Información general y referencia
-seo-description: Utilice Target con Adobe Campaign para optimizar el contenido del correo electrónico.
-seo-title: Integración de Target con Adobe Campaign
-solution: Target
+description: Utilice Target con Adobe Campaign para optimizar el contenido del correo electrónico.
 title: Integración de Target con Adobe Campaign
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -40,7 +37,7 @@ Existen varias limitaciones:
    * El rawbox y la experiencia en Target
    * La entrega en Campaign
 
-## Antes de empezar  {#section_FF19BF1BCA064260930BF6C141313B0E}
+## Antes de empezar   {#section_FF19BF1BCA064260930BF6C141313B0E}
 
 Antes de usar Adobe Campaign para configurar las ofertas de correo electrónico segmentadas, configure los elementos siguientes en Target:
 
@@ -53,7 +50,7 @@ Antes de usar Adobe Campaign para configurar las ofertas de correo electrónico 
 
 Inicie la actividad en Target antes de configurar la parte de integración de Campaign.
 
-## Incluir una oferta de Target en un correo electrónico de Adobe Campaign  {#section_B201BBE27A704E18AF0D553F35695837}
+## Incluir una oferta de Target en un correo electrónico de Adobe Campaign   {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Cree un correo electrónico en Adobe Campaign.
 1. En las propiedades del correo electrónico, haga clic en **[!UICONTROL Incluir]** &gt; **[!UICONTROL Imagen dinámica proporcionada por Adobe Target]**.
