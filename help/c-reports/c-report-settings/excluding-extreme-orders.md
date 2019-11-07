@@ -1,14 +1,10 @@
 ---
-description: Puede excluir valores extremos para no afecten a los informes, de forma que algunos pedidos inusuales no afecten a los resultados de su actividad. Un ejemplo de pedido inusual puede ser el caso de un entrenador que compre uniformes para todo un equipo en lugar de compradores que compren uniformes de forma individual.
 keywords: Target;informes;configuración de informes;pedidos extremos;valores extremos
-seo-description: Puede excluir valores extremos de los informes de Adobe Target para que algunos pedidos inusuales no afecten a los resultados de la actividad. Un ejemplo de pedido inusual puede ser el caso de un entrenador que compre uniformes para todo un equipo en lugar de compradores que compren uniformes de forma individual.
-seo-title: Excluir valores extremos en informes de Adobe Target
-solution: Target
-title: Excluir valores extremos
-topic: Premium
+description: Puede excluir valores extremos de los informes de Adobe Target para que algunos pedidos inusuales no afecten a los resultados de la actividad. Un ejemplo de pedido inusual puede ser el caso de un entrenador que compre uniformes para todo un equipo en lugar de compradores que compren uniformes de forma individual.
+title: Excluir valores extremos en informes de Adobe Target
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -34,7 +30,7 @@ Cuando se marca un valor como extremo, su valor se reemplaza por el valor de ped
 1. Abra una actividad que incluya tipos de métrica de ingresos o participación y, después, haga clic en la pestaña **[!UICONTROL Informes]**.
 1. Haga clic en el icono de engranaje.
 
-   ![Configuración del informe](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
+   ![Configuración de informes](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
 
    Se abre el cuadro de diálogo Opciones de configuración [!UICONTROL de] informes.
 
