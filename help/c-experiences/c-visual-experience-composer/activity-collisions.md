@@ -1,13 +1,10 @@
 ---
-description: La pestaña Conflictos de la página Información general de la actividad muestra los conflictos de actividades que se producen en su sitio.
 keywords: Segmentación
-seo-description: La pestaña Conflictos de la página Información general de la actividad muestra los conflictos de actividades que se producen en su sitio.
-seo-title: Conflictos de actividades
-solution: Target
+description: La pestaña Conflictos de la página Información general de la actividad muestra los conflictos de actividades que se producen en su sitio.
 title: Conflictos de actividades
 uuid: 0e53ef60-2f71-4b34-9383-1de5cf5d3ab5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
