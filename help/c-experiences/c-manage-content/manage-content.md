@@ -1,13 +1,10 @@
 ---
-description: Use la biblioteca de Ofertas para administrar el contenido de ofertas de código y ofertas de imagen.
 keywords: contenido;activos;administrar contenido;ofertas;administrar recursos;activar modo de selección;modo de selección
-seo-description: Use la biblioteca de Ofertas para administrar el contenido de ofertas de código y ofertas de imagen.
-seo-title: Ofertas
-solution: Target
+description: Use la biblioteca de Ofertas para administrar el contenido de ofertas de código y ofertas de imagen.
 title: Ofertas
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -34,7 +31,7 @@ Puede editar o copiar una carpeta u oferta pasando el puntero sobre el elemento 
 
 ![](assets/offer-picker-large.png)
 
-## Visualización de definiciones de oferta  {#section_6B059DD121434E6292CAB393507D010E}
+## Visualización de definiciones de oferta   {#section_6B059DD121434E6292CAB393507D010E}
 
 Puede ver los detalles de una definición de oferta en forma de tarjeta emergente en la biblioteca de ofertas, sin necesidad de abrir la oferta.
 
