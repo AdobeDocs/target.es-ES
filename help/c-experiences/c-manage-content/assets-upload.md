@@ -1,14 +1,11 @@
 ---
-description: Puede añadir elementos a la lista de ofertas de imágenes.
 keywords: contenido;actualizar contenido;activos;cargar contenido;cargar activo
-seo-description: Puede añadir elementos a la lista de ofertas de imágenes.
-seo-title: Cargar contenido
-solution: Target
+description: Puede añadir elementos a la lista de ofertas de imágenes.
 title: Cargar contenido
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
