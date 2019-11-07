@@ -1,14 +1,11 @@
 ---
-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la integración heredada de SiteCatalyst con Test&Target y el uso de Analytics como fuente de informes para Target (A4T).
 keywords: faq;preguntas frecuentes;analytics para target;a4T;SiteCatalyst;campaña > fórmula;test&target;integración
-seo-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la integración heredada de SiteCatalyst con Test&Target y el uso de Analytics como fuente de informes para Target (A4T).
-seo-title: 'Integración heredada de SiteCatalyst con Test&Target: preguntas más frecuentes sobre A4T'
-solution: Target
+description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la integración heredada de SiteCatalyst con Test&Target y el uso de Analytics como fuente de informes para Target (A4T).
 title: 'Integración heredada de SiteCatalyst con Test&Target: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
