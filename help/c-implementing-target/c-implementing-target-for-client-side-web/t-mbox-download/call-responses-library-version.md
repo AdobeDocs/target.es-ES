@@ -1,11 +1,9 @@
 ---
 description: La manera en que Target hace y responde llamadas desde la página depende de la versión de la biblioteca de Target que está usando, de si la implementación del ID de visitante de Experience Cloud está presente y de si existe el ID de visitante.
-seo-description: La manera en que Target hace y responde llamadas desde la página depende de la versión de la biblioteca de Target que está usando, de si la implementación del ID de visitante de Experience Cloud está presente y de si existe el ID de visitante.
-seo-title: Métodos de página de Target por versión de biblioteca mbox.js
 title: Métodos de página de Target por versión de biblioteca mbox.js
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -53,7 +51,7 @@ Si usa solamente mboxCreate, por ejemplo en páginas creadas con [!DNL Target Cl
 | crear automáticamente mbox global | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: sincrónico |
 | mboxCreate | standard | standard | standard | standard |
 
-## Con implementación de ID de visitante, pero sin ID de visitante establecido  {#section_29888A119C7A4753AD287FC845AA63F4}
+## Con implementación de ID de visitante, pero sin ID de visitante establecido   {#section_29888A119C7A4753AD287FC845AA63F4}
 
 Si no se estableció ningún ID de visitante, no hay ninguna cookie de visitante de [!DNL Experience Cloud] para el usuario. La página llama al servicio de ID de visitante para obtener el ID del visitante.  espera la respuesta mientras el ID realiza la llamada a [!DNL Target]Target.
 
@@ -68,7 +66,7 @@ Si está usando la versión 57 de [!DNL mbox.js] en este caso, todo funciona com
 | crear automáticamente mbox global | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: asincrónico | crear automáticamente mbox global: asincrónico | crear automáticamente mbox global: asincrónico |
 | mboxCreate | standard | ajax | ajax | ajax |
 
-## Con implementación de ID de visitante, y existe el ID de visitante  {#section_9CD4AE4C8186425D886398BC3CE6C46D}
+## Con implementación de ID de visitante, y existe el ID de visitante   {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
 Si existe la cookie del ID de visitante, [!DNL Target] no necesita realizar una llamada al servicio de ID de visitante. En este caso, no es necesario esperar el servicio de ID de visitante antes de mostrar el contenido. Para las versiones 57 a 59, se usa el tipo **crear automáticamente mbox global: sincrónico**, de modo que la página espera a que se devuelva la llamada a [!DNL Target] antes de seguir cargándose. Esto garantiza que no sea vean parpadeos en el contenido predeterminado. Con la versión 60, se usa el **tipo mbox global: asincrónico** para garantizar que [!DNL Target] espere a que responda el servicio de exclusión de [!DNL Experience Cloud]. El servicio de exclusión forma parte de la inclusión de datos en el otoño de 2016. Como todas las llamadas se devuelven mediante ajax, `document.write()` no debería usarse con la versión 60 de [!DNL mbox.js].
 
