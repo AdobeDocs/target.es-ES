@@ -1,14 +1,11 @@
 ---
+keywords: client care;cname;programa de certificado;nombre canónico;cookies;certificado;amc;certificado administrado por adobe
 description: Información sobre cómo trabajar con Adobe Client Care para implementar el soporte de CNAME (nombre canónico) en Adobe Target.
-keywords: client care;cname;programa certificado;nombre canónico;cookies;certificado;certificado administrado de amc;adobe
-seo-description: Información sobre cómo trabajar con Adobe Client Care para implementar el soporte de CNAME (nombre canónico) en Adobe Target.
-seo-title: CNAME y Adobe Target
-solution: Target
 title: CNAME y Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b7a80326b0b89f6fe3bac70ccc6941be09d14ac1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -31,4 +28,4 @@ Realice los pasos siguientes para solicitar asistencia de CNAME en [!DNL Target]
 
 1. Cuando estos CNAMES estén establecidos, Adobe trabajará con DigiCert para adquirir e instalar un certificado en los servidores de producción de Adobe.
 
-1. Después de completar las tareas anteriores, debe actualizar `serverDomain` al nuevo CNAME en at.js.
+1. Cuando haya completado las tareas anteriores, debe actualizar `serverDomain` al nuevo CNAME en at.js.
