@@ -1,14 +1,11 @@
 ---
-description: 'Información sobre las funciones mboxDefine() y mboxUpdate() para at.js. '
-keywords: mboxDefine;mboxDefine;mbox define;mboxUpdate;mboxUpdate;mboxUpdate;mbox update;at.js;funciones;function
-seo-description: Información sobre las funciones mboxDefine() y mboxUpdate() para la biblioteca JavaScript at.js de Adobe Target.
-seo-title: Información sobre las funciones mboxDefine() y mboxUpdate() para la biblioteca JavaScript at.js de Adobe Target.
-solution: Target
+keywords: mboxDefine;mboxdefine;definir mbox;mboxUpdate;mboxupdate;actualización de mbox;at.js;funciones;función
+description: Información sobre las funciones mboxDefine() y mboxUpdate() para la biblioteca JavaScript at.js de Adobe Target.
+title: Información sobre las funciones mboxDefine() y mboxUpdate() para la biblioteca JavaScript at.js de Adobe Target.
 subtopic: Primeros pasos
-title: 'mboxDefine() and mboxUpdate(): at.js 1.x'
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +20,7 @@ Defina y actualice un mbox en Adobe Target.
 
 `mboxDefine()` y `mboxCreate()` están vinculados a elementos HTML DIV donde la oferta debería mostrarse. Estos elementos DIV HTML deberían tener la clase `mboxDefault`. Si los elementos HTML no tendrán esta clase adjunta, usted podría ver un notable parpadeo.
 
-## mboxDefine  {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
+## mboxDefine   {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
 Crea una asignación interna entre un nombre de mbox y nodeId, pero no excluye la solicitud. Se usa en conjunto con `mboxUpdate()`. Integrado en [!DNL at.js] principalmente para facilitar la transición de [!DNL mbox.js] a [!DNL at.js].
 
