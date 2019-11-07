@@ -1,15 +1,12 @@
 ---
-description: Información que le ayudará a minimizar los efectos de los recuentos inflados de visitas y visitantes al utilizar Analytics como fuente de informes.
 keywords: datos parciales;A4T;discrepancias;Analytics para Target;huérfano;grupo de informes virtual;fantasma;resolución de problemas;no vinculado;inflado;no especificado
-seo-description: Información que le ayudará a minimizar los efectos de los recuentos inflados de visitas y visitantes al utilizar Analytics como fuente de informes.
-seo-title: Minimización de los recuentos inflados de visitas y visitantes en A4T
-solution: Target
-subtopic: Prueba multivariable
+description: Información que le ayudará a minimizar los efectos de los recuentos inflados de visitas y visitantes al utilizar Analytics como fuente de informes.
 title: Minimización de los recuentos inflados de visitas y visitantes en A4T
+subtopic: Prueba multivariable
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -61,7 +58,7 @@ Revise los siguientes pasos con el fin de reducir la recopilación de datos parc
 | ![Paso 1](assets/step1_icon.png) | Asegúrese de que el grupo de informes seleccionado en [!DNL Target] coincide con el de la página en la que se mostrará la actividad. |
 | ![Paso 2](assets/step2_icon.png) | Asegúrese de que visitorAPI.js, appMeasurement.js y bibliotecas at.js/mbox.js estén en versiones compatibles con A4T. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Paso 3](assets/step3_icon.png) | Compruebe que se define el SDID en todas las llamadas de [!DNL Target] y [!DNL Analytics] que salen de la página y que coinciden.<br/>Para ello, utilice un analizador de redes o una herramienta de depuración con el fin de garantizar que el parámetro `mboxMCSDID` de las llamadas de [!DNL Target] coincide con el parámetro SDID de la llamada de [!DNL Analytics]. |
-| ![Paso 4](assets/step4_icon.png) | Confirme que las bibliotecas de implementación se cargan en el orden correcto en sus sitios. Para obtener más información, consulte  [Implementación de Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| ![Paso 4](assets/step4_icon.png) | Confirme que las bibliotecas de implementación se cargan en el orden correcto en sus sitios. Para obtener más información, consulte   [Implementación de Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Ver la cantidad de datos parciales guardada {#section_89B663E2824A4805AB934153508A0F4B}
 
