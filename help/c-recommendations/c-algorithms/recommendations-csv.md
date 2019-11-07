@@ -1,16 +1,10 @@
 ---
-description: Cargue un archivo CSV para personalizar las recomendaciones.
 keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;cargar csv
-seo-description: Cargue un archivo CSV para personalizar las recomendaciones.
-seo-title: Cargar criterios personalizados
-solution: Target
+description: Cargue un archivo CSV para personalizar las recomendaciones.
 title: Cargar criterios personalizados
-title-outputclass: premium
-topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
-badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
