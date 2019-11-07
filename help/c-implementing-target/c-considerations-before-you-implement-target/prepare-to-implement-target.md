@@ -1,15 +1,12 @@
 ---
-description: Hay tareas que debe completar e información que debe recopilar al preparar la implementación de Adobe Target.
 keywords: implementar;implementación;rfi;solicitud de información
-seo-description: Hay tareas que debe completar e información que debe recopilar al preparar la implementación de Adobe Target.
-seo-title: Preparación para implementar Adobe Target
-solution: Target
+description: Hay tareas que debe completar e información que debe recopilar al preparar la implementación de Adobe Target.
+title: Preparación para implementar Adobe Target
 subtopic: Primeros pasos
-title: Preparación para implementar Target
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
