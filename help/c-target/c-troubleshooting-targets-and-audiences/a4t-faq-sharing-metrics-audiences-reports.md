@@ -1,14 +1,11 @@
 ---
-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre cómo compartir métricas, audiencias e informes al usar Analytics como fuente de informes para Target (A4T).
 keywords: preguntas frecuentes;faq;analytics para target;segmentos;a4T;compartir informes
-seo-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre cómo compartir métricas, audiencias e informes al usar Analytics como fuente de informes para Target (A4T).
-seo-title: 'Uso compartido de métricas, audiencias e informes: preguntas más frecuentes sobre A4T'
-solution: Target
+description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre cómo compartir métricas, audiencias e informes al usar Analytics como fuente de informes para Target (A4T).
 title: 'Uso compartido de métricas, audiencias e informes: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -21,7 +18,7 @@ En este tema encontrará respuestas a preguntas que se plantean a menudo sobre c
 
 A menudo, es buena idea crear una vista de una prueba para diferentes grupos de usuarios para que les resulte más fácil consultar los resultados de la prueba. En Analytics, se puede crear un marcador que guarde la vista actual de un informe, incluyendo las métricas, los intervalos de fechas, los segmentos, etc.
 
-For more information, see [Bookmark manager](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html).
+Para obtener más información, consulte Administrador [de marcadores](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html).
 
 ## ¿Cómo me puedo asegurar de que las métricas y los segmentos se compartan con mi equipo de optimización?{#section_38BCA134A2F64C21B670CBD4491B7099}
 
