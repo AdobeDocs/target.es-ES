@@ -1,15 +1,12 @@
 ---
-description: El uso de Analytics como fuente de informes para Target (A4T) permite acceder a informes de Analytics para sus actividades de Target.
 keywords: analytics for target, a4t, analytics como origen de informes
-seo-description: El uso de Analytics como fuente de informes para Target (A4T) permite acceder a informes de Analytics para sus actividades de Target.
-seo-title: Informes de A4T
-solution: Target
-subtopic: Prueba multivariable
+description: El uso de Analytics como fuente de informes para Target (A4T) permite acceder a informes de Analytics para sus actividades de Target.
 title: Informes de A4T
+subtopic: Prueba multivariable
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -34,7 +31,7 @@ Cuando se usa la operación Seleccionar y ordenar por *participantes*, solo se m
 >
 >Los informes ofrecidos por Target tienen una latencia de cuatro minutos. En el caso de las actividades ofrecidas por A4T, en los informes tanto de Target como de Analytics, después de guardar la actividad por primera vez se puede tardar hasta 24 horas en poder desglosar los datos del informe por experiencia. Los datos recopilados en esas primeras 24 horas siguen siendo precisos y se asignan a la experiencia adecuada.
 
-## Informes en Analytics  {#section_F6884872DC864AE7913587FAED4CD11C}
+## Informes en Analytics   {#section_F6884872DC864AE7913587FAED4CD11C}
 
 En Analytics, en el menú de la izquierda, haga clic en **[!UICONTROL Target]** &gt; **[!UICONTROL Actividades de Target]**. En Target, los informes de actividad muestran automáticamente los datos, las métricas y los segmentos de Analytics. Los datos aparecen en estos informes aproximadamente una hora después de recopilarlos del sitio. Todas las métricas, las audiencias y los valores de los informes proceden del grupo de informes que seleccionó cuando configuró la actividad.
 
@@ -51,7 +48,7 @@ En Analytics, utilice el informe de Actividades de Target para ver los resultado
 >
 >Si el informe Actividades de Target en Analytics indica “sin especificar” en lugar de enumerar las actividades, se requiere una actualización en la cuenta aprovisionada. Póngase en contacto con el Servicio de atención al cliente para resolver este problema.
 
-## Informes en Target  {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Informes en Target   {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 Cuando se usa Analytics como fuente de informes, los informes en Target Standard muestran los datos recopilados de Analytics. El informe es algo distinto de otros informes de Target Standard:
 
