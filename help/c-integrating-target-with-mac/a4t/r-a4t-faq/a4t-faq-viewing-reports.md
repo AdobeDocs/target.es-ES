@@ -1,19 +1,16 @@
 ---
-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la visualización de informes al usar Analytics como fuente de informes para Target (A4T).
 keywords: preguntas frecuentes;faq;analytics para target;a4T;informe;informes;visualización de informes;creación de informes;metodología de contabilización;impresiones;visitantes;visitas;métrica predeterminada;conversiones de actividad;sin especificar
-seo-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la visualización de informes al usar Analytics como fuente de informes para Target (A4T).
-seo-title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
-solution: Target
+description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la visualización de informes al usar Analytics como fuente de informes para Target (A4T).
 title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# Ver informes: preguntas más frecuentes sobre A4T{#view-reports-a-t-faq}
+# Visualización de informes: preguntas más frecuentes sobre A4T{#view-reports-a-t-faq}
 
 En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la visualización de informes al usar Analytics como fuente de informes para Target (A4T).
 
@@ -25,7 +22,7 @@ La metodología de recuento especifica lo que Target usa como denominador para l
 * Visitantes
 * Visitas
 
-## ¿Puedo establecer una métrica predeterminada para los informes de Target?  {#section_50C20D286AA042CCA958184C9C0767DD}
+## ¿Puedo establecer una métrica predeterminada para los informes de Target?   {#section_50C20D286AA042CCA958184C9C0767DD}
 
 En el informe de actividades, los administradores pueden cambiar la métrica predeterminada para que cada vez que se realice el informe se reflejen las mismas métricas. De lo contrario, el informe usa la última métrica aplicada al último informe.
 
@@ -37,7 +34,7 @@ Los segmentos aplicados a los informes son como aplicar segmentos a la versión 
 
 Se pueden aplicar segmentos a métricas con una métrica calculada. Esto se suele hacer si se quiere crear un nuevo tipo de evento con éxito. Por ejemplo, si quiere ver cuántos visitantes de retorno ha generado su actividad o cuántos visitantes han llegado a una cierta página. Tenga en cuenta que actualmente el alza y la confianza no se pueden generar para las métricas calculadas.
 
-## ¿Debería usar visitantes, impresiones de actividad o visitas cuando consulto los informes?  {#metrics}
+## ¿Debería usar visitantes, impresiones de actividad o visitas cuando consulto los informes?   {#metrics}
 
 Existen varias opciones, cada una con sus propias ventajas:
 
@@ -52,7 +49,7 @@ Tenga en cuenta lo siguiente:
 
 * Todas las métricas anteriores se activan cuando un usuario reúne los requisitos para una actividad y el contenido se devuelve de [!DNL Target]. Esto no significa necesariamente que el usuario haya visto la oferta. Si una experiencia de actividad está por debajo del pliegue y el usuario no se desplaza hacia abajo en la página significa que [!DNL Target] proporcionó la oferta, pero el usuario no la vio.
 * [!UICONTROL Impresiones de actividad] (medida mediante [!DNL Target]) e [!UICONTROL Instancias] (medida mediante [!DNL Analytics]) son iguales, a menos que haya varias llamadas de mbox en la misma página de la misma actividad. De esta forma se contabilizan varias [!UICONTROL Impresiones de actividad], pero una sola [!UICONTROL Instancia].
-* Al utilizar las métricas Impresiones  de actividad y Conversiones [!UICONTROL de] actividad en [!DNL Analysis Workspace], asegúrese de que ambas métricas tengan aplicados modelos de atribución de [!UICONTROL mismo toque] . Models can be applied by clicking the column settings gear, enabling Non-default attribution models, then selecting Same Touch.  Obtenga más información sobre la atribución en Información general [de IQ de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) atributos en la Guía *de herramientas de* Analytics.
+* Cuando utilice las métricas de [!UICONTROL Impresiones de actividad] y [!UICONTROL Conversiones de actividad] en [!DNL Analysis Workspace], asegúrese de que ambas métricas tengan los modelos de atribución del [!UICONTROL Mismo contacto] aplicados. Los modelos se pueden aplicar si hace clic en el engranaje de configuración de columna y habilita [!UICONTROL Modelos de atribución no predeterminados] y, a continuación, selecciona [!UICONTROL Mismo contacto]. Obtenga más información sobre la atribución en Información general [de IQ de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) atributos en la Guía *de herramientas de* Analytics.
 
 ## ¿Qué significa “conversiones de la actividad” si el especialista en marketing elige una métrica de Analytics durante la configuración de la actividad?{#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +59,7 @@ Tenga en cuenta lo siguiente:
 
 ![](assets/unspecified.png)
 
-En otros informes, “sin especificar” significa que los datos no cumplían una regla de clasificación, pero esto no debería suceder nunca en A4T. Si ve “sin especificar”, aún no se ha ejecutado el servicio de clasificación. Los datos de actividad generalmente tardan entre 24 y 72 horas en aparecer en los informes. Aunque las actividades no aparecen en este informe hasta llegado ese momento, todos los datos de visitantes asociados a esas actividades se recopilan y aparecerán cuando se complete la clasificación.
+En otros informes, “sin especificar” significa que los datos no cumplían una regla de clasificación, pero esto no debería suceder nunca en A4T. Si ve “sin especificar”, aún no se ha ejecutado el servicio de clasificación. Los datos de la actividad suelen tardar entre 24 y 72 horas en aparecer en los informes. Aunque las actividades no aparecen en este informe hasta llegado ese momento, todos los datos de visitantes asociados a esas actividades se recopilan y aparecerán cuando se complete la clasificación.
 
 Tras el periodo de clasificación, los datos aparecen en estos informes aproximadamente una hora después de recabarse del sitio web. Todas las métricas, los segmentos y los valores de los informes proceden del grupo de informes que seleccionó cuando configuró la actividad.
 
@@ -122,7 +119,7 @@ La métrica Visitantes únicos muestra el número de personas que han estado exp
 
 Puede reducir a una sesión la cantidad de tiempo que la variable de Target persiste. No obstante, esto suele dar problemas en las pruebas donde no hay tanta probabilidad de que el evento de conversión se dé en la misma sesión.
 
-## ¿Por qué en Analytics a veces se cuenta el mismo visitante en diferentes experiencias?  {#section_1397E972D31C4207A142E4D2D6D794A2}
+## ¿Por qué en Analytics a veces se cuenta el mismo visitante en diferentes experiencias?   {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 A continuación se explican los motivos por los que puede ser que el mismo visitante se cuente en varias experiencias en Analytics:
 
