@@ -1,14 +1,10 @@
 ---
-description: Busque activos por palabra clave y guarde carpetas de búsqueda, llamadas colecciones inteligentes, que se actualizan automáticamente con los resultados de búsqueda.
 keywords: biblioteca de contenidos;activos;buscar;colecciones inteligentes;carpeta de búsqueda;filtro
-seo-description: Busque activos por palabra clave y guarde carpetas de búsqueda, llamadas colecciones inteligentes, que se actualizan automáticamente con los resultados de búsqueda.
-seo-title: Buscar contenido y crear colecciones inteligentes
-solution: Target
+description: Busque activos por palabra clave y guarde carpetas de búsqueda, llamadas colecciones inteligentes, que se actualizan automáticamente con los resultados de búsqueda.
 title: Buscar contenido y crear colecciones inteligentes
-topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -22,7 +18,7 @@ Esta sección contiene la información siguiente:
 * [Buscar activos por palabra clave](../../c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
 * [Guardar colecciones inteligentes](../../c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
-## Buscar activos por palabra clave  {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Buscar activos por palabra clave   {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Haga clic en **[!UICONTROL Ofertas]** &gt; **[!UICONTROL Ofertas de imágenes]** para acceder a la [!UICONTROL Biblioteca de activos].
 
@@ -38,7 +34,7 @@ Esta sección contiene la información siguiente:
 
 1. En el cuadro de búsqueda, escriba una palabra clave para el activo que quiera encontrar y luego presione Intro.
 
-## Guardar colecciones inteligentes  {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## Guardar colecciones inteligentes   {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 Puede crear búsquedas guardadas, llamadas colecciones inteligentes, para ahorrar tiempo al realizar búsquedas parecidas. Una búsqueda guardada crea una colección inteligente que se actualiza automáticamente con los resultados de búsqueda.
 
