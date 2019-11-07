@@ -1,14 +1,11 @@
 ---
-description: Lista de temas útiles para resolver problemas en Adobe Target. Incluye temas de resolución de problemas, preguntas más frecuentes (PF) y otros temas.
 keywords: resolución de problemas de target;solucionar problemas de target
-seo-description: Lista de temas útiles para resolver problemas en Adobe Target. Incluye temas de resolución de problemas, preguntas más frecuentes (PF) y otros temas.
-seo-title: Solución de problemas de Adobe Target
-solution: Target
-title: Resolución de problemas de Target
+description: Lista de temas útiles para resolver problemas en Adobe Target. Incluye temas de resolución de problemas, preguntas más frecuentes (PF) y otros temas.
+title: Solución de problemas de Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
