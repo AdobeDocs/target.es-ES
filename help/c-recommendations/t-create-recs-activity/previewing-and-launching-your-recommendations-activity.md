@@ -1,16 +1,10 @@
 ---
-description: 'Una vez que haya creado la actividad de Recomendaciones, Prueba A/B o Segmentación de experiencias (XT) que contiene ofertas de Recomendaciones, querrá previsualizarla para asegurarse de que los resultados están disponibles antes de iniciar la actividad. Recomendaciones de Target ofrece varias formas de obtener una vista previa de las recomendaciones. '
 keywords: Recomendaciones;oferta;vista previa;inicio
-seo-description: 'Una vez que haya creado la actividad de Recomendaciones, Prueba A/B o Segmentación de experiencias (XT) que contiene ofertas de Recomendaciones de Adobe Target, querrá obtener una vista previa para asegurarse de que los resultados están disponibles antes de iniciar la actividad. Recomendaciones de Target ofrece varias formas de obtener una vista previa de las recomendaciones. '
-seo-title: 'Una vez que haya creado la actividad de Recomendaciones, Prueba A/B o Segmentación de experiencias (XT) que contiene ofertas de Recomendaciones de Adobe Target, querrá obtener una vista previa para asegurarse de que los resultados están disponibles antes de iniciar la actividad. Recomendaciones de Target ofrece varias formas de obtener una vista previa de las recomendaciones. '
-solution: Target
-subtopic: Las actividades de
-title: Vista preliminar e inicio de la actividad de Recomendaciones
-title-outputclass: premium
-topic: Premium
-badge: premium
+description: 'Una vez que haya creado la actividad de Recomendaciones, Prueba A/B o Segmentación de experiencias (XT) que contiene ofertas de Recomendaciones de Adobe Target, querrá obtener una vista previa para asegurarse de que los resultados están disponibles antes de iniciar la actividad. Recomendaciones de Target ofrece varias formas de obtener una vista previa de las recomendaciones. '
+title: 'Una vez que haya creado la actividad de Recomendaciones, Prueba A/B o Segmentación de experiencias (XT) que contiene ofertas de Recomendaciones de Adobe Target, querrá obtener una vista previa para asegurarse de que los resultados están disponibles antes de iniciar la actividad. Recomendaciones de Target ofrece varias formas de obtener una vista previa de las recomendaciones. '
+subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
