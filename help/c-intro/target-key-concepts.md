@@ -1,15 +1,12 @@
 ---
-description: Información sobre conceptos clave que le ayudarán a comprender las características y capacidades de Adobe Target.
 keywords: Información general y referencia;actividad
-seo-description: Información sobre conceptos clave que le ayudarán a comprender las características y capacidades de Adobe Target.
-seo-title: Conceptos clave de Target
-solution: Target
-subtopic: Primeros pasos
+description: Información sobre conceptos clave que le ayudarán a comprender las características y capacidades de Adobe Target.
 title: Conceptos clave de Target
+subtopic: Primeros pasos
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
