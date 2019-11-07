@@ -1,14 +1,11 @@
 ---
-description: Puede dirigir versiones de la misma experiencia a distintas audiencias en actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
 keywords: varias audiencias;versiones de experiencias;versiones de experiencias de target
-seo-description: Puede dirigir versiones de la misma experiencia a distintas audiencias en actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
-seo-title: Varias versiones de una experiencia en una prueba A/B
-solution: Target
+description: Puede dirigir versiones de la misma experiencia a distintas audiencias en actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
 title: Varias versiones de una experiencia en una prueba A/B
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
