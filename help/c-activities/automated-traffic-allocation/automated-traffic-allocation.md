@@ -1,14 +1,11 @@
 ---
-description: Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 keywords: asignación de tráfico automática;segmentación;aumentar recuento y mantener al usuario en la actividad;asignación de tráfico
-seo-description: Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
-seo-title: Asignación automática
-solution: Target
+description: Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 title: Asignación automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -47,7 +44,7 @@ Asignación automática asigna de forma inteligente nuevos visitantes a distinta
 * Utilice una **[prueba A/B](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** estándar cuando quiera caracterizar el rendimiento de todas las experiencias antes de optimizar el sitio web. Una prueba A/B le ayuda a clasificar todas las experiencias propias, mientras que la Asignación automática del tráfico encuentra las experiencias con mejor rendimiento pero no garantiza poder diferenciar entre las que tienen peor rendimiento.
 * Utilice [Personalización automatizada](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) cuando quiera algoritmos de optimización de la más alta complejidad, como pueden ser los modelos de aprendizaje automático que crean predicciones basadas en atributos concretos del perfil. La Asignación automática del tráfico examina el comportamiento agregado de las experiencias (como las pruebas A/B estándar) y no diferencia entre visitantes.
 
-## Ventajas principales  {#section_0913BF06F73C4794862561388BBDDFF0}
+## Ventajas principales   {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Tiene el mismo rigor que una prueba A/B
 * Encuentra una experiencia ganadora con relevancia estadística más rápido que una prueba A/B manual
@@ -93,7 +90,7 @@ Una vez que está listo el modelo para una actividad de asignación automática 
 * Cambiar el tipo de la métrica de objetivo
 * Cambiar opciones en el panel “Configuración avanzada”
 
-## Advertencias  {#section_5C83F89F85C14FD181930AA420435E1D}
+## Advertencias   {#section_5C83F89F85C14FD181930AA420435E1D}
 
 **Ya no se admiten las actividades A/B de asignación automática en Analytics for Target (A4T).**
 
