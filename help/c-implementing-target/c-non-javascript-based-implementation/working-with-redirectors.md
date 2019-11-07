@@ -1,15 +1,12 @@
 ---
-description: Use un redirector de forma similar a como se usa un mbox en las pruebas.
 keywords: Implementación;mbox.js sin javascript;redirector;costes por clic;ingresos por clic
-seo-description: Use un redirector de forma similar a como se usa un mbox en las pruebas.
-seo-title: Trabajar con redirectores
-solution: Target
-subtopic: Primeros pasos
+description: Use un redirector de forma similar a como se usa un mbox en las pruebas.
 title: Trabajar con redirectores
+subtopic: Primeros pasos
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -20,7 +17,7 @@ Use un redirector de forma similar a como se usa un mbox en las pruebas.
 
 Los redirectores se crean con una dirección URL de redirector especial que carga un mbox de redirector en su cuenta. Use este redirector de forma similar a como se usa un mbox en las pruebas. Envíe la dirección URL del redirector a la red de publicidad como vínculo de destino de la publicidad.
 
-Use el redirector para  hacer lo siguiente:
+Use el redirector para   hacer lo siguiente:
 
 * Rastrear los clics de los anuncios en pantalla en su sitio
 * Crear un único informe centralizado para rastrear los clics efectuados en los anuncios en pantalla de las redes de publicidad múltiple
@@ -30,7 +27,7 @@ Use el redirector para  hacer lo siguiente:
 
 * Averigüe cuál es la página de aterrizaje que produce el mayor número de conversiones
 
-Para obtener ayuda para decidir la configuración adecuada, consulte  [Implementaciones no basadas en JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Para obtener ayuda para decidir la configuración adecuada, consulte   [Implementaciones no basadas en JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 ## Cree un redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
 
@@ -108,7 +105,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 &mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
-### Paso de los ingresos por clic  {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
+### Paso de los ingresos por clic   {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
 
 Use un redirector para pasar los ingresos por clic.
 
