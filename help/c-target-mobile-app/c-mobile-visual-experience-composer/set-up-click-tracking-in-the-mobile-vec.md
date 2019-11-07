@@ -1,14 +1,11 @@
 ---
-description: El Compositor de experiencias visuales (VEC) móvil permite configurar los objetivos de rastreo de clics para las actividades de Target.
 keywords: Aplicación móvil VEC;compositor de experiencias visuales móvil;opciones del compositor de experiencias móvil;opciones de experiencias móviles;vista Target;clics;rastreo de clics;rastreo
-seo-description: El Compositor de experiencias visuales (VEC) móvil permite configurar los objetivos de rastreo de clics para las actividades de Adobe Target.
-seo-title: Configurar el rastreo de clics en la aplicación móvil VEC
-solution: Target
+description: El Compositor de experiencias visuales (VEC) móvil permite configurar los objetivos de rastreo de clics para las actividades de Adobe Target.
 title: Configurar el rastreo de clics en la aplicación móvil VEC
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -50,7 +47,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 * En la aplicación móvil VEC, solo se permite seleccionar los elementos que tienen un controlador de clic adjunto.
 * Puede navegar a cualquier sección de la aplicación, pero asegúrese de que las [vistas](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) estén definidas para la sección en la que está seleccionando elementos para el rastreo de clics.
 * Al editar una actividad, si el dispositivo ya está seleccionado en el Paso 1, no es necesario que vuelva a seleccionarlo. Sin embargo, si llega directamente a la página de rastreo de clics, se mostrará la pantalla de selección de dispositivos para seleccionar un dispositivo autorizado.
-* Aparece un panel Modificaciones en el VEC de la aplicación móvil que muestra los elementos que ha configurado para el rastreo de clics.
+* Aparece el panel Modificaciones en el VEC de la aplicación móvil que muestra los elementos configurados para el seguimiento de clics.
 
    ![Panel Modificaciones que muestra el rastreo de clics
    ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
