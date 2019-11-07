@@ -1,14 +1,11 @@
 ---
 description: Use esta opción cuando desee enviar al visitante a una página diferente en lugar de mostrar el contenido en la misma página.
-seo-description: Use esta opción cuando desee enviar al visitante a una página diferente en lugar de mostrar el contenido en la misma página.
-seo-title: Redireccionar a una dirección URL
-solution: Target
-subtopic: Prueba multivariable
 title: Redireccionar a una dirección URL
+subtopic: Prueba multivariable
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
