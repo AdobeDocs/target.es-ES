@@ -1,14 +1,11 @@
 ---
-description: En esta página se detallan algunos cambios importantes que hemos realizado en la documentación de Target.
-keywords: registro de cambios en la documentación de target;actualizaciones en la documentación;temas nuevos;ediciones
-seo-description: Esta página enumera los cambios importantes realizados en la documentación de Adobe Target, ordenados por versiones.
-seo-title: Cambios en la documentación de los productos de Adobe Target.
-solution: Target
-title: Cambios de la documentación
+keywords: registro de cambios de documentación de destino;actualizaciones de documentación;nuevos temas;ediciones
+description: Esta página enumera los cambios importantes realizados en la documentación de Adobe Target, ordenados por versiones.
+title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -21,6 +18,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 7 de noviembre de 2019 | [Atributos de perfil](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | Se ha añadido una muestra de código para el parámetro adobeQA. |
 | 5 de noviembre de 2019 | [Páginas del sitio](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Se ha actualizado el texto en la sección "Solución de problemas". |
 | 4 de noviembre de 2019 | [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Se ha actualizado el texto en las siguientes preguntas más frecuentes: "¿Por qué veo mensajes de advertencia, como "acciones con selectores ausentes"?" |
 | 31 de octubre de 2019 | [Trabajar con atributos de varios valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nuevo tema. |
