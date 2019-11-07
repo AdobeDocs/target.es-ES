@@ -1,15 +1,12 @@
 ---
-description: Descargue datos en formato .csv para poder importarlos rápidamente a Excel, Access o cualquier otro programa de análisis de datos.
 keywords: informes;informes de descargas;csv;métricas de éxito;detalles de pedidos
-seo-description: Descargue datos en formato .csv para importarlos rápidamente a Excel, Access u otros programas de análisis de datos mediante Adobe Target.
-seo-title: Descarga de datos en un archivo CSV con Adobe Target
-solution: Target
+description: Descargue datos en formato .csv para importarlos rápidamente a Excel, Access u otros programas de análisis de datos mediante Adobe Target.
+title: Descarga de datos en un archivo CSV con Adobe Target
 subtopic: Prueba multivariable
-title: Descarga de datos en un archivo CSV
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -81,7 +78,7 @@ El informe de detalles del pedido (conocido como el informe de auditoría en [!D
 * Los valores que se pasan mediante el parámetro de mbox `ProductPurchasedId` aparecen ahora recogidos en el informe de detalles del pedido.
 * Una práctica recomendada es incluir un `orderID`, así como un `orderTotal`. Esto permite ignorar automáticamente los pedidos duplicados.
 
-## Advertencias {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## Advertencias  {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 La información siguiente se refiere a la opción Descargar:
 
