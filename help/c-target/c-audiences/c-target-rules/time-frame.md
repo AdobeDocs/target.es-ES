@@ -1,13 +1,10 @@
 ---
-description: Puede añadir fechas y horas de inicio y fin para dirigirse a los usuarios que visitan el sitio durante un periodo de tiempo determinado. También puede establecer opciones de Partición por semana y día para crear patrones recurrentes en la segmentación de audiencia.
 keywords: periodo de tiempo;fecha de inicio;fecha de fin;fechas de inicio/fin;intervalo de tiempo;programación de Target;partición por semana;partición por día;partición
-seo-description: Puede añadir fechas y horas de inicio y fin para dirigirse a los usuarios que visitan el sitio durante un periodo de tiempo determinado. También puede establecer opciones de Partición por semana y día para crear patrones recurrentes en la segmentación de audiencia.
-seo-title: Periodo de tiempo
-solution: Target
+description: Puede añadir fechas y horas de inicio y fin para dirigirse a los usuarios que visitan el sitio durante un periodo de tiempo determinado. También puede establecer opciones de Partición por semana y día para crear patrones recurrentes en la segmentación de audiencia.
 title: Periodo de tiempo
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
