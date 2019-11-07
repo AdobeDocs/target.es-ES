@@ -1,17 +1,11 @@
 ---
-description: Se pueden utilizar varios ajustes para describir y controlar una actividad de Recommendations.
 keywords: Recommendations;Configuración;nombre;objetivo;prioridad;duración;configuración de informes;otros metadatos
-seo-description: Se pueden utilizar varios ajustes para describir y controlar una actividad de Recommendations en Adobe Target.
-seo-title: Configuración de actividades de Recommendations en Adobe Target
-solution: Target
-subtopic: Las actividades de
-title: Configuración de actividades de Recommendations
-title-outputclass: premium
-topic: Premium
+description: Se pueden utilizar varios ajustes para describir y controlar una actividad de Recommendations en Adobe Target.
+title: Configuración de actividades de Recommendations en Adobe Target
+subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
