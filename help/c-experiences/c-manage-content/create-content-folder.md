@@ -1,14 +1,11 @@
 ---
-description: Cree una carpeta para guardar elementos en la biblioteca de ofertas.
 keywords: contenido;activos;carpeta;crear carpeta;mover carpeta;copiar carpeta;eliminar carpeta;descargar carpeta
-seo-description: Cree una carpeta para guardar elementos en la biblioteca de ofertas.
-seo-title: Crear una carpeta de ofertas
-solution: Target
+description: Cree una carpeta para guardar elementos en la biblioteca de ofertas.
 title: Crear una carpeta de ofertas
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -26,7 +23,7 @@ Cree una carpeta para guardar elementos en la biblioteca de ofertas.
    | Título (se aplica solo a las ofertas de imágenes) | Elija un nombre descriptivo para la carpeta. Por ejemplo, puede incluir el tipo de contenido que albergará.<br>El nombre no puede contener los caracteres siguientes:<br>Símbolo de porcentaje `%`<br>Barra `/`<br>Barra inversa `\`<br>Dos puntos `:`<br>Asterisco `*`<br>Signo de interrogación `?`<br>Comillas inglesas `"`<br>Corchete `[`<br>Corchete `]`<br>Símbolo más: `+`<br>Barra vertical: `|`<br>Punto: `.`<br>Símbolo de número: `#`<br>Llave: `{`<br>Llave `}`<br>Signo de intercalación `^`<br>Punto y coma `;`<br>Puede usar un guion (`- `) en lugar de estos caracteres. |
    | Nombre (se aplica a las ofertas de código y de imagen) | Si lo desea, edite el nombre. |
    | Privado (se aplica solo a las ofertas de imágenes) | Indica que la carpeta es privada, de modo que solo usted pueda ver la carpeta y su contenido. |
-   | Se puede cambiar de orden en la vista de lista  (se aplica solo a las ofertas de imágenes) | Indica que usted y otras personas pueden reordenar la posición de la carpeta en la vista de lista.<br>Para alternar entre la vista de tarjeta y la vista de lista, haga clic en los iconos Vista de tarjeta o Vista de lista en la esquina superior derecha de la biblioteca de contenido. También puede seleccionar Configuración de vista para incluir o excluir columnas de la vista de lista. |
+   | Se puede cambiar de orden en la vista de lista   (se aplica solo a las ofertas de imágenes) | Indica que usted y otras personas pueden reordenar la posición de la carpeta en la vista de lista.<br>Para alternar entre la vista de tarjeta y la vista de lista, haga clic en los iconos Vista de tarjeta o Vista de lista en la esquina superior derecha de la biblioteca de contenido. También puede seleccionar Configuración de vista para incluir o excluir columnas de la vista de lista. |
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
@@ -38,15 +35,15 @@ Cuando vea la página de [!UICONTROL Ofertas de código], puede realizar las sig
 
 Consulta la información de carpeta.
 
-### Editar  ![](assets/icon_edit.png)
+### Editar   ![](assets/icon_edit.png)
 
 Edita la carpeta.
 
-### Copiar  ![](assets/icon_copy.png)
+### Copiar   ![](assets/icon_copy.png)
 
 Copia la carpeta.
 
-### Mover  ![](assets/icon_move_folder.png)
+### Mover   ![](assets/icon_move_folder.png)
 
 Haga clic en el icono, navegue hasta la ubicación a la que quiere mover la carpeta y, después, haga clic en el icono Soltar.
 
@@ -71,7 +68,7 @@ Seleccione una o más carpetas en las que realizar las siguientes acciones:
 * Mover
 * Eliminar
 
-### Descargar  ![](assets/icon_download.png)
+### Descargar   ![](assets/icon_download.png)
 
 Descargue la carpeta y su contenido.
 
@@ -79,6 +76,6 @@ Descargue la carpeta y su contenido.
 
 Comparta la carpeta y su contenido en Adobe Creative Cloud.
 
-### Copiar  ![](assets/icon_copy_content.png)
+### Copiar   ![](assets/icon_copy_content.png)
 
 Copie la carpeta y su contenido.
