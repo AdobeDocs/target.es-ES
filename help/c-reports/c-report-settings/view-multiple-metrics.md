@@ -1,14 +1,10 @@
 ---
-description: Seleccionar varias métricas a visualizar en un informe.
 keywords: Target;informes;configuración de informes;métricas múltiples;métricas
-seo-description: Seleccione varias métricas para ver en un informe con Adobe Target.
-seo-title: Ver varias métricas en un informe con Adobe Target
-solution: Target
-title: Ver varias métricas en un informe
-topic: Premium
+description: Seleccione varias métricas para ver en un informe con Adobe Target.
+title: Ver varias métricas en un informe con Adobe Target
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
