@@ -1,14 +1,10 @@
 ---
-description: Se requieren varios pasos a la hora de implementar Adobe Analytics como fuente de informes para Target (A4T).
 keywords: A4T;Adobe Analytics;actividad basada en Analytics;grupo de informes de Analytics;grupo de informes;integración de Analytics Target;configurar grupo de informes
-seo-description: Se requieren varios pasos a la hora de implementar Adobe Analytics como fuente de informes para Target (A4T).
-seo-title: Implementación de Analytics for Target
-solution: Target
+description: Se requieren varios pasos a la hora de implementar Adobe Analytics como fuente de informes para Target (A4T).
 title: Implementación de Analytics for Target
-topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -27,7 +23,7 @@ Después de implementar Analytics como fuente de informes para Target, debe apro
 
 ## Paso 2: Configurar los permisos de usuario
 
-Deben cumplirse los requisitos de cuenta de usuario para poder crear en Adobe Target una actividad basada en Adobe Analytics. Consulte [Requisitos de permisos de usuario](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
+Deben cumplirse los requisitos de cuenta de usuario para poder crear en Adobe Target una actividad basada en Adobe Analytics. Consulte  [Requisitos de permisos de usuario](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
 
 ## Paso 3: Implementar el servicio ID de visitante de Experience Cloud
 
@@ -55,7 +51,7 @@ Si ha implementado anteriormente at.js o mbox.js, puede reemplazar el archivo ex
 
 En caso contrario, el archivo se puede alojar junto con los archivos del servicio ID de visitante y de AppMeasurement for JavaScript. Estos archivos deben alojarse en un servidor web al que se pueda acceder desde todas las páginas del sitio. En el paso siguiente necesitará la ruta de acceso a estos archivos.
 
-## Paso 7: Agregar la referencia de at.js o mbox.js a todas las páginas del sitio. {#step7}
+## Paso 7: Agregar la referencia de at.js o mbox.js a todas las páginas del sitio.  {#step7}
 
 Incluya at.js o mbox.js debajo de VisitorAPI.js. Para ello, agregue la siguiente línea de código dentro de la etiqueta de todas las páginas:
 
