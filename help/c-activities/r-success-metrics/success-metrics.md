@@ -1,13 +1,10 @@
 ---
-description: En Adobe Target, las métricas de éxito están preconfiguradas tanto para informes como para seguimiento.
 keywords: Segmentación;éxito;métrica de conversión;métrica de puntaje de página;métrica de vistas de página;métricas de ingresos;métrica de tiempo en el sitio;valor estimado;configuración avanzada;métricas de éxito
-seo-description: En Adobe Target, las métricas de éxito están preconfiguradas tanto para informes como para seguimiento.
-seo-title: Métricas de éxito en Adobe Target
-solution: Target
-title: Métricas de éxito
+description: En Adobe Target, las métricas de éxito están preconfiguradas tanto para informes como para seguimiento.
+title: Métricas de éxito en Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
