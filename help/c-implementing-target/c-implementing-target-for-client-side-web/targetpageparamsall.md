@@ -1,14 +1,11 @@
 ---
-description: 'Información sobre la función targetPageParamsAll() para at.js. '
-keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;page params;page parameters;at.js;funciones;function
-seo-description: Información sobre la función targetPageParamsAll() para la biblioteca JavaScript at.js de Adobe Target.
-seo-title: Información sobre la función targetPageParamsAll() para la biblioteca JavaScript at.js de Adobe Target.
-solution: Target
+keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;parámetros de página;at.js;funciones;función
+description: Información sobre la función targetPageParamsAll() para la biblioteca JavaScript at.js de Adobe Target.
+title: Información sobre la función targetPageParamsAll() para la biblioteca JavaScript at.js de Adobe Target.
 subtopic: Primeros pasos
-title: targetPageParamsAll()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
