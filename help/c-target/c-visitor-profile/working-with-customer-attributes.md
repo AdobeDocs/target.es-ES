@@ -1,15 +1,12 @@
 ---
-description: Información sobre el uso de datos de clientes empresariales en una base de datos de administración de la relación con los clientes (CRM) para la segmentación de contenido en Adobe Target mediante el uso de Atributos del cliente en el servicio principal Perfiles y audiencias de Adobe.
 keywords: servicio de registro de cliente;crs;crm;mbox3rdpartyid;atributos del cliente;segmentación
-seo-description: Información sobre el uso de datos de clientes empresariales en una base de datos de administración de la relación con los clientes (CRM) para la segmentación de contenido en Adobe Target mediante el uso de Atributos del cliente en el servicio principal Perfiles y audiencias de Adobe.
-seo-title: Atributos del cliente en Adobe Target
-solution: Target
+description: Información sobre el uso de datos de clientes empresariales en una base de datos de administración de la relación con los clientes (CRM) para la segmentación de contenido en Adobe Target mediante el uso de Atributos del cliente en el servicio principal Perfiles y audiencias de Adobe.
+title: Atributos del cliente en Adobe Target
 subtopic: Primeros pasos
-title: Atributos del cliente
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -131,7 +128,7 @@ Si está utilizando el servicio de Experience Cloud ID, necesita establecer un I
 
 Para obtener más información sobre el uso de atributos del cliente en [!DNL Target], consulte los siguientes recursos:
 
-* [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud Product Documentation*
+* [Cree un origen de atributos de cliente y cargue el archivo](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) de datos en la documentación del producto de *Experience Cloud*
 * [Atributos del cliente: cuanto más sabe, mejor se relaciona](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) en el *blog Digital Marketing*
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
