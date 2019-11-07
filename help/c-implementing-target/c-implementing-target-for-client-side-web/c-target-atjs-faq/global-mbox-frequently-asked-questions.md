@@ -1,14 +1,11 @@
 ---
-description: Lista de las preguntas más frecuentes (FAQ) sobre los mboxes globales.
 keywords: solución de problemas;preguntas frecuentes;FAQ;global;mbox global
-seo-description: Lista de las preguntas más frecuentes (FAQ) sobre los mboxes globales.
-seo-title: Preguntas más frecuentes sobre mbox global
-solution: Target
+description: Lista de las preguntas más frecuentes (FAQ) sobre los mboxes globales.
 title: Preguntas más frecuentes sobre mbox global
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
