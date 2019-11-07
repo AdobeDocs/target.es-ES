@@ -1,14 +1,11 @@
 ---
-description: Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
 keywords: host;hosts;grupo de hosts;entorno;solución de problemas;prácticas recomendadas
-seo-description: Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
-seo-title: Hosts
-solution: Target
+description: Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -46,7 +43,7 @@ Información sobre las condiciones que hay que cumplir para que [!DNL Target] re
 Para reconocer un host es necesario cumplir las condiciones siguientes:
 
 * Debe existir al menos un mbox en el host.
-* Una página del host debe tener  lo siguiente:
+* Una página del host debe tener   lo siguiente:
 
    * Una referencia precisa a [!DNL mbox.js].
    * Un mbox o una llamada de mbox global generada automáticamente
@@ -87,11 +84,11 @@ Para ordenar la lista [!UICONTROL Hosts], haga clic en cualquier encabezado de c
 
 Para buscar la lista [!UICONTROL Hosts], escriba un término de búsqueda en el cuadro Buscar.
 
-## Seleccionar varios hosts  {#section_EF3B458475184B7EA997C3559714397C}
+## Seleccionar varios hosts   {#section_EF3B458475184B7EA997C3559714397C}
 
 Para seleccionar varios hosts, marque las casillas de verificación que hay junto a la columna [!UICONTROL Nombre] de los hosts que quiera. Luego puede mover o eliminar todos los hosts seleccionados.
 
-## Crear un entorno  {#section_32097D0993724DF3A202D164D3F18674}
+## Crear un entorno   {#section_32097D0993724DF3A202D164D3F18674}
 
 1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Entornos].**
 1. Haga clic en **[!UICONTROL Crear entorno]**.
