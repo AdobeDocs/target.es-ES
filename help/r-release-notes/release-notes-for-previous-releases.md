@@ -1,14 +1,11 @@
 ---
-description: Notas de la versión de versiones anteriores de Target, incluidas las notas de la versión Target Standard/Premium, la plataforma Target y las bibliotecas Javascript de Target (at.js y mbox.js). Las notas de la versión se presentan en orden descendente por mes y año de publicación.
 keywords: Notas de la versión
-seo-description: Notas de la versión de versiones anteriores de Target, incluidas las notas de la versión Target Standard/Premium, la plataforma Target y las bibliotecas Javascript de Target (at.js y mbox.js). Las notas de la versión se presentan en orden descendente por mes y año de publicación.
-seo-title: Notas de la versión para versiones anteriores
-solution: Target
+description: Notas de la versión de versiones anteriores de Target, incluidas las notas de la versión Target Standard/Premium, la plataforma Target y las bibliotecas Javascript de Target (at.js y mbox.js). Las notas de la versión se presentan en orden descendente por mes y año de publicación.
 title: Notas de la versión para versiones anteriores
 topic: Las actividades de
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
