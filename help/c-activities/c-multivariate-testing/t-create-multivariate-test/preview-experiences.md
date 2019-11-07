@@ -1,13 +1,10 @@
 ---
 description: Dado que una prueba multivariable compara varias experiencias en una página, resulta útil previsualizar la página con cada experiencia.
-seo-description: Dado que una prueba multivariable compara varias experiencias en una página, resulta útil previsualizar la página con cada experiencia.
-seo-title: Previsualizar experiencias para una prueba multivariable
-solution: Target
 title: Previsualizar experiencias para una prueba multivariable
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
