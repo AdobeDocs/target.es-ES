@@ -1,16 +1,10 @@
 ---
-description: Los criterios son reglas que determinan qué productos se recomiendan en función de un conjunto predeterminado de comportamientos del visitante.
-keywords: recomendaciones;actividad de recomendaciones;criterios;algoritmo;clave de recomendación;clave personalizada;sector vertical;minorista;comercio electrónico;generación de posibles clientes;b2b;servicios financieros;medios;publicación
-seo-description: Los criterios de Recomendaciones de Adobe Target son reglas que determinan qué productos recomendar en función de un conjunto predeterminado de comportamientos de visitantes.
-seo-title: Criterios en Recomendaciones de Adobe Target
-solution: Target
-title: Criterios
-title-outputclass: premium
-topic: Premium
+keywords: recomendaciones;actividad de Recomendaciones;criterios;algoritmo;clave de recomendación;clave personalizada;sector vertical;minorista;comercio electrónico;generación de posibles clientes;b2b;servicios financieros;medios;publicación
+description: Los criterios de Recomendaciones de Adobe Target son reglas que determinan qué productos recomendar en función de un conjunto predeterminado de comportamientos de visitantes.
+title: Criterios en Recomendaciones de Adobe Target
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
-badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
