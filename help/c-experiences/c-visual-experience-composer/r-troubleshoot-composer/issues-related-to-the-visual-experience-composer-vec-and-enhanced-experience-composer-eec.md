@@ -1,13 +1,10 @@
 ---
-description: Muestra los problemas que pueden producirse en determinadas circunstancias en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC).
 keywords: Segmentación;compositor de experiencias visuales;lista de direcciones permitidas;compositor de experiencias visuales mejorado;vec;solución de problemas del compositor de experiencias visuales;solución de problemas;eec;compositor de experiencias mejorado;tls;tls 1.2
-seo-description: Muestra los problemas que pueden producirse en determinadas circunstancias en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC).
-seo-title: Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado
-solution: Target
+description: Muestra los problemas que pueden producirse en determinadas circunstancias en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC).
 title: Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -63,11 +60,11 @@ Recomendamos que todos los usuarios de VEC actualicen a la [versión más recien
 
 ## Al cambiar un elemento de la página, se cambian varios elementos. (VEC y EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
-Si se usa el mismo ID de elemento DOM en varios elementos de la página, al cambiar uno de estos elementos se cambiarán todos los elementos con dicho ID. Para evitar este error, los ID solo han de usarse una vez por página. Esta es una práctica recomendada estándar para HTML. Para obtener más información, consulte [Escenarios de modificación de página](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Si se usa el mismo ID de elemento DOM en varios elementos de la página, al cambiar uno de estos elementos se cambiarán todos los elementos con dicho ID. Para evitar este error, los ID solo han de usarse una vez por página. Esta es una práctica recomendada estándar para HTML. Para obtener más información, consulte  [Escenarios de modificación de página](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## No puedo modificar experiencias desde un sitio con eliminación de iFrames. (VEC y EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Este problema se puede solucionar habilitando el Compositor de experiencias mejorado. Haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Preferencias]** y seleccione la casilla que habilita el Compositor de experiencias mejorado. El Compositor de experiencias mejorado utiliza un proxy administrado por Adobe para cargar la página para editarla. Esto permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha añadido código de Adobe Target. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del Compositor de experiencias visuales. En este caso, puede desactivar esta opción para cargar el Compositor de experiencias visuales a través de un iFrame. []
+Este problema se puede solucionar habilitando el Compositor de experiencias mejorado. Haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Preferencias]** y seleccione la casilla que habilita el Compositor de experiencias mejorado. El Compositor de experiencias mejorado utiliza un proxy administrado por Adobe para cargar la página para editarla. Esto permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha añadido código de Adobe Target. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del Compositor de experiencias visuales. En este caso, puede desactivar esta opción para cargar el Compositor de experiencias visuales a través de un iFrame.  []
 
 >[!NOTE]
 >
