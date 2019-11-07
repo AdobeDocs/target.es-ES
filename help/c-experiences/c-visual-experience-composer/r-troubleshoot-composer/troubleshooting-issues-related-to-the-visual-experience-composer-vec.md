@@ -1,13 +1,10 @@
 ---
-description: En ocasiones pueden producirse problemas de visualización en el compositor de experiencias visuales (VEC), según determinadas condiciones.
 keywords: Segmentación;compositor de experiencias visuales;lista;direcciones permitidas;lista de direcciones permitidas;vec;resolución de problemas del compositor de experiencias visuales;resolución de problemas;tls;tls 1.2
-seo-description: En ocasiones pueden producirse problemas de visualización en el compositor de experiencias visuales (VEC), según determinadas condiciones.
-seo-title: Resolución de problemas relacionados con el Compositor de experiencias visuales
-solution: Target
+description: En ocasiones pueden producirse problemas de visualización en el compositor de experiencias visuales (VEC), según determinadas condiciones.
 title: Resolución de problemas relacionados con el Compositor de experiencias visuales
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -108,7 +105,7 @@ Para la extensión del encabezado de respuesta de modificación (Firefox), ya qu
 
 Después de configurar una extensión, abra Target. Sus páginas ahora deberían cargarse en el Compositor de experiencias visuales, incluso si está deshabilitado el Compositor de experiencias visuales.
 
-## Mi página no se muestra en el VEC (solo VEC)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Mi página no se muestra en el VEC (solo VEC)   {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * El navegador no es compatible.
 * El navegador bloquea una página no segura en un sitio seguro.
