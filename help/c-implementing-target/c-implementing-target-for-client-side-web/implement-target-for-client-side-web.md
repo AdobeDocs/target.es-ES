@@ -1,13 +1,10 @@
 ---
-description: Información sobre la implementación de Target para la web del lado del cliente.
-seo-description: Información sobre la implementación de Adobe Target para la web del lado del cliente.
-seo-title: Implementación de Adobe Target para la web del lado del cliente
-solution: Target
-title: 'Información general: implementación de Target para la web del lado del cliente'
+description: Información sobre la implementación de Adobe Target para la web del lado del cliente.
+title: Implementación de Adobe Target para la web del lado del cliente
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
