@@ -1,14 +1,11 @@
 ---
-description: Información acerca de los distintos modos de editar una actividad existente, incluido el guardado de una actividad en forma de borrador.
 keywords: actividades;actividad;tipos de actividad;editar actividad;editar;borrador
-seo-description: Información acerca de los distintos modos de editar una actividad existente, incluido el guardado de una actividad en forma de borrador.
-seo-title: Editar una actividad o guardar como borrador
-solution: Target
+description: Información acerca de los distintos modos de editar una actividad existente, incluido el guardado de una actividad en forma de borrador.
 title: Editar una actividad o guardar como borrador
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -47,22 +44,22 @@ Target ofrece en su interfaz varios puntos donde se pueden editar las actividade
 
    * **Editar experiencias:** lo lleva directamente a la página [!UICONTROL Experiencias] (el primer paso en el flujo de trabajo guiado). Realice los cambios que desee y, a continuación, utilice el botón dividido (explicado anteriormente) para guardar la actividad.
 
-      * Haga clic en **[!UICONTROL Guardar y cerrar]para guardar los cambios y mostrar la página Información general de la actividad.**
+      * Haga clic en **[!UICONTROL Guardar y cerrar]** para guardar los cambios y mostrar la página Información general de la actividad.
       * Haga clic en **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
    * **Editar segmentación:** lo lleva directamente a la página [!UICONTROL Segmentación] (el primer paso en el flujo de trabajo guiado). Realice los cambios que desee y, a continuación, utilice el botón dividido (explicado anteriormente) para guardar la actividad.
 
-      * Haga clic en **[!UICONTROL Guardar y cerrar]para guardar los cambios y mostrar la página Información general de la actividad.**
+      * Haga clic en **[!UICONTROL Guardar y cerrar]** para guardar los cambios y mostrar la página Información general de la actividad.
       * Haga clic en **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
    * **Editar objetivos y configuración:** lo lleva directamente a la página [!UICONTROL Objetivos y configuración] (el último paso del flujo de trabajo guiado). Realice los cambios que desee y, a continuación, utilice el botón dividido (explicado anteriormente) para guardar la actividad.
 
-      * Haga clic en **[!UICONTROL Guardar y cerrar]para guardar los cambios y mostrar la página Información general de la actividad.**
+      * Haga clic en **[!UICONTROL Guardar y cerrar]** para guardar los cambios y mostrar la página Información general de la actividad.
       * Haga clic en **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
 
 
 
-## Trabajar con actividades heredadas creadas en Recommendations Classic {#classic}
+## Trabaje con actividades heredadas creadas en Recommendations Classic {#classic}
 
-La lista [!UICONTROL Actividades] muestra las actividades creadas en varias fuentes, incluida [!DNL Recommendations Classic]. Las siguientes acciones están disponibles al trabajar con actividades heredadas creadas en [!DNL Recommendations Classic]:
+La lista [!UICONTROL Actividades] muestra actividades creadas en varias fuentes, que incluye [!DNL Recommendations Classic]. Las siguientes acciones están disponibles cuando se trabaja con actividades heredadas creadas en [!DNL Recommendations Classic]:
 
 * [!UICONTROL Activar]
 * [!UICONTROL Desactivar]
@@ -70,7 +67,7 @@ La lista [!UICONTROL Actividades] muestra las actividades creadas en varias fuen
 * [!UICONTROL Copiar]
 * [!UICONTROL Eliminar]
 
-No puede editar una [!DNL Recommendations] actividad directamente. Si desea editar la actividad, debe crear una copia de la actividad mediante [!DNL Target Premium] y, a continuación, guardar la actividad recién creada. Esta actividad recién creada se puede editar según sea necesario.
+No puede editar una actividad de [!DNL Recommendations] directamente. Si desea editar la actividad, debe crear una copia de la misma con [!DNL Target Premium] y luego guardar la actividad recién creada. Esta actividad recién creada se puede editar según se necesite.
 
 ## Guardar una actividad como borrador {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
@@ -83,9 +80,9 @@ Puede guardar una actividad en modo borrador si se ha comenzado su configuració
 
    ![Guardar borrador](/help/c-activities/assets/save_draft.png)
 
-   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]para avanzar al paso deseado..**
+   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]** para avanzar al paso deseado..
    * **Guardar borrador y cerrar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar y cerrar]** para guardar los cambios y mostrar la página [!UICONTROL Información general] de la actividad.
-   * **Guardar borrador:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar borrador]para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios.**
+   * **Guardar borrador:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar borrador]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios.
 
 ## Copiar/editar una actividad al usar espacios de trabajo {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -97,7 +94,7 @@ Un espacio de trabajo permite que una organización asigne un conjunto de usuari
 
 Si forma parte de una organización multinacional, puede tener un espacio de trabajo para sus páginas web, propiedades o sitios europeos y otro para sus páginas web, propiedades o sitios estadounidenses. Si forma parte de una organización de varias marcas, puede contar con un espacio de trabajo independiente para cada una.
 
-Para obtener más información sobre los espacios de trabajo y la funcionalidad de los Permisos de usuario de Enterprise, consulte [Permisos de usuario de Enterprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
+Para obtener más información sobre los espacios de trabajo y la funcionalidad de los Permisos de usuario de Enterprise, consulte  [Permisos de usuario de Enterprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
 Si tiene Permisos de usuario de Enterprise habilitados en su entorno, puede copiar actividades en el mismo espacio de trabajo o en otro espacio de trabajo. No puede trasladar actualmente una actividad de un espacio de trabajo a otro. Para copiar una actividad en otro espacio de trabajo, desde la página [!UICONTROL Actividades], pase el cursor sobre la actividad que desea copiar, haga clic en el icono [!UICONTROL Copiar] y, a continuación, seleccione el espacio de trabajo deseado de la lista desplegable.
 
