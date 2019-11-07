@@ -1,15 +1,12 @@
 ---
-description: Los servicios de formación de Adobe ofrecen clases y certificaciones para productos y soluciones de Adobe, incluido Adobe Target.
 keywords: formación;certificación;destino;cursos en línea;cursos;clase;clases
-seo-description: Los servicios de formación de Adobe ofrecen clases y certificaciones para productos y soluciones de Adobe, incluido Adobe Target.
-seo-title: Formación y certificación para productos y soluciones de Adobe, incluido Adobe Target
-solution: Target
+description: Los servicios de formación de Adobe ofrecen clases y certificaciones para productos y soluciones de Adobe, incluido Adobe Target.
+title: Formación y certificación para productos y soluciones de Adobe, incluido Adobe Target
 subtopic: Primeros pasos
-title: Formación y certificación para Adobe Target
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
