@@ -1,14 +1,11 @@
 ---
-description: El resumen de la prueba ofrece información general sobre la prueba multivariable de manera gráfica.
 keywords: Información general y referencia
-seo-description: El resumen de la prueba ofrece información general sobre la prueba multivariable de manera gráfica.
-seo-title: Resumen de la prueba
-solution: Target
+description: El resumen de la prueba ofrece información general sobre la prueba multivariable de manera gráfica.
 title: Resumen de la prueba
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
