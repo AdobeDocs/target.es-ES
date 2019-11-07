@@ -1,13 +1,10 @@
 ---
-description: La dirección URL de actividad determina la página que se usa en la prueba multivariada (MVT) y que se abre cuando se diseña la prueba en Target.
 keywords: Segmentación
-seo-description: La dirección URL de actividad determina la página que se usa en la prueba multivariada (MVT) y que se abre cuando se diseña la prueba en Adobe Target.
-seo-title: Dirección URL de actividad
-solution: Target
+description: La dirección URL de actividad determina la página que se usa en la prueba multivariada (MVT) y que se abre cuando se diseña la prueba en Adobe Target.
 title: Dirección URL de actividad
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
