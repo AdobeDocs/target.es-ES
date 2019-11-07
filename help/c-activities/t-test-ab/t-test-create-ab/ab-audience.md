@@ -1,14 +1,11 @@
 ---
-description: La audiencia determina qué visitantes del sitio participan en su actividad.
 keywords: audiencia;seleccionar audiencia;elegir audiencia;selectores
-seo-description: La audiencia determina qué visitantes del sitio participan en su actividad.
-seo-title: Seleccionar la audiencia
-solution: Target
+description: La audiencia determina qué visitantes del sitio participan en su actividad.
 title: Seleccionar la audiencia
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -43,7 +40,7 @@ Puede especificar el porcentaje de visitantes correspondientes para incluir en l
 
 ![Porcentaje de audiencia](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-También puede elegir que Target [asigne el tráfico automáticamente](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+También puede elegir que Target  [asigne el tráfico automáticamente](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Vídeos de formación
 
