@@ -1,15 +1,9 @@
 ---
-description: Información sobre cómo trabajar con un campo de varios valores en Recomendaciones de Adobe Target mediante operadores especiales de varios valores.
 keywords: varios valores;atributos;recomendaciones;varios valores;varios valores
-seo-description: Información sobre cómo trabajar con un campo de varios valores en Recomendaciones de Adobe Target mediante operadores especiales de varios valores.
-seo-title: Uso de atributos de varios valores en Recomendaciones de Adobe Target
-solution: Target
-title: Trabajar con atributos de varios valores
-title-outputclass: premium
-topic: Premium
-badge: premium
+description: Información sobre cómo trabajar con un campo de varios valores en Recomendaciones de Adobe Target mediante operadores especiales de varios valores.
+title: Uso de atributos de varios valores en Recomendaciones de Adobe Target
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
