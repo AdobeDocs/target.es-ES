@@ -1,15 +1,12 @@
 ---
-description: La métrica de participación Puntuación de captación calcula una puntuación acumulada basada en el valor asignado a páginas visitadas del sitio, desde el punto en el que el visitante ve por primera vez el primer mbox de visualización de la campaña.
 keywords: puntuación de captación;puntuación
-seo-description: La métrica de participación Puntuación de captación calcula una puntuación acumulada basada en el valor asignado a páginas visitadas del sitio, desde el punto en el que el visitante ve por primera vez el primer mbox de visualización de la campaña.
-seo-title: Puntuación de captación
-solution: Target
-subtopic: Primeros pasos
+description: La métrica de participación Puntuación de captación calcula una puntuación acumulada basada en el valor asignado a páginas visitadas del sitio, desde el punto en el que el visitante ve por primera vez el primer mbox de visualización de la campaña.
 title: Puntuación de captación
+subtopic: Primeros pasos
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
