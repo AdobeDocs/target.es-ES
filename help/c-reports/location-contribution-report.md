@@ -1,14 +1,11 @@
 ---
-description: El informe Contribución de ubicación muestra el rendimiento de cada elemento y cada oferta.
 keywords: mvt;prueba multivariable;informe de contribución de ubicación
-seo-description: El informe Contribución de ubicación muestra el rendimiento de cada elemento y cada oferta.
-seo-title: Informe Contribución de ubicación (MVT)
-solution: Target
+description: El informe Contribución de ubicación muestra el rendimiento de cada elemento y cada oferta.
 title: Informe Contribución de ubicación (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
