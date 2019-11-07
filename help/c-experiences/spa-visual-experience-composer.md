@@ -1,14 +1,11 @@
 ---
-description: El Compositor de experiencias visuales (VEC) para aplicaciones de una sola página (SPA) permite que los comerciantes creen pruebas y personalicen el contenido de las SPA de forma independiente sin tener que esperar desarrollo continuo. El VEC puede usarse para crear actividades en los marcos más populares, como React y Angular.
 keywords: vec spa;react;angular;react.js;compositor de experiencias visuales para spa;opciones de compositor de experiencias visuales para spa;aplicaciones de una sola página;aplicación de una sola página;spa;opciones de experiencias móviles;vista de target
-seo-description: El Compositor de experiencias visuales (VEC) para aplicaciones de una sola página (SPA) en Adobe Target permite que los expertos en marketing creen pruebas y personalicen el contenido de las SPA de forma independiente sin tener que depender del desarrollo continuo. El VEC puede usarse para crear actividades en los marcos más populares, como React y Angular.
-seo-title: Compositor de experiencias visuales para aplicaciones de una sola página (SPA)
-solution: Target
+description: El Compositor de experiencias visuales (VEC) para aplicaciones de una sola página (SPA) en Adobe Target permite que los expertos en marketing creen pruebas y personalicen el contenido de las SPA de forma independiente sin tener que depender del desarrollo continuo. El VEC puede usarse para crear actividades en los marcos más populares, como React y Angular.
 title: Compositor de experiencias visuales para aplicaciones de una sola página (SPA)
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -27,13 +24,13 @@ El VEC de Adobe Target para SPA aprovecha un nuevo concepto llamado Vistas: un g
 
 Para explicar más sobre las vistas, vamos a navegar por este hipotético sitio de comercio electrónico en línea, implementado en React, y a explorar algunas de las vistas de ejemplo. Haga clic en los vínculos siguientes para abrir el sitio en una nueva pestaña del explorador.
 
-**Link:[Home Site](https://target.enablementadobe.com/react/demo/#/)**
+**Vínculo: Sitio[principal](https://target.enablementadobe.com/react/demo/#/)**
 
 ![página de inicio](/help/c-experiences/assets/home.png)
 
 Si vamos a la página de inicio, podemos ver inmediatamente una imagen promocional de Pascua, así como los productos más recientes que venden en el sitio. En este caso, una vista puede definirse como toda la página de inicio. Es práctico tenerlo en cuenta porque se ampliará en la sección Implementación de vistas de Adobe Target, que se describe a continuación.
 
-**Link:[Product Site](https://target.enablementadobe.com/react/demo/#/products)**
+**Vínculo: Sitio[del producto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sitio del producto](/help/c-experiences/assets/product-site.png)
 
@@ -359,14 +356,14 @@ Si desea utilizar actividades A/B de Segmentación automática puede mover todas
 | [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Sí |
 | [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Sí |
 
-## Funciones compatibles. {#supported-features}
+## Funciones compatibles.  {#supported-features}
 
 | Función | Compatible? |
 | --- | --- |
 | [Workspaces y propiedades](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Sí |
 | [Vínculos de control de calidad](/help/c-activities/c-activity-qa/activity-qa.md) | Sí |
 | [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md) | No |
-| [Código personalizado  ](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Sí |
+| [Código personalizado](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Sí |
 | [Opciones de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Todas |
 | [Seguimiento de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Sí |
 | [Entrega de varias actividades](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | Sí |
@@ -405,7 +402,7 @@ La siguiente ilustración muestra el flujo de Target: carga de página en at.js 
 **Recorrido del usuario número 1**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x*  makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * En el paso 6, Target Edge devuelve las acciones para la vista Inicio y Productos para que se almacenen en la caché del explorador.
 
 **Resultado**: El usuario ve el color de fondo verde en la vista Inicio. Cuando el usuario navega a [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, el color de fondo azul del botón se ve porque la acción se almacena en la caché del explorador en la vista Productos.
@@ -415,7 +412,7 @@ Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/pr
 **Recorrido del usuario número 2**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x*  makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Debido a que no hay actividades cualificadas, no hay acciones ni vistas que almacenar en caché para at.js 2.*x* para activarse.
 
