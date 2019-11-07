@@ -1,14 +1,11 @@
 ---
-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el uso de ofertas de redireccionamiento al usar Analytics como fuente de informes para Target (A4T).
 keywords: faq;preguntas más frecuentes;analytics para target;a4T;redireccionamiento;oferta de redireccionamiento;adobe-mc-sdid;adobe_mc_ref
-seo-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el uso de ofertas de redireccionamiento al usar Analytics como fuente de informes para Target (A4T).
-seo-title: 'Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T'
-solution: Target
+description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el uso de ofertas de redireccionamiento al usar Analytics como fuente de informes para Target (A4T).
 title: 'Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -41,17 +38,17 @@ Las tres bibliotecas deben incluirse en la página con la oferta de redirecciona
 
 Se esperan algunas discrepancias en los datos. Para obtener más información, consulte [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Al usar la versión 1.6.3 o posterior de at.js, esto no supone ningún problema. Esta condición de carrera solo afecta a los clientes que utilizan versiones anteriores. El equipo de Target mantiene dos versiones de at.js: la versión actual y la segunda versión más reciente. Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+Esto no supone un problema en la versión 1.6.3 de at.js o cualquiera de las posteriores. Esta condición de carrera solo afecta a los clientes que utilizan versiones más antiguas. El equipo de Target mantiene dos versiones de at.js: la actual y la penúltima. Actualice at.js cuando sea posible para garantizar que dispone de una [versión compatible](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-Si utiliza una versión anterior no compatible de at.js, existe la posibilidad de que se produzca una condición de carrera que pueda provocar que la llamada de Analytics se active antes de que la redirección se ejecute en la primera página. Esto puede provocar que se cuenten tanto las vistas de página de la página original como las de la página de redirección. Como consecuencia, se cuenta una vista de página adicional en la primera página, cuando en realidad el visitante nunca “vio” esa primera página.
+Si utiliza una versión anterior y no compatible de at.js, existe la posibilidad de que se produzca una condición de carrera que pueda provocar que la llamada de Analytics se active antes de que se ejecute la redirección en la primera página. Esto puede provocar que se cuenten tanto las vistas de página de la página original como las de la página de redirección. Como consecuencia, se cuenta una vista de página adicional en la primera página, cuando en realidad el visitante nunca “vio” esa primera página.
 
 Para aumentar la velocidad de redirección de la página, se recomienda utilizar el compositor basado en formulario para crear una actividad de redirección. Esto depende del lugar de la página en que se ejecuta el código. También se recomienda crear una oferta de redireccionamiento para cada experiencia, incluso para la experiencia predeterminada, en la que la redirección devuelva la página original. Así se garantiza que si se produce un error de recuento, este se produzca en todas las experiencias, de modo que los informes y los análisis sigan siendo válidos para la prueba.
 
-Una de las razones por las que puede querer utilizar ofertas de redireccionamiento para todas las experiencias de la actividad, incluida la experiencia (de control) predeterminada, es poner las mismas condiciones en todas las experiencias. Por ejemplo, si la experiencia predeterminada no tiene una oferta de redireccionamiento pero las demás experiencias tienen ofertas de redireccionamiento, la velocidad de la experiencia sin la oferta de redireccionamiento tiene una ventaja inherente. Las ofertas de redireccionamiento solo se recomiendan para escenarios temporales, como la prueba. No se recomiendan las ofertas de redireccionamiento para situaciones permanentes, como la personalización. Después de determinar el "ganador", debe eliminar el redireccionamiento para mejorar el rendimiento de carga de página.
+Una ventaja de utilizar ofertas de redireccionamiento para todas las experiencias de la actividad, incluida la experiencia predeterminada (control), es que puede reunir las mismas condiciones en todas las experiencias. Por ejemplo, si la experiencia predeterminada no tiene una oferta de redireccionamiento y las demás experiencias sí, la velocidad de la experiencia sin la oferta de redireccionamiento tiene una ventaja inherente. Solo se recomiendan las ofertas de redireccionamiento para situaciones temporales, como las pruebas. No se recomiendan ofertas de redireccionamiento para situaciones permanentes, como la personalización. Después de determinar el “ganador”, debe quitar la redirección para mejorar el rendimiento de carga de página.
 
-For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+Para obtener más información sobre este problema, consulte la información “Ofertas de redireccionamiento” en [Problemas conocidos](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## ¿Puedo utilizar ofertas de redireccionamiento con A4T si empleo la biblioteca mbox.js de JavaScript?{#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
@@ -74,7 +71,7 @@ Los siguientes parámetros de cadena de consulta se asocian con las ofertas de r
 
 Estos parámetros se agregan automáticamente a las direcciones URL de redireccionamiento al utilizar las ofertas de redireccionamiento integradas en el Compositor de experiencias visuales y el Compositor de experiencias basado en formularios cuando se implementa en la página el servicio Visitor Id. Si está utilizando código personalizado de redireccionamiento en VEC o el Compositor de experiencias basado en formularios, debe asegurarse de pasar estos parámetros junto al código personalizado.
 
-## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Debe trabajar junto a su equipo de TI para que los parámetros (`adobe_mc_sdid` y `adobe_mc_ref`) resulten admitidos.
 
