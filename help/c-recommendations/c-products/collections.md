@@ -1,16 +1,10 @@
 ---
-description: Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación.
 keywords: colección;Segmentación
-seo-description: Una colección es un conjunto de productos o artículos de Adobe Target que cumplen los requisitos para recibir una recomendación.
-seo-title: Colecciones en Adobe Target
-solution: Target
-title: Colecciones
-title-outputclass: premium
-topic: Premium
+description: Una colección es un conjunto de productos o artículos en Adobe Target que cumplen los criterios para ser mostrados como recomendación.
+title: Colecciones en Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
-badge: premium
 translation-type: tm+mt
-source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +17,7 @@ Normalmente, una colección es un conjunto de artículos similares o relacionado
 
 Utilice las colecciones para organizar sus productos en bloques lógicos. Por ejemplo, si algunos artículos están disponibles en una región pero no en otra, puede crear una colección que excluya los artículos que no están disponibles en la región del visitante. También puede usar las colecciones para organizar los artículos por temporadas, o cualquier otro parámetro de organización que sea útil para su negocio.
 
-The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. Con las colecciones, tendrá la garantía de que solo se mostrarán aquellos productos que tenga sentido mostrar en una ubicación.
+Las [recomendaciones de copia de seguridad](/help/c-recommendations/c-algorithms/backup-recs.md) generadas para cada criterio dentro de la recomendación también utilizan esta colección. Por esta razón, en la recomendación de copia de seguridad solo se incluyen los artículos de la recomendación. Con las colecciones, tendrá la garantía de que solo se mostrarán aquellos productos que tenga sentido mostrar en una ubicación.
 
 Las colecciones se vuelven a generar o se actualizan cada vez que se ejecuta un criterio.
 
@@ -65,9 +59,9 @@ Puede crear una colección para organizar los productos que quiere mostrar en su
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Creación de una colección mediante Búsqueda avanzada
+## Crear una colección utilizando Búsqueda avanzada
 
-You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+También puede crear colecciones utilizando Búsqueda avanzada en la página [Búsqueda en el catálogo](/help/c-recommendations/c-products/catalog-search.md) ([!UICONTROL Recommendations] &gt; [!UICONTROL Búsqueda en el catálogo] &gt; [!UICONTROL Búsqueda avanzada]).
 
 ![Guardar como](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -77,11 +71,11 @@ Después de crear una búsqueda utilizando “id &gt; contiene”, por ejemplo, 
 >
 >La función Búsqueda avanzada diferencia entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que diferencia entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear colecciones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea un catálogo con la intención de obtener productos que contengan “vacaciones”, solo se devolverán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
 
-## Vídeo de capacitación: Creación de colecciones y exclusiones en Recomendaciones (7:05)
+## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05)
 
-Este vídeo contiene la siguiente información:
+Este vídeo contiene la información siguiente:
 
 * Creación de una colección
-* Crear una exclusión
+* Creación de una exclusión
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?captions=spa)
