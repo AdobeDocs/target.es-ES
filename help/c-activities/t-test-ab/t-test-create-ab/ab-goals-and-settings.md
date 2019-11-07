@@ -1,13 +1,11 @@
 ---
-description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 keywords: configuración de actividad;objetivos y configuración de A/B;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;métricas adicionales;configuración avanzada;objetivo principal;objetivo;prioridad;duración;solución de informes;audiencias para informes;Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
-seo-description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
-seo-title: Configuración y objetivos
+description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 title: Configuración y objetivos
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -28,7 +26,7 @@ La configuración disponible depende de si usa Target o [Analytics](/help/c-inte
 | Prioridad | La interfaz de usuario y las opciones de Prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999.<br>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<br>Si esta opción no está habilitada en Configuración (la predeterminada), indique un nivel de prioridad: bajo, medio o alto. <br>Para habilitar prioridades específicas, haga clic en Configuración y luego coloque la opción Habilitar prioridades específicas en la posición “Activado”. <br>Si esta opción está habilitada, indique un valor entre 0 y 999: 0 = bajo y 999 = alto. <br>En las actividades creadas en versiones anteriores de Target Standard/Premium, el nivel bajo de prioridad se convierte en 0; el medio, en 5; y el alto, en 10. Si lo necesita, puede ajustar estos valores.<br>Nota: Para deshabilitar esta opción después de usar las prioridades específicas, hay que volver a fijar todas las prioridades en 0, 5 y 10. |
 | Duración | La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo. |
 
-## Configuración de informes. {#section_13119392051044FBA6387D9B3B1C43CF}
+## Configuración de informes.  {#section_13119392051044FBA6387D9B3B1C43CF}
 
 | Configuración | Descripción |
 |--- |--- |
