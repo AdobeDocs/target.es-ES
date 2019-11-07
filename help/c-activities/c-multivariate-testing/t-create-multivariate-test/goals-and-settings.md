@@ -1,14 +1,11 @@
 ---
-description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 keywords: configuración de actividad;objetivos y configuración de mvt;objetivos y configuración de multivariable;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;métricas adicionales;configuración avanzada;objetivo principal;objetivo;prioridad;duración;solución de informes;metas;audiencias para informes;Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
-seo-description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
-seo-title: Configuración y objetivos
-solution: Target
+description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 title: Configuración y objetivos
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -58,7 +55,7 @@ En las actividades creadas en versiones anteriores de Target Standard/Premium, e
 
 La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
-## Configuración de informes. {#section_13119392051044FBA6387D9B3B1C43CF}
+## Configuración de informes.  {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Las configuraciones disponibles son las siguientes:
 
