@@ -1,14 +1,10 @@
 ---
-description: Las ventanillas móviles ayudan a obtener una vista previa de cómo aparecen las actividades en pantallas de diversos tamaños.
 keywords: capacidad de respuesta;ventanillas móviles;ventanilla;dispositivos;ejemplo móvil;iPhone
-seo-description: Las ventanillas móviles ayudan a obtener una vista previa de cómo aparecen las actividades en pantallas de diversos tamaños.
-seo-title: Ventanillas móviles para las experiencias adaptables
-solution: Target
+description: Las ventanillas móviles ayudan a obtener una vista previa de cómo aparecen las actividades en pantallas de diversos tamaños.
 title: Ventanillas móviles para las experiencias adaptables
-topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
