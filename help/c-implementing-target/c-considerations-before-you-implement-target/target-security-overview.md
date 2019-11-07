@@ -1,13 +1,10 @@
 ---
-description: Información sobre los exhaustivos métodos y procedimientos de seguridad implementados por Adobe para reforzar la seguridad de sus datos y de la experiencia en Adobe Target.
 keywords: seguridad;prácticas de seguridad
-seo-description: Información sobre los exhaustivos métodos y procedimientos de seguridad implementados por Adobe para reforzar la seguridad de sus datos y de la experiencia en Adobe Target.
-seo-title: Información general sobre la seguridad de Target
-solution: Target
+description: Información sobre los exhaustivos métodos y procedimientos de seguridad implementados por Adobe para reforzar la seguridad de sus datos y de la experiencia en Adobe Target.
 title: Información general sobre la seguridad de Target
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
