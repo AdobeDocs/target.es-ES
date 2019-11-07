@@ -1,14 +1,11 @@
 ---
-description: Información sobre integraciones comunes con Target y su estado de compatibilidad con at.js.
 keywords: integración de at.js;integraciones compatibles;integraciones incompatibles;integraciones de terceros
-seo-description: Información sobre integraciones comunes con Target y su estado de compatibilidad con at.js.
-seo-title: Integraciones de at.js
-solution: Target
+description: Información sobre integraciones comunes con Target y su estado de compatibilidad con at.js.
 title: Integraciones de at.js
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
