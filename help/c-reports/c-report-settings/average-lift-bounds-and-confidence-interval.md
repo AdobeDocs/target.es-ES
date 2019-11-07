@@ -1,14 +1,10 @@
 ---
-description: Los informes incluyen varios puntos de datos y representaciones de visualización que lo ayudan a comprender los límites de la elevación y el nivel de confianza asociado a su actividad. Esto le ayuda a determinar un ganador con mayor precisión.
 keywords: Target;informes;configuración de informes;entorno;alza;límite de alza;variación;confianza;control
-seo-description: Los informes incluyen varios puntos de datos y representaciones de visualización que lo ayudan a comprender los límites de la elevación y el nivel de confianza asociado a su actividad. Esto le ayuda a determinar un ganador con mayor precisión.
-seo-title: Alza promedio, límites de alza e intervalo de confianza
-solution: Target
+description: Los informes incluyen varios puntos de datos y representaciones de visualización que lo ayudan a comprender los límites de la elevación y el nivel de confianza asociado a su actividad. Esto le ayuda a determinar un ganador con mayor precisión.
 title: Alza promedio, límites de alza e intervalo de confianza
-topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -40,7 +36,7 @@ En la ilustración siguiente, se muestra información sobre los límites de alza
 
 ![Informe de nivel promedio de alza y de confianza](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-## ¿Cómo se calculan los límites de aumento? {#section_1D360781D972483693680BE0F07AEAD1}
+## ¿Cómo se calculan los límites de aumento?  {#section_1D360781D972483693680BE0F07AEAD1}
 
 Los límites de elevación representan los intervalos de confianza del 95 % del aumento que tiene la experiencia u oferta específica sobre la experiencia u oferta de control. En términos generales, significa que el aumento real tiene aproximadamente un 95 % de posibilidades de estar entre estos límites.
 
