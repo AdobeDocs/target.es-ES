@@ -1,14 +1,10 @@
 ---
-description: Si utiliza una plantilla de página para aportar estructura a sus páginas o si las páginas contienen elementos similares, esta característica permite probar variaciones en elementos de página de estructura similar.
 keywords: probar plantillas;plantilla;misma experiencia en páginas similares;prueba de plantilla
-seo-description: Si utiliza una plantilla de página para aportar estructura a sus páginas o si las páginas contienen elementos similares, esta característica permite probar variaciones en elementos de página de estructura similar.
-seo-title: Incluir la misma experiencia en páginas similares
-solution: Target
+description: Si utiliza una plantilla de página para aportar estructura a sus páginas o si las páginas contienen elementos similares, esta característica permite probar variaciones en elementos de página de estructura similar.
 title: Incluir la misma experiencia en páginas similares
-topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
