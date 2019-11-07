@@ -1,15 +1,12 @@
 ---
-description: De forma predeterminada, los perfiles de los visitantes se almacenan durante 14 días. Esta duración del perfil puede ampliarse.
 keywords: Información general y referencia
-seo-description: De forma predeterminada, los perfiles de los visitantes se almacenan durante 14 días. Esta duración del perfil puede ampliarse.
-seo-title: Duración del perfil del visitante
-solution: Target
-subtopic: Primeros pasos
+description: De forma predeterminada, los perfiles de los visitantes se almacenan durante 14 días. Esta duración del perfil puede ampliarse.
 title: Duración del perfil del visitante
+subtopic: Primeros pasos
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
