@@ -1,15 +1,12 @@
 ---
-description: Información sobre la implementación de Adobe Target sin utilizar un administrador de etiquetas (Adobe Launch o Dynamic Tag Management).
 keywords: confirmación de pedido;orderConfirmPage
-seo-description: Información sobre la implementación de Adobe Target sin utilizar un administrador de etiquetas (Adobe Launch o Dynamic Tag Management).
-seo-title: Implementación de Target sin un administrador de etiquetas
-solution: Target
-subtopic: Primeros pasos
+description: Información sobre la implementación de Adobe Target sin utilizar un administrador de etiquetas (Adobe Launch o Dynamic Tag Management).
 title: Implementación de Target sin un administrador de etiquetas
+subtopic: Primeros pasos
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
