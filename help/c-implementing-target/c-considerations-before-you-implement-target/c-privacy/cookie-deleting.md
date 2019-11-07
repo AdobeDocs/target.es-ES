@@ -1,13 +1,10 @@
 ---
 description: Elimine las cookies del navegador de Target para poder validar todas las experiencias.
-seo-description: Elimine las cookies del navegador de Target para poder validar todas las experiencias.
-seo-title: Eliminar la cookie de Target
-solution: Target
 title: Eliminar la cookie de Target
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
