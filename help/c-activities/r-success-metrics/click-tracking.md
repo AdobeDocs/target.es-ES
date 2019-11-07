@@ -1,15 +1,12 @@
 ---
-description: Target permite rastrear clics en cualquier elemento como una métrica de éxito.
 keywords: Rastreo de clics;rastrear clics;clics;AppMeasurement
-seo-description: Target permite rastrear clics en cualquier elemento como una métrica de éxito.
-seo-title: Rastreo de clics
-solution: Target
-subtopic: Primeros pasos
+description: Target permite rastrear clics en cualquier elemento como una métrica de éxito.
 title: Rastreo de clics
+subtopic: Primeros pasos
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -75,7 +72,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 
    Para obtener más información, consulte [Desplazamiento por elementos utilizando la ruta DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en *Opciones del Compositor de experiencias visuales*.
 
-* Puede buscar una página diferente para rastrear clics en una página donde podría no estar modificando contenido. Esta página diferente debe incluirse en la actividad que usa la [función multipágina](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48), y debe tener implementada [!DNL at.js] o [!DNL mbox.js].
+* Puede buscar una página diferente para rastrear clics en una página donde podría no estar modificando contenido. Esta página diferente debe incluirse en la actividad que usa la  [función multipágina](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48), y debe tener implementada [!DNL at.js] o [!DNL mbox.js].
 * Si selecciona más de un elemento, si un participante hace clic en cualquiera de los elementos elegidos, se cuenta el clic. Para contar cada elemento por separado, configure métricas de éxito individuales para cualquier elemento.
 * Asegúrese de seleccionar el nivel de elemento que desee rastrear. Por ejemplo, al especificar un botón, asegúrese de seleccionar el vínculo y no el texto del botón.
 * Los eventos de clic se envían a [!DNL Target] en la misma página que el clic.
@@ -84,7 +81,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 
    | Carácter | Descripción |
    |---|---|
-   | # | Signo de número o almohadilla |
+   | # | Signo de número  o almohadilla |
    | : | Dos puntos |
    | . | Periodo |
    | $ | Símbolo del dólar |
