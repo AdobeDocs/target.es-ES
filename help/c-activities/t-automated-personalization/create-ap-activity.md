@@ -1,16 +1,11 @@
 ---
-description: El flujo de trabajo de actividades de personalización automatizada es distinto al flujo de trabajo de los otros tipos de actividades.
 keywords: personalización automatizada;Audiencias;ensamblado;bosque aleatorio;variación residual;variación de error;valor de duración
-seo-description: El flujo de trabajo de actividades de personalización automatizada es distinto al flujo de trabajo de los otros tipos de actividades.
-seo-title: Crear una actividad de personalización automatizada
-solution: Target
+description: El flujo de trabajo de actividades de personalización automatizada es distinto al flujo de trabajo de los otros tipos de actividades.
 title: Crear una actividad de personalización automatizada
-title-outputclass: premium
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
