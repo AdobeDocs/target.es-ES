@@ -1,14 +1,11 @@
 ---
-description: Use el Compositor de experiencias visuales de Target para crear la prueba directamente en una página con Target habilitado y para modificar partes de la página en Target.
 keywords: Crear A/B;prueba A/B;actividad A/B;nueva actividad a/b
-seo-description: Use el Compositor de experiencias visuales de Target para crear la prueba directamente en una página con Target habilitado y para modificar partes de la página en Target.
-seo-title: Crear una prueba A/B
-solution: Target
+description: Use el Compositor de experiencias visuales de Target para crear la prueba directamente en una página con Target habilitado y para modificar partes de la página en Target.
 title: Crear una prueba A/B
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -39,7 +36,7 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
    >
    >Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Su organización tiene una licencia de Target Standard si no ve esta opción.]
+   >La opción [!UICONTROL [Elegir lugar de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md) de la ilustración anterior es una función de [Target Premium](/help/c-intro/intro.md). Su organización tiene una licencia de Target Standard si no ve esta opción.]
 
 1. (Condicional) Si es [cliente de Target Premium](/help/c-intro/intro.md#premium), elija un [espacio de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -72,7 +69,7 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
 
    El [!UICONTROL Compositor de experiencias visuales] muestra dos fichas en la parte izquierda después de crear una actividad nueva: Experiencia A, que es la de control, y Experiencia B. Nos vamos a centrar en la ficha Experiencia B, que podemos modificar si es necesario. Experiencia B es la experiencia alternativa que se puede añadir a la prueba. Se pueden añadir varias experiencias a la prueba. También podemos eliminar Experiencia A de la actividad si no queremos incluir una experiencia de sitio predeterminada como opción.
 
-   Si desea más información sobre cómo añadir y modificar experiencias en el [!UICONTROL Compositor de experiencias visuales], consulte [Añadir experiencia](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Para modificar Experiencia B, empiece con el paso 3.
+   Si desea más información sobre cómo añadir y modificar experiencias en el [!UICONTROL Compositor de experiencias visuales], consulte  [Añadir experiencia](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Para modificar Experiencia B, empiece con el paso 3.
 
 1. Haga clic en **[!UICONTROL Segmentación]**, en la parte superior del [!UICONTROL Compositor de experiencias visuales], para ir al paso siguiente en el flujo de trabajo guiado de tres pasos.
 
