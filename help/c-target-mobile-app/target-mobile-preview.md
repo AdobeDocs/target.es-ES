@@ -1,14 +1,11 @@
 ---
+keywords: control de calidad;vínculo previo;móvil;vista previa para móviles
 description: Use el vínculo de vista previa en móviles para realizar fácilmente un control de calidad exhaustivo de las actividades de aplicaciones móviles y registrarse en diversas experiencias directamente en el dispositivo sin tener que usar uno especial para pruebas.
-keywords: qa;vista previa;vínculo de vista previa;móvil;vista previa móvil
-seo-description: Use el vínculo de vista previa en móviles para realizar fácilmente un control de calidad exhaustivo de las actividades de aplicaciones móviles y registrarse en diversas experiencias directamente en el dispositivo sin tener que usar uno especial para pruebas.
-seo-title: Uso del vínculo de vista previa móvil en Adobe Target Mobile
-solution: Target
-title: Vista previa para móviles en Target
+title: Uso del vínculo de vista previa móvil en Adobe Target móvil
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -25,7 +22,7 @@ Use el vínculo de vista previa en móviles para realizar fácilmente un control
 
 La funcionalidad de vista previa para móviles le permite probar completamente sus actividades de aplicación móvil antes del lanzamiento.
 
-## Requisitos previos  {#section_A763C564C9E84B0EB448237B5B1E4068}
+## Requisitos previos   {#section_A763C564C9E84B0EB448237B5B1E4068}
 
 1. **Utilice una versión compatible del SDK:** la función de vista previa para móviles requiere que descargue e instale la versión apropiada (4.14 o posterior) del SDK de Adobe Mobile en las aplicaciones correspondientes.
 
