@@ -1,16 +1,10 @@
 ---
-description: Lista de las preguntas más frecuentes (FAQ) sobre actividades de Recommendations.
 keywords: solución de problemas;preguntas más frecuentes;FAQ;recomendaciones;caracteres especiales;ponderación de atributos;similitud de contenido
-seo-description: Lista de preguntas más frecuentes sobre las actividades de Recomendaciones de Adobe Target.
-seo-title: Preguntas más frecuentes sobre Recomendaciones de Adobe Target
-solution: Target
-title: Preguntas más frecuentes de Recommendations
-title-outputclass: premium
-topic: Premium
+description: Lista de preguntas más frecuentes sobre las actividades de Recomendaciones de Adobe Target.
+title: Preguntas más frecuentes sobre Recomendaciones de Adobe Target
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
-badge: premium
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
