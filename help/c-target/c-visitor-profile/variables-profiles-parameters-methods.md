@@ -1,14 +1,11 @@
 ---
-description: Esta página contiene una lista de perfiles, variables y parámetros que son útiles en los scripts de perfil.
 keywords: variables;perfiles;parámetros;perfiles integrados;métodos;variables de url;perfiles geográficos;perfiles de terceros;variables de mbox;variables de campaña;atributos de cliente
-seo-description: Esta página contiene una lista de perfiles, variables y parámetros que son útiles en los scripts de perfil.
-seo-title: Glosario de perfiles y variables
-solution: Target
+description: Esta página contiene una lista de perfiles, variables y parámetros que son útiles en los scripts de perfil.
 title: Glosario de perfiles y variables
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -93,4 +90,4 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 
 Se puede hacer referencia a los atributos del cliente en las secuencias de comandos de perfil con el formato `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Estos atributos también están disponibles como tokens en secuencias de comandos de perfil y directamente en ofertas sin que resulte necesario requerir primero una secuencia de comandos de perfil. El token debe presentar el siguiente formato: `${crs.datasourceName.attributeName}`. Note that spaces in the `datasourceName` should be stripped from any API call.
+Estos atributos también están disponibles como tokens en secuencias de comandos de perfil y directamente en ofertas sin que resulte necesario requerir primero una secuencia de comandos de perfil. El token debe presentar el siguiente formato: `${crs.datasourceName.attributeName}`. Tenga en cuenta que los espacios del `datasourceName` se deben eliminar de cualquier llamada de API.
