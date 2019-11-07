@@ -1,15 +1,11 @@
 ---
-description: Puede crear audiencias en Adobe Target para segmentar usuarios que usen un navegador específico y opciones del navegador concretas cuando visiten una página.
 keywords: opciones del explorador;tipo;tipo de explorador;idioma del explorador;idioma;versión;versión del explorador
-seo-description: Puede crear audiencias en Adobe Target para segmentar usuarios que usen un navegador específico y opciones del navegador concretas cuando visiten una página.
-seo-title: Opciones de explorador en las audiencias de Adobe Target
-solution: Target
+description: Puede crear audiencias en Adobe Target para segmentar usuarios que usen un navegador específico y opciones del navegador concretas cuando visiten una página.
+title: Opciones de explorador en las audiencias de Adobe Target
 subtopic: Prueba multivariable
-title: Explorador
-topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -62,7 +58,7 @@ En el ejemplo siguiente se muestra una audiencia que incluye a los usuarios de l
 
 Dirija la actividad a visitantes o exclúyalos en función del tipo, el idioma o la versión de navegador que tengan.
 
-### Tipo {#section_6ADC758F23F145B3A310151546D83D56}
+### Tipo  {#section_6ADC758F23F145B3A310151546D83D56}
 
 Dirija la actividad a un navegador o exclúyalo.
 
@@ -73,7 +69,7 @@ Seleccione **[!UICONTROL Tipo]** y, a continuación, elija igual a o no es igual
 
 Seleccione uno o varios. Si hay varias opciones, se conectan con un parámetro O.
 
-### Idioma {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Idioma  {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Dirija la actividad ciertos navegadores que estén configurados en idiomas específicos o exclúyalos.
 
@@ -100,7 +96,7 @@ Los siguientes idiomas de navegador se pueden incluir o excluir de la segmentaci
 * Español
 * Chino tradicional
 
-### Versión {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versión  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Dirija la actividad a ciertas versiones del navegador o exclúyalas.
 
