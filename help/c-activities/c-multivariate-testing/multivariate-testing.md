@@ -1,14 +1,10 @@
 ---
-description: La prueba multivariable (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 keywords: prueba multivariable;mvt;factorial completa;mvt o a/b;a/b multivariable;estimador de tráfico;cuándo usar mvt;consideraciones de mvt;multivariable
-seo-description: La prueba multivariada (MVT) en Adobe Target compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
-seo-title: Prueba multivariable
-solution: Target
+description: La prueba multivariada (MVT) en Adobe Target compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 title: Prueba multivariable
-topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -17,7 +13,7 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 La [!UICONTROL prueba multivariada] (MVT) en [!DNL Adobe Target] compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 
-## Información general de MVT. {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## Información general de MVT.  {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 Las pruebas multivariable sirven para descubrir la influencia relativa que cada elemento tiene en la conversión en comparación con otros elementos de la página. También sirven para acotar una combinación de elementos que han demostrado ser eficaces.
 
@@ -61,7 +57,7 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
 
 ## Consideraciones {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
-* Utilice una prueba MVT cuando tenga al menos tres elementos que probar. Si tiene menos, ejecute una serie de pruebas A/B.
+* Utilice una prueba MVT cuando tenga al menos tres elementos que probar. Si tiene menos, ejecute una serie de  pruebas A/B.
 * Seleccione los elementos de página que crea que tendrán un impacto más significativo en los resultados.
 * No incluya demasiados elementos o ubicaciones en una prueba. Cuanto mayor sea el número, más tiempo durará la prueba.
 * Planifique el diseño de la prueba con antelación. No se recomienda modificar una prueba después de haberla activado y cuando los datos ya han empezado a recopilarse y analizarse.
