@@ -1,14 +1,11 @@
 ---
-description: diagramas del sistema de Target que muestran el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente mediante at.js.
 keywords: diagrama del sistema;parpadeo;at.js;implementación;biblioteca javascript;js;atjs
-seo-description: Diagrama del sistema de Adobe Target que muestra el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente usando at.js.
-seo-title: Funcionamiento de la biblioteca JavaScript de Adobe Target at.js
-solution: Target
-title: Cómo funciona at.js
+description: Diagrama del sistema de Adobe Target que muestra el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente usando at.js.
+title: Funcionamiento de la biblioteca JavaScript de Adobe Target at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
