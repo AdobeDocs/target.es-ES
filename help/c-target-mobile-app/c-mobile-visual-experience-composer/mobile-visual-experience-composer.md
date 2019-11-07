@@ -1,13 +1,10 @@
 ---
 description: El Compositor de experiencias visuales (VEC) para aplicaciones móviles nativas le permite crear actividades y personalizar contenido en aplicaciones móviles nativas por su cuenta, sin las continuas dependencias y los ciclos de lanzamiento de aplicaciones de un desarrollo.
-seo-description: El Compositor de experiencias visuales (VEC) para aplicaciones móviles nativas le permite crear actividades y personalizar contenido en aplicaciones móviles nativas por su cuenta, sin las continuas dependencias y los ciclos de lanzamiento de aplicaciones de un desarrollo.
-seo-title: Compositor de experiencias visuales para aplicaciones móviles
-solution: Target
 title: Compositor de experiencias visuales para aplicaciones móviles
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -20,7 +17,7 @@ El [Compositor de experiencias visuales](../../c-experiences/experiences.md#sect
 
 El VEC de aplicaciones móviles es compatible con los exploradores enumerados en [Exploradores compatibles](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
-## Uso del Compositor de experiencias visuales para aplicaciones móviles nativas. {#using-the-mobile-vec}
+## Uso del Compositor de experiencias visuales para aplicaciones móviles nativas.  {#using-the-mobile-vec}
 
 La siguiente ilustración representa el proceso de uso del VEC de aplicaciones móviles:
 
