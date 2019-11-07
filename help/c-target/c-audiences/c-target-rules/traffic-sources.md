@@ -1,13 +1,10 @@
 ---
-description: Cree audiencias para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
 keywords: Segmentación;fuentes de tráfico;fuentes de tráfico de Target;motor de búsqueda Target;motor de búsqueda;página de destino;página de destino Target;página de destino de referencia
-seo-description: Cree audiencias en Adobe Target para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
-seo-title: Segmentar fuentes de tráfico en Adobe Target
-solution: Target
-title: Informe de
+description: Cree audiencias en Adobe Target para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
+title: Segmentar fuentes de tráfico en Adobe Target
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
