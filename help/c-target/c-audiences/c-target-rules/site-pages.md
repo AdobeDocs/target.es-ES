@@ -1,14 +1,11 @@
 ---
-description: Segmente a los visitantes que estén en una página concreta o que tengan un parámetro de mbox específico.
 keywords: páginas de sitio;páginas de sitio Target;segmentación;página actual;página actual Target;página anterior;página anterior Target;página de destino;página de destino Target;mbox;mbox Target
-seo-description: Puede segmentar visitantes que estén en una página específica o que tengan un parámetro de mbox específico mediante Adobe Target.
-seo-title: Páginas de sitio en Adobe Target
-solution: Target
-title: Páginas del sitio
+description: Puede segmentar visitantes que estén en una página específica o que tengan un parámetro de mbox específico mediante Adobe Target.
+title: Páginas de sitio en Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
