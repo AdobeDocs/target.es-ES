@@ -1,14 +1,11 @@
 ---
-description: Esta página muestra cambios realizados a cada versión de mbox.js.
 keywords: cambios de mbox.js;versiones de mbox.js
-seo-description: Esta página muestra cambios realizados a cada versión de mbox.js.
-seo-title: Detalles de la versión de mbox.js
-solution: Target
-subtopic: Primeros pasos
+description: Esta página muestra cambios realizados a cada versión de mbox.js.
 title: Detalles de la versión de mbox.js
+subtopic: Primeros pasos
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -21,7 +18,7 @@ Esta página muestra cambios realizados a cada versión de mbox.js.
 >
 >Es recomendable que todos los usuarios de mbox.js actualicen a la versión 57 u otra más reciente. Algunos usuarios han experimentado problemas de tiempo de espera al no cargar `target.js`. La versión 57 ha corregido ese problema. Sin embargo, si utiliza el servicio [!DNL Experience Cloud Visitor ID], se requiere la versión 58 o posterior.
 
-La forma en la que Target responde a las llamadas provenientes de su página depende de la versión de la biblioteca de Target que esté usando, si está presente la implementación de ID de visitante y si existe el ID de visitante. Para obtener información, consulte  [Respuestas de llamadas de Target por versión de biblioteca](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+La forma en la que Target responde a las llamadas provenientes de su página depende de la versión de la biblioteca de Target que esté usando, si está presente la implementación de ID de visitante y si existe el ID de visitante. Para obtener información, consulte   [Respuestas de llamadas de Target por versión de biblioteca](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
@@ -113,7 +110,7 @@ La versión 59 de mbox presenta las siguientes mejoras:
 
    En lugar de usar `display:none` para ocultar la página, como en la versión 58, se utiliza el código `opacity:0`. De esta forma, se solucionan los problemas relacionados con los sitios interactivos provocados por el anterior método de ocultación de la página.
 
-## mbox.js versión 58  {#section_5070B0D1C87F4937BB97727923DD36C7}
+## mbox.js versión 58   {#section_5070B0D1C87F4937BB97727923DD36C7}
 
 **Versión de Target:** 15.7.1
 
