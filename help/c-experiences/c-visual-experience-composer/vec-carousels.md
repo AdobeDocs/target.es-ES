@@ -1,15 +1,12 @@
 ---
-description: Este tema explica cómo crear un carrusel que se pueda editar en el Compositor de experiencias visuales (VEC).
 keywords: Compositor de experiencias visuales;VEC;carrusel
-seo-description: Este tema explica cómo crear un carrusel que se pueda editar en el Compositor de experiencias visuales (VEC).
-seo-title: Crear carruseles que funcionen en el Compositor de experiencias visuales
-solution: Target
-subtopic: Prueba multivariable
+description: Este tema explica cómo crear un carrusel que se pueda editar en el Compositor de experiencias visuales (VEC).
 title: Crear carruseles que funcionen en el Compositor de experiencias visuales
+subtopic: Prueba multivariable
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
