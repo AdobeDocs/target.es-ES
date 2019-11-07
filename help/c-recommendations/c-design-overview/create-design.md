@@ -1,16 +1,10 @@
 ---
-description: Un diseño define el modo en que las recomendaciones aparecen en una página.
 keywords: diseño de recomendaciones;crear diseño;copiar diseño
-seo-description: Un diseño define el modo en que las recomendaciones aparecen en una página.
-seo-title: Crear un diseño
-solution: Target
+description: Un diseño define el modo en que las recomendaciones aparecen en una página.
 title: Crear un diseño
-title-outputclass: premium
-topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -48,11 +42,11 @@ Puede crear un diseño de [!UICONTROL Recommendations] usando un diseño predete
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Vídeo de capacitación: Creación de diseños personalizados en Recomendaciones (3:20)
+## Vídeo de formación: Creación de diseños personalizados en Recommendations (3:20)
 
-Este vídeo contiene la siguiente información:
+Este vídeo contiene la información siguiente:
 
 * Crear un diseño personalizado
-* Comprender cómo hacer referencia a variables de visualización en los diseños
+* Cómo hacer referencia a las variables de visualización en los diseños
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=spa)
