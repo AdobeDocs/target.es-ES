@@ -1,16 +1,10 @@
 ---
-description: Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación.
 keywords: diseño personalizado;personalizar diseño;velocity;decimal;coma
-seo-description: Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación.
-seo-title: Personalización de un diseño mediante Velocity
-solution: Target
+description: Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación.
 title: Personalización de un diseño mediante Velocity
-title-outputclass: premium
-topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
