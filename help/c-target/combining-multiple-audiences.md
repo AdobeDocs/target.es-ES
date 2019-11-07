@@ -1,14 +1,11 @@
 ---
-description: Combine varias audiencias (incluidas las de Adobe Experience Cloud y las de Target) sobre la marcha para crear audiencias ad-hoc. También puede crear reglas de exclusión y excluir audiencias de una regla.
 keywords: audiencia;reglas de audiencia;combinar audiencias;combinación de audiencias;exclusión;añadir exclusión;excluir;audiencia específica
-seo-description: Combine varias audiencias (incluidas las de Adobe Experience Cloud y las de Target) sobre la marcha para crear audiencias ad-hoc. También puede crear reglas de exclusión y excluir audiencias de una regla.
-seo-title: Combinar varias audiencias en Adobe Target
-solution: Target
-title: Combinación de varias audiencias
+description: Combine varias audiencias (incluidas las de Adobe Experience Cloud y las de Target) sobre la marcha para crear audiencias ad-hoc. También puede crear reglas de exclusión y excluir audiencias de una regla.
+title: Combinar varias audiencias en Adobe Target
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -97,7 +94,7 @@ Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y
 
 Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y configuración] de la actividad para usarla en los informes.
 
-1. Al editar o crear una [actividad](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]** haga clic en el icono **[!UICONTROL Añadir audiencia]** de [!UICONTROL Audiencias para los informes] para mostrar la página [!UICONTROL Elegir audiencia].
+1. Al editar o crear una  [actividad](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]** haga clic en el icono **[!UICONTROL Añadir audiencia]** de [!UICONTROL Audiencias para los informes] para mostrar la página [!UICONTROL Elegir audiencia].
 
    ![](assets/combine_multiple_audiences6.png)
 
