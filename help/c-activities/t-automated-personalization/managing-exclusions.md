@@ -1,13 +1,11 @@
 ---
-description: Administre exclusiones creando grupos de exclusión, excluyendo ofertas duplicadas, experiencias específicas y el contenido predeterminado en las actividades de Automated Personalization (AP).
 keywords: desduplicar;permitir duplicados;excluir duplicados;personalización automatizada;impedir ofertas duplicadas
-seo-description: Administre exclusiones creando grupos de exclusión, excluyendo ofertas duplicadas, experiencias específicas y el contenido predeterminado en las actividades de Automated Personalization (AP) de Adobe Target.
-seo-title: Gestión de exclusiones
-solution: Target,Analytics
+description: Administre exclusiones creando grupos de exclusión, excluyendo ofertas duplicadas, experiencias específicas y el contenido predeterminado en las actividades de Automated Personalization (AP) de Adobe Target.
 title: Gestión de exclusiones
+solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
