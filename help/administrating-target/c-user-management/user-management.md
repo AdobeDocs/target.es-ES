@@ -1,15 +1,12 @@
 ---
-description: Información sobre la administración de Usuarios en Target Standard y la administración de Propiedades y Permisos empresariales en Target Premium.
 keywords: agregar usuario;administrar usuario;permisos de usuario
-seo-description: Información sobre la administración de Usuarios en Target Standard y la administración de Propiedades y Permisos empresariales en Target Premium.
-seo-title: Administración de usuarios
-solution: Target
-subtopic: Primeros pasos
+description: Información sobre la administración de Usuarios en Target Standard y la administración de Propiedades y Permisos empresariales en Target Premium.
 title: Administración de usuarios
+subtopic: Primeros pasos
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
