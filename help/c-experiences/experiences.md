@@ -1,14 +1,11 @@
 ---
-description: Las experiencias determinan el contenido que se mostrará cuando el visitante cumpla los criterios de audiencia de una actividad.
 keywords: experiencia;visual experience composer;compositor de experiencias visuales;enhanced experience composer;compositor de experiencias mejorado;compositor de experiencias basadas en formularios;compositor de formularios;compositor visual;compositor de experiencias;contenido mixto;iframe;eliminación de iframes;eliminar iframe;opciones de x-frame;opciones de x frame;origen cruzado;problemas de origen cruzado;flujo de trabajo de autenticación;lista negra de ip;lista blanca de ip
-seo-description: Las experiencias determinan el contenido que se mostrará cuando el visitante cumpla los criterios de audiencia de una actividad.
-seo-title: Experiencias y ofertas
-solution: Target
+description: Las experiencias determinan el contenido que se mostrará cuando el visitante cumpla los criterios de audiencia de una actividad.
 title: Experiencias y ofertas
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
