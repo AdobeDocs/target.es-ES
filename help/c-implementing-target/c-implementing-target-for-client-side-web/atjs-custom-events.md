@@ -1,14 +1,11 @@
 ---
-description: 'Información sobre eventos personalizados para at.js. '
-keywords: eventos personalizados;at.js;solicitud fallida;solicitud correcta;representación de contenido fallida;representación de contenido correcta;biblioteca cargada;inicio de solicitud;inicio de procesamiento de contenido;inicio de representación de contenido no ofertas;redireccionamiento de representación de contenido
-seo-description: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
-seo-title: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
-solution: Target
+keywords: eventos personalizados;at.js;solicitud fallida;solicitud correcta;error de procesamiento de contenido;procesamiento de contenido correcto;biblioteca cargada;solicitar inicio;inicio de procesamiento de contenido;contenido no procesa ofertas;redirección de representación de contenido
+description: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
+title: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
 subtopic: Primeros pasos
-title: Eventos personalizados de at.js
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
