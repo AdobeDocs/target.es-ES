@@ -1,15 +1,12 @@
 ---
-description: Los perfiles de los visitantes contienen información sobre el modo en que los visitantes usan las páginas de su sitio y otras ubicaciones de contenido optimizado.
 keywords: Información general y referencia
-seo-description: Los perfiles de los visitantes contienen información sobre el modo en que los visitantes usan las páginas de su sitio y otras ubicaciones de contenido optimizado.
-seo-title: Perfiles de los visitantes
-solution: Target
-subtopic: Primeros pasos
+description: Los perfiles de los visitantes contienen información sobre el modo en que los visitantes usan las páginas de su sitio y otras ubicaciones de contenido optimizado.
 title: Perfiles de los visitantes
+subtopic: Primeros pasos
 topic: Standard
 uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
