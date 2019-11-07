@@ -1,14 +1,11 @@
 ---
-description: Información sobre las API de entrega de Adobe Target en el servidor, el SDK de Node.js y las API de Recomendaciones de Target.
 keywords: lado del servidor;lado del servidor;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-seo-description: Información sobre las API de entrega de Adobe Target en el servidor, el SDK de Node.js y las API de Recomendaciones de Target.
-seo-title: Información sobre las API de entrega de Adobe Target en el servidor, el SDK de Node.js y las API de Recomendaciones de Target.
-solution: Target
-title: Implementación de Target en el servidor
+description: Información sobre las API de entrega de Adobe Target en el servidor, el SDK de Node.js y las API de Recomendaciones de Target.
+title: Información sobre las API de entrega de Adobe Target en el servidor, el SDK de Node.js y las API de Recomendaciones de Target.
 topic: Las actividades de
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
