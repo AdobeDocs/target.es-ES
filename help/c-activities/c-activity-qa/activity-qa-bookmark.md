@@ -1,14 +1,11 @@
 ---
-description: Información para ayudarle a utilizar el bookmarklet de control de calidad de Adobe Target para obligar a Target a liberarlo del modo de control de calidad.
 keywords: control de calidad;vista previa;bookmarklet;vínculos de vista previa
-seo-description: Información para ayudarle a utilizar el bookmarklet de control de calidad de Adobe Target para obligar a Target a liberarlo del modo de control de calidad.
-seo-title: bookmarklet de control de calidad de la actividad para Adobe Target
-solution: Target
-title: Bookmarklet de control de calidad de la actividad
+description: Información para ayudarle a utilizar el bookmarklet de control de calidad de Adobe Target para obligar a Target a liberarlo del modo de control de calidad.
+title: bookmarklet de control de calidad de la actividad para Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
