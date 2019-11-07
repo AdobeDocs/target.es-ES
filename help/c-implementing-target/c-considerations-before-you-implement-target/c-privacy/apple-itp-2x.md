@@ -1,14 +1,11 @@
 ---
-description: Información sobre la compatibilidad de Target con ITP 2.1 y ITP 2.2 de Apple a través de la biblioteca 4.3 de Experience Cloud ID (ECID).
 keywords: apple;ITP;prevención inteligente del seguimiento
-seo-description: Información sobre la compatibilidad de Adobe Target con ITP 2.1 y ITP 2.2 de Apple a través de la biblioteca 4.3 de Experience Cloud ID (ECID).
-seo-title: Compatibilidad con Adobe Target y Apple ITP
-solution: Target
+description: Información sobre la compatibilidad de Adobe Target con ITP 2.1 y ITP 2.2 de Apple a través de la biblioteca 4.3 de Experience Cloud ID (ECID).
+title: Compatibilidad con Adobe Target y Apple ITP
 subtopic: Primeros pasos
-title: Apple ITP 2.x
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
