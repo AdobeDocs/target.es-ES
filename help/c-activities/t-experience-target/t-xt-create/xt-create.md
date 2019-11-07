@@ -1,14 +1,11 @@
 ---
-description: Use el Compositor de experiencias visuales para crear una actividad de segmentación de experiencias en una página con Target habilitado y para modificar partes de la página en Target.
-seo-description: Use el Compositor de experiencias visuales para crear una actividad de segmentación de experiencias (XT) en una página con Target habilitado y para modificar partes de la página en Adobe Target.
-seo-title: Crear una actividad de segmentación de experiencias
-solution: Target
-subtopic: Prueba multivariable
+description: Use el Compositor de experiencias visuales para crear una actividad de segmentación de experiencias (XT) en una página con Target habilitado y para modificar partes de la página en Adobe Target.
 title: Crear una actividad de segmentación de experiencias
+subtopic: Prueba multivariable
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
