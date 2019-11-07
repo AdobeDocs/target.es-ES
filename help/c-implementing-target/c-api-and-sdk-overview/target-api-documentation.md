@@ -1,14 +1,11 @@
 ---
-description: Información para ayudarle a pasar de las API heredadas de Target a las nuevas API de Adobe I/O.
 keywords: api;adobe i/o
-seo-description: Información para ayudarle a pasar de las API heredadas de Target a las nuevas API de Adobe I/O.
-seo-title: Transición de las API heredadas de Target a Adobe I/O
-solution: Target
+description: Información para ayudarle a pasar de las API heredadas de Target a las nuevas API de Adobe I/O.
 title: Transición de las API heredadas de Target a Adobe I/O
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,7 +16,7 @@ Información para ayudarle a pasar de las API heredadas de Target a las nuevas A
 
 Con la retirada de Adobe Target Classic, las API conectadas a su cuenta de Target Classic también han dejado de estar disponibles. Este documento le ayudará en la transición de las integraciones basadas en API heredadas a las API de Target con tecnología Adobe I/O.
 
-Para obtener más información sobre la documentación de la API de Target, consulte  [API de Target y SDK de NodeJS](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+Para obtener más información sobre la documentación de la API de Target, consulte   [API de Target y SDK de NodeJS](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
 
 ## Terminología {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
@@ -28,7 +25,7 @@ Para obtener más información sobre la documentación de la API de Target, cons
 | API heredadas | Las API vinculadas a su cuenta de Target Classic. Estas llamadas a API se basan en una autenticación mediante nombre de usuario y contraseña, y utilizan el nombre de host `testandtarget.omniture.com`. Si sus llamadas a API incluyen en la URL de solicitud un nombre de usuario y una contraseña, debe pasarse a las API de Adobe I/O. |
 | Adobe I/O | Adobe I/O es el nuevo portal para las API de Target. Estas API están conectadas a su cuenta de Target Standard/Premium. Las API de Target en Adobe I/O utilizan autenticación JWT, el estándar del sector para API empresariales seguras. |
 
-## Cronología  {#section_A478EBF637554A2DB5A31661955121ED}
+## Cronología   {#section_A478EBF637554A2DB5A31661955121ED}
 
 Las API heredadas se retirarán del mercado al mismo tiempo que Target Classic:
 
@@ -39,7 +36,7 @@ Las API heredadas se retirarán del mercado al mismo tiempo que Target Classic:
 
 Las API de Recommendations Classic no se ven afectadas por este cronograma.
 
-## Métodos equivalentes  {#section_DDB42CCC172545B09CB728D794CC466B}
+## Métodos equivalentes   {#section_DDB42CCC172545B09CB728D794CC466B}
 
 La siguiente tabla muestra la correspondencia entre los nuevos métodos de API de Target y los métodos de API heredadas. Las nuevas API devuelven JSON, en comparación con la respuesta XML de las API heredadas.
 
@@ -67,6 +64,6 @@ Los nuevos métodos API contienen vínculos a la sección correspondiente en el 
 
 Si necesita una excepción, póngase en contacto con el gestor de éxito de los clientes.
 
-## Ayuda  {#section_591F850E2B7A4342B1C233693425415C}
+## Ayuda   {#section_591F850E2B7A4342B1C233693425415C}
 
 Póngase en contacto con ClientCare de Adobe Target (tt-support@adobe.com) si tiene cualquier pregunta o necesita ayuda en la transición a las nuevas API de Target en Adobe I/O.
