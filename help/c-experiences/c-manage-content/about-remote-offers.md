@@ -1,14 +1,11 @@
 ---
-description: Utilice las ofertas remotas para alojar contenido fuera de Target al que Target haga referencia y que entregue a los sitios web de los usuarios. Este contenido puede encontrarse en un sistema de gestión de contenido o de otro tipo por cuestiones de comodidad o de seguridad.
 keywords: oferta remota;matriz de selección de ofertas remotas;contenido en caché;contenido dinámico
-seo-description: Utilice las ofertas remotas para alojar contenido fuera de Target al que Target haga referencia y que entregue a los sitios web de los usuarios. Este contenido puede encontrarse en un sistema de gestión de contenido o de otro tipo por cuestiones de comodidad o de seguridad.
-seo-title: Crear ofertas remotas
-solution: Target
+description: Utilice las ofertas remotas para alojar contenido fuera de Target al que Target haga referencia y que entregue a los sitios web de los usuarios. Este contenido puede encontrarse en un sistema de gestión de contenido o de otro tipo por cuestiones de comodidad o de seguridad.
 title: Crear ofertas remotas
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
