@@ -1,25 +1,22 @@
 ---
-description: El Compositor de experiencias visuales (VEC) proporciona una interfaz visual para editar las experiencias en su página en una actividad de segmentación de experiencias (XT).
 keywords: crear experiencia;crear;experiencia;prioridad;audiencia;experiencia;compositor de experiencias visuales
-seo-description: El Compositor de experiencias visuales de Adobe Target (VEC) proporciona una interfaz visual para editar las experiencias en su página en una actividad de segmentación de experiencias (XT).
-seo-title: Crear experiencia
-solution: Target
+description: El Compositor de experiencias visuales de Adobe Target (VEC) proporciona una interfaz visual para editar las experiencias en su página en una actividad de segmentación de experiencias (XT).
 title: Crear experiencia
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # Crear experiencia{#create-experience}
 
-The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
+El [!UICONTROL Compositor de experiencias visuales (VEC)] proporciona una interfaz visual para editar las experiencias en su página en una actividad de [!UICONTROL Segmentación de experiencias] (XT).
 
 1. Seleccione los elementos que quiera cambiar y realice los cambios necesarios.
 
-   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
+   Al [crear una actividad de XT](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), el paso uno del flujo de trabajo guiado de tres partes ([!UICONTROL Experiencias]) muestra la [!UICONTROL Experiencia A] predeterminada con una audiencia de [!UICONTROL Todos los visitantes].
 
    ![Audiencia de todos los visitantes](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -27,19 +24,19 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Los elementos resaltados se pueden modificar con el VEC. Para obtener una lista de las acciones que se pueden realizar en un elemento para cambiar la experiencia, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
+   Si creó un mbox en la página mediante [!DNL Target Classic], ese mbox aparece como un elemento que muestra el nombre del mbox y se puede modificar como cualquier otro elemento.
 
    >[!NOTE]
    >
-   >De manera predeterminada, el VEC no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar JavaScript para modificar esos elementos mediante el VEC.
+   >De manera predeterminada, el VEC no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Es posible deshabilitar JavaScript para alterar esos elementos mediante el VEC.
 
-1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
+1. Para crear experiencias adicionales, haga clic en **[!UICONTROL Añadir Segmentación de experiencias]**.
 
    ![Añadir vínculo de Segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    Se abre el cuadro de diálogo [!UICONTROL Seleccionar audiencia]. Si va a segmentar una experiencia a una audiencia, debe seleccionar la audiencia antes de añadir la experiencia.
 
-   La biblioteca de audiencias contiene las audiencias que se han definido anteriormente, entre las que se incluyen algunas audiencias comunes predefinidas como parte de [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   La biblioteca de audiencias contiene las audiencias que se han definido anteriormente, entre las que se incluyen algunas audiencias comunes predefinidas como parte de [!DNL Target]. Puede seleccionar una audiencia de la biblioteca o [crear una audiencia nueva](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
@@ -69,7 +66,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    >[!NOTE]
    >
-   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
+   >Si entrega una imagen desde un origen distinto a la página principal (por ejemplo, una imagen alojada en `akamai.net` y entregada en `adobe.com`), dicha imagen no se mostrará en la miniatura de la página mostrada en el diagrama de flujo.
 
 1. (Condicional) Arrastre y suelte una pareja de audiencia/experiencia mientras cuando cree o edite actividades XT para colocar las parejas en el orden deseado.
 
@@ -98,9 +95,9 @@ En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo
 
 ![Eliminar experiencia](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
-## Duplicar una experiencia
+## Duplicar experiencias
 
-Puede copiar una experiencia en una actividad XT para poder realizar cambios menores en ella sin tener que volver a crear la experiencia desde cero.
+Puede copiar una experiencia en una actividad de XT y así realizar cambios menores sin tener que volver a crear la experiencia desde cero.
 
 En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales &gt; **[!UICONTROL Duplicar]**.
 
