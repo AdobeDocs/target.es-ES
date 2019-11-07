@@ -1,14 +1,10 @@
 ---
 description: En una actividad de Personalización automatizada, puede segmentar las ofertas a audiencias específicas.
-seo-description: En una actividad de Personalización automatizada, puede segmentar las ofertas a audiencias específicas.
-seo-title: Ofertas de personalización automatizada de Target
-solution: Target,Analytics
 title: Ofertas de personalización automatizada de Target
-title-outputclass: Premium
+solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
