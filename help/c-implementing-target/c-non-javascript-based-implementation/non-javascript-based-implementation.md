@@ -1,15 +1,12 @@
 ---
-description: Información acerca de la implementación de Target en situaciones sin JavaScript, como el uso de un AdBox o un redirector.
 keywords: implementación;mbox.js no javascript;AdBox;redirector;mbox
-seo-description: Información acerca de la implementación de Target en situaciones sin JavaScript, como el uso de un AdBox o un redirector.
-seo-title: Implementación del correo electrónico en Target
-solution: Target
-subtopic: Primeros pasos
+description: Información acerca de la implementación de Target en situaciones sin JavaScript, como el uso de un AdBox o un redirector.
 title: Implementación del correo electrónico en Target
+subtopic: Primeros pasos
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
