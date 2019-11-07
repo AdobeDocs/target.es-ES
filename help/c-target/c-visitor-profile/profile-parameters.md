@@ -1,14 +1,11 @@
 ---
-description: Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información acerca de ese visitante que puede utilizar en sus actividades de Adobe Target.
 keywords: script de perfil;atributos de script de perfil;prácticas recomendadas de script de perfil;depuración;depuración;secuencias de comandos;secuencias de comandos de perfil;atributos;atributo;parámetro
-seo-description: Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información acerca de ese visitante que puede utilizar en sus actividades de Adobe Target.
-seo-title: Atributos de perfil en Adobe Target
-solution: Target
-title: Atributos de perfil
+description: Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información acerca de ese visitante que puede utilizar en sus actividades de Adobe Target.
+title: Atributos de perfil en Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -255,7 +252,7 @@ Se requiere de conocimiento básico de Javascript para utilizar de forma eficaz 
 
 Los parámetros de perfil de secuencia de comandos se encuentran en la pestaña mboxes/perfiles. Puede escribir programas Javascript que devuelvan cualquier tipo de Javascript (cadena, número entero, matriz, etc.).
 
-### Ejemplos de parámetros de perfil de secuencia de comandos
+### Ejemplos de parámetros de perfil de secuencia de comandos {#examples}
 
 **Nombre:** *user.recency*
 
@@ -281,7 +278,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Crea una variable denominada frecuencia, iniciándola en el valor anterior o 0, si no había ningún valor anterior. Si el nombre del mbox es `orderThankyouPage`, se devuelve el valor incrementado.
+Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. Si el nombre del mbox es `orderThankyouPage`, se devuelve el valor incrementado.
 
 **Nombre:** *user.monetaryValue*
 
@@ -293,6 +290,20 @@ if (mbox.name == 'orderThankyouPage') {
 ```
 
 Crea una variable llamada `monetaryValue`, buscando el valor actual para un visitante determinado (o configurándolo en 0 si no había ningún valor anterior). Si el nombre del mbox es `orderThankyouPage`, se devuelve un nuevo valor monetario sumando el valor anterior y el valor del parámetro `orderTotal` que se pasa al mbox.
+
+**** Nombre: adobeQA
+
+```
+if (page.param("adobeQA"))
+     return page.param("adobeQA");
+else if (page.param("adobeqa"))
+     return page.param("adobeqa");
+else if (mbox.param("adobeQA"))
+     return mbox.param("adobeQA");
+```
+
+Crea una variable llamada `adobeQA` para rastrear a un usuario para el control de calidad de [la actividad](/help/c-activities/c-activity-qa/activity-qa.md).
+
 
 ### Objetos y métodos
 
