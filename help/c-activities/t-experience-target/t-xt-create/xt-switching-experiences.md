@@ -1,14 +1,11 @@
 ---
-description: Información sobre cómo los visitantes pueden cambiar entre experiencias en una actividad de Segmentación de experiencias (XT) conforme evolucionan sus perfiles.
 keywords: prioridad;crear experiencia;prioridad;experiencia;audiencia;experiencia;convertir experiencias;compositor de experiencias visuales;visual experience composer
-seo-description: Información sobre cómo los visitantes pueden cambiar entre experiencias en una actividad de Segmentación de experiencias (XT) conforme evolucionan sus perfiles.
-seo-title: Cambiar experiencias en segmentación de experiencias
-solution: Target
+description: Información sobre cómo los visitantes pueden cambiar entre experiencias en una actividad de Segmentación de experiencias (XT) conforme evolucionan sus perfiles.
 title: Cambiar experiencias en segmentación de experiencias
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
