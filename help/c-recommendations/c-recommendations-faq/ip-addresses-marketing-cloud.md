@@ -1,15 +1,10 @@
 ---
-description: Esta es la lista de direcciones IP que se usan en los servidores de procesamiento de fuentes de Recommendations en el centro de datos de Oregon para configurar el firewall de modo que bloquee las direcciones IP procedentes de los servidores de Adobe.
 keywords: Dirección IP;direcciones IP;lista de aprobados;cortafuegos;recomendaciones;fuente;servidores;adobe experience cloud;Recommendations
-seo-description: Esta es la lista de direcciones IP que se usan en los servidores de procesamiento de fuentes de Recommendations en el centro de datos de Oregon para configurar el firewall de modo que bloquee las direcciones IP procedentes de los servidores de Adobe.
-seo-title: Direcciones IP que usan los servidores de procesamiento de fuentes de Recommendations
+description: Esta es la lista de direcciones IP que se usan en los servidores de procesamiento de fuentes de Recommendations en el centro de datos de Oregon para configurar el firewall de modo que bloquee las direcciones IP procedentes de los servidores de Adobe.
 title: Direcciones IP que usan los servidores de procesamiento de fuentes de Recommendations
-title-outputclass: premium
-topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
