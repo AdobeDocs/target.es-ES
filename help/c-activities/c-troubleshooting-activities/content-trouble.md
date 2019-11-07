@@ -1,15 +1,12 @@
 ---
-description: Si su página no muestra el contenido esperado, puede seguir algunos pasos que le ayudarán a depurar la publicación de contenido.
 keywords: depurar mbox;problemas de mbox;solucionar problemas de mbox;parpadeo;mboxDebug;mboxTrace;token;depurador;prioridad;prioridad de actividad;Adobe Experience Cloud Debugger;mbox orderConfirmPage;SiteCatalyst;mbox compra;más vendidos;más vendido
-seo-description: Si su página no muestra el contenido esperado, puede seguir algunos pasos para depurar la entrega de contenido en Adobe Target.
-seo-title: Solución de problemas de entrega de contenido en Adobe Target
-solution: Target
+description: Si su página no muestra el contenido esperado, puede seguir algunos pasos para depurar la entrega de contenido en Adobe Target.
+title: Solución de problemas de entrega de contenido en Adobe Target
 subtopic: Prueba multivariable
-title: Resolución de problemas de la entrega de contenido
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
