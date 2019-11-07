@@ -1,14 +1,11 @@
 ---
-description: Estas prácticas recomendadas pueden contribuir a que las experiencias funcionen correctamente. También hay que tener en cuenta otros consejos y limitaciones al usar el Compositor de experiencias visuales (VEC).
 keywords: compositor de experiencias visuales;prácticas recomendadas del compositor de experiencias visuales;limitaciones del compositor de experiencias visuales;advertencias del compositor de experiencias visuales;prácticas recomendadas del vec;vec
-seo-description: Estas prácticas recomendadas pueden contribuir a que las experiencias funcionen correctamente. También hay que tener en cuenta otros consejos y limitaciones al usar el Compositor de experiencias visuales (VEC).
-seo-title: Prácticas recomendadas y limitaciones del Compositor de experiencias visuales
-solution: Target
+description: Estas prácticas recomendadas pueden contribuir a que las experiencias funcionen correctamente. También hay que tener en cuenta otros consejos y limitaciones al usar el Compositor de experiencias visuales (VEC).
 title: Prácticas recomendadas y limitaciones del Compositor de experiencias visuales
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
