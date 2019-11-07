@@ -1,13 +1,10 @@
 ---
-description: Muestra los problemas que pueden producirse en determinadas circunstancias en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC).
 keywords: Segmentación;compositor de experiencias visuales;lista de direcciones permitidas;compositor de experiencias visuales mejorado;vec;solución de problemas del compositor de experiencias visuales;solución de problemas;eec;compositor de experiencias mejorado;tls;tls 1.2
-seo-description: Muestra los problemas que pueden producirse en determinadas circunstancias en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC).
-seo-title: Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado
-solution: Target
+description: Muestra los problemas que pueden producirse en determinadas circunstancias en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC).
 title: Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -20,7 +17,7 @@ El VEC es una de las características principales de Adobe Target. El VEC es un 
 
 El EEC es una extensión del VEC que ayuda a editar una experiencia para un sitio con eliminación de iframes o páginas que aún no incluyen la implementación de Target. Si tiene problemas para abrir su página en el VEC, pruebe el EEC.
 
-Para obtener información acerca del VEC y el EEC, consulte [Experiencias](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Para obtener información acerca del VEC y el EEC, consulte  [Experiencias](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Tenga en cuenta que algunos problemas afectan tanto al VEC como a la CEE, y algunos problemas afectan solo a uno de los dos compositores. Revise la página apropiada para encontrar más información.
 
