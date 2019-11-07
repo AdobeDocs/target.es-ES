@@ -1,17 +1,11 @@
 ---
-description: Información sobre la creación de propiedades y el uso de la funcionalidad Propiedades y Permisos, que permite a los administradores de Target crear espacios de trabajo (perfiles de producto) independientes en Target y asignar a los usuarios diferentes roles y permisos para determinadas páginas, propiedades o sitios web basados en dichos espacios de trabajo.
 keywords: espacios de trabajo;administrar la propiedad;permisos;configuración de producto;perfil de producto;roles;proyecto
-seo-description: Información sobre la creación de propiedades y el uso de la funcionalidad Propiedades y Permisos, que permite a los administradores de Target crear espacios de trabajo (perfiles de producto) independientes en Target y asignar a los usuarios diferentes roles y permisos para determinadas páginas, propiedades o sitios web basados en dichos espacios de trabajo.
-seo-title: Permisos de usuario de Enterprise
-solution: Target
-subtopic: Primeros pasos
+description: Información sobre la creación de propiedades y el uso de la funcionalidad Propiedades y Permisos, que permite a los administradores de Target crear espacios de trabajo (perfiles de producto) independientes en Target y asignar a los usuarios diferentes roles y permisos para determinadas páginas, propiedades o sitios web basados en dichos espacios de trabajo.
 title: Permisos de usuario de Enterprise
-title-outputclass: premium
-topic: Premium
+subtopic: Primeros pasos
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -103,7 +97,7 @@ El canal se refiere al tipo de contenido desde donde se suministran sus activida
 
 Cuando se crea una actividad nueva, esta se crea en el espacio de trabajo que está seleccionado. Verá las opciones de selección del canal en el primer cuadro de diálogo que le permite elegir el canal deseado para la actividad: web, aplicación móvil, correo electrónico o API/otro.
 
-## Información general sobre los permisos. {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Información general sobre los permisos.  {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 En esta sección explicamos cómo se aplicaban antes los permisos en [!DNL Target] y cómo se aplican usando la funcionalidad [!UICONTROL Propiedades] y [!UICONTROL permisos].
 
@@ -141,7 +135,7 @@ Además, Jan no podrá ver páginas, propiedades ni sitios en [!DNL Target] para
 
 En este ejemplo, Jan no ve las páginas de productos, el sitio de Rusia ni el sitio de ofertas de empleo.
 
-## Casos de uso. {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Casos de uso.  {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 En los siguientes casos de uso, trataremos de explicar cómo lograr los objetivos de marketing con ayuda de las propiedades, los proyectos y las funciones de [!DNL Target]:
 
