@@ -1,14 +1,10 @@
 ---
-description: Cuando se habilita Analytics como fuente de informes para Target (A4T), se producen varios cambios en el proceso de recopilación de datos.
 keywords: Recommendations
-seo-description: Cuando se habilita Analytics como fuente de informes para Target (A4T), se producen varios cambios en el proceso de recopilación de datos.
-seo-title: Antes de la implementación Adobe Analytics como fuente de informes para Adobe Target (A4T)
-solution: Target
-title: Antes de la implementación
-topic: Premium
+description: Cuando se habilita Analytics como fuente de informes para Target (A4T), se producen varios cambios en el proceso de recopilación de datos.
+title: Antes de la implementación  Adobe Analytics como fuente de informes para Adobe Target (A4T)
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -66,7 +62,7 @@ Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Anal
 
 Tenga en cuenta que el aumento de la latencia empieza después de implementar el servicio de ID de visitante de Experience Cloud, incluso aunque no haya implementado correctamente esta integración.
 
-## ID suplementario. {#section_2C1F745A2B7D41FE9E30915539226E3A}
+## ID suplementario.  {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
 Todas las llamadas de Target que se utilicen en una actividad de A4T para ofrecer contenido o registrar la métrica de objetivos deben tener una coincidencia en Analytics que comparta el mismo ID complementario para que A4T funcione correctamente.
 
