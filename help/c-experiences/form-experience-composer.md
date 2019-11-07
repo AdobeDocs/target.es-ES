@@ -1,14 +1,11 @@
 ---
-description: El Compositor de experiencias basadas en formularios proporciona una creación de experiencias no visual.
 keywords: compositor de experiencias basadas en formularios;compositor basado en formularios;refinamientos
-seo-description: El Compositor de experiencias basadas en formularios proporciona una creación de experiencias no visual.
-seo-title: Compositor de experiencias basadas en formularios
-solution: Target
+description: El Compositor de experiencias basadas en formularios proporciona una creación de experiencias no visual.
 title: Compositor de experiencias basadas en formularios
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -39,7 +36,7 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 
    ![](assets/location_refinements_2.png)
 
-   En el Compositor de experiencias basadas en formularios, los refinamientos se han sustituido por funciones de audiencia completas. Los refinamientos para las actividades existentes se han migrado a [audiencias solo de actividad](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   En el Compositor de experiencias basadas en formularios, los refinamientos se han sustituido por funciones de audiencia completas. Los refinamientos para las actividades existentes se han migrado a  [audiencias solo de actividad](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 1. Seleccione el tipo de contenido que desea que aparezca en esa ubicación.
 
    ![](assets/form_content.png)
