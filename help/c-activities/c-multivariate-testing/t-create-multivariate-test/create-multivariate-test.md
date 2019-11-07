@@ -1,13 +1,10 @@
 ---
-description: El Compositor de experiencias visuales de Target le permite crear su Prueba multivariada (MVT) directamente en una página compatible con Target y modificar las partes de la página desde Target, todo ello de una manera sencilla.
 keywords: mvt; prueba multivariable; crear prueba multivariable; creación de prueba multivariable; crear mvt; creación de mvt, procedimiento de mvt; procedimiento de prueba multivariable
-seo-description: El Compositor de experiencias visuales (VEC) de Adobe Target le permite crear su prueba multivariada (MVT) directamente en una página compatible con Target y modificar las partes de la página desde Target, todo ello de una manera sencilla.
-seo-title: Crear una prueba multivariable
-solution: Target
+description: El Compositor de experiencias visuales (VEC) de Adobe Target le permite crear su prueba multivariada (MVT) directamente en una página compatible con Target y modificar las partes de la página desde Target, todo ello de una manera sencilla.
 title: Crear una prueba multivariable
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
