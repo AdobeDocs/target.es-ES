@@ -1,13 +1,11 @@
 ---
-description: Utilice métricas en una prueba multivariable para determinar si una visita es satisfactoria.
 keywords: multivariable;mvt;métricas;definir métricas;métrica de objetivo;configuración de actividades;métrica de éxito;conversión;ingresos;participación
-seo-description: Utilice métricas en una prueba multivariable para determinar si una visita es satisfactoria.
-seo-title: Definir métricas
-solution: Target,estándar
+description: Utilice métricas en una prueba multivariable para determinar si una visita es satisfactoria.
 title: Definir métricas
+solution: Target,estándar
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Utilice métricas en una prueba multivariable para determinar si una visita es satisfactoria.
 
-Para obtener información detallada sobre las métricas de éxito, consulte [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Para obtener información detallada sobre las métricas de éxito, consulte  [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Especificar el objetivo de la actividad.
 1. Seleccionar una [métrica de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
@@ -37,7 +35,7 @@ Para obtener información detallada sobre las métricas de éxito, consulte [Mé
 
    La configuración correcta de las métricas de éxito es crítica para asegurarse de que obtiene los datos esperados.
 
-   Para obtener más información, consulte [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+   Para obtener más información, consulte  [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. (Opcional) Añada otras métricas.
 1. Haga clic en **[!UICONTROL Continuar]** cuando termine de configurar las métricas. Tenga en cuenta que cuando nombra o renombra una métrica, no se permiten los siguientes caracteres:
 
