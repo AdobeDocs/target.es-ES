@@ -1,16 +1,11 @@
 ---
-description: Se puede generar una dirección URL de experiencia para cada actividad de personalización automatizada de Target para ver el contenido de la experiencia directamente en el sitio antes de que la actividad se publique. De este modo, se puede obtener una vista previa y realizar un control de calidad. Las direcciones URL de experiencias evitan la segmentación para forzar la visualización de una experiencia determinada.
 keywords: vista previa de experiencias;direcciones URL de experiencia;generar direcciones URL;ver direcciones URL de experiencia
-seo-description: Se puede generar una dirección URL de experiencia para cada actividad de personalización automatizada de Target para ver el contenido de la experiencia directamente en el sitio antes de que la actividad se publique. De este modo, se puede obtener una vista previa y realizar un control de calidad. Las direcciones URL de experiencias evitan la segmentación para forzar la visualización de una experiencia determinada.
-seo-title: Compartir URL de experiencia para previsualizar la personalización automatizada fuera de Target
-solution: Target
+description: Se puede generar una dirección URL de experiencia para cada actividad de personalización automatizada de Target para ver el contenido de la experiencia directamente en el sitio antes de que la actividad se publique. De este modo, se puede obtener una vista previa y realizar un control de calidad. Las direcciones URL de experiencias evitan la segmentación para forzar la visualización de una experiencia determinada.
 title: Compartir URL de experiencia para previsualizar la personalización automatizada fuera de Target
-title-outputclass: premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
