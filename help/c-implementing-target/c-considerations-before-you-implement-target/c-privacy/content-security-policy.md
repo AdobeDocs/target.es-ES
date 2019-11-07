@@ -1,14 +1,11 @@
 ---
-description: Información sobre las directivas de Content Security Policy (CSP) que debe agregar al usar Adobe Target at.js 2.1 o posterior.
 keywords: directiva de seguridad de contenido;csp;at.js;lista de elementos permitidos;parpadeo;ocultar previamente;ocultar previamente;ocultar previamente
-seo-description: Información sobre las directivas de Content Security Policy (CSP) que debe agregar al usar Adobe Target at.js 2.1 o posterior.
-seo-title: Directivas de seguridad de contenido (CSP)
-solution: Target
+description: Información sobre las directivas de Content Security Policy (CSP) que debe agregar al usar Adobe Target at.js 2.1 o posterior.
+title: Directivas de seguridad de contenido (CSP)
 subtopic: Primeros pasos
-title: Directivas de directiva de seguridad de contenido (CSP)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
