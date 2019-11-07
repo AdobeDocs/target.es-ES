@@ -1,13 +1,10 @@
 ---
-description: Puede crear audiencias que estén basadas en datos de la red.
 keywords: segmentación;red;red de target;isp;nombre de dominio;velocidad de conexión;isp de target;nombre de dominio de target;velocidad de conexión de target
-seo-description: Puede crear audiencias en Adobe Target basadas en los detalles de la red.
-seo-title: Cree audiencias en Adobe Target basadas en los detalles de la red.
-solution: Target
-title: Red
+description: Puede crear audiencias en Adobe Target basadas en los detalles de la red.
+title: Cree audiencias en Adobe Target basadas en los detalles de la red.
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
