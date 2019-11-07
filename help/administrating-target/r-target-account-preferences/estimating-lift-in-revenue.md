@@ -1,14 +1,11 @@
 ---
-description: Target puede calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora.
 keywords: ingresos;alza de ingresos;aumento estimado de ingresos;estimar alza;valor estimado
-seo-description: Target puede calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora.
-seo-title: Estimar el aumento de ingresos
-solution: Target
+description: Target puede calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora.
 title: Estimar el aumento de ingresos
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
