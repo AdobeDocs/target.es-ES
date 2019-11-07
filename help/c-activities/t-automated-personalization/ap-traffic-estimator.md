@@ -1,15 +1,10 @@
 ---
 description: El estimador de tráfico proporciona información que le permite conocer si tiene tráfico suficiente para que tenga éxito su actividad.
-seo-description: El estimador de tráfico proporciona información que le permite conocer si tiene tráfico suficiente para que tenga éxito su actividad.
-seo-title: Calcular el tráfico necesario para realizar una prueba con éxito
-solution: Target
 title: Calcular el tráfico necesario para realizar una prueba con éxito
-title-outputclass: Premium
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
