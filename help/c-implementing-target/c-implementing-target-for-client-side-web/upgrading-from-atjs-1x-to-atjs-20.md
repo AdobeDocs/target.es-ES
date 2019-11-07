@@ -1,14 +1,11 @@
 ---
-description: Actualización de at.js 1.*x* a at.js 2.*x*
 keywords: lanzamientios de at.js;versiones de at.js;aplicación de una sola página;spa;dominio cruzado;cross-domain
-seo-description: Información detallada sobre la actualización de Adobe Target at.js 1.*x* a at.js versión 2.0.0
-seo-title: Actualice desde Adobe Target at.js versión 1.*x* a at.js versión 2.*x*
-solution: Target
+description: Información detallada sobre la actualización de Adobe Target at.js 1.*x* a at.js versión 2.0.0
+title: Actualice desde Adobe Target at.js versión 1.*x* a at.js versión 2.*x*
 subtopic: Primeros pasos
-title: Actualización de at.js 1.*x* a at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
