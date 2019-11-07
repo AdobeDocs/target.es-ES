@@ -1,14 +1,11 @@
 ---
-description: Algunos navegadores no permiten visualizar las páginas donde se combina contenido seguro con contenido no seguro.
 keywords: contenido mixto;seguro;inseguro;chrome;solución de problemas;vec;compositor de experiencias visuales;no garantizado
-seo-description: Algunos navegadores no permiten visualizar las páginas donde se combina contenido seguro con contenido no seguro.
-seo-title: Habilitar contenido mixto en el navegador
-solution: Target
+description: Algunos navegadores no permiten visualizar las páginas donde se combina contenido seguro con contenido no seguro.
 title: Habilitar contenido mixto en el navegador
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -73,7 +70,7 @@ target/t_mixed_content_ie.xml
 
 Se recomienda reiniciar el equipo después de cambiar esta opción.
 
-## Habilitar contenido mixto en Chrome  {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Habilitar contenido mixto en Chrome   {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Si va a visitar un sitio a través de una conexión segura, Google Chrome verificará que el contenido de la página web se haya transmitido correctamente.
 
