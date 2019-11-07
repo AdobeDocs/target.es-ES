@@ -1,13 +1,10 @@
 ---
-description: Los filtros de audiencia (o audiencias) son grupos de visitantes que comparten una característica o un conjunto de características específicos.
-keywords: Segmentación;filtro de audiencia;audiencias;filter
-seo-description: Los filtros de audiencia en Adobe Target (o audiencias) son grupos de visitantes que comparten una característica o un conjunto de características específicos.
-seo-title: Filtros de audiencia para informes en Adobe Target
-solution: Target
-title: Filtros de audiencia para la creación de informes
+keywords: Segmentación;filtro de audiencia;audiencias;filtro
+description: Los filtros de audiencia en Adobe Target (o audiencias) son grupos de visitantes que comparten una característica o un conjunto de características específicos.
+title: Filtros de audiencia para informes en Adobe Target
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -22,7 +19,7 @@ Por ejemplo, una audiencia puede ser la de los visitantes que llegan a la págin
 
 Cuando vaya a utilizar filtros de audiencia en una actividad, tenga en cuenta las pautas siguientes:
 
-* **Los visitantes pueden estar en varias audiencias.** If there are two audiences set up (for example, "new visitors" and "visitors from Google"), and a person meets both criteria, then this visitor is counted and tracked in both audiences. Por lo tanto, la suma de los visitantes de las audiencias no coincide con el número de visitantes de una actividad.
+* **Los visitantes pueden estar en varias audiencias.** Si hay dos audiencias configuradas (por ejemplo, "visitantes nuevos" y "visitantes de Google") y una persona cumple ambos criterios, entonces este visitante se cuenta y se rastrea en ambas audiencias. Por lo tanto, la suma de los visitantes de las audiencias no coincide con el número de visitantes de una actividad.
 * **Configure las audiencias antes de iniciar la actividad.** Los datos de audiencia no se pueden recuperar de manera retroactiva. Si no configura los filtros de audiencia antes de iniciar la actividad y luego decide usarlos cuando esta ya lleva un tiempo en marcha, no recabará los datos correspondientes al tiempo que ya ha pasado.
 * **Empiece con un número de audiencias de entre dos y cuatro.** Céntrese en la información básica, como la fuente del tráfico.
 * **Cambie el nombre de las audiencias cuando sea necesario.** Puede cambiarles el nombre sin que ello afecte a los datos con el fin de que el nombre de la audiencia represente mejor los resultados que se están recopilando aunque la actividad esté activa.
