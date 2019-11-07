@@ -1,13 +1,10 @@
 ---
-description: Usuarios de Target según las reglas de segmentación prediseñadas.
 keywords: Segmentación;biblioteca de segmentos;biblioteca
-seo-description: Usuarios de Target según las reglas de segmentación prediseñadas.
-seo-title: Biblioteca de segmentos
-solution: Target
+description: Usuarios de Target según las reglas de segmentación prediseñadas.
 title: Biblioteca de segmentos
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -16,7 +13,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Usuarios de Target según las reglas de segmentación prediseñadas.
 
-Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Si desea conocer más información y prácticas recomendadas, consulte [Preguntas más frecuentes sobre audiencias y segmentación de experiencias](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Si desea conocer más información y prácticas recomendadas, consulte  [Preguntas más frecuentes sobre audiencias y segmentación de experiencias](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 >[!NOTE]
 >
