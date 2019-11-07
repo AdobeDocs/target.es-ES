@@ -1,16 +1,10 @@
 ---
-description: Información para ayudarlo a elegir entre Recommendations Classic y actividades de Recommendations en Target Premium.
 keywords: Recommendations;algoritmos de Recommendations;actividad de Recommendations;Recommendations Classic
-seo-description: Información para ayudarlo a elegir entre Recommendations Classic y actividades de Recommendations en Target Premium.
-seo-title: Comparación entre Recommendations Classic y actividades de Recommendations en Target Premium
-solution: Target
+description: Información para ayudarlo a elegir entre Recommendations Classic y actividades de Recommendations en Target Premium.
 title: Comparación entre Recommendations Classic y actividades de Recommendations en Target Premium
-title-outputclass: premium
-topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -61,10 +55,10 @@ Para obtener más información sobre el uso y la creación de criterios, consult
 El flujo de trabajo de [!DNL Recommendations] se ha simplificado. En lugar de tener que rellenar complicados formularios, solo tiene que seguir un flujo de trabajo visual para:
 
 1. Seleccionar el criterio.
-1. Seleccione un  [diseño](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Seleccione un   [diseño](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Obtener una vista previa de las recomendaciones resultantes.
 
-## Vista previa  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Vista previa   {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Puede obtener una vista previa de las recomendaciones después de configurarlas y realizar los cambios necesarios sin necesidad de crearlas en la página, publicarlas y probarlas. Las vistas previas están disponibles desde [!DNL Target].
 
@@ -74,7 +68,7 @@ En [!DNL Recommendations Classic] había seis opciones de segmentación. Las act
 
 ![](assets/overview_targeting.png)
 
-## Informes {#section_25C2FCCE4BC1488496C517C0470B5CD6}
+## Creación de informes{#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 En [!DNL Target], [!DNL Recommendations] genera informes mejorados que aprovechan las capacidades de [!DNL Target] y [!DNL Experience Cloud]. En lugar de mostrar simplemente el alza proporcionada por [!DNL Recommendations] comparada con los resultados sin ellas, puede ver información completa sobre su actividad de [!DNL Recommendations].
 
