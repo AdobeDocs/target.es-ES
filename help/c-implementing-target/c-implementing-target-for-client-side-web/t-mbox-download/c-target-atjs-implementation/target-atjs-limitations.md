@@ -1,14 +1,10 @@
 ---
-description: Existen algunas diferencias entre at.js y mbox.js. En esta sección se señalan algunas de las diferencias y limitaciones para ayudarle a usar correctamente at.js.
 keywords: limitaciones del compositor de experiencias visuales;compatibilidad con exploradores;integraciones;complementos;consideraciones asíncronas
-seo-description: Existen algunas diferencias entre at.js y mbox.js. En esta sección se señalan algunas de las diferencias y limitaciones para ayudarle a usar correctamente at.js.
-seo-title: Limitaciones de at.js
-solution: Target
+description: Existen algunas diferencias entre at.js y mbox.js. En esta sección se señalan algunas de las diferencias y limitaciones para ayudarle a usar correctamente at.js.
 title: Limitaciones de at.js
-topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +19,7 @@ Existen algunas diferencias entre at.js y mbox.js. En esta sección se señalan 
 
    Como el DOM no se borra en los eventos de carga de página en aplicaciones de una sola página como sí se hace con sitios web tradicionales, las manipulaciones de Insertar elemento y Reorganizar podrían volver a aplicarse varias veces en función de cómo el visitante navega por el SPA.
 
-## Integraciones y complementos  {#section_D92E31170176406AAC7B5005F03D3425}
+## Integraciones y complementos   {#section_D92E31170176406AAC7B5005F03D3425}
 
 Algunas funciones dentro de [!DNL mbox.js] no están disponibles en [!DNL at.js]. Los [objetos y métodos de mbox.js](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (como `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` y otros) ya no son compatibles con [!DNL at.js] (por ejemplo: `mboxFactoryDefault`). Esto es intencional con el fin de desalentar que “hackee” [!DNL at.js] para desarrollar funcionalidad incompatible que a largo plazo pudiera dañar irreversiblemente una implementación e imposibilitar toda actualización. Los únicos métodos expuestos se cubren en las páginas de API de esta documentación. Debido a ello:
 
