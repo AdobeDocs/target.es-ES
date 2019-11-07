@@ -1,15 +1,12 @@
 ---
-description: La aplicación y la entrega de contenido de Adobe Target se han probado en un amplio abanico de navegadores y dispositivos.
 keywords: requisitos previos;requisitos;exploradores;internet explorer;chrome;firefox;safari;android;surface
-seo-description: La aplicación y la entrega de contenido de Adobe Target se han probado en un amplio abanico de navegadores y dispositivos.
-seo-title: Navegadores admitidos
-solution: Target
-subtopic: Primeros pasos
+description: La aplicación y la entrega de contenido de Adobe Target se han probado en un amplio abanico de navegadores y dispositivos.
 title: Navegadores admitidos
+subtopic: Primeros pasos
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
