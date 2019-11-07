@@ -1,14 +1,11 @@
 ---
-description: Puede segmentar visitantes que usen un sistema operativo determinado.
 keywords: Segmentación;sistema operativo Target;sistema operativo;so target;target en linux;linux;target en windows;windows;target en macintosh;macintosh;mac;target en mac;win;target en win
-seo-description: Puede segmentar visitantes que usen un sistema operativo determinado.
-seo-title: Sistema operativo
-solution: Target
+description: Puede segmentar visitantes que usen un sistema operativo determinado.
 title: Sistema operativo
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
