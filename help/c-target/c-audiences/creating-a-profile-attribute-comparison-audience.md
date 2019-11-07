@@ -1,14 +1,11 @@
 ---
-description: Defina una audiencia con el fin de comparar dos atributos de perfil para su Biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
 keywords: audiencia;inclinación;atributo de perfil;comparar;comparación;crear audiencia;creación de audiencia
-seo-description: Defina una audiencia con el fin de comparar dos atributos de perfil para su Biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
-seo-title: Crear una audiencia de comparación de atributos de perfil. en Adobe Target
-solution: Target
-title: Crear una audiencia de comparación de atributos de perfil
+description: Defina una audiencia con el fin de comparar dos atributos de perfil para su Biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
+title: Crear una audiencia de comparación de atributos de perfil.  en Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -32,7 +29,7 @@ Por ejemplo, supongamos que trabaja para una empresa de muebles y que ha cargado
 
 Podría crear una audiencia definida como que la inclinación a comprar mobiliario de comedor es mayor que la inclinación a comprar mobiliario de salón. A continuación, Target compara dinámicamente las puntuaciones de inclinación hacia comedor y salón de un visitante específico para determinar si el visitante entra o no en la audiencia.
 
-Para obtener más información, consulte [Métodos para obtener los datos en Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Para obtener más información, consulte [Métodos para obtener datos en Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 ## Crear una audiencia de comparación de atributos de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
