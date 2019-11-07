@@ -1,14 +1,11 @@
 ---
-description: Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
 keywords: resolución de problemas;preguntas más frecuentes;FAQ;FAQs;objetivos;audiencias
-seo-description: Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
-seo-title: Preguntas más frecuentes sobre audiencias y segmentación
-solution: Target
+description: Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
 title: Preguntas más frecuentes sobre audiencias y segmentación
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
