@@ -1,13 +1,10 @@
 ---
-description: Adobe Target se integra con sus páginas web mediante la biblioteca de JavaScript at.js o mbox.js.
 keywords: segmentación;cookie de origen
-seo-description: Adobe Target se integra con sus páginas web mediante la biblioteca de JavaScript at.js o mbox.js.
-seo-title: Funcionamiento de la segmentación
-solution: Target
+description: Adobe Target se integra con sus páginas web mediante la biblioteca de JavaScript at.js o mbox.js.
 title: Funcionamiento de la segmentación
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
