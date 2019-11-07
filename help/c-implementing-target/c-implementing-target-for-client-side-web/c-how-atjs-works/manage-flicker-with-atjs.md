@@ -1,14 +1,11 @@
 ---
-description: Información sobre cómo la biblioteca de JavaScript de at.js de Target evita el parpadeo mientras se carga una página o una aplicación.
 keywords: parpadeo;at.js;implementación
-seo-description: Información sobre cómo la biblioteca de JavaScript de at.js de Adobe Target evita el parpadeo mientras se carga una página o una aplicación.
-seo-title: Gestión de parpadeos de Adobe Target at.js
-solution: Target
-title: Cómo gestiona at.js el parpadeo
+description: Información sobre cómo la biblioteca de JavaScript de at.js de Adobe Target evita el parpadeo mientras se carga una página o una aplicación.
+title: Gestión de parpadeos de Adobe Target at.js
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
