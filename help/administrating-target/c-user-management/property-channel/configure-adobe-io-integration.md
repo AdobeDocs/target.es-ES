@@ -1,66 +1,63 @@
 ---
-description: Información sobre la concesión de acceso a integraciones de Adobe I/O a todos los espacios de trabajo con la función deseada.
-keywords: integración;funciones;permisos de usuario;consola de administración
-seo-description: Información sobre la concesión de acceso a integraciones de Adobe I/O existentes a todos los espacios de trabajo con la función deseada en Adobe Target
-seo-title: Conceder a las integraciones de Adobe I/O acceso a espacios de trabajo y asignar funciones en Adobe Target
-solution: Target
+keywords: integración; funciones; permisos de usuario; admin console
+description: Información sobre la concesión de acceso a integraciones de Adobe I/O a todos los espacios de trabajo con la función deseada en Adobe Target
+title: Conceder acceso a las integraciones de Adobe I/O a espacios de trabajo y asigne funciones en Adobe Target
 subtopic: Primeros pasos
-title: Conceder a las integraciones de Adobe I/O acceso a espacios de trabajo y asignar funciones
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) otorga a las integraciones de E/S de Adobe acceso a espacios de trabajo y asignación de funciones
+# ![PREMIUM](/help/assets/premium.png) Concesión de acceso a integraciones de Adobe I/O a espacios de trabajo y asignación de funciones
 
-[!UICONTROL Los permisos] de Enterprise permiten a [!DNL Target] los clientes utilizar una sola organización, pero dividirla en espacios de trabajo para sus distintos equipos o flujos de trabajo.
+Los [!UICONTROL Permisos de Enterprise] permiten [!DNL Target] a los clientes utilizar una sola organización, pero dividirla en espacios de trabajo para distintos equipos o flujos de trabajo.
 
 >[!NOTE]
 >
 >La funcionalidad Propiedades y Permisos está disponible como parte de la solución [Target Premium](/help/c-intro/intro.md#premium). No están disponibles en [!DNL Target Standard] sin una licencia de [!DNL Target Premium].
 
-La función Permisos [!UICONTROL de] empresa facilita la escalada efectiva de los programas de optimización entre equipos. Aunque la función estaba disponible en la interfaz de usuario, las API de administración carecían de la compatibilidad correspondiente hasta principios de 2019. [!DNL Target] En la versión [!DNL Target] de febrero de 2019, Adobe actualizó las API de administración para que pueda utilizar la cuenta de integración para acceder a todos los espacios de trabajo creados en su organización. Por lo tanto, aunque antes las API de administración estaban restringidas solo al espacio de trabajo predeterminado, la actualización de febrero de 2019 otorgaba acceso a todos los espacios de trabajo con acceso de [!UICONTROL aprobador] .
+La funcionalidad de [!UICONTROL Permisos de Enterprise] facilita la escala efectiva de los programas de optimización entre los equipos. Aunque la funcionalidad estaba disponible en la interfaz de usuario de [!DNL Target], las API de administrador no tenían la compatibilidad correspondiente hasta principios de 2019. En la versión de febrero de 2019 de [!DNL Target], Adobe actualizó las API de administrador para que se pueda utilizar la cuenta de integración para acceder a todos los espacios de trabajo creados en su organización. Por tanto, las API de administrador estaban restringidas únicamente al espacio de trabajo predeterminado, pero dicha actualización de febrero de 2019 ha permitido el acceso a todos los espacios de trabajo con acceso de [!UICONTROL Aprobador].
 
-Con la versión de [!DNL Target] septiembre de 2019, Permisos [!DNL Target] de  empresa proporciona a los clientes los siguientes controles de acceso:
+With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] provides customers with the following access controls:
 
 * Puede elegir los espacios de trabajo a los que se puede aplicar la integración
-* Puede aplicar una función a la integración de Adobe I/O: [!UICONTROL Aprobador], [!UICONTROL Editor]u [!UICONTROL Observador].
+* Puede aplicar una función a la integración de Adobe I/O: [!UICONTROL Aprobador], [!UICONTROL Editor] u [!UICONTROL Observador].
 
-Esta actualización admite los siguientes casos de uso:
+Esta actualización es compatible con los siguientes ejemplos prácticos:
 
-* Otorgue a la integración de Adobe I/O acceso a todos los espacios de trabajo con la función de [!UICONTROL observador] para la realización de informes sin derechos para crear o editar recursos.
-* Otorgue a la integración de Adobe I/O el acceso para seleccionar espacios de trabajo con la función adecuada para permitir que un equipo central realice cambios impulsados por API en sólo unos pocos espacios de trabajo.
-* Permita que cada equipo propietario de su espacio de trabajo tenga su propia integración cuando el equipo esté listo para explorar las API y elija la función en consecuencia.
-* Mezclar y hacer coincidir cualquiera de los escenarios anteriores.
+* Conceder acceso a la integración de Adobe I/O a todos los espacios de trabajo con la función [!UICONTROL Observador] con fines de creación de informes sin tener derechos para crear o editar recursos.
+* Conceder acceso a la integración de Adobe I/O para seleccionar espacios de trabajo con la función apropiada para permitir que un equipo central realice cambios controlados por API solo en unos pocos espacios de trabajo.
+* Permitir que cada equipo propietario de su espacio de trabajo tenga su propia integración siempre que el equipo esté listo para explorar las API y elija la función correspondiente.
+* Cualquier combinación de los escenarios anteriores.
 
-**Acción necesaria**: Los clientes que actualmente utilizan API para operaciones de CRUD en recursos (actividades, audiencias, ofertas e informes) en todos los espacios de trabajo deben otorgar a su integración de Adobe I/O existente acceso a todos los espacios de trabajo con la función deseada según el caso de uso. Para ello, seleccione cada perfil [!DNL Target] de [!UICONTROL producto] en la ficha [!DNL Adobe Admin Console] y agregue las integraciones en la ficha [!UICONTROL Integración] . Antes de la versión de septiembre, todas las integraciones funcionaban mediante el acceso de [!UICONTROL aprobador] , independientemente de la opción que se haya seleccionado en la lista desplegable Función [!UICONTROL del] producto. Ahora puede elegir la función deseada.
+**Acción necesaria**: Los clientes que actualmente aprovechan las API para operaciones de CRUD en recursos (actividades, audiencias, ofertas e informes) en todos los espacios de trabajo deben conceder su acceso de integración de Adobe I/O a todos los espacios de trabajo con la función deseada según su uso. Para ello, seleccione cada [!DNL Target] [!UICONTROL Perfil de producto] en [!DNL Adobe Admin Console] y agregue las integraciones en la pestaña [!UICONTROL Integración]. Antes de la versión de septiembre, todas las integraciones operaban con el acceso de [!UICONTROL Aprobador], independientemente de la opción que se realice en la lista desplegable [!UICONTROL Función] del producto. Ahora puede elegir la función que desee.
 
 >[!NOTE]
 >
->Si no se realiza esta acción, después de la versión de [!DNL Target] septiembre de 2019, los controles de acceso se activarán y observará el acceso sólo al espacio de trabajo predeterminado si así es como está configurado actualmente. No hay ninguna reacción adversa a la hora de configurar integraciones por adelantado. Cuanto antes hagas este cambio, mejor. En función del número de espacios de trabajo de la organización, este proceso requiere sólo unos pocos clics para agregar una integración existente a espacios de trabajo con la función deseada.
+>Si no se realiza esta acción, después de la versión de septiembre de 2019 de [!DNL Target], los controles de acceso se activarán y tendrá acceso solo al espacio de trabajo predeterminado (si es su configuración actual). Se pueden configurar integraciones por adelantado sin problema. Cuanto antes realice este cambio, mejor. En función del número de espacios de trabajo de la organización, este proceso requiere sólo unos pocos clics para agregar una integración existente a espacios de trabajo con la función deseada.
 
-**Para otorgar a las integraciones de Adobe I/O acceso a espacios de trabajo y asignar funciones:**
+**Para conceder acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones:**
 
-1. Abra **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
-1. Click the **[!UICONTROL Products]** tab, then select the name of the desired product.
+1. Haga clic en la pestaña **[!UICONTROL Productos]** y luego seleccione el nombre del producto deseado.
 
-   ![Elija un producto en Adobe Admin Console](/help/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
+   ![Elija el producto en Adobe Admin Console](/help/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
 
-1. Seleccione el espacio de trabajo deseado (perfil de producto).
+1. Seleccione el espacio de trabajo (Perfil de producto) deseado.
 
    ![Seleccione el perfil de producto](/help/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
 
-1. Click the **[!UICONTROL Integrations]** tab.
+1. Haga clic en la pestaña **[!UICONTROL Integraciones]**.
 
-   ![Ficha Integraciones](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
+   ![Pestaña Integraciones](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
 1. (Condicional) Para agregar una nueva integración, haga clic en **[!UICONTROL Agregar integración]**, seleccione la integración que desee y haga clic en **[!UICONTROL Guardar]**.
 
-1. En la lista desplegable Función **** del producto, seleccione la función que desee para ese espacio de trabajo:
+1. En la lista desplegable **[!UICONTROL Función del producto]**, seleccione la función que desee para ese espacio de trabajo:
 
    * [!UICONTROL Aprobador]
    * [!UICONTROL Editor]
    * [!UICONTROL Observador]
-   ![Elegir función de perfil de producto](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   ![Elija la función Perfil de producto](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
