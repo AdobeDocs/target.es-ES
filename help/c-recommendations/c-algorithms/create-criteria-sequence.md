@@ -1,16 +1,10 @@
 ---
-description: Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de recomendaciones.
 keywords: secuencia de criterios;varios criterios;algoritmos;criterios;criterios de recomendación
-seo-description: Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de recomendaciones.
-seo-title: Crear secuencias de criterios
-solution: Target
+description: Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de recomendaciones.
 title: Crear secuencias de criterios
-title-outputclass: premium
-topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -92,12 +86,12 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear secuencia de cr
 
    Para obtener más información sobre opciones de lógica de recomendación, consulte [Criterios](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vídeo de capacitación: Crear criterios en Recomendaciones (12:33)
+## Vídeo de formación: Crear criterios en Recommendations (12:33)
 
-Este vídeo contiene la siguiente información:
+Este vídeo contiene la información siguiente:
 
 * Crear criterios
 * Crear secuencias de criterios
-* Cargar criterios personalizados.
+* Cargar criterios personalizados
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=spa)
