@@ -1,15 +1,12 @@
 ---
-description: Este tema contiene sugerencias para resolver algunos problemas que podrían producirse al diseñar una prueba MVT.
 keywords: Editor de experiencia de web móvil
-seo-description: Este tema contiene sugerencias para resolver algunos problemas que podrían producirse al diseñar una prueba MVT.
-seo-title: Resolución de problemas de pruebas multivariada
-solution: Target
-subtopic: Ventanillas móviles
+description: Este tema contiene sugerencias para resolver algunos problemas que podrían producirse al diseñar una prueba MVT.
 title: Resolución de problemas de pruebas multivariada
+subtopic: Ventanillas móviles
 topic: Standard
 uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
