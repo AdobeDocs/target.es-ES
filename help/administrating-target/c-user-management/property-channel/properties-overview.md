@@ -1,17 +1,11 @@
 ---
-description: Información sobre las tareas necesarias para añadir usuarios a la implementación de Target; crear espacios de trabajo, grupos de usuarios y propiedades; actualizar la implementación de Target para incluir el parámetro at_property; y especificar funciones y permisos.
 keywords: añadir usuario;proyecto;grupo de usuarios;espacio de trabajo;propiedades;propiedad;administrar propiedad;at_property;funciones;permisos
-seo-description: Información sobre las tareas necesarias para añadir usuarios a la implementación de Adobe Target; crear espacios de trabajo, grupos de usuarios y propiedades; actualizar la implementación de Target para incluir el parámetro at_property; y especificar funciones y permisos.
-seo-title: Configuración de permisos de Enterprise
-solution: Target
-subtopic: Primeros pasos
+description: Información sobre las tareas necesarias para añadir usuarios a la implementación de Adobe Target; crear espacios de trabajo, grupos de usuarios y propiedades; actualizar la implementación de Target para incluir el parámetro at_property; y especificar funciones y permisos.
 title: Configuración de permisos de Enterprise
-title-outputclass: premium
-topic: Premium
+subtopic: Primeros pasos
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -87,7 +81,7 @@ Los usuarios pueden formar parte de varios espacios de trabajo y pueden incluso 
 
 Tendrá que pasar el ID de espacio de trabajo para aprovechar los permisos de Enterprise en [las API de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
-1. En [Adobe Admin Console](https://adminconsole.adobe.com), haga clic en la pestaña [!UICONTROL Productos] y, a continuación, seleccione el producto en el menú izquierdo para mostrar la lista PLC (espacio de trabajo).
+1. En [Adobe Admin Console](https://adminconsole.adobe.com), haga clic en la ficha [!UICONTROL Productos] y, a continuación, haga clic en el producto en el menú izquierdo para mostrar la lista PLC (espacio de trabajo).
 1. Haga clic en el PLC (espacio de trabajo) deseado y luego busque el ID de «perfiles» en la URL, como se muestra a continuación.
 
    ![ID de trabajo](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
@@ -169,7 +163,7 @@ Para utilizar la funcionalidad de permisos de usuario de [!DNL Target], debe añ
 
       ![](assets/property_token_3.png)
 
-      Para obtener más información sobre cómo realizar esto con at.js, consulte [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) y  [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
+      Para obtener más información sobre cómo realizar esto con at.js, consulte  [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) y  [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Paso 6: Especificar funciones y permisos {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
