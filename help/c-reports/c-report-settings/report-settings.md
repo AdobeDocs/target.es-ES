@@ -1,14 +1,10 @@
 ---
-description: Información para configurar los elementos que quiere que aparezcan en el informe. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
 keywords: Target;informes;configuración de informes;ajuste preestablecido;ajuste preestablecido de Target;métrica;audiencia;intervalo de fechas;configuración;descarga;vista de tabla;vista de gráfico;alza promedio;alza;límite de alza;intervalo de confianza;confianza;contribución de ubicación;promedio actual;metodología de recuento
-seo-description: Información para configurar los elementos que quiere que aparezcan en el informe. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
-seo-title: Configuración de informes
-solution: Target
+description: Información para configurar los elementos que quiere que aparezcan en el informe. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
 title: Configuración de informes
-topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -92,7 +88,7 @@ Haga clic en la lista desplegable **[!UICONTROL Métrica de informes]** para sel
 
 De manera predeterminada, la métrica principal se determina al configurar las métricas de éxito al crear la actividad. Si cambia la configuración y vuelve a guardar la actividad, se actualizará la métrica principal para informes.
 
-Para obtener más información acerca de la selección de varias métricas que se deben visualizar en los informes, consulte [Visualización de varias métricas en un informe](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Para obtener más información acerca de la selección de varias métricas que se deben visualizar en los informes, consulte  [Visualización de varias métricas en un informe](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Audiencia {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -150,11 +146,11 @@ Haga clic en el icono de descarga para descargar datos de informes en formato [!
 
 Haga clic en Actualizar para actualizar la tabla y la visualización de gráfico de un informe sin necesidad de actualizar toda la página, su configuración o su intervalo de fechas.
 
-## Más opciones. {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## Más opciones.  {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Haga clic en el icono de Más opciones (tres elipses verticales) para acceder a las opciones [!UICONTROL Editar actividad] y [!UICONTROL Ver las URL de la experiencia].
 
-## Visualización de tabla. {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Visualización de tabla.  {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
 Haga clic en el icono de **[!UICONTROL Visualización de tabla]para ver el informe como una tabla.**
 
@@ -173,7 +169,7 @@ Tenga en cuenta lo siguiente:
 * Solo disponible al ver informes en la vista Tabla.
 * Esta característica no está disponible para actividades que utilicen Analytics como fuente de informes (A4T).
 
-## Contribución de ubicación. {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Contribución de ubicación.  {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Haga clic en el icono de **[!UICONTROL Contribución de ubicación]para que el informe muestre la contribución por ubicación.**
 
