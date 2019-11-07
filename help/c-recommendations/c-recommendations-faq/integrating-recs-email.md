@@ -1,16 +1,11 @@
 ---
-description: Información acerca del modo de integrar el correo electrónico con Recommendations.
 keywords: correo electrónico;ESP;proveedor de servicio de correo electrónico;rawbox;api de envío;plantilla de solo descarga;plantilla de correo electrónico;procesamiento por lotes;hora de creación del correo electrónico
-seo-description: Información acerca del modo de integrar el correo electrónico con Recommendations.
-seo-title: Integrar Recommendations con el correo electrónico
-solution: Target
+description: Información acerca del modo de integrar el correo electrónico con Recommendations.
 title: Integrar Recommendations con el correo electrónico
-title-outputclass: premium
 topic: Las actividades de
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -21,7 +16,7 @@ Información acerca del modo de integrar el correo electrónico con Recommendati
 
 Las funcionalidades del proveedor de servicios de correo electrónico determinan el método que se debe utilizar. Su administrador de cuenta o asesor puede ayudarle a elegir la opción más adecuada para usted.
 
-## Opción 1: usar la API de envío  {#section_9F00D271BABA4B7390B461F4C44EC319}
+## Opción 1: usar la API de envío   {#section_9F00D271BABA4B7390B461F4C44EC319}
 
 La API de envío es una solicitud POST que funciona con la hora de creación de correo electrónico. Esta opción es el método preferido para la hora de creación de correo electrónico.
 
