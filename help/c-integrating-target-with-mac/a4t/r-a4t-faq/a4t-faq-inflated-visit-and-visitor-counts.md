@@ -1,14 +1,11 @@
 ---
-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre los recuentos inflados de visitas y visitantes al usar Analytics como fuente de informes para Target (A4T).
 keywords: preguntas frecuentes;faq;analytics para target;a4T;visita;infladas;visitante;visita parcial;huérfano;huérfana
-seo-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre los recuentos inflados de visitas y visitantes al usar Analytics como fuente de informes para Target (A4T).
-seo-title: 'Recuentos inflados de visitas y visitantes: preguntas más frecuentes sobre A4T'
-solution: Target
+description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre los recuentos inflados de visitas y visitantes al usar Analytics como fuente de informes para Target (A4T).
 title: 'Recuentos inflados de visitas y visitantes: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -29,7 +26,7 @@ Las visitas de datos parciales se obtienen cuando se activa una etiqueta de [!DN
 
 Para obtener más información, consulte [Minimización de recuentos inflados de visitas y visitantes en A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## He observado un pico en las visitas. ¿Cómo sé si esto es debido a las visitas de datos parciales?  {#section_28506672C6224ED18AC74F6A02F6F811}
+## He observado un pico en las visitas. ¿Cómo sé si esto es debido a las visitas de datos parciales?   {#section_28506672C6224ED18AC74F6A02F6F811}
 
 Puede ponerse en contacto con el [Servicio de atención al cliente de Adobe](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para recuperar un informe de datos parciales. Esta información no se puede obtener directamente desde la interfaz de usuario de [!DNL Analytics].
 
@@ -37,9 +34,9 @@ Puede ponerse en contacto con el [Servicio de atención al cliente de Adobe](../
 
 Las visitas de datos parciales suelen deberse a un fallo en la implementación, como una desalineación de ID de grupos de informes. También puede ser por causas legítimas, como páginas lentas, errores de página, ofertas de redireccionamiento en una actividad o versiones de bibliotecas antiguas.
 
-Para obtener más información, consulte “¿Qué provoca la aparición de datos parciales?” en  [Minimización de los recuentos inflados de visitas y visitantes en A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Para obtener más información, consulte “¿Qué provoca la aparición de datos parciales?” en   [Minimización de los recuentos inflados de visitas y visitantes en A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Tengo visitas de datos parciales. ¿Cómo puedo limpiar los datos?  {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## Tengo visitas de datos parciales. ¿Cómo puedo limpiar los datos?   {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 Puede crear un grupo de informes virtuales para excluir los datos parciales históricos de sus informes.
 
