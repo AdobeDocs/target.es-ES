@@ -1,13 +1,10 @@
 ---
-description: Información para utilizar la extensión del explorador Target Visual Experience Composer (VEC) Helper para cargar sitios web de forma fiable dentro del VEC y crear y realizar controles de calidad de experiencias rápidamente.
 keywords: VEC;Compositor de experiencias visuales;visual experience composer;VEC;iframe;extensión;explorador
-seo-description: Información para utilizar la extensión de explorador VEC (Visual Experience Composer) Helper de Adobe Target, para cargar sitios web de forma fiable dentro de VEC y crear y realizar controles de calidad de experiencias rápidamente.
-seo-title: Extensión del Compositor de experiencias visuales (VEC) Helper de Adobe Target
-solution: Target
-title: Extensión del Helper del Compositor de experiencias visuales
+description: Información para utilizar la extensión de explorador VEC (Visual Experience Composer) Helper de Adobe Target, para cargar sitios web de forma fiable dentro de VEC y crear y realizar controles de calidad de experiencias rápidamente.
+title: Extensión del Compositor de experiencias visuales (VEC) Helper de Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
