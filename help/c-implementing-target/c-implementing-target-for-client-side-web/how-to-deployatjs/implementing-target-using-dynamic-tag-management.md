@@ -1,12 +1,10 @@
 ---
-description: Dynamic Tag Management (DTM) es el administrador de etiquetas heredado de Adobe.
 keywords: implementar;implementación;administrador de etiquetas;dtm;at.js;dynamic tag management
-seo-description: Dynamic Tag Management (DTM) es el administrador de etiquetas heredado de Adobe.
-seo-title: Implementación de Target mediante Dynamic Tag Management (DTM)
+description: Dynamic Tag Management (DTM) es el administrador de etiquetas heredado de Adobe.
 title: Implementación de Target mediante Dynamic Tag Management (DTM)
 uuid: 27374cb5-a700-4c50-a36e-e575f35b74e6
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
