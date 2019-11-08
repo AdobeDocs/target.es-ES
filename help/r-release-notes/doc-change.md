@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -18,6 +18,8 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 8 de noviembre de 2019 | [Boletín de Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Se han agregado vínculos a otros problemas anteriores. |
+|  | [Reglamentos de protección de datos y privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Se ha actualizado la sección CCPA con una nota nueva.<br>Se ha añadido una nueva pregunta frecuente que informa a los clientes de que Target no tiene la capacidad de permitir a los clientes compartir o vender datos directamente desde Target a terceros, por lo que no hay opción de desventa para Target. |
 | 7 de noviembre de 2019 | [Atributos de perfil](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | Se ha añadido una muestra de código para el parámetro adobeQA. |
 | 5 de noviembre de 2019 | [Páginas del sitio](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Se ha actualizado el texto en la sección "Solución de problemas". |
 | 4 de noviembre de 2019 | [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Se ha actualizado el texto en las siguientes preguntas más frecuentes: "¿Por qué veo mensajes de advertencia, como "acciones con selectores ausentes"?" |
