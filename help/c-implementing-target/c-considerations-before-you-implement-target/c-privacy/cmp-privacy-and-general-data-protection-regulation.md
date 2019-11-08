@@ -5,7 +5,7 @@ title: Información sobre el Reglamento General de Protección de Datos (RGPD) d
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -44,6 +44,10 @@ La ley asegura varios derechos clave para los californianos, incluidos los derec
 * Saber que la información personal se está revelando o vendiendo
 
 Si estuvo al tanto de la ley de privacidad de Europa (RGPD) del año pasado, algunos de estos derechos le resultarán familiares y podrá aprovechar gran parte del trabajo realizado.
+
+>[!NOTE]
+>
+>El acceso a los datos y su eliminación en la medida en que se aplican a la CCPA sigue el mismo proceso que para el RGPD.
 
 ## Adobe Target y [!DNL Experience Platform Launch] Opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -280,7 +284,7 @@ La siguiente tabla contiene descripción de los campos JSON de perfil ilustrativ
 | Sample_Parameter | El Responsable de datos carga o proporciona directamente gran cantidad de información en el perfil de [!DNL Target]. En este ejemplo, se cargó un parámetro en el perfil de [!DNL Target] con la API de actualización de perfil. Para obtener más información, consulte [Métodos para obtener datos en Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
 | user.ReturnTimeOfDay | Este campo estándar incluye la hora del día correspondiente a la visita de retorno más reciente de un usuario. |
 | firstSessionStart | Este campo estándar incluye la hora del día en que comenzó la primera sesión del usuario. |
-| user.sessionCountScript | El Responsable de datos carga o proporciona directamente gran cantidad de información en el perfil de [!DNL Target]. En este ejemplo, un script de perfil está incrementando el número de sesiones que este visitante realizó en el sitio del responsable del tratamiento de datos. Para obtener más información, consulte [Atributos de script de perfil](/help/c-target/c-visitor-profile/profile-parameters.md). |
+| user.sessionCountScript | El Responsable de datos carga o proporciona directamente gran cantidad de información en el perfil de [!DNL Target]. En este ejemplo, un script de perfil está incrementando el número de sesiones que este visitante realizó en el sitio del responsable del tratamiento de datos. Para obtener más información, consulte   [Atributos de script de perfil](/help/c-target/c-visitor-profile/profile-parameters.md). |
 
 >[!NOTE]
 >
@@ -289,3 +293,7 @@ La siguiente tabla contiene descripción de los campos JSON de perfil ilustrativ
 ### ¿Admite Target la ocultación de la IP?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] admite la ocultación de la IP si se decide utilizar dicha ocultación como parte de la estrategia de implementación del RGPD o de la CCPA. Para obtener más información, consulte  [Privacidad](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+
+### ¿Debo hacer algo para evitar que mis datos se compartan o vendan a terceros?
+
+Target no tiene la capacidad de permitir que los clientes compartan o vendan datos directamente de Target a terceros, por lo que no existe la opción de exclusión de la venta para Target.
