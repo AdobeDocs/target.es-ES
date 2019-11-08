@@ -1,18 +1,18 @@
 ---
-keywords: control de calidad;vista previa;vínculos de vista previa
-description: Use direcciones URL de control de calidad para realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa invariables, segmentar audiencias de manera opcional y crear informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
+keywords: qa;vista previa;vínculos de vista previa;adobe target;target
+description: Utilice las URL de control de calidad de Adobe Target para realizar fácilmente un control de calidad de la actividad de extremo a extremo con vínculos de vista previa que nunca cambian, segmentación de audiencia opcional e informes de control de calidad que se mantienen segmentados a partir de datos de actividad activos.
 title: Control de calidad de la actividad
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
 
 ---
 
 
 # Control de calidad de la actividad {#activity-qa}
 
-Use direcciones URL de control de calidad para realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa invariables, segmentar audiencias de manera opcional y crear informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
+Use direcciones URL de control de calidad en Adobe Target para realizar fácilmente un control de calidad de la actividad de extremo a extremo con vínculos de vista previa que nunca cambian, segmentación de audiencia opcional e informes de control de calidad que se mantienen segmentados a partir de datos de actividad activos.
 
 ## Información general {#section_11B761A522A14E61978275772210A4C2}
 
