@@ -5,7 +5,7 @@ title: CNAME y Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 117e4c8712d49a284331552268cec42bb34cf013
+source-git-commit: 872e2329e7954453b5c8bd4f4885b94f1b02fd1f
 
 ---
 
@@ -44,7 +44,7 @@ Realice los pasos siguientes para solicitar asistencia de CNAME en [!DNL Target]
 
 1. Después de completar las tareas anteriores y Adobe Client Care le ha notificado que la implementación está lista, debe actualizar `serverDomain` al nuevo CNAME en at.js.
 
-## Preguntas más frecuentes
+## Preguntas frecuentes
 
 La siguiente información responde a las preguntas más frecuentes sobre la solicitud e implementación del soporte de CNAM en [!DNL Target]:
 
