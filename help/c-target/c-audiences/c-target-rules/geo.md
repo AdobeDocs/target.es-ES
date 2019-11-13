@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -139,6 +139,10 @@ Tendrá que borrar las cookies antes de hacerlo.
 **¿Cómo se asignan los territorios, como Puerto Rico y Hong Kong, a la estructura de segmentación geográfica?**
 
 Puerto Rico, Hong Kong y otros territorios se tratan como valores de “País” independientes.
+
+**¿Captura (y almacena)[!DNL Target]información como Códigos postales cuando la actividad se dirige a funciones de objetivo de ubicación geográfica?**
+
+No, [!DNL Target] utiliza datos geográficos únicamente durante la sesión y, a continuación, se descartan los datos.
 
 ## Vídeo de formación: Creación de audiencias
 
