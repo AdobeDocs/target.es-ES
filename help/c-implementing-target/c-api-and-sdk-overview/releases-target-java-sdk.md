@@ -4,7 +4,7 @@ description: Notas de la versión relacionadas con el SDK de Java de Adobe Targe
 title: Notas de la versión relacionadas con el SDK de Java de Adobe Target.
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -19,6 +19,14 @@ El SDK de Java introduce prácticas recomendadas y elimina las complejidades al 
 
 Obtenga más información sobre el SDK de Java de Target en el blog técnico de Adobe: Optimización del lado del [servidor con el nuevo SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)de Java de Target.
 
+## Versión 1.0.1 (11 de noviembre de 2019)
+
+La siguiente sección proporciona más información sobre la versión 1.0.1 del SDK de Java de Target:
+
+### Fijo
+
+* Envíe un ID de datos suplementario en una solicitud de Target incluso cuando no haya una cookie de API de visitante presente.
+
 ## Versión 1.0.0 (31 de octubre de 2019)
 
 Las siguientes secciones proporcionan más información sobre la versión 1.0.0 del SDK de Java de Target:
@@ -26,7 +34,7 @@ Las siguientes secciones proporcionan más información sobre la versión 1.0.0 
 ### Se ha agregado
 
 * [Compatibilidad con la API](https://developers.adobetarget.com/api/delivery-api/) de Target View Delivery v1, incluidas la carga de página y la recuperación previa de la vista.
-   * Compatibilidad total para ofrecer todo tipo de ofertas creadas en el Compositor de experiencias visuales (VEC).
+   * Compatibilidad total con la entrega de todo tipo de ofertas creadas en el Compositor de experiencias visuales (VEC).
 * Compatibilidad con la recuperación previa y las notificaciones que permiten la optimización del rendimiento almacenando en caché el contenido recuperado previamente.
 * Compatibilidad para optimizar el rendimiento en integraciones híbridas [!DNL Target] mediante `serverState`, cuando [!DNL Target] se implementa tanto en el servidor como en el cliente.
    * Estamos introduciendo una configuración llamada `serverState` que contiene experiencias recuperadas a través del servidor, de modo que at.js v2.2+ no realice una llamada al servidor adicional para recuperar las experiencias. Este método optimiza el rendimiento de carga de la página.
