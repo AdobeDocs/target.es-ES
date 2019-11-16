@@ -5,7 +5,7 @@ title: Preguntas más frecuentes de Adobe Target at.js
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 36159cc0db41513267bfb9c5ac9bda96bc8120f2
+source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
 
 ---
 
@@ -206,7 +206,8 @@ Las siguientes son posibles causas para que aparezca este mensaje de advertencia
 * La estructura de la página en la que se ejecuta la actividad ha cambiado. Si vuelve a abrir la actividad en el Compositor de experiencias visuales (VEC), debería recibir un mensaje de advertencia. Se debe actualizar la actividad de modo que se encuentren todos los elementos necesarios.
 * La página subyacente es parte de una aplicación de una sola página (SPA) o la página contiene elementos que aparecen más adelante y el “mecanismo de sondeo selector” de [!DNL at.js] no puede encontrar dichos elementos. Aumentar el valor de `selectorsPollingTimeout` podría ser de ayuda. Para obtener más información, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Cualquier métrica de seguimiento de clics intenta añadirse a todas las páginas, independientemente de la dirección URL en la que se estableciera dicha métrica. Aunque es algo inofensivo, esta situación provoca la aparición de muchos de estos mensajes.
-Para obtener los mejores resultados, descargue y utilice la versión más reciente de [!DNL at.js]. Para obtener más información, consulte [Detalles de versión de at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) y [Descargar at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+
+   Para obtener los mejores resultados, descargue y utilice la versión más reciente de [!DNL at.js]. Para obtener más información, consulte [Detalles de versión de at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) y [Descargar at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 ## ¿Cuál es el dominio tt.omtrdc.net al cual se dirigen las llamadas del servidor de Target?{#section_999C29940E8B4CAD8A957A6B1D440317}
 
