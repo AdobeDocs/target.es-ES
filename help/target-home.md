@@ -1,9 +1,9 @@
 ---
-keywords: Target;inicio;temas populares;adobe target;estándar;premium;documentación de destino;documentación de adobe target
+keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
 title: Documentación de producto de Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
+source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 11 de noviembre de 2019 ([Vea los cambios](r-release-notes/doc-change.md))**
+**Última actualización: 15 de noviembre de 2019 ([Vea los cambios](r-release-notes/doc-change.md))**
 
 Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados según las funciones de usuario a las que van dirigidos:
 
