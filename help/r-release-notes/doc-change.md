@@ -1,11 +1,11 @@
 ---
-keywords: registro de cambios de documentación de destino;actualizaciones de documentación;nuevos temas;ediciones
+keywords: target documentation change log;documentation updates;new topics;edits
 description: Esta página enumera los cambios importantes realizados en la documentación de Adobe Target, ordenados por versiones.
 title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
+source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
 
 ---
 
@@ -18,6 +18,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 15 de noviembre de 2019 | [Diez escollos comunes de prueba A/B y cómo evitarlos](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | Se agregó "Pitfall 7: Cambio de la asignación de tráfico durante el período de prueba". |
 | 11 de noviembre de 2019 | [Notas de la versión: SDK de Java de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Se ha añadido información sobre la versión 1.0.1. |
 |  | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Se ha actualizado todo el tema. |
 |  | [Ubicación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | Se agregó información que explica que [!DNL Target] no almacena información geográfica, como Códigos postales. |
