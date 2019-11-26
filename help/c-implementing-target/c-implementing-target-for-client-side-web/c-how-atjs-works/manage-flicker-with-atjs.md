@@ -1,11 +1,11 @@
 ---
-keywords: parpadeo;at.js;implementación
+keywords: flicker;at.js;implementation
 description: Información sobre cómo la biblioteca de JavaScript de at.js de Adobe Target evita el parpadeo mientras se carga una página o una aplicación.
 title: Gestión de parpadeos de Adobe Target at.js
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
 
 ---
 
@@ -42,7 +42,11 @@ Para obtener más información sobre la anulación de `bodyHiddenStyle`, consult
 
 Cargar at.js de forma asíncrona es un modo excelente de evitar el bloqueo de presentación por parte del navegador; sin embargo, esta técnica puede producir parpadeos en la página web.
 
-Puede evitar el parpadeo utilizando un fragmento de ocultamiento previo que será visible después de que [!DNL Target] personalice los elementos HTML relevantes. Recomendamos utilizar un administrador de etiquetas, como Adobe DTM o el nuevo Adobe Launch, para añadir un fragmento de ocultamiento previo. El fragmento debe añadirse antes de cargar at.js.
+Puede evitar el parpadeo utilizando un fragmento de ocultamiento previo que será visible después de que [!DNL Target] personalice los elementos HTML relevantes. 
+
+at.js se puede cargar asincrónicamente, ya sea directamente incrustado en la página o a través de un administrador de etiquetas (Adobe Launch, Dynamic Tag Manager (DTM), etc.).
+
+Si at.js está incrustado en la página, se debe agregar el fragmento antes de cargar at.js. Si carga at.js a través de un administrador de etiquetas, que también se carga asincrónicamente, debe agregar el fragmento antes de cargar el administrador de etiquetas. Si el administrador de etiquetas se carga sincrónicamente, la secuencia de comandos puede incluirse en el administrador de etiquetas antes de at.js.
 
 El fragmento de código de ocultamiento previo es como sigue:
 
