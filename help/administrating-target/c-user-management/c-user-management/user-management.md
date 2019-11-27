@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -70,20 +70,23 @@ Los usuarios administradores del sistema deben agregar usuarios al sistema. Los 
 
    ![Pestaña Productos](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. Haga clic en el nombre de la configuración deseada.
-1. Haga clic en **[!UICONTROL Usuarios]**.
+1. Haga clic en el espacio de trabajo deseado (por ejemplo, Espacio de trabajo predeterminado).
+
+   ![Espacio de trabajo predeterminado](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    La pestaña [!UICONTROL Usuarios] muestra todos los usuarios de un espacio de trabajo.
 
    ![usuarios de configuración](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. Seleccione el rol de permisos deseado (Observador, Editor o Aprobador) utilizando la lista desplegable de cada usuario en la columna [!UICONTROL Rol del producto].
+1. Seleccione la función de permisos deseada (Aprobador, Editor u Observador) utilizando la lista desplegable de cada usuario en la columna [!UICONTROL Función del producto].
+
+   ![Lista desplegable Función del producto](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
 
    | Función | Descripción |
    |--- |--- |
-   | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
-   | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
    | Aprobador | Puede crear, editar y activar o detener actividades. |
+   | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
+   | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
 
 Para obtener más información, consulte [Administrar permisos y roles de producto en Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) en la *Guía del usuario de Enterprise*.
 
