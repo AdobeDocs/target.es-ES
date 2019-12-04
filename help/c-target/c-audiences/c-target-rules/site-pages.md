@@ -1,22 +1,18 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-description: Puede segmentar visitantes que estén en una página específica o que tengan un parámetro de mbox específico mediante Adobe Target.
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+description: Puede dirigirse a visitantes que se encuentren en una página específica del sitio.
 title: Páginas de sitio en Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
+source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 
 ---
 
 
 # Páginas del sitio{#site-pages}
 
-Puede segmentar visitantes que estén en una página específica o que tengan un parámetro de mbox específico.
-
->[!NOTE]
->
->Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. También puede crear audiencias de página del sitio empleando su propio “parámetro de consulta definido por el usuario” o “encabezado definido por el usuario”.
+Puede dirigirse a visitantes que se encuentren en una página específica del sitio.
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
@@ -32,7 +28,7 @@ Puede segmentar visitantes que estén en una página específica o que tengan un
 
    Las siguientes opciones están disponibles en la lista desplegable inicial cuando elige [!UICONTROL Seleccionar].
 
-   * **Página actual:** la página en la que se encuentra el usuario, que es la que contiene un mbox en la actividad. Si segmenta en el nivel de actividad, podría tratarse de una página con un mbox que utilice para definir las condiciones de entrada o una página que muestra contenido. Si define la segmentación según la experiencia, entonces la página actual es la página donde se encuentre el mbox de pantalla. Para la métrica de éxito o el objetivo de conversión, entonces es la página en la que se encuentran dichos mboxes.
+   * **** Página actual: Página en la que se encuentra el usuario.
 
       Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
@@ -68,7 +64,7 @@ Puede segmentar visitantes que estén en una página específica o que tengan un
       >
       >El objeto `landing.url` se restablece en un cambio de subdominio o sustitución directa de la dirección URL.
 
-   * **** Encabezado HTTP: Esta opción evalúa la información en el encabezado HTTP de la primera página que ve el visitante al acceder al sitio. Por ejemplo, si el encabezado HTTP contiene información de idioma, puede crear una regla que contenga la `Accept-Language: es` condición para dirigirse a los visitantes.
+   * **** Encabezado HTTP: Esta opción evalúa la información en el encabezado HTTP de la solicitud de Target. Por ejemplo, si el encabezado HTTP contiene información de idioma, puede crear una regla que contenga la `Accept-Language: es` condición para dirigirse a los visitantes que accedan a la página en español.
 
       Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
@@ -79,7 +75,7 @@ Puede segmentar visitantes que estén en una página específica o que tengan un
       * Autorización
       * Cache-Control
       * Conexión
-      * Content-Lenght
+      * Content-Length
       * Content-MDS
       * Content-Type
       * Fecha
