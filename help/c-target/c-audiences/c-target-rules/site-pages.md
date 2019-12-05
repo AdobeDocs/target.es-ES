@@ -5,7 +5,7 @@ title: Páginas de sitio en Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
+source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 ---
 
@@ -116,7 +116,7 @@ También puede crear audiencias de página del sitio empleando su propio “par�
 Utilice un:
 
 * Parámetro de consulta si la regla seleccionada por el usuario es Página actual, Página de aterrizaje o Página anterior.
-* Encabezado si la regla seleccionada por el usuario es Encabezado HTTP.
+* Encabezado si la regla seleccionada por el usuario es un encabezado HTTP.
 
 como se ilustra a continuación:
 
