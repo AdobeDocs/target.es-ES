@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
+source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 ---
 
@@ -18,6 +18,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 5 de diciembre de 2019 | [Páginas del sitio](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Tema actualizado. |
 | 2 de diciembre de 2019 | [Usar servicio de ubicación](/help/c-target-mobile-app/use-location-service.md) | Nuevo tema. |
 | 26 de noviembre de 2019 | [Cómo gestiona at.js el parpadeo](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Se ha actualizado el texto en "Administración del parpadeo al cargar at.js de forma asíncrona". |
 |  | [Boletín de Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Se agregó un vínculo a la newsletter de noviembre de 2019. |
