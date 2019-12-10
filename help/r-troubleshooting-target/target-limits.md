@@ -1,11 +1,11 @@
 ---
-keywords: límite de caracteres;parámetros de mbox;api de entrega por lotes;parámetros de perfil;límites;perfiles integrados;límite;máximo;restricción;carácter;práctica recomendada;id de pedido;total del pedido;id de terceros de mbox;categoría;id de categoría
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Información sobre los límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
 title: Límites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
 
 ---
 
@@ -107,14 +107,38 @@ Se ignorarán todos los perfiles por encima de 50.
 
 **Límite**: Los límites siguientes se aplican a los parámetros de mbox:
 
+Para llamadas de mbox estándar:
 * Parámetros de mbox: 500 parámetros por mbox.
-* Parámetros de perfil: 500 parámetros.
-* parámetros de perfil por mbox:
+* Parámetros de perfil: 500 parámetros de perfil por mbox.
 * Otros parámetros (URL, URL de referencia, etc.): 50 por mbox para cada tipo de parámetro.
 
-Para los parámetros que se registran en la base de datos de Target, los límites anteriores son para solicitudes de mbox estándar. Estos límites se aplican a menos que la solicitud se acorte debido a limitaciones del navegador.
+Estos límites se aplican a menos que la solicitud se acorte debido a limitaciones del navegador.
 
-Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#server-side-batch-delivery) en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud supera estos valores, la API devolverá el siguiente mensaje de error: “El número de parámetros de mbox no puede superar los 100”.
+Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#server-side-batch-delivery) en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud contiene más de estos límites, la API devolverá el siguiente mensaje de error:
+
+"El número de mboxParameters no puede superar los 50."
+
+Límites establecidos para los extremos:
+
+Lote mbox v2:
+* Parámetros de mbox 100
+* Longitud máxima del nombre del parámetro de mbox 128
+* El valor del parámetro mbox no puede ser nulo
+* Valor del parámetro de mbox 5000
+* parámetros de perfil 50
+* longitud máxima del nombre del parámetro de perfil 128
+* el valor del parámetro de perfil no puede ser nulo
+* longitud máxima del parámetro de perfil 256
+
+Extremo de la API de envío
+* Parámetros de mbox 50
+* Longitud máxima del nombre del parámetro de mbox 128
+* El valor del parámetro mbox no puede ser nulo
+* Valor del parámetro de mbox 5000
+* parámetros de perfil 50
+* longitud máxima del nombre del parámetro de perfil 128
+* el valor del parámetro de perfil no puede ser nulo
+* longitud máxima del parámetro de perfil 256
 
 ## Direcciones URL de peticiones de mbox
 
