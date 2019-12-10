@@ -1,11 +1,11 @@
 ---
-keywords: variables;perfiles;parámetros;perfiles integrados;métodos;variables de url;perfiles geográficos;perfiles de terceros;variables de mbox;variables de campaña;atributos de cliente
+keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: Esta página contiene una lista de perfiles, variables y parámetros que son útiles en los scripts de perfil.
 title: Glosario de perfiles y variables
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 ---
 
@@ -41,7 +41,7 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | user.setLocal('param_name','value'); |  |
 | user.get('param_name') |  |
 | user.parameter | Atributos de perfil persistentes creados desde scripts de perfil. También hace referencia a perfiles del “sistema” como la geolocalización, el recuento de visitas, etc. |
-| profile.get('param_name') |  |
+| profile.get('param_name') | La forma correcta de obtener un parámetro de perfil para utilizarlo en una secuencia de comandos de perfil es el método profile.get('param_name'). |
 | profile.param('param_name'); |  |
 | profile.parameter('parameter_name'); | Los parámetros de mbox que se vuelven persistentes debido a su prefijo perfil.  prefijo. |
 | profile.browserTime | La hora local del navegador del visitante. Para la hora del sistema, cree un nuevo objeto de fecha en la secuencia de comandos del perfil |
