@@ -5,7 +5,7 @@ title: Preguntas más frecuentes sobre audiencias y segmentación
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -22,7 +22,9 @@ Considere la siguiente dirección URL:
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-**Segmentación** de URL de audiencia: Para aplicar segmentación por URL de audiencia, mientras crea una actividad, en la página Experiencias (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono de engranaje, haga clic en Entrega de página y especifique la dirección URL deseada.
+### Segmentación de URL de audiencia
+
+ Para aplicar segmentación por URL de audiencia, mientras crea una actividad, en la página Experiencias (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono de engranaje, haga clic en Entrega de página y especifique la dirección URL deseada.
 
 ![Dirección URL de envío de página](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -32,9 +34,11 @@ El objetivo de URL de audiencia busca una coincidencia exacta de URL. Si la dire
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-Como práctica recomendada, más allá del objetivo de audiencia en la dirección URL, también puede especificar valores específicos que pueden estar en la consulta.
+Más allá del objetivo de audiencia en la dirección URL, también puede especificar valores específicos que pueden estar en la consulta.
 
-**Dirección** URL: Para aplicar el objetivo de URL, mientras crea una audiencia, haga clic en Agregar regla, en Páginas del sitio, seleccione una opción de la primera lista desplegable (Página actual, Página anterior o Página de aterrizaje), seleccione Dirección URL en la segunda lista desplegable, especifique un evaluador y luego especifique la dirección URL que desee.
+### Dirección URL
+
+ Para aplicar el objetivo de URL, mientras crea una audiencia, haga clic en Agregar regla, en Páginas del sitio, seleccione una opción de la primera lista desplegable (Página actual, Página anterior o Página de aterrizaje), seleccione Dirección URL en la segunda lista desplegable, especifique un evaluador y luego especifique la dirección URL que desee.
 
 ![Páginas del sitio &gt; Página actual &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
