@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -18,6 +18,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 11 de diciembre de 2019 | [Preguntas más frecuentes sobre audiencias y segmentación](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Se ha añadido una nueva pregunta frecuente: "¿Cómo evalúa Target las direcciones URL en los objetivos?" |
 | 10 de diciembre de 2019 | [Límites de objetivo](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado la sección de parámetros de mbox. |
 |  | [Criterios](/help/c-recommendations/c-algorithms/algorithms.md) | Se ha añadido una nota sobre la compatibilidad con la función Uso de criterios. |
 | 5 de diciembre de 2019 | [Páginas del sitio](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Tema actualizado. |
