@@ -5,7 +5,7 @@ title: Páginas de sitio en Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -32,7 +32,7 @@ Puede dirigirse a visitantes que se encuentren en una página específica del si
 
       Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
-      * Dirección URL
+      * URL (para obtener más información sobre cómo evalúa Target las direcciones URL, consulte [Preguntas más frecuentes](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)sobre audiencias y destinos).
       * Dominio
       * Consulta
       * Subdominio
@@ -43,7 +43,7 @@ Puede dirigirse a visitantes que se encuentren en una página específica del si
 
       Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
-      * Dirección URL
+      * URL (para obtener más información sobre cómo evalúa Target las direcciones URL, consulte [Preguntas más frecuentes](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)sobre audiencias y destinos).
       * Dominio
       * Consulta
       * Subdominio
@@ -53,7 +53,7 @@ Puede dirigirse a visitantes que se encuentren en una página específica del si
 
       Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
-      * Dirección URL
+      * URL (para obtener más información sobre cómo evalúa Target las direcciones URL, consulte [Preguntas más frecuentes](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)sobre audiencias y destinos).
       * Dominio
       * Consulta
       * Subdominio
