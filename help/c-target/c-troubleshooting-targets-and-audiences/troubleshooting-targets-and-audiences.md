@@ -1,11 +1,11 @@
 ---
-keywords: resolución de problemas;preguntas más frecuentes;FAQ;FAQs;objetivos;audiencias
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
 title: Preguntas más frecuentes sobre audiencias y segmentación
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -13,6 +13,37 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 # Preguntas más frecuentes sobre audiencias y segmentación{#targets-and-audiences-faq}
 
 Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
+
+## ¿Cómo evalúa Target las direcciones URL en los objetivos? {#url}
+
+Target evalúa las direcciones URL de forma diferente en función de si se usa la segmentación por URL de audiencia al crear una actividad o si se usa la segmentación por URL al crear una audiencia.
+
+Considere la siguiente dirección URL:
+
+`http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+
+**Segmentación** de URL de audiencia: Para aplicar segmentación por URL de audiencia, mientras crea una actividad, en la página Experiencias (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono de engranaje, haga clic en Entrega de página y especifique la dirección URL deseada.
+
+![Dirección URL de envío de página](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+
+El objetivo de URL de audiencia busca una coincidencia exacta de URL. Si la dirección URL coincide, Target no tiene en cuenta la lógica adicional. En la dirección URL anterior, si la actividad está configurada para activarse `www.example.com`, la dirección URL coincide con las siguientes direcciones URL porque la segmentación por URL de audiencia no depende de la consulta:
+
+* `www.example.com?query=something`
+* `www.example.com?query=anything`
+* `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
+
+Como práctica recomendada, más allá del objetivo de audiencia en la dirección URL, también puede especificar valores específicos que pueden estar en la consulta.
+
+**Dirección** URL: Para aplicar el objetivo de URL, mientras crea una audiencia, haga clic en Agregar regla, en Páginas del sitio, seleccione una opción de la primera lista desplegable (Página actual, Página anterior o Página de aterrizaje), seleccione Dirección URL en la segunda lista desplegable, especifique un evaluador y luego especifique la dirección URL que desee.
+
+![Páginas del sitio &gt; Página actual &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+
+El objetivo de URL transforma la URL en un conjunto de reglas para evaluar:
+
+* Dominio de URL = `example.com`
+* Ruta = path1/path2/path3
+* queryStringParam1 = test123
+* queryStringParam2 = test7
 
 ## Al crear cadenas URL complejas, ¿ [!DNL Target] evalúa toda la dirección URL?
 
