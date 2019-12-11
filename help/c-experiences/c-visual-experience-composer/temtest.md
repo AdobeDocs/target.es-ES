@@ -1,10 +1,10 @@
 ---
-keywords: probar plantillas;plantilla;misma experiencia en páginas similares;prueba de plantilla
+keywords: template testing;template;same experience on similar pages;template test
 description: Si utiliza una plantilla de página para aportar estructura a sus páginas o si las páginas contienen elementos similares, esta característica permite probar variaciones en elementos de página de estructura similar.
 title: Incluir la misma experiencia en páginas similares
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -36,7 +36,7 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
 
 1. Especifique el intervalo de páginas. El intervalo de páginas puede ser uno de los siguientes:
 
-   * Dirección URL
+   * Dirección URL (Para obtener más información sobre cómo evalúa Target las direcciones URL, consulte [Preguntas más frecuentes](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)sobre audiencias y objetivos).
    * Dominio
    * Ruta
    * Fragmento hash (#) (segmente la parte de una dirección URL que sigue al símbolo #)
