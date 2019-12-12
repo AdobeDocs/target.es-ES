@@ -1,20 +1,32 @@
 ---
-keywords: asignación de tráfico automatizado;segmentación;ganador;garantía estadística;confianza;determinación del ganador
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: Determine el ganador de una actividad A/B de asignación automática consultando los indicadores en la interfaz de usuario de Target.
 title: Determinar un ganador
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
 
-# Determinar un ganador{#determine-a-winner}
+# Interpretar informes de asignación automática {#determine-a-winner}
 
-Determine el ganador de una actividad A/B de asignación automática consultando los indicadores en la interfaz de usuario de Target.
+Interprete los resultados de una actividad A/B de asignación automática examinando indicadores importantes, incluidos el alza y la confianza, en la interfaz de usuario de Target.
 
 Muchos especialistas en marketing cometen el error de declarar una experiencia ganadora precipitadamente antes de que los resultados indiquen el claro ganador. Ahora, le facilitamos la tarea de determinar el ganador.
+
+## Comprender los informes de alza y confianza en las actividades de asignación automática {#lift-confidence}
+
+En las actividades de asignación automática, la primera experiencia (de forma predeterminada denominada Experiencia A) siempre se define como una experiencia de "control" en la ficha Informes. Esta experiencia no se trata como un verdadero control estadístico en el modelado utilizado para determinar el rendimiento de las experiencias, pero se trata como una referencia o una referencia para algunas cifras del informe.
+
+El valor numérico "Alza" y los límites del 95 % para cada experiencia siempre se calculan con referencia a la experiencia definida como "Control". La experiencia "Control" definida no puede tener un alza en relación a sí misma, por lo que se informa de un valor "—" en blanco para esta experiencia. A diferencia de las pruebas A/B, en las pruebas de asignación automática, si una experiencia tiene un peor rendimiento que el control definido, no se notifica un valor de alza negativo; en su lugar se muestra "—".
+
+Las barras Intervalo de confianza que se muestran representan el intervalo de confianza del 95 % en torno a la estimación media de la tasa de conversión de una experiencia. También están codificados por colores con respecto a la experiencia definida de "control". La barra de la experiencia "Control" siempre está coloreada en gris. Las partes de los intervalos de confianza por debajo del intervalo de confianza de la experiencia "Control" están coloreadas en rojo y las partes de los intervalos de confianza por encima de la experiencia "Control" están coloreadas en verde.
+
+Se encuentra un ganador cuando el intervalo de confianza del 95 % de la experiencia líder no se superpone con ninguna otra experiencia. La experiencia ganadora se designa con una marca de estrella verde a la izquierda del nombre de la experiencia y en la pancarta "Ganador". Cuando no hay ninguna estrella visible, la pancarta dice "Ningún ganador aún" y todavía no se ha encontrado un ganador.
+
+También se indica un número de "confianza" junto a la experiencia ganadora o líder en ese momento. Esta cifra se registra solamente hasta que la confianza de la experiencia líder alcance al menos el 60 %. Si hay exactamente dos experiencias presentes en el experimento de asignación automática, este número representa el nivel de confianza de que la experiencia está teniendo un mejor rendimiento que la otra experiencia. Si hay más de dos experiencias presentes en el experimento de asignación automática, este número representa el nivel de confianza de que la experiencia está teniendo un mejor rendimiento que la experiencia definida como "Control". Si la experiencia "Control" está ganando, no se notifica ninguna cifra de "Confianza".
 
 ## Ver el distintivo de ganador en la interfaz de usuario de Target {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
