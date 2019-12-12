@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
@@ -19,6 +19,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 12 de diciembre de 2019 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Se ha actualizado la sección de preguntas más frecuentes. |
+|  | [Interpretar informes de asignación automática](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Se cambió el nombre del tema y se agregó la siguiente sección: "Comprenda los informes de alza y confianza en las actividades de asignación automática." |
 | 11 de diciembre de 2019 | [Preguntas más frecuentes sobre audiencias y segmentación](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Se ha añadido una nueva pregunta frecuente: "¿Cómo evalúa Target las direcciones URL en los objetivos?" |
 | 10 de diciembre de 2019 | [Límites de objetivo](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado la sección de parámetros de mbox. |
 |  | [Criterios](/help/c-recommendations/c-algorithms/algorithms.md) | Se ha añadido una nota sobre la compatibilidad con la función Uso de criterios. |
