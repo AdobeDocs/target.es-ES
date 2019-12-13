@@ -5,7 +5,7 @@ title: Determinar un ganador
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
+source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
 
 ---
 
@@ -16,19 +16,7 @@ Interprete los resultados de una actividad A/B de asignación automática examin
 
 Muchos especialistas en marketing cometen el error de declarar una experiencia ganadora precipitadamente antes de que los resultados indiquen el claro ganador. Ahora, le facilitamos la tarea de determinar el ganador.
 
-## Comprender los informes de alza y confianza en las actividades de asignación automática {#lift-confidence}
-
-En las actividades de asignación automática, la primera experiencia (de forma predeterminada denominada Experiencia A) siempre se define como una experiencia de "control" en la ficha Informes. Esta experiencia no se trata como un verdadero control estadístico en el modelado utilizado para determinar el rendimiento de las experiencias, pero se trata como una referencia o una referencia para algunas cifras del informe.
-
-El valor numérico "Alza" y los límites del 95 % para cada experiencia siempre se calculan con referencia a la experiencia definida como "Control". La experiencia "Control" definida no puede tener un alza en relación a sí misma, por lo que se informa de un valor "—" en blanco para esta experiencia. A diferencia de las pruebas A/B, en las pruebas de asignación automática, si una experiencia tiene un peor rendimiento que el control definido, no se notifica un valor de alza negativo; en su lugar se muestra "—".
-
-Las barras Intervalo de confianza que se muestran representan el intervalo de confianza del 95 % en torno a la estimación media de la tasa de conversión de una experiencia. También están codificados por colores con respecto a la experiencia definida de "control". La barra de la experiencia "Control" siempre está coloreada en gris. Las partes de los intervalos de confianza por debajo del intervalo de confianza de la experiencia "Control" están coloreadas en rojo y las partes de los intervalos de confianza por encima de la experiencia "Control" están coloreadas en verde.
-
-Se encuentra un ganador cuando el intervalo de confianza del 95 % de la experiencia líder no se superpone con ninguna otra experiencia. La experiencia ganadora se designa con una marca de estrella verde a la izquierda del nombre de la experiencia y en la pancarta "Ganador". Cuando no hay ninguna estrella visible, la pancarta dice "Ningún ganador aún" y todavía no se ha encontrado un ganador.
-
-También se indica un número de "confianza" junto a la experiencia ganadora o líder en ese momento. Esta cifra se registra solamente hasta que la confianza de la experiencia líder alcance al menos el 60 %. Si hay exactamente dos experiencias presentes en el experimento de asignación automática, este número representa el nivel de confianza de que la experiencia está teniendo un mejor rendimiento que la otra experiencia. Si hay más de dos experiencias presentes en el experimento de asignación automática, este número representa el nivel de confianza de que la experiencia está teniendo un mejor rendimiento que la experiencia definida como "Control". Si la experiencia "Control" está ganando, no se notifica ninguna cifra de "Confianza".
-
-## Ver el distintivo de ganador en la interfaz de usuario de Target {#section_24007470CF5B4D30A06610CE8DD23CE3}
+## Identifique la experiencia ganadora {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
 Al utilizar la función de [!UICONTROL asignación automática], [!DNL Target] muestra un distintivo en la parte superior de la página de la actividad indicando “Ningún ganador aún” hasta que la actividad alcance el número mínimo de conversiones con suficiente confianza.
 
@@ -42,7 +30,7 @@ Cuando se declara un claro ganador, [!DNL Target] muestra “Ganador: Experienci
 >
 >Las actividades de asignación automática han sido diseñadas para encontrar la mejor experiencia entre todas las opciones y no solo hacer comparaciones por pares con control.
 
-## Garantías estadísticas de asignación automática {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 Al finalizar una actividad A/B, la asignación automática garantiza que el ganador determinado tiene una tasa efectiva de falsos positivos del 5 %. Esto significa que solo un 5 % de las veces el ganador determinado no es realmente la mejor experiencia de todas las que participan en la actividad. En una prueba A/A (con experiencias idénticas), la prueba se finaliza menos del 5 % de las veces. El comportamiento previsto en una prueba A/A (con experiencias idénticas) es que se ejecute de forma indefinida, de modo que nunca se mostrará el distintivo de ganador.
 
@@ -59,6 +47,18 @@ La siguiente ilustración muestra una actividad en la que aún no hay ganador:
 La siguiente ilustración muestra una actividad en la que ya hay un ganador:
 
 ![](assets/winner_found.png)
+
+## Comprender los informes de alza y confianza en las actividades de asignación automática {#lift-confidence}
+
+En las actividades de asignación automática, la primera experiencia (de forma predeterminada denominada Experiencia A) siempre se define como una experiencia de "control" en la ficha Informes. Esta experiencia no se trata como un verdadero control estadístico en el modelado utilizado para determinar el rendimiento de las experiencias, pero se trata como una referencia o una referencia para algunas cifras del informe.
+
+El valor numérico "Alza" y los límites del 95 % para cada experiencia siempre se calculan con referencia a la experiencia definida como "Control". La experiencia "Control" definida no puede tener un alza en relación a sí misma, por lo que se informa de un valor "—" en blanco para esta experiencia. A diferencia de las pruebas A/B, en las pruebas de asignación automática, si una experiencia tiene un peor rendimiento que el control definido, no se notifica un valor de alza negativo; en su lugar se muestra "—".
+
+Las barras Intervalo de confianza que se muestran representan el intervalo de confianza del 95 % en torno a la estimación media de la tasa de conversión de una experiencia. También están codificados por colores con respecto a la experiencia definida de "control". La barra de la experiencia "Control" siempre está coloreada en gris. Las partes de los intervalos de confianza por debajo del intervalo de confianza de la experiencia "Control" están coloreadas en rojo y las partes de los intervalos de confianza por encima de la experiencia "Control" están coloreadas en verde.
+
+Se encuentra un ganador cuando el intervalo de confianza del 95 % de la experiencia líder no se superpone con ninguna otra experiencia. La experiencia ganadora se designa con una marca de estrella verde a la izquierda del nombre de la experiencia y en la pancarta "Ganador". Cuando no hay ninguna estrella visible, la pancarta dice "Ningún ganador aún" y todavía no se ha encontrado un ganador.
+
+También se indica un número de "confianza" junto a la experiencia ganadora o líder en ese momento. Esta cifra se registra solamente hasta que la confianza de la experiencia líder alcance al menos el 60 %. Si hay exactamente dos experiencias presentes en el experimento de asignación automática, este número representa el nivel de confianza de que la experiencia está teniendo un mejor rendimiento que la otra experiencia. Si hay más de dos experiencias presentes en el experimento de asignación automática, este número representa el nivel de confianza de que la experiencia está teniendo un mejor rendimiento que la experiencia definida como "Control". Si la experiencia "Control" está ganando, no se notifica ninguna cifra de "Confianza".
 
 ## Preguntas frecuentes {#section_C8E068512A93458D8C006760B1C0B6A2}
 
