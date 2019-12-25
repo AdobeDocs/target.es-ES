@@ -5,7 +5,7 @@ title: Páginas de sitio en Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 Puede dirigirse a visitantes que se encuentren en una página específica del sitio.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
+1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]**>**[!UICONTROL  Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Añadir regla]** &gt; **[!UICONTROL Páginas de sitio]**.
+1. Haga clic en **[!UICONTROL Agregar regla]**>**[!UICONTROL  Páginas de sitio]**.
 
    ![Audiencia de páginas del sitio](assets/target_site_pages.png)
 
-1. Haga clic en la lista desplegable **[!UICONTROL Seleccionar]** , seleccione una de las siguientes opciones y, a continuación, configure la regla como desee.
+1. Haga clic en la lista desplegable **[!UICONTROL Seleccionar]**, seleccione una de las siguientes opciones y, a continuación, configure la regla como desee.
 
    Las opciones y los evaluadores disponibles en las listas desplegables subsiguientes de la regla varían según la opción que elija. En la siguiente ilustración se muestran las opciones disponibles al elegir Página actual:
 
@@ -108,7 +108,7 @@ Puede dirigirse a visitantes que se encuentren en una página específica del si
 
 
 
-1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
+1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]**y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 También puede crear audiencias de página del sitio empleando su propio “parámetro de consulta definido por el usuario” o “encabezado definido por el usuario”.
@@ -132,6 +132,12 @@ como se ilustra a continuación:
    * Utilice una actividad [de prueba](/help/c-activities/t-test-ab/test-ab.md) A/B en lugar de una actividad de página de aterrizaje. Las actividades de prueba A/B no cambian experiencias para el mismo visitante.
    * Utilice un perfil [de visitante](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) en su lugar.
 
+* Cuando utilice evaluadores &quot;comienza/termina con&quot; en cadenas que contengan comas, tenga en cuenta que se evalúan como una matriz de valores, en la que se evalúa cada valor separado por comas. Por ejemplo, si tenemos el valor de un encabezado: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` calificará para condiciones como:
+   * comienza con zh,
+   * comienza con en,
+   * termina con 0,7,
+   * termina con 0,8.
+
 ## Vídeo de formación: Creación de audiencias
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
@@ -139,4 +145,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
