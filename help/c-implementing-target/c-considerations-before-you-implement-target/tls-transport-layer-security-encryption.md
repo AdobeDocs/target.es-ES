@@ -1,11 +1,11 @@
 ---
-keywords: tls;tls 1.0;transport layer security;encryption
+keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: Información sobre cambios en la forma en que Adobe y Target usan TLS (Seguridad de capa de transporte) para mantener los más altos estándares de seguridad y promover la seguridad de los datos de los clientes.
 title: Cambios en el cifrado de TLS (Seguridad de capa de transporte)
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 1a502cc9c235ee765f24f04acf60b6fd75c369dc
+source-git-commit: 0cd553316d43e78e23c268de20871150dcc1cc85
 
 ---
 
@@ -18,25 +18,25 @@ Seguridad de capa de transporte (TLS) es el protocolo de seguridad más implemen
 
 >[!IMPORTANT]
 >
->A partir de febrero de 2020, Adobe Target ya no admitirá el cifrado TLS 1.1 para el Compositor de experiencias visuales (VEC), el Compositor de experiencias mejorado (EEC), la entrega de actividades, las API, etc. Actualice a TLS 1.2 antes de febrero de 2002 para evitar problemas.
+>A partir del 1 de marzo de 2020, Adobe Target ya no admitirá el cifrado TLS 1.1 para el Compositor de experiencias visuales (VEC), el Compositor de experiencias mejorado (EEC), la entrega de actividades, las API, etc. Actualice a TLS 1.2 antes del 1 de marzo de 2002 para evitar problemas.
 
 No esperamos que esto tenga un impacto significativo en los datos de los clientes ni en los informes.
 
 ## Compositor de experiencias visuales (VEC) con Compositor de experiencias mejorado (EEC) habilitado {#section_B374B62DEC3344C194AC7BECC2EE0AA0}
 
-Hasta ahora, el [Compositor de experiencias mejorado](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) (EEC) de Adobe Target usaba TLS 1.0 de forma predeterminada. Después de febrero de 2020, Target se está moviendo a TLS 1.2 de forma predeterminada.
+Hasta ahora, el [Compositor de experiencias mejorado](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) (EEC) de Adobe Target usaba TLS 1.1 de forma predeterminada. Después del 1 de marzo de 2020, Target está cambiando a TLS 1.2 de forma predeterminada.
 
-Adobe realizará la migración de sus clientes por etapas a TLS 1.2. Para aquellos cuyos dominios ya cumplan con 1.2, los pasaremos a TLS 1.2 sin que usted tenga que hacer ningún cambio. La mayoría de los dominios de los clientes ya admiten TLS 1.2. Sin embargo, si su dominio no admite TLS 1.2, conservaremos esos dominios en TLS 1.0 como hoy en día (hasta febrero de 2020).
+Adobe realizará la migración de sus clientes por etapas a TLS 1.2. Para aquellos cuyos dominios ya cumplan con 1.2, los pasaremos a TLS 1.2 sin que usted tenga que hacer ningún cambio. La mayoría de los dominios de cliente ya admiten TLS 1.2; sin embargo, si su dominio no admite TLS 1.2, mantendremos esos dominios en TLS 1.1 como hoy (hasta marzo de 2020).
 
 No debería tener ningún problema durante esta fase de migración. Si el VEC ha dejado de cargar un sitio que antes funcionaba,   [abra un ticket de Client Care](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) citando esta migración como causa posible.
 
-Si, sin embargo, es uno de los clientes que están en TSL 1.0 sin admitir TLS 1.2, debería planificar la migración de sus dominios e infraestructura a TLS 1.2. Seguiremos admitiendo el protocolo TLS 1.0 hasta febrero de 2020. A partir de febrero de 2020, Target no admitirá que el protocolo TLS 1.0 se use para VEC mediante la funcionalidad del Compositor de experiencias mejorado.
+Sin embargo, si usted es uno de esos clientes que están en TSL 1.1 sin admitir TLS 1.2, entonces debería planificar el movimiento de sus dominios/infraestructura a TLS 1.2. Seguiremos admitiendo el protocolo TLS 1.1 hasta marzo de 2020. A partir de marzo de 2020, Target no admitirá el protocolo TLS 1.1 que se usará para el VEC mediante la capacidad del Compositor de experiencias mejorado.
 
-Aunque recomendamos encarecidamente que todos estén en TLS 1.2 de ahora en adelante, si usted es un nuevo cliente, pero *NO* admite TLS 1.2, póngase en contacto con el Servicio de atención al cliente para informarles de que necesita estar en TLS 1.0 para el Compositor de experiencias mejorado. Sin embargo, planifique pasar a TLS 1.2, ya que la compatibilidad con TLS 1.0 terminará en febrero de 2020.
+Aunque recomendamos encarecidamente que todos estén en TLS 1.2 de ahora en adelante, si usted es un nuevo cliente, pero *NO* admite TLS 1.2, póngase en contacto con el Servicio de atención al cliente para informarles de que necesita estar en TLS 1.1 para el Compositor de experiencias mejorado. Sin embargo, planee pasar a TLS 1.2, ya que tampoco será compatible más allá del 1 de marzo de 2020.
 
 ## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
 
-A partir de febrero de 2020, los servidores de Target dejarán de ser compatibles con TLS 1.0. Este cambio significa que los servidores de Target ya no aceptarán solicitudes de usuarios finales que utilicen dispositivos antiguos o navegadores web que no sean compatibles con TLS 1.1 o versiones posteriores. Como resultado, los dispositivos y navegadores más antiguos y que solo admitan TLS 1.0 (o que admitan TLS 1.0 de forma predeterminada) no recibirán de Adobe Target contenido de actividades. Se mostrará el contenido predeterminado del sitio.
+A partir del 1 de marzo de 2020, los servidores de Target ya no admitirán TLS 1.1. Con este cambio, los servidores de Target ya no aceptarán solicitudes de usuarios finales con dispositivos o navegadores web más antiguos que no admitan TLS 1.1 o posterior. Como resultado, los dispositivos y navegadores más antiguos y que solo admitan TLS 1.1 (o que admitan TLS 1.1 de forma predeterminada) no recibirán de Adobe Target contenido de actividades. Se mostrará el contenido predeterminado del sitio.
 
 Algunos de los dispositivos y navegadores antiguos que se verán afectados son:
 
@@ -45,17 +45,17 @@ Algunos de los dispositivos y navegadores antiguos que se verán afectados son:
 * Internet Explorer 10 en Windows Phone 8.0
 * Safari 6.0.4/OS X10.8.4 y versiones anteriores
 
-Mientras planifica este cambio, considere lo siguiente (tenga en cuenta que el plazo de febrero de 2020 afecta a todos estos elementos):
+Cuando planifique este cambio, tenga en cuenta lo siguiente (tenga en cuenta que la fecha límite del 1 de marzo de 2020 afecta a todos estos elementos):
 
 * Debe asegurarse de que el sitio predeterminado esté listo en una manera que sea utilizable para dispositivos y navegadores que cumplan los requisitos.
 * Tenga presente que el número de visitantes de sus informes de Target puede experimentar una caída insignificante en el número de visitantes.
-* Puede que necesite cambiar de audiencia creada específicamente para dirigirse a dispositivos o navegadores antiguos que admiten TLS 1.0 (la entrega a esos dispositivos y navegadores dejará de funcionar).
+* Puede que necesite cambiar de audiencia creada específicamente para dirigirse a dispositivos o navegadores antiguos que admiten TLS 1.1 (la entrega a esos dispositivos y navegadores dejará de funcionar).
 
 Para conocer más detalles sobre exploradores compatibles y sus versiones, consulte   [Exploradores admitidos](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## API de Adobe Target {#section_88797FA5434049EC89F908853CC76903}
 
-A partir de febrero de 2020, Target dejará de admitir el cifrado TLS 1.0. Los clientes que acceden a la API deben verificar que no se verán afectados.
+A partir del 1 de marzo de 2020, las API de Target ya no admitirán el cifrado TLS 1.1. Los clientes que acceden a la API deben verificar que no se verán afectados.
 
 * Los clientes de API que usen Java 7 con la configuración predeterminada necesitarán modificaciones para ser compatibles con TLS 1.2. Para obtener más información, consulte “[Cambiar la versión del protocolo TLS predeterminado para clientes y extremos activos: de TLS 1.0 a TLS 1.2](https://www.java.com/en/configure_crypto.html)” en el sitio web de Java.
 * Los clientes de API que usen Java 8 no deberían tener problemas, ya que la configuración predeterminada es TLS 1.2.
