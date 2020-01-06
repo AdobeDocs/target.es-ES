@@ -1,10 +1,10 @@
 ---
-keywords: problemas conocidos;problemas resueltos;notas de la versión;errores;problemas;correcciones
+keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: Información sobre problemas conocidos de esta versión de Adobe Target. También incluye información sobre problemas que ya se han resuelto.
 title: Problemas conocidos y problemas resueltos  en Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
 
 ---
 
@@ -44,9 +44,9 @@ El informe gráfico de una actividad de segmentación automática no se puede pr
 
 * El siguiente problema conocido aparece al cancelar la carga de una [!UICONTROL prueba A/B] o de [!UICONTROL segmentación de experiencias] (XT) dentro del VEC que contiene una dirección URL de redireccionamiento.
 
-   En el primer paso del flujo de trabajo guiado en tres partes dentro del VEC, al cancelar la carga de la página, se muestra el panel [!UICONTROL Modificaciones] del VEC y se aplica la redirección a la plantilla URL en la experiencia (por ejemplo, "Experiencia B"). Cuando avanza hacia los pasos dos o tres y, después, regresa al paso uno, se produce la siguiente situación.
+   En el primer paso del flujo de trabajo guiado en tres partes dentro del VEC, al cancelar la carga de la página, se muestra el panel [!UICONTROL Modificaciones] del VEC y se aplica la redirección a la plantilla URL en la experiencia (por ejemplo, &quot;Experiencia B&quot;). Cuando avanza hacia los pasos dos o tres y, después, regresa al paso uno, se produce la siguiente situación.
 
-   De forma predeterminada, en la "Experiencia B", se representa la plantilla de carga del sitio web cancelado y el panel [!UICONTROL Modificaciones] es accesible, lo cual no debería ser el caso porque esta experiencia tiene una redirección a la plantilla URL aplicada. Debería aparecer el redireccionamiento a la plantilla URL.
+   De forma predeterminada, en la &quot;Experiencia B&quot;, se representa la plantilla de carga del sitio web cancelado y el panel [!UICONTROL Modificaciones] es accesible, lo cual no debería ser el caso porque esta experiencia tiene una redirección a la plantilla URL aplicada. Debería aparecer el redireccionamiento a la plantilla URL.
 
    Para mostrar el estado correcto de la experiencia en el VEC:
 
@@ -63,10 +63,11 @@ Es posible que las ofertas de código creadas desde la interfaz de usuario de Ta
 Los siguientes son problemas conocidos de las actividades de Recommendations:
 
 * Las entidades caducan correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después de la caducidad. (IRI-857)
-* Las superposiciones "Información de uso" para criterios y diseños no reflejan su uso en actividades A/B y de segmentación de experiencias (TGT-34331)
+* Las superposiciones &quot;Información de uso&quot; para criterios y diseños no reflejan su uso en actividades A/B y de segmentación de experiencias (TGT-34331)
 * Las ofertas de Recomendaciones de las actividades A/B y de Segmentación de experiencias no muestran una vista previa visual de la bandeja Recomendaciones (TGT-33426)
 * Las colecciones, exclusiones, criterios y diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API. (TGT-35777)
 * Las actividades de Recomendaciones creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
+* El estado de la fuente Criterios personalizados que se muestra en la vista de la lista Criterios (tarjeta) se actualiza cada 10 minutos y puede ser superior a 10 minutos desfasado en algunas circunstancias excepcionales. El estado mostrado en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre actualizado. (TGT-35896, TGT-36173)
 
 ### Actividades de prueba multivariable (MVT)
 
@@ -90,7 +91,7 @@ A continuación, detallamos los problemas conocidos de at.js:
 
    Este problema se aplica solo a actividades de Recommendations que usan el VEC.
 
-   **Solución alternativa**: en [!UICONTROL Recommendations &gt; Configuración], desactive la opción [!UICONTROL Filtrar los criterios no compatibles]. Después de desactivar este ajuste, el selector de criterios los muestra todos, compatibles y no compatibles. (TGT-25949)
+   **Solución alternativa**: en [!UICONTROL Recommendations > Configuración], desactive la opción [!UICONTROL Filtrar los criterios no compatibles]. Después de desactivar este ajuste, el selector de criterios los muestra todos, compatibles y no compatibles. (TGT-25949)
 
 * Los mboxes no se activan en los navegadores Microsoft Explorer 11 después de actualizar a at.js versión 1.0 debido a la interacción entre at.js y la API de visitante 2.2.0. Este problema afecta a la versión 0.9.6 y posteriores de at.js. (TNT-27600)
 * Es posible que at.js no funcione con aplicaciones Cordova o híbridas porque no admiten las cookies de origen. (TNT-26166)
@@ -105,7 +106,7 @@ La biblioteca mbox.js no admite los lenguajes de plantilla en el lado del client
 
 ### Implementación: Crear mbox global automáticamente
 
-En la pestaña Implementación ([!UICONTROL Configuración &gt; Implementación]), el campo [!UICONTROL Creación automática de Global Mbox] será “false” de forma predeterminada para un inquilino recién aprovisionado.
+En la pestaña Implementación ([!UICONTROL Configuración > Implementación]), el campo [!UICONTROL Creación automática de Global Mbox] será “false” de forma predeterminada para un inquilino recién aprovisionado.
 
 Cuando se descarga mbox.js por primera vez después del aprovisionamiento, el campo [!UICONTROL Creación automática de Global Mbox] se establece en “true” en el archivo mbox.js descargado y en el back-end de [!DNL Target], pero seguirá mostrándose como “false” en la página [!UICONTROL Implementación] de la interfaz de usuario hasta que se actualice la página (una vez hecho, el estado será “true”).
 
@@ -293,7 +294,7 @@ La capacidad para ver múltiples métricas en un informe se incluyó en la versi
 
 ### Ofertas
 
-Las imágenes eliminadas de la biblioteca Ofertas de imágenes (Ofertas &gt; Ofertas de imágenes) siguen visibles en la interfaz de usuario. En una próxima versión, las imágenes eliminadas dejarán de verse. Mientras tanto, estas imágenes se verán en la interfaz de usuario con el estado Eliminada. (TGT-23793)
+Las imágenes eliminadas de la biblioteca Ofertas de imágenes (Ofertas > Ofertas de imágenes) siguen visibles en la interfaz de usuario. En una próxima versión, las imágenes eliminadas dejarán de verse. Mientras tanto, estas imágenes se verán en la interfaz de usuario con el estado Eliminada. (TGT-23793)
 
 Este problema se corrigió en la versión 17.4.1 de Target (27 de abril de 2017).
 
