@@ -4,7 +4,7 @@ description: Información sobre problemas conocidos de esta versión de Adobe Ta
 title: Problemas conocidos y problemas resueltos  en Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -67,7 +67,7 @@ Los siguientes son problemas conocidos de las actividades de Recommendations:
 * Las ofertas de Recomendaciones de las actividades A/B y de Segmentación de experiencias no muestran una vista previa visual de la bandeja Recomendaciones (TGT-33426)
 * Las colecciones, exclusiones, criterios y diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API. (TGT-35777)
 * Las actividades de Recomendaciones creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
-* El estado de la fuente Criterios personalizados que se muestra en la vista de la lista Criterios (tarjeta) se actualiza cada 10 minutos y puede ser superior a 10 minutos desfasado en algunas circunstancias excepcionales. El estado mostrado en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre actualizado. (TGT-35896, TGT-36173)
+* El estado de la fuente Criterios personalizados que se muestra en la vista de la lista Criterios (tarjeta) se actualiza cada diez minutos y puede que pasen más de diez minutos de la fecha en circunstancias excepcionales. El estado mostrado en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre está actualizado. (TGT-35896, TGT-36173)
 
 ### Actividades de prueba multivariable (MVT)
 
