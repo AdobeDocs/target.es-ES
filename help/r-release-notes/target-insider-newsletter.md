@@ -3,7 +3,7 @@ keywords: insider newsletter;newsletter;product updates;tips and tricks;events;c
 description: Adobe Target Insider es un boletín de información mensual para los miembros de la comunidad de Adobe Target. Obtenga información sobre actualizaciones de productos y planes futuros, consejos y trucos para la personalización y la optimización, casos de éxito de clientes, eventos próximos, libros blancos repletos de información, publicaciones populares en blogs y más.
 title: 'Boletín de información Adobe Target Insider '
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -23,6 +23,7 @@ Si se ha perdido algún boletín anterior, haga clic en los siguientes vínculos
 
 | Problema | Detalles |
 |--- |--- |
+| [Diciembre de 2019 (Volumen 2, Número 12)](https://expleague.azureedge.net/assets/target/2019_12_Target_Newsletter_Dec_2019.html) | Cuando los integrantes del equipo de Adobe Target veamos que el año está llegando a su fin, es grato mirar hacia atrás y reflexionar sobre todo lo que ocurrió en 2019. En este número especial de fin de año, haremos eso, reconociendo a algunos de nuestros clientes y practicantes asombrosos, y ofreciendo lo más destacado mes a mes para el año. |
 | [Noviembre de 2019 (volumen 2, número 11](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | ¡Tenemos noticias emocionantes para ti! En primer lugar, Forrester nombró a Adobe líder en la ola Forrester: Plataformas de inteligencia digital, cuarto trimestre de 2019. Acabamos de lanzar nuestro nuevo SDK de Node.js de código abierto y nuestro potente algoritmo de Recomendaciones basado en usuarios. También tenemos fantásticas sugerencias para la personalización y la optimización que comparte un profesional de Adobe Target. Luego, Goldie Chan, influyente en los medios sociales, entrevistó a Jason Hickey de Adobe Target y a mí en dos sesiones recientes de LinkedIn Live. Jamie Brighton, de Adobe, opinó sobre las herramientas para administrar datos y usar la privacidad de los datos como un diferenciador competitivo. Por último, los desarrolladores de aplicaciones móviles pueden asistir al Generador de habilidades de la aplicación móvil final. |
 | [Octubre de 2019 (volumen 2, número 10)](https://expleague.azureedge.net/assets/target/2019_10_Target_Newsletter_Oct_2019.html) | En el número de este mes, tenemos mucho contenido para que usted lo pase. Obtenga consejos de personalización y optimización de Wendy Melamed, de la editorial de noticias en línea McClatchy. Regístrese y asista a un próximo laboratorio virtual gratuito del generador de habilidades para desarrolladores de aplicaciones móviles. Descubra las grandes ventajas de la integración de Adobe Target con Adobe Campaign. Y descargue el libro de estrategias ganador para la personalización de la experiencia, una guía de reproducción por reproducción para crear un programa de personalización sólido. Por último, pero no menos importante, le indicamos Adobe Target en Experience League para obtener recursos que le ayudarán a ponerse al día en el uso de su solución de personalización líder en el sector. |
 | Septiembre de 2019 | Este mes no se ha publicado ningún boletín informativo. |
