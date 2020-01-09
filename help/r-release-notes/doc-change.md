@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -18,7 +18,8 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 6 de enero de 2019 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido un problema conocido sobre el estado de la fuente Criterios personalizados. |
+| 9 de enero de 2020 | [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Se ha actualizado el texto.<br>A partir del 1 de marzo de 2020, Adobe Target ya no admitirá el cifrado TLS 1.1 para el Compositor de experiencias visuales (VEC), el Compositor de experiencias mejorado (EEC), la entrega de actividades, las API, etc. Actualice a TLS 1.2 antes del 1 de marzo de 2020 para evitar problemas. |
+| 6 de enero de 2020 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido un problema conocido sobre el estado de la fuente Criterios personalizados. |
 | 19 de diciembre de 2019 | [Notas de la versión: SDK de Java de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Se ha añadido información sobre la versión 1.1.0. |
 | 12 de diciembre de 2019 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Se ha actualizado la sección de preguntas más frecuentes. |
 |  | [Interpretar informes de asignación automática](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Se cambió el nombre del tema y se agregó la siguiente sección: &quot;Comprenda los informes de alza y confianza en las actividades de asignación automática.&quot; |
