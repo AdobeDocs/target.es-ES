@@ -4,7 +4,7 @@ description: La búsqueda de catálogo en Adobe Target permite encontrar los pro
 title: Buscar en el catálogo en Adobe Target
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 1a1e1a0f2ff802ee630c47ceeb3241c55eb2cb65
+source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 ---
 
@@ -40,7 +40,7 @@ El catálogo se actualiza automáticamente cuando se reciben actualizaciones med
 
 Puede crear [colecciones](/help/c-recommendations/c-products/collections.md) o [exclusiones](/help/c-recommendations/c-products/exclusions.md) con Búsqueda avanzada en la página Búsqueda en el catálogo ([!UICONTROL Recommendations] > [!UICONTROL Búsqueda en el catálogo] > [!UICONTROL Búsqueda avanzada]).
 
-![Guardar como cuadro de diálogo](/help/c-recommendations/c-products/assets/save-as.png)
+![Guardar como cuadro de diálogo](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] > [!UICONTROL Colección o Exclusión].
 
