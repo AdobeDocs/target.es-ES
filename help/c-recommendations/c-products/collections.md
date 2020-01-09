@@ -1,10 +1,10 @@
 ---
-keywords: colección;Segmentación
+keywords: collection;Targeting
 description: Una colección es un conjunto de productos o artículos en Adobe Target que cumplen los criterios para ser mostrados como recomendación.
 title: Colecciones en Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 ---
 
@@ -35,7 +35,7 @@ Al crear o editar una actividad de [!DNL Recommendations], el nombre de la colec
 
 Puede crear una colección para organizar los productos que quiere mostrar en sus recomendaciones.
 
-1. Haga clic en **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Colecciones]** para visualizar la lista de colecciones existentes.
+1. Haga clic en **[!UICONTROL Recomendaciones]**>**[!UICONTROL  Colecciones]** para visualizar la lista de colecciones existentes.
 
    ![Lista de colecciones](assets/collections_list.png)
 
@@ -43,11 +43,11 @@ Puede crear una colección para organizar los productos que quiere mostrar en su
 
 1. Haga clic en **[!UICONTROL Crear colección]**.
 
-1. (Condicional) Elija un entorno del filtro **[!UICONTROL Entorno]** mientras crea (o actualiza) una colección para obtener una vista previa del contenido de dicha colección en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
+1. (Condicional) Elija un entorno del filtro **[!UICONTROL Entorno]**mientras crea (o actualiza) una colección para obtener una vista previa del contenido de dicha colección en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
 
    ![Crear una colección](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Introduzca un **[!UICONTROL Nombre]** para la colección.
+1. Introduzca un **[!UICONTROL Nombre]**para la colección.
 
    También puede escribir una **[!UICONTROL Descripción opcional]**.
 
@@ -61,11 +61,11 @@ Puede crear una colección para organizar los productos que quiere mostrar en su
 
 ## Crear una colección utilizando Búsqueda avanzada
 
-También puede crear colecciones utilizando Búsqueda avanzada en la página [Búsqueda en el catálogo](/help/c-recommendations/c-products/catalog-search.md) ([!UICONTROL Recommendations] &gt; [!UICONTROL Búsqueda en el catálogo] &gt; [!UICONTROL Búsqueda avanzada]).
+También puede crear colecciones utilizando Búsqueda avanzada en la página [Búsqueda en el catálogo](/help/c-recommendations/c-products/catalog-search.md) ([!UICONTROL Recommendations] > [!UICONTROL Búsqueda en el catálogo] > [!UICONTROL Búsqueda avanzada]).
 
-![Guardar como](/help/c-recommendations/c-products/assets/save-as.png)
+![Guardar como cuadro de diálogo](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-Después de crear una búsqueda utilizando “id &gt; contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] &gt; [!UICONTROL Colección].
+Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] > [!UICONTROL Colección].
 
 >[!IMPORTANT]
 >
@@ -78,4 +78,4 @@ Este vídeo contiene la información siguiente:
 * Creación de una colección
 * Creación de una exclusión
 
->[!VIDEO](https://video.tv.adobe.com/v/27689?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)
