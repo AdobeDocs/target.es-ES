@@ -1,10 +1,10 @@
 ---
-keywords: catálogo;buscar
+keywords: catalog;search
 description: La búsqueda de catálogo en Adobe Target permite encontrar los productos o el contenido en su catálogo.
 title: Buscar en el catálogo en Adobe Target
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1a1e1a0f2ff802ee630c47ceeb3241c55eb2cb65
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 La búsqueda en el catálogo permite encontrar los productos o el contenido en su catálogo.
 
-Para acceder a la búsqueda en el catálogo, haga clic en **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Búsqueda en el catálogo]**.
+To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Catalog Search]**.
 
 Puede restringir la búsqueda: seleccione una opción de búsqueda en el menú de opciones que se muestra al hacer clic en la flecha abajo del campo de búsqueda.
 
@@ -28,9 +28,9 @@ Las opciones de búsqueda son las siguientes:
 * ID
 * Mensaje
 
-**[!UICONTROL TODO]** indica todas las búsquedas en todos los demás criterios de búsqueda usando la lógica OR.
+**[!UICONTROL TODO]**indica todas las búsquedas en todos los demás criterios de búsqueda usando la lógica OR.
 
-En los resultados de búsqueda, haga clic en **[!UICONTROL Entorno]** para especificar el entorno del grupo de hosts de producción cuyo catálogo se está mostrando. [](/help/administrating-target/hosts.md) También puede desplazarse por los artículos en los resultados de búsqueda para ver las miniaturas y otra información del producto.
+En los resultados de búsqueda, haga clic en **[!UICONTROL Entorno]**para especificar el entorno del grupo de hosts de producción cuyo catálogo se está mostrando.[](/help/administrating-target/hosts.md)También puede desplazarse por los artículos en los resultados de búsqueda para ver las miniaturas y otra información del producto.
 
 El número que se muestra junto a “Productos” es el número de productos que coincide con el término de búsqueda, con respecto al total disponible en el entorno especificado.
 
@@ -38,11 +38,11 @@ El catálogo se actualiza automáticamente cuando se reciben actualizaciones med
 
 ## Crear una colección o exclusión basada en la Búsqueda avanzada
 
-Puede crear [colecciones](/help/c-recommendations/c-products/collections.md) o [exclusiones](/help/c-recommendations/c-products/exclusions.md) con Búsqueda avanzada en la página Búsqueda en el catálogo ([!UICONTROL Recommendations] &gt; [!UICONTROL Búsqueda en el catálogo] &gt; [!UICONTROL Búsqueda avanzada]).
+Puede crear [colecciones](/help/c-recommendations/c-products/collections.md) o [exclusiones](/help/c-recommendations/c-products/exclusions.md) con Búsqueda avanzada en la página Búsqueda en el catálogo ([!UICONTROL Recommendations] > [!UICONTROL Búsqueda en el catálogo] > [!UICONTROL Búsqueda avanzada]).
 
-![Guardar como](/help/c-recommendations/c-products/assets/save-as.png)
+![Guardar como cuadro de diálogo](/help/c-recommendations/c-products/assets/save-as.png)
 
-Después de crear una búsqueda utilizando “id &gt; contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] &gt; [!UICONTROL Colección o Exclusión].
+Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] > [!UICONTROL Colección o Exclusión].
 
 >[!IMPORTANT]
 >
