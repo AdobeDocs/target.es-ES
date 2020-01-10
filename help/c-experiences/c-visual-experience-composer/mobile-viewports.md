@@ -1,10 +1,10 @@
 ---
-keywords: capacidad de respuesta;ventanillas móviles;ventanilla;dispositivos;ejemplo móvil;iPhone
+keywords: responsive;mobile viewports;viewport;devices;mobile example;iphone
 description: Las ventanillas móviles ayudan a obtener una vista previa de cómo aparecen las actividades en pantallas de diversos tamaños.
 title: Ventanillas móviles para las experiencias adaptables
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 ---
 
@@ -57,7 +57,7 @@ A continuación tiene las ventanillas móviles y las resoluciones de algunos dis
 | Samsung Galaxy Tab 10 | 800 ancho x 1280 alto | 800 ancho x 1280 alto |
 | Chromebook Pixel | 1280 ancho x 850 alto | 2560 ancho x 1700 alto |
 
-Diversos sitios web enumeran los tamaños de las ventanillas para dispositivos populares. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
+Diversos sitios web enumeran los tamaños de las ventanillas para dispositivos populares. Por ejemplo, consulte [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) o el sitio web del fabricante del dispositivo.
 
 Si quiere ofrecer una actividad en un dispositivo concreto, elija la audiencia adecuada para ese dispositivo en el diagrama de la actividad. Use el Compositor web móvil para editar la página en la actividad de dicho dispositivo. Si quiere llevar a cabo una actividad en toda la experiencia digital y asegurarse de que el aspecto sea satisfactorio en todos los dispositivos, no aplique segmentación y use ventanillas móviles para previsualizar la actividad en cada tamaño de pantalla.
 
@@ -73,8 +73,8 @@ Aunque su sitio no sea adaptable, puede usar el Compositor web móvil para ver u
 
 Configure todas las ventanillas móviles que quiera que estén disponibles cuando cree sus experiencias.
 
-1. Haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Preferencias]**.
-1. En la sección Configuración de ventanillas móviles de la página Preferencias de la cuenta, haga clic en **[!UICONTROL Agregar nueva]** para agregar una ventanilla móvil.
+1. Haga clic en **[!UICONTROL Configuración]**>**[!UICONTROL  Preferencias]**.
+1. En la sección Configuración de ventanillas móviles de la página Preferencias de la cuenta, haga clic en **[!UICONTROL Agregar nueva]**para agregar una ventanilla móvil.
 
    Para cambiar la configuración de una ventanilla móvil existente, selecciónela y, a continuación, haga clic en el icono de editar (el lápiz).
 
@@ -106,8 +106,8 @@ Configure todas las ventanillas móviles que quiera que estén disponibles cuand
 Agregue ventanillas móviles a las actividades de Target para crear experiencias adaptables para las pantallas móviles.
 
 1. Cree una actividad.
-1. En el Compositor de experiencias visuales, haga clic en el icono de engranaje de **[!UICONTROL Configuración]** y, a continuación, seleccione **[!UICONTROL Agregar ventanillas móviles]**.
-1. Haga clic en el icono de **[!UICONTROL Dispositivos]** y, a continuación, active todos los dispositivos que deban tener una ventanilla móvil.
+1. En el Compositor de experiencias visuales, haga clic en el icono de engranaje de **[!UICONTROL Configuración]**y, a continuación, seleccione**[!UICONTROL  Agregar ventanillas móviles]**.
+1. Haga clic en el icono de **[!UICONTROL Dispositivos]**y, a continuación, active todos los dispositivos que deban tener una ventanilla móvil.
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -126,7 +126,7 @@ Agregue ventanillas móviles a las actividades de Target para crear experiencias
 
 Este caso de uso muestra cómo configurar experiencias para dos versiones de iPhone, la iPhone 6 y la iPhone 6 Plus, mediante la función Ventanillas móviles de Target Standard.
 
-1. En Target Standard, haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Preferencias]**.
+1. En Target Standard, haga clic en **[!UICONTROL Configuración]**>**[!UICONTROL  Preferencias]**.
 1. En la sección Configuración de las ventanillas móviles de la página Preferencias, cree ventanillas móviles para iPhone 6 y para iPhone 6 Plus.
 
    Aplique los ajustes siguientes para cada ventanilla:
@@ -140,7 +140,7 @@ Este caso de uso muestra cómo configurar experiencias para dos versiones de iPh
 
 1. Cree una actividad con la experiencia que quiere mostrar.
 1. Seleccione la experiencia que quiere dirigir a los visitantes que accedan al sitio desde un iPhone 6 o un iPhone 6 Plus.
-1. Al seleccionar el objetivo, haga clic en **[!UICONTROL Crear audiencia]** y configure una audiencia tal como se muestra en la imagen siguiente:
+1. Al seleccionar el objetivo, haga clic en **[!UICONTROL Crear audiencia]**y configure una audiencia tal como se muestra en la imagen siguiente:
 
    ![](assets/iphoneaudiences.png)
 
@@ -163,10 +163,10 @@ El siguiente vídeo de demostración incluye información sobre cómo usar el Co
 * Obtener una vista previa y generar experiencia para sitios web adaptables
 * Usar superposiciones para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Preferencias de cuenta en Adobe Target
 
 En este vídeo se explica cómo configurar las ventanillas móviles en las preferencias de cuenta a partir del minuto 4:40.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17379)
