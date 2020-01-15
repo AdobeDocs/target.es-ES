@@ -1,10 +1,10 @@
 ---
-keywords: fuente de recomendaciones;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de análisis
+keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Utilice fuentes para obtener entidades importadas en Adobe Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
 title: Fuentes
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
 
 ---
 
@@ -21,7 +21,7 @@ Puede seleccionar las columnas de su archivo de clasificaciones de productos de 
 
 Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
 
-La lista de [!UICONTROL Fuentes] (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado.
+La lista [!UICONTROL Fuentes] (**[!UICONTROL Recomendaciones]**>**[!UICONTROL  Fuentes]**) proporciona información sobre cualquier fuente que haya creado.
 
 ![Página Fuentes](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -33,6 +33,14 @@ La página Fuentes contiene las siguientes columnas:
 * **Programación**: Muestra el programa de actualización de la fuente: Diario, Semanal, Cada 2 semanas o Nunca.
 * **Elementos**: Muestra el número de elementos de la fuente.
 * **Última actualización**: Muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que ha actualizado la fuente. Si la fuente [!UICONTROL Última actualización] indica “sin definir”, esto significa que la fuente procede de [!DNL Recommendations Classic] y no se puede cambiar desde [!DNL Target Premium Recommendations].
+
+>[!IMPORTANT]
+>
+>Las entidades cargadas y los atributos de entidad caducan pasados 61 días. Esto implica lo siguiente:
+>
+>* La fuente debe ejecutarse al menos mensualmente para asegurarse de que el contenido del catálogo no caduca.
+>* La eliminación de un elemento del archivo de fuente no elimina ese elemento del catálogo. Para eliminar el elemento del catálogo, elimínelo manualmente mediante la interfaz de usuario o la API de Target. O bien, modifique los atributos del artículo (como el inventario) para asegurarse de que el artículo está excluido de la consideración.
+
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -50,7 +58,7 @@ Cualquier dato cargado con el archivo .csv, fuente de producto de Google o fuent
 
 >[!IMPORTANT]
 >
->No escriba los valores entre comillas dobles (") en el archivo .csv a menos que sean deliberadas. Si coloca los valores entre comillas dobles, debe escaparlos escribiendo otro par de comillas dobles. Las comillas dobles sin escape evitan que la fuente de recomendaciones no se cargue correctamente.
+>No escriba los valores entre comillas dobles (&quot;) en el archivo .csv a menos que sean deliberadas. Si coloca los valores entre comillas dobles, debe escaparlos escribiendo otro par de comillas dobles. Las comillas dobles sin escape evitan que la fuente de recomendaciones no se cargue correctamente.
 
 Por ejemplo, la sintaxis siguiente es incorrecta:
 
@@ -200,7 +208,7 @@ La clasificación de productos Analytics es la única clasificación disponible 
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
-1. En la interfaz de Target, haga clic en **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Fuentes]** &gt; **[!UICONTROL Crear fuente]**.
+1. En la interfaz de Target, haga clic en **[!UICONTROL Recomendaciones]**>**[!UICONTROL  Fuentes]** > **[!UICONTROL Crear fuente]**.
 
    ![Cuadro de diálogo Crear fuente](assets/CreateFeed.png)
 
@@ -212,7 +220,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
    * Clasificaciones de Analytics
    Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (Condicional) Si ha seleccionado **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
+1. (Condicional) Si ha seleccionado **[!UICONTROL CSV]**o**[!UICONTROL  Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
 
    * **FTP**: Si ha seleccionado la ubicación FTP, indique los datos del servidor FTP, las credenciales de inicio de sesión, el nombre de archivo y el directorio de FTP. Tiene la opción de usar FTP con SSL (FTPS) para que las cargas sean más seguras.
 
@@ -227,7 +235,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
 1. (Condicional) Si ha seleccionado **[!UICONTROL Clasificaciones de Analytics]**, elija el grupo de informes en la lista desplegable.
 
-1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Programar].
+1. Haga clic en la flecha **[!UICONTROL Siguiente]**para mostrar las opciones de[!UICONTROL Programar].
 
    ![Resultado del paso](assets/CreateFeedSchedule.png)
 
@@ -242,7 +250,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
    Esta opción está basada en la zona horaria establecida en el navegador. Si quiere usar una hora de otra zona horaria, tiene que calcularla según su propia zona horaria.
 
-1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Asignación] y, a continuación, especifique cómo quiere asignar los datos a las definiciones de [!DNL Target].
+1. Haga clic en la flecha **[!UICONTROL Siguiente]**para mostrar las opciones de[!UICONTROL Asignación]y, a continuación, especifique cómo quiere asignar los datos a las definiciones de[!DNL Target].
 
    ![Resultado del paso](assets/CreatFeedMapping.png)
 
@@ -275,7 +283,7 @@ Estos son los posibles estados de una fuente:
 | Esperando descarga | Target se está preparando para descargar el archivo de fuente. |
 | Descargando del archivo de fuente | Target está descargando el archivo de fuente. |
 | Importando elementos | Target está importando elementos del archivo de fuente. |
-| Fuente importada correctamente a las *horas* | Target ha importado el archivo de fuente en el sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán dentro de poco tiempo en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo más tarde y actualice la página que contenga recomendaciones.<br>*Nota 1:* Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se reflejará inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento ya *no* se excluya de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.<br>*Nota 2:* Cuando se muestra este estado, es posible que las actualizaciones no se reflejen todavía en la interfaz de usuario Búsqueda en el catálogo. Aparece un estado separado en la Búsqueda en catálogo que indica la última vez que se actualizó el catálogo en el que se puede buscar. |
+| Fuente importada correctamente a las *horas* | Target ha importado el archivo de fuente en el sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán dentro de poco tiempo en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo más tarde y actualice la página que contenga recomendaciones.<br>*Nota 1:*Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se reflejará inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento ya* no *se excluya de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.<br>*Nota 2:* Cuando se muestra este estado, es posible que las actualizaciones no se reflejen todavía en la interfaz de usuario Búsqueda en el catálogo. Aparece un estado separado en la Búsqueda en catálogo que indica la última vez que se actualizó el catálogo en el que se puede buscar. |
 | Error en la indexación | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
 | Servidor no encontrado | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
 
@@ -322,7 +330,7 @@ Este vídeo contiene la información siguiente:
 * Explicación del objetivo de las fuentes
 * Explicación del valor de las fuentes
 
->[!VIDEO](https://video.tv.adobe.com/v/27695?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Creación de una fuente (6:44)
 
@@ -331,4 +339,4 @@ Este vídeo contiene la información siguiente:
 * Configuración de una fuente
 * Qué tipo de fuente utilizar
 
->[!VIDEO](https://video.tv.adobe.com/v/27696?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
