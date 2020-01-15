@@ -1,12 +1,12 @@
 ---
-keywords: Información general y referencias;SEO;optimización de los motores de búsqueda
+keywords: Overview and Reference;SEO;search engine optimization
 description: Adobe Target se integra con los sitios web mediante una de las dos bibliotecas de JavaScript. at.js o mbox.js
 title: Cómo funciona Adobe Target
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -97,7 +97,7 @@ Cada nodo de Edge dispone de toda la información necesaria para responder a la 
 
 The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-La solución Adobe Target está alojada en centros de datos de todo el mundo que Adobe tiene alquilados o en propiedad. Los servidores de administración se alojan íntegramente dentro de los centros de datos propiedad de Adobe en Londres, Singapur y varias ubicaciones de EE. UU., entre ellas Oregón y Virginia. Los servidores Edge están alojados en servidores alquilados por Adobe o de su propiedad que se encuentran en centros de datos de Amazon AWS en Londres, Hong Kong, Singapur, Tokyo y Sídney.
+La solución Adobe Target está alojada en centros de datos de todo el mundo que Adobe tiene alquilados o en propiedad. Los servidores de administración se alojan íntegramente dentro de los centros de datos propiedad de Adobe en Londres, Singapur y varias ubicaciones de EE. UU., entre ellas Oregón y Virginia. Los servidores Edge están alojados tanto en servidores propiedad de Adobe como en servidores arrendados por Adobe en centros de datos de Amazon AWS en Londres, Hong Kong RAE de China, Singapur, Tokio y Sydney.
 
 Las ubicaciones de los servidores de administración contienen un centro de recopilación de datos y un centro de procesamiento de datos. Las ubicaciones de sitios perimetrales contienen solamente un centro de recopilación de datos. Cada grupo de informes está asignado a un centro de procesamiento de datos específico.
 
@@ -105,7 +105,7 @@ En lugar de responder a todas las solicitudes de segmentación desde una sola ub
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] actualmente no tiene una red Edge en China, y el rendimiento del usuario final se seguirá limitando para los clientes de [!DNL Target] de China. Debido al elevado nivel de seguridad de firewall y a la falta de nodos de Edge dentro del país, las experiencias de los sitios con [!DNL Target] implementado se procesarán lentamente y afectará a la carga de las páginas. Además, los especialistas en marketing pueden experimentar latencia al utilizar la IU de creación de [!DNL Target].
+>[!DNL Adobe Target] actualmente no tiene una red Edge en China, y el rendimiento del usuario final se seguirá limitando para los clientes de [!DNL Target] de China. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -139,7 +139,7 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
    Target, como plataforma, se ha configurado para que trate a los bots de los motores de búsqueda como a cualquier usuario. Esto significa que los bots podrían incluirse en las pruebas que realice, si se seleccionan al azar, y “ver” las variaciones de las pruebas.
 
-* **Usar rel="canonical"**: algunas veces, hay que configurar una prueba A/B con distintas direcciones URL para las variaciones. En estos casos, todas las variaciones deben contener una etiqueta de `rel="canonical"` que haga referencia a la URL (de control) original. Por ejemplo, si Adobe probara su página de inicio utilizando distintas URL para cada variación, la siguiente etiqueta canónica para la página principal iría en la etiqueta `<head>` de todas las variaciones:
+* **Usar rel=&quot;canonical&quot;**: algunas veces, hay que configurar una prueba A/B con distintas direcciones URL para las variaciones. En estos casos, todas las variaciones deben contener una etiqueta de `rel="canonical"` que haga referencia a la URL (de control) original. Por ejemplo, si Adobe probara su página de inicio utilizando distintas URL para cada variación, la siguiente etiqueta canónica para la página principal iría en la etiqueta `<head>` de todas las variaciones:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
