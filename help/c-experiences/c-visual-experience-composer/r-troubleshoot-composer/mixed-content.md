@@ -1,20 +1,16 @@
 ---
-keywords: contenido mixto;seguro;inseguro;chrome;solución de problemas;vec;compositor de experiencias visuales;no garantizado
+keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure
 description: Algunos navegadores no permiten visualizar las páginas donde se combina contenido seguro con contenido no seguro.
-title: Habilitar contenido mixto en el navegador
+title: Activación de contenido mixto en el navegador
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
 
-# Habilitar contenido mixto en el navegador{#enabling-mixed-content-in-your-browser}
-
-Algunos navegadores no permiten visualizar las páginas donde se combina contenido seguro con contenido no seguro.
-
-## Habilitar contenido mixto en el navegador{#concept_46D022D50280468C9EF6D5DF6EFC911C}
+# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
 
 Algunos navegadores no permiten visualizar las páginas donde se combina contenido seguro con contenido no seguro.
 
@@ -34,7 +30,37 @@ Si su sitio web se ejecuta en un dominio no seguro (HTTP), debe permitir que el 
 
 Para obtener más información, consulte [Contenido mixto](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) en el sitio web *Mozilla Developer Network* (MDN).
 
-## Habilitar contenido mixto en Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+
+Si va a visitar un sitio a través de una conexión segura, Google Chrome verificará que el contenido de la página web se haya transmitido correctamente.
+
+<!-- 
+
+target/t_mixed_content_chrome.xml
+
+ -->
+
+Consulte [Esta página tiene contenido no seguro](https://support.google.com/chrome/answer/1342714?hl=en) en la Ayuda de Google Chrome.
+
+### Vídeo de capacitación: Habilitar VEC en Chrome (enero de 2020)
+
+Si utiliza el VEC con la versión más reciente de Chrome (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los visitantes del sitio no necesitarán completar estos pasos.
+
+>[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo&feature=youtu.be)
+
+El vídeo anterior describe los pasos necesarios:
+
+1. Haga clic en el icono de bloqueo o precaución y, a continuación, haga clic en Configuración del sitio.
+
+   ![Configuración del sitio](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
+
+1. Desplácese al contenido no seguro y, a continuación, utilice la lista desplegable para cambiar el valor de Bloque (predeterminado) a Permitir.
+
+   ![Contenido no seguro](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+
+1. Vuelva a cargar la página VEC.
+
+## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 De manera predeterminada, Firefox bloquea las páginas con contenido seguro y no seguro. Se recomienda cambiar esta opción de forma permanente para poder usar [!DNL Target].
 
@@ -51,7 +77,7 @@ target/t_mixed_content_firefox.xml
 
    El valor cambiará de “Verdadero” a “Falso”. Cuando el valor cambie a “Falso”, habrá terminado.  Se recomienda reiniciar el equipo después de cambiar esta opción.
 
-## Habilitar contenido mixto en Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
 De manera predeterminada, Internet Explorer bloquea las páginas con contenido seguro y no seguro. Se recomienda cambiar esta opción de forma permanente para poder usar Target Standard.
 
@@ -61,23 +87,12 @@ target/t_mixed_content_ie.xml
 
  -->
 
-1. En Internet Explorer, haga clic en el icono de configuración &gt; **[!UICONTROL Opciones de Internet]**.
+1. En Internet Explorer, haga clic en el icono de configuración > **[!UICONTROL Opciones de Internet]**.
 1. Abra la pestaña [!UICONTROL Seguridad.]
-1. Seleccione **[!UICONTROL Internet]** y, a continuación, **[!UICONTROL Nivel personalizado]**.
+1. Seleccione **[!UICONTROL Internet]**y, a continuación,**[!UICONTROL  Nivel personalizado]**.
 1. Seleccione **[!UICONTROL Miscelánea]**.
-1. En [!UICONTROL Miscelánea]**, habilite la opción[!UICONTROL Mostrar contenido mixto]**.
-1. Haga clic en **[!UICONTROL Aceptar]** &gt; **[!UICONTROL Sí]** &gt; **[!UICONTROL Aplicar]**.
+1. En [!UICONTROL Miscelánea]**[!UICONTROL , habilite la opción Mostrar contenido mixto]**.
+1. Haga clic en **[!UICONTROL Aceptar]**>**[!UICONTROL  Sí]** > **[!UICONTROL Aplicar]**.
 
 Se recomienda reiniciar el equipo después de cambiar esta opción.
 
-## Habilitar contenido mixto en Chrome   {#task_FF297A08F66E47A588C14FD67C037B3A}
-
-Si va a visitar un sitio a través de una conexión segura, Google Chrome verificará que el contenido de la página web se haya transmitido correctamente.
-
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
-Consulte [Esta página tiene contenido no seguro](https://support.google.com/chrome/answer/1342714?hl=en) en la Ayuda de Google Chrome.
