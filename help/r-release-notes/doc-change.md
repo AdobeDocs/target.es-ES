@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -18,6 +18,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 15 de enero de 2020 | [Activación de contenido mixto en el navegador](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Se ha añadido un vídeo de formación e instrucciones para explicar cómo actualizar la configuración del sitio para permitir contenido mixto en la última versión de Chrome. |
 | 9 de enero de 2020 | [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Se ha actualizado el texto.<br>A partir del 1 de marzo de 2020, Adobe Target ya no admitirá el cifrado TLS 1.1 para el Compositor de experiencias visuales (VEC), el Compositor de experiencias mejorado (EEC), la entrega de actividades, las API, etc. Actualice a TLS 1.2 antes del 1 de marzo de 2020 para evitar problemas. |
 | 6 de enero de 2020 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido un problema conocido sobre el estado de la fuente Criterios personalizados. |
 | 19 de diciembre de 2019 | [Notas de la versión: SDK de Java de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Se ha añadido información sobre la versión 1.1.0. |
