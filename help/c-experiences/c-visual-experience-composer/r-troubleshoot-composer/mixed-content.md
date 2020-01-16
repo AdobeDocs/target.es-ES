@@ -5,7 +5,7 @@ title: Activación de contenido mixto en el navegador
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 9286c85e7f0427b563807e1c424b0caca1abe8f2
+source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 ---
 
@@ -30,19 +30,13 @@ Si su sitio web se ejecuta en un dominio no seguro (HTTP), debe permitir que el 
 
 Para obtener más información, consulte [Contenido mixto](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) en el sitio web *Mozilla Developer Network* (MDN).
 
-## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Si va a visitar un sitio a través de una conexión segura, Google Chrome verificará que el contenido de la página web se haya transmitido correctamente.
 
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
 Consulte [Esta página tiene contenido no seguro](https://support.google.com/chrome/answer/1342714?hl=en) en la Ayuda de Google Chrome.
 
-### Vídeo de capacitación: Habilitar VEC en Chrome (enero de 2020)
+### Vídeo de capacitación: Habilite el VEC en la versión 79.0.3945.117 o posterior de Chrome (enero de 2020)
 
 Si utiliza el VEC con la versión más reciente de Chrome (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los visitantes del sitio no necesitarán completar estos pasos.
 
@@ -60,15 +54,9 @@ El vídeo anterior describe los pasos necesarios:
 
 1. Vuelva a cargar la página VEC.
 
-## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 De manera predeterminada, Firefox bloquea las páginas con contenido seguro y no seguro. Se recomienda cambiar esta opción de forma permanente para poder usar [!DNL Target].
-
-<!-- 
-
-target/t_mixed_content_firefox.xml
-
- -->
 
 1. En Firefox, escriba `about:config` en la barra de direcciones.
 1. Reconozca el mensaje de advertencia que muestra Firefox.
@@ -77,15 +65,9 @@ target/t_mixed_content_firefox.xml
 
    El valor cambiará de “Verdadero” a “Falso”. Cuando el valor cambie a “Falso”, habrá terminado.  Se recomienda reiniciar el equipo después de cambiar esta opción.
 
-## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Microsoft Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
-De manera predeterminada, Internet Explorer bloquea las páginas con contenido seguro y no seguro. Se recomienda cambiar esta opción de forma permanente para poder usar Target Standard.
-
-<!-- 
-
-target/t_mixed_content_ie.xml
-
- -->
+De manera predeterminada, Internet Explorer bloquea las páginas con contenido seguro y no seguro. Se recomienda cambiar esta opción de forma permanente para poder usar Target.
 
 1. En Internet Explorer, haga clic en el icono de configuración > **[!UICONTROL Opciones de Internet]**.
 1. Abra la pestaña [!UICONTROL Seguridad.]
@@ -94,5 +76,5 @@ target/t_mixed_content_ie.xml
 1. En [!UICONTROL Miscelánea]**[!UICONTROL , habilite la opción Mostrar contenido mixto]**.
 1. Haga clic en **[!UICONTROL Aceptar]**>**[!UICONTROL  Sí]** > **[!UICONTROL Aplicar]**.
 
-Se recomienda reiniciar el equipo después de cambiar esta opción.
+Le recomendamos que reinicie el equipo después de cambiar esta configuración.
 
