@@ -1,10 +1,10 @@
 ---
-keywords: solución de problemas;preguntas más frecuentes;FAQ;recomendaciones;caracteres especiales;ponderación de atributos;similitud de contenido
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: Lista de preguntas más frecuentes sobre las actividades de Recomendaciones de Adobe Target.
 title: Preguntas más frecuentes sobre Recomendaciones de Adobe Target
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
 
 ---
 
@@ -35,7 +35,7 @@ Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritm
 
 ## ¿Qué debo hacer si hay caracteres especiales que rompen la matriz?{#section_D27214116EE443638A60887C7D1C534E}
 
-Utilice valores escapados en JavaScript. Las comillas ( " ) pueden romper la matriz. El siguiente fragmento de código es un ejemplo de valores escapados:
+Utilice valores escapados en JavaScript. Las comillas ( &quot; ) pueden romper la matriz. El siguiente fragmento de código es un ejemplo de valores escapados:
 
 ```
 #set($String='') 
@@ -62,7 +62,7 @@ Target dispone de un ajuste  [Filtrar los criterios no compatibles](../../c-reco
 >
 >Este ajuste se aplica únicamente a las actividades creadas en el Compositor de experiencias visuales (VEC). No se aplica a las actividades creadas en el Compositor de experiencias basadas en formularios (Target carece de contexto de ubicación).
 
-Para acceder al ajuste [!UICONTROL Filtrar los criterios no compatibles], haga clic en [!UICONTROL Recommendations] &gt; [!UICONTROL Configuración]:
+Para acceder al ajuste [!UICONTROL Filtrar los criterios no compatibles], haga clic en [!UICONTROL Recommendations] > [!UICONTROL Configuración]:
 
 ![](assets/recs_settings_filter.png)
 
@@ -168,3 +168,23 @@ La exclusión solo se realiza para la llamada de Target actual; los elementos no
 To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Cuando se extrae la dirección URL de contenido, se substituyen los parámetros requeridos mediante parámetros de solicitud de mbox actuales.
 
 De forma predeterminada, esta característica está activada para las recomendaciones de nueva creación. Las recomendaciones existentes deben guardarse para permitir entidades dinámicamente excluidas.
+
+## ¿Qué significa la respuesta NO_CONTENT devuelta a veces en el seguimiento de contenido de Recomendaciones?
+
+NO_CONTENT se devuelve cuando las recomendaciones no están disponibles para la combinación de algoritmo y clave solicitada. En general, esto ocurre cuando las copias de seguridad están desactivadas para el algoritmo y una o varias de las siguientes también son verdaderas:
+
+* Los resultados aún no están listos.
+
+   Esto suele ocurrir cuando primero se guarda una actividad recién creada o después de que se realicen cambios de configuración en la colección, los criterios o las promociones utilizadas en la actividad.
+
+* Los resultados están listos, pero aún no se han almacenado en la caché en el servidor Edge más cercano, para la combinación de algoritmo y clave solicitada.
+
+   La solicitud que se acaba de realizar iniciará una operación de almacenamiento en caché, por lo que esto debería resolverse después de que se vuelvan a cargar algunas páginas o pasen unos minutos.
+
+* Los resultados están listos, pero no están disponibles para el valor de clave proporcionado.
+
+   Esto suele ocurrir cuando se solicitan recomendaciones para un artículo que se agregó al catálogo después de que se ejecute el algoritmo más reciente y se resuelve después de que se ejecute el algoritmo siguiente.
+
+* El procesamiento parcial de la plantilla está desactivado y no hay suficientes resultados disponibles para rellenar la plantilla.
+
+   Esto suele ocurrir cuando tiene una regla de inclusión dinámica, que filtra agresivamente muchos elementos de los posibles resultados. Para evitarlo, habilite las copias de seguridad y no aplique la regla de inclusión a las copias de seguridad, o utilice los criterios de forma secuencial con criterios filtrados con menor agresividad.
