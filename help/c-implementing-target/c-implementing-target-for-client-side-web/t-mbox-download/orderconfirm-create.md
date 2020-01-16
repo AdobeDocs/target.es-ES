@@ -1,11 +1,11 @@
 ---
-keywords: confirmación de pedido;orderConfirmPage
+keywords: order confirmation;orderConfirmPage
 description: El mbox de confirmación de pedido registra los detalles de los pedidos que se realizan en su sitio web y permite generar informes según los ingresos y los pedidos. El mbox de confirmación de pedido también puede realizar algoritmos de recomendaciones, como “Las personas que compraron el producto X también han comprado el producto Y”.
 title: 'Crear un mbox de confirmación de pedido: mbox.js'
-subtopic: Primeros pasos
+subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 ---
 
@@ -16,11 +16,14 @@ El mbox de confirmación de pedido registra los detalles de los pedidos que se r
 
 >[!NOTE]
 >
->Si los usuarios realizan compras en su sitio web, le recomendamos que implemente un mbox de confirmación de pedido aunque use los informes de Analytics para Target (A4T).
+>* Si los usuarios realizan compras en su sitio web, le recomendamos que implemente un mbox de confirmación de pedido aunque use los informes de Analytics para Target (A4T).
+   >
+   >
+* También puede crear un mbox de confirmación de pedido para at.js 1.*x* utilizando el mismo método; sin embargo, se prefiere el [!DNL at.js] método. Para obtener más información, consulte [Conversiones de seguimiento](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+   >
+   >
+* Si está utilizando at.js 2.*x*, ya no `mboxCreate` se admite. Para la confirmación de pedidos con at.js 2.*x*, utilice las siguientes API relacionadas con el seguimiento: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) y [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
->[!NOTE]
->
->También puede crear un mbox de confirmación de pedido para at.js utilizando el mismo método; sin embargo, se recomienda utilizar el método de [!DNL at.js]. Para obtener más información, consulte [Conversiones de seguimiento](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
 
 1. En la página de detalles del pedido, inserte el script de mbox siguiendo el modelo que aparece a continuación.
 1. Reemplace las PALABRAS EN MAYÚSCULAS por valores dinámicos o estáticos del catálogo.
