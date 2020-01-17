@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentación de producto de Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: 4425cff98a2508b4f322c44901c09c0154a229f8
 
 ---
 
@@ -16,42 +16,55 @@ source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados según las funciones de usuario a las que van dirigidos:
 
-## Todos los usuarios de [!DNL Target] {#section_65FA20BA5BC6461E9E21A1B2FAB6393C}
+- [Todos los usuarios de Target](#all)
+- [Especialistas en marketing](#marketers)
+- [Desarrolladores](#developers)
+- [Administradores de Target y Adobe Experience Cloud](#admins)
+- [Analistas](#analysts)
+- [Ingenieros de control de calidad](#qa)
+
+## Todos los usuarios de [!DNL Target] {#all}
 
 Especialistas en marketing, desarrolladores, administradores, analistas e ingenieros de control de calidad.
 
 - [Notas de la versión de Target](r-release-notes/release-notes.md): contiene información sobre la versión actual, información sobre los problemas conocidos que afectan a [!DNL Target], una lista de cambios importantes en esta documentación y un archivo de notas de versiones anteriores.
 - [Introducción a Target](c-intro/intro.md): explica los conceptos principales de la solución [!DNL Target].
 - Integrar Target con Adobe Experience Cloud: Explica cómo se integra [!DNL Target] con otras [!DNL Experience Cloud] soluciones, como [Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A 4 T), [Audiencias de Experience Cloud](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)[y Device Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
+- [Tutoriales](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)de Adobe Target: Proporciona tutoriales y vídeos que le ayudarán a sacar el máximo partido de Target.
 - [Solución de problemas de Target](r-troubleshooting-target/troubleshooting-target.md): proporciona vínculos a información de solución de problemas contenida en esta guía, incluida información sobre los límites de caracteres y otros límites (tamaño de ofertas, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Target].
 - [Target para aplicaciones móviles](c-target-mobile-app/target-mobile-app.md): explica cómo [!DNL Target] se puede utilizar para la optimización y personalización de aplicaciones móviles.
 - [Recursos e información de contacto](cmp-resources-and-contact-information.md): proporciona información sobre recursos adicionales para ayudarle a obtener información sobre las características de [!DNL Target] y cómo ponerse en contacto con [!DNL Adobe] en caso de necesitar ayuda.
 
-## Especialistas en marketing
+## Especialistas en marketing {#marketers}
 
 - [Actividades](c-activities/activities.md): explica cómo configurar, administrar y realizar controles de calidad de actividades de [!DNL Target].
 - [Audiencias](c-target/target.md): explica cómo determinar quién ve el contenido y experiencias en las actividades segmentadas.
 - [Experiencias y ofertas](c-experiences/experiences.md): explica cómo especificar qué contenido se muestra cuando un visitante cumple los criterios de audiencia de una actividad.
 - [Recommendations](c-recommendations/recommendations.md): explica cómo las actividades de [!DNL Recommendations] muestran automáticamente productos o contenido que podrían interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
 
-## Desarrolladores
+## Desarrolladores {#developers}
 
 - [Implementación de Target](c-implementing-target/implementing-target.md): explica cómo implementar [!DNL Target] en sitios web, aplicaciones móviles, aplicaciones de una sola página (SPA) y plataformas IOT/OTT.
+- [API](https://developers.adobetarget.com/api/delivery-api/)de servidor de Target: Describe los recursos que conforman la API de envío de Adobe Target.
+- [SDK](https://github.com/adobe/target-nodejs-sdk)de NodeJS de Target: Explica cómo implementar Target en el servidor. Este SDK de Node.js le ayuda a integrar fácilmente Target con otras soluciones de Adobe Experience Cloud.
+- [SDK](https://github.com/adobe/target-java-sdk)de Java de Target: Explica cómo implementar Target en el servidor. Este SDK de Java le ayuda a integrar fácilmente Target con otras soluciones de Adobe Experience Cloud.
+- [API](https://developers.adobetarget.com/api/recommendations/)de Recomendaciones de Target: Describe los recursos que conforman la API oficial de Recomendaciones de Adobe Target.
+- [Documentación](http://developers.adobetarget.com/api/#introduction)de Adobe.IO de Target: Describe cómo utilizar las API de REST de perfil y administración de Target que utilizan la integración de Adobe.IO para administrar actividades, audiencias, ofertas, propiedades, informes, mboxes, entornos y perfiles.
 
-## Administradores de Target y Adobe Experience Cloud
+## Administradores de Target y Adobe Experience Cloud {#admins}
 
 - [Administración de Target](administrating-target/administrating-target.md): explica cómo agregar usuarios y configurar su cuenta de [!DNL Target].
 
-## Analistas
+## Analistas {#analysts}
 
 - [Audiencias](c-target/target.md): explica cómo determinar quién ve el contenido y experiencias en las actividades segmentadas.
 - [Informes](c-reports/reports.md): explica cómo interpretar el rendimiento de las actividades.
 
-## Ingenieros de control de calidad
+## Ingenieros de control de calidad {#qa}
 
 - [Actividades](c-activities/activities.md): explica cómo configurar, administrar y realizar controles de calidad de actividades de [!DNL Target].
 
-## Recursos adicionales {#section_BF207244CECD479F98900F0E11151E31}
+## Recursos adicionales {#additional}
 
 | Ayuda sobre soluciones de Adobe.[!DNL Target] | Recursos de.[!DNL Adobe Experience Cloud] |
 |--- |--- |
