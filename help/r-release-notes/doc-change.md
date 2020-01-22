@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -18,6 +18,7 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 22 de enero de 2020 | [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Se ha actualizado la siguiente pregunta frecuente: &quot;¿Puedo utilizar la calculadora de tamaño de la muestra al utilizar la asignación automática para calcular cuánto tiempo tardará la actividad en identificar al ganador?&quot; |
 | 15 de enero de 2020 | [Activación de contenido mixto en el navegador](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Se ha añadido un vídeo de formación e instrucciones para explicar cómo actualizar la configuración del sitio para permitir contenido mixto en la última versión de Chrome. |
 |  | [Fuentes](/help/c-recommendations/c-products/feeds.md) | Se ha añadido una nota sobre la carga y eliminación de entidades y atributos de entidad. |
 |  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se ha añadido la siguiente pregunta frecuente:¿Qué significa la respuesta NO_CONTENT devuelta a veces en el seguimiento de contenido de Recomendaciones? |
