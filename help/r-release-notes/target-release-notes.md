@@ -5,7 +5,7 @@ title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 En estas notas de la versión se proporciona información acerca de las funciones, las mejoras, las correcciones y los problemas conocidos de las últimas o de las próximas versiones de [!DNL Adobe Target].
 
-**Última actualización:8 de enero de 2020**
+**Última actualización:22 de enero de 2020**
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ En estas notas de la versión se proporciona información acerca de las funcione
 >
 >Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## Target Standard/Premium 20.1.1 (22 de enero de 2020). 
+## Target Standard/Premium 20.1.1 (29 de enero de 2020). 
 
-La versión de Target Standard/Premium 20.1.1 será el 22 de enero de 2020. Sus funciones y mejoras se anunciarán aquí.
+La versión de Target Standard/Premium 20.1.1 será el 29 de enero de 2020. Sus funciones y mejoras se anunciarán aquí.
 
 >[!IMPORTANT]
 >
