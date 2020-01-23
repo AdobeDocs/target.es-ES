@@ -1,10 +1,10 @@
 ---
-keywords: entidad;atributos de entidad;pasar información a Recommendations;datos de comportamiento;contador de datos;definir URL relativa;mostrar nivel de inventario;definir precio;definir margen de beneficios;atributos personalizados
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: Use los atributos de entidad para pasar la información de producto o contenido a Recommendations.
 title: Atributos de entidad
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -103,7 +103,7 @@ Muestra el nivel de inventario del artículo.
 
 Ejemplo: `'entity.inventory=1'`
 
-**Gestión de atributo de inventario vacío:** si para la entrega dispone de una regla de inclusión, una regla de recopilación o una configuración de criterio con `entity.inventory` &gt; 0 o `entity.inventory` = 0 y no se ha establecido un inventario para el producto, [!DNL Target] lo evalúa como TRUE e incluye productos donde no hay inventario establecido. Este es el comportamiento predeterminado de modo que los productos sin inventario establecido aparezcan en los resultados de la recomendación.
+**Gestión de atributo de inventario vacío:** si para la entrega dispone de una regla de inclusión, una regla de recopilación o una configuración de criterio con `entity.inventory` > 0 o `entity.inventory` = 0 y no se ha establecido un inventario para el producto, [!DNL Target] lo evalúa como TRUE e incluye productos donde no hay inventario establecido. Este es el comportamiento predeterminado de modo que los productos sin inventario establecido aparezcan en los resultados de la recomendación.
 
 Igualmente, si tiene una regla de exclusión global con `entity.inventory` = 0 y `entity.inventory` no está establecido, [!DNL Target] evalúa esta regla como TRUE y excluye el producto.
 
@@ -179,7 +179,11 @@ Recommendations envía el valor de `productId` o `productPurchasedId` (denominad
 
 La mayoría de los parámetros predefinidos solo aceptan un valor único. Los valores nuevos sobrescriben a los antiguos. El parámetro `categoryId` puede aceptar una lista de valores delimitados por comas para cada categoría que contenga el producto. Los nuevos valores de `categoryId` no sobrescriben los valores existentes, sino que, en cambio, se agregan durante la actualización de entidades (límite de 250 caracteres).
 
-En general, el mbox de información de visualización podría verse como en el ejemplo de abajo. Cambie los detalles a negrita para referirse a sus productos.
+En general, el mbox de información de visualización puede tener el aspecto del siguiente ejemplo si utiliza at.js 1.*x* con `mboxCreate`.
+
+>[!NOTE]
+>
+>Si está utilizando at.js 2.*x*, `mboxCreate` (como se utiliza en el ejemplo siguiente) ya no es compatible. Para pasar información de productos o contenido a Recomendaciones mediante at.js 2.*x*, utilice los siguientes métodos de API: [obtenerOferta](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md), [obtenerOfertas](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md), [aplicarOferta](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)o [aplicarOfertas](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md).
 
 >[!NOTE]
 >
