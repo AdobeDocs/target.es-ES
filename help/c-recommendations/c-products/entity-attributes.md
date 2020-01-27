@@ -4,7 +4,7 @@ description: Use los atributos de entidad para pasar la información de producto
 title: Atributos de entidad
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 2ee61d04c9afcb79be980f70fe5ecedcd5eefa9f
+source-git-commit: 96b62977729064da624e3b8fc951bbef3f9a36c1
 
 ---
 
@@ -183,7 +183,7 @@ En general, el mbox de información de visualización puede tener el aspecto del
 
 >[!NOTE]
 >
->Si está utilizando at.js 2.*x*, `mboxCreate` (como se utiliza en el ejemplo siguiente) ya no es compatible. Para pasar información de productos o contenido a Recomendaciones mediante at.js 2.*x*, utilice [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
+>Si está utilizando at.js 2.*x*, `mboxCreate` (como se utiliza en el ejemplo siguiente) ya no es compatible. Para pasar información de productos o contenido a Recomendaciones mediante at.js 2.*x*, utilice [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver un ejemplo de esto, consulte [Planificar e implementar Recomendaciones](/help/c-recommendations/plan-implement.md).
 
 >[!NOTE]
 >
