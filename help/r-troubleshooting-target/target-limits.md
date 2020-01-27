@@ -5,7 +5,7 @@ title: Límites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -114,9 +114,11 @@ Para llamadas de mbox estándar:
 
 Estos límites se aplican a menos que la solicitud se acorte debido a limitaciones del navegador.
 
+Si utiliza la API de envío por lotes, el límite es de 50 mboxes por solicitud por lotes.
+
 Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#server-side-batch-delivery) en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud contiene más de estos límites, la API devolverá el siguiente mensaje de error:
 
-"El número de mboxParameters no puede superar los 50."
+&quot;El número de mboxParameters no puede superar los 50.&quot;
 
 Límites establecidos para los extremos:
 
