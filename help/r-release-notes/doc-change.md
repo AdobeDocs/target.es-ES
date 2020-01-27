@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -18,8 +18,10 @@ En esta página se detallan algunos cambios importantes que hemos realizado en l
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 27 de enero de 2020 | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha añadido la siguiente información: &quot;Si utiliza la API de envío por lotes, el límite es de 50 mboxes por solicitud por lotes.&quot; |
+|  | [Recursos e información de contacto](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | Se ha actualizado el vínculo para abrir un ticket de asistencia. |
 | 23 de enero de 2020 | [Interpretar informes de asignación automática](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Se ha añadido una nota para usar la calculadora de tamaño de muestra de Adobe Target para determinar el ganador. |
-|  | [Atributos de entidad](/help/c-recommendations/c-products/entity-attributes.md) | Se agregó una nota que explica que si está utilizando at.js 2.*x*, ya no `mboxCreate` se admite. Para pasar información de productos o contenido a Recomendaciones mediante at.js 2.*x*, usar `targePageParams`. |
+|  | [Atributos de entidad](/help/c-recommendations/c-products/entity-attributes.md) | Se agregó una nota que explica que si está utilizando at.js 2.*x*, ya no `mboxCreate` se admite. Para pasar información de productos o contenido a Recomendaciones mediante at.js 2.*x*, usar `targetPageParams`. |
 | 22 de enero de 2020 | [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Se ha actualizado la siguiente pregunta frecuente: &quot;¿Puedo utilizar la calculadora de tamaño de la muestra al utilizar la asignación automática para calcular cuánto tiempo tardará la actividad en identificar al ganador?&quot; |
 | 15 de enero de 2020 | [Activación de contenido mixto en el navegador](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Se ha añadido un vídeo de formación e instrucciones para explicar cómo actualizar la configuración del sitio para permitir contenido mixto en la última versión de Chrome. |
 |  | [Fuentes](/help/c-recommendations/c-products/feeds.md) | Se ha añadido una nota sobre la carga y eliminación de entidades y atributos de entidad. |
