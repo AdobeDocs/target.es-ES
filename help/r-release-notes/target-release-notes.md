@@ -5,7 +5,7 @@ title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 ---
 
@@ -16,7 +16,7 @@ En estas notas de la versión se proporciona información acerca de las funcione
 
 
 
-**Última actualización:27 de enero de 2020**
+**Última actualización:28 de enero de 2020**
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ En estas notas de la versión se proporciona información acerca de las funcione
    Para obtener información detallada sobre el posible impacto y los pasos que debe seguir para actualizar la implementación, consulte Cambios [](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)de codificación TLS (Transport Layer Security).
 
 
-## Target Standard/Premium 20.1.1 (29 de enero de 2020). 
+## Target Standard/Premium 20.1.1 (4 de febrero de 2020)
 
 La versión Target Standard/Premium 20.1.1 es una versión de mantenimiento que incluye mejoras y mejoras en el servidor. Además, se incluyen las siguientes correcciones:
 
