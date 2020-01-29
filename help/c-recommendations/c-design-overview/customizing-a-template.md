@@ -1,10 +1,10 @@
 ---
-keywords: diseño personalizado;personalizar diseño;velocity;decimal;coma
+keywords: custom design;velocity;decimal;comma;customize design
 description: Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación.
 title: Personalización de un diseño mediante Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
 
 ---
 
@@ -71,87 +71,117 @@ puede usar el siguiente código:
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
- 
 <tr> 
- 
 <td colspan="3" style="font-size: 130%; border-bottom:1px solid  
 #CCCCCC;"> You May Also Like... </td> 
- 
 </tr> 
- 
 <tr> 
- 
 <td style="border-right:1px solid #CCCCCC;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity1.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity1.id</a></div> 
- 
 By $entity1.message <a href="?x14=brand;q14=$entity1.message"> 
 (More)</a><br/> 
- 
 sku: $entity1.prodId<br/> Price: $$entity1.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="border-right:1px solid #CCCCCC; padding-left:10px;"> 
- 
-<div class="search_content_inner" style="border-bottom:0px;"> 
- 
+<div class="search_content_inner" style="border-bottom:0px;">  
 <div class="search_title"><a href="$entity2.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity2.id</a></div> 
- 
 By $entity2.message <a href="?x14=brand;q14=$entity2.message"> 
 (More)</a><br/> 
- 
 sku: $entity2.prodId<br/> 
- 
 Price: $$entity2.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="padding-left:10px;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity3.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity3.id</a></div> 
- 
 By $entity3.message <a href="?x14=brand;q14=$entity3.message"> 
 (More)</a><br/> 
- 
 sku: $entity3.prodId<br/> Price: $$entity3.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
-</tr> 
- 
+</tr>  
 </table>
 ```
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->Si desea agregar información después del valor de la variable, puede hacerlo usando una anotación formal. Por ejemplo: `${entity1.thumbnailUrl}.gif`.
+>Si desea agregar texto después del valor de una variable antes de que una etiqueta indique que el nombre de la variable ha finalizado, puede hacerlo utilizando una notación formal para incluir el nombre de la variable. Por ejemplo: `${entity1.thumbnailUrl}.gif`.
 
 También puede usar `algorithm.name` y `algorithm.dayCount` como variables en los diseños, de modo que se pueda utilizar un diseño para probar varios criterios y el nombre del criterio se pueda visualizar de forma dinámica en el diseño. Esto indica al visitante que está viendo productos de mayor venta o productos que otras personas han comprado en combinación con otros productos. Incluso puede utilizar dichas variables para visualizar el valor de `dayCount` (número de días de datos utilizados en el criterio), como por ejemplo, “productos más vendidos en los últimos 2 días”, etc.
 
-## Ejemplo: Mostrar el artículo clave con los productos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Trabajo con números en plantillas Velocity
+
+De forma predeterminada, las plantillas Velocity tratan todos los atributos de entidad como valores de cadena. Es posible que desee tratar un atributo de entidad como un valor numérico para realizar una operación matemática o compararlo con otro valor numérico. Para tratar un atributo de entidad como un valor numérico, siga estos pasos:
+1. Declare una variable ficticia e inicialícela en un valor doble o entero arbitrario
+2. Asegúrese de que el atributo de entidad que desea utilizar no está en blanco (necesario para que el analizador de plantillas de Recomendaciones de Target valide y guarde la plantilla)
+3. Pase el atributo entity al `parseInt` método o `parseDouble` en la variable ficticia que ha creado en el paso 1 para convertir la cadena en un valor entero o doble
+4. Realizar la operación matemática o la comparación en el nuevo valor numérico
+
+**Ejemplo: Cálculo de un precio de descuento**
+
+Supongamos que desea reducir el precio mostrado de un artículo en 0,99 $ para aplicar un descuento. Puede utilizar el siguiente método para lograr este resultado:
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('priceBeforeDiscount') != '' )
+    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    Item price: $$discountedPrice
+#else
+    Item price unavailable
+#end
+```
+
+**Ejemplo: Selección del número de estrellas que se mostrarán en función de la clasificación de un elemento**
+
+Supongamos que desea mostrar un número adecuado de estrellas en función de la clasificación de cliente promedio numérica de un artículo. Puede utilizar el siguiente método para lograr este resultado:
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('rating') != '' )
+    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #if( $rating >= 4.5 )
+        <img src="5_stars.jpg">
+    #elseif( $rating >= 3.5 )
+        <img src="4_stars.jpg">
+    #elseif( $rating >= 2.5 )
+        <img src="3_stars.jpg">
+    #elseif( $rating >= 1.5 )
+        <img src="2_stars.jpg">
+    #else
+        <img src="1_star.jpg">
+    #end
+#else
+    <img src="no_rating_default.jpg">
+#end
+```
+
+**Ejemplo: Calcular el tiempo en horas y minutos en función de la longitud de un elemento en minutos**
+
+Supongamos que almacena la duración de una película en minutos, pero desea mostrar la duración en horas y minutos. Puede utilizar el siguiente método para lograr este resultado:
+
+```
+#if( $entity1.get('length_minutes') )
+#set( $Integer = 1 )
+#set( $nbr = $Integer.parseInt($entity1.get('length_minutes')) )
+#set( $hrs = $nbr / 60)
+#set( $mins = $nbr % 60)
+#end
+```
+
+## Visualización de un elemento clave con productos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Puede modificar el diseño para que se muestre su artículo clave junto con otros productos recomendados. Por ejemplo, quizá quiera mostrar el artículo actual junto a las recomendaciones a título de referencia.
 
@@ -174,9 +204,9 @@ El resultado es un diseño como el siguiente, en el que se muestra el artículo 
 
 Al crear su actividad de [!DNL Recommendations], si el artículo clave se toma del perfil del visitante (por ejemplo, “último artículo comprado”), [!DNL Target] muestra un producto aleatorio en el [!UICONTROL Compositor de experiencias visuales] (VEC). Se debe a que no hay un perfil disponible mientras diseña la actividad. Cuando los visitantes vean la página, verán el artículo clave previsto.
 
-## Ejemplo: Reemplazar el punto decimal por el delimitador de coma en un precio de venta {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Realización de reemplazos en un valor de cadena {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Puede modificar su diseño para sustituir el delimitador de punto decimal utilizado en Estados Unidos por el delimitador de coma utilizado en Europa y otros países.
+Puede modificar el diseño para reemplazar valores dentro de una cadena. Por ejemplo, si se sustituye el delimitador de punto decimal utilizado en Estados Unidos por el delimitador de coma utilizado en Europa y otros países.
 
 El siguiente código muestra una sola línea en un ejemplo condicional de precio de venta:
 
@@ -200,7 +230,7 @@ El siguiente código es un ejemplo condicional completo de un precio de venta:
                                     </span>
 ```
 
-## Ejemplo: Crear un diseño de recomendaciones predeterminado de 4 x 2 con lógica de verificación nula {#default}
+## Personalización del tamaño de la plantilla y comprobación de valores en blanco {#default}
 
 Si utiliza un script de Velocity para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de “1 a muchos” para evitar la creación de elementos HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es mejor para los casos en los que usar las recomendaciones de copia de seguridad no tendría sentido y en los que la [!UICONTROL Representación parcial de plantillas] está habilitada.
 
