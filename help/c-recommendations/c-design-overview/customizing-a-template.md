@@ -4,7 +4,7 @@ description: Utilice el lenguaje de diseño Velocity de código abierto para per
 title: Personalización de un diseño mediante Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -123,10 +123,11 @@ También puede usar `algorithm.name` y `algorithm.dayCount` como variables en lo
 ## Trabajo con números en plantillas Velocity
 
 De forma predeterminada, las plantillas Velocity tratan todos los atributos de entidad como valores de cadena. Es posible que desee tratar un atributo de entidad como un valor numérico para realizar una operación matemática o compararlo con otro valor numérico. Para tratar un atributo de entidad como un valor numérico, siga estos pasos:
+
 1. Declare una variable ficticia e inicialícela en un valor doble o entero arbitrario
-2. Asegúrese de que el atributo de entidad que desea utilizar no está en blanco (necesario para que el analizador de plantillas de Recomendaciones de Target valide y guarde la plantilla)
-3. Pase el atributo entity al `parseInt` método o `parseDouble` en la variable ficticia que ha creado en el paso 1 para convertir la cadena en un valor entero o doble
-4. Realizar la operación matemática o la comparación en el nuevo valor numérico
+1. Asegúrese de que el atributo de entidad que desea utilizar no está en blanco (necesario para que el analizador de plantillas de Recomendaciones de Target valide y guarde la plantilla)
+1. Pase el atributo entity al `parseInt` método o `parseDouble` en la variable ficticia que ha creado en el paso 1 para convertir la cadena en un valor entero o doble
+1. Realizar la operación matemática o la comparación en el nuevo valor numérico
 
 **Ejemplo: Cálculo de un precio de descuento**
 
