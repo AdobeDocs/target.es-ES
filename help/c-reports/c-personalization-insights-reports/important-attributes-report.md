@@ -1,10 +1,10 @@
 ---
-keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;segmentación;automática;informe de segmentación automática;informe;personalización;perspectivas;faq;preguntas frecuentes;atributos importantes
+keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
 description: Información sobre el informe Atributos importantes, uno de los dos informes especializados disponibles para los usuarios de las actividades de Personalización automatizada (AP) y Segmentación automática (AT).
 title: Informe Atributos importantes
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 
 ---
 
@@ -22,13 +22,13 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
 ## Acceso al informe Atributos importantes {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Haga clic en **[!UICONTROL Actividades]** y, en la lista, selecciona la actividad [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) deseada.
+1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
 
    Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Fuente de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas] y [!UICONTROL Fuente de la actividad].
 
 1. Haga clic en **[!UICONTROL Informes]**.
 
-   Se muestra el informe [!UICONTROL Resumen], que proporciona información sobre el rendimiento de sus actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. Tenga en cuenta que Segmentación automática dispone de un icono de gráfico adicional para la visualización gráfica del informe [!UICONTROL Resumen].
+   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. Tenga en cuenta que Segmentación automática dispone de un icono de gráfico adicional para la visualización gráfica del informe [!UICONTROL Resumen].
 
    ![](assets/personalization_insights.png)
 
@@ -36,7 +36,7 @@ En las distintas actividades, distintos atributos son más o menos importantes p
    >
    >El informe [!UICONTROL Atributos importantes] no estará disponible hasta al menos 15 días después de que haya activado su actividad. Durante este periodo inicial, no podrá acceder a este informe o hacer clic en el icono [!UICONTROL Atributos importantes]. Después de que hayan transcurrido 15 días, suponiendo que haya suficiente tráfico personalizado en su actividad, el informe [!UICONTROL Atributos personalizados] estará disponible.
 
-1. Transcurridos 15 días a partir de la activación de la actividad, puede hacer clic en el icono **[!UICONTROL Atributos importantes].**
+1. Transcurridos 15 días a partir de la activación de la actividad, puede hacer clic en el icono **[!UICONTROL Atributos importantes]**.
 
    ![](assets/model_attribute_ranking.png)
 
