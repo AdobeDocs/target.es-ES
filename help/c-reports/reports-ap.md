@@ -4,7 +4,7 @@ description: Hay informes especializados disponibles para los usuarios de Person
 title: Informes Resumen de Personalización automatizada
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: ea6d526c07a32c84d85d9cd62f2cda804e81d418
+source-git-commit: 72f1a92f299286e14211f0c8773ba7718d779198
 
 ---
 
@@ -29,7 +29,7 @@ Hay informes especializados disponibles para los usuarios de Personalización au
 
 El informe [!UICONTROL Nivel de actividad] compara el rendimiento global del uso de un algoritmo de [!UICONTROL Personalización automatizada] para el contenido suministrado de manera aleatoria (control).
 
-![Informe de nivel de actividad](/help/c-reports/assets/box_plot_ap.png)
+![Informe Nivel de actividad  ](/help/c-reports/assets/box_plot_ap.png)
 
 Las reglas estándar de interpretación de resultados para prueba A/B aún se aplican, incluidos alza, confianza, tendencias, duración, etc. Para obtener más información sobre interpretación de resultados, consulte   [Acerca de la tasa de conversión](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
 
