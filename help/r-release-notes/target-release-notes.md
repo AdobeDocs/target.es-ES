@@ -5,7 +5,7 @@ title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
+source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 En estas notas de la versión se proporciona información acerca de las funciones, las mejoras, las correcciones y los problemas conocidos de las últimas o de las próximas versiones de [!DNL Adobe Target].
 
-
-
-**Última actualización:28 de enero de 2020**
+**Última actualización: 4 de febrero de 2020**
 
 >[!NOTE]
 >
@@ -32,12 +30,9 @@ En estas notas de la versión se proporciona información acerca de las funcione
    Para obtener información detallada sobre el posible impacto y los pasos que debe seguir para actualizar la implementación, consulte Cambios [](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)de codificación TLS (Transport Layer Security).
 
 
-## Target Standard/Premium 20.1.1 (4 de febrero de 2020)
+## Target Standard/Premium 20.2.1 (19 de febrero de 2020)
 
-La versión Target Standard/Premium 20.1.1 es una versión de mantenimiento que incluye mejoras y mejoras en el servidor. Además, se incluyen las siguientes correcciones:
-
-* Se ha corregido un problema que provocaba que el campo del servidor de seguimiento de Adobe Analytics estuviera vacío en la página Objetivos y configuración de las actividades existentes de Adobe para Target (A4T). (TGT-35960)
-* Se ha corregido un problema en la interfaz de usuario que provocaba que la selección en la segunda lista desplegable no se mostrara al crear una audiencia para afinidad de categoría. (TGT-36098)
+La versión de Target Standard/Premium 20.2.1 está programada para el 19 de febrero de 2020. En los próximos días se publicará información sobre funciones, mejoras y correcciones específicas.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
