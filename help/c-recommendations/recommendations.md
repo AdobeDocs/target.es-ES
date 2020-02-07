@@ -1,10 +1,10 @@
 ---
-keywords: Recomendaciones;Criterios de Recomendaciones;algoritmos de recomendaciones;actividad de recomendaciones;criterios;segmentación de recomendaciones;recs
+keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
 description: Las actividades de Recomendaciones de Adobe Target muestran automáticamente productos o contenido que puede interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
 title: Recomendaciones de Adobe Target
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -43,7 +43,7 @@ Una recomendación determina cómo se sugiere un producto a un cliente, según l
 
 Para obtener más información sobre estos y otros criterios de [!DNL Recommendations] consulte [Criterios](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vídeo de formación: Tipos de actividades
+## ![Vídeo de capacitación sobre la insignia](/help/assets/overview.png) de información general: Tipos de actividades
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium]. Se habla sobre [!DNL Recommendations] a partir del minuto 7:20.
 
@@ -51,7 +51,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Seminario web básico de Adobe Target: Introducción a Recommendations {#intro-to-recs}
 
