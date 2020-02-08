@@ -1,11 +1,11 @@
 ---
-keywords: Target Standard;Recomendaciones;Target Premium;Personalización automatizada;segmentación automática;permisos;qué es adobe target;
+keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes a fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 title: Introducción a Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -37,6 +37,10 @@ La solución [!DNL Adobe Target] tiene varios componentes:
 ## Target Premium {#premium}
 
 [!DNL Target Premium] es una licencia avanzada de [!DNL Target] que añade funciones superiores a [!DNL Target Standard].
+
+Los temas de Target Premium de esta ayuda incluyen la insignia Premium en la parte superior de la página:
+
+![Distintivo Premium](/help/assets/premium.png)
 
 Target Premium incluye las siguientes características avanzadas:
 
@@ -97,7 +101,7 @@ Cree su programa de optimización y personalización en Adobe Target con este ki
 
 [El kit de bienvenida de Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Vídeo de formación: Tipos de actividades (9:03)
+## ![Vídeo de capacitación sobre la insignia](/help/assets/overview.png) de información general: Tipos de actividades (9:03)
 
 En el siguiente vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium] y el modo en que el flujo de trabajo guiado de tres pasos de Target puede ayudarle a lograr sus objetivos.
 
@@ -105,4 +109,4 @@ En el siguiente vídeo se describen los tipos de actividades disponibles en [!DN
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
