@@ -1,10 +1,10 @@
 ---
-keywords: Segmentación;experiencia;añadir experiencia;adición de experiencia
+keywords: Targeting;experience;add experience;experience add
 description: El Compositor de experiencias visuales (VEC) de Adobe Target proporciona una interfaz visual para editar las experiencias en la página.
 title: Añadir experiencia
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -80,21 +80,21 @@ Para obtener más información, consulte [Redireccionamiento a URL](/help/c-expe
 
 Puede copiar una experiencia en una prueba A/B para poder realizar cambios menores sin tener que volver a crear la experiencia desde cero.
 
-En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales &gt; **[!UICONTROL Duplicar]**.
+En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales > **[!UICONTROL Duplicar]**.
 
 ![Opción Duplicar experiencia](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## Eliminar una experiencia
 
-En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales &gt; **[!UICONTROL Duplicar]**.
+En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales > **[!UICONTROL Duplicar]**.
 
 ![Opción Eliminar experiencia](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Vídeo de formación: Uso del Compositor de experiencias visuales
+## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
 
 El siguiente vídeo proporciona información sobre cómo usar las opciones del Compositor de experiencias visuales. (7:17)
 
 * Cambiar el contenido de una página
 * Cambiar el diseño de una página
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
