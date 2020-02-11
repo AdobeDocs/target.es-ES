@@ -1,12 +1,12 @@
 ---
-keywords: Experience Cloud;iniciar sesión
+keywords: Experience Cloud;sign in
 description: Instrucciones para acceder a Adobe Target desde Adobe Experience Cloud.
 title: Acceder a Target desde Adobe Experience Cloud
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ Información sobre el acceso a [!DNL Adobe Target] desde [!DNL Adobe Experience 
 
    ![Icono de Target.](/help/c-intro/assets/appmenu-target-new.png)
 
-1. En la tarjeta [!DNL Target], haga clic en **[!UICONTROL Iniciar]**.
+1. En la tarjeta **[!UICONTROL , haga clic en]** Iniciar[!DNL Target].
 
    ![Iniciar Target](/help/c-intro/assets/target-launch-new.png)
 
@@ -91,7 +91,7 @@ La documentación de [!DNL Target] está disponible en los siguientes idiomas:
 * Chino tradicional
 * Coreano
 
-## Vídeo de formación: Adobe Target en Experience Cloud (4:59)
+## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png)
 
 Este vídeo incluye información sobre [!DNL Adobe Target] en [!DNL Experience Cloud].
 
