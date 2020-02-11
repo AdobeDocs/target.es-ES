@@ -1,10 +1,10 @@
 ---
-keywords: diseño de recomendaciones;crear diseño;copiar diseño
+keywords: recommendations design;create design;copy design
 description: Un diseño define el modo en que las recomendaciones aparecen en una página.
 title: Crear un diseño
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Un diseño define el modo en que las recomendaciones aparecen en una página.
 
-Puede crear un diseño de [!UICONTROL Recommendations] usando un diseño predeterminado o creando uno personalizado. La pantalla **[!UICONTROL Recommendations &gt; Diseños]** muestra las tarjetas de diseños predeterminados y los diseños que se han creado. Los diseños predeterminados no se pueden editar ni eliminar.
+Puede crear un diseño de [!UICONTROL Recommendations] usando un diseño predeterminado o creando uno personalizado. La pantalla **[!UICONTROL Recommendations > Diseños]** muestra las tarjetas de diseños predeterminados y los diseños que se han creado. Los diseños predeterminados no se pueden editar ni eliminar.
 
-1. En la pantalla **[!UICONTROL Recommendations &gt; Diseños]**, pase el ratón sobre la tarjeta del diseño que quiere crear.
+1. En la pantalla **[!UICONTROL Recommendations > Diseños]**, pase el ratón sobre la tarjeta del diseño que quiere crear.
 
    ![](assets/Card_CopyDesign.png)
 
@@ -23,7 +23,7 @@ Puede crear un diseño de [!UICONTROL Recommendations] usando un diseño predete
 
    O
 
-   Para crear un diseño personalizado, haga clic en **[!UICONTROL Crear diseño]** en la pantalla **Recommendations &gt; Diseños[!UICONTROL .]**
+   Para crear un diseño personalizado, haga clic en **[!UICONTROL Crear diseño]** en la pantalla **[!UICONTROL Recommendations > Diseños.]**
 
    ![](assets/createDesign.png)
 
@@ -42,11 +42,11 @@ Puede crear un diseño de [!UICONTROL Recommendations] usando un diseño predete
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Vídeo de formación: Creación de diseños personalizados en Recommendations (3:20)
+## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
 
 Este vídeo contiene la información siguiente:
 
 * Crear un diseño personalizado
 * Cómo hacer referencia a las variables de visualización en los diseños
 
->[!VIDEO](https://video.tv.adobe.com/v/27687?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)
