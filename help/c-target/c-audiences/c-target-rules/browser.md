@@ -1,11 +1,11 @@
 ---
-keywords: opciones del explorador;tipo;tipo de explorador;idioma del explorador;idioma;versión;versión del explorador
+keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Puede crear audiencias en Adobe Target para segmentar usuarios que usen un navegador específico y opciones del navegador concretas cuando visiten una página.
 title: Opciones de explorador en las audiencias de Adobe Target
-subtopic: Prueba multivariable
+subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,11 +35,11 @@ Hay dos formar de segmentar según el navegador:
 
 **Regla de audiencia de navegador personalizada:** una audiencia personalizada permite segmentar por varios navegadores o configurar reglas o exclusiones para navegadores, versiones de navegador e idiomas de navegador específicos. Esto le proporciona una flexibilidad considerable a la hora de segmentar una campaña según los atributos del navegador.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
+1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Explorador]**.
+1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Navegador]**.
 
-   ![Reglas &gt; Navegador](assets/target_browser.png)
+   ![Reglas > Navegador](assets/target_browser.png)
 
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
@@ -117,11 +117,11 @@ En el campo de texto solo se pueden introducir versiones principales. Es decir, 
 
 Si hay varias opciones, se conectan con un parámetro O.
 
-## Vídeo de formación: Creación de audiencias
+## Vídeo de formación: Creación de audiencias Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
