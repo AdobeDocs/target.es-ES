@@ -5,7 +5,7 @@ title: Asignación automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -182,7 +182,7 @@ El 20 % de los visitantes se asigna de forma aleatoria entre todas las experien
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Flujo de trabajo de actividad - Segmentación (2:14)
+### Flujo de trabajo de actividad - Segmentación (2:14) Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre cómo configurar la asignación de tráfico.
 
@@ -193,7 +193,7 @@ Este vídeo incluye información sobre cómo configurar la asignación de tráfi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Creación de pruebas A/B (8:36)
+### Creación de una insignia de ![tutorial para pruebas A/B (8:36)](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de trabajo guiado de tres pasos de Target. La asignación de tráfico automática se explica a partir del minuto 4:45.
 
