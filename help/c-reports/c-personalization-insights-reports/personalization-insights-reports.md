@@ -4,7 +4,7 @@ description: 'Los usuarios de las actividades de Personalización automatizada (
 title: Informes de Perspectivas de personalización
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -53,7 +53,7 @@ Target le ofrece muchas maneras de incluir datos adicionales con los que enrique
 | Audiencias compartidas (Adobe Audience Manager o Adobe Analytics) | Audiencias creadas a través de Adobe Audience Manager o Adobe Analytics y compartidas con Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Audiencias/segmentos de informes de actividad | Audiencias definidas en su actividad de AP o Segmentación automática durante la configuración en “Objetivos y métricas”. | `Custom - Reporting Segment - [segment name]` |
 
-## Vídeo de formación: Uso de los informes de Perspectivas de personalización
+## Vídeo de formación: Uso de los informes de Perspectivas de personalización Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
