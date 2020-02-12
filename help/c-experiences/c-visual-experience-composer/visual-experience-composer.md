@@ -3,7 +3,7 @@ description: Información sobre el uso de VEC (Visual Experience Composer) en Ad
 title: Compositor de experiencias visuales (VEC) de Adobe Target
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ El VEC es una interfaz de usuario WYSIWYG que permite crear y probar fácilmente
 
 El VEC es una de las características principales de [!DNL Adobe Target]. El VEC permite que los expertos en marketing y los diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
 
-En Target, en la pestaña **[!UICONTROL Configuración]** &gt; **[!UICONTROL Preferencias]**, puede introducir la dirección URL predeterminada del Compositor de experiencias visuales.
+En la ficha Target **[!UICONTROL Configuración]** > **[!UICONTROL Preferencias]**, puede introducir la dirección URL predeterminada del Compositor de experiencias visuales.
 
 ![Configuración de URL predeterminada de VEC](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -42,7 +42,7 @@ Haga clic en el icono **[!UICONTROL Superposiciones]** para cambiar la forma en 
 
 ![Cambios en la configuración de superposición](/help/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-Haga clic en un elemento resaltado para acceder al menú de opciones disponibles para dicho tipo de elemento. Por ejemplo, puede hacer clic en una imagen y seleccionar **[!UICONTROL Editar &gt; Texto/HTML]** para modificar el texto, o bien hacer clic en un botón y cambiar el color del fondo. Puede usar los botones de la parte superior izquierda para activar y desactivar las superposiciones.
+Haga clic en un elemento resaltado para acceder al menú de opciones disponibles para dicho tipo de elemento. Por ejemplo, puede hacer clic en una imagen y seleccionar **[!UICONTROL Editar > Texto/HTML]** para modificar el texto, o bien hacer clic en un botón y cambiar el color del fondo. Puede usar los botones de la parte superior izquierda para activar y desactivar las superposiciones.
 
 También puede hacer clic en **[!UICONTROL Examinar]** y navegar a una página que esté disponible como página principal (por ejemplo, la página de envío o el carro de compras) y probar los cambios en esa página. También puede acceder a los elementos de la página que están disponibles cuando mueve el cursor por encima, como los menús flotantes y los minicarros. Cuando termine de navegar por la página, haga clic en **[!UICONTROL Componer]** para editar la experiencia. Por ejemplo, puede interesarle cambiar el diseño de una lista desplegable de carro de compras o un carrusel de imágenes.
 
@@ -109,14 +109,14 @@ Para continuar administrando experiencias en la actividad actual o agregar nueva
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Compositor de experiencias visuales (1 de 2) (7:17)
+### Compositor de experiencias visuales (1 de 2) (7:17) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 * Cambiar el contenido de una página
 * Cambiar el diseño de una página
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Compositor de experiencias visuales (2 de 2) (7:29)
+### Compositor de experiencias visuales (2 de 2) (7:29) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 * Cambiar el nombre de una experiencia y duplicarla
 * Crear una experiencia de redirección
@@ -125,9 +125,9 @@ Los siguientes vídeos contienen más información sobre los conceptos mencionad
 * Obtener una vista previa y generar experiencia para sitios web adaptables
 * Usar superposiciones para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Horario de oficina: Compositor de experiencias visuales
+### Horario de oficina: Distintivo ![de tutorial del Compositor de experiencias visuales](/help/assets/tutorial.png)
 
 Este vídeo es una grabación de “[Horario de oficina](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
@@ -135,4 +135,4 @@ Este vídeo es una grabación de “[Horario de oficina](../../cmp-resources-and
 * Cómo evitar problemas comunes con el Compositor de experiencias visuales
 * Soluciones alternativas con el Compositor de experiencias visuales
 
->[!VIDEO](https://video.tv.adobe.com/v/20784/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/20784/)
