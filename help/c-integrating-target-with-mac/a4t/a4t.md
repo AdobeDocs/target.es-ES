@@ -1,12 +1,12 @@
 ---
-keywords: A4T;Analytics;Analytics para Target;fuente de informes de Analytics;Adobe Analytics;fuente de informes para Target
+keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: Adobe “Analytics for Target” (A4T) es una integración de soluciones cruzadas que le permite crear actividades basadas en las métricas de conversión y los segmentos de audiencia de Analytics. Esta integración le permite utilizar informes de Analytics para examinar sus resultados. Si usa Analytics como fuente de informes de una actividad, todos los informes y la segmentación de dicha actividad se basarán en la recopilación de datos de Analytics.
 title: Adobe Analytics como fuente de informes para Adobe Target (A4T)
-subtopic: Integración
+subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -78,7 +78,7 @@ Dado que, de momento, no todos los tipos de actividades son compatibles con A4T,
 
 ## Ejemplos de informes de A4T   {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Para ver los informes de A4T en [!DNL Target], haga clic en **[!UICONTROL Actividades]**, haga clic en la actividad deseada en la lista que usa [!DNL Analytics] como fuente de informes y, a continuación, haga clic en la pestaña **[!UICONTROL Informes].**
+Para ver los informes de A4T en [!DNL Target], haga clic en **[!UICONTROL Actividades]**, haga clic en la actividad deseada en la lista que usa [!DNL Analytics] como fuente de informes y, a continuación, haga clic en la pestaña **[!UICONTROL Informes]**.
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Abra el tutorial [Analytics &amp; Target: Best Practices for Analysis](https://s
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Analytics for Target (A4T) (4:32)
+### Distintivo de ![información general de Analytics para Target (A4T) (4:32)](/help/assets/overview.png)
 
 Este vídeo explica cómo utilizar Adobe Analytics como una fuente de informes en Adobe Target para dirigir el análisis de su programa de optimización.
 
@@ -116,9 +116,9 @@ Este vídeo explica cómo utilizar Adobe Analytics como una fuente de informes e
 * Explicar cómo funciona A4T
 * Entender los requisitos necesarios antes de utilizar A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/17384?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Integración Analytics / Target (A4T) (40:33)
+### Integración de Analytics y Target (A4T) (40:33) !![Tutorial badge](/help/assets/tutorial.png
 
 Este vídeo es una grabación de “[Horario de oficina](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
