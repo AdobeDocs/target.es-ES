@@ -1,10 +1,10 @@
 ---
-keywords: secuencia de criterios;varios criterios;algoritmos;criterios;criterios de recomendación
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de recomendaciones.
 title: Crear secuencias de criterios
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -39,9 +39,9 @@ Una secuencia de criterios en una página de inicio podría seguir este orden:
 
 Existen varias maneras de llegar a la pantalla [!UICONTROL Crear secuencia de criterios]. Algunas opciones de pantalla dependen de cómo llega a la pantalla.
 
-* Cuando esté creando una actividad de [!UICONTROL Recommendations], haga clic en **[!UICONTROL Crear nuevo]** &gt; **[!UICONTROL Crear secuencia de criterios]** en la pantalla [!UICONTROL Seleccionar criterios]. Tendrá la opción de guardar la nueva secuencia de criterios para usarla con otras actividades de [!UICONTROL Recommendations].
-* Cuando esté editando una actividad de [!UICONTROL Recommendations], haga clic en el cuadro [!UICONTROL Ubicación de Recommendations] de la página y seleccione **[!UICONTROL Cambiar criterios]**. En la pantalla [!UICONTROL Seleccionar criterios], haga clic en **[!UICONTROL Crear nuevo]** &gt; **[!UICONTROL Crear secuencia de criterios]**. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!UICONTROL Recommendations].
-* En la pantalla de la biblioteca **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Criterios]**, haga clic en **[!UICONTROL Crear criterio]** &gt; **[!UICONTROL Crear secuencia de criterios]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!UICONTROL Recommendations].
+* Cuando esté creando una actividad de [!UICONTROL Recomendaciones], haga clic en **[!UICONTROL Crear nuevo]** > **[!UICONTROL Crear secuencia de criterios]** en la pantalla [!UICONTROL Seleccionar criterios]. Tendrá la opción de guardar la nueva secuencia de criterios para usarla con otras actividades de [!UICONTROL Recommendations].
+* Cuando esté editando una actividad de [!UICONTROL Recommendations], haga clic en el cuadro [!UICONTROL Ubicación de Recommendations] de la página y seleccione **[!UICONTROL Cambiar criterios]**. En la pantalla [!UICONTROL Seleccionar criterios], haga clic en **[!UICONTROL Crear nuevo]** > **[!UICONTROL Crear secuencia de criterios]**. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!UICONTROL Recommendations].
+* En la pantalla de la biblioteca **[!UICONTROL Recomendaciones]** > **[!UICONTROL Criterios]**, haga clic en **[!UICONTROL Crear criterio]** > **[!UICONTROL Crear secuencia de criterios]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!UICONTROL Recommendations].
 
 1. Haga clic en **[!UICONTROL Crear criterios]** o **[!UICONTROL Crear nuevo]**.
 
@@ -86,7 +86,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear secuencia de cr
 
    Para obtener más información sobre opciones de lógica de recomendación, consulte [Criterios](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vídeo de formación: Crear criterios en Recommendations (12:33)
+## Vídeo de formación: Crear criterios en Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
@@ -94,4 +94,4 @@ Este vídeo contiene la información siguiente:
 * Crear secuencias de criterios
 * Cargar criterios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
