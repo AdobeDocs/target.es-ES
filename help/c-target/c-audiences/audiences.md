@@ -5,7 +5,7 @@ title: Cree audiencias en Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8c78e7f917e71cae69e068091d3436b95b2afb4f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -38,7 +38,7 @@ Al trabajar con audiencias que se crearon originalmente en AAM, Target le alerta
 * Si se eliminó una audiencia en AAM, se muestra un icono de advertencia tanto en la lista de [!UICONTROL Audiencias] como en el selector de audiencias. Una información sobre herramientas en la IU también indica que la audiencia se eliminó en AAM.
 * Si intenta combinar varias audiencias con una audiencia eliminada, o si intenta guardar una actividad que hace referencia a una audiencia eliminada, aparecerá un mensaje de advertencia.
 
-También puede segmentar parámetros de perfil personalizados y parámetros de `user.`. Al agregar una audiencia, haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Perfil del visitante]** y, a continuación, elija el parámetro que desee utilizar para segmentar la actividad. Si el parámetro que desea utilizar no está en la lista, significa que ningún mbox lo ha activado. Encontrará otros parámetros personalizados disponibles de mbox en la lista desplegable [!UICONTROL Parámetros personalizados].
+También puede segmentar parámetros de perfil personalizados y parámetros de `user.`. When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. Si el parámetro que desea utilizar no está en la lista, significa que ningún mbox lo ha activado. Encontrará otros parámetros personalizados disponibles de mbox en la lista desplegable [!UICONTROL Parámetros personalizados].
 
 Use el cuadro de búsqueda para buscar la lista [!UICONTROL Audiencias]. Puede buscar cualquier parte del nombre de una audiencia, o bien encerrar entre comillas una cadena específica.
 
@@ -50,11 +50,11 @@ En varios puntos de la interfaz de Target puede ver detalles de la definición d
 
 Por ejemplo, a la siguiente definición se accede pasando el puntero sobre una audiencia en la Lista de audiencias y haciendo clic en el icono Ver:
 
-![Actividades &gt; Definición de audiencia](assets/audience_definition_list.png)
+![Actividades > Definición de audiencia](assets/audience_definition_list.png)
 
 A la siguiente definición de audiencia se accede haciendo clic en el icono Ver de la página Información general de una actividad:
 
-![Actividades &gt; Definición de audiencia](assets/audience_definition_list.png)
+![Actividades > Definición de audiencia](assets/audience_definition_list.png)
 
 Haga clic en la pestaña [!UICONTROL Uso de la audiencia] para ver otras actividades que hacen referencia a esa audiencia, si es aplicable. De esta forma, puede evitar el impacto accidental en otras actividades mientras edita audiencias. La información incluye actividades en vivo, actividades inactivas, actividades archivadas y actividades de sincronización. Esta función está disponible para todas las audiencias (audiencias de biblioteca y  [audiencias solo de actividad](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
@@ -71,7 +71,7 @@ Estos tipos de audiencia importada cuentan con los siguientes detalles:
 | Tipo de audiencia | Detalles |
 |--- |--- |
 | Audiencia móvil | Nombre de marketing, Proveedor y Modelo.<br>Se muestra el operador `matches | does not match` en lugar de `equals | does not equal`<br>![Audiencia móvil importada](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
-| Audiencia de comportamiento del visitante | **user.categoryAffinity:** `categoryAffinity` con parámetro `FAVORITE`.<br>![Afinidad de categoría importada](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Supervisión:** el servicio de monitorización es equivalente a verdadero.<br>**Sin servicio de monitoreo:** Servicio de monitoreo es igual a falso.<br>![Supervisión importada](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Audiencia de comportamiento del visitante | **user.categoryAffinity:** `categoryAffinity` con parámetro `FAVORITE`.<br>![Afinidad de categoría importada](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Supervisión:**el servicio de monitorización es equivalente a verdadero.<br>**Sin servicio de monitoreo:** Servicio de monitoreo es igual a falso.<br>![Supervisión importada](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Audiencias que utilizan el operador NOT | **Regla única:** Target muestra la audiencia con el formato `[All Visitor AND [NOT [rule]`. La regla única NOT se muestra con AND con la audiencia `AllVisitor`.<br>![Audiencia no importada](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Tenga en cuenta lo siguiente al trabajar con audiencias importadas:
@@ -79,7 +79,7 @@ Tenga en cuenta lo siguiente al trabajar con audiencias importadas:
 * Target Standard/Premium ya no admite audiencias de segmentación por expresión.
 * Target Standard/Premium no admite algunas audiencias obsoletas o dispone de operadores mejorados que facilitan el uso. Debido a esto, aunque una audiencia importada funcione tal y como se indica en su descripción, puede no estar disponible para su creación en la interfaz de Standard/Premium. Por ejemplo, puede ver las audiencias sociales con sus reglas, pero Target Standard/Premium no permite crearlas.
 
-## Vídeo de formación: Uso de audiencias
+## Vídeo de formación: Uso de audiencias Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las audiencias.
 
@@ -89,4 +89,4 @@ Este vídeo contiene información sobre el uso de las audiencias.
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
