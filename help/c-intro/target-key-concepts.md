@@ -1,12 +1,12 @@
 ---
-keywords: Información general y referencia;actividad
+keywords: Overview and Reference;act
 description: Información sobre conceptos clave que le ayudarán a comprender las características y capacidades de Adobe Target.
 title: Conceptos clave de Target
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,14 +27,14 @@ Target incluye varios tipos de actividades. En la tabla siguiente se proporciona
 
 | Tipo de actividad | Descripción |
 |--- |--- |
-| [Prueba A/B](/help/c-activities/t-test-ab/test-ab.md) | Una prueba A/B compara dos o más versiones del contenido de su sitio web para comprobar cuál mejora más las conversiones durante un periodo previamente establecido.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de prueba A/B](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
-| [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de asignación automática](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
-| [Segmentación automática](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación automática](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
+| [Prueba A/B](/help/c-activities/t-test-ab/test-ab.md) | Una prueba A/B compara dos o más versiones del contenido de su sitio web para comprobar cuál mejora más las conversiones durante un periodo previamente establecido.<br>**Nota:**Ahora puede incluir[recomendaciones dentro de las actividades de prueba A/B](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una[licencia de Target Premium](/help/c-intro/intro.md#premium). |
+| [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.<br>**Nota:**Ahora puede incluir[recomendaciones dentro de las actividades de asignación automática](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una[licencia de Target Premium](/help/c-intro/intro.md#premium). |
+| [Segmentación automática](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones.<br>**Nota:**Ahora puede incluir[recomendaciones dentro de las actividades de segmentación automática](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una[licencia de Target Premium](/help/c-intro/intro.md#premium). |
 | [Uso de datos de Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Puede configurar una actividad para que use [!DNL Adobe Analytics] como fuente de informes. Para este tipo de actividad es necesario que vincule su cuenta de [!DNL Adobe Experience Cloud] con [!DNL Analytics] y [!DNL Target]. |
 | [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | La prueba multivariable (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad. |
-| [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) | Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación de experiencias](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
+| [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) | Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.<br>**Nota:**Ahora puede incluir[recomendaciones dentro de las actividades de segmentación de experiencias](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una[licencia de Target Premium](/help/c-intro/intro.md#premium). |
 | [Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | La personalización automatizada (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante en función de su perfil de cliente, con el fin de personalizar el contenido y dirigir las conversiones. |
-| [Recommendations](/help/c-recommendations/recommendations.md)<br>![ Target Premium](/help/assets/premium.png) | Una recomendación determina el modo en que se sugiere un producto a un usuario del sitio web según las actividades que este realice en el sitio.<br>Por ejemplo, puede que quiera animar a los usuarios que compran una mochila a que consideren la opción de comprar botas y bastones de senderismo. Podría crear una recomendación que muestre artículos que a menudo se compran juntos, empleando el algoritmo “Otras personas que compraron esto también compraron aquello”. O puede que quiera animar a los visitantes a pasar más tiempo en su sitio multimedia mediante la recomendación de un vídeo similar al que están viendo, empleando el algoritmo “Otras personas que han visto esto también vieron aquello”.<br>**Nota:** Ahora puede incluir recomendaciones dentro de la prueba A/B (incluidas las actividades de asignación automática y segmentación automática) y actividades de segmentación de experiencias (XT). Consulte [Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
+| [Recommendations](/help/c-recommendations/recommendations.md)<br>![ Target Premium](/help/assets/premium.png) | Una recomendación determina el modo en que se sugiere un producto a un usuario del sitio web según las actividades que este realice en el sitio.<br>Por ejemplo, puede que quiera animar a los usuarios que compran una mochila a que consideren la opción de comprar botas y bastones de senderismo. Podría crear una recomendación que muestre artículos que a menudo se compran juntos, empleando el algoritmo “Otras personas que compraron esto también compraron aquello”. O puede que quiera animar a los visitantes a pasar más tiempo en su sitio multimedia mediante la recomendación de un vídeo similar al que están viendo, empleando el algoritmo “Otras personas que han visto esto también vieron aquello”.<br>**Nota:**Ahora puede incluir recomendaciones dentro de la prueba A/B (incluidas las actividades de asignación automática y segmentación automática) y actividades de segmentación de experiencias (XT). Consulte[Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Ubicaciones {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -109,7 +109,7 @@ Si desea obtener información sobre el modo en que el perfil del visitante reali
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Tipos de actividad (9:03)
+### Distintivo ![Información general de tipos de actividades (9:03)](/help/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 
@@ -117,9 +117,9 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Uso de audiencias en Adobe Target (6:21)
+### Indicador de ![información general de Uso de audiencias en Adobe Target (6:21)](/help/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
@@ -129,4 +129,4 @@ En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Pr
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
