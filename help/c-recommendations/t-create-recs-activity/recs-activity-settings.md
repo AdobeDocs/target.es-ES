@@ -1,11 +1,11 @@
 ---
-keywords: Recommendations;Configuración;nombre;objetivo;prioridad;duración;configuración de informes;otros metadatos
+keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: Se pueden utilizar varios ajustes para describir y controlar una actividad de Recommendations en Adobe Target.
 title: Configuración de actividades de Recommendations en Adobe Target
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -62,7 +62,7 @@ La actividad se puede iniciar cuando se activa, o bien se puede establecer una f
 
 Escriba notas sobre la actividad.
 
-## Vídeo de formación: Configuración de actividades (3:02)
+## Vídeo de capacitación:Distintivo de ![tutorial de Configuración de actividades (3:02)](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
@@ -72,4 +72,4 @@ Este vídeo incluye información sobre la configuración de las actividades.
 * Añadir audiencias para los informes a fin de crear filtros de informes
 * Escribir notas en las actividades
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
