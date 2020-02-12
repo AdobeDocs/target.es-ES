@@ -1,10 +1,10 @@
 ---
-keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;faq;solución de problemas;solucionar problemas
+keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: Segmentación automática
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -247,7 +247,7 @@ En una actividad de [!UICONTROL Segmentación automática], una vez convertida l
 
 Por ejemplo, existe una actividad con una métrica de conversión (C1) y una métrica adicional (A1). A1 depende de C1. Cuando un visitante entra a la actividad por primera vez y no se convierten los criterios de conversión de A1 y C1, la métrica A1 no se convierte debido a la dependencia de métrica de éxito. Si el visitante convierte C1 y luego convierte A1, A1 aún no se convierte porque en cuanto se convierte C1, se libera el visitante.
 
-## Vídeo de formación: Aspectos básicos de las actividades de Segmentación automática
+## Vídeo de formación: Aspectos básicos de las actividades de Segmentación automática Distintivo ![de información general](/help/assets/overview.png)
 
 Este vídeo explica cómo configurar una actividad A/B de [!UICONTROL Segmentación automática].
 
@@ -257,4 +257,4 @@ Tras completar esta formación, debe ser capaz de:
 * Comparación y contraste entre la [!UICONTROL Segmentación automática] y la Personalización automatizada.
 * Creación de actividades de [!UICONTROL Segmentación automática]
 
->[!VIDEO](https://video.tv.adobe.com/v/18558?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/18558)
