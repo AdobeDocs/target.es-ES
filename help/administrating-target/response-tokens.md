@@ -1,12 +1,12 @@
 ---
-keywords: tokens de respuesta;tokens;complementos;complementos;at.js;respuesta
-description: Los tokens de respuesta permiten generar automáticamente información específica de Target (detalles de la actividad, información de perfil de usuario, información geográfica, etc.) para utilizarla en la depuración o integración con sistemas de terceros (como Clicktale)
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response
+description: Los tokens de respuesta le permiten generar automáticamente información específica de Target (detalles de la actividad, información de perfil de usuario, información geográfica, etc.) para utilizarla en la depuración o integración con sistemas de terceros (como Clicktale)
 title: Tokens de respuesta en Adobe Target
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -34,7 +34,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
 
    Para obtener más información, consulte [Descargar at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. En [!DNL Target], haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Tokens de respuesta]**.
+1. En [!DNL Target], haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Tokens de respuesta]**.
 
    ![](assets/response_tokens.png)
 
@@ -279,8 +279,8 @@ Puede crearse el equivalente del complemento ttMeta para depuración añadiendo 
 </script>
 ```
 
-## Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Vea el siguiente vídeo para aprender a utilizar los tokens de respuesta y los eventos personalizados de at.js con el fin de compartir información de perfil de Target con sistemas de terceros.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
