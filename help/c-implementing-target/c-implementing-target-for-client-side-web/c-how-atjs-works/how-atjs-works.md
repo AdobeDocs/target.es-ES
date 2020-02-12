@@ -1,11 +1,11 @@
 ---
-keywords: diagrama del sistema;parpadeo;at.js;implementación;biblioteca javascript;js;atjs
+keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Diagrama del sistema de Adobe Target que muestra el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente usando at.js.
 title: Funcionamiento de la biblioteca JavaScript de Adobe Target at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -72,7 +72,7 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 | 1 | La llamada devuelve el [!DNL Experience Cloud ID] (MCID) si el usuario se autentica; otra llamada sincroniza el ID del cliente. | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento. |
 | 3 | Se realiza una solicitud de mbox global que incluye todos los parámetros, MCID, SDID e ID de cliente (opcional) configurados. | 4 | Se ejecutan los scripts de perfiles y se incluyen en el Almacenamiento de perfiles. El Almacenamiento solicita audiencias de la [!UICONTROL Biblioteca de audiencias] que cumplan los requisitos (por ejemplo, audiencias compartidas de [!DNL Adobe Analytics], [!DNL Audience Manager], etc.).<br>Los atributos del cliente se envían a [!DNL Profile Store] en un procesamiento de lotes. |
 | 5 | Según la URL, los parámetros de mbox y los datos de perfil, [!DNL Target] decide qué actividades y experiencias vuelven al visitante. | 6 | Se devuelve el contenido dirigido a la página, incluyendo de manera opcional los valores de perfil para una personalización adicional.<br>Se muestra la experiencia lo más rápido posible sin parpadeos del contenido predeterminado. |
-| 7 | Se envían los datos de [!DNL Analytics] a los servidores de recopilación de datos. | 8 | Se comparan los datos de [!DNL Target] con los datos de [!DNL Analytics] mediante el SDID y se procesan en el almacén de informes de [!DNL Analytics].<br>Por lo tanto, los datos de [!DNL Analytics] se pueden visualizar tanto en [!DNL Analytics] como en [!DNL Target] mediante los informes de [!DNL Analytics for Target] (A4T). |
+| 7 | Se envían los datos de [!DNL Analytics] a los servidores de recopilación de datos. | 8 | Se comparan los datos de [!DNL Target] con los datos de [!DNL Analytics] mediante el SDID y se procesan en el almacén de informes de [!DNL Analytics].<br>[!DNL Analytics]Por lo tanto, los datos de  se pueden visualizar tanto en [!DNL Analytics] como en [!DNL Target] mediante los informes de [!DNL Analytics for Target] (A4T). |
 
 ## Cómo procesa at.js ofertas con contenido HTML {#render}
 
@@ -91,10 +91,10 @@ Notas importantes:
 * at.js no proporciona garantías en el orden de ejecución del script remoto, ya que estos se cargan de forma asincrónica.
 * Los scripts en línea no deberían tener dependencias en scripts remotos, ya que se cargan y ejecutan más adelante.
 
-## Vídeo de formación: Diagrama arquitectónico de at.js 2.x
+## Vídeo de capacitación: Diagrama arquitectónico de at.js 2.x ![Insignia](/help/assets/overview.png) de ![información general](/help/assets/overview.png)
 
 at.js 2.x mejora la compatibilidad de Adobe Target con las SPA e integra otras soluciones de Experience Cloud. Este vídeo explica cómo se vincula todo.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Consulte [Explicación del funcionamiento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) de at.js 2.x para obtener más información.
