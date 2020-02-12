@@ -1,11 +1,11 @@
 ---
-keywords: compositor de experiencias basadas en formularios;compositor basado en formularios;refinamientos
+keywords: form-based experience composer;form-based composer;refinements
 description: El Compositor de experiencias basadas en formularios proporciona una creación de experiencias no visual.
 title: Compositor de experiencias basadas en formularios
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -63,14 +63,14 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
    **Crear oferta HTML:**
 
    1. Haga clic en [!UICONTROL Ofertas] y seleccione la pestaña [!UICONTROL Ofertas de código].
-   1. Haga clic en [!UICONTROL Crear] &gt; [!UICONTROL Oferta HTML].
+   1. Haga clic en [!UICONTROL Crear] > [!UICONTROL Oferta HTML].
    1. Escriba el nombre de una oferta.
    1. Escriba o pegue su código HTML en el recuadro Código.
    1. Haga clic en [!UICONTROL Guardar].
    **Crear ofertas JSON:**
 
    1. Haga clic en [!UICONTROL Ofertas] y seleccione la pestaña [!UICONTROL Ofertas de código].
-   1. Haga clic en [!UICONTROL Crear] &gt; [!UICONTROL Oferta JSON].
+   1. Haga clic en [!UICONTROL Crear] > [!UICONTROL Oferta JSON].
    1. Escriba el nombre de una oferta.
    1. Escriba o pegue su código JSON en el recuadro Código.
    1. Haga clic en [!UICONTROL Guardar].
@@ -91,7 +91,7 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 * [Crear una actividad de segmentación de experiencias](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Crear una actividad de Recommendations](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vídeo de formación: Compositor basado en formularios
+## Vídeo de formación: Compositor basado en formularios Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Este vídeo proporciona una demostración del compositor basado en formularios.
 
@@ -99,4 +99,4 @@ Este vídeo proporciona una demostración del compositor basado en formularios.
 * Entender cuándo usar el Compositor de experiencias basadas en formularios o el Compositor de experiencias visuales
 * Usar refinamientos para segmentar una ubicación
 
->[!VIDEO](https://video.tv.adobe.com/v/17390?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
