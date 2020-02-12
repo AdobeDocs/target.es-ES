@@ -1,11 +1,11 @@
 ---
-keywords: configuración de actividad;objetivos y configuración de mvt;objetivos y configuración de multivariable;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;métricas adicionales;configuración avanzada;objetivo principal;objetivo;prioridad;duración;solución de informes;metas;audiencias para informes;Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
+keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 title: Configuración y objetivos
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -152,7 +152,7 @@ Escriba la información sobre la actividad que sea útil tener disponible para e
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Configuración de actividades (3:02)
+### Distintivo de ![tutorial de Configuración de actividades (3:02)](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
@@ -162,13 +162,13 @@ Este vídeo incluye información sobre la configuración de las actividades.
 * Añadir audiencias para los informes a fin de crear filtros de informes
 * Escribir notas en las actividades
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Creación de pruebas multivariable (9:25)
+### Creación de una insignia de ![tutorial para pruebas multivariable (9:25)](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. Los objetivos y la configuración se describen a partir del minuto 7:00.
 
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
