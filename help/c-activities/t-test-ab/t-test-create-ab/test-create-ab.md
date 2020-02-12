@@ -1,11 +1,11 @@
 ---
-keywords: Crear A/B;prueba A/B;actividad A/B;nueva actividad a/b
+keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: Use el Compositor de experiencias visuales de Target para crear la prueba directamente en una página con Target habilitado y para modificar partes de la página en Target.
 title: Crear una prueba A/B
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Use el Compositor de experiencias visuales de Target para crear la prueba directamente en una página con Target habilitado y para modificar partes de la página en Target.
 
-1. En la lista [!UICONTROL Actividades], haga clic en **[!UICONTROL Crear actividad]** &gt; **[!UICONTROL Prueba A/B]**.
+1. En la lista [!UICONTROL Actividades], haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Prueba A/B]**.
 
    ![Lista desplegable Crear actividad](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -36,7 +36,7 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
    >
    >Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >La opción [!UICONTROL [Elegir lugar de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md) de la ilustración anterior es una función de [Target Premium](/help/c-intro/intro.md). Su organización tiene una licencia de Target Standard si no ve esta opción.]
+   >La opción [!UICONTROL [Elegir lugar de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md) de la ilustración anterior es una [función de Target Premium](/help/c-intro/intro.md). Su organización tiene una licencia de Target Standard si no ve esta opción.]
 
 1. (Condicional) Si es [cliente de Target Premium](/help/c-intro/intro.md#premium), elija un [espacio de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -99,7 +99,7 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
    * **[!UICONTROL Asignar automáticamente a la mejor experiencia]**: La mayoría de los visitantes de la actividad se dirigen automáticamente a experiencias de mejor rendimiento. Algunos visitantes se asignan a todas las experiencias para mantener la exploración de las experiencias y para detectar cambios en las tendencias de rendimiento. Consulte [Asignación automática del tráfico](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
    * **[!UICONTROL Asignación automática para experiencias personalizadas]**: Target utilizará algoritmos avanzados de aprendizaje automático para ofrecer automáticamente la mejor experiencia a los visitantes objetivo y, de ese modo, maximizar sus objetivos. Para obtener más información, consulte [Segmentación automática para optimizar](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
-   También puede hacer clic en **[!UICONTROL Agregar experiencia]para agregar otra experiencia a la actividad.**
+   También puede hacer clic en **[!UICONTROL Agregar experiencia]** para agregar otra experiencia a la actividad.
 
 1. Cuando esté satisfecho con las elecciones de audiencias y experiencias, haga clic en **[!UICONTROL Siguiente]** para ir al tercer paso del flujo de trabajo guiado de tres pasos.
 
@@ -111,11 +111,11 @@ Use el Compositor de experiencias visuales de Target para crear la prueba direct
 
 Después de crear la actividad, la ficha Información general muestra información sobre la actividad, incluido un diagrama de la actividad.
 
-## Vídeo de formación: Creación de la prueba A/B (8:36).
+## Vídeo de formación: Creación de la prueba A/B (8:36). Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de trabajo guiado de tres pasos de [!DNL Target].
 
 * Crear una actividad A/B en Adobe Target
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
