@@ -1,10 +1,10 @@
 ---
-keywords: prueba multivariable;mvt;informe de rendimiento de las experiencias
+keywords: multivariate test;mvt;experience performance report
 description: El informe Rendimiento de las experiencias muestra el rendimiento de cada experiencia en la actividad. Este informe proporciona información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
 title: Informe Rendimiento de las experiencias (MVT)
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 El informe Rendimiento de las experiencias muestra cómo funciona cada experiencia de la actividad. Este informe incluye información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
 
-Puede seleccionar una o varias experiencias para compararlas. Haga clic en una experiencia y seleccione **[!UICONTROL Vista previa]para abrir la experiencia en un navegador web.**
+Puede seleccionar una o varias experiencias para compararlas. Haga clic en una experiencia y seleccione **[!UICONTROL Vista previa]** para abrir la experiencia en un navegador web.
 
 ![](assets/experienceperformancetable.png)
 
@@ -33,8 +33,8 @@ Puede mostrar todas las experiencias, las cinco mejores o las cinco peores. Las 
 
 Debajo del gráfico, se muestra una tabla con la cantidad de participantes que vio cada experiencia y otra información relevante para la métrica de éxito.
 
-## Vídeo de formación: Crear una prueba MVT
+## Vídeo de formación: Crear una prueba MVT Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Rendimiento de las experiencias se describe a partir del minuto 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
