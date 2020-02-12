@@ -1,11 +1,11 @@
 ---
-keywords: segmentación de experiencias;xt;métricas;definir métricas;métrica de segmentación;configuración de actividades;métrica de éxito;conversión;ingresos;participación
+keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Utilice métricas en una actividad de segmentación de experiencias (XT) de Adobe Target para determinar si una visita tiene éxito.
 title: Definir métricas
-solution: Target,estándar
+solution: Target,standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -50,7 +50,8 @@ Para obtener información detallada sobre las métricas de éxito, consulte  [M�
    | `-` | Menos |
    | `@` | Arroba |
 
-## Vídeo de formación: Métricas de actividad (7:43)
+## Vídeo de formación: Métricas de actividad (7:43) Distintivo ![de tutoriales](/help/assets/tutorial.png)
+
 
 Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 
@@ -58,4 +59,4 @@ Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 * Qué son y cómo compilar las métricas de conversión, ingresos y participación
 * Compilar una métrica para el rastreo de clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
