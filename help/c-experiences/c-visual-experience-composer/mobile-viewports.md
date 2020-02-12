@@ -4,7 +4,7 @@ description: Las ventanillas móviles ayudan a obtener una vista previa de cómo
 title: Ventanillas móviles para las experiencias adaptables
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -73,8 +73,8 @@ Aunque su sitio no sea adaptable, puede usar el Compositor web móvil para ver u
 
 Configure todas las ventanillas móviles que quiera que estén disponibles cuando cree sus experiencias.
 
-1. Haga clic en **[!UICONTROL Configuración]**>**[!UICONTROL  Preferencias]**.
-1. En la sección Configuración de ventanillas móviles de la página Preferencias de la cuenta, haga clic en **[!UICONTROL Agregar nueva]**para agregar una ventanilla móvil.
+1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Preferencias]**.
+1. En la sección Configuración de ventanillas móviles de la página Preferencias de la cuenta, haga clic en **[!UICONTROL Agregar nueva]** para agregar una ventanilla móvil.
 
    Para cambiar la configuración de una ventanilla móvil existente, selecciónela y, a continuación, haga clic en el icono de editar (el lápiz).
 
@@ -106,8 +106,8 @@ Configure todas las ventanillas móviles que quiera que estén disponibles cuand
 Agregue ventanillas móviles a las actividades de Target para crear experiencias adaptables para las pantallas móviles.
 
 1. Cree una actividad.
-1. En el Compositor de experiencias visuales, haga clic en el icono de engranaje de **[!UICONTROL Configuración]**y, a continuación, seleccione**[!UICONTROL  Agregar ventanillas móviles]**.
-1. Haga clic en el icono de **[!UICONTROL Dispositivos]**y, a continuación, active todos los dispositivos que deban tener una ventanilla móvil.
+1. En el Compositor de experiencias visuales, haga clic en el icono de engranaje de **[!UICONTROL Configuración]** y, a continuación, seleccione **[!UICONTROL Agregar ventanillas móviles]**.
+1. Haga clic en el icono de **[!UICONTROL Dispositivos]** y, a continuación, active todos los dispositivos que deban tener una ventanilla móvil.
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -126,7 +126,7 @@ Agregue ventanillas móviles a las actividades de Target para crear experiencias
 
 Este caso de uso muestra cómo configurar experiencias para dos versiones de iPhone, la iPhone 6 y la iPhone 6 Plus, mediante la función Ventanillas móviles de Target Standard.
 
-1. En Target Standard, haga clic en **[!UICONTROL Configuración]**>**[!UICONTROL  Preferencias]**.
+1. En Target Standard, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Preferencias]**.
 1. En la sección Configuración de las ventanillas móviles de la página Preferencias, cree ventanillas móviles para iPhone 6 y para iPhone 6 Plus.
 
    Aplique los ajustes siguientes para cada ventanilla:
@@ -140,7 +140,7 @@ Este caso de uso muestra cómo configurar experiencias para dos versiones de iPh
 
 1. Cree una actividad con la experiencia que quiere mostrar.
 1. Seleccione la experiencia que quiere dirigir a los visitantes que accedan al sitio desde un iPhone 6 o un iPhone 6 Plus.
-1. Al seleccionar el objetivo, haga clic en **[!UICONTROL Crear audiencia]**y configure una audiencia tal como se muestra en la imagen siguiente:
+1. Al seleccionar el objetivo, haga clic en **[!UICONTROL Crear audiencia]** y configure una audiencia tal como se muestra en la imagen siguiente:
 
    ![](assets/iphoneaudiences.png)
 
@@ -152,7 +152,7 @@ Este caso de uso muestra cómo configurar experiencias para dos versiones de iPh
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Compositor de experiencias visuales (2 de 2) (7:29)
+### Compositor de experiencias visuales (2 de 2) (7:29) Distintivo ![de información general](/help/assets/overview.png)
 
 El siguiente vídeo de demostración incluye información sobre cómo usar el Compositor de experiencias visuales para trabajar con ventanillas móviles:
 
@@ -165,7 +165,7 @@ El siguiente vídeo de demostración incluye información sobre cómo usar el Co
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Preferencias de cuenta en Adobe Target
+### Preferencias de cuenta en la insignia ![Información general de Adobe Target](/help/assets/overview.png)
 
 En este vídeo se explica cómo configurar las ventanillas móviles en las preferencias de cuenta a partir del minuto 4:40.
 
