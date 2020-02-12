@@ -1,11 +1,11 @@
 ---
-keywords: configuración de actividad;objetivos y configuración de A/B;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;métricas adicionales;configuración avanzada;objetivo principal;objetivo;prioridad;duración;solución de informes;audiencias para informes;Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
+keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 title: Configuración y objetivos
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -65,7 +65,7 @@ Para obtener más información sobre la configuración avanzada, consulte [Métr
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Configuración de actividades (3:02)
+### Distintivo de ![tutorial de Configuración de actividades (3:02)](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
@@ -77,11 +77,11 @@ Este vídeo incluye información sobre la configuración de las actividades.
 
 (https://video.tv.adobe.com/v/17381?captions=spa)
 
-### Creación de pruebas A/B (8:36)
+### Creación de una insignia de ![tutorial para pruebas A/B (8:36)](/help/assets/tutorial.png)
 
 En este vídeo se ve la configuración de actividades dentro del flujo de trabajo guiado de tres pasos al crear una actividad. Los objetivos y la configuración se describen a partir del minuto 5:30.
 
 * Crear una actividad A/B en Adobe Target
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
