@@ -4,7 +4,7 @@ description: Si utiliza una plantilla de página para aportar estructura a sus p
 title: Incluir la misma experiencia en páginas similares
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -72,7 +72,7 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
 >
 > Target no puede comprobar las páginas para garantizar que se muestran correctamente, por lo que siempre que se utiliza esta función es recomendable probar las páginas afectadas antes de hacerlas públicas.
 
-## Vídeo de formación: Compositor de experiencias visuales (2 de 2) (7:29)
+## Vídeo de formación: Compositor de experiencias visuales (2 de 2) (7:29) Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 * Cambiar el nombre de una experiencia y duplicarla
 * Crear una experiencia de redirección
@@ -81,4 +81,4 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
 * Obtener una vista previa y generar experiencia para sitios web adaptables
 * Usar superposiciones para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
