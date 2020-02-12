@@ -1,10 +1,10 @@
 ---
-keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;cargar csv
+keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Cargue un archivo CSV para personalizar las recomendaciones.
 title: Cargar criterios personalizados
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
 * Cuando esté creando una actividad de [!UICONTROL Recommendations], haga clic en **[!UICONTROL Crear nuevo]** en la pantalla [!UICONTROL Seleccionar criterios]. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!UICONTROL Recommendations].
 * Cuando esté editando una actividad de [!UICONTROL Recommendations], haga clic en el cuadro [!UICONTROL Ubicación de Recommendations] de la página y seleccione **[!UICONTROL Cambiar criterios]**. En la pantalla [!UICONTROL Seleccionar criterios], haga clic en **[!UICONTROL Crear nuevo]**. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!UICONTROL Recommendations].
-* En la pantalla de la biblioteca **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Criterios]**, haga clic en **[!UICONTROL Crear criterios]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!UICONTROL Recommendations].
+* En la pantalla de la biblioteca **[!UICONTROL Recomendaciones]** > **[!UICONTROL Criterios]**, haga clic en **[!UICONTROL Crear criterios]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!UICONTROL Recommendations].
 
 1. Haga clic en **[!UICONTROL Crear criterios]**.
 
@@ -74,9 +74,9 @@ Póngase en contacto con el servicio de atención al cliente si desea activar la
 
 Los criterios personalizados se actualizan una vez cada 24 horas.
 
-Puede ver el estado de carga y sincronización de los criterios personalizados en la parte inferior de cada tarjeta de criterios, en la página Recommendations &gt; Criterios. También puede ver el estado en el cuadro de diálogo de edición al editar los criterios personalizados.
+Puede ver el estado de carga y sincronización de los criterios personalizados en la parte inferior de cada tarjeta de criterios, en la página Recommendations > Criterios. También puede ver el estado en el cuadro de diálogo de edición al editar los criterios personalizados.
 
-El flujo de una carga sin errores debería ser Programado &gt; Descargando el archivo de fuente &gt; Importando &gt; Correcto.
+El flujo de una carga sin errores debería ser Programado > Descargando el archivo de fuente > Importando > Correcto.
 
 Algunos de los posibles mensajes de error que podría recibir si Target detectará un problema con la carga son los siguientes:
 
@@ -89,7 +89,7 @@ Algunos de los posibles mensajes de error que podría recibir si Target detectar
 | No se ha encontrado el directorio | Indique un directorio que exista en el servidor. |
 | No se ha encontrado el archivo | Indique el nombre de un archivo que exista en el servidor del directorio indicado. |
 
-## Vídeo de formación: Crear criterios en Recommendations (12:33)
+## Vídeo de formación: Crear criterios en Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
@@ -97,4 +97,4 @@ Este vídeo contiene la información siguiente:
 * Crear secuencias de criterios
 * Cargar criterios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
