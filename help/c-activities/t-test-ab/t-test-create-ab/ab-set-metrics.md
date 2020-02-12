@@ -1,11 +1,11 @@
 ---
-keywords: A/B;métricas de actividad;métricas;definir métricas;métrica de objetivo;métrica de éxito;configuración de actividades;conversión;ingresos;participación
+keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Utilice métricas en una actividad A/B para determinar si una visita es satisfactoria.
 title: Definir métricas
-solution: Target,estándar
+solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -37,7 +37,7 @@ Para obtener información detallada sobre las métricas de éxito, consulte  [M�
 
    Para obtener más información, consulte [Métricas de éxito](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 1. (Opcional) Añada otras métricas.
-1. Haga clic en **[!UICONTROL Continuar]** cuando termine de configurar las métricas.
+1. Haga clic en **[!UICONTROL Continuar]** cuando termine de configurar las métricas. 
 
 Tenga en cuenta que cuando nombra o renombra una métrica, no se permiten los siguientes caracteres:
 
@@ -52,7 +52,7 @@ Tenga en cuenta que cuando nombra o renombra una métrica, no se permiten los si
 | - | Menos |
 | @ | Arroba |
 
-## Vídeo de formación: Métricas de actividad (7:43)
+## Vídeo de formación: Métricas de actividad (7:43) Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 
@@ -60,4 +60,4 @@ Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 * Qué son y cómo compilar las métricas de conversión, ingresos y participación
 * Compilar una métrica para el rastreo de clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
