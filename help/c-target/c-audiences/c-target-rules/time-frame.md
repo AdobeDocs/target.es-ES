@@ -1,10 +1,10 @@
 ---
-keywords: periodo de tiempo;fecha de inicio;fecha de fin;fechas de inicio/fin;intervalo de tiempo;programación de Target;partición por semana;partición por día;partición
+keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: Puede añadir fechas y horas de inicio y fin para dirigirse a los usuarios que visitan el sitio durante un periodo de tiempo determinado. También puede establecer opciones de Partición por semana y día para crear patrones recurrentes en la segmentación de audiencia.
 title: Periodo de tiempo
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -15,9 +15,9 @@ Puede añadir fechas y horas de inicio y fin para dirigirse a los usuarios que v
 
 Por ejemplo, con las [funciones de audiencias combinadas específicas](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), puede dirigirse a las personas que gastan poco para mostrarles contenido específico durante los tres días anteriores al Black Friday y otro contenido después del Black Friday.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
+1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Periodo de tiempo]**.
+1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Periodo de tiempo]**.
 
    ![](assets/target_timeframe_dialog.png)
 
@@ -31,7 +31,7 @@ Por ejemplo, con las [funciones de audiencias combinadas específicas](../../../
    >
    >La zona horaria de las fechas de inicio/fin aparece como GMT +/-NN:NN, donde NN:NN es la diferencia con respecto a la zona GMT. Refleja la zona horaria de la cuenta, no la del visitante. Por ejemplo, la zona horaria de California sería GMT -08:00.
 
-1. (Condicional) Haga clic en **[!UICONTROL Partición por semana y día]para establecer patrones recurrentes, incluyendo los días de las semanas y las horas.**
+1. (Condicional) Haga clic en **[!UICONTROL Partición por semana y día]** para establecer patrones recurrentes, incluyendo los días de las semanas y las horas.
 
    ![División por semana y día](assets/week_and_day_parting.png)
 
@@ -49,11 +49,11 @@ Por ejemplo, con las [funciones de audiencias combinadas específicas](../../../
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Vídeo de formación: Creación de audiencias
+## Vídeo de capacitación: Creación de una insignia de ![Información general de audiencias](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
