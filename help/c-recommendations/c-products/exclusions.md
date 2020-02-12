@@ -4,7 +4,7 @@ description: Cree una lista de exclusión en Adobe Target para impedir que se re
 title: Exclusiones en Adobe Target
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,7 +19,7 @@ Cree una lista de exclusión para impedir que se recomienden determinados artíc
 
 **Para crear una exclusión:**
 
-1. Haga clic en **[!UICONTROL Recomendaciones]**>**[!UICONTROL  Exclusiones]** para visualizar la lista de exclusiones existentes.
+1. Haga clic en **[!UICONTROL Recomendaciones]** > **[!UICONTROL Exclusiones]** para visualizar la lista de exclusiones existentes.
 
    ![](assets/exclusions_list.png)
 
@@ -27,11 +27,11 @@ Cree una lista de exclusión para impedir que se recomienden determinados artíc
 
 1. Haga clic en **[!UICONTROL Crear exclusión]**.
 
-1. (Condicional) Elija un entorno del filtro **[!UICONTROL Entorno]**mientras crea (o actualiza) una exclusión para obtener una vista previa del contenido de la exclusión en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
+1. (Condicional) Elija un entorno del filtro **[!UICONTROL Entorno]** mientras crea (o actualiza) una exclusión para obtener una vista previa del contenido de la exclusión en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
 
    ![Crear exclusión](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Escriba un **[!UICONTROL Nombre]**de exclusión e introduzca una descripción opcional.
+1. Escriba un **[!UICONTROL Nombre]** de exclusión e introduzca una descripción opcional.
 
 1. Utilice el generador de reglas para crear las exclusiones.
 
@@ -51,7 +51,7 @@ Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, pue
 >
 >La función Búsqueda avanzada diferencia entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que diferencia entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear exclusiones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea una exclusión con la intención de excluir productos que contengan “vacaciones”, solo se excluirán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
 
-## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05)
+## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05) Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
