@@ -1,10 +1,10 @@
 ---
-keywords: Segmentación;fuentes de tráfico;fuentes de tráfico de Target;motor de búsqueda Target;motor de búsqueda;página de destino;página de destino Target;página de destino de referencia
+keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Cree audiencias en Adobe Target para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
 title: Segmentar fuentes de tráfico en Adobe Target
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,9 +17,9 @@ Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la pá
 
 Puede combinar varias fuentes de tráfico para crear una regla de segmentación compleja.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
+1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Fuentes de tráfico]**.
+1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Fuentes de tráfico]**.
 
    ![](assets/target_traffic_source.png)
 
@@ -39,11 +39,11 @@ Puede combinar varias fuentes de tráfico para crear una regla de segmentación 
 
 Puede segmentar usuarios dirigidos a su sitio por un motor de búsqueda específico o desde una página de aterrizaje concreta.
 
-## Vídeo de formación: Creación de audiencias
+## Vídeo de formación: Creación de audiencias Distintivo ![de información general](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
