@@ -1,12 +1,12 @@
 ---
-keywords: Objetivo y configuración;objetivo;prioridad;duración
+keywords: Goal &Settings;objective;priority;duration
 description: Use Configuración de actividades para administrar el objetivo, la prioridad y la duración de las actividades.
 title: Configuración de actividades
-subtopic: Prueba multivariable
+subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -54,7 +54,7 @@ La página [!UICONTROL Objetivo y configuración] incluye configuración adicion
 * [Prueba multivariable](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vídeo de formación: Configuración de actividades
+## Vídeo de formación: Configuración de actividades Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
@@ -64,4 +64,4 @@ Este vídeo incluye información sobre la configuración de las actividades.
 * Añadir audiencias para los informes a fin de crear filtros de informes
 * Escribir notas en las actividades
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=spa)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381)
