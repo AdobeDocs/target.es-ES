@@ -5,7 +5,7 @@ title: Atributos de perfil en Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ Los atributos de perfil son parámetros específicos de un visitante. Estos atri
 
 Cuando un visitante navega por su sitio web o regresa para otra sesión, los valores de atributos de perfil guardados se pueden utilizar para segmentar el contenido o registrar información para filtrar segmentos.
 
-Para configurar atributos de perfil, haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Scripts de perfil.]**
+Para configurar atributos de perfil, haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Scripts de perfil]**.
 
 ![Pestaña Scripts de perfil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -24,7 +24,7 @@ Se encuentran disponibles los siguientes tipos de atributos de perfil:
 
 | Tipo de parámetro | Descripción |
 |--- |--- |
-| mbox | Se pasan directamente a través del código de la página cuando el mbox se crea. Consulte [Pasar parámetros a un mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Nota**: Target tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a Target, puede hacerlo por medio del método de API Profile Update. Para obtener más información, consulte [Profile Update en la documentación de la API de Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | Se pasan directamente a través del código de la página cuando el mbox se crea. Consulte [Pasar parámetros a un mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Nota **: Target tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a Target, puede hacerlo por medio del método de API Profile Update. Para obtener más información, consulte[Profile Update en la documentación de la API de Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Definido directamente con un fragmento de código de JavaScript. Pueden almacenar totales acumulados (como, por ejemplo, el importe total que un usuario ha gastado) y se ejecutan en cada solicitud de mbox. Consulte Atributos de script de perfil a continuación. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -74,7 +74,7 @@ if (mbox.name == 'Track_Interest') {
 
 Puede ver tarjetas emergentes con información sobre scripts de perfil similares a las tarjetas de información de ofertas. Estas tarjetas le permiten ver la lista de actividades que hacen referencia al script de perfil seleccionado, además de otros metadatos útiles.
 
-Por ejemplo, a la siguiente tarjeta de información se accede pasando el cursor sobre un script de perfil en la lista Scripts de perfil (Audiencias &gt; Scripts de perfil) y, a continuación, haciendo clic en el icono Información.
+Por ejemplo, a la siguiente tarjeta de información se accede pasando el cursor sobre un script de perfil en la lista Scripts de perfil (Audiencias > Scripts de perfil) y, a continuación, haciendo clic en el icono Información.
 
 La pestaña [!UICONTROL Información de script] contiene la siguiente información: Nombre, Estado, Tipo de token, ID de script, Registro de cambios y Descripción.
 
@@ -82,7 +82,7 @@ La pestaña [!UICONTROL Información de script] contiene la siguiente informaci�
 
 La pestaña [!UICONTROL Uso del script] enumera las actividades (y sus espacios de trabajo) que hacen referencia al script de perfil seleccionado.
 
-![Tarjeta de información de script de perfil &gt; Pestaña Uso de script](assets/profile_script_info_card_usage_tab.png)
+![Tarjeta de información de script de perfil > Pestaña Uso de script](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
@@ -232,7 +232,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
 * **Utilice la herramienta de depuración mboxTrace para depurar scripts de perfil.**
 
-   Este método requiere un token de autorización que puede generarse haciendo clic en **[!UICONTROL Target]** &gt; **[!UICONTROL Configuración]** &gt; **[!UICONTROL Implementación]** &gt; **[!UICONTROL Generar token de autorización]**.
+   Este método requiere un token de autorización que puede generarse haciendo clic en **[!UICONTROL Target]** > **[!UICONTROL Configuración]** > **[!UICONTROL Implementación]** > **[!UICONTROL Generar token de autorización]**.
 
    A continuación, agregue estos dos parámetros a la URL de su página después de “?”: `mboxTrace=window&authorization=YOURTOKEN`.
 
@@ -344,7 +344,7 @@ Todos los operadores de JavaScript estándar están presentes y pueden utilizars
 | `||` | Lógicamente “O” las expresiones a la izquierda y a la derecha de la misma, son solo verdaderas si uno de los lados es verdadero (falso en caso contrario). |
 | `//` | Comprueba si la fuente contiene todos los elementos que el booleano de destino contiene (origen de matriz, destino de matriz).<br>`//` extrae la subcadena de destino (correspondiente a regexp) y la descodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La función también es compatible con el uso de valores de cadena constantes, agrupación (`condition1 || condition2) && condition3` y expresiones regulares (`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Vídeo de formación: Scripts de perfil
+## Vídeo de capacitación: Distintivo de ![tutorial de secuencias de comandos de perfil](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo usar y crear scripts de perfil.
 
@@ -354,4 +354,4 @@ En este vídeo se explica cómo usar y crear scripts de perfil.
 * Usar el menú Token disponible para acceder a las opciones disponibles
 * Habilitar y deshabilitar scripts de perfil
 
->[!VIDEO](https://video.tv.adobe.com/v/17394?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17394)
