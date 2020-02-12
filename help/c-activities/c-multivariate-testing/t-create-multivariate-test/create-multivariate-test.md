@@ -1,10 +1,10 @@
 ---
-keywords: mvt; prueba multivariable; crear prueba multivariable; creación de prueba multivariable; crear mvt; creación de mvt, procedimiento de mvt; procedimiento de prueba multivariable
+keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: El Compositor de experiencias visuales (VEC) de Adobe Target le permite crear su prueba multivariada (MVT) directamente en una página compatible con Target y modificar las partes de la página desde Target, todo ello de una manera sencilla.
 title: Crear una prueba multivariable
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,11 +13,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 El [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Target] le permite crear su prueba directamente en una página compatible con Target y modificar partes de la página en [!DNL Target], todo ello de una manera sencilla.
 
-El editor de "apuntar y hacer clic" de Target permite elegir cualquier ubicación y añadirle varias ofertas.
+El editor de &quot;apuntar y hacer clic&quot; de Target permite elegir cualquier ubicación y añadirle varias ofertas.
 
 La [!UICONTROL prueba multivariada] (MVT) toma un informe centrado en una página. Es decir, la prueba se ejecuta en una determinada dirección URL, con las experiencias que diseño para esa página.
 
-1. Haga clic en **[!UICONTROL Crear actividad]** &gt; **[!UICONTROL Prueba multivariable]**.
+1. Haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Prueba multivariable]**.
 
    ![Crear una prueba multivariada](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -114,11 +114,11 @@ La [!UICONTROL prueba multivariada] (MVT) toma un informe centrado en una págin
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** para crear la actividad.
 
-## Vídeo de formación: Creación de pruebas multivariable (9:25)
+## Vídeo de capacitación:Creación de una insignia de ![tutorial para pruebas multivariable (9:25)](/help/assets/tutorial.png)
 
 En este vídeo explicamos cómo planificar y crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target.
 
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
