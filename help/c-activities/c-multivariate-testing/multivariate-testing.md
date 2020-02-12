@@ -4,7 +4,7 @@ description: La prueba multivariada (MVT) en Adobe Target compara combinaciones 
 title: Prueba multivariable
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 9231f202c64a6b00e9b026fa205e1966b6ab24d9
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -87,7 +87,7 @@ Para obtener más consideraciones y prácticas recomendadas, consulte [Práctica
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Tipos de actividad (9:03)
+### Distintivo ![Información general de tipos de actividades (9:03)](/help/assets/overview.png)
 
 Este vídeo de información general explica los tipos de actividad disponibles en Target Standard/Premium. Las pruebas multivariable se describen a partir del minuto 4:20.
 
@@ -97,7 +97,7 @@ Este vídeo de información general explica los tipos de actividad disponibles e
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Creación de pruebas multivariable (9:25)
+### Creación de una insignia de ![tutorial para pruebas multivariable (9:25)](/help/assets/tutorial.png)
 
 En este vídeo se explica qué es una prueba multivariable, cómo planificarla y cómo crearla siguiendo el flujo de trabajo guiado de tres pasos de Target.
 
