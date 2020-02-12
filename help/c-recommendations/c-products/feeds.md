@@ -4,7 +4,7 @@ description: Utilice fuentes para obtener entidades importadas en Adobe Recommen
 title: Fuentes
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -21,7 +21,7 @@ Puede seleccionar las columnas de su archivo de clasificaciones de productos de 
 
 Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
 
-La lista [!UICONTROL Fuentes] (**[!UICONTROL Recomendaciones]**>**[!UICONTROL  Fuentes]**) proporciona información sobre cualquier fuente que haya creado.
+La lista [!UICONTROL Fuentes] (**[!UICONTROL Recomendaciones]** > **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado.
 
 ![Página Fuentes](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -208,7 +208,7 @@ La clasificación de productos Analytics es la única clasificación disponible 
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
-1. En la interfaz de Target, haga clic en **[!UICONTROL Recomendaciones]**>**[!UICONTROL  Fuentes]** > **[!UICONTROL Crear fuente]**.
+1. En la interfaz de Target, haga clic en **[!UICONTROL Recomendaciones]** > **[!UICONTROL Fuentes]** > **[!UICONTROL Crear fuente]**.
 
    ![Cuadro de diálogo Crear fuente](assets/CreateFeed.png)
 
@@ -220,7 +220,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
    * Clasificaciones de Analytics
    Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (Condicional) Si ha seleccionado **[!UICONTROL CSV]**o**[!UICONTROL  Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
+1. (Condicional) Si ha seleccionado **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
 
    * **FTP**: Si ha seleccionado la ubicación FTP, indique los datos del servidor FTP, las credenciales de inicio de sesión, el nombre de archivo y el directorio de FTP. Tiene la opción de usar FTP con SSL (FTPS) para que las cargas sean más seguras.
 
@@ -235,7 +235,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
 1. (Condicional) Si ha seleccionado **[!UICONTROL Clasificaciones de Analytics]**, elija el grupo de informes en la lista desplegable.
 
-1. Haga clic en la flecha **[!UICONTROL Siguiente]**para mostrar las opciones de[!UICONTROL Programar].
+1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Programar].
 
    ![Resultado del paso](assets/CreateFeedSchedule.png)
 
@@ -250,7 +250,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
    Esta opción está basada en la zona horaria establecida en el navegador. Si quiere usar una hora de otra zona horaria, tiene que calcularla según su propia zona horaria.
 
-1. Haga clic en la flecha **[!UICONTROL Siguiente]**para mostrar las opciones de[!UICONTROL Asignación]y, a continuación, especifique cómo quiere asignar los datos a las definiciones de[!DNL Target].
+1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Asignación] y, a continuación, especifique cómo quiere asignar los datos a las definiciones de [!DNL Target].
 
    ![Resultado del paso](assets/CreatFeedMapping.png)
 
@@ -323,7 +323,7 @@ El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutad
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Explicación de las fuentes en Recommendations (3:01)
+### Explicación de las fuentes en Recommendations (3:01) Distintivo ![de información general](/help/assets/overview.png)
 
 Este vídeo contiene la información siguiente:
 
@@ -332,7 +332,7 @@ Este vídeo contiene la información siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creación de una fuente (6:44)
+### Creación de una fuente (6:44) Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
