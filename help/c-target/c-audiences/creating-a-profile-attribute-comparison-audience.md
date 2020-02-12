@@ -1,11 +1,11 @@
 ---
-keywords: audiencia;inclinación;atributo de perfil;comparar;comparación;crear audiencia;creación de audiencia
+keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: Defina una audiencia con el fin de comparar dos atributos de perfil para su Biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
 title: Crear una audiencia de comparación de atributos de perfil.  en Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,8 +33,8 @@ Para obtener más información, consulte [Métodos para obtener datos en Target]
 
 ## Crear una audiencia de comparación de atributos de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]** &gt; **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Perfil del visitante]**.
-1. En la lista desplegable **[!UICONTROL Perfil del visitante], elija un atributo:**
+1. Haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]** > **[!UICONTROL Agregar regla]** > **[!UICONTROL Perfil del visitante]**.
+1. En la lista desplegable **[!UICONTROL Perfil del visitante]**, elija un atributo:
 
    ![Puntuación de propensión 1](assets/propensity_score_1.png)
 
@@ -56,8 +56,8 @@ Para obtener más información, consulte [Métodos para obtener datos en Target]
 
    ![](assets/propensity_score_4.png)
 
-## Vídeo de capacitación {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Distintivo de {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} ![información general de vídeo de formación](/help/assets/overview.png)
 
 Vea el siguiente vídeo para obtener más información y ver un caso en el que podría utilizar esta función:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)
