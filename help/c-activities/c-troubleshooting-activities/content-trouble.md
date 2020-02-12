@@ -1,12 +1,12 @@
 ---
-keywords: depurar mbox;problemas de mbox;solucionar problemas de mbox;parpadeo;mboxDebug;mboxTrace;token;depurador;prioridad;prioridad de actividad;Adobe Experience Cloud Debugger;mbox orderConfirmPage;SiteCatalyst;mbox compra;más vendidos;más vendido
+keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Si su página no muestra el contenido esperado, puede seguir algunos pasos para depurar la entrega de contenido en Adobe Target.
 title: Solución de problemas de entrega de contenido en Adobe Target
-subtopic: Prueba multivariable
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,7 +27,7 @@ Dado que mboxTrace y mboxDebug pueden exponer los datos de la campaña y los dat
 
 Para obtener el token de autorización:
 
-1. Haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Implementación]**.
+1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Implementación]**.
 1. Seleccione **[!UICONTROL mbox.js]** o **[!UICONTROL at.js]**.
 1. Haga clic en **[!UICONTROL Generar token de autorización]**.
 
@@ -157,14 +157,14 @@ at.js no activa mboxes de Target si utiliza un doctype no válido. at.js requier
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Agregar la extensión
+### Agregar la extensión Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Depuración básica de Target
+### Distintivo de ![tutorial de depuración de Target básico](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox Trace
+### Distintivo de ![tutorial de seguimiento de mbox](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
