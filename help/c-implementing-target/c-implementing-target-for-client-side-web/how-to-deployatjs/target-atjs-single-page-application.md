@@ -1,11 +1,11 @@
 ---
-keywords: implementación de aplicación de una sola página;implementar aplicación de una sola página;spa;at.js 2.x;at.js;aplicación de una sola página;aplicación de una sola página;spa;SPA
+keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Información para utilizar Adobe Target at.js 2.x para implementar Aplicaciones de una sola página (SPA).
 title: Implementación de una aplicación de una sola página en Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -68,7 +68,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    En primer lugar, es necesario instalar at.js 2.x. Esta versión de at.js se desarrolló teniendo en cuenta las SPA. Las versiones anteriores de at.js y mbox.js no son compatibles con las vistas de Adobe Target y con el VEC para SPA.
 
-   Descargue at.js 2.x a través de la IU de Adobe Target ubicada en [!UICONTROL Configuración &gt; Implementación]. at.js 2.x también se puede implementar mediante Adobe Launch. Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
+   Descargue at.js 2.x a través de la IU de Adobe Target ubicada en [!UICONTROL Configuración > Implementación]. at.js 2.x también se puede implementar mediante Adobe Launch. Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
 
 1. Implemente la función más reciente de at.js 2.x `triggerView()` en sus sitios.
 
@@ -80,7 +80,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
    | --- | --- | --- | --- | --- |
    | Nombre de vista | Cadena | Sí | 1. No hay espacios al final.<br>2. No puede estar vacío.<br>3. El nombre de la vista debe ser único para todas las páginas.<br>4. **Advertencia**: el nombre de la vista no debe comenzar ni finalizar con “`/`”. Esto se debe a que el cliente generalmente extraería el nombre de la vista de la ruta de la URL. Para nosotros, “home” y “`/home`” son diferentes.<br>5. **Advertencia**: la misma vista no debe activarse varias veces con la opción `{page: true}`. | Pase cualquier nombre como tipo de cadena que desee que represente la vista. Este nombre de Vista se muestra en el panel [!UICONTROL Modificaciones] del VEC para que los especialistas en marketing creen acciones y ejecuten sus actividades A/B y XT. |
    | opciones | Objeto | No |  |  |
-   | opciones &gt; página | Booleano | No |  | **VERDADERO**: el valor predeterminado de la página es verdadero. Cuando `page=true`, las notificaciones se enviarán a los servidores de Edge para incrementar el recuento de impresiones.<br>**FALSO**: cuando `page=false`, las notificaciones no se enviarán para incrementar el recuento de impresiones. Debe utilizarse cuando desee volver a procesar un componente en una página con una oferta. |
+   | opciones > página | Booleano | No |  | **VERDADERO**: el valor predeterminado de la página es verdadero. Cuando `page=true`, las notificaciones se enviarán a los servidores de Edge para incrementar el recuento de impresiones.<br>**FALSO **: cuando`page=false`, las notificaciones no se enviarán para incrementar el recuento de impresiones. Debe utilizarse cuando desee volver a procesar un componente en una página con una oferta. |
 
    Veamos algunos ejemplos de casos de uso sobre la invocación de la función `triggerView()` en React para el SPA de comercio electrónico hipotético:
 
@@ -276,18 +276,18 @@ Los vídeos siguientes contienen más información:
 
 ### Descripción del funcionamiento de at.js 2.x
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26250) Distintivo ![de información general](/help/assets/overview.png)
 
 Consulte [Explicación del funcionamiento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) de at.js 2.x para obtener más información.
 
 ### Implementación de at.js 2.x en un SPA
 
->[!VIDEO](https://video.tv.adobe.com/v/26248?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26248) Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Consulte [Implementación de at.js 2.x de Adobe Target en una aplicación de una sola página (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obtener más información.
 
-### Uso del VEC para SPA en Adobe Target
+### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
