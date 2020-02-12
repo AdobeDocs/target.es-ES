@@ -1,11 +1,11 @@
 ---
-keywords: oferta de redireccionamiento;crear oferta de redireccionamientoa;añadir oferta de html;Pasar los parámetros de URL en el redireccionamiento;Pasar mboxSessionId en el redireccionamiento (solo cuando el redireccionamiento va a un dominio diferente)
+keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: Información sobre ofertas de redireccionamiento en Adobe Target que provocan que un explorador redirija a una página nueva.
 title: Crear ofertas de redireccionamiento
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ La oferta de redireccionamiento hace que un navegador redirija a una página nue
 
 Es posible que tenga dos páginas completamente distintas para probarlas, en lugar de simplemente cambiar partes de contenido dentro de una página. En ese caso, la prueba A/B compara la página A con la B. Configure una campaña de prueba A/B con dos experiencias: una que apunte a la página A predeterminada y otra que redirija a la página B. La oferta se configura para redirigir al visitante a una página distinta.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >No se pueden usar las ofertas de redireccionamiento en los mboxes de Ajax (`mboxUpdate`).
 >
@@ -26,14 +26,14 @@ Para obtener información sobre la configuración de una experiencia de redirecc
 
 La oferta de redireccionamiento ejecuta código JavaScript para redirigir el navegador. Utiliza el método `window.location.replace();`, de modo que la página desde la cual se redirige al visitante no se almacene en el historial del explorador. Esto permite que el visitante siga usando el botón de retorno del navegador.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Si se desea pasar el valor de referente de la página de aterrizaje, se recomienda usar una oferta HTML en lugar de una oferta de redireccionamiento.
 
 **Para crear una oferta de redireccionamiento:**
 
-1. Haga clic en **[!UICONTROL Ofertas]** y seleccione la pestaña **Ofertas de código[!UICONTROL .]**
-1. Haga clic en **[!UICONTROL Crear]** &gt; **[!UICONTROL Oferta de redireccionamiento]**.
+1. Haga clic en **[!UICONTROL Ofertas]** y seleccione la pestaña **[!UICONTROL Ofertas de código]**.
+1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Oferta de redireccionamiento]**.
 1. Escriba el nombre de una oferta.
 1. Escriba la dirección URL del contenido único o del destino al que quiera dirigir el redireccionamiento. Debe ser una dirección URL absoluta.
 
@@ -51,11 +51,11 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
    Si usa la configuración de cookie de origen y de terceros, no tiene que pasar ID de sesión mbox al cruzar dominios. Este identificador se conserva en la cookie de terceros, por lo que no es necesario en la dirección URL.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Consulte con su asesor de implementación antes de iniciar estas pruebas.
 
-## Vídeo de formación: El repositorio de contenido (4:56)
+## Vídeo de capacitación: La insignia ![Información general del repositorio de contenido (4:56)](/help/assets/overview.png)
 
 Este vídeo incluye información sobre la administración de contenido.
 
@@ -63,4 +63,4 @@ Este vídeo incluye información sobre la administración de contenido.
 * Ofertas HTML personalizadas
 * Oferta HTML personalizada en el Compositor de experiencias visuales
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
