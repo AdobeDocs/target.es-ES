@@ -1,11 +1,11 @@
 ---
-keywords: espacios de trabajo;administrar la propiedad;permisos;configuración de producto;perfil de producto;roles;proyecto
+keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Información sobre la creación de propiedades y el uso de la funcionalidad Propiedades y Permisos, que permite a los administradores de Target crear espacios de trabajo (perfiles de producto) independientes en Target y asignar a los usuarios diferentes roles y permisos para determinadas páginas, propiedades o sitios web basados en dichos espacios de trabajo.
 title: Permisos de usuario de Enterprise
-subtopic: Primeros pasos
+subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,13 +24,13 @@ Los permisos de usuario de Enterprise son un medio para administrar formalmente 
 
 Puede comprobar si su organización dispone de una licencia Standard o Premium haciendo clic en el vínculo [!UICONTROL Configuración] en la parte superior de la interfaz de usuario de.[!DNL Target]
 
-* **[!DNL Target Standard]Clientes de**: si ve la pestaña [!UICONTROL Usuarios] ([!UICONTROL Configuración &gt; Usuarios]), su organización dispone de una licencia [!DNL Target Standard]. Los clientes de [!DNL Target Standard] deben seguir las instrucciones de [Usuarios](/help/administrating-target/c-user-management/c-user-management/user-management.md) para agregar usuarios y asignar permisos en Adobe Admin Console.
+* **[!DNL Target Standard]Clientes de **: si ve la pestaña[!UICONTROL Usuarios]([!UICONTROL Configuración > Usuarios]), su organización dispone de una licencia[!DNL Target Standard]. Los clientes de[!DNL Target Standard]deben seguir las instrucciones de[Usuarios](/help/administrating-target/c-user-management/c-user-management/user-management.md)para agregar usuarios y asignar permisos en Adobe Admin Console.
 
    [!DNL Target Standard]Los usuarios de verán el mensaje de error siguiente al hacer clic en la pestaña [!UICONTROL Propiedades]. No existe ningún problema con [!DNL Target]. Los usuarios de [!DNL Target Standard] no tienen acceso a la funcionalidad[!DNL Target Premium] [!UICONTROL Permisos de Enterprise de ].
 
    ![Mensaje de error](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
-* Clientes de **[!DNL Target Premium]**: si ve la pestaña [!UICONTROL Propiedades] ([!UICONTROL Configuración &gt; Propiedades]), su organización dispone de una licencia de [!DNL Target Premium]. Los clientes de [!DNL Target Premium] deben seguir las instrucciones de este artículo y de [Configurar los permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* Clientes de **[!DNL Target Premium]**: si ve la pestaña[!UICONTROL Propiedades]([!UICONTROL Configuración > Propiedades]), su organización dispone de una licencia de[!DNL Target Premium]. Los clientes de[!DNL Target Premium]deben seguir las instrucciones de este artículo y de[Configurar los permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Antes de comenzar con los permisos de Enterprise
 
@@ -196,7 +196,7 @@ La nueva funcionalidad Permisos puede verse en diferentes sitios de la interfaz 
 
 * **Creación de audiencias:** cuando crea una nueva audiencia, se hace en el espacio de trabajo seleccionado.
 * **Creación de ofertas:** cuando crea una nueva oferta, se hace en el espacio de trabajo seleccionado.
-* **Página de propiedades (Configuración &gt; Propiedades):** puede utilizar el cuadro [!UICONTROL Buscar], la opción [!UICONTROL Canal] y la opción [!UICONTROL Perfil de producto] para filtrar la lista [!UICONTROL Propiedades].
+* **Página de propiedades (Configuración > Propiedades):** puede utilizar el cuadro [!UICONTROL Buscar], la opción [!UICONTROL Canal] y la opción [!UICONTROL Perfil de producto] para filtrar la lista [!UICONTROL Propiedades].
 
    ![](assets/properties_list.png)
 
@@ -272,7 +272,7 @@ Cuando un visitante abre Página1 en un explorador, se le redirige a Página2. D
 
 Si la página de redirección y la dirección URL de la actividad pertenecen a la misma propiedad, los rastreos de clics funcionan según lo esperado. Para obtener más información, consulte [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Vídeo de formación: Vídeo de formación de permisos de Enterprise {#section_2FA080303A064242B63FF16CFA6DB31D}
+## Vídeo de capacitación: Marca de {#section_2FA080303A064242B63FF16CFA6DB31D} ![descripción general de vídeo de capacitación sobre permisos de empresa](/help/assets/overview.png)
 
 Objetivos de aprendizaje:
 
@@ -280,4 +280,4 @@ Objetivos de aprendizaje:
 * Los conceptos de propiedad y espacio de trabajo, y cómo operan estos límites y agrupamientos para permitir controlar el nivel de acceso de los usuarios
 * Diferentes ejemplos de propiedades para la consideración de su organización
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
