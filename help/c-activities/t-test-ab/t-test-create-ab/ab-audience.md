@@ -1,11 +1,11 @@
 ---
-keywords: audiencia;seleccionar audiencia;elegir audiencia;selectores
+keywords: audience;select audience;choose audience;Selectors
 description: La audiencia determina qué visitantes del sitio participan en su actividad.
 title: Seleccionar la audiencia
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -46,7 +46,7 @@ También puede elegir que Target  [asigne el tráfico automáticamente](../../..
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Uso de audiencias en Adobe Target (6:21)
+### Uso de audiencias en Adobe Target (6:21) Distintivo ![de información general](/help/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
@@ -56,9 +56,9 @@ En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Pr
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Flujo de trabajo de actividad - Segmentación (2:14)
+### Flujo de trabajo de actividades: ![distintivo de tutorial de objetivo (2:14)](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre cómo configurar las audiencias.
 
@@ -67,6 +67,6 @@ Este vídeo incluye información sobre cómo configurar las audiencias.
 * Seleccionar el método de asignación de tráfico
 * Asignar tráfico entre distintas experiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 Para obtener información detallada, consulte [Audiencias](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
