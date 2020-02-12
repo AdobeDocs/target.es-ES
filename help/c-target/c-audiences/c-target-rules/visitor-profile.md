@@ -1,10 +1,10 @@
 ---
-keywords: perfil del visitante;segmentar el perfil del visitante;
+keywords: visitor profile;target visitor profile
 description: Cree audiencias en Adobe Target para segmentar visitantes que cumplan parámetros de perfil específicos.
 title: Perfil del visitante
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Cree audiencias para segmentar visitantes que cumplan parámetros de perfil específicos.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
+1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Perfil del visitante]**.
+1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Perfil del visitante]**.
 
    ![](assets/target_visitor_profile.png)
 
@@ -39,11 +39,11 @@ Cree audiencias para segmentar visitantes que cumplan parámetros de perfil espe
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Vídeo de formación: Creación de audiencias
+## Vídeo de capacitación: Creación de una insignia de ![Información general de audiencias](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
