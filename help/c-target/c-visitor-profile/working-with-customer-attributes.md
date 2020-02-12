@@ -1,12 +1,12 @@
 ---
-keywords: servicio de registro de cliente;crs;crm;mbox3rdpartyid;atributos del cliente;segmentación
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
 description: Información sobre el uso de datos de clientes empresariales en una base de datos de administración de la relación con los clientes (CRM) para la segmentación de contenido en Adobe Target mediante el uso de Atributos del cliente en el servicio principal Perfiles y audiencias de Adobe.
 title: Atributos del cliente en Adobe Target
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ The Audiences core service is part of the [!DNL Adobe Experience Cloud] and prov
 
 Tenga en cuenta lo siguiente al trabajar con Atributos del cliente y [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see "Prerequisites for uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
 
    >[!NOTE]
    >
@@ -33,9 +33,9 @@ Tenga en cuenta lo siguiente al trabajar con Atributos del cliente y [!DNL Targe
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. En el diseño actual, existe la posibilidad de que un pequeño porcentaje de datos se quede sin introducir.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Para obtener más información, consulte   [Duración del perfil del visitante](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). El perfil solo entrará en juego si `authState` se cambia a UNAUTHENTICATED (1).
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). El perfil solo entrará en juego si `authState` se cambia a UNAUTHENTICATED (1).
 
-   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. Si el comportamiento deseado pasa por recuperar el perfil autenticado, `vst.myDataSource.authState` debe tener el valor de 1 (AUTHENTICATED).
+   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. Si el comportamiento deseado pasa por recuperar el perfil autenticado, `vst.myDataSource.authState` debe tener el valor de 1 (AUTHENTICATED).
 
 * No se pueden enviar los siguientes caracteres en `mbox3rdPartyID`: signo más (+) y barra diagonal (/).
 
@@ -100,7 +100,7 @@ Puede utilizar los atributos del cliente en [!DNL Target] de los siguientes modo
 
 ### Creación de audiencias de segmentación
 
-En [!DNL Target], puede seleccionar un atributo del cliente en la sección Perfil del visitante cuando cree una audiencia.  Todos los atributos del cliente tienen el prefijo &lt;data_source_name&gt; en la lista. Combine estos atributos según sea necesario con otros atributos de datos para crear audiencias.
+En [!DNL Target], puede seleccionar un atributo del cliente en la sección Perfil del visitante cuando cree una audiencia.  Todos los atributos del cliente tienen el prefijo &lt;data_source_name> en la lista. Combine estos atributos según sea necesario con otros atributos de datos para crear audiencias.
 
 ![Audiencia de Target](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -146,8 +146,8 @@ Podría encontrar los siguientes problemas al trabajar con atributos del cliente
 
 Los problemas de las filas 1 y 2 suponen aproximadamente el 60 % del total en esta área. La fila 3 supone aproximadamente el 30 % de los problemas. El problema en la fila 4 supone aproximadamente el 5 % del total. El 5 % restante corresponde a otros problemas diversos.
 
-## Vídeo de formación: Carga de datos sin conexión mediante atributos del cliente {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## Vídeo de formación: Carga de datos sin conexión mediante atributos del cliente {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
-Este vídeo muestra cómo se importan sin conexión datos de CRM, centro de atención, punto de venta y otros datos de marketing al servicio Experience Cloud People, y cómo dichos datos se asocian a los visitantes por medio de sus ID conocidos.
+En este vídeo se muestra cómo importar datos de CRM sin conexión, asistencia técnica, puntos de venta y otros datos de marketing en el servicio Personas de Experience Cloud y cómo asociarlos con visitantes que utilizan sus ID conocidos.
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
