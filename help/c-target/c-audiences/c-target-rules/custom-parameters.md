@@ -1,11 +1,11 @@
 ---
-keywords: parámetros personalizados;parámetros personalizados de target;targetpageparams;segmentación de parámetros mbox
+keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: Los parámetros personalizados son parámetros mbox. Si pasa algún parámetro mbox a mboxes, o usa la función targetPageParams, ese parámetro aparece aquí para su uso en audiencias.
 title: Parámetros personalizados en Adobe Target
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -18,9 +18,9 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 
 Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParameter` ya no le pide que especifique un valor para `mboxName`. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
+1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Personalizado]**.
+1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
 
    Para seleccionar el parámetro deseado:
 
@@ -52,11 +52,11 @@ La [tarjeta emergente de detalles de definición](../../../c-target/c-audiences/
 * Las audiencias y actividades se evalúan para un mbox específico. Por ejemplo, si el mbox global pasa un determinado parámetro pero el mbox regional no, la actividad o la audiencia orientada a ese parámetro no será calificada para el mbox regional.
 * La segmentación no se evalúa en parámetros de mbox internos, como mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId y mboxVersion.
 
-## Vídeo de formación: Creación de audiencias
+## Vídeo de capacitación: Creación de una insignia de ![tutorial de audiencias](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
