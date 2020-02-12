@@ -3,7 +3,7 @@ description: Los criterios controlan el contenido de sus actividades de Adobe Re
 title: Crear criterios
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -20,7 +20,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
 * Cuando esté creando una [!DNL Recommendations]actividad haga clic en **[!UICONTROL Crear nuevo]** en la pantalla [!UICONTROL Seleccionar criterios]. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!DNL Recommendations].
 * Cuando esté editando una [!DNL Recommendations]actividad, haga clic en el cuadro [!UICONTROL Ubicación de Recommendations] de la página y seleccione **[!UICONTROL Cambiar criterios]**. En la pantalla [!UICONTROL Seleccionar criterios], haga clic en **[!UICONTROL Crear nuevo]**. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!DNL Recommendations].
-* En la pantalla de la biblioteca **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Criterios]**, haga clic en **[!UICONTROL Crear criterios]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!DNL Recommendations].
+* En la pantalla de la biblioteca **[!UICONTROL Recomendaciones]** > **[!UICONTROL Criterios]**, haga clic en **[!UICONTROL Crear criterios]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!DNL Recommendations].
 
 1. Haga clic en **[!UICONTROL Crear criterios]** o **[!UICONTROL Crear nuevo]**.
 
@@ -65,7 +65,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
 
    >[!NOTE]
    >
-   >Si selecciona **[!UICONTROL Artículos]**/**[!UICONTROL Medios con atributos similares]**, tendrá la opción de definir [reglas de similitud de contenido](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
+   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
 1. Establezca el **[!UICONTROL Intervalo de fechas]** para determinar el intervalo de fechas del historial de datos de comportamiento del usuario, para usarlo cuando determine qué recomendaciones mostrar.
 
@@ -81,7 +81,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
    * Un mes
    * Dos meses
 
-1. Seleccione la **[!UICONTROL Fuente de datos de comportamiento]** deseada: [!UICONTROL mboxes] o [!UICONTROL Analytics].
+1. Seleccione la **[!UICONTROL fuente de datos de comportamiento]** deseada: [!UICONTROL mboxes] o [!UICONTROL Analytics].
 
    Si elige [!UICONTROL Analytics], seleccione el grupo de informes deseado.
 
@@ -203,7 +203,7 @@ Puede utilizarse en cualquier página.
 Puede basar las recomendaciones en el valor de un atributo de perfil personalizado. Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la película que agregó un visitante recientemente a su cola.
 
 1. Seleccione su atributo de perfil personalizado en la lista **[!UICONTROL desplegable Clave]** de recomendación (por ejemplo, «Última visualización agregada a la lista de observación»).
-1. A continuación, seleccione la lógica **[!UICONTROL de recomendación]** (por ejemplo, "Personas que vieron esto, Vieron aquello").
+1. A continuación, seleccione la lógica **[!UICONTROL de recomendación]** (por ejemplo, &quot;Personas que vieron esto, Vieron aquello&quot;).
 
    ![Crear nuevo cuadro de diálogo de criterios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
@@ -211,7 +211,7 @@ Si el atributo de perfil personalizado no coincide directamente con un ID de ent
 
 1. Seleccione su atributo de perfil personalizado en **[!UICONTROL la lista desplegable Clave]** de recomendación (por ejemplo, «Marca favorita»).
 
-1. A continuación, seleccione **[!UICONTROL la lógica]** de recomendación que desee utilizar con esta clave (por ejemplo, "Principales vendedores").
+1. A continuación, seleccione **[!UICONTROL la lógica]** de recomendación que desee utilizar con esta clave (por ejemplo, &quot;Principales vendedores&quot;).
 
    Se muestra [!UICONTROL la] opción Agrupar por valor único de.
 
@@ -426,7 +426,7 @@ La similitud de contenido compara palabras clave de los atributos de los artícu
 
 Resulta especialmente eficaz usar la similitud de contenido para generar recomendaciones en los artículos nuevos, ya que es poco probable que estos aparezcan en las recomendaciones usando *Otras personas que vieron esto también vieron* y otras lógicas basadas en el comportamiento anterior. También puede utilizar la similitud de contenido si quiere generar recomendaciones útiles para los nuevos visitantes, que no han hecho ninguna compra ni tienen datos históricos.
 
-Al seleccionar **[!UICONTROL Artículos]**/ **[!UICONTROL Medios con atributos similares]**, tiene la opción de crear reglas para aumentar o reducir la importancia que ciertos atributos de artículo tienen a la hora de determinar las Recommendations. En el caso de artículos como libros, puede aumentar la importancia de atributos como el *género*, el *autor* o la *serie* para recomendar libros parecidos.
+Al seleccionar **[!UICONTROL Artículos]**/**[!UICONTROL Medios con atributos similares]**, tiene la opción de crear reglas para aumentar o reducir la importancia que ciertos atributos de artículo tienen a la hora de determinar las recomendaciones. En el caso de artículos como libros, puede aumentar la importancia de atributos como el *género*, el *autor* o la *serie* para recomendar libros parecidos.
 
 ![](assets/ContentSimilarity.png)
 
@@ -438,7 +438,7 @@ De forma predeterminada, todos los atributos están definidos en *Línea de base
 >
 >El algoritmo de similitud de contenido puede usar muestras aleatorias para calcular similitudes entre elementos. Como resultado, las clasificaciones de similitud entre elementos pueden variar entre ejecuciones de algoritmos.
 
-## Vídeo de formación: Crear criterios en Recommendations (12:33)
+## Vídeo de capacitación: Crear criterios en Recomendaciones (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
@@ -446,4 +446,4 @@ Este vídeo contiene la información siguiente:
 * Crear secuencias de criterios
 * Cargar criterios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
