@@ -1,10 +1,10 @@
 ---
-keywords: crear recomendaciones;actividad de recomendaciones;nuevas recomendaciones;información general de recomendaciones
+keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Use el Compositor de experiencias visuales (VEC) de Target para crear una actividad de Recommendations directamente en una página con Target habilitado y modificar partes de la página en Target.
 title: Crear una actividad de Recommendations
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Use el Compositor de experiencias visuales (VEC) de Target para crear una actividad de Recommendations directamente en una página con Target habilitado y modificar partes de la página en Target.
 
-1. Haga clic en **[!UICONTROL Crear actividad]** &gt; **[!UICONTROL Recommendations]**.
+1. Haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Recomendaciones]**.
 
    ![Crear una actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
@@ -29,7 +29,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
    >
    >Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >La opción [!UICONTROL [Elegir lugar de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md) de la ilustración anterior es una función de [Target Premium](/help/c-intro/intro.md). Su organización tiene una licencia de Target Standard si no ve esta opción.]
+   >La opción [!UICONTROL [Elegir lugar de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md) de la ilustración anterior es una [función de Target Premium](/help/c-intro/intro.md). Su organización tiene una licencia de Target Standard si no ve esta opción.]
 
 1. (Condicional) Si es [cliente de Target Premium](/help/c-intro/intro.md#premium), elija un [espacio de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -43,7 +43,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
    Tras hacer clic en [!UICONTROL Siguiente], VEC se abre y muestra su página. Puede reemplazar un artículo actual por recomendaciones, o insertar recomendaciones.
 
-1. Haga clic en un elemento de la página. Si hay recomendaciones disponibles donde se encuentra ese elemento, haga clic en **[!UICONTROL Sustituir con Recommendations]**, en **[!UICONTROL Insertar Recommendations antes]** o en **[!UICONTROL Insertar Recommendations después]**.
+1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
    ![Opciones de Recommendations](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
@@ -69,7 +69,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
    >[!NOTE]
    >
-   >No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o `entity.categoryId` para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desmarque la casilla de verificación **[!UICONTROL Compatible]**. Es posible que no se muestre la opción [!UICONTROL Compatible], dependiendo de la configuración de Recommendations (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Configuración]** &gt; **[!UICONTROL Filtrar criterios incompatibles]**). Para obtener más información, consulte [Configuración](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o `entity.categoryId` para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desmarque la casilla de verificación **[!UICONTROL Compatible]**. Es posible que no se muestre la opción [!UICONTROL Compatible], dependiendo de la configuración de Recomendaciones (**[!UICONTROL Recomendaciones]** > **[!UICONTROL Configuración]** > **[!UICONTROL Filtrar criterios incompatibles]**). Para obtener más información, consulte [Configuración](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
    ![Cuadro de diálogo Seleccionar criterios](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -79,8 +79,8 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
       Algunos criterios se proporcionan con [!DNL Recommendations]. También puede crear sus propios criterios personalizados.
 
-   * Para crear un nuevo criterio, haga clic en **[!UICONTROL Crear criterio]** &gt; **[!UICONTROL Crear criterio]** y rellene la información del nuevo criterio. Para obtener información sobre la creación de criterios nuevos, consulte [Creación de criterios](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)
-   * También puede agrupar criterios en secuencias. Para crear una nueva secuencia de criterios, haga clic en **[!UICONTROL Crear criterio]** &gt; **[!UICONTROL Crear secuencia de criterios]**. Consulte [Creación de secuencias de criterios](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) para obtener más información.
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Para obtener información sobre la creación de criterios nuevos, consulte [Creación de criterios](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)
+   * También puede agrupar criterios en secuencias. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Consulte [Creación de secuencias de criterios](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) para obtener más información.
 
 1. Haga clic en **[!UICONTROL Siguiente]**.
 1. Seleccionar un [diseño](/help/c-recommendations/c-design-overview/design-overview.md).
@@ -95,7 +95,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
       Si ha seleccionado varios criterios, solo puede seleccionar un diseño.
 
-   * Para crear un diseño personalizado, haga clic en **[!UICONTROL Crear diseño]** y rellene el nombre y el código para el nuevo diseño. Haga clic en **[!UICONTROL Siguiente]**, seleccione o cargue una imagen y haga clic en **[!UICONTROL Listo]** &gt; **[!UICONTROL Listo]**. Para obtener más información sobre cómo crear un diseño nuevo, consulte [Creación de diseños](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Para crear un diseño personalizado, haga clic en **[!UICONTROL Crear diseño]** y rellene el nombre y el código para el nuevo diseño. Haga clic en **[!UICONTROL Siguiente]**, seleccione o actualice una imagen y haga clic en **[!UICONTROL Hecho]** > **[!UICONTROL Hecho]**. Para obtener más información sobre cómo crear un diseño nuevo, consulte [Creación de diseños](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Haga clic en **[!UICONTROL Siguiente]**.
 
@@ -136,7 +136,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
    * Ver el código del diseño
    * Cambiar o quitar un diseño
 
-1. Haga clic en **[!UICONTROL Siguiente]cuando termine.**
+1. Haga clic en **[!UICONTROL Siguiente]** cuando termine.
 1. Especifique la configuración de la actividad.
 
    Por ejemplo, escriba un nombre (obligatorio) y un objetivo (opcional) para la actividad. Para obtener información sobre la configuración, consulte [Configuración de actividad de Recommendations](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
@@ -165,6 +165,6 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
    Se produce un conflicto de actividades cuando existen varias actividades configuradas para publicar contenido en la misma página, lo cual puede hacer que se muestre contenido inesperado.
 
-## Vídeo de formación: Crear una actividad de Recommendations (7:15)
+## Vídeo de formación: Crear una actividad de Recommendations (7:15) Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
