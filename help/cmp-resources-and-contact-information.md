@@ -5,7 +5,7 @@ title: Recursos e información de contacto
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
 
 ---
 
@@ -44,7 +44,7 @@ Las sesiones de Target grabadas actualmente incluyen:
 | Tema / Tiempo de ejecución / Fecha de grabación | Lo que aprenderá |
 |--- |--- |
 | [Compositor de experiencias visuales (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>de diciembre de 2017 | Aprenderá:<ul><li>Cómo funciona el Compositor de experiencias visuales</li><li>Cómo evitar problemas comunes con el Compositor de experiencias visuales</li><li>Soluciones alternativas con el Compositor de experiencias visuales</li></ul>Para obtener más información en esta guía, consulte   [Experiencias](/help/c-experiences/experiences.md). |
-| [Adobe Target: Integración de Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>de enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información en esta guía, consulte   [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [Adobe Target: Integración de Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>de enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
 | [at.js: Ventajas y optimizaciones](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>de implementación 26:43<br>de abril de 2018 | Aprenderá: <ul><li>Cómo funciona la biblioteca at.js</li><li>Las ventajas de at.js sobre mbox.js</li><li>Cómo gestiona at.js el parpadeo</li><li>Gestión de errores en at.js</li><li>Metodologías de depuración</li><li>Problemas conocidos y hoja de ruta</li></ul>Para obtener más información en esta guía, consulte   [Implementación de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
@@ -78,25 +78,7 @@ Para agilizar la evaluación de su problema, se recomienda que disponga de la si
 | Impacto comercial | ¿De qué manera afecta a su empresa? Por ejemplo, ¿causa el problema una pérdida de ingresos o hace que el producto no pueda utilizarse, y existe una solución alternativa? |
 | Expectativas | ¿Qué espera que ocurra? |
 
-Además, prepare información relacionada con el problema concreto. Por ejemplo, uno de los problemas más comunes recibidos por ClientCare es que los mboxes tardan mucho en cargarse. Para este problema, sería útil la siguiente información:
-
-* Un archivo de seguimiento de Firebug que muestre la lentitud repetible a una dirección URL o host.
-
-   Un informe de Gómez con una de las dos peticiones periféricas, si no hay suficientes datos para analizar o intentar solucionar el problema.
-* Una captura de pantalla de una operación de traceroute desde la máquina donde se ejecuta Firebug a 70.42.13.100.
-
-   Esto es muy importante. Las redes EDGE son internacionales, por lo que es muy difícil determinar dónde se envía el cliente. Por ejemplo, si puede reproducir el problema desde un equipo en su oficina, indique “puedo reproducir esto desde mi equipo de escritorio y estoy alojado en EDGE 20”.
-* Su código de cliente y el nombre del mbox (si dispone de este).
-* El número de mboxes integrados en la página.
-
-   ¿Solo un mbox funciona con lentitud de todas las de la página?
-* ¿Con qué frecuencia puede repetirse la lentitud con dicho mbox en la página concreta?
-
-   El archivo de seguimiento de Firebug muestra a ClientCare un escenario de caso único. Sería útil si puede proporcionar datos estadísticos, como “lo más lento que he visto han sido 300 ms, lo más alto es 1,1 segundos y lo he probado 50 veces”.
-* Información relacionada con cualquier elemento inusual acerca de sus campañas.
-
-   ¿Hay un número elevado de segmentos? (Por ejemplo, ¿actualiza los segmentos 3 o 4 veces por hora en la interfaz de administración?) Esta información ayuda a ClientCare a comprender la interacción entre las interfaces de administración y los perímetros para esta campaña. Actualizaciones frecuentes a la campaña equivale a recargas frecuentes desde el servidor central, lo que puede forzar más llamadas remotas o recargas de caché.
-* Cualquier otro dato que considere que pueda ser útil.
+Para ver los problemas de entrega de contenido, consulte [Solución de problemas de entrega](/help/c-activities/c-troubleshooting-activities/content-trouble.md) de contenido para obtener soluciones posibles e información sobre solución de problemas.
 
 ### En caso de una interrupción del servicio   {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
