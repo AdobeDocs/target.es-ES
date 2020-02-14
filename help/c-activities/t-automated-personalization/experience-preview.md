@@ -1,11 +1,11 @@
 ---
-keywords: vista previa de experiencias;direcciones URL de experiencia;generar direcciones URL;ver direcciones URL de experiencia
+keywords: experience preview;experience urls;generate urls;view experience urls
 description: Se puede generar una dirección URL de experiencia para cada actividad de personalización automatizada de Target para ver el contenido de la experiencia directamente en el sitio antes de que la actividad se publique. De este modo, se puede obtener una vista previa y realizar un control de calidad. Las direcciones URL de experiencias evitan la segmentación para forzar la visualización de una experiencia determinada.
 title: Compartir URL de experiencia para previsualizar la personalización automatizada fuera de Target
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 533a2aac50ceb085b090ad5f9d7b1fff396c2de4
 
 ---
 
@@ -37,7 +37,7 @@ Utilice las direcciones URL de experiencia para compartir experiencias con integ
    En una ventana modal se muestran vínculos a sus experiencias en su sitio para obtener una “auténtica vista previa” de las experiencias fuera del Compositor de experiencias visuales de Target. Debe compartir los vínculos del mensaje para compartir la vista previa. Hacer clic en un vínculo y luego copiar la dirección URL resultante desde la página no funcionará porque la dirección URL contiene un parámetro que solo muestra la página correctamente cuando entra a la página desde el vínculo en el mensaje. Copie el texto de la ventana modal y envíelo por correo electrónico en su totalidad a su equipo.
 1. Haga clic en **[!UICONTROL Generar todos]** y luego haga clic en cada una de las experiencias para visualizarlas previamente.
 
-   Si después modifica la experiencia, asegúrese de generar nuevos vínculos de vista previa para su equipo. Para ello, vuelva a la ventana modal y haga clic en **Generar todos** para obtener nuevos vínculos.
+   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
 
    **Nota:** Los vínculos de la vista previa se abren en pestañas nuevas y es necesario que el bloqueador de ventanas emergentes del navegador esté desactivado.
 
