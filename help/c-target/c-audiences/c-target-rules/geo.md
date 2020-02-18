@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 
 ---
 
@@ -135,6 +135,10 @@ Puede sustituir su dirección IP por una dirección IP de una ubicación diferen
 `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
 Tendrá que borrar las cookies antes de hacerlo.
+
+>[!NOTE]
+>
+>mboxOverride.browserIp solo se admite en at.js 1.*jx*. Esta funcionalidad no se admite en at.js 2.*x*.
 
 **¿Cómo se asignan los territorios, como Puerto Rico y Hong Kong, a la estructura de segmentación geográfica?**
 
