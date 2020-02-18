@@ -5,7 +5,7 @@ title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
+source-git-commit: 93ffd24946ad23780b8c141bec79e4492f0e8cda
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 En estas notas de la versión se proporciona información acerca de las funciones, las mejoras, las correcciones y los problemas conocidos de las últimas o de las próximas versiones de [!DNL Adobe Target].
 
-**Última actualización: 4 de febrero de 2020**
+**Última actualización: 18 de febrero de 2020**
 
 >[!NOTE]
 >
@@ -32,7 +32,14 @@ En estas notas de la versión se proporciona información acerca de las funcione
 
 ## Target Standard/Premium 20.2.1 (19 de febrero de 2020)
 
-La versión de Target Standard/Premium 20.2.1 está programada para el 19 de febrero de 2020. En los próximos días se publicará información sobre funciones, mejoras y correcciones específicas.
+Esta versión contiene las siguientes mejoras y correcciones:
+
+* Se ha corregido un problema que impedía a los clientes seleccionar una colección al realizar una búsqueda en el catálogo. (TGT-36230)
+* Se corrigió un problema en el cual un criterio creado mediante API, pero al que una actividad creada en la interfaz de usuario de Target no hace referencia, podía eliminarse erróneamente de la interfaz de usuario. (TGT-35917)
+* Se han implementado mejoras de seguridad en la directiva de seguridad de contenido (CSP). (TGT-36190)
+* Se ha corregido un problema que hacía que se mostrara &quot;NaN%&quot; al desplazar la barra de porcentaje Ponderación de atributo al extremo izquierdo. (TGT-36211)
+* Se ha resuelto un problema que impedía a los clientes cambiar el algoritmo en una actividad de Personalización automatizada (AP) de bosque aleatorio a variación residual. (TGT-36321)
+* Se han resuelto problemas de localización para que el texto de la interfaz de usuario en varios idiomas se muestre correctamente.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
