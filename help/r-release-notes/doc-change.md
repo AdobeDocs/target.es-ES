@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -14,12 +14,18 @@ source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
+## Adobe Target Standard/Premium 20.2.1 (19 de febrero de 2020)
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| 19 de febrero de 2020 | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la próxima desaprobación de la biblioteca mbox.js. |
+|  | [Ubicación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md) | Se ha añadido una nota que `mboxOverride.browserIp` se admite en at.js 1.Solamente *x.* |
+|  | [Notas de la versión](/help/r-release-notes/release-notes.md): 20.2.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
+
 ## Adobe Target Standard/Premium 20.1.1 (4 de febrero de 2020)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 18 de febrero de 2020 | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la próxima desaprobación de la biblioteca mbox.js. |
-|  | [Ubicación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md) | Se ha añadido una nota en la que se indica que mboxOverride.browserIp solo se admite en at.js 1.*x*. |
 | 4 de febrero | [Notas de la versión](/help/r-release-notes/release-notes.md): 20.1.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 19.10.1 (22 de octubre de 2019)
