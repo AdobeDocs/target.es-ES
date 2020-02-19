@@ -5,7 +5,7 @@ title: 'Notas de la versión de Adobe Target (actual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -32,12 +32,19 @@ Estas notas de la versión proporcionan información sobre características, mej
 Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 
-## Target Standard/Premium 20.1.1 (4 de febrero de 2020)
+## Target Standard/Premium 20.2.1 (19 de febrero de 2020)
 
-La versión Target Standard/Premium 20.1.1 es una versión de mantenimiento que incluye mejoras y mejoras en el servidor. Además, se incluyen las siguientes correcciones:
+>[!IMPORTANT]
+>
+>Consulte la información anterior sobre la desaprobación de mbox.js.
 
-* Se ha corregido un problema que provocaba que el campo del servidor de seguimiento de Adobe Analytics estuviera vacío en la página Objetivos y configuración de las actividades existentes de Adobe para Target (A4T). (TGT-35960)
-* Se ha corregido un problema en la interfaz de usuario que provocaba que la selección en la segunda lista desplegable no se mostrara al crear una audiencia para afinidad de categoría. (TGT-36098)
+Esta versión contiene las siguientes mejoras y correcciones:
+
+* Se ha corregido un problema que impedía a los clientes seleccionar una colección al realizar una búsqueda en el catálogo. (TGT-36230)
+* Se corrigió un problema en el cual un criterio creado mediante API, pero al que una actividad creada en la interfaz de usuario de Target no hace referencia, podía eliminarse erróneamente de la interfaz de usuario. (TGT-35917)
+* Se han implementado mejoras de seguridad en la directiva de seguridad de contenido (CSP). (TGT-36190)
+* Se ha corregido un problema que hacía que se mostrara &quot;NaN%&quot; al desplazar la barra de porcentaje Ponderación de atributo al extremo izquierdo. (TGT-36211)
+* Se han resuelto problemas de localización para que el texto de la interfaz de usuario en varios idiomas se muestre correctamente.
 
 ## Notas de la versión adicionales y detalles de la versión
 
