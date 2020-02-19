@@ -1,28 +1,26 @@
 ---
 keywords: experience preview;experience urls;generate urls;view experience urls
-description: Se puede generar una dirección URL de experiencia para cada actividad de personalización automatizada de Target para ver el contenido de la experiencia directamente en el sitio antes de que la actividad se publique. De este modo, se puede obtener una vista previa y realizar un control de calidad. Las direcciones URL de experiencias evitan la segmentación para forzar la visualización de una experiencia determinada.
-title: Compartir URL de experiencia para previsualizar la personalización automatizada fuera de Target
+description: Las direcciones URL de vista previa de experiencias se pueden generar para las actividades de Personalización automatizada de Target para ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa para obtener una vista previa y realizar un control de calidad. Las direcciones URL de vista previa de experiencias omiten la segmentación para forzar la visualización de una experiencia concreta.
+title: Previsualizar actividades de Personalización automatizada con direcciones URL de vista previa de experiencia
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 533a2aac50ceb085b090ad5f9d7b1fff396c2de4
+source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Compartir direcciones URL de experiencia para previsualizar la Personalización automatizada fuera de Target{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![Previsualización de PREMIUM](/help/assets/premium.png) de actividades de Personalización automatizada con direcciones URL de vista previa de experiencia{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
-Se puede generar una dirección URL de experiencia para cada actividad de personalización automatizada de Target para ver el contenido de la experiencia directamente en el sitio antes de que la actividad se publique. De este modo, se puede obtener una vista previa y realizar un control de calidad. Las direcciones URL de experiencias evitan la segmentación para forzar la visualización de una experiencia determinada.
+Las direcciones URL de vista previa de experiencias se pueden generar para las actividades de Personalización automatizada de Target para ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa para obtener una vista previa y realizar un control de calidad. Las direcciones URL de vista previa de experiencias omiten la segmentación para forzar la visualización de una experiencia concreta.
 
 >[!NOTE]
 >
->El modo de control de calidad de la actividad le permite crear direcciones URL de actividad para otro tipo de actividades. Para obtener más información, consulte [Control de calidad de las actividades](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)
+>Las direcciones URL de vista previa de experiencias para la personalización automatizada difieren del modo de control de calidad de la actividad. El modo de control de calidad de la actividad le permite crear direcciones URL de actividad para otro tipo de actividades. Para obtener más información, consulte [Control de calidad de las actividades](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40).
+>
+>Las direcciones URL de vista previa de experiencias para actividades AP solo están disponibles cuando se utiliza at.js 1.x. Actualmente, las direcciones URL de vista previa de experiencias para actividades AP no son compatibles con at.js 2.x.
 
-.
-
-Para usar direcciones URL de experiencia, tiene que compartir los vínculos que se generan desde Target, no la dirección URL final en la que aterriza al ver la experiencia. Además, si cambia el contenido, hay que generar direcciones URL nuevas. Es posible que, al generar direcciones URL nuevas, las antiguas no funcionen.
-
-Utilice las direcciones URL de experiencia para compartir experiencias con integrantes del equipo y para controlar la calidad de las experiencias en distintos navegadores y entornos sin necesidad de crear una actividad de control de calidad específica. Esta característica resulta especialmente útil en sitios complejos o si las políticas de seguridad no permiten que el sitio se vea en un simulador.
+Utilice las direcciones URL de vista previa de la experiencia para compartir experiencias con miembros del equipo y para realizar un control de calidad en distintos exploradores y entornos, sin necesidad de crear una actividad de control de calidad independiente. Esta característica resulta especialmente útil en sitios complejos o si las políticas de seguridad no permiten que el sitio se vea en un simulador.
 
 1. Cree una [actividad de Personalización automatizada](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) o haga clic en la actividad para abrirla.
 
@@ -31,7 +29,7 @@ Utilice las direcciones URL de experiencia para compartir experiencias con integ
 1. Revise y/o especifique sus URL.
 
    * Si está utilizando el Compositor de experiencias visuales (VEC), la URL predeterminada que especificó para la actividad se introduce automáticamente y se genera un vínculo para cada experiencia de la actividad. Puede cambiar esta URL y añadir otras si lo desea.
-   * Si usa el Compositor de experiencias basadas en formularios, no aparece ninguna URL predeterminada automáticamente. Si no ha creado previamente una URL de experiencia, haga clic en **Añadir nueva URL**. Debe especificar todas las URL que desea visualizar previamente, así como un nombre para cada una.
+   * Si usa el Compositor de experiencias basadas en formularios, no aparece ninguna URL predeterminada automáticamente. If you haven&#39;t previously created experience preview URLs, click **Add New URL**. Debe especificar todas las URL que desea visualizar previamente, así como un nombre para cada una.
    Puede añadir varias direcciones URL, lo cual es útil cuando ejecuta una prueba de varias páginas o una prueba de plantilla y quiere previsualizar la actividad en más de una página.
 
    En una ventana modal se muestran vínculos a sus experiencias en su sitio para obtener una “auténtica vista previa” de las experiencias fuera del Compositor de experiencias visuales de Target. Debe compartir los vínculos del mensaje para compartir la vista previa. Hacer clic en un vínculo y luego copiar la dirección URL resultante desde la página no funcionará porque la dirección URL contiene un parámetro que solo muestra la página correctamente cuando entra a la página desde el vínculo en el mensaje. Copie el texto de la ventana modal y envíelo por correo electrónico en su totalidad a su equipo.
@@ -48,9 +46,9 @@ Utilice las direcciones URL de experiencia para compartir experiencias con integ
 
 ## Consideraciones {#example_9F2B333BC63143FF99AE331F57E8BA4C}
 
-**Generar direcciones URL de experiencia**
+**Generación de direcciones URL de vista previa de experiencia**
 
-* La dirección URL de experiencia no se ve afectada por la división del tráfico entre las experiencias.
+* La dirección URL de vista previa de la experiencia no se ve afectada por la división de tráfico entre experiencias.
 * La segmentación en el nivel de audiencia no afecta a la vista previa.
 * Puede generar automáticamente un máximo de 300 direcciones URL de experiencia por actividad. A partir de esa cantidad, debe generar las direcciones URL de forma manual.
 * Puede generar automáticamente un máximo de 300 direcciones URL de experiencia por actividad. A partir de esa cantidad, debe generar las direcciones URL de forma manual.
@@ -58,20 +56,18 @@ Utilice las direcciones URL de experiencia para compartir experiencias con integ
 * Los vínculos de vista previa generados son válidos durante dos meses. Pasado ese tiempo, debe volver a generar las direcciones URL de vista previa.
 * Tiene que volver a generarlas siempre que se modifique una experiencia.
 
-**Compartir direcciones URL de experiencia**
+**Uso compartido de direcciones URL de vista previa de experiencias**
 
 * Puede obtener la vista previa de una experiencia aunque no forme parte de la audiencia de destino.
-* Puede compartir las URL de experiencia con compañeros que no tienen acceso a Adobe Target.
+* Puede compartir direcciones URL de vista previa de experiencias con compañeros que no tengan acceso a Adobe Target.
 
-**Ver experiencias con las direcciones URL de experiencia**
+**Visualización de experiencias con direcciones URL de vista previa de experiencias**
 
 * La vista previa funciona para todas las actividades guardadas siempre que la página no haya cambiado.
-* La dirección URL de experiencia está disponible tanto si la actividad está activa como si está inactiva.
-* No se pueden previsualizar las experiencias con el estado de borrador
-* Los informes no se ven afectados por la vista previa de las URL de experiencia.
+* La URL de vista previa de la experiencia está disponible tanto si la actividad está activa como inactiva.
+* No se puede obtener una vista previa de una experiencia con estado de borrador.
+* Los informes no se ven afectados por la visualización de las direcciones URL de vista previa de la experiencia.
 
-**Resolución de problemas de las direcciones URL de experiencia**
+**Resolución de problemas con las direcciones URL de la vista previa de la experiencia**
 
 * Si no ve la vista previa en la pestaña nueva (debido a la memoria caché del navegador), pruebe a actualizar dos o tres veces, o copie el vínculo y ábralo en un navegador nuevo, en una nueva sesión o en el modo de navegación privada.
-* Independientemente de si efectúa su propio control de calidad para una actividad o si reenvía vínculos a otro equipo, puede previsualizar fácilmente experiencias específicas sin la necesidad de crear distintas pruebas.
-
