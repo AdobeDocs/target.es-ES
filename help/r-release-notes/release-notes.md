@@ -5,7 +5,7 @@ title: 'Notas de la versión de Adobe Target (actual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: f5444d8a4d9229112aeaeadc0bccdb42a006c02b
 
 ---
 
@@ -29,7 +29,9 @@ Estas notas de la versión proporcionan información sobre características, mej
    >
    >   
    Al trasladar a todos los clientes a at.js, nuestros ingenieros y el personal de asistencia técnica podrán proporcionarle nuevas funciones y ofrecerle la asistencia que espera de Adobe.
-Los números entre paréntesis son para uso interno de [!DNL Adobe].
+   >
+   >
+* Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 
 ## Target Standard/Premium 20.2.1 (19 de febrero de 2020)
