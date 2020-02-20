@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -18,7 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 19 de febrero de 2020 | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la próxima desaprobación de la biblioteca mbox.js. |
+| 20 de febrero | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Se ha añadido información para las siguientes configuraciones: `pageLoadEnabled` y `viewsEnabled`. |
+| 19 de febrero | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la próxima desaprobación de la biblioteca mbox.js. |
 |  | [Ubicación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md) | Se ha añadido una nota que `mboxOverride.browserIp` se admite en at.js 1.Solamente *x.* |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha aclarado el texto que explica qué versiones de at.js admite el equipo de Target. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 20.2.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
