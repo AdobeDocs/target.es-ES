@@ -1,11 +1,11 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;funciones;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContent VisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;optOut;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
 description: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
 title: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -22,7 +22,7 @@ Las configuraciones que se pueden anular son las siguientes:
 
 | Configuración | Tipo | Valor predeterminado | Descripción |
 |--- |--- |--- |--- |
-| serverState | Consulte "serverState" a continuación. | Consulte "serverState" a continuación. | Consulte "serverState" a continuación. |
+| serverState | Consulte &quot;serverState&quot; a continuación. | Consulte &quot;serverState&quot; a continuación. | Consulte &quot;serverState&quot; a continuación. |
 | clientCode | Cadena | Valor definido en la interfaz de usuario | Representa el código de cliente |
 | serverDomain | Cadena | Valor definido en la interfaz de usuario | Representa el servidor Edge de Target |
 | cookieDomain | Cadena | Si es posible, definirlo en el dominio de primer nivel | Representa el dominio que se usa al guardar las cookies |
@@ -30,7 +30,9 @@ Las configuraciones que se pueden anular son las siguientes:
 | timeout | Número | Valor definido en la interfaz de usuario | Representa el tiempo de espera de la solicitud Edge de Target |
 | globalMboxAutoCreate | Booleano | Valor definido en la interfaz de usuario | Indica si la solicitud de mbox global se debe activar o no |
 | visitorApiTimeout | Número | 2000 ms = 2 s | Representa el tiempo de espera de la solicitud de la API de visitante |
-| enabled | Booleano | true | Indica si la biblioteca at.js está activada, es decir, si debe ejecutar algo o no. El caso de uso principal de esta configuración son las cookies de exclusión u otras decisiones personalizadas que podrían desactivar las funciones de at.js |
+| enabled | Booleano | true | Cuando está habilitada, se ejecuta automáticamente una solicitud de Target para recuperar experiencias y la manipulación DOM para procesar las experiencias. Además, las llamadas de Target se pueden ejecutar manualmente mediante `getOffer(s)` / `applyOffer(s)`<br>Cuando están desactivadas, las solicitudes de Target no se ejecutan de forma automática ni manual |
+| pageLoadEnabled | Booleano | true | Cuando está habilitado, recupera automáticamente experiencias que deben devolverse al cargar la página |
+| viewsEnabled | Booleano | true | Cuando está habilitada, recupera automáticamente las vistas que deben devolverse al cargar la página. Las vistas se admiten en at.js 2.Solamente *x* |
 | defaultContentHiddenStyle | Cadena | visibility: hidden | Solo se usa para ajustar mboxes que utilizan DIV con el nombre de clase “mboxDefault” y que se ejecutan a través de `mboxCreate()`, `mboxUpdate()` o `mboxDefine()` para ocultar contenido predeterminado. |
 | defaultContentVisibleStyle | Cadena | visibility: visible | Solo se usa para ajustar mboxes que utilizan DIV con el nombre de clase “mboxDefault” y que se ejecutan a través de `mboxCreate()`, `mboxUpdate()` o `mboxDefine()` para mostrar la oferta aplicada o el contenido predeterminado. |
 | bodyHiddenStyle | Cadena | body { opacity: 0 } | Solo se usa cuando `globalMboxAutocreate === true` para minimizar los parpadeos.<br>Para obtener más información, consulte [Cómo gestiona at.js el parpadeo](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
@@ -38,14 +40,14 @@ Las configuraciones que se pueden anular son las siguientes:
 | imsOrgId | Cadena | IMS ORG ID | Representa el id. de organización de IMS |
 | secureOnly | Booleano | false | Indica si at.js debería utilizar solo HTTPS o se le debería permitir alternar entre HTTP y HTTPS según el protocolo de la página. |
 | overrideMboxEdgeServer | Booleano | true (verdadero desde la versión 1.6.2 de at.js) | Indica si se debe utilizar el dominio `<clientCode>.tt.omtrdc.net` o el `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Si este valor es “true”, el dominio `mboxedge<clusterNumber>.tt.omtrdc.net` se guarda en una cookie. |
-| overrideMboxEdgeServerTimeout | Número | 1860000 =&gt; 31 minutos | Indica la duración de la cookie que contiene el valor `mboxedge<clusterNumber>.tt.omtrdc.net`. |
+| overrideMboxEdgeServerTimeout | Número | 1860000 => 31 minutos | Indica la duración de la cookie que contiene el valor `mboxedge<clusterNumber>.tt.omtrdc.net`. |
 | optoutEnabled | Booleano | false | Indica si Target debe llamar a la función `isOptedOut()` de la API del visitante. Esto forma parte de la habilitación de Device Graph. |
 | selectorsPollingTimeout | Número | 5000 ms = 5 s | En la versión 0.9.6 de at.js, Target introdujo este nuevo ajuste que se puede anular mediante `targetGlobalSettings`.<br>`selectorsPollingTimeout` representa cuánto está dispuesto a esperar el cliente para que todos los elementos identificados por selectores aparezcan en la página.<br>Las actividades creadas por medio del Compositor de experiencias visuales (VEC) tienen ofertas que contienen selectores. |
 | dataProviders | Consulte “Proveedores de datos” a continuación. | Consulte “Proveedores de datos” a continuación. | Consulte “Proveedores de datos” a continuación. |
 
 ## Uso {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Esta función puede definirse antes de que se cargue at.js o en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Implementación**] &gt; **[!UICONTROL Editar la configuración de at.js**] &gt; **[!UICONTROL Configuración del código]** &gt; **[!UICONTROL Encabezado de la biblioteca]**.
+Esta función puede definirse antes de que se cargue at.js o en **[!UICONTROL Configuración]** > **[!UICONTROL Implementación]** > **[!UICONTROL Editar la configuración de mbox.js]** > **[!UICONTROL Configuración del código]** > **[!UICONTROL Encabezado de la biblioteca]**.
 
 En el campo Encabezado de la biblioteca se puede introducir JavaScript de formato libre. El código de personalización debe parecerse al del ejemplo siguiente:
 
@@ -305,7 +307,7 @@ Consider the following when using `serverState`:
 
 * Al aplicar `serverState `ofertas, at.js tiene en cuenta `pageLoadEnabled` y `viewsEnabled` la configuración, por ejemplo las ofertas de carga de página, no se aplicará si la `pageLoadEnabled` configuración es falsa.
 
-   Para activar esta configuración, habilite la opción de alternancia en Ajustes de **[UICONTROL &gt; Implementación &gt; Editar configuración &gt; Carga de página habilitada]**.
+   Para activar esta configuración, habilite la opción de alternancia en Ajustes de **[UICONTROL > Implementación > Editar configuración > Carga de página habilitada]**.
 
    ![Configuración habilitada de carga de página](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
