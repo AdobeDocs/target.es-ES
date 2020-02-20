@@ -5,7 +5,7 @@ title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f710882392f54c13a2161a97b7530796f9a99283
+source-git-commit: aae24877a96e8e35cffc2a1cf1bc36a3f4b3f5db
 
 ---
 
@@ -39,7 +39,7 @@ En estas notas de la versión se proporciona información acerca de las funcione
    Al trasladar a todos los clientes a at.js, nuestros ingenieros y el personal de asistencia técnica podrán proporcionarle nuevas funciones y ofrecerle la asistencia que espera de Adobe.
 
 
-## Target Standard/Premium 20.2.1 (19 de febrero de 2020)
+## Target Standard/Premium 20.2.1 (3 de marzo de 2020). 
 
 >[!IMPORTANT]
 >
