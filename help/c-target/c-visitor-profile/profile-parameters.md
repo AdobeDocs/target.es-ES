@@ -5,7 +5,7 @@ title: Atributos de perfil en Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
+source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ---
 
@@ -120,16 +120,17 @@ Las siguientes directrices pretenden ayudarle a escribir secuencias de comandos 
 * Tenga en cuenta no solo el rendimiento del script, sino también el rendimiento combinado de todos los scripts. Como práctica recomendada, debería utilizarse un máximo de 5000 instrucciones en total. La recuento de instrucciones no es obvio, pero el dato que es importante recordar es que los scripts que exceden los 2 KB se desactivan automáticamente. No hay límite al número de scripts que se pueden ejecutar, pero cada uno de ellos se ejecuta con cada llamada de mbox. Ejecute solo los scripts necesarios.
 * En un regex, tener punto y asterisco al principio (p. ej.: `/.*match/`, `/a|.*b/`) casi nunca es necesario. La búsqueda de regex comienza desde todas las posiciones en una cadena (a menos que se enlace con `^`), por lo que se asume un punto y un asterisco. La ejecución de la secuencia de comandos se puede interrumpir si este regex coincide con datos de entrada lo suficientemente largos (que pueden contener varios cientos de caracteres).
 * Si falla todo, ajuste el script a un try/catch.
-* Recomendaciones para limitar la complejidad del script de perfil: Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones.
+* Recomendaciones para limitar la complejidad del script de perfil.
+
+    Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones.
 
    Como práctica recomendada:
 
    * Mantenga los scripts de perfil pequeños y lo más sencillos posible.
-   * Evite las expresiones regulares o utilice solo expresiones regulares muy simples. Incluso las expresiones simples pueden requerir muchas instrucciones para evaluarlas.
+   * Evite las expresiones regulares o utilice solo expresiones regulares muy simples. Incluso las expresiones simples pueden tomar muchas instrucciones para evaluarlas.
    * Evite la recursión.
-   Los scripts de perfil deben probarse de rendimiento antes de agregarse a Target. Todas las secuencias de comandos de perfil se ejecutan en cada solicitud de mbox. Si las secuencias de comandos de perfil no se ejecutan correctamente, las solicitudes de mbox tardan más en ejecutarse. Esto podría afectar al tráfico y a la conversión.
-
-   Si los scripts de perfil resultan demasiado complejos, considere la posibilidad de utilizar tokens de respuesta.
+   * Los scripts de perfil deben probarse de rendimiento antes de agregarse a Target. Todas las secuencias de comandos de perfil se ejecutan en cada solicitud de mbox. Si las secuencias de comandos de perfil no se ejecutan correctamente, las solicitudes de mbox tardan más en ejecutarse, lo que podría afectar al tráfico y a la conversión.
+   * Si los scripts de perfil se vuelven demasiado complejos, considere la posibilidad de usar tokens de [respuesta](/help/administrating-target/response-tokens.md) en su lugar.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
