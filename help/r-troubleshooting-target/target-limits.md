@@ -5,7 +5,7 @@ title: Límites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
 
 ---
 
@@ -188,7 +188,11 @@ El sistema truncará lo que supere este límite.
 
 ## Scripts de perfil
 
-**Límite recomendado**: 300 scripts de perfil activos.
+**Límite recomendado de secuencias de comandos** de perfil activas: 300
+
+**Límite recomendado del total de secuencias de comandos de perfil por cuenta**: 2.000
+
+**Recomendaciones para limitar la complejidad** del script de perfil: Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas](/help/c-target/c-visitor-profile/profile-parameters.md#best) recomendadas en atributos [de perfil](/help/c-target/c-visitor-profile/profile-parameters.md).
 
 **Límite recomendado**: 500 000 es el número máximo de bucles por script de perfil.
 
