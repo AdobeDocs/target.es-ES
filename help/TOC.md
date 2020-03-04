@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -275,6 +275,7 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
       + [Información general sobre los perfiles de visitante](c-target/c-visitor-profile/visitor-profile.md)
       + [Duración del perfil del visitante](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Atributos de perfil](c-target/c-visitor-profile/profile-parameters.md)
+      + [Usar scripts de perfil para probar actividades mutuamente excluyentes](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [Afinidad de la categoría](c-target/c-visitor-profile/category-affinity.md)
       + [Atributos del cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [Sincronización de perfiles en tiempo real para mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
