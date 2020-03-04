@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a7929ef8070dbe94c43832df915c6b75cd69f0a7
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -18,8 +18,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Marzo de 4 | [Atributos de perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Se ha actualizado todo el tema con amplias revisiones a la sección &quot;Prácticas recomendadas&quot;. |
 | 21 de febrero | [Notas de la versión (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la nueva navegación de Adobe Experience Cloud. |
-| 20 de febrero | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Se ha añadido información para las siguientes configuraciones: `pageLoadEnabled` y `viewsEnabled`. |
+| 20 de febrero | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Se ha añadido información para la siguiente configuración: `pageLoadEnabled` y `viewsEnabled`. |
 | 19 de febrero | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la próxima desaprobación de la biblioteca mbox.js. |
 |  | [Ubicación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md) | Se ha añadido una nota que `mboxOverride.browserIp` se admite en at.js 1.Solamente *x.* |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha aclarado el texto que explica qué versiones de at.js admite el equipo de Target. |
@@ -46,7 +47,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 22 de enero de 2020 | [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Se ha actualizado la siguiente pregunta frecuente: &quot;¿Puedo utilizar la calculadora de tamaño de la muestra al utilizar la asignación automática para calcular cuánto tiempo tardará la actividad en identificar al ganador?&quot; |
 | 15 de enero de 2020 | [Activación de contenido mixto en el navegador](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Se ha añadido un vídeo de formación e instrucciones para explicar cómo actualizar la configuración del sitio para permitir contenido mixto en la última versión de Chrome. |
 |  | [Fuentes](/help/c-recommendations/c-products/feeds.md) | Se ha añadido una nota sobre la carga y eliminación de entidades y atributos de entidad. |
-|  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se ha añadido la siguiente pregunta frecuente:¿Qué significa la respuesta NO_CONTENT devuelta a veces en el seguimiento de contenido de Recomendaciones? |
+|  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se ha añadido la siguiente pregunta frecuente: ¿Qué significa la respuesta NO_CONTENT devuelta a veces en el seguimiento de contenido de Recomendaciones? |
 |  | [Crear un mbox de confirmación de pedido: mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | Se agregó una nota que explica cómo realizar la confirmación de pedidos con at.js 2.*x*. |
 | 9 de enero de 2020 | [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Se ha actualizado el texto.<br>A partir del 1 de marzo de 2020, Adobe Target ya no admitirá el cifrado TLS 1.1 para el Compositor de experiencias visuales (VEC), el Compositor de experiencias mejorado (EEC), la entrega de actividades, las API, etc. Actualice a TLS 1.2 antes del 1 de marzo de 2020 para evitar problemas. |
 | 6 de enero de 2020 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido un problema conocido sobre el estado de la fuente Criterios personalizados. |
