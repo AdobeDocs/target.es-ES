@@ -1,12 +1,12 @@
 ---
-keywords: Información general y referencia
+keywords: Overview and Reference
 description: Adobe Target ha habilitado procesos y configuraciones que permiten utilizar Target en cumplimiento con las leyes aplicables sobre privacidad de datos.
 title: Privacidad
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
 
 ---
 
@@ -25,9 +25,15 @@ Adobe ha desarrollado una nueva configuración de “privacidad mediante diseño
 
 Cuando se habilita esta función, la dirección IP se convierte en lo suficientemente anónima para que ya no pueda identificarse como información personal. Por ello, Adobe Target puede utilizarse en cumplimiento con las leyes de privacidad de datos en países en los que no se permite la recopilación de información personal. Es muy probable que la obtención de información por nivel de ciudad vea significativamente afectada por la confusión de la dirección IP. La obtención de información por nivel de región y país solo debería verse ligeramente afectada.
 
-También existe un ajuste para ocultar la dirección IP completa.
-
 Póngase en contacto con Adobe ClientCare para habilitar la característica de disimulado de IP.
+
+Las configuraciones disponibles son las siguientes:
+
+* Sin confusión: Target no oculta ninguna parte de la dirección IP.
+* Último octeto: Target oculta el último octeto de la dirección IP.
+* IP completa: Target oculta toda la dirección IP.
+
+Target recibe la dirección IP completa y la confunde (si se establece en Último octeto o IP completa) como se especifica. A continuación, Target guarda la dirección IP confusión en la memoria durante la sesión.
 
 ## Segmentación geográfica {#section_BB69F96559BD44BDA4177537C4A5345A}
 
