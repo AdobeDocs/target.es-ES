@@ -5,24 +5,24 @@ title: 'Notas de la versión de Adobe Target (actual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
+source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 
 ---
 
 
 # Notas de la versión de Target (actual){#target-release-notes-current}
 
-Estas notas de la versión proporcionan información sobre características, mejoras, correcciones y problemas conocidos para todas las versiones de Target Standard y Target Premium. Además, también se incluyen las notas de la versión de las API de Target, los SDK, la biblioteca JavaScript (at.js) y otros cambios en la plataforma, si procede.
+Estas notas de la versión proporcionan información sobre características, mejoras, correcciones y problemas conocidos para todas las versiones de Target Standard y Target Premium. Además, también se incluyen las notas de la versión de las API de Target, los SDK, la biblioteca JavaScript (at.js) y otros cambios en la plataforma, cuando corresponde.
 
 >[!NOTE]
 >
->* **Cambios** de compatibilidad con TLS:A partir del 1 de marzo de 2020, Target desactivará la compatibilidad con el cifrado TLS 1.1 y TLS 1.0. Seguridad de capa de transporte (TLS) es el protocolo de seguridad más implementado que se usa hoy en día para navegadores web y otras aplicaciones que requieren que los datos se intercambien de forma segura en una red. Este cambio es necesario para cumplir el estándar de cumplimiento de seguridad generalmente aceptado de TLS 1.2 o superior. Compruebe qué versión de TLS está utilizando actualmente. Si su versión es menor que 1.2, implemente los cambios necesarios antes del 1 de marzo de 2020 para seguir usando Target como se espera.
+>* **Cambios** de compatibilidad con TLS: A partir del 1 de marzo de 2020, Target desactivará la compatibilidad con el cifrado TLS 1.1 y TLS 1.0. Seguridad de capa de transporte (TLS) es el protocolo de seguridad más implementado que se usa hoy en día para navegadores web y otras aplicaciones que requieren que los datos se intercambien de forma segura en una red. Este cambio es necesario para cumplir el estándar de cumplimiento de seguridad generalmente aceptado de TLS 1.2 o superior. Compruebe qué versión de TLS está utilizando actualmente. Si su versión es menor que 1.2, implemente los cambios necesarios antes del 1 de marzo de 2020 para seguir usando Target como se espera.
    >
    >   
    Para obtener información detallada sobre el posible impacto y los pasos que debe seguir para actualizar la implementación, consulte Cambios [](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)de codificación TLS (Transport Layer Security).
    >
    >
-* **Desaprobación** de mbox.js:El 30 de agosto de 2020, Adobe Target ya no admitirá la biblioteca mbox.js. Después del 30 de agosto de 2020, todas las llamadas realizadas desde mbox.js producirán errores e impactarán en las páginas que tengan actividades de Target en ejecución. Recomendamos que todos los clientes migren a la versión más reciente de la biblioteca at.js antes de esta fecha para evitar problemas potenciales con sus sitios. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+* **Desaprobación** de mbox.js: El 30 de agosto de 2020, Adobe Target ya no admitirá la biblioteca mbox.js. Después del 30 de agosto de 2020, todas las llamadas realizadas desde mbox.js producirán errores e impactarán en las páginas que tengan actividades de Target en ejecución. Recomendamos que todos los clientes migren a la versión más reciente de la biblioteca at.js antes de esta fecha para evitar problemas potenciales con sus sitios. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
    >
    >   
    Aunque actualmente se admite mbox.js, no hemos proporcionado actualizaciones de funciones a esta biblioteca desde julio de 2017. La versión más reciente de at.js ofrece muchas ventajas con respecto a mbox.js. Entre otras ventajas, at.js mejora los tiempos de carga de página para implementaciones web, mejora la seguridad y proporciona mejores opciones de implementación para aplicaciones de una sola página.
@@ -33,6 +33,32 @@ Estas notas de la versión proporcionan información sobre características, mej
    >
 * Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
+
+## Target Standard/Premium 20.2.1 (3 de marzo de 2020). 
+
+>[!IMPORTANT]
+>
+>Consulte la información anterior sobre la desaprobación de mbox.js.
+
+Esta versión contiene las siguientes mejoras, correcciones y cambios:
+
+* Se ha corregido un problema que impedía a los clientes seleccionar una colección al realizar una búsqueda en el catálogo. (TGT-36230)
+* Se corrigió un problema en el cual un criterio creado mediante API, pero al que una actividad creada en la interfaz de usuario de Target no hace referencia, podía eliminarse erróneamente de la interfaz de usuario. (TGT-35917)
+* Se han implementado mejoras de seguridad en la directiva de seguridad de contenido (CSP). (TGT-36190)
+* Se ha corregido un problema que hacía que se mostrara &quot;NaN%&quot; al desplazar la barra de porcentaje Ponderación de atributo al extremo izquierdo. (TGT-36211)
+* Se han resuelto problemas de localización para que el texto de la interfaz de usuario en varios idiomas se muestre correctamente.
+* Las siguientes métricas de Adobe Analytics ya no son compatibles con Analytics para Target (A4T) con efecto a partir de la versión de Target de marzo de 2020:
+   * averagevisitdepth
+   * bots
+* Las siguientes métricas ya no son compatibles y se convierten automáticamente en nuevas versiones de la misma métrica la primera vez que un usuario modifica una actividad que contiene la métrica:
+
+   | Métrica obsoleta | Nueva métrica |
+   |--- |--- |
+   | `averagetimespentonpage` | `averagetimespentonsite` (nota: medida en minutos en lugar de segundos) |
+   | `instances` | `occurrences` |
+   | `singleaccess` | `singlepagevisits` |
+   | `uniquevisitors` | `visitors` |
+   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
 
 ## Navegación de Adobe Experience Cloud (22 de febrero de 2019)
 
@@ -58,20 +84,6 @@ Estas notas de la versión proporcionan información sobre características, mej
    >[!NOTE]
    >
    >Como parte de la implementación de la nueva barra de navegación, también verá algunos cambios en la dirección URL. Todos los vínculos con marcador anteriores siguen funcionando pero le recomendamos que marque nuevos vínculos para una apertura más rápida.
-
-## Target Standard/Premium 20.2.1 (19 de febrero de 2020)
-
->[!IMPORTANT]
->
->Consulte la información anterior sobre la desaprobación de mbox.js.
-
-Esta versión contiene las siguientes mejoras y correcciones:
-
-* Se ha corregido un problema que impedía a los clientes seleccionar una colección al realizar una búsqueda en el catálogo. (TGT-36230)
-* Se corrigió un problema en el cual un criterio creado mediante API, pero al que una actividad creada en la interfaz de usuario de Target no hace referencia, podía eliminarse erróneamente de la interfaz de usuario. (TGT-35917)
-* Se han implementado mejoras de seguridad en la directiva de seguridad de contenido (CSP). (TGT-36190)
-* Se ha corregido un problema que hacía que se mostrara &quot;NaN%&quot; al desplazar la barra de porcentaje Ponderación de atributo al extremo izquierdo. (TGT-36211)
-* Se han resuelto problemas de localización para que el texto de la interfaz de usuario en varios idiomas se muestre correctamente.
 
 ## Notas de la versión adicionales y detalles de la versión
 
