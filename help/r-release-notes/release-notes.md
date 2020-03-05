@@ -5,7 +5,7 @@ title: 'Notas de la versión de Adobe Target (actual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 
 ---
 
@@ -50,7 +50,7 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 * Las siguientes métricas de Adobe Analytics ya no son compatibles con Analytics para Target (A4T) con efecto a partir de la versión de Target de marzo de 2020:
    * averagevisitdepth
    * bots
-* Las siguientes métricas ya no son compatibles y se convierten automáticamente en nuevas versiones de la misma métrica la primera vez que un usuario modifica una actividad que contiene la métrica:
+* Las siguientes métricas ya no son compatibles y se convierten automáticamente en nuevas versiones de la métrica la primera vez que un usuario modifica una actividad que contiene la métrica:
 
    | Métrica obsoleta | Nueva métrica |
    |--- |--- |
