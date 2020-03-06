@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
 
 ---
 
@@ -25,8 +25,6 @@ Adobe ha desarrollado una nueva configuración de “privacidad mediante diseño
 
 Cuando se habilita esta función, la dirección IP se convierte en lo suficientemente anónima para que ya no pueda identificarse como información personal. Por ello, Adobe Target puede utilizarse en cumplimiento con las leyes de privacidad de datos en países en los que no se permite la recopilación de información personal. Es muy probable que la obtención de información por nivel de ciudad vea significativamente afectada por la confusión de la dirección IP. La obtención de información por nivel de región y país solo debería verse ligeramente afectada.
 
-Póngase en contacto con Adobe ClientCare para habilitar la característica de disimulado de IP.
-
 Las configuraciones disponibles son las siguientes:
 
 * Sin confusión: Target no oculta ninguna parte de la dirección IP.
@@ -34,6 +32,10 @@ Las configuraciones disponibles son las siguientes:
 * IP completa: Target oculta toda la dirección IP.
 
 Target recibe la dirección IP completa y la confunde (si se establece en Último octeto o IP completa) como se especifica. A continuación, Target guarda la dirección IP confusión en la memoria durante la sesión.
+
+>[!NOTE]
+>
+>[Póngase en contacto con Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para determinar qué configuración está utilizando actualmente o para habilitar la función de confusión de IP.
 
 ## Segmentación geográfica {#section_BB69F96559BD44BDA4177537C4A5345A}
 
