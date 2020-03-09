@@ -1,11 +1,11 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits
+keywords: target documentation change log;documentation updates;new topics;edits;updates
 description: Esta página enumera los cambios importantes realizados en la documentación de Adobe Target, ordenados por versiones.
 title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 97f48e317b8d73d61c6262884ef689ffba645428
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -18,7 +18,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| Marzo de 6 | [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Se ha añadido más información en la sección &quot;Sustitución del último octeto de direcciones IP&quot;. |
+| Marzo de 9 | [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Se ha añadido más información en la sección &quot;Sustitución del último octeto de direcciones IP&quot;. |
+|  | [Trabajar con atributos de varios valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Se ha actualizado el ejemplo de código en *Pasar un parámetro de varios valores en JavaScript*. |
+|  | [Atributos de entidad personalizados](/help/c-recommendations/c-products/custom-entity-attributes.md) | Se ha añadido un ejemplo de código en *Uso de API* en *Implementación de atributos* de varios valores. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se cambió la fecha de lanzamiento al 9 de marzo. |
 | Marzo de 4 | [Atributos de perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Se ha actualizado todo el tema con amplias revisiones a la sección &quot;Prácticas recomendadas&quot;. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se ha cambiado la fecha de lanzamiento al 9 de marzo. |
