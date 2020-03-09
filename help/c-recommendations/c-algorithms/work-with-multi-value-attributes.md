@@ -1,9 +1,9 @@
 ---
-keywords: varios valores;atributos;recomendaciones;varios valores;varios valores
+keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: Información sobre cómo trabajar con un campo de varios valores en Recomendaciones de Adobe Target mediante operadores especiales de varios valores.
 title: Uso de atributos de varios valores en Recomendaciones de Adobe Target
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -18,16 +18,26 @@ A veces puede que desee trabajar con un campo de varios valores. Veamos los sigu
 
 Para administrar las recomendaciones en estos escenarios, puede pasar datos de varios valores a operadores especiales de varios valores [!DNL Target Recommendations] y usarlos.
 
-Para permitir [!DNL Recommendations] identificar datos de varios valores, debe enviarse como una matriz JSON, como en los ejemplos de código siguientes.
+Para permitir [!DNL Recommendations] la identificación de datos de varios valores, debe enviarse como una matriz JSON, como en los ejemplos de código siguientes.
 
-## Transmisión de un parámetro de mbox de varios valores en JavaScript
+## Transmisión de un parámetro de varios valores en JavaScript
 
 ```
- <!-- pass in the value of mbox parameter “favName” as JSON array -->
-<script type="text/javascript">
-   mboxCreate('myMbox','entity.id=<key>','favName=["a","b","c"]');
-</script>
+function targetPageParams() { 
+  return { 
+    'entity.id':                   '123', 
+    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
+    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
+    'entity.event.detailsOnly':     'true', 
+    'excludedIds":                  '[123, 3232, 2323, 4344]', 
+    'orderId":                      '123456', 
+    'orderTotal":                   '195.32', 
+    'productPurchaseId":            '[001,002,003]' 
+  }; 
+}
 ```
+
+Para obtener más información, consulte [Implementación de atributos](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) de varios valores en atributos *de entidad* personalizados.
 
 ## Transmisión de un atributo de entidad de varios valores en un archivo CSV
 
