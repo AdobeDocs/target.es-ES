@@ -1,11 +1,11 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates
 description: Notas de la versión que proporcionan información sobre funciones, mejoras y correcciones para las versiones más recientes o futuras de Adobe Target de DNL.
 title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 En estas notas de la versión se proporciona información acerca de las funciones, las mejoras, las correcciones y los problemas conocidos de las últimas o de las próximas versiones de [!DNL Adobe Target].
 
-**Última actualización: 18 de febrero de 2020**
+**Última actualización: 9 de marzo de 2020**
 
 >[!NOTE]
 >
@@ -39,7 +39,9 @@ En estas notas de la versión se proporciona información acerca de las funcione
    Al trasladar a todos los clientes a at.js, nuestros ingenieros y el personal de asistencia técnica podrán proporcionarle nuevas funciones y ofrecerle la asistencia que espera de Adobe.
 
 
-## Target Standard/Premium 20.2.1 (9 de marzo de 2020). 
+## Target Standard/Premium 20.2.1 (pendiente de determinación)
+
+Vuelva aquí para ver la fecha exacta en que la información está disponible.
 
 >[!IMPORTANT]
 >
