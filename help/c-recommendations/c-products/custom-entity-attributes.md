@@ -1,10 +1,10 @@
 ---
-keywords: atributos de entidad de varios valores;atributos de entidad personalizados;JSON válido;valor de atributo de entidad;matriz de JSON;varios valores;valores múltiples
+keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Use atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los artículos de su catálogo.
 title: Atributos de entidad personalizados
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -19,9 +19,9 @@ Puede incluir hasta 100 atributos de entidad personalizados para definir informa
 
 La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15 000 caracteres (para idiomas con codificación UTF-8 de uno y dos bytes, como inglés y otros alfabetos latinos) o 10 000 caracteres (para lenguajes con codificación UTF-8 de tres bytes, como chino, japonés y coreano).
 
-Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos de entidad personalizados de un solo valor (véase arriba).
+Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (véase arriba).
 
-## Valores de los atributos de entidad personalizados.  {#section_313331A9F8194A89B5EDD89363018651}
+## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
 
 Los atributos de entidad personalizados pueden contener uno o varios valores. Los valores de los atributos de entidad se muestran en la vista del producto.
 
@@ -61,7 +61,7 @@ Cuando un atributo personalizado se envía como matriz de JSON válida, se trata
 * Las matrices deben contener un solo tipo de valor. Las matrices con valores mezclados (`["AB",1,true]`) no se admiten.
 * Un atributo de varios valores que incluye una matriz de JSON anidada (`[10,12,[1,2,3]]`) se trata como un atributo de un valor.
 
-## Implementar atributos de varios valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Los atributos de entidad personalizados de varios valores se admiten al usar fuentes (CSV), `targetPageParams`, la API Entrega y la API Guardar entidades para cargar productos. Los valores nuevos reemplazan a los actuales, no se adjuntan. Las matrices vacías ([]) se tratan como si no tuvieran valores.
 
@@ -109,10 +109,16 @@ Tenga cuidado al editar directamente un archivo CSV de catálogo sin procesar.
 
 **Usar API**
 
+Puede pasar atributos de varios valores mediante la API de envío en un parámetro de mbox como un valor de cadena que contenga una matriz JSON de escape.
+
+```
+"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+```
+
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
 using the Delivery and Save entities APIs.
 
-## Usar operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Al aplicar operadores a atributos personalizados de varios valores en reglas de inclusión de algoritmos, reglas de catálogo y reglas de exclusión, el resultado es *true* si al menos un valor de la lista cumple el criterio de la operación (booleano *OR*).
 
@@ -144,7 +150,7 @@ En la tabla siguiente se detalla el comportamiento de los operadores en las regl
 >
 >*Doble* es un tipo de datos de Java. Con los operadores que requieren valores numéricos, convertir en doble elimina los valores no numéricos de los resultados, ya que no se tienen en cuenta.
 
-## Atributos de varios valores en diseños.  {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Los atributos de varios valores aparecen como una lista separada por comas cuando se hace referencia a ellos en un diseño.
 
