@@ -4,7 +4,7 @@ description: Cargue un archivo CSV para personalizar las recomendaciones.
 title: Cargar criterios personalizados
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -89,9 +89,9 @@ Algunos de los posibles mensajes de error que podría recibir si Target detectar
 | No se ha encontrado el directorio | Indique un directorio que exista en el servidor. |
 | No se ha encontrado el archivo | Indique el nombre de un archivo que exista en el servidor del directorio indicado. |
 
-## Vídeo de formación: Crear criterios en Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de formación: Crear criterios en Recommendations (12:33) Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
-Este vídeo contiene la información siguiente:
+Este vídeo contiene la siguiente información (los detalles sobre la carga de criterios personalizados comienzan a las 11:43):
 
 * Crear criterios
 * Crear secuencias de criterios
