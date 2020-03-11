@@ -3,7 +3,7 @@ description: Los criterios controlan el contenido de sus actividades de Adobe Re
 title: Crear criterios
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -438,7 +438,7 @@ De forma predeterminada, todos los atributos están definidos en *Línea de base
 >
 >El algoritmo de similitud de contenido puede usar muestras aleatorias para calcular similitudes entre elementos. Como resultado, las clasificaciones de similitud entre elementos pueden variar entre ejecuciones de algoritmos.
 
-## Vídeo de capacitación: Crear criterios en Recomendaciones (12:33) !![Tutorial badge](/help/assets/tutorial.png)
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
