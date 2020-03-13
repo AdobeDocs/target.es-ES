@@ -5,7 +5,7 @@ title: 'Notas de la versión de Adobe Target (actual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
 
 ---
 
@@ -33,6 +33,16 @@ Estas notas de la versión proporcionan información sobre características, mej
    >
 * Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
+
+## Summit Live: La conferencia de experiencias digitales {#summit}
+
+Adobe Summit se ha convertido en un evento virtual. Adobe está eliminando todos los obstáculos con una experiencia digital en directo a partir del 31 de marzo de 2020. Esta experiencia en directo incluirá nuestra dirección de Keynote de la etapa principal, minitecas con las últimas tendencias y avances, perspectivas sobre el éxito de los líderes del sector y sesiones de grupo de trabajo.
+
+* **Vea la nota clave en directo**: Conozca las tendencias y los nuevos productos que están transformando las industrias desde la comodidad de su lugar.
+* **Explorar más de 100 grupos de trabajo según demanda:** Obtenga acceso gratuito a más de cien sesiones de grupo de trabajo a petición de Adobe, clientes y socios.
+* **Descubrir un pico en el futuro**: Únase a un invitado especial Chelsea Handler para echar un vistazo a la última tecnología experimental de nuestros laboratorios — en Adobe Sneaks.
+
+Para registrarse y acceder de forma gratuita a todo el evento digital, vaya a [The Digital Experience Conference: Página de la Cumbre](https://www.adobe.com/summit.html) .
 
 ## Target Standard/Premium 20.2.1 (17 de marzo de 2020). 
 
