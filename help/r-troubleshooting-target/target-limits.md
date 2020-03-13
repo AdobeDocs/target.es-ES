@@ -5,7 +5,7 @@ title: Límites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -204,9 +204,7 @@ El sistema truncará lo que supere este límite.
 
 ## Cuenta/Audiencias reutilizables
 
-**Límite recomendado**: 75 audiencias.
-
-Se producen errores de tiempo de espera de JavaScript en la interfaz si tiene demasiados.
+**Límite recomendado**: 20,000 audiencias.
 
 ## Cuadro de entrada de perfil de script en la interfaz de usuario de Target
 
