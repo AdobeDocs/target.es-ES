@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Marzo de 12 | [Notas de la versión](/help/r-release-notes/release-notes.md#summit) | Se agregó información de registro para el acceso gratuito a la conferencia digital en línea de la Cumbre. |
 | Marzo de 11 | [Notas de la versión (actual)](/help/r-release-notes/release-notes.md) | Se indica que la versión de Target Standard/Premium 20.2.1 será el 17 de marzo de 2020. |
 | Marzo de 9 | [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Se ha añadido más información en la sección &quot;Sustitución del último octeto de direcciones IP&quot;. |
 |  | [Trabajar con atributos de varios valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Se ha actualizado el ejemplo de código en *Pasar un parámetro de varios valores en JavaScript*. |
