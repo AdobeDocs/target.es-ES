@@ -5,7 +5,7 @@ title: Límites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -40,6 +40,10 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 
 **Límite**: 50 audiencias por mbox, métrica o experiencia.
 
+## Audiencias, reutilizables por cuenta
+
+**Límite recomendado**: 20,000 audiencias.
+
 ## Parámetro categoryId
 
 **Límite**: 128 caracteres.
@@ -51,6 +55,12 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 ## ID de alias de atributo de cliente
 
 **Límite** 50 caracteres.
+
+## Atributos del cliente, carga
+
+* **Tamaño máximo de archivo para cada carga mediante el método** HTTP: 100 MB.
+* **tamaño máximo de archivo para cada carga mediante el método** FTP: 4 GB.
+* **Número de atributos permitidos para la suscripción**: 5 para [!DNL Target Standard] y 200 para [!DNL Target Premium].
 
 ## Atributos personalizados de entidad
 
@@ -201,10 +211,6 @@ El sistema truncará lo que supere este límite.
 ## Informes de audiencias o segmentos
 
 **Límite**: 50 audiencias/segmentos por actividad.
-
-## Cuenta/Audiencias reutilizables
-
-**Límite recomendado**: 20,000 audiencias.
 
 ## Cuadro de entrada de perfil de script en la interfaz de usuario de Target
 
