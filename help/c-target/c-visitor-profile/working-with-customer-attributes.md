@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 413247cd4fe97cdfc9df383c12ce7260380ae99a
+source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
 
 ---
 
@@ -148,7 +148,11 @@ Para obtener más información sobre el uso de atributos del cliente en [!DNL Ta
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-Podría encontrar los siguientes problemas al trabajar con atributos del cliente y [!DNL Target]:
+Podría encontrar los siguientes problemas al trabajar con atributos del cliente y [!DNL Target].
+
+>[!NOTE]
+>
+>Los problemas 1 y 2 causan aproximadamente el 60% de los problemas en esta área. El problema 3 causa aproximadamente el 30% de los problemas. El problema 4 causa aproximadamente el 5 % de los problemas. El 5 % restante corresponde a otros problemas diversos.
 
 ### Problema 1: Los atributos del cliente se eliminan porque el perfil es demasiado grande
 
@@ -178,11 +182,7 @@ Tenga en cuenta los siguientes problemas de implementación:
 
 If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
 
->[!NOTE]
->
->Los problemas 1 y 2 anteriores causan aproximadamente el 60% de los problemas en esta área. El problema 3 causa aproximadamente el 30% de los problemas. El problema 4 causa aproximadamente el 5 % de los problemas. El 5 % restante corresponde a otros problemas diversos.
-
-## Vídeo de formación: Carga de datos sin conexión mediante atributos del cliente {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Training video: Upload Offline Data using Customer Attributes {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![Tutorial badge](/help/assets/tutorial.png)
 
 This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 
