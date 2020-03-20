@@ -5,7 +5,7 @@ title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 En estas notas de la versión se proporciona información acerca de las funciones, las mejoras, las correcciones y los problemas conocidos de las últimas o de las próximas versiones de [!DNL Adobe Target].
 
-**Última actualización: 9 de marzo de 2020**
+**Última actualización: 20 de marzo de 2020**
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ En estas notas de la versión se proporciona información acerca de las funcione
    Al trasladar a todos los clientes a at.js, nuestros ingenieros y el personal de asistencia técnica podrán proporcionarle nuevas funciones y ofrecerle la asistencia que espera de Adobe.
 
 
-## Target Standard/Premium 20.2.1 (17 de marzo de 2020). 
+## Target Standard/Premium 20.2.1 (23 de marzo de 2020). 
 
 >[!IMPORTANT]
 >
@@ -52,18 +52,21 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 * Se han implementado mejoras de seguridad en la directiva de seguridad de contenido (CSP). (TGT-36190)
 * Se ha corregido un problema que hacía que se mostrara &quot;NaN%&quot; al desplazar la barra de porcentaje Ponderación de atributo al extremo izquierdo. (TGT-36211)
 * Se han resuelto problemas de localización para que el texto de la interfaz de usuario en varios idiomas se muestre correctamente.
-* Las siguientes métricas de Adobe Analytics ya no son compatibles con Analytics para Target (A4T) con efecto a partir de la versión de Target de marzo de 2020:
-   * averagevisitdepth
-   * bots
-* Las siguientes métricas ya no son compatibles y se convierten automáticamente en nuevas versiones de la métrica la primera vez que un usuario modifica una actividad que contiene la métrica:
+* Hemos estandarizado la lista de métricas disponibles de las actividades de Adobe Analytics para Target (A4T) al dejar de utilizar las métricas de Adobe Analytics no admitidas en la versión actual de las API de Adobe Analytics. Esto nos permitirá ampliar nuestra compatibilidad con A4T en futuras versiones de Adobe Target.
 
-   | Métrica obsoleta | Nueva métrica |
+   Se han realizado los siguientes cambios:
+
+   * &quot;Tiempo promedio empleado en la página&quot; se ha sustituido por &quot;Tiempo promedio invertido en el sitio&quot;. Todas las actividades que utilicen esta métrica como métrica para la métrica Objetivo principal tendrán &quot;Tiempo promedio invertido en el sitio&quot; (nota: medida en minutos en lugar de segundos) seleccionada como métrica de objetivo principal la próxima vez que se edite la actividad.
+   * &quot;Visitantes&quot; se reemplazó por &quot;Visitantes únicos.&quot; Cualquier actividad que utilice esta métrica como métrica de objetivo principal tendrá &quot;Visitantes únicos&quot; seleccionados como métrica de objetivo principal la próxima vez que se edite la actividad.
+
+* Las siguientes métricas han quedado obsoletas y ya no se pueden seleccionar como métrica de objetivo principal al crear una nueva actividad de A4T.
+
+   | Métricas obsoletas | Métricas de reemplazo sugeridas |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (nota: medida en minutos en lugar de segundos) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | Visitantes diarios, Visitantes por hora, Visitantes mensuales, Visitantes trimestrales, Visitantes semanales, Visitantes anuales | Visitantes únicos |
+   | Profundidad promedio de la visita | n/a. No sugerida como métrica de objetivo principal |
+   | Bots | n/a. No sugerida como métrica de objetivo principal |
+   | Tasa de bloqueo móvil, Longitud promedio de sesión anterior móvil, Clasificación promedio de la tienda de aplicaciones móviles, Tasa de bloqueo del rendimiento de la aplicación móvil, Puntuación promedio de la tienda de aplicaciones móviles | n/a. No sugerida como métrica de objetivo principal |
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
