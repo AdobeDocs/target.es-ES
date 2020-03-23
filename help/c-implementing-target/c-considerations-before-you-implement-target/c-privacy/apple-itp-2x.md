@@ -1,11 +1,11 @@
 ---
-keywords: apple;ITP;prevención inteligente del seguimiento
+keywords: apple;ITP;intelligent tracking prevention
 description: Información sobre la compatibilidad de Adobe Target con ITP 2.1 y ITP 2.2 de Apple a través de la biblioteca 4.3 de Experience Cloud ID (ECID).
 title: Compatibilidad con Adobe Target y Apple ITP
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
 
 ---
 
@@ -21,9 +21,9 @@ Estas versiones de ITP incluyen las restricciones siguientes:
 | [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | Las cookies del lado del cliente restringidas que se colocan en el explorador mediante la API `document.cookie` con una caducidad de siete días.<br>Publicado el 21 de febrero de 2019. |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | Se ha reducido drásticamente la caducidad de siete días a un día.<br>Publicado el miércoles, 24 de abril de 2019. |
 
-## ¿Cómo me afecta esto como cliente de Adobe Target?
+## ¿Cómo me afecta esto como cliente de Adobe Target? {#impact}
 
-[!DNL Target] le proporciona bibliotecas JavaScript para que las implemente en sus páginas, de modo que [!DNL Target] pueda facilitar una personalización en tiempo real para sus visitantes. Existen tres bibliotecas de Target JavaScript ([at.js 1.*x* y at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)y [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) que ubican las cookies [!DNL Target] del lado del cliente en los navegadores de los visitantes a través de la API `document.cookie`. Como resultado, las cookies [!DNL Target] se ven afectadas por ITP 2.1 y 2.2 de Apple y caducarán pasados siete días (con ITP 2.1) y después de un día (con ITP 2.2).
+[!DNL Target] le proporciona bibliotecas JavaScript para que las implemente en sus páginas, de modo que [!DNL Target] pueda facilitar una personalización en tiempo real para sus visitantes. Existen tres bibliotecas de Target JavaScript ([at.js 1.x and at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md), and [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) that place client-side [!DNL Target] cookies on your visitors&#39; browsers via the `document.cookie` API. Como resultado, las cookies [!DNL Target] se ven afectadas por ITP 2.1 y 2.2 de Apple y caducarán pasados siete días (con ITP 2.1) y después de un día (con ITP 2.2).
 
 Apple ITP 2.1 y 2.2 afecta a [!DNL Target] en los siguientes campos:
 
@@ -31,6 +31,8 @@ Apple ITP 2.1 y 2.2 afecta a [!DNL Target] en los siguientes campos:
 | --- | --- |
 | Aumento potencial del número de visitantes únicos | Debido a que el tiempo de caducidad se establece en siete días (con ITP 2.1) y un día (con ITP 2.2), es posible que vea un aumento de visitantes únicos provenientes de navegadores Safari. Si los visitantes vuelven a su dominio después de siete días (ITP 2.1) o un día (ITP 2.2), [!DNL Target] debe ubicar una nueva cookie [!DNL Target] en su dominio en lugar de la cookie caducada. La nueva cookie [!DNL Target] supone un nuevo visitante único aunque el usuario sea el mismo. |
 | Reducción de los periodos retroactivos de las actividades [!DNL Target] | Los perfiles de visitante para las actividades [!DNL Target] pueden tener un período retroactivo reducido para la toma de decisiones. Las cookies [!DNL Target] se aprovechan para identificar a un visitante y almacenar atributos de perfil de usuario para la personalización. Dado que las cookies [!DNL Target] pueden caducar en Safari después de siete días (ITP 2.1) o un día (ITP 2.2), los datos de perfil de usuario asociados a la cookie depurada [!DNL Target] no se pueden utilizar para la toma de decisiones. |
+| Secuencias de comandos de perfil basadas en 3rdPartyID | Debido a que la ventana de caducidad se ha establecido en siete días (con ITP 2.1) y un día (con ITP 2.2), los scripts [de](/help/c-target/c-visitor-profile/profile-parameters.md) perfil basados en la cookie 3rdPartyID dejarán de funcionar al caducar. |
+| Direcciones URL de control de calidad/vista previa en dispositivos iOS | Debido a que la ventana de caducidad se ha establecido en siete días (con ITP 2.1) y un día (con ITP 2.2), las direcciones URL [de](/help/c-activities/c-activity-qa/activity-qa.md) control de calidad/vista previa dejarán de funcionar al caducar porque las direcciones URL se basan en la cookie 3rdPartyID. |
 
 ## ¿Esto afectará a mi implementación actual de [!DNL Target]?
 
@@ -48,7 +50,7 @@ Para mitigar el impacto de ITP 2.1, ITP 2.2 y de las futuras versiones de ITP en
 
    Para ITP 2.1 e ITP 2.2, la biblioteca [ECID 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) debe utilizarse para la mitigación.
 
-1. Use el CNAME e inscríbase en el programa de Adobe Analytics' Managed Certificate.
+1. Use el CNAME e inscríbase en el programa de Adobe Analytics&#39; Managed Certificate.
 
    Después de instalar la biblioteca ECID 4.3.0+, puede aprovechar el CNAME y el programa de Managed Certificate de Adobe Analytics. Este programa permite implementar de forma gratuita un certificado de origen para cookies de origen sin coste. El uso de CNAME ayudará a los clientes de [!DNL Target] a mitigar el impacto de ITP 2.1 e ITP 2.2.
 
