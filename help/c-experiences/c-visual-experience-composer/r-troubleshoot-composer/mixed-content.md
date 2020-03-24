@@ -5,7 +5,7 @@ title: Activación de contenido mixto en el navegador
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -38,9 +38,9 @@ Consulte [Esta página tiene contenido no seguro](https://support.google.com/chr
 
 ### Vídeo de capacitación: Habilite el VEC en Chrome versión 79.0.3945.117 o posterior (enero de 2020) ![Indicador de información general](/help/assets/overview.png)
 
-Si utiliza el VEC con la versión más reciente de Chrome (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los visitantes del sitio no necesitarán completar estos pasos.
+Si utiliza el VEC con la versión más reciente de Chrome (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los Visitantes al sitio no necesitarán completar estos pasos.
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
+>[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
 
 El vídeo anterior describe los pasos necesarios:
 
