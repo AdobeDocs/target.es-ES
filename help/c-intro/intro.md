@@ -5,7 +5,7 @@ title: Introducción a Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -16,9 +16,9 @@ Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo l
 
 Los siguientes vídeos proporcionan nociones básicas sobre cómo Target, junto con otras soluciones de Adobe Experience Cloud, puede ayudar a su organización a conseguir sus objetivos:
 
->[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
+>[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
 
->[!VIDEO](https://www.youtube.com/watch?v=qsgXjHdtgYE)
+>[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 La solución [!DNL Adobe Target] tiene varios componentes:
 
@@ -38,7 +38,7 @@ La solución [!DNL Adobe Target] tiene varios componentes:
 
 [!DNL Target Premium] es una licencia avanzada de [!DNL Target] que añade funciones superiores a [!DNL Target Standard].
 
-Los temas de Target Premium de esta ayuda incluyen la insignia Premium en la parte superior de la página:
+Los temas de Destinatario Premium de esta ayuda incluyen la insignia Premium en la parte superior de la página:
 
 ![Distintivo Premium](/help/assets/premium.png)
 
@@ -99,9 +99,9 @@ Para obtener más información, consulte la [documentación de Recommendations C
 
 Cree su programa de optimización y personalización en Adobe Target con este kit de bienvenida. Incluye información, herramientas y recursos clave para ayudarle a preparar e iniciar su primera actividad de Adobe Target, con ventajas rápidas a corto plazo y estrategias de optimización a largo plazo.
 
-[El kit de bienvenida de Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[El kit de bienvenida de Adobe Destinatario](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Vídeo de capacitación:Distintivo ![Información general de tipos de actividades (9:03)](/help/assets/overview.png)
+## Vídeo de capacitación: Distintivo ![Información general de tipos de Actividades (9:03)](/help/assets/overview.png)
 
 En el siguiente vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium] y el modo en que el flujo de trabajo guiado de tres pasos de Target puede ayudarle a lograr sus objetivos.
 
