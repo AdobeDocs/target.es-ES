@@ -1,10 +1,10 @@
 ---
-keywords: Segmentación;biblioteca de segmentos;biblioteca
+keywords: Targeting;target library;library
 description: Usuarios de Target según las reglas de segmentación prediseñadas.
 title: Biblioteca de segmentos
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,13 +15,9 @@ Usuarios de Target según las reglas de segmentación prediseñadas.
 
 Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Si desea conocer más información y prácticas recomendadas, consulte  [Preguntas más frecuentes sobre audiencias y segmentación de experiencias](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
->[!NOTE]
->
->Target Classic utilizaba objetivos de expresión para ayudarle a crear objetivos sofisticados una vez y, después, los utilizaba repetidamente en diferentes actividades, experiencias, etc. Target Standard/Premium no incluye esta funcionalidad.
-
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
+1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Biblioteca de segmentos]**.
+1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Biblioteca de objetivos]**.
 
    ![Biblioteca de segmentos](assets/target_library.png)
 
@@ -43,4 +39,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
