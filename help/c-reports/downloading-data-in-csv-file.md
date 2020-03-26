@@ -1,12 +1,12 @@
 ---
-keywords: informes;informes de descargas;csv;métricas de éxito;detalles de pedidos
-description: Descargue datos en formato .csv para importarlos rápidamente a Excel, Access u otros programas de análisis de datos mediante Adobe Target.
-title: Descarga de datos en un archivo CSV con Adobe Target
-subtopic: Prueba multivariable
+keywords: reports;download reports;csv;success metrics;order details
+description: Descargue datos en formato .csv para poder importarlos rápidamente a Excel, Access u otros programas de análisis de datos mediante Adobe Destinatario.
+title: Descarga de datos en un archivo CSV con Adobe Destinatario
+subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -21,8 +21,8 @@ Para descargar datos en un archivo CSV:
 
    Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Fuente de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas] y [!UICONTROL Fuente de la actividad].
 
-1. Haga clic en la pestaña **[!UICONTROL Informes].**
-1. Haga clic en el icono **[!UICONTROL Descargar]y, a continuación, seleccione un tipo de informe que quiera descargar para analizarlo en Excel y otras herramientas.**
+1. Haga clic en la pestaña **[!UICONTROL Informes]**.
+1. Haga clic en el icono **[!UICONTROL Descargar]** y, a continuación, seleccione un tipo de informe que quiera descargar para analizarlo en Excel y otras herramientas.
 
    * [!UICONTROL Exportar informes a CSV]
    * [!UICONTROL Exportar detalles del pedido a un archivo .csv]
@@ -39,11 +39,11 @@ Los datos se guardan hasta que finaliza la actividad.
 
 >[!NOTE]
 >
->El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza que se utilizan en las pruebas A/B. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza que se utilizan en las pruebas A/B. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## Exportar detalles del pedido a un archivo .csv {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-El informe de detalles del pedido (conocido como el informe de auditoría en [!DNL Target Classic]) muestra información sobre sus pedidos, incluyendo datos como:
+El informe Detalles del pedido muestra información sobre los pedidos, entre ellos:
 
 * Hora y fecha del pedido
 * Cantidad de pedido (si insertó un mbox de realización de pedido)
@@ -82,7 +82,7 @@ El informe de detalles del pedido (conocido como el informe de auditoría en [!D
 
 La información siguiente se refiere a la opción Descargar:
 
-* Puede descargar ambos informes para las actividades Prueba A/B, Personalización automatizada, Segmentación de experiencias y multivariable. No puede descargar el informe de métricas de éxito para actividades de Recommendations.
+* Puede descargar ambos informes para pruebas A/B, personalización automatizada, segmentación de experiencias y actividades multivariadas. No puede descargar el informe de métricas de éxito para actividades de Recommendations.
 * La opción Descargar no está disponible para actividades A/B ni Segmentación de experiencias creadas antes de la versión 15.7.1 de Target (julio de 2015).
 * Las experiencias que no tienen datos asociados no se registran en el informe descargado.
 * Las audiencias aplicadas en la interfaz de usuario de informes de Target no se transmiten al informe de descarga.
