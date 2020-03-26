@@ -1,11 +1,11 @@
 ---
-keywords: host;hosts;grupo de hosts;entorno;solución de problemas;prácticas recomendadas
+keywords: host;hosts;host group;environment;troubleshooting;best practices
 description: Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -17,8 +17,6 @@ Organice sus sitios y entornos de preproducción para facilitar la administraci�
 ## Hosts {#concept_516BB01EBFBD4449AB03940D31AEB66E}
 
 Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
-
-Una funcionalidad de [!DNL Target Classic] era similar. Los grupos de hosts de [!DNL Target Classic] se denominaban “entornos” en [!DNL Target Standard/Premium].
 
 El objetivo primordial de la administración de hosts reside en garantizar que ningún contenido inactivo se muestre por error en los sitios web. La administración de hosts también permite separar los datos de los informes según el entorno.
 
@@ -32,7 +30,7 @@ Cuando se recibe una solicitud de mbox procedente de sitios web o dominios nuevo
 
 Target no limita un host que pueda enviar y recibir mboxes, de modo que cuando aparecen servidores o dominios nuevos, funcionan automáticamente (si no se ha configurado una lista de direcciones permitidas o de direcciones bloqueadas). Esto permite, asimismo, realizar pruebas de anuncios en distintos dominios que no conoce o no puede prever.
 
-Para administrar los hosts y entornos, haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Hosts]**.
+Para administrar hosts y entornos, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
@@ -52,13 +50,13 @@ Para reconocer un host es necesario cumplir las condiciones siguientes:
 
 Tras ver la página, el host se incluye en la lista [!UICONTROL Hosts], lo que permite administrarla en el entorno, así como obtener una vista previa de las actividades y pruebas e iniciarlas.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Esto engloba todos los servidores de desarrollo personal.
 
 Cuando un host se añada a la lista [!UICONTROL Hosts], compruebe si se reconoce.
 
-1. Haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Hosts]**.
+1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Hosts]**.
 1. Si no está en la lista, actualice el navegador. 
 De forma predeterminada, un host recién reconocido se incluye en el entorno Producción. Se trata del entorno más seguro, dado que desde estos hosts no se pueden visualizar actividades inactivas.
 1. (Condicional) Mueva el host al entorno de desarrollo o ensayo.
@@ -72,13 +70,13 @@ De forma predeterminada, un host recién reconocido se incluye en el entorno Pro
 Información útil para administrar hosts y entornos (grupos de hosts), incluido cómo configurar el host predeterminado para los informes, crear listas de direcciones permitidas, cambiar el nombre de un entorno, mover un host a otro entorno y eliminar un host o un entorno.
 
 
-Para acceder a la lista de [!UICONTROL Hosts], haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Hosts]**.
+Para acceder a la lista [!UICONTROL Hosts], haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
 ## Filtrar, ordenar o buscar la lista Hosts {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-Para filtrar las listas [!UICONTROL Hosts] por entorno, haga clic en la lista desplegable **[!UICONTROL Todos]y luego seleccione un entorno (Producción, Ensayo, Desarrollo o un entorno personalizado que haya creado).**
+Para filtrar las listas [!UICONTROL Hosts] por entorno, haga clic en la lista desplegable **[!UICONTROL Todos]** y luego seleccione un entorno (Producción, Ensayo, Desarrollo o un entorno personalizado que haya creado).
 
 Para ordenar la lista [!UICONTROL Hosts], haga clic en cualquier encabezado de columna (Nombre, Entorno o Última solicitud) para ordenar la lista en orden ascendente o descendente.
 
@@ -90,7 +88,7 @@ Para seleccionar varios hosts, marque las casillas de verificación que hay junt
 
 ## Crear un entorno   {#section_32097D0993724DF3A202D164D3F18674}
 
-1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Entornos].**
+1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Entornos]**.
 1. Haga clic en **[!UICONTROL Crear entorno]**.
 1. Elija un nombre descriptivo para el entorno.
 1. Indique el modo activo del entorno: [!UICONTROL Actividades activas] o [!UICONTROL Actividades activas e inactivas].
@@ -104,8 +102,8 @@ Si utiliza el de producción como predeterminado, todos los hosts desconocidos s
 
 Para establecer el entorno predeterminado en la creación de informes:
 
-1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Configuración].**
-1. Seleccione el host predeterminado en la lista desplegable **[!UICONTROL Configuración del entorno].**
+1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Configuración]**.
+1. Seleccione el host predeterminado en la lista desplegable **[!UICONTROL Configuración del entorno]**.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
@@ -118,9 +116,9 @@ Puede crear una lista de elementos permitidos que especifique los hosts (dominio
 
 Para crear una lista de direcciones permitidas:
 
-1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Configuración].**
-1. Marque la casilla de verificación **[!UICONTROL Habilitar los hosts autorizados para la entrega de contenido].**
-1. Añada los hosts que quiera en el cuadro **[!UICONTROL El host contiene].**
+1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Configuración]**.
+1. Marque la casilla de verificación **[!UICONTROL Habilitar los hosts autorizados para la entrega de contenido]**.
+1. Añada los hosts que quiera en el cuadro **[!UICONTROL El host contiene]**.
 
    Se pueden agregar varios hosts, cada uno en una línea.
 
@@ -138,15 +136,15 @@ También puede crear una lista de direcciones bloqueadas que incluya los hosts (
 
 ## Cambiar el nombre de un entorno {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Entornos].**
-1. Pase el ratón sobre el entorno que quiera y luego haga clic en el icono **[!UICONTROL Editar].**
+1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Entornos]**.
+1. Pase el ratón sobre el entorno que quiera y luego haga clic en el icono **[!UICONTROL Editar]**.
 1. Cambie el nombre del entorno.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Mover un host a otro entorno {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. En la lista [!UICONTROL Hosts], pase el ratón sobre el host que quiera mover.
-1. Haga clic en el icono **[!UICONTROL Mover].**
+1. Haga clic en el icono **[!UICONTROL Mover]**.
 1. Seleccione el entorno que quiera en la lista desplegable y luego haga clic en el icono de la marca de verificación.
 
 ## Eliminación de un host {#section_F56355BA4BC54B078A1A8179BC954632}
@@ -154,8 +152,8 @@ También puede crear una lista de direcciones bloqueadas que incluya los hosts (
 Puede eliminar un host cuando ya no vaya a necesitarlo.
 
 1. En la lista [!UICONTROL Hosts], pase el ratón sobre el host que quiera eliminar.
-1. Haga clic en el icono **[!UICONTROL Eliminar].**
-1. Haga clic en **[!UICONTROL Eliminar]para confirmar la acción.**
+1. Haga clic en el icono **[!UICONTROL Eliminar]**.
+1. Haga clic en **[!UICONTROL Eliminar]** para confirmar la acción.
 
 >[!NOTE]
 >
@@ -165,10 +163,10 @@ Puede eliminar un host cuando ya no vaya a necesitarlo.
 
 Puede eliminar un entorno que ya no vaya a necesitar.
 
-1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Entornos].**
+1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Entornos]**.
 1. Pase el ratón sobre el entorno que quiera eliminar.
-1. Haga clic en el icono **[!UICONTROL Eliminar].**
-1. Haga clic en **[!UICONTROL Eliminar]para confirmar la acción.**
+1. Haga clic en el icono **[!UICONTROL Eliminar]**.
+1. Haga clic en **[!UICONTROL Eliminar]** para confirmar la acción.
 
 >[!NOTE]
 >
@@ -212,8 +210,8 @@ Si no ve sus productos, asegúrese de que esté usando el grupo de hosts correct
 
 El filtro Entorno está disponible en los siguientes lugares de la interfaz de usuario de Target:
 
-* Búsqueda en el catálogo ([!UICONTROL Recommendations &gt; Buscar en el catálogo])
-* Cuadro de diálogo Crear colección ([!UICONTROL Recommendations &gt; Colecciones &gt; Crear nuevo])
-* Cuadro de diálogo Actualizar colección ([!UICONTROL Recommendations &gt; Colecciones &gt; Editar])
-* Cuadro de diálogo Crear exclusión ([!UICONTROL Recommendations &gt; Exclusiones &gt; Crear nuevo])
-* Cuadro de diálogo Actualizar exclusión ([!UICONTROL Recommendations &gt; Exclusiones &gt; Editar])
+* Búsqueda en el catálogo ([!UICONTROL Recommendations > Buscar en el catálogo])
+* Cuadro de diálogo Crear colección ([!UICONTROL Recommendations > Colecciones > Crear nuevo])
+* Cuadro de diálogo Actualizar colección ([!UICONTROL Recommendations > Colecciones > Editar])
+* Cuadro de diálogo Crear exclusión ([!UICONTROL Recommendations > Exclusiones > Crear nuevo])
+* Cuadro de diálogo Actualizar exclusión ([!UICONTROL Recommendations > Exclusiones > Editar])
