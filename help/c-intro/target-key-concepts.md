@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -46,8 +46,6 @@ Las ubicaciones son esenciales para las actividades y las experiencias. Puede de
 * Registrar el comportamiento de los visitantes.
 
 En [!DNL Target Standard], una ubicación puede ser cualquier elemento de una página siempre que la página contenga una sola línea de código que active [!DNL Target] en la sección `<head>` de cada página que desee rastrear. Esta línea de código llama a las bibliotecas de JavaScript necesarias para recopilar información y ofrecer experiencias segmentadas para los visitantes de su sitio.
-
-Consulte [Ventajas de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para obtener más información sobre las diferencias entre la implementación de la ubicación en [!DNL Target Standard] y la implementación de mbox en [!DNL Target Classic].
 
 Las ubicaciones se combinan con audiencias para proporcionar un número casi inagotable de opciones de segmentación de información a sus clientes. Por ejemplo, si un visitante nunca ha estado antes en el sitio, puede mostrar un cupón de descuento para nuevos clientes. Del mismo modo, puede cambiarse la página para que muestre ofertas que estén más optimizadas para clientes que vuelven a visitar el sitio.
 
@@ -109,7 +107,7 @@ Si desea obtener información sobre el modo en que el perfil del visitante reali
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Distintivo ![Información general de tipos de actividades (9:03)](/help/assets/overview.png)
+### Distintivo ![Información general de tipos de Actividades (9:03)](/help/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 
@@ -119,7 +117,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Indicador de ![información general de Uso de audiencias en Adobe Target (6:21)](/help/assets/overview.png)
+### Uso de la insignia Audiencias en Adobe Destinatario (6:21) ![Información general](/help/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
