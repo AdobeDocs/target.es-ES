@@ -4,7 +4,7 @@ title: Glosario de Adobe Target
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -161,7 +161,7 @@ Un participante es un visitante que cumple los criterios para participar en una 
 
 **entorno**
 
-Los hosts se agrupan en entornos para facilitar la administración. Los grupos de hosts preestablecidos son los de producción, ensayo y desarrollo. No obstante, puede agregar nuevos grupos de hosts y cambiar el nombre de los existentes. Los entornos se llamaban “grupos de hosts” en [!DNL Target Classic].
+Los hosts se agrupan en entornos para facilitar la administración. Los grupos de hosts preestablecidos son los de producción, ensayo y desarrollo. No obstante, puede agregar nuevos grupos de hosts y cambiar el nombre de los existentes.
 
 **experiencia**
 
