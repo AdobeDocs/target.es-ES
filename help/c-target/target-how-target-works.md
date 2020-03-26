@@ -1,19 +1,17 @@
 ---
-keywords: segmentación;cookie de origen
+keywords: targeting;cookie;first-party cookie;1st-party cookie
 description: Adobe Target se integra con sus páginas web mediante la biblioteca de JavaScript at.js o mbox.js.
 title: Funcionamiento de la segmentación
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # Cómo funciona la segmentación{#how-targeting-works}
 
-Adobe Target se integra con sus páginas web mediante la biblioteca de JavaScript at.js o mbox.js.
-
-[!DNL Target Classic] utilizaba mboxes alrededor de cada área en la página donde quería mostrar contenido segmentado o recopilar datos. Estos mboxes no son necesarios en [!DNL Target Standard]. Lo único que necesitará para ejecutar las actividades de optimización es una referencia a una biblioteca de JavaScript en cada página.
+Adobe Target se integra con sus páginas web mediante la biblioteca de JavaScript at.js o mbox.js. Una biblioteca de JavaScript a la que se hace referencia en cada página es todo lo que necesita para ejecutar sus actividades de optimización.
 
 Cada vez que un visitante solicita una página con habilitado, [!DNL Target]Target usa el siguiente proceso para mostrar ofertas:
 
