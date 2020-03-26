@@ -1,12 +1,12 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Los tokens de respuesta le permiten generar automáticamente información específica de Target (detalles de la actividad, información de perfil de usuario, información geográfica, etc.) para utilizarla en la depuración o integración con sistemas de terceros (como Clicktale)
+description: Los tokens de respuesta permiten generar automáticamente información específica de Destinatario (detalles de actividad, información de perfil del usuario, información geográfica, etc.) para utilizarla en la depuración o integración con sistemas de terceros (como Clicktale)
 title: Tokens de respuesta en Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 Los tokens de respuesta le permiten generar automáticamente información específica de Target (detalles de campañas, información de perfiles de usuario, información geográfica, etc.) para su uso en la depuración o integración con sistemas de terceros (como Clicktale)
 
-Adobe Target Classic ofrecía una característica llamada complementos de servidor que le permitía enviar código JavaScript que se ejecutaba con una respuesta de mbox. Los tokens de respuesta son similares a los complementos: le permiten mostrar información específica de Target para su uso en alguna otra parte. Los tokens de respuesta le permiten elegir qué variables aprovecha y habilitarlas para su envío como parte de una respuesta de mbox. Para ello, solo tiene que utilizar el interruptor para habilitar una variable y se la enviará con las respuestas de mbox, que pueden validarse en llamadas de red. Los tokens de respuesta también funcionan en el modo de vista previa.
+Los tokens de respuesta le permiten elegir qué variables aprovecha y habilitarlas para su envío como parte de una respuesta de mbox. Para ello, solo tiene que utilizar el interruptor para habilitar una variable y se la enviará con las respuestas de mbox, que pueden validarse en llamadas de red. Los tokens de respuesta también funcionan en el modo de vista previa.
 
 Una diferencia clave entre complementos y tokens de respuesta es que, mientras que los primeros envían a la página código JavaScript que se ejecuta al recibirlo, los segundos envían un objeto que puede leerse y sobre el que puede actuarse utilizando detectores de eventos. Para obtener más información, consulte Más adelante en este artículo se encuentran los [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) y los ejemplos. El enfoque de tokens de respuesta es más seguro y debería facilitar el desarrollo y mantenimiento de integraciones de terceros.
 
