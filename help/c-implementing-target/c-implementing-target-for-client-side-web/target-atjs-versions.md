@@ -5,7 +5,7 @@ title: Detalles de las versiones de at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -36,6 +36,7 @@ Esta versión de at.js es de mantenimiento e incluye las siguientes mejoras y co
 
 Esta versión de at.js incluye las siguientes mejoras y correcciones:
 
+* Se corrigió un problema en el cual el rastreo de clics no notificaba conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página.
 * Se ha mejorado el rendimiento al usar tanto el servicio Experience Cloud ID (ECID) v4.4 como at.js 2.2 en las páginas web.
 * Anteriormente, el ECID realizaba dos llamadas de bloqueo antes de que at.js pudiera recuperar experiencias. Esto se ha reducido a una sola llamada, lo que mejora significativamente el rendimiento.
 
