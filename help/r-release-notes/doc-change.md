@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: fe537a2c2007af59b2eb8abb4aaf3ec5626f2c65
 
 ---
 
@@ -19,7 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | Marzo de 30 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Se han Añadido problemas conocidos que afectan a las versiones de at.js anteriores a at.js 2.2.0. Este problema provocaba que el rastreo de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página. |
-|  | Detalles de las versiones de at.js | Se Añadió la siguiente información en los detalles de la versión 2.2.0 de at.js:<ul><li>Se ha corregido un problema que provocaba que el seguimiento de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página.</li></ul> |
+|  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se Añadió la siguiente información en los detalles de la versión 2.2.0 de at.js:<ul><li>Se ha corregido un problema que provocaba que el seguimiento de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página.</li></ul> |
 | Marzo de 25 | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Información Añadida sobre las siguientes nuevas versiones de at.js:<ul><li>Versión 2.3.0 de at.js</li><li>Versión 1.8.1 de at.js</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Se han Añadido las siguientes filas nuevas en la sección &quot;Configuración&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Se ha añadido esta nueva sección:<ul><li>Directiva de seguridad del contenido</li></ul> |
 | Marzo de 24 | [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Información Añadida sobre los impactos para lo siguiente:<ul><li>Secuencias de comandos de Perfil basadas en 3rdPartyID</li><li>Direcciones URL de control de calidad/Previsualización en dispositivos iOS</li></ul> |
