@@ -5,7 +5,7 @@ title: Actualice desde Adobe Target at.js versión 1.*x* a at.js versión 2.*x*
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -286,7 +286,11 @@ En Target, la cookie de terceros se almacena en `<CLIENTCODE>.tt.omtrdc.net`. La
 
 Sin embargo, en at.js 2.*x*, HTTP GET ya no se utiliza, y en su lugar utilizamos HTTP POST. HTTP POST se utiliza ahora a través de at.js 2.*x* para enviar cargas JSON a servidores de Target Edge. Esto significa que la solicitud de redirección para comprobar si un explorador admite cookies de terceros se interrumpe. Esto se debe a que las solicitudes HTTP GET son transacciones idempotentes, mientras que HTTP POST no es idempotente y no se debe repetir arbitrariamente. Por lo tanto, en el seguimiento entre dominios en at.js 2.*x* ya no es compatible de serie. Solo at.js 1.*x* es compatible de serie para el seguimiento entre dominios.
 
-Si desea utilizar el seguimiento entre dominios, debe instalar la biblioteca [ECID v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) junto con at.js 2.*x*. La biblioteca ECID sirve para administrar los ID persistentes que se utilizan para identificar a un visitante, incluso entre dominios. Después de instalar la biblioteca ECID 4.3.0+ y at.js 2.,*x*, podrá crear actividades que abarquen dominios únicos y rastrear usuarios.
+Si desea utilizar el seguimiento entre dominios, debe instalar la biblioteca [ECID v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) junto con at.js 2.*x*. La biblioteca ECID sirve para administrar los ID persistentes que se utilizan para identificar a un visitante, incluso entre dominios.
+
+>[!NOTE]
+>
+>Después de instalar la biblioteca ECID 4.3.0+ y at.js 2.,*x*, podrá crear actividades que abarquen dominios únicos y rastrear usuarios. Es importante tener en cuenta que esta funcionalidad solo funciona después de que caduque la sesión.
 
 ### Se admite Crear automáticamente un mbox global
 
@@ -313,7 +317,7 @@ Cuando se realiza una llamada de recuperación previa al back-end de [!DNL Targe
 
 No, no es necesario agregar el código de ocultamiento previo antes de llamar a `triggerView()`. at.js 2.*x*  administra la lógica de ocultamiento previo y el parpadeo antes de que se muestre y se aplique la vista.
 
-### Qué at.js 1.*at.js 2 no admite parámetros x* para crear audiencias.*x*? {#audience-parameters}
+### Qué at.js 1.*at.js 2 no admite los parámetros x* para crear audiencias.*x*? {#audience-parameters}
 
 Los siguientes parámetros de at.js 1.x *NO se admiten* actualmente para la creación de audiencias al usar at.js 2.*x*:
 
@@ -406,7 +410,7 @@ Otra diferencia importante es que:
 * at.js 2.*x*  - El código de cliente se envía como parámetro de cadena de consulta, como:
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-Las siguientes secciones enumeran cada at.js 1.*x* , su descripción y el 2 correspondiente.*carga útil x* JSON (si procede):
+Las siguientes secciones lista cada at.js 1.*x* , su descripción y el 2 correspondiente.*carga útil x* JSON (si procede):
 
 ### at_property
 
