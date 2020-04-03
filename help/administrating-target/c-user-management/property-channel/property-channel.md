@@ -5,7 +5,7 @@ title: Permisos de usuario de Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
 
 ---
 
@@ -272,7 +272,7 @@ Cuando un visitante abre Página1 en un explorador, se le redirige a Página2. D
 
 Si la página de redirección y la dirección URL de la actividad pertenecen a la misma propiedad, los rastreos de clics funcionan según lo esperado. Para obtener más información, consulte [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Vídeo de capacitación: Marca de {#section_2FA080303A064242B63FF16CFA6DB31D} ![descripción general de vídeo de capacitación sobre permisos de empresa](/help/assets/overview.png)
+## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 Objetivos de aprendizaje:
 
