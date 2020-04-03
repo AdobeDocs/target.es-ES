@@ -1,11 +1,11 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Diagrama del sistema de Adobe Target que muestra el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente usando at.js.
-title: Funcionamiento de la biblioteca JavaScript de Adobe Target at.js
+title: Funcionamiento de la biblioteca JavaScript de Adobe Destinatario at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -46,7 +46,7 @@ Los siguientes diagramas le ayudan a comprender el flujo de trabajo de at.js 2.x
 | 3 | Se solicita una carga de página que incluye todos los parámetros configurados (MCID, SDID y el ID del cliente). |
 | 4 | Se ejecutan los scripts de perfiles y se incluyen en el Almacenamiento de perfiles. El Almacenamiento solicita audiencias de la Biblioteca de audiencias que cumplan los requisitos (por ejemplo, audiencias compartidas de Adobe Analytics, Gestión de público, etc.).<br>Se envían los atributos del cliente al Almacenamiento de perfiles en un procesamiento de lotes. |
 | 5 | Según los parámetros de la solicitud de la URL y los datos de perfil, [!DNL Target] decide qué actividades y experiencias vuelven al visitante para la página actual y las vistas futuras. |
-| 6 | El contenido dirigido se devuelve a la página, incluyendo, de manera opcional, los valores de perfil para una personalización adicional.<br>El contenido dirigido se muestra en la página actual lo más rápido posible y sin parpadeo del contenido predeterminado.<br>El contenido de destino para las vistas que se muestran como resultado de las acciones del usuario en un SPA se almacena en caché en el navegador, de modo que se puede aplicar instantáneamente sin necesidad de realizar una llamada al servidor adicional cuando se activan las vistas a través de `triggerView()`. |
+| 6 | El contenido dirigido se devuelve a la página, incluyendo, de manera opcional, los valores de perfil para una personalización adicional.<br>El contenido dirigido se muestra en la página actual lo más rápido posible y sin parpadeo del contenido predeterminado.<br>El contenido de destino para vistas que se muestran como resultado de acciones del usuario en un SPA se almacena en caché en el navegador, de modo que se puede aplicar instantáneamente sin necesidad de realizar una llamada al servidor adicional cuando se activan las vistas a través de `triggerView()`. |
 | 7 | Se envían los datos de Analytics a los servidores de recopilación de datos. |
 | 8 | Se comparan los datos de Target con los datos de Analytics mediante el SDID y se procesan en el almacén de informes de Analytics.<br>Por lo tanto, los datos de Analytics se pueden visualizar tanto en Analytics como en Target mediante los informes de Analytics for Target (A4T). |
 
@@ -91,7 +91,7 @@ Notas importantes:
 * at.js no proporciona garantías en el orden de ejecución del script remoto, ya que estos se cargan de forma asincrónica.
 * Los scripts en línea no deberían tener dependencias en scripts remotos, ya que se cargan y ejecutan más adelante.
 
-## Vídeo de capacitación: Diagrama arquitectónico de at.js 2.x ![Insignia](/help/assets/overview.png) de ![información general](/help/assets/overview.png)
+## Vídeo de capacitación: Insignia de ![información general del diagrama arquitectónico de at.js 2.x](/help/assets/overview.png)
 
 at.js 2.x mejora la compatibilidad de Adobe Target con las SPA e integra otras soluciones de Experience Cloud. Este vídeo explica cómo se vincula todo.
 
