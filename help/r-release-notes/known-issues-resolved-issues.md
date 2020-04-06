@@ -1,15 +1,15 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: Información sobre problemas conocidos de esta versión de Adobe Destinatario. También incluye información sobre problemas que ya se han resuelto.
-title: Problemas conocidos y problemas resueltos  en Adobe Target
+description: Información sobre problemas conocidos con esta versión de Adobe Target. También incluye información sobre problemas que ya se han resuelto.
+title: Problemas conocidos y problemas resueltos   en Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
 
-# Problemas conocidos y problemas resueltos{#known-issues-and-resolved-issues}
+# Problemas conocidos y problemas resueltos {#known-issues-and-resolved-issues}
 
 Información sobre problemas conocidos con esta versión de Target. También incluye información sobre problemas que ya se han resuelto.
 
@@ -21,9 +21,9 @@ Información sobre problemas conocidos con esta versión de Target. También inc
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
 
-### envío de página {#page-delivery}
+### Entrega de página {#page-delivery}
 
-Si agrega una regla de plantilla, como URL que contiene (/cierre de compra, /carro) en el envío [de](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)página, se añadirán espacios adicionales a las reglas. Se trata de un problema estético que no afecta a la creación de definiciones de audiencia ni al envío de oferta. (TGT-35916)
+Si agrega una regla de plantilla, como contenidos de una URL (/checkout, /cart) en la entrega [de](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, se añadirán espacios adicionales a las reglas. Se trata de un problema estético que no afecta la creación de definiciones de audiencia ni la entrega de ofertas. (TGT-35916)
 
 ### Vínculos de vista previa de control de calidad de la actividad {#preview}
 
@@ -62,29 +62,29 @@ Es posible que las ofertas de código creadas desde la interfaz de usuario de Ta
 
 Los siguientes son problemas conocidos de las actividades de Recommendations:
 
-* Las entidades caducan correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después de la caducidad. (IRI-857)
+* Las entidades caducan correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después del vencimiento. (IRI-857)
 * Las superposiciones &quot;Información de uso&quot; para criterios y diseños no reflejan su uso en actividades A/B y de segmentación de experiencias (TGT-34331)
-* Las Ofertas de Recomendaciones en las actividades A/B y Segmentación de experiencias no muestran una previsualización visual de la bandeja de Recomendaciones (TGT-33426)
-* Las colecciones, exclusiones, criterios y diseños creados mediante API no están visibles en la interfaz de usuario de Destinatario y solo se pueden editar mediante API. (TGT-35777)
-* Las actividades de Recomendaciones creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
-* El estado de la fuente Criterios personalizados que se muestra en la vista lista de criterios (tarjeta) se actualiza cada diez minutos y puede que pasen más de diez minutos de la fecha en circunstancias excepcionales. El estado mostrado en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre está actualizado. (TGT-35896, TGT-36173)
+* Las ofertas de Recommendations en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja de Recommendations (TGT-33426)
+* Las colecciones, las exclusiones, los criterios y los diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API. (TGT-35777)
+* Las actividades de Recommendations creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
+* El estado de la fuente de criterios personalizados que se muestra en la lista de criterios (tarjeta) se actualiza cada diez minutos, y es posible que pasen más de diez minutos de la fecha en circunstancias excepcionales. El estado que se muestra en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre está actualizado. (TGT-35896, TGT-36173)
 
 ### Actividades de prueba multivariable (MVT)
 
 En una actividad MVT, el ganador que se muestra en la tabla y en el gráfico no concuerdan al comprobar métricas. Esto ocurre si un usuario cambia de la vista Resumen a la Visualización de gráfico, después regresa a Resumen, modifica una métrica y vuelve a cambiar a Visualización de gráfico. Cuando se produce este problema, la vista Resumen siempre muestra el ganador correcto. Si el usuario no cambia entre Visualización de gráfico y la vista Resumen, la Visualización de gráfico muestra al ganador correcto.
 
-### at.js {#atjs}
+### at.js  {#atjs}
 
 A continuación, detallamos los problemas conocidos de at.js:
 
-* Si se utilizan las versiones de at.js anteriores a la 2.2.0, el rastreo de clics no informa de las conversiones en Analytics para Destinatario (A4T) si el código de Adobe Analytics no está presente en los elementos de la página (como los botones). Se ha introducido una corrección para este problema en at.js 2.2.0. [Actualice a la última versión](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) de at.js si experimenta este problema.
-* Si crea una experiencia sin modificaciones con at.js 2.1.1 o anterior (por ejemplo, una experiencia predeterminada), es posible que la experiencia no se cuente en informes, Analytics para Destinatario (A4T), Adobe Analytics o Google Analytics. Además, es posible que el [complemento](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) ttMeta no funcione correctamente.
+* Si se utilizan las versiones de at.js anteriores a la 2.2.0, el rastreo de clics no informa de las conversiones en Analytics para Target (A4T) si el código de Adobe Analytics no está presente en los elementos de la página (como los botones). Se ha introducido una corrección para este problema en at.js 2.2.0. [Actualice a la última versión de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) si experimenta este problema.
+* Si crea una experiencia sin modificaciones con at.js 2.1.1 o versiones anteriores (por ejemplo, una experiencia predeterminada), es posible que la experiencia no se contabilice en informes, Analytics for Target (A4T), Adobe Analytics ni Google Analytics. Además, es posible que el [complemento](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) ttMeta no funcione correctamente.
 
    Como solución alternativa, utilice un espacio en blanco en el contenido de la experiencia. (TNT-33366)
 
    >[!NOTE]
    >
-   >Se ha incluido una corrección para este problema en at.js 2.2.0. Debe actualizar a la versión [más reciente o a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) o utilizar la solución mencionada anteriormente solo para las versiones de at.js anteriores a la 2.2.0.
+   >Se ha incluido una corrección para este problema en at.js 2.2.0. Debe actualizar a la versión [más reciente o a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) o usar la solución mencionada anteriormente solo para las versiones de at.js anteriores a la 2.2.0.
 
 * Cuando se carga una página en el Compositor de experiencias visuales (VEC), Target debe determinar si la configuración de mbox global está habilitada o deshabilitada, y si entityID o categoryID están presentes en la ubicación donde el usuario intenta aplicar las recomendaciones del VEC. La lista de criterios se filtra en función de esta información. La lista predeterminada tiene filtrados algunos algoritmos, pero la [casilla Compatible](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) le permite ver la lista de algoritmos completa.
 
