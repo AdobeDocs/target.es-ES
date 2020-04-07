@@ -1,11 +1,11 @@
 ---
-keywords: faq;preguntas frecuentes;analytics para target;a4T;alza;específicos;creador de informes;confianza
+keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
 description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el alza y la confianza al usar Analytics como fuente de informes para Target (A4T).
 title: 'Alza y confianza: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: b5191230c76135d5299754e72c9651d018086e60
 
 ---
 
@@ -28,7 +28,13 @@ El nivel de confianza es la probabilidad de que la tasa de conversión medida se
 
 ## ¿Por qué no veo el alza y la confianza en las métricas calculadas?   {#section_D3E44E24782A409DBD88AE4D1595CB58}
 
-Actualmente, el alza y la confianza no se pueden generar en las métricas calculadas. Sin embargo, en la mayoría de los casos, no debería ser un problema porque la métrica de normalización se encarga de normalizar el alza. Por ejemplo, si selecciona el alza para los pedidos y la métrica de normalización es las visitas, el alza se calcula según la relación entre estos dos, que es la tasa de conversión.
+El alza y la confianza no son compatibles actualmente con las métricas calculadas. Sin embargo, en la mayoría de los casos esto no debería ser un problema porque la tasa de conversión calculada en el informe de A4T ya es una métrica calculada en la que el denominador es la métrica de normalización (instancias, visitas, visitantes). Por ejemplo, si selecciona la métrica de pedidos y la métrica de normalización es visitantes, la tasa de conversión (pedidos/visitantes) se calcula automáticamente a través del sistema de informes de A4T. La métrica de alza resultante refleja la diferencia en esa tasa de conversión entre las experiencias de texto cuando se compara con la predeterminada.
+
+La mayoría de las métricas calculadas para la optimización se agrupan en una de dos categorías: Métricas acumuladas y otros cálculos de conversión como Valor de pedido promedio (AOV).
+
+Las métricas Acumuladas se utilizan cuando una organización emplea eventos únicos para capturar diferentes &quot;sabores&quot; de la conversión de almacenamiento. Por ejemplo: si su objetivo es promocionar los envíos de formularios de posibles clientes y tiene 10 formularios de posibles clientes diferentes, una compañía puede crear eventos únicos para contar cada tipo de conversión de formulario. Para ver la cantidad total de todos los formularios de posibles clientes enviados, deben crear una métrica calculada simple para agregarlos todos juntos. Una forma mejor y más moderna de rastrear esto es implementar un solo evento de envío de posibles clientes en Analytics y, a continuación, usar una eVar para recopilar el tipo de formulario de posibles clientes. El uso de este método requiere menos variables y elimina la necesidad de acumuladas métricas individuales, y aún así puede ver la conversión holística del formulario de posibles clientes y desglosarla por tipo de formulario de posibles clientes mediante la eVar. Esto también elimina la necesidad de métricas acumuladas al evaluar el rendimiento de una Actividad de Destinatario.
+
+Otra métrica calculada común, Valor de pedido promedio, no se admite actualmente con alza y confianza porque la métrica de normalización no es una métrica estándar (instancias, visitas, visitantes). En su lugar, se recomienda vigilar las dos métricas que influyen en AOV, Ingresos por Visitantes y Tasa de conversión.
 
 ## ¿Cómo gestiona A4T los cálculos de confianza?   {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
