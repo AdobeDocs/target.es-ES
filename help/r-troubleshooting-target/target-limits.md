@@ -5,7 +5,7 @@ title: Límites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ---
 
@@ -26,7 +26,7 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 
 **Límite recomendado**: 10 000 actividades activas.
 
-**Límite** recomendado: 10.000 actividades activas guardadas (y no finalizadas).
+**Límite** recomendado: 10.000 actividades guardadas activas (y no finalizadas).
 
 ## Nombres de actividades
 
@@ -99,12 +99,6 @@ Para las solicitudes GET, aunque el límite del back-end es 5 KB, debido al hech
 
 Los valores más largos que ese número se truncan.
 
-## Perfiles In-mbox en una petición de mbox
-
-**Límite**: 50 perfiles.
-
-Se ignorarán todos los perfiles por encima de 50.
-
 ## Nombres de perfiles In-mbox
 
 **Límite**: 128 caracteres.
@@ -119,12 +113,12 @@ Se ignorarán todos los perfiles por encima de 50.
 
 Para llamadas de mbox estándar:
 * Parámetros de mbox: 500 parámetros por mbox.
-* Parámetros de perfil: 500 parámetros de perfil por mbox.
+* Parámetros de Perfil: 500 parámetros de perfil por mbox.
 * Otros parámetros (URL, URL de referencia, etc.): 50 por mbox para cada tipo de parámetro.
 
 Estos límites se aplican a menos que la solicitud se acorte debido a limitaciones del navegador.
 
-Si utiliza la API de envío por lotes, el límite es de 50 mboxes por solicitud por lotes.
+Si utiliza la API de Envío por lotes, el límite es de 50 mboxes por solicitud de lote.
 
 Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#server-side-batch-delivery) en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud contiene más de estos límites, la API devolverá el siguiente mensaje de error:
 
@@ -137,20 +131,20 @@ Lote mbox v2:
 * Longitud máxima del nombre del parámetro de mbox 128
 * El valor del parámetro mbox no puede ser nulo
 * Valor del parámetro de mbox 5000
-* parámetros de perfil 50
-* longitud máxima del nombre del parámetro de perfil 128
-* el valor del parámetro de perfil no puede ser nulo
-* longitud máxima del parámetro de perfil 256
+* Parámetros de perfil 50
+* Longitud máxima del nombre del parámetro de perfil 128
+* El valor del parámetro de perfil no puede ser nulo
+* Longitud máxima del valor del parámetro de perfil 256
 
-Extremo de la API de envío
+Extremo de API de Envío
 * Parámetros de mbox 50
 * Longitud máxima del nombre del parámetro de mbox 128
 * El valor del parámetro mbox no puede ser nulo
 * Valor del parámetro de mbox 5000
-* parámetros de perfil 50
-* longitud máxima del nombre del parámetro de perfil 128
-* el valor del parámetro de perfil no puede ser nulo
-* longitud máxima del parámetro de perfil 256
+* Parámetros de perfil 50
+* Longitud máxima del nombre del parámetro de perfil 128
+* El valor del parámetro de perfil no puede ser nulo
+* Longitud máxima del valor del parámetro de perfil 256
 
 ## Direcciones URL de peticiones de mbox
 
@@ -202,7 +196,7 @@ El sistema truncará lo que supere este límite.
 
 **Límite recomendado del total de secuencias de comandos de perfil por cuenta**: 2.000
 
-**Recomendaciones para limitar la complejidad** del script de perfil: Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas](/help/c-target/c-visitor-profile/profile-parameters.md#best) recomendadas en atributos *de perfil*.
+**Recomendaciones para limitar la complejidad** de las secuencias de comandos de perfil: Las secuencias de comandos de Perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas](/help/c-target/c-visitor-profile/profile-parameters.md#best) recomendadas en atributos *de* Perfil.
 
 ## Propiedades
 
