@@ -5,7 +5,7 @@ title: Implementación de una aplicación de una sola página en Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 58ec4ee9821b06dcacd2a24e758fb8d083f39947
+source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
 
 ---
 
@@ -272,7 +272,7 @@ Si se siguen los pasos anteriores, debe tener una solución A4T sólida para los
 
 ## Prácticas recomendadas de implementación
 
-Las API de at.js 2.x le permiten personalizar su implementación de muchas formas, pero es importante que siga el orden de operaciones correcto durante este proceso. [!DNL Target]
+Las API de at.js 2.x le permiten personalizar su implementación de muchas [!DNL Target] formas, pero es importante seguir el orden de operaciones correcto durante este proceso.
 
 La siguiente información describe el orden de las operaciones que debe seguir al cargar una aplicación de una sola página por primera vez en un explorador y para cualquier cambio de vista que se produzca posteriormente.
 
@@ -283,7 +283,7 @@ La siguiente información describe el orden de las operaciones que debe seguir a
 | 1 | Cargar VisitorAPI JS | Esta biblioteca es responsable de asignar un ECID al visitante. Esta ID es utilizada posteriormente por otras [!DNL Adobe] soluciones de la página web. |
 | 2 | Cargar at.js 2.x | at.js 2.x carga todas las API necesarias que se utilizan para implementar [!DNL Target] solicitudes y vistas. |
 | 3 | Ejecutar [!DNL Target] solicitud | Si tiene una capa de datos, le recomendamos que cargue los datos críticos que se deben enviar a [!DNL Target] antes de ejecutar una [!DNL Target] solicitud. Esto le permite `targetPageParams` enviar los datos que desee utilizar para la segmentación. Debe asegurarse de solicitar la ejecución > pageLoad, así como la recuperación previa > vistas en esta llamada de API. si ha establecido `pageLoadEnabled` y `viewsEnabled`, entonces las vistas execute > pageLoad y prefetch > se producen automáticamente con el paso 2; en caso contrario, debe utilizar la `getOffers()` API para realizar esta solicitud. |
-| 4 | La llamada `triggerView()` | Dado que la [!DNL Target] solicitud iniciada en el paso 3 podría devolver experiencias tanto para la ejecución de Carga de página como para Vistas, asegúrese de que `triggerView()` se llame después de que se devuelva la [!DNL Target] solicitud y termine de aplicar las ofertas en la caché. Debe ejecutar este paso sólo una vez por vista. |
+| 4 | La llamada `triggerView()` | Dado que la [!DNL Target] solicitud iniciada en el paso 3 podría devolver experiencias tanto para la ejecución de Carga de página como para Vistas, asegúrese de que `triggerView()` se llame después de que se devuelva la [!DNL Target] solicitud y termine de aplicar las ofertas a la caché. Debe ejecutar este paso sólo una vez por vista. |
 | 5 | Llamar a la señalización de vista de [!DNL Analytics] página | Esta señalización envía el SDID asociado con los pasos 3 y 4 a [!DNL Analytics] para la vinculación de datos. |
 | 6 | Llamada adicional `triggerView({"page": false})` | Este es un paso opcional para los marcos de SPA que podrían volver a representar determinados componentes en la página sin que se produzca un cambio de vista. En estas ocasiones, es importante que invoque esta API para asegurarse de que [!DNL Target] las experiencias se vuelven a aplicar después de que el marco de SPA haya vuelto a procesar los componentes. Puede ejecutar este paso tantas veces como desee para asegurarse de que [!DNL Target] las experiencias persisten en sus vistas de SPA. |
 
@@ -292,7 +292,7 @@ La siguiente información describe el orden de las operaciones que debe seguir a
 | Paso  | Acción | Detalles |
 | --- | --- | --- |
 | 1 | La llamada `visitor.resetState()` | Esta API garantiza que el SDID se vuelva a generar para la nueva vista a medida que se carga. |
-| 2 | Actualizar caché llamando a la `getOffer()` API | Se trata de un paso opcional que hay que tomar si este cambio de vista tiene el potencial de calificar el visitante actual para más [!DNL Target] actividades o descalificarlos de actividades. En este punto, también puede elegir enviar datos adicionales a [!DNL Target] para habilitar capacidades de objetivo adicionales. |
+| 2 | Actualizar caché llamando a la `getOffers()` API | Se trata de un paso opcional que hay que tomar si este cambio de vista tiene el potencial de calificar el visitante actual para más [!DNL Target] actividades o descalificarlos de actividades. En este punto, también puede elegir enviar datos adicionales a [!DNL Target] para habilitar capacidades de objetivo adicionales. |
 | 3 | La llamada `triggerView()` | Si ha ejecutado el paso 2, debe esperar a la [!DNL Target] solicitud y aplicar las ofertas a la caché antes de ejecutar este paso. Debe ejecutar este paso sólo una vez por vista. |
 | 4 | La llamada `triggerView()` | Si no ha ejecutado el Paso 2, puede ejecutar este paso tan pronto como complete el Paso 1. Si ha ejecutado los pasos 2 y 3, debe omitir este paso. Debe ejecutar este paso sólo una vez por vista. |
 | 5 | Llamar a la señalización de vista de [!DNL Analytics] página | Esta señalización envía el SDID asociado con los pasos 2, 3 y 4 a [!DNL Analytics] para la vinculación de datos. |
