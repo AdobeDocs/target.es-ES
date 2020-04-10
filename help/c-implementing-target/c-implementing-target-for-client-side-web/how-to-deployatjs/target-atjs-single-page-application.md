@@ -5,7 +5,7 @@ title: Implementación de una aplicación de una sola página en Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -270,7 +270,7 @@ Aunque estos ejemplos utilizan código JavaScript, todo esto se puede simplifica
 
 Si se siguen los pasos anteriores, debe tener una solución A4T sólida para los SPA.
 
-## Prácticas recomendadas de implementación
+## Prácticas recomendadas de implementación {#bp}
 
 Las API de at.js 2.x le permiten personalizar su implementación de muchas [!DNL Target] formas, pero es importante seguir el orden de operaciones correcto durante este proceso.
 
