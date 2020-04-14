@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -107,6 +107,8 @@ En lugar de responder a todas las solicitudes de segmentación desde una sola ub
 >
 >[!DNL Adobe Target] actualmente no tiene una red Edge en China, y el rendimiento del usuario final se seguirá limitando para los clientes de [!DNL Target] de China. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
+Si lo desea, puede incluir en la lista blanca las notas de borde de Destinatario. Para obtener más información, consulte [Lista blanca de nodos](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)de borde de Destinatario.
+
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe garantiza que la disponibilidad y el rendimiento de la infraestructura de segmentación sea lo más segura posible. Sin embargo, la interrupción de las comunicaciones entre el navegador del usuario final y los servidores de Adobe puede imposibilitar la entrega de contenido.
@@ -131,7 +133,7 @@ Google promueve las pruebas de usuario y afirma en su documentación que las pru
 Para obtener más información, consulte los siguientes recursos de Google:
 
 * [Pruebas en sitios web y Búsqueda de Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimentos y encubrimiento](https://support.google.com/analytics/answer/2576845?hl=en&ref_topic=1745207)
+* [Experimentos y encubrimiento](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
 Las directrices se publicaron en una entrada del [blog Google Webmaster Central](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Aunque la publicación es de 2012, sigue siendo la información más reciente de Google sobre este tema y las directrices continúan vigentes.
 
