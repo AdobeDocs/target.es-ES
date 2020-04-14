@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Abril de 14 | [Hosts de borde de Destinatario de lista blanca](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nuevo tema. |
 | Abril de 10 | [Implementación de aplicación de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nueva sección Añadida: &quot;Prácticas recomendadas de implementación&quot;. |
 | Abril de 7 | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Se ha actualizado el texto para &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
 | Abril de 2 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Información Añadida sobre el uso `user.header('x-forwarded-for')` con los bordes AWS más recientes para recuperar las direcciones IP de los usuarios. |
