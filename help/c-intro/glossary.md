@@ -4,7 +4,7 @@ title: Glosario de Adobe Target
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
 
 ---
 
@@ -328,6 +328,10 @@ Es un tipo de participación que representa el tiempo invertido en la visita (en
 Todas las variables de página de referencia y dirección URL de página se pasan automáticamente a un mbox cuando un visitante ve la página con el mbox en cuestión. Estas variables de dirección URL estarán disponibles para usarlas para mostrar la segmentación o los filtros de segmento en los informes.
 
 ## V  {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+
+**visit**
+
+A veces, una visita se denomina sesión. Una visita finaliza después de 30 minutos de inactividad, lo que significa que han transcurrido al menos 30 minutos entre las solicitudes del servidor y el Destinatario.
 
 **visitante**
 
