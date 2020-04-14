@@ -1,11 +1,11 @@
 ---
 product: target
 audience: end-user
-user-guide-title: Adobe Target Help
+user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 + Notas de la versión de Target {#release-notes}
    + [Notas de la versión de Target (actual)](r-release-notes/release-notes.md)
    + [Notas de la versión de Target (versión previa)](r-release-notes/target-release-notes.md)
-   + [Boletín de Target Insider](/help/r-release-notes/target-insider-newsletter.md)
+   + [Boletín de Destinatario Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problemas conocidos y problemas resueltos](r-release-notes/known-issues-resolved-issues.md)
    + [Actualizaciones del estado del sistema y notificaciones dinámicas](r-release-notes/system-status-updates.md)
    + [Cambios de la documentación](r-release-notes/doc-change.md)
@@ -60,6 +60,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
          + [Políticas de cookies de Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Directivas de directiva de seguridad de contenido (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Nodos de borde de Destinatario de lista blanca](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
       + Métodos para obtener los datos en Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configuración de la API del perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -134,12 +135,12 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Enviar información de actividad a Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Vista previa para móviles en Target](c-target-mobile-app/target-mobile-preview.md)
       + [Recuperación previa de contenido de ofertas](c-target-mobile-app/prefetch-offer-content.md)
-      + [Preguntas más frecuentes sobre Target para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Preguntas más frecuentes sobre Destinatario para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Usar servicio de ubicación](/help/c-target-mobile-app/use-location-service.md)
    + Servidor: implementación de Target {#server-side}
-      + [Notas de la versión: API de servidor de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Notas de la versión: SDK de Node.js de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Notas de la versión: SDK de Java de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [Notas de la versión: API de Destinatario del lado del servidor](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Notas de la versión: SDK de Node.js de Destinatario](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [Notas de la versión: SDK de Java de Destinatario](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Servidor: información general sobre la implementación de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transición de las API heredadas de Target a Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Correo electrónico: implementación de Target {#implement-email}
@@ -206,7 +207,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Gestión de exclusiones](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Seleccione el control de la actividad de Personalización automatizada o de Segmentación automática](c-activities/t-automated-personalization/experience-as-control.md)
       + [Preguntas más frecuentes sobre Personalización automatizada](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Previsualizar actividades de Personalización automatizada con direcciones URL de vista previa de experiencia](c-activities/t-automated-personalization/experience-preview.md)
+      + [Previsualización de actividades de Personalización automatizada con direcciones URL de previsualización de experiencias](c-activities/t-automated-personalization/experience-preview.md)
       + [Resolución de problemas de la personalización automatizada](c-activities/t-automated-personalization/ap-trouble.md)
    + Segmentación de experiencias {#experience-targeting}
       + [Información general sobre segmentación de experiencias](c-activities/t-experience-target/experience-target.md)
@@ -275,7 +276,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Información general sobre los perfiles de visitante](c-target/c-visitor-profile/visitor-profile.md)
       + [Duración del perfil del visitante](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Atributos de perfil](c-target/c-visitor-profile/profile-parameters.md)
-      + [Usar scripts de perfil para probar actividades mutuamente excluyentes](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
+      + [Utilice secuencias de comandos de perfil para probar actividades mutuamente excluyentes](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [Afinidad de la categoría](c-target/c-visitor-profile/category-affinity.md)
       + [Atributos del cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [Sincronización de perfiles en tiempo real para mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
@@ -370,7 +371,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Seleccionar criterios](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Agregar promociones](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Configuración de actividades de Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Previsualizar e iniciar la actividad de Recomendaciones](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [Previsualización e inicio de la actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations como oferta](c-recommendations/recommendations-as-an-offer.md)
    + Preguntas más frecuentes {#recommendations-faq}
       + [Preguntas más frecuentes de Recommendations](c-recommendations/c-recommendations-faq/recommendations-faq.md)
