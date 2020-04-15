@@ -5,18 +5,18 @@ title: Lista blanca de nodos extremos de Adobe Destinatario
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
 
 ---
 
 
 # Nodos de borde de Destinatario de lista blanca
 
-Información y una lista actualizada de los hosts para ayudarle a incluir bordes de Destinatario de Adobe en la lista de direcciones permitidas.
+Información y una lista actualizada de los hosts para ayudarle a incluir los bordes de Adobe en la lista blanca [!DNL Target] .
 
-Una arista es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para los usuarios finales que solicitan contenido, independientemente de su ubicación en todo el mundo. Cada nodo Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y para rastrear los datos de análisis de dicha solicitud. Las solicitudes de usuario se dirigen al nodo Edge más cercano. Para obtener más información, consulte [La red](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) Edge en *Cómo funciona* Adobe Destinatario.
+Una arista es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para los usuarios finales que solicitan contenido, independientemente de su ubicación en todo el mundo. Cada nodo Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y para rastrear los datos de análisis de dicha solicitud. Las solicitudes de usuario se dirigen al nodo Edge más cercano. Para obtener más información, consulte [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) en *How Adobe[!DNL Target]work*.
 
-Si lo desea, puede incluir en la lista blanca nodos de borde de Destinatario.
+Si lo desea, puede incluir nodos [!DNL Target] Edge en la lista blanca.
 
 La siguiente lista incluye los hosts actuales:
 
