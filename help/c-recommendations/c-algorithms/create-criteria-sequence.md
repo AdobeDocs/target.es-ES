@@ -4,7 +4,7 @@ description: Utilice secuencias de hasta cinco criterios para ejercer un mayor c
 title: Crear secuencias de criterios
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -86,7 +86,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear secuencia de cr
 
    Para obtener más información sobre opciones de lógica de recomendación, consulte [Criterios](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vídeo de formación: Crear criterios en Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de formación: Crear criterios en Recommendations (12:33) Distintivo ![de tutoriales](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
