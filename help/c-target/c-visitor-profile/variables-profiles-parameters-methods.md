@@ -5,7 +5,7 @@ title: Glosario de perfiles y variables
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -28,7 +28,7 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | user.daysSinceLastVisit |  |
 | user.browser | El agente de usuario |
 | user.header | Todos los perfiles `user.header` están integrados en los datos de encabezado de las peticiones de mbox |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | La dirección IP pública de la conexión de red en que se encuentra el visitante.<br>NOTA: El encabezado user.header(&#39;x-cluster-client-ip&#39;) no funciona en los bordes AWS más recientes.<br>Se puede consultar de varias maneras, por ejemplo, usando [whatismyip.com](https://www.whatismyip.com/). La dirección IP no es la dirección NAT (dirección interna), que empieza por 10., 192.168. o 172. |
+| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | La dirección IP pública de la conexión de red en que se encuentra el visitante.<br>Se puede consultar de varias maneras, por ejemplo, usando [whatismyip.com](https://www.whatismyip.com/). La dirección IP no es la dirección NAT (dirección interna), que empieza por 10., 192.168. o 172. |
 | user.header(&#39;host&#39;) | Nombre de host del visitante |
 | user.header(&#39;cookie&#39;) | Datos de cookies del visitante |
 | user.header(&#39;user-agent&#39;) | Agente de usuario del navegador del visitante |
