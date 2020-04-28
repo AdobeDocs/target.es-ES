@@ -5,7 +5,7 @@ title: Notas de la versión de evaluación de Adobe Destinatario
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 Este artículo contiene información de evaluación. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 24 de abril de 2020**
+**Última actualización: 28 de abril de 2020**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información en estas páginas puede ser la misma, según el tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -37,7 +37,7 @@ Martes, 5 de mayo, 8:00 - 9:00 AM (PDT)
 
 [Regístrese aquí!](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
 
-## Target Standard/Premium 20.4.1 (27 de abril de 2020)
+## Target Standard/Premium 20.4.1 (6 de mayo de 2020). 
 
 Esta versión contiene las siguientes mejoras, correcciones y cambios:
 
