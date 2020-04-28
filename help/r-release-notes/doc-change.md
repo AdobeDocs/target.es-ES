@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -18,6 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Abril de 28 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Se ha eliminado la información sobre el uso `user.header('x-forwarded-for')` con bordes AWS más recientes para recuperar las direcciones IP de los usuarios. Este comando ahora funciona con los bordes AWS más recientes. |
+|  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha cambiado la fecha de la versión de Destinatario Standard/Premium (20.4.1) al 6 de mayo. |
 | Abril de 23 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tema actualizado. |
 | Abril de 22 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Nueva sección Añadida: Cambios en la API de estado de lote de *Perfil v2 (4 de mayo de 2020).* |
 | Abril de 20 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Nueva sección Añadida: Generador *de habilidades de Adobe Destinatario: Chat del desarrollador, migre el archivo mbox.js de Adobe Destinatario a at.js.* |
