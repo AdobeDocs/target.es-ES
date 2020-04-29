@@ -3,8 +3,8 @@ keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: Información sobre problemas conocidos con esta versión de Adobe Target. También incluye información sobre problemas que ya se han resuelto.
 title: Problemas conocidos y problemas resueltos   en Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: ht
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+translation-type: tm+mt
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
@@ -20,6 +20,20 @@ Información sobre problemas conocidos con esta versión de Target. También inc
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
+
+### Sistemas de informes y pedidos extremos
+
+Desde el 25 de noviembre de 2019 hasta el 26 de abril de 2020, un servidor de Destinatario experimentó un problema que hacía que los valores de pedidos extremos se contaran en las métricas de informes basadas en ingresos (AOV, RPV). Desde el 19 de diciembre de 2019 hasta el 23 de abril de 2020, otro servidor experimentó el mismo problema. Este problema no afectaba a todos los servidores de Destinatario ni a todos los clientes de Destinatario.
+
+Usted *no se vio* afectado si:
+
+* La implementación de Destinatario utiliza diferentes servidores.
+* Los informes no excluyeron pedidos extremos.
+* Ha utilizado una métrica de conversión para medir sus actividades.
+* Las actividades de Destinatario utilizan Analytics para Destinatario (A4T).
+* Está ubicado en la región de Asia-Pacífico (APAC).
+
+Para determinar si este problema afectó la implementación de Destinatario, póngase en contacto con [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Entrega de página {#page-delivery}
 
