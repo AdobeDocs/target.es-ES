@@ -5,7 +5,7 @@ title: Recursos e información de contacto
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
+source-git-commit: f85b9887559792628151998673b7fc95e0d9145a
 
 ---
 
@@ -44,7 +44,7 @@ Las sesiones de Target grabadas actualmente incluyen:
 | Tema / Tiempo de ejecución / Fecha de grabación | Lo que aprenderá |
 |--- |--- |
 | [Compositor de experiencias visuales (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>de diciembre de 2017 | Aprenderá:<ul><li>Cómo funciona el Compositor de experiencias visuales</li><li>Cómo evitar problemas comunes con el Compositor de experiencias visuales</li><li>Soluciones alternativas con el Compositor de experiencias visuales</li></ul>Para obtener más información en esta guía, consulte   [Experiencias](/help/c-experiences/experiences.md). |
-| [Adobe Target: Integración de Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>de enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [Adobe Destinatario: Integración de Analytics/Destinatario (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>de enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
 | [at.js: Ventajas y optimizaciones](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>de implementación 26:43<br>de abril de 2018 | Aprenderá: <ul><li>Cómo funciona la biblioteca at.js</li><li>Las ventajas de at.js sobre mbox.js</li><li>Cómo gestiona at.js el parpadeo</li><li>Gestión de errores en at.js</li><li>Metodologías de depuración</li><li>Problemas conocidos y hoja de ruta</li></ul>Para obtener más información en esta guía, consulte   [Implementación de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
@@ -78,7 +78,7 @@ Para agilizar la evaluación de su problema, se recomienda que disponga de la si
 | Impacto comercial | ¿De qué manera afecta a su empresa? Por ejemplo, ¿causa el problema una pérdida de ingresos o hace que el producto no pueda utilizarse, y existe una solución alternativa? |
 | Expectativas | ¿Qué espera que ocurra? |
 
-Para ver los problemas de entrega de contenido, consulte [Solución de problemas de entrega](/help/c-activities/c-troubleshooting-activities/content-trouble.md) de contenido para obtener soluciones posibles e información sobre solución de problemas.
+Para ver los problemas de envío de contenido, consulte [Solución de problemas de envío](/help/c-activities/c-troubleshooting-activities/content-trouble.md) de contenido para obtener soluciones posibles e información sobre solución de problemas.
 
 ### En caso de una interrupción del servicio   {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
@@ -97,10 +97,10 @@ Información que le ayudará a comunicarse con Adobe y a comprender los aspectos
 
 El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ayudarle y, para ello, le ofrece una serie de opciones de asistencia:
 
-* [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/marketing-cloud.html)
+* [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/es/support/marketing-cloud.html)
 * [Preguntas rápidas a través de Twitter @AdobeExpCare](https://twitter.com/adobeexpcare)
 * [Abra un ticket para obtener ayuda de la asistencia](https://experienceleague.adobe.com/?support-solution=Target#support)
-* [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
 * [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/)
 
 Para recibir notificaciones sobre próximas mejoras de productos, regístrese en Adobe Priority Product Update:
@@ -113,7 +113,7 @@ Según la configuración de su solución, es posible que algunas de las opciones
 
 ### Comentarios   {#section_8154D6D712054220A90D85FA8E92933E}
 
-Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a esta solución. Las sugerencias e ideas sobre cómo mejorar el conjunto de Analytics [pueden añadirse en nuestro portal de intercambio de ideas de clientes](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3).
+Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a esta solución. Se pueden agregar sugerencias e ideas de mejora a la comunidad de [Adobe Destinatario Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Click the [!UICONTROL Ideas] tab.
 
 ### Información legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
