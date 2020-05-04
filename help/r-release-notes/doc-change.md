@@ -5,7 +5,7 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -18,12 +18,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Mayo de 4 | [Preguntas más frecuentes sobre la creación de informes](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Nuevas preguntas más frecuentes Añadidas: &quot;¿Por qué el tráfico se divide entre mis experiencias de forma desigual en mi actividad A/B o MVT?&quot; |
 | Abril de 29 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha Añadido un problema conocido para el sistema de informes de pedidos extremos. |
 | Abril de 28 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Se ha eliminado la información sobre el uso `user.header('x-forwarded-for')` con bordes AWS más recientes para recuperar las direcciones IP de los usuarios. Este comando ahora funciona con los bordes AWS más recientes. |
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha cambiado la fecha de la versión de Destinatario Standard/Premium (20.4.1) al 6 de mayo. |
 | Abril de 23 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tema actualizado. |
-| Abril de 22 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Nueva sección Añadida: Cambios en la API de estado de lote de *Perfil v2 (4 de mayo de 2020).* |
-| Abril de 20 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Nueva sección Añadida: Generador *de habilidades de Adobe Destinatario: Chat del desarrollador, migre el archivo mbox.js de Adobe Destinatario a at.js.* |
+| Abril de 22 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Nueva sección Añadida: *Cambios en la API de estado de lote de Perfil v2 (4 de mayo de 2020).* |
+| Abril de 20 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Nueva sección Añadida: *Adobe Destinatario Skill Builder: Chat del desarrollador, migre el archivo mbox.js de Adobe Destinatario a at.js.* |
 | Abril de 14 | [Hosts de borde de Destinatario de lista blanca](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nuevo tema. |
 | Abril de 10 | [Implementación de aplicación de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nueva sección Añadida: &quot;Prácticas recomendadas de implementación&quot;. |
 | Abril de 7 | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Se ha actualizado el texto para &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
