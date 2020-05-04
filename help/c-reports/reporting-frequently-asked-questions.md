@@ -1,11 +1,11 @@
 ---
-keywords: resolución de problemas;discrepancias entre métricas;preguntas más frecuentes;informes
+keywords: troubleshooting;metric discrepancies;FAQ;reports
 description: Lista de las preguntas frecuentes sobre los informes en Adobe Target.
 title: Preguntas frecuentes sobre los informes de Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -33,7 +33,7 @@ Si tiene seleccionado un entorno de desarrollo, puede que vea el siguiente mensa
 
 Para cambiar el entorno en el informe de una actividad:
 
-1. Haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **Informes[!UICONTROL .]**
+1. Haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes.]**
 1. Haga clic en el icono del engranaje para definir la configuración del informe.
 
    ![Cuadro de diálogo Configuración A/B](/help/c-reports/c-report-settings/assets/ab_settings_dialog.png)
@@ -49,3 +49,18 @@ Para cambiar el entorno en el informe de una actividad:
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 Para obtener más información sobre los entornos, consulte [Hosts](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+## ¿Por qué el tráfico se divide entre mis experiencias de forma desigual en mi actividad A/B o MVT? {#uneven}
+
+Por ejemplo, configuré la división de tráfico en 50/50 o 33/33/33 pero veo una distribución muy diferente entre las experiencias en el sistema de informes.
+
+Existen varias razones explicables para las divisiones de tráfico desiguales en el [!DNL Target] sistema de informes:
+
+* Cuando se inicia una [!DNL Target] actividad por primera vez, la distribución del tráfico puede ser desigual debido a la arquitectura de nodos Edge que [!DNL Target] utiliza para optimizar el envío de la experiencia. Lo mejor es dar a una actividad tiempo para recopilar datos adicionales y la distribución se normalizará. Para obtener más información sobre [!DNL Adobe Target] la arquitectura y los nodos de Edge, consulte [Cómo funciona](/help/c-intro/how-target-works.md)Adobe Destinatario.
+* ¿Qué métrica de normalización utiliza? Si está en [!DNL Target] o [!DNL Analytics] y utiliza la métrica **[!UICONTROL Visitas]** , recuerde que [!DNL Target] es un sistema basado en visitantes y que la distribución de tráfico para una prueba A/B o MVT está asignada en el nivel de visitante. Por lo tanto, si examina los resultados de la actividad mediante la métrica **[!UICONTROL Visitas]** , la distribución del tráfico puede parecer desigual porque ciertos visitantes pueden tener varias visitas.
+* La práctica recomendada para las pruebas A/B y MVT es mantener unidas las divisiones de tráfico. Cambiar la distribución del tráfico entre experiencias (por ejemplo, de 90/10 a 50/50) durante una prueba puede provocar visitantes desiguales entre las experiencias.
+* Si sigue las prácticas recomendadas anteriores y la división del tráfico no se normaliza con el tiempo, debe comprobar lo siguiente:
+
+   * ¿Está utilizando la biblioteca at.js más reciente? Para obtener más información sobre la versión actual y las notas de la versión asociadas, consulte los detalles [de la versión de](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js.
+
+   * ¿Es una prueba de redirección? La temporización incorrecta de las etiquetas que se activan en la página puede provocar divisiones de tráfico desiguales, especialmente cuando se utiliza [!DNL Analytics] como fuente de datos para una [!DNL Target] actividad. Para obtener más información sobre cómo solucionar la distribución desigual del tráfico en una actividad de redireccionamiento con Analytics para Destinatario (A4T), consulte [Redireccionamiento de ofertas: Preguntas más frecuentes](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)sobre A4T.
