@@ -1,18 +1,21 @@
 ---
-keywords: qa;vista previa;vínculos de vista previa;adobe target;target
-description: Utilice las URL de control de calidad de Adobe Target para realizar fácilmente un control de calidad de la actividad de extremo a extremo con vínculos de vista previa que nunca cambian, segmentación de audiencia opcional e informes de control de calidad que se mantienen segmentados a partir de datos de actividad activos.
+keywords: qa;preview;preview links;adobe target;target
+description: Utilice las URL de control de calidad de Adobe Destinatario para realizar fácilmente un control de calidad de la actividad de extremo a extremo con vínculos de previsualización que nunca cambian, objetivos opcionales de audiencia y sistemas de informes de control de calidad que permanecen segmentados a partir de datos de actividad en directo.
 title: Control de calidad de la actividad
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1489'
+ht-degree: 88%
 
 ---
 
 
 # Control de calidad de la actividad {#activity-qa}
 
-Use direcciones URL de control de calidad en Adobe Target para realizar fácilmente un control de calidad de la actividad de extremo a extremo con vínculos de vista previa que nunca cambian, segmentación de audiencia opcional e informes de control de calidad que se mantienen segmentados a partir de datos de actividad activos.
+Use direcciones URL de control de calidad en Adobe Destinatario para realizar fácilmente un control de calidad de la actividad end-to-end con vínculos de previsualización que nunca cambian, objetivos opcionales de audiencia y sistemas de informes de control de calidad que permanecen segmentados a partir de datos de actividad en directo.
 
 ## Información general {#section_11B761A522A14E61978275772210A4C2}
 
@@ -26,11 +29,11 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
    >[!NOTE]
    >
-   >Esto es válido para implementaciones de at.js con la versión 2.*x* o posterior. Para at.js 1.*implementaciones de x* y mbox.js, esto solo sucede si el explorador del visitante no bloquea las cookies de terceros.
+   >Esto se aplica a las implementaciones de at.js con la versión 2.*x* o posterior. Para at.js 1.*implementaciones de x* y mbox.js, esto solo es cierto si el explorador del visitante no bloquea las cookies de terceros.
 
 ## Acceso y uso compartido de una URL de control de calidad {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. En la página [!UICONTROL Información general] de una actividad (de cualquier tipo excepto Personalización automatizada), haga clic en el vínculo **[!UICONTROL Control de calidad de la actividad].**
+1. En la página [!UICONTROL Información general] de una actividad (de cualquier tipo excepto Personalización automatizada), haga clic en el vínculo **[!UICONTROL Control de calidad de la actividad]**.
 
    ![Vínculo de control de calidad de la actividad](assets/qa_link.png)
 
@@ -49,14 +52,14 @@ Control de calidad de la actividad le permite probar completamente las actividad
       * En caso de conflicto entre la actividad que está probando y otras actividades en curso, se aplicarán  [reglas de prioridad normales](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Debido a esto, es posible que no vea la actividad que desea someter a control de calidad.
       * Las métricas aumentan para las actividades vistas, pero solo en el entorno de realización de informes de control de calidad.
 
-1. Haga clic en **[!UICONTROL Hecho]para guardar los cambios.**
+1. Haga clic en **[!UICONTROL Hecho]** para guardar los cambios.
 1. Comparta las URL de vínculos de actividad con miembros de su organización para que las prueben.
 
    Los vínculos de actividad nunca caducan y no es necesario volver a enviarlos si alguien realiza cambios en una actividad o experiencia. Sin embargo, si aplica una audiencia distinta de la biblioteca de audiencias, no podrá limitarse a editar la actividad, pues se generará un nuevo vínculo que tendrá que volver a compartir.
 
    Cada URL de vínculos de actividad (para Exp A, Exp B, etc.) le permite iniciar el viaje del usuario desde la experiencia correspondiente. Puede hacer clic en la URL generada para una experiencia y, a continuación, examinar normalmente el sitio para ver experiencias en varias páginas (de haberlas). Se genera una única URL por experiencia, aunque esta abarque múltiples páginas (prueba de plantilla o prueba multipágina).
 
-   Puede explorar el sitio para ver las demás páginas, ya que el control de calidad de la actividad es persistente. Tenga en cuenta que esto es cierto para implementaciones de at.js con la versión 2.*x* o posterior. Para at.js 1.*implementaciones de x* y mbox.js, esto solo sucede si el explorador del visitante no bloquea las cookies de terceros.
+   Puede explorar el sitio para ver las demás páginas, ya que el control de calidad de la actividad es persistente. Tenga en cuenta que esto es cierto para implementaciones de at.js con la versión 2.*x* o posterior. Para at.js 1.*implementaciones de x* y mbox.js, esto solo es cierto si el explorador del visitante no bloquea las cookies de terceros.
 
 1. Para ver los informes generados a partir de las URL de vínculos de actividad, haga clic en la página **[!UICONTROL Informes]** de la actividad, haga clic en el icono **[!UICONTROL Configuración]** (![](assets/icon_gear.png)) y, a continuación, seleccione **[!UICONTROL Modo de control de calidad]** en la lista desplegable **[!UICONTROL Entorno]**.
 
@@ -72,7 +75,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
    También puede forzar la salida manual cargando una página en su sitio con un valor en blanco en el parámetro `at_preview_token` (por ejemplo, `https://www.mysite.com/?at_preview_token=`).
 
 * Si ha especificado “URL es” al crear la mejora de actividad [en el Compositor basado en formularios](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o en las opciones de envío [de página del Compositor de experiencias visuales,](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) la URL de control de calidad no funcionará porque el control de calidad de la actividad adjunta parámetros de URL. Para solucionar este problema, haga clic en la URL de control de calidad para ir a su sitio, elimine los parámetros añadidos a la URL y cargue la nueva dirección.
-* Si tiene at.js 1.*x*, o mbox.js, el modo de control de calidad de la actividad no será persistente si utiliza Safari u otro explorador que bloquee las cookies de terceros. En estos casos, debe agregar los parámetros de vista previa a cada dirección URL a la que navegue.
+* Si tiene at.js 1.*x*, o mbox.js, el modo de control de calidad de la Actividad no será persistente si utiliza Safari u otro explorador que bloquee las cookies de terceros. En estos casos, debe agregar los parámetros de previsualización a cada dirección URL a la que navegue. Lo mismo ocurre si ha implementado [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
 * Si una actividad utiliza múltiples audiencias de experiencia (por ejemplo, un sitio con versiones para Reino Unido y Estados Unidos incluidas en la misma actividad), no se generan vínculos de control de calidad para las cuatro combinaciones (experiencia A/sitio EE. UU., experiencia A/sitio RU, experiencia B/sitio EE. UU., experiencia B/sitio RU). Se crean solo dos vínculos de QA (Experiencia A y Experiencia B) y los usuarios deben cumplir las condiciones de audiencia apropiadas para ver la página. Un usuario de QA para Reino Unido, no podría ver el sitio de EE. UU.
 * Todos los parámetros y valores de `at_preview` ya están codificados en la URL. La mayoría de las veces, todo funciona según lo esperado, pero algunos clientes podrían disponer de equilibradores de carga o servidores WEB que traten de codificar de nuevo los parámetros de la cadena de consulta.
 
