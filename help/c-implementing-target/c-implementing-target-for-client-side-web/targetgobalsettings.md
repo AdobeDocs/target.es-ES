@@ -1,11 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
 description: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
 title: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1532'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +25,7 @@ Las configuraciones que se pueden anular son las siguientes:
 
 | Configuración | Tipo | Valor predeterminado | Descripción |
 |--- |--- |--- |--- |
-| serverState | Consulte &quot;serverState&quot; a continuación. | Consulte &quot;serverState&quot; a continuación. | Consulte &quot;serverState&quot; a continuación. |
+| serverState | Consulte &quot;Personalización híbrida&quot; a continuación. | Consulte &quot;Personalización híbrida&quot; a continuación. | Consulte &quot;Personalización híbrida&quot; a continuación. |
 | clientCode | Cadena | Valor definido en la interfaz de usuario | Representa el código de cliente |
 | serverDomain | Cadena | Valor definido en la interfaz de usuario | Representa el servidor Edge de Target |
 | cookieDomain | Cadena | Si es posible, definirlo en el dominio de primer nivel | Representa el dominio que se usa al guardar las cookies |
@@ -39,7 +42,7 @@ Las configuraciones que se pueden anular son las siguientes:
 | bodyHidingEnabled | Booleano | true | Se usa para controlar los parpadeos cuando `target-global-mbox` se utiliza para publicar ofertas creadas en el Compositor de experiencias visuales, también denominadas ofertas visuales |
 | imsOrgId | Cadena | IMS ORG ID | Representa el id. de organización de IMS |
 | secureOnly | Booleano | false | Indica si at.js debería utilizar solo HTTPS o se le debería permitir alternar entre HTTP y HTTPS según el protocolo de la página. |
-| overrideMboxEdgeServer | Booleano | true (verdadero desde la versión 1.6.2 de at.js) | Indica si se debe utilizar el dominio `<clientCode>.tt.omtrdc.net` o el `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Si este valor es “true”, el dominio `mboxedge<clusterNumber>.tt.omtrdc.net` se guarda en una cookie. |
+| overrideMboxEdgeServer | Booleano | true (verdadero desde la versión 1.6.2 de at.js) | Indica si se debe utilizar el dominio `<clientCode>.tt.omtrdc.net` o el `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Si este valor es “true”, el dominio `mboxedge<clusterNumber>.tt.omtrdc.net` se guarda en una cookie.. Actualmente no funciona con [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
 | overrideMboxEdgeServerTimeout | Número | 1860000 => 31 minutos | Indica la duración de la cookie que contiene el valor `mboxedge<clusterNumber>.tt.omtrdc.net`. |
 | optoutEnabled | Booleano | false | Indica si Target debe llamar a la función `isOptedOut()` de la API del visitante. Esto forma parte de la habilitación de Device Graph. |
 | selectorsPollingTimeout | Número | 5000 ms = 5 s | En la versión 0.9.6 de at.js, Target introdujo este nuevo ajuste que se puede anular mediante `targetGlobalSettings`.<br>`selectorsPollingTimeout` representa cuánto está dispuesto a esperar el cliente para que todos los elementos identificados por selectores aparezcan en la página.<br>Las actividades creadas por medio del Compositor de experiencias visuales (VEC) tienen ofertas que contienen selectores. |
@@ -73,8 +76,8 @@ Los vídeos siguientes contienen más información:
 
 | Vídeo | Descripción |
 |--- |--- |
-| [Uso de Proveedores de datos en Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Proveedores de datos es una funcionalidad que permite pasar fácilmente datos de terceros a Target. Un tercero podría ser un servicio de pronóstico del clima, un DMP o incluso su propio servicio web. Puede usar estos datos para crear audiencias, dirigir contenido y enriquecer el perfil del visitante. |
-| [Implementación de Proveedores de datos en Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Detalles de implementación y ejemplos de cómo usar la función dataProviders de Adobe Target para recuperar datos de proveedores de datos de terceros y pasarlos en la solicitud de Target. |
+| [Uso de Proveedores de datos en Adobe Target](https://helpx.adobe.com/es/target/kt/using/dataProviders-atjs-feature-video-use.html) | Proveedores de datos es una funcionalidad que permite pasar fácilmente datos de terceros a Target. Un tercero podría ser un servicio de pronóstico del clima, un DMP o incluso su propio servicio web. Puede usar estos datos para crear audiencias, dirigir contenido y enriquecer el perfil del visitante. |
+| [Implementación de Proveedores de datos en Adobe Target](https://helpx.adobe.com/es/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Detalles de implementación y ejemplos de cómo usar la función dataProviders de Adobe Target para recuperar datos de proveedores de datos de terceros y pasarlos en la solicitud de Target. |
 
 La configuración `window.targetGlobalSettings.dataProviders` es una matriz de proveedores de datos.
 
@@ -201,7 +204,7 @@ window.targetGlobalSettings = {
 
 Después `cspScriptNonce` de especificar la configuración y `cspStyleNonce` , at.js 2.3.0 o posterior los establece como atributos nonce en todas las etiquetas SCRIPT y STYLE que anexa al DOM al aplicar ofertas de Destinatario.
 
-## serverState {#server-state}
+## Personalización híbrida {#server-state}
 
 `serverState` es una configuración disponible en at.js v2.2+ que puede utilizarse para optimizar el rendimiento de la página cuando se implementa una integración híbrida de Destinatario. La integración híbrida significa que se utiliza at.js v2.2+ en el cliente y la API de envío o un SDK de Destinatario en el servidor para ofrecer experiencias. `serverState` proporciona a at.js v2.2+ la capacidad de aplicar experiencias directamente desde el contenido recuperado en el servidor y devuelto al cliente como parte de la página que se está ofreciendo.
 
@@ -214,7 +217,7 @@ Debe tener una integración híbrida de [!DNL Target].
 
 ### Ejemplos de código
 
-Para comprender mejor cómo funciona esto, vea los ejemplos de código siguientes que tendría en su servidor. El código supone que está utilizando el SDK [de](https://github.com/adobe/target-nodejs-sdk)Destinatario Node.js.
+Para comprender mejor cómo funciona esto, vea los ejemplos de código siguientes que tendría en su servidor. El código asume que está utilizando el SDK [de Node.js de](https://github.com/adobe/target-nodejs-sdk)Destinatario.
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
