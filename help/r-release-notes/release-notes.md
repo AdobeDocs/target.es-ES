@@ -5,7 +5,10 @@ title: 'Notas de la versión de Adobe Target (actual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +19,7 @@ Estas notas de la versión proporcionan información sobre características, mej
 
 >[!NOTE]
 >
->* **Desaprobación** de mbox.js: El 30 de agosto de 2020, Adobe Destinatario dejará de ser compatible con la biblioteca mbox.js. Después del 30 de agosto de 2020, todas las llamadas realizadas desde mbox.js producirán errores e impactarán en las páginas que tengan actividades de Destinatario en ejecución. Recomendamos que todos los clientes migren a la versión más reciente de la biblioteca at.js antes de esta fecha para evitar problemas potenciales con sus sitios. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Consulte *Adobe Destinatario Skill Builder: Chat del desarrollador, migre el archivo mbox.js de Adobe Destinatario a at.js* a continuación para obtener información sobre cómo registrarse para un próximo chat del desarrollador sobre este tema.
+>* **Desaprobación** de mbox.js: El 30 de agosto de 2020, Adobe Destinatario dejará de ser compatible con la biblioteca mbox.js. Después del 30 de agosto de 2020, todas las llamadas realizadas desde mbox.js producirán errores e impactarán en las páginas que tengan actividades de Destinatario en ejecución. Recomendamos que todos los clientes migren a la versión más reciente de la biblioteca at.js antes de esta fecha para evitar problemas potenciales con sus sitios. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Consulte *Adobe Destinatario Skill Builder: Chat para desarrolladores, migre el archivo mbox.js de Adobe Destinatario a at.js* a continuación para obtener más información.
    >
    >   
    Aunque actualmente se admite mbox.js, no hemos proporcionado actualizaciones de funciones a esta biblioteca desde julio de 2017. La versión más reciente de at.js ofrece muchas ventajas con respecto a mbox.js. Entre otras ventajas, at.js mejora los tiempos de carga de página para implementaciones web, mejora la seguridad y proporciona mejores opciones de implementación para aplicaciones de una sola página.
@@ -29,11 +32,7 @@ Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 ## Adobe Destinatario Skill Builder: Chat del desarrollador, migrar mbox.js de Adobe Destinatario a at.js {#skill-builder}
 
-Únase a David Son, responsable de productos de Adobe Destinatario, en su presentación de las ventajas de migrar mbox.js a at.js. Obtenga información sobre las últimas actualizaciones de at.js, sus funciones mejoradas y cómo se alinean con las tendencias más grandes del panorama tecnológico, así como sobre algunos consejos prácticos para garantizar que extrae todo el valor de Destinatario al migrar de mbox.js a at.js. Los desarrolladores de Adobe Destinatario no querrán perderlo.
-
-Martes, 5 de mayo, 8:00 - 9:00 AM (PDT)
-
-[Regístrese aquí!](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+Con la próxima desaprobación de mbox.js el 30 de agosto de 2020, David Son, administrador de productos de Adobe Destinatario, organizó recientemente un chat de desarrollador para debatir las ventajas de migrar mbox.js a at.js. Durante los próximos 30 días, puede [vista de la grabación](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del seminario web.
 
 ## Destinatario at.js (25 de marzo de 2020)
 
