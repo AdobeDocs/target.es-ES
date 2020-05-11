@@ -5,10 +5,10 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
 workflow-type: tm+mt
-source-wordcount: '7548'
-ht-degree: 82%
+source-wordcount: '7601'
+ht-degree: 81%
 
 ---
 
@@ -21,6 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Mayo de 11 | [Hosts](/help/administrating-target/hosts.md) | Información Añadida sobre el uso de la funcionalidad ubox con redirecciones y listas blancas. |
+|  | [Trabajar con redirectores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Información Añadida sobre el uso de hosts para evitar vulnerabilidades de redireccionamiento abierto. |
+|  | [Integrar Recommendations con el correo electrónico](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Información Añadida sobre el uso de hosts para evitar vulnerabilidades de redireccionamiento abierto. |
+|  | [Correo electrónico: implementación de Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Información Añadida sobre el uso de hosts para evitar vulnerabilidades de redireccionamiento abierto. |
 | Mayo de 7 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Con la próxima desaprobación de mbox.js el 30 de agosto de 2020, David Son, administrador de productos de Adobe Destinatario, organizó recientemente un chat de desarrollador para debatir las ventajas de migrar mbox.js a at.js. Hay un vínculo donde puede ver el seminario web durante los próximos 30 días. |
 |  | [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) | Se ha actualizado la sección &quot;Consideraciones&quot;. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Se ha actualizado la fila &quot;overrideMboxEdgeServer&quot; en &quot;Configuración&quot;. |
