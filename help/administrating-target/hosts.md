@@ -5,10 +5,10 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: 81d6ce3e9c83fb4cce26644b45321e7492392bea
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -125,7 +125,7 @@ Para crear una lista de direcciones permitidas:
 
 Si se realiza una llamada de mbox en un host sin autorización, la llamada responde con `/* no display - unauthorized mbox host */`.
 
-Si utiliza la funcionalidad de ubox de [!DNL Target], tenga en cuenta que esta lista blanca también controlará la lista de los dominios por los que pueden navegar [los redirectores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . Asegúrese de agregar los dominios a los que desee redirigir cuando utilice ubox como parte de la implementación. Si no se especifica la lista de direcciones permitidas, Adobe no podrá verificar las direcciones URL de redireccionamiento ni protegerse de posibles redirecciones malintencionadas.
+Si utiliza la funcionalidad ubox de [!DNL Target], tenga en cuenta que esta lista blanca también controlará la lista de los dominios por los que pueden navegar [los redirectores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . Asegúrese de agregar los dominios a los que desee redirigir cuando utilice ubox como parte de la implementación. Si no se especifica la lista de direcciones permitidas, Adobe no podrá verificar las direcciones URL de redireccionamiento ni protegerse de posibles redirecciones malintencionadas.
 
 La lista de direcciones permitidas tiene prioridad sobre los entornos. Se recomienda borrar todos los hosts antes de usar la función de lista de elementos permitidos. De esta forma, en la lista de hosts solo aparecerán aquellos permitidos. A continuación, puede mover los hosts al entorno que quiera.
 
