@@ -1,11 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices
+keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+workflow-type: tm+mt
+source-wordcount: '1820'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +33,7 @@ Para administrar hosts y entornos, haga clic en **[!UICONTROL Configuración]** 
 
 ![](assets/hosts_list.png)
 
-## Reconocer hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 Información sobre las condiciones que hay que cumplir para que [!DNL Target] reconozca un host y lo añada a la lista Hosts.
 
@@ -61,7 +64,7 @@ De forma predeterminada, un host recién reconocido se incluye en el entorno Pro
 >
 >El entorno Producción no se puede eliminar aunque se le cambie el nombre. Se da por hecho que desde este se van a suministrar las actividades y pruebas finales y activas. El entorno predeterminado no permite la visualización de campañas inactivas.
 
-## Administrar hosts y entornos {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
 
 Información útil para administrar hosts y entornos (grupos de hosts), incluido cómo configurar el host predeterminado para los informes, crear listas de direcciones permitidas, cambiar el nombre de un entorno, mover un host a otro entorno y eliminar un host o un entorno.
 
@@ -70,7 +73,7 @@ Para acceder a la lista [!UICONTROL Hosts], haga clic en **[!UICONTROL Configura
 
 ![](assets/hosts_list.png)
 
-## Filtrar, ordenar o buscar la lista Hosts {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 Para filtrar las listas [!UICONTROL Hosts] por entorno, haga clic en la lista desplegable **[!UICONTROL Todos]** y luego seleccione un entorno (Producción, Ensayo, Desarrollo o un entorno personalizado que haya creado).
 
@@ -78,11 +81,11 @@ Para ordenar la lista [!UICONTROL Hosts], haga clic en cualquier encabezado de c
 
 Para buscar la lista [!UICONTROL Hosts], escriba un término de búsqueda en el cuadro Buscar.
 
-## Seleccionar varios hosts   {#section_EF3B458475184B7EA997C3559714397C}
+## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
 
 Para seleccionar varios hosts, marque las casillas de verificación que hay junto a la columna [!UICONTROL Nombre] de los hosts que quiera. Luego puede mover o eliminar todos los hosts seleccionados.
 
-## Crear un entorno   {#section_32097D0993724DF3A202D164D3F18674}
+## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
 
 1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Entornos]**.
 1. Haga clic en **[!UICONTROL Crear entorno]**.
@@ -90,7 +93,7 @@ Para seleccionar varios hosts, marque las casillas de verificación que hay junt
 1. Indique el modo activo del entorno: [!UICONTROL Actividades activas] o [!UICONTROL Actividades activas e inactivas].
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Definir el host predeterminado para informes {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Puede seleccionar el entorno que quiere usar como predeterminado para todos los informes de actividad.
 
@@ -106,7 +109,7 @@ Para establecer el entorno predeterminado en la creación de informes:
 >
 >Los usuarios de [!DNL Recommendations] deben volver a generar la base de datos de comportamiento y la base de datos de producto si los hosts se cambian de grupo de hosts.
 
-## Crear listas de direcciones permitidas que incluyan los hosts que están autorizados a enviar llamadas de mbox a Target. {#section_0AF7F56C386A42C381AF704DEF08D5CC}
+## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
 Puede crear una lista de elementos permitidos que especifique los hosts (dominios) con autorización para enviar llamadas de mbox a [!DNL Target]. Todos los demás hosts que generen llamadas obtendrán una respuesta de error de autorización comentada. Todo host que contenga una llamada de mbox se registra en el entorno Producción de [!DNL Target] de forma predeterminada y tiene acceso a todas las actividades activas y aprobadas. Si este no es el método deseado, puede usar la lista de direcciones permitidas para registrar los hosts específicos que pueden realizar llamadas de mbox y recibir contenido de [!DNL Target]. Todos los hosts seguirán apareciendo en la lista [!UICONTROL Hosts] y los entornos podrán seguir utilizándose para agrupar estos hosts y asignar distintos niveles a cada uno, como, por ejemplo, si el host puede ver campañas activas o inactivas.
 
@@ -122,6 +125,8 @@ Para crear una lista de direcciones permitidas:
 
 Si se realiza una llamada de mbox en un host sin autorización, la llamada responde con `/* no display - unauthorized mbox host */`.
 
+Si utiliza la funcionalidad de ubox de [!DNL Target], tenga en cuenta que esta lista blanca también controlará la lista de los dominios por los que pueden navegar [los redirectores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . Asegúrese de agregar los dominios a los que desee redirigir cuando utilice ubox como parte de la implementación. Si no se especifica la lista de direcciones permitidas, Adobe no podrá verificar las direcciones URL de redireccionamiento ni protegerse de posibles redirecciones malintencionadas.
+
 La lista de direcciones permitidas tiene prioridad sobre los entornos. Se recomienda borrar todos los hosts antes de usar la función de lista de elementos permitidos. De esta forma, en la lista de hosts solo aparecerán aquellos permitidos. A continuación, puede mover los hosts al entorno que quiera.
 
 En ocasiones, aparecen dominios de otros sitios en los entornos. Los dominios que efectúen una llamada a su mbox.js aparecerán en la lista. Por ejemplo, si alguien copia una de sus páginas web en su servidor, ese dominio aparecerá en nuestro entorno. También es probable que vea dominios de motores de araña, sitios de traducción de idiomas o unidades de disco locales.
@@ -130,20 +135,20 @@ En casos en los que `mboxHost` se pasa en una llamada de API, la conversión se 
 
 También puede crear una lista de direcciones bloqueadas que incluya los hosts (dominios) que no pueden enviar llamadas de mbox a [!DNL Target]. Para ello, añada los hosts que quiera al cuadro [!UICONTROL El host no contiene].
 
-## Cambiar el nombre de un entorno {#section_9F5F94285F8E495E9CE69810CE94CA08}
+## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
 1. En la lista [!UICONTROL Hosts], haga clic en la ficha **[!UICONTROL Entornos]**.
 1. Pase el ratón sobre el entorno que quiera y luego haga clic en el icono **[!UICONTROL Editar]**.
 1. Cambie el nombre del entorno.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Mover un host a otro entorno {#section_9F52549958BD485EB74FE78C32773D2A}
+## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. En la lista [!UICONTROL Hosts], pase el ratón sobre el host que quiera mover.
 1. Haga clic en el icono **[!UICONTROL Mover]**.
 1. Seleccione el entorno que quiera en la lista desplegable y luego haga clic en el icono de la marca de verificación.
 
-## Eliminación de un host {#section_F56355BA4BC54B078A1A8179BC954632}
+## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 Puede eliminar un host cuando ya no vaya a necesitarlo.
 
@@ -155,7 +160,7 @@ Puede eliminar un host cuando ya no vaya a necesitarlo.
 >
 >El host vuelve a aparecer en la lista si alguien abre una página con mbox en el host.
 
-## Eliminar un entorno {#section_737F8869612047868D03FC755B1223D3}
+## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
 
 Puede eliminar un entorno que ya no vaya a necesitar.
 
