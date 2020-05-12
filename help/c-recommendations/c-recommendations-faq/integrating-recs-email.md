@@ -5,9 +5,9 @@ title: Integrar Recommendations con el correo electrónico
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1434'
 ht-degree: 93%
 
 ---
@@ -70,12 +70,12 @@ Configure una actividad de [!DNL Recommendations] en [!DNL Adobe Target] utiliza
 
 El sistema de correo electrónico que utilice debe poder solventar los siguientes problemas:
 
-**Se recibe una respuesta, pero no hay ninguna recomendación.**
+### Se recibe una respuesta, pero no hay ninguna recomendación
 
 * En este caso, la respuesta será la que esté establecida como valor del parámetro mboxDefault. Consulte la explicación sobre este parámetro más abajo.
 * El proveedor de correo electrónico debe tener un bloqueo HTML predeterminado de recomendaciones para utilizarlo en este caso.
 
-**El servidor de Target agota el tiempo de espera y vuelve sin datos.**
+### El servidor de Target agota el tiempo de espera y vuelve sin datos
 
 * En este caso, el servidor de Target devolverá el siguiente contenido:
 
@@ -87,13 +87,13 @@ El sistema de correo electrónico que utilice debe poder solventar los siguiente
    * Envíe ese correo electrónico en concreto y continúe con el siguiente.
    * Ponga en cola ese correo en concreto y vuelva ejecutar los correos electrónicos erróneos como un lote al final de la primera ejecución.
 
-**URL de solicitud de ejemplo:**
+### URL de solicitud de ejemplo
 
 ```
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
 ```
 
-**Parámetros necesarios:**
+### Parámetros necesarios: {#reqparams}
 
 >[!NOTE]
 >
@@ -107,11 +107,11 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Necesario para determinados tipos de criterio: visualización/visualización, visualización/compra, compra/compra) | *entity_id* | El productId en el que se basa la recomendación, como un producto que se ha dejado en el carro, o en una compra anterior.<br>Si el criterio lo requiere, la llamada de rawbox debe incluir el `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Si se pasa el `entity.id`, se recomienda pasar también este parámetro para evitar que la solicitud incremente el número de visualizaciones escrutadas de la página para un elemento y para no distorsionar los algoritmos de productos basados en visualizaciones. |  |
 | `entity.categoryId`<br>(Necesario para determinados tipos de criterio: más vistos por categoría y más vendidos por categoría) | *category_id* | La categoría en la que se basa la recomendación, como los más vendidos en una categoría.<br>Si el criterio lo requiere, la llamada de rawbox debe incluir el `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Si el parámetro `mboxNoRedirect` no está presente, `mboxDefault` debe ser una URL absoluta que devuelva el contenido predeterminado si no hay recomendaciones disponibles. Este puede ser una imagen u otro contenido estático.<br>Si el parámetro `mboxNoRedirect` está presente, `mboxDefault` puede ser cualquier texto que indique que no hay recomendaciones, por ejemplo `no_content`.<br>El proveedor de correo electrónico necesitará controlar el caso en el que este valor vuelva e inserte el HTML predeterminado en el correo electrónico. <br> Tenga en cuenta que si el dominio utilizado en la `mboxDefault` URL no está en la lista de dominios permitidos, puede correr el riesgo de sufrir una vulnerabilidad de redirección abierta. Para evitar el uso no autorizado de vínculos de redirector o `mboxDefault` por terceros, recomendamos utilizar &quot;hosts autorizados&quot; para incluir en la lista blanca los dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts para los dominios de la lista blanca a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de listas blancas que especifican hosts con autorización para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#whitelist) en *hosts*. |  |
+| `mboxDefault` | *`https://www.default.com`* | Si el parámetro `mboxNoRedirect` no está presente, `mboxDefault` debe ser una URL absoluta que devuelva el contenido predeterminado si no hay recomendaciones disponibles. Este puede ser una imagen u otro contenido estático.<br>Si el parámetro `mboxNoRedirect` está presente, `mboxDefault` puede ser cualquier texto que indique que no hay recomendaciones, por ejemplo `no_content`.<br>El proveedor de correo electrónico necesitará controlar el caso en el que este valor vuelva e inserte el HTML predeterminado en el correo electrónico. <br> *Práctica* recomendada de seguridad: Tenga en cuenta que si el dominio utilizado en la `mboxDefault` URL no está en la lista de dominios permitidos, puede correr el riesgo de sufrir una vulnerabilidad de redirección abierta. Para evitar el uso no autorizado de vínculos de redirector o `mboxDefault` por terceros, recomendamos utilizar &quot;hosts autorizados&quot; para incluir en la lista blanca los dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts para los dominios de la lista blanca a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de listas blancas que especifican hosts con autorización para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#whitelist) en *hosts*. |  |
 | `mboxHost` | *mbox_host* | Este es el dominio que se añade al entorno predeterminado (grupo de host) al activar la llamada. |  |
 | `mboxPC` | Empty | (Necesario para recomendaciones que utilizan el perfil de un visitante).<br>Si no se proporcionó el valor “thirdPartyId”, se genera un nuevo tntId que se devuelve como parte de la respuesta. En caso contrario, permanece vacío.<br>**Nota **: Asegúrese de proporcionar un valor exclusivo de`mboxSession`y`mboxPC`para cada destinatario del correo electrónico (es decir, para cada llamada a la API). Si no proporciona valores exclusivos en estos campos, la respuesta de la API podría ralentizarse o fallar debido al gran número de eventos generados dentro de un solo perfil. | 1 &lt; Longitud &lt; 128<br>No puede contener más de un “.” (punto).<br>El único punto permitido es el del sufijo de ubicación del perfil. |
 
-**Parámetros opcionales**:
+### Parámetros opcionales
 
 | Parámetro | Valor | Descripción | Información general |
 |--- |--- |--- |--- |
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(Opcional) | 1 | El llamador se redirige de forma predeterminada cuando no se encuentra contenido disponible. Utilícelo para desactivar el comportamiento predeterminado. |  |
 | `mbox3rdPartyId` | *xxx* | Utilícelo si tiene su propio ID de visitante personalizado para la segmentación de perfiles. |  |
 
-**Posibles respuestas del servidor de Target**:
+### Posibles respuestas del servidor de Target
 
 | Respuesta | Descripción |
 |--- |--- |
