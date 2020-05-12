@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 82%
 
 ---
@@ -29,6 +29,10 @@ Tanto la publicidad de AdBox como redirector se pueden usar en cualquier tipo de
 | AdBox | Devuelve distintas imágenes a la publicidad | Cambiar el contenido de una publicidad | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | oferta de redireccionamiento | Dirección URL de una imagen |
 | Redirector | Redirige a un visitante a otra página Web | Cambiar la página de aterrizaje de una publicidad | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | oferta de redireccionamiento | Dirección URL de una página |
 
+## Prácticas recomendadas de seguridad {#security}
+
+Tenga en cuenta que con Redirector, puede correr el riesgo de sufrir una vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector por parte de terceros, le recomendamos que utilice &quot;hosts autorizados&quot; para incluir en la lista blanca los dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts para los dominios de la lista blanca a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de listas blancas que especifican hosts con autorización para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#whitelist) en *hosts*.
+
 ## Restricciones {#section_38F559DCF1324271926608BCD4AB1227}
 
 * No existe la posibilidad de que se produzcan tiempos de espera de lado de cliente, como sucede con los mboxes estándar. Si Target está completamente inactivo, los visitantes de la publicidad no verán ningún contenido, ni siquiera el predeterminado.
@@ -36,4 +40,3 @@ Tanto la publicidad de AdBox como redirector se pueden usar en cualquier tipo de
 * Para usar cookies de origen en el propio AdBox, será necesario transmitir la sesión de mBox en la dirección URL. Póngase en contacto con el representante de la cuenta para llevar esto a cabo.
 * Para usar cookies de origen con objeto de rastrear clics de publicidad, transmita la sesión de mbox en la dirección URL. Póngase en contacto con el representante de la cuenta para llevar esto a cabo.
 * Para usar más de un AdBox en la misma página, deberá transmitir la sesión de mbox en la dirección URL. Póngase en contacto con el representante de la cuenta para llevar esto a cabo. Se puede tener un AdBox y un vínculo de redirector en la misma página (ya que, en realidad, el redirector se encuentra en otra página).
-* Tenga en cuenta que con Redirector, puede correr el riesgo de sufrir una vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector por parte de terceros, le recomendamos que utilice &quot;hosts autorizados&quot; para incluir en la lista blanca los dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts para los dominios de la lista blanca a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de listas blancas que especifican hosts con autorización para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#whitelist) en *hosts*.
