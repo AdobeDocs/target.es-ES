@@ -5,9 +5,9 @@ title: CNAME y Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e3600c10764ad93e59e9ff4b6e1810fa02d6425f
+source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -154,3 +154,8 @@ Utilice el siguiente conjunto de comandos (en el terminal de línea de comandos 
    >[!NOTE]
    >
    >Si este comando falla pero el `validateEdgeFpsslSni` comando anterior se ejecuta correctamente, es posible que tenga que esperar a que las actualizaciones DNS se propaguen por completo. Los registros DNS tienen un [TTL (tiempo de vida)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) asociado que determina el tiempo de caducidad de la caché para las respuestas DNS de esos registros, por lo que es posible que tenga que esperar al menos mientras los TTLs. Puede utilizar el `dig target.example.com` comando o [el Cuadro de herramientas](https://toolbox.googleapps.com/apps/dig/#CNAME) de G Suite para buscar los TTL específicos.
+
+## Limitaciones conocidas
+
+* El modo de control de calidad no será persistente cuando tenga CNAME y at.js 1.x porque se basa en una cookie de terceros. La solución consiste en agregar los parámetros de previsualización a cada dirección URL a la que navegue. El modo de control de calidad es persistente cuando tiene CNAME y at.js 2.x.
+* Actualmente, la `overrideMboxEdgeServer` configuración no funciona correctamente con CNAME. Esto debe establecerse como `false` para evitar que las solicitudes falle.
