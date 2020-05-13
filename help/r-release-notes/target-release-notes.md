@@ -5,10 +5,10 @@ title: Notas de la versión de evaluación de Adobe Destinatario
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: ae97b36e9a5aaa0394fb3b4ab1ad40b38a0c97be
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,23 +36,11 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 Con la próxima desaprobación de mbox.js el 30 de agosto de 2020, David Son, administrador de productos de Adobe Destinatario, organizó recientemente un chat de desarrollador para debatir las ventajas de migrar mbox.js a at.js. Durante los próximos 30 días, puede [vista de la grabación](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del seminario web.
 
-## Target Standard/Premium 20.4.1 (6 de mayo de 2020). 
+## Target Standard/Premium 20.5.1 (10 de junio de 2020). 
 
-Esta versión contiene las siguientes mejoras, correcciones y cambios:
+Los detalles de esta versión se publicarán aquí.
 
-* Se ha corregido un problema que no cumplía correctamente los requisitos de un dispositivo y un tipo de explorador para una audiencia. (TGT-36266)
-* Se ha corregido un problema que impedía que los datos del informe se mostraran cuando se visualizaban en pantallas de menos de 963 píxeles de ancho. (TGT-36549)
-* Se ha corregido un problema que provocaba que los informes de Personalización automática no se representaran correctamente. (TGT-36619)
-* Se ha corregido un problema que permitía seleccionar métricas incompatibles en la asignación automática y en actividades de Destinatario automático que usan Analytics para Destinatario (A4t). (TGT-36646)
-* Se ha corregido un problema que provocaba que determinadas opciones del Compositor de experiencias visuales (VEC) no se mostraran correctamente. (TGT-36571)
-* Se ha corregido un problema en la interfaz de usuario de Destinatario que provocaba que otras previsualizaciones de oferta de Recommendations mostraran el contenido editado después de que un usuario reemplazara el contenido en una única experiencia. (TGT-36053 y TGT-36894)
-* Se ha corregido un problema que impedía que algunos usuarios eliminaran elementos de un catálogo de Recomendaciones. (TGT-36455)
-* Se ha corregido un problema que impedía a los usuarios guardar los criterios de Recomendaciones en una actividad de varias páginas. (TGT-36249)
-* Se ha corregido un problema que provocaba que los botones de radio del origen de datos de comportamiento desaparecieran al editar los criterios por segunda vez consecutiva. (TGT-36796)
-* Se corrigió un problema de visualización que ocasionaba que un algoritmo de Recomendaciones mostrara &quot;recuperando resultados&quot; durante un período prolongado. (TGT-36550 y TGT-36551)
-* Se han actualizado muchas cadenas de IU traducidas en varios idiomas.
-
-## Cambios en la API de estado de lote de Perfil v2 (12 de mayo de 2020)
+## Cambios en la API de estado de lote de Perfil v2 (fecha TBD)
 
 Con la versión del 4 de mayo, el estado de Lote de Perfil solo devolverá datos de error de nivel de fila a partir de ahora (no se devolverán datos de éxito). La API devolverá los ID de perfil fallidos a partir de ahora.
 
