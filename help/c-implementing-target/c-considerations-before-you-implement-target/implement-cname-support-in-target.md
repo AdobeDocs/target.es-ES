@@ -5,7 +5,7 @@ title: CNAME y Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Realice los pasos siguientes para solicitar asistencia de CNAME en [!DNL Target]
 
       Para acelerar el proceso de correo electrónico de DCV, DigiCert proporciona la siguiente recomendación:
 
-      &quot;Verifique que su registrador/proveedor WHOIS no haya enmascarado ni eliminado las direcciones [de correo electrónico]relevantes. Si lo están, averigüe si proporcionan una forma (por ejemplo, una dirección de correo electrónico anónima o un formulario web) para permitir que las autoridades [de] certificados accedan a los datos WHOIS de su dominio&quot;.
+      &quot;Verifique que su registrador/proveedor WHOIS no haya enmascarado ni eliminado las direcciones de correo electrónico relevantes. Si lo están, averigüe si proporcionan una forma (por ejemplo, una dirección de correo electrónico anónima o un formulario web) para que permita a las autoridades de certificación acceder a los datos WHOIS de su dominio&quot;.
 
 1. Cree un registro CNAME en el DNS de su dominio que apunte a su nombre de host normal `clientcode.tt.omtrdc.net`. Por ejemplo: si el código de cliente es cnamecustomer y el nombre de host propuesto es `target.example.com`, el registro CNAME DNS debería tener este aspecto:
 
