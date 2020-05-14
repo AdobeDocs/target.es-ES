@@ -5,9 +5,9 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '7650'
+source-wordcount: '7664'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Mayo de 14 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se Añadió información sobre los cambios de la API v2 de estado de lote de Perfil. |
 | Mayo de 13 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sección &quot;Limitaciones conocidas&quot; Añadida. |
 | Mayo de 11 | [Hosts](/help/administrating-target/hosts.md) | Información Añadida sobre el uso de la funcionalidad ubox con redirecciones y listas blancas. |
 |  | [Trabajar con redirectores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Información Añadida sobre el uso de hosts para evitar vulnerabilidades de redireccionamiento abierto. |
