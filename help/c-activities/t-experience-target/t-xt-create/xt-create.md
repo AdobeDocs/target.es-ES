@@ -1,11 +1,14 @@
 ---
 description: Use el Compositor de experiencias visuales para crear una actividad de segmentación de experiencias (XT) en una página con Target habilitado y para modificar partes de la página en Adobe Target.
 title: Crear una actividad de segmentación de experiencias
-subtopic: Prueba multivariable
+subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +25,9 @@ Para obtener más información sobre la segmentación de experiencias, casos de 
 
 **Para crear una actividad XT:**
 
-1. En la lista [!UICONTROL Actividades], haga clic en **[!UICONTROL Crear actividad]** &gt; **[!UICONTROL Segmentación de experiencias]**.
+1. En la lista [!UICONTROL Actividades], haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Segmentación de experiencias]**.
 
-   ![Crear actividad &gt; Segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![Crear actividad > Segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
@@ -50,7 +53,7 @@ Para obtener más información sobre la segmentación de experiencias, casos de 
 
 1. Especifique la [URL de la actividad](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) y haga clic en **[!UICONTROL Siguiente]**.
 
-   Si la cuenta se [configura con una dirección URL predeterminada](/help/administrating-target/r-target-account-preferences/target-account-preferences.md) esa dirección URL aparece de manera predeterminada. Puede cambiar la dirección URL predeterminada con otra dirección, si es necesario.
+   Si la cuenta se [configura con una dirección URL predeterminada](/help/administrating-target/visual-experience-composer-set-up.md) esa dirección URL aparece de manera predeterminada. Puede cambiar la dirección URL predeterminada con otra dirección, si es necesario.
 
    Se abre el VEC y muestra la página especificada en la dirección URL.
 
