@@ -5,9 +5,9 @@ title: Notas de la versión para versiones anteriores
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
 workflow-type: tm+mt
-source-wordcount: '29279'
+source-wordcount: '29262'
 ht-degree: 92%
 
 ---
@@ -449,7 +449,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fuente de informes para actividades </p> </td> 
-   <td colname="col2"> <p>En <span class="wintitle">Configuración</span> &gt; <span class="wintitle">Preferencias</span>, puede seleccionar la fuente de informes para sus actividades, <span class="keyword">Target</span> o <span class="keyword">Adobe Analytics</span>. Si lo desea, también puede elegir la fuente de informes por actividad. </p> <p>A partir de esta versión, hay algunas consideraciones importantes sobre el flujo de trabajo que debe tener en cuenta al elegir el origen de informes en <span class="wintitle">Preferencias</span> o por actividad. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">Preferencias</a>. </p> </td> 
+   <td colname="col2"> <p>En <span class="wintitle">Configuración</span> &gt; <span class="wintitle">Preferencias</span>, puede seleccionar la fuente de informes para sus actividades, <span class="keyword">Target</span> o <span class="keyword">Adobe Analytics</span>. Si lo desea, también puede elegir la fuente de informes por actividad. </p> <p>A partir de esta versión, hay algunas consideraciones importantes sobre el flujo de trabajo que debe tener en cuenta al elegir el origen de informes en <span class="wintitle">Preferencias</span> o por actividad.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3391,7 +3391,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
  <tbody> 
   <tr> 
    <td colname="col1"> Aumento de ingresos previsto </td> 
-   <td colname="col2"> <p>Target puede calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora. </p> <p>Esto calcula el aumento obtenido por la experiencia ganadora y el número total de visitantes en toda la duración de la prueba, y muestra el aumento que obtendría si todos los visitantes vieran la experiencia ganadora y las tendencias continuaran igual que durante la prueba. </p> <p> La precisión del cálculo depende de varios factores, como las cifras previstas si continuaran las tendencias actuales. Estos valores se calculan según el rendimiento anterior y no debe utilizarse como orientación financiera. Los resultados futuros pueden variar. </p> <p>Consulte <a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local">Cálculo del alza de ingresos</a>. </p> </td> 
+   <td colname="col2"> <p>Target puede calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora. </p> <p>Esto calcula el aumento obtenido por la experiencia ganadora y el número total de visitantes en toda la duración de la prueba, y muestra el aumento que obtendría si todos los visitantes vieran la experiencia ganadora y las tendencias continuaran igual que durante la prueba. </p> <p> La precisión del cálculo depende de varios factores, como las cifras previstas si continuaran las tendencias actuales. Estos valores se calculan según el rendimiento anterior y no debe utilizarse como orientación financiera. Los resultados futuros pueden variar. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Deshacer/rehacer </td> 
