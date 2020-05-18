@@ -1,10 +1,13 @@
 ---
-keywords: Segmentación
+keywords: Targeting
 description: La dirección URL de actividad determina la página que se usa en la prueba multivariada (MVT) y que se abre cuando se diseña la prueba en Adobe Target.
 title: Dirección URL de actividad
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +22,7 @@ Cuando se le pida durante la [creación de la actividad](/help/c-activities/c-mu
 >
 >[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `https://www.adobe.com`] como [!DNL `http://www.adobe.com`] coinciden.
 
-De manera predeterminada, el [!UICONTROL Compositor de experiencias visuales] (VEC) abre la página que se ha especificado en [Preferencias de cuenta](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Puede especificar una página diferente durante la creación de la actividad.
+By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
 
 Para mostrar una página diferente después de que se abra el VEC, haga clic en el icono **[!UICONTROL Configurar]**, luego seleccione **[!UICONTROL Entrega de página]** y, a continuación, especifique la dirección URL.
 
@@ -38,7 +41,7 @@ Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
 
 Se pueden unir reglas adicionales a la dirección URL de la actividad con Y u O. Todas las reglas que agregue se evalúan entre sí con Y.
 
-Haga clic en **[!UICONTROL Guardar]cuando haya finalizado.**
+Haga clic en **[!UICONTROL Guardar]** cuando haya finalizado.
 
 >[!NOTE]
 >
