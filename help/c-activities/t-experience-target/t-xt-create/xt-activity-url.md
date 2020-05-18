@@ -1,10 +1,13 @@
 ---
-keywords: Segmentación
+keywords: Targeting
 description: La URL de actividad determina la página que se utiliza en la actividad de segmentación de experiencias y que se abre en el Compositor de experiencias visuales (VEC) o Compositor de experiencias basadas en formularios de Adobe Target cuando se diseña la actividad.
 title: Dirección URL de actividad
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +22,7 @@ La URL de actividad determina la página que se utiliza en la actividad de segme
    >
    >[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `https://www.adobe.com`] como [!DNL `http://www.adobe.com`] coinciden.
    >
-   >De manera predeterminada, el VEC o el compositor de experiencias basadas en formularios abre la página que indicada en las [Preferencias de cuenta](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Puede especificar una página diferente durante la creación de la actividad.
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
    >
    >Si indica una dirección URL de un sitio que no incluye el código de JavaScript de Target Standard, no podrá seleccionar elementos de página.
 
@@ -43,4 +46,4 @@ La URL de actividad determina la página que se utiliza en la actividad de segme
    * Parámetro de mbox
    Se pueden unir reglas adicionales a la dirección URL de la actividad con Y u O. Todas las reglas que agregue se evalúan entre sí con Y.
 
-1. Haga clic en **[!UICONTROL Guardar]cuando haya finalizado.**
+1. Haga clic en **[!UICONTROL Guardar]** cuando haya finalizado.
