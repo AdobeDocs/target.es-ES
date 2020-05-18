@@ -1,11 +1,14 @@
 ---
-keywords: Target Standard;preguntas frecuentes;faqs;hoja de referencia
+keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Una lista de preguntas más frecuentes sobre el uso de las funciones de Adobe Target, junto con información y vínculos para obtener más información.
 title: Preguntas más frecuentes sobre la optimización y personalización de Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '2904'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +134,7 @@ Use la configuración Prioridad disponible en el paso 3 del flujo de trabajo gui
 Existen dos opciones:
 
 * Predeterminado, con tres niveles (bajo/medio/alto)
-* Personalizado, con un rango de 0 a 999. Para Personalizar, habilite la característica de Prioridades específicas (Configuración &gt; Preferencias).
+* Personalizado, con un rango de 0 a 999. Para Personalizar, habilite la característica de Prioridades específicas (Configuración > Preferencias).
 
 ## Audiencias{#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -195,7 +198,7 @@ Pruebe la función [Ventanillas móviles](../c-experiences/c-visual-experience-c
 
 **Tengo varios dominios. Uno de los dominios necesita el Compositor de experiencia mejorada habilitado, mientras que otros necesitan que esté deshabilitado. ¿Cómo puedo hacer esto?**
 
-Siempre puede usar la opción del [Compositor de experiencia mejorada en el nivel](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) de actividad para anular la configuración predeterminada (Configuración &gt; Preferencias).
+Siempre puede usar la opción del [Compositor de experiencia mejorada en el nivel](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) de actividad para anular la configuración predeterminada (Configuración > Preferencias).
 
 **¿Por qué no veo una opción para intercambiar imágenes?**
 
@@ -253,7 +256,7 @@ Contamos con [Redirigir la función de la URL](../c-experiences/c-manage-content
 
 **¿Por qué no se realiza la entrega de contenido en mi proceso de control de calidad?**
 
-Es posible que su sitio tenga identificadores dinámicos, ID duplicados o clases dinámicas en elementos. Puede que tenga que evaluar las opciones de preferencia del sitio en el nivel de la cuenta (o en el nivel de actividad si el problema es específico de un dominio o una página). Consulte [Selectores CSS](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Es posible que su sitio tenga identificadores dinámicos, ID duplicados o clases dinámicas en elementos. Puede que tenga que evaluar las opciones de preferencia del sitio en el nivel de la cuenta (o en el nivel de actividad si el problema es específico de un dominio o una página). Consulte [Selectores CSS](/help/administrating-target/visual-experience-composer-set-up.md#css).
 
 **¿Por qué no veo la oferta/experiencia deseada y, en cambio, estoy viendo alguna otra actividad?**
 
