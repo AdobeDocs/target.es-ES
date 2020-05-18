@@ -1,29 +1,32 @@
 ---
-keywords: Segmentación;éxito;métrica de conversión;métrica de puntaje de página;métrica de vistas de página;métricas de ingresos;métrica de tiempo en el sitio;valor estimado;configuración avanzada;métricas de éxito
-description: En Adobe Target, las métricas de éxito están preconfiguradas tanto para informes como para seguimiento.
-title: Métricas de éxito en Adobe Target
+keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
+description: En Adobe Destinatario, las métricas de éxito están preconfiguradas tanto para fines de sistema de informes como de seguimiento.
+title: Métricas de éxito en Adobe Destinatario
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '1019'
+ht-degree: 92%
 
 ---
 
 
 # Métricas de éxito{#success-metrics}
 
-En Adobe Target, las métricas de éxito están preconfiguradas tanto para informes como para seguimiento.
+En Adobe Destinatario, las métricas de éxito están preconfiguradas tanto para fines de sistema de informes como de seguimiento.
 
 Las métricas de éxito son parámetros usados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target. Por ejemplo, puede determinar si una oferta nueva aumenta los ingresos por visitante o si agregar un artículo a un carro de compras. Las métricas de éxito pueden resultar útiles para detectar problemas con el registro, el pedido o los canales de compra, pero también con la participación del visitante o del cliente.
 
 De igual manera que hace [!DNL Target Standard] para simplificar la creación de pruebas, la aplicación ajusta algunas de las opciones que se configuraban de forma manual en [!DNL Target Classic]. Por ejemplo, las métricas de éxito están preconfiguradas con las opciones óptimas.
 
-By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. Las conversiones se cuentan una única vez, no se cuentan las conversiones repetidas y el visitante siempre ve el contenido de la prueba.
+By default, conversion events are set to &quot;Count once and keep the entrant in the activity&quot; in [!DNL Target Standard]. Las conversiones se cuentan una única vez, no se cuentan las conversiones repetidas y el visitante siempre ve el contenido de la prueba.
 
 Las métricas de ingresos establecidas en “Aumentar recuento y mantener al usuario en la actividad” registran los detalles de pedido únicamente para el primer pedido realizado por el mismo visitante. Todos los pedidos posteriores aumentan el contador de conversión, pero no añaden ingresos a RPV/AOV/Sales y no se incluyen en el informe Detalles del pedido.
 
 >[!NOTE]
 >
->El comportamiento predeterminado para las actividades que usan [Analytics como fuente](/help/c-integrating-target-with-mac/a4t/a4t.md) de informes (A4T) es "Aumentar recuento y mantener al usuario en la actividad" con "Una vez por visitante".
+>El comportamiento predeterminado para actividades que utilizan [Analytics como origen](/help/c-integrating-target-with-mac/a4t/a4t.md) de sistema de informes (A4T) es &quot;Aumentar recuento y mantener al usuario en la actividad&quot; con &quot;Una vez por visitante&quot;.
 
 Están disponibles las siguientes métricas de éxito:
 
@@ -41,7 +44,7 @@ También puede crear métricas de éxito personalizadas para adaptarse a sus nec
 
 Después de seleccionar la métrica de éxito, seleccione la acción realizada por un visitante para alcanzar el objetivo. Por ejemplo, elija una métrica de conversión, configúrela para que sea contabilizada una vez por visitante y, a continuación, establezca si desea que el éxito se alcance cuando un visitante visite una página determinada (o un conjunto de páginas), un mbox específico o bien haga clic en un vínculo concreto.
 
-Si está habilitado, el valor estimado de un campo de conversión (no disponible para la métrica Puntuación de página) proporciona un valor para el objetivo, pero no para el resto de las métricas. Este valor permite a [!DNL Target] calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. Para todas las métricas de ingresos (Ingresos por visitante, Valor de pedido promedio, Ventas totales y Pedidos), el cálculo usa Ingresos por visitante. El tipo de datos es moneda. Para obtener más información, consulte [Alza estimada en ingresos](../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE).
+Si está habilitado, el valor estimado de un campo de conversión (no disponible para la métrica Puntuación de página) proporciona un valor para el objetivo, pero no para el resto de las métricas. Este valor permite a [!DNL Target] calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. Para todas las métricas de ingresos (Ingresos por visitante, Valor de pedido promedio, Ventas totales y Pedidos), el cálculo usa Ingresos por visitante. El tipo de datos es moneda. Para obtener más información, consulte [Alza estimada en ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
 Las métricas de éxito que elija para la actividad estarán disponibles en la configuración de informes cuando visualice un informe de la actividad.
 
@@ -88,4 +91,4 @@ Este vídeo muestra cómo se utilizan las métricas de actividad.
 * Qué son y cómo compilar las métricas de conversión, ingresos y participación
 * Compilar una métrica para el rastreo de clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
