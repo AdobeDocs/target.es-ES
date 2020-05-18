@@ -5,7 +5,10 @@ title: Definir métricas
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +34,7 @@ Para obtener información detallada sobre las métricas de éxito, consulte  [M�
 
    La configuración disponible depende de la métrica de éxito que utilice.
 
-   Si se habilita, el [!UICONTROL Valor estimado del campo] Conversión (no disponible para las métricas Puntuación de página) proporciona un valor para el objetivo. Este valor permite a Target calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. El tipo de datos es moneda. Este campo se muestra de forma progresiva después de que el usuario indique la acción realizada para alcanzar el objetivo. Para obtener más información, consulte [Alza estimada en ingresos](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE).
+   Si se habilita, el [!UICONTROL Valor estimado del campo] Conversión (no disponible para las métricas Puntuación de página) proporciona un valor para el objetivo. Este valor permite a Target calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. El tipo de datos es moneda. Este campo se muestra de forma progresiva después de que el usuario indique la acción realizada para alcanzar el objetivo. Para obtener más información, consulte [Alza estimada en ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
    La configuración correcta de las métricas de éxito es crítica para asegurarse de que obtiene los datos esperados.
 
@@ -52,7 +55,7 @@ Tenga en cuenta que cuando nombra o renombra una métrica, no se permiten los si
 | - | Menos |
 | @ | Arroba |
 
-## Vídeo de formación: Métricas de actividad (7:43) Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Métricas de actividad (7:43) ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 
