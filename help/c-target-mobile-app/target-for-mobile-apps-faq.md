@@ -1,16 +1,19 @@
 ---
 keywords: mobile app;frequently asked questions;faq;target mobile app
-description: Preguntas más frecuentes sobre Adobe Target para aplicaciones móviles.
-title: Preguntas más frecuentes sobre Adobe Target para aplicaciones móviles
+description: Preguntas más frecuentes sobre Adobe Destinatario para aplicaciones móviles.
+title: Preguntas más frecuentes sobre Adobe Destinatario para aplicaciones móviles
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
+source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
 
-# Preguntas más frecuentes sobre Target para aplicaciones móviles
+# Preguntas más frecuentes sobre Destinatario para aplicaciones móviles
 
 Lista de las preguntas más frecuentes sobre [!DNL Target] las aplicaciones móviles.
 
@@ -30,18 +33,10 @@ Consulte la documentación [de](https://placesdocs.com/places-services-by-adobe-
 
 No, no necesita at.js para utilizar los SDK móviles. at.js es la biblioteca [!DNL Target] JavaScript para sitios web. Los SDK de Adobe Experience Platform Mobile son para aplicaciones móviles.
 
-## ¿Target Mobile es solo una funcionalidad de SKU de producto de Adobe Target Premium?
+## ¿Es Destinatario Mobile una funcionalidad de SKU de producto de Adobe Destinatario Premium?
 
-Para los clientes de Adobe Target Standard, puede utilizar nuestros SDK móviles solo para las actividades de Prueba A/B y Segmentación de experiencias (XT). Si desea utilizar las funciones de Recomendaciones o las funciones de AI en la aplicación móvil, necesita una licencia de [Adobe Target Premium](/help/c-intro/intro.md#premium) .
+Para los clientes de Adobe Destinatario Standard, puede utilizar nuestros SDK para móviles solo para actividades de Prueba A/B y Segmentación de experiencias (XT). Si desea utilizar las funciones de Recommendations o de AI en la aplicación móvil, necesita una licencia de [Adobe Destinatario Premium](/help/c-intro/intro.md#premium) .
 
-## ¿Puedo aprovechar las audiencias de Adobe Audience Manager (AAM) en el VEC para aplicaciones móviles?
+## ¿Existe una integración de aplicaciones móviles entre Adobe Experience Manager (AEM) y actividades móviles de Destinatario?
 
-Sí, los SDK de Adobe Experience Platform Mobile están creados para [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html), [Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html), [Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)y Target. Las audiencias en Audience Manager se comparten con [!DNL Target].
-
-## ¿Existe una integración de aplicaciones móviles entre Adobe Experience Manager (AEM) y las actividades móviles de Target?
-
-Está en nuestra hoja de ruta, pero todavía no hay cronología. Actualmente, puede compartir fragmentos [de](/help/c-experiences/c-manage-content/aem-experience-fragments.md) experiencia JSON de AEM a Target y es posible que después los use en una actividad de aplicación móvil.
-
-## ¿Puedo añadir más imágenes mediante el VEC o solo cambiar las imágenes existentes?
-
-Actualmente solo puede cambiar imágenes existentes.
+Está en nuestra hoja de ruta, pero todavía no hay cronología. Actualmente, puede compartir fragmentos [de](/help/c-experiences/c-manage-content/aem-experience-fragments.md) experiencia JSON de AEM a Destinatario y podría haber posibilidades de usarlos en una actividad de aplicación móvil.
