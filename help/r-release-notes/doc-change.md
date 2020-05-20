@@ -5,9 +5,9 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '842'
 ht-degree: 37%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Mayo de 20 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha Añadido información sobre la próxima versión de Destinatario Standard/Premium 20.6.1 (10 de junio de 2020). |
 | Mayo de 14 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se Añadió información sobre los cambios de la API v2 de estado de lote de Perfil. |
 | Mayo de 13 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sección &quot;Limitaciones conocidas&quot; Añadida. |
 | Mayo de 11 | [Hosts](/help/administrating-target/hosts.md) | Información Añadida sobre el uso de la funcionalidad ubox con redirecciones y listas blancas. |
