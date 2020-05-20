@@ -5,9 +5,9 @@ title: Notas de la versión de evaluación de Adobe Destinatario
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '413'
 ht-degree: 22%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 Este artículo contiene información de evaluación. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 14 de mayo de 2020**
+**Última actualización: 20 de mayo de 2020**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información en estas páginas puede ser la misma, según el tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -36,9 +36,12 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 Con la próxima desaprobación de mbox.js el 30 de agosto de 2020, David Son, administrador de productos de Adobe Destinatario, organizó recientemente un chat de desarrollador para debatir las ventajas de migrar mbox.js a at.js. Durante los próximos 30 días, puede [vista de la grabación](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del seminario web.
 
-## Target Standard/Premium 20.5.1 (10 de junio de 2020). 
+## Target Standard/Premium 20.6.1 (10 de junio de 2020). 
 
-Los detalles de esta versión se publicarán aquí.
+| Función.  / Mejora | Descripción |
+| --- | --- |
+| Función de editor | Esta nueva función es similar a la función de observador actual (puede crear actividades de vista, pero no puede crearlas o editarlas). Sin embargo, la función Editor tiene el permiso adicional para actividades activas. |
+| Página<br>de administraciónAnteriormente, &quot;Configuración&quot;. | Se ha cambiado el nombre de la página Configuración por &quot;Administración&quot; y se ha actualizado la interfaz de usuario de todos los elementos de menú para mejorar el flujo de trabajo y la facilidad de uso.<br>Los elementos de menú disponibles incluyen:<ul><li>Compositor de experiencias visuales</li><li>Creación de informes</li><li>Configuración de Scene7</li><li>Implementación</li><li>Propiedades</li><li>Hosts</li><li>Entornos</li><li>Tokens de respuesta</li><li>Usuarios</li></ul> |
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
