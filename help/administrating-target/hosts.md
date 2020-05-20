@@ -5,10 +5,10 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 68%
+source-wordcount: '1232'
+ht-degree: 65%
 
 ---
 
@@ -102,6 +102,10 @@ En ocasiones, aparecen dominios de otros sitios en los entornos. Un dominio apar
 En casos en los que `mboxHost` se pasa en una llamada de API, la conversión se registra para el entorno que se pasa. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
 También puede crear una lista de direcciones bloqueadas que incluya los hosts (dominios) que no pueden enviar llamadas de mbox a [!DNL Target]. Para ello, añada los hosts que quiera al cuadro [!UICONTROL El host no contiene].
+
+>[!NOTE]
+>
+>Dado que la lista Hosts autorizados se utiliza tanto para hosts de mbox como para hosts de redireccionamiento predeterminados, debe agregar todos los dominios existentes aprobados para utilizar el SDK de JavaScript de Adobe Destinatario (at.js) *Y* todos los dominios utilizados en las direcciones URL de redireccionamiento predeterminadas de ubox. También debe agregar dominios similares nuevos a la lista de dominios permitidos en el futuro.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
