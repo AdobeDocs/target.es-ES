@@ -5,10 +5,10 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 37%
+source-wordcount: '860'
+ht-degree: 36%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Mayo de 21 | [Nodos de borde de Destinatario de lista blanca](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Añadido `mboxedge30.tt.omtrdc.net` a la lista. |
 | Mayo de 20 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha Añadido información sobre la próxima versión de Destinatario Standard/Premium 20.6.1 (10 de junio de 2020). |
 |  | [Hosts](/help/administrating-target/hosts.md) | Nota Añadida a la sección &quot;Prácticas recomendadas de seguridad&quot;. |
 | Mayo de 14 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se Añadió información sobre los cambios de la API v2 de estado de lote de Perfil. |
