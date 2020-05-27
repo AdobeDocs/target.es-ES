@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 67%
+source-wordcount: '133'
+ht-degree: 44%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 67%
 # Administración de Target{#administer-target}
 
 Información para configurar Adobe Target, incluidas las preferencias, la implementación, la administración de usuarios, las propiedades, la configuración de Scene7, la administración de hosts y los tokens de respuesta.
+
+>[!NOTE]
+>
+>Los temas de esta sección, que se enumeran a continuación, se han actualizado para ofrecerle un vistazo a los cambios de la interfaz de usuario que se producirán en la versión Destinatario Standard/Premium 20.6.1 (10 de junio de 2020). La información presentada en estos temas se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
@@ -26,7 +30,7 @@ To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]
 * [Implementación](/help/c-implementing-target/implementing-target.md)
 * [Propiedades](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Hosts](/help/administrating-target/hosts.md)
-* [](/help/administrating-target/environments.md)Entornos
+* [Entornos](/help/administrating-target/environments.md)
 * [Tokens de respuesta](/help/administrating-target/response-tokens.md)
 * [Usuarios](/help/administrating-target/c-user-management/user-management.md)
 
