@@ -1,24 +1,43 @@
 ---
-keywords: agregar usuario;administrar usuario;permisos de usuario
+keywords: add user;manage user;user permissions
 description: Información sobre la administración de Usuarios en Target Standard y la administración de Propiedades y Permisos empresariales en Target Premium.
 title: Administración de usuarios
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 25%
 
 ---
 
 
 # Administración de usuarios{#user-management}
 
-Información sobre la administración de Usuarios en Target Standard y la administración de Propiedades y Permisos empresariales en Target Premium.
+Information about managing users in [!DNL Target] Standard and managing enterprise [!UICONTROL Properties] and [!UICONTROL Permissions] in [!DNL Target] Premium.
 
-La funcionalidad Propiedades y Permisos está disponible como parte de la solución [!DNL Target Premium]. No están disponibles en [!DNL Target Standard] sin una licencia de [!DNL Target Premium].
+>[!NOTE]
+>
+>La funcionalidad Propiedades y Permisos está disponible como parte de la solución [!UICONTROL . ][!DNL Target Premium] No están disponibles en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información sobre las funciones avanzadas de [!DNL Target] Premium, consulte [Destinatario Premium](/help/c-intro/intro.md#premium) en *Introducción a Destinatario*.
 
-Puede comprobar si su organización dispone de una licencia Standard o Premium haciendo clic en el vínculo [!UICONTROL Configuración] en la parte superior de la interfaz de usuario de Target.
+You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **Clientes de Target Standard:** Si ve la pestaña [!UICONTROL Usuarios] ([!UICONTROL Configuración] &gt; [!UICONTROL Usuarios]), su organización dispone de una licencia de Target Standard. Los clientes de Target Standard deben seguir las instrucciones en [Usuarios](/help/administrating-target/c-user-management/c-user-management/user-management.md) para agregar usuarios y asignar permisos en Adobe Admin Console.
-* **Clientes de Target Premium:** si ve la pestaña [!UICONTROL Propiedades] ([!UICONTROL Configuración] &gt; [!UICONTROL Propiedades]), su organización dispone de una licencia de Target Premium. Los clientes de Target Premium deben seguir las instrucciones de los [Permisos de usuario de Enterprise](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) y [Configurar permisos de Enterprise](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) para agregar usuarios y asignar permisos en Adobe Admin Console.
+* **Clientes de Destinatario Standard:** Si su organización tiene una licencia [!DNL Target] estándar, observará lo siguiente en la [!DNL Target] interfaz de usuario:
+
+   * Verá la ficha [!UICONTROL Usuarios] ( [!UICONTROL Administración] > [!UICONTROL Usuarios] )
+   * No *verá* la ficha [!UICONTROL Propiedades] ( [!UICONTROL Administración] > [!UICONTROL Propiedades] )
+   [!DNL Target]Los clientes de Standard deben seguir las instrucciones en [Usuarios](/help/administrating-target/c-user-management/c-user-management/user-management.md) para agregar usuarios y asignar permisos en Adobe Admin Console.
+
+* **Clientes de Destinatario Premium:** Si su organización dispone de una licencia [!DNL Target] Premium, observará lo siguiente en la interfaz de usuario de Destinatario:
+
+   * Verá la ficha [!UICONTROL Propiedades] ( [!UICONTROL Administración] > [!UICONTROL Propiedades] )
+   * También verá la ficha [!UICONTROL Usuarios] ( [!UICONTROL Administración] > [!UICONTROL Usuarios] )
+
+      [!DNL Target] Los clientes Premium deben seguir las instrucciones de Permisos [de usuario de](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Enterprise y [Configurar permisos](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) de empresa para agregar usuarios y asignar permisos en la [!DNL Adobe Admin Console].
+
+La siguiente ilustración muestra la página [!UICONTROL Administración] de una cuenta [!DNL Target] Premium. Tenga en cuenta que están disponibles las fichas [!UICONTROL Propiedades] y [!UICONTROL Usuarios] :
+
+![Ficha Administración](/help/administrating-target/assets/premium.png)
 
