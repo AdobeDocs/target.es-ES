@@ -5,10 +5,10 @@ title: Preguntas frecuentes sobre los informes de Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 35%
+source-wordcount: '1012'
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ Lista de las preguntas más frecuentes sobre los informes en [!DNL Target].
 
 ## ¿Cómo se cuentan las métricas Nuevos Visitantes y Visitantes que regresan?
 
-Tenga en cuenta lo siguiente:
+La siguiente información explica cómo se cuentan los Visitantes nuevos y los Visitantes que regresan y proporciona ejemplos de por qué la suma de estos dos segmentos no siempre suman el número total de visitantes.
 
 **Nuevos Visitantes**: Un visitante se incluye en el segmento Nuevos Visitantes si se cumple una de las siguientes condiciones:
 
@@ -31,16 +31,16 @@ Tenga en cuenta lo siguiente:
 
 Si estos dos segmentos se aplican a una actividad, el segmento Nuevos Visitantes y el segmento Visitantes que regresan no siempre suman el número total de visitantes.
 
-Considere el siguiente ejemplo, teniendo en cuenta las condiciones mencionadas anteriormente para nuevos Visitantes y Visitantes que regresan:
+Considere el siguiente ejemplo, teniendo en cuenta las condiciones mencionadas anteriormente para Nuevos Visitantes y Visitantes de retorno:
 
 * Un visitante visita el sitio por primera vez y se cuenta como un nuevo Visitante.
 * El visitante regresa al sitio después de que se cumplan las condiciones para los Visitantes de devolución y se cuenta como un Visitante de devolución.
 
 Este visitante se cuenta como un solo visitante en el recuento de visitantes global de la actividad aunque se cuente en los segmentos Nuevos Visitantes y Visitantes que regresan.
 
-Las discrepancias entre los recuentos de nuevos Visitantes y Visitantes que regresan también dependen de cómo configure las métricas [de](/help/c-activities/r-success-metrics/success-metrics.md)éxito de la actividad:
+Las discrepancias entre los recuentos de nuevos Visitantes y los Visitantes que regresan también dependen de cómo configure las métricas [de](/help/c-activities/r-success-metrics/success-metrics.md)éxito de la actividad.
 
-Consideremos el siguiente ejemplo:
+Por ejemplo:
 
 Varios visitantes nuevos visitan el sitio y están cualificados para una actividad. Estos nuevos visitantes se contabilizan en el segmento Nuevos Visitantes. Todos estos visitantes también registraron una visita a esa actividad.
 
