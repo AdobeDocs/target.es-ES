@@ -1,14 +1,14 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports
+keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Lista de las preguntas frecuentes sobre los informes en Adobe Target.
 title: Preguntas frecuentes sobre los informes de Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 7b57ef37f2764f5ec58c9a090edc295e81fdaaa9
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 50%
+source-wordcount: '862'
+ht-degree: 39%
 
 ---
 
@@ -16,6 +16,27 @@ ht-degree: 50%
 # Preguntas más frecuentes sobre la creación de informes{#reporting-faq}
 
 Lista de las preguntas más frecuentes sobre los informes en [!DNL Target].
+
+## ¿Cómo se cuentan las métricas Nuevos Visitantes y Visitantes que regresan?
+
+Tenga en cuenta lo siguiente:
+
+**Nuevos Visitantes**: Un visitante se incluye en el segmento Nuevos Visitantes si se cumple una de las siguientes condiciones:
+
+* Es la primera vez que el visitante visita el sitio.
+* Es la primera vez que el visitante visita el sitio desde que borró las cookies.
+* Es la primera vez que el visitante visita el sitio desde que caduca la duración [del perfil de](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) Visitante.
+
+**Visitantes** que regresan: El visitante se incluye en el segmento Visitantes que regresan si el usuario ya ha visitado el sitio, lo ha abandonado durante al menos 30 minutos y lo ha vuelto a visitar con las mismas cookies. Siempre que un visitante regrese mientras dure el perfil, se considerará un visitante recurrente.
+
+Si estos dos segmentos se aplican a una actividad, el segmento Nuevos Visitantes y el segmento Visitantes que regresan no siempre suman el número total de visitantes.
+
+Considere el siguiente ejemplo, teniendo en cuenta las condiciones mencionadas anteriormente para nuevos Visitantes y Visitantes que regresan:
+
+* Un visitante visita el sitio por primera vez y se cuenta como un nuevo Visitante.
+* El visitante regresa al sitio después de que se cumplan las condiciones para los Visitantes de devolución y se cuenta como un Visitante de devolución.
+
+Este visitante se cuenta como un solo visitante en el recuento de visitantes global de la actividad aunque se cuente en los segmentos Nuevos Visitantes y Visitantes que regresan.
 
 ## ¿Por qué mis informes de [!UICONTROL Segmentación de experiencias] (XT) contienen métricas para las experiencias de control?
 
