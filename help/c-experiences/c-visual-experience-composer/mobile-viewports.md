@@ -4,7 +4,10 @@ description: Las ventanillas móviles ayudan a obtener una vista previa de cómo
 title: Ventanillas móviles para las experiencias adaptables
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +45,7 @@ A continuación tiene las ventanillas móviles y las resoluciones de algunos dis
 | Google Pixel | 411 ancho x 731 alto | 1080 ancho x 1920 alto |
 | Google Pixel XL | 411 ancho x 731 alto | 1440 ancho x 2560 alto |
 | Google Pixel 2 | 411 ancho x 731 alto | 1080 ancho x 1920 alto |
-| Google Pixel 2 XL | 411 ancho x 731 alto | 1440 ancho x 2560 alto |
+| Google Pixel 2 XL | 411 ancho x 823 alto | 1440 ancho x 2880 alto |
 | Samsung Galaxy Note 5 | 480 ancho x 853 alto | 1440 ancho x 2560 alto |
 | LG G5 | 480 ancho x 853 alto | 1440 ancho x 2560 alto |
 | One Plus 3 | 480 ancho x 853 alto | 1080 ancho x 1920 alto |
@@ -152,7 +155,7 @@ Este caso de uso muestra cómo configurar experiencias para dos versiones de iPh
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Compositor de experiencias visuales (2 de 2) (7:29) Distintivo ![de información general](/help/assets/overview.png)
+### Compositor de experiencias visuales (2 de 2) (7:29) ![Distintivo de información general](/help/assets/overview.png)
 
 El siguiente vídeo de demostración incluye información sobre cómo usar el Compositor de experiencias visuales para trabajar con ventanillas móviles:
 
@@ -165,7 +168,7 @@ El siguiente vídeo de demostración incluye información sobre cómo usar el Co
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Preferencias de cuenta en la insignia ![Información general de Adobe Target](/help/assets/overview.png)
+### Preferencias de cuenta en la insignia ![Información general de Adobe Destinatario](/help/assets/overview.png)
 
 En este vídeo se explica cómo configurar las ventanillas móviles en las preferencias de cuenta a partir del minuto 4:40.
 
