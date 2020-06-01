@@ -5,9 +5,9 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '962'
 ht-degree: 35%
 
 ---
@@ -21,7 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 1 de junio | [Ventanillas móviles para las experiencias adaptables](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Se han actualizado las dimensiones y resoluciones de la ventanilla para Apple iPhone 11, Apple iPhone SE y Google Pixel 2 XL. |
+| 1 de junio | [Anuncios de Destinatario](/help/r-release-notes/target-announcements.md) | Se Añadió una nueva página para anunciar los próximos eventos de Destinatario. |
+|  | [Ventanillas móviles para las experiencias adaptables](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Se han actualizado las dimensiones y resoluciones de la ventanilla para Apple iPhone 11, Apple iPhone SE y Google Pixel 2 XL. |
 | Mayo de 28 | [Preguntas más frecuentes sobre la creación de informes](/help/c-reports/reporting-frequently-asked-questions.md) | Se ha añadido la siguiente pregunta frecuente: <ul><li>¿Cómo se cuentan las métricas Nuevos Visitantes y Visitantes que regresan?</li></ul> |
 | Mayo de 27 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Información Añadida sobre la compatibilidad de Analytics para Destinatario (A4T) con actividades de asignación automática. |
 | Mayo de 26 | [Atributos de perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Se Añadió la siguiente información: &quot;El parámetro permanece en el perfil después de desactivar la secuencia de comandos. Los usuarios cuyos perfiles ya contengan un parámetro que se utilice en la audiencia de una actividad se clasificarán en esa actividad&quot;. |
