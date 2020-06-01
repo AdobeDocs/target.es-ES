@@ -4,10 +4,10 @@ description: Las ventanillas móviles ayudan a obtener una vista previa de cómo
 title: Ventanillas móviles para las experiencias adaptables
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 98%
+source-wordcount: '1346'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,14 @@ A continuación tiene las ventanillas móviles y las resoluciones de algunos dis
 
 | Dispositivo | Tamaño de la ventanilla móvil | Resolución del dispositivo |
 |---|---|---|
+| iPhone SE | 375 ancho x 667 alto | 750 ancho x 1.334 alto |
+| iPhone 11 Pro Max | 414 ancho x 896 alto | 1242 ancho x 2688 alto |
+| iPhone 11 Xs máx. | 414 ancho x 896 alto | 1242 ancho x 2688 alto |
+| iPhone 11 | 414 ancho x 896 alto | 828 ancho x 1792 alto |
+| iPhone 11 Xr | 414 ancho x 896 alto | 828 ancho x 1792 alto |
+| iPhone 11 Pro | 375 ancho x 812 alto | 1125 ancho x 2436 alto |
+| iPhone 11 X | 375 ancho x 812 alto | 1125 ancho x 2436 alto |
+| iPhone 11 Xs | 375 ancho x 812 alto | 1125 ancho x 2436 alto |
 | iPhone X | 375 ancho x 812 alto | 1125 ancho x 2436 alto |
 | iPhone 8 Plus | 414 ancho x 736 alto | 1080 ancho x 1920 alto |
 | iPhone 8 | 375 ancho x 667 alto | 750 ancho x 1.334 alto |
