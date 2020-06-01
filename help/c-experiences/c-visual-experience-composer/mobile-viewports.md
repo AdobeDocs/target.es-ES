@@ -4,9 +4,9 @@ description: Las ventanillas móviles ayudan a obtener una vista previa de cómo
 title: Ventanillas móviles para las experiencias adaptables
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1281'
 ht-degree: 98%
 
 ---
@@ -33,8 +33,10 @@ A continuación tiene las ventanillas móviles y las resoluciones de algunos dis
 | iPhone 8 | 375 ancho x 667 alto | 750 ancho x 1.334 alto |
 | iPhone 7 Plus | 414 ancho x 736 alto | 1080 ancho x 1920 alto |
 | iPhone 7 | 375 ancho x 667 alto | 750 ancho x 1.334 alto |
+| iPhone 6s Más | 414 ancho x 736 alto | 1080 ancho x 1920 alto |
+| iPhone 6s | 375 ancho x 667 alto | 750 ancho x 1.334 alto |
+| iPhone 6 Plus | 414 ancho x 736 alto | 1080 ancho x 1920 alto |
 | iPhone 6 | 375 ancho x 667 alto | 750 ancho x 1.334 alto |
-| iPhone 6s | 414 ancho x 736 alto | 1080 ancho x 1920 alto |
 | iPad Pro | 1024 ancho x 1366 alto | 2048 ancho x 2732 alto |
 | iPad de tercera y cuarta generación | 768 ancho x 1024 alto | 1.536 ancho x 2.048 alto |
 | iPad Air 1 y 2 | 768 ancho x 1024 alto | 1.536 ancho x 2.048 alto |
