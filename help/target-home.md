@@ -3,10 +3,10 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentación de producto de Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 62%
+source-wordcount: '632'
+ht-degree: 63%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->Con la próxima desaprobación de mbox.js el 30 de agosto de 2020, David Son, administrador de productos de Adobe Destinatario, organizó recientemente un chat de desarrollador para debatir las ventajas de migrar mbox.js a at.js. Durante los próximos 30 días, puede [vista de la grabación](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del seminario web.
+>Consulte la página de anuncios de Destinatario para obtener información sobre los próximos eventos, incluidas las sesiones del Creador de conocimientos de Destinatario, los chats para desarrolladores, los seminarios web y las sesiones de Descanso de café de Destinatario. Para obtener más información, consulte Anuncios [de Destinatario](/help/r-release-notes/target-announcements.md).
 
 Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados según las funciones de usuario a las que van dirigidos:
 
