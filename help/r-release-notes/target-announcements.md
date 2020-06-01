@@ -4,7 +4,7 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de Destinatario
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -27,7 +27,9 @@ Como uno de los sitios B2E más grandes de Internet, `Adobe.com` ha asumido plen
 * Automatizar la ingestión de contenido en Recomendaciones de Destinatario
 * Rastree el rendimiento del contenido recomendado y cómo se correlaciona con la generación de posibles clientes
 
-Jueves 4 de junio de 2010:00 a.m. a 10:45 a.m. (EST)
+**Jueves 4 de junio de 2020**
+
+**10:00 a.m. a 10:45 a.m. (EST)**
 
 Para registrarse, visite la página de [registro en el sitio web](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)de Adobe Experience League.
 
