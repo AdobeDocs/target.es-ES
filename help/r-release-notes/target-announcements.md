@@ -4,9 +4,9 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de Destinatario
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
+source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ Información sobre los próximos eventos, incluidas las sesiones de Destinatario
 
 ## Adobe Destinatario Skill Builder: Cómo `Adobe.com` utiliza Adobe Sensei AI para personalizar experiencias
 
-Como uno de los sitios B2E más grandes de Internet, `Adobe.com` ha asumido plenamente su papel como &quot;Cliente cero&quot; para Adobe Experience Cloud, adoptando todas las soluciones para casos de uso B2B y B2C en todo el mundo. Como destino digital que sirve a una multitud de personas, incluidos creativos prácticos, especialistas en marketing no técnicos y compradores de TI profundamente técnicos, la personalización es crucial para el éxito de Adobe.com.
+**Jueves 4 de junio de 2020**
+
+**10:00 a.m. a 10:45 a.m. (EST)**
+
+Como uno de los sitios B2E más grandes de Internet, `Adobe.com` ha asumido plenamente su papel como &quot;Cliente cero&quot; para Adobe Experience Cloud, adoptando todas las soluciones para casos de uso B2B y B2C en todo el mundo. Como destino digital que sirve a una multitud de personas, incluidos creativos prácticos, especialistas en mercadotecnia no técnicos y compradores de TI profundamente técnicos, la personalización es crucial para el éxito de `Adobe.com`.
 
 Únase a los gerentes de productos Tamer Mina y Mark Tuyay para mostrar historias reales de cómo funciona la personalización `Adobe.com`. En este seminario web aprenderá a:
 
@@ -26,10 +30,6 @@ Como uno de los sitios B2E más grandes de Internet, `Adobe.com` ha asumido plen
 * Utilice experiencias fluidas para escalar el contenido recomendado en `Adobe.com`
 * Automatizar la ingestión de contenido en Recomendaciones de Destinatario
 * Rastree el rendimiento del contenido recomendado y cómo se correlaciona con la generación de posibles clientes
-
-**Jueves 4 de junio de 2020**
-
-**10:00 a.m. a 10:45 a.m. (EST)**
 
 Para registrarse, visite la página de [registro en el sitio web](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)de Adobe Experience League.
 
