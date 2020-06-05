@@ -4,34 +4,38 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de Destinatario
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
 
-# Anuncios de Destinatario
+# Anuncios y eventos de Destinatario
 
 Información sobre los próximos eventos, incluidas las sesiones de Destinatario Skill Builder, charlas para desarrolladores, seminarios web y sesiones de Destinatario Coffee Break.
 
-## Adobe Destinatario Skill Builder: Cómo `Adobe.com` utiliza Adobe Sensei AI para personalizar experiencias
+## Descanso de café de la comunidad de Adobe Destinatario
 
-**Jueves 4 de junio de 2020**
+**Miércoles, 10 de junio de 2020**
 
-**10:00 a.m. a 10:45 a.m. (EST)**
+**10:00 a 11:00 a.m. (PST)**
 
-Como uno de los sitios B2E más grandes de Internet, `Adobe.com` ha asumido plenamente su papel como &quot;Cliente cero&quot; para Adobe Experience Cloud, adoptando todas las soluciones para casos de uso B2B y B2C en todo el mundo. Como destino digital que sirve a una multitud de personas, incluidos creativos prácticos, especialistas en mercadotecnia no técnicos y compradores de TI profundamente técnicos, la personalización es crucial para el éxito de `Adobe.com`.
+Por favor, únase a nosotros para nuestra próxima [!DNL Adobe Target] sesión de preguntas y respuestas de la comunidad. Esto es parte de una serie que hemos iniciado recientemente para que nuestros expertos internos se involucren directamente con usted en nuestros hilos del foro para un &quot;Descanso del café&quot;. Considérela como el equivalente de un foro de la [!DNL Adobe Target] comunidad de una AMA (Pregúntame cualquier cosa) o un chat de Twitter.
 
-Únase a los gerentes de productos Tamer Mina y Mark Tuyay para mostrar historias reales de cómo funciona la personalización `Adobe.com`. En este seminario web aprenderá a:
+David Son, [!DNL Target] Product Manager, responderá todas sus preguntas. El área de experiencia de David incluye:
 
-* Mantener el contenido relevante y actualizado sin necesidad de actualizaciones manuales
-* Utilice experiencias fluidas para escalar el contenido recomendado en `Adobe.com`
-* Automatizar la ingestión de contenido en Recomendaciones de Destinatario
-* Rastree el rendimiento del contenido recomendado y cómo se correlaciona con la generación de posibles clientes
+* at.js 
+* Móvil
+* Alloy
+* API
 
-Para registrarse, visite la página de [registro en el sitio web](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)de Adobe Experience League.
+Pero siéntase libre de hacer cualquier pregunta relacionada con el Destinatario.
+
+Solo tiene que iniciar sesión en la comunidad [de](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) Adobe Destinatario para poder participar.
+
+[Registrarse aquí](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe Destinatario Skill Builder: Chat del desarrollador, migrar mbox.js de Adobe Destinatario a at.js {#skill-builder}
 
