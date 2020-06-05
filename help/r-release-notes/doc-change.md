@@ -5,10 +5,10 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 35%
+source-wordcount: '986'
+ht-degree: 34%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 5 de junio | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre el Descanso del Café de Destinatario de Adobe del 10 de junio. |
+| 4 de junio | [Informes de A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Se ha actualizado la sección &quot;Informes en Analytics&quot;. |
 | 1 de junio | [Anuncios de Destinatario](/help/r-release-notes/target-announcements.md) | Se Añadió una nueva página para anunciar los próximos eventos de Destinatario. |
 |  | [Ventanillas móviles para las experiencias adaptables](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Se han actualizado las dimensiones y resoluciones de la ventanilla para Apple iPhone 11, Apple iPhone SE y Google Pixel 2 XL. |
 | Mayo de 28 | [Preguntas más frecuentes sobre la creación de informes](/help/c-reports/reporting-frequently-asked-questions.md) | Se ha añadido la siguiente pregunta frecuente: <ul><li>¿Cómo se cuentan las métricas Nuevos Visitantes y Visitantes que regresan?</li></ul> |
