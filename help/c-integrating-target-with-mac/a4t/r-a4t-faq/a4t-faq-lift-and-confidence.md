@@ -5,7 +5,10 @@ title: 'Alza y confianza: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
+source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 55%
 
 ---
 
@@ -28,13 +31,14 @@ El nivel de confianza es la probabilidad de que la tasa de conversión medida se
 
 ## ¿Por qué no veo el alza y la confianza en las métricas calculadas?   {#lift-confidence}
 
-El alza y la confianza no son compatibles actualmente con las métricas calculadas. Sin embargo, en la mayoría de los casos esto no debería ser un problema porque la tasa de conversión calculada en el informe de A4T ya es una métrica calculada en la que el denominador es la métrica de normalización (instancias, visitas o visitantes). Por ejemplo, si selecciona la métrica de pedidos y la métrica de normalización es visitantes, la tasa de conversión (pedidos/visitantes) se calcula automáticamente a través del sistema de informes de A4T. La métrica de alza resultante refleja la diferencia en esa tasa de conversión entre las experiencias de texto cuando se compara con la predeterminada.
+Actualmente, las métricas calculadas no son compatibles con las funciones de alza y confianza. Esto se debe a que Analytics calcula las métricas en un nivel acumulado, en lugar de en un nivel de visitante. La confianza, en particular, es un cálculo a nivel de visitante.
 
-La mayoría de las métricas calculadas para la optimización se dividen en una de las dos categorías: Métricas acumuladas u otros cálculos de conversión, como Valor de pedido promedio (AOV).
+Los eventos no calculados (estándar) se admiten en alza y confianza. Se convierten en numeradores en la función de alza; el numerador no puede ser un cálculo en sí mismo. El denominador son las métricas de normalización (impresiones, visitas o visitantes). Algunos ejemplos de eventos estándar incluyen pedidos, ingresos, conversiones de actividades, eventos personalizados 1-1000, etc. Esto significa que las métricas de optimización comunes, como la tasa de conversión (Pedidos/Visitantes) y RPV (Ingresos/Visitantes), son compatibles con el alza y la confianza.
 
-Las métricas Acumuladas se utilizan cuando una organización emplea eventos únicos para capturar diferentes &quot;sabores&quot; de la conversión de almacenamiento. Por ejemplo: si su objetivo es promocionar los envíos de formularios de posibles clientes y tiene diez formularios de posibles clientes diferentes, puede crear eventos únicos para contar cada tipo de conversión de formularios. Para ver la cantidad total de todos los formularios de posibles clientes enviados, debe crear una métrica calculada simple para agregarlos juntos. Una forma mejor y más moderna de rastrear esto es implementar un solo evento de envío de posibles clientes en Analytics y, a continuación, usar una eVar para recopilar el tipo de formulario de posibles clientes. El uso de este método requiere menos variables y elimina la necesidad de acumuladas métricas individuales, y aún así puede ver la conversión holística del formulario de posibles clientes y desglosarla por tipo de formulario de posibles clientes mediante la eVar. Esto también elimina la necesidad de métricas acumuladas al evaluar el rendimiento de una actividad de Destinatario.
+Algunos ejemplos de métricas o casos de uso no admitidos son:
 
-Otra métrica calculada común, Valor de pedido promedio, no se admite actualmente con alza y confianza porque la métrica de normalización no es una métrica estándar (instancias, visitas o visitantes). En su lugar, se recomienda vigilar las dos métricas que influyen en AOV, Ingresos por Visitantes y Tasa de conversión.
+* Valor de pedido promedio (ingresos/pedido, por Visitante). No se admite AOV porque el numerador es una métrica calculada. En su lugar, se recomienda considerar las dos métricas que influyen en AOV: Ingresos por Visitantes y Tasa de conversión.
+* Métricas calculadas que son la suma de eventos estándar. Por ejemplo, puede rastrear diez formularios de posibles clientes diferentes en diez eventos distintos y luego agregarlos para obtener el total de envíos de posibles clientes. Un método recomendado para rastrear estos eventos es implementar un solo evento de envío de posibles clientes en Analytics y, a continuación, usar una eVar para recopilar el tipo de formulario de posibles clientes. El uso de este método requiere menos variables y garantiza que puede utilizar la métrica de envío de posible cliente único en las funciones de alza y confianza.
 
 ## ¿Cómo gestiona A4T los cálculos de confianza?   {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
