@@ -4,9 +4,9 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de Destinatario
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ David Son, [!DNL Target] Product Manager, responderá todas sus preguntas. El á
 
 * at.js 
 * Móvil
-* Alloy
+* Adobe Experience Platform - AEP Web SDK (Alloy)
 * API
 
 Pero siéntase libre de hacer cualquier pregunta relacionada con el Destinatario.
