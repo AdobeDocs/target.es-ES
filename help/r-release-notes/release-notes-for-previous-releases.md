@@ -5,7 +5,7 @@ title: Notas de la versión para versiones anteriores
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '29262'
 ht-degree: 92%
@@ -281,6 +281,7 @@ Esta versión incorpora las siguientes funciones, cambios y mejoras:
 
    * Las carpetas que no estén vacías en la biblioteca de ofertas de imágenes se pueden eliminar. Si no se hace referencia a todas las imágenes de la carpeta en ninguna actividad, se eliminará toda la carpeta y su contenido. Si se hace referencia a algunas imágenes dentro de la carpeta en cualquier actividad, se eliminan todas las imágenes sin referencia, pero se conservan las imágenes y carpetas que contienen esas imágenes.
    * La representación de ofertas de imágenes en el selector de recursos de imagen se hace más rápida y eficaz.
+
    Para obtener más información, consulte [Trabajo con contenido en la biblioteca](/help/c-experiences/c-manage-content/assets-working.md). (TGT-32897)
 
 * Hemos mejorado la representación de ofertas de imagen en el Selector de recursos. Ahora, mostrar y seleccionar ofertas de imagen es más rápido y eficaz. (TGT-32897)
@@ -462,6 +463,7 @@ En esta versión de [!DNL Target] se incluyen las siguientes mejoras, correccion
 
    * Si se eliminó una audiencia en AAM, se muestra un icono de advertencia tanto en la lista de [!UICONTROL Audiencias] como en el selector de audiencias. Una información sobre herramientas en la IU también indica que la audiencia se eliminó en AAM.
    * Si intenta combinar varias audiencias con una audiencia eliminada, o si intenta guardar una actividad que hace referencia a una audiencia eliminada, aparecerá un mensaje de advertencia.
+
    Consulte [Acerca de las audiencias](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html).
 
 * Se ha solucionado un problema que impedía a los usuarios en ciertas situaciones poder crear una actividad cuando se seleccionaba Adobe Analytics como fuente de informes en la página [!UICONTROL Configuración]. Los usuarios veían el mensaje “Seleccione un grupo de informes”, pero no se les daba la opción de seleccionar el grupo de informes. (TGT-31968)
@@ -1815,7 +1817,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Se ha mejorado el compositor de experiencias visuales (VEC) </p> </td> 
-   <td colname="col2"> <p>Se han actualizado las direcciones IP para el compositor de experiencias visuales (VEC) mejorado. </p> <p>Si añade en la lista blanca direcciones IP utilizadas para el VEC, añada las nuevas direcciones IP. </p> <p>Para obtener más información, consulte <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Solución de problemas del Compositor de experiencias visuales </a>. </p> </td> 
+   <td colname="col2"> <p>Se han actualizado las direcciones IP para el compositor de experiencias visuales (VEC) mejorado. </p> <p>Si permite enumerar las direcciones IP utilizadas para el VEC, agregue las nuevas direcciones IP. </p> <p>Para obtener más información, consulte <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Solución de problemas del Compositor de experiencias visuales </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2187,6 +2189,7 @@ Se han informado los siguientes problemas conocidos:
    1. Cambie la dirección por una URL ficticia y guarde.
    1. Vuelva a cambiar la URL ficticia por la dirección URL de redireccionamiento esperada de la campaña.
    1. Marque la opción “Incluir parámetros de consulta actuales” y guarde.
+
    Si marca la opción al crear una oferta de redireccionamiento nueva, los parámetros de consulta se incluirán en el redireccionamiento.
 
    En el caso de las actividades antiguas, si se marca esta opción en el compositor de experiencias de la actividad, el redireccionamiento incluirá los parámetros de consulta. Si no se marca, los parámetros de consulta actuales no se incluirán en el redireccionamiento.
