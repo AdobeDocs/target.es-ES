@@ -5,10 +5,10 @@ title: Control de calidad de la actividad
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -83,7 +83,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
    Se recomienda hablar con su equipo de TI para asegurar que todos los parámetros de la vista previa estén en la lista de admitidos, de manera que estos valores no se transformen en modo alguno.
 
-   La tabla siguiente enumera los parámetros que se pueden incluir en listas de admitidos en su dominio:
+   La siguiente tabla lista los parámetros que se pueden admitir en el dominio:
 
    | Parámetro | Tipo | Valor | Descripción |
    |--- |--- |--- |--- |
