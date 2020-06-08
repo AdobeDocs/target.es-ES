@@ -5,9 +5,9 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1040'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 8 de junio | [Preguntas más frecuentes sobre Destinatario para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Se ha actualizado el texto de las siguientes preguntas más frecuentes: &quot;¿Es Destinatario Mobile una funcionalidad exclusiva del SKU de producto de Adobe Destinatario Premium?&quot; |
+|  | [Visualización de informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Se ha actualizado todo el tema. |
 | 5 de junio | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre el Descanso del Café de Destinatario de Adobe del 10 de junio. |
 |  | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Se ha actualizado el texto de las siguientes preguntas más frecuentes: &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
 | 4 de junio | [Informes de A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Se ha actualizado la sección &quot;Informes en Analytics&quot;. |
