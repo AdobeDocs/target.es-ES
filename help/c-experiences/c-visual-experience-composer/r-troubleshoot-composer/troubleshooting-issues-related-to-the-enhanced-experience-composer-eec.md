@@ -1,10 +1,13 @@
 ---
-keywords: Segmentación;eec;compositor de experiencias visuales;resolución de problemas del compositor de experiencias mejorado;resolución de problemas
+keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: Los problemas de visualización a veces ocurren en el Compositor de experiencias mejorado (EEC) bajo ciertas condiciones.
 title: Resolución de problemas relacionados con el Compositor de experiencias mejorado
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 71%
 
 ---
 
@@ -15,9 +18,9 @@ Los problemas de visualización a veces ocurren en el Compositor de experiencias
 
 ## El EEC no carga una URL de control de calidad interna que no es accesible desde una IP pública. (Solo EEC) {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Esto se puede resolver al hacer una lista blanca con las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los visitantes del sitio no necesitan tener una lista blanca con estas direcciones IP
+Esto se puede resolver permitiendo enumerar las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los Visitantes del sitio no necesitan que estas direcciones IP estén permitidas
 
-Pida al equipo de TI que incluya las siguientes direcciones IP en una lista blanca:
+Pida a su equipo de TI que permita enumerar las siguientes direcciones IP:
 
 | Región | Direcciones IP | Nombres de host |
 |--- |--- |--- |
@@ -27,7 +30,7 @@ Pida al equipo de TI que incluya las siguientes direcciones IP en una lista blan
 
 Puede ver el siguiente mensaje de error en Target:
 
-`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can whitelist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
 ![](assets/EEC_error.png)
 
@@ -35,24 +38,24 @@ Lo que sigue son motivos por los que podría ver este mensaje de error y remedio
 
 * **Problema**: el dominio del sitio web (ISP) está bloqueando el Compositor de experiencias mejorado.
 
-   **Remedio:** incluya en la lista de direcciones permitidas las direcciones IP indicadas arriba.
+   **Remedio:** Permita enumerar las direcciones IP enumeradas arriba.
 
-* **Problema:** las direcciones IP están en una lista blanca, pero el sitio web no admite TLS versión 1.2. Target actualmente usa la configuración predeterminada de 1.2. Antes de Target 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte   [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **Problema:** Las direcciones IP están permitidas pero su sitio web no admite TLS versión 1.2. Destinatario utiliza actualmente la configuración predeterminada de 1.2. Antes del Destinatario 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte Cambios [](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)en el cifrado de TLS (Transport Layer Security).
 
    **Solución:** vea la siguiente pregunta (El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio que usan TLS 1.2).
 
 ## El EEC no se carga en páginas seguras de mi sitio que utilizan TLS 1.0. (Solo EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Podría ver el mensaje de error descrito en “El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio”. si las direcciones IP están en una lista blanca, pero el sitio web no admite TLS versión 1.2. Target actualmente usa la configuración predeterminada de 1.2. Antes de Target 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte   [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Podría ver el mensaje de error descrito en “El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio”. if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegadores tienen pasos similares):
 
 1. Abra el sitio web afectado en Firefox.
-1. Haga clic en el icono **[!UICONTROL Mostrar información del sitio]en la barra de direcciones del navegador.**
+1. Haga clic en el icono **[!UICONTROL Mostrar información del sitio]** en la barra de direcciones del navegador.
 
    ![](assets/firefox_more_info.png)
 
-1. Haga clic en **[!UICONTROL Mostrar detalles de conexión]** &gt; **[!UICONTROL Más información]**.
+1. Haga clic en **[!UICONTROL Mostrar detalles de conexión]** > **[!UICONTROL Más información]**.
 
    ![](assets/firefox_more_info_2.png)
 
