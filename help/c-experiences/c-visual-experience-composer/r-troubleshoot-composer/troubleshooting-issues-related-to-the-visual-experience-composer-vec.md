@@ -1,10 +1,13 @@
 ---
-keywords: Segmentación;compositor de experiencias visuales;lista;direcciones permitidas;lista de direcciones permitidas;vec;resolución de problemas del compositor de experiencias visuales;resolución de problemas;tls;tls 1.2
+keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: En ocasiones pueden producirse problemas de visualización en el compositor de experiencias visuales (VEC), según determinadas condiciones.
 title: Resolución de problemas relacionados con el Compositor de experiencias visuales
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Varios problemas pueden afectar al rendimiento de la página en los compositores
 
 Si ocurren problemas en el Compositor de experiencias mejorado, pruebe desactivar el Compositor de experiencias mejorado y use en cambio el Compositor de experiencias visuales.
 
-Para deshabilitar el Compositor de experiencias mejorado, vaya a **[!UICONTROL Configuración]** &gt; **[!UICONTROL Preferencias]** y desactive la opción **[!UICONTROL Activar el compositor de experiencias mejorado]**.
+Para deshabilitar el Compositor de experiencias mejorado, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Preferencias]** y desactive la opción **[!UICONTROL Activar el compositor de experiencias mejorado]**.
 
 Algunos usuarios ven el siguiente mensaje de error en la consola:
 
@@ -81,6 +84,7 @@ Para la extensión del encabezado de respuesta de modificación (Firefox), ya qu
          >Los encabezados manipulados mediante Requestly distinguen entre mayúsculas y minúsculas.
 
       * Cambie **[!UICONTROL Es igual a]** por **[!UICONTROL Contiene]** como condición para la dirección URL de origen e introduzca la URL de la actividad que está intentando cargar en el VEC.
+
       ![](assets/chrome_extension.png)
 
 
@@ -116,7 +120,7 @@ Después de configurar una extensión, abra Target. Sus páginas ahora deberían
 
 ## Al lanzar una URL para una actividad del VEC, la consola muestra el siguiente mensaje de error: “El error ReferenceError: _AT no capturado no está definido”. (Solo VEC) {#section_BB5B9B629AC4452496A82943EFF72B85}
 
-Este error se da al intentar suministrar campañas del Compositor de experiencias visuales (VEC) sin haber actualizado el archivo mbox.js descargado de la interfaz de usuario de Target con la opción [!UICONTROL Actividades del Compositor de experiencias visuales de soporte] habilitada ([!UICONTROL Configuración] &gt; [!UICONTROL Implementación] &gt; [!UICONTROL mbox.js] &gt; [!UICONTROL Editar la configuración de mbox.js]).
+Este error se da al intentar suministrar campañas del Compositor de experiencias visuales (VEC) sin haber actualizado el archivo mbox.js descargado de la interfaz de usuario de Target con la opción [!UICONTROL Actividades del Compositor de experiencias visuales de soporte] habilitada ([!UICONTROL Configuración] > [!UICONTROL Implementación] > [!UICONTROL mbox.js] > [!UICONTROL Editar la configuración de mbox.js]).
 
 Asegúrese de que esta opción de configuración esté habilitada y luego descargue y actualice mbox.js en su sitio web.
 
