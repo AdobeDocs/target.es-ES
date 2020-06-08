@@ -84,7 +84,6 @@ Para la extensión del encabezado de respuesta de modificación (Firefox), ya qu
          >Los encabezados manipulados mediante Requestly distinguen entre mayúsculas y minúsculas.
 
       * Cambie **[!UICONTROL Es igual a]** por **[!UICONTROL Contiene]** como condición para la dirección URL de origen e introduzca la URL de la actividad que está intentando cargar en el VEC.
-
       ![](assets/chrome_extension.png)
 
 
