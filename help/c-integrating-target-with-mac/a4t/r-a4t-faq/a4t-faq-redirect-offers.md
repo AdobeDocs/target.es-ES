@@ -1,11 +1,14 @@
 ---
-keywords: faq;preguntas más frecuentes;analytics para target;a4T;redireccionamiento;oferta de redireccionamiento;adobe-mc-sdid;adobe_mc_ref
+keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el uso de ofertas de redireccionamiento al usar Analytics como fuente de informes para Target (A4T).
 title: 'Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +76,7 @@ Estos parámetros se agregan automáticamente a las direcciones URL de redirecci
 
 ## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-Debe trabajar junto a su equipo de TI para que los parámetros (`adobe_mc_sdid` y `adobe_mc_ref`) resulten admitidos.
+You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
 
 ## ¿Qué sucede si yo no utilizo A4T en mi actividad de redireccionamiento y no quiero que se agreguen estos parámetros adicionales a mis direcciones URL?{#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -87,7 +90,7 @@ Si utiliza A4T y ofertas de redireccionamiento, Target añade los parámetros `a
 
 Debido a esta doble codificación, cuando la API de visitante intenta descodificar el valor `adobe_mc_sdid`, no consigue extraer el valor SDID y genera un SDID nuevo. Esto provoca que se envíen valores SDID incorrectos a Target y a Analytics, y que se vean divisiones de redireccionamiento desiguales en los informes de Analytics.
 
-Se recomienda hablar con el equipo de TI para asegurar que `adobe_mc_ref` y `adobe_mc_sdid` estén en la lista de admitidos, de manera que estos valores no se transformen de modo alguno.
+We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
 
 ## ¿Por qué se debe pasar la dirección URL de referencia a la nueva página?{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
