@@ -5,9 +5,9 @@ title: Preguntas más frecuentes sobre Adobe Destinatario para aplicaciones móv
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ No, no necesita at.js para utilizar los SDK móviles. at.js es la biblioteca [!D
 
 ## ¿Es Destinatario Mobile una funcionalidad de SKU de producto de Adobe Destinatario Premium?
 
-Para los clientes de Adobe Destinatario Standard, puede utilizar nuestros SDK para móviles solo para actividades de Prueba A/B y Segmentación de experiencias (XT). Si desea utilizar las funciones de Recommendations o de AI en la aplicación móvil, necesita una licencia de [Adobe Destinatario Premium](/help/c-intro/intro.md#premium) .
+No. Para [!DNL Adobe Target Standard] los clientes, puede utilizar nuestros SDK móviles para las actividades A/B Test and Experience Targeting (XT) solo con el complemento [!DNL Target Standard] Mobile App. Si desea utilizar las funciones de Recommendations o de AI en la aplicación móvil, necesita una licencia de [Adobe Destinatario Premium](/help/c-intro/intro.md#premium) .
 
 ## ¿Existe una integración de aplicaciones móviles entre Adobe Experience Manager (AEM) y actividades móviles de Destinatario?
 
