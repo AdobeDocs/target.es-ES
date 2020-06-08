@@ -1,14 +1,14 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
 title: Entornos
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. La administración de hosts también permite garantizar la calidad de las nuevas actividades y el contenido en los entornos de prueba, ensayo y desarrollo antes de activar las actividades.
 
-[!DNL Target] no limita un host que pueda enviar y recibir mboxes, de modo que cuando aparecen servidores o dominios nuevos, funcionan automáticamente (si no se ha configurado una lista de direcciones permitidas o de direcciones bloqueadas). Esto permite, asimismo, realizar pruebas de anuncios en distintos dominios que no conoce o no puede prever.
+[!DNL Target] no limita a un host que puede enviar y recibir mboxes, por lo que cuando surgen nuevos dominios o servidores, funcionan automáticamente (a menos que haya configurado una lista de permitidos o una lista de bloqueo). Esto permite, asimismo, realizar pruebas de anuncios en distintos dominios que no conoce o no puede prever.
 
 Para administrar entornos, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Entornos]**.
 
