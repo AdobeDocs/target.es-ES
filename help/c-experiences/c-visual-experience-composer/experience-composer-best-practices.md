@@ -1,11 +1,14 @@
 ---
-keywords: compositor de experiencias visuales;prácticas recomendadas del compositor de experiencias visuales;limitaciones del compositor de experiencias visuales;advertencias del compositor de experiencias visuales;prácticas recomendadas del vec;vec
+keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: Estas prácticas recomendadas pueden contribuir a que las experiencias funcionen correctamente. También hay que tener en cuenta otros consejos y limitaciones al usar el Compositor de experiencias visuales (VEC).
 title: Prácticas recomendadas y limitaciones del Compositor de experiencias visuales
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2446'
+ht-degree: 98%
 
 ---
 
@@ -28,13 +31,13 @@ Coloque el código mbox.js al final de la sección `<head>` sin ninguna declarac
 
 **Puede habilitar el Compositor de experiencias mejorado en la cuenta (se habilitará en todas las actividades de la cuenta) o en cada actividad por separado.**
 
-Para habilitar el Compositor de experiencias mejorado en toda la cuenta, haga clic en [!UICONTROL Configuración &gt; Preferencias] y coloque el conmutador en la posición Activado.
+Para habilitar el Compositor de experiencias mejorado en toda la cuenta, haga clic en [!UICONTROL Configuración > Preferencias] y coloque el conmutador en la posición Activado.
 
-Para habilitar el Compositor de experiencias mejorado en una actividad al crearla en el Compositor de experiencias visuales, haga clic en [!UICONTROL Configurar &gt; Dirección URL] y coloque el conmutador en la posición Activado.
+Para habilitar el Compositor de experiencias mejorado en una actividad al crearla en el Compositor de experiencias visuales, haga clic en [!UICONTROL Configurar > Dirección URL] y coloque el conmutador en la posición Activado.
 
-**Si el Compositor de experiencias visuales mejorado no se carga en las páginas seguras de su sitio, puede añadir ciertas direcciones IP a la lista de direcciones permitidas.**
+**Puede permitir enumerar determinadas direcciones IP si el Compositor de experiencias visuales mejorado no se carga en páginas seguras del sitio.**
 
-Los problemas que impiden que el Compositor de experiencias visuales mejorado se cargue se pueden resolver añadiendo a la lista de direcciones permitidas las direcciones IP siguientes. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los visitantes del sitio no necesitan tener una lista blanca con estas direcciones IP.
+Los problemas al cargar el Compositor de experiencias visuales mejorado se pueden resolver si se permiten enumerar las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los Visitantes al sitio no necesitan que estas direcciones IP estén permitidas.
 
 Estados Unidos: 52.55.99.45, 54.80.158.92 y 54.204.197.253
 
@@ -254,7 +257,7 @@ Después de intercambiar una imagen, no se puede editar la dirección URL Scene7
 
 **No se pueden editar los elementos HTML con orígenes externos.**
 
-Por ejemplo, las etiquetas HTML &lt;audio&gt;, &lt;video&gt;, &lt;embed&gt;, &lt;iFrame&gt; y &lt;frame&gt;.
+Por ejemplo, las etiquetas HTML &lt;audio>, &lt;video>, &lt;embed>, &lt;iFrame> y &lt;frame>.
 
 **El rastreo de clics no funciona para elementos de anclaje que contienen cualquier otra cosa que no sea texto sin formato o etiquetas de imagen.**
 
