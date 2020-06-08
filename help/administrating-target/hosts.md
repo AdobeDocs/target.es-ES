@@ -1,14 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 65%
+ht-degree: 57%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. La administración de hosts también permite garantizar la calidad de las nuevas actividades y el contenido en los entornos de prueba, ensayo y desarrollo antes de activar las actividades.
 
-[!DNL Target] no limita un host que pueda enviar y recibir mboxes, de modo que cuando aparecen servidores o dominios nuevos, funcionan automáticamente (si no se ha configurado una lista de direcciones permitidas o de direcciones bloqueadas). Esto permite, asimismo, realizar pruebas de anuncios en distintos dominios que no conoce o no puede prever.
+[!DNL Target] no limita a un host que puede enviar y recibir mboxes, por lo que cuando surgen nuevos dominios o servidores, funcionan automáticamente (a menos que haya configurado una lista de permitidos o una lista de bloqueo). Esto permite, asimismo, realizar pruebas de anuncios en distintos dominios que no conoce o no puede prever.
 
 Para administrar hosts, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Hosts]**.
 
@@ -71,11 +71,11 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
-Puede crear una lista de elementos permitidos que especifique los hosts (dominios) con autorización para enviar llamadas de mbox a [!DNL Target]. Todos los demás hosts que generen llamadas obtendrán una respuesta de error de autorización comentada. Todo host que contenga una llamada de mbox se registra en el entorno Producción de [!DNL Target] de forma predeterminada y tiene acceso a todas las actividades activas y aprobadas. Si este no es el método deseado, puede usar la lista de direcciones permitidas para registrar los hosts específicos que pueden realizar llamadas de mbox y recibir contenido de [!DNL Target]. Todos los hosts seguirán apareciendo en la lista [!UICONTROL Hosts] y los entornos podrán seguir utilizándose para agrupar estos hosts y asignar distintos niveles a cada uno, como, por ejemplo, si el host puede ver campañas activas o inactivas.
+You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. Todos los demás hosts que generen llamadas obtendrán una respuesta de error de autorización comentada. Todo host que contenga una llamada de mbox se registra en el entorno Producción de [!DNL Target] de forma predeterminada y tiene acceso a todas las actividades activas y aprobadas. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. Todos los hosts seguirán apareciendo en la lista [!UICONTROL Hosts] y los entornos podrán seguir utilizándose para agrupar estos hosts y asignar distintos niveles a cada uno, como, por ejemplo, si el host puede ver campañas activas o inactivas.
 
-Para crear una lista de direcciones permitidas:
+Para crear una lista de permitidos:
 
 1. En la lista [!UICONTROL Hosts] , haga clic en **[!UICONTROL Autorizar hosts]**.
 1. Active la **[!UICONTROL opción Activar hosts autorizados para el envío]** de contenido.
@@ -93,9 +93,9 @@ Si se realiza una llamada de mbox en un host sin autorización, la llamada respo
 
 >[!IMPORTANT]
 >
->**Prácticas** recomendadas de seguridad: Si utiliza la funcionalidad ubox de [!DNL Target], tenga en cuenta que esta lista blanca también controlará la lista de los dominios por los que pueden navegar [los redirectores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . Asegúrese de agregar los dominios a los que desee redirigir cuando utilice ubox como parte de la implementación. Si no se especifica la lista de direcciones permitidas, Adobe no podrá verificar las direcciones URL de redireccionamiento ni protegerse de posibles redirecciones malintencionadas.
+>**Prácticas** recomendadas de seguridad: Si utiliza la funcionalidad de ubox de [!DNL Target], tenga en cuenta que esta lista de permitidos también controlará la lista de los dominios por los que pueden navegar [los redirectores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . Asegúrese de agregar los dominios a los que desee redirigir cuando utilice ubox como parte de la implementación. Si se deja la lista permitida sin especificar, Adobe no podrá verificar las direcciones URL de redireccionamiento ni protegerse de posibles redirecciones maliciosas.
 >
->La lista de direcciones permitidas tiene prioridad sobre los entornos. Se recomienda borrar todos los hosts antes de usar la función de lista de elementos permitidos. De esta forma, en la lista de hosts solo aparecerán aquellos permitidos. A continuación, puede mover los hosts al entorno que quiera.
+>La lista de permitidos tiene prioridad sobre los entornos. Debe borrar todos los hosts antes de utilizar la función de lista de permitidos, y solo los hosts permitidos por la lista de permitidos aparecerán en la lista de hosts. A continuación, puede mover los hosts al entorno que quiera.
 
 En ocasiones, aparecen dominios de otros sitios en los entornos. Un dominio aparece en la lista si el dominio realiza una llamada a su at.js o mbox.js. Por ejemplo, si alguien copia una de sus páginas web en su servidor, ese dominio aparecerá en nuestro entorno. También es probable que vea dominios de motores de araña, sitios de traducción de idiomas o unidades de disco locales.
 
@@ -105,7 +105,7 @@ También puede crear una lista de direcciones bloqueadas que incluya los hosts (
 
 >[!NOTE]
 >
->Dado que la lista Hosts autorizados se utiliza tanto para hosts de mbox como para hosts de redireccionamiento predeterminados, debe agregar todos los dominios existentes aprobados para utilizar el SDK de JavaScript de Adobe Destinatario (at.js) *Y* todos los dominios utilizados en las direcciones URL de redireccionamiento predeterminadas de ubox. También debe agregar dominios similares nuevos a la lista de dominios permitidos en el futuro.
+>Dado que la lista Hosts autorizados se utiliza tanto para hosts de mbox como para hosts de redireccionamiento predeterminados, debe agregar todos los dominios existentes aprobados para utilizar el SDK de JavaScript de Adobe Destinatario (at.js) *Y* todos los dominios utilizados en las direcciones URL de redireccionamiento predeterminadas de ubox. También debe agregar dominios similares nuevos a la lista de permitidos en el futuro.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
