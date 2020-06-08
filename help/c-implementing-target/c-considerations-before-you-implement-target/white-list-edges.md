@@ -1,11 +1,11 @@
 ---
-keywords: implement;implementing;whitelist;white list;edge;edges
-description: Lista blanca de nodos extremos de Adobe Destinatario
-title: Lista blanca de nodos extremos de Adobe Destinatario
+keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
+description: Permitir la lista de nodos perimetrales de Adobe Destinatario
+title: Permitir la lista de nodos perimetrales de Adobe Destinatario
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 ---
 
 
-# Nodos de borde de Destinatario de lista blanca
+# Permitir lista de nodos de borde de Destinatario
 
-Información y una lista actualizada de los hosts para ayudarle a incluir los bordes de Adobe en la lista blanca [!DNL Target] .
+Información y una lista actualizada de los hosts para ayudarle a incluir los bordes de Adobe [!DNL Target] .
 
 Una arista es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para los usuarios finales que solicitan contenido, independientemente de su ubicación en todo el mundo. Cada nodo Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y para rastrear los datos de análisis de dicha solicitud. Las solicitudes de usuario se dirigen al nodo Edge más cercano. Para obtener más información, consulte [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) en *How Adobe[!DNL Target]work*.
 
-Si lo desea, puede incluir nodos [!DNL Target] Edge en la lista blanca.
+Si lo desea, puede permitir incluir nodos [!DNL Target] Edge en la lista.
 
 La siguiente lista incluye los hosts actuales:
 
