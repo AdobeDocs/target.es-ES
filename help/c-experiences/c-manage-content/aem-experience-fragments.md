@@ -5,10 +5,10 @@ title: Fragmentos de experiencia de Adobe Experience Manager (AEM) en Adobe Dest
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 4e1b4d31ba28e21513d314041add5231c9a3062a
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 
@@ -89,7 +89,7 @@ Después de realizar las tareas anteriores, el fragmento de experiencia se muest
 
 >[!IMPORTANT]
 >
->The experience fragment is currently imported into [!DNL Target] as an HTML offer. Tenga en cuenta que la versión del fragmento de experiencia “maestro” permanece en [!DNL AEM]. No puede editar el fragmento de experiencia en [!DNL Target].
+>The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. No puede editar el fragmento de experiencia en [!DNL Target].
 
 Puede pasar el ratón por encima de un fragmento de experiencia en la lista y, a continuación, hacer clic en el icono de [!UICONTROL Vista] de la ![Vista](assets/icon_info.png) para ver información adicional sobre el fragmento de experiencia, incluida la dirección URL del envío de oferta pública y su [!DNL AEM] ruta.
 
@@ -106,6 +106,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    * [!UICONTROL Insertar antes]
    * [!UICONTROL Insertar después]
    * [!UICONTROL Intercambiar con fragmento de experiencia]
+
    La lista [!UICONTROL Fragmento de experiencia][!DNL AEM] muestra todo el contenido creado en que ahora está disponible de forma nativa dentro de [!DNL Target].
 
    >[!NOTE]
@@ -141,7 +142,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 ## Consideraciones {#considerations}
 
 * [!DNL Target] busca fragmentos de experiencia para importar cada diez minutos. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
-* The experience fragment is currently imported into [!DNL Target] as an HTML offer. Tenga en cuenta que la versión del fragmento de experiencia “maestro” permanece en [!DNL AEM]. No puede editar el fragmento de experiencia en [!DNL Target].
+* The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. No puede editar el fragmento de experiencia en [!DNL Target].
 * Puede importar ofertas JSON como fragmentos de experiencia en [!DNL Target]. Sin embargo, estas ofertas se importan como ofertas HTML. Actualmente, las ofertas JSON (fragmentos de experiencia) no son totalmente compatibles con la [!DNL Target] interfaz de usuario.
 
 ## Training video: Using AEM experience fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
