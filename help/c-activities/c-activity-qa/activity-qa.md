@@ -5,10 +5,10 @@ title: Control de calidad de la actividad
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1489'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
    Debido a esta doble codificación, cuando intentamos decodificar el `at_preview_token`, Target no puede extraer el valor del token correcto, lo que hace que la vista previa no funcione.
 
-   Se recomienda hablar con su equipo de TI para asegurar que todos los parámetros de la vista previa estén en la lista de admitidos, de manera que estos valores no se transformen en modo alguno.
+   Le recomendamos que hable con su equipo de TI para asegurarse de que todos los parámetros de previsualización están permitidos para que estos valores no se transformen de ninguna manera.
 
    La siguiente tabla lista los parámetros que se pueden admitir en el dominio:
 
