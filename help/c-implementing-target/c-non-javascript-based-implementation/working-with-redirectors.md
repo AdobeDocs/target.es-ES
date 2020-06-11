@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 73%
@@ -60,7 +60,7 @@ Antes de poder usar un redirector, debe crearlo.
 
       >[!IMPORTANT]
       >
-      >Tenga en cuenta que con Redirector puede estar expuesto al riesgo de una vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector por parte de terceros, se recomienda utilizar &quot;hosts autorizados&quot; para permitir la lista de dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts para permitir los dominios de la lista a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de listas de permisos que especifican hosts autorizados para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#whitelist) en *hosts*.
+      >Tenga en cuenta que con Redirector puede estar expuesto al riesgo de una vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector por parte de terceros, se recomienda utilizar &quot;hosts autorizados&quot; para permitir la lista de dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts para permitir los dominios de la lista a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de listas de permisos que especifican hosts autorizados para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#allowlist) en *hosts*.
 
 
 1. Valide el redirector.
