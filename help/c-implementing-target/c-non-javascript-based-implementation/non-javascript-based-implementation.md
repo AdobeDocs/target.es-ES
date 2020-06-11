@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '423'
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ Tanto la publicidad de AdBox como redirector se pueden usar en cualquier tipo de
 
 ## Prácticas recomendadas de seguridad {#security}
 
-Tenga en cuenta que con Redirector, puede correr el riesgo de sufrir una vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector por parte de terceros, se recomienda utilizar &quot;hosts autorizados&quot; para permitir la lista de dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts para permitir los dominios de la lista a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de listas de permisos que especifican hosts autorizados para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#whitelist) en *hosts*.
+Tenga en cuenta que con Redirector, puede correr el riesgo de sufrir una vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector por parte de terceros, se recomienda utilizar &quot;hosts autorizados&quot; para permitir la lista de dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts para permitir los dominios de la lista a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de listas de permisos que especifican hosts autorizados para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#allowlist) en *hosts*.
 
 ## Restricciones {#section_38F559DCF1324271926608BCD4AB1227}
 
