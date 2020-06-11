@@ -1,14 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
 title: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 63%
+source-wordcount: '1638'
+ht-degree: 41%
 
 ---
 
@@ -23,32 +23,165 @@ Hay casos de uso, especialmente cuando at.js se entrega a través de la [!DNL Dy
 
 Las configuraciones que se pueden anular son las siguientes:
 
-| Configuración | Tipo | Valor predeterminado | Descripción |
-|--- |--- |--- |--- |
-| serverState | Consulte &quot;Personalización híbrida&quot; a continuación. | Consulte &quot;Personalización híbrida&quot; a continuación. | Consulte &quot;Personalización híbrida&quot; a continuación. |
-| clientCode | Cadena | Valor definido en la interfaz de usuario | Representa el código de cliente |
-| serverDomain | Cadena | Valor definido en la interfaz de usuario | Representa el servidor Edge de Target |
-| cookieDomain | Cadena | Si es posible, definirlo en el dominio de primer nivel | Representa el dominio que se usa al guardar las cookies |
-| crossDomain | Cadena | Valor definido en la interfaz de usuario | Indica si el seguimiento entre dominios está activado o no.<br>Los valores posibles son:<ul><li>disabled</li><li>enabled</li><li>x-solamente</li></ul> |
-| timeout | Número | Valor definido en la interfaz de usuario | Representa el tiempo de espera de la solicitud Edge de Target |
-| globalMboxAutoCreate | Booleano | Valor definido en la interfaz de usuario | Indica si la solicitud de mbox global se debe activar o no |
-| visitorApiTimeout | Número | 2000 ms = 2 s | Representa el tiempo de espera de la solicitud de la API de visitante |
-| enabled | Booleano | true | Cuando está habilitada, se ejecuta automáticamente una solicitud de Destinatario para recuperar experiencias y la manipulación DOM para procesar las experiencias. Además, las llamadas de Destinatario se pueden ejecutar manualmente mediante `getOffer(s)` / `applyOffer(s)`<br>Cuando se desactivan, las solicitudes de Destinatario no se ejecutan de forma automática o manual |
-| pageLoadEnabled | Booleano | true | Cuando está habilitado, recupera automáticamente experiencias que deben devolverse al cargar la página |
-| viewsEnabled | Booleano | true | Cuando está habilitada, recupera automáticamente vistas que deben devolverse al cargar la página. Las Vistas se admiten en at.js 2.Solamente *x* |
-| defaultContentHiddenStyle | Cadena | visibility: hidden | Solo se usa para ajustar mboxes que utilizan DIV con el nombre de clase “mboxDefault” y que se ejecutan a través de `mboxCreate()`, `mboxUpdate()` o `mboxDefine()` para ocultar contenido predeterminado. |
-| defaultContentVisibleStyle | Cadena | visibility: visible | Solo se usa para ajustar mboxes que utilizan DIV con el nombre de clase “mboxDefault” y que se ejecutan a través de `mboxCreate()`, `mboxUpdate()` o `mboxDefine()` para mostrar la oferta aplicada o el contenido predeterminado. |
-| bodyHiddenStyle | Cadena | body { opacity: 0 } | Solo se usa cuando `globalMboxAutocreate === true` para minimizar los parpadeos.<br>Para obtener más información, consulte [Cómo gestiona at.js el parpadeo](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
-| bodyHidingEnabled | Booleano | true | Se usa para controlar los parpadeos cuando `target-global-mbox` se utiliza para publicar ofertas creadas en el Compositor de experiencias visuales, también denominadas ofertas visuales |
-| imsOrgId | Cadena | IMS ORG ID | Representa el id. de organización de IMS |
-| secureOnly | Booleano | false | Indica si at.js debería utilizar solo HTTPS o se le debería permitir alternar entre HTTP y HTTPS según el protocolo de la página. |
-| overrideMboxEdgeServer | Booleano | true (verdadero desde la versión 1.6.2 de at.js) | Indica si se debe utilizar el dominio `<clientCode>.tt.omtrdc.net` o el `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Si este valor es “true”, el dominio `mboxedge<clusterNumber>.tt.omtrdc.net` se guarda en una cookie.. Actualmente no funciona con [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
-| overrideMboxEdgeServerTimeout | Número | 1860000 => 31 minutos | Indica la duración de la cookie que contiene el valor `mboxedge<clusterNumber>.tt.omtrdc.net`. |
-| optoutEnabled | Booleano | false | Indica si Target debe llamar a la función `isOptedOut()` de la API del visitante. Esto forma parte de la habilitación de Device Graph. |
-| selectorsPollingTimeout | Número | 5000 ms = 5 s | En la versión 0.9.6 de at.js, Target introdujo este nuevo ajuste que se puede anular mediante `targetGlobalSettings`.<br>`selectorsPollingTimeout` representa cuánto está dispuesto a esperar el cliente para que todos los elementos identificados por selectores aparezcan en la página.<br>Las actividades creadas por medio del Compositor de experiencias visuales (VEC) tienen ofertas que contienen selectores. |
-| dataProviders | Consulte “Proveedores de datos” a continuación. | Consulte “Proveedores de datos” a continuación. | Consulte “Proveedores de datos” a continuación. |
-| cspScriptNonce | Consulte &quot;Directiva de seguridad del contenido&quot; a continuación. | Consulte &quot;Directiva de seguridad del contenido&quot; a continuación. | Consulte &quot;Directiva de seguridad del contenido&quot; a continuación. |
-| cspStyleNonce | Consulte &quot;Directiva de seguridad del contenido&quot; a continuación. | Consulte &quot;Directiva de seguridad del contenido&quot; a continuación. | Consulte &quot;Directiva de seguridad del contenido&quot; a continuación. |
+### bodyHiddenStyle
+
+* **Tipo**: String
+* **Valor** predeterminado: body { opacity: 0 }
+* **Descripción**: Se utiliza únicamente cuando `globalMboxAutocreate === true` se minimiza la posibilidad de parpadeo.
+
+   Para obtener más información, consulte [Cómo gestiona at.js el parpadeo](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
+
+### bodyHidingEnabled
+
+* **Tipo**: Booleano
+* **Valor** predeterminado: true
+* **Descripción**: Se utiliza para controlar el parpadeo cuando `target-global-mbox` se utiliza para entregar ofertas creadas en el Compositor de experiencias visuales, también conocidas como ofertas visuales.
+
+### clientCode
+
+* **Tipo**: String
+* **Valor** predeterminado: Valor definido mediante la interfaz de usuario.
+* **Descripción**: Representa el código de cliente.
+
+### cookieDomain
+
+* **Tipo**: String
+* **Valor** predeterminado: Si es posible, configure el dominio de nivel superior.
+* **Descripción**: Representa el dominio utilizado al guardar cookies.
+
+### crossDomain
+
+* **Tipo**: String
+* **Valor** predeterminado: Valor definido mediante la interfaz de usuario.
+* **Descripción**: Indica si el seguimiento entre dominios está habilitado o no. Los valores permitidos son: deshabilitada, habilitada o x-solamente.
+
+### cspScriptNonce
+
+* **Tipo**: Consulte Política [de seguridad](#content-security) del contenido más abajo.
+* **Valor** predeterminado: Consulte Política [de seguridad](#content-security) del contenido más abajo.
+* **Descripción**: Consulte Política [de seguridad](#content-security) del contenido más abajo.
+
+### cspStyleNonce
+
+* **Tipo**: Consulte Política [de seguridad](#content-security) del contenido más abajo.
+* **Valor** predeterminado: Consulte Política [de seguridad](#content-security) del contenido más abajo.
+* **Descripción**: Consulte Política [de seguridad](#content-security) del contenido más abajo.
+
+### dataProviders
+
+* **Tipo**: Consulte Proveedores [de datos](#data-providers) a continuación.
+* **Valor** predeterminado: Consulte Proveedores [de datos](#data-providers) a continuación.
+* **Descripción**: Consulte Proveedores [de datos](#data-providers) a continuación.
+
+### defaultContentHiddenStyle
+
+* **Tipo**: String
+* **Valor** predeterminado: visibility: hidden
+* **Descripción**: Solo se utiliza para ajustar mboxes que utilizan DIV con el nombre de clase &quot;mboxDefault&quot; y que se ejecutan mediante `mboxCreate()`, `mboxUpdate()`o `mboxDefine()` para ocultar contenido predeterminado.
+
+### defaultContentVisibleStyle
+
+* **Tipo**: String
+* **Valor** predeterminado: visibility: visible
+* **Descripción**: Solo se utiliza para ajustar mboxes que utilizan DIV con el nombre de clase &quot;mboxDefault&quot; y que se ejecutan mediante `mboxCreate()`, `mboxUpdate()`o `mboxDefine()` para mostrar la oferta aplicada, si existe contenido predeterminado.
+
+### deviceIdLifetime
+
+* **Tipo**: Número
+* **Valor** predeterminado: 63244800000 ms = 2 años
+* **Descripción**: La cantidad de tiempo que `deviceId` se conserva en las cookies.
+
+### enabled
+
+* **Tipo**: Booleano
+* **Valor** predeterminado: true
+* **Descripción**: Cuando está habilitada, se ejecuta automáticamente una [!DNL Target] solicitud para recuperar experiencias y la manipulación DOM para procesar las experiencias. Además, [!DNL Target] las llamadas se pueden ejecutar manualmente mediante `getOffer(s)` / `applyOffer(s)`.
+
+   Cuando se deshabilita, [!DNL Target] las solicitudes no se ejecutan de forma automática o manual.
+
+### globalMboxAutoCreate
+
+* **Tipo**: Número
+* **Valor** predeterminado: Valor definido mediante la interfaz de usuario.
+* **Descripción**: Indica si la solicitud de mbox global debe activarse o no.
+
+### imsOrgId
+
+* **Tipo**: Cadena
+* **Valor** predeterminado: true
+* **Descripción**: Representa el identificador de organización de IMS.
+
+### optoutEnabled
+
+* **Tipo**: Booleano
+* **Valor** predeterminado: false
+* **Descripción**: Indica si Destinatario debe llamar a la función de API de Visitante `isOptedOut()` . Esto forma parte de la habilitación de Device Graph.
+
+### overrideMboxEdgeServer
+
+* **Tipo**: Booleano
+* **Valor** predeterminado: true (true a partir de la versión 1.6.2 de at.js)
+* **Descripción**: Indica si deberíamos usar `<clientCode>.tt.omtrdc.net` dominio o `mboxedge<clusterNumber>.tt.omtrdc.net` dominio.
+
+   If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. Actualmente no funciona con [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+
+### overrideMboxEdgeServerTimeout
+
+* **Tipo**: Número
+* **Valor** predeterminado: 1860000 => 31 minutos
+* **Descripción**: Indica la duración de la cookie que contiene el `mboxedge<clusterNumber>.tt.omtrdc.net` valor.
+
+### pageLoadEnabled
+
+* **Tipo**: Booleano
+* **Valor** predeterminado: true
+* **Descripción**: Cuando está habilitada, recupera automáticamente experiencias que deben devolverse al cargar la página.
+
+### secureOnly
+
+* **Tipo**: Booleano
+* **Valor** predeterminado: false
+* **Descripción**: Indica si at.js debe utilizar solo HTTPS o si se le debe permitir cambiar entre HTTP y HTTPS según el protocolo de la página.
+
+### selectorsPollingTimeout
+
+* **Tipo**: Número
+* **Valor** predeterminado: 5000 ms = 5 s
+* **Descripción**: En at.js 0.9.6, [!DNL Target] se ha introducido esta nueva configuración que se puede anular mediante `targetGlobalSettings`.
+
+   The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
+
+   Las actividades creadas por medio del Compositor de experiencias visuales (VEC) tienen ofertas que contienen selectores.
+
+### serverDomain
+
+* **Tipo**: String
+* **Valor** predeterminado: Valor definido mediante la interfaz de usuario.
+* **Descripción**: Representa el servidor Edge de Destinatario.
+
+### serverState
+
+* **Tipo**: Consulte Personalización [híbrida](#server-state) a continuación.
+* **Valor** predeterminado: Consulte Personalización [híbrida](#server-state) a continuación.
+* **Descripción**: Consulte Personalización [híbrida](#server-state) a continuación.
+
+### timeout
+
+* **Tipo**: Número
+* **Valor** predeterminado: Valor definido mediante la interfaz de usuario.
+* **Descripción**: Representa el tiempo de espera de la solicitud [!DNL Target] edge.
+
+### viewsEnabled
+
+* **Tipo**: Booleano
+* **Valor** predeterminado: true
+* **Descripción**: Cuando está habilitada, recupera automáticamente vistas que deben devolverse al cargar la página. Las Vistas se admiten en at.js 2.Solamente *x.*
+
+### visitorApiTimeout
+
+* **Tipo**: Número
+* **Valor** predeterminado: 2000 ms = 2 s
+* **Descripción**: Representa el tiempo de espera de solicitud de la API [!UICONTROL de] Visitante.
 
 ## Uso {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -217,7 +350,7 @@ Debe tener una integración híbrida de [!DNL Target].
 
 ### Ejemplos de código
 
-Para comprender mejor cómo funciona esto, vea los ejemplos de código siguientes que tendría en su servidor. El código asume que está utilizando el SDK [de Node.js de](https://github.com/adobe/target-nodejs-sdk)Destinatario.
+Para comprender mejor cómo funciona esto, vea los ejemplos de código siguientes que tendría en su servidor. El código supone que está utilizando el SDK [de](https://github.com/adobe/target-nodejs-sdk)Destinatario Node.js.
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
