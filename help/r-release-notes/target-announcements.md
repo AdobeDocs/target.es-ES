@@ -4,10 +4,10 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de Destinatario
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
+source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -16,27 +16,6 @@ ht-degree: 2%
 
 Información sobre los próximos eventos, incluidas las sesiones de Destinatario Skill Builder, charlas para desarrolladores, seminarios web y sesiones de Destinatario Coffee Break.
 
-## Descanso de café de la comunidad de Adobe Destinatario
+## Generador de habilidades de Adobe Target: Chat del desarrollador, migrar mbox.js de Adobe Target a at.js {#skill-builder}
 
-**Miércoles, 10 de junio de 2020**
-
-**10:00 a 11:00 a.m. (PST)**
-
-Por favor, únase a nosotros para nuestra próxima [!DNL Adobe Target] sesión de preguntas y respuestas de la comunidad. Esto es parte de una serie que hemos iniciado recientemente para que nuestros expertos internos se involucren directamente con usted en nuestros hilos del foro para un &quot;Descanso del café&quot;. Considérela como el equivalente de un foro de la [!DNL Adobe Target] comunidad de una AMA (Pregúntame cualquier cosa) o un chat de Twitter.
-
-David Son, [!DNL Target] Product Manager, responderá todas sus preguntas. El área de experiencia de David incluye:
-
-* at.js 
-* Móvil
-* Adobe Experience Platform - AEP Web SDK (Alloy)
-* API
-
-Pero siéntase libre de hacer cualquier pregunta relacionada con el Destinatario.
-
-Solo tiene que iniciar sesión en la comunidad [de](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) Adobe Destinatario para poder participar.
-
-[Registrarse aquí](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
-
-## Adobe Destinatario Skill Builder: Chat del desarrollador, migrar mbox.js de Adobe Destinatario a at.js {#skill-builder}
-
-Con la próxima desaprobación de mbox.js el 30 de agosto de 2020, David Son, administrador de productos de Adobe Destinatario, organizó recientemente un chat de desarrollador para debatir las ventajas de migrar mbox.js a at.js. Durante los próximos 30 días, puede [vista de la grabación](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del seminario web.
+Con la próxima desaprobación de mbox.js el 30 de agosto de 2020, David Son, el administrador de productos de Adobe Target, organizó recientemente un chat de desarrollador para analizar las ventajas de migrar mbox.js a at.js. Durante los próximos 30 días, puede [vista de la grabación](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del seminario web.
