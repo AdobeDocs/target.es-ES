@@ -5,10 +5,10 @@ title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bab73014c7f194c4080eafc024259f767347d1bb
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 18%
+source-wordcount: '529'
+ht-degree: 17%
 
 ---
 
@@ -42,6 +42,12 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 | Analytics for Target (A4T) compatibilidad con actividades de asignación automática | Con la versión de junio, las pruebas de asignación automática admitirán [Analytics para Destinatario](/help/c-integrating-target-with-mac/a4t/a4t.md). Esta integración le permite utilizar la capacidad de edición multiarmada de la asignación automática para dirigir el tráfico a las experiencias ganadoras, mientras utiliza una métrica objetivo de Adobe Analytics y/o las funciones de sistema de informes y análisis de Adobe Analytics. Si ya ha [implementado A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para su uso con actividades de Prueba A/B y de segmentación de experiencias, ¡ya está todo preparado! |
 | Función de editor | Esta nueva función es similar a la función de observador actual (puede crear actividades de vista, pero no puede crearlas o editarlas). Sin embargo, la función Editor tiene el permiso adicional para activar actividades. |
 | Asistencia técnica de A4T el 25 [!DNL Analysis Workspace]<br>de junio de 2020 | [!UICONTROL Ahora se admite Analytics para Destinatario] (A4T) en [!DNL Analysis Workspace]. El panel  Analytics para Destinatario (A4T) le permite analizar sus [!DNL Adobe Target] actividades y experiencias en [!DNL Analysis Workspace].<br>Para obtener más información, consulte el panel [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics para Destinatario (A4T) en la Guía *de herramientas de* Analytics. |
+
+### Mejoras, correcciones y cambios
+
+* Se han realizado mejoras en la interfaz de usuario de Destinatario para facilitar la especificación del mbox global. (TGT-15280)
+* Se ha corregido un problema que provocaba que la métrica &quot;visitantes&quot; se almacenara en la definición de la actividad en lugar de &quot;Visitantes únicos&quot;. (TGT-37098)
+* Se ha corregido un problema en la interfaz de usuario que provocaba que la barra de desplazamiento vertical no funcionara correctamente en la página [!DNL Target] Audiencias  . (TGT-36968)
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
