@@ -5,9 +5,9 @@ title: Información sobre la función targetGlobalSettings() para la biblioteca 
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1648'
 ht-degree: 41%
 
 ---
@@ -90,6 +90,10 @@ Las configuraciones que se pueden anular son las siguientes:
 * **Tipo**: Número
 * **Valor** predeterminado: 63244800000 ms = 2 años
 * **Descripción**: La cantidad de tiempo que `deviceId` se conserva en las cookies.
+
+>[!NOTE]
+>
+>La configuración de deviceIdLifetime se puede sobrescribir en la versión 2.3.1 o posterior de at.js.
 
 ### enabled
 
