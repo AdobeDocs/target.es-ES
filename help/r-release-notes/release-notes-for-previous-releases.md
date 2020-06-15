@@ -5,10 +5,10 @@ title: Notas de la versión para versiones anteriores
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: bab73014c7f194c4080eafc024259f767347d1bb
 workflow-type: tm+mt
-source-wordcount: '29262'
-ht-degree: 92%
+source-wordcount: '29532'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,91 @@ Notas de la versión de versiones anteriores de Target, incluidas las notas de l
 >Consulte [Notas de la versión de Target (actual)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión - 2020
+
+### Cambios en la API de estado de lote de Perfil v2 (14 de mayo de 2020)
+
+Con la versión del 20 de mayo, el estado de Lote de Perfil solo devolverá datos de error de nivel de fila a partir de ahora (no se devolverán datos de éxito). La API devolverá los ID de perfil fallidos a partir de ahora.
+
+Las respuestas de API anteriores y nuevas son las siguientes:
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**Actualmente vemos la respuesta como:**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**Después del 4 de mayo, la respuesta será:**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+### Target Standard/Premium 20.4.1 (6 de mayo de 2020). 
+
+Esta versión contiene las siguientes mejoras, correcciones y cambios:
+
+* Se ha corregido un problema que no cumplía correctamente los requisitos de un dispositivo y un tipo de explorador para una audiencia. (TGT-36266)
+* Se ha corregido un problema que impedía que los datos del informe se mostraran cuando se visualizaban en pantallas de menos de 963 píxeles de ancho. (TGT-36549)
+* Se ha corregido un problema que provocaba que los informes de Personalización automática no se representaran correctamente. (TGT-36619)
+* Se ha corregido un problema que permitía que se seleccionaran métricas incompatibles en las actividades de asignación automática y Destinatario automático que usan Analytics para Destinatario (A4t). (TGT-36646)
+* Se ha corregido un problema que provocaba que determinadas opciones del Compositor de experiencias visuales (VEC) no se mostraran correctamente. (TGT-36571)
+* Se ha corregido un problema en la interfaz de usuario de Destinatario que provocaba que otras previsualizaciones de oferta de Recommendations mostraran el contenido editado después de que un usuario reemplazara el contenido en una única experiencia. (TGT-36053 y TGT-36894)
+* Se ha corregido un problema que impedía que algunos usuarios eliminaran elementos de un catálogo de Recomendaciones. (TGT-36455)
+* Se ha corregido un problema que impedía a los usuarios guardar los criterios de Recomendaciones en una actividad de varias páginas. (TGT-36249)
+* Se ha corregido un problema que provocaba que los botones de radio del origen de datos de comportamiento desaparecieran al editar los criterios por segunda vez consecutiva. (TGT-36796)
+* Se corrigió un problema de visualización que ocasionaba que un algoritmo de Recomendaciones mostrara &quot;recuperando resultados&quot; durante un período prolongado. (TGT-36550 y TGT-36551)
+* Se han actualizado muchas cadenas de IU traducidas en varios idiomas.
 
 ### Destinatario at.js (25 de marzo de 2020)
 
@@ -45,7 +130,7 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 * Se han implementado mejoras de seguridad en la directiva de seguridad de contenido (CSP). (TGT-36190)
 * Se ha corregido un problema que hacía que se mostrara &quot;NaN%&quot; al desplazar la barra de porcentaje Ponderación de atributo al extremo izquierdo. (TGT-36211)
 * Se han resuelto problemas de localización para que el texto de la interfaz de usuario en varios idiomas se muestre correctamente.
-* Hemos estandarizado la lista de las métricas disponibles de las actividades de Adobe Analytics para Destinatario (A4T) al dejar de utilizar las métricas de Adobe Analytics no admitidas en la versión actual de las API de Adobe Analytics. Esto nos permitirá ampliar nuestra compatibilidad con A4T en futuras versiones de Adobe Destinatario.
+* Hemos estandarizado la lista de las métricas disponibles de las actividades de Adobe Analytics para Destinatario (A4T) al dejar de utilizar las métricas de Adobe Analytics no admitidas en la versión actual de las API de Adobe Analytics. Esto nos permitirá ampliar nuestro soporte de A4T en futuras versiones de Adobe Target.
 
    Se han realizado los siguientes cambios:
 
@@ -79,7 +164,7 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 
       ![Vínculo profundo de Recs Classic](/help/r-release-notes/assets/recs-classic.png)
 
-      Si utiliza [!DNL Search&Promote], debe ir directamente a la dirección URL [de](https://center.atomz.com/center/?ims=1) Search&amp;Promote (https://center.atomz.com/center/?ims=1). Se ha eliminado completamente la ruta [!DNL Search&Promote] de acceso desde el interior de [!DNL Adobe Target] .
+      Si utiliza [!DNL Search&Promote], debe ir directamente a la URL [de la](https://center.atomz.com/center/?ims=1) Search&amp;Promote (https://center.atomz.com/center/?ims=1). Se ha eliminado completamente la ruta [!DNL Search&Promote] de acceso desde el interior de [!DNL Adobe Target] .
 
    * Las notificaciones para [!DNL Target] no están disponibles actualmente en la lista desplegable [!UICONTROL Notificaciones] del encabezado.
    >[!NOTE]
@@ -88,9 +173,9 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 
 ### Target Standard/Premium 20.1.1 (4 de febrero de 2020)
 
-La versión Destinatario Standard/Premium 20.1.1 es una versión de mantenimiento que incluye mejoras y mejoras en el servidor. Además, se incluyen las siguientes correcciones:
+La versión Target Standard/Premium 20.1.1 es una versión de mantenimiento que incluye mejoras y mejoras en el servidor. Además, se incluyen las siguientes correcciones:
 
-* Se ha corregido un problema que provocaba que el campo del servidor de seguimiento de Adobe Analytics estuviera vacío en la página Objetivos y configuración de las actividades existentes de Adobe para Destinatario (A4T). (TGT-35960)
+* Se ha corregido un problema que provocaba que el campo del servidor de seguimiento de Adobe Analytics estuviera vacío en la página Objetivos y configuración de actividades existentes de Adobe para Destinatario (A4T). (TGT-35960)
 * Se ha corregido un problema en la interfaz de usuario que provocaba que la selección en la segunda lista desplegable no se mostrara al crear una audiencia para la afinidad de categorías. (TGT-36098)
 
 ## Notas de la versión - 2019 {#releases-2019}
@@ -145,7 +230,7 @@ Para obtener más información, consulte [Notas de la versión: SDK](/help/c-imp
 
       ![Vínculo profundo de Recs Classic](/help/r-release-notes/assets/recs-classic.png)
 
-      Si utiliza [!DNL Search&Promote], debe ir directamente a la dirección URL [de](https://center.atomz.com/center/?ims=1) Search&amp;Promote (https://center.atomz.com/center/?ims=1). Se ha eliminado completamente la ruta [!DNL Search&Promote] de acceso desde el interior de [!DNL Adobe Target] .
+      Si utiliza [!DNL Search&Promote], debe ir directamente a la URL [de la](https://center.atomz.com/center/?ims=1) Search&amp;Promote (https://center.atomz.com/center/?ims=1). Se ha eliminado completamente la ruta [!DNL Search&Promote] de acceso desde el interior de [!DNL Adobe Target] .
 
    * Las notificaciones para [!DNL Target] no están disponibles actualmente en la lista desplegable [!UICONTROL Notificaciones] del encabezado.
    >[!NOTE]
@@ -158,13 +243,13 @@ Para obtener más información, consulte [Notas de la versión: SDK](/help/c-imp
 
 | Función.  / Mejora | Descripción |
 | --- | --- |
-| Versión 2.2.<br><br>y at.js versión 1.8 de at.js | Estas versiones de at.js proporcionan:<ul><li>Se ha mejorado el rendimiento al usar tanto el servicio Experience Cloud ID (ECID) v4.4 como at.js 2.2 o at.js 1.8 en las páginas web.</li><li>Anteriormente, el ECID realizaba dos llamadas de bloqueo antes de que at.js pudiera recuperar experiencias. Esto se ha reducido a una sola llamada, lo que mejora significativamente el rendimiento.</li></ul> Para aprovechar estas mejoras de rendimiento, actualice a at.js 2.2 o at.js 1.8 junto con la biblioteca ECID v4.4.<br>at.js 2.2 proporciona:<ul><li>**serverState**: Una configuración disponible en at.js v2.2+ que se puede utilizar para optimizar el rendimiento de la página cuando se implementa una integración híbrida de Destinatario. La integración híbrida significa que se utiliza at.js v2.2+ en el cliente y la API de envío o un SDK de Destinatario en el servidor para ofrecer experiencias. `serverState` proporciona a at.js v2.2+ la capacidad de aplicar experiencias directamente desde el contenido recuperado en el servidor y devuelto al cliente como parte de la página que se está ofreciendo.<br>Para obtener más información, consulte &quot;serverState&quot; en [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
+| Versión 2.2.<br><br>y at.js versión 1.8 de at.js | Estas versiones de at.js proporcionan:<ul><li>Se ha mejorado el rendimiento al usar tanto el servicio de ID de Experience Cloud (ECID) v4.4 como at.js 2.2 o at.js 1.8 en las páginas web.</li><li>Anteriormente, el ECID realizaba dos llamadas de bloqueo antes de que at.js pudiera recuperar experiencias. Esto se ha reducido a una sola llamada, lo que mejora significativamente el rendimiento.</li></ul> Para aprovechar estas mejoras de rendimiento, actualice a at.js 2.2 o at.js 1.8 junto con la biblioteca ECID v4.4.<br>at.js 2.2 proporciona:<ul><li>**serverState**: Una configuración disponible en at.js v2.2+ que se puede utilizar para optimizar el rendimiento de la página cuando se implementa una integración híbrida de Destinatario. La integración híbrida significa que se utiliza at.js v2.2+ en el cliente y la API de envío o un SDK de Destinatario en el servidor para ofrecer experiencias. `serverState` proporciona a at.js v2.2+ la capacidad de aplicar experiencias directamente desde el contenido recuperado en el servidor y devuelto al cliente como parte de la página que se está ofreciendo.<br>Para obtener más información, consulte &quot;serverState&quot; en [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
 
 ### Plataforma de Destinatario (9 de octubre de 2019)
 
 | Función.  / Mejora | Descripción |
 | --- | --- |
-| SDK de Node.js versión 1.0 | El SDK de Node.js de Destinatario permite implementar Destinatario en el servidor.<br>Este SDK de Node.js le ayuda a integrar fácilmente Destinatario con otras soluciones de Experience Cloud, como Adobe Experience Cloud Identity Service, Adobe Analytics y Adobe Audiencia Manager.<br>El SDK de Node.js presenta prácticas recomendadas y elimina las complejidades al integrarse con Adobe Destinatario a través de nuestra API de envío para que sus equipos de ingeniería puedan centrarse en la lógica empresarial. Las siguientes son funciones destacadas que presentamos en la versión más reciente:<ul><li>Compatibilidad con la recuperación previa y las notificaciones que le permiten optimizar el rendimiento mediante almacenamiento en caché.</li><li>Compatibilidad para optimizar el rendimiento cuando se dispone de una integración híbrida de Destinatario tanto en las páginas web como en el servidor. Estamos introduciendo una configuración llamada `serverState` que se rellenará con las experiencias recuperadas a través del servidor para que at.js 2.2 ya no realice una llamada adicional al servidor para recuperar las experiencias. Este método optimiza el rendimiento de carga de la página.</li><li> Compatibilidad con la recuperación de actividades creadas por VEC mediante el SDK Node.js, lo cual es posible gracias a la nueva API de Envío.</li><li>Abra source para que los desarrolladores puedan contribuir al SDK de Node.js.</li></ul><br>Para obtener más información, consulte [Notas de la versión: SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)de Destinatario Node.js. |
+| SDK de Node.js versión 1.0 | El SDK de Node.js de Destinatario permite implementar Destinatario en el servidor.<br>Este SDK de Node.js ayuda a integrar fácilmente el Destinatario con otras soluciones de Experience Cloud, como el servicio de identidad de Adobe Experience Cloud, Adobe Analytics y Adobe Audience Manager.<br>El SDK de Node.js presenta prácticas recomendadas y elimina las complejidades al integrarse con Adobe Target a través de nuestra API de envío para que sus equipos de ingeniería puedan centrarse en la lógica empresarial. Las siguientes son funciones destacadas que presentamos en la versión más reciente:<ul><li>Compatibilidad con la recuperación previa y las notificaciones que le permiten optimizar el rendimiento mediante almacenamiento en caché.</li><li>Compatibilidad para optimizar el rendimiento cuando se dispone de una integración híbrida de Destinatario tanto en las páginas web como en el servidor. Estamos introduciendo una configuración llamada `serverState` que se rellenará con las experiencias recuperadas a través del servidor para que at.js 2.2 ya no realice una llamada adicional al servidor para recuperar las experiencias. Este método optimiza el rendimiento de carga de la página.</li><li> Compatibilidad con la recuperación de actividades creadas por VEC mediante el SDK Node.js, lo cual es posible gracias a la nueva API de Envío.</li><li>Abra source para que los desarrolladores puedan contribuir al SDK de Node.js.</li></ul><br>Para obtener más información, consulte [Notas de la versión: SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)de Destinatario Node.js. |
 | API de Envío | Hay disponible un extremo de API de envío completamente nuevo (/v1/envío) en producción. Las características destacables son:<ul><li>Un punto final para recuperar experiencias para uno o varios mboxes.</li><li>Recupere actividades creadas por VEC mediante la API.</li><li>Compatibilidad con un objeto completamente nuevo llamado Vistas que se utiliza en aplicaciones de una sola página (SPA) y aplicaciones móviles.</li></ul><br>Para obtener más información, consulte [Notas de la versión: Destinatario de las API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)del lado del servidor. |
 
 ### Target Standard/Premium 19.9.2 (30 de septiembre de 2019)
@@ -190,7 +275,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función.  / Mejora | Descripción |
 | --- | --- |
 | ![Distintivo Premium](/help/assets/premium.png)<br> Recommendations en las actividades de prueba A/B y segmentación de experiencias (XT) | El estado de oferta de Recommendations (algoritmo) aparece en la página Información general de las actividades de prueba A/B y XT que contienen ofertas de Recommendations. Los estados incluyen: Resultados preparados, Resultados no preparados y Error de fuente. (TGT-33649)<br>Consulte [Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Compatibilidad de seguimiento entre dominios para at.js 2.0+ a través de la biblioteca de Experience Cloud ID (ECID) | Anteriormente, el seguimiento entre dominios no era compatible con at.js 2.*x*. Con esta versión, los clientes que utilizan at.js 2.0 o una versión superior pueden utilizar el seguimiento entre dominios a través de la biblioteca ECID. La biblioteca ECID debe instalarse en la página junto con at.js 2.0 o una versión superior para que funcione el seguimiento entre dominios. [Debe utilizarse la biblioteca de ID de Experience Cloud 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) .<br>Consulte [Compatibilidad con seguimiento entre dominios en at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
+| Compatibilidad de seguimiento entre dominios para at.js 2.0+ a través de la biblioteca de Experience Cloud ID (ECID) | Anteriormente, el seguimiento entre dominios no era compatible con at.js 2.*x*. Con esta versión, los clientes que utilizan at.js 2.0 o una versión superior pueden utilizar el seguimiento entre dominios a través de la biblioteca ECID. La biblioteca ECID debe instalarse en la página junto con at.js 2.0 o una versión superior para que funcione el seguimiento entre dominios. [Se debe utilizar la biblioteca de ID de Experience Cloud 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) .<br>Consulte [Compatibilidad con seguimiento entre dominios en at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
 | Compatibilidad de Target con ITP 2.1 y ITP 2.2 de Apple a través de la biblioteca 4.3 de Experience Cloud ID (ECID) | Actualmente, los clientes de Target pueden mitigar ITP 2.1 y ITP 2.2 de Apple mediante el uso del programa de certificación CNAME de Adobe.<br>Con esta versión, Destinatario presenta una integración perfecta con la biblioteca ECID 4.3, que aprovecha una cookie del lado del servidor para mitigar ITP 2.1 e ITP 2.2. Se recomienda encarecidamente que los clientes de Destinatario implementen la biblioteca [ECID 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) junto con la biblioteca JavaScript de Destinatario para mitigar cualquier versión futura de ITP. La biblioteca ECID ofrecerá más mejoras que proporcionen una solución sólida para las cambiantes políticas de cookies ingresadas por los exploradores.<br>Consulte [Prevención inteligente del seguimiento de Apple (ITP) 2.x.](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
 
 **Mejoras, correcciones y cambios**
