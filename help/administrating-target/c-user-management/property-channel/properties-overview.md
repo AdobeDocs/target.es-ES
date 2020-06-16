@@ -5,10 +5,10 @@ title: Configuración de permisos de Enterprise
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 79%
+source-wordcount: '1418'
+ht-degree: 75%
 
 ---
 
@@ -34,7 +34,7 @@ La siguiente tabla enumera las tareas que debe realizar para crear propiedades y
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. En Adobe Destinatario, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Propiedades]** > **[!UICONTROL Asignar propiedades a espacios de trabajo]**.
+1. En Adobe Target, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Propiedades]** > **[!UICONTROL Asignar propiedades a espacios de trabajo]**.
 
    O
 
@@ -172,22 +172,28 @@ Para utilizar la funcionalidad de permisos de usuario de [!DNL Target], debe añ
 
 1. En Admin Console, haga clic en **[!UICONTROL Productos]** y, a continuación, seleccione el nombre del producto deseado.
 
-   ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. Haga clic en el nombre del perfil deseado.
+1. Haga clic en el nombre del perfil deseado (por ejemplo, Espacio de trabajo predeterminado).
+
+   ![Espacio de trabajo predeterminado](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+
 1. Haga clic en **[!UICONTROL Usuarios]**.
 
    La pestaña [!UICONTROL Usuarios] muestra todos los usuarios de un espacio de trabajo.
 
-   ![Configuración de usuarios](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
+   ![usuarios de configuración](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Seleccione la función de permisos deseada (Aprobador, Editor u Observador) utilizando la lista desplegable de cada usuario en la columna [!UICONTROL Función del producto].
+1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![lista desplegable Función del producto](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Función | Descripción |
    |--- |--- |
-   | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
-   | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
    | Aprobador | Puede crear, editar y activar o detener actividades. |
+   | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
+   | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
+   | Editor | Similar a la función Observador (puede vista de actividades, pero no puede crearlas o editarlas). Sin embargo, la función Editor tiene el permiso adicional para activar actividades. |
 
    Para obtener más información, consulte [Administrar permisos y roles de producto en Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) en la *Guía del usuario de Enterprise*.
 
