@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '1484'
+ht-degree: 92%
 
 ---
 
@@ -34,9 +37,9 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
 
    Para obtener más información, consulte [Descargar at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. En [!DNL Target], haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Tokens de respuesta]**.
+1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![](assets/response_tokens.png)
+   ![](assets/response_tokens-new.png)
 
 1. Active los tokens de respuesta deseados, como `activity.id`, `option.id`, etc.
 
@@ -62,9 +65,9 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
    >
    >Los parámetros con caracteres especiales no se muestran en la lista. Se admiten únicamente caracteres alfanuméricos y guiones bajos.
 
-1. (Condicional) Si desea utilizar un parámetro de perfil como token de respuesta, pero el parámetro no se ha pasado a través de una llamada a mbox y, por tanto, no se ha cargado en la interfaz de usuario de Target, puede utilizar el botón Crear para agregar el perfil a la interfaz de usuario.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   Haga clic en **[!UICONTROL Crear]**, proporcione el nombre del token y, a continuación, haga clic en **[!UICONTROL Activar]**.
+   Haga clic en **[!UICONTROL Añadir token]** de respuesta, proporcione el nombre del token y, a continuación, haga clic en **[!UICONTROL Activar]**.
 
    ![](assets/response_token_create.png)
 
@@ -279,7 +282,7 @@ Puede crearse el equivalente del complemento ttMeta para depuración añadiendo 
 </script>
 ```
 
-## Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Vea el siguiente vídeo para aprender a utilizar los tokens de respuesta y los eventos personalizados de at.js con el fin de compartir información de perfil de Target con sistemas de terceros.
 
