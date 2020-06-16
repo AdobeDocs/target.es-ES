@@ -5,9 +5,9 @@ title: Permisos de usuario de Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '2899'
+source-wordcount: '2948'
 ht-degree: 86%
 
 ---
@@ -87,9 +87,12 @@ Puede crear grupos de usuarios, como Desarrolladores, Analistas, Especialistas e
 
 Las funciones y los permisos determinan los niveles de acceso que tienen los usuarios para crear y administrar actividades en su implementación de [!DNL Target]. En [!DNL Target] existen las funciones siguientes:
 
-* **[!UICONTROL Observador]**: Puede vista de actividades, pero no puede crearlas o editarlas.
-* **[!UICONTROL Editor]**: Puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad.
-* **[!UICONTROL Aprobador]**: Puede crear, editar y activar o detener actividades.
+| Función | Descripción |
+|--- |--- |
+| Aprobador | Puede crear, editar y activar o detener actividades. |
+| Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
+| Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
+| Editor | Similar a la función Observador (puede vista de actividades, pero no puede crearlas o editarlas). Sin embargo, la función Editor tiene el permiso adicional para activar actividades. |
 
 ### Canal
 
@@ -115,10 +118,10 @@ Cada función tiene diferentes niveles de permisos:
 
 | Función | Descripción |
 |--- |--- |
-| Observador | Tiene acceso de solo lectura a las actividades. Puede ver actividades, pero no puede crearlas o editarlas. |
-| Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
 | Aprobador | Puede crear, editar y activar o detener actividades. |
-
+| Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
+| Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
+| Editor | Similar a la función Observador (puede vista de actividades, pero no puede crearlas o editarlas). Sin embargo, la función Editor tiene el permiso adicional para activar actividades. |
 Es importante tener en cuenta que la función de cada usuario se aplica a cada página, propiedad o sitio de su cuenta que incluya etiquetas de [!DNL Target] como se muestra a continuación:
 
 ![](assets/permissions_2.png)
