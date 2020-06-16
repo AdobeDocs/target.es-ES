@@ -5,7 +5,7 @@ title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
+source-git-commit: 62a22032f45a7ae6c4d52b4d4170039ac5e5387d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 17%
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 Este artículo contiene información de evaluación. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 15 de junio de 2020**
+**Última actualización: 17 de junio de 2020**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información en estas páginas puede ser la misma, según el tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
