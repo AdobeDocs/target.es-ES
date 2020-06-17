@@ -5,10 +5,10 @@ title: Permisos de usuario de Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 86%
+source-wordcount: '2996'
+ht-degree: 85%
 
 ---
 
@@ -280,7 +280,11 @@ Cuando un visitante abre Página1 en un explorador, se le redirige a Página2. D
 
 Si la página de redirección y la dirección URL de la actividad pertenecen a la misma propiedad, los rastreos de clics funcionan según lo esperado. Para obtener más información, consulte [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
+## Vídeos de formación
+
+Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
+
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 Objetivos de aprendizaje:
 
@@ -289,3 +293,14 @@ Objetivos de aprendizaje:
 * Diferentes ejemplos de propiedades para la consideración de su organización
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### Horario de oficina: Destinatario Premium Workspaces
+
+Este vídeo es una grabación de “Horario de oficina”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
+
+* Creación de un espacio de trabajo (Perfil de productos)
+* Creación de propiedades
+* Añadir usuarios
+* Actualización de la implementación
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)
