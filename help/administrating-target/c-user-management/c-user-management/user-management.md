@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 56%
+source-wordcount: '825'
+ht-degree: 53%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 56%
 # Usuarios{#users}
 
 You can add users and manage their permissions in the [!DNL Adobe Admin Console].
+
+>[!NOTE]
+>
+>La información de este tema se ha actualizado para ayudarle a obtener un pico en los cambios de la interfaz de usuario que se producirán en la versión Target Standard/Premium 20.6.1 (julio de 2020). La mayor parte de la información presentada en este tema se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 >[!NOTE]
 >
