@@ -5,10 +5,10 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 34%
+source-wordcount: '1199'
+ht-degree: 35%
 
 ---
 
@@ -16,6 +16,16 @@ ht-degree: 34%
 # Cambios de la documentación{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.5.1 (17 de junio de 2020). 
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| 17 de junio | [Creación de actividad](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Información Añadida sobre la compatibilidad de Analytics para Destinatario (A4T) con actividades de asignación automática. |
+|  | [Usuarios](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Se Añadió información sobre la nueva función de [!UICONTROL Editor] en *Especificar funciones y permisos*. |
+|  | [Configuración de permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Información Añadida sobre la nueva función de [!UICONTROL Editor] en el *paso 6: Especifique funciones y permisos*. |
+|  | [Permisos de usuario de Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Vínculo Añadido al horario de *Office: Destinatario Premium Workspaces, sesión*. |
+|  | [Notas de la versión](/help/r-release-notes/release-notes.md): 20.5.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 20.4.1 (6 de mayo de 2020). 
 
