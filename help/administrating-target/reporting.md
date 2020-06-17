@@ -1,13 +1,13 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Para configurar el Compositor de experiencias visuales (VEC) de Adobe Destinatario, especifique su configuración general, la configuración de ventanilla móvil y los selectores CSS.
-title: Configurar sistema de informes en Adobe Destinatario
+description: Configure el Compositor de experiencias visuales de Adobe Target (VEC) especificando su configuración general, la configuración de ventanilla móvil y los selectores CSS.
+title: Configurar sistema de informes en Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 69%
+source-wordcount: '695'
+ht-degree: 65%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 69%
 # Configurar sistema de informes en Destinatario
 
 Configure las opciones generales para utilizarlas en el sistema de informes de Destinatario que se aplican a toda la [!DNL Target] cuenta.
+
+>[!NOTE]
+>
+>La información de este tema se ha actualizado para ayudarle a obtener un pico en los cambios de la interfaz de usuario que se producirán en la versión Target Standard/Premium 20.6.1 (julio de 2020). La mayor parte de la información presentada en este tema se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 Para acceder a la página de configuración de [!UICONTROL Sistema de informes] , haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Sistema de informes].**
 
