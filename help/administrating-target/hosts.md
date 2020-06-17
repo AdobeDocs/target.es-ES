@@ -5,10 +5,10 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 57%
+source-wordcount: '1279'
+ht-degree: 55%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 57%
 # Hosts{#hosts}
 
 Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
+
+>[!NOTE]
+>
+>La información de este tema se ha actualizado para ayudarle a obtener un pico en los cambios de la interfaz de usuario que se producirán en la versión Target Standard/Premium 20.6.1 (julio de 2020). La mayor parte de la información presentada en este tema se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 El objetivo primordial de la administración de hosts reside en garantizar que ningún contenido inactivo se muestre por error en los sitios web. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
@@ -105,7 +109,7 @@ También puede crear una lista de direcciones bloqueadas que incluya los hosts (
 
 >[!NOTE]
 >
->Dado que la lista Hosts autorizados se utiliza tanto para hosts de mbox como para hosts de redireccionamiento predeterminados, debe agregar todos los dominios existentes aprobados para utilizar el SDK de JavaScript de Adobe Destinatario (at.js) *Y* todos los dominios utilizados en las direcciones URL de redireccionamiento predeterminadas de ubox. También debe agregar dominios similares nuevos a la lista de permitidos en el futuro.
+>Dado que la lista Hosts autorizados se utiliza tanto para hosts de mbox como para hosts de redireccionamiento predeterminados, debe agregar todos los dominios existentes aprobados para utilizar el SDK de JavaScript de Adobe Target (at.js) *Y* todos los dominios utilizados en las direcciones URL de redireccionamiento predeterminadas de ubox. También debe agregar dominios similares nuevos a la lista de permitidos en el futuro.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
