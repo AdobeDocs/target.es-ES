@@ -6,17 +6,21 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 92%
+source-wordcount: '1531'
+ht-degree: 89%
 
 ---
 
 
 # Tokens de respuesta{#response-tokens}
 
-Los tokens de respuesta le permiten generar automáticamente información específica de Target (detalles de campañas, información de perfiles de usuario, información geográfica, etc.) para su uso en la depuración o integración con sistemas de terceros (como Clicktale)
+Los tokens de respuesta le permiten generar automáticamente información específica de Target (detalles de campañas, información de perfiles de usuario, información geográfica, etc.) para su uso en la depuración o integración con sistemas de terceros (como Clicktale).
+
+>[!NOTE]
+>
+>La información de este tema se ha actualizado para ayudarle a obtener un pico en los cambios de la interfaz de usuario que se producirán en la versión Target Standard/Premium 20.6.1 (julio de 2020). La mayor parte de la información presentada en este tema se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 Los tokens de respuesta le permiten elegir qué variables aprovecha y habilitarlas para su envío como parte de una respuesta de mbox. Para ello, solo tiene que utilizar el interruptor para habilitar una variable y se la enviará con las respuestas de mbox, que pueden validarse en llamadas de red. Los tokens de respuesta también funcionan en el modo de vista previa.
 
