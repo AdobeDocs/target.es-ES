@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentación de producto de Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 63%
@@ -17,7 +17,7 @@ ht-degree: 63%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 15 de junio de 2020 ([Ver Qué Cambió](r-release-notes/doc-change.md))**
+**Última actualización: 17 de junio de 2020 ([Ver Qué Cambió](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -54,10 +54,10 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 ## Desarrolladores {#developers}
 
 - [Implementación de Target](c-implementing-target/implementing-target.md): explica cómo implementar [!DNL Target] en sitios web, aplicaciones móviles, aplicaciones de una sola página (SPA) y plataformas IOT/OTT.
-- [API](https://developers.adobetarget.com/api/delivery-api/)del lado del servidor de Destinatario: Describe los recursos que conforman la API de Envío de Adobe Target.
+- [API](https://developers.adobetarget.com/api/delivery-api/)del lado del servidor de Destinatario: Describe los recursos que conforman la API de Adobe Target Envío.
 - [SDK](https://github.com/adobe/target-nodejs-sdk)de NodeJS de Destinatario: Explica cómo implementar Destinatario en el servidor. Este SDK de Node.js ayuda a integrar fácilmente el Destinatario con otras soluciones de Adobe Experience Cloud.
 - [SDK](https://github.com/adobe/target-java-sdk)Java de Destinatario: Explica cómo implementar Destinatario en el servidor. Este SDK de Java le ayuda a integrar fácilmente Destinatario con otras soluciones de Adobe Experience Cloud.
-- [API](https://developers.adobetarget.com/api/recommendations/)de Destinatario Recommendations: Describe los recursos que conforman la API oficial de Recomendaciones de Adobe Target.
+- [API](https://developers.adobetarget.com/api/recommendations/)de Destinatario Recommendations: Describe los recursos que conforman la API de Adobe Target Recommendations oficial.
 - [Documentación](http://developers.adobetarget.com/api/#introduction)de Destinatario de Adobe.IO: Describe cómo utilizar las API de administración y Perfil REST de Destinatario que utilizan la integración de Adobe.IO para administrar actividades, audiencias, ofertas, propiedades, informes, mboxes, entornos y perfiles.
 
 ## Administradores de Target y Adobe Experience Cloud {#admins}
@@ -77,4 +77,4 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 
 | Ayuda sobre soluciones de Adobe.[!DNL Target] | Recursos de.[!DNL Adobe Experience Cloud] |
 |--- |--- |
-| <ul><li>[Información y asistencia de Adobe Target](https://helpx.adobe.com/es/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Documentación de API de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Foro de la comunidad de Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Inicio de la ayuda de Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Documentación de Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Asistencia y aprendizaje de Adobe Target](https://helpx.adobe.com/es/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Documentación de API de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Foro de la comunidad de Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Inicio de la ayuda de Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Documentación de Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
