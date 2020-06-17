@@ -5,16 +5,23 @@ title: Determinar un ganador
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+workflow-type: tm+mt
+source-wordcount: '1109'
+ht-degree: 50%
 
 ---
 
 
 # Interpretar informes de asignación automática {#determine-a-winner}
 
-Interprete los resultados de una actividad A/B de asignación automática examinando indicadores importantes, incluidos el alza y la confianza, en la interfaz de usuario de Target.
+Interprete los resultados de una actividad A/B de asignación automática examinando indicadores importantes, incluidos el alza y la confianza, en la interfaz de usuario de Destinatario.
 
 Muchos especialistas en marketing cometen el error de declarar una experiencia ganadora precipitadamente antes de que los resultados indiquen el claro ganador. Ahora, le facilitamos la tarea de determinar el ganador.
+
+>[!NOTE]
+>
+>Para obtener información general sobre cómo declarar un ganador, consulte [Diez escollos comunes de prueba A/B y cómo evitarlos](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identifique la experiencia ganadora {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -24,7 +31,7 @@ Al utilizar la función de [!UICONTROL asignación automática], [!DNL Target] m
 
 Cuando se declara un claro ganador, [!DNL Target] muestra “Ganador: Experiencia X”.
 
-![](assets/auto_traffic_winner.png)
+![](assets/winner.png)
 
 >[!NOTE]
 >
@@ -40,21 +47,13 @@ La columna Confianza de una actividad de asignación automática (ilustrada abaj
 
 Las pruebas A/B normales calculan la confianza según los valores p. La asignación automática no usa valores p. Los valores p calculan de forma “flexible” la probabilidad de que una experiencia indicada sea diferente al control. Estos valores P solo pueden usarse para determinar si una experiencia es diferente al control. Estos valores no pueden usarse para determinar si una experiencia es diferente a otra experiencia (no control).
 
-La siguiente ilustración muestra una actividad en la que aún no hay ganador:
-
-![](assets/no_winner.png)
-
-La siguiente ilustración muestra una actividad en la que ya hay un ganador:
-
-![](assets/winner_found.png)
-
 >[!IMPORTANT]
 >
->Target muestra un ganador tras un número mínimo predefinido de conversiones; sin embargo, la decisión final de elegir al ganador siempre debe estar en los resultados de la calculadora [de tamaño de la](https://docs.adobe.com/content/target-microsite/testcalculator.html)muestra de Adobe Target. Target no tiene en cuenta las tasas de conversión base de un sitio y otros aspectos importantes que se incluyen en la calculadora para determinar la duración de la actividad. Como resultado, Target podría mostrar un ganador antes de lo justificado en función de un número mínimo de conversiones. Para obtener más información, consulte Calculadora [de tamaño de la muestra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Destinatario muestra un ganador después de un número mínimo predefinido de conversiones; sin embargo, la decisión final de elegir al ganador siempre debe estar en los resultados de la calculadora [de tamaño de la](https://docs.adobe.com/content/target-microsite/testcalculator.html)muestra de Adobe Target. Destinatario no tiene en cuenta las tasas de conversión básicas de un sitio y otros aspectos importantes que se introducen en la calculadora para determinar la duración de la actividad. Como resultado, el Destinatario puede mostrar un ganador antes de lo justificado en base a un número mínimo de conversiones. Para obtener más información, consulte Calculadora [de tamaño de la muestra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-## Comprender los informes de alza y confianza en las actividades de asignación automática {#lift-confidence}
+## Comprenda el sistema de informes de alza y confianza en actividades de asignación automática {#lift-confidence}
 
-En las actividades de asignación automática, la primera experiencia (de forma predeterminada denominada Experiencia A) siempre se define como una experiencia de &quot;control&quot; en la ficha Informes. Esta experiencia no se trata como un verdadero control estadístico en el modelado utilizado para determinar el rendimiento de las experiencias, pero se trata como una referencia o una referencia para algunas cifras del informe.
+En actividades de asignación automática, la primera experiencia (de forma predeterminada denominada Experiencia A) siempre se define como una experiencia de &quot;control&quot; en la ficha Informes. Esta experiencia no se trata como un verdadero control estadístico en el modelado utilizado para determinar el rendimiento de las experiencias, pero se trata como una referencia o una referencia para algunas cifras del informe.
 
 El valor numérico &quot;Alza&quot; y los límites del 95 % para cada experiencia siempre se calculan con referencia a la experiencia definida como &quot;Control&quot;. La experiencia &quot;Control&quot; definida no puede tener un alza en relación a sí misma, por lo que se informa de un valor &quot;—&quot; en blanco para esta experiencia. A diferencia de las pruebas A/B, en las pruebas de asignación automática, si una experiencia tiene un peor rendimiento que el control definido, no se notifica un valor de alza negativo; en su lugar se muestra &quot;—&quot;.
 
