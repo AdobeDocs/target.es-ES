@@ -5,7 +5,10 @@ title: Asignación automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+workflow-type: tm+mt
+source-wordcount: '3026'
+ht-degree: 90%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 # Asignación automática{#auto-allocate}
 
 La asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
-
->[!IMPORTANT]
->
->La asignación automática no admite informes [!DNL Target for Analytics] (A4T).
 
 Mientras [crea una actividad A/B con el flujo de trabajo guiado de tres pasos](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), puede elegir la opción [!UICONTROL Asignar automáticamente a la mejor experiencia].
 
@@ -92,10 +91,6 @@ Una vez que está listo el modelo para una actividad de asignación automática 
 
 ## Advertencias   {#section_5C83F89F85C14FD181930AA420435E1D}
 
-**Ya no se admiten las actividades A/B de asignación automática en Analytics for Target (A4T).**
-
-A partir de la versión 16.10.1.0 (25 de octubre de 2016), Target no es compatible con Analytics como fuente de informes para las actividades A/B de asignación automática. Con esta versión, cualquier actividad A/B de asignación automática con A4T activado pasará al modo manual (asignación equitativa del tráfico).
-
 **La función de asignación automática funciona solo con una configuración de métrica avanzadas: Aumentar recuento y mantener al usuario en la actividad**
 
 No se admiten las siguientes configuraciones de métrica avanzadas: Aumentar recuento, liberar usuario y permitir la reentrada ni Aumentar recuento, liberar usuario y bloquear su reentrada.
@@ -131,6 +126,10 @@ Estos factores pueden distorsionar los resultados de una prueba de asignación a
    Por ejemplo, el mensaje “El descuento del 30% acaba hoy” señala al visitante que debe generar hoy la conversión, mientras que “Descuento del 50% en la primera compra” no crea la misma sensación de urgencia.
 
 ## Preguntas frecuentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+
+** ¿Analytics para Destinatario (A4T) admite actividades de asignación automática?
+
+Sí. Para obtener más información, consulte Compatibilidad de [Analytics para Destinatario (A4T) con actividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) de asignación automática en la creación *de* Actividades.
 
 **¿Los visitantes de retorno se asignan automáticamente a experiencias con alto rendimiento?**
 
@@ -168,7 +167,7 @@ En estos momentos, la lógica favorece a los visitantes que generan una conversi
 
 **¿Puedo usar la calculadora de tamaño de la muestra al utilizar la asignación automática para estimar el tiempo que tardará la actividad en identificar al ganador?**
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Al igual que con las pruebas A/B tradicionales, aplique la corrección de Bonferroni si está probando más de dos ofertas o más de una métrica o hipótesis de conversión). Tenga en cuenta que esta calculadora está diseñada para las pruebas A/B de horizonte fijo tradicionales y solo proporciona una estimación. El uso de la calculadora para una actividad de asignación automática es opcional porque la asignación automática le declarará ganador (no necesita elegir un punto fijo en el tiempo para ver los resultados de la prueba), los valores proporcionados siempre son estadísticamente válidos. En nuestros experimentos hemos encontrado lo siguiente:
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Como sucede con las pruebas A/B tradicionales, aplique la corrección de Bonferroni si está probando más de dos ofertas o más de una métrica o hipótesis de conversión). Tenga en cuenta que esta calculadora está diseñada para las pruebas A/B de horizonte fijo tradicionales y solo proporciona una estimación. El uso de la calculadora para una actividad de asignación automática es opcional porque la asignación automática le declarará ganador (no necesita elegir un punto fijo en el tiempo para ver los resultados de la prueba), los valores proporcionados siempre son estadísticamente válidos. En nuestros experimentos hemos encontrado lo siguiente:
 * Al probar exactamente dos experiencias, la asignación automática encuentra un ganador más rápido que las pruebas de horizonte fijo (es decir, el intervalo de tiempo sugerido por la calculadora de tamaño de la muestra) cuando la diferencia de rendimiento entre las experiencias es grande, pero puede requerir más tiempo para identificar un ganador cuando la diferencia de rendimiento entre las experiencias es pequeña. En estos casos, las pruebas de horizonte fijo normalmente habrían finalizado sin un resultado estadísticamente significativo.
 * Al probar más de dos experiencias, la asignación automática encuentra un ganador más rápido que las pruebas de horizonte fijo (es decir, el intervalo de tiempo sugerido por la calculadora de tamaño de la muestra) cuando una única experiencia supera con creces el resto de las experiencias. Cuando dos o más experiencias están &quot;ganando&quot; en comparación con otras, pero están muy relacionadas entre sí, la asignación automática puede requerir tiempo adicional para determinar cuál es superior. En estos casos, las pruebas de horizonte fijo normalmente habrían finalizado al concluir que las experiencias &quot;ganadoras&quot; eran mejores que las experiencias de menor rendimiento, pero no habrían identificado cuál era superior.
 
@@ -182,7 +181,7 @@ El 20 % de los visitantes se asigna de forma aleatoria entre todas las experien
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Flujo de trabajo de actividad - Segmentación (2:14) Distintivo ![de tutoriales](/help/assets/tutorial.png)
+### Flujo de trabajo de actividad - Segmentación (2:14) ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre cómo configurar la asignación de tráfico.
 
