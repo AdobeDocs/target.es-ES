@@ -5,9 +5,9 @@ user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 93%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 93%
    + Creación de informes{#reporting}
       + [Configurar sistema de informes](/help/administrating-target/reporting.md)
       + [Calcular el alza de ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Integración con Dynamic Media Classic](administrating-target/scene7-settings.md)
+   + [Configuración de Scene7](administrating-target/scene7-settings.md)
    + [Implementación](/help/administrating-target/implementation.md)
    + [Hosts](administrating-target/hosts.md)
    + [Entornos](/help/administrating-target/environments.md)
