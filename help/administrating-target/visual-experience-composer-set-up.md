@@ -1,13 +1,13 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
-description: Para configurar el Compositor de experiencias visuales (VEC) de Adobe Destinatario, especifique su configuración general, la configuración de ventanilla móvil y los selectores CSS.
-title: Configuración del Compositor de experiencias visuales de Adobe Destinatario
+description: Configure el Compositor de experiencias visuales de Adobe Target (VEC) especificando su configuración general, la configuración de ventanilla móvil y los selectores CSS.
+title: Configuración del Compositor de experiencias visuales de Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 57%
+source-wordcount: '686'
+ht-degree: 52%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 57%
 # Configuración del Compositor de experiencias visuales
 
 Configure el Compositor [!DNL Adobe Target] de experiencias  visuales (VEC) especificando su configuración general, la configuración de ventanilla móvil y los selectores CSS.
+
+>[!NOTE]
+>
+>Los temas de esta sección, que se enumeran a continuación, se han actualizado para ofrecerle un vistazo a los cambios de la interfaz de usuario que se producirán en la versión [!DNL Target Standard/Premium] 20.6.1 (julio de 2020). La mayor parte de la información presentada en estos temas se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 Para acceder a la página de configuración del Compositor [!UICONTROL de experiencias] visuales, haga clic en **[!UICONTROL Administración]** > Compositor **[!UICONTROL de experiencias]visuales.**
 
@@ -38,15 +42,15 @@ La dirección URL predeterminada que utiliza el [!UICONTROL Compositor de experi
 
 ### Activar el compositor de experiencias mejorado
 
-Permite editar en sitios con eliminación de iFrames y sitios con contenido mixto. Es posible que algunos sitios no sean compatibles con la versión mejorada. Anule la selección de esta opción para volver al Compositor de experiencias visuales original. La publicación de actividades en los sitios no se verá afectada por esta opción.
+Permite editar en sitios con eliminación de iFrames y sitios con contenido mixto. Es posible que algunos sitios no sean compatibles con la versión mejorada. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. La publicación de actividades en los sitios no se verá afectada por esta opción.
 
 Para obtener más información, consulte [Solución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-También puede habilitar el Compositor de experiencias mejorado en el nivel de actividad.
+You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
 
 ### Cargar contenido combinado
 
-Habilite el contenido combinado al abrir un sitio web mediante el Compositor de experiencias mejorado (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
 Esta opción resulta útil si, por ejemplo:
 
