@@ -6,23 +6,23 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 87%
+source-wordcount: '1571'
+ht-degree: 85%
 
 ---
 
 
 # Tokens de respuesta{#response-tokens}
 
-Los tokens de respuesta le permiten generar automáticamente información específica de Target (detalles de campañas, información de perfiles de usuario, información geográfica, etc.) para su uso en la depuración o integración con sistemas de terceros (como Clicktale).
+Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
 >[!NOTE]
 >
 >La información de este tema se ha actualizado para ayudarle a obtener un pico en los cambios de la interfaz de usuario que se producirán en la versión Target Standard/Premium 20.6.1 (julio de 2020). La mayor parte de la información presentada en este tema se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
-Los tokens de respuesta le permiten elegir qué variables aprovecha y habilitarlas para su envío como parte de una respuesta de mbox. Para ello, solo tiene que utilizar el interruptor para habilitar una variable y se la enviará con las respuestas de mbox, que pueden validarse en llamadas de red. Los tokens de respuesta también funcionan en el modo de vista previa.
+Los tokens de respuesta le permiten elegir qué variables aprovecha y habilitarlas para su envío como parte de una respuesta de mbox. Para ello, solo tiene que utilizar el interruptor para habilitar una variable y se la enviará con las respuestas de mbox, que pueden validarse en llamadas de red. Response tokens work in [!UICONTROL Preview] mode as well.
 
 Una diferencia clave entre complementos y tokens de respuesta es que, mientras que los primeros envían a la página código JavaScript que se ejecuta al recibirlo, los segundos envían un objeto que puede leerse y sobre el que puede actuarse utilizando detectores de eventos. Para obtener más información, consulte Más adelante en este artículo se encuentran los [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) y los ejemplos. El enfoque de tokens de respuesta es más seguro y debería facilitar el desarrollo y mantenimiento de integraciones de terceros.
 
