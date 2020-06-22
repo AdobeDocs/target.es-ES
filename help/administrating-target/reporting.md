@@ -4,17 +4,17 @@ description: Configure el Compositor de experiencias visuales de Adobe Target (V
 title: Configurar sistema de informes en Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 65%
+source-wordcount: '713'
+ht-degree: 31%
 
 ---
 
 
 # Configurar sistema de informes en Destinatario
 
-Configure las opciones generales para utilizarlas en el sistema de informes de Destinatario que se aplican a toda la [!DNL Target] cuenta.
+Configure las opciones generales para utilizarlas en [!DNL Adobe Target] sistema de informes que se aplican a toda la [!DNL Target] cuenta.
 
 >[!NOTE]
 >
@@ -31,21 +31,24 @@ Puede especificar la siguiente configuración en esta página:
 * Si se muestra un alza estimada en los ingresos en sistemas de informes
 * Si se deben habilitar prioridades específicas
 
+>[!NOTE]
+>
+>Tenga en cuenta que la zona horaria, la moneda y las direcciones IP para excluir la configuración se aplican a las actividades que utilizan [!DNL Target] sistema de informes. Esta configuración no se aplica a actividades que utilizan [Analytics para Destinatario (A4T)] como fuente de sistema de informes (/help/c-integrating-target-with-mac/a4t/a4t.md).
+
 ![Página Sistema de informes](/help/administrating-target/assets/reporting.png)
 
 ## Solución de Sistema de informes Cloud
 
 Establezca opciones que determinen los datos que se usan para los resultados y los informes.
 
-Seleccione la fuente de informes para sus actividades: [!DNL Target] o Adobe Analytics. Si lo desea, también puede elegir la fuente de informes por actividad.
+Seleccione la fuente de informes para sus actividades: [!DNL Target] o [!DNL Adobe Analytics]. Si lo desea, también puede elegir la fuente de informes por actividad.
 
 Tenga en cuenta la siguiente información al elegir su fuente de informes:
 
-* La creación de actividades (AP), la activación y la desactivación de [!UICONTROL Asignación automática], [!UICONTROL Segmentación automática] y [!UICONTROL Personalización automatizada] están permitidas independientemente de la fuente de informes seleccionada. Estos tipos de actividades no son compatibles cuando elige [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Incluso si establece Analytics como su fuente de informes, [!DNL Target] se utiliza como fuente de informes para estos tipos de actividades.
-* Si la fuente de informes está configurada en Analytics, no se le permite activar una actividad que usa [!DNL Target] como fuente de informes (Target especifica la fuente de informes por cada actividad). Debe cambiar la fuente de informes a Analytics en su actividad o cambiar el motor de informes a Seleccionar por actividad en Configuración > Preferencias.
-* Si la fuente de informes está configurada en [!DNL Target], no se le permite activar una actividad que use Analytics como fuente de informes. Debe cambiar la fuente de informes a [!DNL Target] en su actividad o cambiar el motor de informes a Seleccionar por actividad en Configuración > Preferencias.
-* Si la fuente de informes está configurada en Seleccionar por actividad, puede crear, activar y desactivar actividades que son compatibles con la fuente de informes seleccionada. Para obtener una matriz de actividades compatibles, consulte [Adobe Analytics como fuente de informes para Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
-* Cuando se cambia de A/B manual a [!UICONTROL Asignación automática] o [!UICONTROL Segmentación automática], todas las métricas y audiencias de informes se pierden si la fuente de informes de la actividad A/B manual no es compatible con las actividades de [!UICONTROL Asignación automática] o [!UICONTROL Segmentación automática].
+* Si la fuente de informes está configurada en **[!DNL Target]**, no se le permite activar una actividad que use como fuente de informes. [!DNL Analytics] You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
+* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to[!DNL Analytics]in your activity or change the reporting engine to**[!UICONTROL Select per activity ]**in**[!UICONTROL Administration]>[!UICONTROL Reporting ]**.
+* If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* [!UICONTROL La creación, activación y desactivación de actividades de Personalización] automatizada (AP) están permitidas independientemente del origen de sistema de informes seleccionado. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
 ## Zona horaria del Sistema de informes
 
@@ -65,7 +68,7 @@ Escriba cada dirección IP en una nueva línea.
 
 Puede elegir mostrar el alza estimada en ingresos si introduce un valor monetario para el objetivo. [!DNL Target] puede calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora. La característica de alza estimada está deshabilitada de manera predeterminada.
 
-Solo los usuarios administradores de Experience Cloud pueden activar o desactivar esta característica. Si se deshabilita el alza estimada, los campos correspondientes no aparecerán en la interfaz. Deshabilitar esta característica no genera pérdidas de datos, incluidos los datos usados para los cálculos. Los cálculos se basan en datos recopilados, independientemente de si la característica está habilitada o no.
+Only [!DNL Experience Cloud] Admin users can enable or disable this feature. Si se deshabilita el alza estimada, los campos correspondientes no aparecerán en la interfaz. Deshabilitar esta característica no genera pérdidas de datos, incluidos los datos usados para los cálculos. Los cálculos se basan en datos recopilados, independientemente de si la característica está habilitada o no.
 
 Para obtener información detallada, consulte [Calcular el alza de ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
