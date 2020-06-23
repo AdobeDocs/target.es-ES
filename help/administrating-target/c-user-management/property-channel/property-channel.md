@@ -5,7 +5,7 @@ title: Permisos de usuario de Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 984a58373c1a19fa4faf9041b5e3fb0c523fa4b5
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
 workflow-type: tm+mt
 source-wordcount: '2996'
 ht-degree: 85%
@@ -299,7 +299,7 @@ Objetivos de aprendizaje:
 
 Este vídeo es una grabación de “Horario de oficina”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
-* Creación de un espacio de trabajo (Perfil de productos)
+* Creación de un espacio de trabajo (perfil del producto)
 * Creación de propiedades
 * Añadir usuarios
 * Actualización de la implementación
