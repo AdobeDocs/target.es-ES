@@ -1,11 +1,14 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Diagrama del sistema de Adobe Target que muestra el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente usando at.js.
-title: Funcionamiento de la biblioteca JavaScript de Adobe Destinatario at.js
+title: Funcionamiento de la biblioteca JavaScript de Adobe Target at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+workflow-type: tm+mt
+source-wordcount: '1123'
+ht-degree: 88%
 
 ---
 
@@ -91,10 +94,27 @@ Notas importantes:
 * at.js no proporciona garantías en el orden de ejecución del script remoto, ya que estos se cargan de forma asincrónica.
 * Los scripts en línea no deberían tener dependencias en scripts remotos, ya que se cargan y ejecutan más adelante.
 
-## Vídeo de capacitación: Insignia de ![información general del diagrama arquitectónico de at.js 2.x](/help/assets/overview.png)
+## Vídeos de formación
+
+Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
+
+### Insignia de ![información general del diagrama arquitectónico de at.js 2.x](/help/assets/overview.png)
 
 at.js 2.x mejora la compatibilidad de Adobe Target con las SPA e integra otras soluciones de Experience Cloud. Este vídeo explica cómo se vincula todo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Consulte [Explicación del funcionamiento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) de at.js 2.x para obtener más información.
+
+### Horario de oficina: Sugerencias y descripción general de at.js (26 de junio de 2019) ![Distintivo de tutorial](/help/assets/tutorial.png)
+
+Este vídeo es una grabación de “Horario de oficina”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
+
+* Ventajas de utilizar at.js
+* Configuración de at.js
+* Control de parpadeo
+* Depurar at.js
+* Problemas conocidos
+* Preguntas más frecuentes
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
