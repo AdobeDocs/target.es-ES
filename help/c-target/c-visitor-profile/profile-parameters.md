@@ -5,10 +5,10 @@ title: Atributos de perfil en Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 80%
+source-wordcount: '2442'
+ht-degree: 79%
 
 ---
 
@@ -80,6 +80,7 @@ Tenga en cuenta la siguiente información:
 * Consulte la sección “Referencia JavaScript para parámetros de perfil de secuencia de comandos” para obtener más sintaxis de JavaScript.
 * El parámetro permanece en el perfil después de desactivar la secuencia de comandos. Los usuarios cuyos perfiles ya contengan un parámetro que se utilice en la audiencia de una actividad se clasificarán en esa actividad.
 * Las secuencias de comandos de Perfil no se pueden eliminar mientras se utilizan en una actividad.
+* No se recomienda crear secuencias de comandos de perfil dependientes que utilicen el resultado de una secuencia de comandos de perfil en otra secuencia de comandos de perfil. El orden de ejecución de la secuencia de comandos de perfil no está garantizado.
 
 ## Visualización de tarjetas de información de scripts de perfil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
