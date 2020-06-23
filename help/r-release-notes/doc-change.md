@@ -5,10 +5,10 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 35%
+source-wordcount: '1260'
+ht-degree: 34%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 23 de junio | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre la pausa para el café de Adobe Target del 24 de junio. |
+|  | [Atributos de perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Se ha Añadido que no se recomienda crear secuencias de comandos de perfil dependientes que utilicen el resultado de un script de perfil en otro script de perfil. |
 | 17 de junio | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tema actualizado. |
 |  | [Tokens de respuesta](/help/administrating-target/response-tokens.md) | Información Añadida sobre tokens de respuesta para el método de asignación de tráfico para actividades de Destinatario  automático y de personalización  automatizada. |
 |  | [Creación de actividad](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Información Añadida sobre la compatibilidad de Analytics para Destinatario (A4T) con actividades de asignación automática. |
