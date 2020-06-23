@@ -5,7 +5,10 @@ title: Recursos e información de contacto
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: f85b9887559792628151998673b7fc95e0d9145a
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+workflow-type: tm+mt
+source-wordcount: '1212'
+ht-degree: 79%
 
 ---
 
@@ -43,8 +46,10 @@ Las sesiones de Target grabadas actualmente incluyen:
 
 | Tema / Tiempo de ejecución / Fecha de grabación | Lo que aprenderá |
 |--- |--- |
+| [Sugerencias de at.js y descripción general](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12 26<br>de junio de 2019 | Aprenderá:<ul><li>Ventajas de utilizar at.js</li><li>Configuración de at.js</li><li>Control de parpadeo</li><li>Depurar at.js</li><li>Problemas conocidos</li><li>Preguntas más frecuentes</li></ul>For more information, see [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
+| [Destinatario Premium Workspaces](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>27:49 4<br>de septiembre de 2018 | Aprenderá:<ul><li>Creación de un espacio de trabajo (perfil del producto)</li><li>Creación de propiedades</li><li>Añadir usuarios</li><li>Actualización de la implementación</li></ul>Para obtener más información, consulte [Permisos de usuario de Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Compositor de experiencias visuales (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>de diciembre de 2017 | Aprenderá:<ul><li>Cómo funciona el Compositor de experiencias visuales</li><li>Cómo evitar problemas comunes con el Compositor de experiencias visuales</li><li>Soluciones alternativas con el Compositor de experiencias visuales</li></ul>Para obtener más información en esta guía, consulte   [Experiencias](/help/c-experiences/experiences.md). |
-| [Adobe Destinatario: Integración de Analytics/Destinatario (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>de enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [Adobe Target: Integración de Analytics/Destinatario (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>de enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
 | [at.js: Ventajas y optimizaciones](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>de implementación 26:43<br>de abril de 2018 | Aprenderá: <ul><li>Cómo funciona la biblioteca at.js</li><li>Las ventajas de at.js sobre mbox.js</li><li>Cómo gestiona at.js el parpadeo</li><li>Gestión de errores en at.js</li><li>Metodologías de depuración</li><li>Problemas conocidos y hoja de ruta</li></ul>Para obtener más información en esta guía, consulte   [Implementación de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
@@ -113,7 +118,7 @@ Según la configuración de su solución, es posible que algunas de las opciones
 
 ### Comentarios   {#section_8154D6D712054220A90D85FA8E92933E}
 
-Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a esta solución. Se pueden agregar sugerencias e ideas de mejora a la comunidad de [Adobe Destinatario Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Click the [!UICONTROL Ideas] tab.
+Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a esta solución. Se pueden agregar ideas y sugerencias de mejora a la comunidad [de la Liga de experiencias de](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)Adobe Target. Click the [!UICONTROL Ideas] tab.
 
 ### Información legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
