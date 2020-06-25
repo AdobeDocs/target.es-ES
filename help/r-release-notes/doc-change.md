@@ -5,9 +5,9 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1298'
 ht-degree: 34%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 25 de junio | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Información Añadida sobre la versión Target Standard/Premium 20.6.1 (julio de 2020). |
+|  | [Información general sobre la documentación de Destinatario](/help/r-release-notes/target-documentation.md) | Nuevo tema que detalla las diferentes fuentes de [!DNL Target] documentación. |
 | 23 de junio | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre la pausa para el café de Adobe Target del 24 de junio. |
 |  | [Atributos de perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Se ha Añadido que no se recomienda crear secuencias de comandos de perfil dependientes que utilicen el resultado de un script de perfil en otro script de perfil. |
 |  | [Cómo funciona at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Se Añadió el siguiente vídeo: Horario de oficina: Sugerencias de at.js y descripción general |
