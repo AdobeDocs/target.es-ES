@@ -5,9 +5,9 @@ title: Funcionamiento de la biblioteca JavaScript de Adobe Target at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1106'
 ht-degree: 88%
 
 ---
@@ -66,7 +66,7 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 | 5 | Los datos de Analytics se envían a los servidores de recopilación de datos. |
 | 6 | Se comparan los datos de Target con los datos de Analytics mediante el SDID y se procesan en el almacén de informes de Analytics. Por lo tanto, los datos de Analytics se pueden visualizar tanto en Analytics como en Target mediante los informes de A4T. |
 
-### Insignia de ![información general del diagrama arquitectónico de at.js 2.x](/help/assets/overview.png)
+### Vídeo: Diagrama de la arquitectura de at.js 2.x
 
 at.js 2.x mejora la compatibilidad de Adobe Target con las SPA e integra otras soluciones de Experience Cloud. Este vídeo explica cómo se vincula todo.
 
@@ -85,7 +85,7 @@ Consulte [Explicación del funcionamiento](https://helpx.adobe.com/target/kt/usi
 | 5 | Según la URL, los parámetros de mbox y los datos de perfil, [!DNL Target] decide qué actividades y experiencias vuelven al visitante. | 6 | Se devuelve el contenido dirigido a la página, incluyendo de manera opcional los valores de perfil para una personalización adicional.<br>Se muestra la experiencia lo más rápido posible sin parpadeos del contenido predeterminado. |
 | 7 | Se envían los datos de [!DNL Analytics] a los servidores de recopilación de datos. | 8 | Se comparan los datos de [!DNL Target] con los datos de [!DNL Analytics] mediante el SDID y se procesan en el almacén de informes de [!DNL Analytics].<br>[!DNL Analytics]Por lo tanto, los datos de  se pueden visualizar tanto en [!DNL Analytics] como en [!DNL Target] mediante los informes de [!DNL Analytics for Target] (A4T). |
 
-### Horario de oficina: Sugerencias y descripción general de at.js (26 de junio de 2019) ![Distintivo de tutorial](/help/assets/tutorial.png)
+### Vídeo - Horario de trabajo: Sugerencias y descripción general de at.js (26 de junio de 2019)
 
 Este vídeo es una grabación de “Horario de oficina”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
