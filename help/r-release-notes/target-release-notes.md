@@ -5,10 +5,10 @@ title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 15%
+source-wordcount: '558'
+ht-degree: 18%
 
 ---
 
@@ -59,30 +59,6 @@ Como parte de esta actualización, podrá realizar fácilmente muchas acciones u
 * Proteger direcciones IP de visitante por motivos de privacidad (**[!UICONTROL Administración]** > **[!UICONTROL Implementación]**)
 * Vista la lista existente de usuarios por espacio de trabajo y sus funciones, antes de administrarlos en Adobe Admin Console (**[!UICONTROL Administración]** > **[!UICONTROL Usuarios]**).
 * Busque y filtre todas las tablas en la sección [!UICONTROL Administración] .
-
-Los cambios significativos incluyen:
-
-* **[!UICONTROL Página]del Compositor **de experiencias visuales: Esta nueva página (**[!UICONTROL Administración ]**> Compositor**[!UICONTROL de experiencias ]**visuales) permite:
-
-   * Configuración general del VEC (especifique la dirección URL predeterminada, habilite el Compositor [!UICONTROL de experiencias]mejorado, cargue contenido mixto y genere instantáneas de experiencia en el diagrama de flujo de actividades)
-   * Configurar ventanillas móviles
-   * Configuración de selectores CSS
-
-* **[!UICONTROL Página]de Sistema de informes **: Esta nueva página (**[!UICONTROL Administración ]**>**[!UICONTROL Sistema de informes ]**) permite configurar las opciones generales que se utilizarán en[!DNL Target]sistemas de informes que se apliquen a toda la[!DNL Target]cuenta.
-
-   Las opciones de configuración disponibles son:
-
-   * La [!DNL Adobe Experience Cloud] solución para sistema de informes
-   * El huso horario que se usará para el sistema de informes
-   * La divisa que se va a utilizar para el sistema de informes
-   * Direcciones IP para excluir del sistema de informes
-   * Si se muestra un alza estimada en los ingresos en sistemas de informes
-   * Si se deben habilitar prioridades específicas
-
-* La página [!UICONTROL Hosts] anterior se ha dividido en dos páginas nuevas:
-
-   * [!UICONTROL Hosts]
-   * [!UICONTROL Entornos]
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
