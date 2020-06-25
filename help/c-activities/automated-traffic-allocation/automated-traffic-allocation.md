@@ -5,10 +5,10 @@ title: Asignación automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
 workflow-type: tm+mt
-source-wordcount: '3026'
-ht-degree: 90%
+source-wordcount: '3014'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ La ilustración muestra cómo progresa el tráfico asignado a cada experiencia d
 
 Si la actividad solo tiene dos experiencias, ambas tendrán un tráfico equitativo hasta que Target encuentre una experiencia con un 90 % de confianza. En ese momento, el 70 % del tráfico se asigna al ganador y el 30 % al perdedor. Una vez la experiencia alcance el 95 % de confianza, el 100% del tráfico se asigna al ganador y el 0% al perdedor.
 
-Una vez que está listo el modelo para una actividad de asignación automática (cada experiencia tiene un mínimo de 1000 visitantes y 50 conversiones), no se permiten las siguientes operaciones de la interfaz del usuario:
+After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
 * Cambiar el modo “Asignación del tráfico” a “Manual”
 * Cambiar el tipo de la métrica de objetivo
