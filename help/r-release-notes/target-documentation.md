@@ -4,7 +4,7 @@ description: La documentación de Adobe Target se proporciona en varios formatos
 title: Anuncios de Destinatario
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: e99277bdbbed26058abc4e0b1375489fe8ca2df4
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
@@ -22,7 +22,7 @@ A continuación se ofrece una breve descripción de los tipos de documentación 
 | --- | --- |
 | [Documentación](/help/target-home.md)<br>del producto de Adobe Target(Esta guía) | Información general, pasos y capturas de pantalla centradas en la interacción con [!DNL Target] la interfaz de usuario. Esta guía describe todas las acciones y opciones disponibles, incluyendo las &quot;gotchas&quot; que se deben evitar. Se trata del recurso más detallado para trabajar con la [!DNL Target] interfaz de usuario. |
 | [Tutoriales de Adobe Target](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | Vídeos y tutoriales para ayudarle a aprender los muchos componentes de [!DNL Target]. |
-| [Biblioteca de vídeo de Adobe Experience League Destinatario](https://guided.adobe.com/#recommended/solutions/target) | Una colección de vídeos y tutoriales de procedimientos que destacan las funciones de [!DNL Target] disponibles en la [!DNL Adobe Target Experience League] página. |
+| [Biblioteca de contenido de Adobe Experience League Destinatario](https://guided.adobe.com/#recommended/solutions/target) | Una colección de vídeos y tutoriales de procedimientos que destacan las funciones de [!DNL Target] disponibles en la [!DNL Adobe Target Experience League] página. |
 | [Documentación de Destinatario de lanzamiento de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Información sobre la implementación [!DNL Target] mediante [!DNL Adobe Experience Platform Launch], la plataforma de administración de etiquetas de última generación de [!DNL Adobe]. Es el método preferido para implementar [!DNL Target]. |
 | [Horario del servicio de atención al cliente de Adobe](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Información sobre &quot;horas de oficina&quot;, una iniciativa dirigida por el equipo de atención al cliente de Adobe. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
 | [Conceptos básicos del Destinatario series de seminarios web](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registration information and links to previous sessions of the [!DNL Target] Basics Webinar Series, a Customer Success Webinar Series brought to you by the Community. |
