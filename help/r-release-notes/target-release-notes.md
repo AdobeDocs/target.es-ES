@@ -5,10 +5,10 @@ title: Notas de la versión de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: e99277bdbbed26058abc4e0b1375489fe8ca2df4
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 19%
+source-wordcount: '478'
+ht-degree: 17%
 
 ---
 
@@ -38,14 +38,6 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 ## Target Standard/Premium 20.7.1 (21 de julio de 2020). 
 
 Esta versión incluye las siguientes mejoras:
-
-### Compatibilidad de Analytics para Destinatario (A4T) con actividades de Destinatario  automático
-
-[!UICONTROL Las actividades de Destinatario] automático ahora admiten [Analytics para Destinatario](/help/c-integrating-target-with-mac/a4t/a4t.md).
-
-Esta integración utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias definidas por expertos en marketing de alto rendimiento para personalizar el contenido y dirigir las conversiones. La segmentación automática proporciona la experiencia más adaptada a cada visitante según su perfil de cliente individual y el comportamiento de visitantes anteriores con perfiles similares.
-
-Si ya ha [implementado A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para su uso con actividades de prueba A/B, ¡ya está todo listo!
 
 ### [!UICONTROL Actualización de la interfaz de usuario de la sección Administración]
 
