@@ -1,11 +1,14 @@
 ---
-keywords: oferta remota;matriz de selección de ofertas remotas;contenido en caché;contenido dinámico
+keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: Utilice las ofertas remotas para alojar contenido fuera de Target al que Target haga referencia y que entregue a los sitios web de los usuarios. Este contenido puede encontrarse en un sistema de gestión de contenido o de otro tipo por cuestiones de comodidad o de seguridad.
 title: Crear ofertas remotas
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 100%
 
 ---
 
@@ -30,8 +33,8 @@ Algunos ejemplos de ofertas remotas son:
 
 **Para crear una oferta remota:**
 
-1. Haga clic en **[!UICONTROL Ofertas]** y seleccione la pestaña **Ofertas de código[!UICONTROL .]**
-1. Haga clic en **[!UICONTROL Crear]** &gt; **[!UICONTROL Oferta remota]**.
+1. Haga clic en **[!UICONTROL Ofertas]** y seleccione la pestaña **[!UICONTROL Ofertas de código]**.
+1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Oferta remota]**.
 
    ![](assets/remote_offer_ui.png)
 
@@ -78,6 +81,6 @@ La matriz de selección de ofertas remotas ayuda a decidir qué tipo de oferta r
 | Actualizaciones de contenido | En caché cada 2 horas | Se actualiza de forma inmediata en cada solicitud |
 | Tiempo de carga | Más rápido | Más lento debido al procesamiento de solicitudes |
 | Se puede ver JavaScript en la página | Sí | No, pero se puede transmitir por URL |
-| Las ofertas pueden incluir JavaScript | Sí | No |
+| Las ofertas pueden incluir JavaScript | Sí | Sí |
 | URL de la oferta | Absoluta o relativa | Relativo |
 | Equipo solicitante | Servidores de Adobe | El equipo del visitante, que lleva las cookies del visitante |
