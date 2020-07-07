@@ -5,10 +5,10 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 34%
+source-wordcount: '1312'
+ht-degree: 33%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Julio de 7 | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre el Descanso del Café de Adobe Target del 8 de julio. |
 | 25 de junio | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Información Añadida sobre la versión Target Standard/Premium 20.6.1 (julio de 2020). |
 |  | [Información general sobre la documentación de Destinatario](/help/r-release-notes/target-documentation.md) | Nuevo tema que detalla las diferentes fuentes de [!DNL Target] documentación. |
 | 23 de junio | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre la pausa para el café de Adobe Target del 24 de junio. |
@@ -53,12 +54,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Mayo de 28 | [Preguntas más frecuentes sobre la creación de informes](/help/c-reports/reporting-frequently-asked-questions.md) | Se ha añadido la siguiente pregunta frecuente: <ul><li>¿Cómo se cuentan las métricas Nuevos Visitantes y Visitantes que regresan?</li></ul> |
 | Mayo de 27 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Información Añadida sobre la compatibilidad de Analytics para Destinatario (A4T) con actividades de asignación automática. |
 | Mayo de 26 | [Atributos de perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Se Añadió la siguiente información: &quot;El parámetro permanece en el perfil después de desactivar la secuencia de comandos. Los usuarios cuyos perfiles ya contengan un parámetro que se utilice en la audiencia de una actividad se clasificarán en esa actividad&quot;. |
-| Mayo de 21 | [Permitir lista de nodos de borde de Destinatario](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Añadido `mboxedge30.tt.omtrdc.net` a la lista. |
+| Mayo de 21 | [Nodos de borde de Destinatario de Lista de permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Añadido `mboxedge30.tt.omtrdc.net` a la lista. |
 | Mayo de 20 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha Añadido información sobre la próxima versión de Target Standard/Premium 20.6.1 (10 de junio de 2020). |
 |  | [Hosts](/help/administrating-target/hosts.md) | Nota Añadida a la sección &quot;Prácticas recomendadas de seguridad&quot;. |
 | Mayo de 14 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se Añadió información sobre los cambios de la API v2 de estado de lote de Perfil. |
 | Mayo de 13 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sección &quot;Limitaciones conocidas&quot; Añadida. |
-| Mayo de 11 | [Hosts](/help/administrating-target/hosts.md) | Se Añadió información sobre el uso de la funcionalidad ubox con redirecciones y listas de permitidos. |
+| Mayo de 11 | [Hosts](/help/administrating-target/hosts.md) | Información Añadida sobre el uso de la funcionalidad ubox con redirecciones y listas de permitidos. |
 |  | [Trabajar con redirectores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Información Añadida sobre el uso de hosts para evitar vulnerabilidades de redireccionamiento abierto. |
 |  | [Integrar Recommendations con el correo electrónico](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Información Añadida sobre el uso de hosts para evitar vulnerabilidades de redireccionamiento abierto. |
 |  | [Correo electrónico: implementación de Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Información Añadida sobre el uso de hosts para evitar vulnerabilidades de redireccionamiento abierto. |
@@ -79,7 +80,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Abril de 23 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tema actualizado. |
 | Abril de 22 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Nueva sección Añadida: *Cambios en la API de estado de lote de Perfil v2 (4 de mayo de 2020).* |
 | Abril de 20 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Nueva sección Añadida: *Generador de habilidades de Adobe Target: Chat del desarrollador, migre el archivo mbox.js del Adobe Target a at.js.* |
-| Abril de 14 | [Permitir lista de hosts de aristas de Destinatario](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nuevo tema. |
+| Abril de 14 | [Hosts perimetrales de Destinatario de Lista de permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nuevo tema. |
 | Abril de 10 | [Implementación de aplicación de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nueva sección Añadida: &quot;Prácticas recomendadas de implementación&quot;. |
 | Abril de 7 | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Se ha actualizado el texto para &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
 | Abril de 2 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Información Añadida sobre el uso `user.header('x-forwarded-for')` con los bordes AWS más recientes para recuperar las direcciones IP de los usuarios. |
