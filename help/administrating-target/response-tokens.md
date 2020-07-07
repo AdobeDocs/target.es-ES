@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
 source-wordcount: '1571'
-ht-degree: 85%
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 >
 >La información de este tema se ha actualizado para ayudarle a obtener un pico en los cambios de la interfaz de usuario que se producirán en la versión Target Standard/Premium 20.6.1 (julio de 2020). La mayor parte de la información presentada en este tema se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
-Los tokens de respuesta le permiten elegir qué variables aprovecha y habilitarlas para su envío como parte de una respuesta de mbox. Para ello, solo tiene que utilizar el interruptor para habilitar una variable y se la enviará con las respuestas de mbox, que pueden validarse en llamadas de red. Response tokens work in [!UICONTROL Preview] mode as well.
+Los tokens de respuesta le permiten elegir qué variables utilizar y, a continuación, habilitarlas para que se envíen como parte de una respuesta de Destinatario. Para hacerlo, simplemente habilite una variable mediante el conmutador y la variable se enviará con respuestas de Destinatario, que se pueden validar en llamadas de red. Response tokens work in [!UICONTROL Preview] mode as well.
 
 Una diferencia clave entre complementos y tokens de respuesta es que, mientras que los primeros envían a la página código JavaScript que se ejecuta al recibirlo, los segundos envían un objeto que puede leerse y sobre el que puede actuarse utilizando detectores de eventos. Para obtener más información, consulte Más adelante en este artículo se encuentran los [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) y los ejemplos. El enfoque de tokens de respuesta es más seguro y debería facilitar el desarrollo y mantenimiento de integraciones de terceros.
 
