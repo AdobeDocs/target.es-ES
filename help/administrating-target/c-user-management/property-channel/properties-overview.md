@@ -5,7 +5,7 @@ title: Configuración de permisos de Enterprise
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 70%
@@ -78,6 +78,7 @@ Los usuarios pueden formar parte de varios espacios de trabajo y pueden incluso 
 
       * Creación de nuevos espacios de trabajo en [!DNL Admin Console for Enterprise].
       * Asignar propiedades de Target a los espacios de trabajo.
+
    Puede utilizar estos espacios de trabajo para acceder a los diferentes equipos por región, unidad de negocio, sección del sitio o mediante cualquier otro método a su elección. Los usuarios pueden formar parte de varios espacios de trabajo y pueden tener diferentes funciones en cada uno de ellos.
 
 1. Siga las instrucciones de [Creación y administración de configuraciones de producto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) en la *Guía del usuario de Enterprise*.
@@ -152,7 +153,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    * **Mediante un “Parámetro global” en[!DNL Adobe Launch]:**
 
-      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
    * **Mediante un “Parámetro global” en[!DNL Dynamic Tag Management]:**
 
