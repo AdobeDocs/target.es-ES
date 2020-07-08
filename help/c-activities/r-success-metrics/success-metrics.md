@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
-description: En Adobe Destinatario, las métricas de éxito están preconfiguradas tanto para fines de sistema de informes como de seguimiento.
-title: Métricas de éxito en Adobe Destinatario
+description: En Adobe Target, las métricas de éxito están preconfiguradas tanto para fines de sistema de informes como de seguimiento.
+title: Métricas de éxito en Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 92%
+source-wordcount: '1020'
+ht-degree: 83%
 
 ---
 
 
 # Métricas de éxito{#success-metrics}
 
-En Adobe Destinatario, las métricas de éxito están preconfiguradas tanto para fines de sistema de informes como de seguimiento.
+En Adobe Target, las métricas de éxito están preconfiguradas tanto para fines de sistema de informes como de seguimiento.
 
 Las métricas de éxito son parámetros usados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target. Por ejemplo, puede determinar si una oferta nueva aumenta los ingresos por visitante o si agregar un artículo a un carro de compras. Las métricas de éxito pueden resultar útiles para detectar problemas con el registro, el pedido o los canales de compra, pero también con la participación del visitante o del cliente.
 
@@ -35,14 +35,14 @@ Están disponibles las siguientes métricas de éxito:
 | Conversión | Basado en la conversión | Se produce una conversión cuando un visitante realiza en su sitio una acción que usted ha definido (hacer clic en un botón, visualizar una página, completar una encuesta o realizar una compra). Las conversiones se pueden contabilizar una vez por visitante o cada vez que un visitante completa una conversión. |
 | Ingresos | Basado en la conversión | Ingresos generados por la visita. Tiene la opción de elegir entre las siguientes métricas de ingresos:<ul><li>Ingresos por visitante (RPV)</li><li>Valor de pedido promedio (AOV)</li><li>Ventas totales</li></ul> |
 | Vistas de páginas | Basado en la participación | Cada visita única se contabiliza como una conversión. |
-| Tiempo en el sitio | Basado en la participación | El tiempo invertido en la visita (en segundos) desde el momento en el que el visitante ve el primer mbox de visualización de la actividad hasta que se cargue la última página de la sesión que tenga un mbox. |
-| Puntuación personalizada | Basado en la participación | Se ha añadido una puntuación basada en el valor asignado a páginas visitadas en el sitio, desde el punto en que el visitante ve por primera vez el primer mbox de visualización de la actividad. |
+| Tiempo en el sitio | Basado en la participación | Tiempo empleado en la visita (en segundos) desde el punto en que el visitante ve la primera solicitud de Destinatario de visualización de la actividad hasta la carga de la página final con una solicitud en la sesión. |
+| Puntuación personalizada | Basado en la participación | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 
 En el caso de las métricas basadas en la participación (al contrario que las basadas en la conversión o en los ingresos), los visitantes deben volver a clasificarse para la actividad en cada visita si se desea incrementar el recuento. La métrica asociada comienza a aumentar tras la reclasificación y se detiene al terminar la sesión del visitante. Una sesión termina tras 30 minutos de inactividad. Por lo tanto, no verá los resultados inmediatamente durante las pruebas, pero todos los resultados estarán disponibles pocos minutos después de haber terminado la sesión.
 
 También puede crear métricas de éxito personalizadas para adaptarse a sus necesidades comerciales.
 
-Después de seleccionar la métrica de éxito, seleccione la acción realizada por un visitante para alcanzar el objetivo. Por ejemplo, elija una métrica de conversión, configúrela para que sea contabilizada una vez por visitante y, a continuación, establezca si desea que el éxito se alcance cuando un visitante visite una página determinada (o un conjunto de páginas), un mbox específico o bien haga clic en un vínculo concreto.
+Después de seleccionar la métrica de éxito, seleccione la acción realizada por un visitante para alcanzar el objetivo. For example, choose a Conversion metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
 
 Si está habilitado, el valor estimado de un campo de conversión (no disponible para la métrica Puntuación de página) proporciona un valor para el objetivo, pero no para el resto de las métricas. Este valor permite a [!DNL Target] calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. Para todas las métricas de ingresos (Ingresos por visitante, Valor de pedido promedio, Ventas totales y Pedidos), el cálculo usa Ingresos por visitante. El tipo de datos es moneda. Para obtener más información, consulte [Alza estimada en ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
