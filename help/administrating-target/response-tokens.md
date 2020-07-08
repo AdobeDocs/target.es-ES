@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 81%
+source-wordcount: '1567'
+ht-degree: 78%
 
 ---
 
@@ -51,7 +51,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
 
    | Tipo | Parámetro | Notas |
    |--- |--- |--- |
-   | Perfiles integrados | `profile.activeActivities` | Devuelve una matriz de los `activityIds` para los que el visitante está cualificado. Aumenta a medida que los usuarios se cualifican. Por ejemplo, en una página con dos mboxes que ofrecen dos actividades diferentes, el segundo mbox incluirá ambas actividades. |
+   | Perfiles integrados | `profile.activeActivities` | Devuelve una matriz de los `activityIds` para los que el visitante está cualificado. Aumenta a medida que los usuarios se cualifican. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
    |  | `profile.isFirstSession` | Devuelve “true” o “false”. |
    |  | `profile.isNewSession` | Devuelve “true” o “false”. |
    |  | `profile.daysSinceLastVisit` | Devuelve el número de días desde la última visita del visitante. |
@@ -71,7 +71,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
    >
    >Los parámetros con caracteres especiales no se muestran en la lista. Se admiten únicamente caracteres alfanuméricos y guiones bajos.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
    Haga clic en **[!UICONTROL Añadir token]** de respuesta, proporcione el nombre del token y, a continuación, haga clic en **[!UICONTROL Activar]**.
 
@@ -79,7 +79,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
 
 1. Cree una actividad.
 
-Utilice [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) para detectar la respuesta de mbox y leer los tokens de respuesta.
+Utilice [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) para detectar la respuesta de y leer los tokens de respuesta.[!DNL Target]
 
 El siguiente ejemplo de código añade un controlador de evento personalizado [!DNL at.js] directamente a la página HTML:
 
@@ -136,15 +136,15 @@ Verá los tokens de respuesta, pero at.js no será capaz de usarlos.
 
 **¿Qué sucede su utilizo at.js 1.1 (o posterior) en algunas página de mi sitio, pero mbox.js en otras?**
 
-Los tokens de respuesta se enviarán a las respuestas del mbox [!DNL at.js], pero no a las respuestas de [!DNL mbox.js].
+Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
 
 **¿Puedo tener activos a la vez complementos de Target Classic y tokens de respuesta?**
 
 Los complementos y los tokens de respuesta estarán disponibles en paralelo; sin embargo, los complementos quedarán obsoletos en el futuro.
 
-**¿Los tokens de respuesta se envían a través de todas las respuestas de mbox o solo a través de mboxes que envían una actividad?**
+**¿Los tokens de respuesta se envían a través de todas las[!DNL Target]respuestas o solo a través de[!DNL Target]respuestas que envían una actividad?**
 
-Los tokens de respuesta se envían únicamente a través de mboxes que envían una actividad.
+Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
 **Mis complementos de Target Classic incluyen código JavaScript. ¿Cómo replico su funcionalidad mediante tokens de respuesta?**
 
