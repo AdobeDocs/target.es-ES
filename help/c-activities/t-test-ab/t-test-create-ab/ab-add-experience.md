@@ -4,7 +4,10 @@ description: El Compositor de experiencias visuales (VEC) de Adobe Target propor
 title: Añadir experiencia
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +30,7 @@ Para obtener más información sobre las experiencias, consulte [Experiencias](.
 
    Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Los elementos resaltados se pueden modificar con el Compositor de experiencias.
 
-   Si creó un mbox en la página mediante Target Classic (antes denominado Test&amp;Target), ese mbox aparece como un elemento que muestra el nombre del mbox y se puede modificar como cualquier otro elemento.
+   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
 
    Para obtener una lista de las acciones que se pueden realizar en un elemento de la página mostrada para cambiar la experiencia, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
