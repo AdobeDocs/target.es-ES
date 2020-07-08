@@ -1,11 +1,14 @@
 ---
-keywords: solucionar problemas de target;resolución de problemas de target;contenido predeterminado;prueba no activa;actividad no activa;segmentación no funciona;pantallas de experiencias previas;no puedo crear actividades;no se pueden crear actividades;crear actividades;cambió la estructura de la página;se modificó la estructura de la página;mensaje de error;error al eliminar script de perfil;ajax no funciona
+keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: Si su actividad no aparece en su sitio, estas sugerencias para solucionar problemas le ayudarán a encontrar una solución.
 title: Resolución de problemas de actividades
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 83%
 
 ---
 
@@ -20,9 +23,9 @@ Si su actividad no aparece en su sitio, estas sugerencias para solucionar proble
 
 En las siguientes secciones puede encontrar ejemplos de problemas y sus posibles soluciones.
 
-## He creado una actividad mediante la interfaz de usuario de Target y no puedo actualizarla mediante la API.
+## He creado una actividad con la interfaz de usuario de Destinatario y no puedo actualizarla con la API.
 
-Las actividades creadas con la interfaz de usuario de Target se deben actualizar mediante la interfaz de usuario de Target. Las actividades creadas mediante API deben actualizarse mediante API. Si originalmente crea una actividad mediante la API, por ejemplo, pero posteriormente la edita mediante la interfaz de usuario de Target, no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
+Las Actividades creadas con la interfaz de usuario de Destinatario se deben actualizar mediante la interfaz de usuario de Destinatario. Las Actividades creadas mediante API deben actualizarse mediante API. Si originalmente crea una actividad con la API, por ejemplo, pero posteriormente edita la actividad mediante la interfaz de usuario de Destinatario, no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
 
 Se recomienda actualizar la actividad con el mismo método (IU o API) que se utilizó para crear la actividad originalmente.
 
@@ -54,7 +57,7 @@ Asegúrese de que su actividad está completa y se ha activado.
 
 **Opciones:**
 
-* Vaya al Compositor de experiencias visuales y haga clic en la dirección URL &gt; Avanzadas &gt; Página actual.
+* Vaya al Compositor de experiencias visuales y haga clic en la dirección URL > Avanzadas > Página actual.
 
 ## Se muestra una experiencia anterior en lugar de la nueva experiencia.
 
@@ -76,7 +79,7 @@ Asegúrese de que su actividad está completa y se ha activado.
 Una vez que se lo agrega como usuario en Target, necesita tener la función Aprobador para crear Actividades.
 
 * Solicite al Administrador de la cuenta que lo convierta en Aprobador.
-* Si usted es el Administrador, asígnese usted mismo la función Aprobador desde Configuración &gt; Usuarios en Target Standard.
+* Si usted es el Administrador, asígnese usted mismo la función Aprobador desde Configuración > Usuarios en Target Standard.
 
    Consulte [Asignarse a usted mismo la función de aprobador](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -135,10 +138,10 @@ Realice uno de los siguientes pasos:
 * Vuelva a eliminarlo. Aparece el mensaje de proceso realizado correctamente.
 * Espere 10 minutos aproximadamente para que se ejecute el programa de importación de Target Standard/Premium. El programa de importación actualiza la lista de scripts de perfil.
 
-## Algunas llamadas de mbox ajax no están funcionando.
+## Some ajax [!DNL Target] calls are not working.
 
-**Nota:** Varias llamadas de mbox ajax con el mismo nombre de mbox pero parámetros diferentes no funcionarán en la misma página. Solo se realizará la primera llamada.
+**Nota:**[!DNL Target] Varias llamadas de ajax con el mismo nombre de pero parámetros diferentes no funcionarán en la misma página. Solo se realizará la primera llamada.
 
-## Ha activado una actividad mediante la API de Target, pero la actividad aparece con el estado Inactivo en la interfaz de usuario de Target.
+## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
 
 Cuando se realizan determinadas acciones (por ejemplo, activar una actividad fuera de la interfaz de usuario empleando la API de Target), los cambios pueden tardar hasta 10 minutos en propagarse a la interfaz.
