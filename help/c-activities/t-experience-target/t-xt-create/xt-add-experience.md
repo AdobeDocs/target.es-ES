@@ -1,11 +1,14 @@
 ---
-keywords: crear experiencia;crear;experiencia;prioridad;audiencia;experiencia;compositor de experiencias visuales
+keywords: create experience;experience create;priority;audience;experience;visual experience composer
 description: El Compositor de experiencias visuales de Adobe Target (VEC) proporciona una interfaz visual para editar las experiencias en su página en una actividad de segmentación de experiencias (XT).
 title: Crear experiencia
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +27,7 @@ El [!UICONTROL Compositor de experiencias visuales (VEC)] proporciona una interf
 
    Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Los elementos resaltados se pueden modificar con el VEC. Para obtener una lista de las acciones que se pueden realizar en un elemento para cambiar la experiencia, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Si creó un mbox en la página mediante [!DNL Target Classic], ese mbox aparece como un elemento que muestra el nombre del mbox y se puede modificar como cualquier otro elemento.
+   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
 
    >[!NOTE]
    >
@@ -42,7 +45,7 @@ El [!UICONTROL Compositor de experiencias visuales (VEC)] proporciona una interf
    >
    >Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas específicas en lugar de crear una nueva. Para obtener más información, consulte [Combinar varias audiencias](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Al crear una audiencia puede seleccionar una ubicación (mbox) y especificar parámetros para dicha ubicación. En [!UICONTROL Personalizado] (Crear audiencia &gt; Agregar regla &gt; Personalizar), seleccione el mbox y, a continuación, especifique los parámetros que desee.
+   Al crear una audiencia, puede seleccionar una ubicación y especificar los parámetros de dicha ubicación. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
 
    >[!NOTE]
    >
@@ -76,7 +79,7 @@ El [!UICONTROL Compositor de experiencias visuales (VEC)] proporciona una interf
 
    [!UICONTROL La segmentación de experiencias supone que ese orden importa. ] Si un visitante encaja en el primer par de audiencia/experiencia, se le sirve la primera experiencia.
 
-   Por ejemplo, suponga que no es consciente de que el orden importa al crear una actividad XT. Más adelante repara, durante las pruebas, que los visitantes que creía que encajarían en las experiencias B o C acaban en la experiencia A. Podría deberse a que las audiencias no son mutuamente excluyentes y no están situadas en el orden apropiado (por ejemplo, experiencia A = Estados Unidos, experiencia B = San Francisco, experiencia C = California). En este escenario, todos los usuarios de Estados Unidos entrarán en la experiencia A, aunque se encuentren en San Francisco o alguna otra parte de California. Puede reordenar los pares de audiencia/experiencia de más restrictivo a menos restrictivo (San Francisco &gt; California &gt; Estados Unidos) sin necesidad de reconstruir toda la actividad.
+   Por ejemplo, suponga que no es consciente de que el orden importa al crear una actividad XT. Más adelante repara, durante las pruebas, que los visitantes que creía que encajarían en las experiencias B o C acaban en la experiencia A. Podría deberse a que las audiencias no son mutuamente excluyentes y no están situadas en el orden apropiado (por ejemplo, experiencia A = Estados Unidos, experiencia B = San Francisco, experiencia C = California). En este escenario, todos los usuarios de Estados Unidos entrarán en la experiencia A, aunque se encuentren en San Francisco o alguna otra parte de California. Puede reordenar los pares de audiencia/experiencia de más restrictivo a menos restrictivo (San Francisco > California > Estados Unidos) sin necesidad de reconstruir toda la actividad.
 
    Si tiene una audiencia de [!UICONTROL Todos los visitantes], compruebe que no sea la primera audiencia en el diagrama. Se puede utilizar una experiencia segmentada a “Todos los visitantes” como la última experiencia de la actividad de segmentación de experiencias para “captar” a los visitantes que no han participado de otras experiencias.
 
@@ -91,7 +94,7 @@ Puede hacer clic en el icono [!UICONTROL Editar] (tres puntos verticales) de una
 
 ## Eliminar una experiencia
 
-En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales &gt; **[!UICONTROL Eliminar]**.
+En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales > **[!UICONTROL Eliminar]**.
 
 ![Eliminar experiencia](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
@@ -99,7 +102,7 @@ En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo
 
 Puede copiar una experiencia en una actividad de XT y así realizar cambios menores sin tener que volver a crear la experiencia desde cero.
 
-En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales &gt; **[!UICONTROL Duplicar]**.
+En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo guiado de tres pasos), haga clic en las tres elipses verticales > **[!UICONTROL Duplicar]**.
 
 ![Duplicar experiencia](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
@@ -115,7 +118,7 @@ Este vídeo describe cómo se llevan las pruebas A/B al siguiente nivel con Segm
 * Describe cómo se entrega contenido dependiente de la ubicación a audiencias situadas en distintas zonas geográficas
 * Describe cómo se reordenan las experiencias para asegurar que cada contenido se envíe a la audiencia correcta
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Tipos de actividad (9:03)
 
@@ -125,7 +128,7 @@ En este vídeo se describen los tipos de actividades disponibles en Target Stand
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Uso del Compositor de experiencias visuales
 
@@ -134,4 +137,4 @@ El siguiente vídeo proporciona información sobre cómo usar las opciones del C
 * Cambiar el contenido de una página
 * Cambiar el diseño de una página
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
