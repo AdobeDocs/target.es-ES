@@ -3,7 +3,10 @@ description: A veces, las actividades no salen como se esperaba. A continuación
 title: Resolución de problemas de la personalización automatizada
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +39,7 @@ Hay varios factores necesarios para que una actividad AP genere alza:
 
 ## Mi dirección URL de actividad AP muestra contenido de ofertas en páginas incorrectas.   {#section_82A224406DBF4107B05204BEFBBE458C}
 
-En AP, las reglas de URL y prueba de plantillas se agregan al límite de entrada de mbox, por ejemplo, mbox global de target, donde se evalúan una sola vez. Una vez que un usuario reúne todos los requisitos para una campaña, no se vuelven a evaluar las reglas de segmentación de ámbito de mbox. Sin embargo, se agrega la audiencia de segmentación a las reglas de segmentación de ubicación.
+In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Una vez que un usuario cumple los requisitos para una actividad, las reglas de objetivo de nivel de solicitud de Destinatario no se vuelven a evaluar. Sin embargo, se agrega la audiencia de segmentación a las reglas de segmentación de ubicación.
 
 **Solución:** agregue las reglas de plantillas necesarias como audiencia de entrada de la campaña. La evaluación de audiencia sucede con cada solicitud/llamada.
 
