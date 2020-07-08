@@ -1,12 +1,15 @@
 ---
-keywords: Rastreo de clics;rastrear clics;clics;AppMeasurement
+keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Target permite rastrear clics en cualquier elemento como una métrica de éxito.
 title: Rastreo de clics
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +20,11 @@ Target permite rastrear clics en cualquier elemento como una métrica de éxito.
 
 >[!NOTE]
 >
->El rastreo de clics no se admite en el mbox global de Target cuando se utiliza como ubicación en una actividad basada en formularios.
+>El seguimiento de clics no se admite en la solicitud de Destinatario global cuando se utiliza como ubicación en una actividad basada en formularios.
 
 ## Configuración del rastreo de clics {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Al establecer los objetivos en la página [!UICONTROL Objetivos y configuración] para su actividad, seleccione la métrica de conversión **[!UICONTROL Conversión].**
+1. Al establecer los objetivos en la página [!UICONTROL Objetivos y configuración] para su actividad, seleccione la métrica de conversión **[!UICONTROL Conversión]**.
 1. Para la acción, seleccione **[!UICONTROL Se hizo clic en un elemento]** y luego haga clic en **[!UICONTROL Seleccionar elementos]**.
 
    La página se abre en el [!UICONTROL Compositor de experiencias visuales] (VEC).
@@ -68,7 +71,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 
    ![Ilustración de la ruta DOM](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   Del mismo modo que cuando se crean experiencias en el paso 1 del flujo de trabajo de creación de actividad, el selector de ruta DOM en la parte inferior de la página le permite elegir un elemento. Al seleccionar un elemento desde la ruta DOM, el elemento correspondiente del VEC se muestra como "Seleccionado". Para anular la selección de un elemento seleccionado, vuelva a hacer clic en dicho elemento en el selector de rutas DOM o haga clic en el cuadro "Seleccionado" dentro del VEC.
+   Del mismo modo que cuando se crean experiencias en el paso 1 del flujo de trabajo de creación de actividad, el selector de ruta DOM en la parte inferior de la página le permite elegir un elemento. Al seleccionar un elemento desde la ruta DOM, el elemento correspondiente del VEC se muestra como &quot;Seleccionado&quot;. Para anular la selección de un elemento seleccionado, vuelva a hacer clic en dicho elemento en el selector de rutas DOM o haga clic en el cuadro &quot;Seleccionado&quot; dentro del VEC.
 
    Para obtener más información, consulte [Desplazamiento por elementos utilizando la ruta DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en *Opciones del Compositor de experiencias visuales*.
 
@@ -101,6 +104,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 
       * Etiqueta`A` (vínculo): el comportamiento predeterminado es ir a la URL definida por el atributo HREF.
       * Etiqueta `FORM`: el comportamiento predeterminado es enviar el formulario.
+
    Este comportamiento predeterminado podría interferir en el rastreo de clics de Analytics. Si utiliza Analytics, se recomienda confiar en Analytics para el rastreo de clics en vez de en Target.
 
 * El rastreo de clics no se registra en páginas en las que la URL de la página y de la actividad pertenecen a propiedades diferentes. Los permisos de usuario de Enterprise son una función de Target Premium. Para obtener más información, consulte [Permisos de usuario de Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md).
@@ -113,4 +117,4 @@ Este vídeo contiene información sobre la creación de métricas de éxito del 
 * Qué son y cómo compilar las métricas de conversión, ingresos y participación
 * Compilar una métrica para el rastreo de clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
