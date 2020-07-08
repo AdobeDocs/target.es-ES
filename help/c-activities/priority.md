@@ -1,11 +1,14 @@
 ---
-keywords: configuración;prioridad
-description: Adobe Target determina qué actividad (o actividades) se enviarán a una página de forma diferente en función de la interfaz de Target y de la función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) que esté utilizando.
-title: Prioridad en Adobe Target
+keywords: settings;priority
+description: Adobe Target determina qué actividad (o actividades) se enviarán a una página de forma diferente en función de la interfaz de Destinatario y de la función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) que se esté utilizando.
+title: Prioridad en el Adobe Target
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1167'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Target determina qué actividad (o actividades) ofrece en una página de forma diferente en función de qué interfaz de Target y de qué función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) esté usando.
 
-## Solo compositor de experiencias visuales de Target Standard/Premium o solo compositor basado en formularios utilizando mbox global {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor de experiencias visuales, se puede devolver el contenido de varias actividades para la misma llamada. Las actividades se ofrecen según el siguiente flujo de decisiones:
 
@@ -46,8 +49,8 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
 
 Si en su empresa se utiliza el compositor basado en formularios en Target Standard/Premium y el Compositor de experiencias visuales en Target Standard/Premium, se puede ofrecer el contenido de varias actividades del Compositor de experiencias visuales, pero solo una actividad del flujo de trabajo basado en formularios. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
-1. La llamada del servidor de Target llega a Target con información sobre el mbox y la dirección URL.
-1. Target Classic y Standard recuperan todas las actividades que se están realizando en ese mbox.
+1. Target server call comes to Target with information about the [!DNL Target] request and URL.
+1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
 1. Target intenta relacionar al visitante con actividades.
 
    Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
@@ -63,17 +66,17 @@ Si tiene dos actividades, una que segmenta por la palabra clave de búsqueda por
 
 Si ambas actividades segmentadas tienen la misma prioridad, se muestra la última actividad que se vio. Si el visitante es nuevo en la página, se muestra la última actividad que se activó.
 
-## Compositor basado en formularios de Target Standard/Premium con mboxes no globales.  {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Esta información también se aplica a cualquier campaña en ejecución creada en Target Classic.
 
-Si su empresa utiliza mboxes no globales en el compositor basado en formularios, solo se puede devolver el contenido de una actividad por llamada. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
+If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
-1. La llamada del servidor de Target llega a Target con información sobre el mbox y la dirección URL.
-1. Target recupera todas las actividades que se están realizando en el mbox.
-1. Target intenta relacionar al visitante con la actividad de mayor prioridad.
+1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
+1. [!DNL Target] extrae todas las actividades que se ejecutan en esa [!DNL Target] solicitud.
+1. [!DNL Target] intenta relacionar al visitante con la actividad de mayor prioridad.
 
    Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
 
@@ -88,7 +91,7 @@ Si su empresa utiliza mboxes no globales en el compositor basado en formularios,
 >
 >Los valores de prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. Para obtener más información, consulte  [Configuración de actividades](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Dos campañas de Target Classic usan mboxes que no son globales**
+**Dos campañas de Destinatario Classic utilizan solicitudes de Destinatario no globales**
 
 * Campaña 1: homePageHero, offer1, prioridad alta
 * Campaña 2: homePageHero, offer2, prioridad baja
@@ -136,4 +139,4 @@ Este vídeo incluye información sobre la configuración de las actividades.
 * Añadir audiencias para los informes a fin de crear filtros de informes
 * Escribir notas en las actividades
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
