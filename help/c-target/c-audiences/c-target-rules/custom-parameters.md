@@ -5,7 +5,10 @@ title: Parámetros personalizados en Adobe Target
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +29,7 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
 
    * Cuando cree una nueva audiencia, seleccione un nombre de parámetro en la lista, empiece a escribir los primeros caracteres del nombre de parámetro deseado o escriba el nombre completo del parámetro.
    * Si recuerda el nombre del mbox pero no el del parámetro, utilice la casilla de verificación para filtrar en función de un mbox conocido que pase el parámetro deseado.
+
    Con ninguno de estos métodos existe vínculo entre el mbox y el parámetro. La audiencia funcionará sobre la base del parámetro en todos los mboxes que pasen dicho parámetro.
 
    Si edita una audiencia existente, el criterio de filtrado se muestra con el nombre de mbox que se suministró durante la creación.
@@ -35,6 +39,7 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
    * Contiene (sin distinción de mayúsculas y minúsculas)
    * No contiene (sin distinción de mayúsculas y minúsculas)
    * Es igual a
+
    ![Audiencia de parámetros personalizados](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. Introduzca cada valor en una línea nueva
@@ -50,9 +55,9 @@ La [tarjeta emergente de detalles de definición](../../../c-target/c-audiences/
 ## Consideraciones {#considerations}
 
 * Las audiencias y actividades se evalúan para un mbox específico. Por ejemplo, si el mbox global pasa un determinado parámetro pero el mbox regional no, la actividad o la audiencia orientada a ese parámetro no será calificada para el mbox regional.
-* La segmentación no se evalúa en parámetros de mbox internos, como mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId y mboxVersion.
+* La segmentación no se evalúa en parámetros de mbox internos, como mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId y mboxVersion.
 
-## Vídeo de capacitación: Creación de una insignia de ![tutorial de audiencias](/help/assets/tutorial.png)
+## Vídeo de capacitación: Creación de una insignia de ![tutorial de Audiencias](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
