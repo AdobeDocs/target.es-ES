@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 52%
+source-wordcount: '764'
+ht-degree: 51%
 
 ---
 
@@ -48,13 +48,13 @@ Existen dos métodos para asignar una puntuación a una página:
 
    Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Las solicitudes de Destinatario ubicadas por encima de la primera solicitud de visualización [!DNL Target] de la actividad no se incluirán en la puntuación.
 
 Best practice is to assign values in the [!DNL Target] request. Esto le permite precisar los valores que mide en función del contenido de cada solicitud.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Para facilitar el mantenimiento puede configurar cada asignación de valor de puntuación de página del sitio en el archivo [!DNL at.js] o [!DNL mbox.js] con alguna lógica JavaScript condicional. De este modo se elimina la necesidad de añadir más código a las páginas. Póngase en contacto con su consultor de cuentas para solicitar asistencia.
 
