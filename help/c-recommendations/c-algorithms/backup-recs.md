@@ -1,10 +1,13 @@
 ---
-keywords: recomendación;copia de seguridad;copia;seguridad
+keywords: recommendation;backup;back up
 description: Si utiliza la función de recomendación de copia de seguridad, las recomendaciones que no cuenten con suficientes artículos recomendados no mostrarán el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
 title: Usar una recomendación de copia de seguridad
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Este proceso de agrupamiento significa que las recomendaciones de respaldo se mu
 
 Sin la acumulación de recomendaciones de copia de seguridad, habría sido posible mostrar el 499º artículo más visto, seguido del 200º más visto, seguido del 380º más visto, y así sucesivamente. El proceso de ordenamiento asegura que los artículos más vistos se recomiendan primero.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Si agrupa los artículos en catálogos, las recomendaciones de copia de seguridad generadas para cada algoritmo dentro de la recomendación también usan el catálogo, por lo que únicamente los artículos del catálogo se incluirán en la recomendación de copia de seguridad.
 
