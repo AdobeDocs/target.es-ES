@@ -5,7 +5,7 @@ title: Recursos e información de contacto
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: ce885c24a44aa1ebd5ed48f14bc68105e665dc88
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -70,7 +70,7 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 
 Si tiene problemas técnicos o quiere registrar un error, contacte con atención al cliente. Para contactar con atención al cliente por teléfono, llame al +1 800 497 0335. Toll free numbers outside the United States can be found on the [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) page. Cuando se le pida que seleccione una opción para su producto, presione 3 para contactar con el equipo de Target.
 
-Escriba un mensaje de correo electrónico al servicio de atención al cliente a [!DNL tt-support@adobe.com].
+Escriba un mensaje de correo electrónico al servicio de atención al cliente a [!DNL customercare@adobe.com].
 
 Para agilizar la evaluación de su problema, se recomienda que disponga de la siguiente información básica cuando contacte con nosotros:
 
