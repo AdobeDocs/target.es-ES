@@ -5,7 +5,10 @@ title: Crear ofertas de redireccionamiento
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +19,7 @@ La oferta de redireccionamiento hace que un navegador redirija a una página nue
 
 Es posible que tenga dos páginas completamente distintas para probarlas, en lugar de simplemente cambiar partes de contenido dentro de una página. En ese caso, la prueba A/B compara la página A con la B. Configure una campaña de prueba A/B con dos experiencias: una que apunte a la página A predeterminada y otra que redirija a la página B. La oferta se configura para redirigir al visitante a una página distinta.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >No se pueden usar las ofertas de redireccionamiento en los mboxes de Ajax (`mboxUpdate`).
 >
@@ -26,7 +29,7 @@ Para obtener información sobre la configuración de una experiencia de redirecc
 
 La oferta de redireccionamiento ejecuta código JavaScript para redirigir el navegador. Utiliza el método `window.location.replace();`, de modo que la página desde la cual se redirige al visitante no se almacene en el historial del explorador. Esto permite que el visitante siga usando el botón de retorno del navegador.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Si se desea pasar el valor de referente de la página de aterrizaje, se recomienda usar una oferta HTML en lugar de una oferta de redireccionamiento.
 
@@ -51,7 +54,7 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
    Si usa la configuración de cookie de origen y de terceros, no tiene que pasar ID de sesión mbox al cruzar dominios. Este identificador se conserva en la cookie de terceros, por lo que no es necesario en la dirección URL.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Consulte con su asesor de implementación antes de iniciar estas pruebas.
 
