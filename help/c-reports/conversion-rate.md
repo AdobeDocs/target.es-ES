@@ -1,11 +1,14 @@
 ---
-keywords: Segmentación
+keywords: Targeting
 description: De cada experiencia, se informa de la tasa de conversión, el alza, la confianza (relevancia estadística) y el intervalo de confianza.
 title: Tasa de conversión
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +21,7 @@ La siguiente ilustración muestra el encabezado de gráfico de una actividad de 
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >En todos los datos se omiten los pedidos duplicados si se pasa un `orderID`. En el informe de auditoría se enumeran los pedidos duplicados que se han omitido.
 
@@ -104,7 +107,7 @@ El *intervalo de confianza* es un intervalo en el que se puede encontrar el valo
 
 El [informe CSV descargado](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) solo contiene datos sin procesar; no incluye métricas calculadas, como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B.
 
-To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -121,10 +124,10 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 **Para utilizar a este respecto la función de exportación de datos de[!DNL Analytics]:**
 
 1. Iniciar sesión en [!DNL Adobe Analytics].
-1. Haga clic en **[!UICONTROL Herramientas]** &gt; **[!UICONTROL Data Warehouse]**.
-1. En la pestaña **[!UICONTROL Solicitud de Data Warehouse], rellene los campos.**
+1. Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Data Warehouse]**.
+1. En la pestaña **[!UICONTROL Solicitud de Data Warehouse]**, rellene los campos.
 
-   Para obtener más información acerca de cada campo, consulte "Descripciones de Data Warehouse" en [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
+   Para obtener más información acerca de cada campo, consulte &quot;Descripciones de Data Warehouse&quot; en [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
 
    | Campo | Instrucciones |
    |--- |--- |
@@ -138,14 +141,14 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 
 1. Haga clic en **[!UICONTROL Solicitar este informe]**.
 
-   El envío de archivos puede tardar hasta 72 horas, dependiendo de la cantidad de datos solicitados. Puede comprobar el progreso de la solicitud en cualquier momento haciendo clic en [!UICONTROL Herramientas] &gt; [!UICONTROL Data Warehouse] &gt; [!UICONTROL Solicitar administrador].
+   El envío de archivos puede tardar hasta 72 horas, dependiendo de la cantidad de datos solicitados. Puede comprobar el progreso de la solicitud en cualquier momento haciendo clic en [!UICONTROL Herramientas] > [!UICONTROL Data Warehouse] > [!UICONTROL Solicitar administrador].
 
    Si desea volver a solicitar datos ya pedidos en el pasado, puede duplicar una solicitud antigua desde [!UICONTROL Solicitar administrador].
 
 Para obtener más información sobre el [!DNL Data Warehouse], vea los siguientes vínculos en la documentación de ayuda de [!DNL Analytics]:
 
 * [Crear una solicitud del Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Prácticas recomendadas del almacén de datos](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Prácticas recomendadas de Data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodología de contabilización {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -180,6 +183,6 @@ Puede visualizar informes siguiendo las siguientes metodologías de contabilizac
 
    Una sola visita puede abarcar varias impresiones de, por ejemplo, su página principal.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Los recuentos se suelen determinar a partir de las cookies y la actividad de la sesión. Sin embargo, si se alcanza el punto de conversión final de una actividad y se vuelve a entrar en ella, se le considerará un visitante nuevo y una nueva visita a la actividad. Esto ocurre incluso cuando los valores de PCID y `sessionID` no han variado.
