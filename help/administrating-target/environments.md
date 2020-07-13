@@ -5,7 +5,7 @@ title: Entornos
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 63%
@@ -76,6 +76,7 @@ Puede eliminar un entorno que ya no vaya a necesitar.
 Puede obtener una vista previa del contenido de las colecciones y exclusiones de Recommendations para un entorno seleccionado (grupo de hosts).
 
 >[!NOTE]
+>
 >Recommendations activities are available as part of the [!DNL Target] Premium solution. No están disponibles en [!DNL Target] Standard sin una licencia de [!DNL Target] Premium.
 
 Se puede utilizar un entorno para separar los elementos disponibles en el catálogo para distintos usos. For example, you can use host groups for [!UICONTROL Development] and [!UICONTROL Production] environments, different brands, or different geographies. De forma predeterminada, la vista previa de los resultados en Búsqueda de catálogo, Colecciones y Exclusiones se basa en el grupo de hosts predeterminado. (También puede seleccionar otro grupo de hosts para obtener una vista previa de los resultados mediante el filtro Entorno). De forma predeterminada, los elementos recién añadidos están disponibles en todos los grupos de hosts a menos que se especifique un ID de entorno al crear o actualizar el elemento. Las recomendaciones enviadas dependen del grupo de hosts especificado en la solicitud.
