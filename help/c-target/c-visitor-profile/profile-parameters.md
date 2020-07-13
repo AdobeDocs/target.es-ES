@@ -5,9 +5,9 @@ title: Atributos de perfil en Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2441'
 ht-degree: 79%
 
 ---
@@ -96,9 +96,10 @@ La pestaña [!UICONTROL Uso del script] enumera las actividades (y sus espacios 
 
 ![Tarjeta de información de script de perfil > Pestaña Uso de script](assets/profile_script_info_card_usage_tab.png)
 
->[!Note]
+>[!NOTE]
 >
 >La pestaña Uso del script no muestra las actividades que hacen referencia al script de perfil seleccionado en las situaciones siguientes:
+>
 > * La actividad se encuentra en estado de Borrador.
 > * El contenido u oferta utilizado en la actividad emplea variables de script (una oferta en línea dentro de la actividad o una oferta de la biblioteca de ofertas).
 
