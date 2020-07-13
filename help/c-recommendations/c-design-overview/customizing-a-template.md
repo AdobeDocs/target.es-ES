@@ -4,7 +4,10 @@ description: Utilice el lenguaje de diseño Velocity de código abierto para per
 title: Personalización de un diseño mediante Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 65%
 
 ---
 
@@ -114,7 +117,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Si desea agregar texto después del valor de una variable antes de que una etiqueta indique que el nombre de la variable ha finalizado, puede hacerlo utilizando una notación formal para incluir el nombre de la variable. Por ejemplo: `${entity1.thumbnailUrl}.gif`.
 
