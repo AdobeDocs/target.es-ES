@@ -1,10 +1,13 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Los criterios de Recomendaciones de Adobe Target son reglas que determinan qué productos recomendar en función de un conjunto predeterminado de comportamientos de visitantes.
-title: Criterios en Recomendaciones de Adobe Target
+description: Los criterios de Recomendaciones de Adobe Target son reglas que determinan qué productos recomendar en función de un conjunto predeterminado de comportamientos de visitante.
+title: Criterios en las recomendaciones de Adobe Target
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1631'
+ht-degree: 74%
 
 ---
 
@@ -43,7 +46,7 @@ También puede basar las recomendaciones en el valor de un atributo de perfil pe
 
 >[!NOTE]
 >
->Los parámetros de perfil personalizados se pueden pasar a Target a través de JavaScript, API o integraciones. Para obtener más información sobre los atributos de perfil personalizados, consulte Perfiles [de visitantes](/help/c-target/c-visitor-profile/visitor-profile.md).
+>Los parámetros de perfil personalizados se pueden pasar a Destinatario a través de JavaScript, API o integraciones. Para obtener más información sobre los atributos de perfil personalizados, consulte perfiles [de](/help/c-target/c-visitor-profile/visitor-profile.md)Visitante.
 
 Por ejemplo, supongamos que desea mostrar las películas recomendadas en función de la película que un usuario agregó más recientemente a la cola.
 
@@ -65,7 +68,7 @@ Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la mar
 
 1. Seleccione el atributo de entidad que coincida con la clave que ha elegido. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-   [!DNL Recommendations] ahora produce una lista de "Principales vendedores" para cada marca y muestra al usuario la lista de "Principales vendedores" correspondiente basada en el valor almacenado en el atributo de perfil de marca  favorita.
+   [!DNL Recommendations] ahora produce una lista &quot;Principales vendedores&quot; para cada marca y muestra al usuario la lista &quot;Principales vendedores&quot; correspondiente basada en el valor almacenado en el atributo de perfil de marca  favorita.
 
    ![Atributo Principales vendedores](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
@@ -75,7 +78,7 @@ Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la mar
 
 | Criterios | Descripción |
 |--- |--- |
-| Elementos/Medios con atributos similares | Recomienda artículos o medios similares a artículos o medios según la actividad de la página actual o el comportamiento de visitantes anteriores.<br>**Nota:** Si selecciona Artículos/Medios con atributos similares, tendrá la opción de definir reglas de contenido similares. |
+| Elementos/Medios con atributos similares | Recomienda artículos o medios similares a artículos o medios según la actividad de la página actual o el comportamiento de visitantes anteriores.<br>**Nota:**Si selecciona Artículos/Medios con atributos similares, tendrá la opción de definir reglas de contenido similares. |
 | Los usuarios que vieron esto, vieron aquello. | Recomienda artículos que se visitan con mayor frecuencia en la misma sesión en que se ve el artículo especificado. |
 | Los usuarios que vieron esto, compraron aquello. | Recomienda artículos que se compran con mayor frecuencia en la misma sesión en que se ve el artículo especificado. Este criterio devuelve otros productos que otras personas compraron después de haber visto el producto especificado. Este producto no se incluye en el conjunto de resultados. |
 | Los usuarios que compraron esto, compraron aquello. | Recomienda artículos que se compran con mayor frecuencia junto al artículo especificado. |
@@ -83,9 +86,9 @@ Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la mar
 | Principales vendedores | Los artículos que están incluidos en los pedidos más completados. Varias unidades del mismo artículo en un único pedido se cuentan como un solo pedido. |
 | Más visitados | Los artículos o medios que se visitan con mayor frecuencia. |
 | Elementos/Medios vistos recientemente | Artículos que el visitante ha visto recientemente. Cuando utilice este criterio, deberá actualizar el diseño de Target para controlar los casos en los que se mostrarían recomendaciones en blanco cuando no hubiera suficientes artículos vistos previamente para mostrar. |
-| Recomendaciones basadas en el usuario | Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como "Recomendado para usted".<br>Este criterio le permite entregar contenido y experiencias personalizados tanto a visitantes nuevos como a visitantes que regresan. La lista de recomendaciones se centra en la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el usuario navega por el sitio.<br>Tanto las vistas como las compras se utilizan para determinar los artículos recomendados. La clave de recomendación especificada (por ejemplo, Elemento actual) se utiliza para aplicar cualquier filtro de regla de inclusión que seleccione. Por ejemplo, puede:<ul><li>Excluir elementos que no cumplen determinados criterios (productos sin existencias, artículos publicados hace más de 30 días, películas clasificadas como R, etc.)</li><li>Limitar los artículos incluidos a una sola categoría o a la categoría actual</li></ul> |
+| Recomendaciones basadas en el usuario | Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como &quot;Recomendado para usted&quot;.<br>Este criterio le permite entregar contenido y experiencias personalizadas a visitantes nuevos y reincidentes. La lista de las recomendaciones está ponderada en función de la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el usuario navega por el sitio.<br>Tanto las vistas como las compras se utilizan para determinar los artículos recomendados. La clave de recomendación especificada (por ejemplo, Elemento actual) se utiliza para aplicar cualquier filtros de regla de inclusión que seleccione. Por ejemplo, puede:<ul><li>Excluir elementos que no cumplen determinados criterios (productos sin existencias, artículos publicados hace más de 30 días, películas clasificadas como R, etc.)</li><li>Limitar los elementos incluidos a una sola categoría o a la categoría actual</li></ul> |
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Si está ejecutando una recomendación y cambia su criterio, perderá los datos de informes.
 
@@ -109,4 +112,4 @@ Haga clic en la pestaña **[!UICONTROL Uso del algoritmo]** para ver una lista d
 
 >[!NOTE]
 >
->Actualmente, la función Uso [!UICONTROL de] algoritmos solo se admite para actividades de Recomendaciones. Esta función no se admite actualmente en actividades de Prueba A/B y Segmentación de experiencias (XT) que incluyen [recomendaciones como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+>La función Uso [!UICONTROL del] algoritmo solo se admite actualmente para actividades de Recomendaciones. Esta función no se admite actualmente en actividades de Prueba A/B y Segmentación de experiencias (XT) que incluyen [recomendaciones como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
