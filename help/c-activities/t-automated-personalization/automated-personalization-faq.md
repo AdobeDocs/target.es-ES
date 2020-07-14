@@ -1,10 +1,13 @@
 ---
-keywords: resolución de problemas;preguntas más frecuentes;FAQ;personalización automatizada
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: Lista de preguntas más frecuentes sobre la Personalización automatizada (AP).
 title: Preguntas más frecuentes sobre Personalización automatizada
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '1761'
+ht-degree: 95%
 
 ---
 
@@ -103,3 +106,9 @@ Revise la configuración de su actividad y vea si hay algún cambio que esté di
 ## ¿Por qué los visitantes ven experiencias para una actividad AP que no deberían ver?{#section_41CECEAE0881446A8D9F3B016857914B}
 
 Las actividades de personalización automatizada se evalúan una vez por sesión. Si hubo sesiones activas que se han calificado para una experiencia en particular y ahora se han agregado nuevas ofertas, los usuarios verán el nuevo contenido junto con las ofertas que se mostraron anteriormente. Debido a que anteriormente se han calificado para esas experiencias, todavía las verían durante la sesión. Si desea evaluar esto en cada visita a una página, debe cambiar al tipo de actividad de segmentación de experiencias (XT).
+
+## ¿Puedo cambiar la métrica de objetivos a medio camino a través de una actividad de Personalización automatizada? {#change-metric}
+
+No se recomienda cambiar la métrica de objetivos a mitad de camino a través de una actividad. Aunque es posible cambiar la métrica de objetivos durante una actividad mediante la [!DNL Target] interfaz de usuario, siempre debe realizar el inicio de una nueva actividad. No garantizamos lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
+
+Esta recomendación se aplica a las actividades de asignación automática, Destinatario automático y personalización  automatizada que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como origen de sistema de informes.
