@@ -4,7 +4,10 @@ title: Segmentación automática
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '3365'
+ht-degree: 96%
 
 ---
 
@@ -146,7 +149,9 @@ Para obtener más información, consulte [Informe Resumen de la segmentación au
 
 ## Preguntas más frecuentes sobre la segmentación automática {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-**¿Cuáles son las prácticas recomendadas para configurar una actividad de[!UICONTROL segmentación automática]?**
+Consulte las siguientes preguntas más frecuentes y respuestas cuando trabaje con actividades de Destinatario  automático:
+
+### ¿Cuáles son las prácticas recomendadas para configurar una actividad de [!UICONTROL segmentación automática]?
 
 * Decida si el valor comercial de una métrica de éxito de Ingresos por visita (RPV) merece los requisitos de tráfico adicionales. Por lo general, RPV necesita al menos 1000 conversiones por experiencia para que una actividad funcione frente a la conversión.
 * Decida la asignación entre el control y las experiencias personalizadas antes de comenzar la actividad en función de sus objetivos.
@@ -159,15 +164,15 @@ Para obtener más información, consulte [Informe Resumen de la segmentación au
 
 * Trate de no hacer cambios sustanciales en las experiencias durante el curso de la actividad.
 
-**¿Las marcas de verificación indican que se ha creado un modelo para esa actualización de experiencia si cambia el intervalo de fechas del informe?**
+### ¿Las marcas de verificación indican que se ha creado un modelo para esa actualización de experiencia si cambia el intervalo de fechas del informe?
 
 No, las marcas de verificación para la generación del modelo muestran solo los modelos creados hasta la fecha. No hay forma de volver y ver cuándo se completó un modelo.
 
-**Si un visitante NO ve la actividad de la[!UICONTROL segmentación automática]y cambia, ¿la conversión cuenta en mi actividad?**
+### Si un visitante NO ve la actividad de la [!UICONTROL segmentación automática] y cambia, ¿la conversión cuenta en mi actividad?
 
 No, solo los visitantes que califiquen y vean la actividad de [!UICONTROL segmentación automática] se cuentan en los informes.
 
-**Mi actividad de[!UICONTROL segmentación automática]parece que no está generando ningún alza.**¿A qué se debe?
+### Mi actividad de [!UICONTROL segmentación automática] parece que no está generando ningún alza. ¿A qué se debe?  
 
 Hay varios factores necesarios para que una actividad de [!UICONTROL segmentación automática] genere un alza:
 
@@ -180,13 +185,13 @@ El mejor curso de acción es asegurarse primero de que el contenido y las ubicac
 
 Si los resultados de una prueba A/B muestran un aumento estadísticamente significativo en una o más de las experiencias, entonces es probable que una actividad personalizada funcione. Por supuesto, la personalización puede funcionar incluso si no hay diferencias en las tasas de respuesta general de las experiencias. Normalmente, el problema radica en que las ofertas/ubicaciones no tienen un impacto lo suficientemente grande en el objetivo de optimización para que se detecten con relevancia estadística.
 
-**¿Cuándo debería detener mi actividad de[!UICONTROL segmentación automática]?**
+### ¿Cuándo debería detener mi actividad de [!UICONTROL segmentación automática]?
 
 [!UICONTROL La segmentación automática] se puede utilizar como una personalización “siempre activada” que se optimizará constantemente. Especialmente para contenido permanente, no es necesario detener su [!UICONTROL actividad de segmentación] automática.
 
 Si desea realizar cambios sustanciales en el contenido en su actividad de [!UICONTROL segmentación automática], la mejor práctica es comenzar una nueva actividad para que otros usuarios que revisen los informes no confundan ni relacionen resultados pasados con contenido diferente.
 
-**¿Cuánto tiempo debo esperar para que los modelos se creen?**
+### ¿Cuánto tiempo debo esperar para que los modelos se creen? 
 
 La cantidad de tiempo que tardan los modelos en desarrollar su actividad de [!UICONTROL segmentación automática] depende típicamente del tráfico a las ubicaciones de la actividad seleccionada y la métrica de éxito de la actividad.
 
@@ -195,21 +200,27 @@ Para la [!UICONTROL segmentación automática], se pueden usar reglas simples pa
 * **Cuando la conversión es su métrica de éxito:** 1000 visitas y al menos 50 conversiones por día por experiencia; además, la actividad debe tener al menos 7000 visitas y 350 conversiones.
 * **Cuando los ingresos por visita son su métrica de éxito:** 1000 visitas y al menos 50 conversiones por día por experiencia, y además la actividad debe tener al menos 1000 conversiones por experiencia. Por lo general, el RPV requiere más datos para construir modelos debido a la mayor varianza de datos que normalmente existe en los ingresos de visita en comparación con la tasa de conversión.
 
-**Se ha creado un modelo en mi actividad.**¿Las visitas a esa experiencia están personalizadas?
+### Se ha creado un modelo en mi actividad. ¿Las visitas a esa experiencia están personalizadas?  
 
 No, debe haber al menos dos modelos integrados dentro de su actividad para que comience la personalización.
 
-**¿Cuándo puedo empezar a ver los resultados de mi actividad de la[!UICONTROL segmentación automática]?**
+### ¿Cuándo puedo empezar a ver los resultados de mi actividad de la [!UICONTROL segmentación automática]?
 
 Puede comenzar a observar los resultados de su actividad de [!UICONTROL segmentación automática] después de que tenga al menos dos experiencias con los modelos creados (marca de verificación verde) para la experiencia que tienen los modelos generados.
 
-**¿Puedo especificar una experiencia específica para utilizarla como control?**
+### ¿Puedo especificar una experiencia específica para utilizarla como control?
 
-Puede seleccionar una experiencia para utilizarla como control mientras crea una actividad de [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) o de [Segmentación automática](/help/c-activities/auto-target-to-optimize.md) (AT).
+Puede seleccionar una experiencia para utilizarla como control mientras crea una actividad de [Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) o de [Segmentación automática](/help/c-activities/auto-target-to-optimize.md) (AT).
 
 Esta función le permite dirigir todo el tráfico de control a una experiencia específica, según el porcentaje de asignación de tráfico configurado en la actividad. Luego puede evaluar los informes de rendimiento del tráfico personalizado respecto al tráfico de control a esa experiencia.
 
 Para obtener más información, consulte [Uso de una experiencia específica como control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+
+### ¿Puedo cambiar la métrica de objetivos a medio camino a través de una actividad de Destinatario automático? {#change-metric}
+
+No se recomienda cambiar la métrica de objetivos a mitad de camino a través de una actividad. Aunque es posible cambiar la métrica de objetivos durante una actividad mediante la [!DNL Target] interfaz de usuario, siempre debe realizar el inicio de una nueva actividad. No garantizamos lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
+
+Esta recomendación se aplica a las actividades de asignación automática, Destinatario automático y personalización  automatizada que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como origen de sistema de informes.
 
 ## Solución de problemas de la [!UICONTROL segmentación automática] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -247,7 +258,7 @@ En una actividad de [!UICONTROL Segmentación automática], una vez convertida l
 
 Por ejemplo, existe una actividad con una métrica de conversión (C1) y una métrica adicional (A1). A1 depende de C1. Cuando un visitante entra a la actividad por primera vez y no se convierten los criterios de conversión de A1 y C1, la métrica A1 no se convierte debido a la dependencia de métrica de éxito. Si el visitante convierte C1 y luego convierte A1, A1 aún no se convierte porque en cuanto se convierte C1, se libera el visitante.
 
-## Vídeo de formación: Aspectos básicos de las actividades de Segmentación automática Distintivo ![de información general](/help/assets/overview.png)
+## Vídeo de formación: Aspectos básicos de las actividades de Segmentación automática ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo explica cómo configurar una actividad A/B de [!UICONTROL Segmentación automática].
 
