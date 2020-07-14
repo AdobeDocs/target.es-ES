@@ -5,10 +5,10 @@ title: Asignación automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '3014'
-ht-degree: 89%
+source-wordcount: '3112'
+ht-degree: 84%
 
 ---
 
@@ -127,55 +127,63 @@ Estos factores pueden distorsionar los resultados de una prueba de asignación a
 
 ## Preguntas frecuentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-** ¿Analytics para Destinatario (A4T) admite actividades de asignación automática?
+Consulte las siguientes preguntas más frecuentes y respuestas cuando trabaje con actividades de asignación  automática:
+
+### ¿Admite Analytics para Destinatario (A4T) actividades de asignación automática?
 
 Sí. Para obtener más información, consulte Compatibilidad de [Analytics para Destinatario (A4T) con actividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) de asignación automática en la creación *de* Actividades.
 
-**¿Los visitantes de retorno se asignan automáticamente a experiencias con alto rendimiento?**
+###  ¿Los visitantes de retorno se asignan automáticamente a experiencias con alto rendimiento?
 
 No. Solo se asigna automáticamente a los visitantes nuevos. Los de retorno siguen viendo la experiencia original. Así se protege la validez de la prueba A/B.
 
-**¿Qué tratamiento se da a los falsos positivos en el algoritmo?**
+###  ¿Qué tratamiento se da a los falsos positivos en el algoritmo?
 
 El algoritmo garantiza una tasa de confianza del 95 % o una tasa de falso positivo del 5 % si espera hasta que aparezca el distintivo de ganador.
 
-**¿Cuándo empieza a asignar tráfico la asignación automática?**
+### ¿Cuándo empieza a asignar tráfico la asignación automática?
 
 El algoritmo empieza a funcionar cuando todas las experiencias de la actividad tienen un mínimo de 1000 visitantes y 50 conversiones.
 
-**¿Qué nivel de agresividad utiliza el algoritmo para la explotación?**
+### ¿Qué nivel de agresividad utiliza el algoritmo para la explotación?
 
 El 80 % del tráfico se reparte mediante la asignación automática y el otro 20 % se reparte de forma aleatoria. Cuando se identifica un ganador, este recibe el 80 % del tráfico, mientras que el otro 20 % se reparte entre todas las experiencias, incluyendo la ganadora.
 
-**¿Las experiencias perdedoras se señalan en algún momento?**
+###  ¿Las experiencias perdedoras se señalan en algún momento?
 
 Sí. El método multi-armed bandit garantiza que al menos el 20 % del tráfico se reserva para explorar las tasas de conversión o los patrones cambiantes en todas las experiencias.
 
-**¿Qué pasa con las actividades con retrasos de conversión largos?**
+### ¿Qué pasa con las actividades con retrasos de conversión largos?
 
 Siempre que todas las experiencias que se vayan a optimizar sufran los mismos retrasos, el comportamiento será igual al de una actividad con un ciclo de conversión más rápido, aunque se tardará más en alcanzar el umbral de 50 conversiones antes de que comience el proceso de asignación de tráfico.
 
-**¿En qué se diferencian la asignación automática y la personalización automatizada?**
+### ¿En qué se diferencian la asignación automática y la personalización automatizada?
 
 Personalización automatizada usa los atributos de perfil de cada visitante para elegir la mejor experiencia. Con esto, no solo se optimiza la actividad del usuario, sino que se personaliza.
 
 Asignación automática, por su parte, es una prueba A/B que genera un ganador global (la experiencia más popular, pero no necesariamente la más eficaz para cada visitante).
 
-**¿Los visitantes de retorno inflan la tasa de conversión en mi métrica de éxito?**
+###  ¿Los visitantes de retorno inflan la tasa de conversión en mi métrica de éxito?
 
 En estos momentos, la lógica favorece a los visitantes que generan una conversión rápidamente o que realizan visitas más a menudo. Se debe a que estos visitantes inflan temporalmente la tasa de conversión de la experiencia a la que pertenecen. El algoritmo se ajusta a menudo, de modo que el aumento en la tasa de conversión se amplifica en cada instantánea. Si el sitio recibe muchos visitantes que vuelven, las conversiones que generen pueden inflar la tasa de conversión general de la experiencia a la que pertenecen. Hay probabilidades de que los visitantes que vuelven se distribuyan de forma aleatoria. En ese caso, el efecto agregado (alza incrementada) se equilibra. Para mitigar este impacto, plantéese la opción de cambiar el método de recuento de la métrica de éxito para que solo contabilice una vez por cada visitante.
 
-**¿Puedo usar la calculadora de tamaño de la muestra al utilizar la asignación automática para estimar el tiempo que tardará la actividad en identificar al ganador?**
+### ¿Puedo usar la calculadora de tamaño de la muestra al utilizar la asignación automática para estimar el tiempo que tardará la actividad en identificar al ganador?
 
 You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Como sucede con las pruebas A/B tradicionales, aplique la corrección de Bonferroni si está probando más de dos ofertas o más de una métrica o hipótesis de conversión). Tenga en cuenta que esta calculadora está diseñada para las pruebas A/B de horizonte fijo tradicionales y solo proporciona una estimación. El uso de la calculadora para una actividad de asignación automática es opcional porque la asignación automática le declarará ganador (no necesita elegir un punto fijo en el tiempo para ver los resultados de la prueba), los valores proporcionados siempre son estadísticamente válidos. En nuestros experimentos hemos encontrado lo siguiente:
 * Al probar exactamente dos experiencias, la asignación automática encuentra un ganador más rápido que las pruebas de horizonte fijo (es decir, el intervalo de tiempo sugerido por la calculadora de tamaño de la muestra) cuando la diferencia de rendimiento entre las experiencias es grande, pero puede requerir más tiempo para identificar un ganador cuando la diferencia de rendimiento entre las experiencias es pequeña. En estos casos, las pruebas de horizonte fijo normalmente habrían finalizado sin un resultado estadísticamente significativo.
 * Al probar más de dos experiencias, la asignación automática encuentra un ganador más rápido que las pruebas de horizonte fijo (es decir, el intervalo de tiempo sugerido por la calculadora de tamaño de la muestra) cuando una única experiencia supera con creces el resto de las experiencias. Cuando dos o más experiencias están &quot;ganando&quot; en comparación con otras, pero están muy relacionadas entre sí, la asignación automática puede requerir tiempo adicional para determinar cuál es superior. En estos casos, las pruebas de horizonte fijo normalmente habrían finalizado al concluir que las experiencias &quot;ganadoras&quot; eran mejores que las experiencias de menor rendimiento, pero no habrían identificado cuál era superior.
 
-**¿Debería eliminar una experiencia de bajo rendimiento de una actividad de asignación automática para acelerar el proceso de determinar un ganador?**
+### ¿Debería eliminar una experiencia con bajo rendimiento de una actividad de asignación automática para acelerar el proceso de determinación de un ganador?
 
-No hay razón para eliminar una experiencia de bajo rendimiento. La asignación automática proporciona automáticamente experiencias de alto rendimiento con mayor frecuencia y de bajo rendimiento con menor frecuencia. Dejar una experiencia con bajo rendimiento en la actividad no afectará de manera significativa la velocidad para determinar un ganador.
+Realmente no hay razón para eliminar una experiencia con bajo rendimiento. La asignación automática sirve automáticamente las experiencias de alto rendimiento con más frecuencia y las experiencias de bajo rendimiento con menos frecuencia. Dejar una experiencia con bajo rendimiento en la actividad no afectará significativamente a la velocidad para determinar un ganador.
 
-El 20 % de los visitantes se asigna de forma aleatoria entre todas las experiencias. La cantidad de tráfico proporcionado en una experiencia de bajo rendimiento es mínima (20 % dividido entre el número de experiencias).
+El 20 % de los visitantes se asigna de forma aleatoria entre todas las experiencias. La cantidad de tráfico que se proporciona a una experiencia con bajo rendimiento es mínima (20% dividido por el número de experiencias).
+
+### ¿Puedo cambiar la métrica de objetivos a medio camino a través de una actividad de asignación automática? {#change-metric}
+
+No se recomienda cambiar la métrica de objetivos a mitad de camino a través de una actividad. Aunque es posible cambiar la métrica de objetivos durante una actividad mediante la [!DNL Target] interfaz de usuario, siempre debe realizar el inicio de una nueva actividad. No garantizamos lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
+
+Esta recomendación se aplica a las actividades de asignación automática, Destinatario automático y personalización  automatizada que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como origen de sistema de informes.
 
 ## Vídeos de formación {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
