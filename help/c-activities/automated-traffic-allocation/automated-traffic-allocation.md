@@ -5,10 +5,10 @@ title: Asignación automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 84%
+source-wordcount: '3134'
+ht-degree: 83%
 
 ---
 
@@ -89,7 +89,11 @@ After an [!UICONTROL Auto-Allocate] activity is activated, the following operati
 * Cambiar el tipo de la métrica de objetivo
 * Cambiar opciones en el panel “Configuración avanzada”
 
-## Advertencias   {#section_5C83F89F85C14FD181930AA420435E1D}
+## Ver cómo funciona la asignación automática
+
+Para obtener más información, consulte La asignación [automática puede proporcionarle resultados de prueba más rápidos y mayores ingresos que una prueba manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+
+## Advertencias {#section_5C83F89F85C14FD181930AA420435E1D}
 
 **La función de asignación automática funciona solo con una configuración de métrica avanzadas: Aumentar recuento y mantener al usuario en la actividad**
 
