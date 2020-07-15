@@ -5,9 +5,9 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1351'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Julio de 15 | [La asignación automática puede proporcionar resultados de prueba más rápidos y mayores ingresos que una prueba manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | Nuevo tema. |
 | Julio de 14 | [Preguntas más frecuentes sobre asignación](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automática, Destinatario<br>[](/help/c-activities/auto-target-to-optimize.md)automático<br><br>[y personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Preguntas más frecuentes Añadidas que recomiendan que no debe cambiar la métrica de objetivos a mitad de una actividad. |
 | Julio de 7 | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre el Descanso del Café de Adobe Target del 8 de julio. |
 | 25 de junio | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Información Añadida sobre la versión Target Standard/Premium 20.6.1 (julio de 2020). |
