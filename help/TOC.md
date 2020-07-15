@@ -5,10 +5,10 @@ user-guide-title: Ayuda de Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: f2cd428fa16bd1a6b3c677f862f163bd8b66ef41
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 92%
+source-wordcount: '1423'
+ht-degree: 91%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 92%
    + Asignación automática {#auto-allocate}
       + [Asignación automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Interpretar informes de asignación automática](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [La asignación automática proporciona resultados de prueba más rápidos y mayores ingresos que una prueba manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [La asignación automática puede proporcionar resultados de prueba más rápidos y mayores ingresos que una prueba manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Segmentación automática](c-activities/auto-target-to-optimize.md)
    + Personalización automatizada {#automated-personalization}
       + [Información general sobre la Personalización automatizada](c-activities/t-automated-personalization/automated-personalization.md)
