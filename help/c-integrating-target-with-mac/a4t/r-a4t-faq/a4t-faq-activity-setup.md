@@ -1,11 +1,14 @@
 ---
-keywords: preguntas más frecuentes;faq;analytics para target;a4T;configuración de actividades
+keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la configuración de actividades y el uso de Analytics como fuente de informes para Target (A4T).
 title: 'Configuración de actividades: preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 89%
 
 ---
 
@@ -24,13 +27,13 @@ Cuando se crea una actividad, Target envía un archivo de clasificación a Analy
 
 ## ¿Por qué no puedo seleccionar Analytics como fuente de informes cuando creo una actividad nueva?   {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-Puede cambiar las opciones de Configuración de informes en Configuración.
+Puede cambiar las opciones de Configuración de Sistema de informes en Administración.
 
-1. En Adobe Target, haga clic en **[!UICONTROL Configuración]**.
+1. In Adobe Target, click **[!UICONTROL Administration]**.
 1. En la lista desplegable **[!UICONTROL Solución de Experience Cloud utilizada para la creación de informes]**, haga clic en **[!UICONTROL Seleccionar por actividad]**.
 
 ![](assets/select-per-activity.png)
 
-La lista desplegable **[!UICONTROL Fuente de informes]** está habilitada en la pantalla **Objetivo y configuración]para crear y editar actividades.[!UICONTROL **
+La lista desplegable **[!UICONTROL Fuente de informes]** está habilitada en la pantalla **[!UICONTROL Objetivo y configuración]** para crear y editar actividades.
 
-Para usar siempre Analytics como fuente de informes, seleccione **[!UICONTROL Adobe Analytics]en la lista desplegable que hay en Configuración.**
+To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
