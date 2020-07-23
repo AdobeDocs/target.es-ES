@@ -1,11 +1,14 @@
 ---
-keywords: adobe.target.getOffer;getOffer;getoffer;obtener oferta;at.js;funciones;función
+keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
 description: Información sobre la función adobe.target.getOffer(options) para la biblioteca JavaScript at.js de Adobe Target.
 title: Información sobre la función adobe.target.getOffer(options) para la biblioteca JavaScript at.js de Adobe Target.
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +25,7 @@ Use con `adobe.target.applyOffer()` para procesar la respuesta o use su propia a
 | params | Objeto | No | Parámetros de mbox. Un objeto de pares de clave-valor que tiene la siguiente estructura:<br>`{ "param1": "value1", "param2": "value2"}` |
 | success | Función | Sí | La llamada de retorno que se ejecutará cuando tengamos una respuesta del servidor. La función de llamada de retorno de éxito recibirá un solo parámetro que representa una matriz de objetos de oferta. Este es un ejemplo de llamada de retorno de éxito:<br>`function handleSuccess(response){......}`<br>Consulte las Respuestas a continuación para obtener más detalles. |
 | error | Función | Sí | Llamada de retorno que se ejecutará cuando tengamos un error. Hay un par de casos que se consideran erróneos:<ul><li>Código de estado HTTP diferente a 200 OK</li><li>No se puede analizar la respuesta. Por ejemplo, hemos construido mal JSON o HTML en lugar de JSON.</li><li>La respuesta contiene la clave de “error”. Por ejemplo, se arrojó una excepción en el borde donde no se pudo procesar correctamente una solicitud. Obtuvimos un error cuando se bloquea un mbox y no pudimos recuperar ningún contenido, etc. La función de llamada de retorno de error recibirá dos parámetros: estado y error. Aquí puede ver un ejemplo de llamada de retorno de error:   `function handleError(status, error){......}`</li></ul>Consulte Respuestas de error más adelante para conocer los detalles. |
-| timeout | Número | No | Tiempo de espera en milisegundos. Si no se especifica, se usará el tiempo de espera predeterminado en at.js.<br>El tiempo de espera predeterminado puede establecerse desde [!DNL Target]la interfaz de usuario de dentro de [!UICONTROL Configuración &gt; Implementación &gt; Editar la configuración de mbox.js &gt; Tiempo de espera]. |
+| timeout | Número | No | Tiempo de espera en milisegundos. Si no se especifica, se usará el tiempo de espera predeterminado en at.js.<br>El tiempo de espera predeterminado se puede establecer desde la [!DNL Target] interfaz de usuario en [!UICONTROL Administración > Implementación]. |
 
 ## Ejemplos {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
@@ -72,7 +75,7 @@ adobe.target.getOffer({
 
 Utilizar el tiempo de espera personalizado y la gestión del éxito personalizada con getOffer():
 
-"YOUR_OWN_CUSTOM_HANDLING_FUNCTION" es un marcador de posición para una función que tiene que definir el cliente.
+&quot;YOUR_OWN_CUSTOM_HANDLING_FUNCTION&quot; es un marcador de posición para una función que tiene que definir el cliente.
 
 ```
 adobe.target.getOffer({     
