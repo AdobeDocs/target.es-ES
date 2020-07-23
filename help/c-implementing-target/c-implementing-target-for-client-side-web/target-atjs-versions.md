@@ -5,9 +5,9 @@ title: Detalles de las versiones de at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '3947'
+source-wordcount: '3978'
 ht-degree: 86%
 
 ---
@@ -22,6 +22,12 @@ Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScri
 >El equipo de Destinatario admite at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que está ejecutando una versión compatible.
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) es el método preferido para actualizar at.js. Los desarrolladores de extensiones agregan continuamente nuevas funciones a sus extensiones y corrigen con frecuencia errores. Estas actualizaciones se empaquetan en nuevas versiones de una extensión y están disponibles en el [!DNL Launch] catálogo como actualizaciones. Para obtener más información, consulte Actualización [de](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) extensión en la Guía del usuario del *Experience Platform Launch*.
+
+## at.js 2.3.2 (24 de julio de 2020)
+
+Esta versión de at.js es una versión de mantenimiento que incluye la siguiente corrección:
+
+* Se ha corregido un error que se producía cuando un script o código añadía una propiedad predeterminada a la ventana o al documento.
 
 ## at.js 1.8.2 (15 de junio de 2020)
 
@@ -245,6 +251,7 @@ Ya está disponible la versión 1.3.0 de at.js.
    * CONTENT_RENDERING_START
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
+
    Para obtener más información, consulte [Eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md).
 
 * Puede aumentar una solicitud at.js con parámetros adicionales que provengan de los proveedores de datos. Los proveedores de datos deben añadirse a `window.targetGlobalSettings` en `dataProviders key`.
