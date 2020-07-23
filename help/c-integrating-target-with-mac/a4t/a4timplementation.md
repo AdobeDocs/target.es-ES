@@ -4,10 +4,10 @@ description: Se requieren varios pasos a la hora de implementar Adobe Analytics 
 title: Implementación de Analytics for Target
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 65%
+source-wordcount: '879'
+ht-degree: 63%
 
 ---
 
@@ -171,7 +171,7 @@ Recomendamos quitar la integración anterior para simplificar la implementación
 
 ## Paso 10: Habilitar las opciones para usar Analytics como fuente de informes para Target
 
-En [!DNL Target], haga clic en **[!UICONTROL Configuración > Preferencias]** y elija **[!UICONTROL Seleccionar por actividad]** o **[!UICONTROL Adobe Analytics]** para habilitar las opciones.
+In [!DNL Target], click **[!UICONTROL Administation > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL La opción Seleccionar por actividad permite elegir entre y a la hora de crear cada actividad.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL La opción Adobe establece Analytics como fuente de informes para todas las actividades que cree.]**[!DNL Analytics]
