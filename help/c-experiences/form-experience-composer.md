@@ -5,7 +5,10 @@ title: Compositor de experiencias basadas en formularios
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 79%
 
 ---
 
@@ -29,9 +32,14 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 1. Asigne un nombre a la actividad.
 1. Seleccione una ubicación.
 
-   Cuando hace clic en el cuadro Seleccionar ubicación, aparece una lista con las ubicaciones disponibles. Seleccione una de esas ubicaciones. Para elegir la ubicación global entregada mediante target.js, elija “target-global-mbox”.
+   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Seleccione una de esas ubicaciones. Para elegir la ubicación global entregada mediante target.js, elija “target-global-mbox”.
 
-   También puede especificar una ubicación que no aparece en esta lista. Esto puede ser útil si el mbox todavía no se ha creado ni visto en una página. Escriba el nombre de la ubicación. Tenga cuidado al especificar una ubicación que no existe aún. Si la ortografía o las mayúsculas no coinciden con las que se usaron cuando se creó el mbox, la actividad no se publicará. Las ubicaciones que se escriben manualmente se guardan en la lista.
+   También puede especificar una ubicación que no aparece en esta lista. Esto puede ser útil si el mbox todavía no se ha creado ni visto en una página. Escriba el nombre de la ubicación. Tenga cuidado al especificar una ubicación que no existe aún. Si la ortografía o las mayúsculas no coinciden con las que se usaron cuando se creó el mbox, la actividad no se publicará. Las ubicaciones introducidas manualmente se guardan en la lista de ubicaciones disponibles. La próxima vez que intente seleccionar una ubicación introducida manualmente, estará disponible en la lista desplegable [!UICONTROL Seleccionar ubicación] para esa actividad.
+
+   >[!NOTE]
+   >
+   >La creación de una ubicación introducida manualmente durante la creación de la actividad no crea automáticamente una nueva ubicación. El nombre de la ubicación solo se guarda en el contexto de la actividad. La ubicación se crea cuando hay una llamada de envío de contenido. Una vez creada la ubicación, estará disponible para su uso en otras actividades, para crear audiencias, etc. en la lista desplegable de ubicaciones disponibles.
+
 1. Haga clic en **[!UICONTROL Agregar refinamientos de audiencia]** y, a continuación, elija una o varias [audiencias](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta actividad.
 
    ![](assets/location_refinements_2.png)
@@ -52,6 +60,7 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
    1. Haga clic en [!UICONTROL Cambiar oferta de imagen].
    1. Seleccione la imagen que quiera y luego haga clic en [!UICONTROL Editar vínculos].
    1. Indique la dirección URL o la página de su sitio y haga clic en [!UICONTROL Actualizar].
+
    **Cambiar oferta JSON:** Elija una oferta json.
 
    **Cambiar fragmento de experiencia:** elija un fragmento de experiencias.
@@ -67,6 +76,7 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
    1. Escriba el nombre de una oferta.
    1. Escriba o pegue su código HTML en el recuadro Código.
    1. Haga clic en [!UICONTROL Guardar].
+
    **Crear ofertas JSON:**
 
    1. Haga clic en [!UICONTROL Ofertas] y seleccione la pestaña [!UICONTROL Ofertas de código].
@@ -74,6 +84,7 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
    1. Escriba el nombre de una oferta.
    1. Escriba o pegue su código JSON en el recuadro Código.
    1. Haga clic en [!UICONTROL Guardar].
+
    Para una actividad de Recommendations, la lista desplegable Contenido ofrece la opción Agregar recomendación. Haga clic en **[!UICONTROL Agregar recomendación]** y seleccione el tipo de página. Después siga los pasos habituales que se definen en la interfaz para [crear una actividad de Recomendaciones](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Cuando se seleccionan los criterios de Recommendations en el Compositor de experiencias basadas en formularios, ahora existe un vínculo directo a la tarjeta de criterios seleccionada de modo que pueda editarlos de forma rápida y sencilla.
@@ -84,14 +95,14 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 
    ![](assets/change_criteria_2.png)
 
-1. (Opcional, para actividades AB, Personalización automatizada y Segmentación de experiencias) Para repetir este proceso para ubicaciones adicionales, haga clic en `Add Location` y configure la ubicación y el contenido.
-1. Haga clic en **[!UICONTROL Continuar]** y complete los pasos de creación de actividad como es habitual para su tipo de actividad.
+1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
+1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [Crear una prueba A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [Crear una actividad de segmentación de experiencias](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Crear una actividad de Recommendations](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vídeo de formación: Compositor basado en formularios Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Compositor basado en formularios ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo proporciona una demostración del compositor basado en formularios.
 
