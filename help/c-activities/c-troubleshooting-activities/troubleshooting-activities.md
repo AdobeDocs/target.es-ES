@@ -5,10 +5,10 @@ title: Resolución de problemas de actividades
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 83%
+source-wordcount: '799'
+ht-degree: 81%
 
 ---
 
@@ -79,7 +79,7 @@ Asegúrese de que su actividad está completa y se ha activado.
 Una vez que se lo agrega como usuario en Target, necesita tener la función Aprobador para crear Actividades.
 
 * Solicite al Administrador de la cuenta que lo convierta en Aprobador.
-* Si usted es el Administrador, asígnese usted mismo la función Aprobador desde Configuración > Usuarios en Target Standard.
+* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
    Consulte [Asignarse a usted mismo la función de aprobador](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
