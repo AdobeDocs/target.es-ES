@@ -5,10 +5,10 @@ title: Entornos
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 63%
+source-wordcount: '654'
+ht-degree: 67%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 63%
 # Entornos
 
 Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
-
->[!NOTE]
->
->La información de este tema se ha actualizado para ayudarle a obtener un pico en los cambios de la interfaz de usuario que se producirán en la versión Target Standard/Premium 20.6.1 (julio de 2020). La mayor parte de la información presentada en este tema se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 Los hosts se agrupan en entornos para facilitar la administración. Así, se pueden tener decenas de hosts agrupados en dos o tres entornos. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. Puede añadir entornos nuevos y cambiarles el nombre, si lo desea.
 
