@@ -6,21 +6,17 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 11%
+source-wordcount: '90'
+ht-degree: 17%
 
 ---
 
 
-# Administración de Target{#administer-target}
+# Información general sobre la administración de Target{#administer-target}
 
 Información útil para administrar [!DNL Adobe Target], incluidos los ajustes de configuración del Compositor de experiencias visuales (VEC), sistema de informes, configuración, implementación, hosts, entornos, tokens de respuesta y usuarios.
-
->[!NOTE]
->
->Los temas de esta sección, que se enumeran a continuación, se han actualizado para ofrecerle un vistazo a los cambios de la interfaz de usuario que se producirán en la versión [!DNL Target Standard/Premium] 20.6.1 (julio de 2020). La mayor parte de la información presentada en estos temas se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
