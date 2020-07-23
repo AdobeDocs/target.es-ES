@@ -5,10 +5,10 @@ title: Configuración de permisos de Enterprise
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 70%
+source-wordcount: '1476'
+ht-degree: 69%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 70%
 # ![PREMIUM](/help/assets/premium.png) Configuración de permisos de Enterprise{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
-
->[!NOTE]
->
->La información de este tema se ha actualizado para ayudarle a obtener un pico en los cambios de la interfaz de usuario que se producirán en la versión Target Standard/Premium 20.6.1 (julio de 2020). La mayor parte de la información presentada en este tema se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 >[!NOTE]
 >
@@ -206,7 +202,11 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Cómo configurar espacios de trabajo de Target (6:55) ![Insignia de tutorial](/help/assets/tutorial.png)
+>[!NOTE]
+>
+>La interfaz de usuario del menú [!DNL Target] Administración [!UICONTROL (anteriormente] Ajustes ) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información de los siguientes vídeos es generalmente correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán pronto.
+
+### Insignia de ![tutorial Cómo configurar espacios de trabajo de Destinatario (6:55)](/help/assets/tutorial.png)
 
 Este vídeo explica cómo se crean espacios de trabajo.
 
