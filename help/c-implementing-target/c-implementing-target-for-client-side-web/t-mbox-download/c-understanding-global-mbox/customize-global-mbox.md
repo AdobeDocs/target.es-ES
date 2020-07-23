@@ -1,12 +1,15 @@
 ---
-keywords: mbox global;personalizar mbox global;editar mbox.js;editar at.js;at.js;implementar mbox.js;implementar at.js
+keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
 description: Información para personalizar un mbox global en at.js y en mbox.js.
 title: Personalizar un mbox global
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 97%
 
 ---
 
@@ -17,10 +20,11 @@ Información para personalizar un mbox global en at.js y en mbox.js.
 
 1. Editar mbox.js.
 
-   Vaya a **[!UICONTROL Target]** &gt; **[!UICONTROL Configuración]** &gt; **[!UICONTROL Implementación]**.
+   Go to **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    * Para mbox.js, haga clic en **[!UICONTROL Editar la configuración de mbox.js]**.
-   * Para [!DNL at.js]**, seleccione[!UICONTROL at.js]**, en Método de implementación, y luego haga clic en **[!UICONTROL Editar la configuración de mbox.js]**.
+   * Para [!DNL at.js]**[!UICONTROL , seleccione at.js]**, en Método de implementación, y luego haga clic en **[!UICONTROL Editar la configuración de mbox.js]**.
+
    ![](assets/step-1-edit-mboxjs.png)
 
 1. Edite [!DNL mbox.js] o [!DNL at.js].
@@ -29,7 +33,7 @@ Información para personalizar un mbox global en at.js y en mbox.js.
 
    ![](assets/step-2-edit-mboxjs-or-atjs.png)
 
-   Haga clic en **[!UICONTROL Guardar]cuando termine.**
+   Haga clic en **[!UICONTROL Guardar]** cuando termine.
 1. Implemente la biblioteca [!DNL mbox.js] o [!DNL at.js] en el sitio.
 
 * Para mbox.js, consulte [Implementación de mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
