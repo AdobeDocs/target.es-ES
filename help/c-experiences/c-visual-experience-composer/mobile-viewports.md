@@ -4,10 +4,10 @@ description: Las ventanillas móviles ayudan a obtener una vista previa de cómo
 title: Ventanillas móviles para las experiencias adaptables
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 97%
+source-wordcount: '1343'
+ht-degree: 93%
 
 ---
 
@@ -86,12 +86,12 @@ Aunque su sitio no sea adaptable, puede usar el Compositor web móvil para ver u
 
 Configure todas las ventanillas móviles que quiera que estén disponibles cuando cree sus experiencias.
 
-1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Preferencias]**.
-1. En la sección Configuración de ventanillas móviles de la página Preferencias de la cuenta, haga clic en **[!UICONTROL Agregar nueva]** para agregar una ventanilla móvil.
+1. Haga clic en **[!UICONTROL Administración]** > Compositor **[!UICONTROL de experiencias]** visuales.
+1. In the Mobile Viewports Configuration section of the Account Preferences page, click **[!UICONTROL Add]** to add a mobile viewport.
 
    Para cambiar la configuración de una ventanilla móvil existente, selecciónela y, a continuación, haga clic en el icono de editar (el lápiz).
 
-   ![](assets/viewpoert_add.png)
+   ![Añadir ventanilla](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
 1. Escriba un nombre para la ventanilla móvil.
 
@@ -111,6 +111,7 @@ Configure todas las ventanillas móviles que quiera que estén disponibles cuand
    * Windows
    * Symbian
    * BlackBerry
+
    Si usa el [Compositor de experiencias mejorado](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) y elige un sistema operativo, Target imita ese dispositivo cuando visualiza la página. Si, por ejemplo, existe un aspecto diferente para Android y para iOS en su sitio adaptable, Target imita ese comportamiento.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -139,8 +140,8 @@ Agregue ventanillas móviles a las actividades de Target para crear experiencias
 
 Este caso de uso muestra cómo configurar experiencias para dos versiones de iPhone, la iPhone 6 y la iPhone 6 Plus, mediante la función Ventanillas móviles de Target Standard.
 
-1. En Target Standard, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Preferencias]**.
-1. En la sección Configuración de las ventanillas móviles de la página Preferencias, cree ventanillas móviles para iPhone 6 y para iPhone 6 Plus.
+1. En Destinatario, haga clic en **[!UICONTROL Administración]**.
+1. En la sección Configuración de ventanilla móvil, cree ventanillas móviles para iPhone 6 y iPhone 6 Plus.
 
    Aplique los ajustes siguientes para cada ventanilla:
 
@@ -178,7 +179,7 @@ El siguiente vídeo de demostración incluye información sobre cómo usar el Co
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Preferencias de cuenta en la insignia ![Información general de Adobe Destinatario](/help/assets/overview.png)
+### Indicador Preferencias de cuenta en ![Información general de Adobe Target](/help/assets/overview.png)
 
 En este vídeo se explica cómo configurar las ventanillas móviles en las preferencias de cuenta a partir del minuto 4:40.
 
