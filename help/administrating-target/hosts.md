@@ -5,10 +5,10 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 26%
+source-wordcount: '1079'
+ht-degree: 27%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 26%
 # Hosts{#hosts}
 
 Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
-
->[!NOTE]
->
->La información de este tema se ha actualizado para ayudarle a obtener un pico en los cambios de la interfaz de usuario que se producirán en la versión [!DNL Target] Standard/Premium 20.6.1 (julio de 2020). La mayor parte de la información presentada en este tema se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 El objetivo primordial de la administración de hosts reside en garantizar que ningún contenido inactivo se muestre por error en los sitios web. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
