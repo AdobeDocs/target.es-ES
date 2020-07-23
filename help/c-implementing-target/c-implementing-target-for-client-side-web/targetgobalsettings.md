@@ -5,10 +5,10 @@ title: Información sobre la función targetGlobalSettings() para la biblioteca 
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 41%
+source-wordcount: '1647'
+ht-degree: 39%
 
 ---
 
@@ -189,7 +189,7 @@ Las configuraciones que se pueden anular son las siguientes:
 
 ## Uso {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Esta función puede definirse antes de que se cargue at.js o en **[!UICONTROL Configuración]** > **[!UICONTROL Implementación]** > **[!UICONTROL Editar la configuración de mbox.js]** > **[!UICONTROL Configuración del código]** > **[!UICONTROL Encabezado de la biblioteca]**.
+This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 En el campo Encabezado de la biblioteca se puede introducir JavaScript de formato libre. El código de personalización debe parecerse al del ejemplo siguiente:
 
@@ -472,7 +472,7 @@ Consider the following when using `serverState`:
 
 * Al aplicar `serverState `ofertas, at.js tiene en cuenta `pageLoadEnabled` y `viewsEnabled` la configuración, por ejemplo: ofertas de carga de página, no se aplicará si la `pageLoadEnabled` configuración es falsa.
 
-   Para activar esta configuración, habilite la opción de alternancia en Ajustes de **[UICONTROL > Implementación > Editar configuración > Carga de página habilitada]**.
+   Para activar esta configuración, habilite la opción de alternancia en Administración de **[UICONTROL > Implementación > Editar > Carga de página habilitada]**.
 
    ![Configuración habilitada de carga de página](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
