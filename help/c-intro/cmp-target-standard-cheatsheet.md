@@ -5,10 +5,10 @@ title: Preguntas más frecuentes sobre la optimización y personalización de Ta
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2904'
-ht-degree: 99%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -134,7 +134,7 @@ Use la configuración Prioridad disponible en el paso 3 del flujo de trabajo gui
 Existen dos opciones:
 
 * Predeterminado, con tres niveles (bajo/medio/alto)
-* Personalizado, con un rango de 0 a 999. Para Personalizar, habilite la característica de Prioridades específicas (Configuración > Preferencias).
+* Personalizado, con un rango de 0 a 999. En Personalizado, habilite la función Prioridades específicas (Administración > Compositor de experiencias visuales).
 
 ## Audiencias{#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -198,7 +198,7 @@ Pruebe la función [Ventanillas móviles](../c-experiences/c-visual-experience-c
 
 **Tengo varios dominios. Uno de los dominios necesita el Compositor de experiencia mejorada habilitado, mientras que otros necesitan que esté deshabilitado. ¿Cómo puedo hacer esto?**
 
-Siempre puede usar la opción del [Compositor de experiencia mejorada en el nivel](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) de actividad para anular la configuración predeterminada (Configuración > Preferencias).
+You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
 
 **¿Por qué no veo una opción para intercambiar imágenes?**
 
