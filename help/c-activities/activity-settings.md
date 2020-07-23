@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 90%
 
 ---
 
@@ -24,14 +27,15 @@ Use Configuración de actividades para administrar el objetivo, la prioridad y l
 
    La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
-   Si esta opción no está habilitada en [!UICONTROL Configuración] (la predeterminada), indique un nivel de prioridad: bajo, medio o alto.
+   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-   Para habilitar prioridades específicas, haga clic en [!UICONTROL Configuración] y luego coloque la opción [!UICONTROL Habilitar prioridades específicas] en la posición “Activado”.
+   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
 
    Si esta opción está habilitada, indique un valor entre 0 y 999:
 
    * 0 = Bajo
    * 999 = Alto
+
    En las actividades creadas en versiones anteriores de [!DNL Target Standard/Premium], el nivel bajo de prioridad se convierte en 0; el medio, en 5; y el alto, en 10. Si lo necesita, puede ajustar estos valores.
 
    >[!NOTE]
@@ -54,7 +58,7 @@ La página [!UICONTROL Objetivo y configuración] incluye configuración adicion
 * [Prueba multivariable](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vídeo de formación: Configuración de actividades Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Configuración de actividades ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
