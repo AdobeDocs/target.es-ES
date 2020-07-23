@@ -4,10 +4,10 @@ description: Configure el Compositor de experiencias visuales de Adobe Target (V
 title: Configurar sistema de informes en Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 31%
+source-wordcount: '666'
+ht-degree: 33%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 31%
 # Configurar sistema de informes en Destinatario
 
 Configure las opciones generales para utilizarlas en [!DNL Adobe Target] sistema de informes que se aplican a toda la [!DNL Target] cuenta.
-
->[!NOTE]
->
->La información de este tema se ha actualizado para ayudarle a obtener un pico en los cambios de la interfaz de usuario que se producirán en la versión Target Standard/Premium 20.6.1 (julio de 2020). La mayor parte de la información presentada en este tema se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 Para acceder a la página de configuración de [!UICONTROL Sistema de informes] , haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Sistema de informes].**
 
