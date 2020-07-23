@@ -1,10 +1,13 @@
 ---
-keywords: configuración avanzada de mbox.js;cliente;dominio del servidor;dominio x;nivel de compresión;compatibilidad con id de sesión de cliente;secureOnly;compatibilidad con id de pc de cliente;pasar página;url de referencia;nivel de tráfico;duración del tráfico;cuerpo de función mboxParameters();cuerpo de función mboxSupported();cuerpo de función mboxCookieDomain();JavaScript adicional;complemento de SiteCatalyst;Obtener mbox.js como JavaScript autoextraíble;parpadeo;ocultamiento de cuerpo;ocultar cuerpo
+keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: Información para definir varias configuraciones en la página Configuración de mbox.js.
 title: Configurar mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +26,13 @@ Las configuraciones disponibles son las siguientes:
 
 El código de cliente de la cuenta.
 
-Al ver [!UICONTROL Configuración &gt; Implementación &gt; Editar la configuración de mbox.js], el Cliente en la parte superior es el código de cliente para la cuenta.
+When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
 
 ## Tiempo de espera
 
 El tiempo de espera de solicitud de Target.
 
-Al ver [!UICONTROL Configuración &gt; Implementación &gt; Editar configuración de Mbox.js], el tiempo de espera después de la compresión de nivel es el tiempo de espera de la solicitud de Target. De forma predeterminada, este valor es de 15 segundos, pero se recomienda establecerlo entre 2 y 5 segundos.
+Al ver [!UICONTROL Administración > Implementación], el tiempo de espera (segundos) es el tiempo de espera de la solicitud de Destinatario. De forma predeterminada, este valor es de 15 segundos, pero se recomienda establecerlo entre 2 y 5 segundos.
 
 ## XDomain
 
@@ -47,7 +50,7 @@ Devuelve parámetros adicionales para pasarlos a cada llamada de mbox.
 
 Por ejemplo:
 
-return "test=123";
+return &quot;test=123&quot;;
 
 ## Cuerpo de función mboxSupported()
 
@@ -55,7 +58,7 @@ Devuelve “falso” para excluir a usuarios concretos.
 
 Por ejemplo:
 
-return !navigator.userAgent.indexOf('Safari') != -1;
+return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
 
 Los siguientes navegadores se pueden aceptar o excluir:
 
