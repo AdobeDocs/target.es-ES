@@ -4,7 +4,10 @@ description: Información sobre problemas conocidos con esta versión de Adobe T
 title: Problemas conocidos y problemas resueltos   en Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3201'
+ht-degree: 95%
 
 ---
 
@@ -20,20 +23,6 @@ Información sobre problemas conocidos con esta versión de Target. También inc
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
-
-### Sistemas de informes y pedidos extremos
-
-Desde el 25 de noviembre de 2019 hasta el 26 de abril de 2020, un servidor de Destinatario experimentó un problema que hacía que los valores de pedidos extremos se contaran en las métricas de informes basadas en ingresos (AOV, RPV). Desde el 19 de diciembre de 2019 hasta el 23 de abril de 2020, otro servidor experimentó el mismo problema. Este problema no afectaba a todos los servidores de Destinatario ni a todos los clientes de Destinatario.
-
-Usted *no se vio* afectado si:
-
-* La implementación de Destinatario utiliza diferentes servidores.
-* Los informes no excluyeron pedidos extremos.
-* Ha utilizado una métrica de conversión para medir sus actividades.
-* Las actividades de Destinatario utilizan Analytics para Destinatario (A4T).
-* Está ubicado en la región de Asia-Pacífico (APAC).
-
-Para determinar si este problema afectó a su sistema de informes de Destinatario, póngase en contacto con [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Entrega de página {#page-delivery}
 
@@ -121,7 +110,7 @@ La biblioteca mbox.js no admite los lenguajes de plantilla en el lado del client
 
 ### Implementación: Crear mbox global automáticamente
 
-En la pestaña Implementación ([!UICONTROL Configuración > Implementación]), el campo [!UICONTROL Creación automática de Global Mbox] será “false” de forma predeterminada para un inquilino recién aprovisionado.
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
 
 Cuando se descarga mbox.js por primera vez después del aprovisionamiento, el campo [!UICONTROL Creación automática de Global Mbox] se establece en “true” en el archivo mbox.js descargado y en el back-end de [!DNL Target], pero seguirá mostrándose como “false” en la página [!UICONTROL Implementación] de la interfaz de usuario hasta que se actualice la página (una vez hecho, el estado será “true”).
 
@@ -146,6 +135,20 @@ Los clientes no pueden realizar operaciones de CRUD en actividades de asignació
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán a las siguientes secciones y, si es necesario, se añadirán notas adicionales.
+
+### Sistemas de informes y pedidos extremos
+
+Desde el 25 de noviembre de 2019 hasta el 26 de abril de 2020, un servidor de Destinatario experimentó un problema que hacía que los valores de pedidos extremos se contaran en las métricas de informes basadas en ingresos (AOV, RPV). Desde el 19 de diciembre de 2019 hasta el 23 de abril de 2020, otro servidor experimentó el mismo problema. Este problema no afectaba a todos los servidores de Destinatario ni a todos los clientes de Destinatario.
+
+Usted *no se vio* afectado si:
+
+* La implementación de Destinatario utiliza diferentes servidores.
+* Los informes no excluyeron pedidos extremos.
+* Ha utilizado una métrica de conversión para medir sus actividades.
+* Las actividades de Destinatario utilizan Analytics para Destinatario (A4T).
+* Está ubicado en la región de Asia-Pacífico (APAC).
+
+Para determinar si este problema afectó a su sistema de informes de Destinatario, póngase en contacto con [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommendations
 
