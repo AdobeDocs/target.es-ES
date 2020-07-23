@@ -5,10 +5,10 @@ title: Prácticas recomendadas y limitaciones del Compositor de experiencias vis
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 98%
+source-wordcount: '2448'
+ht-degree: 97%
 
 ---
 
@@ -31,13 +31,13 @@ Coloque el código mbox.js al final de la sección `<head>` sin ninguna declarac
 
 **Puede habilitar el Compositor de experiencias mejorado en la cuenta (se habilitará en todas las actividades de la cuenta) o en cada actividad por separado.**
 
-Para habilitar el Compositor de experiencias mejorado en toda la cuenta, haga clic en [!UICONTROL Configuración > Preferencias] y coloque el conmutador en la posición Activado.
+To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
 
 Para habilitar el Compositor de experiencias mejorado en una actividad al crearla en el Compositor de experiencias visuales, haga clic en [!UICONTROL Configurar > Dirección URL] y coloque el conmutador en la posición Activado.
 
-**Puede permitir enumerar determinadas direcciones IP si el Compositor de experiencias visuales mejorado no se carga en páginas seguras del sitio.**
+**Puede realizar listas de permitidos en determinadas direcciones IP si el Compositor de experiencias visuales mejorado no se carga en páginas seguras del sitio.**
 
-Los problemas al cargar el Compositor de experiencias visuales mejorado se pueden resolver si se permiten enumerar las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los Visitantes al sitio no necesitan que estas direcciones IP estén permitidas.
+Los problemas al cargar el Compositor de experiencias visuales mejorado se pueden resolver mediante la inclusión en la lista de permitidos de las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los Visitantes al sitio no necesitan que estas direcciones IP estén permitidas.
 
 Estados Unidos: 52.55.99.45, 54.80.158.92 y 54.204.197.253
 
