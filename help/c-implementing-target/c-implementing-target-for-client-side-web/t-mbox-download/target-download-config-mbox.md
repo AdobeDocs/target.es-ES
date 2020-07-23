@@ -1,12 +1,15 @@
 ---
-keywords: Implementación;Mbox;mbox.js;descargar mbox.js;configurar mbox.js
+keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
 description: Target Standard y Premium usan una versión modificada del archivo mbox.js de Adobe Target.
 title: Descargar mbox.js
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +20,7 @@ Target Standard y Premium usan una versión modificada del archivo mbox.js de Ad
 
 Para usar el [!DNL Adobe Target]Compositor de experiencias visuales[!UICONTROL  de ], tiene que incluir una línea adicional de JavaScript en el archivo [!DNL mbox.js].
 
-1. Haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Implementación]** en [!DNL Target Standard].
+1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]** en [!DNL Target Standard].
 1. Haga clic en **[!UICONTROL Descargar mbox.js]** y siga las indicaciones para guardar el archivo.
 1. (Condicional) Si usa la versión 60 o posterior de [!DNL mbox.js], puede configurar la biblioteca para que oculte automáticamente el contenido de la página de forma predeterminada hasta que se carguen los mboxes a fin de reducir el parpadeo en los sitios adaptables.
 
