@@ -5,10 +5,10 @@ title: 'Notas de la versión de Adobe Target (actual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 31%
+source-wordcount: '904'
+ht-degree: 30%
 
 ---
 
@@ -35,6 +35,12 @@ Estas notas de la versión proporcionan información sobre características, mej
 
 
 Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+## at.js 2.3.2 (24 de julio de 2020)
+
+Esta versión de at.js es una versión de mantenimiento que incluye la siguiente corrección:
+
+* Se ha corregido un error que se producía cuando un script o código añadía una propiedad predeterminada a la ventana o al documento.
 
 ## Target Standard/Premium 20.7.1 (27 de julio de 2020). 
 
