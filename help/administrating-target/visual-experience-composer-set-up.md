@@ -4,10 +4,10 @@ description: Configure el Compositor de experiencias visuales de Adobe Target (V
 title: Configuración del Compositor de experiencias visuales de Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 52%
+source-wordcount: '694'
+ht-degree: 51%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 52%
 # Configuración del Compositor de experiencias visuales
 
 Configure el Compositor [!DNL Adobe Target] de experiencias  visuales (VEC) especificando su configuración general, la configuración de ventanilla móvil y los selectores CSS.
-
->[!NOTE]
->
->Los temas de esta sección, que se enumeran a continuación, se han actualizado para ofrecerle un vistazo a los cambios de la interfaz de usuario que se producirán en la versión [!DNL Target Standard/Premium] 20.6.1 (julio de 2020). La mayor parte de la información presentada en estos temas se aplica a la IU actual; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 Para acceder a la página de configuración del Compositor [!UICONTROL de experiencias] visuales, haga clic en **[!UICONTROL Administración]** > Compositor **[!UICONTROL de experiencias]visuales.**
 
@@ -104,5 +100,9 @@ Puede anular esta configuración por actividad (haga clic en el icono de engrana
 Este vídeo incluye información sobre las preferencias de cuenta.
 
 * Describir la configuración de la cuenta disponible en [!DNL Target Standard]
+
+>[!NOTE]
+>
+>La interfaz de usuario del menú [!DNL Target] Administración [!UICONTROL (anteriormente] Ajustes ) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información del siguiente vídeo es, en general, correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán pronto.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
