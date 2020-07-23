@@ -5,7 +5,10 @@ title: Configuración y objetivos
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 96%
 
 ---
 
@@ -36,9 +39,9 @@ La interfaz de usuario y las opciones de Prioridad varían en función de la con
 
 La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
-Si esta opción no está habilitada en Configuración (la predeterminada), indique un nivel de prioridad: bajo, medio o alto.
+If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-Para habilitar prioridades específicas, haga clic en Configuración y luego coloque la opción Habilitar prioridades específicas en la posición “Activado”.
+To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 Si esta opción está habilitada, indique un valor entre 0 y 999:
 
@@ -152,7 +155,7 @@ Escriba la información sobre la actividad que sea útil tener disponible para e
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Distintivo de ![tutorial de Configuración de actividades (3:02)](/help/assets/tutorial.png)
+### Distintivo de ![tutorial de configuración de Actividad (3:02)](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
