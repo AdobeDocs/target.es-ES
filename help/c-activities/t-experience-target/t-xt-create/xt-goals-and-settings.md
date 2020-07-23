@@ -1,11 +1,14 @@
 ---
-keywords: configuración de actividad;objetivos y configuración de la segmentación de experiencias;objetivos y configuración de xt;segmentación de experiencias;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;configuración avanzada;objetivo principal;métricas adicionales;objetivo;prioridad;duración;solución de informes;audiencias para informes;qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
+keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 title: Configuración y objetivos
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1228'
+ht-degree: 97%
 
 ---
 
@@ -36,9 +39,9 @@ La interfaz de usuario y las opciones de Prioridad varían en función de la con
 
 La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
-Si esta opción no está habilitada en Configuración (la predeterminada), indique un nivel de prioridad: bajo, medio o alto.
+Si esta opción no está habilitada en Administración (opción predeterminada), especifique una prioridad: Bajo, Medio o Alto.
 
-Para habilitar prioridades específicas, haga clic en Configuración y luego coloque la opción Habilitar prioridades específicas en la posición “Activado”.
+To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 Si esta opción está habilitada, indique un valor entre 0 y 999:
 
@@ -160,4 +163,4 @@ Este vídeo incluye información sobre la configuración de las actividades.
 * Añadir audiencias para los informes a fin de crear filtros de informes
 * Escribir notas en las actividades
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
