@@ -1,11 +1,14 @@
 ---
-keywords: targetPageParams;targetpageparams;pageParams;pageparams;parámetros de página;at.js;funciones;función
+keywords: targetPageParams;targetpageparams;pageParams;pageparams;page params;page parameters;at.js;functions;function
 description: Información sobre la función targetPageParams() para la biblioteca JavaScript at.js de Adobe Target.
 title: Información sobre la función targetPageParams() para la biblioteca JavaScript at.js de Adobe Target.
-subtopic: Primeros pasos
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 89%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Este método permite adjuntar parámetros al mbox global desde fuera del código de la solicitud.
 
-Esta función resulta muy útil para incluir el mismo conjunto de parámetros en varias llamadas de mbox. El cliente debe definir la función. Debería devolver una matriz de parámetros que se pasarán solamente a la solicitud de mbox global. Esta función puede definirse antes de que se cargue at.js o en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Implementación**] &gt; **[!UICONTROL Editar la configuración de at.js**] &gt; **[!UICONTROL Configuración del código]** &gt; **[!UICONTROL Encabezado de la biblioteca]**.
+Esta función resulta muy útil para incluir el mismo conjunto de parámetros en varias llamadas de mbox. El cliente debe definir la función. Debería devolver una matriz de parámetros que se pasarán solamente a la solicitud de mbox global. This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Library Header]**.
 
 Puede pasar parámetros a target-global-mbox mediante la función `targetPageParams()` de cualquiera de estas formas:
 
