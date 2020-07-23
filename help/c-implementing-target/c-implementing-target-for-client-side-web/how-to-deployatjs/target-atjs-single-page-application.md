@@ -5,7 +5,10 @@ title: Implementación de una aplicación de una sola página en Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '2752'
+ht-degree: 74%
 
 ---
 
@@ -30,13 +33,13 @@ El VEC de Adobe Target para SPA aprovecha un nuevo concepto llamado Vistas: un g
 
 Para explicar más sobre las vistas, vamos a navegar por este hipotético sitio de comercio electrónico en línea, implementado en React, y a explorar algunas de las vistas de ejemplo. Haga clic en los vínculos siguientes para abrir el sitio en una nueva pestaña del explorador.
 
-**Vínculo: Sitio[principal](https://target.enablementadobe.com/react/demo/#/)**
+**Vínculo:[Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
 
 ![página de inicio](/help/c-experiences/assets/home.png)
 
 Si vamos a la página de inicio, podemos ver inmediatamente una imagen promocional de Pascua, así como los productos más recientes que venden en el sitio. En este caso, una vista puede definirse como toda la página de inicio. Es práctico tenerlo en cuenta porque se ampliará en la sección Implementación de vistas de Adobe Target, que se describe a continuación.
 
-**Vínculo: Sitio[del producto](https://target.enablementadobe.com/react/demo/#/products)**
+**Vínculo:[Sitio del producto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sitio del producto](/help/c-experiences/assets/product-site.png)
 
@@ -50,7 +53,7 @@ Al principio de esta sección, definimos Vistas como el sitio completo o incluso
 
 Decidimos hacer clic en el botón Cargar más para explorar más productos en el sitio. En este caso, la dirección URL del sitio web no cambia. Sin embargo, aquí, una vista puede representar solamente la segunda fila de productos que se muestra arriba. El nombre de la vista puede ser “PRODUCTS-PAGE-2”.
 
-**Vínculo: Cierre[de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Vínculo:[Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de salida](/help/c-experiences/assets/checkout.png)
 
@@ -68,7 +71,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    En primer lugar, es necesario instalar at.js 2.x. Esta versión de at.js se desarrolló teniendo en cuenta las SPA. Las versiones anteriores de at.js y mbox.js no son compatibles con las vistas de Adobe Target y con el VEC para SPA.
 
-   Descargue at.js 2.x a través de la IU de Adobe Target ubicada en [!UICONTROL Configuración > Implementación]. at.js 2.x también se puede implementar mediante Adobe Launch. Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
+   Download at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x también se puede implementar mediante Adobe Launch. Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
 
 1. Implemente la función más reciente de at.js 2.x `triggerView()` en sus sitios.
 
@@ -84,7 +87,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    Veamos algunos ejemplos de casos de uso sobre la invocación de la función `triggerView()` en React para el SPA de comercio electrónico hipotético:
 
-   **Vínculo: Sitio[principal](https://target.enablementadobe.com/react/demo/#/)**
+   **Vínculo:[Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +118,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Vínculo: Sitio[de productos](https://target.enablementadobe.com/react/demo/#/products)**
+**Vínculo:[Sitio de productos](https://target.enablementadobe.com/react/demo/#/products)**
 
 Veamos un ejemplo que es un poco más complicado. Digamos que como especialistas en marketing queremos personalizar la segunda fila de los productos cambiando el color de la etiqueta Precio a rojo después de que un usuario haga clic en el botón Cargar más.
 
@@ -144,7 +147,7 @@ Veamos un ejemplo que es un poco más complicado. Digamos que como especialistas
  }
 ```
 
-**Vínculo: Cierre[de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Vínculo:[Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Reacción de finalización de compra](/help/c-experiences/assets/react6.png)
 
@@ -302,7 +305,7 @@ La siguiente información describe el orden de las operaciones que debe seguir a
 
 Los vídeos siguientes contienen más información:
 
-### Descripción del funcionamiento de at.js 2.x Distintivo ![de información general](/help/assets/overview.png)
+### Descripción del funcionamiento de at.js 2.x ![Distintivo de información general](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
@@ -312,7 +315,7 @@ Consulte [Explicación del funcionamiento](https://helpx.adobe.com/target/kt/usi
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Consulte [Implementación de at.js 2.x de Adobe Destinatario en una aplicación de una sola página (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obtener más información.
+Consulte [Implementar at.js 2.x de Adobe Target en una aplicación de una sola página (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obtener más información.
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
