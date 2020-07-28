@@ -4,10 +4,10 @@ title: Segmentación automática
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 96%
+source-wordcount: '3517'
+ht-degree: 91%
 
 ---
 
@@ -32,11 +32,18 @@ De forma parecida a la Personalización automatizada, la [!UICONTROL segmentaci�
 
 Al contrario que en una actividad A/B, en la que la asignación de experiencias para un visitante dado es fija, la [!UICONTROL segmentación automática] optimiza el objetivo comercial especificado en cada visita. Al igual que en la [!UICONTROL Personalización automática], la [!UICONTROL segmentación automática], de forma predeterminada, reserva parte del tráfico de la actividad como grupo de control para medir el aumento. A los visitantes del grupo de control se les sirve una experiencia aleatoria en la actividad.
 
-Hay algunas cosas importantes que debe tener en cuenta al usar la [!UICONTROL segmentación automática]:
+## Consideraciones
+
+There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
 * No puede cambiar una actividad específica de segmentación automática a [!UICONTROL Personalización automatizada] y viceversa.
 * No puede pasar de la asignación de tráfico manual (prueba tradicional A/B) a la [!UICONTROL orientación automática] y viceversa después de que una actividad esté activa.
-* Al usar hosts y entornos (grupos de hosts), los modelos solo se crean para el entorno “Producción”. Todos los entornos aportan datos a la hora de crear modelos para las campañas de “Producción”.
+* Se ha creado un modelo para identificar el rendimiento de la estrategia personalizada frente al tráfico servido al azar frente al envío de todo el tráfico a la experiencia ganadora general. Este modelo solo tiene en cuenta las visitas y las conversiones en el entorno predeterminado.
+
+   El tráfico de un segundo conjunto de modelos se genera para cada grupo de modelos (AP) o experiencia (AT). Para cada uno de estos modelos, se tienen en cuenta las visitas y conversiones en todos los entornos.
+
+   Por lo tanto, las solicitudes se presentarán con el mismo modelo, independientemente del entorno, pero la pluralidad de tráfico debe provenir del entorno predeterminado para garantizar que la experiencia ganadora global identificada sea coherente con el comportamiento real.
+
 * Hay que usar un mínimo de dos experiencias.
 
 ## Terminología {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -220,7 +227,11 @@ Para obtener más información, consulte [Uso de una experiencia específica com
 
 No se recomienda cambiar la métrica de objetivos a mitad de camino a través de una actividad. Aunque es posible cambiar la métrica de objetivos durante una actividad mediante la [!DNL Target] interfaz de usuario, siempre debe realizar el inicio de una nueva actividad. No garantizamos lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
 
-Esta recomendación se aplica a las actividades de asignación automática, Destinatario automático y personalización  automatizada que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como origen de sistema de informes.
+Esta recomendación se aplica a las actividades [!UICONTROL de asignación]automática, Destinatario automático y [!UICONTROL Automated Personalization] que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como origen de sistema de informes.
+
+### ¿Puedo utilizar la opción Restablecer datos del informe al ejecutar una actividad de Destinatario automático?
+
+No se sugiere utilizar la opción [!UICONTROL Restablecer datos] de informes para actividades de Destinatario  automático. Aunque elimina los datos de sistema de informes visibles, esta opción no elimina todos los registros de formación del modelo de Destinatario  automático. En lugar de utilizar la opción [!UICONTROL Restablecer datos] del informe para actividades de Destinatario  automático, cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades [!UICONTROL de asignación] automática y de [!UICONTROL Automated Personalization] ).
 
 ## Solución de problemas de la [!UICONTROL segmentación automática] {#section_23995AB813F24525AF294D20A20875C8}
 
