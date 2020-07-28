@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 42%
 
 ---
 
@@ -33,7 +36,7 @@ Tenga en cuenta lo siguiente al trabajar con Atributos del cliente y [!DNL Targe
    >
    >[!DNL at.js] (cualquier versión) o [!DNL mbox.js] versión 58 o posterior.
 
-* Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. En el diseño actual, existe la posibilidad de que un pequeño porcentaje de datos se quede sin introducir.
+* [!DNL Adobe] no garantiza que el 100 % de los datos de atributos del cliente (perfil de visitante) de las bases de datos CRM se incorporarán al [!DNL Experience Cloud] y, por lo tanto, estarán disponibles para su uso como objetivo en [!DNL Target]. En nuestro diseño actual, existe la posibilidad de que un pequeño porcentaje de datos (hasta el 0,1% de los lotes de producción grandes) no se incorporen.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Para obtener más información, consulte   [Duración del perfil del visitante](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
@@ -83,6 +86,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
    * **HTTPS:** Puede arrastrar y soltar el archivo de datos .csv o hacer clic en **[!UICONTROL Examinar]** para cargarlo desde el sistema de archivos.
    * **FTP:** Haga clic en el vínculo FTP para [cargar el archivo a través de FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). El primer paso es proporcionar una contraseña para el servidor FTP de Adobe. Specify the password, then click **[!UICONTROL Done]**.
+
    Ahora, transfiera su archivo CSV/ZIP/GZIP al servidor FTP. Una vez que la transferencia de archivos se haya realizado correctamente, cree un nuevo archivo con el mismo nombre y la misma extensión .fin. Transfiera este archivo vacío al servidor. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. Valide el esquema.
@@ -143,7 +147,7 @@ Si está utilizando el servicio de Experience Cloud ID, necesita establecer un I
 
 Para obtener más información sobre el uso de atributos del cliente en [!DNL Target], consulte los siguientes recursos:
 
-* [Cree un origen de atributos de cliente y cargue el archivo](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) de datos en la documentación del producto de *Experience Cloud*
+* [Cree un origen de atributos de cliente y cargue el archivo](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) de datos en la documentación del producto del *Experience Cloud*
 * [Atributos del cliente: cuanto más sabe, mejor se relaciona](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) en el *blog Digital Marketing*
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
@@ -162,7 +166,7 @@ No hay límite de caracteres para un campo particular en el perfil del usuario, 
 
 Suele deberse a un problema de conexión de Pipeline. Como solución, pida a su equipo de Atributos del cliente que vuelva a publicar la fuente.
 
-### Problema 3: La entrega no funciona según el atributo
+### Problema 3: Envío no funciona según el atributo
 
 El perfil todavía no se ha actualizado en el perímetro. Como solución, pida a su equipo de Atributos del cliente que vuelva a publicar la fuente.
 
