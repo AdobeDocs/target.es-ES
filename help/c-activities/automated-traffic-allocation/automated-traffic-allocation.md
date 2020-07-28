@@ -5,10 +5,10 @@ title: Asignación automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3134'
-ht-degree: 83%
+source-wordcount: '3335'
+ht-degree: 78%
 
 ---
 
@@ -187,7 +187,19 @@ El 20 % de los visitantes se asigna de forma aleatoria entre todas las experien
 
 No se recomienda cambiar la métrica de objetivos a mitad de camino a través de una actividad. Aunque es posible cambiar la métrica de objetivos durante una actividad mediante la [!DNL Target] interfaz de usuario, siempre debe realizar el inicio de una nueva actividad. No garantizamos lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
 
-Esta recomendación se aplica a las actividades de asignación automática, Destinatario automático y personalización  automatizada que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como origen de sistema de informes.
+Esta recomendación se aplica a las actividades [!UICONTROL de asignación]automática, Destinatario automático y [!UICONTROL Automated Personalization] que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como origen de sistema de informes.
+
+### ¿Puedo utilizar la opción Restablecer datos del informe mientras ejecuto una actividad de asignación automática?
+
+No se recomienda utilizar la opción [!UICONTROL Restablecer datos] de informes para actividades de asignación  automática. Aunque elimina los datos de sistema de informes visibles, esta opción no elimina todos los registros de formación del modelo de asignación [!UICONTROL automática] . En lugar de utilizar la opción [!UICONTROL Restablecer datos] del informe para actividades de asignación  automática, cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades [!UICONTROL de Destinatario] automático y [!UICONTROL Automated Personalization] ).
+
+### ¿Cómo genera la asignación automática modelos con respecto a los entornos?
+
+[!UICONTROL La asignación] automática genera modelos basados en el tráfico y el comportamiento de conversión registrado solo en el entorno predeterminado. De forma predeterminada, [!UICONTROL Producción] es el entorno predeterminado, pero esto se puede cambiar en [Administración de Destinatarios > Entornos](/help/administrating-target/environments.md).
+
+Si una visita se produce en otro entorno (no predeterminado), el tráfico se distribuye según el comportamiento de conversión observado en el entorno predeterminado. El resultado de esa visita (conversión o no conversión) se registrará con fines de sistema de informes pero no se tendrá en cuenta en el modelo de asignación  automática.
+
+Al seleccionar otro entorno, el informe mostrará el tráfico y las conversiones de ese entorno. El entorno seleccionado predeterminado para un informe siempre será el predeterminado de toda la cuenta que esté seleccionado. El entorno predeterminado no se puede establecer por actividad.
 
 ## Vídeos de formación {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
