@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentación de producto de Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 61%
@@ -17,13 +17,13 @@ ht-degree: 61%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: viernes, 24 de julio de 2020 ([Vea los cambios](r-release-notes/doc-change.md))**
+**Última actualización: viernes, 28 de julio de 2020 ([Vea los cambios](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
->**Adobe ha sido nombrado nuevamente líder en el cuadrante mágico de Gartner para motores de personalización**
+>**Nuevo nombre de Adobe líder en el cuadrante mágico de Gartner para motores de personalización**
 >
->Una vez más, Adobe fue nombrado Líder en el tercer informe anual del Cuadrante mágico de Gartner para motores de personalización, 2020. El Cuadrante mágico de Gartner para motores de personalización evaluó a los proveedores según 15 criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución. [Lee al respecto en The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+>Una vez más, Adobe fue nombrado Líder en el tercer informe anual del Cuadrante Mágico de Gartner para Motores de Personalización, 2020. El Cuadrante mágico de Gartner para motores de personalización evaluó a los proveedores según 15 criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución. [Lee al respecto en The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
 Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados según las funciones de usuario a las que van dirigidos:
 
@@ -41,7 +41,7 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 - [Notas de la versión de Target](r-release-notes/release-notes.md): contiene información sobre la versión actual, información sobre los problemas conocidos que afectan a [!DNL Target], una lista de cambios importantes en esta documentación y un archivo de notas de versiones anteriores.
 - [Introducción a Target](c-intro/intro.md): explica los conceptos principales de la solución [!DNL Target].
 - Integrar Target con Adobe Experience Cloud: Explica cómo se integra [!DNL Target] con otras [!DNL Experience Cloud] soluciones, como [Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A 4 T), [Audiencias de Experience Cloud](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)[y Device Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
-- [Tutoriales](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)de Adobe Target: Ofrece tutoriales y vídeos que le ayudarán a sacar el máximo partido del Destinatario.
+- [Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)de Adobe Target: Ofrece tutoriales y vídeos que le ayudarán a sacar el máximo partido del Destinatario.
 - [Solución de problemas de Target](r-troubleshooting-target/troubleshooting-target.md): proporciona vínculos a información de solución de problemas contenida en esta guía, incluida información sobre los límites de caracteres y otros límites (tamaño de ofertas, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Target].
 - [Target para aplicaciones móviles](c-target-mobile-app/target-mobile-app.md): explica cómo [!DNL Target] se puede utilizar para la optimización y personalización de aplicaciones móviles.
 - [Recursos e información de contacto](cmp-resources-and-contact-information.md): proporciona información sobre recursos adicionales para ayudarle a obtener información sobre las características de [!DNL Target] y cómo ponerse en contacto con [!DNL Adobe] en caso de necesitar ayuda.
@@ -58,9 +58,9 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 - [Implementación de Target](c-implementing-target/implementing-target.md): explica cómo implementar [!DNL Target] en sitios web, aplicaciones móviles, aplicaciones de una sola página (SPA) y plataformas IOT/OTT.
 - [API](https://developers.adobetarget.com/api/delivery-api/)del lado del servidor de Destinatario: Describe los recursos que conforman la API de Adobe Target Envío.
 - [SDK](https://github.com/adobe/target-nodejs-sdk)de NodeJS de Destinatario: Explica cómo implementar Destinatario en el servidor. Este SDK de Node.js ayuda a integrar fácilmente el Destinatario con otras soluciones de Adobe Experience Cloud.
-- [SDK](https://github.com/adobe/target-java-sdk)Java de Destinatario: Explica cómo implementar Destinatario en el servidor. Este SDK de Java le ayuda a integrar fácilmente Destinatario con otras soluciones de Adobe Experience Cloud.
-- [API](https://developers.adobetarget.com/api/recommendations/)de Destinatario Recommendations: Describe los recursos que conforman la API de Adobe Target Recommendations oficial.
-- [Documentación](http://developers.adobetarget.com/api/#introduction)de Destinatario de Adobe.IO: Describe cómo utilizar las API de administración y Perfil REST de Destinatario que utilizan la integración de Adobe.IO para administrar actividades, audiencias, ofertas, propiedades, informes, mboxes, entornos y perfiles.
+- [SDK](https://github.com/adobe/target-java-sdk)Java de Destinatario: Explica cómo implementar Destinatario en el servidor. Este SDK de Java ayuda a integrar fácilmente el Destinatario con otras soluciones de Adobe Experience Cloud.
+- [Destinatario Recommendations API](https://developers.adobetarget.com/api/recommendations/): Describe los recursos que conforman la API oficial de Recommendations de Adobe Target.
+- [Documentación](http://developers.adobetarget.com/api/#introduction)de Destinatario Adobe.IO: Describe cómo utilizar las API de administración y Perfil REST de Destinatario que utilizan la integración de Adobe.IO para administrar actividades, audiencias, ofertas, propiedades, informes, mboxes, entornos y perfiles.
 
 ## Administradores de Target y Adobe Experience Cloud {#admins}
 
