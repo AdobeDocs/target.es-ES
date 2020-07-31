@@ -4,10 +4,10 @@ description: Información sobre problemas conocidos con esta versión de Adobe T
 title: Problemas conocidos y problemas resueltos   en Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
+source-git-commit: 270fc448eb4d3a13d6593b45a0956edfa72f58c5
 workflow-type: tm+mt
-source-wordcount: '3261'
-ht-degree: 94%
+source-wordcount: '3352'
+ht-degree: 91%
 
 ---
 
@@ -135,6 +135,10 @@ Los clientes no pueden realizar operaciones de CRUD en actividades de asignació
 ### Objetivo geográfico
 
 El 10 de mayo de 2020 actualizamos nuestros archivos de proveedores de GEO, lo que introdujo algunas inconsistencias. Por ejemplo, se agregaron algunos valores que contenían comas; aunque los valores de las audiencias existentes no tenían coma. Este cambio no afectó a todos nuestros servidores de envío. Como resultado, es posible que las audiencias que utilizan estos valores no hayan calificado todos los visitantes correctos entre el 10 de mayo y el 22 de julio de 2020.
+
+### La imagen 0ofrece la etiqueta &quot;Procesamiento&quot;
+
+Las ofertas de imagen de la página Ofertas a veces conservan la etiqueta de &quot;procesamiento&quot; durante varias horas después de cargar las imágenes. En la mayoría de los casos, este es un problema solo con la etiqueta: las ofertas de imagen pueden seguir utilizándose en actividades y entregarse. En algunos casos, sin embargo, es posible que una oferta de imagen no esté disponible para la acción Reemplazar contenido > Imagen. Si esto sucede, debe cargar la oferta de imagen de nuevo y comprobar después de unas horas si la oferta de imagen está disponible para su sustitución. (TGT-37458)
 
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
