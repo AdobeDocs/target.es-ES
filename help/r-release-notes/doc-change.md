@@ -5,9 +5,9 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1706'
 ht-degree: 31%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | Julio de 31 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha Añadido un nuevo problema conocido: &quot;Ofertas de imagen que muestran la etiqueta &quot;Procesamiento&quot;.&quot; |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Ejemplo de código Añadido que se usará `getoffers()` para realizar un pageLoad. |
 |  | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Añadió la información de registro sobre el próximo Adobe Target Community Coffee Break el 5 de agosto. |
 | Julio de 28 | [Informes](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)de perspectivas de personalización, informe<br>[de segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados<br>y atributos [importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Se ha actualizado el texto de la nota en la parte superior de los temas. |
 |  | [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Se agregaron las siguientes preguntas más frecuentes:<ul><li>¿Puedo utilizar la opción Restablecer datos del informe mientras ejecuto una actividad de asignación automática?</li><li>¿Cómo genera la asignación automática modelos con respecto a los entornos?</li></ul> |
