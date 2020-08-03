@@ -5,9 +5,9 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1724'
 ht-degree: 31%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 3 de agosto | [Métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md) | Nota Añadida que aclara qué significan las opciones [!UICONTROL Aumentar recuento] en relación con los visitantes vs. las visitas. |
 | Julio de 31 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha Añadido un nuevo problema conocido: &quot;Ofertas de imagen que muestran la etiqueta &quot;Procesamiento&quot;.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Ejemplo de código Añadido que se usará `getoffers()` para realizar un pageLoad. |
 |  | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Añadió la información de registro sobre el próximo Adobe Target Community Coffee Break el 5 de agosto. |
