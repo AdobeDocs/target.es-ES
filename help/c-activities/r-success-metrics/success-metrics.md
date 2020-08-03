@@ -4,10 +4,10 @@ description: En Adobe Target, las métricas de éxito están preconfiguradas tan
 title: Métricas de éxito en Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,10 @@ Use la configuración avanzada para determinar qué sucede después de que un us
 | Incremente el recuento y conserve el usuario en la actividad | Especifique cómo se incrementa el recuento:<ul><li>Una vez por participante  (predeterminada)</li><li>En cada impresión, excluidas las actualizaciones de páginas</li><li>En cada impresión</li></ul> |
 | Incremente el recuento, libere al usuario y permita que vuelva a participar | Seleccione la experiencia que el visitante ve si vuelve a participar en la actividad:<ul><li>La misma experiencia  (predeterminada)</li><li>Una experiencia aleatoria</li><li>Una experiencia no vista</li></ul> |
 | Incremente el recuento, libere al usuario y prohíba que el usuario vuelva a participar | Determine lo que el usuario ve en lugar del contenido de actividad:<ul><li>La misma experiencia, sin seguimiento  (predeterminada)</li><li>Un contenido predeterminado, u otro contenido de actividad</li></ul> |
+
+>[!NOTE]
+>
+>Si configura una métrica en una de las opciones [!UICONTROL Aumentar recuento] (mencionadas anteriormente), el recuento de métricas se incrementa correctamente una vez por visitante solo en el nivel de visitante. El recuento de métricas aumenta una vez por visita para cada nueva sesión en el nivel de visita.
 
 ## Vídeo de formación: Métricas de actividad
 
