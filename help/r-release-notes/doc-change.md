@@ -5,9 +5,9 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
+source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1754'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 4 de agosto | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Se Añadió la información de registro sobre el seminario web &quot;Estrategias de personalización que usan inteligencia artificial y Adobe Target&quot; programado para el 13 de agosto. |
+|  | [Activación de contenido mixto en el navegador](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Tema actualizado. |
 | 3 de agosto | [Métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md) | Nota Añadida que aclara qué significan las opciones [!UICONTROL Aumentar recuento] en relación con los visitantes vs. las visitas. |
 | Julio de 31 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha Añadido un nuevo problema conocido: &quot;Ofertas de imagen que muestran la etiqueta &quot;Procesamiento&quot;.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Ejemplo de código Añadido que se usará `getoffers()` para realizar un pageLoad. |
