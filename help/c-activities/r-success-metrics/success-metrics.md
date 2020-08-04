@@ -1,64 +1,70 @@
 ---
-keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
-description: En Adobe Target, las métricas de éxito están preconfiguradas tanto para fines de sistema de informes como de seguimiento.
+keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
+description: En Adobe Target, las métricas de éxito son parámetros utilizados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target.
 title: Métricas de éxito en Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
+source-git-commit: 4fd2de5600060d58759ffa54a771a45b263f115b
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 79%
+source-wordcount: '1070'
+ht-degree: 53%
 
 ---
 
 
 # Métricas de éxito{#success-metrics}
 
-En Adobe Target, las métricas de éxito están preconfiguradas tanto para fines de sistema de informes como de seguimiento.
+In [!DNL Adobe Target] success metrics are parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a [!DNL Target] activity.
 
-Las métricas de éxito son parámetros usados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target. Por ejemplo, puede determinar si una oferta nueva aumenta los ingresos por visitante o si agregar un artículo a un carro de compras. Las métricas de éxito pueden resultar útiles para detectar problemas con el registro, el pedido o los canales de compra, pero también con la participación del visitante o del cliente.
+Por ejemplo, puede determinar si una oferta nueva aumenta los ingresos por visitante o si agregar un artículo a un carro de compras. Las métricas de éxito pueden resultar útiles para detectar problemas con el registro, el pedido o los canales de compra, pero también con la participación del visitante o del cliente.
 
-De igual manera que hace [!DNL Target Standard] para simplificar la creación de pruebas, la aplicación ajusta algunas de las opciones que se configuraban de forma manual en [!DNL Target Classic]. Por ejemplo, las métricas de éxito están preconfiguradas con las opciones óptimas.
+## Información general
 
-By default, conversion events are set to &quot;Count once and keep the entrant in the activity&quot; in [!DNL Target Standard]. Las conversiones se cuentan una única vez, no se cuentan las conversiones repetidas y el visitante siempre ve el contenido de la prueba.
+En [!DNL Target]realidad, las métricas de éxito están preconfiguradas con las opciones óptimas tanto para fines de sistema de informes como de seguimiento.
 
-Las métricas de ingresos establecidas en “Aumentar recuento y mantener al usuario en la actividad” registran los detalles de pedido únicamente para el primer pedido realizado por el mismo visitante. Todos los pedidos posteriores aumentan el contador de conversión, pero no añaden ingresos a RPV/AOV/Sales y no se incluyen en el informe Detalles del pedido.
+De forma predeterminada, los eventos de conversión se establecen en &quot;[!UICONTROL Aumentar recuento y mantener al usuario en actividad]&quot;. Las conversiones se cuentan una sola vez, no se cuentan las conversiones repetidas y el visitante siempre ve el contenido de la actividad.
+
+Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep user in activity]&quot; log order details only for the first order made by the same visitor. All subsequent orders increase conversion count, but will not add revenue to RPV/AOV/Sales, and will not be included in the [!UICONTROL Order Details] report.
 
 >[!NOTE]
 >
->El comportamiento predeterminado para actividades que utilizan [Analytics como origen](/help/c-integrating-target-with-mac/a4t/a4t.md) de sistema de informes (A4T) es &quot;Aumentar recuento y mantener al usuario en la actividad&quot; con &quot;Una vez por visitante&quot;.
+>El comportamiento predeterminado para actividades que utilizan [Analytics como origen](/help/c-integrating-target-with-mac/a4t/a4t.md) de sistema de informes (A4T) es &quot;[!UICONTROL Aumentar recuento y mantener al usuario en actividad]&quot; con &quot;[!UICONTROL Una vez por visitante]&quot;.
 
 Están disponibles las siguientes métricas de éxito:
 
 | Métrica de éxito | Método de medición | Definición |
 |--- |--- |--- |
-| Conversión | Basado en la conversión | Se produce una conversión cuando un visitante realiza en su sitio una acción que usted ha definido (hacer clic en un botón, visualizar una página, completar una encuesta o realizar una compra). Las conversiones se pueden contabilizar una vez por visitante o cada vez que un visitante completa una conversión. |
-| Ingresos | Basado en la conversión | Ingresos generados por la visita. Tiene la opción de elegir entre las siguientes métricas de ingresos:<ul><li>Ingresos por visitante (RPV)</li><li>Valor de pedido promedio (AOV)</li><li>Ventas totales</li></ul> |
+| Conversión | Basado en la conversión | La conversión se produce cuando un visitante realiza una acción en el sitio que usted ha definido, como <ul><li>Haga clic en un botón</li><li>Visualizó una página</li><li>Se completó una encuesta</li><li>Se realizó una compra</li></ul>Una conversión se puede contar una vez por visitante o cada vez que un visitante completa una conversión. |
+| Ingresos | Basado en la conversión | Ingresos generados por la visita. Tiene la opción de elegir entre las siguientes métricas de ingresos:<ul><li>Ingresos por visitante (RPV)</li><li>Valor de pedido promedio (AOV)</li><li>Ventas totales</li><li>Pedidos</li></ul> |
 | Vistas de páginas | Basado en la participación | Cada visita única se contabiliza como una conversión. |
-| Tiempo en el sitio | Basado en la participación | Tiempo empleado en la visita (en segundos) desde el punto en que el visitante ve la primera solicitud de Destinatario de visualización de la actividad hasta la carga de la página final con una solicitud en la sesión. |
 | Puntuación personalizada | Basado en la participación | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
+| Tiempo en el sitio | Basado en la participación | Time spent in the visit (in seconds) from the point the visitor sees the activity&#39;s first display [!DNL Target] request to the load of the final page with a request in the session. |
 
-En el caso de las métricas basadas en la participación (al contrario que las basadas en la conversión o en los ingresos), los visitantes deben volver a clasificarse para la actividad en cada visita si se desea incrementar el recuento. La métrica asociada comienza a aumentar tras la reclasificación y se detiene al terminar la sesión del visitante. Una sesión termina tras 30 minutos de inactividad. Por lo tanto, no verá los resultados inmediatamente durante las pruebas, pero todos los resultados estarán disponibles pocos minutos después de haber terminado la sesión.
+En el caso de las métricas basadas en la participación (al contrario que las basadas en la conversión o en los ingresos), los visitantes deben volver a clasificarse para la actividad en cada visita si se desea incrementar el recuento. La métrica asociada comienza a aumentar tras la reclasificación y se detiene al terminar la sesión del visitante. Una sesión termina tras 30 minutos de inactividad. Por lo tanto, no verá los resultados inmediatamente durante la prueba; sin embargo, todos los resultados de esa sesión están disponibles en los pocos minutos posteriores a la finalización de la sesión.
+
+## Métricas de éxito personalizadas
 
 También puede crear métricas de éxito personalizadas para adaptarse a sus necesidades comerciales.
 
-Después de seleccionar la métrica de éxito, seleccione la acción realizada por un visitante para alcanzar el objetivo. For example, choose a Conversion metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
+Después de seleccionar la métrica de éxito, seleccione la acción realizada por un visitante para alcanzar el objetivo. For example, choose a [!UICONTROL Conversion] metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
 
-Si está habilitado, el valor estimado de un campo de conversión (no disponible para la métrica Puntuación de página) proporciona un valor para el objetivo, pero no para el resto de las métricas. Este valor permite a [!DNL Target] calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. Para todas las métricas de ingresos (Ingresos por visitante, Valor de pedido promedio, Ventas totales y Pedidos), el cálculo usa Ingresos por visitante. El tipo de datos es moneda. Para obtener más información, consulte [Alza estimada en ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
+If enabled, the [!UICONTROL Estimated Value of one conversion] field (not available for the [!UICONTROL Page Score] metrics) provides a value for your goal, but not for other metrics. Este valor permite a [!DNL Target] calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. For all revenue metrics ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales], and [!UICONTROL Orders]), the estimate uses [!UICONTROL Revenue per Visitor]. El tipo de datos es moneda. Para obtener más información, consulte [Alza estimada en ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
 Las métricas de éxito que elija para la actividad estarán disponibles en la configuración de informes cuando visualice un informe de la actividad.
 
-Algunas métricas, como Puntuación personalizada e Ingresos por visitante, requieren una implementación personalizada que transfiera información, como totales de pedidos e ID de pedidos.
+Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Visitor], require a customized implementation that passes in information such as order totals and order IDs.
 
 ## Configuración avanzada {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Use la configuración avanzada para administrar la forma de medir la métrica de éxito. Las opciones incluyen contar la métrica por impresión o una vez por visitante, y elegir si conservar el usuario en la actividad o quitarlo.
 
+Para acceder a las opciones de Configuración [!UICONTROL avanzada, haga clic en las elipses] **[!UICONTROL verticales > Configuración]** **** avanzada.
+
+![Menú Configuración avanzada](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
+
 >[!NOTE]
 >
->Si usa [!DNL Adobe Analytics] como fuente de informes, el servidor [!DNL Analytics] es el que administra la configuración. La opción de configuración avanzada no estará disponible.
-
-![Menú desplegable Configuración avanzada](/help/c-activities/r-success-metrics/assets/Menu_AdvancedSettings.png)
+>Si usa [!DNL Adobe Analytics] como fuente de informes, el servidor [!DNL Analytics] es el que administra la configuración. The [!UICONTROL Advanced Settings] option will not be available. For more information, see [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 También puede usar la configuración avanzada para crear métricas de éxito dependientes, incrementando una métrica solo si el visitante llega a otra métrica primero.
 
@@ -71,17 +77,18 @@ Las métricas de éxito dependientes se admiten en las actividades de pruebas A/
 >[!NOTE]
 >
 >Las métricas de éxito dependientes no se convierten en los casos siguientes:
+>
+>* Si se crea una dependencia circular en la que la métrica1 depende de la métrica2 y esta, a su vez, depende de aquella, ninguna de las dos se puede convertir.
+>* Las actividades de Personalización automatizada liberan usuarios y reanudan la actividad cuando se alcanzan las métricas de conversión, de modo que no se convierta ninguna métrica que dependa de la métrica de conversión.
 
-* Si se crea una dependencia circular en la que la métrica1 depende de la métrica2 y esta, a su vez, depende de aquella, ninguna de las dos se puede convertir.
-* Las actividades de Personalización automatizada liberan usuarios y reanudan la actividad cuando se alcanzan las métricas de conversión, de modo que no se convierta ninguna métrica que dependa de la métrica de conversión.
 
-Use la configuración avanzada para determinar qué sucede después de que un usuario llegue a la métrica de objetivo. En la tabla siguiente se muestran las opciones disponibles.
+Use la configuración avanzada para determinar qué sucede después de que un usuario llegue a la métrica de objetivo. En la tabla siguiente se muestran las opciones disponibles:
 
 | Después de que un usuario encuentra la métrica de objetivo | Opciones |
 |--- |--- |
-| Incremente el recuento y conserve el usuario en la actividad | Especifique cómo se incrementa el recuento:<ul><li>Una vez por participante  (predeterminada)</li><li>En cada impresión, excluidas las actualizaciones de páginas</li><li>En cada impresión</li></ul> |
-| Incremente el recuento, libere al usuario y permita que vuelva a participar | Seleccione la experiencia que el visitante ve si vuelve a participar en la actividad:<ul><li>La misma experiencia  (predeterminada)</li><li>Una experiencia aleatoria</li><li>Una experiencia no vista</li></ul> |
-| Incremente el recuento, libere al usuario y prohíba que el usuario vuelva a participar | Determine lo que el usuario ve en lugar del contenido de actividad:<ul><li>La misma experiencia, sin seguimiento  (predeterminada)</li><li>Un contenido predeterminado, u otro contenido de actividad</li></ul> |
+| [!UICONTROL Aumentar recuento y mantener el usuario en la actividad] | Especifique cómo se incrementa el recuento:<ul><li>Una vez por participante  (predeterminada)</li><li>En cada impresión, excluidas las actualizaciones de páginas</li><li>En cada impresión</li></ul> |
+| [!UICONTROL Aumentar recuento, liberar usuario y permitir reentrada] | Seleccione la experiencia que el visitante ve si vuelve a participar en la actividad:<ul><li>La misma experiencia  (predeterminada)</li><li>Una experiencia aleatoria</li><li>Una experiencia no vista</li></ul> |
+| [!UICONTROL Aumentar recuento, liberar usuario y bloquear la reentrada] | Determine lo que el usuario ve en lugar del contenido de actividad:<ul><li>La misma experiencia, sin seguimiento  (predeterminada)</li><li>Un contenido predeterminado, u otro contenido de actividad</li></ul> |
 
 >[!NOTE]
 >
