@@ -5,10 +5,10 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 31%
+source-wordcount: '1746'
+ht-degree: 30%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 4 de agosto | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Se Añadió la información de registro sobre el seminario web &quot;Estrategias de personalización que usan inteligencia artificial y Adobe Target&quot; programado para el 13 de agosto. |
 | 3 de agosto | [Métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md) | Nota Añadida que aclara qué significan las opciones [!UICONTROL Aumentar recuento] en relación con los visitantes vs. las visitas. |
 | Julio de 31 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha Añadido un nuevo problema conocido: &quot;Ofertas de imagen que muestran la etiqueta &quot;Procesamiento&quot;.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Ejemplo de código Añadido que se usará `getoffers()` para realizar un pageLoad. |
@@ -32,7 +33,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Navegadores admitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Información Añadida sobre Internet Explorer y elementos desconocidos. |
 |  | [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. En nuestro diseño actual, existe la posibilidad de que un pequeño porcentaje de datos (hasta el 0,1% de los lotes de producción grandes) no se incorporen. |
 | Julio de 27 | [Administración de Target](/help/administrating-target/administrating-target.md) | Se ha actualizado el texto de todos los temas vinculados de esta página para reflejar los nuevos cambios en la interfaz de usuario de las páginas de [!UICONTROL administración] . |
-|  | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Se han implementado los siguientes cambios: <ul><li>Información de registro Añadida para el siguiente seminario web: &quot;Cómo HSBC aprovecha el Adobe Target y la IA para optimizar rápidamente y ofrecer personalización a escala&quot;.</li><li>Se ha Añadido información sobre el Adobe como Líder en el Cuadrante Mágico de Gartner para Motores de Personalización.</li></ul> |
+|  | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Se han implementado los siguientes cambios: <ul><li>Información de registro Añadida para el siguiente seminario web: &quot;Cómo HSBC aprovecha Adobe Target y AI para optimizar rápidamente y ofrecer personalización a escala&quot;.</li><li>Se ha Añadido información sobre el Adobe como Líder en el Cuadrante Mágico de Gartner para Motores de Personalización.</li></ul> |
 |  | [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md) | Se ha aclarado la información en el paso 4: Seleccione una ubicación. |
 | Julio de 24 | <br>[Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha añadido información sobre at.js 2.3.2. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 20.7.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
@@ -41,13 +42,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| Julio de 17 | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre el Descanso del Café de Adobe Target del 22 de julio. |
+| Julio de 17 | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre la pausa para café de Adobe Target del 22 de julio. |
 | Julio de 15 | [La asignación automática puede proporcionar resultados de prueba más rápidos y mayores ingresos que una prueba manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | Nuevo tema. |
 | Julio de 14 | [Preguntas más frecuentes sobre asignación](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automática, Destinatario<br>[](/help/c-activities/auto-target-to-optimize.md)automático<br><br>[y personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Preguntas más frecuentes Añadidas que recomiendan que no debe cambiar la métrica de objetivos a mitad de una actividad. |
-| Julio de 7 | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre el Descanso del Café de Adobe Target del 8 de julio. |
+| Julio de 7 | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre el Descanso del Café Adobe Target del 8 de julio. |
 | 25 de junio | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Información Añadida sobre la versión Target Standard/Premium 20.6.1 (julio de 2020). |
 |  | [Información general sobre la documentación de Destinatario](/help/r-release-notes/target-documentation.md) | Nuevo tema que detalla las diferentes fuentes de [!DNL Target] documentación. |
-| 23 de junio | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre la pausa para el café de Adobe Target del 24 de junio. |
+| 23 de junio | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre la pausa para café de Adobe Target del 24 de junio. |
 |  | [Atributos de perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Se ha Añadido que no se recomienda crear secuencias de comandos de perfil dependientes que utilicen el resultado de un script de perfil en otro script de perfil. |
 |  | [Cómo funciona at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Se Añadió el siguiente vídeo: Horario de oficina: Sugerencias de at.js y descripción general |
 | 17 de junio | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tema actualizado. |
@@ -69,7 +70,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Información Añadida sobre las versiones 1.8.2 y 2.3.1 de at.js. |
 | 8 de junio | [Preguntas más frecuentes sobre Destinatario para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Se ha actualizado el texto de las siguientes preguntas más frecuentes: &quot;¿Es Destinatario Mobile una funcionalidad de SKU de producto de Adobe Target Premium solamente?&quot; |
 |  | [Visualización de informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Se ha actualizado todo el tema. |
-| 5 de junio | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre el Descanso del Café de Adobe Target del 10 de junio. |
+| 5 de junio | [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md) | Información Añadida sobre el Descanso del Café Adobe Target del 10 de junio. |
 |  | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Se ha actualizado el texto de las siguientes preguntas más frecuentes: &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
 | 4 de junio | [Informes de A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Se ha actualizado la sección &quot;Informes en Analytics&quot;. |
 | 1 de junio | [Anuncios de Destinatario](/help/r-release-notes/target-announcements.md) | Se Añadió una nueva página para anunciar los próximos eventos de Destinatario. |
@@ -99,21 +100,21 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Mayo de 4 | [Preguntas más frecuentes sobre la creación de informes](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Nuevas preguntas más frecuentes Añadidas: &quot;¿Por qué el tráfico se divide entre mis experiencias de forma desigual en mi actividad A/B o MVT?&quot; |
 | Abril de 29 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha Añadido un problema conocido para el sistema de informes de pedidos extremos. |
 | Abril de 28 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Se ha eliminado la información sobre el uso `user.header('x-forwarded-for')` con bordes AWS más recientes para recuperar las direcciones IP de los usuarios. Este comando ahora funciona con los bordes AWS más recientes. |
-|  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha cambiado la fecha de la versión Target Standard/Premium (20.4.1) al 6 de mayo. |
+|  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha cambiado la fecha de la versión de Target Standard/Premium (20.4.1) al 6 de mayo. |
 | Abril de 23 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tema actualizado. |
 | Abril de 22 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Nueva sección Añadida: *Cambios en la API de estado de lote de Perfil v2 (4 de mayo de 2020).* |
-| Abril de 20 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Nueva sección Añadida: *Generador de habilidades de Adobe Target: Chat del desarrollador, migre el archivo mbox.js del Adobe Target a at.js.* |
+| Abril de 20 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Nueva sección Añadida: *Adobe Target Skill Builder: Chat del desarrollador, migre mbox.js de Adobe Target a at.js.* |
 | Abril de 14 | [Hosts perimetrales de Destinatario de Lista de permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nuevo tema. |
 | Abril de 10 | [Implementación de aplicación de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nueva sección Añadida: &quot;Prácticas recomendadas de implementación&quot;. |
 | Abril de 7 | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Se ha actualizado el texto para &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
 | Abril de 2 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Información Añadida sobre el uso `user.header('x-forwarded-for')` con los bordes AWS más recientes para recuperar las direcciones IP de los usuarios. |
 |  | [Actualización de at.js 1.*x* a at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Se ha añadido la nota siguiente:<ul><li>Después de instalar la biblioteca ECID 4.3.0+ y at.js 2.,*x*, podrá crear actividades que abarquen dominios únicos y rastrear usuarios. Es importante tener en cuenta que esta funcionalidad solo funciona después de que caduque la sesión.</li></ul> |
-| Marzo de 30 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Se han Añadido problemas conocidos que afectan a las versiones de at.js anteriores a at.js 2.2.0. Este problema provocaba que el rastreo de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de la página. |
-|  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se Añadió la siguiente información en los detalles de la versión 2.2.0 de at.js:<ul><li>Se corrigió un problema que ocasionaba que el rastreo de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página.</li></ul> |
+| Marzo de 30 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Se han Añadido problemas conocidos que afectan a las versiones de at.js anteriores a at.js 2.2.0. Este problema provocaba que el rastreo de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página. |
+|  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se Añadió la siguiente información en los detalles de la versión 2.2.0 de at.js:<ul><li>Se ha corregido un problema que provocaba que el rastreo de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página.</li></ul> |
 | Marzo de 25 | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Información Añadida sobre las siguientes nuevas versiones de at.js:<ul><li>Versión 2.3.0 de at.js</li><li>Versión 1.8.1 de at.js</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Se han Añadido las siguientes filas nuevas en la sección &quot;Configuración&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Se ha añadido esta nueva sección:<ul><li>Directiva de seguridad del contenido</li></ul> |
 | Marzo de 24 | [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Información Añadida sobre los impactos para lo siguiente:<ul><li>Secuencias de comandos de Perfil basadas en 3rdPartyID</li><li>Direcciones URL de control de calidad/Previsualización en dispositivos iOS</li></ul> |
-| Marzo de 20 | [Notas de la versión (actual)](/help/r-release-notes/release-notes.md) | Se ha indicado que la versión Target Standard/Premium 20.2.1 será el 23 de marzo de 2020. |
+| Marzo de 20 | [Notas de la versión (actual)](/help/r-release-notes/release-notes.md) | Se indica que la versión de Target Standard/Premium 20.2.1 será el 23 de marzo de 2020. |
 | Marzo de 13 | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado el número de &quot;Audiencias, reutilizables por cuenta&quot;. |
 | Marzo de 12 | [Notas de la versión (actual)](/help/r-release-notes/release-notes.md#summit) | Información de registro Añadida para el acceso gratuito a la conferencia digital en línea de la Cumbre. |
 | Marzo de 9 | [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Se Añadió más información en la sección &quot;Sustitución del último octeto de direcciones IP&quot;. |
