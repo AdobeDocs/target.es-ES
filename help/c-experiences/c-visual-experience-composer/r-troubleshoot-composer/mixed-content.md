@@ -5,10 +5,10 @@ title: Activación de contenido mixto en el navegador
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: 88a001f9ff4c72074fe72b9cc61effec5f28e5f8
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 36%
+source-wordcount: '558'
+ht-degree: 35%
 
 ---
 
@@ -21,7 +21,7 @@ Los navegadores modernos pueden bloquear la visualización de una página o most
 
 If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
 
-![](assets/mixed_content_warning.gif)
+![advertencia de contenido mixto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 Anteriormente, cuando el contenido mixto no estaba permitido, al crear actividades se podían realizar algunas acciones en el paso 1 del flujo de trabajo guiado de tres pasos. [!DNL Target]Ahora,  bloquea las acciones en el paso 1. Cuando se muestra este mensaje, debe activar el contenido mixto antes de continuar con la creación de la actividad.
 
