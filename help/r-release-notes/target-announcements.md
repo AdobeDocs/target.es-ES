@@ -4,9 +4,9 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de Destinatario
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,15 @@ Una vez más, Adobe fue nombrado Líder en el tercer informe anual del Cuadrante
 * **10:00 - 11:00 a.m. (PDT)**
 * **Miércoles, 5 de agosto de 2020**
 
-Nos uniremos a Cristinel Anastasoaie, Adobe Target Product Manager, quien se incorporará a la comunidad de Adobes Target para conversar directamente con usted y responder a las preguntas sobre su candente Adobe Target relacionadas con sus áreas de experiencia:
+Se unirá a nosotros Cristinel Anastasoaie, jefe de producto de Adobe Target, quien se conectará a la comunidad de Adobe Target para conversar directamente con usted para responder a sus preguntas candentes sobre Adobe Target relacionadas con sus áreas de experiencia:
 
 * Interfaz de usuario de Adobe Target
 * Integraciones de Adobe Target
 * Permisos y espacios de trabajo de Enterprise
 
-[Regístrese en la Comunidad del Adobe Target.](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
+[Regístrese en la comunidad de Adobe Target.](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
 
-## Seminario web: Cómo HSBC aprovecha el Adobe Target y la IA para optimizar rápidamente y ofrecer personalización a escala
+## Seminario web: Cómo HSBC aprovecha Adobe Target y AI para optimizar rápidamente y ofrecer personalización a escala
 
 * **8:00 - 9:00 a.m. (PDT)**
 * **Jueves 6 de agosto de 2020**
@@ -52,6 +52,13 @@ Las demandas de los consumidores están evolucionando rápidamente, y HSBC ha ad
 
 *Artículo de McKinsey: &quot;[La recuperación de COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, mayo de 2020
 
-## Generador de habilidades de Adobe Target: Chat del desarrollador, migrar el Adobe Target mbox.js a at.js {#skill-builder}
+## Seminario web: Estrategias de personalización que utilizan inteligencia artificial y Adobe Target
+
+* **8:00 - 9:00 a.m. (PDT)**
+* **Jueves 13 de agosto de 2020**
+
+[Regístrese aquí](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)para este seminario web.
+
+## Adobe Target Skill Builder: Chat del desarrollador, migrar mbox.js de Adobe Target a at.js {#skill-builder}
 
 Con la próxima desaprobación de mbox.js el 30 de agosto de 2020, David Son, el administrador de productos de Adobe Target, organizó recientemente un chat de desarrollador para debatir las ventajas de migrar mbox.js a at.js. Durante los próximos 30 días, puede [vista de la grabación](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del seminario web.
