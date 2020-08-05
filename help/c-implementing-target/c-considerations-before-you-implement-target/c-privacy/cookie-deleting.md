@@ -1,31 +1,61 @@
 ---
 description: Elimine las cookies del navegador de Target para poder validar todas las experiencias.
-title: Eliminar la cookie de Target
+title: Eliminar la cookie de Adobe Target
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 8%
 
 ---
 
 
 # Eliminar la cookie de Target{#delete-the-target-cookie}
 
-Elimine las cookies del navegador de Target para poder validar todas las experiencias.
+Puede eliminar las cookies [!DNL Target] del explorador para poder validar todas las experiencias durante la prueba.
 
-Si no hay ninguna cookie, se considerará al usuario como un visitante nuevo y se mostrará una experiencia nueva. Hay varias formas de eliminar la cookie de Target sin eliminar las todas las cookies del navegador.
+If there are no [!DNL Target] cookies, you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
 
-**Para eliminar la cookie desde Internet Explorer:**
+&lt;[!NOTE]
+>Las siguientes instrucciones son correctas para los exploradores y las versiones que aparecen en la lista. Busque en Internet instrucciones para su navegador o versión específicos.
+>
+## Eliminar cookies de Google Chrome
 
-1. En el menú Herramientas de Internet Explorer, seleccione **[!UICONTROL Opciones de Internet]**.
-1. Abra la ficha General y, a continuación, en la sección [!UICONTROL Historial de navegación], haga clic en **[!UICONTROL Configuración]** &gt; **[!UICONTROL Ver archivos]**.
-1. Seleccione la cookie de mbox.
-1. En el menú Archivo, seleccione **[!UICONTROL Eliminar]** o seleccione el archivo y pulse **[!UICONTROL Eliminar]**.
+Versión 84.0.4147.105
 
-**Para eliminar la cookie desde Firefox:**
+1. Haga clic en el menú **Chrome** > **Preferencias**.
+1. Haga clic en la ficha **Privacidad y seguridad** .
+1. Haga clic en **Cookies y otros datos** del sitio.
+1. Haga clic en **Ver todas las cookies y los datos** del sitio.
+1. Seleccione los sitios para las cookies que desee eliminar y haga clic en el icono **Eliminar** .
 
-1. Seleccione **Herramientas** &gt; **Opciones** &gt; **Privacidad**.
-1. Haga clic en **Ver cookies**.
-1. Ordene las cookies por nombre para encontrar las de Target.
-1. Seleccione las cookies para los sitios que quiere previsualizar y, a continuación, haga clic en **Borrar Cookie**.
+## Eliminar cookies de Mozilla Firefox
 
+Versión 79.0
+
+1. Haga clic en el menú **Firefox** > **Preferencias**.
+1. Haga clic en la ficha **Privacidad y seguridad** .
+1. En **Cookies y Datos** del sitio, haga clic en **Administrar datos**.
+1. Ordenar por **sitio** para encontrar las [!DNL Target] cookies.
+1. Seleccione los sitios para las cookies que desee eliminar y haga clic en **Eliminar selección** > **Guardar cambios**.
+
+## Eliminar cookies de Microsoft Edge
+
+Versión 84.0.522.52
+
+1. Haga clic en el menú **Microsoft Edge** > **Preferencias**.
+1. Click the **Site Permissions** tab.
+1. Haga clic en **Cookies y datos** del sitio.
+1. Haga clic en **Ver todas las cookies y los datos** del sitio.
+1. Seleccione los sitios para las cookies que desee eliminar y haga clic en el icono **Eliminar** .
+
+## Eliminar cookies de Apple Safari
+
+Versión 13.1.2
+
+1. Haga clic en el menú **Safari** > **Preferencias**.
+1. Click the **Privacy** tab.
+1. Haga clic en **Administrar datos** del sitio web.
+1. Seleccione los sitios para las cookies que desee eliminar y haga clic en **Eliminar**.
