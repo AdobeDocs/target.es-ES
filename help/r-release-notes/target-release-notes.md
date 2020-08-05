@@ -5,10 +5,10 @@ title: Notas de evaluación de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 580a4cbdc4ea164e858eadc2fe2923ab65711e2b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 22%
+source-wordcount: '391'
+ht-degree: 19%
 
 ---
 
@@ -40,11 +40,7 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 ## Target Standard/Premium 20.9.1 (2 de septiembre de 2020)
 
-Esta versión de Destinatario incluye las siguientes nuevas funciones o mejoras:
-
-| Función.  / Mejora | Descripción |
-| --- | --- |
-| Analytics for Target (A4T) compatibilidad con actividades de Destinatario  automático | [!UICONTROL Las actividades de Destinatario] automático admitirán [!UICONTROL Analytics para Destinatario] (A4T).<br>Esta integración le permitirá utilizar el aprendizaje automático avanzado de Destinatario  automático para seleccionar entre varias experiencias definidas por expertos en marketing de alto rendimiento para personalizar el contenido y dirigir las conversiones, mientras utiliza una métrica objetivo de [!UICONTROL Adobe Analytics] y/o [!DNL Adobe Analytics] funciones de sistema de informes y análisis. [!UICONTROL La segmentación automática proporciona la experiencia más adaptada a cada visitante según su perfil de cliente individual y el comportamiento de visitantes anteriores con perfiles similares.]<br>Si ya ha [implementado A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para su uso con actividades de Prueba [!UICONTROL A/B, asignación]automática [!UICONTROL y]segmentación  de experiencias, ¡ya está todo listo! |
+Las nuevas funciones, mejoras y correcciones de esta versión se actualizarán aquí.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
