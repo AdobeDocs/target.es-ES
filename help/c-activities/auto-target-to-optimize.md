@@ -4,10 +4,10 @@ title: Segmentación automática
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '3517'
-ht-degree: 91%
+source-wordcount: '3610'
+ht-degree: 85%
 
 ---
 
@@ -198,14 +198,17 @@ Si los resultados de una prueba A/B muestran un aumento estadísticamente signif
 
 Si desea realizar cambios sustanciales en el contenido en su actividad de [!UICONTROL segmentación automática], la mejor práctica es comenzar una nueva actividad para que otros usuarios que revisen los informes no confundan ni relacionen resultados pasados con contenido diferente.
 
-### ¿Cuánto tiempo debo esperar para que los modelos se creen? 
+### ¿Cuánto tiempo debo esperar para que los modelos se creen?  {#how-long}
 
-La cantidad de tiempo que tardan los modelos en desarrollar su actividad de [!UICONTROL segmentación automática] depende típicamente del tráfico a las ubicaciones de la actividad seleccionada y la métrica de éxito de la actividad.
+The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
 
-Para la [!UICONTROL segmentación automática], se pueden usar reglas simples para comprender los requisitos de tráfico:
+[!UICONTROL El Destinatario] automático no intentará crear un modelo personalizado para una experiencia determinada hasta que haya al menos 50 conversiones para esa experiencia. Además, si el modelo creado tiene una calidad insuficiente (según lo determinado por la evaluación sin conexión de los datos de &quot;prueba&quot; de retención, utilizando [una métrica conocida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), el modelo no se utilizará para servir el tráfico de manera personalizada.
 
-* **Cuando la conversión es su métrica de éxito:** 1000 visitas y al menos 50 conversiones por día por experiencia; además, la actividad debe tener al menos 7000 visitas y 350 conversiones.
-* **Cuando los ingresos por visita son su métrica de éxito:** 1000 visitas y al menos 50 conversiones por día por experiencia, y además la actividad debe tener al menos 1000 conversiones por experiencia. Por lo general, el RPV requiere más datos para construir modelos debido a la mayor varianza de datos que normalmente existe en los ingresos de visita en comparación con la tasa de conversión.
+Otros puntos a tener en cuenta sobre la construcción del modelo de Destinatario automático:
+
+* Una vez que una actividad está activa, el Destinatario  automático considera hasta los últimos 45 días de datos suministrados al azar al intentar crear modelos (es decir, controlar el tráfico, además de algunos datos suministrados al azar por nuestro algoritmo).
+* Cuando [!UICONTROL Ingresos por visita] es la métrica de éxito, estas actividades generalmente requieren más datos para generar modelos debido a la mayor varianza de datos que generalmente existe en los ingresos por visita en comparación con la tasa de conversión.
+* Dado que los modelos se crean por experiencia, reemplazar una experiencia por otra significa que se debe recopilar suficiente tráfico (es decir, al menos 50 conversiones) para la nueva experiencia antes de que se puedan volver a crear los modelos personalizados.
 
 ### Se ha creado un modelo en mi actividad. ¿Las visitas a esa experiencia están personalizadas?  
 
