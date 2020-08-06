@@ -1,18 +1,21 @@
 ---
-keywords: FAQ;preguntas más frecuentes;preguntas frecuentes;Analytics para Target;A4T;clasificaciones;clasificación;importador de clasificaciones;post-tnt-action
+keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
 description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre las clasificaciones y el uso de Analytics como fuente de informes para Target (A4T).
 title: 'Clasificaciones: Preguntas más frecuentes sobre A4T'
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 66%
 
 ---
 
 
 # Clasificaciones: Preguntas más frecuentes sobre A4T{#classifications-a-t-faq}
 
-En este tema encontrará respuestas a preguntas que se plantean a menudo sobre las clasificaciones y el uso de Analytics como fuente de informes para Target (A4T).
+This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## Tras usar el importador de clasificaciones para descargar clasificaciones, ¿cómo relaciono el valor post-tnt-action con el nombre de una actividad? {#section_6045DAC488B248418F430E663C38D001}
 
@@ -22,7 +25,7 @@ Este archivo de búsqueda es útil para los clientes que reciben la fuente de da
 
 El formato de cadena de la variable TNT es `activityID:experienceID:targettype|event`.
 
-* targettype siempre será 0 para A4T.
+* targettype = 0 (control/aleatorio) o 1 (objetivo) para actividades de asignación  automática y Destinatario  automático.
 * Evento = 0 representa una entrada en la experiencia.
 * Evento = 1 representa una visita en la experiencia.
 * Evento = 2 representa una impresión de actividad.
