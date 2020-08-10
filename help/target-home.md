@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentación de producto de Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 61%
@@ -17,7 +17,7 @@ ht-degree: 61%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 6 de agosto de 2020 ([vea los cambios](r-release-notes/doc-change.md))**
+**Última actualización: 10 de agosto de 2020 ([vea los cambios](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -56,11 +56,11 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 ## Desarrolladores {#developers}
 
 - [Implementación de Target](c-implementing-target/implementing-target.md): explica cómo implementar [!DNL Target] en sitios web, aplicaciones móviles, aplicaciones de una sola página (SPA) y plataformas IOT/OTT.
-- [API](https://developers.adobetarget.com/api/delivery-api/)del lado del servidor de Destinatario: Describe los recursos que conforman la API de Adobe Target Envío.
-- [SDK](https://github.com/adobe/target-nodejs-sdk)de NodeJS de Destinatario: Explica cómo implementar Destinatario en el servidor. Este SDK de Node.js ayuda a integrar fácilmente el Destinatario con otras soluciones de Adobe Experience Cloud.
-- [SDK](https://github.com/adobe/target-java-sdk)Java de Destinatario: Explica cómo implementar Destinatario en el servidor. Este SDK de Java ayuda a integrar fácilmente el Destinatario con otras soluciones de Adobe Experience Cloud.
+- [API](https://developers.adobetarget.com/api/delivery-api/)del lado del servidor de destinatario: Describe los recursos que conforman la API de Adobe Target Envío.
+- [SDK](https://github.com/adobe/target-nodejs-sdk)de NodeJS de destinatario: Explica cómo implementar Destinatario en el servidor. Este SDK de Node.js ayuda a integrar fácilmente el Destinatario con otras soluciones de Adobe Experience Cloud.
+- [SDK](https://github.com/adobe/target-java-sdk)Java de destinatario: Explica cómo implementar Destinatario en el servidor. Este SDK de Java ayuda a integrar fácilmente el Destinatario con otras soluciones de Adobe Experience Cloud.
 - [Destinatario Recommendations API](https://developers.adobetarget.com/api/recommendations/): Describe los recursos que conforman la API oficial de Adobe Target Recommendations.
-- [Documentación](http://developers.adobetarget.com/api/#introduction)de Destinatario Adobe.IO: Describe cómo utilizar las API de administración y Perfil REST de Destinatario que utilizan la integración de Adobe.IO para administrar actividades, audiencias, ofertas, propiedades, informes, mboxes, entornos y perfiles.
+- [Documentación](http://developers.adobetarget.com/api/#introduction)de destinatario Adobe.IO: Describe cómo utilizar las API de administración y Perfil REST de Destinatario que utilizan la integración de Adobe.IO para administrar actividades, audiencias, ofertas, propiedades, informes, mboxes, entornos y perfiles.
 
 ## Administradores de Target y Adobe Experience Cloud {#admins}
 
