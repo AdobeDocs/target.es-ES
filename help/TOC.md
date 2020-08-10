@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4b2479c51a01ccaa04d86290af36e949e98b69b3
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1429'
 ht-degree: 91%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 91%
 
 + [Documentación de producto de Adobe Target](target-home.md)
 + Notas de la versión de Target {#release-notes}
-   + [Anuncios y eventos de Destinatario](/help/r-release-notes/target-announcements.md)
+   + [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md)
    + [Notas de la versión de Target (actual)](r-release-notes/release-notes.md)
    + [Notas de la versión de Target (versión previa)](r-release-notes/target-release-notes.md)
-   + [Información general sobre la documentación de Destinatario](/help/r-release-notes/target-documentation.md)
-   + [Boletín de Destinatario Insider](/help/r-release-notes/target-insider-newsletter.md)
+   + [Información general sobre la documentación de destinatario](/help/r-release-notes/target-documentation.md)
+   + [Boletín de destinatario Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problemas conocidos y problemas resueltos](r-release-notes/known-issues-resolved-issues.md)
    + [Actualizaciones del estado del sistema y notificaciones dinámicas](r-release-notes/system-status-updates.md)
    + [Cambios de la documentación](r-release-notes/doc-change.md)
@@ -69,7 +69,7 @@ ht-degree: 91%
          + [Políticas de cookies de Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Directivas de directiva de seguridad de contenido (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Nodos de borde de Destinatario de Lista de permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Nodos de borde de Destinatario de lista de permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Métodos para obtener los datos en Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configuración de la API del perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -144,7 +144,7 @@ ht-degree: 91%
       + [Enviar información de actividad a Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Vista previa para móviles en Target](c-target-mobile-app/target-mobile-preview.md)
       + [Recuperación previa de contenido de ofertas](c-target-mobile-app/prefetch-offer-content.md)
-      + [Preguntas más frecuentes sobre Destinatario para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Preguntas más frecuentes sobre destinatario para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Usar servicio de ubicación](/help/c-target-mobile-app/use-location-service.md)
    + Servidor: implementación de Target {#server-side}
       + [Notas de la versión: API de Destinatario del lado del servidor](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
@@ -182,6 +182,7 @@ ht-degree: 91%
          + [Integración heredada de SiteCatalyst con Test&amp;Target: Preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Audiencias de Experience Cloud](c-integrating-target-with-mac/mmp.md)
+   + [Integrar Destinatario con Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integración de Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Cooperación entre dispositivos de Experience Cloud](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Actividades {#activities}
@@ -217,7 +218,7 @@ ht-degree: 91%
       + [Gestión de exclusiones](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Seleccione el control de la actividad de Personalización automatizada o de Segmentación automática](c-activities/t-automated-personalization/experience-as-control.md)
       + [Preguntas más frecuentes sobre Personalización automatizada](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Previsualización de actividades de Personalización automatizada con direcciones URL de previsualización de experiencias](c-activities/t-automated-personalization/experience-preview.md)
+      + [Previsualización de actividades de Automated Personalization con direcciones URL de previsualización de experiencias](c-activities/t-automated-personalization/experience-preview.md)
       + [Resolución de problemas de la personalización automatizada](c-activities/t-automated-personalization/ap-trouble.md)
    + Segmentación de experiencias {#experience-targeting}
       + [Información general sobre segmentación de experiencias](c-activities/t-experience-target/experience-target.md)
