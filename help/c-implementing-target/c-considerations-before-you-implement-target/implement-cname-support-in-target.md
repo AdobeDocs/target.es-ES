@@ -5,9 +5,9 @@ title: CNAME y Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
+source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1172'
 ht-degree: 3%
 
 ---
@@ -33,14 +33,14 @@ Realice los pasos siguientes para solicitar asistencia de CNAME en [!DNL Target]
 
    >[!NOTE]
    >
-   >* La autoridad de certificación de Adobe, DigiCert, no puede emitir un certificado hasta que se complete este paso. Por lo tanto, Adobe no puede cumplir su solicitud de implementación de CNAME hasta que se complete este paso.
+   >* La autoridad de certificación de Adobe, DigiCert, no puede emitir un certificado hasta que se complete este paso. Por lo tanto, Adobe no puede satisfacer su solicitud de implementación de CNAME hasta que se complete este paso.
 
 
 1. Rellene el siguiente formulario e inclúyalo cuando [abra un ticket de Adobe Client Care para solicitar asistencia](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME:
 
    * Adobe [!DNL Target] client code:
    * Nombres de host de certificados SSL (ejemplo: `target.example.com target.example.org`):
-   * Comprador de certificados SSL (Adobe es muy recomendable, consulte Preguntas más frecuentes): Adobe/cliente
+   * Comprador de certificados SSL (se recomienda encarecidamente el Adobe, consulte Preguntas más frecuentes): Adobe/cliente
    * Si el cliente compra el certificado (también conocido como BYOC), rellene estos detalles adicionales:
       * Organización de certificados (ejemplo: Ejemplo de Compañía Inc):
       * Unidad organizativa de certificados (opcional, ejemplo: Marketing):
@@ -48,13 +48,13 @@ Realice los pasos siguientes para solicitar asistencia de CNAME en [!DNL Target]
       * Estado o región del certificado (ejemplo: California):
       * Ciudad del certificado (ejemplo: San José):
 
-1. Si Adobe compra el certificado, trabajará con DigiCert para adquirir e implementar el certificado en los servidores de producción de Adobe.
+1. Si Adobe compra el certificado, Adobe trabajará con DigiCert para adquirir e implementar el certificado en los servidores de producción de Adobe.
 
-   Si el cliente compra el certificado (BYOC), Adobe Client Care le enviará la solicitud de firma del certificado (CSR), que deberá utilizar al comprar el certificado a través de la autoridad de certificación que elija. Una vez emitido el certificado, debe enviar una copia del certificado y los certificados intermedios a Adobe Client Care para su implementación.
+   Si el cliente compra el certificado (BYOC), Adobe Client Care le enviará la solicitud de firma del certificado (CSR), que deberá utilizar al comprar el certificado a través de la autoridad de certificación elegida. Una vez emitido el certificado, debe enviar una copia del certificado y los certificados intermedios a Adobe Client Care para su implementación.
 
    Adobe Client Care le avisará cuando la implementación esté lista.
 
-1. Después de completar las tareas anteriores y Adobe Client Care le ha notificado que la implementación está lista, debe actualizar `serverDomain` al nuevo CNAME en at.js.
+1. Después de completar las tareas anteriores y de que Adobe Client Care le haya notificado que la implementación está lista, debe actualizar `serverDomain` al nuevo CNAME en at.js.
 
 ## Preguntas frecuentes
 
@@ -62,11 +62,11 @@ La siguiente información responde a las preguntas más frecuentes sobre la soli
 
 ### ¿Puedo proporcionar mi propio certificado (o BYOC)?
 
-Sí, puede proporcionar su propio certificado; sin embargo, no se recomienda. La administración del ciclo vital del certificado SSL es mucho más fácil tanto para Adobe como para usted cuando Adobe compra y controla el certificado. Los certificados SSL deben renovarse cada año, lo que significa que Adobe Client Care debe ponerse en contacto con usted cada año para enviar un nuevo certificado a Adobe de forma oportuna. Es posible que algunos clientes tengan dificultades para producir un certificado renovado en forma oportuna cada año, lo que pone en peligro su [!DNL Target] implementación porque los exploradores rechazarán las conexiones cuando caduque el certificado.
+Sí, puede proporcionar su propio certificado; sin embargo, no se recomienda. La administración del ciclo vital del certificado SSL es mucho más fácil tanto para el Adobe como para el usuario cuando el Adobe compra y controla el certificado. Los certificados SSL deben renovarse cada año, lo que significa que Adobe Client Care debe ponerse en contacto con usted cada año para enviar un nuevo certificado a Adobe de manera oportuna. Es posible que algunos clientes tengan dificultades para producir un certificado renovado en forma oportuna cada año, lo que pone en peligro su [!DNL Target] implementación porque los exploradores rechazarán las conexiones cuando caduque el certificado.
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que si solicita una implementación CNAME con [!DNL Target] certificado propio, es responsable de proporcionar certificados renovados a Adobe Client Care cada año. Si se permite que el certificado CNAME caduque antes de que Adobe pueda implementar un certificado renovado, se interrumpirá la implementación específica [!DNL Target] .
+>Tenga en cuenta que si solicita una implementación [!DNL Target] de CNAME con certificado propio, es responsable de proporcionar certificados renovados a Adobe Client Care cada año. Si se permite que el certificado CNAME caduque antes de que Adobe pueda implementar un certificado renovado, se interrumpirá la implementación específica [!DNL Target] .
 
 ### ¿Cuánto tiempo falta para que caduque mi nuevo certificado SSL?
 
@@ -146,3 +146,4 @@ Utilice el siguiente conjunto de comandos (en el terminal de línea de comandos 
 
 * El modo de control de calidad no será persistente cuando tenga CNAME y at.js 1.x porque se basa en una cookie de terceros. La solución consiste en agregar los parámetros de previsualización a cada dirección URL a la que navegue. El modo de control de calidad es persistente cuando tiene CNAME y at.js 2.x.
 * Actualmente, la `overrideMboxEdgeServer` configuración no funciona correctamente con CNAME. Esto debe establecerse como `false` para evitar que las solicitudes falle.
+* Cuando se utiliza CNAME es más probable que aumente el tamaño del encabezado de la cookie para las llamadas de Destinatario. Se recomienda mantener el tamaño de la cookie por debajo de 8 KB.
