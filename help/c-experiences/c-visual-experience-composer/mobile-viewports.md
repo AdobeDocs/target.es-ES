@@ -4,10 +4,10 @@ description: Las ventanillas móviles le ayudan a previsualización la forma en 
 title: Ventanillas móviles para experiencias interactivas
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 66%
+source-wordcount: '1402'
+ht-degree: 71%
 
 ---
 
@@ -148,27 +148,27 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-Este caso de uso muestra cómo configurar experiencias para dos versiones de iPhone: iPhone 11 Pro Max y iPhone SE.
+Este caso de uso muestra cómo configurar experiencias para dos versiones de iPhone: iPhone 6 y iPhone 6 Plus.
 
-1. En Destinatario, haga clic en **[!UICONTROL Administración]**.
-1. En la sección Configuración **** de ventanilla móvil, cree ventanillas móviles para iPhone 11 Pro Max e iPhone SE.
+1. Haga clic en **[!UICONTROL Administración]** > Compositor **[!UICONTROL de experiencias]** visuales.
+1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    Aplique los ajustes siguientes para cada ventanilla:
 
    | Nombre | Anchura | Altura | Sistema operativo |
    |---|---|---|---|
-   | iPhone 11 Pro Max | 414 | 896 | iOS |
-   | iPhone SE | 375 | 667 | iOS |
+   | iPhone 6 | 375 | 667 | iOS |
+   | iPhone 6 Plus | 414 | 736 | iOS |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. Cree una actividad con la experiencia que desee destinatario.
-1. Seleccione la experiencia que desee destinatario para los visitantes que accedan al sitio desde un iPhone 11 Pro Max o iPhone SE.
+1. Seleccione la experiencia que quiere dirigir a los visitantes que accedan al sitio desde un iPhone 6 o un iPhone 6 Plus.
 1. Al seleccionar el objetivo, haga clic en **[!UICONTROL Crear audiencia]** y configure una audiencia tal como se muestra en la imagen siguiente:
 
    ![](assets/iphoneaudiences.png)
 
-   Dado que el teléfono se puede girar a horizontal, al requerir que la altura y la anchura sean buenas a 320 simultáneamente, se crea una condición que solo el iPhone 11 Pro Max y el iPhone SE podrán cumplir, cuando se combinen con el modelo de dispositivo iPhone.
+   Como el teléfono podría girarse para colocarse en horizontal, el requisito de definir una altura y anchura simultáneas de más de 320 crea una condición que solo los dispositivos 6 y 6 Plus pueden satisfacer al combinarse con el modelo de dispositivo iPhone.
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Continúe configurando la actividad con normalidad.
 
