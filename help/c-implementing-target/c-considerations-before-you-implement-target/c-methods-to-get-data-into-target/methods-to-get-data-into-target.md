@@ -1,12 +1,16 @@
 ---
-keywords: implementar;implementación;configurar;configuración;parámetro de página;tomcat;codificación url;atributo de perfil de página;parámetro mbox;atributos de perfil en página;atributo de perfil en script;API de actualización de perfiles en lote;API de actualización de archivo único;atributos del cliente;proveedores de datos;proveedor de datos
+keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: Información sobre los distintos métodos que se pueden utilizar para introducir datos en Target, como el uso de parámetros de página, atributos de perfil en página, atributos de perfil en script, proveedores de datos, la API de actualización de perfiles en lote, la API de actualización de perfil único y los atributos del cliente.
 title: Métodos para obtener los datos en Target
-subtopic: Primeros pasos
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +57,7 @@ Los datos se envían a Target en tiempo real y se pueden utilizar en la misma ll
 
    Además de los mencionados en el sitio IETF, Target permite los siguientes caracteres en las cadenas de consulta:
 
-   `&lt; &gt; # % " { } | \\ ^ \[\] \``
+   `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
    Todo lo demás debe tener codificación URL. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
@@ -148,7 +152,7 @@ Los usuarios escriben pequeños fragmentos de código que se ejecutan mediante u
 
 ### Formato
 
-Los atributos de perfil en script se crean en la sección Audiencias de Target. Cualquier nombre de atributo es válido y el valor es el resultado de una función JavaScript escrita por el usuario de Target. Al nombre de atributo se le añade automáticamente el prefijo “user. " en Target para distinguirlo de los atributos del perfil en página.
+Los atributos de perfil en script se crean en la sección Audiencias de Target. Cualquier nombre de atributo es válido y el valor es el resultado de una función JavaScript escrita por el usuario de Target. Al nombre de atributo se le añade automáticamente el prefijo “user. &quot; en Target para distinguirlo de los atributos del perfil en página.
 
 El fragmento de código se escribe en lenguaje Rhino JS y puede hacer referencia a tokens y a otros valores.
 
@@ -224,8 +228,8 @@ Documentación: [Proveedores de datos](/help/c-implementing-target/c-implementin
 
 ### Vídeos de formación:
 
-* [Uso de Proveedores de datos en Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementación de Proveedores de datos en Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Uso de Proveedores de datos en Adobe Target](https://helpx.adobe.com/es/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Implementación de Proveedores de datos en Adobe Target](https://helpx.adobe.com/es/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API de actualización de perfiles en lote {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
