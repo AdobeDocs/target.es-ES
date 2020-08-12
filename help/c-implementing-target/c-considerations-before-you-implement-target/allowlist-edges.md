@@ -1,11 +1,12 @@
 ---
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
-description: Permitir la lista de nodos perimetrales de Adobe Destinatario
-title: Permitir la lista de nodos perimetrales de Adobe Destinatario
+description: Lista de permitidos de nodos Edge de Adobe Target
+title: Lista de permitidos de nodos Edge de Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -13,13 +14,13 @@ ht-degree: 0%
 ---
 
 
-# Permitir lista de nodos de borde de Destinatario
+# Nodos de borde de Destinatario de lista de permitidos
 
-Información y una lista actualizada de los hosts para ayudarle a incluir los bordes de Adobe [!DNL Target] .
+Información y una lista actualizada de los hosts para ayudarle a realizar la lista de permitidos de [!DNL Target] bordes de Adobe.
 
-Una arista es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para los usuarios finales que solicitan contenido, independientemente de su ubicación en todo el mundo. Cada nodo Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y para rastrear los datos de análisis de dicha solicitud. Las solicitudes de usuario se dirigen al nodo Edge más cercano. Para obtener más información, consulte [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) en *How Adobe[!DNL Target]work*.
+Una arista es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para los usuarios finales que solicitan contenido, independientemente de su ubicación en todo el mundo. Cada nodo Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y para rastrear los datos de análisis de dicha solicitud. Las solicitudes de usuario se dirigen al nodo Edge más cercano. Para obtener más información, consulte [La red](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) Edge en *Cómo[!DNL Target]funciona* Adobe.
 
-Si lo desea, puede permitir incluir nodos [!DNL Target] Edge en la lista.
+Si lo desea, puede realizar la lista de permitidos [!DNL Target] de nodos Edge.
 
 La siguiente lista incluye los hosts actuales:
 
