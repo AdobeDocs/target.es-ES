@@ -1,12 +1,16 @@
 ---
-keywords: mbox global;implementar mbox.js;implementar at.js
+keywords: global mbox;implement mbox.js;implement at.js
 description: Información sobre el mbox global, un nombre que se utiliza para hacer referencia a una sola llamada al servidor realizada en la parte superior de cada página web en la implementación de Adobe Target.
 title: Comprender el mbox global
-subtopic: Primeros pasos
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 73%
 
 ---
 
