@@ -1,10 +1,14 @@
 ---
-keywords: reglas de inclusión;criterios de inclusión;Recommendations;creación de nuevos criterios;promoción;promociones;filtrado dinámico;dinámico;valores en blanco;ignorar regla de filtrado;filtro estático;filtrar por valor;coincidencia de atributos de entidad;coincidencia de atributos de perfil;coincidencia de parámetros;filtrado por valor;filtro estático
-description: Información sobre la creación de reglas de inclusión en Recomendaciones de Adobe Target para criterios y promociones, y la adición de reglas de filtrado dinámicas o estáticas adicionales para obtener mejores resultados.
-title: Usar reglas de inclusión dinámicas y estáticas en Recomendaciones de Adobe Target
+keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
+description: Información sobre la creación de reglas de inclusión en Adobe Target Recommendations para criterios y promociones, y la adición de reglas de filtrado dinámicas o estáticas adicionales para obtener mejores resultados.
+title: Usar reglas de inclusión dinámicas y estáticas en Adobe Target Recommendations
+feature: null
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1453'
+ht-degree: 75%
 
 ---
 
@@ -25,7 +29,7 @@ Las opciones disponibles varían en función del sector seleccionado y la clave 
 
 ## Agregación de reglas de filtrado a las promociones   {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-Mientras [crea una promoción](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), seleccione **[!UICONTROL Promocionar por atributo]** y, a continuación, haga clic en **[!UICONTROL Agregar regla de filtrado**].
+Mientras [crea una promoción](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), seleccione **[!UICONTROL Promocionar por atributo]** y, a continuación, haga clic en **[!UICONTROL Agregar regla de filtrado]**.
 
 ![](assets/inclusion_options_promotion.png)
 
@@ -37,7 +41,7 @@ La siguiente tabla indica los tipos de opciones de filtrado para criterios y pro
 |--- |--- |--- |
 | **Filtrado dinámico** | **Coincidencia de atributos de entidad:** filtra dinámicamente comparando un conjunto de posibles elementos recomendados con un elemento específico con el que los usuarios han interactuado.<br>Por ejemplo, recomendar solo elementos que coincidan con la marca del elemento actual. | igual<br>no igual<br>está entre<br>contiene<br>no contiene<br>empieza por<br>termina por<br>valor presente<br>valor no presente<br>mayor que o igual a<br>menor que o igual a |
 |  | **Coincidencia de atributos de perfil:** filtra dinámicamente comparando elementos (entidades) con un valor del perfil del usuario.<br>Por ejemplo, recomendar solo elementos que coincidan con la marca favorita del visitante. | igual<br> no igual<br>contiene<br>no contiene<br>empieza por<br>acaba por<br>es mayor que o igual a<br>es menor que o igual a<br>está entre |
-|  | **Coincidencia de parámetros:** filtra dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).<br>Por ejemplo, recomendar solo contenido que coincida con el parámetro de página “sector”.<br>**Importante:** Si la actividad se creó antes del 31 de octubre de 2016, el envío fallará si utiliza el filtro “Coincidencia de parámetros”. Para evitar este problema:<ul><li>Cree una nueva actividad y añádale sus criterios.</li><li>Use criterios que no contengan el filtro “Coincidencia de parámetros”.</li><li>Elimine el filtro “Coincidencia de parámetros” de sus criterios.</li></ul> | igual<br>no igual<br>contiene<br>no contiene<br>empieza por<br>termina por<br>mayor que o igual a<br>menor que o igual a<br>está entre |
+|  | **Coincidencia de parámetros:** filtra dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).<br>Por ejemplo, recomendar solo contenido que coincida con el parámetro de página “sector”.<br>**Importante:**Si la actividad se creó antes del 31 de octubre de 2016, el envío fallará si utiliza el filtro “Coincidencia de parámetros”. Para evitar este problema:<ul><li>Cree una nueva actividad y añádale sus criterios.</li><li>Use criterios que no contengan el filtro “Coincidencia de parámetros”.</li><li>Elimine el filtro “Coincidencia de parámetros” de sus criterios.</li></ul> | igual<br>no igual<br>contiene<br>no contiene<br>empieza por<br>termina por<br>mayor que o igual a<br>menor que o igual a<br>está entre |
 | **Filtrar por valor** | **Filtro estático:** introduzca manualmente uno o más valores estáticos con los que filtrar.<br>Por ejemplo, recomendar solo contenido con una clasificación MPAA de “G” o “PG”. | igual<br>no igual<br>contiene<br>no contiene<br>empieza por<br>termina por<br>valor presente<br>valor no presente<br>mayor que o igual a<br>menor que o igual a |
 
 >[!NOTE]
@@ -90,7 +94,7 @@ Para seleccionar la acción deseada, pase el ratón sobre el icono del engranaje
 
 [!UICONTROL La coincidencia] de atributos de perfil permite recomendar solo los elementos que coinciden con un atributo del perfil del visitante, como en los ejemplos siguientes.
 
-**Ejemplo 1: Recomendar elementos de la marca** favorita del usuario. Por ejemplo, puede utilizar la opción Coincidencia [!UICONTROL de atributos de] perfil para crear una regla que recomiende artículos solo donde la marca sea igual al valor o al texto almacenado en `profile.favoritebrand`. Con una regla así, si un visitante está buscando pantalones de deporte cortos de una marca particular, solo se mostrarán las recomendaciones que coincidan con la marca favorita del usuario (el valor almacenado en `profile.favoritebrand` en el perfil del visitante).
+**Ejemplo 1: Artículos de recomendación de la marca** favorita del usuario. Por ejemplo, puede utilizar la opción Coincidencia [!UICONTROL de atributos de] Perfil para crear una regla que recomiende artículos solo donde la marca sea igual al valor o al texto almacenado en `profile.favoritebrand`. Con una regla así, si un visitante está buscando pantalones de deporte cortos de una marca particular, solo se mostrarán las recomendaciones que coincidan con la marca favorita del usuario (el valor almacenado en `profile.favoritebrand` en el perfil del visitante).
 
 ```
 Profile Attribute Matching
@@ -99,7 +103,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 **Ejemplo 2: Coincidencia de trabajos con solicitantes** de empleo Supongamos que está intentando relacionar los trabajos con los que buscan empleo. Solo desea recomendar los trabajos que se encuentran en la misma ciudad que el buscador de trabajo.
 
-Puede utilizar reglas de inclusión para hacer coincidir la ubicación de un buscador de trabajo desde el perfil de su visitante con una lista de trabajos, como en el siguiente ejemplo:
+Puede utilizar reglas de inclusión para comparar la ubicación de un buscador de trabajo desde el perfil de su visitante con una lista de trabajos, como en el siguiente ejemplo:
 
 ```
 Profile Attribute Matching
@@ -108,9 +112,9 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 ## Ejemplos de coincidencia de atributos de entidad
 
-[!UICONTROL La coincidencia] de atributos de entidad permite recomendar únicamente los elementos que coinciden con un atributo del artículo que el usuario está viendo en ese momento, el artículo que el usuario vio más recientemente, el artículo que el usuario compró más recientemente, el artículo que el usuario vio con más frecuencia o un artículo almacenado en un atributo personalizado en el perfil del visitante, como en los ejemplos siguientes.
+[!UICONTROL La coincidencia] de atributos de entidad permite recomendar únicamente los elementos que coinciden con un atributo del artículo que el usuario está viendo actualmente, el artículo que el usuario ha visto más recientemente, el artículo que el usuario compró más recientemente, el artículo que el usuario ha visto con más frecuencia o un artículo almacenado en un atributo personalizado en el perfil del visitante, como en los ejemplos siguientes.
 
-**Ejemplo 3: Venta al por mayor a un producto** más caro Supongamos que usted es un minorista de ropa y desea animar a los usuarios a considerar artículos de mayor precio y por lo tanto más rentables. Puede utilizar los operadores "es igual que" y "está entre" para promocionar artículos más caros que pertenezcan a la misma categoría y a la misma marca. Por ejemplo: un visitante que ve una empresa de correr puede promocionar zapatillas más caras con el fin de venderlas a un visitante que esté mirando zapatillas de correr.
+**Ejemplo 3: Venta al por mayor a un producto** más caro Supongamos que usted es un minorista de ropa y desea animar a los usuarios a considerar artículos de mayor precio y, por lo tanto, más rentables. Puede utilizar los operadores &quot;es igual que&quot; y &quot;está entre&quot; para promocionar artículos más caros que procedan de la misma categoría y de la misma marca. Por ejemplo, un visitante que ve la compañía para correr puede promocionar zapatillas más caras en un esfuerzo por vender un visitante mirando zapatillas para correr.
 
 ```
 Entity Attribute Matching
@@ -123,7 +127,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-**Ejemplo 4: Promoción de productos** con etiquetas privadas Puede combinar filtros dinámicos y estáticos para promocionar productos con etiquetas privadas. Por ejemplo: una empresa de suministro de oficina puede promocionar cartuchos de tóner de la marca propia de la empresa para llevar a cabo una venta más rentable para un visitante que mira el tóner, y promocionar plumas de la marca propia de la empresa para llevar a una venta más rentable para un visitante que mira bolígrafos.
+**Ejemplo 4: Promoción de productos** con etiquetas privadas Puede combinar filtros dinámicos y estáticos para promocionar productos con etiquetas privadas. Por ejemplo, una compañía de suministro de oficina puede promocionar cartuchos de tóner de la marca propia de la compañía para llevar a cabo una venta más rentable de un visitante mirando el tóner, y promocionar plumas de la marca propia de la compañía para llevar a cabo una venta más rentable de plumas para un visitante mirando las plumas.
 
 ```
 Entity Attribute Matching
