@@ -2,10 +2,14 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Información sobre cómo la biblioteca de JavaScript de at.js de Adobe Target evita el parpadeo mientras se carga una página o una aplicación.
 title: Gestión de parpadeos de Adobe Target at.js
+feature: null
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 83%
 
 ---
 
@@ -32,7 +36,7 @@ La ilustración siguiente muestra las llamadas a Ocultar cuerpo y Mostrar cuerpo
 
 ![Flujo de Target: Solicitud de carga de página de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x***
+**at.js 1.*x ***
 
 ![](assets/target-flow2.png)
 
@@ -44,7 +48,7 @@ Cargar at.js de forma asíncrona es un modo excelente de evitar el bloqueo de pr
 
 Puede evitar el parpadeo utilizando un fragmento de ocultamiento previo que será visible después de que [!DNL Target] personalice los elementos HTML relevantes. 
 
-at.js se puede cargar asincrónicamente, ya sea directamente incrustado en la página o a través de un administrador de etiquetas (Adobe Launch, Dynamic Tag Manager (DTM), etc.).
+at.js se puede cargar asincrónicamente, ya sea directamente incrustado en la página o a través de un administrador de etiquetas (Inicio de Adobe, Administrador dinámico de etiquetas (DTM), etc.).
 
 Si at.js está incrustado en la página, se debe agregar el fragmento antes de cargar at.js. Si carga at.js a través de un administrador de etiquetas, que también se carga asincrónicamente, debe agregar el fragmento antes de cargar el administrador de etiquetas. Si el administrador de etiquetas se carga sincrónicamente, la secuencia de comandos puede incluirse en el administrador de etiquetas antes de at.js.
 
