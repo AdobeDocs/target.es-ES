@@ -1,11 +1,15 @@
 ---
-keywords: varias audiencias;versiones de experiencias;versiones de experiencias de target
+keywords: multiple audiences;experience versions;target experience versions
 description: Puede dirigir versiones de la misma experiencia a distintas audiencias en actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
 title: Varias versiones de una experiencia en una prueba A/B
+feature: null
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +36,7 @@ En este caso, lo que necesitamos son versiones geográficas de la experiencia pa
 
    Al configurar la experiencia que tendrá varias versiones, seleccione la audiencia de cada versión, como vemos en los pasos siguientes.
 
-1. Seleccione la experiencia y haga clic en **[!UICONTROL Configurar]** &gt; **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Múltiples audiencias]**.
+1. Seleccione la experiencia y haga clic en **[!UICONTROL Configurar]** > **[!UICONTROL Audiencias]** > **[!UICONTROL Varias audiencias]**.
 
    ![Opción Varias audiencias](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
