@@ -2,9 +2,10 @@
 keywords: recommendation;backup;back up
 description: Si utiliza la función de recomendación de copia de seguridad, las recomendaciones que no cuenten con suficientes artículos recomendados no mostrarán el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
 title: Usar una recomendación de copia de seguridad
+feature: null
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
