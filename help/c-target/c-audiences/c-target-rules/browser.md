@@ -2,10 +2,14 @@
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Puede crear audiencias en Adobe Target para segmentar usuarios que usen un navegador específico y opciones del navegador concretas cuando visiten una página.
 title: Opciones de explorador en las audiencias de Adobe Target
+feature: null
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +121,7 @@ En el campo de texto solo se pueden introducir versiones principales. Es decir, 
 
 Si hay varias opciones, se conectan con un parámetro O.
 
-## Vídeo de formación: Creación de audiencias Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de audiencias ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
