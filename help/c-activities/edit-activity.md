@@ -1,11 +1,15 @@
 ---
-keywords: actividades;actividad;tipos de actividad;editar actividad;editar;borrador
+keywords: activities;activity;activity types;edit activity;edit;draft
 description: Información acerca de los distintos modos de editar una actividad existente, incluido el guardado de una actividad en forma de borrador.
 title: Editar una actividad o guardar como borrador
+feature: null
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +34,7 @@ Target ofrece en su interfaz varios puntos donde se pueden editar las actividade
 
    ![Botón Dividido](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]** para avanzar al paso deseado. Por ejemplo, en la ilustración anterior, hacer clic en [!UICONTROL Siguiente] muestra el paso [!UICONTROL Segmentación].
+   * **Siguiente:** para editar otra página en el flujo de trabajo de tres fases, haga clic en **[!UICONTROL Siguiente]** para avanzar al paso deseado.. Por ejemplo, en la ilustración anterior, hacer clic en [!UICONTROL Siguiente] muestra el paso [!UICONTROL Segmentación].
    * **Guardar y cerrar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar y cerrar]** para guardar los cambios y mostrar la página [!UICONTROL Información general] de la actividad.
    * **Guardar:** realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Guardar]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
 
