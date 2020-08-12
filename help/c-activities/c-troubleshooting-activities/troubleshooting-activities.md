@@ -2,10 +2,11 @@
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: Si su actividad no aparece en su sitio, estas sugerencias para solucionar problemas le ayudarán a encontrar una solución.
 title: Resolución de problemas de actividades
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -25,7 +26,7 @@ En las siguientes secciones puede encontrar ejemplos de problemas y sus posibles
 
 ## He creado una actividad con la interfaz de usuario de Destinatario y no puedo actualizarla con la API.
 
-Las Actividades creadas con la interfaz de usuario de Destinatario se deben actualizar mediante la interfaz de usuario de Destinatario. Las Actividades creadas mediante API deben actualizarse mediante API. Si originalmente crea una actividad con la API, por ejemplo, pero posteriormente edita la actividad mediante la interfaz de usuario de Destinatario, no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
+Las actividades creadas con la interfaz de usuario de Destinatario se deben actualizar mediante la interfaz de usuario de Destinatario. Las actividades creadas mediante API deben actualizarse mediante API. Si originalmente crea una actividad con la API, por ejemplo, pero posteriormente edita la actividad mediante la interfaz de usuario de Destinatario, no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
 
 Se recomienda actualizar la actividad con el mismo método (IU o API) que se utilizó para crear la actividad originalmente.
 
