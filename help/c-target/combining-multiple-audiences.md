@@ -1,11 +1,15 @@
 ---
-keywords: audiencia;reglas de audiencia;combinar audiencias;combinación de audiencias;exclusión;añadir exclusión;excluir;audiencia específica
+keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
 description: Combine varias audiencias (incluidas las de Adobe Experience Cloud y las de Target) sobre la marcha para crear audiencias ad-hoc. También puede crear reglas de exclusión y excluir audiencias de una regla.
 title: Combinar varias audiencias en Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +58,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
       >
       >El operador Y u O (AND u OR) debe ser el mismo durante la combinación de audiencias. No puede combinar distintos operadores.
 
-   1. Para añadir una exclusión a una regla, haga clic en **[!UICONTROL Exclusión]** &gt; **[!UICONTROL Añadir exclusión]**.
+   1. Para añadir una exclusión a una regla, haga clic en **[!UICONTROL Exclusión]** > **[!UICONTROL Añadir exclusión]**.
 
       ![](assets/combine_multiple_audiences3a.png)
 
@@ -68,7 +72,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
       Esta audiencia combinada incluye a todos los visitantes nuevos que llegan a su sitio usando Safari o Firefox (excepto a los de San Francisco).
 
-   1. Para excluir una audiencia de una regla, haga clic en **[!UICONTROL Exclusión]** &gt; **[!UICONTROL Excluir esta audiencia]**.
+   1. Para excluir de una regla a una audiencia, haga clic en **[!UICONTROL Exclusión]** > **[!UICONTROL Excluir esta audiencia]**.
 
       Por ejemplo, puede crear una audiencia combinada que incluya a todos los visitantes nuevos que lleguen a su sitio excluyendo a los que lo hagan por medio de Firefox. Excluir a los visitantes que usan Firefox es más fácil y rápido que crear una audiencia combinada que incluya explícitamente varios navegadores (Safari, Chrome e Internet Explorer) y que excluya Firefox.
 
@@ -79,7 +83,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y configuración] de la actividad para usarla en la segmentación de métrica. Por ejemplo, para crear una segmentación según la conversión empleando una audiencia combinada:
 
 1. Al editar o crear una [actividad](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]**, seleccione **[!UICONTROL Conversión]** para la métrica de éxito y, luego, seleccione **[!UICONTROL Mbox visto]** como la acción.
-1. Elija el mbox que quiera en el campo **[!UICONTROL Buscar mbox].**
+1. Elija el mbox que quiera en el campo **[!UICONTROL Buscar mbox]**.
 
    ![](assets/combine_multiple_audiences4.png)
 
@@ -104,15 +108,15 @@ Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y
 
 Cuando edita una actividad existente, puede crear una audiencia combinada ad-hoc.
 
-1. En la página [!UICONTROL Actividades], pase el ratón sobre la actividad que quiera y haga clic en el icono **[!UICONTROL Editar].**
+1. En la página [!UICONTROL Actividades], pase el ratón sobre la actividad que quiera y haga clic en el icono **[!UICONTROL Editar]**.
 
    O
 
    Haga clic en la actividad para abrirla y luego haga clic en **[!UICONTROL Editar actividad]**.
 
-1. Haga clic en **[!UICONTROL Configurar]** &gt; **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Varias audiencias]**.
+1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Configurar &gt; Audiencias &gt; Varias audiencias](/help/c-target/assets/combine_multiple_audiences7.png)
+   ![Configurar > Audiencias > Varias audiencias](/help/c-target/assets/combine_multiple_audiences7.png)
 
 1. Haga clic en el icono de más opciones (tres puntos verticales), junto a la audiencia actual de la actividad y luego haga clic en **[!UICONTROL Cambiar audiencia]**.
 
