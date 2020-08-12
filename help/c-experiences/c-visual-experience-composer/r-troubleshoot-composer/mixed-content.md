@@ -2,10 +2,11 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: Algunos navegadores no permiten visualizar las páginas donde se combina contenido seguro con contenido no seguro.
 title: Activación de contenido mixto en el navegador
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 88a001f9ff4c72074fe72b9cc61effec5f28e5f8
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 35%
@@ -41,7 +42,7 @@ Si visita un sitio a través de una conexión segura, Chrome comprueba que el co
 
 Consulte [Esta página tiene contenido no seguro](https://support.google.com/chrome/answer/1342714?hl=en) en la Ayuda de Google Chrome.
 
-Si utiliza el VEC con la versión más reciente de Chrome (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los Visitantes al sitio no necesitan completar estos pasos.
+Si utiliza el VEC con la versión más reciente de Chrome (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los visitantes al sitio no necesitan completar estos pasos.
 
 1. Haga clic en el icono de bloqueo o precaución y, a continuación, haga clic en Configuración **[!UICONTROL del]** sitio.
 
@@ -55,7 +56,7 @@ Si utiliza el VEC con la versión más reciente de Chrome (versión 79.0.3945.11
 
 ## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-De manera predeterminada, Firefox bloquea las páginas con contenido seguro y no seguro. Se recomienda cambiar esta opción de forma permanente para poder usar [!DNL Target]. Los Visitantes al sitio no necesitan completar estos pasos.
+De manera predeterminada, Firefox bloquea las páginas con contenido seguro y no seguro. Se recomienda cambiar esta opción de forma permanente para poder usar [!DNL Target]. Los visitantes al sitio no necesitan completar estos pasos.
 
 1. En Firefox, escriba `about:config` en la barra de direcciones.
 1. Reconozca el mensaje de advertencia que muestra Firefox.
@@ -78,7 +79,7 @@ Le recomendamos que reinicie el equipo después de cambiar esta configuración.
 
 Si está visitando un sitio a través de una conexión segura, Edge comprueba que el contenido de la página web se haya transmitido de forma segura.
 
-Si utiliza el VEC con la versión más reciente de Edge, debe actualizar la configuración del sitio. Los Visitantes al sitio no necesitan completar estos pasos.
+Si utiliza el VEC con la versión más reciente de Edge, debe actualizar la configuración del sitio. Los visitantes al sitio no necesitan completar estos pasos.
 
 1. Haga clic en el icono de bloqueo o precaución y, a continuación, haga clic en Permisos **[!UICONTROL del]** sitio.
 
