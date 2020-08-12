@@ -1,10 +1,14 @@
 ---
-keywords: Target;informes;configuración de informes;entorno;alza;límite de alza;variación;confianza;control
+keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
 description: Los informes incluyen varios puntos de datos y representaciones de visualización que lo ayudan a comprender los límites de la elevación y el nivel de confianza asociado a su actividad. Esto le ayuda a determinar un ganador con mayor precisión.
 title: Alza promedio, límites de alza e intervalo de confianza
+feature: null
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 98%
 
 ---
 
