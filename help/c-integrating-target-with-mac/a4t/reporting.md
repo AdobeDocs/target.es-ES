@@ -2,11 +2,12 @@
 keywords: analytics for target;a4t;analytics as the reporting source
 description: El uso de Analytics como fuente de informes para Target (A4T) permite acceder a informes de Analytics para sus actividades de Target.
 title: Informes de A4T
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 59c26a766018affe5ef7b5fa4ea5a421ab3cc37d
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 40%
@@ -43,13 +44,13 @@ En [!DNL Analytics], hay varias dimensiones y métricas disponibles después de 
 * [!UICONTROL Analytics para Destinatario] : el ID principal que se pasa a través de la integración. El formato de esta dimensión es `Activity ID:Experience ID:3rd ID`. Las dimensiones siguientes son clasificaciones de esta dimensión.
 * [!UICONTROL Actividades de Target]
 * [!UICONTROL Experiencias de Target]
-* [!UICONTROL Actividad] de Destinatario > [!UICONTROL Experiencia]
+* [!UICONTROL Actividad] de destinatario > [!UICONTROL Experiencia]
 * [!UICONTROL 3er ID] : se puede ignorar
 
 ### Métricas
 
-* [!UICONTROL Impresiones] de Actividad: coincide con el número de [!UICONTROL participantes] en el [!DNL Target] informe.
-* [!UICONTROL Conversiones] de Actividad: coincide con el número de conversiones  personalizadas del [!DNL Target] informe.
+* [!UICONTROL Impresiones] de actividad: coincide con el número de [!UICONTROL participantes] en el [!DNL Target] informe.
+* [!UICONTROL Conversiones] de actividad: coincide con el número de conversiones  personalizadas del [!DNL Target] informe.
 
 En [!DNL Analysis Workspace], utilice el panel [!UICONTROL Analytics para Destinatario] para analizar sus [!DNL Target] actividades y experiencias con alza y confianza. Para obtener más información, consulte Panel [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics para Destinatario (A4T) en la Guía *de herramientas de* Analytics.
 
