@@ -1,11 +1,15 @@
 ---
-keywords: contenido;activos;carpeta;crear carpeta;mover carpeta;copiar carpeta;eliminar carpeta;descargar carpeta
+keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: Cree una carpeta para guardar elementos en la biblioteca de ofertas.
 title: Crear una carpeta de ofertas
+feature: null
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 Cree una carpeta para guardar elementos en la biblioteca de ofertas.
 
 1. Haga clic en **[!UICONTROL Ofertas]** y después seleccione la pestaña **[!UICONTROL Ofertas de código]** u **[!UICONTROL Ofertas de imágenes]** según proceda.
-1. Haga clic en **[!UICONTROL Crear]** &gt; **[!UICONTROL Carpeta]**.
+1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Carpeta]**.
 1. Rellene los campos:
 
    | Campo | Descripción |
