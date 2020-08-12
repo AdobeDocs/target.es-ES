@@ -2,10 +2,14 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
 title: Preguntas más frecuentes sobre audiencias y segmentación
+feature: null
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 69%
 
 ---
 
@@ -14,21 +18,21 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
 
-## ¿Cómo evalúa Target las direcciones URL en los objetivos? {#url}
+## ¿Cómo evalúa Destinatario las direcciones URL en los objetivos? {#url}
 
-Target evalúa las direcciones URL de forma diferente en función de si se usa la segmentación por URL de audiencia al crear una actividad o si se usa la segmentación por URL al crear una audiencia.
+Destinatario evalúa las direcciones URL de forma diferente en función de si se usa el objetivo de URL de audiencia al crear una actividad o si se usa el objetivo de URL al crear una audiencia.
 
 Considere la siguiente dirección URL:
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-### Segmentación de URL de audiencia
+### Objetivo de URL de audiencia
 
- Para aplicar segmentación por URL de audiencia, mientras crea una actividad, en la página Experiencias (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono de engranaje, haga clic en Entrega de página y especifique la dirección URL deseada.
+Para aplicar el objetivo de URL de audiencia, al crear una actividad, en la página Experiencias (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono de engranaje, haga clic en Envío de página y especifique la dirección URL deseada.
 
-![Dirección URL de envío de página](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![Dirección URL del Envío de página](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-El objetivo de URL de audiencia busca una coincidencia exacta de URL. Si la dirección URL coincide, Target no tiene en cuenta la lógica adicional. En la dirección URL anterior, si la actividad está configurada para activarse `www.example.com`, la dirección URL coincide con las siguientes direcciones URL porque la segmentación por URL de audiencia no depende de la consulta:
+El objetivo de URL de audiencia busca una coincidencia de URL exacta. Si la dirección URL coincide, Destinatario no tiene en cuenta la lógica adicional. En la dirección URL anterior, si la actividad está configurada para activarse `www.example.com`, la dirección URL coincide con las siguientes direcciones URL porque la segmentación por URL de audiencia no depende de la consulta:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -38,9 +42,9 @@ Más allá del objetivo de audiencia en la dirección URL, también puede especi
 
 ### Dirección URL
 
- Para aplicar el objetivo de URL, mientras crea una audiencia, haga clic en Agregar regla, en Páginas del sitio, seleccione una opción de la primera lista desplegable (Página actual, Página anterior o Página de aterrizaje), seleccione Dirección URL en la segunda lista desplegable, especifique un evaluador y luego especifique la dirección URL que desee.
+Para aplicar el objetivo de URL, al crear una audiencia, haga clic en Añadir regla, en Páginas del sitio, seleccione una opción de la primera lista desplegable (Página actual, Página anterior o Página de aterrizaje), seleccione Dirección URL en la segunda lista desplegable, especifique un evaluador y luego especifique la dirección URL que desee.
 
-![Páginas del sitio &gt; Página actual &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![Páginas del sitio > Página actual > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 El objetivo de URL transforma la URL en un conjunto de reglas para evaluar:
 
@@ -59,13 +63,13 @@ Por ejemplo, en la siguiente cadena URL:
 
 se evalúa la primera instancia del `Category` parámetro y se ignora el segundo `Category` parámetro.
 
-Lo mejor es tener varios valores asociados a una sola categoría, como se muestra a continuación:
+Se recomienda tener varios valores asociados a una sola categoría, como se muestra a continuación:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
 ## A la hora de crear audiencias, ¿por qué las audiencias prediseñadas en Biblioteca de Objetivos se encuentran en otras categorías? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
-Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Por ejemplo, la audiencia heredada Biblioteca de objetivos &gt; Nuevos visitantes tiene un equivalente actualizado: Perfil del visitante &gt; Nuevo visitante.
+Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Por ejemplo, la audiencia heredada Biblioteca de objetivos > Nuevos visitantes tiene un equivalente actualizado: Perfil del visitante > Nuevo visitante.
 
 Se recomienda utilizar las audiencias más nuevas porque han mejorado su rendimiento. Es posible que algunos clientes que utilicen audiencias prediseñadas heredadas, de modo que no se han eliminado de la interfaz de Target.
 
@@ -83,7 +87,7 @@ Por ejemplo, en la siguiente ilustración, un usuario de California que utiliza 
 
 ## ¿Por qué los nombres de las mismas audiencias en Target, Adobe Audience Manager (AAM) y la Biblioteca de audiencias en los servicios principales son diferentes?{#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Los nombres de las audiencias en [!DNL Target] son únicos; sin embargo, en [!DNL AAM] y en la [!DNL Audience Library], varias audiencias pueden tener el mismo nombre (si están en carpetas diferentes). Cuando [!DNL Target] encuentra un nombre de audiencia que coincide con el de una audiencia [!DNL AAM] o [!DNL Audience Library], [!DNL Target] añade "#&lt;number&gt;" al nombre.
+Los nombres de las audiencias en [!DNL Target] son únicos; sin embargo, en [!DNL AAM] y en la [!DNL Audience Library], varias audiencias pueden tener el mismo nombre (si están en carpetas diferentes). Cuando [!DNL Target] encuentra un nombre de audiencia que coincide con el de una audiencia [!DNL AAM] o [!DNL Audience Library], [!DNL Target] añade &quot;#&lt;number>&quot; al nombre.
 
 Por ejemplo, es posible que vea las siguientes audiencias: “Usuarios en PC” (en [!DNL AAM]) y “Usuarios en PC #1” (en [!DNL Target]).
 
