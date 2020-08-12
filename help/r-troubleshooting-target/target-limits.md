@@ -2,10 +2,14 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Información sobre los límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
 title: Límites
+feature: null
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 77%
 
 ---
 
@@ -113,7 +117,7 @@ Los valores más largos que ese número se truncan.
 
 Para llamadas de mbox estándar:
 * Parámetros de mbox: 500 parámetros por mbox.
-* Parámetros de Perfil: 500 parámetros de perfil por mbox.
+* Parámetros de perfil: 500 parámetros de perfil por mbox.
 * Otros parámetros (URL, URL de referencia, etc.): 50 por mbox para cada tipo de parámetro.
 
 Estos límites se aplican a menos que la solicitud se acorte debido a limitaciones del navegador.
@@ -136,7 +140,7 @@ Lote mbox v2:
 * El valor del parámetro de perfil no puede ser nulo
 * Longitud máxima del valor del parámetro de perfil 256
 
-Extremo de API de Envío
+Extremo de API de envío
 * Parámetros de mbox 50
 * Longitud máxima del nombre del parámetro de mbox 128
 * El valor del parámetro mbox no puede ser nulo
@@ -196,7 +200,7 @@ El sistema truncará lo que supere este límite.
 
 **Límite recomendado del total de secuencias de comandos de perfil por cuenta**: 2.000
 
-**Recomendaciones para limitar la complejidad** de las secuencias de comandos de perfil: Las secuencias de comandos de Perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas](/help/c-target/c-visitor-profile/profile-parameters.md#best) recomendadas en atributos *de* Perfil.
+**Recommendations para limitar la complejidad** del script de perfil: Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas](/help/c-target/c-visitor-profile/profile-parameters.md#best) recomendadas en atributos *de* Perfil.
 
 ## Propiedades
 
