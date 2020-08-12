@@ -2,11 +2,15 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target ha habilitado procesos y configuraciones que permiten utilizar Target en cumplimiento con las leyes aplicables sobre privacidad de datos.
 title: Privacidad
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 78%
 
 ---
 
@@ -27,11 +31,11 @@ Cuando se habilita esta función, la dirección IP se convierte en lo suficiente
 
 Las configuraciones disponibles son las siguientes:
 
-* Sin confusión: Target no oculta ninguna parte de la dirección IP.
-* Último octeto: Target oculta el último octeto de la dirección IP.
-* IP completa: Target oculta toda la dirección IP.
+* Sin confusión: Destinatario no oculta ninguna parte de la dirección IP.
+* Último octeto: Destinatario oculta el último octeto de la dirección IP.
+* IP completa: Destinatario oculta toda la dirección IP.
 
-Target recibe la dirección IP completa y la confunde (si se establece en Último octeto o IP completa) como se especifica. A continuación, Target guarda la dirección IP confusión en la memoria durante la sesión.
+Destinatario recibe la dirección IP completa y la confunde (si se establece en Último octeto o IP completa) como se especifica. A continuación, destinatario guarda la dirección IP confusión en la memoria durante la sesión.
 
 >[!NOTE]
 >
