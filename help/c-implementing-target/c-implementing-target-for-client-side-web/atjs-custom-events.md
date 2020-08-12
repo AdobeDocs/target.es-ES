@@ -2,10 +2,14 @@
 keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
 description: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
 title: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '585'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +48,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## Vídeo de formación: Tokens de respuesta y eventos personalizados {#section_ED304A7137DC42A4BDCD6D57C989F1FA} de at.js Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Tokens de respuesta y eventos personalizados {#section_ED304A7137DC42A4BDCD6D57C989F1FA} de at.js ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Vea el siguiente vídeo para aprender a utilizar los tokens de respuesta y los eventos personalizados de at.js con el fin de compartir información de perfil de Target con sistemas de terceros.
 
