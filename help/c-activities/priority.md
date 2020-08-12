@@ -1,11 +1,12 @@
 ---
 keywords: settings;priority
-description: Adobe Target determina qué actividad (o actividades) se enviarán a una página de forma diferente en función de la interfaz de Destinatario y de la función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) que se esté utilizando.
-title: Prioridad en el Adobe Target
+description: Adobe Target determina la actividad (o actividades) que se va a enviar a una página de forma diferente según la interfaz de Destinatario y la función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) que se esté utilizando.
+title: Prioridad en Adobe Target
+feature: null
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
