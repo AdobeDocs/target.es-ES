@@ -1,12 +1,16 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Información sobre Adobe Target y el estándar SameSite IETF introducido con Google Chrome versión 80.
-title: Directivas de cookies de Adobe Target y SameSite de Google
-subtopic: Primeros pasos
+title: Directivas de cookies de Adobe Target y Google SameSite
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2033'
+ht-degree: 8%
 
 ---
 
@@ -27,7 +31,7 @@ Las cookies son importantes porque mejoran la experiencia del usuario a medida q
 
 También existen cookies de terceros. Para comprenderlos mejor, consideremos este ejemplo:
 
-Digamos que una hipotética empresa de medios sociales llamada "Amigos" proporciona un botón Compartir que otros sitios implementan para permitir a los usuarios de Amigos compartir el contenido del sitio en la fuente Amigos. Ahora, un usuario lee un artículo de noticias en un sitio web de noticias que utiliza el botón Compartir y hace clic en él para publicar automáticamente en su cuenta de amigos.
+Digamos que una hipotética compañía de medios sociales llamada &quot;Amigos&quot; proporciona un botón Compartir que otros sitios implementan para permitir a los usuarios de Amigos compartir el contenido del sitio en la fuente Amigos. Ahora, un usuario lee un artículo de noticias en un sitio web de noticias que utiliza el botón Compartir y hace clic en él para publicar automáticamente en su cuenta de amigos.
 
 Para que esto suceda, el explorador obtiene el botón Compartir amigos desde `platform.friends.com` cuando se carga el artículo de noticias. Dentro de este proceso, el explorador adjunta las cookies de Amigos, que contienen las credenciales de inicio de sesión del usuario, a la solicitud a los servidores de Amigos. Esto permite a los amigos publicar el artículo en su fuente en nombre del usuario sin que el usuario tenga que iniciar sesión.
 
@@ -41,11 +45,11 @@ De manera más general, las cookies de terceros permiten almacenar datos en el e
 
 Aunque las cookies mejoran la experiencia del usuario y la publicidad potente, también pueden introducir vulnerabilidades de seguridad como los ataques de falsificación de solicitudes entre sitios (CSRF). Por ejemplo: si un usuario inicia sesión en un sitio bancario para pagar facturas de tarjeta de crédito y abandona el sitio sin cerrar sesión y luego navega a un sitio malintencionado en la misma sesión, puede producirse un ataque de CSRF. El sitio malintencionado puede incluir código que realiza una solicitud al sitio bancario que se ejecuta cuando se carga la página. Dado que el usuario sigue autenticado en el sitio bancario, la cookie de sesión puede utilizarse para iniciar un ataque de CSRF a fin de iniciar un evento de transferencia de fondos desde la cuenta bancaria del usuario. Esto se debe a que cada vez que visita un sitio, todas las cookies se adjuntan en la solicitud HTTP. Y debido a estas preocupaciones de seguridad, Google ahora está tratando de mitigarlas.
 
-## ¿Cómo utiliza Target las cookies?
+## ¿Cómo utiliza Destinatario las cookies?
 
-Con todo lo dicho, veamos cómo [!DNL Target] usan las cookies. Para poder usar [!DNL Target] en primer lugar, debe instalar la biblioteca [!DNL Target] JavaScript en el sitio. Esto le permite colocar una cookie de origen en el explorador del usuario que visita el sitio. A medida que el usuario interactúa con el sitio web, puede pasar los datos de comportamiento e interés del usuario a [!DNL Target] través de la biblioteca JavaScript. La biblioteca [!DNL Target] JavaScript utiliza cookies de origen para extraer información de identificación del usuario y asignarla a los datos de comportamiento e interés del usuario. Estos datos son utilizados por [!DNL Target] el usuario para potenciar sus actividades de personalización.
+Con todo lo dicho, veamos cómo [!DNL Target] usan las cookies. Para poder usar [!DNL Target] en primer lugar, debe instalar la biblioteca de [!DNL Target] JavaScript en el sitio. Esto le permite colocar una cookie de origen en el explorador del usuario que visita el sitio. A medida que el usuario interactúa con el sitio web, puede pasar los datos de comportamiento e interés del usuario a [!DNL Target] través de la biblioteca de JavaScript. La biblioteca [!DNL Target] JavaScript utiliza cookies de origen para extraer información de identificación del usuario y asignarla a los datos de comportamiento e interés del usuario. Estos datos son utilizados por [!DNL Target] el usuario para potenciar sus actividades de personalización.
 
-Target también utiliza (a veces) cookies de terceros. Si tiene varios sitios web que viven en diferentes dominios y desea rastrear el viaje del usuario en esos sitios web, puede utilizar cookies de terceros mediante el seguimiento entre dominios. Al habilitar el seguimiento entre dominios en la biblioteca [!DNL Target] JavaScript, su cuenta comenzará a utilizar cookies de terceros. A medida que un usuario va de un dominio a otro, el explorador se comunica con el servidor back-end de [!DNL Target], y en este proceso se crea una cookie de terceros que se coloca en el explorador del usuario. A través de la cookie de terceros que reside en el navegador del usuario, [!DNL Target] puede ofrecer una experiencia coherente en distintos dominios para un único usuario.
+Destinatario también (a veces) utiliza cookies de terceros. Si tiene varios sitios web que viven en diferentes dominios y desea rastrear el viaje del usuario en esos sitios web, puede utilizar cookies de terceros mediante el seguimiento entre dominios. Al habilitar el seguimiento entre dominios en la biblioteca [!DNL Target] JavaScript, su cuenta utilizará inicios con cookies de terceros. A medida que un usuario va de un dominio a otro, el explorador se comunica con el servidor back-end de [!DNL Target], y en este proceso se crea una cookie de terceros que se coloca en el explorador del usuario. A través de la cookie de terceros que reside en el navegador del usuario, [!DNL Target] puede ofrecer una experiencia coherente en distintos dominios para un único usuario.
 
 ## Nueva fórmula de cookie de Google
 
@@ -59,32 +63,32 @@ Existen tres valores diferentes que se pueden pasar al atributo SameSite: Estric
 | Laxo | Cookies with this setting are sent only on same-site requests or top-level navigation with non-idempotent HTTP requests, like `HTTP GET`. Por lo tanto, esta opción se utilizaría si la cookie puede ser utilizada por terceros, pero con una ventaja de seguridad adicional que protege a los usuarios de ser víctimas de ataques de CSRF. |
 | Ninguna | Las cookies con esta configuración funcionarán de la misma manera que las cookies en la actualidad. |
 
-Teniendo en cuenta lo anterior, Chrome 80 introduce dos configuraciones independientes para los usuarios: "SameSite de forma predeterminada cookies" y "Las cookies sin SameSite deben ser seguras". Esta configuración se activará de forma predeterminada en Chrome 80.
+Teniendo en cuenta lo anterior, Chrome 80 introduce dos configuraciones independientes para los usuarios: &quot;SameSite de forma predeterminada cookies&quot; y &quot;Las cookies sin SameSite deben ser seguras&quot;. Esta configuración se activará de forma predeterminada en Chrome 80.
 
 ![SameSite, cuadro de diálogo](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
 
-* **SameSite de forma predeterminada cookies**: Cuando se configura, todas las cookies que no especifican el atributo SameSite se verán obligadas a usar automáticamente `SameSite = Lax`.
+* **SameSite de forma predeterminada, cookies**: Cuando se configura, todas las cookies que no especifican el atributo SameSite se verán obligadas a usar automáticamente `SameSite = Lax`.
 * **Las cookies sin SameSite deben ser seguras**: Cuando se configuran, las cookies sin el atributo SameSite o con `SameSite = None` deben ser seguras. Seguras en este contexto significa que todas las solicitudes del explorador deben seguir el protocolo HTTPS. Las cookies que no respetan este requisito son rechazadas. Todos los sitios web deben utilizar HTTPS para cumplir este requisito.
 
 ## Target sigue las recomendaciones de seguridad de Google
 
-En Adobe, siempre queremos ofrecer compatibilidad con las prácticas recomendadas más recientes del sector para la seguridad y la privacidad. We are happy to announce that [!DNL Target] supports the new security and privacy settings introduced by Google.
+En Adobe, siempre queremos apoyar las últimas optimizaciones del sector para la seguridad y la privacidad. We are happy to announce that [!DNL Target] supports the new security and privacy settings introduced by Google.
 
-Para la configuración "SameSite de forma predeterminada cookies", [!DNL Target] seguirá ofreciendo personalización sin ningún impacto ni intervención por parte suya. [!DNL Target] usa cookies de origen y seguirá funcionando correctamente, ya que Google Chrome aplica el indicador `SameSite = Lax`.
+Para la configuración &quot;SameSite de forma predeterminada cookies&quot;, [!DNL Target] seguirá ofreciendo personalización sin ningún impacto ni intervención por parte suya. [!DNL Target] usa cookies de origen y seguirá funcionando correctamente, ya que Google Chrome aplica el indicador `SameSite = Lax`.
 
-Para la opción "Las cookies sin SameSite deben ser seguras", si no se ha incluido en la función de seguimiento entre dominios de [!DNL Target], las cookies de origen de [!DNL Target] seguirán funcionando.
+Para la opción &quot;Las cookies sin SameSite deben ser seguras&quot;, si no se ha incluido en la función de seguimiento entre dominios de [!DNL Target], las cookies de origen de [!DNL Target] seguirán funcionando.
 
-However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] across multiple domains, Chrome requires `SameSite = None` and Secure flags to be used for third-party cookies. Esto significa que debe asegurarse de que los sitios utilizan el protocolo HTTPS. Las bibliotecas del lado del cliente de [!DNL Target] utilizarán automáticamente el protocolo HTTPS y adjuntarán los indicadores `SameSite = None` y de seguridad a las cookies de terceros [!DNL Target] para garantizar que todas las actividades sigan funcionando.
+However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] across multiple domains, Chrome requires `SameSite = None` and Secure flags to be used for third-party cookies. Esto significa que debe asegurarse de que los sitios utilizan el protocolo HTTPS. Las bibliotecas del lado del cliente de [!DNL Target] utilizarán automáticamente el protocolo HTTPS y adjuntarán los indicadores `SameSite = None` y de seguridad a las cookies de terceros [!DNL Target] para garantizar que todas las actividades sigan entregándose.
 
 ## ¿Qué es necesario hacer?
 
 Para comprender lo que debe hacer para que los usuarios de Google Chrome 80+ [!DNL Target] sigan funcionando, consulte la tabla siguiente, de la que verá las siguientes columnas:
 
-* **Biblioteca** de JavaScript de Target: Si utiliza mbox.js, at.js 1.*x* o at.js 2.*x* en sus sitios.
-* **SameSite de forma predeterminada cookies = Habilitado**: Si los usuarios tienen "SameSite de forma predeterminada" habilitado, ¿cómo le afecta y qué debe hacer para [!DNL Target] continuar funcionando?
-* **Las cookies sin SameSite deben ser seguras = Habilitadas**: Si los usuarios tienen habilitada la opción "Las cookies sin SameSite deben ser seguras", ¿cómo le afecta y hay algo que necesite hacer para [!DNL Target] seguir funcionando?
+* **Biblioteca** JavaScript de destinatario: Si utiliza mbox.js, at.js 1.*x* o at.js 2.*x* en sus sitios.
+* **SameSite de forma predeterminada cookies = Habilitado**: Si los usuarios tienen &quot;SameSite de forma predeterminada&quot; habilitado, ¿cómo le afecta y qué debe hacer para [!DNL Target] continuar funcionando?
+* **Las cookies sin SameSite deben ser seguras = Habilitadas**: Si los usuarios tienen habilitada la opción &quot;Las cookies sin SameSite deben ser seguras&quot;, ¿cómo le afecta y hay algo que necesite hacer para [!DNL Target] seguir funcionando?
 
-| Biblioteca de JavaScript de Target | SameSite con cookies predeterminadas = Habilitado | Las cookies sin SameSite debe ser seguras = Habilitado |
+| Biblioteca JavaScript de destinatario | SameSite con cookies predeterminadas = Habilitado | Las cookies sin SameSite debe ser seguras = Habilitado |
 | --- | --- | --- |
 | mbox.js solo con cookies de origen. | Sin impacto. | No tiene impacto si no utiliza el seguimiento entre dominios. |
 | mbox.js con el seguimiento entre dominios habilitado. | Sin impacto. | Debe habilitar el protocolo HTTPS para el sitio.<br>[!DNL Target] utiliza una cookie de terceros para rastrear a los usuarios y Google requiere que las cookies de terceros tengan `SameSite = None` y un indicador de seguridad. El indicador de seguridad requiere que los sitios utilicen el protocolo HTTPS. |
@@ -92,11 +96,11 @@ Para comprender lo que debe hacer para que los usuarios de Google Chrome 80+ [!D
 | at.js 1.*x*  con el seguimiento entre dominios habilitado. | Sin impacto. | Debe habilitar el protocolo HTTPS para el sitio.<br>[!DNL Target] utiliza una cookie de terceros para rastrear a los usuarios y Google requiere que las cookies de terceros tengan `SameSite = None` y un indicador de seguridad. El indicador de seguridad requiere que los sitios utilicen el protocolo HTTPS. |
 | at.js 2.*x*  | Sin impacto. | Sin impacto. |
 
-## ¿Qué debe hacer Target?
+## ¿Qué debe hacer el Destinatario?
 
 Entonces, ¿qué teníamos que hacer en nuestra plataforma para ayudarle a cumplir con las nuevas políticas de cookies Google Chrome 80+ SameSite?
 
-| Biblioteca de JavaScript de Target | SameSite con cookies predeterminadas = Habilitado | Las cookies sin SameSite debe ser seguras = Habilitado |
+| Biblioteca JavaScript de destinatario | SameSite con cookies predeterminadas = Habilitado | Las cookies sin SameSite debe ser seguras = Habilitado |
 | --- | --- | --- |
 | mbox.js solo con cookies de origen. | Sin impacto. | No tiene impacto si no utiliza el seguimiento entre dominios. |
 | mbox.js con el seguimiento entre dominios habilitado. | Sin impacto. | [!DNL Target] agrega `SameSite = None` y marca de seguridad a la cookie de terceros cuando se llama a [!DNL Target] los servidores. |
