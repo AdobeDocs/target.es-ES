@@ -1,11 +1,15 @@
 ---
-keywords: segmentación;móvil;segmentar por móvil;deviceatlas;iPhone;modelos de iPhone;device atlas;anchuradepantalla;anchura de pantalla;altura de pantalla;tipo de dispositivo;alturadepantalla;teléfono;tablet;modelo de dispositivo
+keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
 description: Cree audiencias en Adobe Target para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (en píxeles) y muchos más.
 title: Audiencia móvil en Adobe Target
+feature: null
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 99%
 
 ---
 
@@ -14,7 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Cree audiencias para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (en píxeles) y muchos más.
 
-Por ejemplo, es posible que quiera mostrar contenido distinto a los usuarios cuando acceden a su página desde un teléfono con respecto a cuando acceden desde un equipo. En ese caso, puede elegir la audiencia de dispositivos móviles y seleccionar la opción **[!UICONTROL Es un teléfono móvil]. Después, puede agregar cualquier detalle específico que sea importante para usted, como el tipo de teléfono, el tamaño de la pantalla (en píxeles), etc.**
+Por ejemplo, es posible que quiera mostrar contenido distinto a los usuarios cuando acceden a su página desde un teléfono con respecto a cuando acceden desde un equipo. En ese caso, puede elegir la audiencia de dispositivos móviles y seleccionar la opción **[!UICONTROL Es un teléfono móvil]**. Después, puede agregar cualquier detalle específico que sea importante para usted, como el tipo de teléfono, el tamaño de la pantalla (en píxeles), etc.
 
 El destino para móviles se ofrece a través de [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), un servicio de DotMobi. DeviceAtlas es una completa base de datos de dispositivos móviles creada a partir de datos compilados de numerosas fuentes, entre las que se incluyen fabricantes y operadores de red. Estos datos se verifican y se validan para crear una gran base de datos exacta de dispositivos móviles.
 
@@ -38,9 +42,9 @@ Puede elegirse más de una propiedad de dispositivo móvil. Si realiza varias se
 
 Los clientes que utilicen una integración personalizada (sin usar at.js o el SDK móvil) pueden recopilar estos parámetros ellos mismos y pasarlos como parámetros de mbox.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
+1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Móvil]**.
+1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Móvil]**.
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
    * Nombre de marketing del dispositivo
@@ -52,6 +56,7 @@ Los clientes que utilicen una integración personalizada (sin usar at.js o el SD
    * Sistema operativo
    * Altura de la pantalla (px)
    * Anchura de la pantalla (px)
+
    >[!NOTE]
    >
    >Debido a los nuevos cambios introducidos en iOS 12.2, la creación de una audiencia con reglas definidas por un Nombre de marketing de dispositivo y un Modelo de dispositivo que especifique modelos de iPhone se ve afectada. Ya no podemos segmentar usuarios que tengan iPhone con iOS 12.2 instalado. Sin embargo, si esos usuarios no tienen iOS 12.2, la segmentación del modelo iPhone seguirá funcionando correctamente.
@@ -76,4 +81,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
