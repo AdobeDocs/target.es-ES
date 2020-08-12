@@ -2,10 +2,11 @@
 keywords: Release notes
 description: Notas de la versión de versiones anteriores de Target, incluidas las notas de la versión Target Standard/Premium, la plataforma Target y las bibliotecas Javascript de Target (at.js y mbox.js). Las notas de la versión se presentan en orden descendente por mes y año de publicación.
 title: Notas de la versión para versiones anteriores
+feature: null
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '30028'
 ht-degree: 89%
@@ -27,10 +28,10 @@ Notas de la versión de versiones anteriores de Target, incluidas las notas de l
 
 | Función.  / Mejora | Descripción |
 | --- | --- |
-| Analytics for Target (A4T) compatibilidad con actividades de asignación  automática | [!UICONTROL Las actividades de asignación] automática ahora admiten [Analytics para Destinatario](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Esta integración le permite utilizar la función de bandidos multiarmados de asignación [!UICONTROL automática] para dirigir el tráfico a las experiencias ganadoras, mientras utiliza una métrica de objetivos de [!UICONTROL Adobe Analytics] y/o las funciones de sistema de informes y análisis de [!UICONTROL Adobe Analytics] .<br>Si ya ha [implementado A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para su uso con actividades de Prueba A/B y de segmentación de experiencias, ¡ya está todo preparado!<br>Para obtener más información, consulte Compatibilidad de [Analytics para Destinatario (A4T) con actividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) de asignación automática en la creación *de* Actividades. |
-| Tokens de respuesta para el método de asignación de tráfico para el Destinatario automático y las actividades de personalización automatizada | Se han agregado dos tokens [de](/help/administrating-target/response-tokens.md) respuesta a las actividades de Destinatario  automático y personalización  automatizada para permitir determinar si un visitante recibió una experiencia concreta como resultado de la asignación al tráfico &quot;de control&quot; o &quot;de destino&quot;.<ul><li>`experience.trafficAllocationId` devolverá 0 si un visitante ha recibido una experiencia por estar en tráfico de &quot;control&quot; y 1 si un visitante ha recibido una experiencia de la distribución de tráfico de &quot;objetivo&quot;.</li><li>`experience.trafficAllocationType` devolverá &quot;control&quot; o &quot;segmentado&quot;.</li></ul>Para obtener más información sobre el control y el tráfico dirigido, consulte [Seleccionar el control de la personalización automatizada o la actividad](/help/c-activities/t-automated-personalization/experience-as-control.md)de Destinatario automático. |
-| [!UICONTROL Función de editor] | Esta nueva función es similar a la función [!UICONTROL Observador] actual (puede crear actividades de vista, pero no puede crearlas o editarlas). Sin embargo, la función [!UICONTROL Editor] tiene el permiso adicional para activar actividades.<br>Para obtener más información, consulte: <ul><li>**Usuarios** de Target Standard: [Especifique funciones y permisos](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) en *Usuarios*.</li><li>**Usuarios** de Destinatario Premium: [Paso 6: Especifique funciones y permisos](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) en *Configurar permisos* de empresa.</li></ul> |
-| Asistencia técnica de A4T el 25 [!DNL Analysis Workspace]<br>de junio de 2020 | [!UICONTROL Ahora se admite Analytics para Destinatario] (A4T) en [!DNL Analysis Workspace]. El panel  Analytics para Destinatario (A4T) le permite analizar sus [!DNL Adobe Target] actividades y experiencias en [!DNL Analysis Workspace].<br>Para obtener más información, consulte [Informes en Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) en el panel *sistema de informes* de [A4T y](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics para Destinatario (A4T) en la Guía *de herramientas de* Analytics. |
+| Analytics for Target (A4T) compatibilidad con actividades de asignación  automática | [!UICONTROL Las actividades de asignación] automática ahora admiten [Analytics para Destinatario](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Esta integración le permite utilizar la función de bandidos multiarmados de asignación [!UICONTROL automática] para dirigir el tráfico a las experiencias ganadoras, mientras utiliza una métrica de objetivos de [!UICONTROL Adobe Analytics] y/o funciones de sistema de informes y análisis de [!UICONTROL Adobe Analytics] .<br>Si ya ha [implementado A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para su uso con actividades de Prueba A/B y de segmentación de experiencias, ¡ya está todo preparado!<br>Para obtener más información, consulte Compatibilidad [de Analytics para Destinatario (A4T) con actividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) de asignación automática en la creación *de* Actividades. |
+| Tokens de respuesta para el método de asignación de tráfico para el Destinatario automático y las actividades de Automated Personalization | Se han agregado dos tokens [de](/help/administrating-target/response-tokens.md) respuesta a las actividades de Destinatario  automático y [!UICONTROL Automated Personalization] para permitir determinar si un visitante recibió una experiencia concreta como resultado de la asignación al tráfico &quot;de control&quot; o &quot;dirigido&quot;.<ul><li>`experience.trafficAllocationId` devolverá 0 si un visitante ha recibido una experiencia por estar en tráfico de &quot;control&quot; y 1 si un visitante ha recibido una experiencia de la distribución de tráfico de &quot;objetivo&quot;.</li><li>`experience.trafficAllocationType` devolverá &quot;control&quot; o &quot;segmentado&quot;.</li></ul>Para obtener más información sobre el control y el tráfico dirigido, consulte [Seleccionar el control para la actividad](/help/c-activities/t-automated-personalization/experience-as-control.md)de Destinatario automático o Automated Personalization. |
+| [!UICONTROL Función de editor] | Esta nueva función es similar a la función [!UICONTROL Observador] actual (puede crear actividades de vista, pero no puede crearlas o editarlas). Sin embargo, la función [!UICONTROL Editor] tiene el permiso adicional para activar actividades.<br>Para obtener más información, consulte: <ul><li>**Usuarios** de Target Standard: [Especifique funciones y permisos](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) en *Usuarios*.</li><li>**Usuarios** de destinatario Premium: [Paso 6: Especifique funciones y permisos](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) en *Configurar permisos* de empresa.</li></ul> |
+| Asistencia técnica de A4T el 25 [!DNL Analysis Workspace]<br>de junio de 2020 | [!UICONTROL Ahora se admite Analytics para Destinatario] (A4T) en [!DNL Analysis Workspace]. El panel  Análisis para Destinatario (A4T) le permite analizar sus [!DNL Adobe Target] actividades y experiencias en [!DNL Analysis Workspace].<br>Para obtener más información, consulte [Informes en Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) en el panel *sistema de informes* de [A4T y](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics para Destinatario (A4T) en la Guía *de herramientas de* Analytics. |
 
 **Mejoras, correcciones y cambios**
 
@@ -46,7 +47,7 @@ Se han realizado las siguientes mejoras y correcciones en las bibliotecas de [!D
 | at.js.  1.8.2 | Esta versión de at.js es una versión de mantenimiento que incluye la siguiente corrección:<ul><li>Se ha corregido un problema que se producía al utilizar CNAME y la anulación de bordes, at.js 1.*x* podría crear incorrectamente el dominio del servidor, lo que ocasionaba que fallara la [!DNL Target] solicitud. (TNT-35064)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | at.js 2.3.1 | Esta versión de at.js es de mantenimiento e incluye las siguientes mejoras y correcciones:<ul><li>Se ha hecho que la `deviceIdLifetime` configuración se pueda anular mediante [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>Se ha corregido un problema que se producía al utilizar CNAME y la anulación de bordes, at.js 2.*x* podría crear incorrectamente el dominio del servidor, lo que ocasionaba que fallara la [!DNL Target] solicitud. (TNT-35065)</li><li>Se ha corregido un problema que se producía al usar la [!DNL Target] extensión v2 y la [!DNL Launch] extensión, [!DNL Adobe Analytics] al retrasar la [!DNL Launch] [!DNL Target] [!DNL Analytics] `sendBeacon` llamada. (TNT-36407, TNT-35990, TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 
-### Cambios en la API de estado de lote de Perfil v2 (14 de mayo de 2020)
+### Cambios en la API de estado de lote de perfil v2 (14 de mayo de 2020)
 
 Con la versión del 20 de mayo, el estado de Lote de Perfil solo devolverá datos de error de nivel de fila a partir de ahora (no se devolverán datos de éxito). La API devolverá los ID de perfil fallidos a partir de ahora.
 
@@ -122,13 +123,13 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 * Se ha corregido un problema que no cumplía correctamente los requisitos de un dispositivo y un tipo de explorador para una audiencia. (TGT-36266)
 * Se ha corregido un problema que impedía que los datos del informe se mostraran cuando se visualizaban en pantallas de menos de 963 píxeles de ancho. (TGT-36549)
 * Se ha corregido un problema que provocaba que los informes de Personalización automática no se representaran correctamente. (TGT-36619)
-* Se ha corregido un problema que permitía que se seleccionaran métricas incompatibles en las actividades de asignación automática y Destinatario automático que usan Analytics para Destinatario (A4t). (TGT-36646)
+* Se ha corregido un problema que permitía seleccionar métricas incompatibles en la asignación automática y en actividades de Destinatario automático que usan Analytics para Destinatario (A4t). (TGT-36646)
 * Se ha corregido un problema que provocaba que determinadas opciones del Compositor de experiencias visuales (VEC) no se mostraran correctamente. (TGT-36571)
-* Se ha corregido un problema en la interfaz de usuario de Destinatario que provocaba que otras previsualizaciones de oferta de Recommendations mostraran el contenido editado después de que un usuario reemplazara el contenido en una única experiencia. (TGT-36053 y TGT-36894)
-* Se ha corregido un problema que impedía que algunos usuarios eliminaran elementos de un catálogo de Recomendaciones. (TGT-36455)
-* Se ha corregido un problema que impedía a los usuarios guardar los criterios de Recomendaciones en una actividad de varias páginas. (TGT-36249)
+* Se ha corregido un problema en la interfaz de usuario de Destinatario que hacía que otras previsualizaciones de oferta de Recommendations mostraran el contenido editado después de que un usuario reemplazara el contenido en una única experiencia. (TGT-36053 y TGT-36894)
+* Se ha corregido un problema que impedía que algunos usuarios eliminaran elementos de un catálogo de Recommendations. (TGT-36455)
+* Se ha corregido un problema que impedía a los usuarios guardar criterios de Recommendations en una actividad de varias páginas. (TGT-36249)
 * Se ha corregido un problema que provocaba que los botones de radio del origen de datos de comportamiento desaparecieran al editar los criterios por segunda vez consecutiva. (TGT-36796)
-* Se corrigió un problema de visualización que ocasionaba que un algoritmo de Recomendaciones mostrara &quot;recuperando resultados&quot; durante un período prolongado. (TGT-36550 y TGT-36551)
+* Se ha corregido un problema de visualización que provocaba que un algoritmo de Recommendations mostrara &quot;resultados de búsqueda&quot; durante un período prolongado. (TGT-36550 y TGT-36551)
 * Se han actualizado muchas cadenas de IU traducidas en varios idiomas.
 
 ### Destinatario at.js (25 de marzo de 2020)
@@ -153,7 +154,7 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 * Se han implementado mejoras de seguridad en la directiva de seguridad de contenido (CSP). (TGT-36190)
 * Se ha corregido un problema que hacía que se mostrara &quot;NaN%&quot; al desplazar la barra de porcentaje Ponderación de atributo al extremo izquierdo. (TGT-36211)
 * Se han resuelto problemas de localización para que el texto de la interfaz de usuario en varios idiomas se muestre correctamente.
-* Hemos estandarizado la lista de las métricas disponibles de las actividades de Adobe Analytics para Destinatario (A4T) al dejar de utilizar las métricas de Adobe Analytics no admitidas en la versión actual de las API de Adobe Analytics. Esto nos permitirá ampliar nuestro soporte de A4T en futuras versiones de Adobe Target.
+* Hemos estandarizado la lista de las métricas disponibles de las actividades de Adobe Analytics para Destinatario (A4T) al dejar de utilizar las métricas de Adobe Analytics no admitidas en la versión actual de las API de Adobe Analytics. Esto nos permitirá ampliar nuestra compatibilidad con A4T en futuras versiones de Adobe Target.
 
    Se han realizado los siguientes cambios:
 
@@ -183,7 +184,7 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 
       Eliminamos esta página de aterrizaje para todos nuestros clientes. Ahora siempre se le dirigirá directamente a la página de Lista [!UICONTROL de] Actividades haciendo clic en el [!DNL Target] icono de la nueva barra de navegación de encabezado.
 
-      Si utiliza [!DNL Recommendations Classic], puede ir directamente a la solución o puede ir desde el vínculo corto creado en la ficha [!UICONTROL Recomendaciones] , como se muestra a continuación:
+      Si utiliza [!DNL Recommendations Classic], puede ir directamente a la solución o puede ir desde el vínculo corto creado en la ficha [!UICONTROL Recommendations] , como se muestra a continuación:
 
       ![Vínculo profundo de Recs Classic](/help/r-release-notes/assets/recs-classic.png)
 
@@ -198,7 +199,7 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 
 La versión Target Standard/Premium 20.1.1 es una versión de mantenimiento que incluye mejoras y mejoras en el servidor. Además, se incluyen las siguientes correcciones:
 
-* Se ha corregido un problema que provocaba que el campo del servidor de seguimiento de Adobe Analytics estuviera vacío en la página Objetivos y configuración de actividades existentes de Adobe para Destinatario (A4T). (TGT-35960)
+* Se ha corregido un problema que provocaba que el campo del servidor de seguimiento de Adobe Analytics estuviera vacío en la página Objetivos y configuración para actividades de Adobe para Destinatario (A4T) existentes. (TGT-35960)
 * Se ha corregido un problema en la interfaz de usuario que provocaba que la selección en la segunda lista desplegable no se mostrara al crear una audiencia para la afinidad de categorías. (TGT-36098)
 
 ## Notas de la versión - 2019 {#releases-2019}
@@ -217,7 +218,7 @@ Se ha solucionado el siguiente problema en la versión 1.0.1:
 
 Para obtener más información, consulte [Notas de la versión: SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)de Java de Destinatario.
 
-### Plataforma de Destinatario (31 de octubre de 2019)
+### Plataforma de destinatario (31 de octubre de 2019)
 
 | Función.  / Mejora | Descripción |
 | --- | --- |
@@ -227,13 +228,13 @@ Para obtener más información, consulte [Notas de la versión: SDK](/help/c-imp
 
 | Función.  / Mejora | Descripción |
 | --- | --- |
-| ![Atributos de varios valores de distintivo](/help/assets/premium.png) Premium | A veces desea trabajar con un campo de varios valores. Veamos los siguientes ejemplos:<ul><li>Las películas se oferta a los usuarios. Una película determinada tiene múltiples actores.</li><li>Vendes entradas a conciertos. Un usuario determinado tiene varias bandas favoritas.</li><li>Vendes ropa. Hay una camisa disponible en varios tamaños.</li></ul>Para administrar las recomendaciones en estos escenarios, puede pasar datos de varios valores a Recomendaciones de Destinatario y utilizar operadores especiales de varios valores.<br>Para obtener más información, consulte [Trabajo con atributos](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)de varios valores. |
+| ![Atributos de varios valores de distintivo](/help/assets/premium.png) Premium | A veces desea trabajar con un campo de varios valores. Veamos los siguientes ejemplos:<ul><li>Las películas se oferta a los usuarios. Una película determinada tiene múltiples actores.</li><li>Vendes entradas a conciertos. Un usuario determinado tiene varias bandas favoritas.</li><li>Vendes ropa. Hay una camisa disponible en varios tamaños.</li></ul>Para administrar las recomendaciones en estos casos, puede pasar datos de varios valores a Destinatario Recommendations y utilizar operadores especiales de varios valores.<br>Para obtener más información, consulte [Trabajo con atributos](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)de varios valores. |
 
 ### Target Standard/Premium 19.10.1 (22 de octubre de 2019)
 
 | Función.  / Mejora | Descripción |
 | --- | --- |
-| ![Premium badge](/help/assets/premium.png) Recomendaciones<br>basadas en el usuario (24 de octubre de 2019) | Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como &quot;Recomendado para usted&quot;.<br>Este criterio le permite entregar contenido y experiencias personalizadas a visitantes nuevos y reincidentes. La lista de las recomendaciones se pondera en función de la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el visitante navega por el sitio.<br>Para obtener más información, consulte &quot;Recomendaciones basadas en el usuario&quot; en [Criterios/Algoritmos](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
+| ![Tarjeta](/help/assets/premium.png) Premium para Recommendations<br>basada en el usuario (24 de octubre de 2019) | Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como &quot;Recomendado para usted&quot;.<br>Este criterio le permite entregar contenido y experiencias personalizadas a visitantes nuevos y reincidentes. La lista de las recomendaciones se pondera en función de la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el visitante navega por el sitio.<br>Para obtener más información, consulte &quot;Recommendations basado en usuarios&quot; en [Criterios/Algoritmos](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
 **Navegación de Adobe Experience Cloud**
 
@@ -249,7 +250,7 @@ Para obtener más información, consulte [Notas de la versión: SDK](/help/c-imp
 
       Eliminamos esta página de aterrizaje para todos nuestros clientes. Ahora siempre se le dirigirá directamente a la página de Lista [!UICONTROL de] Actividades haciendo clic en el [!DNL Target] icono de la nueva barra de navegación de encabezado.
 
-      Si utiliza [!DNL Recommendations Classic], puede ir directamente a la solución o puede ir desde el vínculo corto creado en la ficha [!UICONTROL Recomendaciones] , como se muestra a continuación:
+      Si utiliza [!DNL Recommendations Classic], puede ir directamente a la solución o puede ir desde el vínculo corto creado en la ficha [!UICONTROL Recommendations] , como se muestra a continuación:
 
       ![Vínculo profundo de Recs Classic](/help/r-release-notes/assets/recs-classic.png)
 
@@ -268,20 +269,20 @@ Para obtener más información, consulte [Notas de la versión: SDK](/help/c-imp
 | --- | --- |
 | Versión 2.2.<br><br>y at.js versión 1.8 de at.js | Estas versiones de at.js proporcionan:<ul><li>Se ha mejorado el rendimiento al usar tanto el servicio de ID de Experience Cloud (ECID) v4.4 como at.js 2.2 o at.js 1.8 en las páginas web.</li><li>Anteriormente, el ECID realizaba dos llamadas de bloqueo antes de que at.js pudiera recuperar experiencias. Esto se ha reducido a una sola llamada, lo que mejora significativamente el rendimiento.</li></ul> Para aprovechar estas mejoras de rendimiento, actualice a at.js 2.2 o at.js 1.8 junto con la biblioteca ECID v4.4.<br>at.js 2.2 proporciona:<ul><li>**serverState**: Una configuración disponible en at.js v2.2+ que se puede utilizar para optimizar el rendimiento de la página cuando se implementa una integración híbrida de Destinatario. La integración híbrida significa que se utiliza at.js v2.2+ en el cliente y la API de envío o un SDK de Destinatario en el servidor para ofrecer experiencias. `serverState` proporciona a at.js v2.2+ la capacidad de aplicar experiencias directamente desde el contenido recuperado en el servidor y devuelto al cliente como parte de la página que se está ofreciendo.<br>Para obtener más información, consulte &quot;serverState&quot; en [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
 
-### Plataforma de Destinatario (9 de octubre de 2019)
+### Plataforma de destinatario (9 de octubre de 2019)
 
 | Función.  / Mejora | Descripción |
 | --- | --- |
-| SDK de Node.js versión 1.0 | El SDK de Node.js de Destinatario permite implementar Destinatario en el servidor.<br>Este SDK de Node.js ayuda a integrar fácilmente el Destinatario con otras soluciones de Experience Cloud, como el servicio de identidad de Adobe Experience Cloud, Adobe Analytics y Adobe Audience Manager.<br>El SDK de Node.js presenta prácticas recomendadas y elimina las complejidades al integrarse con Adobe Target a través de nuestra API de envío para que sus equipos de ingeniería puedan centrarse en la lógica empresarial. Las siguientes son funciones destacadas que presentamos en la versión más reciente:<ul><li>Compatibilidad con la recuperación previa y las notificaciones que le permiten optimizar el rendimiento mediante almacenamiento en caché.</li><li>Compatibilidad para optimizar el rendimiento cuando se dispone de una integración híbrida de Destinatario tanto en las páginas web como en el servidor. Estamos introduciendo una configuración llamada `serverState` que se rellenará con las experiencias recuperadas a través del servidor para que at.js 2.2 ya no realice una llamada adicional al servidor para recuperar las experiencias. Este método optimiza el rendimiento de carga de la página.</li><li> Compatibilidad con la recuperación de actividades creadas por VEC mediante el SDK Node.js, lo cual es posible gracias a la nueva API de Envío.</li><li>Abra source para que los desarrolladores puedan contribuir al SDK de Node.js.</li></ul><br>Para obtener más información, consulte [Notas de la versión: SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)de Destinatario Node.js. |
-| API de Envío | Hay disponible un extremo de API de envío completamente nuevo (/v1/envío) en producción. Las características destacables son:<ul><li>Un punto final para recuperar experiencias para uno o varios mboxes.</li><li>Recupere actividades creadas por VEC mediante la API.</li><li>Compatibilidad con un objeto completamente nuevo llamado Vistas que se utiliza en aplicaciones de una sola página (SPA) y aplicaciones móviles.</li></ul><br>Para obtener más información, consulte [Notas de la versión: Destinatario de las API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)del lado del servidor. |
+| SDK de Node.js versión 1.0 | El SDK de Node.js de Destinatario permite implementar Destinatario en el servidor.<br>Este SDK de Node.js ayuda a integrar fácilmente el Destinatario con otras soluciones Experience Cloud, como Adobe Experience Cloud Identity Service, Adobe Analytics y Adobe Audience Manager.<br>El SDK de Node.js presenta prácticas recomendadas y elimina las complejidades al integrarse con Adobe Target a través de nuestra API de envío para que sus equipos de ingeniería puedan centrarse en la lógica empresarial. Las siguientes son funciones destacadas que presentamos en la versión más reciente:<ul><li>Compatibilidad con la recuperación previa y las notificaciones que le permiten optimizar el rendimiento mediante almacenamiento en caché.</li><li>Compatibilidad para optimizar el rendimiento cuando se dispone de una integración híbrida de Destinatario tanto en las páginas web como en el servidor. Estamos introduciendo una configuración llamada `serverState` que se rellenará con las experiencias recuperadas a través del servidor para que at.js 2.2 ya no realice una llamada adicional al servidor para recuperar las experiencias. Este método optimiza el rendimiento de carga de la página.</li><li> Compatibilidad con la recuperación de actividades creadas por VEC mediante el SDK Node.js, lo cual es posible gracias a la nueva API de Envío.</li><li>Abra source para que los desarrolladores puedan contribuir al SDK de Node.js.</li></ul><br>Para obtener más información, consulte [Notas de la versión: SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)de Destinatario Node.js. |
+| API de envío | Hay disponible un extremo de API de envío completamente nuevo (/v1/envío) en producción. Las características destacables son:<ul><li>Un punto final para recuperar experiencias para uno o varios mboxes.</li><li>Recupere actividades creadas por VEC mediante la API.</li><li>Compatibilidad con un objeto completamente nuevo llamado Vistas que se utiliza en aplicaciones de una sola página (SPA) y aplicaciones móviles.</li></ul><br>Para obtener más información, consulte [Notas de la versión: Destinatario de las API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)del lado del servidor. |
 
 ### Target Standard/Premium 19.9.2 (30 de septiembre de 2019)
 
 Esta versión de mantenimiento incluye las siguientes mejoras:
 
 * Varias correcciones de seguridad, incluida una actualización de seguridad del Editor de texto enriquecido (RTE) en el Compositor de experiencias visuales (VEC). (TGT-35383)
-* Las Ofertas de Recomendaciones ahora se pueden agregar a elementos que no sean DIV (por ejemplo, P, UL, H1), además de DIV, en actividades de Prueba A/B y Segmentación de experiencias. (TGT-34333)
-* Las notificaciones de Evento (el icono de la campana en la interfaz de usuario de Destinatario) ya no están disponibles. Próximamente se lanzará una nueva búsqueda de notificaciones.
+* Las Ofertas de Recommendations ahora se pueden agregar a elementos que no sean DIV (por ejemplo, P, UL, H1), además de DIV, en actividades de Prueba A/B y Segmentación de experiencias. (TGT-34333)
+* Las notificaciones de evento (el icono de la campana en la interfaz de usuario de Destinatario) ya no están disponibles. Próximamente se lanzará una nueva búsqueda de notificaciones.
 
 ### Target Standard/Premium 19.9.1 (10 de septiembre de 2019)
 
@@ -1373,7 +1374,7 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras, correcciones y ca
 
 Para obtener más información, consulte [Habilitar contenido mixto en el explorador](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C).
 
-* Se ha mejorado el flujo de trabajo cuando se agota el tiempo de espera de la sesión de Destinatario de un usuario al configurar las opciones en las páginas Administración, Audiencias y Recomendaciones. Cuando el usuario hace clic en Guardar se muestra el mensaje de sesión expirada. Sin embargo, cuando vuelve a iniciar la sesión, un cuadro de diálogo indica que el inicio de sesión se ha realizado correctamente y que la interfaz de usuario permanece en la misma página de Target, sin que se haya producido pérdida de datos. (TGT-25557)
+* Se ha mejorado el flujo de trabajo cuando se agota el tiempo de espera de la sesión de Destinatario de un usuario al configurar las opciones en las páginas Administración, Audiencias y Recommendations. Cuando el usuario hace clic en Guardar se muestra el mensaje de sesión expirada. Sin embargo, cuando vuelve a iniciar la sesión, un cuadro de diálogo indica que el inicio de sesión se ha realizado correctamente y que la interfaz de usuario permanece en la misma página de Target, sin que se haya producido pérdida de datos. (TGT-25557)
 
 ### Cambios en la plataforma de Target (27 de septiembre de 2017).  {#section_AC32516DFBA64AD2AC9A74171D452778}
 
