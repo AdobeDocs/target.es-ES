@@ -1,10 +1,14 @@
 ---
-keywords: Target;informes;configuración de informes;métricas múltiples;métricas
-description: Seleccione varias métricas para ver en un informe con Adobe Target.
-title: Ver varias métricas en un informe con Adobe Target
+keywords: Target;reports;report settings;multiple metrics;metrics
+description: Seleccione varias métricas para la vista en un informe mediante Adobe Target.
+title: Vista de varias métricas en un informe mediante Adobe Target
+feature: null
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +26,7 @@ Tenga en cuenta la siguiente información cuando trabaje con varias métricas en
 
 **Para seleccionar varias métricas que se mostrarán en el informe:**
 
-1. Para mostrar un informe, haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **Informes[!UICONTROL .]**
+1. Para mostrar un informe, haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes.]**
 1. Haga clic en la lista desplegable **[!UICONTROL Métrica de informes]** para ver las listas [!UICONTROL Métricas mostradas] y [!UICONTROL Métricas ocultas].
 
    ![](assets/multiple_metrics.png)
@@ -41,14 +45,14 @@ Tenga en cuenta la siguiente información cuando trabaje con varias métricas en
 
    Puede reorganizar las métricas arrastrándolas y soltándolas en el orden deseado en la lista [!UICONTROL Métricas mostradas]. El orden seleccionado se reflejará en la Visualización de tabla y en la Visualización de gráfico. Para eliminar una métrica de la lista [!UICONTROL Métricas mostradas], pase el puntero del ratón sobre ella y, a continuación, haga clic en el icono **X**.
 
-1. Haga clic en **[!UICONTROL Guardar]cuando termine.**
-1. (Condicional) Mientras visualiza el informe en la vista Tabla, coloque el puntero del ratón sobre el encabezado de columna de cualquier métrica para mostrar una flecha azul. Haga clic en la flecha para expandir la tabla y mostrar el [!UICONTROL Alza] y la [!UICONTROL Confianza] para esa métrica.
+1. Haga clic en **[!UICONTROL Guardar]** cuando termine.
+1. (Condicional) Mientras ve el informe en la Vista Tabla, coloque el puntero del ratón sobre el encabezado de columna de cualquier métrica para mostrar una flecha azul. Haga clic en la flecha para expandir la tabla y mostrar el [!UICONTROL Alza] y la [!UICONTROL Confianza] para esa métrica.
 
    ![](assets/multiple_metrics_table.png)
 
    Solo puede expandir una métrica/coluna a la vez. Vuelva a hacer clic en la flecha para contraer las columnas.
 
-1. (Condicional) Al ver el informe en la vista de gráfico, puede seleccionar métricas individuales para mostrarlas en la lista desplegable:
+1. (Condicional) Al ver el informe en la Vista Gráfico, puede seleccionar métricas individuales para mostrarlas en la lista desplegable:
 
    ![](assets/multiple_metrics_graph.png)
 
