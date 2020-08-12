@@ -1,10 +1,14 @@
 ---
 description: Dado que una prueba multivariable compara varias experiencias, es importante conocer cuánto tráfico se requiere para proporcionar resultados significativos. El estimador de tráfico usa datos estadísticos sobre su página y el número de experiencias que se están probando para calcular la cantidad de tráfico y la duración de la prueba necesarios para que la prueba se realice con éxito.
 title: Calcular el tráfico necesario para una prueba de éxito
+feature: null
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 100%
 
 ---
 
@@ -29,9 +33,9 @@ La prueba utiliza la corrección de Bonferroni para corregir varias comparacione
 
 El estimador de tráfico también proporciona información que le permite conocer si tiene tráfico suficiente para que tenga éxito la prueba que ha diseñado.
 
-1. **En el Compositor de experiencias, haga clic en el icono[!UICONTROL Tráfico]**.
+1. **[!UICONTROL En el Compositor de experiencias, haga clic en el icono Tráfico]**.
 
-   Se abre el estimador de tráfico. Para ocultar el calculador de Tráfico, vuelva a hacer clic en el icono **[!UICONTROL Tráfico**].
+   Se abre el estimador de tráfico. Para ocultar el calculador de Tráfico, vuelva a hacer clic en el icono **[!UICONTROL Tráfico]**.
 
    ![](assets/estimatorempty.png)
 
@@ -41,6 +45,7 @@ El estimador de tráfico también proporciona información que le permite conoce
    * [!UICONTROL Tasa de conversión típica]: la tasa de conversión se expresa como porcentaje según los datos o las estimaciones anteriores procedentes del sistema de Analytics
    * [!UICONTROL Visitantes estimados por día]: es el número de visitantes que tienen probabilidades de ver esta página según los criterios de segmentación. Esta cifra puede estar basada en los datos de Analytics.
    * [!UICONTROL Duración de la prueba]: número de días durante los cuales quiere ejecutar la actividad.
+
    El estimador de tráfico utiliza estas estadísticas para determinar qué ajustes se necesitan para ejecutar una prueba con éxito.
 
    Cerca de la parte superior del estimador de tráfico, se calculan los valores que ha indicado y se muestran los resultados.
@@ -53,6 +58,7 @@ El estimador de tráfico también proporciona información que le permite conoce
 
    * Reduzca el número de combinaciones de las ofertas y el número de ubicaciones.
    * Aumentar la duración de la prueba.
+
    Ajuste las cifras hasta que el estimador de tráfico le indique que tiene tráfico suficiente y, después, diseñe la prueba según corresponda.
 
    ![](assets/estimatorok.png)
