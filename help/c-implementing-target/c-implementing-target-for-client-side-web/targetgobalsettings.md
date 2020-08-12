@@ -2,10 +2,11 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
 title: Información sobre la función targetGlobalSettings() para la biblioteca JavaScript at.js de Adobe Target.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 39%
@@ -179,7 +180,7 @@ Las configuraciones que se pueden anular son las siguientes:
 
 * **Tipo**: Booleano
 * **Valor** predeterminado: true
-* **Descripción**: Cuando está habilitada, recupera automáticamente vistas que deben devolverse al cargar la página. Las Vistas se admiten en at.js 2.Solamente *x.*
+* **Descripción**: Cuando está habilitada, recupera automáticamente vistas que deben devolverse al cargar la página. Las vistas se admiten en at.js 2.Solamente *x.*
 
 ### visitorApiTimeout
 
@@ -354,7 +355,7 @@ Debe tener una integración híbrida de [!DNL Target].
 
 ### Ejemplos de código
 
-Para comprender mejor cómo funciona esto, vea los ejemplos de código siguientes que tendría en su servidor. El código supone que está utilizando el SDK [de](https://github.com/adobe/target-nodejs-sdk)Destinatario Node.js.
+Para comprender mejor cómo funciona esto, vea los ejemplos de código siguientes que tendría en su servidor. El código asume que está utilizando el SDK [de Node.js de](https://github.com/adobe/target-nodejs-sdk)Destinatario.
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -463,8 +464,8 @@ Consider the following when using `serverState`:
 
 * En este momento, at.js v2.2 solo admite la entrega de experiencias mediante serverState para:
 
-   * actividades creadas por VEC que se ejecutan al cargar la página.
-   * vistas prebuscadas.
+   * Actividades creadas por VEC que se ejecutan al cargar la página.
+   * Vistas prebuscadas.
 
       En el caso de los SPA que utilizan [!DNL Target] Vistas y `triggerView()` en la API de at.js, at.js v2.2 almacena en caché el contenido de todas las Vistas recuperadas previamente en el servidor y lo aplica en cuanto se activa cada Vista mediante `triggerView()`, de nuevo sin activar ninguna llamada de recuperación de contenido adicional al Destinatario.
 
