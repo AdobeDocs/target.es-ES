@@ -2,10 +2,11 @@
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 title: Configuración y objetivos
+feature: null
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 96%
@@ -68,7 +69,7 @@ Para obtener más información sobre la configuración avanzada, consulte [Métr
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Distintivo de ![tutorial de configuración de Actividad (3:02)](/help/assets/tutorial.png)
+### Distintivo de ![tutorial de configuración de actividad (3:02)](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
