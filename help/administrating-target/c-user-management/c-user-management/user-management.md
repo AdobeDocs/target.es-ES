@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Puede añadir usuarios y gestionar sus permisos en Adobe Admin Console.
 title: Usuarios
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 48%
@@ -45,11 +46,11 @@ Puede realizar la vista de una lista de los usuarios actuales en el entorno de D
 
 Para vista de la página Usuarios, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Usuarios]**.
 
-![lista del usuario desde Destinatario](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+![Lista del usuario desde Destinatario](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
->Para administrar usuarios existentes o agregar usuarios nuevos, debe utilizar [!UICONTROL Adobe Admin Console], tal como se explica a continuación.
+>Para administrar usuarios existentes o agregar usuarios nuevos, debe utilizar el [!UICONTROL Adobe Admin Console], tal como se explica a continuación.
 
 ## Acceso a Adobe Admin Console {#access}
 
@@ -67,14 +68,14 @@ Para tareas realizadas en Adobe Admin Console, acceda a la consola siguiendo est
 
 Toda la administración de usuarios debe realizarse en [!DNL Adobe Admin Console for Enterprise]. Sin embargo, todos los usuarios existentes en [!DNL Target] se migrarán de [!DNL Target] a [!DNL Admin Console for Enterprise].
 
-1. [En Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Usuarios]** para crear nuevos usuarios o editar los existentes.
+1. [En el Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Usuarios]** para crear nuevos usuarios o editar los existentes.
 1. Siga las instrucciones de [Administrar usuarios y grupos en Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) en la *Guía del usuario de Enterprise*.
 
 ## Create user groups {#user-groups}
 
 Puede crear grupos de usuarios, como Desarrolladores, Analistas, Especialistas en marketing, Ejecutivos, etc., y luego asignar privilegios en varios productos y espacios de trabajo de Adobe. Asignar todos los privilegios apropiados en diferentes productos de Adobe a un nuevo miembro del equipo puede ser tan fácil como añadirlos a un grupo de usuarios específico.
 
-1. [En Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en **[!UICONTROL Usuarios]** > Grupos **** de usuarios para crear nuevos grupos de usuarios o editar los existentes.
+1. [En el Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en **[!UICONTROL Usuarios]** > Grupos **** de usuarios para crear nuevos grupos de usuarios o editar los existentes.
 1. Siga las instrucciones de [Administrar usuarios y grupos en Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) en la *Guía del usuario de Enterprise*.
 
 ## Especificar funciones y permisos {#roles-permissions}
@@ -97,7 +98,7 @@ Los usuarios administradores del sistema deben agregar usuarios al sistema. Los 
 
 1. Seleccione la función de permisos deseada (Aprobador, Editor u Observador) utilizando la lista desplegable de cada usuario en la columna [!UICONTROL Función del producto].
 
-   ![lista desplegable Función del producto](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
+   ![Lista desplegable Función del producto](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Función | Descripción |
    |--- |--- |
