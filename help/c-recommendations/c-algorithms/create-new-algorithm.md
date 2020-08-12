@@ -1,9 +1,13 @@
 ---
 description: Los criterios controlan el contenido de sus actividades de Adobe Recommendations. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad.
 title: Crear criterios
+feature: null
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3605'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +51,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
    * [!UICONTROL Venta minorista/Comercio electrónico]
    * [!UICONTROL Generación de vanguardia/B2B/Servicios financieros]
    * [!UICONTROL Medios/Publicación]
+
    Otras opciones de criterios cambiarán según el sector que seleccione.
 
 1. Seleccione un **[!UICONTROL Tipo de página]**.
@@ -94,6 +99,7 @@ Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterio
    * [!UICONTROL Habilitar procesamiento parcial de diseño]
    * [!UICONTROL Mostrar recomendaciones de copia de seguridad]
    * [!UICONTROL Recomendar productos adquiridos anteriormente]
+
    Esta configuración se basa en `productPurchasedId`. Es útil si vende artículos que la gente suele comprar solo una vez como, por ejemplo, canoas. Le recomendamos desactivar esta opción si vende artículos que la gente suele volver para comprar de nuevo como, por ejemplo, champú u otros artículos personales.
 
 1. Establezca las **[!UICONTROL Reglas de inclusión]**.
