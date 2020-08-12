@@ -1,11 +1,15 @@
 ---
-keywords: personalización automatizada;oferta;informe;grupo;grupo de informes
-description: Información sobre el uso de grupos de informes en actividades de Personalización automatizada (AP) en Adobe Target.
-title: Ofrezca grupos de informes en actividades de Personalización automatizada (AP) en Adobe Target
+keywords: automated personalization;offer;reporting;group;reporting group
+description: Información sobre el uso de grupos de sistemas de informes en actividades de Automated Personalization (AP) en Adobe Target.
+title: Grupos de sistemas de informes de oferta en actividades Automated Personalization (AP) en Adobe Target
+feature: null
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 64%
 
 ---
 
@@ -36,11 +40,11 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
    ![](assets/ap_manage_content.png)
 
 1. Haga clic en la pestaña **[!UICONTROL Ofertas]** en la parte superior del cuadro de diálogo [!UICONTROL Administrar contenido].
-1. (Condicional) Agregue experiencias específicas a un grupo de informes pasando el puntero sobre la oferta deseada y haciendo clic en el icono de la carpeta **[!UICONTROL Grupo de informes].**
+1. (Condicional) Agregue experiencias específicas a un grupo de informes pasando el puntero sobre la oferta deseada y haciendo clic en el icono de la carpeta **[!UICONTROL Grupo de informes]**.
 
    ![](assets/ap_manage_content_2.png)
 
-1. (Condicional) Incluya experiencias en lote en un grupo de informes seleccionando la casilla de las experiencias relevantes y haciendo clic en el icono de la carpeta **[!UICONTROL Grupo de informes], en la esquina superior derecha del cuadro de diálogo.**
+1. (Condicional) Incluya experiencias en lote en un grupo de informes seleccionando la casilla de las experiencias relevantes y haciendo clic en el icono de la carpeta **[!UICONTROL Grupo de informes]**, en la esquina superior derecha del cuadro de diálogo.
 
    ![](assets/ap_manage_content_3.png)
 
