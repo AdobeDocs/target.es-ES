@@ -1,11 +1,15 @@
 ---
 keywords: Profile script;profile script attributes;mutually exclusive activities
 description: Puede usar atributos de perfil para definir pruebas que comparen dos o más actividades, pero sin permitir que los mismos visitantes participen en cada una de ellas.
-title: Usar scripts de perfil para probar actividades mutuamente excluyentes
+title: Utilice secuencias de comandos de perfil para probar actividades mutuamente excluyentes
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +20,7 @@ Puede usar atributos de perfil para definir pruebas que comparen dos o más acti
 
 La prueba de actividades mutuamente exclusivas evita que un visitante de una campaña afecte a los resultados de la prueba para el resto de actividades. Cuando un visitante participa en diversas actividades, puede resultar difícil determinar si se ha producido un alza positiva o negativa de la experiencia del visitante con una actividad o si interacciones entre varias actividades han afectado a los resultados de una o más actividades.
 
-Por ejemplo, puede probar dos áreas del sistema de comercio electrónico. Puede que desee probar haciendo que el botón &quot;Agregar al carro&quot; esté rojo en lugar de azul. También puede desear probar un nuevo proceso de cierre de compra que reduzca el número de pasos de cinco a dos. Si ambas actividades tienen el mismo evento de éxito (una compra completada), puede resultar difícil determinar si el botón rojo mejora las conversiones o si esas mismas conversiones también se incrementaron debido al proceso de cierre de compra mejorado. Al separar las pruebas en actividades mutuamente exclusivas, puede probar cada fase de forma independiente.
+Por ejemplo, puede probar dos áreas del sistema de comercio electrónico. Es posible que desee probar haciendo que el botón &quot;Añadir al carro&quot; sea rojo en lugar de azul. También puede desear probar un nuevo proceso de cierre de compra que reduzca el número de pasos de cinco a dos. Si ambas actividades tienen el mismo evento de éxito (una compra completada), puede resultar difícil determinar si el botón rojo mejora las conversiones o si esas mismas conversiones también se incrementaron debido al proceso de cierre de compra mejorado. Al separar las pruebas en actividades mutuamente exclusivas, puede probar cada fase de forma independiente.
 
 Tenga en cuenta la siguiente información cuando utilice uno de los siguientes scripts de perfil:
 
