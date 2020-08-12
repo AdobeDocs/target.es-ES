@@ -1,11 +1,15 @@
 ---
-keywords: varias páginas;prueba de trayecto;actividad de varias páginas
+keywords: multi-page;journey testing;multipage activity
 description: Una actividad de varias páginas le permite crear una historia en varias páginas, con un diseño que es específico de cada página.
 title: Actividad de varias páginas
+feature: null
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +30,7 @@ Puede especificar reglas de plantilla para cada página en la prueba de varias p
 
 Para agregar páginas a una prueba:
 
-1. Haga clic en el icono de engranaje **[!UICONTROL Configurar].**
+1. Haga clic en el icono de engranaje **[!UICONTROL Configurar]**.
 1. Haga clic en **[!UICONTROL Agregar páginas adicionales]**.
 
    Aparece una barra de navegación en el lado izquierdo de la pantalla.
@@ -35,7 +39,7 @@ Para agregar páginas a una prueba:
 
 1. Use esa barra de navegación para especificar las páginas y establecer la página predeterminada.
 
-   Haga clic en **[!UICONTROL Agregar página]para agregar una página adicional.**
+   Haga clic en **[!UICONTROL Agregar página]** para agregar una página adicional.
 
    Haga clic en el icono de tres elipses verticales para mostrar un menú de acción:
 
