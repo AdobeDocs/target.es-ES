@@ -1,11 +1,15 @@
 ---
-keywords: mbox;mbox3rdPartyId;sincronización de perfiles;sinc. de perfiles;PCID
+keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
 description: 'Información sobre el perfil en tiempo real '
 title: Sincronización de perfiles en tiempo real para mbox3rdPartyId en Adobe Target
+feature: null
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 81%
 
 ---
 
@@ -31,11 +35,11 @@ Cuando el visitante cierra sesión, se conserva el perfil combinado.
 
 >[!NOTE]
 >
->Si desea distinguir entre usuarios autenticados (con inicio de sesión) y usuarios no autenticados, utilice el servicio de identidad de Adobe Experience Cloud (ECID) en lugar de mbox3rdPartyID. Una vez que un usuario está asociado con mbox3rdPartyID, permanece asociado al usuario incluso después de cerrar sesión.
+>Si desea distinguir entre usuarios autenticados (con inicio de sesión) y usuarios no autenticados, utilice Adobe Experience Cloud Identity Service (ECID) en lugar de mbox3rdPartyID. Una vez que un usuario está asociado con mbox3rdPartyID, permanece asociado al usuario incluso después de cerrar sesión.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] no se rastrearán los objetivos en los casos en los que el [!DNL Adobe Experience Cloud] ID (EDID) cambie (por ejemplo, el visitante cambie de dispositivo), aunque el [!DNL Target] perfil se pueda combinar en función del mbox3rdPartyId y siga teniendo información de actividad. For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] no se realizará un seguimiento de los objetivos en los casos en los que el [!DNL Adobe Experience Cloud] ID (EDID) cambie (por ejemplo, el visitante cambia de dispositivo), aunque el [!DNL Target] perfil se pueda combinar en función del mbox3rdPartyId y siga teniendo información de actividad. For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
 
 ## Consideraciones {#considerations}
 
