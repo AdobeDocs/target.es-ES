@@ -2,10 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Puede configurar una actividad en Target Standard/Premium para que use Adobe Analytics como fuente de informes (A4T).
 title: Creación de actividad
+feature: null
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cbab5b34475b279cf3c58530665f096943ecbf95
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 25%
@@ -19,7 +20,7 @@ You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as 
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. Seleccione una métrica de éxito final para la actividad. Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
-## Crear una actividad que utilice Analytics como origen de sistema de informes
+## Crear una actividad que utilice Analytics como fuente de sistema de informes
 
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
@@ -91,7 +92,7 @@ En primer lugar:
 
    [!UICONTROL La asignación] automática utilizará la métrica seleccionada para optimizar la actividad, lo que llevará visitantes a la experiencia que maximiza la métrica de objetivos.
 
-1. Utilice la ficha **[!UICONTROL Informes]** para vista del sistema de informes de la actividad según las [!DNL Adobe Analytics] métricas que elija. Haga clic en **[!UICONTROL Vista en Analytics]** para profundizar y segmentar más los datos de sistema de informes.
+1. Utilice la ficha **[!UICONTROL Informes]** para vista del sistema de informes de la actividad según las [!DNL Adobe Analytics] métricas que elija. Haga clic en **[!UICONTROL Vista en Analytics]** para profundizar y segmentar aún más los datos de sistema de informes.
 
 ### Métricas de objetivo admitidas
 
@@ -122,4 +123,4 @@ Los siguientes tipos de métricas no son compatibles como métricas de objetivo 
 * Aunque las métricas calculadas no son compatibles como métricas de objetivo principales, a menudo es posible lograr el resultado deseado seleccionando un evento personalizado como métrica de objetivo principal. Por ejemplo, si desea optimizar para una métrica como &quot;finalizaciones de formulario por visitante&quot;, seleccione un evento personalizado que corresponda a &quot;finalizaciones de formulario&quot; como métrica de objetivo principal. [!DNL Target] normaliza automáticamente las métricas de conversión por visita para tener en cuenta la distribución desigual del tráfico, por lo que no es necesario utilizar una métrica calculada para realizar la normalización.
 * [!DNL Target] utiliza el modelo de atribución de &quot;mismo toque&quot; en la implementación de asignación automática de A4T.
 
-Para obtener más información, consulte [Atribución general](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) en la Guía *de herramientas de* Analytics.
+Para obtener más información, consulte [Atribución general](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) en la Guía *de herramientas* de Analytics.
