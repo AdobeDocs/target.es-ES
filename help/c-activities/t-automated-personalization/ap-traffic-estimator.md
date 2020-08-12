@@ -1,10 +1,14 @@
 ---
 description: El estimador de tráfico proporciona información que le permite conocer si tiene tráfico suficiente para que tenga éxito su actividad.
 title: Calcular el tráfico necesario para realizar una prueba con éxito
+feature: null
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +27,7 @@ Recuerde que Target ofrece experiencias aleatoriamente hasta que se crean los al
 
    ![Icono de tráfico](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   Se abre el estimador de tráfico. Para ocultarlo, puede volver a hacer clic en **[!UICONTROL Estimador de tráfico].**
+   Se abre el estimador de tráfico. Para ocultarlo, puede volver a hacer clic en **[!UICONTROL Estimador de tráfico]**.
 
    ![](assets/ap_est.png)
 
@@ -33,6 +37,7 @@ Recuerde que Target ofrece experiencias aleatoriamente hasta que se crean los al
    * Tasa de conversión típica: la tasa de conversión se expresa como porcentaje según los datos o las estimaciones anteriores procedentes del sistema de Analytics.
    * Visitas estimadas por día: es el número de visitas por día de visitantes que pueden ver la actividad según los criterios de segmentación. Esta cifra puede estar basada en los datos de Analytics. Tenga en cuenta que este número debe ser las visitas, no los visitantes únicos.
    * Duración de la prueba: número de días durante los cuales quiere ejecutar la actividad.
+
    El estimador de tráfico utiliza estas estadísticas para determinar qué ajustes se necesitan para ejecutar una prueba con éxito.
 
    Cerca de la parte superior del estimador de tráfico, se calculan los valores que ha indicado y se muestran los resultados.
@@ -46,6 +51,7 @@ Recuerde que Target ofrece experiencias aleatoriamente hasta que se crean los al
    * Puede usar la segmentación automática en lugar de la personalización automatizada para crear experiencias con varios cambios de oferta en una variación de experiencia.
    * Reduzca el número de combinaciones de ofertas dentro de su actividad de personalización automatizada.
    * Incremente la duración de la actividad.
+
    Ajuste las cifras hasta que el estimador de tráfico le indique que tiene tráfico suficiente y, después, diseñe la prueba según corresponda.
 
    ![](assets/ap_est_yes.png)
