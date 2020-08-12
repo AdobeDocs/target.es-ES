@@ -2,9 +2,10 @@
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: Los problemas de visualización a veces ocurren en el Compositor de experiencias mejorado (EEC) bajo ciertas condiciones.
 title: Resolución de problemas relacionados con el Compositor de experiencias mejorado
+feature: null
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -18,9 +19,9 @@ Los problemas de visualización a veces ocurren en el Compositor de experiencias
 
 ## El EEC no carga una URL de control de calidad interna que no es accesible desde una IP pública. (Solo EEC) {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Esto se puede resolver permitiendo enumerar las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los Visitantes del sitio no necesitan que estas direcciones IP estén permitidas
+Esto se puede resolver mediante la inclusión en la lista de permitidos de las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los visitantes del sitio no necesitan estas direcciones IP incluidas en la lista de permitidos
 
-Pida a su equipo de TI que permita enumerar las siguientes direcciones IP:
+Pida a su equipo de TI que lista de permitidos las siguientes direcciones IP:
 
 | Región | Direcciones IP | Nombres de host |
 |--- |--- |--- |
@@ -38,9 +39,9 @@ Lo que sigue son motivos por los que podría ver este mensaje de error y remedio
 
 * **Problema**: el dominio del sitio web (ISP) está bloqueando el Compositor de experiencias mejorado.
 
-   **Remedio:** Permita enumerar las direcciones IP enumeradas arriba.
+   **Remedio:** Lista de permitidos las direcciones IP enumeradas anteriormente.
 
-* **Problema:** Las direcciones IP están permitidas pero su sitio web no admite TLS versión 1.2. Destinatario utiliza actualmente la configuración predeterminada de 1.2. Antes del Destinatario 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte Cambios [](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)en el cifrado de TLS (Transport Layer Security).
+* **Problema:** Las direcciones IP están incluidas en la lista de permitidos pero su sitio web no admite TLS versión 1.2. Destinatario utiliza actualmente la configuración predeterminada de 1.2. Antes del Destinatario 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte Cambios [](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)en el cifrado de TLS (Transport Layer Security).
 
    **Solución:** vea la siguiente pregunta (El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio que usan TLS 1.2).
 
