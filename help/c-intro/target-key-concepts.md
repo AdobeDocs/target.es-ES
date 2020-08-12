@@ -2,11 +2,15 @@
 keywords: Overview and Reference;act
 description: Información sobre conceptos clave que le ayudarán a comprender las características y capacidades de Adobe Target.
 title: Conceptos clave de Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +111,7 @@ Si desea obtener información sobre el modo en que el perfil del visitante reali
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Distintivo ![Información general de tipos de Actividades (9:03)](/help/assets/overview.png)
+### Distintivo ![Información general de tipos de actividades (9:03)](/help/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 
@@ -117,7 +121,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Uso de la insignia Audiencias en Adobe Destinatario (6:21) ![Información general](/help/assets/overview.png)
+### Uso de la insignia Audiencias en Adobe Target (6:21) ![Información general](/help/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
