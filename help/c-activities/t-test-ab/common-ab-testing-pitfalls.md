@@ -1,17 +1,21 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: Las pruebas A/B constituyen el pilar de la mayoría de los programas de optimización de marketing digital. Los especialistas en marketing las utilizan para ofrecer experiencias optimizadas y segmentadas a los visitantes y clientes. Esta sección describe nueve de los escollos más importantes a los que se enfrentan las empresas al realizar pruebas A/B en Adobe Target. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
+description: Las pruebas A/B constituyen el pilar de la mayoría de los programas de optimización de marketing digital. Los especialistas en marketing las utilizan para ofrecer experiencias optimizadas y segmentadas a los visitantes y clientes. Esta sección describe nueve de los escollos más importantes a los que se enfrentan las compañías al realizar pruebas A/B en Adobe Target. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
 title: Nueve escollos comunes de las pruebas A/B y cómo evitarlos
+feature: null
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: 91cfd46500e1f245750c651f254ee560b04b0795
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3918'
+ht-degree: 88%
 
 ---
 
 
 # Ten common A/B testing pitfalls and how to avoid them{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
 
-Las pruebas A/B constituyen el pilar de la mayoría de los programas de optimización de marketing digital. Los especialistas en marketing las utilizan para ofrecer experiencias optimizadas y segmentadas a los visitantes y clientes. Esta sección describe diez de los escollos más importantes a los que las empresas se enfrentan al realizar pruebas A/B. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
+Las pruebas A/B constituyen el pilar de la mayoría de los programas de optimización de marketing digital. Los especialistas en marketing las utilizan para ofrecer experiencias optimizadas y segmentadas a los visitantes y clientes. Esta sección describe diez de los escollos más importantes a los que se enfrentan las compañías al realizar pruebas A/B. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
 
 ## Pitfall 1: Ignoring the effects of the significance level {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
@@ -120,12 +124,12 @@ Por ejemplo, supongamos que tiene una actividad de prueba A/B en la que el 80 % 
 
 En este escenario, ¿cómo se asignan los usuarios a las experiencias?
 
-Si cambia manualmente la división de asignación al 100 % para la experiencia B, los visitantes que se asignaron originalmente a la experiencia A (el control) permanecerán en la experiencia asignada inicialmente (Experiencia A). El cambio en la asignación del tráfico afecta únicamente a los nuevos participantes.
+Si cambia manualmente la división de asignación al 100 % para la experiencia B, los visitantes que se asignaron originalmente a la experiencia A (el control) permanecerán en su experiencia asignada inicialmente (Experiencia A). El cambio en la asignación del tráfico afecta únicamente a los nuevos participantes.
 
-Si desea cambiar los porcentajes o afectar en gran medida el flujo de visitantes en cada experiencia, le recomendamos que cree una nueva actividad o que copie la actividad y luego edite los porcentajes de asignación de tráfico.
+Si desea cambiar los porcentajes o afectar en gran medida el flujo de visitantes en cada experiencia, le recomendamos que cree una nueva actividad o copie la actividad y luego edite los porcentajes de asignación de tráfico.
 
-Si cambia los porcentajes de las diferentes experiencias durante el período de prueba, los datos tardan unos días en normalizarse, especialmente si muchos compradores regresan visitantes.
-Otro ejemplo es que, si la asignación de tráfico de la prueba A/B se divide 50/50 y, a continuación, se cambia la división a 80/20, durante los primeros días posteriores a ese cambio los resultados podrían verse distorsionados. Si el tiempo promedio de conversión es alto, lo que significa que alguien tarda varias horas o incluso días en realizar una compra, estas conversiones demoradas pueden afectar a los informes. Por lo tanto, en esa primera experiencia en la que el número pasó del 50% al 80% y el tiempo promedio de conversión es de dos días, sólo los visitantes del 50% de la población se están convirtiendo el primer día de la prueba, aunque hoy el 80% de la población está entrando en la experiencia. Esto hace que parezca que la tasa de conversión se desplomó, pero se normalizará nuevamente después de que el 80 % de los visitantes hayan tardado dos días en convertirse.
+Si cambia los porcentajes de distintas experiencias durante el período de prueba, los datos tardan unos días en normalizarse, especialmente si muchos compradores devuelven visitantes.
+Otro ejemplo es que, si la asignación de tráfico de la prueba A/B se divide 50/50 y, a continuación, se cambia la división a 80/20, durante los primeros días posteriores a ese cambio los resultados podrían verse distorsionados. Si el tiempo promedio de conversión es alto, lo que significa que alguien tarda varias horas o incluso días en realizar una compra, estas conversiones demoradas pueden afectar a los informes. Así que, en esa primera experiencia donde el número pasó del 50% al 80%, y el tiempo promedio para la conversión es de dos días, sólo visitantes del 50% de la población se están convirtiendo el primer día de la prueba, aunque hoy el 80% de la población está entrando en la experiencia. Esto hace que parezca que la tasa de conversión se desplomó, pero se normalizará nuevamente después de que el 80% de los visitantes hayan tardado dos días en convertirse.
 
 ## Pitfall 8: Not considering novelty effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
