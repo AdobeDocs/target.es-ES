@@ -2,9 +2,10 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: Lista de preguntas más frecuentes sobre la Personalización automatizada (AP).
 title: Preguntas más frecuentes sobre Personalización automatizada
+feature: null
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 85%
