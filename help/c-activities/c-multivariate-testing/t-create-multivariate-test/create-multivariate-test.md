@@ -2,9 +2,13 @@
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: El Compositor de experiencias visuales (VEC) de Adobe Target le permite crear su prueba multivariada (MVT) directamente en una página compatible con Target y modificar las partes de la página desde Target, todo ello de una manera sencilla.
 title: Crear una prueba multivariable
+feature: null
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 98%
 
 ---
 
@@ -114,7 +118,7 @@ La [!UICONTROL prueba multivariada] (MVT) toma un informe centrado en una págin
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** para crear la actividad.
 
-## Vídeo de capacitación:Creación de una insignia de ![tutorial para pruebas multivariable (9:25)](/help/assets/tutorial.png)
+## Vídeo de capacitación: Creación de una insignia de ![tutorial para pruebas multivariable (9:25)](/help/assets/tutorial.png)
 
 En este vídeo explicamos cómo planificar y crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target.
 
