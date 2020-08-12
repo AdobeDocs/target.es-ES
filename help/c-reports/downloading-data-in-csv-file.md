@@ -1,12 +1,16 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
-description: Descargue datos en formato .csv para poder importarlos rápidamente a Excel, Access u otros programas de análisis de datos mediante Adobe Destinatario.
-title: Descarga de datos en un archivo CSV con Adobe Destinatario
+description: Descargue datos en formato .csv para poder importarlos rápidamente a Excel, Access u otros programas de análisis de datos mediante Adobe Target.
+title: Descarga de datos en un archivo CSV con Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +30,7 @@ Para descargar datos en un archivo CSV:
 
    * [!UICONTROL Exportar informes a CSV]
    * [!UICONTROL Exportar detalles del pedido a un archivo .csv]
+
    ![Opciones de descarga](/help/c-reports/assets/download-options.png)
 
 ## Exportar informes a CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -82,7 +87,7 @@ El informe Detalles del pedido muestra información sobre los pedidos, entre ell
 
 La información siguiente se refiere a la opción Descargar:
 
-* Puede descargar ambos informes para pruebas A/B, personalización automatizada, segmentación de experiencias y actividades multivariadas. No puede descargar el informe de métricas de éxito para actividades de Recommendations.
+* Puede descargar ambos informes para las actividades A/B Test, Automated Personalization, Segmentación de experiencias y multivariable. No puede descargar el informe de métricas de éxito para actividades de Recommendations.
 * La opción Descargar no está disponible para actividades A/B ni Segmentación de experiencias creadas antes de la versión 15.7.1 de Target (julio de 2015).
 * Las experiencias que no tienen datos asociados no se registran en el informe descargado.
 * Las audiencias aplicadas en la interfaz de usuario de informes de Target no se transmiten al informe de descarga.
