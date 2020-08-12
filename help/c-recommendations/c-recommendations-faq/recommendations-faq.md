@@ -1,17 +1,21 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-description: Lista de preguntas más frecuentes sobre las actividades de Recomendaciones de Adobe Target.
-title: Preguntas más frecuentes sobre Recomendaciones de Adobe Target
+description: Lista de las preguntas más frecuentes (FAQ) sobre las actividades de Adobe Target Recommendations.
+title: Preguntas más frecuentes sobre Adobe Target Recommendations
+feature: null
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1933'
+ht-degree: 84%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Preguntas más frecuentes sobre Recommendations{#recommendations-faq}
 
-Lista de preguntas más frecuentes sobre las actividades de Recomendaciones de Adobe Target.
+Lista de las preguntas más frecuentes (FAQ) sobre las actividades de Adobe Target Recommendations.
 
 ## ¿Cuánto tiempo llevará ver las actualizaciones de los elementos del catálogo en mi sitio?
 
@@ -159,7 +163,7 @@ En la cadena de consulta, puede pasar los ID de entidad de las entidades que des
 
 Para habilitar la funcionalidad de exclusión, utilice el parámetro mbox `excludedIds`. Este parámetro apunta a una lista de ID de entidad separados por comas. Por ejemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. El valor se envía al solicitar recomendaciones.
 
-La exclusión solo se realiza para la llamada de Target actual; los elementos no se excluyen en llamadas posteriores de Target a menos que se vuelva a pasar el `excludedIds` valor. Para excluir elementos del carro de compras de las recomendaciones en cada página, siga pasando el `excludedIds` valor en cada página.
+La exclusión solo se realiza para la llamada de Destinatario actual; los elementos no se excluyen en las llamadas de Destinatario posteriores a menos que se vuelva a pasar el `excludedIds` valor. Para excluir elementos del carro de compras de las recomendaciones en cada página, siga pasando el `excludedIds` valor en cada página.
 
 >[!NOTE]
 >
@@ -169,13 +173,13 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 
 De forma predeterminada, esta característica está activada para las recomendaciones de nueva creación. Las recomendaciones existentes deben guardarse para permitir entidades dinámicamente excluidas.
 
-## ¿Qué significa la respuesta NO_CONTENT devuelta a veces en el seguimiento de contenido de Recomendaciones?
+## ¿Qué significa la respuesta NO_CONTENT devuelta a veces en el rastreo de contenido de Recommendations?
 
 NO_CONTENT se devuelve cuando las recomendaciones no están disponibles para la combinación de algoritmo y clave solicitada. En general, esto ocurre cuando las copias de seguridad están desactivadas para el algoritmo y una o varias de las siguientes también son verdaderas:
 
 * Los resultados aún no están listos.
 
-   Esto suele ocurrir cuando primero se guarda una actividad recién creada o después de que se realicen cambios de configuración en la colección, los criterios o las promociones utilizadas en la actividad.
+   Esto suele ocurrir cuando primero se guarda una actividad recién creada o después de realizar cambios de configuración en la colección, los criterios o las promociones utilizadas en la actividad.
 
 * Los resultados están listos, pero aún no se han almacenado en la caché en el servidor Edge más cercano, para la combinación de algoritmo y clave solicitada.
 
@@ -187,4 +191,4 @@ NO_CONTENT se devuelve cuando las recomendaciones no están disponibles para la 
 
 * El procesamiento parcial de la plantilla está desactivado y no hay suficientes resultados disponibles para rellenar la plantilla.
 
-   Esto suele ocurrir cuando tiene una regla de inclusión dinámica, que filtra agresivamente muchos elementos de los posibles resultados. Para evitarlo, habilite las copias de seguridad y no aplique la regla de inclusión a las copias de seguridad, o utilice los criterios de forma secuencial con criterios filtrados con menor agresividad.
+   Esto suele ocurrir cuando tiene una regla de inclusión dinámica, que filtros agresivamente muchos elementos de los posibles resultados. Para evitarlo, habilite las copias de seguridad y no aplique la regla de inclusión a las copias de seguridad, o utilice los criterios de forma secuencial con criterios filtrados con menor agresividad.
