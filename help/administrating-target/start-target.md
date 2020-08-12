@@ -1,12 +1,16 @@
 ---
-keywords: Administración;función de aprobador;aprobador
+keywords: Administration;approver role;approver
 description: En esta sección se explican los primeros pasos que deben realizar los administradores de Adobe Target tras recibir por correo electrónico la invitación de Adobe Experience Cloud.
 title: Primeros pasos del administrador
-subtopic: Primeros pasos
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +23,7 @@ En esta sección se explican los primeros pasos que deben realizar los administr
 
 Un administrador del sistema de la [!DNL Adobe Admin Console] debe agregarle como usuario de [!DNL Target] para enviarle una invitación. A continuación, el administrador de sistemas debe agregarle a uno o varios grupos específicos de funciones. Ambas tareas se realizan en [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Para obtener más información, consulte [Administrar usuarios y productos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) de Experience Cloud en la ayuda *de* Experience Cloud y los servicios principales.
+Para obtener más información, consulte [Administrar usuarios y productos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) Experience Cloud en la ayuda *del* Experience Cloud y los servicios principales.
 
 Recibirá un correo electrónico de invitación después de que el administrador del sistema haya realizado estos pasos.
 
