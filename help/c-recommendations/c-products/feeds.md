@@ -2,9 +2,13 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Utilice fuentes para obtener entidades importadas en Adobe Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
 title: Fuentes
+feature: null
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +43,7 @@ La página Fuentes contiene las siguientes columnas:
 >Las entidades cargadas y los atributos de entidad caducan pasados 61 días. Esto implica lo siguiente:
 >
 >* La fuente debe ejecutarse al menos mensualmente para asegurarse de que el contenido del catálogo no caduca.
->* La eliminación de un elemento del archivo de fuente no elimina ese elemento del catálogo. Para eliminar el elemento del catálogo, elimínelo manualmente mediante la interfaz de usuario o la API de Target. O bien, modifique los atributos del artículo (como el inventario) para asegurarse de que el artículo está excluido de la consideración.
+>* La eliminación de un elemento del archivo de fuente no elimina ese elemento del catálogo. Para eliminar el elemento del catálogo, elimínelo manualmente mediante la interfaz de usuario o la API de Destinatario. O bien, modifique los atributos del artículo (como el inventario) para asegurarse de que el artículo está excluido de la consideración.
 
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
@@ -102,7 +106,7 @@ Si tiene una fuente de productos de Google existente, puede usarla como su archi
 >
 >No es obligatorio usar datos de Google. [!DNL Recommendations] solo utiliza el mismo formato que Google. Puede usar este método para cargar los datos que tenga y utilizar las funciones de programación disponibles. No obstante, debe conservar los nombres de atributo predefinidos de Google al configurar el archivo.
 
-La mayoría de vendedores cargan los productos a Google para que dichos productos se muestren cuando un visitante realice una búsqueda de productos en Google. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
+La mayoría de vendedores cargan los productos a Google para que dichos productos se muestren cuando un visitante realice una búsqueda de productos en Google. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -218,6 +222,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
    * CSV
    * Fuente de productos de Google
    * Clasificaciones de Analytics
+
    Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. (Condicional) Si ha seleccionado **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
@@ -323,7 +328,7 @@ El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutad
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Explicación de las fuentes en Recommendations (3:01) Distintivo ![de información general](/help/assets/overview.png)
+### Explicación de las fuentes en Recommendations (3:01) ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo contiene la información siguiente:
 
@@ -332,7 +337,7 @@ Este vídeo contiene la información siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creación de una fuente (6:44) Distintivo ![de tutoriales](/help/assets/tutorial.png)
+### Creación de una fuente (6:44) ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
