@@ -2,9 +2,13 @@
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: Puede añadir fechas y horas de inicio y fin para dirigirse a los usuarios que visitan el sitio durante un periodo de tiempo determinado. También puede establecer opciones de Partición por semana y día para crear patrones recurrentes en la segmentación de audiencia.
 title: Periodo de tiempo
+feature: null
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +53,7 @@ Por ejemplo, con las [funciones de audiencias combinadas específicas](../../../
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Vídeo de capacitación: Creación de una insignia de ![Información general de audiencias](/help/assets/overview.png)
+## Vídeo de capacitación: Creando distintivo ![Información general de Audiencias](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
