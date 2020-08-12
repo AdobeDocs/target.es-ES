@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
 description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el alza y la confianza al usar Analytics como fuente de informes para Target (A4T).
 title: 'Alza y confianza: preguntas más frecuentes sobre A4T'
+feature: null
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 51b0a0b1666e03f2910335b34091d2b825082ac7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
@@ -31,14 +32,14 @@ El nivel de confianza es la probabilidad de que la tasa de conversión medida se
 
 ## ¿Por qué no veo el alza y la confianza en las métricas calculadas?   {#lift-confidence}
 
-Actualmente, las métricas calculadas no son compatibles con las funciones de alza y confianza. Esto se debe a que Analytics calcula las métricas a nivel acumulado en lugar de a nivel de visitante. La confianza, en particular, es un cálculo a nivel de visitante.
+Actualmente, las métricas calculadas no son compatibles con las funciones de alza y confianza. Esto se debe a que Analytics calcula las métricas en un nivel acumulado, en lugar de en un nivel de visitante. La confianza, en particular, es un cálculo a nivel de visitante.
 
 Los eventos no calculados (estándar) se admiten en alza y confianza. Se convierten en numeradores en la función de alza; el numerador no puede ser un cálculo en sí mismo. El denominador son las métricas de normalización (impresiones, visitas o visitantes). Algunos ejemplos de eventos estándar incluyen pedidos, ingresos, conversiones de actividades, eventos personalizados 1-1000, etc. Esto significa que las métricas de optimización comunes, como la tasa de conversión (Pedidos/Visitantes) y RPV (Ingresos/Visitantes), son compatibles con el alza y la confianza.
 
 Algunos ejemplos de métricas o casos de uso no admitidos son:
 
 * Valor de pedido promedio (ingresos/pedido, por Visitante). No se admite AOV porque el numerador es una métrica calculada. En su lugar, se recomienda considerar las dos métricas que influyen en AOV: Ingresos por Visitantes y Tasa de conversión.
-* Métricas calculadas que son la suma de eventos estándar. Por ejemplo, puede rastrear diez formularios de posibles clientes diferentes en diez eventos distintos y luego agregarlos para obtener el total de envíos de posibles clientes. Un método recomendado para rastrear estos eventos es implementar un solo evento de envío de posibles clientes en Analytics y luego utilizar una eVar para recopilar el tipo de formulario de posibles clientes. El uso de este método requiere menos variables y garantiza que puede utilizar la métrica de envío de posible cliente único en las funciones de alza y confianza.
+* Métricas calculadas que son la suma de eventos estándar. Por ejemplo, puede rastrear diez formularios de posibles clientes diferentes en diez eventos distintos y luego agregarlos para obtener el total de envíos de posibles clientes. Un método recomendado para rastrear estos eventos es implementar un solo evento de envío de posibles clientes en Analytics y, a continuación, usar un eVar para recopilar el tipo de formulario de posibles clientes. El uso de este método requiere menos variables y garantiza que puede utilizar la métrica de envío de posible cliente único en las funciones de alza y confianza.
 
 ## ¿Cómo gestiona A4T los cálculos de confianza?   {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
