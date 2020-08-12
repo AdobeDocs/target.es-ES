@@ -1,10 +1,14 @@
 ---
-keywords: Segmentación;segmentación de experiencias;XT;página de aterrizaje;prueba de página de aterrizaje
+keywords: Targeting;experience targeting;xt;landing page;landing page campaign
 description: Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 title: Segmentación de experiencias
+feature: null
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +41,7 @@ Este vídeo describe cómo se llevan las pruebas A/B al siguiente nivel con Segm
 * Describe cómo se entrega contenido dependiente de la ubicación a audiencias situadas en distintas zonas geográficas
 * Describe cómo se reordenan las experiencias para asegurar que cada contenido se envíe a la audiencia correcta
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Tipos de actividad (9:03)
 
@@ -47,4 +51,4 @@ En este vídeo se describen los tipos de actividades disponibles en Target Stand
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
