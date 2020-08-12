@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience
 description: Puede crear audiencias personalizadas y guardarlas en la biblioteca de Target para usarlas en las actividades. Puede copiar una audiencia existente que después puede editar para crear una audiencia parecida y combinar varias.
 title: Crear audiencias en Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +60,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
    Las audiencias recién creadas aparecen en la lista tras unos segundos de retraso en el procesamiento. Si la audiencia no aparece en la lista inmediatamente, pruebe a buscarla o actualice la lista.
 
-## Vídeo de formación: Creación de audiencias Distintivo ![de información general](/help/assets/overview.png)
+## Vídeo de formación: Creación de audiencias ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo contiene información sobre la creación de audiencias.
 
