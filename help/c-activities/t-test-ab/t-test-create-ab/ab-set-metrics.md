@@ -2,10 +2,11 @@
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Utilice métricas en una actividad A/B para determinar si una visita es satisfactoria.
 title: Definir métricas
+feature: null
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 99%
@@ -29,6 +30,7 @@ Para obtener información detallada sobre las métricas de éxito, consulte  [M�
    * Conversión
    * Ingresos
    * Participación
+
    Puede usar cualquiera de las métricas de éxito predeterminadas o bien crear una métrica de éxito personalizada. También puede marcar una métrica de éxito como una métrica principal. Las tarjetas de informes y de Experience Cloud muestran la métrica principal de forma predeterminada, si se configura una.
 1. Especificar la configuración de las métricas.
 
