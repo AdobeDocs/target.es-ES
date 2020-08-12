@@ -2,11 +2,12 @@
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: Adobe “Analytics for Target” (A4T) es una integración de soluciones cruzadas que le permite crear actividades basadas en las métricas de conversión y los segmentos de audiencia de Analytics. Esta integración le permite utilizar informes de Analytics para examinar sus resultados. Si usa Analytics como fuente de informes de una actividad, todos los informes y la segmentación de dicha actividad se basarán en la recopilación de datos de Analytics.
 title: Adobe Analytics como fuente de informes para Adobe Target (A4T)
+feature: null
 subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 49%
@@ -62,7 +63,7 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | Tipos de actividad | Compatible con A4T | Notas, si corresponde |
 |--- |--- |--- |
 | Actividad A/B con división de tráfico manual | Sí |  |
-| Actividad A/B con asignación automática | Sí | Consulte Compatibilidad de [Analytics para Destinatario (A4T) con actividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)de asignación automática. |
+| Actividad A/B con asignación automática | Sí | Consulte Compatibilidad [de Analytics para Destinatario (A4T) con actividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)de asignación automática. |
 | Actividad A/B con segmentación automática | No |  |
 | Segmentación de experiencias (XT) | Sí |  |
 | Prueba multivariable (MVT) | Sí | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
@@ -121,7 +122,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Insignia de ![tutorial de Analytics / Destinatario Integration (A4T) (40:33)](/help/assets/tutorial.png)
+### Distintivo ![Tutorial de Analytics/Integración de Destinatario (A4T) (40:33)](/help/assets/tutorial.png)
 
 Este vídeo es una grabación de “[Horario de oficina](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
@@ -130,4 +131,4 @@ Este vídeo es una grabación de “[Horario de oficina](../../cmp-resources-and
 * Obtenga información sobre los informes ideales para su uso en Analytics
 * Respuestas a preguntas más frecuentes sobre A4T
 
-[Horas de oficina de Analytics/Destinatario Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Horas de oficina de Analytics/Integración de Destinatario (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
