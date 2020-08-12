@@ -2,9 +2,13 @@
 keywords: visitor profile;target visitor profile
 description: Cree audiencias en Adobe Target para segmentar visitantes que cumplan parámetros de perfil específicos.
 title: Perfil del visitante
+feature: null
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 97%
 
 ---
 
@@ -30,6 +34,7 @@ Cree audiencias para segmentar visitantes que cumplan parámetros de perfil espe
    * Primera página de la sesión
    * No es primera página de la sesión
    * Afinidad de la categoría
+
    Se crea un perfil de visitante en la memoria perimetral local para cada llamada a mbox con el nuevo `mboxPC`. Después de 30 minutos de inactividad, el perfil se guarda en la base de datos de Target y es accesible desde otros perímetros.
 
    Cuando el visitante de un sitio inicia sesión en la mitad de la sesión y obtiene un `3rdpartyId`, todos los atributos de perfil cargados previamente y asociados al `3rdPartyId` quedan disponibles de forma inmediata.
@@ -39,7 +44,7 @@ Cree audiencias para segmentar visitantes que cumplan parámetros de perfil espe
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Vídeo de capacitación: Creación de una insignia de ![Información general de audiencias](/help/assets/overview.png)
+## Vídeo de capacitación: Creando distintivo ![Información general de Audiencias](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
