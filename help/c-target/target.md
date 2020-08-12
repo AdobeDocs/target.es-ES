@@ -2,9 +2,13 @@
 keywords: Targeting;audiences;percentage target
 description: Utilice audiencias en Adobe Target para segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado.
 title: Audiencias en Adobe Target
+feature: null
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +29,7 @@ Cuando un visitante llega a una página donde ha configurado una actividad, [!DN
 
 Si el visitante cumple los criterios para pertenecer a una audiencia segmentada, [!DNL Target] determina qué experiencia se mostrará según los criterios definidos cuando se creó la actividad.
 
-## Vídeo de formación: Segmentación de actividades  (2:13) Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Segmentación de actividades  (2:13) ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre cómo configurar la segmentación y las audiencias.
 
