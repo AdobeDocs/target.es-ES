@@ -2,8 +2,12 @@
 keywords: Recommendations;offer
 description: Adobe Recommendations como oferta en pruebas A/B (incluidas Asignación automática y Segmentación automática) y actividades de segmentación de experiencias (XT)
 title: Adobe Recommendations como oferta en pruebas A/B (incluidas Asignación automática y Segmentación automática) y actividades de segmentación de experiencias (XT)
+feature: null
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -117,6 +121,6 @@ El estado de oferta de las recomendaciones (algoritmo) aparece en la página [!U
 
 ![Estado de la oferta de Recommendations](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vídeo de capacitación: Recomendaciones como distintivo de ![información general de oferta](/help/assets/overview.png)
+## Vídeo de capacitación: Recommendations como distintivo de ![información general de oferta](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
