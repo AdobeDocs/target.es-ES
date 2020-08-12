@@ -2,9 +2,13 @@
 keywords: collection;Targeting
 description: Una colección es un conjunto de productos o artículos en Adobe Target que cumplen los criterios para ser mostrados como recomendación.
 title: Colecciones en Adobe Target
+feature: null
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +75,7 @@ Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, pue
 >
 >La función Búsqueda avanzada diferencia entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que diferencia entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear colecciones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea un catálogo con la intención de obtener productos que contengan “vacaciones”, solo se devolverán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
 
-## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05) Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05) ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
