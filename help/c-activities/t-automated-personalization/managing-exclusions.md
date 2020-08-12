@@ -1,11 +1,15 @@
 ---
-keywords: desduplicar;permitir duplicados;excluir duplicados;personalización automatizada;impedir ofertas duplicadas
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
 description: Administre exclusiones creando grupos de exclusión, excluyendo ofertas duplicadas, experiencias específicas y el contenido predeterminado en las actividades de Automated Personalization (AP) de Adobe Target.
 title: Gestión de exclusiones
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +34,7 @@ También puede limitar qué audiencias pueden ver ofertas específicas en activi
 
 1. En el cuadro de diálogo [!UICONTROL Administrar contenido], haga clic en **[!UICONTROL Grupos de exclusión]**.
 
-   ![Administrar contenido &gt; Cuadro de diálogo de Grupos de exclusión](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![Administrar contenido > Cuadro de diálogo de Grupos de exclusión](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    Si había creado grupos de exclusión previamente, estos se muestran en la lista. Si todavía no ha creado ningún grupo de exclusión, se le indicará que lo haga.
 
@@ -56,7 +60,7 @@ Impida que las ofertas de la biblioteca de ofertas se dupliquen cuando se utilic
 
 Por ejemplo, puede tener una actividad con seis ubicaciones en una página con 12 ofertas. Una misma oferta podría colocarse en una o varias de las ubicaciones de la actividad. Esta función evita que las ofertas duplicadas se muestren al mismo tiempo en diferentes ubicaciones dentro de la misma actividad.
 
-Haga clic en **[!UICONTROL Configurar**] &gt; **[!UICONTROL Ofertas duplicadas]** y luego haga clic en **[!UICONTROL Permitir duplicados]** o **[!UICONTROL No permitir duplicados**].
+Haga clic en **[!UICONTROL Configurar]** > **[!UICONTROL Ofertas duplicadas]** y luego haga clic en **[!UICONTROL Permitir duplicados]** o **[!UICONTROL No permitir duplicados]**.
 
 ![Opciones de ofertas duplicadas](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -96,7 +100,7 @@ Excluir el contenido predeterminado es una excelente manera de cambiar la aparie
 
 **Para excluir el contenido predeterminado usando Visual Experience Composer (VEC):**
 
-1. Al [crear o editar una actividad AP,](/help/c-activities/t-automated-personalization/create-ap-activity.md) seleccione el contenido que desea reemplazar y haga clic para acceder a **[!UICONTROL Cambiar texto/HTML]** o **[!UICONTROL Cambiar imagen]** o **[!UICONTROL Cambiar color de fondo]**.
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. En el cuadro de diálogo, cree su nuevo contenido y desmarque **Incluir** a la derecha del contenido predeterminado (o desmarque la Imagen/Vídeo predeterminado en la pantalla Seleccionar contenido).
 
    Dependiendo del tipo de contenido/oferta, la casilla [!UICONTROL Incluir] está en un lugar ligeramente diferente.
@@ -121,8 +125,8 @@ Excluir el contenido predeterminado es una excelente manera de cambiar la aparie
 
 **Para excluir el contenido predeterminado utilizando el Compositor basado en la experiencia del formulario:**
 
-1. Al crear o editar una actividad de AP, haga clic en **[!UICONTROL Cambiar texto/HTML]** o **[!UICONTROL Cambiar oferta de imagen]** en el **[!UICONTROL Contenido**].
-1. En el cuadro de diálogo, cree su nuevo contenido y desmarque **[!UICONTROL Incluir]a la derecha del contenido predeterminado (o desmarque la Imagen/Vídeo predeterminado en la pantalla Seleccionar contenido).**
+1. Al crear o editar una actividad de AP, haga clic en **[!UICONTROL Cambiar texto/HTML]** o **[!UICONTROL Cambiar oferta de imagen]** en el **[!UICONTROL Contenido]**.
+1. En el cuadro de diálogo, cree su nuevo contenido y desmarque **[!UICONTROL Incluir]** a la derecha del contenido predeterminado (o desmarque la Imagen/Vídeo predeterminado en la pantalla Seleccionar contenido).
 
    Dependiendo del tipo de contenido/oferta, la casilla Incluir estará en un lugar ligeramente diferente.
 
