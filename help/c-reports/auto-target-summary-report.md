@@ -2,32 +2,36 @@
 keywords: reports;auto-target;auto target;AT
 description: Información sobre la interpretación del informe Resumen de segmentación automática.
 title: Informe Resumen de segmentación automática
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 3faba3d3158bed69ae5d756fb70c97d17110c1d8
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 65%
 
 ---
 
 
 # Informe Resumen de segmentación automática{#auto-target-summary-report}
 
-Información sobre cómo interpretar los informes de resumen de segmentación automática.
+Información sobre cómo interpretar los informes Resumen de Destinatario automático.
 
-Para mostrar los informes de resumen de segmentación automática:
+Para mostrar los informes Resumen de Destinatario automático:
 
-1. En la página [!UICONTROL Actividades] , haga clic en la actividad de segmentación automática que desee.
+1. En la página [!UICONTROL Actividades] , haga clic en la actividad de Destinatario automático que desee.
 
-   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en las listas desplegables Tipo, Estado, Propiedad, Origen de informes, Compositor de experiencias, Tipo de métricas y Origen de actividad.
+   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en las listas desplegables Tipo, Estado, Propiedad, Origen de Sistema de informes, Compositor de experiencias, Tipo de métrica y Origen de Actividad.
 
 1. Haga clic en la pestaña [!UICONTROL Informes].
 
 ## Visualización de tabla. 
 
-La siguiente ilustración muestra el aspecto que tiene un informe de resumen típico en la &quot;vista de tabla&quot; al usar la segmentación automática:
+La siguiente ilustración muestra el aspecto que tiene un informe de resumen típico en la &quot;vista de tabla&quot; al utilizar el Destinatario automático:
 
-![Informe de vista de tabla de segmentación automática](/help/c-reports/assets/at-table-view.png)
+![Informe de vista de tabla de Destinatario automático](/help/c-reports/assets/at-table-view.png)
 
 Algunos consejos y consideraciones a medida que interpreta sus informes de segmentación automática:
 
@@ -48,17 +52,17 @@ Algunos consejos y consideraciones a medida que interpreta sus informes de segme
 
 ## Visualización de gráfico
 
-La siguiente ilustración muestra el aspecto que tiene un informe de resumen típico en la &quot;vista de gráfico&quot; al usar la segmentación automática:
+En la ilustración siguiente se muestra el aspecto típico de un informe de resumen en la &quot;vista de gráficos&quot; al utilizar el Destinatario automático:
 
-![Informe de vista de gráfico de segmentación automática](/help/c-reports/assets/at-graph-view.png)
+![Informe de vista de gráficos de Destinatario automático](/help/c-reports/assets/at-graph-view.png)
 
 Como se muestra a continuación, puede utilizar las dos listas desplegables para elegir las métricas deseadas, la metodología de recuento y mucho más. Consulte Información general sobre la configuración [de informes](/help/c-reports/c-report-settings/report-settings.md) para obtener más información:
 
-![Informe de vista de gráfico de segmentación automática](/help/c-reports/assets/at-graph-view-2.png)
+![Informe de vista de gráficos de Destinatario automático](/help/c-reports/assets/at-graph-view-2.png)
 
 ## Segmentos automatizados
 
-Haga clic en el icono Segmentos automatizados. Este informe muestra cómo los distintos visitantes responden de manera diferente a las ofertas o experiencias de su actividad de AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
+Haga clic en el icono Segmentos automatizados. Este informe muestra cómo los diferentes visitantes responden de manera diferente a las ofertas y experiencias de su actividad AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
 
 ![Icono de segmentos automatizados](/help/c-reports/assets/icon-automated-sements.png)
 
