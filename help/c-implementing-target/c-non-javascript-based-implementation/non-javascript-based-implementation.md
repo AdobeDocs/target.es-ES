@@ -2,11 +2,12 @@
 keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: Información acerca de la implementación de Target en situaciones sin JavaScript, como el uso de un AdBox o un redirector.
 title: Implementación del correo electrónico en Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 82%
@@ -31,7 +32,7 @@ Tanto la publicidad de AdBox como redirector se pueden usar en cualquier tipo de
 
 ## Prácticas recomendadas de seguridad {#security}
 
-Tenga en cuenta que con Redirector, puede correr el riesgo de sufrir una vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector por parte de terceros, se recomienda utilizar &quot;hosts autorizados&quot; para permitir la lista de dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts para permitir los dominios de la lista a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de listas de permisos que especifican hosts autorizados para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#allowlist) en *hosts*.
+Tenga en cuenta que con Redirector, puede correr el riesgo de sufrir una vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector por parte de terceros, le recomendamos que utilice &quot;hosts autorizados&quot; para la lista de permitidos de los dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts en dominios de lista de permitidos a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de Listas de permitidos que especifican hosts con autorización para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#allowlist) en *hosts*.
 
 ## Restricciones {#section_38F559DCF1324271926608BCD4AB1227}
 
