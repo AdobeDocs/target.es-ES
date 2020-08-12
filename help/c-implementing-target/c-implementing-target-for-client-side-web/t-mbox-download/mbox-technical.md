@@ -1,12 +1,16 @@
 ---
-keywords: implementación;mbox.js;biblioteca de manipulación de dom;target.js;compositor de experiencias visuales;visual experience composer;iframe;sitios angulares;aplicaciones de una sola página;app de una sola página;SPA
+keywords: implementation;mbox.js;dom manipulation library;target.js;visual experience composer;iframe;angular sites;single page applications;single page app;SPA
 description: Información útil para el personal técnico sobre el proceso de implementación de mbox.js y cómo podría afectar a su sitio.
 title: Qué hace mbox.js
-subtopic: Primeros pasos
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 100%
 
 ---
 
