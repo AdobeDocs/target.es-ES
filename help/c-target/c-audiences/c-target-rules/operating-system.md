@@ -1,11 +1,15 @@
 ---
-keywords: Segmentación;sistema operativo Target;sistema operativo;so target;target en linux;linux;target en windows;windows;target en macintosh;macintosh;mac;target en mac;win;target en win
+keywords: Targeting;target operating system;operating system;target os;os;target linux;linux;target windows;windows;target macintosh;macintosh;mac;target mac;win;target win
 description: Puede segmentar visitantes que usen un sistema operativo determinado.
 title: Sistema operativo
+feature: null
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 100%
 
 ---
 
@@ -14,9 +18,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Puede segmentar visitantes que usen un sistema operativo determinado.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** &gt; **[!UICONTROL Crear audiencia]**.
+1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Agregar regla]** &gt; **[!UICONTROL Sistema operativo]**.
+1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Sistema operativo]**.
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
    * Linux
@@ -37,4 +41,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear audiencias
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
