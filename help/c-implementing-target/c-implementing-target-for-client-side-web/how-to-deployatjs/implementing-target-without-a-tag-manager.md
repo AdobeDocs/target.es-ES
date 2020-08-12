@@ -2,11 +2,12 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: Información sobre la implementación de Adobe Target sin utilizar un administrador de etiquetas (Adobe Launch o Dynamic Tag Management).
 title: Implementación de Target sin un administrador de etiquetas
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 66%
@@ -28,7 +29,7 @@ Puede especificar la siguiente configuración en esta página:
 
 * Detalles de la cuenta
 * Métodos de implementación
-* API de Perfil
+* API de perfil
 * Herramientas de depuración
 * Privacidad
 
@@ -81,7 +82,7 @@ Además de la configuración explicada anteriormente, también están disponible
 | Encabezado de biblioteca personalizado | Añada código de JavaScript personalizado para incluirlo en la parte superior de la biblioteca. |
 | Pie de página de la biblioteca personalizada | Añada código de JavaScript personalizado para incluirlo en la parte inferior de la biblioteca. |
 
-### API de Perfil
+### API de perfil
 
 Habilite o deshabilite la autenticación para actualizaciones en lote mediante API y genere un token de autenticación de perfil.
 
