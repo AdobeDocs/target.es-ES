@@ -2,10 +2,14 @@
 keywords: audience;select audience;choose audience;Selectors
 description: La audiencia determina qué visitantes del sitio participan en su actividad.
 title: Seleccionar la audiencia
+feature: null
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +50,7 @@ También puede elegir que Target  [asigne el tráfico automáticamente](../../..
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Uso de audiencias en Adobe Target (6:21) Distintivo ![de información general](/help/assets/overview.png)
+### Uso de audiencias en Adobe Target (6:21) ![Distintivo de información general](/help/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
@@ -58,7 +62,7 @@ En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Pr
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Flujo de trabajo de actividades: ![distintivo de tutorial de objetivo (2:14)](/help/assets/tutorial.png)
+### Flujo de trabajo de actividad: distintivo de ![tutorial de objetivo (2:14)](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre cómo configurar las audiencias.
 
