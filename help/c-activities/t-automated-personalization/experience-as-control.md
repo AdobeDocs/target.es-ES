@@ -1,11 +1,15 @@
 ---
-keywords: experiencia;control;Automated Personalization;segmentación automática
+keywords: experience;control;automated personalization;auto-target
 description: Seleccione una experiencia para utilizarla como control mientras crea una actividad de Automated Personalization (AP) o de Segmentación automática (AT) en Adobe Target.
 title: Uso de una experiencia específica como control en Adobe Target
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +46,7 @@ Tenga en cuenta los siguientes puntos al utilizar una experiencia específica co
 * No se recomienda eliminar la experiencia de control.
 * No se recomienda añadir un gran número de nuevas ofertas y experiencias a una actividad en directo con una experiencia específica como control.
 * En actividades AP, no se recomienda incluir la segmentación en la experiencia de control que podría restringir aún más a los usuarios que ven esa experiencia.
-* En las actividades AP, la información de crecimiento y de confianza *NO* está disponible en el informe de nivel de oferta si se selecciona una experiencia específica. La información de crecimiento y de confianza está disponible en el nivel de tráfico "segmentado" y "de control" para la actividad AP. La información de crecimiento y de confianza está disponible si se selecciona "aleatorio" como control. Esto se debe a que la comparación de una tasa de conversión de una experiencia específica con la tasa de conversión de una oferta no es lógica debido a la diferencia en las unidades. La información disponible en una actividad AT es la misma, independientemente del tipo de control seleccionado.
+* En las actividades AP, la información de crecimiento y de confianza *NO* está disponible en el informe de nivel de oferta si se selecciona una experiencia específica. La información de crecimiento y de confianza está disponible en el nivel de tráfico &quot;segmentado&quot; y &quot;de control&quot; para la actividad AP. La información de crecimiento y de confianza está disponible si se selecciona &quot;aleatorio&quot; como control. Esto se debe a que la comparación de una tasa de conversión de una experiencia específica con la tasa de conversión de una oferta no es lógica debido a la diferencia en las unidades. La información disponible en una actividad AT es la misma, independientemente del tipo de control seleccionado.
 * Debido a que todo el tráfico de control va a una única experiencia o grupo de ofertas cuando se selecciona la experiencia como control (en comparación con aleatorio, donde la cantidad de tráfico de control se divide sobre el número de experiencias u ofertas de la actividad), generalmente no necesita tanta cantidad de tráfico para fluir al control. 10% es una buena cifra para empezar.
 * Si realiza una de las siguientes acciones en una actividad en directo con una experiencia específica como control, el control se restablece automáticamente a experiencias servidas aleatoriamente (en lugar de a la experiencia específica seleccionada anteriormente):
 
