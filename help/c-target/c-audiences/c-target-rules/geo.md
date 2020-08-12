@@ -2,11 +2,15 @@
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Utilice las audiencias de Adobe Target para segmentar usuarios según su ubicación geográfica, incluidos país, estado/provincia, ciudad, código postal, DMA y operador de telefonía móvil.
 title: 'Geografía '
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 88%
 
 ---
 
@@ -33,6 +37,7 @@ Los parámetros de ubicación geográfica permiten segmentar las actividades y e
    * Longitud
    * DMA
    * Operador de telefonía móvil
+
    La dirección IP de los visitantes se transmite con una solicitud de mbox, una vez por visita (sesión), para resolver los parámetros de segmentación geográfica para dichos visitantes.
 
    Para el operador de telefonía móvil, [!DNL Target] utiliza los datos de registro de la dirección IP (a quien pertenece el bloque de direcciones IP) para determinar el operador de telefonía móvil correspondiente mediante los códigos de país móviles [(MCC, Mobile Country Codes) y códigos de red móviles (MNC, Mobile Network Codes)](https://www.mcc-mnc.com).
@@ -144,11 +149,11 @@ Tendrá que borrar las cookies antes de hacerlo.
 
 Puerto Rico, Hong Kong y otros territorios se tratan como valores de “País” independientes.
 
-**¿Captura (y almacena)[!DNL Target]información como Códigos postales cuando la actividad se dirige a funciones de objetivo de ubicación geográfica?**
+**¿Captura (y almacena)[!DNL Target]información como Códigos postales cuando la actividad se dirige a las funciones de objetivo de ubicación geográfica?**
 
 No, [!DNL Target] utiliza datos geográficos únicamente durante la sesión y, a continuación, se descartan los datos.
 
-## Vídeo de capacitación: Creación de una insignia de ![tutorial de audiencias](/help/assets/tutorial.png)
+## Vídeo de capacitación: Creación de una insignia de ![tutorial de Audiencias](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
