@@ -5,9 +5,9 @@ title: CNAME y Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
+source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1183'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Realice los pasos siguientes para solicitar asistencia de CNAME en [!DNL Target]
    >* La autoridad de certificación de Adobe, DigiCert, no puede emitir un certificado hasta que se complete este paso. Por lo tanto, Adobe no puede satisfacer su solicitud de implementación de CNAME hasta que se complete este paso.
 
 
-1. Rellene el siguiente formulario e inclúyalo cuando [abra un ticket de Adobe Client Care para solicitar asistencia](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME:
+1. [Rellene este formulario](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) e inclúyalo cuando [abra un ticket de Adobe Client Care para solicitar asistencia](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME:
 
    * Adobe [!DNL Target] client code:
    * Nombres de host de certificados SSL (ejemplo: `target.example.com target.example.org`):
