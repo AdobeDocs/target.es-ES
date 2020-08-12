@@ -2,11 +2,12 @@
 keywords: capture score;score
 description: La métrica de compromiso Puntuación de captura calcula una puntuación agregada en función del valor asignado a las páginas visitadas en el sitio, desde el punto en que el visitante ve por primera vez la primera solicitud de Destinatario para la visualización de la campaña.
 title: Puntuación de captación
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
@@ -50,7 +51,7 @@ Existen dos métodos para asignar una puntuación a una página:
 
 >[!NOTE]
 >
->Las solicitudes de Destinatario ubicadas por encima de la primera solicitud de visualización [!DNL Target] de la actividad no se incluirán en la puntuación.
+>Las solicitudes de destinatario ubicadas por encima de la primera solicitud de visualización [!DNL Target] de la actividad no se incluirán en la puntuación.
 
 Best practice is to assign values in the [!DNL Target] request. Esto le permite precisar los valores que mide en función del contenido de cada solicitud.
 
