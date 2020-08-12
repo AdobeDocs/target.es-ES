@@ -2,10 +2,11 @@
 keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Lista de las preguntas frecuentes sobre los informes en Adobe Target.
 title: Preguntas frecuentes sobre los informes de Adobe Target
+feature: null
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
@@ -99,7 +100,7 @@ Para obtener más información sobre los entornos, consulte [Hosts](../administr
 
 Por ejemplo, configuré la división de tráfico en 50/50 o 25/25/25/25 pero veo una distribución muy diferente entre las experiencias en el sistema de informes. Hay una serie de razones explicables para el recuento desigual de visitantes en el [!DNL Target] sistema de informes:
 
-* Cuando se inicia una [!DNL Target] actividad por primera vez, la distribución del tráfico puede ser desigual debido a la arquitectura de nodos Edge que [!DNL Target] utiliza para optimizar el envío de la experiencia. Lo mejor es dar a una actividad tiempo para recopilar datos adicionales y la distribución se normalizará. Para obtener más información sobre [!DNL Adobe Target] la arquitectura y los nodos de Edge, consulte [Cómo funciona](/help/c-intro/how-target-works.md)Adobe Destinatario.
+* Cuando se inicia una [!DNL Target] actividad por primera vez, la distribución del tráfico puede ser desigual debido a la arquitectura de nodos Edge que [!DNL Target] utiliza para optimizar el envío de la experiencia. Lo mejor es dar a una actividad tiempo para recopilar datos adicionales y la distribución se normalizará. Para obtener más información sobre [!DNL Adobe Target] la arquitectura y los nodos de Edge, consulte [Cómo funciona](/help/c-intro/how-target-works.md)Adobe Target.
 * Si está en [!DNL Target] o [!DNL Analytics] y utiliza la métrica **[!UICONTROL Visitas]** , recuerde que [!DNL Target] es un sistema basado en visitantes y que la distribución de tráfico para una prueba A/B o MVT está asignada en el nivel de visitante. Por lo tanto, si examina los resultados de la actividad mediante la métrica **[!UICONTROL Visitas]** , la distribución del tráfico puede parecer desigual porque ciertos visitantes pueden tener varias visitas. Visitantes es la métrica estándar de normalización al evaluar el rendimiento de la actividad.
 * La práctica recomendada para las pruebas A/B y MVT es mantener unidas las divisiones de tráfico. Cambiar la distribución del tráfico entre experiencias (por ejemplo, de 90/10 a 50/50) durante una prueba puede provocar visitantes desiguales entre las experiencias. Es posible que la experiencia de tráfico más baja nunca &quot;se ponga al día&quot;.
 * Si sigue las prácticas recomendadas anteriores y la división del tráfico no se normaliza con el tiempo, debe comprobar lo siguiente:
