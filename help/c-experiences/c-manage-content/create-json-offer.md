@@ -1,11 +1,15 @@
 ---
-keywords: oferta remota;creación de oferta remota
+keywords: remote offer;create remote offer
 description: Cree ofertas JSON en la biblioteca de ofertas para utilizarlas en el Compositor de experiencias basadas en formularios.
 title: Creación de ofertas JSON
+feature: null
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -28,13 +32,13 @@ Cuando trabaje con ofertas JSON, tenga en cuenta la información siguiente:
 
 ## Creación de una oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Haga clic en **[!UICONTROL Ofertas]** y seleccione la pestaña **Ofertas de código[!UICONTROL .]**
-1. Haga clic en **[!UICONTROL Crear]** &gt; **[!UICONTROL Oferta JSON]**.
+1. Haga clic en **[!UICONTROL Ofertas]** y seleccione la pestaña **[!UICONTROL Ofertas de código]**.
+1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Oferta JSON]**.
 
    ![](assets/offer-json.png)
 
 1. Escriba el nombre de una oferta.
-1. Escriba o pegue su código JSON en el recuadro **[!UICONTROL Código].**
+1. Escriba o pegue su código JSON en el recuadro **[!UICONTROL Código]**.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Ejemplo {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
@@ -128,7 +132,7 @@ adobe.target.getOffer({
 
 ## Filtrado de ofertas por tipo de oferta JSON   {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Puede filtrar la biblioteca de ofertas por tipo de oferta JSON haciendo clic en la lista desplegable **[!UICONTROL Tipo]** y después marcando la casilla de selección **JSON[!UICONTROL .]**
+Puede filtrar la biblioteca de ofertas por tipo de oferta JSON haciendo clic en la lista desplegable **[!UICONTROL Tipo]** y después marcando la casilla de selección **[!UICONTROL JSON.]**
 
 ![](assets/offer-json-filter.png)
 
