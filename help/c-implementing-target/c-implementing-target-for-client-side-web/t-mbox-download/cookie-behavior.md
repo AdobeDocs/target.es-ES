@@ -1,12 +1,16 @@
 ---
-keywords: Información general y referencia;webkit
+keywords: Overview and Reference;webkit
 description: El comportamiento de la cookie depende de si es una cookie de origen, una cookie de terceros con una cookie de origen o solo una cookie de terceros.
 title: Cookies mbox.js
-subtopic: Primeros pasos
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1565'
+ht-degree: 99%
 
 ---
 
@@ -138,4 +142,4 @@ De Apple:
 | Funcionalidad afectada | Detalles |
 |--- |--- |
 | Soporte para la no participación | Los cambios de Apple en el seguimiento de WebKit interrumpen el soporte para la no participación.<br>La no participación en Target emplea una cookie en el dominio `clientcode.tt.omtrdc.net`. Para obtener más información, consulte [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>Target admite dos formas de no participación:<ul><li>Una por cliente (el cliente gestiona el vínculo de no participación).</li><li>Una mediante Adobe, que excluye al usuario de toda funcionalidad de Target para todos los clientes.</li></ul>Ambos métodos utilizan una cookie de terceros. |
-| Actividades de Target | Los clientes pueden elegir la   [duración de perfil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) para sus cuentas de Target, con un valor de hasta 90 días. El problema es que si la duración del perfil de la cuenta supera los 30 días y se purga la cookie de origen porque el dominio del cliente se ha marcado como un seguimiento de usuarios entre sitios, el comportamiento para los visitantes de Safari se verá afectado en las siguientes áreas de Target:<br>**Informes de Target**: Si un usuario de Safari entra en una actividad, regresa pasados 30 días y luego convierte ese usuario, cuenta como dos visitantes y una conversión.<br>Este comportamiento es el mismo para las actividades que utilizan Analytics como fuente de informes (A4T).<br>**Perfil y pertenencia a actividades**:<ul><li>Los datos de perfil se borran al caducar la cookie de origen.</li><li>La pertenencia a actividades se borra al caducar la cookie de origen.</li><li> Target no funciona en Safari para cuentas que utilizan una implementación de cookie de terceros, o de cookies de origen y de terceros. Nótese que este comportamiento no es nuevo. Safari lleva un tiempo sin admitir cookies de terceros.</li></ul><br>**Sugerencias**: si existe preocupación en cuanto a que el dominio del cliente pueda considerarse como uno que realiza un seguimiento de los usuarios entre sitios, lo más seguro es establecer en Target la duración del perfil en 30 días o menos. De este modo, se asegurará de que los usuarios reciban un seguimiento similar en Safari y en los demás navegadores. |
+| Actividades de Target | Los clientes pueden elegir la   [duración de perfil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) para sus cuentas de Target, con un valor de hasta 90 días. El problema es que si la duración del perfil de la cuenta supera los 30 días y se purga la cookie de origen porque el dominio del cliente se ha marcado como un seguimiento de usuarios entre sitios, el comportamiento para los visitantes de Safari se verá afectado en las siguientes áreas de Target:<br>**Informes de Target **: Si un usuario de Safari entra en una actividad, regresa pasados 30 días y luego convierte ese usuario, cuenta como dos visitantes y una conversión.<br>Este comportamiento es el mismo para las actividades que utilizan Analytics como fuente de informes (A4T).<br>**Perfil y pertenencia a actividades**:<ul><li>Los datos de perfil se borran al caducar la cookie de origen.</li><li>La pertenencia a actividades se borra al caducar la cookie de origen.</li><li> Target no funciona en Safari para cuentas que utilizan una implementación de cookie de terceros, o de cookies de origen y de terceros. Nótese que este comportamiento no es nuevo. Safari lleva un tiempo sin admitir cookies de terceros.</li></ul><br>**Sugerencias **: si existe preocupación en cuanto a que el dominio del cliente pueda considerarse como uno que realiza un seguimiento de los usuarios entre sitios, lo más seguro es establecer en Target la duración del perfil en 30 días o menos. De este modo, se asegurará de que los usuarios reciban un seguimiento similar en Safari y en los demás navegadores. |
