@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
+source-git-commit: 8102b0322466e8cfb0a158b1ccb3f74e25d54cc1
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1433'
 ht-degree: 91%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 91%
    + [Introducción a Target](c-intro/intro.md)
    + [Acceder a Target desde Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Conceptos clave de Target](c-intro/target-key-concepts.md)
+   + [Comprender la IU de Destinatario](/help/c-intro/understand-the-target-ui.md)
    + [Glosario](c-intro/glossary.md)
    + [Cómo funciona Adobe Target](c-intro/how-target-works.md)
    + [Capacitación y certificación](c-intro/training-and-certification.md)
