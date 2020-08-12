@@ -2,9 +2,13 @@
 keywords: exclusions
 description: Cree una lista de exclusión en Adobe Target para impedir que se recomienden determinados artículos.
 title: Exclusiones en Adobe Target
+feature: null
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +55,7 @@ Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, pue
 >
 >La función Búsqueda avanzada diferencia entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que diferencia entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear exclusiones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea una exclusión con la intención de excluir productos que contengan “vacaciones”, solo se excluirán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
 
-## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05) Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05) ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
