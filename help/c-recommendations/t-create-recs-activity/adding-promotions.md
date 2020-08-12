@@ -1,10 +1,14 @@
 ---
-keywords: promociones;promociones principales;promociones secundarias;tipo de promociones
+keywords: promotions;front promotions;back promotions;promotions type
 description: Añada elementos promocionados y controle su ubicación en sus diseños de Recommendations de Adobe Target. Puede añadir promociones estáticas y dinámicas.
 title: Agregue promociones en diseños de Recommendations de Adobe Target.
+feature: null
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 100%
 
 ---
 
@@ -50,12 +54,12 @@ Puede promocionar elementos concretos del modo habitual o de forma dinámica, as
 
       Si la lista incluye más elementos que el número de espacios definido para las promociones, puede seleccionar la casilla **[!UICONTROL Ordenar elementos de forma aleatoria]** para que se vayan mostrando distintos elementos promocionados en el diseño. Elegir esta opción hace que Target seleccione aleatoriamente la cantidad de elementos habilitados para las promociones en la plantilla de todo el conjunto de promociones para cada visita.
 
-   * Seleccione **[!UICONTROL Promocionar por atributo]y agregue reglas para definir los atributos de los elementos que desea promocionar.**
+   * Seleccione **[!UICONTROL Promocionar por atributo]** y agregue reglas para definir los atributos de los elementos que desea promocionar.
 
       Si selecciona Promocionar por atributo, puede crear coincidencias dinámicas. Para obtener más información, consulte [Uso de reglas de inclusión dinámicas y estáticas](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * Seleccione **[!UICONTROL Promocionar una colección]** y elija la colección de elementos que desea promocionar. Puede crear nuevas colecciones para utilizarlas en las promociones. Consulte [Crear una colección](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) para obtener más información.
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Guardar.]**.
 
 Las promociones se aplican a todas las experiencias de la actividad.
