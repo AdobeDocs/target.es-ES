@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Información sobre la administración de Usuarios en Target Standard y la administración de Propiedades y Permisos empresariales en Target Premium.
 title: Administración de usuarios
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
@@ -24,13 +25,14 @@ Information about managing users in [!DNL Target] Standard and managing enterpri
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **Clientes de Destinatario Standard:** Si su organización tiene una licencia [!DNL Target] estándar, observará lo siguiente en la [!DNL Target] interfaz de usuario:
+* **Clientes de Target Standard:** Si su organización tiene una licencia [!DNL Target] estándar, observará lo siguiente en la [!DNL Target] interfaz de usuario:
 
    * Verá la ficha [!UICONTROL Usuarios] ( [!UICONTROL Administración] > [!UICONTROL Usuarios] )
    * No *verá* la ficha [!UICONTROL Propiedades] ( [!UICONTROL Administración] > [!UICONTROL Propiedades] )
+
    [!DNL Target]Los clientes de Standard deben seguir las instrucciones en [Usuarios](/help/administrating-target/c-user-management/c-user-management/user-management.md) para agregar usuarios y asignar permisos en Adobe Admin Console.
 
-* **Clientes de Destinatario Premium:** Si su organización dispone de una licencia [!DNL Target] Premium, observará lo siguiente en la interfaz de usuario de Destinatario:
+* **Clientes de destinatario Premium:** Si su organización dispone de una licencia [!DNL Target] Premium, observará lo siguiente en la interfaz de usuario de Destinatario:
 
    * Verá la ficha [!UICONTROL Propiedades] ( [!UICONTROL Administración] > [!UICONTROL Propiedades] )
    * También verá la ficha [!UICONTROL Usuarios] ( [!UICONTROL Administración] > [!UICONTROL Usuarios] )
