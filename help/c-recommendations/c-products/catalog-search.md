@@ -2,9 +2,13 @@
 keywords: catalog;search
 description: La búsqueda de catálogo en Adobe Target permite encontrar los productos o el contenido en su catálogo.
 title: Buscar en el catálogo en Adobe Target
+feature: null
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 La búsqueda en el catálogo permite encontrar los productos o el contenido en su catálogo.
 
-To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Catalog Search]**.
+To access catalog search, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 Puede restringir la búsqueda: seleccione una opción de búsqueda en el menú de opciones que se muestra al hacer clic en la flecha abajo del campo de búsqueda.
 
@@ -28,9 +32,9 @@ Las opciones de búsqueda son las siguientes:
 * ID
 * Mensaje
 
-**[!UICONTROL TODO]**indica todas las búsquedas en todos los demás criterios de búsqueda usando la lógica OR.
+**[!UICONTROL TODO]** indica todas las búsquedas en todos los demás criterios de búsqueda usando la lógica OR.
 
-En los resultados de búsqueda, haga clic en **[!UICONTROL Entorno]**para especificar el entorno del grupo de hosts de producción cuyo catálogo se está mostrando.[](/help/administrating-target/hosts.md)También puede desplazarse por los artículos en los resultados de búsqueda para ver las miniaturas y otra información del producto.
+En los resultados de búsqueda, haga clic en **[!UICONTROL Entorno]** para especificar el entorno del grupo de hosts de producción cuyo catálogo se está mostrando. [](/help/administrating-target/hosts.md) También puede desplazarse por los artículos en los resultados de búsqueda para ver las miniaturas y otra información del producto.
 
 El número que se muestra junto a “Productos” es el número de productos que coincide con el término de búsqueda, con respecto al total disponible en el entorno especificado.
 
