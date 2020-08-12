@@ -2,9 +2,13 @@
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Cree audiencias en Adobe Target para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
 title: Segmentar fuentes de tráfico en Adobe Target
+feature: null
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +36,7 @@ Puede combinar varias fuentes de tráfico para crear una regla de segmentación 
    * Página de aterrizaje que deriva: dirección URL
    * Página de aterrizaje que deriva: dominio
    * Página de aterrizaje que deriva: consulta
+
    Según su selección, es posible que necesite proporcionar información adicional (evaluador y/o valores).
 
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
@@ -39,7 +44,7 @@ Puede combinar varias fuentes de tráfico para crear una regla de segmentación 
 
 Puede segmentar usuarios dirigidos a su sitio por un motor de búsqueda específico o desde una página de aterrizaje concreta.
 
-## Vídeo de formación: Creación de audiencias Distintivo ![de información general](/help/assets/overview.png)
+## Vídeo de formación: Creación de audiencias ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
