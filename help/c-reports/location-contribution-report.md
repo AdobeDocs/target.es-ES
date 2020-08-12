@@ -2,10 +2,14 @@
 keywords: mvt;multivariate test;location contribution report
 description: El informe Contribución de ubicación muestra el rendimiento de cada elemento y cada oferta.
 title: Informe Contribución de ubicación (MVT)
+feature: null
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +34,7 @@ La segunda tabla proporciona un informe de nivel de oferta. Muestra la tasa de c
 
 ![](assets/locationcontributionbottom.png)
 
-## Vídeo de formación: Crear una prueba MVT Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Crear una prueba MVT ![Insignia de tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Contribución de ubicación se describe a partir del minuto 8:45.
 
