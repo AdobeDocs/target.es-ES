@@ -5,9 +5,9 @@ title: Cambios en la documentación de los productos de Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 118ca52beebcc11795b381f7f1fdcea305d2005f
+source-git-commit: 4287c93058e279da6de262a19fbabb4bbacdf7ad
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1856'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 12 de agosto | [Comprender la IU de Destinatario](/help/c-intro/understand-the-target-ui.md) | Nuevo tema. |
+|  | [Información general sobre la API de Adobe Target](/help/api/api-overview.md) | Nuevo tema. |
 | 10 de agosto | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Texto añadido que indica que el tamaño del encabezado de la cookie aumentará al utilizar CNAME. |
 |  | [Integrar Destinatario con Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | Nuevo tema. |
 |  | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Vínculo añadido a la vista del siguiente seminario web archivado: &quot;Cómo HSBC aprovecha Adobe Target y AI para optimizar rápidamente y ofrecer personalización a escala&quot;. |
