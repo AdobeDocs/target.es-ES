@@ -2,10 +2,11 @@
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Información para utilizar Adobe Target at.js 2.x para implementar Aplicaciones de una sola página (SPA).
 title: Implementación de una aplicación de una sola página en Adobe Target
+feature: null
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -315,7 +316,7 @@ Consulte [Explicación del funcionamiento](https://helpx.adobe.com/target/kt/usi
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Consulte [Implementar at.js 2.x de Adobe Target en una aplicación de una sola página (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obtener más información.
+Consulte [Implementación de Adobe Target at.js 2.x en una aplicación de una sola página (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obtener más información.
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
