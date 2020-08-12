@@ -4,17 +4,17 @@ description: Información sobre las API de Adobe Target, incluidas las API de ad
 title: Información general sobre la API de Adobe Target
 topic: APIs
 translation-type: tm+mt
-source-git-commit: 84cd5d41655baaaadeba63954858730ce956e039
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
 
 # Información general sobre la API de Adobe Target
 
-Las API de Adobe Target se pueden agrupar según el tipo.
+[!DNL Adobe Target] Las API se pueden agrupar según el tipo.
 
 | Tipo de API | Lo que le permite hacer | Vínculo de descarga | Otros vínculos útiles |
 | --- | --- | --- |--- |
@@ -25,6 +25,12 @@ Las API de Adobe Target se pueden agrupar según el tipo.
 
 >[!NOTE]
 >
->Tenga en cuenta la distinción entre las API de **administración** (incluidas [!DNL Recommendations] las API), que le permiten configurar varios aspectos de Adobe Target, en comparación con las API **de** envío, que le permiten recuperar contenido. Las API de administración requieren autenticación, mientras que las API de envío no.
+>Existen importantes distinciones entre las API de [!DNL Target] administración (incluidas las [!DNL Recommendations] API) y las API de [!DNL Target] Envío:
 >
->Para utilizar las API de administración de Adobe Target, primero debe configurar la autenticación mediante E/S de Adobe. Para obtener más información, consulte [Configurar autenticación](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) en Tutorials *de* Adobe Target.
+>* Las API de administración permiten configurar varios aspectos de [!DNL Target] los que también se pueden configurar en la [!DNL Target] interfaz de usuario. Las API de administración requieren autenticación.
+   >
+   >
+* Las API de envío permiten recuperar contenido. Las API de envío no requieren autenticación.
+>
+>
+Para utilizar las API [!DNL Target] de administración, primero debe configurar la autenticación mediante E/S de Adobe. Para obtener más información, consulte [Configurar autenticación](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) en Tutorials *de* Adobe Target.
