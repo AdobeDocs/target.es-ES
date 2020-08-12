@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Información para configurar los elementos que quiere que aparezcan en el informe. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
 title: Configuración de informes
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1878'
+ht-degree: 84%
 
 ---
 
@@ -27,7 +31,7 @@ También puede configurar un informe de actividad a su gusto y después guardar 
 
 1. Configure el informe de la actividad como desee.
 
-   A continuación se explica la configuración disponible, incluidas las métricas, los intervalos de fechas, las audiencias, la configuración avanzada, etc.
+   La configuración disponible, incluidas las métricas, los intervalos de fechas, las audiencias, la configuración avanzada, etc., se explica a continuación.
 
 1. Junto a **[!UICONTROL Ajuste preestablecido de Target]**, haga clic en el icono de tres elipses verticales > **[!UICONTROL Guardar como Nuevo]**.
 
@@ -153,16 +157,16 @@ Haga clic en Actualizar para actualizar la tabla y la visualización de gráfico
 
 Haga clic en el icono de Más opciones (tres elipses verticales) para acceder a las opciones [!UICONTROL Editar actividad] y [!UICONTROL Ver las URL de la experiencia].
 
-## Opciones de visualización
+## Opciones de vista
 
-Puede ver el informe en varios formatos, según el tipo de actividad. Seleccione una opción.
+Puede vista del informe en varios formatos, según el tipo de actividad. Seleccione una opción.
 
-![Ver iconos de opciones](/help/c-reports/c-report-settings/assets/view-options.png)
+![Iconos de opciones de vista](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **Vista** de tabla: Haga clic en el icono Vista **[!UICONTROL de]** tabla para ver el informe como una tabla.
-* **Vista** de gráfico: Haga clic en el icono Vista **[!UICONTROL de]** gráfico para ver el informe como un gráfico.
-* **Segmentos** automatizados: (disponible solo para actividades de Personalización automatizada (AP) y Segmentación automática (AT)). Haga clic en el icono **Segmentos automatizados para ver el informe [Segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados.
-* **Atributos** importantes: (Disponible solo para actividades de Personalización automatizada (AP) y Segmentación automática (AT)). Haga clic en el icono **Atributos importantes para ver el informe [Atributos](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importantes.
+* **Vista** de tabla: Haga clic en el icono de Vista **[!UICONTROL de]** tabla para vista del informe como una tabla.
+* **Vista** de gráfico: Haga clic en el icono de Vista **[!UICONTROL de]** gráfico para vista del informe como un gráfico.
+* **Segmentos** automatizados: (disponible solo para actividades de Automated Personalization (AP) y Destinatario automático (AT)). Haga clic en el icono **Segmentos automatizados para vista del informe [Segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados.
+* **Atributos** importantes: (Disponible solo para actividades de Automated Personalization (AP) y Destinatario automático (AT)). Haga clic en el icono **[!UICONTROL Atributos] importantes para vista del informe [Atributos](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importantes.
 
 ## Alza promedio, límites de alza e intervalo de confianza {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -193,7 +197,7 @@ En la siguiente ilustración, vemos que en el informe solo aparecen las experien
 
 (solo disponible al visualizar el informe en Visualización de gráfico)
 
-&quot;Promedio corriente&quot; refleja las conversiones acumulativas (desde el inicio de la ventana de informes hasta la fecha representada en el gráfico) divididas por los visitantes acumulados.
+&quot;Promedio corriente&quot; refleja las conversiones acumulativas (desde el inicio de la ventana de sistemas de informes hasta la fecha representada en el gráfico) divididas por los visitantes acumulados.
 
 Seleccione la visualización de gráfico que desee:
 
@@ -235,10 +239,10 @@ Existen cuatro modos para las actividades de segmentación automática: Control 
 
 El orden predeterminado de representación del gráfico es el siguiente:
 
-* **Pruebas A/B (incluidas la asignación automática y la personalización automatizada)**: Orden de creación de la experiencia, en orden descendente.
+* **Pruebas A/B (incluidas la asignación automática y Automated Personalization)**: Orden de creación de la experiencia, en orden descendente.
 * **Segmentación de experiencias (XT)**: Orden de las experiencias en la actividad.
 * **Prueba multivariada (MVT)**: Alfabético por nombre de experiencia.
-* **Recomendaciones**: Orden de creación de la experiencia, en orden descendente.
+* **Recommendations**: Orden de creación de la experiencia, en orden descendente.
 
 Al trabajar con las opciones de Metodología de contabilización, tenga en cuenta las siguientes advertencias:
 
