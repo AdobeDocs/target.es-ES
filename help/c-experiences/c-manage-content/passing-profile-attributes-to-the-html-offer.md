@@ -1,10 +1,14 @@
 ---
-keywords: datos dinámicos;activos;datos;ofertas;ofertas personalizadas;ofertas personales;reemplazo del token
+keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
 description: Puede mostrar valores de perfil de e información de la actividad directamente en una oferta HTML o JSON.
 title: Transmisión dinámica de datos en ofertas
+feature: null
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 100%
 
 ---
 
