@@ -2,9 +2,10 @@
 keywords: Targeting
 description: La URL de actividad determina la página que se utiliza en la actividad de segmentación de experiencias y que se abre en el Compositor de experiencias visuales (VEC) o Compositor de experiencias basadas en formularios de Adobe Target cuando se diseña la actividad.
 title: Dirección URL de actividad
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
@@ -44,6 +45,7 @@ La URL de actividad determina la página que se utiliza en la actividad de segme
    * Fragmento hash (#)
    * Consulta
    * Parámetro de mbox
+
    Se pueden unir reglas adicionales a la dirección URL de la actividad con Y u O. Todas las reglas que agregue se evalúan entre sí con Y.
 
 1. Haga clic en **[!UICONTROL Guardar]** cuando haya finalizado.
