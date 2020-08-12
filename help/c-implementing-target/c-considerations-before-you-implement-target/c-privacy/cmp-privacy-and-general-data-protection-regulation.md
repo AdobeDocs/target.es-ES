@@ -1,11 +1,15 @@
 ---
-keywords: rgpd;ue;unión europea;privacidad;faq;preguntas frecuentes;ley de privacidad del consumidor de california;ccpa;privacidad;protección de datos;exclusión;exclusión;gobierno;regulación
+keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de privacidad del consumidor de California (CCPA) y otros requisitos de privacidad internacionales, y cómo estos reglamentos afectan a su organización y a Adobe Target.
 title: Información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de privacidad del consumidor de California (CCPA) y otros requisitos de privacidad internacionales, y cómo estos reglamentos afectan a su organización y a Adobe Target.
+feature: null
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2276'
+ht-degree: 93%
 
 ---
 
@@ -284,7 +288,7 @@ La siguiente tabla contiene descripción de los campos JSON de perfil ilustrativ
 | Sample_Parameter | El Responsable de datos carga o proporciona directamente gran cantidad de información en el perfil de [!DNL Target]. En este ejemplo, se cargó un parámetro en el perfil de [!DNL Target] con la API de actualización de perfil. Para obtener más información, consulte [Métodos para obtener datos en Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
 | user.ReturnTimeOfDay | Este campo estándar incluye la hora del día correspondiente a la visita de retorno más reciente de un usuario. |
 | firstSessionStart | Este campo estándar incluye la hora del día en que comenzó la primera sesión del usuario. |
-| user.sessionCountScript | El Responsable de datos carga o proporciona directamente gran cantidad de información en el perfil de [!DNL Target]. En este ejemplo, un script de perfil está incrementando el número de sesiones que este visitante realizó en el sitio del responsable del tratamiento de datos. Para obtener más información, consulte   [Atributos de script de perfil](/help/c-target/c-visitor-profile/profile-parameters.md). |
+| user.sessionCountScript | El Responsable de datos carga o proporciona directamente gran cantidad de información en el perfil de [!DNL Target]. En este ejemplo, un script de perfil está incrementando el número de sesiones que este visitante realizó en el sitio del responsable del tratamiento de datos. Para obtener más información, consulte [Atributos de script de perfil](/help/c-target/c-visitor-profile/profile-parameters.md). |
 
 >[!NOTE]
 >
@@ -296,4 +300,4 @@ La siguiente tabla contiene descripción de los campos JSON de perfil ilustrativ
 
 ### ¿Debo hacer algo para evitar que mis datos se compartan o vendan a terceros?
 
-Target no tiene la capacidad de permitir que los clientes compartan o vendan datos directamente de Target a terceros, por lo que no existe la opción de exclusión de la venta para Target.
+El destinatario no tiene la capacidad de permitir que los clientes compartan o vendan datos directamente desde el Destinatario a terceros, por lo que no existe la opción de exclusión de la venta para el Destinatario.
