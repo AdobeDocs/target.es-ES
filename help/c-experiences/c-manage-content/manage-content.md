@@ -2,9 +2,13 @@
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: Use la biblioteca de Ofertas para administrar el contenido de ofertas de código y ofertas de imagen.
 title: Ofertas
+feature: null
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +87,7 @@ Está disponible la siguiente información:
 * Tipo de URL de redireccionamiento
 * URL absoluta o relativa
 
-## Vídeo de formación: El repositorio de contenido Distintivo ![de información general](/help/assets/overview.png)
+## Vídeo de formación: El repositorio de contenido ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo incluye información sobre la administración de ofertas.
 
