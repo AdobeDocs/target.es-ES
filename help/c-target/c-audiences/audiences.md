@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Las audiencias en Adobe Target determinan quién ve el contenido y las experiencias en una actividad segmentada.
 title: Cree audiencias en Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 95%
 
 ---
 
@@ -79,7 +83,7 @@ Tenga en cuenta lo siguiente al trabajar con audiencias importadas:
 * Target Standard/Premium ya no admite audiencias de segmentación por expresión.
 * Target Standard/Premium no admite algunas audiencias obsoletas o dispone de operadores mejorados que facilitan el uso. Debido a esto, aunque una audiencia importada funcione tal y como se indica en su descripción, puede no estar disponible para su creación en la interfaz de Standard/Premium. Por ejemplo, puede ver las audiencias sociales con sus reglas, pero Target Standard/Premium no permite crearlas.
 
-## Vídeo de formación: Uso de audiencias Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Uso de audiencias ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las audiencias.
 
