@@ -1,11 +1,15 @@
 ---
-keywords: control de calidad;vínculo previo;móvil;vista previa para móviles
+keywords: qa;preview;preview link;mobile;mobile preview
 description: Use el vínculo de vista previa en móviles para realizar fácilmente un control de calidad exhaustivo de las actividades de aplicaciones móviles y registrarse en diversas experiencias directamente en el dispositivo sin tener que usar uno especial para pruebas.
 title: Uso del vínculo de vista previa móvil en Adobe Target móvil
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 93%
 
 ---
 
@@ -28,8 +32,8 @@ La funcionalidad de vista previa para móviles le permite probar completamente s
 
    Para obtener instrucciones sobre la descarga del SDK apropiado, consulte:
 
-   * **** iOS: [Antes de empezar](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) en la Ayuda *de iOS de* Mobile Services.
-   * **** Android: [Antes de empezar](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) en la Ayuda *de Android de* Mobile Services.
+   * **iOS:** [Antes de realizar el inicio](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) en la Ayuda *de iOS de* Mobile Services.
+   * **Android:** [Antes de realizar el inicio](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) en la Ayuda *de Android de* Mobile Services.
 
 1. **Configure un esquema de direcciones URL:** el vínculo de vista previa utiliza un esquema de direcciones URL para abrir la aplicación. Debe especificar un esquema de URL exclusivo para la vista previa.
 
