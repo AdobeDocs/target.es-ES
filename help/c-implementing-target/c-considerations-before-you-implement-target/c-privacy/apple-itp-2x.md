@@ -1,11 +1,12 @@
 ---
 keywords: apple;ITP;intelligent tracking prevention
-description: Información sobre la compatibilidad de Adobe Destinatario con ITP 2.x de Apple a través de la biblioteca de ID de Experience Cloud (ECID) 4.3.
+description: Información sobre la compatibilidad de Adobe Target con ITP 2.x de Apple mediante la biblioteca 4.3 de ID de Experience Cloud (ECID).
 title: Compatibilidad con Adobe Target y Apple ITP
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 52%
@@ -35,7 +36,7 @@ Apple ITP 2.x tiene un impacto [!DNL Target] en las siguientes áreas:
 | --- | --- |
 | Aumento potencial del número de visitantes únicos | Debido a que la ventana de caducidad está configurada en siete días (con ITP 2.1) y un día (con ITP 2.2 e ITP 2.3), es posible que vea un aumento de visitantes exclusivos procedentes de los exploradores Safari. If your visitors revisit your domain after seven days (ITP 2.1) or one day (ITP 2.2 and ITP 2.3), [!DNL Target] is forced to place a new [!DNL Target] cookie on your domain in place of the expired cookie. La nueva cookie [!DNL Target] supone un nuevo visitante único aunque el usuario sea el mismo. |
 | Reducción de los periodos retroactivos de las actividades [!DNL Target] | Los perfiles de visitante para las actividades [!DNL Target] pueden tener un período retroactivo reducido para la toma de decisiones. Las cookies [!DNL Target] se aprovechan para identificar a un visitante y almacenar atributos de perfil de usuario para la personalización. Given that [!DNL Target] cookies can be expired on Safari after seven days (ITP 2.1) or one day (ITP 2.2 and 2.3), the user profile data that was tied to the purged [!DNL Target] cookie cannot be used for decisioning. |
-| Secuencias de comandos de Perfil basadas en 3rdPartyID | Debido a que la ventana de caducidad está configurada en siete días (con ITP 2.1) y un día (con ITP 2.2 e ITP 2.3), los scripts [de](/help/c-target/c-visitor-profile/profile-parameters.md) perfil basados en la cookie 3rdPartyID dejarán de funcionar al caducar. |
+| Secuencias de comandos de perfil basadas en 3rdPartyID | Debido a que la ventana de caducidad está configurada en siete días (con ITP 2.1) y un día (con ITP 2.2 e ITP 2.3), los scripts [de](/help/c-target/c-visitor-profile/profile-parameters.md) perfil basados en la cookie 3rdPartyID dejarán de funcionar al caducar. |
 | Direcciones URL de control de calidad/Previsualización en dispositivos iOS | Debido a que la ventana de caducidad está configurada en siete días (con ITP 2.1) y un día (con ITP 2.2 e ITP 2.3), las direcciones URL [de](/help/c-activities/c-activity-qa/activity-qa.md) control de calidad/Previsualización dejarán de funcionar al caducar porque las direcciones URL están basadas en la cookie 3rdPartyID. |
 
 ## ¿Esto afectará a mi implementación actual de [!DNL Target]?
