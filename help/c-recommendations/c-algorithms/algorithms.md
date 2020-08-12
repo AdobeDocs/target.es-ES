@@ -1,10 +1,11 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Los criterios de Recomendaciones de Adobe Target son reglas que determinan qué productos recomendar en función de un conjunto predeterminado de comportamientos de visitante.
-title: Criterios en las recomendaciones de Adobe Target
+description: Los criterios de Adobe Target Recommendations son reglas que determinan qué productos recomendar en función de un conjunto predeterminado de comportamientos de visitante.
+title: Criterios en Adobe Target Recommendations
+feature: null
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -86,7 +87,7 @@ Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la mar
 | Principales vendedores | Los artículos que están incluidos en los pedidos más completados. Varias unidades del mismo artículo en un único pedido se cuentan como un solo pedido. |
 | Más visitados | Los artículos o medios que se visitan con mayor frecuencia. |
 | Elementos/Medios vistos recientemente | Artículos que el visitante ha visto recientemente. Cuando utilice este criterio, deberá actualizar el diseño de Target para controlar los casos en los que se mostrarían recomendaciones en blanco cuando no hubiera suficientes artículos vistos previamente para mostrar. |
-| Recomendaciones basadas en el usuario | Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como &quot;Recomendado para usted&quot;.<br>Este criterio le permite entregar contenido y experiencias personalizadas a visitantes nuevos y reincidentes. La lista de las recomendaciones está ponderada en función de la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el usuario navega por el sitio.<br>Tanto las vistas como las compras se utilizan para determinar los artículos recomendados. La clave de recomendación especificada (por ejemplo, Elemento actual) se utiliza para aplicar cualquier filtros de regla de inclusión que seleccione. Por ejemplo, puede:<ul><li>Excluir elementos que no cumplen determinados criterios (productos sin existencias, artículos publicados hace más de 30 días, películas clasificadas como R, etc.)</li><li>Limitar los elementos incluidos a una sola categoría o a la categoría actual</li></ul> |
+| Recommendations basado en el usuario | Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como &quot;Recomendado para usted&quot;.<br>Este criterio le permite entregar contenido y experiencias personalizadas a visitantes nuevos y reincidentes. La lista de las recomendaciones está ponderada en función de la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el usuario navega por el sitio.<br>Tanto las vistas como las compras se utilizan para determinar los artículos recomendados. La clave de recomendación especificada (por ejemplo, Elemento actual) se utiliza para aplicar cualquier filtros de regla de inclusión que seleccione. Por ejemplo, puede:<ul><li>Excluir elementos que no cumplen determinados criterios (productos sin existencias, artículos publicados hace más de 30 días, películas clasificadas como R, etc.)</li><li>Limitar los elementos incluidos a una sola categoría o a la categoría actual</li></ul> |
 
 >[!NOTE]
 >
@@ -112,4 +113,4 @@ Haga clic en la pestaña **[!UICONTROL Uso del algoritmo]** para ver una lista d
 
 >[!NOTE]
 >
->La función Uso [!UICONTROL del] algoritmo solo se admite actualmente para actividades de Recomendaciones. Esta función no se admite actualmente en actividades de Prueba A/B y Segmentación de experiencias (XT) que incluyen [recomendaciones como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+>La función Uso [!UICONTROL del] algoritmo solo se admite actualmente para actividades de Recommendations. Esta función no se admite actualmente en actividades de Prueba A/B y Segmentación de experiencias (XT) que incluyen [recomendaciones como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
