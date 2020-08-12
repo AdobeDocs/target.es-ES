@@ -1,10 +1,14 @@
 ---
 description: El registro de cambios proporciona un registro de quién realizó cambios en las actividades y cuándo lo hizo.
-title: Registro de cambios de actividades en Adobe Target
+title: Registro de cambio de actividad en Adobe Target
+feature: null
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 93%
 
 ---
 
