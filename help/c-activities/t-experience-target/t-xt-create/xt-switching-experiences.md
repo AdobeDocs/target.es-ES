@@ -1,11 +1,15 @@
 ---
-keywords: prioridad;crear experiencia;prioridad;experiencia;audiencia;experiencia;convertir experiencias;compositor de experiencias visuales;visual experience composer
+keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: Información sobre cómo los visitantes pueden cambiar entre experiencias en una actividad de Segmentación de experiencias (XT) conforme evolucionan sus perfiles.
 title: Cambiar experiencias en segmentación de experiencias
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 100%
 
 ---
 
@@ -38,24 +42,24 @@ Para aprovechar estas capacidades en [!DNL Target], es importante entender la si
 
    Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Alemania, desde donde visitó de nuevo su página web. En la primera visita, el visitante cumplía los requisitos para la Experiencia A (visitantes estadounidenses). Tras ver su sitio web desde Alemania, este visitante cambia a la Experiencia B (visitantes alemanes).
 
-   ![Prioridad de EE. UU. &gt; Alemania](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![Prioridad de EE. UU. > Alemania](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **También cambiarán de experiencia si dejan de cumplir los requisitos de su audiencia actual, pero cumplen los de una experiencia de prioridad inferior.**
 * **Si los visitantes dejan de cumplir los requisitos para su experiencia actual y no cumplen los de ninguna otra, verán el contenido predeterminado.**
 
    Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Francia, desde donde visitó de nuevo su página web. En la primera visita, el visitante cumplía los requisitos para la Experiencia A (visitantes estadounidenses). Tras ver su sitio web desde Francia, este visitante permanecerá en la experiencia original.
 
-   ![Prioridad de EE. UU. &gt; Alemania](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![Prioridad de EE. UU. > Alemania](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **Se puede utilizar una experiencia segmentada a “Todos los visitantes” como la última experiencia de la actividad de segmentación de experiencias para “captar” a los visitantes que no han participado de otras experiencias. Si una experiencia segmentada a “Todos los visitantes” no es la última del pedido, se evaluarán otras experiencias segmentadas que aparezcan por debajo de esta experiencia.**
 
    Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Alemania, desde donde visitó de nuevo su página web. En la primera visita, el visitante cumplía los requisitos para la Experiencia A (visitantes estadounidenses). Tras ver su sitio web desde Alemania, este visitante permanecerá en la Experiencia A (visitantes estadounidenses).
 
-   ![Prioridad de EE. UU. &gt; Todos los visitantes](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
+   ![Prioridad de EE. UU. > Todos los visitantes](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
    Si no desea que ocurra esto, puede crear una audiencia nueva que esté definida de forma explícita como audiencia contraria a la de destino, como se muestra en el siguiente ejemplo:
 
-   ![Prioridad de EE. UU. &gt; No EE. UU.](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
+   ![Prioridad de EE. UU. > No EE. UU.](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
 * **Con una actividad de XT de una sola experiencia, los visitantes permanecerán en una experiencia aunque dejen de cumplir los requisitos para la audiencia que les asigne dicha experiencia.**
 
@@ -69,5 +73,5 @@ Para aprovechar estas capacidades en [!DNL Target], es importante entender la si
 
    Es importante tener esto en cuenta cuando es posible que un visitante cumpla los requisitos de más de una de sus audiencias. Por ejemplo, si tiene dos experiencias, una dirigida a “Estados Unidos” y otra a “Nueva York”, un visitante en Nueva York cumpliría los requisitos para ambas audiencias. Por lo tanto, debe asegurarse de que la experiencia “Nueva York” se define antes que “Estados Unidos” en la interfaz de usuario de Target. De este modo se asegura de que la experiencia más dirigida, “Nueva York”, tenga mayor prioridad, como se muestra en el siguiente ejemplo:
 
-   ![Prioridad NY &gt; EE. UU.](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
+   ![Prioridad NY > EE. UU.](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
 
