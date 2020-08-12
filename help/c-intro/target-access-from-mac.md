@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: 2fce6cd51f3d472001773d7b69eca52bcd1cf8c3
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 76%
 
 ---
 
@@ -17,17 +20,13 @@ Información sobre el acceso a [!DNL Adobe Target] desde [!DNL Adobe Experience 
 
 ## Inicie sesión en Adobe Target y defina la vista predeterminada
 
-1. Después de iniciar sesión en [!DNL Experience Cloud], haga clic en el icono Aplicación, ubicado en la barra de navegación.
+1. Inicie sesión en el [Adobe Experience Cloud](https://experience.adobe.com/).
+
+1. Haga clic en el icono **** Aplicación de la barra de navegación y, a continuación, haga clic en **[!UICONTROL Destinatario]**.
+
+   También puede hacer clic en el panel de la ventana principal para acceder a [!DNL Target] (o a cualquier otra [!DNL Target] [!DNL Adobe Experience Cloud] solución a la que tenga acceso).
 
    ![Icono de aplicación](/help/c-intro/assets/appmenu-new.png)
-
-1. Haga clic en el icono [!DNL Target] ubicado en el menú Aplicación.
-
-   ![Icono de Target.](/help/c-intro/assets/appmenu-target-new.png)
-
-1. En la tarjeta **[!UICONTROL , haga clic en]** Iniciar[!DNL Target].
-
-   ![Iniciar Target](/help/c-intro/assets/target-launch-new.png)
 
 1. (Opcional) Si quiere que [!DNL Target] sea la vista predeterminada cuando inicia sesión en [!DNL Experience Cloud], haga clic en **[!UICONTROL Editar perfil]**, debajo del avatar de perfil, y establezca su preferencia de página de aterrizaje.
 
@@ -35,13 +34,15 @@ Información sobre el acceso a [!DNL Adobe Target] desde [!DNL Adobe Experience 
 
 ## Cambio del idioma predeterminado para la interfaz de usuario de Target {#language}
 
-1. Después de iniciar sesión en [!DNL Adobe Experience Cloud ] o [!DNL Target], haga clic en el avatar de perfil, luego haga clic **[!UICONTROL en Editar perfil]**.
+1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
 
    ![Editar perfil](/help/c-intro/assets/change-language.png)
 
-1. Haga clic en **[!UICONTROL Editar información personal]**.
+1. Haga clic en Cuenta **[!UICONTROL de]** Adobe para acceder a su [!DNL Adobe] perfil.
 
-1. Haga clic en la pestaña **[!UICONTROL Comunicación]** en la barra de menú superior.
+   ![Cuenta de Adobe](/help/c-intro/assets/adobe-account.png)
+
+1. Haga clic en la ficha **[!UICONTROL Notificaciones]** de la barra de menús superior y, a continuación, haga clic en la ficha **[!UICONTROL Preferencias]** del lado izquierdo.
 
    ![Idiomas preferidos](/help/c-intro/assets/prefered-language.png)
 
@@ -49,7 +50,7 @@ Información sobre el acceso a [!DNL Adobe Target] desde [!DNL Adobe Experience 
 
 1. Seleccione el primer idioma (principal) y, a continuación, si lo desea, seleccione un segundo idioma.
 
-   La interfaz de usuario de [!DNL Target] está disponible en los siguientes idiomas:
+   La interfaz de usuario [!DNL Target] está disponible en los siguientes idiomas: aunque las notificaciones están disponibles en más idiomas:
 
    * Inglés
    * Español
@@ -68,7 +69,7 @@ Información sobre el acceso a [!DNL Adobe Target] desde [!DNL Adobe Experience 
 
 ## Cambiar el idioma de la documentación del producto de Target {#doc-lang}
 
-La configuración del sistema operativo o del explorador debe detectar su idioma preferido y mostrar la documentación en ese idioma (si está disponible). La documentación de Target se traduce automáticamente y se sincroniza con la versión en inglés en cuestión de horas después de realizar cambios en la documentación en inglés.
+La configuración del sistema operativo o del explorador debe detectar su idioma preferido y mostrar la documentación en ese idioma (si está disponible). [!DNL Target]La documentación de se traduce automáticamente y se sincroniza con la versión en inglés en cuestión de horas después de realizar cambios en la documentación en inglés.
 
 Puede cambiar rápidamente el idioma a la versión original en inglés si hace clic en el vínculo en el encabezado de la página.
 
