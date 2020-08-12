@@ -1,11 +1,15 @@
 ---
-keywords: afinidad;afinidad de la categoría
+keywords: affinity;category affinity
 description: La función de afinidad de la categoría en Adobe Target captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de forma que se pueda establecer como objetivo y se le apliquen segmentos. Esto contribuye a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de realizar alguna acción a partir de esa información.
 title: Uso de afinidad de la categoría en Adobe Target
+feature: null
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -111,14 +115,14 @@ Esta sección contiene la información siguiente:
    Para copiar una audiencia existente, en la lista Audiencias, pase el ratón sobre la audiencia que quiera y luego haga clic en el icono Copiar. Luego puede editar la audiencia para crear otra parecida.
 
 1. Escriba un nombre descriptivo para la audiencia.
-1. Haga clic en **[!UICONTROL + Agregar regla]** &gt; **[!UICONTROL Perfil del visitante]**.
+1. Haga clic en **[!UICONTROL + Agregar regla]** > **[!UICONTROL Perfil del visitante]**.
 1. En la lista desplegable **[!UICONTROL Perfil del visitante]**, seleccione **[!UICONTROL Afinidad de la categoría]**.
 
-   ![Perfil del visitante &gt; Afinidad de la categoría](assets/affinity.png)
+   ![Perfil del visitante > Afinidad de la categoría](assets/affinity.png)
 
 1. Seleccione la categoría que quiera:
 
-   ![Afinidad de la categoría &gt; Categoría](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Afinidad de la categoría > Categoría](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    Las categorías incluyen:
 
@@ -128,7 +132,8 @@ Esta sección contiene la información siguiente:
    * Tercera categoría
    * Cuarta categoría
    * Quinta categoría
-   Las opciones "Categoría favorita" y "Primera categoría" son equivalentes.
+
+   Las opciones &quot;Categoría favorita&quot; y &quot;Primera Categoría&quot; son equivalentes.
 
 1. Elija el evaluador:
 
