@@ -1,11 +1,15 @@
 ---
-keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;solo actividad;específica
+keywords: audience;audience rules;create audience;creating audience;activity only;activity-only;adhoc
 description: Cree audiencias solo de actividad dentro del flujo de trabajo guiado de tres pasos de Adobe Target para la creación de una actividad. Estas audiencias ad-hoc pueden usarse en otros lugares dentro de la misma actividad, pero no se almacenan en la biblioteca de audiencias para su uso en otras actividades.
 title: Crear una audiencia solo de actividad.  en Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
