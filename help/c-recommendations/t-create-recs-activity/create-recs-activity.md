@@ -2,9 +2,13 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Use el Compositor de experiencias visuales (VEC) de Target para crear una actividad de Recommendations directamente en una página con Target habilitado y modificar partes de la página en Target.
 title: Crear una actividad de Recommendations
+feature: null
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1150'
+ht-degree: 94%
 
 ---
 
@@ -61,6 +65,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
    * Página de resultados de búsqueda
    * Página de agradecimiento.
    * Otro:
+
    ![Seleccionar opciones de tipo de página](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
 1. Seleccione uno o más [criterios](/help/c-recommendations/c-algorithms/algorithms.md).
@@ -165,6 +170,6 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
    Se produce un conflicto de actividades cuando existen varias actividades configuradas para publicar contenido en la misma página, lo cual puede hacer que se muestre contenido inesperado.
 
-## Vídeo de formación: Crear una actividad de Recommendations (7:15) Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Crear una actividad de Recommendations (7:15) ![Insignia de tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
