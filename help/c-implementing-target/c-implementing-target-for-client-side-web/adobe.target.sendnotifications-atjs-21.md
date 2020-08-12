@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;enviar notificaciones;notificaciones;at.js;funciones;función
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
 description: Información sobre la función adobe.target.sendNotifications(options) para la biblioteca JavaScript at.js de Adobe Target.
 title: Información sobre la función adobe.target.sendNotifications(options) para la biblioteca JavaScript at.js de Adobe Target.
-subtopic: Primeros pasos
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 100%
 
 ---
 
@@ -28,32 +32,32 @@ Esta función envía una notificación a Target Edge cuando se procesa una exper
 
 | Nombre del campo | Tipo | ¿Requerido? | Limitación | Descripción |
 | --- | --- | --- | --- | --- |
-| Request &gt; notifications | Matriz de objetos | Sí |  | Notificaciones para el contenido mostrado, selectores en los que se hizo clic y/o vistas o mboxes visitados. |
-| Request &gt; notifications &gt; address | Objeto | No |  |  |
-| Request &gt; notifications &gt; address &gt; url | Cadena | No |  | URL desde la cual se activó la notificación. |
-| Request &gt; notifications &gt; address &gt; referringUrl | Cadena | No |  | Dirección URL de referencia desde la que se activó la notificación. |
-| Request &gt; notifications &gt; parameters | Objeto | No | Los parámetros siguientes no están permitidos en los parámetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tenga en cuenta lo siguiente:<ul><li>Límite máximo de 50 parámetros.</li><li>El nombre del parámetro no debe estar en blanco.</li><li>Longitud máxima del parámetro 128.</li><li>El nombre del parámetro no debe comenzar con “perfil”.</li><li>Longitud máxima del valor del parámetro 5000.</li></ul> |  |
-| Request &gt; notifications &gt; profileParameters | Objeto | No | Los parámetros siguientes no están permitidos en los parámetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tenga en cuenta lo siguiente:<ul><li>Límite máximo de 50 parámetros.</li><li>El nombre del parámetro no debe estar en blanco.</li><li>Longitud máxima del parámetro 128.</li><li>El nombre del parámetro no debe comenzar con “perfil”.</li><li>Longitud máxima del valor del parámetro 5000.</li></ul> |  |
-| Request &gt; notifications &gt; order | Objeto | No |  | Objeto que describe los detalles del pedido. |
-| Request &gt; notifications &gt; order &gt; id | Cadena | No | `<=` 250 caracteres. | ID de pedido. |
-| Request &gt; notifications &gt; order &gt; total | Cadena | No | `>=` 0 | Total de pedido. |
-| Request &gt; notifications &gt; order &gt; purchasedProductIds | Matriz de cadena | No | <ul><li>No se permiten valores en blanco.</li><li>La longitud máxima de la ID de producto es 50.</li><li>Los ID de producto, separados por comas y concatenados, no deben superar los 250.</li></ul> | Ordenar ID de productos. |
-| Request &gt; notifications &gt; product | Objeto | No |  |  |
-| Request &gt; notifications &gt; product &gt; id | Cadena | No | `<=` 128 caracteres; no puede estar en blanco. | ID del producto. |
-| Request &gt; notifications &gt; product &gt; categoryId | Cadena | No | `<=` 128 caracteres; no puede estar en blanco. | ID de categoría. |
-| Request &gt; notifications &gt; id | Cadena | Sí | `<=` 200 caracteres. | La ID de notificación se devolverá en respuesta e indicará que la notificación se ha procesado correctamente. |
-| Request &gt; notifications &gt; impressionId | Cadena | No | `<= 128` caracteres. | La ID de impresión se utiliza para unir (vincular) la notificación actual con una notificación anterior o ejecutar la solicitud. Si ambas coinciden, la segunda y las demás solicitudes posteriores no generarán una impresión nueva para la actividad o experiencia. |
-| Solicitud &gt; notificaciones &gt; tipo | Cadena | Sí | Se admite “clic” o “visualización”. | Tipo de notificación. |
-| Request &gt; notifications &gt; timestamp | Número`<int64>` | Sí |  | Marca de tiempo de la notificación en milisegundos transcurridos desde UNIX epoch. |
-| Request &gt; notifications &gt; tokens | Matriz de cadena | Sí |  | Lista de tokens para el contenido mostrado o selectores en los que se hizo clic, según el tipo de notificación. |
-| Request &gt; notifications &gt; mbox | Objeto | No |  | Notificaciones para el mbox. |
-| Request &gt; notifications &gt; mbox &gt; name | Cadena | No | No se permiten valores en blanco.<br>Caracteres permitidos: Consulte la nota que sigue esta tabla. | nombre de mbox. |
-| Request &gt; notifications &gt; mbox &gt; state | Cadena | No |  | Token de estado de mbox. |
-| Request &gt; notifications &gt; view | Objeto | No |  |  |
-| Request &gt; notifications &gt; view &gt; id | Número entero `<int64>` | No |  | Ver id. ID que se asignó a la vista cuando la vista se creó mediante la API de visualización. |
-| Request &gt; notifications &gt; view &gt; name | Cadena | No | `<= 128` caracteres. | Nombre de la vista. |
-| Request &gt; notifications &gt; view &gt; key | Cadena | No | `<=` 512 caracteres. | Ver clave. La clave que se configuró con la vista a través de la API. |
-| Request &gt; notifications &gt; view &gt; state | Cadena | No |  | Ver token de estado. |
+| Request > notifications | Matriz de objetos | Sí |  | Notificaciones para el contenido mostrado, selectores en los que se hizo clic y/o vistas o mboxes visitados. |
+| Request > notifications > address | Objeto | No |  |  |
+| Request > notifications > address > url | Cadena | No |  | URL desde la cual se activó la notificación. |
+| Request > notifications > address > referringUrl | Cadena | No |  | Dirección URL de referencia desde la que se activó la notificación. |
+| Request > notifications > parameters | Objeto | No | Los parámetros siguientes no están permitidos en los parámetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tenga en cuenta lo siguiente:<ul><li>Límite máximo de 50 parámetros.</li><li>El nombre del parámetro no debe estar en blanco.</li><li>Longitud máxima del parámetro 128.</li><li>El nombre del parámetro no debe comenzar con “perfil”.</li><li>Longitud máxima del valor del parámetro 5000.</li></ul> |  |
+| Request > notifications > profileParameters | Objeto | No | Los parámetros siguientes no están permitidos en los parámetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tenga en cuenta lo siguiente:<ul><li>Límite máximo de 50 parámetros.</li><li>El nombre del parámetro no debe estar en blanco.</li><li>Longitud máxima del parámetro 128.</li><li>El nombre del parámetro no debe comenzar con “perfil”.</li><li>Longitud máxima del valor del parámetro 5000.</li></ul> |  |
+| Request > notifications > order | Objeto | No |  | Objeto que describe los detalles del pedido. |
+| Request > notifications > order > id | Cadena | No | `<=` 250 caracteres. | ID de pedido. |
+| Request > notifications > order > total | Cadena | No | `>=` 0 | Total de pedido. |
+| Request > notifications > order > purchasedProductIds | Matriz de cadena | No | <ul><li>No se permiten valores en blanco.</li><li>La longitud máxima de la ID de producto es 50.</li><li>Los ID de producto, separados por comas y concatenados, no deben superar los 250.</li></ul> | Ordenar ID de productos. |
+| Request > notifications > product | Objeto | No |  |  |
+| Request > notifications > product > id | Cadena | No | `<=` 128 caracteres; no puede estar en blanco. | ID del producto. |
+| Request > notifications > product > categoryId | Cadena | No | `<=` 128 caracteres; no puede estar en blanco. | ID de categoría. |
+| Request > notifications > id | Cadena | Sí | `<=` 200 caracteres. | La ID de notificación se devolverá en respuesta e indicará que la notificación se ha procesado correctamente. |
+| Request > notifications > impressionId | Cadena | No | `<= 128` caracteres. | La ID de impresión se utiliza para unir (vincular) la notificación actual con una notificación anterior o ejecutar la solicitud. Si ambas coinciden, la segunda y las demás solicitudes posteriores no generarán una impresión nueva para la actividad o experiencia. |
+| Solicitud > notificaciones > tipo | Cadena | Sí | Se admite “clic” o “visualización”. | Tipo de notificación. |
+| Request > notifications > timestamp | Número`<int64>` | Sí |  | Marca de tiempo de la notificación en milisegundos transcurridos desde UNIX epoch. |
+| Request > notifications > tokens | Matriz de cadena | Sí |  | Lista de tokens para el contenido mostrado o selectores en los que se hizo clic, según el tipo de notificación. |
+| Request > notifications > mbox | Objeto | No |  | Notificaciones para el mbox. |
+| Request > notifications > mbox > name | Cadena | No | No se permiten valores en blanco.<br>Caracteres permitidos: Consulte la nota que sigue esta tabla. | nombre de mbox. |
+| Request > notifications > mbox > state | Cadena | No |  | Token de estado de mbox. |
+| Request > notifications > view | Objeto | No |  |  |
+| Request > notifications > view > id | Número entero `<int64>` | No |  | Ver id. ID que se asignó a la vista cuando la vista se creó mediante la API de visualización. |
+| Request > notifications > view > name | Cadena | No | `<= 128` caracteres. | Nombre de la vista. |
+| Request > notifications > view > key | Cadena | No | `<=` 512 caracteres. | Ver clave. La clave que se configuró con la vista a través de la API. |
+| Request > notifications > view > state | Cadena | No |  | Ver token de estado. |
 
 **Nota**: Los caracteres siguientes están permitidos para `Request > notifications > mbox > name`:
 
