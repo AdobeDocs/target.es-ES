@@ -1,12 +1,16 @@
 ---
-keywords: datos parciales;A4T;discrepancias;Analytics para Target;huérfano;grupo de informes virtual;fantasma;resolución de problemas;no vinculado;inflado;no especificado
+keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
 description: Información que le ayudará a minimizar los efectos de los recuentos inflados de visitas y visitantes al utilizar Analytics como fuente de informes.
 title: Minimización de los recuentos inflados de visitas y visitantes en A4T
-subtopic: Prueba multivariable
+feature: null
+subtopic: Multivariate Test
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +29,7 @@ Información que le ayudará a minimizar los efectos de los recuentos inflados d
 >* Servicio ID de visitante de Experience Cloud: visitorAPI.js versión 2.3.0 o posterior.
 >* Adobe Analytics: appMeasurement.js versión 2.1.
 >* Adobe Target: versión 0.9.6 de at.js o posterior (excepto la versión 1.1.0 si se utilizan ofertas de redireccionamiento con A4T).
+
 >
 >  
 La biblioteca mbox.js no admite ofertas de redireccionamiento con A4T. La implementación debe utilizar at.js.
@@ -95,7 +100,7 @@ Cuando cree un grupo de informes virtuales, especifique la siguiente configuraci
 
 **Visitas huérfanas:** con menor frecuencia, los usuarios no permanecen en la página el tiempo suficiente para que se realice la llamada de Analytics y, además, Target no tiene un MCID apropiado. Estas se denominan visitas “huérfanas”. Estas visitas representan a los clientes que raramente regresan e inflan indebidamente los recuentos de visitas y visitantes.
 
-Para minimizar estas visitas "huérfanas", puede crear un [grupo de informes virtuales](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que las excluya, tal y como hemos explicado.
+Para minimizar estas visitas &quot;huérfanas&quot;, puede crear un [grupo de informes virtuales](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que las excluya, tal y como hemos explicado.
 
 ## Consecuencias para los informes de [!DNL Target] {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
