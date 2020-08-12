@@ -2,10 +2,11 @@
 keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
 title: Entornos
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 67%
@@ -25,7 +26,7 @@ When a [!DNL Target] request is received from new websites or domains, these new
 
 Para administrar entornos, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Entornos]**.
 
-![lista Entornos](/help/administrating-target/assets/environments.png)
+![Lista entornos](/help/administrating-target/assets/environments.png)
 
 ## Añadir un entorno {#section_32097D0993724DF3A202D164D3F18674}
 
