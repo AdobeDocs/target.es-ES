@@ -1,10 +1,14 @@
 ---
-keywords: biblioteca de contenidos;activos;buscar;colecciones inteligentes;carpeta de búsqueda;filtro
+keywords: content library;assets;search;smart collections;search folder;filter
 description: Busque activos por palabra clave y guarde carpetas de búsqueda, llamadas colecciones inteligentes, que se actualizan automáticamente con los resultados de búsqueda.
 title: Buscar contenido y crear colecciones inteligentes
+feature: null
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +24,7 @@ Esta sección contiene la información siguiente:
 
 ## Buscar activos por palabra clave   {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. Haga clic en **[!UICONTROL Ofertas]** &gt; **[!UICONTROL Ofertas de imágenes]** para acceder a la [!UICONTROL Biblioteca de activos].
+1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imágenes]** para acceder a la [!UICONTROL Biblioteca de activos].
 
    Puede hacer clic en el icono [!UICONTROL Vista de tarjeta] que se encuentra en la esquina superior derecha para mostrar los activos en el formato de vista de tarjeta.
 
@@ -28,7 +32,7 @@ Esta sección contiene la información siguiente:
 
    Puede hacer clic en el icono [!UICONTROL Vista de lista] que se encuentra en la esquina superior derecha para mostrar los activos en el formato de vista de lista.
 
-1. Haga clic en el icono **[!UICONTROL Solo contenido]que se encuentra en la esquina superior izquierda para mostrar el cuadro de búsqueda.**
+1. Haga clic en el icono **[!UICONTROL Solo contenido]** que se encuentra en la esquina superior izquierda para mostrar el cuadro de búsqueda.
 
    ![](assets/search_assets.png)
 
@@ -38,7 +42,7 @@ Esta sección contiene la información siguiente:
 
 Puede crear búsquedas guardadas, llamadas colecciones inteligentes, para ahorrar tiempo al realizar búsquedas parecidas. Una búsqueda guardada crea una colección inteligente que se actualiza automáticamente con los resultados de búsqueda.
 
-1. Haga clic en **[!UICONTROL Ofertas]** &gt; **[!UICONTROL Ofertas de imágenes]** para acceder a la [!UICONTROL Biblioteca de activos].
+1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imágenes]** para acceder a la [!UICONTROL Biblioteca de activos].
 
    ![](assets/content.png)
 
@@ -47,7 +51,7 @@ Puede crear búsquedas guardadas, llamadas colecciones inteligentes, para ahorra
 
    ![](assets/browse_folders.png)
 
-1. Busque la carpeta donde quiere guardar la colección inteligente y selecciónela. A continuación, haga clic en el icono **[!UICONTROL Confirmar].**
+1. Busque la carpeta donde quiere guardar la colección inteligente y selecciónela. A continuación, haga clic en el icono **[!UICONTROL Confirmar]**.
 
    ![](assets/browse_folders2.png)
 
