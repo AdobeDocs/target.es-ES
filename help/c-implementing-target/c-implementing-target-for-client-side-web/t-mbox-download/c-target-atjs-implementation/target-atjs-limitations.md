@@ -1,10 +1,14 @@
 ---
-keywords: limitaciones del compositor de experiencias visuales;compatibilidad con exploradores;integraciones;complementos;consideraciones asíncronas
+keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
 description: Existen algunas diferencias entre at.js y mbox.js. En esta sección se señalan algunas de las diferencias y limitaciones para ayudarle a usar correctamente at.js.
 title: Limitaciones de at.js
+feature: null
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 
