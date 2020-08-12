@@ -1,18 +1,22 @@
 ---
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
-description: Las actividades de Adobe Target le permiten personalizar el contenido para audiencias específicas y probar los diseños de página
-title: Las actividades de Adobe Target le permiten personalizar el contenido para audiencias específicas y probar los diseños de página.
+description: Las actividades de Adobe Target le permiten personalizar el contenido para audiencias específicas y probar diseños de página
+title: Las actividades de Adobe Target le permiten personalizar el contenido para audiencias específicas y probar diseños de página.
+feature: null
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2092'
+ht-degree: 97%
 
 ---
 
 
 # Actividades{#activities}
 
-Las actividades de Adobe Target le permiten personalizar el contenido para audiencias específicas y probar los diseños de página.
+Las actividades de Adobe Target le permiten personalizar el contenido para audiencias específicas y probar diseños de página.
 
 Por ejemplo, podría diseñar una actividad que pruebe dos páginas de aterrizaje diferentes: una que destaque información sobre calzado de verano de mujer y otra que destaque ropa de verano más general. La actividad determina las condiciones que controlan cuándo aparece cada una de estas páginas de aterrizaje y las métricas que determinan qué página tiene mayor éxito. La actividad está configurada para comenzar y finalizar cuando se cumplan unas condiciones específicas como, por ejemplo, entre fechas concretas o que comience cuando se apruebe la actividad y finalice cuando se desactive.
 
@@ -178,7 +182,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Distintivo Administración de actividades (5:55) ![Información general](/help/assets/overview.png)
+### Identificación de administración de Actividades (5:55) ![Información general](/help/assets/overview.png)
 
 En este vídeo se explica cómo usar la lista Actividades para gestionar las actividades.
 
