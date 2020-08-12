@@ -1,11 +1,15 @@
 ---
-keywords: faq;preguntas frecuentes;analytics para target;a4t;aprovisionamiento;adobe Experience Cloud
+keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
 description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el aprovisionamiento de Analytics como fuente de informes para Target (A4T).
 title: 'Aprovisionamiento inicial: preguntas más frecuentes sobre A4T'
+feature: null
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
 
