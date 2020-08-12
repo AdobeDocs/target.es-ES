@@ -2,10 +2,11 @@
 keywords: Targeting
 description: De cada experiencia, se informa de la tasa de conversión, el alza, la confianza (relevancia estadística) y el intervalo de confianza.
 title: Tasa de conversión
+feature: null
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -148,7 +149,7 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 Para obtener más información sobre el [!DNL Data Warehouse], vea los siguientes vínculos en la documentación de ayuda de [!DNL Analytics]:
 
 * [Crear una solicitud del Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Prácticas recomendadas de Data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Prácticas recomendadas de Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodología de contabilización {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
