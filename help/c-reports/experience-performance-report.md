@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;experience performance report
 description: El informe Rendimiento de las experiencias muestra el rendimiento de cada experiencia en la actividad. Este informe proporciona información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
 title: Informe Rendimiento de las experiencias (MVT)
+feature: null
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +37,7 @@ Puede mostrar todas las experiencias, las cinco mejores o las cinco peores. Las 
 
 Debajo del gráfico, se muestra una tabla con la cantidad de participantes que vio cada experiencia y otra información relevante para la métrica de éxito.
 
-## Vídeo de formación: Crear una prueba MVT Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Crear una prueba MVT ![Insignia de tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Rendimiento de las experiencias se describe a partir del minuto 8:20.
 
