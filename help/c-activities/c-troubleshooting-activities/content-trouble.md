@@ -2,11 +2,12 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Si su página no muestra el contenido esperado, puede seguir algunos pasos para depurar el envío de contenido en Adobe Target.
 title: Solución de problemas de envío de contenido en Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 67%
@@ -105,7 +106,7 @@ Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla 
 
 Para obtener más información, consulte los vídeos de formación siguientes:
 
-Para obtener más información, consulte [Depuración de at.js con el depurador](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)de Adobe Experience Cloud.
+Para obtener más información, consulte [Depuración de at.js mediante el depurador](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)de Adobe Experience Cloud.
 
 ## Si target.js no se puede cargar durante la entrega {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -151,7 +152,7 @@ For remote offers, the [!DNL Target] response can contain `/* invalid remote off
 
 You can check the [!DNL Target] response in the browser or using mboxTrace. Consulte [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) para obtener más información sobre las direcciones URL válidas.
 
-## Las solicitudes de Destinatario no se activan en mi sitio.
+## Las solicitudes de destinatario no se activan en mi sitio.
 
 at.js no activa solicitudes de Destinatario si está utilizando un tipo de documento no válido. at.js requiere el tipo de documento HTML 5.
 
