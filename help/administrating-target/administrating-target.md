@@ -1,12 +1,13 @@
 ---
 keywords: setting up;setup;set-up;set up;administration
-description: Información para configurar Adobes Target, incluidas las preferencias, la implementación, la administración de usuarios, las propiedades, la configuración de Scene7, la administración de hosts y los tokens de respuesta.
+description: Información para configurar Adobe Target, incluidas las preferencias, la implementación, la administración de usuarios, las propiedades, la configuración de Scene7, la administración de hosts y los tokens de respuesta.
 title: Administración Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 17%
@@ -16,7 +17,7 @@ ht-degree: 17%
 
 # Información general sobre la administración de Target{#administer-target}
 
-Información útil para administrar [!DNL Adobe Target], incluidos los ajustes de configuración del Compositor de experiencias visuales (VEC), sistema de informes, configuración, implementación, hosts, entornos, tokens de respuesta y usuarios.
+Información útil para administrar [!DNL Adobe Target], incluida la configuración del Compositor de experiencias visuales (VEC), sistema de informes, configuración de Scene7, implementación, hosts, entornos, tokens de respuesta y usuarios.
 
 To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
@@ -30,4 +31,4 @@ To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Admini
 * [Tokens de respuesta](/help/administrating-target/response-tokens.md)
 * [Usuarios](/help/administrating-target/c-user-management/user-management.md)
 
-![Menú Administración de Adobes Target](/help/administrating-target/assets/administration.png)
+![Menú Administración de Adobe Target](/help/administrating-target/assets/administration.png)
