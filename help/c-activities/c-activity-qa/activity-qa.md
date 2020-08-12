@@ -1,11 +1,12 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Use direcciones URL de control de calidad de Adobe Target para realizar fácilmente un control de calidad de la actividad end-to-end con vínculos de previsualización que nunca cambian, segmentación opcional de audiencias y sistema de informes de control de calidad que se mantiene segmentado a partir de datos de actividad activos.
+description: Utilice las URL de control de calidad de Adobe Target para realizar fácilmente un control de calidad de la actividad end-to-end con vínculos de previsualización que nunca cambian, segmentación opcional de audiencias y sistema de informes de control de calidad que permanece segmentado a partir de datos de actividad activos.
 title: Control de calidad de la actividad
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 79%
@@ -15,7 +16,7 @@ ht-degree: 79%
 
 # Control de calidad de la actividad {#activity-qa}
 
-Utilice las direcciones URL de control de calidad en Adobe Target para realizar fácilmente un control de calidad de la actividad end-to-end con vínculos de previsualización que nunca cambian, segmentación opcional de audiencias y sistema de informes de control de calidad que permanece segmentado a partir de datos de actividad activos.
+Use direcciones URL de control de calidad en Adobe Target para realizar fácilmente un control de calidad de la actividad end-to-end con vínculos de previsualización que nunca cambian, objetivos opcionales de audiencia y sistemas de informes de control de calidad que permanecen segmentados a partir de datos de actividad en directo.
 
 ## Información general {#section_11B761A522A14E61978275772210A4C2}
 
@@ -81,9 +82,9 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
    Debido a esta doble codificación, cuando intentamos decodificar el `at_preview_token`, Target no puede extraer el valor del token correcto, lo que hace que la vista previa no funcione.
 
-   Le recomendamos que hable con su equipo de TI para asegurarse de que todos los parámetros de previsualización están permitidos para que estos valores no se transformen de ninguna manera.
+   Le recomendamos que hable con su equipo de TI para asegurarse de que todos los parámetros de previsualización están incluidos en la lista de permitidos para que estos valores no se transformen de ninguna manera.
 
-   La siguiente tabla lista los parámetros que se pueden admitir en el dominio:
+   La siguiente tabla lista los parámetros que se pueden incluido en la lista de permitidos en el dominio:
 
    | Parámetro | Tipo | Valor | Descripción |
    |--- |--- |--- |--- |
