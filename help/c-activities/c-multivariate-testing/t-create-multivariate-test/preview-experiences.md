@@ -1,10 +1,14 @@
 ---
 description: Dado que una prueba multivariable compara varias experiencias en una página, resulta útil previsualizar la página con cada experiencia.
 title: Previsualizar experiencias para una prueba multivariable
+feature: null
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
@@ -33,5 +37,5 @@ Dado que una prueba multivariable compara varias experiencias en una página, re
 
    De manera predeterminada, todas las experiencias se incluyen en la prueba multivariable. Para incluir una experiencia que se había excluido, seleccione la experiencia excluida y haga clic en **[!UICONTROL Incluir]**.
 
-Haga clic en **[!UICONTROL Salir del modo de vista previa]** para volver al Compositor de experiencias y realizar cambios, o haga clic en **Continuar]para ir al resumen de la prueba.[!UICONTROL **
+Haga clic en **[!UICONTROL Salir del modo de vista previa]** para volver al Compositor de experiencias y realizar cambios, o haga clic en **[!UICONTROL Continuar]** para ir al resumen de la prueba.
 
