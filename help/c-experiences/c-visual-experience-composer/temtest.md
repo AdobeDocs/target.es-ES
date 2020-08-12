@@ -2,9 +2,13 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: Si utiliza una plantilla de página para aportar estructura a sus páginas o si las páginas contienen elementos similares, esta característica permite probar variaciones en elementos de página de estructura similar.
 title: Incluir la misma experiencia en páginas similares
+feature: null
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +40,7 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
 
 1. Especifique el intervalo de páginas. El intervalo de páginas puede ser uno de los siguientes:
 
-   * Dirección URL (Para obtener más información sobre cómo evalúa Target las direcciones URL, consulte [Preguntas más frecuentes](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)sobre audiencias y objetivos).
+   * Dirección URL (Para obtener más información sobre cómo evalúa Destinatario las direcciones URL, consulte Preguntas más frecuentes sobre [Destinatarios y audiencias](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
    * Dominio
    * Ruta
    * Fragmento hash (#) (segmente la parte de una dirección URL que sigue al símbolo #)
@@ -72,7 +76,7 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
 >
 > Target no puede comprobar las páginas para garantizar que se muestran correctamente, por lo que siempre que se utiliza esta función es recomendable probar las páginas afectadas antes de hacerlas públicas.
 
-## Vídeo de formación: Compositor de experiencias visuales (2 de 2) (7:29) Distintivo ![de tutoriales](/help/assets/tutorial.png)
+## Vídeo de formación: Compositor de experiencias visuales (2 de 2) (7:29) ![Insignia de tutorial](/help/assets/tutorial.png)
 
 * Cambiar el nombre de una experiencia y duplicarla
 * Crear una experiencia de redirección
