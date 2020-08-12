@@ -1,11 +1,15 @@
 ---
-keywords: ingresos;alza de ingresos;aumento estimado de ingresos;estimar alza;valor estimado
+keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: Target puede calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora.
 title: Estimar el aumento de ingresos
+feature: null
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +32,7 @@ Esto calcula el aumento obtenido por la experiencia ganadora y el número total 
 
 El aumento estimado en los ingresos se calcula en función de los ingresos por visita (RPV) obtenidos de la métrica del objetivo principal.
 
-El alza estimada se calcula mediante la fórmula siguiente: (&lt;RPV de experiencia ganadora&gt; - &lt;RPV de experiencia de control&gt;)*&lt;número total de visitantes en la actividad&gt;
+El alza estimada se calcula mediante la fórmula siguiente: (&lt;RPV de experiencia ganadora> - &lt;RPV de experiencia de control>)*&lt;número total de visitantes en la actividad>
 
 El número resultante se redondea a un decimal, como máximo, si la forma corta tiene un solo dígito antes del decimal. Por ejemplo: 1,6 millones de dólares, 60 000 dólares, 900 dólares, 8500 dólares, 205 000 dólares
 
