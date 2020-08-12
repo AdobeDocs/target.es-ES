@@ -2,11 +2,12 @@
 keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
 description: Los informes proporcionan información sobre el rendimiento de sus actividades
 title: Informes
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 77%
@@ -57,6 +58,7 @@ Además de la información general sobre informes de este tema y sus apartados, 
 
    * El estado de la actividad, incluido el intervalo de fechas en que se ejecutó.
    * The [projected winning experience](/help/c-activities/automated-traffic-allocation/determine-winner.md) (if available).
+
    >[!NOTE]
    >
    >Los resultados de las experiencias aparecen después de que por lo menos un visitante haya visto la experiencia.
@@ -76,5 +78,5 @@ Además de la información general sobre informes de este tema y sus apartados, 
    | Tipo de informe | Ver |
    | --- | --- |
    | Segmentación automática | Haga clic en los iconos **[!UICONTROL Segmentos]** automatizados o Atributos **** importantes.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa.</li></ul> |
-   | Personalización automatizada (AP) | Además de los informes [Resumen de Personalización](/help/c-reports/reports-ap.md)automatizada, puede hacer clic en los iconos Segmentos **** automatizados o Atributos **** importantes.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa.</li></ul> |
+   | Personalización automatizada (AP) | Además de los informes [Resumen de](/help/c-reports/reports-ap.md)Automated Personalization, puede hacer clic en los iconos Segmentos **** automatizados o Atributos **** importantes.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa.</li></ul> |
    | Prueba multivariable (MVT) | Además del informe [Rendimiento de la](/help/c-reports/experience-performance-report.md)experiencia, puede hacer clic en el icono Contribución [de](/help/c-reports/location-contribution-report.md) ubicación para cambiar el informe y mostrar la contribución por ubicación. |
