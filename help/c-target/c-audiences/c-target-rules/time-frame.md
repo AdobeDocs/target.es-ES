@@ -2,10 +2,10 @@
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: Puede añadir fechas y horas de inicio y fin para dirigirse a los usuarios que visitan el sitio durante un periodo de tiempo determinado. También puede establecer opciones de Partición por semana y día para crear patrones recurrentes en la segmentación de audiencia.
 title: Periodo de tiempo
-feature: null
+feature: audiences
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 98%
