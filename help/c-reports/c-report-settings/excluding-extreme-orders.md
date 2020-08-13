@@ -2,10 +2,10 @@
 keywords: Target;reports;report settings;extreme orders;extreme values
 description: Puede excluir valores extremos para que no afecten a los informes de Adobe Target, de modo que algunos pedidos inusuales no afecten a los resultados de la actividad. Un ejemplo de pedido inusual puede ser el caso de un entrenador que compre uniformes para todo un equipo en lugar de compradores que compren uniformes de forma individual.
 title: Exclusión de valores extremos en informes de Adobe Target
-feature: null
+feature: report settings
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 88%
