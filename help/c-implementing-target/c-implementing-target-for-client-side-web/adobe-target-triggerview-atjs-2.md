@@ -2,11 +2,11 @@
 keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
 description: Información sobre la función adobe.target.triggerView (viewName, options) para la biblioteca JavaScript at.js de Adobe Target.
 title: Información sobre la función adobe.target.triggerView (viewName, options) para la biblioteca JavaScript at.js de Adobe Target.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Se puede llamar a esta función cada vez que se carga una página nueva o cuando
 | --- | --- | --- | --- |
 | Nombre de vista | Cadena | Sí | Pase cualquier nombre como tipo de cadena que desee que represente la vista. Este nombre de vista aparece en el panel [!UICONTROL Modificaciones] del VEC para que los especialistas en marketing creen acciones y ejecuten sus actividades A/B y XT. |
 | opciones | Objeto | No |  |
-| opciones > página | Booleano | No | **VERDADERO:** el valor predeterminado de la página es verdadero. Cuando la página es “page=true”, las notificaciones se envían al back-end [!DNL Target] para incrementar el recuento de impresiones.<br>Si no se asocia ninguna experiencia de actividad o métrica de actividad a la vista, no se envía ninguna notificación.<br>**FALSO:**Cuando la página es “page=false”, las notificaciones no se envían para incrementar el recuento de impresiones. Debe utilizarse cuando desee volver a procesar un componente en una página con una oferta. |
+| opciones > página | Booleano | No | **VERDADERO:** el valor predeterminado de la página es verdadero. Cuando la página es “page=true”, las notificaciones se envían al back-end [!DNL Target] para incrementar el recuento de impresiones.<br>Si no se asocia ninguna experiencia de actividad o métrica de actividad a la vista, no se envía ninguna notificación.<br>**FALSO:** Cuando la página es “page=false”, las notificaciones no se envían para incrementar el recuento de impresiones. Debe utilizarse cuando desee volver a procesar un componente en una página con una oferta. |
 
 ## Ejemplo: True
 
