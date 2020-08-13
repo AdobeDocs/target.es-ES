@@ -2,12 +2,12 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: La aplicación y la entrega de contenido de Adobe Target se han probado en un amplio abanico de navegadores y dispositivos.
 title: Navegadores admitidos
-feature: null
+feature: reference general
 subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 86%
@@ -36,8 +36,8 @@ La entrega de contenido se ha probado en los siguientes navegadores y dispositiv
 
 | Tipo de dispositivo | Versión del navegador |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 y 10. Probado en modo de emulación.<br>**Nota **: at.js 1.3.0 (y versiones posteriores) ya no es compatible con la entrega de contenido en Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (versión más reciente, la anterior a la más reciente)</li><li>Firefox (versiones última y penúltima)</li></ul> |
-| Mac | <ul><li>Apple Safari (versión más reciente)<br>**Nota **: Para obtener más información sobre cómo gestiona Safari las cookies de origen y de terceros, consulte[Cookie de Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (versiones última y penúltima)</li><li>Chrome (versión más reciente, la anterior a la más reciente)</li></ul> |
+| Windows | <ul><li>Internet Explorer 9 y 10. Probado en modo de emulación.<br>**Nota**: at.js 1.3.0 (y versiones posteriores) ya no es compatible con la entrega de contenido en Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (versión más reciente, la anterior a la más reciente)</li><li>Firefox (versiones última y penúltima)</li></ul> |
+| Mac | <ul><li>Apple Safari (versión más reciente)<br>**Nota**: Para obtener más información sobre cómo gestiona Safari las cookies de origen y de terceros, consulte [Cookie de Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (versiones última y penúltima)</li><li>Chrome (versión más reciente, la anterior a la más reciente)</li></ul> |
 | Móvil o tableta | <ul><li>Apple iOS (versión más reciente)</li><li>Dispositivos y tabletas Android (Android 4 y versiones posteriores)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 Tenga en cuenta lo siguiente:
