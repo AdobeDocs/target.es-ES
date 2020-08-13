@@ -2,10 +2,10 @@
 keywords: Targeting;analytics;tracking server
 description: Puede configurar una actividad en Target Standard para que use Adobe Analytics como fuente de informes (A4T).
 title: Usar datos de Analytics
-feature: null
+feature: a4t general
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 95%
