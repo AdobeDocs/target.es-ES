@@ -2,11 +2,11 @@
 keywords: multi-page;journey testing;multipage activity
 description: Una actividad de varias páginas le permite crear una historia en varias páginas, con un diseño que es específico de cada página.
 title: Actividad de varias páginas
-feature: null
+feature: vec
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
