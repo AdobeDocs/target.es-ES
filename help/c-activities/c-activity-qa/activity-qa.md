@@ -2,11 +2,11 @@
 keywords: qa;preview;preview links;adobe target;target
 description: Utilice las URL de control de calidad de Adobe Target para realizar fácilmente un control de calidad de la actividad end-to-end con vínculos de previsualización que nunca cambian, segmentación opcional de audiencias y sistema de informes de control de calidad que permanece segmentado a partir de datos de actividad activos.
 title: Control de calidad de la actividad
-feature: null
+feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 79%
