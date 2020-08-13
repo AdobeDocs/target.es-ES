@@ -2,11 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
 description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre las clasificaciones y el uso de Analytics como fuente de informes para Target (A4T).
 title: 'Clasificaciones: Preguntas más frecuentes sobre A4T'
-feature: null
+feature: a4t troubleshooting
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 66%
