@@ -2,10 +2,10 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: Información sobre la creación de reglas de inclusión en Adobe Target Recommendations para criterios y promociones, y la adición de reglas de filtrado dinámicas o estáticas adicionales para obtener mejores resultados.
 title: Usar reglas de inclusión dinámicas y estáticas en Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 75%
@@ -41,7 +41,7 @@ La siguiente tabla indica los tipos de opciones de filtrado para criterios y pro
 |--- |--- |--- |
 | **Filtrado dinámico** | **Coincidencia de atributos de entidad:** filtra dinámicamente comparando un conjunto de posibles elementos recomendados con un elemento específico con el que los usuarios han interactuado.<br>Por ejemplo, recomendar solo elementos que coincidan con la marca del elemento actual. | igual<br>no igual<br>está entre<br>contiene<br>no contiene<br>empieza por<br>termina por<br>valor presente<br>valor no presente<br>mayor que o igual a<br>menor que o igual a |
 |  | **Coincidencia de atributos de perfil:** filtra dinámicamente comparando elementos (entidades) con un valor del perfil del usuario.<br>Por ejemplo, recomendar solo elementos que coincidan con la marca favorita del visitante. | igual<br> no igual<br>contiene<br>no contiene<br>empieza por<br>acaba por<br>es mayor que o igual a<br>es menor que o igual a<br>está entre |
-|  | **Coincidencia de parámetros:** filtra dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).<br>Por ejemplo, recomendar solo contenido que coincida con el parámetro de página “sector”.<br>**Importante:**Si la actividad se creó antes del 31 de octubre de 2016, el envío fallará si utiliza el filtro “Coincidencia de parámetros”. Para evitar este problema:<ul><li>Cree una nueva actividad y añádale sus criterios.</li><li>Use criterios que no contengan el filtro “Coincidencia de parámetros”.</li><li>Elimine el filtro “Coincidencia de parámetros” de sus criterios.</li></ul> | igual<br>no igual<br>contiene<br>no contiene<br>empieza por<br>termina por<br>mayor que o igual a<br>menor que o igual a<br>está entre |
+|  | **Coincidencia de parámetros:** filtra dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).<br>Por ejemplo, recomendar solo contenido que coincida con el parámetro de página “sector”.<br>**Importante:** Si la actividad se creó antes del 31 de octubre de 2016, el envío fallará si utiliza el filtro “Coincidencia de parámetros”. Para evitar este problema:<ul><li>Cree una nueva actividad y añádale sus criterios.</li><li>Use criterios que no contengan el filtro “Coincidencia de parámetros”.</li><li>Elimine el filtro “Coincidencia de parámetros” de sus criterios.</li></ul> | igual<br>no igual<br>contiene<br>no contiene<br>empieza por<br>termina por<br>mayor que o igual a<br>menor que o igual a<br>está entre |
 | **Filtrar por valor** | **Filtro estático:** introduzca manualmente uno o más valores estáticos con los que filtrar.<br>Por ejemplo, recomendar solo contenido con una clasificación MPAA de “G” o “PG”. | igual<br>no igual<br>contiene<br>no contiene<br>empieza por<br>termina por<br>valor presente<br>valor no presente<br>mayor que o igual a<br>menor que o igual a |
 
 >[!NOTE]
