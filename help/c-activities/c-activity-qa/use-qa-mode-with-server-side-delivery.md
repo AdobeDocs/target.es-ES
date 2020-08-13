@@ -2,11 +2,11 @@
 keywords: qa;server side;server-side;preview;preview links
 description: Use direcciones URL de control de calidad con entrega de servidor para realizar sencillos controles de calidad de las actividades integrales con vínculos de vista previa invariables, segmentar audiencias de manera opcional y crear informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
 title: Usar el control de calidad de la actividad con entrega de servidor
-feature: null
+feature: qa
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
