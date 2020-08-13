@@ -2,10 +2,10 @@
 keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Muestra los problemas que pueden producirse en determinadas circunstancias en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC).
 title: Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado
-feature: null
+feature: vec
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
