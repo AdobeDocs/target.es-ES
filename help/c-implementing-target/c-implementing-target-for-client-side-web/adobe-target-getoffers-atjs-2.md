@@ -2,11 +2,11 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: Información sobre la función adobe.target.getOffers(options) para la biblioteca de JavaScript at.js de Adobe Target.
 title: Información sobre la función adobe.target.getOffers() para la biblioteca de JavaScript at.js de Adobe Target.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 95%
@@ -40,7 +40,7 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 | Solicitud > ID > thirdPartyId | No | Tamaño máximo = 128 |  |  |
 | Request > experienceCloud | No |  |  |
 | Request > experienceCloud > analytics | No |  | Integración de Adobe Analytics |
-| Request > experienceCloud > analytics > logging | No | Se debe implementar lo siguiente en la página:<ul><li>Servicio de ID de visitante</li><li>AppMeasurement.js</li></ul> | Se admiten los siguientes valores:<br>**client_side **: Cuando se especifique, se devolverá una carga útil de Analytics al que ha realizado la llamada, que debe utilizarse para enviar a Adobe Analytics mediante la API de inserción de datos.<br>**server_side**: Este es el valor predeterminado en el que el backend de Target y Analytics usará el SDID para unir las llamadas con fines de informes. |
+| Request > experienceCloud > analytics > logging | No | Se debe implementar lo siguiente en la página:<ul><li>Servicio de ID de visitante</li><li>AppMeasurement.js</li></ul> | Se admiten los siguientes valores:<br>**client_side**: Cuando se especifique, se devolverá una carga útil de Analytics al que ha realizado la llamada, que debe utilizarse para enviar a Adobe Analytics mediante la API de inserción de datos.<br>**server_side**: Este es el valor predeterminado en el que el backend de Target y Analytics usará el SDID para unir las llamadas con fines de informes. |
 | Solicitud > Captura previa | No |  |  |
 | Solicitud > Captura previa > Vistas | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud del nombre `<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe empezar con “perfil”<br>Nombres no permitidos: “orderId”, “orderTotal”, “productPurchasedId” | Pase parámetros para utilizarlos para recuperar vistas relevantes en actividades activas. |
 | Solicitud > Captura previa > Vistas > profileParameters | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud de nombre `<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe empezar con “perfil” | Pase parámetros de perfil para utilizarlos para recuperar vistas relevantes en actividades activas. |
