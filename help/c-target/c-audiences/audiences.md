@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Las audiencias en Adobe Target determinan quién ve el contenido y las experiencias en una actividad segmentada.
 title: Cree audiencias en Adobe Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -75,7 +75,7 @@ Estos tipos de audiencia importada cuentan con los siguientes detalles:
 | Tipo de audiencia | Detalles |
 |--- |--- |
 | Audiencia móvil | Nombre de marketing, Proveedor y Modelo.<br>Se muestra el operador `matches | does not match` en lugar de `equals | does not equal`<br>![Audiencia móvil importada](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
-| Audiencia de comportamiento del visitante | **user.categoryAffinity:** `categoryAffinity` con parámetro `FAVORITE`.<br>![Afinidad de categoría importada](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Supervisión:**el servicio de monitorización es equivalente a verdadero.<br>**Sin servicio de monitoreo:** Servicio de monitoreo es igual a falso.<br>![Supervisión importada](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Audiencia de comportamiento del visitante | **user.categoryAffinity:** `categoryAffinity` con parámetro `FAVORITE`.<br>![Afinidad de categoría importada ](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Supervisión:** el servicio de monitorización es equivalente a verdadero.<br>**Sin servicio de monitoreo:** Servicio de monitoreo es igual a falso.<br>![Supervisión importada](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Audiencias que utilizan el operador NOT | **Regla única:** Target muestra la audiencia con el formato `[All Visitor AND [NOT [rule]`. La regla única NOT se muestra con AND con la audiencia `AllVisitor`.<br>![Audiencia no importada](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Tenga en cuenta lo siguiente al trabajar con audiencias importadas:
