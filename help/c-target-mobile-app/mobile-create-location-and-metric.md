@@ -2,11 +2,11 @@
 keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
 description: Para usar Target en una aplicación móvil, cree una ubicación y una métrica de éxito.
 title: 'iOS: crear una ubicación y una métrica de éxito de Target'
-feature: null
+feature: mobile implementation
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 92%
