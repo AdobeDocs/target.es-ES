@@ -2,12 +2,12 @@
 keywords: capture score;score
 description: La métrica de compromiso Puntuación de captura calcula una puntuación agregada en función del valor asignado a las páginas visitadas en el sitio, desde el punto en que el visitante ve por primera vez la primera solicitud de Destinatario para la visualización de la campaña.
 title: Puntuación de captación
-feature: null
+feature: success metrics
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
