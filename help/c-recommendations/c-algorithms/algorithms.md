@@ -2,10 +2,10 @@
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Los criterios de Adobe Target Recommendations son reglas que determinan qué productos recomendar en función de un conjunto predeterminado de comportamientos de visitante.
 title: Criterios en Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -79,7 +79,7 @@ Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la mar
 
 | Criterios | Descripción |
 |--- |--- |
-| Elementos/Medios con atributos similares | Recomienda artículos o medios similares a artículos o medios según la actividad de la página actual o el comportamiento de visitantes anteriores.<br>**Nota:**Si selecciona Artículos/Medios con atributos similares, tendrá la opción de definir reglas de contenido similares. |
+| Elementos/Medios con atributos similares | Recomienda artículos o medios similares a artículos o medios según la actividad de la página actual o el comportamiento de visitantes anteriores.<br>**Nota:** Si selecciona Artículos/Medios con atributos similares, tendrá la opción de definir reglas de contenido similares. |
 | Los usuarios que vieron esto, vieron aquello. | Recomienda artículos que se visitan con mayor frecuencia en la misma sesión en que se ve el artículo especificado. |
 | Los usuarios que vieron esto, compraron aquello. | Recomienda artículos que se compran con mayor frecuencia en la misma sesión en que se ve el artículo especificado. Este criterio devuelve otros productos que otras personas compraron después de haber visto el producto especificado. Este producto no se incluye en el conjunto de resultados. |
 | Los usuarios que compraron esto, compraron aquello. | Recomienda artículos que se compran con mayor frecuencia junto al artículo especificado. |
