@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
 description: Una prueba A/B exitosa requiere un número adecuado de visitantes (tamaño de muestra) para mejorar su tasa de conversión, pero ¿cómo sabe durante cuánto tiempo se debe ejecutar una prueba A/B? Este artículo contiene información sobre las actividades de Asignación automática y la Calculadora de tamaño de muestra de Target para ayudarle a asegurarse de que su actividad tenga una cantidad suficiente de visitantes para lograr sus objetivos.
 title: ¿Durante cuánto tiempo se debe ejecutar una prueba A/B?
-feature: null
+feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '3108'
 ht-degree: 98%
