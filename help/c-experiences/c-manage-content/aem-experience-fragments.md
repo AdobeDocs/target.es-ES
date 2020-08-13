@@ -2,11 +2,11 @@
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: Información sobre el uso de fragmentos de experiencia creados en Adobe Experience Manager (AEM) en actividades de Adobe Target para facilitar la optimización o personalización.
 title: Fragmentos de experiencia de Adobe Experience Manager (AEM) en Adobe Target
-feature: null
+feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 29%
@@ -49,17 +49,17 @@ In order to use [!DNL AEM] experience fragments in [!DNL Target], you must perfo
 
 Para obtener más información, consulte:
 
-* **[!DNL AEM]6.3 **:[Si opta por Adobe Analytics y Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)en la documentación de_Adobe Experience Manager 6.3 _.
-* **[!DNL AEM]6.4 **:[Si opta por Adobe Analytics y Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)en la documentación de_Adobe Experience Manager 6.4 _.
-* **[!DNL AEM]6.5 **:[Si opta por Adobe Analytics y Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)en la documentación de *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.3**: [Si opta por Adobe Analytics y Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) en la documentación de _Adobe Experience Manager 6.3_ .
+* **[!DNL AEM]6.4**: [Si opta por Adobe Analytics y Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) en la documentación de _Adobe Experience Manager 6.4_ .
+* **[!DNL AEM]6.5**: [Si opta por Adobe Analytics y Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) en la documentación de *Adobe Experience Manager 6.5* .
 
 ### Paso 2: Crear el fragmento de experiencia
 
 Los fragmentos de experiencia se crean en [!DNL AEM]. Para obtener más información, consulte:
 
-* **[!DNL AEM]6.3 **:[Fragmentos](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)de experiencia en la documentación de *Adobe Experience Manager 6.3*.
-* **[!DNL AEM]6.4 **:[Fragmentos](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)de experiencia en la documentación de *Adobe Experience Manager 6.4*.
-* **[!DNL AEM]6.5 **:[Fragmentos](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)de experiencia en la documentación de *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.3**: [Fragmentos](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) de experiencia en la documentación de *Adobe Experience Manager 6.3* .
+* **[!DNL AEM]6.4**: [Fragmentos](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) de experiencia en la documentación de *Adobe Experience Manager 6.4* .
+* **[!DNL AEM]6.5**: [Fragmentos](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) de experiencia en la documentación de *Adobe Experience Manager 6.5* .
 
 ### Step 3: Configure [!DNL AEM] to share the experience fragment with [!DNL Target]
 
@@ -76,9 +76,9 @@ Los fragmentos de experiencia se crean en [!DNL AEM]. Para obtener más informac
 
 En función de su [!DNL AEM] versión, consulte los siguientes vínculos para obtener instrucciones paso a paso:
 
-* **[!DNL AEM]6.3 **:[Exportación de un fragmento de experiencia a Destinatario](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)en la documentación de *Adobe Experience Manager 6.3*.
-* **[!DNL AEM]6.4 **:[Exportación de un fragmento de experiencia a Destinatario](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)en la documentación de *Adobe Experience Manager 6.4*.
-* **[!DNL AEM]6.5 **:[Exportación de un fragmento de experiencia a Destinatario](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)en la documentación de *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.3**: [Exportación de un fragmento de experiencia a Destinatario](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) en la documentación de *Adobe Experience Manager 6.3* .
+* **[!DNL AEM]6.4**: [Exportación de un fragmento de experiencia a Destinatario](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) en la documentación de *Adobe Experience Manager 6.4* .
+* **[!DNL AEM]6.5**: [Exportación de un fragmento de experiencia a Destinatario](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) en la documentación de *Adobe Experience Manager 6.5* .
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
