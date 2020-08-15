@@ -5,9 +5,9 @@ title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3442'
 ht-degree: 88%
 
 ---
@@ -32,6 +32,10 @@ Si agrega una regla de plantilla, como contenidos de una URL (/checkout, /cart) 
 ### Vínculos de vista previa de control de calidad de la actividad {#preview}
 
 Es posible que los vínculos de [Vista previa de control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) para las actividades guardadas no se carguen si hay demasiadas guardadas en su cuenta. Volver a intentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se usan de forma activa. (TNT-32697)
+
+### Modo de control de calidad para actividades de Recommendations
+
+Un problema conocido impide la previsualización si los criterios utilizados en la actividad están basados en elementos o en categorías. (TNT-37455)
 
 ### Ofertas de redireccionamiento {#redirect}
 
