@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
+source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 29%
+source-wordcount: '1814'
+ht-degree: 30%
 
 ---
 
@@ -99,7 +99,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Trabajar con redirectores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Información añadida sobre el uso de hosts para evitar vulnerabilidades de redireccionamiento abierto. |
 |  | [Integrar Recommendations con el correo electrónico](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Información añadida sobre el uso de hosts para evitar vulnerabilidades de redireccionamiento abierto. |
 |  | [Correo electrónico: implementación de Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Información añadida sobre el uso de hosts para evitar vulnerabilidades de redireccionamiento abierto. |
-| Mayo de 7 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Con la próxima desaprobación de mbox.js el 30 de agosto de 2020, David Son, el administrador de productos de Adobe Target, organizó recientemente un chat de desarrollador para debatir las ventajas de migrar mbox.js a at.js. Hay un vínculo donde puede ver el seminario web durante los próximos 30 días. |
 |  | [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) | Se ha actualizado la sección &quot;Consideraciones&quot;. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Se ha actualizado la fila &quot;overrideMboxEdgeServer&quot; en &quot;Configuración&quot;. |
 | Mayo de 6 | [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Información añadida sobre ITP 2.3. |
@@ -115,7 +114,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha cambiado la fecha de la versión de Target Standard/Premium (20.4.1) al 6 de mayo. |
 | Abril de 23 | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tema actualizado. |
 | Abril de 22 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Nueva sección añadida: *Cambios en la API de estado de lote de perfil v2 (4 de mayo de 2020).* |
-| Abril de 20 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Nueva sección añadida: *Adobe Target Skill Builder: Chat del desarrollador, migre mbox.js de Adobe Target a at.js.* |
 | Abril de 14 | [Hosts perimetrales de Destinatario de lista de permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nuevo tema. |
 | Abril de 10 | [Implementación de aplicación de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nueva sección añadida: &quot;Prácticas recomendadas de implementación&quot;. |
 | Abril de 7 | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Se ha actualizado el texto para &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
@@ -135,7 +133,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Marzo de 4 | [Atributos de perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Se ha actualizado todo el tema con amplias revisiones a la sección &quot;Prácticas recomendadas&quot;. |
 | 21 de febrero | [Notas de la versión (actual)](/help/r-release-notes/release-notes.md) | Información añadida sobre la nueva navegación de Adobe Experience Cloud. |
 | 20 de febrero | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Información añadida para la siguiente configuración: `pageLoadEnabled` y `viewsEnabled`. |
-| 19 de febrero | [Notas de la versión](/help/r-release-notes/release-notes.md) | Información añadida sobre la próxima desaprobación de la biblioteca mbox.js. |
 |  | [Ubicación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md) | Nota añadida que `mboxOverride.browserIp` se admite en at.js 1.Solamente *x.* |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha aclarado el texto que explica qué versiones de at.js admite el equipo de Destinatario. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 20.2.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
