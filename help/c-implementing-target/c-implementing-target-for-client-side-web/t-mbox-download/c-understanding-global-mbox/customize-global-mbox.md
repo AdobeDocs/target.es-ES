@@ -1,55 +1,45 @@
 ---
-keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
-description: Información para personalizar un mbox global en at.js y en mbox.js.
+keywords: global mbox;customize global mbox;edit at.js;at.js;implement at.js
+description: Información útil para personalizar un mbox global para at.js.
 title: Personalizar un mbox global
 feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 97%
+source-wordcount: '160'
+ht-degree: 59%
 
 ---
 
 
 # Personalizar un mbox global{#customize-a-global-mbox}
 
-Información para personalizar un mbox global en at.js y en mbox.js.
+Información útil para personalizar un mbox global para at.js.
 
-1. Editar mbox.js.
+1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
 
-   Go to **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Disable **[!UICONTROL Page load enabled (Auto create global mbox)]**, then add the name of the custom global mbox that you would like to use to deliver activities from [!DNL Target].
 
-   * Para mbox.js, haga clic en **[!UICONTROL Editar la configuración de mbox.js]**.
-   * Para [!DNL at.js]**[!UICONTROL , seleccione at.js]**, en Método de implementación, y luego haga clic en **[!UICONTROL Editar la configuración de mbox.js]**.
+   Este mbox global personalizado también se usa para el rastreo de clics.
 
-   ![](assets/step-1-edit-mboxjs.png)
+   ![custom-global-mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/assets/custom-global-mbox.png)
 
-1. Edite [!DNL mbox.js] o [!DNL at.js].
+1. Haga clic en **[!UICONTROL Guardar]** cuando termine.
 
-   Deshabilite **[!UICONTROL Crear automáticamente mbox global]** y luego añada el nombre del mbox global personalizado que quiere usar para publicar actividades desde [!DNL Target Standard/Premium]. Este mbox global personalizado también se usa para el rastreo de clics.
+1. Implement the [!DNL at.js] library on your site.
 
-   ![](assets/step-2-edit-mboxjs-or-atjs.png)
-
-   Haga clic en **[!UICONTROL Guardar]** cuando termine.
-1. Implemente la biblioteca [!DNL mbox.js] o [!DNL at.js] en el sitio.
-
-* Para mbox.js, consulte [Implementación de mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
-* Para at.js, consulte [Implementación de at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+   Consulte [Cómo implementar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) para obtener más información.
 
 1. Programe la transición según su versión.
 
-   Cuando esté listo para que [!DNL Target Standard/Premium] empiece a usar el mbox global en todas las actividades futuras, proceda con este paso.
+   Cuando esté listo para que [!DNL Target] empiece a usar el mbox global en todas las actividades futuras, proceda con este paso.
 
    Actualice el nombre del mbox global personalizado para que coincida con el nombre usado en el paso 2 anterior.
-
-   ![](assets/step-4-time-the-transition-with-your-release.png)
 
    >[!IMPORTANT]
    >
    >Cuando se guarda, todas las actividades de la cuenta se sincronizan con este mbox. Si este mbox no está en su sitio, todas las actividades dejarán de funcionar.
 
-   Haga clic en **[!UICONTROL Guardar]**.
