@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 19%
+source-wordcount: '685'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 
 Este artículo contiene información de evaluación. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 5 de agosto de 2020**
+**Última actualización: 20 de agosto de 2020**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información en estas páginas puede ser la misma, según el tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -41,7 +41,21 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 ## Target Standard/Premium 20.9.1 (2 de septiembre de 2020)
 
-Las nuevas funciones, mejoras y correcciones de esta versión se actualizarán aquí.
+Esta versión contiene las siguientes mejoras, correcciones y cambios:
+
+* Se ha corregido un problema que provocaba que se mostraran errores al cargar las nuevas páginas de **[!UICONTROL administración]** después de cambiar de organización. (TGT-37730)
+* Se ha corregido un problema de visualización que provocaba que se mostrara el código de cliente incorrecto en la página **[!UICONTROL Administración > Implementación]** . (TGT-37849)
+* Se ha corregido un problema que, en ocasiones, impedía a los usuarios utilizar las funciones de edición del Compositor **[!UICONTROL de experiencias]** visuales (VEC) después de cargar correctamente el VEC. (TGT-37162)
+* Se ha corregido un problema que, en ocasiones, impedía a los usuarios descargar at.js desde la página **[!UICONTROL Administración > Implementación]** después de cambiar de organización. (TGT-37668)
+* Se ha corregido un problema en las actividades de **[!UICONTROL Segmentación]** de experiencias (XT) que hacía que las experiencias mostraran &quot;obteniendo resultados&quot; durante un período de tiempo prolongado. (TGT-37684)
+* Se ha mejorado la navegación y la funcionalidad para los usuarios que utilizan solo el teclado. (TGT-34479 y TGT-34473)
+* Etiquetas añadidas en la interfaz de usuario para ayudar a los usuarios a utilizar tecnologías de asistencia. (TGT-34480)
+* Se ha mejorado el mensaje de error al eliminar una ventanilla móvil que se está utilizando en una actividad. El mensaje de error ahora es: &quot;Esta ventanilla está asociada actualmente a una o varias actividades. Debe quitar la ventanilla de esas actividades antes de poder eliminarla&quot;. (TGT-37030)
+* Se ha añadido la compatibilidad en el VEC para permitir el seguimiento de clics en un selector css que coincida con más de un elemento de la página. (TGT-37323)
+* Se ha corregido un problema que impedía que algunos usuarios mostraran la lista de **[!UICONTROL Actividad]** . Se mostraba el siguiente mensaje de error: &quot;No se pueden recuperar las sugerencias de URL.&quot; El error se producía para los usuarios que utilizaban retornos de carro en su nombre (FirstName/r/n) en el sistema de back-end de Adobe. (TGT-37330)
+* Se ha corregido un problema que impedía que los usuarios mostraran la página de **[!UICONTROL Actividad]** si el nombre del espacio de trabajo (especificado en **[!UICONTROL Adobe Admin Console para Enterprise]**) contenía un apóstrofe. (TGT-37709)
+* El botón de descarga de at.js ahora está desactivado mientras se carga para evitar que se envíen varias solicitudes si los usuarios hacen clic varias veces en el botón de descarga. [!DNL Target] (TGT-37633)
+* Se ha corregido un problema que provocaba un valor modificado incorrectamente por última vez para [!DNL Recommendations] los criterios. (TGT-37666)
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
