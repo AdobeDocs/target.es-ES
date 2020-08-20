@@ -5,10 +5,10 @@ title: Ventanillas móviles para experiencias interactivas
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 71%
+source-wordcount: '1443'
+ht-degree: 69%
 
 ---
 
@@ -119,6 +119,10 @@ Configure todas las ventanillas móviles que quiera que estén disponibles cuand
    Si usa el [Compositor de experiencias mejorado](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) y elige un sistema operativo,  imita ese dispositivo cuando visualiza la página. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+>[!NOTE]
+>
+>Si intenta eliminar una ventanilla móvil que está en uso, se muestra el siguiente mensaje: &quot;Esta ventanilla está asociada actualmente a una o varias actividades. Debe quitar la ventanilla de esas actividades antes de poder eliminarla&quot;.
 
 ## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
