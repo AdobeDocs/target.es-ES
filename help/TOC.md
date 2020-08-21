@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 90%
+source-wordcount: '1479'
+ht-degree: 88%
 
 ---
 
@@ -29,10 +29,17 @@ ht-degree: 90%
    + [Notas de la versión para versiones anteriores](r-release-notes/release-notes-for-previous-releases.md)
 + Primeros pasos {#introduction}
    + [Introducción a Target](c-intro/intro.md)
-   + [Kit de bienvenida de Adobe Target](/help/c-intro/target-welcome-kit.md)
    + [Acceder a Target desde Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Conceptos clave de Target](c-intro/target-key-concepts.md)
    + [Comprender la IU de Destinatario](/help/c-intro/understand-the-target-ui.md)
+   + Kit de bienvenida de Adobe Target {#welcome}
+      + [Introducción al kit de bienvenida de Adobe Target](/help/c-intro/target-welcome-kit.md)
+      + [Capítulo 1: Introducción](/help/c-intro/target-welcome-kit-1.md)
+      + [Capítulo 2: Adobe Target de un vistazo](/help/c-intro/target-welcome-kit-2.md)
+      + [Capítulo 3: Desarrolle sus ideas de prueba y personalización](/help/c-intro/target-welcome-kit-3.md)
+      + [Capítulo 4: Sugerencias para el uso de Destinatario](/help/c-intro/target-welcome-kit-4.md)
+      + [Capítulo 5: Inspiración para pruebas y actividades de personalización](/help/c-intro/target-welcome-kit-5.md)
+      + [Capítulo 6: Peligros fáciles de evitar](/help/c-intro/target-welcome-kit-6.md)
    + [Glosario](c-intro/glossary.md)
    + [Cómo funciona Adobe Target](c-intro/how-target-works.md)
    + [Capacitación y certificación](c-intro/training-and-certification.md)
