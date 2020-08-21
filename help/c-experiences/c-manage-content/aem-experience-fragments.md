@@ -6,7 +6,7 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 29%
@@ -146,7 +146,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. No puede editar el fragmento de experiencia en [!DNL Target].
 * Puede importar ofertas JSON como fragmentos de experiencia en [!DNL Target]. Sin embargo, estas ofertas se importan como ofertas HTML. Actualmente, las ofertas JSON (fragmentos de experiencia) no son totalmente compatibles con la [!DNL Target] interfaz de usuario.
 
-## Training video: Using AEM experience fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
+## Training video: Using AEM experience fragments with Adobe Target ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
 El siguiente vídeo muestra cómo configurar y utilizar fragmentos de experiencia:
 
