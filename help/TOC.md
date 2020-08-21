@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 88%
+source-wordcount: '1497'
+ht-degree: 87%
 
 ---
 
@@ -40,6 +40,9 @@ ht-degree: 88%
       + [Capítulo 4: Sugerencias para el uso de Destinatario](/help/c-intro/target-welcome-kit-4.md)
       + [Capítulo 5: Inspiración para pruebas y actividades de personalización](/help/c-intro/target-welcome-kit-5.md)
       + [Capítulo 6: Peligros fáciles de evitar](/help/c-intro/target-welcome-kit-6.md)
+      + [Capítulo 7: Crear y ejecutar su primera actividad de Destinatario](/help/c-intro/target-welcome-kit-7.md)
+      + [Capítulo 8: Comunicar los resultados de la actividad](/help/c-intro/target-welcome-kit-8.md)
+      + [Capítulo 9: Próximos pasos y recursos](/help/c-intro/target-welcome-kit-9.md)
    + [Glosario](c-intro/glossary.md)
    + [Cómo funciona Adobe Target](c-intro/how-target-works.md)
    + [Capacitación y certificación](c-intro/training-and-certification.md)
