@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1932'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 21 de agosto | [Introducción al kit de bienvenida de Adobe Target](/help/c-intro/target-welcome-kit.md) | Nuevo artículo y subtemas. |
 | 20 de agosto | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se añadió la siguiente sección: &quot;¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite al VEC y al EEC?&quot; |
 |  | [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Se ha actualizado el siguiente texto: &quot;Si selecciona más de un elemento, si un participante hace clic en cualquiera de los elementos seleccionados, se contabilizará el clic. Para contar cada elemento por separado, configure métricas de éxito individuales para cualquier elemento. Para contar un elemento haciendo clic en varios elementos de una página, edite el selector de elementos CSS para que coincida con varios elementos.&quot; |
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión Target Standard/Premium 20.9.1 (2 de septiembre de 2020). |
@@ -129,7 +130,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Marzo de 24 | [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Información añadida sobre los impactos para lo siguiente:<ul><li>Secuencias de comandos de perfil basadas en 3rdPartyID</li><li>Direcciones URL de control de calidad/Previsualización en dispositivos iOS</li></ul> |
 | Marzo de 20 | [Notas de la versión (actual)](/help/r-release-notes/release-notes.md) | Se indica que la versión de Target Standard/Premium 20.2.1 será el 23 de marzo de 2020. |
 | Marzo de 13 | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado el número de &quot;Audiencias, reutilizables por cuenta&quot;. |
-| Marzo de 12 | [Release Notes (current)](/help/r-release-notes/release-notes.md#summit) | Información de registro añadida para el acceso gratuito a la conferencia digital en línea de la Cumbre. |
+| Marzo de 12 | [Notas de la versión (actual)](/help/r-release-notes/release-notes.md#summit) | Información de registro añadida para el acceso gratuito a la conferencia digital en línea de la Cumbre. |
 | Marzo de 9 | [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Se añadió más información en la sección &quot;Sustitución del último octeto de direcciones IP&quot;. |
 |  | [Trabajar con atributos de varios valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Se ha actualizado el ejemplo de código en *Pasar un parámetro de varios valores en JavaScript*. |
 |  | [Atributos de entidad personalizados](/help/c-recommendations/c-products/custom-entity-attributes.md) | Ejemplo de código añadido en *Uso de API* en *Implementación de atributos* de varios valores. |
