@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 48%
+source-wordcount: '893'
+ht-degree: 46%
 
 ---
 
@@ -24,7 +24,7 @@ You can add users and manage their permissions in the [!DNL Adobe Admin Console]
 >La funcionalidad [!UICONTROL Propiedades] y [!UICONTROL Permisos] está disponible como parte de la [!DNL Target]solución Premium. No están disponibles en [!DNL Target] Standard sin una licencia de [!DNL Target] Premium.
 >You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 >
->* **[!DNL Target]Clientes** estándar: Si ve la ficha [!UICONTROL Usuarios] ([!UICONTROL Administración > Usuarios]) (y no la ficha **[!UICONTROL Propiedades]** ), su organización tiene una licencia [!DNL Target] estándar. [!DNL Los clientes de Target Standard deben seguir las instrucciones descritas en este artículo para agregar usuarios y asignar permisos en [!DNL Adobe Admin Console].
+>* **[!DNL Target]Clientes** estándar: Si ve la ficha [!UICONTROL Usuarios] ([!UICONTROL Administración > Usuarios]) (y no la ficha **[!UICONTROL Propiedades]** ), su organización tiene una licencia [!DNL Target] estándar. [!DNL Target] Los clientes estándar deben seguir las instrucciones de este artículo para agregar usuarios y asignar permisos en el [!DNL Adobe Admin Console].
    >
    >
 * **[!DNL Target]Clientes** Premium: Si ve la ficha [!UICONTROL Usuarios] y la ficha [!UICONTROL Propiedades] ([!UICONTROL Administración > Propiedades]), su organización dispone de una licencia [!DNL Target] Premium. [!DNL Target] Los clientes Premium deben seguir las instrucciones de [Permisos de usuario de Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) y [Configuración de permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) para agregar usuarios y asignar permisos en [!DNL Adobe Admin Console].
