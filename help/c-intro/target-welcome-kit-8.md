@@ -4,9 +4,9 @@ description: Kit de bienvenida Adobe Target - Capítulo 8
 title: Kit de bienvenida Adobe Target - Capítulo 8
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ Si ejecuta una actividad y tiene resultados sorprendentes, debe compartir esos r
 
 Al comunicar estos resultados, resulta útil acercarse a ellos como si estuviera contando una historia. Hacerlo interesante y explicar claramente qué fue probado o personalizado y por qué, y cuáles fueron los resultados. Utilice el lenguaje y la terminología que entienden los que están revisando los resultados.
 
-Hemos incluido una plantilla de resultados de resumen ejecutivo en Microsoft PowerPoint (véase más abajo). Restablezca la marca con el esquema de color y logotipo de su organización y úselo para presentar los resultados de la primera prueba o actividad de personalización. Al igual que el Planificador de Actividad, se incluye con el kit de bienvenida como archivo independiente, pero también se ha añadido una imagen de este archivo aquí, junto con un ejemplo del tipo de información que se incluirá en cada área de la plantilla.
+Hemos incluido una plantilla [de resultados de resumen](/help/assets/executive-summary.zip) ejecutivo en Microsoft PowerPoint. Restablezca la marca con el esquema de color y logotipo de su organización y úselo para presentar los resultados de la primera prueba o actividad de personalización. Al igual que el Planificador de Actividad, se incluye con el kit de bienvenida como archivo independiente, pero también se ha añadido una imagen de este archivo aquí, junto con un ejemplo del tipo de información que se incluirá en cada área de la plantilla.
 
 ![Informe resumido ejecutivo](/help/c-intro/assets/executive-summary-report.png)
