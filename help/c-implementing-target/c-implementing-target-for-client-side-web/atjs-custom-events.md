@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -48,7 +48,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## Vídeo de formación: Tokens de respuesta y eventos personalizados {#section_ED304A7137DC42A4BDCD6D57C989F1FA} de at.js ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Tokens de respuesta y eventos personalizados ![ de at.jsInsignia de tutorial](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
 Vea el siguiente vídeo para aprender a utilizar los tokens de respuesta y los eventos personalizados de at.js con el fin de compartir información de perfil de Target con sistemas de terceros.
 
