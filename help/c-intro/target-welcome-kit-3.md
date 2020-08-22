@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenida Adobe Target - Capítulo 3
-title: Kit de bienvenida Adobe Target - Capítulo 3
+description: Kit de bienvenida de Adobe Target - Capítulo 3 - Desarrolle sus ideas de pruebas y personalización
+title: Kit de bienvenida de Adobe Target - Capítulo 3 - Desarrolle sus ideas de pruebas y personalización
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Capítulo 3: Desarrolle sus ideas de pruebas y personalización
 
-Para la primera actividad, puede probar algo súper sencillo como cambiar el color o copiar en un botón de llamada a acción. Sólo para mojar los pies. Sin embargo, a más largo plazo, deseará establecer un proceso formal y repetible para presentar ideas para pruebas y actividades de personalización que ayuden a madurar el programa de optimización y personalización. Los seis pasos siguientes describen un proceso probado para hacer exactamente eso, junto con detalles sobre qué hacer en cada paso.
+Para la primera actividad, puede probar algo súper sencillo como cambiar el color o copiar en un botón de llamada a acción. Sólo para mojar los pies. Sin embargo, a más largo plazo, deseará establecer un proceso formal y repetible para presentar ideas para actividades de pruebas y personalización que ayuden a madurar el programa de optimización y personalización. Los seis pasos siguientes describen un proceso probado para hacer exactamente eso, junto con detalles sobre qué hacer en cada paso.
 
 ![Ejecución iterativa del diagrama de estrategia de optimización y personalización](/help/c-intro/assets/six-steps.png)
 
