@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenida Adobe Target - Capítulo 6
-title: Kit de bienvenida Adobe Target - Capítulo 6
+description: Kit de bienvenida de Adobe Target - Capítulo 6 - Problemas fáciles de evitar
+title: Kit de bienvenida de Adobe Target - Capítulo 6 - Problemas fáciles de evitar
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 3%
 
 Lo bueno de comenzar su programa de optimización y personalización ahora es que las personas que lo han estado haciendo durante un tiempo ya han descubierto muchos de los errores que son fáciles de cometer. Al conocer estos escollos, puede evitarlos fácilmente o remediarlos.
 
-Consulte [Diez escollos comunes de prueba A/B y cómo evitarlos](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) para obtener información detallada. Además de las ideas presentadas en ese artículo, mantenga esta breve lista a mano para evitar o corregir estos escollos comunes de prueba y personalización.
+>[!NOTE]
+>
+>Consulte [Diez escollos comunes de prueba A/B y cómo evitarlos](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) para obtener información detallada. Además de las ideas presentadas en ese artículo, mantenga esta breve lista a mano para evitar o corregir estos escollos comunes de prueba y personalización.
 
 | Escollo | Solución |
 | --- | --- |
