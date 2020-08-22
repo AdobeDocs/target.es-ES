@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenida de Adobe Target - Capítulo 2
-title: Kit de bienvenida de Adobe Target - Capítulo 2
+description: Kit de bienvenida de Adobe Target - Capítulo 2 - Destinatario de un vistazo
+title: Kit de bienvenida de Adobe Target - Capítulo 2 - Destinatario de un vistazo
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '2504'
 ht-degree: 17%
 
 ---
@@ -28,12 +28,12 @@ Para obtener información más detallada sobre cuándo y cómo utilizar cada fun
 
 | Tipo de actividad | Detalles |
 | --- | --- |
-| Segmentación de experiencias (XT) | Distribuya contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por el usuario. **[!UICONTROL La segmentación]** de experiencias es valiosa para dirigir una experiencia o contenido específico a una audiencia en particular cuando se entiende que una audiencia es valiosa y tiene un buen sentido de la experiencia que resuena con ellos. [Más información](/help/c-activities/t-experience-target/experience-target.md). |
 | Prueba A/B | Compare dos o más variaciones de sus experiencias o ofertas en el sitio web, u otro punto de contacto de clientes digitales para ver qué variación mejora más las medidas comerciales clave durante un período de prueba preespecificado. Las pruebas A/B son ideales para cambios de gran tamaño, como nuevos diseños de página web, distintos enfoques de la navegación del sitio o tratamientos radicalmente diferentes de elementos individuales de una experiencia digital como copiar, imágenes y botones de llamada a acción. [Más información](/help/c-activities/t-test-ab/test-ab.md). |
-| Prueba multivariable (MVT) | Compare todas las combinaciones posibles de variaciones de elementos en la página o experiencia digital; por ejemplo, tres imágenes de fondo diferentes, dos variaciones de copia y dos colores de botón diferentes. MVT determina qué combinación ofrece el mejor rendimiento para una audiencia específica y qué elementos tienen el mayor impacto en los resultados. [Más información](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | Asignación automática | Identifique la experiencia de mejor rendimiento entre dos o más experiencias y reasigne automáticamente más tráfico al ganador para aumentar las conversiones mientras la prueba continúa ejecutándose y aprendiendo. Utiliza Inteligencia Artificial [!DNL Adobe Sensei]. [Más información](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| Destinatario<br>automático (Premium) | Aproveche Adobe Sensei AI en [!DNL Target] para determinar y ofrecer la mejor experiencia de varios a cada visitante en función de su perfil de cliente individual y del comportamiento de visitantes anteriores con perfiles similares. El Destinatario automático permite la personalización a escala. |
+| Destinatario<br>automático (Premium) | Aproveche Adobe Sensei AI en [!DNL Target] para determinar y ofrecer la mejor experiencia de varios a cada visitante en función de su perfil de cliente individual y del comportamiento de visitantes anteriores con perfiles similares. El Destinatario automático permite la personalización a escala. [Más información](/help/c-activities/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Utilice algoritmos avanzados de aprendizaje automático y automatización [!DNL Adobe Sensei] para revisar diferentes combinaciones de imágenes, copias y otros elementos de una oferta y ofrecer la mejor combinación a cada visitante en función de cuál es el mejor logro para los objetivos comerciales, como mayores conversiones o ingresos por visitante. [Más información](/help/c-activities/t-automated-personalization/automated-personalization.md). |
+| Segmentación de experiencias (XT) | Distribuya contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por el usuario. **[!UICONTROL La segmentación]** de experiencias es valiosa para dirigir una experiencia o contenido específico a una audiencia en particular cuando se entiende que una audiencia es valiosa y tiene un buen sentido de la experiencia que resuena con ellos. [Más información](/help/c-activities/t-experience-target/experience-target.md). |
+| Prueba multivariable (MVT) | Compare todas las combinaciones posibles de variaciones de elementos en la página o experiencia digital; por ejemplo, tres imágenes de fondo diferentes, dos variaciones de copia y dos colores de botón diferentes. MVT determina qué combinación ofrece el mejor rendimiento para una audiencia específica y qué elementos tienen el mayor impacto en los resultados. [Más información](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | Recommendations<br>(Premium) | Utilice Adobe Sensei AI para sugerir automáticamente productos o contenido que pueda interesar a sus clientes en función de su actividad anterior y la de otros clientes. [Más información](/help/c-recommendations/recommendations.md). |
 
 ## Canales
