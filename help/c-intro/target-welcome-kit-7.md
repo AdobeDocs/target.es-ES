@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenida de Adobe Target - Capítulo 7
-title: Kit de bienvenida de Adobe Target - Capítulo 7
+description: Kit de bienvenida de Adobe Target - Capítulo 7 - Crear y ejecutar su primera actividad de Destinatario
+title: Kit de bienvenida de Adobe Target - Capítulo 7 - Crear y ejecutar su primera actividad de Destinatario
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,9 @@ Cuando llegue a la idea de realizar pruebas, tenga en cuenta que debería poder 
 
 ## Planificación de la actividad con el planificador de Actividades
 
-Hemos incluido [Adobe Target Actividad Planner](/help/assets/activity-planner.pdf) como un PDF independiente que puede guardar y usar una y otra vez. Para ejecutar una actividad efectiva, debe completar cada área del planificador. Utilice esta herramienta a medida que usted y otros usuarios inician ideas para probar y personalizar actividades.
+Hemos incluido [Adobe Target Actividad Planner](/help/assets/activity-planner.pdf) como un PDF independiente que puede guardar y usar una y otra vez. Haga clic en el vínculo para vista del archivo PDF. Haga clic con el botón derecho para descargar el archivo PDF.
+
+Para ejecutar una actividad efectiva, debe completar cada área del planificador. Utilice esta herramienta a medida que usted y otros usuarios inician ideas para probar y personalizar actividades.
 
 ![Adobe Target Actividad Planner](/help/c-intro/assets/activity-planner.png)
 
