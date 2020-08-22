@@ -5,9 +5,9 @@ title: Resolución de problemas relacionados con el Compositor de experiencias v
 feature: vec
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 97%
 
 ---
@@ -47,7 +47,7 @@ Si ni el Compositor de experiencias visuales ni el Compositor de experiencias me
 >Además de la siguiente información, puede utilizar la [extensión del explorador Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para Google Chrome.
 
 
->[!Note]
+>[!NOTE]
 >
 >Estos complementos deben usarse solo en el contexto de la edición de VEC.
 >
