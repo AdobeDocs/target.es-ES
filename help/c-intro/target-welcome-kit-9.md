@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenida de Adobe Target - Capítulo 9
-title: Kit de bienvenida de Adobe Target - Capítulo 9
+description: Kit de bienvenida de Adobe Target - Capítulo 9 - Próximos pasos y recursos
+title: Kit de bienvenida de Adobe Target - Capítulo 9 - Próximos pasos y recursos
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Hemos cubierto los conceptos básicos para ejecutar su primera actividad. Esperamos que esa actividad le muestre a usted y a su compañía el increíble potencial que tiene el uso [!DNL Adobe Target] para optimizar y personalizar para impactar el balance final del negocio. Esto es solo un inicio. ¿Es hora de pensar en qué se centrará para su segunda actividad? Considere la posibilidad de crear una lista de actividades con prioridad que desee ejecutar. Le sorprenderá la rapidez con la que ve cómo la actividad por actividad mejora la experiencia del cliente e impulsa el éxito empresarial.
 
-Por cierto, tiene muchas maneras de aprender más sobre pruebas, personalización y uso [!DNL Target]. Examinar la lista de los recursos que figuran a continuación para fomentar los inicios en ese sentido. Escuchen en nuestros seminarios web, lean el blog de Adobe Target, asistan a la Cumbre de Adobe y se activan en la comunidad en línea de Adobe Target. No olvide que siempre estamos aquí para ayudarle a lanzar su programa y ponerlo en el camino del éxito. Alcanza en cualquier momento.
+Por cierto, tiene muchas maneras de aprender más sobre pruebas, personalización y uso [!DNL Target]. Examinar la lista de los recursos que figuran a continuación para fomentar los inicios en ese sentido. Escuchen en nuestros seminarios web, lean el blog de Adobe Target, asistan a la Cumbre de Adobe y actúen en la comunidad en línea de Adobe Target. No olvide que siempre estamos aquí para ayudarle a lanzar su programa y ponerlo en el camino del éxito. Alcanza en cualquier momento.
 
 Hemos compilado una lista organizada de información valiosa para ayudarle a obtener aún más conocimientos sobre optimización y personalización mediante [!DNL Target].
 
