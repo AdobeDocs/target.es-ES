@@ -6,9 +6,9 @@ feature: vec
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2403'
 ht-degree: 95%
 
 ---
@@ -200,7 +200,7 @@ Observe que los puntos azules en el panel principal y junto a cada opción en lo
 
    Tenga en cuenta que el editor CSS muestra solo los detalles de la sesión actual. Si guarda cambios y vuelve a abrir el editor, los detalles sobre el cambio anterior no se muestran en el editor, aunque vuelva a seleccionar el mismo elemento.
 
-   >[!IImportante]
+   >[!IMPORTANT]
    >
    >Puede aplicar una imagen de fondo mediante el editor CSS, pero puede provocar parpadeos. Pruebe los cambios antes de la implementación.
 
