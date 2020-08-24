@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1939'
 ht-degree: 30%
 
 ---
@@ -22,12 +22,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 24 de agosto | [Métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Se ha actualizado la sección &quot;Configuración avanzada&quot;. |
 | 21 de agosto | [Introducción al kit de bienvenida de Adobe Target](/help/c-intro/target-welcome-kit.md) | Nuevo artículo y subtemas. |
 | 20 de agosto | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se añadió la siguiente sección: &quot;¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite al VEC y al EEC?&quot; |
 |  | [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Se ha actualizado el siguiente texto: &quot;Si selecciona más de un elemento, si un participante hace clic en cualquiera de los elementos seleccionados, se contabilizará el clic. Para contar cada elemento por separado, configure métricas de éxito individuales para cualquier elemento. Para contar un elemento haciendo clic en varios elementos de una página, edite el selector de elementos CSS para que coincida con varios elementos.&quot; |
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión Target Standard/Premium 20.9.1 (2 de septiembre de 2020). |
 | 14 de agosto | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido un problema conocido sobre control de calidad en actividades de Recommendations. |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Texto añadido que indica que si está utilizando `serverState` y utilizando `<script>` etiquetas en el contenido devuelto, asegúrese de que el contenido HTML utilice `<\/script>` en lugar de `</script>`. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Texto añadido que indica que si está utilizando `serverState` y utilizando `<script>` etiquetas en el contenido devuelto, asegúrese de que el contenido HTML utiliza `<\/script>` en lugar de `</script>`. |
 | 12 de agosto | [Comprender la IU de Destinatario](/help/c-intro/understand-the-target-ui.md) | Nuevo tema. |
 |  | [Información general sobre la API de Adobe Target](/help/api/api-overview.md) | Nuevo tema. |
 | 10 de agosto | [CNAME y Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Texto añadido que indica que el tamaño del encabezado de la cookie aumentará al utilizar CNAME. |
@@ -120,7 +121,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Abril de 22 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Nueva sección añadida: *Cambios en la API de estado de lote de perfil v2 (4 de mayo de 2020).* |
 | Abril de 14 | [Hosts perimetrales de Destinatario de lista de permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nuevo tema. |
 | Abril de 10 | [Implementación de aplicación de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nueva sección añadida: &quot;Prácticas recomendadas de implementación&quot;. |
-| Abril de 7 | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Se ha actualizado el texto para &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
+| Abril de 7 | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto actualizado para &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
 | Abril de 2 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Información añadida sobre el uso `user.header('x-forwarded-for')` con los bordes AWS más recientes para recuperar las direcciones IP de los usuarios. |
 |  | [Actualización de at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Se ha añadido la nota siguiente:<ul><li>Después de instalar la biblioteca ECID 4.3.0+ y at.js 2.,*x*, podrá crear actividades que abarquen dominios únicos y rastrear usuarios. Es importante tener en cuenta que esta funcionalidad solo funciona después de que caduque la sesión.</li></ul> |
 | Marzo de 30 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Se han añadido problemas conocidos que afectan a las versiones de at.js anteriores a at.js 2.2.0. Este problema provocaba que el rastreo de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página. |
