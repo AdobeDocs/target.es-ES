@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1685'
 ht-degree: 38%
 
 ---
@@ -350,7 +350,7 @@ Después `cspScriptNonce` de especificar la configuración y `cspStyleNonce` , a
 
 Debe tener una integración híbrida de [!DNL Target].
 
-* **Desde el servidor**:  Debe utilizar la nueva API [de](https://developers.adobetarget.com/api/delivery-api/) envío o los SDK [de](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)Destinatario.
+* **Del lado** del servidor:  Debe utilizar la nueva API [de](https://developers.adobetarget.com/api/delivery-api/) envío o los SDK [de](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)Destinatario.
 * **Cliente**: Debe utilizar [at.js versión 2.2 o posterior](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Ejemplos de código
@@ -473,7 +473,7 @@ Consider the following when using `serverState`:
 
 * Al aplicar `serverState `ofertas, at.js tiene en cuenta `pageLoadEnabled` y `viewsEnabled` la configuración, por ejemplo: ofertas de carga de página, no se aplicará si la `pageLoadEnabled` configuración es falsa.
 
-   Para activar esta configuración, habilite la opción de alternancia en Administración de **[UICONTROL > Implementación > Editar > Carga de página habilitada]**.
+   Para activar esta configuración, habilite el botón de alternancia en **[!UICONTROL Administración]>[!UICONTROL Implementación]>[!UICONTROL Editar]> Carga[!UICONTROL de página habilitada]**.
 
    ![Configuración habilitada de carga de página](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
