@@ -5,10 +5,10 @@ title: Métricas de éxito en Adobe Target
 feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 53%
+source-wordcount: '1129'
+ht-degree: 47%
 
 ---
 
@@ -57,7 +57,7 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 ## Configuración avanzada {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-Use la configuración avanzada para administrar la forma de medir la métrica de éxito. Las opciones incluyen contar la métrica por impresión o una vez por visitante, y elegir si conservar el usuario en la actividad o quitarlo.
+Use la configuración avanzada para administrar la forma de medir la métrica de éxito. Las opciones incluyen la adición de dependencias, la elección de mantener al usuario en la actividad o eliminarlo, y la contabilización de la métrica una vez por visitante o en cada impresión.
 
 Para acceder a las opciones de Configuración [!UICONTROL avanzada, haga clic en las elipses] **[!UICONTROL verticales > Configuración]** **** avanzada.
 
@@ -67,21 +67,27 @@ Para acceder a las opciones de Configuración [!UICONTROL avanzada, haga clic en
 >
 >Si usa [!DNL Adobe Analytics] como fuente de informes, el servidor [!DNL Analytics] es el que administra la configuración. The [!UICONTROL Advanced Settings] option will not be available. For more information, see [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-También puede usar la configuración avanzada para crear métricas de éxito dependientes, incrementando una métrica solo si el visitante llega a otra métrica primero.
+### Añadir dependencia
+
+Puede utilizar la configuración avanzada para crear métricas de éxito dependientes, incrementando una métrica solo si un visitante alcanza primero otra métrica.
 
 ![Agregar dependencia](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 Por ejemplo, una conversión de prueba podría ser válida únicamente si el visitante hace clic en la oferta o si entra en una página concreta antes de la conversión.
 
-Las métricas de éxito dependientes se admiten en las actividades de pruebas A/B, Personalización automatizada, Segmentación de experiencias y Pruebas multivariable. Las actividades de Recommendations no admiten actualmente métricas de éxito dependientes.
+Dependency functionality is *not* supported for the following:
 
->[!NOTE]
->
->Las métricas de éxito dependientes no se convierten en los casos siguientes:
->
->* Si se crea una dependencia circular en la que la métrica1 depende de la métrica2 y esta, a su vez, depende de aquella, ninguna de las dos se puede convertir.
->* Las actividades de Personalización automatizada liberan usuarios y reanudan la actividad cuando se alcanzan las métricas de conversión, de modo que no se convierta ninguna métrica que dependa de la métrica de conversión.
+* [!UICONTROL Actividades de Recommendations. ] La funcionalidad admite los demás tipos de actividad.
+* If you use [Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+* El tipo de métrica “Visualizó una página”.
+* El tipo de métrica “Se hizo clic en un elemento” para actividades del Compositor de experiencias visuales (VEC).
 
+Las métricas de éxito dependientes no se convierten en los casos siguientes:
+
+* Si se crea una dependencia circular en la que la métrica1 depende de la métrica2 y esta, a su vez, depende de aquella, ninguna de las dos se puede convertir.
+* Las actividades de Personalización automatizada liberan usuarios y reanudan la actividad cuando se alcanzan las métricas de conversión, de modo que no se convierta ninguna métrica que dependa de la métrica de conversión.
+
+### ¿Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo?
 
 Use la configuración avanzada para determinar qué sucede después de que un usuario llegue a la métrica de objetivo. En la tabla siguiente se muestran las opciones disponibles:
 
@@ -94,6 +100,14 @@ Use la configuración avanzada para determinar qué sucede después de que un us
 >[!NOTE]
 >
 >Si configura una métrica en una de las opciones [!UICONTROL Aumentar recuento] (mencionadas anteriormente), el recuento de métricas se incrementa correctamente una vez por visitante solo en el nivel de visitante. El recuento de métricas aumenta una vez por visita para cada nueva sesión en el nivel de visita.
+
+### Cómo se incrementará el recuento:
+
+Elija el comportamiento que desee:
+
+* Una vez por participante 
+* En cada impresión (excluyendo actualizaciones de página)
+* En cada impresión
 
 ## Vídeo de formación: Métricas de actividad
 
