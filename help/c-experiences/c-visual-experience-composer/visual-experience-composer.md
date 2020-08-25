@@ -4,7 +4,7 @@ title: Compositor de experiencias visuales (VEC) de Adobe Target
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Algunas de las razones por las que es posible que desee cancelar la carga de pá
 * Desea agregar más reglas de prueba de plantilla a los criterios de Entrega de página
 * Desea anular la opción del Compositor de experiencias mejorado (EEC) global al cargar una página a través del EEC o solo iframe podría depender o variar de una página a otra
 
-Después de cancelar la carga de páginas en el VEC, puede cambiar entre experiencias en la actividad sin esperar a que se cargue la página. Para volver a ver la página dentro del VEC, debe hacer clic en el botón **[!UICONTOL Recargar]**.
+Después de cancelar la carga de páginas en el VEC, puede cambiar entre experiencias en la actividad sin esperar a que se cargue la página. Para volver a ver la página dentro del VEC, debe hacer clic en el botón **[!UICONTROL Recargar]**.
 
 >[!IMPORTANT]
 >
