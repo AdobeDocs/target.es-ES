@@ -5,7 +5,7 @@ feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -43,7 +43,7 @@ En este caso, el visitante 1 vería la oferta 1 (porque cuenta como parte de la 
 
 1. Seleccione las ofertas y audiencias que desee para esa oferta.
 
-   Para configurar la segmentación de una sola oferta, pase el ratón sobre la oferta que quiera y haga clic en el icono **[!UICONTORL Objetivo]**.
+   Para configurar la segmentación de una sola oferta, pase el ratón sobre la oferta que quiera y haga clic en el icono **[!UICONTROL Objetivo]**.
 
    Para configurar la segmentación de varias ofertas, seleccione las casillas de verificación de las ofertas que desee y haga clic en el icono **[!UICONTROL Segmentación] que aparece en la parte superior derecha de la lista.
 
