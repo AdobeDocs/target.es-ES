@@ -4,9 +4,9 @@ description: El uso de Adobe Analytics como fuente de datos de comportamiento pe
 title: Uso de Adobe Analytics con Destinatario Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '877'
 ht-degree: 2%
 
 ---
@@ -95,10 +95,10 @@ Si se cumplen todos los requisitos previos, realice las siguientes tareas:
    >Consulte con el [!DNL Adobe Analytics] equipo antes de realizar este paso.
 
    * **Tipo**: FTP
-   * **Host**: xxx.yyy.com
-   * **Ruta**: Su código de cliente Destinatario
-   * **Nombre de usuario**: xxxyyy
-   * **Contraseña**: xxxxxxxxxx
+   * **Host**: `xxx.yyy.com`
+   * **Ruta**: Su código [!DNL Target] de cliente
+   * **Nombre de usuario**: Especifique el nombre de usuario
+   * **Contraseña**: Especifique la contraseña
 
    La captura de pantalla es solo para fines de referencia. La implementación tendrá credenciales diferentes. Consulte con el equipo [!DNL Adobe Analytics] o el Servicio de atención al cliente durante este paso.
 
