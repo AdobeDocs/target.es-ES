@@ -6,7 +6,7 @@ feature: reference general
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -59,9 +59,9 @@ Las sesiones de Target grabadas actualmente incluyen:
 
 Además de las sesiones sobre Target, existen sesiones para otras soluciones de Adobe, como Analytics, Campaign, Adobe Experience Manager (AEM), Primetime, Adobe Core Services, Audience Manager y más.
 
-## Póngase en contacto con Adobe Client Care {#reference_ACA3391A00EF467B87930A450050077C}
+## Póngase en contacto con el servicio de atención al cliente de Adobe {#reference_ACA3391A00EF467B87930A450050077C}
 
-ClientCare está preparado para ayudarle a solucionar los problemas que pueda encontrar. Esta página contiene la información que necesita para contactar con ClientCare y obtener asistencia.
+ClientCare está preparado para ayudarle a solucionar los problemas que pueda encontrar. Esta página contiene la información que necesita para ponerse en contacto con ClientCare y obtener asistencia.
 
 ### Información básica   {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
@@ -84,7 +84,7 @@ Para agilizar la evaluación de su problema, se recomienda que disponga de la si
 | Impacto comercial | ¿De qué manera afecta a su empresa? Por ejemplo, ¿causa el problema una pérdida de ingresos o hace que el producto no pueda utilizarse, y existe una solución alternativa? |
 | Expectativas | ¿Qué espera que ocurra? |
 
-Para ver los problemas de envío de contenido, consulte [Solución de problemas de envío](/help/c-activities/c-troubleshooting-activities/content-trouble.md) de contenido para obtener soluciones posibles e información sobre solución de problemas.
+Para ver los problemas de envío de contenido, consulte [Resolución de problemas de envío](/help/c-activities/c-troubleshooting-activities/content-trouble.md) de contenido para obtener soluciones posibles e información sobre solución de problemas.
 
 ### En caso de una interrupción del servicio   {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
