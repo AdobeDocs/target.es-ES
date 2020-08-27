@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 83%
 
 ---
 
@@ -30,4 +30,4 @@ La biblioteca JavaScript de [!DNL Target] que utiliza ([!DNL at.js] o [!DNL mbox
 
 La fecha de caducidad no se restablece para los perfiles existentes. Si un visitante previo no regresa durante 15 días, ese perfil caduca. Si un visitante previo regresa antes de que el perfil de dos semanas original caduque, el perfil se restablece con la duración extendida. Todos los perfiles del visitante nuevos se establecen con el perfil de duración extendida.
 
-Si dispone de dos sitios bajo un único código de cliente y un visitante visita ambos sitios, el perfil se establece a la duración de perfil del sitio que visitó en último lugar. Por ejemplo, si el Sitio 1 cuenta con una duración de perfil de 84 días y el Sitio 2 tiene una duración de 14 días; y el visitante visita el Sitio 1 y a continuación visita el Sitio 2, el perfil de este visitante caducará tras 14 días de inactividad. Si el visitante visita el Sitio 1 después de visitar el Sitio 2, el perfil caducará tras 84 días de inactividad.
+En el siguiente escenario, suponga que uno o ambos sitios están implementados con mbox.js, lo que requiere una actualización de código después de actualizar el perfil. Si ambos sitios están bajo un único código de cliente y un visitante visita ambos sitios, el perfil se establece en la duración de los perfiles en el sitio que se visitó por última vez. Por ejemplo, si el Sitio 1 cuenta con una duración de perfil de 84 días y el Sitio 2 tiene una duración de 14 días; y el visitante visita el Sitio 1 y a continuación visita el Sitio 2, el perfil de este visitante caducará tras 14 días de inactividad. Si el visitante visita el Sitio 1 después de visitar el Sitio 2, el perfil caducará tras 84 días de inactividad.
