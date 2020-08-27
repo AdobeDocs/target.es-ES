@@ -5,17 +5,17 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 89%
+source-wordcount: '929'
+ht-degree: 59%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
-Las actividades de Recommendations muestran automáticamente productos o contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
+[!DNL Adobe Target Recommendations] Las actividades muestran automáticamente productos, servicios o contenido que pueda ser de interés para sus visitantes en función de la actividad previa del usuario, las preferencias u otros criterios. [!DNL Target Recommendations] ayuda a dirigir el visitante a elementos relevantes que de otra manera no conocerían. [!DNL Recommendations] le permite proporcionar a sus visitantes contenido relevante en el momento adecuado y en el lugar adecuado.
 
 >[!NOTE]
 >
@@ -36,18 +36,34 @@ La siguiente ilustración muestra recomendaciones en una página web:
 
 ![](assets/velocity_example.png)
 
-Una recomendación determina cómo se sugiere un producto a un cliente, según las actividades de dicho cliente en el sitio. Por ejemplo:
+Una recomendación determina cómo se sugiere un producto a un visitante, según las actividades de ese visitante en el sitio. Por ejemplo:
 
 | Acción deseada | Recomendación |
 |--- |--- |
 | Anime a las personas que compran una mochila a que consideren la opción de comprar botas y bastones de senderismo. | Cree una recomendación que muestre artículos que a menudo se compran juntos, empleando el criterio “Otras personas que compraron esto también compraron aquello”. |
 | Incremente el tiempo que pasan los visitantes en su sitio de contenido multimedia recomendando contenido multimedia parecido al que están viendo. | Cree una recomendación que sugiera otros vídeos, empleando el criterio “Otras personas que vieron esto también vieron aquello”. |
 | Sugiera que los clientes que vieron información sobre planes de ahorro en su banco también lean información sobre cuentas de planes de pensiones. | Muestre otros productos que compraron otras personas después de ver un determinado producto, sin mostrar el primer producto en las recomendaciones, empleando el criterio “Otras personas que vieron esto también compraron”. |
-</table>
 
 Para obtener más información sobre estos y otros criterios de [!DNL Recommendations] consulte [Criterios](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vídeo de formación: Tipos de actividades ![Distintivo de información general](/help/assets/overview.png)
+## Términos
+
+Antes de empezar a usar [!DNL Recommendations], es útil familiarizarse con algunos de los términos utilizados en esta sección. No se preocupe si todavía no entiende completamente estos términos, se familiarizará con ellos a medida que configure sus [!DNL Recommendations] actividades.
+
+| Término | Definición |
+| --- | --- |
+| Actividad | Las actividades de [!DNL Target] permiten personalizar el contenido en audiencias específicas y probar diseños de página. [!DNL Recommendations] es solo uno de los muchos tipos de actividades disponibles en [!DNL Target]. Para obtener más información, consulte Tipos [de actividad de](/help/c-activities/target-activities-guide.md)Destinatario. |
+| Entidades | Las entidades se refieren a los elementos que desea recomendar. Las entidades pueden ser cualquier cosa, como productos, contenido (artículos, presentaciones de diapositivas, imágenes, películas y programas de televisión), ofertas de empleo, restaurantes, etc. Para obtener más información, consulte [Entidades](/help/c-recommendations/c-products/products.md). |
+| Fuentes | Las fuentes se utilizan para importar entidades en [!DNL Recommendations]. Las entidades se pueden enviar con archivos CSV, el formato de fuente de Google Product Search y las clasificaciones de productos de Adobe Analytics. Para obtener más información, consulte [Fuentes](/help/c-recommendations/c-products/feeds.md). |
+| Catálogo | Los catálogos hacen referencia a todo el conjunto de productos (entidades). El catálogo puede contener muchas colecciones, una forma de organizar los productos en bloques lógicos. |
+| Colección | Las colecciones se refieren a un conjunto de elementos similares o relacionados, como una sola categoría de producto. Sin embargo, puede agrupar cualquier artículo en una categoría que tenga sentido para su negocio, como los productos de un determinado color o rango de precios, o los artículos que pueden resultar interesantes en una determinada área geográfica. For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
+| Criterios | Los criterios son reglas que determinan qué productos se recomiendan en función de un conjunto predeterminado de comportamientos del visitante.<br>Algunos ejemplos de criterios son: <ul><li>Los usuarios que compraron esto, compraron aquello.</li><li>Los usuarios que vieron esto, vieron aquello.</li><li>Elementos con atributos similares.</li><li>Último artículo comprado</li><li>Categoría favorita</li></ul>  Para obtener más información, consulte [Criterios](/help/c-recommendations/c-algorithms/algorithms.md). |
+| Diseños | Los diseños definen el aspecto de las recomendaciones en una [!DNL Recommendations] actividad, como una fila, una columna, una tabla o una cuadrícula. La ilustración de la parte superior de este artículo muestra un diseño de 4 x 1. For more information, see [Create a design](/help/c-recommendations/c-design-overview/create-design.md). |
+| Ubicaciones | Las ubicaciones hacen referencia a un área de contenido específica de una página web, aplicación móvil o correo electrónico en la que se ejecuta una actividad con fines de personalización y optimización. |
+| Audiencias | Las audiencias son grupos de participantes de actividad similares que verán una actividad de objetivo. Una audiencia es un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La funcionalidad Audiencia le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Para obtener más información, consulte [Audiencias](/help/c-target/target.md). |
+| Recommendations como oferta | Función que permite incluir recomendaciones dentro de actividades de Prueba A/B (incluidas Asignación automática y Destinatario automático) y Segmentación de experiencias (XT). Para obtener más información, consulte [Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
+
+## Vídeo de capacitación: Distintivo ![Información general de tipos de actividades](/help/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium]. Se habla sobre [!DNL Recommendations] a partir del minuto 7:20.
 
