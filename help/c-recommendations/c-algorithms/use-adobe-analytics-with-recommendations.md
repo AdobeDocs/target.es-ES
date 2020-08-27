@@ -4,7 +4,7 @@ description: El uso de Adobe Analytics como fuente de datos de comportamiento pe
 title: Uso de Adobe Analytics con Destinatario Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
+source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 2%
@@ -18,7 +18,7 @@ El uso [!DNL Adobe Analytics] como fuente de datos de comportamiento permite a l
 
 El uso [!DNL Analytics] como la fuente de datos de comportamiento puede actuar como una fuente rica de información sobre el comportamiento del usuario. Esto puede incluir datos de una fuente o fuente de terceros que solo se comparte con [!DNL Analytics].
 
-Al [crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) en Recommendations, hay dos botones de opción que permiten elegir qué fuente de datos se va a utilizar: [!UICONTROL mboxes] o [!UICONTROL Analytics].
+Al [crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) en Recommendations, hay dos botones de opción que le permiten elegir la fuente de datos que se va a utilizar: [!UICONTROL mboxes] o [!UICONTROL Analytics].
 
 ![Botones de fuentes de datos de comportamiento](/help/c-recommendations/c-algorithms/assets/behavioral-data-source.png)
 
