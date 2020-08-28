@@ -5,10 +5,10 @@ title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
+source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 88%
+source-wordcount: '3521'
+ht-degree: 85%
 
 ---
 
@@ -122,6 +122,12 @@ Las ofertas de imagen de la página Ofertas a veces conservan la etiqueta de &qu
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán a las siguientes secciones y, si es necesario, se añadirán notas adicionales.
+
+### Páginas que no se cargan en el Compositor de experiencias visuales (VEC) o en el Compositor de experiencias mejorado (EEC) al usar Google Chrome versión 80+
+
+Este problema conocido tiene que ver con la decisión de Google de cambiar el comportamiento predeterminado de las cookies sin el atributo SameSite a partir de la versión 80 de Chrome. Antes del cambio, Chrome establecía de forma predeterminada todas las cookies sin el atributo SameSite como &quot;SameSite=None&quot; y ahora se establece de forma predeterminada como &quot;SameSite=Lax&quot;, lo que cambia la forma en que se envían las cookies en las solicitudes del GET y del POST. Consulte [Actualizaciones](https://www.chromium.org/updates/same-site)del mismo sitio.
+
+Para obtener más información y una corrección, consulte &quot;¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC anunciados recientemente?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### No se puede procesar el informe de gráfico de una actividad de Segmentación automática al utilizar una experiencia personalizada como control
 
