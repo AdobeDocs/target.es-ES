@@ -4,9 +4,9 @@ description: El uso de Adobe Analytics como fuente de datos de comportamiento pe
 title: Uso de Adobe Analytics con Destinatario Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
+source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '988'
 ht-degree: 2%
 
 ---
@@ -148,3 +148,16 @@ Con esto, la configuración de [!DNL Analytics] lado está completa. Ahora es el
    ![Sección Asignación](/help/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+## Preguntas frecuentes
+
+Tenga en cuenta las siguientes preguntas más frecuentes mientras utiliza [!DNL Analytics] con [!DNL Target]:
+
+### ¿Es necesario pasar los valores `entity.id` y `entity.categoryId` dentro de la llamada de [!DNL Target] mbox?
+
+Sí, esos dos valores siguen siendo obligatorios. El resto de los atributos se pueden pasar a través de una [!DNL Analytics] fuente, como se explica en este documento.
+
+### ¿Puedo utilizar reglas de inclusión dinámicas, como parámetros de entidad que coincidan con atributos de perfil mediante el método [!DNL Analytics] feed?
+
+Sí, puedes. El método es similar cuando se utiliza [!DNL Target] independiente. En este caso, sin embargo, debe tener en cuenta el factor de tiempo. Las variables de entidad que se supone que deben coincidir con las variables de perfil dependen de la capa de datos que pueda aparecer mucho más tarde en la página.
+
