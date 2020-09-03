@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 30%
+source-wordcount: '1045'
+ht-degree: 26%
 
 ---
 
@@ -37,39 +37,27 @@ Estas notas de la versión proporcionan información sobre características, mej
 
 Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## at.js 2.3.2 (24 de julio de 2020)
-
-Esta versión de at.js es una versión de mantenimiento que incluye la siguiente corrección:
-
-* Se ha corregido un error que se producía cuando un script o código añadía una propiedad predeterminada a la ventana o al documento.
-
-## Target Standard/Premium 20.7.1 (27 de julio de 2020). 
-
-Esta versión incluye los siguientes cambios:
-
-### [!UICONTROL Actualización de la interfaz de usuario de la sección Administración]
-
-Estamos reescribiendo gradualmente toda la [!DNL Target] interfaz de usuario con una nueva pila de tecnología para poder oferta de un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La primera sección que se actualiza es la sección [!UICONTROL Configuración] , a la que se le ha cambiado el nombre [!UICONTROL Administración].
-
-Como parte de esta actualización, podrá realizar fácilmente muchas acciones utilizando las páginas de la sección [!UICONTROL Administración] , como:
-
-* Descargue el archivo at.js más reciente de la ficha [!UICONTROL Implementación] (**[!UICONTROL Administración]** > **[!UICONTROL Implementación]**).
-* Personalice la configuración de at.js y pueda revisar fácilmente los cambios (**[!UICONTROL Administración]** > **[!UICONTROL Implementación]**).
-* Modifique la configuración mejorada del sistema de informes, como la moneda y el huso horario predeterminados, las direcciones IP que se excluirán del sistema de informes, etc. (**[!UICONTROL Administración]** > **[!UICONTROL Sistema de informes]**)
-* Proteger direcciones IP de visitante por motivos de privacidad (**[!UICONTROL Administración]** > **[!UICONTROL Implementación]**)
-* Vista la lista existente de usuarios por espacio de trabajo y sus funciones, antes de administrarlos en Adobe Admin Console (**[!UICONTROL Administración]** > **[!UICONTROL Usuarios]**).
-* Busque y filtre todas las tablas en la sección [!UICONTROL Administración] .
-
-Para obtener más información, consulte [Administrar información general](/help/administrating-target/administrating-target.md)de Destinatario.
-
-### Mejoras, correcciones y cambios
+## Target Standard/Premium 20.8.1 (2 de septiembre de 2020)
 
 Esta versión contiene las siguientes mejoras, correcciones y cambios:
 
-* Se ha corregido un problema que impedía que las preferencias del sitio se conservaran tras la actualización. (TGT-37239)
-* Se ha corregido un problema que impedía que [!UICONTROL Insertar después] > [!UICONTROL Imagen] funcionara correctamente con imágenes de gráficos vectoriales escalables (SVG). (TGT-37242)
-* Se ha corregido un problema con los usuarios con la función de [!UICONTROL Editor] que impedía eliminar actividades de borrador. (TGT-37358)
-* Se ha corregido un problema que impedía a los usuarios editar una actividad cuando se seleccionaba [!UICONTROL Todos mis espacios de trabajo] . (TGT-37276)
+* Se ha corregido un problema que provocaba que se mostraran errores al cargar las nuevas páginas de [!UICONTROL administración] después de cambiar de organización. (TGT-37730)
+* Se ha corregido un problema de visualización que provocaba que se mostrara el código de cliente incorrecto en la página [!UICONTROL Administración > Implementación] . (TGT-37849)
+* Se ha corregido un problema que, en ocasiones, impedía a los usuarios utilizar las funciones de edición del Compositor [!UICONTROL de experiencias] visuales (VEC) después de cargar correctamente el VEC. (TGT-37162)
+* Se ha corregido un problema que impedía que las páginas se cargaran en el VEC y en el Compositor de experiencias mejorado (EEC) aunque se instalara la extensión del asistente de VEC. Esto se debió a los cambios en Google Chrome 80+. Descargue la extensión [](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)VEC Helper actualizada. (TGT-37893)
+* Se ha corregido un problema que, en ocasiones, impedía a los usuarios descargar at.js desde la página [!UICONTROL Administración > Implementación] después de cambiar de organización. (TGT-37668)
+* El botón de descarga de at.js ahora está desactivado mientras se carga para evitar que se envíen varias solicitudes si los usuarios hacen clic varias veces en el botón de descarga. [!DNL Target] (TGT-37633)
+* Se ha corregido un problema en las actividades de [!UICONTROL Segmentación] de experiencias (XT) que hacía que las experiencias mostraran &quot;obteniendo resultados&quot; durante un período de tiempo prolongado. (TGT-37684)
+* Se ha mejorado la navegación y la funcionalidad para los usuarios que utilizan solo el teclado. (TGT-34479 y TGT-34473)
+* Etiquetas añadidas en la interfaz de usuario para ayudar a los usuarios a utilizar tecnologías de asistencia. (TGT-34480)
+* Se ha mejorado el mensaje de error al eliminar una ventanilla móvil que se está utilizando en una actividad. El mensaje de error ahora es: &quot;Esta ventanilla está asociada actualmente a una o varias actividades. Debe quitar la ventanilla de esas actividades antes de poder eliminarla&quot;. (TGT-37030)
+* Se ha añadido la compatibilidad en el VEC para permitir el seguimiento de clics en un selector css que coincida con más de un elemento de la página. (TGT-37323)
+* Se ha corregido un problema que impedía que algunos usuarios mostraran la lista de [!UICONTROL Actividad] . Se mostraba el siguiente mensaje de error: &quot;No se pueden recuperar las sugerencias de URL.&quot; El error se producía para los usuarios que utilizaban retornos de carro en su Nombre (FirstName/r/n) en el sistema back-end de Adobe. (TGT-37330)
+* Se ha corregido un problema que impedía que los usuarios mostraran la página de [!UICONTROL Actividad] si el nombre del espacio de trabajo (especificado en [!UICONTROL Adobe Admin Console para Enterprise]) contenía un apóstrofe. (TGT-37709)
+* Se corrigió un problema en actividades de asignación  automática al seleccionar métricas de optimización y conversión, en el cual un mensaje de error informaba incorrectamente a los usuarios de seleccionar un grupo de informes, aunque ya se hubiera especificado un grupo de informes. (TGT-37689)
+* Se corrigió un problema que en ocasiones causaba que las métricas de la página [!UICONTROL Objetivos y configuración] estuvieran en blanco después de navegar a la página [!UICONTROL Objetivo] y volver a ella. (TGT-37691)
+* Se ha corregido un problema que provocaba un valor modificado por última vez incorrecto para [!DNL Recommendations] los criterios. (TGT-37666)
+* Se ha corregido un problema que provocaba que los ID de mbox se mostraran en la lista desplegable Mboxes en lugar de en los nombres de mbox. (TGT-37739)
 
 ## Notas de la versión adicionales y detalles de la versión
 
