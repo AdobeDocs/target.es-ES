@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1012'
 ht-degree: 77%
 
 ---
@@ -65,6 +65,10 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 * **Tamaño máximo de archivo para cada carga mediante el método** HTTP: 100 MB.
 * **tamaño máximo de archivo para cada carga mediante el método** FTP: 4 GB.
 * **Número de atributos permitidos para la suscripción**: 5 para [!DNL Target Standard] y 200 para [!DNL Target Premium].
+
+## Entidades
+
+El número máximo de entidades a las que se puede hacer referencia en un diseño, tanto codificadas como mediante bucles, es de 99.
 
 ## Atributos personalizados de entidad
 
