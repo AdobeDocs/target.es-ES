@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '29014'
-ht-degree: 89%
+source-wordcount: '29300'
+ht-degree: 88%
 
 ---
 
@@ -23,6 +23,40 @@ Notas de la versión de versiones anteriores de Destinatario, incluidas las nota
 >Consulte [Notas de la versión de Target (actual)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión - 2020
+
+### at.js 2.3.2 (24 de julio de 2020)
+
+Esta versión de at.js es una versión de mantenimiento que incluye la siguiente corrección:
+
+* Se ha corregido un error que se producía cuando un script o código añadía una propiedad predeterminada a la ventana o al documento.
+
+### Target Standard/Premium 20.7.1 (27 de julio de 2020). 
+
+Esta versión incluye los siguientes cambios:
+
+#### [!UICONTROL Actualización de la interfaz de usuario de la sección Administración]
+
+Estamos reescribiendo gradualmente toda la [!DNL Target] interfaz de usuario con una nueva pila de tecnología para poder oferta de un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La primera sección que se actualiza es la sección [!UICONTROL Configuración] , a la que se le ha cambiado el nombre [!UICONTROL Administración].
+
+Como parte de esta actualización, podrá realizar fácilmente muchas acciones utilizando las páginas de la sección [!UICONTROL Administración] , como:
+
+* Descargue el archivo at.js más reciente de la ficha [!UICONTROL Implementación] (**[!UICONTROL Administración]** > **[!UICONTROL Implementación]**).
+* Personalice la configuración de at.js y pueda revisar fácilmente los cambios (**[!UICONTROL Administración]** > **[!UICONTROL Implementación]**).
+* Modifique la configuración mejorada del sistema de informes, como la moneda y el huso horario predeterminados, las direcciones IP que se excluirán del sistema de informes, etc. (**[!UICONTROL Administración]** > **[!UICONTROL Sistema de informes]**)
+* Proteger direcciones IP de visitante por motivos de privacidad (**[!UICONTROL Administración]** > **[!UICONTROL Implementación]**)
+* Vista la lista existente de usuarios por espacio de trabajo y sus funciones, antes de administrarlos en Adobe Admin Console (**[!UICONTROL Administración]** > **[!UICONTROL Usuarios]**).
+* Busque y filtre todas las tablas en la sección [!UICONTROL Administración] .
+
+Para obtener más información, consulte [Administrar información general](/help/administrating-target/administrating-target.md)de Destinatario.
+
+#### Mejoras, correcciones y cambios
+
+Esta versión contiene las siguientes mejoras, correcciones y cambios:
+
+* Se ha corregido un problema que impedía que las preferencias del sitio se conservaran tras la actualización. (TGT-37239)
+* Se ha corregido un problema que impedía que [!UICONTROL Insertar después] > [!UICONTROL Imagen] funcionara correctamente con imágenes de gráficos vectoriales escalables (SVG). (TGT-37242)
+* Se ha corregido un problema con los usuarios con la función de [!UICONTROL Editor] que impedía eliminar actividades de borrador. (TGT-37358)
+* Se ha corregido un problema que impedía a los usuarios editar una actividad cuando se seleccionaba [!UICONTROL Todos mis espacios de trabajo] . (TGT-37276)
 
 ### Target Standard/Premium 20.5.1 (17 de junio de 2020). 
 
