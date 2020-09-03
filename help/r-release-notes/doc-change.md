@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2129'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 3 de septiembre | [Extensión del Helper del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Se ha actualizado la sección &quot;Obtener e instalar la extensión del explorador del asistente de VEC&quot; con información sobre el nombre y el dominio de la cookie. |
+|  | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado &quot;¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite al VEC y EEC?&quot; con información sobre el nombre y el dominio de la cookie. |
 | 2 de septiembre | [Notas de la versión](/help/r-release-notes/release-notes.md): 20.8.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 20.7.1 (27 de julio de 2020)
