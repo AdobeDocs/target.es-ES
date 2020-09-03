@@ -5,7 +5,7 @@ title: Configuración del Compositor de experiencias visuales de Adobe Target
 feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
@@ -37,7 +37,7 @@ Las configuraciones disponibles son las siguientes:
 
 La dirección URL predeterminada que utiliza el [!UICONTROL Compositor de experiencias visuales]. Esta es la página predeterminada, como la página principal, que se utiliza siempre que quiere configurar una experiencia para cada nueva actividad. Si no establece una URL predeterminada, tiene que escribir una URL para cada actividad en el momento de la creación.
 
-### Activar el compositor de experiencias mejorado
+### Activar el compositor de experiencias mejorado {#eec}
 
 Permite editar en sitios con eliminación de iFrames y sitios con contenido mixto. Es posible que algunos sitios no sean compatibles con la versión mejorada. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. La publicación de actividades en los sitios no se verá afectada por esta opción.
 
