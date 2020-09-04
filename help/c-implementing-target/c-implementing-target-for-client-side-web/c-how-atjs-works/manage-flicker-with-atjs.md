@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 80%
@@ -22,7 +22,7 @@ El parpadeo tiene lugar cuando se muestra momentáneamente el contenido predeter
 
 ## Uso de un mbox global creado automáticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Si habilita la función [mbox global creado automáticamente](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) al configurar at.js, éste gestiona el parpadeo cambiando al configuración de opacidad mientras la página carga. Cuando se carga at.js, cambia la configuración de opacidad del <body> elemento a “0”, para que la página sea invisible inicialmente para los visitantes. Después de recibir una respuesta de Target (o si se detecta un error en la solicitud de Target), at.js restablece la opacidad a “1”. Esto garantiza que el visitante solo vea la página después de haberse aplicado el contenido de sus actividades.
+Si habilita la función [mbox global creado automáticamente](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) al configurar at.js, éste gestiona el parpadeo cambiando al configuración de opacidad mientras la página carga. Cuando se carga at.js, cambia la configuración de opacidad del `<body>` elemento a “0”, para que la página sea invisible inicialmente para los visitantes. Después de recibir una respuesta de Target (o si se detecta un error en la solicitud de Target), at.js restablece la opacidad a “1”. Esto garantiza que el visitante solo vea la página después de haberse aplicado el contenido de sus actividades.
 
 Si activa el ajuste al configurar at.js, at.js establece la opacidad del estilo HTML BODY en 0. Tras recibir la respuesta de Target, at.js vuelve a establecer la opacidad de HTML BODY en 1.
 
