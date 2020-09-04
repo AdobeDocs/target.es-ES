@@ -5,10 +5,10 @@ title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '3657'
-ht-degree: 82%
+source-wordcount: '3704'
+ht-degree: 81%
 
 ---
 
@@ -44,6 +44,10 @@ Tenga en cuenta que este problema solo está relacionado con el [!DNL Target] si
 ### Entrega de página {#page-delivery}
 
 Si agrega una regla de plantilla, como contenidos de una URL (/checkout, /cart) en la entrega [de](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, se añadirán espacios adicionales a las reglas. Se trata de un problema estético que no afecta la creación de definiciones de audiencia ni la entrega de ofertas. (TGT-35920)
+
+### Vínculos de previsualización de control de calidad
+
+Es posible que los vínculos de Vista previa de control de calidad de la actividad para las actividades guardadas no se carguen si hay demasiadas guardadas en su cuenta. Volver a intentar los vínculos de vista previa debería funcionar. Archivar actividades guardadas que ya no se utilizan activamente para evitar que este problema continúe. (TNT-37294)
 
 ### Modo de control de calidad para actividades de Recommendations
 
