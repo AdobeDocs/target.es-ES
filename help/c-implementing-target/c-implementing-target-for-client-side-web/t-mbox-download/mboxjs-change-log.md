@@ -6,10 +6,10 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '2320'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -147,9 +147,9 @@ Las versiones 58 y posteriores de mbox.js ejecutan contenido que no es de JavaSc
 
 Se han realizado los siguientes cambios en esta versión:
 
-* La respuesta de mbox global creada automáticamente para Target Standard ya no usa document.write() ni crea un <div> element.
+* La respuesta de mbox global creada automáticamente para Target Standard ya no usa document.write() ni crea un `<div>` element.
 
-   De este modo, no es necesario que el archivo mbox.js sea el último elemento <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> en la página. Se recomienda un exhaustivo control de calidad al actualizar a esta nueva versión.
+   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. Se recomienda un exhaustivo control de calidad al actualizar a esta nueva versión.
 
    Este cambio podría modificar el comportamiento a la hora de entregar algunos tipos de ofertas. Estas son las condiciones específicas que se deberán tener en cuenta:
 
@@ -227,7 +227,7 @@ Se modifica la versión 53 con correcciones de IE.
 
 **Fecha de versión:** 30 de septiembre de 2014
 
-Se cambia la implementación del mbox global a AJAX desde document.write. De este modo, no es necesario que el archivo mbox.js sea el último elemento de la página <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> . Esta versión solo está disponible a través de la API. Los clientes pueden descargar y utilizar este archivo mbox.js. Con esta implementación, en algunos sitios se produce un desplazamiento del contenido, así que le recomendamos que valide la integración en su sitio.
+Se cambia la implementación del mbox global a AJAX desde document.write. De este modo, no es necesario que el archivo mbox.js sea el último elemento de la página `<head>`. Esta versión solo está disponible a través de la API. Los clientes pueden descargar y utilizar este archivo mbox.js. Con esta implementación, en algunos sitios se produce un desplazamiento del contenido, así que le recomendamos que valide la integración en su sitio.
 
 ## Versión 53 de mbox
 
