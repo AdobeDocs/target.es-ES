@@ -5,7 +5,7 @@ title: Crear una actividad de Recommendations
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
+source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 93%
@@ -84,8 +84,8 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
       Algunos criterios se proporcionan con [!DNL Recommendations]. También puede crear sus propios criterios personalizados.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Para obtener información sobre la creación de criterios nuevos, consulte [Creación de criterios](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)
-   * También puede agrupar criterios en secuencias. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Consulte [Creación de secuencias de criterios](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) para obtener más información.
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Para obtener información sobre la creación de criterios nuevos, consulte [Creación de criterios](../../c-recommendations/c-algorithms/create-new-algorithm.md)
+   * También puede agrupar criterios en secuencias. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Consulte [Crear secuencia](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) de criterios para obtener más información.
 
 1. Haga clic en **[!UICONTROL Siguiente]**.
 1. Seleccionar un [diseño](/help/c-recommendations/c-design-overview/design-overview.md).
