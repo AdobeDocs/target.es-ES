@@ -5,7 +5,7 @@ title: Crear secuencias de criterios
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -118,7 +118,7 @@ Cuando crea una secuencia de criterios, se ignora la configuración de represent
 
    Se rellenarán tantas ranuras como sea posible, pero la plantilla de diseño puede incluir espacio en blanco para las ranuras restantes.
 
-1. (Opcional) Reduzca el conmutador **[!UICONTROL Backup Recommendations]** a la posición &quot;activado&quot;.
+1. (Opcional) Deslice el conmutador **[!UICONTROL Backup Recommendations]** a la posición &quot;activado&quot;.
 
    Llene los espacios vacíos restantes del diseño con una selección aleatoria de los productos más vistos de todo el sitio.
 
