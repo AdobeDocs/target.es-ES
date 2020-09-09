@@ -5,7 +5,7 @@ title: Comparación entre Recommendations Classic y actividades de Recommendatio
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Para obtener más información, consulte [Recommendations como oferta](/help/c-r
 
 Los criterios están preconfigurados y ordenados por sectores, tipos de página e implementación. Por ejemplo, puede buscar los criterios que se apliquen al vertical minorista, para usarlos en una página de producto, que muestre productos de una categoría en particular (definida por el parámetro `entity.categoryID`).
 
-Para obtener más información sobre el uso y la creación de criterios, consulte [Criterios](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Para obtener más información sobre el uso y la creación de criterios, consulte [Criterios](../../c-recommendations/c-algorithms/algorithms.md).
 
 ## Flujo de trabajo {#section_76B4A26297BF422382DE2C79A2713D3C}
 
