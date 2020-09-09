@@ -5,15 +5,15 @@ title: Criterios en Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 74%
+source-wordcount: '1636'
+ht-degree: 73%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Criterios{#criteria}
+# ![PREMIUM](/help/assets/premium.png) Criterios
 
 Los criterios son reglas que determinan qué productos se recomiendan en función de un conjunto predeterminado de comportamientos del visitante.
 
@@ -107,10 +107,10 @@ Haga clic en la pestaña **[!UICONTROL Información del algoritmo]** para ver in
 
 ![Pestaña Información del algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-Haga clic en la pestaña **[!UICONTROL Uso del algoritmo]** para ver una lista de actividades que hacen referencia a los criterios seleccionados. La tarjeta enumera las actividades activas e inactivas. Haga clic en las listas desplegables Actividades activas o Inactividades para ver la lista completa de actividades que hacen referencia a ese criterio. Puede hacer clic en el vínculo de la actividad para abrirla y modificarla.
+Haga clic en la pestaña **[!UICONTROL Uso del algoritmo]** para ver una lista de actividades que hacen referencia a los criterios seleccionados. La tarjeta lista actividades activas, inactivas y de borrador. Haga clic en las listas desplegables Actividades activas/Actividades inactivas/Borradores de Actividades para vista de toda la lista de actividades que hacen referencia a esos criterios. Puede hacer clic en el vínculo de la actividad para abrirla y modificarla.
 
 ![Ficha Uso del algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->La función Uso [!UICONTROL del] algoritmo solo se admite actualmente para actividades de Recommendations. Esta función no se admite actualmente en actividades de Prueba A/B y Segmentación de experiencias (XT) que incluyen [recomendaciones como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+>La función Uso [!UICONTROL del] algoritmo solo se admite actualmente para actividades de Recommendations. Esta función no se admite actualmente en actividades de Prueba A/B, Asignación automática, Destinatario automático y Segmentación de experiencias (XT) que incluyen [recomendaciones como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
