@@ -5,10 +5,10 @@ title: Crear secuencias de criterios
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
+source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 57%
+source-wordcount: '1106'
+ht-degree: 43%
 
 ---
 
@@ -74,7 +74,7 @@ En los pasos siguientes se asume que accede a la pantalla [!UICONTROL Crear secu
 
    En conjunto, el sector y los tipos de página se usan para categorizar la secuencia de criterios guardada, lo que facilita su reutilización para otras actividades de [!UICONTROL Recommendations].
 
-## Crear secuencias de criterios
+## Crear secuencia {#sequence}
 
 El orden de secuencia define el orden en que se rellena un diseño. Si el criterio 1 no tiene suficientes recomendaciones para completar el diseño, las ranuras restantes se rellenarán con el criterio 2, etc.
 
@@ -84,11 +84,27 @@ El orden de secuencia define el orden en que se rellena un diseño. Si el criter
 
 1. On the [!UICONTROL Select Criteria] screen, select a criteria.
 
+   Puede utilizar el cuadro de búsqueda y las listas desplegables de filtros para encontrar los criterios deseados.
+
    ![Seleccionar criterios](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
 1. Haga clic en **[!UICONTROL Agregar]**.
 
-1. Continúe agregando criterios a la secuencia. Puede agregar hasta cinco criterios en una secuencia.
+1. (Opcional) Deslice el botón **[!UICONTROL Limitar el número de elementos devueltos]** para cambiar a la posición &quot;activado&quot; y, a continuación, especifique el número de elementos (entre 1 y 50).
+
+   ![Limitar el número de elementos devueltos al alternador](/help/c-recommendations/c-algorithms/assets/limit-number.png)
+
+   Para ayudarle a comprender el valor de la opción [!UICONTROL Limitar el número de elementos devueltos] , tenga en cuenta los siguientes casos de uso:
+
+   * **Caso de uso 1**: Desea tener una mezcla de diferentes tipos de artículos en una única bandeja de recomendaciones. Por ejemplo, desea mostrar una combinación de ropa exterior (chaquetas) y camisetas (camisas, camisetas). Para conseguirlo, utilice una colección para la actividad que incluya todos los tipos de productos potenciales que desee en cualquier espacio del diseño. A continuación, configure su primer criterio con un filtro estático que limite los criterios para incluir solo el uso externo y configure su segundo criterio con un filtro estático que limite los criterios para incluir únicamente los elementos superiores. Finalmente, agregue ambos criterios a una secuencia de criterios y limite los primeros criterios a 2 ranuras.
+
+      Es posible que la bandeja de recomendaciones tenga este aspecto en el sitio:
+
+      ![Bandeja de recomendaciones de productos destacados](/help/c-recommendations/c-algorithms/assets/featured-products.png)
+
+   * **Caso de uso 2**: Desea una combinación de elementos alternativos y complementarios. Configure un criterio para utilizar un algoritmo visualizado/visualizado y un filtro dinámico que limite los elementos recomendados a la categoría del elemento actual. Configure el segundo criterio para utilizar un algoritmo visto/comprado y un filtro dinámico que incluya solo los artículos recomendados que no coincidan con la categoría del artículo actual. Finalmente, agregue ambos criterios a una secuencia y limite los primeros criterios a 2 ranuras.
+
+1. Continúe agregando criterios adicionales a la secuencia. Puede agregar hasta cinco criterios en una secuencia.
 
 ## Especificar contenido de copia de seguridad
 
@@ -115,8 +131,6 @@ Cuando crea una secuencia de criterios, se ignora la configuración de represent
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    La secuencia de criterios se mostrará en la lista de criterios.
-
-   ![](assets/CriteriaSequenceCard.png)
 
    Para obtener más información sobre opciones de lógica de recomendación, consulte [Criterios](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
