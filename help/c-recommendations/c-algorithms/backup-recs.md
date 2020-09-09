@@ -5,7 +5,7 @@ title: Usar una recomendación de copia de seguridad
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
@@ -46,4 +46,4 @@ Los duplicados se eliminan de los lotes de recomendaciones.
 
 Por lo general, el uso de recomendaciones de copia de seguridad forma parte de un análisis hecho con el equipo de implementación durante su configuración inicial. Si desea cambiar la configuración de las recomendaciones de copia de seguridad después de la implementación, póngase en contacto con el administrador de su cuenta.
 
-Si se habilita el procesamiento parcial de diseño (consulte   [La configuración de Content ](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) no está activada y no se muestra la plantilla, por tanto se mostrará la recomendación de copia de seguridad o el contenido predeterminado en su lugar.
+Si se habilita el procesamiento parcial de diseño (consulte   [La configuración de Content ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)) no está activada y no se muestra la plantilla, por tanto se mostrará la recomendación de copia de seguridad o el contenido predeterminado en su lugar.
