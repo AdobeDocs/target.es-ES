@@ -4,7 +4,7 @@ description: Kit de bienvenida de Adobe Target - Capítulo 1 - Introducción
 title: Kit de bienvenida de Adobe Target - Capítulo 1 - Introducción
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -29,3 +29,4 @@ Si está revisando este kit de bienvenida, ya ha decidido crear su programa de o
 Ahora queremos asegurarnos de que inicios usarla de la manera correcta, de inmediato.
 
 Para ayudarle, hemos creado este kit de bienvenida, con información, herramientas y recursos clave que le ayudarán a prepararse para la primera [!DNL Target] actividad y a iniciarla. A largo plazo, estos contenidos también proporcionan la base para crear un programa de optimización y personalización exitoso.
+
