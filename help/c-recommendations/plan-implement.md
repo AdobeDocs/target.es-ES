@@ -5,7 +5,7 @@ title: Planificar e implementar recomendaciones
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
@@ -26,7 +26,7 @@ Lo que debe saber antes de crear una actividad de [!DNL Recommendations].
 | Paso | Información | Detalles |
 |--- |--- |--- |
 | ![Paso 1](/help/c-recommendations/assets/step1_red.png) | Biblioteca de JavaScript | Cada página requiere una referencia a las versiones 0.9.1 (o posterior) de at.js o 55 (o posterior) de mbox.js. Este paso de implementación es necesario en todas las páginas donde se usará una actividad de Target y puede incluir claves como un ID de producto o categoría.<BR>Para obtener más información sobre at.js, consulte [Implementación de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Para obtener más información sobre mbox.js, consulte [Implementación de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
-| ![Paso 2](/help/c-recommendations/assets/step2_red.png) | Claves | La clave determina el tipo de producto o contenido que se muestra en las recomendaciones. Por ejemplo, la clave podría ser una categoría de producto. Consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
+| ![Paso 2](/help/c-recommendations/assets/step2_red.png) | Claves | La clave determina el tipo de producto o contenido que se muestra en las recomendaciones. Por ejemplo, la clave podría ser una categoría de producto. Consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 | ![Paso 3](/help/c-recommendations/assets/step3_red.png) | Atributos | Los atributos proporcionan información más específica sobre los productos que quiere mostrar. Por ejemplo, es posible que quiera mostrar productos dentro de un determinado rango de precios o artículos cuyo inventario se ajuste a un determinado umbral. Los atributos se pueden proporcionar en el mbox o a través de una  [fuente](/help/c-recommendations/c-products/feeds.md).<br>Consulte [[Especificar reglas](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)de inclusión. |
 | ![Paso 4](/help/c-recommendations/assets/step4_red.png) | Exclusiones | Las exclusiones determinan qué artículos concretos no aparecen en las recomendaciones.<br>Consulte [Exclusiones](/help/c-recommendations/c-products/exclusions.md). |
 | ![Paso 5](/help/c-recommendations/assets/step5_red.png) | Detalles de la compra | Los detalles de la compra proporcionan información sobre los artículos comprados y el pedido una vez que se ha completado la compra. |
@@ -151,7 +151,7 @@ Si desea más información sobre las diferencias entre las dos bibliotecas de Ta
 
 ## Página de categoría {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
-En una página de categoría, lo más seguro es que quiera restringir las recomendaciones a los productos o el contenido dentro de esa categoría. Para configurar una página de categoría, configure las claves usadas por la página. Para obtener más información, consulte [Basar la recomendación en una clave de recomendación](../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+En una página de categoría, lo más seguro es que quiera restringir las recomendaciones a los productos o el contenido dentro de esa categoría. Para configurar una página de categoría, configure las claves usadas por la página. Para obtener más información, consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ```
 function targetPageParams() { 
