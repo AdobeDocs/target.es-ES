@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1097'
 ht-degree: 25%
 
 ---
@@ -41,7 +41,7 @@ Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 | Función | Detalles |
 | --- | --- |
-| Controlar ranuras de recomendaciones dentro de secuencias de criterios | Las secuencias de criterios ahora permiten controlar el número de ranuras ocupadas por cada criterio de recomendación, lo que le permite mezclar y hacer coincidir distintos tipos de elementos o distintas lógicas de algoritmo.<br>Consulte [Creación de secuencias](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) de criterios para obtener más información. |
+| ![Rangos de recomendaciones de control de distintivo](/help/assets/premium.png) Premium dentro de secuencias de criterios | Las secuencias de criterios ahora permiten controlar el número de ranuras ocupadas por cada criterio de recomendación, lo que le permite mezclar y hacer coincidir distintos tipos de elementos o distintas lógicas de algoritmo.<br>Consulte [Creación de secuencias](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) de criterios para obtener más información. |
 
 ## Target Standard/Premium 20.8.1 (2 de septiembre de 2020)
 
