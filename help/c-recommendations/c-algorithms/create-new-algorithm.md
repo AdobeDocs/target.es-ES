@@ -1,33 +1,30 @@
 ---
-keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: Los criterios controlan el contenido de sus actividades de Adobe Recommendations. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad.
 title: Crear criterios
 feature: criteria
-mini-toc-levels: 2
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '3609'
-ht-degree: 85%
+source-wordcount: '2402'
+ht-degree: 67%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Crear criterios{#create-criteria}
 
-Los criterios controlan el contenido de sus actividades de [!UICONTROL Recomendaciones]. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad.
-
-## Crear nuevos criterios
+Los criterios de [!UICONTROL Adobe Target] [!UICONTROL Recommendations] controlan el contenido de las actividades de [!UICONTROL Recommendations] . Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad. Estos criterios utilizan las acciones del visitante para determinar qué contenido o productos mostrar.
 
 Las siguientes secciones explican cómo crear un nuevo criterio.
 
-### Acceso a la pantalla Crear nuevo criterio
+## Acceso a la pantalla Crear nuevo criterio
 
 Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterios]. Algunas opciones de pantalla dependen de cómo llega a la pantalla.
 
 * On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!DNL Recommendations].
-* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!DNL Recommendations].
+* Al crear una [!DNL Recommendations] actividad con el Compositor [!UICONTROL de experiencias] visuales (VEC), se le dirigirá inmediatamente a la pantalla [!UICONTROL Seleccionar criterios] después de seleccionar un elemento en la página y hacer clic en [!UICONTROL Reemplazar con Recommendations], [!UICONTROL Insertar Recommendations antes]o Insertar Recommendations después. Luego puede seleccionar un criterio disponible o puede hacer clic en **[!UICONTROL Crear criterio]**. Si crea un nuevo criterio, tiene la opción de guardar los criterios para usarlos con otras [!DNL Recommendations] actividades. For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 * Cuando esté editando una [!DNL Recommendations]actividad, haga clic en el cuadro [!UICONTROL Ubicación de Recommendations] de la página y seleccione **[!UICONTROL Cambiar criterios]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!DNL Recommendations].
 
 Los pasos siguientes suponen que accede a la pantalla [!UICONTROL Crear nuevo criterio] mediante el primer método: la pantalla de la biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]** .
@@ -38,7 +35,9 @@ Los pasos siguientes suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
 
    ![Crear nuevos criterios](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
-### Complete la sección Información básica {#info}
+1. Configure la información en las siguientes secciones.
+
+## Información básica   {#info}
 
 1. Escriba un **[!UICONTROL Nombre de criterio]**.
 
@@ -70,7 +69,7 @@ Los pasos siguientes suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
 
 1. Seleccione una **[!UICONTROL Clave de recomendación]**.
 
-   Para obtener más información sobre cómo basar los criterios en una clave, consulte [Basar la recomendación en una clave de recomendación](#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Para obtener más información sobre cómo basar los criterios en una clave, consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 1. Seleccione la **[!UICONTROL Lógica de recomendación]**.
 
@@ -80,7 +79,7 @@ Los pasos siguientes suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-### Especifique las opciones de fuente de datos
+## Fuente de datos
 
 1. Establezca el **[!UICONTROL Intervalo de fechas]** para determinar el intervalo de fechas del historial de datos de comportamiento del usuario, para usarlo cuando determine qué recomendaciones mostrar.
 
@@ -116,25 +115,42 @@ Los pasos siguientes suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
 
    Para obtener más información, consulte [Uso de Adobe Analytics con Destinatario Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-### Especificar la configuración del contenido {#content}
+## Contenido {#content}
 
-Las reglas de contenido determinan qué sucede si el número de artículos recomendados no completa su diseño. Es posible que algunos criterios de Recommendations devuelvan menos recomendaciones que las que exige el diseño. Por ejemplo, si el diseño tiene espacio para cinco artículos, pero los criterios hacen que solo se recomienden tres artículos, puede dejar el espacio restante vacío o puede utilizar las recomendaciones de copia de seguridad para llenar el espacio adicional.
+Content rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). Es posible que algunos criterios de [!DNL Recommendations] devuelvan menos recomendaciones que las que exige el diseño. Por ejemplo, si el diseño tiene ranuras para cuatro artículos, pero los criterios hacen que solo se recomienden dos artículos, puede dejar las ranuras restantes vacías o puede utilizar las recomendaciones de copia de seguridad para rellenar las ranuras adicionales.
 
 ![Sección Contenido](/help/c-recommendations/c-algorithms/assets/content.png)
 
 1. (Opcional) Deslice el conmutador Representación **[!UICONTROL de diseño]** parcial a la posición &quot;activado&quot;.
 
-   Se rellenarán tantas ranuras como sea posible, pero la plantilla de diseño puede incluir espacio en blanco para las ranuras restantes.
+   Se rellenarán tantas ranuras como sea posible, pero la plantilla de diseño puede incluir espacio en blanco para las ranuras restantes. Si esta opción está deshabilitada y no hay suficiente contenido para llenar todas las ranuras disponibles, no se mostrarán las recomendaciones y se mostrará el contenido predeterminado.
+
+   Active esta opción si desea que las recomendaciones se proporcionen con ranuras en blanco. Utilice las recomendaciones de copia de seguridad si desea que las ranuras de recomendación se llenen con contenido basado en sus criterios con ranuras vacías llenas de contenido popular o similar del sitio, como se explica en el paso siguiente.
 
 1. (Opcional) Deslice el conmutador **[!UICONTROL Mostrar copia de seguridad de Recommendations]** a la posición &quot;activado&quot;.
 
    Llene los espacios vacíos restantes del diseño con una selección aleatoria de los productos más vistos de todo el sitio.
 
+   El uso de recomendaciones de copia de seguridad garantiza que el diseño de la recomendación llene todos los espacios disponibles. Supongamos que tiene un diseño de 4 x 1, como se ilustra a continuación:
+
+   ![Diseño de 4 x 1](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   Supongamos que los criterios hacen que solo se recomienden dos elementos. Si activa la opción Representación [!UICONTROL de diseño] parcial, las dos primeras ranuras se rellenan, pero las dos restantes permanecen vacías. Sin embargo, si activa la opción [!UICONTROL Mostrar copia de seguridad de Recommendations] , las dos primeras ranuras se rellenan según los criterios especificados y las dos ranuras restantes se rellenan según las recomendaciones de copia de seguridad.
+
+   La siguiente matriz muestra el resultado que observará al utilizar las opciones Representación [!UICONTROL de diseño] parcial y [!UICONTROL Copia de seguridad de Recommendations] :
+
+   | Procesamiento de diseño parcial | Recomendaciones de copia de seguridad | Resultado |
+   |--- |--- |--- |
+   | Deshabilitado | Deshabilitado | Si se devuelven menos recomendaciones que las que llama el diseño, el diseño de recomendaciones se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
+   | Habilitado | Deshabilitado | Se procesa el diseño, pero puede incluir espacio en blanco si se devuelven menos recomendaciones que las que llama el diseño. |
+   | Habilitado | Habilitado | Las recomendaciones de copia de seguridad llenarán “ranuras” de diseño disponible, procesando completamente el diseño.<br>Si la aplicación de reglas de inclusión a las recomendaciones de copia de seguridad restringe el número de recomendaciones de copia de seguridad correspondiente al punto de que no se pueda llenar el diseño, se procesa parcialmente el diseño.<br>Si el criterio no devuelve ninguna recomendación, y las reglas de inclusión restringen las recomendaciones de copia de seguridad a cero, el diseño se reemplaza por el Contenido predeterminado. |
+   | Deshabilitado | Habilitado | Las recomendaciones de copia de seguridad llenarán “ranuras” de diseño disponible, procesando completamente el diseño.<br>Si la aplicación de reglas de inclusión a las recomendaciones de copia de seguridad restringe el número de recomendaciones de copia de seguridad correspondiente al punto de que no se pueda llenar el diseño, el diseño se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
+
    Para obtener más información, consulte [Uso de una recomendación](/help/c-recommendations/c-algorithms/backup-recs.md)de copia de seguridad.
 
 1. (Condicional) Si seleccionó **[!UICONTROL Mostrar copia de seguridad de Recommendations]** en el paso anterior, puede activar **[!UICONTROL Aplicar reglas de inclusión a las recomendaciones]** de copia de seguridad.
 
-   Las Reglas de inclusión determinan qué artículos se incluirán en sus recomendaciones. Las opciones disponibles dependen del sector.
+   Las reglas de inclusión determinan qué artículos se incluyen en las recomendaciones. Las opciones disponibles dependen del sector.
 
    For more details, see [Specify inclusion rules](#inclusion) below.
 
@@ -142,16 +158,7 @@ Las reglas de contenido determinan qué sucede si el número de artículos recom
 
    Esta configuración se basa en `productPurchasedId`. El comportamiento predeterminado es no recomendar artículos comprados previamente. En la mayoría de los casos, no desea promocionar artículos que un cliente haya comprado recientemente. Es útil si vende artículos que la gente suele comprar solo una vez como, por ejemplo, canoas. Si vende artículos que las personas vuelven a comprar repetidamente, como champú u otros artículos personales, debe activar esta opción.
 
-La siguiente matriz muestra el resultado que observará al utilizar las opciones Representación [!UICONTROL de diseño] parcial y [!UICONTROL Copia de seguridad de Recommendations] :
-
-| Procesamiento de diseño parcial | Recomendaciones de copia de seguridad | Resultado |
-|--- |--- |--- |
-| Deshabilitado | Deshabilitado | Si se devuelven menos recomendaciones que las que llama el diseño, el diseño de recomendaciones se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
-| Habilitado | Deshabilitado | Se procesa el diseño, pero puede incluir espacio en blanco si se devuelven menos recomendaciones que las que llama el diseño. |
-| Habilitado | Habilitado | Las recomendaciones de copia de seguridad llenarán “ranuras” de diseño disponible, procesando completamente el diseño.<br>Si la aplicación de reglas de inclusión a las recomendaciones de copia de seguridad restringe el número de recomendaciones de copia de seguridad correspondiente al punto de que no se pueda llenar el diseño, se procesa parcialmente el diseño.<br>Si el criterio no devuelve ninguna recomendación, y las reglas de inclusión restringen las recomendaciones de copia de seguridad a cero, el diseño se reemplaza por el Contenido predeterminado. |
-| Deshabilitado | Habilitado | Las recomendaciones de copia de seguridad llenarán “ranuras” de diseño disponible, procesando completamente el diseño.<br>Si la aplicación de reglas de inclusión a las recomendaciones de copia de seguridad restringe el número de recomendaciones de copia de seguridad correspondiente al punto de que no se pueda llenar el diseño, el diseño se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
-
-### Specify content similarity rules {#similarity}
+## Similitud de contenido {#similarity}
 
 Use reglas de [!UICONTROL similitud de contenido] para hacer recomendaciones según los atributos de artículos o medios.
 
@@ -175,11 +182,11 @@ De forma predeterminada, todos los atributos están definidos en *Línea de base
 >
 >El algoritmo de similitud de contenido puede usar muestras aleatorias para calcular similitudes entre elementos. Como resultado, las clasificaciones de similitud entre elementos pueden variar entre ejecuciones de algoritmos.
 
-### Especificar reglas de inclusión {#inclusion}
-
-![Reglas de inclusión](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
+## Reglas de inclusión {#inclusion}
 
 Existen varias opciones que le ayudan a reducir el número de artículos que aparecen en las recomendaciones. Puede utilizar reglas de exclusión al crear criterios o promociones.
+
+![Reglas de inclusión](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
 Las reglas de inclusión son opcionales, pero definir estos detalles permite controlar mejor los artículos que aparecen en las recomendaciones. Cada detalle que se configure reduce un poco más los criterios de visualización.
 
@@ -215,9 +222,9 @@ Para crear una regla de inclusión sencilla, como se mencionó, previamente, que
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### Especificar ponderación de atributos
+## Ponderación de atributos
 
-Puede agregar varias reglas para &quot;desplazar&quot; el algoritmo en función de una descripción importante o de los metadatos sobre el catálogo de contenido, de modo que es más probable que se muestren determinados elementos.
+Puede agregar varias reglas para &quot;desplazar&quot; el algoritmo en base a información importante o metadatos sobre el catálogo de contenido, de modo que es más probable que se muestren ciertos elementos.
 
 Por ejemplo, puede aplicar una ponderación más alta para artículos en venta de modo que aparezcan con más frecuencia en la recomendación. Los artículos que no están en liquidación no quedan completamente excluidos, pero aparecen con menos frecuencia. Se pueden aplicar múltiples atributos ponderados al mismo algoritmo y los atributos ponderados se pueden probar sobre el tráfico dividido en la recomendación.
 
@@ -242,217 +249,6 @@ Por ejemplo, puede aplicar una ponderación más alta para artículos en venta d
 Cuando termine, haga clic en **[!UICONTROL Guardar]**.
 
 Si está creando una nueva actividad de [!UICONTROL Recommendations] o está editando una existente, la casilla **[!UICONTROL Guardar criterios para más adelante]** está seleccionada de forma predeterminada. Si no desea usar los criterios en otras actividades, desmarque la casilla antes de guardar.
-
-## Basar la recomendación en una clave de recomendación {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
-
-Las recomendaciones basadas en claves utilizan el contexto de comportamiento del visitante para mostrar resultados relevantes.
-
-Existen dos tipos de recomendaciones:
-
-* **Popularidad:** enumera los elementos según los más visitados, los más vendidos y las métricas principales. La clave está vacía para los criterios de popularidad.
-* **Basado en claves:** comprende el resto de los criterios. Recommendations ofrece un conjunto diverso de opciones con respecto al tipo de clave. Las opciones van desde “elemento actual” a “parámetros de perfil”, que le permiten establecer programáticamente la clave de los valores para recomendar. Puede probar varios criterios uno frente a otro basando cada criterio en una clave diferente.
-
-Cada criterio está definido en su propia pestaña. El tráfico se divide equitativamente en las distintas pruebas de criterios. Es decir, si tiene dos criterios, el tráfico se divide a partes iguales entre ellos. Si tiene dos criterios y dos diseños, el tráfico se divide equitativamente entre las cuatro combinaciones. También puede especificar el porcentaje de los visitantes del sitio que ven el contenido predeterminado, para su comparación. En ese caso, el porcentaje de visitantes especificado ve el contenido predeterminado y el resto se divide entre las combinaciones de algoritmo y plantilla.
-
-1. Cree una recomendación nueva o seleccione una existente y haga clic en **[!UICONTROL Editar]**.
-1. Para cambiar la clave de recomendación, seleccione la nueva clave en la lista desplegable [!UICONTROL Clave de recomendación] y haga clic en **[!UICONTROL Guardar]**.
-
-   Dado que lógicas diferentes dirigen a claves de recomendaciones diferentes, estas últimas se prestan a colocarse en diferentes tipos de páginas. Consulte las secciones siguientes para obtener más información acerca de cada clave.
-
-### Artículo actual
-
-La recomendación está determinada por el artículo que el visitante está viendo en ese momento.
-
-Las recomendaciones muestran otros artículos que pueden ser de interés para los visitantes interesados en el artículo especificado.
-
-Si se selecciona está opción, el valor `entity.id` debe pasarse como parámetro en mbox de visualización.
-
-#### Lógica (criterio)
-
-* [!UICONTROL Elementos con atributos similares.]
-* [!UICONTROL Los usuarios que vieron esto, vieron aquello.]
-* [!UICONTROL Los usuarios que vieron esto, compraron aquello.]
-* [!UICONTROL Los usuarios que compraron esto, compraron aquello.]
-* [!UICONTROL Afinidad del sitio]
-
-#### Ubicación en el sitio
-
-Páginas con un solo elemento, como las páginas de productos.
-
-NO lo utilice en páginas de resultados de búsqueda nulos.
-
-### Categoría actual
-
-La recomendación está determinada por la categoría de producto que el visitante está viendo en ese momento.
-
-Recommendations muestra los elementos en la categoría del producto especificada.
-
-Si se selecciona está opción, el valor `entity.categoryId` debe pasarse como parámetro al mbox de visualización.
-
-#### Lógica (criterio)
-
-* Principales vendedores
-* Más visitados
-
-#### Ubicación en el sitio
-
-Páginas de una sola categoría.
-
-NO lo utilice en páginas de resultados de búsqueda nulos.
-
-### Atributo personalizado.  {#custom}
-
-La recomendación viene determinada por un elemento almacenado en el perfil de un visitante, utilizando los atributos user.*x* o perfil.atributos *x*.
-
-Si se selecciona está opción, el valor `entity.id` debe estar presente en el atributo del perfil.
-
-#### Lógica (criterio)
-
-* [!UICONTROL Los usuarios que vieron esto, vieron aquello.]
-* [!UICONTROL Los usuarios que vieron esto, compraron aquello.]
-* [!UICONTROL Los usuarios que compraron esto, compraron aquello.]
-* [!UICONTROL Comportamiento general.]
-* [!UICONTROL Más visitados]
-* [!UICONTROL Principales vendedores]
-
-Si la clave es un atributo de perfil personalizado y el tipo de algoritmo es el más visitado o el más vendido, aparece una nueva lista desplegable llamada “Agrupar por valor único de” que tiene una lista de atributos de entidades conocidas (excepto ID, categoría, margen, valor, inventario y entorno). Este campo es obligatorio.
-
-#### Ubicación en el sitio
-
-Puede utilizarse en cualquier página.
-
-#### Utilizar una clave de recomendaciones personalizada
-
-Puede basar las recomendaciones en el valor de un atributo de perfil personalizado. Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la película que agregó un visitante recientemente a su cola.
-
-1. Seleccione su atributo de perfil personalizado en la lista **[!UICONTROL desplegable Clave]** de recomendación (por ejemplo, «Última visualización agregada a la lista de observación»).
-1. A continuación, seleccione la lógica **[!UICONTROL de recomendación]** (por ejemplo, &quot;Personas que vieron esto, Vieron aquello&quot;).
-
-   ![Crear nuevo cuadro de diálogo de criterios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
-
-Si el atributo de perfil personalizado no coincide directamente con un ID de entidad único, es necesario explicar cómo [!DNL Recommendations] desea que se produzca la coincidencia en una entidad. Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la marca favorita de un visitante.
-
-1. Seleccione su atributo de perfil personalizado en **[!UICONTROL la lista desplegable Clave]** de recomendación (por ejemplo, «Marca favorita»).
-
-1. A continuación, seleccione **[!UICONTROL la lógica]** de recomendación que desee utilizar con esta clave (por ejemplo, &quot;Principales vendedores&quot;).
-
-   Se muestra [!UICONTROL la] opción Agrupar por valor único de.
-
-1. Seleccione el atributo de entidad que coincida con la clave que ha elegido. En este caso, «Marca favorita» coincide con `entity.brand`.
-
-   [!DNL Recommendations] ahora genera una lista «Principales vendedores» para cada marca y muestra al visitante la lista «Principales vendedores» adecuada en función del valor almacenado en el atributo de perfil de Marca favorita del visitante.
-
-   ![Crear nuevo cuadro de diálogo de criterios 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
-
-### Último artículo comprado
-
-La recomendación está determinada por el último artículo que compró cada visitante único. La captura se realiza de forma automática, por lo tanto no es necesario pasar valores a la página.
-
-#### Lógica (criterio)
-
-* [!UICONTROL Elementos con atributos similares.]
-* [!UICONTROL Los usuarios que vieron esto, vieron aquello.]
-* [!UICONTROL Los usuarios que vieron esto, compraron aquello.]
-* [!UICONTROL Los usuarios que compraron esto, compraron aquello.]
-* [!UICONTROL Afinidad del sitio]
-
-#### Ubicación en el sitio
-
-La página inicial, la página Mi cuenta o anuncios externos.
-
-NO lo utilice en páginas de productos o en páginas importantes para las compras.
-
-### Último artículo visitado
-
-La recomendación está determinada por el último artículo que vio cada visitante único. La captura se realiza de forma automática, por lo tanto no es necesario pasar valores a la página.
-
-#### Lógica (criterio)
-
-* [!UICONTROL Elementos con atributos similares.]
-* [!UICONTROL Los usuarios que vieron esto, vieron aquello.]
-* [!UICONTROL Los usuarios que vieron esto, compraron aquello.]
-* [!UICONTROL Los usuarios que compraron esto, compraron aquello.]
-* [!UICONTROL Afinidad del sitio]
-
-#### Ubicación en el sitio
-
-La página inicial, la página Mi cuenta o anuncios externos.
-
-NO lo utilice en páginas de productos o en páginas importantes para las compras.
-
-### Artículo más visitado
-
-La recomendación está definida por el artículo que se vio con mayor frecuencia, usando el mismo método utilizado en la categoría de favoritos.
-
-Se determina por el criterio de frecuencia y actualización que funciona de la siguiente manera:
-
-* 10 puntos por primera visualización de producto
-* 5 puntos por cada visualización subsiguiente
-* Al final de la sesión, se dividen todos los valores por 2
-
-Por ejemplo, si ve surfboardA y luego surfboardB en una misma sesión, el resultado es A: 10, B: 5. Cuando la sesión finalice, tendrá A: 5, B: 2,5. Si ve los mismos artículos en la sesión siguiente, los valores cambian a A: 15 B: 7,5.
-
-#### Lógica (criterio)
-
-* [!UICONTROL Elementos con atributos similares.]
-* [!UICONTROL Los usuarios que vieron esto, vieron aquello.]
-* [!UICONTROL Los usuarios que vieron esto, compraron aquello.]
-* [!UICONTROL Los usuarios que compraron esto, compraron aquello.]
-* [!UICONTROL Afinidad del sitio]
-
-#### Ubicación en el sitio
-
-Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
-
-### Categoría favorita
-
-La recomendación está determinada por la categoría que recibió la mayor cantidad de actividad, usando el mismo método empleado con el “artículo más visitado”, excepto que se clasifican las categorías en lugar de los productos.
-
-Se determina por el criterio de frecuencia y actualización que funciona de la siguiente manera:
-
-* 10 puntos por primera visualización de categoría
-* 5 puntos por cada visualización subsiguiente
-
-Las categorías visitadas por primera vez reciben 10 puntos. Por las siguientes visitas a la misma categoría, se conceden 5 puntos. Con cada visita, la puntuación de las categorías antiguas que se vieron con anterioridad se reduce 1 punto.
-
-Por ejemplo, si ve categoría A y luego categoría B en una sesión, el resultado es A: 9, B: 10. Si ve los mismos elementos en la próxima sesión, los valores serán A: 20 B: 9.
-
-#### Lógica (criterio)
-
-* [!UICONTROL Principales vendedores]
-* [!UICONTROL Más visitados]
-
-#### Ubicación en el sitio
-
-Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
-
-### Popularidad
-
-La recomendación está determinada por la popularidad de los artículos del sitio. La popularidad incluye a los principales vendedores y a los más visitados según los datos del mbox, y si usa Adobe Analytics, todas las métricas disponibles en el informe de productos. Los elementos se clasifican según la lógica de recomendación seleccionada.
-
-#### Lógica (criterio)
-
-* [!UICONTROL Principales vendedores]
-* [!UICONTROL Más visitados]
-* Métricas de informe de productos (si utiliza Adobe Analytics)
-
-#### Ubicación en el sitio
-
-Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
-
-### Artículos vistos recientemente.  {#recently-viewed}
-
-Utiliza el historial del visitante (sesiones de alcance) para presentar el último elemento *X* que el visitante haya visto, según el número de espacios en el diseño.
-
-Los criterios de Elementos visualizados recientemente ahora devuelven resultados específicos de un [entorno](/help/administrating-target/hosts.md) determinado. Si dos sitios pertenecen a entornos distintos y un visitante alterna entre ellos, cada sitio muestra solo los elementos visualizados recientemente desde el sitio adecuado. Si dos sitios se encuentran en el mismo entorno y un visitante cambia entre los dos, el visitante verá los mismos artículos vistos recientemente en ambos.
-
-#### Ubicación en el sitio
-
-Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
-
->[!NOTE]
->
->Elementos vistos recientemente respeta tanto la configuración global de Exclusiones como la configuración de Colección seleccionada para la Actividad. Si un elemento queda excluido por una Exclusión global o no está contenido en la Colección seleccionada, no se mostrará; por lo tanto, al utilizar los criterios de Artículos vistos recientemente, se suele utilizar la opción «Todas las colecciones».
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
