@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '29294'
+source-wordcount: '29266'
 ht-degree: 88%
 
 ---
@@ -834,7 +834,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
-   <td colname="col2"> <p>Los criterios de Elementos visualizados recientemente ahora devuelven resultados específicos de un <a href="../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">entorno</a> determinado. Si dos sitios pertenecen a entornos distintos y un visitante alterna entre ellos, cada sitio muestra solo los elementos visualizados recientemente desde el sitio adecuado. Si dos sitios se encuentran en el mismo entorno y un visitante cambia entre los dos, el visitante verá los mismos artículos vistos recientemente en ambos. </p> <p>Para obtener más información, consulte <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B" format="dita" scope="local">Basar la recomendación en una clave de recomendación</a>. (RECS-5865) </p> </td> 
+   <td colname="col2"> <p>Los criterios de Elementos visualizados recientemente ahora devuelven resultados específicos de un <a href="../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">entorno</a> determinado. Si dos sitios pertenecen a entornos distintos y un visitante alterna entre ellos, cada sitio muestra solo los elementos visualizados recientemente desde el sitio adecuado. Si dos sitios se encuentran en el mismo entorno y un visitante cambia entre los dos, el visitante verá los mismos artículos vistos recientemente en ambos. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1035,7 +1035,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
      <ul id="ul_7A6F2398ADE846EF8A7A3110C2736BF7"> 
       <li id="li_66BFF016564749B298B88F6B9638B64E"> <p>Más visitados </p> </li> 
       <li id="li_937FE5C40ED8471391B282D1ACE8C133"> <p>Principales vendedores </p> </li> 
-     </ul> </p> <p>Para obtener más información, consulte la fila “Atributo personalizado” en  <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B" format="dita" scope="local">Basar la recomendación en una clave de recomendación</a>. </p> </td> 
+     </ul> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audiencias </p> </td> 
