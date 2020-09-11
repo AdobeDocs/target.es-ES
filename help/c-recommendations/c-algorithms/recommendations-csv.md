@@ -5,9 +5,9 @@ title: Cargar criterios personalizados
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 66b3c42181daf582c9b3bee1f83a2229b823c5c3
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1893'
 ht-degree: 66%
 
 ---
@@ -49,11 +49,13 @@ Los pasos siguientes suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
 
    La descripción debería ayudarle a identificar los criterios y podría incluir información sobre el propósito de los mismos.
 
-1. Seleccione un **[!UICONTROL Segmento de mercado vertical]**:
+1. Seleccione un sector en función de los objetivos de la actividad de recomendaciones.
 
-   * [!UICONTROL Venta minorista/Comercio electrónico]
-   * [!UICONTROL Generación de vanguardia/B2B/Servicios financieros]
-   * [!UICONTROL Medios/Publicación]
+   | Sector | Objetivo |
+   |--- |--- |
+   | Venta minorista/Comercio electrónico | Conversión que termina en compra |
+   | Generación de vanguardia/B2B/Servicios financieros | Conversión sin compra |
+   | Medios/Publicación | Participación |
 
    Otras opciones de criterios cambiarán según el sector que seleccione.
 
