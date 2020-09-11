@@ -5,10 +5,10 @@ title: Basar la recomendación en una clave de recomendación
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
+source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 72%
+source-wordcount: '2777'
+ht-degree: 70%
 
 ---
 
@@ -33,7 +33,7 @@ Cada criterio está definido en su propia pestaña. El tráfico se divide equita
 
 Las siguientes claves de recomendación están disponibles en la lista desplegable Clave [!UICONTROL de] recomendación:
 
-### Artículo actual
+### Artículo actual {#current-item}
 
 La recomendación está determinada por el artículo que el visitante está viendo en ese momento.
 
@@ -54,7 +54,7 @@ Si se selecciona está opción, el valor `entity.id` debe pasarse como parámetr
 * Páginas con un solo elemento, como las páginas de productos.
 * NO lo utilice en páginas de resultados de búsqueda nulos.
 
-### Categoría actual
+### Categoría actual {#current-category}
 
 La recomendación está determinada por la categoría de producto que el visitante está viendo en ese momento.
 
@@ -133,7 +133,29 @@ Si el atributo de perfil personalizado no coincide directamente con un ID de ent
 
    ![Crear nuevo cuadro de diálogo de criterios 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### Último artículo comprado
+### Categoría favorita {#favorite-category}
+
+La recomendación está determinada por la categoría que recibió la mayor cantidad de actividad, usando el mismo método empleado con el “artículo más visitado”, excepto que se clasifican las categorías en lugar de los productos.
+
+Se determina por el criterio de frecuencia y actualización que funciona de la siguiente manera:
+
+* 10 puntos por primera visualización de categoría
+* 5 puntos por cada visualización subsiguiente
+
+Las categorías visitadas por primera vez reciben 10 puntos. Por las siguientes visitas a la misma categoría, se conceden 5 puntos. Con cada visita, la puntuación de las categorías antiguas que se vieron con anterioridad se reduce 1 punto.
+
+Por ejemplo, si ve categoría A y luego categoría B en una sesión, el resultado es A: 9, B: 10. Si ve los mismos elementos en la próxima sesión, los valores serán A: 20 B: 9.
+
+#### Lógica (criterio)
+
+* [!UICONTROL Principales vendedores]
+* [!UICONTROL Más visitados]
+
+#### Ubicación en el sitio
+
+* Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
+
+### Último artículo comprado {#last-purchased}
 
 La recomendación está determinada por el último artículo que compró cada visitante único. La captura se realiza de forma automática, por lo tanto no es necesario pasar valores a la página.
 
@@ -150,7 +172,7 @@ La recomendación está determinada por el último artículo que compró cada vi
 * La página inicial, la página Mi cuenta o anuncios externos.
 * NO lo utilice en páginas de productos o en páginas importantes para las compras.
 
-### Último artículo visitado
+### Último artículo visitado {#last-viewed}
 
 La recomendación está determinada por el último artículo que vio cada visitante único. La captura se realiza de forma automática, por lo tanto no es necesario pasar valores a la página.
 
@@ -167,7 +189,7 @@ La recomendación está determinada por el último artículo que vio cada visita
 * La página inicial, la página Mi cuenta o anuncios externos.
 * NO lo utilice en páginas de productos o en páginas importantes para las compras.
 
-### Artículo más visitado
+### Artículo más visitado {#most-viewed}
 
 La recomendación está definida por el artículo que se vio con mayor frecuencia, usando el mismo método utilizado en la categoría de favoritos.
 
@@ -191,29 +213,7 @@ Por ejemplo, si ve surfboardA y luego surfboardB en una misma sesión, el result
 
 * Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
 
-### Categoría favorita
-
-La recomendación está determinada por la categoría que recibió la mayor cantidad de actividad, usando el mismo método empleado con el “artículo más visitado”, excepto que se clasifican las categorías en lugar de los productos.
-
-Se determina por el criterio de frecuencia y actualización que funciona de la siguiente manera:
-
-* 10 puntos por primera visualización de categoría
-* 5 puntos por cada visualización subsiguiente
-
-Las categorías visitadas por primera vez reciben 10 puntos. Por las siguientes visitas a la misma categoría, se conceden 5 puntos. Con cada visita, la puntuación de las categorías antiguas que se vieron con anterioridad se reduce 1 punto.
-
-Por ejemplo, si ve categoría A y luego categoría B en una sesión, el resultado es A: 9, B: 10. Si ve los mismos elementos en la próxima sesión, los valores serán A: 20 B: 9.
-
-#### Lógica (criterio)
-
-* [!UICONTROL Principales vendedores]
-* [!UICONTROL Más visitados]
-
-#### Ubicación en el sitio
-
-* Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
-
-### Popularidad
+### Popularidad {#popularity}
 
 La recomendación está determinada por la popularidad de los artículos del sitio. La popularidad incluye a los principales vendedores y a los más visitados según los datos del mbox, y si usa Adobe Analytics, todas las métricas disponibles en el informe de productos. Los elementos se clasifican según la lógica de recomendación seleccionada.
 
@@ -247,7 +247,7 @@ Los criterios de Elementos visualizados recientemente ahora devuelven resultados
 
 La siguiente lógica de recomendación (criterios) está disponible en la lista desplegable [!UICONTROL de la lógica] de recomendación:
 
-### Elementos/Medios con atributos similares
+### Elementos/Medios con atributos similares {#similar-attributes}
 
 Recomienda artículos o medios similares a artículos o medios según la actividad de la página actual o el comportamiento de visitantes anteriores.
 
@@ -264,7 +264,7 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 * Último artículo visitado
 * Artículo más visitado
 
-### Más visitados
+### Más visitados {#most-viewed-logic}
 
 Muestra los elementos o medios que se visitan con mayor frecuencia en el sitio.
 
@@ -277,9 +277,11 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 * Categoría favorita
 * Popularidad
 
-### Los usuarios que compraron esto, compraron aquello.
+### Los usuarios que compraron esto, compraron aquello.{#bought-bought}
 
 Recomienda artículos que se compran con mayor frecuencia junto al artículo especificado.
+
+Esta lógica devuelve otros productos que las personas compraron después de comprar este; el producto especificado no se incluye en el conjunto de resultados.
 
 Esta lógica le permite aumentar las oportunidades de venta cruzada mostrando una recomendación en una página de resumen del carro de compras, por ejemplo, que muestra los artículos que otros compradores también compraron. Por ejemplo, si el visitante compra un traje, la recomendación podría mostrar artículos adicionales que otros visitantes compraron junto con el traje, como corbatas, zapatos de vestir y corbatas. A medida que los visitantes revisan sus compras, usted les proporciona recomendaciones adicionales.
 
@@ -291,9 +293,11 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 * Último artículo visitado
 * Artículo más visitado
 
-### Los usuarios que vieron esto, compraron aquello.
+### Los usuarios que vieron esto, compraron aquello.{#viewed-bought}
 
 Recomienda artículos que se compran con mayor frecuencia en la misma sesión en que se ve el artículo especificado. Este criterio devuelve otros productos que otras personas compraron después de haber visto el producto especificado. Este producto no se incluye en el conjunto de resultados.
+
+Esta lógica devuelve otros productos que las personas compraron después de ver este; el producto especificado no se incluye en el conjunto de resultados.
 
 Esta lógica le permite aumentar las oportunidades de venta cruzada al mostrar una recomendación en una página de producto, por ejemplo, que muestra artículos que otros visitantes vieron el artículo comprado. Por ejemplo, si el visitante está viendo un poste de pesca, la recomendación podría mostrar elementos adicionales que otros visitantes compraron, como cajas de abordaje, alcantarillas y lúpulos de pesca. A medida que los visitantes navegan por el sitio, usted les proporciona recomendaciones de compra adicionales.
 
@@ -305,9 +309,11 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 * Último artículo visitado
 * Artículo más visitado
 
-### Los usuarios que vieron esto, vieron aquello.
+### Los usuarios que vieron esto, vieron aquello.{#viewed-viewed}
 
 Recomienda artículos que se visitan con mayor frecuencia en la misma sesión en que se ve el artículo especificado.
+
+Esta lógica devuelve otros productos que las personas vieron después de ver este; el producto especificado no se incluye en el conjunto de resultados.
 
 Esta lógica le permite crear oportunidades de conversión adicionales recomendando artículos que otros visitantes que vieron un artículo también vieron. Por ejemplo: los visitantes que vista bicicletas de carretera en su sitio también pueden mirar cascos para bicicletas, kits para ciclismo, cerraduras, etc. Puede crear una recomendación con esta lógica que sugiera otros productos para ayudarle a aumentar los ingresos.
 
@@ -319,13 +325,15 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 * Último artículo visitado
 * Artículo más visitado
 
-### Afinidad del sitio
+### Afinidad del sitio {#site-affinity}
 
 Recomienda elementos según la certeza de una relación entre artículos. Puede configurar este criterio para determinar la cantidad de datos que se requiere antes de presentar una recomendación con el regulador Reglas de inclusión. Por ejemplo, si selecciona Muy fuerte, se recomiendan los productos con la certeza más sólida de una coincidencia.
 
 Por ejemplo, si establece una afinidad muy fuerte y el diseño incluye cinco artículos, tres de los cuales cumplen la seguridad de umbral de conexión, los dos artículos que no cumplen los requisitos mínimos de seguridad no se muestran en las recomendaciones y son reemplazados por sus artículos de copia de seguridad definidos. Los artículos con la mayor afinidad se muestran primero.
 
 Por ejemplo: un minorista en línea puede recomendar elementos en visitas posteriores en las que un visitante ha mostrado interés durante sesiones anteriores. La actividad de cada sesión de visitante se captura para calcular una afinidad en función de un modelo de actualización y frecuencia. A medida que este visitante regresa a su sitio, la afinidad del sitio se utiliza para mostrar las recomendaciones en base a acciones anteriores en el sitio.
+
+Es posible que algunos clientes con diferentes colecciones de productos y diversos comportamientos de sitio obtengan mejores resultados si establecen una afinidad de sitio débil.
 
 Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
@@ -334,7 +342,7 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 * Último artículo visitado
 * Artículo más visitado
 
-### Principales vendedores
+### Principales vendedores {#top-sellers}
 
 Muestra los artículos incluidos en los pedidos más completados. Varias unidades del mismo artículo en un único pedido se cuentan como un solo pedido.
 
@@ -345,7 +353,7 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 * Categoría favorita
 * Popularidad
 
-### Recommendations basado en el usuario
+### Recommendations basado en el usuario {#user-based}
 
 Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como &quot;Recomendado para usted&quot;.
 
