@@ -1,21 +1,21 @@
 ---
 keywords: recommendation;backup;back up
-description: Si utiliza la función de recomendación de copia de seguridad, las recomendaciones que no cuenten con suficientes artículos recomendados no mostrarán el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
+description: Si utiliza la función de recomendación de copia de seguridad en Adobe Target, cualquier recomendación que no tenga suficientes artículos recomendados no mostrará el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
 title: Usar una recomendación de copia de seguridad
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 90%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Usar una recomendación de copia de seguridad{#use-a-backup-recommendation}
 
-Si utiliza la función de recomendación de copia de seguridad, las recomendaciones que no cuenten con suficientes artículos recomendados no mostrarán el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
+Si utiliza la función de recomendación de copia de seguridad en Adobe Target, cualquier recomendación que no tenga suficientes artículos recomendados no mostrará el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
 
 Si no utiliza una recomendación de copia de seguridad, y si una recomendación no contiene suficientes artículos para llenar la presentación, el sistema mostrará al usuario contenido predeterminado.
 
