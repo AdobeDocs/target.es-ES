@@ -4,7 +4,7 @@ description: Información sobre cómo trabajar con un campo de varios valores en
 title: Uso de atributos de varios valores en Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -71,8 +71,7 @@ Los siguientes operadores están disponibles para su uso con atributos de entida
 
 >[!NOTE]
 >
->Actualmente, la compatibilidad con la coincidencia dinámica con atributos de varios valores solo está disponible en criterios cuando se utiliza una regla de coincidencia de atributos de perfil o parámetro (mbox) al comparar un solo valor en el lado izquierdo con un valor múltiple en el lado derecho. Actualmente, los atributos de varios valores no se admiten en promociones, coincidencia de atributos de entidad o en listas en el lado izquierdo de las reglas de inclusión.
-
+>Actualmente, la compatibilidad con la coincidencia dinámica con atributos de varios valores solo está disponible en criterios cuando se usa una regla de coincidencia de atributos de perfil o parámetro (mbox) al comparar un solo valor en el lado izquierdo con un valor múltiple en el lado derecho. Actualmente, los atributos de varios valores no se admiten en promociones, coincidencia de atributos de entidad o en listas en el lado izquierdo de las reglas de inclusión.
 
 ### Ejemplo: Excluir elementos vistos recientemente
 
