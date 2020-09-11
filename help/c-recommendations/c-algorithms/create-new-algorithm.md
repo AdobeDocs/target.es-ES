@@ -5,10 +5,10 @@ title: Crear criterios
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 67%
+source-wordcount: '2422'
+ht-degree: 66%
 
 ---
 
@@ -53,11 +53,13 @@ Los pasos siguientes suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
 
    La descripción debería ayudarle a identificar los criterios y podría incluir información sobre el propósito de los mismos.
 
-1. Seleccione un **[!UICONTROL Segmento de mercado vertical]**:
+1. Seleccione un sector en función de los objetivos de la actividad de recomendaciones.
 
-   * [!UICONTROL Venta minorista/Comercio electrónico]
-   * [!UICONTROL Generación de vanguardia/B2B/Servicios financieros]
-   * [!UICONTROL Medios/Publicación]
+   | Sector | Objetivo |
+   |--- |--- |
+   | Venta minorista/Comercio electrónico | Conversión que termina en compra |
+   | Generación de vanguardia/B2B/Servicios financieros | Conversión sin compra |
+   | Medios/Publicación | Participación |
 
    Otras opciones de criterios cambiarán según el sector que seleccione.
 
