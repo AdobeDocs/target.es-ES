@@ -5,10 +5,10 @@ title: Crear secuencias de criterios
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 43%
+source-wordcount: '1148'
+ht-degree: 44%
 
 ---
 
@@ -64,9 +64,17 @@ En los pasos siguientes se asume que accede a la pantalla [!UICONTROL Crear secu
 
    La descripción debería ayudarle a identificar la secuencia de criterios y podría incluir información sobre su propósito.
 
-1. Seleccione un **[!UICONTROL Segmento de mercado vertical]**.
+1. Seleccione un sector en función de los objetivos de la actividad de recomendaciones.
 
-   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+   | Sector | Objetivo |
+   |--- |--- |
+   | Venta minorista/Comercio electrónico | Conversión que termina en compra |
+   | Generación de vanguardia/B2B/Servicios financieros | Conversión sin compra |
+   | Medios/Publicación | Participación |
+
+   Se mostrará automáticamente su sector predeterminado.
+
+   Otras opciones de criterios cambiarán según el sector que seleccione.
 
 1. Seleccione un **[!UICONTROL Tipo de página]**.
 
