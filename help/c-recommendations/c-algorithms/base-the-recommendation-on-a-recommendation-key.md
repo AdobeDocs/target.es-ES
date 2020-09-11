@@ -5,10 +5,10 @@ title: Basar la recomendación en una clave de recomendación
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 21c8e39669925e8fd26d7f64ea7dfe95f28795bf
+source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 70%
+source-wordcount: '2692'
+ht-degree: 72%
 
 ---
 
@@ -77,6 +77,23 @@ Si se selecciona está opción, el valor `entity.categoryId` debe pasarse como p
 La recomendación viene determinada por un elemento almacenado en el perfil de un visitante, utilizando los atributos user.*x* o perfil.atributos *x*.
 
 Si se selecciona está opción, el valor `entity.id` debe estar presente en el atributo del perfil.
+
+Cuando basa las recomendaciones en atributos personalizados, debe seleccionar el atributo personalizado y luego seleccionar el tipo de recomendación.
+
+Puede realizar el filtrado en tiempo real sobre su propia salida de criterios personalizados. Por ejemplo, puede limitar sus artículos recomendados solo a aquellos de la categoría o marca favorita de un visitante. Esto le da la capacidad de combinar cálculos sin conexión con filtrado en tiempo real.
+
+This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. Esto combina el poder de sus científicos e investigadores de datos con la entrega probada y comprobada de Adobe, el filtrado en tiempo de ejecución, las pruebas A/B, la orientación, los informes, las integraciones y más.
+
+Con la adición de reglas de inclusión en Criterios personalizados, convierte las recomendaciones estáticas en recomendaciones dinámicas basadas en los intereses de los visitantes.
+
+* Los criterios personalizados se pueden configurar, como otros criterios en las recomendaciones.
+* Puede usar [colecciones](/help/c-recommendations/c-products/collections.md), [exclusiones](/help/c-recommendations/c-products/exclusions.md) e [inclusiones](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluyendo las reglas especiales para Precio e Inventario) de la misma forma que cualquier otro criterio.
+
+Los posibles casos de uso incluyen:
+
+* Desea recomendar películas de una lista personalizada, pero solo si el visitante no las ha visto.
+* Desea ejecutar un algoritmo sin conexión y usar los resultados para potenciar sus recomendaciones, pero debe asegurarse de que los artículos agotados no sean recomendados.
+* Desea incluir solo los elementos que pertenecen a la categoría favorita de este visitante.
 
 #### Lógica (criterio)
 
@@ -226,11 +243,15 @@ Los criterios de Elementos visualizados recientemente ahora devuelven resultados
 
 ## Lógica de recomendación
 
+[!DNL Target Recommendations] emplea sofisticados algoritmos que determinan si las acciones de un visitante cumplen los criterios establecidos en su actividad. La clave de recomendación determina las opciones de lógica de recomendaciones que se encuentran disponibles.
+
 La siguiente lógica de recomendación (criterios) está disponible en la lista desplegable [!UICONTROL de la lógica] de recomendación:
 
-### Elementos con atributos similares
+### Elementos/Medios con atributos similares
 
-La similitud de contenido compara palabras clave de los atributos de los artículos y realiza recomendaciones basándose en la cantidad de palabras clave que los artículos tienen en común. Las recomendaciones que se basan en la similitud de contenido no requieren información anterior para ofrecer buenos resultados.
+Recomienda artículos o medios similares a artículos o medios según la actividad de la página actual o el comportamiento de visitantes anteriores.
+
+Si selecciona Elementos/Medios con atributos similares, tiene la opción de establecer reglas de similitud de contenido.
 
 El uso de la similitud de contenido para generar recomendaciones resulta especialmente eficaz para los nuevos artículos, que probablemente no se muestren en las recomendaciones con Personas que vieron esto, vieron aquello y otras lógicas basadas en el comportamiento anterior. También puede utilizar la similitud de contenido si quiere generar recomendaciones útiles para los nuevos visitantes, que no han hecho ninguna compra ni tienen datos históricos.
 
@@ -245,9 +266,9 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
 ### Más visitados
 
-Muestra los artículos más vistos del sitio.
+Muestra los elementos o medios que se visitan con mayor frecuencia en el sitio.
 
-Esta lógica le permite mostrar recomendaciones basadas en los artículos más vistos del sitio para aumentar las conversiones de otros artículos. Por ejemplo: un sitio de medios podría mostrar recomendaciones en su página de inicio para los vídeos más populares a fin de animar a los visitantes a ver vídeos adicionales.
+Esta lógica le permite mostrar recomendaciones basadas en los artículos más vistos del sitio para aumentar las conversiones de otros artículos. Por ejemplo: un sitio de medios podría mostrar recomendaciones en su página de inicio para los vídeos más vistos a fin de animar a los visitantes a ver vídeos adicionales.
 
 Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
@@ -258,9 +279,9 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
 ### Los usuarios que compraron esto, compraron aquello.
 
-Muestra los artículos que otros visitantes también compraron y compraron el artículo seleccionado.
+Recomienda artículos que se compran con mayor frecuencia junto al artículo especificado.
 
-Esta lógica le permite aumentar las oportunidades de venta cruzada mostrando una recomendación en una página de resumen del carro de compras, por ejemplo, que muestra los artículos que otros compradores también compraron. Por ejemplo, si el visitante está comprando un traje, la recomendación podría mostrar artículos adicionales comprados por otros visitantes, como corbatas, zapatos de vestir y corbatas. A medida que los visitantes revisan sus compras, usted les proporciona recomendaciones de compra adicionales.
+Esta lógica le permite aumentar las oportunidades de venta cruzada mostrando una recomendación en una página de resumen del carro de compras, por ejemplo, que muestra los artículos que otros compradores también compraron. Por ejemplo, si el visitante compra un traje, la recomendación podría mostrar artículos adicionales que otros visitantes compraron junto con el traje, como corbatas, zapatos de vestir y corbatas. A medida que los visitantes revisan sus compras, usted les proporciona recomendaciones adicionales.
 
 Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
@@ -272,9 +293,9 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
 ### Los usuarios que vieron esto, compraron aquello.
 
-Muestra otros artículos comprados por visitantes que vieron el artículo seleccionado.
+Recomienda artículos que se compran con mayor frecuencia en la misma sesión en que se ve el artículo especificado. Este criterio devuelve otros productos que otras personas compraron después de haber visto el producto especificado. Este producto no se incluye en el conjunto de resultados.
 
-Esta lógica le permite aumentar las oportunidades de venta cruzada al mostrar una recomendación en una página de producto, por ejemplo, que muestra artículos que otros visitantes vieron el artículo comprado. Por ejemplo, si el visitante está viendo un poste de pesca, la recomendación podría mostrar elementos adicionales que otros visitantes estén viendo el artículo comprado, como las cajas de abordaje, los alcantarillados y los lúpulos de pesca. A medida que los visitantes navegan por el sitio, usted les proporciona recomendaciones de compra adicionales.
+Esta lógica le permite aumentar las oportunidades de venta cruzada al mostrar una recomendación en una página de producto, por ejemplo, que muestra artículos que otros visitantes vieron el artículo comprado. Por ejemplo, si el visitante está viendo un poste de pesca, la recomendación podría mostrar elementos adicionales que otros visitantes compraron, como cajas de abordaje, alcantarillas y lúpulos de pesca. A medida que los visitantes navegan por el sitio, usted les proporciona recomendaciones de compra adicionales.
 
 Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
@@ -286,9 +307,9 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
 ### Los usuarios que vieron esto, vieron aquello.
 
-Muestra elementos que otros visitantes también vieron y vieron que vieron el elemento seleccionado.
+Recomienda artículos que se visitan con mayor frecuencia en la misma sesión en que se ve el artículo especificado.
 
-Esta lógica le permite crear oportunidades de conversión adicionales recomendando artículos que otros visitantes que vieron un artículo también vieron. Por ejemplo: los visitantes que vista bicicletas de carretera en su sitio también pueden mirar cascos para bicicletas, kits para ciclismo, cerraduras, etc. Puede crear una recomendación utilizando esta lógica que sugiera otros productos.
+Esta lógica le permite crear oportunidades de conversión adicionales recomendando artículos que otros visitantes que vieron un artículo también vieron. Por ejemplo: los visitantes que vista bicicletas de carretera en su sitio también pueden mirar cascos para bicicletas, kits para ciclismo, cerraduras, etc. Puede crear una recomendación con esta lógica que sugiera otros productos para ayudarle a aumentar los ingresos.
 
 Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
@@ -300,9 +321,11 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
 ### Afinidad del sitio
 
-Muestra artículos que utilizan un algoritmo propietario de Adobe para recomendar otros artículos según criterios, como vistas de páginas de productos, compras y actividades del carro de compras (adición o eliminación de artículos, visualización del carro de compras, etc.)
+Recomienda elementos según la certeza de una relación entre artículos. Puede configurar este criterio para determinar la cantidad de datos que se requiere antes de presentar una recomendación con el regulador Reglas de inclusión. Por ejemplo, si selecciona Muy fuerte, se recomiendan los productos con la certeza más sólida de una coincidencia.
 
-Por ejemplo: un minorista en línea puede recomendar elementos en los que un visitante ha mostrado interés durante sesiones anteriores en visitas posteriores. La actividad de cada sesión de visitante se captura para calcular una puntuación de afinidad basada en un modelo de actualización y frecuencia. A medida que este visitante regresa a su sitio, la afinidad del sitio se utiliza para mostrar las recomendaciones en base a acciones anteriores en el sitio.
+Por ejemplo, si establece una afinidad muy fuerte y el diseño incluye cinco artículos, tres de los cuales cumplen la seguridad de umbral de conexión, los dos artículos que no cumplen los requisitos mínimos de seguridad no se muestran en las recomendaciones y son reemplazados por sus artículos de copia de seguridad definidos. Los artículos con la mayor afinidad se muestran primero.
+
+Por ejemplo: un minorista en línea puede recomendar elementos en visitas posteriores en las que un visitante ha mostrado interés durante sesiones anteriores. La actividad de cada sesión de visitante se captura para calcular una afinidad en función de un modelo de actualización y frecuencia. A medida que este visitante regresa a su sitio, la afinidad del sitio se utiliza para mostrar las recomendaciones en base a acciones anteriores en el sitio.
 
 Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
@@ -313,11 +336,31 @@ Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
 ### Principales vendedores
 
-Muestra los artículos más vendidos del sitio en base a las conversiones de visitantes.
+Muestra los artículos incluidos en los pedidos más completados. Varias unidades del mismo artículo en un único pedido se cuentan como un solo pedido.
 
-Esta lógica le permite crear recomendaciones para artículos populares en el sitio para aumentar la conversión. Esta lógica es especialmente adecuada para los visitantes nuevos del sitio.
+Esta lógica le permite crear recomendaciones para los artículos más vendidos del sitio para aumentar la conversión y los ingresos. Esta lógica es especialmente adecuada para los visitantes nuevos del sitio.
 
 Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
 * Categoría favorita
 * Popularidad
+
+### Recommendations basado en el usuario
+
+Recomienda artículos en función del historial de exploración, visualización y compra de cada visitante. Estos artículos generalmente se conocen como &quot;Recomendado para usted&quot;.
+
+Este criterio le permite entregar contenido y experiencias personalizadas a visitantes nuevos y reincidentes. La lista de las recomendaciones está ponderada en función de la actividad más reciente del visitante y se actualiza durante la sesión y se personaliza a medida que el usuario navega por el sitio.
+
+Tanto las vistas como las compras se utilizan para determinar los artículos recomendados. La clave de recomendación especificada (por ejemplo, Elemento actual) se utiliza para aplicar cualquier filtros de regla de inclusión que seleccione.
+
+Por ejemplo, puede:
+
+* Excluya los elementos que no cumplan determinados criterios (productos sin existencias, artículos publicados hace más de 30 días, películas clasificadas como R, etc.).
+* Limitar los elementos incluidos a una sola categoría o a la categoría actual.
+
+Esta lógica se puede utilizar con las siguientes claves de recomendación:
+
+* Artículo actual
+* Último artículo comprado
+* Último artículo visitado
+* Artículo más visitado
