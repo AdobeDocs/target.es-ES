@@ -1,14 +1,14 @@
 ---
 keywords: recommendation;backup;back up
 description: Si utiliza la función de recomendación de copia de seguridad en Adobe Target, cualquier recomendación que no tenga suficientes artículos recomendados no mostrará el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
-title: Usar una recomendación de copia de seguridad
+title: Usar una recomendación de copia de seguridad en Adobe Target Recommendations
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 90%
+source-wordcount: '523'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 90%
 Si utiliza la función de recomendación de copia de seguridad en Adobe Target, cualquier recomendación que no tenga suficientes artículos recomendados no mostrará el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
 
 Si no utiliza una recomendación de copia de seguridad, y si una recomendación no contiene suficientes artículos para llenar la presentación, el sistema mostrará al usuario contenido predeterminado.
+
+>[!NOTE]
+>
+>Se incluye información adicional en la sección [Contenido del tema Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) , incluida una matriz que explica los resultados que se observarán al utilizar las opciones Representación [!UICONTROL de diseño] parcial y [!UICONTROL Mostrar copia de seguridad de Recommendations] de forma conjunta o por separado.
 
 La función de recomendación de copia de seguridad siempre utiliza los artículos más vistos del sitio para llenar los espacios restantes después de utilizar los datos del algoritmo. Por ejemplo, la plantilla está configurada para mostrar cinco artículos recomendados y usted usa el algoritmo *Afinidades de compra*. Sin embargo, solamente tendrá suficientes datos para llenar dos de los cinco espacios, de modo que la función de recomendación de copia de seguridad llena los otros tres espacios con los artículos más vistos.
 
