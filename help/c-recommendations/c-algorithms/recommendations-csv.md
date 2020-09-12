@@ -5,10 +5,10 @@ title: Cargar criterios personalizados
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
-source-wordcount: '1893'
-ht-degree: 66%
+source-wordcount: '687'
+ht-degree: 63%
 
 ---
 
@@ -16,8 +16,6 @@ ht-degree: 66%
 # ![PREMIUM](/help/assets/premium.png) Cargar criterios personalizados{#upload-custom-criteria}
 
 Cargue un archivo CSV para personalizar las recomendaciones.
-
-## Acceso a la pantalla Crear nuevo criterio
 
 Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterios]. Algunas opciones de pantalla dependen de cómo llega a la pantalla.
 
@@ -31,138 +29,19 @@ Los pasos siguientes suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
 
 1. Haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Cargar criterios]** personalizados.
 
-1. Configure la información en las siguientes secciones.
+1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 
-## Información básica   {#info}
+1. Rellene la información de la sección Fuente [de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) datos.
 
-1. Escriba un **[!UICONTROL Nombre de criterio]**.
+1. Fill in the information in the [Content](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) section.
 
-   Es el nombre “interno” que se usa para describir los criterios. Por ejemplo, quizá use el nombre “Productos con más margen” para los criterios, pero es probable que no quiera que ese título se muestre al público. Consulte el paso siguiente para establecer el título que se presenta al público.
+1. (Condicional) Rellene la información de la sección Similitud [de contenido](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) .
 
-   ![Sección Información básica](/help/c-recommendations/c-algorithms/assets/basic-information.png)
+1. (Condicional) Rellene la información de la sección Reglas [de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) inclusión.
 
-1. Escriba un **[!UICONTROL Título]** que se mostrará a la audiencia para que aparezca en la página para todas las recomendaciones que usen este criterio.
+1. (Rellene la información de la sección Ponderación [de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) atributo.
 
-   Por ejemplo, una idea es mostrar “Las personas que han visto esto también vieron” o “Productos similares” cuando use estos criterios para mostrar recomendaciones.
-
-1. Escriba una breve **[!UICONTROL Descripción]** del criterio.
-
-   La descripción debería ayudarle a identificar los criterios y podría incluir información sobre el propósito de los mismos.
-
-1. Seleccione un sector en función de los objetivos de la actividad de recomendaciones.
-
-   | Sector | Objetivo |
-   |--- |--- |
-   | Venta minorista/Comercio electrónico | Conversión que termina en compra |
-   | Generación de vanguardia/B2B/Servicios financieros | Conversión sin compra |
-   | Medios/Publicación | Participación |
-
-   Otras opciones de criterios cambiarán según el sector que seleccione.
-
-1. Seleccione un **[!UICONTROL Tipo de página]**.
-
-   Puede seleccionar varios tipos de página.
-
-   En conjunto, el sector y los tipos de página se usan para categorizar los criterios guardados, facilitando su reutilización para otras actividades de [!DNL Recommendations].
-
-1. Seleccione una **[!UICONTROL Clave de recomendación]**.
-
-   Para obtener más información sobre cómo basar los criterios en una clave, consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
-
-1. Seleccione la **[!UICONTROL Lógica de recomendación]**.
-
-   Para obtener más información sobre opciones de lógica de recomendación, consulte [Criterios](../../c-recommendations/c-algorithms/algorithms.md).
-
-   >[!NOTE]
-   >
-   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
-
-## Contenido {#content}
-
-Content rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). Es posible que algunos criterios de [!DNL Recommendations] devuelvan menos recomendaciones que las que exige el diseño. Por ejemplo, si el diseño tiene ranuras para cuatro artículos, pero los criterios hacen que solo se recomienden dos artículos, puede dejar las ranuras restantes vacías o puede utilizar las recomendaciones de copia de seguridad para rellenar las ranuras adicionales.
-
-![Sección Contenido](/help/c-recommendations/c-algorithms/assets/content.png)
-
-1. (Opcional) Deslice el conmutador Representación **[!UICONTROL de diseño]** parcial a la posición &quot;activado&quot;.
-
-   Se rellenarán tantas ranuras como sea posible, pero la plantilla de diseño puede incluir espacio en blanco para las ranuras restantes. Si esta opción está deshabilitada y no hay suficiente contenido para llenar todas las ranuras disponibles, no se mostrarán las recomendaciones y se mostrará el contenido predeterminado.
-
-   Active esta opción si desea que las recomendaciones se proporcionen con ranuras en blanco. Utilice las recomendaciones de copia de seguridad si desea que las ranuras de recomendación se llenen con contenido basado en sus criterios con ranuras vacías llenas de contenido popular o similar del sitio, como se explica en el paso siguiente.
-
-1. (Opcional) Deslice el conmutador **[!UICONTROL Mostrar copia de seguridad de Recommendations]** a la posición &quot;activado&quot;.
-
-   Llene los espacios vacíos restantes del diseño con una selección aleatoria de los productos más vistos de todo el sitio.
-
-   El uso de recomendaciones de copia de seguridad garantiza que el diseño de la recomendación llene todos los espacios disponibles. Supongamos que tiene un diseño de 4 x 1, como se ilustra a continuación:
-
-   ![Diseño de 4 x 1](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   Supongamos que los criterios hacen que solo se recomienden dos elementos. Si activa la opción Representación [!UICONTROL de diseño] parcial, las dos primeras ranuras se rellenan, pero las dos restantes permanecen vacías. Sin embargo, si activa la opción [!UICONTROL Mostrar copia de seguridad de Recommendations] , las dos primeras ranuras se rellenan según los criterios especificados y las dos ranuras restantes se rellenan según las recomendaciones de copia de seguridad.
-
-   La siguiente matriz muestra el resultado que observará al utilizar las opciones Representación [!UICONTROL de diseño] parcial y [!UICONTROL Copia de seguridad de Recommendations] :
-
-   | Procesamiento de diseño parcial | Recomendaciones de copia de seguridad | Resultado |
-   |--- |--- |--- |
-   | Deshabilitado | Deshabilitado | Si se devuelven menos recomendaciones que las que llama el diseño, el diseño de recomendaciones se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
-   | Habilitado | Deshabilitado | Se procesa el diseño, pero puede incluir espacio en blanco si se devuelven menos recomendaciones que las que llama el diseño. |
-   | Habilitado | Habilitado | Las recomendaciones de copia de seguridad llenarán “ranuras” de diseño disponible, procesando completamente el diseño.<br>Si la aplicación de reglas de inclusión a las recomendaciones de copia de seguridad restringe el número de recomendaciones de copia de seguridad correspondiente al punto de que no se pueda llenar el diseño, se procesa parcialmente el diseño.<br>Si el criterio no devuelve ninguna recomendación, y las reglas de inclusión restringen las recomendaciones de copia de seguridad a cero, el diseño se reemplaza por el Contenido predeterminado. |
-   | Deshabilitado | Habilitado | Las recomendaciones de copia de seguridad llenarán “ranuras” de diseño disponible, procesando completamente el diseño.<br>Si la aplicación de reglas de inclusión a las recomendaciones de copia de seguridad restringe el número de recomendaciones de copia de seguridad correspondiente al punto de que no se pueda llenar el diseño, el diseño se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
-
-   Para obtener más información, consulte [Uso de una recomendación](/help/c-recommendations/c-algorithms/backup-recs.md)de copia de seguridad.
-
-1. (Condicional) Si seleccionó **[!UICONTROL Mostrar copia de seguridad de Recommendations]** en el paso anterior, puede activar **[!UICONTROL Aplicar reglas de inclusión a las recomendaciones]** de copia de seguridad.
-
-   Las reglas de inclusión determinan qué artículos se incluyen en las recomendaciones. Las opciones disponibles dependen del sector.
-
-   For more details, see [Specify inclusion rules](#inclusion) below.
-
-1. (Opcional) Deslice el botón **[!UICONTROL Recomendar artículos]** comprados anteriormente a la posición &quot;activado&quot;.
-
-   Esta configuración se basa en `productPurchasedId`. El comportamiento predeterminado es no recomendar artículos comprados previamente. En la mayoría de los casos, no desea promocionar artículos que un cliente haya comprado recientemente. Es útil si vende artículos que la gente suele comprar solo una vez como, por ejemplo, canoas. Si vende artículos que las personas vuelven a comprar repetidamente, como champú u otros artículos personales, debe activar esta opción.
-
-## Reglas de inclusión {#inclusion}
-
-Existen varias opciones que le ayudan a reducir el número de artículos que aparecen en las recomendaciones. Puede utilizar reglas de exclusión al crear criterios o promociones.
-
-![Reglas de inclusión](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
-
-Las reglas de inclusión son opcionales, pero definir estos detalles permite controlar mejor los artículos que aparecen en las recomendaciones. Cada detalle que se configure reduce un poco más los criterios de visualización.
-
-Por ejemplo, puede que desee mostrar únicamente los zapatos de mujer que tengan un precio entre 25 y 45 dólares y de los que haya más de 50 pares disponibles en el inventario. También puede ponderar cada atributo para que los artículos que son más importantes para su negocio tengan más posibilidades de aparecer.
-
-Otro ejemplo: puede elegir mostrar ofertas de trabajo solo a quienes visiten su sitio desde determinadas ciudades, o tengan una determinada titulación universitaria.
-
-Las opciones de reglas de inclusión varían por sector. De forma predeterminada, las reglas de inclusión se aplican a recomendaciones de copia de seguridad.
-
->[!IMPORTANT]
->
->Debería usar las reglas de inclusión con cautela. Estos filtros son útiles si, por ejemplo, su organización ha establecido reglas que exigen que una marca no se recomiende al mismo tiempo que se está viendo otra marca. Sin embargo, esta función tiene un coste de oportunidad, ya que posiblemente pueda perder un porcentaje de alza al restringir la presentación de algunos elementos que normalmente se mostrarían con los criterios de la actividad.
-
-Las reglas de inclusión se unen mediante Y. Deben cumplirse todas las reglas para incluir un artículo en una recomendación.
-
-Para crear una regla de inclusión sencilla, como se mencionó, previamente, que muestre únicamente zapatos de mujer de entre 25 y 45 dólares y de los que haya más de 50 pares en el inventario, siga los pasos siguientes:
-
-1. Establezca un rango de precios para los productos que desea recomendar.
-1. Defina la cantidad mínima en inventario para los productos que desea recomendar.
-1. Configure la recomendación para que únicamente muestre los artículos cuando cumplan determinados criterios.
-
-   ![](assets/Recs_InclusionRules.png)
-
-   Puede especificar que los artículos se incluyan solamente cuando uno de los atributos de la lista cumpla o no una o varias condiciones especificadas.
-
-   Los evaluadores que hay disponibles dependen del valor que elija en la primera lista desplegable. Puede listar varios elementos. Estos artículos se evaluarán con O.
-
-   Si hay varias reglas, se combinan con una Y.
-
-   >[!NOTE]
-   >
-   >Esta opción limita los artículos mostrados en la recomendación. No afecta a las páginas en las que aparece la recomendación. Para limitar dónde se muestra la recomendación, seleccione las páginas en el Compositor de experiencias visuales.
-
-For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
-
-## Cargar CSV
-
-1. Seleccione la **[!UICONTROL Ubicación]** del archivo CSV.
+1. En la sección **[!UICONTROL Cargar CSV]** , seleccione la **[!UICONTROL ubicación]** del archivo CSV.
 
    ![Cargar sección CSV](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
 
