@@ -1,14 +1,14 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
 description: Utilice secuencias de hasta cinco criterios para ejercer el bueno control de los elementos que aparecen en las actividades de Adobe Target Recommendations.
 title: Crear secuencias de criterios
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 44%
+source-wordcount: '787'
+ht-degree: 36%
 
 ---
 
@@ -32,7 +32,9 @@ Las secuencias de criterios pueden variar según el tipo de página, como se mue
 | Página de productos | <ol><li>Basado en el elemento actual, para la misma marca</li><li>Basado en el elemento actual, para todas las marcas</li><li>Basado en similitudes de contenido</li><li>Basado en los productos más vendidos</li><li>Basado en los elementos más visitados en todo el sitio</li></ol> |
 | Página de inicio | <ol><li>Basado en la última compra del visitante </li><li>Basado en el elemento favorito del visitante</li><li>Basado en la categoría favorita del visitante</li><li>Basado en los productos más vendidos</li><li>Basado en lo más visitado en todo el sitio</li></ol> |
 
-## Acceso a la pantalla Crear secuencia de criterios
+## Creación de una secuencia de criterios
+
+Las secuencias de criterios se crean desde la pantalla [!UICONTROL Crear secuencia] de criterios.
 
 Existen varias maneras de llegar a la pantalla [!UICONTROL Crear secuencia de criterios]. Algunas opciones de pantalla dependen de cómo llega a la pantalla.
 
@@ -48,55 +50,19 @@ En los pasos siguientes se asume que accede a la pantalla [!UICONTROL Crear secu
 
    ![](assets/CreateCriteriaSequence.png)
 
-## Complete la sección Información
-
-1. Introduzca un **[!UICONTROL Nombre]** para la secuencia.
-
-   Es el nombre “interno” que se usa para describir la secuencia de criterios. Los visitantes de su sitio web no verán este nombre.
-
-   ![Sección Crear información de secuencia de criterios](/help/c-recommendations/c-algorithms/assets/criteria-sequence-info.png)
-
-1. Escriba un **[!UICONTROL Título genérico]** de orientación pública que se mostrará en la página si se utilizan varios criterios de la secuencia para llenar el diseño de [!UICONTROL Recommendations].
-
-   Por ejemplo, es posible que quiera reemplazar “Los clientes que han consultado esto, también han consultado...” por “Recomendado para ti” si el diseño incluye elementos basados en más de una clave de [!UICONTROL Recommendations].
-
-1. Escriba una breve **[!UICONTROL Descripción]** de la secuencia de criterios.
-
-   La descripción debería ayudarle a identificar la secuencia de criterios y podría incluir información sobre su propósito.
-
-1. Seleccione un sector en función de los objetivos de la actividad de recomendaciones.
-
-   | Sector | Objetivo |
-   |--- |--- |
-   | Venta minorista/Comercio electrónico | Conversión que termina en compra |
-   | Generación de vanguardia/B2B/Servicios financieros | Conversión sin compra |
-   | Medios/Publicación | Participación |
-
-   Se mostrará automáticamente su sector predeterminado.
-
-   Otras opciones de criterios cambiarán según el sector que seleccione.
-
-1. Seleccione un **[!UICONTROL Tipo de página]**.
-
-   Puede seleccionar varios tipos de página.
-
-   En conjunto, el sector y los tipos de página se usan para categorizar la secuencia de criterios guardada, lo que facilita su reutilización para otras actividades de [!UICONTROL Recommendations].
-
-## Crear secuencia {#sequence}
-
-El orden de secuencia define el orden en que se rellena un diseño. Si el criterio 1 no tiene suficientes recomendaciones para completar el diseño, las ranuras restantes se rellenarán con el criterio 2, etc.
+1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 
 1. En la sección Secuencia **[!UICONTROL de]** criterios, haga clic en **[!UICONTROL Añadir criterios]**.
 
+   El orden de secuencia define el orden en que se rellena un diseño. Si el criterio 1 no tiene suficientes recomendaciones para completar el diseño, las ranuras restantes se rellenarán con el criterio 2, etc.
+
    ![Añadir criterios](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. On the [!UICONTROL Select Criteria] screen, select a criteria.
+1. En la pantalla [!UICONTROL Seleccionar criterios] , seleccione un criterio y haga clic en **[!UICONTROL Añadir]**.
 
    Puede utilizar el cuadro de búsqueda y las listas desplegables de filtros para encontrar los criterios deseados.
 
    ![Seleccionar criterios](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
-
-1. Haga clic en **[!UICONTROL Agregar]**.
 
 1. (Opcional) Deslice el botón **[!UICONTROL Limitar el número de elementos devueltos]** para cambiar a la posición &quot;activado&quot; y, a continuación, especifique el número de elementos (entre 1 y 50).
 
@@ -114,27 +80,7 @@ El orden de secuencia define el orden en que se rellena un diseño. Si el criter
 
 1. Continúe agregando criterios adicionales a la secuencia. Puede agregar hasta cinco criterios en una secuencia.
 
-## Especificar contenido de copia de seguridad
-
-Elija qué contenido se devuelve cuando no hay suficientes recomendaciones disponibles para rellenar la plantilla de diseño.
-
-Cuando crea una secuencia de criterios, se ignora la configuración de representación de diseño parcial y recomendaciones secundarias para los criterios individuales que forman la secuencia. Para utilizar una representación de diseño parcial y recomendaciones secundarias, debe habilitarlas para la secuencia. Seleccione las conmutaciones adecuadas. Si decide admitir las recomendaciones secundarias, también puede decidir si desea aplicar las reglas de inclusión a dichas recomendaciones.
-
-![Configuración del contenido de copia de seguridad](/help/c-recommendations/c-algorithms/assets/backup-content-settings.png)
-
-1. (Opcional) Deslice el conmutador Representación **[!UICONTROL de diseño]** parcial a la posición &quot;activado&quot;.
-
-   Se rellenarán tantas ranuras como sea posible, pero la plantilla de diseño puede incluir espacio en blanco para las ranuras restantes.
-
-1. (Opcional) Deslice el conmutador **[!UICONTROL Backup Recommendations]** a la posición &quot;activado&quot;.
-
-   Llene los espacios vacíos restantes del diseño con una selección aleatoria de los productos más vistos de todo el sitio.
-
-   Para obtener más información, consulte [Uso de una recomendación](/help/c-recommendations/c-algorithms/backup-recs.md)de copia de seguridad.
-
-1. (Condicional) Si seleccionó **[!UICONTROL Copia de seguridad de Recommendations]** en el paso anterior, puede seleccionar **[!UICONTROL Aplicar reglas de inclusión a las recomendaciones]** de copia de seguridad.
-
-   For more information see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+1. Habilite las opciones [Contenido](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)de copia de seguridad.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
