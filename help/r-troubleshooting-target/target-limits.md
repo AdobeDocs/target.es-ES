@@ -6,10 +6,10 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 77%
+source-wordcount: '1021'
+ht-degree: 76%
 
 ---
 
@@ -72,7 +72,9 @@ El número máximo de entidades a las que se puede hacer referencia en un diseñ
 
 ## Atributos personalizados de entidad
 
-**Límite**: La longitud máxima depende del idioma.
+Puede incluir hasta 100 atributos de entidad personalizados
+
+**Límite**: La longitud máxima de caracteres depende del idioma.
 
 * 15 000 caracteres (un solo valor, uno y dos bytes)
 * 500 valores, 100 caracteres por valor (varios valores)
