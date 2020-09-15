@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -45,6 +45,12 @@ javascript:(
 )();
 ```
 
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+
+Por ejemplo:
+
+`https://www.mysite.com/?at_preview_token=`
+
 ## bookmarklet de control de calidad de actividad para at.js 2.*x* 
 
 A diferencia de at.js 1.*x*, at.js 2.*x* no admite cookies de terceros y el modo de control de calidad solo es fijo para el dominio de origen (mediante una cookie de origen configurada por at.js). Por lo tanto, en at.js 2.*x*, la sesión del modo de control de calidad se administra solamente en el lado del cliente y no se envían cookies del modo de control de calidad a Destinatario.
@@ -70,8 +76,3 @@ javascript:(
 
 Haga clic en el bookmarklet en la barra de herramientas del explorador.
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
-
-Por ejemplo:
-
-`https://www.mysite.com/?at_preview_token=`
