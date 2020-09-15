@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 30%
+source-wordcount: '2275'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 15 de septiembre | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión Target Standard/Premium 20.8.3, que incluye compatibilidad de Analytics para Destinatario (A4T) con actividades de Destinatario automático. En una versión anterior se agregó compatibilidad con actividades de asignación automática. |
+|  | [Compatibilidad de Analytics para Destinatario (A4T) con la asignación automática y las actividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)de Destinatario automático. | Se ha añadido información sobre la compatibilidad de A4T en actividades de Destinatario automático. |
+|  | [Bookmarklet de control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Se ha actualizado el texto para indicar que el método de forzar manualmente la salida del modo de control de calidad cargando una página en el sitio con el `at_preview_token` parámetro con un valor vacío se aplica a at.js 1.Solamente *x.* |
+|  | [Buscar en el catálogo](/help/c-recommendations/c-products/catalog-search.md) | Se ha actualizado todo el tema. |
 | 10 de septiembre | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión Target Standard/Premium 20.9.2 que incluye la siguiente función nueva: Controle los espacios de recomendaciones dentro de secuencias de criterios. |
 |  | [Crear secuencias de criterios](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Se añadió información sobre la función &quot;Limitar el número de elementos devueltos&quot;. |
 | 9 de septiembre | [Bookmarklet de control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Código JavaScript añadido para su uso con at.js 2.*x*. |
