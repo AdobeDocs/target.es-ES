@@ -5,21 +5,27 @@ title: Exclusiones en Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 28e97c03e21df246e208588d507d4af8d3695283
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 55%
+source-wordcount: '597'
+ht-degree: 45%
 
 ---
 
 
 # Exclusiones{#exclusions}
 
-Cree una exclusión en [!DNL Adobe Target Recommendations] para evitar que los productos o el contenido se recomienden a los visitantes.
+Cree una exclusión en [!DNL Adobe Target Recommendations] para evitar que los productos o el contenido se recomienden a los visitantes. Una exclusión es un subconjunto de productos o contenido que no se debe recomendar a los visitantes.
 
-Una exclusión es un subconjunto de productos o contenido que no se debe recomendar a los visitantes. Por ejemplo, puede utilizar exclusiones para evitar que los productos o el contenido se muestren en recomendaciones que se han interrumpido o que son de naturaleza delicada (como películas con una clasificación no adecuada para todos según las clasificaciones de contenido).
+Las exclusiones están disponibles en toda la cuenta. A diferencia de las colecciones, en las que se especifica una colección específica para cada experiencia al crear una actividad de [!UICONTROL Recommendations] , las exclusiones se aplican a todas las actividades de la cuenta. No hay opción para asignar un grupo de exclusión durante la creación de la actividad.
 
-Las exclusiones están disponibles en toda la cuenta.
+Algunos ejemplos de veces que se utilizarían exclusiones son:
+
+* Productos que se han interrumpido
+* El catálogo de otoño/invierno es ahora el único catálogo que debería estar presente en línea. Cualquier artículo del catálogo de verano ya no está disponible para la compra.
+* Elementos que podrían no ser adecuados para recomendar en la mayoría de las páginas o pantallas (productos para adultos, películas NC-17, etc.)
+* Productos con campos de metadatos incompletos (falta miniatura, precio u otros metadatos importantes)
+* Productos que nunca deben recomendarse (tal vez exista un SKU en el sistema para algo, pero no es un artículo que se puede comprar, o quizás sea un SKU falso para que el equipo de control de calidad simule una compra sin pedir realmente algo, etc.)
 
 >[!IMPORTANT]
 >
