@@ -5,10 +5,10 @@ title: Colecciones en Adobe Target
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 69%
+source-wordcount: '868'
+ht-degree: 61%
 
 ---
 
@@ -79,17 +79,29 @@ Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, pue
 >
 >La función Búsqueda avanzada diferencia entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que diferencia entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear colecciones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea un catálogo con la intención de obtener productos que contengan “vacaciones”, solo se devolverán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
 
+## Edición, copia o eliminación de una colección
+
+Pase el ratón sobre la colección deseada en la lista y, a continuación, haga clic en el icono correspondiente: editar, copiar o eliminar.
+
+![Iconos al pasar el ratón por encima de una colección](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+Puede copiar una colección existente para crear una colección de duplicados que podrá modificar. Esto le permite crear una exclusión similar con menos esfuerzo.
+
+Tenga en cuenta que las colecciones están disponibles en toda la cuenta. Asegúrese de tener esto en cuenta antes de eliminar una colección. No se pueden recuperar las colecciones eliminadas.
+
 ## Uso de una colección en una actividad de Recommendations
 
 1. Cree una colección mediante uno de los métodos mencionados anteriormente.
 
 1. Haga clic en **[!UICONTROL Actividades]** y [cree una nueva actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) o edite una actividad existente.
 
-1. En la página **[!UICONTROL Experiencias]** (paso 2 del flujo de trabajo guiado de tres partes), haga clic en una ubicación en la que haya colocado las recomendaciones y, a continuación, haga clic en **[!UICONTROL Cambiar colección]**.
+1. Después de seleccionar un criterio y un diseño, se muestra la página [!UICONTROL Opciones] donde se selecciona la colección deseada.
+
+   ![Elija la opción de colección](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. (Condicional) Para cambiar una configuración de colección existente, en la página **[!UICONTROL Experiencias]** (paso 2 del flujo de trabajo guiado de tres partes), haga clic en una ubicación en la que haya colocado las recomendaciones, haga clic en **[!UICONTROL Cambiar colección]** y seleccione la colección deseada.
 
    ![Cambiar colección, opción](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. En la página **[!UICONTROL Añadir colección]** , seleccione la colección que desee.
 
 ## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
