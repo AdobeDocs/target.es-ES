@@ -5,21 +5,21 @@ title: Colecciones en Adobe Target
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 99%
+source-wordcount: '769'
+ht-degree: 69%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Colecciones{#collections}
 
-Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación.
+Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación. Una colección se define especificando las condiciones que deben cumplir los elementos para formar parte de ella.
 
-Normalmente, una colección es un conjunto de artículos similares o relacionados, como una única colección de productos. Sin embargo, puede agrupar cualquier artículo en una categoría que tenga sentido para su negocio, como los productos de un determinado color o rango de precios, o los artículos que pueden resultar interesantes en una determinada área geográfica.
+Normalmente, una colección es un conjunto de artículos similares o relacionados, como una única colección de productos. Sin embargo, puede agrupar cualquier elemento en una categoría que tenga sentido para su negocio, como productos de una determinada gama de precios o color o artículos que puedan resultar interesantes en una zona geográfica determinada.
 
-Utilice las colecciones para organizar sus productos en bloques lógicos. Por ejemplo, si algunos artículos están disponibles en una región pero no en otra, puede crear una colección que excluya los artículos que no están disponibles en la región del visitante. También puede usar las colecciones para organizar los artículos por temporadas, o cualquier otro parámetro de organización que sea útil para su negocio.
+Utilice las colecciones para organizar sus productos en bloques lógicos. Por ejemplo, si algunos elementos están disponibles en una región pero no en otra, puede crear una colección que excluya los elementos que no están disponibles en la región del visitante. También puede usar las colecciones para organizar los artículos por temporadas, o cualquier otro parámetro de organización que sea útil para su negocio.
 
 Las [recomendaciones de copia de seguridad](/help/c-recommendations/c-algorithms/backup-recs.md) generadas para cada criterio dentro de la recomendación también utilizan esta colección. Por esta razón, en la recomendación de copia de seguridad solo se incluyen los artículos de la recomendación. Con las colecciones, tendrá la garantía de que solo se mostrarán aquellos productos que tenga sentido mostrar en una ubicación.
 
@@ -37,11 +37,15 @@ Al crear o editar una actividad de [!DNL Recommendations], el nombre de la colec
 
 ## Creación de una colección {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
-Puede crear una colección para organizar los productos que quiere mostrar en sus recomendaciones.
+Cree una colección para organizar los productos o el contenido que desee mostrar en las recomendaciones.
 
 1. Haga clic en **[!UICONTROL Recomendaciones]** > **[!UICONTROL Colecciones]** para visualizar la lista de colecciones existentes.
 
    ![Lista de colecciones](assets/collections_list.png)
+
+   La página [!UICONTROL Colecciones] muestra una lista de las colecciones existentes. Para crear nuevas colecciones, haga clic en el botón [!UICONTROL Crear colección] . También puede editar, copiar y eliminar colecciones existentes pasando el ratón sobre la colección deseada y haciendo clic en el icono deseado.
+
+   ![Iconos al pasar el ratón: editar, copiar y eliminar](/help/c-recommendations/c-products/assets/hover-icons.png)
 
    El “Número de elementos” registrado para cada colección en la vista de la lista [!UICONTROL Colecciones] es el número de productos que coinciden con las reglas para esa colección en el [grupo de hosts](/help/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Para cambiar el grupo de hosts predeterminado, consulte [Configuración](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
@@ -59,15 +63,15 @@ Puede crear una colección para organizar los productos que quiere mostrar en su
 
    Por ejemplo, la colección se puede crear en función de un ID de producto, una categoría, un margen o cualquier otro parámetro de la lista.
 
-   Puede añadir reglas para usar varios parámetros para definir una colección. Si hay varias reglas, debe unirlas mediante AND. Todas las reglas especificadas deben coincidir con la colección que se va a aplicar.
+   Puede añadir reglas para usar varios parámetros para definir una colección. Se unen varias reglas con un operador Y. Todas las reglas especificadas deben coincidir con la colección que se va a aplicar.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Crear una colección utilizando Búsqueda avanzada
 
-También puede crear colecciones utilizando Búsqueda avanzada en la página [Búsqueda en el catálogo](/help/c-recommendations/c-products/catalog-search.md) ([!UICONTROL Recommendations] > [!UICONTROL Búsqueda en el catálogo] > [!UICONTROL Búsqueda avanzada]).
+También puede crear colecciones utilizando Búsqueda avanzada en la página [Búsqueda en el catálogo](/help/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Recommendations] > [!UICONTROL Búsqueda en el catálogo] > [!UICONTROL Búsqueda avanzada]).
 
-![Guardar como cuadro de diálogo](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![Guardar como cuadro de diálogo](/help/c-recommendations/c-products/assets/save-as.png)
 
 Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, puede hacer clic en [!UICONTROL Guardar como] > [!UICONTROL Colección].
 
@@ -75,7 +79,19 @@ Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, pue
 >
 >La función Búsqueda avanzada diferencia entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que diferencia entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear colecciones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea un catálogo con la intención de obtener productos que contengan “vacaciones”, solo se devolverán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
 
-## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05) ![Insignia de tutorial](/help/assets/tutorial.png)
+## Uso de una colección en una actividad de Recommendations
+
+1. Cree una colección mediante uno de los métodos mencionados anteriormente.
+
+1. Haga clic en **[!UICONTROL Actividades]** y [cree una nueva actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) o edite una actividad existente.
+
+1. En la página **[!UICONTROL Experiencias]** (paso 2 del flujo de trabajo guiado de tres partes), haga clic en una ubicación en la que haya colocado las recomendaciones y, a continuación, haga clic en **[!UICONTROL Cambiar colección]**.
+
+   ![Cambiar colección, opción](/help/c-recommendations/c-products/assets/change-collection.png)
+
+1. En la página **[!UICONTROL Añadir colección]** , seleccione la colección que desee.
+
+## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
