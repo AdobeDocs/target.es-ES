@@ -5,10 +5,10 @@ title: Crear un diseño
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 43%
+source-wordcount: '988'
+ht-degree: 36%
 
 ---
 
@@ -36,7 +36,11 @@ Esta ilustración muestra un diseño personalizado:
 
 Puede crear un diseño durante el proceso de creación de actividades desde el Compositor de experiencias visuales (VEC) o desde la biblioteca de diseño fuera de la creación de actividades. Las siguientes secciones suponen que está creando diseños desde la biblioteca, pero los pasos son similares.
 
-## Crear un diseño basado en un diseño predeterminado
+## Creación de diseños
+
+Puede crear un diseño basado en un diseño predeterminado o puede crear un diseño personalizado.
+
+### Crear un diseño basado en un diseño predeterminado
 
 1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Diseños]** para mostrar la biblioteca [!UICONTROL Diseños] .
 
@@ -56,9 +60,9 @@ Puede crear un diseño durante el proceso de creación de actividades desde el C
 
 1. (Condicional) Edite el **[!UICONTROL código]** de diseño como desee.
 
-   Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Puede encontrar información sobre Velocity en [](https://velocity.apache.org)https://velocity.apache.org.
+   Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Puede encontrar información sobre Velocity en [https://velocity.apache.org](https://velocity.apache.org) y en [Personalizar un diseño con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Un diseño puede ser HTML o no HTML. De forma predeterminada, los diseños HTML se encapsulan con una <div> etiqueta para permitir el seguimiento de clics en un entorno web. Los diseños que no son HTML son para entornos que no son de web donde los clics no se pueden rastrear.
+   Un diseño puede ser HTML o no HTML. De forma predeterminada, los diseños HTML se encapsulan con una <div> etiqueta para permitir el seguimiento de clics en un entorno web. Los diseños que no son HTML son para entornos que no son de web donde los clics no se pueden rastrear. Deslice el conmutador Diseño  HTML a la posición &quot;desactivado&quot; para utilizar código que no sea HTML.
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ Puede crear un diseño durante el proceso de creación de actividades desde el C
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Crear un diseño personalizado
+### Crear un diseño personalizado
 
 1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Diseños]** para mostrar la biblioteca [!UICONTROL Diseños] .
 
@@ -81,6 +85,18 @@ Puede crear un diseño durante el proceso de creación de actividades desde el C
    Consulte la información del paso 4 anterior para obtener más información.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+## Editar, copiar o eliminar un diseño
+
+Recuerde que no puede editar ni copiar un diseño predeterminado; solo puede copiar diseños predeterminados.
+
+Pase el ratón sobre el diseño deseado en la biblioteca de [!UICONTROL diseño] y, a continuación, haga clic en el icono correspondiente: editar, copiar o eliminar.
+
+![Iconos del ratón sobre un diseño](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+Puede copiar un diseño existente para crear un diseño de duplicado que luego pueda modificar. Esto le permite crear un diseño similar con menos esfuerzo.
+
+Tenga en cuenta que los diseños están disponibles en toda la cuenta. Asegúrese de tener esto en cuenta antes de eliminar un diseño. Los diseños eliminados no se pueden recuperar.
 
 ## Ejemplo de JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
