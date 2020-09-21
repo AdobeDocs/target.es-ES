@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;frequently asked questions;faq
-description: Lista de las preguntas más frecuentes (FAQ) sobre diseños de recomendaciones.
+description: Lista de las preguntas más frecuentes sobre los diseños de recomendaciones de Adobe Target.
 title: Preguntas más frecuentes sobre diseño
 feature: designs
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) FAQ de diseño{#design-faq}
 
-Lista de las preguntas más frecuentes (FAQ) sobre diseños de recomendaciones.
+List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
 
 ## El precio del elemento recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?
 
 De forma predeterminada, los valores numéricos (como `entity.value`) que se devuelven en plantillas de diseño no mostrarán ceros finales tras la coma decimal. Por ejemplo, si un elemento es de 35 $, `entity.value` es igual a 35 y solo se muestra 35 en la página, no 35 $.
 
-Hay dos opciones disponibles para resolver este problema.
+Hay dos opciones disponibles para resolver este problema:
 
 * Puede utilizar Secuencias de comandos de Velocity o Javascript para aplicar formato al valor devuelto.
 
@@ -37,7 +37,7 @@ El ID de categoría no se puede mostrar en el diseño. Dado que es posible almac
 
 ## ¿Cómo debo cambiar un diseño para obtener una actualización instantánea?   {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-La alteración del diseño que se está usando actualmente tarda unos minutos en actualizarse. Para cambiar el diseño de forma instantánea, cree un nuevo diseño, selecciónelo en la campaña y guarde la recomendación.
+La alteración del diseño que se está usando actualmente tarda unos minutos en actualizarse. Para cambiar el diseño instantáneamente, cree un nuevo diseño, selecciónelo en la actividad y guarde la recomendación.
 
 ## ¿Cómo se puede capturar información esencial para mostrarla en el diseño? Ejemplo: si queremos visualizar la categoría del producto principal, ¿se codifica el valor en el diseño Velocity?   {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
@@ -49,7 +49,7 @@ La versión 1.7, sin herramientas ni bibliotecas adicionales agregadas. La funci
 
 ## ¿Cómo puedo sustituir un valor de entidad existente por un espacio en blanco? Por ejemplo, un entity.message de artículo debe borrarse cuando finaliza la promoción. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Parece ser que se consigue enviando un espacio de no separación de JavaScript. Haga que los programadores envíen `\u00A0` como el valor. Ejemplo: `entity.message=\u00A0`. Puede considerar la posibilidad de que este sea el valor predeterminado cuando no haya ningún valor presente, en lugar de un cero.
+Enviar un espacio de no separación de JavaScript parece hacer esto. Haga que los programadores envíen `\u00A0` como el valor. Ejemplo: `entity.message=\u00A0`. Puede considerar la posibilidad de que este sea el valor predeterminado cuando no haya ningún valor presente, en lugar de un cero.
 
 ## ¿Puedo usar un script de perfil en un diseño de Recommendations?{#section_6BD55203984A4D80A0C6F241AD7806DF}
 
