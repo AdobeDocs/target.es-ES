@@ -5,10 +5,10 @@ title: 'Después de crear la actividad de Recommendations, Prueba A/B o Segmenta
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Los resultados de estado incluyen lo siguiente, como se ilustra a continuación:
 
 ## ¿Cuánto tiempo tardará el algoritmo en ejecutarse?
 
-Después de guardar una actividad que contiene un criterio, calcula las recomendaciones en función de la colección, los criterios, el diseño y las promociones seleccionados. [!DNL Target] Este cálculo tarda unos minutos en realizarse. El periodo de tiempo difiere según la lógica de recomendación, el intervalo de datos, el número de elementos del catálogo, la cantidad de datos de comportamiento que sus clientes hayan generado y la fuente de datos de comportamiento seleccionada.
+Después de guardar una actividad que contiene un criterio, calcula las recomendaciones en función de la colección, los criterios, el diseño y las promociones seleccionados. [!DNL Target] Este cálculo tarda algún tiempo en realizarse y el intervalo de tiempo varía según la lógica de recomendación seleccionada, el intervalo de datos, el número de artículos en el catálogo, la cantidad de datos de comportamiento que han generado los clientes y la fuente de datos de comportamiento seleccionada.
 
 La fuente de datos de comportamiento tiene el impacto mayor sobre el tiempo de procesamiento, como se indica a continuación:
 
@@ -75,11 +75,11 @@ El uso de un vínculo de control de calidad le permite realizar previsualizacion
 
 >[!NOTE]
 >
->El modo de control de calidad de destinatario es &quot;fijo&quot; y se guarda en una cookie. Si no sale del modo de control de calidad, seguirá viendo los resultados del control de calidad en todo el sitio. Para salir del modo de control de calidad, utilice el [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* El modo de control de calidad de destinatario es &quot;fijo&quot; y se guarda en una cookie. Si no sale del modo de control de calidad, seguirá viendo los resultados del control de calidad en todo el sitio. Para salir del modo de control de calidad, utilice el [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+   >
+   >
+* Mientras esté en modo de control de calidad, explorar el sitio no afectará a los artículos [!UICONTROL vistos] recientemente o a los artículos [!UICONTROL comprados]recientemente en el perfil&quot;. Este comportamiento se produce por diseño para evitar la contaminación no intencionada de los datos de comportamiento de producción. Para realizar la previsualización de resultados a partir de elementos [!UICONTROL vistos] recientemente o criterios de Recommendations [!UICONTROL basados en el] usuario, primero navegue por el sitio fuera del modo de control de calidad y, a continuación, utilice la misma sesión para abrir un vínculo al modo de control de calidad.
 
->[!NOTE]
->
->Mientras esté en modo de control de calidad, explorar el sitio no afectará a los artículos [!UICONTROL vistos] recientemente o a los artículos [!UICONTROL comprados]recientemente&quot;. Este comportamiento se produce por diseño para evitar la contaminación no intencionada de los datos de comportamiento de producción. Para realizar la previsualización de resultados a partir de elementos [!UICONTROL vistos] recientemente o criterios de Recommendations [!UICONTROL basados en el] usuario, primero navegue por el sitio fuera del modo de control de calidad y, a continuación, utilice la misma sesión para abrir un vínculo al modo de control de calidad.
 
 ## Uso de las recomendaciones de descarga en CSV para previsualización
 
