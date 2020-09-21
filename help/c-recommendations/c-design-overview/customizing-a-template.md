@@ -1,21 +1,21 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación.
+description: Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación en Adobe Target Recommendations.
 title: Personalización de un diseño mediante Velocity
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Personalización de un diseño mediante Velocity{#customize-a-design-using-velocity}
 
-Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación.
+Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
 ## Descripción general de Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -128,12 +128,12 @@ También puede usar `algorithm.name` y `algorithm.dayCount` como variables en lo
 
 De forma predeterminada, las plantillas Velocity tratan todos los atributos de entidad como valores de cadena. Es posible que desee tratar un atributo de entidad como un valor numérico para realizar una operación matemática o compararlo con otro valor numérico. Para tratar un atributo de entidad como un valor numérico, siga estos pasos:
 
-1. Declare una variable ficticia e inicialícela en un valor de doble o entero arbitrario
-1. Asegúrese de que el atributo de entidad que desea utilizar no está en blanco (necesario para que el analizador de plantillas de Destinatario Recommendations valide y guarde la plantilla)
-1. Pase el atributo entity al `parseInt` método o `parseDouble` en la variable ficticia que ha creado en el paso 1 para convertir la cadena en un valor de doble o entero
-1. Realizar la operación matemática o la comparación en el nuevo valor numérico
+1. Declare una variable ficticia e inicialícela en un entero o valor de doble arbitrario.
+1. Asegúrese de que el atributo de entidad que desea utilizar no está en blanco (necesario para que el analizador de plantillas de Destinatario Recommendations valide y guarde la plantilla).
+1. Pase el atributo entity al método `parseInt` o `parseDouble` en la variable ficticia que ha creado en el paso 1 para convertir la cadena en un valor entero o de doble.
+1. Realice la operación matemática o comparación en el nuevo valor numérico.
 
-**Ejemplo: Cálculo de un precio de descuento**
+### Ejemplo: Cálculo de un precio de descuento
 
 Supongamos que desea reducir el precio mostrado de un artículo en 0,99 $ para aplicar un descuento. Puede utilizar el siguiente método para lograr este resultado:
 
@@ -148,7 +148,7 @@ Supongamos que desea reducir el precio mostrado de un artículo en 0,99 $ para a
 #end
 ```
 
-**Ejemplo: Selección del número de estrellas que se mostrarán en función de la clasificación de un elemento**
+### Ejemplo: Selección del número de estrellas que se mostrarán en función de la clasificación de un elemento
 
 Supongamos que desea mostrar un número adecuado de estrellas en función de la clasificación de cliente promedio numérica de un artículo. Puede utilizar el siguiente método para lograr este resultado:
 
@@ -173,7 +173,7 @@ Supongamos que desea mostrar un número adecuado de estrellas en función de la 
 #end
 ```
 
-**Ejemplo: Calcular el tiempo en horas y minutos en función de la longitud de un elemento en minutos**
+### Ejemplo: Calcular el tiempo en horas y minutos en función de la longitud de un elemento en minutos
 
 Supongamos que almacena la duración de una película en minutos, pero desea mostrar la duración en horas y minutos. Puede utilizar el siguiente método para lograr este resultado:
 
