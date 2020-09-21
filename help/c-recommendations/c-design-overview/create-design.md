@@ -5,10 +5,10 @@ title: Crear un diseño
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 36%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,7 @@ Puede crear un diseño basado en un diseño predeterminado o puede crear un dise
 
    Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Puede encontrar información sobre Velocity en [https://velocity.apache.org](https://velocity.apache.org) y en [Personalizar un diseño con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Un diseño puede ser HTML o no HTML. De forma predeterminada, los diseños HTML se encapsulan con una <div> etiqueta para permitir el seguimiento de clics en un entorno web. Los diseños que no son HTML son para entornos que no son de web donde los clics no se pueden rastrear. Deslice el conmutador Diseño  HTML a la posición &quot;desactivado&quot; para utilizar código que no sea HTML.
+   Un diseño puede ser HTML o no HTML. De forma predeterminada, los diseños HTML se encapsulan con una `<div>` etiqueta para permitir el seguimiento de clics en un entorno web. Los diseños que no son HTML son para entornos que no son de web donde los clics no se pueden rastrear. Deslice el conmutador Diseño  HTML a la posición &quot;desactivado&quot; para utilizar código que no sea HTML.
 
    >[!NOTE]
    >
