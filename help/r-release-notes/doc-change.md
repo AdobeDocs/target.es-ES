@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '2361'
+source-wordcount: '2396'
 ht-degree: 29%
 
 ---
@@ -23,7 +23,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 24 de septiembre | [Bookmarklet de control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Se ha actualizado el código del bookmarklet de control de calidad de actividad para at.js 2.*x*. |
-|  | [Buscar en el catálogo](/help/c-recommendations/c-products/catalog-search.md#faq) | Se añadió una sección de preguntas más frecuentes. |
+|  | [Buscar en el catálogo](/help/c-recommendations/c-products/catalog-search.md#faq) | Añadió una nota sobre la búsqueda en un atributo personalizado con un valor numérico. |
+|  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se añadió la siguiente pregunta frecuente: &quot;¿Por qué la búsqueda en el catálogo no muestra los resultados correctos al buscar en un atributo personalizado con un valor numérico?&quot; |
 |  | [Cómo funciona Target](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | Se han actualizado las ubicaciones del clúster de Destinatario y del clúster central de Destinatario que aparecen en &quot;La red de Edge&quot;. |
 | 23 de septiembre | [Uso de un servidor de seguimiento de Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | Se ha actualizado todo el tema con información de las herramientas para desarrolladores [!DNL Adobe Experience Platform Debugger] y del explorador. |
 |  | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Se ha actualizado la fila &quot;user.header(&#39;x-forwarded-for&#39;)&quot; para indicar que &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; ha quedado obsoleto. |
