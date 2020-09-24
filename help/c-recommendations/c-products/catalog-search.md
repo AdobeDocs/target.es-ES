@@ -5,10 +5,10 @@ title: Buscar en el catálogo en Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 21%
+source-wordcount: '1050'
+ht-degree: 19%
 
 ---
 
@@ -169,3 +169,13 @@ Puede modificar temporalmente las columnas activas en la página Búsqueda [!UIC
    También puede hacer clic en el icono Eliminar ( x ) al lado de la columna que desee mover de la sección activa a inactiva.
 
 Tenga en cuenta que los cambios que realice solo se aplicarán a la sesión actual.
+
+## Preguntas frecuentes {#faq}
+
+Consulte las siguientes preguntas más frecuentes para obtener ayuda con la función Búsqueda [!UICONTROL de] catálogos:
+
+### ¿Por qué la búsqueda en el catálogo no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
+
+Cuando se realiza una búsqueda de catálogo en un atributo personalizado con un valor numérico, los resultados tratan el atributo personalizado como un tipo de cadena en lugar de un valor numérico.
+
+Actualmente, no hay ninguna funcionalidad disponible que permita a los clientes cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) de cliente que haga referencia a los atributos que necesitan que el tipo cambie de cadena a numérico.
