@@ -5,10 +5,10 @@ title: Preguntas más frecuentes sobre Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 84%
+source-wordcount: '2019'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 84%
 # ![PREMIUM](/help/assets/premium.png) Preguntas más frecuentes sobre Recommendations{#recommendations-faq}
 
 Lista de las preguntas más frecuentes (FAQ) sobre las actividades de Adobe Target Recommendations.
+
+## ¿Por qué la búsqueda en el catálogo no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
+
+Cuando se realiza una búsqueda de catálogo en un atributo personalizado con un valor numérico, los resultados tratan el atributo personalizado como un tipo de cadena en lugar de un valor numérico.
+
+Actualmente, no hay ninguna funcionalidad disponible que permita a los clientes cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) de cliente que haga referencia a los atributos que necesitan que el tipo cambie de cadena a numérico.
 
 ## ¿Cuánto tiempo llevará ver las actualizaciones de los elementos del catálogo en mi sitio?
 
