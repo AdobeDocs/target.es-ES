@@ -1,14 +1,14 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: Si utiliza una versión antigua de at.js o mbox.js, debe especificar un servidor de seguimiento de Analytics para las actividades que usan Analytics for Target (A4T).
 title: Uso de un servidor de seguimiento de Analytics
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
+source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 24%
+source-wordcount: '698'
+ht-degree: 27%
 
 ---
 
@@ -44,6 +44,7 @@ El depurador se debería visualizar en una página donde se vaya a publicar la a
    * **Implementaciones** de CNAME: `sstats.adobe.com` es un ejemplo de un servidor de seguimiento de origen CNAME para una solicitud https (segura). `stats.adobe.com` es un ejemplo de una solicitud propia de CNAME para una página http (no segura).
 
 1. Copie todo el contenido del campo.
+
 1. En la sección **[!UICONTROL Configuración de informes]** de la pantalla **[!UICONTROL Objetivos y configuración]****[!UICONTROL de la actividad, pegue la información sobre el servidor de seguimiento en el campo Servidor de seguimiento.]**
 
    >[!NOTE]
@@ -69,4 +70,12 @@ Las herramientas para desarrolladores deben verse en una página en la que se en
    * **Servidor** de seguimiento de origen: Si el nombre de host de la solicitud coincide con el dominio en el que está, entonces es un servidor de seguimiento de origen. Por ejemplo, si está en `adobe.com`, `adobe.com` es el servidor de seguimiento de origen.
    * **Servidor** de seguimiento de terceros: Normalmente, un servidor de seguimiento de terceros es `[company].sc.omtrdc.net` donde la compañía es el nombre de la compañía, pero siempre termina en `sc.omtrdc.net`.
    * **Implementaciones** de CNAME: `sstats.adobe.com` es un ejemplo de un servidor de seguimiento de origen CNAME para una solicitud https (segura). `stats.adobe.com` es un ejemplo de una solicitud propia de CNAME para una página http (no segura).
+
+1. Copie todo el contenido del campo.
+
+1. En la sección **[!UICONTROL Configuración de informes]** de la pantalla **[!UICONTROL Objetivos y configuración]****[!UICONTROL de la actividad, pegue la información sobre el servidor de seguimiento en el campo Servidor de seguimiento.]**
+
+   >[!NOTE]
+   >
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
