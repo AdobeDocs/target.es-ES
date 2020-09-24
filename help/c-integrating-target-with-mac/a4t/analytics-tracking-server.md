@@ -5,9 +5,9 @@ title: Uso de un servidor de seguimiento de Analytics
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
+source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '649'
 ht-degree: 24%
 
 ---
@@ -60,9 +60,9 @@ Las herramientas para desarrolladores deben verse en una página en la que se en
 
 1. Click the **[!UICONTROL Network]** tab.
 
-1. Filtre para ‘/ss’ para mostrar las solicitudes de análisis.
+1. Filtre para `/ss,` mostrar las solicitudes de análisis.
 
-   ![Herramientas para desarrolladores de Chrome](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
+   ![Herramientas de desarrollo de Chrome con búsqueda /ss](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    El servidor de seguimiento es el nombre de host de la solicitud.
 
