@@ -4,7 +4,7 @@ title: Documentación de producto de Adobe Target
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 60%
@@ -18,7 +18,7 @@ ht-degree: 60%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 23 De Septiembre De 2020 ([Ver Qué Cambió](r-release-notes/doc-change.md))**
+**Última actualización: 24 De Septiembre De 2020 ([Ver Qué Cambió](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
