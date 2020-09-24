@@ -5,7 +5,7 @@ title: Uso de un servidor de seguimiento de Analytics
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 27%
@@ -13,9 +13,9 @@ ht-degree: 27%
 ---
 
 
-# Uso de un servidor de seguimiento de Analytics{#use-an-analytics-tracking-server}
+# Uso de un servidor de seguimiento de Analytics
 
-If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
+If you are using an older version of at.js or mbox.js, you must specify an Analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ If you are using an older version of at.js or mbox.js, you must specify an analy
 >
 >El [!DNL Target] equipo admite at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que está ejecutando una versión compatible. For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
+To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an Analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
 
-## Obtenga el servidor de seguimiento de análisis mediante Adobe Experience Platform Debugger
+## Obtenga el servidor de seguimiento de Analytics mediante Adobe Experience Platform Debugger
 
 El depurador se debería visualizar en una página donde se vaya a publicar la actividad para garantizar que se seleccione el servidor de seguimiento correcto. También se puede especificar un servidor de seguimiento predeterminado en cada cuenta. Póngase en contacto con el Servicio de atención al cliente para especificar o modificar el servidor predeterminado.
 
@@ -37,7 +37,7 @@ El depurador se debería visualizar en una página donde se vaya a publicar la a
 
 1. Haga clic en **[!UICONTROL Analytics]** en el menú de navegación de la izquierda.
 
-   The analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
+   The Analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
 
    * **Servidor** de seguimiento de origen: Si el nombre de host de la solicitud coincide con el dominio en el que está, entonces es un servidor de seguimiento de origen. Por ejemplo, si está en `adobe.com`, `adobe.com` es el servidor de seguimiento de origen.
    * **Servidor** de seguimiento de terceros: Normalmente, un servidor de seguimiento de terceros es `[company].sc.omtrdc.net` donde la compañía es el nombre de la compañía, pero siempre termina en `sc.omtrdc.net`.
@@ -51,7 +51,7 @@ El depurador se debería visualizar en una página donde se vaya a publicar la a
    >
    >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
-## Obtenga el servidor de seguimiento de Analytics mediante las herramientas para desarrolladores del explorador
+## Obtenga el servidor de seguimiento de Analytics mediante las herramientas para desarrolladores de su explorador
 
 Las herramientas para desarrolladores deben verse en una página en la que se enviará la actividad para asegurarse de seleccionar el servidor de seguimiento correcto. También se puede especificar un servidor de seguimiento predeterminado en cada cuenta. Póngase en contacto con el Servicio de atención al cliente para especificar o modificar el servidor predeterminado.
 
@@ -61,7 +61,7 @@ Las herramientas para desarrolladores deben verse en una página en la que se en
 
 1. Click the **[!UICONTROL Network]** tab.
 
-1. Filtre para `/ss,` mostrar las solicitudes de análisis.
+1. Filtre para `/ss,` mostrar las solicitudes de Analytics.
 
    ![Herramientas de desarrollo de Chrome con búsqueda /ss](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
