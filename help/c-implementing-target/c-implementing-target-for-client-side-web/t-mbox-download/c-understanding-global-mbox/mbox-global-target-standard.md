@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 45%
+ht-degree: 52%
 
 ---
 
@@ -45,6 +45,6 @@ Para usar un mbox global existente tanto para [!DNL Target] como para su impleme
 
 Se pueden usar las siguientes preguntas más frecuentes para solucionar problemas en la implementación global de mbox:
 
-### ¿Por qué no se carga el mbox global o por qué hay latencia en la carga del mbox global cuando se carga la página?*
+### ¿Por qué no se está cargando el mbox global, o por qué hay una latencia en la carga del mbox global cuando se carga la página?
 
 Asegúrese de que la referencia a at.js sea la primera llamada de JavaScript en la página. Para obtener otras soluciones a este problema, consulte Preguntas [más frecuentes sobre mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)global.
