@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,10 @@ La lista de grupos de informes que aparece en Target Standard/Premium es la list
 
 ## En los informes no veo tantos datos como esperaba. {#section_75002584FA63456D8D9086172925DD8D}
 
-Revise su implementación, especialmente en las páginas donde los visitantes cumplen los requisitos de las experiencias, y compruebe que los ID de datos suplementarios coincidan en las llamadas de [!DNL Target] y [!DNL Analytics]. En la llamada de [!DNL Target], el ID suplementario se encuentra en el parámetro `mboxMCSDID`. En la llamada de [!DNL Analytics], el ID suplementario se encuentra en el parámetro `sdid`.
+Revise su implementación, especialmente en las páginas donde los visitantes cumplen los requisitos de las experiencias, y compruebe que los ID de datos suplementarios coincidan en las llamadas de [!DNL Target] y [!DNL Analytics]. 
+
+* **at.js 1.x**: En la [!DNL Target] llamada, el ID suplementario se encuentra en el `mboxMCSDID` parámetro. En la llamada de [!DNL Analytics], el ID suplementario se encuentra en el parámetro `sdid`.
+* **at.js 2.x**: El ID suplementario se devuelve en el encabezado HTTP como valor para `experienceCloud.analytics.supplementalDataId`.
 
 Si no hay ningún ID de datos suplementario en la llamada de [!DNL Target], confirme que el archivo [!DNL VisitorAPI.js] se carga antes que [!DNL at.js] o [!DNL mbox.js]. Si no hay ningún ID de datos suplementario en la llamada de [!DNL Analytics], confirme que la llamada de [!DNL Target] se activa antes que la llamada de [!DNL Analytics].
 
