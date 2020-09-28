@@ -6,9 +6,9 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1379'
 ht-degree: 90%
 
 ---
@@ -70,7 +70,7 @@ Las comillas dobles se deben escapar. Por ejemplo, `"[""test"", ""value""]"` es 
 
 Puede incluir hasta 500 valores en un atributo multivalor.
 
-**Usar targetPageParams**
+### Usar targetPageParams
 
 En el siguiente ejemplo vemos cómo se utiliza  `targetPageParams`
 
@@ -89,7 +89,7 @@ function targetPageParams() {
 }
 ```
 
-**Usar CSV**
+### Usar CSV
 
 Puede administrar los archivos CSV sin procesar mediante un editor de texto o usar un programa de hojas de cálculo.
 
@@ -108,7 +108,7 @@ Al convertir al formato .csv, el programa de hojas de cálculo encierra entre co
 
 Tenga cuidado al editar directamente un archivo CSV de catálogo sin procesar.
 
-**Usar API**
+### Usar API
 
 Puede pasar atributos de varios valores mediante la API de Envío en un parámetro de mbox como un valor de cadena que contenga una matriz JSON de escape.
 
@@ -261,7 +261,6 @@ Ejemplo:
 
 Cuando se hace referencia a `entity.genre=["genre1","genre2"]` en un diseño como `$entity<N>.genre`, el resultado es `genre1, genre2`.
 
->[!MORELIKETHIS]
->
->* [Atributos de entidad](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## Temas relacionados:
 
+* [Atributos de entidad](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
