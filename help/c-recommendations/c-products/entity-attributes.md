@@ -5,7 +5,7 @@ title: Atributos de entidad
 feature: entities
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: ed4f132dbf1ac8614f4aac8bd29b39b3dfbce2fe
+source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 92%
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 # ![PREMIUM](/help/assets/premium.png) Atributos de entidad{#entity-attributes}
 
-Use los atributos de entidad para pasar la información de producto o contenido a ∂.
+Use los atributos de entidad para pasar la información de producto o contenido a [!DNL Adobe Target Recommendations].
 
 [!DNL Recommendations] envía el valor de `productId` o `productPurchasedId` (denominado `entity.id` en el código) que se utiliza en los algoritmos.
 
