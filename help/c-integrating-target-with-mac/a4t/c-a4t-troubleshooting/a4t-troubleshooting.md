@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '755'
 ht-degree: 90%
 
 ---
@@ -80,7 +80,7 @@ La lista de grupos de informes que aparece en Target Standard/Premium es la list
 Revise su implementación, especialmente en las páginas donde los visitantes cumplen los requisitos de las experiencias, y compruebe que los ID de datos suplementarios coincidan en las llamadas de [!DNL Target] y [!DNL Analytics]. 
 
 * **at.js 1.x**: En la [!DNL Target] llamada, el ID suplementario se encuentra en el `mboxMCSDID` parámetro. En la llamada de [!DNL Analytics], el ID suplementario se encuentra en el parámetro `sdid`.
-* **at.js 2.x**: El ID suplementario se devuelve en el encabezado HTTP como valor para `experienceCloud.analytics.supplementalDataId`.
+* **at.js 2.x**: En la [!DNL Target] llamada, el ID suplementario se devuelve en el encabezado HTTP como valor para `experienceCloud.analytics.supplementalDataId`. En la llamada de [!DNL Analytics], el ID suplementario se encuentra en el parámetro `sdid`.
 
 La forma más sencilla de examinar el ID suplementario es mediante Adobe Experience Platform Debugger.
 
