@@ -1,29 +1,32 @@
 ---
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
-description: Información para configurar los elementos que quiere que aparezcan en el informe. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
+description: Información para configurar los elementos que desea que aparezcan en el informe de Adobe Target. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
 title: Configuración de informes
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 84%
+source-wordcount: '1887'
+ht-degree: 70%
 
 ---
 
 
 # Configuración del informe{#report-settings}
 
-Información para configurar los elementos que quiere que aparezcan en el informe. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
+Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
 
-Para mostrar un informe, haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes.]**
+Para mostrar un informe:
 
-![Interfaz de usuario del informe](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+1. Haga clic en **[!UICONTROL Actividades]** y luego en una actividad de la lista.
+1. Haga clic en la pestaña **[!UICONTROL Informes]**.
+
+   ![Interfaz de usuario del informe](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Ajuste preestablecido de Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Puede guardar hasta diez ajustes preestablecidos de un informe de actividad después de configurarlo a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etcétera). Todos los usuarios de Target pueden visualizar, modificar y eliminar los distintos ajustes preestablecidos, independientemente de quién los haya creado.
+Puede guardar hasta diez ajustes preestablecidos de un informe de actividad después de configurarlo a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etcétera). All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
 
 También puede configurar un informe de actividad a su gusto y después guardar dicha configuración como su ajuste preestablecido predeterminado/favorito. Esta es la vista que se muestra cuando ve avanzar el informe de la actividad.
 
@@ -41,8 +44,8 @@ También puede configurar un informe de actividad a su gusto y después guardar 
 
    ![Cuadro de diálogo Nuevos ajustes preestablecidos](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Revise la información de las secciones Filtros y Configuración para asegurarse de que el informe esté configurado como desea y, a continuación, especifique el **[!UICONTROL Nombre del ajuste preestablecido]** (hasta 50 caracteres).
-1. (Condicional) Si desea que esta sea su vista de informe predeterminada/favorito, active la opción **[!UICONTROL Establecer como ajuste predeterminado]**.
+1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters).
+1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ### Seleccionar otro ajuste preestablecido
@@ -51,7 +54,7 @@ Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONT
 
 ![Lista desplegable de Ajustes preestablecidos](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-### Editar un ajuste preestablecido
+### Edición de un ajuste preestablecido
 
 1. Seleccione el ajuste preestablecido que desee editar.
 1. Edite la configuración del informe a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etc.).
@@ -75,7 +78,7 @@ Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONT
 
    ![Eliminar informe predeterminado](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Vuelva a hacer clic en **[!UICONTROL Eliminar]** para confirmar la acción.
+1. Vuelva a hacer clic en **[!UICONTROL Eliminar]** para confirmar la eliminación (los ajustes preestablecidos eliminados no se pueden recuperar).
 
 ### Gestión de errores preestablecidos
 
@@ -109,7 +112,7 @@ El cuadro Intervalo de fechas muestra el intervalo de fechas actual del informe.
 
 ![Calendario](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Seleccione las nuevas fechas **[!UICONTROL inicial]** y **[!UICONTROL final]** del informe. También puede utilizar las casillas de verificación **[!UICONTROL Desde el comienzo de la actividad]** y **[!UICONTROL Hasta el fin de la actividad.]**
+Seleccione las nuevas fechas **[!UICONTROL inicial]** y **[!UICONTROL final]** del informe. You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
 
 Haga clic **[!UICONTROL Fechas personalizadas]** para seleccionar intervalos de fecha predefinidos: Últimos 7 días, Últimos 15 días o Últimos 30 días. Estos intervalos de fechas predefinidos se pueden extender. Si la fecha inicial es menor que el número de días elegido, el calendario mostrará el intervalo a partir de la ficha inicial, pero se extenderá una vez que la fecha inicial sea anterior al número de días elegido a medida que se incremente la duración de la actividad.
 
@@ -121,7 +124,10 @@ Los informes tienen las siguientes restricciones de fechas:
 
 ## Configuración {#section_D99CE462107D45CABE0960F820E1E972}
 
-Haga clic en el icono del engranaje para definir la configuración del informe y, cuando termine, haga clic en **[!UICONTROL Guardar configuración]**.
+Para configurar los informes:
+
+1. Haga clic en el icono de engranaje y realice los cambios deseados (como se explica más abajo).
+1. Haga clic en **[!UICONTROL Guardar]** cuando termine.
 
 La siguiente ilustración muestra el cuadro de diálogo Configuración para una actividad A/B:
 
@@ -129,29 +135,45 @@ La siguiente ilustración muestra el cuadro de diálogo Configuración para una 
 
 Las opciones dependen del tipo de actividad que se seleccione:
 
-* **Metodología de contabilización:** seleccione la metodología deseada:
+### Metodología de contabilización
 
-   * Visitantes
-   * Visitas
-   * Impresiones de actividad
+Seleccione la metodología deseada:
 
-* **Control:** seleccione la experiencia de control que quiere usar para calcular y comparar alzas.
-* **Entorno:** seleccione el entorno (grupo de hosts) que se usará en el informe.  Para obtener más información, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
-* **Restablecer los datos del informe:** restablezca los datos del informe y elimine los datos antiguos. Los visitantes actuales permanecerán en la actividad.  Esta opción solo está disponible para los que tengan permisos de aprobador.
+* Visitantes
+* Visitas
+* Impresiones de actividad
 
-   >[!IMPORTANT]
-   >
-   >Esta es una acción permanente y no se puede deshacer.
+### Control
 
-* **Excluir valores extremos:** la opción [!UICONTROL Excluir valores extremos] se aplica solo a las actividades con tipos de métrica de ingresos y participación. Para obtener más información, consulte [Exclusión de pedidos extremos](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+seleccione la experiencia de control que quiere usar para calcular y comparar alzas.
+
+### Entorno
+
+Seleccione el entorno (grupo de hosts) que se usará para el informe. Para obtener más información, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### Restablecer datos del informe
+
+Restablezca los datos de sistema de informes para eliminar los datos antiguos. Los visitantes actuales permanecerán en la actividad.  This option is available only for those with [!UICONTROL Approver] permissions.
+
+>[!IMPORTANT]
+>
+>Esta es una acción permanente y no se puede deshacer.
+
+### Excluir valores extremos
+
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Para obtener más información, consulte [Exclusión de pedidos extremos](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Descargar {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Haga clic en el icono de descarga para descargar datos de informes en formato [!DNL .csv] para poder importarlos rápidamente a Excel, Access o cualquier otro programa de análisis de datos. Para obtener más información, consulte [Descarga de datos en un archivo CSV](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs.
+
+![Icono de descarga](/help/c-reports/c-report-settings/assets/download-icon.png)
+
+Para obtener más información, consulte [Descarga de datos en un archivo CSV](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Actualizar {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Haga clic en Actualizar para actualizar la tabla y la visualización de gráfico de un informe sin necesidad de actualizar toda la página, su configuración o su intervalo de fechas.
+Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and graph view without refreshing the entire page, its configuration, or its date range.
 
 ## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -203,23 +225,20 @@ Seleccione la visualización de gráfico que desee:
 
 * Media móvil
 * Alza media móvil
-* Diario Control
-* Objetivo diario
+* Diario
 * Alza diaria
 
 ![Promedio en ejecución del informe](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
->[!NOTE]
->
->El nombre de esta lista desplegable varía según la vista seleccionada, pero será una de las vistas enumeradas arriba.
+El nombre de esta lista desplegable varía según la vista seleccionada, pero será una de las vistas enumeradas arriba.
 
 ## Metodología de contabilización {#section_01B0ED5665C74AE1AE97259800190C3E}
 
 (solo disponible al visualizar el informe en Visualización de gráfico)
 
-Puede elegir la metodología de contabilización para los gráficos de los informes. Tenga en cuenta que esto no se aplica a las actividades de personalización automatizada (AP).
+Puede elegir la metodología de contabilización para los gráficos de los informes. Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
 
-Para acceder a la opción Metodología de contabilización, mientras ve un informe en modo de gráfico, haga clic en la lista desplegable **[!UICONTROL Mi objetivo principal]** y, a continuación, seleccione la metodología de contabilización.
+To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
 
 La metodología de contabilización será la misma que se seleccionó en el cuadro de diálogo [!UICONTROL Ajustes] descrito anteriormente.
 
