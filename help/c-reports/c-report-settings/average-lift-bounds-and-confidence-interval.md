@@ -1,46 +1,55 @@
 ---
 keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
-description: Los informes incluyen varios puntos de datos y representaciones de visualización que lo ayudan a comprender los límites de la elevación y el nivel de confianza asociado a su actividad. Esto le ayuda a determinar un ganador con mayor precisión.
+description: Los informes incluyen varios puntos de datos y representaciones de visualización que le ayudan a comprender los límites de alza y el nivel de confianza asociados con la actividad de Adobe Target para ayudarle a determinar un ganador con mayor precisión.
 title: Alza promedio, límites de alza e intervalo de confianza
 feature: report settings
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 98%
+source-wordcount: '807'
+ht-degree: 73%
 
 ---
 
 
-# Alza promedio, límites de alza e intervalo de confianza{#average-lift-lift-bounds-and-confidence-interval}
+# Alza promedio, límites de alza e intervalo de confianza
 
-Los informes incluyen varios puntos de datos y representaciones de visualización que lo ayudan a comprender los límites de la elevación y el nivel de confianza asociado a su actividad. Esto le ayuda a determinar un ganador con mayor precisión.
-
-## Alza promedio, límites de alza e intervalo de confianza {#topic_AFFDC672A8A34D028B100EF6BE5D8129}
-
-Los informes incluyen varios puntos de datos y representaciones de visualización que lo ayudan a comprender los límites de la elevación y el nivel de confianza asociado a su actividad. Esto le ayuda a determinar un ganador con mayor precisión.
+Los informes incluyen varios puntos de datos y representaciones de visualización que le ayudan a comprender los límites de alza y el nivel de confianza asociados con su [!DNL Adobe Target] actividad para ayudarle a determinar con mayor precisión un ganador.
 
 >[!NOTE]
 >
->Esta función solo está disponible cuando se visualizan informes en la Vista de tabla. Esta característica no está disponible para actividades que utilicen [Analytics como fuente de informes (A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>This feature is available only when viewing reports in [!UICONTROL Table] View. Esta característica no está disponible para actividades que utilicen [Analytics como fuente de informes (A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
-## Información general {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
+## Interpretar los datos {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-La información de aumento en la IU de informes de Target incluye:
-
-| Elemento | Detalles |
-|--- |--- |
-| Alza | El gran número y la flecha reflejan el valor esperado del alza. Este número es el punto medio del rango de los límites de aumento. La flecha de aumento esperada se muestra en gris hasta que la confianza pasa el 95 %. Después de este umbral, la flecha se muestra en rojo o verde en función del aumento negativo o positivo, respectivamente. |
-| Límites de alza | Este es el intervalo de confianza del 95 % del alza. Se muestra como un rango por debajo del alza promedio. Consulte el Cálculo de ejemplo para ver cómo se calculan estos límites de aumento. |
-| Gráfico de diagrama de cuadro | El gráfico de boxplot en la interfaz de Target representa el valor esperado y el intervalo de confianza del 95 % de la métrica de éxito en cuestión. Piense en ello como una forma gráfica de ver la información de aumento y los límites de aumento.<br>Hay algunas formas clave en las que Target le ayuda a interpretar la información de confianza, una de las cuales es el color. El gráfico muestra cualquier superposición en el intervalo de confianza de una experiencia específica con el intervalo de confianza del control en gris y cualquier rango de intervalo de confianza de una experiencia específica que esté por encima o por debajo del intervalo de confianza de control como el verde o el rojo, respectivamente.<br>La longitud de la barra del gráfico del cuadro representa cómo de grande es el intervalo de confianza de una manera fácil de entender. A medida que recoge más datos en su actividad, la barra se mueve y cambia. El intervalo de confianza se deriva de la varianza y el tamaño de la muestra (cantidad de visitantes). Cuanto menor sea la varianza y cuanto mayor sea el tamaño de la muestra, más limitado será el intervalo de confianza. |
-| Confianza | La confianza de una experiencia u oferta representa la probabilidad de que la elevación de la experiencia/oferta asociada sobre la experiencia/oferta de control sea “real” (no causada por una probabilidad aleatoria). Normalmente, el 95 % es el nivel de confianza recomendado para que el levantamiento se considere significativo. |
-
-En la ilustración siguiente, se muestra información sobre los límites de alza y el nivel de confianza:
+The following illustration shows [!UICONTROL Lift Bounds and Confidence Level] information:
 
 ![Informe de nivel promedio de alza y de confianza](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-## ¿Cómo se calculan los límites de aumento?  {#section_1D360781D972483693680BE0F07AEAD1}
+The lift and confidence information in the [!DNL Target] reporting UI includes:
+
+### Alza
+
+El gran número y la flecha reflejan el valor esperado del alza. Este número es el punto medio del rango de los límites de aumento. La flecha de aumento esperada se muestra en gris hasta que la confianza pasa el 95 %. Después de este umbral, la flecha se muestra en rojo o verde en función del aumento negativo o positivo, respectivamente.
+
+### Límites del alza
+
+Este es el intervalo de confianza del 95 % del alza. Se muestra como un rango por debajo del alza promedio. See [Example calculation](#example) below for an example of how these lift bounds are calculated.
+
+### Gráfico de diagrama de cuadros
+
+The boxplot graph in the [!DNL Target] interface represents the expected value and 95% confidence interval of the success metric in question. Piense en ello como una forma gráfica de ver la información de aumento y los límites de aumento.
+
+There are a few key ways [!DNL Target] helps you interpret the confidence information, one of which is color. El gráfico muestra cualquier superposición en el intervalo de confianza de una experiencia específica con el intervalo de confianza del control en gris y cualquier rango de intervalo de confianza de una experiencia específica que esté por encima o por debajo del intervalo de confianza de control como el verde o el rojo, respectivamente.
+
+La longitud de la barra del gráfico del cuadro representa cómo de grande es el intervalo de confianza de una manera fácil de entender. A medida que recoge más datos en su actividad, la barra se mueve y cambia. El intervalo de confianza se deriva de la varianza y el tamaño de la muestra (cantidad de visitantes). Cuanto menor sea la varianza y cuanto mayor sea el tamaño de la muestra, más limitado será el intervalo de confianza.
+
+### Confianza
+
+La confianza de una experiencia u oferta representa la probabilidad de que la elevación de la experiencia/oferta asociada sobre la experiencia/oferta de control sea “real” (no causada por una probabilidad aleatoria). Normalmente, el 95 % es el nivel de confianza recomendado para que el levantamiento se considere significativo.
+
+## How are lift bounds calculated? {#section_1D360781D972483693680BE0F07AEAD1}
 
 Los límites de elevación representan los intervalos de confianza del 95 % del aumento que tiene la experiencia u oferta específica sobre la experiencia u oferta de control. En términos generales, significa que el aumento real tiene aproximadamente un 95 % de posibilidades de estar entre estos límites.
 
@@ -63,7 +72,7 @@ Hay algunos cálculos adicionales para llegar a la entrada de nuestros límites 
    >
    >El error estándar para las actividades de métricas de éxito de ingresos se basa en la variación de muestra de los ingresos.
 
-## Cálculo de ejemplo {#section_35BD6FB7AFD346E28BA093147C248471}
+## Example calculation {#example}
 
 Consideremos una actividad de ejemplo con dos experiencias y los siguientes resultados:
 
@@ -98,12 +107,11 @@ Por lo tanto, los límites de alza para la Experiencia B serían:
 
 >[!NOTE]
 >
->Espere variaciones menores entre los cálculos manuales utilizando las fórmulas mencionadas anteriormente y los números mostrados en el informe. La diferencia se puede atribuir al hecho de que los números de las vistas de página utilizados en los cálculos manuales están redondeados. El alza esperada que se muestra en el informe de Target se basa en los números exactos obtenidos de la participación total y el recuento de la participación. Los números de participación se pueden obtener a través de la API de informe de rendimiento.
+>Espere variaciones menores entre los cálculos manuales utilizando las fórmulas mencionadas anteriormente y los números mostrados en el informe. La diferencia se puede atribuir al hecho de que los números de las vistas de página utilizados en los cálculos manuales están redondeados. The lift shown in the [!DNL Target] report is based on the exact numbers obtained from the total engagement and the engagement count. Los números de participación se pueden obtener a través de la API de informe de rendimiento.
 
-## ¿Cuándo no se muestran los límites de elevación?{#section_C5622E1E94684DAD937249B51A9E42CC}
+## When Are lift bounds not displayed? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
-En ciertos casos, Target no muestra límites de aumento:
+In certain cases, [!DNL Target] does not display lift bounds:
 
 * Para cualquier actividad, cuando el número total de visitas o visitantes es menor a 30.
-* Para las actividades de asignación automática, no se muestran límites de elevación hasta que una experiencia haya alcanzado un 60 % de confianza.
-
+* For [!UICONTROL Auto-Allocate] activities, no lift bounds are displayed until one experience has attained 60% confidence.
