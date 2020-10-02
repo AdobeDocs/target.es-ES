@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: d2c733b83fc0f53abd72e6279bb51e296d7a5840
+source-git-commit: e501100ba149472169f11072fd1663095dd40612
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1357'
 ht-degree: 21%
 
 ---
@@ -130,17 +130,19 @@ Los siguientes tipos de métricas no son compatibles como métricas de objetivo 
 
 ### Limitaciones y notas
 
-**Asignación automática y Destinatario automático**
+Algunas limitaciones y notas se aplican tanto a la asignación automática como al Destinatario automático. Otras limitaciones y notas se aplican a un tipo de actividad o al otro.
+
+#### Asignación automática y Destinatario automático
 
 * La fuente de sistema de informes no se puede cambiar de [!DNL Analytics] a [!DNL Target] o viceversa después de activar una actividad.
 * Aunque las métricas calculadas no son compatibles como métricas de objetivo principales, a menudo es posible lograr el resultado deseado seleccionando un evento personalizado como métrica de objetivo principal. Por ejemplo, si desea optimizar para una métrica como &quot;finalizaciones de formulario por visitante&quot;, seleccione un evento personalizado que corresponda a &quot;finalizaciones de formulario&quot; como métrica de objetivo principal. [!DNL Target] normaliza automáticamente las métricas de conversión por visita para tener en cuenta la distribución desigual del tráfico, por lo que no es necesario utilizar una métrica calculada para realizar la normalización.
 * [!DNL Target] utiliza el modelo de atribución de &quot;mismo toque&quot; en la implementación de A4T de asignación [!UICONTROL automática] .
 
-**Asignación automática**
+#### Asignación automática
 
 * [!UICONTROL Los modelos de asignación] automática siguen entrenándose cada dos horas, como de costumbre.
 
-**Segmentación automática**
+#### Segmentación automática
 
 * [!UICONTROL Los modelos de Destinatario] automático siguen entrenándose cada 24 horas, como de costumbre. Sin embargo, los datos de eventos de conversión procedentes de [!DNL Analytics] se retrasan de seis a 24 horas adicionales. Este retraso significa que la distribución del tráfico por [!DNL Target] rastreará los últimos eventos registrados en [!DNL Analytics]. Esto tendrá el mayor efecto en las primeras 48 horas después de activar una actividad por primera vez; el rendimiento de la actividad reflejará más de cerca el comportamiento [!DNL Analytics] de conversión después de transcurridos cinco días. Debe considerar el uso de la asignación  automática en lugar del Destinatario  automático para actividades de corta duración, donde la mayoría del tráfico se produce en los primeros cinco días de vida de la actividad.
 * Cuando se utilizan [!DNL Analytics] como fuente de datos para una actividad de Destinatario  automático, las sesiones se consideran finalizadas después de transcurridas seis horas. Las conversiones que se produzcan después de seis horas no se contarán.
