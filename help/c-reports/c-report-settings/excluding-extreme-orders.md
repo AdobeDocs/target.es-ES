@@ -5,17 +5,17 @@ title: Exclusión de valores extremos en informes de Adobe Target
 feature: report settings
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 88%
+source-wordcount: '343'
+ht-degree: 73%
 
 ---
 
 
-# Excluir valores extremos{#exclude-extreme-values}
+# Excluir valores extremos
 
-Puede excluir valores extremos para no afecten a los informes, de forma que algunos pedidos inusuales no afecten a los resultados de su actividad. Un ejemplo de pedido inusual puede ser el caso de un entrenador que compre uniformes para todo un equipo en lugar de compradores que compren uniformes de forma individual.
+You can exclude extreme values from affecting reports in [!DNL Adobe Target] so a few unusual orders don&#39;t affect your activity results. Un ejemplo de pedido inusual puede ser el caso de un entrenador que compre uniformes para todo un equipo en lugar de compradores que compren uniformes de forma individual.
 
 >[!NOTE]
 >
@@ -27,18 +27,14 @@ Un valor se considera extremo si cuenta con más de 3 desviaciones estándares +
 
 Por ejemplo, el filtro de valores extremos a menudo resulta útil cuando se usa RPV. RPV combina valor de pedido promedio y tasa de conversión, y a menudo expone la volatilidad de esas métricas. Si usa RPV y determina que los pedidos no parecen estar distribuidos normalmente, podría ver resultados más normales al aplicar el filtro de pedidos extremos.
 
-Cuando se marca un valor como extremo, su valor se reemplaza por el valor de pedido promedio de la experiencia para el último mes, excluidos los extremos. El pedido se marca también como extremo en el informe Detalles del pedido y en la descarga en formato CSV para los resultados diarios.
+Cuando se marca un valor como extremo, su valor se reemplaza por el valor de pedido promedio de la experiencia para el último mes, excluidos los extremos. The order is also marked as extreme in the [!UICONTROL Order Details] report and in the CSV download for daily results.
 
 **Para excluir valores extremos de los informes:**
 
 1. Abra una actividad que incluya tipos de métrica de ingresos o participación y, después, haga clic en la pestaña **[!UICONTROL Informes]**.
-1. Haga clic en el icono de engranaje.
-
-   ![Configuración de informes](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
-
-   Se abre el cuadro de diálogo Opciones de configuración [!UICONTROL de] informes.
+1. Haga clic en el icono de engranaje para mostrar el cuadro de diálogo **[!UICONTROL Configuración]** .
 
    ![Resultado del paso](assets/exclude_extreme_values.png)
 
-1. Active o desactive la opción **[!UICONTROL Excluir valores extremos]** según prefiera.
+1. Deslice el botón **[!UICONTROL Excluir valores]** extremos a la posición &quot;activado&quot; o &quot;desactivado&quot;, según desee.
 1. Haga clic en **[!UICONTROL Guardar]**.
