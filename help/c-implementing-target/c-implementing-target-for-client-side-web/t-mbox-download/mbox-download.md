@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 55%
@@ -23,7 +23,7 @@ Puede usar cualquiera de estas dos referencias de biblioteca: [!DNL mbox.js] o [
 
 >[!NOTE]
 >
->**Eliminación** de mbox.js: El 18 de enero de 2021, Adobe Target ya no admitirá la biblioteca mbox.js. Después del 18 de enero de 2021, todas las llamadas realizadas desde mbox.js generarán errores e impactarán en las páginas que tengan actividades de Destinatario ejecutándose al proporcionar contenido predeterminado. Recomendamos que todos los clientes migren a la versión más reciente de la biblioteca at.js antes de esta fecha para evitar problemas potenciales con sus sitios. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>**Fin de vida útil** de mbox.js: El 18 de enero de 2021, Adobe Target ya no admitirá la biblioteca mbox.js. Después del 18 de enero de 2021, todas las llamadas realizadas desde mbox.js generarán errores e impactarán en las páginas que tengan actividades de Destinatario ejecutándose al proporcionar contenido predeterminado. Recomendamos que todos los clientes migren a la versión más reciente de la biblioteca at.js antes de esta fecha para evitar problemas potenciales con sus sitios. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
 >
 >Aunque actualmente se admite mbox.js, no hemos proporcionado actualizaciones de funciones a esta biblioteca desde julio de 2017. La versión más reciente de at.js ofrece muchas ventajas con respecto a mbox.js. Entre otras ventajas, at.js mejora los tiempos de carga de página para implementaciones web, mejora la seguridad y proporciona mejores opciones de implementación para aplicaciones de una sola página.
 >
