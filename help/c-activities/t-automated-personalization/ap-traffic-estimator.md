@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
+source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 25%
@@ -69,4 +69,4 @@ Tenga en cuenta las siguientes preguntas más frecuentes cuando trabaje con el e
 
 En determinadas circunstancias, el tráfico puede ser lo suficientemente grande como para crear un modelo personalizado, pero ese tráfico podría informar [!DNL Target] que no hay ninguna diferencia significativa entre el modelo personalizado y el aleatorio. Aunque el modelo está integrado [!DNL Target] y probado, no se implementará porque no es significativamente mejor que el aleatorio.
 
-Una posible razón para que el modelo no sea mejor que el radom podría ser que las ofertas no son significativamente diferentes entre sí. Si este es el caso, puede intentar aumentar las diferencias en las ofertas haciéndolas visualmente más diferentes o cambiando el contenido mismo.
+Una posible razón para que el modelo no sea mejor que el aleatorio podría ser que las ofertas no son significativamente diferentes entre sí. Si este es el caso, puede intentar aumentar las diferencias en las ofertas haciéndolas visualmente más diferentes o cambiando el contenido mismo.
