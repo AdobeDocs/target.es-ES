@@ -6,9 +6,9 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
+source-git-commit: df9cb5c4a3cd44917ee9136300e4ad68f922d3c9
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 25%
 
 ---
@@ -69,4 +69,4 @@ Tenga en cuenta las siguientes preguntas más frecuentes cuando trabaje con el e
 
 En determinadas circunstancias, el tráfico puede ser lo suficientemente grande como para crear un modelo personalizado, pero ese tráfico podría informar [!DNL Target] que no hay ninguna diferencia significativa entre el modelo personalizado y el aleatorio. Aunque el modelo está integrado [!DNL Target] y probado, no se implementará porque no es significativamente mejor que el aleatorio.
 
-Una posible razón para que el modelo no sea mejor que el aleatorio podría ser que las ofertas no son significativamente diferentes entre sí. Si este es el caso, puede intentar aumentar las diferencias en las ofertas haciéndolas visualmente más diferentes o cambiando el contenido mismo.
+Una posible razón para que el modelo no sea mejor que el aleatorio podría ser que las ofertas no son significativamente diferentes entre sí. Si este es el caso, puede intentar que las ofertas sean más distintas visualmente si los mensajes son similares o puede intentar cambiar los mensajes en sí.
