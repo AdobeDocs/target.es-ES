@@ -5,10 +5,10 @@ title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: d3d9ef5cd18668d913fd1f890d71ca954957424b
+source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
 workflow-type: tm+mt
-source-wordcount: '3708'
-ht-degree: 81%
+source-wordcount: '3790'
+ht-degree: 80%
 
 ---
 
@@ -127,7 +127,19 @@ Las ofertas de imagen de la página Ofertas a veces conservan la etiqueta de &qu
 
 A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán a las siguientes secciones y, si es necesario, se añadirán notas adicionales.
 
-### Creación de informes
+### Sistema de informes de Destinatario automático (#at-metrics)
+
+Se ha solucionado un problema que afectaba al sistema de informes de Destinatario [!DNL Adobe Target Premium] [!UICONTROL automático de] los usuarios desde el 15 de septiembre a las 2:30 p.m. (PDT) hasta el 6 de octubre, 9:25 a.m. (PDT). Al ver los informes de las métricas de conversión afectadas (&quot;[!UICONTROL Visualizó una página]&quot; o &quot;[!UICONTROL Se hizo clic en el mbox]&quot;), las tasas de conversión se registran de manera incorrecta. No se conoce ningún problema de envío en este momento.
+
+Para volver a sincronizar y corregir el sistema de informes:
+
+1. Copie y guarde las actividades de Destinatario  automático afectadas.
+1. Active las actividades recién guardadas (si las actividades afectadas estaban activas).
+1. Elimine las actividades originales (afectadas).
+
+(TGT-38522, CSO 20201006007)
+
+### Creación de informes{#conversions-audiences}
 
 Actualmente, las conversiones se incrementan de forma diferente en función de la audiencia utilizada.
 
