@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
+source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1511'
 ht-degree: 86%
 
 ---
@@ -166,6 +166,7 @@ ht-degree: 86%
       + [Notas de la versión: SDK de Node.js de Destinatario](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Notas de la versión: SDK de Java de Destinatario](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Transición de las API heredadas de Target a Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+   + [Implementación híbrida](/help/c-implementing-target/hybrid-implementation.md)
    + Correo electrónico: implementación de Target {#implement-email}
       + [Correo electrónico: información general sobre la implementación de Target.](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Crear un Adbox para una imagen](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
