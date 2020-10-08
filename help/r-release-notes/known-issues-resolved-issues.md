@@ -5,9 +5,9 @@ title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4abd3678914c3866b08f56c5594df285cd903e08
+source-git-commit: 72ea4544313bcfd1d39c1a4ce63bb41fcad699c5
 workflow-type: tm+mt
-source-wordcount: '3794'
+source-wordcount: '3793'
 ht-degree: 80%
 
 ---
@@ -127,7 +127,7 @@ Las ofertas de imagen de la página Ofertas a veces conservan la etiqueta de &qu
 
 A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán a las siguientes secciones y, si es necesario, se añadirán notas adicionales.
 
-### Sistema de informes de Destinatario automático (#at-metrics)
+### Sistema de informes de Destinatario automático {#at-metrics}
 
 Se ha solucionado un problema que afectaba al sistema de informes de Destinatario [!DNL Adobe Target Premium] [!UICONTROL automático de] los usuarios desde el 15 de septiembre a las 2:30 p.m. (PDT) hasta el 6 de octubre, 9:25 a.m. (PDT). Al ver los informes de las métricas de conversión afectadas (configurados con la opción [!UICONTROL Visualizó una página]&quot; o &quot;[!UICONTROL Se hizo clic en mbox]&quot;), las tasas de conversión se registran de manera incorrecta. No se conoce ningún problema de envío en este momento.
 
