@@ -5,7 +5,7 @@ title: Preguntas más frecuentes sobre Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -198,3 +198,4 @@ NO_CONTENT se devuelve cuando las recomendaciones no están disponibles para la 
 * El procesamiento parcial de la plantilla está desactivado y no hay suficientes resultados disponibles para rellenar la plantilla.
 
    Esto suele ocurrir cuando tiene una regla de inclusión dinámica, que filtros agresivamente muchos elementos de los posibles resultados. Para evitarlo, habilite las copias de seguridad y no aplique la regla de inclusión a las copias de seguridad, o utilice los criterios de forma secuencial con criterios filtrados con menor agresividad.
+
