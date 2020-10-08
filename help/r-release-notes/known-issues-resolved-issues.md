@@ -5,9 +5,9 @@ title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: d3d9ef5cd18668d913fd1f890d71ca954957424b
 workflow-type: tm+mt
-source-wordcount: '3704'
+source-wordcount: '3708'
 ht-degree: 81%
 
 ---
@@ -24,22 +24,6 @@ Información sobre problemas conocidos con esta versión de Target. También inc
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
-
-### Creación de informes
-
-Actualmente, las conversiones se incrementan de forma diferente en función de la audiencia utilizada.
-
-Por ejemplo, para el mismo visitante, si el recuento de conversiones está configurado para aumentar &quot;Una vez por participante:&quot;
-
-* Audiencia: &quot;Todos los Visitantes cualificados&quot; para conversiones de nivel de visita solo aumentan una vez. Este es el comportamiento esperado.
-* Audiencia: Los &quot;nuevos Visitantes&quot; para las conversiones de nivel de visita aumentan incorrectamente cada vez, en lugar de incrementarse solo una vez. Este no es el comportamiento esperado.
-
-Si el recuento de conversiones está configurado para incrementar &quot;En cada impresión:&quot;
-
-* Audiencia: &quot;Todos los Visitantes cualificados&quot; para conversiones de nivel de visitante se incrementan incorrectamente una sola vez, en lugar de incrementarse cada vez. Este no es el comportamiento esperado.
-* Audiencia: Los &quot;nuevos Visitantes&quot; para las conversiones de nivel de visitante aumentan cada vez. Este es el comportamiento esperado.
-
-Tenga en cuenta que este problema solo está relacionado con el [!DNL Target] sistema de informes. No se trata de un problema al usar el sistema de informes [!UICONTROL Analytics para Destinatario] (A4T).
 
 ### Entrega de página {#page-delivery}
 
@@ -142,6 +126,24 @@ Las ofertas de imagen de la página Ofertas a veces conservan la etiqueta de &qu
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán a las siguientes secciones y, si es necesario, se añadirán notas adicionales.
+
+### Creación de informes
+
+Actualmente, las conversiones se incrementan de forma diferente en función de la audiencia utilizada.
+
+Por ejemplo, para el mismo visitante, si el recuento de conversiones está configurado para aumentar &quot;Una vez por participante:&quot;
+
+* Audiencia: &quot;Todos los Visitantes cualificados&quot; para conversiones de nivel de visita solo aumentan una vez. Este es el comportamiento esperado.
+* Audiencia: Los &quot;nuevos Visitantes&quot; para las conversiones de nivel de visita aumentan incorrectamente cada vez, en lugar de incrementarse solo una vez. Este no es el comportamiento esperado.
+
+Si el recuento de conversiones está configurado para incrementar &quot;En cada impresión:&quot;
+
+* Audiencia: &quot;Todos los Visitantes cualificados&quot; para conversiones de nivel de visitante se incrementan incorrectamente una sola vez, en lugar de incrementarse cada vez. Este no es el comportamiento esperado.
+* Audiencia: Los &quot;nuevos Visitantes&quot; para las conversiones de nivel de visitante aumentan cada vez. Este es el comportamiento esperado.
+
+Tenga en cuenta que este problema solo está relacionado con el [!DNL Target] sistema de informes. No se trata de un problema al usar el sistema de informes [!UICONTROL Analytics para Destinatario] (A4T).
+
+Se ha resuelto este problema.
 
 ### Páginas que no se cargan en el Compositor de experiencias visuales (VEC) o en el Compositor de experiencias mejorado (EEC) al usar Google Chrome versión 80+
 
