@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2564'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 12 de octubre | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Actualizado [Recupere el token de autorización para utilizarlo con las herramientas](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) de depuración para indicar el nivel de permiso que debe tener para generar un token de autenticación. |
 | 8 de octubre | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Se ha añadido el siguiente problema resuelto:<ul><li>[Sistema de informes de Destinatario automático](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Se ha movido el siguiente problema de la sección Problemas conocidos a la sección Problemas resueltos:<ul><li>[Creación de informes](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Implementación híbrida](/help/c-implementing-target/hybrid-implementation.md) | Nuevo tema. |
 | 7 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Información añadida sobre la versión Target Standard/Premium 20.10.1. |
