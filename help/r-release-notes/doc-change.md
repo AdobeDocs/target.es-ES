@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2610'
 ht-degree: 30%
 
 ---
@@ -24,6 +24,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 12 de octubre | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Actualizado [Recupere el token de autorización para utilizarlo con las herramientas](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) de depuración para indicar el nivel de permiso que debe tener para generar un token de autenticación. |
 |  | [Configuración de la API del perfil](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Se ha actualizado el tema para indicar el nivel de permisos que debe tener para generar un token de autenticación. |
+|  | [Segmentación automática](/help/c-activities/auto-target-to-optimize.md) | Se añadió la historia de éxito del mundo real mediante el Destinatario automático. |
 |  | [Incluir la misma experiencia en páginas similares](/help/c-experiences/c-visual-experience-composer/temtest.md) | Sección añadida para explicar cómo procesar la misma actividad en todo el dominio. |
 | 8 de octubre | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Se ha añadido el siguiente problema resuelto:<ul><li>[Sistema de informes de Destinatario automático](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Se ha movido el siguiente problema de la sección Problemas conocidos a la sección Problemas resueltos:<ul><li>[Creación de informes](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Implementación híbrida](/help/c-implementing-target/hybrid-implementation.md) | Nuevo tema. |
