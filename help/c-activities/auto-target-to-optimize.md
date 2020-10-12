@@ -1,19 +1,20 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
+description: El Destinatario automático en Adobe Target utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias de alto rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. La segmentación automática proporciona la experiencia más adaptada a cada visitante según su perfil de cliente individual y el comportamiento de visitantes anteriores con perfiles similares.
 title: Segmentación automática
 feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '3610'
-ht-degree: 85%
+source-wordcount: '3744'
+ht-degree: 83%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Segmentación automática{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) Segmentación automática
 
 [!UICONTROL La segmentación automática] utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias de alto rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. La segmentación automática proporciona la experiencia más adaptada a cada visitante según su perfil de cliente individual y el comportamiento de visitantes anteriores con perfiles similares.
 
@@ -21,11 +22,19 @@ ht-degree: 85%
 >
 >La [!UICONTROL segmentación automática] está disponible como parte de la solución [!DNL Target Premium]. Esta característica no está disponible en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información sobre las funciones avanzadas que proporciona esta licencia, consulte [Target Premium](/help/c-intro/intro.md).
 
+## Historia de éxito real con Destinatario automático {#success}
+
+Un importante minorista de ropa ha utilizado recientemente una actividad de Destinatario  automático con diez experiencias basadas en la categoría de productos (además de un control aleatorio) para ofrecer el contenido adecuado a cada visitante. Se eligió &quot;[!UICONTROL Añadir al carro]&quot; como métrica de optimización principal. Las experiencias objetivo tuvieron un alza promedio del 29,09%. Después de crear los modelos de Destinatario  automático, la actividad se estableció en un 90 % de experiencias personalizadas.
+
+En sólo diez días, se lograron más de 1.700.000 dólares de alza.
+
+Siga leyendo para aprender a utilizar el Destinatario  automático para aumentar el alza y los ingresos de su organización.
+
+## Información general {#section_972257739A2648AFA7E7556B693079C9}
+
 Al [crear una actividad A/B mediante el flujo de trabajo guiado de tres pasos](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), tiene la opción de asignar el tráfico con la opción [!UICONTROL Segmentación automática para experiencias personalizadas]:
 
 ![Opción de segmentación automática para experiencias personalizadas](/help/c-activities/assets/auto-target-ui-new.png)
-
-## Información general {#section_972257739A2648AFA7E7556B693079C9}
 
 La opción de [!UICONTROL segmentación automática] dentro del flujo de actividad A/B le permite aprovechar el aprendizaje automático para personalizar en un solo clic basándose en un conjunto de experiencias definidas por el especialista en marketing. [!UICONTROL La segmentación automática] está diseñada para ofrecer una optimización máxima, en comparación con las pruebas A/B tradicionales o la asignación automática, determinando qué experiencia mostrar para cada visitante. Al contrario que en una actividad A/B, cuyo objetivo es encontrar un único ganador, la [!UICONTROL segmentación automática] determina la mejor experiencia para un visitante específico (según su perfil e información adicional) y así ofrecerle una experiencia con un alto nivel de personalización.
 
@@ -117,7 +126,7 @@ Hay varios escenarios en los que puede preferir usar la [!UICONTROL Segmentació
 
 * Esta métrica puede estar basada en la conversión o en los ingresos (más concretamente, Ingresos por visita).
 
-**El algoritmo no es compatible con el uso de[!DNL Analytics]como fuente de datos o punto final de informes.**
+**El algoritmo no es compatible con el uso de [!DNL Analytics] como fuente de datos o punto final de informes.**
 
 **Target recopila automáticamente información sobre los visitantes para crear los modelos de personalización.**
 
@@ -133,7 +142,7 @@ Hay varios escenarios en los que puede preferir usar la [!UICONTROL Segmentació
 
 ## ¿En qué se diferencian la [!UICONTROL segmentación automática] y la personalización automatizada?{#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
-**[!UICONTROL La segmentación automática]requiere frecuentemente menos tráfico que la personalización automatizada para crear un modelo personalizado.**
+**[!UICONTROL La segmentación automática] requiere frecuentemente menos tráfico que la personalización automatizada para crear un modelo personalizado.**
 
 Aunque la cantidad de tráfico *por experiencia* requerida para los modelos de [!UICONTROL segmentación automática] o [!UICONTROL personalización automática] para compilar es la misma, usualmente hay más experiencias en una actividad de personalización automatizada que una actividad de [!UICONTROL segmentación automática]. Por ejemplo, si tuvo una actividad de [!UICONTROL personalización automática] en la que creó dos ofertas por ubicación con dos ubicaciones, habría cuatro (2 = 4) experiencias totales incluidas en la actividad (sin exclusiones). Utilizando la [!UICONTROL segmentación automática], puede configurar la experiencia 1 para incluir la oferta 1 en la ubicación 1 y la oferta 2 en la ubicación 2, y la experiencia 2 para incluir la oferta 1 en la ubicación 1 y la oferta 2 en la ubicación 2. Debido a que la [!UICONTROL segmentación automática] le permite elegir tener múltiples cambios dentro de una experiencia, puede reducir la cantidad total de experiencias en su actividad.
 
@@ -142,11 +151,11 @@ Para la [!UICONTROL segmentación automática], se pueden usar reglas simples pa
 * **Cuando la conversión es su métrica de éxito:** 1000 visitas y al menos 50 conversiones por día por experiencia; además, la actividad debe tener al menos 7000 visitas y 350 conversiones.
 * **Cuando los ingresos por visita son su métrica de éxito:** 1000 visitas y al menos 50 conversiones por día por experiencia, y además la actividad debe tener al menos 1000 conversiones por experiencia. Por lo general, el RPV requiere más datos para construir modelos debido a la mayor varianza de datos que normalmente existe en los ingresos de visita en comparación con la tasa de conversión.
 
-**[!UICONTROL La segmentación automática]cuenta con una funcionalidad de configuración completa.**
+**[!UICONTROL La segmentación automática] cuenta con una funcionalidad de configuración completa.**
 
 * Al estar integrado en el flujo de trabajo de la actividad A/B, la [!UICONTROL segmentación automática] utiliza el compositor de experiencias visuales (VEC), una herramienta más antigua y completa. También puede aprovechar los [vínculos de control de calidad](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) con la [!UICONTROL segmentación automática].
 
-**[!UICONTROL La segmentación automática]proporciona un amplio marco de pruebas en línea.**
+**[!UICONTROL La segmentación automática] proporciona un amplio marco de pruebas en línea.**
 
 * El método multi-armed bandit forma parte de un marco de pruebas en línea más amplio que permite a nuestros científicos de datos e investigadores comprender los beneficios de sus continuas mejoras en condiciones reales.
 * En el futuro, este banco de pruebas nos permitirá abrir nuestra plataforma de aprendizaje automático a nuestros clientes expertos en datos para que puedan traer sus propios modelos para aumentar los modelos de Target.
@@ -241,7 +250,7 @@ No se sugiere utilizar la opción [!UICONTROL Restablecer datos] de informes par
 
 A veces, las actividades no salen como se esperaba. A continuación, le presentamos algunos de los posibles desafíos a los que se puede enfrentar al usar la [!UICONTROL segmentación automática] y algunas soluciones sugeridas.
 
-**Mi[!UICONTROL actividad de segmentación automática]está tardando demasiado en crear modelos.**
+**Mi [!UICONTROL actividad de segmentación automática] está tardando demasiado en crear modelos.**
 
 Hay varios cambios en la configuración de la actividad que pueden disminuir el tiempo esperado para crear modelos, incluida la cantidad de experiencias en su actividad de [!UICONTROL segmentación automática], el tráfico hacia su sitio y la métrica de éxito seleccionada.
 
@@ -252,7 +261,7 @@ Hay varios cambios en la configuración de la actividad que pueden disminuir el 
 * ¿Hay algunas experiencias que puede retirar de su actividad? Disminuir el número de experiencias en una actividad reducirá la cantidad de tiempo para construir modelos.
 * ¿Hay una página con mayor tráfico en la que esta actividad sería más exitosa? Cuanto más tráfico y conversiones haya en sus ubicaciones de actividad, más rápido se crearán los modelos.
 
-**Mi actividad de[!UICONTROL segmentación automática]no está generando ningún alza.**
+**Mi actividad de [!UICONTROL segmentación automática] no está generando ningún alza.**
 
 Hay varios factores necesarios para que una actividad de AP genere un alza:
 
