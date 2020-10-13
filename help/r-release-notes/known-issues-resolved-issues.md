@@ -5,9 +5,9 @@ title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 31bbee408ef4490ecd3a66223e895802ba9f88e5
+source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
 workflow-type: tm+mt
-source-wordcount: '3900'
+source-wordcount: '3897'
 ht-degree: 77%
 
 ---
@@ -27,7 +27,7 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 
 ### Métricas de Analytics para Destinatario (A4T) para la asignación automática y actividades de Destinatario automático
 
-Existe un problema conocido actual en la interfaz de usuario que permite a los usuarios seleccionar métricas de participación e ingresos no admitidas como métrica de objetivo principal para la optimización en actividades de asignación [!DNL Target] [!UICONTROL automática y Destinatario]  automático. Se admiten las métricas de conversión; las métricas de participación e ingresos *no son* compatibles. Si selecciona métricas de objetivo de participación o de ingresos (como pedidos), no se generará un modelo de optimización (aunque la interfaz de usuario actualmente le permita seleccionar métricas de objetivo no admitidas). [!DNL Target]
+Existe un problema conocido actual en la interfaz de usuario que permite a los usuarios seleccionar métricas de participación e ingresos no admitidas como métrica de objetivo principal para la optimización en actividades de asignación [!DNL Target] [!UICONTROL automática y Destinatario]  automático. Se admiten las métricas de conversión; las métricas de participación e ingresos *no son* compatibles. Si selecciona métricas de objetivo de participación o de ingresos, no se generará un modelo de optimización (aunque la interfaz de usuario actualmente le permita seleccionar métricas de objetivo no admitidas). [!DNL Target]
 
 Para obtener una lista de las métricas de objetivo admitidas y no admitidas, consulte Métricas [de objetivo](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) admitidas en *Crear una actividad que utilice Analytics como fuente* de sistema de informes. (TNT-38409)
 
