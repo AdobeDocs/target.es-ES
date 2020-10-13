@@ -5,9 +5,9 @@ title: Anuncios de destinatario
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,17 @@ Anuncios e información sobre los próximos eventos, incluidas las sesiones de D
 ## Adobe ha sido nombrado nuevamente Líder en el Cuadrante Mágico de Gartner para Motores de Personalización
 
 Una vez más, Adobe fue nombrado Líder en el tercer informe anual del Cuadrante Mágico de Gartner para Motores de Personalización, 2020. El Cuadrante mágico de Gartner para motores de personalización evaluó a los proveedores según 15 criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución. [Lee al respecto en The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Seminario web: Personalice y pruebe con una latencia cero con decisiones en dispositivos de Adobe Target
+
+Más que nunca, a los especialistas en marketing, propietarios de productos y desarrolladores se les está encomendando la tarea de optimizar la experiencia general del cliente en los sitios, en las aplicaciones y en cualquier otro lugar en el que se conecten con sus clientes. Múltiples herramientas con silos de datos e implementaciones complicadas no lo cortarán.
+
+En este seminario web en directo, únase a los expertos en productos de Adobe Target para analizar cómo mover las decisiones de optimización de experiencias críticas en el dispositivo para ejecutarse localmente con una latencia cero puede abrir las puertas a nuevos casos de uso interesantes y mejorar el rendimiento del sitio para sus clientes.
+
+* **Martes 10 de noviembre de 2020**
+* **10 am PT | 12pm CT | 1 p.m. ET**
+
+[Regístrate aquí para este emocionante evento.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Seminario web: Personalización adaptable y optimizada a escala con Adobe Target y Analytics
 
@@ -40,7 +51,7 @@ En este seminario web, aprenderá:
 
 ## Seminario web: Cómo HSBC aprovecha Adobe Target y AI para optimizar rápidamente y ofrecer personalización a escala
 
-* **Durante los próximos 30 días, puede hacer clic aquí para vista de la grabación de[seminario web](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **Durante los próximos 30 días, puede hacer clic aquí para vista de la grabación de [seminario web](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital reporta que &quot;hemos avanzado cinco años en la adopción digital de consumidores y empresas en apenas ocho semanas&quot;. *
 
