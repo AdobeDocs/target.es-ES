@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 30%
+source-wordcount: '2684'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 13 de octubre | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Se ha añadido información sobre el siguiente seminario web en directo programado para el 10 de noviembre de 2020:<ul><li>Personalice y pruebe con una latencia cero con decisiones en dispositivos de Adobe Target</li></ul> |
+|  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre el siguiente seminario web en directo programado para el 10 de noviembre de 2020:<ul><li>Personalice y pruebe con una latencia cero con decisiones en dispositivos de Adobe Target</li></ul> |
 | 12 de octubre | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Actualizado [Recupere el token de autorización para utilizarlo con las herramientas](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) de depuración para indicar el nivel de permiso que debe tener para generar un token de autenticación. |
 |  | [Configuración de la API del perfil](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Se ha actualizado el tema para indicar el nivel de permisos que debe tener para generar un token de autenticación. |
 |  | [Segmentación automática](/help/c-activities/auto-target-to-optimize.md) | Se añadió la historia de éxito del mundo real mediante el Destinatario automático. |
