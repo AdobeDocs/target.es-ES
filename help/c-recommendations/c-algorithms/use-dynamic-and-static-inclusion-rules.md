@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 2d7435c420326a7eb1a59c95befa87b06c7614c8
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 35%
+source-wordcount: '2125'
+ht-degree: 34%
 
 ---
 
@@ -66,59 +66,12 @@ Filtre dinámicamente comparando elementos (entidades) con un valor en el perfil
 
 Utilice Coincidencia [!UICONTROL de atributos de] Perfil cuando desee mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita.
 
-Los siguientes ejemplos muestran cómo se puede utilizar la coincidencia de atributos de [!UICONTROL Perfil]:
+Los escenarios siguientes muestran cómo se puede utilizar la coincidencia de atributos de [!UICONTROL Perfil]:
 
 * Una compañía que vende anteojos almacena el color de marco favorito de un visitante como &quot;nuez&quot;. Para ese visitante específico, las recomendaciones se configuran para devolver solo marcos de lentes que coincidan con &quot;nogal&quot; en color.
 * Se puede definir un parámetro de perfil para el tamaño de la ropa (por ejemplo, Pequeño, Medio o Grande) de un visitante a medida que navegue por el sitio web de la compañía. Se puede configurar una recomendación para que coincida con ese parámetro de perfil y devuelva productos específicos solo al tamaño de ropa preferido por el usuario.
 
-Veamos un ejemplo para recomendar ropa que coincida con el tamaño de ropa establecido en el perfil del visitante.
-
-La página del producto envía `entity.size` la llamada de mbox (flecha roja en la siguiente ilustración).
-
-Puede crear una secuencia de comandos [de](/help/c-target/c-visitor-profile/profile-parameters.md) perfil para capturar los atributos y valores de perfil del visitante de la última página visitada por el visitante.
-
-Por ejemplo,
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-La secuencia de comandos de perfil captura el `entity.size` valor del mbox denominado `target-global-mbox` y lo devuelve como un atributo de perfil denominado `user.size` (flecha azul en la siguiente ilustración).
-
-![cambiar tamaño de llamada de mbox](/help/c-recommendations/c-algorithms/assets/size.png)
-
-Al crear los criterios de recomendación, haga clic en [!UICONTROL Añadir regla]de filtrado y, a continuación, seleccione Coincidencia [!UICONTROL de atributos de]Perfil.
-
-![Ilustración de coincidencia de atributos de perfil](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-Si el `user.size` perfil se ha cargado en [!DNL Target], se muestra en la lista desplegable para que coincida al configurar la regla para que coincida con el valor pasado en la llamada de mbox (`size`) al nombre de la secuencia de comandos de perfil (`user.size`).
-
-A continuación, puede seleccionar &quot;size&quot; &quot;es igual a&quot; el valor/texto almacenado en &quot;user.size&quot; para la coincidencia de atributos de perfil.
-
-Una vez creadas las reglas de atributos de perfil, se filtrarán todas las recomendaciones que tengan atributos que no coincidan con el atributo de perfil almacenado del visitante.
-
-Para ver un ejemplo visual de cómo la coincidencia de atributos de perfil afecta a las recomendaciones, considere un sitio web que vende seguidores.
-
-Cuando un visitante hace clic en varias imágenes de seguidores en este sitio web, cada página establece el valor del `entity.size` parámetro en función de si el tamaño del ventilador de la imagen es pequeño o grande.
-
-Supongamos que ha creado una secuencia de comandos de perfil para rastrear y contar el número de veces que el valor de `entity.size` se establece en pequeño vs. grande.
-
-Si el visitante regresa a la Página de inicio, verá las recomendaciones filtradas en función de si se hizo clic en más seguidores pequeños o grandes.
-
-Recommendations se basa en ver más seguidores pequeños en el sitio web:
-
-![recomendaciones de seguidores pequeños](/help/c-recommendations/c-algorithms/assets/small-fans.png)
-
-Recommendations basado en la visualización de más ventiladores grandes en el sitio web:
-
-![recomendaciones de seguidores grandes](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+Para obtener más ejemplos e instrucciones, consulte Ejemplos [de coincidencia de atributos de](#section_9873E2F22E094E479569D05AD5BB1D40) Perfil más abajo.
 
 #### Coincidencia de parámetros
 
@@ -253,11 +206,64 @@ Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
+### Ejemplo 3: Recomendar ropa que coincida con el tamaño de un visitante
+
+Veamos un ejemplo para recomendar ropa que coincida con el tamaño de ropa establecido en el perfil del visitante.
+
+La página del producto envía `entity.size` la llamada de mbox (flecha roja en la siguiente ilustración).
+
+Puede crear una secuencia de comandos [de](/help/c-target/c-visitor-profile/profile-parameters.md) perfil para capturar los atributos y valores de perfil del visitante de la última página visitada por el visitante.
+
+Por ejemplo,
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+La secuencia de comandos de perfil captura el `entity.size` valor del mbox denominado `target-global-mbox` y lo devuelve como un atributo de perfil denominado `user.size` (flecha azul en la siguiente ilustración).
+
+![cambiar tamaño de llamada de mbox](/help/c-recommendations/c-algorithms/assets/size.png)
+
+Al crear los criterios de recomendación, haga clic en [!UICONTROL Añadir regla]de filtrado y, a continuación, seleccione Coincidencia [!UICONTROL de atributos de]Perfil.
+
+![Ilustración de coincidencia de atributos de perfil](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+Si el `user.size` perfil se ha cargado en [!DNL Target], se muestra en la lista desplegable para que coincida al configurar la regla para que coincida con el valor pasado en la llamada de mbox (`size`) al nombre de la secuencia de comandos de perfil (`user.size`).
+
+A continuación, puede seleccionar &quot;size&quot; &quot;es igual a&quot; el valor/texto almacenado en &quot;user.size&quot; para la coincidencia de atributos de perfil.
+
+Una vez creadas las reglas de atributos de perfil, se filtrarán todas las recomendaciones que tengan atributos que no coincidan con el atributo de perfil almacenado del visitante.
+
+### Ejemplo 4: Recomendar artículos según el tamaño
+
+Para ver un ejemplo visual de cómo la coincidencia de atributos de perfil afecta a las recomendaciones, considere un sitio web que vende seguidores.
+
+Cuando un visitante hace clic en varias imágenes de seguidores en este sitio web, cada página establece el valor del `entity.size` parámetro en función de si el tamaño del ventilador de la imagen es pequeño o grande.
+
+Supongamos que ha creado una secuencia de comandos de perfil para rastrear y contar el número de veces que el valor de `entity.size` se establece en pequeño vs. grande.
+
+Si el visitante regresa a la Página de inicio, verá las recomendaciones filtradas en función de si se hizo clic en más seguidores pequeños o grandes.
+
+Recommendations se basa en ver más seguidores pequeños en el sitio web:
+
+![recomendaciones de seguidores pequeños](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations basado en la visualización de más ventiladores grandes en el sitio web:
+
+![recomendaciones de seguidores grandes](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+
 ## Ejemplos de coincidencia de atributos de entidad
 
 [!UICONTROL La coincidencia] de atributos de entidad permite recomendar únicamente los elementos que coinciden con un atributo del artículo que el usuario está viendo actualmente, el artículo que el usuario ha visto más recientemente, el artículo que el usuario compró más recientemente, el artículo que el usuario ha visto con más frecuencia o un artículo almacenado en un atributo personalizado en el perfil del visitante, como en los ejemplos siguientes.
 
-### Ejemplo 3: La venta al por mayor a un producto más caro
+### Ejemplo 5: La venta al por mayor a un producto más caro
 
 Supongamos que usted es un comerciante de ropa y desea animar a los usuarios a considerar artículos de mayor precio y, por lo tanto, más rentables. Puede utilizar los operadores &quot;es igual que&quot; y &quot;está entre&quot; para promocionar artículos más caros que procedan de la misma categoría y de la misma marca. Por ejemplo, un vendedor de zapatos puede promocionar zapatos deportivos más caros en un esfuerzo por vender un visitante mirando zapatillas de correr.
 
@@ -272,7 +278,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### Ejemplo 4: Promoción de productos con etiquetas privadas
+### Ejemplo 6: Promoción de productos con etiquetas privadas
 
 Puede combinar filtros dinámicos y estáticos para promocionar productos de etiquetas privadas. Por ejemplo, una compañía de suministro de oficina puede promocionar cartuchos de tóner de la marca propia de la compañía para llevar a cabo una venta más rentable de un visitante mirando el tóner, y promocionar plumas de la marca propia de la compañía para llevar a cabo una venta más rentable de plumas para un visitante mirando las plumas.
 
