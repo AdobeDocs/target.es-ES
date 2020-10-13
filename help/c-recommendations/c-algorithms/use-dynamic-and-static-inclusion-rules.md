@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 36%
+source-wordcount: '2100'
+ht-degree: 35%
 
 ---
 
@@ -59,20 +59,6 @@ Filtre dinámicamente comparando un grupo de posibles elementos de recomendacion
 Por ejemplo, recomendar solo elementos que coincidan con la marca del elemento actual como en el siguiente ejemplo:
 
 Si el mbox de una Página de aterrizaje de marca devuelve `entity.brand=Nike`, solo se devuelven los productos Nike y se muestran en esa página. Del mismo modo, en la Página de aterrizaje de marcas de Adidas, solo se devuelven productos Adidas. Con este tipo de regla de inclusión dinámica, el usuario solo tiene que especificar una regla de recomendación que devuelva resultados de marca relevantes en todas las páginas de marca en lugar de especificar una colección o un filtro estático para que coincida con cada nombre de marca.
-
-Operadores disponibles:
-
-* igual a
-* no es igual
-* está entre
-* contiene
-* no contiene
-* comienza con
-* termina con
-* el valor está presente
-* el valor no está presente
-* es mayor o igual que
-* es menor o igual que
 
 #### Coincidencia de atributos de perfil
 
