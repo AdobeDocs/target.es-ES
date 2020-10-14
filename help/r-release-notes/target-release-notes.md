@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 13%
+source-wordcount: '778'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 Este artículo contiene información de evaluación. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 7 de octubre de 2020**
+**Última actualización: 14 de octubre de 2020**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información en estas páginas puede ser la misma, según el tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -46,6 +46,18 @@ Esta versión contiene las siguientes nuevas funciones:
 | Función | Detalles |
 | --- | --- |
 | Decisiones en el dispositivo | Las decisiones en el dispositivo permiten a los comerciantes y a los desarrolladores de productos ofrecer experimentación y personalización basada en el aprendizaje automático desde el dispositivo del usuario, en canales y con una latencia cercana a cero.<br>La velocidad y el rendimiento son importantes, tanto en la perspectiva del cliente como en la satisfacción del usuario. Las decisiones en el dispositivo permiten a los especialistas en marketing, y ahora a los desarrolladores de productos, probar y optimizar experiencias directamente desde un dispositivo de usuario, reduciendo los tiempos de decisión y carga a casi cero para las experiencias contextuales en tiempo real.<br>Las decisiones en el dispositivo le permiten compilar todas las instrucciones de personalización y experimentación en &quot;artefactos de optimización&quot;, que se cargan en dispositivos del cliente. Estos artefactos de latencia cero proporcionan a los especialistas en marketing una a una personalización, redireccionamiento del comportamiento y recomendaciones de contenido y productos en tiempo real, mientras que proporcionan a los desarrolladores y propietarios de productos acceso directo al código para probar las experiencias de usuario y los lanzamientos de productos en destinatario y fase, refinando en tiempo real. Y como las decisiones en dispositivos se conectan de forma nativa con [!DNL Adobe Experience Cloud] [!DNL Target] los productos, los usuarios obtienen una análisis rápida y una experiencia más rápida de iteraciones.<br>**Regístrese ahora para un seminario web en directo.** Únase a los expertos en productos de Adobe Target para analizar cómo mover las decisiones de optimización de experiencias críticas en el dispositivo para que se ejecuten localmente con latencia cero puede abrir las puertas a nuevos casos de uso interesantes y mejorar el rendimiento del sitio para sus clientes.<ul><li>10 de noviembre de 2020</li><li>10 a.m. PT / 12 p.m. CT / 1 p.m. ET</li><li>[Registrarse aquí](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+
+Esta versión contiene las siguientes mejoras, correcciones y cambios:
+
+* Se ha corregido un problema que impedía que el intervalo [!UICONTROL de confianza y la] confianza [!UICONTROL de alza promedio se mostraran en] sistema de informes para la fila [!DNL Auto-Target] Total  . Las mediciones se muestran correctamente para todas las experiencias individuales. (TGT-37301)
+* Se ha corregido un problema que afectaba [!DNL Adobe Target Premium] al sistema de informes de Destinatario  automático de los usuarios desde el 15 de septiembre a las 2:30 p.m. (PDT) hasta el 6 de octubre, 9:25 a.m. (PDT). Al ver los informes de las métricas de conversión afectadas (configurados con la opción &quot;[!UICONTROL Visualizó una página]&quot; o &quot;[!UICONTROL Se hizo clic en el mbox]&quot;), las tasas de conversión se registran de manera incorrecta. No se conoce ningún problema de envío en este momento. Para obtener información sobre cómo volver a sincronizar y corregir el sistema de informes, consulte sistema de informes [de Destinatario](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) automático en Problemas ** resueltos en problemas *conocidos y problemas* resueltos.
+* Se añadió una columna [!UICONTROL Última actualización] seleccionable en la tabla Búsqueda [!UICONTROL de] catálogo y un filtro [!UICONTROL Última actualización en] . Esta mejora ahorra tiempo y esfuerzo porque no tiene que abrir cada elemento individual para ver cuándo se actualizó por última vez y puede filtrar por fecha la última vez que se actualizaron los elementos.
+
+   ![Última actualización en la ilustración de la columna y el filtro](/help/r-release-notes/assets/column-and-filter.png)
+
+* Se ha mejorado la navegación y la funcionalidad para los usuarios que utilizan solo el teclado.
+* Etiquetas añadidas en la interfaz de usuario para ayudar a los usuarios a utilizar tecnologías de asistencia.
+* Se ha mejorado el contraste de texto y color para las imágenes y el texto en la interfaz de usuario.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
