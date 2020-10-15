@@ -6,10 +6,10 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: b53918af5ddceded80829288d181102cf1b56841
 workflow-type: tm+mt
-source-wordcount: '3335'
-ht-degree: 78%
+source-wordcount: '3368'
+ht-degree: 76%
 
 ---
 
@@ -82,7 +82,9 @@ La ilustración muestra cómo progresa el tráfico asignado a cada experiencia d
 | ![Ronda 4](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **Ronda 4**: durante esta ronda, el 80 % del tráfico se asigna a las experiencias C y D (un 40 % a cada una). El 20 % del tráfico se asigna aleatoriamente, de modo que A, B, C y D reciben, respectivamente, un 5 % del tráfico. Durante esta ronda, la experiencia C presenta un buen rendimiento.<ul><li>El algoritmo decide que la experiencia C pasa a la siguiente ronda porque tiene la tasa de conversión más alta (tal y como indica en la escala vertical de cada actividad).</li><li>El algoritmo decide que la experiencia D también supera esta cuarta prueba porque tiene la cota superior más alta del intervalo de confianza del 95 % de Bernstein en comparación con las demás experiencias.</li></ul>Las experiencias C y D pasan a la siguiente ronda. |
 | ![Ronda n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **Ronda n**: a medida que progresa la actividad, una experiencia de alto rendimiento empieza a destacar y el proceso continúa hasta que se obtiene la experiencia ganadora. Cuando el intervalo de confianza de la experiencia con la tasa de conversión más alta no se superponga con el intervalo de confianza de ninguna otra experiencia, se etiqueta el ganador y aparece un [distintivo en la página de la actividad](/help/c-activities/automated-traffic-allocation/determine-winner.md) y en la lista de actividades.<ul><li>El algoritmo decide que la experiencia C es la clara ganadora</li></ul>En este punto, el algoritmo otorga el 80 % del tráfico a la experiencia C, mientras que el 20 % del tráfico se sigue ofreciendo aleatoriamente a todas las experiencias (A, B, C y D). En total, C recibe el 85 % del tráfico. En el improbable caso de que el intervalo de confianza del ganador empiece a superponerse de nuevo, el algoritmo restablece el comportamiento de la ronda 4.<br>**Importante:** Si elige un ganador de forma manual antes de que finalice el proceso, habría sido fácil elegir la experiencia incorrecta. Por ese motivo, lo más recomendable es esperar a que el algoritmo determine cuál es la experiencia ganadora. |
 
-Si la actividad solo tiene dos experiencias, ambas tendrán un tráfico equitativo hasta que Target encuentre una experiencia con un 90 % de confianza. En ese momento, el 70 % del tráfico se asigna al ganador y el 30 % al perdedor. Una vez la experiencia alcance el 95 % de confianza, el 100% del tráfico se asigna al ganador y el 0% al perdedor.
+>[!NOTE]
+>
+>If an activity has only two experiences, both experiences get equal traffic until [!DNL Target] finds a winning experience with 75% confidence. En ese momento, 2/3 del tráfico se asigna al ganador y 1/3 al perdedor. Después, cuando una experiencia alcanza el 95 % de confianza, el 90 % del tráfico se asigna al ganador y el 10 % al perdedor. Siempre mantenemos cierto tráfico enviado a la experiencia &quot;perdedora&quot; para evitar falsos positivos a largo plazo (es decir, mantener alguna exploración).
 
 After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
