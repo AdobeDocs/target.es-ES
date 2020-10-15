@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '803'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 Este artículo contiene información de evaluación. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 14 de octubre de 2020**
+**Última actualización: 15 de octubre de 2020**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información en estas páginas puede ser la misma, según el tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -55,9 +55,10 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 
    ![Última actualización en la ilustración de la columna y el filtro](/help/r-release-notes/assets/column-and-filter.png)
 
-* Se ha mejorado la navegación y la funcionalidad para los usuarios que utilizan solo el teclado.
-* Etiquetas añadidas en la interfaz de usuario para ayudar a los usuarios a utilizar tecnologías de asistencia.
-* Se ha mejorado el contraste de texto y color para las imágenes y el texto en la interfaz de usuario.
+* Se han realizado actualizaciones para ayudar a que la IU de Destinatario sea compatible con las Directrices [de accesibilidad del contenido](https://www.w3.org/WAI/standards-guidelines/wcag/) web 2.0 Nivel A y los Criterios de éxito AA (WCAG 2.0 AA). (TGT-34384 y TGT-24679)
+* Se han realizado mejoras en la directiva de seguridad de contenido (CSP). (TGT-37035)
+* Se ha introducido una forma de especificar el código de cliente como parámetro para los clientes que utilizan CNAME. (TNT-38571)
+
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
