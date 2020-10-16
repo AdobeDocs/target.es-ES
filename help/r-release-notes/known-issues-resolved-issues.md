@@ -5,7 +5,7 @@ title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -240,7 +240,7 @@ La versión v1 de las API de oferta en Adobe I/O trata todas las ofertas creadas
 
 Se ha resuelto este problema.
 
-### at.js
+### at.js  {#at-js-2}
 
 Los mboxes no se activan en los navegadores Microsoft Explorer 11 después de actualizar a at.js versión 1.0 debido a la interacción entre at.js y la API de visitante 2.2.0. Este problema afecta a la versión 0.9.6 y posteriores de at.js. (TNT-27600)
 
@@ -252,7 +252,7 @@ La búsqueda de una cadena que contiene caracteres especiales (como un espacio o
 
 Corregido en noviembre de 2018.
 
-### at.js
+### at.js  {#at-js-3}
 
 Al utilizar la versión 1.6.0 de at.js, se produce el redireccionamiento de Analytics for Target (A4T), pero sin calificación de la actividad.
 
@@ -294,7 +294,7 @@ Cuando se cambia el nombre de una audiencia de informes utilizado en una activid
 
 Este problema se corrigió en la versión 18.5.1 (22 de mayo de 2018).
 
-### at.js
+### at.js  {#at-js-4}
 
 El algoritmo para extraer el dominio de nivel superior que debería usarse al guardar cookies ha cambiado en la versión 0.9.6 de at.js. Debido a ello, no es posible guardar cookies en direcciones que utilicen IP. La mayoría de las veces, las direcciones IP se utilizan con fines de prueba, pero como solución alternativa se pueden utilizar entradas DNS, ajustar el archivo de host en un cuadro local o utilizar la función targetGlobalSettings() de at.js para insertar un fragmento de código para admitir direcciones IP.
 
@@ -335,7 +335,7 @@ El primer problema se corrigió en la versión de Target 17.3.1 (marzo de 2017).
 
 El segundo problema se corrigió en la versión de Target 17.6.1 (junio de 2017).
 
-### at.js
+### at.js  {#at-js-5}
 
 Desde la publicación de Target 17.4.1 (27 de abril de 2017), el uso de la acción Insertar imagen en el Compositor de experiencias visuales (VEC) provoca que el contenido de la oferta no se envíe al usar la biblioteca at.js.
 
@@ -355,7 +355,7 @@ El envío y la vista previa se vieron afectados para las ofertas de actividades 
 
 Este problema se corrigió en la versión 17.4.3 de Target.
 
-### at.js
+### at.js  {#at-js-6}
 
 Las siguientes acciones provocaban que la oferta no se enviara al utilizar el Compositor de experiencias visuales (VEC) y at.js: Mover y Reorganizar.
 
@@ -379,7 +379,7 @@ Para los criterios visualizados recientemente, las reglas dinámicas basadas en 
 
 Este problema se corrigió después de la publicación de Recommendations (22 de marzo de 2018). Después de la publicación de Recommendations, Target omite las reglas dinámicas basadas en entidad si entity.id no se pasa en la solicitud de mbox.
 
-### at.js
+### at.js  {#at-js-7}
 
 Cuando los usuarios intentan descargar at.js desde la página de detalles de Implementaciones después de actualizar la configuración de at.js, se descarga mbox.js en lugar de at.js. (TGT-23069)
 
