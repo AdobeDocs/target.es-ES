@@ -2,7 +2,7 @@
 product: target
 audience: end-user
 user-guide-title: Guía de Adobe Target
-breadcrumb-title: Guía de destinatario
+breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 84%
+ht-degree: 86%
 
 ---
 
