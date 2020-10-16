@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -109,7 +109,7 @@ Para obtener más información sobre el modo en que las modificaciones de la pá
 
 ## Mbox.js está sacando todo el código subsiguiente del encabezado y lo está incluyendo en el cuerpo.
 
-**Validar:** vea el origen para determinar si hay alguna declaración después del archivo mbox.js, antes de la </body> etiqueta de cierre.
+**Validar:** vea el origen para determinar si hay alguna declaración después del archivo mbox.js, antes de la `</body>` etiqueta de cierre.
 
 **Opciones:**
 
