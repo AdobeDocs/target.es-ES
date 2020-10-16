@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2716'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 15 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han actualizado las notas de la versión de evaluación de Target Standard/Premium 20.10.1 (27 de octubre de 2020). |
 | 14 de octubre | [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Añadió una nota sobre la asignación de tráfico para una actividad de asignación automática con solo dos experiencias. |
 | 13 de octubre | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Se ha añadido información sobre el siguiente seminario web en directo programado para el 10 de noviembre de 2020:<ul><li>Personalice y pruebe con una latencia cero con decisiones en dispositivos de Adobe Target</li></ul> |
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre el siguiente seminario web en directo programado para el 10 de noviembre de 2020:<ul><li>Personalice y pruebe con una latencia cero con decisiones en dispositivos de Adobe Target</li></ul> |
@@ -167,7 +168,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Abril de 22 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Nueva sección añadida: *Cambios en la API de estado de lote de perfil v2 (4 de mayo de 2020).* |
 | Abril de 14 | [Hosts perimetrales de Destinatario de lista de permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nuevo tema. |
 | Abril de 10 | [Implementación de aplicación de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nueva sección añadida: &quot;Prácticas recomendadas de implementación&quot;. |
-| Abril de 7 | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto actualizado para &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
+| Abril de 7 | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Updated text for &quot;Why can&#39;t I see lift and confidence on calculated metrics?&quot; |
 | Abril de 2 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Información añadida sobre el uso `user.header('x-forwarded-for')` con los bordes AWS más recientes para recuperar las direcciones IP de los usuarios. |
 |  | [Actualización de at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Se ha añadido la nota siguiente:<ul><li>Después de instalar la biblioteca ECID 4.3.0+ y at.js 2.,*x*, podrá crear actividades que abarquen dominios únicos y rastrear usuarios. Es importante tener en cuenta que esta funcionalidad solo funciona después de que caduque la sesión.</li></ul> |
 | Marzo de 30 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Se han añadido problemas conocidos que afectan a las versiones de at.js anteriores a at.js 2.2.0. Este problema provocaba que el rastreo de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página. |
