@@ -4,9 +4,9 @@ description: Filtre dinámicamente en Adobe Target Recommendations comparando el
 title: Filtrar por coincidencia de atributos de Perfil en reglas de inclusión dinámica en Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '655'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 5%
 Filtre dinámicamente en [!DNL Adobe Target][!DNL Recommendations] comparando elementos (entidades) con un valor en el perfil del usuario.
 
 Utilice Coincidencia [!UICONTROL de atributos de] Perfil cuando desee mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita.
+
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
 Los escenarios siguientes muestran cómo se puede utilizar la coincidencia de atributos de [!UICONTROL Perfil]:
 
@@ -72,7 +76,7 @@ La secuencia de comandos de perfil captura el `entity.size` valor del mbox denom
 
 ![cambiar tamaño de llamada de mbox](/help/c-recommendations/c-algorithms/assets/size.png)
 
-Al crear los criterios de recomendación, haga clic en [!UICONTROL Añadir regla]de filtrado y, a continuación, seleccione Coincidencia [!UICONTROL de atributos de]Perfil.
+Al crear los criterios de recomendación, haga clic en **[!UICONTROL Añadir regla]** de filtrado y, a continuación, seleccione Coincidencia **[!UICONTROL de atributos de]** Perfil.
 
 ![Ilustración de coincidencia de atributos de perfil](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -80,11 +84,13 @@ Si el `user.size` perfil se ha cargado en [!DNL Target], se muestra en la lista 
 
 A continuación, puede seleccionar &quot;size&quot; &quot;es igual a&quot; el valor/texto almacenado en &quot;user.size&quot; para la coincidencia de atributos de perfil.
 
+![Ejemplo de tamaño](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 Una vez creadas las reglas de atributos de perfil, se filtrarán todas las recomendaciones que tengan atributos que no coincidan con el atributo de perfil almacenado del visitante.
 
 ### Recomendar artículos según el tamaño
 
-Para ver un ejemplo visual de cómo la coincidencia de atributos de perfil afecta a las recomendaciones, considere un sitio web que vende seguidores.
+Para ver un ejemplo visual de cómo la coincidencia de atributos de perfil afecta a las recomendaciones, considere un sitio web que vende ventiladores eléctricos.
 
 Cuando un visitante hace clic en varias imágenes de seguidores en este sitio web, cada página establece el valor del `entity.size` parámetro en función de si el tamaño del ventilador de la imagen es pequeño o grande.
 
