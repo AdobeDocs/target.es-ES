@@ -4,9 +4,9 @@ description: Filtre dinámicamente en Adobe Target Recommendations comparando un
 title: Filtrar por coincidencia de atributos de entidad en reglas de inclusión dinámica en Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 0%
 
 Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
 
-Por ejemplo, recomendar solo elementos que coincidan con la marca del elemento actual como en el siguiente ejemplo:
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+
+Por ejemplo, recomendar solo elementos que coincidan con la marca del elemento actual como en el ejemplo siguiente:
 
 Si el mbox de una Página de aterrizaje de marca devuelve `entity.brand=Nike`, solo se devuelven los productos Nike y se muestran en esa página. Del mismo modo, en la Página de aterrizaje de marcas para Adidas, solo se devuelven los productos Adidas. Con este tipo de regla de inclusión dinámica, el usuario solo tiene que especificar una regla de recomendación que devuelva resultados de marca relevantes en todas las páginas de marca en lugar de especificar una colección o un filtro estático para que coincida con cada nombre de marca.
+
+Tenga en cuenta que debe enviar el `entity.brand` mensaje en el mbox en esas páginas de aterrizaje para que esto funcione.
 
 ## Ejemplos de coincidencia de atributos de entidad
 
@@ -29,6 +35,24 @@ Si el mbox de una Página de aterrizaje de marca devuelve `entity.brand=Nike`, s
 * El artículo que el usuario compró más recientemente
 * El artículo que el usuario vio con más frecuencia
 * Un elemento almacenado en un atributo personalizado en el perfil del visitante
+
+### Recomendar artículos según la marca
+
+Después de crear las reglas de atributos de entidad, filtrarán todas las recomendaciones con atributos que no coincidan con el valor de entidad que se pasa a la página.
+
+El siguiente ejemplo muestra recomendaciones que coinciden con la marca de producto mostrada en la página:
+
+Cuando visita una página que incluye un producto Nike, la página establece el valor del `entity.brand` parámetro en &quot;Nike&quot;.
+
+![Ejemplo de llamada de Destinatario](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
+
+En las recomendaciones de la página, solo verá los productos de Nike.
+
+![Recomendaciones de Nike](/help/c-recommendations/c-algorithms/assets/nike.png)
+
+Si luego vistas una página de productos de Adidas, el valor se restablecerá en &quot;Adidas&quot; y verá los productos de Adidas recomendados en las páginas de productos de Adidas. `entity.brand`
+
+![Recomendaciones de Adidas](/help/c-recommendations/c-algorithms/assets/adidas.png)
 
 ### La venta al por mayor a un producto más caro
 
