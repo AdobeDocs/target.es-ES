@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 45%
+source-wordcount: '1062'
+ht-degree: 39%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 45%
 
 Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding additional dynamic or static filtering rules to achieve better results for your recommendations.
 
-El proceso de creación y uso de reglas de inclusión para criterios y promociones es similar, al igual que los casos de uso y los ejemplos. Tanto los criterios como las promociones y el uso de las reglas de inclusión están cubiertos en esta sección.
+>[!NOTE]
+>
+>El proceso de creación y uso de reglas de inclusión para criterios y promociones es similar, al igual que los casos de uso y los ejemplos. Tanto los criterios como las promociones y el uso de las reglas de inclusión están cubiertos en esta sección.
 
 ## Agregación de reglas de filtrado a los criterios {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -36,7 +38,7 @@ Mientras [crea una promoción](../../c-recommendations/t-create-recs-activity/ad
 
 ## Tipos de filtro {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-Las siguientes secciones lista los tipos de opciones de filtrado para criterios y promociones, Filtro dinámico y Filtrar por valor:
+Las siguientes secciones lista los tipos de opciones de filtrado para el filtrado  dinámico y [!UICONTROL el filtro por valor] para criterios y promociones:
 
 ### Filtrado dinámico
 
@@ -44,9 +46,9 @@ Las reglas de inclusión dinámicas son más potentes que las reglas de inclusi�
 
 * Las reglas de inclusión dinámica ofrecen recomendaciones al hacer coincidir un atributo en el parámetro de perfil de un usuario o en una llamada de mbox.
 
-   Por ejemplo, puede crear una recomendación &quot;Criterios más populares&quot; y, a continuación, del conjunto de recomendaciones devueltas, filtrar cualquier atributo que se pase cuando el usuario acceda a una página en la que se muestren las recomendaciones en tiempo real.
+   Por ejemplo, puede crear una recomendación &quot;Criterios más populares&quot; y luego del conjunto de recomendaciones devueltas, luego filtrar cualquier recomendación (en tiempo real) con un atributo que se pase cuando el usuario acceda a una página donde se muestran las recomendaciones.
 
-* Utilice reglas estáticas para limitar los artículos que se incluyen en la recomendación (en lugar de las colecciones).
+* Utilice reglas estáticas para limitar qué artículos se incluyen en la recomendación (en lugar de utilizar colecciones).
 
 * Puede crear tantas reglas de inclusión dinámicas como sea necesario. Las reglas de inclusión se unen mediante un operador Y. Deben cumplirse todas las reglas para incluir un artículo en una recomendación.
 
@@ -54,9 +56,9 @@ Las siguientes opciones están disponibles para el filtrado dinámico:
 
 | Opción de filtrado dinámico | Detalles |
 | --- | --- |
-| [Coincidencia de atributos de entidad](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtre dinámicamente comparando un grupo de posibles elementos de recomendaciones con un elemento específico con el que los usuarios han interactuado.<br>Utilice Coincidencia de atributos de entidad cuando desee mostrar las recomendaciones que más probablemente atraigan al visitante, como la marca favorita del visitante. |
+| [Coincidencia de atributos de entidad](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtre dinámicamente comparando un grupo de posibles elementos de recomendaciones con un elemento específico con el que los usuarios han interactuado.<br>Utilice la coincidencia [!UICONTROL de atributos de] entidad cuando desee mostrar las recomendaciones que tengan más posibilidades de atraer al visitante, como la marca favorita del visitante. |
 | [Coincidencia de atributos de perfil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtre dinámicamente comparando elementos (entidades) con un valor en el perfil del usuario.<br>Utilice Coincidencia [!UICONTROL de atributos de] Perfil cuando desee mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita. |
-| [Coincidencia de parámetros](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtre dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).<br>Utilice la coincidencia de parámetros para recomendar contenido que coincida con los parámetros de página o los parámetros de visitantes, como las dimensiones del dispositivo o la ubicación geográfica. |
+| [Coincidencia de parámetros](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtre dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).<br>Utilice la coincidencia de [!UICONTROL parámetros] para recomendar contenido que coincida con los parámetros de página o los parámetros del visitante, como dimensiones del dispositivo o ubicación geográfica. |
 
 ### Filtrar por valor
 
@@ -68,37 +70,15 @@ La siguiente opción está disponible para filtrar por valor:
 
 ## Criterios dinámicos y ejemplos de promoción
 
-Los criterios y promociones dinámicos son mucho más potentes que los estáticos y ofrecen mejores resultados y una mayor participación.
+Los criterios y promociones dinámicos son mucho más potentes que los estáticos y ofrecen mejores resultados y participación.
 
-Los siguientes ejemplos le proporcionarán ideas generales sobre cómo puede utilizar las promociones dinámicas en sus esfuerzos de mercadotecnia:
+Los siguientes ejemplos proporcionan ideas generales sobre cómo puede utilizar las promociones dinámicas en sus esfuerzos de mercadotecnia:
 
-### Es igual a
-
-Con el operador &quot;es igual que&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en el sitio web (como un producto, un artículo o una película), puede promocionar otros elementos desde:
-
-* la misma marca
-* la misma categoría
-* la misma categoría Y la marca propia
-* la misma tienda
-
-### No es igual a
-
-Con el operador &quot;no es igual que&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en el sitio web (como un producto, un artículo o una película), puede promocionar otros elementos de:
-
-* una serie de televisión distinta
-* un género distinto
-* una serie de productos distinta
-* un ID de estilo distinto
-
-### está entre
-
-Con el operador &quot;está entre&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en el sitio web (como un producto, un artículo o una película), puede promocionar otros elementos que:
-
-* sean más caros
-* sean menos caros
-* cuesten un 30 % más o menos
-* sean episodios posteriores de la misma temporada
-* sean los primeros libros de una saga
+| Operador | Ejemplos |
+| --- | --- |
+| Es igual a | Con el operador &quot;es igual que&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en el sitio web (como un producto, un artículo o una película), puede promocionar otros elementos desde:<ul><li>la misma marca</li><li>la misma categoría</li><li>la misma categoría Y la marca propia</li><li>la misma tienda</li></ul> |
+| No es igual a | Con el operador &quot;no es igual que&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en el sitio web (como un producto, un artículo o una película), puede promocionar otros elementos de:<ul><li>una serie de televisión distinta</li><li>un género distinto</li><li>una serie de productos distinta</li><li>un ID de estilo distinto</li></ul> |
+| está entre | Con el operador &quot;está entre&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en el sitio web (como un producto, un artículo o una película), puede promocionar otros elementos que:<ul><li>sean más caros</li><li>sean menos caros</li><li>cuesten un 30 % más o menos</li><li>sean episodios posteriores de la misma temporada</li><li>sean los primeros libros de una saga</li></ul> |
 
 ## Handling empty values when filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -112,9 +92,10 @@ Para seleccionar la acción deseada, pase el ratón sobre el icono del engranaje
 
 | Acción | Disponible para | Detalles |
 |--- |--- |--- |
-| Ignorar esta regla de filtrado | Coincidencia de atributo de perfil<br> Parámetro de coincidencia | Esta es la acción predeterminada para la coincidencia de atributos de perfil y la coincidencia de parámetros.<br>Esta opción especifica que la regla se ignora. Por ejemplo, si hay tres reglas de filtrado y la tercera no pasa ningún valor, en vez de no devolver resultado alguno, puede simplemente ignorar la tercera regla con valores en blanco. |
-| No promocionar ningún elemento | Coincidencia de atributos de entidad<br>Coincidencia de atributos de perfil<br>Coincidencia de parámetros | Esta es la acción predeterminada para la coincidencia de atributos de entidad.<br>[!DNL Target]Esta acción es el modo en que gestiona los valores en blanco antes de la agregación de esta opción: no se mostrarán más resultados para este criterio. |
-| Uso de un valor estático | Coincidencia de atributos de entidad<br>Coincidencia de atributo de perfil<br> Parámetro de coincidencia | Si un valor está en blanco, puede optar por usar un valor estático. |
+| [!UICONTROL Ignorar esta regla de filtrado] | [!UICONTROL Coincidencia] de atributos de perfil[!UICONTROL y coincidencia de parámetros] | This is the default action for [!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching].<br>Esta opción especifica que la regla se ignora. Por ejemplo, si hay tres reglas de filtrado y la tercera no pasa ningún valor, en vez de no devolver resultado alguno, puede simplemente ignorar la tercera regla con valores en blanco. |
+| [!UICONTROL No mostrar ningún resultado para este criterio]<br>(solo criterios) | [!UICONTROL Coincidencia]de atributos de entidad, Coincidencia [!UICONTROL de atributos de]Perfil y Coincidencia [!UICONTROL de parámetros] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]Esta acción es el modo en que gestiona los valores en blanco antes de la agregación de esta opción: no se mostrarán más resultados para este criterio. |
+| [!UICONTROL No promocionar ningún elemento<br>(solo promociones)] | [!UICONTROL Coincidencia]de atributos de entidad, Coincidencia [!UICONTROL de atributos de]Perfil y Coincidencia [!UICONTROL de parámetros] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]Esta acción es el modo en que gestiona los valores en blanco antes de la agregación de esta opción: no se mostrarán más resultados para este criterio. |
+| [!UICONTROL Uso de un valor estático] | [!UICONTROL Coincidencia]de atributos de entidad, Coincidencia [!UICONTROL de atributos de]Perfil y Coincidencia [!UICONTROL de parámetros] | Si un valor está en blanco, puede optar por usar un valor estático. |
 
 ## Advertencias {#section_A889FAF794B7458CA074DEE06DD0E345}
 
