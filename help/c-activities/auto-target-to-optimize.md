@@ -6,9 +6,9 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 252bea6810e54c0592a14559874f872e39ae261d
 workflow-type: tm+mt
-source-wordcount: '3744'
+source-wordcount: '3731'
 ht-degree: 83%
 
 ---
@@ -125,8 +125,6 @@ Hay varios escenarios en los que puede preferir usar la [!UICONTROL Segmentació
 **El algoritmo se optimiza continuamente para lograr una única métrica de objetivos.**
 
 * Esta métrica puede estar basada en la conversión o en los ingresos (más concretamente, Ingresos por visita).
-
-**El algoritmo no es compatible con el uso de [!DNL Analytics] como fuente de datos o punto final de informes.**
 
 **Target recopila automáticamente información sobre los visitantes para crear los modelos de personalización.**
 
