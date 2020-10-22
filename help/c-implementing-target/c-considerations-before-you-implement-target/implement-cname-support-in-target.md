@@ -6,9 +6,9 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1212'
 ht-degree: 3%
 
 ---
@@ -145,5 +145,5 @@ Utilice el siguiente conjunto de comandos (en el terminal de línea de comandos 
 ## Limitaciones conocidas
 
 * El modo de control de calidad no será persistente cuando tenga CNAME y at.js 1.x porque se basa en una cookie de terceros. La solución consiste en agregar los parámetros de previsualización a cada dirección URL a la que navegue. El modo de control de calidad es persistente cuando tiene CNAME y at.js 2.x.
-* Actualmente, la `overrideMboxEdgeServer` configuración no funciona correctamente con CNAME. Esto debe establecerse como `false` para evitar que las solicitudes falle.
+* Actualmente, la `overrideMboxEdgeServer` configuración no funciona correctamente con CNAME cuando se utilizan versiones de at.js anteriores a at.js 1.8.2 y at.js 2.3.1. Si está utilizando una versión anterior de at.js, debe configurarse como `false` para evitar errores en las solicitudes. Como alternativa, debería considerar [actualizar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) a una versión más reciente y compatible.
 * Cuando se utiliza CNAME es más probable que aumente el tamaño del encabezado de la cookie para las llamadas de Destinatario. Se recomienda mantener el tamaño de la cookie por debajo de 8 KB.
