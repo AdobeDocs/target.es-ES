@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 10%
+source-wordcount: '869'
+ht-degree: 9%
 
 ---
 
@@ -58,7 +58,7 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios:
 * Se han realizado actualizaciones para ayudar a que la IU de Destinatario sea compatible con las Directrices [de accesibilidad del contenido](https://www.w3.org/WAI/standards-guidelines/wcag/) web 2.0 Nivel A y los Criterios de éxito AA (WCAG 2.0 AA). (TGT-34384 y TGT-24679)
 * Se han realizado mejoras en la directiva de seguridad de contenido (CSP). (TGT-37035)
 * Se ha introducido una forma de especificar el código de cliente como parámetro para los clientes que utilizan CNAME. (TNT-38571)
-
+* [!DNL Adobe Experience Cloud] la documentación se está trasladando a [!DNL Experience League]. Durante el mes de octubre, todas las notas de la versión, los artículos, los vídeos y los tutoriales se moverán de su ubicación actual de `docs.adobe.com` a [!DNL Experience League]. Este movimiento garantiza que todo el aprendizaje, la autoayuda, la habilitación y el contenido de la comunidad se proporcionen desde una sola ubicación. Cuando se produce este cambio, no hay nada que hacer, ya que todos los vínculos se redireccionarán a [!DNL Experience League]. Actualizaremos las notas de la versión cuando comience el corte.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
