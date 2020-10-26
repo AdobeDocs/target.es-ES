@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2403'
 ht-degree: 82%
 
 ---
@@ -99,7 +99,7 @@ Activity and content databases, [!DNL Analytics] data, APIs, and marketer user i
 
 Cada clúster de Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y rastrear los datos de análisis de esa solicitud. Las solicitudes de usuario se dirigen al clúster de Edge más cercano.
 
-Para obtener más información, consulte el documento técnico [Información general sobre la seguridad de Adobe Target](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Para obtener más información, consulte el documento técnico [Información general sobre la seguridad de Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
 The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
@@ -108,6 +108,8 @@ Las ubicaciones de clúster central contienen un centro de recopilación de dato
 Los datos de actividad del sitio del cliente son recopilados por los siete clústeres perimetrales más cercanos y dirigidos al destino de clúster central predeterminado del cliente (una de las tres ubicaciones: Oregón, Dublín, Singapur) para su procesamiento. Los datos del perfil de visitante se almacenan en el clúster de Edge más cercano al visitante del sitio (las ubicaciones incluyen las ubicaciones del clúster central y Virginia, Ámsterdam, Sydney, Tokio y Hong Kong).
 
 En lugar de responder a todas las solicitudes de segmentación desde una sola ubicación, el clúster de Edge más cercano al visitante procesa las solicitudes, lo que mitiga el impacto del tiempo de desplazamiento en red/Internet.
+
+![Tipos de mapas de servidores Destinatario](/help/c-intro/assets/target-servers.png)
 
 Los clústeres de destinatario Central, alojados en Amazon Web Services (AWS), se encuentran en:
 
