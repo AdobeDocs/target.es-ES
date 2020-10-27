@@ -5,9 +5,9 @@ title: Anuncios de destinatario
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
@@ -30,8 +30,7 @@ A continuación se ofrece una breve descripción de los tipos de documentación 
 | [Desarrolladores de Adobe Target](http://developers.adobetarget.com/) | La información sobre el sitio de desarrolladores de Adobe Target le ayuda a implementar [!DNL Target] en aplicaciones del lado del cliente, aplicaciones del lado del servidor, aplicaciones móviles, IoT, etc. También puede exportar sus [!DNL Target] datos a soluciones de terceros. |
 | [API de Recommendations de Target](https://developers.adobetarget.com/api/recommendations/) | Información sobre las API de [!UICONTROL Recommendations] que le permiten interactuar mediante programación con los servidores de [!DNL Target] Recomendaciones. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] UI. |
 | [API de envío del servidor](https://developers.adobetarget.com/api/delivery-api/) | Información sobre los recursos que conforman la API de Adobe Target Envío. |
-| [SDK de Node.js](https://github.com/adobe/target-nodejs-sdk) | Información sobre el SDK de Node.js, un sofisticado kit de desarrollo de software que elimina las complejidades de la administración de cookies, sesiones e integración con [!DNL Adobe Experience Cloud] soluciones como [!DNL Target], [!DNL Adobe Analytics], [!DNL Experience Cloud Visitor ID Service], y [!DNL Audience Manager]. |
-| [SDK de Java de destinatario](https://github.com/adobe/target-java-sdk) | Información sobre el SDK de Java, un sofisticado kit de desarrollo de software que elimina la complejidad de administrar cookies, sesiones e integrarlas con [!DNL Adobe Experience Cloud] soluciones como [!DNL Target], [!DNL Adobe Analytics], el [!DNL Experience Cloud Visitor ID Service], y [!DNL Adobe Audience Manager]. |
+| [SDK de destinatario de servidor](https://adobetarget-sdks.gitbook.io/docs/) | Explica cómo implementar [!DNL Target] el servidor mediante SDK. |
 | [Documentación de destinatario Adobe.IO](http://developers.adobetarget.com/api/#introduction) | Información sobre las API de administración y Perfil REST de Adobe Target que utilizan la integración de Adobe.IO para administrar actividades, audiencias, ofertas, propiedades, informes, mboxes, entornos y perfiles. |
 | [SDK de Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Información sobre la implementación [!DNL Target] en aplicaciones móviles. |
 
