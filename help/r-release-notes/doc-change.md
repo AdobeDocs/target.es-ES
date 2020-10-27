@@ -6,7 +6,7 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
 workflow-type: tm+mt
 source-wordcount: '2872'
 ht-degree: 29%
@@ -22,7 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 28 de octubre | [Servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Vínculo añadido al nuevo portal de SDK *[de](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target. |
+| 27 de octubre | [Servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Vínculo añadido al nuevo portal de SDK *[de](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target. |
 |  | [Crear una actividad que utilice Analytics como fuente de sistema de informes](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Información añadida que indica que si está utilizando `analyticsLogging = client_side`, debe pasar el `sessionId` valor a [!DNL Analytics] cuando utilice Analytics como origen de sistema de informes (A4T) con actividades de Destinatario automático. |
 |  | [Implementación de Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Información añadida que indica que para las actividades de [!UICONTROL asignación] automática y de Destinatario  automático que utilizan `analyticsLogging = client_side`, también deberá reenviar el sessionId. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 20.10.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
