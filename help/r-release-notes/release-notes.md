@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 23%
+source-wordcount: '950'
+ht-degree: 26%
 
 ---
 
@@ -20,10 +20,7 @@ Estas notas de la versión proporcionan información sobre características, mej
 
 >[!IMPORTANT]
 >
->* **Adobe nuevamente nombrado líder en el cuadrante mágico de Gartner para motores** de personalización: Una vez más, Adobe fue nombrado Líder en el tercer informe anual del Cuadrante Mágico de Gartner para Motores de Personalización, 2020. El Cuadrante mágico de Gartner para motores de personalización evaluó a los proveedores según 15 criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución. [Lee al respecto en The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
-   >
-   >
-* **Fin de vida útil** de mbox.js: El 18 de enero de 2021, Adobe Target ya no admitirá la biblioteca mbox.js. Después del 18 de enero de 2021, todas las llamadas realizadas desde mbox.js generarán errores e impactarán en las páginas que tengan actividades de Destinatario ejecutándose al proporcionar contenido predeterminado. Recomendamos que todos los clientes migren a la versión más reciente de la biblioteca at.js antes de esta fecha para evitar problemas potenciales con sus sitios. Para obtener más información, consulte [Cómo funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) At.js y [Adobe Target Skill Builder: Chat del desarrollador, migre mbox.js de Adobe Target a at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+>* **Fin de vida útil** de mbox.js: El 18 de enero de 2021, Adobe Target ya no admitirá la biblioteca mbox.js. Después del 18 de enero de 2021, todas las llamadas realizadas desde mbox.js generarán errores e impactarán en las páginas que tengan actividades de Destinatario ejecutándose al proporcionar contenido predeterminado. Recomendamos que todos los clientes migren a la versión más reciente de la biblioteca at.js antes de esta fecha para evitar problemas potenciales con sus sitios. Para obtener más información, consulte [Cómo funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) At.js y [Adobe Target Skill Builder: Chat del desarrollador, migre mbox.js de Adobe Target a at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
    >
    >   
    Aunque actualmente se admite mbox.js, no hemos proporcionado actualizaciones de funciones a esta biblioteca desde julio de 2017. La versión más reciente de at.js ofrece muchas ventajas con respecto a mbox.js. Entre otras ventajas, at.js mejora los tiempos de carga de página para implementaciones web, mejora la seguridad y proporciona mejores opciones de implementación para aplicaciones de una sola página.
@@ -37,59 +34,34 @@ Estas notas de la versión proporcionan información sobre características, mej
 
 Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## Target Standard/Premium 20.9.1 (30 de septiembre de 2020)
+## Target Standard/Premium 20.10.1 (28 de octubre de 2020)
 
-Esta versión de mantenimiento contiene las siguientes mejoras, correcciones y cambios:
-
-* Se ha mejorado la navegación y la funcionalidad para los usuarios que utilizan solo el teclado. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
-* Etiquetas añadidas en la interfaz de usuario para ayudar a los usuarios a utilizar tecnologías de asistencia. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
-* Se ha mejorado el contraste de texto y color para las imágenes y el texto en la interfaz de usuario. (TGT-34513)
-
-## Target Standard/Premium 20.8.3 (15 de septiembre de 2020)
+Esta versión contiene las siguientes nuevas funciones:
 
 | Función | Detalles |
 | --- | --- |
-| ![Compatibilidad con Premium badge](/help/assets/premium.png) Analytics para Destinatario (A4T) para actividades de Destinatario automático | [!UICONTROL Las actividades de Destinatario] automático ahora admiten [Analytics para Destinatario](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Esta integración le permite utilizar el algoritmo de aprendizaje automático del conjunto de Destinatario  automático para elegir una experiencia óptima para cada visitante en función de su perfil, comportamiento y contexto.<br>Si ya ha [implementado A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para su uso con actividades de Prueba A/B y de segmentación de experiencias, ¡ya está todo preparado!<br>Para obtener más información, consulte Compatibilidad [de Analytics para Destinatario (A4T) con la asignación automática y las actividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) de Destinatario automático en la creación *de* Actividades. |
-
-## Target Standard/Premium 20.8.2 (10 de septiembre de 2020)
-
-| Función | Detalles |
-| --- | --- |
-| ![Rangos de recomendaciones de control de distintivo](/help/assets/premium.png) Premium dentro de secuencias de criterios | Las secuencias de criterios ahora permiten controlar el número de ranuras ocupadas por cada criterio de recomendación, lo que le permite mezclar y hacer coincidir distintos tipos de elementos o distintas lógicas de algoritmo.<br>Consulte [Creación de secuencias](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) de criterios para obtener más información. |
-
-## Target Standard/Premium 20.8.1 (2 de septiembre de 2020)
+| [Toma de decisiones en el dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | La toma de decisiones en dispositivos permite tanto a los especialistas en marketing como a los desarrolladores de productos ofrecer experimentación y personalización basada en el aprendizaje automático desde el dispositivo del usuario, en canales y con una latencia cercana a cero.<br>La velocidad y el rendimiento son importantes, tanto en la perspectiva del cliente como en la satisfacción del usuario.<br>La toma de decisiones en el dispositivo permite compilar las instrucciones de personalización y experimentación clave en los tipos de actividad Prueba A/B y Segmentación de experiencias (XT) en &quot;artefactos de optimización:&quot; objetos JSON que se cargan en dispositivos cliente mediante la CDN. Y como la toma de decisiones en dispositivos se conecta de forma nativa con [!DNL Adobe Experience Cloud] [!DNL Target] los productos, los usuarios obtienen una análisis rápida y una experiencia más rápida de iteraciones.<br>Para obtener más información, consulte *[Introducción a la toma de decisiones](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* en dispositivos en la Guía *de SDK de* Adobe Target.<br>**Regístrese ahora para un seminario web en directo.** Únase a los expertos en productos de Adobe Target para analizar cómo mover las decisiones de optimización de experiencias críticas en el dispositivo para que se ejecuten localmente con latencia cero puede abrir las puertas a nuevos casos de uso interesantes y mejorar el rendimiento del sitio para sus clientes.<ul><li>10 de noviembre de 2020</li><li>10 a.m. PT / 12 p.m. CT / 1 p.m. ET</li><li>[Registrarse aquí](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 Esta versión contiene las siguientes mejoras, correcciones y cambios:
 
-* Se ha corregido un problema que provocaba que se mostraran errores al cargar las nuevas páginas de [!UICONTROL administración] después de cambiar de organización. (TGT-37730)
-* Se ha corregido un problema de visualización que provocaba que se mostrara el código de cliente incorrecto en la página [!UICONTROL Administración > Implementación] . (TGT-37849)
-* Se ha corregido un problema que, en ocasiones, impedía a los usuarios utilizar las funciones de edición del Compositor [!UICONTROL de experiencias] visuales (VEC) después de cargar correctamente el VEC. (TGT-37162)
-* Se ha corregido un problema que impedía que las páginas se cargaran en el VEC y en el Compositor de experiencias mejorado (EEC) aunque se instalara la extensión del asistente de VEC. Esto se debió a los cambios en Google Chrome 80+. Descargue la extensión [](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)VEC Helper actualizada. (TGT-37893)
-* Se ha corregido un problema que, en ocasiones, impedía a los usuarios descargar at.js desde la página [!UICONTROL Administración > Implementación] después de cambiar de organización. (TGT-37668)
-* El botón de descarga de at.js ahora está desactivado mientras se carga para evitar que se envíen varias solicitudes si los usuarios hacen clic varias veces en el botón de descarga. [!DNL Target] (TGT-37633)
-* Se ha corregido un problema en las actividades de [!UICONTROL Segmentación] de experiencias (XT) que hacía que las experiencias mostraran &quot;obteniendo resultados&quot; durante un período de tiempo prolongado. (TGT-37684)
-* Se ha mejorado la navegación y la funcionalidad para los usuarios que utilizan solo el teclado. (TGT-34479 y TGT-34473)
-* Etiquetas añadidas en la interfaz de usuario para ayudar a los usuarios a utilizar tecnologías de asistencia. (TGT-34480)
-* Se ha mejorado el mensaje de error al eliminar una ventanilla móvil que se está utilizando en una actividad. El mensaje de error ahora es: &quot;Esta ventanilla está asociada actualmente a una o varias actividades. Debe quitar la ventanilla de esas actividades antes de poder eliminarla&quot;. (TGT-37030)
-* Se ha añadido la compatibilidad en el VEC para permitir el seguimiento de clics en un selector css que coincida con más de un elemento de la página. (TGT-37323)
-* Se ha corregido un problema que impedía que algunos usuarios mostraran la lista de [!UICONTROL Actividad] . Se mostraba el siguiente mensaje de error: &quot;No se pueden recuperar las sugerencias de URL.&quot; El error se producía para los usuarios que utilizaban retornos de carro en su Nombre (FirstName/r/n) en el sistema back-end de Adobe. (TGT-37330)
-* Se ha corregido un problema que impedía que los usuarios mostraran la página de [!UICONTROL Actividad] si el nombre del espacio de trabajo (especificado en [!UICONTROL Adobe Admin Console para Enterprise]) contenía un apóstrofe. (TGT-37709)
-* Se corrigió un problema en actividades de asignación  automática al seleccionar métricas de optimización y conversión, en el cual un mensaje de error informaba incorrectamente a los usuarios de seleccionar un grupo de informes, aunque ya se hubiera especificado un grupo de informes. (TGT-37689)
-* Se corrigió un problema que en ocasiones causaba que las métricas de la página [!UICONTROL Objetivos y configuración] estuvieran en blanco después de navegar a la página [!UICONTROL Objetivo] y volver a ella. (TGT-37691)
-* Se ha corregido un problema que provocaba un valor modificado por última vez incorrecto para [!DNL Recommendations] los criterios. (TGT-37666)
-* Se ha corregido un problema que provocaba que los ID de mbox se mostraran en la lista desplegable Mboxes en lugar de en los nombres de mbox. (TGT-37739)
+* Se ha corregido un problema que impedía que el intervalo [!UICONTROL de confianza y la] confianza [!UICONTROL de alza promedio se mostraran en] sistema de informes para la fila [!DNL Auto-Target] Total  . Las mediciones se muestran correctamente para todas las experiencias individuales. (TGT-37301)
+* Se ha corregido un problema que afectaba [!DNL Adobe Target Premium] al sistema de informes de Destinatario  automático de los usuarios desde el 15 de septiembre a las 2:30 p.m. (PDT) hasta el 6 de octubre, 9:25 a.m. (PDT). Al ver los informes de las métricas de conversión afectadas (configurados con la opción &quot;[!UICONTROL Visualizó una página]&quot; o &quot;[!UICONTROL Se hizo clic en el mbox]&quot;), las tasas de conversión se registran de manera incorrecta. No se conoce ningún problema de envío en este momento. Para obtener información sobre cómo volver a sincronizar y corregir el sistema de informes, consulte sistema de informes [de Destinatario](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) automático en Problemas ** resueltos en problemas *conocidos y problemas* resueltos.
+* Se añadió una columna [!UICONTROL Última actualización] seleccionable en la tabla Búsqueda [!UICONTROL de] catálogo y un filtro [!UICONTROL Última actualización en] . Esta mejora ahorra tiempo y esfuerzo porque no tiene que abrir cada elemento individual para ver cuándo se actualizó por última vez y puede filtrar por fecha la última vez que se actualizaron los elementos.
+
+   ![Última actualización en la ilustración de la columna y el filtro](/help/r-release-notes/assets/column-and-filter.png)
+
+* Se han realizado actualizaciones para ayudar a que la IU de Destinatario sea compatible con las Directrices [de accesibilidad del contenido](https://www.w3.org/WAI/standards-guidelines/wcag/) web 2.0 Nivel A y los Criterios de éxito AA (WCAG 2.0 AA). (TGT-34384 y TGT-24679)
+* Se han realizado mejoras en la directiva de seguridad de contenido (CSP). (TGT-37035)
+* Se ha introducido una forma de especificar el código de cliente como parámetro para los clientes que utilizan CNAME. (TNT-38571)
+* [!DNL Adobe Experience Cloud] la documentación se está trasladando a [!DNL Experience League]. Durante el mes de octubre, todas las notas de la versión, los artículos, los vídeos y los tutoriales se moverán de su ubicación actual de `docs.adobe.com` a [!DNL Experience League]. Este movimiento garantiza que todo el aprendizaje, la autoayuda, la habilitación y el contenido de la comunidad se proporcionen desde una sola ubicación. Cuando se produce este cambio, no hay nada que hacer, ya que todos los vínculos se redireccionarán a [!DNL Experience League]. Actualizaremos las notas de la versión cuando comience el corte.
 
 ## Notas de la versión adicionales y detalles de la versión
 
 | Recurso | Detalles |
 |--- |--- |
-| [Notas de la versión: API de Destinatario del lado del servidor](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Notas de la versión relacionadas con las API de servidor de Adobe Target. |
-| [Notas de la versión: SDK de Node.js de Destinatario](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Notas de la versión relacionadas con el SDK de Node.js de Adobe Target. |
-| [Notas de la versión: SDK de Java de Destinatario](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Notas de la versión relacionadas con el SDK de Java de Adobe Target. |
-| [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Detalles sobre los cambios en cada versión de la biblioteca JavaScript de Adobe Target at.js. |
-| [Detalles de la versión de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md) | Esta página muestra cambios realizados a cada versión de mbox.js.<br>Tenga en cuenta que la biblioteca mbox.js ya no se está desarrollando. Todos los clientes deberían migrar de mbox.js a at.js. |
+| [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScript de at.js. [!DNL Adobe Target]. |
 
-## Cambios de la documentación, notas de versiones anteriores y notas de la versión de Experience Cloud {#section_1BC5F5208DA548E9B4344A0836E4B943}
+## Cambios de la documentación, notas de versiones anteriores y notas de la versión de Experience Cloud
 
 Además de las notas de cada versión, los recursos siguientes también contienen información adicional:
 
