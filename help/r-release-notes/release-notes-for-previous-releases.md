@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '29840'
+ht-degree: 86%
 
 ---
 
@@ -23,6 +23,14 @@ Notas de la versión de versiones anteriores de Destinatario, incluidas las nota
 >Consulte [Notas de la versión de Target (actual)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión - 2020
+
+### Target Standard/Premium 20.9.1 (30 de septiembre de 2020)
+
+Esta versión de mantenimiento contiene las siguientes mejoras, correcciones y cambios:
+
+* Se ha mejorado la navegación y la funcionalidad para los usuarios que utilizan solo el teclado. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
+* Etiquetas añadidas en la interfaz de usuario para ayudar a los usuarios a utilizar tecnologías de asistencia. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
+* Se ha mejorado el contraste de texto y color para las imágenes y el texto en la interfaz de usuario. (TGT-34513)
 
 ### Target Standard/Premium 20.8.3 (15 de septiembre de 2020)
 
@@ -272,21 +280,17 @@ La versión Target Standard/Premium 20.1.1 es una versión de mantenimiento que 
 
 * Se agregó compatibilidad con la configuración proxy debido a una contribución de código abierto de @hisham-hassan.
 
-Para obtener más información, consulte [Notas de la versión: SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)de Java de Destinatario.
-
 ### Destinatario Java SDK versión 1.0.1 (11 de noviembre de 2019)
 
 Se ha solucionado el siguiente problema en la versión 1.0.1:
 
 * Envíe un ID de datos suplementario en una solicitud de Destinatario incluso cuando no haya una cookie de API de Visitante presente.
 
-Para obtener más información, consulte [Notas de la versión: SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)de Java de Destinatario.
-
 ### Plataforma de destinatario (31 de octubre de 2019)
 
 | Función.  / Mejora | Descripción |
 | --- | --- |
-| Java SDK | El SDK de [!DNL Target] Java permite implementar [!DNL Target] el servidor. Este SDK de Java le ayuda a integrarse fácilmente [!DNL Target] con otras [!DNL Adobe Experience Cloud] soluciones, como [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]y [!DNL Adobe Audience Manager].<br>El SDK de Java presenta prácticas recomendadas y elimina las complejidades al integrarlo con [!DNL Target] nuestra API de envío, de modo que sus equipos de ingeniería puedan centrarse en la lógica empresarial. Las siguientes son funciones destacadas que presentamos en la versión más reciente:<ul><li>Compatibilidad con la recuperación previa y las notificaciones que le permiten optimizar el rendimiento mediante almacenamiento en caché.</li><li>Compatibilidad para optimizar el rendimiento cuando se dispone de una integración híbrida de [!DNL Target] en las páginas web y en el servidor. Estamos introduciendo una configuración llamada `serverState` que se rellena con las experiencias recuperadas a través del servidor para que at.js 2.2 ya no realice una llamada adicional al servidor para recuperar las experiencias. Este método optimiza el rendimiento de carga de la página.</li><li>Compatibilidad con la recuperación de actividades creadas por VEC mediante el SDK de Java, lo cual es posible gracias a la nueva API de Envío.</li><li>Abra source para que los desarrolladores puedan contribuir al SDK [Java de](https://github.com/adobe/target-java-sdk)Destinatario.</li></ul>Para obtener más información, consulte [Notas de la versión: SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)de Java de Destinatario.<br>Obtenga más información sobre el SDK de Java de Destinatario en el blog técnico de Adobe: Optimización del lado del [servidor con el nuevo SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)de Java de Destinatario. |
+| Java SDK | El SDK de [!DNL Target] Java permite implementar [!DNL Target] el servidor. Este SDK de Java le ayuda a integrarse fácilmente [!DNL Target] con otras [!DNL Adobe Experience Cloud] soluciones, como [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]y [!DNL Adobe Audience Manager].<br>El SDK de Java presenta prácticas recomendadas y elimina las complejidades al integrarlo con [!DNL Target] nuestra API de envío, de modo que sus equipos de ingeniería puedan centrarse en la lógica empresarial. Las siguientes son funciones destacadas que presentamos en la versión más reciente:<ul><li>Compatibilidad con la recuperación previa y las notificaciones que le permiten optimizar el rendimiento mediante almacenamiento en caché.</li><li>Compatibilidad para optimizar el rendimiento cuando se dispone de una integración híbrida de [!DNL Target] en las páginas web y en el servidor. Estamos introduciendo una configuración llamada `serverState` que se rellena con las experiencias recuperadas a través del servidor para que at.js 2.2 ya no realice una llamada adicional al servidor para recuperar las experiencias. Este método optimiza el rendimiento de carga de la página.</li><li>Compatibilidad con la recuperación de actividades creadas por VEC mediante el SDK de Java, lo cual es posible gracias a la nueva API de Envío.</li><li>Abra source para que los desarrolladores puedan contribuir al SDK [Java de](https://github.com/adobe/target-java-sdk)Destinatario.</li></ul>Obtenga más información sobre el SDK de Java de Destinatario en el blog técnico de Adobe: Optimización del lado del [servidor con el nuevo SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)de Java de Destinatario. |
 
 ### Target Standard/Premium 19.10.2 (31 de octubre de 2019)
 
@@ -337,8 +341,8 @@ Para obtener más información, consulte [Notas de la versión: SDK](/help/c-imp
 
 | Función.  / Mejora | Descripción |
 | --- | --- |
-| SDK de Node.js versión 1.0 | El SDK de Node.js de Destinatario permite implementar Destinatario en el servidor.<br>Este SDK de Node.js ayuda a integrar fácilmente el Destinatario con otras soluciones Experience Cloud, como Adobe Experience Cloud Identity Service, Adobe Analytics y Adobe Audience Manager.<br>El SDK de Node.js presenta prácticas recomendadas y elimina las complejidades al integrarse con Adobe Target a través de nuestra API de envío para que sus equipos de ingeniería puedan centrarse en la lógica empresarial. Las siguientes son funciones destacadas que presentamos en la versión más reciente:<ul><li>Compatibilidad con la recuperación previa y las notificaciones que le permiten optimizar el rendimiento mediante almacenamiento en caché.</li><li>Compatibilidad para optimizar el rendimiento cuando se dispone de una integración híbrida de Destinatario tanto en las páginas web como en el servidor. Estamos introduciendo una configuración llamada `serverState` que se rellenará con las experiencias recuperadas a través del servidor para que at.js 2.2 ya no realice una llamada adicional al servidor para recuperar las experiencias. Este método optimiza el rendimiento de carga de la página.</li><li> Compatibilidad con la recuperación de actividades creadas por VEC mediante el SDK Node.js, lo cual es posible gracias a la nueva API de Envío.</li><li>Abra source para que los desarrolladores puedan contribuir al SDK de Node.js.</li></ul><br>Para obtener más información, consulte [Notas de la versión: SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)de Destinatario Node.js. |
-| API de envío | Hay disponible un extremo de API de envío completamente nuevo (/v1/envío) en producción. Las características destacables son:<ul><li>Un punto final para recuperar experiencias para uno o varios mboxes.</li><li>Recupere actividades creadas por VEC mediante la API.</li><li>Compatibilidad con un objeto completamente nuevo llamado Vistas que se utiliza en aplicaciones de una sola página (SPA) y aplicaciones móviles.</li></ul><br>Para obtener más información, consulte [Notas de la versión: Destinatario de las API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)del lado del servidor. |
+| SDK de Node.js versión 1.0 | El SDK de Node.js de Destinatario permite implementar Destinatario en el servidor.<br>Este SDK de Node.js ayuda a integrar fácilmente el Destinatario con otras soluciones Experience Cloud, como Adobe Experience Cloud Identity Service, Adobe Analytics y Adobe Audience Manager.<br>El SDK de Node.js presenta prácticas recomendadas y elimina las complejidades al integrarse con Adobe Target a través de nuestra API de envío para que sus equipos de ingeniería puedan centrarse en la lógica empresarial. Las siguientes son funciones destacadas que presentamos en la versión más reciente:<ul><li>Compatibilidad con la recuperación previa y las notificaciones que le permiten optimizar el rendimiento mediante almacenamiento en caché.</li><li>Compatibilidad para optimizar el rendimiento cuando se dispone de una integración híbrida de Destinatario tanto en las páginas web como en el servidor. Estamos introduciendo una configuración llamada `serverState` que se rellenará con las experiencias recuperadas a través del servidor para que at.js 2.2 ya no realice una llamada adicional al servidor para recuperar las experiencias. Este método optimiza el rendimiento de carga de la página.</li><li> Compatibilidad con la recuperación de actividades creadas por VEC mediante el SDK Node.js, lo cual es posible gracias a la nueva API de Envío.</li><li>Abra source para que los desarrolladores puedan contribuir al SDK de Node.js.</li></ul> |
+| API de envío | Hay disponible un extremo de API de envío completamente nuevo (/v1/envío) en producción. Las características destacables son:<ul><li>Un punto final para recuperar experiencias para uno o varios mboxes.</li><li>Recupere actividades creadas por VEC mediante la API.</li><li>Compatibilidad con un objeto completamente nuevo llamado Vistas que se utiliza en aplicaciones de una sola página (SPA) y aplicaciones móviles.</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 de septiembre de 2019)
 
