@@ -8,10 +8,10 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 86%
+source-wordcount: '1548'
+ht-degree: 87%
 
 ---
 
@@ -162,9 +162,6 @@ ht-degree: 86%
       + [Usar servicio de ubicación](/help/c-target-mobile-app/use-location-service.md)
    + Servidor: implementación de Target {#server-side}
       + [Servidor: información general sobre la implementación de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Notas de la versión: API de Destinatario del lado del servidor](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Notas de la versión: SDK de Node.js de Destinatario](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Notas de la versión: SDK de Java de Destinatario](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Transición de las API heredadas de Target a Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + [Implementación híbrida](/help/c-implementing-target/hybrid-implementation.md)
    + Correo electrónico: implementación de Target {#implement-email}
