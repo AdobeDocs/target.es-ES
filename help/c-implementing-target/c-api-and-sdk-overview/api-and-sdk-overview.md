@@ -1,22 +1,22 @@
 ---
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Información sobre las API de envío del lado del servidor de Adobe Target, el SDK de Node.js y las API de Recommendations de Destinatario.
+description: Información sobre las API de envío de Adobe Target de parte del servidor, los SDK y las API de Recommendations de Destinatario.
 title: Información sobre las API de envío del lado del servidor de Adobe Target, el SDK de Node.js y las API de Recommendations de Destinatario.
 feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 21%
+source-wordcount: '388'
+ht-degree: 20%
 
 ---
 
 
 # Servidor: implementación de Target{#server-side-implement-target}
 
-Información sobre [!DNL Adobe Target] las API de envío del lado del servidor, el SDK de Node.js y [!DNL Target Recommendations] las API.
+Información sobre las API, los SDK y [!DNL Adobe Target] las API de envío del lado del servidor [!DNL Target Recommendations] .
 
 El proceso siguiente se produce en una implementación del lado del servidor de [!DNL Target]:
 
@@ -26,6 +26,10 @@ El proceso siguiente se produce en una implementación del lado del servidor de 
 1. El servidor toma la decisión de la experiencia que se debe ofrecer al dispositivo cliente para que se represente.
 
 No es necesario que la experiencia se muestre en un explorador. La experiencia se puede mostrar en un correo electrónico o en un quiosco, a través de un asistente de voz, o a través de otra experiencia no visual o dispositivo no basado en explorador. Dado que su servidor se encuentra entre el cliente y [!DNL Target], este tipo de implementación también es ideal si necesita mayor control y seguridad o si tiene procesos backend complejos que desee ejecutar en el servidor.
+
+>[!NOTE]
+>
+>Un visitante por primera vez solo se puede inicializar en el lado del cliente. Un visitante por primera vez *no se puede* inicializar en el servidor.
 
 Las siguientes secciones proporcionan más información sobre las distintas API y el SDK de NodeJS:
 
