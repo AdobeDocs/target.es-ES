@@ -5,9 +5,9 @@ title: Configuración de informes
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1891'
 ht-degree: 70%
 
 ---
@@ -119,7 +119,7 @@ Haga clic **[!UICONTROL Fechas personalizadas]** para seleccionar intervalos de 
 Los informes tienen las siguientes restricciones de fechas:
 
 * La fecha de inicio del informe debe estar entre los dos últimos años.
-* Los informes diarios tienen un límite de 100 días.
+* Los informes de los grupos de ofertas están limitados a 99 días a partir de la fecha actual.
 * Los informes por horas tienen un límite de 15 días.
 
 ## Configuración {#section_D99CE462107D45CABE0960F820E1E972}
