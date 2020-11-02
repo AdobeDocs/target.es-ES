@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 84%
 
 ---
 
@@ -73,7 +73,11 @@ Aunque estas métricas son negativas, el alza se muestra como si fuera positiva 
 
 ## El grupo de informes que necesito no aparece.   {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-La lista de grupos de informes que aparece en Target Standard/Premium es la lista de grupos de informes que se han configurado para Analytics como fuente de informes para Target. Esto significa que podría no ver todos los grupos de informes que tiene. Si no ve el grupo de informes que está buscando, debe comunicarse con ClientCare para habilitarlo.
+La lista de grupos de informes que aparece en Target Standard/Premium es la lista de grupos de informes que se han configurado para Analytics como fuente de informes para Target. Esto significa que podría no ver todos los grupos de informes que tiene.
+
+Además, si utiliza varias fuentes de sistema de informes, los grupos de informes DEBEN estar presentes también en el origen de sistema de informes predeterminado configurado en Destinatario. De lo contrario, no aparecerán los grupos de informes.
+
+Si aún no ve el grupo de informes que busca, debe ponerse en contacto con ClientCare para habilitarlo.
 
 ## En los informes no veo tantos datos como esperaba. {#section_75002584FA63456D8D9086172925DD8D}
 
