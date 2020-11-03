@@ -5,23 +5,29 @@ title: Prueba A/B
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 130edc89b2c324a0d892a4221f644248e23357a4
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 99%
+source-wordcount: '722'
+ht-degree: 58%
 
 ---
 
 
-# Prueba A/B{#a-b-test}
+# Prueba A/B
 
-Una prueba A/B compara dos o más versiones del contenido de su sitio web para comprobar cuál mejora más las conversiones durante un periodo previamente establecido.
+Una prueba A/B manual compara dos o más versiones del contenido del sitio Web para ver qué versión mejora mejor las conversiones durante un período de prueba previo especificado.
 
-Una prueba A/B (a menudo denominada prueba A/B...N) compara dos o más versiones del contenido de su sitio web para determinar cuál eleva más las conversiones, ventas u otras ventas que identifique. Utilice una prueba A/B para comparar los cambios en las páginas con respecto al diseño de página predeterminado, para determinar qué experiencias generan los mejores resultados.
+>[!NOTE]
+>
+>Además de la actividad de prueba A/B manual (predeterminada) (analizada en esta sección), [!DNL Target] proporciona dos tipos adicionales de actividades de prueba A/B: [!UICONTROL Asignación] automática y Destinatario automático.
+>
+>Consulte [Tipos de actividades](#types) de prueba A/B a continuación para obtener más información.
 
-Las pruebas A/B son especialmente útiles cuando se tiene una hipótesis clara de la forma en que se puede mejorar el rendimiento de la página en función de las métricas de éxito o la publicación de contenido alternativo.
+Una prueba A/B manual (a veces denominada prueba A/B...N) compara dos o más versiones del contenido del sitio web para ver cuál aumenta mejor las conversiones, las ventas u otras métricas que identifique. Utilice una prueba A/B para comparar los cambios en las páginas con respecto al diseño de página predeterminado, para determinar qué experiencias generan los mejores resultados.
 
-Las pruebas A/B son ideales para los cambios de grandes dimensiones que puedan implicar nuevos diseños o un tratamiento de los elementos totalmente diferente. Si el diseño de la prueba no se puede dividir fácilmente en elementos de página individuales, debe ejecutar una prueba A/B antes que una prueba multivariable.
+Las pruebas A/B manuales son especialmente útiles cuando se dispone de una hipótesis clara de formas de mejorar el rendimiento de la página en función de las métricas de éxito o del envío de contenido alternativo.
+
+Las pruebas A/B manuales son adecuadas para cambios de gran tamaño que pueden implicar nuevos diseños o un tratamiento de los elementos totalmente diferente. Si el diseño de la prueba no se puede dividir fácilmente en elementos de página individuales, debe ejecutar una prueba A/B antes que una prueba multivariable.
 
 Al configurar la prueba, se puede determinar el porcentaje de visitantes que verán cada experiencia. Por ejemplo, podría dividir el tráfico uniformemente entre el control y una segunda experiencia; o bien, podría probar una experiencia nueva y más arriesgada al mostrársela a solo el 5 % de su audiencia.
 
@@ -31,7 +37,26 @@ Al configurar la prueba, se puede determinar el porcentaje de visitantes que ver
 
 Cuando el número de experiencias diferentes es superior a cinco y abarcan dos o más ubicaciones, es aconsejable realizar una [prueba MVT](/help/c-activities/c-multivariate-testing/multivariate-testing.md) antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estas son las ubicaciones en las que debería centrarse un especialista en marketing. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es la ubicación más importante para lograr sus objetivos. Una vez que haya determinado qué ubicaciones y contenido son los más útiles para ayudarle a lograr sus objetivos, puede ejecutar una prueba A/B para restringir aún más los resultados, como probar dos imágenes específicas entre sí, o comparar las palabras o los colores de una llamada a la acción. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
 
-## Vídeo de formación: Tipos de actividades (9:03) ![Distintivo de información general](/help/assets/overview.png)
+## Tipos de actividades de prueba A/B {#types}
+
+Además de la actividad de prueba A/B manual (predeterminada) (analizada en esta sección), [!DNL Target] proporciona dos tipos adicionales de actividades de prueba A/B: [!UICONTROL Asignación] automática y Destinatario automático.
+
+| Tipo de actividad | Descripción |
+| --- | --- |
+| Prueba A/B manual | Compara dos o más experiencias para ver cuál mejora más las conversiones durante un periodo de prueba previamente establecido.<br>Esta sección describe cómo configurar una actividad de prueba A/B manual, pero los pasos para los otros tipos de actividades de prueba A/B son similares. |
+| [!UICONTROL Asignación automática] | Identifica un ganador entre dos o más experiencias y entonces redirige el tráfico hacia el ganador para aumentar las conversiones mientras la prueba se ejecuta y aprende.<br>Para obtener más información, consulte [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
+| ![Distintivo](/help/assets/premium.png) Premium de Destinatario [!UICONTROL automático] | Utiliza aprendizaje automático avanzado para personalizar el contenido y dirigir las conversiones identificando múltiples experiencias de alto rendimiento definidas por expertos en marketing; y sirve las experiencias más ajustadas a cada visitante en función de su perfil de usuario y el comportamiento pasado de visitantes similares.<br>Para obtener más información, consulte Destinatario [automático](/help/c-activities/auto-target-to-optimize.md). |
+
+Para obtener más información sobre cuál de estas actividades de prueba A/B es la más adecuada para usted, consulte la guía interactiva de Actividades de [Adobe Target en PDF](/help/c-activities/target-activities-guide.md).
+
+Los pasos para crear los tres tipos de actividades de prueba A/B son similares. Para crear una actividad de asignación  automática o de Destinatario  automático, haga un inicio [creando una actividad](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)de prueba A/B, pero cuando llegue a la página [!UICONTROL Segmentación] , elija el método de asignación de tráfico que desee:
+
+* [!UICONTROL Asignar automáticamente a la mejor experiencia]
+* [!UICONTROL Destinatario automático para una experiencia personalizada]
+
+![Configuración del método de asignación de tráfico](/help/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method.png)
+
+## Vídeo de capacitación: Distintivo ![Información general de tipos de actividades (9:03)](/help/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 
