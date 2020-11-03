@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2913'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Noviembre de 3 | [Resolución de problemas de integración de Analytics y Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Se ha actualizado el siguiente tema de solución de problemas: &quot;El grupo de informes que necesito no se muestra.&quot; |
 | 28 de octubre | [Servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Se añadió la nota de que los visitantes nuevos solo se pueden inicializar en el lado del cliente, no en el lado del servidor. |
 | 27 de octubre | [Servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Vínculo añadido al nuevo portal de SDK *[de](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target. |
 |  | [Crear una actividad que utilice Analytics como fuente de sistema de informes](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Información añadida que indica que si está utilizando `analyticsLogging = client_side`, debe pasar el `sessionId` valor a [!DNL Analytics] cuando utilice Analytics como origen de sistema de informes (A4T) con actividades de Destinatario automático. |
