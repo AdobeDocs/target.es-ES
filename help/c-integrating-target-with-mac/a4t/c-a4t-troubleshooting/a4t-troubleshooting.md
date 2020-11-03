@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 84%
+source-wordcount: '781'
+ht-degree: 80%
 
 ---
 
@@ -71,13 +71,13 @@ Este es un problema conocido.
 
 Aunque estas métricas son negativas, el alza se muestra como si fuera positiva en los informes de Target. Por ejemplo, aunque desee una tasa de salto más baja, la tasa de salto más alta se mostrará como ganadora con el alza más alta. Tenga en cuenta estas métricas y las similares, y si prefiere disminuir o incrementar los números, a la hora de tomar decisiones basadas en los informes.
 
-## El grupo de informes que necesito no aparece.   {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-La lista de grupos de informes que aparece en Target Standard/Premium es la lista de grupos de informes que se han configurado para Analytics como fuente de informes para Target. Esto significa que podría no ver todos los grupos de informes que tiene.
+The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). Esto significa que podría no ver todos los grupos de informes que tiene.
 
-Además, si utiliza varias fuentes de sistema de informes, los grupos de informes DEBEN estar presentes también en el origen de sistema de informes predeterminado configurado en Destinatario. De lo contrario, no aparecerán los grupos de informes.
+Además, si utiliza varios orígenes de sistema de informes, los grupos de informes deben estar presentes en el origen de sistema de informes predeterminado configurado [!DNL Target] ; de lo contrario, no se mostrarán los grupos de informes.
 
-Si aún no ve el grupo de informes que busca, debe ponerse en contacto con ClientCare para habilitarlo.
+If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
 
 ## En los informes no veo tantos datos como esperaba. {#section_75002584FA63456D8D9086172925DD8D}
 
