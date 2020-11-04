@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '29840'
 ht-degree: 86%
@@ -1085,7 +1085,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Actividades de personalización automatizada (AP) y segmentación automática </p> </td> 
-   <td colname="col2"> <p>Encontrará disponibles más directrices en la IU y en la Ayuda para que pueda asignar los porcentajes de tráfico de forma más eficaz en las actividades de personalización automatizada y segmentación automática. </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md#section_AB3656F71D2D4C67A55A24B38092958F" format="dita" scope="local">Determinación de la asignación de tráfico</a> y <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Creación de una actividad de personalización automatizada</a>. </p> </td> 
+   <td colname="col2"> <p>Encontrará disponibles más directrices en la IU y en la Ayuda para que pueda asignar los porcentajes de tráfico de forma más eficaz en las actividades de personalización automatizada y segmentación automática. </p> <p>Para obtener más información, consulte <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Determinación de la asignación de tráfico</a> y <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Creación de una actividad de personalización automatizada</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations: reglas de inclusión, colecciones y exclusiones para criterios personalizados </p> </td> 
@@ -1311,8 +1311,8 @@ Esta versión incluye las siguientes características y mejoras (los números de
    <td colname="col1" class="premium"> <p>Segmentación automática </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Las actividades de segmentación automática ahora admiten la realización de informes en el nivel de segmento. (TGT-22777) </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>Puede cambiar el porcentaje de control para las actividades de segmentación automática. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Las actividades de segmentación automática ahora admiten la realización de informes en el nivel de segmento. (TGT-22777) </p> <p>Para obtener más información, consulte <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>Puede cambiar el porcentaje de control para las actividades de segmentación automática. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Para obtener más información, consulte <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1489,7 +1489,7 @@ Para obtener más información, consulte [Habilitar contenido mixto en el explor
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modo de control de calidad </p> </td> 
-   <td colname="col2"> <p>Realice un control de calidad de actividades sencillo con vínculos de vista previa que nunca cambian, segmentación opcional de audiencias y realización de informes de control de calidad que permanecen segmentados a partir de datos de actividad en directo. </p> <p>Para obtener más información, consulte <a href="../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local">Control de calidad de las actividades </a>. </p> </td> 
+   <td colname="col2"> <p>Realice un control de calidad de actividades sencillo con vínculos de vista previa que nunca cambian, segmentación opcional de audiencias y realización de informes de control de calidad que permanecen segmentados a partir de datos de actividad en directo. </p> <p>Para obtener más información, consulte <a href="/help/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">Control de calidad de las actividades </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1553,7 +1553,7 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras, correcciones y ca
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Segmentación automática </p> </td> 
-   <td colname="col2"> <p>La segmentación automática está ahora disponible para todos los clientes de Target Premium. </p> <p>La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones. </p> <p>Al crear una actividad A/B mediante el flujo de trabajo guiado de tres pasos, tiene la opción de asignar el tráfico mediante la opción <span class="wintitle">Segmentación automática para experiencias personalizadas</span>: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </td> 
+   <td colname="col2"> <p>La segmentación automática está ahora disponible para todos los clientes de Target Premium. </p> <p>La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones. </p> <p>Al crear una actividad A/B mediante el flujo de trabajo guiado de tres pasos, tiene la opción de asignar el tráfico mediante la opción <span class="wintitle">Segmentación automática para experiencias personalizadas</span>: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Para obtener más información, consulte <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  <tbody> 
   <tr> 
    <td colname="col1"> Creación de informes </td> 
-   <td colname="col2"> <p><b>Ver múltiples objetivos/métricas: </b>ahora puede ver varias métricas en las actividades A/B y de segmentación de experiencias (XT), con la excepción de  <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Asignación automática </a> y actividades A/B de <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> segmentación automática </a>. </p> <p>Para obtener más información, consulte <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Ver varias métricas en un informe </a>. </p> </td> 
+   <td colname="col2"> <p><b>Ver múltiples objetivos/métricas: </b>ahora puede ver varias métricas en las actividades A/B y de segmentación de experiencias (XT), con la excepción de  <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Asignación automática </a> y actividades A/B de <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> segmentación automática </a>. </p> <p>Para obtener más información, consulte <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Ver varias métricas en un informe </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1987,7 +1987,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>Primera impresión</b> </p> Segmentación automática en actividades A/B </td> 
-   <td colname="col2"> <p> <p>Nota: La opción “Primera impresión” está activada para algunos clientes en esta versión, para probar y recibir comentarios. </p> </p> <p>Automáticamente, las experiencias de destino en las pruebas A/B sirven de experiencia correcta para el visitante correcto. </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </td> 
+   <td colname="col2"> <p> <p>Nota: La opción “Primera impresión” está activada para algunos clientes en esta versión, para probar y recibir comentarios. </p> </p> <p>Automáticamente, las experiencias de destino en las pruebas A/B sirven de experiencia correcta para el visitante correcto. </p> <p>Para obtener más información, consulte <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2518,7 +2518,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
 
 | Función | Descripción |
 |---|---|
-| Segmentación de entrada de actividad por porcentaje. | Ahora puede limitar entradas en actividades  Actividades [A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) y [multivariable](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) con un porcentaje de visitantes o miembros de audiencia. Por ejemplo, podría limitar las entradas al 50 % de todos los visitantes o al 45 % de la audiencia de California. |
+| Segmentación de entrada de actividad por porcentaje. | Ahora puede limitar entradas en actividades  Actividades [A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) y [multivariable](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) con un porcentaje de visitantes o miembros de audiencia. Por ejemplo, podría limitar las entradas al 50 % de todos los visitantes o al 45 % de la audiencia de California. |
 | Compatibilidad con Ingresos, Pedidos y Participación en Asignar automáticamente | Ahora puede elegir las métricas de participación (RPV), Pedidos e Interacción como objetivos para las actividades A/B con Asignación automática seleccionada. Anteriormente, solo eran compatibles las métricas de conversión. Consulte [Asignación automática del tráfico](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). |
 | Filtrar por fuente | Ahora puede filtrar la lista Actividades por fuente donde se creó la actividad. Las opciones son Adobe Target y Adobe Experience Manager. Consulte  [Actividades](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). |
 | Mejoras de rendimiento de la Personalización automatizada | La se ha rediseñado para que tenga un mejor rendimiento con un gran número de combinaciones de ofertas y ubicaciones. |
@@ -2584,7 +2584,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> <p> Descargar informe de métricas de éxito </p> </td> 
-   <td colname="col2"> <p> Descargar un solo archivo csv con todas las métricas de éxito enumeradas, en lugar de un informe que solo tenía el objetivo de la actividad global. </p> <p>Consulte <a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local">Informes</a>. </p> </td> 
+   <td colname="col2"> <p> Descargar un solo archivo csv con todas las métricas de éxito enumeradas, en lugar de un informe que solo tenía el objetivo de la actividad global. </p> <p>Consulte <a href="/help/c-reports/reports.md" format="dita" scope="local">Informes</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3053,7 +3053,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> <p> Pruebas A/B y Segmentación de experiencias: flujo de creación de actividades de tres pasos </p> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Crear actividades A/B </a>y <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> de segmentación de experiencias </a> en tres pasos en lugar de cuatro. Este cambio hace que los procesos de creación de estas actividades sean más similares a un flujo de trabajo de otros tipos de actividades, como la Personalización automatizada y las Pruebas multivariable. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local"> Crear actividades A/B </a>y <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> de segmentación de experiencias </a> en tres pasos en lugar de cuatro. Este cambio hace que los procesos de creación de estas actividades sean más similares a un flujo de trabajo de otros tipos de actividades, como la Personalización automatizada y las Pruebas multivariable. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analytics como fuente de informes está disponible con la mayoría de tipos de actividades. </p> </td> 
