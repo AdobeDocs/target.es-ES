@@ -6,7 +6,7 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # ![PREMIUM](/help/assets/premium.png) Seleccione el control de la actividad de Automated Personalization o de Segmentación automática
 
-Puede seleccionar una experiencia servida aleatoriamente o una experiencia específica para utilizarla como control al crear una actividad de [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP) o de [Segmentación automática](/help/c-activities/auto-target-to-optimize.md) (AT).
+Puede seleccionar una experiencia servida aleatoriamente o una experiencia específica para utilizarla como control al crear una actividad de [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP) o de [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Esta funcionalidad le permite dirigir el tráfico de control a una experiencia relevante, según el porcentaje de asignación de tráfico configurado en la actividad. Luego puede evaluar los informes de rendimiento del tráfico personalizado respecto al tráfico de control a ese control.
 
