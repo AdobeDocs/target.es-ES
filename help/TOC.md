@@ -8,10 +8,10 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 87%
+source-wordcount: '1555'
+ht-degree: 86%
 
 ---
 
@@ -214,7 +214,8 @@ ht-degree: 87%
          + [Definir métricas](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Varias audiencias de una experiencia en una prueba A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Asignación automática {#auto-allocate}
-      + [Asignación automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Información general de asignación automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Crear una actividad de asignación automática](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpretar informes de asignación automática](c-activities/automated-traffic-allocation/determine-winner.md)
       + [La asignación automática puede proporcionar resultados de prueba más rápidos y mayores ingresos que una prueba manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Segmentación automática](c-activities/auto-target-to-optimize.md)
