@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1393'
 ht-degree: 20%
 
 ---
@@ -79,7 +79,7 @@ Esta integración le permite:
 * Utilice la capacidad multi-armed bandit de asignación [automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)para dirigir el tráfico a las experiencias ganadoras
 * Utilice el algoritmo de aprendizaje automático del conjunto de Destinatario [](/help/c-activities/auto-target-to-optimize.md)automático para elegir la mejor experiencia para cada visitante en función de su perfil, comportamiento y contexto, todo mientras utiliza una métrica de [!DNL Adobe Analytics] objetivos y las capacidades de sistema de informes y análisis enriquecidas [!DNL Adobe Analytics]de los mismos.
 
-Asegúrese de que ha [implementado A4T para utilizarlo con actividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de Prueba A/B y de segmentación de experiencias. Si utiliza `analyticsLogging = client_side`, también debe pasar el `sessionId` valor a [!DNL Analytics]. Para obtener más información, consulte [Adobe Analytics para Destinatario (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) en la Guía de la API de Envío de *Adobe Target*
+Asegúrese de que ha [implementado A4T para utilizarlo con actividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de Prueba A/B y de segmentación de experiencias. Si utiliza `analyticsLogging = client_side`, también debe pasar el `sessionId` valor a [!DNL Analytics]. Para obtener más información, consulte el sistema de informes [](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) Analytics para Destinatario (A4T) en la guía SDK *de* Adobe Target.
 
 En primer lugar:
 
