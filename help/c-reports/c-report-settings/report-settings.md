@@ -5,7 +5,7 @@ title: Configuración de informes
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 70%
@@ -265,7 +265,7 @@ El orden predeterminado de representación del gráfico es el siguiente:
 
 Al trabajar con las opciones de Metodología de contabilización, tenga en cuenta las siguientes advertencias:
 
-* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. El tipo de actividad Segmentación automática es el único que no se puede representar por visitantes.
+* For [Auto-Target activities](/help/c-activities/auto-target/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. El tipo de actividad Segmentación automática es el único que no se puede representar por visitantes.
 * For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
 ## Uso de gráficos con más de 16 experiencias en la actividad
