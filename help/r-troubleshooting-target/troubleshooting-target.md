@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 97%
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,19 @@ Las secciones siguientes contienen información sobre la resolución de problema
 * [Preguntas más frecuentes sobre la optimización y personalización de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Resolución de problemas de las actividades](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL Prueba A/B], [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] (AT)
+### Prueba A/B
 
 * [Nueve escollos comunes de las pruebas A/B y cómo evitarlos](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [Segmentación automática para experiencias personalizadas](/help/c-activities/auto-target/auto-target-to-optimize.md)
+
+### Asignación automática
+
+* [Información general de asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+
+### Segmentación automática
+
+* [Solución de problemas de Destinatario automático y preguntas más frecuentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### Personalización automatizada (AP)
 
