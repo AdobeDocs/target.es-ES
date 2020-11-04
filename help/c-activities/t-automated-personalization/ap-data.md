@@ -5,7 +5,7 @@ title: Recopilación de datos para los algoritmos de personalización de Adobe T
 feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 97%
@@ -17,9 +17,9 @@ ht-degree: 97%
 
  Target recopila y utiliza automáticamente una variedad de datos para crear sus algoritmos de personalización en las actividades de personalización automatizada (AP) y segmentación automática (AT). Cuando un visitante introduce una actividad AP o AT, se pasa una instantánea de información a un conjunto de “registros de formación” (los datos de visitantes que aprenderán los algoritmos de personalización).
 
-Para obtener más información sobre los algoritmos de personalización de Target, consulte  [Algoritmo de bosque aleatorio](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Para obtener más información sobre los algoritmos de personalización de Target, consulte  [Algoritmo de bosque aleatorio](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-La tabla siguiente muestra los datos recopilados por Automated Personalization y Segmentación automática de forma predeterminada, sin que el experto en marketing tenga que hacer nada. También se recoge la nomenclatura utilizada para indicar estos atributos en los [Informes de perspectivas de personalización](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Los datos de entrada establecidos se pueden aumentar en cualquier momento. Para obtener más información acerca de cómo cargar datos adicionales, consulte  [Carga de datos para los algoritmos de personalización de Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+La tabla siguiente muestra los datos recopilados por Automated Personalization y Segmentación automática de forma predeterminada, sin que el experto en marketing tenga que hacer nada. También se recoge la nomenclatura utilizada para indicar estos atributos en los [Informes de perspectivas de personalización](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Los datos de entrada establecidos se pueden aumentar en cualquier momento. Para obtener más información acerca de cómo cargar datos adicionales, consulte  [Carga de datos para los algoritmos de personalización de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Tipo de datos | Descripción | Nomenclatura de los tipos de datos | Atributos de ejemplo |
 | --- | --- | --- | --- |
