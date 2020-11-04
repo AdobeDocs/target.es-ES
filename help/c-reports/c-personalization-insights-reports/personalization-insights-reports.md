@@ -5,7 +5,7 @@ title: Informes de Perspectivas de personalización
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 65%
@@ -53,8 +53,8 @@ Hay disponibles dos informes de perspectivas [!UICONTROL de personalización] :
 
 En los informes de [!UICONTROL Perspectivas de personalización] se representan dos tipos de atributos que se utilizan en los modelos de AP y Segmentación automática:
 
-* **Atributos recopilados automáticamente por :**[!DNL Target] Target utiliza un conjunto de datos base para crear sus algoritmos de personalización en actividades de AP y AT que se reflejan en Perspectivas de personalización. See [Data Collection for Target&#39;s Personalization Algorithms](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) for data types, example attributes, and their [!UICONTROL Personalization Insights] naming convention. Tenga en cuenta que, aunque estos atributos se toman en consideración, los modelos de una actividad concreta podrían no utilizarlos todos en el modelo final.
-* **Atributos pasados a Target:** consulte   [Carga de datos para los algoritmos de personalización de Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **Atributos recopilados automáticamente por :**[!DNL Target] Target utiliza un conjunto de datos base para crear sus algoritmos de personalización en actividades de AP y AT que se reflejan en Perspectivas de personalización. See [Data Collection for Target&#39;s Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md) for data types, example attributes, and their [!UICONTROL Personalization Insights] naming convention. Tenga en cuenta que, aunque estos atributos se toman en consideración, los modelos de una actividad concreta podrían no utilizarlos todos en el modelo final.
+* **Atributos pasados a Target:** consulte   [Carga de datos para los algoritmos de personalización de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] proporciona varias formas de pasar datos adicionales para [!DNL Target] enriquecer el conjunto de datos base utilizado para crear sus algoritmos de personalización en actividades AP y AT:
 
