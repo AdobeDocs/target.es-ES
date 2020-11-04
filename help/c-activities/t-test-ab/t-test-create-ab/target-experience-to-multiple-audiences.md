@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Vamos a probar dos experiencias, un banner con segmentación geográfica y otro 
 
 En este caso, lo que necesitamos son versiones geográficas de la experiencia para poder probar la experiencia segmentada geográficamente con un control no segmentado geográficamente.
 
-1. [Cree una actividad A/B](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) del modo normal.
+1. [Cree una actividad A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) del modo normal.
 
    Al configurar la experiencia que tendrá varias versiones, seleccione la audiencia de cada versión, como vemos en los pasos siguientes.
 
