@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -40,7 +40,7 @@ El contenido que se muestra a los visitantes depende del tipo de actividad que c
 
 ### Prueba A/B
 
-Para obtener más información, consulte [Creación de pruebas A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72).
+Para obtener más información, consulte [Creación de pruebas A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
 El contenido que se muestra en una prueba A/B básica se selecciona aleatoriamente de los recursos que asigna a la actividad, según los porcentajes que elija para cada experiencia. Esta división aleatoria del tráfico puede provocar que se consuma una gran cantidad de tráfico inicial antes de que se nivelen los porcentajes. Por ejemplo, si crea una campaña con dos experiencias, la experiencia inicial se elige de forma aleatoria. Si hay poco tráfico, es posible que el porcentaje de visitantes se desvíe hacia una experiencia. A medida que aumente el tráfico, los porcentajes deberían de igualarse.
 
@@ -59,7 +59,7 @@ Asignación automática identifica un ganador entre dos o más experiencias y re
 
 ### Segmentación automática (AT)
 
-Para obtener más información, consulte [Segmentación automática](/help/c-activities/auto-target-to-optimize.md).
+Para obtener más información, consulte [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 La segmentación automática utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y lograr conversiones.
 
