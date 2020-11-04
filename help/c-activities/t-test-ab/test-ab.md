@@ -5,7 +5,7 @@ title: Descripción general de la prueba A/B
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 6e0605304d99c0a070ad22a232e2ba2246611f94
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -45,7 +45,7 @@ Además de la actividad de prueba  A/B manual (analizada en esta sección), [!DN
 | --- | --- |
 | [!UICONTROL Prueba A/B manual] | Compara dos o más experiencias para ver cuál mejora más las conversiones durante un periodo de prueba previamente establecido.<br>En esta sección se describe cómo configurar una actividad de prueba [!UICONTROL A/] B manual, pero los pasos para los otros tipos de actividades de prueba  A/B son similares. |
 | [!UICONTROL Asignación automática] | Identifica un ganador entre dos o más experiencias y entonces redirige el tráfico hacia el ganador para aumentar las conversiones mientras la prueba se ejecuta y aprende.<br>Para obtener información sobre las ventajas de utilizar una actividad de asignación automática, consulte Asignación [automática](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) en *Cuánto tiempo debe ejecutar una prueba* A/B y una descripción general [de asignación](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automática. |
-| ![Distintivo](/help/assets/premium.png) Premium de Destinatario [!UICONTROL automático] | Utiliza aprendizaje automático avanzado para personalizar el contenido y dirigir las conversiones identificando múltiples experiencias de alto rendimiento definidas por expertos en marketing; y sirve las experiencias más ajustadas a cada visitante en función de su perfil de usuario y el comportamiento pasado de visitantes similares.<br>Para obtener más información, consulte Destinatario [automático](/help/c-activities/auto-target-to-optimize.md). |
+| ![Distintivo](/help/assets/premium.png) Premium de Destinatario [!UICONTROL automático] | Utiliza aprendizaje automático avanzado para personalizar el contenido y dirigir las conversiones identificando múltiples experiencias de alto rendimiento definidas por expertos en marketing; y sirve las experiencias más ajustadas a cada visitante en función de su perfil de usuario y el comportamiento pasado de visitantes similares.<br>Para obtener más información, consulte Destinatario [automático](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 
 Para obtener más información sobre cuál de estas actividades de prueba [!UICONTROL A/] B es la más adecuada para usted, consulte la guía interactiva de Actividades de [Adobe Target en PDF](/help/c-activities/target-activities-guide.md).
 
