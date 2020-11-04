@@ -4,7 +4,7 @@ description: Kit de bienvenida de Adobe Target - Capítulo 7 - Crear y ejecutar 
 title: Kit de bienvenida de Adobe Target - Capítulo 7 - Crear y ejecutar su primera actividad de Destinatario
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Ejemplo: Una aerolínea destinatario a sus miembros de nivel platino con una ofe
 
 ## Ruta 3: Aplicación de IA y automatización para personalizar a escala a visitantes individuales
 
-Puede configurar una actividad controlada por AI para ofrecer la mejor experiencia de varios visitantes seleccionando el Destinatario [](/help/c-activities/auto-target-to-optimize.md) automático en el segundo paso del flujo de trabajo de configuración de la prueba A/B. El uso del Destinatario automático con la primera actividad puede resultar extremadamente útil cuando no sabe qué experiencia tendrá eco en distintos visitantes. Con el Destinatario automático, permite que el aprendizaje automático evalúe y puntee atributos predictivos en tiempo real y determine qué atributos de sus visitantes son los más importantes para determinar qué experiencia se debe ofrecer.
+Puede configurar una actividad controlada por AI para ofrecer la mejor experiencia de varios visitantes seleccionando el Destinatario [](/help/c-activities/auto-target/auto-target-to-optimize.md) automático en el segundo paso del flujo de trabajo de configuración de la prueba A/B. El uso del Destinatario automático con la primera actividad puede resultar extremadamente útil cuando no sabe qué experiencia tendrá eco en distintos visitantes. Con el Destinatario automático, permite que el aprendizaje automático evalúe y puntee atributos predictivos en tiempo real y determine qué atributos de sus visitantes son los más importantes para determinar qué experiencia se debe ofrecer.
 
 Ejemplo: Una empresa de telecomunicaciones que vende varios modelos y marcas de teléfono activa el Destinatario automático para utilizar la automatización y el aprendizaje automático y determinar cuál de cuatro experiencias o ofertas diferentes en la página principal o en la pantalla de apertura de la aplicación móvil responderá mejor a su amplia variedad de visitantes.
 
