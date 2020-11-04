@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '29840'
 ht-degree: 86%
@@ -1311,8 +1311,8 @@ Esta versión incluye las siguientes características y mejoras (los números de
    <td colname="col1" class="premium"> <p>Segmentación automática </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Las actividades de segmentación automática ahora admiten la realización de informes en el nivel de segmento. (TGT-22777) </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>Puede cambiar el porcentaje de control para las actividades de segmentación automática. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Las actividades de segmentación automática ahora admiten la realización de informes en el nivel de segmento. (TGT-22777) </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>Puede cambiar el porcentaje de control para las actividades de segmentación automática. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1553,7 +1553,7 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras, correcciones y ca
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Segmentación automática </p> </td> 
-   <td colname="col2"> <p>La segmentación automática está ahora disponible para todos los clientes de Target Premium. </p> <p>La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones. </p> <p>Al crear una actividad A/B mediante el flujo de trabajo guiado de tres pasos, tiene la opción de asignar el tráfico mediante la opción <span class="wintitle">Segmentación automática para experiencias personalizadas</span>: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </td> 
+   <td colname="col2"> <p>La segmentación automática está ahora disponible para todos los clientes de Target Premium. </p> <p>La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones. </p> <p>Al crear una actividad A/B mediante el flujo de trabajo guiado de tres pasos, tiene la opción de asignar el tráfico mediante la opción <span class="wintitle">Segmentación automática para experiencias personalizadas</span>: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  <tbody> 
   <tr> 
    <td colname="col1"> Creación de informes </td> 
-   <td colname="col2"> <p><b>Ver múltiples objetivos/métricas: </b>ahora puede ver varias métricas en las actividades A/B y de segmentación de experiencias (XT), con la excepción de  <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Asignación automática </a> y actividades A/B de <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> segmentación automática </a>. </p> <p>Para obtener más información, consulte <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Ver varias métricas en un informe </a>. </p> </td> 
+   <td colname="col2"> <p><b>Ver múltiples objetivos/métricas: </b>ahora puede ver varias métricas en las actividades A/B y de segmentación de experiencias (XT), con la excepción de  <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Asignación automática </a> y actividades A/B de <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> segmentación automática </a>. </p> <p>Para obtener más información, consulte <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Ver varias métricas en un informe </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1987,7 +1987,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>Primera impresión</b> </p> Segmentación automática en actividades A/B </td> 
-   <td colname="col2"> <p> <p>Nota: La opción “Primera impresión” está activada para algunos clientes en esta versión, para probar y recibir comentarios. </p> </p> <p>Automáticamente, las experiencias de destino en las pruebas A/B sirven de experiencia correcta para el visitante correcto. </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </td> 
+   <td colname="col2"> <p> <p>Nota: La opción “Primera impresión” está activada para algunos clientes en esta versión, para probar y recibir comentarios. </p> </p> <p>Automáticamente, las experiencias de destino en las pruebas A/B sirven de experiencia correcta para el visitante correcto. </p> <p>Para obtener más información, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Establecimiento de destino automático para experiencias personalizadas</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
