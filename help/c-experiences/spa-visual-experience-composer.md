@@ -6,7 +6,7 @@ feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -28,13 +28,13 @@ El VEC de Adobe Target para SPA aprovecha un nuevo concepto llamado Vistas: un g
 
 Para explicar más sobre las vistas, vamos a navegar por este hipotético sitio de comercio electrónico en línea, implementado en React, y a explorar algunas de las vistas de ejemplo. Haga clic en los vínculos siguientes para abrir el sitio en una nueva pestaña del explorador.
 
-**Vínculo:[Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
+**Vínculo: [Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
 
 ![página de inicio](/help/c-experiences/assets/home.png)
 
 Si vamos a la página de inicio, podemos ver inmediatamente una imagen promocional de Pascua, así como los productos más recientes que venden en el sitio. En este caso, una vista puede definirse como toda la página de inicio. Es práctico tenerlo en cuenta porque se ampliará en la sección Implementación de vistas de Adobe Target, que se describe a continuación.
 
-**Vínculo:[Sitio del producto](https://target.enablementadobe.com/react/demo/#/products)**
+**Vínculo: [Sitio del producto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sitio del producto](/help/c-experiences/assets/product-site.png)
 
@@ -48,7 +48,7 @@ Al principio de esta sección, definimos Vistas como el sitio completo o incluso
 
 Decidimos hacer clic en el botón Cargar más para explorar más productos en el sitio. En este caso, la dirección URL del sitio web no cambia. Sin embargo, aquí, una vista puede representar solamente la segunda fila de productos que se muestra arriba. El nombre de la vista puede ser “PRODUCTS-PAGE-2”.
 
-**Vínculo:[Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Vínculo: [Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de salida](/help/c-experiences/assets/checkout.png)
 
@@ -84,7 +84,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    Veamos algunos ejemplos de casos de uso sobre la invocación de la función `triggerView()` en React para el SPA de comercio electrónico hipotético:
 
-   **Vínculo:[Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
+   **Vínculo: [Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +115,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Vínculo:[Sitio de productos](https://target.enablementadobe.com/react/demo/#/products)**
+   **Vínculo: [Sitio de productos](https://target.enablementadobe.com/react/demo/#/products)**
 
    Veamos un ejemplo que es un poco más complicado. Digamos que como especialistas en marketing queremos personalizar la segunda fila de los productos cambiando el color de la etiqueta Precio a rojo después de que un usuario haga clic en el botón Cargar más.
 
@@ -144,7 +144,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
    }
    ```
 
-   **Vínculo:[Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Vínculo: [Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![Reacción de finalización de compra](/help/c-experiences/assets/react6.png)
 
@@ -343,11 +343,11 @@ Sí, at.js 2.x es compatible con A4T para SPA a través de la función `triggerV
 | [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sí |
 | [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) | Sí |
 | [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | No |
-| [Segmentación automática](/help/c-activities/auto-target-to-optimize.md) | No |
+| [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md) | No |
 | [Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) | No |
 | [Recommendations](/help/c-recommendations/recommendations.md) | No |
 
-**Si instalamos at.js 2.x e implementamos`triggerView()`en nuestras páginas, ¿cómo ejecutamos actividades A/B de la segmentación automática si el VEC de SPA no la admite?**
+**Si instalamos at.js 2.x e implementamos `triggerView()` en nuestras páginas, ¿cómo ejecutamos actividades A/B de la segmentación automática si el VEC de SPA no la admite?**
 
 Si desea utilizar actividades A/B de Segmentación automática puede mover todas las acciones que se ejecutan al evento de Carga de página en el VEC. Pase el ratón sobre cada acción y haga clic en el botón [!UICONTROL Mover al evento de Carga de página]. Hecho esto, puede seleccionar Segmentación automática para el método de asignación de tráfico.
 
