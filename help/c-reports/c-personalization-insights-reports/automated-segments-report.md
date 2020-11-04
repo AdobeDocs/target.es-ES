@@ -5,7 +5,7 @@ title: Informe Segmentos automatizados
 feature: reports
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
@@ -40,7 +40,7 @@ Los distintos visitantes responden de forma diferente a las ofertas y experienci
 
 ## Acceso al informe Segmentos automatizados {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) activity from the list.
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
@@ -145,19 +145,19 @@ Existen varias causas potenciales para que una oferta o experiencia con una tasa
 * Actividades de menor volumen en las que determinadas ofertas y experiencias carecen de modelos construidos, o para las que se construyeron modelos antes para unas ofertas y experiencias que para otras.
 * Las reglas de segmentación de una oferta específica indican qué visitantes pueden ver cada oferta o experiencia.
 
-**¿La información que aparece en los informes[!UICONTROL Segmentos automatizados]y[!UICONTROL Atributos importantes]es la misma que la que aparece en la descarga de CSV?**
+**¿La información que aparece en los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] es la misma que la que aparece en la descarga de CSV?**
 
 No, el informe Interfaz de usuario contiene información seleccionada. La descarga de CSV contiene detalles adicionales. La descarga del informe Perspectivas de segmentos automatizados incluye segmentos automatizados adicionales que se suman a los ya incluidos en la interfaz de usuario, así como información sobre el comportamiento de dichos segmentos ante sus ofertas o experiencias. El informe Atributos importantes incluye los 100 principales atributos de visitante y su importancia relativa, mientras que Interfaz de usuario solo incluye los 10 principales atributos de visitante.
 
-**¿Puedo ver[!UICONTROL Perspectivas de personalización]para un intervalo de fechas personalizado?**
+**¿Puedo ver [!UICONTROL Perspectivas de personalización] para un intervalo de fechas personalizado?**
 
 Los informes de Perspectivas de personalización (tanto [!UICONTROL Segmentos automatizados] como [!UICONTROL Atributos importantes]) solo están disponibles para intervalos de fechas fijos: 15 días, 30 días, 45 días, 60 días y 90 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Puede seleccionar estas duraciones para cualquier fecha de finalización (mientras haya datos suficientes en la actividad para satisfacer la duración).
 
-**¿Cómo se crea[!UICONTROL Perspectivas de personalización]?**
+**¿Cómo se crea [!UICONTROL Perspectivas de personalización]?**
 
 [!UICONTROL Perspectivas de personalización] se crea empleando una técnica de Adobe con patente en trámite llamada MAGIX (Model Agnostic Globally Interpretable Explanations). Puede obtener más información sobre MAGIX en el documento publicado por el equipo de investigación de Adobe en la [página web arXiv.org](https://arxiv.org/abs/1706.07160).
 
-**¿Por qué los datos totales de tráfico de visitantes en el informe[!UICONTROL Segmentos automatizados]no coinciden con mi informe de resumen/rendimiento de AP o AT?**
+**¿Por qué los datos totales de tráfico de visitantes en el informe [!UICONTROL Segmentos automatizados] no coinciden con mi informe de resumen/rendimiento de AP o AT?**
 
 Los informes de [!UICONTROL Perspectivas de personalización] incluyen solo aquellos visitantes para los que los modelos de personalización de Target seleccionaron algún contenido (es decir, no se incluye el tráfico de control ni el tráfico servido por el modelo ganador general). Este tipo de tráfico se denomina tráfico “personalizado”. El informe Resumen de rendimiento de AP/AT incluye el tráfico de control y el tráfico “segmentado”. El tráfico segmentado incluye el tráfico personalizado, así como también el tráfico servido mediante el modelo ganador general y elementos de tráfico aleatorios que se utilizan para profundizar en el aprendizaje.
 
@@ -165,7 +165,7 @@ Los informes de [!UICONTROL Perspectivas de personalización] incluyen solo aque
 
 No, existe superposición entre los segmentos automatizados.
 
-**¿Está disponible[!UICONTROL Perspectivas de personalización]para objetivos de modelado basados en los ingresos o para objetivos principales?**
+**¿Está disponible [!UICONTROL Perspectivas de personalización] para objetivos de modelado basados en los ingresos o para objetivos principales?**
 
 En este momento, [!UICONTROL Perspectivas de personalización] solo está disponible para actividades de optimización de la conversión. En una futura versión añadiremos compatibilidad con las actividades de optimización de los ingresos.
 
