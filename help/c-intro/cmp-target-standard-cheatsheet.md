@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 98%
@@ -64,7 +64,7 @@ Use nuestros [informes para determinar la experiencia ganadora](../c-activities/
 
 **¿Puedo realizar una actividad con un nivel de personalización como parte integral de la actividad?**
 
-Seleccione la opción Destinatario [](/help/c-activities/auto-target-to-optimize.md) automático.
+Seleccione la opción Destinatario [](/help/c-activities/auto-target/auto-target-to-optimize.md) automático.
 
 **¿Cómo puedo saber qué tipo de actividad se ajusta mejor a mis necesidades?**
 
@@ -120,7 +120,7 @@ Esto también es posible. Simplemente [use la opción Guardar disponible para re
 
 **¿Cómo puedo obtener una vista previa y un control de calidad de una actividad que acabo de crear?**
 
-Use nuestra [potente función modo QA](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) para realizar el control de calidad. Puede compartir vínculos con su equipo de control de calidad y también probar la actividad de principio a fin, incluidos los informes, para estar completamente seguro de que, después de que la actividad esté activa, funcione según lo previsto y probado.
+Use nuestra [potente función modo QA](/help/c-activities/c-activity-qa/activity-qa.md) para realizar el control de calidad. Puede compartir vínculos con su equipo de control de calidad y también probar la actividad de principio a fin, incluidos los informes, para estar completamente seguro de que, después de que la actividad esté activa, funcione según lo previsto y probado.
 
 **¿Cómo puedo utilizar el poder de decisión de Target para recibir una experiencia/oferta que se pueda usar en aplicaciones de una sola página (SPA) o integraciones del lado del servidor?**
 
@@ -167,7 +167,7 @@ Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Atributos del cliente](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [Audiencias](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Audiencias](/help/c-integrating-target-with-mac/mmp.md)
 
 ## Experiencias {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
@@ -277,7 +277,7 @@ Eche un vistazo a los siguientes aspectos del producto:
 
 * [Atributos del cliente](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [Audiencias](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Audiencias](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **¿Puedo cortar y fragmentar los informes en múltiples segmentos de usuarios?**
