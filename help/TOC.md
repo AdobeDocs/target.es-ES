@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1565'
 ht-degree: 86%
 
 ---
@@ -218,7 +218,10 @@ ht-degree: 86%
       + [Crear una actividad de asignación automática](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpretar informes de asignación automática](c-activities/automated-traffic-allocation/determine-winner.md)
       + [La asignación automática puede proporcionar resultados de prueba más rápidos y mayores ingresos que una prueba manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
-   + [Segmentación automática](c-activities/auto-target-to-optimize.md)
+   + Segmentación automática {#auto-target}
+      + [Descripción general del Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Creación de una actividad de Destinatario automático](/help/c-activities/auto-target/create-auto-target.md)
+      + [Solución de problemas de Destinatario automático y preguntas más frecuentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
    + Personalización automatizada {#automated-personalization}
       + [Información general sobre la Personalización automatizada](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo de bosque aleatorio](c-activities/t-automated-personalization/algo-random-forest.md)
