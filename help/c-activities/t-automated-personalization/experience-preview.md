@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -20,7 +20,7 @@ Las direcciones URL de previsualización de experiencias se pueden generar para 
 
 >[!NOTE]
 >
->Las direcciones URL de previsualización de experiencias para Automated Personalization difieren del modo de control de calidad de Actividad. El modo de control de calidad de la actividad le permite crear direcciones URL de actividad para otro tipo de actividades. Para obtener más información, consulte [Control de calidad de las actividades](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40).
+>Las direcciones URL de previsualización de experiencias para Automated Personalization difieren del modo de control de calidad de Actividad. El modo de control de calidad de la actividad le permite crear direcciones URL de actividad para otro tipo de actividades. Para obtener más información, consulte [Control de calidad de las actividades](/help/c-activities/c-activity-qa/activity-qa.md).
 >
 >Las direcciones URL de previsualización de experiencias para actividades AP solo están disponibles cuando se utiliza at.js 1.x. Actualmente, las direcciones URL de previsualización de experiencias para actividades AP no son compatibles con at.js 2.x.
 
