@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 90%
@@ -47,7 +47,7 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-La [tarjeta emergente de detalles de definición](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) de la audiencia muestra el nombre del parámetro en la sección Reglas. No hay ninguna referencia al mbox utilizado para el filtrado.
+La [tarjeta emergente de detalles de definición](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) de la audiencia muestra el nombre del parámetro en la sección Reglas. No hay ninguna referencia al mbox utilizado para el filtrado.
 
 >[!NOTE]
 >
