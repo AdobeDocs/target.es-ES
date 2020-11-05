@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2320'
 ht-degree: 98%
@@ -22,11 +22,11 @@ Esta página muestra cambios realizados a cada versión de mbox.js.
 >
 >Es recomendable que todos los usuarios de mbox.js actualicen a la versión 57 u otra más reciente. Algunos usuarios han experimentado problemas de tiempo de espera al no cargar `target.js`. La versión 57 ha corregido ese problema. Sin embargo, si utiliza el servicio [!DNL Experience Cloud Visitor ID], se requiere la versión 58 o posterior.
 
-La forma en la que Target responde a las llamadas provenientes de su página depende de la versión de la biblioteca de Target que esté usando, si está presente la implementación de ID de visitante y si existe el ID de visitante. Para obtener información, consulte   [Respuestas de llamadas de Target por versión de biblioteca](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+La forma en la que Target responde a las llamadas provenientes de su página depende de la versión de la biblioteca de Target que esté usando, si está presente la implementación de ID de visitante y si existe el ID de visitante. Para obtener información, consulte   [Respuestas de llamadas de Target por versión de biblioteca](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
->La biblioteca mbox.js ya no está en desarrollo. Todos los clientes deberían migrar de mbox.js a at.js. Para obtener más información, consulte [Migrar a at.js desde mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>La biblioteca mbox.js ya no está en desarrollo. Todos los clientes deberían migrar de mbox.js a at.js. Para obtener más información, consulte [Migrar a at.js desde mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ## Versión 63 de mbox.js {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -96,7 +96,7 @@ Además, en la versión 60, si el archivo [!DNL visitorAPI.js] está presente pa
 
 * Llamadas asincrónicas de la versión 60
 
-   Al usar la versión 60 con el servicio de ID de visitante, todas las llamadas de mbox se hacen asincrónicamente. Esto supone un cambio en el funcionamiento habitual de los mboxes. Tenga cuidado si actualiza a esta versión. Consulte la sección [Consideraciones asincrónicas](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) de la documentación de [!DNL at.js] ([!DNL at.js] también emplea llamadas asincrónicas) para informarse sobre algunos de los riesgos.
+   Al usar la versión 60 con el servicio de ID de visitante, todas las llamadas de mbox se hacen asincrónicamente. Esto supone un cambio en el funcionamiento habitual de los mboxes. Tenga cuidado si actualiza a esta versión. Consulte la sección [Consideraciones asincrónicas](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) de la documentación de [!DNL at.js] ([!DNL at.js] también emplea llamadas asincrónicas) para informarse sobre algunos de los riesgos.
 * Los casos de visitantes nuevos podrían presentar parpadeo
 
    Al usar las versiones de la 58 a la 60 con el servicio de ID de visitante, las llamadas de mbox esperarán a que el ID del visitante se establezca antes de activarse (o hasta que se agote el tiempo de espera). Esto sucede en la primera carga de página de un visitante nuevo.
