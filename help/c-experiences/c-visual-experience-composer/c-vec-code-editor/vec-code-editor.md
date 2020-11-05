@@ -7,7 +7,7 @@ subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Información sobre la página Modificaciones, que permite ver las modificaciones realizadas en su página y agregar otras (selector de CSS, Mbox y código personalizado).
 
-La página Modificaciones muestra todos los cambios realizados en su página en el Compositor de experiencias visuales (VEC). También permite realizar otros cambios haciendo clic en cada elemento de la página y   [seleccionando una acción](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Cada cambio que realiza aparece como una acción o elemento separado en la lista [!UICONTROL Modificaciones]. También puede añadir modificaciones, incluidos los tipos siguientes: Selector de CSS, Mbox y Código personalizado.
+La página Modificaciones muestra todos los cambios realizados en su página en el Compositor de experiencias visuales (VEC). También permite realizar otros cambios haciendo clic en cada elemento de la página y   [seleccionando una acción](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Cada cambio que realiza aparece como una acción o elemento separado en la lista [!UICONTROL Modificaciones]. También puede añadir modificaciones, incluidos los tipos siguientes: Selector de CSS, Mbox y Código personalizado.
 
 ## Información general sobre modificaciones {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -69,7 +69,7 @@ Utilice la página Modificaciones para:
 
    >[!NOTE]
    >
-   >Nota: para abrir el panel Modificaciones en el Compositor de experiencias basadas en formularios, cree o modifique una oferta HTML. Para obtener más información, consulte [Compositor de experiencias basadas en formularios](../../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
+   >Nota: para abrir el panel Modificaciones en el Compositor de experiencias basadas en formularios, cree o modifique una oferta HTML. Para obtener más información, consulte [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
    La página [!UICONTROL Modificaciones] se abre y la pantalla se divide en un modo visual a la izquierda y el panel Modificaciones a la derecha. Haga clic en el icono [!UICONTROL Acoplar] para acoplar el panel de Modificaciones verticalmente en el lateral de la interfaz de usuario de Target u horizontalmente en la parte inferior. Observe que, en la siguiente ilustración, la Experiencia A no tiene modificaciones previas.
 
@@ -191,7 +191,7 @@ Use la pestaña **[!UICONTROL Código personalizado]** para:
 
 * Agregue plantillas de experiencia de Adobe Target para su uso en código personalizado. Las plantillas de experiencia de Target son muestras precodificadas con entradas configurables que se utilizan para ejecutar casos de uso habituales para expertos en marketing. Estas plantillas de experiencia se proporcionan gratuitamente a los desarrolladores y expertos en marketing como punto de partida para la ejecución de casos de uso comunes, ya sea mediante el VEC o el Compositor de experiencias basadas en formularios. Entre los casos de uso tenemos lightboxes, carruseles, cuentas atrás y muchos más.
 
-   Para obtener más información, consulte [Plantillas de experiencias](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+   Para obtener más información, consulte [Plantillas de experiencias](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
 ## Prácticas recomendadas para código personalizado {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -246,7 +246,7 @@ Cada cambio crea un nuevo elemento en el panel Modificaciones. Como la segunda a
 
 En otras palabras, si agrega un elemento con texto y luego, en una acción aparte, edita dicho elemento con un texto diferente, el panel Modificaciones muestra ambas acciones como elementos separados. Cuando editó el elemento, creó un nuevo elemento que modifica al original que usted creó, y que contiene el texto editado. Si luego elimina el elemento original, el texto editado no podrá encontrar el elemento editado y no se mostrará. El segundo elemento permanece en la lista de elementos, pero no afecta a la página porque el elemento al que cambia ya no existe.
 
-***Un elemento que creé con`document.write`en un script no aparece donde espero que lo haga.***
+***Un elemento que creé con `document.write` en un script no aparece donde espero que lo haga.***
 
 Los scripts se ejecutan de forma asincrónica. Esto a menudo hace que las acciones `document.write` aparezcan en el lugar equivocado de la página. Adobe no recomienda el uso de `document.write` en scripts creados con código personalizado.
 
