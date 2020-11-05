@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 77%
@@ -21,7 +21,7 @@ Use un adbox para enviar imágenes en una implementación fuera del sitio median
 
 Un AdBox es lo mismo que un mbox, con la diferencia de que se controla mediante una dirección URL en lugar de con JavaScript. Los AdBoxes se crean con una dirección URL de AdBox especial que carga un mbox de “publicidad” (o AdBox) en su cuenta de Adobe. Use este AdBox en lugar del mbox en las actividades. Use la URL de AdBox en vez de una referencia de imagen directa para correo electrónico y otras implementaciones no basadas en JavaScript.
 
-Si desea obtener ayuda para decidir la configuración adecuada, consulte   [Implementaciones no basadas en JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Si desea obtener ayuda para decidir la configuración adecuada, consulte   [Implementaciones no basadas en JavaScript](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 1. Cree la dirección URL del AdBox:
 
@@ -43,7 +43,7 @@ Si desea obtener ayuda para decidir la configuración adecuada, consulte   [Impl
 
       Debe tener codificación de dirección URL y ser una referencia absoluta. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
 
-1. Cree [Ofertas de redireccionamiento](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) para cada imagen alternativa.
+1. Cree [Ofertas de redireccionamiento](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) para cada imagen alternativa.
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ Si desea obtener ayuda para decidir la configuración adecuada, consulte   [Impl
 
 1. Cree la actividad.
 
-   Consulte [Implementaciones no basadas en JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) para saber cuál es la configuración apropiada para alcanzar sus metas.
+   Consulte [Implementaciones no basadas en JavaScript](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) para saber cuál es la configuración apropiada para alcanzar sus metas.
 1. Lleve a cabo un control de calidad en la actividad.
 
    Se recomienda crear una página ficticia y confirmar que todas las experiencias, el contenido predeterminado y los informes se comportan del modo esperado en todos los tipos de navegador y en cualquier entorno.
