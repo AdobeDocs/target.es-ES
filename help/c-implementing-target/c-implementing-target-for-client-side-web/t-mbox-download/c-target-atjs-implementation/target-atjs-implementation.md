@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -63,7 +63,7 @@ La biblioteca [!DNL at.js] ofrece varias mejoras con respecto a la biblioteca [!
 
 ## Vídeo de formación: at.js; prácticas recomendadas para la implementación y sus ventajas ![Distintivo de información general](/help/assets/overview.png)
 
-Este vídeo es una grabación de “[Horario de oficina](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
+Este vídeo es una grabación de “[Horario de oficina](/help/cmp-resources-and-contact-information.md)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
 * Cómo funciona la biblioteca at.js
 * Las ventajas de at.js sobre mbox.js
