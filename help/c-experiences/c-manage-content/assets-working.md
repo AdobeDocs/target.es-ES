@@ -5,7 +5,7 @@ title: Trabajar con contenido en la biblioteca
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -19,7 +19,7 @@ Información sobre las tareas que se pueden realizar en un recurso de la bibliot
 
 1. Haga clic en **[!UICONTROL Oferta]**, seleccione la pestaña **[!UICONTROL Oferta de código]** u **[!UICONTROL Oferta de imagen]** y, después, busque el recurso con el que desea trabajar.
 
-   Para obtener más información sobre la búsqueda en la biblioteca de ofertas y la creación de colecciones inteligentes, consulte [Filtro y búsqueda de contenido](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
+   Para obtener más información sobre la búsqueda en la biblioteca de ofertas y la creación de colecciones inteligentes, consulte [Filtro y búsqueda de contenido](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
 1. Pase el ratón sobre el artículo con el que desee trabajar y luego seleccione una acción. Para acceder y realizar algunas de las acciones siguientes, primero debe hacer clic en el icono Seleccionar (la marca de verificación) y, a continuación, elegir la acción que desee (por ejemplo, Eliminar).
 
