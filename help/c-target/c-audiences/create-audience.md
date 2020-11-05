@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 99%
@@ -54,7 +54,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
    Las reglas permiten limitar la audiencia a un subconjunto de los visitantes del sitio.
 1. Seleccione un tipo de regla.
 
-   Cada tipo de regla tiene sus propios parámetros. Consulte [Categorías para audiencias](../../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) para obtener más información sobre cómo configurar cada tipo de regla de audiencia.
+   Cada tipo de regla tiene sus propios parámetros. Consulte [Categorías para audiencias](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) para obtener más información sobre cómo configurar cada tipo de regla de audiencia.
 1. Defina los parámetros de la regla.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
