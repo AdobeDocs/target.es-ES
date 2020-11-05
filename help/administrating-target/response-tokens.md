@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -36,7 +36,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
 
 1. Compruebe que está utilizando la versión 1.1 o posterior de [!DNL at.js].
 
-   Para obtener más información, consulte [Descargar at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Para obtener más información, consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -113,7 +113,7 @@ Las siguientes instrucciones muestran cómo se añade un controlador de evento p
    });
    ```
 
-Puede agregar el siguiente fragmento a la página de [configuración de pie de página de at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) si desea tener todo en un archivo.
+Puede agregar el siguiente fragmento a la página de [configuración de pie de página de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) si desea tener todo en un archivo.
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -139,7 +139,7 @@ Response tokens will be delivered to the [!DNL at.js] Target responses, but not 
 
 Los complementos y los tokens de respuesta estarán disponibles en paralelo; sin embargo, los complementos quedarán obsoletos en el futuro.
 
-**¿Los tokens de respuesta se envían a través de todas las[!DNL Target]respuestas o solo a través de[!DNL Target]respuestas que envían una actividad?**
+**¿Los tokens de respuesta se envían a través de todas las [!DNL Target] respuestas o solo a través de [!DNL Target] respuestas que envían una actividad?**
 
 Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
