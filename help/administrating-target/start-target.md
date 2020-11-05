@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 92%
@@ -49,7 +49,7 @@ Cuando reciba la invitación para unirse a [!DNL Adobe Experience Cloud], acépt
    En este punto, todavía no dispone de ningún grupo configurado con concesiones para su vínculo.
 1. Si lo desea, vea el vídeo de presentación de [!DNL Adobe Experience Cloud].
 1. Para ver sus nuevos privilegios y acceder al producto, cierre la sesión de [!DNL Adobe Experience Cloud] y vuelva a iniciarla.
-1. Continúe con el paso siguiente. [Asignarse a sí mismo la función de aprobador](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+1. Continúe con el paso siguiente. [Asignarse a sí mismo la función de aprobador](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Asígnese a usted mismo la función de aprobador {#task_15CAA437A71444E2932B333D5E66A3C7}
 
