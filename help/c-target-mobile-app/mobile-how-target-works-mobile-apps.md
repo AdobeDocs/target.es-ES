@@ -4,7 +4,7 @@ title: ¿Cómo funciona Target en las aplicaciones móviles?
 feature: mobile implementation
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
@@ -20,7 +20,7 @@ El SDK de Adobe Mobile contacta con el servidor de Target para obtener el conten
 
 Las *ubicaciones de target* también se denominan mbox. Una ubicación identificada en la aplicación se habilita para realizar pruebas o personalizaciones (por ejemplo, el mensaje de bienvenida de la pantalla de inicio). Estas ubicaciones se identifican durante el proceso de creación de la prueba.
 
-Una *[métrica de éxito](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)* es una acción realizada por el usuario que indica si una actividad determinada se realizó correctamente (como iniciar sesión, efectuar una compra o reservar un billete).
+Una *[métrica de éxito](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)* es una acción realizada por el usuario que indica si una actividad determinada se realizó correctamente (como iniciar sesión, efectuar una compra o reservar un billete).
 
 ![](assets/mobile-target-location.png)
 
