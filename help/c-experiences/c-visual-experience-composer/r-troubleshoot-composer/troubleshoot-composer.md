@@ -5,7 +5,7 @@ title: Solución de problemas del Compositor de experiencias visuales y el Compo
 feature: vec
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -21,7 +21,7 @@ El VEC es una de las características principales de Adobe Target. El VEC es un 
 
 El EEC es una extensión del VEC que ayuda a editar una experiencia para un sitio con eliminación de iframes o páginas que aún no incluyen la implementación de Target. Si tiene problemas para abrir su página en el VEC, pruebe el EEC.
 
-Para obtener información acerca del VEC y el EEC, consulte  [Experiencias](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Para obtener información acerca del VEC y el EEC, consulte  [Experiencias](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Tenga en cuenta que algunos problemas afectan tanto al VEC como a la CEE, y algunos problemas afectan solo a uno de los dos compositores. Revise la página apropiada para encontrar más información.
 
