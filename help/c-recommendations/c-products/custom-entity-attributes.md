@@ -6,7 +6,7 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -53,11 +53,11 @@ Cuando un atributo personalizado se envía como matriz de JSON válida, se trata
 
 >[!NOTE]
 >
->Para cambiar un atributo de varios valores a otro que sea de un valor, tiene que eliminar el catálogo y cargar los datos de los productos corregidos. Al eliminar el catálogo, no se eliminan los datos históricos asociados con los identificadores de los productos. Consulte [Eliminar todos los artículos del sistema](../../assets/adobe-recommendations-classic.pdf) en la documentación de *Adobe Recommendations Classic* para obtener más información.
+>Para cambiar un atributo de varios valores a otro que sea de un valor, tiene que eliminar el catálogo y cargar los datos de los productos corregidos. Al eliminar el catálogo, no se eliminan los datos históricos asociados con los identificadores de los productos. Consulte [Eliminar todos los artículos del sistema](/help/assets/adobe-recommendations-classic.pdf) en la documentación de *Adobe Recommendations Classic* para obtener más información.
 
 **Restricciones**:
 
-* No se pueden usar nombres de atributos de entidad predefinidos para atributos de entidad personalizados. (Consulte [Atributos de entidad](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)).
+* No se pueden usar nombres de atributos de entidad predefinidos para atributos de entidad personalizados. (Consulte [Atributos de entidad](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)).
 * El atributo `entity.environment` se reserva para el sistema y no se puede usar en atributos de entidad personalizados. Se hará caso omiso de los intentos de pasar `entity.environment` usando `targetPageParams`, fuentes o API.
 * Las matrices deben contener un solo tipo de valor. Las matrices con valores mezclados (`["AB",1,true]`) no se admiten.
 * Un atributo de varios valores que incluye una matriz de JSON anidada (`[10,12,[1,2,3]]`) se trata como un atributo de un valor.
@@ -263,4 +263,4 @@ Cuando se hace referencia a `entity.genre=["genre1","genre2"]` en un diseño com
 
 ## Temas relacionados:
 
-* [Atributos de entidad](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [Atributos de entidad](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
