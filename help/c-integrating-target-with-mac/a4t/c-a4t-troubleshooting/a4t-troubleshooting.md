@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 80%
@@ -33,7 +33,7 @@ Esto puede deberse a varios motivos:
 
 * La llamada de clasificación realizada de [!DNL Target] a [!DNL Analytics] ha fallado.
 
-   [Póngase en contacto con el servicio de atención al cliente](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para solicitar ayuda.
+   [Póngase en contacto con el servicio de atención al cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para solicitar ayuda.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Esto puede deberse a varios motivos:
 
 ## Los datos de My Analytics muestran un recuento inflado de visitas o visitantes cuando se inicia A4T.   {#section_4BE374E573D44FB7918611699B74F58E}
 
-Para obtener más información, consulte [Minimización de recuentos inflados de visitas y visitantes en A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Para obtener más información, consulte [Minimización de recuentos inflados de visitas y visitantes en A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## El alza estimada en la métrica de ingresos no muestra datos correctos. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -51,7 +51,7 @@ Los detalles de alza y confianza no están disponibles en Analytics. Sin embargo
 
 ## Las actividades no aparecen en los informes de Analytics.   {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Las actividades de A4T requieren que se especifique un servidor de seguimiento. Consulte [Usar un servidor de seguimiento de Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para comprobar si el servidor de seguimiento de Analytics está correctamente configurado.
+Las actividades de A4T requieren que se especifique un servidor de seguimiento. Consulte [Usar un servidor de seguimiento de Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para comprobar si el servidor de seguimiento de Analytics está correctamente configurado.
 
 >[!NOTE]
 >
@@ -94,4 +94,4 @@ Si no ha instalado el depurador, consulte [Introducción al depurador](https://d
 
 Si no hay ningún ID de datos suplementario en la llamada de [!DNL Target], confirme que el archivo [!DNL VisitorAPI.js] se carga antes que [!DNL at.js] o [!DNL mbox.js]. Si no hay ningún ID de datos suplementario en la llamada de [!DNL Analytics], confirme que la llamada de [!DNL Target] se activa antes que la llamada de [!DNL Analytics].
 
-Para obtener más información, consulte [Implementación de Analytics para Target](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) o póngase en contacto con el [Servicio de atención al cliente](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+Para obtener más información, consulte [Implementación de Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) o póngase en contacto con el [Servicio de atención al cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
