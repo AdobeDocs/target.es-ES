@@ -5,7 +5,7 @@ title: Comparación entre Recommendations Classic y actividades de Recommendatio
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,14 +52,14 @@ Para obtener más información, consulte [Recommendations como oferta](/help/c-r
 
 Los criterios están preconfigurados y ordenados por sectores, tipos de página e implementación. Por ejemplo, puede buscar los criterios que se apliquen al vertical minorista, para usarlos en una página de producto, que muestre productos de una categoría en particular (definida por el parámetro `entity.categoryID`).
 
-Para obtener más información sobre el uso y la creación de criterios, consulte [Criterios](../../c-recommendations/c-algorithms/algorithms.md).
+Para obtener más información sobre el uso y la creación de criterios, consulte [Criterios](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Flujo de trabajo {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 El flujo de trabajo de [!DNL Recommendations] se ha simplificado. En lugar de tener que rellenar complicados formularios, solo tiene que seguir un flujo de trabajo visual para:
 
 1. Seleccionar el criterio.
-1. Seleccione un   [diseño](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Seleccione un   [diseño](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Obtener una vista previa de las recomendaciones resultantes.
 
 ## Vista previa   {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
