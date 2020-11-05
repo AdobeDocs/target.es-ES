@@ -6,7 +6,7 @@ feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
@@ -122,7 +122,7 @@ Estas son las razones habituales por las que el sistema deshabilita los scripts 
 * Se hace referencia a una variable sin definir.
 * Se hace referencia a un valor no válido. Esto suele deberse a valores de redirección URL y otros datos introducidos por el usuario sin la validación adecuada.
 * Se están utilizando demasiadas instrucciones JavaScript. Target tiene un límite de 2000 instrucciones JavaScript por script, pero esto no se puede calcular simplemente de forma manual leyendo el JavaScript. Por ejemplo, Rhino trata todas las llamadas de función y “nuevas” llamadas como 100 instrucciones. Esto significa que cualquier llamada a una función consume 100 instrucciones. Además, el tamaño de los datos de entrada, como los valores URL, puede afectar a la contabilización de instrucciones.
-* Elementos no destacados en la sección [prácticas recomendadas](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) a continuación.
+* Elementos no destacados en la sección [prácticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) a continuación.
 
 ## Prácticas recomendadas {#best}
 
@@ -179,7 +179,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
 **¿Es posible utilizar scripts de perfil para capturar información de una página que reside en una capa de datos?**
 
-Los scripts de perfil no pueden leer la página directamente porque se ejecutan en el lado del servidor. Los datos se deben pasar a través de una solicitud de mbox o a través de otros  [métodos de obtención de datos en Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Una vez que los datos están en Target, los scripts de perfil pueden leer los datos como un parámetro de mbox o un parámetro de perfil.
+Los scripts de perfil no pueden leer la página directamente porque se ejecutan en el lado del servidor. Los datos se deben pasar a través de una solicitud de mbox o a través de otros  [métodos de obtención de datos en Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Una vez que los datos están en Target, los scripts de perfil pueden leer los datos como un parámetro de mbox o un parámetro de perfil.
 
 ## Referencia de JavaScript para parámetros de perfil de secuencia de comandos
 
