@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
@@ -94,7 +94,7 @@ Para cambiar el entorno en el informe de una actividad:
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Para obtener más información sobre los entornos, consulte [Hosts](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Para obtener más información sobre los entornos, consulte [Hosts](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ## ¿Por qué el tráfico se divide entre mis experiencias de forma desigual en mi actividad A/B o MVT? {#uneven}
 
