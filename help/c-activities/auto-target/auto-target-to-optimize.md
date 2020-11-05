@@ -6,10 +6,10 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 87%
+source-wordcount: '2014'
+ht-degree: 86%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 87%
 >[!NOTE]
 >
 >La [!UICONTROL segmentación automática] está disponible como parte de la solución [!DNL Target Premium]. Esta característica no está disponible en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información sobre las funciones avanzadas que proporciona esta licencia, consulte [Target Premium](/help/c-intro/intro.md).
+>
+>[!UICONTROL Analytics para Destinatario] (A4T) admite actividades de Destinatario  automático. Para obtener más información, consulte [Creación de una actividad que utilice Analytics como origen](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)de sistema de informes.
 
 ## Historia de éxito real con Destinatario automático {#success}
 
