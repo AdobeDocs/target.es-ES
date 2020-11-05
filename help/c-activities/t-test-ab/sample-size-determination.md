@@ -5,7 +5,7 @@ title: ¿Durante cuánto tiempo se debe ejecutar una prueba A/B?
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
@@ -21,7 +21,7 @@ Es tentador detener una actividad si una de las ofertas muestra un rendimiento m
 
 >[!IMPORTANT]
 >
->Detener una actividad prematuramente es uno de los diez escollos significativos a los que podría caer presa al realizar pruebas A/B. Para obtener más información, consulte [Diez escollos comunes de prueba A/B y cómo evitarlos](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>Detener una actividad prematuramente es uno de los diez escollos significativos a los que podría caer presa al realizar pruebas A/B. Para obtener más información, consulte [Diez escollos comunes de prueba A/B y cómo evitarlos](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 [!DNL Target] proporciona herramientas que le ayudan a garantizar que su actividad tenga un tamaño de muestra lo suficientemente grande como para lograr sus objetivos de conversión: Asignación automática.
 
@@ -37,7 +37,7 @@ The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL La asignación automáti
 
 Al utilizar la función de [!UICONTROL asignación automática], [!DNL Target] muestra un distintivo en la parte superior de la página de la actividad indicando “Ningún ganador aún” hasta que la actividad alcance el número mínimo de conversiones con suficiente confianza. [!DNL Target] luego declara la experiencia ganadora al mostrar un distintivo en la parte superior de la página de la actividad.
 
-For more information, see [Auto-Allocate overview](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Calculadora de tamaño de muestra de Adobe Target.  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
