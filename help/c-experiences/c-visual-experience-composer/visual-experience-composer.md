@@ -4,7 +4,7 @@ title: Compositor de experiencias visuales (VEC) de Adobe Target
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -54,7 +54,7 @@ También puede hacer clic en **[!UICONTROL Examinar]** y navegar a una página q
 >
 >Si un estado de movimiento del cursor por encima depende de JavaScript, asegúrese de que la opción **[!UICONTROL Deshabilitar JavaScript]** no esté seleccionada. JavaScript debe estar habilitado para poder editar los elementos JavaScript.
 
-Para obtener información sobre las opciones disponibles en el VEC, consulte [Opciones del Compositor de experiencias visuales](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Para obtener información sobre las opciones disponibles en el VEC, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
 Puede realizar algunas modificaciones en una página mientras se carga la página (o después de que la página no se haya cargado), o puede cancelar la carga de la página en el VEC. Para obtener más información, consulte:
 
@@ -133,7 +133,7 @@ Los siguientes vídeos contienen más información sobre los conceptos mencionad
 
 ### Horario de oficina: Distintivo ![de tutorial del Compositor de experiencias visuales](/help/assets/tutorial.png)
 
-Este vídeo es una grabación de “[Horario de oficina](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
+Este vídeo es una grabación de “[Horario de oficina](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
 * Cómo funciona el Compositor de experiencias visuales
 * Cómo evitar problemas comunes con el Compositor de experiencias visuales
