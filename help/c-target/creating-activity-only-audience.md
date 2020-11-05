@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Las audiencias solo de actividad proporcionan las siguientes ventajas:
 * Puede utilizar audiencias solo de actividad para crear una audiencia que quiera usar una única vez y que no desee almacenar en la [!UICONTROL Biblioteca de audiencias]. Así se evita que la [!UICONTROL Biblioteca de audiencias] se llene de elementos que no va a volver a utilizar.
 * Las audiencias solo de actividad no pueden verse en la [!UICONTROL Biblioteca de audiencias]. Por ello quedan resguardadas de cualquier cambio no deseado por parte de otros usuarios de la organización.
 
-1. Al crear una [actividad](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página de **[!UICONTROL Target]**, haga clic en el icono Editar audiencia y, a continuación, en **[!UICONTROL Reemplazar audiencia]**.
+1. Al crear una [actividad](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página de **[!UICONTROL Target]**, haga clic en el icono Editar audiencia y, a continuación, en **[!UICONTROL Reemplazar audiencia]**.
 
    ![Resultado del paso](assets/edit_audience.png)
 
@@ -39,7 +39,7 @@ Las audiencias solo de actividad proporcionan las siguientes ventajas:
 
 1. Seleccione un tipo de regla.
 
-   Cada tipo de regla tiene sus propios parámetros. Consulte [Categorías para audiencias](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) para obtener más información sobre cómo configurar cada tipo de regla de audiencia.
+   Cada tipo de regla tiene sus propios parámetros. Consulte [Categorías para audiencias](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) para obtener más información sobre cómo configurar cada tipo de regla de audiencia.
 
 1. Defina los parámetros de la regla.
 1. Haga clic en **[!UICONTROL Guardar]**.
@@ -53,5 +53,5 @@ Tenga en cuenta lo siguiente al trabajar con audiencias solo de actividad:
 * Los refinamientos de actividades existentes se migran a audiencias solo de actividad.
 * Las audiencias solo de actividad tienen un estado de [!UICONTROL Utilizada] o [!UICONTROL No utilizada]. Las audiencias solo de actividad no utilizadas se muestran hasta que la actividad se guarda. Si se dejan sin utilizar e intenta guardarlas, se muestra un mensaje de advertencia que indica que las audiencias solo de actividad no utilizadas se eliminarán.
 * Puede ver los detalles de definición de una audiencia en forma de tarjeta emergente a la que se accede desde el selector de audiencias, sin necesidad de abrir la audiencia.
-* Puede [combinar varias audiencias](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear audiencias solo de actividad.
+* Puede [combinar varias audiencias](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear audiencias solo de actividad.
 
