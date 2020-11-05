@@ -6,7 +6,7 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 29%
@@ -20,7 +20,7 @@ Information about using experience fragments created in [!DNL Adobe Experience M
 
 >[!NOTE]
 >
->This feature requires that you are an [!DNL Adobe Experience Manager] ([!DNL AEM]) customer. Consulte [Requisitos](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A), a continuación, para obtener más información.
+>This feature requires that you are an [!DNL Adobe Experience Manager] ([!DNL AEM]) customer. Consulte [Requisitos](/help/c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A), a continuación, para obtener más información.
 
 ## Información general {#section_95A91830530F493B81C5C9CDB9B783EA}
 
@@ -98,11 +98,11 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 >[!NOTE]
 >
->To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
+>To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
 
 **Para consumir fragmentos de experiencia con el VEC:**
 
-1. En [!DNL Target], mientras crea o edita una experiencia en el Compositor [de experiencias](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)visuales, haga clic en la ubicación de la página en la que desea insertar [!DNL AEM] contenido y, a continuación, seleccione la opción deseada para mostrar la lista [!UICONTROL Elegir un fragmento] de experiencias.
+1. En [!DNL Target], mientras crea o edita una experiencia en el Compositor [de experiencias](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)visuales, haga clic en la ubicación de la página en la que desea insertar [!DNL AEM] contenido y, a continuación, seleccione la opción deseada para mostrar la lista [!UICONTROL Elegir un fragmento] de experiencias.
 
    * [!UICONTROL Insertar antes]
    * [!UICONTROL Insertar después]
@@ -122,16 +122,16 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    Para obtener más información acerca de la configuración de los distintos tipos de actividad, consulte los temas siguientes:
 
    * **Prueba A/B:** [Crear una prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **Asignación automática:** [Asignación automática](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **Asignación automática:** [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **Destinatario automático:** [Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Personalización automatizada (AP):** [Creación de una actividad de personalización automatizada](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **Segmentación de experiencias (XT):** [Crear una actividad de segmentación de experiencias](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **Prueba multivariable (MVT):** [Crear una prueba multivariable](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **Recommendations:** [Crear una actividad de Recommendations](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+   * **Personalización automatizada (AP):** [Creación de una actividad de personalización automatizada](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **Segmentación de experiencias (XT):** [Crear una actividad de segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **Prueba multivariable (MVT):** [Crear una prueba multivariable](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
+   * **Recommendations:** [Crear una actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 **Para consumir fragmentos de experiencia con el Compositor de experiencias basadas en formularios:**
 
-1. In [!DNL Target], while creating or editing an experience in the [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
+1. In [!DNL Target], while creating or editing an experience in the [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
 
    ![](assets/experience_fragment_list.png)
 
