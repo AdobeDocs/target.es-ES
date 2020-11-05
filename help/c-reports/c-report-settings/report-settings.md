@@ -5,7 +5,7 @@ title: Configuración de informes
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 70%
@@ -94,17 +94,17 @@ La lista siguiente describe algunas de las situaciones que pueden provocar que u
 
 ## Métrica de informes {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Haga clic en la lista desplegable **[!UICONTROL Métrica de informes]** para seleccionar una [métrica de éxito](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) diferente o varias métricas que se mostrarán en los gráficos y diagramas.
+Haga clic en la lista desplegable **[!UICONTROL Métrica de informes]** para seleccionar una [métrica de éxito](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) diferente o varias métricas que se mostrarán en los gráficos y diagramas.
 
 De manera predeterminada, la métrica principal se determina al configurar las métricas de éxito al crear la actividad. Si cambia la configuración y vuelve a guardar la actividad, se actualizará la métrica principal para informes.
 
-Para obtener más información acerca de la selección de varias métricas que se deben visualizar en los informes, consulte  [Visualización de varias métricas en un informe](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Para obtener más información acerca de la selección de varias métricas que se deben visualizar en los informes, consulte  [Visualización de varias métricas en un informe](/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Audiencia {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 Haga clic en la lista desplegable [!UICONTROL Audiencia] para cambiar la audiencia mostrada en el informe.
 
-Para obtener más información, consulte [Audiencias](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
+Para obtener más información, consulte [Audiencias](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## Intervalo de fechas {#section_A410A768403C4E01891F95CB357E63ED}
 
@@ -149,7 +149,7 @@ seleccione la experiencia de control que quiere usar para calcular y comparar al
 
 ### Entorno
 
-Seleccione el entorno (grupo de hosts) que se usará para el informe. Para obtener más información, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Seleccione el entorno (grupo de hosts) que se usará para el informe. Para obtener más información, consulte [Hosts](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ### Restablecer datos del informe
 
@@ -161,7 +161,7 @@ Restablezca los datos de sistema de informes para eliminar los datos antiguos. L
 
 ### Excluir valores extremos
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Para obtener más información, consulte [Exclusión de pedidos extremos](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Para obtener más información, consulte [Exclusión de pedidos extremos](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Descargar {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
@@ -169,7 +169,7 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ![Icono de descarga](/help/c-reports/c-report-settings/assets/download-icon.png)
 
-Para obtener más información, consulte [Descarga de datos en un archivo CSV](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Para obtener más información, consulte [Descarga de datos en un archivo CSV](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Actualizar {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -194,7 +194,7 @@ Puede vista del informe en varios formatos, según el tipo de actividad. Selecci
 
 Los informes incluyen varios puntos de datos y representaciones de visualización que comprenden los límites de la elevación y el nivel de confianza asociado a su actividad. Esto le ayuda a determinar un ganador con mayor precisión.
 
-Para obtener más información, consulte [Promedio de alza, límites de alza e intervalo de confianza](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Para obtener más información, consulte [Promedio de alza, límites de alza e intervalo de confianza](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
 
 Tenga en cuenta lo siguiente:
 
