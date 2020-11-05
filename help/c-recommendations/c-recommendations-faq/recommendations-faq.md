@@ -5,7 +5,7 @@ title: Preguntas más frecuentes sobre Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -66,7 +66,7 @@ Si la ubicación en la que aplica los criterios no contiene el Id. de categoría
 
 Si utiliza una ubicación en la que el Id. de categoría está presente en el mbox, el selector de criterio contendrá todos los criterios aplicables.
 
-Target dispone de un ajuste  [Filtrar los criterios no compatibles](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) para controlar el filtrado inteligente del selector de algoritmo.
+Target dispone de un ajuste  [Filtrar los criterios no compatibles](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) para controlar el filtrado inteligente del selector de algoritmo.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Asegúrese de que la audiencia tiene un nombre único. Si le dio a la audiencia 
 
 ## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente?  {#section_20F1AF4839A447B9889B246D6E873538}
 
-No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, recomendamos limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Los límites adicionales en la longitud de las columnas requeridas están disponibles en la  [página Limitaciones de Target](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, recomendamos limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Los límites adicionales en la longitud de las columnas requeridas están disponibles en la  [página Limitaciones de Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## ¿Puedo excluir dinámicamente una entidad?
 
