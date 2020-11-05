@@ -6,7 +6,7 @@ feature: visitor profiles
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 98%
@@ -103,8 +103,8 @@ Explicamos cómo usar una audiencia de [!UICONTROL Afinidad de la categoría] pa
 
 Esta sección contiene la información siguiente:
 
-* [Crear una audiencia para usar la afinidad de la categoría](../../c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
-* [Usar la audiencia de afinidad de la categoría en una actividad](../../c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
+* [Crear una audiencia para usar la afinidad de la categoría](/help/c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
+* [Usar la audiencia de afinidad de la categoría en una actividad](/help/c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
 
 ## Crear una audiencia para usar la afinidad de la categoría {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
