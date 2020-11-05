@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 85%
@@ -23,7 +23,7 @@ El mbox de confirmación de pedido registra los detalles de los pedidos que se r
 >* Si los usuarios realizan compras en su sitio web, le recomendamos que implemente un mbox de confirmación de pedido aunque use los informes de Analytics para Target (A4T).
    >
    >
-* También puede crear un mbox de confirmación de pedido para at.js 1.*x* utilizando el mismo método; sin embargo, se prefiere el [!DNL at.js] método. Para obtener más información, consulte [Conversiones de seguimiento](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* También puede crear un mbox de confirmación de pedido para at.js 1.*x* utilizando el mismo método; sin embargo, se prefiere el [!DNL at.js] método. Para obtener más información, consulte [Conversiones de seguimiento](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
    >
    >
 * Si está utilizando at.js 2.*x*, ya no `mboxCreate` se admite. Para la confirmación de pedidos con at.js 2.*x*, utilice las siguientes API relacionadas con el seguimiento: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) y [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
