@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 98%
@@ -93,7 +93,7 @@ El flujo de trabajo de actividades de personalización automatizada es distinto 
 
 1. (Condicional) Haga clic en **[!UICONTROL Ofertas]** para seleccionar elementos de contenido y asignarlos a grupos de informes o para permitir que solo determinados visitantes vean determinadas ofertas con segmentación.
 
-   Para obtener más información, consulte [Grupos de informes de ofertas en Personalización automatizada](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   Para obtener más información, consulte [Grupos de informes de ofertas en Personalización automatizada](/help/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
 
    Utilice la lista [!UICONTROL Ubicación] para filtrar ofertas por ubicación. Utilice la lista [!UICONTROL Grupo de informes] para filtrar ofertas por grupos de informes. Ahora también puede usar la lista [!UICONTROL Grupo de informes] para filtrar por [!UICONTROL Ofertas no asignadas], de modo que puede asignar un grupo de informes a una oferta que no está actualmente asignada a ningún grupo de informes.
 
@@ -107,7 +107,7 @@ El flujo de trabajo de actividades de personalización automatizada es distinto 
 
    Es importante comprender que los grupos de informes afectan a la forma en la que Target crea sus modelos. Como resultado, le recomendamos que use grupos de informes solo si planea reemplazar o agregar nuevas ofertas mientras la actividad está activa. Si se introduce una nueva oferta en una actividad en vivo, al poner la nueva oferta en un grupo con ofertas similares existentes, la máquina puede usar los datos ya recopilados en relación con las otras ofertas de su grupo para conocer la nueva oferta. Nunca debe colocar todas las ofertas en un solo grupo de informes.
 
-   Para obtener información sobre la segmentación de una oferta para audiencias específicas, consulte [Ofertas PA de Target](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+   Para obtener información sobre la segmentación de una oferta para audiencias específicas, consulte [Ofertas PA de Target](/help/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
 1. (Condicional) Haga clic en **[!UICONTROL Grupos de exclusión]** para elegir cualquier combinación de elementos que desee excluir de la actividad.
 
@@ -171,4 +171,4 @@ El flujo de trabajo de actividades de personalización automatizada es distinto 
 
 Después de hacer clic en **[!UICONTROL Crear]** aparece el Resumen de actividad. Haga clic en **Vista previa de las experiencias** para previsualizar el aspecto de las experiencias cuando se entreguen. Aparece un elemento emergente que puede usar para ver y compartir vínculos a sus experiencias AP en su sitio para obtener una “auténtica vista previa” de las experiencias fuera del Compositor de experiencias visuales de Target. Debe compartir los vínculos del mensaje para compartir la vista previa. Hacer clic en un vínculo y luego copiar la dirección URL directamente desde la página no funcionará porque la dirección URL contiene un parámetro que solo muestra la página correctamente cuando tiene acceso a la página desde el vínculo en el mensaje.
 
-Para obtener información sobre los informes, consulte [Informes de Personalización automatizada](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+Para obtener información sobre los informes, consulte [Informes de Personalización automatizada](/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
