@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 62%
@@ -32,7 +32,7 @@ TLS 1.2 es el valor predeterminado a partir del 1 de marzo de 2020 y ya no se ad
 
 Adobe realizará la migración de sus clientes por etapas a TLS 1.2. Para aquellos cuyos dominios ya cumplan con 1.2, los pasaremos a TLS 1.2 sin que usted tenga que hacer ningún cambio. La mayoría de los dominios de cliente ya admiten TLS 1.2; sin embargo, si su dominio no admite TLS 1.2, mantendremos esos dominios en TLS 1.1 como hoy (hasta marzo de 2020).
 
-No debería tener ningún problema durante esta fase de migración. Si el VEC ha dejado de cargar un sitio que antes funcionaba,   [abra un ticket de Client Care](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) citando esta migración como causa posible.
+No debería tener ningún problema durante esta fase de migración. Si el VEC ha dejado de cargar un sitio que antes funcionaba,   [abra un ticket de Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) citando esta migración como causa posible.
 
 Sin embargo, si usted es uno de esos clientes que están en TSL 1.1 sin admitir TLS 1.2, entonces debería planificar el movimiento de sus dominios/infraestructura a TLS 1.2. Seguiremos admitiendo el protocolo TLS 1.1 hasta el 1 de marzo de 2020. A partir del 1 de marzo de 2020, Destinatario no admitirá el protocolo TLS 1.1 que se utilizará para el VEC mediante la función Compositor de experiencias mejorado.
 
@@ -58,7 +58,7 @@ Cuando planifique este cambio, tenga en cuenta lo siguiente (tenga en cuenta que
 * Tenga presente que el número de visitantes de sus informes de Target puede experimentar una caída insignificante en el número de visitantes.
 * Es posible que deba cambiar las audiencias creadas específicamente para destinatario de dispositivos o navegadores anteriores que no admitan TLS 1.2. El envío a esos dispositivos y navegadores ya no funcionará.
 
-Para conocer más detalles sobre exploradores compatibles y sus versiones, consulte   [Exploradores admitidos](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+Para conocer más detalles sobre exploradores compatibles y sus versiones, consulte   [Exploradores admitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## API de Adobe Target {#section_88797FA5434049EC89F908853CC76903}
 
@@ -70,7 +70,7 @@ A partir del 1 de marzo de 2020, las API de Destinatario ya no admitirán el cif
 
 ## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Debido a que la interfaz de Target Standard/Premium ya requiere un [explorador web actual](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), no se esperan problemas. Si no puede conectarse a Target, deberá actualizar el navegador a la última versión.
+Debido a que la interfaz de Target Standard/Premium ya requiere un [explorador web actual](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), no se esperan problemas. Si no puede conectarse a Target, deberá actualizar el navegador a la última versión.
 
 ## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
