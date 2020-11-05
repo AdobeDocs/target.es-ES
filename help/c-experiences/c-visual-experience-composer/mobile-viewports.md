@@ -5,7 +5,7 @@ title: Ventanillas móviles para experiencias interactivas
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 69%
@@ -21,7 +21,7 @@ La función de previsualización de ventanilla móvil está diseñada para sitio
 
 >[!NOTE]
 >
-> * Use ventanillas móviles si su sitio se adapta y si en la página móvil se usan los mismos elementos que en su página de escritorio, con otra configuración. If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
+> * Use ventanillas móviles si su sitio se adapta y si en la página móvil se usan los mismos elementos que en su página de escritorio, con otra configuración. If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
    >
    >
 * Las ventanillas móviles no están disponibles si quedan superpuestas por una superposición de oferta de redireccionamiento.
@@ -116,7 +116,7 @@ Configure todas las ventanillas móviles que quiera que estén disponibles cuand
    * Symbian
    * BlackBerry
 
-   Si usa el [Compositor de experiencias mejorado](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) y elige un sistema operativo,  imita ese dispositivo cuando visualiza la página. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
+   Si usa el [Compositor de experiencias mejorado](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) y elige un sistema operativo,  imita ese dispositivo cuando visualiza la página. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
