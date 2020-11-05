@@ -6,7 +6,7 @@ feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -22,11 +22,11 @@ Aplicando estas prácticas recomendadas se reduce la probabilidad de encontrar p
 
 ## Prácticas recomendadas {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**En la versión 57 y posteriores de mbox.js, y en at.js, coloque la referencia de mbox.js o at.js en la parte superior de la sección`<head>`de la página.**
+**En la versión 57 y posteriores de mbox.js, y en at.js, coloque la referencia de mbox.js o at.js en la parte superior de la sección `<head>` de la página.**
 
 Si también usa el servicio de API de visitante, coloque el script de la API de visitante encima de mbox.js o at.js.
 
-**En versiones de mbox.js anteriores a la 57, coloque el código de mbox.js lo más abajo posible en la sección`<head>`de la página.**
+**En versiones de mbox.js anteriores a la 57, coloque el código de mbox.js lo más abajo posible en la sección `<head>` de la página.**
 
 Coloque el código mbox.js al final de la sección `<head>` sin ninguna declaración adicional después de él. De no hacerlo así, cualquier etiqueta de script o vínculo se moverá a la sección `<body>`.
 
@@ -99,9 +99,9 @@ Cada cambio crea un nuevo elemento en el Compositor de experiencias visuales. Co
 
 Es decir, si agrega un elemento con texto y luego en una acción separada edita ese elemento con otro texto, el editor de código muestra ambas acciones como elementos separados. Cuando editó el elemento, creó un nuevo elemento que modifica al original que usted creó, y que contiene el texto editado. Si luego elimina el elemento original, el texto editado no podrá encontrar el elemento editado y no se mostrará. El segundo elemento permanece en la lista de elementos, pero no afecta a la página porque el elemento al que cambia ya no existe.
 
-Consulte [Selectores de elementos utilizados en el Compositor de experiencias visuales](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
+Consulte [Selectores de elementos utilizados en el Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
-**Use las etiquetas`<b>`y`<i>`cuando aplique estilo en los elementos de texto con el editor de texto enriquecido.**
+**Use las etiquetas `<b>` y `<i>` cuando aplique estilo en los elementos de texto con el editor de texto enriquecido.**
 
 * Use `<b>` en vez de `<strong>` para el texto en negrita.
 * Use `<i>` en vez de `<em>` para el texto en cursiva.
@@ -112,7 +112,7 @@ Puede que los resultados de las etiquetas `<strong>` y `<em>` no sean los previs
 
 Es posible que sea obligatorio enviar algunos campos de formulario. Si quita esos campos, podría afectar a los envíos.
 
-**No incluya`mboxCreate`dentro de scripts.**
+**No incluya `mboxCreate` dentro de scripts.**
 
 Como `mboxCreate` usa `document.write`, no se recomienda incluir `mboxCreate` en scripts. En cambio, use `mboxDefine` y `mboxUpdate` con el mismo fin.
 
@@ -151,7 +151,7 @@ Por ejemplo, no puede segmentar el texto “Shopping Cart” (Carro de compras) 
 
 En este ejemplo, el elemento de anclaje completo se selecciona en el VEC, lo cual afecta negativamente a otros elementos si se efectúa una segmentación.
 
-**No use las variables`top`ni`self`en código JavaScript.**
+**No use las variables `top` ni `self` en código JavaScript.**
 
 Cuando el Compositor de experiencias mejorado está habilitado, el valor de las variables superiores y automáticas se actualiza para deshabilitar la eliminación de iframes. Use un encabezado de opciones de X-frame para añadir la eliminación de iframes en lugar de códigos personalizados de JavaScript.
 
@@ -190,7 +190,7 @@ Tenga en cuenta las siguientes advertencias cuando use el Compositor de experien
 
 **La función de mover no admite z-index.**
 
-Dado que no hay ninguna funcionalidad z-index, el elemento movido no se puede mover encima de otro elemento. Consulte [Limitaciones](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) para más detalles.
+Dado que no hay ninguna funcionalidad z-index, el elemento movido no se puede mover encima de otro elemento. Consulte [Limitaciones](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) para más detalles.
 
 **La reorganización de elementos afecta al rastreo de clics.**
 
@@ -198,7 +198,7 @@ Si se reorganiza un elemento que está marcado para rastreo de clics, cambiarán
 
 Esto ocurre porque tanto el código para entregar el contenido de la actividad como el código para realizar el seguimiento de clics se incluyen en una parte de código que se entrega a la página. Si va a otra página y configura el rastreo de clics, el código de contenido de la actividad y el código de rastreo de clics se entregan a dicha página. Si la página de seguimiento de clics tiene una estructura de página similar a la de la página donde se ejecuta la prueba, el contenido de la prueba también podría aparecer en la página de seguimiento de clics.
 
-**Es posible que no se pueda insertar un elemento en un`<div>`que sea un mbox.**
+**Es posible que no se pueda insertar un elemento en un `<div>` que sea un mbox.**
 
 Si un mbox contiene una oferta y el mbox se implementa de forma incorrecta, la inserción de un elemento puede aparecer como insertBefore y no como insertAfter.
 
