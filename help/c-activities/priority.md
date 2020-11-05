@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
@@ -29,7 +29,7 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
    Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
 
 1. Se devuelve a la página el contenido de todas las actividades y experiencias con las que el visitante se ve relacionado.
-1. Si el contenido de cada actividad hace referencia a diferentes.  [selectores CSS](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), se muestra todo el contenido.
+1. Si el contenido de cada actividad hace referencia a diferentes.  [selectores CSS](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), se muestra todo el contenido.
 
    Si se produce solapamiento o si hay un selector CSS duplicado, se muestra el contenido de la actividad con mayor prioridad. Los resultados de todas las actividades que se ejecutan en la página se contabilizan y se reflejan en los informes.
 
@@ -90,7 +90,7 @@ If your company uses [!DNL Target] requests other than the global [!DNL Target] 
 
 >[!NOTE]
 >
->Los valores de prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. Para obtener más información, consulte  [Configuración de actividades](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Los valores de prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. Para obtener más información, consulte  [Configuración de actividades](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 **Dos campañas de Destinatario Classic utilizan solicitudes de Destinatario no globales**
 
