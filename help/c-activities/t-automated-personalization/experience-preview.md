@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -26,7 +26,7 @@ Las direcciones URL de previsualización de experiencias se pueden generar para 
 
 Use direcciones URL de previsualización de experiencias para compartir experiencias con miembros del equipo y para realizar un control de calidad en varios exploradores y entornos, sin necesidad de crear una actividad de control de calidad independiente. Esta característica resulta especialmente útil en sitios complejos o si las políticas de seguridad no permiten que el sitio se vea en un simulador.
 
-1. Cree una [actividad de Personalización automatizada](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) o haga clic en la actividad para abrirla.
+1. Cree una [actividad de Personalización automatizada](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) o haga clic en la actividad para abrirla.
 
    No es necesario que la actividad esté activa para poder consultar la vista previa de una experiencia.
 1. En la página de resumen de la actividad, haga clic en los tres puntos verticales y después haga clic en **[!UICONTROL Ver direcciones URL de experiencia]**.
