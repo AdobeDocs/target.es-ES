@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -60,7 +60,7 @@ A la siguiente definición de audiencia se accede haciendo clic en el icono Ver 
 
 ![Actividades > Definición de audiencia](assets/audience_definition_list.png)
 
-Haga clic en la pestaña [!UICONTROL Uso de la audiencia] para ver otras actividades que hacen referencia a esa audiencia, si es aplicable. De esta forma, puede evitar el impacto accidental en otras actividades mientras edita audiencias. La información incluye actividades en vivo, actividades inactivas, actividades archivadas y actividades de sincronización. Esta función está disponible para todas las audiencias (audiencias de biblioteca y  [audiencias solo de actividad](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Haga clic en la pestaña [!UICONTROL Uso de la audiencia] para ver otras actividades que hacen referencia a esa audiencia, si es aplicable. De esta forma, puede evitar el impacto accidental en otras actividades mientras edita audiencias. La información incluye actividades en vivo, actividades inactivas, actividades archivadas y actividades de sincronización. Esta función está disponible para todas las audiencias (audiencias de biblioteca y  [audiencias solo de actividad](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Si una audiencia se combina con otra audiencia y la audiencia combinada se usa para crear una actividad, la información de uso de ambas audiencias mostrará esa actividad recién creada.
 
