@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3369'
 ht-degree: 75%
@@ -41,8 +41,8 @@ Asignación automática asigna de forma inteligente nuevos visitantes a distinta
 ## Cuándo se debe utilizar la asignación automática y cuándo la personalización automatizada o A/B {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Utilice la **asignación automática** cuando quiera optimizar la actividad desde el principio e identificar las experiencias ganadoras lo antes posible. Al ofrecer experiencias con alto rendimiento con más frecuencia, aumenta el rendimiento general de la actividad.
-* Utilice una **[prueba A/B](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** estándar cuando quiera caracterizar el rendimiento de todas las experiencias antes de optimizar el sitio web. Una prueba A/B le ayuda a clasificar todas las experiencias propias, mientras que la Asignación automática del tráfico encuentra las experiencias con mejor rendimiento pero no garantiza poder diferenciar entre las que tienen peor rendimiento.
-* Utilice [Personalización automatizada](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) cuando quiera algoritmos de optimización de la más alta complejidad, como pueden ser los modelos de aprendizaje automático que crean predicciones basadas en atributos concretos del perfil. La Asignación automática del tráfico examina el comportamiento agregado de las experiencias (como las pruebas A/B estándar) y no diferencia entre visitantes.
+* Utilice una **[prueba A/B](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** estándar cuando quiera caracterizar el rendimiento de todas las experiencias antes de optimizar el sitio web. Una prueba A/B le ayuda a clasificar todas las experiencias propias, mientras que la Asignación automática del tráfico encuentra las experiencias con mejor rendimiento pero no garantiza poder diferenciar entre las que tienen peor rendimiento.
+* Utilice [Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) cuando quiera algoritmos de optimización de la más alta complejidad, como pueden ser los modelos de aprendizaje automático que crean predicciones basadas en atributos concretos del perfil. La Asignación automática del tráfico examina el comportamiento agregado de las experiencias (como las pruebas A/B estándar) y no diferencia entre visitantes.
 
 ## Ventajas principales   {#section_0913BF06F73C4794862561388BBDDFF0}
 
