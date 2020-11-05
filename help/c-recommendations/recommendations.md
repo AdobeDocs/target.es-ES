@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -21,7 +21,7 @@ ht-degree: 59%
 >
 >Las actividades de [!DNL Recommendations] están disponibles como parte de la [solución Target Premium](/help/c-intro/intro.md#premium). No están disponibles en [!DNL Target Standard] sin una licencia de [!DNL Target Premium].
 >
->Si tiene [!DNL Recommendations Classic], para obtener más información acerca de las dos soluciones, consulte [Recommendations Classic comparado con Recommendations Activities en Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5).
+>Si tiene [!DNL Recommendations Classic], para obtener más información acerca de las dos soluciones, consulte [Recommendations Classic comparado con Recommendations Activities en Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5).
 
 [!DNL Recommendations] le ayuda a optimizar y personalizar sugerencias en tiempo real en una variedad de canales, aplicaciones, páginas, mensajes de correo electrónico y otras opciones de entrega con el fin de aumentar la participación y la conversión, así como de reducir los esfuerzos de administración.
 
@@ -44,7 +44,7 @@ Una recomendación determina cómo se sugiere un producto a un visitante, según
 | Incremente el tiempo que pasan los visitantes en su sitio de contenido multimedia recomendando contenido multimedia parecido al que están viendo. | Cree una recomendación que sugiera otros vídeos, empleando el criterio “Otras personas que vieron esto también vieron aquello”. |
 | Sugiera que los clientes que vieron información sobre planes de ahorro en su banco también lean información sobre cuentas de planes de pensiones. | Muestre otros productos que compraron otras personas después de ver un determinado producto, sin mostrar el primer producto en las recomendaciones, empleando el criterio “Otras personas que vieron esto también compraron”. |
 
-Para obtener más información sobre estos y otros criterios de [!DNL Recommendations] consulte [Criterios](../c-recommendations/c-algorithms/algorithms.md).
+Para obtener más información sobre estos y otros criterios de [!DNL Recommendations] consulte [Criterios](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Términos
 
