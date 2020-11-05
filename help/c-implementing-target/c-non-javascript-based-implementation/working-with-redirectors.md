@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 69%
@@ -31,7 +31,7 @@ Use el redirector para   hacer lo siguiente:
 
 * Averigüe cuál es la página de aterrizaje que produce el mayor número de conversiones
 
-Para obtener ayuda para decidir la configuración adecuada, consulte   [Implementaciones no basadas en JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Para obtener ayuda para decidir la configuración adecuada, consulte   [Implementaciones no basadas en JavaScript](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 ## Create a redirector {#redirector}
 
@@ -66,10 +66,10 @@ Antes de poder usar un redirector, debe crearlo.
    1. *Práctica* recomendada de seguridad: Asegúrese de que el dominio utilizado en el redirector esté incluido en la lista de permitidos, como se indicó anteriormente. Si utiliza un dominio que no está incluido en la lista de permitidos, Adobe bloqueará todas las llamadas a dicho dominio para evitar que los actores malintencionados utilicen el redirector para redireccionar a dominios potencialmente malintencionados.
    1. Inserte la dirección URL del redirector en un navegador y actualícelo.
    1. Inicie sesión en la cuenta, actualice la lista de mboxes y confirme que el nuevo redirector aparece enumerado en la cuenta.
-1. Si va a comprobar diferentes destinos para un anuncio, cree [Ofertas de redireccionamiento](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) para cada versión.
+1. Si va a comprobar diferentes destinos para un anuncio, cree [Ofertas de redireccionamiento](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) para cada versión.
 1. Cree la campaña.
 
-   Consulte [Implementaciones no basadas en JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) para saber cuál es la configuración apropiada para alcanzar sus metas.
+   Consulte [Implementaciones no basadas en JavaScript](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) para saber cuál es la configuración apropiada para alcanzar sus metas.
 1. Lleve a cabo un control de calidad en la campaña.
 
    Cree una página ficticia con un `<a href>` que contenga la dirección URL del redirector. Ejemplo:
