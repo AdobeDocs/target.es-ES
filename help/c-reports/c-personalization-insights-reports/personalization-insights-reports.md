@@ -5,7 +5,7 @@ title: Informes de Perspectivas de personalización
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 65%
@@ -30,7 +30,7 @@ Los usuarios de las actividades de [!UICONTROL Personalización automatizada] (A
 * [!UICONTROL Los informes de perspectivas] de personalización solo están disponibles si se selecciona el Objetivo  principal en la lista desplegable Métrica [!UICONTROL de] informes.
    >
    >
-* Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](../../administrating-target/hosts.md).
+* Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](/help/administrating-target/hosts.md).
    >
    >
 * [!UICONTROL Los informes de Perspectivas] de personalización se generan solamente para actividades que están en estado [!UICONTROL Activo] y que se han activado y recibido tráfico durante al menos 15 días.
