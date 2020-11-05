@@ -6,7 +6,7 @@ feature: recommendations general
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 92%
@@ -71,7 +71,7 @@ Un rawbox es parecido a una solicitud de mbox, pero para entornos que no son de 
 
 Este método permite rastrear el rendimiento de las recomendaciones en los mensajes de correo electrónico, probarlos de manera normal con una recomendación y continuar el rastreo en el sitio.
 
-Configure una actividad de [!DNL Recommendations] en [!DNL Adobe Target] utilizando la opción del [compositor de experiencias basado en formularios](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Para la ubicación, seleccione el nombre del mbox que quiera utilizar en la solicitud rawbox proveniente del ESP. Seleccione un diseño con el aspecto que desee para su correo electrónico. A la hora de crear un correo electrónico, el ESP hace una llamada a los servidores de [!DNL Adobe Target] para cada rawbox de los mensajes de correo electrónicos que se generan. Su ESP debe tener algún modo de incluir el HTML devuelto en el correo electrónico cuando este se envía.
+Configure una actividad de [!DNL Recommendations] en [!DNL Adobe Target] utilizando la opción del [compositor de experiencias basado en formularios](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Para la ubicación, seleccione el nombre del mbox que quiera utilizar en la solicitud rawbox proveniente del ESP. Seleccione un diseño con el aspecto que desee para su correo electrónico. A la hora de crear un correo electrónico, el ESP hace una llamada a los servidores de [!DNL Adobe Target] para cada rawbox de los mensajes de correo electrónicos que se generan. Su ESP debe tener algún modo de incluir el HTML devuelto en el correo electrónico cuando este se envía.
 
 El sistema de correo electrónico que utilice debe poder solventar los siguientes problemas:
 
@@ -141,4 +141,4 @@ Configure una recomendación como de costumbre pero elija **descargar solamente*
 
 Con esta opción, el servidor de Recommendations no puede rastrear directamente el rendimiento de una recomendación o dividir el tráfico en múltiples combinaciones de algoritmo y plantilla. Además, las recomendaciones no están asociadas a un perfil del visitante.
 
-Para obtener más información sobre la API de descarga, consulte [API heredadas > Descargar](../../assets/adobe-recommendations-classic.pdf).
+Para obtener más información sobre la API de descarga, consulte [API heredadas > Descargar](/help/assets/adobe-recommendations-classic.pdf).
