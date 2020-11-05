@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -36,7 +36,7 @@ Estos son algunos escenarios en los que podría experimentar variaciones de dato
 
 * Supongamos que crea una actividad de asignación automática abierta a todos los visitantes de una página en particular. Como las actividades de asignación automática no admiten A4T, [!DNL Target] recopila todos los datos de la actividad. Se podría esperar que los visitantes de la actividad en la creación de informes de [!DNL Target] coincidan con los visitantes de la página en la creación de informes de [!DNL Analytics] para el mismo intervalo de fechas. Este es un escenario en que se espera la variación descrita más abajo.
 
-   Para ver una lista completa de tipos de actividad compatibles con A4T, consulte [Tipos de actividades compatibles](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
+   Para ver una lista completa de tipos de actividad compatibles con A4T, consulte [Tipos de actividades compatibles](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
 ## Variaciones de datos previstas al *no usar* A4T  {#expected-not-using-a4t}
 
