@@ -5,7 +5,7 @@ title: Aplicación de una audiencia de informes a una métrica de éxito en Adob
 feature: success metrics
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Por ejemplo, supongamos que ha creado una actividad para todos los visitantes qu
 
 La lista desplegable Aplicado a proporciona hasta tres posibles categorías: cualquier visitante de la actividad, solo los visitantes que alcancen un paso determinado en la actividad o solo los visitantes que alcancen la conversión. O, dicho de otro modo, puede especificar que un visitante debe haber alcanzado un mbox en la página de entrada de la actividad, un mbox que define algún punto en la mitad de la actividad o el mbox de conversión al final de la actividad.
 
-[Las métricas de éxito](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) solo están disponibles si las ha configurado para su actividad. Si no ha definido métricas de éxito, verá solo dos opciones en la lista desplegable: Entrada de campaña y Conversión.
+[Las métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) solo están disponibles si las ha configurado para su actividad. Si no ha definido métricas de éxito, verá solo dos opciones en la lista desplegable: Entrada de campaña y Conversión.
 
 Tenga en cuenta la siguiente información al aplicar una audiencia de informes a una métrica de éxito:
 
