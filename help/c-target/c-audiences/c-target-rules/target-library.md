@@ -5,7 +5,7 @@ title: Opciones de biblioteca de destinatario en audiencias de Adobe Target
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Usuarios de Target según las reglas de segmentación prediseñadas.
 
-Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Si desea conocer más información y prácticas recomendadas, consulte  [Preguntas más frecuentes sobre audiencias y segmentación de experiencias](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Si desea conocer más información y prácticas recomendadas, consulte  [Preguntas más frecuentes sobre audiencias y segmentación de experiencias](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
