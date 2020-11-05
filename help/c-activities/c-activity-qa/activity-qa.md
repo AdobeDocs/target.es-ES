@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 80%
@@ -26,7 +26,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 * Respeto opcional a las condiciones a audiencia, de forma que los expertos en marketing puedan probar o ignorar criterios de segmentación con el fin de evaluar el aspecto de las experiencias sin necesidad de cumplir sus condiciones de audiencia.
 * La realización de informes de control de calidad se captura; de este modo, los expertos en marketing pueden confirmar si las métricas aumentan del modo esperado y es posible mantener los datos de informes de control de calidad separados de los informes de producción (para la creación de informes ajenos a A4T).
 * La capacidad de previsualización de una experiencia aislada o junto con otras actividades activas que cumplan los criterios de envío (página/solicitud de Destinatario/audiencia).
-* La capacidad para realizar un control de calidad del viaje del usuario completo. Puede acceder a su sitio una vez con el vínculo de control de calidad y, a continuación, examinar el sitio entero durante el control de calidad de la actividad. Permanecerá en el control de calidad de la actividad hasta que termine la sesión o hasta que utilice el  [bookmarklet QA Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de dicho control de calidad. Esta característica es especialmente útil si su actividad abarca varias páginas web.
+* La capacidad para realizar un control de calidad del viaje del usuario completo. Puede acceder a su sitio una vez con el vínculo de control de calidad y, a continuación, examinar el sitio entero durante el control de calidad de la actividad. Permanecerá en el control de calidad de la actividad hasta que termine la sesión o hasta que utilice el  [bookmarklet QA Target](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de dicho control de calidad. Esta característica es especialmente útil si su actividad abarca varias páginas web.
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
       Si el ajuste está desactivado, tenga en cuenta lo siguiente:
 
-      * En caso de conflicto entre la actividad que está probando y otras actividades en curso, se aplicarán  [reglas de prioridad normales](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Debido a esto, es posible que no vea la actividad que desea someter a control de calidad.
+      * En caso de conflicto entre la actividad que está probando y otras actividades en curso, se aplicarán  [reglas de prioridad normales](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Debido a esto, es posible que no vea la actividad que desea someter a control de calidad.
       * Las métricas aumentan para las actividades vistas, pero solo en el entorno de realización de informes de control de calidad.
 
 1. Haga clic en **[!UICONTROL Hecho]** para guardar los cambios.
@@ -66,17 +66,17 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
 ## Consideraciones {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* El vínculo [!UICONTROL Control de calidad de la actividad] aparece en la página [!UICONTROL Información general] de todos los tipos de actividad excepto Personalización automatizada (AP). Puede usar  [Vínculos de vista previa](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) para actividades AP.
+* El vínculo [!UICONTROL Control de calidad de la actividad] aparece en la página [!UICONTROL Información general] de todos los tipos de actividad excepto Personalización automatizada (AP). Puede usar  [Vínculos de vista previa](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) para actividades AP.
 * Es posible que los vínculos de Vista previa de control de calidad de la actividad para las actividades guardadas no se carguen si hay demasiadas guardadas en su cuenta. Volver a intentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se usan de forma activa.
 * Las URL de control de calidad de la actividad están disponibles con actividades que tienen Analytics como fuente de informes (A4T). Las visitas generadas mientras se realiza un control de calidad utilizando el control de calidad de la actividad fluirán al mismo grupo de informes al que llegan los datos de la actividad, incluso después de activarse esta última.
 * El control de calidad de la actividad no muestra contenido para actividades archivadas o ya caducadas. Si desactiva una actividad terminada, debe guardar la actividad de nuevo para que el control de calidad de la actividad funcione.
 * Las actividades importadas en Target Standard/Premium (desde Target Classic, por ejemplo) no admiten direcciones URL de control de calidad.
 * En las actividades de asignación automática, segmentación automática y recomendaciones, el modelo no se ve afectado por las visitas capturadas en el control de calidad de la actividad.
-* Como el control de calidad de la actividad es persistente, después de examinar un sitio web durante el control de calidad de la actividad, la sesión de Target debe caducar o tiene que indicar a Target que lo libere del control de calidad antes de poder ver su sitio como un visitante normal. Use el [bookmarklet de control de calidad de Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de dicho control de calidad de la actividad.
+* Como el control de calidad de la actividad es persistente, después de examinar un sitio web durante el control de calidad de la actividad, la sesión de Target debe caducar o tiene que indicar a Target que lo libere del control de calidad antes de poder ver su sitio como un visitante normal. Use el [bookmarklet de control de calidad de Target](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de dicho control de calidad de la actividad.
 
    También puede forzar la salida manual cargando una página en su sitio con un valor en blanco en el parámetro `at_preview_token` (por ejemplo, `https://www.mysite.com/?at_preview_token=`).
 
-* Si ha especificado “URL es” al crear la mejora de actividad [en el Compositor basado en formularios](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o en las opciones de envío [de página del Compositor de experiencias visuales,](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) la URL de control de calidad no funcionará porque el control de calidad de la actividad adjunta parámetros de URL. Para solucionar este problema, haga clic en la URL de control de calidad para ir a su sitio, elimine los parámetros añadidos a la URL y cargue la nueva dirección.
+* Si ha especificado “URL es” al crear la mejora de actividad [en el Compositor basado en formularios](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o en las opciones de envío [de página del Compositor de experiencias visuales,](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) la URL de control de calidad no funcionará porque el control de calidad de la actividad adjunta parámetros de URL. Para solucionar este problema, haga clic en la URL de control de calidad para ir a su sitio, elimine los parámetros añadidos a la URL y cargue la nueva dirección.
 * Si tiene at.js 1.*x*, o mbox.js, el modo de control de calidad de la Actividad no será persistente si utiliza Safari u otro explorador que bloquee las cookies de terceros. En estos casos, debe agregar los parámetros de previsualización a cada dirección URL a la que navegue. Lo mismo ocurre si ha implementado [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
 * Si una actividad utiliza múltiples audiencias de experiencia (por ejemplo, un sitio con versiones para Reino Unido y Estados Unidos incluidas en la misma actividad), no se generan vínculos de control de calidad para las cuatro combinaciones (experiencia A/sitio EE. UU., experiencia A/sitio RU, experiencia B/sitio EE. UU., experiencia B/sitio RU). Se crean solo dos vínculos de QA (Experiencia A y Experiencia B) y los usuarios deben cumplir las condiciones de audiencia apropiadas para ver la página. Un usuario de QA para Reino Unido, no podría ver el sitio de EE. UU.
 * Todos los parámetros y valores de `at_preview` ya están codificados en la URL. La mayoría de las veces, todo funciona según lo esperado, pero algunos clientes podrían disponer de equilibradores de carga o servidores WEB que traten de codificar de nuevo los parámetros de la cadena de consulta.
