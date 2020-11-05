@@ -6,7 +6,7 @@ feature: audiences
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 99%
@@ -47,9 +47,9 @@ Hay dos formar de segmentar según el navegador:
 
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
-   * **Tipo:** dirija la actividad a un navegador o exclúyalo. Consulte [Tipo](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Idioma:** dirija la actividad a ciertos navegadores que estén configurados en idiomas específicos o exclúyalos. Consulte [Idioma](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Versión:** dirija la actividad a ciertas versiones del navegador o exclúyalas. Consulte [Versión](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   * **Tipo:** dirija la actividad a un navegador o exclúyalo. Consulte [Tipo](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+   * **Idioma:** dirija la actividad a ciertos navegadores que estén configurados en idiomas específicos o exclúyalos. Consulte [Idioma](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+   * **Versión:** dirija la actividad a ciertas versiones del navegador o exclúyalas. Consulte [Versión](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
