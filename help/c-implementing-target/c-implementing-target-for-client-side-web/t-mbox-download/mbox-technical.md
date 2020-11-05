@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Información útil para el personal técnico sobre el proceso de implementación de mbox.js y cómo podría afectar a su sitio.
 
-Target Standard requiere un [!DNL mbox.js] versión 58 o posterior. Encontrará las instrucciones para descargar y actualizar [!DNL mbox.js] en [Implementación Mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+Target Standard requiere un [!DNL mbox.js] versión 58 o posterior. Encontrará las instrucciones para descargar y actualizar [!DNL mbox.js] en [Implementación Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
 Para Target Standard, [!DNL mbox.js] ejecuta otro archivo de JavaScript, [!DNL target.js]. [!DNL Target.js] está alojado por Adobe, quien lo actualiza automáticamente. No es necesario que haga nada para actualizar [!DNL target.js]; los clientes no pueden modificarlo.
 
@@ -52,4 +52,4 @@ Al usar el [!UICONTROL Compositor de experiencias visuales] para configurar una 
 
 Si va a implementar Target en un sitio angular o en una aplicación de una sola página (SPA), tiene que usar la biblioteca at.js en lugar de mbox.js.
 
-Para obtener más información, consulte [Implementación at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+Para obtener más información, consulte [Implementación at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
