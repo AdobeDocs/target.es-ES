@@ -4,9 +4,9 @@ description: El uso de Adobe Analytics como fuente de datos de comportamiento pe
 title: Uso de Adobe Analytics con Destinatario Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1022'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Un formato de fuente de [!DNL Target Recommendations] muestra actuará como guí
 >
 >Si se trata de un sitio de contenido, las partes de contenido respectivas deben tratarse como &quot;productos&quot; y atributos asociados a dicho contenido (ejemplo: nombre del autor, fecha de publicación, título del contenido, mes de lanzamiento, etc.) debe pasarse como atributos. La granularidad del nivel de categoría, o tipos de categoría, debe ser decidida por la empresa en función de los requisitos del caso de uso.
 
-Para obtener más información sobre cómo configurar variables de producto, consulte [products](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/products.html) en la Guía *de implementación de* Analytics. Algunas de las notas de esa documentación necesitan discreción del equipo que la implementa (ejemplo: Categoría). Siempre se aconseja consultar con Adobe antes de realizar esta actividad.
+Para obtener más información sobre cómo configurar variables de producto, consulte [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) en la Guía *de implementación de* Analytics. Algunas de las notas de esa documentación necesitan discreción del equipo que la implementa (ejemplo: Categoría). Siempre se aconseja consultar con Adobe antes de realizar esta actividad.
 
 ### Consideraciones
 
