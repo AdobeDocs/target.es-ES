@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1391'
 ht-degree: 20%
 
 ---
@@ -145,4 +145,4 @@ Algunas limitaciones y notas se aplican tanto a la asignación automática como 
 * [!UICONTROL Los modelos de Destinatario] automático siguen entrenándose cada 24 horas, como de costumbre. Sin embargo, los datos de eventos de conversión procedentes de [!DNL Analytics] se retrasan de seis a 24 horas adicionales. Este retraso significa que la distribución del tráfico por [!DNL Target] rastreará los últimos eventos registrados en [!DNL Analytics]. Esto tendrá el mayor efecto en las primeras 48 horas después de activar una actividad por primera vez; el rendimiento de la actividad reflejará más de cerca el comportamiento [!DNL Analytics] de conversión después de transcurridos cinco días. Debe considerar el uso de la asignación  automática en lugar del Destinatario  automático para actividades de corta duración, donde la mayoría del tráfico se produce en los primeros cinco días de vida de la actividad.
 * Cuando se utilizan [!DNL Analytics] como fuente de datos para una actividad de Destinatario  automático, las sesiones se consideran finalizadas después de transcurridas seis horas. Las conversiones que se produzcan después de seis horas no se contarán.
 
-Para obtener más información, consulte Modelos [de atribución y ventanas](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) retroactivas en la Guía *de herramientas de* Analytics.
+Para obtener más información, consulte Modelos [de atribución y ventanas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) retroactivas en la Guía *de herramientas de* Analytics.
