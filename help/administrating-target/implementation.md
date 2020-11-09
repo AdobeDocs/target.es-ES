@@ -3,10 +3,8 @@ keywords: implement;implementing
 description: Antes de empezar a utilizar Adobe Target, le recomendamos que lo implemente en su sitio, comprenda algunos conceptos y términos básicos, se familiarice con el funcionamiento de Target y cómo se integra en su infraestructura, y comprenda el proceso de seguimiento de los visitantes que realiza el sistema Target.
 title: Implementación de Target
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 43%
