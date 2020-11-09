@@ -6,9 +6,9 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 95%
 
 ---
@@ -20,7 +20,7 @@ Las audiencias en Adobe Target determinan quién ve el contenido y las experienc
 
 Las audiencias se utilizan siempre que está disponible la determinación de objetivos. Al segmentar una actividad, puede seleccionar una audiencia reutilizable de la lista [!UICONTROL Audiencias], [crear una audiencia específica de actividad](/help/c-target/creating-activity-only-audience.md) y segmentarla, o [combinar varias audiencias](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad-hoc.
 
-También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. Consulte [Audiencias](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) en la Guía *del usuario de servicios* principales.
+También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. Consulte [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) en la Guía *del usuario de servicios* principales.
 
 [!DNL Target] distingue dos tipos de audiencias:
 
