@@ -3,9 +3,8 @@ keywords: Target;reports;report settings;preset;target preset;metric;audience;da
 description: Información para configurar los elementos que desea que aparezcan en el informe de Adobe Target. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
 title: Configuración de informes
 feature: report settings
-uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 70%
