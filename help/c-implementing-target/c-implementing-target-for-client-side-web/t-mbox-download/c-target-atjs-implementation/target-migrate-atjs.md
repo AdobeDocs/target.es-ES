@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 98%
+source-wordcount: '826'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Siga estos pasos para migrar de [!DNL mbox.js] a [!DNL at.js] y para comprobar l
 
    >[!NOTE]
    >
-   >Si actualmente no usa un administrador de etiquetas para implementar [!DNL Target], este puede ser un buen momento para planteárselo. [Dynamic Tag Management](https://dtm.adobe.com) de Adobe es una herramienta gratuita para los clientes de [!DNL Target] y es el método recomendado para implementar [!DNL Target]. Para obtener más información, consulte [Prácticas recomendadas para implementar Adobe Target mediante Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).
+   >Si actualmente no usa un administrador de etiquetas para implementar [!DNL Target], este puede ser un buen momento para planteárselo. [Dynamic Tag Management](https://dtm.adobe.com) de Adobe es una herramienta gratuita para los clientes de [!DNL Target] y es el método recomendado para implementar [!DNL Target]. Para obtener más información, consulte [Prácticas recomendadas para implementar Adobe Target mediante Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
 
 1. Compruebe que todas las actividades e integraciones actuales funcionan correctamente.
 
