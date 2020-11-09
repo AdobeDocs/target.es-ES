@@ -3,9 +3,8 @@ keywords: Targeting;AP reports;automated personalization reports;auto-target;aut
 description: 'Los usuarios de las actividades de Personalización automatizada (AP) y Segmentación automática (AT) disponen de dos informes especializados: los informes Segmentación automática y Atributos importantes.'
 title: Informes de Perspectivas de personalización
 feature: reports
-uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 65%
