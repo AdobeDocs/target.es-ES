@@ -5,10 +5,10 @@ title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3897'
-ht-degree: 77%
+source-wordcount: '3895'
+ht-degree: 78%
 
 ---
 
@@ -113,7 +113,7 @@ Cuando una métrica de éxito se establece para que se incremente con cada impre
 
 ### Analytics for Target (A4T)
 
-Cuando utilice impresiones y conversiones de actividad de Destinatario en Analysis Workspace, aplique el modelo de Attribution IQ de &quot;mismo toque&quot; a las métricas para garantizar una contabilización precisa. Para aplicar un modelo [de atribución](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)no predeterminado, haga clic con el botón derecho en la métrica para **modificar la Configuración de columna > activar Usar modelo de atribución no predeterminado > seleccionar el modelo** de mismo toque. Sin este modelo aplicado, las métricas se sobrevaloran.
+Cuando utilice impresiones y conversiones de actividad de Destinatario en Analysis Workspace, aplique el modelo de Attribution IQ de &quot;mismo toque&quot; a las métricas para garantizar una contabilización precisa. Para aplicar un modelo [de atribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)no predeterminado, haga clic con el botón derecho en la métrica para **modificar la Configuración de columna > activar Usar modelo de atribución no predeterminado > seleccionar el modelo** de mismo toque. Sin este modelo aplicado, las métricas se sobrevaloran.
 
 Todos los paquetes actuales de Analytics pueden añadir este modelo con Attribution IQ. Si no tiene acceso a Attribution IQ, confíe en los datos de A4T en Informes y análisis.
 
