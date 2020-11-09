@@ -3,9 +3,8 @@ keywords: Recommendations
 description: Dado que una actividad de Personalización automatizada (AP) compara varias ofertas en una página, resulta útil previsualizar la página con cada experiencia.
 title: Previsualizar experiencias para una actividad de Automated Personalization (AP) en el Compositor de experiencias visuales de Adobe Target
 feature: ap
-uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
