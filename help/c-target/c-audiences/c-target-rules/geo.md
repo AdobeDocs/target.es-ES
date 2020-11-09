@@ -4,10 +4,8 @@ description: Utilice las audiencias de Adobe Target para segmentar usuarios seg�
 title: Opciones geográficas en audiencias de Adobe Target
 feature: audiences
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 88%
@@ -149,7 +147,7 @@ Tendrá que borrar las cookies antes de hacerlo.
 
 Puerto Rico, Hong Kong y otros territorios se tratan como valores de “País” independientes.
 
-**¿Captura (y almacena)[!DNL Target]información como Códigos postales cuando la actividad se dirige a las funciones de objetivo de ubicación geográfica?**
+**¿Captura (y almacena) [!DNL Target] información como Códigos postales cuando la actividad se dirige a las funciones de objetivo de ubicación geográfica?**
 
 No, [!DNL Target] utiliza datos geográficos únicamente durante la sesión y, a continuación, se descartan los datos.
 
