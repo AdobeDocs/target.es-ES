@@ -3,10 +3,8 @@ keywords: audience;propensity;profile attribute;compare;comparison;create audien
 description: Defina una audiencia con el fin de comparar dos atributos de perfil para su Biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
 title: Crear una audiencia de comparación de atributos de perfil.  en Adobe Target
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 99%
