@@ -3,10 +3,8 @@ keywords: mobile app;mobile app send data;target mobile app;mobile custom user d
 description: Puede enviar información adicional sobre la ubicación o el usuario a Target como pares de nombre-valor.
 title: 'iOS: enviar datos de usuario personalizados'
 feature: mobile implementation
-topic: Target
-uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
