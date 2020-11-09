@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 40%
 
 ---
@@ -52,7 +52,7 @@ En [!DNL Analytics], hay varias dimensiones y métricas disponibles después de 
 * [!UICONTROL Impresiones] de actividad: coincide con el número de [!UICONTROL participantes] en el [!DNL Target] informe.
 * [!UICONTROL Conversiones] de actividad: coincide con el número de conversiones  personalizadas del [!DNL Target] informe.
 
-En [!DNL Analysis Workspace], utilice el panel [!UICONTROL Analytics para Destinatario] para analizar sus [!DNL Target] actividades y experiencias con alza y confianza. Para obtener más información, consulte Panel [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics para Destinatario (A4T) en la Guía *de herramientas de* Analytics.
+En [!DNL Analysis Workspace], utilice el panel [!UICONTROL Analytics para Destinatario] para analizar sus [!DNL Target] actividades y experiencias con alza y confianza. Para obtener más información, consulte Panel [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics para Destinatario (A4T) en la Guía *de herramientas de* Analytics.
 
 >[!IMPORTANT]
 >
