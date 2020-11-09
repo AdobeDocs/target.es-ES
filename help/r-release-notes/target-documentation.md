@@ -5,9 +5,9 @@ title: Anuncios de destinatario
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ A continuación se ofrece una breve descripción de los tipos de documentación 
 | Tipo de documentación | Descripción |
 | --- | --- |
 | [Documentación](/help/target-home.md)<br>del producto de Adobe Target(Esta guía) | Información general, pasos y capturas de pantalla centradas en la interacción con [!DNL Target] la interfaz de usuario. Esta guía describe todas las acciones y opciones disponibles, incluyendo las &quot;gotchas&quot; que se deben evitar. Se trata del recurso más detallado para trabajar con la [!DNL Target] interfaz de usuario. |
-| [Tutoriales de Adobe Target](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | Vídeos y tutoriales para ayudarle a aprender los muchos componentes de [!DNL Target]. |
+| [Tutoriales de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | Vídeos y tutoriales para ayudarle a aprender los muchos componentes de [!DNL Target]. |
 | [Biblioteca de contenido de Adobe Experience League Destinatario](https://guided.adobe.com/#recommended/solutions/target) | Una colección de vídeos y tutoriales de procedimientos que destacan las funciones de [!DNL Target] disponibles en la [!DNL Adobe Target Experience League] página. |
 | [Documentación de Adobe Experience Platform Launch Destinatario](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Información sobre la implementación [!DNL Target] mediante [!DNL Adobe Experience Platform Launch], la plataforma de administración de etiquetas de última generación de [!DNL Adobe]. Es el método preferido para implementar [!DNL Target]. |
 | [Horario del servicio de atención al cliente de Adobe](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Información sobre &quot;horas de oficina&quot;, iniciativa dirigida por el equipo de atención al cliente de Adobe. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
