@@ -3,10 +3,8 @@ keywords: Profile script;profile script attributes;profile script best practices
 description: Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información acerca de ese visitante que puede utilizar en sus actividades de Adobe Target.
 title: Atributos de perfil en Adobe Target
 feature: visitor profiles
-topic: Advanced,Standard,Classic
-uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
