@@ -3,9 +3,8 @@ keywords: automated traffic allocation;targeting;auto-allocate
 description: Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 title: La asignación automática puede proporcionar resultados de prueba más rápidos y mayores ingresos que una prueba manual
 feature: auto-allocate
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%
