@@ -5,10 +5,10 @@ title: Usar servicio de ubicación
 feature: mobile implementation
 topic: Target
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,6 @@ La ubicación es un contexto importante para comprender y relacionarse con los u
 
 El servicio de ubicación de Adobe Experience Platform (servicio de ubicación) es un servicio de geolocalización que permite a las aplicaciones móviles con conocimiento de ubicación comprender el contexto de ubicación mediante el uso de interfaces SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (POI).
 
-Puede utilizar el servicio de ubicación con Destinatario para aprovechar las reglas de [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) y adjuntar los datos de lugares a sus eventos del SDK de Adobe Target.
+Puede utilizar el servicio de ubicación con Destinatario para aprovechar las reglas de [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) y adjuntar los datos de lugares a sus eventos del SDK de Adobe Target.
 
-Para obtener más información, consulte [Utilizar el servicio de ubicación con Adobe Target](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-target/places-target.html) en la guía [del servicio de ubicación de](https://docs.adobe.com/content/help/en/places/using/home.html)Adobe Experience Platform.
+Para obtener más información, consulte [Utilizar el servicio de ubicación con Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) en la guía [del servicio de ubicación de](https://experienceleague.adobe.com/docs/places/using/home.html)Adobe Experience Platform.
