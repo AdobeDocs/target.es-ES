@@ -3,10 +3,8 @@ keywords: activities;activity;activity types;edit activity;edit;draft
 description: Información acerca de los distintos modos de editar una actividad existente, incluido el guardado de una actividad en forma de borrador.
 title: Editar una actividad o guardar como borrador
 feature: activities
-topic: Standard
-uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 100%
