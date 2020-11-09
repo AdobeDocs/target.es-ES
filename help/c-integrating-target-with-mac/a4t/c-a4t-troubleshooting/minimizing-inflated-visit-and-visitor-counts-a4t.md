@@ -6,10 +6,10 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 96%
+source-wordcount: '1345'
+ht-degree: 97%
 
 ---
 
@@ -78,7 +78,7 @@ En la mayoría de los casos, una visita de [!DNL Target] se vincula con una vis
 
 **Visitas de datos parciales:** a veces los usuarios no permanecen en una página el tiempo suficiente para que se envíe una llamada de [!DNL Analytics], pero [!DNL Target] tiene el MCID adecuado. Esto provoca la aparición de visitas de datos parciales (visitas sin visualizaciones de página de [!DNL Analytics]). Si estos usuarios vuelven al sitio y ven una página que contenga código de [!DNL Analytics], se contarán debidamente como visitantes que repiten. Estas son visitas que se habrían perdido si solo existiera código de [!DNL Analytics] en la página. Algunos clientes no quieren datos para estas visitas porque inflan algunas métricas (visitas) y desinflan otras (visualizaciones de la página por visita, tiempo por visita, etc.). También verá visitas que no tengan ninguna visualización de página. Sin embargo, existen varios motivos para conservar estos datos.
 
-Para minimizar las visitas de datos parciales, puede hacer que su página se cargue más rápido, actualizar las bibliotecas a la versión más reciente o crear un [grupo de informes virtuales](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que excluya esas visitas. For step-by-step instructions, see [Create virtual report suites](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in the *Analytics Components Guide*.
+Para minimizar las visitas de datos parciales, puede hacer que su página se cargue más rápido, actualizar las bibliotecas a la versión más reciente o crear un [grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que excluya esas visitas. For step-by-step instructions, see [Create virtual report suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in the *Analytics Components Guide*.
 
 En la siguiente ilustración se muestra la definición de un segmento para el grupo de informes virtuales:
 
@@ -99,7 +99,7 @@ Cuando cree un grupo de informes virtuales, especifique la siguiente configuraci
 
 **Visitas huérfanas:** con menor frecuencia, los usuarios no permanecen en la página el tiempo suficiente para que se realice la llamada de Analytics y, además, Target no tiene un MCID apropiado. Estas se denominan visitas “huérfanas”. Estas visitas representan a los clientes que raramente regresan e inflan indebidamente los recuentos de visitas y visitantes.
 
-Para minimizar estas visitas &quot;huérfanas&quot;, puede crear un [grupo de informes virtuales](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que las excluya, tal y como hemos explicado.
+Para minimizar estas visitas &quot;huérfanas&quot;, puede crear un [grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que las excluya, tal y como hemos explicado.
 
 ## Consecuencias para los informes de [!DNL Target] {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
