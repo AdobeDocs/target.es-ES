@@ -3,9 +3,8 @@ keywords: Targeting
 description: Algoritmo de personalización principal de Target que se utiliza en la Personalización automatizada y en la Segmentación automática es el de bosque aleatorio. Los métodos de ensamblado, como el bosque aleatorio, utilizan varios algoritmos de aprendizaje para obtener un rendimiento más predictivo que el que podría obtenerse de cualquier algoritmo de aprendizaje constituyente. El algoritmo de bosque aleatorio en Personalización automatizada es un método de clasificación o regresión que funciona creando una multitud de árboles de decisión durante el aprendizaje.
 title: Algoritmo de bosque aleatorio
 feature: ap
-uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 99%
