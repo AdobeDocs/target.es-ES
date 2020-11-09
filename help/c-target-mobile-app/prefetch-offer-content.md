@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 62%
+source-wordcount: '233'
+ht-degree: 63%
 
 ---
 
@@ -27,5 +27,5 @@ Tenga en cuenta las siguientes limitaciones al utilizar el método de recuperaci
 
 Para obtener más información, incluidos los métodos de recuperación previa, las clases públicas y ejemplos de código, consulte:
 
-* **iOS:**  [Recuperación previa de contenido de oferta en iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) en la Ayuda *del SDK para iOS de* Mobile Services.
-* **Android:**  [Recuperación previa de contenido de oferta en Android](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) en la Ayuda *del SDK para Android de* Mobile Services.
+* **iOS:**  [Recuperación previa de contenido de oferta en iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) en la Ayuda *del SDK para iOS de* Mobile Services.
+* **Android:**  [Recuperación previa de contenido de oferta en Android](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) en la Ayuda *del SDK para Android de* Mobile Services.
