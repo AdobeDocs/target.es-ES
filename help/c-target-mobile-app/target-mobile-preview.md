@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 93%
+source-wordcount: '583'
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ La funcionalidad de vista previa para móviles le permite probar completamente s
 
    Para obtener instrucciones sobre la descarga del SDK apropiado, consulte:
 
-   * **iOS:** [Antes de realizar el inicio](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) en la Ayuda *de iOS de* Mobile Services.
-   * **Android:** [Antes de realizar el inicio](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) en la Ayuda *de Android de* Mobile Services.
+   * **iOS:** [Antes de realizar el inicio](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) en la Ayuda *de iOS de* Mobile Services.
+   * **Android:** [Antes de realizar el inicio](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) en la Ayuda *de Android de* Mobile Services.
 
 1. **Configure un esquema de direcciones URL:** el vínculo de vista previa utiliza un esquema de direcciones URL para abrir la aplicación. Debe especificar un esquema de URL exclusivo para la vista previa.
 
