@@ -6,10 +6,10 @@ feature: offers
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 89%
+source-wordcount: '107'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ Puede añadir o eliminar elementos de la lista de ofertas de imágenes.
 
 Este vídeo incluye información sobre la administración de contenido.
 
-* Conexión entre la [biblioteca de activos de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) y la biblioteca de contenido de Target
+* Conexión entre la [biblioteca de activos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) y la biblioteca de contenido de Target
 * Ofertas HTML personalizadas
 * Oferta HTML personalizada en el Compositor de experiencias visuales
 
