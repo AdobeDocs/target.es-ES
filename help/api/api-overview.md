@@ -5,9 +5,9 @@ title: Información general sobre la API de Adobe Target
 feature: api
 topic: APIs
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 | Tipo de API | Lo que le permite hacer | Vínculo de descarga | Otros vínculos útiles |
 | --- | --- | --- |--- |
-| Administración | Cree, modifique y elimine actividades, audiencias, ofertas y otros objetos (incluidas [!DNL Recommendations] entidades, criterios, diseños, etc.). Las [!DNL Recommendations] API son un tipo de API de administración). | <UL><li>[API de administración de destinatario Colección Postman](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Recommendations API Postman Collection](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [Uso de las API](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) de Recommendations en los Tutorials de *Adobe Target* |
+| Administración | Cree, modifique y elimine actividades, audiencias, ofertas y otros objetos (incluidas [!DNL Recommendations] entidades, criterios, diseños, etc.). Las [!DNL Recommendations] API son un tipo de API de administración). | <UL><li>[API de administración de destinatario Colección Postman](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Recommendations API Postman Collection](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [Uso de las API](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html) de Recommendations en los Tutorials de *Adobe Target* |
 | Entrega | Recupere contenido optimizado y personalizado de [!DNL Target] para envío a un usuario final. | [API de destinatario Envío Colección Postman](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) |  |
 | Creación de informes | Exportar resultados de actividad y otros resultados de sistema de informes. | Las API de sistema de informes se incluyen en la colección [de Postman de la API de administración de](https://developers.adobetarget.com/api/#admin-postman-collection)Destinatario. |  |
 | Perfil | Recuperar y modificar perfiles de usuario almacenados en Adobe Target. | [API de destinatario Perfil Colección Postman](https://developers.adobetarget.com/api/#profiles) |  |
@@ -34,4 +34,4 @@ ht-degree: 1%
 * Las API de envío permiten recuperar contenido. Las API de envío no requieren autenticación.
 >
 >
-Para utilizar las API [!DNL Target] de administración, primero debe configurar la autenticación mediante E/S de Adobe. Para obtener más información, consulte [Configurar autenticación](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) en Tutorials *de* Adobe Target.
+Para utilizar las API [!DNL Target] de administración, primero debe configurar la autenticación mediante E/S de Adobe. Para obtener más información, consulte [Configurar autenticación](https://experienceleague.adobe.com/docs/target-learn/tutorials/apis/configure-io-target-integration.html) en Tutorials *de* Adobe Target.
