@@ -1,11 +1,10 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: Las pruebas A/B constituyen el pilar de la mayoría de los programas de optimización de marketing digital. Los especialistas en marketing las utilizan para ofrecer experiencias optimizadas y segmentadas a los visitantes y clientes. Esta sección describe nueve de los escollos más importantes a los que se enfrentan las compañías al realizar pruebas A/B en Adobe Target. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
+description: Las pruebas A/B constituyen el pilar de la mayoría de los programas de optimización de marketing digital. Los especialistas en marketing las utilizan para ofrecer experiencias optimizadas y segmentadas a los visitantes y clientes. Esta sección describe nueve de los escollos más significativos a los que se enfrentan las compañías al realizar pruebas A/B en Adobe Target. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
 title: Nueve escollos comunes de las pruebas A/B y cómo evitarlos
 feature: ab
-uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 88%
