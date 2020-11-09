@@ -3,9 +3,8 @@ keywords: visual experience composer;vec;default url;enhanced experience compose
 description: Configure el Compositor de experiencias visuales (VEC) de Adobe Target especificando su configuración general, la configuración de ventanilla móvil y los selectores CSS.
 title: Configuración del Compositor de experiencias visuales de Adobe Target
 feature: administration general
-topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
