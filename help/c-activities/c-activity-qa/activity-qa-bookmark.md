@@ -3,10 +3,8 @@ keywords: qa;preview;bookmarklet;preview links
 description: Información para ayudarle a utilizar el bookmarklet de control de calidad de Adobe Target para obligar al Destinatario a liberarlo del modo de control de calidad.
 title: bookmarklet de control de calidad de actividad para Adobe Target
 feature: qa
-topic: Advanced,Standard,Classic
-uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
