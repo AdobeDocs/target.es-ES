@@ -5,10 +5,10 @@ title: Resolución de problemas relacionados con el Compositor de experiencias v
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 68%
+source-wordcount: '1368'
+ht-degree: 69%
 
 ---
 
@@ -27,7 +27,7 @@ Con los cambios más recientes (agosto de 2020), todos los usuarios con versione
 
 Adobe ha enviado una extensión del asistente VEC actualizada a la tienda Google Chrome. Esta extensión sobrescribe los atributos de cookie para establecer el `SameSite="none"` atributo, cuando sea necesario. La extensión [actualizada se puede encontrar aquí](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obtener más información sobre la instalación y el uso de VEC Helper Extension, consulte Extensión [de ayuda del Compositor de experiencias](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)visuales.
 
-Para las cookies de su propio sitio, debe especificar las cookies por nombre. Cambie el control deslizante [!UICONTROL Cookie] a la posición Activado y, a continuación, especifique la cookie por nombre y el dominio de la cookie. El nombre de la cookie es &quot;mbox&quot; y el dominio de la cookie es el segundo nivel y el nivel superior de los dominios desde los que se proporciona el mbox. Dado que se proporciona desde el dominio de la compañía, se trata de una cookie de origen. Ejemplo: `mycompany.com`. Para obtener más información, consulte Cookies [de](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target en la Guía *del usuario de la interfaz de* Experience Cloud.
+Para las cookies de su propio sitio, debe especificar las cookies por nombre. Cambie el control deslizante [!UICONTROL Cookie] a la posición Activado y, a continuación, especifique la cookie por nombre y el dominio de la cookie. El nombre de la cookie es &quot;mbox&quot; y el dominio de la cookie es el segundo nivel y el nivel superior de los dominios desde los que se proporciona el mbox. Dado que se proporciona desde el dominio de la compañía, se trata de una cookie de origen. Ejemplo: `mycompany.com`. Para obtener más información, consulte Cookies [de](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target en la Guía *del usuario de la interfaz de* Experience Cloud.
 
 ![Alternar las cookies en la extensión del asistente de VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
