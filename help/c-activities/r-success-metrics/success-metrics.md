@@ -3,9 +3,8 @@ keywords: Targeting;success;conversion metric;page score metric;page views metri
 description: En Adobe Target, las métricas de éxito son parámetros utilizados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target.
 title: Métricas de éxito en Adobe Target
 feature: success metrics
-uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 7078d8b613a0ba2ebad5a3698f72695d5dc3c93d
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 47%
