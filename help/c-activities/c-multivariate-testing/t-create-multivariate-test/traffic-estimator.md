@@ -2,10 +2,8 @@
 description: Dado que una prueba multivariable compara varias experiencias, es importante conocer cuánto tráfico se requiere para proporcionar resultados significativos. El estimador de tráfico usa datos estadísticos sobre su página y el número de experiencias que se están probando para calcular la cantidad de tráfico y la duración de la prueba necesarios para que la prueba se realice con éxito.
 title: Calcular el tráfico necesario para una prueba de éxito
 feature: mvt
-topic: Standard
-uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
