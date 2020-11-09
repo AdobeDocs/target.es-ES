@@ -3,10 +3,8 @@ keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;re
 description: Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
 title: Hosts
 feature: hosts and environments
-topic: Standard
-uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 27%
@@ -123,10 +121,10 @@ Pruebe los siguientes consejos de resolución de problemas si tiene algún probl
 * Confirme que la [!DNL Target] solicitud es correcta, incluida la referencia a at.js o mbox.js.
 * Try browsing to one of the [!DNL Target] requests on the host. It&#39;s possible that no [!DNL Target] request on the host was ever rendered in a browser.
 
-**La lista[!UICONTROL Hosts]contiene dominios aleatorios o desconocidos.**
+**La lista [!UICONTROL Hosts] contiene dominios aleatorios o desconocidos.**
 
 A domain appears in this list if a request to [!DNL Target] is made from the domain. Con frecuencia, es posible ver dominios de motores de araña, sitios de traducción de idiomas o unidades de disco locales. En caso de que el dominio incluido en la lista no sea uno de los que el equipo usa, puede hacer clic en [!UICONTROL Eliminar] para eliminarlo.
 
-**Mi[!DNL Target]solicitud devuelve /* sin visualización - host de mbox no autorizado */.**
+**Mi [!DNL Target] solicitud devuelve /* sin visualización - host de mbox no autorizado */.**
 
 If a [!DNL Target] request is made on an unauthorized host, the request will respond with /* no display - unauthorized mbox host */.
