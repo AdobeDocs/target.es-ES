@@ -3,10 +3,8 @@ keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq
 description: El Destinatario automático en Adobe Target utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias de alto rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. La segmentación automática proporciona la experiencia más adaptada a cada visitante según su perfil de cliente individual y el comportamiento de visitantes anteriores con perfiles similares.
 title: Descripción general del Destinatario automático
 feature: auto-target
-topic: Standard
-uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 86%
