@@ -3,11 +3,8 @@ keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dy
 description: La función targetPageParams de JavaScript se usa para pasar parámetros al mbox global. Esto es necesario en cualquier escenario en el que se vaya a pasar información de segmentación o contexto adicional a Target.
 title: Pasar parámetros a un mbox global
 feature: null
-subtopic: Getting Started
-topic: Standard
-uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 78%
