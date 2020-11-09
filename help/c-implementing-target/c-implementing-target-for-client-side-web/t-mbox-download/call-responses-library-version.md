@@ -2,9 +2,8 @@
 description: La manera en que Target hace y responde llamadas desde la página depende de la versión de la biblioteca de Target que está usando, de si la implementación del ID de visitante de Experience Cloud está presente y de si existe el ID de visitante.
 title: Métodos de página de Target por versión de biblioteca mbox.js
 feature: null
-uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 100%
