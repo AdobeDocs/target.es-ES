@@ -3,10 +3,8 @@ keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;
 description: Lista de permitidos de nodos Edge de Adobe Target
 title: Lista de permitidos de nodos Edge de Adobe Target
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 Información y una lista actualizada de los hosts para ayudarle a realizar la lista de permitidos de [!DNL Target] bordes de Adobe.
 
-Una arista es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para los usuarios finales que solicitan contenido, independientemente de su ubicación en todo el mundo. Cada nodo Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y para rastrear los datos de análisis de dicha solicitud. Las solicitudes de usuario se dirigen al nodo Edge más cercano. Para obtener más información, consulte [La red](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) Edge en *Cómo[!DNL Target]funciona* Adobe.
+Una arista es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para los usuarios finales que solicitan contenido, independientemente de su ubicación en todo el mundo. Cada nodo Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y para rastrear los datos de análisis de dicha solicitud. Las solicitudes de usuario se dirigen al nodo Edge más cercano. Para obtener más información, consulte [La red](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) Edge en *Cómo [!DNL Target] funciona* Adobe.
 
 Si lo desea, puede realizar la lista de permitidos [!DNL Target] de nodos Edge.
 
