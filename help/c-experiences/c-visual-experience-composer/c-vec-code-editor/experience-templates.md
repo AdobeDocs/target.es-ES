@@ -3,11 +3,8 @@ keywords: experience template;custom code;banner;lightbox;carousel;countdown;rib
 description: Información sobre las plantillas de experiencia de Adobe Target para su uso en código personalizado. Las plantillas de experiencia de Target son muestras precodificadas con entradas configurables que se utilizan para ejecutar casos de uso habituales para expertos en marketing.
 title: Plantillas de experiencia
 feature: vec
-subtopic: Code Editor
-topic: Standard
-uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 87%
