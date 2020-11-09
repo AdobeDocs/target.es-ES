@@ -4,9 +4,9 @@ title: Implementar at.js en un entorno que no sea de producción
 feature: null
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 92%
 
 ---
@@ -22,7 +22,7 @@ Si usa DTM, puede guardar fácilmente at.js en la configuración de herramienta 
 
 Una vez que haya guardado la biblioteca, use la herramienta de cambio de DTM para probarla con su código de producción. Esto también facilitará que los consultores de Adobe le proporcionen soporte técnico.
 
-Para obtener más información, consulte [Opción 3: Implementar Target manualmente con la biblioteca de JavaScript de Target alojada en DTM](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) en la guía *Prácticas recomendadas para implementar Adobe Target mediante Dynamic Tag Management*.
+Para obtener más información, consulte [Opción 3: Implementar Target manualmente con la biblioteca de JavaScript de Target alojada en DTM](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) en la guía *Prácticas recomendadas para implementar Adobe Target mediante Dynamic Tag Management*.
 
 ## Usar la extensión “Requestly” de Chrome para asignar a otro archivo
 
