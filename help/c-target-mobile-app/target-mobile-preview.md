@@ -3,10 +3,8 @@ keywords: qa;preview;preview link;mobile;mobile preview
 description: Use el vínculo de vista previa en móviles para realizar fácilmente un control de calidad exhaustivo de las actividades de aplicaciones móviles y registrarse en diversas experiencias directamente en el dispositivo sin tener que usar uno especial para pruebas.
 title: Uso del vínculo de vista previa móvil en Adobe Target móvil
 feature: mobile implementation
-topic: Advanced,Standard,Classic
-uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 94%
