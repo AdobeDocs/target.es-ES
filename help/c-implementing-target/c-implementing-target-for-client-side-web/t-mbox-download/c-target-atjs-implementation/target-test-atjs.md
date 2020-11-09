@@ -2,9 +2,8 @@
 description: Información sobre cómo implementar de forma segura at.js en un entorno que no sea de producción.
 title: Implementar at.js en un entorno que no sea de producción
 feature: null
-uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 92%
