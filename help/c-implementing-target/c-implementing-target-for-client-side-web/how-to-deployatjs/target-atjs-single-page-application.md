@@ -3,10 +3,8 @@ keywords: single page application implementation;implement single page applicati
 description: Información para utilizar Adobe Target at.js 2.x para implementar Aplicaciones de una sola página (SPA).
 title: Implementación de una aplicación de una sola página en Adobe Target
 feature: implementation general
-topic: standard
-uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -34,13 +32,13 @@ El VEC de Adobe Target para SPA aprovecha un nuevo concepto llamado Vistas: un g
 
 Para explicar más sobre las vistas, vamos a navegar por este hipotético sitio de comercio electrónico en línea, implementado en React, y a explorar algunas de las vistas de ejemplo. Haga clic en los vínculos siguientes para abrir el sitio en una nueva pestaña del explorador.
 
-**Vínculo:[Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
+**Vínculo: [Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
 
 ![página de inicio](/help/c-experiences/assets/home.png)
 
 Si vamos a la página de inicio, podemos ver inmediatamente una imagen promocional de Pascua, así como los productos más recientes que venden en el sitio. En este caso, una vista puede definirse como toda la página de inicio. Es práctico tenerlo en cuenta porque se ampliará en la sección Implementación de vistas de Adobe Target, que se describe a continuación.
 
-**Vínculo:[Sitio del producto](https://target.enablementadobe.com/react/demo/#/products)**
+**Vínculo: [Sitio del producto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sitio del producto](/help/c-experiences/assets/product-site.png)
 
@@ -54,7 +52,7 @@ Al principio de esta sección, definimos Vistas como el sitio completo o incluso
 
 Decidimos hacer clic en el botón Cargar más para explorar más productos en el sitio. En este caso, la dirección URL del sitio web no cambia. Sin embargo, aquí, una vista puede representar solamente la segunda fila de productos que se muestra arriba. El nombre de la vista puede ser “PRODUCTS-PAGE-2”.
 
-**Vínculo:[Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Vínculo: [Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de salida](/help/c-experiences/assets/checkout.png)
 
@@ -88,7 +86,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    Veamos algunos ejemplos de casos de uso sobre la invocación de la función `triggerView()` en React para el SPA de comercio electrónico hipotético:
 
-   **Vínculo:[Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
+   **Vínculo: [Sitio principal](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -119,7 +117,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Vínculo:[Sitio de productos](https://target.enablementadobe.com/react/demo/#/products)**
+**Vínculo: [Sitio de productos](https://target.enablementadobe.com/react/demo/#/products)**
 
 Veamos un ejemplo que es un poco más complicado. Digamos que como especialistas en marketing queremos personalizar la segunda fila de los productos cambiando el color de la etiqueta Precio a rojo después de que un usuario haga clic en el botón Cargar más.
 
@@ -148,7 +146,7 @@ Veamos un ejemplo que es un poco más complicado. Digamos que como especialistas
  }
 ```
 
-**Vínculo:[Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Vínculo: [Cierre de compra](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Reacción de finalización de compra](/help/c-experiences/assets/react6.png)
 
@@ -289,9 +287,9 @@ La siguiente información describe el orden de las operaciones que debe seguir a
 | 3 | Ejecutar [!DNL Target] solicitud | Si tiene una capa de datos, le recomendamos que cargue los datos críticos que se deben enviar a [!DNL Target] antes de ejecutar una [!DNL Target] solicitud. Esto le permite `targetPageParams` enviar los datos que desee utilizar para la segmentación. Debe asegurarse de solicitar la ejecución > pageLoad, así como la recuperación previa > vistas en esta llamada de API. si ha establecido `pageLoadEnabled` y `viewsEnabled`, entonces las vistas execute > pageLoad y prefetch > se producen automáticamente con el paso 2; en caso contrario, debe utilizar la `getOffers()` API para realizar esta solicitud. |
 | 4 | La llamada `triggerView()` | Dado que la [!DNL Target] solicitud iniciada en el paso 3 podría devolver experiencias tanto para la ejecución de Carga de página como para Vistas, asegúrese de que `triggerView()` se llame después de que se devuelva la [!DNL Target] solicitud y termine de aplicar las ofertas a la caché. Debe ejecutar este paso sólo una vez por vista. |
 | 5 | Llamar a la señalización de vista de [!DNL Analytics] página | Esta señalización envía el SDID asociado con los pasos 3 y 4 a [!DNL Analytics] para la vinculación de datos. |
-| 6 | Llamada adicional `triggerView({"page": false})` | Este es un paso opcional para los marcos de SPA que podrían volver a representar determinados componentes en la página sin que se produzca un cambio de vista. En estas ocasiones, es importante que invoque esta API para asegurarse de que [!DNL Target] las experiencias se vuelven a aplicar después de que el marco de SPA haya vuelto a procesar los componentes. Puede ejecutar este paso tantas veces como desee para asegurarse de que [!DNL Target] las experiencias persisten en sus vistas de SPA. |
+| 6 | Llamada adicional `triggerView({"page": false})` | Este es un paso opcional para los marcos de SPA que podrían volver a representar determinados componentes en la página sin que se produzca un cambio de vista. En estas ocasiones, es importante que invoque esta API para asegurarse de que [!DNL Target] las experiencias se vuelven a aplicar después de que el marco de SPA haya reprocesado los componentes. Puede ejecutar este paso tantas veces como desee para asegurarse de que [!DNL Target] las experiencias persisten en sus vistas SPA. |
 
-### Orden de operaciones para el cambio de vista de SPA (sin recarga de página completa)
+### Orden de operaciones para SPA cambio de vista (sin recarga de página completa)
 
 | Paso  | Acción | Detalles |
 | --- | --- | --- |
@@ -300,7 +298,7 @@ La siguiente información describe el orden de las operaciones que debe seguir a
 | 3 | La llamada `triggerView()` | Si ha ejecutado el paso 2, debe esperar a la [!DNL Target] solicitud y aplicar las ofertas a la caché antes de ejecutar este paso. Debe ejecutar este paso sólo una vez por vista. |
 | 4 | La llamada `triggerView()` | Si no ha ejecutado el Paso 2, puede ejecutar este paso tan pronto como complete el Paso 1. Si ha ejecutado los pasos 2 y 3, debe omitir este paso. Debe ejecutar este paso sólo una vez por vista. |
 | 5 | Llamar a la señalización de vista de [!DNL Analytics] página | Esta señalización envía el SDID asociado con los pasos 2, 3 y 4 a [!DNL Analytics] para la vinculación de datos. |
-| 6 | Llamada adicional `triggerView({"page": false})` | Este es un paso opcional para los marcos de SPA que podrían volver a representar determinados componentes en la página sin que se produzca un cambio de vista. En estas ocasiones, es importante que invoque esta API para asegurarse de que [!DNL Target] las experiencias se vuelven a aplicar después de que el marco de SPA haya vuelto a procesar los componentes. Puede ejecutar este paso tantas veces como desee para asegurarse de que [!DNL Target] las experiencias persisten en sus vistas de SPA. |
+| 6 | Llamada adicional `triggerView({"page": false})` | Este es un paso opcional para los marcos de SPA que podrían volver a representar determinados componentes en la página sin que se produzca un cambio de vista. En estas ocasiones, es importante que invoque esta API para asegurarse de que [!DNL Target] las experiencias se vuelven a aplicar después de que el marco de SPA haya reprocesado los componentes. Puede ejecutar este paso tantas veces como desee para asegurarse de que [!DNL Target] las experiencias persisten en sus vistas SPA. |
 
 ## Vídeos de formación
 
@@ -312,7 +310,7 @@ Los vídeos siguientes contienen más información:
 
 Consulte [Explicación del funcionamiento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) de at.js 2.x para obtener más información.
 
-### Implementar at.js 2.x en una insignia de ![tutorial de SPA](/help/assets/tutorial.png)
+### Implementar at.js 2.x en una insignia ![de tutorial SPA](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
