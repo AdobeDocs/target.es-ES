@@ -3,9 +3,8 @@ keywords: cloud instances;public suffix list;public suffix;cookie;first-party co
 description: Información acerca de problemas que los clientes afrontan al usar instancias basadas en la nube para probar Adobe Target.
 title: Uso de instancias basadas en la nube con Target
 feature: client-side
-uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 95%
