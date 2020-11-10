@@ -1,10 +1,11 @@
 ---
+keywords: automated personalization;offers
 description: En una actividad de Personalización automatizada, puede segmentar las ofertas a audiencias específicas.
 title: Ofertas de personalización automatizada de Target
 feature: ap
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a4b510308394110bb267665ca39d54e2ea781f3d
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
