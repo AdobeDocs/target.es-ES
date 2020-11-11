@@ -4,10 +4,10 @@ description: En este tema encontrará respuestas a preguntas que se plantean a m
 title: 'Clasificaciones: Preguntas más frecuentes sobre A4T'
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 403a56da912fa143cf6c20b078c0bba63c6f4420
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 67%
+source-wordcount: '244'
+ht-degree: 65%
 
 ---
 
@@ -28,6 +28,7 @@ El formato de cadena de la variable TNT es `activityID:experienceID:targettype|e
 * Evento = 0 representa una entrada en la experiencia.
 * Evento = 1 representa una visita en la experiencia.
 * Evento = 2 representa una impresión de actividad.
+* Evento = 3-32766 representa la identificación de la métrica de éxito de análisis.
 * Evento = 32767 representa una conversión de actividad.
 
 You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). También puede incluir servicios de ingeniería para obtener el archivo como una tabla de búsqueda con una fuente de datos de secuencias de clic.
