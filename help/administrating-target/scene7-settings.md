@@ -1,10 +1,10 @@
 ---
-keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library
+keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library;swap image
 description: Target Standard se puede integrar con Adobe Dynamic Media Classic para proporcionar administración de recursos digitales (DAM) en la biblioteca de contenido.
 title: Integración de la configuración de la integración de Dynamic Media Classic
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 44d6cd2dcc71a84d4526aaf38ee606ffb0a97fb5
+source-git-commit: 44c2a1dd1fa51cb7ea50a5e3d0125ba9abb1896c
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 30%
