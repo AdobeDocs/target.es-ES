@@ -4,10 +4,10 @@ description: Estas notas de la versión proporcionan información sobre caracter
 title: 'Notas de la versión de Adobe Target (actual) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 27%
+source-wordcount: '974'
+ht-degree: 26%
 
 ---
 
@@ -31,6 +31,12 @@ Estas notas de la versión proporcionan información sobre características, mej
 
 
 Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+## at.js 2.3.3 (13 de noviembre de 2020)
+
+Esta versión de at.js es una versión de mantenimiento que incluye la siguiente corrección:
+
+* Se ha corregido un problema relacionado con el rastreo de clics de mbox y A4T.
 
 ## Target Standard/Premium 20.10.1 (27 de octubre de 2020)
 
