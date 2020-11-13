@@ -4,9 +4,9 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de destinatario
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -30,21 +30,6 @@ En este seminario web en directo, únase a los expertos en productos de Adobe Ta
 * **10.00 horas PST | 12 p.m. CCT | 1 p.m. EST**
 
 [Regístrate aquí para este emocionante evento.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
-
-## Descanso para café de la comunidad de Adobe Target
-
-* **Miércoles 11 de noviembre de 2020**
-* **8.00 horas PST**
-
-Nuestro experto será el responsable [!DNL Adobe Target] de producto principal, David Son, quien compartirá perspectivas y conocimientos sobre los siguientes temas:
-
-* Toma de decisiones en el dispositivo
-* At.js
-* Móvil
-* AEP Web SDK
-* API
-
-[Registrarse aquí.](https://adobe.ly/2H3MBX9)
 
 ## Seminario web: Cómo HSBC aprovecha Adobe Target y AI para optimizar rápidamente y ofrecer personalización a escala
 
