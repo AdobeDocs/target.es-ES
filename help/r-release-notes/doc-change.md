@@ -4,9 +4,9 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '2993'
+source-wordcount: '2994'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| Noviembre de 17 | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Preguntas más frecuentes añadidas:<ul><li>¿Puede un visitante cambiar entre experiencias segmentadas y controladas en diferentes visitas en una actividad de Destinatario automático que utilice A4T?</li><li>¿Se recomienda utilizar el modelo personalizado para el Destinatario automático y A4T con una división 90 (Control)/10 (Segmentado) hasta que se creen los modelos?</li></ul> |
+| Noviembre de 17 | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Preguntas más frecuentes añadidas: &quot;¿Puede un visitante cambiar entre experiencias segmentadas y controladas en diferentes visitas en una actividad de Destinatario automático que utiliza A4T?&quot; |
+|  | [Solución de problemas de Destinatario automático y preguntas más frecuentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Preguntas más frecuentes añadidas: &quot;¿Recomienda utilizar el Destinatario automático con una división 90 (Control)/10 (Segmentación) hasta que se creen los modelos?&quot; |
 | Noviembre de 13 | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha añadido información sobre at.js 2.3.3. |
 | Noviembre de 10 | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Se añadió información sobre el Descanso del café de Adobe Target Community Q&amp;A programado para el 11 de noviembre. |
 | Noviembre de 3 | [Resolución de problemas de integración de Analytics y Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Se ha actualizado el siguiente tema de solución de problemas: &quot;El grupo de informes que necesito no se muestra.&quot; |
