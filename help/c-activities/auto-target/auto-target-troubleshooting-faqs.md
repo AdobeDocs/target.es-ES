@@ -4,10 +4,10 @@ description: Resolución de problemas y preguntas más frecuentes sobre el Desti
 title: Solución de problemas de Destinatario automático y preguntas más frecuentes
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 76%
+source-wordcount: '1845'
+ht-degree: 73%
 
 ---
 
@@ -32,6 +32,12 @@ Consulte las siguientes preguntas más frecuentes y respuestas cuando trabaje co
    * Si una prueba A/B no muestra diferencias estadísticamente significativas entre las experiencias, es probable que las ofertas que está considerando no sean suficientemente diferentes entre sí, las ubicaciones que seleccionó no influyen en la métrica de éxito o el objetivo de optimización está demasiado lejos en el embudo de conversión como para verse afectado por las ofertas elegidas.
 
 * Trate de no hacer cambios sustanciales en las experiencias durante el curso de la actividad.
+
+### ¿Recomendamos que usemos el Destinatario automático con una división 90 (Control)/10 (Segmentación) hasta que se creen los modelos?
+
+La división óptima de la asignación de tráfico depende de lo que desee lograr.
+
+Si su objetivo es personalizar el mayor tráfico posible, puede mantener un control del 90 % y del 10 % durante la duración de la actividad. Si su objetivo es ejecutar un experimento comparando el rendimiento de los algoritmos personalizados con el control, entonces es mejor una división 50/50.
 
 ### ¿Las marcas de verificación indican que se ha creado un modelo para esa actualización de experiencia si cambia el intervalo de fechas del informe?
 
