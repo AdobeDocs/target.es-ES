@@ -4,10 +4,10 @@ description: En este tema encontrará respuestas a preguntas que se plantean a m
 title: 'Configuración de actividades: preguntas más frecuentes sobre A4T'
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 37%
+source-wordcount: '432'
+ht-degree: 44%
 
 ---
 
@@ -47,10 +47,3 @@ Si los porcentajes no se ajustan en la mitad de la actividad, siempre se enviar�
 
 * Después de estar en el &quot;bloque&quot; de tráfico objetivo, el visitante se puede enviar a una experiencia diferente de una visita a otra si los modelos de aprendizaje automático determinan que una experiencia diferente es relevante para la nueva visita.
 * Después de asignarlo al &quot;bloque&quot; de control del tráfico, un visitante siempre verá la misma experiencia porque la asignación de experiencia se basa en un hash determinístico pseudoaleatorio del visitorId del visitante.
-
-## ¿Se recomienda utilizar el modelo personalizado para el Destinatario automático y A4T con una división 90 (Control)/10 (Segmentado) hasta que se creen los modelos?
-
-La división óptima de la asignación de tráfico depende de lo que desee lograr.
-
-Si su objetivo es personalizar el mayor tráfico posible, puede mantener un control del 90 % y del 10 % durante la duración de la actividad. Si su objetivo es ejecutar un experimento comparando el rendimiento de los algoritmos personalizados con el control, entonces es mejor una división 50/50.
-
