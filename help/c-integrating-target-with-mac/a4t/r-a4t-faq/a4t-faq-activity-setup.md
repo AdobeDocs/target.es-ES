@@ -4,17 +4,17 @@ description: En este tema encontrará respuestas a preguntas que se plantean a m
 title: 'Configuración de actividades: preguntas más frecuentes sobre A4T'
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 89%
+source-wordcount: '514'
+ht-degree: 37%
 
 ---
 
 
-# Configuración de actividades: preguntas más frecuentes sobre A4T{#activity-settings-a-t-faq}
+# Configuración de actividades: preguntas más frecuentes sobre A4T
 
-En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la configuración de actividades y el uso de Analytics como fuente de informes para Target (A4T).
+This topic contains answers to questions that are frequently asked about activity setup and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## ¿Qué tipos de actividades son compatibles con Analytics como fuente de informes (A4T)?{#section_5E4F58CD25A5424E869E6FE0803968EF}
 
@@ -22,17 +22,35 @@ Para obtener una lista completa, consulte “Tipos de actividades compatibles”
 
 ## Acabo de crear una actividad. ¿Por qué no entran datos? {#section_9F8092BE4225442896F926540292F221}
 
-Cuando se crea una actividad, Target envía un archivo de clasificación a Analytics. Aunque Analytics esté recopilando datos y procesándolos, no se muestran en los informes hasta que se actualice el archivo de clasificación. Este proceso puede tardar hasta 24 horas. Si al cabo de 48 horas no ve los datos, [contacte con ClientCare](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). De forma alternativa, si sabe que va a iniciar una actividad, puede crearla con unos días de antelación y el archivo de clasificación se enviará cuando se guarde la actividad. De este modo, aparecerán datos en el informe en cuanto se inicie la actividad. Tenga en cuenta que los datos tardan entre 45 y 90 minutos en procesarse en Analytics.
+When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing the and processing the data, it does not show in the reports until the classification file has been updated. Este proceso puede tardar hasta 24 horas. Si al cabo de 48 horas no ve los datos, [contacte con ClientCare](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). De forma alternativa, si sabe que va a iniciar una actividad, puede crearla con unos días de antelación y el archivo de clasificación se enviará cuando se guarde la actividad. De este modo, aparecerán datos en el informe en cuanto se inicie la actividad. Tenga en cuenta que los datos tardan entre 45 y 90 minutos en procesarse en [!DNL Analytics].
 
 ## ¿Por qué no puedo seleccionar Analytics como fuente de informes cuando creo una actividad nueva?   {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-Puede cambiar las opciones de Configuración de Sistema de informes en Administración.
+You can change your [!UICONTROL Reporting Settings] options in [!UICONTROL Administration].
 
-1. In Adobe Target, click **[!UICONTROL Administration]**.
+1. En [!DNL Target], haga clic en **[!UICONTROL Administración]**.
 1. En la lista desplegable **[!UICONTROL Solución de Experience Cloud utilizada para la creación de informes]**, haga clic en **[!UICONTROL Seleccionar por actividad]**.
 
 ![](assets/select-per-activity.png)
 
 La lista desplegable **[!UICONTROL Fuente de informes]** está habilitada en la pantalla **[!UICONTROL Objetivo y configuración]** para crear y editar actividades.
 
-To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
+To always use [!DNL Analytics] as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in [!UICONTROL Administration].
+
+## ¿Puede un visitante cambiar entre experiencias segmentadas y controladas en diferentes visitas en una actividad de Destinatario automático que utilice A4T?
+
+Lo siguiente es true si visitorId no cambia para un visitante entre visitas.
+
+Si el porcentaje de asignación de tráfico se ajusta a mitad de actividad, es posible que un visitante pueda moverse entre las experiencias de destino y de control.
+
+Si los porcentajes no se ajustan en la mitad de la actividad, siempre se enviará al control un visitante que vea inicialmente el control. Un visitante que se envía a las experiencias objetivo siempre se envía a las experiencias objetivo.
+
+* Después de estar en el &quot;bloque&quot; de tráfico objetivo, el visitante se puede enviar a una experiencia diferente de una visita a otra si los modelos de aprendizaje automático determinan que una experiencia diferente es relevante para la nueva visita.
+* Después de asignarlo al &quot;bloque&quot; de control del tráfico, un visitante siempre verá la misma experiencia porque la asignación de experiencia se basa en un hash determinístico pseudoaleatorio del visitorId del visitante.
+
+## ¿Se recomienda utilizar el modelo personalizado para el Destinatario automático y A4T con una división 90 (Control)/10 (Segmentado) hasta que se creen los modelos?
+
+La división óptima de la asignación de tráfico depende de lo que desee lograr.
+
+Si su objetivo es personalizar el mayor tráfico posible, puede mantener un control del 90 % y del 10 % durante la duración de la actividad. Si su objetivo es ejecutar un experimento comparando el rendimiento de los algoritmos personalizados con el control, entonces es mejor una división 50/50.
+
