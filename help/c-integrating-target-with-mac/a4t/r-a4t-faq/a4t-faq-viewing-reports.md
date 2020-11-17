@@ -4,10 +4,10 @@ description: En este tema encontrará respuestas a preguntas que se plantean a m
 title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 59%
+source-wordcount: '2214'
+ht-degree: 58%
 
 ---
 
@@ -138,11 +138,11 @@ Se recomienda detener la actividad existente y luego crear una nueva, en lugar d
 
 ## ¿Cómo se contabilizan las visitas en Analytics y el crédito de conversión en una actividad de Destinatario automático que utiliza A4T?
 
-Cuando un visitante cumple los requisitos, vista de contenido o convierte en una actividad de A4T, [!DNL Target] envía datos de evento a [!DNL Analytics], lo que permite [!DNL Analytics] atribuir eventos de conversión y otros eventos de secuencias de clic que se producen en la página a las [!DNL Target] actividades y experiencias relevantes.
+Cuando un visitante cumple los requisitos, vista el contenido o convierte en una actividad de A4T, [!DNL Target] envía datos de evento a [!DNL Analytics], lo que permite [!DNL Analytics] atribuir eventos de conversión y otros eventos de flujo de navegación que se producen en la página a las [!DNL Target] actividades y experiencias relevantes.
 
 A continuación se indican algunos puntos que hay que tener en cuenta al ver [!DNL Analytics] los informes:
 
-* En general, la ventana de sistema de informes siempre debe comenzar desde la fecha de inicio de la actividad.
+* En general, como práctica recomendada, la ventana de sistema de informes debe comenzar a partir de la fecha de inicio de la actividad.
 * Si se produce una conversión fuera de la ventana del informe, la conversión no estará visible en [!DNL Analytics].
-* En la parte &quot;dirigida&quot; del tráfico para actividades de Destinatario  automático, los visitantes pueden ver experiencias diferentes de una sesión a otra. Por ejemplo, su perfil o contexto ha cambiado y los algoritmos de aprendizaje automático [!DNL Target]delos  deciden que es más probable que se conviertan en una experiencia nueva. Esto no es lo mismo que las actividades de prueba A/B ordinarias, donde las experiencias se ciñen a un visitante en todas las visitas.
-* Si un visitante ve varias experiencias a través de las visitas, cualquier conversión siempre se atribuye a la última experiencia que vio el visitante; sin embargo, el recuento de visitas se incrementará para cada experiencia que vio el visitante. Esto puede reducir artificialmente las tasas de conversión por experiencia al ver las experiencias bajo la dimensión &quot;[!UICONTROL Segmentadas]&quot; en [!DNL Adobe Analytics] los informes.
+* Cuando se encuentra en la porción de tráfico &quot;segmentada&quot; para actividades de Destinatario  automático, los visitantes pueden ver experiencias diferentes de una sesión a la siguiente. Por ejemplo, si su perfil o contexto ha cambiado y los algoritmos [!DNL Target]de aprendizaje automático determinan que es más probable que se conviertan en una nueva experiencia. A medida que los visitantes pasan de una experiencia a otra, el recuento de visitas aumenta para cada experiencia vista. Esto no es lo mismo que las actividades de prueba A/B ordinarias, en las que las experiencias se ciñen a un visitante a través de las visitas.
+* Si un visitante ve varias experiencias a través de las visitas, cualquier conversión siempre se atribuye a la última experiencia que vio el visitante. Como se mencionó anteriormente, el recuento de visitas aumenta cada experiencia que vio el visitante. Esto puede reducir artificialmente las tasas de conversión por experiencia al ver las experiencias bajo la dimensión &quot;[!UICONTROL Segmentadas]&quot; en [!DNL Adobe Analytics] los informes.
