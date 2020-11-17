@@ -4,15 +4,15 @@ description: En este tema encontrará respuestas a preguntas que se plantean a m
 title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 65%
+source-wordcount: '2177'
+ht-degree: 59%
 
 ---
 
 
-# Visualización de informes: preguntas más frecuentes sobre A4T{#view-reports-a-t-faq}
+# Visualización de informes: preguntas más frecuentes sobre A4T
 
 This topic contains answers to questions that are frequently asked about viewing reports when using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
@@ -135,3 +135,16 @@ Los grupos de informes virtuales *no* se incluyen en la lista de grupos de infor
 Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in [!DNL Analytics] because the change impacts only new visitors. Los visitantes que regresan no se ven afectados.
 
 Se recomienda detener la actividad existente y luego crear una nueva, en lugar de cambiar el porcentaje después de la activación. Los informes de la nueva actividad comienzan con los nuevos visitantes y los datos de los visitantes que regresan no provocarán informes incoherentes.
+
+## ¿Cómo se contabilizan las visitas en Analytics y el crédito de conversión en una actividad de Destinatario automático que utiliza A4T?
+
+Una vez que un visitante cumple los requisitos para una actividad, todos los créditos de conversión estarán vinculados a esa actividad en el futuro.
+
+Tenga en cuenta lo siguiente:
+
+* Si se produce una conversión fuera de la ventana análisis, la conversión no estará visible en los informes. La ventana de sistema de informes debe comenzar a partir de la fecha de inicio de la actividad.
+* Es posible que un visitante que no cumple los requisitos para la actividad incremente el recuento de visitantes en [!DNL Analytics], aunque no vea el contenido enviado por la actividad.
+* Si un visitante cumple los requisitos para varias experiencias en diferentes visitas, el crédito de conversión se atribuye a la última experiencia vista.
+* Si se produce una entrada inicial en una actividad antes de la ventana de análisis, las visitas y conversiones posteriores seguirán contabilizándose en la ventana de análisis. Sin embargo, esto puede distorsionar [!DNL Analytics] los informes.
+* las actividades se anexan y actúan como variables de lista; sin embargo, las experiencias se sobrescriben, pero el crédito por la conversión se atribuye a la última experiencia vista.
+* Un visitante puede incrementar las visitas para dos experiencias diferentes si el visitante vuelve a entrar en la actividad en una visita posterior.
