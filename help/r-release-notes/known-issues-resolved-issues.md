@@ -4,17 +4,17 @@ description: Información sobre problemas conocidos con esta versión de Adobe T
 title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
 workflow-type: tm+mt
-source-wordcount: '3895'
-ht-degree: 78%
+source-wordcount: '3957'
+ht-degree: 76%
 
 ---
 
 
 # Problemas conocidos y problemas resueltos  
 
-Información sobre problemas conocidos con esta versión de Target. También incluye información sobre problemas que ya se han resuelto.
+Información sobre problemas conocidos de [!DNL Adobe Target]. También incluye información sobre problemas que ya se han resuelto.
 
 >[!NOTE]
 >
@@ -127,6 +127,12 @@ El 10 de mayo de 2020 actualizamos nuestros archivos de proveedores de GEO, lo q
 ### Ofertas de imagen que muestran la etiqueta &quot;Procesamiento&quot;
 
 Las ofertas de imagen de la página Ofertas a veces conservan la etiqueta de &quot;procesamiento&quot; durante varias horas después de cargar las imágenes. En la mayoría de los casos, este es un problema solo con la etiqueta: las ofertas de imagen pueden seguir utilizándose en actividades y entregarse. En algunos casos, sin embargo, es posible que una oferta de imagen no esté disponible para la acción Reemplazar contenido > Imagen. Si esto sucede, debe cargar la oferta de imagen de nuevo y comprobar después de unas horas si la oferta de imagen está disponible para su sustitución. (TGT-37458)
+
+### Sistema de informes: datos incoherentes en el informe .csv descargable frente al informe mostrado en la interfaz de usuario de Destinatario.
+
+Los informes generados para la descarga como archivos .csv son incoherentes si la actividad utiliza más de una métrica. El informe descargable se genera solo en función de la configuración del informe y considera el mismo valor para cualquier otra métrica utilizada.
+
+La fuente de la verdad es siempre el informe que se muestra en la [!DNL Target] interfaz de usuario.
 
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
