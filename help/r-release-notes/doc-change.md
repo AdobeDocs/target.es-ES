@@ -4,9 +4,9 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Noviembre de 24 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido el siguiente problema conocido:<ul><li>[Sistema de informes: datos incoherentes en el informe .csv descargable frente al informe mostrado en la interfaz de usuario de Destinatario.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Se ha añadido el siguiente problema resuelto:<ul><li>[Creación de informes en Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+|  | [Definiciones de métricas: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Se añadió la siguiente pregunta frecuente: &quot;Al configurar las métricas de objetivo, ¿por qué no puedo acceder a las opciones de Configuración avanzada?&quot; |
+|  | [Métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md) | Se ha ajustado el texto de la nota sobre actividades que utilizan A4T. |
 | Noviembre de 17 | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Preguntas más frecuentes añadidas: &quot;¿Puede un visitante cambiar entre experiencias segmentadas y controladas en diferentes visitas en una actividad de Destinatario automático que utiliza A4T?&quot; |
 |  | [Solución de problemas de Destinatario automático y preguntas más frecuentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Preguntas más frecuentes añadidas: &quot;¿Recomienda utilizar el Destinatario automático con una división 90 (Control)/10 (Segmentación) hasta que se creen los modelos?&quot; |
 |  | [Visualización de informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Preguntas más frecuentes añadidas: &quot;¿Cómo se cuentan las visitas en Analytics y el crédito de conversión en una actividad de Destinatario automático que utiliza A4T?&quot; |
