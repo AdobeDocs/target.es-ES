@@ -4,10 +4,10 @@ description: En este tema encontrará respuestas a preguntas que se plantean a m
 title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 58%
+source-wordcount: '2280'
+ht-degree: 56%
 
 ---
 
@@ -31,6 +31,12 @@ Los segmentos se suelen aplicar a la parte superior de un panel en la zona de co
 La variable de [!DNL Target] enviada a [!DNL Analytics] caduca, de forma predeterminada, en un plazo de 90 días. (Nota: el Servicio de atención al cliente puede ajustar este período de caducidad si es necesario). A medida que los visitantes navegan por el sitio a través de esta ventana de caducidad, forman parte de muchas [!DNL Target] actividades, todas las cuales se recopilan en la dimensión.
 
 Como resultado, cuando segmente para que una actividad esté presente en una visita, obtendrá todas las experiencias que forman parte de esa actividad *además* de cualquier otra experiencia que persista en esa visita.
+
+## Al configurar mis métricas de objetivo, ¿por qué no puedo acceder a la Configuración avanzada?
+
+Para actividades que utilizan [!DNL Analytics] como fuente de sistema de informes (A4T), la métrica de objetivos siempre utilizará la configuración &quot;[!UICONTROL Aumentar recuento y mantener al usuario en Actividad]&quot; y &quot;[!UICONTROL En cada impresión]&quot;. Esto *no es* configurable.
+
+Para obtener más información, consulte &quot;Al configurar mis métricas de objetivo, ¿por qué no puedo acceder a las opciones de Configuración avanzada?&quot; in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## ¿Debería usar visitantes, visitas o impresiones de actividad como métrica de normalización (es decir, metodología de recuento)? {#metrics}
 
