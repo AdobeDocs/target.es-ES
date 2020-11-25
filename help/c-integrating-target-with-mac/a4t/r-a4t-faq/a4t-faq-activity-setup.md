@@ -4,10 +4,10 @@ description: En este tema encontrará respuestas a preguntas que se plantean a m
 title: 'Configuración de actividades: preguntas más frecuentes sobre A4T'
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 44%
+source-wordcount: '498'
+ht-degree: 38%
 
 ---
 
@@ -19,6 +19,12 @@ This topic contains answers to questions that are frequently asked about activit
 ## ¿Qué tipos de actividades son compatibles con Analytics como fuente de informes (A4T)?{#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 Para obtener una lista completa, consulte “Tipos de actividades compatibles” en [Adobe Analytics como Fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
+## Al configurar mis métricas de objetivo, ¿por qué no puedo acceder a la Configuración avanzada?
+
+Para actividades que utilizan [!DNL Analytics] como fuente de sistema de informes (A4T), la métrica de objetivos siempre utilizará la configuración &quot;[!UICONTROL Aumentar recuento y mantener al usuario en Actividad]&quot; y &quot;[!UICONTROL En cada impresión]&quot;. Esto *no es* configurable.
+
+Para obtener más información, consulte &quot;Al configurar mis métricas de objetivo, ¿por qué no puedo acceder a las opciones de Configuración avanzada?&quot; in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Acabo de crear una actividad. ¿Por qué no entran datos? {#section_9F8092BE4225442896F926540292F221}
 
