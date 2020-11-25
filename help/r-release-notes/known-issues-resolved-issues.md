@@ -4,10 +4,10 @@ description: Información sobre problemas conocidos con esta versión de Adobe T
 title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3957'
-ht-degree: 76%
+source-wordcount: '4273'
+ht-degree: 71%
 
 ---
 
@@ -128,7 +128,7 @@ El 10 de mayo de 2020 actualizamos nuestros archivos de proveedores de GEO, lo q
 
 Las ofertas de imagen de la página Ofertas a veces conservan la etiqueta de &quot;procesamiento&quot; durante varias horas después de cargar las imágenes. En la mayoría de los casos, este es un problema solo con la etiqueta: las ofertas de imagen pueden seguir utilizándose en actividades y entregarse. En algunos casos, sin embargo, es posible que una oferta de imagen no esté disponible para la acción Reemplazar contenido > Imagen. Si esto sucede, debe cargar la oferta de imagen de nuevo y comprobar después de unas horas si la oferta de imagen está disponible para su sustitución. (TGT-37458)
 
-### Sistema de informes: datos incoherentes en el informe .csv descargable frente al informe mostrado en la interfaz de usuario de Destinatario.
+### Sistema de informes: datos incoherentes en el informe .csv descargable frente al informe mostrado en la interfaz de usuario de Destinatario. {#csv}
 
 Los informes generados para la descarga como archivos .csv son incoherentes si la actividad utiliza más de una métrica. El informe descargable se genera solo en función de la configuración del informe y considera el mismo valor para cualquier otra métrica utilizada.
 
@@ -137,6 +137,37 @@ La fuente de la verdad es siempre el informe que se muestra en la [!DNL Target] 
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán a las siguientes secciones y, si es necesario, se añadirán notas adicionales.
+
+### Creación de informes en Analytics for Target (A4T)
+
+Se han resuelto los siguientes problemas relacionados con A4T:
+
+* Problema que afectaba a las actividades de A4T mediante una métrica de [!DNL Analytics] objetivos que hacía que los informes de A4T mostraran una división de tráfico inesperada o conversiones infladas artificialmente.
+
+   Este problema afectaba al sistema de informes de A4T en las siguientes condiciones:
+
+   * La actividad se creó o guardó entre el 15 de septiembre y el 5 de noviembre de 2020 (4 a.m. PST), y
+   * La actividad tenía una [!DNL Analytics] métrica seleccionada como métrica de objetivo.
+
+   [!DNL Target] dividir correctamente el tráfico durante este tiempo. Sin embargo, podría aparecer una división 50/50 en la configuración de actividad, por ejemplo, como una división 90/10 en los informes de A4T.
+
+   Para las actividades afectadas, la división de tráfico correcta es visible para los visitantes nuevos en la actividad después del 5 de noviembre (4 a.m. PST). Las nuevas actividades creadas o guardadas después de esta hora informarán correctamente la división del tráfico.
+
+* Problema que afectaba a las actividades de A4T con una métrica de [!DNL Target] objetivos que hacía que los informes de A4T informaran de conversiones bajas o sin ellas.
+
+   >[!NOTE]
+   >
+   >Este problema solo afectaba al sistema de informes de A4T. No afectó al envío de la actividad.
+
+   Este problema afectaba al sistema de informes de A4T en las siguientes condiciones:
+
+   * La actividad de A4T estuvo activa entre el 22 de septiembre y el 11 de noviembre de 2020 (2:30 p.m. PST), y
+   * La actividad tenía una [!DNL Target] métrica seleccionada como métrica de objetivo y
+   * Cuando un visitante alcanzó el evento de objetivo de la actividad (por ejemplo, [!UICONTROL hizo clic en un elemento]), también hubo una actividad de prioridad menor que no es de A4T que coincidió con el evento de conversión. Esto podría suceder si la actividad que no es de A4T se configuró con la misma métrica que la actividad de A4T o si se configuró con la métrica &quot;cualquier mbox&quot;.
+
+   Este problema afectó al sistema de informes de actividades de A4T que estuvieron activas entre el 22 de septiembre y el 11 de noviembre de 2020 (2:30 p.m. PST). El sistema de informes de las actividades de A4T afectadas mostrará correctamente las conversiones fuera de este intervalo de fechas. El sistema de informes para actividades que no son de A4T no se vio afectado.
+
+Si tiene más preguntas, póngase en contacto con el administrador de éxito del cliente (CSM) o con el servicio de atención al cliente de [Adobe](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
 
 ### Sistema de informes de Destinatario automático {#at-metrics}
 
