@@ -4,9 +4,9 @@ description: Notas de la versión que proporcionan información sobre funciones,
 title: Notas de evaluación de Adobe Target
 feature: null
 translation-type: tm+mt
-source-git-commit: fd3ab8737cd79da7bc14cc0236d07a024d6e85bc
+source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '789'
 ht-degree: 10%
 
 ---
@@ -43,7 +43,7 @@ Esta versión contiene las siguientes nuevas funciones:
 
 | Función | Detalles |
 | --- | --- |
-| Toma de decisiones en el dispositivo | La toma de decisiones en dispositivos permite tanto a los especialistas en marketing como a los desarrolladores de productos ofrecer experimentación y personalización basada en el aprendizaje automático desde el dispositivo del usuario, en canales y con una latencia cercana a cero.<br>La velocidad y el rendimiento son importantes, tanto en la perspectiva del cliente como en la satisfacción del usuario.<br>La toma de decisiones en el dispositivo permite compilar las instrucciones de personalización y experimentación clave en los tipos de actividad Prueba A/B y Segmentación de experiencias (XT) en &quot;artefactos de optimización:&quot; objetos JSON que se cargan en dispositivos cliente mediante la CDN. Y como la toma de decisiones en dispositivos se conecta de forma nativa con [!DNL Adobe Experience Cloud] [!DNL Target] los productos, los usuarios obtienen una análisis rápida y una experiencia más rápida de iteraciones.<br>Para obtener más información, consulte *[Introducción a la toma de decisiones](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* en dispositivos en la Guía *de SDK de* Adobe Target. |
+| Toma de decisiones en el dispositivo | La toma de decisiones en dispositivos permite tanto a los especialistas en marketing como a los desarrolladores de productos ofrecer experimentación y personalización basada en el aprendizaje automático desde el dispositivo del usuario, en canales y con una latencia cercana a cero.<br>La velocidad y el rendimiento son importantes, tanto en la perspectiva del cliente como en la satisfacción del usuario.<br>La toma de decisiones en el dispositivo permite compilar las instrucciones de personalización y experimentación clave en los tipos de actividad Prueba A/B y Segmentación de experiencias (XT) en &quot;artefactos de optimización:&quot; objetos JSON que se cargan en dispositivos cliente mediante la CDN. Y como la toma de decisiones en dispositivos se conecta de forma nativa con [!DNL Adobe Experience Cloud] [!DNL Target] los productos, los usuarios obtienen una análisis rápida y una experiencia más rápida de iteraciones.<br>Para obtener más información, consulte *[Introducción a la toma de decisiones](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* en dispositivos en la Guía *de SDK de* Adobe Target.<br>Vea el seminario web grabado aquí: [Decisiones en dispositivos en Adobe Target](https://video.tv.adobe.com/v/328148?quality=12&autoplay=true&learn=on&captions=spa). |
 
 Esta versión contiene las siguientes mejoras, correcciones y cambios:
 
