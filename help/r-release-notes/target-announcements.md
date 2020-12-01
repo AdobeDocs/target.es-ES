@@ -4,9 +4,9 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de destinatario
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,15 @@ Una vez más, Adobe fue nombrado Líder en el tercer informe anual del Cuadrante
 
 Más que nunca, a los especialistas en marketing, propietarios de productos y desarrolladores se les está encomendando la tarea de optimizar la experiencia general del cliente en los sitios, en las aplicaciones y en cualquier otro lugar en el que se conecten con sus clientes. Múltiples herramientas con silos de datos e implementaciones complicadas no lo cortarán.
 
-En este seminario web en directo, únase a los expertos en productos de Adobe Target para analizar cómo mover las decisiones de optimización de experiencias críticas en el dispositivo para ejecutarse localmente con una latencia cero puede abrir las puertas a nuevos casos de uso interesantes y mejorar el rendimiento del sitio para sus clientes.
+En este seminario web grabado, los expertos en productos de Adobe Target analizan cómo mover las decisiones de optimización de experiencias críticas en el dispositivo para ejecutarse localmente con una latencia cero puede abrir las puertas a nuevos casos de uso interesantes y mejorar el rendimiento del sitio para sus clientes.
 
-* **Martes 10 de noviembre de 2020**
-* **10.00 horas PST | 12 p.m. CCT | 1 p.m. EST**
+>[!VIDEO](https://video.tv.adobe.com/v/328148)
 
 [Regístrate aquí para este emocionante evento.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Seminario web: Cómo HSBC aprovecha Adobe Target y AI para optimizar rápidamente y ofrecer personalización a escala
 
-* **Puede hacer clic aquí para vista de la grabación de [seminario](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)web.**
+* **Haga clic aquí para vista de la grabación del [seminario](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)web.**
 
 McKinsey Digital reporta que &quot;hemos avanzado cinco años en la adopción digital de consumidores y empresas en apenas ocho semanas&quot;. *
 
@@ -49,4 +48,6 @@ Las demandas de los consumidores están evolucionando rápidamente, y HSBC ha ad
 
 ## Adobe Target Skill Builder: Chat del desarrollador, migrar mbox.js de Adobe Target a at.js {#skill-builder}
 
-Con la inminente desaprobación de mbox.js el 18 de enero de 2012, David Son, Product Manager de Adobe Target, organizó recientemente un chat de desarrollador para analizar las ventajas de migrar mbox.js a at.js. Puede [realizar la vista del seminario web aquí](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+Con la inminente desaprobación de mbox.js el 18 de enero de 2012, David Son, Product Manager de Adobe Target, organizó recientemente un chat de desarrollador para analizar las ventajas de migrar mbox.js a at.js.
+
+[Vista la grabación del seminario web aquí](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
