@@ -4,10 +4,10 @@ description: Información sobre problemas conocidos con esta versión de Adobe T
 title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: f80a1c3e27eee3310da69a92b8ffe0e0d94f9796
 workflow-type: tm+mt
-source-wordcount: '4273'
-ht-degree: 71%
+source-wordcount: '4326'
+ht-degree: 70%
 
 ---
 
@@ -73,6 +73,7 @@ Los siguientes son problemas conocidos de las actividades de Recommendations:
 * Las colecciones, las exclusiones, los criterios y los diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API. (TGT-35777)
 * Las actividades de Recommendations creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
 * El estado de la fuente de criterios personalizados que se muestra en la lista de criterios (tarjeta) se actualiza cada diez minutos, y es posible que pasen más de diez minutos de la fecha en circunstancias excepcionales. El estado que se muestra en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre está actualizado. (TGT-35896, TGT-36173)
+* Las tarjetas Criterios y Diseños no muestran el número correcto de actividades donde se utilizan. Si los criterios o el diseño se utilizan en una Actividad A/B, la actividad no se tendrá en cuenta y la tarjeta podría mostrar que el diseño o los criterios no se utilizan cuando, de hecho, sí lo son.
 
 ### Actividades de prueba multivariable (MVT)
 
