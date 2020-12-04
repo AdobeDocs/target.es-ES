@@ -4,7 +4,7 @@ description: Información sobre la función adobe.target.triggerView (viewName, 
 title: 'adobe.target.triggerView (viewName, options): at.js 2.x'
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 92%
@@ -30,7 +30,7 @@ Se puede llamar a esta función cada vez que se carga una página nueva o cuando
 
 Llamada de `triggerView()` para enviar una notificación al backend de Target para aumentar las impresiones de actividad y otras métricas.
 
-```
+```javascript
 adobe.target.triggerView("homeView")
 ```
 
@@ -38,6 +38,6 @@ adobe.target.triggerView("homeView")
 
 Llamada de `triggerView()` para no tener notificaciones enviadas al backend de Target para el recuento de impresiones.
 
-```
+```javascript
 adobe.target.triggerView("homeView", {page: false})
 ```
