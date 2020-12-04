@@ -4,7 +4,7 @@ description: Información sobre la función adobe.target.applyOffers(options) pa
 title: adobe.target.applyOffers(options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 95%
@@ -73,7 +73,7 @@ Esta función permite aplicar más de una oferta recuperada por `adobe.target.ge
 
 ## Llamada de ejemplo applyOffers()
 
-```
+```javascript
 adobe.target.applyOffers({response:{
   "execute": {
     "pageLoad": {
@@ -110,7 +110,7 @@ adobe.target.applyOffers({response:{
 
 ## Llamada de ejemplo de Promise encadenada con `getOffers()` y `applyOffers()`, ya que estas funciones están localizadas en Promise.
 
-```
+```javascript
 adobe.target.getOffers({...})
 .then(response => adobe.target.applyOffers({ response: response }))
 .then(() => console.log("Success"))
