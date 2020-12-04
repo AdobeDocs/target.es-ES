@@ -4,7 +4,7 @@ description: Información sobre la función targetPageParams() para la bibliotec
 title: targetPageParams()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 88%
@@ -28,7 +28,7 @@ Puede pasar parámetros a target-global-mbox mediante la función `targetPagePar
 
 Una lista delimitada por Y comerciales (los valores deben tener codificación de dirección URL):
 
-```
+```javascript
 function targetPageParams() { 
     return "param1=value1&param2=value2&p3=hello%20world"; 
 }
@@ -36,7 +36,7 @@ function targetPageParams() {
 
 Matriz (los valores no necesitan tener codificación de dirección URL):
 
-```
+```javascript
 targetPageParams = function() { 
      return ["a=1", "b=2", "c=hello world"]; 
 };
@@ -44,7 +44,7 @@ targetPageParams = function() {
 
 JSON (los valores no necesitan tener codificación de dirección URL):
 
-```
+```javascript
 targetPageParams = function() { 
   return { 
     "a": 1, 
