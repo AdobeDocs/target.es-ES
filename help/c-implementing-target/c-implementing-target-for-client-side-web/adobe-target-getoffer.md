@@ -4,7 +4,7 @@ description: Información sobre la función adobe.target.getOffer(options) para 
 title: adobe.target.getOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 97%
@@ -30,7 +30,7 @@ Use con `adobe.target.applyOffer()` para procesar la respuesta o use su propia a
 
 Añadir parámetros con getOffer() y utilizar applyOffer() para la gestión del éxito:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -51,7 +51,7 @@ adobe.target.getOffer({
 
 Añadir parámetros y parámetros de perfil con getOffer() y utilizar applyOffer() para la gestión del éxito:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -76,7 +76,7 @@ Utilizar el tiempo de espera personalizado y la gestión del éxito personalizad
 
 &quot;YOUR_OWN_CUSTOM_HANDLING_FUNCTION&quot; es un marcador de posición para una función que tiene que definir el cliente.
 
-```
+```javascript
 adobe.target.getOffer({     
   "mbox": "target-global-mbox",   
   "success": function(offer) { 
@@ -102,7 +102,7 @@ El parámetro de respuesta que se pasa a la llamada de retorno de éxito será u
 
 ## Ejemplo
 
-```
+```javascript
 { 
     "sessionId": "1444512212156-384616", 
     "tntId": "1444512212156-384616.17_35", 
