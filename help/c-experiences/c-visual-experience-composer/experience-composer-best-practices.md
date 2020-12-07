@@ -4,7 +4,7 @@ description: Estas prácticas recomendadas pueden contribuir a que las experienc
 title: Prácticas recomendadas y limitaciones del Compositor de experiencias visuales
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -135,7 +135,7 @@ Cuando usa el Compositor de experiencias mejorado, un servidor proxy manipula el
 
 Por ejemplo, no puede segmentar el texto “Shopping Cart” (Carro de compras) en el VEC (Compositor de experiencias visuales) si su código es como este:
 
-```
+```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
    <img alt="Shopping Cart"src="/images/ico-cart.gif"></img> 
    Shopping Cart: 
@@ -167,7 +167,7 @@ Asegúrese de que el sitio web se carga según lo esperado después de añadir p
 
 Desactive las técnicas de eliminación de iframes en el sitio web y compruebe si se abre correctamente dentro de un iframe en una página ficticia. Por ejemplo:
 
-```
+```html
 <!DOCTYPE 
 <html> 
 <html> 
@@ -208,7 +208,7 @@ Si cambia la acción de una imagen en un elemento y después edita el texto o el
 
 Por ejemplo, si la página contiene:
 
-```
+```html
 <div> 
   <div class="mboxDefault" > 
   </div>
@@ -272,7 +272,7 @@ El script se ejecuta dentro del ámbito de target.js después de cargarse la pá
 
 *Incorrecto:*
 
-```
+```html
 <script> 
   var myVar = 123; 
   function myFunc() { 
@@ -283,7 +283,7 @@ El script se ejecuta dentro del ámbito de target.js después de cargarse la pá
 
 *Correcto:*
 
-```
+```html
 <script> 
   window.myVar = 123; 
   window.myFunc = function() { 
@@ -296,7 +296,7 @@ El script se ejecuta dentro del ámbito de target.js después de cargarse la pá
 
 Añada un elemento de anclaje dentro del div “customHeaderMessage” con un texto cualquiera, en este ejemplo, “Dummy text”:
 
-```
+```html
 <a href="#"> 
 <span> Dummy text </span>
 </a>
@@ -306,7 +306,7 @@ Seleccione este div con la acción Insertar elemento para introducir una imagen 
 
 Tras la inserción, el aspecto es este:
 
-```
+```html
 <a href="#">  
 <span> Dummy text </span> 
 <img src=""> This is inserted Image. </img> 
