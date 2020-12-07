@@ -4,7 +4,7 @@ description: Puede usar atributos de perfil para definir pruebas que comparen do
 title: Utilice secuencias de comandos de perfil para probar actividades mutuamente excluyentes
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 81%
@@ -29,7 +29,7 @@ Tenga en cuenta la siguiente información cuando utilice uno de los siguientes s
 
 Para clasificar los visitantes en grupos para que cada uno de ellos vea una actividad diferente, debe crear un atributo de perfil. Un atributo de perfil puede clasificar a un visitante en uno de dos o más grupos. Para definir un atributo de perfil denominado “twogroups”, cree la secuencia de comandos siguiente:
 
-```
+```javascript
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
     if (ran_number <= 49) { 
@@ -60,7 +60,7 @@ La configuración de tres o más actividades mutuamente exclusivas es similar a 
 
 Por ejemplo, para crear cuatro grupos, use el siguiente JavaScript:
 
-```
+```javascript
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
     if (ran_number <= 24) { 
@@ -87,7 +87,7 @@ a:
 
 Por ejemplo, para colocar a los visitantes en tres grupos iguales, use el siguiente código:
 
-```
+```javascript
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
     if (ran_number <= 32.33) { 
