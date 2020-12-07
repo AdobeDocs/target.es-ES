@@ -4,7 +4,7 @@ description: Se requieren varios pasos a la hora de implementar Adobe Analytics 
 title: Implementación de Analytics for Target
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 50%
@@ -60,7 +60,7 @@ Incluya at.js debajo de VisitorAPI.js agregando la siguiente línea de código e
 
 Para at.js:
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ However, if you want more control on how and when to send analytics data related
 
 Por ejemplo:
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 Esta configuración tiene un efecto global, lo que significa que cada llamada realizada por at.js enviará **analyticsLogging: &quot;client_side&quot;** en las solicitudes de y devolverá una carga útil de Analytics para cada solicitud. [!DNL Target] Cuando se configura, el formato de la carga útil que se devuelve es el siguiente:
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ Si no desea una configuración global y prefiere un método bajo demanda, puede 
 
 Por ejemplo:
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ Esta llamada invoca una respuesta desde la cual puede extraer la carga útil de 
 
 La respuesta es la siguiente:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
