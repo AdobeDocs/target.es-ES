@@ -4,7 +4,7 @@ description: Cree ofertas JSON en la biblioteca de ofertas para utilizarlas en e
 title: Creación de ofertas JSON
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Las ofertas JSON solo se admiten en actividades creadas con el Compositor de exp
 
 Vea el siguiente ejemplo:
 
-```
+```json
 adobe.target.getOffer({ 
   mbox: "some-mbox", 
   success: function(actions) { 
@@ -59,7 +59,7 @@ adobe.target.getOffer({
 
 Las acciones pasadas a llamada de retorno de éxito son una matriz de objeto. Si tenemos una sola oferta JSON con este contenido:
 
-```
+```json
 { 
   "demo": {"a": 1, "b": 2} 
 }
@@ -67,7 +67,7 @@ Las acciones pasadas a llamada de retorno de éxito son una matriz de objeto. Si
 
 La matriz de acciones tendrá esta estructura:
 
-```
+```json
 [ 
  { 
    action: "setJson", 
@@ -84,7 +84,7 @@ Para extraer la oferta JSON, debe iterar a través de acciones y encontrar la ac
 
 Pongamos que la siguiente oferta JSON se entrega a su página web:
 
-```
+```json
 { 
     "_id": "5a65d24d8fafc966921e9169", 
     "index": 0, 
@@ -115,7 +115,7 @@ Pongamos que la siguiente oferta JSON se entrega a su página web:
 
 El código siguiente muestra cómo acceder al atributo “bienvenida”:
 
-```
+```json
 adobe.target.getOffer({   
   "mbox": "name_of_mbox", 
   "params": {}, 
