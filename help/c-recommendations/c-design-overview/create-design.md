@@ -4,7 +4,7 @@ description: Un diseño define el modo en que las recomendaciones aparecen en un
 title: Crear un diseño
 feature: designs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 35%
@@ -109,7 +109,7 @@ El siguiente ejemplo muestra cómo se pueden devolver las respuestas JSON al con
 
 1. El siguiente código es un ejemplo de lo que se puede pegar en el diseño:
 
-   ```
+   ```javascript
        #* 
        * "Return a simple list of recommended entity ids"   
        *#
@@ -182,7 +182,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 
 Alternativamente, también puede enviar información adicional en la respuesta. El siguiente archivo de código es un ejemplo más complejo que devuelve mucho más que los identificadores de la entidad con sus espacios asociados (solicitud). This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
-```
+```javascript
     {   
      "adobeRecommendations": {   
       "notes": {   
