@@ -4,7 +4,7 @@ description: Use direcciones URL de control de calidad con entrega de servidor p
 title: Usar el control de calidad de la actividad con entrega de servidor
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
@@ -20,7 +20,7 @@ La implementación estándar del control de calidad de la actividad admite pasar
 
 El siguiente ejemplo de código muestra el control de calidad de la actividad en una llamada del servidor:
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,
