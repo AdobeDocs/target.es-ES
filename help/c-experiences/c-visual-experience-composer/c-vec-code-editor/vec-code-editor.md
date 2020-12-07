@@ -4,7 +4,7 @@ description: Información sobre la página Modificaciones, que permite ver las m
 title: Modificaciones
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -113,7 +113,7 @@ Use la pestaña **[!UICONTROL Código personalizado]** para:
 
    Por ejemplo, para cambiar el color de un elemento:
 
-   ```
+   ```javascript
    <script type="text/javascript"> 
    document.getElementById("element_id").style.color = "blue"; 
    </script> 
@@ -123,7 +123,7 @@ Use la pestaña **[!UICONTROL Código personalizado]** para:
 
    Por ejemplo, para definir una clase para un elemento overlay:
 
-   ```
+   ```html
    <style> 
    .overlay 
    { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
@@ -134,13 +134,13 @@ Use la pestaña **[!UICONTROL Código personalizado]** para:
 
    Por ejemplo, use el siguiente fragmento de código HTML para crear una superposición `<div>` con la clase CSS definida arriba:
 
-   ```
+   ```html
    <div class="overlay"></div>
    ```
 
 * Intercambiar el DOM listo, con jQuery
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    jQuery( document ).ready(function() { 
@@ -152,7 +152,7 @@ Use la pestaña **[!UICONTROL Código personalizado]** para:
 
 * Intercambiar el DOM listo, sin jQuery (no admite Internet Explorer 8)
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    document.addEventListener("DOMContentLoaded", function(event) {  
@@ -166,7 +166,7 @@ Use la pestaña **[!UICONTROL Código personalizado]** para:
 
    La ventaja de esto es que el intercambio ocurre antes que el DOM listo. El complemento gestiona el ocultamiento previo y la revelación, y requiere un id. en el elemento.
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
@@ -178,7 +178,7 @@ Use la pestaña **[!UICONTROL Código personalizado]** para:
 
 * Parámetros existentes de paso de redireccionamiento personalizado, parámetro `s_tnt` (para integración heredada con Analytics), parámetro referrer y sesión mbox
 
-   ```
+   ```javascript
    <style type="text/css">body{display:none!important;}</style> 
    <script type="text/javascript"> 
     var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
@@ -196,7 +196,7 @@ Use la pestaña **[!UICONTROL Código personalizado]** para:
 
 Por ejemplo:
 
-```
+```html
 <div id="custom-code"> 
 // My Code goes here 
 </div>
