@@ -4,7 +4,7 @@ description: Utilice los atributos de entidad para pasar información de product
 title: Atributos de entidad
 feature: entities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 92%
@@ -40,7 +40,7 @@ En general, el mbox de información de visualización puede tener el aspecto del
 
 Todos los atributos de parámetros de entidades hacen distinción entre mayúsculas y minúsculas.
 
-```
+```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
  
 mboxCreate('productPage', 
@@ -120,7 +120,7 @@ Para las recomendaciones basadas en categorías, se utiliza una coma para separa
 
 Por ejemplo, en el siguiente código, la categoría Womens (Mujeres) se divide en varias subcategorías:
 
-```
+```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
@@ -223,7 +223,7 @@ Ejemplo: `'entity.event.detailsOnly=true'`
 
 En los ejemplos siguientes, la primera llamada de mbox actualizará el catálogo y los datos de comportamiento. La segunda llamada de mbox solo actualizará el catálogo.
 
-```
+```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
