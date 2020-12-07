@@ -4,7 +4,7 @@ description: Información para ayudarle a utilizar el bookmarklet de control de 
 title: bookmarklet de control de calidad de actividad para Adobe Target
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -26,7 +26,7 @@ Como el modo de [control de calidad](/help/c-activities/c-activity-qa/activity-q
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
-```
+```javascript
 javascript:(
     function () {
         if (window.location.href.indexOf('?') != -1) {
@@ -55,7 +55,7 @@ A diferencia de at.js 1.*x*, at.js 2.*x* no admite cookies de terceros y el modo
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
-```
+```javascript
 javascript:(
     function () {
         var AT_QA_MODE = 'at_qa_mode=';
