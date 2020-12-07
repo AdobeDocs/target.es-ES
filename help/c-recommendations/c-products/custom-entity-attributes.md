@@ -5,7 +5,7 @@ title: Atributos de entidad personalizados en Adobe Target
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -73,7 +73,7 @@ Puede incluir hasta 500 valores en un atributo multivalor.
 
 En el siguiente ejemplo vemos cómo se utiliza  `targetPageParams`
 
-```
+```javascript
 function targetPageParams() { 
   return { 
     'entity.id':                   '123', 
@@ -111,7 +111,7 @@ Tenga cuidado al editar directamente un archivo CSV de catálogo sin procesar.
 
 Puede pasar atributos de varios valores mediante la API de Envío en un parámetro de mbox como un valor de cadena que contenga una matriz JSON de escape.
 
-```
+```javascript
 "execute": {
     "mboxes": [
       {
