@@ -5,10 +5,10 @@ description: Vista de la página de inicio de la Guía del Destinatario.
 seo-description: Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 feature: landing
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: e1d0ac580eb33d3cb3d177b6b7aa3a91e72e62e5
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 63%
+source-wordcount: '703'
+ht-degree: 62%
 
 ---
 
@@ -19,13 +19,15 @@ ht-degree: 63%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 24 de noviembre de 2020 ( [Vea los cambios](r-release-notes/doc-change.md) )**
+**Última actualización: 7 De Diciembre De 2020 ( [Ver Qué Cambió](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
->**Nuevo nombre de Adobe líder en el cuadrante mágico de Gartner para motores de personalización**
+>Recientemente, Adobe Target recibió el nombre de Líder en los siguientes informes:
 >
->Una vez más, Adobe fue nombrado Líder en el tercer informe anual del Cuadrante Mágico de Gartner para Motores de Personalización, 2020. El Cuadrante mágico de Gartner para motores de personalización evaluó a los proveedores según 15 criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución. [Lee al respecto en The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+>**[Informe de oleada de Forrester para plataformas de optimización de experiencias.](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target fue nombrado líder en The Forrester Wave: Plataformas de optimización de experiencias, informe del cuarto trimestre de 2020.
+>
+>**[Cuadrante mágico de Gartner para motores de personalización.](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Una vez más, Adobe Target fue nombrado Líder en el tercer informe anual del Cuadrante Mágico de Gartner para Motores de Personalización, 2020.
 
 Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados según las funciones de usuario a las que van dirigidos:
 
