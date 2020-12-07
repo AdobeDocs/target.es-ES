@@ -4,7 +4,7 @@ description: El Compositor de experiencias visuales (VEC) para aplicaciones de u
 title: Compositor de experiencias visuales para aplicaciones de una sola página (SPA)
 feature: spa vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -88,7 +88,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    Como especialistas en marketing, si queremos ejecutar pruebas A/B en todo el sitio principal, es posible que queramos nombrar la vista “home” que puede extraerse de la dirección URL:
 
-   ```
+   ```javascript
    function targetView() {
      var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
    
@@ -119,7 +119,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    ![Reacción de productos](/help/c-experiences/assets/react4.png)
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -150,7 +150,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    Es posible que los especialistas en marketing deseen ejecutar una prueba A/B para ver si el cambio del color de azul a rojo cuando se selecciona la opción Envío exprés puede mejorar las conversiones en lugar de mantener el botón de color azul en ambas opciones de envío.
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -293,7 +293,7 @@ Entonces, ¿cómo podemos recuperar la Vista de inicio de sesión y mostrar la o
 
 Puede utilizar las nuevas funciones `getOffers()` y `applyOffers()` compatibles en at.js 2.x:
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
   prefetch: {
