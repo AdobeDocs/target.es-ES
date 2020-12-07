@@ -4,7 +4,7 @@ description: Use el vínculo de vista previa en móviles para realizar fácilmen
 title: Uso del vínculo de vista previa móvil en Adobe Target móvil
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 94%
@@ -49,7 +49,7 @@ La funcionalidad de vista previa para móviles le permite probar completamente s
 
    El siguiente fragmento de código es un ejemplo:
 
-   ```
+   ```javascript
    - (BOOL) application:(UIApplication *)app openURL:(NSURL *)url 
                 options:(NSDictionary<NSString *,id> *)options { 
    
@@ -63,7 +63,7 @@ La funcionalidad de vista previa para móviles le permite probar completamente s
 
    **Android:** en la aplicación, realice una llamada a `Config.trackAdobeDeepLink(URL);` cuando se pida a la persona que llama que abra el recurso con el esquema de la URL especificado en el paso anterior.
 
-   ```
+   ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
         Intent appLinkIntent = getIntent(); 
         String appLinkAction = appLinkIntent.getAction(); 
@@ -78,7 +78,7 @@ La funcionalidad de vista previa para móviles le permite probar completamente s
 
    Para que la vista previa para móviles funcione en Android, también debe añadir el siguiente fragmento de código en [!DNL AndroidManifest.xml]:
 
-   ```
+   ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
