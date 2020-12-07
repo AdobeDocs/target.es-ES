@@ -4,7 +4,7 @@ description: Los escenarios de este tema muestran cómo afectan los cambios real
 title: Escenarios de modificación de página
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Hay una posibilidad de que JavaScript agregue la primera clase presente en el el
 
 **Elemento insertado:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -48,7 +48,7 @@ El selector funciona según lo esperado porque `li.women-section:eq(0)` no se ve
 
 Antes de registrar los valores de:
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
@@ -58,7 +58,7 @@ Antes de registrar los valores de:
 
 Después:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
@@ -73,7 +73,7 @@ En este escenario, se intenta insertar una lista cuando hay seleccionado un elem
 
 **Elemento insertado:**
 
-```
+```html
 <ul class="nav"> 
    <li class="item"> Sale </li> 
    <li> class="item"> Offers </li> 
@@ -92,7 +92,7 @@ El selector no funciona porque `ul.nav:eq(0)` proporciona un elemento añadido d
 
 Antes de registrar los valores de:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
@@ -102,7 +102,7 @@ Antes de registrar los valores de:
 
 Después (intentado):
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="item"> Sale</li>
@@ -121,7 +121,7 @@ En este escenario, se inserta un elemento de lista después del elemento selecci
 
 **Elemento insertado:**
 
-```
+```html
 <ul class="nav"> 
    <li class="men-section"> Men Clothes</li> 
    <li class="women-section"> Women Clothes</li> 
@@ -140,7 +140,7 @@ En este caso, insertar una lista después del final de la lista con el elemento 
 
 Antes de registrar los valores de:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
@@ -150,7 +150,7 @@ Antes de registrar los valores de:
 
 Después:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>
@@ -169,7 +169,7 @@ En este escenario, se quita el elemento de lista situado justo antes del element
 
 **Elemento quitado:**
 
-```
+```html
 <li class="men-section"> Men </li>
 ```
 
@@ -185,7 +185,7 @@ El elemento se quita correctamente porque la clase del elemento seleccionado no 
 
 Antes de registrar los valores de:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -196,7 +196,7 @@ Antes de registrar los valores de:
 
 Después:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="women-section">Women</li>
@@ -210,7 +210,7 @@ En este escenario, se quita el elemento de lista situado justo después del elem
 
 **Elemento quitado:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -226,7 +226,7 @@ El elemento se quita correctamente porque la clase del elemento seleccionado no 
 
 Antes de registrar los valores de:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -238,7 +238,7 @@ Antes de registrar los valores de:
 
 Después:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -253,7 +253,7 @@ En este escenario, se elimina el elemento de lista seleccionado.
 
 **Elemento quitado:**
 
-```
+```html
 <li class="women-shoes">Women</li>
 ```
 
@@ -269,7 +269,7 @@ El elemento se quita correctamente.
 
 Antes de registrar los valores de:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -280,7 +280,7 @@ Antes de registrar los valores de:
 
 Después
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
        <li class="men-section">Men</li>
@@ -294,7 +294,7 @@ En este escenario, se cambia la clase del elemento de lista seleccionado.
 
 **Elemento cambiado:**
 
-```
+```html
 <li class="women-section">Women</li>
 ```
 
@@ -310,7 +310,7 @@ No se puede cambiar el nombre de la clase del elemento porque no se encuentra la
 
 Antes de registrar los valores de:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -321,7 +321,7 @@ Antes de registrar los valores de:
 
 Después (intentado):
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
