@@ -4,7 +4,7 @@ description: Información sobre el uso de datos de clientes empresariales de una
 title: Atributos del cliente en Adobe Target
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 42%
@@ -131,7 +131,7 @@ Este script de perfil puede usarse directamente en ofertas para enviar atributos
 
 Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPageParams()` method. The value of `mbox3rdPartyId` should be set to the customer ID that was present in the CSV data file.
 
-```
+```javascript
 <script type="text/javascript">
             function targetPageParams() {
                return 'mbox3rdPartyId=2000578';
