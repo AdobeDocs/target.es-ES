@@ -1,13 +1,13 @@
 ---
 keywords: Overview and Reference
-description: El resumen de la prueba ofrece información general sobre la prueba multivariable de manera gráfica.
+description: El resumen de la prueba proporciona una visión general de la prueba multivariada de Adobe Target.
 title: Resumen de la prueba
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 100%
+source-wordcount: '103'
+ht-degree: 87%
 
 ---
 
