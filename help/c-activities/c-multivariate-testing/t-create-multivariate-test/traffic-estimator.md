@@ -1,17 +1,18 @@
 ---
-description: Dado que una prueba multivariable compara varias experiencias, es importante conocer cuánto tráfico se requiere para proporcionar resultados significativos. El estimador de tráfico usa datos estadísticos sobre su página y el número de experiencias que se están probando para calcular la cantidad de tráfico y la duración de la prueba necesarios para que la prueba se realice con éxito.
+keyword: traffic estimate;traffic estimator
+description: Dado que una prueba multivariable compara varias experiencias, es importante conocer cuánto tráfico se requiere para proporcionar resultados significativos. El estimador de tráfico de Adobe Target utiliza estadísticas sobre la página y el número de experiencias que se están probando para calcular la cantidad de tráfico y la duración de la prueba necesarias para que la prueba tenga éxito.
 title: Calcular el tráfico necesario para una prueba de éxito
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
 
-# Calcular el tráfico necesario para una prueba de éxito{#estimate-the-traffic-required-for-a-successful-test}
+# Calcular el tráfico necesario para una prueba de éxito
 
 Dado que una prueba multivariable compara varias experiencias, es importante conocer cuánto tráfico se requiere para proporcionar resultados significativos. El estimador de tráfico usa datos estadísticos sobre su página y el número de experiencias que se están probando para calcular la cantidad de tráfico y la duración de la prueba necesarios para que la prueba se realice con éxito.
 
