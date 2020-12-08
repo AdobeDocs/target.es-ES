@@ -1,14 +1,14 @@
 ---
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Utilice métricas en una prueba multivariable para determinar si una visita es satisfactoria.
+description: Utilice métricas en una prueba multivariada de Adobe Target para determinar cuándo se realiza una visita con éxito.
 title: Definir métricas
 feature: mvt
 solution: Target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 99%
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
