@@ -1,11 +1,11 @@
 ---
 description: Dado que una prueba multivariable compara varias experiencias en una página, resulta útil previsualizar la página con cada experiencia.
-title: Previsualizar experiencias para una prueba multivariable
+title: Previsualizar experiencias para una prueba multivariable en Adobe Target
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
