@@ -4,9 +4,9 @@ description: Información sobre problemas conocidos con esta versión de Adobe T
 title: Problemas conocidos y problemas resueltos   en Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
+source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
 workflow-type: tm+mt
-source-wordcount: '4329'
+source-wordcount: '4296'
 ht-degree: 70%
 
 ---
@@ -125,10 +125,6 @@ Los clientes no pueden realizar operaciones de CRUD en actividades de asignació
 
 El 10 de mayo de 2020 actualizamos nuestros archivos de proveedores de GEO, lo que introdujo algunas inconsistencias. Por ejemplo, se agregaron algunos valores que contenían comas; aunque los valores de las audiencias existentes no tenían coma. Este cambio no afectó a todos nuestros servidores de envío. Como resultado, es posible que las audiencias que utilizan estos valores no hayan calificado todos los visitantes correctos entre el 10 de mayo y el 22 de julio de 2020.
 
-### Ofertas de imagen que muestran la etiqueta &quot;Procesamiento&quot;
-
-Las ofertas de imagen de la página Ofertas a veces conservan la etiqueta de &quot;procesamiento&quot; durante varias horas después de cargar las imágenes. En la mayoría de los casos, este es un problema solo con la etiqueta: las ofertas de imagen pueden seguir utilizándose en actividades y entregarse. En algunos casos, sin embargo, es posible que una oferta de imagen no esté disponible para la acción Reemplazar contenido > Imagen. Si esto sucede, debe cargar la oferta de imagen de nuevo y comprobar después de unas horas si la oferta de imagen está disponible para su sustitución. (TGT-37458)
-
 ### Sistema de informes: datos incoherentes en el informe .csv descargable frente al informe mostrado en la interfaz de usuario de Destinatario. {#csv}
 
 Los informes generados para la descarga como archivos .csv son incoherentes si la actividad utiliza más de una métrica. El informe descargable se genera solo en función de la configuración del informe y considera el mismo valor para cualquier otra métrica utilizada.
@@ -138,6 +134,12 @@ La fuente de la verdad es siempre el informe que se muestra en la [!DNL Target] 
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 A medida que se resuelvan los problemas conocidos que hemos mencionado, pasarán a las siguientes secciones y, si es necesario, se añadirán notas adicionales.
+
+### Ofertas de imagen que muestran la etiqueta &quot;Procesamiento&quot;
+
+Las ofertas de imagen de la página Ofertas a veces conservan la etiqueta de &quot;procesamiento&quot; durante varias horas después de cargar las imágenes. En la mayoría de los casos, este es un problema solo con la etiqueta: las ofertas de imagen pueden seguir utilizándose en actividades y entregarse. (MCUI-10264, TGT-37458)
+
+Esto se ha corregido en la versión Target Standard/Premium 20.10.1.
 
 ### Creación de informes en Analytics for Target (A4T)
 
