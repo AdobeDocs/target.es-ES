@@ -4,7 +4,7 @@ description: 'La toma de decisiones en el dispositivo permite almacenar en cach�
 title: Toma de decisiones en el dispositivo
 feature: server-side
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Toma de decisiones en el dispositivo
 
-La toma de decisiones en el dispositivo permite almacenar en caché sus actividades de Prueba [!DNL Adobe Target] [!UICONTROL A/B y Segmentación de] experiencias [!UICONTROL (XT) en el servidor y tomar decisiones en memoria con una latencia cercana a cero, sin bloquear las solicitudes de red a la red perimetral] [!DNL Adobe Target]de Edge Network.
+La toma de decisiones en el dispositivo permite almacenar en caché sus actividades de Prueba [!DNL Adobe Target] [!UICONTROL A/B y de Segmentación de] experiencias [!UICONTROL (XT) en el servidor y tomar decisiones en memoria con una latencia cercana a cero, sin bloquear las solicitudes de red a la red] [!DNL Adobe Target] perimetral.
 
 Para obtener más información, consulte [Introducción a la toma de decisiones](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) en dispositivos en la documentación *[de los SDK de](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target.
 
@@ -28,7 +28,7 @@ En este seminario web grabado, los expertos en productos analizan cómo mover la
 
 ## Tutorial: Toma de decisiones en el dispositivo
 
-[!DNL Adobe Targe]La toma de decisiones en el dispositivo permite el envío de contenido de latencia cercano a cero.
+[!DNL Adobe Target] la toma de decisiones en el dispositivo permite el envío de contenido de latencia cercano a cero.
 
 Este video de 7 minutos:
 
