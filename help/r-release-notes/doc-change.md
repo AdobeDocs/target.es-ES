@@ -4,9 +4,9 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
 workflow-type: tm+mt
-source-wordcount: '3120'
+source-wordcount: '3144'
 ht-degree: 29%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | Diciembre de 9 | [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nuevo tema. |
+|  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha movido el siguiente problema de la sección Problemas conocidos a la sección Problemas resueltos: &quot;ofertas de imagen que muestran la etiqueta &quot;Procesamiento&quot;.&quot; |
 | Diciembre de 1 | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Se ha incorporado la grabación del seminario web para &quot;Personalizar y probar con latencia cero con decisiones en dispositivos de Adobe Target&quot;. |
 | Noviembre de 24 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido el siguiente problema conocido:<ul><li>[Sistema de informes: datos incoherentes en el informe .csv descargable frente al informe mostrado en la interfaz de usuario de Destinatario.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Se ha añadido el siguiente problema resuelto:<ul><li>[Creación de informes en Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [Definiciones de métricas: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Se añadió la siguiente pregunta frecuente: &quot;Al configurar las métricas de objetivo, ¿por qué no puedo acceder a las opciones de Configuración avanzada?&quot; |
