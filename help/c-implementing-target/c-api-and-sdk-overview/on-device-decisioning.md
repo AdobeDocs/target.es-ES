@@ -4,9 +4,9 @@ description: 'La toma de decisiones en el dispositivo permite almacenar en cach�
 title: Toma de decisiones en el dispositivo
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ Este video de 7 minutos:
 * Muestra el código de muestra del SDK de Node.JS que contiene la configuración clave necesaria para la toma de decisiones en el dispositivo
 * Muestra los resultados en un explorador
 
-Al final de este vídeo, podrá:
-
-* Describir la toma de decisiones en dispositivos y sus ventajas
-* Habilitar la toma de decisiones en el dispositivo en [!DNL Target]
-* Creación de una actividad de compositor basada en formularios para su uso con la toma de decisiones en dispositivos
-* Obtenga más información sobre la configuración del SDK necesaria para la toma de decisiones en el dispositivo en la documentación del SDK de [Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Comprender la experiencia de los usuarios finales con el contenido entregado mediante la toma de decisiones en el dispositivo
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+Para obtener más vídeos y tutoriales, consulte la guía Tutorials [de](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) Adobe Target.
