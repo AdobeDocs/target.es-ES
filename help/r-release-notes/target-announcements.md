@@ -4,9 +4,9 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de destinatario
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Más que nunca, a los especialistas en marketing, propietarios de productos y de
 En este seminario web grabado, los expertos en productos de Adobe Target analizan cómo mover las decisiones de optimización de experiencias críticas en el dispositivo para ejecutarse localmente con una latencia cero puede abrir las puertas a nuevos casos de uso interesantes y mejorar el rendimiento del sitio para sus clientes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[Regístrate aquí para este emocionante evento.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Seminario web: Cómo HSBC aprovecha Adobe Target y AI para optimizar rápidamente y ofrecer personalización a escala
 
