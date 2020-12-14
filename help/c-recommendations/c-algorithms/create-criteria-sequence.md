@@ -1,20 +1,20 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: Utilice secuencias de hasta cinco criterios para ejercer el bueno control de los elementos que aparecen en las actividades de Adobe Target Recommendations.
 title: Crear secuencias de criterios
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 36%
+source-wordcount: '808'
+ht-degree: 35%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Creación de secuencias de criterios
 
-Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de [!UICONTROL Recomendaciones].
+Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de [!UICONTROL Recomendaciones. ] También puede limitar el número de elementos devueltos (a veces denominado &quot;control de nivel de ranura&quot;).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ En los pasos siguientes se asume que accede a la pantalla [!UICONTROL Crear secu
 
    ![Limitar el número de elementos devueltos al alternador](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Para ayudarle a comprender el valor de la opción [!UICONTROL Limitar el número de elementos devueltos] , tenga en cuenta los siguientes casos de uso:
+   Para ayudarle a comprender el valor de la opción [!UICONTROL Limitar el número de elementos devueltos] (a veces denominada &quot;control de nivel de ranura&quot;), considere los siguientes casos de uso:
 
    * **Caso de uso 1**: Desea tener una mezcla de diferentes tipos de artículos en una única bandeja de recomendaciones. Por ejemplo, desea mostrar una combinación de ropa exterior (chaquetas) y camisetas (camisas, camisetas). Para conseguirlo, utilice una colección para la actividad que incluya todos los tipos de productos potenciales que desee en cualquier espacio del diseño. A continuación, configure su primer criterio con un filtro estático que limite los criterios para incluir solo el uso externo y configure su segundo criterio con un filtro estático que limite los criterios para incluir únicamente los elementos superiores. Finalmente, agregue ambos criterios a una secuencia de criterios y limite los primeros criterios a 2 ranuras.
 
