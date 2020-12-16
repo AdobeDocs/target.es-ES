@@ -36,7 +36,7 @@ Sin embargo, si usted es uno de esos clientes que están en TSL 1.1 sin admitir 
 
 Aunque recomendamos encarecidamente que todos estén en TLS 1.2 de ahora en adelante, si usted es un nuevo cliente, pero *NO* admite TLS 1.2, póngase en contacto con el Servicio de atención al cliente para informarles de que necesita estar en TLS 1.1 para el Compositor de experiencias mejorado. Sin embargo, planee pasar a TLS 1.2, ya que tampoco será compatible más allá del 1 de marzo de 2020.
 
-## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
+## Envío de actividad {#section_46CA5943E4354B259014C2BF340AECD6}
 
 A partir del 1 de marzo de 2020, los servidores Destinatario ya no admitirán TLS 1.1. Con este cambio, los servidores de Destinatario ya no aceptarán solicitudes de visitantes con dispositivos antiguos o navegadores web que no admitan TLS 1.2 (o posterior). Como resultado, los dispositivos y navegadores más antiguos y que solo admitan TLS 1.1 (o que admitan TLS 1.1 de forma predeterminada) no recibirán de Adobe Target contenido de actividades. Se mostrará el contenido predeterminado del sitio.
 
@@ -66,11 +66,11 @@ A partir del 1 de marzo de 2020, las API de Destinatario ya no admitirán el cif
 * Los clientes de API que usen Java 8 no deberían tener problemas, ya que la configuración predeterminada es TLS 1.2.
 * Los clientes de API que usen otros módulos deben ponerse en contacto con su proveedor para obtener más información acerca de la compatibilidad con TLS 1.2.
 
-## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
+## Acceso a las interfaces de soluciones Experience Cloud {#section_748870ADE77B4CBEB18518DC784E64E5}
 
 Debido a que la interfaz de Target Standard/Premium ya requiere un [explorador web actual](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), no se esperan problemas. Si no puede conectarse a Target, deberá actualizar el navegador a la última versión.
 
-## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
+## Cómo comprobar qué versión TLS utiliza el explorador {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
 Para comprobar la versión TLS de su sitio web mediante Google Chrome:
 
