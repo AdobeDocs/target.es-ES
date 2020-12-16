@@ -12,23 +12,23 @@ ht-degree: 0%
 ---
 
 
-# ![Coincidencia de atributos de entidad PREMIUM](/help/assets/premium.png)
+# ![Coincidencia de atributos ](/help/assets/premium.png) PREMIUMEntity
 
-Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
+Filtre dinámicamente en [!DNL Adobe Target] [!DNL Recommendations] comparando un grupo de posibles elementos de recomendaciones con un elemento específico con el que el usuario haya interactuado.
 
 >[!NOTE]
 >
->The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>El proceso [para crear y utilizar reglas de inclusión](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) para criterios y promociones es similar, al igual que los casos de uso y los ejemplos.
 
 Por ejemplo, recomendar solo elementos que coincidan con la marca del elemento actual como en el ejemplo siguiente:
 
-Si el mbox de una Página de aterrizaje de marca devuelve `entity.brand=brandA`, solo se devuelven y muestran en esa página los productos de marca A. Del mismo modo, en la Página de aterrizaje de la Marca B, solo se devuelven los productos de la Marca B. Con este tipo de regla de inclusión dinámica, el usuario solo tiene que especificar una regla de recomendación que devuelva resultados de marca relevantes en todas las páginas de marca en lugar de especificar una colección o un filtro estático para que coincida con cada nombre de marca.
+Si el mbox de una Página de aterrizaje de marca devuelve `entity.brand=brandA`, solo se devuelven los productos de marca A y se muestran en esa página. Del mismo modo, en la Página de aterrizaje de la Marca B, solo se devuelven los productos de la Marca B. Con este tipo de regla de inclusión dinámica, el usuario solo tiene que especificar una regla de recomendación que devuelva resultados de marca relevantes en todas las páginas de marca en lugar de especificar una colección o un filtro estático para que coincida con cada nombre de marca.
 
-Tenga en cuenta que debe enviar el `entity.brand` mensaje en el mbox en esas páginas de aterrizaje para que esto funcione.
+Tenga en cuenta que debe entregar el `entity.brand` en el mbox en esas páginas de aterrizaje para que esto funcione.
 
 ## Ejemplos de coincidencia de atributos de entidad
 
-[!UICONTROL La coincidencia] de atributos de entidad permite recomendar solo los elementos que coinciden, por ejemplo:
+[!UICONTROL La ] coincidencia de atributos de entidad permite recomendar solo los elementos que coinciden, por ejemplo:
 
 * Un atributo del elemento que el usuario está viendo actualmente
 * El artículo que el usuario vio más recientemente
@@ -42,7 +42,7 @@ Después de crear las reglas de atributos de entidad, filtrarán todas las recom
 
 El siguiente ejemplo muestra recomendaciones que coinciden con la marca de producto mostrada en la página:
 
-Cuando visita una página que incluye un producto de Marca A, la página establece el valor del `entity.brand` parámetro en &quot;Marca A&quot;.
+Cuando visita una página que incluye un producto de Marca A, la página establece el valor del parámetro `entity.brand` en &quot;Marca A&quot;.
 
 ![Ejemplo de llamada de Destinatario](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
@@ -50,7 +50,7 @@ En las recomendaciones de la página, solo verá los productos de marca A.
 
 ![Recomendaciones de marca A](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-Si luego vista una página de producto de Marca B, el valor se restablecerá a &quot;MarcaB&quot; y verá los productos de Marca B recomendados en las páginas de productos de Marca B. `entity.brand`
+Si luego vista una página de producto de Marca B, el valor `entity.brand` se restablecerá a &quot;Marca B&quot; y verá los productos de Marca B recomendados en las páginas de productos de Marca B.
 
 ![Recomendaciones para la marca B](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
