@@ -36,7 +36,7 @@ Información sobre las tareas que se pueden realizar en un recurso de la bibliot
 
 1. Para cambiar la imagen que representa un elemento en la biblioteca, haga clic en el elemento, luego, en el icono **[!UICONTROL Propiedades]**, seleccione **[!UICONTROL Editar]** y agregue la imagen.
 
-## Vídeo de capacitación: La marca ![Información general del repositorio de contenido](/help/assets/overview.png)
+## Vídeo de capacitación: La insignia ![Información general](/help/assets/overview.png) del repositorio de contenido
 
 Este vídeo incluye información sobre la administración de contenido. (4:56)
 
