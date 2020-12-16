@@ -14,21 +14,21 @@ ht-degree: 25%
 
 # ![PREMIUM](/help/assets/premium.png) Estimar el tráfico necesario para realizar una prueba con éxito{#estimate-the-traffic-required-for-success}
 
-The [!UICONTROL Traffic Estimator] provides feedback that lets you know whether you have sufficient traffic for your [!DNL Adobe Target] activity to succeed.
+El [!UICONTROL Estimador de tráfico] proporciona información que le permite saber si tiene tráfico suficiente para que su actividad [!DNL Adobe Target] tenga éxito.
 
-Because an [!UICONTROL Automated Personalization] activity uses multiple offer combinations, it is important to know how much traffic is required to provide meaningful results. The [!UICONTROL Traffic Estimator] uses statistics about your page and the number of experiences being tested to estimate the amount of traffic and the test duration needed to make the activity successful.
+Dado que una actividad [!UICONTROL Automated Personalization] utiliza múltiples combinaciones de ofertas, es importante saber cuánto tráfico se necesita para proporcionar resultados significativos. El [!UICONTROL Estimador de tráfico] utiliza estadísticas sobre la página y el número de experiencias que se están probando para calcular la cantidad de tráfico y la duración de la prueba necesarios para que la actividad tenga éxito.
 
-The [!UICONTROL Traffic Estimator] determines if there is enough traffic to generate personalized models, by comparing the estimated page impressions and typical conversion rate for the pages. Para lograr una actividad con éxito, lo ideal es que el tamaño de muestra correcto garantice que el contenido personalizado esté listo dentro del 50 % de la duración de la actividad o en 14 días, lo que sea menos. Esto ofrece tiempo suficiente para obtener el contenido personalizado y conocer qué contenido se publicará.
+El [!UICONTROL Estimador de tráfico] determina si hay tráfico suficiente para generar modelos personalizados, comparando las impresiones de página estimadas y la tasa de conversión típica de las páginas. Para lograr una actividad con éxito, lo ideal es que el tamaño de muestra correcto garantice que el contenido personalizado esté listo dentro del 50 % de la duración de la actividad o en 14 días, lo que sea menos. Esto ofrece tiempo suficiente para obtener el contenido personalizado y conocer qué contenido se publicará.
 
-Remember that [!DNL Target] randomly serves experiences until the personalization algorithms are built. The checkmark icon beside each offer shows when the model for that offer is ready and [!DNL Target] is able to begin delivering personalized content. Ya que se espera un alza solo después de que los modelos estén listos, la indicación visual permite establecer la expectativa adecuada. Use the [!UICONTROL Traffic Estimator] in the [!UICONTROL Visual Experience Composer] (VEC) to get a guideline of when the models will be ready.
+Recuerde que [!DNL Target] proporciona experiencias de forma aleatoria hasta que se crean los algoritmos de personalización. El icono de marca de verificación que aparece junto a cada oferta muestra cuándo está listo el modelo para esa oferta y [!DNL Target] puede empezar a entregar contenido personalizado. Ya que se espera un alza solo después de que los modelos estén listos, la indicación visual permite establecer la expectativa adecuada. Use el [!UICONTROL Estimador de tráfico] del [!UICONTROL Compositor de experiencias visuales] (VEC) para obtener una guía de cuándo estarán listos los modelos.
 
 ## Uso del estimador de tráfico
 
-1. From the [!UICONTROL Visual Experience Composer], click **[!UICONTROL Traffic]**.
+1. En el [!UICONTROL Compositor de experiencias visuales], haga clic en **[!UICONTROL Tráfico]**.
 
    ![Icono de tráfico](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   The [!UICONTROL Traffic Estimator] opens. You can click **[!UICONTROL Traffic]** again to hide the [!UICONTROL Traffic Estimator].
+   Se abre el [!UICONTROL Estimador de tráfico]. Puede volver a hacer clic en **[!UICONTROL Tráfico]** para ocultar el [!UICONTROL Estimador de tráfico].
 
    ![](assets/ap_est.png)
 
@@ -39,32 +39,32 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
    * **Visitas estimadas por día**: Es el número de visitas diarias de visitantes que pueden realizar la vista de la actividad, según los criterios de objetivo. Esta cifra puede estar basada en los datos de Analytics. Tenga en cuenta que este número debe ser las visitas, no los visitantes únicos.
    * **Duración de la prueba**: número de días durante los cuales quiere ejecutar la actividad.
 
-   The [!UICONTROL Traffic Estimato]r uses these statistics to determine what adjustments are needed to run a successful test.
+   La [!UICONTROL Estimación de tráfico]r utiliza estas estadísticas para determinar qué ajustes son necesarios para ejecutar una prueba exitosa.
 
-   Near the top of the [!UICONTROL Traffic Estimator], the values you entered are calculated and the results are shown.
+   Cerca de la parte superior del [!UICONTROL Estimador de tráfico], se calculan los valores introducidos y se muestran los resultados.
 
    ![](assets/ap_est_no.png)
 
-   Al cambiar estos números, también cambian las estimaciones. For example, if you are testing a large number of combinations and your conversion rate and impressions are too low, the [!UICONTROL Traffic Estimator] shows how long the test will need to run to be successful. Or, if your traffic is low, the [!UICONTROL Traffic Estimator] might suggest a lower number of offer combinations so you can run the test the desired number of days.
+   Al cambiar estos números, también cambian las estimaciones. Por ejemplo: si está probando un gran número de combinaciones y la tasa de conversión y las impresiones son demasiado bajas, el [!UICONTROL Estimador de tráfico] muestra cuánto tiempo tendrá que ejecutarse la prueba para que tenga éxito. O bien, si el tráfico es bajo, el [!UICONTROL Estimador de tráfico] puede sugerir un número menor de combinaciones de ofertas para que pueda ejecutar la prueba el número deseado de días.
 
    Si no tiene tráfico suficiente, puede hacer una o todas las siguientes acciones:
 
-   * Consider using an [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity instead of [!UICONTROL Automated Personalization] to create experiences with several offer changes in one experience variation.
-   * Reduce the number of offer combinations within your [!UICONTROL Automated Personalization] activity.
+   * Considere utilizar una actividad [Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md) en lugar de [!UICONTROL Automated Personalization] para crear experiencias con varios cambios de oferta en una variación de experiencia.
+   * Reduzca el número de combinaciones de ofertas dentro de su actividad [!UICONTROL Automated Personalization].
    * Incremente la duración de la actividad.
 
-   Adjust the numbers until the [!UICONTROL Traffic Estimator] says you have sufficient traffic, then design your test accordingly.
+   Ajuste los números hasta que el [!UICONTROL Estimador de tráfico] indique que tiene tráfico suficiente y luego diseñe la prueba en consecuencia.
 
    ![](assets/ap_est_yes.png)
 
-   If the traffic is sufficient, the [!UICONTROL Traffic] icon shows a green check. Si no hay suficiente, el icono muestra una etiqueta de advertencia en rojo.
+   Si el tráfico es suficiente, el icono [!UICONTROL Tráfico] muestra una marca de verificación verde. Si no hay suficiente, el icono muestra una etiqueta de advertencia en rojo.
 
 ## Preguntas más frecuentes sobre el estimador de tráfico
 
-Tenga en cuenta las siguientes preguntas más frecuentes cuando trabaje con el estimador [!UICONTROL de tráfico]:
+Tenga en cuenta las siguientes preguntas más frecuentes cuando trabaje con el [!UICONTROL Estimador de tráfico]:
 
-### ¿Por qué [!DNL Target] no se crean modelos personalizados cuando la actividad AP tiene tráfico suficiente?
+### ¿Por qué [!DNL Target] no genera modelos personalizados cuando mi actividad AP tiene tráfico suficiente?
 
-En determinadas circunstancias, el tráfico puede ser lo suficientemente grande como para crear un modelo personalizado, pero ese tráfico podría informar [!DNL Target] que no hay ninguna diferencia significativa entre el modelo personalizado y el aleatorio. Aunque el modelo está integrado [!DNL Target] y probado, no se implementará porque no es significativamente mejor que el aleatorio.
+En determinadas circunstancias, el tráfico puede ser lo suficientemente grande como para que se cree un modelo personalizado, pero ese tráfico podría informar [!DNL Target] de que no hay ninguna diferencia significativa entre el modelo personalizado y el aleatorio. Aunque el modelo está integrado [!DNL Target] y se ha probado, no se implementará porque no es significativamente mejor que el aleatorio.
 
 Una posible razón para que el modelo no sea mejor que el aleatorio podría ser que las ofertas no son significativamente diferentes entre sí. Si este es el caso, puede intentar que las ofertas sean más distintas visualmente si los mensajes son similares o puede intentar cambiar los mensajes en sí.
