@@ -24,7 +24,7 @@ Cuando se le pida durante la creación de la actividad, indique la dirección UR
 
 ## Especifique una dirección URL diferente
 
-By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md)
+De forma predeterminada, el [!UICONTROL Compositor de experiencias visuales] abre la página especificada en la configuración del [Compositor de experiencias visuales](/help/administrating-target/visual-experience-composer-set-up.md)
 . Puede especificar una página diferente durante la creación de la actividad.
 
 Para visualizar una página diferente tras abrir el [!UICONTROL Compositor de experiencias visuales], haga clic en el icono de engranaje **[!UICONTROL Configurar]** y, a continuación, seleccione **[!UICONTROL Publicación de página]**. Introduzca la URL en el campo URL de actividad.
