@@ -12,19 +12,19 @@ ht-degree: 57%
 ---
 
 
-# ![Informe Resumen de Destinatario automático de PREMIUM](/help/assets/premium.png){#auto-target-summary-report}
+# ![](/help/assets/premium.png) PREMIUMAinforme de resumen de los Destinatarios automáticos{#auto-target-summary-report}
 
-Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target].
+Información sobre cómo interpretar los informes [!UICONTROL Resumen de Destinatario automático] en [!DNL Adobe Target].
 
 >[!NOTE]
 >
 >La [!UICONTROL segmentación automática] está disponible como parte de la solución [!DNL Target Premium]. No se incluye con [!DNL Target Standard] sin una licencia de [Target Premium](/help/c-intro/intro.md#premium).
 
-Para mostrar los informes Resumen [!UICONTROL de Destinatario] automático:
+Para mostrar los informes [!UICONTROL Resumen de Destinatario automático]:
 
-1. En la página [!UICONTROL Actividades] , haga clic en la actividad de Destinatario  automático que desee.
+1. En la página [!UICONTROL Actividades], haga clic en la actividad [!UICONTROL Destinatario automático] que desee.
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones de [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Propiedad], [!UICONTROL Origen del Sistema de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas&lt;a10 1/> y [!UICONTROL listas desplegables de Origen de Actividad].]
 
 1. Haga clic en la ficha [!UICONTROL Informes] y, a continuación, haga clic en el icono que desee:
 
@@ -35,11 +35,11 @@ Para mostrar los informes Resumen [!UICONTROL de Destinatario] automático:
 
 ## Visualización de tabla. 
 
-La ilustración siguiente muestra el aspecto que tiene un informe de resumen típico en la Vista [!UICONTROL de] tabla al ver un informe de actividad de Destinatario  automático:
+La siguiente ilustración muestra el aspecto que tiene un informe de resumen típico en [!UICONTROL Vista de tabla] al ver un informe de [!UICONTROL Destinatario automático] actividad:
 
 ![Informe de vista de tabla de Destinatario automático](/help/c-reports/assets/at-table-view.png)
 
-Some tips and considerations as you interpret your [!UICONTROL Auto-Target] reports:
+Algunas sugerencias y consideraciones a medida que interpreta los informes [!UICONTROL Destinatario automático]:
 
 * Las distintas filas de la tabla le ayudan a comprender el rendimiento de la actividad.
 
@@ -52,32 +52,32 @@ Some tips and considerations as you interpret your [!UICONTROL Auto-Target] repo
    * En este caso, para aumentar la velocidad de la actividad con modelos creados para todas las experiencias, se envía tráfico adicional a las experiencias con modelos no construidos.
    * Debe haber al menos dos experiencias con modelos integrados (marca de verificación verde) para que comience la personalización.
 
-* Comparing the conversion rate of experience A with that of experience B is not the right comparison in [!UICONTROL Auto-Target]. La pregunta es si la experiencia A rinde mejor cuando se sirve de una manera inteligente en lugar de aleatoria (en otras palabras, frente al control). Los profesionales del marketing también deben tener precaución al interpretar los aumentos de las experiencias individuales porque el algoritmo de personalización está intentando optimizar la métrica del éxito sobre toda la actividad, no sobre cada experiencia individual.
+* Comparar la tasa de conversión de la experiencia A con la de la experiencia B no es lo correcto en [!UICONTROL Destinatario automático]. La pregunta es si la experiencia A rinde mejor cuando se sirve de una manera inteligente en lugar de aleatoria (en otras palabras, frente al control). Los profesionales del marketing también deben tener precaución al interpretar los aumentos de las experiencias individuales porque el algoritmo de personalización está intentando optimizar la métrica del éxito sobre toda la actividad, no sobre cada experiencia individual.
 * Las experiencias con el alza más elevada se pueden considerar como las de mayor diferenciación dentro de la población. Es decir, el algoritmo ha encontrado la experiencia que más gusta a un segmento.
 * Las distintas columnas de la tabla muestran el número de visitas, la tasa de conversión, el alza promedio y el nivel de confianza, y la confianza. Para obtener más información, consulte [Promedio de alza, límites de alza e intervalo de confianza](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md).
 
 ## Visualización de gráfico
 
-La ilustración siguiente muestra el aspecto que tiene un informe de resumen típico en la Vista [!UICONTROL de] gráficos al ver un informe de actividad de Destinatario  automático:
+La siguiente ilustración muestra el aspecto que tiene un informe de resumen típico en [!UICONTROL Vista de gráfico] al ver un informe de [!UICONTROL Destinatario automático] actividad:
 
 ![Informe de vista de gráficos de Destinatario automático](/help/c-reports/assets/at-graph-view.png)
 
-Como se muestra a continuación, puede utilizar las dos listas desplegables para elegir las métricas deseadas, la metodología de recuento y mucho más. Consulte Información general sobre la configuración [de informes](/help/c-reports/c-report-settings/report-settings.md) para obtener más información:
+Como se muestra a continuación, puede utilizar las dos listas desplegables para elegir las métricas deseadas, la metodología de recuento y mucho más. Consulte [Información general sobre la configuración de informes](/help/c-reports/c-report-settings/report-settings.md) para obtener más información:
 
 ![Informe de vista de gráficos de Destinatario automático](/help/c-reports/assets/at-graph-view-2.png)
 
 ## Segmentos automatizados
 
-Haga clic en el icono Segmentos  automatizados. Este informe muestra cómo los diferentes visitantes responden de manera diferente a las ofertas y experiencias de su actividad AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
+Haga clic en el icono [!UICONTROL Segmentos automatizados]. Este informe muestra cómo los diferentes visitantes responden de manera diferente a las ofertas y experiencias de su actividad AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
 
 ![Icono de segmentos automatizados](/help/c-reports/assets/icon-automated-sements.png)
 
-Para obtener más información, consulte el informe [Segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados.
+Para obtener más información, consulte [Informe Segmentos automatizados](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Atributos importantes
 
-Haga clic en el icono Atributos  importantes. Este informe muestra cómo, en diferentes actividades, los diferentes atributos son más (o menos) importantes para la forma en que el modelo decide personalizar. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa.
+Haga clic en el icono [!UICONTROL Atributos importantes]. Este informe muestra cómo, en diferentes actividades, los diferentes atributos son más (o menos) importantes para la forma en que el modelo decide personalizar. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa.
 
 ![Icono de atributos importantes](/help/c-reports/assets/icon-important-attributes.png)
 
-Para obtener más información, consulte el informe [Atributos](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importantes.
+Para obtener más información, consulte [Informe de atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
