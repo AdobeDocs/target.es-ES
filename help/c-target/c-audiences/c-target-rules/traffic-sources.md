@@ -43,7 +43,7 @@ Puede combinar varias fuentes de tráfico para crear una regla de segmentación 
 
 Puede segmentar usuarios dirigidos a su sitio por un motor de búsqueda específico o desde una página de aterrizaje concreta.
 
-## Vídeo de formación: Creación de audiencias ![Distintivo de información general](/help/assets/overview.png)
+## Vídeo de formación: Creación de audiencias  ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
