@@ -95,7 +95,7 @@ Utilice la página Modificaciones para:
 
 1. Agregue todas las modificaciones que sean necesarias.
 
-## Casos de uso de Código personalizado   {#section_26CB3360097D400FB02E20AE5FDBA352}
+## Casos de uso de Código personalizado    {#section_26CB3360097D400FB02E20AE5FDBA352}
 
 El panel **[!UICONTROL Código personalizado]** contiene código que se ejecuta cuando la página empieza a cargarse.
 
@@ -222,7 +222,7 @@ Cada cambio crea un nuevo elemento en el panel Modificaciones. Como la segunda a
 
 Si usa la característica de código personalizado para dos actividades que segmenten la misma dirección URL, JavaScript se inserta en la página desde ambas actividades. Target determina automáticamente el orden del contenido entregado. Asegúrese de que el código no dependa de la colocación. Depende de usted asegurarse de que no existan conflictos en el código.
 
-## Resolución de problemas   Código personalizado   {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## Resolución de problemas   Código personalizado    {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **He recibido el aviso de que una acción no se puede aplicar debido a cambios estructurales en una página. ¿Qué significa esto?**
 
