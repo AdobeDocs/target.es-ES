@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas conocidos que podrían producirse al crear y ejecutar actividades de pruebas multivariadas (MVT) en [!DNL Adobe Target].
 
-## Planificar  {#section_4D4A1F6226F042379BF48DB753608579}
+## Planificar   {#section_4D4A1F6226F042379BF48DB753608579}
 
 * Tenga en cuenta las ubicaciones de la página que tienen probabilidad de generar resultados relevantes.
 
@@ -25,7 +25,7 @@ Sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas c
 
    Tenga en cuenta las diferencias de contenido para cada oferta y cree cualquier oferta de imagen, texto y HTML que tenga pensado usar en la prueba MVT.
 
-## Crear  {#section_C59C722CA82E48ABA58A4A7FA758F193}
+## Crear   {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
 * No incluya en la prueba más combinaciones de las necesarias.
 
@@ -44,14 +44,14 @@ Sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas c
    Asegúrese de que el Estimador de tráfico aprueba la configuración de la prueba, para que pueda obtener los resultados que desea.
 * Es recomendable que las alternativas de cada elemento sean bastante diferentes entre sí.
 
-## Analizar  {#section_9A2118CF1039451681C13D9AE79A58AB}
+## Analizar   {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Utilice con frecuencia el [informe Contribución de ubicación](/help/c-reports/location-contribution-report.md) para supervisar el rendimiento de cada ubicación y cada oferta.
 * En el [informe Rendimiento de experiencia](/help/c-reports/experience-performance-report.md) tome decisiones según los datos que se muestran con los filtros Los 5 mejores y Los 5 peores.
 
    Si usa el filtro [!UICONTROL Todos], será más difícil extraer la información que desea y, además, no todas las experiencias pueden mostrarse en el gráfico. Utilice el filtro [!UICONTROL Todos] si desea observar una experiencia concreta que no se encuentra entre las cinco mejores o las cinco peores.
 
-## Realizar el seguimiento  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## Realizar el seguimiento   {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
 * Aunque [!DNL Target] le permite modificar una actividad que se esté publicando, tenga en cuenta que, si lo hace, podría provocar que se restablezca la prueba. Por lo tanto, es posible que los informes no reconozcan algunos de los cambios. Es seguro realizar cambios en las ofertas HTML solo en la biblioteca de ofertas.
 
