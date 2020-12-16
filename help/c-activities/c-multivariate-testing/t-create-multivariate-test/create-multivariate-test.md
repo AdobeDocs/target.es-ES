@@ -63,7 +63,7 @@ La [!UICONTROL prueba multivariada] (MVT) toma un informe centrado en una págin
    | / | Barra oblicua |
    | ? | Signo de interrogación |
    | # | Signo de número |
-   | : | Dos puntos |
+   | :: | Dos puntos |
    | = | Igual a |
    | + | Más |
    | - | Menos |
@@ -117,7 +117,7 @@ La [!UICONTROL prueba multivariada] (MVT) toma un informe centrado en una págin
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** para crear la actividad.
 
-## Vídeo de capacitación: Creación de una insignia de ![tutorial para pruebas multivariable (9:25)](/help/assets/tutorial.png)
+## Vídeo de capacitación: Creación de pruebas multivariable (9:25) ![distintivo de tutorial](/help/assets/tutorial.png)
 
 En este vídeo explicamos cómo planificar y crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target.
 
