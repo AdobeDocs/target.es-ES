@@ -28,11 +28,11 @@ Use los atributos de entidad para pasar la información de producto o contenido 
 
 La mayoría de los parámetros predefinidos solo aceptan un valor único. Los valores nuevos sobrescriben a los antiguos. El parámetro `categoryId` puede aceptar una lista de valores delimitados por comas para cada categoría que contenga el producto. Los nuevos valores de `categoryId` no sobrescriben los valores existentes, sino que, en cambio, se agregan durante la actualización de entidades (límite de 250 caracteres).
 
-En general, el mbox de información de visualización puede tener el aspecto del siguiente ejemplo si utiliza at.js 1.*x* con `mboxCreate`.
+En general, el mbox de información de visualización puede tener el aspecto del siguiente ejemplo si utiliza at.js 1.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Si está utilizando at.js 2.*x*, `mboxCreate` (como se utiliza en el ejemplo siguiente) ya no es compatible. Para pasar información de productos o contenido a Recommendations mediante at.js 2.*x*, utilice [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver un ejemplo de esto, consulte [Planificar e implementar Recommendations](/help/c-recommendations/plan-implement.md).
+>* Si está utilizando at.js 2.*x*,  `mboxCreate` (como se utiliza en el ejemplo siguiente) ya no es compatible. Para pasar información de productos o contenido a Recommendations mediante at.js 2.*x*, utilice  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver un ejemplo de esto, consulte [Planifique e implemente Recommendations](/help/c-recommendations/plan-implement.md).
 
 >
 
