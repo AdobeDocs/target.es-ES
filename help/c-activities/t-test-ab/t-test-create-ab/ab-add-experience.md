@@ -30,7 +30,7 @@ Para obtener más información sobre las experiencias, consulte [Experiencias](/
 
    Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Los elementos resaltados se pueden modificar con el Compositor de experiencias.
 
-   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   Si ha creado una solicitud [!DNL Target] en la página mediante Destinatario Classic (anteriormente Test&amp;Destinatario), esa solicitud [!DNL Target] aparece como un elemento que muestra el nombre de la solicitud y se puede modificar como cualquier otro elemento.
 
    Para obtener una lista de las acciones que se pueden realizar en un elemento de la página mostrada para cambiar la experiencia, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -54,7 +54,7 @@ Tenga en cuenta que cuando nombra o renombra una experiencia, no se permiten los
 | / | Barra oblicua |
 | ? | Signo de interrogación |
 | # | Signo de número |
-| : | Dos puntos |
+| :: | Dos puntos |
 | = | Igual a |
 | + | Más |
 | - | Menos |
@@ -73,7 +73,7 @@ Para obtener más información, consulte [Redireccionamiento a URL](/help/c-expe
 | / | Barra oblicua |
 | ? | Signo de interrogación |
 | # | Signo de número |
-| : | Dos puntos |
+| :: | Dos puntos |
 | = | Igual a |
 | + | Más |
 | - | Menos |
@@ -93,7 +93,7 @@ En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo
 
 ![Opción Eliminar experiencia](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de capacitación: Uso del Compositor de experiencias visuales ![distintivo de tutorial](/help/assets/tutorial.png)
 
 El siguiente vídeo proporciona información sobre cómo usar las opciones del Compositor de experiencias visuales. (7:17)
 
