@@ -32,7 +32,7 @@ La segunda tabla proporciona un informe de nivel de oferta. Muestra la tasa de c
 
 ![](assets/locationcontributionbottom.png)
 
-## Vídeo de formación: Crear una prueba MVT ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Crear una prueba MVT  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Contribución de ubicación se describe a partir del minuto 8:45.
 
