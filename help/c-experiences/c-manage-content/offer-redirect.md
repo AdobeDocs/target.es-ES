@@ -57,7 +57,7 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 >
 >Consulte con su asesor de implementación antes de iniciar estas pruebas.
 
-## Vídeo de capacitación: La insignia ![Información general del repositorio de contenido (4:56)](/help/assets/overview.png)
+## Vídeo de capacitación: Repositorio de contenido (4:56) ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo incluye información sobre la administración de contenido.
 
