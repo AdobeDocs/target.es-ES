@@ -18,7 +18,7 @@ Utilice las ofertas remotas para alojar contenido fuera de Target al que Target 
 
 >[!NOTE]
 >
->Las ofertas remotas solo se pueden crear en el compositor basado en formularios. Content will be injected in the [!DNL Target] request locations, so these are most likely not appropriate for a global [!DNL Target] request.
+>Las ofertas remotas solo se pueden crear en el compositor basado en formularios. El contenido se insertará en las ubicaciones de solicitud [!DNL Target], por lo que es muy probable que no sean apropiadas para una solicitud global [!DNL Target].
 >
 >[!DNL Target Classic] incluía funciones similares: [!UICONTROL Oferta en su sitio] y [!UICONTROL Oferta fuera de Test&amp;Target].
 
@@ -46,7 +46,7 @@ Algunos ejemplos de ofertas remotas son:
    | Opción | Descripción |
    |--- |--- |
    | En caché | El contenido de una oferta remota en caché se suministra desde Target.<br>Cada dos horas, [!DNL Target] busca el contenido en la dirección URL remota y luego almacena el contenido dentro de Target. Cuando los visitantes cargan un sitio con una experiencia que incluye una oferta remota, la oferta se envía a través de Target.<br>Las ofertas remotas en caché proporcionan una seguridad mejorada, ya que alguien que haya iniciado sesión en Target no podrá cambiar el contenido. Para cambiar el contenido, la persona tendría que iniciar sesión en el sistema de gestión de contenido o en otro tipo sistema y cambiarlo desde ahí.<br>En una oferta remota en caché, puede especificar una dirección URL absoluta o relativa. |
-   | Dinámica | Una oferta remota dinámica se suministra desde el sistema de gestión de contenido o desde otro, no desde Target.<br>Es posible que no quiera que el contenido se almacene en caché regularmente y que luego Target lo envíe cuando los visitantes carguen un sitio con una experiencia que incluya una oferta remota. Quizás prefiera llamar al sistema que aloja el contenido y pasar una información determinada para que la oferta devuelta pueda ser dinámica o distinta para cada usuario.<br>Por ejemplo, si un usuario inicia sesión en un sitio web de una tarjeta de crédito que incluye una experiencia con una oferta remota dinámica, podría pasar parámetros en la dirección URL relativos a la información de cuenta del usuario. Después, el sitio web podría dar información sobre el usuario, como el saldo de la cuenta.<br>Haga clic en [!UICONTROL Añadir parámetro] para agregar una o más solicitudes [!DNL Target] o parámetros de solicitud. |
+   | Dinámica | Una oferta remota dinámica se suministra desde el sistema de gestión de contenido o desde otro, no desde Target.<br>Es posible que no quiera que el contenido se almacene en caché regularmente y que luego Target lo envíe cuando los visitantes carguen un sitio con una experiencia que incluya una oferta remota. Quizás prefiera llamar al sistema que aloja el contenido y pasar una información determinada para que la oferta devuelta pueda ser dinámica o distinta para cada usuario.<br>Por ejemplo, si un usuario inicia sesión en un sitio web de una tarjeta de crédito que incluye una experiencia con una oferta remota dinámica, podría pasar parámetros en la dirección URL relativos a la información de cuenta del usuario. Después, el sitio web podría dar información sobre el usuario, como el saldo de la cuenta.<br>Haga clic en  [!UICONTROL Añadir ] parámetro para agregar una o más  [!DNL Target] solicitudes o parámetros de solicitud. |
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -54,7 +54,7 @@ Algunos ejemplos de ofertas remotas son:
 
 Prácticas recomendadas para el uso de ofertas remotas en las actividades:
 
-* If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
+* Si la oferta reside en el mismo dominio que las solicitudes [!DNL Target], el uso de la opción [!UICONTROL Caché] permite utilizar direcciones URL relativas para describir la ubicación de la oferta.
 
    Esto supone que, cuando traslade la actividad de los servidores de ensayo a producción, el contenido pasará a ser accesible automáticamente, sin necesidad de cambiar la dirección URL manualmente.
 
