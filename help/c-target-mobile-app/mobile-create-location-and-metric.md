@@ -20,7 +20,7 @@ Esta sección incluye código de ejemplo que se puede usar como plantilla en la 
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>Consulte la [documentación de Mobile](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) para obtener una lista de todos los métodos de Destinatario disponibles.
 
 Para crear una ubicación de Target en la aplicación y realizar una solicitud, existen dos métodos principales:
 
