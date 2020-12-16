@@ -40,7 +40,7 @@ La prioridad se utiliza si se asignan varias actividades a la misma ubicación c
 
 Si esta opción no está habilitada en Administración (opción predeterminada), especifique una prioridad: Bajo, Medio o Alto.
 
-To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+Para habilitar las prioridades específicas, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Sistema de informes]** y, a continuación, coloque la opción Habilitar prioridades específicas en la posición &quot;Activado&quot;.
 
 Si esta opción está habilitada, indique un valor entre 0 y 999:
 
@@ -57,7 +57,7 @@ En las actividades creadas en versiones anteriores de Target Standard/Premium, e
 
 La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
-## Configuración de informes.  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Configuración de informes.   {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Las configuraciones disponibles son las siguientes:
 
