@@ -11,7 +11,7 @@ ht-degree: 86%
 ---
 
 
-# Guía de Adobe Target {#using}
+# Guía de Adobe Target  {#using}
 
 + [Página de inicio de Adobe Target Guide](target-home.md)
 + Notas de la versión de Target {#release-notes}
@@ -177,7 +177,7 @@ ht-degree: 86%
       + Resolución de problemas de integración de Analytics y Target (A4T){#troubleshoot-a4t}
          + [Resolución de problemas de A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimización de los recuentos inflados de visitas y visitantes en A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + Preguntas más frecuentes sobre A4T.  {#a4t-faq}
+      + Preguntas más frecuentes sobre A4T.   {#a4t-faq}
          + [Aprovisionamiento inicial: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Configuración de actividades: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Visualización de informes: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -308,7 +308,7 @@ ht-degree: 86%
       + [Compartir métricas, audiencias e informes: preguntas más frecuentes sobre A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiencias y ofertas {#experiences}
    + [Información general sobre experiencias y ofertas](c-experiences/experiences.md)
-   + Compositor de experiencias visuales (VEC).  {#vec}
+   + Compositor de experiencias visuales (VEC).   {#vec}
       + [Información general sobre el Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Opciones del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Incluir la misma experiencia en páginas similares](c-experiences/c-visual-experience-composer/temtest.md)
@@ -381,7 +381,7 @@ ht-degree: 86%
       + [Crear secuencias de criterios](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Cargar criterios personalizados](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Dynamic and static inclusion rules {#dynamic-static}
+      + Reglas de inclusión dinámicas y estáticas {#dynamic-static}
          + [Usar reglas de inclusión dinámicas y estáticas](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Coincidencia de atributos de entidad](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Coincidencia de atributos de perfil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
