@@ -25,9 +25,9 @@ Use Configuración de actividades para administrar el objetivo, la prioridad y l
 
    La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
-   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+   Si esta opción no está habilitada en [!UICONTROL Administración] > [!UICONTROL Sistema de informes] (valor predeterminado), especifique una prioridad: Bajo, Medio o Alto.
 
-   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
+   Para habilitar las prioridades específicas, haga clic en [!UICONTROL Administración] > [!UICONTROL Sistema de informes] y luego cambie la opción [!UICONTROL Habilitar prioridades específicas] a la posición &quot;Activado&quot;.
 
    Si esta opción está habilitada, indique un valor entre 0 y 999:
 
@@ -56,7 +56,7 @@ La página [!UICONTROL Objetivo y configuración] incluye configuración adicion
 * [Prueba multivariable](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vídeo de formación: Configuración de actividades ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Configuración de actividades  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
