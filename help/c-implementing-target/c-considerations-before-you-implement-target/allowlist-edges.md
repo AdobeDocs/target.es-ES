@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Nodos de borde de Destinatario de lista de permitidos
 
-Información y una lista actualizada de los hosts para ayudarle a realizar la lista de permitidos de [!DNL Target] bordes de Adobe.
+Información y una lista actualizada de los hosts para ayudarle a realizar la lista de permitidos de los Adobes [!DNL Target].
 
-Una arista es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para los usuarios finales que solicitan contenido, independientemente de su ubicación en todo el mundo. Cada nodo Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y para rastrear los datos de análisis de dicha solicitud. Las solicitudes de usuario se dirigen al nodo Edge más cercano. Para obtener más información, consulte [La red](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) Edge en *Cómo [!DNL Target] funciona* Adobe.
+Una arista es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para los usuarios finales que solicitan contenido, independientemente de su ubicación en todo el mundo. Cada nodo Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y para rastrear los datos de análisis de dicha solicitud. Las solicitudes de usuario se dirigen al nodo Edge más cercano. Para obtener más información, consulte [Red Edge](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) en *Cómo funciona Adobe [!DNL Target]*.
 
-Si lo desea, puede realizar la lista de permitidos [!DNL Target] de nodos Edge.
+Si lo desea, puede lista de permitidos [!DNL Target] nodos Edge.
 
 La siguiente lista incluye los hosts actuales:
 
