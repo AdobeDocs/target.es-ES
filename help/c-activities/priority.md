@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Target determina qué actividad (o actividades) ofrece en una página de forma diferente en función de qué interfaz de Target y de qué función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) esté usando.
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Solo el Compositor de experiencias visuales de Target Standard/Premium o el Compositor basado en formularios que utiliza solo la solicitud de Destinatario global {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor de experiencias visuales, se puede devolver el contenido de varias actividades para la misma llamada. Las actividades se ofrecen según el siguiente flujo de decisiones:
 
@@ -40,7 +40,7 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
    * Si solo una actividad tiene segmentación de la audiencia, se muestra esa actividad.
    * Si todas o ninguna tienen segmentación, se muestra la actividad que se aprobó en primer lugar.
 
-## Compositor basado en formularios de Target Standard/Premium y Compositor de experiencias visuales de Target Standard/Premium.  {#section_4620253E1CE942DD830724C7822B175F}
+## Compositor basado en formularios de Target Standard/Premium y Compositor de experiencias visuales de Target Standard/Premium.   {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -48,8 +48,8 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
 
 Si en su empresa se utiliza el compositor basado en formularios en Target Standard/Premium y el Compositor de experiencias visuales en Target Standard/Premium, se puede ofrecer el contenido de varias actividades del Compositor de experiencias visuales, pero solo una actividad del flujo de trabajo basado en formularios. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
-1. Target server call comes to Target with information about the [!DNL Target] request and URL.
-1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
+1. La llamada al servidor de destinatario llega al Destinatario con información sobre la solicitud [!DNL Target] y la dirección URL.
+1. Destinatario Classic y Standard obtienen todas las actividades que se ejecutan en esa solicitud [!DNL Target].
 1. Target intenta relacionar al visitante con actividades.
 
    Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
@@ -65,16 +65,16 @@ Si tiene dos actividades, una que segmenta por la palabra clave de búsqueda por
 
 Si ambas actividades segmentadas tienen la misma prioridad, se muestra la última actividad que se vio. Si el visitante es nuevo en la página, se muestra la última actividad que se activó.
 
-## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositor basado en formularios de Target Standard/Premium con solicitudes de Destinatario no globales {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Esta información también se aplica a cualquier campaña en ejecución creada en Target Classic.
 
-If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
+Si su compañía utiliza [!DNL Target] solicitudes distintas de la solicitud [!DNL Target] global en el compositor basado en formularios, sólo se puede devolver el contenido de una actividad por llamada. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
-1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
-1. [!DNL Target] extrae todas las actividades que se ejecutan en esa [!DNL Target] solicitud.
+1. La llamada al servidor [!DNL Target] llega a [!DNL Target] con información sobre la solicitud [!DNL Target] y la dirección URL.
+1. [!DNL Target] extrae todas las actividades que se ejecutan en esa  [!DNL Target] solicitud.
 1. [!DNL Target] intenta relacionar al visitante con la actividad de mayor prioridad.
 
    Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
