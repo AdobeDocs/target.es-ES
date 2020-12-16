@@ -22,7 +22,7 @@ Los [!UICONTROL Permisos de Enterprise] permiten [!DNL Target] a los clientes ut
 
 La funcionalidad de [!UICONTROL Permisos de Enterprise] facilita la escala efectiva de los programas de optimización entre los equipos. Aunque la funcionalidad estaba disponible en la interfaz de usuario de [!DNL Target], las API de administrador no tenían la compatibilidad correspondiente hasta principios de 2019. En la versión de febrero de 2019 de [!DNL Target], Adobe actualizó las API de administrador para que se pueda utilizar la cuenta de integración para acceder a todos los espacios de trabajo creados en su organización. Por tanto, las API de administrador estaban restringidas únicamente al espacio de trabajo predeterminado, pero dicha actualización de febrero de 2019 ha permitido el acceso a todos los espacios de trabajo con acceso de [!UICONTROL Aprobador].
 
-With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] provides customers with the following access controls:
+Con la versión de [!DNL Target] septiembre de 2019, [!DNL Target] [!UICONTROL Enterprise Permissions] proporciona a los clientes los siguientes controles de acceso:
 
 * Puede elegir los espacios de trabajo a los que se puede aplicar la integración
 * Puede aplicar una función a la integración de Adobe I/O: [!UICONTROL Aprobador], [!UICONTROL Editor] u [!UICONTROL Observador].
@@ -42,7 +42,7 @@ Esta actualización es compatible con los siguientes ejemplos prácticos:
 
 **Para conceder acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones:**
 
-1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. Abra el **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Haga clic en la pestaña **[!UICONTROL Productos]** y luego seleccione el nombre del producto deseado.
 
