@@ -22,7 +22,7 @@ ht-degree: 97%
 
 Al igual que la [!UICONTROL segmentación automática], la [!UICONTROL Personalización automatizada] utiliza un algoritmo de bosque aleatorio, un método puntero de ensamblado de la ciencia de datos, como su principal algoritmo de personalización a fin de determinar la mejor experiencia para mostrar a un visitante. [!UICONTROL La Personalización automatizada] resulta útil en la fase de detección de las pruebas. También es útil para permitir que el aprendizaje de la máquina pueda determinar el contenido más eficaz al segmentar varios visitantes. Con el tiempo, el algoritmo aprende a predecir el contenido más eficaz y muestra el que más probabilidades tiene de ayudarle a lograr sus objetivos.
 
-To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
+Para obtener más información sobre cómo [!UICONTROL Automated Personalization] difiere de [!UICONTROL Destinatario automático], consulte [Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 Los especialistas en marketing implementan un archivo en su sitio, que les permite apuntar y hacer clic en cualquier contenido y, a continuación, crear y seleccionar opciones de contenido adicionales para dicha área utilizando el VEC ([!UICONTROL Compositor de experiencias visuales]). A continuación, el algoritmo determina automáticamente qué parte del contenido se ofrece a cada visitante en función de todos los datos de comportamiento que tiene el sistema del visitante, proporcionando una experiencia personalizada. Como la [!UICONTROL Personalización automatizada] puede adaptarse a los cambios en el comportamiento del visitante, se puede ejecutar sin una fecha de fin determinada para proporcionar un alta y una personalización continuas. A veces, este modo se denomina “siempre-activo”. El experto en marketing no necesita ejecutar una prueba, analizar los resultados y proporcionar un ganador antes de conocer el alza encontrada en la optimización, es decir, un pedido estándar de operaciones para implementar el resultado de una actividad A/B estándar.
 
@@ -74,7 +74,7 @@ Los datos sin conexión, como información de CRM o puntuaciones de inclinación
 
 Para obtener información sobre los datos que los algoritmos de [!UICONTROL Personalización automatizada] y de [!UICONTROL Segmentación automática] recopilan y utilizan automáticamente, consulte [Recopilación de datos de personalización automatizada](/help/c-activities/t-automated-personalization/ap-data.md).
 
-## ![Vídeo de capacitación sobre la insignia](/help/assets/overview.png) de información general: Tipos de actividad
+## ![Vídeo de ](/help/assets/overview.png) capacitación de información general: Tipos de actividad
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium]. [!UICONTROL La personalización automatizada se describe a partir del minuto 5:55.]
 
