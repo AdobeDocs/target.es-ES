@@ -12,9 +12,9 @@ ht-degree: 48%
 ---
 
 
-# ![Filtro estático PREMIUM](/help/assets/premium.png)
+# ![](/help/assets/premium.png) PREMIUMSfiltro estático
 
-Introduzca manualmente uno o varios valores estáticos para filtrar con las reglas de inclusión de [!DNL Adobe Target][!DNL Recommendations].
+Especifique manualmente uno o varios valores estáticos para filtrar mediante reglas de inclusión en [!DNL Adobe Target] [!DNL Recommendations].
 
 Por ejemplo, recomendar solo contenido con una clasificación de la Asociación de imágenes de movimiento (MPA) de &quot;G&quot; o &quot;PG&quot;.
 
