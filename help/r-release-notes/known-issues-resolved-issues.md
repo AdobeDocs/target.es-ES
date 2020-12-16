@@ -26,9 +26,9 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 
 ### Métricas de Analytics para Destinatario (A4T) para la asignación automática y actividades de Destinatario automático
 
-Existe un problema conocido actual en la interfaz de usuario que permite a los usuarios seleccionar métricas de participación e ingresos no admitidas como métrica de objetivo principal para la optimización en actividades de asignación [!DNL Target] [!UICONTROL automática y Destinatario]  automático. Se admiten las métricas de conversión; las métricas de participación e ingresos *no son* compatibles. Si selecciona métricas de objetivo de participación o de ingresos, no se generará un modelo de optimización (aunque la interfaz de usuario actualmente le permita seleccionar métricas de objetivo no admitidas). [!DNL Target]
+Existe un problema conocido actual en la [!DNL Target] interfaz de usuario que permite a los usuarios seleccionar métricas de participación e ingresos no admitidas como métrica de objetivo principal para la optimización en las actividades [!UICONTROL Asignación automática] y [!UICONTROL Destinatario automático]. Se admiten las métricas de conversión; las métricas de participación e ingresos *no* son compatibles. Si selecciona métricas de objetivo de participación o ingresos, no se generará un modelo de optimización (aunque la [!DNL Target] IU actualmente le permita seleccionar métricas de objetivo no admitidas).
 
-Para obtener una lista de las métricas de objetivo admitidas y no admitidas, consulte Métricas [de objetivo](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) admitidas en *Crear una actividad que utilice Analytics como fuente* de sistema de informes. (TNT-38409)
+Para obtener una lista de las métricas de objetivo admitidas y no admitidas, consulte [Métricas de objetivo admitidas](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) en *Crear una actividad que use Analytics como fuente de sistema de informes*. (TNT-38409)
 
 ### Entrega de página {#page-delivery}
 
@@ -79,7 +79,7 @@ Los siguientes son problemas conocidos de las actividades de Recommendations:
 
 En una actividad MVT, el ganador que se muestra en la tabla y en el gráfico no concuerdan al comprobar métricas. Esto ocurre si un usuario cambia de la vista Resumen a la Visualización de gráfico, después regresa a Resumen, modifica una métrica y vuelve a cambiar a Visualización de gráfico. Cuando se produce este problema, la vista Resumen siempre muestra el ganador correcto. Si el usuario no cambia entre Visualización de gráfico y la vista Resumen, la Visualización de gráfico muestra al ganador correcto.
 
-### at.js  {#atjs}
+### at.js   {#atjs}
 
 A continuación, detallamos los problemas conocidos de at.js:
 
@@ -113,7 +113,7 @@ Cuando una métrica de éxito se establece para que se incremente con cada impre
 
 ### Analytics for Target (A4T)
 
-Cuando utilice impresiones y conversiones de actividad de Destinatario en Analysis Workspace, aplique el modelo de Attribution IQ de &quot;mismo toque&quot; a las métricas para garantizar una contabilización precisa. Para aplicar un modelo [de atribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)no predeterminado, haga clic con el botón derecho en la métrica para **modificar la Configuración de columna > activar Usar modelo de atribución no predeterminado > seleccionar el modelo** de mismo toque. Sin este modelo aplicado, las métricas se sobrevaloran.
+Cuando utilice impresiones y conversiones de actividad de Destinatario en Analysis Workspace, aplique el modelo de Attribution IQ de &quot;mismo toque&quot; a las métricas para garantizar una contabilización precisa. Para aplicar un [modelo de atribución no predeterminado](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), haga clic con el botón derecho en la métrica para **modificar Configuración de columna > habilitar Usar modelo de atribución no predeterminado > seleccionar modelo de mismo toque**. Sin este modelo aplicado, las métricas se sobrevaloran.
 
 Todos los paquetes actuales de Analytics pueden añadir este modelo con Attribution IQ. Si no tiene acceso a Attribution IQ, confíe en los datos de A4T en Informes y análisis.
 
@@ -145,18 +145,18 @@ Esto se ha corregido en la versión Target Standard/Premium 20.10.1.
 
 Se han resuelto los siguientes problemas relacionados con A4T:
 
-* Problema que afectaba a las actividades de A4T mediante una métrica de [!DNL Analytics] objetivos que hacía que los informes de A4T mostraran una división de tráfico inesperada o conversiones infladas artificialmente.
+* Problema que afectaba a las actividades de A4T mediante una métrica de objetivo [!DNL Analytics] que hacía que los informes de A4T mostraran una división de tráfico inesperada o conversiones infladas artificialmente.
 
    Este problema afectaba al sistema de informes de A4T en las siguientes condiciones:
 
    * La actividad se creó o guardó entre el 15 de septiembre y el 5 de noviembre de 2020 (4 a.m. PST), y
-   * La actividad tenía una [!DNL Analytics] métrica seleccionada como métrica de objetivo.
+   * La actividad tenía una métrica [!DNL Analytics] seleccionada como métrica de objetivo.
 
    [!DNL Target] dividir correctamente el tráfico durante este tiempo. Sin embargo, podría aparecer una división 50/50 en la configuración de actividad, por ejemplo, como una división 90/10 en los informes de A4T.
 
    Para las actividades afectadas, la división de tráfico correcta es visible para los visitantes nuevos en la actividad después del 5 de noviembre (4 a.m. PST). Las nuevas actividades creadas o guardadas después de esta hora informarán correctamente la división del tráfico.
 
-* Problema que afectaba a las actividades de A4T con una métrica de [!DNL Target] objetivos que hacía que los informes de A4T informaran de conversiones bajas o sin ellas.
+* Problema que afectaba a las actividades de A4T al usar una métrica de objetivo [!DNL Target] que hacía que los informes de A4T informaran de conversiones bajas o sin conversiones.
 
    >[!NOTE]
    >
@@ -165,20 +165,20 @@ Se han resuelto los siguientes problemas relacionados con A4T:
    Este problema afectaba al sistema de informes de A4T en las siguientes condiciones:
 
    * La actividad de A4T estuvo activa entre el 22 de septiembre y el 11 de noviembre de 2020 (2:30 p.m. PST), y
-   * La actividad tenía una [!DNL Target] métrica seleccionada como métrica de objetivo y
-   * Cuando un visitante alcanzó el evento de objetivo de la actividad (por ejemplo, [!UICONTROL hizo clic en un elemento]), también hubo una actividad de prioridad menor que no es de A4T que coincidió con el evento de conversión. Esto podría suceder si la actividad que no es de A4T se configuró con la misma métrica que la actividad de A4T o si se configuró con la métrica &quot;cualquier mbox&quot;.
+   * La actividad tenía una métrica [!DNL Target] seleccionada como métrica de objetivo y
+   * Cuando un visitante alcanza el evento de objetivo de la actividad (p. ej. [!UICONTROL Se hizo clic en un elemento]), también había una actividad de prioridad menor que no era de A4T que coincidía con el evento de conversión. Esto podría suceder si la actividad que no es de A4T se configuró con la misma métrica que la actividad de A4T o si se configuró con la métrica &quot;cualquier mbox&quot;.
 
    Este problema afectó al sistema de informes de actividades de A4T que estuvieron activas entre el 22 de septiembre y el 11 de noviembre de 2020 (2:30 p.m. PST). El sistema de informes de las actividades de A4T afectadas mostrará correctamente las conversiones fuera de este intervalo de fechas. El sistema de informes para actividades que no son de A4T no se vio afectado.
 
-Si tiene más preguntas, póngase en contacto con el administrador de éxito del cliente (CSM) o con el servicio de atención al cliente de [Adobe](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
+Si tiene más preguntas, póngase en contacto con el administrador de éxito del cliente (CSM) o [Adobe Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
 
 ### Sistema de informes de Destinatario automático {#at-metrics}
 
-Se ha solucionado un problema que afectaba al sistema de informes de Destinatario [!DNL Adobe Target Premium] [!UICONTROL automático de] los usuarios desde el 15 de septiembre a las 2:30 p.m. (PDT) hasta el 6 de octubre, 9:25 a.m. (PDT). Al ver los informes de las métricas de conversión afectadas (configurados con la opción &quot;[!UICONTROL Visualizó una página]&quot; o &quot;[!UICONTROL Se hizo clic en el mbox]&quot;), las tasas de conversión se registran de manera incorrecta. No se conoce ningún problema de envío en este momento.
+Se ha resuelto un problema que afectaba al sistema de informes [!DNL Adobe Target Premium] [!UICONTROL Destinatario automático] de los usuarios a partir del 15 de septiembre de 2:30 p.m. (PDT) hasta el 6 de octubre, 9:25 a.m. (PDT). Al ver los informes de las métricas de conversión afectadas (configurados con la opción &quot;[!UICONTROL Visualizó una página]&quot; o &quot;[!UICONTROL Se hizo clic en mbox]&quot;), las tasas de conversión se informan incorrectamente. No se conoce ningún problema de envío en este momento.
 
 Para volver a sincronizar y corregir el sistema de informes:
 
-1. Copie y guarde las actividades de Destinatario  automático afectadas.
+1. Copie y guarde las actividades [!UICONTROL de Destinatario automático] afectadas.
 1. Active las actividades recién guardadas (si las actividades afectadas estaban activas).
 1. Elimine las actividades originales (afectadas).
 
@@ -198,15 +198,15 @@ Si el recuento de conversiones está configurado para incrementar &quot;En cada 
 * Audiencia: &quot;Todos los Visitantes cualificados&quot; para conversiones de nivel de visitante se incrementan incorrectamente una sola vez, en lugar de incrementarse cada vez. Este no es el comportamiento esperado.
 * Audiencia: Los &quot;nuevos Visitantes&quot; para las conversiones de nivel de visitante aumentan cada vez. Este es el comportamiento esperado.
 
-Tenga en cuenta que este problema solo está relacionado con el [!DNL Target] sistema de informes. No se trata de un problema al usar el sistema de informes [!UICONTROL Analytics para Destinatario] (A4T).
+Tenga en cuenta que este problema solo está relacionado con el sistema de informes [!DNL Target]. No se trata de un problema al usar el sistema de informes [!UICONTROL Analytics para Destinatario] (A4T).
 
 Se ha resuelto este problema.
 
 ### Páginas que no se cargan en el Compositor de experiencias visuales (VEC) o en el Compositor de experiencias mejorado (EEC) al usar Google Chrome versión 80+
 
-Este problema conocido tiene que ver con la decisión de Google de cambiar el comportamiento predeterminado de las cookies sin el atributo SameSite a partir de la versión 80 de Chrome. Antes del cambio, Chrome establecía de forma predeterminada todas las cookies sin el atributo SameSite como &quot;SameSite=None&quot; y ahora se establece de forma predeterminada como &quot;SameSite=Lax&quot;, lo que cambia la forma en que se envían las cookies en las solicitudes del GET y del POST. Consulte [Actualizaciones](https://www.chromium.org/updates/same-site)del mismo sitio.
+Este problema conocido tiene que ver con la decisión de Google de cambiar el comportamiento predeterminado de las cookies sin el atributo SameSite a partir de la versión 80 de Chrome. Antes del cambio, Chrome establecía de forma predeterminada todas las cookies sin el atributo SameSite como &quot;SameSite=None&quot; y ahora se establece de forma predeterminada como &quot;SameSite=Lax&quot;, lo que cambia la forma en que se envían las cookies en las solicitudes del GET y del POST. Consulte [Actualizaciones del mismo sitio](https://www.chromium.org/updates/same-site).
 
-Para obtener más información y una corrección, consulte &quot;¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC anunciados recientemente?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+Para obtener más información y una corrección, consulte &quot;¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC anunciados recientemente?&quot; en [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### No se puede procesar el informe de gráfico de una actividad de Segmentación automática al utilizar una experiencia personalizada como control
 
@@ -222,7 +222,7 @@ La biblioteca mbox.js no admite los lenguajes de plantilla en el lado del client
 
 ### Implementación: Crear mbox global automáticamente
 
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+En la ficha Implementación ([!UICONTROL Administración > Implementación]), el campo [!UICONTROL Creación automática de mbox global] será &quot;false&quot; de forma predeterminada para un inquilino recién aprovisionado.
 
 Cuando se descarga mbox.js por primera vez después del aprovisionamiento, el campo [!UICONTROL Creación automática de Global Mbox] se establece en “true” en el archivo mbox.js descargado y en el back-end de [!DNL Target], pero seguirá mostrándose como “false” en la página [!UICONTROL Implementación] de la interfaz de usuario hasta que se actualice la página (una vez hecho, el estado será “true”).
 
@@ -236,7 +236,7 @@ Es posible que las ofertas de código creadas desde la interfaz de usuario de Ta
 
 Desde el 25 de noviembre de 2019 hasta el 26 de abril de 2020, un servidor de Destinatario experimentó un problema que hacía que los valores de pedidos extremos se contaran en las métricas de informes basadas en ingresos (AOV, RPV). Desde el 19 de diciembre de 2019 hasta el 23 de abril de 2020, otro servidor experimentó el mismo problema. Este problema no afectaba a todos los servidores de Destinatario ni a todos los clientes de Destinatario.
 
-Usted *no se vio* afectado si:
+No se le afectó *a* si:
 
 * La implementación de Destinatario utiliza diferentes servidores.
 * Los informes no excluyeron pedidos extremos.
