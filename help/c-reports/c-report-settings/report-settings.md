@@ -14,7 +14,7 @@ ht-degree: 70%
 
 # Configuración del informe{#report-settings}
 
-Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
+Información para configurar los elementos que desea que aparezcan en el informe en [!DNL Adobe Target]. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
 
 Para mostrar un informe:
 
@@ -25,7 +25,7 @@ Para mostrar un informe:
 
 ## Ajuste preestablecido de Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Puede guardar hasta diez ajustes preestablecidos de un informe de actividad después de configurarlo a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etcétera). All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
+Puede guardar hasta diez ajustes preestablecidos de un informe de actividad después de configurarlo a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etcétera). Todos los usuarios [!DNL Target] pueden mostrar, editar y eliminar los distintos ajustes preestablecidos, independientemente de quién los haya creado.
 
 También puede configurar un informe de actividad a su gusto y después guardar dicha configuración como su ajuste preestablecido predeterminado/favorito. Esta es la vista que se muestra cuando ve avanzar el informe de la actividad.
 
@@ -43,8 +43,8 @@ También puede configurar un informe de actividad a su gusto y después guardar 
 
    ![Cuadro de diálogo Nuevos ajustes preestablecidos](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters).
-1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position.
+1. Revise la información de las secciones **[!UICONTROL Filtros]** y **[!UICONTROL Configuración]** para asegurarse de que el informe está configurado como desee y luego especifique el **[!UICONTROL Nombre de ajuste preestablecido]** (hasta 50 caracteres).
+1. (Condicional) Si desea que ésta sea la vista de informe predeterminada o favorita, deslice el ajuste **[!UICONTROL Establecer como ajuste preestablecido predeterminado]** a la posición Activado.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ### Seleccionar otro ajuste preestablecido
@@ -111,7 +111,7 @@ El cuadro Intervalo de fechas muestra el intervalo de fechas actual del informe.
 
 ![Calendario](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Seleccione las nuevas fechas **[!UICONTROL inicial]** y **[!UICONTROL final]** del informe. You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
+Seleccione las nuevas fechas **[!UICONTROL inicial]** y **[!UICONTROL final]** del informe. También puede utilizar las casillas de verificación **[!UICONTROL De inicio de Actividad]** y **[!UICONTROL Hasta el final de la Actividad]**.
 
 Haga clic **[!UICONTROL Fechas personalizadas]** para seleccionar intervalos de fecha predefinidos: Últimos 7 días, Últimos 15 días o Últimos 30 días. Estos intervalos de fechas predefinidos se pueden extender. Si la fecha inicial es menor que el número de días elegido, el calendario mostrará el intervalo a partir de la ficha inicial, pero se extenderá una vez que la fecha inicial sea anterior al número de días elegido a medida que se incremente la duración de la actividad.
 
@@ -152,7 +152,7 @@ Seleccione el entorno (grupo de hosts) que se usará para el informe. Para obten
 
 ### Restablecer datos del informe
 
-Restablezca los datos de sistema de informes para eliminar los datos antiguos. Los visitantes actuales permanecerán en la actividad.  This option is available only for those with [!UICONTROL Approver] permissions.
+Restablezca los datos de sistema de informes para eliminar los datos antiguos. Los visitantes actuales permanecerán en la actividad.  Esta opción solo está disponible para aquellos con permisos [!UICONTROL Aprobador].
 
 >[!IMPORTANT]
 >
@@ -160,11 +160,11 @@ Restablezca los datos de sistema de informes para eliminar los datos antiguos. L
 
 ### Excluir valores extremos
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Para obtener más información, consulte [Exclusión de pedidos extremos](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+La opción [!UICONTROL Excluir valores extremos] solo se aplica a actividades con tipos de métricas de ingresos y participación. Para obtener más información, consulte [Exclusión de pedidos extremos](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Descargar {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs.
+Haga clic en el icono **[!UICONTROL Descargar]** para descargar los datos del informe en formato [!DNL .csv] para importarlos rápidamente a Excel, Access u otros programas de análisis de datos.
 
 ![Icono de descarga](/help/c-reports/c-report-settings/assets/download-icon.png)
 
@@ -172,9 +172,9 @@ Para obtener más información, consulte [Descarga de datos en un archivo CSV](/
 
 ## Actualizar {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and graph view without refreshing the entire page, its configuration, or its date range.
+Haga clic en el icono **[!UICONTROL Actualizar]** para actualizar la vista de gráficos y la tabla de un informe sin actualizar la página completa, su configuración o su intervalo de fechas.
 
-## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## Más opciones {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Haga clic en el icono de Más opciones (tres elipses verticales) para acceder a las opciones [!UICONTROL Editar actividad] y [!UICONTROL Ver las URL de la experiencia].
 
@@ -184,10 +184,10 @@ Puede vista del informe en varios formatos, según el tipo de actividad. Selecci
 
 ![Iconos de opciones de vista](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **Vista** de tabla: Haga clic en el icono de Vista **[!UICONTROL de]** tabla para vista del informe como una tabla.
-* **Vista** de gráfico: Haga clic en el icono de Vista **[!UICONTROL de]** gráfico para vista del informe como un gráfico.
-* **Segmentos** automatizados: (disponible solo para actividades de Automated Personalization (AP) y Destinatario automático (AT)). Haga clic en el icono **Segmentos automatizados para vista del informe [Segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados.
-* **Atributos** importantes: (Disponible solo para actividades de Automated Personalization (AP) y Destinatario automático (AT)). Haga clic en el icono **[!UICONTROL Atributos] importantes para vista del informe [Atributos](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importantes.
+* **Vista** de tabla: Haga clic en el icono  **[!UICONTROL Vista de]** tabla para vista del informe como una tabla.
+* **Vista** de gráfico: Haga clic en el icono  **[!UICONTROL Vista de]** gráfico para vista del informe como un gráfico.
+* **Segmentos** automatizados: (disponible solo para actividades de Automated Personalization (AP) y Destinatario automático (AT)). Haga clic en el icono **[!UICONTROL Segmentos automatizados] para vista del [informe de segmentos automatizados](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Atributos** importantes: (Disponible solo para actividades de Automated Personalization (AP) y Destinatario automático (AT)). Haga clic en el icono **[!UICONTROL Atributos importantes] para vista del [informe Atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Alza promedio, límites de alza e intervalo de confianza {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -200,7 +200,7 @@ Tenga en cuenta lo siguiente:
 * Solo disponible al ver informes en la vista Tabla.
 * Esta característica no está disponible para actividades que utilicen [Analytics como fuente de informes (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-## Contribución de ubicación.  {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Contribución de ubicación.   {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Haga clic en el icono de **[!UICONTROL Contribución de ubicación]** para que el informe muestre la contribución por ubicación.
 
@@ -235,9 +235,9 @@ El nombre de esta lista desplegable varía según la vista seleccionada, pero se
 
 (solo disponible al visualizar el informe en Visualización de gráfico)
 
-Puede elegir la metodología de contabilización para los gráficos de los informes. Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
+Puede elegir la metodología de contabilización para los gráficos de los informes. Tenga en cuenta que esto no se admite para actividades [!UICONTROL Automated Personalization] (AP).
 
-To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
+Para acceder a la opción [!UICONTROL Metodología de contabilización], mientras ve un informe en modo gráfico, haga clic en la lista desplegable **[!UICONTROL Mi objetivo principal]** y seleccione la metodología de contabilización.
 
 La metodología de contabilización será la misma que se seleccionó en el cuadro de diálogo [!UICONTROL Ajustes] descrito anteriormente.
 
@@ -245,7 +245,7 @@ La metodología de contabilización será la misma que se seleccionó en el cuad
 
 De forma predeterminada, el gráfico se representa en modo [!UICONTROL Diario].
 
-You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting a cumulative option.
+Para cambiar el modo, haga clic en la lista desplegable [!UICONTROL Diario] y seleccione una opción acumulativa.
 
 ![Acumulativo](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
@@ -264,8 +264,8 @@ El orden predeterminado de representación del gráfico es el siguiente:
 
 Al trabajar con las opciones de Metodología de contabilización, tenga en cuenta las siguientes advertencias:
 
-* For [Auto-Target activities](/help/c-activities/auto-target/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. El tipo de actividad Segmentación automática es el único que no se puede representar por visitantes.
-* For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
+* Para [actividades de Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md), no hay opción para seleccionar &quot;Visitantes&quot; como metodología de recuento. El tipo de actividad Segmentación automática es el único que no se puede representar por visitantes.
+* Para actividades que utilizan [Analytics como fuente de sistema de informes (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), no puede trazar Visitantes, visitas o impresiones de forma acumulativa.
 
 ## Uso de gráficos con más de 16 experiencias en la actividad
 
