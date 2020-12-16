@@ -18,7 +18,7 @@ Descargue un PDF interactivo que describe los distintos tipos de actividad en Ad
 
 >[!NOTE]
 >
->For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](/help/assets/activities_guide_82817.pdf).
+>Para disfrutar de la mejor experiencia y compartir con otros usuarios, descargue la [Guía interactiva de Actividades de Adobe Target en PDF](/help/assets/activities_guide_82817.pdf).
 
 ## ¿Qué hace?{#section_4ECAACC68723402EB3649033190E1BBC}
 
