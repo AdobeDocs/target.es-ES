@@ -12,13 +12,13 @@ ht-degree: 71%
 ---
 
 
-# ![Resolución de problemas y preguntas más frecuentes sobre el Destinatario automático de PREMIUM](/help/assets/premium.png)
+# ![](/help/assets/premium.png) PREMIUMAuto-Destinatario solución de problemas y preguntas más frecuentes
 
-Resolución de problemas y preguntas más frecuentes sobre el Destinatario  automático en [!DNL Adobe Target].
+Resolución de problemas y preguntas más frecuentes (FAQ) sobre [!UICONTROL Destinatario automático] en [!DNL Adobe Target].
 
 ## Preguntas más frecuentes sobre la segmentación automática {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consulte las siguientes preguntas más frecuentes y respuestas cuando trabaje con actividades de Destinatario  automático:
+Consulte las siguientes preguntas más frecuentes y respuestas mientras trabaja con actividades [!UICONTROL Destinatario automático]:
 
 ### ¿Cuáles son las prácticas recomendadas para configurar una actividad de [!UICONTROL segmentación automática]?
 
@@ -70,15 +70,15 @@ Si los resultados de una prueba A/B muestran un aumento estadísticamente signif
 
 Si desea realizar cambios sustanciales en el contenido en su actividad de [!UICONTROL segmentación automática], la mejor práctica es comenzar una nueva actividad para que otros usuarios que revisen los informes no confundan ni relacionen resultados pasados con contenido diferente.
 
-### ¿Cuánto tiempo debo esperar para que los modelos se creen?  {#how-long}
+### ¿Cuánto tiempo debo esperar para que los modelos se creen?   {#how-long}
 
-The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
+El tiempo que tardan los modelos en generar su actividad [!UICONTROL Destinatario automático] generalmente depende del tráfico de las ubicaciones de actividad seleccionadas y de las tasas de conversión asociadas con la métrica de éxito de actividad.
 
-[!UICONTROL El Destinatario] automático no intentará crear un modelo personalizado para una experiencia determinada hasta que haya al menos 50 conversiones para esa experiencia. Además, si el modelo creado tiene una calidad insuficiente (según lo determinado por la evaluación sin conexión de los datos de &quot;prueba&quot; de retención, utilizando [una métrica conocida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), el modelo no se utilizará para servir el tráfico de manera personalizada.
+[!UICONTROL La segmentación automática no ] intentará crear un modelo personalizado para una experiencia determinada hasta que haya al menos 50 conversiones para esa experiencia. Además, si el modelo creado tiene una calidad insuficiente (como lo determina la evaluación sin conexión de los datos de &quot;prueba&quot; de retención, utilizando [una métrica conocida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), el modelo no se utilizará para servir el tráfico de manera personalizada.
 
-Otros puntos a tener en cuenta sobre la construcción del modelo de Destinatario automático:
+Otros puntos que hay que tener en cuenta sobre la creación de modelos de [!UICONTROL Destinatario automático]:
 
-* Una vez que una actividad está activa, el Destinatario  automático considera hasta los últimos 45 días de datos suministrados al azar al intentar crear modelos (es decir, controlar el tráfico, además de algunos datos suministrados al azar por nuestro algoritmo).
+* Una vez que una actividad está activa, [!UICONTROL Destinatario automático] considera hasta los últimos 45 días de datos suministrados al azar al intentar crear modelos (es decir, controlar el tráfico, además de algunos datos suministrados al azar por nuestro algoritmo).
 * Cuando [!UICONTROL Ingresos por visita] es la métrica de éxito, estas actividades generalmente requieren más datos para generar modelos debido a la mayor varianza de datos que generalmente existe en los ingresos por visita en comparación con la tasa de conversión.
 * Dado que los modelos se crean por experiencia, reemplazar una experiencia por otra significa que se debe recopilar suficiente tráfico (es decir, al menos 50 conversiones) para la nueva experiencia antes de que se puedan volver a crear los modelos personalizados.
 
@@ -102,11 +102,11 @@ Para obtener más información, consulte [Uso de una experiencia específica com
 
 No se recomienda cambiar la métrica de objetivos a mitad de camino a través de una actividad. Aunque es posible cambiar la métrica de objetivos durante una actividad mediante la [!DNL Target] interfaz de usuario, siempre debe realizar el inicio de una nueva actividad. No garantizamos lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
 
-Esta recomendación se aplica a las actividades [!UICONTROL de asignación]automática, Destinatario automático y [!UICONTROL Automated Personalization] que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como origen de sistema de informes.
+Esta recomendación se aplica a [!UICONTROL actividades de asignación automática], [!UICONTROL Destinatario automático] y [!UICONTROL Automated Personalization] que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como fuente de sistema de informes.
 
 ### ¿Puedo utilizar la opción Restablecer datos del informe al ejecutar una actividad de Destinatario automático?
 
-No se sugiere utilizar la opción [!UICONTROL Restablecer datos] de informes para actividades de Destinatario  automático. Aunque elimina los datos de sistema de informes visibles, esta opción no elimina todos los registros de formación del modelo de Destinatario  automático. En lugar de utilizar la opción [!UICONTROL Restablecer datos] del informe para actividades de Destinatario  automático, cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades [!UICONTROL de asignación] automática y de [!UICONTROL Automated Personalization] ).
+No se sugiere utilizar la opción [!UICONTROL Restablecer datos del informe] para actividades [!UICONTROL Destinatario automático]. Aunque elimina los datos de sistema de informes visibles, esta opción no elimina todos los registros de capacitación del modelo [!UICONTROL Destinatario automático]. En lugar de utilizar la opción [!UICONTROL Restablecer datos del informe] para actividades [!UICONTROL Destinatario automático], cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades [!UICONTROL de asignación automática] y [!UICONTROL Automated Personalization]).
 
 ## Solución de problemas de la [!UICONTROL segmentación automática] {#section_23995AB813F24525AF294D20A20875C8}
 
