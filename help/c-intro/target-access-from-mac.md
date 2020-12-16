@@ -20,9 +20,9 @@ Información sobre el acceso a [!DNL Adobe Target] desde [!DNL Adobe Experience 
 
 1. Inicie sesión en el [Adobe Experience Cloud](https://experience.adobe.com/).
 
-1. Haga clic en el icono **** Aplicación de la barra de navegación y, a continuación, haga clic en **[!UICONTROL Destinatario]**.
+1. Haga clic en el **[!UICONTROL icono de la aplicación]** en la barra de navegación y, a continuación, haga clic en **[!UICONTROL Destinatario]**.
 
-   También puede hacer clic en el panel de la ventana principal para acceder a [!DNL Target] (o a cualquier otra [!DNL Target] [!DNL Adobe Experience Cloud] solución a la que tenga acceso).
+   También puede hacer clic en el panel [!DNL Target] de la ventana principal para acceder a [!DNL Target] (o a cualquier otra [!DNL Adobe Experience Cloud] solución a la que tenga acceso).
 
    ![Icono de aplicación](/help/c-intro/assets/appmenu-new.png)
 
@@ -32,15 +32,15 @@ Información sobre el acceso a [!DNL Adobe Target] desde [!DNL Adobe Experience 
 
 ## Cambio del idioma predeterminado para la interfaz de usuario de Target {#language}
 
-1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
+1. Después de iniciar sesión en [!DNL Adobe Experience Cloud ] o [!DNL Target], haga clic en el avatar de su perfil y, a continuación, haga clic en **[!UICONTROL Editar preferencias]**.
 
    ![Editar perfil](/help/c-intro/assets/change-language.png)
 
-1. Haga clic en Cuenta **[!UICONTROL de]** Adobe para acceder a su [!DNL Adobe] perfil.
+1. Haga clic en **[!UICONTROL Cuenta de Adobe]** para acceder al perfil [!DNL Adobe].
 
    ![Cuenta de Adobe](/help/c-intro/assets/adobe-account.png)
 
-1. Haga clic en la ficha **[!UICONTROL Notificaciones]** de la barra de menús superior y, a continuación, haga clic en la ficha **[!UICONTROL Preferencias]** del lado izquierdo.
+1. Haga clic en la ficha **[!UICONTROL Notificaciones]** en la barra de menús superior y, a continuación, haga clic en la ficha **[!UICONTROL Preferencias]** en el lado izquierdo.
 
    ![Idiomas preferidos](/help/c-intro/assets/prefered-language.png)
 
