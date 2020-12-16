@@ -33,7 +33,7 @@ Varios problemas pueden afectar al rendimiento de la página en los compositores
 
 Si ocurren problemas en el Compositor de experiencias mejorado, pruebe desactivar el Compositor de experiencias mejorado y use en cambio el Compositor de experiencias visuales.
 
-To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
+Para deshabilitar el Compositor de experiencias mejorado, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]** y desactive la opción **[!UICONTROL Habilitar el Compositor de experiencias mejorado]**.
 
 Algunos usuarios ven el siguiente mensaje de error en la consola:
 
@@ -109,7 +109,7 @@ Para la extensión del encabezado de respuesta de modificación (Firefox), ya qu
 
 Después de configurar una extensión, abra Target. Sus páginas ahora deberían cargarse en el Compositor de experiencias visuales, incluso si está deshabilitado el Compositor de experiencias visuales.
 
-## Mi página no se muestra en el VEC (solo VEC)   {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Mi página no se muestra en el VEC (solo VEC)    {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * El navegador no es compatible.
 * El navegador bloquea una página no segura en un sitio seguro.
