@@ -38,15 +38,15 @@ Lo que sigue son motivos por los que podría ver este mensaje de error y remedio
 
 * **Problema**: el dominio del sitio web (ISP) está bloqueando el Compositor de experiencias mejorado.
 
-   **Remedio:** Lista de permitidos las direcciones IP enumeradas anteriormente.
+   **Remedio:** Lista de permitidos de las direcciones IP enumeradas arriba.
 
-* **Problema:** Las direcciones IP están incluidas en la lista de permitidos pero su sitio web no admite TLS versión 1.2. Destinatario utiliza actualmente la configuración predeterminada de 1.2. Antes del Destinatario 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte Cambios [](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)en el cifrado de TLS (Transport Layer Security).
+* **Problema:** Las direcciones IP están incluidas en la lista de permitidos pero su sitio web no admite TLS versión 1.2. Destinatario utiliza actualmente la configuración predeterminada de 1.2. Antes del Destinatario 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte Cambios [ ](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) en el cifrado de TLS (Transport Layer Security).
 
    **Solución:** vea la siguiente pregunta (El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio que usan TLS 1.2).
 
 ## El EEC no se carga en páginas seguras de mi sitio que utilizan TLS 1.0. (Solo EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Podría ver el mensaje de error descrito en “El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio”. if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Podría ver el mensaje de error descrito en “El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio”. si las direcciones IP anteriores están incluidas en la lista de permitidos pero su sitio web no admite TLS versión 1.2. Destinatario utiliza actualmente la configuración predeterminada de 1.2. Antes del Destinatario 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios en el cifrado TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegadores tienen pasos similares):
 
