@@ -16,7 +16,7 @@ ht-degree: 74%
 
 La asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 
-While creating an A/B activity using the three-step guided workflow, you can choose the [!UICONTROL Auto-Allocate to best experience] option.
+Al crear una actividad A/B mediante el flujo de trabajo guiado de tres pasos, puede elegir la opción [!UICONTROL Asignación automática para la mejor experiencia].
 
 ## El reto {#section_85D5A03637204BACA75E19646162ACFF}
 
@@ -42,7 +42,7 @@ Asignación automática asigna de forma inteligente nuevos visitantes a distinta
 * Utilice una **[prueba A/B](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** estándar cuando quiera caracterizar el rendimiento de todas las experiencias antes de optimizar el sitio web. Una prueba A/B le ayuda a clasificar todas las experiencias propias, mientras que la Asignación automática del tráfico encuentra las experiencias con mejor rendimiento pero no garantiza poder diferenciar entre las que tienen peor rendimiento.
 * Utilice [Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) cuando quiera algoritmos de optimización de la más alta complejidad, como pueden ser los modelos de aprendizaje automático que crean predicciones basadas en atributos concretos del perfil. La Asignación automática del tráfico examina el comportamiento agregado de las experiencias (como las pruebas A/B estándar) y no diferencia entre visitantes.
 
-## Ventajas principales   {#section_0913BF06F73C4794862561388BBDDFF0}
+## Ventajas principales    {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Tiene el mismo rigor que una prueba A/B
 * Encuentra una experiencia ganadora con relevancia estadística más rápido que una prueba A/B manual
@@ -82,9 +82,9 @@ La ilustración muestra cómo progresa el tráfico asignado a cada experiencia d
 
 >[!NOTE]
 >
->If an activity has only two experiences, both experiences get equal traffic until [!DNL Target] finds a winning experience with 75% confidence. En ese momento, 2/3 del tráfico se asigna al ganador y 1/3 al perdedor. Después, cuando una experiencia alcanza el 95 % de confianza, el 90 % del tráfico se asigna al ganador y el 10 % al perdedor. Siempre mantenemos cierto tráfico enviado a la experiencia &quot;perdedora&quot; para evitar falsos positivos a largo plazo (es decir, mantener alguna exploración).
+>Si una actividad solo tiene dos experiencias, ambas reciben el mismo tráfico hasta que [!DNL Target] encuentra una experiencia ganadora con un 75 % de confianza. En ese momento, 2/3 del tráfico se asigna al ganador y 1/3 al perdedor. Después, cuando una experiencia alcanza el 95 % de confianza, el 90 % del tráfico se asigna al ganador y el 10 % al perdedor. Siempre mantenemos cierto tráfico enviado a la experiencia &quot;perdedora&quot; para evitar falsos positivos a largo plazo (es decir, mantener alguna exploración).
 
-After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
+Después de activar una actividad [!UICONTROL de asignación automática], no se permiten las siguientes operaciones desde la interfaz de usuario:
 
 * Cambiar el modo “Asignación del tráfico” a “Manual”
 * Cambiar el tipo de la métrica de objetivo
@@ -92,7 +92,7 @@ After an [!UICONTROL Auto-Allocate] activity is activated, the following operati
 
 ## Ver cómo funciona la asignación automática
 
-Para obtener más información, consulte La asignación [automática puede proporcionarle resultados de prueba más rápidos y mayores ingresos que una prueba manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+Para obtener más información, consulte [La asignación automática puede proporcionarle resultados de prueba más rápidos y mayores ingresos que una prueba manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
 
 ## Advertencias {#section_5C83F89F85C14FD181930AA420435E1D}
 
@@ -132,11 +132,11 @@ Estos factores pueden distorsionar los resultados de una prueba de asignación a
 
 ## Preguntas frecuentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-Consulte las siguientes preguntas más frecuentes y respuestas cuando trabaje con actividades de asignación  automática:
+Consulte las siguientes preguntas más frecuentes y respuestas mientras trabaja con actividades de [!UICONTROL asignación automática]:
 
 ### ¿Analytics para Destinatario (A4T) admite actividades de asignación automática?
 
-Sí. Para obtener más información, consulte Compatibilidad [de Analytics para Destinatario (A4T) con actividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) de asignación automática en la creación *de* Actividades.
+Sí. Para obtener más información, consulte [Compatibilidad de Analytics para Destinatario (A4T) con actividades de asignación automática](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) en *Creación de Actividades*.
 
 ###  ¿Los visitantes de retorno se asignan automáticamente a experiencias con alto rendimiento?
 
@@ -174,7 +174,7 @@ En estos momentos, la lógica favorece a los visitantes que generan una conversi
 
 ### ¿Puedo usar la calculadora de tamaño de la muestra al utilizar la asignación automática para estimar el tiempo que tardará la actividad en identificar al ganador?
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Como sucede con las pruebas A/B tradicionales, aplique la corrección de Bonferroni si está probando más de dos ofertas o más de una métrica o hipótesis de conversión). Tenga en cuenta que esta calculadora está diseñada para las pruebas A/B de horizonte fijo tradicionales y solo proporciona una estimación. El uso de la calculadora para una actividad de asignación automática es opcional porque la asignación automática le declarará ganador (no necesita elegir un punto fijo en el tiempo para ver los resultados de la prueba), los valores proporcionados siempre son estadísticamente válidos. En nuestros experimentos hemos encontrado lo siguiente:
+Puede utilizar la calculadora de [tamaño de la muestra](https://docs.adobe.com/content/target-microsite/testcalculator.html) existente para obtener una estimación de cuánto tiempo se ejecutará la prueba. (Como sucede con las pruebas A/B tradicionales, aplique la corrección de Bonferroni si está probando más de dos ofertas o más de una métrica o hipótesis de conversión). Tenga en cuenta que esta calculadora está diseñada para las pruebas A/B de horizonte fijo tradicionales y solo proporciona una estimación. El uso de la calculadora para una actividad de asignación automática es opcional porque la asignación automática le declarará ganador (no necesita elegir un punto fijo en el tiempo para ver los resultados de la prueba), los valores proporcionados siempre son estadísticamente válidos. En nuestros experimentos hemos encontrado lo siguiente:
 * Al probar exactamente dos experiencias, la asignación automática encuentra un ganador más rápido que las pruebas de horizonte fijo (es decir, el intervalo de tiempo sugerido por la calculadora de tamaño de la muestra) cuando la diferencia de rendimiento entre las experiencias es grande, pero puede requerir más tiempo para identificar un ganador cuando la diferencia de rendimiento entre las experiencias es pequeña. En estos casos, las pruebas de horizonte fijo normalmente habrían finalizado sin un resultado estadísticamente significativo.
 * Al probar más de dos experiencias, la asignación automática encuentra un ganador más rápido que las pruebas de horizonte fijo (es decir, el intervalo de tiempo sugerido por la calculadora de tamaño de la muestra) cuando una única experiencia supera con creces el resto de las experiencias. Cuando dos o más experiencias están &quot;ganando&quot; en comparación con otras, pero están muy relacionadas entre sí, la asignación automática puede requerir tiempo adicional para determinar cuál es superior. En estos casos, las pruebas de horizonte fijo normalmente habrían finalizado al concluir que las experiencias &quot;ganadoras&quot; eran mejores que las experiencias de menor rendimiento, pero no habrían identificado cuál era superior.
 
@@ -188,17 +188,17 @@ El 20 % de los visitantes se asigna de forma aleatoria entre todas las experien
 
 No se recomienda cambiar la métrica de objetivos a mitad de camino a través de una actividad. Aunque es posible cambiar la métrica de objetivos durante una actividad mediante la [!DNL Target] interfaz de usuario, siempre debe realizar el inicio de una nueva actividad. No garantizamos lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
 
-Esta recomendación se aplica a las actividades [!UICONTROL de asignación]automática, Destinatario automático y [!UICONTROL Automated Personalization] que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como origen de sistema de informes.
+Esta recomendación se aplica a [!UICONTROL actividades de asignación automática], [!UICONTROL Destinatario automático] y [!UICONTROL Automated Personalization] que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como fuente de sistema de informes.
 
 ### ¿Puedo utilizar la opción Restablecer datos del informe mientras ejecuto una actividad de asignación automática?
 
-No se recomienda utilizar la opción [!UICONTROL Restablecer datos] de informes para actividades de asignación  automática. Aunque elimina los datos de sistema de informes visibles, esta opción no elimina todos los registros de formación del modelo de asignación [!UICONTROL automática] . En lugar de utilizar la opción [!UICONTROL Restablecer datos] del informe para actividades de asignación  automática, cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades [!UICONTROL de Destinatario] automático y [!UICONTROL Automated Personalization] ).
+No se sugiere utilizar la opción [!UICONTROL Restablecer datos del informe] para [!UICONTROL Asignar automáticamente] actividades. Aunque elimina los datos de sistema de informes visibles, esta opción no elimina todos los registros de capacitación del modelo [!UICONTROL Asignación automática]. En lugar de utilizar la opción [!UICONTROL Restablecer datos del informe] para [!UICONTROL Asignar automáticamente] actividades, cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades [!UICONTROL Destinatario automático] y [!UICONTROL Automated Personalization]).
 
 ### ¿Cómo genera la asignación automática modelos con respecto a los entornos?
 
-[!UICONTROL La asignación] automática genera modelos basados en el tráfico y el comportamiento de conversión registrado solo en el entorno predeterminado. De forma predeterminada, [!UICONTROL Producción] es el entorno predeterminado, pero esto se puede cambiar en [Administración de Destinatarios > Entornos](/help/administrating-target/environments.md).
+[!UICONTROL La asignación automática ] crea modelos basados en el tráfico y el comportamiento de conversión registrado solo en el entorno predeterminado. De forma predeterminada, [!UICONTROL Producción] es el entorno predeterminado, pero esto se puede cambiar en Destinatario [Administración > Entornos](/help/administrating-target/environments.md).
 
-Si una visita se produce en otro entorno (no predeterminado), el tráfico se distribuye según el comportamiento de conversión observado en el entorno predeterminado. El resultado de esa visita (conversión o no conversión) se registrará con fines de sistema de informes pero no se tendrá en cuenta en el modelo de asignación  automática.
+Si una visita se produce en otro entorno (no predeterminado), el tráfico se distribuye según el comportamiento de conversión observado en el entorno predeterminado. El resultado de esa visita (conversión o no conversión) se registrará con fines de sistema de informes pero no se tendrá en cuenta en el modelo [!UICONTROL Asignación automática].
 
 Al seleccionar otro entorno, el informe mostrará el tráfico y las conversiones de ese entorno. El entorno seleccionado predeterminado para un informe siempre será el predeterminado de toda la cuenta que esté seleccionado. El entorno predeterminado no se puede establecer por actividad.
 
@@ -206,7 +206,7 @@ Al seleccionar otro entorno, el informe mostrará el tráfico y las conversiones
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Flujo de trabajo de actividad - Segmentación (2:14) ![Insignia de tutorial](/help/assets/tutorial.png)
+### Flujo de trabajo de actividad - Segmentación (2:14)  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre cómo configurar la asignación de tráfico.
 
@@ -217,7 +217,7 @@ Este vídeo incluye información sobre cómo configurar la asignación de tráfi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Creación de una insignia de ![tutorial para pruebas A/B (8:36)](/help/assets/tutorial.png)
+### Creación de pruebas A/B (8:36) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de trabajo guiado de tres pasos de Target. La asignación de tráfico automática se explica a partir del minuto 4:45.
 
