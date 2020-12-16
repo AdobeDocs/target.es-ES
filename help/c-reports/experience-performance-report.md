@@ -36,7 +36,7 @@ Puede mostrar todas las experiencias, las cinco mejores o las cinco peores. Las 
 
 Debajo del gráfico, se muestra una tabla con la cantidad de participantes que vio cada experiencia y otra información relevante para la métrica de éxito.
 
-## Vídeo de formación: Crear una prueba MVT ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Crear una prueba MVT  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Rendimiento de las experiencias se describe a partir del minuto 8:20.
 
