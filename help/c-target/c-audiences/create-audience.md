@@ -58,7 +58,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
    Las audiencias recién creadas aparecen en la lista tras unos segundos de retraso en el procesamiento. Si la audiencia no aparece en la lista inmediatamente, pruebe a buscarla o actualice la lista.
 
-## Vídeo de formación: Creación de audiencias ![Distintivo de información general](/help/assets/overview.png)
+## Vídeo de formación: Creación de audiencias  ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo contiene información sobre la creación de audiencias.
 
