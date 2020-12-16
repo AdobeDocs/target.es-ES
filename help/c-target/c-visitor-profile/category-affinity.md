@@ -73,7 +73,7 @@ Suponiendo que el usuario ve, en orden, `jewelry`, `accessories`, `beauty`, `sho
 
 * `accessories`: 6,5 (4,5 + 5 – 1 – 1 – 1)
 
-* `womens-clothing`: 5 (+5)
+* `womens-clothing`:: 5 (+5)
 
 * `jewelry`: 4,5 (2,5 + 5 – 1 – 1 – 1)
 
