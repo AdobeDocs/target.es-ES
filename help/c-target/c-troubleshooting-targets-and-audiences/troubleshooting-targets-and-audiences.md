@@ -30,7 +30,7 @@ Para aplicar el objetivo de URL de audiencia, al crear una actividad, en la pág
 
 ![Dirección URL del Envío de página](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-El objetivo de URL de audiencia busca una coincidencia de URL exacta. Si la dirección URL coincide, Destinatario no tiene en cuenta la lógica adicional. En la dirección URL anterior, si la actividad está configurada para activarse `www.example.com`, la dirección URL coincide con las siguientes direcciones URL porque la segmentación por URL de audiencia no depende de la consulta:
+El objetivo de URL de audiencia busca una coincidencia de URL exacta. Si la dirección URL coincide, Destinatario no tiene en cuenta la lógica adicional. En la dirección URL anterior, si la actividad está configurada para activarse en `www.example.com`, la dirección URL coincide con las direcciones URL siguientes porque la segmentación por URL de audiencia no depende de la consulta:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -46,12 +46,12 @@ Para aplicar el objetivo de URL, al crear una audiencia, haga clic en Añadir re
 
 El objetivo de URL transforma la URL en un conjunto de reglas para evaluar:
 
-* Dominio de URL = `example.com`
+* Dominio de dirección URL = `example.com`
 * Ruta = path1/path2/path3
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## Al crear cadenas URL complejas, ¿ [!DNL Target] evalúa toda la dirección URL?
+## Al crear cadenas URL complejas, ¿evalúa [!DNL Target] toda la dirección URL?
 
 Si utiliza el mismo nombre de parámetro más de una vez en una cadena URL, HTTP considera el nombre del primer parámetro y omite los parámetros posteriores con el mismo nombre.
 
@@ -59,7 +59,7 @@ Por ejemplo, en la siguiente cadena URL:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-se evalúa la primera instancia del `Category` parámetro y se ignora el segundo `Category` parámetro.
+se evalúa la primera instancia del parámetro `Category` y se omite el segundo parámetro `Category`.
 
 Se recomienda tener varios valores asociados a una sola categoría, como se muestra a continuación:
 
@@ -71,11 +71,11 @@ Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audien
 
 Se recomienda utilizar las audiencias más nuevas porque han mejorado su rendimiento. Es posible que algunos clientes que utilicen audiencias prediseñadas heredadas, de modo que no se han eliminado de la interfaz de Target.
 
-## ¿Cómo sé de qué manera se dividirá el tráfico entre las audiencias?   {#section_067EEFB956E7465CBF77EC86834470AB}
+## ¿Cómo sé de qué manera se dividirá el tráfico entre las audiencias?    {#section_067EEFB956E7465CBF77EC86834470AB}
 
 De manera predeterminada, el tráfico se divide a partes iguales entre las experiencias. Sin embargo, puede especificar   segmentos de porcentaje para cada experiencia. En este caso, se genera un número aleatorio que se utiliza para elegir la experiencia que se mostrará. Es posible que los porcentajes resultantes no coincidan exactamente con los objetivos especificados, pero con más tráfico resulta necesario dividir las experiencias para aproximarse a los objetivos.
 
-## ¿Qué experiencia se muestra si un usuario cumple los criterios de una actividad que contiene varias experiencias con varias audiencias aptas?   {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## ¿Qué experiencia se muestra si un usuario cumple los criterios de una actividad que contiene varias experiencias con varias audiencias aptas?    {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 El usuario cumple los criterios de la primera experiencia o audiencia que se muestra en la página de [!UICONTROL Target] de la actividad.
 
@@ -93,7 +93,7 @@ Por ejemplo, es posible que vea las siguientes audiencias: “Usuarios en PC” 
 
 Algunas audiencias de Target están predefinidas, como “Nuevos visitantes” y “Visitantes que repiten”. Los usuarios no pueden cambiar el nombre de estas audiencias predefinidas.
 
-## ¿Por qué no aparece ningún parámetro de perfil en la interfaz de usuario de Target?   {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## ¿Por qué no aparece ningún parámetro de perfil en la interfaz de usuario de Target?    {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a [!DNL Target], puede hacerlo por medio del método de API [!UICONTROL Profile Update]. Para obtener más información, consulte [Profile Update](https://developers.adobetarget.com/api/#authentication-tokens) en la documentación de la API de Adobe Target.
 
@@ -101,7 +101,7 @@ Algunas audiencias de Target están predefinidas, como “Nuevos visitantes” y
 
 Las actividades de personalización automatizada se evalúan una vez por sesión. Si hubo sesiones activas que se han calificado para una experiencia en particular y ahora se han agregado nuevas ofertas, los usuarios verán el nuevo contenido junto con las ofertas que se mostraron anteriormente. Debido a que anteriormente se han calificado para esas experiencias, todavía las verían durante la sesión. Si desea evaluar esto en cada visita a una página, debe cambiar al tipo de actividad de segmentación de experiencias (XT).
 
-## ¿Por qué los cambios realizados en las audiencias creadas mediante API no se reflejan en la interfaz de usuario de Target?   {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## ¿Por qué los cambios realizados en las audiencias creadas mediante API no se reflejan en la interfaz de usuario de Target?    {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 A diferencia de las ofertas y los scripts de perfil, los cambios realizados por API en las audiencias creadas mediante Target Standard no se sincronizan con la interfaz de usuario de Target.
 
