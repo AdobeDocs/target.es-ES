@@ -24,14 +24,14 @@ Revise la [documentación de ampliación de Adobe Experience Cloud Debugger](htt
 
 Los siguientes vídeos le guían a través del proceso de depuración:
 
-### Agregue la extensión Adobe Experience Cloud Debugger   ![Distintivo de información general](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
+### Agregue la extensión Adobe Experience Cloud Debugger    ![Distintivo de información general](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Depuración básica de Destinatarios con el distintivo de información general ![Adobe Experience Cloud Debugger](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Distintivo ![Información general de seguimiento de mbox](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Rastreo de mbox ![distintivo de información general](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
