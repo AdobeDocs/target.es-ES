@@ -112,7 +112,7 @@ La versión 59 de mbox presenta las siguientes mejoras:
 
    En lugar de usar `display:none` para ocultar la página, como en la versión 58, se utiliza el código `opacity:0`. De esta forma, se solucionan los problemas relacionados con los sitios interactivos provocados por el anterior método de ocultación de la página.
 
-## mbox.js versión 58   {#section_5070B0D1C87F4937BB97727923DD36C7}
+## mbox.js versión 58    {#section_5070B0D1C87F4937BB97727923DD36C7}
 
 **Versión de Target:** 15.7.1
 
@@ -147,7 +147,7 @@ Se han realizado los siguientes cambios en esta versión:
 
 * La respuesta de mbox global creada automáticamente para Target Standard ya no usa document.write() ni crea un `<div>` element.
 
-   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. Se recomienda un exhaustivo control de calidad al actualizar a esta nueva versión.
+   Esto elimina el requisito de que el archivo mbox.js sea el último elemento de la `<head>` página. Se recomienda un exhaustivo control de calidad al actualizar a esta nueva versión.
 
    Este cambio podría modificar el comportamiento a la hora de entregar algunos tipos de ofertas. Estas son las condiciones específicas que se deberán tener en cuenta:
 
