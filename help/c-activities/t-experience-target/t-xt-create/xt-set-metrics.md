@@ -54,7 +54,7 @@ Para obtener información detallada sobre las métricas de éxito, consulte  [M�
    | `-` | Menos |
    | `@` | Arroba |
 
-## Vídeo de formación: Métricas de actividad (7:43) ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Métricas de actividad (7:43)  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 
 Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
