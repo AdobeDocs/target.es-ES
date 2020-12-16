@@ -20,9 +20,9 @@ A veces puede que desee trabajar con un campo de varios valores. Veamos los sigu
 * Vendes entradas a conciertos. Un usuario determinado tiene varias bandas favoritas.
 * Vendes ropa. Hay una camisa disponible en varios tamaños.
 
-Para administrar las recomendaciones en estos escenarios, puede pasar datos de varios valores a operadores especiales de varios valores [!DNL Target Recommendations] y usarlos.
+Para administrar las recomendaciones en estos escenarios, puede pasar datos de varios valores a [!DNL Target Recommendations] y utilizar operadores especiales de varios valores.
 
-Para permitir [!DNL Recommendations] la identificación de datos de varios valores, debe enviarse como una matriz JSON, como en los ejemplos de código siguientes.
+Para permitir que [!DNL Recommendations] identifique datos de varios valores, debe enviarse como una matriz JSON, como en los ejemplos de código siguientes.
 
 ## Transmisión de un parámetro de varios valores en JavaScript
 
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-Para obtener más información, consulte [Implementación de atributos](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) de varios valores en atributos *de entidad* personalizados.
+Para obtener más información, consulte [Implementación de atributos de varios valores](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) en *Atributos de entidad personalizados*.
 
 ## Transmisión de un atributo de entidad de varios valores en un archivo CSV
 
@@ -60,7 +60,7 @@ Para obtener más información, consulte [Implementación de atributos](/help/c-
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Cuando se proporciona un atributo de entidad, un atributo de perfil o un parámetro de mbox como multivalor según el formato anterior, [!DNL Recommendations] se deduce automáticamente que el campo es de varios valores.
+Cuando se proporciona un atributo de entidad, un atributo de perfil o un parámetro de mbox como multivalor según el formato anterior, [!DNL Recommendations] deduce automáticamente que el campo es de varios valores.
 
 Los siguientes operadores están disponibles para su uso con atributos de entidad, perfil y mbox de varios valores:
 
@@ -97,7 +97,7 @@ Representación de la regla de inclusión de la API JSON:
 
 ### Ejemplo: Recomendar elementos de los favoritos del usuario
 
-Supongamos que desea recomendar entradas sólo para conciertos si la banda que toca es una de las bandas favoritas del usuario. En primer lugar, asegúrese de tener una variable de perfil llamada `profile.favoriteBands` que contenga las bandas favoritas del usuario. A continuación, asegúrese de que el catálogo incluye un atributo `entity.artistPerforming` que incluye al artista que realiza el concierto. A continuación, puede utilizar la siguiente regla de inclusión:
+Supongamos que desea recomendar entradas sólo para conciertos si la banda que toca es una de las bandas favoritas del usuario. En primer lugar, asegúrese de que tiene una variable de perfil denominada `profile.favoriteBands` que contiene las bandas favoritas del usuario. A continuación, asegúrese de que el catálogo incluye un atributo `entity.artistPerforming` que incluye al artista que realiza el concierto. A continuación, puede utilizar la siguiente regla de inclusión:
 
 ```
 `Profile Attribute Matching`
@@ -119,7 +119,7 @@ Representación de la regla de inclusión de la API JSON:
 
 ### Ejemplo: Creación de la API de criterios que recomiendan elementos de los favoritos de un usuario
 
-Los criterios que utilizan reglas de filtrado de varios valores, como todos los criterios, se pueden crear a través de las API de E/S de Adobe. A continuación se proporciona una llamada a API de ejemplo para crear un criterio en el que el atributo de entidad `id` esté contenido en la lista del parámetro de mbox `favorites` :
+Los criterios que utilizan reglas de filtrado de varios valores, como todos los criterios, se pueden crear a través de las API de Adobe I/O. Aquí se proporciona una llamada de API de ejemplo para crear un criterio en el que el atributo de entidad `id` está contenido en la lista del parámetro de mbox `favorites`:
 
 ```
 curl -X POST \
