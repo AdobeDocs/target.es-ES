@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Capítulo 5: Inspiración para pruebas y actividades de personalización.
 
-Estas ideas de prueba y personalización, inspiradas en actividades reales manejadas por nuestros clientes que han aumentado tasas de conversión e ingresos, valen la pena probar o usar como inspiración para sus propias [!DNL Target] actividades. Incluso si la idea no es exacta para su organización, con un poco de creatividad e intercambio de ideas, considere desarrollar una actividad basada en el espíritu de la idea de la prueba o personalización.
+Estas ideas de prueba y personalización, inspiradas en actividades reales administradas por nuestros clientes que han aumentado tasas de conversión e ingresos, vale la pena probar o usar como inspiración para sus propias actividades [!DNL Target]. Incluso si la idea no es exacta para su organización, con un poco de creatividad e intercambio de ideas, considere desarrollar una actividad basada en el espíritu de la idea de la prueba o personalización.
 
 ## Idea 1: Probar la personalización del viaje del cliente.
 
