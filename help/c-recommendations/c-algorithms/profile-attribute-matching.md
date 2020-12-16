@@ -12,28 +12,28 @@ ht-degree: 7%
 ---
 
 
-# ![Coincidencia de atributos de Perfil PREMIUM](/help/assets/premium.png)
+# ![Coincidencia de atributos ](/help/assets/premium.png) PREMIUMProfile
 
-Filtre dinámicamente en [!DNL Adobe Target][!DNL Recommendations] comparando elementos (entidades) con un valor en el perfil del usuario.
+Filtre dinámicamente en [!DNL Adobe Target] [!DNL Recommendations] comparando elementos (entidades) con un valor en el perfil del usuario.
 
-Utilice Coincidencia [!UICONTROL de atributos de] Perfil cuando desee mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita.
+Utilice [!UICONTROL Coincidencia de atributos de Perfil] cuando desee mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita.
 
 >[!NOTE]
 >
->The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>El proceso [para crear y utilizar reglas de inclusión](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) para criterios y promociones es similar, al igual que los casos de uso y los ejemplos.
 
-Los escenarios siguientes muestran cómo se puede utilizar la coincidencia de atributos de [!UICONTROL Perfil]:
+Los escenarios siguientes muestran cómo puede utilizar [!UICONTROL Coincidencia de atributos de Perfil]:
 
 * Una compañía que vende anteojos almacena el color de marco favorito de un visitante como &quot;nuez&quot;. Para ese visitante específico, las recomendaciones se configuran para devolver solo marcos de lentes que coincidan con &quot;nogal&quot; en color.
 * Se puede definir un parámetro de perfil para el tamaño de la ropa (por ejemplo, Pequeño, Medio o Grande) de un visitante a medida que navegue por el sitio web de la compañía. Se puede configurar una recomendación para que coincida con ese parámetro de perfil y devuelva productos específicos solo al tamaño de ropa preferido por el usuario.
 
 ## Ejemplos de coincidencia de atributos de perfil {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL La coincidencia] de atributos de perfil permite recomendar solo los elementos que coinciden con un atributo del perfil del visitante, como en los ejemplos siguientes.
+[!UICONTROL La ] coincidencia de atributos de perfil permite recomendar solo los elementos que coinciden con un atributo del perfil del visitante, como en los ejemplos siguientes.
 
 ### Recomendar artículos de la marca favorita del usuario
 
-For example, you can use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. Con una regla así, si un visitante está buscando pantalones de deporte cortos de una marca particular, solo se mostrarán las recomendaciones que coincidan con la marca favorita del usuario (el valor almacenado en `profile.favoritebrand` en el perfil del visitante).
+Por ejemplo, puede utilizar la opción [!UICONTROL Coincidencia de atributos de Perfil] para crear una regla que recomiende elementos sólo donde la marca sea igual al valor o al texto almacenado en `profile.favoritebrand`. Con una regla así, si un visitante está buscando pantalones de deporte cortos de una marca particular, solo se mostrarán las recomendaciones que coincidan con la marca favorita del usuario (el valor almacenado en `profile.favoritebrand` en el perfil del visitante).
 
 ![Marca favorita](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
 
@@ -59,9 +59,9 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 Para ver un ejemplo visual de cómo la coincidencia de atributos de perfil afecta a las recomendaciones, considere un sitio web que vende ventiladores eléctricos.
 
-Cuando un visitante hace clic en varias imágenes de seguidores en este sitio web, cada página establece el valor del `entity.size` parámetro en función de si el tamaño del ventilador de la imagen es pequeño o grande.
+Cuando un visitante hace clic en varias imágenes de seguidores en este sitio web, cada página establece el valor del parámetro `entity.size` en función de si el tamaño del ventilador en la imagen es pequeño o grande.
 
-Supongamos que ha creado una secuencia de comandos de perfil para rastrear y contar el número de veces que el valor de `entity.size` se establece en pequeño vs. grande.
+Supongamos que ha creado una secuencia de comandos de perfil para rastrear y contar el número de veces que el valor de `entity.size` se ha definido en pequeño vs. grande.
 
 Si el visitante regresa a la Página de inicio, verá las recomendaciones filtradas en función de si se hizo clic en más seguidores pequeños o grandes.
 
