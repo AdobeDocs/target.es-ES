@@ -1,10 +1,10 @@
 ---
-keywords: promotions;front promotions;back promotions;promotions type
+keywords: promotions;front promotions;back promotions;promotions type;list of items;promote by attribute;promote a collection
 description: Añada elementos promocionados y controle su ubicación en sus diseños de Recommendations de Adobe Target. Puede añadir promociones estáticas y dinámicas.
 title: Agregue promociones en diseños de Recommendations de Adobe Target.
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: e07a457339509d1019cdd241ef3adfbb17ffafaa
+source-git-commit: 180a8064019e8d4a44db13923aad7422f67ccf3f
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 60%
@@ -14,7 +14,7 @@ ht-degree: 60%
 
 # ![PREMIUM](/help/assets/premium.png) Añadir promociones
 
-Añada elementos promocionados y controle su ubicación en sus diseños de Recommendations. Puede añadir promociones estáticas y dinámicas.
+Añada elementos promocionados y controle su ubicación en sus diseños de Recommendations de Adobe Target. Puede añadir promociones estáticas y dinámicas.
 
 >[!IMPORTANT]
 >
@@ -58,15 +58,13 @@ Puede promocionar elementos concretos del modo habitual o de forma dinámica, as
    * Seleccione **[!UICONTROL Promocionar una colección]** y elija la colección de elementos que desea promocionar.
 
       Puede crear nuevas colecciones para utilizarlas en las promociones. Consulte [Crear una colección](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) para obtener más información.
-   Si ha seleccionado **[!UICONTROL Lista de elementos]** como tipo **[!UICONTROL de]** promoción, active la casilla de verificación Orden **** aleatorio del elemento, si lo desea.
+   Si ha seleccionado **[!UICONTROL Lista de elementos]** como tipo **[!UICONTROL de]** promoción, puede seleccionar la casilla de verificación Orden **** aleatorio del elemento, si lo desea.
 
-   El orden de clasificación predeterminado para la [!UICONTROL Lista de elementos] se basa en el orden especificado en la IU o API de Destinatario.
-
-   If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
+   El orden de clasificación predeterminado para la [!UICONTROL Lista de elementos] se basa en el orden especificado en la IU o API de Destinatario. If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
 
    Si las entidades no tienen un `entity.value` atributo (por ejemplo, no vende productos), puede pasar un valor numérico al `entity.value` atributo, como la fecha de publicación. En este caso, los elementos promocionados se pueden promocionar en función de la fecha de publicación más reciente, en orden descendente. El `entity.value` atributo es de tipo doble; no acepta cadenas.
 
-   Si ha seleccionado la opción [!UICONTROL Promocionar por atributo] o [!UICONTROL Promocionar una colección] , la opción para aleatorizar el pedido no es aplicable.
+   Si ha seleccionado la opción **[!UICONTROL Promocionar por atributo]** o **[!UICONTROL Promocionar una colección]** , la opción para aleatorizar el pedido no es aplicable.
 
    Al promocionar elementos específicos mediante las opciones [!UICONTROL Promocionar por atributo] o [!UICONTROL Promocionar una colección] , el orden predeterminado en el que se presentan los elementos se basa en el `entity.value` atributo, en orden numérico descendente.
 
@@ -75,9 +73,9 @@ Puede promocionar elementos concretos del modo habitual o de forma dinámica, as
    | Tipo de promoción | Orden predeterminado | Orden de copia de seguridad | Opción de filtrado dinámico |
    | --- | --- | --- | --- |
    | Lista de elementos | Orden introducido en la interfaz de usuario/API de Destinatario | Aleatorio (cuando se selecciona mediante la interfaz de usuario/API) | No |
-   | Promocionar por atributo | entity.value (orden descendente) | Se aleatorizan en cada solicitud (cuando no hay ningún atributo entity.value presente) | No |
-   | Promocionar una colección | entity.value (orden descendente) | Se aleatorizan en cada solicitud (cuando no hay ningún atributo entity.value presente) | No |
+   | Promocionar por atributo | `entity.value` (orden descendente) | Se aleatorizan en cada solicitud (cuando no hay ningún `entity.value` atributo presente) | Sí |
+   | Promocionar una colección | `entity.value` (orden descendente) | Se aleatorizan en cada solicitud (cuando no hay ningún `entity.value` atributo presente) | No |
 
-1. Haga clic en **[!UICONTROL Guardar.]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 Las promociones se aplican a todas las experiencias de la actividad.
