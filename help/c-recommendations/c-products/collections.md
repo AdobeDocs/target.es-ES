@@ -42,7 +42,7 @@ Cree una colección para organizar los productos o el contenido que desee mostra
 
    ![Lista de colecciones](assets/collections_list.png)
 
-   La página [!UICONTROL Colecciones] muestra una lista de las colecciones existentes. Para crear nuevas colecciones, haga clic en el botón [!UICONTROL Crear colección] . También puede editar, copiar y eliminar colecciones existentes pasando el ratón sobre la colección deseada y haciendo clic en el icono deseado.
+   La página [!UICONTROL Colecciones] muestra una lista de las colecciones existentes. Para crear nuevas colecciones, haga clic en el botón [!UICONTROL Crear colección]. También puede editar, copiar y eliminar colecciones existentes pasando el ratón sobre la colección deseada y haciendo clic en el icono deseado.
 
    ![Iconos al pasar el ratón: editar, copiar y eliminar](/help/c-recommendations/c-products/assets/hover-icons.png)
 
@@ -98,11 +98,11 @@ Tenga en cuenta que las colecciones están disponibles en toda la cuenta. Asegú
 
    ![Elija la opción de colección](/help/c-recommendations/c-products/assets/choose-collection.png)
 
-1. (Condicional) Para cambiar una configuración de colección existente, en la página **[!UICONTROL Experiencias]** (paso 2 del flujo de trabajo guiado de tres partes), haga clic en una ubicación en la que haya colocado las recomendaciones, haga clic en **[!UICONTROL Cambiar colección]** y seleccione la colección deseada.
+1. (Condicional) Para cambiar una configuración de colección existente, en la página **[!UICONTROL Experiencias]** (paso 2 del flujo de trabajo guiado de tres partes), haga clic en una ubicación en la que haya colocado las recomendaciones, haga clic en **[!UICONTROL Cambiar colección]** y seleccione la colección que desee.
 
    ![Cambiar colección, opción](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de capacitación: Crear colecciones y exclusiones en Recommendations (7:05) ![distintivo de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
