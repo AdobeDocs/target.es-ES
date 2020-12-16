@@ -36,7 +36,7 @@ Estos son algunos escenarios en los que podría experimentar variaciones de dato
 
    Para ver una lista completa de tipos de actividad compatibles con A4T, consulte [Tipos de actividades compatibles](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
-## Variaciones de datos previstas al *no usar* A4T  {#expected-not-using-a4t}
+## Variaciones de datos previstas al *no usar* A4T   {#expected-not-using-a4t}
 
 Es normal encontrar unas variaciones de entre el 15 y el 20%, incluso en conjuntos de datos similares. Los sistemas que realizan recuentos de manera distinta pueden arrojar unas variaciones de datos mucho mayores, de incluso entre el 35 y el 50%. En algunas ocasiones, estas variaciones pueden ser aún más acusadas.
 
@@ -48,7 +48,7 @@ Los informes de [!DNL Target] muestran el rendimiento según el mbox de conversi
 
 Las variaciones de datos previstas pueden estar originadas por variaciones de índole tanto técnica como empresarial.
 
-### Ejemplos de variaciones técnicas  {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### Ejemplos de variaciones técnicas   {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 A continuación se indican las situaciones que pueden desembocar en variaciones de datos debido a diferencias técnicas:
 
@@ -58,7 +58,7 @@ A continuación se indican las situaciones que pueden desembocar en variaciones 
 * Consideraciones de zona horaria
 * Diferencias en las que se pueden contar dispositivos
 
-### Ejemplos de variaciones empresariales.  {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Ejemplos de variaciones empresariales.   {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 A continuación se indican las situaciones que pueden desembocar en variaciones de datos debido a diferencias empresariales:
 
