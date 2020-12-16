@@ -34,7 +34,7 @@ Puede editar o copiar una carpeta u oferta pasando el puntero sobre el elemento 
 
 ![](assets/offer-picker-large.png)
 
-## Visualización de definiciones de oferta   {#section_6B059DD121434E6292CAB393507D010E}
+## Visualización de definiciones de oferta    {#section_6B059DD121434E6292CAB393507D010E}
 
 Puede ver los detalles de una definición de oferta en forma de tarjeta emergente en la biblioteca de ofertas, sin necesidad de abrir la oferta.
 
@@ -86,7 +86,7 @@ Está disponible la siguiente información:
 * Tipo de URL de redireccionamiento
 * URL absoluta o relativa
 
-## Vídeo de formación: El repositorio de contenido ![Distintivo de información general](/help/assets/overview.png)
+## Vídeo de formación: El repositorio de contenido  ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo incluye información sobre la administración de ofertas.
 
