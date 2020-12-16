@@ -62,7 +62,7 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 
 * **Tamaño máximo de archivo para cada carga mediante el método** HTTP: 100 MB.
 * **tamaño máximo de archivo para cada carga mediante el método** FTP: 4 GB.
-* **Número de atributos permitidos para la suscripción**: 5 para [!DNL Target Standard] y 200 para [!DNL Target Premium].
+* **Número de atributos permitidos para la suscripción**: 5 para  [!DNL Target Standard] y 200 para  [!DNL Target Premium].
 
 ## Entidades
 
@@ -204,7 +204,7 @@ El sistema truncará lo que supere este límite.
 
 **Límite recomendado del total de secuencias de comandos de perfil por cuenta**: 2.000
 
-**Recommendations para limitar la complejidad** del script de perfil: Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas](/help/c-target/c-visitor-profile/profile-parameters.md#best) recomendadas en atributos *de* Perfil.
+**Recommendations para limitar la complejidad** del script de perfil: Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) en *Atributos de Perfil*.
 
 ## Propiedades
 
