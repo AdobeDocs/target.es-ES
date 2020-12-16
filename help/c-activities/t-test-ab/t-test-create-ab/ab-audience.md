@@ -48,7 +48,7 @@ También puede elegir que Target  [asigne el tráfico automáticamente](/help/c-
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Uso de audiencias en Adobe Target (6:21) ![Distintivo de información general](/help/assets/overview.png)
+### Uso de audiencias en Adobe Target (6:21)  ![Distintivo de información general](/help/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
@@ -60,7 +60,7 @@ En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Pr
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Flujo de trabajo de actividad: distintivo de ![tutorial de objetivo (2:14)](/help/assets/tutorial.png)
+### Flujo de trabajo de actividad - Segmentación (2:14) ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre cómo configurar las audiencias.
 
