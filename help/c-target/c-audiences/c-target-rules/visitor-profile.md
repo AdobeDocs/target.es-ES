@@ -43,7 +43,7 @@ Cree audiencias para segmentar visitantes que cumplan parámetros de perfil espe
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Vídeo de capacitación: Creando distintivo ![Información general de Audiencias](/help/assets/overview.png)
+## Vídeo de capacitación: Creando distintivo de Audiencias ![Información general](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
