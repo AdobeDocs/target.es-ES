@@ -16,7 +16,7 @@ ht-degree: 91%
 
 La [!UICONTROL prueba multivariada] (MVT) en [!DNL Adobe Target] compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 
-## MVT overview {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## Información general de MVT {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 Las pruebas multivariable sirven para descubrir la influencia relativa que cada elemento tiene en la conversión en comparación con otros elementos de la página. También sirven para acotar una combinación de elementos que han demostrado ser eficaces.
 
@@ -32,7 +32,7 @@ En Target, cada combinación es una experiencia. La prueba multivariable compara
 
 Debido al número de combinaciones que se puede generar, una prueba multivariable requiere más tiempo y tráfico que una prueba A/B. La página debe recibir tráfico suficiente para generar resultados relevantes estadísticamente para cada experiencia. Para obtener resultados útiles, debe conocer la cantidad de tráfico que recibe su página y probar el número óptimo de combinaciones durante la cantidad adecuada de tiempo, a fin de obtener los resultados deseados. El [estimador de tráfico](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de Target puede ayudarle a diseñar una prueba que funcione con su tráfico. Antes de usar el estimador de tráfico, debe disponer de estadísticas fiables que muestren el número de impresiones y conversiones que normalmente recibe su sitio. Considere los niveles de tráfico por día. Cuantas más experiencias haya en una actividad, la actividad deberá incluir más tráfico o deberá ejecutarse durante más tiempo. Si su tráfico no es muy elevado, deberá probar un pequeño número de combinaciones; de lo contrario, se necesitará demasiado tiempo para que la prueba genere resultados significativos y resulte útil.
 
-## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
+## Terminología MVT {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
 Cuando configure una prueba multivariable, le resultará útil conocer alguna terminología básica.
 
@@ -46,7 +46,7 @@ Hay varios términos que se utilizan de manera distinta en el sector. En esta se
 
 **Ubicación:** área específica de contenido en una página, a menudo incluida en un solo elemento de DOM. En la metodología de las pruebas MVT, la ubicación a menudo se denomina *factor*. Una prueba multivariable factorial completa compara todas las combinaciones posibles de las ofertas en las ubicaciones.
 
-## When to use MVT vs A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## Cuándo utilizar MVT frente a A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B para optimizar la página. Estos son algunos ejemplos de cuándo puede interesarle usar las dos pruebas:
 
@@ -72,7 +72,7 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
 
 ## Pruebas parciales-factoriales
 
-[!DNL Target] ofrece pruebas multivariable totalmente factoriales como opción de actividad integrada. En estadística, Diseño de experimentos ofrece muchos enfoques, o diseños, para determinar qué factores influyen en los resultados. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Taguchi permite a los expertos en marketing realizar una serie de suposiciones que limitan el número de permutaciones de experiencias que se deben probar, lo que a su vez reduce los requisitos de tráfico para una prueba multivariable. Esta funcionalidad y enfoque de prueba puede aprovecharse en [!DNL Target] con esta [hoja de cálculo sin conexión](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+[!DNL Target] ofrece pruebas multivariable totalmente factoriales como opción de actividad integrada. En estadística, Diseño de experimentos ofrece muchos enfoques, o diseños, para determinar qué factores influyen en los resultados. Uno de estos métodos es el [Método Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) para pruebas factoriales parciales. Taguchi permite a los expertos en marketing realizar una serie de suposiciones que limitan el número de permutaciones de experiencias que se deben probar, lo que a su vez reduce los requisitos de tráfico para una prueba multivariable. Esta funcionalidad y enfoque de prueba puede aprovecharse en [!DNL Target] con esta [hoja de cálculo sin conexión](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Si su equipo utiliza otros enfoques de Diseño de experimentos, puede utilizar esta hoja de cálculo como implementación de referencia para diseños de experimentos personalizados.
 
@@ -90,7 +90,7 @@ Para obtener más consideraciones y prácticas recomendadas, consulte [Práctica
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Distintivo ![Información general de tipos de actividades (9:03)](/help/assets/overview.png)
+### Tipos de actividades (9:03) ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo de información general explica los tipos de actividad disponibles en Target Standard/Premium. Las pruebas multivariable se describen a partir del minuto 4:20.
 
@@ -100,7 +100,7 @@ Este vídeo de información general explica los tipos de actividad disponibles e
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Creación de una insignia de ![tutorial para pruebas multivariable (9:25)](/help/assets/tutorial.png)
+### Creación de pruebas multivariable (9:25) ![distintivo de tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica qué es una prueba multivariable, cómo planificarla y cómo crearla siguiendo el flujo de trabajo guiado de tres pasos de Target.
 
