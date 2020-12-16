@@ -14,7 +14,7 @@ ht-degree: 72%
 
 # ![PREMIUM](/help/assets/premium.png) Informes Resumen de personalización automatizada{#automated-personalization-summary-reports}
 
-Specialized reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
+Los usuarios de actividades [!UICONTROL Automated Personalization] pueden obtener informes especializados en [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Las reglas estándar de interpretación de resultados para prueba A/B aún se ap
 
 El informe [!UICONTROL Nivel de oferta] para la experiencia de bosque aleatorio compara el rendimiento de cada oferta que tiene un algoritmo aplicado con la misma oferta suministrada de manera aleatoria (control). De esta manera, las ofertas no deberían comprarse entre sí en esta vista.
 
-Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
+Haga clic en el algoritmo de experiencia (bosque aleatorio o control) para vista del informe [!UICONTROL Nivel de Oferta].
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -52,16 +52,16 @@ Las ofertas se pueden mostrar dentro de grupos de informes, que se pueden contra
 
 ## Segmentos automatizados
 
-Haga clic en el icono Segmentos  automatizados. Este informe muestra cómo los diferentes visitantes responden de manera diferente a las ofertas y experiencias de su actividad AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
+Haga clic en el icono [!UICONTROL Segmentos automatizados]. Este informe muestra cómo los diferentes visitantes responden de manera diferente a las ofertas y experiencias de su actividad AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
 
 ![Icono de segmentos automatizados](/help/c-reports/assets/icon-automated-sements-ap.png)
 
-Para obtener más información, consulte el informe [Segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados.
+Para obtener más información, consulte [Informe Segmentos automatizados](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Atributos importantes
 
-Haga clic en el icono Atributos  importantes. Este informe muestra cómo, en diferentes actividades, los diferentes atributos son más (o menos) importantes para la forma en que el modelo decide personalizar. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa.
+Haga clic en el icono [!UICONTROL Atributos importantes]. Este informe muestra cómo, en diferentes actividades, los diferentes atributos son más (o menos) importantes para la forma en que el modelo decide personalizar. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa.
 
 ![Icono de atributos importantes](/help/c-reports/assets/icon-important-attributes-ap.png)
 
-Para obtener más información, consulte el informe [Atributos](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importantes.
+Para obtener más información, consulte [Informe de atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
