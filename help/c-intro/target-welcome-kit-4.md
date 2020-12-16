@@ -14,37 +14,37 @@ ht-degree: 0%
 
 # Capítulo 4: Sugerencias para el uso de Destinatario
 
-En base a nuestro trabajo con muchos [!DNL Target] usuarios, hemos observado maneras de obtener más valor de su [!DNL Target] solución. Hemos resumido estas sugerencias en las muchas sugerencias que hemos incluido en este capítulo. Aunque quizá no estés listo para usar todas estas ideas de inmediato, sigue con esta lista. Cuanta más experiencia tenga con la solución y cuanto más madure su programa, más podrá ver cómo estos consejos le ayudarán a conseguir más con [!DNL Target].
+En base a nuestro trabajo con muchos usuarios [!DNL Target], hemos observado maneras de obtener más valor de su solución [!DNL Target]. Hemos resumido estas sugerencias en las muchas sugerencias que hemos incluido en este capítulo. Aunque quizá no estés listo para usar todas estas ideas de inmediato, sigue con esta lista. Cuanta más experiencia tenga con la solución y cuanto más madure su programa, más podrá ver cómo estos consejos le ayudarán a lograr más con [!DNL Target].
 
 ## Sugerencia 1: Profundizar la personalización aumentando el perfil de visitante con datos adicionales.
 
-Puede personalizar las experiencias con [!DNL Target] los datos de inmediato. Pero personalice más profundamente agregando sus propios datos a la combinación. Puede aumentar el perfil con datos históricos [!DNL Adobe Analytics] y datos en tiempo real [!DNL Adobe Audience Manager]. También puede utilizar Atributos del cliente, una función del servicio principal Personas de [!DNL Adobe Experience Cloud], para introducir fácilmente datos de CRM, datos de socios de terceros y datos adquiridos por terceros en [!DNL Target].
+Puede personalizar experiencias con [!DNL Target] datos directamente desde el principio. Pero personalice más profundamente agregando sus propios datos a la combinación. Puede aumentar su perfil con datos históricos de [!DNL Adobe Analytics] y datos en tiempo real de [!DNL Adobe Audience Manager]. También puede utilizar Atributos del cliente, una característica del servicio principal Personas de [!DNL Adobe Experience Cloud], para incorporar fácilmente datos de CRM, datos de socios de terceros y datos adquiridos por terceros a [!DNL Target].
 
-Por ejemplo, puede asociar los datos de compra del sistema del punto de venta con un perfil de visitante. Para ello, solo tiene que crear un archivo CSV con un máximo de 200 variables sin conexión y cargarlo directamente en [!DNL Adobe Experience Cloud] un archivo mediante la carga o utilizar FTP para alojar y programar la actualización del archivo con regularidad. Una vez que los atributos del cliente se encuentren en [!DNL Adobe Experience Cloud], puede asignarlos a [!DNL Experience Cloud] soluciones como [!DNL Adobe Analytics] y [!DNL Target] dónde estarán disponibles para análisis, pruebas y personalización.
+Por ejemplo, puede asociar los datos de compra del sistema del punto de venta con un perfil de visitante. Para ello, solo tiene que crear un archivo CSV con hasta 200 variables sin conexión y cargarlo directamente en [!DNL Adobe Experience Cloud] mediante una carga de archivo, o bien utilizar FTP para alojar y programar la actualización del archivo con regularidad. Una vez que los atributos del cliente se encuentren en [!DNL Adobe Experience Cloud], puede asignarlos a [!DNL Experience Cloud] soluciones como [!DNL Adobe Analytics] y [!DNL Target], donde estarán disponibles para análisis, pruebas y personalización.
 
-Consulte Atributos [](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) personalizados para obtener instrucciones paso a paso.
+Consulte [Atributos personalizados](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) para obtener instrucciones paso a paso.
 
-**Es bueno saber**: Dado que [!DNL Target] es una plataforma abierta y agnóstica que funciona bien con diferentes tecnologías, puede agregar CRM o datos adquiridos de muchas maneras diferentes. Esto significa que puede elegir un método que funcione mejor para su organización.
+**Es bueno saber**: Dado que  [!DNL Target] es una plataforma abierta y agnóstica que funciona bien con diferentes tecnologías, puede agregar CRM o datos adquiridos de muchas maneras diferentes. Esto significa que puede elegir un método que funcione mejor para su organización.
 
 Consulte [Métodos para obtener datos en Destinatario](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) para obtener más información.
 
 ## Sugerencia 2: Personalice más profundamente mezclando audiencias de Destinatario con otras audiencias de Adobe Experience Cloud.
 
-La combinación de audiencias que viven en diferentes [!DNL Adobe Experience Cloud] soluciones puede proporcionarle una comprensión mucho más amplia de sus clientes, así como la capacidad de personalizar más profundamente. Por ejemplo, aunque [!DNL Target] proporciona datos de audiencia en tiempo real, [!DNL Adobe Analytics] proporciona datos de audiencia históricos. La combinación de ambos puede ayudarle a identificar cuándo el comportamiento de un cliente es coherente y cuándo puede haber una oportunidad para actuar en un nuevo comportamiento. Simplemente haga clic en el menú desplegable situado junto a &quot;Todos los Visitantes&quot; al crear una actividad. A continuación, marque las casillas de hasta veinte audiencias, haga clic en &quot;Combinar varias Audiencias&quot; y en &quot;Guardar&quot;.
+La combinación de audiencias que viven en diferentes soluciones [!DNL Adobe Experience Cloud] puede proporcionarle una comprensión mucho más amplia de sus clientes, así como la capacidad de personalizar más profundamente. Por ejemplo: aunque [!DNL Target] proporciona datos de audiencia en tiempo real, [!DNL Adobe Analytics] proporciona datos de audiencia históricos. La combinación de ambos puede ayudarle a identificar cuándo el comportamiento de un cliente es coherente y cuándo puede haber una oportunidad para actuar en un nuevo comportamiento. Simplemente haga clic en el menú desplegable situado junto a &quot;Todos los Visitantes&quot; al crear una actividad. A continuación, marque las casillas de hasta veinte audiencias, haga clic en &quot;Combinar varias Audiencias&quot; y en &quot;Guardar&quot;.
 
 Consulte [Combinación de varias audiencias](/help/c-target/combining-multiple-audiences.md) para obtener instrucciones paso a paso.
 
-**Es bueno saber**: [!DNL Adobe Audience Manager] Las audiencias están disponibles en [!DNL Target] forma automática. Pero compartir [!DNL Adobe Analytics] audiencias requiere un poco de configuración manual. Simplemente marque la casilla rotulada &quot;Convertir esto en una audiencia Experience Cloud&quot; durante el proceso de creación de audiencias en [!DNL Analytics]. A continuación, en [!DNL Target], haga clic en &quot;Importar audiencias de Experience Cloud&quot;.
+**Es bueno saber**:  [!DNL Adobe Audience Manager] Las audiencias están disponibles de  [!DNL Target] forma automática. Sin embargo, el uso compartido de la audiencia [!DNL Adobe Analytics] requiere un poco de configuración manual. Simplemente marque la casilla rotulada &quot;Convertir esto en una audiencia Experience Cloud&quot; durante el proceso de creación de audiencias en [!DNL Analytics]. A continuación, en [!DNL Target], haga clic en &quot;Importar audiencias de Experience Cloud&quot;.
 
 ## Sugerencia 3: Exporte datos de Destinatario para utilizarlos con herramientas de terceros.
 
-Con los tokens de respuesta, los administradores pueden extraer datos fácilmente de [!DNL Target] y en herramientas de terceros. Esto puede resultar útil cuando desee agregar los datos a los datos recopilados en una herramienta de encuesta. Por ejemplo, si una encuesta muestra una muestra de una población con una puntuación de &quot;9&quot; en una experiencia y otra con una puntuación de &quot;4&quot; en una experiencia, puede utilizar sus datos para ver quién vio la experiencia A y quién vio la experiencia B. También puede utilizar tokens de respuesta para exportar [!DNL Target] datos al almacén de datos interno. Haga clic en &quot;Administración&quot; y, a continuación, coloque el conmutador junto al testigo de respuesta deseado en la posición ON. A continuación, cree una actividad. Los datos están listos para transferirse al proveedor externo. Puede comprobar que [!DNL Target] está exportando los datos mediante las herramientas de depuración.
+Con los tokens de respuesta, los administradores pueden obtener datos fácilmente de [!DNL Target] y a herramientas de terceros. Esto puede resultar útil cuando desee agregar los datos a los datos recopilados en una herramienta de encuesta. Por ejemplo, si una encuesta muestra una muestra de una población con una puntuación de &quot;9&quot; en una experiencia y otra con una puntuación de &quot;4&quot; en una experiencia, puede utilizar sus datos para ver quién vio la experiencia A y quién vio la experiencia B. También puede utilizar tokens de respuesta para exportar [!DNL Target] datos al almacén de datos interno. Haga clic en &quot;Administración&quot; y, a continuación, coloque el conmutador junto al testigo de respuesta deseado en la posición ON. A continuación, cree una actividad. Los datos están listos para transferirse al proveedor externo. Puede verificar que [!DNL Target] esté exportando los datos mediante herramientas de depuración.
 
-Consulte los tokens de [respuesta](/help/administrating-target/response-tokens.md) para obtener instrucciones paso a paso.
+Consulte [Tokens de respuesta](/help/administrating-target/response-tokens.md) para obtener instrucciones paso a paso.
 
-**Sugerencia**&#x200B;útil: Antes de que un administrador pueda activar un token de respuesta asociado a un tercero, un desarrollador debe establecer una asociación con esa compañía de terceros.
+**Sugerencia** útil: Antes de que un administrador pueda activar un token de respuesta asociado a un tercero, un desarrollador debe establecer una asociación con esa compañía de terceros.
 
-Consulte los tokens de [respuesta](/help/administrating-target/response-tokens.md) para obtener instrucciones paso a paso.
+Consulte [Tokens de respuesta](/help/administrating-target/response-tokens.md) para obtener instrucciones paso a paso.
 
 **Haga esto primero**: Asegúrese de que está utilizando la versión 1.1 o posterior de at.js. Si utiliza una versión anterior, verá los tokens de respuesta, pero at.js no podrá utilizarlos.
 
@@ -62,37 +62,37 @@ Al crear audiencias para objetivos o probar promociones y ofertas, considere pri
 
 Facilite el trabajo con los datos de su organización y mantenerlos seguros. [!DNL Target Premium] permite a los administradores controlar el nivel de acceso dado a diferentes equipos internos y externos.
 
-Consulte Permisos [de usuario de](/help/administrating-target/c-user-management/property-channel/property-channel.md) Enterprise para obtener más información.
+Consulte [Permisos de usuario de Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) para obtener más información.
 
-**Sugerencia**&#x200B;útil: Al agregar usuarios, si el nombre de un miembro del equipo no se ha agregado previamente a su organización, como puede ser el caso de un empleado de una agencia de terceros, al introducir su dirección de correo electrónico y contraseña, se activará una invitación por correo electrónico para unirse al espacio de trabajo de un equipo.
+**Sugerencia** útil: Al agregar usuarios, si el nombre de un miembro del equipo no se ha agregado previamente a su organización, como puede ser el caso de un empleado de una agencia de terceros, al introducir su dirección de correo electrónico y contraseña, se activará una invitación por correo electrónico para unirse al espacio de trabajo de un equipo.
 
-¿Usar Target Standard? Todavía puede [asignar tres niveles de acceso](/help/administrating-target/c-user-management/c-user-management/user-management.md) para los usuarios con funciones de solo lectura, editor y aprobador.
+¿Usar Target Standard? Todavía puede [asignar tres niveles de acceso](/help/administrating-target/c-user-management/c-user-management/user-management.md) para sus usuarios con funciones de solo lectura, editor y aprobador.
 
 ## Sugerencia 6: Descubrir el rendimiento de una oferta a lo largo de un viaje del cliente probándola en cada página del viaje.
 
 Ver el rendimiento de una oferta, como el envío gratuito, durante un viaje del cliente que tiene lugar en varias páginas del sitio web.
 
-Consulte actividad [de](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) varias páginas para obtener instrucciones paso a paso.
+Consulte [actividad de varias páginas](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) para obtener instrucciones paso a paso.
 
-**Sugerencia**&#x200B;útil: Si cambia la dirección URL después de especificar un intervalo de páginas, se restablecerá la experiencia. Esto significa que las variaciones especificadas ya no aparecerán. Si necesita cambiar la dirección URL, recuerde redefinir la experiencia.
+**Sugerencia** útil: Si cambia la dirección URL después de especificar un intervalo de páginas, se restablecerá la experiencia. Esto significa que las variaciones especificadas ya no aparecerán. Si necesita cambiar la dirección URL, recuerde redefinir la experiencia.
 
 ## Sugerencia 7: Pruebe una oferta con diferentes audiencias para descubrir si las audiencias tienen preferencias diferentes.
 
 Con las versiones de experiencia, puede ejecutar una prueba con variaciones para tantas audiencias como desee. Por ejemplo, puede crear una publicidad tipo titular que ofrezca envío gratuito (con imágenes y variaciones de moneda para los clientes de EE.UU., Reino Unido y EE.UU.) sin tener que ejecutar pruebas para tres audiencias diferentes.
 
-Consulte para ver las audiencias de [varias experiencias en una prueba](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) A/B y las versiones de [experiencias en Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) para obtener instrucciones paso a paso.
+Consulte las [audiencias de varias experiencias en una prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) y [Versiones de experiencias en Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) para obtener instrucciones paso a paso.
 
 ## Sugerencia 8: Ahorre tiempo replicando experiencias de actividad en páginas similares.
 
 Cree una variación en una página web, como un nuevo color de botón, y aplíquelo automáticamente a todas las páginas que compartan la misma plantilla. Puede especificar páginas o aplicar las variaciones a todas las páginas similares del sitio web.
 
-Consulte [Incluir la misma experiencia en páginas](/help/c-experiences/c-visual-experience-composer/temtest.md) similares para obtener instrucciones paso a paso.
+Consulte [Incluir la misma experiencia en páginas similares](/help/c-experiences/c-visual-experience-composer/temtest.md) para obtener instrucciones paso a paso.
 
 ## Sugerencia 9: Reduzca el desorden en la biblioteca de Audiencias mediante la creación de audiencias únicas.
 
 Si está dirigiendo un segmento que sabe que no volverá a tener destinatarios (por ejemplo, los clientes afectados por un evento meteorológico inesperado), la creación de una audiencia de un solo uso puede ayudarle a realizar el trabajo sin agregar más desorden a la biblioteca de Audiencias. Esto facilita la búsqueda de audiencias que se usan una y otra vez.
 
-Consulte [Creación de una audiencia](/help/c-target/creating-activity-only-audience.md) de solo actividad para obtener instrucciones paso a paso.
+Consulte [Creación de una audiencia de solo actividad](/help/c-target/creating-activity-only-audience.md) para obtener instrucciones paso a paso.
 
 **Capacidad** muy solicitada: Nuestros clientes nos pidieron que pudiéramos evitar que las audiencias de un solo uso se guardaran automáticamente en la Biblioteca de Audiencias. Ahora, ya no tienen que eliminar audiencias manualmente para mantener sus bibliotecas organizadas.
 
@@ -100,7 +100,7 @@ Consulte [Creación de una audiencia](/help/c-target/creating-activity-only-audi
 
 No hay nada peor que tener una actividad lista para ir y luego esperar semanas para que complete el proceso estándar de control de calidad. Puede realizar el control de calidad de la mayoría de las actividades simplemente pasando algunos vínculos de control de calidad a compañeros para probarlos en varios exploradores. Lo más probable es que quiera realizar más pruebas de control de calidad para los esfuerzos que cambian radicalmente la función del sitio, pero en realidad debería tener menos de esas actividades y muchas más de las actividades más básicas. Añadir mejores controles de derechos para que menos personas puedan impulsar las cosas en plena vida también añade límites significativos y le permite lograr lo que necesita sin sacrificar la velocidad y la eficiencia. Otra opción es contar con un recurso de TI designado para supervisar oportunamente el proceso de control de calidad.
 
-Consulte Control de calidad de [Actividad](/help/c-activities/c-activity-qa/activity-qa.md) para obtener instrucciones paso a paso.
+Consulte [Control de calidad de la Actividad](/help/c-activities/c-activity-qa/activity-qa.md) para obtener instrucciones paso a paso.
 
 ## Sugerencia 11: Ejecute pruebas en páginas de mucho tráfico para que alcancen más rápidamente la relevancia estadística.
 
@@ -110,7 +110,7 @@ Muchos especialistas en mercadotecnia inician programas de optimización para se
 * ¿Cuál es la tasa de conversión de la página?
 * ¿Cuánto tiempo espera que tenga que ejecutar la prueba antes de que pueda llamarla completa con confianza?
 
-**Sugerencia**&#x200B;útil: Utilice la calculadora [de tamaño de la](https://docs.adobe.com/content/target-microsite/testcalculator.html) muestra de Destinatario para determinar el tamaño de la muestra necesario para una prueba correcta.
+**Sugerencia** útil: Utilice el  [calculador de tamaño de ](https://docs.adobe.com/content/target-microsite/testcalculator.html) muestra de Destinatario para determinar el tamaño de la muestra necesario para una prueba correcta.
 
 ## Sugerencia 12: Diseñe pruebas más sencillas para asegurarse de que puede crearlas e implementarlas.
 
