@@ -36,7 +36,7 @@ Destinatario recibe la dirección IP completa y la confunde (si se establece en 
 
 >[!NOTE]
 >
->[Póngase en contacto con Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para determinar qué configuración está utilizando actualmente o para habilitar la función de confusión de IP.
+>[Póngase en contacto con el ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) servicio de atención al cliente de Adobe para determinar qué configuración está utilizando actualmente o para habilitar la función de confusión de IP.
 
 ## Segmentación geográfica {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -44,7 +44,7 @@ Si habilita la sustitución del último octeto de la dirección IP, los valores 
 
 Si las direcciones IP se ocultan por completo, la segmentación geográfica y el direccionamiento geográfico no estarán disponibles.
 
-## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Vínculo de exclusión {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 Puede añadir un vínculo de no participación a sus sitios para permitir que los visitantes renuncien a los recuentos y la publicación de contenido.
 
@@ -59,4 +59,4 @@ Aunque utilice una implementación de cookies de origen, la posibilidad de exclu
 
 ## Reglamentos de protección de datos y privacidad
 
-See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union&#39;s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
+Consulte [Regulaciones de privacidad y protección de datos](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) para obtener información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de Privacidad del Consumidor de California (CCPA) y otros requerimientos internacionales de privacidad, y cómo estas regulaciones afectan a su organización y a Adobe Target.
