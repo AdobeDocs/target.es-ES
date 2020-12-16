@@ -21,9 +21,9 @@ Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permi
 Tenga en cuenta las siguientes limitaciones al utilizar el método de recuperación previa con los SDK para móviles de iOS y Android:
 
 * El contenido de recuperación previa no persiste de un inicio a otro. El contenido de recuperación previa se guarda en caché mientras la aplicación esté activa o hasta que se realice una llamada al método `clearPrefetchCache()`.
-* La funcionalidad de recuperación previa no es compatible con los métodos de asignación de tráfico de asignación  automática y de Destinatario  automático, para los tipos de actividad de [!UICONTROL Automated Personalization] o [!UICONTROL Recommendations] , o para las ofertas de [recomendaciones dentro de una actividad](/help/c-recommendations/recommendations-as-an-offer.md)A/B o XT.
+* No se admite la funcionalidad de recuperación previa para los tipos de actividad [!UICONTROL Asignación automática] y [!UICONTROL Destinatario automático], para [!UICONTROL Automated Personalization] o [!UICONTROL Recommendations], o para las ofertas [recomendaciones dentro de una actividad A/B o XT](/help/c-recommendations/recommendations-as-an-offer.md).
 
 Para obtener más información, incluidos los métodos de recuperación previa, las clases públicas y ejemplos de código, consulte:
 
-* **iOS:**  [Recuperación previa de contenido de oferta en iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) en la Ayuda *del SDK para iOS de* Mobile Services.
-* **Android:**  [Recuperación previa de contenido de oferta en Android](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) en la Ayuda *del SDK para Android de* Mobile Services.
+* **iOS:**  [Recuperación previa de contenido de oferta en ](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) iOS en la Ayuda *del SDK para iOS de* Mobile Services.
+* **Android:**  [Recuperación previa de contenido de oferta en ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) Android en la Ayuda *del SDK para Android de* Mobile Services.
