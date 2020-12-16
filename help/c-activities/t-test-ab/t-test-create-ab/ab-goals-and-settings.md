@@ -26,10 +26,10 @@ La configuración disponible depende de si usa Target o [Analytics](/help/c-inte
 | Configuración | Descripción |
 |--- |--- |
 | Objetivo | Escriba un objetivo opcional. El objetivo puede ser cualquier información que le ayude a usted y a su equipo a identificar la campaña. |
-| Prioridad | La interfaz de usuario y las opciones de Prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999.<br>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<br>Si esta opción no está habilitada en [!UICONTROL Administración] (opción predeterminada), especifique una prioridad: Bajo, Medio o Alto. <br>Para habilitar prioridades específicas, haga clic en [!UICONTROL Administración] > [!UICONTROL Sistema de informes]y, a continuación, active la opción Activar prioridades específicas en la posición &quot;Activado&quot;. <br>Si esta opción está habilitada, indique un valor entre 0 y 999: 0 = bajo y 999 = alto. <br>En las actividades creadas en versiones anteriores de Target Standard/Premium, el nivel bajo de prioridad se convierte en 0; el medio, en 5; y el alto, en 10. Si lo necesita, puede ajustar estos valores.<br>Nota: Para deshabilitar esta opción después de usar las prioridades específicas, hay que volver a fijar todas las prioridades en 0, 5 y 10. |
+| Prioridad | La interfaz de usuario y las opciones de Prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999.<br>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<br>Si esta opción no está habilitada en  [!UICONTROL Administración]  (opción predeterminada), especifique una prioridad: Bajo, Medio o Alto. <br>Para habilitar prioridades específicas, haga clic en   [!UICONTROL Administración]  >  [!UICONTROL Sistema de informes] y, a continuación, active la opción Activar prioridades específicas en la posición &quot;Activado&quot;. <br>Si esta opción está habilitada, indique un valor entre 0 y 999: 0 = bajo y 999 = alto. <br>En las actividades creadas en versiones anteriores de Target Standard/Premium, el nivel bajo de prioridad se convierte en 0; el medio, en 5; y el alto, en 10. Si lo necesita, puede ajustar estos valores.<br>Nota: Para deshabilitar esta opción después de usar las prioridades específicas, hay que volver a fijar todas las prioridades en 0, 5 y 10. |
 | Duración | La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo. |
 
-## Configuración de informes.  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Configuración de informes.   {#section_13119392051044FBA6387D9B3B1C43CF}
 
 | Configuración | Descripción |
 |--- |--- |
@@ -68,7 +68,7 @@ Para obtener más información sobre la configuración avanzada, consulte [Métr
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Distintivo de ![tutorial de configuración de actividad (3:02)](/help/assets/tutorial.png)
+### Configuración de actividad (3:02) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
@@ -80,7 +80,7 @@ Este vídeo incluye información sobre la configuración de las actividades.
 
 (https://video.tv.adobe.com/v/17381?captions=spa)
 
-### Creación de una insignia de ![tutorial para pruebas A/B (8:36)](/help/assets/tutorial.png)
+### Creación de pruebas A/B (8:36) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 En este vídeo se ve la configuración de actividades dentro del flujo de trabajo guiado de tres pasos al crear una actividad. Los objetivos y la configuración se describen a partir del minuto 5:30.
 
