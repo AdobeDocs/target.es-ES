@@ -36,7 +36,7 @@ Cuando se declara un claro ganador, [!DNL Target] muestra “Ganador: Experienci
 >
 >Las actividades de asignación automática han sido diseñadas para encontrar la mejor experiencia entre todas las opciones y no solo hacer comparaciones por pares con control.
 
-## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Garantías estadísticas de asignación automática {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 Al finalizar una actividad A/B, la asignación automática garantiza que el ganador determinado tiene una tasa efectiva de falsos positivos del 5 %. Esto significa que solo un 5 % de las veces el ganador determinado no es realmente la mejor experiencia de todas las que participan en la actividad. En una prueba A/A (con experiencias idénticas), la prueba se finaliza menos del 5 % de las veces. El comportamiento previsto en una prueba A/A (con experiencias idénticas) es que se ejecute de forma indefinida, de modo que nunca se mostrará el distintivo de ganador.
 
@@ -48,7 +48,7 @@ Las pruebas A/B normales calculan la confianza según los valores p. La asignaci
 
 >[!IMPORTANT]
 >
->Destinatario muestra un ganador después de un número mínimo predefinido de conversiones; sin embargo, la decisión final de elegir al ganador siempre debe estar en los resultados de la calculadora [de tamaño de la](https://docs.adobe.com/content/target-microsite/testcalculator.html)muestra de Adobe Target. Destinatario no tiene en cuenta las tasas de conversión básicas de un sitio y otros aspectos importantes que se introducen en la calculadora para determinar la duración de la actividad. Como resultado, el Destinatario puede mostrar un ganador antes de lo justificado en base a un número mínimo de conversiones. Para obtener más información, consulte Calculadora [de tamaño de la muestra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Destinatario muestra un ganador después de un número mínimo predefinido de conversiones; sin embargo, la decisión final de elegir al ganador siempre debe estar en los resultados de la calculadora de tamaño de la muestra [de Adobe Target](https://docs.adobe.com/content/target-microsite/testcalculator.html). Destinatario no tiene en cuenta las tasas de conversión básicas de un sitio y otros aspectos importantes que se introducen en la calculadora para determinar la duración de la actividad. Como resultado, el Destinatario puede mostrar un ganador antes de lo justificado en base a un número mínimo de conversiones. Para obtener más información, consulte [Calculadora de tamaño de muestra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Comprenda el sistema de informes de alza y confianza en actividades de asignación automática {#lift-confidence}
 
@@ -74,6 +74,6 @@ Alguna de las siguientes razones describe la razón por la que se muestra un 0 
 
    La asignación automática muestra la probabilidad de que una experiencia indicada sea la auténtica ganadora de todas las experiencias de la actividad. Esto significa que solo una experiencia ganadora (que tiene más probabilidades de ganar) tendrá un valor de confianza diferente a cero. El resto tienen más probabilidades de perder y mostrarán un 0 %.
 
-* La asignación automática solo empieza a mostrar la confianza después de que la experiencia ganadora reúna un 60 % de confianza. Estos niveles de confianza suelen aparecer en aproximadamente la mitad del tiempo que tardaría una prueba A/B normal en completarse (aunque esto no está garantizado). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; Normalmente, la confianza empieza a mostrarse después de que cada experiencia haya reunido al menos un 50 % de las muestras por experiencia necesarias. Esto le dará una idea de cuándo empezará a aparecer la confianza.
+* La asignación automática solo empieza a mostrar la confianza después de que la experiencia ganadora reúna un 60 % de confianza. Estos niveles de confianza suelen aparecer en aproximadamente la mitad del tiempo que tardaría una prueba A/B normal en completarse (aunque esto no está garantizado). Para determinar durante cuánto tiempo se ejecutará una prueba A/B normal, utilice una [calculadora de tamaño de muestra](https://docs.adobe.com/content/target-microsite/testcalculator.html): la tasa de conversión del control de clavijas en &quot;tasa de conversión de línea de base&quot;, &quot;5%&quot; en &quot;Alza&quot; y 95% en &quot;Confianza&quot;. Normalmente, la confianza empieza a mostrarse después de que cada experiencia haya reunido al menos un 50 % de las muestras por experiencia necesarias. Esto le dará una idea de cuándo empezará a aparecer la confianza.
 * Si el informe muestra un 0 % en el panel, es probable que sea pronto para la actividad.
 
