@@ -14,7 +14,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) Configuración de actividades de Recommendations{#recommendations-activity-settings}
 
-Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
+Información sobre la configuración que puede utilizar para describir y controlar una actividad [!UICONTROL Recommendations] en [!DNL Adobe Target].
 
 ![Página Objetivos y configuración de Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ No se permite usar los caracteres siguientes en el nombre de una actividad:
 `-`
 `@`
 
-Si especifica el nombre de una actividad de [!UICONTROL Recommendations] que ya existe para otra actividad de [!UICONTROL Recommendations Classic], la nueva actividad se vuelve a sincronizar con otro nombre nuevo. Este es el nombre original, al que se le agrega una marca de tiempo para que sea único. This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
+Si especifica el nombre de una actividad de [!UICONTROL Recommendations] que ya existe para otra actividad de [!UICONTROL Recommendations Classic], la nueva actividad se vuelve a sincronizar con otro nombre nuevo. Este es el nombre original, al que se le agrega una marca de tiempo para que sea único. Este nuevo nombre se muestra en [!DNL Target Standard/Premium] y [!UICONTROL Recommendations Classic].
 
 ## Objetivo
 
@@ -55,7 +55,7 @@ La actividad se puede iniciar cuando se activa, o bien se puede establecer una f
 
 ## Configuración de informes. 
 
-* **Origen de sistema de informes:** Seleccione el origen del sistema de informes: [!DNL Adobe Target] o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). No cambie la fuente de informes después de que la actividad se active. Cambiar la fuente de informes después de una actividad causa un informe incoherente.
+* **Origen de sistema de informes:** seleccione el origen de sistema de informes:  [!DNL Adobe Target] o  [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). No cambie la fuente de informes después de que la actividad se active. Cambiar la fuente de informes después de una actividad causa un informe incoherente.
 * **Métrica de objetivo:** Asigne un nombre al objetivo y seleccione la métrica de éxito que determina si la actividad tiene éxito.
 * **Métricas adicionales:** Configure métricas de éxito adicionales para usarlas en sus informes.
 * **Audiencias para creación de informes:** Defina las audiencias que se pueden usar cuando filtre los informes.
@@ -64,7 +64,7 @@ La actividad se puede iniciar cuando se activa, o bien se puede establecer una f
 
 Escriba notas sobre la actividad.
 
-## Vídeo de capacitación: Distintivo de ![tutorial de configuración de actividad (3:02)](/help/assets/tutorial.png)
+## Vídeo de capacitación: Configuración de actividad (3:02) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
