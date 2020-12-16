@@ -15,7 +15,7 @@ ht-degree: 69%
 
 # Basar la recomendación en una clave de recomendación
 
-Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
+Recommendations basado en claves utiliza el contexto de comportamiento de visitante para mostrar resultados relevantes en actividades [!DNL Adobe Target] [!DNL Recommendations].
 
 Existen dos tipos de recomendaciones:
 
@@ -24,14 +24,14 @@ Existen dos tipos de recomendaciones:
 
 Cada criterio está definido en su propia pestaña. El tráfico se divide equitativamente en las distintas pruebas de criterios. Es decir, si tiene dos criterios, el tráfico se divide a partes iguales entre ellos. Si tiene dos criterios y dos diseños, el tráfico se divide equitativamente entre las cuatro combinaciones. También puede especificar el porcentaje de los visitantes del sitio que ven el contenido predeterminado, para su comparación. En ese caso, el porcentaje de visitantes especificado ve el contenido predeterminado y el resto se divide entre las combinaciones de algoritmo y plantilla.
 
-1. Create a new criteria, or select an existing criteria and click **[!UICONTROL Edit]**.
-1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]** or **[!UICONTROL Update]**.
+1. Cree un nuevo criterio o seleccione uno existente y haga clic en **[!UICONTROL Editar]**.
+1. Para cambiar la clave de recomendación, seleccione la nueva clave en la lista desplegable [!UICONTROL Clave de recomendación] y haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Actualizar]**.
 
    Dado que lógicas diferentes dirigen a claves de recomendaciones diferentes, estas últimas se prestan a colocarse en diferentes tipos de páginas. Consulte las secciones siguientes para obtener más información sobre cada clave de recomendación.
 
 ## Claves de recomendación
 
-Las siguientes claves de recomendación están disponibles en la lista desplegable Clave [!UICONTROL de] recomendación:
+Las siguientes claves de recomendación están disponibles en la lista desplegable [!UICONTROL Clave de recomendación]:
 
 ### Artículo actual {#current-item}
 
@@ -54,7 +54,7 @@ Si se selecciona está opción, el valor `entity.id` debe pasarse como parámetr
 * Páginas con un solo elemento, como las páginas de productos.
 * NO lo utilice en páginas de resultados de búsqueda nulos.
 
-### Categoría actual {#current-category}
+### Categoría actual  {#current-category}
 
 La recomendación está determinada por la categoría de producto que el visitante está viendo en ese momento.
 
@@ -72,7 +72,7 @@ Si se selecciona está opción, el valor `entity.categoryId` debe pasarse como p
 * Páginas de una sola categoría.
 * NO lo utilice en páginas de resultados de búsqueda nulos.
 
-### Atributo personalizado.  {#custom}
+### Atributo personalizado.   {#custom}
 
 La recomendación viene determinada por un elemento almacenado en el perfil de un visitante, utilizando los atributos user.*x* o perfil.atributos *x*.
 
@@ -82,7 +82,7 @@ Cuando basa las recomendaciones en atributos personalizados, debe seleccionar el
 
 Puede realizar el filtrado en tiempo real sobre su propia salida de criterios personalizados. Por ejemplo, puede limitar sus artículos recomendados solo a aquellos de la categoría o marca favorita de un visitante. Esto le da la capacidad de combinar cálculos sin conexión con filtrado en tiempo real.
 
-This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. Esto combina el poder de sus científicos e investigadores de datos con la entrega probada y comprobada de Adobe, el filtrado en tiempo de ejecución, las pruebas A/B, la orientación, los informes, las integraciones y más.
+Esta funcionalidad significa que puede utilizar [!DNL Target] para agregar personalización además de las recomendaciones calculadas sin conexión o las listas depuradas personalizadas. Esto combina el poder de sus científicos e investigadores de datos con la entrega probada y comprobada de Adobe, el filtrado en tiempo de ejecución, las pruebas A/B, la orientación, los informes, las integraciones y más.
 
 Con la adición de reglas de inclusión en Criterios personalizados, convierte las recomendaciones estáticas en recomendaciones dinámicas basadas en los intereses de los visitantes.
 
@@ -172,7 +172,7 @@ La recomendación está determinada por el último artículo que compró cada vi
 * La página inicial, la página Mi cuenta o anuncios externos.
 * NO lo utilice en páginas de productos o en páginas importantes para las compras.
 
-### Último artículo visitado {#last-viewed}
+### Último artículo visitado  {#last-viewed}
 
 La recomendación está determinada por el último artículo que vio cada visitante único. La captura se realiza de forma automática, por lo tanto no es necesario pasar valores a la página.
 
@@ -189,7 +189,7 @@ La recomendación está determinada por el último artículo que vio cada visita
 * La página inicial, la página Mi cuenta o anuncios externos.
 * NO lo utilice en páginas de productos o en páginas importantes para las compras.
 
-### Artículo más visitado {#most-viewed}
+### Artículo más visitado  {#most-viewed}
 
 La recomendación está definida por el artículo que se vio con mayor frecuencia, usando el mismo método utilizado en la categoría de favoritos.
 
@@ -213,7 +213,7 @@ Por ejemplo, si ve surfboardA y luego surfboardB en una misma sesión, el result
 
 * Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
 
-### Popularidad {#popularity}
+### Popularidad  {#popularity}
 
 La recomendación está determinada por la popularidad de los artículos del sitio. La popularidad incluye a los principales vendedores y a los más visitados según los datos del mbox, y si usa Adobe Analytics, todas las métricas disponibles en el informe de productos. Los elementos se clasifican según la lógica de recomendación seleccionada.
 
@@ -227,15 +227,15 @@ La recomendación está determinada por la popularidad de los artículos del sit
 
 * Páginas generales, como páginas principales o de aterrizaje y anuncios externos.
 
-### Artículos vistos recientemente.  {#recently-viewed}
+### Artículos vistos recientemente.   {#recently-viewed}
 
 Utiliza el historial del visitante (sesiones de alcance) para presentar el último elemento *X* que el visitante haya visto, según el número de espacios en el diseño.
 
-The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). Si dos sitios pertenecen a entornos distintos y un visitante alterna entre ellos, cada sitio muestra solo los elementos visualizados recientemente desde el sitio adecuado. Si dos sitios se encuentran en el mismo entorno y un visitante cambia entre los dos, el visitante verá los mismos artículos vistos recientemente en ambos.
+El criterio Elementos vistos recientemente devuelve resultados específicos de un [entorno](/help/administrating-target/hosts.md) determinado. Si dos sitios pertenecen a entornos distintos y un visitante alterna entre ellos, cada sitio muestra solo los elementos visualizados recientemente desde el sitio adecuado. Si dos sitios se encuentran en el mismo entorno y un visitante cambia entre los dos, el visitante verá los mismos artículos vistos recientemente en ambos.
 
 >[!NOTE]
 >
->You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+>No puede usar los criterios [!UICONTROL Elementos vistos recientemente] para las recomendaciones de copia de seguridad.
 
 Los elementos/medios vistos recientemente se pueden filtrar para que solo se muestren los elementos con un atributo en particular.
 
@@ -252,13 +252,13 @@ Una empresa multinacional con múltiples negocios podría tener elementos de vis
 
 >[!NOTE]
 >
->[!UICONTROL Los elementos] vistos recientemente respetan tanto la configuración global de exclusiones como la configuración de recopilación seleccionada para la actividad. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
+>[!UICONTROL Los ] elementos vistos recientemente respetan tanto la configuración global de exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento está excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará. Por lo tanto, cuando se utiliza un criterio [!UICONTROL Elementos vistos recientemente], generalmente se debe utilizar la configuración &quot;Todas las colecciones&quot;.
 
 ## Lógica de recomendación
 
 [!DNL Target Recommendations] emplea sofisticados algoritmos que determinan si las acciones de un visitante cumplen los criterios establecidos en su actividad. La clave de recomendación determina las opciones de lógica de recomendaciones que se encuentran disponibles.
 
-La siguiente lógica de recomendación (criterios) está disponible en la lista desplegable [!UICONTROL de la lógica] de recomendación:
+La siguiente lógica de recomendación (criterios) está disponible en la lista desplegable [!UICONTROL Lógica de recomendación]:
 
 ### Elementos/Medios con atributos similares {#similar-attributes}
 
@@ -268,7 +268,7 @@ Si selecciona Elementos/Medios con atributos similares, tiene la opción de esta
 
 El uso de la similitud de contenido para generar recomendaciones resulta especialmente eficaz para los nuevos artículos, que probablemente no se muestren en las recomendaciones con Personas que vieron esto, vieron aquello y otras lógicas basadas en el comportamiento anterior. También puede utilizar la similitud de contenido si quiere generar recomendaciones útiles para los nuevos visitantes, que no han hecho ninguna compra ni tienen datos históricos.
 
-Para obtener más información, consulte [Similitud](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)de contenido.
+Para obtener más información, consulte [Similitud de contenido](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 Esta lógica se puede utilizar con las siguientes claves de recomendación:
 
