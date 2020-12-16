@@ -24,7 +24,7 @@ Identificar oportunidades para actividades que se alinean con los objetivos come
 
 Haga esto mediante:
 
-* Lluvia de ideas sobre [!DNL Target] actividades potenciales basadas en datos de rendimiento del sitio, análisis de competidoras y resultados de pruebas anteriores.
+* Actividades [!DNL Target] potenciales de lluvia de ideas basadas en datos de rendimiento del sitio, análisis de competidoras y resultados de pruebas anteriores.
 * Desarrollar ideas para actividades de revisión, comentarios y suscripción.
 
 Por ejemplo: busque una página en el sitio con una tasa de salida hacia otro sitio alta, considere qué podría estar causando el problema y vea las formas de reducir la tasa de salida hacia otro sitio.
@@ -49,7 +49,7 @@ Haga esto mediante:
 
 * Finalización de los criterios y métricas de entrada de actividad necesarios para determinar el rendimiento de la actividad.
 * Finalización y aprobación de diseños finales para experiencias de actividad.
-* Documentar los requisitos de la [!DNL Target] actividad, incluidos los criterios de entrada de prueba, las métricas de sistema de informes y los cambios de experiencia.
+* Documentar los requisitos para la actividad [!DNL Target], incluidos los criterios de entrada de prueba, las métricas de sistema de informes y los cambios de experiencia.
 
 Utilice el Planificador de Actividad, que se proporciona más adelante en el kit de bienvenida, para realizar un documento de los detalles de la actividad, incluidas las métricas que utilizará para medir el rendimiento de la actividad, como los clics en un botón de llamada a acción, los inicios de vídeo o los ingresos generados. Asegúrese de incluir capturas de pantalla o imágenes de los diseños de experiencia que tiene previsto probar o personalizar.
 
