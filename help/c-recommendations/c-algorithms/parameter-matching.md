@@ -12,7 +12,7 @@ ht-degree: 10%
 ---
 
 
-# ![Coincidencia de parámetros PREMIUM](/help/assets/premium.png)
+# ![Coincidencia de ](/help/assets/premium.png) parámetro PREMIUMP
 
 Filtre dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).
 
@@ -33,9 +33,9 @@ Por ejemplo, recomendar solo contenido que coincida con el parámetro de página
 
 ## Ejemplos de coincidencia de parámetros
 
-[!UICONTROL La coincidencia] de parámetros le permite recomendar contenido que coincida con los parámetros de página o los parámetros del visitante, como dimensiones del dispositivo o ubicación geográfica, como en el siguiente ejemplo:
+[!UICONTROL La ] coincidencia de parámetros le permite recomendar contenido que coincida con los parámetros de página o los parámetros del visitante, como dimensiones del dispositivo o ubicación geográfica, como en el siguiente ejemplo:
 
-[!DNL Recommendations] puede coincidir con los valores de parámetro enviados en la [!DNL Target] llamada. En este caso, [!DNL Target] detecta que un visitante está utilizando un dispositivo móvil, en función de los parámetros de altura y ancho de la pantalla enviados en la [!DNL Target] llamada, y solo recomienda elementos que sean dispositivos móviles.
+[!DNL Recommendations] puede coincidir con los valores de parámetro enviados en la  [!DNL Target] llamada. En este caso, [!DNL Target] detecta que un visitante está utilizando un dispositivo móvil, en función de los parámetros de altura y ancho de la pantalla enviados en la llamada [!DNL Target], y recomienda sólo elementos que sean dispositivos móviles.
 
 Considere el siguiente ejemplo de llamada de Destinatario:
 
