@@ -50,13 +50,13 @@ Tenga en cuenta que cuando nombra o renombra una métrica, no se permiten los si
 | / | Barra oblicua |
 | ? | Signo de interrogación |
 | # | Signo de número |
-| : | Dos puntos |
+| :: | Dos puntos |
 | = | Igual a |
 | + | Más |
 | - | Menos |
 | @ | Arroba |
 
-## Vídeo de formación: Métricas de actividad (7:43) ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Métricas de actividad (7:43)  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 
