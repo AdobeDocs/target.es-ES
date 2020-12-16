@@ -23,7 +23,7 @@ Puede añadir o eliminar elementos de la lista de ofertas de imágenes.
 
    El artículo se cargará a la biblioteca.
 
-## Vídeo de formación: El repositorio de contenido ![Distintivo de información general](/help/assets/overview.png)
+## Vídeo de formación: El repositorio de contenido  ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo incluye información sobre la administración de contenido.
 
