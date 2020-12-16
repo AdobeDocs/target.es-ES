@@ -26,7 +26,7 @@ Un visitante se incluye en el segmento Nuevos Visitantes si se cumple una de las
 
 * Es la primera vez que el visitante visita el sitio.
 * Es la primera vez que el visitante visita el sitio desde que borró las cookies.
-* Es la primera vez que el visitante visita el sitio desde que caduca la duración [del perfil de](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) Visitante.
+* Es la primera vez que el visitante visita el sitio desde que la duración del perfil [Visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) ha caducado.
 
 ### Visitantes que regresan
 
@@ -50,7 +50,7 @@ Considere el siguiente ejemplo, teniendo en cuenta las condiciones mencionadas a
 
 Este visitante se cuenta como un solo visitante en el recuento de visitantes global de la actividad aunque se cuente en los segmentos Nuevos Visitantes y Visitantes que regresan.
 
-**Ejemplo 2**: Las discrepancias entre los recuentos de nuevos Visitantes y los Visitantes que regresan también dependen de cómo configure las métricas [de](/help/c-activities/r-success-metrics/success-metrics.md)éxito de la actividad.
+**Ejemplo 2**: Las discrepancias entre los recuentos de nuevos Visitantes y los Visitantes que regresan también dependen de cómo configure las métricas [ de ](/help/c-activities/r-success-metrics/success-metrics.md)éxito de la actividad.
 
 Por ejemplo:
 
@@ -96,13 +96,13 @@ Para obtener más información sobre los entornos, consulte [Hosts](/help/admini
 
 ## ¿Por qué el tráfico se divide entre mis experiencias de forma desigual en mi actividad A/B o MVT? {#uneven}
 
-Por ejemplo, configuré la división de tráfico en 50/50 o 25/25/25/25 pero veo una distribución muy diferente entre las experiencias en el sistema de informes. Hay una serie de razones explicables para el recuento desigual de visitantes en el [!DNL Target] sistema de informes:
+Por ejemplo, configuré la división de tráfico en 50/50 o 25/25/25/25 pero veo una distribución muy diferente entre las experiencias en el sistema de informes. Hay una serie de razones explicables para el recuento desigual de visitantes en el sistema de informes [!DNL Target]:
 
-* Cuando se inicia una [!DNL Target] actividad por primera vez, la distribución del tráfico puede ser desigual debido a la arquitectura de nodos Edge que [!DNL Target] utiliza para optimizar el envío de la experiencia. Lo mejor es dar a una actividad tiempo para recopilar datos adicionales y la distribución se normalizará. Para obtener más información sobre [!DNL Adobe Target] la arquitectura y los nodos de Edge, consulte [Cómo funciona](/help/c-intro/how-target-works.md)Adobe Target.
-* Si está en [!DNL Target] o [!DNL Analytics] y utiliza la métrica **[!UICONTROL Visitas]** , recuerde que [!DNL Target] es un sistema basado en visitantes y que la distribución de tráfico para una prueba A/B o MVT está asignada en el nivel de visitante. Por lo tanto, si examina los resultados de la actividad mediante la métrica **[!UICONTROL Visitas]** , la distribución del tráfico puede parecer desigual porque ciertos visitantes pueden tener varias visitas. Visitantes es la métrica estándar de normalización al evaluar el rendimiento de la actividad.
+* Cuando se inicia por primera vez una actividad [!DNL Target], la distribución del tráfico puede ser desigual debido a la arquitectura de nodos Edge que [!DNL Target] utiliza para optimizar el envío de experiencias. Lo mejor es dar a una actividad tiempo para recopilar datos adicionales y la distribución se normalizará. Para obtener más información sobre la arquitectura [!DNL Adobe Target] y los nodos de Edge, consulte [Cómo funciona Adobe Target](/help/c-intro/how-target-works.md).
+* Si se encuentra en [!DNL Target] o [!DNL Analytics] y utiliza la métrica **[!UICONTROL Visitas]**, recuerde que [!DNL Target] es un sistema basado en visitantes y que la distribución del tráfico para una prueba A/B o MVT está asignada en el nivel de visitante. Por lo tanto, si examina los resultados de la actividad mediante la métrica **[!UICONTROL Visitas]**, la distribución del tráfico puede parecer desigual porque ciertos visitantes pueden tener varias visitas. Visitantes es la métrica estándar de normalización al evaluar el rendimiento de la actividad.
 * La práctica recomendada para las pruebas A/B y MVT es mantener unidas las divisiones de tráfico. Cambiar la distribución del tráfico entre experiencias (por ejemplo, de 90/10 a 50/50) durante una prueba puede provocar visitantes desiguales entre las experiencias. Es posible que la experiencia de tráfico más baja nunca &quot;se ponga al día&quot;.
 * Si sigue las prácticas recomendadas anteriores y la división del tráfico no se normaliza con el tiempo, debe comprobar lo siguiente:
 
-   * ¿Está utilizando la biblioteca at.js más reciente? Para obtener más información sobre la versión actual y las notas de la versión asociadas, consulte los detalles [de la versión de](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js.
+   * ¿Está utilizando la biblioteca at.js más reciente? Para obtener más información sobre la versión actual y las notas de la versión asociadas, consulte [Detalles de la versión de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-   * ¿Es una prueba de redirección? La temporización incorrecta de las etiquetas que se activan en la página puede provocar divisiones de tráfico desiguales, especialmente cuando se utiliza [!DNL Analytics] como fuente de datos para una [!DNL Target] actividad. Para obtener más información sobre cómo solucionar la distribución desigual del tráfico en una actividad de redireccionamiento con Analytics para Destinatario (A4T), consulte [Redireccionamiento de ofertas: Preguntas más frecuentes](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)sobre A4T.
+   * ¿Es una prueba de redirección? El tiempo incorrecto de activación de etiquetas en la página puede provocar divisiones de tráfico desiguales, especialmente al utilizar [!DNL Analytics] como fuente de datos para una actividad [!DNL Target]. Para obtener más información sobre cómo solucionar la distribución desigual del tráfico en una actividad de redireccionamiento con Analytics para Destinatario (A4T), consulte [ofertas de redireccionamiento: Preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
