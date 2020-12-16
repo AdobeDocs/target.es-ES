@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # ![PREMIUM](/help/assets/premium.png) Personalización de un diseño mediante Velocity{#customize-a-design-using-velocity}
 
-Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
+Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación en [!DNL Adobe Target Recommendations].
 
 ## Descripción general de Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
