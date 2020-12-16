@@ -15,7 +15,7 @@ ht-degree: 100%
 
 El SDK de Adobe Mobile contacta con el servidor de Target para obtener el contenido y otros puntos de datos y, así, mostrar la experiencia adecuada a cada usuario.
 
-## Ubicaciones de Target y métricas de éxito   {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
+## Ubicaciones de Target y métricas de éxito    {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
 
 Las *ubicaciones de target* también se denominan mbox. Una ubicación identificada en la aplicación se habilita para realizar pruebas o personalizaciones (por ejemplo, el mensaje de bienvenida de la pantalla de inicio). Estas ubicaciones se identifican durante el proceso de creación de la prueba.
 
