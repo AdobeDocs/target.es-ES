@@ -12,7 +12,7 @@ ht-degree: 64%
 ---
 
 
-# ![PREVISUALIZACIÓN PREMIUM](/help/assets/premium.png) actividades de Automated Personalization con direcciones URL de previsualización de experiencias{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![](/help/assets/premium.png) PREMIUMPrevisar actividades de Automated Personalization con direcciones URL de previsualización de experiencia{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 Las direcciones URL de previsualización de experiencias se pueden generar para actividades de Automated Personalization de Destinatario para ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa para fines de previsualización y control de calidad. Las direcciones URL de previsualización de experiencias omiten la segmentación para forzar la visualización de una experiencia concreta.
 
@@ -31,14 +31,14 @@ Use direcciones URL de previsualización de experiencias para compartir experien
 1. Revise y/o especifique sus URL.
 
    * Si está utilizando el Compositor de experiencias visuales (VEC), la URL predeterminada que especificó para la actividad se introduce automáticamente y se genera un vínculo para cada experiencia de la actividad. Puede cambiar esta URL y añadir otras si lo desea.
-   * Si usa el Compositor de experiencias basadas en formularios, no aparece ninguna URL predeterminada automáticamente. If you haven&#39;t previously created experience preview URLs, click **Add New URL**. Debe especificar todas las URL que desea visualizar previamente, así como un nombre para cada una.
+   * Si usa el Compositor de experiencias basadas en formularios, no aparece ninguna URL predeterminada automáticamente. Si no ha creado anteriormente direcciones URL de previsualización de experiencias, haga clic en **Añadir nueva dirección URL**. Debe especificar todas las URL que desea visualizar previamente, así como un nombre para cada una.
 
    Puede añadir varias direcciones URL, lo cual es útil cuando ejecuta una prueba de varias páginas o una prueba de plantilla y quiere previsualizar la actividad en más de una página.
 
    En una ventana modal se muestran vínculos a sus experiencias en su sitio para obtener una “auténtica vista previa” de las experiencias fuera del Compositor de experiencias visuales de Target. Debe compartir los vínculos del mensaje para compartir la vista previa. Hacer clic en un vínculo y luego copiar la dirección URL resultante desde la página no funcionará porque la dirección URL contiene un parámetro que solo muestra la página correctamente cuando entra a la página desde el vínculo en el mensaje. Copie el texto de la ventana modal y envíelo por correo electrónico en su totalidad a su equipo.
 1. Haga clic en **[!UICONTROL Generar todos]** y luego haga clic en cada una de las experiencias para visualizarlas previamente.
 
-   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
+   Si luego realiza cambios en la experiencia, asegúrese de generar nuevos vínculos de previsualización para su equipo volviendo a la ventana modal y haciendo clic en **Renovar vínculos** para obtener nuevos vínculos.
 
    **Nota:** Los vínculos de la vista previa se abren en pestañas nuevas y es necesario que el bloqueador de ventanas emergentes del navegador esté desactivado.
 
