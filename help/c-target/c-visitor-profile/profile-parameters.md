@@ -22,7 +22,7 @@ Cuando un visitante explora su sitio web o cuando el visitante regresa para otra
 
 Para configurar atributos de perfil:
 
-1. Haga clic en **[!UICONTROL Audiencias]** > Secuencias de comandos de **[!UICONTROL Perfil.]**
+1. Haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Secuencias de comandos de Perfil.]**
 
    ![Pestaña Scripts de perfil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -53,7 +53,7 @@ Para agregar un nuevo script de perfil, haga clic en la pestaña **[!UICONTROL S
 
 O
 
-To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+Para copiar una secuencia de comandos de perfil existente, en la lista [!UICONTROL Perfil Scripts], pase el ratón sobre la secuencia de comandos que desee y haga clic en el icono **[!UICONTROL Copiar]**: ![icono de copia](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 Luego puede editar la audiencia para crear otra parecida.
 
@@ -143,9 +143,9 @@ Las siguientes directrices pretenden ayudarle a escribir secuencias de comandos 
    * Evite expresiones regulares o utilice solo expresiones regulares muy sencillas. Incluso las expresiones simples pueden tomar muchas instrucciones para evaluarlas.
    * Evite la recursión.
    * Los scripts de perfil deben probarse de rendimiento antes de agregarse al Destinatario. Todas las secuencias de comandos de perfil se ejecutan en cada solicitud de mbox. Si las secuencias de comandos de perfil no se ejecutan correctamente, las solicitudes de mbox tardan más en ejecutarse. Esto podría afectar al tráfico y a la conversión.
-   * Si las secuencias de comandos de perfil resultan demasiado complejas, considere la posibilidad de utilizar tokens [de](/help/administrating-target/response-tokens.md) respuesta.
+   * Si las secuencias de comandos de perfil se vuelven demasiado complejas, considere la posibilidad de utilizar [tokens de respuesta](/help/administrating-target/response-tokens.md) en su lugar.
 
-* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Consulte la documentación del motor JS Rhino para obtener más información: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## Depuración de scripts de perfil {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -157,7 +157,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
 * **Agregar scripts de perfil como tokens de respuesta para depurar scripts de perfil:**
 
-   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
+   En Destinatario, haga clic en **[!UICONTROL Administración]**, haga clic en **[!UICONTROL Tokens de respuesta]** y, a continuación, habilite la secuencia de comandos de perfil que desee depurar.
 
    Cada vez que carga para el sitio una página que incluye Target, parte de la respuesta de Target contendrá su valor para el script de perfil dado, como se muestra a continuación:
 
@@ -165,7 +165,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
 * **Utilice la herramienta de depuración mboxTrace para depurar scripts de perfil.**
 
-   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
+   Este método requiere un token de autorización que puede generar haciendo clic en **[!UICONTROL Destinatario]** > **[!UICONTROL Administración]** > **[!UICONTROL Implementación]** > **[!UICONTROL Generar token de autorización]** en la sección [!UICONTROL Herramientas del depurador].
 
    A continuación, agregue estos dos parámetros a la URL de su página después de “?”: `mboxTrace=window&authorization=YOURTOKEN`.
 
@@ -181,11 +181,12 @@ Los scripts de perfil no pueden leer la página directamente porque se ejecutan 
 
 ## Referencia de JavaScript para parámetros de perfil de secuencia de comandos
 
-Se requiere un conocimiento simple de JavaScript para utilizar eficazmente los parámetros de perfil de script. Esta sección sirve como referencia rápida para aumentar su productividad con esta funcionalidad en solo unos minutos.
+Se requiere un conocimiento simple de JavaScript para utilizar con eficacia el perfil de secuencias de comandos
+parámetros. Esta sección sirve como referencia rápida para aumentar su productividad con esta funcionalidad en solo unos minutos.
 
 Los parámetros de perfil de secuencia de comandos se encuentran en la pestaña mboxes/perfiles. Puede escribir programas Javascript que devuelvan cualquier tipo de Javascript (cadena, número entero, matriz, etc.).
 
-### Ejemplos de parámetros de perfil de secuencia de comandos {#examples}
+### Ejemplos de parámetros de perfil de secuencia de comandos  {#examples}
 
 **Nombre:** *user.recency*
 
@@ -211,7 +212,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. Si el nombre del mbox es `orderThankyouPage`, se devuelve el valor incrementado.
+Crea una variable llamada `frequency`, inicializándola en el valor anterior o en 0, si no había ningún valor anterior. Si el nombre del mbox es `orderThankyouPage`, se devuelve el valor incrementado.
 
 **Nombre:** *user.monetaryValue*
 
@@ -235,7 +236,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Crea una variable llamada `adobeQA` para rastrear a un usuario para el control de calidad de la [Actividad](/help/c-activities/c-activity-qa/activity-qa.md).
+Crea una variable llamada `adobeQA` para rastrear a un usuario para [control de calidad de la Actividad](/help/c-activities/c-activity-qa/activity-qa.md).
 
 ### Objetos y métodos
 
@@ -252,7 +253,7 @@ Los parámetros de perfil de secuencia de comandos pueden hacer referencia a las
 | `landing.url`, `landing.protocol`, `landing.query`, y `landing.param` | Similar a la de la página, pero para la página de aterrizaje. |
 | `mbox.name` | El nombre del mbox activo. |
 | `mbox.param(‘<par_name>’)` | Un parámetro de mbox por el nombre dado en el mbox activo. |
-| `profile.get(‘<par_name>’)` | El parámetro de perfil de usuario creado por el cliente por el nombre `<par_name>`. Por ejemplo, si el usuario configura un parámetro de perfil denominado “gender”, el valor se puede extraer usando “profile.gender”. Devuelve el valor de “`profile.<par_name>`” configurado para el visitante actual; devuelve nulo si no se ha establecido ningún valor. Tenga en cuenta que `profile.get(<par_name>)` se califica como una llamada a una función. |
+| `profile.get(‘<par_name>’)` | El parámetro de perfil de usuario creado por el cliente por el nombre `<par_name>`. Por ejemplo, si el usuario configura un parámetro de perfil denominado “gender”, el valor se puede extraer usando “profile.gender”. Devuelve el valor de “`profile.<par_name>`” configurado para el visitante actual; devuelve nulo si no se ha establecido ningún valor. Tenga en cuenta que `profile.get(<par_name>)` se califica como una llamada de función. |
 | `user.get(‘<par_name>’)` | Devuelve el valor de “`user.<par_name>`” configurado para el visitante actual; devuelve nulo si no se ha establecido ningún valor. |
 | `user.categoryAffinity` | Devuelve el nombre de la mejor categoría. |
 | `user.categoryAffinities` | Devuelve una matriz con las mejores categorías. |
@@ -276,7 +277,7 @@ Todos los operadores de JavaScript estándar están presentes y pueden utilizars
 | `||` | Lógicamente “O” las expresiones a la izquierda y a la derecha de la misma, son solo verdaderas si uno de los lados es verdadero (falso en caso contrario). |
 | `//` | Comprueba si la fuente contiene todos los elementos que el booleano de destino contiene (origen de matriz, destino de matriz).<br>`//` extrae la subcadena de destino (correspondiente a regexp) y la descodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La función también es compatible con el uso de valores de cadena constantes, agrupación (`condition1 || condition2) && condition3` y expresiones regulares (`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Vídeo de capacitación: Insignia ![de tutorial de secuencias de comandos de perfil](/help/assets/tutorial.png)
+## Vídeo de capacitación: Secuencias de comandos de perfil ![distintivo de tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo usar y crear scripts de perfil.
 
