@@ -16,18 +16,18 @@ ht-degree: 40%
 
 Habilite o deshabilite la autenticación para actualizaciones por lotes mediante las API de Adobe Target y genere un token de autenticación de perfil.
 
-[!DNL Adobe Target] crea y mantiene un perfil para cada usuario individual. This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit; however, you can update a profile individually or in bulk via API.
+[!DNL Adobe Target] crea y mantiene un perfil para cada usuario individual. Este perfil se almacena en el clúster de Edge [!DNL Target] y se actualiza en tiempo real después de cada visita; sin embargo, puede actualizar un perfil de forma individual o masiva mediante API.
 
 Como seguridad adicional, puede requerir que la llamada a la API de actualización por lotes solicite que se pase un token de acceso válido en el encabezado de la solicitud.
 
 **Para requerir autenticación y generar un token de acceso mediante la interfaz de usuario de Target:**
 
 1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
-1. Debajo de **[!UICONTROL Perfil API]** , deslice el conmutador **[!UICONTROL Requerir autenticación]** a la posición habilitada o deshabilitada.
+1. En **[!UICONTROL API de Perfil]**, deslice el **[!UICONTROL Requerir autenticación]** para cambiar a la posición habilitada o deshabilitada.
 
    ![](assets/profile_api_settings.png)
 
-1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Profile Authentication Token]**.
+1. (Condicional) Si habilitó los requisitos de autenticación, haga clic en **[!UICONTROL Generar nuevo autentificador de Perfil]**.
 
    ![](assets/profile_api_settings_2.png)
 
@@ -35,22 +35,22 @@ Como seguridad adicional, puede requerir que la llamada a la API de actualizaci�
 
    Debe tener uno de los siguientes permisos de usuario para generar un autentificador:
 
-   * Al menos [!UICONTROL permiso del editor] (o [!UICONTROL aprobador])
+   * Al menos [!UICONTROL permiso del Editor] (o [!UICONTROL Aprobador])
 
-      Para obtener más información sobre [!DNL Target Standard] los clientes, consulte [Especificación de funciones y permisos](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) en *usuarios*. Para obtener más información sobre [!DNL Target Premium] los clientes, consulte [Configuración de permisos](/help/administrating-target/c-user-management/property-channel/properties-overview.md)de empresa.
+      Para obtener más información sobre los clientes [!DNL Target Standard], consulte [Especificar roles y permisos](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) en *Usuarios*. Para obtener más información sobre [!DNL Target Premium] clientes, consulte [Configuración de permisos de empresa](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
    * Función de administrador en el nivel de espacio de trabajo/perfil del producto
 
-      Los espacios de trabajo solo están disponibles para [!DNL Target Premium] los clientes. For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+      Los espacios de trabajo solo están disponibles para [!DNL Target Premium] clientes. Para obtener más información, consulte [Configuración de permisos de empresa](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
-   * Derechos de administrador (permiso de Sysadmin) en el nivel de [!DNL Adobe Target] producto
+   * Derechos de administrador (permiso de Sysadmin) en el nivel de producto [!DNL Adobe Target]
    >[!NOTE]
    >
    >También puede generar un token de autentificación de perfil mediante API. Para obtener más información, consulte [Perfiles](https://developers.adobetarget.com/api/#profiles) en el [sitio web de desarrolladores de Adobe Target](https://developers.adobetarget.com/).
 
 1. Copie el token e inclúyalo en el encabezado de la solicitud con el formato: “Autorización” : “Portador ”
 
-Click [!UICONTROL Generate New Profile Authentication Token] to regenerate the token as needed.
+Haga clic en [!UICONTROL Generar nuevo autentificador de Perfil] para volver a generar el token según sea necesario.
 
 >[!IMPORTANT]
 >
