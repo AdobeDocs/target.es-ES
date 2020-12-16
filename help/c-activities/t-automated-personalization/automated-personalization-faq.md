@@ -12,7 +12,7 @@ ht-degree: 85%
 ---
 
 
-# ![Preguntas más frecuentes sobre Automated Personalization PREMIUM](/help/assets/premium.png){#automated-personalization-faq}
+# ![](/help/assets/premium.png) PREMIUMAutomated Personalization FAQs{#automated-personalization-faq}
 
 Lista de preguntas más frecuentes sobre la Personalización automatizada (AP).
 
@@ -28,7 +28,7 @@ Para obtener más información, consulte [Uso de una experiencia específica com
 
 No existe una opción para comparar la AP con una experiencia predeterminada. Sin embargo, como alternativa, si existe una oferta o experiencia predeterminada como parte de la actividad general, para comprender su rendimiento inicial puede hacer clic en el segmento “Control” de los informes y colocar la oferta concreta en el informe a nivel de oferta resultante. Las tasas de conversión registradas para esta oferta pueden usarse para compararlas con las tasas de conversión del segmento “Bosque aleatorio” al completo. Esto ayuda a comparar cómo funciona la máquina en comparación la oferta predeterminada.
 
-## ¿Qué es lo mejor para configurar una actividad de Personalización automatizada?  {#section_E155B26282BE49B58EA2683413D11DE6}
+## ¿Qué es lo mejor para configurar una actividad de Personalización automatizada?   {#section_E155B26282BE49B58EA2683413D11DE6}
 
 * Si está buscando personalizar una página de menor tráfico o si desea realizar cambios estructurales en la experiencia que está personalizando, considere usar la segmentación automática en lugar de la Personalización automatizada. Consulte  [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md).
 * Considere completar una actividad A/B entre las ofertas y las ubicaciones que planea utilizar en su actividad de Personalización automatizada para garantizar que la ubicación y las ofertas tengan un impacto en el objetivo de optimización. Si una actividad A/B no puede demostrar una diferencia significativa, la Personalización automatizada probablemente tampoco generará elevación.
@@ -55,11 +55,11 @@ No existe una opción para comparar la AP con una experiencia predeterminada. Si
 
 Consulte las siguientes preguntas más frecuentes y respuestas mientras trabaja con actividades de asignación automática:
 
-### ¿Cuáles son los límites de la Personalización automatizada?  {#section_08BA09ED51B547299963C94FE6417CFA}
+### ¿Cuáles son los límites de la Personalización automatizada?   {#section_08BA09ED51B547299963C94FE6417CFA}
 
 Target tiene un límite estricto de 30 000 experiencias, pero funciona mejor cuando se crean menos de 10 000 experiencias.
 
-### ¿Cómo se implementa la orientación a nivel de oferta?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
+### ¿Cómo se implementa la orientación a nivel de oferta?   {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 Cuando llega cada visitante, el conjunto de posibles ofertas que el visitante puede ver que está determinado por las reglas de orientación de nivel de oferta. Luego, el algoritmo elige la oferta que el modelo predice que tendrá los mejores ingresos o posibilidades de conversión entre esas ofertas. Tenga en cuenta que la orientación de ofertas afecta a la eficacia de los algoritmos de aprendizaje automático de Target y, como resultado, debe utilizarse de la forma más moderada posible.
 
@@ -82,11 +82,11 @@ La personalización automatizada dirige a los visitantes a la experiencia que ti
 
 Por ejemplo, supongamos que una actividad AP tiene dos ubicaciones con dos ofertas cada una. En la primera ubicación, la Oferta A tiene una tasa de conversión pronosticada del 3 % para un visitante específico y la Oferta B tiene una tasa de conversión pronosticada del 1 %. En la segunda ubicación, la Oferta C tiene una tasa de conversión pronosticada del 2 % para el mismo visitante y la Oferta D tiene una tasa de conversión pronosticada del 5 %. Por lo tanto, la Personalización Automatizada le brindaría a este visitante una experiencia con la Oferta A y la Oferta D.
 
-### ¿Cuándo debería detener mi actividad de personalización automatizada?  {#section_C51F3DAB8887463BB147373F6FE06B93}
+### ¿Cuándo debería detener mi actividad de personalización automatizada?   {#section_C51F3DAB8887463BB147373F6FE06B93}
 
 La personalización automatizada se puede utilizar como una personalización “siempre activada” que se optimizará constantemente. Especialmente para contenido permanente, no es necesario detener su actividad de personalización automatizada. Si desea realizar cambios sustanciales en el contenido que no son similares a las ofertas actuales en su actividad de Personalización automatizada, la mejor práctica es comenzar una nueva actividad para que otros usuarios que revisen los informes no confundan ni relacionen resultados pasados con contenido diferente.
 
-### ¿Cuánto tiempo debo esperar para que los modelos se creen?  {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
+### ¿Cuánto tiempo debo esperar para que los modelos se creen?   {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
 La cantidad de tiempo que tardan los modelos en desarrollar su actividad depende típicamente del tráfico a la/s ubicación/es de la actividad seleccionada y la métrica de éxito de la actividad. Use la [Estimador de tráfico](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para determinar la duración esperada que los modelos necesitarán para desarrollar su actividad.
 
@@ -94,11 +94,11 @@ La cantidad de tiempo que tardan los modelos en desarrollar su actividad depende
 
 No, debe haber al menos dos modelos integrados dentro de su actividad para que comience la personalización.
 
-### ¿Cuándo puedo ver los resultados de mi actividad de personalización automatizada?  {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+### ¿Cuándo puedo ver los resultados de mi actividad de personalización automatizada?   {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 Puede comenzar a observar los resultados de su actividad de personalización automatizada una vez que tenga al menos dos experiencias con los modelos creados (marca de verificación verde) para la experiencia que tienen los modelos generados.
 
-### ¿Cómo puedo disminuir la cantidad de tiempo necesario para que los modelos se desarrollen en mi actividad?  {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+### ¿Cómo puedo disminuir la cantidad de tiempo necesario para que los modelos se desarrollen en mi actividad?   {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
 Revise la configuración de su actividad y vea si hay algún cambio que esté dispuesto a hacer para mejorar la velocidad a la que se construirán los modelos.
 
@@ -115,11 +115,11 @@ Las actividades de personalización automatizada se evalúan una vez por sesión
 
 No se recomienda cambiar la métrica de objetivos a mitad de camino a través de una actividad. Aunque es posible cambiar la métrica de objetivos durante una actividad mediante la [!DNL Target] interfaz de usuario, siempre debe realizar el inicio de una nueva actividad. No garantizamos lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
 
-Esta recomendación se aplica a las actividades [!UICONTROL de asignación]automática, Destinatario automático y [!UICONTROL Automated Personalization] que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como origen de sistema de informes.
+Esta recomendación se aplica a [!UICONTROL actividades de asignación automática], [!UICONTROL Destinatario automático] y [!UICONTROL Automated Personalization] que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como fuente de sistema de informes.
 
 ### ¿Puedo utilizar la opción Restablecer datos del informe al ejecutar una actividad de Automated Personalization?
 
-No se recomienda utilizar la opción [!UICONTROL Restablecer datos] de informes para actividades de [!UICONTROL Automated Personalization] . Aunque elimina los datos de sistema de informes visibles, esta opción no elimina todos los registros de formación del modelo de [!UICONTROL Automated Personalization] . En lugar de utilizar la opción [!UICONTROL Restablecer datos] del informe para actividades de [!UICONTROL Automated Personalization] , cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades de asignación  automática y de Destinatario  automático).
+No se recomienda utilizar la opción [!UICONTROL Restablecer datos del informe] para actividades [!UICONTROL Automated Personalization]. Aunque elimina los datos de sistema de informes visibles, esta opción no elimina todos los registros de capacitación del modelo [!UICONTROL Automated Personalization]. En lugar de utilizar la opción [!UICONTROL Restablecer datos del informe] para actividades [!UICONTROL Automated Personalization], cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades [!UICONTROL de asignación automática] y [!UICONTROL de Destinatario automático]).
 
 ### ¿Cómo construye Automated Personalization modelos con respecto a los entornos?
 
