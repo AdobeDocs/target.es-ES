@@ -60,7 +60,7 @@ En el ejemplo siguiente se muestra una audiencia que incluye a los usuarios de l
 
 Dirija la actividad a visitantes o exclúyalos en función del tipo, el idioma o la versión de navegador que tengan.
 
-### Tipo  {#section_6ADC758F23F145B3A310151546D83D56}
+### Tipo   {#section_6ADC758F23F145B3A310151546D83D56}
 
 Dirija la actividad a un navegador o exclúyalo.
 
@@ -71,7 +71,7 @@ Seleccione **[!UICONTROL Tipo]** y, a continuación, elija igual a o no es igual
 
 Seleccione uno o varios. Si hay varias opciones, se conectan con un parámetro O.
 
-### Idioma  {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Idioma   {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Dirija la actividad ciertos navegadores que estén configurados en idiomas específicos o exclúyalos.
 
@@ -98,7 +98,7 @@ Los siguientes idiomas de navegador se pueden incluir o excluir de la segmentaci
 * Español
 * Chino tradicional
 
-### Versión  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versión   {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Dirija la actividad a ciertas versiones del navegador o exclúyalas.
 
@@ -119,7 +119,7 @@ En el campo de texto solo se pueden introducir versiones principales. Es decir, 
 
 Si hay varias opciones, se conectan con un parámetro O.
 
-## Vídeo de formación: Creación de audiencias ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de audiencias  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
