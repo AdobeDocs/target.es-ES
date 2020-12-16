@@ -24,11 +24,11 @@ Puede realizar cálculos sin conexión para A4T, pero es necesario realizar un p
 
 El alza es la diferencia porcentual entre los resultados de la página de control y la variante de una prueba con éxito.
 
-## ¿Cómo se calcula la confianza?   {#section_97DB24D833E742988318CA65DA65DAD9}
+## ¿Cómo se calcula la confianza?    {#section_97DB24D833E742988318CA65DA65DAD9}
 
 El nivel de confianza es la probabilidad de que la tasa de conversión medida sea diferente a la tasa de conversión de la página ganadora por motivos que no sean simple casualidad.
 
-## ¿Por qué no veo el alza y la confianza en las métricas calculadas?   {#lift-confidence}
+## ¿Por qué no veo el alza y la confianza en las métricas calculadas?    {#lift-confidence}
 
 Actualmente, las métricas calculadas no son compatibles con las funciones de alza y confianza. Esto se debe a que Analytics calcula las métricas en un nivel acumulado, en lugar de en un nivel de visitante. La confianza, en particular, es un cálculo a nivel de visitante.
 
@@ -39,7 +39,7 @@ Algunos ejemplos de métricas o casos de uso no admitidos son:
 * Valor de pedido promedio (ingresos/pedido, por Visitante). No se admite AOV porque el numerador es una métrica calculada. En su lugar, se recomienda considerar las dos métricas que influyen en AOV: Ingresos por Visitantes y Tasa de conversión.
 * Métricas calculadas que son la suma de eventos estándar. Por ejemplo, puede rastrear diez formularios de posibles clientes diferentes en diez eventos distintos y luego agregarlos para obtener el total de envíos de posibles clientes. Un método recomendado para rastrear estos eventos es implementar un solo evento de envío de posibles clientes en Analytics y, a continuación, usar un eVar para recopilar el tipo de formulario de posibles clientes. El uso de este método requiere menos variables y garantiza que puede utilizar la métrica de envío de posible cliente único en las funciones de alza y confianza.
 
-## ¿Cómo gestiona A4T los cálculos de confianza?   {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
+## ¿Cómo gestiona A4T los cálculos de confianza?    {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 A4T usa los cálculos de métricas no binarios con la suma de los datos al cuadrado. La varianza se calcula con la suma de los datos al cuadrado. Los pedidos extremos no se tienen en cuenta. Además, el cálculo de confianza no aplica una corrección de Bonferroni para varias ofertas.
 
