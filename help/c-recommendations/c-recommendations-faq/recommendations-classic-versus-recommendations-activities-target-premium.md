@@ -61,7 +61,7 @@ El flujo de trabajo de [!DNL Recommendations] se ha simplificado. En lugar de te
 1. Seleccione un   [diseño](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Obtener una vista previa de las recomendaciones resultantes.
 
-## Vista previa   {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Vista previa    {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Puede obtener una vista previa de las recomendaciones después de configurarlas y realizar los cambios necesarios sin necesidad de crearlas en la página, publicarlas y probarlas. Las vistas previas están disponibles desde [!DNL Target].
 
