@@ -38,9 +38,9 @@ La interfaz de usuario y las opciones de Prioridad varían en función de la con
 
 La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
-If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+Si esta opción no está habilitada en S[!UICONTROL Administración] > [!UICONTROL Sistema de informes] (valor predeterminado), especifique una prioridad: Bajo, Medio o Alto.
 
-To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+Para habilitar las prioridades específicas, haga clic en [!UICONTROL Administración] > [!UICONTROL Sistema de informes] y, a continuación, coloque la opción Habilitar prioridades específicas en la posición &quot;Activado&quot;.
 
 Si esta opción está habilitada, indique un valor entre 0 y 999:
 
@@ -57,7 +57,7 @@ En las actividades creadas en versiones anteriores de Target Standard/Premium, e
 
 La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
-## Configuración de informes.  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Configuración de informes.   {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Las configuraciones disponibles son las siguientes:
 
@@ -154,7 +154,7 @@ Escriba la información sobre la actividad que sea útil tener disponible para e
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Distintivo de ![tutorial de configuración de actividad (3:02)](/help/assets/tutorial.png)
+### Configuración de actividad (3:02) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
@@ -166,7 +166,7 @@ Este vídeo incluye información sobre la configuración de las actividades.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Creación de una insignia de ![tutorial para pruebas multivariable (9:25)](/help/assets/tutorial.png)
+### Creación de pruebas multivariable (9:25) ![distintivo de tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. Los objetivos y la configuración se describen a partir del minuto 7:00.
 
