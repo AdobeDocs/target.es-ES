@@ -30,7 +30,7 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 
 >[!NOTE]
 >
->Consulte la documentación [de la API de](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) Envío para obtener información sobre los tipos aceptables de todos los campos que se enumeran a continuación.
+>Consulte la [documentación de API de Envío](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obtener información sobre los tipos aceptables para todos los campos que se enumeran a continuación.
 
 | Nombre del campo | ¿Requerido? | Limitaciones | Descripción |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ adobe.target.getOffers({
 }
 ```
 
-La carga útil se puede reenviar a Adobe Analytics mediante la API [de inserción](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)de datos.
+La carga útil se puede reenviar a Adobe Analytics mediante la [API de inserción de datos](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Buscar y procesar datos de varios mboxes a través de getOffers() y applyOffers() {#multiple}
 
