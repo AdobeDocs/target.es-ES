@@ -21,10 +21,10 @@ El mbox de confirmación de pedido registra los detalles de los pedidos que se r
 >* Si los usuarios realizan compras en su sitio web, le recomendamos que implemente un mbox de confirmación de pedido aunque use los informes de Analytics para Target (A4T).
    >
    >
-* También puede crear un mbox de confirmación de pedido para at.js 1.*x* utilizando el mismo método; sin embargo, se prefiere el [!DNL at.js] método. Para obtener más información, consulte [Conversiones de seguimiento](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* También puede crear un mbox de confirmación de pedido para at.js 1.** utilizando el mismo método; sin embargo, se prefiere el  [!DNL at.js] método. Para obtener más información, consulte [Conversiones de seguimiento](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
    >
    >
-* Si está utilizando at.js 2.*x*, ya no `mboxCreate` se admite. Para la confirmación de pedidos con at.js 2.*x*, utilice las siguientes API relacionadas con el seguimiento: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) y [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+* Si está utilizando at.js 2.*x*, ya no  `mboxCreate` se admite. Para la confirmación de pedidos con at.js 2.*x*, utilice las siguientes API relacionadas con el seguimiento:  [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) y  [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 
 1. En la página de detalles del pedido, inserte el script de mbox siguiendo el modelo que aparece a continuación.
