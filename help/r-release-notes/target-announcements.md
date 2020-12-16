@@ -20,7 +20,7 @@ Anuncios e información sobre los próximos eventos, incluidas las sesiones de D
 
 Adobe fue nombrado Líder en La Ola Forrester: Plataformas de optimización de experiencias, informe del cuarto trimestre de 2020 para su oferta en este espacio, Adobe Target Premium. Adobe recibió la puntuación más alta de todos los proveedores participantes en las actuales categorías de oferta y presencia en el mercado, así como en las recomendaciones y los criterios de experiencia en la plataforma. Destinatario Premium también obtuvo el puntaje más alto posible en la innovación de las técnicas de optimización de experiencia y en los criterios de servicios de soporte. El informe se basa en una evaluación exhaustiva de 10 proveedores de plataformas de optimización de experiencias en 22 criterios.
 
-Lee al respecto en el [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html).
+Lea sobre esto en el [Blog de Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html).
 
 ## Adobe de nuevo denominado Líder en el Cuadrante Mágico de Gartner para motores de personalización
 
@@ -38,7 +38,7 @@ En este seminario web grabado, los expertos en productos de Adobe Target analiza
 
 ## Seminario web: Cómo HSBC aprovecha Adobe Target y AI para optimizar rápidamente y ofrecer personalización a escala
 
-* **Haga clic aquí para vista de la grabación del [seminario](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)web.**
+* **Haga clic aquí para vista de la grabación del  [seminario](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true) web.**
 
 McKinsey Digital reporta que &quot;hemos avanzado cinco años en la adopción digital de consumidores y empresas en apenas ocho semanas&quot;. *
 
