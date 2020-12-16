@@ -100,7 +100,7 @@ Las audiencias se pueden guardar para reutilizarlas en varias actividades o pued
 |--- |--- |
 | Audiencias reutilizables | Pueden seleccionarse audiencias reutilizables para cualquier actividad. Si cambia una de estas audiencias, se cambia para todas las actividades que la usen. |
 | Segmentos personalizados | Los segmentos personalizados (también conocidos como segmentos específicos de campaña) son lo que se utilizan en una campaña de Target Classic. Se crean como parte de la campaña y no se pueden reutilizar en otras campañas. |
-| Audiencias compartidas | Las audiencias se pueden compartir entre las distintas soluciones de [!DNL Adobe Experience Cloud]. See [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) for examples. |
+| Audiencias compartidas | Las audiencias se pueden compartir entre las distintas soluciones de [!DNL Adobe Experience Cloud]. Consulte [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) para ver ejemplos. |
 
 Si desea obtener información sobre el modo en que el perfil del visitante realiza el seguimiento de la información sobre los visitantes de su página, consulte.[Perfiles de visitantes](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -108,7 +108,7 @@ Si desea obtener información sobre el modo en que el perfil del visitante reali
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Distintivo ![Información general de tipos de actividades (9:03)](/help/assets/overview.png)
+### Tipos de actividades (9:03) ![Distintivo de información general](/help/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 
@@ -118,7 +118,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Uso de la insignia Audiencias en Adobe Target (6:21) ![Información general](/help/assets/overview.png)
+### Uso de Audiencias en Adobe Target (6:21) ![Distintivo de información general](/help/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
