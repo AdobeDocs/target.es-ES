@@ -37,15 +37,15 @@ Cuando vea la página de [!UICONTROL Ofertas de código], puede realizar las sig
 
 Consulta la información de carpeta.
 
-### Editar   ![](assets/icon_edit.png)
+### Editar    ![](assets/icon_edit.png)
 
 Edita la carpeta.
 
-### Copiar   ![](assets/icon_copy.png)
+### Copiar    ![](assets/icon_copy.png)
 
 Copia la carpeta.
 
-### Mover   ![](assets/icon_move_folder.png)
+### Mover    ![](assets/icon_move_folder.png)
 
 Haga clic en el icono, navegue hasta la ubicación a la que quiere mover la carpeta y, después, haga clic en el icono Soltar.
 
@@ -70,7 +70,7 @@ Seleccione una o más carpetas en las que realizar las siguientes acciones:
 * Mover
 * Eliminar
 
-### Descargar   ![](assets/icon_download.png)
+### Descargar    ![](assets/icon_download.png)
 
 Descargue la carpeta y su contenido.
 
@@ -78,6 +78,6 @@ Descargue la carpeta y su contenido.
 
 Comparta la carpeta y su contenido en Adobe Creative Cloud.
 
-### Copiar   ![](assets/icon_copy_content.png)
+### Copiar    ![](assets/icon_copy_content.png)
 
 Copie la carpeta y su contenido.
