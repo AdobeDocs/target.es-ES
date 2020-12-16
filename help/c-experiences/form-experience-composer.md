@@ -31,7 +31,7 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 1. Asigne un nombre a la actividad.
 1. Seleccione una ubicación.
 
-   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Seleccione una de esas ubicaciones. Para elegir la ubicación global entregada mediante target.js, elija “target-global-mbox”.
+   Al hacer clic en el cuadro [!UICONTROL Seleccionar ubicación], aparece una lista de ubicaciones disponibles. Seleccione una de esas ubicaciones. Para elegir la ubicación global entregada mediante target.js, elija “target-global-mbox”.
 
    También puede especificar una ubicación que no aparece en esta lista. Esto puede ser útil si el mbox todavía no se ha creado ni visto en una página. Escriba el nombre de la ubicación. Tenga cuidado al especificar una ubicación que no existe aún. Si la ortografía o las mayúsculas no coinciden con las que se usaron cuando se creó el mbox, la actividad no se publicará. Las ubicaciones introducidas manualmente se guardan en la lista de ubicaciones disponibles. La próxima vez que intente seleccionar una ubicación introducida manualmente, estará disponible en la lista desplegable [!UICONTROL Seleccionar ubicación] para esa actividad.
 
@@ -94,14 +94,14 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 
    ![](assets/change_criteria_2.png)
 
-1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
-1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
+1. (Opcional, para actividades A/B, Automated Personalization y Segmentación de experiencias) Para repetir este proceso en ubicaciones adicionales, haga clic en **[!UICONTROL Añadir ubicación]** y configure la ubicación y el contenido.
+1. Haga clic en **[!UICONTROL Siguiente]** y complete los pasos de creación de actividades como de costumbre para el tipo de actividad.
 
 * [Crear una prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Crear una actividad de segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Crear una actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vídeo de formación: Compositor basado en formularios ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Compositor basado en formularios  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo proporciona una demostración del compositor basado en formularios.
 
