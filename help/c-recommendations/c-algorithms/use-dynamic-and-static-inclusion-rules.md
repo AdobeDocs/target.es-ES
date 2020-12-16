@@ -15,7 +15,7 @@ ht-degree: 39%
 
 # ![PREMIUM](/help/assets/premium.png) Uso de reglas de inclusión dinámicas y estáticas{#use-dynamic-and-static-inclusion-rules}
 
-Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding additional dynamic or static filtering rules to achieve better results for your recommendations.
+Información sobre la creación de reglas de inclusión para criterios y promociones en [!DNL Adobe Target] y la adición de reglas de filtrado dinámicas o estáticas adicionales para lograr mejores resultados para sus recomendaciones.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Mientras [crea criterios](/help/c-recommendations/c-algorithms/create-new-algori
 
 Las opciones disponibles varían en función del sector seleccionado y la clave de recomendación.
 
-## Agregación de reglas de filtrado a las promociones   {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Agregación de reglas de filtrado a las promociones    {#section_D59AFB62E2EE423086281CF5D18B1076}
 
 Mientras [crea una promoción](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), seleccione **[!UICONTROL Promocionar por atributo]** y, a continuación, haga clic en **[!UICONTROL Agregar regla de filtrado]**.
 
@@ -37,7 +37,7 @@ Mientras [crea una promoción](/help/c-recommendations/t-create-recs-activity/ad
 
 ## Tipos de filtro {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-Las siguientes secciones lista los tipos de opciones de filtrado para el filtrado  dinámico y [!UICONTROL el filtro por valor] para criterios y promociones:
+Las siguientes secciones lista los tipos de opciones de filtrado para [!UICONTROL Filtrado dinámico] y [!UICONTROL Filtrar por valor] tanto para criterios como para promociones:
 
 ### Filtrado dinámico
 
@@ -55,9 +55,9 @@ Las siguientes opciones están disponibles para el filtrado dinámico:
 
 | Opción de filtrado dinámico | Detalles |
 | --- | --- |
-| [Coincidencia de atributos de entidad](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtre dinámicamente comparando un grupo de posibles elementos de recomendaciones con un elemento específico con el que los usuarios han interactuado.<br>Utilice la coincidencia [!UICONTROL de atributos de] entidad cuando desee mostrar las recomendaciones que tengan más posibilidades de atraer al visitante, como la marca favorita del visitante. |
-| [Coincidencia de atributos de perfil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtre dinámicamente comparando elementos (entidades) con un valor en el perfil del usuario.<br>Utilice Coincidencia [!UICONTROL de atributos de] Perfil cuando desee mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita. |
-| [Coincidencia de parámetros](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtre dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).<br>Utilice la coincidencia de [!UICONTROL parámetros] para recomendar contenido que coincida con los parámetros de página o los parámetros del visitante, como dimensiones del dispositivo o ubicación geográfica. |
+| [Coincidencia de atributos de entidad](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtre dinámicamente comparando un grupo de posibles elementos de recomendaciones con un elemento específico con el que los usuarios han interactuado.<br>Utilice la  [!UICONTROL coincidencia de atributos de ] entidad cuando desee mostrar las recomendaciones que tengan más posibilidades de atraer al visitante, como la marca favorita del visitante. |
+| [Coincidencia de atributos de perfil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtre dinámicamente comparando elementos (entidades) con un valor en el perfil del usuario.<br>Utilice la  [!UICONTROL coincidencia de atributos de ] Perfil cuando desee mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita. |
+| [Coincidencia de parámetros](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtre dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).<br>Utilice  [!UICONTROL Coincidencia de parámetros ] para recomendar contenido que coincida con los parámetros de página o los parámetros del visitante, como dimensiones del dispositivo o ubicación geográfica. |
 
 ### Filtrar por valor
 
@@ -79,9 +79,9 @@ Los siguientes ejemplos proporcionan ideas generales sobre cómo puede utilizar 
 | No es igual a | Con el operador &quot;no es igual que&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en el sitio web (como un producto, un artículo o una película), puede promocionar otros elementos de:<ul><li>una serie de televisión distinta</li><li>un género distinto</li><li>una serie de productos distinta</li><li>un ID de estilo distinto</li></ul> |
 | está entre | Con el operador &quot;está entre&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en el sitio web (como un producto, un artículo o una película), puede promocionar otros elementos que:<ul><li>sean más caros</li><li>sean menos caros</li><li>cuesten un 30 % más o menos</li><li>sean episodios posteriores de la misma temporada</li><li>sean los primeros libros de una saga</li></ul> |
 
-## Handling empty values when filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## Gestión de valores vacíos al filtrar por coincidencia de atributos de entidad, coincidencia de atributos de Perfil y coincidencia de parámetros {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-You can choose several options to handle empty values when filtering by [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], and [!UICONTROL Parameter Matching] for exit criteria and promotions.
+Puede elegir varias opciones para gestionar valores vacíos al filtrar por [!UICONTROL Coincidencia de atributos de entidad], [!UICONTROL Coincidencia de atributos de Perfil] y [!UICONTROL Coincidencia de parámetros] para criterios de salida y promociones.
 
 Anteriormente, si un valor estaba en blanco no se devolvía ningún resultado. La lista desplegable “Si *x* está en blanco” le permite elegir la acción que se debe realizar si los criterios contienen valores en blanco, como se muestra en la siguiente ilustración:
 
@@ -91,16 +91,16 @@ Para seleccionar la acción deseada, pase el ratón sobre el icono del engranaje
 
 | Acción | Disponible para | Detalles |
 |--- |--- |--- |
-| [!UICONTROL Ignorar esta regla de filtrado] | [!UICONTROL Coincidencia] de atributos de perfil[!UICONTROL y coincidencia de parámetros] | This is the default action for [!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching].<br>Esta opción especifica que la regla se ignora. Por ejemplo, si hay tres reglas de filtrado y la tercera no pasa ningún valor, en vez de no devolver resultado alguno, puede simplemente ignorar la tercera regla con valores en blanco. |
-| [!UICONTROL No mostrar ningún resultado para este criterio]<br>(solo criterios) | [!UICONTROL Coincidencia]de atributos de entidad, Coincidencia [!UICONTROL de atributos de]Perfil y Coincidencia [!UICONTROL de parámetros] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]Esta acción es el modo en que gestiona los valores en blanco antes de la agregación de esta opción: no se mostrarán más resultados para este criterio. |
-| [!UICONTROL No promocionar ningún elemento<br>(solo promociones)] | [!UICONTROL Coincidencia]de atributos de entidad, Coincidencia [!UICONTROL de atributos de]Perfil y Coincidencia [!UICONTROL de parámetros] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]Esta acción es el modo en que gestiona los valores en blanco antes de la agregación de esta opción: no se mostrarán más resultados para este criterio. |
-| [!UICONTROL Uso de un valor estático] | [!UICONTROL Coincidencia]de atributos de entidad, Coincidencia [!UICONTROL de atributos de]Perfil y Coincidencia [!UICONTROL de parámetros] | Si un valor está en blanco, puede optar por usar un valor estático. |
+| [!UICONTROL Ignorar esta regla de filtrado] | [!UICONTROL Coincidencia ] [!UICONTROL de atributos de perfil y coincidencia de parámetros] | Esta es la acción predeterminada para [!UICONTROL Coincidencia de atributos de Perfil] y [!UICONTROL Coincidencia de parámetros].<br>Esta opción especifica que la regla se ignora. Por ejemplo, si hay tres reglas de filtrado y la tercera no pasa ningún valor, en vez de no devolver resultado alguno, puede simplemente ignorar la tercera regla con valores en blanco. |
+| [!UICONTROL No mostrar ningún resultado para este criterio]<br> (solo criterios) | [!UICONTROL Coincidencia] de atributos de entidad, Coincidencia [!UICONTROL  de atributos de ]Perfil y Coincidencia  [!UICONTROL de parámetros] | Esta es la acción predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<br>[!DNL Target]Esta acción es el modo en que gestiona los valores en blanco antes de la agregación de esta opción: no se mostrarán más resultados para este criterio. |
+| [!UICONTROL No promocionar ningún elemento<br> (solo promociones)] | [!UICONTROL Coincidencia] de atributos de entidad, Coincidencia [!UICONTROL  de atributos de ]Perfil y Coincidencia  [!UICONTROL de parámetros] | Esta es la acción predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<br>[!DNL Target]Esta acción es el modo en que gestiona los valores en blanco antes de la agregación de esta opción: no se mostrarán más resultados para este criterio. |
+| [!UICONTROL Uso de un valor estático] | [!UICONTROL Coincidencia] de atributos de entidad, Coincidencia [!UICONTROL  de atributos de ]Perfil y Coincidencia  [!UICONTROL de parámetros] | Si un valor está en blanco, puede optar por usar un valor estático. |
 
 ## Advertencias {#section_A889FAF794B7458CA074DEE06DD0E345}
 
 >[!IMPORTANT]
 >
->Es posible que no se puedan usar atributos de tipo de datos diferentes en los criterios dinámicos o promociones durante el tiempo de ejecución con los operadores “es igual que” y “no es igual que”. You should use [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory], and [!UICONTROL Environment] values wisely on the right hand side if the left hand side has predefined attributes or custom attributes.
+>Es posible que no se puedan usar atributos de tipo de datos diferentes en los criterios dinámicos o promociones durante el tiempo de ejecución con los operadores “es igual que” y “no es igual que”. Debe utilizar valores [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] y [!UICONTROL Entorno] sabiamente en el lado derecho si el lado izquierdo tiene atributos predefinidos o personalizados.
 
 ![](assets/left_right.png)
 
