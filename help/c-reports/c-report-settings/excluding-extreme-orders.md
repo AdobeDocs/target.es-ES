@@ -14,7 +14,7 @@ ht-degree: 73%
 
 # Excluir valores extremos
 
-You can exclude extreme values from affecting reports in [!DNL Adobe Target] so a few unusual orders don&#39;t affect your activity results. Un ejemplo de pedido inusual puede ser el caso de un entrenador que compre uniformes para todo un equipo en lugar de compradores que compren uniformes de forma individual.
+Puede excluir valores extremos para que no afecten a los informes en [!DNL Adobe Target], de modo que algunos pedidos inusuales no afecten a los resultados de la actividad. Un ejemplo de pedido inusual puede ser el caso de un entrenador que compre uniformes para todo un equipo en lugar de compradores que compren uniformes de forma individual.
 
 >[!NOTE]
 >
@@ -26,14 +26,14 @@ Un valor se considera extremo si cuenta con más de 3 desviaciones estándares +
 
 Por ejemplo, el filtro de valores extremos a menudo resulta útil cuando se usa RPV. RPV combina valor de pedido promedio y tasa de conversión, y a menudo expone la volatilidad de esas métricas. Si usa RPV y determina que los pedidos no parecen estar distribuidos normalmente, podría ver resultados más normales al aplicar el filtro de pedidos extremos.
 
-Cuando se marca un valor como extremo, su valor se reemplaza por el valor de pedido promedio de la experiencia para el último mes, excluidos los extremos. The order is also marked as extreme in the [!UICONTROL Order Details] report and in the CSV download for daily results.
+Cuando se marca un valor como extremo, su valor se reemplaza por el valor de pedido promedio de la experiencia para el último mes, excluidos los extremos. El pedido también se marca como extremo en el informe [!UICONTROL Detalles del pedido] y en la descarga de CSV para obtener resultados diarios.
 
 **Para excluir valores extremos de los informes:**
 
 1. Abra una actividad que incluya tipos de métrica de ingresos o participación y, después, haga clic en la pestaña **[!UICONTROL Informes]**.
-1. Haga clic en el icono de engranaje para mostrar el cuadro de diálogo **[!UICONTROL Configuración]** .
+1. Haga clic en el icono de engranaje para mostrar el cuadro de diálogo **[!UICONTROL Configuración]**.
 
    ![Resultado del paso](assets/exclude_extreme_values.png)
 
-1. Deslice el botón **[!UICONTROL Excluir valores]** extremos a la posición &quot;activado&quot; o &quot;desactivado&quot;, según desee.
+1. Deslice el **[!UICONTROL Excluir valores extremos]** para cambiar a la posición &quot;on&quot; o &quot;off&quot;, según lo desee.
 1. Haga clic en **[!UICONTROL Guardar]**.
