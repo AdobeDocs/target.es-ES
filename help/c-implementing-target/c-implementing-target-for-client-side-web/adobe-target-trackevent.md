@@ -22,7 +22,7 @@ He aquí los detalles de API:
 
 | Clave | Tipo | Requerido | Descripción |
 |--- |--- |--- |--- |
-| mbox | Cadena | Sí | Mbox <br>**nameNota**: Si se activa una llamada a trackEvent() con un nombre de mbox que ya se ha activado en la página, el SDID de trackEvent() se restablece y será diferente a las llamadas de Destinatario en la página. Sin embargo, al activar una llamada a trackEvent() con un nombre de mbox diferente, el SDID de la llamada trackEvent() se mantiene coherente con las llamadas a Page Load Request/activateView() en la página. |
+| mbox | Cadena | Sí | Nombre de mbox <br>**Nota**: Si se activa una llamada a trackEvent() con un nombre de mbox que ya se ha activado en la página, el SDID de trackEvent() se restablece y será diferente a las llamadas de Destinatario en la página. Sin embargo, al activar una llamada a trackEvent() con un nombre de mbox diferente, el SDID de la llamada trackEvent() se mantiene coherente con las llamadas a Page Load Request/activateView() en la página. |
 | selector | Cadena | No | Los selectores de CSS utilizados para encontrar los elementos HTML. Los detectores de eventos se adjuntarán a los elementos encontrados. |
 | type | Cadena | No | Representa un tipo de evento registrado. Puede ser tanto eventos HTML conocidos como: click, mousedown, etc. como también eventos HTML personalizados. |
 | preventDefault | Booleano | No | Indica si usar `event.preventDefault()` en la llamada de retorno de la escucha de eventos. Toma el valor predeterminado de falso.<br>**Nota:** Solo compatible con `form[submit] and `un[clic]. No se admiten otros escenarios debido a la complejidad y a la gran cantidad de escenarios por admitir. |
