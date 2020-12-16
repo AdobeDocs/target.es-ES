@@ -26,7 +26,7 @@ Planifique la prueba de los elementos de la página que tienen probabilidad de g
 
 Por último, antes de crear la prueba, debe crear el contenido que desea probar. Conozca las diferencias de contenido para cada oferta y cree cualquier oferta de imagen, texto y HTML que tenga pensado usar en la prueba.
 
-## Vídeo de formación: Creación de pruebas multivariable (9:25) ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de pruebas multivariable (9:25)  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 En este vídeo explicamos cómo planificar y crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target.
 
