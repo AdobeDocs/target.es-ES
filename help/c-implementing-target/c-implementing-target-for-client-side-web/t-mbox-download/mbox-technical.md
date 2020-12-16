@@ -35,7 +35,7 @@ Para Target Standard, [!DNL mbox.js] ejecuta otro archivo de JavaScript, [!DNL t
 
 Además, se utiliza el siguiente fragmento de código para sondear el DOM:
 
-
+ 
 `https://github.com/dperini/ContentLoaded`
 
 ## Target.js y el Compositor de experiencias visuales {#section_2B3FF6AC5B8D431C83D9EDCF53CB1472}
@@ -45,7 +45,7 @@ Al usar el [!UICONTROL Compositor de experiencias visuales] para configurar una 
 * Para la generación de miniaturas: [!DNL https://html2canvas.hertzen.com/]
 * Para la consulta entre dominios: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css], se usan para enviar mensajes entre los iFrames. Estas secuencias permiten a Adobe enviar datos entre las páginas.
 
-## Consideraciones para sitios angulares y aplicaciones de una sola página   {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+## Consideraciones para sitios angulares y aplicaciones de una sola página    {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 Si va a implementar Target en un sitio angular o en una aplicación de una sola página (SPA), tiene que usar la biblioteca at.js en lugar de mbox.js.
 
