@@ -15,7 +15,7 @@ ht-degree: 90%
 
 # ![PREMIUM](/help/assets/premium.png) Atributos de entidad personalizados{#custom-entity-attributes}
 
-Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
+Utilice atributos de entidad personalizados de un solo valor y varios valores en [!DNL Adobe Target Recommendations] para definir información adicional sobre los elementos del catálogo.
 
 ## Límites {#limits}
 
@@ -25,7 +25,7 @@ La longitud máxima de los atributos personalizados de entidad de un solo valor 
 
 Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (véase arriba).
 
-## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
+## Valores de atributos de entidad personalizados {#section_313331A9F8194A89B5EDD89363018651}
 
 Los atributos de entidad personalizados pueden contener uno o varios valores. Los valores de los atributos de entidad se muestran en la vista del producto.
 
@@ -61,7 +61,7 @@ Cuando un atributo personalizado se envía como matriz de JSON válida, se trata
 * Las matrices deben contener un solo tipo de valor. Las matrices con valores mezclados (`["AB",1,true]`) no se admiten.
 * Un atributo de varios valores que incluye una matriz de JSON anidada (`[10,12,[1,2,3]]`) se trata como un atributo de un valor.
 
-## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementación de atributos de varios valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Los atributos de entidad personalizados de varios valores se admiten al usar fuentes (CSV), `targetPageParams`, la API Entrega y la API Guardar entidades para cargar productos. Los valores nuevos reemplazan a los actuales, no se adjuntan. Las matrices vacías ([]) se tratan como si no tuvieran valores.
 
@@ -71,7 +71,7 @@ Puede incluir hasta 500 valores en un atributo multivalor.
 
 ### Usar targetPageParams
 
-En el siguiente ejemplo vemos cómo se utiliza  `targetPageParams`
+En el siguiente ejemplo vemos cómo se utiliza   `targetPageParams`
 
 ```javascript
 function targetPageParams() { 
@@ -127,9 +127,9 @@ Puede pasar atributos de varios valores mediante la API de Envío en un parámet
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
+Consulte la [documentación de la API de Adobe Recommendations](http://developers.adobetarget.com/api/recommendations) para obtener información sobre el uso de las API de Envío y Guardar entidades.
 
-## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Uso de operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Al aplicar operadores a atributos personalizados de varios valores en reglas de inclusión de algoritmos, reglas de catálogo y reglas de exclusión, el resultado es *true* si al menos un valor de la lista cumple el criterio de la operación (booleano *OR*).
 
@@ -150,7 +150,7 @@ Ejemplo: `genre equals abc`
 
 * Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es false porque ningún valor es igual a `abc`.
 * Caso 2: `entity.genre = ["abc", "de", "ef"]`. El resultado es true porque un valor es igual a `abc`.
-* Case 3: `entity.genre = ["abcde", "de", "ef"]`. El resultado es “false” porque `abc` no es igual a ningún elemento de la lista.
+* Caso 3: `entity.genre = ["abcde", "de", "ef"]`. El resultado es “false” porque `abc` no es igual a ningún elemento de la lista.
 
 ### No es igual a
 
@@ -160,7 +160,7 @@ Ejemplo: `genre not equals abc`
 
 * Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es true porque ningún valor es igual a `abc`.
 * Caso 2: `entity.genre = ["abc", "de", "ef"]`. El resultado es false porque un valor es igual a `abc`.
-* Case 3: `entity.genre = ["abcde", "de", "ef"]`. El resultado es “true” porque `abc` no es igual a ningún elemento de la lista.
+* Caso 3: `entity.genre = ["abcde", "de", "ef"]`. El resultado es “true” porque `abc` no es igual a ningún elemento de la lista.
 
 ### Contiene
 
@@ -188,7 +188,7 @@ Ejemplo: `genre starts with abc`
 
 * Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es false porque ningún valor empieza por `abc`.
 * Caso 2: `entity.genre = ["abcde", "de", "ef"]`. El resultado es true porque un valor empieza por `abc`.
-* Case 3: `entity.genre = ["ab", "de", "abc"]`. El resultado es “true” porque un valor comienza por `abc` (no necesariamente el primer elemento de la lista).
+* Caso 3: `entity.genre = ["ab", "de", "abc"]`. El resultado es “true” porque un valor comienza por `abc` (no necesariamente el primer elemento de la lista).
 
 ### Finaliza con
 
@@ -252,7 +252,7 @@ Ejemplo: `price dynamically ranges in 80% to 120% of 100`
 >
 >*Doble* es un tipo de datos de Java. Con los operadores que requieren valores numéricos, convertir en doble elimina los valores no numéricos de los resultados, ya que no se tienen en cuenta.
 
-## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Atributos de varios valores en diseños {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Los atributos de varios valores aparecen como una lista separada por comas cuando se hace referencia a ellos en un diseño.
 
