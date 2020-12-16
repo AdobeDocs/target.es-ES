@@ -14,15 +14,15 @@ ht-degree: 20%
 
 # ![PREMIUM](/help/assets/premium.png) Búsqueda en el catálogo{#catalog-search}
 
-The [!UICONTROL Catalog Search] page helps you locate the products or content in your catalog.
+La página [!UICONTROL Buscar en el catálogo] le ayuda a encontrar los productos o el contenido en el catálogo.
 
 Los catálogos hacen referencia a todo el conjunto de productos (entidades). El catálogo puede contener muchas colecciones, una forma de organizar los productos en bloques lógicos.
 
-To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+Para acceder a la página [!UICONTROL Buscar en el catálogo], haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Buscar en el catálogo]**.
 
 ![Página de búsqueda de catálogo](/help/c-recommendations/c-products/assets/catalog-search.png)
 
-La tarea más básica que puede realizar en esta página es buscar un elemento. Además, puede cambiar el entorno; guardar los resultados de la búsqueda en colecciones o exclusiones; agregue, elimine o reorganice columnas en la tabla y agregue nuevas facetas de búsqueda al panel [!UICONTROL Filtros] .
+La tarea más básica que puede realizar en esta página es buscar un elemento. Además, puede cambiar el entorno; guardar los resultados de la búsqueda en colecciones o exclusiones; agregue, elimine o reorganice columnas en la tabla y agregue nuevas facetas de búsqueda al panel [!UICONTROL Filtros].
 
 ## Buscar un elemento
 
@@ -30,7 +30,7 @@ Puede utilizar una búsqueda simple o avanzada para buscar elementos en el catá
 
 ### Realizar una búsqueda simple
 
-1. Escriba un término de búsqueda en el campo **[!UICONTROL Buscar productos]** .
+1. Escriba un término de búsqueda en el campo **[!UICONTROL Buscar productos]**.
 
 1. (Opcional) Puede restringir la búsqueda seleccionando una opción de búsqueda en el menú de opciones que se muestra al hacer clic en la flecha hacia abajo del campo de búsqueda.
 
@@ -61,9 +61,9 @@ Puede utilizar una búsqueda simple o avanzada para buscar elementos en el catá
    >
    >Cuando se realiza una búsqueda de catálogo en un atributo personalizado con un valor numérico, los resultados tratan el atributo personalizado como un tipo de cadena en lugar de un valor numérico.
    >
-   >Actualmente, no hay ninguna funcionalidad disponible que permita a los clientes cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) de cliente que haga referencia a los atributos que necesitan que el tipo cambie de cadena a numérico.
+   >Actualmente, no hay ninguna funcionalidad disponible que permita a los clientes cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema con el cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) que haga referencia a los atributos que necesitan que el tipo cambie de cadena a numérico.
 
-1. También puede utilizar filtros para encontrar el producto deseado. En el siguiente ejemplo, expandiendo la faceta [!UICONTROL Colecciones] y seleccionando &quot;Herramientas de bicicleta&quot;, se muestran todas las herramientas de bicicleta del catálogo.
+1. También puede utilizar filtros para encontrar el producto deseado. En el siguiente ejemplo, al expandir la faceta [!UICONTROL Colecciones] y seleccionar &quot;Herramientas de bicicleta&quot;, se muestran todas las herramientas de bicicleta del catálogo.
 
    ![Herramientas de bicicleta](/help/c-recommendations/c-products/assets/bike-results-3.png)
 
@@ -73,9 +73,9 @@ Puede utilizar una búsqueda simple o avanzada para buscar elementos en el catá
 
 ### Realizar una búsqueda avanzada {#advanced-search}
 
-Puede utilizar la búsqueda  avanzada para restringir aún más los resultados de búsqueda o para guardar los resultados de búsqueda como una [colección](/help/c-recommendations/c-products/collections.md) o [exclusión](/help/c-recommendations/c-products/exclusions.md).
+Puede utilizar [!UICONTROL Búsqueda avanzada] para restringir aún más los resultados de búsqueda o para guardar los resultados de búsqueda como una [colección](/help/c-recommendations/c-products/collections.md) o [exclusión](/help/c-recommendations/c-products/exclusions.md).
 
-1. Haga clic en el vínculo Búsqueda **** avanzada.
+1. Haga clic en el vínculo **[!UICONTROL Búsqueda avanzada]**.
 
    ![Página Búsqueda avanzada](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -87,11 +87,11 @@ Puede utilizar la búsqueda  avanzada para restringir aún más los resultados d
 
 1. Haga clic en **[!UICONTROL Buscar]**.
 
-1. (Opcional) Haga clic en **[!UICONTROL Guardar como]** y, a continuación, en **[!UICONTROL Colección]** o **[!UICONTROL Exclusión]**.
+1. (Opcional) Haga clic en **[!UICONTROL Guardar como]** y, a continuación, haga clic en **[!UICONTROL Colección]** o **[!UICONTROL Exclusión]**.
 
    ![Guardar como opciones](/help/c-recommendations/c-products/assets/save-as.png)
 
-   Para obtener más información, consulte [Crear una colección o exclusión basada en la búsqueda](#save-as) avanzada a continuación.
+   Para obtener más información, consulte [Crear una colección o exclusión basada en la búsqueda avanzada](#save-as) más abajo.
 
 ## Vista de los detalles de un elemento
 
@@ -113,27 +113,27 @@ Toda la información sobre ese elemento se elimina del índice del catálogo. El
 
 ## Actualizar el catálogo
 
-El índice del catálogo se crea automáticamente al cargar la primera fuente y se actualiza según la programación [](/help/c-recommendations/c-products/feeds.md#steps)especificada.
+El índice del catálogo se crea automáticamente al cargar la primera fuente y se actualiza según la [programación especificada](/help/c-recommendations/c-products/feeds.md#steps).
 
 El catálogo se actualiza automáticamente cuando se reciben actualizaciones mediante archivos de fuentes, API o actualizaciones de mbox. Las actualizaciones se suelen completar en una hora. Si las actualizaciones están en curso, se muestra la hora en la que se inició la más reciente. Si no hay actualizaciones en curso, se muestra la hora de inicio y finalización de la más reciente.
 
-## Crear una colección o exclusión basada en la Búsqueda avanzada {#save-as}
+## Crear una colección o exclusión basada en la Búsqueda avanzada  {#save-as}
 
 Puede crear [colecciones](/help/c-recommendations/c-products/collections.md) o [exclusiones](/help/c-recommendations/c-products/exclusions.md) con Búsqueda avanzada en la página Búsqueda en el catálogo ([!UICONTROL Recommendations] > [!UICONTROL Búsqueda en el catálogo] > [!UICONTROL Búsqueda avanzada]).
 
-1. Realice una búsqueda [](#advanced-search)avanzada.
+1. Realice una [búsqueda avanzada](#advanced-search).
 
-1. Haga clic en **[!UICONTROL Guardar como]** y, a continuación, en **[!UICONTROL Colección]** o **[!UICONTROL Exclusión]**.
+1. Haga clic en **[!UICONTROL Guardar como]** y, a continuación, haga clic en **[!UICONTROL Colección]** o **[!UICONTROL Exclusión]**.
 
    ![Guardar como opciones](/help/c-recommendations/c-products/assets/save-as.png)
 
    >[!IMPORTANT]
    >
-   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. Esta diferencia puede llevar a confusiones. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea un catálogo con la intención de obtener productos que contengan “vacaciones”, solo se devolverán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”. Las exclusiones se gestionan de forma similar.
+   >La funcionalidad [!UICONTROL Búsqueda avanzada] no distingue entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento del envío se basan en la búsqueda que distingue entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear colecciones o exclusiones basadas en resultados usando la funcionalidad [!UICONTROL Búsqueda avanzada]. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea un catálogo con la intención de obtener productos que contengan “vacaciones”, solo se devolverán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”. Las exclusiones se gestionan de forma similar.
 
 ## Cambiar el entorno
 
-[Los entornos](/help/administrating-target/environments.md) le permiten organizar sus sitios y entornos de preproducción para facilitar la gestión y el sistema de informes separado.
+[Los ](/help/administrating-target/environments.md) entornos le permiten organizar sus sitios y entornos de preproducción para facilitar la administración y el sistema de informes separado.
 
 1. Haga clic en el vínculo Entorno.
 
@@ -143,13 +143,13 @@ Puede crear [colecciones](/help/c-recommendations/c-products/collections.md) o [
 
 ## Modificar la página Buscar en el catálogo (filtros y columnas)
 
-Puede modificar temporalmente los filtros y las columnas disponibles en la página [!UICONTROL Buscar] en el catálogo de la sesión actual.
+Puede modificar temporalmente los filtros y las columnas disponibles en la página [!UICONTROL Buscar en el catálogo] de la sesión actual.
 
 ### Modificar filtros
 
-Puede agregar facetas de filtro adicionales a la página Búsqueda [!UICONTROL de] catálogo.
+Puede agregar facetas de filtro adicionales a la página [!UICONTROL Buscar en el catálogo].
 
-1. En el panel **[!UICONTROL Filtros]** , haga clic en **[!UICONTROL Modificar]**.
+1. En el panel **[!UICONTROL Filtros]**, haga clic en **[!UICONTROL Modificar]**.
 
    ![Vínculo Modificar filtros](/help/c-recommendations/c-products/assets/modify-filters.png)
 
@@ -161,15 +161,15 @@ Tenga en cuenta que las facetas de filtro adicionales solo están disponibles en
 
 ### Modificar columnas
 
-Puede modificar temporalmente las columnas activas en la página Búsqueda [!UICONTROL de] catálogo.
+Puede modificar temporalmente las columnas activas en la página [!UICONTROL Buscar en el catálogo].
 
-1. Click the **[!UICONTROL Columns]** link.
+1. Haga clic en el vínculo **[!UICONTROL Columnas]**.
 
    ![Opciones de columnas](/help/c-recommendations/c-products/assets/columns.png)
 
-1. (Condicional) Para reordenar el orden de las columnas activas, arrastre y suelte las columnas en la sección Columnas **** activas en el orden deseado.
+1. (Condicional) Para reordenar el orden de las columnas activas, arrastre y suelte las columnas en la sección **[!UICONTROL Columnas activas]** en el orden deseado.
 
-1. (Condicional) Arrastre y suelte los elementos desde las columnas **** activas a las columnas **** inactivas (y viceversa), según lo desee.
+1. (Condicional) Arrastre y suelte los elementos de las **[!UICONTROL Columnas activas]** en las **[!UICONTROL Columnas inactivas]** (y viceversa), según lo desee.
 
    También puede hacer clic en el icono Eliminar ( x ) al lado de la columna que desee mover de la sección activa a inactiva.
 
