@@ -28,7 +28,7 @@ Use el cuadro de búsqueda para buscar la lista [!UICONTROL Audiencias]. Puede b
 
 Puede ordenar la lista de audiencias por nombre o por la fecha de la última modificación. Para ordenar por nombre o fecha, haga clic en el encabezado de columna y, a continuación, seleccione si quiere mostrar las audiencias en orden ascendente o descendente.
 
-## Vídeo de capacitación: Creación de una insignia de ![tutorial de Audiencias](/help/assets/tutorial.png)
+## Vídeo de capacitación: Creación de Audiencias ![distintivo de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
