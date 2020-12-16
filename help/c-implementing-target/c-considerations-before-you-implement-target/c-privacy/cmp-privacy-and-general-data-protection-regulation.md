@@ -73,7 +73,7 @@ Hay tres escenarios a considerar cuando se usa la inclusión:
 
 1. **La etiqueta de [!DNL Target] se aprobó previamente mediante [!DNL Launch] (o [!DNL Target] que el titular de los datos haya aprobado previamente):** La etiqueta de [!DNL Target] no se dispone para el consentimiento y funciona como se espera.
 1. **[!DNL Target]La etiqueta de NO está aprobada previamente y `bodyHidingEnabled` es FALSO:** la etiqueta de se activa solo después de que se haya obtenido el consentimiento del cliente. [!DNL Target] Antes de recopilar el consentimiento, solo está disponible el contenido predeterminado. Después de recibir el consentimiento, se llama a [!DNL Target], y el contenido personalizado está disponible para el sujeto de los datos (visitante). Debido a que solo el contenido predeterminado está disponible antes del consentimiento, es importante aprovechar una estrategia adecuada, como una página de inicio que cubra cualquier parte de la página o contenido que pueda ser personalizado. Esto asegura que la experiencia se mantenga consistente para el sujeto de los datos (visitante).
-1. **[!DNL Target]La etiqueta de NO está aprobada previamente y `bodyHidingEnabled` es VERDADERO:** la etiqueta de se activa solo después de que se haya obtenido el consentimiento del cliente. [!DNL Target] Antes de recopilar el consentimiento, solo está disponible el contenido predeterminado. Sin embargo, debido a que `bodyHidingEnabled` se establece como verdadero, `bodyHiddenStyle` dicta qué contenido de la página está oculto hasta que se dispara la etiqueta de [!DNL Target] (o el sujeto de los datos rechaza la opción Opt-in, en cuyo caso se muestra el contenido predeterminado). By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. La configuración de nuestra página recomendada se encuentra a continuación para que todo el cuerpo de la página, excepto el cuadro de diálogo del administrador de consentimiento, se oculte al colocar el contenido de la página en un contenedor y el cuadro de diálogo del administrador de consentimiento en un contenedor separado. Estos ajustes configuran [!DNL Target] de modo que ocultan únicamente el contenedor de contenido de la página. Consulte la [documentación de Launch para obtener más información sobre cómo configurar estos ajustes](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
+1. **[!DNL Target]La etiqueta de NO está aprobada previamente y `bodyHidingEnabled` es VERDADERO:** la etiqueta de se activa solo después de que se haya obtenido el consentimiento del cliente. [!DNL Target] Antes de recopilar el consentimiento, solo está disponible el contenido predeterminado. Sin embargo, debido a que `bodyHidingEnabled` se establece como verdadero, `bodyHiddenStyle` dicta qué contenido de la página está oculto hasta que se dispara la etiqueta de [!DNL Target] (o el sujeto de los datos rechaza la opción Opt-in, en cuyo caso se muestra el contenido predeterminado). De forma predeterminada, `bodyHiddenStyle` se establece en `body { opacity:0;}`, lo que oculta la etiqueta de cuerpo HTML. La configuración de nuestra página recomendada se encuentra a continuación para que todo el cuerpo de la página, excepto el cuadro de diálogo del administrador de consentimiento, se oculte al colocar el contenido de la página en un contenedor y el cuadro de diálogo del administrador de consentimiento en un contenedor separado. Estos ajustes configuran [!DNL Target] de modo que ocultan únicamente el contenedor de contenido de la página. Consulte la [documentación de Launch para obtener más información sobre cómo configurar estos ajustes](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
 
    La configuración de página recomendada para el escenario 3 es:
 
@@ -132,7 +132,7 @@ Los datos agregados o anonimizados (por ejemplo, datos de informe) que no identi
 | ID de usuario | Tipo de ID de espacio de nombres | ID de espacio de nombres | Definición |
 |--- |--- |--- |--- |
 | Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud ID, conocido anteriormente como ID de visitante o Marketing Cloud ID. Puede usar la API de JavaScript para ubicar este ID (consulte los detalles más abajo). |
-| ID de TnT/ID de cookie(TNTID) | Standard | 9 | Identificador de Target establecido como cookie en el navegador del visitante. Puede usar la API de JavaScript para ubicar este ID (consulte los detalles más abajo). |
+| ID de TnT/ID de cookie(TNTID) | Estándar | 9 | Identificador de Target establecido como cookie en el navegador del visitante. Puede usar la API de JavaScript para ubicar este ID (consulte los detalles más abajo). |
 | ID de terceros/ID de administración de la relación con los clientes.  (THIRDPARTYID) | Específico de Target | N/A | Si proporciona a Target su administración de la relación con los clientes u otra información de identificador único para sus clientes. |
 
 >[!NOTE]
@@ -143,11 +143,11 @@ Los datos agregados o anonimizados (por ejemplo, datos de informe) que no identi
 
 RGPD y CCPA no afectan al momento en el que se requiere consentimiento, sino que cambia el modo en que se consigue. La estrategia de consentimiento de cada cliente depende de su forma de recopilar y utilizar los datos, así como de su política de privacidad. La gestión de consentimiento no es compatible y no debería buscarse mediante [!DNL Target] para RGPD y CCPA.
 
-[!DNL Adobe] no ofrece actualmente una solución de administración de consentimiento, pero hay diversas herramientas en desarrollo en el mercado para satisfacer algunos de los nuevos requisitos. For more information on privacy tools in general, including consent managers, see the [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) on the *International Association of Privacy Professionals (iaap)* website.
+[!DNL Adobe] no ofrece actualmente una solución de administración de consentimiento, pero hay diversas herramientas en desarrollo en el mercado para satisfacer algunos de los nuevos requisitos. Para obtener más información sobre las herramientas de privacidad en general, incluidos los administradores de consentimiento, consulte el [Informe de proveedores de tecnología de privacidad de 2017](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) en el *sitio Web de la Asociación Internacional de Profesionales de Privacidad (iaap)*.
 
 [!DNL Target] proporciona compatibilidad con Opt-in a través de [!DNL Launch] para ayudar a respaldar su estrategia de gestión de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Launch] para aprobar previamente la etiqueta de [!DNL Target]. El uso de [!DNL Launch] es el enfoque recomendado para administrar inclusiones. Existe un control granular adicional en [!DNL Launch] para ocultar elementos seleccionados de su página antes de la activación de [!DNL Target] que son útiles para aprovechar como parte de su estrategia de consentimiento.
 
-For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Además, consulte la *inclusión de Adobe Target y Experience Platform Launch* en la sección superior.
+Para obtener más información sobre GDPR, CCPA y [!DNL Launch], consulte [Biblioteca JavaScript de privacidad de Adobe y GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Además, consulte la *inclusión de Adobe Target y Experience Platform Launch* en la sección superior.
 
 ### ¿Envía AdobePrivacy.js información a la API del RGPD?{#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -200,7 +200,7 @@ Además de los requisitos del Servicio de privacidad central, un mensaje de RGPD
 }
 ```
 
-### ¿Qué tipos de respuesta puedo esperar de Target a través de la API del RGPD?  {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### ¿Qué tipos de respuesta puedo esperar de Target a través de la API del RGPD?   {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | Estado de la solicitud | Mensaje de respuesta de Target | Situación |
 |--- |--- |--- |
@@ -292,7 +292,7 @@ La siguiente tabla contiene descripción de los campos JSON de perfil ilustrativ
 >
 >Esta es una versión abreviada del JSON de un perfil de [!DNL Target] con fines ilustrativos. Muchos de los campos del perfil de [!DNL Target] no son estándar. El resultado obtenido depende de la información que contenga ese perfil del visitante específico.
 
-### ¿Admite Target la ocultación de la IP?  {#section_428907B0CD9842D9B245B38C66A53C6A}
+### ¿Admite Target la ocultación de la IP?   {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] admite la ocultación de la IP si se decide utilizar dicha ocultación como parte de la estrategia de implementación del RGPD o de la CCPA. Para obtener más información, consulte  [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
