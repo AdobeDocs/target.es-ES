@@ -21,7 +21,7 @@ Esta sección contiene la información siguiente:
 * [Buscar activos por palabra clave](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
 * [Guardar colecciones inteligentes](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
-## Buscar activos por palabra clave   {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Buscar activos por palabra clave    {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imágenes]** para acceder a la [!UICONTROL Biblioteca de activos].
 
@@ -37,7 +37,7 @@ Esta sección contiene la información siguiente:
 
 1. En el cuadro de búsqueda, escriba una palabra clave para el activo que quiera encontrar y luego presione Intro.
 
-## Guardar colecciones inteligentes   {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## Guardar colecciones inteligentes    {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 Puede crear búsquedas guardadas, llamadas colecciones inteligentes, para ahorrar tiempo al realizar búsquedas parecidas. Una búsqueda guardada crea una colección inteligente que se actualiza automáticamente con los resultados de búsqueda.
 
