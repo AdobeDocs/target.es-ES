@@ -36,7 +36,7 @@ Consulte el [Foro de la comunidad de Target](/help/cmp-resources-and-contact-inf
 
 Lea nuestros [exploradores permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
 
-## Biblioteca JavaScript de Target (at.js y mbox.js).  {#section_C2AC78DFDAD84981A8C84DF20893E340}
+## Biblioteca JavaScript de Target (at.js y mbox.js).   {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
 **¿Qué archivo JavaScript de implementación debo usar, at.js o mbox.js?**
 
@@ -62,7 +62,7 @@ Use nuestros [informes para determinar la experiencia ganadora](/help/c-activiti
 
 **¿Puedo realizar una actividad con un nivel de personalización como parte integral de la actividad?**
 
-Seleccione la opción Destinatario [](/help/c-activities/auto-target/auto-target-to-optimize.md) automático.
+Consulte la opción [Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 **¿Cómo puedo saber qué tipo de actividad se ajusta mejor a mis necesidades?**
 
@@ -189,7 +189,7 @@ Pruebe la [información de solución de problemas](/help/c-experiences/c-visual-
 
 También tenemos un [método basado en formularios](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que puede desbloquearlo.
 
-Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que deba comunicarse con su departamento de TI para  [allowlist Adobe&#39;s proxy servers](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
+Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que deba comunicarse con su departamento de TI para   [También ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) los servidores proxy del Adobe de lista de permitidos.
 
 **Tengo un sitio adaptable. Al crear una actividad, ¿cómo puedo estar seguro de que estoy considerando dispositivos clave?**
 
@@ -197,7 +197,7 @@ Pruebe la función [Ventanillas móviles](/help/c-experiences/c-visual-experienc
 
 **Tengo varios dominios. Uno de los dominios necesita el Compositor de experiencia mejorada habilitado, mientras que otros necesitan que esté deshabilitado. ¿Cómo puedo hacer esto?**
 
-You can always use [Enhanced Experience Composer option at the activity level](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
+Siempre puede utilizar la opción [Compositor de experiencias mejorado en el nivel de actividad](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular la configuración predeterminada ( Administración > Compositor de experiencias visuales).
 
 **¿Por qué no veo una opción para intercambiar imágenes?**
 
@@ -271,7 +271,7 @@ Utilice el poder de [las actividades basadas en formularios](/help/c-experiences
 
 Eche un vistazo a los siguientes aspectos del producto:
 
-* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics para Destinatario (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
