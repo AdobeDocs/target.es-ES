@@ -1,6 +1,6 @@
 ---
 keywords: exclusions
-description: Cree una exclusión [!DNL Adobe Target Recommendations] para evitar que los productos o el contenido se recomienden a los visitantes.
+description: Cree una exclusión en [!DNL Adobe Target Recommendations] para evitar que los productos o el contenido se recomienden a los visitantes.
 title: Exclusiones en Adobe Target
 feature: entities
 translation-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 45%
 
 Cree una exclusión en [!DNL Adobe Target Recommendations] para evitar que los productos o el contenido se recomienden a los visitantes. Una exclusión es un subconjunto de productos o contenido que no se debe recomendar a los visitantes.
 
-Las exclusiones están disponibles en toda la cuenta. A diferencia de las colecciones, en las que se especifica una colección específica para cada experiencia al crear una actividad de [!UICONTROL Recommendations] , las exclusiones se aplican a todas las actividades de la cuenta. No hay opción para asignar un grupo de exclusión durante la creación de la actividad.
+Las exclusiones están disponibles en toda la cuenta. A diferencia de las colecciones, donde se especifica una colección específica para cada experiencia a medida que se crea una actividad [!UICONTROL Recommendations], las exclusiones se aplican a todas las actividades de la cuenta. No hay opción para asignar un grupo de exclusión durante la creación de la actividad.
 
 Algunos ejemplos de veces que se utilizarían exclusiones son:
 
@@ -54,7 +54,7 @@ Algunos ejemplos de veces que se utilizarían exclusiones son:
 
 ## Cree una exclusión con Búsqueda avanzada
 
-You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+También puede crear exclusiones mediante [!UICONTROL Búsqueda avanzada] en la página [Búsqueda en el catálogo](/help/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Búsqueda en el catálogo] > [!UICONTROL Búsqueda avanzada]).
 
 ![Guardar como cuadro de diálogo](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -62,7 +62,7 @@ Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, pue
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear exclusiones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea una exclusión con la intención de excluir productos que contengan “vacaciones”, solo se excluirán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
+>La funcionalidad [!UICONTROL Búsqueda avanzada] no distingue entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento del envío se basan en la búsqueda que distingue entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear exclusiones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea una exclusión con la intención de excluir productos que contengan “vacaciones”, solo se excluirán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
 
 ## Editar, copiar o eliminar una exclusión
 
@@ -74,7 +74,7 @@ Puede copiar una exclusión existente para crear una exclusión de duplicado que
 
 Tenga en cuenta que las exclusiones están disponibles en toda la cuenta. Asegúrese de tener esto en cuenta antes de eliminar una exclusión. No se pueden recuperar las exclusiones eliminadas.
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de capacitación: Crear colecciones y exclusiones en Recommendations (7:05) ![distintivo de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
