@@ -19,7 +19,7 @@ ht-degree: 86%
 
 La solución [!DNL Adobe Target] tiene varios componentes:
 
-## Target Standard  {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## Target Standard   {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
 [!DNL Target Standard] es un front-end para [!DNL Adobe Target] que sirve para crear y administrar de forma visual pruebas A/B y actividades de segmentación basada en reglas, además de permitir conectarse a Adobe Experience Cloud. [!DNL Target Standard] también admite la inserción de código personalizado tanto dentro como fuera del flujo de trabajo del [!UICONTROL Compositor de experiencias visuales]. [!DNL Target Standard] ofrece una estrategia de implementación simplificada con sus propiedades digitales: una sola línea de código en cada página gestiona toda la comunicación necesaria entre su sitio y [!DNL Adobe Target].
 
@@ -78,7 +78,7 @@ Esta funcionalidad revela capacidades completamente nuevas, como:
 
 ### Permisos de usuario de Enterprise
 
-[La funcionalidad Permisos](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) de usuario de Enterprise le permite crear diferentes proyectos (llamados &quot;Perfiles de producto&quot; en la [!DNL Adobe Admin Console for Enterprise]) para permitirle asignar diferentes permisos a un único usuario que dicte los derechos de acceso de ese usuario para cada proyecto. Estos proyectos independientes pueden compararse con el modo en el que funcionan los grupos de informes en [!DNL Adobe Analytics]. Cada proyecto tiene usuarios específicos con funciones específicas que se aplican a un conjunto de propiedades. El resultado es que los clientes podrán restringir el acceso de vista, edición, aprobación y publicación a sus usuarios en función de la región, el entorno (dev/stage/prod), el canal u otros criterios personalizados.
+[La funcionalidad ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Permisos de usuario de Enterprise le permite crear diferentes proyectos (llamados &quot;Perfiles de producto&quot; en la  [!DNL Adobe Admin Console for Enterprise]) para permitirle asignar diferentes permisos a un único usuario que dicte los derechos de acceso de ese usuario para cada proyecto. Estos proyectos independientes pueden compararse con el modo en el que funcionan los grupos de informes en [!DNL Adobe Analytics]. Cada proyecto tiene usuarios específicos con funciones específicas que se aplican a un conjunto de propiedades. El resultado es que los clientes podrán restringir el acceso de vista, edición, aprobación y publicación a sus usuarios en función de la región, el entorno (dev/stage/prod), el canal u otros criterios personalizados.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -88,11 +88,11 @@ Para obtener más información, consulte la [documentación de Recommendations C
 
 ## Experience League: Kit de bienvenida de Adobe Target {#kit}
 
-Cree su programa de optimización y personalización en Adobe Target con este kit de bienvenida. It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
+Cree su programa de optimización y personalización en Adobe Target con este kit de bienvenida. Incluye información, herramientas y recursos clave que le ayudarán a prepararse para su primera [!DNL Adobe Target] actividad y a iniciarla, con beneficios rápidos a corto plazo y estrategias de optimización a largo plazo.
 
 [El kit de bienvenida de Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Vídeo de capacitación: Distintivo ![Información general de tipos de actividades (9:03)](/help/assets/overview.png)
+## Vídeo de capacitación: Tipos de actividades (9:03) ![Distintivo de información general](/help/assets/overview.png)
 
 En el siguiente vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium] y el modo en que el flujo de trabajo guiado de tres pasos de Target puede ayudarle a lograr sus objetivos.
 
