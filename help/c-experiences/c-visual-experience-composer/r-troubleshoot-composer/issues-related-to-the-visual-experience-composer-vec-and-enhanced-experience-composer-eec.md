@@ -20,13 +20,13 @@ A veces se producen problemas de visualización y otros problemas en el Composit
 
 Con los cambios más recientes (agosto de 2020), todos los usuarios con versiones de navegador Chrome 80+:
 
-* No *podrá* utilizar el VEC (con o sin la extensión VEC Helper instalada y habilitada) en las páginas protegidas por contraseña de sus sitios. Esto se debe a que las cookies de inicio de sesión del sitio se considerarán cookies de terceros y no se enviarán con la solicitud de inicio de sesión. La única excepción es cuando la cookie de inicio de sesión del sitio del cliente ya tiene el parámetro SameSite establecido en &quot;none&quot;.
-* No *podrá* descargar [!DNL Target] bibliotecas mientras edita una actividad (cuando aún no se encuentren en el sitio). Esto se debe a que la llamada de descarga se realiza desde el dominio del cliente hacia un dominio de Adobe seguro y se rechaza como no autenticada.
-* El EEC *no funcionará* para todos los usuarios porque no puede establecer el atributo SameSite para las cookies en `adobemc.com domain`. Sin este atributo, el explorador rechazará estas cookies, lo que ocasionará que el EEC falle.
+* *no* podrá utilizar el VEC (con o sin la extensión del asistente de VEC instalada y habilitada) en páginas de sus sitios protegidas por contraseña. Esto se debe a que las cookies de inicio de sesión del sitio se considerarán cookies de terceros y no se enviarán con la solicitud de inicio de sesión. La única excepción es cuando la cookie de inicio de sesión del sitio del cliente ya tiene el parámetro SameSite establecido en &quot;none&quot;.
+* *no* podrá descargar [!DNL Target] bibliotecas mientras edita una actividad (cuando no se encuentren ya en el sitio). Esto se debe a que la llamada de descarga se realiza desde el dominio del cliente hacia un dominio de Adobe seguro y se rechaza como no autenticada.
+* El EEC *no* funcionará para todos los usuarios porque no puede establecer el atributo SameSite para las cookies en `adobemc.com domain`. Sin este atributo, el explorador rechazará estas cookies, lo que ocasionará que el EEC falle.
 
-Adobe ha enviado una extensión del asistente VEC actualizada a la tienda Google Chrome. Esta extensión sobrescribe los atributos de cookie para establecer el `SameSite="none"` atributo, cuando sea necesario. La extensión [actualizada se puede encontrar aquí](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obtener más información sobre la instalación y el uso de VEC Helper Extension, consulte Extensión [de ayuda del Compositor de experiencias](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)visuales.
+Adobe ha enviado una extensión del asistente VEC actualizada a la tienda Google Chrome. Esta extensión sobrescribe los atributos de cookie para establecer el atributo `SameSite="none"` cuando sea necesario. La extensión [actualizada se puede encontrar aquí](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obtener más información sobre la instalación y el uso de la extensión del asistente de VEC, consulte [Extensión del asistente del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Para las cookies de su propio sitio, debe especificar las cookies por nombre. Cambie el control deslizante [!UICONTROL Cookie] a la posición Activado y, a continuación, especifique la cookie por nombre y el dominio de la cookie. El nombre de la cookie es &quot;mbox&quot; y el dominio de la cookie es el segundo nivel y el nivel superior de los dominios desde los que se proporciona el mbox. Dado que se proporciona desde el dominio de la compañía, se trata de una cookie de origen. Ejemplo: `mycompany.com`. Para obtener más información, consulte Cookies [de](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target en la Guía *del usuario de la interfaz de* Experience Cloud.
+Para las cookies de su propio sitio, debe especificar las cookies por nombre. Cambie el control deslizante [!UICONTROL Cookie] a la posición on y, a continuación, especifique la cookie por nombre y el dominio de la cookie. El nombre de la cookie es &quot;mbox&quot; y el dominio de la cookie es el segundo nivel y el nivel superior de los dominios desde los que se proporciona el mbox. Dado que se proporciona desde el dominio de la compañía, se trata de una cookie de origen. Ejemplo: `mycompany.com`. Para obtener más información, consulte [Cookies de Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) en la *Guía del usuario de la interfaz de Experience Cloud*.
 
 ![Alternar las cookies en la extensión del asistente de VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -34,13 +34,13 @@ Para las cookies de su propio sitio, debe especificar las cookies por nombre. Ca
 
 Utilice una de las siguientes opciones para asegurarse de que el VEC y EEC siguen funcionando según lo esperado:
 
-* Descargue y utilice la extensión [del asistente](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)VEC actualizada.
+* Descargue y utilice la [extensión auxiliar de VEC](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en) actualizada.
 * Utilice el navegador Mozilla Firefox. Firefox aún no está aplicando esta directiva.
-* Continúe utilizando Chrome, pero establezca el `chrome://flags/#same-site-by-default-cookies` indicador en &quot;Deshabilitado&quot;.
+* Continúe utilizando Chrome, pero establezca el indicador `chrome://flags/#same-site-by-default-cookies` en &quot;Deshabilitado&quot;.
 
    >[!NOTE]
    >
-   >Esto *no será suficiente* si las cookies ya tienen el atributo SameSite establecido en &quot;Lax&quot; o &quot;Strict&quot; desde el servidor.
+   >Esto *no será suficiente si las cookies ya tienen el atributo SameSite establecido en &quot;Lax&quot; o &quot;Strict&quot; desde el servidor.*
 
 ## ¿Admite Target los iframes de varios niveles?
 
@@ -93,7 +93,7 @@ Si se usa el mismo ID de elemento DOM en varios elementos de la página, al camb
 
 ## No puedo modificar experiencias desde un sitio con eliminación de iFrames. (VEC y EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Este problema se puede solucionar habilitando el Compositor de experiencias mejorado. Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. El Compositor de experiencias mejorado utiliza un proxy administrado por Adobe para cargar la página para editarla. Esto permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha añadido código de Adobe Target. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del Compositor de experiencias visuales. En este caso, puede desactivar esta opción para cargar el Compositor de experiencias visuales a través de un iFrame.  []
+Este problema se puede solucionar habilitando el Compositor de experiencias mejorado. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]** y, a continuación, seleccione la casilla de verificación que habilita el Compositor de experiencias mejorado. El Compositor de experiencias mejorado utiliza un proxy administrado por Adobe para cargar la página para editarla. Esto permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha añadido código de Adobe Target. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del Compositor de experiencias visuales. En este caso, puede desactivar esta opción para cargar el Compositor de experiencias visuales a través de un iFrame.   []
 
 >[!NOTE]
 >
