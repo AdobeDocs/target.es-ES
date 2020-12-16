@@ -14,7 +14,7 @@ ht-degree: 75%
 
 # ¿Durante cuánto tiempo se debe ejecutar una prueba A/B?
 
-A successful [!UICONTROL A/B Test] activity requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about [!UICONTROL Auto-Allocate] activities and the [!UICONTROL Adobe Target] Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
+Una actividad [!UICONTROL A/B de prueba] exitosa requiere un número adecuado de visitantes (tamaño de muestra) para mejorar la tasa de conversión, pero ¿cómo sabe cuánto tiempo debe ejecutar una prueba A/B? Este artículo contiene información sobre [!UICONTROL actividades de asignación automática] y la [!UICONTROL calculadora de tamaño de la muestra de Adobe Target] para ayudarle a garantizar que su actividad tiene un número suficiente de visitantes para alcanzar sus objetivos.
 
 Es tentador detener una actividad si una de las ofertas muestra un rendimiento mucho mejor o peor que las otras en los primeros días de la actividad. Sin embargo, cuando el número de observaciones es reducido, existe una alta probabilidad de observar un alza positiva o negativa solo por casualidad, puesto que la tasa de conversión se promedia a partir de un número bajo de visitantes. A medida que la actividad recopila más puntos de datos, las tasas de conversión convergen hacia sus verdaderos valores a largo plazo.
 
@@ -26,23 +26,23 @@ Es tentador detener una actividad si una de las ofertas muestra un rendimiento m
 
 ## Asignación automática {#auto-allocate}
 
-An [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
+Una actividad [de asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) es un tipo de prueba A/B que identifica a un ganador entre dos o más experiencias y automáticamente reasigna más tráfico al ganador para aumentar las conversiones mientras la prueba continúa ejecutándose y aprendiendo.
 
 Las pruebas A/B estándar tienen un coste inherente. Debe invertir tráfico para medir el rendimiento de cada experiencia y utilizar el análisis para determinar la experiencia ganadora. La distribución del tráfico sigue siendo fija incluso después de reconocer que el rendimiento de algunas experiencias supera al de otras. Además, es complicado determinar el tamaño de la muestra, y la actividad debe haber finalizado para poder tomar medidas con la mejor experiencia. Después de todo esto, existe la posibilidad de que la mejor experiencia identificada en realidad no sea la mejor.
 
-The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL La asignación automática reduce este coste y gastos derivados de determinar una experiencia ganadora. ] [!UICONTROL La asignación automática supervisa el rendimiento de la métrica de objetivos de todas las experiencias y envía a más participantes de manera proporcional a las experiencias de mayor rendimiento. ] Se reserva bastante tráfico para explorar el resto de las experiencias. Puede ver los beneficios de la actividad en los resultados, incluso mientras la actividad aún se esté ejecutando: la optimización se produce en paralelo con el aprendizaje.
+La solución es [!UICONTROL Asignación automática]. [!UICONTROL La asignación automática reduce este coste y gastos derivados de determinar una experiencia ganadora. ] [!UICONTROL La asignación automática supervisa el rendimiento de la métrica de objetivos de todas las experiencias y envía a más participantes de manera proporcional a las experiencias de mayor rendimiento. ] Se reserva bastante tráfico para explorar el resto de las experiencias. Puede ver los beneficios de la actividad en los resultados, incluso mientras la actividad aún se esté ejecutando: la optimización se produce en paralelo con el aprendizaje.
 
 [!UICONTROL La asignación automática envía a los visitantes de forma gradual hacia las experiencias ganadoras, en vez de hacerles esperar hasta que la actividad acabe para determinar un ganador. ] Saca provecho del alza más rápidamente porque a los visitantes de la actividad a los que se ha enviado a experiencias con peor rendimiento se les muestran experiencias que potencialmente son las ganadoras.
 
 Al utilizar la función de [!UICONTROL asignación automática], [!DNL Target] muestra un distintivo en la parte superior de la página de la actividad indicando “Ningún ganador aún” hasta que la actividad alcance el número mínimo de conversiones con suficiente confianza. [!DNL Target] luego declara la experiencia ganadora al mostrar un distintivo en la parte superior de la página de la actividad.
 
-For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Para obtener más información, consulte [Información general de asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Calculadora de tamaño de muestra de Adobe Target.  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Calculadora de tamaño de muestra de Adobe Target.   {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta extremadamente útil. El uso de la calculadora para una actividad de asignación  automática es opcional porque la asignación  automática le declara ganador. La calculadora proporciona una estimación aproximada del tamaño de la muestra necesario. Siga leyendo para obtener más información sobre cómo usar la calculadora.
+Si decide utilizar una actividad [!UICONTROL Prueba A/B] manual en lugar de [!UICONTROL Asignación automática], la calculadora de tamaño de la muestra [!DNL Target] le ayuda a determinar el tamaño de la muestra necesario para una prueba exitosa. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta extremadamente útil. El uso de la calculadora para una actividad [!UICONTROL de asignación automática] es opcional porque [!UICONTROL asignación automática] le declara un ganador. La calculadora proporciona una estimación aproximada del tamaño de la muestra necesario. Siga leyendo para obtener más información sobre cómo usar la calculadora.
 
-Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+Antes de configurar la prueba A/B, acceda a la calculadora de tamaño de la muestra [de Adobe Target](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
 ![Calculadora de tamaño de muestra de Adobe Target.](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -74,7 +74,7 @@ Es deseable no obtener falsos positivos ni falsos negativos. Sin embargo, esto n
 
 El nivel de relevancia de una prueba determina la probabilidad de que la prueba arroje una diferencia significativa en las tasas de conversión entre dos ofertas diferentes cuando, de hecho, no hay ninguna diferencia real. Esto se conoce como falso positivo o error de tipo I. El nivel de relevancia es un umbral especificado por el usuario y es una compensación entre la tolerancia de falsos positivos y el número de visitantes que deben incluirse en la prueba.
 
-En una prueba A/B, inicialmente se presupone que las dos ofertas tienen la misma tasa de conversión. Después, la probabilidad del resultado observado se calcula en función de esta presuposición. If this probability (the p-value) is smaller than some predefined threshold (the significance level), [!DNL Target] concludes that the initial assumption--that both offers have the same conversion rate--is incorrect and, therefore, the conversion rates of A and B are statistically different at the given significance level.
+En una prueba A/B, inicialmente se presupone que las dos ofertas tienen la misma tasa de conversión. Después, la probabilidad del resultado observado se calcula en función de esta presuposición. Si esta probabilidad (el valor p) es menor que un umbral predefinido (el nivel de relevancia), [!DNL Target] concluye que la suposición inicial (que ambas ofertas tienen la misma tasa de conversión) es incorrecta y, por lo tanto, las tasas de conversión de A y B son estadísticamente diferentes en el nivel de relevancia dado.
 
 Un nivel de relevancia usado comúnmente en las pruebas A/B es el 5 %, que corresponde a un nivel de confianza del 95 % (nivel de confianza = 100 % - nivel de relevancia). Un nivel de confianza del 95 % significa que cada vez que realice una prueba, hay un 5 % de probabilidades de detectar un alza estadísticamente relevante, aunque no haya ninguna diferencia entre las ofertas.
 
@@ -138,11 +138,11 @@ En este ejemplo, es posible que considere adecuado poder detectar un alza del 5 
 
 Una vez más, se recomienda que el tiempo necesario se redondee siempre a la semana completa más próxima, para evitar cualquier efecto de día de la semana. Por tanto, en este ejemplo, la prueba se realizaría durante dos semanas antes de evaluar los resultados.
 
-### Métrica de ingresos por visita.  {#section_C704C0861C9B4641AB02E911648D2DC2}
+### Métrica de ingresos por visita.   {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Cuando se usan los ingresos por visita (RPV) como métrica, se añade una fuente de varianza adicional, ya que RPV es el producto de los ingresos por pedido y la tasa de conversión (RPV = ingresos/nº visitantes = (ingresos por pedido * nº de pedidos)/nº de visitantes = ingresos por pedido * (nº de visitantes * CTR)/nº de visitantes = ingresos por pedido * CTR), cada uno con su propia varianza. La varianza de la tasa de conversión puede estimarse directamente utilizando un modelo matemático, pero la varianza de los ingresos por pedido es específica de la actividad. Por lo tanto, utilice el conocimiento de esta varianza de actividades pasadas o ejecute la prueba A/B durante unos días para calcular la varianza en los ingresos. La varianza se calcula a partir de los valores de Suma de ventas, Suma de ventas al cuadrado y Número de Visitantes que se encuentran en el archivo de descarga CSV. Una vez establecida, utilice la hoja de cálculo para calcular el tiempo necesario para completar la prueba.
 
-La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ayudarle a configurar la métrica de RPV. When you open the calculator, you&#39;ll see a tab labeled [!UICONTROL RPV Metric]. Necesitará la siguiente información al usar la versión de RPV de la calculadora:
+La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ayudarle a configurar la métrica de RPV. Cuando abra la calculadora, verá una ficha con la etiqueta [!UICONTROL Métrica RPV]. Necesitará la siguiente información al usar la versión de RPV de la calculadora:
 
 * Número de visitantes a la oferta de control
 * Ingresos totales para la oferta de control
@@ -155,12 +155,12 @@ La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ay
 
 En general, el uso de RPV como métrica requiere entre un 20 y un 30 % más de tiempo para lograr el mismo nivel de confianza estadística para el mismo nivel de alza medida. Esto se debe a que RPV tiene la varianza agregada de diferentes tamaños de pedido por conversión. Esto debería ser una consideración a la hora de elegir entre tasa de conversión recta y RPV como métrica en la cual basar su decisión comercial final.
 
-## Correction for comparing multiple offers {#section_1474113764224D0B85472D8B023CCA15}
+## Corrección para comparar varias ofertas {#section_1474113764224D0B85472D8B023CCA15}
 
 Cada vez que compara dos ofertas, las posibilidades de obtener un falso positivo (es decir, observar una diferencia con relevancia estadística aunque no haya diferencia en la tasa de conversión) son iguales al nivel de relevancia. Por ejemplo, si hay cinco ofertas, A/B/C/D/E, y A es la oferta control, se realizan las cuatro comparaciones (control frente a B, control frente a C, control frente a D y control frente a E), y la probabilidad de obtener un falso positivo es del 18,5 % aunque el nivel de confianza sea del 95 % porque Pr (al menos un falso positivo) = 1 - Pr (sin falsos positivos) = 1 - 0,95 = 18,5 %. En este contexto, un falso positivo se define como la notificación de que el control es mejor que la alternativa, o que la alternativa es mejor que el control cuando, de hecho, no hay ninguna diferencia entre ellos.
 
-## Conclusión.  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusión.   {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-By using an [!UICONTROL Auto-Allocate] activity, [!DNL Target] identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. [!UICONTROL La asignación automática facilita el logro de sus objetivos de conversión y elimina las suposiciones.]
+Al utilizar una actividad [!UICONTROL de asignación automática], [!DNL Target] identifica un ganador entre dos o más experiencias y automáticamente reasigna más tráfico al ganador para aumentar las conversiones mientras la prueba continúa ejecutándose y aprendiendo. [!UICONTROL La asignación automática facilita el logro de sus objetivos de conversión y elimina las suposiciones.]
 
 Al usar la calculadora de tamaño de la muestra (encontrará el vínculo más arriba) que se detalla en este artículo y permitir que la prueba se realice durante la cantidad de tiempo sugerida por esta herramienta, tendrá la seguridad de que siempre realizará pruebas A/B de calidad que se ajusten a las tasas de falsos positivos y falsos negativos que considera que son adecuadas para la prueba específica. Esto garantiza que sus pruebas sean coherentes y capaces de detectar el alza que está buscando.
