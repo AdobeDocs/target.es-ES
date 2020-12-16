@@ -40,7 +40,7 @@ Las tres bibliotecas deben incluirse en la página con la oferta de redirecciona
 
 Se esperan algunas discrepancias en los datos. Para obtener más información, consulte [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección?   {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 Esto no supone un problema en la versión 1.6.3 de at.js o cualquiera de las posteriores. Esta condición de carrera solo afecta a los clientes que utilizan versiones más antiguas. El equipo de Target mantiene dos versiones de at.js: la actual y la penúltima. Actualice at.js cuando sea posible para garantizar que dispone de una [versión compatible](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -73,9 +73,9 @@ Los siguientes parámetros de cadena de consulta se asocian con las ofertas de r
 
 Estos parámetros se agregan automáticamente a las direcciones URL de redireccionamiento al utilizar las ofertas de redireccionamiento integradas en el Compositor de experiencias visuales y el Compositor de experiencias basado en formularios cuando se implementa en la página el servicio Visitor Id. Si está utilizando código personalizado de redireccionamiento en VEC o el Compositor de experiencias basado en formularios, debe asegurarse de pasar estos parámetros junto al código personalizado.
 
-## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
+Deberá trabajar con su equipo de TI para que estos parámetros ( `adobe_mc_sdid` y `adobe_mc_ref`) estén incluidos en la lista de permitidos.
 
 ## ¿Qué sucede si yo no utilizo A4T en mi actividad de redireccionamiento y no quiero que se agreguen estos parámetros adicionales a mis direcciones URL?{#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -89,11 +89,11 @@ Si utiliza A4T y ofertas de redireccionamiento, Target añade los parámetros `a
 
 Debido a esta doble codificación, cuando la API de visitante intenta descodificar el valor `adobe_mc_sdid`, no consigue extraer el valor SDID y genera un SDID nuevo. Esto provoca que se envíen valores SDID incorrectos a Target y a Analytics, y que se vean divisiones de redireccionamiento desiguales en los informes de Analytics.
 
-We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
+Le recomendamos que hable con su equipo de TI para asegurarse de que `adobe_mc_ref` y `adobe_mc_sdid` estén incluidos en la lista de permitidos para que estos valores no se transformen de ninguna manera.
 
 ## ¿Por qué se debe pasar la dirección URL de referencia a la nueva página?{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
+Supongamos que un visitante hace clic en un vínculo de [!DNL `www.google.com`] a la página principal (`www.mysite.com/index.html`) en el que una actividad de redireccionamiento está activa y luego se redirige a una nueva página (`www.mysite.com/index2.html`).
 
 Anteriormente, la solicitud de [!DNL Analytics] para la nueva página informaría de que la dirección URL de referencia es [!DNL `www.mysite.com/index.html`], no [!DNL `www.google.com`]. Este comportamiento provocaba informes imprecisos en [!DNL Analytics] en cuanto a las direcciones URL de referencia (por ejemplo, en los informes de canales de mercadotecnia). No se reflejaba el hecho de que se había llegado al sitio desde [!DNL `www.google.com`].
 
