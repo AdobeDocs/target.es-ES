@@ -18,7 +18,7 @@ Un selector de elementos es una expresión CSS que puede identificar un elemento
 
 Puede encontrar información básica sobre selectores CSS en el documento [Selectores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) en Mozilla Developer Network (MDN).
 
-Puede determinar si desea usar ID de elementos o clases de elementos en las preferencias de la cuenta. Haga clic en **[!UICONTROL Administración > Compositor]** de experiencias visuales y, a continuación, elija los selectores CSS preferidos.
+Puede determinar si desea usar ID de elementos o clases de elementos en las preferencias de la cuenta. Haga clic en **[!UICONTROL Administración > Compositor de experiencias visuales]** y, a continuación, elija los selectores CSS preferidos.
 
 ![](assets/css_selectors.png)
 
