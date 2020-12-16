@@ -16,7 +16,7 @@ ht-degree: 17%
 
 Información útil para administrar [!DNL Adobe Target], incluida la configuración del Compositor de experiencias visuales (VEC), sistema de informes, configuración de Scene7, implementación, hosts, entornos, tokens de respuesta y usuarios.
 
-To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
+Para acceder a los elementos de menú [!UICONTROL Administración], haga clic en **[!UICONTROL Administración]** en la barra de menús superior y, a continuación, haga clic en la ficha que desee en el lado izquierdo:
 
 * [Compositor de experiencias visuales](/help/administrating-target/visual-experience-composer-set-up.md)
 * [Creación de informes](/help/administrating-target/reporting.md)
