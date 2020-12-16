@@ -14,7 +14,7 @@ ht-degree: 45%
 
 # Incluir la misma experiencia en páginas similares
 
-Utilice una plantilla de página en [!DNL Adobe Target] para proporcionar estructura a las páginas, o si las páginas contienen elementos similares, para probar variaciones en elementos de página estructurados de forma similar o en todo el dominio.
+Utilice una plantilla de página en [!DNL Adobe Target] para proporcionar estructura a las páginas, o si las páginas contienen elementos similares, para probar variaciones en elementos de página estructurados de manera similar o en todo el dominio.
 
 Para funcionar correctamente, esta función debe usarse en páginas con una estructura similar o que contengan elementos de plantilla que estén estructurados de la misma manera en todas las páginas.
 
@@ -31,9 +31,9 @@ Por ejemplo, puede utilizar esta característica para una de las operaciones sig
 
 Puede especificar páginas que incluyan los elementos de cambio o aplicar el cambio en el sitio o dominio.
 
-1. Create  or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Cree o edite una actividad como se describe en [Actividades](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. Para especificar las páginas en las que aparecerá la experiencia, en el [!UICONTROL Compositor de experiencias visuales] (VEC) haga clic en el icono de engranaje y, a continuación, seleccione **[!UICONTROL Envío de página]**.
 
    ![Icono de engranaje > Envío de página](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
@@ -41,7 +41,7 @@ Puede especificar páginas que incluyan los elementos de cambio o aplicar el cam
 
 1. Especifique el intervalo de páginas. El intervalo de páginas puede ser uno de los siguientes:
 
-   * Dirección URL (Para obtener más información sobre cómo evalúa Destinatario las direcciones URL, consulte Preguntas más frecuentes sobre [Destinatarios y audiencias](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
+   * Dirección URL (Para obtener más información sobre cómo evalúa Destinatario las direcciones URL, consulte [Preguntas más frecuentes sobre Destinatarios y audiencias](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
    * Dominio
    * Ruta
    * Fragmento hash (#) (destinatario la parte de una URL que sigue al símbolo #).
@@ -69,7 +69,7 @@ Puede especificar páginas que incluyan los elementos de cambio o aplicar el cam
    >
    >Varios elementos utilizan la lógica OR, lo que significa que cualquier elemento individual de la lista hace que la condición sea verdadera.
 
-1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous steps.
+1. Si lo desea, introduzca criterios adicionales haciendo clic en **[!UICONTROL Añadir regla de plantilla]** y repitiendo el procedimiento en los pasos anteriores.
 
    Cuando hay varios criterios se unen entre sí con la lógica AND. [!DNL Target] agrega la experiencia a todas las páginas que cumplan todos los criterios especificados.
 
@@ -89,17 +89,17 @@ Puede considerar el uso de reglas de plantilla para representar la misma activid
 * Para incluir una pancarta global (por ejemplo, anuncios COVID-19)
 * Para incluir una promoción de envío libre global
 
-1. Create or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Cree o edite una actividad como se describe en [Actividades](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. Para especificar el dominio en el que aparecerá la experiencia, en el Compositor de experiencias visuales, haga clic en el icono de engranaje y seleccione **[!UICONTROL Envío de página]**.
 
-1. Haga clic en **[!UICONTROL Añadir regla]** de plantilla > **[!UICONTROL Dominio]**.
+1. Haga clic en **[!UICONTROL Añadir regla de plantilla]** > **[!UICONTROL Dominio]**.
 
-1. En la lista desplegable **[!UICONTROL Elegir evaluador]** , seleccione **[!UICONTROL Contiene]** y, a continuación, especifique el dominio.
+1. En la lista desplegable **[!UICONTROL Elija evaluador]**, seleccione **[!UICONTROL Contiene]** y luego especifique el dominio.
 
    ![El dominio contiene](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de capacitación: Compositor de experiencias visuales (2 de 2) (7:29) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 * Cambiar el nombre de una experiencia y duplicarla
 * Crear una experiencia de redirección
