@@ -27,7 +27,7 @@ Para obtener más información sobre la documentación de la API de Target, cons
 | API heredadas | Las API vinculadas a su cuenta de Target Classic. Estas llamadas a API se basan en una autenticación mediante nombre de usuario y contraseña, y utilizan el nombre de host `testandtarget.omniture.com`. Si sus llamadas a API incluyen en la URL de solicitud un nombre de usuario y una contraseña, debe pasarse a las API de Adobe I/O. |
 | Adobe I/O | Adobe I/O es el nuevo portal para las API de Target. Estas API están conectadas a su cuenta de Target Standard/Premium. Las API de Target en Adobe I/O utilizan autenticación JWT, el estándar del sector para API empresariales seguras. |
 
-## Cronología   {#section_A478EBF637554A2DB5A31661955121ED}
+## Cronología    {#section_A478EBF637554A2DB5A31661955121ED}
 
 Las API heredadas se retirarán del mercado al mismo tiempo que Target Classic:
 
@@ -38,7 +38,7 @@ Las API heredadas se retirarán del mercado al mismo tiempo que Target Classic:
 
 Las API de Recommendations Classic no se ven afectadas por este cronograma.
 
-## Métodos equivalentes   {#section_DDB42CCC172545B09CB728D794CC466B}
+## Métodos equivalentes    {#section_DDB42CCC172545B09CB728D794CC466B}
 
 La siguiente tabla muestra la correspondencia entre los nuevos métodos de API de Target y los métodos de API heredadas. Las nuevas API devuelven JSON, en comparación con la respuesta XML de las API heredadas.
 
@@ -52,11 +52,11 @@ Los nuevos métodos API contienen vínculos a la sección correspondiente en el 
 |  | Lista de campañas | [Listar actividades](http://developers.adobetarget.com/api/#list-activities) |  |
 |  | Estado de la campaña | [Actualizar el estado de la actividad](http://developers.adobetarget.com/api/#update-activity-state) |  |
 |  | Vista de la campaña | [Obtener actividad AB por ID](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Obtener actividad XT por ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
-|  | ID de campaña de terceros | N/A | Si utiliza un thirdpartyID, pueden usarse los métodos de actividad relevantes |
+|  | ID de campaña de terceros | N/D | Si utiliza un thirdpartyID, pueden usarse los métodos de actividad relevantes |
 | Ofertas | Creación de oferta | [Crear oferta](http://developers.adobetarget.com/api/#create-offer) |  |
 |  | Obtención de oferta | [Obtener oferta por ID](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
 |  | Lista de ofertas | [Listar ofertas](http://developers.adobetarget.com/api/#list-offers) |  |
-|  | Lista de carpetas | N/A | Las carpetas no son compatibles con Target Standard/Premium |
+|  | Lista de carpetas | N/D | Las carpetas no son compatibles con Target Standard/Premium |
 | Creación de informes | Informe de rendimiento de la campaña | [Obtener informe de rendimiento AB](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Obtener informe de rendimiento XT](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
 |  | Informe de auditoría | [Obtener informe de auditoría](http://developers.adobetarget.com/api/#get-audit-report) |  |
 |  | Informe de contenido 1-1 | [Obtener informe de rendimiento AP](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
@@ -66,6 +66,6 @@ Los nuevos métodos API contienen vínculos a la sección correspondiente en el 
 
 Si necesita una excepción, póngase en contacto con el gestor de éxito de los clientes.
 
-## Ayuda   {#section_591F850E2B7A4342B1C233693425415C}
+## Ayuda    {#section_591F850E2B7A4342B1C233693425415C}
 
 Póngase en contacto con ClientCare de Adobe Target (tt-support@adobe.com) si tiene cualquier pregunta o necesita ayuda en la transición a las nuevas API de Target en Adobe I/O.
