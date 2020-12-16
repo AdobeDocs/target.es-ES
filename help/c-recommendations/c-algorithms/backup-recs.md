@@ -20,7 +20,7 @@ Si no utiliza una recomendación de copia de seguridad, y si una recomendación 
 
 >[!NOTE]
 >
->Se incluye información adicional en la sección [Contenido del tema Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) , incluida una matriz que explica los resultados que se observarán al utilizar las opciones Representación [!UICONTROL de diseño] parcial y [!UICONTROL Mostrar copia de seguridad de Recommendations] de forma conjunta o por separado.
+>Se incluye información adicional en la sección [Contenido del tema Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluida una matriz que explica los resultados que observará al utilizar las opciones [!UICONTROL Representación de diseño parcial] y [!UICONTROL Mostrar copia de seguridad de Recommendations] juntos o por separado.
 
 La función de recomendación de copia de seguridad siempre utiliza los artículos más vistos del sitio para llenar los espacios restantes después de utilizar los datos del algoritmo. Por ejemplo, la plantilla está configurada para mostrar cinco artículos recomendados y usted usa el algoritmo *Afinidades de compra*. Sin embargo, solamente tendrá suficientes datos para llenar dos de los cinco espacios, de modo que la función de recomendación de copia de seguridad llena los otros tres espacios con los artículos más vistos.
 
