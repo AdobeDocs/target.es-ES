@@ -58,7 +58,7 @@ Para obtener más información, consulte [Métodos para obtener datos en Target]
 
    ![](assets/propensity_score_4.png)
 
-## Marca de ![información general de vídeo de formación](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Vídeo de capacitación ![Distintivo de información general](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Vea el siguiente vídeo para obtener más información y ver un caso en el que podría utilizar esta función:
 
