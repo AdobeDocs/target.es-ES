@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Directivas de directiva de seguridad de contenido (CSP)
 
-Si utiliza la directiva [de seguridad](https://en.wikipedia.org/wiki/Content_Security_Policy) del contenido (CSP) para la implementación de Destinatario, debe agregar las siguientes directivas CSP al usar [at.js 2.1 o posterior](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
+Si está utilizando [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) para la implementación de Destinatario, debe agregar las siguientes directivas CSP al utilizar [at.js 2.1 o posterior](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
 
-* `connect-src` con `*.tt.omtrdc.net` incluido en la lista de permitidos. Necesario para permitir la solicitud de red al [!DNL Target] borde.
+* `connect-src` con  `*.tt.omtrdc.net` incluido en la lista de permitidos. Necesario para permitir la solicitud de red al borde [!DNL Target].
 * `style-src unsafe-inline`. Necesario para la ocultación previa y el control de parpadeo.
 * `script-src unsafe-inline`.  Necesario para permitir la ejecución de JavaScript que pueda formar parte de una oferta HTML.
