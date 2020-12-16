@@ -89,7 +89,7 @@ La versión at.js 1.0.0 permite cargar la biblioteca de Target de forma asíncro
 
 Para cargar at.js de forma asíncrona:
 
-* El método recomendado es mediante un administrador de etiquetas como Adobe Launch o Administrador dinámico de etiquetas de Adobe (DTM). See the [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
+* El método recomendado es mediante un administrador de etiquetas como Adobe Launch o Administrador dinámico de etiquetas de Adobe (DTM). Consulte la [lección de &lt;a0/>Añadir Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) del tutorial [Implementación del Experience Cloud en sitios web con Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) para obtener más información.
 * También puede cargar at.js de forma asíncrona añadiendo el atributo async a la etiqueta de script que carga at.js. Utilice algo similar a esto:
 
    ```
@@ -109,7 +109,7 @@ Cargar at.js de forma asíncrona es un modo excelente de evitar el bloqueo de pr
 
 Puede evitar el parpadeo utilizando un fragmento de ocultamiento previo que oculta la página (o partes especificadas) y luego lo revela después de que at.js y la solicitud global se hayan cargado por completo. El fragmento debe añadirse antes de cargar at.js.
 
-If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+Si implementa at.js mediante una implementación de Launch asincrónica, asegúrese de incluir el fragmento de ocultamiento previo directamente en sus páginas, antes del código de Launch Embed, tal como se describe en la sección [Añada el fragmento de Destinatario de preocultación](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) de la [Implementación del Experience Cloud en sitios web con el tutorial de Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 Si implementa at.js a través de una implementación sincrónica de DTM, el fragmento de ocultamiento previo se puede añadir a través de una regla de carga de página activada en la parte superior de la misma.
 
@@ -197,7 +197,7 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 }
 ```
 
-## ¿Por qué veo mensajes de aviso como “acciones con selectores ausentes”?  {#section_C36BED5B16634361A1BA46FCB731489D}
+## ¿Por qué veo mensajes de aviso como “acciones con selectores ausentes”?   {#section_C36BED5B16634361A1BA46FCB731489D}
 
 Estos mensajes no están relacionados con la funcionalidad de [!DNL at.js]. La biblioteca [!DNL at.js] intenta informar de todo lo que no pueda encontrarse en el DOM.
 
@@ -223,7 +223,7 @@ Secure se puede establecer mediante JavaScript solo cuando la página se carga m
 
 Para garantizar que Target pueda rastrear correctamente a los usuarios, y dado que las cookies se generan en el cliente, Target no utiliza ninguno de estos indicadores.
 
-## ¿Con qué frecuencia inicia at.js una solicitud de red?  {#section_57C5235DF7694AF093A845D73EABADFD}
+## ¿Con qué frecuencia inicia at.js una solicitud de red?   {#section_57C5235DF7694AF093A845D73EABADFD}
 
 Adobe Target ejecuta todas sus decisiones en el servidor. Esto significa que at.js inicia una solicitud de red cada vez que la página se vuelve a cargar o se invoca una API pública at.js.
 
@@ -231,7 +231,7 @@ Adobe Target ejecuta todas sus decisiones en el servidor. Esto significa que at.
 
 at.js intenta evitar la ocultación previa de los elementos BODY de HTML u otros elementos DOM durante un periodo prolongado de tiempo, pero esto depende de las condiciones de la red y la configuración de la actividad. at.js proporciona [ajustes](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) que puede utilizar para personalizar el estilo del CSS oculto de BODY, de modo que, en lugar de borrar todo el BODY de HTML, puede ocultar solo algunas partes de la página. La expectativa es que esas partes contengan elementos DOM que deben ser “personalizados”.
 
-## ¿Cuál es la secuencia de eventos en un escenario promedio donde un usuario califica para una actividad?  {#section_56E6F448E901403FB77DF02F44C44452}
+## ¿Cuál es la secuencia de eventos en un escenario promedio donde un usuario califica para una actividad?   {#section_56E6F448E901403FB77DF02F44C44452}
 
 La solicitud at.js es una solicitud `XMLHttpRequest` asincrónica, por lo que realizamos los pasos siguientes:
 
@@ -251,11 +251,11 @@ Teniendo en cuenta el escenario anterior, ¿con qué frecuencia el contenido de 
 
 at.js no bloquea el procesamiento de la página. Un usuario puede ver que Target personalizará algunas regiones en blanco de la página que representan elementos. Si el contenido que se va a aplicar no contiene muchos recursos remotos, como SCRIPT o IMG, todo debería procesarse rápidamente.
 
-## ¿Cómo afectaría una página en caché completa al escenario anterior? ¿Sería más probable que el contenido de la actividad se hiciera visible después de que se cargara el resto del contenido de la página?  {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## ¿Cómo afectaría una página en caché completa al escenario anterior? ¿Sería más probable que el contenido de la actividad se hiciera visible después de que se cargara el resto del contenido de la página?   {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 Si una página se almacena en caché en un CDN que está cerca de la ubicación del usuario, pero no cerca del perímetro de Target, ese usuario puede ver algunos retrasos. Los perímetros de Target están bien distribuidos en todo el mundo, por lo que no es un problema la mayor parte del tiempo.
 
-## ¿Es posible que se muestre una imagen a pantalla completa y cambie después de un breve retraso?  {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## ¿Es posible que se muestre una imagen a pantalla completa y cambie después de un breve retraso?   {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Si tenemos en cuenta el escenario siguiente:
 
