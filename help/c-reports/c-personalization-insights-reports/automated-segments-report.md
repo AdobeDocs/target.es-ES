@@ -26,26 +26,26 @@ Información sobre el informe Segmentos automatizados, uno de los dos informes e
 * [!UICONTROL Los informes de Perspectivas de personalización están disponibles solo para actividades de AP y AT que utilizan un objetivo de optimización de conversión. ] Tampoco se admiten las actividades en las que el objetivo de optimización se cambió a la conversión de ingresos después de que la actividad ya estaba activa.
    >
    >
-* [!UICONTROL Los informes de perspectivas] de personalización solo están disponibles si se selecciona el Objetivo  principal en la lista desplegable Métrica [!UICONTROL de] informes.
+* [!UICONTROL Los informes de ] perspectivas de personalización solo están disponibles si se seleccionan los objetivos  [!UICONTROL principales ] en la lista desplegable  [!UICONTROL Métricas de ] informes.
    >
    >
 * Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL Los informes de Perspectivas] de personalización se generan solamente para actividades que están en estado [!UICONTROL Activo] y que se han activado y recibido tráfico durante al menos 15 días.
+* [!UICONTROL Los informes ] Perspectivas de personalización se generan solamente para actividades que están en el   estado Activo y que se han activado y recibido tráfico durante al menos 15 días.
 
 
 Los distintos visitantes responden de forma diferente a las ofertas y experiencias de su actividad AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
 
 ## Acceso al informe Segmentos automatizados {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
+1. Haga clic en **[!UICONTROL Actividades]** y, a continuación, haga clic en la actividad [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md) que desee de la lista.
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones de [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Propiedad], [!UICONTROL Origen del Sistema de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas&lt;a10 1/> y [!UICONTROL listas desplegables de Origen de Actividad].]
 
 1. Haga clic en **[!UICONTROL Informes]**.
 
-   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. Tenga en cuenta que Segmentación automática dispone de un icono de gráfico adicional para la visualización gráfica del informe [!UICONTROL Resumen].
+   Se muestra el informe [Resumen de Automated Personalization](/help/c-reports/reports-ap.md) o [Resumen de Destinatario automático](/help/c-reports/auto-target-summary-report.md), que proporciona información sobre el rendimiento de sus actividades, representada por el icono de la primera pantalla. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. Tenga en cuenta que Segmentación automática dispone de un icono de gráfico adicional para la visualización gráfica del informe [!UICONTROL Resumen].
 
    ![](assets/personalization_insights.png)
 
