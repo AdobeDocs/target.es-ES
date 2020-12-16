@@ -28,7 +28,7 @@ Para descargar datos en un archivo CSV:
    * [!UICONTROL Exportar informes a CSV]
    * [!UICONTROL Exportar detalles del pedido a un archivo .csv]
 
-   ![Opciones de descarga](/help/c-reports/assets/download-options.png)
+   ![Descargar opciones](/help/c-reports/assets/download-options.png)
 
 ## Exportar informes a CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -41,7 +41,7 @@ Los datos se guardan hasta que finaliza la actividad.
 
 >[!NOTE]
 >
->El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza que se utilizan en las pruebas A/B. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza que se utilizan en las pruebas A/B. Para calcular estas métricas calculadas, descargue el archivo de Excel [Calculadora de confianza completa](/help/assets/complete_confidence_calculator.xlsx) del Destinatario para introducir el valor de la actividad o revise los [cálculos estadísticos utilizados por Destinatario](/help/assets/statistical-calculations.pdf).
 
 ## Exportar detalles del pedido a un archivo .csv {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -80,7 +80,7 @@ El informe Detalles del pedido muestra información sobre los pedidos, entre ell
 * Los valores que se pasan mediante el parámetro de mbox `ProductPurchasedId` aparecen ahora recogidos en el informe de detalles del pedido.
 * Una práctica recomendada es incluir un `orderID`, así como un `orderTotal`. Esto permite ignorar automáticamente los pedidos duplicados.
 
-## Advertencias  {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## Advertencias   {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 La información siguiente se refiere a la opción Descargar:
 
