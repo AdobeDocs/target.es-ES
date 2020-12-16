@@ -88,7 +88,7 @@ Tenga en cuenta los detalles siguientes sobre la lista de Actividades:
 
 De manera predeterminada, la lista se ordena por la fecha de la última modificación de la actividad, con la más reciente al principio. Sin embargo, hay varias opciones de filtrado que le pueden ayudar a personalizar la lista para que se muestren las actividades que le interesa consultar.
 
-### Búsqueda  {#search-heading}
+### Búsqueda   {#search-heading}
 
 Utilice el campo de búsqueda para buscar las actividades que cumplen sus criterios de búsqueda.
 
@@ -170,7 +170,7 @@ Este trabajo de importación se ejecuta cuando se abre la página de actividades
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Distintivo ![Información general de tipos de actividades (9:03)](/help/assets/overview.png)
+### Tipos de actividades (9:03) ![Distintivo de información general](/help/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 
@@ -180,7 +180,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Identificación de administración de Actividades (5:55) ![Información general](/help/assets/overview.png)
+### Administración de Actividades (5:55) ![Distintivo de información general](/help/assets/overview.png)
 
 En este vídeo se explica cómo usar la lista Actividades para gestionar las actividades.
 
