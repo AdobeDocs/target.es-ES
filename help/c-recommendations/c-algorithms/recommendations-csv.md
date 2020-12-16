@@ -18,29 +18,29 @@ Cargue un archivo CSV para personalizar las recomendaciones.
 
 Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterios]. Algunas opciones de pantalla dependen de cómo llega a la pantalla.
 
-* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!DNL Recommendations].
-* Al crear una [!DNL Recommendations] actividad con el Compositor [!UICONTROL de experiencias] visuales (VEC), se le dirigirá inmediatamente a la pantalla [!UICONTROL Seleccionar criterios] después de seleccionar un elemento en la página y hacer clic en [!UICONTROL Reemplazar con Recommendations], [!UICONTROL Insertar Recommendations antes]o Insertar Recommendations después. Luego puede seleccionar un criterio disponible o puede hacer clic en **[!UICONTROL Crear criterio]**. Si crea un nuevo criterio, tiene la opción de guardar los criterios para usarlos con otras [!DNL Recommendations] actividades. For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* Cuando esté editando una [!DNL Recommendations]actividad, haga clic en el cuadro [!UICONTROL Ubicación de Recommendations] de la página y seleccione **[!UICONTROL Cambiar criterios]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!DNL Recommendations].
+* En la pantalla de biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**, haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Crear criterios]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!DNL Recommendations].
+* Al crear una actividad [!DNL Recommendations] mediante el [!UICONTROL Compositor de experiencias visuales] (VEC), se le dirigirá inmediatamente a la pantalla [!UICONTROL Seleccionar criterios] después de seleccionar un elemento en la página y hacer clic en [!UICONTROL Reemplazar con Recommendations], [!UICONTROL Insertar Recommendations antes de] o [!UICONTROL Insertar Después de]. Luego puede seleccionar un criterio disponible o puede hacer clic en **[!UICONTROL Crear criterios]**. Si crea un nuevo criterio, tiene la opción de guardar los criterios para usarlos con otras [!DNL Recommendations] actividades. Para obtener más información, consulte [Creación de una actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* Cuando esté editando una [!DNL Recommendations]actividad, haga clic en el cuadro [!UICONTROL Ubicación de Recommendations] de la página y seleccione **[!UICONTROL Cambiar criterios]**. En la pantalla [!UICONTROL Seleccionar criterios], haga clic en **[!UICONTROL Crear criterios]**. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!DNL Recommendations].
 
-Los pasos siguientes suponen que accede a la pantalla [!UICONTROL Crear nuevo criterio] mediante el primer método: la pantalla de la biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]** .
+Los siguientes pasos suponen que accede a la pantalla [!UICONTROL Crear nuevos criterios] mediante el primer método: la pantalla de biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
 1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]**.
 
-1. Haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Cargar criterios]** personalizados.
+1. Haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Cargar criterios personalizados]**.
 
-1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
+1. Rellene la información de la sección [Información básica](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. Rellene la información de la sección Fuente [de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) datos.
+1. Rellene la información de la sección [Fuente de datos](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source).
 
-1. Fill in the information in the [Content](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) section.
+1. Rellene la información de la sección [Contenido](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
-1. (Condicional) Rellene la información de la sección Similitud [de contenido](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) .
+1. (Condicional) Rellene la información de la sección [Similitud de contenido](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
-1. (Condicional) Rellene la información de la sección Reglas [de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) inclusión.
+1. (Condicional) Rellene la información de la sección [Reglas de inclusión](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion).
 
-1. (Condicional) Rellene la información de la sección Ponderación [de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) atributo.
+1. (Condicional) Rellene la información de la sección [Ponderación de atributos](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting).
 
-1. En la sección **[!UICONTROL Cargar CSV]** , seleccione la **[!UICONTROL ubicación]** del archivo CSV.
+1. En la sección **[!UICONTROL Cargar CSV]**, seleccione la **[!UICONTROL Ubicación]** del archivo CSV.
 
    ![Cargar sección CSV](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
 
@@ -49,7 +49,7 @@ Los pasos siguientes suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
    Tiene dos opciones de ubicación:
 
    * **FTP:** para cargar el archivo CSV desde un servidor FTP, seleccione **[!UICONTROL FTP]** e introduzca la información requerida. Tiene la opción de usar SSL, que emplea el protocolo FTPS para transferir el archivo CSV de forma segura.
-   * **URL:** Para cargar el archivo CSV desde una URL, seleccione **[!UICONTROL URL]** y, a continuación, introduzca una URL de fuente.
+   * **URL:** para cargar el archivo CSV desde una URL, seleccione  **[!UICONTROL URL]** y, a continuación, introduzca una URL de fuente.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -67,7 +67,7 @@ Puede ver el estado de carga y sincronización de los criterios personalizados e
 
 El flujo de una carga sin errores debería ser Programado > Descargando el archivo de fuente > Importando > Correcto.
 
-The following are possible error messages you might receive if [!DNL Target] encounters a problem with the upload:
+Los siguientes son posibles mensajes de error que puede recibir si [!DNL Target] encuentra un problema con la carga:
 
 | Mensaje de error | Detalles |
 |--- |--- |
@@ -78,7 +78,7 @@ The following are possible error messages you might receive if [!DNL Target] enc
 | No se ha encontrado el directorio | Indique un directorio que exista en el servidor. |
 | No se ha encontrado el archivo | Indique el nombre de un archivo que exista en el servidor del directorio indicado. |
 
-## Vídeo de formación: Crear criterios en Recommendations (12:33) ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Crear criterios en Recommendations (12:33)  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene la siguiente información (los detalles sobre la carga de criterios personalizados comienzan a las 11:43):
 
