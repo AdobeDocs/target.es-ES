@@ -23,7 +23,7 @@ Para obtener más información sobre el uso del VEC para crear y editar ofertas,
 >
 >También puede utilizar la [ruta DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) para navegar por elementos.
 
-## Ofertas de imágenes  {#section_A48333211DB149ED926AE467D0032914}
+## Ofertas de imágenes   {#section_A48333211DB149ED926AE467D0032914}
 
 Pruebe varias ofertas de imágenes en una ubicación para determinar qué imagen logra un mayor éxito.
 
@@ -37,7 +37,7 @@ Pruebe varias ofertas de imágenes en una ubicación para determinar qué imagen
 
 Cada imagen se convierte en una experiencia independiente en esa ubicación.
 
-## Ofertas HTML  {#section_DF016101AFA9412C9B99862C23DE77B1}
+## Ofertas HTML   {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 Pruebe varias ofertas de texto/HTML en una ubicación para determinar qué oferta logra un mayor éxito.
 
