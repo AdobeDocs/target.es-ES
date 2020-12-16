@@ -128,7 +128,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Filtrado de ofertas por tipo de oferta JSON   {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## Filtrado de ofertas por tipo de oferta JSON    {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 Puede filtrar la biblioteca de ofertas por tipo de oferta JSON haciendo clic en la lista desplegable **[!UICONTROL Tipo]** y después marcando la casilla de selección **[!UICONTROL JSON.]**
 
