@@ -26,7 +26,7 @@ Si activa el ajuste al configurar at.js, at.js establece la opacidad del estilo 
 
 La opacidad establecida en 0 mantiene el contenido de la página oculto para evitar el parpadeo, pero el navegador sigue procesando la página y carga todos los activos necesarios, como CSS, imágenes, etc.
 
-Si la opacidad 0 no funciona en su implementación, también puede gestionar el parpadeo personalizando `bodyHiddenStyle` y estableciéndolo en `body {visibility:hidden !important}`. You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
+Si la opacidad 0 no funciona en su implementación, también puede gestionar el parpadeo personalizando `bodyHiddenStyle` y estableciéndolo en `body {visibility:hidden !important}`. Puede usar el cuerpo de valores `{opacity:0 !important}` o `body {visibility:hidden !important}`, lo que mejor funcione para su circunstancia específica.
 
 La ilustración siguiente muestra las llamadas a Ocultar cuerpo y Mostrar cuerpo en at.js 1.*x* y at.js 2.x.
 
