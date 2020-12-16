@@ -12,13 +12,13 @@ ht-degree: 35%
 ---
 
 
-# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
+# Activación de contenido mixto en el explorador{#enabling-mixed-content-in-your-browser}
 
-El contenido mixto se produce si se carga contenido HTTPS (seguro) ** y HTTP (no seguro) para mostrar la misma página web y la solicitud inicial era segura a través de HTTPS.
+El contenido mixto se produce si se carga contenido HTTPS (seguro) *y* HTTP (no seguro) para mostrar la misma página web y la solicitud inicial era segura a través de HTTPS.
 
 Los navegadores modernos pueden bloquear la visualización de una página o mostrar mensajes de advertencia si el contenido seguro se combina con contenido no seguro.
 
-If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
+Si el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Target] intenta abrir una página con contenido mixto, se muestra un mensaje que muestra cómo deshabilitar el bloqueo en el explorador para que pueda abrir un sitio HTTP o un sitio con llamadas mixtas (HTTPS y HTTP).
 
 ![advertencia de contenido mixto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -34,7 +34,7 @@ Si su sitio web se ejecuta en un dominio no seguro (HTTP), debe permitir que el 
 
 Para obtener más información, consulte [Contenido mixto](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) en el sitio web *Mozilla Developer Network* (MDN).
 
-## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Habilitar contenido mixto en Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Si visita un sitio a través de una conexión segura, Chrome comprueba que el contenido de la página web se haya transmitido de forma segura.
 
@@ -42,17 +42,17 @@ Consulte [Esta página tiene contenido no seguro](https://support.google.com/chr
 
 Si utiliza el VEC con la versión más reciente de Chrome (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los visitantes al sitio no necesitan completar estos pasos.
 
-1. Haga clic en el icono de bloqueo o precaución y, a continuación, haga clic en Configuración **[!UICONTROL del]** sitio.
+1. Haga clic en el icono de bloqueo o precaución y, a continuación, haga clic en **[!UICONTROL Configuración del sitio]**.
 
    ![Configuración del sitio](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Desplácese al contenido **** no seguro y, a continuación, utilice la lista desplegable para cambiar &quot;Bloquear (predeterminado)&quot; a &quot;Permitir&quot;.
+1. Desplácese hasta **[!UICONTROL Contenido no seguro]** y, a continuación, utilice la lista desplegable para cambiar &quot;Bloquear (predeterminado)&quot; a &quot;Permitir&quot;.
 
    ![Contenido no seguro](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. Vuelva a cargar la página VEC.
 
-## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Habilitar contenido mixto en Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 De manera predeterminada, Firefox bloquea las páginas con contenido seguro y no seguro. Se recomienda cambiar esta opción de forma permanente para poder usar [!DNL Target]. Los visitantes al sitio no necesitan completar estos pasos.
 
@@ -79,11 +79,11 @@ Si está visitando un sitio a través de una conexión segura, Edge comprueba qu
 
 Si utiliza el VEC con la versión más reciente de Edge, debe actualizar la configuración del sitio. Los visitantes al sitio no necesitan completar estos pasos.
 
-1. Haga clic en el icono de bloqueo o precaución y, a continuación, haga clic en Permisos **[!UICONTROL del]** sitio.
+1. Haga clic en el icono de bloqueo o precaución y, a continuación, haga clic en **[!UICONTROL Permisos del sitio]**.
 
    ![Permisos del sitio en Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
-1. Desplácese al contenido **** no seguro y, a continuación, utilice la lista desplegable para cambiar &quot;Bloquear (predeterminado)&quot; a &quot;Permitir&quot;.
+1. Desplácese hasta **[!UICONTROL Contenido no seguro]** y, a continuación, utilice la lista desplegable para cambiar &quot;Bloquear (predeterminado)&quot; a &quot;Permitir&quot;.
 
    ![Contenido no seguro](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
 
