@@ -43,11 +43,11 @@ El árbol de nuestro ejemplo sería el siguiente:
 
 ![](assets/decsion_tree_2.png)
 
-## ¿De qué modo el bosque aleatorio utiliza los árboles de decisión?   {#section_536C105EF9F540C096D60450CAC6F627}
+## ¿De qué modo el bosque aleatorio utiliza los árboles de decisión?    {#section_536C105EF9F540C096D60450CAC6F627}
 
 Los árboles de decisión pueden ser una herramienta estadística muy útil. Sin embargo, presenta algunas desventajas. La más importante es que se puede producir un sobreajuste de datos, con lo que un solo árbol difícilmente predeciría datos futuros que no se hubieran utilizado para crear el árbol inicial. En estadística, este problema se conoce como [compensación sesgo-varianza](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Los bosques aleatorios ayudan a superar este problema de sobreajuste. En su máximo nivel, un bosque aleatorio es un conjunto de árboles de decisión que se ha creado de un modo algo distinto a partir del mismo conjunto de datos que “vota” conjuntamente para producir un modelo mejor que un árbol individual. Los árboles se crean seleccionando aleatoriamente un subconjunto de registros de visitas con sustitución (conocidos como empacados) y seleccionando aleatoriamente un subconjunto de los atributos para que el bosque esté formado de árboles de decisión ligeramente distintos. Con este método se introducen pequeñas variaciones en los árboles que se crean en el bosque aleatorio. Al añadir esta cantidad controlada de varianza, la precisión predictiva del algoritmo mejora.
 
-## ¿De qué modo los algoritmos de personalización de Target utilizan el bosque aleatorio?   {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## ¿De qué modo los algoritmos de personalización de Target utilizan el bosque aleatorio?    {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **¿Cómo se crean los modelos?**
 
