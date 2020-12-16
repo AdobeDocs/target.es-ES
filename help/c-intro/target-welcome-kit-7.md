@@ -14,31 +14,31 @@ ht-degree: 0%
 
 # Capítulo 7: Crear y ejecutar su primera actividad de Destinatario
 
-¿Así que está listo para empezar con su primera actividad en [!DNL Target]? Excelente. Vamos a encontrar una actividad para su sitio web, sitio móvil o aplicación móvil que no sea demasiado compleja, pero que pueda proporcionar un ROI rápido y entusiasmarle el potencial de usar [!DNL Target] para probar y personalizar. Según la organización y el enfoque que tenga, podría considerar la posibilidad de ir a una de las tres rutas diferentes con esa primera actividad.
+¿Está listo para empezar con su primera actividad en [!DNL Target]? Excelente. Vamos a encontrar una actividad para su sitio web, sitio móvil o aplicación móvil que no sea demasiado compleja, pero que pueda proporcionar un ROI rápido y entusiasmarle el potencial de utilizar [!DNL Target] para probar y personalizar. Según la organización y el enfoque que tenga, podría considerar la posibilidad de ir a una de las tres rutas diferentes con esa primera actividad.
 
 Sin embargo, la clave de la primera actividad es establecer una línea base de la métrica comercial que intenta mejorar: ingresos, pulsaciones, envíos de formularios, registros completados, etc. En una prueba A/B, con frecuencia puede utilizar la experiencia o oferta actual como &quot;control&quot; y medir el impacto de una variante de esa experiencia o oferta en su contra. Con la mayoría de las actividades de personalización, lo ideal es determinar el rendimiento de la experiencia actual antes de lanzar una versión personalizada de la misma. Esto le permitirá medir el impacto de la personalización.
 
 ## Ruta 1: Pruebas A/B para todo el tráfico de visitante
 
-Puede configurar una actividad [de prueba](/help/c-activities/t-test-ab/test-ab.md) A/B básica en la que pruebe una variación de una oferta o experiencia con respecto a una o varias variaciones para ver cuáles prefieren sus visitantes. Si solo está buscando la variante ganadora, puede optar por aprovechar AI para obtener resultados más rápidos seleccionando Asignación [automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) en el segundo paso del flujo de trabajo de configuración de la prueba A/B.
+Puede configurar una [actividad de prueba A/B básica](/help/c-activities/t-test-ab/test-ab.md) en la que pruebe una variación de una oferta o experiencia frente a una o más variaciones para ver cuáles prefieren sus visitantes. Si solo está buscando la variante ganadora, puede optar por aprovechar AI para obtener resultados más rápidos seleccionando [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) en el segundo paso del flujo de trabajo de configuración de la prueba A/B.
 
 Ejemplo: Una compañía de medios prueba su copia actual para una oferta de suscripción de regalo en la página principal de su sitio web o de dispositivos móviles para ver qué variación lleva a más visitantes a comprar una suscripción de regalo. Si selecciona Asignación automática, la actividad desplazará más tráfico a la variante ganadora a medida que se ejecuta la prueba. Si no es así, esperará a que active la experiencia ganadora manualmente una vez finalizada la prueba.
 
 ## Ruta 2: Personalización a una audiencia específica
 
-Puede configurar una actividad de [Segmentación](/help/c-activities/t-experience-target/experience-target.md) de experiencias (XT) que destinatario una audiencia específica que sepa que es valiosa con una oferta o experiencia que sepa que tendrá repercusión en ellas.
+Puede configurar una actividad [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) (XT) que destinatario una audiencia específica que sepa que es valiosa con una oferta o experiencia que sepa que tendrá repercusión en ellas.
 
 Ejemplo: Una aerolínea destinatario a sus miembros de nivel platino con una oferta especial que doble sus puntos en su próxima compra de vuelo para recompensarlos y aumentar la lealtad del cliente.
 
 ## Ruta 3: Aplicación de IA y automatización para personalizar a escala a visitantes individuales
 
-Puede configurar una actividad controlada por AI para ofrecer la mejor experiencia de varios visitantes seleccionando el Destinatario [](/help/c-activities/auto-target/auto-target-to-optimize.md) automático en el segundo paso del flujo de trabajo de configuración de la prueba A/B. El uso del Destinatario automático con la primera actividad puede resultar extremadamente útil cuando no sabe qué experiencia tendrá eco en distintos visitantes. Con el Destinatario automático, permite que el aprendizaje automático evalúe y puntee atributos predictivos en tiempo real y determine qué atributos de sus visitantes son los más importantes para determinar qué experiencia se debe ofrecer.
+Puede configurar una actividad controlada por AI para ofrecer la mejor experiencia de varios visitantes seleccionando [Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md) en el segundo paso del flujo de trabajo de configuración de la prueba A/B. El uso del Destinatario automático con la primera actividad puede resultar extremadamente útil cuando no sabe qué experiencia tendrá eco en distintos visitantes. Con el Destinatario automático, permite que el aprendizaje automático evalúe y puntee atributos predictivos en tiempo real y determine qué atributos de sus visitantes son los más importantes para determinar qué experiencia se debe ofrecer.
 
 Ejemplo: Una empresa de telecomunicaciones que vende varios modelos y marcas de teléfono activa el Destinatario automático para utilizar la automatización y el aprendizaje automático y determinar cuál de cuatro experiencias o ofertas diferentes en la página principal o en la pantalla de apertura de la aplicación móvil responderá mejor a su amplia variedad de visitantes.
 
 ## Generar una idea de actividad
 
-Podría hacer ese color básico de botón o copiar prueba de cambio, pero ¿qué tal probar o personalizar algo que tenga el potencial de demostrar cuán poderoso [!DNL Target] puede ser para mover la aguja de las métricas comerciales que importan? Algo que sorprende a los ejecutivos del grupo C y a los líderes de las unidades de negocio.
+Podría hacer ese color de botón básico o copiar la prueba de cambio, pero ¿qué tal probar o personalizar algo que tenga el potencial de demostrar cuán poderoso puede ser [!DNL Target] para mover la aguja de las métricas comerciales que importan? Algo que sorprende a los ejecutivos del grupo C y a los líderes de las unidades de negocio.
 
 A continuación se presentan algunas formas de llegar a esas ideas de actividad que son fáciles de implementar pero que pueden tener un impacto para las grandes empresas:
 
@@ -52,7 +52,7 @@ Cuando llegue a la idea de realizar pruebas, tenga en cuenta que debería poder 
 
 ## Planificación de la actividad con el planificador de Actividades
 
-Hemos incluido [Adobe Target Actividad Planner](/help/assets/activity-planner.pdf) como un PDF independiente que puede guardar y usar una y otra vez. Haga clic en el vínculo para vista del archivo PDF. Haga clic con el botón derecho para descargar el archivo PDF.
+Hemos incluido el [Adobe Target Actividad Planner](/help/assets/activity-planner.pdf) como un PDF independiente que puede guardar y usar una y otra vez. Haga clic en el vínculo para vista del archivo PDF. Haga clic con el botón derecho para descargar el archivo PDF.
 
 Para ejecutar una actividad efectiva, debe completar cada área del planificador. Utilice esta herramienta a medida que usted y otros usuarios inician ideas para probar y personalizar actividades.
 
@@ -70,11 +70,11 @@ Explique claramente cuál es el problema con la experiencia actual de la página
 
 ### ¿Qué tipo de actividad se necesita?
 
-Marque la casilla del tipo de actividad que desea ejecutar. Puede revisar el tema de tipos [de actividad de](/help/c-activities/target-activities-guide.md) Destinatario o el capítulo [Adobe Target en un resumen](/help/c-intro/target-welcome-kit-2.md) para comprender los diferentes tipos de actividad disponibles.
+Marque la casilla del tipo de actividad que desea ejecutar. Puede revisar el tema [tipos de actividad de Destinatario](/help/c-activities/target-activities-guide.md) o el capítulo [Adobe Target at a Glance](/help/c-intro/target-welcome-kit-2.md) para comprender los diferentes tipos de actividad disponibles.
 
 ### ¿Quién es la audiencia del destinatario?
 
-En una prueba A/B con una experiencia de control y una variante, por ejemplo, puede incluir toda la población de visitantes. De forma predeterminada, [!DNL Target] envía el 50 % al control y el 50 % a la variante. Pero si personaliza, podría describir la audiencia o audiencias a las que está personalizando. Al utilizar la IA, puede que tenga en cuenta que está utilizando la IA para personalizarla con el individuo. Tenga en cuenta que la hipótesis debe indicar por qué se seleccionan audiencias específicas para una actividad si se elige alguna.
+En una prueba A/B con una experiencia de control y una variante, por ejemplo, puede incluir toda la población de visitantes. De forma predeterminada, [!DNL Target] proporciona el 50 por ciento al control y el 50 por ciento a la variante. Pero si personaliza, podría describir la audiencia o audiencias a las que está personalizando. Al utilizar la IA, puede que tenga en cuenta que está utilizando la IA para personalizarla con el individuo. Tenga en cuenta que la hipótesis debe indicar por qué se seleccionan audiencias específicas para una actividad si se elige alguna.
 
 ### ¿Cuáles son las métricas principales para medir el impacto de la actividad?
 
@@ -92,7 +92,7 @@ Si la actividad requiere el documento de un diseñador, un desarrollador web o u
 
 Se necesita un cierto número de visitantes para colocarlos en la población de prueba para llegar a una conclusión estadísticamente significativa a partir de la prueba. Piensen en ello, si solo dos personas participan en la prueba, ¿van a confiar en los resultados?
 
-[!DNL Target] se basa en principios estadísticos para determinar que los resultados de una prueba son estadísticamente válidos. La calculadora [de tamaño de la](https://docs.adobe.com/content/target-microsite/testcalculator.html) muestra de Adobe le ayuda a determinar la duración de la ejecución de una prueba en función de la confianza que necesite en los resultados. Haga clic en el vínculo [!UICONTROL Más] información de esta casilla para abrir y utilizar la calculadora.
+[!DNL Target] se basa en principios estadísticos para determinar que los resultados de una prueba son estadísticamente válidos. La calculadora de tamaño de la muestra [Adobe](https://docs.adobe.com/content/target-microsite/testcalculator.html) le ayuda a determinar la duración de la ejecución de una prueba en función de la confianza que necesita en los resultados. Haga clic en el vínculo [!UICONTROL Más información] en este cuadro para abrir y utilizar la calculadora.
 
 ### ¿Qué importancia tiene esta actividad?
 
@@ -108,4 +108,4 @@ Los resultados de la actividad a menudo proporcionan perspectivas sobre las acci
 
 ## Abra el Destinatario y cree e inicie la actividad
 
-Ha completado el Planificador de Actividad. Ahora es el momento de entrar en la solución y crear su actividad. [!DNL Target] facilita la modificación de la página web en el Compositor de experiencias [!UICONTROL visuales].
+Ha completado el Planificador de Actividad. Ahora es el momento de entrar en la solución y crear su actividad. [!DNL Target] facilita la modificación de la página web en el Compositor de experiencias  [!UICONTROL visuales].
