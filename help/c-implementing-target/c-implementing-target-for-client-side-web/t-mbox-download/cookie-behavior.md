@@ -20,7 +20,7 @@ El comportamiento de la cookie depende de si es una cookie de origen, una cookie
 >
 >Este tema contiene información sobre `mboxSession` y `mboxPC`. Nuestras prácticas recomendadas de implementación recomiendan que no vincule ni almacene información confidencial con los datos de las cookies: `mboxSession` o `mboxPC`.
 
-See also [Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
+Consulte también [Eliminar la cookie de Destinatario](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
 
 ## Cuándo usar cookies de origen o de terceros {#section_F71B29420C004A7FA3B1921E619B326E}
 
