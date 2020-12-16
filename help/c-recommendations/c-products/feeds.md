@@ -20,7 +20,7 @@ Utilice fuentes para obtener entidades importadas en [!DNL Adobe Target Recommen
 
 Las fuentes le permiten transferir [Entidades](/help/c-recommendations/c-products/products.md) o ampliar los datos de mbox con información que, o bien no está disponible en la página, o bien no es seguro enviar directamente desde la página, como margen, COGS, etc.
 
-Las fuentes le permiten pasar información detallada sobre los elementos a [!DNL Recommendations], como ID de producto, categoría, nombre, mensaje y otros atributos.
+Las fuentes le permiten pasar información detallada del elemento a [!DNL Recommendations], como ID del producto, categoría, nombre, mensaje y otros atributos.
 
 Puede seleccionar las columnas de su archivo de clasificaciones de productos de [!DNL Target] o del archivo de Búsqueda de productos de Google que desea enviar al servidor de [!DNL Recommendations].
 
@@ -31,7 +31,7 @@ Estos datos sobre cada elemento se pueden utilizar para:
 * Ordenar elementos en diferentes colecciones
 * Aplicar exclusiones a las recomendaciones
 
-Las descripciones de los elementos se pueden pasar a [!DNL Target] través de fuentes o mboxes. Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
+Las descripciones de los elementos se pueden pasar a [!DNL Target] mediante fuentes o mboxes. Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
 
 La lista [!UICONTROL Fuentes] (**[!UICONTROL Recomendaciones]** > **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado.
 
@@ -118,13 +118,13 @@ Si tiene una fuente de productos de Google existente, puede usarla como su archi
 >
 >No es obligatorio usar datos de Google. [!DNL Recommendations] solo utiliza el mismo formato que Google. Puede usar este método para cargar los datos que tenga y utilizar las funciones de programación disponibles. No obstante, debe conservar los nombres de atributo predefinidos de Google al configurar el archivo.
 
-La mayoría de vendedores cargan los productos a Google para que dichos productos se muestren cuando un visitante realice una búsqueda de productos en Google. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
+La mayoría de vendedores cargan los productos a Google para que dichos productos se muestren cuando un visitante realice una búsqueda de productos en Google. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Las fuentes de entidades se pueden enviar a [!DNL Recommendations] mediante .xml, .txt o .tsv, y pueden utilizar los atributos [definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
 >El método POST debe estar permitido en el servidor que hospeda el contenido de las fuentes de Google.
 
-Because [!DNL Recommendations] users already configure .xml or .txt feeds to send to Google either via URL or FTP, entity feeds accept that product data and use it to build out the recommendations catalog. Especifique si la fuente existe y si el servidor de Recommendations recupera los datos.
+Debido a que los usuarios [!DNL Recommendations] ya configuran fuentes .xml o .txt para enviarlas a Google a través de URL o FTP, las fuentes de entidades aceptan los datos del producto y los utilizan para crear el catálogo de recomendaciones. Especifique si la fuente existe y si el servidor de Recommendations recupera los datos.
 
 Si utiliza la búsqueda de productos de Google para la carga de las fuentes de entidades, debe tener no obstante un mbox de página de producto en la página si desea mostrar recomendaciones en ella o hacer un seguimiento de las vistas de productos para la entrega de algoritmos basados en vistas.
 
@@ -207,21 +207,21 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Clasificaciones de productos Analytics   {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Clasificaciones de productos Analytics    {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de productos Analytics es la única clasificación disponible para Recommendations. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía de usuario.
+La clasificación de productos Analytics es la única clasificación disponible para Recommendations. Para obtener más información sobre este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía de usuario.
 
 >[!IMPORTANT]
 >
->Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
+>Antes de importar datos de entidad a [!DNL Recommendations] mediante clasificaciones de productos de Analytics, tenga en cuenta que este no es el método preferido.
 >
 > Tenga en cuenta las siguientes advertencias:
 >
 >* Las actualizaciones de los atributos de la entidad incurren en un retraso adicional de hasta 24 horas.
->* [!DNL Target] solo admite clasificaciones de productos. The Analytics product SKU must map to the same level as the [!DNL Recommendations] `entity.id`. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
+>* [!DNL Target] solo admite clasificaciones de productos. El SKU de producto de Analytics debe asignarse al mismo nivel que el [!DNL Recommendations] `entity.id`. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
 
 
-## Crear fuente   {#steps}
+## Crear fuente    {#steps}
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
@@ -236,7 +236,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
    * Fuente de productos de Google
    * Clasificaciones de Analytics
 
-   Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). También puede [descargar una guía CSV de modelo](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) para ayudarle a dar un formato correcto a la fuente.
 
 1. (Condicional) Si ha seleccionado **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
 
@@ -284,7 +284,7 @@ Mientras la indización está en curso, se muestran los encabezados de la fuente
 
 Cuando el estado indica “Correcto”, significa que el archivo se ha encontrado y se ha analizado correctamente. La información no está disponible para su uso en [!DNL Recommendations] hasta que se indexa el archivo. La tarea de indexación puede tardar bastante, en función del tamaño del archivo. Si se produce un error en el proceso, se debe a que no se encontró el archivo (por ejemplo, utilizó una dirección URL incorrecta o unos datos de FTP incorrectos) o que se produjo un error de análisis.
 
-## Estados e indicadores de alimentación   {#concept_E475986720D1400999868B3DFD14A7A0}
+## Estados e indicadores de alimentación    {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Información sobre los posibles estados de alimentación y sus indicadores.
 
@@ -309,9 +309,9 @@ Para actualizar una fuente (por ejemplo, si quiere hacer cambios en la configura
 
 >[!IMPORTANT]
 >
->Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
+>Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un elemento no se incluye en un archivo de fuente (u otro método de actualización de entidad) al menos una vez cada 60 días, [!DNL Adobe Target] deduce que el elemento ya no es relevante y lo elimina del catálogo.
 
-### Indicadores de estado de fuente   {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Indicadores de estado de fuente    {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
 En la columna [!UICONTROL Estado] se muestran los siguientes indicadores de estado de fuente:
 
@@ -342,7 +342,7 @@ El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutad
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Explicación de las fuentes en Recommendations (3:01) ![Distintivo de información general](/help/assets/overview.png)
+### Explicación de las fuentes en Recommendations (3:01)  ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo contiene la información siguiente:
 
@@ -351,7 +351,7 @@ Este vídeo contiene la información siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creación de una fuente (6:44) ![Insignia de tutorial](/help/assets/tutorial.png)
+### Creación de una fuente (6:44)  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
