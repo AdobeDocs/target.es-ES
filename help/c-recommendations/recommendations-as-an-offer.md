@@ -121,6 +121,6 @@ El estado de oferta de las recomendaciones (algoritmo) aparece en la página [!U
 
 ![Estado de la oferta de Recommendations](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vídeo de capacitación: Recommendations como distintivo de ![información general de oferta](/help/assets/overview.png)
+## Vídeo de capacitación: Recommendations como distintivo de oferta ![Información general](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
