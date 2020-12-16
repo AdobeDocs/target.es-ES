@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # Bookmarklet de control de calidad de la actividad{#activity-qa-bookmarklet}
 
-Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
+Información para ayudarle a utilizar el bookmarklet [!DNL Target] QA para obligar a [!DNL Target] a liberarlo del modo de control de calidad.
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 ## bookmarklet de control de calidad de actividad para at.js 1.*x* 
 
-Como el modo de [control de calidad](/help/c-activities/c-activity-qa/activity-qa.md) es persistente, después de examinar un sitio web en modo de control de calidad, la sesión de debe caducar o tiene que indicar a que lo libere del modo de control de calidad antes de poder ver su sitio como lo vería un visitante. [!DNL Target][!DNL Target] Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
+Como el modo de [control de calidad](/help/c-activities/c-activity-qa/activity-qa.md) es persistente, después de examinar un sitio web en modo de control de calidad, la sesión de debe caducar o tiene que indicar a que lo libere del modo de control de calidad antes de poder ver su sitio como lo vería un visitante. [!DNL Target][!DNL Target] Utilice el bookmarklet QA [!DNL Target] para forzar su salida del modo de control de calidad.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+Para utilizar el bookmarklet [!DNL Target] QA, cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de marcadores del explorador:
 
 ```javascript
 javascript:(
@@ -43,7 +43,7 @@ javascript:(
 )();
 ```
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+También puede forzar la salida manual del modo de control de calidad cargando una página en su sitio con el parámetro `at_preview_token` con un valor vacío.
 
 Por ejemplo:
 
@@ -51,9 +51,9 @@ Por ejemplo:
 
 ## bookmarklet de control de calidad de actividad para at.js 2.*x* 
 
-A diferencia de at.js 1.*x*, at.js 2.*x* no admite cookies de terceros y el modo de control de calidad solo es fijo para el dominio de origen (mediante una cookie de origen configurada por at.js). Por lo tanto, en at.js 2.*x*, la sesión del modo de control de calidad se administra solamente en el lado del cliente y no se envían cookies del modo de control de calidad a Destinatario.
+A diferencia de at.js 1.*x*, at.js 2.** xis no admite cookies de terceros y el modo de control de calidad solo es fijo para el dominio de origen (mediante una cookie de origen configurada por at.js). Por lo tanto, en at.js 2.*x*, la sesión del modo de control de calidad se administra solamente en el lado del cliente y no se envían cookies del modo de control de calidad a Destinatario.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+Para utilizar el bookmarklet [!DNL Target] QA, cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de marcadores del explorador:
 
 ```javascript
 javascript:(
