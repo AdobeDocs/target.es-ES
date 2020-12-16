@@ -99,7 +99,7 @@ Excluir el contenido predeterminado es una excelente manera de cambiar la aparie
 
 **Para excluir el contenido predeterminado usando Visual Experience Composer (VEC):**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
+1. Mientras [crea o edita una actividad AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), seleccione el contenido que desee reemplazar y haga clic para acceder a **[!UICONTROL Cambiar texto/HTML]**, **[!UICONTROL Cambiar imagen]** o **[!UICONTROL Cambiar color de fondo]**.
 1. En el cuadro de diálogo, cree su nuevo contenido y desmarque **Incluir** a la derecha del contenido predeterminado (o desmarque la Imagen/Vídeo predeterminado en la pantalla Seleccionar contenido).
 
    Dependiendo del tipo de contenido/oferta, la casilla [!UICONTROL Incluir] está en un lugar ligeramente diferente.
