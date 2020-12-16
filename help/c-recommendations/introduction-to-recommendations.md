@@ -41,7 +41,7 @@ Los especialistas en marketing utilizan [!DNL Adobe Target] para impulsar experi
 * **Juegos**: Las empresas de juegos utilizan [!DNL Target] para recomendar juegos y contenido a los usuarios de sus consolas.
 * **Ventas B2B**: [Las empresas B2B utilizan Target para recomendar vídeos, documentos técnicos y anuncios de blogs a posibles clientes B2B; proporcionar descargas y ayudar a los clientes existentes](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **Viajes**: [Un corredor de viajes alemán utiliza el Destinatario para recomendar hoteles y más a los viajeros](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+* **Viajes**:  [Un corredor de viajes alemán utiliza el Destinatario para recomendar hoteles y más a los viajeros](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
 * **Comercio minorista**: [Un minorista líder BB usa Target para recomendar categorías y productos principales para los visitantes de retorno en el explorador y en su aplicación móvil](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2.
 
@@ -129,7 +129,7 @@ Una actividad de [!DNL Recommendations] consta de los siguientes componentes:
 
 ![Ilustración que muestra los elementos que constituyen una actividad de recomendaciones: Audiencias, criterios y diseños](/help/c-recommendations/assets/intro-12.png)
 
-De serie, [!DNL Target] incluye 14 audiencias, 42 criterios y 10 plantillas de diseño integradas. Puede personalizar cada uno de estos elementos o agregarlos. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Esta sección se centra en definir los criterios que definen qué artículos se recomendarán.
+De serie, [!DNL Target] incluye 14 audiencias, 42 criterios y 10 plantillas de diseño integradas. Puede personalizar cada uno de estos elementos o agregarlos. Hemos tenido [seminarios web anteriores sobre la creación de audiencias](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) en [!DNL Target]. Esta sección se centra en definir los criterios que definen qué artículos se recomendarán.
 
 Target usa el concepto de la tarjeta de criterios. Una tarjeta de criterios es como una fórmula para personalizar.
 
