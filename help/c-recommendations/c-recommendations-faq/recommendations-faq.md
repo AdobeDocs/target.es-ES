@@ -20,7 +20,7 @@ Lista de las preguntas más frecuentes (FAQ) sobre las actividades de Adobe Targ
 
 Cuando se realiza una búsqueda de catálogo en un atributo personalizado con un valor numérico, los resultados tratan el atributo personalizado como un tipo de cadena en lugar de un valor numérico.
 
-Actualmente, no hay ninguna funcionalidad disponible que permita a los clientes cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) de cliente que haga referencia a los atributos que necesitan que el tipo cambie de cadena a numérico.
+Actualmente, no hay ninguna funcionalidad disponible que permita a los clientes cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema con el cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) que haga referencia a los atributos que necesitan que el tipo cambie de cadena a numérico.
 
 ## ¿Cuánto tiempo llevará ver las actualizaciones de los elementos del catálogo en mi sitio?
 
@@ -57,7 +57,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## ¿Por qué no están disponibles para su selección todos los criterios, incluidos los personalizados, al crear una actividad de Recommendations?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## ¿Por qué no están disponibles para su selección todos los criterios, incluidos los personalizados, al crear una actividad de Recommendations?   {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Los criterios disponibles dependen de la categoría actual. Cuando crea ofertas de recomendaciones, el selector de algoritmo muestra criterios basados en el Id. de la categoría.
 
@@ -90,7 +90,7 @@ La siguiente lista contiene casos especiales en los que Target no muestra la cas
 * No se activa ninguna llamada a mbox desde la página (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Los parámetros de Target no están definidos.
 
-## ¿Qué debería hacer si una colección en Recommendations resulta en cero (0)?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## ¿Qué debería hacer si una colección en Recommendations resulta en cero (0)?   {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Tenga en cuenta la siguiente información si ve que una colección que era distinta de cero resulta en cero:
 
@@ -118,7 +118,7 @@ Este tipo de ponderación es más dinámico y se basa en la “clave de recomend
 
 ![](assets/content_similarity_example.png)
 
-## ¿Por qué a veces Target no puede mostrar recomendaciones?  {#section_DB3F40673AED42228E407C05437D99E9}
+## ¿Por qué a veces Target no puede mostrar recomendaciones?   {#section_DB3F40673AED42228E407C05437D99E9}
 
 Target a veces no puede mostrar recomendaciones debido al bajo número de recomendaciones disponibles.
 
@@ -135,13 +135,13 @@ Puede usar el siguiente JavaScript al comienzo del diseño para incrementar el n
 #end 
 ```
 
-## ¿Cuál es el límite de tamaño de una llamada API para insertar/actualizar productos? ¿Puedo actualizar 50 000 productos en una llamada usando la API en vez de una fuente?  {#section_434FE1F187B7436AA39B7C14C7895168}
+## ¿Cuál es el límite de tamaño de una llamada API para insertar/actualizar productos? ¿Puedo actualizar 50 000 productos en una llamada usando la API en vez de una fuente?   {#section_434FE1F187B7436AA39B7C14C7895168}
 
 Target impone a las publicaciones un límite de 50 MB en el nivel de aplicación. Sin embargo, eso ocurre solamente cuando pasa el encabezado de tipo de contenido `application/x-www-form-urlencoded`.
 
 Bien podría probar enviar 50 000 productos en una sola llamada. Si falla, debería dividir ese número en lotes. Habitualmente recomendamos que los clientes dividan sus llamadas en lotes de 5000 o 10 000 productos para reducir la probabilidad de tiempo de espera agotado debido a la carga del sistema.
 
-## ¿Es necesario especificar el nombre del mbox al crear en Recommendations criterios, promociones o reglas de prueba de plantillas?  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## ¿Es necesario especificar el nombre del mbox al crear en Recommendations criterios, promociones o reglas de prueba de plantillas?   {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Cuando se crean en Recommendations criterios, promociones o reglas de prueba de plantilla basadas en un parámetro de mbox, `mboxParameter` ya no le solicita `mboxName`. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro.
 
@@ -154,11 +154,11 @@ Con ninguno de estos métodos existe vínculo entre el mbox y el parámetro. Los
 
 Si edita un criterio, promoción o regla de prueba de plantilla existente, el criterio de filtrado se muestra con el nombre de mbox que se suministró durante la creación.
 
-## ¿Por qué no puedo guardar la actividad de Mis recomendaciones heredadas después de definir una nueva audiencia?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## ¿Por qué no puedo guardar la actividad de Mis recomendaciones heredadas después de definir una nueva audiencia?   {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Asegúrese de que la audiencia tiene un nombre único. Si le dio a la audiencia el mismo nombre que una audiencia existente, no puede guardar su actividad de Recommendations heredada (una actividad de Recommendations creada antes de octubre de 2016).
 
-## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente?  {#section_20F1AF4839A447B9889B246D6E873538}
+## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente?   {#section_20F1AF4839A447B9889B246D6E873538}
 
 No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, recomendamos limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Los límites adicionales en la longitud de las columnas requeridas están disponibles en la  [página Limitaciones de Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
@@ -168,13 +168,13 @@ En la cadena de consulta, puede pasar los ID de entidad de las entidades que des
 
 Para habilitar la funcionalidad de exclusión, utilice el parámetro mbox `excludedIds`. Este parámetro apunta a una lista de ID de entidad separados por comas. Por ejemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. El valor se envía al solicitar recomendaciones.
 
-La exclusión solo se realiza para la llamada de Destinatario actual; los elementos no se excluyen en las llamadas de Destinatario posteriores a menos que se vuelva a pasar el `excludedIds` valor. Para excluir elementos del carro de compras de las recomendaciones en cada página, siga pasando el `excludedIds` valor en cada página.
+La exclusión solo se realiza para la llamada de Destinatario actual; los elementos no se excluyen en llamadas de Destinatario posteriores a menos que se vuelva a pasar el valor `excludedIds`. Para excluir elementos del carro de compras de las recomendaciones en cada página, siga pasando el valor `excludedIds` en cada página.
 
 >[!NOTE]
 >
 >Si se excluyen demasiadas entidades, las recomendaciones se comportan como si no hubiera suficientes entidades para rellenar la plantilla de recomendaciones.
 
-To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Cuando se extrae la dirección URL de contenido, se substituyen los parámetros requeridos mediante parámetros de solicitud de mbox actuales.
+Para excluir `entityIds`, anexe el token `&excludes=${mbox.excludedIds}` a la dirección URL de contenido de la oferta. Cuando se extrae la dirección URL de contenido, se substituyen los parámetros requeridos mediante parámetros de solicitud de mbox actuales.
 
 De forma predeterminada, esta característica está activada para las recomendaciones de nueva creación. Las recomendaciones existentes deben guardarse para permitir entidades dinámicamente excluidas.
 
