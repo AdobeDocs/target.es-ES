@@ -14,9 +14,9 @@ ht-degree: 77%
 
 # Tokens de respuesta{#response-tokens}
 
-Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
+Los tokens de respuesta permiten generar automáticamente información específica de [!DNL Target] (detalles de actividad, información de perfil del usuario, información geográfica, etc.) para utilizarla en la depuración o integración con sistemas de terceros (como Clicktale).
 
-Los tokens de respuesta le permiten elegir qué variables utilizar y, a continuación, habilitarlas para que se envíen como parte de una respuesta de Destinatario. Para hacerlo, simplemente habilite una variable mediante el conmutador y la variable se enviará con respuestas de Destinatario, que se pueden validar en llamadas de red. Response tokens work in [!UICONTROL Preview] mode as well.
+Los tokens de respuesta le permiten elegir qué variables utilizar y, a continuación, habilitarlas para que se envíen como parte de una respuesta de Destinatario. Para hacerlo, simplemente habilite una variable mediante el conmutador y la variable se enviará con respuestas de Destinatario, que se pueden validar en llamadas de red. Los tokens de respuesta también funcionan en el modo [!UICONTROL Previsualización].
 
 Una diferencia clave entre complementos y tokens de respuesta es que, mientras que los primeros envían a la página código JavaScript que se ejecuta al recibirlo, los segundos envían un objeto que puede leerse y sobre el que puede actuarse utilizando detectores de eventos. Para obtener más información, consulte Más adelante en este artículo se encuentran los [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) y los ejemplos. El enfoque de tokens de respuesta es más seguro y debería facilitar el desarrollo y mantenimiento de integraciones de terceros.
 
@@ -35,7 +35,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
 
    Para obtener más información, consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. En [!DNL Target], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Tokens de respuesta]**.
 
    ![](assets/response_tokens-new.png)
 
@@ -45,7 +45,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
 
    | Tipo | Parámetro | Notas |
    |--- |--- |--- |
-   | Perfiles integrados | `profile.activeActivities` | Devuelve una matriz de los `activityIds` para los que el visitante está cualificado. Aumenta a medida que los usuarios se cualifican. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
+   | Perfiles integrados | `profile.activeActivities` | Devuelve una matriz de los `activityIds` para los que el visitante está cualificado. Aumenta a medida que los usuarios se cualifican. Por ejemplo, en una página con dos [!DNL Target] solicitudes que ofrecen dos actividades diferentes, la segunda solicitud incluye ambas actividades. |
    |  | `profile.isFirstSession` | Devuelve “true” o “false”. |
    |  | `profile.isNewSession` | Devuelve “true” o “false”. |
    |  | `profile.daysSinceLastVisit` | Devuelve el número de días desde la última visita del visitante. |
@@ -56,7 +56,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
    |  | `profile.categoryAffinities` | Devuelve una matriz de las cinco principales categorías del visitante en forma de cadenas. |
    | Actividad | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Detalles sobre la actividad actual. Tenga en cuenta que “opción” es igual a “oferta”. |
    | Geografía | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Para obtener más información acerca del uso de la segmentación geográfica en las actividades, consulte [Geografía](/help/c-target/c-audiences/c-target-rules/geo.md). |
-   | Método<br>de asignación de tráfico (solo se aplica a las actividades [!UICONTROL de Destinatario] automático y [!UICONTROL Automated Personalization] ). | `experience.trafficAllocationId` | Devuelve 0 si un visitante ha recibido una experiencia por estar en tráfico de &quot;control&quot; y 1 si un visitante ha recibido una experiencia de la distribución de tráfico de &quot;objetivo&quot;. |
+   | Método de asignación de tráfico<br>(sólo se aplica a actividades [!UICONTROL Destinatario automático] y [!UICONTROL Automated Personalization]). | `experience.trafficAllocationId` | Devuelve 0 si un visitante ha recibido una experiencia por estar en tráfico de &quot;control&quot; y 1 si un visitante ha recibido una experiencia de la distribución de tráfico de &quot;objetivo&quot;. |
    |  | `experience.trafficAllocationType` | Devuelve &quot;control&quot; o &quot;segmentado&quot;. |
 
    Los atributos del perfil de usuario y los atributos de cliente también se muestran en la lista.
@@ -65,9 +65,9 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
    >
    >Los parámetros con caracteres especiales no se muestran en la lista. Se admiten únicamente caracteres alfanuméricos y guiones bajos.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Condicional) Si desea utilizar un parámetro de perfil como token de respuesta, pero el parámetro no se ha pasado a través de una solicitud [!DNL Target] y, por lo tanto, no se ha cargado en la interfaz de usuario de Destinatario, puede utilizar el botón [!UICONTROL Añadir token de respuesta] para agregar el perfil a la interfaz de usuario.
 
-   Haga clic en **[!UICONTROL Añadir token]** de respuesta, proporcione el nombre del token y, a continuación, haga clic en **[!UICONTROL Activar]**.
+   Haga clic en **[!UICONTROL Añadir token de respuesta]**, proporcione el nombre del token y haga clic en **[!UICONTROL Activar]**.
 
    ![](assets/response_token_create.png)
 
@@ -130,15 +130,15 @@ Verá los tokens de respuesta, pero at.js no será capaz de usarlos.
 
 **¿Qué sucede su utilizo at.js 1.1 (o posterior) en algunas página de mi sitio, pero mbox.js en otras?**
 
-Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
+Los tokens de respuesta se enviarán a las respuestas del [!DNL at.js] Destinatario, pero no a las respuestas [!DNL mbox.js].
 
 **¿Puedo tener activos a la vez complementos de Target Classic y tokens de respuesta?**
 
 Los complementos y los tokens de respuesta estarán disponibles en paralelo; sin embargo, los complementos quedarán obsoletos en el futuro.
 
-**¿Los tokens de respuesta se envían a través de todas las [!DNL Target] respuestas o solo a través de [!DNL Target] respuestas que envían una actividad?**
+**¿Los tokens de respuesta se envían a través de todas  [!DNL Target] las respuestas o solo a través de  [!DNL Target] respuestas que ofrecen una actividad?**
 
-Response tokens are delivered only through [!DNL Target] responses delivering an activity.
+Los tokens de respuesta solo se envían mediante [!DNL Target] respuestas que envían una actividad.
 
 **Mis complementos de Target Classic incluyen código JavaScript. ¿Cómo replico su funcionalidad mediante tokens de respuesta?**
 
@@ -164,7 +164,7 @@ Como se ha mencionado anteriormente, los tokens de respuesta operan con la infor
 
 Target realiza una actualización de atributos a intervalos regulares. Cualquier atributo que no esté activado se eliminará durante la siguiente actualización. Sin embargo, si se elimina un atributo activado (por ejemplo, si se elimina un script de perfil que se utilizaba como token), dicho script no se eliminará de la lista de atributos hasta que lo desactive. Target solo elimina de la lista los atributos desactivados cuando estos se eliminan o se cambia su nombre.
 
-## Envío de datos a Google Analytics mediante at.js   {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Envío de datos a Google Analytics mediante at.js    {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Es posible enviar datos a Google Analytics mediante at.js añadiendo el siguiente código en la página HTML:
 
@@ -230,7 +230,7 @@ Es posible enviar datos a Google Analytics mediante at.js añadiendo el siguient
 </script>
 ```
 
-## Depuración (similar al complemento ttMeta)   {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## Depuración (similar al complemento ttMeta)    {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 Puede crearse el equivalente del complemento ttMeta para depuración añadiendo el siguiente código a la página HTML:
 
@@ -288,6 +288,6 @@ Vea el siguiente vídeo para aprender a utilizar los tokens de respuesta y los e
 
 >[!NOTE]
 >
->La interfaz de usuario del menú [!DNL Target] Administración [!UICONTROL (anteriormente] Ajustes ) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información del siguiente vídeo es, en general, correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán pronto.
+>La interfaz de usuario del menú [!DNL Target] [!UICONTROL Administración] (anteriormente [!UICONTROL Configuración]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información del siguiente vídeo es, en general, correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán pronto.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
