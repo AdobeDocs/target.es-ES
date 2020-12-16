@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# ![Descripción general del Destinatario automático PREMIUM](/help/assets/premium.png)
+# ![](/help/assets/premium.png) PREMIUMAomisión del Destinatario
 
 [!UICONTROL La segmentación automática] utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias de alto rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. La segmentación automática proporciona la experiencia más adaptada a cada visitante según su perfil de cliente individual y el comportamiento de visitantes anteriores con perfiles similares.
 
@@ -20,15 +20,15 @@ ht-degree: 86%
 >
 >La [!UICONTROL segmentación automática] está disponible como parte de la solución [!DNL Target Premium]. Esta característica no está disponible en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información sobre las funciones avanzadas que proporciona esta licencia, consulte [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL Analytics para Destinatario] (A4T) admite actividades de Destinatario  automático. Para obtener más información, consulte [Creación de una actividad que utilice Analytics como origen](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)de sistema de informes.
+>[!UICONTROL Analytics para Destinatario]  (A4T) admite actividades de  [!UICONTROL segmentación ] automática. Para obtener más información, consulte [Creación de una actividad que utilice Analytics como fuente de sistema de informes](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).
 
-## Historia de éxito real con Destinatario automático {#success}
+## Historia de éxito en el mundo real con Destinatario automático {#success}
 
-Un importante minorista de ropa ha utilizado recientemente una actividad de Destinatario  automático con diez experiencias basadas en la categoría de productos (además de un control aleatorio) para ofrecer el contenido adecuado a cada visitante. Se eligió &quot;[!UICONTROL Añadir al carro]&quot; como métrica de optimización principal. Las experiencias objetivo tuvieron un alza promedio del 29,09%. Después de crear los modelos de Destinatario  automático, la actividad se estableció en un 90 % de experiencias personalizadas.
+Un importante minorista de ropa ha utilizado recientemente una actividad [!UICONTROL Destinatario automático] con diez experiencias basadas en la categoría del producto (además de control aleatorio) para proporcionar el contenido correcto a cada visitante. &quot;[!UICONTROL Añadir al carro]&quot; se eligió como métrica de optimización principal. Las experiencias objetivo tuvieron un alza promedio del 29,09%. Después de crear los modelos [!UICONTROL Destinatario automático], la actividad se estableció en un 90 % de experiencias personalizadas.
 
 En sólo diez días, se lograron más de 1.700.000 dólares de alza.
 
-Siga leyendo para aprender a utilizar el Destinatario  automático para aumentar el alza y los ingresos de su organización.
+Siga leyendo para aprender a utilizar [!UICONTROL Destinatario automático] para aumentar el alza y los ingresos de su organización.
 
 ## Información general {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -44,7 +44,7 @@ Al contrario que en una actividad A/B, en la que la asignación de experiencias 
 
 ## Consideraciones
 
-There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
+Hay que tener en cuenta algunas consideraciones importantes al utilizar [!UICONTROL Destinatario automático]:
 
 * No puede cambiar una actividad específica de segmentación automática a [!UICONTROL Personalización automatizada] y viceversa.
 * No puede pasar de la asignación de tráfico manual (prueba tradicional A/B) a la [!UICONTROL orientación automática] y viceversa después de que una actividad esté activa.
@@ -76,7 +76,7 @@ Obtenga más información acerca de los datos y algoritmos detrás de la [!UICON
 | [Carga de datos para los algoritmos de personalización de Target](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Hay varias formas de introducir datos para los modelos de [!UICONTROL Segmentación automática] y Personalización automatizada. |
 | [Recopilación de datos para los algoritmos de personalización de Target](/help/c-activities/t-automated-personalization/ap-data.md) | Los algoritmos de personalización de Target recopilan automáticamente una variedad de datos. |
 
-## Determinación de la asignación de tráfico.  {#section_AB3656F71D2D4C67A55A24B38092958F}
+## Determinación de la asignación de tráfico.   {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 Dependiendo del objetivo de su actividad, puede elegir una asignación de tráfico diferente entre control y experiencias personalizadas. Lo mejor es determinar este objetivo antes de realizar su actividad en vivo.
 
@@ -162,7 +162,7 @@ Para la [!UICONTROL segmentación automática], se pueden usar reglas simples pa
 
 Para obtener más información, consulte [Informe Resumen de la segmentación automática](/help/c-reports/auto-target-summary-report.md) en la sección [Informes](/help/c-reports/reports.md).
 
-## Vídeo de capacitación: Distintivo de ![información general de Actividades de Destinatario automático](/help/assets/overview.png)
+## Vídeo de capacitación: Explicación de las Actividades de Destinatario automático ![distintivo de información general](/help/assets/overview.png)
 
 Este vídeo explica cómo configurar una actividad A/B de [!UICONTROL Segmentación automática].
 
