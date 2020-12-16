@@ -28,7 +28,7 @@ Cuando un visitante llega a una página donde ha configurado una actividad, [!DN
 
 Si el visitante cumple los criterios para pertenecer a una audiencia segmentada, [!DNL Target] determina qué experiencia se mostrará según los criterios definidos cuando se creó la actividad.
 
-## Vídeo de formación: Segmentación de actividades  (2:13) ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Segmentación de actividades  (2:13)  ![Insignia de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre cómo configurar la segmentación y las audiencias.
 
