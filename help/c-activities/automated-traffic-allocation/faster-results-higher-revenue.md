@@ -18,13 +18,13 @@ Con una actividad A/B manual, es posible que esté perdiendo conversiones, ya qu
 
 ## Asignación automática del tráfico
 
-Si desea una opción para ofrecer la experiencia ganadora más a menudo y antes en la actividad, a la vez que elimina o reduce el costo de configuración y cálculo de la selección de tamaños de muestra, niveles de confianza y otros conceptos estadísticos, la mejor opción es la asignación [!UICONTROL automática] .
+Si desea una opción para ofrecer la experiencia ganadora más a menudo y antes en la actividad mientras elimina o reduce simultáneamente el costo de configuración y cálculo de la selección de tamaños de muestra, niveles de confianza y otros conceptos estadísticos, [!UICONTROL Asignación automática] es la mejor opción.
 
 ## ¿Cómo funciona la asignación automática?
 
-[!UICONTROL La asignación] automática utiliza el principio del método multi-armed bandit. Si el término no es familiar, un bandido con un solo arma es un término coloquial para una máquina tragaperras (piensen: Las Vegas). Visualice la asignación automática del tráfico como si tuviera varias máquinas tragaperras, en este caso, pruebe las variaciones y, al principio, extraiga todos los controladores de forma equitativa. Con el tiempo, una o más máquinas, o variaciones de prueba, podrían tener un rendimiento mayor que otras. Cuando esto sucede, un jugador naturalmente inicio sacar las cartas de las que ganan con más frecuencia. En términos de asignación de tráfico, [!DNL Adobe Target] ofrecerá a más visitantes la experiencia o experiencias que están ganando más.
+[!UICONTROL La asignación automática ] utiliza el principio del método multi-armed bandit. Si el término no es familiar, un bandido con un solo arma es un término coloquial para una máquina tragaperras (piensen: Las Vegas). Visualice la asignación automática del tráfico como si tuviera varias máquinas tragaperras, en este caso, pruebe las variaciones y, al principio, extraiga todos los controladores de forma equitativa. Con el tiempo, una o más máquinas, o variaciones de prueba, podrían tener un rendimiento mayor que otras. Cuando esto sucede, un jugador naturalmente inicio sacar las cartas de las que ganan con más frecuencia. En términos de asignación de tráfico, [!DNL Adobe Target] proporcionará a más visitantes la experiencia o experiencias que están ganando más.
 
-Considere la siguiente ilustración de una actividad A/B de dos semanas. Con la asignación automática, a medida que surge una experiencia ganadora, el [!UICONTROL Destinatario] desvía una mayor parte del tráfico hacia ese ganador desde el principio de la prueba.
+Considere la siguiente ilustración de una actividad A/B de dos semanas. Con [!UICONTROL Asignación automática], a medida que surge una experiencia ganadora, [!UICONTROL Destinatario] desvía más tráfico hacia esa ganadora al principio de la prueba.
 
 ![Ilustración de asignación automática](/help/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
@@ -34,17 +34,17 @@ El aspecto positivo es bastante claro: más visitantes ven las variaciones que f
 
 ## ¿Cómo puede la asignación automática obtener mayores ingresos?
 
-[!UICONTROL La asignación] automática encuentra el ganador más rápido que una división A/B manual y también le permite aprovechar ese ganador para capturar inmediatamente los ingresos al alza que se habrían perdido con un enfoque tradicional o manual. Dado que la asignación  automática dirige más tráfico a la experiencia con la mayor tasa de conversión, puede aumentar los ingresos mientras la actividad se ejecuta y aprende.
+[!UICONTROL La asignación automática ] encuentra el ganador más rápido que una división A/B manual, y también le permite explotar ese ganador capturando inmediatamente los ingresos al alza que se habrían perdido con un enfoque tradicional o manual. Dado que [!UICONTROL Asignación automática] dirige más tráfico a la experiencia con la mayor tasa de conversión, puede aumentar los ingresos mientras la actividad se ejecuta y aprende.
 
-En el ejemplo siguiente, la asignación  automática obtuvo más ingresos durante la prueba al impulsar más tráfico (40 %) a la experiencia D, que tenía la tasa de conversión más alta.
+En el siguiente ejemplo, [!UICONTROL Asignación automática] obtuvo más ingresos durante la prueba al impulsar más tráfico (40%) a la Experiencia D, que tenía la tasa de conversión más alta.
 
 ![La asignación automática proporciona una ilustración de ingresos más alta](/help/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
 ## ¿En qué casos debo seguir con la asignación manual del tráfico?
 
-Cuando necesite clasificar el orden de cada experiencia en relación con las demás, la prueba A/B manual es más aplicable. [!UICONTROL La asignación] automática busca y explota los mejores resultados, pero no garantiza la diferenciación entre las experiencias de menor rendimiento. Debe utilizar la asignación manual del tráfico para controlar completamente la cantidad de tráfico de visitante que ve cada variante de prueba y para personalizar los umbrales estadísticos relevantes para su negocio.
+Cuando necesite clasificar el orden de cada experiencia en relación con las demás, la prueba A/B manual es más aplicable. [!UICONTROL La asignación automática ] busca y explota los mejores resultados, pero no garantiza la diferenciación entre las experiencias de menor rendimiento. Debe utilizar la asignación manual del tráfico para controlar completamente la cantidad de tráfico de visitante que ve cada variante de prueba y para personalizar los umbrales estadísticos relevantes para su negocio.
 
 ## Introducción
 
-¿Está listo para iniciar la primera actividad de asignación  automática? [Aprende cómo aquí](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+¿Está listo para iniciar la primera actividad [!UICONTROL de asignación automática]? [Aprende cómo aquí](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
