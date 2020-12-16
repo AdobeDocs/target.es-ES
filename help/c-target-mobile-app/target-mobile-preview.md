@@ -24,14 +24,14 @@ Use el vínculo de vista previa en móviles para realizar fácilmente un control
 
 La funcionalidad de vista previa para móviles le permite probar completamente sus actividades de aplicación móvil antes del lanzamiento.
 
-## Requisitos previos   {#section_A763C564C9E84B0EB448237B5B1E4068}
+## Requisitos previos    {#section_A763C564C9E84B0EB448237B5B1E4068}
 
 1. **Utilice una versión compatible del SDK:** la función de vista previa para móviles requiere que descargue e instale la versión apropiada (4.14 o posterior) del SDK de Adobe Mobile en las aplicaciones correspondientes.
 
    Para obtener instrucciones sobre la descarga del SDK apropiado, consulte:
 
-   * **iOS:** [Antes de realizar el inicio](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) en la Ayuda *de iOS de* Mobile Services.
-   * **Android:** [Antes de realizar el inicio](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) en la Ayuda *de Android de* Mobile Services.
+   * **iOS:** [Antes de ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iniciar la Ayuda *de iOS de* Mobile Services.
+   * **Android:** [Antes de ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) iniciar la Ayuda *de Android de* Mobile Services.
 
 1. **Configure un esquema de direcciones URL:** el vínculo de vista previa utiliza un esquema de direcciones URL para abrir la aplicación. Debe especificar un esquema de URL exclusivo para la vista previa.
 
