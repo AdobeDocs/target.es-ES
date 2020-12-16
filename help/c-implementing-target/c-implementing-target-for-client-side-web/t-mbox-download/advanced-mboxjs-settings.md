@@ -26,13 +26,13 @@ Las configuraciones disponibles son las siguientes:
 
 El código de cliente de la cuenta.
 
-When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
+Al ver [!UICONTROL Administración > Implementación], el cliente en la parte superior es el código de cliente de su cuenta.
 
 ## Tiempo de espera
 
 El tiempo de espera de solicitud de Target.
 
-Al ver [!UICONTROL Administración > Implementación], el tiempo de espera (segundos) es el tiempo de espera de la solicitud de Destinatario. De forma predeterminada, este valor es de 15 segundos, pero se recomienda establecerlo entre 2 y 5 segundos.
+Al ver [!UICONTROL Administración > Implementación], la configuración Tiempo de espera (segundos) es el tiempo de espera de la solicitud de Destinatario. De forma predeterminada, este valor es de 15 segundos, pero se recomienda establecerlo entre 2 y 5 segundos.
 
 ## XDomain
 
