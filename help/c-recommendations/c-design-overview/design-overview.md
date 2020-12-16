@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # Información general de diseño{#design-overview}
 
-Los diseños [!DNL Adobe Target Recommendations] definen cómo aparecen las recomendaciones en una página. Los diseños definen el diseño y el formato de las recomendaciones para mejorar la participación, la conversión y los ingresos de los visitantes.
+Los diseños de [!DNL Adobe Target Recommendations] definen cómo aparecerán las recomendaciones en una página. Los diseños definen el diseño y el formato de las recomendaciones para mejorar la participación, la conversión y los ingresos de los visitantes.
 
 [!DNL Recommendations] viene con varios diseños predeterminados (precompilados) o puede crear los suyos propios.
 
