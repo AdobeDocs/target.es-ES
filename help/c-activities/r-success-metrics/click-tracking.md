@@ -83,7 +83,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
    | Carácter | Descripción |
    |---|---|
    | # | Signo de número  o almohadilla |
-   | : | Dos puntos |
+   | :: | Dos puntos |
    | . | Periodo |
    | $ | Símbolo del dólar |
    | `[ ]` | Corchetes |
