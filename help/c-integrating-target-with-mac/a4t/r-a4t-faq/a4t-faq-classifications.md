@@ -14,7 +14,7 @@ ht-degree: 65%
 
 # Clasificaciones: Preguntas más frecuentes sobre A4T{#classifications-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+En este tema encontrará respuestas a preguntas que se plantean a menudo sobre las clasificaciones y el uso de [!DNL Analytics] como fuente de sistema de informes para [!DNL Target] (A4T).
 
 ## Tras usar el importador de clasificaciones para descargar clasificaciones, ¿cómo relaciono el valor post-tnt-action con el nombre de una actividad? {#section_6045DAC488B248418F430E663C38D001}
 
@@ -24,11 +24,11 @@ Este archivo de búsqueda es útil para los clientes que reciben la fuente de da
 
 El formato de cadena de la variable TNT es `activityID:experienceID:targettype|event`.
 
-* targettype = 0 (control/aleatorio) o 1 (objetivo) para actividades de asignación  automática y Destinatario  automático.
+* targettype = 0 (control/aleatorio) o 1 (objetivo) para actividades [!UICONTROL de asignación automática] y [!UICONTROL de Destinatario automático].
 * Evento = 0 representa una entrada en la experiencia.
 * Evento = 1 representa una visita en la experiencia.
 * Evento = 2 representa una impresión de actividad.
 * Evento = 3-32766 representa la identificación de la métrica de éxito de análisis.
 * Evento = 32767 representa una conversión de actividad.
 
-You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). También puede incluir servicios de ingeniería para obtener el archivo como una tabla de búsqueda con una fuente de datos de secuencias de clic.
+Puede importar el archivo de clasificación con frecuencia desde la interfaz de usuario mediante una [importación del explorador](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) o una [importación por FTP](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). También puede incluir servicios de ingeniería para obtener el archivo como una tabla de búsqueda con una fuente de datos de secuencias de clic.
