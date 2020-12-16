@@ -28,7 +28,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
    >[!NOTE]
    >
-   >Esto se aplica a las implementaciones de at.js con la versión 2.*x* o posterior. Para at.js 1.*implementaciones de x* y mbox.js, esto solo es cierto si el explorador del visitante no bloquea las cookies de terceros.
+   >Esto se aplica a las implementaciones de at.js con la versión 2.** xor más tarde. Para at.js 1.*Implementaciones* xand mbox.js, esto solo es cierto si el explorador del visitante no bloquea las cookies de terceros.
 
 ## Acceso y uso compartido de una URL de control de calidad {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -44,7 +44,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
       Si esta opción está desactivada, al hacer clic en los vínculos se mostrarán las experiencias independientemente de si se cumplen los requisitos o no. Al realizar el control de calidad, puede cambiar repetidamente entre un ajuste y otro.
 
-   * **Mostrar contenido predeterminado para todas las demás Actividades:** Si esta opción está activada, el contenido predeterminado se muestra para todas las demás actividades (por ejemplo, la previsualización se mostrará de forma aislada sin tener en cuenta todas las demás actividades activas en la misma página o solicitud[!DNL Target] .
+   * **Mostrar contenido predeterminado para el resto de Actividades:** si esta opción está activada, el contenido predeterminado se muestra para todas las demás actividades (por ejemplo, la previsualización se mostrará de forma aislada sin tener en cuenta todas las demás actividades activas de la misma página o [!DNL Target] solicitud.
 
       Si el ajuste está desactivado, tenga en cuenta lo siguiente:
 
@@ -58,7 +58,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
    Cada URL de vínculos de actividad (para Exp A, Exp B, etc.) le permite iniciar el viaje del usuario desde la experiencia correspondiente. Puede hacer clic en la URL generada para una experiencia y, a continuación, examinar normalmente el sitio para ver experiencias en varias páginas (de haberlas). Se genera una única URL por experiencia, aunque esta abarque múltiples páginas (prueba de plantilla o prueba multipágina).
 
-   Puede explorar el sitio para ver las demás páginas, ya que el control de calidad de la actividad es persistente. Tenga en cuenta que esto es cierto para implementaciones de at.js con la versión 2.*x* o posterior. Para at.js 1.*implementaciones de x* y mbox.js, esto solo es cierto si el explorador del visitante no bloquea las cookies de terceros.
+   Puede explorar el sitio para ver las demás páginas, ya que el control de calidad de la actividad es persistente. Tenga en cuenta que esto es cierto para implementaciones de at.js con la versión 2.** xor más tarde. Para at.js 1.*Implementaciones* xand mbox.js, esto solo es cierto si el explorador del visitante no bloquea las cookies de terceros.
 
 1. Para ver los informes generados a partir de las URL de vínculos de actividad, haga clic en la página **[!UICONTROL Informes]** de la actividad, haga clic en el icono **[!UICONTROL Configuración]** (![](assets/icon_gear.png)) y, a continuación, seleccione **[!UICONTROL Modo de control de calidad]** en la lista desplegable **[!UICONTROL Entorno]**.
 
@@ -90,7 +90,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
    | `at_preview_token` | Cadena cifrada | Obligatorio; no hay valor predeterminado | Una entidad cifrada que contiene la lista de ID de campaña que se pueden ejecutar en modo QA. |
    | `at_preview_index` | Cadena | Vacía | El formato del parámetro es `<campaignIndex>` o `<campaignIndex>_< experienceIndex>`<br>ambos índices comienzan con 1. |
    | `at_preview_listed_activities_only` | Booleano (true/false) | Valor predeterminado: false | Si es “true”, se procesan todas las campañas especificadas en los parámetros `at_preview_index`.<br>Si es “false”, se procesan todas las campañas de la página, aunque no se especificaran en el token de vista previa. |
-   | `at_preview_evaluate_as_true_audience_ids` | Cadena | Vacía | Underscore-separated (&quot;_&quot;) list of segmentId-s that should always (at targetting and reporting level) be evaluated as &quot;true&quot; in the scope of the [!DNL Target] request. |
+   | `at_preview_evaluate_as_true_audience_ids` | Cadena | Vacía | La lista de segmentId-s separados por subrayado (&quot;_&quot;) que siempre debe evaluarse (a nivel de objetivo y sistema de informes) como &quot;true&quot; en el ámbito de la solicitud [!DNL Target]. |
    | `_AT_Debug` | Cadena | Ventana o consola | Registro de consola o nueva ventana. |
    | `adobe_mc_ref` |  |  | Pasa la URL de referencia de la página predeterminada a la nueva página. Cuando se utiliza con `AppMeasurement.js` versión 2.1 (o posterior), [!DNL Adobe Analytics] usa este valor de parámetro como URL de referencia en la nueva página. |
    | `adobe_mc_sdid` |  |  | Transfiere los valores de [!DNL Supplemental Data Id] (SDID) y de [!DNL Experience Cloud Org Id] la página predeterminada a la nueva página, de modo que Analytics para Target (A4T) “una” la solicitud de Target en la página predeterminada a la solicitud de Analytics en la nueva página. |
