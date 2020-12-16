@@ -45,7 +45,7 @@ Para obtener más información y ejemplos sobre el uso de `registerExtension`, c
 | globalMboxAutoCreate | Booleano | Indica si la creación automática está habilitada o no |
 | timeout | Número | Tiempo de espera de la solicitud |
 
-## Métodos del módulo del registrador   {#section_10AF62B49AEF48F981E950D26E176138}
+## Métodos del módulo del registrador    {#section_10AF62B49AEF48F981E950D26E176138}
 
 | Clave | Tipo | Descripción |
 |--- |--- |--- |
