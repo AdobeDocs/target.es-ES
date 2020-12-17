@@ -4,7 +4,7 @@ description: Resolución de problemas y preguntas más frecuentes sobre el Desti
 title: Solución de problemas de Destinatario automático y preguntas más frecuentes
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
+source-git-commit: f4e6de7c8eb2478010ba1d0cd37fab99c6e8d80b
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 68%
@@ -108,6 +108,12 @@ Esta recomendación se aplica a [!UICONTROL actividades de asignación automáti
 
 No se sugiere utilizar la opción [!UICONTROL Restablecer datos del informe] para actividades [!UICONTROL Destinatario automático]. Aunque elimina los datos de sistema de informes visibles, esta opción no elimina todos los registros de capacitación del modelo [!UICONTROL Destinatario automático]. En lugar de utilizar la opción [!UICONTROL Restablecer datos del informe] para actividades [!UICONTROL Destinatario automático], cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades [!UICONTROL de asignación automática] y [!UICONTROL Automated Personalization]).
 
+### ¿Qué sucede si elimino una sola experiencia de una actividad de Destinatario automático?
+
+[!DNL Target] crea un modelo por experiencia, por lo que eliminar una experiencia significa que solo  [!DNL Target] generará un modelo menos y no afectará a los modelos de las otras experiencias.
+
+Por ejemplo, supongamos que tiene una actividad [!UICONTROL Destinatario automático] con ocho experiencias y no le gusta el rendimiento de una experiencia. Puede eliminar esa experiencia y no afectará a los modelos de las siete experiencias restantes.
+
 ## Solución de problemas de la [!UICONTROL segmentación automática] {#section_23995AB813F24525AF294D20A20875C8}
 
 A veces, las actividades no salen como se esperaba. A continuación, le presentamos algunos de los posibles desafíos a los que se puede enfrentar al usar la [!UICONTROL segmentación automática] y algunas soluciones sugeridas.
@@ -144,8 +150,3 @@ En una actividad de [!UICONTROL Segmentación automática], una vez convertida l
 
 Por ejemplo, existe una actividad con una métrica de conversión (C1) y una métrica adicional (A1). A1 depende de C1. Cuando un visitante entra a la actividad por primera vez y no se convierten los criterios de conversión de A1 y C1, la métrica A1 no se convierte debido a la dependencia de métrica de éxito. Si el visitante convierte C1 y luego convierte A1, A1 aún no se convierte porque en cuanto se convierte C1, se libera el visitante.
 
-### ¿Qué sucede si elimino una sola experiencia de una actividad de Destinatario automático?
-
-[!DNL Target] crea un modelo por experiencia, por lo que eliminar una experiencia significa que solo  [!DNL Target] generará un modelo menos y no afectará a los modelos de las otras experiencias.
-
-Por ejemplo, supongamos que tiene una actividad [!UICONTROL Destinatario automático] con ocho experiencias y no le gusta el rendimiento de una experiencia. Puede eliminar esa experiencia y no afectará a los modelos de las siete experiencias restantes.
