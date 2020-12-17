@@ -4,10 +4,10 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3144'
-ht-degree: 29%
+source-wordcount: '3165'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Diciembre de 16 | [Solución de problemas de Destinatario automático y preguntas más frecuentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Se añadió la siguiente pregunta frecuente: &quot;¿Qué sucede si elimino una sola experiencia de una actividad de Destinatario automático?&quot; |
 | Diciembre de 9 | [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nuevo tema. |
 |  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha movido el siguiente problema de la sección Problemas conocidos a la sección Problemas resueltos: &quot;ofertas de imagen que muestran la etiqueta &quot;Procesamiento&quot;.&quot; |
 | Diciembre de 1 | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Se ha incorporado la grabación del seminario web para &quot;Personalizar y probar con latencia cero con decisiones en dispositivos de Adobe Target&quot;. |
