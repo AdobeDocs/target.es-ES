@@ -4,10 +4,10 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
-source-wordcount: '3165'
-ht-degree: 28%
+source-wordcount: '3188'
+ht-degree: 29%
 
 ---
 
@@ -20,6 +20,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Diciembre de 17 | [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Se ha actualizado la tabla para indicar que el SDK de Java admite A4T. |
 | Diciembre de 16 | [Solución de problemas de Destinatario automático y preguntas más frecuentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Se añadió la siguiente pregunta frecuente: &quot;¿Qué sucede si elimino una sola experiencia de una actividad de Destinatario automático?&quot; |
 | Diciembre de 9 | [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nuevo tema. |
 |  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha movido el siguiente problema de la sección Problemas conocidos a la sección Problemas resueltos: &quot;ofertas de imagen que muestran la etiqueta &quot;Procesamiento&quot;.&quot; |
