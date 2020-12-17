@@ -4,7 +4,7 @@ description: Puede crear audiencias en Adobe Target basadas en los detalles de l
 title: Opciones de red en audiencias de Adobe Target
 feature: audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 98%
@@ -45,7 +45,7 @@ Puede crear audiencias que estén basadas en datos de la red.
       >
       >Al segmentar en función del ISP, use el nombre del ISP, no el nombre popular. Asegúrese de que la regla no distingue entre mayúsculas y minúsculas o utilice siempre minúsculas.
 
-      Puede probar los valores de ISP y nombre de dominio. [](https://www.whoismyisp.org)https://www.whoismyisp.org es un buen recurso para fines de segmentación. Puede usar las direcciones IP de ejemplo que aparecen en la tabla anterior o escribir sus propias direcciones. A continuación use el parámetro `themboxOverride.browserIp= URL` para imitar la dirección IP.
+      Puede probar los valores de ISP y nombre de dominio. [](https://www.whoismyisp.org)https://www.whoismyisp.org es un buen recurso para fines de segmentación. Puede usar las direcciones IP de ejemplo que aparecen en la tabla anterior o escribir sus propias direcciones. A continuación use el parámetro `mboxOverride.browserIp= URL` para imitar la dirección IP.
 
    * **Nombre de dominio:** es el nombre de dominio de la dirección IP del visitante. No es el nombre de dominio del sitio web que está usando con [!DNL Target]. Este nombre de dominio está relacionado con la dirección IP del visitante y a veces se denomina nombre de host. Generalmente es muy similar al nombre de ISP. A veces el nombre de host hace referencia a nombres más antiguos de compañías que han cambiado el nombre de marca de su ISP pero no el nombre de dominio.
    * **Velocidad de conexión:** es la velocidad de la conexión a Internet del visitante. Las opciones incluyen: banda ancha, cable, acceso telefónico, móvil, oc3, oc12, satélite, t1, t2, inalámbrico y xdsl.
