@@ -4,17 +4,17 @@ description: Organice sus sitios y entornos de preproducción para facilitar la 
 title: Hosts
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 26%
+source-wordcount: '1083'
+ht-degree: 25%
 
 ---
 
 
 # Hosts{#hosts}
 
-Organice sus sitios y entornos de preproducción para facilitar la administración y la creación de informes individuales.
+Organice sus sitios y entornos de preproducción para una administración sencilla y un sistema de informes separado en [!DNL Adobe Target].
 
 El objetivo primordial de la administración de hosts reside en garantizar que ningún contenido inactivo se muestre por error en los sitios web. La administración de hosts también le permite separar los datos del informe por [entorno](/help/administrating-target/environments.md).
 
