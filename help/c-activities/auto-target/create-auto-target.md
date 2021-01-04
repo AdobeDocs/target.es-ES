@@ -1,13 +1,13 @@
 ---
 keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
-description: Utilice el Compositor de experiencias visuales en Adobe Target para crear la actividad de prueba A/B de asignación automática directamente en una página con Destinatario habilitado y para modificar partes de la página dentro de Destinatario.
+description: Use el Compositor de experiencias visuales (VEC) en Adobe Target para crear la actividad de prueba A/B de Destinatario automático directamente en una página con Destinatario habilitado y para modificar partes de la página dentro de Destinatario.
 title: Creación de una actividad de Destinatario automático
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 59%
+source-wordcount: '897'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 59%
 Utilice el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] para crear la actividad [!UICONTROL Destinatario automático] [!UICONTROL Prueba A/B] directamente en una página habilitada para [!DNL Target] y para modificar partes de la página dentro de [!DNL Target].
 
 >[!NOTE]
+>
+>La [!UICONTROL segmentación automática] está disponible como parte de la solución [!DNL Target Premium]. Esta característica no está disponible en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información sobre las funciones avanzadas que proporciona esta licencia, consulte [Target Premium](/help/c-intro/intro.md).
 >
 >Además de la actividad [!UICONTROL Destinatario automático] [!UICONTROL Prueba A/B] (analizada en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades [!UICONTROL Prueba A/B]: [!UICONTROL Manual (predeterminado)] y [!UICONTROL Asignación automática].
 >
