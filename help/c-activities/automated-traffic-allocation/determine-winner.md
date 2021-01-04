@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Interprete los resultados de una actividad A/B de asignación automática examinando indicadores importantes, incluidos el alza y la confianza, en la interfaz de usuario de Adobe Target.
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+description: Interprete los resultados de una actividad A/B de asignación automática en Adobe Target examinando indicadores importantes, incluidos el alza y la confianza.
 title: Interpretar informes de asignación automática
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1112'
 ht-degree: 48%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 48%
 
 # Interpretar informes de asignación automática {#determine-a-winner}
 
-Interprete los resultados de una actividad A/B de asignación automática examinando indicadores importantes, incluidos el alza y la confianza, en la interfaz de usuario de Destinatario.
+Interprete los resultados de una [!UICONTROL actividad A/B de asignación automática] en [!UICONTROL Adobe Target] examinando indicadores importantes, incluidos el alza y la confianza.
 
 Muchos especialistas en marketing cometen el error de declarar una experiencia ganadora precipitadamente antes de que los resultados indiquen el claro ganador. Ahora, le facilitamos la tarea de determinar el ganador.
 
