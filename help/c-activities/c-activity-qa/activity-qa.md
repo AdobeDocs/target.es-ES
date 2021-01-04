@@ -4,9 +4,9 @@ description: Utilice las URL de control de calidad de Adobe Target para realizar
 title: Control de calidad de la actividad
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1529'
 ht-degree: 80%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 # Control de calidad de la actividad {#activity-qa}
 
-Use direcciones URL de control de calidad en Adobe Target para realizar fácilmente un control de calidad de la actividad end-to-end con vínculos de previsualización que nunca cambian, objetivos opcionales de audiencia y sistemas de informes de control de calidad que permanecen segmentados a partir de datos de actividad en directo.
+Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar un control de calidad de actividad de extremo a extremo sencillo con vínculos de previsualización que nunca cambian, objetivos de audiencia opcionales y sistemas de informes de control de calidad que permanecen segmentados a partir de datos de actividad en directo.
 
 ## Información general {#section_11B761A522A14E61978275772210A4C2}
 
