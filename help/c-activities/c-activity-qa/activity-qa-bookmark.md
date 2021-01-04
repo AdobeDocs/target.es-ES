@@ -4,7 +4,7 @@ description: Información para ayudarle a utilizar el bookmarklet de control de 
 title: bookmarklet de control de calidad de actividad para Adobe Target
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -12,7 +12,7 @@ ht-degree: 26%
 ---
 
 
-# Bookmarklet de control de calidad de la actividad{#activity-qa-bookmarklet}
+# Bookmarklet de control de calidad de la actividad
 
 Información para ayudarle a utilizar el bookmarklet [!DNL Target] QA para obligar a [!DNL Target] a liberarlo del modo de control de calidad.
 
