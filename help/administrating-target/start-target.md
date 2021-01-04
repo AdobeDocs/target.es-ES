@@ -1,20 +1,20 @@
 ---
 keywords: Administration;approver role;approver
-description: En esta sección se explican los primeros pasos que deben realizar los administradores de Adobe Target tras recibir por correo electrónico la invitación de Adobe Experience Cloud.
+description: Los primeros pasos que deben realizar los administradores de Adobe Target después de recibir la invitación por correo electrónico al Adobe Experience Cloud.
 title: Primeros pasos del administrador
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 93%
+source-wordcount: '399'
+ht-degree: 84%
 
 ---
 
 
-# Primeros pasos del administrador{#administrator-first-steps}
+# Primeros pasos del administrador
 
-En esta sección se explican los primeros pasos que deben realizar los administradores de [!DNL Target] tras recibir por correo electrónico la invitación de [!DNL Adobe Experience Cloud].
+Este artículo contiene los primeros pasos que deben realizar los administradores [!DNL Adobe Target] después de recibir la invitación por correo electrónico a [!DNL Adobe Experience Cloud].
 
 ## Obtenga una invitación para usar Target{#task_3E0817630774431983FAA3D2CB2E75BD}
 
