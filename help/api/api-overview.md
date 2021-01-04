@@ -4,9 +4,9 @@ description: Información sobre las API de Adobe Target, incluidas las API de ad
 title: Información general sobre la API de Adobe Target
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Información general sobre la API de Adobe Target
 
-[!DNL Adobe Target] Las API se pueden agrupar según el tipo.
+[!DNL Adobe Target] Las API se pueden agrupar según el tipo: API de administración, Envío, Sistema de informes y Perfil.
 
 | Tipo de API | Lo que le permite hacer | Vínculo de descarga | Otros vínculos útiles |
 | --- | --- | --- |--- |
