@@ -4,7 +4,7 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de destinatario
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -54,6 +54,6 @@ Las demandas de los consumidores están evolucionando rápidamente, y HSBC ha ad
 
 ## Adobe Target Skill Builder: Chat del desarrollador, migrar mbox.js de Adobe Target a at.js {#skill-builder}
 
-Con la inminente desaprobación de mbox.js el 18 de enero de 2012, David Son, Product Manager de Adobe Target, organizó recientemente un chat de desarrollador para analizar las ventajas de migrar mbox.js a at.js.
+Con la inminente desaprobación de mbox.js el 31 de marzo de 2012, David Son, Product Manager de Adobe Target, organizó recientemente un chat de desarrollador para analizar las ventajas de migrar mbox.js a at.js.
 
 [Vista la grabación del seminario web aquí](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
