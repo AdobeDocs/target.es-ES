@@ -4,17 +4,17 @@ description: El Destinatario automático en Adobe Target utiliza aprendizaje aut
 title: Descripción general del Destinatario automático
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '2014'
-ht-degree: 86%
+source-wordcount: '2018'
+ht-degree: 85%
 
 ---
 
 
 # ![](/help/assets/premium.png) PREMIUMAomisión del Destinatario
 
-[!UICONTROL La segmentación automática] utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias de alto rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. La segmentación automática proporciona la experiencia más adaptada a cada visitante según su perfil de cliente individual y el comportamiento de visitantes anteriores con perfiles similares.
+[!UICONTROL Las actividades de ] segmentación automática en Adobe Target utilizan aprendizaje automático avanzado para seleccionar entre varias experiencias de alto rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. La segmentación automática proporciona la experiencia más adaptada a cada visitante según su perfil de cliente individual y el comportamiento de visitantes anteriores con perfiles similares.
 
 >[!NOTE]
 >
