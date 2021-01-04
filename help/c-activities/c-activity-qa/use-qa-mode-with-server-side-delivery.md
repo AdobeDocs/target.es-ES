@@ -4,17 +4,17 @@ description: Utilice las direcciones URL de control de calidad de Adobe Target c
 title: Usar el control de calidad de la actividad con entrega de servidor
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 80%
+source-wordcount: '384'
+ht-degree: 72%
 
 ---
 
 
-# Usar el control de calidad de la actividad con entrega de servidor{#use-activity-qa-with-server-side-delivery}
+# Usar el control de calidad de la actividad con entrega de servidor
 
-Use direcciones URL de control de calidad con entrega de servidor para realizar sencillos controles de calidad de las actividades integrales con vínculos de vista previa invariables, segmentar audiencias de manera opcional y crear informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
+Use direcciones URL de control de calidad con envío del lado del servidor en [!DNL Adobe Target] para realizar un control de calidad de actividad de extremo a extremo sencillo con vínculos de previsualización que nunca cambian, objetivos de audiencia opcionales y sistemas de informes de control de calidad que permanecen segmentados a partir de datos de actividad activos.
 
 La implementación estándar del control de calidad de la actividad admite pasar parámetros `qa_mode` mediante parámetros de `pageUrl`. Este método resulta práctico para llamadas [!DNL Target] estándar/ajax. Sin embargo, para las llamadas de servidor a servidor, este no es el mejor enfoque para un caso de SDK móvil cuando `pageUrl` no está disponible.
 
