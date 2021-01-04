@@ -2,19 +2,19 @@
 keywords: Overview and Reference
 description: El resumen de la prueba proporciona una visión general de la prueba multivariada de Adobe Target.
 title: Resumen de la prueba
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '103'
-ht-degree: 87%
+ht-degree: 76%
 
 ---
 
 
-# Resumen de la prueba{#test-summary}
+# Resumen de la prueba
 
-El resumen de la prueba ofrece información general sobre la prueba multivariable de manera gráfica.
+El resumen de la prueba proporciona una visión general de la [!DNL Adobe Target] [!UICONTROL prueba multivariada].
 
 ![Cuadro de diálogo de resumen de la prueba](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 
