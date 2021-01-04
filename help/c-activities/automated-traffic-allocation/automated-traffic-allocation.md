@@ -1,20 +1,20 @@
 ---
-keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
-description: La actividad Asignación automática de Adobe Target identifica un ganador entre dos o más experiencias y automáticamente reasigna más tráfico al ganador para aumentar las conversiones mientras la prueba continúa ejecutándose y aprendiendo.
+keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation;auto-allocate;auto allocate
+description: Una actividad de asignación automática en Adobe Target identifica a un ganador entre dos o más experiencias y automáticamente reasigna más tráfico al ganador para aumentar las conversiones mientras la prueba continúa ejecutándose y aprendiendo.
 title: Asignación automática
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '3374'
-ht-degree: 74%
+source-wordcount: '3377'
+ht-degree: 73%
 
 ---
 
 
 # Información general de asignación automática
 
-La asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
+Una actividad de asignación automática en [!DNL Adobe Target] identifica un ganador entre dos o más experiencias y automáticamente reasigna más tráfico al ganador para aumentar las conversiones mientras la prueba continúa ejecutándose y aprendiendo.
 
 Al crear una actividad A/B mediante el flujo de trabajo guiado de tres pasos, puede elegir la opción [!UICONTROL Asignación automática para la mejor experiencia].
 
