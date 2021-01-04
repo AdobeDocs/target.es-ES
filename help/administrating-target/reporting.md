@@ -1,13 +1,13 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Configure el Compositor de experiencias visuales (VEC) de Adobe Target especificando su configuración general, la configuración de ventanilla móvil y los selectores CSS.
+description: Configure las opciones generales para utilizarlas en Adobe Target sistema de informes que se aplican a toda la cuenta de Destinatario. Puede configurar la solución de Adobe Experience Cloud para utilizarla en sistema de informes (Destinatario o Analytics), el huso horario y el formato de moneda que se va a utilizar para el sistema de informes, las direcciones IP que se van a excluir del sistema de informes y si se va a mostrar el alza estimada de los ingresos y las prioridades específicas en sistema de informes.
 title: Configurar sistema de informes en Adobe Target
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 33%
+source-wordcount: '708'
+ht-degree: 31%
 
 ---
 
