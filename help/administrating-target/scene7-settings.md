@@ -1,20 +1,20 @@
 ---
 keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library;swap image
-description: Adobe Target se puede integrar con Adobe Dynamic Media Classic para proporcionar administración de recursos digitales (DAM) en la biblioteca de contenido.
+description: Adobe Target se puede integrar con Adobe Dynamic Media Classic (anteriormente Scene7) para proporcionar administración de recursos digitales (DAM) en la biblioteca de contenido.
 title: Integración de la configuración de la integración de Dynamic Media Classic
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 30%
+source-wordcount: '382'
+ht-degree: 29%
 
 ---
 
 
-# Configuración de Scene7 {#scene-settings}
+# Configuración de Scene7
 
-[!DNL Target] se puede integrar con  [!DNL Adobe Dynamic Media Classic] para proporcionar administración de recursos digitales (DAM) en la biblioteca [!UICONTROL  de ]contenido.
+[!DNL Adobe Target] se puede integrar con  [!DNL Adobe Dynamic Media Classic] (anteriormente Scene7) para proporcionar administración de recursos digitales (DAM) en la biblioteca [!UICONTROL  de ]contenido.
 
 >[!NOTE]
 >
