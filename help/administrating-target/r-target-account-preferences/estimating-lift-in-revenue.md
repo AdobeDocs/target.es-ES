@@ -1,24 +1,24 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Adobe Target puede estimar el aumento de ingresos que obtendría si todos los usuarios vistas la experiencia ganadora.
+description: Utilice Adobe Target para calcular el aumento de ingresos que obtendría si todos los usuarios hicieran la vista de la experiencia ganadora.
 title: Estimar el aumento de ingresos
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 90%
 
 ---
 
 
 # Estimar el aumento de ingresos{#estimate-lift-in-revenue}
 
-Target puede calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora.
+Utilice [!DNL Adobe Target] para estimar el aumento de ingresos que obtendría si todos los usuarios hicieran vistas de la experiencia ganadora.
 
 >[!NOTE]
 >
->El alza estimada no está disponible para las actividades de Segmentación de experiencias (XT) en este momento.
+>El alza estimada no está disponible para actividades de [!UICONTROL Segmentación de experiencias] (XT) en este momento.
 
 La característica de alza estimada está desactivada de manera predeterminada. Se puede habilitar en las preferencias de cuenta. Solo los usuarios administradores de Experience Cloud pueden activar o desactivar esta característica. Si se deshabilita el alza estimada, los campos correspondientes no aparecerán en la interfaz. Deshabilitar esta característica no genera pérdidas de datos, incluidos los datos usados para los cálculos. Los cálculos se basan en datos recopilados, independientemente de si la característica está habilitada o no.
 
