@@ -2,9 +2,9 @@
 keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: Información sobre cómo los visitantes pueden cambiar entre experiencias en una actividad de Segmentación de experiencias (XT) conforme evolucionan sus perfiles.
 title: Cambiar experiencias en segmentación de experiencias
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Cambiar experiencias en segmentación de experiencias{#switching-experiences-in-experience-targeting}
+# Cambiar experiencias en segmentación de experiencias
 
 Información sobre cómo los visitantes pueden cambiar entre experiencias en una actividad de Segmentación de experiencias (XT) conforme evolucionan sus perfiles.
 
