@@ -1,10 +1,10 @@
 ---
-keywords: traffic estimator;automated personalization;ap
+keywords: traffic estimator;automated personalization;ap;estimate traffic
 description: El estimador de tráfico proporciona comentarios que le permiten saber si tiene tráfico suficiente para que la actividad de Adobe Target tenga éxito.
 title: Calcular el tráfico necesario para realizar una prueba con éxito
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 25%
@@ -12,7 +12,7 @@ ht-degree: 25%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Estimar el tráfico necesario para realizar una prueba con éxito{#estimate-the-traffic-required-for-success}
+# ![PREMIUM](/help/assets/premium.png) Estimar el tráfico necesario para realizar una prueba con éxito
 
 El [!UICONTROL Estimador de tráfico] proporciona información que le permite saber si tiene tráfico suficiente para que su actividad [!DNL Adobe Target] tenga éxito.
 
