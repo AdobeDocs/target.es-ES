@@ -2,9 +2,9 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: Las direcciones URL de previsualización de experiencias se pueden generar para actividades de Automated Personalization de Destinatario para ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa para fines de previsualización y control de calidad. Las direcciones URL de previsualización de experiencias omiten la segmentación para forzar la visualización de una experiencia concreta.
 title: Previsualización de actividades de Automated Personalization con direcciones URL de previsualización de experiencias
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -12,7 +12,7 @@ ht-degree: 64%
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMPrevisar actividades de Automated Personalization con direcciones URL de previsualización de experiencia{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![](/help/assets/premium.png) PREMIUMPrevisar actividades de Automated Personalization con direcciones URL de previsualización de experiencia
 
 Las direcciones URL de previsualización de experiencias se pueden generar para actividades de Automated Personalization de Destinatario para ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa para fines de previsualización y control de calidad. Las direcciones URL de previsualización de experiencias omiten la segmentación para forzar la visualización de una experiencia concreta.
 
