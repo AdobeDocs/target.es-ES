@@ -1,18 +1,18 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
 description: Lista de preguntas más frecuentes sobre la Personalización automatizada (AP).
 title: Preguntas más frecuentes sobre Personalización automatizada
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1963'
 ht-degree: 85%
 
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMAutomated Personalization FAQs{#automated-personalization-faq}
+# ![](/help/assets/premium.png) PREMIUMAutomated Personalization FAQs
 
 Lista de preguntas más frecuentes sobre la Personalización automatizada (AP).
 
@@ -53,7 +53,7 @@ No existe una opción para comparar la AP con una experiencia predeterminada. Si
 
 ## Preguntas frecuentes
 
-Consulte las siguientes preguntas más frecuentes y respuestas mientras trabaja con actividades de asignación automática:
+Consulte las siguientes preguntas más frecuentes y respuestas mientras trabaja con actividades [!UICONTROL Automated Personalization]:
 
 ### ¿Cuáles son los límites de la Personalización automatizada?   {#section_08BA09ED51B547299963C94FE6417CFA}
 
