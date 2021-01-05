@@ -1,13 +1,13 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
 description: Adobe Target se integra con los sitios web mediante una de las dos bibliotecas de JavaScript. at.js o mbox.js
 title: Cómo funciona Adobe Target
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 82%
+source-wordcount: '2438'
+ht-degree: 79%
 
 ---
 
@@ -18,10 +18,11 @@ Información sobre cómo funciona Adobe Target, incluida la información sobre l
 
 ## Bibliotecas de JavaScript de Target {#libraries}
 
-Adobe Target se integra con los sitios web mediante una de las dos bibliotecas de JavaScript: at.js o mbox.js
+Adobe Target se integra con los sitios web mediante las bibliotecas de JavaScript:
 
 * **at.js:** la [biblioteca at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a  [la versión más reciente de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** la biblioteca mbox.js es la biblioteca de implementación heredada para Target. La biblioteca mbox.js se sigue admitiendo, pero sus características ya no se actualizarán.
+* **SDK web de Adobe Experience Platform:** El  [SDK web de ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Adobe Experience Platform es una nueva biblioteca JavaScript del lado del cliente que permite  [!DNL Adobe Experience Cloud] a los clientes de  [!DNL Experience Cloud] interactuar con los distintos servicios de  [!DNL Adobe Experience Platform] mediante la redEdge.
+* **mbox.js:**[ la biblioteca mbox.js es la biblioteca de implementación heredada para Target. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) La biblioteca mbox.js sigue siendo compatible hasta el 31 de marzo de 2021, pero no habrá actualizaciones de funciones.
 
 >[!IMPORTANT]
 >
