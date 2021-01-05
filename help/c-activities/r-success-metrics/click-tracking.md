@@ -1,20 +1,20 @@
 ---
 keywords: Click tracking;track clicks;clicks;AppMeasurement
-description: Target permite rastrear clics en cualquier elemento como una métrica de éxito.
+description: Adobe Target permite rastrear los clics en cualquier elemento como una métrica de éxito.
 title: Rastreo de clics
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 95%
+source-wordcount: '875'
+ht-degree: 92%
 
 ---
 
 
-# Rastreo de clics{#click-tracking}
+# Rastreo de clics
 
-Target permite rastrear clics en cualquier elemento como una métrica de éxito.
+[!DNL Adobe Target] permite rastrear los clics en cualquier elemento como una métrica de éxito.
 
 >[!NOTE]
 >
