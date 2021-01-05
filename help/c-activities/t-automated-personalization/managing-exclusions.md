@@ -1,21 +1,21 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
 description: Administre exclusiones creando grupos de exclusión, excluyendo ofertas duplicadas, experiencias específicas y el contenido predeterminado en las actividades de Automated Personalization (AP) de Adobe Target.
 title: Gestión de exclusiones
-feature: ap
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 97%
+source-wordcount: '965'
+ht-degree: 94%
 
 ---
 
 
-# ![Insignia Premium](/help/assets/premium.png) Administrar exclusiones{#manage-exclusions}
+# ![Insignia Premium](/help/assets/premium.png) Administrar exclusiones
 
-Administre exclusiones creando grupos de exclusión, excluyendo ofertas duplicadas, experiencias específicas y el contenido predeterminado en las actividades de Automated Personalization (AP).
+Administre las exclusiones creando grupos de exclusión, excluyendo ofertas de duplicado, excluyendo experiencias específicas y excluyendo el contenido predeterminado en actividades [!UICONTROL Automated Personalization] (AP) en actividades [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
 
 ## Creación de grupos de exclusión {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
