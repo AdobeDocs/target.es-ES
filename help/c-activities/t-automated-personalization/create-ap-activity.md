@@ -1,40 +1,40 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest;residual variance;error variance;lifetime value
-description: El flujo de trabajo de actividades de personalización automatizada es distinto al flujo de trabajo de los otros tipos de actividades.
+keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+description: El flujo de trabajo de la actividad de Automated Personalization en Adobe Target varía según el flujo de trabajo de los otros tipos de actividad.
 title: Crear una actividad de personalización automatizada
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2039'
-ht-degree: 98%
+source-wordcount: '2040'
+ht-degree: 92%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Creación de una actividad de Personalización automatizada{#create-an-automated-personalization-activity}
+# ![PREMIUM](/help/assets/premium.png) Creación de una actividad de Personalización automatizada
 
-El flujo de trabajo de actividades de personalización automatizada es distinto al flujo de trabajo de los otros tipos de actividades.
+El flujo de trabajo de actividad [!UICONTROL Automated Personalization] (AP) en [!DNL Adobe Target] varía con respecto al flujo de trabajo de los otros tipos de actividades.
 
-1. En la lista de actividades de Target Standard, haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Personalización automatizada]**.
+1. En la lista [!DNL Target] [!UICONTROL Actividades], haga clic en **[!UICONTROL Crear Actividad]** > **[!UICONTROL Automated Personalization]**.
 
    ![Crear actividad: Automated Personalization](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. Para utilizar el Compositor de experiencias visuales (VEC), haga clic en **[!UICONTROL Visual (predeterminado)]**.
+1. Para utilizar el [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en **[!UICONTROL Visual (predeterminado)]**.
 
    ![Cuadro de diálogo Crear actividad de Automated Personalization](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   Si prefiere usar el Compositor de experiencias basadas en formularios, seleccione [!UICONTROL Formulario]. Consulte [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md) para obtener más información.
+   Si prefiere utilizar el [!UICONTROL Compositor de experiencias basadas en formularios], seleccione [!UICONTROL Formulario]. Consulte [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md) para obtener más información.
 
    >[!NOTE]
    >
-   >Además del VEC y del Compositor de experiencias basadas en formularios, Target ofrece el VEC de aplicación de una sola página y el VEC para aplicaciones móviles. Para obtener más información sobre los distintos compositores, consulte [Experiencias y ofertas](/help/c-experiences/experiences.md).
+   >Además del VEC y del [!UICONTROL Compositor de experiencias basadas en formularios], [!DNL Target] oferta la [!UICONTROL Aplicación de una sola página VEC] y el VEC para aplicaciones móviles. Para obtener más información sobre los distintos compositores, consulte [Experiencias y ofertas](/help/c-experiences/experiences.md).
    >
    >Para obtener información acerca de la solución de problemas del VEC, en caso de problemas, consulte [Solución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
    >La opción [!UICONTROL Elegir lugar de trabajo] de la ilustración anterior es una [función de Target Premium](/help/c-intro/intro.md). Su organización tiene una licencia de Target Standard si no ve esta opción.
 
-1. (Condicional) Si es cliente de Target Premium, [elija un espacio de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condicional) Si es cliente [!DNL Target] Premium, [elija un área de trabajo](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Compruebe o escriba la dirección URL de la actividad y haga clic en **[!UICONTROL Siguiente]**.
 
@@ -44,7 +44,7 @@ El flujo de trabajo de actividades de personalización automatizada es distinto 
 
    Se abre la página con la dirección URL especificada en el Compositor de experiencias visuales.
 
-1. Para asignar un nombre a la actividad, haga clic en el campo Nombre y escriba el nombre de la actividad.
+1. Para asignar un nombre a la actividad, haga clic en el campo **[!UICONTROL Nombre]** y escriba el nombre de la actividad.
 
    ![Campo Nombre](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
