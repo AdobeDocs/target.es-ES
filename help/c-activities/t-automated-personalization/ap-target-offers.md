@@ -1,21 +1,21 @@
 ---
-keywords: automated personalization;offers
+keywords: automated personalization;offers;target;audience;targeting rules;targeting
 description: En una actividad de Personalización automatizada, puede segmentar las ofertas a audiencias específicas.
-title: Ofertas de personalización automatizada de Target
-feature: ap
+title: Ofertas de personalización automatizada de Target en Adobe Target
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: a4b510308394110bb267665ca39d54e2ea781f3d
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Ofertas de personalización automatizada de Target{#target-automated-personalization-offers}
 
-En una actividad de Automated Personalization (AP) puede segmentar las ofertas para audiencias específicas.
+En una actividad [!DNL Adobe Target] [!DNL Automated Personalization] (AP), puede realizar destinatarios de ofertas a audiencias específicas.
 
 El uso de esta funcionalidad reduce el número de ofertas que un visitante específico puede ver. Por ejemplo, considere una actividad de AP con tres ofertas. La oferta 1 tiene una regla de segmentación que limita su exposición a la audiencia A. Dos visitantes vieron esta actividad de AP.
 
