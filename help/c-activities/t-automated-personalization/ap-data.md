@@ -2,9 +2,9 @@
 keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target recopila y utiliza automáticamente una variedad de datos para crear sus algoritmos de personalización en las actividades de personalización automatizada (AP) y segmentación automática (AT). Cuando un visitante introduce una actividad AP o AT, se pasa una instantánea de información a un conjunto de “registros de formación” (los datos de visitantes que aprenderán los algoritmos de personalización).
 title: Recopilación de datos para los algoritmos de personalización de Adobe Target
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 2b31d26bab2f2b702947c907c1d6966e5d0f20e3
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1754'
 ht-degree: 92%
