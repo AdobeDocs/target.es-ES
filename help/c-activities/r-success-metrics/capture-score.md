@@ -1,20 +1,20 @@
 ---
 keywords: capture score;score
-description: La métrica de compromiso Puntuación de captura calcula una puntuación agregada en función del valor asignado a las páginas visitadas en el sitio, desde el punto en que el visitante ve por primera vez la primera solicitud de Destinatario para la visualización de la campaña.
+description: La métrica de participación Puntuación de captura de Adobe Target calcula una puntuación agregada en función del valor asignado a las páginas visitadas en el sitio, desde el punto en que el visitante ve por primera vez la primera solicitud de Destinatario de visualización de la campaña.
 title: Puntuación de captación
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 51%
+source-wordcount: '768'
+ht-degree: 50%
 
 ---
 
 
-# Puntuación de captación{#capture-score}
+# Puntuación de captación
 
-La métrica de compromiso Puntuación de captura calcula una puntuación agregada en función del valor asignado a las páginas visitadas en el sitio, desde el punto en que el visitante ve por primera vez la primera solicitud de visualización [!DNL Target] de la campaña.
+La métrica de compromiso Puntuación de captura de [!DNL Adobe Target] calcula una puntuación agregada en función del valor asignado a las páginas visitadas en el sitio, desde el punto en que el visitante ve por primera vez la primera solicitud de visualización de [!DNL Target] de la campaña.
 
 En el siguiente ejemplo se muestra cómo se calcula la participación de puntuación en una campaña que prueba dos experiencias: una con la imagen de un gato y otra con la imagen de un perro.
 
@@ -28,7 +28,7 @@ Puede tener en cuenta los costos de adquisición de la cuenta y los ingresos de 
 
 ![](assets/example_score2.png)
 
-**Asignación de una puntuación de página**
+## Asignación de una puntuación de página
 
 Puede asignar un valor a cualquier página de su sitio en función de la importancia que dicha página tenga para usted. Por ejemplo, un sitio de cocina puede vender anuncios por más dinero en la característica de artículos de características que en la sección de experiencia. Debido a ello, los artículos de características son más valiosos que la sección de experiencia. La puntuación de página permite desarrollar un “value” (valor) global de una visita, por lo que la persona que lee más artículos de características obtiene más puntos que alguien que solo navega a través de las experiencias.
 
