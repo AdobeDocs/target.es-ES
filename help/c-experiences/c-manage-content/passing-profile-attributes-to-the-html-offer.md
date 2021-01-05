@@ -4,10 +4,10 @@ description: Puede mostrar valores de perfil de e información de la actividad d
 title: Transmisión dinámica de datos en ofertas
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Puesto que las preferencias, los comportamientos, el estado, etc. específicos d
 
 Los siguientes valores se pueden “sustituir con testigos”:
 
-| Valores | Ejemplos |
+| Valor | Ejemplos |
 |--- |--- |
 | Parámetros de perfil en mbox | `${profile.age}` |
 | Parámetros de perfil de secuencia de comandos | `${user.lifetimeSpend}` |
@@ -57,7 +57,7 @@ Para los parámetros de perfil transferidos a un mbox, utilice la sintaxis: `${p
 
 `${user.parameter}`
 
-Al utilizar atributos dinámicos en un diseño de Recommendations, debe insertar una barra invertida (\) antes del signo de dólar ($) para que el valor dinámico se represente correctamente: `\${user.endpoint.lastViewedEntity}`
+Al utilizar atributos dinámicos en un diseño de Recommendations, debe insertar una barra invertida ( \ ) antes del signo de dólar ( $ ) para que el valor dinámico se procese correctamente: `\${user.endpoint.lastViewedEntity}`
 
 Estas variables se sustituyen por el valor que hay en el servidor, así que no es necesario usar comillas ni ningún otro JavaScript para la visualización correcta.
 
