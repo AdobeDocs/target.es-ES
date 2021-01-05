@@ -2,9 +2,9 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Si su página no muestra el contenido esperado, puede seguir algunos pasos para depurar el envío de contenido en Adobe Target.
 title: Solución de problemas de envío de contenido en Adobe Target
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 60%
@@ -12,7 +12,7 @@ ht-degree: 60%
 ---
 
 
-# Resolución de problemas de la entrega de contenido{#troubleshoot-content-delivery}
+# Resolución de problemas de la entrega de contenido
 
 Si su página no muestra el contenido esperado, puede seguir algunos pasos que le ayudarán a depurar la publicación de contenido.
 
