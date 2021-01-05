@@ -1,9 +1,10 @@
 ---
+kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: A veces, las actividades no salen como se esperaba. A continuación, le presentamos algunos de los posibles desafíos a los que se puede enfrentar al usar la personalización automatizada y algunas soluciones sugeridas.
 title: Resolución de problemas de la personalización automatizada
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 94%
