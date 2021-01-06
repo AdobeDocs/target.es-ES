@@ -4,10 +4,10 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '3220'
-ht-degree: 29%
+source-wordcount: '3248'
+ht-degree: 28%
 
 ---
 
@@ -20,7 +20,8 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 4 de enero de 2021 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha cambiado la fecha en la que Destinatario dejará de admitir mbox.js del 18 de enero de 2012 al 31 de marzo de 2021. |
+| Enero de 6 | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Información añadida e información de registro para el siguiente seminario web en directo:<ul><li>Personalización correcta a escala: Resultados clave de las plataformas de optimización de experiencias de Forrester Wave.</li></ul> |
+| 4 de enero | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha cambiado la fecha en la que Destinatario dejará de admitir mbox.js del 18 de enero de 2012 al 31 de marzo de 2021. |
 | Diciembre de 18 | [Pruebas A/A](/help/c-activities/t-test-ab/aa-testing.md) | Nuevo tema. |
 | Diciembre de 17 | [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Se ha actualizado la tabla para indicar que el SDK de Java admite A4T. |
 | Diciembre de 16 | [Solución de problemas de Destinatario automático y preguntas más frecuentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Se añadió la siguiente pregunta frecuente: &quot;¿Qué sucede si elimino una sola experiencia de una actividad de Destinatario automático?&quot; |
