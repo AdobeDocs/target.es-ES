@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events
+keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
 description: Información sobre los próximos eventos, incluidas las sesiones de Destinatario Skill Builder, charlas para desarrolladores, seminarios web y sesiones de Destinatario Coffee Break.
 title: Anuncios de destinatario
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
+source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 
 Anuncios e información sobre los próximos eventos, incluidas las sesiones de Destinatario Skill Builder, chats para desarrolladores, seminarios web y sesiones de Destinatario Coffee Break.
 
+## Reconocimiento para Adobe Target
+
+Adobe Target fue reconocido recientemente por Forrester y Gartner como líder del mercado.
+
 | Servicio de investigación | Detalles |
 | --- | --- |
-| Forrester | Adobe denominado Leader en el informe de oleada Forrester para plataformas de optimización de experiencias.<br>Adobe fue nombrado Líder en La Ola Forrester: Plataformas de optimización de experiencias, informe del cuarto trimestre de 2020 para su oferta en este espacio, Adobe Target Premium. Adobe recibió la puntuación más alta de todos los proveedores participantes en las actuales categorías de oferta y presencia en el mercado, así como en las recomendaciones y los criterios de experiencia en la plataforma. Destinatario Premium también obtuvo el puntaje más alto posible en la innovación de las técnicas de optimización de experiencia y en los criterios de servicios de soporte. El informe se basa en una evaluación exhaustiva de 10 proveedores de plataformas de optimización de experiencias en 22 criterios.<br>Lee al respecto en el  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
-| Gartner | Adobe de nuevo nombró un Líder en el Cuadrante Mágico de Gartner para motores de personalización.<br>Una vez más, Adobe fue nombrado Líder en el tercer informe anual del Cuadrante Mágico de Gartner para Motores de Personalización, 2020. El Cuadrante mágico de Gartner para motores de personalización evaluó a los proveedores según 15 criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución.<br>[Lee al respecto en The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+| Forrester | **Adobe denominado Leader en el informe de oleada Forrester para plataformas de optimización de experiencias.**<br> Adobe fue nombrado Líder en La Ola Forrester: Plataformas de optimización de experiencias, informe del cuarto trimestre de 2020 para su oferta en este espacio, Adobe Target Premium. Adobe recibió la puntuación más alta de todos los proveedores participantes en las actuales categorías de oferta y presencia en el mercado, así como en las recomendaciones y los criterios de experiencia en la plataforma. Destinatario Premium también obtuvo el puntaje más alto posible en la innovación de las técnicas de optimización de experiencia y en los criterios de servicios de soporte. El informe se basa en una evaluación exhaustiva de 10 proveedores de plataformas de optimización de experiencias en 22 criterios.<br>Lee al respecto en el  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
+| Gartner | **Adobe de nuevo nombró un Líder en el Cuadrante Mágico de Gartner para motores de personalización.**<br> Una vez más, Adobe fue nombrado Líder en el tercer informe anual del Cuadrante Mágico de Gartner para Motores de Personalización, 2020. El Cuadrante mágico de Gartner para motores de personalización evaluó a los proveedores según 15 criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución.<br>[Lee al respecto en The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
 ## Seminario web: Personalización correcta a escala: Principales hallazgos de las plataformas de optimización de experiencias Forrester Wave
 
