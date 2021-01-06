@@ -1,12 +1,12 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Información sobre los próximos eventos, incluidas las sesiones de Destinatario Skill Builder, charlas para desarrolladores, seminarios web y sesiones de Destinatario Coffee Break.
+description: Información sobre los próximos eventos, incluidas las sesiones de Adobe Target Skill Builder, chats para desarrolladores, seminarios web y sesiones de Destinatario Coffee Break.
 title: Anuncios de destinatario
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
+source-git-commit: c129430e038d7179846761cf946c437d079e26ee
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Anuncios y eventos de destinatario
 
-Anuncios e información sobre los próximos eventos, incluidas las sesiones de Destinatario Skill Builder, chats para desarrolladores, seminarios web y sesiones de Destinatario Coffee Break.
+Anuncios e información sobre los próximos eventos, incluidas las sesiones de Adobe Target Skill Builder, chats para desarrolladores, seminarios web y sesiones de Destinatario Coffee Break.
 
 ## Reconocimiento para Adobe Target
 
