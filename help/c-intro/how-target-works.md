@@ -1,38 +1,43 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
-description: Adobe Target se integra con los sitios web mediante una de las dos bibliotecas de JavaScript. at.js o mbox.js
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
+description: Información sobre el funcionamiento de Adobe Target, incluida información sobre el SDK web de Adobe Experience Platform, las bibliotecas JavaScript de Destinatario (at.js y mbox.js) y los distintos tipos de actividades que puede crear en Destinatario.
 title: Cómo funciona Adobe Target
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
 workflow-type: tm+mt
-source-wordcount: '2438'
-ht-degree: 79%
+source-wordcount: '2530'
+ht-degree: 70%
 
 ---
 
 
 # Cómo funciona Adobe Target
 
-Información sobre cómo funciona Adobe Target, incluida la información sobre las bibliotecas de JavaScript de Target (at.js y mbox.js) y los distintos tipos de actividades incluidos en Target.
+Información sobre cómo [!DNL Adobe Target] funciona, incluida información sobre las [!DNL Adobe Experience Platform Web SDK], las [!DNL Target] bibliotecas JavaScript (at.js y mbox.js) y los distintos tipos de actividades que puede crear con Destinatario.
 
-## Bibliotecas de JavaScript de Target {#libraries}
+## SDK web de la plataforma destinatario y bibliotecas de JavaScript {#libraries}
 
-Adobe Target se integra con los sitios web mediante las bibliotecas de JavaScript:
+Adobe Target se integra con los sitios web mediante las bibliotecas [!DNL AEP Web SDK] o JavaScript:
 
+* **SDK web de Adobe Experience Platform:** El  [SDK web de ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) AEP es una nueva biblioteca JavaScript del lado del cliente que permite  [!DNL Adobe Experience Cloud] a los clientes de  [!DNL Experience Cloud] interactuar con los distintos servicios de la red  [!DNL Target](incluido  [!DNL Adobe Experience Platform] ) a través de la redEdge. Consulte [información general de Destinatario](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html) para obtener información específica de [!DNL Target].
 * **at.js:** la [biblioteca at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) es la nueva biblioteca de implementación para Target. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js es la biblioteca de implementación recomendada y se actualiza con frecuencia con nuevas capacidades. Recomendamos que todos los clientes implementen o migren a  [la versión más reciente de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **SDK web de Adobe Experience Platform:** El  [SDK web de ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Adobe Experience Platform es una nueva biblioteca JavaScript del lado del cliente que permite  [!DNL Adobe Experience Cloud] a los clientes de  [!DNL Experience Cloud] interactuar con los distintos servicios de  [!DNL Adobe Experience Platform] mediante la redEdge.
-* **mbox.js:**[ la biblioteca mbox.js es la biblioteca de implementación heredada para Target. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) La biblioteca mbox.js sigue siendo compatible hasta el 31 de marzo de 2021, pero no habrá actualizaciones de funciones.
+* **mbox.js:**[ la biblioteca mbox.js es la biblioteca de implementación heredada para Target. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) La biblioteca mbox.js es compatible hasta el 31 de marzo de 2021, pero no habrá actualizaciones de funciones.
 
 >[!IMPORTANT]
 >
->Todos los clientes deberían migrar a at.js. Para obtener más información, consulte [Migrar a at.js desde mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
+>Todos los clientes deben migrar a [!DNL AEP Web SDK] o a la última versión de at.js. Para obtener más información, consulte [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) o [Migrar a at.js desde mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Deberá hacer referencia al archivo de bibliotecas de JavaScript de Target en todas las páginas de su sitio. Por ejemplo, puede añadirlo a su encabezado global. También puede utilizar el [Administrador de etiquetas de Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+Debe hacer referencia a [!DNL AEP Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, puede agregar uno de estos elementos al encabezado global. Otra opción es utilizar [Inicio de plataforma de Adobe](https://experienceleague.adobe.com/docs/launch/using/overview.html).
 
-Cada vez que un visitante solicita una página que ha sido optimizada para Target, se envía una solicitud al sistema de segmentación para determinar qué contenido se mostrará al visitante. Este proceso se produce en tiempo real: Cada vez que se carga una página, el sistema realiza una solicitud del contenido y la completa. El contenido está regido por reglas de actividades y experiencias controladas por especialistas en marketing y se segmenta para cada visitante del sitio. A cada visitante del sitio se le muestra el contenido que ofrece más probabilidades de que el visitante responda, interactúe y, en última instancia, compre los productos: la finalidad es lograr las máximas tasas de respuesta, de adquisición y de ingresos.
+Los siguientes recursos le ayudarán a implementar el SDK web de AEP o at.js:
 
-En Target, cada elemento de la página forma parte de una única experiencia para la página completa. Cada experiencia puede incluir varios elementos en la página.
+* [Extensión de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
+* [Implementar Target utilizando Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+
+Cada vez que un visitante solicita una página que se ha optimizado para [!DNL Target], se envía una solicitud al sistema de determinación de objetivos para determinar qué contenido se va a proporcionar a un visitante. Este proceso se realiza en tiempo real, cada vez que se carga una página, el sistema realiza una solicitud de contenido y la completa. El contenido está regido por reglas de actividades y experiencias controladas por especialistas en marketing y se segmenta para cada visitante del sitio. A cada visitante del sitio se le muestra el contenido que ofrece más probabilidades de que el visitante responda, interactúe y, en última instancia, compre los productos: la finalidad es lograr las máximas tasas de respuesta, de adquisición y de ingresos.
+
+En [!DNL Target], cada elemento de la página forma parte de una única experiencia para toda la página. Cada experiencia puede incluir varios elementos en la página.
 
 El contenido que se muestra a los visitantes depende del tipo de actividad que cree:
 
