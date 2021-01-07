@@ -2,11 +2,11 @@
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
 description: Lista de permitidos de nodos Edge de Adobe Target
 title: Lista de permitidos de nodos Edge de Adobe Target
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Nodos de borde de Destinatario de lista de permitidos
 
-Información y una lista actualizada de los hosts para ayudarle a realizar la lista de permitidos de los Adobes [!DNL Target].
+Información y una lista actualizada de los hosts para ayudarle a realizar la lista de permitidos de los bordes [!DNL Adobe Target].
 
 Una arista es una arquitectura de servidores distribuidos geográficamente que garantiza tiempos de respuesta óptimos para los usuarios finales que solicitan contenido, independientemente de su ubicación en todo el mundo. Cada nodo Edge tiene toda la información necesaria para responder a la solicitud de contenido del usuario y para rastrear los datos de análisis de dicha solicitud. Las solicitudes de usuario se dirigen al nodo Edge más cercano. Para obtener más información, consulte [Red Edge](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) en *Cómo funciona Adobe [!DNL Target]*.
 
