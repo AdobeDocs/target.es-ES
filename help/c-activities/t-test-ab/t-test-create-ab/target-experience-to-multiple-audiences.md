@@ -1,20 +1,20 @@
 ---
 keywords: multiple audiences;experience versions;target experience versions
-description: Puede dirigir versiones de la misma experiencia a distintas audiencias en actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
+description: Puede destinatario de versiones de la misma experiencia a distintas audiencias en actividades A/B de Adobe Target. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
 title: Varias versiones de una experiencia en una prueba A/B
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 94%
 
 ---
 
 
-# Varias audiencias de una experiencia en una prueba A/B{#multiple-experience-versions-in-an-a-b-test}
+# Varias audiencias de una experiencia en una prueba A/B
 
-Puede dirigir versiones de la misma experiencia a distintas audiencias en actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
+Puede destinatario versiones de la misma experiencia a distintas audiencias en actividades A/B [!DNL Adobe Target]. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
 
 Los usuarios pueden cambiar entre audiencias de experiencias a medida que cambian sus perfiles. No están atrapados en la misma experiencia todo el tiempo que dure la actividad.
 
@@ -24,7 +24,7 @@ Si no se pudieran configurar versiones de la experiencia, habría que configurar
 
 Al crear distintas versiones de una experiencia, se recibe información más precisa sin necesidad de cálculos manuales ni conjeturas.
 
-**Escenario**
+## Situación
 
 Vamos a probar dos experiencias, un banner con segmentación geográfica y otro genérico. El banner de cada ubicación geográfica tiene que ser distinto, pero la prueba general consiste en determinar si la segmentación geográfica es mejor que mostrar el contenido genérico. Si configuráramos una experiencia distinta para cada ubicación, estaríamos midiendo el rendimiento de cada ubicación en relación con las demás, no si la segmentación geográfica ayuda más que el banner genérico a lograr los objetivos de éxito.
 
@@ -48,7 +48,7 @@ En este caso, lo que necesitamos son versiones geográficas de la experiencia pa
 
 1. Continúe configurando la actividad.
 
-**Prácticas recomendadas**
+## Prácticas recomendadas  
 
 * Elija audiencias que se excluyan entre sí. Si la actividad se creó en el VEC y un visitante se ajusta a más de una audiencia, se devuelve el contenido de todas, pero el que aparece en la página es el de la última audiencia de la lista.
 * Las audiencias de participación en la actividad definidas en el diagrama se combinan con las audiencias de experiencia mediante la condición AND. Para participar en la actividad, un visitante debe cumplir los requisitos de la audiencia de la actividad y los requisitos de una de las audiencias de la experiencia.
