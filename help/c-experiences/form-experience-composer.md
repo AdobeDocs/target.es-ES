@@ -1,20 +1,20 @@
 ---
 keywords: form-based experience composer;form-based composer;refinements
-description: El Compositor de experiencias basadas en formularios proporciona una creación de experiencias no visual.
+description: El Compositor de experiencias basadas en formularios de Adobe Target proporciona la creación de experiencias no visuales.
 title: Compositor de experiencias basadas en formularios
-feature: form-based composer
+feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 79%
+source-wordcount: '746'
+ht-degree: 72%
 
 ---
 
 
 # Compositor de experiencias basadas en formularios{#form-based-experience-composer}
 
-El Compositor de experiencias basadas en formularios es una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en pruebas A/B, Segmentación de experiencias, Automated Personalization y actividades de Recomendaciones cuando el Compositor de experiencias visuales no está disponible o su uso no es práctico. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
+El [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz de creación de ofertas y experiencias no visuales que resulta útil para crear experiencias que se pueden usar en actividades A/B Tests, Segmentación de experiencias, Automated Personalization y Recommendations cuando el Compositor de experiencias visuales no está disponible o resulta práctico para su uso. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
 
 Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus criterios y su diseño. Si elige varios criterios o diseños, Target genera las experiencias automáticamente.
 
