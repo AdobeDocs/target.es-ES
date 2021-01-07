@@ -2,9 +2,9 @@
 keywords: a/b;a/a;aa;
 description: Antes de realizar una prueba A/A en el sitio mediante Adobe Target, es importante comprender qué es una prueba A/A, por qué puede desear realizar una prueba A/A, cuánto tiempo debe ejecutar la prueba y cómo interpretar los resultados.
 title: Pruebas A/A
-feature: A/B tests
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 1%
