@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Cree una carpeta para guardar elementos en la biblioteca de ofertas.
+description: Cree una carpeta para guardar elementos en la biblioteca de Ofertas de Adobe Target.
 title: Crear una carpeta de ofertas
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 93%
 
 ---
 
 
-# Crear carpeta de ofertas{#create-offer-folder}
+# Crear una carpeta de ofertas
 
-Cree una carpeta para guardar elementos en la biblioteca de ofertas.
+Cree una carpeta para guardar elementos en la biblioteca de Ofertas de Adobe Target.
 
 1. Haga clic en **[!UICONTROL Ofertas]** y después seleccione la pestaña **[!UICONTROL Ofertas de código]** u **[!UICONTROL Ofertas de imágenes]** según proceda.
 1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Carpeta]**.
