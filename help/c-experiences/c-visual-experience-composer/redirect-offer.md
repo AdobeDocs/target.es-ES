@@ -1,19 +1,20 @@
 ---
-description: Use esta opción cuando desee enviar al visitante a una página diferente en lugar de mostrar el contenido en la misma página.
+kewords: redirect;redirect url;send to different page
+description: Utilice la opción Redirigir a URL de Adobe Target cuando desee enviar el visitante a una página diferente en lugar de mostrar contenido en la misma página.
 title: Redireccionar a una dirección URL
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 87%
 
 ---
 
 
-# Redirigir a una dirección URL{#redirect-to-a-url}
+# Redireccionar a una dirección URL
 
-Use esta opción cuando desee enviar al visitante a una página diferente en lugar de mostrar el contenido en la misma página.
+Utilice la opción [!UICONTROL Redireccionar a URL] en [!DNL Adobe Target] cuando desee enviar el visitante a una página diferente en lugar de mostrar contenido en la misma página.
 
 Es posible que tenga dos páginas completamente distintas para probarlas, en lugar de simplemente cambiar partes de contenido dentro de una página. En ese caso, la prueba A/B compara la página A con la B. Configure una campaña de prueba A/B con dos experiencias: una que apunte a la página A predeterminada y otra que redireccione a la página B. En el menú Acción de experiencia, que aparece al hacer clic en la etiqueta de carta para la experiencia, elija **[!UICONTROL Redireccionar a dirección URL]** y especifique la dirección URL de la página B. La oferta se configura para redireccionar al visitante hacia una página diferente.
 
