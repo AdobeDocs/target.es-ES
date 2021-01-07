@@ -1,20 +1,20 @@
 ---
 keywords: activity url;url;different url
-description: La dirección URL de actividad determina la página que se usa en la prueba y que se abre cuando esta se diseña.
+description: La dirección URL de Actividad determina la página que se utiliza en la prueba y que se abre cuando la prueba está diseñada con Adobe Target.
 title: Dirección URL de actividad
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 93%
+source-wordcount: '296'
+ht-degree: 78%
 
 ---
 
 
-# URL de actividad{#activity-url}
+# Dirección URL de actividad
 
-La dirección URL de actividad determina la página que se usa en la prueba y que se abre cuando esta se diseña.
+La dirección URL de Actividad determina la página que se utiliza en la prueba y que se abre cuando la prueba está diseñada con Adobe Target.
 
 Cuando se le pida durante la creación de la actividad, indique la dirección URL de la actividad. Escriba la dirección URL completa (incluido `https://`) y haga clic en **[!UICONTROL Crear]**.
 
