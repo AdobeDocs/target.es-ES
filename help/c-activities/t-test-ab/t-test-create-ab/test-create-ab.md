@@ -2,9 +2,9 @@
 keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
 description: Utilice el Compositor de experiencias visuales en Adobe Target para crear la actividad de prueba A/B directamente en una página con Destinatario habilitado y para modificar partes de la página dentro de Destinatario.
 title: Crear una prueba A/B
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 64%
