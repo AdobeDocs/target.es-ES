@@ -1,20 +1,20 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: Se pueden realizar varias tareas en un activo de la biblioteca.
+description: Hay varias tareas que puede realizar en un recurso de la biblioteca en Adobe Target.
 title: Trabajar con contenido en la biblioteca
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 
 
-# Trabajar con contenido en la biblioteca{#work-with-content-in-the-library}
+# Trabajar con contenido en la biblioteca
 
-Información sobre las tareas que se pueden realizar en un recurso de la biblioteca de contenido.
+Información sobre las tareas que puede realizar en un recurso de la biblioteca de contenido en [!DNL Adobe Target].
 
 1. Haga clic en **[!UICONTROL Oferta]**, seleccione la pestaña **[!UICONTROL Oferta de código]** u **[!UICONTROL Oferta de imagen]** y, después, busque el recurso con el que desea trabajar.
 
