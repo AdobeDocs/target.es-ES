@@ -4,7 +4,7 @@ description: Información sobre las API de envío de Adobe Target de parte del s
 title: Información sobre las API de envío del lado del servidor de Adobe Target, el SDK de Node.js y las API de Recommendations de Destinatario.
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
@@ -12,7 +12,7 @@ ht-degree: 20%
 ---
 
 
-# Servidor: implementación de Target{#server-side-implement-target}
+# Servidor: implementación de Target 
 
 Información sobre las API de [!DNL Adobe Target] envío del lado del servidor, los SDK y las [!DNL Target Recommendations] API.
 
