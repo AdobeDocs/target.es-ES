@@ -2,21 +2,21 @@
 keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Muestra los problemas que pueden producirse en determinadas circunstancias en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC).
 title: Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
 
-# Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado{#troubleshooting-the-visual-experience-composer-and-enhanced-experience-composer}
+# Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado
 
-Muestra los problemas que pueden producirse en determinadas circunstancias en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC).
+A veces se producen problemas de visualización en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) y en el [!UICONTROL Compositor de experiencias mejorado] (EEC) bajo ciertas condiciones.
 
-El VEC es una de las características principales de Adobe Target. El VEC es un editor que permite que los comerciantes y diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
+El VEC es una de las características principales de [!DNL Adobe Target]. El VEC es un editor que permite que los comerciantes y diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
 
 El EEC es una extensión del VEC que ayuda a editar una experiencia para un sitio con eliminación de iframes o páginas que aún no incluyen la implementación de Target. Si tiene problemas para abrir su página en el VEC, pruebe el EEC.
 
