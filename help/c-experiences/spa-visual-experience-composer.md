@@ -2,9 +2,9 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: El Compositor de experiencias visuales (VEC) para aplicaciones de una sola página (SPA) en Adobe Target permite que los expertos en marketing creen pruebas y personalicen el contenido de las SPA de forma independiente sin tener que depender del desarrollo continuo. El VEC puede usarse para crear actividades en los marcos más populares, como React y Angular.
 title: Compositor de experiencias visuales para aplicaciones de una sola página (SPA)
-feature: spa vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# Compositor de experiencias visuales para aplicaciones de una sola página (SPA){#single-page-app-spa-visual-experience-composer}
+# Compositor de experiencias visuales para aplicaciones de una sola página (SPA)
 
 En [!DNL Adobe Target], el [!UICONTROL Compositor de experiencias visuales] (VEC) ofrece a los especialistas en marketing una capacidad propia para crear actividades y personalizar experiencias que se pueden distribuir dinámicamente en aplicaciones de varias páginas tradicionales a través del mbox global de Adobe Target. Sin embargo, esto depende de la recuperación de ofertas en carga de página o llamadas al servidor subsiguientes, que introduce latencia, como se muestra en el diagrama siguiente. Este método no es adecuado con aplicaciones de una sola página (SPA) porque degrada la experiencia del usuario y el rendimiento de la aplicación.
 
