@@ -2,9 +2,9 @@
 keywords: content library;assets;search;smart collections;search folder;filter
 description: Busque activos por palabra clave y guarde carpetas de búsqueda, llamadas colecciones inteligentes, que se actualizan automáticamente con los resultados de búsqueda.
 title: Buscar contenido y crear colecciones inteligentes
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Buscar contenido y crear colecciones inteligentes{#search-content-and-create-smart-collections}
+# Buscar contenido y crear colecciones inteligentes
 
 Busque activos por palabra clave y guarde carpetas de búsqueda, llamadas colecciones inteligentes, que se actualizan automáticamente con los resultados de búsqueda.
 
