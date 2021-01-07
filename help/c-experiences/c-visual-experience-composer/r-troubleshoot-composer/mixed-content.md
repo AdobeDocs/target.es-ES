@@ -2,9 +2,9 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: Algunos navegadores no permiten visualizar las páginas donde se combina contenido seguro con contenido no seguro.
 title: Activación de contenido mixto en el navegador
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 35%
@@ -12,7 +12,7 @@ ht-degree: 35%
 ---
 
 
-# Activación de contenido mixto en el explorador{#enabling-mixed-content-in-your-browser}
+# Activación de contenido mixto en el navegador
 
 El contenido mixto se produce si se carga contenido HTTPS (seguro) *y* HTTP (no seguro) para mostrar la misma página web y la solicitud inicial era segura a través de HTTPS.
 
