@@ -1,21 +1,20 @@
 ---
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
+description: En la página Objetivos y configuración de Adobe Target puede introducir información sobre los objetivos de la prueba.
 title: Configuración y objetivos
-feature: ab
-snippet: y
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 96%
+source-wordcount: '1264'
+ht-degree: 93%
 
 ---
 
 
-# Configuración y objetivos {#goals-and-settings}
+# Configuración y objetivos
 
-La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
+La página Objetivos y configuración de [!DNL Adobe Target] es donde se escribe información sobre los objetivos de la prueba.
 
 La configuración disponible depende de si usa Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) como fuente de datos.
 
