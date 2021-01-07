@@ -1,19 +1,20 @@
 ---
+keywords: activity change log;change log
 description: El registro de cambios proporciona un registro de quién realizó cambios en las actividades y cuándo lo hizo.
 title: Registro de cambio de actividad en Adobe Target
 feature: activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 93%
+source-wordcount: '100'
+ht-degree: 77%
 
 ---
 
 
-# Registro de cambios de actividades{#activity-change-log}
+# Registro de cambios de actividades
 
-El registro de cambios proporciona un registro de quién realizó cambios en las actividades y cuándo lo hizo.
+El registro de cambios en [!DNL Adobe Target] proporciona un registro de quién cambió las actividades y cuándo se produjeron los cambios.
 
 1. Abra la actividad y haga clic en **[!UICONTROL Registro de cambios]**.
 
