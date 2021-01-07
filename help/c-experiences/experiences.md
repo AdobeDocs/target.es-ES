@@ -1,20 +1,20 @@
 ---
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
-description: Las experiencias determinan el contenido que se mostrará cuando el visitante cumpla los criterios de audiencia de una actividad.
+description: Una experiencia en Adobe Target determina qué contenido se muestra cuando el visitante cumple los criterios de audiencia de una actividad.
 title: Experiencias y ofertas
-feature: experiences
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 89%
 
 ---
 
 
-# Experiencias y ofertas{#experiences-and-offers}
+# Experiencias y ofertas
 
-Las experiencias determinan el contenido que se mostrará cuando el visitante cumpla los criterios de audiencia de una actividad.
+Una experiencia en [!DNL Adobe Target] determina qué contenido se muestra cuando el visitante cumple los criterios de audiencia de una actividad.
 
 Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un canal de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un ayudante de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
 
