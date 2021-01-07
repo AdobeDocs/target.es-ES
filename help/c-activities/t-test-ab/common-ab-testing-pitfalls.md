@@ -1,20 +1,20 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: Las pruebas A/B constituyen el pilar de la mayoría de los programas de optimización de marketing digital. Los especialistas en marketing las utilizan para ofrecer experiencias optimizadas y segmentadas a los visitantes y clientes. Esta sección describe nueve de los escollos más significativos a los que se enfrentan las compañías al realizar pruebas A/B en Adobe Target. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
+description: Las pruebas A/B en Adobe Target constituyen la columna vertebral de la mayoría de los programas de optimización de marketing digital, lo que ayuda a los especialistas en marketing a ofrecer a sus visitantes y clientes experiencias optimizadas y dirigidas a la oferta. Esta sección describe nueve de los escollos más significativos a los que se enfrentan las compañías al realizar pruebas A/B en Adobe Target. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
 title: Nueve escollos comunes de las pruebas A/B y cómo evitarlos
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3918'
-ht-degree: 88%
+source-wordcount: '3922'
+ht-degree: 87%
 
 ---
 
 
-# Diez escollos comunes de prueba A/B y cómo evitarlos{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# Diez escollos comunes de prueba A/B y cómo evitarlos
 
-Las pruebas A/B constituyen el pilar de la mayoría de los programas de optimización de marketing digital. Los especialistas en marketing las utilizan para ofrecer experiencias optimizadas y segmentadas a los visitantes y clientes. Esta sección describe diez de los escollos más importantes a los que se enfrentan las compañías al realizar pruebas A/B. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
+La prueba A/B en [!DNL Adobe Target] forma la columna vertebral de la mayoría de los programas de optimización de mercadotecnia digital, lo que ayuda a los especialistas en mercadotecnia a optimizar la oferta y dirigir experiencias a sus visitantes y clientes. Esta sección describe diez de los escollos más importantes a los que se enfrentan las compañías al realizar pruebas A/B. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
 
 ## Pitfall 1: Ignorar los efectos del nivel de relevancia {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
