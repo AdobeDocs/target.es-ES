@@ -1,33 +1,32 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Puede mostrar valores de perfil de e información de la actividad directamente en una oferta HTML o JSON.
+description: Puede mostrar valores de perfil e información de actividad directamente en una oferta HTML o JSON en Adobe Target.
 title: Transmisión dinámica de datos en ofertas
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
+source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 94%
+source-wordcount: '494'
+ht-degree: 88%
 
 ---
 
 
-# Transferir datos dinámicos en ofertas{#pass-dynamic-data-into-offers}
+# Transmisión dinámica de datos en ofertas
 
-Puede mostrar, de forma dinámica, la información del visitante almacenada en el perfil de Target. Del mismo modo, la información de la actividad (como el nombre de la actividad o el de la experiencia) también se puede utilizar para crear una sola oferta que devuelva contenido personalizado de forma dinámica en función de los intereses, el comportamiento anterior y el perfil general del visitante.
+Puede mostrar dinámicamente la información de visitante almacenada en el perfil [!DNL Adobe Target]. Del mismo modo, la información de la actividad (como el nombre de la actividad o el de la experiencia) también se puede utilizar para crear una sola oferta que devuelva contenido personalizado de forma dinámica en función de los intereses, el comportamiento anterior y el perfil general del visitante.
 
-**Casos de uso**
+## Casos de uso
 
 * Promocione una oferta de descuento para reorganizar o reponer el último producto comprado. En lugar de crear una oferta separada para cada elemento del catálogo, puede crear una oferta con texto dinámico que indique el último producto comprado del perfil y muestre un vínculo en la oferta.
 * Un visitante llega a su página de destino con `keyword=world` `cup`. El término *World cup* aparece en la oferta.
 * Personalice una etiqueta de recomendaciones con información como (1) el último elemento agregado al carro de compras de un visitante (Nike Air Max 1000 s), (2) la preferencia de color del visitante (negro) y (3) la categoría favorita del visitante, sin tener en cuenta los zapatos (sudaderas). Ejemplo: «Use estas fantásticas sudaderas con capucha negra para complementar sus Nike Air Max 1000.»
 
-
-**Ventajas técnicas**
+## Ventajas técnicas
 
 Puesto que las preferencias, los comportamientos, el estado, etc. específicos del usuario se pueden almacenar en el perfil del usuario, puede repetir este mensaje en sus próximas visitas. Las ofertas dinámicas permiten una mayor escala al permitirle configurar una sola oferta dentro de una actividad que muestra mensajes personalizados para todos los visitantes. A medida que la intención del visitante cambia, el contenido del sitio web refleja automáticamente dichos cambios.
 
-**Ejemplo**
+## Ejemplo
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
@@ -51,7 +50,7 @@ Información de registro en la consola con fines de depuración, como `${campaig
 
 Para ver los diseños de Recommendations, consulte los ejemplos adicionales en [Información general de diseño](/help/c-recommendations/c-design-overview/design-overview.md).
 
-**Implementación**
+## Implementación
 
 Para los parámetros de perfil transferidos a un mbox, utilice la sintaxis: `${profile.parameter}` Para los parámetros de perfil creados en un script de perfil, utilice la sintaxis:
 
