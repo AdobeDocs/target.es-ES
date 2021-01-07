@@ -1,16 +1,20 @@
 ---
+keywords: experience cloud debugger;mbox trace
+description: Depurar Adobe Target con Adobe Experience Cloud Debugger.
 title: Depurar Target con Experience Cloud Debugger
-feature: null
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 41%
+source-wordcount: '70'
+ht-degree: 34%
 
 ---
 
 
 # Depurar Target con Experience Cloud Debugger
+
+Depurar [!DNL Adobe Target] usando el [!DNL Adobe Experience Cloud Debugger].
 
 ## Agregar la extensión
 
