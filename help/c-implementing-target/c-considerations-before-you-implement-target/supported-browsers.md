@@ -2,9 +2,9 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: La aplicación y la entrega de contenido de Adobe Target se han probado en un amplio abanico de navegadores y dispositivos.
 title: Navegadores admitidos
-feature: reference general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# Navegadores admitidos{#supported-browsers}
+# Navegadores admitidos
 
 La aplicación y la entrega de contenido de [!DNL Adobe Target] se han probado en una amplia gama de navegadores y dispositivos.
 
