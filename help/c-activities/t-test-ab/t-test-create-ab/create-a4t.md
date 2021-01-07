@@ -1,20 +1,20 @@
 ---
-keywords: Targeting;analytics;tracking server
-description: Puede configurar una actividad en Target Standard para que use Adobe Analytics como fuente de informes (A4T).
+keywords: Targeting;analytics;tracking server;analytics for target;a4t
+description: Puede configurar una actividad en Adobe Target Standard para utilizar Adobe Analytics como origen de sistema de informes (A4T).
 title: Usar datos de Analytics
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 95%
+source-wordcount: '533'
+ht-degree: 89%
 
 ---
 
 
-# Usar datos de Analytics{#using-analytics-data}
+# Usar datos de Analytics
 
-Puede configurar una actividad en Target Standard para que use Adobe Analytics como fuente de informes (A4T).
+Puede configurar una actividad en [!DNL Adobe Target] para que utilice [!DNL Adobe Analytics] como fuente de sistema de informes (A4T).
 
 Para obtener información detallada sobre la configuración de Analytics como fuente de datos para Destinatario, consulte [Adobe Analytics como fuente de Sistema de informes para Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
