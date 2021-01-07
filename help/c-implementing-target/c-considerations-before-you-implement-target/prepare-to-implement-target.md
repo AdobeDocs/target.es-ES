@@ -2,19 +2,19 @@
 keywords: implement;implementing;rfi;request for information
 description: Hay tareas que debe completar e información que debe recopilar al preparar la implementación de Adobe Target.
 title: Preparación para implementar Adobe Target
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
 
 
-# Preparación para implementar Target {#prepare-to-implement-target}
+# Preparación para implementar Target
 
-Hay tareas que debe completar e información que debe recopilar al preparar la implementación de Target.
+Hay tareas que debe completar e información que debe recopilar al preparar la implementación de [!DNL Adobe Target].
 
 Seguir estas directrices y rellenar los cuestionarios proporcionados le servirá para implementar Target, ya lo implemente usted solo o con la ayuda de Adobe Consulting (recomendado).
 
