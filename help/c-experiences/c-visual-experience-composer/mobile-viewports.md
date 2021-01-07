@@ -2,9 +2,9 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: Las ventanillas móviles le ayudan a previsualización la forma en que aparecen sus actividades de Adobe Target en pantallas de distintos tamaños.
 title: Ventanillas móviles para experiencias interactivas
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 69%
@@ -12,9 +12,9 @@ ht-degree: 69%
 ---
 
 
-# Ventanillas móviles para experiencias interactivas{#mobile-viewports-for-responsive-experiences}
+# Ventanillas móviles para experiencias interactivas
 
-Las ventanillas móviles le ayudan a previsualización la forma en que aparecen sus actividades [!DNL Target] en pantallas de distintos tamaños.
+Las ventanillas móviles le ayudan a previsualización la forma en que aparecen sus actividades [!DNL Adobe Target] en pantallas de distintos tamaños.
 
 La función de previsualización de ventanilla móvil está diseñada para sitios interactivos que funcionan bien en distintos dispositivos, ventanas o tamaños de pantalla. Los sitios interactivos se ajustan automáticamente y se adaptan a cualquier tamaño de pantalla, incluidos equipos de escritorio, portátiles, tabletas o teléfonos móviles.
 
