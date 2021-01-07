@@ -1,20 +1,20 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
-description: Información sobre los distintos métodos que se pueden utilizar para introducir datos en Target, como el uso de parámetros de página, atributos de perfil en página, atributos de perfil en script, proveedores de datos, la API de actualización de perfiles en lote, la API de actualización de perfil único y los atributos del cliente.
+description: Información sobre los distintos métodos que puede utilizar para obtener datos en Adobe Target, incluidos los parámetros de página, los atributos de perfil en la página, los atributos de perfil de secuencias de comandos, los proveedores de datos, la API de actualización masiva de perfiles, la API de actualización única de perfiles y los atributos del cliente.
 title: Métodos para obtener los datos en Target
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1936'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
 
-# Métodos para obtener los datos en Target{#methods-to-get-data-into-target}
+# Métodos para obtener los datos en Target
 
-Información sobre los distintos métodos que se pueden utilizar para introducir datos en Target, como el uso de parámetros de página, atributos de perfil en página, atributos de perfil en script, proveedores de datos, la API de actualización de perfiles en lote, la API de actualización de perfil único y los atributos del cliente.
+Información sobre los diferentes métodos que puede utilizar para obtener datos en [!DNL Adobe Target], incluidos los parámetros de página, los atributos de perfil en la página, los atributos de perfil de secuencias de comandos, los proveedores de datos, la API de actualización masiva de perfiles, la API de actualización única de perfiles y los atributos del cliente.
 
 ## Parámetros de página (también denominados “parámetros de mbox”) {#section_5A297816173C4FE48DC4FE03860CB42B}
 
