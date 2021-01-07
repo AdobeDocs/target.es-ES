@@ -1,20 +1,20 @@
 ---
-keywords: Goal &Settings;objective;priority;duration
-description: Use Configuración de actividades para administrar el objetivo, la prioridad y la duración de las actividades.
+keywords: Goal & Settings;objective;priority;duration
+description: Utilice la Configuración de Actividad en Adobe Target para administrar el objetivo, la prioridad y la duración de sus actividades.
 title: Configuración de actividades
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
 
-# Configuración de actividades{#activity-settings}
+# Configuración de actividades
 
-Use Configuración de actividades para administrar el objetivo, la prioridad y la duración de las actividades.
+Utilice [!UICONTROL Configuración de Actividad] en [!DNL Adobe Target] para administrar el objetivo, la prioridad y la duración de sus actividades.
 
 1. Introduzca notas sobre el objetivo de la actividad.
 
