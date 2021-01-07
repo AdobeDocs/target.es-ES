@@ -2,9 +2,9 @@
 keywords: implement;at.js;javascript library
 description: Información sobre cómo implementar la biblioteca de JavaScript de Adobe Target, at.js, mediante Adobe Launch, sin un administrador de etiquetas, o mediante Dynamic Tag Management (DTM) de Adobe.
 title: Cómo implementar at.js
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 57%
