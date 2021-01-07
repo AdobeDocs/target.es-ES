@@ -1,20 +1,20 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Use la biblioteca de Ofertas para administrar el contenido de ofertas de código y ofertas de imagen.
+description: Utilice la biblioteca de Ofertas de Adobe Target para administrar la oferta de código y el contenido de oferta de imágenes.
 title: Ofertas
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 98%
+source-wordcount: '480'
+ht-degree: 91%
 
 ---
 
 
 # Ofertas{#offers}
 
-Use la biblioteca de Ofertas para administrar el contenido de ofertas de código y ofertas de imagen.
+Utilice la biblioteca de Ofertas de [!DNL Adobe Target] para administrar la oferta de código y el contenido de oferta de imágenes.
 
 >[!NOTE]
 >
