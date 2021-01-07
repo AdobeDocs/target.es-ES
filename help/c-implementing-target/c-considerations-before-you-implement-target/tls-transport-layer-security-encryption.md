@@ -2,11 +2,11 @@
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: Información sobre cambios en la forma en que Adobe y Target usan TLS (Seguridad de capa de transporte) para mantener los más altos estándares de seguridad y promover la seguridad de los datos de los clientes.
 title: Cambios en el cifrado de TLS (Seguridad de capa de transporte)
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1230'
 ht-degree: 62%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 62%
 
 # Cambios en el cifrado de TLS (Seguridad de capa de transporte){#tls-transport-layer-security-encryption-changes}
 
-Información sobre los cambios en la forma en que Adobe y Adobe Target utilizan TLS (Transport Layer Security) para mantener los más altos estándares de seguridad y promover la seguridad de los datos de los clientes.
+Información sobre los cambios en el modo en que [!DNL Adobe] y [!DNL Adobe Target] utilizan TLS (Transport Layer Security) para mantener los más altos estándares de seguridad y promover la seguridad de los datos del cliente.
 
 Seguridad de capa de transporte (TLS) es el protocolo de seguridad más implementado que se usa hoy en día para navegadores web y otras aplicaciones que requieren que los datos se intercambien de forma segura en una red. Adobe tiene estándares de cumplimiento de seguridad que requieren la discontinuación de protocolos más viejos y exigen el uso de TLS 1.2 para tener en uso la versión más actualizada y segura.
 
