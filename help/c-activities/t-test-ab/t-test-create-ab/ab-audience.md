@@ -1,20 +1,20 @@
 ---
 keywords: audience;select audience;choose audience;Selectors
-description: La audiencia determina qué visitantes del sitio participan en su actividad.
+description: La audiencia determina qué visitantes del sitio se introducen en la actividad de Adobe Target.
 title: Seleccionar la audiencia
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
 
-# Seleccionar la audiencia{#select-audience}
+# Seleccionar la audiencia
 
-La audiencia determina qué visitantes del sitio participan en su actividad.
+La audiencia determina qué visitantes del sitio se introducen en la actividad [!DNL Adobe Target].
 
 >[!NOTE]
 >
