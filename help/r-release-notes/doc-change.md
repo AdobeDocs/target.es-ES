@@ -4,9 +4,9 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
+source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
 workflow-type: tm+mt
-source-wordcount: '3268'
+source-wordcount: '3283'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Enero de 12 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Información previa al lanzamiento añadida sobre la versión Target Standard/Premium 21.1.1 (19 de enero de 2021). |
 | Enero de 11 | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Información añadida e información de registro para la sesión de preguntas y respuestas de la comunidad de Adobe Target del 13 de enero. |
 | Enero de 6 | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Información añadida e información de registro para el siguiente seminario web en directo:<ul><li>Personalización correcta a escala: Resultados clave de las plataformas de optimización de experiencias de Forrester Wave.</li></ul> |
 | 4 de enero | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha cambiado la fecha en la que Destinatario dejará de admitir mbox.js del 18 de enero de 2012 al 31 de marzo de 2021. |
