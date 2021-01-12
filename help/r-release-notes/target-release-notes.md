@@ -2,21 +2,21 @@
 keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease
 description: Notas de la versión que proporcionan información sobre funciones, mejoras y correcciones para las versiones más recientes o futuras de DNL Adobe Target.
 title: Notas de evaluación de Adobe Target
-feature: null
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: d952b88fd66c50bf27f2ea6c61eae8d5b4d16681
+source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 20%
+source-wordcount: '685'
+ht-degree: 19%
 
 ---
 
 
-# Notas de la versión de Target (versión previa){#target-release-notes-prerelease}
+# Notas de la versión de Target (versión previa)
 
 Este artículo contiene información de evaluación. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización:7 de enero de 2021**
+**Última actualización:12 de enero de 2021**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información en estas páginas puede ser la misma, según el tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -34,7 +34,22 @@ Aunque actualmente se admite mbox.js (hasta el 31 de marzo de 2021), no hemos pr
 
 ## Target Standard/Premium 21.1.1 (19 de enero de 2021). 
 
-La información sobre esta versión se publicará aquí en los próximos días.
+Esta versión de mantenimiento contiene las siguientes mejoras, correcciones y cambios.
+
+Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+* Se añadió una advertencia al seleccionar una métrica [!DNL Adobe Analytics] al utilizar [!UICONTROL Analytics como fuente de sistema de informes] (A4T) en una actividad [!UICONTROL Destinatario automático]. [!UICONTROL Los modelos de ] segmentación automática están optimizados para funcionar con métricas binarias (basadas en conversión). La selección de una métrica continua, como los ingresos, podría tener resultados subóptimos y los informes [!UICONTROL Perspectivas de personalización] podrían no ser precisos. (TGT-38926)
+* Se añadió un icono de estado en el informe [!UICONTROL Resumen de Destinatario automático] para actividades [!UICONTROL Destinatario automático] que utilizan A4T. El icono de verificación verde junto a cada experiencia en el informe indica que para dicha experiencia se ha generado un modelo personalizado de aprendizaje automático. El icono del reloj indica que no se ha servido tráfico suficiente para crear el modelo. (TGT-38925)
+* Los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] para actividades [!UICONTROL Destinatario automático] que utilizan métricas de conversión A4T y [!DNL Analytics] se generan y tienen el mismo aspecto que cuando se utiliza [!DNL Target] como fuente de sistema de informes. (TGT-38931)
+* Se ha añadido una opción de filtrado de entornos en la lista [!UICONTROL Recommendations] [!UICONTROL Collections]. (TGT-38353)
+* Se ha corregido un problema que hacía que se mostrara un recuento de productos incorrecto en las colecciones [!UICONTROL Recommendations]. (TGT-39162)
+* Se ha añadido un filtro [!UICONTROL Última actualización] en [!UICONTROL Recommendations] [!UICONTROL Búsqueda en el catálogo]. (TGT-38340)
+* Se corrigió un problema en [!UICONTROL Recommendations] que ocasionaba que la página [!UICONTROL Crear secuencia] se bloqueara después de cambiar la vertical del sector. (TGT-38160)
+* Se ha corregido un problema que impedía guardar la actividad si Device Co-op estaba habilitado y el usuario cambiaba de [!DNL Target] como origen de sistema de informes a [!DNL Analytics] (A4T). (TGT-38163)
+* Se ha corregido un problema que impedía a los usuarios quitar una audiencia de una oferta en una actividad [!UICONTROL Automated Personalization] (AP). (TGT-39058)
+* Se corrigió un problema que ocasionaba que el intervalo de tiempo incorrecto (fechas de inicio y finalización) se mostrara en [!UICONTROL tarjetas de información de Audiencia] para algunos clientes. (TGT-39150)
+* Se ha corregido un problema que impedía a algunos clientes ver la lista de actividades en el [!UICONTROL espacio de trabajo predeterminado]. (TGT-38526)
+* Se han aumentado los límites de tamaño de las ofertas en la interfaz de usuario y la API [!DNL Target] a 1 MB. (TGT-38304)
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
