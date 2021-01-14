@@ -4,7 +4,7 @@ description: Estas notas de la versión proporcionan información sobre caracter
 title: 'Notas de la versión de Adobe Target (actual) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 26%
@@ -34,8 +34,8 @@ Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 Esta versión de at.js es una versión de mantenimiento que incluye las siguientes correcciones:
 
-* Añade la compatibilidad con ID de plataforma/perfil unificado en ID de cliente de API de envío
-* Corrección de la inyección de etiquetas de estilo no válida
+* Añade la compatibilidad con ID de plataforma/perfil unificado en ID de cliente de API de envío.
+* Corrige la inyección de etiquetas de estilo no válida.
 
 ## Target Standard/Premium 20.10.1 (27 de octubre de 2020)
 
