@@ -2,17 +2,17 @@
 keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
 description: Información sobre los complementos compatibles y no compatibles de at.js para Adobe Target.
 title: Complementos de at.js para Adobe Target
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Complementos de at.js{#at-js-plug-ins}
+# Complementos de at.js
 
 Información sobre los complementos compatibles y no compatibles de at.js en Adobe Target.
 
