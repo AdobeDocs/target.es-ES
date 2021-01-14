@@ -2,9 +2,9 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;profile attribute matching
 description: Filtre dinámicamente en Adobe Target Recommendations comparando elementos (entidades) con un valor en el perfil del usuario.
 title: Filtrar por coincidencia de atributos de Perfil en reglas de inclusión dinámica en Adobe Target Recommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 7%
@@ -61,7 +61,7 @@ Para ver un ejemplo visual de cómo la coincidencia de atributos de perfil afect
 
 Cuando un visitante hace clic en varias imágenes de seguidores en este sitio web, cada página establece el valor del parámetro `entity.size` en función de si el tamaño del ventilador en la imagen es pequeño o grande.
 
-Supongamos que ha creado una secuencia de comandos de perfil para rastrear y contar el número de veces que el valor de `entity.size` se ha definido en pequeño vs. grande.
+Supongamos que ha creado una secuencia de comandos de perfil para rastrear y contar el número de veces que el valor de `entity.size` se establece en pequeño vs. grande.
 
 Si el visitante regresa a la Página de inicio, verá las recomendaciones filtradas en función de si se hizo clic en más seguidores pequeños o grandes.
 
