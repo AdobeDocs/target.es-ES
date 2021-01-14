@@ -2,9 +2,9 @@
 keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
 description: Esta es la lista de direcciones IP que se usan en los servidores de procesamiento de fuentes de Recommendations en el centro de datos de Oregon para configurar el firewall de modo que bloquee las direcciones IP procedentes de los servidores de Adobe.
 title: Direcciones IP que usan los servidores de procesamiento de fuentes de Recommendations
-feature: reference general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 87%
