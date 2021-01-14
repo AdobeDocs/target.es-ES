@@ -2,17 +2,17 @@
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: La función targetPageParams de JavaScript se usa para pasar parámetros al mbox global. Esto es necesario en cualquier escenario en el que la información de contexto/objetivo adicional se pase a Adobe Target.
 title: Pasar parámetros a un mbox global
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Pasar parámetros a un mbox global{#pass-parameters-to-a-global-mbox}
+# Pasar parámetros a un mbox global
 
 La función JavaScript `targetPageParams` se utiliza para pasar parámetros al mbox global en [!DNL Adobe Target]. Esto es necesario en cualquier escenario en el que se vaya a pasar información de segmentación o contexto adicional a [!DNL Target].
 
