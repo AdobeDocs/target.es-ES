@@ -4,9 +4,9 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '3283'
+source-wordcount: '3292'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Enero de 14 | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha añadido información sobre la versión 2.4.0 de at.js. |
 | Enero de 12 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Información previa al lanzamiento añadida sobre la versión Target Standard/Premium 21.1.1 (19 de enero de 2021). |
 | Enero de 11 | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Información añadida e información de registro para la sesión de preguntas y respuestas de la comunidad de Adobe Target del 13 de enero. |
 | Enero de 6 | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Información añadida e información de registro para el siguiente seminario web en directo:<ul><li>Personalización correcta a escala: Resultados clave de las plataformas de optimización de experiencias de Forrester Wave.</li></ul> |
