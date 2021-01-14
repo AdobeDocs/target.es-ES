@@ -2,9 +2,9 @@
 keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Después de crear la actividad de Recommendations, Prueba A/B o Segmentación de experiencias (XT) que contenga ofertas de Adobe Target Recommendations, deberá previsualización para asegurarse de que los resultados están disponibles antes de iniciar la actividad. Destinatario Recommendations oferta varias formas de previsualización de las recomendaciones. '
 title: 'Después de crear la actividad de Recommendations, Prueba A/B o Segmentación de experiencias (XT) que contenga ofertas de Adobe Target Recommendations, deberá previsualización para asegurarse de que los resultados están disponibles antes de iniciar la actividad. Destinatario Recommendations oferta varias formas de previsualización de las recomendaciones. '
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
