@@ -2,9 +2,9 @@
 keywords: recommendation;backup;back up
 description: Si utiliza la función de recomendación de copia de seguridad en Adobe Target, cualquier recomendación que no tenga suficientes artículos recomendados no mostrará el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
 title: Usar una recomendación de copia de seguridad en Adobe Target Recommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 83%
