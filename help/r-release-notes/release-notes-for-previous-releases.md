@@ -2,9 +2,9 @@
 keywords: Release notes
 description: Notas de la versión de versiones anteriores de Adobe Target, incluidas las notas de la versión de Target Standard/Premium, la plataforma de Destinatario y la biblioteca de Destinatario Javascript (at.js). Las notas de la versión se presentan en orden descendente por mes y año de publicación.
 title: Notas de la versión para versiones anteriores
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '29817'
 ht-degree: 86%
