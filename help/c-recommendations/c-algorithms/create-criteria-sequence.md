@@ -2,9 +2,9 @@
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: Utilice secuencias de hasta cinco criterios para ejercer el bueno control de los elementos que aparecen en las actividades de Adobe Target Recommendations.
 title: Crear secuencias de criterios
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 35%
