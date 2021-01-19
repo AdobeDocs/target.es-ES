@@ -2,9 +2,9 @@
 keywords: troubleshoot target;troubleshooting target
 description: Lista de temas útiles para resolver problemas en Adobe Target. Incluye temas de resolución de problemas, preguntas más frecuentes (PF) y otros temas.
 title: Resolución de problemas de Adobe Target
-feature: troubleshooting general
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 ---
 
 
-# Resolución de problemas de Target{#troubleshoot-target}
+# Resolución de problemas de Target
 
 Lista de temas útiles para resolver problemas en [!DNL Adobe Target]. Incluye temas de resolución de problemas, preguntas más frecuentes (PF) y otros temas.
 
