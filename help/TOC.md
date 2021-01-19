@@ -3,9 +3,9 @@ user-guide-title: Guía de Adobe Target
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 translation-type: tm+mt
-source-git-commit: fb6edb18e19faf6e1aab0878d0e9a6e0d5a0703a
+source-git-commit: 4c952b3096de620f5ee3f10d84fa2063b4448652
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1579'
 ht-degree: 85%
 
 ---
@@ -88,42 +88,42 @@ ht-degree: 85%
       + [CNAME y Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + Web del lado del cliente: implementación de Target {#client-side}
       + [Información general: implementación de Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
-      + Cómo funciona at.js {#at-js}
-         + [Información general sobre el funcionamiento de at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
-         + [Cómo gestiona at.js el parpadeo](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
-         + [Integraciones de at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
-      + Cómo implementar at.js {#deploy-at-js}
-         + [Cómo implementar at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-         + [Implementar Target utilizando Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
-         + [Implementación de Target sin un administrador de etiquetas](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-         + [Implementación de Target mediante Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-         + [Implementación de aplicación de página única](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
-      + Funciones de at.js {#functions-overview}
-         + [Información general sobre las funciones de at.js](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
-         + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-         + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
-         + [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
-         + [adobe.target.applyOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
-         + [adobe.target.triggerView() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
-         + [adobe.target.trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
-         + [mboxCreate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
-         + [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
-         + [mboxDefine() and mboxUpdate(): at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
-         + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
-         + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
-         + [registerExtension(): at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-         + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
-         + [Eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
-         + [Depurar at.js mediante Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-         + [Uso de instancias basadas en la nube con Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
-      + Preguntas frecuentes sobre at.js {#faq-at-js}
-         + [Preguntas más frecuentes de at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-         + [Preguntas más frecuentes sobre mbox global](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
-      + [Detalles de las versiones de at.js](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-      + [Actualización de at.js 1.x a at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
-      + [Cookies de at.js](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-      + Implementación de mbox.js {#mbox-implement}
+      + [Implementación de Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+      + Implementación de at.js {#at-js-implementation}
+         + Cómo funciona at.js {#at-js}
+            + [Información general sobre el funcionamiento de at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+            + [Cómo gestiona at.js el parpadeo](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
+            + [Integraciones de at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
+         + Cómo implementar at.js {#deploy-at-js}
+            + [Cómo implementar at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
+            + [Implementar Target utilizando Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [Implementación de Target sin un administrador de etiquetas](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+            + [Implementación de Target mediante Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [Implementación de aplicación de página única](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+         + Funciones de at.js {#functions-overview}
+            + [Información general sobre las funciones de at.js](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
+            + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
+            + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
+            + [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
+            + [adobe.target.applyOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
+            + [adobe.target.triggerView() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
+            + [adobe.target.trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
+            + [mboxCreate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
+            + [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
+            + [mboxDefine() and mboxUpdate(): at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
+            + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
+            + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
+            + [registerExtension(): at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
+            + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+            + [Eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
+            + [Depurar at.js mediante Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
+            + [Uso de instancias basadas en la nube con Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+         + Preguntas frecuentes sobre at.js {#faq-at-js}
+            + [Preguntas más frecuentes de at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
+         + [Detalles de las versiones de at.js](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+         + [Actualización de at.js 1.x a at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
+         + [Cookies de at.js](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
+      + Implementación de mbox.js (heredado) {#mbox-implement}
          + [Información general sobre la implementación de mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
          + Migrar de mbox.js a at.js {#migrate-mbox}
             + [Información general sobre la migración de mbox.js a at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
@@ -140,11 +140,12 @@ ht-degree: 85%
          + [Funciones mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
          + [Cookies mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [Detalles de la versión de mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
-         + Comprender el mbox global {#global-mbox}
-            + [Información general sobre mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
-            + [Personalizar un mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
-            + [Uso de un mbox global desde una implementación heredada](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
-            + [Pasar parámetros a un mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
+      + Comprender el mbox global {#global-mbox}
+         + [Información general sobre mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+         + [Personalizar un mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
+         + [Uso de un mbox global desde una implementación heredada](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
+         + [Pasar parámetros a un mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
+         + [Preguntas más frecuentes sobre mbox global](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
    + Target para aplicaciones móviles {#mobile-apps}
       + [Información general sobre Target para aplicaciones móviles](c-target-mobile-app/target-mobile-app.md)
       + [¿Cómo funciona Target en las aplicaciones móviles?](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
