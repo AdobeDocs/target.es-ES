@@ -1,20 +1,20 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: Información sobre los límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
 title: Límites
-feature: Recommendations
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 76%
+source-wordcount: '1035'
+ht-degree: 71%
 
 ---
 
 
-# Límites{#limits}
+# Límites
 
-Información sobre los límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
+Información sobre los límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 >
 >Cuando se aproximan o se exceden los límites designados como “recomendados”, el rendimiento puede ralentizarse. Si la interfaz tarda tiempo en cargarse también puede ser debido a una actividad muy compleja, como por ejemplo muchas audiencias, objetivos y experiencias en la misma actividad.
 >
->Las actividades muy complejas deben ser revisadas por los asesores de Adobe y probadas en un entorno limitado antes de su lanzamiento en producción.
+>Las actividades muy complejas deben revisarse con [!DNL Adobe] consultoría y probarse en un entorno limitado antes de ser liberadas a producción.
 
 ## Actividades
 
@@ -194,9 +194,7 @@ El contenido de la experiencia es demasiado grande para su entrega. Modifique la
 
 ## Parámetro productPurchasedId
 
-**Límite**: 47 caracteres por valor separado por coma.
-
-El sistema truncará lo que supere este límite.
+**Límite**: 47 caracteres por valor separado por coma y 250 caracteres en total. El sistema puede truncar los valores individuales superiores a 47 caracteres. Las longitudes totales superiores a 250 caracteres pueden resultar en un error de 400.
 
 ## Scripts de perfil
 
