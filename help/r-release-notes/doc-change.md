@@ -4,10 +4,10 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '3292'
-ht-degree: 28%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,6 +15,15 @@ ht-degree: 28%
 # Cambios de la documentación{#documentation-changes}
 
 Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] documentación del producto.
+
+## Adobe Target Standard/Premium 21.1.1 (19 de enero de 2021)
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| Enero de 19 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Información añadida sobre la versión 21.1.1 de Destinatario (19 de enero de 2021). |
+|  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado el texto del parámetro `productPurchasedID`. |
+|  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido un problema conocido al copiar una actividad [!UICONTROL de recomendación] con una promoción activa. Cualquier cambio en la actividad de duplicado también afecta a la actividad original y viceversa. Se incluye una solución temporal. |
+|  | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.1.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 20.10.1 (28 de octubre de 2020)
 
