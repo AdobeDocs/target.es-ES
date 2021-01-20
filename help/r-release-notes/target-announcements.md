@@ -4,9 +4,9 @@ description: Información sobre los próximos eventos, incluidas las sesiones de
 title: Anuncios de destinatario
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,6 @@ Adobe Target fue reconocido recientemente por Forrester y Gartner como líder de
 | --- | --- |
 | Forrester | **Adobe denominado Leader en el informe de oleada Forrester para plataformas de optimización de experiencias.**<br> Adobe fue nombrado Líder en La Ola Forrester: Plataformas de optimización de experiencias, informe del cuarto trimestre de 2020 para su oferta en este espacio, Adobe Target Premium. Adobe recibió la puntuación más alta de todos los proveedores participantes en las actuales categorías de oferta y presencia en el mercado, así como en las recomendaciones y los criterios de experiencia en la plataforma. Destinatario Premium también obtuvo el puntaje más alto posible en la innovación de las técnicas de optimización de experiencia y en los criterios de servicios de soporte. El informe se basa en una evaluación exhaustiva de 10 proveedores de plataformas de optimización de experiencias en 22 criterios.<br>Lee al respecto en el  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe de nuevo nombró un Líder en el Cuadrante Mágico de Gartner para motores de personalización.**<br> Una vez más, Adobe fue nombrado Líder en el tercer informe anual del Cuadrante Mágico de Gartner para Motores de Personalización, 2020. El Cuadrante mágico de Gartner para motores de personalización evaluó a los proveedores según 15 criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución.<br>[Lee al respecto en The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
-## Descanso para café de la comunidad de Adobe Target
-
-* **Miércoles 13 de enero**
-* **8 a.m. PT | 10.00 horas CT | 11.00 horas ET**
-* **Duración: 60 minutos**
-* **[Haga clic aquí para obtener más información](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/%EF%B8%8Fupcoming-in-2021-at-community-q-amp-a-coffee-break-1-13-21-8am/td-p/388109)**
-
-Nos uniremos Robert Calangiu, jefe de producto sénior de Adobe Target, quien se inscribirá aquí en la comunidad de Adobe Target para charlar directamente con usted en este hilo sobre sus preguntas de Adobe Target relativas a sus áreas de experiencia:
-
-* Configuración de destinatario y IU de administración
-* Integración de A4T
-* Integración de AEM
-* Interfaz de usuario de Adobe Target general
-* Respuestas a las preguntas que incluye al [registrarse para este evento](https://www.adobeeventsonline.com/Webinar/2021/TargetCoffeeJan/lp/) (aunque opcional)
 
 ## Seminario web: Personalización correcta a escala: Principales hallazgos de las plataformas de optimización de experiencias Forrester Wave
 
@@ -69,7 +54,7 @@ En este seminario web grabado, los expertos en productos de Adobe Target analiza
 
 McKinsey Digital reporta que &quot;hemos avanzado cinco años en la adopción digital de consumidores y empresas en apenas ocho semanas&quot;. *
 
-Las demandas de los consumidores están evolucionando rápidamente, y HSBC ha adoptado la optimización con Adobe Target para probar y personalizar rápidamente nuevos viajes de clientes, reduciendo cierto desarrollo y lanzamientos desde 6 meses hasta 1 semana!
+Las demandas de los consumidores están evolucionando rápidamente, y HSBC ha adoptado la optimización con Adobe Target para probar y personalizar rápidamente nuevos recorridos de clientes, reduciendo cierto desarrollo y lanzamientos desde 6 meses hasta 1 semana!
 
 Únase a Adobe y a HSBC en este seminario web para aprender:
 
