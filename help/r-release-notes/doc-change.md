@@ -4,10 +4,10 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3395'
+ht-degree: 29%
 
 ---
 
@@ -20,6 +20,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Enero de 20 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nuevo tema. |
 | Enero de 19 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Información añadida sobre la versión 21.1.1 de Destinatario (19 de enero de 2021). |
 |  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado el texto del parámetro `productPurchasedID`. |
 |  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha añadido un problema conocido al copiar una actividad [!UICONTROL de recomendación] con una promoción activa. Cualquier cambio en la actividad de duplicado también afecta a la actividad original y viceversa. Se incluye una solución temporal. |
