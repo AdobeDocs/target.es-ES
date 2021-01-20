@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: La búsqueda de catálogo en Adobe Target permite encontrar los productos o el contenido en su catálogo.
-title: Buscar en el catálogo en Adobe Target
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: Obtenga información sobre cómo utilizar la búsqueda en el catálogo de Recommendations para localizar productos o contenido, crear colecciones o exclusiones, eliminar elementos del catálogo y mucho más.
+title: Cómo utilizar la búsqueda en el catálogo de Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 20%
+source-wordcount: '1031'
+ht-degree: 17%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Búsqueda en el catálogo{#catalog-search}
+# ![](/help/assets/premium.png) PREMIUMCatalog Search
 
-La página [!UICONTROL Buscar en el catálogo] le ayuda a encontrar los productos o el contenido en el catálogo.
+La página [!UICONTROL Buscar en el catálogo] de [!DNL Adobe Recommendations] le ayuda a ubicar los productos o el contenido en el catálogo. La tarea más básica que puede realizar en esta página es buscar un elemento. Además, puede cambiar el entorno, guardar los resultados de búsqueda en colecciones o exclusiones, agregar facetas de filtro y modificar columnas en la tabla, agregar nuevas facetas de búsqueda, etc.
 
-Los catálogos hacen referencia a todo el conjunto de productos (entidades). El catálogo puede contener muchas colecciones, una forma de organizar los productos en bloques lógicos.
+Los catálogos hacen referencia a todo el conjunto de productos (entidades). El catálogo puede contener muchas colecciones, una manera de organizar los productos en bloques lógicos.
+
+## Acceso a la búsqueda de catálogos
 
 Para acceder a la página [!UICONTROL Buscar en el catálogo], haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Buscar en el catálogo]**.
 
 ![Página de búsqueda de catálogo](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-La tarea más básica que puede realizar en esta página es buscar un elemento. Además, puede cambiar el entorno; guardar los resultados de la búsqueda en colecciones o exclusiones; agregue, elimine o reorganice columnas en la tabla y agregue nuevas facetas de búsqueda al panel [!UICONTROL Filtros].
 
 ## Buscar un elemento
 
@@ -61,7 +61,7 @@ Puede utilizar una búsqueda simple o avanzada para buscar elementos en el catá
    >
    >Cuando se realiza una búsqueda de catálogo en un atributo personalizado con un valor numérico, los resultados tratan el atributo personalizado como un tipo de cadena en lugar de un valor numérico.
    >
-   >Actualmente, no hay ninguna funcionalidad disponible que permita a los clientes cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema con el cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) que haga referencia a los atributos que necesitan que el tipo cambie de cadena a numérico.
+   >Actualmente, no hay ninguna funcionalidad disponible que le permita cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema con el cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) que haga referencia a los atributos que necesitan que el tipo cambie de cadena a numérico.
 
 1. También puede utilizar filtros para encontrar el producto deseado. En el siguiente ejemplo, al expandir la faceta [!UICONTROL Colecciones] y seleccionar &quot;Herramientas de bicicleta&quot;, se muestran todas las herramientas de bicicleta del catálogo.
 
@@ -153,7 +153,7 @@ Puede agregar facetas de filtro adicionales a la página [!UICONTROL Buscar en e
 
    ![Vínculo Modificar filtros](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. Seleccione las facetas de búsqueda deseadas (ID, nombre, mensaje, etc.).
+1. Seleccione las facetas de búsqueda (ID, nombre, mensaje, etc.) que desee y haga clic en **[!UICONTROL Guardar]**.
 
    ![Añadir filtros](/help/c-recommendations/c-products/assets/add-filters.png)
 
