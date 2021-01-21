@@ -4,15 +4,15 @@ description: Este tema cubre algunos problemas comunes que se han encontrado al 
 title: Resolución de problemas de integración de Analytics y Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 63%
 
 ---
 
 
-# Resolución de problemas de integración de Analytics y Target (A4T){#troubleshoot-the-analytics-and-target-integration-a-t}
+# Resolución de problemas de integración de Analytics y Target (A4T)
 
 Este tema cubre algunos problemas comunes que se han encontrado al usar Analytics como fuente de informes para Target (A4T).
 
@@ -40,17 +40,15 @@ Si desglosa la fila &quot;sin especificar&quot; por la dimensión &quot;Analytic
 >
 >No se pierde ningún dato cuando aparece como “sin especificar”. Los datos se asignan correctamente a la actividad o experiencia apropiadas cuando se efectúa la clasificación.
 
+## Los informes de Actividad de A4T incluyen una fila con un gran número de eventos &quot;no especificados&quot;. {#added_unspecified_events}
 
-## Los informes de Actividades de A4T incluyen una fila con un gran número de eventos &quot;no especificados&quot;. {#added_unspecified_events}
+Podría haber una fila de eventos &quot;[!UICONTROL No especificado]&quot; en el informe, según la métrica que utilice para mostrar los datos.
 
-Podría haber una fila de eventos &quot;sin especificar&quot; en el informe, según la métrica que utilice para mostrar los datos.
+Generalmente, esta fila se muestra si elige una métrica común en el informe que no sea específica de [!DNL Target] (por ejemplo, [!UICONTROL Vistas de página], [!UICONTROL Visitas], [!UICONTROL Visitantes únicos], etc.). En este caso, la fila [!UICONTROL &quot;No especificado&quot;] incluye todas las [!UICONTROL Vistas de página], [!UICONTROL Visitas] y [!UICONTROL Visitantes únicos] que no están asociados a actividades [!DNL Target].
 
-Generalmente, esta fila se muestra si elige una métrica común en el informe que no sea específica del Destinatario (por ejemplo, Vistas de página, Visitas, Visitantes únicos, etc.).
-En este caso, la fila &quot;No especificado&quot; incluirá todas las Vistas de página, visitas y Visitantes únicos que no estén asociados a actividades de Destinatario.
-Esa fila no tendrá ninguna información asociada al Destinatario (por ejemplo, sin visitantes, visitas o impresiones). Para obtener más información, consulte [&quot;No especificado&quot;, &quot;Ninguno&quot;, &quot;Otro&quot; y &quot;Desconocido&quot; en sistema de informes](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) en las *notas técnicas de Analytics*.
+Esa fila no tendrá ninguna información asociada a [!DNL Target] (por ejemplo, sin visitantes, visitas o impresiones). Para obtener más información, consulte [&quot;No especificado&quot;, &quot;Ninguno&quot;, &quot;Otro&quot; y &quot;Desconocido&quot; en sistema de informes](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) en las *notas técnicas de Analytics*.
 
-Si elige una métrica específica de Destinatario en el informe, no se mostrará esa fila &quot;No especificada&quot;.
-La única manera de evitar incluirlo en el informe es configurar una llamada de Destinatario en cada solicitud enviada desde esa página, lo cual no es común o necesario.
+Si elige una métrica específica de [!DNL Target] en el informe, no se muestra la fila [!UICONTROL &quot;No especificado&quot;]. La única manera de evitar incluirlo en el informe es configurar una [!DNL Target] llamada en cada solicitud enviada desde esa página, lo cual no es común ni necesario.
 
 ## Los datos de My Analytics muestran un recuento inflado de visitas o visitantes cuando se inicia A4T.    {#section_4BE374E573D44FB7918611699B74F58E}
 
