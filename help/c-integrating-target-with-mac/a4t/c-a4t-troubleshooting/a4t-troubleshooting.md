@@ -4,10 +4,10 @@ description: Este tema cubre algunos problemas comunes que se han encontrado al 
 title: Resolución de problemas de integración de Analytics y Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 80%
+source-wordcount: '987'
+ht-degree: 63%
 
 ---
 
@@ -32,11 +32,25 @@ Esto puede deberse a varios motivos:
 
    [Póngase en contacto con el servicio de atención al cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para solicitar ayuda.
 
+Si desglosa la fila &quot;sin especificar&quot; por la dimensión &quot;Analytics para Destinatario&quot; y consiste en ningún identificador de actividad, significa que todo se clasifica correctamente.  Si los identificadores de actividad se enumeran allí, sirve como indicación para un problema de clasificación.
+
 >[!NOTE]
 >
 >En ocasiones, los datos se muestran correctamente en los informes, pero luego vuelven a aparecer como “sin especificar” porque se ha añadido una actividad nueva que no ha completado la clasificación. Recuerde que generalmente se tarda entre 24 y 72 horas en clasificar los informes después del primer guardado.
 >
 >No se pierde ningún dato cuando aparece como “sin especificar”. Los datos se asignan correctamente a la actividad o experiencia apropiadas cuando se efectúa la clasificación.
+
+
+## Los informes de Actividades de A4T incluyen una fila con un gran número de eventos &quot;no especificados&quot;. {#added_unspecified_events}
+
+Podría haber una fila de eventos &quot;sin especificar&quot; en el informe, según la métrica que utilice para mostrar los datos.
+
+Generalmente, esta fila se muestra si elige una métrica común en el informe que no sea específica del Destinatario (por ejemplo, Vistas de página, Visitas, Visitantes únicos, etc.).
+En este caso, la fila &quot;No especificado&quot; incluirá todas las Vistas de página, visitas y Visitantes únicos que no estén asociados a actividades de Destinatario.
+Esa fila no tendrá ninguna información asociada al Destinatario (por ejemplo, sin visitantes, visitas o impresiones). Para obtener más información, consulte [&quot;No especificado&quot;, &quot;Ninguno&quot;, &quot;Otro&quot; y &quot;Desconocido&quot; en sistema de informes](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) en las *notas técnicas de Analytics*.
+
+Si elige una métrica específica de Destinatario en el informe, no se mostrará esa fila &quot;No especificada&quot;.
+La única manera de evitar incluirlo en el informe es configurar una llamada de Destinatario en cada solicitud enviada desde esa página, lo cual no es común o necesario.
 
 ## Los datos de My Analytics muestran un recuento inflado de visitas o visitantes cuando se inicia A4T.    {#section_4BE374E573D44FB7918611699B74F58E}
 
