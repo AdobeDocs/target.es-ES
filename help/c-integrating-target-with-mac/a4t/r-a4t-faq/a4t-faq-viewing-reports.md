@@ -4,10 +4,10 @@ description: En este tema encontrará respuestas a preguntas que se plantean a m
 title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
+source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
 workflow-type: tm+mt
-source-wordcount: '2347'
-ht-degree: 55%
+source-wordcount: '2280'
+ht-degree: 56%
 
 ---
 
@@ -69,10 +69,6 @@ En otros informes, “sin especificar” significa que los datos no cumplían un
 
 Tras el periodo de clasificación, los datos aparecen en estos informes aproximadamente una hora después de recabarse del sitio web. Todas las métricas, los segmentos y los valores de los informes proceden del grupo de informes que seleccionó cuando configuró la actividad.
 
-En caso de que la clasificación se haya realizado para esa actividad y siga viendo una fila &quot;sin especificar&quot; en el informe, asegúrese de que el informe no esté utilizando una métrica que no sea de destinatario para mostrar los datos.
-A menos que el informe utilice una métrica específica de Destinatario, esa fila &quot;no especificada&quot; contendrá eventos para llamadas que no estén asociadas con Destinatarios.
-Respectivamente, esa fila no contendrá ninguna información relacionada con el Destinatario (por ejemplo, sin visitantes/visitas/impresiones).
-
 ## ¿Por qué se envían métricas de Target a Analytics aunque la actividad se haya desactivado?{#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 La variable de [!DNL Target] enviada a [!DNL Analytics] caduca, de forma predeterminada, en un plazo de 90 días. El Servicio de atención al cliente puede ajustar este período de caducidad si es necesario. Sin embargo, esta configuración es global para todas las actividades, por lo que no se debería cambiar para un caso.
@@ -103,16 +99,16 @@ El usuario vuelve el 1 de marzo y ve una actividad nueva: ABC. Esta vez también
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 3 | 1 |
+| XYZ | 1 | 15 | 3 | 3 |
+| ABC | 3 | 5 | 1 | 1 |
 
 El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. El periodo de caducidad de 90 días del primer valor de eVar se restableció el 1 de abril y esto se refleja en el informe. Se atribuye el origen de la conversión a todas las actividades de Target que el usuario ve, pero el número total de conversiones se desduplica:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 3 | 1 |
-| ABC | 1 | 10 | 2 | 1 | 1 |
-| Total | 2 | 20 | 1 | 1 | 3 |
+| XYZ | 1 | 20 | 4 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 3 | 1 |
+| Total | 2 | 20 | 1 | 1 | 1 |
 
 Puesto que las dos experiencias se vieron antes de la conversión, ambas son las “responsables” del pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. Para el sistema de informes [!DNL Target], dado que no está poniendo una actividad [!DNL Target] contra otra actividad para ver cuál es más exitosa, no importa que todas las actividades que vio el usuario obtuvieran crédito. Lo que se compara son los resultados de dos elementos de una misma actividad y, como un usuario no puede ver distintas experiencias en la misma actividad, no hay que preocuparse por la contaminación de los orígenes de los pedidos.
 
