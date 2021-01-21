@@ -4,7 +4,7 @@ description: Este tema cubre algunos problemas comunes que se han encontrado al 
 title: Resolución de problemas de integración de Analytics y Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
+source-git-commit: aeb18e5e27e821769e22e1fb4c36d2abb46c2950
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 71%
@@ -38,14 +38,13 @@ Esto puede deberse a varios motivos:
 >
 >No se pierde ningún dato cuando aparece como “sin especificar”. Los datos se asignan correctamente a la actividad o experiencia apropiadas cuando se efectúa la clasificación.
 
-## Los informes de Actividades de A4T incluyen una fila con un gran número de eventos &quot;no especificados&quot;. {#added_unspecified_events}
+## Los informes de actividad de A4T incluyen una fila con un gran número de eventos &quot;no especificados&quot;. {#added_unspecified_events}
 
-Siempre se mostrará una fila de eventos sin especificar, según la métrica que utilice para mostrar los datos.\
-Si utiliza una métrica solo de Destinatario, no se mostrará esa fila &quot;sin especificar&quot;.
-Si utiliza una métrica más común, esa fila volverá a aparecer en el informe.
+Siempre se mostrará una fila de eventos sin especificar, según la métrica que utilice para mostrar los datos.
 
-Ese elemento de línea &quot;no especificado&quot; no tendrá ninguna información asociada con el Destinatario (por ejemplo, sin visitantes/visitas/impresiones).\
-La única manera de evitar tenerlo en el informe es establecer Destinatarios en todas las solicitudes enviadas desde esa página, lo que no tiene sentido.
+Si utiliza una métrica solo de Destinatario, no se mostrará esa fila &quot;sin especificar&quot;. Si utiliza una métrica más común, esa fila volverá a aparecer en el informe.
+
+Ese elemento de línea &quot;no especificado&quot; no tendrá ninguna información asociada con el Destinatario (por ejemplo, sin visitantes/visitas/impresiones). La única manera de evitar tenerlo en el informe es establecer Destinatarios en todas las solicitudes enviadas desde esa página, lo que no tiene sentido.
 
 ## Los datos de My Analytics muestran un recuento inflado de visitas o visitantes cuando se inicia A4T.    {#section_4BE374E573D44FB7918611699B74F58E}
 
