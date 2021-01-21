@@ -4,10 +4,10 @@ description: En este tema encontrará respuestas a preguntas que se plantean a m
 title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 56%
+source-wordcount: '2347'
+ht-degree: 55%
 
 ---
 
@@ -50,7 +50,7 @@ Cuando un visitante ve una página que contiene una actividad, se establece una 
 
 Tenga en cuenta lo siguiente:
 
-* Todas las métricas anteriores se activan cuando un usuario cumple los requisitos para una actividad y el contenido se devuelve desde [!DNL [!DNL Target]]. Esto no significa necesariamente que el usuario haya visto la oferta. Si una experiencia de actividad está por debajo del pliegue y el usuario no se desplaza hacia abajo en la página significa que [!DNL Target] proporcionó la oferta, pero el usuario no la vio.
+* Todas las métricas anteriores déclencheur cuando un usuario cumple los requisitos para una actividad y el contenido se devuelve desde [!DNL [!DNL Target]]. Esto no significa necesariamente que el usuario haya visto la oferta. Si una experiencia de actividad está por debajo del pliegue y el usuario no se desplaza hacia abajo en la página significa que [!DNL Target] proporcionó la oferta, pero el usuario no la vio.
 * [!UICONTROL Impresiones de actividad] (medida mediante [!DNL Target]) e [!UICONTROL Instancias] (medida mediante [!DNL Analytics]) son iguales, a menos que haya varias llamadas de mbox en la misma página de la misma actividad. De esta forma se contabilizan varias [!UICONTROL Impresiones de actividad], pero una sola [!UICONTROL Instancia].
 
 ## ¿Por qué las &quot;impresiones de actividad&quot; y las &quot;conversiones de actividad&quot; son más altas en Analysis Workspace que en Informes y análisis? {#sametouch}
@@ -68,6 +68,10 @@ Las &quot;conversiones de Actividad&quot; estarán vacías si se seleccionó una
 En otros informes, “sin especificar” significa que los datos no cumplían una regla de clasificación, pero esto no debería suceder nunca en A4T. Si ve “sin especificar”, aún no se ha ejecutado el servicio de clasificación. Los datos de la actividad suelen tardar entre 24 y 72 horas en aparecer en los informes. Aunque las actividades no aparecen en este informe hasta llegado ese momento, todos los datos de visitantes asociados a esas actividades se recopilan y aparecerán cuando se complete la clasificación.
 
 Tras el periodo de clasificación, los datos aparecen en estos informes aproximadamente una hora después de recabarse del sitio web. Todas las métricas, los segmentos y los valores de los informes proceden del grupo de informes que seleccionó cuando configuró la actividad.
+
+En caso de que la clasificación se haya realizado para esa actividad y siga viendo una fila &quot;sin especificar&quot; en el informe, asegúrese de que el informe no esté utilizando una métrica que no sea de destinatario para mostrar los datos.
+A menos que el informe utilice una métrica específica de Destinatario, esa fila &quot;no especificada&quot; contendrá eventos para llamadas que no estén asociadas con Destinatarios.
+Respectivamente, esa fila no contendrá ninguna información relacionada con el Destinatario (por ejemplo, sin visitantes/visitas/impresiones).
 
 ## ¿Por qué se envían métricas de Target a Analytics aunque la actividad se haya desactivado?{#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
@@ -87,13 +91,13 @@ El 1 de enero, el usuario llega al sitio, ve la actividad XYZ una vez y, despué
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 3 | 1 |
+| XYZ | 1 | 5 | 1 | 3 |
 
 El usuario vuelve el 1 de febrero y ve otras cinco páginas. No encuentra más actividades de Target y la actividad original ya no está activa. Aunque ya no está activa, la actividad todavía sigue al usuario mediante la persistencia de eVar. Los datos de este momento son estos:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 1 |
+| XYZ | 1 | 10 | 2 | 1 |
 
 El usuario vuelve el 1 de marzo y ve una actividad nueva: ABC. Esta vez también ve cinco páginas. Como la actividad XYZ todavía sigue al usuario mediante la persistencia y este ve después la actividad ABC, observaremos dos líneas en el informe:
 
@@ -107,8 +111,8 @@ El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
 | XYZ | 1 | 20 | 4 | 3 | 1 |
-| ABC | 1 | 10 | 2 | 3 | 1 |
-| Total | 2 | 20 | 3 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| Total | 2 | 20 | 1 | 1 | 3 |
 
 Puesto que las dos experiencias se vieron antes de la conversión, ambas son las “responsables” del pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. Para el sistema de informes [!DNL Target], dado que no está poniendo una actividad [!DNL Target] contra otra actividad para ver cuál es más exitosa, no importa que todas las actividades que vio el usuario obtuvieran crédito. Lo que se compara son los resultados de dos elementos de una misma actividad y, como un usuario no puede ver distintas experiencias en la misma actividad, no hay que preocuparse por la contaminación de los orígenes de los pedidos.
 
