@@ -4,9 +4,9 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3442'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,8 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Enero de 21 | [Resolución de problemas de integración de Analytics y Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nueva sección añadida: &quot;Los informes de Actividad de A4T incluyen una fila con un gran número de eventos &quot;no especificados&quot;.&quot; |
+|  | [Visualización de informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Se ha actualizado la siguiente sección: &quot;¿Por qué veo &quot;sin especificar&quot; en los informes de Analytics? ¿Qué significa?&quot; |
 | Enero de 20 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nuevo tema. |
 | Enero de 19 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Información añadida sobre la versión 21.1.1 de Destinatario (19 de enero de 2021). |
 |  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado el texto del parámetro `productPurchasedID`. |
