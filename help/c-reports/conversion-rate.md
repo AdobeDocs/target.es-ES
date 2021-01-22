@@ -4,7 +4,7 @@ description: De cada experiencia, se informa de la tasa de conversión, el alza,
 title: Tasa de conversión
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
+source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 72%
@@ -208,4 +208,4 @@ Un **z-test** no es apropiado porque en el escenario típico de prueba A/B, el d
 
 La **prueba U de Mann-Whitney** es una prueba no paramétrica, que es apropiada cuando la distribución de muestra de la métrica comercial media (para cada variante) no se distribuye normalmente. Sin embargo, como se ha explicado anteriormente, dadas las magnitudes de tráfico que implican las pruebas en línea, el teorema de límite central suele aplicarse, por lo que la prueba t se puede aplicar de forma segura.
 
-Se pueden aplicar métodos más complejos como **ANOVA** (que generalizan pruebas t a más de dos variantes) cuando una prueba tiene más de dos experiencias (&quot;pruebas A/Bn&quot;). Sin embargo, ANOVA responde a la pregunta de &quot;si todas las variantes tienen la misma media&quot;, mientras que en la prueba A/Bn típica estamos más interesados en _cuál variante específica_ es la mejor. En [!DNL Target], por lo tanto, aplicamos pruebas t regulares comparando cada variante con un control, con una corrección de Bonferroni para tener en cuenta múltiples comparaciones.
+Se pueden aplicar métodos más complejos como **ANOVA** (que generalizan pruebas t a más de dos variantes) cuando una prueba tiene más de dos experiencias (&quot;pruebas A/Bn&quot;). Sin embargo, ANOVA responde a la pregunta de &quot;si todas las variantes tienen la misma media&quot;, mientras que en la prueba A/Bn típica estamos más interesados en _qué variante específica_ es la mejor. En [!DNL Target], por lo tanto, aplicamos pruebas t regulares comparando cada variante con un control, con una corrección de Bonferroni para tener en cuenta múltiples comparaciones.
