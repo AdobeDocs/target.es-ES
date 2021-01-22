@@ -4,15 +4,15 @@ description: De cada experiencia, se informa de la tasa de conversión, el alza,
 title: Tasa de conversión
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 96%
+source-wordcount: '2145'
+ht-degree: 72%
 
 ---
 
 
-# Tasa de conversión{#conversion-rate}
+# Tasa de conversión
 
 De cada experiencia, se informa de la tasa de conversión, el alza, la confianza (relevancia estadística) y el intervalo de confianza.
 
@@ -185,3 +185,27 @@ Puede visualizar informes siguiendo las siguientes metodologías de contabilizac
 >[!NOTE]
 >
 >Los recuentos se suelen determinar a partir de las cookies y la actividad de la sesión. Sin embargo, si se alcanza el punto de conversión final de una actividad y se vuelve a entrar en ella, se le considerará un visitante nuevo y una nueva visita a la actividad. Esto ocurre incluso cuando los valores de PCID y `sessionID` no han variado.
+
+## ¿Por qué el Destinatario utiliza las pruebas T de estudiante? {#t-test}
+
+Las pruebas A/B son experimentos para comparar el valor medio de alguna métrica comercial en una variante de control (también conocida como experiencia) con el valor medio de esa misma métrica en una o más experiencias alternativas.
+
+[!DNL Target] recomienda utilizar dos pruebas [ T de ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)estudiante de muestra, ya que requieren menos suposiciones que otras alternativas como las pruebas z, y son la prueba estadística adecuada para realizar comparaciones por pares de métricas comerciales (cuantitativas) entre una experiencia de control y una experiencia alternativa.
+
+### Más detalles
+
+Al ejecutar pruebas A/B en línea, cada usuario/visitante se asigna aleatoriamente a una sola variante. Posteriormente, realizamos mediciones de las métricas comerciales de interés (por ejemplo: conversiones, pedidos, ingresos, etc.) para visitantes en cada variante. La prueba estadística que utilizamos luego prueba la hipótesis de que la métrica comercial media (por ejemplo, tasa de conversión, pedidos por usuario, ingresos por usuario, etc.) es igual para el control y una variante alternativa determinada.
+
+Aunque la métrica de negocios en sí puede distribuirse de acuerdo con alguna distribución arbitraria, la distribución de la media de esta métrica (dentro de cada variante) debe converger a una distribución normal a través del [Teorema de límite central](https://en.wikipedia.org/wiki/Central_limit_theorem). Tenga en cuenta que, aunque no hay garantía de la rapidez con la que esta distribución de muestreo de la media convergerá a la normalidad, esta condición suele alcanzarse dada la escala de visitantes en las pruebas en línea.
+
+Dada esta normalidad de la media, puede demostrarse que la estadística de prueba que se va a utilizar sigue una distribución t, ya que es la proporción de un valor distribuido normalmente (la diferencia en los medios de la métrica comercial) con un término de escala basado en una estimación de los datos (el error estándar de la diferencia en los medios). El **t-test** del estudiante es entonces la prueba de hipótesis adecuada, dado que la estadística de la prueba sigue una distribución t.
+
+### Por qué no se utilizan otras pruebas
+
+Un **z-test** no es apropiado porque en el escenario típico de prueba A/B, el denominador de la estadística de prueba no se deriva de una varianza conocida y, en su lugar, debe estimarse a partir de los datos.
+
+**No se utilizan** pruebas Chi-squared porque son adecuadas para determinar si existe una relación cualitativa entre dos variantes (es decir, una hipótesis nula de que no hay diferencia entre las variantes). Las pruebas T son más apropiadas para el escenario de _comparación cuantitativa_ de métricas.
+
+La **prueba U de Mann-Whitney** es una prueba no paramétrica, que es apropiada cuando la distribución de muestra de la métrica comercial media (para cada variante) no se distribuye normalmente. Sin embargo, como se ha explicado anteriormente, dadas las magnitudes de tráfico que implican las pruebas en línea, el teorema de límite central suele aplicarse, por lo que la prueba t se puede aplicar de forma segura.
+
+Se pueden aplicar métodos más complejos como **ANOVA** (que generalizan pruebas t a más de dos variantes) cuando una prueba tiene más de dos experiencias (&quot;pruebas A/Bn&quot;). Sin embargo, ANOVA responde a la pregunta de &quot;si todas las variantes tienen la misma media&quot;, mientras que en la prueba A/Bn típica estamos más interesados en _cuál variante específica_ es la mejor. En [!DNL Target], por lo tanto, aplicamos pruebas t regulares comparando cada variante con un control, con una corrección de Bonferroni para tener en cuenta múltiples comparaciones.
