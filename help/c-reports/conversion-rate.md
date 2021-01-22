@@ -4,9 +4,9 @@ description: De cada experiencia, se informa de la tasa de conversión, el alza,
 title: Tasa de conversión
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2146'
 ht-degree: 72%
 
 ---
@@ -186,7 +186,7 @@ Puede visualizar informes siguiendo las siguientes metodologías de contabilizac
 >
 >Los recuentos se suelen determinar a partir de las cookies y la actividad de la sesión. Sin embargo, si se alcanza el punto de conversión final de una actividad y se vuelve a entrar en ella, se le considerará un visitante nuevo y una nueva visita a la actividad. Esto ocurre incluso cuando los valores de PCID y `sessionID` no han variado.
 
-## ¿Por qué el Destinatario utiliza las pruebas T de estudiante? {#t-test}
+## ¿Por qué el Destinatario recomienda utilizar las pruebas T de estudiante? {#t-test}
 
 Las pruebas A/B son experimentos para comparar el valor medio de alguna métrica comercial en una variante de control (también conocida como experiencia) con el valor medio de esa misma métrica en una o más experiencias alternativas.
 
