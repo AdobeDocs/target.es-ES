@@ -5,10 +5,10 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Introducción a Adobe Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: b935820585f6e0c4ae11449d1d9d7807d5d91a85
+source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 86%
+source-wordcount: '918'
+ht-degree: 85%
 
 ---
 
@@ -81,6 +81,10 @@ Esta funcionalidad revela capacidades completamente nuevas, como:
 [La funcionalidad ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Permisos de usuario de Enterprise le permite crear diferentes proyectos (llamados &quot;Perfiles de producto&quot; en la  [!DNL Adobe Admin Console for Enterprise]) para permitirle asignar diferentes permisos a un único usuario que dicte los derechos de acceso de ese usuario para cada proyecto. Estos proyectos independientes pueden compararse con el modo en el que funcionan los grupos de informes en [!DNL Adobe Analytics]. Cada proyecto tiene usuarios específicos con funciones específicas que se aplican a un conjunto de propiedades. El resultado es que los clientes podrán restringir el acceso de vista, edición, aprobación y publicación a sus usuarios en función de la región, el entorno (dev/stage/prod), el canal u otros criterios personalizados.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+
+>[!IMPORTANT]
+>
+>[!DNL Recommendations Classic] es un producto heredado. Para obtener la mejor experiencia [!DNL Recommendations], actualice a [!DNL Recommendations] actividades disponibles en [!DNL Adobe Target Premium], que se describe más arriba.
 
 [!DNL Recommendations Classic] muestra automáticamente productos o contenido que podrían interesar a sus clientes en función de la actividad previa del usuario en el sitio web. Las recomendaciones sirven para dirigir a los clientes hacia artículos que de otra manera no conocerían, algo que mejora las ventas generadas en el sitio web.
 
