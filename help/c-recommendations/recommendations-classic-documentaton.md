@@ -4,10 +4,10 @@ description: Documentación de Adobe Recommendations Classic.
 title: Documentación de Adobe Recommendations Classic.
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: e43cb56ebe80e2df83b3c2a75dd90e28bf3870ff
+source-git-commit: 552e5fb844e2b8a93973e6ce1ce138ea5fa0d12f
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 82%
+source-wordcount: '101'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] es un producto heredado. Para obtener la mejor experiencia [!DNL Recommendations], actualice a [!DNL Recommendations] actividades disponibles en [Adobe Target Premium](/help/c-intro/intro.md).
+>[!DNL Recommendations Classic] es un producto heredado y ya no tiene licencia para nuevos clientes. Para obtener la mejor experiencia [!DNL Recommendations], actualice a [!DNL Recommendations] actividades disponibles en [Adobe Target Premium](/help/c-intro/intro.md).
 
 Las recomendaciones sirven para dirigir a los clientes hacia artículos que de otra manera no conocerían, algo que mejora las ventas generadas en el sitio web.
 
