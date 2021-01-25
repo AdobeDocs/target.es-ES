@@ -4,10 +4,10 @@ description: De cada experiencia, se informa de la tasa de conversión, el alza,
 title: Tasa de conversión
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
+source-git-commit: f30e16bdb24268e85f6cb3739455d77f7bcb4279
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 72%
+source-wordcount: '2172'
+ht-degree: 71%
 
 ---
 
@@ -116,7 +116,7 @@ Para calcular estas métricas calculadas, descargue el archivo de Excel [Calcula
 
 Puede realizar cálculos sin conexión para A4T, pero es necesario realizar un paso de exportaciones de datos en [!DNL Analytics].
 
-Para A4T empleamos un cálculo t-test de estudiante con variables continuas (en vez de métricas binarias). En Analytics, siempre se realiza un seguimiento de los visitantes y se cuenta toda acción realizada. Por tanto, si el visitante realiza varias compras o visita varias veces una métrica de éxito, todas estas visitas adicionales se cuentan. Esto convierte la métrica en una variable continua. Para realizar el cálculo de la prueba T de estudiante se precisa la “suma de los cuadrados”. que se puede recuperar de [!DNL Analytics]. Para obtener datos de la suma de los cuadrados, debe realizar una exportación en el nivel de visitante de la métrica que desea optimizar durante un periodo de muestra.
+Para A4T empleamos un cálculo t-test de estudiante con variables continuas (en vez de métricas binarias). En Analytics, siempre se realiza un seguimiento de los visitantes y se cuenta toda acción realizada. Por tanto, si el visitante realiza varias compras o visita varias veces una métrica de éxito, todas estas visitas adicionales se cuentan. Esto convierte la métrica en una variable continua. Para realizar el cálculo de la prueba T del estudiante, se requiere la &quot;suma de cuadrados&quot; para calcular la varianza, que se utiliza en el denominador de la estadística t. [Este documento explica los ](/help/assets/statistical-calculations.pdf) detalles de las fórmulas matemáticas utilizadas. La suma de cuadrados se puede recuperar de [!DNL Analytics]. Para obtener datos de la suma de los cuadrados, debe realizar una exportación en el nivel de visitante de la métrica que desea optimizar durante un periodo de muestra.
 
 Por ejemplo, si está optimizando las vistas de página por visitante, exportaría una muestra del número total de vistas de página por cada visitante durante un tiempo concreto, tal vez un par de días (no necesita más que unos pocos miles de puntos de datos). A continuación, elevaría al cuadrado cada valor y sumaría los totales (en este caso, el orden de las operaciones es esencial). Este valor “suma de los cuadrados” se utiliza en la calculadora de confianza completa. Para estos valores, utilice la sección “ingresos” de dicha hoja de cálculo.
 
