@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Puede configurar una actividad en Target Standard/Premium para que use Adobe Analytics como fuente de informes (A4T).
 title: Crear una actividad que utilice A4T como fuente de sistema de informes
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1394'
 ht-degree: 20%
 
 ---
@@ -132,7 +132,7 @@ Algunas limitaciones y notas se aplican tanto a la asignación automática como 
 
 * La fuente de sistema de informes no se puede cambiar de [!DNL Analytics] a [!DNL Target] ni viceversa después de activar una actividad.
 * Aunque las métricas calculadas no son compatibles como métricas de objetivo principales, a menudo es posible lograr el resultado deseado seleccionando un evento personalizado como métrica de objetivo principal. Por ejemplo, si desea optimizar para una métrica como &quot;finalizaciones de formulario por visitante&quot;, seleccione un evento personalizado que corresponda a &quot;finalizaciones de formulario&quot; como métrica de objetivo principal. [!DNL Target] normaliza automáticamente las métricas de conversión por visita para tener en cuenta la distribución desigual del tráfico, por lo que no es necesario utilizar una métrica calculada para realizar la normalización.
-* [!DNL Target] utiliza el modelo de atribución de &quot;mismo toque&quot; en la implementación de  [!UICONTROL asignación ] automática de A4T.
+* [!DNL Target] utiliza el modelo de atribución de &quot;Mismo toque&quot; en la función de  [!UICONTROL asignación ] automática: Analytics para Destinatario (A4T).
 
 #### Asignación automática
 
