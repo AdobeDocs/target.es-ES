@@ -4,9 +4,9 @@ description: ¿Puedo utilizar ofertas remotas para alojar contenido externo?
 title: Crear ofertas remotas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48c49f764c4f2c2804230481c431a837776278a6
+source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 59%
 
 ---
@@ -82,7 +82,7 @@ Algunos ejemplos de ofertas remotas son:
 
 La siguiente información le ayuda a comprender las diferencias entre las dos opciones:
 
-### Tipo de dirección URL en caché
+### URL en caché
 
 El contenido de una oferta remota en caché se suministra desde [!DNL Target].
 
@@ -92,7 +92,7 @@ Las ofertas remotas en caché proporcionan una seguridad mejorada porque alguien
 
 En una oferta remota en caché, puede especificar una dirección URL absoluta o relativa.
 
-### Tipo de dirección URL dinámica
+### Dirección URL dinámica
 
 Una oferta remota dinámica se suministra desde el sistema de gestión de contenido o desde otro, no desde [!DNL Target].
 
