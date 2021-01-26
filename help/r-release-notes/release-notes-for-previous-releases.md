@@ -4,10 +4,10 @@ description: Notas de la versión de versiones anteriores de Adobe Target, inclu
 title: Notas de la versión para versiones anteriores
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: b1c320a409ab43d9acc0adf5ed711c2b2514507c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '30551'
+ht-degree: 85%
 
 ---
 
@@ -23,6 +23,24 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >Consulte [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión - 2021
+
+### Target Standard/Premium 21.1.1 (19 de enero de 2021). 
+
+Esta versión de mantenimiento contiene las siguientes mejoras, correcciones y cambios.
+
+Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+* Se añadió una advertencia al seleccionar una métrica [!DNL Adobe Analytics] al utilizar [!UICONTROL Analytics como fuente de sistema de informes] (A4T) en una actividad [!UICONTROL Destinatario automático]. [!UICONTROL Los modelos de ] segmentación automática están optimizados para funcionar con métricas binarias (basadas en conversión). La selección de una métrica continua, como los ingresos, podría tener resultados subóptimos y los informes [!UICONTROL Perspectivas de personalización] podrían no ser precisos. (TGT-38926)
+* Se añadió un icono de estado en el informe [!UICONTROL Resumen de Destinatario automático] para actividades [!UICONTROL Destinatario automático] que utilizan A4T. El icono de verificación verde junto a cada experiencia en el informe indica que para dicha experiencia se ha generado un modelo personalizado de aprendizaje automático. El icono del reloj indica que no se ha servido tráfico suficiente para crear el modelo. (TGT-38925)
+* Los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] para actividades [!UICONTROL Destinatario automático] que utilizan métricas de conversión A4T y [!DNL Analytics] se generan y tienen el mismo aspecto que cuando se utiliza [!DNL Target] como fuente de sistema de informes. (TGT-38931)
+* Se ha añadido una opción de filtrado de entornos en la lista [!UICONTROL Recommendations] [!UICONTROL Collections]. (TGT-38353)
+* Se ha corregido un problema que hacía que se mostrara un recuento de productos incorrecto en las colecciones [!UICONTROL Recommendations]. (TGT-39162)
+* Se ha añadido un filtro [!UICONTROL Última actualización] en [!UICONTROL Recommendations] [!UICONTROL Búsqueda en el catálogo]. (TGT-38340)
+* Se corrigió un problema en [!UICONTROL Recommendations] que ocasionaba que la página [!UICONTROL Crear secuencia] se bloqueara después de cambiar la vertical del sector. (TGT-38160)
+* Se ha corregido un problema que impedía guardar la actividad si Device Co-op estaba habilitado y el usuario cambiaba de [!DNL Target] como origen de sistema de informes a [!DNL Analytics] (A4T). (TGT-38163)
+* Se ha corregido un problema que impedía a los usuarios quitar una audiencia de una oferta en una actividad [!UICONTROL Automated Personalization] (AP). (TGT-39058)
+* Se corrigió un problema que ocasionaba que el intervalo de tiempo incorrecto (fechas de inicio y finalización) se mostrara en [!UICONTROL tarjetas de información de Audiencia] para algunos clientes. (TGT-39150)
+* Se ha corregido un problema que impedía a algunos clientes ver la lista de actividades en el [!UICONTROL espacio de trabajo predeterminado]. (TGT-38526)
 
 ### at.js 2.4.0 (14 de enero de 2021)
 
