@@ -2,9 +2,9 @@
 keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
 description: Información que le ayudará a minimizar los efectos de los recuentos inflados de visitas y visitantes al utilizar Analytics como fuente de informes.
 title: Minimización de los recuentos inflados de visitas y visitantes en A4T
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 97%
