@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit;visitor;partial hit;orphaned;orphan;partial-hit
 description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre los recuentos inflados de visitas y visitantes al usar Analytics como fuente de informes para Target (A4T).
 title: 'Recuentos inflados de visitas y visitantes: preguntas más frecuentes sobre A4T'
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 100%
