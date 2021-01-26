@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Kit de bienvenida de Adobe Target - Capítulo 4 - Sugerencias para el uso del Destinatario
 title: Kit de bienvenida de Adobe Target - Capítulo 4 - Sugerencias para el uso del Destinatario
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2880'
 ht-degree: 0%
@@ -64,13 +64,13 @@ Facilite el trabajo con los datos de su organización y mantenerlos seguros. [!D
 
 Consulte [Permisos de usuario de Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) para obtener más información.
 
-**Sugerencia** útil: Al agregar usuarios, si el nombre de un miembro del equipo no se ha agregado previamente a su organización, como puede ser el caso de un empleado de una agencia de terceros, al introducir su dirección de correo electrónico y contraseña, se activará una invitación por correo electrónico para unirse al espacio de trabajo de un equipo.
+**Sugerencia** útil: Al agregar usuarios, si el nombre de un miembro del equipo no se ha agregado previamente a su organización, como puede ser el caso de un empleado de una agencia de terceros, al introducir su dirección de correo electrónico y contraseña se déclencheur una invitación por correo electrónico para unirse al espacio de trabajo de un equipo.
 
 ¿Usar Target Standard? Todavía puede [asignar tres niveles de acceso](/help/administrating-target/c-user-management/c-user-management/user-management.md) para sus usuarios con funciones de solo lectura, editor y aprobador.
 
-## Sugerencia 6: Descubrir el rendimiento de una oferta a lo largo de un viaje del cliente probándola en cada página del viaje.
+## Sugerencia 6: Descubra el rendimiento de una oferta en un recorrido de cliente probándolo en todas las páginas del recorrido.
 
-Ver el rendimiento de una oferta, como el envío gratuito, durante un viaje del cliente que tiene lugar en varias páginas del sitio web.
+Ver el rendimiento de una oferta, como el envío gratuito, durante un recorrido del cliente que se produce en varias páginas del sitio web.
 
 Consulte [actividad de varias páginas](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) para obtener instrucciones paso a paso.
 
