@@ -4,7 +4,7 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 350d401accc7e7d937185c9a65d01a3f5266271e
+source-git-commit: dfd6739ca16006295f247c962ad2758da92bee9e
 workflow-type: tm+mt
 source-wordcount: '3469'
 ht-degree: 29%
@@ -20,7 +20,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| Enero de 26 | [Tasa de conversión](/help/c-reports/conversion-rate.md#t-test) | Se ha aclarado cómo el Destinatario utiliza la &quot;suma de cuadrados&quot; en las pruebas T del estudiante. |
+| Enero de 26 | [Tasa de conversión](/help/c-reports/conversion-rate.md) | Se ha aclarado cómo el Destinatario utiliza la &quot;suma de cuadrados&quot; en las pruebas T del estudiante. |
 | Enero de 22 | [Tasa de conversión](/help/c-reports/conversion-rate.md#t-test) | Sección siguiente añadida: &quot;¿Por qué el Destinatario recomienda usar las pruebas T de estudiante?&quot; |
 | Enero de 21 | [Resolución de problemas de integración de Analytics y Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nueva sección añadida: &quot;Los informes de Actividad de A4T incluyen una fila con un gran número de eventos &quot;no especificados&quot;.&quot; |
 |  | [Visualización de informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Se ha actualizado la siguiente sección: &quot;¿Por qué veo &quot;sin especificar&quot; en los informes de Analytics? ¿Qué significa?&quot; |
