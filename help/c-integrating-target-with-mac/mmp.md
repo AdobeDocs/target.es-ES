@@ -2,9 +2,9 @@
 keywords: Experience Cloud Audiences;audiences
 description: Audiencias de Experience Cloud permite que las soluciones de Adobe Experience Cloud puedan comunicarse entre sí y compartir información sobre los visitantes de un sitio web para que todas las soluciones puedan usar los mismos datos.
 title: Audiencias de Experience Cloud
-feature: experience cloud audiences
+feature: Integrations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 78%
