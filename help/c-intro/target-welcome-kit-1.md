@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Kit de bienvenida de Adobe Target - Capítulo 1 - Introducción
 title: Kit de bienvenida de Adobe Target - Capítulo 1 - Introducción
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
