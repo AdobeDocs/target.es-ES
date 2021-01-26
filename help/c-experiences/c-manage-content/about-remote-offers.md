@@ -4,10 +4,10 @@ description: ¿Puedo utilizar ofertas remotas para alojar contenido externo?
 title: Crear ofertas remotas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 67d11820d32bb3518de59801b71df4c0a9485cae
+source-git-commit: d966727239d982116e3cd1c2925cb1627e2954ea
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 69%
+source-wordcount: '845'
+ht-degree: 59%
 
 ---
 
@@ -44,12 +44,11 @@ Algunos ejemplos de ofertas remotas son:
 
    Un nombre descriptivo permite encontrar la oferta rápidamente en la biblioteca [!UICONTROL Activos].
 
-1. Indique la dirección URL remota de la oferta remota:
+1. Especifique el tipo de URL de redirección.
 
-   | Opción | Descripción |
-   |--- |--- |
-   | En caché | El contenido de una oferta remota en caché se suministra desde [!DNL Target].<br>Cada dos horas, [!DNL Target] busca el contenido en la dirección URL remota y luego almacena el contenido dentro de [!DNL Target]. Cuando los visitantes cargan un sitio con una experiencia que incluye una oferta remota, la oferta se envía a través de [!DNL Target].<br>Las ofertas remotas en caché proporcionan una seguridad mejorada, ya que alguien que haya iniciado sesión en no podrá cambiar el contenido. [!DNL Target] Para cambiar el contenido, la persona tendría que iniciar sesión en el sistema de gestión de contenido o en otro tipo sistema y cambiarlo desde ahí.<br>En una oferta remota en caché, puede especificar una dirección URL absoluta o relativa. |
-   | Dinámica | Una oferta remota dinámica se suministra desde el sistema de gestión de contenido o desde otro, no desde [!DNL Target].<br>[!DNL Target]Es posible que no quiera que el contenido se almacene en caché regularmente y que luego lo envíe cuando los visitantes carguen un sitio con una experiencia que incluya una oferta remota. En su lugar, desea llamar al sistema que aloja el contenido y posiblemente pasar información específica para que la oferta devuelta pueda ser dinámica (o diferente) para cada usuario.<br>Por ejemplo, si un usuario inicia sesión en un sitio web de una tarjeta de crédito que incluye una experiencia con una oferta remota dinámica, podría pasar parámetros en la dirección URL relativos a la información de cuenta del usuario. Después, el sitio web podría dar información sobre el usuario, como el saldo de la cuenta.<br>Haga clic en  **[!UICONTROL Añadir]** parámetro para agregar una o más  [!DNL Target] solicitudes o parámetros de solicitud. |
+   Consulte [Tipo de dirección URL de redireccionamiento: En caché o dinámica](#url-type) a continuación para obtener más información.
+
+1. Indique la dirección URL remota de la oferta remota.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -71,14 +70,35 @@ Algunos ejemplos de ofertas remotas son:
 
    Un nombre descriptivo permite encontrar la oferta rápidamente en la biblioteca [!UICONTROL Activos].
 
-1. Indique la dirección URL remota de la oferta remota:
+1. Especifique el tipo de URL de redirección.
 
-   | Opción | Descripción |
-   |--- |--- |
-   | En caché | El contenido de una oferta remota en caché se suministra desde [!DNL Target].<br>Cada dos horas, [!DNL Target] busca el contenido en la dirección URL remota y luego almacena el contenido dentro de [!DNL Target]. Cuando los visitantes cargan un sitio con una experiencia que incluye una oferta remota, la oferta se envía a través de [!DNL Target].<br>Las ofertas remotas en caché proporcionan una seguridad mejorada, ya que alguien que haya iniciado sesión en no podrá cambiar el contenido. [!DNL Target] Para cambiar el contenido, la persona tendría que iniciar sesión en el sistema de gestión de contenido o en otro tipo sistema y cambiarlo desde ahí.<br>En una oferta remota en caché, puede especificar una dirección URL absoluta o relativa. |
-   | Dinámica | Una oferta remota dinámica se suministra desde el sistema de gestión de contenido o desde otro, no desde [!DNL Target].<br>[!DNL Target]Es posible que no quiera que el contenido se almacene en caché regularmente y que luego lo envíe cuando los visitantes carguen un sitio con una experiencia que incluya una oferta remota. En su lugar, desea llamar al sistema que aloja el contenido y posiblemente pasar información específica para que la oferta devuelta pueda ser dinámica (o diferente) para cada usuario.<br>Por ejemplo, si un usuario inicia sesión en un sitio web de una tarjeta de crédito que incluye una experiencia con una oferta remota dinámica, podría pasar parámetros en la dirección URL relativos a la información de cuenta del usuario. Después, el sitio web podría dar información sobre el usuario, como el saldo de la cuenta.<br>Haga clic en  **[!UICONTROL Añadir]** parámetro para agregar una o más  [!DNL Target] solicitudes o parámetros de solicitud. |
+   Consulte [Tipo de dirección URL de redireccionamiento: En caché o dinámica](#url-type) a continuación para obtener más información.
+
+1. Indique la dirección URL remota de la oferta remota.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+## Tipo de dirección URL de redireccionamiento: En caché o dinámico {#url-type}
+
+La siguiente información le ayuda a comprender las diferencias entre las dos opciones:
+
+### Tipo de dirección URL en caché
+
+El contenido de una oferta remota en caché se suministra desde [!DNL Target].
+
+Cada dos horas, [!DNL Target] busca el contenido en la dirección URL remota y luego almacena el contenido dentro de [!DNL Target]. Cuando los visitantes cargan un sitio con una experiencia que incluye una oferta remota, la oferta se envía a través de [!DNL Target].
+
+Las ofertas remotas en caché proporcionan una seguridad mejorada porque alguien que inició sesión en [!DNL Target] no puede cambiar el contenido. Para cambiar el contenido, la persona tendría que iniciar sesión en el sistema de gestión de contenido o en otro tipo sistema y cambiarlo desde ahí.
+
+En una oferta remota en caché, puede especificar una dirección URL absoluta o relativa.
+
+### Tipo de dirección URL dinámica
+
+Una oferta remota dinámica se suministra desde el sistema de gestión de contenido o desde otro, no desde [!DNL Target].
+
+Es posible que no quiera que el contenido se almacene en caché regularmente y que luego [!DNL Target] lo envíe cuando los visitantes carguen un sitio con una experiencia que incluya una oferta remota. En su lugar, desea llamar al sistema que aloja el contenido y posiblemente pasar información específica para que la oferta devuelta pueda ser dinámica (o diferente) para cada usuario. Por ejemplo, si un usuario inicia sesión en un sitio web de una tarjeta de crédito que incluye una experiencia con una oferta remota dinámica, podría pasar parámetros en la dirección URL relativos a la información de cuenta del usuario. Después, el sitio web podría dar información sobre el usuario, como el saldo de la cuenta.
+
+Puede hacer clic en **[!UICONTROL Añadir parámetro]** para agregar una o más [!DNL Target] solicitudes o parámetros de solicitud.
 
 ## Prácticas recomendadas para utilizar ofertas remotas {#section_7718512D08E14121B6F6B8C38134F4BC}
 
