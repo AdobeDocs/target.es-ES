@@ -4,10 +4,10 @@ description: ¿Puedo utilizar ofertas remotas para alojar contenido externo?
 title: Crear ofertas remotas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
+source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 54%
+source-wordcount: '998'
+ht-degree: 51%
 
 ---
 
@@ -29,6 +29,9 @@ Algunos ejemplos de ofertas remotas son:
 * Formularios
 * Calculadoras
 * Actualizaciones de la tasa de interés
+* Correos electrónicos
+* Kioscos
+* Asistentes de voz
 
 ## Crear una oferta remota desde la página Ofertas de código
 
@@ -103,6 +106,8 @@ Puede hacer clic en **[!UICONTROL Añadir parámetro]** para agregar una o más 
 ## Usar ofertas remotas en actividades
 
 Debe aplicar ofertas remotas mediante el [!UICONTROL Compositor de experiencias basadas en formularios]. Actualmente no puede aplicar ofertas remotas mediante el VEC.
+
+El [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz de creación de ofertas y experiencia no visual que resulta útil para crear experiencias que se pueden usar en [!UICONTROL Pruebas A/B], [!UICONTROL Segmentación de experiencias] (XT), [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Recommendations a10/> actividades cuando el Compositor de experiencias visuales no está disponible o es práctico para su uso. ] Por ejemplo, puede utilizar el [!UICONTROL Compositor de experiencias basadas en formularios] para crear experiencias que utilicen ofertas remotas.
 
 1. Cree o edite una actividad en el [!UICONTROL Compositor de experiencias basadas en formularios].
 
