@@ -4,9 +4,9 @@ description: ¿Puedo utilizar ofertas remotas para alojar contenido externo?
 title: Crear ofertas remotas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1047'
 ht-degree: 51%
 
 ---
@@ -156,3 +156,13 @@ La matriz de selección de ofertas remotas ayuda a decidir qué tipo de oferta r
 | Las ofertas pueden incluir JavaScript | Sí | Sí |
 | URL de la oferta | Absoluta o relativa | Relativo |
 | Equipo solicitante | Servidores de Adobe | El equipo del visitante, que lleva las cookies del visitante |
+
+## Vídeo de capacitación: Compositor basado en formularios ![Insignia de tutorial](/help/assets/tutorial.png)
+
+Este vídeo proporciona una demostración del compositor basado en formularios, que puede utilizar para crear ofertas remotas.
+
+* Crear una actividad con el Compositor de experiencias basadas en formularios
+* Entender cuándo usar el Compositor de experiencias basadas en formularios o el Compositor de experiencias visuales
+* Usar refinamientos para segmentar una ubicación
+
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
