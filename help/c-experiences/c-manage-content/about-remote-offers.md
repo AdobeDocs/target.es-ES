@@ -4,7 +4,7 @@ description: ¿Puedo utilizar ofertas remotas para alojar contenido externo?
 title: Crear ofertas remotas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 54%
@@ -78,11 +78,11 @@ Algunos ejemplos de ofertas remotas son:
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-### Tipo de dirección URL de redireccionamiento: En caché o dinámico {#url-type}
+## Tipo de dirección URL de redireccionamiento: En caché o dinámico {#url-type}
 
 La siguiente información le ayuda a comprender las diferencias entre las dos opciones:
 
-#### URL en caché
+### URL en caché
 
 El contenido de una oferta remota en caché se suministra desde [!DNL Target].
 
@@ -92,7 +92,7 @@ Las ofertas remotas en caché proporcionan una seguridad mejorada porque alguien
 
 En una oferta remota en caché, puede especificar una dirección URL absoluta o relativa.
 
-#### Dirección URL dinámica
+### Dirección URL dinámica
 
 Una oferta remota dinámica se suministra desde el sistema de gestión de contenido o desde otro, no desde [!DNL Target].
 
