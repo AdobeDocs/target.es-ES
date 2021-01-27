@@ -4,10 +4,10 @@ description: ¿Puedo utilizar ofertas de redireccionamiento para hacer que un ex
 title: Crear ofertas de redireccionamiento
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 48%
+source-wordcount: '1154'
+ht-degree: 47%
 
 ---
 
@@ -134,12 +134,12 @@ El [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formula
 
 1. Termine de configurar la actividad.
 
-## Vídeo de capacitación: Repositorio de contenido (4:56) ![Distintivo de información general](/help/assets/overview.png)
+## Vídeo de capacitación: Compositor basado en formularios ![Insignia de tutorial](/help/assets/tutorial.png)
 
-Este vídeo incluye información sobre la administración de contenido.
+Este vídeo proporciona una demostración del compositor basado en formularios, que puede utilizar para crear ofertas de redireccionamiento.
 
-* Conexión entre la [biblioteca de activos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) y la biblioteca de contenido de Target
-* Ofertas HTML personalizadas
-* Oferta HTML personalizada en el Compositor de experiencias visuales
+* Crear una actividad con el Compositor de experiencias basadas en formularios
+* Entender cuándo usar el Compositor de experiencias basadas en formularios o el Compositor de experiencias visuales
+* Usar refinamientos para segmentar una ubicación
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
