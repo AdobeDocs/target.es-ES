@@ -4,10 +4,10 @@ description: El Compositor de experiencias basadas en formularios de Adobe Targe
 title: Compositor de experiencias basadas en formularios
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 72%
+source-wordcount: '772'
+ht-degree: 68%
 
 ---
 
@@ -21,14 +21,18 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 1. Haga clic en **[!UICONTROL Crear actividad]** y luego seleccione el tipo de actividad que desee crear.
 
    El Compositor de experiencias basadas en formularios está disponible para pruebas A/B y para actividades de segmentación de experiencias, personalización automatizada y de Recommendations.
-1. Seleccione **[!UICONTROL Compositor de experiencias basadas en formularios]** del cuadro de diálogo [!UICONTROL Nueva actividad].
+1. Seleccione **[!UICONTROL Compositor de experiencias basadas en formularios]** en el cuadro de diálogo [!UICONTROL Crear Actividad].
+
+1. (Condicional) Elija un espacio de trabajo y una propiedad.
+
+1. Haga clic en **[!UICONTROL Siguiente]**.
 
    Se abre el Compositor de experiencias basadas en formularios.
 
    ![](assets/location_refinements.png)
 
    Esta pantalla es diferente si va a crear una actividad de Recommendations. Las actividades de Recommendations no incluyen experiencias.
-1. Asigne un nombre a la actividad.
+1. Asigne un nombre a la actividad haciendo clic en &quot;[!UICONTROL Actividad sin título]&quot;.
 1. Seleccione una ubicación.
 
    Al hacer clic en el cuadro [!UICONTROL Seleccionar ubicación], aparece una lista de ubicaciones disponibles. Seleccione una de esas ubicaciones. Para elegir la ubicación global entregada mediante target.js, elija “target-global-mbox”.
@@ -64,9 +68,9 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 
    **Cambiar fragmento de experiencia:** elija un fragmento de experiencias.
 
-   **Cambiar oferta de redireccionamiento:** elija una oferta de redireccionamiento.
+   **Cambiar oferta de redireccionamiento:** elija una oferta de redireccionamiento. Para obtener más información, consulte [Creación de ofertas de redireccionamiento](/help/c-experiences/c-manage-content/offer-redirect.md).
 
-   **Cambiar oferta remota:** elija una oferta remota.
+   **Cambiar oferta remota:** elija una oferta remota. Para obtener más información, consulte [Creación de ofertas remotas](/help/c-experiences/c-manage-content/about-remote-offers.md).
 
    **Crear oferta HTML:**
 
