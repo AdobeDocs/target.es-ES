@@ -4,7 +4,7 @@ description: ¿Puedo utilizar ofertas remotas para alojar contenido externo?
 title: Crear ofertas remotas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
+source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 51%
@@ -32,6 +32,18 @@ Algunos ejemplos de ofertas remotas son:
 * Correos electrónicos
 * Kioscos
 * Asistentes de voz
+
+## Prácticas recomendadas para utilizar ofertas remotas {#section_7718512D08E14121B6F6B8C38134F4BC}
+
+Prácticas recomendadas para el uso de ofertas remotas en las actividades:
+
+* Si la oferta reside en el mismo dominio que las solicitudes [!DNL Target], el uso de la opción [!UICONTROL Caché] permite utilizar direcciones URL relativas para describir la ubicación de la oferta.
+
+   Esto supone que, cuando traslade la actividad de los servidores de ensayo a producción, el contenido pasará a ser accesible automáticamente, sin necesidad de cambiar la dirección URL manualmente.
+
+* Si la prueba incluye datos que el servidor haya generado dinámicamente, tal vez [!UICONTROL Dinámica] sea la opción conveniente.
+* Si solo planea comprobar la apariencia que tiene el contenido de la oferta remota existente, utilice el [!UICONTROL Compositor de experiencias visuales] para cambiar el aspecto del contenido que devuelve el sistema de gestión de contenido.
+* Utilice la [Matriz de selección de Ofertas remotas](#reference_B23BEDD29DDD47709A7651AFD27E776B) (a continuación) para ayudarle a elegir la oferta más adecuada para su caso específico. Si tiene alguna pregunta, consulte con su representante de cuentas.
 
 ## Crear una oferta remota desde la página Ofertas de código
 
@@ -122,18 +134,6 @@ El [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formula
 1. Seleccione la oferta remota deseada en el cuadro de diálogo [!UICONTROL Seleccionar Oferta remota] y haga clic en **[!UICONTROL Listo]**.
 
 1. Termine de configurar la actividad.
-
-## Prácticas recomendadas para utilizar ofertas remotas {#section_7718512D08E14121B6F6B8C38134F4BC}
-
-Prácticas recomendadas para el uso de ofertas remotas en las actividades:
-
-* Si la oferta reside en el mismo dominio que las solicitudes [!DNL Target], el uso de la opción [!UICONTROL Caché] permite utilizar direcciones URL relativas para describir la ubicación de la oferta.
-
-   Esto supone que, cuando traslade la actividad de los servidores de ensayo a producción, el contenido pasará a ser accesible automáticamente, sin necesidad de cambiar la dirección URL manualmente.
-
-* Si la prueba incluye datos que el servidor haya generado dinámicamente, tal vez [!UICONTROL Dinámica] sea la opción conveniente.
-* Si solo planea comprobar la apariencia que tiene el contenido de la oferta remota existente, utilice el [!UICONTROL Compositor de experiencias visuales] para cambiar el aspecto del contenido que devuelve el sistema de gestión de contenido.
-* Utilice la matriz de selección de Ofertas remotas (a continuación) para ayudarle a elegir la oferta más adecuada para su caso específico. Si tiene alguna pregunta, consulte con su representante de cuentas.
 
 ## Cómo funcionan las ofertas remotas dinámicas {#concept_CC2A969420B34364A9FA78C1CE251818}
 
