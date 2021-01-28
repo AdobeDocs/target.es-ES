@@ -4,10 +4,10 @@ description: ¿Cómo se crean las carpetas en la biblioteca de Ofertas?
 title: Crear una carpeta de ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 21%
+source-wordcount: '588'
+ht-degree: 11%
 
 ---
 
@@ -32,14 +32,14 @@ El proceso de creación de carpetas para ofertas de código y ofertas de imagen 
 
 ### Opciones de Ofertas de código
 
-Cuando vea la página de [!UICONTROL Ofertas de código], puede realizar las siguientes acciones en la carpeta pasando el ratón por encima de ella y seleccionado el icono apropiado.
+Al ver la página [!UICONTROL Ofertas de código], puede realizar las siguientes acciones en un elemento pasando el ratón sobre una oferta o carpeta y seleccionando el icono correspondiente.
 
 ![Coloque el ratón sobre los iconos de la ficha Ofertas de código](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **Información**: Vista la información de la oferta.
 * **Editar**: Edite la carpeta o oferta.
 * **Copiar**: Copie la oferta. Copiar y editar la oferta le permite crear fácilmente una nueva oferta similar.
-* **Mover**: Haga clic en el icono Mover, vaya a la ubicación a la que desee mover la carpeta y, a continuación, haga clic en el  **** menú desplegable. Por ejemplo, puede mover una o varias carpetas a otra carpeta para crear subcarpetas. Haga clic en [!UICONTROL Borrar selección] para anular la selección de las ofertas o carpetas seleccionadas.
+* **Mover**: Haga clic en el icono Mover, desplácese hasta la ubicación a la que desee mover la oferta o la carpeta y, a continuación, haga clic en el  **** menú desplegable. Por ejemplo, puede mover una o varias carpetas a otra carpeta para crear subcarpetas. Haga clic en [!UICONTROL Borrar selección] para anular la selección de las ofertas o carpetas seleccionadas.
 * **Eliminar**: Elimine la oferta o la carpeta.
 
 ## Carpetas de oferta de imágenes
@@ -51,7 +51,9 @@ Cuando vea la página de [!UICONTROL Ofertas de código], puede realizar las sig
 1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Carpeta]**.
 1. Especifique un **[!UICONTROL Título]** descriptivo para la carpeta.
 
-   Por ejemplo, puede incluir el tipo de contenido que albergará. El nombre no puede contener los siguientes caracteres: Signo de porcentaje `%`,Barra diagonal `/`,Barra invertida `\`, Dos puntos `:`, Asterisco `*`, Signo de interrogación `?`, comillas de Doble `"`, Corchetes `[`, Corchete corchetes `]`, Signo más: `+`, Tubería: `|`, Punto: `.`, Signo de número: `#`, Corchete de curvas: `{`, Corchete de curvas `}`, Caret `^` o Punto y coma `;`. Puede utilizar un guión ( `- `) en lugar de estos caracteres.
+   Por ejemplo, puede incluir el tipo de contenido que albergará.
+
+   El nombre no puede contener los caracteres siguientes: Signo de porcentaje `%`,Barra diagonal `/`,Barra invertida `\`, Dos puntos `:`, Asterisco `*`, Signo de interrogación `?`, comillas de Doble `"`, Corchetes `[`, Corchete corchetes `]`, Signo más: `+`, Tubería: `|`, Punto: `.`, Signo de número: `#`, Corchete de curvas: `{`, Corchete de curvas `}`, Caret `^` o Punto y coma `;`. Puede utilizar un guión ( `- `) en lugar de estos caracteres.
 
 1. (Opcional) Edite el **[!UICONTROL Nombre]**.
 1. (Opcional) Seleccione la casilla de verificación **[!UICONTROL Privado]**.
@@ -60,7 +62,7 @@ Cuando vea la página de [!UICONTROL Ofertas de código], puede realizar las sig
 
 1. (Opcional) Seleccione la casilla de verificación **[!UICONTROL Reordenar en Vista de Lista]**.
 
-   Indica que usted y otras personas pueden reordenar la posición de la carpeta en la vista de lista.
+   Especifica que usted y otros pueden reordenar la posición de la carpeta en la Vista [!UICONTROL de Lista].
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
@@ -74,7 +76,7 @@ La siguiente ilustración muestra las opciones disponibles al ver la Vista [!UIC
 
 ### Opciones de Ofertas de imágenes
 
-Cuando vea la página de [!UICONTROL Ofertas de imágenes], puede realizar las siguientes acciones en la carpeta pasando el ratón por encima de ella y seleccionado el icono apropiado.
+Al ver la página [!UICONTROL Ofertas de imagen], puede realizar las siguientes acciones en un elemento pasando el ratón sobre una oferta o carpeta y seleccionando el icono correspondiente.
 
 La siguiente ilustración muestra los iconos al pasar el ratón por encima al ver la [!UICONTROL Vista de tarjeta].
 
