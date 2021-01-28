@@ -4,9 +4,9 @@ description: ¿Cómo se crean las carpetas en la biblioteca de Ofertas?
 title: Crear una carpeta de ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 21%
 
 ---
@@ -62,13 +62,15 @@ Cuando vea la página de [!UICONTROL Ofertas de código], puede realizar las sig
 
    Indica que usted y otras personas pueden reordenar la posición de la carpeta en la vista de lista.
 
-1. (Opcional) Para alternar entre la [!UICONTROL Vista de Lista] y [!UICONTROL Vista de tarjeta], haga clic en el icono [!UICONTROL Vista de tarjeta] o en el icono [!UICONTROL Vista de Lista] en la esquina superior derecha de la biblioteca de contenido. También puede utilizar [!UICONTROL Configuración de Vista] para seguir configurando las columnas al ver la Vista [!UICONTROL de Lista].
-
-   La siguiente ilustración muestra las opciones disponibles al ver la Vista [!UICONTROL Lista]:
-
-   ![Opciones de Vista de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. Haga clic en **[!UICONTROL Crear]**.
+
+### Alternar entre Vista de tarjeta y Vista de Lista
+
+Para alternar entre la [!UICONTROL Vista de Lista] y [!UICONTROL Vista de tarjeta], haga clic en el icono [!UICONTROL Vista de tarjeta] o en el icono [!UICONTROL Vista de Lista] en la esquina superior derecha de la biblioteca de contenido. También puede utilizar [!UICONTROL Configuración de Vista] para seguir configurando las columnas al ver la Vista [!UICONTROL de Lista].
+
+La siguiente ilustración muestra las opciones disponibles al ver la Vista [!UICONTROL Lista]:
+
+![Opciones de Vista de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### Opciones de Ofertas de imágenes
 
