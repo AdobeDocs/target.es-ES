@@ -1,13 +1,13 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: Busque activos por palabra clave y guarde carpetas de búsqueda, llamadas colecciones inteligentes, que se actualizan automáticamente con los resultados de búsqueda.
+description: ¿Cómo puedo buscar recursos por palabras clave y guardar carpetas de búsqueda?
 title: Buscar contenido y crear colecciones inteligentes
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 94%
 
 ---
 
@@ -18,10 +18,7 @@ Busque activos por palabra clave y guarde carpetas de búsqueda, llamadas colecc
 
 Esta sección contiene la información siguiente:
 
-* [Buscar activos por palabra clave](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [Guardar colecciones inteligentes](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
-
-## Buscar activos por palabra clave    {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Buscar recursos por palabra clave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imágenes]** para acceder a la [!UICONTROL Biblioteca de activos].
 
