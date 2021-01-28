@@ -1,83 +1,107 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Cree una carpeta para guardar elementos en la biblioteca de Ofertas de Adobe Target.
+description: ¿Cómo se crean las carpetas en la biblioteca de Ofertas?
 title: Crear una carpeta de ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 93%
+source-wordcount: '576'
+ht-degree: 21%
 
 ---
 
 
-# Crear una carpeta de ofertas
+# Crear carpetas de oferta
 
-Cree una carpeta para guardar elementos en la biblioteca de Ofertas de Adobe Target.
+Cree carpetas en la biblioteca de Ofertas de Adobe Target para incluir ofertas de código, ofertas de imágenes y otras carpetas para crear una estructura de subcarpetas.
 
-1. Haga clic en **[!UICONTROL Ofertas]** y después seleccione la pestaña **[!UICONTROL Ofertas de código]** u **[!UICONTROL Ofertas de imágenes]** según proceda.
+El proceso de creación de carpetas para ofertas de código y ofertas de imagen difiere ligeramente. Las secciones siguientes contienen más información.
+
+## Carpetas de oferta de código
+
+1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de código]**.
+
+   ![Ficha Ofertas de código](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+
 1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Carpeta]**.
-1. Rellene los campos:
 
-   | Campo | Descripción |
-   |--- |--- |
-   | Título (se aplica solo a las ofertas de imágenes) | Elija un nombre descriptivo para la carpeta. Por ejemplo, puede incluir el tipo de contenido que albergará.<br>El nombre no puede contener los caracteres siguientes:<br>Símbolo de porcentaje `%`<br>Barra `/`<br>Barra inversa `\`<br>Dos puntos `:`<br>Asterisco `*`<br>Signo de interrogación `?`<br>Comillas inglesas `"`<br>Corchete `[`<br>Corchete `]`<br>Símbolo más: `+`<br>Barra vertical: `|`<br>Punto: `.`<br>Símbolo de número: `#`<br>Llave: `{`<br>Llave `}`<br>Signo de intercalación `^`<br>Punto y coma `;`<br>Puede usar un guion (`- `) en lugar de estos caracteres. |
-   | Nombre (se aplica a las ofertas de código y de imagen) | Si lo desea, edite el nombre. |
-   | Privado (se aplica solo a las ofertas de imágenes) | Indica que la carpeta es privada, de modo que solo usted pueda ver la carpeta y su contenido. |
-   | Se puede cambiar de orden en la vista de lista   (se aplica solo a las ofertas de imágenes) | Indica que usted y otras personas pueden reordenar la posición de la carpeta en la vista de lista.<br>Para alternar entre la vista de tarjeta y la vista de lista, haga clic en los iconos Vista de tarjeta o Vista de lista en la esquina superior derecha de la biblioteca de contenido. También puede seleccionar Configuración de vista para incluir o excluir columnas de la vista de lista. |
+1. Proporcione un nombre descriptivo para la carpeta.
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-## Opciones de Ofertas de código
+### Opciones de Ofertas de código
 
 Cuando vea la página de [!UICONTROL Ofertas de código], puede realizar las siguientes acciones en la carpeta pasando el ratón por encima de ella y seleccionado el icono apropiado.
 
-### Información ![](assets/icon_info.png)
+![Coloque el ratón sobre los iconos de la ficha Ofertas de código](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
-Consulta la información de carpeta.
+* **Información**: Vista la información de la oferta.
+* **Editar**: Edite la carpeta o oferta.
+* **Copiar**: Copie la oferta. Copiar y editar la oferta le permite crear fácilmente una nueva oferta similar.
+* **Mover**: Haga clic en el icono Mover, vaya a la ubicación a la que desee mover la carpeta y, a continuación, haga clic en el  **** menú desplegable. Por ejemplo, puede mover una o varias carpetas a otra carpeta para crear subcarpetas. Haga clic en [!UICONTROL Borrar selección] para anular la selección de las ofertas o carpetas seleccionadas.
+* **Eliminar**: Elimine la oferta o la carpeta.
 
-### Editar    ![](assets/icon_edit.png)
+## Carpetas de oferta de imágenes
 
-Edita la carpeta.
+1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imagen]**.
 
-### Copiar    ![](assets/icon_copy.png)
+   ![Ficha Ofertas de imagen](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-Copia la carpeta.
+1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Carpeta]**.
+1. Especifique un **[!UICONTROL Título]** descriptivo para la carpeta.
 
-### Mover    ![](assets/icon_move_folder.png)
+   Por ejemplo, puede incluir el tipo de contenido que albergará. El nombre no puede contener los siguientes caracteres: Signo de porcentaje `%`,Barra diagonal `/`,Barra invertida `\`, Dos puntos `:`, Asterisco `*`, Signo de interrogación `?`, comillas de Doble `"`, Corchetes `[`, Corchete corchetes `]`, Signo más: `+`, Tubería: `|`, Punto: `.`, Signo de número: `#`, Corchete de curvas: `{`, Corchete de curvas `}`, Caret `^` o Punto y coma `;`. Puede utilizar un guión ( `- `) en lugar de estos caracteres.
 
-Haga clic en el icono, navegue hasta la ubicación a la que quiere mover la carpeta y, después, haga clic en el icono Soltar.
+1. (Opcional) Edite el **[!UICONTROL Nombre]**.
+1. (Opcional) Seleccione la casilla de verificación **[!UICONTROL Privado]**.
 
-Por ejemplo, puede mover una o más carpetas a otra carpeta para crear subcarpetas.
+   Indica que la carpeta es privada, de modo que solo usted pueda ver la carpeta y su contenido.
 
-Haga clic en Borrar selección para anular la selección de las carpetas seleccionadas.
+1. (Opcional) Seleccione la casilla de verificación **[!UICONTROL Reordenar en Vista de Lista]**.
 
-### Eliminar ![](assets/icon_delete.png)
+   Indica que usted y otras personas pueden reordenar la posición de la carpeta en la vista de lista.
 
-Elimine la carpeta seleccionada.
+1. (Opcional) Para alternar entre la [!UICONTROL Vista de Lista] y [!UICONTROL Vista de tarjeta], haga clic en el icono [!UICONTROL Vista de tarjeta] o en el icono [!UICONTROL Vista de Lista] en la esquina superior derecha de la biblioteca de contenido. También puede utilizar [!UICONTROL Configuración de Vista] para seguir configurando las columnas al ver la Vista [!UICONTROL de Lista].
 
-## Opciones de Ofertas de imágenes
+   La siguiente ilustración muestra las opciones disponibles al ver la Vista [!UICONTROL Lista]:
 
-Cuando vea la página de [!UICONTROL Ofertas de imágenes], puede realizar las siguientes acciones en la carpeta pasando el ratón por encima de ella y seleccionado el icono apropiado:
+   ![Opciones de Vista de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-### Select![](assets/icon_check.png)
+1. Haga clic en **[!UICONTROL Crear]**.
 
-Seleccione una o más carpetas en las que realizar las siguientes acciones:
+### Opciones de Ofertas de imágenes
 
-* Descargar
-* Copiar
-* Mover
-* Eliminar
+Cuando vea la página de [!UICONTROL Ofertas de imágenes], puede realizar las siguientes acciones en la carpeta pasando el ratón por encima de ella y seleccionado el icono apropiado.
 
-### Descargar    ![](assets/icon_download.png)
+La siguiente ilustración muestra los iconos al pasar el ratón por encima al ver la [!UICONTROL Vista de tarjeta].
 
-Descargue la carpeta y su contenido.
+![Coloque el ratón sobre los iconos de la ficha Ofertas de imagen cuando se encuentre en la Vista de tarjetas](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-### Compártala en Adobe Creative Cloud![](assets/icon_creative_cloud.png).
+La siguiente ilustración muestra los iconos al pasar el ratón por encima al ver la Vista [!UICONTROL Lista]. Para mostrar los iconos, haga clic en un elemento de la lista.
 
-Comparta la carpeta y su contenido en Adobe Creative Cloud.
+![Coloque el ratón sobre los iconos de la ficha Ofertas de imagen cuando esté en la Vista de Lista](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
 
-### Copiar    ![](assets/icon_copy_content.png)
+* **Seleccionar**: Seleccione una o varias carpetas en las que realizar las siguientes acciones:
 
-Copie la carpeta y su contenido.
+   * Descargar
+   * Copiar
+   * Mover
+   * Eliminar
+
+   Seleccione una o varias ofertas de imagen en las que realizar las siguientes acciones:
+
+   * Compartir
+   * Descargar  
+   * Ver propiedades
+   * Editar  
+   * Anotar
+   * Mover  
+
+
+* **Descargar**: Descargue la oferta de imagen o la carpeta y su contenido.
+* **Propiedades** de vista: Vista de las propiedades del elemento. Asegúrese de hacer clic en la ficha [!UICONTROL Básico] y en la ficha [!UICONTROL Avanzado] para vista de toda la información disponible.
+* **Más acciones**: Mostrar opciones adicionales cuando se encuentra en la Vista de tarjetas.
+* **Editar**: Edite la carpeta o oferta.
+* **Anotar**: Añada anotaciones en la oferta de imagen.
+* **Copiar**: Copie la oferta. Copiar y editar la oferta le permite crear fácilmente una nueva oferta similar.
