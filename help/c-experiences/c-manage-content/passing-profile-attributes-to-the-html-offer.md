@@ -1,13 +1,13 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Puede mostrar valores de perfil e información de actividad directamente en una oferta HTML o JSON en Adobe Target.
+description: ¿Cómo puedo pasar valores de perfil e información de actividad directamente en una oferta HTML o JSON?
 title: Transmisión dinámica de datos en ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 88%
+source-wordcount: '491'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Puede mostrar dinámicamente la información de visitante almacenada en el perfil [!DNL Adobe Target]. Del mismo modo, la información de la actividad (como el nombre de la actividad o el de la experiencia) también se puede utilizar para crear una sola oferta que devuelva contenido personalizado de forma dinámica en función de los intereses, el comportamiento anterior y el perfil general del visitante.
 
-## Casos de uso
+## Casos comerciales
 
 * Promocione una oferta de descuento para reorganizar o reponer el último producto comprado. En lugar de crear una oferta separada para cada elemento del catálogo, puede crear una oferta con texto dinámico que indique el último producto comprado del perfil y muestre un vínculo en la oferta.
 * Un visitante llega a su página de destino con `keyword=world` `cup`. El término *World cup* aparece en la oferta.
@@ -52,15 +52,21 @@ Para ver los diseños de Recommendations, consulte los ejemplos adicionales en [
 
 ## Implementación
 
-Para los parámetros de perfil transferidos a un mbox, utilice la sintaxis: `${profile.parameter}` Para los parámetros de perfil creados en un script de perfil, utilice la sintaxis:
+Para los parámetros de perfil pasados a un mbox, utilice la sintaxis:
+
+`${profile.parameter}`
+
+Para los parámetros de perfil creados en una secuencia de comandos de perfil, utilice la sintaxis:
 
 `${user.parameter}`
 
-Al utilizar atributos dinámicos en un diseño de Recommendations, debe insertar una barra invertida ( \ ) antes del signo de dólar ( $ ) para que el valor dinámico se procese correctamente: `\${user.endpoint.lastViewedEntity}`
+Al utilizar atributos dinámicos en un diseño [!DNL Recommendations], debe insertar una barra invertida ( \ ) antes del signo de dólar ( $ ) para que el valor dinámico se represente correctamente:
+
+`\${user.endpoint.lastViewedEntity}`
 
 Estas variables se sustituyen por el valor que hay en el servidor, así que no es necesario usar comillas ni ningún otro JavaScript para la visualización correcta.
 
-Los valores predeterminados también pueden ser específicos para valores que desee exponer a ofertas. La sintaxis es similar a esta:
+También se pueden especificar valores predeterminados para los valores que se desean exponer a ofertas. La sintaxis es similar a esta:
 
 `${user.testAttribute default="All Items!"}`
 
