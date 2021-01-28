@@ -4,10 +4,10 @@ description: ¿Cómo administro ofertas de código e imagen?
 title: Ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 40%
+source-wordcount: '525'
+ht-degree: 37%
 
 ---
 
@@ -44,6 +44,8 @@ Utilice la biblioteca [!UICONTROL Ofertas] de [!DNL Adobe Target] para administr
 
    Según los permisos, es posible que no vea iconos para todas las opciones. Por ejemplo, un usuario con permisos [!UICONTROL Observador] no tiene derechos para utilizar la opción [!UICONTROL Copiar].
 
+   Para obtener información detallada sobre las tareas que puede realizar en ofertas y carpetas, consulte [Trabajo con contenido en la biblioteca de recursos](/help/c-experiences/c-manage-content/assets-working.md).
+
 1. (Opcional) Para realizar tareas adicionales, coloque el puntero sobre la oferta o carpeta de imágenes que desee en la ficha [!UICONTROL Ofertas de imágenes] y haga clic en el icono deseado.
 
    ![Opciones de Ofertas de imágenes](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
@@ -56,6 +58,8 @@ Utilice la biblioteca [!UICONTROL Ofertas] de [!DNL Adobe Target] para administr
    * Editar  
    * Anotar
    * Copiar  
+
+   Para obtener información detallada sobre las tareas que puede realizar en ofertas y carpetas, consulte [Trabajo con contenido en la biblioteca de recursos](/help/c-experiences/c-manage-content/assets-working.md).
 
 ## Visualización de definiciones de oferta {#section_6B059DD121434E6292CAB393507D010E}
 
