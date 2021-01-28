@@ -4,10 +4,10 @@ description: ¿Cómo se crean las carpetas en la biblioteca de Ofertas?
 title: Crear una carpeta de ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 11%
+source-wordcount: '245'
+ht-degree: 21%
 
 ---
 
@@ -30,17 +30,7 @@ El proceso de creación de carpetas para ofertas de código y ofertas de imagen 
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-### Opciones de Ofertas de código
-
-Al ver la página [!UICONTROL Ofertas de código], puede realizar las siguientes acciones en un elemento pasando el ratón sobre una oferta o carpeta y seleccionando el icono correspondiente.
-
-![Coloque el ratón sobre los iconos de la ficha Ofertas de código](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
-
-* **Información**: Vista la información de la oferta.
-* **Editar**: Edite la carpeta o oferta.
-* **Copiar**: Copie la oferta. Copiar y editar la oferta le permite crear fácilmente una nueva oferta similar.
-* **Mover**: Haga clic en el icono Mover, desplácese hasta la ubicación a la que desee mover la oferta o la carpeta y, a continuación, haga clic en el  **** menú desplegable. Por ejemplo, puede mover una o varias carpetas a otra carpeta para crear subcarpetas. Haga clic en [!UICONTROL Borrar selección] para anular la selección de las ofertas o carpetas seleccionadas.
-* **Eliminar**: Elimine la oferta o la carpeta.
+Para obtener información sobre las tareas que puede realizar en ofertas y carpetas, consulte [Trabajo con contenido en la biblioteca de recursos](/help/c-experiences/c-manage-content/assets-working.md).
 
 ## Carpetas de oferta de imágenes
 
@@ -66,46 +56,4 @@ Al ver la página [!UICONTROL Ofertas de código], puede realizar las siguientes
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-### Alternar entre Vista de tarjeta y Vista de Lista
-
-Para alternar entre la [!UICONTROL Vista de Lista] y [!UICONTROL Vista de tarjeta], haga clic en el icono [!UICONTROL Vista de tarjeta] o en el icono [!UICONTROL Vista de Lista] en la esquina superior derecha de la biblioteca de contenido. También puede utilizar [!UICONTROL Configuración de Vista] para seguir configurando las columnas al ver la Vista [!UICONTROL de Lista].
-
-La siguiente ilustración muestra las opciones disponibles al ver la Vista [!UICONTROL Lista]:
-
-![Opciones de Vista de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
-### Opciones de Ofertas de imágenes
-
-Al ver la página [!UICONTROL Ofertas de imagen], puede realizar las siguientes acciones en un elemento pasando el ratón sobre una oferta o carpeta y seleccionando el icono correspondiente.
-
-La siguiente ilustración muestra los iconos al pasar el ratón por encima al ver la [!UICONTROL Vista de tarjeta].
-
-![Coloque el ratón sobre los iconos de la ficha Ofertas de imagen cuando se encuentre en la Vista de tarjetas](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
-
-La siguiente ilustración muestra los iconos al pasar el ratón por encima al ver la Vista [!UICONTROL Lista]. Para mostrar los iconos, haga clic en un elemento de la lista.
-
-![Coloque el ratón sobre los iconos de la ficha Ofertas de imagen cuando esté en la Vista de Lista](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
-
-* **Seleccionar**: Seleccione una o varias carpetas en las que realizar las siguientes acciones:
-
-   * Descargar
-   * Copiar
-   * Mover
-   * Eliminar
-
-   Seleccione una o varias ofertas de imagen en las que realizar las siguientes acciones:
-
-   * Compartir
-   * Descargar  
-   * Ver propiedades
-   * Editar  
-   * Anotar
-   * Mover  
-
-
-* **Descargar**: Descargue la oferta de imagen o la carpeta y su contenido.
-* **Propiedades** de vista: Vista de las propiedades del elemento. Asegúrese de hacer clic en la ficha [!UICONTROL Básico] y en la ficha [!UICONTROL Avanzado] para vista de toda la información disponible.
-* **Más acciones**: Mostrar opciones adicionales cuando se encuentra en la Vista de tarjetas.
-* **Editar**: Edite la carpeta o oferta.
-* **Anotar**: Añada anotaciones en la oferta de imagen.
-* **Copiar**: Copie la oferta. Copiar y editar la oferta le permite crear fácilmente una nueva oferta similar.
+Para obtener información sobre las tareas que puede realizar en ofertas y carpetas, consulte [Trabajo con contenido en la biblioteca de recursos](/help/c-experiences/c-manage-content/assets-working.md).
