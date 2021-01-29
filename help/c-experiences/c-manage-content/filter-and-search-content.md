@@ -1,65 +1,58 @@
 ---
-keywords: content library;assets;search;smart collections;search folder;filter
-description: ¿Cómo puedo buscar recursos por palabras clave y guardar carpetas de búsqueda?
-title: Buscar contenido y crear colecciones inteligentes
+keywords: content library;assets;search;filter
+description: ¿Cómo puedo buscar recursos por palabras clave?
+title: Buscar contenido
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 94%
+source-wordcount: '239'
+ht-degree: 13%
 
 ---
 
 
-# Buscar contenido y crear colecciones inteligentes
+# Buscar contenido
 
-Busque activos por palabra clave y guarde carpetas de búsqueda, llamadas colecciones inteligentes, que se actualizan automáticamente con los resultados de búsqueda.
+Busque recursos por palabras clave en la biblioteca [!UICONTROL Ofertas] de [!DNL Adobe Target].
 
-Esta sección contiene la información siguiente:
+## Buscar ofertas de código por palabra clave
 
-## Buscar recursos por palabra clave {#section_2465A71BC95942588F586B1EC8B9E5DB}
+1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de código]**.
+1. Escriba las palabras clave deseadas en el cuadro [!UICONTROL Buscar].
 
-1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imágenes]** para acceder a la [!UICONTROL Biblioteca de activos].
+   Tenga en cuenta que también puede filtrar mediante las listas desplegables [!UICONTROL Tipo] y [!UICONTROL Origen] para restringir aún más la búsqueda.
 
-   Puede hacer clic en el icono [!UICONTROL Vista de tarjeta] que se encuentra en la esquina superior derecha para mostrar los activos en el formato de vista de tarjeta.
+## Buscar ofertas de imagen por palabra clave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-   O
+1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imagen]**.
 
-   Puede hacer clic en el icono [!UICONTROL Vista de lista] que se encuentra en la esquina superior derecha para mostrar los activos en el formato de vista de lista.
+1. (Opcional) Alterne entre la [!UICONTROL Vista de Lista] y [!UICONTROL Vista de tarjeta], haga clic en el icono [!UICONTROL Vista de tarjeta] o en el icono [!UICONTROL Vista de Lista] en la esquina superior derecha de la biblioteca de contenido. También puede utilizar [!UICONTROL Configuración de Vista] para seguir configurando las columnas al ver la Vista [!UICONTROL de Lista].
+
+   La siguiente ilustración muestra las opciones disponibles al ver la Vista [!UICONTROL Lista]:
+
+   ![Opciones de Vista de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. Haga clic en el icono **[!UICONTROL Solo contenido]** que se encuentra en la esquina superior izquierda para mostrar el cuadro de búsqueda.
 
-   ![](assets/search_assets.png)
+   ![Opción Solo contenido](/help/c-experiences/c-manage-content/assets/content-only.png)
 
 1. En el cuadro de búsqueda, escriba una palabra clave para el activo que quiera encontrar y luego presione Intro.
 
-## Guardar colecciones inteligentes    {#section_5C95159543B5405EB8C8E47B518DF4AB}
+1. (Opcional) Utilice el panel **[!UICONTROL Filtros y opciones]** para restringir aún más la búsqueda.
 
-Puede crear búsquedas guardadas, llamadas colecciones inteligentes, para ahorrar tiempo al realizar búsquedas parecidas. Una búsqueda guardada crea una colección inteligente que se actualiza automáticamente con los resultados de búsqueda.
+   ![Panel Filtro y opciones](/help/c-experiences/c-manage-content/assets/filter-and-options.png)
 
-1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imágenes]** para acceder a la [!UICONTROL Biblioteca de activos].
+   Puede filtrar por:
 
-   ![](assets/content.png)
-
-1. Haga clic en el icono **[!UICONTROL Solo contenido]** que se encuentra en la esquina superior izquierda para mostrar el panel [!UICONTROL Filtro y opciones] en el carril izquierdo.
-1. Haga clic en el icono **[!UICONTROL Examinar]** para mostrar el cuadro de diálogo [!UICONTROL Seleccionar ruta].
-
-   ![](assets/browse_folders.png)
-
-1. Busque la carpeta donde quiere guardar la colección inteligente y selecciónela. A continuación, haga clic en el icono **[!UICONTROL Confirmar]**.
-
-   ![](assets/browse_folders2.png)
-
-1. (Opcional) Seleccione las distintas opciones para restringir el filtro, por ejemplo, el tipo de archivo y el tamaño.
-1. Haga clic en **[!UICONTROL Guardar colecciones inteligentes]**, al final del panel [!UICONTROL Filtro y opciones], para mostrar las opciones de Guardar.
-
-   ![](assets/save_smart_collection_options.png)
-
-1. Elija un nombre para la colección inteligente, marque la casilla de verificación **[!UICONTROL Pública]** si quiere que todos los usuarios de su cuenta de [!DNL Target] puedan acceder a esta colección inteligente y luego haga clic en **[!UICONTROL Guardar]**.
-
-   La colección inteligente se añade a lista de búsquedas guardadas para el uso futuro:
-
-   ![](assets/saved_smart_collection.png)
-
-Si quiere editar una colección inteligente guardada, selecciónela en la lista desplegable [!UICONTROL Búsquedas guardadas] para abrirla y luego haga clic en [!UICONTROL Editar colección inteligente].
+   * Tipo de archivo: Imágenes, Documentos, Multimedia o Archivos.
+   * Tamaño del archivo: Pequeño, medio o grande
+   * Última modificación: Hora, día, semana, mes o año.
+   * Estado de aprobación: Aprobado o Rechazado.
+   * Estado de caducidad: Caducado.
+   * Clasificación promedio: 1 a 5.
+   * Orientación: Horizontal, Vertical o Cuadrado.
+   * Estilo: Color o Blanco y negro.
+   * Puntuación de uso: Mínimo a máximo
+   * Puntuación de impresión: Mínimo a máximo
+   * Haga clic en Puntuación: 1 a 5.
