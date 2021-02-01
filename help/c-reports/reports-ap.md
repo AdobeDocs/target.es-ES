@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Los usuarios de actividades de Automated Personalization en Adobe Target pueden acceder a informes especializados.
+description: ¿Cómo se utilizan los informes Resumen de Automated Personalization?
 title: Informes Resumen de Personalización automatizada
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 72%
+source-wordcount: '626'
+ht-degree: 43%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Informes Resumen de personalización automatizada{#automated-personalization-summary-reports}
+# ![PREMIUM](/help/assets/premium.png) Informes Resumen de personalización automatizada
 
 Los usuarios de actividades [!UICONTROL Automated Personalization] pueden obtener informes especializados en [!DNL Adobe Target].
 
@@ -24,9 +24,14 @@ Los usuarios de actividades [!UICONTROL Automated Personalization] pueden obtene
 
    Si tiene muchas actividades, puede filtrar la lista seleccionando [!UICONTROL Personalización automatizada] en la lista desplegable [!UICONTROL Tipo].
 
-1. (Opcional) Haga clic en el icono [!UICONTROL Descargar] para obtener la vista de resumen (por ejemplo, para ver una comparación del tráfico de Control y el segmentado) desglosada por todas las métricas de éxito disponibles.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Descargar]** para obtener la vista de resumen (por ejemplo, para ver una comparación del tráfico de Control y el segmentado) desglosada por todas las métricas de éxito disponibles.
 
 [!UICONTROL Personalización automatizada] ofrece los siguientes informes:
+
+* Nivel de actividad
+* Nivel de oferta
+* Segmentos automatizados
+* Atributos importantes
 
 ## Informe de nivel de actividad {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -49,6 +54,16 @@ Las ofertas se pueden mostrar dentro de grupos de informes, que se pueden contra
 >[!NOTE]
 >
 >El icono de reloj indica que el modelo de algoritmo aún se está generando. El icono de marca de verificación indica que se ha establecido el algoritmo base.
+
+## Diferencias en los datos entre los informes Nivel de Actividad y Nivel de Oferta
+
+**[!UICONTROL Informe ] de nivel** de actividad: Las visitas registradas en el informe  [!UICONTROL Niveles de ] Actividad capturan el número de visitas a las experiencias de control en comparación con tráfico &quot;dirigido&quot;. El tráfico objetivo incluye una combinación de tráfico de exploración y tráfico personalizado.
+
+**Informe** de nivel de oferta: Las impresiones registradas en el informe  [!UICONTROL Niveles de ] Oferta capturan el número de impresiones de cada oferta. Por lo tanto, en una actividad con más de una ubicación, la cantidad total de visitas registradas en el informe [!UICONTROL Nivel de Oferta] en todos los grupos de Sistemas de informes es igual al múltiplo de la cantidad de visitas registradas para tráfico de Control o de Destino en el informe [!UICONTROL Nivel de Actividad] veces la cantidad total de ubicaciones en la actividad. Las impresiones del contenido predeterminado que se producen en ubicaciones en las que el contenido predeterminado era una opción disponible se registran en el grupo de ofertas &quot;Contenido predeterminado&quot;. Las impresiones de ofertas que no se asignaron a un grupo de sistemas de informes se registran en el grupo de ofertas &quot;Desagrupadas&quot;.
+
+>[!NOTE]
+
+El número de impresiones registradas en el informe [!UICONTROL Nivel de Oferta] puede no ser un número entero exacto del número de visitas registradas en el informe [!UICONTROL Nivel de Actividad]. Esto se debe a discrepancias menores que se producen en la captura del tráfico de datos de sistema de informes a través de Internet (la tasa de discrepancia típica es inferior al 5 %). Por lo tanto, el número de impresiones no será un múltiplo exacto cuando el número de ubicaciones disponibles en la actividad cambie después de activar la actividad.
 
 ## Segmentos automatizados
 
