@@ -4,10 +4,10 @@ description: Una actividad de asignación automática en Adobe Target identifica
 title: Asignación automática
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3377'
-ht-degree: 73%
+source-wordcount: '3373'
+ht-degree: 74%
 
 ---
 
@@ -136,7 +136,7 @@ Consulte las siguientes preguntas más frecuentes y respuestas mientras trabaja 
 
 ### ¿Analytics para Destinatario (A4T) admite actividades de asignación automática?
 
-Sí. Para obtener más información, consulte [Compatibilidad de Analytics para Destinatario (A4T) con actividades de asignación automática](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) en *Creación de Actividades*.
+Sí. Para obtener más información, consulte [Compatibilidad de A4T con la asignación automática y actividades de Destinatario automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ###  ¿Los visitantes de retorno se asignan automáticamente a experiencias con alto rendimiento?
 
