@@ -4,9 +4,9 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '3480'
+source-wordcount: '3499'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 1 de febrero | [Informes Resumen de Personalización automatizada](/help/c-reports/reports-ap.md) | Nueva sección añadida: &quot;Diferencias en los datos entre los informes Nivel de Actividad y Nivel de Oferta.&quot; |
 | Enero de 27 | [Crear ofertas de redireccionamiento](/help/c-experiences/c-manage-content/offer-redirect.md) | Tema actualizado. |
 |  | [Crear ofertas remotas](/help/c-experiences/c-manage-content/about-remote-offers.md) | Tema actualizado. |
 | Enero de 26 | [Tasa de conversión](/help/c-reports/conversion-rate.md) | Se ha aclarado cómo el Destinatario utiliza la &quot;suma de cuadrados&quot; en las pruebas T del estudiante. |
