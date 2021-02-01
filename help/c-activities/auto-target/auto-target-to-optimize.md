@@ -4,9 +4,9 @@ description: El Destinatario automático en Adobe Target utiliza aprendizaje aut
 title: Descripción general del Destinatario automático
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2016'
 ht-degree: 85%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >La [!UICONTROL segmentación automática] está disponible como parte de la solución [!DNL Target Premium]. Esta característica no está disponible en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información sobre las funciones avanzadas que proporciona esta licencia, consulte [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL Analytics para Destinatario]  (A4T) admite actividades de  [!UICONTROL segmentación ] automática. Para obtener más información, consulte [Creación de una actividad que utilice Analytics como fuente de sistema de informes](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).
+>[!UICONTROL Analytics para Destinatario]  (A4T) admite actividades de  [!UICONTROL segmentación ] automática. Para obtener más información, consulte [Compatibilidad de A4T con la asignación automática y actividades de Destinatario automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ## Historia de éxito en el mundo real con Destinatario automático {#success}
 
