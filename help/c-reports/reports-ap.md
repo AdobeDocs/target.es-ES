@@ -4,9 +4,9 @@ description: ¿Cómo se utilizan los informes Resumen de Automated Personalizati
 title: Informes Resumen de Personalización automatizada
 feature: Reports
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 52fd172abf1c92d3df6c123b36373c7db6467972
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 43%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 43%
 
 # ![PREMIUM](/help/assets/premium.png) Informes Resumen de personalización automatizada
 
-Los usuarios de actividades [!UICONTROL Automated Personalization] pueden obtener informes especializados en [!DNL Adobe Target].
+Los usuarios de actividades [!UICONTROL Automated Personalization] pueden obtener informes resumidos especializados en [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ Para obtener más información, consulte [Informe de atributos importantes](/hel
 **Informe** de nivel de oferta: Las impresiones registradas en el informe  [!UICONTROL Niveles de ] Oferta capturan el número de impresiones de cada oferta. Por lo tanto, en una actividad con más de una ubicación, la cantidad total de visitas registradas en el informe [!UICONTROL Nivel de Oferta] en todos los grupos de Sistemas de informes es igual al múltiplo de la cantidad de visitas registradas para tráfico de Control o de Destino en el informe [!UICONTROL Nivel de Actividad] veces la cantidad total de ubicaciones en la actividad. Las impresiones del contenido predeterminado que se producen en ubicaciones en las que el contenido predeterminado era una opción disponible se registran en el grupo de ofertas &quot;Contenido predeterminado&quot;. Las impresiones de ofertas que no se asignaron a un grupo de sistemas de informes se registran en el grupo de ofertas &quot;Desagrupadas&quot;.
 
 >[!NOTE]
-
-El número de impresiones registradas en el informe [!UICONTROL Nivel de Oferta] puede no ser un número entero exacto del número de visitas registradas en el informe [!UICONTROL Nivel de Actividad]. Esto se debe a discrepancias menores que se producen en la captura del tráfico de datos de sistema de informes a través de Internet (la tasa de discrepancia típica es inferior al 5 %). Por lo tanto, el número de impresiones no será un múltiplo exacto cuando el número de ubicaciones disponibles en la actividad cambie después de activar la actividad.
+>
+>El número de impresiones registradas en el informe [!UICONTROL Nivel de Oferta] puede no ser un número entero exacto del número de visitas registradas en el informe [!UICONTROL Nivel de Actividad]. Esto se debe a discrepancias menores que se producen en la captura del tráfico de datos de sistema de informes a través de Internet (la tasa de discrepancia típica es inferior al 5 %). Por lo tanto, el número de impresiones no será un múltiplo exacto cuando el número de ubicaciones disponibles en la actividad cambie después de activar la actividad.
