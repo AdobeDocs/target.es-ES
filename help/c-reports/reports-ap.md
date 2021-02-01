@@ -4,10 +4,10 @@ description: ¿Cómo se utilizan los informes Resumen de Automated Personalizati
 title: Informes Resumen de Personalización automatizada
 feature: Reports
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 43%
+source-wordcount: '631'
+ht-degree: 44%
 
 ---
 
@@ -55,16 +55,6 @@ Las ofertas se pueden mostrar dentro de grupos de informes, que se pueden contra
 >
 >El icono de reloj indica que el modelo de algoritmo aún se está generando. El icono de marca de verificación indica que se ha establecido el algoritmo base.
 
-## Diferencias en los datos entre los informes Nivel de Actividad y Nivel de Oferta
-
-**[!UICONTROL Informe ] de nivel** de actividad: Las visitas registradas en el informe  [!UICONTROL Niveles de ] Actividad capturan el número de visitas a las experiencias de control en comparación con tráfico &quot;dirigido&quot;. El tráfico objetivo incluye una combinación de tráfico de exploración y tráfico personalizado.
-
-**Informe** de nivel de oferta: Las impresiones registradas en el informe  [!UICONTROL Niveles de ] Oferta capturan el número de impresiones de cada oferta. Por lo tanto, en una actividad con más de una ubicación, la cantidad total de visitas registradas en el informe [!UICONTROL Nivel de Oferta] en todos los grupos de Sistemas de informes es igual al múltiplo de la cantidad de visitas registradas para tráfico de Control o de Destino en el informe [!UICONTROL Nivel de Actividad] veces la cantidad total de ubicaciones en la actividad. Las impresiones del contenido predeterminado que se producen en ubicaciones en las que el contenido predeterminado era una opción disponible se registran en el grupo de ofertas &quot;Contenido predeterminado&quot;. Las impresiones de ofertas que no se asignaron a un grupo de sistemas de informes se registran en el grupo de ofertas &quot;Desagrupadas&quot;.
-
->[!NOTE]
-
-El número de impresiones registradas en el informe [!UICONTROL Nivel de Oferta] puede no ser un número entero exacto del número de visitas registradas en el informe [!UICONTROL Nivel de Actividad]. Esto se debe a discrepancias menores que se producen en la captura del tráfico de datos de sistema de informes a través de Internet (la tasa de discrepancia típica es inferior al 5 %). Por lo tanto, el número de impresiones no será un múltiplo exacto cuando el número de ubicaciones disponibles en la actividad cambie después de activar la actividad.
-
 ## Segmentos automatizados
 
 Haga clic en el icono [!UICONTROL Segmentos automatizados]. Este informe muestra cómo los diferentes visitantes responden de manera diferente a las ofertas y experiencias de su actividad AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
@@ -80,3 +70,15 @@ Haga clic en el icono [!UICONTROL Atributos importantes]. Este informe muestra c
 ![Icono de atributos importantes](/help/c-reports/assets/icon-important-attributes-ap.png)
 
 Para obtener más información, consulte [Informe de atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+
+## Preguntas frecuentes
+
+### ¿Existen diferencias en los datos entre los informes Nivel de Actividad y Nivel de Oferta?
+
+**[!UICONTROL Informe ] de nivel** de actividad: Las visitas registradas en el informe  [!UICONTROL Niveles de ] Actividad capturan el número de visitas a las experiencias de control en comparación con tráfico &quot;dirigido&quot;. El tráfico objetivo incluye una combinación de tráfico de exploración y tráfico personalizado.
+
+**Informe** de nivel de oferta: Las impresiones registradas en el informe  [!UICONTROL Niveles de ] Oferta capturan el número de impresiones de cada oferta. Por lo tanto, en una actividad con más de una ubicación, la cantidad total de visitas registradas en el informe [!UICONTROL Nivel de Oferta] en todos los grupos de Sistemas de informes es igual al múltiplo de la cantidad de visitas registradas para tráfico de Control o de Destino en el informe [!UICONTROL Nivel de Actividad] veces la cantidad total de ubicaciones en la actividad. Las impresiones del contenido predeterminado que se producen en ubicaciones en las que el contenido predeterminado era una opción disponible se registran en el grupo de ofertas &quot;Contenido predeterminado&quot;. Las impresiones de ofertas que no se asignaron a un grupo de sistemas de informes se registran en el grupo de ofertas &quot;Desagrupadas&quot;.
+
+>[!NOTE]
+
+El número de impresiones registradas en el informe [!UICONTROL Nivel de Oferta] puede no ser un número entero exacto del número de visitas registradas en el informe [!UICONTROL Nivel de Actividad]. Esto se debe a discrepancias menores que se producen en la captura del tráfico de datos de sistema de informes a través de Internet (la tasa de discrepancia típica es inferior al 5 %). Por lo tanto, el número de impresiones no será un múltiplo exacto cuando el número de ubicaciones disponibles en la actividad cambie después de activar la actividad.
