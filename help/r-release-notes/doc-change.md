@@ -4,9 +4,9 @@ description: Esta página lista los cambios importantes realizados en la documen
 title: Cambios en la documentación de los productos de Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3488'
 ht-degree: 29%
 
 ---
@@ -99,7 +99,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 |  | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Se ha actualizado la fila &quot;user.header(&#39;x-forwarded-for&#39;)&quot; para indicar que &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; ha quedado obsoleto. |
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión Target Standard/Premium 20.9.1 (30 de septiembre de 2020). |
 | 15 de septiembre | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión Target Standard/Premium 20.8.3, que incluye compatibilidad de Analytics para Destinatario (A4T) con actividades de Destinatario automático. En una versión anterior se agregó compatibilidad con actividades de asignación automática. |
-|  | [Compatibilidad de Analytics para Destinatario (A4T) con la asignación automática y las actividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) de Destinatario automático. | Se ha añadido información sobre la compatibilidad de A4T en actividades de Destinatario automático. |
+|  | [Compatibilidad de A4T con la asignación automática y las actividades de Destinatario automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Se ha añadido información sobre la compatibilidad de A4T en actividades de Destinatario automático. |
 |  | [Bookmarklet de control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Se ha actualizado el texto para indicar que el método de forzar manualmente la salida del modo de control de calidad cargando una página en el sitio con el parámetro `at_preview_token` con un valor vacío se aplica a at.js 1.Solamente *x.* |
 |  | [Buscar en el catálogo](/help/c-recommendations/c-products/catalog-search.md) | Se ha actualizado todo el tema. |
 | 10 de septiembre | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión Target Standard/Premium 20.9.2 que incluye la siguiente función nueva: Controle los espacios de recomendaciones dentro de secuencias de criterios. |
