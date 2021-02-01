@@ -4,10 +4,10 @@ description: ¿Cómo se utilizan los informes Resumen de Automated Personalizati
 title: Informes Resumen de Personalización automatizada
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 44%
+source-wordcount: '632'
+ht-degree: 43%
 
 ---
 
@@ -73,7 +73,7 @@ Para obtener más información, consulte [Informe de atributos importantes](/hel
 
 ## Preguntas frecuentes
 
-### ¿Existen diferencias en los datos entre los informes Nivel de Actividad y Nivel de Oferta?
+### ¿Por qué hay diferencias en los datos entre los informes Nivel de Actividad y Nivel de Oferta?
 
 **[!UICONTROL Informe ] de nivel** de actividad: Las visitas registradas en el informe  [!UICONTROL Niveles de ] Actividad capturan el número de visitas a las experiencias de control en comparación con tráfico &quot;dirigido&quot;. El tráfico objetivo incluye una combinación de tráfico de exploración y tráfico personalizado.
 
