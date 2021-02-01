@@ -4,9 +4,9 @@ description: Lista de temas útiles para resolver problemas en Adobe Target. Inc
 title: Resolución de problemas de Adobe Target
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 96%
 
 ---
@@ -43,6 +43,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 
 * [Preguntas más frecuentes sobre Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Resolución de problemas de personalización automatizada](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Informes Resumen de Personalización automatizada](/help/c-reports/reports-ap.md)
 
 ### Prueba multivariable (MVT)
 
