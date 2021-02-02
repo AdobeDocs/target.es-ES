@@ -1,13 +1,13 @@
 ---
-keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
+keywords: Crear destinatario automático;Prueba A/B;actividad de destinatario automático;nueva actividad a/b;destinatario automático;destinatario automático para experiencias personalizadas;personalización
 description: Use el Compositor de experiencias visuales (VEC) en Adobe Target para crear la actividad de prueba A/B de Destinatario automático directamente en una página con Destinatario habilitado y para modificar partes de la página dentro de Destinatario.
 title: Creación de una actividad de Destinatario automático
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 60%
+source-wordcount: '940'
+ht-degree: 58%
 
 ---
 
@@ -121,6 +121,10 @@ Para crear una actividad [!UICONTROL Destinatario automático]:
 1. Especifique los [objetivos y la configuración](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) para la actividad.
 
    ![Configuración de actividades A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Si desea utilizar [Analytics para Destinatario](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) con esta actividad, consulte la información importante en [Compatibilidad de A4T para la asignación automática y actividades de Destinatario automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** o **[!UICONTROL Guardar]**.
 
