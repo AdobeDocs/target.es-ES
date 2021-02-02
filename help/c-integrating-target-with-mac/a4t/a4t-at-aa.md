@@ -4,9 +4,9 @@ description: ¿Puedo utilizar A4T con actividades de Destinatario automático y 
 title: Compatibilidad de A4T con la asignación automática y las actividades de Destinatario automático
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
@@ -36,10 +36,14 @@ En primer lugar:
 
 1. Seleccione **[!UICONTROL Adobe Analytics]** para su **[!UICONTROL Origen de Sistema de informes]** en la página **[!UICONTROL Objetivos y configuración]** y seleccione el grupo de informes correspondiente a su objetivo de optimización deseado.
 
+   ![Sección Origen del sistema de informes en la página Objetivos y configuración](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. Elija una métrica de objetivo principal.
 
    * Elija **[!UICONTROL Conversión]** para utilizar [!DNL Adobe Target] para especificar el objetivo de optimización.
    * Elija **[!UICONTROL Utilice una métrica de Analytics]** y, a continuación, seleccione una métrica de [!DNL Analytics] para utilizarla como objetivo de optimización. Puede utilizar una métrica de conversión [!DNL Analytics] predeterminada o un evento personalizado [!DNL Analytics].
+
+   Consulte [Métricas de objetivo admitidas](#supported) a continuación para obtener más información.
 
 1. Guarde y active la actividad.
 
@@ -51,7 +55,7 @@ En primer lugar:
 
 1. Utilice la ficha **[!UICONTROL Informes]** para vista del sistema de informes de la actividad según su selección de [!DNL Adobe Analytics] métricas. Haga clic en **[!UICONTROL Vista en Analytics]** para profundizar y segmentar los datos de sistema de informes.
 
-## Métricas de objetivo admitidas
+## Métricas de objetivo admitidas {#supported}
 
 [!UICONTROL A4] Tfor  [!UICONTROL Auto-] Allocation y  [!UICONTROL Auto-] Targetlet le permiten elegir cualquiera de los siguientes tipos de métricas como métrica de objetivo principal para la optimización:
 
