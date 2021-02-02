@@ -1,13 +1,13 @@
 ---
-keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+keywords: crear asignación automática;Prueba A/B;asignación automática de actividad;nueva actividad a/b;asignación automática;asignación automática a la mejor experiencia;asignación automática;asignación automática
 description: Utilice el Compositor de experiencias visuales (VEC) en Adobe Target para crear la actividad de prueba A/B de asignación automática directamente en una página con Destinatario habilitado y para modificar partes de la página dentro de Destinatario.
 title: Crear una actividad de asignación automática
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 61%
+source-wordcount: '916'
+ht-degree: 58%
 
 ---
 
@@ -119,6 +119,10 @@ Para crear una actividad [!UICONTROL de asignación automática]:
 1. Especifique los [objetivos y la configuración](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) para la actividad.
 
    ![Configuración de actividades A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Si desea utilizar [Analytics para Destinatario](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) con esta actividad, consulte la información importante en [Compatibilidad de A4T para la asignación automática y actividades de Destinatario automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** o **[!UICONTROL Guardar]**.
 
