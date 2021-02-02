@@ -1,13 +1,13 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t;A4T;Analytics como fuente de informes para Target
 description: ¿Puedo utilizar A4T con actividades de Destinatario automático y asignación automática?
 title: Compatibilidad de A4T con la asignación automática y las actividades de Destinatario automático
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 1%
+source-wordcount: '838'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,8 @@ En primer lugar:
 
    * [!UICONTROL Asignar automáticamente a la mejor experiencia]
    * [!UICONTROL Destinatario automático para experiencias personalizadas]
+
+   ![Opciones de métodos de asignación de tráfico: Manual, asignación automática y Destinatario automático](/help/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
 
    Para obtener más información e instrucciones paso a paso, consulte [Creación de una actividad de asignación automática](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) y [Creación de una actividad de Destinatario automático](/help/c-activities/auto-target/create-auto-target.md).
 
