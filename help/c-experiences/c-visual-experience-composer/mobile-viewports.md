@@ -1,13 +1,13 @@
 ---
-keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
+keywords: adaptable;ventanillas móviles;ventanilla;dispositivos;móvil;diseño web interactivo;lectog
 description: Las ventanillas móviles le ayudan a previsualización la forma en que aparecen sus actividades de Adobe Target en pantallas de distintos tamaños.
-title: Ventanillas móviles para experiencias interactivas
+title: Ventanillas móviles para las experiencias adaptables
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 69%
+source-wordcount: '1453'
+ht-degree: 68%
 
 ---
 
