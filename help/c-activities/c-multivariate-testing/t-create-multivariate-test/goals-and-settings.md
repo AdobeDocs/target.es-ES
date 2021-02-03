@@ -1,18 +1,18 @@
 ---
-keywords: activity settings;goals and settings;multivariate;mvt
+keywords: configuración de actividad;objetivos y configuración;multivariable;mvt
 description: En la página Objetivos y configuración de Adobe Target puede introducir información sobre los objetivos de la prueba.
 title: Configuración y objetivos
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 93%
+source-wordcount: '1265'
+ht-degree: 92%
 
 ---
 
 
-# Configuración y objetivos (Pruebas multivariable)
+# Objetivos y configuración (Pruebas multivariable)
 
 En la página Objetivos y configuración de Adobe Target puede introducir información sobre los objetivos de las pruebas [!UICONTROL multivariadas] (MVT).
 
