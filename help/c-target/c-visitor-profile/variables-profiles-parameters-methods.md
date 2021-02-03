@@ -1,12 +1,12 @@
 ---
-keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
+keywords: variables;perfiles;parámetros;perfiles integrados;métodos;variables de url;perfiles geográficos;perfiles de terceros;variables de mbox;variables de campaña;atributos de cliente
 description: Esta página contiene una lista de perfiles, variables y parámetros que son útiles en los scripts de perfil.
 title: Glosario de perfiles y variables
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '582'
 ht-degree: 92%
 
 ---
