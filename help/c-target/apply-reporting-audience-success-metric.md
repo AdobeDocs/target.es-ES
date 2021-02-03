@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;audience;reporting;success metric
+keywords: Segmentación;audiencia;informe;métrica de éxito
 description: Elija una métrica de éxito en Adobe Target que permita al usuario entrar en la audiencia de informes.
-title: Aplicación de una audiencia de informes a una métrica de éxito en Adobe Target
-feature: success metrics
+title: Aplicar una Audiencia de Sistema de informes a una métrica de éxito
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 97%
 
 ---
 
