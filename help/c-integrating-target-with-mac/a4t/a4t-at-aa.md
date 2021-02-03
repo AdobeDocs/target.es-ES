@@ -1,10 +1,10 @@
 ---
 keywords: a4t;A4T;Analytics como fuente de informes para Target
 description: ¿Puedo utilizar A4T con actividades de Destinatario automático y asignación automática?
-title: Compatibilidad de A4T con la asignación automática y las actividades de Destinatario automático
+title: Compatibilidad de A4T con la asignación automática y las Actividades de Destinatario automático
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 2%
