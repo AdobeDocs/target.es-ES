@@ -1,12 +1,12 @@
 ---
-keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
+keywords: parpadeo;at.js;implementación;asincrónicamente;asincrónico;sincrónico;sincrónico
 description: Información sobre cómo la biblioteca de JavaScript de at.js de Adobe Target evita el parpadeo mientras se carga una página o una aplicación.
-title: Gestión de parpadeos de Adobe Target at.js
+title: Cómo gestiona at.js el parpadeo
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '660'
 ht-degree: 80%
 
 ---
