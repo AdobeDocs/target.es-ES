@@ -1,12 +1,12 @@
 ---
-keywords: settings;priority
+keywords: configuración;prioridad
 description: Adobe Target determina la actividad (o actividades) que se va a enviar a una página de forma diferente según la interfaz de Destinatario y la función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) que se esté utilizando.
-title: Prioridad en Adobe Target
+title: Prioridad
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1166'
 ht-degree: 88%
 
 ---
