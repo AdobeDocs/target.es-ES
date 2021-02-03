@@ -1,13 +1,13 @@
 ---
-keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
+keywords: entidad;atributos de entidad;pasar información a Recommendations;datos de comportamiento;contador de datos;definir URL relativa;mostrar nivel de inventario;definir precio;definir margen de beneficios;atributos personalizados
 description: Utilice los atributos de entidad para pasar información de producto o contenido a Adobe Target Recommendations.
 title: Atributos de entidad
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 92%
+source-wordcount: '1043'
+ht-degree: 93%
 
 ---
 
