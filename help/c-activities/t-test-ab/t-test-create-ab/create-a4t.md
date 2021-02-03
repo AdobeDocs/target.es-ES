@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;analytics;tracking server;analytics for target;a4t
+keywords: Segmentación;análisis;servidor de seguimiento;análisis para destinatario;a4t
 description: Puede configurar una actividad en Adobe Target Standard para utilizar Adobe Analytics como origen de sistema de informes (A4T).
-title: Usar datos de Analytics
+title: Uso de datos de Analytics
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 89%
+source-wordcount: '542'
+ht-degree: 88%
 
 ---
 
