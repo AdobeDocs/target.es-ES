@@ -1,13 +1,13 @@
 ---
-keywords: template testing;template;same experience on similar pages;template test
+keywords: probar plantillas;plantilla;misma experiencia en páginas similares;prueba de plantilla
 description: Utilice una plantilla de página en Adobe Target para proporcionar estructura a las páginas, o si las páginas contienen elementos similares, para probar las variaciones en elementos de página con una estructura similar.
-title: Incluir la misma experiencia en páginas similares con Adobe Target
+title: Incluir la misma experiencia en páginas similares
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 45%
+source-wordcount: '615'
+ht-degree: 47%
 
 ---
 
