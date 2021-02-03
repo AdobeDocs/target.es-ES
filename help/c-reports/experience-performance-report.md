@@ -1,12 +1,12 @@
 ---
-keywords: multivariate test;mvt;experience performance report
+keywords: prueba multivariable;mvt;informe de rendimiento de las experiencias
 description: El informe Rendimiento de las experiencias muestra el rendimiento de cada experiencia en la actividad. Este informe proporciona información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
 title: Informe Rendimiento de las experiencias (MVT)
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '331'
 ht-degree: 99%
 
 ---
