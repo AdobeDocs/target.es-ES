@@ -1,10 +1,10 @@
 ---
 keywords: Crear destinatario automático;Prueba A/B;actividad de destinatario automático;nueva actividad a/b;destinatario automático;destinatario automático para experiencias personalizadas;personalización
 description: Use el Compositor de experiencias visuales (VEC) en Adobe Target para crear la actividad de prueba A/B de Destinatario automático directamente en una página con Destinatario habilitado y para modificar partes de la página dentro de Destinatario.
-title: Creación de una actividad de Destinatario automático
+title: Creación de una Actividad de Destinatario automático
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 58%
