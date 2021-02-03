@@ -1,13 +1,13 @@
 ---
-keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
+keywords: implementación de aplicación de una sola página;implementar aplicación de una sola página;spa;at.js 2.x;at.js;aplicación de una sola página;aplicación de una sola página;spa;SPA
 description: Información para utilizar Adobe Target at.js 2.x para implementar Aplicaciones de una sola página (SPA).
-title: Implementación de una aplicación de una sola página en Adobe Target
+title: Implementación de aplicación de una sola página
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2769'
+ht-degree: 73%
 
 ---
 
@@ -208,9 +208,9 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 
 | Paso | Detalles |
 | --- | --- |
-| 1 | En la SPA, se llama a `triggerView()` para procesar la vista y aplicar acciones para modificar los elementos visuales. |
+| 3 | En la SPA, se llama a `triggerView()` para procesar la vista y aplicar acciones para modificar los elementos visuales. |
 | 2 | El contenido dirigido para la vista se lee desde la caché. |
-| 3 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
+| 1 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
 | 4 | La solicitud de notificación se envía al Almacenamiento de perfiles de [!DNL Target] para contar al visitante en la actividad e incrementar las métricas. |
 | 5 | Los datos de Analytics se envían a los servidores de recopilación de datos. |
 | 6 | Se comparan los datos de Target con los datos de Analytics mediante el SDID y se procesan en el almacén de informes de Analytics. Por lo tanto, los datos de Analytics se pueden visualizar tanto en Analytics como en Target mediante los informes de A4T. |
