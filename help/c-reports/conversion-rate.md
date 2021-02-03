@@ -1,12 +1,12 @@
 ---
-keywords: Targeting
+keywords: Segmentación
 description: De cada experiencia, se informa de la tasa de conversión, el alza, la confianza (relevancia estadística) y el intervalo de confianza.
 title: Tasa de conversión
 feature: Reports
 translation-type: tm+mt
-source-git-commit: f30e16bdb24268e85f6cb3739455d77f7bcb4279
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2173'
 ht-degree: 71%
 
 ---
