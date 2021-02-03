@@ -1,13 +1,13 @@
 ---
-keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
+keywords: oferta de redireccionamiento;crear oferta de redireccionamientoa;añadir oferta de html;Pasar los parámetros de URL en el redireccionamiento;Pasar mboxSessionId en el redireccionamiento (solo cuando el redireccionamiento va a un dominio diferente)
 description: ¿Puedo utilizar ofertas de redireccionamiento para hacer que un explorador redirija a una nueva página?
 title: Crear ofertas de redireccionamiento
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 47%
+source-wordcount: '1183'
+ht-degree: 49%
 
 ---
 
