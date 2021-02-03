@@ -1,13 +1,13 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+keywords: páginas del sitio;páginas del sitio de destinatario;objetivo;página actual;página actual de destinatario;página anterior;página anterior de destinatario;página de aterrizaje;página de aterrizaje de destinatario;encabezado http
 description: Puede destinatario visitantes que se encuentren en una página específica del sitio.
-title: Opciones de páginas del sitio en audiencias de Adobe Target
-feature: audiences
+title: Opciones de páginas del sitio en Audiencias
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 43%
+source-wordcount: '883'
+ht-degree: 42%
 
 ---
 
