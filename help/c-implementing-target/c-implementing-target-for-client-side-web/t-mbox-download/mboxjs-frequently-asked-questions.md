@@ -1,12 +1,12 @@
 ---
-keywords: mbox.js faq;mbox.js frequently asked questions;document.write;tt.omtrdc.net;parser blocking
+keywords: preguntas frecuentes sobre mbox.js;faq;mbox.js;document.write;tt.omtrdc.net;analizador bloqueado
 description: Respuestas a las preguntas más frecuentes sobre mbox.js.
 title: Preguntas más frecuentes de mbox.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '408'
 ht-degree: 80%
 
 ---
