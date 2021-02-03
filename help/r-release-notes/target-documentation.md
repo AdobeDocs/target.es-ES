@@ -1,12 +1,12 @@
 ---
-keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
-description: La documentación de Adobe Target se proporciona en varios formatos, como descripciones generales, tutoriales y guías para la interfaz de usuario, SKD y API.
-title: Anuncios de destinatario
+keywords: adobe destinatario;destinatario;documentación;api;apis;sdk;sdks;tutoriales;doc;documentación
+description: ¿Dónde puedo encontrar la documentación de Destinatario?
+title: Información general de la documentación
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
