@@ -1,13 +1,13 @@
 ---
-keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
+keywords: diagrama del sistema;parpadeo;at.js;implementación;biblioteca javascript;js;atjs
 description: Diagrama del sistema de Adobe Target que muestra el flujo de llamadas e información enviadas o recopiladas para un mbox global creado automáticamente usando at.js.
-title: Funcionamiento de la biblioteca JavaScript de Adobe Target at.js
+title: Funcionamiento de la biblioteca de JavaScript de at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 88%
+source-wordcount: '1113'
+ht-degree: 87%
 
 ---
 
