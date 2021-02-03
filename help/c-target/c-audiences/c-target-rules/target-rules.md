@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
+keywords: Segmentación;categorías de objetivos;condiciones de segmentación;administrador de audiencias;parámetros de perfil personalizados;perfil de visitante;parámetros de usuario personalizados;reglas de segmentación
 description: Se pueden tener varias categorías de objetivos. Cada una de ellas funciona como una ficha que le permite crear reglas de objetivos (o grupos) para cada categoría.
 title: Categorías para audiencias
-feature: audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '386'
 ht-degree: 98%
 
 ---
