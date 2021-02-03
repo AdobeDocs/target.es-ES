@@ -1,12 +1,12 @@
 ---
-keywords: api;apis;admin api;delivery api;reporting api;profile api
+keywords: api;apis;admin api;envío api;sistema de informes api;perfil api
 description: Información sobre las API de Adobe Target, incluidas las API de administración, Envío, Sistema de informes y Perfil.
-title: Información general sobre la API de Adobe Target
-feature: APIs/SDKss/SDKs
+title: Información general de la API de Adobe Target
+feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
