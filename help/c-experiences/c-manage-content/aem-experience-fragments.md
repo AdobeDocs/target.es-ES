@@ -1,12 +1,12 @@
 ---
-keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
+keywords: experiencia;json;aem;adobe experience manager;exportar a adobe destinatario;fragmentos de experiencia;fragmentos;XF
 description: ¿Cómo puedo utilizar fragmentos de experiencia AEM en actividades de Destinatario?
-title: Fragmentos de experiencia de Adobe Experience Manager (AEM) en Adobe Target
+title: Fragmentos de experiencia de Adobe Experience Manager (AEM)
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1112'
 ht-degree: 29%
 
 ---
