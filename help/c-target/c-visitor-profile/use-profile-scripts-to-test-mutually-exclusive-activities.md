@@ -1,13 +1,13 @@
 ---
-keywords: Profile script;profile script attributes;mutually exclusive activities
+keywords: script de perfil;atributos de script de perfil;actividades mutuamente excluyentes
 description: Puede usar atributos de perfil para definir pruebas que comparen dos o más actividades, pero sin permitir que los mismos visitantes participen en cada una de ellas.
-title: Utilice secuencias de comandos de perfil para probar actividades mutuamente excluyentes
-feature: visitor profiles
+title: Usar secuencias de comandos de Perfil para probar Actividades mutuamente exclusivas
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 81%
+source-wordcount: '694'
+ht-degree: 80%
 
 ---
 
