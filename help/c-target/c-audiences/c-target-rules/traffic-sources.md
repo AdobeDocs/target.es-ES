@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
+keywords: Segmentación;fuentes de tráfico;fuentes de tráfico de Target;motor de búsqueda Target;motor de búsqueda;página de destino;página de destino Target;página de destino de referencia
 description: Cree audiencias en Adobe Target para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
-title: Opciones de fuentes de tráfico en audiencias de Adobe Target
-feature: audiences
+title: Opciones de fuentes de tráfico en Audiencias
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '252'
+ht-degree: 97%
 
 ---
 
