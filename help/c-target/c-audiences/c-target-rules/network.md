@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
+keywords: segmentación;red;red de target;isp;nombre de dominio;velocidad de conexión;isp de target;nombre de dominio de target;velocidad de conexión de target
 description: Puede crear audiencias en Adobe Target basadas en los detalles de la red.
-title: Opciones de red en audiencias de Adobe Target
-feature: audiences
+title: Opciones de red en Audiencias
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '497'
 ht-degree: 98%
 
 ---
