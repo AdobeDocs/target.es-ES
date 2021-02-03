@@ -1,13 +1,13 @@
 ---
-keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
+keywords: informe;informes;sistema de informes;solución de Experience Cloud;huso horario;moneda;excluir direcciones IP;alza estimada de ingresos;ingresos;alza de ingresos;prioridades específicas;prioridades específicas
 description: Configure las opciones generales para utilizarlas en Adobe Target sistema de informes que se aplican a toda la cuenta de Destinatario. Puede configurar la solución de Adobe Experience Cloud para utilizarla en sistema de informes (Destinatario o Analytics), el huso horario y el formato de moneda que se va a utilizar para el sistema de informes, las direcciones IP que se van a excluir del sistema de informes y si se va a mostrar el alza estimada de los ingresos y las prioridades específicas en sistema de informes.
-title: Configurar sistema de informes en Adobe Target
+title: Configurar Sistema de informes
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 31%
+source-wordcount: '728'
+ht-degree: 30%
 
 ---
 
