@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations;offer
+keywords: Recommendations;oferta
 description: Adobe Recommendations como oferta en pruebas A/B (incluidas Asignación automática y Segmentación automática) y actividades de segmentación de experiencias (XT)
-title: Adobe Recommendations como oferta en pruebas A/B (incluidas Asignación automática y Segmentación automática) y actividades de segmentación de experiencias (XT)
+title: Recommendations como Oferta en pruebas A/B (incluidas la asignación automática y el Destinatario automático) y Actividades de segmentación de experiencias (XT)
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 98%
+source-wordcount: '557'
+ht-degree: 95%
 
 ---
 
