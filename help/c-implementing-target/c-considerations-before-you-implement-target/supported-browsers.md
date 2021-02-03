@@ -1,12 +1,12 @@
 ---
-keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
+keywords: requisitos previos;requisitos;exploradores;internet explorer;chrome;firefox;safari;android;surface
 description: La aplicación y la entrega de contenido de Adobe Target se han probado en un amplio abanico de navegadores y dispositivos.
-title: Navegadores admitidos
+title: Exploradores admitidos
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '309'
 ht-degree: 86%
 
 ---
