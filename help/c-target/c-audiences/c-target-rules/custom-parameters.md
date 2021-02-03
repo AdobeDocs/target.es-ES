@@ -1,12 +1,12 @@
 ---
-keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
+keywords: parámetros personalizados;parámetros personalizados de target;targetpageparams;segmentación de parámetros mbox
 description: Los parámetros personalizados son parámetros mbox. Si pasa algún parámetro mbox a mboxes, o usa la función targetPageParams, ese parámetro aparece aquí para su uso en audiencias.
-title: Parámetros personalizados en Adobe Target
-feature: audiences
+title: Parámetros personalizados
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '418'
 ht-degree: 90%
 
 ---
