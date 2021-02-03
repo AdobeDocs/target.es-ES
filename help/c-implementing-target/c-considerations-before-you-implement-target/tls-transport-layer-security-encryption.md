@@ -1,12 +1,12 @@
 ---
-keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
+keywords: tls;tls 1.0;seguridad de capa de transporte;cifrado;tls 1.1;tls 1.2
 description: Información sobre cambios en la forma en que Adobe y Target usan TLS (Seguridad de capa de transporte) para mantener los más altos estándares de seguridad y promover la seguridad de los datos de los clientes.
-title: Cambios en el cifrado de TLS (Seguridad de capa de transporte)
+title: Cambios en el cifrado de TLS (Seguridad de capa de transporte).
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1238'
 ht-degree: 62%
 
 ---
