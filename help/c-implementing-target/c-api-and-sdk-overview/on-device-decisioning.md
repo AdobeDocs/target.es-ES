@@ -1,12 +1,12 @@
 ---
-keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: 'La toma de decisiones en el dispositivo permite almacenar en caché las actividades de Adobe Target A/B y de Segmentación de experiencias (XT) en el servidor y tomar decisiones en la memoria con una latencia cercana a cero, sin bloquear las solicitudes de red a Adobe Target Edge Network. '
+keywords: lado del servidor;lado del servidor;sdk;sdks;en el dispositivo;toma de decisiones;en el dispositivo;en el dispositivo;en el dispositivo;en la latencia cero;en la latencia;cerca de cero;nodo.js
+description: La toma de decisiones en el dispositivo permite almacenar en caché las actividades de Adobe Target A/B y de Segmentación de experiencias (XT) en el servidor y tomar decisiones en la memoria con una latencia cercana a cero, sin bloquear las solicitudes de red a Adobe Target Edge Network.
 title: Toma de decisiones en el dispositivo
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
