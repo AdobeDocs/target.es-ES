@@ -1,13 +1,13 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+keywords: asignación automática de tráfico;objetivo;ganador;garantía estadística;confianza;determinar ganador;alza;confianza;valor predeterminado;experiencia predeterminada;asignación automática;asignación automática
 description: Interprete los resultados de una actividad A/B de asignación automática en Adobe Target examinando indicadores importantes, incluidos el alza y la confianza.
 title: Interpretar informes de asignación automática
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 48%
+source-wordcount: '1130'
+ht-degree: 47%
 
 ---
 
