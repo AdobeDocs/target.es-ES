@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
+keywords: solución de problemas;discrepancias de métricas;Preguntas más frecuentes;informes;nuevo visitante;nuevos visitantes;visitante de retorno;visitantes de retorno;visita de retorno;nueva visita
 description: Lista de las preguntas frecuentes sobre los informes en Adobe Target.
-title: Preguntas frecuentes sobre los informes de Adobe Target
+title: Preguntas más frecuentes sobre la creación de informes
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 31%
+source-wordcount: '1124'
+ht-degree: 30%
 
 ---
 
