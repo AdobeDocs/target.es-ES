@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target library;library
+keywords: Segmentación;biblioteca de segmentos;biblioteca
 description: Usuarios de Target según las reglas de segmentación prediseñadas.
-title: Opciones de biblioteca de destinatario en audiencias de Adobe Target
-feature: audiences
+title: Biblioteca de segmentos Opciones en Audiencias
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 96%
+source-wordcount: '185'
+ht-degree: 98%
 
 ---
 
