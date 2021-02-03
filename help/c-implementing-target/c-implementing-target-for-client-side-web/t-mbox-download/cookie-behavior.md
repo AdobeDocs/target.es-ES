@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;webkit
+keywords: Información general y referencia;webkit
 description: El comportamiento de la cookie depende de si es una cookie de origen, una cookie de terceros con una cookie de origen o solo una cookie de terceros.
-title: Cookies mbox.js
-feature: null
+title: Cookies de mbox.js
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1642'
 ht-degree: 94%
 
 ---
