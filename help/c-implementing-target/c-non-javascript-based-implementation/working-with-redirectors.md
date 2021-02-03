@@ -1,12 +1,12 @@
 ---
-keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
+keywords: Implementación;mbox.js sin javascript;redirector;costes por clic;ingresos por clic
 description: Use un redirector de forma similar a como se usa un mbox en las pruebas.
 title: Trabajar con redirectores
-feature: email implementation
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '670'
 ht-degree: 69%
 
 ---
