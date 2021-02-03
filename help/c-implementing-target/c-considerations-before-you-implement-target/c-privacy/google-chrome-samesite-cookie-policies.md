@@ -1,12 +1,12 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Información sobre Adobe Target y el estándar SameSite IETF introducido con Google Chrome versión 80.
-title: Directivas de cookies de Adobe Target y Google SameSite
+title: Políticas de cookies de Samesite de Google
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2033'
+source-wordcount: '2035'
 ht-degree: 8%
 
 ---
@@ -46,7 +46,7 @@ Aunque las cookies mejoran la experiencia del usuario y la publicidad potente, t
 
 Con todo lo dicho, veamos cómo [!DNL Target] utiliza las cookies. Para poder utilizar [!DNL Target] en primer lugar, debe instalar la biblioteca de JavaScript [!DNL Target] en el sitio. Esto le permite colocar una cookie de origen en el explorador del usuario que visita el sitio. A medida que el usuario interactúa con su sitio web, puede pasar los datos de comportamiento e interés del usuario a [!DNL Target] a través de la biblioteca JavaScript. La biblioteca [!DNL Target] de JavaScript utiliza cookies de origen para extraer información de identificación del usuario y asignarla a los datos de comportamiento e interés del usuario. A continuación, [!DNL Target] utiliza estos datos para alimentar sus actividades de personalización.
 
-Destinatario también (a veces) utiliza cookies de terceros. Si tiene varios sitios web que viven en diferentes dominios y desea rastrear el viaje del usuario en esos sitios web, puede utilizar cookies de terceros mediante el seguimiento entre dominios. Al habilitar el seguimiento entre dominios en la biblioteca JavaScript [!DNL Target], su cuenta utilizará inicios mediante cookies de terceros. A medida que un usuario va de un dominio a otro, el explorador se comunica con el servidor back-end de [!DNL Target] y, en este proceso, se crea una cookie de terceros y se coloca en el explorador del usuario. A través de la cookie de terceros que reside en el explorador del usuario, [!DNL Target] puede ofrecer una experiencia consistente en distintos dominios para un único usuario.
+Destinatario también (a veces) utiliza cookies de terceros. Si posee varios sitios web que residen en diferentes dominios y desea rastrear el recorrido de los usuarios en dichos sitios web, puede utilizar las cookies de terceros mediante el seguimiento entre dominios. Al habilitar el seguimiento entre dominios en la biblioteca JavaScript [!DNL Target], su cuenta utilizará inicios mediante cookies de terceros. A medida que un usuario va de un dominio a otro, el explorador se comunica con el servidor back-end de [!DNL Target] y, en este proceso, se crea una cookie de terceros y se coloca en el explorador del usuario. A través de la cookie de terceros que reside en el explorador del usuario, [!DNL Target] puede ofrecer una experiencia consistente en distintos dominios para un único usuario.
 
 ## Nueva fórmula de cookie de Google
 
