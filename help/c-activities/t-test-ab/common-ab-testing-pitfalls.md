@@ -1,13 +1,13 @@
 ---
-keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
+keywords: AB;A/B;AB...n;errores;escollos;error;escollo;relevancia;ganador;diferencia estadística;potencia estadística;asignación de tráfico;asignación;
 description: Las pruebas A/B en Adobe Target constituyen la columna vertebral de la mayoría de los programas de optimización de marketing digital, lo que ayuda a los especialistas en marketing a ofrecer a sus visitantes y clientes experiencias optimizadas y dirigidas a la oferta. Esta sección describe nueve de los escollos más significativos a los que se enfrentan las compañías al realizar pruebas A/B en Adobe Target. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
 title: Nueve escollos comunes de las pruebas A/B y cómo evitarlos
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3922'
-ht-degree: 87%
+source-wordcount: '3940'
+ht-degree: 86%
 
 ---
 
