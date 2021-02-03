@@ -1,13 +1,13 @@
 ---
-keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
+keywords: mobile;tntVal;analytics;adobe analytics;integración;sdk;sdk móvil;
 description: En esta sección se describe cómo enviar la información de actividad de aplicaciones móviles de Adobe Target a Adobe Analytics para la segmentación posterior a Ahoc.
-title: Enviar información de actividad de Adobe Target a Adobe Analytics
-feature: mobile implementation
+title: Enviar información de Actividad a Adobe Analytics
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 34%
+source-wordcount: '373'
+ht-degree: 33%
 
 ---
 
@@ -57,7 +57,7 @@ En esta sección se describe cómo enviar [!DNL Target] información de activida
 
    Analice la respuesta que regresó de [!DNL Target] en la llamada de retorno. Puede utilizar `NSJSONSerialization` para analizar esta respuesta y almacenarla en un diccionario o una matriz.
 
-   Para obtener más información, consulte la [documentación de &lt;a0/>NSJSONSerialización](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error).
+   Para obtener más información, consulte la [documentación de NSJSONSerialización](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error).
 
 1. Envíe los datos a [!DNL Analytics].
 
