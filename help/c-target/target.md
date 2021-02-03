@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;audiences;percentage target
+keywords: Segmentación;audiencias;segmento de porcentaje
 description: Utilice audiencias en Adobe Target para segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado.
-title: Audiencias en Adobe Target
-feature: audiences
+title: Audiencias
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 99%
 
 ---
