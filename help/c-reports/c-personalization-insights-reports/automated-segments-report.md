@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
+keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes
 description: Información sobre el informe Segmentos automatizados, uno de los dos informes especializados disponibles para los usuarios de actividades de Automated Personalization (AP) y Destinatario automático (AT) en Adobe Target.
 title: Informe Segmentos automatizados
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2125'
 ht-degree: 92%
 
 ---
