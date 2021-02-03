@@ -1,13 +1,13 @@
 ---
-keywords: troubleshoot target;troubleshooting target;users;user management
+keywords: resolver problemas en target;resolución de problemas de target;usuarios;administración de usuarios
 description: Información sobre la resolución de problemas de la administración de usuarios en Adobe Target.
-title: Solución de problemas de administración de usuarios en Adobe Target
+title: Resolución de problemas de administración de usuarios
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 25%
+source-wordcount: '79'
+ht-degree: 32%
 
 ---
 
