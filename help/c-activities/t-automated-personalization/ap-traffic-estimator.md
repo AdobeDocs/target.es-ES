@@ -1,12 +1,12 @@
 ---
-keywords: traffic estimator;automated personalization;ap;estimate traffic
+keywords: estimador de tráfico;personalización automatizada;ap;estimación de tráfico
 description: El estimador de tráfico proporciona comentarios que le permiten saber si tiene tráfico suficiente para que la actividad de Adobe Target tenga éxito.
 title: Calcular el tráfico necesario para realizar una prueba con éxito
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '738'
 ht-degree: 25%
 
 ---
