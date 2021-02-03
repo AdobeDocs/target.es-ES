@@ -1,13 +1,13 @@
 ---
-keywords: Experience Targeting;Landing Page Test
+keywords: Segmentación de experiencias;prueba de página de destino
 description: Un selector de elementos es una expresión CSS que puede identificar un elemento o más.
-title: Selectores de elementos utilizados en el Compositor de experiencias visuales
+title: Selectores de elementos utilizados en el Compositor de experiencias visuales (VEC)
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 90%
+source-wordcount: '412'
+ht-degree: 91%
 
 ---
 
