@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
+keywords: preguntas frecuentes;faq;analytics para target;a4T;informe;informes;visualización de informes;creación de informes;metodología de contabilización;impresiones;visitantes;visitas;métrica predeterminada;conversiones de actividad;sin especificar
 description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la visualización de informes al usar Analytics como fuente de informes para Target (A4T).
-title: 'Visualización de informes: preguntas más frecuentes sobre A4T'
+title: 'Informes de vista: Preguntas más frecuentes sobre A4T'
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2368'
 ht-degree: 55%
 
 ---
@@ -89,26 +89,26 @@ El 1 de enero, el usuario llega al sitio, ve la actividad XYZ una vez y, despué
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 3 | 1 |
 
 El usuario vuelve el 1 de febrero y ve otras cinco páginas. No encuentra más actividades de Target y la actividad original ya no está activa. Aunque ya no está activa, la actividad todavía sigue al usuario mediante la persistencia de eVar. Los datos de este momento son estos:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 3 |
 
 El usuario vuelve el 1 de marzo y ve una actividad nueva: ABC. Esta vez también ve cinco páginas. Como la actividad XYZ todavía sigue al usuario mediante la persistencia y este ve después la actividad ABC, observaremos dos líneas en el informe:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 3 | 3 |
+| ABC | 1 | 5 | 3 | 1 |
 
 El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. El periodo de caducidad de 90 días del primer valor de eVar se restableció el 1 de abril y esto se refleja en el informe. Se atribuye el origen de la conversión a todas las actividades de Target que el usuario ve, pero el número total de conversiones se desduplica:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 1 |
+| XYZ | 3 | 20 | 4 | 1 | 3 |
 | ABC | 3 | 10 | 2 | 1 | 1 |
 | Total | 2 | 20 | 1 | 1 | 1 |
 
