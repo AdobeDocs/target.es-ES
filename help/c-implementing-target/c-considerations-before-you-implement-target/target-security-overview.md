@@ -1,18 +1,18 @@
 ---
-keywords: security;security practices
+keywords: seguridad;prácticas de seguridad
 description: Información sobre los exhaustivos métodos y procedimientos de seguridad implementados por Adobe para reforzar la seguridad de sus datos y de la experiencia en Adobe Target.
-title: Información general sobre la seguridad de Target
+title: Información general de seguridad
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 92%
 
 ---
 
 
-# Target descripción general de seguridad
+# Información general sobre la seguridad de Target
 
 Información sobre los exhaustivos métodos y procedimientos de seguridad implementados por [!DNL Adobe] para reforzar la seguridad de sus datos y de la experiencia en [!DNL Adobe Target].
 
