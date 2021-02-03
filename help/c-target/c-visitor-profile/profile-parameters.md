@@ -1,13 +1,13 @@
 ---
-keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
+keywords: script de perfil;atributos de script de perfil;prácticas recomendadas de script de perfil;depurar;depuración;secuencias de comandos;secuencias de comandos de perfil;atributos;atributo;parámetro
 description: Los atributos de perfil son parámetros específicos del visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información acerca de ese visitante que puede utilizar en sus actividades de Adobe Target.
-title: Atributos de perfil en Adobe Target
-feature: visitor profiles
+title: Atributos de perfil
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 78%
+source-wordcount: '2460'
+ht-degree: 77%
 
 ---
 
