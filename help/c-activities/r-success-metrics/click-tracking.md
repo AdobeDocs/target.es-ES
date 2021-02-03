@@ -1,12 +1,12 @@
 ---
-keywords: Click tracking;track clicks;clicks;AppMeasurement
+keywords: Rastreo de clics;rastrear clics;clics;AppMeasurement
 description: Adobe Target permite rastrear los clics en cualquier elemento como una métrica de éxito.
 title: Rastreo de clics
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '881'
 ht-degree: 92%
 
 ---
