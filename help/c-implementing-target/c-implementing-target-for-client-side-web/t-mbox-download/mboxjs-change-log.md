@@ -1,12 +1,12 @@
 ---
-keywords: mbox.js changes;mbox.js versions
+keywords: cambios de mbox.js;versiones de mbox.js
 description: Esta página muestra cambios realizados a cada versión de mbox.js.
-title: Detalles de la versión de mbox.js
-feature: null
+title: Detalles de las versiones de mbox.js
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2397'
 ht-degree: 95%
 
 ---
