@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
+keywords: implementar;implementación;lista blanca;lista blanca;lista de permitidos;lista de permitidos;borde;bordes
 description: Lista de permitidos de nodos Edge de Adobe Target
-title: Lista de permitidos de nodos Edge de Adobe Target
+title: Nodos de borde de Destinatario de lista de permitidos
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
