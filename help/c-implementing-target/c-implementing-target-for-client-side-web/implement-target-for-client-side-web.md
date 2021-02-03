@@ -1,13 +1,13 @@
 ---
-keywords: implement;implementation;at.js;adobe experience platform web sdk;aep web sdk
+keywords: implementar;implementación;at.js;adobe experience platform web sdk;aep web sdk
 description: Información sobre la implementación de Adobe Target para la Web del cliente mediante at.js.
-title: Implementación de Adobe Target para la web del lado del cliente
+title: Implementar Adobe Target para la Web del cliente
 feature: at.js
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 20%
+source-wordcount: '341'
+ht-degree: 18%
 
 ---
 
