@@ -1,14 +1,14 @@
 ---
-keywords: automated personalization;offers;target;audience;targeting rules;targeting
+keywords: personalización automatizada;ofertas;destinatario;audiencia;reglas de objetivo;segmentación
 description: En una actividad de Personalización automatizada, puede segmentar las ofertas a audiencias específicas.
-title: Ofertas de personalización automatizada de Target en Adobe Target
+title: 'ofertas de Automated Personalization '
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 96%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
