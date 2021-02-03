@@ -1,12 +1,12 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
+keywords: destinatario automático;segmentación;asignación de tráfico;preguntas más frecuentes;preguntas más frecuentes;preguntas más frecuentes;solución de problemas;resolución de problemas;tráfico
 description: Resolución de problemas y preguntas más frecuentes sobre el Destinatario automático en Adobe Target.
 title: Solución de problemas de Destinatario automático y preguntas más frecuentes
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1914'
 ht-degree: 68%
 
 ---
