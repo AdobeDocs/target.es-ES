@@ -1,12 +1,12 @@
 ---
-keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
+keywords: correo electrónico;ESP;proveedor de servicio de correo electrónico;rawbox;api de envío;plantilla de solo descarga;plantilla de correo electrónico;procesamiento por lotes;hora de creación del correo electrónico
 description: Información acerca del modo de integrar el correo electrónico con Recommendations.
-title: Integrar Recommendations con el correo electrónico
+title: Integrar Recommendations con correo electrónico
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1475'
 ht-degree: 92%
 
 ---
