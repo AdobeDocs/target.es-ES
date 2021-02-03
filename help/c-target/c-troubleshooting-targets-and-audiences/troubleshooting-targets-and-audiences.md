@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
+keywords: resolución de problemas;preguntas más frecuentes;FAQ;FAQs;objetivos;audiencias
 description: Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
-title: Preguntas más frecuentes sobre audiencias y segmentación
-feature: audiences
+title: Preguntas más frecuentes sobre destinatarios y Audiencias
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 69%
+source-wordcount: '942'
+ht-degree: 68%
 
 ---
 
