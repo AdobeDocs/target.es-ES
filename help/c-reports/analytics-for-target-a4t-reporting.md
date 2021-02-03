@@ -1,12 +1,12 @@
 ---
-keywords: analytics for target;a4t;analytics as the reporting source
+keywords: analytics for target, a4t, analytics como origen de informes
 description: El uso de Analytics como fuente de informes para Target (A4T) permite acceder a informes de Analytics para sus actividades de Target.
 title: Creación de informes en Analytics for Target (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '87'
 ht-degree: 100%
 
 ---
