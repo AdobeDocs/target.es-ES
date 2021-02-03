@@ -1,13 +1,13 @@
 ---
-keywords: automated personalization;offer;reporting;group;reporting group
+keywords: personalización automatizada;oferta;sistema de informes;grupo;grupo de sistemas de informes
 description: Información sobre el uso de grupos de sistemas de informes en actividades de Automated Personalization (AP) en Adobe Target.
-title: Grupos de sistemas de informes de oferta en actividades Automated Personalization (AP) en Adobe Target
+title: Grupos de Sistemas de informes de oferta en Actividades Automated Personalization (AP)
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 64%
+source-wordcount: '433'
+ht-degree: 63%
 
 ---
 
