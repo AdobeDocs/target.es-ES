@@ -1,13 +1,13 @@
 ---
-keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
-description: Las actividades de Automated Personalization (AP) en Adobe Target combinan ofertas o mensajes, y utilizan aprendizaje automático avanzado para hacer coincidir las distintas variaciones de oferta con cada visitante en función del perfil del cliente, con el fin de personalizar el contenido y dirigir el alza.
-title: Personalización automatizada
+keywords: personalización automatizada;ap;audiencias;ensemble;bosque aleatorio;multi-armed bandit;muestreador thompson;ml;aprendizaje automático
+description: Aprenda a utilizar actividades de Automated Personalization (AP) en Adobe Target que utilizan aprendizaje automático avanzado para hacer coincidir distintas variaciones de oferta con cada visitante.
+title: ¿Qué es una Actividad de Automated Personalization (AP)?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 89%
+source-wordcount: '1032'
+ht-degree: 88%
 
 ---
 
