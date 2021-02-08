@@ -1,13 +1,13 @@
 ---
 keywords: faq;preguntas frecuentes;analytics para target;a4T;alza;específicos;creador de informes;confianza
-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el alza y la confianza al usar Analytics como fuente de informes para Target (A4T).
-title: 'Alza Y Confianza: Preguntas más frecuentes sobre A4T'
+description: Encuentre respuestas a preguntas sobre alza y confianza al usar Analytics para Destinatario (A4T). A4T le permite utilizar sistema de informes de Analytics para actividades de Destinatario.
+title: ¿Dónde puedo encontrar información sobre el alza y la confianza con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 50%
+source-wordcount: '517'
+ht-degree: 45%
 
 ---
 
