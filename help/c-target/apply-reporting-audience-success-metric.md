@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación;audiencia;informe;métrica de éxito
-description: Elija una métrica de éxito en Adobe Target que permita al usuario entrar en la audiencia de informes.
-title: Aplicar una Audiencia de Sistema de informes a una métrica de éxito
+description: Descubra cómo elegir una métrica de éxito en Adobe Target que califique al usuario para la audiencia de sistema de informes.
+title: ¿Puedo Aplicar una Audiencia de Sistema de informes a una métrica de éxito?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 97%
+source-wordcount: '297'
+ht-degree: 90%
 
 ---
 
