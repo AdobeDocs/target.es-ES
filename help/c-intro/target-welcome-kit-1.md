@@ -1,12 +1,12 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de destinatario;introducción;introducción;introducción
-description: Kit de bienvenida de Adobe Target - Capítulo 1 - Introducción
-title: Kit de bienvenida - Capítulo 1 - Introducción
+description: Haga clic en inicio su programa de optimización y personalización con Adobe Target. El kit de bienvenida de Adobe Target es un buen punto de partida.
+title: ¿Cómo empiezo con el Destinatario?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
