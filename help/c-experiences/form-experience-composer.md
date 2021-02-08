@@ -1,13 +1,13 @@
 ---
-keywords: form-based experience composer;form-based composer;refinements
-description: El Compositor de experiencias basadas en formularios de Adobe Target proporciona la creación de experiencias no visuales.
-title: Compositor de experiencias basadas en formularios
+keywords: compositor de experiencias basadas en formularios;compositor basado en formularios;refinamientos
+description: Aprenda a utilizar el Compositor de experiencias basadas en formularios de Adobe Target para la creación de experiencias no visuales. Utilice este compositor cuando el VEC no esté disponible o no sea práctico de usar.
+title: ¿Cómo se usa el Compositor de experiencias basadas en formularios?
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 68%
+source-wordcount: '801'
+ht-degree: 66%
 
 ---
 
