@@ -1,13 +1,14 @@
 ---
 keywords: implementar;implementación;administrador de etiquetas;dtm;at.js;dynamic tag management
-description: Dynamic Tag Management (DTM) es el administrador de etiquetas heredado de Adobe.
-title: Implementación de mediante Dynamic Tag Management (DTM)
+description: Obtenga información sobre cómo implementar la biblioteca at.js de Adobe Target mediante la administración dinámica de etiquetas (DTM) heredada. Adobe Launch es el método preferido para implementar Destinatario.
+title: ¿Puedo implementar Destinatario mediante la administración dinámica de etiquetas (DTM)?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 93%
+source-wordcount: '112'
+ht-degree: 64%
 
 ---
 
