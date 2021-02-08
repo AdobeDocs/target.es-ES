@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación de experiencias;xt;url de actividad;url
-description: La URL de Actividad determina la página que se utiliza en la actividad de Adobe Target Experience Targeting y que se abre en el Compositor de experiencias visuales (VEC) o en el Compositor de experiencias basadas en formularios cuando se diseña la actividad.
-title: Dirección URL de actividad
+description: Obtenga información sobre cómo especificar la dirección URL de Actividad que determina la página que se utiliza en la prueba y que se abre cuando la actividad de segmentación de experiencias se ha diseñado con Adobe Target.
+title: ¿Cuál es la dirección URL de Actividad en una Actividad de segmentación de experiencias (XT)?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 65%
+source-wordcount: '291'
+ht-degree: 63%
 
 ---
 
