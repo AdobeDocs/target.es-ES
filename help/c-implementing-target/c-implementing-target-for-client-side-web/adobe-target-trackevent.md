@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;rastrear evento;at.js;funciones;función;preventDefault;preventdefault;evitar prederminado
-description: Información sobre la función adobe.target.trackEvent(options) para la biblioteca JavaScript at.js de Adobe Target.
-title: Adobe.Target.Trackevent(Options)
+description: Utilice la función adobe.destinatario.trackEvent() de la biblioteca JavaScript de Adobe Target at.js para activar una solicitud de informe de acciones de usuario, como clics y conversiones en el sitio.
+title: ¿Cómo se usa la función adobe.destinatario.trackEvent()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 79%
+source-wordcount: '329'
+ht-degree: 70%
 
 ---
 
