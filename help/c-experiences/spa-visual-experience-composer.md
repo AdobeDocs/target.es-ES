@@ -1,13 +1,13 @@
 ---
-keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
-description: El Compositor de experiencias visuales (VEC) para aplicaciones de una sola página (SPA) en Adobe Target permite que los expertos en marketing creen pruebas y personalicen el contenido de las SPA de forma independiente sin tener que depender del desarrollo continuo. El VEC puede usarse para crear actividades en los marcos más populares, como React y Angular.
-title: Compositor de experiencias visuales para aplicaciones de una sola página (SPA)
+keywords: vec spa;react;angular;react.js;compositor de experiencias visuales para spa;opciones de compositor de experiencias visuales para spa;aplicaciones de una sola página;aplicación de una sola página;spa;opciones de experiencias móviles;vista de target
+description: Aprenda a utilizar el VEC SPA en Adobe Target para crear pruebas y personalizar el contenido en SPA de una forma que haga usted mismo sin dependencias de desarrollo continuas.
+title: ¿Cómo se usa el Compositor de experiencias visuales de una sola página (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3692'
-ht-degree: 92%
+source-wordcount: '3699'
+ht-degree: 91%
 
 ---
 
@@ -409,7 +409,7 @@ La siguiente ilustración muestra el flujo de Target: carga de página en at.js 
 
 **Resultado**: El usuario ve el color de fondo verde en la vista Inicio. Cuando el usuario navega a [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, el color de fondo azul del botón se ve porque la acción se almacena en la caché del explorador en la vista Productos.
 
-Nota: El usuario que navegaba a [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) no activaba una carga de página.
+Nota: El usuario que navegaba a [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) no déclencheur una carga de página.
 
 **Recorrido del usuario número 2**
 
