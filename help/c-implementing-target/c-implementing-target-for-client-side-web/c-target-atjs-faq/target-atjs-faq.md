@@ -1,13 +1,14 @@
 ---
 keywords: preguntas frecuentes;faq sobre at.js;preguntas frecuentes sobre at.js;parpadeo;cargador;cargador de páginas;dominios cruzados;dominio cruzado;tamaño de archivo;dominio x;at.js y mbox.js;solo x;safari;una sola página;aplicación de una sola página;spa;selectores desaparecidos;selectores;tt.omtrdc.net;Adobe Experience Manager;AEM;dirección ip;solo http;solo Http;ip;segura;dominio de cookie
-description: Respuestas a las preguntas más frecuentes sobre la biblioteca de JavaScript de Adobe Target at.js.
-title: Preguntas más frecuentes de at.js
+description: Lea las respuestas a las preguntas más frecuentes sobre la biblioteca JavaScript de Adobe Target at.js.
+title: ¿Qué son las preguntas y respuestas comunes sobre at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2698'
-ht-degree: 94%
+source-wordcount: '2703'
+ht-degree: 93%
 
 ---
 
