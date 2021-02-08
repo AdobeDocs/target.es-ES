@@ -1,13 +1,13 @@
 ---
 keywords: Objetivo y configuración;objetivo;prioridad;duración
-description: Utilice la Configuración de Actividad en Adobe Target para administrar el objetivo, la prioridad y la duración de sus actividades.
-title: Configuración de actividades
+description: Obtenga información sobre cómo utilizar la configuración de Actividad en Adobe Target para administrar el objetivo, la prioridad y la duración de sus actividades.
+title: ¿Cómo se especifica la configuración de Actividad?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 82%
+source-wordcount: '416'
+ht-degree: 80%
 
 ---
 
