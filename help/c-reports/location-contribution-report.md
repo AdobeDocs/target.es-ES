@@ -1,13 +1,13 @@
 ---
 keywords: mvt;prueba multivariable;informe de contribución de ubicación
-description: El informe Contribución de ubicación muestra el rendimiento de cada elemento y cada oferta.
-title: Informe Contribución de ubicación (MVT)
+description: Descubra cómo utilizar el informe Contribución de ubicación para las actividades de segmentación de experiencias de Adobe Target que muestra el rendimiento de cada elemento y cada oferta.
+title: ¿Cómo se utiliza el informe Contribución de ubicación para las pruebas multivariadas?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 99%
+source-wordcount: '219'
+ht-degree: 83%
 
 ---
 
