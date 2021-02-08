@@ -1,13 +1,13 @@
 ---
 keywords: registro de cambios en la documentación de destinatario;actualizaciones de la documentación;nuevos temas;ediciones;actualizaciones;actualización
-description: ¿Qué cambios se han realizado en la documentación?
-title: Cambios de la documentación
+description: Manténgase al día con importantes adiciones y cambios en la documentación del producto de Adobe Target.
+title: ¿Dónde puedo realizar la Vista de actualizaciones de documentación para Destinatario?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '3487'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 8 de febrero | [Vista previa para móviles en Target](/help/c-target-mobile-app/target-mobile-preview.md) | Se ha añadido el fragmento de código que debe añadir al archivo AndroidManifest.xml para la versión 4 del SDK de Adobe Mobile. |
 | 1 de febrero | [Informes Resumen de Personalización automatizada](/help/c-reports/reports-ap.md) | Nueva sección añadida: &quot;Preguntas más frecuentes&quot;. |
 | Enero de 27 | [Crear ofertas de redireccionamiento](/help/c-experiences/c-manage-content/offer-redirect.md) | Tema actualizado. |
 |  | [Crear ofertas remotas](/help/c-experiences/c-manage-content/about-remote-offers.md) | Tema actualizado. |
