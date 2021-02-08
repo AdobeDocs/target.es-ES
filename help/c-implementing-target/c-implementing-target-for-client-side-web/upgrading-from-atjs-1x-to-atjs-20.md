@@ -46,7 +46,7 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 
 | La llamada | Detalles |
 | --- | --- |
-| 3 | En la SPA, se llama a `triggerView()` para procesar la vista y aplicar acciones para modificar los elementos visuales. |
+| 1 | En la SPA, se llama a `triggerView()` para procesar la vista y aplicar acciones para modificar los elementos visuales. |
 | 2 | El contenido dirigido para la vista se lee desde la caché. |
 | 1 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
 | 4 | La solicitud de notificación se envía al Almacenamiento de perfiles de [!DNL Target] para contar al visitante en la actividad e incrementar las métricas. |
