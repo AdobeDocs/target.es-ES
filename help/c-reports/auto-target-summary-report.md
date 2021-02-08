@@ -1,13 +1,13 @@
 ---
 keywords: informes;destinatario automático;destinatario automático;AT;informe
-description: Información sobre cómo interpretar el informe Resumen de Destinatario automático en Adobe Target.
-title: Informe Resumen de segmentación automática
+description: Obtenga información sobre cómo interpretar el informe Resumen de Destinatario automático en Adobe Target. Desde este informe puede cambiar a los informes Segmentos automatizados y Atributos importantes.
+title: ¿Cómo se usa el informe Resumen de Destinatario automático?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 56%
+source-wordcount: '690'
+ht-degree: 54%
 
 ---
 
