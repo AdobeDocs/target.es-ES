@@ -1,13 +1,13 @@
 ---
 keywords: varias audiencias;versiones de experiencias;versiones de experiencias de target
-description: Puede destinatario de versiones de la misma experiencia a distintas audiencias en actividades A/B de Adobe Target. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
-title: Varias versiones de una experiencia en una prueba A/B
+description: Obtenga información sobre cómo destinatario versiones de la misma experiencia a distintas audiencias en actividades A/B de Adobe Target.
+title: ¿Puedo usar varias versiones de experiencias en una actividad A/B?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 94%
+source-wordcount: '598'
+ht-degree: 92%
 
 ---
 
