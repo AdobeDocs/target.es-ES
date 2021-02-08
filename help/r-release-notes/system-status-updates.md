@@ -1,13 +1,13 @@
 ---
 keywords: actualización del sistema;solución de problemas;mantenimiento;estado del sistema;estado de las actualizaciones
-description: ¿Dónde puedo vista el estado de los productos de Adobe y las soluciones de Experience Cloud?
-title: Actualizaciones en Estado del sistema
+description: Vista el estado actual de Adobe Target para ayudarle a determinar si los problemas que puede encontrar se deben a las actualizaciones del sistema o al mantenimiento de rutina.
+title: ¿Dónde puedo vista el estado del Destinatario y otros productos de Adobe?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '329'
+ht-degree: 87%
 
 ---
 
