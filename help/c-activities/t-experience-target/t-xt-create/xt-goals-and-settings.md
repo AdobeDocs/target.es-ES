@@ -1,13 +1,13 @@
 ---
 keywords: configuración de actividad;objetivos y configuración de la segmentación de experiencias;objetivos y configuración de xt;segmentación de experiencias;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;configuración avanzada;objetivo principal;métricas adicionales;objetivo;prioridad;duración;solución de informes;audiencias para informes;qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
-description: La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
-title: Configuración y objetivos
+description: Descubra cómo utilizar la página Objetivos y configuración de Adobe Target para especificar información sobre los objetivos de una actividad de segmentación de experiencias (XT).
+title: ¿Cómo se especifican objetivos y configuración en una Actividad de segmentación de experiencias?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 96%
+source-wordcount: '1308'
+ht-degree: 93%
 
 ---
 
