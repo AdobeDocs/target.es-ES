@@ -1,13 +1,14 @@
 ---
 keywords: aplicación móvil;enviar datos de aplicación móvil;aplicación móvil de target;datos de usuario móviles personalizados;datos personalizados de aplicación móvil
-description: Puede enviar información adicional sobre la ubicación o el usuario a Target como pares de nombre-valor.
-title: IOS - Enviar datos de usuario personalizados
+description: Descubra cómo enviar información adicional sobre la ubicación o el usuario a Adobe Target como pares nombre-valor para ayudarle a crear audiencias personalizadas.
+title: ¿Cómo se envían datos de usuario personalizados en una aplicación de iOS?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 98%
+source-wordcount: '353'
+ht-degree: 90%
 
 ---
 
