@@ -1,13 +1,14 @@
 ---
 keywords: implementación;mbox;descargar mbox.js;descargar api;api de mbox.js
-description: Para utilizar Adobe Target Standard o Destinatario Premium, agregue una línea de código para llamar a mbox.js.
-title: Implementación de mbox.js
+description: Obtenga información sobre la implementación heredada de mbox.js de Adobe Target. Migrar al SDK web de Adobe Experience Platform (AEP Web SDK) o a la versión más reciente de at.js.
+title: ¿Cómo implemento Destinatario con mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 50%
+source-wordcount: '280'
+ht-degree: 47%
 
 ---
 
