@@ -1,12 +1,12 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de destinatario;introducción;introducción;introducción
-description: Kit de bienvenida de Adobe Target - Capítulo 4 - Sugerencias para el uso del Destinatario
-title: Kit de bienvenida - Capítulo 4 - Sugerencias para el uso de Destinatario
+description: Lea sugerencias de nuestro panel de expertos sobre el uso de Adobe Target como parte de sus esfuerzos de pruebas y personalización.
+title: ¿Dónde puedo encontrar consejos y trucos para usar Destinatario?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
