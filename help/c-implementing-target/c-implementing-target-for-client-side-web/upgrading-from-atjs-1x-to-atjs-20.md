@@ -1,13 +1,14 @@
 ---
 keywords: lanzamientios de at.js;versiones de at.js;aplicación de una sola página;spa;dominio cruzado;cross-domain
-description: Información detallada sobre la actualización de Adobe Target at.js 1.*x* a at.js versión 2.0.0
-title: Actualización de la versión 1.x de at.js a la versión 2.x
+description: Obtenga información sobre cómo actualizar desde Adobe Target at.js 1.x a at.js 2.x. Examine los diagramas de flujo del sistema, conozca las funciones nuevas y obsoletas, etc.
+title: ¿Cómo actualizo desde la versión 1.x de at.js a la versión 2.x?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 92%
+source-wordcount: '2770'
+ht-degree: 91%
 
 ---
 
@@ -45,9 +46,9 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 
 | La llamada | Detalles |
 | --- | --- |
-| 1 | En la SPA, se llama a `triggerView()` para procesar la vista y aplicar acciones para modificar los elementos visuales. |
+| 3 | En la SPA, se llama a `triggerView()` para procesar la vista y aplicar acciones para modificar los elementos visuales. |
 | 2 | El contenido dirigido para la vista se lee desde la caché. |
-| 3 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
+| 1 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
 | 4 | La solicitud de notificación se envía al Almacenamiento de perfiles de [!DNL Target] para contar al visitante en la actividad e incrementar las métricas. |
 | 5 | Los datos de Analytics se envían a los servidores de recopilación de datos. |
 | 6 | Se comparan los datos de Target con los datos de Analytics mediante el SDID y se procesan en el almacén de informes de Analytics. Por lo tanto, los datos de Analytics se pueden visualizar tanto en Analytics como en Target mediante los informes de A4T. |
