@@ -1,13 +1,13 @@
 ---
 keywords: afinidad;afinidad de la categoría
-description: La función de afinidad de la categoría en Adobe Target captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de forma que se pueda establecer como objetivo y se le apliquen segmentos. Esto contribuye a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de realizar alguna acción a partir de esa información.
-title: Usar Afinidad de Categoría
+description: Obtenga información sobre la afinidad de categorías en Adobe Target que captura automáticamente las categorías que visita un usuario y luego calcula la afinidad del usuario para la categoría, de modo que pueda segmentarse y segmentarse.
+title: ¿Qué es la Afinidad de Categoría?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 98%
+source-wordcount: '812'
+ht-degree: 94%
 
 ---
 
