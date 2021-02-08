@@ -1,12 +1,13 @@
 ---
 keywords: rgpd;ue;unión europea;privacidad;faq;preguntas frecuentes;ley de privacidad del consumidor de california;ccpa;privacidad;protección de datos;exclusión;exclusión;gobierno;regulación
-description: Información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de Privacidad del Consumidor de California (CCPA) y otros requisitos internacionales de privacidad, y cómo estas regulaciones afectan a su organización y a Adobe Target.
-title: Normas de privacidad y protección de datos
+description: Obtenga información sobre el Destinatario y el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de Protección de los Consumidores de California (CCPA) y otros requisitos de privacidad.
+title: ¿Cómo gestiona Destinatario las normas de privacidad y protección de datos?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2265'
 ht-degree: 91%
 
 ---
