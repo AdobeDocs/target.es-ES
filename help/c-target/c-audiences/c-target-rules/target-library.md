@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación;biblioteca de segmentos;biblioteca
-description: Usuarios de Target según las reglas de segmentación prediseñadas.
-title: Biblioteca de segmentos Opciones en Audiencias
+description: Obtenga información sobre visitantes de objetivo que utilizan audiencias heredadas prediseñadas. Lo mejor es utilizar las nuevas categorías de audiencia para mejorar el rendimiento.
+title: ¿Puedo Destinatario Visitantes en base a reglas de objetivo prediseñadas?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 98%
+source-wordcount: '202'
+ht-degree: 85%
 
 ---
 
