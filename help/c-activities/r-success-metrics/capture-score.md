@@ -1,13 +1,13 @@
 ---
-keywords: capture score;score
-description: La métrica de participación Puntuación de captura de Adobe Target calcula una puntuación agregada en función del valor asignado a las páginas visitadas en el sitio, desde el punto en que el visitante ve por primera vez la primera solicitud de Destinatario de visualización de la campaña.
-title: Puntuación de captación
+keywords: puntuación de captación;puntuación
+description: Obtenga información sobre la métrica de participación Puntuación de captura en Adobe Target que calcula una puntuación agregada en función del valor asignado a las páginas visitadas en el sitio.
+title: ¿Qué es la métrica Puntuación de captura?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 50%
+source-wordcount: '765'
+ht-degree: 51%
 
 ---
 
