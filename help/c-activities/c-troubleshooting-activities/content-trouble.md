@@ -1,12 +1,12 @@
 ---
 keywords: depurar mbox;problemas de mbox;solucionar problemas de mbox;parpadeo;mboxDebug;mboxTrace;token;depurador;prioridad;prioridad de actividad;Adobe Experience Cloud Debugger;mbox orderConfirmPage;SiteCatalyst;mbox compra;más vendidos;más vendido
-description: Si su página no muestra el contenido esperado, puede seguir algunos pasos para depurar el envío de contenido en Adobe Target.
-title: Resolución de problemas de Envío de contenido
+description: Encuentre sugerencias para ayudar a solucionar los problemas si la página no muestra el contenido esperado. Obtenga información sobre cómo depurar el envío de contenido en Adobe Target.
+title: ¿Cómo puedo solucionar problemas de Envío de contenido?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1413'
 ht-degree: 60%
 
 ---
