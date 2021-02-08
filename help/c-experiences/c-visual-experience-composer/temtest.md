@@ -1,13 +1,13 @@
 ---
 keywords: probar plantillas;plantilla;misma experiencia en páginas similares;prueba de plantilla
-description: Utilice una plantilla de página en Adobe Target para proporcionar estructura a las páginas, o si las páginas contienen elementos similares, para probar las variaciones en elementos de página con una estructura similar.
-title: Incluir la misma experiencia en páginas similares
+description: Descubra cómo usar el Compositor de experiencias visuales (VEC) de Adobe Target para incluir la misma experiencia en varias páginas con una estructura similar o que contengan los mismos elementos de plantilla.
+title: ¿Puedo incluir la misma experiencia en páginas similares?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 47%
+source-wordcount: '618'
+ht-degree: 45%
 
 ---
 
