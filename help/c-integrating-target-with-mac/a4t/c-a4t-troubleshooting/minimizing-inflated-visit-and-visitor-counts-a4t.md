@@ -1,13 +1,13 @@
 ---
 keywords: datos parciales;A4T;discrepancias;Analytics para Target;huérfano;grupo de informes virtual;fantasma;resolución de problemas;no vinculado;inflado;no especificado
-description: Información que le ayudará a minimizar los efectos de los recuentos inflados de visitas y visitantes al utilizar Analytics como fuente de informes.
-title: Minimizar los recuentos inflados de visitas y visitantes en A4T
+description: Descubra cómo minimizar los efectos de los recuentos inflados de visitas y Visitantes al usar Analytics para Destinatario (A4t). Conozca qué es la "información parcial" y cómo reducirla.
+title: ¿Cómo minimizo los recuentos inflados de visitas y Visitantes en A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 97%
+source-wordcount: '1375'
+ht-degree: 94%
 
 ---
 
