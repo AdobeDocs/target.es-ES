@@ -1,12 +1,12 @@
 ---
 keywords: actividades;actividad;tipos de actividad;editar actividad;editar;borrador
-description: Información sobre las distintas formas de editar una actividad existente en Adobe Target, incluido el guardado de una actividad en forma de borrador.
-title: Editar una Actividad o Guardar como borrador
+description: Obtenga información sobre las distintas formas de editar una actividad existente en Adobe Target, incluido el guardado de una actividad en forma de borrador.
+title: ¿Cómo se edita una Actividad o se guarda como borrador?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1126'
 ht-degree: 95%
 
 ---
