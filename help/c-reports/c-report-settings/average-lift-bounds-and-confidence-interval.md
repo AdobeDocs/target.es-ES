@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
-description: Los informes incluyen varios puntos de datos y representaciones de visualización que le ayudan a comprender los límites de alza y el nivel de confianza asociados con la actividad de Adobe Target para ayudarle a determinar un ganador con mayor precisión.
-title: Alza promedio, límites de alza e intervalo de confianza
+keywords: Target;informes;configuración de informes;entorno;alza;límite de alza;variación;confianza;control
+description: Descubra cómo interpretar los informes de Adobe Target, que incluyen puntos de datos y representaciones de visualización, para ayudarle a comprender los límites de alza y el nivel de confianza de sus actividades.
+title: ¿Cómo se Vista el alza promedio, los límites del alza y el intervalo de confianza?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 73%
+source-wordcount: '817'
+ht-degree: 72%
 
 ---
 
