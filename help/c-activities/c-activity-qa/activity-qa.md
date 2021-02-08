@@ -1,13 +1,13 @@
 ---
 keywords: qa;previsualización;vínculos de previsualización;destinatario de adobe;destinatario
-description: Utilice las URL de control de calidad de Adobe Target para realizar fácilmente un control de calidad de la actividad end-to-end con vínculos de previsualización que nunca cambian, segmentación opcional de audiencias y sistema de informes de control de calidad que permanece segmentado a partir de datos de actividad activos.
-title: Control de calidad de la actividad
+description: Obtenga información sobre cómo utilizar las URL de control de calidad de Adobe Target para realizar un control de calidad de la actividad end-to-end sencillo con vínculos de previsualización que nunca cambian, objetivos de audiencia opcionales y sistemas de informes de control de calidad que permanecen segmentados a partir de datos de actividad en directo.
+title: ¿Cómo puedo realizar Actividades de control de calidad?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 80%
+source-wordcount: '1542'
+ht-degree: 79%
 
 ---
 
