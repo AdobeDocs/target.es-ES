@@ -1,13 +1,13 @@
 ---
 keywords: correo electrónico;ESP;proveedor de servicio de correo electrónico;rawbox;api de envío;plantilla de solo descarga;plantilla de correo electrónico;procesamiento por lotes;hora de creación del correo electrónico
-description: Información acerca del modo de integrar el correo electrónico con Recommendations.
-title: Integrar Recommendations con correo electrónico
+description: Obtenga información sobre cómo integrar el correo electrónico con Adobe Target Recommendations, incluido el uso de la API de Envío de Destinatario, las plantillas de rawbox y las plantillas de solo descarga.
+title: ¿Cómo se integra Recommendations con el correo electrónico?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 92%
+source-wordcount: '1490'
+ht-degree: 90%
 
 ---
 
