@@ -1,13 +1,13 @@
 ---
 keywords: opciones del explorador;tipo;tipo de explorador;idioma del explorador;idioma;versión;versión del explorador
-description: Puede crear audiencias en Adobe Target para segmentar usuarios que usen un navegador específico y opciones del navegador concretas cuando visiten una página.
-title: Audiencias de opciones del explorador
+description: Obtenga información sobre cómo crear audiencias en Adobe Target para usuarios de destinatario que utilizan un navegador específico o opciones específicas del navegador cuando visitan la página.
+title: ¿Puedo Destinatario Visitantes según el tipo de explorador?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 99%
+source-wordcount: '662'
+ht-degree: 94%
 
 ---
 
