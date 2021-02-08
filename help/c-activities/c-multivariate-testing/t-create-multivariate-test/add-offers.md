@@ -1,13 +1,13 @@
 ---
 keywords: mvt;prueba multivariable;ofertas;combinaciones
-description: Use el Compositor de experiencias visuales (VEC) en Adobe Target para crear las ofertas que desee incluir en la prueba multivariable (MVT).
-title: Crear combinaciones en pruebas multivariable (MVT)
+description: Descubra cómo usar el Compositor de experiencias visuales (VEC) en Adobe Target para crear las ofertas que desee incluir en la prueba multivariada (MVT).
+title: ¿Cómo se crean combinaciones en pruebas multivariable (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 93%
+source-wordcount: '511'
+ht-degree: 88%
 
 ---
 
