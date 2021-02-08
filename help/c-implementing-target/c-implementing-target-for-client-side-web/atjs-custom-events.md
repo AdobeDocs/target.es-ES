@@ -1,13 +1,14 @@
 ---
 keywords: eventos personalizados;at.js;solicitud fallida;solicitud correcta;error de procesamiento de contenido;procesamiento de contenido correcto;biblioteca cargada;solicitar inicio;inicio de procesamiento de contenido;contenido no procesa ofertas;redirección de representación de contenido
-description: Información sobre los eventos personalizados para la biblioteca JavaScript at.js de Adobe Target.
-title: eventos personalizados de at.js
+description: Utilice eventos personalizados para que la biblioteca JavaScript de Adobe Target at.js reciba una notificación cuando una solicitud o oferta de mbox falla o se realiza correctamente.
+title: ¿Cómo se usan los Eventos personalizados de at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 96%
+source-wordcount: '619'
+ht-degree: 92%
 
 ---
 
