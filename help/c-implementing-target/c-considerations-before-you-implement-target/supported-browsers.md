@@ -1,13 +1,14 @@
 ---
 keywords: requisitos previos;requisitos;exploradores;internet explorer;chrome;firefox;safari;android;surface
-description: La aplicación y la entrega de contenido de Adobe Target se han probado en un amplio abanico de navegadores y dispositivos.
-title: Exploradores admitidos
+description: Descubra qué exploradores de Internet admite Adobe Target para su interfaz y para el envío de contenido.
+title: ¿Qué exploradores admite Destinatario?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 86%
+source-wordcount: '308'
+ht-degree: 80%
 
 ---
 
