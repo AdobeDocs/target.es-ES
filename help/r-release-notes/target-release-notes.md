@@ -1,13 +1,13 @@
 ---
 keywords: notas de la versión;versiones;actualizaciones;versión futura;mejoras;nuevas funciones;correcciones;actualizaciones;versión preliminar
-description: ¿Qué funciones se incluyen en la próxima versión?
-title: Notas de la versión preliminar
+description: Obtenga información sobre las nuevas funciones, mejoras y correcciones incluidas en la próxima versión de Adobe Target, incluidos SDK, API y bibliotecas de JavaScript.
+title: ¿Qué nuevas funciones se incluyen en la próxima versión?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 27%
+source-wordcount: '514'
+ht-degree: 26%
 
 ---
 
