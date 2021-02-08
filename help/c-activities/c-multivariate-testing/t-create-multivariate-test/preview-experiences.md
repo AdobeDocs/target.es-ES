@@ -1,12 +1,12 @@
 ---
 keywords: multivariable;mvt;previsualización;experiencias
-description: Dado que una prueba multivariada en Adobe Target compara varias experiencias en una página, resulta útil realizar una previsualización de la página con cada experiencia.
-title: Experiencias de previsualización para una prueba multivariada (MVT)
+description: Obtenga información sobre cómo previsualización cada experiencia en una actividad de prueba multivariada (MVT) en Adobe Target mediante el Compositor de experiencias visuales (VEC).
+title: ¿Cómo puedo realizar la Previsualización de experiencias para una prueba multivariada (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '201'
 ht-degree: 68%
 
 ---
