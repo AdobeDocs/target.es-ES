@@ -1,13 +1,13 @@
 ---
 keywords: mbox;mbox3rdPartyId;sincronización de perfiles;sinc. de perfiles;PCID
-description: Información sobre el perfil en tiempo real
-title: Sincronización de Perfiles en tiempo real para mbox3Rdpartyid
+description: Obtenga información sobre cómo utilizar el mbox3rdPartyId, que es el ID de visitante de su organización, como el ID de pertenencia o el programa de lealtad de su organización.
+title: ¿Cómo se utiliza la sincronización de Perfiles en tiempo real para mbox3rdPartyId?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 80%
+source-wordcount: '547'
+ht-degree: 76%
 
 ---
 
