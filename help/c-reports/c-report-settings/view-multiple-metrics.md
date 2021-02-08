@@ -1,13 +1,13 @@
 ---
 keywords: Destinatario;informes;configuración del informe;varias métricas;métricas;métricas mostradas;métricas ocultas
-description: Seleccione varias métricas para la vista en un informe mediante Adobe Target.
-title: Visualización de varias métricas en un informe
+description: Obtenga información sobre cómo seleccionar varias métricas para la vista en un informe mediante Adobe Target.
+title: ¿Cómo se Vista varias métricas en un informe?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 62%
+source-wordcount: '433'
+ht-degree: 59%
 
 ---
 
