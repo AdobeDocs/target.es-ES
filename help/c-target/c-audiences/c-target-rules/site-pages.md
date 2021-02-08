@@ -1,12 +1,12 @@
 ---
 keywords: páginas del sitio;páginas del sitio de destinatario;objetivo;página actual;página actual de destinatario;página anterior;página anterior de destinatario;página de aterrizaje;página de aterrizaje de destinatario;encabezado http
-description: Puede destinatario visitantes que se encuentren en una página específica del sitio.
-title: Opciones de páginas del sitio en Audiencias
+description: Obtenga información sobre cómo realizar destinatarios de visitantes mediante Adobe Target que se encuentran en una página específica del sitio.
+title: ¿Puedo Destinatario de Visitantes en base a las páginas del sitio?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '890'
 ht-degree: 42%
 
 ---
