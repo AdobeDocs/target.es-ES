@@ -1,12 +1,12 @@
 ---
 keywords: newsletter de información interna;newsletter;actualizaciones de productos;sugerencias y trucos;eventos;éxito del cliente;blog;blogs;documento técnico;documento técnico
-description: ¿Dónde puedo encontrar el boletín mensual Adobe Target Insider?
-title: Boletín de Insider
+description: Lea las últimas noticias sobre Adobe Target. Encuentre información sobre eventos futuros, historias de éxito de clientes, información y consejos de los expertos, etc.
+title: ¿Qué es el boletín informativo Adobe Target Insider?
 feature: Release Notes, Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2150'
 ht-degree: 41%
 
 ---
