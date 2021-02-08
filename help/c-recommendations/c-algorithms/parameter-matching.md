@@ -1,12 +1,12 @@
 ---
 keywords: reglas de inclusión;criterios de inclusión;recomendaciones;promoción;promociones;filtrado dinámico;dinámico;coincidencia de parámetros
-description: Filtre dinámicamente en Adobe Target Recommendations comparando elementos (entidades) con un valor de la solicitud (API o mbox).
-title: Filtrar por coincidencia de parámetros en reglas de inclusión dinámica en Destinatario Recommendations
+description: Descubra cómo filtrar dinámicamente en Adobe Target Recommendations comparando elementos (entidades) con un valor de la solicitud (API o mbox).
+title: ¿Cómo se filtra por coincidencia de parámetros en Actividades de Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 10%
 
 ---
