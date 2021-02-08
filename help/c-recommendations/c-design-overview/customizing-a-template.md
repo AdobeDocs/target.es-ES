@@ -1,13 +1,13 @@
 ---
 keywords: diseño personalizado;personalizar diseño;velocity;decimal;coma
-description: Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación en Adobe Target Recommendations.
-title: Personalizar un diseño con Velocity
+description: Conozca cómo utilizar el lenguaje de diseño Velocity de código abierto para personalizar diseños de recomendaciones en Adobe Target Recommendations.
+title: ¿Cómo personalizo un diseño con Velocity?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 61%
+source-wordcount: '1027'
+ht-degree: 60%
 
 ---
 
