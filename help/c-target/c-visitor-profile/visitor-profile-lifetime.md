@@ -1,13 +1,13 @@
 ---
 keywords: Información general y referencia
-description: De forma predeterminada, los perfiles de los visitantes se almacenan durante 14 días. Esta duración del perfil puede ampliarse.
-title: Duración del perfil del visitante
+description: Obtenga más información sobre cuándo caduca un perfil de visitante (de forma predeterminada, 14 días) en Adobe Target. La duración del perfil se puede ampliar poniéndose en contacto con Adobe Client Care.
+title: ¿Cuál es la duración del Perfil de Visitante y puedo ampliarlo?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 83%
+source-wordcount: '334'
+ht-degree: 73%
 
 ---
 
