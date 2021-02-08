@@ -1,13 +1,14 @@
 ---
 keywords: aplicación móvil;ubicación de aplicación móvil;aplicación móvil de Target;ubicaciones de Target móvil;métricas de éxito de aplicaciones móviles
-description: Para usar Target en una aplicación móvil, cree una ubicación y una métrica de éxito.
-title: 'IOS: Crear una ubicación de Destinatario y una métrica de éxito'
+description: Utilice el código de muestra de vista para aprender a crear ubicaciones y métricas de éxito en las aplicaciones de iOS y así poder personalizar y optimizar la aplicación con Adobe Target.
+title: ¿Cómo se crean ubicaciones de Destinatario y métricas de éxito en una aplicación de iOS?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 91%
+source-wordcount: '420'
+ht-degree: 83%
 
 ---
 
