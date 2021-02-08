@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación;sistema operativo Target;sistema operativo;so target;target en linux;linux;target en windows;windows;target en macintosh;macintosh;mac;target en mac;win;target en win
-description: Puede segmentar visitantes que usen un sistema operativo determinado.
-title: Sistema operativo Opciones en Audiencias
+description: Aprenda a destinatario de visitantes que utilizan un sistema operativo determinado (Linux, Macintosh o Windows).
+title: ¿Puedo Destinatario de Visitantes según el sistema operativo?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 97%
+source-wordcount: '129'
+ht-degree: 82%
 
 ---
 
