@@ -1,13 +1,13 @@
 ---
 keywords: configuración de actividad;objetivos y configuración;multivariable;mvt
-description: En la página Objetivos y configuración de Adobe Target puede introducir información sobre los objetivos de la prueba.
-title: Configuración y objetivos
+description: Descubra cómo utilizar la página Objetivos y configuración de Adobe Target para especificar información sobre los objetivos de una actividad de prueba multivariada (MVT).
+title: ¿Cómo se especifican objetivos y configuración en una Actividad de prueba multivariada (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 92%
+source-wordcount: '1280'
+ht-degree: 90%
 
 ---
 
