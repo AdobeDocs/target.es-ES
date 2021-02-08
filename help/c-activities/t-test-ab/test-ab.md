@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;comparar experiencias;Segmentación;comparar contenido;destinatario automático;asignación automática
-description: Una actividad de prueba A/B manual compara dos o más versiones del contenido del sitio web para ver qué versiones mejoran mejor las conversiones durante un período de prueba previo especificado.
-title: Información general de la prueba A/B
+description: 'Obtenga información sobre los diferentes tipos de actividades de prueba A/B en Adobe Target: manual, asignación automática y Destinatario automático. Elige el que más te convenga.'
+title: ¿Qué tipo de Actividades A/B están disponibles en Destinatario?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 38%
 
 ---
