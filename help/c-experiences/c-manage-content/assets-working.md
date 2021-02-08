@@ -1,13 +1,13 @@
 ---
 keywords: biblioteca de contenido;recursos;anotar;copiar;eliminar recurso;descargar recurso;editar contenido;compartir tarjeta;ver propiedades de contenido
-description: Cómo trabajo con recursos en la biblioteca de contenido
-title: Trabajo con contenido en la biblioteca
+description: Obtenga información sobre cómo administrar ofertas de código e imagen en la biblioteca de Ofertas de Adobe Target. Aprenda a realizar vistas de los detalles de una oferta y a editar, copiar, mover o eliminar ofertas.
+title: ¿Cómo trabajo con contenido en la biblioteca de Ofertas?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 38%
+source-wordcount: '767'
+ht-degree: 37%
 
 ---
 
@@ -84,7 +84,7 @@ La siguiente ilustración muestra los iconos al pasar el ratón por encima al ve
 * Si elimina una carpeta con un gran número de imágenes, el proceso que se ejecuta detrás de las escenas puede tardar cierto tiempo (varios minutos) antes de que la interfaz de usuario se actualice para mostrar el estado final. La cantidad de tiempo necesaria es una función del número de imágenes, no del tamaño de estas. Diez minutos para 2000 imágenes sería una buena estimación. Puede continuar con otros trabajos y comprobar el estado final después de varios minutos para verificar la eliminación.
 * Las carpetas que no estén vacías en la biblioteca de ofertas de imágenes se pueden eliminar. Si no se hace referencia a todas las imágenes de la carpeta en ninguna actividad, se eliminará toda la carpeta y su contenido. Si se hace referencia a algunas imágenes dentro de la carpeta en cualquier actividad, se eliminan todas las imágenes sin referencia, pero se conservan las imágenes y carpetas que contienen esas imágenes.
 
-## Vídeo de formación: Distintivo de información general del repositorio de contenido ![a1/>](/help/assets/overview.png)
+## Vídeo de capacitación: La insignia ![Información general](/help/assets/overview.png) del repositorio de contenido
 
 Este vídeo incluye información sobre la administración de contenido. (4:56)
 
