@@ -1,13 +1,13 @@
 ---
 keywords: problemas conocidos;problemas resueltos;notas de la versión;errores;problemas;correcciones
-description: ¿Dónde puedo encontrar problemas conocidos y problemas resueltos?
-title: Problemas conocidos y problemas resueltos
+description: Encuentre información sobre problemas conocidos en Adobe Target, incluida información sobre la solución temporal. Cuando se resuelven los problemas, se mueven a la sección Resueltos.
+title: ¿Dónde puedo encontrar información sobre problemas conocidos y problemas resueltos?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '4355'
-ht-degree: 69%
+source-wordcount: '4419'
+ht-degree: 67%
 
 ---
 
@@ -79,7 +79,7 @@ Los siguientes son problemas conocidos con actividades [!UICONTROL Recommendatio
 * Las entidades caducan correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después del vencimiento. (IRI-857)
 * Las superposiciones &quot;Información de uso&quot; para criterios y diseños no reflejan su uso en actividades A/B y de segmentación de experiencias (TGT-34331)
 * Las ofertas de Recommendations en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja de Recommendations (TGT-33426)
-* Las colecciones, las exclusiones, los criterios y los diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API. (TGT-35777)
+* Las colecciones, exclusiones, criterios y diseños creados mediante API no están visibles en la interfaz de usuario de Destinatario y solo se pueden editar mediante API. Del mismo modo, si crea cualquiera de estos elementos en la interfaz de usuario de Destinatario y posteriormente los edita mediante API, dichos cambios no se reflejarán en la interfaz de usuario de Destinatario. Los elementos editados mediante API deben seguir editándose mediante API para evitar la pérdida de modificaciones.  (TGT-35777)
 * Las actividades de Recommendations creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
 * El estado de la fuente de criterios personalizados que se muestra en la lista de criterios (tarjeta) se actualiza cada diez minutos, y es posible que pasen más de diez minutos de la fecha en circunstancias excepcionales. El estado que se muestra en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre está actualizado. (TGT-35896, TGT-36173)
 * Los criterios y las tarjetas de diseño no muestran el número correcto de actividades en las que se utilizan. Si los criterios o el diseño se utilizan en una actividad A/B, es posible que la tarjeta muestre incorrectamente que el diseño o los criterios no se utilizan, incluso cuando el diseño o los criterios se utilizan en la actividad. (TGT-36621, TGT-37217)
