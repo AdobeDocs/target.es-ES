@@ -1,13 +1,13 @@
 ---
-keywords: multi-page;journey testing;multipage activity
-description: Una actividad de varias páginas en Adobe Target permite crear un artículo en varias páginas, con un diseño específico para cada página.
-title: Actividad de varias páginas
+keywords: varias páginas;prueba de trayecto;actividad de varias páginas
+description: Obtenga información sobre cómo crear una actividad de varias páginas en Adobe Target para crear un artículo en varias páginas, con un diseño específico para cada página.
+title: ¿Cómo se crea una Actividad de varias páginas?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 87%
+source-wordcount: '378'
+ht-degree: 85%
 
 ---
 
