@@ -1,13 +1,14 @@
 ---
 keywords: ingresos;alza de ingresos;aumento estimado de ingresos;estimar alza;valor estimado
-description: Utilice Adobe Target para calcular el aumento de ingresos que obtendría si todos los usuarios hicieran la vista de la experiencia ganadora.
-title: Calcular el alza de ingresos
+description: Calcule el alza que puede obtener si cada visitante ve la experiencia ganadora, si las tendencias continúan como lo han hecho durante la prueba.
+title: ¿Qué estimo el alza de ingresos?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 90%
+source-wordcount: '525'
+ht-degree: 88%
 
 ---
 
