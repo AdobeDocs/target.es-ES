@@ -1,14 +1,14 @@
 ---
 keywords: Analytics como fuente de sistema de informes;a4t;A4T;requisitos
-description: Requisitos de cuenta de usuario para crear una actividad basada en Adobe Analytics en Adobe Target (A4T).
-title: Requisitos de permisos de usuario
+description: Obtenga información sobre cómo configurar los requisitos de cuenta de usuario necesarios para crear una actividad basada en Adobe Analytics en Adobe Target mediante Analytics para Destinatario (A4T).
+title: ¿Qué requisitos de permisos de usuario son necesarios para A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 47%
+source-wordcount: '280'
+ht-degree: 38%
 
 ---
 
