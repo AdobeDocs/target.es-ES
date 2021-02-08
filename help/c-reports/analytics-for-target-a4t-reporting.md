@@ -1,13 +1,13 @@
 ---
 keywords: analytics for target, a4t, analytics como origen de informes
-description: El uso de Analytics como fuente de informes para Target (A4T) permite acceder a informes de Analytics para sus actividades de Target.
-title: Creación de informes en Analytics for Target (A4T)
+description: Aprenda a utilizar Analytics para Destinatario (A4T). La integración de A4T le permite acceder a informes de Adobe Analytics sólidos para sus actividades de Adobe Target.
+title: ¿Cómo se usa el Sistema de informes de Analytics para Destinatario (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '97'
+ht-degree: 62%
 
 ---
 
