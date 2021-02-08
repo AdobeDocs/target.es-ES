@@ -1,13 +1,13 @@
 ---
 keywords: diseño de recomendaciones;plantilla;crear diseño;entrega;resultado
-description: Los diseños de Adobe Target Recommendations definen cómo aparecen las recomendaciones en una página. Los diseños definen el diseño y el formato de las recomendaciones para mejorar la participación, la conversión y los ingresos de los visitantes.
-title: Información general de diseño
+description: Aprenda a utilizar diseños en Adobe Target Recommendations para definir cómo aparecen las recomendaciones en una página (1X4, 1X6, 2X2, etc.).
+title: ¿Cómo utilizo diseños en Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
