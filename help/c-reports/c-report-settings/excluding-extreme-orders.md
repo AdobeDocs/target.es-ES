@@ -1,13 +1,13 @@
 ---
 keywords: Target;informes;configuración de informes;pedidos extremos;valores extremos
-description: Puede excluir valores extremos para que no afecten a los informes de Adobe Target, de modo que algunos pedidos inusuales no afecten a los resultados de la actividad. Un ejemplo de pedido inusual puede ser el caso de un entrenador que compre uniformes para todo un equipo en lugar de compradores que compren uniformes de forma individual.
-title: Excluir valores extremos en los informes
+description: Descubra cómo excluir los valores extremos de los informes de Adobe Target para que algunos pedidos inusuales no afecten a los resultados de la actividad.
+title: ¿Cómo excluyo valores extremos en los informes?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 74%
+source-wordcount: '330'
+ht-degree: 71%
 
 ---
 
