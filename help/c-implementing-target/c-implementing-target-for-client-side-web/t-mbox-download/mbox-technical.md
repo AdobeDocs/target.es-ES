@@ -1,13 +1,14 @@
 ---
 keywords: implementación;mbox.js;biblioteca de manipulación de dom;target.js;compositor de experiencias visuales;visual experience composer;iframe;sitios angulares;aplicaciones de una sola página;app de una sola página;SPA
-description: Información útil para el personal técnico sobre el proceso de implementación de mbox.js y cómo podría afectar a su sitio.
-title: Qué hace mbox.js
+description: Obtenga información sobre la implementación heredada de mbox.js de Adobe Target. Migrar al SDK web de Adobe Experience Platform (AEP Web SDK) o a la versión más reciente de at.js.
+title: ¿Qué hace la biblioteca mbox.js de Destinatario?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 81%
+source-wordcount: '410'
+ht-degree: 73%
 
 ---
 
