@@ -1,12 +1,12 @@
 ---
 keywords: asignación automática de tráfico;segmentación;asignación automática;asignación automática
-description: La actividad Asignación automática de Adobe Target identifica un ganador entre dos o más experiencias y automáticamente reasigna más tráfico al ganador para aumentar las conversiones mientras la prueba continúa ejecutándose y aprendiendo.
-title: La asignación automática puede proporcionarle resultados de prueba más rápidos e ingresos mayores que una prueba manual
+description: Descubra cómo una actividad de asignación automática de Adobe Target identifica a un ganador entre dos o más experiencias y reasigna automáticamente más tráfico al ganador.
+title: ¿Pueden las Actividades de asignación automática obtener resultados más rápidos e ingresos más altos?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
