@@ -1,13 +1,13 @@
 ---
 keywords: promociones;promociones principales;promociones secundarias;tipo de promociones;lista de elementos;promocionar por atributo;promocionar una colección
-description: Añada elementos promocionados y controle su ubicación en sus diseños de Recommendations de Adobe Target. Puede añadir promociones estáticas y dinámicas.
-title: Añadir promociones en diseños de Recommendations de Destinatario
+description: Descubra cómo añadir elementos promocionados y controlar su ubicación en los diseños de Adobe Target Recommendations. Puede añadir promociones estáticas y dinámicas.
+title: ¿Cómo Añado las promociones en los diseños de Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 58%
+source-wordcount: '699'
+ht-degree: 56%
 
 ---
 
