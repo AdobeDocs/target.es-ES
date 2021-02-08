@@ -1,13 +1,13 @@
 ---
 keywords: resumen
-description: El resumen de la prueba proporciona una visión general de la prueba multivariada de Adobe Target.
-title: Resumen de la prueba
+description: Vista de un resumen de la actividad de una prueba multivariada (MVT) que proporciona información general visual de la actividad MVT en Adobe Target.
+title: ¿Cómo puedo realizar la Vista de un resumen de actividad de prueba multivariada (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 72%
+source-wordcount: '120'
+ht-degree: 62%
 
 ---
 
