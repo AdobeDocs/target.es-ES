@@ -1,13 +1,14 @@
 ---
 keywords: implementación;mbox.js no javascript;AdBox;redirector;mbox
-description: Información acerca de la implementación de Target en situaciones sin JavaScript, como el uso de un AdBox o un redirector.
-title: Implementación de correo electrónico
+description: Obtenga información sobre cómo implementar Adobe Target en situaciones que no sean de JavaScript, como el uso de un adbox o un redirector.
+title: ¿Cómo implemento Destinatario para correo electrónico?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 81%
+source-wordcount: '436'
+ht-degree: 77%
 
 ---
 
