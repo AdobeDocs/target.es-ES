@@ -1,13 +1,13 @@
 ---
 keywords: registro de cambios de actividad;registro de cambios
-description: El registro de cambios proporciona un registro de quién realizó cambios en las actividades y cuándo lo hizo.
-title: Registro de cambios de actividades
+description: Acceda al registro de cambios de una actividad en Adobe Target para vista de un registro de quién ha cambiado las actividades y cuándo se han producido los cambios.
+title: ¿Cómo puedo ver un registro de cambios de Actividades?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 78%
+source-wordcount: '113'
+ht-degree: 53%
 
 ---
 
