@@ -1,14 +1,14 @@
 ---
 keywords: personalización automatizada;ofertas;destinatario;audiencia;reglas de objetivo;segmentación
-description: En una actividad de Personalización automatizada, puede segmentar las ofertas a audiencias específicas.
-title: 'ofertas de Automated Personalization '
+description: Aprenda a destinatario de ofertas individuales a audiencias específicas mediante una actividad de Automated Personalization (AP) en Adobe Target.
+title: ¿Cómo puedo Destinatario las Ofertas de Automated Personalization?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 
