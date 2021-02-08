@@ -1,13 +1,13 @@
 ---
-keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
-description: Los informes proporcionan información sobre el rendimiento de las actividades de Adobe Target
-title: Informes
+keywords: informes;bloquear dirección IP;bloquear visitante desde dirección IP;descargar informes;csv;sistema de informes
+description: Aprenda a utilizar las funciones de sistema de informes de Adobe Target para examinar el rendimiento de sus actividades. Tome mejores decisiones en función de sus datos para aumentar el ROI.
+title: ¿Cómo se Vista los informes?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 66%
+source-wordcount: '860'
+ht-degree: 63%
 
 ---
 
