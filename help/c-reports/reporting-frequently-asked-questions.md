@@ -1,13 +1,13 @@
 ---
 keywords: solución de problemas;discrepancias de métricas;Preguntas más frecuentes;informes;nuevo visitante;nuevos visitantes;visitante de retorno;visitantes de retorno;visita de retorno;nueva visita
-description: Lista de las preguntas frecuentes sobre los informes en Adobe Target.
-title: Preguntas más frecuentes sobre la creación de informes
+description: Explore una lista de preguntas y respuestas frecuentes sobre Adobe Target sistema de informes.
+title: ¿Dónde puedo encontrar respuestas a preguntas sobre el Sistema de informes de Destinatario?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 30%
+source-wordcount: '1135'
+ht-degree: 29%
 
 ---
 
