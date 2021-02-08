@@ -1,13 +1,13 @@
 ---
 keywords: preguntas frecuentes;faq;analytics para target;a4T;visita;infladas;visitante;visita parcial;huérfano;huérfana
-description: En este tema encontrará respuestas a preguntas que se plantean a menudo sobre los recuentos inflados de visitas y visitantes al usar Analytics como fuente de informes para Target (A4T).
-title: 'Recuentos inflados de visitas y visitantes: Preguntas más frecuentes sobre A4T'
+description: Encuentre respuestas a preguntas sobre recuentos inflados de visitas y visitantes al usar Analytics para Destinatario (A4T). Aprenda a minimizar los "datos parciales".
+title: ¿Dónde puedo encontrar preguntas más frecuentes sobre recuentos inflados de visitas y Visitantes con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 94%
 
 ---
 
