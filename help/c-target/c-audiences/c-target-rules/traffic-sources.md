@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación;fuentes de tráfico;fuentes de tráfico de Target;motor de búsqueda Target;motor de búsqueda;página de destino;página de destino Target;página de destino de referencia
-description: Cree audiencias en Adobe Target para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
-title: Opciones de fuentes de tráfico en Audiencias
+description: Conozca cómo crear audiencias en Adobe Target para visitantes de destinatario basados en el motor de búsqueda o la página de aterrizaje que los remite a su sitio.
+title: ¿Puedo Destinatario Visitantes en base al motor de búsqueda o al sitio de referencia?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 97%
+source-wordcount: '261'
+ht-degree: 85%
 
 ---
 
