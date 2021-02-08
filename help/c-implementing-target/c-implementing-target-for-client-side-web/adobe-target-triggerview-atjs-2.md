@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;activar vista;at.js;funciones;función;viewName;viewname;ver nombre
-description: Información sobre la función adobe.target.triggerView (viewName, options) para la biblioteca JavaScript at.js de Adobe Target.
-title: Adobe.Destinatario.Triggerview (Nombre de la vista, Opciones) - at.js 2.x
+description: Utilice la función adobe.destinatario.activateView() para la biblioteca JavaScript de Adobe Target at.js para utilizarla en aplicaciones de una sola página (SPA). (at.js 2.x)
+title: ¿Cómo se usa la función adobe.destinatario.desencadenesvista()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 91%
+source-wordcount: '284'
+ht-degree: 84%
 
 ---
 
