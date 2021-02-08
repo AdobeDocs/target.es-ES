@@ -1,12 +1,13 @@
 ---
 keywords: lado del servidor;lado del servidor;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Información sobre las API de envío de Adobe Target de parte del servidor, los SDK y las API de Recommendations de Destinatario.
-title: Información sobre API de Envío del lado del servidor, SDK de Node.js y API de Recommendations
+description: Obtenga información sobre las API de envío de Adobe Target del lado del servidor, los SDK y las API de Recommendations de Destinatario.
+title: ¿Dónde puedo obtener información sobre las API y los SDK de Envío de Destinatario Server-Side?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 20%
 
 ---
