@@ -1,13 +1,13 @@
 ---
 keywords: periodo de tiempo;fecha de inicio;fecha de fin;fechas de inicio/fin;intervalo de tiempo;programación de Target;partición por semana;partición por día;partición
-description: Puede añadir fechas y horas de inicio y fin para dirigirse a los usuarios que visitan el sitio durante un periodo de tiempo determinado. También puede establecer opciones de Partición por semana y día para crear patrones recurrentes en la segmentación de audiencia.
-title: Opciones de lapso de tiempo en Audiencias
+description: Conozca cómo utilizar las fechas y horas de inicio y finalización para destinatario a los usuarios que visitan el sitio durante un intervalo de tiempo específico. También puede definir las opciones Partición por semana y día.
+title: ¿Puedo Destinatario Visitantes que visitan mi sitio en momentos específicos?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
 
