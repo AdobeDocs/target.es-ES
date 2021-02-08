@@ -1,13 +1,14 @@
 ---
 keywords: implementar destinatario;implementación;implementar at.js;administrador de etiquetas
-description: Información sobre la implementación de Adobe Target sin utilizar un administrador de etiquetas (Adobe Launch o Dynamic Tag Management).
-title: Implementar sin un Administrador de etiquetas
+description: Aprenda a especificar la configuración (detalles de la cuenta, métodos de implementación, etc.) para implementar la biblioteca at.js de Adobe Target sin usar un administrador de etiquetas.
+title: ¿Puedo implementar Destinatario sin un Administrador de etiquetas?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 69%
+source-wordcount: '1555'
+ht-degree: 68%
 
 ---
 
