@@ -1,13 +1,13 @@
 ---
-keywords: create experience;experience create;priority;audience;experience;visual experience composer
-description: El Compositor de experiencias visuales (VEC) de Adobe Target en Adobe Target proporciona una interfaz visual para editar las experiencias en la página en una actividad de segmentación de experiencias (XT).
-title: Crear experiencia
+keywords: crear experiencia;crear;experiencia;prioridad;audiencia;experiencia;compositor de experiencias visuales
+description: Descubra cómo usar el Compositor de experiencias visuales (VEC) de Adobe Target para crear y editar experiencias en la página en una actividad de segmentación de experiencias (XT).
+title: ¿Cómo se crean experiencias en una Actividad de segmentación de experiencias?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 88%
+source-wordcount: '986'
+ht-degree: 87%
 
 ---
 
