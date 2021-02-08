@@ -1,13 +1,14 @@
 ---
 keywords: complementos de at.js;complementos compatibles;complementos no compatibles;ttMeta;ttmeta;mboxTrack
-description: Información sobre los complementos compatibles y no compatibles de at.js para Adobe Target.
-title: Complementos de at.js
+description: Obtenga información sobre la implementación heredada de mbox.js de Adobe Target. Migrar al SDK web de Adobe Experience Platform (AEP Web SDK) o a la versión más reciente de at.js.
+title: ¿Qué complementos heredados no se admiten en Destinatario at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 96%
+source-wordcount: '239'
+ht-degree: 82%
 
 ---
 
