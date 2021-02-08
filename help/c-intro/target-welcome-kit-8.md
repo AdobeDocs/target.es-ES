@@ -1,12 +1,12 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de destinatario;introducción;introducción;introducción
-description: Kit de bienvenida de Adobe Target - Capítulo 8 - Comunicar los resultados de su actividad
-title: Kit de bienvenida - Capítulo 8 - Comunicar los resultados de su Actividad
+description: Utilice la plantilla Resultados de resumen ejecutivo para ayudarle a comunicar sus éxitos con sus actividades de Adobe Target.
+title: ¿Cómo puedo compartir los resultados de mis actividades de Destinatario con mi organización?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
