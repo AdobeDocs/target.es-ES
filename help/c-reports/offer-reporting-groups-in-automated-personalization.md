@@ -1,13 +1,13 @@
 ---
 keywords: personalización automatizada;oferta;sistema de informes;grupo;grupo de sistemas de informes
-description: Información sobre el uso de grupos de sistemas de informes en actividades de Automated Personalization (AP) en Adobe Target.
-title: Grupos de Sistemas de informes de oferta en Actividades Automated Personalization (AP)
+description: Obtenga información sobre cómo usar grupos de sistemas de informes de oferta en actividades Automated Personalization de Adobe Target. Con los grupos de sistemas de informes, Destinatario solo crea un modelo de personalización para cada grupo de sistemas de informes.
+title: ¿Puedo usar grupos de Sistemas de informes de Oferta en Actividades de Automated Personalization?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 63%
+source-wordcount: '448'
+ht-degree: 61%
 
 ---
 
