@@ -1,13 +1,13 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: A veces, las actividades no salen como se esperaba. A continuación, le presentamos algunos de los posibles desafíos a los que se puede enfrentar al usar la personalización automatizada y algunas soluciones sugeridas.
-title: Resolución de problemas de la personalización automatizada
+description: Explore los desafíos potenciales que podría enfrentar al usar actividades de Automated Personalization (AP) en Adobe Target, junto con las soluciones sugeridas.
+title: ¿Cómo puedo solucionar problemas de Automated Personalization?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
