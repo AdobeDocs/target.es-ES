@@ -1,13 +1,14 @@
 ---
-keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
-description: La migración de mbox.js a at.js es un proceso directo.
+keywords: Target;at.js;migrar a at.js;disposición;auditar at.js;integrar at.js
+description: Descubra cómo migrar a at.js, la nueva biblioteca de implementación para Adobe Target diseñada tanto para implementaciones web típicas como para aplicaciones de una sola página (SPA).
 title: Cómo migrar de mbox.js a at.js
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
