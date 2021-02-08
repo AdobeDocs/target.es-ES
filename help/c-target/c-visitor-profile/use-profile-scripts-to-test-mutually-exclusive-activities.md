@@ -1,13 +1,13 @@
 ---
 keywords: script de perfil;atributos de script de perfil;actividades mutuamente excluyentes
-description: Puede usar atributos de perfil para definir pruebas que comparen dos o más actividades, pero sin permitir que los mismos visitantes participen en cada una de ellas.
-title: Usar secuencias de comandos de Perfil para probar Actividades mutuamente exclusivas
+description: Aprenda a usar atributos de perfil para configurar pruebas en Adobe Target que comparen varias actividades pero no permitan que los mismos visitantes participen en cada actividad.
+title: ¿Puedo utilizar secuencias de comandos de Perfil para probar Actividades mutuamente exclusivas?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 80%
+source-wordcount: '698'
+ht-degree: 76%
 
 ---
 
