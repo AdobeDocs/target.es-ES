@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations
-description: Cuando se habilita Analytics como fuente de informes para Target (A4T), se producen varios cambios en el proceso de recopilación de datos.
-title: Antes de implementar Analytics como fuente de Sistema de informes (A4T)
+description: Conozca los requisitos de implementación de Analytics para Destinatario (A4T) y qué considerar antes de implementar esta integración.
+title: ¿Qué Debo Saber Antes De Implementar A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 54%
+source-wordcount: '896'
+ht-degree: 52%
 
 ---
 
