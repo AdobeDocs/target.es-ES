@@ -1,13 +1,14 @@
 ---
 keywords: tls;tls 1.0;seguridad de capa de transporte;cifrado;tls 1.1;tls 1.2
-description: Información sobre cambios en la forma en que Adobe y Target usan TLS (Seguridad de capa de transporte) para mantener los más altos estándares de seguridad y promover la seguridad de los datos de los clientes.
-title: Cambios en el cifrado de TLS (Seguridad de capa de transporte).
+description: Conozca cómo Destinatario utiliza el protocolo TLS (Transport Layer Security) para mantener los más altos estándares de seguridad y promover la seguridad de los datos de sus clientes.
+title: ¿Cómo utiliza Destinatario TLS para proporcionar seguridad?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1238'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
