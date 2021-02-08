@@ -1,13 +1,13 @@
 ---
 keywords: prueba multivariable;mvt;planificación de mvt;planificar prueba multivariable
-description: Con las pruebas multivariables en Adobe Target se requiere cierta planificación para poder crear una prueba con resultados satisfactorios.
-title: Planificar una prueba multivariable
+description: Descubra cómo planificar una prueba multivariada en Adobe Target para que pueda crear una prueba con éxito.
+title: ¿Cómo planeo una prueba multivariada?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 99%
+source-wordcount: '298'
+ht-degree: 91%
 
 ---
 
