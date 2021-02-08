@@ -1,13 +1,13 @@
 ---
 keywords: segmentación;red;red de target;isp;nombre de dominio;velocidad de conexión;isp de target;nombre de dominio de target;velocidad de conexión de target
-description: Puede crear audiencias en Adobe Target basadas en los detalles de la red.
-title: Opciones de red en Audiencias
+description: Obtenga información sobre cómo crear audiencias en Adobe Target basadas en datos de red como ISP, nombre de dominio y velocidad de conexión.
+title: ¿Puedo Destinatario de Visitantes según las opciones de red?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 98%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
