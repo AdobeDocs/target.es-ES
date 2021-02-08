@@ -1,13 +1,14 @@
 ---
 keywords: informe;informes;sistema de informes;solución de Experience Cloud;huso horario;moneda;excluir direcciones IP;alza estimada de ingresos;ingresos;alza de ingresos;prioridades específicas;prioridades específicas
-description: Configure las opciones generales para utilizarlas en Adobe Target sistema de informes que se aplican a toda la cuenta de Destinatario. Puede configurar la solución de Adobe Experience Cloud para utilizarla en sistema de informes (Destinatario o Analytics), el huso horario y el formato de moneda que se va a utilizar para el sistema de informes, las direcciones IP que se van a excluir del sistema de informes y si se va a mostrar el alza estimada de los ingresos y las prioridades específicas en sistema de informes.
-title: Configurar Sistema de informes
+description: Use Destinatario o Adobe Analytics como origen de sistema de informes, especifique el huso horario y el formato de moneda predeterminados, agregue direcciones IP para excluir del sistema de informes, etc.
+title: ¿Cómo configuro Sistema de informes en Destinatario?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 30%
+source-wordcount: '698'
+ht-degree: 31%
 
 ---
 
