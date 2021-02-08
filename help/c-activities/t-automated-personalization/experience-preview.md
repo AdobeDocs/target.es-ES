@@ -1,13 +1,13 @@
 ---
 keywords: vista previa de experiencias;direcciones URL de experiencia;generar direcciones URL;ver direcciones URL de experiencia
-description: Las direcciones URL de previsualización de experiencias se pueden generar para actividades de Automated Personalization de Destinatario para ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa para fines de previsualización y control de calidad. Las direcciones URL de previsualización de experiencias omiten la segmentación para forzar la visualización de una experiencia concreta.
-title: Previsualización de Actividades de Automated Personalization con direcciones URL de Previsualización de experiencias
+description: Descubra cómo usar las direcciones URL de previsualización de experiencias para actividades Automated Personalization de Adobe Target para ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa.
+title: ¿Cómo puedo usar direcciones URL de Previsualización de experiencias en Actividades de Automated Personalization?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 64%
+source-wordcount: '783'
+ht-degree: 65%
 
 ---
 
