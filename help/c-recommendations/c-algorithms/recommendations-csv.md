@@ -1,13 +1,13 @@
 ---
 keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;cargar csv
-description: Cargue un archivo CSV para personalizar las recomendaciones.
-title: Cargar criterios personalizados
+description: Obtenga información sobre cómo cargar un archivo CSV para personalizar las recomendaciones en Adobe Target Recommendations.
+title: ¿Cómo se cargan los criterios personalizados en Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 64%
+source-wordcount: '710'
+ht-degree: 61%
 
 ---
 
