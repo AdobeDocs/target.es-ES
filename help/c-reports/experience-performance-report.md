@@ -1,13 +1,13 @@
 ---
 keywords: prueba multivariable;mvt;informe de rendimiento de las experiencias
-description: El informe Rendimiento de las experiencias muestra el rendimiento de cada experiencia en la actividad. Este informe proporciona información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
-title: Informe Rendimiento de las experiencias (MVT)
+description: Descubra cómo utilizar el informe Rendimiento de la experiencia para actividades de segmentación de experiencias de Adobe Target que muestran el rendimiento de cada experiencia en la actividad.
+title: ¿Cómo se utiliza el informe Rendimiento de la experiencia para las pruebas multivariadas?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 99%
+source-wordcount: '333'
+ht-degree: 89%
 
 ---
 
