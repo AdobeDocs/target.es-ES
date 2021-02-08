@@ -3,8 +3,9 @@ keywords: at.js;2.0;1.x;cookies
 description: Detalles sobre la administración de cookies de Adobe Target at.js 2.x y at.js 1.x
 title: Cookies de at.js
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 98%
