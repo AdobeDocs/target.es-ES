@@ -1,14 +1,13 @@
 ---
 keywords: Destinatario;inicio;temas populares;destinatario de adobe;estándar;premium;documentación de destinatario;documentación de adobe destinatario
-title: Guía de Adobe Target
-description: ¿Dónde puedo encontrar la documentación de Destinatario?
-seo-description: Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
+title: ¿Dónde puedo encontrar la documentación de Destinatario?
+description: Aprenda a utilizar Adobe Target para personalizar la experiencia de sus clientes a fin de maximizar los ingresos en sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 62%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 62%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 1 de febrero de 2021 ( [Vea los cambios](r-release-notes/doc-change.md) )**
+**Última actualización: 8 de febrero de 2021 ( [Vea los cambios](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
