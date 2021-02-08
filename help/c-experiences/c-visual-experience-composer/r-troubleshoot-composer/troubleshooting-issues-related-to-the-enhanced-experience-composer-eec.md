@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: A veces se producen problemas de visualización en el Compositor de experiencias mejorado (EEC) de Adobe Target en determinadas condiciones.
-title: Resolución de problemas relacionados con el Compositor de experiencias mejorado
+keywords: Segmentación;eec;compositor de experiencias visuales;resolución de problemas del compositor de experiencias mejorado;resolución de problemas
+description: Descubra cómo solucionar problemas que a veces se producen en el Compositor de experiencias mejorado de Adobe Target (EEC) en determinadas condiciones.
+title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias mejorado?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 63%
+source-wordcount: '449'
+ht-degree: 61%
 
 ---
 
