@@ -1,13 +1,14 @@
 ---
 keywords: Información general y referencia;webkit
-description: El comportamiento de la cookie depende de si es una cookie de origen, una cookie de terceros con una cookie de origen o solo una cookie de terceros.
-title: Cookies de mbox.js
+description: Obtenga información sobre la implementación heredada de mbox.js de Adobe Target. Migrar al SDK web de Adobe Experience Platform (AEP Web SDK) o a la versión más reciente de at.js.
+title: ¿Dónde puedo encontrar información sobre las cookies de mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 94%
+source-wordcount: '1652'
+ht-degree: 92%
 
 ---
 
