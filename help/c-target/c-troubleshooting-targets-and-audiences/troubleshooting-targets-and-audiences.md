@@ -1,13 +1,13 @@
 ---
 keywords: resolución de problemas;preguntas más frecuentes;FAQ;FAQs;objetivos;audiencias
-description: Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
-title: Preguntas más frecuentes sobre destinatarios y Audiencias
+description: Preguntas más frecuentes (FAQ) de vista sobre segmentación de experiencias y audiencias utilizadas en actividades de Adobe Target.
+title: ¿Dónde puedo encontrar preguntas y respuestas sobre Destinatarios y Audiencias?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 68%
+source-wordcount: '953'
+ht-degree: 66%
 
 ---
 
