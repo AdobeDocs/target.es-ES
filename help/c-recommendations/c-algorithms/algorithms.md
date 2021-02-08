@@ -1,12 +1,12 @@
 ---
 keywords: recomendaciones;actividad de recomendaciones;criterios;algoritmo;clave de recomendación;clave personalizada;sector vertical;minorista;comercio electrónico;generación de posibles clientes;b2b;servicios financieros;medios;publicación
-description: Los criterios de Adobe Target son reglas que determinan qué productos o contenido recomendar en función de un conjunto predeterminado de comportamientos de visitante.
-title: Criterios en Destinatario Recommendations
+description: Obtenga información sobre cómo usar criterios en Adobe Target Recommendations. Los criterios son reglas que determinan qué contenido se debe recomendar en función de un conjunto predeterminado de comportamientos de visitante.
+title: ¿Cómo se utilizan los criterios en Destinatario Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 52%
 
 ---
