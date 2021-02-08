@@ -1,13 +1,13 @@
 ---
 keywords: adaptable;ventanillas móviles;ventanilla;dispositivos;móvil;diseño web interactivo;lectog
-description: Las ventanillas móviles le ayudan a previsualización la forma en que aparecen sus actividades de Adobe Target en pantallas de distintos tamaños.
-title: Ventanillas móviles para las experiencias adaptables
+description: Las ventanillas móviles le ayudan a ver el aspecto de sus actividades de Adobe Target en pantallas de distintos tamaños. Encuentre una lista de resoluciones y tamaños populares de ventanillas móviles.
+title: ¿Cómo se utilizan las ventanillas móviles para las experiencias interactivas?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 68%
+source-wordcount: '1467'
+ht-degree: 67%
 
 ---
 
