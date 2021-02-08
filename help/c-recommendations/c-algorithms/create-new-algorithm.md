@@ -1,13 +1,13 @@
 ---
 keywords: criterios;algoritmo;sector vertical;tipo de página;clave de recomendación;lógica;lógica;rango de datos;origen de datos de comportamiento;diseño parcial;recomendaciones de copia de seguridad;reglas de inclusión;ponderación de atributos;categoría actual;atributo personalizado;último artículo comprado;último artículo visto;último artículo visto;artículo más visto;categoría favorita;popularidad;artículo visto recientemente;último comprado;último visitado;favorito;favorito;último artículo visto;recientemente visto
-description: Los criterios controlan el contenido de sus actividades de Adobe Recommendations. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad.
-title: Crear criterios
+description: Obtenga información sobre cómo crear criterios que controlen el contenido de sus actividades de Adobe Recommendations para mostrar las recomendaciones más adecuadas para su actividad.
+title: ¿Cómo se crean criterios en Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 65%
+source-wordcount: '2485'
+ht-degree: 64%
 
 ---
 
