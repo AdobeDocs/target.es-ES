@@ -1,12 +1,12 @@
 ---
 keywords: administración de la relación con los clientes;servicio de registros de clientes;crs;crm;mbox3rdpartyid;atributos del cliente;segmentación;csv;crm;adobe experience cloud people
-description: Información sobre el uso de datos de clientes empresariales de bases de datos de administración de la relación con los clientes (CRM) para la segmentación de contenido en Adobe Target mediante el uso de Atributos del cliente en el servicio Personas de Adobe Experience Cloud.
-title: Atributos del cliente
+description: Obtenga información sobre cómo utilizar datos de clientes empresariales de una base de datos de administración de la relación con los clientes (CRM) para la segmentación de contenido en Adobe Target.
+title: ¿Qué son los atributos del cliente y cómo se utilizan?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 40%
 
 ---
