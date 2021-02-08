@@ -4,10 +4,10 @@ description: Manténgase al día con importantes adiciones y cambios en la docum
 title: ¿Dónde puedo realizar la Vista de actualizaciones de documentación para Destinatario?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3600'
+ht-degree: 28%
 
 ---
 
@@ -21,6 +21,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 8 de febrero | [Vista previa para móviles en Target](/help/c-target-mobile-app/target-mobile-preview.md) | Se ha añadido el fragmento de código que debe añadir al archivo AndroidManifest.xml para la versión 4 del SDK de Adobe Mobile. |
+|  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha aclarado el siguiente problema conocido:<ul><li>Las colecciones, exclusiones, criterios y diseños creados mediante API no están visibles en la interfaz de usuario de Destinatario y solo se pueden editar mediante API. Del mismo modo, si crea cualquiera de estos elementos en la interfaz de usuario de Destinatario y posteriormente los edita mediante API, dichos cambios no se reflejarán en la interfaz de usuario de Destinatario. Los elementos editados mediante API deben seguir editándose mediante API para evitar la pérdida de modificaciones.</li></ul> |
 | 1 de febrero | [Informes Resumen de Personalización automatizada](/help/c-reports/reports-ap.md) | Nueva sección añadida: &quot;Preguntas más frecuentes&quot;. |
 | Enero de 27 | [Crear ofertas de redireccionamiento](/help/c-experiences/c-manage-content/offer-redirect.md) | Tema actualizado. |
 |  | [Crear ofertas remotas](/help/c-experiences/c-manage-content/about-remote-offers.md) | Tema actualizado. |
