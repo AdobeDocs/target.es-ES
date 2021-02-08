@@ -1,14 +1,14 @@
 ---
 keywords: experiencia;control;Automated Personalization;segmentación automática
-description: Seleccione una experiencia para utilizarla como control mientras crea una actividad de Automated Personalization (AP) o de Segmentación automática (AT) en Adobe Target.
-title: Usar una experiencia específica como control
+description: Aprenda a seleccionar una experiencia para utilizarla como control al crear una actividad de Automated Personalization (AP) o de Destinatario automático en Adobe Target.
+title: ¿Cómo puedo usar una experiencia específica como control en una Actividad AP?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 99%
+source-wordcount: '765'
+ht-degree: 95%
 
 ---
 
