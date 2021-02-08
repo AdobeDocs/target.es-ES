@@ -1,12 +1,12 @@
 ---
 keywords: fuente de recomendaciones;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de análisis
-description: Utilice fuentes para importar entidades en Adobe Target Recommendations. Las entidades se pueden enviar utilizando archivos CSV, el formato de fuente de Google Product Search y/o las clasificaciones de productos de Adobe Analytics.
-title: Fuentes en Destinatario Recommendations
+description: Descubra cómo las fuentes importan entidades en Adobe Target Recommendations mediante archivos CSV, el formato de fuente de Google Product Search y las clasificaciones de productos de Analytics.
+title: ¿Cómo se usan las fuentes en Destinatario Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2526'
+source-wordcount: '2523'
 ht-degree: 84%
 
 ---
