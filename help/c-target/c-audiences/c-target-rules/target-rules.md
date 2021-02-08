@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación;categorías de objetivos;condiciones de segmentación;administrador de audiencias;parámetros de perfil personalizados;perfil de visitante;parámetros de usuario personalizados;reglas de segmentación
-description: Se pueden tener varias categorías de objetivos. Cada una de ellas funciona como una ficha que le permite crear reglas de objetivos (o grupos) para cada categoría.
-title: Categorías para audiencias
+description: Aprenda a utilizar categorías (como Explorador, Geografía, Red, Sistema operativo, Perfil de Visitante) para destinatario de contenido.
+title: ¿Cuáles son las Categorías para Audiencias?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 98%
+source-wordcount: '380'
+ht-degree: 92%
 
 ---
 
