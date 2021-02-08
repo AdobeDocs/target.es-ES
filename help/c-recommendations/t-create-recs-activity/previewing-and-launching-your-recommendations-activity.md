@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;oferta;previsualización;inicio;estado;criterios;algoritmo
-description: Después de crear la actividad de Recommendations, Prueba A/B o Segmentación de experiencias (XT) que contenga ofertas de Recommendations de Adobe Target, deberá previsualización para asegurarse de que los resultados están disponibles antes de iniciar la actividad. Destinatario Recommendations oferta varias formas de previsualización de las recomendaciones.
-title: Previsualización e inicio de la Actividad de Recommendations
+description: 'Conozca cómo realizar la previsualización de su actividad de Adobe Target Recommendations para asegurarse de que los resultados están disponibles antes de iniciar la actividad. '
+title: ¿Cómo puedo realizar la Previsualización y el lanzamiento de una Actividad de Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 16%
+source-wordcount: '1350'
+ht-degree: 17%
 
 ---
 
