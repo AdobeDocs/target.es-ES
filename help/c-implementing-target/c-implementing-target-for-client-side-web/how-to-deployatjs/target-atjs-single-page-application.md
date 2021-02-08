@@ -1,12 +1,13 @@
 ---
 keywords: implementación de aplicación de una sola página;implementar aplicación de una sola página;spa;at.js 2.x;at.js;aplicación de una sola página;aplicación de una sola página;spa;SPA
-description: Información para utilizar Adobe Target at.js 2.x para implementar Aplicaciones de una sola página (SPA).
-title: Implementación de aplicación de una sola página
+description: Obtenga información sobre cómo utilizar Adobe Target at.js 2.x para implementar Destinatario para aplicaciones de una sola página (SPA).
+title: ¿Puedo implementar Destinatario para aplicaciones de una sola página (SPA)?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2769'
+source-wordcount: '2777'
 ht-degree: 73%
 
 ---
@@ -284,7 +285,7 @@ La siguiente información describe el orden de las operaciones que debe seguir a
 | --- | --- | --- |
 | 1 | Cargar VisitorAPI JS | Esta biblioteca es responsable de asignar un ECID al visitante. Esta ID es consumida posteriormente por otras soluciones [!DNL Adobe] de la página Web. |
 | 2 | Cargar at.js 2.x | at.js 2.x carga todas las API necesarias que se utilizan para implementar [!DNL Target] solicitudes y vistas. |
-| 3 | Ejecutar solicitud [!DNL Target] | Si tiene una capa de datos, le recomendamos que cargue los datos críticos que se deben enviar a [!DNL Target] antes de ejecutar una solicitud [!DNL Target]. Esto le permite utilizar `targetPageParams` para enviar los datos que desee utilizar para objetivos. Debe asegurarse de solicitar la ejecución > pageLoad, así como la recuperación previa > vistas en esta llamada de API. si ha establecido `pageLoadEnabled` y `viewsEnabled`, entonces las vistas ejecutar > pageLoad y prefetch > se producen automáticamente con el Paso 2; de lo contrario, debe utilizar la API `getOffers()` para realizar esta solicitud. |
+| 1 | Ejecutar solicitud [!DNL Target] | Si tiene una capa de datos, le recomendamos que cargue los datos críticos que se deben enviar a [!DNL Target] antes de ejecutar una solicitud [!DNL Target]. Esto le permite utilizar `targetPageParams` para enviar los datos que desee utilizar para objetivos. Debe asegurarse de solicitar la ejecución > pageLoad, así como la recuperación previa > vistas en esta llamada de API. si ha establecido `pageLoadEnabled` y `viewsEnabled`, entonces las vistas ejecutar > pageLoad y prefetch > se producen automáticamente con el Paso 2; de lo contrario, debe utilizar la API `getOffers()` para realizar esta solicitud. |
 | 4 | La llamada `triggerView()` | Dado que la solicitud [!DNL Target] iniciada en el paso 3 podría devolver experiencias tanto para la ejecución de Carga de página como para Vistas, asegúrese de que se llame a `triggerView()` después de que se devuelva la solicitud [!DNL Target] y termine de aplicar las ofertas a la caché. Debe ejecutar este paso sólo una vez por vista. |
 | 5 | Llamar a la señalización de vista de página [!DNL Analytics] | Esta señalización envía el SDID asociado con los pasos 3 y 4 a [!DNL Analytics] para la vinculación de datos. |
 | 6 | Llamar a `triggerView({"page": false})` adicional | Este es un paso opcional para los marcos de SPA que podrían volver a representar determinados componentes en la página sin que se produzca un cambio de vista. En estas ocasiones, es importante que invoque esta API para asegurarse de que las experiencias [!DNL Target] se vuelven a aplicar después de que la estructura de SPA haya vuelto a procesar los componentes. Puede ejecutar este paso tantas veces como desee para asegurarse de que [!DNL Target] experiencias persistan en sus vistas SPA. |
@@ -295,7 +296,7 @@ La siguiente información describe el orden de las operaciones que debe seguir a
 | --- | --- | --- |
 | 1 | La llamada `visitor.resetState()` | Esta API garantiza que el SDID se vuelva a generar para la nueva vista a medida que se carga. |
 | 2 | Actualice la caché llamando a la API `getOffers()` | Se trata de un paso opcional que se debe realizar si este cambio de vista tiene el potencial de calificar el visitante actual para más actividades [!DNL Target] o descalificarlas de actividades. En este punto, también puede elegir enviar datos adicionales a [!DNL Target] para habilitar capacidades de objetivo adicionales. |
-| 3 | La llamada `triggerView()` | Si ha ejecutado el Paso 2, debe esperar a la solicitud [!DNL Target] y aplicar las ofertas a la caché antes de ejecutar este paso. Debe ejecutar este paso sólo una vez por vista. |
+| 1 | La llamada `triggerView()` | Si ha ejecutado el Paso 2, debe esperar a la solicitud [!DNL Target] y aplicar las ofertas a la caché antes de ejecutar este paso. Debe ejecutar este paso sólo una vez por vista. |
 | 4 | La llamada `triggerView()` | Si no ha ejecutado el Paso 2, puede ejecutar este paso tan pronto como complete el Paso 1. Si ha ejecutado los pasos 2 y 3, debe omitir este paso. Debe ejecutar este paso sólo una vez por vista. |
 | 5 | Llamar a la señalización de vista de página [!DNL Analytics] | Esta señalización envía el SDID asociado con los pasos 2, 3 y 4 a [!DNL Analytics] para la vinculación de datos. |
 | 6 | Llamar a `triggerView({"page": false})` adicional | Este es un paso opcional para los marcos de SPA que podrían volver a representar determinados componentes en la página sin que se produzca un cambio de vista. En estas ocasiones, es importante que invoque esta API para asegurarse de que las experiencias [!DNL Target] se vuelven a aplicar después de que la estructura de SPA haya vuelto a procesar los componentes. Puede ejecutar este paso tantas veces como desee para asegurarse de que [!DNL Target] experiencias persistan en sus vistas SPA. |
