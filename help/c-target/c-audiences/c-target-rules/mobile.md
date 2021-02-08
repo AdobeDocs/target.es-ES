@@ -1,13 +1,13 @@
 ---
 keywords: segmentación;móvil;segmentar por móvil;deviceatlas;iPhone;modelos de iPhone;device atlas;anchuradepantalla;anchura de pantalla;altura de pantalla;tipo de dispositivo;alturadepantalla;teléfono;tablet;modelo de dispositivo
-description: Cree audiencias en Adobe Target para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (en píxeles) y muchos más.
-title: Opciones móviles en Audiencias
+description: Obtenga información sobre cómo crear audiencias en Adobe Target para dispositivos móviles de destinatario en función de parámetros como dispositivos móviles, tipo de dispositivo, proveedor de dispositivos, dimensiones de pantalla (en píxeles), etc.
+title: ¿Puedo Destinatario de Visitantes en función de las opciones móviles?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 98%
+source-wordcount: '610'
+ht-degree: 93%
 
 ---
 
