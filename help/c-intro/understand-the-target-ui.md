@@ -1,13 +1,13 @@
 ---
 keywords: interfaz de usuario de destinatario;interfaz de usuario;ui
-description: ¿Cómo se usa la interfaz de usuario (IU)?
-title: Comprender La Interfaz De Usuario
+description: Familiarícese con la interfaz de usuario y encuentre vínculos a información más detallada que le ayudará a sacar el máximo partido del Destinatario.
+title: ¿Cómo se usa la interfaz de usuario de Destinatario?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 30%
+source-wordcount: '817'
+ht-degree: 29%
 
 ---
 
