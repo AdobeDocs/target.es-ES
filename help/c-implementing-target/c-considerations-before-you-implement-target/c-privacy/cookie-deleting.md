@@ -1,13 +1,14 @@
 ---
 keywords: cookie;cookies;delete cookie;delete destinatario cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
-description: Elimine las cookies del navegador de Target para poder validar todas las experiencias.
-title: Eliminar la cookie de Target
+description: Obtenga información sobre cómo eliminar las cookies del navegador de Destinatario para poder validar sus experiencias.
+title: ¿Cómo elimino la cookie de Destinatario?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 9%
+source-wordcount: '428'
+ht-degree: 5%
 
 ---
 
