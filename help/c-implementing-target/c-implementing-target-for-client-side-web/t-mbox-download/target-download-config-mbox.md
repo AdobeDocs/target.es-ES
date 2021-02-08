@@ -1,13 +1,14 @@
 ---
 keywords: Implementación;Mbox;mbox.js;descargar mbox.js;configurar mbox.js
-description: Target Standard y Premium usan una versión modificada del archivo mbox.js de Adobe Target.
-title: Descargar mbox.js
+description: Obtenga información sobre la implementación heredada de mbox.js de Adobe Target. Migrar al SDK web de Adobe Experience Platform (AEP Web SDK) o a la versión más reciente de at.js.
+title: ¿Cómo se descarga la biblioteca mbox.js de Destinatario?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 68%
+source-wordcount: '286'
+ht-degree: 58%
 
 ---
 
