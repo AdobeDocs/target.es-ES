@@ -1,13 +1,13 @@
 ---
 keywords: control de calidad;lado del servidor;vista previa;vínculos de vista previa
-description: Utilice las direcciones URL de control de calidad de Adobe Target con envío de servidor para realizar un control de calidad de la actividad de extremo a extremo sencillo con vínculos de previsualización que nunca cambian, objetivos de audiencia opcionales y sistema de informes de control de calidad que permanece segmentado a partir de datos de actividad activos.
-title: Usar el control de calidad de la actividad con entrega de servidor
+description: Obtenga información sobre cómo utilizar las URL de control de calidad de Adobe Target con envío de servidor para realizar un control de calidad de la actividad de extremo a extremo sencillo con vínculos de previsualización que nunca cambian, objetivos de audiencia opcionales y sistema de informes de control de calidad que permanece segmentado a partir de datos de actividad activos.
+title: ¿Puedo realizar un control de calidad de la Actividad con el Envío del lado del servidor?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 72%
+source-wordcount: '397'
+ht-degree: 70%
 
 ---
 
