@@ -1,13 +1,13 @@
 ---
 keywords: audiencia;inclinación;atributo de perfil;comparar;comparación;crear audiencia;creación de audiencia
-description: Defina una audiencia con el fin de comparar dos atributos de perfil para su Biblioteca de audiencias de Target o en una audiencia solo de actividad. Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
-title: Crear una audiencia de comparación de atributos de perfil
+description: Obtenga información sobre cómo definir una audiencia para comparar dos atributos de perfil para la biblioteca de Audiencias de Destinatario o en una audiencia solo de actividad.
+title: ¿Puedo comparar dos atributos de Perfil para utilizarlos en Audiencias?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 99%
+source-wordcount: '419'
+ht-degree: 91%
 
 ---
 
