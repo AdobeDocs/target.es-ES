@@ -1,13 +1,14 @@
 ---
 keywords: oferta;precarga;iOS;android;sdk;móvil;sdk móvil
-description: La función de recuperación previa de Adobe Target usa los SDK para móviles de iOS y Android a fin de recuperar contenido de ofertas el menor número posible de veces almacenando en caché las respuestas del servidor.
-title: Recuperación previa de contenido de ofertas
+description: Utilice la función de recuperación previa de Adobe Target en los SDK para móviles de iOS y Android para recuperar el contenido de oferta el menor número posible de veces almacenando en caché las respuestas del servidor.
+title: ¿Puedo recuperar previamente contenido de Oferta para aplicaciones móviles?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 60%
+source-wordcount: '247'
+ht-degree: 47%
 
 ---
 
