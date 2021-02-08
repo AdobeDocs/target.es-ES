@@ -1,13 +1,14 @@
 ---
 keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;parámetros de página;at.js;funciones;función
-description: Información sobre la función targetPageParamsAll() para la biblioteca JavaScript at.js de Adobe Target.
-title: Targetpageparamsall()
+description: Utilice la función targetPageParamsAll() de la biblioteca JavaScript de Adobe Target at.js para adjuntar parámetros a todos los mboxes desde fuera del código de solicitud.
+title: ¿Cómo se utiliza la función targetPageParamsAll()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 87%
+source-wordcount: '169'
+ht-degree: 71%
 
 ---
 
