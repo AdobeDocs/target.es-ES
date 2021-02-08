@@ -1,13 +1,13 @@
 ---
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;segmentación de audiencia;informe de audiencia;audiencia de informe;segmento;parámetros de perfil personalizados;definición de audiencia;lista de audiencias
-description: Las audiencias en Adobe Target determinan quién ve el contenido y las experiencias en una actividad segmentada.
-title: Crear Audiencias
+description: Obtenga información sobre cómo utilizar la página Audiencias de Adobe Target y cómo vista tarjetas de definición de Audiencia que contienen detalles de audiencia e información de uso.
+title: ¿Cómo se usa la Lista de Audiencia?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 95%
+source-wordcount: '911'
+ht-degree: 92%
 
 ---
 
