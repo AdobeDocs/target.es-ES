@@ -1,12 +1,12 @@
 ---
 keywords: destinatario automático;segmentación;asignación de tráfico;preguntas más frecuentes;preguntas más frecuentes;preguntas más frecuentes;solución de problemas;resolución de problemas;tráfico
-description: Resolución de problemas y preguntas más frecuentes sobre el Destinatario automático en Adobe Target.
-title: Solución de problemas de Destinatario automático y preguntas más frecuentes
+description: Explore los temas de solución de problemas y las preguntas más frecuentes sobre las actividades de Destinatario automático en Adobe Target.
+title: ¿Cómo puedo solucionar problemas de Actividades de Destinatario automático?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1919'
 ht-degree: 68%
 
 ---
