@@ -1,13 +1,14 @@
 ---
 keywords: parpadeo;at.js;implementación;asincrónicamente;asincrónico;sincrónico;sincrónico
-description: Información sobre cómo la biblioteca de JavaScript de at.js de Adobe Target evita el parpadeo mientras se carga una página o una aplicación.
-title: Cómo gestiona at.js el parpadeo
+description: Descubra cómo at.js y Adobe Target evitan el parpadeo (el contenido predeterminado se muestra momentáneamente antes de ser reemplazado por el contenido de actividad) durante la carga de la página o la aplicación.
+title: ¿Cómo gestiona at.js el parpadeo?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 80%
+source-wordcount: '668'
+ht-degree: 76%
 
 ---
 
