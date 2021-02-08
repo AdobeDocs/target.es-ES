@@ -1,12 +1,12 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de destinatario;introducción;introducción;introducción
-description: Kit de bienvenida de Adobe Target - Capítulo 3 - Desarrolle sus ideas de pruebas y personalización
-title: Kit de bienvenida - Capítulo 3 - Desarrollar sus pruebas e ideas de personalización
+description: Conozca seis pasos que describen un proceso comprobado para mejorar sus ideas de pruebas y personalización antes de crear actividades en Adobe Target.
+title: ¿Cómo puedo desarrollar mis ideas de pruebas y personalización?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -39,52 +39,52 @@ Haga esto mediante:
 * Investigar los resultados de experiencias de prueba anteriores para determinar el potencial de las pruebas de seguimiento.
 * Revisión y uso compartido de la hoja de ruta de pruebas prioritaria con los interesados internos.
 
-Por ejemplo, dar prioridad a una actividad fácil de implementar que pueda producir buenos resultados basados en actividades similares anteriores en comparación con una actividad que pueda generar buenos resultados, pero que requiera un esfuerzo y recursos técnicos significativos o pueda resultar beneficiosa para los interesados.
+Por ejemplo, dar prioridad a una actividad fácil de implementar que pueda generar buenos resultados basados en actividades similares anteriores en comparación con una que pueda generar buenos resultados, pero que requiera un esfuerzo y recursos técnicos significativos o pueda ser impulsada por los interesados.
 
 ## Paso 3: Diseño
 
 Diseñe y desarrolle un plan de actividad con información detallada y imágenes de experiencia aprobadas.
 
-Realice esta acción:
+Haga esto mediante:
 
-* Finalización de los criterios de entrada de actividad y las métricas necesarias para determinar el rendimiento de la actividad.
+* Finalización de los criterios y métricas de entrada de actividad necesarios para determinar el rendimiento de la actividad.
 * Finalización y aprobación de diseños finales para experiencias de actividad.
-* Documentar los requisitos para la actividad [!DNL Target], incluidos los criterios de entrada de prueba, las métricas de informes y los cambios de experiencia.
+* Documentar los requisitos para la actividad [!DNL Target], incluidos los criterios de entrada de prueba, las métricas de sistema de informes y los cambios de experiencia.
 
-Utilice el Planificador de actividades, que se proporciona más adelante en el kit de bienvenida, para documentar los detalles de la actividad, incluidas las métricas que utilizará para medir el rendimiento de la actividad, como clics en un botón de llamada a acción, inicios de vídeo o ingresos generados. Asegúrate de incluir capturas de pantalla o imágenes de los diseños de experiencia que planeas probar o personalizar.
+Utilice el Planificador de Actividad, que se proporciona más adelante en el kit de bienvenida, para realizar un documento de los detalles de la actividad, incluidas las métricas que utilizará para medir el rendimiento de la actividad, como los clics en un botón de llamada a acción, los inicios de vídeo o los ingresos generados. Asegúrese de incluir capturas de pantalla o imágenes de los diseños de experiencia que tiene previsto probar o personalizar.
 
 ## Paso 4: Generar y ejecutar
 
 Cree y ejecute la actividad dentro de [!DNL Target], desarrolle cualquier código si es necesario, realice pruebas de control de calidad e inicie la actividad.
 
-Realice esta acción:
+Haga esto mediante:
 
 * Crear una actividad, aplicar cualquier audiencia, desarrollar cualquier código si es necesario y aplicar métricas a la actividad.
-* Asegurar la firma de todos los interesados.
-* Inicio de la actividad y revisión de métricas a una hora, a las 24 horas y periódicamente durante toda la actividad.
+* Asegurar la firma de todas las partes interesadas necesarias.
+* Inicio de la actividad y revisión de métricas a la hora, a las 24 horas y periódicamente durante la actividad.
 
-Por ejemplo, si desea dirigirse a nuevos visitantes con una oferta de caja de iluminación con un 10 % de descuento en su primer pedido, los creativos deberán desarrollar el diseño y la copia de la caja de iluminación, obtener la firma de los interesados en el diseño, hacer que los desarrolladores escriban el código para él, realizar el control de calidad en un entorno provisional y, a continuación, iniciar la actividad. A continuación, supervise la actividad para asegurarse de que no provoca ningún impacto negativo importante.
+Por ejemplo, si desea destinatario de nuevos visitantes con una oferta de caja de luz con un 10 % de descuento en el primer pedido, los creativos deberán desarrollar el diseño y la copia de caja de luz, obtener la firma de los interesados en el diseño, hacer que los desarrolladores escriban el código para el diseño, realizar un control de calidad en un entorno de ensayo y, a continuación, iniciar la actividad. A continuación, debe supervisar la actividad para asegurarse de que no causa ningún impacto negativo importante.
 
 ## Paso 5: Analizar
 
-Analice el rendimiento de la actividad y resuma los resultados, las perspectivas y las recomendaciones de la actividad.
+Analice el rendimiento de la actividad y resuma los resultados de la actividad, las perspectivas y las recomendaciones.
 
-Realice esta acción:
+Haga esto mediante:
 
-* Aprovechar el análisis de datos y las mejores prácticas para comprender los resultados de las actividades.
-* Análisis del rendimiento de la audiencia para encontrar segmentos de visitantes valiosos.
-* Documentar información, resultados y recomendaciones.
+* Aprovechar la análisis de datos y las optimizaciones para comprender los resultados de la actividad.
+* Analizar el rendimiento de la audiencia para encontrar segmentos de visitante valiosos.
+* Documentar perspectivas, resultados y recomendaciones.
 
-Por ejemplo, puede descubrir que los visitantes que regresan prefieren una experiencia diferente a la de los nuevos.
+Por ejemplo, puede que descubra que los visitantes que regresan prefieren una experiencia diferente a los nuevos visitantes.
 
-## Paso 6: Acto e iteración
+## Paso 6: Actúe e itere
 
-Operacionalice experiencias ganadoras para obtener valor para el negocio e itere en perspectivas.
+Lleve a cabo experiencias ganadoras para obtener valor empresarial e iterar en perspectivas.
 
-Realice esta acción:
+Haga esto mediante:
 
-* Comunicación de información, resultados y recomendaciones a los interesados.
-* Obtención de la aprobación de los interesados para ejecutar las recomendaciones de actividades.
+* Comunicación de perspectivas, resultados y recomendaciones de actividad a los interesados.
+* Obtener la aprobación de los interesados para ejecutar las recomendaciones de actividad.
 * Definición y ejecución del plan para implementar la experiencia ganadora.
 
-Por ejemplo, si la actividad de la caja de iluminación ha logrado aumentar las compras de los visitantes que lo visitan por primera vez, es posible que desee mantener esta actividad en funcionamiento. Asegúrese de comunicar el valor de la prueba a los interesados y ejecutivos mediante la plantilla de resumen ejecutivo incluida en el kit de bienvenida. Y piensa en cómo puedes volver a aplicar este aprendizaje; quizás puedes dirigirte a los compradores que lo hayan hecho por primera vez con una segunda oferta para obtener más valor de cada cliente.
+Por ejemplo, si la actividad de la caja de luz ha logrado aumentar las compras de visitantes por primera vez, es posible que desee mantener en funcionamiento esta actividad. Asegúrese de comunicar el valor que la prueba llevó a los accionistas y ejecutivos usando la plantilla de resumen ejecutivo incluida en el kit de bienvenida. Y consideremos cómo podemos reaplicar este aprendizaje; tal vez puedas destinatario a esos compradores nuevos con una segunda oferta para obtener más valor de cada cliente.
