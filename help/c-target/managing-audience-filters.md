@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación;filtro de audiencia;audiencias;filtro
-description: Los filtros de audiencia en Adobe Target (o audiencias) son grupos de visitantes que comparten una característica específica o un conjunto de características.
-title: Filtros de audiencia para la creación de informes
+description: Aprenda a utilizar filtros de audiencia en Adobe Target para vista de datos de grupos de visitantes que comparten una característica específica o un conjunto de características.
+title: ¿Puedo usar Filtros de Audiencia para el Sistema de informes?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 81%
+source-wordcount: '492'
+ht-degree: 79%
 
 ---
 
