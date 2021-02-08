@@ -1,13 +1,13 @@
 ---
 keywords: Automated Personalization;ap;cargar datos;datos sin conexión;algoritmo de personalización;destinatario automático;destinatario automático;prácticas recomendadas
-description: Los datos sin conexión, como la información CRM o las puntuaciones de tendencia a la generación de clientes, pueden ser increíblemente valiosos al crear modelos de personalización en actividades Automated Personalization (AP) de Adobe Target.
-title: Cargar datos para algoritmos de personalización
+description: Descubra cómo cargar datos sin conexión, como información de CRM, al crear modelos de personalización en actividades de Adobe Target Automated Personalization (AP).
+title: ¿Cómo puedo cargar datos para algoritmos de personalización?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 76%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 
