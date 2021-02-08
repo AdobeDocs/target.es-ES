@@ -1,13 +1,13 @@
 ---
 keywords: experiencia;compositor de experiencias visuales;compositor de experiencias mejorado;compositor de experiencias basadas en formularios;compositor de formularios;compositor visual;compositor de experiencias;contenido mixto;iframe;eliminación de iframes;iframe;opciones de x-frame;opciones de x-frame;origen cruzado;problemas de orígenes cruzados;flujo de trabajo de autenticación
-description: Una experiencia en Adobe Target determina qué contenido se muestra cuando el visitante cumple los criterios de audiencia de una actividad.
-title: Experiencias y Ofertas
+description: Obtenga más información sobre el Compositor de experiencias visuales (VEC), el Compositor de experiencias basadas en formularios y el Compositor de experiencias visuales de una sola página.
+title: ¿Qué Compositores de experiencias Oferta Destinatario?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 80%
+source-wordcount: '381'
+ht-degree: 79%
 
 ---
 
