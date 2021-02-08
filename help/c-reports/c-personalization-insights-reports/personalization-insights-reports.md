@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;informes de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes;atributos importantes
-description: 'Los usuarios de las actividades de Personalización automatizada (AP) y Segmentación automática (AT) disponen de dos informes especializados: los informes Segmentación automática y Atributos importantes.'
-title: Informes de Perspectivas de personalización
+description: 'Descubra cómo utilizar los informes especializados para actividades de Automated Personalization (AP) y Destinatario automático (AT): segmentos automatizados y atributos importantes.'
+title: ¿Cómo se utilizan los informes de perspectivas de personalización?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 66%
+source-wordcount: '743'
+ht-degree: 62%
 
 ---
 
