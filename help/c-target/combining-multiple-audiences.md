@@ -1,13 +1,13 @@
 ---
 keywords: audiencia;reglas de audiencia;combinar audiencias;combinación de audiencias;exclusión;añadir exclusión;excluir;audiencia específica
-description: Combine varias audiencias (incluidas las de Adobe Experience Cloud y las de Target) sobre la marcha para crear audiencias ad-hoc. También puede crear reglas de exclusión y excluir audiencias de una regla.
-title: Combinación de varias audiencias
+description: Aprenda a combinar varias audiencias (incluidas audiencias de Adobe Experience Cloud y audiencias de Destinatario) sobre la marcha para crear audiencias ad hoc.
+title: ¿Puedo combinar varias Audiencias para crear una nueva Audiencia?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 99%
+source-wordcount: '905'
+ht-degree: 95%
 
 ---
 
