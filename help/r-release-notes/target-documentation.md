@@ -1,12 +1,12 @@
 ---
 keywords: adobe destinatario;destinatario;documentación;api;apis;sdk;sdks;tutoriales;doc;documentación
-description: ¿Dónde puedo encontrar la documentación de Destinatario?
-title: Información general de la documentación
+description: Acceda a la documentación de Adobe Target, que incluye ayuda en línea, tutoriales, vídeos y documentación para desarrolladores (SDK, API y bibliotecas de JavaScript).
+title: ¿Dónde puedo encontrar la documentación de Destinatario?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
