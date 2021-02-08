@@ -1,13 +1,13 @@
 ---
 keywords: contenido;actualizar contenido;activos;cargar contenido;cargar activo
-description: ¿Cómo se cargan imágenes para utilizarlas como ofertas de imágenes?
-title: Cargar contenido
+description: Obtenga información sobre cómo cargar imágenes para usarlas como ofertas de imágenes en Adobe Target.
+title: ¿Cómo puedo cargar contenido en la biblioteca de Ofertas?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 19%
+source-wordcount: '233'
+ht-degree: 18%
 
 ---
 
