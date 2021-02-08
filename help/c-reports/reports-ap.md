@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación;informes AP;informes de personalización automatizada;informe de nivel de actividad;informe de nivel de oferta;informe de detalle de oferta;faq
-description: ¿Cómo se utilizan los informes Resumen de Automated Personalization?
-title: Informes resumen de Personalización automatizada
+description: Obtenga información sobre cómo interpretar el informe Resumen de Automated Personalization en Adobe Target. Desde este informe puede cambiar a los informes Segmentos automatizados y Atributos importantes.
+title: ¿Cómo se utilizan los informes de resumen de Automated Personalization?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 42%
+source-wordcount: '671'
+ht-degree: 40%
 
 ---
 
