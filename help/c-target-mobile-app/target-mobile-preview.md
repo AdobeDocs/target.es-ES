@@ -1,13 +1,14 @@
 ---
 keywords: control de calidad;vínculo previo;móvil;vista previa para móviles
-description: Use el vínculo de vista previa en móviles para realizar fácilmente un control de calidad exhaustivo de las actividades de aplicaciones móviles y registrarse en diversas experiencias directamente en el dispositivo sin tener que usar uno especial para pruebas.
-title: Uso del vínculo de Previsualización móvil en Destinatario Mobile
+description: Utilice los vínculos de previsualización móvil para realizar un control de calidad completo de las actividades de aplicaciones móviles. Puede inscribirse en diferentes experiencias sin dispositivos de prueba especiales.
+title: ¿Cómo se usa el vínculo de Previsualización móvil en Destinatario Mobile?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,10 +77,16 @@ La funcionalidad de vista previa para móviles le permite probar completamente s
      }
    ```
 
-   Para que la vista previa para móviles funcione en Android, también debe añadir el siguiente fragmento de código en [!DNL AndroidManifest.xml]:
+   Para que la Previsualización móvil funcione para Android, también debe agregar el siguiente fragmento de código en [!DNL AndroidManifest.xml] si utiliza la versión 5 del SDK de Adobe Mobile:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
+   ```
+
+   Si utiliza la versión 4 del SDK de Adobe Mobile, utilice el siguiente fragmento de código:
+
+   ```javascript
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 ## Generación de un vínculo de vista previa {#section_D9D58173FFF34E9BB75EBF357273F128}
