@@ -1,13 +1,13 @@
 ---
 keywords: personalización automatizada;ap;audiencias;ensamblado;bosque aleatorio;varianza residual;varianza de error;valor de duración
-description: El flujo de trabajo de la actividad de Automated Personalization en Adobe Target varía según el flujo de trabajo de los otros tipos de actividad.
-title: Crear una Actividad de Automated Personalization
+description: Obtenga información sobre cómo crear una actividad de Automated Personalization (AP) en Adobe Target mediante el Compositor de experiencias visuales (VEC).
+title: ¿Cómo se crea una Actividad de Automated Personalization?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 92%
+source-wordcount: '2057'
+ht-degree: 91%
 
 ---
 
