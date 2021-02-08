@@ -1,12 +1,13 @@
 ---
 keywords: aplicación móvil;ubicación de la aplicación móvil;aplicación móvil de destinatario;ubicaciones de destinatario móvil;servicio de ubicación;servicio de ubicación en la nube de Adobe Experience;pois;puntos de interés;sdk;ubicación
-description: En este tema se explica cómo usar el servicio de ubicación de Adobe Experience Platform en Adobe Target.
-title: Usar servicio de ubicación
+description: Obtenga información sobre cómo utilizar el servicio de ubicación de Adobe Experience Platform para activar las aplicaciones móviles con información sobre la ubicación.
+title: ¿Cómo se usa el servicio de ubicación de Adobe?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
