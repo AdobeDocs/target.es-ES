@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.getOffer;getOffer;getoffer;obtener oferta;at.js;funciones;función
-description: Información sobre la función adobe.target.getOffer(options) para la biblioteca JavaScript at.js de Adobe Target.
-title: Adobe.Target.Getoffer(Options)
+description: Utilice la función adobe.destinatario.getOffer() y sus opciones para que la biblioteca at.js de Adobe Target active las solicitudes para obtener una oferta de Destinatario.
+title: ¿Cómo se usa la función adobe.destinatario.getOffer()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '476'
+ht-degree: 91%
 
 ---
 
