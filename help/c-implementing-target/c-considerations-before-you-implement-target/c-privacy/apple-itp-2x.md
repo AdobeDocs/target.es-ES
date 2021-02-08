@@ -1,13 +1,14 @@
 ---
 keywords: apple;ITP;prevención inteligente del seguimiento;id de la nube de experiencias;ecid
-description: Información sobre la compatibilidad de Adobe Target con ITP 2.x de Apple mediante la biblioteca 4.3 de ID de Experience Cloud (ECID).
-title: Compatibilidad con ITP de Apple y destinatario
+description: Conozca Adobe Target y el impacto de la iniciativa de prevención inteligente del seguimiento (ITP) de Apple que busca proteger la privacidad de los usuarios de Safari.
+title: ¿Cómo gestiona Destinatario la compatibilidad con Apple ITP?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 51%
+source-wordcount: '913'
+ht-degree: 50%
 
 ---
 
