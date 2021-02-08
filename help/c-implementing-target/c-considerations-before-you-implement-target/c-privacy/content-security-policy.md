@@ -1,12 +1,13 @@
 ---
-keywords: content security policy;csp;at.js;whitelist;allowlist;flicker;pre-hide;pre-hiding;prehiding
-description: Información sobre las directivas de directiva de seguridad de contenido (CSP) que debe agregar al usar Adobe Target at.js 2.1 o posterior.
-title: Directivas de seguridad de contenido (CSP)
+keywords: directiva de seguridad de contenido;csp;at.js;lista de elementos permitidos;lista de permitidos;parpadeo;pre-ocultar;pre-ocultar;ocultamiento previo
+description: Obtenga información sobre las directivas de directiva de seguridad de contenido (CSP) que debe agregar al usar Adobe Target.
+title: ¿Cómo gestiona Destinatario las políticas de seguridad del contenido (CSP)?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
