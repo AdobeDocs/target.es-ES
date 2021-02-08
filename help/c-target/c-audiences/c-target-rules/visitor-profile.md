@@ -1,13 +1,13 @@
 ---
 keywords: perfil del visitante;segmentar el perfil del visitante;
-description: Cree audiencias en Adobe Target para segmentar visitantes que cumplan parámetros de perfil específicos.
-title: Opciones de Perfil de visitante en Audiencias
+description: Obtenga información sobre cómo crear audiencias en Adobe Target para visitantes de destinatario que cumplan parámetros de perfil específicos, como visitante nuevo o recurrente, afinidad de categoría, etc.
+title: ¿Puedo Destinatario Visitantes Que Cumplen Parámetros De Perfil Específicos?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 95%
+source-wordcount: '242'
+ht-degree: 83%
 
 ---
 
