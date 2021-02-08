@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación;experiencia;añadir experiencia;adición de experiencia
-description: El Compositor de experiencias visuales (VEC) de Adobe Target en Adobe Target proporciona una interfaz visual para editar las experiencias en la página.
-title: ' Añadir experiencia '
+description: Aprenda a utilizar el Compositor de experiencias visuales (VEC) en Adobe Target. El VEC proporciona una interfaz visual para agregar y editar experiencias en la página.
+title: ¿Cómo Añado experiencias en una Actividad A/B de Destinatario?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 82%
+source-wordcount: '481'
+ht-degree: 79%
 
 ---
 
