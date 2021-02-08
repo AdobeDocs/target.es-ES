@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;algoritmos de Recommendations;actividad de Recommendations;Recommendations Classic
-description: Información para ayudarlo a elegir entre Recommendations Classic y actividades de Recommendations en Target Premium.
-title: Actividades Recommendations Classic frente a Recommendations en Destinatario Premium
+description: Revise la información para ayudarle a comprender las diferencias entre las actividades heredadas de Recommendations Classic y Recommendations en Destinatario Premium.
+title: ¿Cuál es la diferencia entre Recommendations Classic y Recommendations en Destinatario Premium?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 95%
 
 ---
 
