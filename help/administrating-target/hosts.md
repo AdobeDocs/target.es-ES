@@ -1,13 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: Organice sus sitios y entornos de preproducción para facilitar la administración y el sistema de informes separado en Adobe Target.
-title: Hosts
+keywords: host;hosts;grupo de hosts;solución de problemas;prácticas recomendadas;ubox;redirecciones;redireccionar;lista blanca;lista de permitidos;lista negra;lista de bloqueados
+description: Aprenda a organizar sus sitios web y entornos de preproducción para facilitar la administración y el sistema de informes separado en Adobe Target.
+title: ¿Qué son los anfitriones y cómo los uso?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 25%
+source-wordcount: '1108'
+ht-degree: 24%
 
 ---
 
