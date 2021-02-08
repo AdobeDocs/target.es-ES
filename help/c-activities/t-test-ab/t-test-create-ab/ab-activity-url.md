@@ -1,13 +1,13 @@
 ---
-keywords: activity url;url;different url
-description: La dirección URL de Actividad determina la página que se utiliza en la prueba y que se abre cuando la prueba está diseñada con Adobe Target.
-title: Dirección URL de actividad
+keywords: url de actividad;url;dirección URL diferente
+description: Obtenga información sobre cómo especificar la dirección URL de Actividad que determina la página que se utiliza en la prueba y que se abre cuando la prueba está diseñada con Adobe Target.
+title: ¿Cuál es la dirección URL de Actividad en una Actividad A/B?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 78%
+source-wordcount: '314'
+ht-degree: 73%
 
 ---
 
