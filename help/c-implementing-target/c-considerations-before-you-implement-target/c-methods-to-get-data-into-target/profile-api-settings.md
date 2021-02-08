@@ -1,13 +1,14 @@
 ---
 keywords: implementación;api;perfil;configuración de API de perfil;autentificador
-description: Habilite o deshabilite la autenticación para actualizaciones por lotes mediante las API de Adobe Target y genere un token de autenticación de perfil.
-title: Configuración de la API del perfil
+description: Obtenga información sobre cómo configurar la autenticación para actualizaciones por lotes mediante las API de Adobe Target y generar un token de autenticación de perfil.
+title: ¿Cómo se usa la configuración de la API de Perfil para activar o desactivar las actualizaciones por lotes?
 feature: APIs/SDKs
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 41%
+source-wordcount: '327'
+ht-degree: 38%
 
 ---
 
