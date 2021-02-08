@@ -1,13 +1,13 @@
 ---
 keywords: variables;perfiles;parámetros;perfiles integrados;métodos;variables de url;perfiles geográficos;perfiles de terceros;variables de mbox;variables de campaña;atributos de cliente
-description: Esta página contiene una lista de perfiles, variables y parámetros que son útiles en los scripts de perfil.
-title: Glosario de perfiles y variables
+description: Vista de una lista de varios perfiles, variables y parámetros que son útiles en secuencias de comandos de perfil en Adobe Target.
+title: ¿Qué Perfiles, variables y parámetros se utilizan en Destinatario?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 92%
+source-wordcount: '592'
+ht-degree: 88%
 
 ---
 
