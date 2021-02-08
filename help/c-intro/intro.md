@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;Destinatario Premium;Automated Personalization;destinatario automático;destinatario automático;permisos;qué es adobe destinatario;
-description: ¿Qué es el Destinatario?
+description: Conozca los conceptos básicos de Adobe Target Standard y Adobe Target Premium. Destinatario Premium incluye funciones avanzadas que no están disponibles en el producto estándar.
 landing-page-description: Personalice la experiencia de sus clientes para maximizar los ingresos en sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
-title: Primeros pasos
+title: ¿Qué es el Destinatario?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 82%
+source-wordcount: '945'
+ht-degree: 80%
 
 ---
 
