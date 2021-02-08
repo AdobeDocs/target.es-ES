@@ -1,13 +1,14 @@
 ---
 keywords: implementar;implementación;configurar;configuración;parámetro de página;tomcat;codificación url;atributo de perfil de página;parámetro mbox;atributos de perfil en página;atributo de perfil en script;API de actualización de perfiles en lote;API de actualización de archivo único;atributos del cliente;proveedores de datos;proveedor de datos
-description: Información sobre los distintos métodos que puede utilizar para obtener datos en Adobe Target, incluidos los parámetros de página, los atributos de perfil en la página, los atributos de perfil de secuencias de comandos, los proveedores de datos, la API de actualización masiva de perfiles, la API de actualización única de perfiles y los atributos del cliente.
-title: Métodos para obtener datos en el Destinatario
+description: Obtener datos en Destinatario (parámetros de página, atributos de perfil, atributos de perfil de script, proveedores de datos, API de actualización de perfil único y masivo, atributos del cliente).
+title: ¿Cómo se obtienen datos en el Destinatario?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 92%
+source-wordcount: '1956'
+ht-degree: 93%
 
 ---
 
