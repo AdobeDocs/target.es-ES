@@ -1,13 +1,14 @@
 ---
 keywords: implementar;implementación
-description: Antes de empezar a utilizar Adobe Target, le recomendamos que lo implemente en su sitio, comprenda algunos conceptos y términos básicos, se familiarice con el funcionamiento de Target y cómo se integra en su infraestructura, y comprenda el proceso de seguimiento de los visitantes que realiza el sistema Target.
-title: Implementación
+description: Conozca cómo implementar Adobe Target en su sitio. Defina la configuración global, el método de implementación (AEP Web SDK o at.js) y mucho más.
+title: ¿Cómo implementar Destinatarios en mi sitio?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 43%
+source-wordcount: '143'
+ht-degree: 18%
 
 ---
 
