@@ -1,13 +1,13 @@
 ---
-keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
-description: La prueba multivariada (MVT) en Adobe Target compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
-title: Prueba multivariable
+keywords: prueba multivariable;mvt;factorial completo;mvt o a/b;a/b multivariable;estimador de tráfico;cuándo usar mvt;consideraciones de mvt;multivariable;factorial parcial;factorial parcial;factorial completo
+description: Aprenda a usar Multivariate Testing (MVT) en Adobe Target para comparar combinaciones de ofertas en elementos de una página para determinar qué combinación ofrece el mejor rendimiento.
+title: ¿Qué es una prueba multivariada?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 91%
+source-wordcount: '1461'
+ht-degree: 87%
 
 ---
 
