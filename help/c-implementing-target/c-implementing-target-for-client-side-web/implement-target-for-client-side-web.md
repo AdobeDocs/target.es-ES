@@ -1,13 +1,14 @@
 ---
 keywords: implementar;implementación;at.js;adobe experience platform web sdk;aep web sdk
-description: Información sobre la implementación de Adobe Target para la Web del cliente mediante at.js.
-title: Implementar Adobe Target para la Web del cliente
+description: Obtenga información sobre cómo implementar Adobe Target para Web de cliente mediante el SDK web de Adobe Experience Platform (AEP Web SDK) o la biblioteca JavaScript de Destinatario at.js.
+title: Cómo implemento Destinatario para la Web del cliente
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 18%
+source-wordcount: '358'
+ht-degree: 17%
 
 ---
 
