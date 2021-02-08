@@ -1,12 +1,12 @@
 ---
 keywords: Target;informes;configuración de informes;ajuste preestablecido;ajuste preestablecido de Target;métrica;audiencia;intervalo de fechas;configuración;descarga;vista de tabla;vista de gráfico;alza promedio;alza;límite de alza;intervalo de confianza;confianza;contribución de ubicación;promedio actual;metodología de recuento
-description: Información para configurar los elementos que desea que aparezcan en el informe de Adobe Target. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
-title: Configuración de informes
+description: Obtenga información sobre cómo configurar los informes en Adobe Target, incluso métricas, audiencias, intervalos de fechas y mucho más.
+title: ¿Cómo configuro los informes?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1918'
 ht-degree: 70%
 
 ---
