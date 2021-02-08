@@ -1,13 +1,13 @@
 ---
 keywords: multivariable;mvt;métricas;definir métricas;métrica de objetivo;configuración de actividades;métrica de éxito;conversión;ingresos;participación
-description: Utilice métricas en una prueba multivariada de Adobe Target para determinar cuándo se realiza una visita con éxito.
-title: Definir métricas
+description: Obtenga información sobre cómo especificar métricas en una actividad de prueba multivariada de Adobe Target para determinar cuándo se realiza correctamente una visita, como Conversión, Ingresos y Participación.
+title: ¿Cómo configuro las métricas de objetivo en una Actividad de prueba multivariada (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 88%
+source-wordcount: '351'
+ht-degree: 83%
 
 ---
 
