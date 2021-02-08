@@ -1,12 +1,12 @@
 ---
 keywords: asignación automática de tráfico;objetivo;ganador;garantía estadística;confianza;determinar ganador;alza;confianza;valor predeterminado;experiencia predeterminada;asignación automática;asignación automática
-description: Interprete los resultados de una actividad A/B de asignación automática en Adobe Target examinando indicadores importantes, incluidos el alza y la confianza.
-title: Interpretar informes de asignación automática
+description: Obtenga información sobre cómo interpretar los resultados de una actividad A/B de asignación automática en Adobe Target mediante el examen de indicadores importantes, incluidos el alza y la confianza.
+title: ¿Cómo interpreto los informes de asignación automática?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1136'
 ht-degree: 47%
 
 ---
