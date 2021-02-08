@@ -1,13 +1,13 @@
 ---
 keywords: control de calidad;vista previa;bookmarklet;vínculos de vista previa
-description: Información para ayudarle a utilizar el bookmarklet de control de calidad de Adobe Target para obligar al Destinatario a liberarlo del modo de control de calidad.
-title: 'Bookmarklet de QA de la actividad '
+description: Aprenda a utilizar el bookmarklet de control de calidad de Adobe Target para forzar a Destinatario a que lo libere del modo de control de calidad.
+title: ¿Cómo se usa el bookmarklet de control de calidad de la Actividad?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 28%
+source-wordcount: '267'
+ht-degree: 27%
 
 ---
 
