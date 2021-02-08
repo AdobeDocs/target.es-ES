@@ -1,13 +1,14 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;global;global mbox
-description: Lista de las preguntas más frecuentes (FAQ) sobre los mboxes globales.
-title: Preguntas más frecuentes sobre mbox global
+keywords: solución de problemas;preguntas frecuentes;FAQ;global;mbox global
+description: Lea las preguntas más frecuentes y las respuestas sobre los mboxes globales de Adobe Target.
+title: ¿Qué son las preguntas más frecuentes sobre el mbox global?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 93%
 
 ---
 
