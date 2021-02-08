@@ -1,13 +1,13 @@
 ---
 keywords: bosque aleatorio;árbol de decisiones;ap;Automated Personalization
-description: Algoritmo de personalización principal de Target que se utiliza en la Personalización automatizada y en la Segmentación automática es el de bosque aleatorio. Los métodos de ensamblado, como el bosque aleatorio, utilizan varios algoritmos de aprendizaje para obtener un rendimiento más predictivo que el que podría obtenerse de cualquier algoritmo de aprendizaje constituyente. El algoritmo de bosque aleatorio en Personalización automatizada es un método de clasificación o regresión que funciona creando una multitud de árboles de decisión durante el aprendizaje.
-title: Algoritmo de bosque aleatorio
+description: Descubra cómo Adobe Target utiliza el algoritmo de bosque aleatorio tanto en actividades de Automated Personalization (AP) como de Destinatario automático.
+title: ¿Cómo utiliza el Destinatario el algoritmo de bosque aleatorio?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 97%
+source-wordcount: '1419'
+ht-degree: 95%
 
 ---
 
