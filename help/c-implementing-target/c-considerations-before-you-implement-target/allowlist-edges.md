@@ -1,12 +1,13 @@
 ---
 keywords: implementar;implementación;lista blanca;lista blanca;lista de permitidos;lista de permitidos;borde;bordes
-description: Lista de permitidos de nodos Edge de Adobe Target
-title: Nodos de borde de Destinatario de lista de permitidos
+description: Vista de una lista de hosts para ayudarle a realizar la lista de permitidos de los bordes de Adobe Target (nodos de servidores distribuidos geográficamente que garantizan tiempos de respuesta óptimos para los usuarios finales).
+title: ¿Cómo se Lista de permitidos los nodos de borde de Destinatario?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
