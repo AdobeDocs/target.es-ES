@@ -1,13 +1,13 @@
 ---
 keywords: solucionar problemas de target;resolución de problemas de target;contenido predeterminado;prueba no activa;actividad no activa;segmentación no funciona;pantallas de experiencias previas;no puedo crear actividades;no se pueden crear actividades;crear actividades;cambió la estructura de la página;se modificó la estructura de la página;mensaje de error;error al eliminar script de perfil;ajax no funciona
-description: Si la actividad de Adobe Target no aparece en el sitio, estas sugerencias de solución de problemas le ayudarán a encontrar la solución.
-title: Resolución de problemas de Actividades
+description: Busque sugerencias de solución de problemas en caso de que la actividad de Adobe Target no aparezca en el sitio.
+title: ¿Cómo puedo solucionar problemas de Actividades?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 77%
+source-wordcount: '838'
+ht-degree: 78%
 
 ---
 
