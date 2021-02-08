@@ -1,12 +1,12 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de destinatario;introducción;introducción;introducción
-description: Kit de bienvenida de Adobe Target - Capítulo 5 - Inspiración para pruebas y actividades de personalización
-title: Kit de bienvenida - Capítulo 5 - Inspiración para pruebas y Actividades de personalización
+description: Dónde puedo encontrar ideas e inspiración para mis actividades de pruebas y personalización con Adobe Target.
+title: ¿Dónde puedo encontrar inspiración para mis esfuerzos de pruebas y personalización?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Tal vez sólo cambie el orden de las opciones para elegir cuándo los clientes d
 
 Si su compañía está gastando recursos para desarrollar una aplicación móvil para iOS, Android u otros dispositivos, no se limite a quedarse atrás y esperar que los usuarios se toparán con su aplicación en la tienda de aplicaciones. En lugar de ello, tenga una estrategia sólida para promoverla. Pruebe diferentes enfoques para dirigir el uso y las descargas de aplicaciones. Si el sitio que no es móvil tiene un vínculo para descargar la aplicación, pruebe la eficacia de una página de aterrizaje intersticial que promocione explícitamente la aplicación cuando lleguen visitantes a la página de inicio. Configure una prueba de redireccionamiento que filtros la mitad del tráfico móvil a la página del sitio actual y la otra mitad a la página de aterrizaje intersticial.
 
-## Idea 9: utilice las innovaciones de aplicaciones móviles.
+## Idea 9: Utilice las innovaciones de aplicaciones móviles.
 
 Explore aspectos del smartphone más allá de la geolocalización, como el acelerómetro o el giróscopo. Por ejemplo, pruebe una experiencia que utilice el acelerómetro para agregar un elemento mostrado a un carro de compras agitando el teléfono. Incluso pruébelo a usuarios de diferentes marcas de dispositivos, como iOS o Android, para ver si su respuesta es diferente. Estas pruebas le permiten descubrir el nuevo comportamiento de visitante que se debe considerar utilizar en pruebas futuras.
 
