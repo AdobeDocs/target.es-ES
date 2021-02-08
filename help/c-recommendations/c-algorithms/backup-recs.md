@@ -1,13 +1,13 @@
 ---
 keywords: recomendación;copia de seguridad;copia;seguridad
-description: Si utiliza la función de recomendación de copia de seguridad en Adobe Target, cualquier recomendación que no tenga suficientes artículos recomendados no mostrará el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
-title: Usar una recomendación de copia de seguridad en Destinatario Recommendations
+description: Obtenga información sobre cómo utilizar las recomendaciones de copia de seguridad en Adobe Target Recommendations. La recomendación que no tiene suficientes elementos recomendados muestra los resultados del algoritmo de copia de seguridad.
+title: ¿Cómo se usa una recomendación de copia de seguridad en Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 82%
+source-wordcount: '520'
+ht-degree: 81%
 
 ---
 
