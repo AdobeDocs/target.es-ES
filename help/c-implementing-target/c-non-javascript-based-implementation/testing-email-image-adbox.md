@@ -1,13 +1,14 @@
 ---
 keywords: correo electrónico;adbox;adbox de imagen de correo electrónico
-description: Con Adobe Target, pruebe dinámicamente las imágenes en el correo electrónico e incluso cambie dichas imágenes sobre la marcha cuando alguien abra el correo electrónico.
-title: Comprobación de un AdBox de imagen de correo electrónico
+description: Aprenda a usar Adobe Target para probar dinámicamente imágenes en correos electrónicos e incluso cambiar dichas imágenes sobre la marcha cuando alguien abre el correo electrónico.
+title: ¿Cómo puedo probar un adbox de imagen de correo electrónico?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '422'
+ht-degree: 90%
 
 ---
 
