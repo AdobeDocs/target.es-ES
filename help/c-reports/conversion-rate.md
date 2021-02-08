@@ -1,13 +1,13 @@
 ---
 keywords: Segmentación
-description: De cada experiencia, se informa de la tasa de conversión, el alza, la confianza (relevancia estadística) y el intervalo de confianza.
-title: Tasa de conversión
+description: Conozca cómo muestra y calcula Adobe Target la tasa de conversión, el alza, la confianza (relevancia estadística) y el intervalo de confianza para cada experiencia.
+title: ¿Cómo se Vista el nivel de Tasa de conversión, alza y confianza?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2173'
-ht-degree: 71%
+source-wordcount: '2187'
+ht-degree: 70%
 
 ---
 
