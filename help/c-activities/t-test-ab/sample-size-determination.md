@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;tamaño de muestra;calculadora de tamaño de muestra;asignación automática;asignación automática;calculadora
-description: Una prueba A/B exitosa en Adobe Target requiere un número adecuado de visitantes (tamaño de muestra) para mejorar la tasa de conversión, pero ¿cómo sabe cuánto tiempo debe ejecutar una prueba A/B? Este artículo contiene información sobre las actividades de asignación automática y la calculadora de tamaño de la muestra de Adobe Target para ayudarle a garantizar que la actividad tiene un número suficiente de visitantes para lograr sus objetivos.
-title: ¿Cuánto tiempo debe ejecutar una prueba A/B?
+description: Aprenda cuánto tiempo debe ejecutarse una prueba A/B. Una prueba A/B correcta en Adobe Target requiere un número adecuado de visitantes (tamaño de muestra) para mejorar la tasa de conversión.
+title: ¿Cuánto tiempo debo ejecutar una prueba A/B?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3118'
+source-wordcount: '3083'
 ht-degree: 74%
 
 ---
