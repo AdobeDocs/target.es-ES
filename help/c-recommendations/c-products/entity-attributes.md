@@ -1,13 +1,13 @@
 ---
 keywords: entidad;atributos de entidad;pasar información a Recommendations;datos de comportamiento;contador de datos;definir URL relativa;mostrar nivel de inventario;definir precio;definir margen de beneficios;atributos personalizados
-description: Utilice los atributos de entidad para pasar información de producto o contenido a Adobe Target Recommendations.
-title: Atributos de entidad
+description: Obtenga información sobre cómo utilizar los atributos de entidad para pasar información sobre productos o contenido a Adobe Target Recommendations.
+title: ¿Cómo se utilizan los atributos de entidad?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 93%
+source-wordcount: '1050'
+ht-degree: 92%
 
 ---
 
