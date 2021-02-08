@@ -1,13 +1,13 @@
 ---
-keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Utilice métricas en una actividad de segmentación de experiencias (XT) de Adobe Target para determinar si una visita tiene éxito.
-title: Definir métricas
+keywords: segmentación de experiencias;xt;métricas;definir métricas;métrica de segmentación;configuración de actividades;métrica de éxito;conversión;ingresos;participación
+description: Obtenga información sobre cómo especificar métricas en una actividad de Adobe Target Experience Targeting para determinar cuándo se realiza correctamente una visita, como Conversión, Ingresos y Participación.
+title: ¿Cómo configuro las métricas de objetivo en una Actividad de segmentación de experiencias?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 92%
+source-wordcount: '353'
+ht-degree: 83%
 
 ---
 
