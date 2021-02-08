@@ -1,13 +1,13 @@
 ---
 keywords: Información general y referencia;actividad
-description: ¿Cómo entiendo y uso el Destinatario?
-title: Conceptos clave
+description: Conozca los conceptos básicos de Adobe Target. Este es un buen lugar para familiarizarse con el Destinatario, sus tipos de actividad y otras características.
+title: ¿Cómo se usa el Destinatario?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 98%
+source-wordcount: '1525'
+ht-degree: 96%
 
 ---
 
