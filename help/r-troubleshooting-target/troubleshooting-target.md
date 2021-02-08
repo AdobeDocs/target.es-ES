@@ -1,13 +1,13 @@
 ---
 keywords: resolución de problemas de target;solucionar problemas de target
-description: Lista de temas útiles para resolver problemas en Adobe Target. Incluye temas de resolución de problemas, preguntas más frecuentes (PF) y otros temas.
-title: Resolución de problemas
+description: Revise una lista de temas para ayudarle a resolver problemas en Adobe Target, incluidos temas de solución de problemas, preguntas más frecuentes (FAQ) y otros temas útiles.
+title: ¿Cómo puedo solucionar problemas de Destinatario?
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 96%
+source-wordcount: '445'
+ht-degree: 90%
 
 ---
 
