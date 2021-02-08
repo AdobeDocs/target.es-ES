@@ -1,12 +1,12 @@
 ---
 keywords: varios valores;atributos;recomendaciones;varios valores;varios valores;varios valores
-description: Información sobre cómo trabajar con un campo de varios valores en Adobe Target Recommendations mediante operadores especiales de varios valores.
-title: Uso de atributos de varios valores en Destinatario Recommendations
+description: Aprenda a trabajar con un campo de varios valores en Adobe Target Recommendations mediante operadores especiales de varios valores, por ejemplo, al recomendar películas con varios actores.
+title: ¿Puedo usar atributos de varios valores en Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
