@@ -1,13 +1,13 @@
 ---
-keywords: product;collections
-description: Las entidades hacen referencia a los elementos que desea recomendar mediante Adobe Target. Puede tratarse de productos, contenido (p. ej., artículos, pases de diapositivas, imágenes, películas y programas de TV), ofertas de empleo, restaurantes, etcétera.
-title: Entidades en Adobe Target
+keywords: producto;colecciones
+description: Obtenga información sobre las entidades de Adobe Target Recommendations. Las entidades hacen referencia a los elementos que desea recomendar mediante Destinatario, como artículos, películas o productos.
+title: ¿Cómo se usan las entidades?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '107'
+ht-degree: 72%
 
 ---
 
