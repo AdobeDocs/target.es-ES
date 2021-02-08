@@ -1,12 +1,12 @@
 ---
 keywords: secuencia de criterios;varios criterios;algoritmos;criterios;criterios de recomendaciones;secuencia;número límite de elementos devueltos;control de nivel de ranura;ranura
-description: Utilice secuencias de hasta cinco criterios para ejercer el bueno control de los elementos que aparecen en las actividades de Adobe Target Recommendations.
-title: Crear secuencias de criterios
+description: Obtenga información sobre cómo configurar secuencias de hasta cinco criterios para ejercer el bueno control de los elementos que aparecen en las actividades de Adobe Target Recommendations.
+title: ¿Cómo se crean secuencias de criterios en Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---
