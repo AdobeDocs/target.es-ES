@@ -1,13 +1,13 @@
 ---
-keywords: targeting;collisions;conflicts
-description: La ficha Conflictos de la página Información general de Actividad en actividades de listas de Adobe Target entra en conflicto en el sitio.
-title: Conflictos de actividades
+keywords: segmentación;colisiones;conflictos
+description: Se producen conflictos cuando se configuran varias actividades para entregar contenido a la misma página. Aprenda a evitar conflictos al usar Adobe Target.
+title: ¿Cómo puedo evitar conflictos de Actividad?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 83%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 
