@@ -1,13 +1,13 @@
 ---
 keywords: oferta de redireccionamiento;crear oferta de redireccionamientoa;añadir oferta de html;Pasar los parámetros de URL en el redireccionamiento;Pasar mboxSessionId en el redireccionamiento (solo cuando el redireccionamiento va a un dominio diferente)
-description: ¿Puedo utilizar ofertas de redireccionamiento para hacer que un explorador redirija a una nueva página?
-title: Crear ofertas de redireccionamiento
+description: 'Obtenga información sobre cómo crear ofertas de redireccionamiento en Adobe Target para que un explorador redirija a una nueva página. '
+title: ¿Cómo se crean Ofertas de redireccionamiento?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 49%
+source-wordcount: '1190'
+ht-degree: 48%
 
 ---
 
