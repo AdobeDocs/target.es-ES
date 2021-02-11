@@ -4,7 +4,7 @@ description: Manténgase al día con importantes adiciones y cambios en la docum
 title: ¿Dónde puedo realizar la Vista de actualizaciones de documentación para Destinatario?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bbf50435926b1ec5e9d85e8cf7cd6e50a370f876
+source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
 workflow-type: tm+mt
 source-wordcount: '3626'
 ht-degree: 28%
@@ -20,7 +20,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 11 de febrero | ![Cómo funciona Target](/help/c-intro/how-target-works.md) | Se ha actualizado la sección &quot;Bots&quot;. |
+| 11 de febrero | [Cómo funciona Target](/help/c-intro/how-target-works.md) | Se ha actualizado la sección &quot;Bots&quot;. |
 | 10 de febrero | [Anuncios y eventos de destinatario](/help/r-release-notes/target-announcements.md) | Información añadida sobre el Descanso del Café de la comunidad Adobe Target el miércoles 24 de febrero de 2012. |
 | 8 de febrero | [Vista previa para móviles en Target](/help/c-target-mobile-app/target-mobile-preview.md) | Se ha añadido el fragmento de código que debe añadir al archivo AndroidManifest.xml para la versión 4 del SDK de Adobe Mobile. |
 |  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha aclarado el siguiente problema conocido:<ul><li>Las colecciones, exclusiones, criterios y diseños creados mediante API no están visibles en la interfaz de usuario de Destinatario y solo se pueden editar mediante API. Del mismo modo, si crea cualquiera de estos elementos en la interfaz de usuario de Destinatario y posteriormente los edita mediante API, dichos cambios no se reflejarán en la interfaz de usuario de Destinatario. Los elementos editados mediante API deben seguir editándose mediante API para evitar la pérdida de modificaciones.</li></ul> |
