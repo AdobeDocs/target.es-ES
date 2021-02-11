@@ -4,10 +4,10 @@ description: Obtenga información sobre el funcionamiento de Adobe Target, inclu
 title: ¿Cómo Funciona El Destinatario?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 71%
+source-wordcount: '2559'
+ht-degree: 69%
 
 ---
 
@@ -200,7 +200,13 @@ Creemos que es difícil cambiar sin querer el significado del contenido original
 
 ## Bots {#bots}
 
-Adobe Target utiliza [DeviceAtlas](https://deviceatlas.com/) para detectar bots conocidos. El tráfico generado por un bot sigue siendo contenido servido, como un usuario normal, para garantizar que esté en armonía con las directrices SEO. El uso del tráfico de bots puede afectar a las pruebas A/B o los algoritmos de personalización, si se tratan como usuarios normales. Por lo tanto, si se detecta un bot conocido en la actividad de Target, el tráfico se trata de manera ligeramente diferente. La eliminación del tráfico de bots proporciona una medición más precisa sobre la actividad del usuario.
+Adobe Target utiliza la métrica [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/) &quot;isRobot&quot; para detectar bots conocidos basados en la cadena del agente de usuario pasada en el encabezado de solicitud.
+
+>[!NOTE]
+>
+> Para las solicitudes [!DNL Server Side], el valor pasado en el nodo [&quot;Contexto&quot; de la solicitud](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) tiene prioridad sobre la cadena del agente de usuario para la detección de bots.
+
+El tráfico generado por un bot sigue siendo contenido servido, como un usuario normal, para garantizar que esté en armonía con las directrices SEO. El uso del tráfico de bots puede afectar a las pruebas A/B o los algoritmos de personalización, si se tratan como usuarios normales. Por lo tanto, si se detecta un bot conocido en la actividad de Target, el tráfico se trata de manera ligeramente diferente. La eliminación del tráfico de bots proporciona una medición más precisa sobre la actividad del usuario.
 
 En concreto, para el tráfico de bots conocidos, Target no:
 
