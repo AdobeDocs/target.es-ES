@@ -2,9 +2,9 @@
 user-guide-title: Guía de Adobe Target
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
-feature-tag: Target
+feature-set: Target
 translation-type: tm+mt
-source-git-commit: 0555b5b7cdca15ec5f2e33c1e18f6dda59dbd03b
+source-git-commit: dc8d7b90915e35f60c7f17a47e43f0be55a96d68
 workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 84%
