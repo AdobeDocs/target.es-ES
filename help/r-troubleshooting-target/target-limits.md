@@ -1,20 +1,21 @@
 ---
 keywords: límite de caracteres;parámetros de mbox;api de envío por lotes;parámetros de perfil;límites;perfiles integrados;máximo;límite;restricción;carácter;mejor práctica;orderid;orderTotal;mbox3rdPartyID;categoría;categoryID;solución de problemas
 description: Vista de una lista de límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
-title: Revisar una lista de límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
+title: ¿Cuáles son los distintos caracteres, tamaño y otros límites de Adobe Target?
 feature: Troubleshooting
+mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 67%
+source-wordcount: '1087'
+ht-degree: 65%
 
 ---
 
 
 # Límites
 
-Información sobre los límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Adobe Target].
+Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -26,39 +27,45 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 
 ## Actividades
 
-**Límite recomendado**: 10 000 actividades activas.
+### Nombres de actividades
 
-**Límite** recomendado: 10.000 actividades guardadas activas (y no finalizadas).
+* **Límite**: 250 caracteres.
 
-## Nombres de actividades
+### Número de actividades por cuenta
 
-**Límite**: 250 caracteres.
+* **Límite recomendado**: 10 000 actividades activas.
 
-## Nombres de audiencia
-
-**Límite**: 255 caracteres.
+* **Límite** recomendado: 10.000 actividades guardadas activas (y no finalizadas).
 
 ## Audiencias
 
-**Límite**: 50 audiencias por mbox, métrica o experiencia.
+### Nombres de audiencia
 
-## Audiencias, reutilizables por cuenta
+* **Límite**: 255 caracteres.
 
-**Límite recomendado**: 20,000 audiencias.
+### Audiencias, reutilizables por cuenta
+
+* **Límite recomendado**: 20,000 audiencias.
+
+### Número de audiencias por mbox, métrica o experiencia
+
+* **Límite**: 50 audiencias
 
 ## Parámetro categoryId
 
-**Límite**: 128 caracteres.
+* **Límite**: 128 caracteres.
 
-## Nombres de atributos del cliente
+## Atributos del cliente
 
-**Límite**: 250 caracteres a través de la fuente o la API.
+### Nombres de atributos del cliente
 
-## ID de alias de atributo de cliente
+* **Límite**: 250 caracteres a través de la fuente o la API.
 
-**Límite** 50 caracteres.
+### ID de alias de atributo de cliente
 
-## Atributos del cliente, carga
+* **Límite** 50 caracteres.
+
+### Atributos del cliente, carga
 
 * **Tamaño máximo de archivo para cada carga mediante el método** HTTP: 100 MB.
 * **tamaño máximo de archivo para cada carga mediante el método** FTP: 4 GB.
@@ -66,187 +73,202 @@ Información sobre los límites de caracteres y otros límites (tamaño de ofert
 
 ## Entidades
 
-El número máximo de entidades a las que se puede hacer referencia en un diseño, tanto codificadas como mediante bucles, es de 99.
+### Número de entidades
 
-## Atributos personalizados de entidad
+* El número máximo de entidades a las que se puede hacer referencia en un diseño, tanto codificadas como mediante bucles, es de 99.
 
-Puede incluir hasta 100 atributos de entidad personalizados
+### Atributos personalizados de entidad
 
-**Límite**: La longitud máxima de caracteres depende del idioma.
+* **Atributos** de entidad personalizados: 100.
 
-* 15 000 caracteres (un solo valor, uno y dos bytes)
-* 500 valores, 100 caracteres por valor (varios valores)
+* **Límite** de caracteres: La longitud máxima de caracteres depende del idioma.
 
-La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15 000 caracteres (para lenguajes con codificación UTF-8 de uno y dos bytes, como inglés y otros alfabetos latinos) o 10 000 caracteres (para lenguajes con codificación UTF-8 de 3 bytes como chino, japonés y coreano).
+   * 15 000 caracteres (un solo valor, uno y dos bytes)
+   * 500 valores, 100 caracteres por valor (varios valores)
 
-Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (véase arriba).
+   La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15 000 caracteres (para lenguajes con codificación UTF-8 de uno y dos bytes, como inglés y otros alfabetos latinos) o 10 000 caracteres (para lenguajes con codificación UTF-8 de 3 bytes como chino, japonés y coreano).
 
-## Parámetros de entityid
+   Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (véase arriba).
 
-**Límite**: 1000 caracteres.
+### Parámetros de entityid
+
+* **Límite**: 1000 caracteres.
 
 ## Excludedids {#excludedid}
 
-**Límite**: 5 KB para solicitudes POST. 2.083 caracteres menos la longitud de la URL para las solicitudes GET.
+* **Límite**: 5 KB para solicitudes POST. 2.083 caracteres menos la longitud de la URL para las solicitudes GET.
 
-Para las solicitudes GET, aunque el límite del back-end es 5 KB, debido al hecho de que Microsoft Internet Explorer limita la dirección URL a 2.083 caracteres, el límite realista es de 2.083 caracteres menos la longitud actual de la dirección URL.
+   Para las solicitudes GET, aunque el límite del back-end es 5 KB, debido al hecho de que Microsoft Internet Explorer limita la dirección URL a 2.083 caracteres, el límite realista es de 2.083 caracteres menos la longitud actual de la dirección URL.
 
-## Nombres de experiencias
+## Experiencias
 
-**Límite**: 50 caracteres.
+### Nombres de experiencias
 
-## Experiencias por actividad
+* **Límite**: 50 caracteres.
 
-**Límite**: 2000 experiencias por Segmentación de experiencias (XT), Prueba A/B, Prueba multivariada (MVT) y actividad de Segmentación automática.
+### Experiencias por actividad
 
-30 000 experiencias por actividad de Automated Personalization (AP).
+* **Límite**: 2000 experiencias por Segmentación de experiencias (XT), Prueba A/B, Prueba multivariada (MVT) y actividad de Segmentación automática.
 
-## Valor de atributo de perfil In-mbox
+   30 000 experiencias por actividad de Automated Personalization (AP).
 
-**Límite**: 256 caracteres.
+## mboxes regionales clásicos
 
-Los valores más largos que ese número se truncan.
+### Valor de atributo de perfil In-mbox
 
-## Nombres de perfiles In-mbox
+* **Límite**: 256 caracteres.
 
-**Límite**: 128 caracteres.
+   Los valores más largos que ese número se truncan.
 
-## nombres de mbox
+### Nombres de perfiles In-mbox
 
-**Límite**: 250 caracteres.
+* **Límite**: 128 caracteres.
 
-## Parámetros de mbox
+### nombres de mbox
 
-**Límite**: Los límites siguientes se aplican a los parámetros de mbox:
+* **Límite**: 250 caracteres.
 
-Para llamadas de mbox estándar:
-* Parámetros de mbox: 500 parámetros por mbox.
-* Parámetros de perfil: 500 parámetros de perfil por mbox.
-* Otros parámetros (URL, URL de referencia, etc.): 50 por mbox para cada tipo de parámetro.
+### Parámetros de mbox
 
-Estos límites se aplican a menos que la solicitud se acorte debido a limitaciones del navegador.
+* **Límite**: Los límites siguientes se aplican a los parámetros de mbox:
 
-Si utiliza la API de Envío por lotes, el límite es de 50 mboxes por solicitud de lote.
+   Para llamadas de mbox estándar:
 
-Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#server-side-batch-delivery) en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud contiene más de estos límites, la API devolverá el siguiente mensaje de error:
+   * Parámetros de mbox: 500 parámetros por mbox.
+   * Parámetros de perfil: 500 parámetros de perfil por mbox.
+   * Otros parámetros (URL, URL de referencia, etc.): 50 por mbox para cada tipo de parámetro.
 
-&quot;El número de mboxParameters no puede superar los 50.&quot;
+   Estos límites se aplican a menos que la solicitud se acorte debido a limitaciones del navegador.
 
-Límites establecidos para los extremos:
+   Si utiliza la API de Envío por lotes, el límite es de 50 mboxes por solicitud de lote.
 
-Lote mbox v2:
-* Parámetros de mbox 100
-* Longitud máxima del nombre del parámetro de mbox 128
-* El valor del parámetro mbox no puede ser nulo
-* Valor del parámetro de mbox 5000
-* Parámetros de perfil 50
-* Longitud máxima del nombre del parámetro de perfil 128
-* El valor del parámetro de perfil no puede ser nulo
-* Longitud máxima del valor del parámetro de perfil 256
+   Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#server-side-batch-delivery) en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud contiene más de estos límites, la API devolverá el siguiente mensaje de error:
 
-Extremo de API de envío
-* Parámetros de mbox 50
-* Longitud máxima del nombre del parámetro de mbox 128
-* El valor del parámetro mbox no puede ser nulo
-* Valor del parámetro de mbox 5000
-* Parámetros de perfil 50
-* Longitud máxima del nombre del parámetro de perfil 128
-* El valor del parámetro de perfil no puede ser nulo
-* Longitud máxima del valor del parámetro de perfil 256
+   &quot;El número de mboxParameters no puede superar los 50.&quot;
 
-## Direcciones URL de peticiones de mbox
+   Límites establecidos para los extremos:
 
-**Límite**: 2.083 caracteres.
+   **Lote mbox v2**:
 
-Este límite se debe a las restricciones de longitud de URL de Microsoft Internet Explorer.
+   * Parámetros de mbox 100
+   * Longitud máxima del nombre del parámetro de mbox 128
+   * El valor del parámetro mbox no puede ser nulo
+   * Valor del parámetro de mbox 5000
+   * Parámetros de perfil 50
+   * Longitud máxima del nombre del parámetro de perfil 128
+   * El valor del parámetro de perfil no puede ser nulo
+   * Longitud máxima del valor del parámetro de perfil 256
 
-## Parámetro mbox3rdPartyId
+   **Extremo de API de envío**
 
-**Límite**: 60 caracteres.
+   * Parámetros de mbox 50
+   * Longitud máxima del nombre del parámetro de mbox 128
+   * El valor del parámetro mbox no puede ser nulo
+   * Valor del parámetro de mbox 5000
+   * Parámetros de perfil 50
+   * Longitud máxima del nombre del parámetro de perfil 128
+   * El valor del parámetro de perfil no puede ser nulo
+   * Longitud máxima del valor del parámetro de perfil 256
 
-## Nombres de ofertas
 
-**Límite**: 250 caracteres.
 
-## Tamaño de oferta
+### Direcciones URL de peticiones de mbox
 
-**Límite**: Los límites de tamaño siguientes se aplican a las ofertas:
+* **Límite**: 2.083 caracteres.
 
-* 256 kB para ofertas HTML.
-* 64 kB para ofertas visuales de la interfaz de usuario.
-* 512 kB de la API.
+   Este límite se debe a las restricciones de longitud de URL de Microsoft Internet Explorer.
 
-Si usa un mbox global, el límite es para todo el conjunto de contenidos devueltos de la página. La limitación del tamaño de la oferta mejora los tiempos de carga de la página. Si se supera el límite, aparece un mensaje como este:
+### Parámetro mbox3rdPartyId
 
-El contenido de la experiencia es demasiado grande para su entrega. Modifique la experiencia para afectar a menos código de página.
+* **Límite**: 60 caracteres.
 
 ## Ofertas
 
-**Límite recomendado**: 50 000 ofertas totales.
+### Nombres de ofertas
+
+* **Límite**: 250 caracteres.
+
+### Número de ofertas
+
+* **Límite recomendado**: 50 000 ofertas totales.
+
+### Tamaño de oferta
+
+* **Límite**: Los límites de tamaño siguientes se aplican a las ofertas:
+
+   * 256 kB para ofertas HTML.
+   * 64 kB para ofertas visuales de la interfaz de usuario.
+   * 512 kB de la API.
+
+   Si usa un mbox global, el límite es para todo el conjunto de contenidos devueltos de la página. La limitación del tamaño de la oferta mejora los tiempos de carga de la página. Si se supera el límite, aparece un mensaje como este:
+
+   El contenido de la experiencia es demasiado grande para su entrega. Modifique la experiencia para afectar a menos código de página.
 
 ## Parámetro orderId
 
-**Límite recomendado**: 120 caracteres.
+* **Límite recomendado**: 120 caracteres.
 
 ## Parámetro orderTotal
 
-**Límite recomendado**: 120 caracteres.
+* **Límite recomendado**: 120 caracteres.
 
 ## Parámetro productPurchasedId
 
-**Límite**: 47 caracteres por valor separado por coma y 250 caracteres en total. El sistema puede truncar los valores individuales superiores a 47 caracteres. Las longitudes totales superiores a 250 caracteres pueden resultar en un error de 400.
+* **Límite**: 47 caracteres por valor separado por coma y 250 caracteres en total. El sistema puede truncar los valores individuales superiores a 47 caracteres. Las longitudes totales superiores a 250 caracteres pueden resultar en un error de 400.
 
 ## Scripts de perfil
 
-**Límite recomendado de secuencias de comandos** de perfil activas: 300
+* **Límite recomendado de secuencias de comandos** de perfil activas: 300
 
-**Límite recomendado del total de secuencias de comandos de perfil por cuenta**: 2.000
+* **Límite recomendado del total de secuencias de comandos de perfil por cuenta**: 2.000
 
-**Recommendations para limitar la complejidad** del script de perfil: Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) en *Atributos de Perfil*.
+* **Recommendations para limitar la complejidad** del script de perfil: Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) en *Atributos de Perfil*.
 
 ## Propiedades
 
-**Límite recomendado**: 5000 propiedades.
+* **Límite recomendado**: 5000 propiedades.
 
 ## Informes de audiencias o segmentos
 
-**Límite**: 50 audiencias/segmentos por actividad.
+* **Límite**: 50 audiencias/segmentos por actividad.
 
 ## Cuadro de entrada de perfil de script en la interfaz de usuario de Target
 
-**Límite recomendado**: 2000 caracteres.
+* **Límite recomendado**: 2000 caracteres.
 
-Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado larga, producirá un error antes de llegar a Adobe Target.
+   Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado larga, producirá un error antes de llegar a Adobe Target.
 
-## Nombres de perfiles de secuencia
+## Perfiles de secuencias de comandos
 
-**Límite**: 50 caracteres.
+### Nombres de perfiles de secuencia
 
-## Valores de perfil de secuencia de comandos
+* **Límite**: 50 caracteres.
 
-**Límite**: 2.048 caracteres.
+### Valores de perfil de secuencia de comandos
 
-Por motivos de rendimiento, recomendamos un valor de retorno que no tenga más de 256 caracteres.
+* **Límite**: 2.048 caracteres.
 
-Para un valor de retorno de cadena, si el tamaño del valor devuelto supera los 2048 caracteres, el sistema desactiva la secuencia de comandos.
+   Por motivos de rendimiento, recomendamos un valor de retorno que no tenga más de 256 caracteres.
 
-Para un valor de devolución de matriz, si el tamaño de los valores concatenados de la matriz supera los 2048 caracteres, el sistema desactiva la secuencia de comandos.
+   Para un valor de retorno de cadena, si el tamaño del valor devuelto supera los 2048 caracteres, el sistema desactiva la secuencia de comandos.
+
+   Para un valor de devolución de matriz, si el tamaño de los valores concatenados de la matriz supera los 2048 caracteres, el sistema desactiva la secuencia de comandos.
 
 ## Métricas de éxito
 
-**Límite**: 200 por actividad.
+* **Límite**: 200 por actividad.
 
-## Condiciones de segmentación
+## Segmentación
 
-**Límite recomendado**: 1000 valores.
+### Condiciones de segmentación
 
-Esto hace referencia al número de valores separados por líneas en el área de texto de determinación de objetivos. Por ejemplo, si se escriben 1000 códigos postales en un solo objetivo de código postal.
+* **Límite recomendado**: 1000 valores.
 
-## Reglas de segmentación
+   Esto hace referencia al número de valores separados por líneas en el área de texto de determinación de objetivos. Por ejemplo, si se escriben 1000 códigos postales en un solo objetivo de código postal.
 
-**Límite** recomendado: 2.500 caracteres por valor de regla de objetivo.
+### Reglas de segmentación
 
-**Límite recomendado**: 30 000 valores únicos por audiencia en reglas de segmentación.
-
-**Límite recomendado**: 100 000 valores únicos de reglas de segmentación por actividad.
+* **Límite** recomendado: 2.500 caracteres por valor de regla de objetivo.
+* **Límite recomendado**: 30 000 valores únicos por audiencia en reglas de segmentación.
+* **Límite recomendado**: 100 000 valores únicos de reglas de segmentación por actividad.
 
