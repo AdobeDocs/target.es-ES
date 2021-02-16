@@ -5,9 +5,9 @@ title: ¿Cuáles son los distintos caracteres, tamaño y otros límites de Adobe
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 65%
 
 ---
@@ -159,7 +159,7 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
    * El valor del parámetro de perfil no puede ser nulo
    * Longitud máxima del valor del parámetro de perfil 256
 
-   **Extremo de API de envío**
+   **Extremo** de API de envío:
 
    * Parámetros de mbox 50
    * Longitud máxima del nombre del parámetro de mbox 128
@@ -194,11 +194,11 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 
 ### Tamaño de oferta
 
-* **Límite**: Los límites de tamaño siguientes se aplican a las ofertas:
+Los límites de tamaño siguientes se aplican a las ofertas:
 
-   * 256 kB para ofertas HTML.
-   * 64 kB para ofertas visuales de la interfaz de usuario.
-   * 512 kB de la API.
+* 256 kB para ofertas HTML.
+* 64 kB para ofertas visuales de la interfaz de usuario.
+* 512 kB de la API.
 
    Si usa un mbox global, el límite es para todo el conjunto de contenidos devueltos de la página. La limitación del tamaño de la oferta mejora los tiempos de carga de la página. Si se supera el límite, aparece un mensaje como este:
 
