@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluyen en la próxima versión?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: e0d61de20501f40ea6b61db83be346072df997f0
+source-git-commit: 2d610a91118b2e1c69e23faed2f8b7c411c5b7ea
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 25%
+source-wordcount: '363'
+ht-degree: 26%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 Este artículo contiene información de evaluación. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 10 de febrero de 2021**
+**Última actualización: 16 de febrero de 2021**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información en estas páginas puede ser la misma, según el tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -32,7 +32,14 @@ Esta versión de mantenimiento contiene las siguientes mejoras, correcciones y c
 
 Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-* Se ha aumentado el tamaño de oferta permitido mediante la API de 512 KB a 1 MB. (TGT-38304)
+* Se ha aumentado el tamaño de oferta permitido:
+
+   | Tipo  | Límite anterior | Nuevo límite |
+   | --- | --- | --- |
+   | HTML | 256 KB | 1024 KB |
+   | Ofertas visuales de la interfaz de usuario de Destinatario | 64 kB | 1024 KB por cada experiencia |
+   | Mediante API | 512 kB | 1024 KB |
+
 * Se corrigió un problema que ocasionaba que la dependencia actual no se mostrara cuando los clientes hacían clic en [!UICONTROL Editar dependencia] en la página [!UICONTROL Objetivos y configuración] de una actividad. (TGT-39340)
 * Se corrigió un problema al actualizar la [!UICONTROL biblioteca de Audiencias] de un espacio de trabajo. Antes de la actualización, se mostraban las audiencias del espacio de trabajo seleccionado. Después de la actualización, se muestra el [!UICONTROL espacio de trabajo predeterminado] y sus audiencias. El espacio de trabajo actual y sus audiencias ahora persisten después de la actualización. (TGT-38871)
 * Se corrigió un problema al copiar una actividad [!UICONTROL Recommendations] y posteriormente editar la actividad original cambiando su secuencia de criterios. El cambio en la secuencia de criterios de la actividad original también se aplicó incorrectamente a la actividad copiada. (TGT-39155)
