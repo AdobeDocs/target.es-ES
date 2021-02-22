@@ -4,9 +4,9 @@ description: Encuentre respuestas a preguntas que se plantean a menudo sobre la 
 title: ¿Encuentra respuestas a preguntas sobre la visualización de informes con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: a2f0c728d40d7a53a40e1f88f36e6feb885e0629
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '2427'
+source-wordcount: '2426'
 ht-degree: 53%
 
 ---
@@ -34,11 +34,11 @@ La variable de [!DNL Target] enviada a [!DNL Analytics] caduca, de forma predete
 
 Como resultado, cuando segmente para que una actividad esté presente en una visita, obtendrá todas las experiencias que forman parte de esa actividad *más* cualquier otra experiencia que persista en esa visita.
 
-## Al configurar mis métricas de objetivo, ¿por qué no puedo acceder a la Configuración avanzada?
+## Al configurar las métricas de objetivo, ¿por qué no puedo acceder a Configuración avanzada?
 
 En el caso de actividades que utilicen [!DNL Analytics] como fuente de sistema de informes (A4T), la métrica de objetivos siempre usará la configuración &quot;[!UICONTROL Aumentar recuento y mantener al usuario en Actividad]&quot; y &quot;[!UICONTROL En cada impresión]&quot;. Esto *no se puede configurar*.
 
-Para obtener más información, consulte &quot;Al configurar mis métricas de objetivo, ¿por qué no puedo acceder a las opciones de Configuración avanzada?&quot; en [Definiciones de métricas: Preguntas más frecuentes de A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+Para obtener más información, consulte &quot;Al configurar las métricas de objetivo, ¿por qué no puedo acceder a las opciones de Configuración avanzada?&quot; en [Definiciones de métricas: Preguntas más frecuentes de A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## ¿Debería usar visitantes, visitas o impresiones de actividad como métrica de normalización (es decir, metodología de recuento)? {#metrics}
 
@@ -103,15 +103,15 @@ El usuario vuelve el 1 de marzo y ve una actividad nueva: ABC. Esta vez también
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 1 |
+| XYZ | 1 | 15 | 3 | 1 |
 | ABC | 1 | 5 | 1 | 1 |
 
 El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. El periodo de caducidad de 90 días del primer valor de eVar se restableció el 1 de abril y esto se refleja en el informe. Se atribuye el origen de la conversión a todas las actividades de Target que el usuario ve, pero el número total de conversiones se desduplica:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 3 |
-| ABC | 3 | 10 | 2 | 1 | 1 |
+| XYZ | 1 | 20 | 4 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
 | Total | 2 | 20 | 1 | 1 | 1 |
 
 Puesto que las dos experiencias se vieron antes de la conversión, ambas son las “responsables” del pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. Para el sistema de informes [!DNL Target], dado que no está poniendo una actividad [!DNL Target] contra otra actividad para ver cuál es más exitosa, no importa que todas las actividades que vio el usuario obtuvieran crédito. Lo que se compara son los resultados de dos elementos de una misma actividad y, como un usuario no puede ver distintas experiencias en la misma actividad, no hay que preocuparse por la contaminación de los orígenes de los pedidos.
