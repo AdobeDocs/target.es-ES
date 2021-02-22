@@ -2,12 +2,12 @@
 keywords: VEC;Compositor de experiencias visuales;visual experience composer;VEC;iframe;extensión;explorador
 description: Descubrir por qué algunos sitios web podrían no abrirse de forma fiable en el Compositor de experiencias visuales (VEC). La extensión del explorador del asistente de VEC le permite cargar sitios web de forma fiable dentro del VEC.
 title: ¿Cómo se usa la extensión de ayuda del Compositor de experiencias visuales (VEC)?
-feature: Visual Experience Composer (VEC)
+feature: 'Compositor de experiencias visuales (VEC). '
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 52%
+source-wordcount: '885'
+ht-degree: 51%
 
 ---
 
@@ -32,10 +32,10 @@ La extensión del explorador del asistente de VEC para Chrome resuelve los probl
 
 ## Beneficios del uso de la extensión VEC Helper
 
-* Todos los encabezados de eliminación de iframes, como X-Frame-Options y Content-Security-Policy, se eliminan implícitamente del sitio web. No hay más necesidad de crear complicadas reglas Requestly para ello.
+* Todos los encabezados de eliminación de iframes, como X-Frame-Options y Content-Security-Policy, se eliminan implícitamente del sitio web. Ya no hay necesidad de crear reglas de Requestly complicadas.
 * Si una página web todavía no contiene la biblioteca JavaScript at.js de [!DNL Target], puede utilizar la extensión para insertar la biblioteca y así poder crear experiencias para el sitio web. A continuación, puede crear actividades y realizar controles de calidad mediante vínculos de vista previa.
 
-   Tenga en cuenta que, al utilizar el Compositor de experiencias mejorado (EEC), la extensión no inyecta at.js, pero la funcionalidad de cookie SameSite aún está presente. Para inyectar at.js en la página web, apague EEC.
+   Tenga en cuenta que con el Compositor de experiencias mejorado (EEC), la extensión no inyecta at.js, pero la funcionalidad de cookie SameSite aún está presente. Para inyectar at.js en la página web, apague EEC.
 
 * [Los ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) visores móviles son compatibles incluso sin el Compositor [!UICONTROL  de experiencias ] mejorado (EEC).
 * Los clientes nuevos de [!DNL Target] pueden utilizar la extensión para experimentar con [!DNL Target] incluso si los desarrolladores de TI todavía no han implementado [!DNL Target] en sus sitios web.
@@ -72,7 +72,7 @@ La extensión del explorador del asistente de VEC para Chrome resuelve los probl
 * Su implementación debe utilizar la biblioteca at.js de [!DNL Target]. No puede utilizar una implementación mbox.js con la extensión.
 * El indicador de [!UICONTROL inserción de bibliotecas de Target] en la extensión está desactivado de forma predeterminada. Puede habilitar este indicador si desea utilizar el VEC en un sitio que aún no se haya implementado para [!DNL Target].
 
-   Tenga en cuenta que este indicador es una configuración global. El indicador está habilitado o deshabilitado para todos los sitios web abiertos en el VEC. Por ejemplo, si establece este indicador en &quot;on&quot; y abre un sitio web que ya está implementado con at.js, recibirá un mensaje que le informará de que at.js ya está cargado. Prevemos que la mayoría de los clientes ya tendrán at.js implementado en sus páginas y utilizará la configuración predeterminada &quot;off&quot;.
+   Este indicador es una configuración global. El indicador está habilitado o deshabilitado para todos los sitios web abiertos en el VEC. Por ejemplo, si establece este indicador en &quot;on&quot; y abre un sitio web que ya se ha implementado con at.js, recibirá un mensaje que le informará de que at.js ya está cargado. Adobe anticipa que la mayoría de los clientes ya tienen at.js implementado en sus páginas y utilizan la configuración predeterminada &quot;off&quot;.
 
 * La extensión carga la versión más reciente de at.js que está disponible en [!DNL Target UI] en [!UICONTROL Administración > Implementación].
 * Cuando utilice la extensión para insertar at.js mientras está en [modo de control de calidad](/help/c-activities/c-activity-qa/activity-qa.md), debe tener otra pestaña de Chrome abierta. Esta pestaña de Chrome debe estar autenticada en la misma Organización de [!DNL Adobe Experience Cloud] en la que creó la actividad.
