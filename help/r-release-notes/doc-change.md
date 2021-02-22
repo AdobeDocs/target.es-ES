@@ -4,9 +4,9 @@ description: Manténgase al día con importantes adiciones y cambios en la docum
 title: ¿Dónde puedo realizar la Vista de actualizaciones de documentación para Destinatario?
 feature: ' Notas de la versión '
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3659'
 ht-degree: 28%
 
 ---
@@ -225,7 +225,7 @@ Esta página lista los cambios importantes realizados en la [!DNL Adobe Target] 
 | Abril de 7 | [Alza y confianza: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto actualizado para &quot;¿Por qué no puedo ver el alza y la confianza en las métricas calculadas?&quot; |
 | Abril de 2 | [Glosario de perfiles y variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Se ha añadido información sobre el uso de `user.header('x-forwarded-for')` con bordes AWS más recientes para recuperar las direcciones IP de los usuarios. |
 |  | [Actualización de at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Se ha añadido la nota siguiente:<ul><li>Después de instalar la biblioteca ECID 4.3.0+ y at.js 2.,*x*, podrá crear actividades que abarquen dominios únicos y rastrear usuarios. Es importante tener en cuenta que esta funcionalidad solo funciona después de que caduque la sesión.</li></ul> |
-| Marzo de 30 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Se han añadido problemas conocidos que afectan a las versiones de at.js anteriores a at.js 2.2.0. Este problema provocaba que el rastreo de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página. |
+| Marzo de 30 | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Se ha añadido un problema conocido que afecta a las versiones de at.js anteriores a at.js 2.2.0. Este problema provocaba que el rastreo de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página. |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se añadió la siguiente información en los detalles de la versión 2.2.0 de at.js:<ul><li>Se ha corregido un problema que provocaba que el rastreo de clics no informara de las conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página.</li></ul> |
 | Marzo de 25 | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Información añadida sobre las siguientes nuevas versiones de at.js:<ul><li>Versión 2.3.0 de at.js</li><li>Versión 1.8.1 de at.js</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Se han añadido las siguientes filas nuevas en la sección &quot;Configuración&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Se ha añadido esta nueva sección:<ul><li>Directiva de seguridad del contenido</li></ul> |
