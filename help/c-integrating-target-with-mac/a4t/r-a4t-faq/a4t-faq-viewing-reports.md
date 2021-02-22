@@ -4,10 +4,10 @@ description: Encuentre respuestas a preguntas que se plantean a menudo sobre la 
 title: ¿Encuentra respuestas a preguntas sobre la visualización de informes con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a2f0c728d40d7a53a40e1f88f36e6feb885e0629
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 54%
+source-wordcount: '2427'
+ht-degree: 53%
 
 ---
 
@@ -24,7 +24,9 @@ Para obtener información detallada y ejemplos, abra el [Destinatario y análisi
 
 ## ¿Dónde se pueden aplicar segmentos en Analysis Workspace? {#segmentation}
 
-Los segmentos se suelen aplicar a la parte superior de un panel en la zona de colocación del segmento. El segmento se aplica a todas las tablas y visualizaciones del panel. La mayor utilidad de esta técnica es que permite ver cómo afecta una prueba un subconjunto de personas (por ejemplo, qué resultado ha tenido esta prueba entre la gente de España)?
+Los segmentos se utilizan generalmente en la parte superior de un panel en la zona de colocación de segmentos. El segmento se aplica a todas las tablas y visualizaciones del panel. La mayor utilidad de esta técnica es que permite ver cómo afecta una prueba un subconjunto de personas (por ejemplo, qué resultado ha tenido esta prueba entre la gente de España)?
+
+Un segmento también se puede colocar directamente en la tabla improvisada, pero tenga en cuenta que debe superponerlo en toda la tabla para conservar los cálculos de alza y confianza dentro del panel A4T. Los segmentos de nivel de columna no son compatibles con el panel en este momento.
 
 ## Cuando se aplica un segmento de visita para una actividad de Destinatario específica, ¿por qué se devuelven experiencias no relacionadas? {#activity-segmentation}
 
@@ -101,16 +103,16 @@ El usuario vuelve el 1 de marzo y ve una actividad nueva: ABC. Esta vez también
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 3 |
-| ABC | 1 | 5 | 1 | 3 |
+| XYZ | 3 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 1 | 1 |
 
 El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. El periodo de caducidad de 90 días del primer valor de eVar se restableció el 1 de abril y esto se refleja en el informe. Se atribuye el origen de la conversión a todas las actividades de Target que el usuario ve, pero el número total de conversiones se desduplica:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 3 | 10 | 2 | 3 | 1 |
-| Total | 2 | 20 | 3 | 1 | 3 |
+| XYZ | 1 | 20 | 4 | 1 | 3 |
+| ABC | 3 | 10 | 2 | 1 | 1 |
+| Total | 2 | 20 | 1 | 1 | 1 |
 
 Puesto que las dos experiencias se vieron antes de la conversión, ambas son las “responsables” del pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. Para el sistema de informes [!DNL Target], dado que no está poniendo una actividad [!DNL Target] contra otra actividad para ver cuál es más exitosa, no importa que todas las actividades que vio el usuario obtuvieran crédito. Lo que se compara son los resultados de dos elementos de una misma actividad y, como un usuario no puede ver distintas experiencias en la misma actividad, no hay que preocuparse por la contaminación de los orígenes de los pedidos.
 
