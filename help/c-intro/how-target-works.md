@@ -4,7 +4,7 @@ description: Obtenga información sobre el funcionamiento de Adobe Target, inclu
 title: ¿Cómo Funciona El Destinatario?
 feature: Información general
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 32%
@@ -28,7 +28,7 @@ Descubra cómo [!DNL Adobe Target] funciona, incluida información sobre las bib
 >
 >Todos los clientes deben migrar a [!DNL AEP Web SDK] o a la última versión de at.js. Para obtener más información, consulte [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) o [Migrar a at.js desde mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Haga referencia a [!DNL AEP Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, puede agregar una de estas bibliotecas al encabezado global. Otra opción es utilizar [Platform Launch de Adobe](https://experienceleague.adobe.com/docs/launch/using/overview.html) para implementar [!DNL Target].
+Haga referencia a [!DNL AEP Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, puede agregar una de estas bibliotecas al encabezado global. Otra opción es utilizar [Platform launch de Adobe](https://experienceleague.adobe.com/docs/launch/using/overview.html) para implementar [!DNL Target].
 
 Los siguientes recursos contienen información detallada para ayudarle a implementar el SDK web de AEP o at.js:
 
@@ -56,7 +56,7 @@ Para obtener más información, consulte [Creación de pruebas A/B](/help/c-acti
 
 ### Asignación automática
 
-La asignación automática identifica un ganador entre dos o más experiencias. La asignación automática reasigna automáticamente más tráfico a la experiencia ganadora para aumentar las conversiones mientras la prueba continúa ejecutándose y aprendiendo.
+La asignación automática identifica un ganador entre dos o más experiencias. La asignación automática reasigna automáticamente más tráfico a la experiencia ganadora, lo que ayuda a aumentar las conversiones mientras la prueba continúa ejecutándose y aprendiendo.
 
 Para obtener más información, consulte [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -176,7 +176,7 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
 * **Utilice redirecciones** 302 (temporales): En los casos en que se utilizan direcciones URL independientes para las páginas de variación en una prueba, Google recomienda utilizar una redirección 302 para dirigir el tráfico hacia las variaciones de prueba. El redireccionamiento 302 indica a los motores de búsqueda que el redireccionamiento es temporal y solo está activo mientras se esté ejecutando la prueba.
 
-   Una redirección 302 es una redirección del lado del servidor y [!DNL Target], junto con la mayoría de los proveedores de optimización, utiliza capacidades del lado del cliente. Por lo tanto, este es un área en la que [!DNL Target] no cumple completamente con las recomendaciones de Google. Sin embargo, esta práctica sólo afecta a una pequeña fracción de las pruebas. El método estándar para ejecutar pruebas mediante [!DNL Target] requiere cambiar el contenido dentro de una sola dirección URL, por lo que no es necesario realizar redirecciones. Hay instancias en las que los clientes deben utilizar varias direcciones URL para representar sus variaciones de prueba. En estos casos, [!DNL Target] utiliza el comando JavaScript `window.location`. Este comando dirige a los usuarios a probar las variaciones, lo que no significa explícitamente si la redirección es 301 o 302.
+   Una redirección 302 es una redirección del lado del servidor y [!DNL Target], junto con la mayoría de los proveedores de optimización, utiliza capacidades del lado del cliente. Por lo tanto, las redirecciones es un área en la que [!DNL Target] no cumple completamente con las recomendaciones de Google. Sin embargo, esta práctica sólo afecta a una pequeña fracción de las pruebas. El método estándar para ejecutar pruebas mediante [!DNL Target] requiere cambiar el contenido dentro de una sola dirección URL, por lo que no es necesario realizar redirecciones. Hay instancias en las que los clientes deben utilizar varias direcciones URL para representar sus variaciones de prueba. En estos casos, [!DNL Target] utiliza el comando JavaScript `window.location`. Este comando dirige a los usuarios a probar las variaciones, lo que no significa explícitamente si la redirección es 301 o 302.
 
    Adobe continúa buscando soluciones viables para alinearse completamente con las pautas de los motores de búsqueda. Para aquellos clientes que deben utilizar direcciones URL independientes para realizar pruebas, Adobe confía en que la correcta implementación de las etiquetas canónicas mitigue el riesgo asociado con este método.
 
