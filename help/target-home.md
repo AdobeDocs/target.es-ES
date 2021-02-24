@@ -4,10 +4,10 @@ title: ¿Dónde puedo encontrar la documentación de Destinatario?
 description: Aprenda a utilizar Adobe Target para personalizar la experiencia de sus clientes a fin de maximizar los ingresos en sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Información general
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 58%
+ht-degree: 45%
 
 ---
 
@@ -45,14 +45,14 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 - [Introducción a Target](c-intro/intro.md): explica los conceptos principales de la solución [!DNL Target].
 - Integrar Target con Adobe Experience Cloud: Explica cómo se integra [!DNL Target] con otras [!DNL Experience Cloud] soluciones, como [Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A 4 T), [Audiencias de Experience Cloud](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)[y Device Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
 - [Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) de Adobe Target: Ofrece tutoriales y vídeos que le ayudarán a sacar el máximo partido del Destinatario.
-- [Solución de problemas de Target](r-troubleshooting-target/troubleshooting-target.md): proporciona vínculos a información de solución de problemas contenida en esta guía, incluida información sobre los límites de caracteres y otros límites (tamaño de ofertas, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Target].
+- [Resolución de problemas de Destinatario](r-troubleshooting-target/troubleshooting-target.md): Proporciona vínculos a información de solución de problemas incluida en esta guía, incluida información sobre los límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a actividades y otros elementos de  [!DNL Target].
 - [Target para aplicaciones móviles](c-target-mobile-app/target-mobile-app.md): explica cómo [!DNL Target] se puede utilizar para la optimización y personalización de aplicaciones móviles.
-- [Recursos e información de contacto](cmp-resources-and-contact-information.md): proporciona información sobre recursos adicionales para ayudarle a obtener información sobre las características de [!DNL Target] y cómo ponerse en contacto con [!DNL Adobe] en caso de necesitar ayuda.
+- [Recursos e información](cmp-resources-and-contact-information.md) de contacto: Proporciona información sobre más recursos para ayudarle a conocer  [!DNL Target] las funciones y cómo ponerse en contacto  [!DNL Adobe] si necesita ayuda.
 
-## Especialistas en marketing  {#marketers}
+## Especialistas en marketing {#marketers}
 
 - [Actividades](c-activities/activities.md): explica cómo configurar, administrar y realizar controles de calidad de actividades de [!DNL Target].
-- [Audiencias](c-target/target.md): explica cómo determinar quién ve el contenido y experiencias en las actividades segmentadas.
+- [Audiencias](c-target/target.md): Explica cómo determinar quién ve el contenido y las experiencias en actividades de objetivo.
 - [Experiencias y ofertas](c-experiences/experiences.md): explica cómo especificar qué contenido se muestra cuando un visitante cumple los criterios de audiencia de una actividad.
 - [Recommendations](c-recommendations/recommendations.md): explica cómo las actividades de [!DNL Recommendations] muestran automáticamente productos o contenido que podrían interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
 
@@ -71,7 +71,7 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 
 ## Analistas  {#analysts}
 
-- [Audiencias](c-target/target.md): explica cómo determinar quién ve el contenido y experiencias en las actividades segmentadas.
+- [Audiencias](c-target/target.md): Explica cómo determinar quién ve el contenido y las experiencias en actividades de objetivo.
 - [Informes](c-reports/reports.md): explica cómo interpretar el rendimiento de las actividades.
 
 ## Ingenieros de control de calidad  {#qa}
