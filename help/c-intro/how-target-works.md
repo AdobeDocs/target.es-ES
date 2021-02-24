@@ -1,12 +1,12 @@
 ---
-keywords: SDK web de Adobe Experience Platform;aep web sdk;aep sdk;optimización del motor de búsqueda;seo;clústeres Edge, clústeres centrales;at.js;mbox.js;
+keywords: SDK web de Adobe Experience Platform;aep web sdk;aep sdk;optimización del motor de búsqueda;optimización del motor de búsqueda;seo;clústeres Edge, clústeres centrales;at.js;mbox.js;
 description: Obtenga información sobre el funcionamiento de Adobe Target, incluida información sobre las bibliotecas de JavaScript de Destinatario (at.js y AEP Web SDK), los centros de datos de Adobe y las pruebas de SEO.
 title: ¿Cómo Funciona El Destinatario?
 feature: Información general
 translation-type: tm+mt
-source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2570'
 ht-degree: 32%
 
 ---
@@ -176,7 +176,7 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
 * **Utilice redirecciones** 302 (temporales): En los casos en que se utilizan direcciones URL independientes para las páginas de variación en una prueba, Google recomienda utilizar una redirección 302 para dirigir el tráfico hacia las variaciones de prueba. El redireccionamiento 302 indica a los motores de búsqueda que el redireccionamiento es temporal y solo está activo mientras se esté ejecutando la prueba.
 
-   Una redirección 302 es una redirección del lado del servidor y [!DNL Target], junto con la mayoría de los proveedores de optimización, utiliza capacidades del lado del cliente. Por lo tanto, las redirecciones es un área en la que [!DNL Target] no cumple completamente con las recomendaciones de Google. Sin embargo, esta práctica sólo afecta a una pequeña fracción de las pruebas. El método estándar para ejecutar pruebas mediante [!DNL Target] requiere cambiar el contenido dentro de una sola dirección URL, por lo que no es necesario realizar redirecciones. Hay instancias en las que los clientes deben utilizar varias direcciones URL para representar sus variaciones de prueba. En estos casos, [!DNL Target] utiliza el comando JavaScript `window.location`. Este comando dirige a los usuarios a probar las variaciones, lo que no significa explícitamente si la redirección es 301 o 302.
+   Una redirección 302 es una redirección del lado del servidor y [!DNL Target], junto con la mayoría de los proveedores de optimización, utiliza capacidades del lado del cliente. Por lo tanto, la redirección es un área en la que [!DNL Target] no es totalmente compatible con las recomendaciones de Google. Sin embargo, esta práctica sólo afecta a una pequeña fracción de las pruebas. El método estándar para ejecutar pruebas mediante [!DNL Target] requiere cambiar el contenido dentro de una sola dirección URL, por lo que no es necesario realizar redirecciones. Hay instancias en las que los clientes deben utilizar varias direcciones URL para representar sus variaciones de prueba. En estos casos, [!DNL Target] utiliza el comando JavaScript `window.location`. Este comando dirige a los usuarios a probar las variaciones, lo que no significa explícitamente si la redirección es 301 o 302.
 
    Adobe continúa buscando soluciones viables para alinearse completamente con las pautas de los motores de búsqueda. Para aquellos clientes que deben utilizar direcciones URL independientes para realizar pruebas, Adobe confía en que la correcta implementación de las etiquetas canónicas mitigue el riesgo asociado con este método.
 
