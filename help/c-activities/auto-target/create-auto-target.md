@@ -1,13 +1,13 @@
 ---
-keywords: Crear destinatario automático;Prueba A/B;actividad de destinatario automático;nueva actividad a/b;destinatario automático;destinatario automático para experiencias personalizadas;personalización
+keywords: Crear destinatario automático;Prueba A/B;actividad de destinatario automático;nueva actividad a/b;destinatario automático;destinatario automático para experiencias personalizadas;personalizada;optimización
 description: Descubra cómo usar el Compositor de experiencias visuales (VEC) en Adobe Target para crear su actividad de prueba A/B de Destinatario automático directamente en una página con Destinatario habilitado.
 title: ¿Cómo se crea una Actividad de Destinatario automático?
-feature: Auto-Target
+feature: Segmentación automática
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 58%
+source-wordcount: '933'
+ht-degree: 56%
 
 ---
 
@@ -64,14 +64,10 @@ Para crear una actividad [!UICONTROL Destinatario automático]:
 
    ![Campo Nombre](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   No se permite usar los caracteres siguientes en el nombre de una actividad:
+   El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
 
    | Carácter | Descripción |
    |--- |--- |
-   | `/` | Barra oblicua |
-   | `?` | Signo de interrogación |
-   | `#` | Signo de número |
-   | `:` | Dos puntos |
    | `=` | Igual a |
    | `+` | Más |
    | `-` | Menos |
