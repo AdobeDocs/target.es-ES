@@ -2,17 +2,17 @@
 keywords: Segmentación de experiencias;xt;crear
 description: Descubra cómo usar el Compositor de experiencias visuales (VEC) en Adobe Target para crear una actividad de segmentación de experiencias (XT) en una página con Destinatario habilitado.
 title: ¿Cómo se crea una Actividad de segmentación de experiencias?
-feature: Experience Targeting
+feature: Segmentación de experiencias
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 91%
+source-wordcount: '427'
+ht-degree: 89%
 
 ---
 
 
-# Crear una actividad de segmentación de experiencias{#create-an-experience-targeting-activity}
+# Crear una actividad de segmentación de experiencias
 
 Use el [!UICONTROL Compositor de experiencias visuales] para crear una actividad de [!UICONTROL segmentación de experiencias] (XT) en una página con habilitado y para modificar partes de la página en [!DNL Adobe Target].
 
@@ -62,14 +62,10 @@ Para obtener más información sobre la segmentación de experiencias, casos de 
 
    ![Campo Nombre](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   No se permite usar los caracteres siguientes en el nombre de una actividad:
+   El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
 
    | Carácter | Descripción |
    |--- |--- |
-   | `/` | Barra oblicua |
-   | `?` | Signo de interrogación |
-   | `#` | Signo de número |
-   | `:` | Dos puntos |
    | `=` | Igual a |
    | `+` | Más |
    | `-` | Menos |
