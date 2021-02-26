@@ -2,12 +2,12 @@
 keywords: crear asignación automática;Prueba A/B;asignación automática de actividad;nueva actividad a/b;asignación automática;asignación automática a la mejor experiencia;asignación automática;asignación automática
 description: Descubra cómo usar el Compositor de experiencias visuales (VEC) en Adobe Target para crear una actividad de prueba A/B de asignación automática directamente en una página con Destinatario habilitado.
 title: ¿Cómo se crea una Actividad de asignación automática?
-feature: Auto-Allocate
+feature: Asignación automática
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 58%
+source-wordcount: '908'
+ht-degree: 57%
 
 ---
 
@@ -62,14 +62,10 @@ Para crear una actividad [!UICONTROL de asignación automática]:
 
    ![Campo Nombre](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   No se permite usar los caracteres siguientes en el nombre de una actividad:
+   El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
 
    | Carácter | Descripción |
    |--- |--- |
-   | `/` | Barra oblicua |
-   | `?` | Signo de interrogación |
-   | `#` | Signo de número |
-   | `:` | Dos puntos |
    | `=` | Igual a |
    | `+` | Más |
    | `-` | Menos |
