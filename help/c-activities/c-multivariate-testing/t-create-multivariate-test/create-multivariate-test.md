@@ -2,12 +2,12 @@
 keywords: mvt; prueba multivariable; crear prueba multivariable; creación de prueba multivariable; crear mvt; creación de mvt, procedimiento de mvt; procedimiento de prueba multivariable
 description: Aprenda a utilizar el Compositor de experiencias visuales (VEC) en Adobe Target para crear una prueba multivariada (MVT) directamente en una página con Destinatario habilitado.
 title: ¿Cómo se crea una prueba multivariada?
-feature: Multivariate Tests
+feature: Pruebas multivariable
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 91%
+source-wordcount: '569'
+ht-degree: 89%
 
 ---
 
@@ -56,18 +56,14 @@ La [!UICONTROL prueba multivariada] (MVT) toma un informe centrado en una págin
 
    ![Campo Nombre de la actividad](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   No se permite usar los caracteres siguientes en el nombre de una actividad:
+   El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
 
    | Carácter | Descripción |
    |--- |--- |
-   | / | Barra oblicua |
-   | ? | Signo de interrogación |
-   | # | Signo de número |
-   | :: | Dos puntos |
-   | = | Igual a |
-   | + | Más |
-   | - | Menos |
-   | @ | Arroba |
+   | `=` | Igual a |
+   | `+` | Más |
+   | `-` | Menos |
+   | `@` | Arroba |
 
 1. [Cree las ofertas en cada ubicación](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
