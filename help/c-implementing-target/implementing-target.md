@@ -1,15 +1,15 @@
 ---
 keywords: implementar;implementación
-description: Comprender los conceptos básicos, familiarizarse con el funcionamiento de Destinatario y cómo se integra con su infraestructura, y comprender cómo se realiza el seguimiento de los visitantes.
+description: Comprenda los conceptos básicos, familiarícese con el funcionamiento de Target y cómo se integra con su infraestructura, y comprenda cómo se realiza el seguimiento de los visitantes.
 landing-page-description: Antes de empezar a usar Adobe Target, debe implementarlo en el sitio, comprender algunos conceptos y términos básicos, y familiarizarse con el funcionamiento de Target.
-title: ¿Cómo Implemento Destinatario?
-feature: Implementation
-role: Developer
+title: ¿Cómo Implemento Target?
+feature: Implementación
+role: Desarrollador
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 77%
+source-wordcount: '113'
+ht-degree: 95%
 
 ---
 
