@@ -1,14 +1,14 @@
 ---
-keywords: Analytics como fuente de sistema de informes;a4t;A4T;requisitos
-description: Obtenga información sobre cómo configurar los requisitos de cuenta de usuario necesarios para crear una actividad basada en Adobe Analytics en Adobe Target mediante Analytics para Destinatario (A4T).
-title: ¿Qué requisitos de permisos de usuario son necesarios para A4T?
+keywords: Analytics como fuente de informes;a4t;A4T;requisitos
+description: Obtenga información sobre cómo configurar los requisitos de cuenta de usuario necesarios para crear una actividad basada en Adobe Analytics en Adobe Target mediante Analytics for Target (A4T).
+title: ¿Qué requisitos de permisos de usuario se necesitan para A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 38%
+source-wordcount: '313'
+ht-degree: 36%
 
 ---
 
@@ -35,23 +35,26 @@ Para obtener más información, consulte [Organizaciones y vinculación de cuent
 
 Debe ser miembro de uno o más grupos de [!DNL Experience Cloud] que tengan acceso a [!DNL Analytics] y [!DNL Target].
 
-Para obtener más información, consulte [Administración de usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics    {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Configure el acceso al grupo de informes [!DNL Analytics]:
+Para utilizar A4T en un grupo de informes determinado, debe tener acceso a ese grupo de informes y conceder acceso al grupo [!DNL Web Services Access].
 
-Para utilizar A4T en un grupo de informes determinado, debe tener acceso a ese grupo de informes.
+1. En **[!UICONTROL Admin Console]**, haga clic en un perfil de producto [!DNL Analytics] y, a continuación, haga clic en la pestaña **[!UICONTROL Permisos]**.
 
-1. En **[!UICONTROL Admin Console]**, haga clic en un perfil de producto [!DNL Analytics] y, a continuación, haga clic en la ficha **[!UICONTROL Permisos]**.
+   A continuación, puede ver a qué grupos de informes tiene acceso el perfil.
 
-   Luego puede ver a qué grupos de informes tiene acceso el perfil.
-
-1. Asegúrese de que el grupo de informes al que desee tener acceso en [!DNL Target] sea uno de los enumerados en el perfil del producto del que forma parte.
+1. Asegúrese de que el grupo de informes al que desea tener acceso en [!DNL Target] es uno de los enumerados en el perfil de producto del que forma parte.
 
    La siguiente ilustración es un ejemplo de un perfil de producto que tiene acceso a todos los grupos de informes:
 
-   ![Ficha Permiso de Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Pestaña Permiso de la Consola de administración](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+
+1. Configure el acceso al grupo [!UICONTROL Acceso a servicios Web].
+
+   Se requiere acceso al grupo [!UICONTROL Web Services Access] en [!DNL Analytics] para poder usar [!DNL Analytics] como fuente de informes para [!DNL Target].
+
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
