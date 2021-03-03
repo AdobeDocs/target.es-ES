@@ -1,39 +1,39 @@
 ---
 keywords: preguntas más frecuentes;faq;analytics para target;a4T;métrica;definiciones de métricas
-description: Encuentre respuestas a preguntas sobre las definiciones de métricas y el uso de Analytics para Destinatario (A4T). A4T le permite utilizar el sistema de informes de Analytics con actividades de Adobe Target.
+description: Encuentre respuestas a preguntas sobre las definiciones de métricas y el uso de Analytics para Target (A4T). A4T le permite utilizar los informes de Analytics con actividades de Adobe Target.
 title: ¿Dónde puedo encontrar información sobre las definiciones de métricas con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 58%
+source-wordcount: '380'
+ht-degree: 39%
 
 ---
 
 
 # Definiciones de métricas: preguntas más frecuentes sobre A4T
 
-En este tema encontrará respuestas a preguntas que se plantean a menudo sobre las definiciones de métricas y el uso de Analytics como fuente de informes para Target (A4T).
+En este tema encontrará respuestas a preguntas que se plantean a menudo sobre las definiciones de métricas y el uso de [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
-## ¿Cuándo caduca la pertenencia a la actividad? ¿Cuánto tiempo tiene que pasar después de que los visitantes entren a la actividad para que sus acciones se contabilicen en ella si no vuelven a verla?    {#section_41B4958F33534E4B96DEE0C981227A79}
+## ¿Cuándo caduca la pertenencia a la actividad? ¿Cuánto tiempo tiene que pasar después de que los visitantes entren a la actividad para que sus acciones se contabilicen en ella si no vuelven a verla? {#section_41B4958F33534E4B96DEE0C981227A79}
 
-La caducidad predeterminada para la actividad es de 90 días después de la última interacción de un visitante con la actividad. Si es necesario, se puede cambiar en ClientCare. Sin embargo, esta configuración es global para todas las actividades, por lo que no se debería cambiar para un caso.
+La caducidad predeterminada para la actividad es de 90 días después de la última interacción de un visitante con la actividad. ClientCare puede ajustar esta configuración si es necesario. Sin embargo, esta configuración es global para todas las actividades, por lo que no se debería cambiar para un caso.
 
 ## Al configurar las métricas de objetivo, ¿por qué no puedo acceder a las opciones de Configuración avanzada? {#adv-settings}
 
-Las opciones [!UICONTROL Configuración avanzada] no están disponibles para actividades que utilizan [!DNL Analytics] como fuente de sistema de informes (A4T).
+Las opciones de [!UICONTROL Configuración avanzada] no están disponibles para actividades que usan [!DNL Analytics] como fuente de informes (A4T).
 
-En el caso de actividades que utilicen A4T, la métrica de objetivos siempre usará la configuración &quot;[!UICONTROL Aumentar recuento y mantener al usuario en Actividad]&quot; y &quot;[!UICONTROL En cada impresión]&quot;. Esto *no se puede configurar*.
+Para las actividades que utilizan A4T, la métrica de objetivo siempre utiliza las opciones &quot;[!UICONTROL Aumentar recuento y mantener al usuario en la actividad]&quot; y &quot;[!UICONTROL En cada impresión]&quot;. Estos ajustes *no* se pueden configurar.
 
-Para actividades que no son de A4T, puede utilizar las [opciones de Configuración avanzada](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) para administrar la forma en que mide el éxito. Las opciones incluyen la adición de dependencias, la elección de mantener al usuario en la actividad o eliminarlo, y la contabilización de la métrica una vez por visitante o en cada impresión. Para acceder a las opciones [!UICONTROL Configuración avanzada] en una actividad que no es de A4T, haga clic en las elipses verticales > [!UICONTROL Configuración avanzada], como se muestra a continuación:
+Para las actividades que no son de A4T, puede utilizar las [opciones de Configuración avanzada](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) para administrar cómo medir el éxito. Las opciones incluyen añadir dependencias, elegir si mantener al usuario en la actividad o eliminarlo, y si contar la métrica una vez por visitante o en cada impresión. Para acceder a las opciones de [!UICONTROL Configuración avanzada] en una actividad que no es de A4T, haga clic en los puntos verticales > [!UICONTROL Configuración avanzada], como se muestra a continuación:
 
 ![Configuración avanzada](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 ## ¿Qué son las métricas calculadas y cómo sustituyen el mbox SiteCatalyst:Event que yo usaba antes?    {#section_D59F4719E6B94758A2187427C17F8EF3}
 
-Las métricas calculadas le permiten crear métricas personalizadas que se derivan de segmentos o de cálculos matemáticos. En el pasado, en las situaciones en las que quizá usaba el mbox de `SiteCatlayst:Event` donde `evar27=shoes` y el evento es `purchase`, ahora crearía un segmento con `evar27=shoes` y después crearía una métrica calculada en la que el evento es `purchase` con el segmento aplicado. La ventaja de la nueva situación es que estas métricas se pueden crear en cualquier momento, incluso después de que la actividad se haya puesto en marcha. Después se pueden usar en cualquier informe de Analytics.
+Las métricas calculadas le permiten crear métricas personalizadas que se derivan de segmentos o de cálculos matemáticos. En el pasado, en las situaciones en las que quizá usaba el mbox de `SiteCatlayst:Event` donde `evar27=shoes` y el evento es `purchase`, ahora crearía un segmento con `evar27=shoes` y después crearía una métrica calculada en la que el evento es `purchase` con el segmento aplicado. Estas métricas se pueden crear en cualquier momento, incluso después de que la actividad esté en curso. Después se pueden usar en cualquier informe de Analytics.
 
 ## ¿A4T atribuye conversiones a varias campañas?    {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-Sí. Esto se lleva a cabo con la configuración “Asignación completa”.
+Sí, se utiliza la configuración &quot;Asignación completa&quot;.
