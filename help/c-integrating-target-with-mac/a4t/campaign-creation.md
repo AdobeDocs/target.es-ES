@@ -1,52 +1,52 @@
 ---
 keywords: a4t;A4T;Analytics como fuente de informes para Target
-description: Obtenga información sobre cómo configurar una actividad en Adobe Target que utilice Adobe Analytics como origen de sistema de informes (A4T).
-title: ¿Cómo se crea una Actividad que utilice A4T?
+description: Obtenga información sobre cómo configurar una actividad en Adobe Target que use Adobe Analytics como fuente de informes (A4T).
+title: ¿Cómo creo una actividad que utilice A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 40%
+source-wordcount: '650'
+ht-degree: 35%
 
 ---
 
 
-# Crear una actividad que utilice Analytics como fuente de sistema de informes
+# Cree una actividad que use Analytics como fuente de informes
 
-Puede configurar una actividad en [!DNL Target] para que utilice [!DNL Adobe Analytics] como fuente de sistema de informes (A4T).
+Puede configurar una actividad en [!DNL Adobe Target] para que use [!DNL Adobe Analytics] como fuente de informes (A4T).
 
-Antes de configurar una actividad que utilice [!DNL Analytics] como fuente de sistemas de informes, establezca el objetivo de la actividad, como mejorar los ingresos por visitante (RPV) o aumentar los clics en el carro de compras. Seleccione una métrica de éxito final para la actividad. Aunque puede seleccionar métricas adicionales en cualquier momento en [!DNL Analytics], debe especificar una métrica en particular a la que espera que esta prueba afecte.
+Antes de configurar una actividad que use [!DNL Analytics] como fuente de informes, establezca el objetivo de la actividad, como mejorar los ingresos por visitante (RPV) o aumentar los clics en el carro de compras. Seleccione una métrica de éxito final para la actividad. Aunque puede seleccionar más métricas en cualquier momento en [!DNL Analytics], debe especificar una métrica en particular a la que espera que afecte esta prueba.
 
 ## Cree la actividad
 
-La creación de una actividad [!DNL Target] que utilice [!DNL Analytics] como fuente de sistema de informes es similar a la configuración de una actividad [!DNL Target] regular, con algunas diferencias importantes. Por ejemplo: no puede seleccionar un segmento para el sistema de informes al crear la actividad porque todos los segmentos disponibles en [!DNL Analytics] se pueden aplicar al ver un informe.
+La creación de una actividad [!DNL Target] que utilice [!DNL Analytics] como fuente de informes es similar a la configuración de una actividad [!DNL Target] normal, con algunas diferencias importantes. Por ejemplo, no puede seleccionar un segmento para crear informes mientras crea la actividad, ya que todos los segmentos disponibles en [!DNL Analytics] se pueden aplicar al ver un informe.
 
 1. Haga clic en **[!UICONTROL Crear actividad]**.
 
    >[!NOTE]
    >
-   >Un nombre de actividad no puede incluir el carácter &quot;%&quot; si se utiliza [!DNL Analytics] como origen de sistema de informes.
+   >Un nombre de actividad no puede incluir el carácter &quot;%&quot; si se usa [!DNL Analytics] como fuente de informes.
 
 1. Seleccione el tipo de actividad y comience a configurarla.
 
-   Si desea crear una actividad [!UICONTROL de asignación automática] o [!UICONTROL de Destinatario automático], consulte [Compatibilidad de A4T con la asignación automática y las actividades de Destinatario automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) para obtener más información.
+   Si desea crear una actividad [!UICONTROL Asignación automática] o [!UICONTROL Segmentación automática], consulte [Compatibilidad con A4T para actividades de Asignación automática y Segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) para obtener más información.
 
 1. Cuando llegue a la fase de **[!UICONTROL configuración]** en el flujo de trabajo de creación de la actividad, elija **[!UICONTROL Adobe Analytics]** y escriba el nombre de su empresa.
 1. Seleccione un grupo de informes.
 
-   Puede seleccionar cualquier grupo de informes que haya disponible en [!DNL Analytics]. El grupo de informes define dónde estarán disponibles los datos recopilados. Los grupos de informes virtuales no se incluyen en la lista de grupos de informes.
+   Puede seleccionar cualquier grupo de informes que haya disponible en [!DNL Analytics]. El grupo de informes define dónde están disponibles los datos recopilados. Los grupos de informes virtuales no se incluyen en la lista de grupos de informes.
 
    Pueden surgir dos errores al seleccionar el grupo de informes:
 
    * Recibe un error que indica que no hay grupos de informes disponibles, pero su cuenta está configurada correctamente.
 
-      Es posible que deba comprobar su compañía [!DNL Analytics]. Si su cuenta [!DNL Adobe Experience Cloud] está vinculada a más de una compañía [!DNL Analytics], cierre la sesión de [!DNL Target] e inicie sesión en [!DNL Analytics] en la compañía correcta. A continuación, vuelva a [!DNL Target] y se cargarán los grupos de informes.
+      Consulte su empresa [!DNL Analytics]. Si su cuenta [!DNL Adobe Experience Cloud] está ligada a más de una [!DNL Analytics] empresa, cierre la sesión de [!DNL Target] e inicie sesión en [!DNL Analytics] en la empresa correcta. A continuación, vuelva a [!DNL Target] y se carguen los grupos de informes.
 
    * No ve el grupo de informes que esperaba.
 
-      Sólo estarán disponibles para selección los grupos de informes que estén aprovisionados para conectarse a [!DNL Target]. Si no ve los grupos de informes que espera, intente cerrar la sesión y volver a iniciarla en [!DNL Adobe Experience Cloud] para intentarlo de nuevo.
-   Si aún no aparece el grupo de informes en la lista, póngase en contacto con el [Servicio de atención al cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+      Solo se pueden seleccionar los grupos de informes que estén aprovisionados para conectarse a [!DNL Target]. Si no ve los grupos de informes esperados, intente cerrar la sesión y volver a iniciarla en [!DNL Adobe Experience Cloud] para intentarlo de nuevo.
+   Si todavía faltan uno o más grupos de informes en la lista, [póngase en contacto con el Servicio de atención al cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 1. Indique el servidor de seguimiento.
 
@@ -59,7 +59,7 @@ La creación de una actividad [!DNL Target] que utilice [!DNL Analytics] como fu
 
    >[!NOTE]
    >
-   >Puede enviar una métrica personalizada basada en Destinatarios a [!DNL Analytics] en lugar de depender solamente de datos [!DNL Analytics]. Por ejemplo, puede controlar los clics en una página, algo que no se suele rastrear en [!DNL Analytics]. Esta métrica personalizada se envía automáticamente a [!DNL Analytics] desde el servidor [!DNL Target] y aparece como la métrica &quot;[!DNL Target] Conversión&quot; en el selector de métricas en [!DNL Analytics]. La métrica de conversión [!DNL Target] está vacía si elige utilizar métricas [!DNL Analytics].
+   >Puede enviar una métrica personalizada basada en Target a [!DNL Analytics] en lugar de basarse únicamente en los datos [!DNL Analytics]. Por ejemplo, puede controlar el clic en una página, algo que no se suele rastrear en [!DNL Analytics]. Esta métrica personalizada se envía a [!DNL Analytics] automáticamente desde el servidor [!DNL Target] y aparece como la métrica &quot;[!DNL Target] Conversión&quot; en el selector de métricas de [!DNL Analytics]. La métrica [!DNL Target] Conversión está vacía si elige utilizar métricas [!DNL Analytics].
 
    El hecho de definir un objetivo no significa que no se pueda utilizar otra métrica al evaluar los resultados de la prueba. Sin embargo, el objetivo es establecer un recordatorio de lo que se quiere mejorar con la actividad.
 
@@ -67,10 +67,10 @@ La creación de una actividad [!DNL Target] que utilice [!DNL Analytics] como fu
 
    >[!NOTE]
    >
-   >Al configurar una actividad después de configurar [!DNL Analytics] como fuente de sistema de informes, no hay opción de configurar audiencias para sistema de informes. [!DNL Analytics] los segmentos están disponibles en el informe  [!DNL Target] Actividades.
+   >Al configurar una actividad después de configurar [!DNL Analytics] como fuente de informes, no hay opción de configurar audiencias para los informes. [!DNL Analytics] los segmentos están disponibles en el informe  [!DNL Target] Actividades .
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## A4T y actividades de asignación automática y Destinatario automático
+## A4T y actividades de asignación automática y segmentación automática
 
-Para obtener más información, consulte [Compatibilidad de A4T con la asignación automática y actividades de Destinatario automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Para obtener más información, consulte [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
