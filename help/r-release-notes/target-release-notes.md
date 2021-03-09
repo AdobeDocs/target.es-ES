@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluyen en la próxima versión?
 feature: ' Notas de la versión '
 translation-type: tm+mt
-source-git-commit: ddc357197f6a182865c5f06930de747c143c7c38
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -26,7 +26,7 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 >
 >Adobe recomienda que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.2.1 (9 y 10 de marzo de 2021)
+## Target Standard/Premium 21.2.1 (9 de marzo de 2021). 
 
 Esta versión de mantenimiento contiene las siguientes mejoras, correcciones y cambios.
 
