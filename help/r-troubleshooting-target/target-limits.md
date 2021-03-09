@@ -1,14 +1,14 @@
 ---
-keywords: límite de caracteres;parámetros de mbox;api de envío por lotes;parámetros de perfil;límites;perfiles integrados;máximo;límite;restricción;carácter;mejor práctica;orderid;orderTotal;mbox3rdPartyID;categoría;categoryID;solución de problemas
-description: Vista de una lista de límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
-title: ¿Cuáles son los distintos caracteres, tamaño y otros límites de Adobe Target?
-feature: Troubleshooting
+keywords: límite de caracteres;parámetros de mbox;api de entrega por lotes;parámetros de perfil;límites;perfiles integrados;máximo;límite;restricción;carácter;práctica recomendada;id de pedido;total de pedido;id de terceros de mbox;categoría;id de categoría;solución de problemas
+description: Ver una lista de límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
+title: ¿Cuáles son los distintos caracteres, tamaños y otros límites de Adobe Target?
+feature: 'Resolución de problemas  '
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 65%
+source-wordcount: '1090'
+ht-degree: 64%
 
 ---
 
@@ -23,7 +23,7 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 >
 >Cuando se aproximan o se exceden los límites designados como “recomendados”, el rendimiento puede ralentizarse. Si la interfaz tarda tiempo en cargarse también puede ser debido a una actividad muy compleja, como por ejemplo muchas audiencias, objetivos y experiencias en la misma actividad.
 >
->Las actividades muy complejas deben revisarse con [!DNL Adobe] consultoría y probarse en un entorno limitado antes de ser liberadas a producción.
+>Las actividades muy complejas deben ser revisadas con [!DNL Adobe] Consultoría y probadas en un entorno limitado antes de su lanzamiento en producción.
 
 ## Actividades
 
@@ -35,7 +35,7 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 
 * **Límite recomendado**: 10 000 actividades activas.
 
-* **Límite** recomendado: 10.000 actividades guardadas activas (y no finalizadas).
+* **Límite** recomendado: 10 000 actividades guardadas (y no finalizadas) activas.
 
 ## Audiencias
 
@@ -69,7 +69,7 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 
 * **Tamaño máximo de archivo para cada carga mediante el método** HTTP: 100 MB.
 * **tamaño máximo de archivo para cada carga mediante el método** FTP: 4 GB.
-* **Número de atributos permitidos para la suscripción**: 5 para  [!DNL Target Standard] y 200 para  [!DNL Target Premium].
+* **Número de atributos a los que puede suscribirse**: 5 para  [!DNL Target Standard] y 200 para  [!DNL Target Premium].
 
 ## Entidades
 
@@ -81,7 +81,7 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 
 * **Atributos** de entidad personalizados: 100.
 
-* **Límite** de caracteres: La longitud máxima de caracteres depende del idioma.
+* **Límite** de caracteres: La longitud máxima del carácter depende del idioma.
 
    * 15 000 caracteres (un solo valor, uno y dos bytes)
    * 500 valores, 100 caracteres por valor (varios valores)
@@ -140,35 +140,35 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 
    Estos límites se aplican a menos que la solicitud se acorte debido a limitaciones del navegador.
 
-   Si utiliza la API de Envío por lotes, el límite es de 50 mboxes por solicitud de lote.
+   Si utiliza la API de envío por lotes, el límite es de 50 mboxes por solicitud por lotes.
 
-   Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#server-side-batch-delivery) en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud contiene más de estos límites, la API devolverá el siguiente mensaje de error:
+   Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#server-side-batch-delivery) en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud supera estos límites, la API devolverá el siguiente mensaje de error:
 
    &quot;El número de mboxParameters no puede superar los 50.&quot;
 
-   Límites establecidos para los extremos:
+   Límites establecidos para puntos finales:
 
-   **Lote mbox v2**:
+   **Mbox v2** por lotes:
 
    * Parámetros de mbox 100
-   * Longitud máxima del nombre del parámetro de mbox 128
-   * El valor del parámetro mbox no puede ser nulo
+   * Longitud máxima del parámetro de mbox 128
+   * El valor del parámetro de mbox no puede ser nulo
    * Valor del parámetro de mbox 5000
-   * Parámetros de perfil 50
-   * Longitud máxima del nombre del parámetro de perfil 128
-   * El valor del parámetro de perfil no puede ser nulo
-   * Longitud máxima del valor del parámetro de perfil 256
+   * parámetros de perfil 50
+   * longitud máxima del parámetro de perfil 128
+   * el valor del parámetro de perfil no puede ser nulo
+   * valor máximo del parámetro de perfil 256
 
-   **Extremo** de API de envío:
+   **Punto final** de la API de envío:
 
    * Parámetros de mbox 50
-   * Longitud máxima del nombre del parámetro de mbox 128
-   * El valor del parámetro mbox no puede ser nulo
+   * Longitud máxima del parámetro de mbox 128
+   * El valor del parámetro de mbox no puede ser nulo
    * Valor del parámetro de mbox 5000
-   * Parámetros de perfil 50
-   * Longitud máxima del nombre del parámetro de perfil 128
-   * El valor del parámetro de perfil no puede ser nulo
-   * Longitud máxima del valor del parámetro de perfil 256
+   * parámetros de perfil 50
+   * longitud máxima del parámetro de perfil 128
+   * el valor del parámetro de perfil no puede ser nulo
+   * valor máximo del parámetro de perfil 256
 
 
 
@@ -192,13 +192,13 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 
 * **Límite recomendado**: 50 000 ofertas totales.
 
-### Tamaño de oferta
+### Tamaño de oferta {#offer-size}
 
 Los límites de tamaño siguientes se aplican a las ofertas:
 
-* 256 kB para ofertas HTML.
-* 64 kB para ofertas visuales de la interfaz de usuario.
-* 512 kB de la API.
+* 1024 kB para ofertas HTML.
+* 1024 kB (para cada experiencia) para ofertas visuales de la interfaz de usuario.
+* 1024 kB de la API.
 
    Si usa un mbox global, el límite es para todo el conjunto de contenidos devueltos de la página. La limitación del tamaño de la oferta mejora los tiempos de carga de la página. Si se supera el límite, aparece un mensaje como este:
 
@@ -214,15 +214,15 @@ Los límites de tamaño siguientes se aplican a las ofertas:
 
 ## Parámetro productPurchasedId
 
-* **Límite**: 47 caracteres por valor separado por coma y 250 caracteres en total. El sistema puede truncar los valores individuales superiores a 47 caracteres. Las longitudes totales superiores a 250 caracteres pueden resultar en un error de 400.
+* **Límite**: 47 caracteres por valor separado por coma y 250 caracteres en total. El sistema puede truncar los valores individuales superiores a 47 caracteres. Las longitudes totales superiores a 250 caracteres pueden resultar en un error 400.
 
 ## Scripts de perfil
 
-* **Límite recomendado de secuencias de comandos** de perfil activas: 300
+* **Límite recomendado de scripts** de perfil activos: 300
 
-* **Límite recomendado del total de secuencias de comandos de perfil por cuenta**: 2.000
+* **Límite recomendado del total de scripts de perfil por cuenta**: 2.000
 
-* **Recommendations para limitar la complejidad** del script de perfil: Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) en *Atributos de Perfil*.
+* **Recomendaciones para limitar la complejidad** del script de perfil: Los scripts de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) en *Atributos de perfil*.
 
 ## Propiedades
 
@@ -238,7 +238,7 @@ Los límites de tamaño siguientes se aplican a las ofertas:
 
    Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado larga, producirá un error antes de llegar a Adobe Target.
 
-## Perfiles de secuencias de comandos
+## Perfiles de secuencia de comandos
 
 ### Nombres de perfiles de secuencia
 
@@ -268,7 +268,7 @@ Los límites de tamaño siguientes se aplican a las ofertas:
 
 ### Reglas de segmentación
 
-* **Límite** recomendado: 2.500 caracteres por valor de regla de objetivo.
+* **Límite** recomendado: 2.500 caracteres por valor de regla de segmentación.
 * **Límite recomendado**: 30 000 valores únicos por audiencia en reglas de segmentación.
 * **Límite recomendado**: 100 000 valores únicos de reglas de segmentación por actividad.
 
