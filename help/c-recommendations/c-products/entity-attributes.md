@@ -1,18 +1,18 @@
 ---
 keywords: entidad;atributos de entidad;pasar información a Recommendations;datos de comportamiento;contador de datos;definir URL relativa;mostrar nivel de inventario;definir precio;definir margen de beneficios;atributos personalizados
-description: Obtenga información sobre cómo utilizar los atributos de entidad para pasar información sobre productos o contenido a Adobe Target Recommendations.
-title: ¿Cómo se utilizan los atributos de entidad?
+description: Aprenda a utilizar los atributos de entidad para pasar información de producto o contenido a Adobe Target Recommendations.
+title: ¿Cómo Se Utilizan Los Atributos De Entidad?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 92%
+source-wordcount: '1064'
+ht-degree: 91%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Atributos de entidad{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) Atributos de entidad
 
 Use los atributos de entidad para pasar la información de producto o contenido a [!DNL Adobe Target Recommendations].
 
@@ -28,11 +28,11 @@ Use los atributos de entidad para pasar la información de producto o contenido 
 
 La mayoría de los parámetros predefinidos solo aceptan un valor único. Los valores nuevos sobrescriben a los antiguos. El parámetro `categoryId` puede aceptar una lista de valores delimitados por comas para cada categoría que contenga el producto. Los nuevos valores de `categoryId` no sobrescriben los valores existentes, sino que, en cambio, se agregan durante la actualización de entidades (límite de 250 caracteres).
 
-En general, el mbox de información de visualización puede tener el aspecto del siguiente ejemplo si utiliza at.js 1.** xwith  `mboxCreate`.
+En general, el mbox de información de visualización podría parecerse al siguiente ejemplo si utiliza at.js 1.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Si está utilizando at.js 2.*x*,  `mboxCreate` (como se utiliza en el ejemplo siguiente) ya no es compatible. Para pasar información de productos o contenido a Recommendations mediante at.js 2.*x*, utilice  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver un ejemplo de esto, consulte [Planifique e implemente Recommendations](/help/c-recommendations/plan-implement.md).
+>* Si utiliza at.js 2.*x*,  `mboxCreate`  (como se usa en el ejemplo siguiente) ya no es compatible. Para pasar información de productos o contenido a Recommendations mediante at.js 2.*x*, utilice  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver un ejemplo de esto, consulte [Planificación e implementación de Recommendations](/help/c-recommendations/plan-implement.md).
 
 >
 
@@ -86,7 +86,7 @@ Solamente valor único.
 
 Este parámetro obligatorio identifica el producto. Este ID alfanumérico debe ser el mismo en todos los productos de [!DNL Adobe Experience Cloud] que utilice, incluido [!DNL Analytics], a fin de que los distintos productos reconozcan el artículo y compartan los datos sobre él.
 
-Los valores `entity.id` no deben contener barras diagonales, el símbolo &amp;, signos de interrogación, símbolos de porcentaje, comas u otros caracteres de puntuación que requieran codificación URL cuando se pasan en una llamada de API REST. Se permiten guiones y guiones bajos. Incluida puntuación no válida en un valor `entity.id` hace que algunas funciones de [!DNL Recommendations] fallen.
+Los valores `entity.id`*no deben contener barras diagonales, el símbolo &amp;, signos de interrogación, símbolos de porcentaje, comas u otros caracteres de puntuación que requieran codificación URL cuando se pasan en una llamada de API REST.* Se permiten guiones y guiones bajos. Incluida puntuación no válida en un valor `entity.id` hace que algunas funciones de [!DNL Recommendations] fallen.
 
 Ejemplo: `'entity.id=67833'`
 
@@ -179,6 +179,8 @@ Solamente valor único.
 Define el precio o el valor del elemento.
 
 Ejemplo: `'entity.value=15.99'`
+
+entity.value solo admite formato decimal (por ejemplo, 15.99). No se admite el formato de coma (15,99).
 
 ### entity.margin
 
