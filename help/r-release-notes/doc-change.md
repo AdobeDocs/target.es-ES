@@ -4,9 +4,9 @@ description: Manténgase actualizado con importantes adiciones y cambios en la d
 title: ¿Dónde puedo ver las actualizaciones de documentación de Target?
 feature: ' Notas de la versión '
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
 workflow-type: tm+mt
-source-wordcount: '3715'
+source-wordcount: '3740'
 ht-degree: 29%
 
 ---
@@ -14,14 +14,15 @@ ht-degree: 29%
 
 # Cambios de la documentación.
 
-Esta página enumera los cambios importantes realizados en la documentación del producto [!DNL Adobe Target].
+Esta página enumera los cambios significativos realizados en la documentación del producto [!DNL Adobe Target].
 
 ## Adobe Target Standard/Premium 21.2.1 (9 de marzo de 2021). 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| Marzo de 9 | [Límites](/help/r-troubleshooting-target/target-limits.md#offer-size) | Se han actualizado los límites de tamaño de oferta permitidos. |
+| Marzo de 9 | [Límites](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Se han actualizado los límites de tamaño de oferta permitidos.</li><li>Se ha corregido el límite de caracteres del parámetro categoryId.</li></ul> |
 |  | [Lista de permitidos Nodos perimetrales de Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Se han actualizado las [!DNL Target] direcciones IP perimetrales. |
+|  | [Atributos de entidad](/help/c-recommendations/c-products/entity-attributes.md) | Se agregó texto para indicar que entity.value debe estar en formato decimal (por ejemplo, 15.99 en lugar de 15.99). |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.2.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19 de enero de 2021)
