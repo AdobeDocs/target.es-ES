@@ -5,7 +5,7 @@ title: ¿Cuáles son los distintos caracteres, tamaños y otros límites de Adob
 feature: 'Resolución de problemas  '
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 64%
@@ -53,7 +53,7 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 
 ## Parámetro categoryId
 
-* **Límite**: 128 caracteres.
+* **Límite**: 250 caracteres.
 
 ## Atributos del cliente
 
