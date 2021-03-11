@@ -4,10 +4,10 @@ description: Aprenda a utilizar los atributos de entidad para pasar información
 title: ¿Cómo Se Utilizan Los Atributos De Entidad?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
+source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,22 +23,22 @@ Use los atributos de entidad para pasar la información de producto o contenido 
 >* `entity.id` debe coincidir con el valor de `productPurchasedId` enviado a la página de confirmación del pedido y con el `productId` utilizado en los informes de producto de Adobe Analytics.
    >
    >
-* Los valores de atributo de entidad proporcionados caducan al cabo de 61 días. Esto significa que debe asegurarse de que el valor más reciente de cada atributo de entidad se pase a Target Recommendations, al menos una vez al mes para cada elemento del catálogo.
+* Los valores de atributo de entidad proporcionados caducan al cabo de 61 días. Esta caducidad significa que debe asegurarse de que el valor más reciente de cada atributo de entidad se pase a Target Recommendations al menos una vez al mes para cada elemento del catálogo.
 
 
 La mayoría de los parámetros predefinidos solo aceptan un valor único. Los valores nuevos sobrescriben a los antiguos. El parámetro `categoryId` puede aceptar una lista de valores delimitados por comas para cada categoría que contenga el producto. Los nuevos valores de `categoryId` no sobrescriben los valores existentes, sino que, en cambio, se agregan durante la actualización de entidades (límite de 250 caracteres).
 
-En general, el mbox de información de visualización podría parecerse al siguiente ejemplo si utiliza at.js 1.** xwith  `mboxCreate`.
+En general, el mbox de información de visualización se parece al siguiente ejemplo si utiliza at.js 1.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Si utiliza at.js 2.*x*,  `mboxCreate`  (como se usa en el ejemplo siguiente) ya no es compatible. Para pasar información de productos o contenido a Recommendations mediante at.js 2.*x*, utilice  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver un ejemplo de esto, consulte [Planificación e implementación de Recommendations](/help/c-recommendations/plan-implement.md).
+>* Si utiliza at.js 2.*x*,  `mboxCreate`  (como se usa en el ejemplo siguiente) ya no es compatible. Para pasar información de productos o contenido a Recommendations mediante at.js 2.*x*, utilice  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver un ejemplo, consulte [Planificación e implementación de Recommendations](/help/c-recommendations/plan-implement.md).
 
 >
 
 
 
-Todos los atributos de parámetros de entidades hacen distinción entre mayúsculas y minúsculas.
+Todos los atributos de parámetros de entidad distinguen entre mayúsculas y minúsculas.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -102,7 +102,7 @@ Ejemplo: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Admite varios valores (lista separada por comas).
 
-Categoría de la página actual. Puede tratarse de varias categorías, como una subsección de “rebecas” (por ejemplo, mujer, mujer:jerséis, mujer:jerséis:rebecas). Se debe separar varias categorías mediante comas.
+Categoría de la página actual. entity.categoryID puede incluir varias categorías, como una subsección de rebecas (por ejemplo, mujer, mujer:jerséis, mujer:jerséis:rebecas). Las categorías múltiples deben separarse con comas.
 
 `categoryId`está limitada a 250 caracteres.
 
@@ -118,7 +118,7 @@ Ejemplos:
 
 Para las recomendaciones basadas en categorías, se utiliza una coma para separar los valores de categoría. Los valores separados por comas pasan a ser categorías. También puede definir subcategorías con otro separador, como los dos puntos (:), para separar las subcategorías dentro del valor de categoría.
 
-Por ejemplo, en el siguiente código, la categoría Womens (Mujeres) se divide en varias subcategorías:
+Por ejemplo, en el siguiente código, la categoría Mujer se divide en varias subcategorías:
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
@@ -166,11 +166,11 @@ Muestra el nivel de inventario del artículo.
 
 Ejemplo: `'entity.inventory=1'`
 
-**Gestión de atributo de inventario vacío:** si para la entrega dispone de una regla de inclusión, una regla de recopilación o una configuración de criterio con `entity.inventory` > 0 o `entity.inventory` = 0 y no se ha establecido un inventario para el producto, [!DNL Target] lo evalúa como TRUE e incluye productos donde no hay inventario establecido. Este es el comportamiento predeterminado de modo que los productos sin inventario establecido aparezcan en los resultados de la recomendación.
+**Gestión de atributos de inventario vacíos:** para la entrega, si tiene una regla de inclusión, una regla de recopilación o una configuración de criterio con  `entity.inventory` > 0 o  `entity.inventory` = 0 y no se ha establecido un inventario para el producto,  [!DNL Target] evalúa este valor como TRUE e incluye productos sin inventario establecido. Como resultado, los productos con inventario no establecido se muestran en los resultados de la recomendación.
 
 Igualmente, si tiene una regla de exclusión global con `entity.inventory` = 0 y `entity.inventory` no está establecido, [!DNL Target] evalúa esta regla como TRUE y excluye el producto.
 
-**Problema conocido:** la búsqueda de productos no es coherente con la entrega para los atributos sin valor de inventario establecido. Por ejemplo, para una regla con `entity.inventory` = 0, la búsqueda de productos no muestra los productos sin valor de inventario establecido.
+**Problema conocido:** la búsqueda de productos no es coherente con la entrega para los atributos sin valor de inventario establecido. Por ejemplo, para una regla con `entity.inventory` = 0 , la búsqueda de productos no muestra los productos sin valor de inventario establecido.
 
 ### entity.value
 
@@ -194,12 +194,12 @@ Ejemplo: `'entity.margin=1.00'`
 
 Admite varios valores (matriz JSON).
 
-Define hasta 100 variables personalizadas que proporcionan información adicional sobre el artículo. Puede especificar el nombre de los atributos no utilizados para cada atributo personalizado. Por ejemplo, puede crear un atributo personalizado llamado `entity.genre` para definir un libro o una película. O un vendedor de entradas podría crear atributos del lugar de celebración para un actor secundario, como un equipo visitante en un evento deportivo o un acto de apertura en un concierto.
+Define hasta 100 variables personalizadas que proporcionan información adicional sobre el artículo. Puede especificar el nombre de los atributos no utilizados para cada atributo personalizado. Por ejemplo, puede crear un atributo personalizado llamado `entity.genre` para definir un libro o una película. Un vendedor de entradas puede crear atributos del lugar de celebración de un actor secundario, como un equipo visitante en un evento deportivo o un acto de apertura en un concierto.
 
 Restricciones:
 
 * No se pueden usar nombres de atributos de entidad predefinidos para atributos de entidad personalizados.
-* El atributo entity.environment se reserva para el sistema y no se puede usar en atributos de entidad personalizados. Se hará caso omiso de los intentos de pasar entity.environment usando targetPageParams, fuentes o API.
+* El atributo entity.environment se reserva para el sistema y no se puede usar en atributos de entidad personalizados. Se omiten los intentos de pasar entity.environment usando targetPageParams, fuentes o API.
 
 Ejemplos:
 
@@ -223,7 +223,7 @@ Se utiliza para impedir que una llamada de mbox incremente los contadores de dat
 
 Ejemplo: `'entity.event.detailsOnly=true'`
 
-En los ejemplos siguientes, la primera llamada de mbox actualizará el catálogo y los datos de comportamiento. La segunda llamada de mbox solo actualizará el catálogo.
+En los ejemplos siguientes, la primera llamada de mbox actualiza el catálogo y los datos de comportamiento. La segunda llamada de mbox actualiza solo el catálogo.
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
