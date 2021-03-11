@@ -1,13 +1,13 @@
 ---
 keywords: entidad;atributos de entidad;pasar información a Recommendations;datos de comportamiento;contador de datos;definir URL relativa;mostrar nivel de inventario;definir precio;definir margen de beneficios;atributos personalizados
-description: Aprenda a utilizar los atributos de entidad para pasar información de producto o contenido a Adobe Target Recommendations.
+description: Aprenda a utilizar los atributos de entidad para pasar información de producto o contenido a Target Recommendations.
 title: ¿Cómo Se Utilizan Los Atributos De Entidad?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
+source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 58%
 
 ---
 
@@ -16,29 +16,22 @@ ht-degree: 0%
 
 Use los atributos de entidad para pasar la información de producto o contenido a [!DNL Adobe Target Recommendations].
 
+Las entidades se refieren a los elementos que desea recomendar. Las entidades pueden incluir productos, contenido (artículos, presentaciones de diapositivas, imágenes, películas y programas de televisión), ofertas de empleo, restaurantes, etc.
+
 [!DNL Recommendations] envía el valor de `productId` o `productPurchasedId` (denominado `entity.id` en el código) que se utiliza en los algoritmos.
 
->[!NOTE]
->
->* `entity.id` debe coincidir con el valor de `productPurchasedId` enviado a la página de confirmación del pedido y con el `productId` utilizado en los informes de producto de Adobe Analytics.
-   >
-   >
-* Los valores de atributo de entidad proporcionados caducan al cabo de 61 días. Esta caducidad significa que debe asegurarse de que el valor más reciente de cada atributo de entidad se pase a Target Recommendations al menos una vez al mes para cada elemento del catálogo.
+Tenga en cuenta lo siguiente:
 
+* `entity.id` debe coincidir con el  `productPurchasedId` enviado a la página de confirmación del pedido y con el  `productId` utilizado en los informes de  [!DNL Adobe Analytics] productos.
+* Los valores de atributo de entidad que pase a [!DNL Recommendations] caducan pasados 61 días. Adobe recomienda pasar el valor más reciente de cada atributo de entidad a [!DNL Recommendations] al menos una vez al mes para cada elemento del catálogo.
 
 La mayoría de los parámetros predefinidos solo aceptan un valor único. Los valores nuevos sobrescriben a los antiguos. El parámetro `categoryId` puede aceptar una lista de valores delimitados por comas para cada categoría que contenga el producto. Los nuevos valores de `categoryId` no sobrescriben los valores existentes, sino que, en cambio, se agregan durante la actualización de entidades (límite de 250 caracteres).
 
-En general, el mbox de información de visualización se parece al siguiente ejemplo si utiliza at.js 1.** xwith  `mboxCreate`.
+En general, el mbox de información de visualización se parece al siguiente ejemplo si utiliza at.js 1.** xwith  `mboxCreate`. Todos los atributos de parámetros de entidad distinguen entre mayúsculas y minúsculas.
 
 >[!NOTE]
 >
->* Si utiliza at.js 2.*x*,  `mboxCreate`  (como se usa en el ejemplo siguiente) ya no es compatible. Para pasar información de productos o contenido a Recommendations mediante at.js 2.*x*, utilice  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver un ejemplo, consulte [Planificación e implementación de Recommendations](/help/c-recommendations/plan-implement.md).
-
->
-
-
-
-Todos los atributos de parámetros de entidad distinguen entre mayúsculas y minúsculas.
+>Si utiliza at.js 2.*x*,  `mboxCreate`  (como se usa en el ejemplo siguiente) ya no es compatible. Para pasar información de producto o contenido a [!DNL Recommendations] mediante at.js 2.*x*, utilice  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver un ejemplo, consulte [Planificación e implementación de Recommendations](/help/c-recommendations/plan-implement.md).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -86,7 +79,7 @@ Solamente valor único.
 
 Este parámetro obligatorio identifica el producto. Este ID alfanumérico debe ser el mismo en todos los productos de [!DNL Adobe Experience Cloud] que utilice, incluido [!DNL Analytics], a fin de que los distintos productos reconozcan el artículo y compartan los datos sobre él.
 
-Los valores `entity.id`*no deben contener barras diagonales, el símbolo &amp;, signos de interrogación, símbolos de porcentaje, comas u otros caracteres de puntuación que requieran codificación URL cuando se pasan en una llamada de API REST.* Se permiten guiones y guiones bajos. Incluida puntuación no válida en un valor `entity.id` hace que algunas funciones de [!DNL Recommendations] fallen.
+Los valores `entity.id` deben *no* contener barras diagonales, símbolos, signos de interrogación, símbolos de porcentaje, comas u otros caracteres de puntuación que requieran codificación URL cuando se pasan en una llamada a la API de REST. Se permiten guiones y guiones bajos. Incluida puntuación no válida en un valor `entity.id` hace que algunas funciones de [!DNL Recommendations] fallen.
 
 Ejemplo: `'entity.id=67833'`
 
@@ -104,7 +97,7 @@ Admite varios valores (lista separada por comas).
 
 Categoría de la página actual. entity.categoryID puede incluir varias categorías, como una subsección de rebecas (por ejemplo, mujer, mujer:jerséis, mujer:jerséis:rebecas). Las categorías múltiples deben separarse con comas.
 
-`categoryId`está limitada a 250 caracteres.
+El valor `categoryId` está limitado a 250 caracteres.
 
 >[!NOTE]
 >
@@ -116,7 +109,7 @@ Ejemplos:
 * Ejemplo de página de categoría Suéters: mujer:suéters
 * Ejemplo de página de categoría Cardigans: mujer:suéters:cardigans
 
-Para las recomendaciones basadas en categorías, se utiliza una coma para separar los valores de categoría. Los valores separados por comas pasan a ser categorías. También puede definir subcategorías con otro separador, como los dos puntos (:), para separar las subcategorías dentro del valor de categoría.
+Para las recomendaciones basadas en categorías, una coma separa el valor de categoría. Los valores separados por comas pasan a ser categorías. También puede definir subcategorías con otro separador, como los dos puntos (:), para separar las subcategorías dentro del valor de categoría.
 
 Por ejemplo, en el siguiente código, la categoría Mujer se divide en varias subcategorías:
 
@@ -154,7 +147,7 @@ Ejemplo: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 Solamente valor único.
 
-Un mensaje sobre el producto que se muestra en la recomendación, como “oferta” o “liquidación”. Generalmente el mensaje es más extenso que el nombre del producto. Se utiliza para definir información adicional que se mostrará con el producto en la plantilla..
+Un mensaje sobre el producto que se muestra en la recomendación, como “oferta” o “liquidación”. Generalmente el mensaje es más extenso que el nombre del producto. Utilice entity.message para definir información adicional que se mostrará con el producto en la plantilla.
 
 Ejemplo: `'entity.message=Family&nbsp;special'`
 
@@ -170,7 +163,7 @@ Ejemplo: `'entity.inventory=1'`
 
 Igualmente, si tiene una regla de exclusión global con `entity.inventory` = 0 y `entity.inventory` no está establecido, [!DNL Target] evalúa esta regla como TRUE y excluye el producto.
 
-**Problema conocido:** la búsqueda de productos no es coherente con la entrega para los atributos sin valor de inventario establecido. Por ejemplo, para una regla con `entity.inventory` = 0 , la búsqueda de productos no muestra los productos sin valor de inventario establecido.
+**Problema conocido:** la búsqueda de productos no es coherente con la entrega de atributos de valor de inventario no establecidos. Por ejemplo, para una regla con `entity.inventory` = 0 , la búsqueda de productos no muestra los productos sin valor de inventario establecido.
 
 ### entity.value
 
@@ -211,9 +204,7 @@ Los atributos de entidad personalizados admiten varios valores. Consulte [Atribu
 
 Ejemplo: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
->[!NOTE]
->
->Los atributos de entidad personalizados de varios valores requieren matrices JSON válidas. Para obtener información sobre la sintaxis correcta, consulte Atributos de entidad personalizados.
+Los atributos de entidad personalizados de varios valores requieren matrices JSON válidas. Para obtener información sobre la sintaxis correcta, consulte [Atributos de entidad personalizados](/help/c-recommendations/c-products/custom-entity-attributes.md).
 
 ### entity.event.detailsOnly
 
@@ -230,6 +221,7 @@ mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new yor
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
 
-## Temas relacionados:
+>[!MORELIKETHIS]
+>
+>* [Atributos de entidad personalizados](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
 
-* [Atributos de entidad personalizados](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
