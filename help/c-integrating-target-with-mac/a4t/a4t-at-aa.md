@@ -4,10 +4,10 @@ description: Aprenda a crear actividades de asignación automática y segmentaci
 title: ¿Admite A4T las actividades de asignación automática y segmentación automática?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ La integración de A4T le permite:
 * Utilice la capacidad multi-armed bandit de [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) para dirigir el tráfico a las experiencias ganadoras.
 * Utilice el algoritmo de aprendizaje automático del ensamblado de [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md) para elegir la mejor experiencia para cada visitante. La segmentación automática elige la mejor experiencia en función de los perfiles, los comportamientos y el contexto de los usuarios, al mismo tiempo que utiliza una métrica de objetivo [!DNL Adobe Analytics] y capacidades de análisis e informes enriquecidos de [!DNL Adobe Analytics].
 
-Asegúrese de que ha [implementado A4T para su uso con pruebas A/B y actividades de segmentación de experiencias](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). Si utiliza `analyticsLogging = client_side`, también debe pasar el valor `sessionId` a [!DNL Analytics]. Para obtener más información, consulte [Informes de Analytics for Target (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) en la guía *SDK de Adobe Target*.
+Asegúrese de que ha [implementado A4T para su uso con pruebas A/B y actividades de segmentación de experiencias](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). Si utiliza `analyticsLogging = client_side`, también debe pasar el valor `sessionId` a [!DNL Analytics]. Para obtener más información, consulte [Informes de Analytics for Target (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) en la guía *SDK para Adobe Target*.
 
 En primer lugar:
 
@@ -96,3 +96,11 @@ Algunas limitaciones y notas se aplican tanto a las actividades de [!UICONTROL A
 * Cuando se utiliza [!DNL Analytics] como fuente de datos para una actividad de [!UICONTROL Segmentación automática], las sesiones finalizan después de que hayan transcurrido seis horas. No se contabilizan las conversiones que se producen después de seis horas.
 
 Para obtener más información, consulte [Modelos de atribución y ventanas retroactivas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) en la *Guía de herramientas de Analytics*.
+
+## Tutorial: Configuración de informes de A4T en Analysis Workspace para actividades de Segmentación automática {#tutorial}
+
+Aunque las funciones de análisis enriquecidos están disponibles en [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], es necesario realizar algunas modificaciones en el panel predeterminado [!UICONTROL Analytics for Target] para interpretar correctamente las actividades de segmentación automática. Estas modificaciones son necesarias debido a las diferencias entre las actividades de experimentación (manual A/B y [!UICONTROL Asignación automática]) y las actividades de personalización ([!UICONTROL Segmentación automática]).
+
+Este tutorial le explica las modificaciones recomendadas para analizar las actividades de [!UICONTROL Segmentación automática] en [!UICONTROL Workspace].
+
+Para obtener más información, consulte [Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) en *Tutorials de Adobe Target*.
