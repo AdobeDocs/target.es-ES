@@ -1,5 +1,5 @@
 ---
-keywords: Target Standard;Recommendations;Target Premium;Personalización automatizada;segmentación automática;permisos;Adobe Target;
+keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;segmentación automática;permisos;Adobe Target;
 description: Conozca los conceptos básicos de Adobe Target Standard y Adobe Target Premium. Target Premium incluye funciones avanzadas que no están disponibles en el producto estándar.
 landing-page-description: Personalice la experiencia de sus clientes para maximizar los ingresos en sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 title: ¿Qué es Target?
@@ -37,7 +37,7 @@ Target incluye las siguientes características avanzadas:
 
 ### Personalización automatizada
 
-[La Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)  (AP) proporciona algoritmos avanzados de aprendizaje automático que permiten obtener experiencias personalizadas y tasas de conversión mejoradas para experiencias digitales.
+[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)  (AP) proporciona algoritmos avanzados de aprendizaje automático para ofrecer experiencias personalizadas y tasas de conversión mejoradas para experiencias digitales.
 
 [!UICONTROL La ] Personalización automatizada registra la actividad de los visitantes en el sitio y crea un perfil de los visitantes para que el contenido se pueda dirigir a visitantes similares. AP realiza un seguimiento de las respuestas al contenido, tanto para individuos como para la población en su conjunto. A continuación, AP utiliza métodos de modelado sofisticados para dirigirse automáticamente a cada individuo. AP considera todo lo que se sabe sobre cada visitante.
 
@@ -67,7 +67,7 @@ Una recomendación determina cómo se sugiere un producto a un cliente, según l
 
 ### Recommendations como oferta
 
-[Recommendations como ](/help/c-recommendations/recommendations-as-an-offer.md) oferta le permite incluir recomendaciones dentro de las actividades de Prueba  [!UICONTROL A/B], Asignación  [!UICONTROL automática], Segmentación  [!UICONTROL automática] y Segmentación de  [!UICONTROL experiencias]  (XT).
+[Recommendations as a ](/help/c-recommendations/recommendations-as-an-offer.md) offer le permite incluir recomendaciones dentro de las actividades Prueba [!UICONTROL  A/B, ]Asignación [!UICONTROL  automática, ]Segmentación [!UICONTROL  automática y Segmentación de ]experiencias   (XT).
 
 Esta funcionalidad revela capacidades completamente nuevas, como:
 
