@@ -1,12 +1,12 @@
 ---
-description: ¿Qué significan los diferentes términos utilizados en Adobe Target? Encuentre definiciones de términos comunes para ayudarle a obtener más Destinatarios.
-title: ¿Dónde puedo encontrar los términos y definiciones utilizados en el Destinatario?
-feature: Overview
+description: ¿Qué significan los distintos términos utilizados en Adobe Target? Encuentre definiciones de términos comunes para ayudarle a obtener más información sobre Target.
+title: ¿Dónde puedo encontrar los términos y definiciones utilizados en Target?
+feature: Información general
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 97%
+source-wordcount: '2472'
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ La biblioteca [!DNL at.js] es una nueva biblioteca de implementación para [!DNL
 
 **audiencia**
 
-Grupo de participantes con características similares en una actividad a los se les mostrará una actividad segmentada.  Un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La funcionalidad Audiencia le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará según los criterios definidos durante la creación de la actividad.
+Grupo de participantes con características similares en una actividad a los se les mostrará una actividad segmentada.  Grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds de la zona oeste. La funcionalidad Audiencia le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará según los criterios definidos durante la creación de la actividad.
 
 **Asignación automática**
 
@@ -241,6 +241,18 @@ Se transmite en la página, no en la dirección URL. Los parámetros sirven para
 
 La prueba multivariable (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad
 
+## N
+
+**Nuevo visitante**
+
+Un visitante se incluye en el segmento Nuevos visitantes si se cumple una de las siguientes condiciones:
+
+* Es la primera vez que el visitante visita el sitio.
+* Es la primera vez que el visitante visita el sitio desde que se borraron las cookies.
+* Es la primera vez que el visitante visita el sitio desde que caducó la duración del perfil del [visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
+
+Para obtener más información, consulte [¿Cómo se cuentan las métricas Nuevos visitantes y Visitantes que regresan?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) en Informes de preguntas y respuestas. Contraste con &quot;Visitante que regresa&quot; a continuación.
+
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **objetivo**
@@ -278,6 +290,12 @@ Redirige a un visitante a otra página web. Use un redirector de forma similar a
 **parámetro de dirección URL de referencia**
 
 Transmite valores al mbox de la página de destino como parámetros y valores de dirección URL de referencia. Úselos, por ejemplo, para segmentar el origen del visitante.
+
+**Visitante que regresa**
+
+El visitante se incluye en el segmento Visitantes que regresan si el usuario ha visitado el sitio anteriormente, lo ha abandonado durante 30 minutos como mínimo y ha vuelto al sitio con las mismas cookies. Siempre y cuando un visitante regrese dentro de su duración de perfil, este visitante será un visitante reincidente.
+
+Para obtener más información, consulte [Cómo se cuentan las métricas Nuevos visitantes y Visitantes que regresan](/help/c-reports/reporting-frequently-asked-questions.md#methodology) en Informes de preguntas y respuestas. Contraste con el &quot;Visitante nuevo&quot; anterior.
 
 **función**
 
@@ -333,7 +351,7 @@ Todas las variables de página de referencia y dirección URL de página se pasa
 
 **visit**
 
-A veces, una visita se denomina sesión. Una visita finaliza después de 30 minutos de inactividad, lo que significa que han transcurrido al menos 30 minutos entre las solicitudes del servidor y el Destinatario.
+A veces, una visita se denomina sesión. Una visita finaliza tras 30 minutos de inactividad, lo que significa que han transcurrido al menos 30 minutos entre las solicitudes del servidor a Target.
 
 **visitante**
 
