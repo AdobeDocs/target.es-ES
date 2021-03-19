@@ -5,9 +5,9 @@ title: ¿Cuáles son los distintos caracteres, tamaños y otros límites de Adob
 feature: 'Resolución de problemas  '
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1094'
 ht-degree: 64%
 
 ---
@@ -218,11 +218,11 @@ Los límites de tamaño siguientes se aplican a las ofertas:
 
 ## Scripts de perfil
 
-* **Límite recomendado de scripts** de perfil activos: 300
+* **Límite recomendado de scripts de perfil activos (los que están habilitados)**: 300
 
 * **Límite recomendado del total de scripts de perfil por cuenta**: 2.000
 
-* **Recomendaciones para limitar la complejidad** del script de perfil: Los scripts de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) en *Atributos de perfil*.
+* **Recommendations para limitar la complejidad** del script de perfil: Los scripts de perfil pueden ejecutar un número limitado de instrucciones. Para obtener más información, consulte [Prácticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) en *Atributos de perfil*.
 
 ## Propiedades
 
