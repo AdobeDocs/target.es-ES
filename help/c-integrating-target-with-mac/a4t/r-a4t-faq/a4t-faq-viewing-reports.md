@@ -4,10 +4,10 @@ description: Encuentre respuestas a preguntas que se plantean a menudo sobre la 
 title: ¿Encuentra respuestas a preguntas sobre la visualización de informes con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
+source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 41%
+source-wordcount: '2526'
+ht-degree: 39%
 
 ---
 
@@ -93,32 +93,36 @@ El 1 de enero, el usuario llega al sitio, ve la actividad XYZ una vez y, despué
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 El usuario vuelve el 1 de febrero y ve otras cinco páginas. No encuentra más actividades de Target y la actividad original ya no está activa. Aunque ya no está activa, la actividad todavía sigue al usuario mediante la persistencia de eVar. Los datos de este momento son estos:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 1 |
 
 El usuario vuelve el 1 de marzo y ve una actividad nueva: ABC. Esta vez también ve cinco páginas. Debido a que la actividad XYZ sigue al usuario a través de la persistencia y este usuario luego tiene ABC configurado, verá dos artículos de línea en los informes:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 1 |
-| ABC | 3 | 5 | 1 | 1 |
+| XYZ | 3 | 15 | 3 | 3 |
+| ABC | 3 | 5 | 3 | 3 |
 
 El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. El vencimiento de 90 días de ese primer valor de eVar se restablece el 1 de abril, por lo que lo ve en el informe. Se atribuye el origen de la conversión a todas las actividades de Target que el usuario ve, pero el número total de conversiones se desduplica:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 1 |
-| ABC | 1 | 10 | 2 | 3 | 3 |
-| Total | 2 | 20 | 1 | 3 | 1 |
+| XYZ | 3 | 20 | 4 | 1 | 3 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| Total | 2 | 20 | 1 | 1 | 1 |
 
 Puesto que ambas experiencias se vieron antes de la conversión, ambas son las &quot;responsables&quot; del pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. Para los informes [!DNL Target], como no está poniendo una actividad [!DNL Target] en contra de otra actividad para ver cuál tiene más éxito, no importa que todas las actividades que vio el usuario obtengan crédito. Está comparando los resultados de dos elementos dentro de la actividad única. Un usuario no puede ver experiencias diferentes en la misma actividad, por lo que no tiene que preocuparse por la contaminación cruzada del crédito de pedido.
 
 Para obtener más información, consulte [Variables de conversión (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) en la *Guía de administración de Analytics*.
+
+## ¿Por qué sigo viendo más impresiones después de desactivar mi actividad? {#deactivated}
+
+Una fuente de impresiones sobre el informe de una actividad de A4T después de la desactivación puede ser el tráfico en modo de control de calidad. Normalmente, Target no registra eventos para una actividad desactivada, pero Analytics no tiene forma de saber que las impresiones provienen del modo de control de calidad. Cuando el informe de actividad de Target se recupera de Analytics, muestra estas impresiones. Esto funciona como está diseñado, ya que los clientes necesitan una forma de comprobar los informes de A4T aunque la actividad no esté activa mediante el modo de control de calidad.
 
 ## ¿Por qué Analytics y Analytics for Target (A4T) calculan las cifras de la métrica Visitantes únicos de distinta forma?{#section_0C3B648AB54041F9A2AA839D51791883}
 
