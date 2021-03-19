@@ -1,13 +1,13 @@
 ---
 keywords: versiones de at.js;versiones de at.js;notas de la versión
-description: Vista los detalles sobre los cambios en cada versión de la biblioteca JavaScript de Adobe Target at.js.
+description: Vea los detalles sobre los cambios realizados en cada versión de la biblioteca JavaScript at.js de Adobe Target.
 title: ¿Qué se incluye en cada versión de at.js?
-feature: at.js
-role: Developer
+feature: 'at.js '
+role: Desarrollador
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
 workflow-type: tm+mt
-source-wordcount: '4085'
+source-wordcount: '4104'
 ht-degree: 83%
 
 ---
@@ -19,81 +19,82 @@ Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScri
 
 >[!IMPORTANT]
 >
->El equipo de Destinatario admite at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que está ejecutando una versión compatible.
+>El equipo de Target es compatible con at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que está ejecutando una versión compatible.
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis es el método preferido para actualizar at.js. Los desarrolladores de extensiones agregan continuamente nuevas funciones a sus extensiones y corrigen con frecuencia errores. Estas actualizaciones se empaquetan en nuevas versiones de una extensión y están disponibles en el catálogo [!DNL Launch] como actualizaciones. Para obtener más información, consulte [Actualización de extensión](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) en la *Guía del usuario del Experience Platform Launch*.
+>[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch es el método preferido para actualizar at.js. Los desarrolladores de extensiones añaden continuamente nuevas funciones a sus extensiones y suelen corregir errores. Estas actualizaciones se empaquetan en nuevas versiones de una extensión y se ponen a disposición en el catálogo [!DNL Launch] como actualizaciones. Para obtener más información, consulte [Extension Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) en la *Guía del usuario del Experience Platform Launch*.
 
 ## at.js 2.4.0 (14 de enero de 2021)
 
-Esta versión de at.js es una versión de mantenimiento que incluye las siguientes correcciones:
+Esta versión de at.js es de mantenimiento e incluye las siguientes correcciones:
 
-* Añade la compatibilidad con ID de plataforma/perfil unificado en ID de cliente de API de envío.
+* Añade compatibilidad con el perfil unificado/ID de plataforma a customerIds de la API de envío.
 * Corrige la inyección de etiquetas de estilo no válida.
 
 ## at.js 2.3.3 (13 de noviembre de 2020)
 
-Esta versión de at.js es una versión de mantenimiento que incluye la siguiente corrección:
+Esta versión de at.js es de mantenimiento e incluye la siguiente corrección:
 
-* Se ha corregido un problema relacionado con el rastreo de clics de mbox y A4T. Con 0n-clic, Destinatario activó una llamada de API de Envío con los parámetros de mbox y mbox correctos. Sin embargo, el SDID no coincidía con el de la llamada [!DNL Analytics], por lo que no había coincidencia ni coincidencia de visitas. (TNT-38372)
+* Se ha corregido un problema relacionado con el rastreo de clics de mbox y A4T. Con un clic en 0n, Target activó una llamada a la API de envío con los parámetros de mbox y mbox correctos. Sin embargo, el SDID no coincidió con el de la llamada [!DNL Analytics] , por lo que no hubo vinculación ni conversión de visitas. (TNT-38372)
 
 ## at.js 2.3.2 (24 de julio de 2020)
 
-Esta versión de at.js es una versión de mantenimiento que incluye la siguiente corrección:
+Esta versión de at.js es de mantenimiento e incluye la siguiente corrección:
 
-* Se ha corregido un error que se producía cuando un script o código añadía una propiedad predeterminada a la ventana o al documento.
+* Se ha corregido un error cuando un script o código agrega la propiedad predeterminada a la ventana o al documento.
 
 ## at.js 1.8.2 (15 de junio de 2020)
 
-Esta versión de at.js es una versión de mantenimiento que incluye la siguiente corrección:
+Esta versión de at.js es de mantenimiento e incluye la siguiente corrección:
 
-* Se ha corregido un problema que se producía al utilizar CNAME y la anulación de bordes, at.js 1.** xmay crea incorrectamente el dominio del servidor, lo que provoca que la  [!DNL Target] solicitud falle. (TNT-35064)
+* Se ha corregido un problema que se producía al usar CNAME y la anulación de perímetros, at.js 1.** xpodría crear incorrectamente el dominio del servidor, lo que provocaba que fallara la  [!DNL Target] solicitud. (TNT-35064)
 
 ## Versiones de at.js 2.3.1 (15 de junio de 2020)
 
 Esta versión de at.js es de mantenimiento e incluye las siguientes mejoras y correcciones:
 
 * Se ha hecho que la configuración `deviceIdLifetime` sea reemplazable mediante [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
-* Se ha corregido un problema que se producía al utilizar CNAME y la anulación de bordes, at.js 2.** xmay crea incorrectamente el dominio del servidor, lo que provoca que la  [!DNL Target] solicitud falle. (TNT-35065)
-* Se corrigió un problema al utilizar la extensión [!DNL Target] [!DNL Launch] v2 y la extensión [!DNL Adobe Analytics] [!DNL Launch], [!DNL Target] retrasaba la llamada [!DNL Analytics] `sendBeacon`. (TNT-36407, TNT-35990, TNT-36000)
+* Se ha corregido un problema que se producía al usar CNAME y la anulación de perímetros, at.js 2.** xpodría crear incorrectamente el dominio del servidor, lo que provocaba que fallara la  [!DNL Target] solicitud. (TNT-35065)
+* Se ha corregido un problema al usar la extensión [!DNL Target] [!DNL Launch] v2 y la extensión [!DNL Adobe Analytics] [!DNL Launch], [!DNL Target] retrasaba la llamada [!DNL Analytics] `sendBeacon`. (TNT-36407, TNT-35990, TNT-36000)
 
 ## Versión 2.3.0 de at.js (25 de marzo de 2020)
 
 Esta versión de at.js es de mantenimiento e incluye las siguientes mejoras y correcciones:
 
-* Compatibilidad con la configuración de las funciones de directiva de seguridad de contenido en las etiquetas SCRIPT y STYLE que se anexan al DOM de la página al aplicar ofertas de Destinatario entregadas. Los clientes pueden establecer `targetGlobalSettings.cspScriptNonce` y `targetGlobalSettings.cspStyleNonce` para que at.js pueda establecer las variables de etiqueta de estilo y secuencia de comandos correspondientes en ofertas aplicadas. Consulte [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) para obtener más información.
-* Se ha corregido un problema al compilar at.js con el compilador de Google Closure para la implementación del Administrador de etiquetas de Google.
-* Se cambió el nombre de la cookie de comprobación at.js de `check` a `at_check` para evitar conflictos con las implementaciones de los clientes.
+* Compatibilidad con la configuración de nonces de Content Security Policy en las etiquetas SCRIPT y STYLE añadidas al DOM de página al aplicar ofertas de Target entregadas. Los clientes pueden establecer `targetGlobalSettings.cspScriptNonce` y `targetGlobalSettings.cspStyleNonce` para que at.js pueda establecer las no ces de etiqueta de estilo y script correspondientes en las ofertas aplicadas. Consulte [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) para obtener más información.
+* Se ha corregido un problema al compilar at.js con el compilador de Google Closure para la implementación de Google Tag Manager.
+* Se ha cambiado el nombre de la cookie de comprobación de at.js de `check` a `at_check` para evitar conflictos con las implementaciones de los clientes.
 
 ## Versión 1.8.1 de at.js (25 de marzo de 2020)
 
 Esta versión de at.js es de mantenimiento e incluye las siguientes mejoras y correcciones:
 
-* Se cambió el nombre de la cookie de comprobación at.js de `check` a `at_check` para evitar conflictos con las implementaciones de los clientes.
+* Se ha cambiado el nombre de la cookie de comprobación de at.js de `check` a `at_check` para evitar conflictos con las implementaciones de los clientes.
 
 ## Versión 2.2.0 de at.js (10 de octubre de 2019)
 
 Esta versión de at.js incluye las siguientes mejoras y correcciones:
 
-* Se corrigió un problema en el cual el rastreo de clics no notificaba conversiones en Analytics para Destinatario (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de página.
-* Se ha mejorado el rendimiento al usar tanto el servicio de ID de Experience Cloud (ECID) v4.4 como at.js 2.2 en las páginas web.
+* Se ha corregido un problema por el cual el rastreo de clics no informaba de las conversiones en Analytics para Target (A4T) cuando el código de Adobe Analytics no estaba presente en los elementos de la página.
+* Se ha mejorado el rendimiento al usar el servicio de ID de Experience Cloud (ECID) 4.4 y at.js 2.2 en sus páginas web.
 * Anteriormente, el ECID realizaba dos llamadas de bloqueo antes de que at.js pudiera recuperar experiencias. Esto se ha reducido a una sola llamada, lo que mejora significativamente el rendimiento.
+* Se ha corregido un procesamiento incorrecto de la vista de recuperación previa, por el cual los tokens de evento de las ofertas predeterminadas no se incluían en las notificaciones enviadas.
 
    >[!NOTE]
    >
-   >Actualice ECID Launch Extension a v4.4 para aprovechar esta mejora de rendimiento.
+   >Actualice la extensión de Launch de ECID a la versión 4.4 para aprovechar esta mejora de rendimiento.
 
-* La versión 2.2 de at.js también proporciona una nueva configuración denominada `serverState`. Esta configuración se puede utilizar para optimizar el rendimiento de la página cuando se implementa una integración híbrida de Destinatario. La integración híbrida significa que se utiliza at.js v2.2+ en el cliente y la API de envío o un SDK de Destinatario en el servidor para ofrecer experiencias. `serverState` proporciona a at.js v2.2+ la capacidad de aplicar experiencias directamente desde el contenido recuperado en el servidor y devuelto al cliente como parte de la página que se está ofreciendo. Para obtener más información, consulte &quot;serverState&quot; en [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* La versión 2.2 de at.js también proporciona una nueva configuración denominada `serverState`. Esta configuración se puede utilizar para optimizar el rendimiento de la página cuando se implementa una integración híbrida de Target. La integración híbrida significa que está utilizando at.js v2.2 o posterior en el lado del cliente y la API de envío o un SDK de Target en el lado del servidor para ofrecer experiencias. `serverState` permite aplicar experiencias directamente desde el contenido recuperado en el servidor y devuelto al cliente como parte de la página que se está sirviendo. at.js v2.2+ Para obtener más información, consulte &quot;serverState&quot; en [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## Versión 1.8.0 de at.js (10 de octubre de 2019)
 
 Esta versión de at.js incluye las siguientes mejoras y correcciones:
 
-* Se ha mejorado el rendimiento al usar tanto el servicio de ID de Experience Cloud (ECID) v4.4 como at.js 1.8 en las páginas web.
+* Se ha mejorado el rendimiento al usar el servicio de ID de Experience Cloud (ECID) 4.4 y at.js 1.8 en sus páginas web.
 * Anteriormente, el ECID realizaba dos llamadas de bloqueo antes de que at.js pudiera recuperar experiencias. Esto se ha reducido a una sola llamada, lo que mejora significativamente el rendimiento.
 
 >[!NOTE]
 >
->Actualice ECID Launch Extension a v4.4 para aprovechar esta mejora de rendimiento.
+>Actualice la extensión de Launch de ECID a la versión 4.4 para aprovechar esta mejora de rendimiento.
 
 ## Versión 2.1.1 de at.js (24 de julio de 2019)
 
