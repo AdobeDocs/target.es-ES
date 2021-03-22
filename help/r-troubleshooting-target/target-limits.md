@@ -5,10 +5,10 @@ title: ¿Cuáles son los distintos caracteres, tamaños y otros límites de Adob
 feature: 'Resolución de problemas  '
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 64%
+source-wordcount: '1152'
+ht-degree: 60%
 
 ---
 
@@ -76,6 +76,8 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 ### Número de entidades
 
 * El número máximo de entidades a las que se puede hacer referencia en un diseño, tanto codificadas como mediante bucles, es de 99.
+* El límite recomendado para el mejor rendimiento es mantener el catálogo por debajo de 1 000 000 artículos por entorno y menos de 10 000 000 de artículos en todos los entornos.
+* El límite máximo es de 10 000 000 elementos por entorno y 100 000 000 elementos en todos los entornos. Si tiene entre 1000 000 y 10 000 000 elementos por entorno, el rendimiento de la interfaz de usuario de [!UICONTROL Búsqueda en catálogo] se ve afectado. [!DNL Target Recommendations]Sin embargo, sigue produciendo y formulando recomendaciones.
 
 ### Atributos personalizados de entidad
 
