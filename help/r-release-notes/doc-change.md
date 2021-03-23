@@ -4,9 +4,9 @@ description: Manténgase actualizado con importantes adiciones y cambios en la d
 title: ¿Dónde puedo ver las actualizaciones de documentación de Target?
 feature: ' Notas de la versión '
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '3866'
+source-wordcount: '3890'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ Esta página enumera los cambios significativos realizados en la documentación 
 | --- | --- | --- |
 | Marzo de 23 | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se han añadido las notas de la versión 2.4.1 de at.js. |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se han añadido las notas de la versión 2.4.1 de at.js. |
+|  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se ha actualizado la siguiente pregunta frecuente:<ul><li>¿Cuánto tiempo tardan las actualizaciones de los artículos de mi catálogo en reflejarse en mi sitio?</li></ul> |
 | Marzo de 22 | [Direcciones IP que usan los servidores de procesamiento de fuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Se ha actualizado la lista de direcciones IP. |
 |  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado la sección &quot;Número de entidades&quot; en &quot;Entidades&quot;. |
 |  | [Ubicación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md) | Se ha añadido información sobre at.js 2.** xunder &quot;¿Cómo puedo probar mis actividades si soy un usuario de una ubicación diferente?&quot; |
