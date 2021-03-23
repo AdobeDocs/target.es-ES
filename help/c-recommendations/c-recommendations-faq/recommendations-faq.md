@@ -1,13 +1,13 @@
 ---
 keywords: solución de problemas;preguntas más frecuentes;FAQ;recomendaciones;caracteres especiales;ponderación de atributos;similitud de contenido
-description: Vea una lista de las preguntas más frecuentes y las respuestas sobre las actividades de Recommendations de Adobe Target.
-title: ¿Dónde puedo encontrar preguntas y respuestas sobre Recomendaciones de Target?
+description: Vea una lista de las preguntas más frecuentes y las respuestas sobre las actividades de Adobe Target Recommendations.
+title: ¿Dónde puedo encontrar preguntas y respuestas sobre Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: e4d7f9d6bd42343c5c5e591853a4fc70d1f49ee7
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 57%
+source-wordcount: '2320'
+ht-degree: 48%
 
 ---
 
@@ -24,7 +24,43 @@ Actualmente, no hay ninguna funcionalidad disponible que permita a los clientes 
 
 ## ¿Cuánto tiempo tardan las actualizaciones de los artículos de mi catálogo en reflejarse en mi sitio?
 
-Tras importar un archivo de fuente o recibir actualizaciones de entidad mediante API o mbox, los cambios siguientes se reflejarán en menos de 60 minutos:
+El lapso de tiempo y los resultados varían en función de cómo se actualicen los elementos.
+
+### Atributos de elemento actualizados mediante mbox o API
+
+* Recommendations se actualiza en 15 minutos.
+* Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.
+* La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).
+
+### Atributos de elemento actualizados a través de la fuente
+
+* Recommendations se actualiza después de la ingesta de fuentes (de 2 a 8 horas).
+* Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.
+* La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (2-8 horas) y después del siguiente índice de catálogo (3-8 horas). La búsqueda en el catálogo se actualiza normalmente en un total de 5-16 horas.
+
+### Elemento eliminado del catálogo a través de la interfaz de usuario o la API de Target
+
+* Recommendations se actualiza en 15 minutos.
+* Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.
+* La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).
+
+### Elemento añadido al catálogo mediante mbox o API
+
+* Recommendations se actualiza después de ejecutar el algoritmo. Las ejecuciones de algoritmos se programan cada 12 horas para algoritmos de 1 a 2 días y cada 24 horas para algoritmos de más de 7 días.
+* Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.
+* Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.
+* La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).
+
+### Elemento añadido al catálogo mediante fuente
+
+* Recommendations se actualiza después de ingerir la fuente (de 2 a 8 horas). Las ejecuciones de algoritmos posteriores se programan cada 12 horas para algoritmos de 1 a 2 días y cada 24 horas para algoritmos de más de 7 días. Recommendations se actualiza normalmente en un plazo total de 2 a 32 horas.
+* Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.
+* Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.
+* La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (2-8 horas) y después del índice del catálogo (3-8 horas). La búsqueda en el catálogo se actualiza normalmente en un total de 5-16 horas.
+
+### Cambios adicionales
+
+Después de importar un archivo de fuente o de recibir actualizaciones de entidad mediante API o mbox, los cambios siguientes se reflejan en menos de 60 minutos:
 
 * Atributos de elemento que se devuelven en la plantilla Diseño.
 * Atributos de elemento utilizados en reglas de exclusión globales que impiden que el elemento se incluya en las recomendaciones devueltas.
@@ -141,7 +177,7 @@ Target impone a las publicaciones un límite de 50 MB en el nivel de aplicación
 
 Bien podría probar enviar 50 000 productos en una sola llamada. Si falla, puede dividirlo en lotes. Adobe recomienda que los clientes dividan sus llamadas en lotes de productos de 5000 o 10 000 para reducir la probabilidad de un tiempo de espera debido a la carga del sistema.
 
-## ¿Debo especificar el nombre del mbox al crear en Recommendations criterios, promociones o reglas de prueba de plantillas? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## ¿Debo especificar el nombre del mbox al crear criterios, promociones o reglas de prueba de plantillas de Recommendations? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Cuando se crean en Recommendations criterios, promociones o reglas de prueba de plantilla basadas en un parámetro de mbox, `mboxParameter` ya no le solicita `mboxName`. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro.
 
@@ -160,7 +196,7 @@ Asegúrese de que la audiencia tiene un nombre único. Si le dio a la audiencia 
 
 ## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente?   {#section_20F1AF4839A447B9889B246D6E873538}
 
-No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, Adobe recomienda limitar el tamaño del archivo CSV a 1 GB para evitar fallos durante el proceso de carga del archivo. Si el tamaño del archivo supera los 1 GB, lo ideal es que se pueda dividir en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la [página Limitaciones de Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, Adobe recomienda limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo supera los 1 GB, lo ideal es que se pueda dividir en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la [página Limitaciones de Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## ¿Puedo excluir dinámicamente una entidad? {#exclude}
 
