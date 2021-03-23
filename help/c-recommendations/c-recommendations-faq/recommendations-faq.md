@@ -4,10 +4,10 @@ description: Vea una lista de las preguntas más frecuentes y las respuestas sob
 title: ¿Dónde puedo encontrar preguntas y respuestas sobre Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
 workflow-type: tm+mt
-source-wordcount: '2320'
-ht-degree: 48%
+source-wordcount: '2377'
+ht-degree: 45%
 
 ---
 
@@ -26,45 +26,21 @@ Actualmente, no hay ninguna funcionalidad disponible que permita a los clientes 
 
 El lapso de tiempo y los resultados varían en función de cómo se actualicen los elementos.
 
-### Atributos de elemento actualizados mediante mbox o API
-
-* Recommendations se actualiza en 15 minutos.
-* Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.
-* La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).
-
-### Atributos de elemento actualizados a través de la fuente
-
-* Recommendations se actualiza después de la ingesta de fuentes (de 2 a 8 horas).
-* Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.
-* La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (2-8 horas) y después del siguiente índice de catálogo (3-8 horas). La búsqueda en el catálogo se actualiza normalmente en un total de 5-16 horas.
-
-### Elemento eliminado del catálogo a través de la interfaz de usuario o la API de Target
-
-* Recommendations se actualiza en 15 minutos.
-* Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.
-* La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).
-
-### Elemento añadido al catálogo mediante mbox o API
-
-* Recommendations se actualiza después de ejecutar el algoritmo. Las ejecuciones de algoritmos se programan cada 12 horas para algoritmos de 1 a 2 días y cada 24 horas para algoritmos de más de 7 días.
-* Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.
-* Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.
-* La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).
-
-### Elemento añadido al catálogo mediante fuente
-
-* Recommendations se actualiza después de ingerir la fuente (de 2 a 8 horas). Las ejecuciones de algoritmos posteriores se programan cada 12 horas para algoritmos de 1 a 2 días y cada 24 horas para algoritmos de más de 7 días. Recommendations se actualiza normalmente en un plazo total de 2 a 32 horas.
-* Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.
-* Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.
-* La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (2-8 horas) y después del índice del catálogo (3-8 horas). La búsqueda en el catálogo se actualiza normalmente en un total de 5-16 horas.
-
-### Cambios adicionales
+| Fuente | Detalles |
+| --- | --- |
+| Atributos de elemento actualizados mediante mbox o API | <ul><li>Recommendations se actualiza en 15 minutos.</li><li>Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.</li><li>La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).</li></ul> |
+| Atributos de elemento actualizados a través de la fuente | <ul><li>Recommendations se actualiza después de la ingesta de fuentes (de 2 a 8 horas).</li><li>Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.</li><li>La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (2-8 horas) y después del siguiente índice de catálogo (3-8 horas). La búsqueda en el catálogo se actualiza normalmente en un total de 5-16 horas.</li></ul> |
+| Elemento eliminado del catálogo a través de la interfaz de usuario o la API de Target | <ul><li>Recommendations se actualiza en 15 minutos.</li><li>Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.</li><li>La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).</li></ul> |
+| Elemento añadido al catálogo mediante mbox o API | <ul><li>Recommendations se actualiza después de ejecutar el algoritmo. Las ejecuciones de algoritmos se programan cada 12 horas para algoritmos de 1 a 2 días y cada 24 horas para algoritmos de más de 7 días.</li><li>Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.</li><li>Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.</li><li>La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).</li></ul> |
+| Elemento añadido al catálogo mediante fuente | <ul><li>Recommendations se actualiza después de ingerir la fuente (de 2 a 8 horas). Las ejecuciones de algoritmos posteriores se programan cada 12 horas para algoritmos de 1 a 2 días y cada 24 horas para algoritmos de más de 7 días. Recommendations se actualiza normalmente en un plazo total de 2 a 32 horas.</li><li>Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.</li><li>Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.</li><li>La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (2-8 horas) y después del índice del catálogo (3-8 horas). La búsqueda en el catálogo se actualiza normalmente en un total de 5-16 horas.</li></ul> |
 
 Después de importar un archivo de fuente o de recibir actualizaciones de entidad mediante API o mbox, los cambios siguientes se reflejan en menos de 60 minutos:
 
-* Atributos de elemento que se devuelven en la plantilla Diseño.
-* Atributos de elemento utilizados en reglas de exclusión globales que impiden que el elemento se incluya en las recomendaciones devueltas.
-* Atributos de elemento utilizados en reglas de inclusión dentro de los criterios que afectan si el elemento se incluye o se excluye en las recomendaciones devueltas.
+* Si un elemento se ha excluido anteriormente pero ahora debe incluirse, el elemento se incluirá en la próxima ejecución del algoritmo (de 12 a 24 horas).
+
+   Esto ocurre porque Target aplica exclusiones en línea y sin conexión. Cuando se excluye un elemento recientemente, la exclusión en línea se aplica rápidamente. Cuando se incluye un elemento recientemente, la exclusión en línea desaparece rápidamente, pero la exclusión sin conexión no desaparece hasta que se ejecuta el siguiente algoritmo.
+
+* Si un elemento se ha incluido anteriormente pero ahora debe excluirse, el elemento se excluirá por los &quot;Atributos de elemento actualizados...&quot;. línea de tiempo analizada anteriormente en función de la fuente (15 minutos a través de mbox/API o de 12 a 24 horas a través de la fuente).
 
 Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritmo (en 12-24 horas):
 
