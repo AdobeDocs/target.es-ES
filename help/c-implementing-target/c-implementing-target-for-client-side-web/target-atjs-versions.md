@@ -5,9 +5,9 @@ title: ¿Qué se incluye en cada versión de at.js?
 feature: 'at.js '
 role: Desarrollador
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
 workflow-type: tm+mt
-source-wordcount: '4159'
+source-wordcount: '4150'
 ht-degree: 82%
 
 ---
@@ -29,7 +29,6 @@ Esta versión de at.js es de mantenimiento e incluye las siguientes mejoras y co
 
 * Se ha corregido un problema con targetPageParams que se incluía en las solicitudes de mbox. targetPageParams debe incluirse únicamente en las solicitudes pageLoad. (TNT-40247)
 * Se han optimizado las globalizaciones de ventana y documento que hacen referencia a en la extensión [!DNL Adobe Experience Platform Launch]. (TNT-37124)
-* Se han actualizado las dependencias de compilación y prueba para corregir las vulnerabilidades de seguridad.
 
 ## at.js 2.4.0 (14 de enero de 2021)
 
