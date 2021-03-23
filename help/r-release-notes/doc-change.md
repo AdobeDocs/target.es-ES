@@ -4,9 +4,9 @@ description: Manténgase actualizado con importantes adiciones y cambios en la d
 title: ¿Dónde puedo ver las actualizaciones de documentación de Target?
 feature: ' Notas de la versión '
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3848'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,10 @@ Esta página enumera los cambios significativos realizados en la documentación 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Marzo de 22 | [Direcciones IP que usan los servidores de procesamiento de fuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Se ha actualizado la lista de direcciones IP. |
+|  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado la sección &quot;Número de entidades&quot; en &quot;Entidades&quot;. |
+|  | [Ubicación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md) | Se ha añadido información sobre at.js 2.** xunder &quot;¿Cómo puedo probar mis actividades si soy un usuario de una ubicación diferente?&quot; |
+|  | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.2.1 | Se ha añadido la siguiente sección: <ul><li>Cambios en las direcciones IP de los servidores de procesamiento de fuentes de Recommendations (16 de marzo de 2021)</li></ul> |
 | Marzo de 19 | [Visualización de informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Se ha añadido la siguiente pregunta frecuente: <ul><li>¿Por qué sigo viendo más impresiones después de desactivar mi actividad?</li></ul> |
 | Marzo de 12 | [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Se ha añadido el siguiente tutorial nuevo:<ul><li>Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática</li></ul> |
 | Marzo de 9 | [Límites](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Se han actualizado los límites de tamaño de oferta permitidos.</li><li>Se ha corregido el límite de caracteres del parámetro categoryId.</li></ul> |
