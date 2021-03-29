@@ -4,9 +4,9 @@ description: Manténgase actualizado con importantes adiciones y cambios en la d
 title: ¿Dónde puedo ver las actualizaciones de documentación de Target?
 feature: ' Notas de la versión '
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3911'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ Esta página enumera los cambios significativos realizados en la documentación 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Marzo de 29 | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Se ha añadido una nueva pregunta frecuente:<ul><li>¿Las recomendaciones basadas en artículos vistos recientemente persisten en varios dispositivos para un único visitante?</li></ul> |
 | Marzo de 23 | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se han añadido las notas de la versión 2.4.1 de at.js. |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se han añadido las notas de la versión 2.4.1 de at.js. |
 |  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se ha actualizado la siguiente pregunta frecuente:<ul><li>¿Cuánto tiempo tardan las actualizaciones de los artículos de mi catálogo en reflejarse en mi sitio?</li></ul> |
