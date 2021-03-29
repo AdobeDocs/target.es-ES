@@ -4,10 +4,10 @@ description: Vea una lista de las preguntas más frecuentes y las respuestas sob
 title: ¿Dónde puedo encontrar preguntas y respuestas sobre Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 45%
+source-wordcount: '2694'
+ht-degree: 40%
 
 ---
 
@@ -40,7 +40,7 @@ Después de importar un archivo de fuente o de recibir actualizaciones de entida
 
    Esto ocurre porque Target aplica exclusiones en línea y sin conexión. Cuando se excluye un elemento recientemente, la exclusión en línea se aplica rápidamente. Cuando se incluye un elemento recientemente, la exclusión en línea desaparece rápidamente, pero la exclusión sin conexión no desaparece hasta que se ejecuta el siguiente algoritmo.
 
-* Si un elemento se ha incluido anteriormente pero ahora debe excluirse, el elemento se excluirá por los &quot;Atributos de elemento actualizados...&quot;. línea de tiempo analizada anteriormente en función de la fuente (15 minutos a través de mbox/API o de 12 a 24 horas a través de la fuente).
+* Si un elemento se incluyó anteriormente pero ahora debe excluirse, el elemento se excluye por los atributos de elemento actualizados... línea de tiempo analizada anteriormente en función de la fuente (15 minutos a través de mbox/API o de 12 a 24 horas a través de la fuente).
 
 Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritmo (en 12-24 horas):
 
@@ -209,4 +209,19 @@ NO_CONTENT se devuelve cuando las recomendaciones no están disponibles para la 
 * El procesamiento parcial de la plantilla está deshabilitado y no hay suficientes resultados disponibles para rellenarla.
 
    Esta situación suele ocurrir cuando se tiene una regla de inclusión dinámica, que filtra de forma agresiva muchos elementos de los posibles resultados. Para evitar situaciones, habilite las copias de seguridad y no aplique la regla de inclusión a las copias de seguridad, o utilice los criterios en secuencia con criterios filtrados de manera menos agresiva.
+
+## ¿Las recomendaciones basadas en artículos vistos recientemente persisten en varios dispositivos para un único visitante? {#persist-across-devices}
+
+Cuando un visitante inicia una sesión, el ID de sesión está vinculado a un solo equipo Edge y se almacena una caché de perfiles temporal en este equipo Edge. Las solicitudes posteriores de la misma sesión leen esta caché de perfil, incluidos los artículos vistos recientemente.
+
+Cuando finaliza la sesión (normalmente, cuando caduca después de 30 minutos sin actividad), el estado de la sesión, incluidos los artículos vistos recientemente, se persiste en un almacenamiento de perfiles más permanente en el mismo perímetro geográfico.
+
+Las sesiones posteriores de distintos dispositivos pueden acceder a estos elementos vistos recientemente, siempre que la nueva sesión esté vinculada al perfil del cliente mediante el mismo ID de Marketing Cloud (MCID), ID de Experience Cloud (ECID) o CustomerID/mbox3rdPartyId.
+
+Si un visitante tiene dos sesiones activas al mismo tiempo, los artículos vistos recientemente en un dispositivo no actualizan los artículos vistos recientemente en el otro dispositivo, a menos que los dispositivos se vean obligados a compartir el mismo ID de sesión. Existe una solución alternativa para el problema, pero [!DNL Target] no admite directamente el uso compartido de un ID de sesión entre varios dispositivos. El cliente debe administrar por sí mismo este uso compartido de ID.
+
+Tenga en cuenta que este comportamiento sigue ocurriendo si un visitante está activo en un dispositivo y luego se activa en el otro dispositivo unos minutos después. La primera sesión del dispositivo no caduca durante 30 minutos y puede haber hasta cinco minutos de retraso antes de que el estado del perfil se escriba en el estado permanente y se procese. Espere 35 minutos para que la sesión caduque y el perfil se almacene al probar este comportamiento.
+
+Si el visitante no tiene dos sesiones activas al mismo tiempo, los artículos vistos recientemente en un dispositivo actualizarán los artículos vistos recientemente en el otro dispositivo siempre y cuando la sesión haya finalizado. Espere 35 minutos para que la sesión caduque al probar este comportamiento.
+
 
