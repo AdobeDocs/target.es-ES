@@ -4,10 +4,10 @@ description: Vea una lista de direcciones IP que se usan en los servidores de pr
 title: ¿Qué direcciones IP utilizan los servidores de procesamiento de fuentes de Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
+source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -16,21 +16,15 @@ ht-degree: 10%
 
 Lista de direcciones IP utilizadas en los servidores de procesamiento de fuentes [!DNL Adobe Target] [!DNL Recommendations] para ayudarle a configurar el firewall de modo que permita las direcciones IP procedentes de los servidores de Adobe.
 
-[!DNL Target]  Las actividades de Recommendations utilizan las siguientes direcciones IP al acceder a los servidores FTP de los clientes:
+[!DNL Target]  Las actividades de Recommendations utilizan los siguientes hosts de AWS al acceder a los servidores FTP de los clientes:
 
-44 241 237 28
+| Ubicación | Host |
+| --- | --- |
+| Oregón | `44.241.237.28` |
+| Oregón | `44.232.167.82` |
+| Oregón | `52.41.252.205` |
 
-44 232 167 82
-
-52.41.252.205
-
-[!DNL Target]  Las API de Recommendations utilizan las siguientes direcciones IP:
-
-44 241 237 28
-
-44 232 167 82
-
-52.41.252.205
+[!DNL Target]  Las API de Recommendations también utilizan los mismos hosts de AWS.
 
 >[!NOTE]
 >
