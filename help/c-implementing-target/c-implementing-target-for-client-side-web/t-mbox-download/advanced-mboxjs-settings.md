@@ -1,17 +1,17 @@
 ---
 keywords: configuración avanzada de mbox.js;cliente;dominio del servidor;dominio x;nivel de compresión;compatibilidad con id de sesión de cliente;secureOnly;compatibilidad con id de pc de cliente;pasar página;url de referencia;nivel de tráfico;duración del tráfico;cuerpo de función mboxParameters();cuerpo de función mboxSupported();cuerpo de función mboxCookieDomain();JavaScript adicional;complemento de SiteCatalyst;Obtener mbox.js como JavaScript autoextraíble;parpadeo;ocultamiento de cuerpo;ocultar cuerpo
-description: Obtenga información sobre la implementación heredada de mbox.js de Adobe Target. Migrar al SDK web de Adobe Experience Platform (AEP Web SDK) o a la versión más reciente de at.js.
-title: ¿Cómo configuro la biblioteca mbox.js de Destinatario?
-feature: at.js
-role: Developer
+description: Obtenga información sobre la implementación de mbox.js heredada de Adobe Target. Migrar al SDK web de Adobe Experience Platform (SDK web de AEP) o a la versión más reciente de at.js.
+title: ¿Cómo configuro la biblioteca mbox.js de Target?
+feature: 'at.js '
+role: Desarrollador
+exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 70%
+source-wordcount: '474'
+ht-degree: 71%
 
 ---
-
 
 # Configurar mbox.js
 
@@ -19,9 +19,9 @@ Información para definir varias configuraciones en la página Configuración de
 
 >[!IMPORTANT]
 >
->**Fin de vida útil** de mbox.js: El 31 de marzo de 2021 ya no  [!DNL Adobe Target] admitirá la biblioteca mbox.js. Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js generarán errores e impactarán en las páginas que tengan [!DNL Target] actividades ejecutándose al proporcionar contenido predeterminado.
+>**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js producirán errores y afectarán a las páginas que tengan actividades [!DNL Target] ejecutándose al servir contenido predeterminado.
 >
->Se recomienda que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o a la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implemente Destinatario para la Web del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Recomendamos que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 La configuración predeterminada de la biblioteca de funciones [!DNL mbox.js] cubre las necesidades de prácticamente todos los clientes de [!DNL Target].
 
@@ -33,13 +33,13 @@ Las configuraciones disponibles son las siguientes:
 
 El código de cliente de la cuenta.
 
-Al ver [!UICONTROL Administración > Implementación], el cliente en la parte superior es el código de cliente de su cuenta.
+Al ver [!UICONTROL Administración > Implementación], el Cliente en la parte superior es el código de cliente para la cuenta.
 
 ## Tiempo de espera
 
 El tiempo de espera de solicitud de Target.
 
-Al ver [!UICONTROL Administración > Implementación], la configuración Tiempo de espera (segundos) es el tiempo de espera de la solicitud de Destinatario. De forma predeterminada, este valor es de 15 segundos, pero se recomienda establecerlo entre 2 y 5 segundos.
+Al ver [!UICONTROL Administración > Implementación], el tiempo de espera (en segundos) es el tiempo de espera de la solicitud de Target. De forma predeterminada, este valor es de 15 segundos, pero se recomienda establecerlo entre 2 y 5 segundos.
 
 ## XDomain
 
