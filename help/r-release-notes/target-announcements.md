@@ -3,27 +3,27 @@ keywords: anuncios;generador de habilidades;chat de desarrollador;pausa para caf
 description: Lea los anuncios y regístrese en eventos de Adobe Target, incluidas las sesiones de Generador de habilidades, charlas con desarrolladores y gestores de productos, seminarios web y mucho más.
 title: ¿Dónde puedo encontrar anuncios y eventos de Target?
 feature: ' Notas de la versión '
+exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
 
-
 # Anuncios y eventos de Target
 
-Anuncios e información sobre próximos eventos, incluidas las sesiones de Adobe Target Skills Builder, charlas para desarrolladores, seminarios web y sesiones de Target Coffee Break.
+Anuncios e información sobre próximos eventos, incluidas sesiones de Adobe Target Skills Builder, charlas para desarrolladores, seminarios web y sesiones de Target Coffee Break.
 
 ## Reconocimiento para Adobe Target
 
-Recientemente, Forrester y Gartner reconocieron a Adobe Target como líder del mercado.
+Adobe Target fue reconocido recientemente por Forrester y Gartner como líder del mercado.
 
 | Servicio de investigación | Detalles |
 | --- | --- |
-| Forrester | **Adobe ha nombrado líder en el informe de oleadas de Forrester para plataformas de optimización de experiencias.**<br> Adobe fue nombrado líder en la ola Forrester: Plataformas de optimización de experiencia, informe del cuarto trimestre de 2020 sobre su oferta en este espacio, Adobe Target Premium. Adobe recibió la puntuación más alta de todos los proveedores participantes en las categorías de oferta actual y presencia en el mercado, así como en las recomendaciones y los criterios de experiencia de la plataforma. Target Premium también obtuvo la máxima puntuación posible en los criterios de innovación en las técnicas de optimización de experiencia y servicios de soporte. El informe se basa en una evaluación exhaustiva de 10 proveedores de plataformas de optimización de experiencias según 22 criterios.<br>Puede leerlo en el blog de  [Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
-| Gartner | **Adobe ha vuelto a denominar Leader in Gartner Magic Quadrant (Cuadrante mágico de Gartner) para motores de personalización.**<br> Una vez más, Adobe recibió el nombre de líder en el tercer cuadrante mágico de Gartner para motores de personalización, 2020. El Cuadrante mágico de Gartner para motores de personalización evaluó a los proveedores en 15 criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución.<br>[Puede leerlo en el blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/) de Adobe. |
+| Forrester | **Adobe denominado Leader in Forrester wave report for experience optimization platform.**<br> Adobe fue nombrado líder en la ola Forrester: Plataformas de optimización de experiencia, informe del cuarto trimestre de 2020 sobre su oferta en este espacio, Adobe Target Premium. El Adobe recibió la puntuación más alta de todos los proveedores participantes en las categorías de oferta y presencia en el mercado actuales, así como en las recomendaciones y los criterios de experiencia en la plataforma. Target Premium también obtuvo la máxima puntuación posible en los criterios de innovación en las técnicas de optimización de experiencia y servicios de soporte. El informe se basa en una evaluación exhaustiva de 10 proveedores de plataformas de optimización de experiencias según 22 criterios.<br>Lee al respecto en el blog  [Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
+| Gartner | **Adobe de nuevo nombró a un líder en el Cuadrante Mágico de Gartner para motores de personalización.**<br> Una vez más, Adobe fue nombrado líder en el tercer cuadrante mágico de Gartner para motores de personalización, informe de 2020. El Cuadrante mágico de Gartner para motores de personalización evaluó a los proveedores en 15 criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución.<br>[Lee al respecto en The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
 ## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de Adobe Target
 
@@ -41,7 +41,7 @@ McKinsey Digital informa que &quot;hemos avanzado cinco años en la adopción di
 
 Las demandas de los consumidores evolucionan rápidamente, y HSBC ha adoptado la optimización con Adobe Target para probar y personalizar rápidamente los nuevos recorridos de los clientes, lo que reduce el desarrollo y los lanzamientos de 6 meses a 1 semana.
 
-Únase a Adobe y HSBC en este seminario web para obtener más información:
+Únase a Adobe y HSBC en este seminario web para aprender:
 
 * Cómo los esfuerzos de optimización y personalización de HSBC impulsan cambios rápidos en la organización
 * Cómo AI y Analytics aceleran sus esfuerzos y proporcionan un impacto comercial claro y significativo
@@ -49,8 +49,8 @@ Las demandas de los consumidores evolucionan rápidamente, y HSBC ha adoptado la
 
 *Artículo de McKinsey: &quot;[La recuperación de COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, mayo de 2020
 
-## Generador de habilidades de Adobe Target: Chat del desarrollador, migre el mbox.js de Adobe Target a at.js {#skill-builder}
+## Adobe Target Skills Builder: Chat del desarrollador, migre mbox.js de Adobe Target a at.js {#skill-builder}
 
-Con la próxima desaprobación de mbox.js el 31 de marzo de 2021, David Son, administrador de productos de Adobe Target, organizó recientemente un chat para desarrolladores con el fin de analizar las ventajas de migrar mbox.js a at.js.
+Con la desaprobación de mbox.js el 31 de marzo de 2021, David Son, administrador de productos de Adobe Target, organizó recientemente un chat para desarrolladores con el fin de analizar las ventajas de migrar mbox.js a at.js.
 
 * **[Vea la grabación del seminario web aquí](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
