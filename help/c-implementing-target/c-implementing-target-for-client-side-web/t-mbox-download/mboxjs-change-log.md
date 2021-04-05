@@ -1,17 +1,17 @@
 ---
 keywords: cambios de mbox.js;versiones de mbox.js
-description: Obtenga información sobre la implementación heredada de mbox.js de Adobe Target. Migrar al SDK web de Adobe Experience Platform (AEP Web SDK) o a la versión más reciente de at.js.
+description: Obtenga información sobre la implementación de mbox.js heredada de Adobe Target. Migrar al SDK web de Adobe Experience Platform (SDK web de AEP) o a la versión más reciente de at.js.
 title: ¿Qué se incluye en cada versión de mbox.js?
-feature: at.js
-role: Developer
+feature: 'at.js '
+role: Desarrollador
+exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2422'
 ht-degree: 94%
 
 ---
-
 
 # Detalles de la versión de mbox.js{#mbox-js-version-details}
 
@@ -19,9 +19,9 @@ Esta página muestra cambios realizados a cada versión de mbox.js.
 
 >[!IMPORTANT]
 >
->**Fin de vida útil** de mbox.js: El 31 de marzo de 2021 ya no  [!DNL Adobe Target] admitirá la biblioteca mbox.js. Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js generarán errores e impactarán en las páginas que tengan [!DNL Target] actividades ejecutándose al proporcionar contenido predeterminado.
+>**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js producirán errores y afectarán a las páginas que tengan actividades [!DNL Target] ejecutándose al servir contenido predeterminado.
 >
->Se recomienda que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o a la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implemente Destinatario para la Web del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Recomendamos que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Se han realizado los siguientes cambios en esta versión:
 
 * La respuesta de mbox global creada automáticamente para Target Standard ya no usa document.write() ni crea un `<div>` element.
 
-   Esto elimina el requisito de que el archivo mbox.js sea el último elemento de la `<head>` página. Se recomienda un exhaustivo control de calidad al actualizar a esta nueva versión.
+   De este modo, no es necesario que el archivo mbox.js sea el último elemento de la `<head>` página. Se recomienda un exhaustivo control de calidad al actualizar a esta nueva versión.
 
    Este cambio podría modificar el comportamiento a la hora de entregar algunos tipos de ofertas. Estas son las condiciones específicas que se deberán tener en cuenta:
 
