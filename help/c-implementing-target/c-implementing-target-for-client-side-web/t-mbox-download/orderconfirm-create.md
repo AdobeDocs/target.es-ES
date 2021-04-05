@@ -1,17 +1,17 @@
 ---
 keywords: confirmación de pedido;orderConfirmPage
-description: Obtenga información sobre la implementación heredada de mbox.js de Adobe Target. Migrar al SDK web de Adobe Experience Platform (AEP Web SDK) o a la versión más reciente de at.js.
+description: Obtenga información sobre la implementación de mbox.js heredada de Adobe Target. Migrar al SDK web de Adobe Experience Platform (SDK web de AEP) o a la versión más reciente de at.js.
 title: ¿Cómo se crea un mbox de confirmación de pedido con mbox.js?
-feature: at.js
-role: Developer
+feature: 'at.js '
+role: Desarrollador
+exl-id: 952c2d1b-1ee8-4e9b-bce3-1c439127bb9b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 58%
+source-wordcount: '376'
+ht-degree: 59%
 
 ---
-
 
 # Crear un mbox de confirmación de pedido: mbox.js
 
@@ -19,19 +19,19 @@ El mbox de confirmación de pedido registra los detalles de los pedidos que se r
 
 >[!IMPORTANT]
 >
->**Fin de vida útil** de mbox.js: El 31 de marzo de 2021 ya no  [!DNL Adobe Target] admitirá la biblioteca mbox.js. Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js generarán errores e impactarán en las páginas que tengan [!DNL Target] actividades ejecutándose al proporcionar contenido predeterminado.
+>**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js producirán errores y afectarán a las páginas que tengan actividades [!DNL Target] ejecutándose al servir contenido predeterminado.
 >
->Se recomienda que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o a la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implemente Destinatario para la Web del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Recomendamos que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 >[!NOTE]
 >
 >* Si los usuarios realizan compras en su sitio web, le recomendamos que implemente un mbox de confirmación de pedido aunque use los informes de Analytics para Target (A4T).
    >
    >
-* También puede crear un mbox de confirmación de pedido para at.js 1.** utilizando el mismo método; sin embargo, se prefiere el  [!DNL at.js] método. Para obtener más información, consulte [Conversiones de seguimiento](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* También puede crear un mbox de confirmación de pedido para at.js 1.** utilizando el mismo método; sin embargo, se prefiere el  [!DNL at.js] método . Para obtener más información, consulte [Conversiones de seguimiento](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
    >
    >
-* Si está utilizando at.js 2.*x*, ya no  `mboxCreate` se admite. Para la confirmación de pedidos con at.js 2.*x*, utilice las siguientes API relacionadas con el seguimiento:  [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) y  [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+* Si utiliza at.js 2.*x*, ya no  `mboxCreate` es compatible. Para la confirmación de pedido con at.js 2.*x*, utilice las siguientes API relacionadas con el seguimiento:  [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) y  [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 
 1. En la página de detalles del pedido, inserte el script de mbox siguiendo el modelo que aparece a continuación.
