@@ -1,16 +1,16 @@
 ---
-keywords: preguntas frecuentes;faq;analytics para target;segmentos;a4T;compartir informes
-description: Encuentre preguntas más frecuentes sobre el uso compartido de métricas, audiencias e informes al usar Analytics para Destinatario (A4T). A4T le permite utilizar Analytics sistema de informes para actividades de Adobe Target.
-title: ¿Dónde se pueden encontrar preguntas más frecuentes que compartan métricas, Audiencias e informes en A4T?
+keywords: Preguntas Más Frecuentes, Preguntas Más Frecuentes, Analytics Para Target, Segmentos, A4T, Compartir Informes
+description: Encuentre preguntas más frecuentes sobre cómo compartir métricas, audiencias e informes al usar Analytics for Target (A4T). A4T le permite utilizar los informes de Analytics para actividades de Adobe Target.
+title: ¿Dónde se encuentran las preguntas más frecuentes sobre el uso compartido de métricas, audiencias e informes en A4T?
 feature: Analytics for Target (A4T)
+exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 7546db1b78825b969f5639b26c0d6a3e5319dd3a
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 70%
+source-wordcount: '254'
+ht-degree: 66%
 
 ---
-
 
 # Compartir métricas, audiencias e informes: preguntas más frecuentes sobre A4T{#share-metrics-audiences-and-reports-a-t-faq}
 
@@ -26,4 +26,4 @@ Para obtener más información, consulte [Administrador de marcadores](https://e
 
 Si usa segmentos y métricas especiales con una prueba, quizá le convenga crear un grupo de usuarios para el equipo de optimización. Comparta esos segmentos y métricas con el grupo en lugar de con miembros concretos, así se asegura de que todos tengan acceso a los segmentos y a las métricas. Solo los administradores pueden compartir contenido con los grupos.
 
-Consulte [Uso compartido de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) y [Uso compartido de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+Consulte [Compartir segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) y [Compartir métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
