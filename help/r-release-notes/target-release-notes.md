@@ -5,10 +5,10 @@ title: ¿Qué nuevas funciones se incluyen en la próxima versión?
 feature: ' Notas de la versión '
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 22%
+source-wordcount: '432'
+ht-degree: 23%
 
 ---
 
@@ -24,7 +24,7 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 >
 >**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js producirán errores y afectarán a las páginas que tengan actividades [!DNL Target] ejecutándose al servir contenido predeterminado.
 >
->Adobe recomienda que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migrar a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar problemas potenciales con sus sitios. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 ## Target Standard/Premium 21.2.1 (9 de marzo de 2021). 
 
