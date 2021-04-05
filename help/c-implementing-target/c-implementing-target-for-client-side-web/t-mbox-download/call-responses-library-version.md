@@ -1,16 +1,16 @@
 ---
-description: Obtenga información sobre la implementación heredada de mbox.js de Adobe Target. Migrar al SDK web de Adobe Experience Platform (AEP Web SDK) o a la versión más reciente de at.js.
+description: Obtenga información sobre la implementación de mbox.js heredada de Adobe Target. Migrar al SDK web de Adobe Experience Platform (SDK web de AEP) o a la versión más reciente de at.js.
 title: ¿Qué métodos de página utiliza mbox.js?
-feature: at.js
-role: Developer
+feature: 'at.js '
+role: Desarrollador
+exl-id: a0f7b956-7855-4165-b34c-33d81a8fac55
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '931'
 ht-degree: 88%
 
 ---
-
 
 # Métodos de página de Target por versión de biblioteca mbox.js{#target-page-methods-by-mbox-js-library-version}
 
@@ -18,9 +18,9 @@ La manera en que Target hace y responde llamadas desde la página depende de la 
 
 >[!IMPORTANT]
 >
->**Fin de vida útil** de mbox.js: El 31 de marzo de 2021 ya no  [!DNL Adobe Target] admitirá la biblioteca mbox.js. Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js generarán errores e impactarán en las páginas que tengan [!DNL Target] actividades ejecutándose al proporcionar contenido predeterminado.
+>**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js producirán errores y afectarán a las páginas que tengan actividades [!DNL Target] ejecutándose al servir contenido predeterminado.
 >
->Se recomienda que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o a la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implemente Destinatario para la Web del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Recomendamos que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Si usa solamente mboxCreate, por ejemplo en páginas creadas con [!DNL Target Cl
 | Método de creación | mbox.js v57 | mbox.js v58 | mbox.js v59 | mbox.js v60 |
 |---|---|---|---|---|
 | crear automáticamente mbox global | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: sincrónico |
-| mboxCreate | estándar | estándar | estándar | estándar |
+| mboxCreate | standard | standard | standard | standard |
 
 ## Con implementación de ID de visitante, pero sin ID de visitante establecido    {#section_29888A119C7A4753AD287FC845AA63F4}
 
@@ -74,7 +74,7 @@ Si está usando la versión 57 de [!DNL mbox.js] en este caso, todo funciona com
 | Método de creación | mbox.js v57 | mbox.js v58 | mbox.js v59 | mbox.js v60 |
 |---|---|---|---|---|
 | crear automáticamente mbox global | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: asincrónico | crear automáticamente mbox global: asincrónico | crear automáticamente mbox global: asincrónico |
-| mboxCreate | estándar | ajax | ajax | ajax |
+| mboxCreate | standard | ajax | ajax | ajax |
 
 ## Con implementación de ID de visitante, y existe el ID de visitante    {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
@@ -83,4 +83,4 @@ Si existe la cookie del ID de visitante, [!DNL Target] no necesita realizar una 
 | Método de creación | mbox.js v57 | mbox.js v58 | mbox.js v59 | mbox.js v60 |
 |---|---|---|---|---|
 | crear automáticamente mbox global | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: sincrónico | crear automáticamente mbox global: asincrónico (para admitir el desarrollo de la inclusión de datos, que se lanzará más tarde en 2016) |
-| mboxCreate | estándar | estándar | estándar | ajax |
+| mboxCreate | standard | standard | standard | ajax |
