@@ -1,36 +1,36 @@
 ---
-keywords: Información general y referencia;actividad
-description: Conozca los conceptos básicos de Adobe Target. Este es un buen lugar para familiarizarse con el Destinatario, sus tipos de actividad y otras características.
-title: ¿Cómo se usa el Destinatario?
-feature: Overview
+keywords: Información general y referencia;tipos de actividades;introducción
+description: Conozca los conceptos básicos de Adobe Target. Este artículo le presenta Target, sus tipos de actividades y otras funciones.
+title: ¿Cómo utilizo Target?
+feature: Información general
+exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 96%
+source-wordcount: '1528'
+ht-degree: 83%
 
 ---
 
+# Conceptos clave de Target
 
-# Conceptos clave de Target{#target-key-concepts}
-
-Información sobre conceptos clave que le ayudarán a comprender las características y capacidades de Adobe Target.
+Información sobre conceptos clave que le ayudan a comprender las características y capacidades de [!DNL Adobe Target].
 
 ## Actividades y pruebas {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 Una actividad determina las experiencias que puede recibir un visitante del sitio.
 
-Por ejemplo, podría diseñar una actividad que pruebe dos páginas de aterrizaje diferentes: una que destaque información sobre calzado de verano para señora y otra que destaque ropa de verano más general. La actividad determina las condiciones que controlan cuándo aparece cada una de estas páginas de aterrizaje y las métricas que determinan qué página tiene mayor éxito. La actividad está configurada para comenzar y finalizar cuando se cumplan unas condiciones específicas como, por ejemplo, entre fechas concretas o que comience cuando se apruebe la actividad y finalice cuando se desactive.
+Por ejemplo, podría diseñar una actividad que pruebe dos páginas de aterrizaje diferentes: una que destaque información sobre calzado de verano para señora y otra que destaque ropa de verano más general. La actividad determina las condiciones que controlan cuándo aparece cada una de estas páginas de aterrizaje y las métricas que determinan qué página tiene mayor éxito. La actividad está configurada para comenzar y finalizar cuando se cumplen unas condiciones específicas. Estas condiciones pueden incluir el inicio y el final de la actividad entre fechas específicas o el inicio cuando se apruebe la actividad y el final cuando se desactive.
 
-Al diseñar una actividad, debería planificarla con mucho cuidado. Determine cuándo comenzará la actividad y la duración que tendrá. A continuación, enumere las ofertas y asigne una audiencia segmentada a cada una de ellas.
+Planifique con cuidado al diseñar una actividad. Determine cuándo se inicia la actividad y cuánto dura. A continuación, enumere las ofertas y asigne una audiencia segmentada a cada una de ellas.
 
-Target incluye varios tipos de actividades. En la tabla siguiente se proporciona una descripción general de cada tipo de actividad con vínculos para ayudarle a obtener más información. Para elegir mejor el mejor tipo de actividad, también hemos creado la [Guía de actividades de Adobe Target](/help/c-activities/target-activities-guide.md).
+Target incluye varios tipos de actividades. En la tabla siguiente se proporciona una descripción general de cada tipo de actividad con vínculos para ayudarle a obtener más información. Para ayudarle a elegir mejor el mejor tipo de actividad, el equipo de Target también ha creado la [Guía de actividades de Adobe Target](/help/c-activities/target-activities-guide.md).
 
 | Tipo de actividad | Descripción |
 |--- |--- |
 | [Prueba A/B](/help/c-activities/t-test-ab/test-ab.md) | Una prueba A/B compara dos o más versiones del contenido de su sitio web para comprobar cuál mejora más las conversiones durante un periodo previamente establecido.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de prueba A/B](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
 | [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de asignación automática](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
-| [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación automática](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
+| [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing. Las actividades de segmentación automática ofrecen a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación automática](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
 | [Uso de datos de Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Puede configurar una actividad para que use [!DNL Adobe Analytics] como fuente de informes. Para este tipo de actividad es necesario que vincule su cuenta de [!DNL Adobe Experience Cloud] con [!DNL Analytics] y [!DNL Target]. |
 | [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | La prueba multivariable (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad. |
 | [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) | Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación de experiencias](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
@@ -50,11 +50,11 @@ En [!DNL Target Standard], una ubicación puede ser cualquier elemento de una p�
 
 Las ubicaciones se combinan con audiencias para proporcionar un número casi inagotable de opciones de segmentación de información a sus clientes. Por ejemplo, si un visitante nunca ha estado antes en el sitio, puede mostrar un cupón de descuento para nuevos clientes. Del mismo modo, puede cambiarse la página para que muestre ofertas que estén más optimizadas para clientes que vuelven a visitar el sitio.
 
-También puede usar las ubicaciones para realizar el seguimiento del progreso de un visitante a través del sitio web o rastrear si el visitante completa una métrica de éxito específica como, por ejemplo, añadir un artículo al carro de compras o realizar una compra.
+También puede usar ubicaciones para rastrear el progreso de un visitante a través del sitio web. También puede usar ubicaciones para rastrear si el visitante completa una métrica de éxito específica, como agregar un artículo al carro de compras o completar una compra.
 
 ## Experiencias y diseños de página {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-Una experiencia, a veces denominada fórmula, define el contenido que se muestra en su página, así como otros elementos de página, como los vínculos.
+Una experiencia, a veces denominada fórmula, define el contenido que se muestra en la página y otros elementos de la página, como los vínculos.
 
 Una experiencia determina qué oferta se muestra en un lugar determinado cuando se cumplen las condiciones específicas de segmentación. Por ejemplo, la experiencia determina que, cuando un visitante vuelve a visitar el sitio web, aparecerá una oferta de envío en dos días en la parte superior de la página. La experiencia determina también que, cuando un visitante visita el sitio web por primera vez, aparece un 10 % de descuento en la misma ubicación.
 
@@ -108,7 +108,7 @@ Si desea obtener información sobre el modo en que el perfil del visitante reali
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Tipos de actividades (9:03) ![Distintivo de información general](/help/assets/overview.png)
+### Tipos de actividades (9:03) ![Distintivo Información general](/help/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 
@@ -118,7 +118,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Uso de Audiencias en Adobe Target (6:21) ![Distintivo de información general](/help/assets/overview.png)
+### Uso de audiencias en Adobe Target (6:21) ![Distintivo Información general](/help/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
