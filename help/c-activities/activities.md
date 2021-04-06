@@ -1,20 +1,20 @@
 ---
-keywords: lista de actividades;actividades;actividad;tipos de actividad;editar actividad;acciones de actividad;atributo de actividad;actividad filtro de lista de ;actividad limitaciones de ;personalizar;personalización
+keywords: lista de actividades;actividades;actividad;tipos de actividades;editar actividad;acciones de actividad;atributo de actividad;filtro de lista de actividades;limitaciones de actividades;personalización;personalización
 description: Descubra cómo las actividades en Adobe Target le permiten personalizar el contenido para audiencias específicas y probar diseños de página
-title: ¿Cómo puedo personalizar el contenido y probar los diseños de página con Destinatario?
-feature: Activities
+title: ¿Cómo puedo personalizar el contenido y probar los diseños de página con Target?
+feature: Actividades
+exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2101'
 ht-degree: 96%
 
 ---
 
-
 # Actividades
 
-Las actividades de [!DNL Adobe Target] le permiten personalizar el contenido para audiencias específicas y probar diseños de página.
+Las actividades en [!DNL Adobe Target] permiten personalizar el contenido para audiencias específicas y probar los diseños de página.
 
 Por ejemplo, podría diseñar una actividad que pruebe dos páginas de aterrizaje diferentes: una que destaque información sobre calzado de verano de mujer y otra que destaque ropa de verano más general. La actividad determina las condiciones que controlan cuándo aparece cada una de estas páginas de aterrizaje y las métricas que determinan qué página tiene mayor éxito. La actividad está configurada para comenzar y finalizar cuando se cumplan unas condiciones específicas como, por ejemplo, entre fechas concretas o que comience cuando se apruebe la actividad y finalice cuando se desactive.
 
@@ -69,7 +69,7 @@ Las siguientes acciones están disponibles (en función de sus permisos):
 | Activar | Inicia una actividad inactiva o preparada. |
 | Archivar | Enviar la actividad al archivo. De forma predeterminada, las actividades archivadas se dejan de incluir en la lista de actividades. Si quiere verlas, cambie el filtro de la lista de actividades para que se incluyan. Puede activar una actividad archivada para volver a usarla.<br>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en ella antes de la desactivación o del archivado. No se atribuirá a esa actividad ninguna métrica de conversión registrada durante el tiempo entre los dos eventos. |
 | Copiar | Copia una actividad. Se pueden copiar todas las actividades. Al copiar una actividad, se crea una nueva actividad con el mismo nombre y se anexa el texto “copia”. Por ejemplo, una prueba llamada “Ofertas de navegador” se copiará en “Ofertas de navegador copia”.<br>Las ofertas visuales se copian con la actividad. Puede editar las ofertas de forma segura en la copia sin que la actividad original se vea afectada. La única excepción son las imágenes y las ofertas guardadas en la carpeta Contenido/Recursos. |
-| Eliminar | Eliminar un borrador o una actividad.<BR>**NOTA**: Las actividades eliminadas no se pueden recuperar. A menos que esté absolutamente seguro de que nunca necesitará esta actividad, utilice la acción [!UICONTROL Archivar]. A continuación, puede volver a activar la actividad si es necesario. |
+| Eliminar | Eliminar un borrador o una actividad.<BR>**NOTA**: Las actividades eliminadas no se pueden recuperar. A menos que esté absolutamente seguro de que nunca necesitará esta actividad, utilice la acción [!UICONTROL Archivar]. A continuación, puede reactivar la actividad si es necesario. |
 
 Tenga en cuenta los detalles siguientes sobre la lista de Actividades:
 
@@ -170,7 +170,7 @@ Este trabajo de importación se ejecuta cuando se abre la página de actividades
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Tipos de actividades (9:03) ![Distintivo de información general](/help/assets/overview.png)
+### Tipos de actividades (9:03) ![Distintivo Información general](/help/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 
@@ -180,7 +180,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Administración de Actividades (5:55) ![Distintivo de información general](/help/assets/overview.png)
+### Administración de actividades (5:55) ![Distintivo Información general](/help/assets/overview.png)
 
 En este vídeo se explica cómo usar la lista Actividades para gestionar las actividades.
 
