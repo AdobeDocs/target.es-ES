@@ -4,9 +4,9 @@ breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1578'
 ht-degree: 84%
 
 ---
@@ -236,7 +236,7 @@ ht-degree: 84%
       + [Gestión de exclusiones](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Seleccione el control de la actividad de Personalización automatizada o de Segmentación automática](c-activities/t-automated-personalization/experience-as-control.md)
       + [Preguntas más frecuentes sobre Personalización automatizada](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Vista previa de actividades de Personalización automatizada con direcciones URL de vista previa de experiencias](c-activities/t-automated-personalization/experience-preview.md)
+      + [Vista previa de actividades de Automated Personalization con direcciones URL de vista previa de experiencias](c-activities/t-automated-personalization/experience-preview.md)
       + [Resolución de problemas de la personalización automatizada](c-activities/t-automated-personalization/ap-trouble.md)
    + Segmentación de experiencias {#experience-targeting}
       + [Información general sobre segmentación de experiencias](c-activities/t-experience-target/experience-target.md)
@@ -311,7 +311,6 @@ ht-degree: 84%
       + [Glosario de perfiles y variables](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Preguntas más frecuentes sobre audiencias y segmentación {#faq-audiences}
       + [Preguntas más frecuentes sobre audiencias y segmentación](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-      + [Compartir métricas, audiencias e informes: preguntas más frecuentes sobre A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiencias y ofertas {#experiences}
    + [Información general sobre experiencias y ofertas](c-experiences/experiences.md)
    + Compositor de experiencias visuales (VEC).   {#vec}
@@ -406,7 +405,7 @@ ht-degree: 84%
       + [Seleccionar criterios](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Agregar promociones](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Configuración de actividades de Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Previsualizar e iniciar su actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [Previsualice e inicie su actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations como oferta](c-recommendations/recommendations-as-an-offer.md)
    + Preguntas más frecuentes {#recommendations-faq}
       + [Preguntas más frecuentes de Recommendations](c-recommendations/c-recommendations-faq/recommendations-faq.md)
