@@ -5,10 +5,10 @@ title: ¿Cómo puedo obtener datos en Target mediante parámetros de página?
 feature: Implementación
 role: Developer
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -22,7 +22,7 @@ Los parámetros de página son útiles para enviar datos de página a Target que
 
 Los parámetros de página se pasan a Target a través de una llamada de servidor como un par de nombre-valor de la cadena. Los nombres y valores del parámetro se pueden personalizar, aunque hay algunos “nombres reservados” para usos específicos.
 
-### Ejemplos:
+### Ejemplos
 
 * `page=productPage`
 
@@ -35,7 +35,7 @@ Los parámetros de página se pasan a Target a través de una llamada de servido
 * **Afinidad de la categoría**: envía información visualizada por categorías a Target para dar a conocer la afinidad del usuario con categorías concretas de sitios.
 * **Datos de terceros**: envía información de fuentes de datos de terceros, como proveedores de segmentación por tiempo, datos de la cuenta (por ejemplo, DemandBase), datos demográficos (por ejemplo, Experian) y más.
 
-## Beneficios del método
+## Ventajas del método
 
 Los datos se envían a Target en tiempo real y se pueden utilizar en la misma llamada de servidor en la que ingresan los datos.
 
@@ -71,7 +71,7 @@ Parámetros en el código mboxCreate:
 
 `<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
-## Vínculos a información relevante
+## Enlaces a información relevante
 
 Recommendations: [implementación según el tipo de página](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
 
