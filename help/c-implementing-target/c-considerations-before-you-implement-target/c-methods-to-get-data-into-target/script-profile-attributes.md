@@ -4,8 +4,9 @@ description: Obtenga datos en Target mediante atributos de perfil de secuencia d
 title: ¿Cómo puedo obtener datos en Target mediante el uso de atributos de perfil de secuencia de comandos?
 feature: Implementación
 role: Developer
+exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 83%
