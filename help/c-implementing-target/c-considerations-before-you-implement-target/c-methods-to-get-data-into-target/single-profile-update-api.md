@@ -4,8 +4,9 @@ description: Obtenga datos en Target mediante la API de actualización de perfil
 title: ¿Cómo puedo obtener datos en Target mediante la API de actualización de perfil único?
 feature: Implementación
 role: Developer
+exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 43%
