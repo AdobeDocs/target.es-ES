@@ -4,7 +4,7 @@ breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: c9c42f176c39e4eaf909074eb6eadc09236391e1
 workflow-type: tm+mt
 source-wordcount: '1600'
 ht-degree: 76%
@@ -83,8 +83,8 @@ ht-degree: 76%
       + Métodos para obtener los datos en Target {#methods}
          + [Información general sobre métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Parámetros de página](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
-         + [Atributos de perfil en script](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
          + [Atributos de perfil en página](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
+         + [Atributos de perfil en script](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
          + [Proveedores de datos](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
          + [API de actualización de perfiles en lote](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
          + [API de actualización de perfil único](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
