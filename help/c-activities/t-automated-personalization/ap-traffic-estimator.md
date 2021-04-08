@@ -5,9 +5,9 @@ title: ¿Cuánto tráfico se necesita para una actividad de éxito?
 feature: Personalización automatizada
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 13%
 
 ---
@@ -65,7 +65,7 @@ Recuerde que [!DNL Target] proporciona experiencias de forma aleatoria hasta que
 
 Tenga en cuenta las siguientes preguntas frecuentes mientras trabaja con el [!UICONTROL Estimador de tráfico]:
 
-### ¿Por qué [!DNL Target] no está creando modelos personalizados cuando mi actividad AP tiene tráfico suficiente?
+### ¿Por qué no se crean modelos personalizados aunque mi actividad AP tenga tráfico suficiente?
 
 En determinadas circunstancias, el tráfico es lo suficientemente grande como para crear un modelo personalizado, pero ese tráfico podría informar a [!DNL Target] de que no hay diferencia significativa entre el modelo personalizado y el aleatorio. Aunque el modelo está construido en [!DNL Target] y probado, no se implementa porque el modelo no es mejor que aleatorio.
 
