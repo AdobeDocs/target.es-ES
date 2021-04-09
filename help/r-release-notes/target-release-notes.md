@@ -5,10 +5,10 @@ title: ¿Qué nuevas funciones se incluyen en la próxima versión?
 feature: ' Notas de la versión '
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 23%
+source-wordcount: '394'
+ht-degree: 24%
 
 ---
 
@@ -16,35 +16,42 @@ ht-degree: 23%
 
 Este artículo contiene información previa al lanzamiento. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 1 de marzo de 2021**
+**Última actualización: 9 de abril de 2021**
 
-Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma, en función del momento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas podría ser la misma, dependiendo del tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 >[!IMPORTANT]
 >
->**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js producirán errores y afectarán a las páginas que tengan actividades [!DNL Target] ejecutándose al servir contenido predeterminado.
+>**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js fallan correctamente e influyen en las páginas que tienen [!DNL Target] actividades ejecutándose al servir contenido predeterminado.
 >
->Migrar a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar problemas potenciales con sus sitios. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Para evitar posibles problemas con sus sitios, migre a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.2.1 (9 de marzo de 2021). 
+## Target Standard/Premium 21.4.1 (19 de abril de 2021)
 
-Esta versión de mantenimiento contiene las siguientes mejoras, correcciones y cambios.
+Esta versión contiene las siguientes nuevas funciones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-Los números entre paréntesis son para uso interno de [!DNL Adobe].
+| Función | Detalles |
+| --- | --- |
+| Compatibilidad con la toma de decisiones en el dispositivo para at.js | La toma de decisiones en dispositivos permite a los especialistas en marketing y a los desarrolladores ofrecer experimentación y personalización en el navegador de un usuario con una latencia cercana a cero. |
 
-* Se ha aumentado el tamaño de oferta permitido (TGT-38304):
+Esta versión contiene las siguientes mejoras, correcciones y cambios.
 
-   | Tipo  | Límite anterior | Nuevo límite |
-   | --- | --- | --- |
-   | HTML | 256 KB | 1024 KB |
-   | Ofertas visuales de la interfaz de usuario de Target | 64 kB | 1024 kB para cada experiencia |
-   | A través de la API | 512 kB | 1024 KB |
+* Se ha corregido un problema que impedía que una actividad se sincronizara después de cambiar la audiencia a [!UICONTROL Todos los visitantes]. (TGT-40259)
+* Se ha corregido un problema que impedía que las ofertas se duplicaran cuando se usaban en distintas ubicaciones en actividades [!UICONTROL Automated Personalization] aunque la opción [!UICONTROL No permitir duplicados] estuviera habilitada. (TGT-39567)
+* Se ha corregido un problema que impedía que la página [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] se cargara correctamente. (TGT-39918)
+* Se ha corregido un problema que provocaba que las propiedades se asignaran al espacio de trabajo incorrecto. (TGT-39869)
+* [!DNL Target Recommendations] admite nuevos operadores basados en listas para reglas de filtrado de entidades. (TGT-39234)
 
-* [!UICONTROL Los ] informes de Perspectivas de personalización para las actividades de segmentación  [!UICONTROL automática]  (AT) y  [!UICONTROL Automated Personalization]  (AP) ahora se producen diariamente. Puede elegir un informe que proporcione [!UICONTROL Segmentos automatizados] o [!UICONTROL Atributos importantes] para los últimos 15, 30 y 60 días. Se han eliminado las opciones de 45 y 90 días para permitir que el resto de la configuración de la ventana retrospectiva se ejecute diariamente. (TGT-39472)
-* Se ha corregido un problema que hacía que la dependencia actual no se mostrara cuando los clientes hacían clic en [!UICONTROL Editar dependencia] en la página [!UICONTROL Objetivos y configuración] de una actividad. (TGT-39340)
-* Se ha corregido un problema al actualizar la [!UICONTROL Biblioteca de audiencias] de un espacio de trabajo. Antes de la actualización, se mostraban las audiencias del espacio de trabajo seleccionado. Después de la actualización, se mostraban el [!UICONTROL espacio de trabajo predeterminado] y sus audiencias. El espacio de trabajo actual y sus audiencias persisten ahora después de la actualización. (TGT-38871)
-* Se ha corregido un problema que se producía al copiar una actividad [!UICONTROL Recommendations] y posteriormente editarla cambiando la secuencia de criterios. El cambio en la secuencia de criterios de la actividad original también se aplicó incorrectamente a la actividad copiada. (TGT-39155)
-* Se ha corregido un problema que provocaba que se mostrara un número incorrecto de productos para las exclusiones [!UICONTROL Recommendations] . (TGT-39599)
+   Los operadores recién añadidos incluyen:
+
+   * Está contenido en la lista
+   * No está contenido en la lista
+   * La Lista Contiene Un Elemento De
+   * La Lista No Contiene Un Elemento En
+   * La lista contiene todos los elementos de
+   * La Lista No Contiene Todos Los Elementos De
+
+* Se ha corregido un problema que provocaba una carga infinita si la solicitud fallaba después de cambiar el entorno al crear una exclusión de Recommendations. (TGT-39948)
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
