@@ -1,34 +1,34 @@
 ---
 keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;faq;solución de problemas;solucionar problemas
-description: Descubra cómo una actividad de Destinatario automático en Destinatario ofrece la experiencia más adaptada a cada visitante en función de los perfiles del cliente y del comportamiento de visitantes similares.
-title: ¿Qué es una Actividad de Destinatario automático?
-feature: Auto-Target
+description: Descubra cómo una actividad de segmentación automática en Target ofrece la experiencia más adaptada a cada visitante en función de los perfiles de los clientes y el comportamiento de visitantes similares.
+title: ¿Qué es una actividad de segmentación automática?
+feature: Segmentación automática
+exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 85%
+source-wordcount: '1993'
+ht-degree: 70%
 
 ---
 
+# ![](/help/assets/premium.png) Información general sobre PREMIUMAuto-Target
 
-# ![](/help/assets/premium.png) PREMIUMAomisión del Destinatario
-
-[!UICONTROL Las actividades de ] segmentación automática en Adobe Target utilizan aprendizaje automático avanzado para seleccionar entre varias experiencias de alto rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. La segmentación automática proporciona la experiencia más adaptada a cada visitante según su perfil de cliente individual y el comportamiento de visitantes anteriores con perfiles similares.
+[!UICONTROL Las ] actividades de segmentación automática en  [!DNL Adobe Target] utilizan aprendizaje automático avanzado para seleccionar entre varias experiencias de alto nivel de rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. La segmentación automática proporciona la experiencia más adaptada a cada visitante en función del perfil del cliente individual y el comportamiento de visitantes anteriores con perfiles similares.
 
 >[!NOTE]
 >
 >La [!UICONTROL segmentación automática] está disponible como parte de la solución [!DNL Target Premium]. Esta característica no está disponible en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información sobre las funciones avanzadas que proporciona esta licencia, consulte [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL Analytics para Destinatario]  (A4T) admite actividades de  [!UICONTROL segmentación ] automática. Para obtener más información, consulte [Compatibilidad de A4T con la asignación automática y actividades de Destinatario automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+>[!UICONTROL Analytics para Target]  (A4T) es compatible con las actividades de  [!UICONTROL segmentación ] automática. Para obtener más información, consulte [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
-## Historia de éxito en el mundo real con Destinatario automático {#success}
+## Historia de éxito real con Segmentación automática {#success}
 
-Un importante minorista de ropa ha utilizado recientemente una actividad [!UICONTROL Destinatario automático] con diez experiencias basadas en la categoría del producto (además de control aleatorio) para proporcionar el contenido correcto a cada visitante. &quot;[!UICONTROL Añadir al carro]&quot; se eligió como métrica de optimización principal. Las experiencias objetivo tuvieron un alza promedio del 29,09%. Después de crear los modelos [!UICONTROL Destinatario automático], la actividad se estableció en un 90 % de experiencias personalizadas.
+Un gran minorista de ropa ha utilizado recientemente una actividad de [!UICONTROL Segmentación automática] con diez experiencias basadas en categorías de productos (además del control aleatorio) para ofrecer el contenido correcto a cada visitante. Se eligió &quot;[!UICONTROL Agregar al carro]&quot; como métrica de optimización principal. Las experiencias segmentadas tuvieron un alza promedio del 29,09 %. Después de crear los modelos de [!UICONTROL Segmentación automática], la actividad se estableció en un 90 % de experiencias personalizadas.
 
-En sólo diez días, se lograron más de 1.700.000 dólares de alza.
+En tan solo diez días, se lograron más de 1.700.000 dólares en alza.
 
-Siga leyendo para aprender a utilizar [!UICONTROL Destinatario automático] para aumentar el alza y los ingresos de su organización.
+Siga leyendo para aprender a utilizar la [!UICONTROL Segmentación automática] para aumentar el alza y los ingresos de su organización.
 
 ## Información general {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -44,17 +44,17 @@ Al contrario que en una actividad A/B, en la que la asignación de experiencias 
 
 ## Consideraciones
 
-Hay que tener en cuenta algunas consideraciones importantes al utilizar [!UICONTROL Destinatario automático]:
+Hay que tener en cuenta algunas consideraciones importantes al utilizar la [!UICONTROL Segmentación automática]:
 
-* No puede cambiar una actividad específica de segmentación automática a [!UICONTROL Personalización automatizada] y viceversa.
-* No puede pasar de la asignación de tráfico manual (prueba tradicional A/B) a la [!UICONTROL orientación automática] y viceversa después de que una actividad esté activa.
-* Se ha creado un modelo para identificar el rendimiento de la estrategia personalizada frente al tráfico servido al azar frente al envío de todo el tráfico a la experiencia ganadora general. Este modelo solo tiene en cuenta las visitas y las conversiones en el entorno predeterminado.
+* No puede cambiar una actividad específica de [!UICONTROL Segmentación automática] a Automated Personalization y viceversa.
+* No puede pasar de la asignación de tráfico manual (prueba tradicional A/B) a la [!UICONTROL Segmentación automática] y viceversa después de que una actividad esté activa.
+* Se ha creado un modelo para identificar el rendimiento de la estrategia personalizada frente al tráfico servido aleatoriamente frente al envío de todo el tráfico a la experiencia ganadora general. Este modelo solo tiene en cuenta las visitas y las conversiones en el entorno predeterminado.
 
-   El tráfico de un segundo conjunto de modelos se genera para cada grupo de modelos (AP) o experiencia (AT). Para cada uno de estos modelos, se tienen en cuenta las visitas y conversiones en todos los entornos.
+   El tráfico de un segundo conjunto de modelos se crea para cada grupo de modelos (AP) o experiencia (AT). Para cada uno de estos modelos, se tienen en cuenta las visitas y conversiones en todos los entornos.
 
-   Por lo tanto, las solicitudes se presentarán con el mismo modelo, independientemente del entorno, pero la pluralidad de tráfico debe provenir del entorno predeterminado para garantizar que la experiencia ganadora global identificada sea coherente con el comportamiento real.
+   Las solicitudes se sirven con el mismo modelo, independientemente del entorno, pero la pluralidad de tráfico debe proceder del entorno predeterminado para garantizar que la experiencia ganadora general identificada sea coherente con el comportamiento real.
 
-* Hay que usar un mínimo de dos experiencias.
+* Utilice un mínimo de dos experiencias.
 
 ## Terminología {#section_A309B7E0B258467789A5CACDC1D923F3}
 
@@ -63,7 +63,7 @@ Los siguientes términos pueden resultar útiles al tratar el tema de la [!UICON
 | Término | Definición |
 |---|---|
 | Multi-armed bandit | Un método multi-armed bandit en la optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje. |
-| Bosque aleatorio | El bosque aleatorio es una solución pionera de aprendizaje automático. En el ámbito de la ciencia de datos, es un método de clasificación o regresión del ensamblado que funciona construyendo un gran número de árboles de decisión basados en los atributos del visitante y de la visita. En Target, el bosque aleatorio se utiliza para determinar qué experiencia se prevé que tendrá la mayor probabilidad de conversión (o los mayores ingresos por visita) para cada visitante específico. Para obtener más información sobre el bosque aleatorio, consulte  [Algoritmo de bosque aleatorio](/help/c-activities/t-automated-personalization/algo-random-forest.md). |
+| Bosque aleatorio | El bosque aleatorio es una solución pionera de aprendizaje automático. En el ámbito de la ciencia de datos, se trata de un método de clasificación o regresión de ensamblado que funciona creando muchos árboles de decisión basados en los atributos del visitante y de la visita. En Target, el bosque aleatorio se utiliza para determinar qué experiencia se prevé que tendrá la mayor probabilidad de conversión (o los mayores ingresos por visita) para cada visitante específico. Para obtener más información sobre el bosque aleatorio, consulte  [Algoritmo de bosque aleatorio](/help/c-activities/t-automated-personalization/algo-random-forest.md). |
 | Muestreo Thompson | El objetivo del muestreo Thompson es determinar qué experiencia es la mejor globalmente (sin personalizar), al mismo tiempo que se minimiza el “coste” de encontrar dicha experiencia. El muestreo Thompson siempre selecciona un ganador, aunque no haya diferencias estadísticas entre las dos experiencias. Para obtener más información, consulte [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Cómo funciona la [!UICONTROL segmentación automática] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
@@ -72,9 +72,9 @@ Obtenga más información acerca de los datos y algoritmos detrás de la [!UICON
 
 | Término | Detalles |
 |--- |--- |
-| [Algoritmo de bosque aleatorio](/help/c-activities/t-automated-personalization/algo-random-forest.md) | El algoritmo de personalización principal de Target que se utiliza en la [!UICONTROL Segmentación automática] y en la Personalización automatizada es el de bosque aleatorio. Los métodos de ensamblado, como el bosque aleatorio, utilizan varios algoritmos de aprendizaje para obtener un rendimiento más predictivo que el que podría obtenerse de cualquier algoritmo de aprendizaje constituyente. El algoritmo de bosque aleatorio del sistema de personalización automatizada es un método de clasificación o regresión que funciona creando una multitud de árboles de decisión en tiempo de aprendizaje. |
+| [Algoritmo de bosque aleatorio](/help/c-activities/t-automated-personalization/algo-random-forest.md) | El algoritmo de personalización principal de Target que se utiliza en la [!UICONTROL Segmentación automática] y en la Personalización automatizada es el de bosque aleatorio. Los métodos de ensamblado, como el bosque aleatorio, utilizan varios algoritmos de aprendizaje para obtener un rendimiento más predictivo que el que podría obtenerse de cualquier algoritmo de aprendizaje constituyente. El algoritmo de bosque aleatorio del sistema Automated Personalization es un método de clasificación o regresión que funciona creando una multitud de árboles de decisión en tiempo de aprendizaje. |
 | [Carga de datos para los algoritmos de personalización de Target](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Hay varias formas de introducir datos para los modelos de [!UICONTROL Segmentación automática] y Personalización automatizada. |
-| [Recopilación de datos para los algoritmos de personalización de Target](/help/c-activities/t-automated-personalization/ap-data.md) | Los algoritmos de personalización de Target recopilan automáticamente una variedad de datos. |
+| [Recopilación de datos para los algoritmos de personalización de Target](/help/c-activities/t-automated-personalization/ap-data.md) | Los algoritmos de personalización de Target recopilan automáticamente varios datos. |
 
 ## Determinación de la asignación de tráfico.   {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -90,8 +90,8 @@ La lista desplegable [!UICONTROL Asignación personalizada] le permite elegir en
 
 | Objetivo de la actividad | Asignación de tráfico sugerida | Compensaciones |
 |--- |--- |--- |
-| **Evaluar el algoritmo de personalización (50/50)**: Si su objetivo es probar el algoritmo, utilice una división del 50/50 por ciento de los visitantes entre el control y el algoritmo seleccionado. Esta división proporciona la estimación más precisa del alza. Se sugiere utilizar con “experiencias aleatorias” como control. | 50 % de control/50 % de experiencia personalizada dividida | <ul><li>Maximiza la precisión del aumento entre el control y el personalizado</li><li>Relativamente, tendrá menos visitantes una experiencia personalizada</li></ul> |
-| **Maximización del tráfico de personalización (90/10)**: Si su objetivo es crear una actividad “siempre activada”, ponga el 10% de los visitantes en el control a fin de asegurarse de que haya suficientes datos para que los algoritmos continúen aprendiendo a lo largo del tiempo. Tenga en cuenta que la compensación aquí es que, a cambio de personalizar una mayor proporción de su tráfico, tendrá menos precisión en la estimación del alza. Independientemente del objetivo, esta es la división de tráfico recomendada al usar una experiencia específica como control. | Lo mejor es usar una división de Experiencia personalizada del 10 % - 30 %/70 % - 90 % | <ul><li>Maximiza el número de visitantes que tienen una experiencia personalizada</li><li>Maximiza el alza</li><li>Menos precisión en cuanto a lo que significa el aumento para la actividad</li></ul> |
+| **Evaluar el algoritmo de personalización (50/50)**: Si su objetivo es probar el algoritmo, utilice una división del 50/50 por ciento de los visitantes entre el control y el algoritmo seleccionado. Esta división proporciona la estimación más precisa del alza. Se sugiere utilizar con “experiencias aleatorias” como control. | 50 % de control/50 % de experiencia personalizada dividida | <ul><li>Maximiza la precisión del aumento entre el control y el personalizado</li><li>Relativamente, menos visitantes tienen una experiencia personalizada</li></ul> |
+| **Maximización del tráfico de personalización (90/10)**: Si su objetivo es crear una actividad “siempre activada”, ponga el 10% de los visitantes en el control a fin de asegurarse de que haya suficientes datos para que los algoritmos continúen aprendiendo a lo largo del tiempo. Tenga en cuenta que la compensación aquí es que a cambio de personalizar una mayor proporción de su tráfico, tiene menos precisión en cuál es exactamente el alza. Independientemente del objetivo, esta es la división de tráfico recomendada al usar una experiencia específica como control. | Lo mejor es usar una división de Experiencia personalizada del 10 % - 30 %/70 % - 90 % | <ul><li>Maximiza el número de visitantes que tienen una experiencia personalizada</li><li>Maximiza el alza</li><li>Menos precisión en cuanto a lo que significa el aumento para la actividad</li></ul> |
 | **Asignación personalizada** | Divida manualmente el porcentaje según lo desee. | <ul><li>Puede que no consiga los resultados deseados. Si no está seguro, siga las sugerencias de cualquiera de las opciones anteriores</li></ul> |
 
 Para ajustar el porcentaje de Control, haga clic en los iconos de la columna Asignación. No se puede reducir el grupo de control por debajo del 10 %.
@@ -102,24 +102,24 @@ Puede [seleccionar una experiencia específica para utilizarla como control](/he
 
 ## ¿Cuándo se debe elegir la [!UICONTROL Segmentación automática] en lugar de la Personalización automatizada? {#section_BBC4871C87944DD7A8B925811A30C633}
 
-Hay varios escenarios en los que puede preferir usar la [!UICONTROL Segmentación automática] sobre la Personalización Automatizada:
+Hay varios escenarios en los que puede preferir usar la [!UICONTROL Segmentación automática][!UICONTROL  sobre la Personalización Automatizada]:
 
 * Si quiere definir la experiencia completa y no ofertas individuales que se combinarán automáticamente para formar una experiencia.
-* Si desea aprovechar el conjunto completo de funciones del Compositor de experiencias visuales (VEC) que no admite [!UICONTROL Personalización automática]: el editor de código personalizado, las audiencias de experiencia múltiple y más.
-* Si desea realizar cambios estructurales en su página en diferentes experiencias. Por ejemplo, si desea reorganizar el orden de los elementos en su página de inicio, sería más apropiado utilizar la [!UICONTROL Segmentación automática] que la Personalización automatizada.
+* Si desea utilizar el conjunto completo de características del Compositor de experiencias visuales (VEC) que no admite [!UICONTROL Personalización automática]: el editor de código personalizado, varias audiencias de experiencia y mucho más.
+* Si desea realizar cambios estructurales en su página en diferentes experiencias. Por ejemplo, si desea reorganizar los elementos en su página de inicio, la [!UICONTROL Segmentación automática] sería más apropiada para usar que Automated Personalization.
 
 ## ¿Qué tienen en común la [!UICONTROL Segmentación automática] y la Personalización automatizada?{#section_2A601F482F9A44E38D4B694668711319}
 
 **El algoritmo se optimiza para lograr un resultado positivo en cada visita.**
 
 * El algoritmo predice la tendencia de un visitante a la conversión (o el resultado estimado de la conversión) para poder ofrecer la mejor experiencia.
-* Un visitante es apto para una nueva experiencia al finalizar una sesión existente (a menos que el visitante esté en el grupo de control, en cuyo caso la experiencia que se le asigna al visitante en su primera visita sigue siendo la misma para visitas posteriores).
+* Un visitante es apto para una nueva experiencia al final de una sesión existente (a menos que el visitante esté en el grupo de control, en cuyo caso la experiencia que se asigna al visitante en la primera visita sigue siendo la misma para las visitas posteriores).
 * En una sesión, la predicción no cambia para mantener la coherencia visual.
 
 **El algoritmo se adapta a los cambios de comportamiento de los visitantes.**
 
-* El método multi-armed bandit garantiza que el modelo siempre destine una pequeña fracción de tráfico a seguir con el aprendizaje mientras dure el aprendizaje de la actividad y a evitar la sobreexplotación de las tendencias aprendidas anteriormente.
-* Los modelos subyacentes se regeneran cada 24 horas a partir de los últimos datos de comportamiento de los visitantes para garantizar que Target siempre explotando los cambios de preferencias de los visitantes.
+* El método multi-armed bandit garantiza que el modelo siempre esté &quot;gastando&quot; una pequeña fracción de tráfico para seguir aprendiendo a lo largo de la vida del aprendizaje de la actividad y para evitar la sobreexplotación de las tendencias aprendidas anteriormente.
+* Los modelos subyacentes se regeneran cada 24 horas a partir de los últimos datos de comportamiento de los visitantes para garantizar que Target siempre aproveche los cambios de preferencias de los visitantes.
 * Si el algoritmo no es capaz de determinar experiencias ganadoras para usuarios individuales, pasa automáticamente a mostrar la experiencia con mejor rendimiento general, sin dejar por ello de buscar ganadores personalizados. La experiencia con mejor rendimiento se determina empleando [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 **El algoritmo se optimiza continuamente para lograr una única métrica de objetivos.**
@@ -162,7 +162,7 @@ Para la [!UICONTROL segmentación automática], se pueden usar reglas simples pa
 
 Para obtener más información, consulte [Informe Resumen de la segmentación automática](/help/c-reports/auto-target-summary-report.md) en la sección [Informes](/help/c-reports/reports.md).
 
-## Vídeo de capacitación: Explicación de las Actividades de Destinatario automático ![distintivo de información general](/help/assets/overview.png)
+## Vídeo de formación: Información sobre las actividades de segmentación automática ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo explica cómo configurar una actividad A/B de [!UICONTROL Segmentación automática].
 
