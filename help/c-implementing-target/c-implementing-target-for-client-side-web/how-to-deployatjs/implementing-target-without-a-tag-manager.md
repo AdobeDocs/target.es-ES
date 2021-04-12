@@ -6,10 +6,10 @@ feature: Implementación del lado del servidor
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
+source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 54%
+source-wordcount: '1697'
+ht-degree: 52%
 
 ---
 
@@ -44,6 +44,7 @@ Puede ver los siguientes detalles de la cuenta. Estos ajustes no se pueden cambi
 | [!UICONTROL Código de cliente] | El código de cliente es una secuencia de caracteres específica del cliente que a menudo se requiere al usar las API de Target. |
 | [!UICONTROL ID de organización de IMS] | Este ID vincula la implementación con su cuenta de [!DNL Adobe Experience Cloud]. |
 | [!UICONTROL Toma de decisiones en el dispositivo] | Para activar la toma de decisiones en el dispositivo, deslice el conmutador a la posición &quot;activado&quot;.<br>La toma de decisiones en el dispositivo le permite almacenar en caché las campañas A/B y de Segmentación de experiencias (XT) en el servidor y realizar decisiones en la memoria con una latencia cercana a cero. Para obtener más información, consulte [Introducción a la toma de decisiones en el dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) en la guía *Adobe Target SDK*. |
+| [!UICONTROL Incluya en el artefacto todas las actividades cualificadas para la toma de decisiones en el dispositivo.] | (Condicional) Esta opción se muestra si habilita la toma de decisiones en el dispositivo.<br>Deslice la opción a la posición &quot;activada&quot; si desea que todas las actividades de Target activas que cumplen los requisitos para la toma de decisiones en el dispositivo se incluyan automáticamente en el artefacto.<br>Si deja esta opción desactivada, debe volver a crear y activar cualquier actividad de toma de decisiones en el dispositivo para que se incluya en el artefacto de reglas generadas. |
 
 ## Métodos de implementación
 
