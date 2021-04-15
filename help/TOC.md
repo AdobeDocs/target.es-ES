@@ -4,10 +4,10 @@ breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: c9c42f176c39e4eaf909074eb6eadc09236391e1
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 76%
+source-wordcount: '1614'
+ht-degree: 75%
 
 ---
 
@@ -99,6 +99,10 @@ ht-degree: 76%
       + Implementación del SDK web de Adobe Experience Platform {#aep-implementation}
          + [Información general del SDK web de AEP](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + Implementación de at.js {#at-js-implementation}
+         + Toma de decisiones en el dispositivo {#on-device-decisioning}
+            + [Información general sobre la toma de decisiones en dispositivos](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+            + [Funciones compatibles con la toma de decisiones en dispositivos](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [artefacto de regla de decisión en el dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
          + Cómo funciona at.js {#at-js}
             + [Información general sobre el funcionamiento de at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [Cómo gestiona at.js el parpadeo](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
