@@ -1,25 +1,23 @@
 ---
 keywords: reglas de inclusión;criterios de inclusión;Recommendations;creación de nuevos criterios;promoción;promociones;filtrado dinámico;dinámico;valores en blanco;ignorar regla de filtrado;filtro estático;filtrar por valor;coincidencia de atributos de entidad;coincidencia de atributos de perfil;coincidencia de parámetros;filtrado por valor;filtro estático
-description: Aprenda a crear reglas de inclusión en Adobe Target Recommendations para criterios y promociones. Añada reglas de filtrado dinámicas o estáticas adicionales para obtener mejores resultados.
+description: Aprenda a crear reglas de inclusión en Adobe Target Recommendations para criterios y promociones. Para obtener mejores resultados, agregue reglas de filtrado más dinámicas o estáticas.
 title: ¿Cómo utilizo las reglas de inclusión dinámicas y estáticas en Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 41%
+source-wordcount: '1841'
+ht-degree: 19%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Uso de reglas de inclusión dinámicas y estáticas{#use-dynamic-and-static-inclusion-rules}
+# ![PREMIUM](/help/assets/premium.png) Uso de reglas de inclusión dinámicas y estáticas
 
-Información sobre la creación de reglas de inclusión para criterios y promociones en [!DNL Adobe Target] y la adición de reglas de filtrado dinámicas o estáticas adicionales para obtener mejores resultados para sus recomendaciones.
+Información sobre la creación de reglas de inclusión para criterios y promociones en [!DNL Adobe Target] y la adición de reglas de filtrado dinámicas o estáticas para obtener mejores resultados para sus recomendaciones.
 
->[!NOTE]
->
->El proceso de creación y uso de reglas de inclusión para criterios y promociones es similar, al igual que los casos de uso y los ejemplos. Tanto los criterios como las promociones y el uso de reglas de inclusión se tratan en esta sección.
+El proceso de creación y uso de reglas de inclusión para criterios y promociones es similar, al igual que los casos de uso y los ejemplos. Tanto los criterios como las promociones y el uso de reglas de inclusión se tratan en esta sección.
 
 ## Agregación de reglas de filtrado a los criterios {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -45,7 +43,7 @@ Las reglas de inclusión dinámicas son más potentes que las reglas de inclusi�
 
 * Las reglas de inclusión dinámica ofrecen recomendaciones al hacer coincidir un atributo en un parámetro de perfil de usuario o en una llamada de mbox.
 
-   Por ejemplo, puede crear una recomendación &quot;Criterios más populares&quot; y luego filtrar el conjunto de recomendaciones devueltas, luego filtrar cualquier recomendación (en tiempo real) contra un atributo que se pase cuando el usuario acceda a una página donde se muestran las recomendaciones.
+   Por ejemplo, puede crear una recomendación &quot;Criterios más populares&quot;. Desde el conjunto de recomendaciones devueltas, puede filtrar cualquier recomendación (en tiempo real) con un atributo que se pase cuando el usuario acceda a una página en la que se muestran las recomendaciones.
 
 * Utilice reglas estáticas para limitar qué artículos se incluyen en la recomendación (en lugar de usar colecciones).
 
@@ -67,17 +65,29 @@ La siguiente opción está disponible para filtrar por valor:
 | --- | --- |
 | [Filtro estático](/help/c-recommendations/c-algorithms/static-value.md) | Introduzca manualmente uno o varios valores estáticos para filtrar. |
 
-## Criterios dinámicos y ejemplos de promoción
+## Operadores disponibles {#operators}
 
 Los criterios y promociones dinámicos son mucho más potentes que los estáticos y ofrecen mejores resultados y una mayor participación.
 
-Los siguientes ejemplos proporcionan ideas generales sobre cómo usar las promociones dinámicas en las campañas de marketing:
+En los ejemplos siguientes se proporcionan ideas generales sobre cómo usar las promociones y exclusiones dinámicas en los esfuerzos de marketing:
 
 | Operador | Ejemplos |
 | --- | --- |
-| Es igual a | Con el operador &quot;es igual que&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en nuestro sitio web (como un producto, un artículo, una película, etc.), podemos promocionar otros elementos de:<ul><li>la misma marca</li><li>la misma categoría</li><li>la misma categoría Y la marca propia</li><li>la misma tienda</li></ul> |
-| Does Not Equal | Con el operador &quot;no es igual que&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en nuestro sitio web (como un producto, un artículo, una película, etc.), podemos promocionar otros elementos de:<ul><li>una serie de televisión distinta</li><li>un género distinto</li><li>una serie de productos distinta</li><li>un ID de estilo distinto</li></ul> |
-| está entre | Usando el operador &quot;está entre&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en nuestro sitio web (como un producto, un artículo, una película, etc.), podemos promocionar otros elementos que:<ul><li>sean más caros</li><li>sean menos caros</li><li>cuesten un 30 % más o menos</li><li>sean episodios posteriores de la misma temporada</li><li>sean los primeros libros de una saga</li></ul> |
+| Es igual a<br>(Disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil, coincidencia de parámetros y filtro estático). | Con el operador &quot;es igual que&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en nuestro sitio web (como un producto, un artículo, una película, etc.), podemos promocionar otros elementos de:<ul><li>La misma marca</li><li>La misma categoría</li><li>La misma categoría Y de la marca propia</li><li>La misma tienda</li></ul> |
+| Does Not Equal<br>(Disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil, coincidencia de parámetros y filtro estático). | Con el operador &quot;no es igual que&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en nuestro sitio web (como un producto, un artículo, una película, etc.), podemos promocionar otros elementos de:<ul><li>Una serie de televisión diferente</li><li>Un género diferente</li><li>Una serie de productos diferente</li><li>Un ID de estilo diferente</li></ul> |
+| Contiene subcadena<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil, coincidencia de parámetros y filtro estático). | Con el operador &quot;contiene subcadena&quot;, cuando un visitante está viendo un elemento en su sitio web (como un producto), puede promocionar otros elementos que:<ul><li></li></ul> |  |
+| No contiene subcadena<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil, coincidencia de parámetros y filtro estático). | Usando el operador &quot;no contiene subcadena&quot;, cuando un visitante está viendo un elemento en su sitio web (como un producto), puede promocionar otros elementos que:<ul><li></li></ul> |
+| Comienza con<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil, coincidencia de parámetros y filtro estático). | Con el operador &quot;comienza con&quot;, cuando un visitante está viendo un elemento en su sitio web (como un producto), puede promocionar otros elementos que:<ul><li></li></ul> |
+| Finaliza con<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil, coincidencia de parámetros y filtro estático). | Usando el operador &quot;termina con&quot;, cuando un visitante está viendo un elemento en su sitio web (como un producto), puede promocionar otros elementos que:<ul><li></li></ul> |
+| Is Bueno que o igual a<br>(Disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil, coincidencia de parámetros y filtro estático). | Usando el operador &quot;es bueno o igual que&quot;, cuando un visitante está viendo un elemento en su sitio web (como un producto), puede promocionar otros elementos que:<ul><li>Coste igual o son más caros</li></ul> |
+| Is Less Thor Equal To<br>(Disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil, coincidencia de parámetros y filtro estático). | Con el operador &quot;es menor o igual que&quot;, cuando un visitante está viendo un elemento en su sitio web (como un producto), puede promocionar otros elementos que:<ul><li>Coste igual o son menos costosos</li><li>Excluir artículos menos costosos</li></ul> |
+| Está entre<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros). | Usando el operador &quot;está entre&quot; en las promociones dinámicas, cuando un visitante está viendo un elemento en nuestro sitio web (como un producto, un artículo, una película, etc.), podemos promocionar otros elementos que:<ul><li>Más caro</li><li>Menos caro</li><li>Costo más o menos 30%</li><li>Episodios posteriores en la misma temporada</li><li>Libros anteriores de una serie</li></ul> |
+| Está contenido en la lista<br>(disponible con coincidencia de atributos de perfil y coincidencia de parámetros). | Utilizando el operador &quot;está contenido en la lista&quot; en la coincidencia de atributos de perfil, cuando un visitante está viendo un elemento en su sitio web (como un producto, un artículo o una película), puede promocionar otros elementos que:<ul><li>Disponible en la geografía del visitante</li></ul>Al utilizar este operador, se espera una lista en el [lado derecho](#caveats) de la regla. |
+| No está contenido en la lista<br>(disponible con coincidencia de atributos de perfil y coincidencia de parámetros). | Utilizando el operador &quot;no está contenido en la lista&quot; en la coincidencia de atributos de perfil, cuando un visitante está viendo un elemento en su sitio web (como un producto, un artículo o una película), puede excluir otros elementos que:<ul><li>En la lista de los últimos diez elementos que el visitante ha visto</li></ul></ul>Al utilizar este operador, se espera una lista en el [lado derecho](#caveats) de la regla. |
+| La lista contiene un elemento en<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros). | Utilizando el operador &quot;lista contiene un elemento en&quot; en la coincidencia de atributos de perfil, cuando un visitante está viendo un elemento en su sitio web (como un producto, un artículo, una película, etc.), puede recomendar otros elementos que:<ul><li>Asociado a uno de los equipos favoritos del visitante</li></ul></ul>Al utilizar este operador, se espera una lista en [ambos lados](#caveats) de la regla. |
+| La lista no contiene ningún elemento en<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros). | Usando el operador &quot;lista no contiene un elemento en&quot; en la coincidencia de atributos de parámetros, cuando un visitante está viendo un elemento en su sitio web (como un producto, un artículo, una película, etc.), puede excluir otros elementos que:<ul><li>Incluido en una lista de tipos prohibidos</li></ul>Al utilizar este operador, se espera una lista en [ambos lados](#caveats) de la regla. |
+| La lista contiene todos los elementos de<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros). | Usando el operador &quot;lista contiene todos los elementos en&quot; en la coincidencia de atributos de parámetros, cuando un visitante está viendo un elemento en su sitio web (como un producto, un artículo, una película, etc.), puede promocionar otros elementos que:<ul><li></li></ul>Al utilizar este operador, se espera una lista en [ambos lados](#caveats) de la regla. |
+| La lista no contiene todos los elementos en<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros). | Usando el operador &quot;lista no contiene todos los elementos en&quot; en la coincidencia de atributos de parámetros, cuando un visitante está viendo un elemento en su sitio web (como un producto, un artículo o una película), puede promocionar otros elementos que:<ul><li></li></ul>Al utilizar este operador, se espera una lista en [ambos lados](#caveats) de la regla. |
 
 ## Gestión de valores vacíos al filtrar por coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -91,16 +101,16 @@ Para seleccionar la acción deseada, pase el ratón sobre el icono del engranaje
 
 | Acción | Disponible para | Detalles |
 |--- |--- |--- |
-| [!UICONTROL Ignorar esta regla de filtrado] | [!UICONTROL Coincidencia de atributos de perfil ] y coincidencia  [!UICONTROL de parámetros] | Esta es la acción predeterminada para [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros].<br>Esta opción especifica que la regla se ignora. Por ejemplo, si hay tres reglas de filtrado y la tercera no pasa ningún valor, en vez de no devolver resultado alguno, puede simplemente ignorar la tercera regla con valores en blanco. |
-| [!UICONTROL No mostrar ningún resultado para estos criterios]<br> (solo criterios) | [!UICONTROL Coincidencia] de atributos de entidad, coincidencia de atributos de  [!UICONTROL perfil] y coincidencia  [!UICONTROL de parámetros] | Esta es la acción predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<br>[!DNL Target]Esta acción es el modo en que gestiona los valores en blanco antes de la agregación de esta opción: no se mostrarán más resultados para este criterio. |
-| [!UICONTROL No promocionar ningún elemento<br> (solo promociones)] | [!UICONTROL Coincidencia] de atributos de entidad, coincidencia de atributos de  [!UICONTROL perfil] y coincidencia  [!UICONTROL de parámetros] | Esta es la acción predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<br>[!DNL Target]Esta acción es el modo en que gestiona los valores en blanco antes de la agregación de esta opción: no se mostrarán más resultados para este criterio. |
+| [!UICONTROL Ignorar esta regla de filtrado] | [!UICONTROL Coincidencia de atributos de perfil ] y coincidencia  [!UICONTROL de parámetros] | Esta acción es la predeterminada para [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros].<br>Esta opción especifica que la regla se ignora. Por ejemplo, si hay tres reglas de filtrado y la tercera no pasa ningún valor, en vez de no devolver resultado alguno, puede simplemente ignorar la tercera regla con valores en blanco. |
+| [!UICONTROL No mostrar ningún resultado para estos criterios]<br> (solo criterios) | [!UICONTROL Coincidencia] de atributos de entidad, coincidencia de atributos de  [!UICONTROL perfil] y coincidencia  [!UICONTROL de parámetros] | Esta acción es la predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<br>Esta acción es el  [!DNL Target] modo en que se gestionan los valores vacíos antes de añadir esta opción: no se muestran resultados para este criterio. |
+| [!UICONTROL No promocionar ningún elemento<br> (solo promociones)] | [!UICONTROL Coincidencia] de atributos de entidad, coincidencia de atributos de  [!UICONTROL perfil] y coincidencia  [!UICONTROL de parámetros] | Esta acción es la predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<br>Esta acción es el  [!DNL Target] modo en que se gestionan los valores vacíos antes de añadir esta opción: no se muestran resultados para este criterio. |
 | [!UICONTROL Uso de un valor estático] | [!UICONTROL Coincidencia] de atributos de entidad, coincidencia de atributos de  [!UICONTROL perfil] y coincidencia  [!UICONTROL de parámetros] | Si un valor está en blanco, puede optar por usar un valor estático. |
 
-## Advertencias {#section_A889FAF794B7458CA074DEE06DD0E345}
+## Advertencias {#caveats}
 
 >[!IMPORTANT]
 >
->Es posible que no se puedan usar atributos de tipo de datos diferentes en los criterios dinámicos o promociones durante el tiempo de ejecución con los operadores “es igual que” y “no es igual que”. Debe utilizar los valores [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] y [!UICONTROL Environment] sabiamente en el lado derecho si el lado izquierdo tiene atributos predefinidos o personalizados.
+>Es posible que no se puedan usar atributos de tipo de datos diferentes en los criterios dinámicos o promociones durante el tiempo de ejecución con los operadores “es igual que” y “no es igual que”. Utilice los valores [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] y [!UICONTROL Environment] sabiamente en el lado derecho si el lado izquierdo tiene atributos predefinidos o personalizados.
 
 ![](assets/left_right.png)
 
