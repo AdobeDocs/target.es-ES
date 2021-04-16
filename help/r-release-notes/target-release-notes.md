@@ -5,10 +5,10 @@ title: ¿Qué nuevas funciones se incluyen en la próxima versión?
 feature: ' Notas de la versión '
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 24%
+source-wordcount: '429'
+ht-degree: 22%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 24%
 
 Este artículo contiene información previa al lanzamiento. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 9 de abril de 2021**
+**Última actualización: 16 de abril de 2021**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas podría ser la misma, dependiendo del tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -52,6 +52,15 @@ Esta versión contiene las siguientes mejoras, correcciones y cambios.
    * La Lista No Contiene Todos Los Elementos De
 
 * Se ha corregido un problema que provocaba una carga infinita si la solicitud fallaba después de cambiar el entorno al crear una exclusión de Recommendations. (TGT-39948)
+
+## Versión 2.5.0 de at.js (19 de abril de 2021)
+
+Esta versión de at.js incluye las siguientes mejoras:
+
+* Compatibilidad con la toma de decisiones en el dispositivo para at.js
+* Compatibilidad con vínculos de vista previa para actividades de Automated Personalization
+
+Esta versión también elimina la compatibilidad con Microsoft Internet Explorer 10 y versiones posteriores.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
