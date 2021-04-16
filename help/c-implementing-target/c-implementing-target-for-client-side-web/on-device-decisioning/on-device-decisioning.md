@@ -1,14 +1,14 @@
 ---
-keywords: implementación;biblioteca de javascript;js;atjs;toma de decisiones en el dispositivo;en la toma de decisiones del dispositivo
+keywords: implementación;biblioteca de javascript;js;atjs;toma de decisiones en el dispositivo;al tomar decisiones en el dispositivo;at.js
 description: Aprenda a tomar decisiones en el dispositivo con la biblioteca at.js
 title: ¿Cómo funciona la toma de decisiones en el dispositivo con la biblioteca JavaScript at.js?
 feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3497'
 ht-degree: 7%
 
 ---
@@ -111,7 +111,7 @@ La siguiente lista corresponde a los números del diagrama:
 | --- | --- |
 | 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
-| 1 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
+| 3 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | La biblioteca at.js realiza una solicitud para recuperar el artefacto de regla JSON de la CDN de Akamai más cercana al visitante. |
 | 5 | La CDN de Akamai responde con el artefacto de regla JSON. |
 | 6 | El artefacto de regla JSON se almacena en caché localmente en el explorador del visitante. |
@@ -134,7 +134,7 @@ La siguiente lista corresponde a los números del diagrama:
 
 | Paso   | Descripción |
 | --- | --- |
-| 3 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
 | 3 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | La biblioteca at.js interpreta el artefacto de regla JSON y ejecuta la decisión en la memoria para recuperar la experiencia. |
@@ -167,9 +167,9 @@ La siguiente lista corresponde a los números del diagrama:
 
 | Paso   | Descripción |
 | --- | --- |
-| 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
-| 3 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
+| 1 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | Se realiza una solicitud de carga de página en la red perimetral de Adobe Target, que incluye todos los parámetros configurados como (ECID, ID de cliente, parámetros personalizados, perfil de usuario, etc.). |
 | 5 | En paralelo, at.js realiza una solicitud para recuperar el artefacto de regla JSON de la CDN de Akamai más cercana al visitante. |
 | 6 | (Adobe Target Edge Network) Los scripts de perfil se ejecutan y luego se alimentan en el Almacenamiento de perfiles. El Almacenamiento de perfiles solicita audiencias de la Biblioteca de audiencias que cumplan los requisitos (por ejemplo, audiencias compartidas de [!DNL Adobe Analytics], [!DNL Adobe Audience Manager], etc.). |
