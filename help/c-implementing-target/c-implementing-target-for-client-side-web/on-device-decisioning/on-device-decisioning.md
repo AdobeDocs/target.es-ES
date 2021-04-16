@@ -6,9 +6,9 @@ feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
+source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3499'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->La toma de decisiones en dispositivos está programada para su lanzamiento en la versión de Target Standard/Premium 21.4.1 (19 de abril de 2021).
+>La funcionalidad de toma de decisiones en dispositivos está programada para su lanzamiento en la versión de Target Standard/Premium 21.4.1 (19 de abril de 2021).
 
 A partir de la versión 2.5, at.js ofrece la toma de decisiones en el dispositivo. La toma de decisiones en dispositivos le permite almacenar en caché sus actividades [Prueba A/B](/help/c-activities/t-test-ab/test-ab.md) y [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) (XT) en el explorador para realizar decisiones en memoria sin bloquear una solicitud de red a la [!DNL Adobe Target] Red perimetral.
 
@@ -111,7 +111,7 @@ La siguiente lista corresponde a los números del diagrama:
 | --- | --- |
 | 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
-| 3 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
+| 1 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | La biblioteca at.js realiza una solicitud para recuperar el artefacto de regla JSON de la CDN de Akamai más cercana al visitante. |
 | 5 | La CDN de Akamai responde con el artefacto de regla JSON. |
 | 6 | El artefacto de regla JSON se almacena en caché localmente en el explorador del visitante. |
@@ -134,9 +134,9 @@ La siguiente lista corresponde a los números del diagrama:
 
 | Paso   | Descripción |
 | --- | --- |
-| 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
-| 3 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
+| 1 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | La biblioteca at.js interpreta el artefacto de regla JSON y ejecuta la decisión en la memoria para recuperar la experiencia. |
 | 5 | Los elementos probados están ocultos. |
 | 6 | La biblioteca at.js muestra el cuerpo para que el resto de la página se pueda cargar para que el visitante la vea. |
@@ -167,7 +167,7 @@ La siguiente lista corresponde a los números del diagrama:
 
 | Paso   | Descripción |
 | --- | --- |
-| 3 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
 | 1 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | Se realiza una solicitud de carga de página en la red perimetral de Adobe Target, que incluye todos los parámetros configurados como (ECID, ID de cliente, parámetros personalizados, perfil de usuario, etc.). |
