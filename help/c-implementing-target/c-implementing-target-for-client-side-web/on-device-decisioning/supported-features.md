@@ -4,11 +4,12 @@ description: Descubra qué funciones se admiten para la toma de decisiones en di
 title: Qué funciones se admiten en la toma de decisiones en dispositivos
 feature: 'at.js '
 role: Developer
+exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 62a3b387445977a1bdcd2cf45306c8ff032fca50
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 11%
+source-wordcount: '461'
+ht-degree: 12%
 
 ---
 
@@ -53,11 +54,43 @@ La tabla siguiente indica qué reglas de audiencia se admiten o no para la toma 
 
 Para mantener una latencia mínima para las actividades de toma de decisiones en dispositivos con audiencias basadas en geografía, Adobe recomienda que proporcione los valores geográficos usted mismo en la llamada a [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md). Establezca el objeto Geografía en el Contexto de la solicitud. Esto significa que desde el explorador, se puede determinar la ubicación de cada visitante. Por ejemplo, puede realizar una búsqueda de IP a información geográfica mediante un servicio que configure. Algunos proveedores de alojamiento, como Google Cloud, proporcionan esta funcionalidad a través de encabezados personalizados en cada `HttpServletRequest`.
 
-(Código por venir)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				city: "SAN FRANCISCO", 
+				countryCode: "US", 
+				stateCode: "CA", 
+				latitude: 37.75, 
+				longitude: -122.4 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 Sin embargo, si no puede realizar búsquedas de IP a geografía en el servidor, pero aun así desea tomar decisiones en el dispositivo para solicitudes [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) que contienen audiencias basadas en geografía, esto también es compatible. El inconveniente de este enfoque es que utiliza una búsqueda remota de IP a información geográfica, que añade latencia a cada llamada `getOffers`. Esta latencia debe ser inferior a una llamada `getOffers` con decisiones del lado del servidor, ya que se produce en una CDN ubicada cerca del servidor. Proporcione solo el campo &quot;ipAddress&quot; en el objeto Geo del contexto de la solicitud para que el SDK recupere la ubicación geográfica de la dirección IP del visitante. Si se proporciona cualquier otro campo además de &quot;ipAddress&quot;, el SDK [!DNL Target] no recuperará los metadatos de ubicación geográfica para la resolución.
 
-(Código por venir)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				ipAddress: "127.0.0.1" 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 ### Método de asignación
 
