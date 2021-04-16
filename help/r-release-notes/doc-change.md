@@ -5,9 +5,9 @@ title: ¿Dónde puedo ver las actualizaciones de documentación de Target?
 feature: ' Notas de la versión '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3952'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ Esta página enumera los cambios significativos realizados en la documentación 
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Abril de 9 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información previa al lanzamiento de la versión 2.5.0 de at.js (19 de abril de 2021) |
 | Abril de 9 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información previa al lanzamiento de la versión Target Standard/Premium 21.4.1 (19 de abril de 2021) |
 |  | [Integrar Recommendations con el correo electrónico](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | Se ha añadido la siguiente sección: &quot;Directrices de capacidad para las opciones 1 y 2.&quot; |
 | Marzo de 29 | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Se ha añadido una nueva pregunta frecuente:<ul><li>¿Las recomendaciones basadas en artículos vistos recientemente persisten en varios dispositivos para un único visitante?</li></ul> |
