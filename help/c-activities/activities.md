@@ -5,10 +5,10 @@ title: ¿Cómo puedo personalizar el contenido y probar los diseños de página 
 feature: Actividades
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 96%
+source-wordcount: '2100'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,7 @@ En la lista Actividades encontrará una descripción general de todas las activi
 | Dirección URL | La dirección URL aparece en el texto más claro debajo del nombre.<br>La dirección URL de la actividad indica dónde se muestra la actividad. De este modo, se puede identificar rápidamente una actividad y determinar si ya se está realizando una prueba en una página en particular.<br>Si se realiza una prueba en varias direcciones URL, se indica mediante un vínculo cuántas direcciones URL más se están usando. Haga clic en el vínculo para ver la lista completa de direcciones URL de esa actividad.<br>Puede buscar según la dirección URL. Utilice la lista desplegable situada junto al cuadro de búsqueda y seleccione [!UICONTROL Buscar URL]. |
 | Estado | Las actividades pueden tener uno de los estados siguientes:<ul><li>**Activa:** la actividad está ejecutándose.</li><li>**Borrador:** se ha iniciado la configuración de la actividad, pero aún no está lista para ejecutarse.</li><li>**Programada:** la actividad está preparada para activarse en la fecha y hora de inicio especificadas.</li><li>**Inactiva:** la actividad se ha pausado o desactivado.</li><li>**Sincronizando**: la actividad se ha guardado y se está sincronizando con la red de entrega de Target.</li><li>**Completada**: se han alcanzado la fecha y hora de finalización especificadas para la actividad y esta ya no se sirve.</li><li>**Archivada**: se archivó la actividad. Puede activar una actividad archivada para volver a usarla.</li></ul>**Nota:** Cuando se realizan determinadas acciones (por ejemplo, activar una actividad fuera de la interfaz de usuario empleando métodos API), los cambios pueden tardar hasta 10 minutos en propagarse a la IU. |
 | Fuente | Muestra dónde se creó la actividad:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager.  (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Elegibilidad para la toma de decisiones en dispositivos | Después de crear una actividad que cumple los requisitos para la toma de decisiones en el dispositivo, una etiqueta que lee On-Device Decisioning Eligible, se puede ver en la página Información general de la actividad.<br>Esta etiqueta no significa que la actividad siempre se entregue mediante la toma de decisiones en el dispositivo. Solo cuando at.js 2.5.0+ esté configurado para utilizar la toma de decisiones en el dispositivo, se ejecutará esta actividad en el dispositivo. Si at.js 2.5.0+ no está configurado para usar en el dispositivo, esta actividad se enviará a través de una llamada al servidor realizada desde at.js.<br>Consulte  [Decisiones en el dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
 | Propiedad | Muestra la [propiedad](/help/administrating-target/c-user-management/property-channel/property-channel.md) de la actividad. |
 | Alza estimada en ingresos | Muestra el aumento previsto en ingresos si el 100 % de la audiencia ve la experiencia ganadora.<br>Se calcula utilizando la fórmula siguiente:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br> el número resultante se redondea a un decimal, como máximo, si la forma corta tiene un solo dígito antes del decimal. Por ejemplo: 1,6 millones de dólares, 60 mil dólares, 900 dólares, 8500 dólares, 205 mil dólares<br> En esta columna se muestra “---” para las actividades que no tienen datos suficientes para convocar un concurso ganador o que no tienen una previsión del coste.Para obtener más información, <br>consulte [Alza estimada en ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
 | Última actualización | La fecha y el autor de la última actualización de la actividad. |
@@ -108,6 +109,7 @@ Se puede filtrar por las siguientes opciones. En cada categoría, si no hay nada
 |--- |--- |
 | Tipo | Prueba A/B: [manual](/help/c-activities/t-test-ab/test-ab.md), [asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) y [segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md)<br>[Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommendations](/help/c-recommendations/recommendations.md) |
 | Estado | Activa<br>Borrador<br>Programada<br>Inactiva<br>Sincronizando<br>Completada<br>Archivada |
+| Elegibilidad para la toma de decisiones en dispositivos | Sí<br>No |
 | Fuente de informes | Target<br>Analytics |
 | Compositor de experiencias | Visual<br>Basadas en formularios |
 | Tipo de métricas | Conversión<br>Ingreso<br>Participación |
@@ -117,16 +119,10 @@ Se puede filtrar por las siguientes opciones. En cada categoría, si no hay nada
 
 Haga clic en uno de los encabezados siguientes para cambiar si las actividades se muestran en orden ascendente o descendente, según el encabezado seleccionado.
 
-* Nombre de la actividad
-* Tipo de actividad
+* Tipo 
+* Nombre
 
 ![Orden ascendente de la lista de actividades](/help/c-activities/assets/activities_list_ascending.png)
-
-## Sugerencias y trucos {#section_F77F30A246A14B538D9363B7F3639F97}
-
-Saque el máximo provecho de Adobe Target aprendiendo más cosas acerca de las distintas funciones y vea los motivos por los cuales debe darles una oportunidad. La función Sugerencias y trucos proporciona vínculos a vídeos, casos de uso, blogs, documentación y mucho más.
-
-La función Sugerencias y trucos se muestra periódicamente en la página de la lista de Actividades. Después de leer o descartar una sugerencia, no se vuelve a mostrar hasta que la próxima sugerencia esté disponible. Opcionalmente, puede deshabilitar la visualización de todas las sugerencias haciendo clic en el icono Ayuda > [!UICONTROL Deshabilitar sugerencia del día].
 
 ![Deshabilitación de la sugerencia del día](/help/c-activities/assets/tip-disable-new.png)
 
