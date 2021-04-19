@@ -5,10 +5,10 @@ title: ¿Qué nuevas funciones se incluyen en la próxima versión?
 feature: ' Notas de la versión '
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 22%
+source-wordcount: '458'
+ht-degree: 20%
 
 ---
 
@@ -28,37 +28,27 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 ## Target Standard/Premium 21.4.1 (19 de abril de 2021)
 
-Esta versión contiene las siguientes nuevas funciones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+Esta versión contiene las siguientes nuevas funciones y mejoras. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 | Función | Detalles |
 | --- | --- |
-| Compatibilidad con la toma de decisiones en el dispositivo para at.js | La toma de decisiones en dispositivos permite a los especialistas en marketing y a los desarrolladores ofrecer experimentación y personalización en el navegador de un usuario con una latencia cercana a cero. |
+| Compatibilidad con la toma de decisiones en el dispositivo para at.js | La toma de decisiones en dispositivos permite a los especialistas en marketing y a los desarrolladores ofrecer experimentación y personalización en el navegador de un usuario con una latencia cercana a cero.<br>Para obtener más información, consulte  [Decisiones en el dispositivo para at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![](/help/assets/premium.png) Operadores basados en PremiumList para reglas de filtrado de entidades | [!DNL Target Recommendations] admite nuevos operadores basados en listas para reglas de filtrado de entidades. (TGT-39234)<br>Los operadores añadidos recientemente incluyen:<br><ul><li>Está contenido en la lista</li><li>No está contenido en la lista</li><li>La Lista Contiene Un Elemento De</li><li>La Lista No Contiene Un Elemento En</li><li>La lista contiene todos los elementos de</li><li>La Lista No Contiene Todos Los Elementos De</li></ul>Para obtener más información, consulte &quot;Operadores disponibles&quot; en [Uso de reglas de inclusión dinámicas y estáticas](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
-Esta versión contiene las siguientes mejoras, correcciones y cambios.
+Esta versión contiene las siguientes correcciones.
 
 * Se ha corregido un problema que impedía que una actividad se sincronizara después de cambiar la audiencia a [!UICONTROL Todos los visitantes]. (TGT-40259)
 * Se ha corregido un problema que impedía que las ofertas se duplicaran cuando se usaban en distintas ubicaciones en actividades [!UICONTROL Automated Personalization] aunque la opción [!UICONTROL No permitir duplicados] estuviera habilitada. (TGT-39567)
 * Se ha corregido un problema que impedía que la página [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] se cargara correctamente. (TGT-39918)
 * Se ha corregido un problema que provocaba que las propiedades se asignaran al espacio de trabajo incorrecto. (TGT-39869)
-* [!DNL Target Recommendations] admite nuevos operadores basados en listas para reglas de filtrado de entidades. (TGT-39234)
-
-   Los operadores recién añadidos incluyen:
-
-   * Está contenido en la lista
-   * No está contenido en la lista
-   * La Lista Contiene Un Elemento De
-   * La Lista No Contiene Un Elemento En
-   * La lista contiene todos los elementos de
-   * La Lista No Contiene Todos Los Elementos De
-
 * Se ha corregido un problema que provocaba una carga infinita si la solicitud fallaba después de cambiar el entorno al crear una exclusión de Recommendations. (TGT-39948)
 
 ## Versión 2.5.0 de at.js (19 de abril de 2021)
 
-Esta versión de at.js incluye las siguientes mejoras:
+Esta versión de at.js incluye las siguientes mejoras y cambios:
 
-* Compatibilidad con la toma de decisiones en el dispositivo para at.js
-* Compatibilidad con vínculos de vista previa para actividades de Automated Personalization
+* [Compatibilidad de ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) decisiones en el dispositivo para at.js.
+* [Vista previa de ](/help/c-activities/c-activity-qa/activity-qa.md) vínculos Compatibilidad con actividades de Automated Personalization
 
 Esta versión también elimina la compatibilidad con Microsoft Internet Explorer 10 y versiones posteriores.
 
