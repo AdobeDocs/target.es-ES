@@ -3,12 +3,12 @@ keywords: versiones de at.js;versiones de at.js;notas de la versión
 description: Vea los detalles sobre los cambios realizados en cada versión de la biblioteca JavaScript at.js de Adobe Target.
 title: ¿Qué se incluye en cada versión de at.js?
 feature: 'at.js '
-role: Desarrollador
+role: Developer
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '4147'
-ht-degree: 82%
+source-wordcount: '4182'
+ht-degree: 81%
 
 ---
 
@@ -22,6 +22,15 @@ Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScri
 >El equipo de Target es compatible con at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que está ejecutando una versión compatible.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch es el método preferido para actualizar at.js. Los desarrolladores de extensiones añaden continuamente nuevas funciones a sus extensiones y suelen corregir errores. Estas actualizaciones se empaquetan en nuevas versiones de una extensión y se ponen a disposición en el catálogo [!DNL Launch] como actualizaciones. Para obtener más información, consulte [Extension Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) en la *Guía del usuario del Experience Platform Launch*.
+
+## at.js 2.5.0 (19 de abril de 2021)
+
+Esta versión de at.js incluye las siguientes mejoras y cambios:
+
+* [Compatibilidad de ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) decisiones en el dispositivo para at.js.
+* [Vista previa de ](/help/c-activities/c-activity-qa/activity-qa.md) vínculos Compatibilidad con actividades de Automated Personalization
+
+Esta versión también elimina la compatibilidad con Microsoft Internet Explorer 10 y versiones posteriores.
 
 ## at.js 2.4.1 (23 de marzo de 2021)
 
