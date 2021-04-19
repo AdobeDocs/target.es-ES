@@ -3,14 +3,14 @@ keywords: control de calidad;vista previa;vínculos de vista previa;adobe target
 description: Aprenda a utilizar las URL de control de calidad de Adobe Target para realizar sencillos controles de calidad de las actividades integrales con vínculos de vista previa invariables, segmentación opcional de audiencias y realización de informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
 title: ¿Cómo Se Hacen Evaluaciones De Las Actividades?
 feature: Actividades
+exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 79%
+source-wordcount: '1546'
+ht-degree: 78%
 
 ---
-
 
 # Control de calidad de la actividad {#activity-qa}
 
@@ -21,6 +21,9 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
 Control de calidad de la actividad le permite probar completamente las actividades de Target antes de su lanzamiento. La funcionalidad de control de calidad de la actividad incluye:
 
 * Vínculos que nunca cambian ni requieren regeneración, independientemente de las actualizaciones realizadas en las experiencias o actividades, para compartir con los integrantes del equipo. Esto permite probar todas las actividades a lo largo del viaje del usuario.
+
+   Se agregó compatibilidad con vínculos de vista previa para actividades [!UICONTROL Automated Personalization] con [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
 * Respeto opcional a las condiciones a audiencia, de forma que los expertos en marketing puedan probar o ignorar criterios de segmentación con el fin de evaluar el aspecto de las experiencias sin necesidad de cumplir sus condiciones de audiencia.
 * La realización de informes de control de calidad se captura; de este modo, los expertos en marketing pueden confirmar si las métricas aumentan del modo esperado y es posible mantener los datos de informes de control de calidad separados de los informes de producción (para la creación de informes ajenos a A4T).
 * La capacidad de obtener una vista previa de una experiencia de forma aislada o junto con otras actividades activas que satisfagan los criterios de entrega (página/solicitud de Target/audiencia).
@@ -32,7 +35,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
 ## Acceso y uso compartido de una URL de control de calidad {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. En la página [!UICONTROL Información general] de una actividad (de cualquier tipo excepto Personalización automatizada), haga clic en el vínculo **[!UICONTROL Control de calidad de la actividad]**.
+1. En la página [!UICONTROL Información general] de una actividad, haga clic en el enlace **[!UICONTROL Control de calidad de la actividad]**.
 
    ![Vínculo de control de calidad de la actividad](assets/qa_link.png)
 
