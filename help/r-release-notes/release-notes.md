@@ -5,9 +5,9 @@ title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: ' Notas de la versión '
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '632'
 ht-degree: 35%
 
 ---
@@ -30,7 +30,7 @@ Esta versión contiene las siguientes nuevas funciones y mejoras. Los números e
 
 | Función | Detalles |
 | --- | --- |
-| Compatibilidad con la toma de decisiones en el dispositivo para at.js | La toma de decisiones en dispositivos permite a los especialistas en marketing y a los desarrolladores ofrecer experimentación y personalización en el navegador de un usuario con una latencia cercana a cero.<br>Para obtener más información, consulte  [Decisiones en el dispositivo para at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| Compatibilidad con la toma de decisiones en el dispositivo para at.js<br>(Fecha por anunciar) | La toma de decisiones en dispositivos permite a los especialistas en marketing y a los desarrolladores ofrecer experimentación y personalización en el navegador de un usuario con una latencia cercana a cero.<br>Para obtener más información, consulte  [Decisiones en el dispositivo para at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
 | ![](/help/assets/premium.png) Operadores basados en PremiumList para reglas de filtrado de entidades | [!DNL Target Recommendations] admite nuevos operadores basados en listas para reglas de filtrado de entidades. (TGT-39234)<br>Los operadores añadidos recientemente incluyen:<br><ul><li>Está contenido en la lista</li><li>No está contenido en la lista</li><li>La Lista Contiene Un Elemento De</li><li>La Lista No Contiene Un Elemento En</li><li>La lista contiene todos los elementos de</li><li>La Lista No Contiene Todos Los Elementos De</li></ul>Para obtener más información, consulte &quot;Operadores disponibles&quot; en [Uso de reglas de inclusión dinámicas y estáticas](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
 Esta versión contiene las siguientes correcciones.
@@ -41,7 +41,7 @@ Esta versión contiene las siguientes correcciones.
 * Se ha corregido un problema que provocaba que las propiedades se asignaran al espacio de trabajo incorrecto. (TGT-39869)
 * Se ha corregido un problema que provocaba una carga infinita si la solicitud fallaba después de cambiar el entorno al crear una exclusión de Recommendations. (TGT-39948)
 
-## Versión 2.5.0 de at.js (19 de abril de 2021)
+## Versión 2.5.0 de at.js (fecha por anunciar)
 
 Esta versión de at.js incluye las siguientes mejoras y cambios:
 
