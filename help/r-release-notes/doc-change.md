@@ -5,9 +5,9 @@ title: ¿Dónde puedo ver las actualizaciones de documentación de Target?
 feature: ' Notas de la versión '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 70d6279f33f6fdf6875307279a5bda6759f7a897
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4144'
 ht-degree: 29%
 
 ---
@@ -24,6 +24,7 @@ Esta página enumera los cambios significativos realizados en la documentación 
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Se ha agregado información sobre `decisioningMethod`. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Se ha añadido lo siguiente:<ul><li>Información sobre la clave `decisioningMethod`.</li><li>Ejemplo de &quot;getCallOffers() para tomar una decisión en el dispositivo&quot;.</li></ul> |
 |  | [Eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Se ha añadido la siguiente información:<ul><li>El artefacto de toma de decisiones en el dispositivo se ha realizado correctamente</li><li>Error en el artefacto de toma de decisiones en el dispositivo</li></ul> |
+|  | [Actividades](/help/c-activities/activities.md) | Se ha añadido información sobre la toma de decisiones en dispositivos. |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha añadido información sobre at.js 2.5.0. |
 |  | [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) | Se agregó compatibilidad con vínculos de vista previa para actividades [!UICONTROL Automated Personalization] con [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 |  | [Usar reglas de inclusión dinámicas y estáticas](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Se ha añadido información sobre los siguientes operadores nuevos:<ul><li>Está contenido en la lista</li><li> No está contenido en la lista</li><li>La Lista Contiene Un Elemento De</li><li>La Lista No Contiene Un Elemento En</li><li>La lista contiene todos los elementos de</li><li>La Lista No Contiene Todos Los Elementos De</li></ul> |
