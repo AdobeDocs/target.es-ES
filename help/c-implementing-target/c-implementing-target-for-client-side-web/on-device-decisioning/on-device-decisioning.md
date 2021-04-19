@@ -6,14 +6,18 @@ feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3506'
 ht-degree: 7%
 
 ---
 
 # Toma de decisiones en el dispositivo para at.js
+
+>[!NOTE]
+>
+>La toma de decisiones en el dispositivo estará disponible con la próxima versión [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Fecha que se anunciará próximamente.
 
 A partir de la versión 2.5.0, at.js ofrece la toma de decisiones en el dispositivo. La toma de decisiones en dispositivos le permite almacenar en caché sus actividades [Prueba A/B](/help/c-activities/t-test-ab/test-ab.md) y [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) (XT) en el explorador para realizar decisiones en memoria sin bloquear una solicitud de red a la [!DNL Adobe Target] Red perimetral.
 
@@ -105,7 +109,7 @@ La siguiente lista corresponde a los números del diagrama:
 
 | Paso   | Descripción |
 | --- | --- |
-| 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
 | 1 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | La biblioteca at.js realiza una solicitud para recuperar el artefacto de regla JSON de la CDN de Akamai más cercana al visitante. |
@@ -191,7 +195,7 @@ La siguiente lista corresponde a los números del diagrama:
 
 | Paso   | Descripción |
 | --- | --- |
-| 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
 | 1 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | Se realiza una solicitud para recuperar una experiencia. |
