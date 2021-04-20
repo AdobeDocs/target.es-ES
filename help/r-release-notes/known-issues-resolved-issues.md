@@ -2,7 +2,7 @@
 keywords: problemas conocidos;problemas resueltos;notas de la versión;errores;problemas;correcciones
 description: Encuentre información sobre problemas conocidos en Adobe Target, incluida información sobre la solución temporal. Cuando se resuelven los problemas, se mueven a la sección Resueltos.
 title: ¿Dónde puedo encontrar información sobre problemas conocidos y problemas resueltos?
-feature: ' Notas de la versión '
+feature: Release Notes
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt

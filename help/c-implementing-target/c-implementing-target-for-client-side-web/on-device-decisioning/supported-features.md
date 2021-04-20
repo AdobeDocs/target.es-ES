@@ -2,7 +2,7 @@
 keywords: implementación;biblioteca de javascript;js;atjs;toma de decisiones en el dispositivo;al tomar decisiones en el dispositivo;funciones compatibles
 description: Descubra qué funciones se admiten para la toma de decisiones en dispositivos.
 title: Qué funciones se admiten en la toma de decisiones en dispositivos
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt

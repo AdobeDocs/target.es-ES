@@ -2,8 +2,8 @@
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;aplicar oferta;at.js;funciones;función
 description: Utilice la función adobe.target.applyOffer() para la biblioteca JavaScript at.js de Adobe Target para aplicar el contenido de respuesta.
 title: ¿Cómo utilizo la función adobe.target.applyOffer() ?
-feature: 'at.js '
-role: Desarrollador
+feature: at.js
+role: Developer
 translation-type: tm+mt
 source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
 workflow-type: tm+mt

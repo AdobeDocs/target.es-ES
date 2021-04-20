@@ -2,7 +2,7 @@
 keywords: VEC;Compositor de experiencias visuales;visual experience composer;VEC;iframe;extensión;explorador
 description: Descubrir por qué algunos sitios web podrían no abrirse de forma fiable en el Compositor de experiencias visuales (VEC). La extensión del explorador del asistente de VEC le permite cargar sitios web de forma fiable dentro del VEC.
 title: ¿Cómo se usa la extensión de ayuda del Compositor de experiencias visuales (VEC)?
-feature: 'Compositor de experiencias visuales (VEC). '
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt

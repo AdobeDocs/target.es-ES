@@ -2,7 +2,7 @@
 keywords: implementar;implementación;configuración;configuración;parámetro de página
 description: Obtenga datos en Target mediante atributos de perfil en página.
 title: ¿Cómo puedo obtener datos en Target mediante el uso de atributos de perfil en página?
-feature: Implementación
+feature: Implementation
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt

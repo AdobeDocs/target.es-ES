@@ -2,7 +2,7 @@
 keywords: implementar target;implementación;implementar at.js;administrador de etiquetas;decisiones en el dispositivo;en la toma de decisiones del dispositivo
 description: Obtenga información sobre cómo especificar la configuración (detalles de la cuenta, métodos de implementación, etc.) para implementar la biblioteca at.js de Adobe Target sin utilizar un administrador de etiquetas.
 title: ¿Puedo implementar Target sin un Administrador de etiquetas?
-feature: Implementación del lado del servidor
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt

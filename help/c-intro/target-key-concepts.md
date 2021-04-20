@@ -2,7 +2,7 @@
 keywords: Información general y referencia;tipos de actividades;introducción
 description: Conozca los conceptos básicos de Adobe Target. Este artículo le presenta Target, sus tipos de actividades y otras funciones.
 title: ¿Cómo utilizo Target?
-feature: Información general
+feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9

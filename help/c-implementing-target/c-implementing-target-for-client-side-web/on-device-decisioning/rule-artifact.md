@@ -2,7 +2,7 @@
 keywords: implementación;biblioteca de javascript;js;atjs;toma de decisiones en el dispositivo;al tomar decisiones en el dispositivo;artefactos de regla
 description: Obtenga información sobre el artefacto de regla JSON utilizado por la toma de decisiones en el dispositivo.
 title: ¿Qué hace el artefacto de regla JSON en la toma de decisiones en dispositivos?
-feature: 'at.js '
+feature: at.js
 role: Developer
 translation-type: tm+mt
 source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577

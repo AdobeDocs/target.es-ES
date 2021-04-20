@@ -2,7 +2,7 @@
 keywords: solución de problemas;discrepancias en las métricas;preguntas más frecuentes;informes;nuevo visitante;nuevos visitantes;visitantes que regresan;visita de retorno;nueva visita
 description: Explore una lista de las preguntas más frecuentes y las respuestas sobre los informes de Adobe Target.
 title: ¿Dónde puedo encontrar respuestas a preguntas sobre los informes de Target?
-feature: Informes
+feature: Reports
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

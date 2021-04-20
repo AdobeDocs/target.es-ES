@@ -2,8 +2,8 @@
 keywords: implementar;implementación;lista de direcciones permitidas;lista de direcciones permitidas;borde;bordes
 description: Vea una lista de hosts para ayudarle a incluir en la lista de permitidos los perímetros de Adobe Target (nodos de servicio distribuidos geográficamente que garantizan tiempos de respuesta óptimos para los usuarios finales).
 title: ¿Cómo Puedo Incluir En La Lista De Permitidos Los Nodos De Target Edge?
-feature: Privacidad y seguridad
-role: Desarrollador
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
 workflow-type: tm+mt

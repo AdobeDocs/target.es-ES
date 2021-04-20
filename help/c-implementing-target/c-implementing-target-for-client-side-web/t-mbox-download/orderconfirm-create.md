@@ -2,8 +2,8 @@
 keywords: confirmación de pedido;orderConfirmPage
 description: Obtenga información sobre la implementación de mbox.js heredada de Adobe Target. Migrar al SDK web de Adobe Experience Platform (SDK web de AEP) o a la versión más reciente de at.js.
 title: ¿Cómo se crea un mbox de confirmación de pedido con mbox.js?
-feature: 'at.js '
-role: Desarrollador
+feature: at.js
+role: Developer
 exl-id: 952c2d1b-1ee8-4e9b-bce3-1c439127bb9b
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

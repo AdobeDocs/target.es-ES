@@ -3,7 +3,7 @@ keywords: implementar;implementación
 description: Comprenda los conceptos básicos, familiarícese con el funcionamiento de Target y cómo se integra con su infraestructura, y comprenda cómo se realiza el seguimiento de los visitantes.
 landing-page-description: Antes de empezar a usar Adobe Target, debe implementarlo en el sitio, comprender algunos conceptos y términos básicos, y familiarizarse con el funcionamiento de Target.
 title: ¿Cómo Implemento Target?
-feature: Implementación
+feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt

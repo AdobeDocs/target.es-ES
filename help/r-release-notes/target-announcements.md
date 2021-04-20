@@ -2,7 +2,7 @@
 keywords: anuncios;generador de habilidades;chat de desarrollador;pausa para café;eventos;bosque;gartner;seminario web
 description: Lea los anuncios y regístrese en eventos de Adobe Target, incluidas las sesiones de Generador de habilidades, charlas con desarrolladores y gestores de productos, seminarios web y mucho más.
 title: ¿Dónde puedo encontrar anuncios y eventos de Target?
-feature: ' Notas de la versión '
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

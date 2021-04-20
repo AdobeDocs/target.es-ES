@@ -2,7 +2,7 @@
 keywords: Crear segmentación automática;prueba A/B;actividad de segmentación automática;nueva actividad a/b;segmentación automática;segmentación automática para experiencias personalizadas;personalizada;optimización
 description: Aprenda a usar el Compositor de experiencias visuales (VEC) en Adobe Target para crear su actividad de prueba A/B de segmentación automática directamente en una página con Target habilitado.
 title: ¿Cómo creo una actividad de segmentación automática?
-feature: Segmentación automática
+feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
 source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e

@@ -2,7 +2,7 @@
 keywords: crear asignación automática;Prueba A/B;asignación automática de actividad;nueva actividad a/b;asignación automática;asignación automática a la mejor experiencia;asignación automática;asignación automática
 description: Descubra cómo usar el Compositor de experiencias visuales (VEC) en Adobe Target para crear una actividad de prueba A/B de asignación automática directamente en una página con Destinatario habilitado.
 title: ¿Cómo se crea una Actividad de asignación automática?
-feature: Asignación automática
+feature: Auto-Allocate
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

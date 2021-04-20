@@ -2,7 +2,7 @@
 keywords: mvt; prueba multivariable; crear prueba multivariable; creación de prueba multivariable; crear mvt; creación de mvt, procedimiento de mvt; procedimiento de prueba multivariable
 description: Aprenda a utilizar el Compositor de experiencias visuales (VEC) en Adobe Target para crear una prueba multivariada (MVT) directamente en una página con Destinatario habilitado.
 title: ¿Cómo se crea una prueba multivariada?
-feature: Pruebas multivariable
+feature: Multivariate Tests
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: implementar;implementación;configuración;configuración;actualización de perfiles en lote
 description: Obtenga datos en Target mediante la API de actualización de perfiles en lote.
 title: ¿Cómo puedo obtener datos en Target mediante la API de actualización de perfiles en lote?
-feature: Implementación
+feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt

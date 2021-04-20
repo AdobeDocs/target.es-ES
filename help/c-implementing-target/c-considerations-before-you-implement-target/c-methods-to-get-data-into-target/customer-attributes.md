@@ -2,7 +2,7 @@
 keywords: implementar;implementación;configuración;configuración;atributos del cliente
 description: Obtenga datos en Target mediante atributos del cliente.
 title: ¿Cómo puedo obtener datos en Target mediante Atributos del cliente?
-feature: Implementación
+feature: Implementation
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt
