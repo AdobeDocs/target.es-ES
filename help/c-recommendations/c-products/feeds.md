@@ -1,18 +1,18 @@
 ---
-keywords: fuente de recomendaciones;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de análisis
-description: Descubra cómo las fuentes importan entidades en Adobe Target Recommendations mediante archivos CSV, el formato de fuente de Google Product Search y las clasificaciones de productos de Analytics.
-title: ¿Cómo se usan las fuentes en Destinatario Recommendations?
+keywords: fuente de recomendaciones;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
+description: Descubra cómo las fuentes importan entidades en Adobe [!DNL Target] Recommendations mediante archivos CSV, el formato de fuente de Búsqueda de productos de Google y las clasificaciones de productos de Analytics.
+title: ¿Cómo utilizo las fuentes en [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2522'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Fuentes{#feeds}
+# ![PREMIUM](/help/assets/premium.png) Fuentes
 
 Utilice fuentes para obtener entidades importadas en [!DNL Adobe Target Recommendations]. Las entidades se pueden enviar con archivos CSV, el formato de fuente de Google Product Search y las clasificaciones de productos de Adobe Analytics.
 
@@ -20,18 +20,18 @@ Utilice fuentes para obtener entidades importadas en [!DNL Adobe Target Recommen
 
 Las fuentes le permiten transferir [Entidades](/help/c-recommendations/c-products/products.md) o ampliar los datos de mbox con información que, o bien no está disponible en la página, o bien no es seguro enviar directamente desde la página, como margen, COGS, etc.
 
-Las fuentes le permiten pasar información detallada del elemento a [!DNL Recommendations], como ID del producto, categoría, nombre, mensaje y otros atributos.
+Las fuentes permiten pasar información detallada del artículo a [!DNL Recommendations], como ID del producto, categoría, nombre, mensaje y otros atributos.
 
 Puede seleccionar las columnas de su archivo de clasificaciones de productos de [!DNL Target] o del archivo de Búsqueda de productos de Google que desea enviar al servidor de [!DNL Recommendations].
 
-Estos datos sobre cada elemento se pueden utilizar para:
+Estos fragmentos de datos sobre cada elemento se pueden utilizar para:
 
 * Mostrar valores en diseños
 * Definir reglas de inclusión de criterios
 * Ordenar elementos en diferentes colecciones
-* Aplicar exclusiones a las recomendaciones
+* Aplicar exclusiones a recomendaciones
 
-Las descripciones de los elementos se pueden pasar a [!DNL Target] mediante fuentes o mboxes. Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
+Las descripciones de elementos se pueden pasar a [!DNL Target] mediante fuentes o mboxes. Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
 
 La lista [!UICONTROL Fuentes] (**[!UICONTROL Recomendaciones]** > **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado.
 
@@ -48,10 +48,10 @@ La página Fuentes contiene las siguientes columnas:
 
 >[!IMPORTANT]
 >
->Las entidades cargadas y los atributos de entidad caducan pasados 61 días. Esto implica lo siguiente:
+>Las entidades y los atributos de entidad cargados caducan al cabo de 61 días. Esto implica lo siguiente:
 >
->* La fuente debe ejecutarse al menos mensualmente para asegurarse de que el contenido del catálogo no caduca.
->* La eliminación de un elemento del archivo de fuente no elimina ese elemento del catálogo. Para eliminar el elemento del catálogo, elimínelo manualmente mediante la interfaz de usuario o la API de Destinatario. O bien, modifique los atributos del artículo (como el inventario) para asegurarse de que el artículo está excluido de la consideración.
+>* La fuente debe ejecutarse al menos cada mes para garantizar que el contenido del catálogo no caduque.
+>* Al eliminar un elemento del archivo de fuente, no se elimina ese elemento del catálogo. Para eliminar el elemento del catálogo, elimínelo manualmente mediante la interfaz de usuario o la API de Target. O bien, modifique los atributos del artículo (como el inventario) para asegurarse de que el artículo esté excluido de la consideración.
 
 
 ## Tipos de origen
@@ -124,7 +124,7 @@ La mayoría de vendedores cargan los productos a Google para que dichos producto
 >
 >El método POST debe estar permitido en el servidor que hospeda el contenido de las fuentes de Google.
 
-Debido a que los usuarios [!DNL Recommendations] ya configuran fuentes .xml o .txt para enviarlas a Google a través de URL o FTP, las fuentes de entidades aceptan los datos del producto y los utilizan para crear el catálogo de recomendaciones. Especifique si la fuente existe y si el servidor de Recommendations recupera los datos.
+Dado que los usuarios de [!DNL Recommendations] ya configuran fuentes .xml o .txt para enviarlas a Google a través de URL o FTP, las fuentes de entidades aceptan esos datos de productos y los utilizan para crear el catálogo de recomendaciones. Especifique si la fuente existe y si el servidor de Recommendations recupera los datos.
 
 Si utiliza la búsqueda de productos de Google para la carga de las fuentes de entidades, debe tener no obstante un mbox de página de producto en la página si desea mostrar recomendaciones en ella o hacer un seguimiento de las vistas de productos para la entrega de algoritmos basados en vistas.
 
@@ -218,7 +218,7 @@ La clasificación de productos Analytics es la única clasificación disponible 
 > Tenga en cuenta las siguientes advertencias:
 >
 >* Las actualizaciones de los atributos de la entidad incurren en un retraso adicional de hasta 24 horas.
->* [!DNL Target] solo admite clasificaciones de productos. El SKU de producto de Analytics debe asignarse al mismo nivel que el [!DNL Recommendations] `entity.id`. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
+>* [!DNL Target] solo admite clasificaciones de productos. El SKU del producto de Analytics debe asignarse al mismo nivel que el [!DNL Recommendations] `entity.id`. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
 
 
 ## Crear fuente    {#steps}
@@ -236,7 +236,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
    * Fuente de productos de Google
    * Clasificaciones de Analytics
 
-   Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). También puede [descargar una guía CSV de modelo](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) para ayudarle a dar un formato correcto a la fuente.
+   Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). También puede [descargar una guía de CSV modelo](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
 
 1. (Condicional) Si ha seleccionado **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
 
@@ -301,7 +301,7 @@ Estos son los posibles estados de una fuente:
 | Esperando descarga | Target se está preparando para descargar el archivo de fuente. |
 | Descargando del archivo de fuente | Target está descargando el archivo de fuente. |
 | Importando elementos | Target está importando elementos del archivo de fuente. |
-| Fuente importada correctamente a las *horas* | Target ha importado el archivo de fuente en el sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán dentro de poco tiempo en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo más tarde y actualice la página que contenga recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un artículo provocan que un artículo se excluya de las recomendaciones, la exclusión se reflejará inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento ya *no* se excluya de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones aún no se reflejen en la interfaz de usuario de Búsqueda en el catálogo. Aparece un estado separado en la Búsqueda en catálogo que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
+| Fuente importada correctamente a las *horas* | Target ha importado el archivo de fuente en el sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán dentro de poco tiempo en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo más tarde y actualice la página que contenga recomendaciones.<br>Notas:<ul><li>Si los cambios en los atributos de un elemento hacen que se excluya un elemento de las recomendaciones, la exclusión se reflejará inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento ya *no* se excluya de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones no se reflejen aún en la interfaz de usuario Búsqueda en el catálogo. Aparece un estado separado en la Búsqueda en catálogo que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
 | Error en la indexación | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
 | Servidor no encontrado | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
 
@@ -309,7 +309,7 @@ Para actualizar una fuente (por ejemplo, si quiere hacer cambios en la configura
 
 >[!IMPORTANT]
 >
->Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un elemento no se incluye en un archivo de fuente (u otro método de actualización de entidad) al menos una vez cada 60 días, [!DNL Adobe Target] deduce que el elemento ya no es relevante y lo elimina del catálogo.
+>Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un elemento no está incluido en un archivo de fuente (u otro método de actualización de entidad) al menos una vez cada 60 días, [!DNL Adobe Target] deduce que el elemento ya no es relevante y lo elimina del catálogo.
 
 ### Indicadores de estado de fuente    {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -342,7 +342,7 @@ El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutad
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Explicación de las fuentes en Recommendations (3:01)  ![Distintivo de información general](/help/assets/overview.png)
+### Explicación de las fuentes en Recommendations (3:01)  ![Distintivo Información general](/help/assets/overview.png)
 
 Este vídeo contiene la información siguiente:
 
@@ -351,7 +351,7 @@ Este vídeo contiene la información siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creación de una fuente (6:44)  ![Insignia de tutorial](/help/assets/tutorial.png)
+### Creación de una fuente (6:44)  ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
