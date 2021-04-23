@@ -1,40 +1,40 @@
 ---
-keywords: informe;informes;sistema de informes;solución de Experience Cloud;huso horario;moneda;excluir direcciones IP;alza estimada de ingresos;ingresos;alza de ingresos;prioridades específicas;prioridades específicas
-description: Use Destinatario o Adobe Analytics como origen de sistema de informes, especifique el huso horario y el formato de moneda predeterminados, agregue direcciones IP para excluir del sistema de informes, etc.
-title: ¿Cómo configuro Sistema de informes en Destinatario?
-feature: Administration & Configuration
+keywords: informe;informes;solución de experience cloud;zona horaria;zona horaria;moneda;excluir direcciones IP;alza estimada de ingresos;ingresos;alza de ingresos;prioridades específicas;específicas
+description: Use [!DNL Target] o Adobe Analytics como fuente de informes, especifique la zona horaria y el formato de moneda predeterminados, agregue direcciones IP para excluir de los informes, etc.
+title: ¿Cómo configuro los informes en Target?
+feature: Administración y configuración
 role: Administrator
+exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 31%
 
 ---
 
+# Configuración de informes en Target
 
-# Configurar sistema de informes en Destinatario
+Configure las opciones generales para usarlas en los informes [!DNL Adobe Target] que se aplican a toda la cuenta [!DNL Target].
 
-Configure las opciones generales para usarlas en el sistema de informes [!DNL Adobe Target] que se aplican a toda la cuenta [!DNL Target].
-
-Para acceder a la página de configuración [!UICONTROL Sistema de informes], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Sistema de informes].**
+Para acceder a la página de configuración de [!UICONTROL Reporting], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 Puede especificar la siguiente configuración en esta página:
 
-* La solución Adobe Experience Cloud que se va a usar para sistema de informes
-* El huso horario que se usará para el sistema de informes
-* La divisa que se va a utilizar para el sistema de informes
-* Direcciones IP para excluir del sistema de informes
-* Si se muestra un alza estimada en los ingresos en sistemas de informes
+* La solución de Adobe Experience Cloud que se utilizará para la creación de informes
+* Zona horaria que se usará para los informes
+* La moneda que se usará para los informes
+* Direcciones IP que se excluirán de los informes
+* Si se muestra el alza estimada de ingresos en los informes
 * Si se deben habilitar prioridades específicas
 
 >[!NOTE]
 >
->Tenga en cuenta que la configuración de zona horaria, moneda y direcciones IP para excluir se aplica a actividades que utilizan sistema de informes [!DNL Target]. Esta configuración no se aplica a actividades que utilizan [Analytics para Destinatario (A4T)] como fuente de sistema de informes (/help/c-integrating-target-with-mac/a4t/a4t.md).
+>Tenga en cuenta que la zona horaria, la moneda y las direcciones IP que excluyen la configuración se aplican a las actividades que utilizan informes [!DNL Target]. Estas configuraciones no se aplican a actividades que utilizan [Analytics for Target (A4T)] como fuente de informes (/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-![Página sistema de informes](/help/administrating-target/assets/reporting.png)
+![Página Informes](/help/administrating-target/assets/reporting.png)
 
-## Solución de sistema de informes Cloud
+## Solución de nube de informes
 
 Establezca opciones que determinen los datos que se usan para los resultados y los informes.
 
@@ -42,30 +42,30 @@ Seleccione la fuente de informes para sus actividades: [!DNL Target] o [!DNL Ado
 
 Tenga en cuenta la siguiente información al elegir su fuente de informes:
 
-* Si la fuente de informes está configurada en **[!DNL Target]**, no se le permite activar una actividad que use como fuente de informes. [!DNL Analytics] Debe cambiar el origen del sistema de informes a [!DNL Target] en la actividad o cambiar el origen del sistema de informes a **[!UICONTROL Seleccionar por actividad]** en **[!UICONTROL Administración] > [!UICONTROL Sistema de informes]**.
-* Si el origen de sistema de informes está establecido en **[!DNL Analytics]** aquí, no se le permite activar una actividad que utilice [!DNL Target] como origen de sistema de informes (el origen de sistema de informes se especifica como **[!UICONTROL Destinatario por actividad])**. Debe cambiar el origen de sistema de informes a [!DNL Analytics] en la actividad o cambiar el motor de sistema de informes a **[!UICONTROL Seleccionar por actividad]** en **[!UICONTROL Administración] > [!UICONTROL Sistema de informes]**.
-* Si el origen de sistema de informes está establecido en **[!UICONTROL Seleccionar por actividad]** aquí, puede crear, activar y desactivar actividades que sean compatibles con el origen de sistema de informes seleccionado. Para obtener una matriz de actividades admitidas, consulte [Tipos de actividades admitidas](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) en *Adobe Analytics como fuente de sistema de informes para Adobe Target (A4t)*.
-* [!UICONTROL La creación, activación y desactivación de actividades de Automated Personalization] (AP) están permitidas independientemente del origen de sistema de informes seleccionado. Las actividades de Automated Personalization no son compatibles cuando elige [Adobe Analytics como fuente de sistema de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Aunque especifique [!DNL Analytics] como fuente de sistema de informes, [!DNL Target] se utiliza como fuente de sistema de informes para actividades de Automated Personalization. Para obtener más información, consulte [Tipos de actividad admitidos](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) en *Adobe Analytics como fuente de sistema de informes para Adobe Target (A4t)*.
+* Si la fuente de informes está configurada en **[!DNL Target]**, no se le permite activar una actividad que use como fuente de informes. [!DNL Analytics] Debe cambiar la fuente de informes a [!DNL Target] en su actividad o cambiar la fuente de informes a **[!UICONTROL Seleccionar por actividad]** en **[!UICONTROL Administración] > [!UICONTROL Informes]**.
+* Si la fuente de informes está configurada en **[!DNL Analytics]** aquí, no se le permite activar una actividad que usa [!DNL Target] como fuente de informes (la fuente de informes se especifica como **[!UICONTROL Target por actividad])**. Debe cambiar la fuente de informes a [!DNL Analytics] en su actividad o cambiar el motor de informes a **[!UICONTROL Seleccionar por actividad]** en **[!UICONTROL Administración] > [!UICONTROL Informes]**.
+* Si la fuente de informes está configurada en **[!UICONTROL Select per activity]** aquí, puede crear, activar y desactivar actividades que sean compatibles con la fuente de informes seleccionada. Para obtener una matriz de actividades compatibles, consulte [Tipos de actividades compatibles](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) en *Adobe Analytics como fuente de informes para Adobe Target (A4t)*.
+* [!UICONTROL La creación, activación y desactivación de actividades de Automated Personalization]  (AP) están permitidas independientemente de la fuente de informes seleccionada. Las actividades de Automated Personalization no son compatibles cuando elige [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Aunque especifique [!DNL Analytics] como fuente de informes, [!DNL Target] se utilizará como fuente de informes para las actividades de Automated Personalization. Para obtener más información, consulte [Tipos de actividades compatibles](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) en *Adobe Analytics como fuente de informes para Adobe Target (A4t)*.
 
-## Zona horaria del Sistema de informes
+## Zona horaria para la creación de informes
 
-Especifique la zona horaria que se va a usar para el sistema de informes.
+Especifique la zona horaria que se usará para los informes.
 
-## Moneda para Sistema de informes
+## Moneda para informes
 
-Especifique la divisa que se va a utilizar para el sistema de informes.
+Especifique la moneda que se usará para los informes.
 
-## IP que excluir de los datos de sistema de informes de Destinatario
+## IP a excluir de los datos de informes [!DNL Target]
 
-Especifique las direcciones IP que desee excluir de los datos de sistema de informes. Por ejemplo, excluir las direcciones de compañía internas es una buena manera de garantizar que los datos de sistema de informes reflejen las interacciones de los clientes en el sitio web.
+Especifique las direcciones IP que desee excluir de los datos de informes. Por ejemplo, excluir las direcciones internas de la empresa es una buena manera de garantizar que los datos de los informes reflejen las interacciones de los clientes en el sitio web.
 
-Escriba cada dirección IP en una nueva línea.
+Introduzca cada dirección IP en una nueva línea.
 
 ## Mostrar el alza estimada en ingresos
 
-Puede elegir mostrar el alza estimada en ingresos si introduce un valor monetario para el objetivo. [!DNL Target] puede calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora. La característica de alza estimada está deshabilitada de manera predeterminada.
+Puede elegir mostrar el alza estimada de ingresos si introduce un valor monetario para el objetivo. [!DNL Target] puede calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora. La característica de alza estimada está deshabilitada de manera predeterminada.
 
-Sólo los usuarios administradores [!DNL Experience Cloud] pueden habilitar o deshabilitar esta función. Si se deshabilita el alza estimada, los campos correspondientes no aparecerán en la interfaz. Deshabilitar esta característica no genera pérdidas de datos, incluidos los datos usados para los cálculos. Los cálculos se basan en datos recopilados, independientemente de si la característica está habilitada o no.
+Solo los usuarios administradores de [!DNL Experience Cloud] pueden habilitar o deshabilitar esta función. Si se deshabilita el alza estimada, los campos correspondientes no aparecerán en la interfaz. Deshabilitar esta característica no genera pérdidas de datos, incluidos los datos usados para los cálculos. Los cálculos se basan en datos recopilados, independientemente de si la característica está habilitada o no.
 
 Para obtener información detallada, consulte [Calcular el alza de ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
