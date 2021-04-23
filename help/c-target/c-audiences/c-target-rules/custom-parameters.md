@@ -1,18 +1,18 @@
 ---
 keywords: parámetros personalizados;parámetros personalizados de target;targetpageparams;segmentación de parámetros mbox
-description: Obtenga información sobre cómo pasar parámetros personalizados a Adobe Target para su uso en audiencias.
-title: ¿Puedo Destinatario de Visitantes en función de parámetros personalizados?
-feature: Audiences
+description: Aprenda a pasar parámetros personalizados a Adobe [!DNL Target] para usarlos en audiencias.
+title: ¿Puedo  [!DNL Target] Visitantes en función de parámetros personalizados?
+feature: Audiencias
+exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 84%
+source-wordcount: '410'
+ht-degree: 85%
 
 ---
 
-
-# Parámetros personalizados{#custom-parameters}
+# Parámetros personalizados
 
 Los parámetros personalizados son parámetros mbox. Si pasa algún parámetro mbox a mboxes, o usa la función targetPageParams, ese parámetro aparece aquí para su uso en audiencias.
 
@@ -22,7 +22,7 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Añadir regla]** > **[!UICONTROL Personalizado]**.
+1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Personalizado]**.
 
    Para seleccionar el parámetro deseado:
 
@@ -56,7 +56,7 @@ La [tarjeta emergente de detalles de definición](/help/c-target/c-audiences/aud
 * Las audiencias y actividades se evalúan para un mbox específico. Por ejemplo, si el mbox global pasa un determinado parámetro pero el mbox regional no, la actividad o la audiencia orientada a ese parámetro no será calificada para el mbox regional.
 * La segmentación no se evalúa en parámetros de mbox internos, como mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId y mboxVersion.
 
-## Vídeo de capacitación: Creación de Audiencias ![distintivo de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de audiencias ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
