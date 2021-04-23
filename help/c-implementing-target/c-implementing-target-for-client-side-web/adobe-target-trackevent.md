@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;rastrear evento;at.js;funciones;función;preventDefault;preventdefault;evitar prederminado
-description: Utilice la función adobe.destinatario.trackEvent() de la biblioteca JavaScript de Adobe Target at.js para activar una solicitud de informe de acciones de usuario, como clics y conversiones en el sitio.
-title: ¿Cómo se usa la función adobe.destinatario.trackEvent()?
-feature: at.js
+description: Utilice la función adobe.target.trackEvent() para la biblioteca JavaScript Adobe [!DNL Target] at.js para activar una solicitud que informe de las acciones de los usuarios, como clics y conversiones en el sitio.
+title: ¿Cómo utilizo la función adobe.target.trackEvent() ?
+feature: 'at.js '
 role: Developer
+exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 70%
 
 ---
-
 
 # adobe.target.trackEvent(options)
 
@@ -23,7 +23,7 @@ He aquí los detalles de API:
 
 | Clave | Tipo | Requerido | Descripción |
 |--- |--- |--- |--- |
-| mbox | Cadena | Sí | Nombre de mbox <br>**Nota**: Si se activa una llamada a trackEvent() con un nombre de mbox que ya se ha activado en la página, el SDID de trackEvent() se restablece y será diferente a las llamadas de Destinatario en la página. Sin embargo, al activar una llamada a trackEvent() con un nombre de mbox diferente, el SDID de la llamada trackEvent() se mantiene coherente con las llamadas a Page Load Request/activateView() en la página. |
+| mbox | Cadena | Sí | Nombre de mbox <br>**Nota**: Si se activa una llamada a trackEvent() con un nombre de mbox que ya se ha activado en la página, se restablece el SDID de trackEvent() y será diferente a las llamadas de Target en la página. Sin embargo, activar una llamada a trackEvent() con un nombre de mbox diferente mantiene el SDID de la llamada trackEvent() coherente con las llamadas a Page Load Request/triggerView() en la página. |
 | selector | Cadena | No | Los selectores de CSS utilizados para encontrar los elementos HTML. Los detectores de eventos se adjuntarán a los elementos encontrados. |
 | type | Cadena | No | Representa un tipo de evento registrado. Puede ser tanto eventos HTML conocidos como: click, mousedown, etc. como también eventos HTML personalizados. |
 | preventDefault | Booleano | No | Indica si usar `event.preventDefault()` en la llamada de retorno de la escucha de eventos. Toma el valor predeterminado de falso.<br>**Nota:** Solo compatible con `form[submit] and `un[clic]. No se admiten otros escenarios debido a la complejidad y a la gran cantidad de escenarios por admitir. |
