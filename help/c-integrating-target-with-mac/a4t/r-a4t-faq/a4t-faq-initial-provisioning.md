@@ -1,18 +1,18 @@
 ---
 keywords: faq;preguntas frecuentes;analytics para target;a4t;aprovisionamiento;adobe Experience Cloud
-description: Encuentre respuestas a preguntas que se plantean a menudo sobre el aprovisionamiento de Analytics para Target (A4T), lo que le permite usar los informes de Analytics para las actividades de Target.
+description: Encuentre respuestas a preguntas que se plantean a menudo sobre el aprovisionamiento de Analytics para actividades [!DNL Target] (A4T), which lets you use Analytics reporting for [!DNL Target] .
 title: ¿Dónde puedo encontrar información sobre el aprovisionamiento inicial de A4T?
 feature: Analytics for Target (A4T)
+exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 68%
+source-wordcount: '476'
+ht-degree: 66%
 
 ---
 
-
-# Aprovisionamiento inicial: preguntas más frecuentes sobre A4T{#initial-provisioning-a-t-faq}
+# Aprovisionamiento inicial: preguntas más frecuentes sobre A4T
 
 En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el aprovisionamiento [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
@@ -24,7 +24,7 @@ Para implementar un caso de uso de A4T básico de varias páginas:
 
 * Para las páginas restantes del sitio, donde solo se rastrean las métricas de Analytics, implemente Analytics en esas páginas. No es necesario implementar Target en esas páginas. Las métricas de Analytics registradas en esas páginas se vinculan automáticamente a la actividad de Target para la que el usuario estaba cualificado inicialmente, según la información de Target adjunta a ese visitante desde la viñeta anterior.
 
-## ¿Cómo puedo saber si A4T está habilitado en mi cuenta de Target?{#section_4437D284448F4313BF953D4B6EDBACA6}
+## ¿Cómo puedo saber si A4T está habilitado en mi cuenta [!DNL Target]? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
 Para poder seleccionar un grupo de informes al definir una actividad de Analytics, necesita una cuenta de usuario de Analytics y una cuenta de usuario de Target. Sus cuentas de usuario deben estar configuradas tal como se describe en la documentación. Consulte [Requisitos de permisos de usuario](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
@@ -36,8 +36,8 @@ Si hay problemas de aprovisionamiento, compruebe si A4T se está aprovisionando 
 
 Si se encuentra con uno de estos problemas, haga lo siguiente:
 
-* Asegúrese de que las cuentas de Analytics y Target estén vinculadas en Experience Cloud.
-* Algunos clientes utilizan varios inicios de sesión de empresa de Analytics en la misma empresa de Experience Cloud. Si utiliza varios inicios de sesión, asegúrese de que la última empresa de Analytics en la que ha iniciado sesión sea la que esté vinculada a la cuenta de Target para la integración.
+* Asegúrese de que las cuentas de Analytics y Target estén vinculadas en el Experience Cloud .
+* Algunos clientes utilizan varios inicios de sesión de empresa de Analytics en la misma empresa Experience Cloud. Si utiliza varios inicios de sesión, asegúrese de que la última empresa de Analytics en la que ha iniciado sesión sea la que esté vinculada a la cuenta de Target para la integración.
 * Si lleva varias horas con la sesión iniciada en Experience Cloud, en ocasiones la sesión de Analytics puede caducar. Cierre sesión y vuelva a iniciarla para intentarlo de nuevo.
 
 ## ¿Por qué no veo las opciones de Analytics en Target?    {#section_EDD996AFB08B4DB196DD934BE55BF48D}
@@ -48,6 +48,6 @@ Consulte “¿Por qué no se cargan los grupos de informes?” Más de. La causa
 
 Consulte “¿Por qué no se cargan los grupos de informes?” (arriba). La causa raíz de este problema es la misma.
 
-## ¿Por qué mis informes están vacíos en Target?    {#section_3837104757464CB488C5A83014A669A1}
+## ¿Por qué mis informes están vacíos en [!DNL Target]? {#section_3837104757464CB488C5A83014A669A1}
 
 Consulte “¿Por qué no se cargan los grupos de informes?” (arriba). La causa raíz de este problema es la misma.
