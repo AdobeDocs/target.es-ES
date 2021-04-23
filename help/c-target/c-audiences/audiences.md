@@ -1,24 +1,24 @@
 ---
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;segmentación de audiencia;informe de audiencia;audiencia de informe;segmento;parámetros de perfil personalizados;definición de audiencia;lista de audiencias
-description: Obtenga información sobre cómo utilizar la página Audiencias de Adobe Target y cómo vista tarjetas de definición de Audiencia que contienen detalles de audiencia e información de uso.
-title: ¿Cómo se usa la Lista de Audiencia?
-feature: Audiences
+description: Aprenda a utilizar la página Audiencias en Adobe [!DNL Target] y a ver las tarjetas de Definición de audiencia que contienen detalles de audiencia e información de uso.
+title: ¿Cómo utilizo la lista de audiencias?
+feature: Audiencias
+exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 92%
 
 ---
 
-
-# Crear audiencias{#create-audiences}
+# Crear audiencias
 
 Las audiencias en Adobe Target determinan quién ve el contenido y las experiencias en una actividad segmentada.
 
 Las audiencias se utilizan siempre que está disponible la determinación de objetivos. Al segmentar una actividad, puede seleccionar una audiencia reutilizable de la lista [!UICONTROL Audiencias], [crear una audiencia específica de actividad](/help/c-target/creating-activity-only-audience.md) y segmentarla, o [combinar varias audiencias](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad-hoc.
 
-También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. Consulte [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) en la *Guía del usuario de servicios principales*.
+También puede usar datos de la audiencia recopilados por [!DNL Analytics] para personalización y segmentación en tiempo real en [!DNL Adobe Target] y otras soluciones de [!DNL Experience Cloud]. Consulte [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) en la *Guía del usuario de los servicios principales*.
 
 [!DNL Target] distingue dos tipos de audiencias:
 
@@ -40,7 +40,7 @@ Al trabajar con audiencias que se crearon originalmente en AAM, Target le alerta
 * Si se eliminó una audiencia en AAM, se muestra un icono de advertencia tanto en la lista de [!UICONTROL Audiencias] como en el selector de audiencias. Una información sobre herramientas en la IU también indica que la audiencia se eliminó en AAM.
 * Si intenta combinar varias audiencias con una audiencia eliminada, o si intenta guardar una actividad que hace referencia a una audiencia eliminada, aparecerá un mensaje de advertencia.
 
-También puede segmentar parámetros de perfil personalizados y parámetros de `user.`. Al agregar una audiencia, haga clic en **[!UICONTROL Añadir regla]** > **[!UICONTROL Perfil de Visitante]** y, a continuación, elija el parámetro que desee utilizar para destinatario de la actividad. Si el parámetro que desea utilizar no está en la lista, significa que ningún mbox lo ha activado. Encontrará otros parámetros personalizados disponibles de mbox en la lista desplegable [!UICONTROL Parámetros personalizados].
+También puede segmentar parámetros de perfil personalizados y parámetros de `user.`. Al agregar una audiencia, haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Perfil del visitante]** y, a continuación, elija el parámetro que desee utilizar para segmentar la actividad. Si el parámetro que desea utilizar no está en la lista, significa que ningún mbox lo ha activado. Encontrará otros parámetros personalizados disponibles de mbox en la lista desplegable [!UICONTROL Parámetros personalizados].
 
 Use el cuadro de búsqueda para buscar la lista [!UICONTROL Audiencias]. Puede buscar cualquier parte del nombre de una audiencia, o bien encerrar entre comillas una cadena específica.
 
@@ -81,7 +81,7 @@ Tenga en cuenta lo siguiente al trabajar con audiencias importadas:
 * Target Standard/Premium ya no admite audiencias de segmentación por expresión.
 * Target Standard/Premium no admite algunas audiencias obsoletas o dispone de operadores mejorados que facilitan el uso. Debido a esto, aunque una audiencia importada funcione tal y como se indica en su descripción, puede no estar disponible para su creación en la interfaz de Standard/Premium. Por ejemplo, puede ver las audiencias sociales con sus reglas, pero Target Standard/Premium no permite crearlas.
 
-## Vídeo de formación: Uso de audiencias  ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Uso de audiencias  ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las audiencias.
 
