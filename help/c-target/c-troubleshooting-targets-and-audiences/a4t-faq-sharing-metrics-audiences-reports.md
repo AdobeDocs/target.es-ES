@@ -1,18 +1,18 @@
 ---
 keywords: Preguntas Más Frecuentes, Preguntas Más Frecuentes, Analytics Para Target, Segmentos, A4T, Compartir Informes
-description: Encuentre preguntas más frecuentes sobre cómo compartir métricas, audiencias e informes al usar Analytics for Target (A4T). A4T le permite utilizar los informes de Analytics para actividades de Adobe Target.
+description: Encuentre preguntas más frecuentes sobre cómo compartir métricas, audiencias e informes al usar Analytics para actividades [!DNL Target] (A4T). A4T lets you use Analytics reporting for Adobe [!DNL Target] .
 title: ¿Dónde se encuentran las preguntas más frecuentes sobre el uso compartido de métricas, audiencias e informes en A4T?
 feature: Analytics for Target (A4T)
 exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
 translation-type: tm+mt
-source-git-commit: 7546db1b78825b969f5639b26c0d6a3e5319dd3a
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 66%
+source-wordcount: '241'
+ht-degree: 69%
 
 ---
 
-# Compartir métricas, audiencias e informes: preguntas más frecuentes sobre A4T{#share-metrics-audiences-and-reports-a-t-faq}
+# Uso compartido de métricas, audiencias e informes: preguntas más frecuentes sobre A4T
 
 En este tema encontrará respuestas a preguntas que se plantean a menudo sobre cómo compartir métricas, audiencias e informes al usar Analytics como fuente de informes para Target (A4T).
 
