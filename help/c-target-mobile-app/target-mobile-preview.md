@@ -1,19 +1,19 @@
 ---
 keywords: control de calidad;vínculo previo;móvil;vista previa para móviles
-description: Utilice los vínculos de previsualización móvil para realizar un control de calidad completo de las actividades de aplicaciones móviles. Puede inscribirse en diferentes experiencias sin dispositivos de prueba especiales.
-title: ¿Cómo se usa el vínculo de Previsualización móvil en Destinatario Mobile?
-feature: Implement Mobile
+description: Use los vínculos de vista previa para móviles para realizar un control de calidad completo de las actividades de aplicaciones móviles. Puede inscribirse en diferentes experiencias sin dispositivos de prueba especiales.
+title: ¿Cómo utilizo el vínculo de vista previa para móviles en  [!DNL Target] Mobile?
+feature: Implementar Mobile
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '610'
 ht-degree: 82%
 
 ---
 
-
-# Vista previa para móviles en Target{#target-mobile-preview}
+# Vista previa para móviles en Target
 
 Use el vínculo de vista previa en móviles para realizar fácilmente un control de calidad exhaustivo de las actividades de aplicaciones móviles y registrarse en diversas experiencias directamente en el dispositivo sin tener que usar uno especial para pruebas.
 
@@ -31,10 +31,10 @@ La funcionalidad de vista previa para móviles le permite probar completamente s
 
    Para obtener instrucciones sobre la descarga del SDK apropiado, consulte:
 
-   * **iOS:** [Antes de ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iniciar la Ayuda *de iOS de* Mobile Services.
-   * **Android:** [Antes de ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) iniciar la Ayuda *de Android de* Mobile Services.
+   * **iOS:** [antes de ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iniciar la Ayuda de  *Mobile Services para iOS*.
+   * **Android:** [antes de ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) iniciar la Ayuda de  *Mobile Services para Android*.
 
-1. **Configure un esquema de direcciones URL:** el vínculo de vista previa utiliza un esquema de direcciones URL para abrir la aplicación. Debe especificar un esquema de URL exclusivo para la vista previa.
+1. **Configure un esquema de direcciones URL:** el vínculo de vista previa utiliza un esquema de direcciones URL para abrir la aplicación. Debe especificar un esquema de URL único para la vista previa.
 
    La siguiente ilustración muestra un ejemplo en iOS:
 
@@ -77,7 +77,7 @@ La funcionalidad de vista previa para móviles le permite probar completamente s
      }
    ```
 
-   Para que la Previsualización móvil funcione para Android, también debe agregar el siguiente fragmento de código en [!DNL AndroidManifest.xml] si utiliza la versión 5 del SDK de Adobe Mobile:
+   Para que la vista previa para móviles funcione en Android, también debe añadir el siguiente fragmento de código en [!DNL AndroidManifest.xml] si se utiliza la versión 5 del SDK móvil de Adobe:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
