@@ -1,22 +1,22 @@
 ---
 keywords: probar plantillas;plantilla;misma experiencia en páginas similares;prueba de plantilla
-description: Descubra cómo usar el Compositor de experiencias visuales (VEC) de Adobe Target para incluir la misma experiencia en varias páginas con una estructura similar o que contengan los mismos elementos de plantilla.
+description: Aprenda a utilizar el Adobe [!DNL Target] Compositor de experiencias visuales (VEC) para incluir la misma experiencia en varias páginas con una estructura similar o que contienen los mismos elementos de plantilla.
 title: ¿Puedo incluir la misma experiencia en páginas similares?
-feature: Experiences and Offers
+feature: Experiencias y ofertas
+exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '620'
 ht-degree: 45%
 
 ---
 
-
 # Incluir la misma experiencia en páginas similares
 
-Utilice una plantilla de página en [!DNL Adobe Target] para proporcionar estructura a las páginas, o si las páginas contienen elementos similares, para probar variaciones en elementos de página estructurados de manera similar o en todo el dominio.
+Utilice una plantilla de página en [!DNL Adobe Target] para proporcionar estructura a las páginas, o si las páginas contienen elementos similares, para probar variaciones en elementos de página de estructura similar o en todo el dominio.
 
-Para funcionar correctamente, esta función debe usarse en páginas con una estructura similar o que contengan elementos de plantilla que estén estructurados de la misma manera en todas las páginas.
+Para funcionar correctamente, esta función debe usarse en páginas que tengan una estructura similar o que contengan elementos de plantilla que estén estructurados igual en todas las páginas.
 
 >[!IMPORTANT]
 >
@@ -29,22 +29,22 @@ Por ejemplo, puede utilizar esta característica para una de las operaciones sig
 * Añadir un banner a todas las páginas de productos.
 * Cambiar el diseño de la plantilla de artículo.
 
-Puede especificar páginas que incluyan los elementos de cambio o aplicar el cambio en el sitio o dominio.
+Puede especificar páginas que incluyan los elementos modificados o aplicar el cambio a su sitio o dominio.
 
 1. Cree o edite una actividad como se describe en [Actividades](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar las páginas en las que aparecerá la experiencia, en el [!UICONTROL Compositor de experiencias visuales] (VEC) haga clic en el icono de engranaje y, a continuación, seleccione **[!UICONTROL Envío de página]**.
+1. Para especificar las páginas en las que aparecerá la experiencia, en el [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en el icono del engranaje y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
 
-   ![Icono de engranaje > Envío de página](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
+   ![Icono de engranaje > Entrega de páginas](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
 1. Haga clic en **[!UICONTROL Agregar plantilla de regla]** y, a continuación, especifique los criterios para las páginas en las que quiera agregar la experiencia.
 
 1. Especifique el intervalo de páginas. El intervalo de páginas puede ser uno de los siguientes:
 
-   * Dirección URL (Para obtener más información sobre cómo evalúa Destinatario las direcciones URL, consulte [Preguntas más frecuentes sobre Destinatarios y audiencias](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
+   * Dirección URL (Para obtener más información sobre cómo Target evalúa las direcciones URL, consulte [Preguntas frecuentes sobre audiencias y segmentación](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
    * Dominio
    * Ruta
-   * Fragmento hash (#) (destinatario la parte de una URL que sigue al símbolo #).
+   * Fragmento hash (#) (dirija la parte de una URL que sigue al símbolo #)
    * Consulta
    * Parámetro
 
@@ -67,9 +67,9 @@ Puede especificar páginas que incluyan los elementos de cambio o aplicar el cam
 
    >[!IMPORTANT]
    >
-   >Varios elementos utilizan la lógica OR, lo que significa que cualquier elemento individual de la lista hace que la condición sea verdadera.
+   >Cuando varios elementos usan la lógica OR , significa que cualquier elemento de la lista hace que la condición sea verdadera.
 
-1. Si lo desea, introduzca criterios adicionales haciendo clic en **[!UICONTROL Añadir regla de plantilla]** y repitiendo el procedimiento en los pasos anteriores.
+1. Si lo desea, escriba otros criterios adicionales haciendo clic en **[!UICONTROL Agregar regla de plantilla]** y repitiendo el procedimiento de los pasos anteriores.
 
    Cuando hay varios criterios se unen entre sí con la lógica AND. [!DNL Target] agrega la experiencia a todas las páginas que cumplan todos los criterios especificados.
 
@@ -79,27 +79,27 @@ Puede especificar páginas que incluyan los elementos de cambio o aplicar el cam
 
 ## Casos de uso
 
-Revise los siguientes casos de uso para saber cómo utilizar las reglas de plantilla en el sitio:
+Revise los siguientes casos de uso para saber cómo usar las reglas de plantilla en el sitio:
 
 ### Representar la misma actividad en todo el dominio
 
-Puede considerar el uso de reglas de plantilla para representar la misma actividad en todo el dominio en los siguientes casos de uso:
+Puede considerar la posibilidad de utilizar reglas de plantilla para representar la misma actividad en todo el dominio para los siguientes casos de uso:
 
-* Para incluir un encabezado o pie de página global
-* Para incluir una pancarta global (por ejemplo, anuncios COVID-19)
+* Incluir un encabezado o pie de página global
+* Para incluir un banner global (por ejemplo, anuncios COVID-19)
 * Para incluir una promoción de envío libre global
 
 1. Cree o edite una actividad como se describe en [Actividades](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar el dominio en el que aparecerá la experiencia, en el Compositor de experiencias visuales, haga clic en el icono de engranaje y seleccione **[!UICONTROL Envío de página]**.
+1. Para especificar el dominio en el que aparecerá la experiencia, en el Compositor de experiencias visuales, haga clic en el icono de engranaje y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
 
-1. Haga clic en **[!UICONTROL Añadir regla de plantilla]** > **[!UICONTROL Dominio]**.
+1. Haga clic en **[!UICONTROL Agregar regla de plantilla]** > **[!UICONTROL Dominio]**.
 
-1. En la lista desplegable **[!UICONTROL Elija evaluador]**, seleccione **[!UICONTROL Contiene]** y luego especifique el dominio.
+1. En la lista desplegable **[!UICONTROL Elija evaluador]**, seleccione **[!UICONTROL Contiene]** y, a continuación, especifique el dominio.
 
    ![El dominio contiene](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Vídeo de capacitación: Compositor de experiencias visuales (2 de 2) (7:29) ![Distintivo de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Compositor de experiencias visuales (2 de 2) (7:29) ![Distintivo tutorial](/help/assets/tutorial.png)
 
 * Cambiar el nombre de una experiencia y duplicarla
 * Crear una experiencia de redirección
