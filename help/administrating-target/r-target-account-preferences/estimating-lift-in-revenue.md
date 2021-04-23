@@ -1,25 +1,25 @@
 ---
 keywords: ingresos;alza de ingresos;aumento estimado de ingresos;estimar alza;valor estimado
-description: Calcule el alza que puede obtener si cada visitante ve la experiencia ganadora, si las tendencias continúan como lo han hecho durante la prueba.
+description: Calcule el aumento que podría conseguirse si cada visitante ve la experiencia ganadora, si las tendencias continúan tal como lo han hecho durante la prueba.
 title: ¿Qué estimo el alza de ingresos?
-feature: Administration & Configuration
+feature: Administración y configuración
 role: Administrator
+exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 88%
 
 ---
 
+# Estimar el aumento de ingresos
 
-# Estimar el aumento de ingresos{#estimate-lift-in-revenue}
-
-Utilice [!DNL Adobe Target] para estimar el aumento de ingresos que obtendría si todos los usuarios hicieran vistas de la experiencia ganadora.
+Utilice [!DNL Adobe Target] para calcular el aumento de ingresos que obtendría si todos los usuarios vieran la experiencia ganadora.
 
 >[!NOTE]
 >
->El alza estimada no está disponible para actividades de [!UICONTROL Segmentación de experiencias] (XT) en este momento.
+>El alza estimada no está disponible para las actividades [!UICONTROL Segmentación de experiencias] (XT) en este momento.
 
 La característica de alza estimada está desactivada de manera predeterminada. Se puede habilitar en las preferencias de cuenta. Solo los usuarios administradores de Experience Cloud pueden activar o desactivar esta característica. Si se deshabilita el alza estimada, los campos correspondientes no aparecerán en la interfaz. Deshabilitar esta característica no genera pérdidas de datos, incluidos los datos usados para los cálculos. Los cálculos se basan en datos recopilados, independientemente de si la característica está habilitada o no.
 
