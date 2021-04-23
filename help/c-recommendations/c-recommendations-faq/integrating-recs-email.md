@@ -1,14 +1,14 @@
 ---
 keywords: correo electrónico;ESP;proveedor de servicio de correo electrónico;rawbox;api de envío;plantilla de solo descarga;plantilla de correo electrónico;procesamiento por lotes;hora de creación del correo electrónico
-description: Obtenga información sobre cómo integrar el correo electrónico con Adobe Target Recommendations, incluido el uso de la API de envío de Target, las plantillas rawbox y las plantillas de solo descarga.
+description: Aprenda a integrar el correo electrónico con la API de envío de Adobe [!DNL Target] Recommendations, including using the [!DNL Target] , las plantillas de rawbox y las plantillas de carga baja solamente.
 title: ¿Cómo se integra Recommendations con el correo electrónico?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 87%
+source-wordcount: '1540'
+ht-degree: 86%
 
 ---
 
@@ -78,7 +78,7 @@ El sistema de correo electrónico que utilice debe poder solventar los siguiente
 * En este caso, la respuesta será la que esté establecida como valor del parámetro mboxDefault. Consulte la explicación sobre este parámetro más abajo.
 * El proveedor de correo electrónico debe tener un bloqueo HTML predeterminado de recomendaciones para utilizarlo en este caso.
 
-### El servidor de Target agota el tiempo de espera y vuelve sin datos
+### El servidor [!DNL Target] agota el tiempo de espera y vuelve sin datos
 
 * En este caso, el servidor de Target devolverá el siguiente contenido:
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(Opcional) | 1 | El llamador se redirige de forma predeterminada cuando no se encuentra contenido disponible. Utilícelo para desactivar el comportamiento predeterminado. |  |
 | `mbox3rdPartyId` | *xxx* | Utilícelo si tiene su propio ID de visitante personalizado para la segmentación de perfiles. |  |
 
-### Posibles respuestas del servidor de Target
+### Posibles [!DNL Target] respuestas del servidor
 
 | Respuesta | Descripción |
 |--- |--- |
