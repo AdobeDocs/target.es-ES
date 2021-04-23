@@ -1,24 +1,24 @@
 ---
 keywords: Información general y referencia
-description: Aprenda a utilizar Adobe Target con Adobe Campaign para optimizar el contenido del correo electrónico.
-title: ¿Cómo se integra Destinatario con Adobe Campaign?
-feature: Integrations
+description: Aprenda a utilizar Adobe [!DNL Target] con Adobe Campaign para optimizar el contenido del correo electrónico.
+title: ¿Cómo se integra [!DNL Target] con Adobe Campaign?
+feature: Integraciones
+exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 47%
+source-wordcount: '382'
+ht-degree: 44%
 
 ---
 
-
-# Integración de Target con Adobe Campaign{#integrate-target-with-adobe-campaign}
+# Integrar [!DNL Target] con Adobe Campaign
 
 Utilice [!DNL Target] con [!DNL Adobe Campaign] para optimizar el contenido del correo electrónico.
 
 Para optimizar el contenido del correo electrónico (por ejemplo, para mostrar diferentes ofertas para destinatarios hombres y mujeres), puede crear una oferta de redireccionamiento en [!DNL Target] y luego utilizar [!DNL Adobe Campaign] para administrar las ofertas de correo electrónico.
 
-La integración tiene lugar cuando se abre el correo electrónico. Cuando el cliente abre el correo electrónico, se realiza una llamada a [!DNL Target] y aparece una versión dinámica del contenido. El contenido está formado por una imagen estática compatible con todos los navegadores. [!DNL Target] hace un seguimiento de la reacción ante la oferta en el nivel de audiencia o de sesión y pone esos datos a su disposición en los informes de [!DNL Target]
+La integración tiene lugar cuando se abre el correo electrónico. Cuando el cliente abre el correo electrónico, llama a [!DNL Target] y aparece una versión dinámica del contenido. El contenido está formado por una imagen estática compatible con todos los navegadores. [!DNL Target] hace un seguimiento de la reacción ante la oferta en el nivel de audiencia o de sesión y pone esos datos a su disposición en los informes de [!DNL Target]
 
 Target puede hacer un seguimiento de los datos siguientes:
 
@@ -39,7 +39,7 @@ Existen varias limitaciones:
    * El rawbox y la experiencia en [!DNL Target]
    >[!NOTE]
    >
-   >Cuando utilice un rawbox y [!DNL Target], consulte el aviso de seguridad importante en [Crear listas de permitidos que especifiquen hosts autorizados para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#allowlist).
+   >Cuando utilice rawbox y [!DNL Target], consulte el aviso de seguridad importante en [Crear listas de permitidos que especifique los hosts con autorización para enviar llamadas de mbox a Target](/help/administrating-target/hosts.md#allowlist).
 
    * El envío en [!DNL Campaign]
 
@@ -47,7 +47,7 @@ Existen varias limitaciones:
 
 ## Antes de empezar    {#section_FF19BF1BCA064260930BF6C141313B0E}
 
-Antes de utilizar [!DNL Adobe Campaign] para configurar las ofertas de correo electrónico objetivo, configure lo siguiente en [!DNL Target]:
+Antes de utilizar [!DNL Adobe Campaign] para configurar las ofertas de correo electrónico de destino, configure lo siguiente en [!DNL Target]:
 
 * Dos o más ofertas de redireccionamiento [!DNL Target]
 
@@ -56,9 +56,9 @@ Antes de utilizar [!DNL Adobe Campaign] para configurar las ofertas de correo el
 
    Consulte [Redireccionar a una dirección URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
-Inicio la actividad en [!DNL Target] antes de configurar la porción [!DNL Campaign] de la integración.
+Inicie la actividad en [!DNL Target] antes de configurar la parte [!DNL Campaign] de la integración.
 
-## Incluir una oferta de Target en un correo electrónico de Adobe Campaign    {#section_B201BBE27A704E18AF0D553F35695837}
+## Incluir una oferta [!DNL Target] en un correo electrónico de Adobe Campaign {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Cree un correo electrónico en [!DNL Adobe Campaign].
 1. En las propiedades del correo electrónico, haga clic en **[!UICONTROL Incluir]** > **[!UICONTROL Imagen dinámica proporcionada por Adobe Target]**.
@@ -66,7 +66,7 @@ Inicio la actividad en [!DNL Target] antes de configurar la porción [!DNL Campa
 1. Especifique la ubicación (rawbox).
 1. Agregue el resto de los parámetros de toma de decisiones, como puede ser el sexo del destinatario.
 1. Seleccione por lo menos un destinatario para cada oferta (en este caso, un hombre y una mujer) y previsualice el correo electrónico.
-1. En [!DNL Campaign], defina el [!DNL Target] servidor Edge que está utilizando para controlar la actividad y el nombre del inquilino.
+1. En [!DNL Campaign], defina el servidor perimetral [!DNL Target] que está utilizando para controlar la actividad y el nombre del inquilino.
 1. Especifique la cuenta externa utilizada para [!DNL Adobe Experience Cloud] para poder acceder a los recursos en [!DNL Experience Cloud].
 
-Para obtener más información, consulte la documentación de [!DNL Adobe Campaign].
+Para obtener más información, consulte la documentación [!DNL Adobe Campaign] .
