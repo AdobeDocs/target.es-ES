@@ -1,16 +1,16 @@
 ---
 keywords: prueba multivariable;mvt;planificación de mvt;planificar prueba multivariable
-description: Descubra cómo planificar una prueba multivariada en Adobe Target para que pueda crear una prueba con éxito.
-title: ¿Cómo planeo una prueba multivariada?
-feature: Multivariate Tests
+description: Aprenda a planificar una prueba multivariable en Adobe [!DNL Target] para poder crear una prueba con éxito.
+title: ¿Cómo planeo una prueba multivariable?
+feature: Pruebas multivariable
+exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '299'
 ht-degree: 91%
 
 ---
-
 
 # Planificar una prueba multivariable
 
@@ -26,7 +26,7 @@ Planifique la prueba de los elementos de la página que tienen probabilidad de g
 
 Por último, antes de crear la prueba, debe crear el contenido que desea probar. Conozca las diferencias de contenido para cada oferta y cree cualquier oferta de imagen, texto y HTML que tenga pensado usar en la prueba.
 
-## Vídeo de formación: Creación de pruebas multivariable (9:25)  ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de pruebas multivariable (9:25)  ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 En este vídeo explicamos cómo planificar y crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target.
 
