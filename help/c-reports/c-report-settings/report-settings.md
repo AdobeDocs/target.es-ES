@@ -1,18 +1,18 @@
 ---
 keywords: Target;informes;configuración de informes;ajuste preestablecido;ajuste preestablecido de Target;métrica;audiencia;intervalo de fechas;configuración;descarga;vista de tabla;vista de gráfico;alza promedio;alza;límite de alza;intervalo de confianza;confianza;contribución de ubicación;promedio actual;metodología de recuento
-description: Obtenga información sobre cómo configurar los informes en Adobe Target, incluso métricas, audiencias, intervalos de fechas y mucho más.
+description: Obtenga información sobre cómo configurar las opciones de informes en Adobe Target, incluidas las métricas, las audiencias, los intervalos de fechas y mucho más.
 title: ¿Cómo configuro los informes?
-feature: Reports
+feature: Informes
+exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1919'
 ht-degree: 70%
 
 ---
 
-
-# Configuración del informe{#report-settings}
+# Configuración de informes
 
 Información para configurar los elementos que desea que aparezcan en el informe en [!DNL Adobe Target]. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
 
@@ -25,15 +25,15 @@ Para mostrar un informe:
 
 ## Ajuste preestablecido de Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Puede guardar hasta diez ajustes preestablecidos de un informe de actividad después de configurarlo a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etcétera). Todos los usuarios [!DNL Target] pueden mostrar, editar y eliminar los distintos ajustes preestablecidos, independientemente de quién los haya creado.
+Puede guardar hasta diez ajustes preestablecidos de un informe de actividad después de configurarlo a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etcétera). Todos los usuarios de [!DNL Target] pueden mostrar, editar y eliminar los distintos ajustes preestablecidos, independientemente de quién los haya creado.
 
 También puede configurar un informe de actividad a su gusto y después guardar dicha configuración como su ajuste preestablecido predeterminado/favorito. Esta es la vista que se muestra cuando ve avanzar el informe de la actividad.
 
-### Creación de un ajuste preestablecido o un ajuste preestablecido predeterminado
+### Crear un ajuste preestablecido o un ajuste preestablecido predeterminado
 
-1. Configure el informe de la actividad como desee.
+1. Configure el informe de actividad como desee.
 
-   La configuración disponible, incluidas las métricas, los intervalos de fechas, las audiencias, la configuración avanzada, etc., se explica a continuación.
+   A continuación se explica la configuración disponible, que incluye métricas, intervalos de fechas, audiencias, configuración avanzada, etc.
 
 1. Junto a **[!UICONTROL Ajuste preestablecido de Target]**, haga clic en el icono de tres elipses verticales > **[!UICONTROL Guardar como Nuevo]**.
 
@@ -43,17 +43,17 @@ También puede configurar un informe de actividad a su gusto y después guardar 
 
    ![Cuadro de diálogo Nuevos ajustes preestablecidos](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Revise la información de las secciones **[!UICONTROL Filtros]** y **[!UICONTROL Configuración]** para asegurarse de que el informe está configurado como desee y luego especifique el **[!UICONTROL Nombre de ajuste preestablecido]** (hasta 50 caracteres).
-1. (Condicional) Si desea que ésta sea la vista de informe predeterminada o favorita, deslice el ajuste **[!UICONTROL Establecer como ajuste preestablecido predeterminado]** a la posición Activado.
+1. Revise la información de las secciones **[!UICONTROL Filters]** y **[!UICONTROL Configuración]** para asegurarse de que el informe esté configurado como desee y, a continuación, especifique el **[!UICONTROL Nombre del ajuste preestablecido]** (hasta 50 caracteres).
+1. (Condicional) Si desea que esta sea su vista de informe predeterminada/favorito, active la opción **[!UICONTROL Establecer como ajuste preestablecido predeterminado]**.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-### Seleccionar otro ajuste preestablecido
+### Seleccionar un ajuste preestablecido diferente
 
 Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONTROL Ajuste preestablecido de Target]**.
 
 ![Lista desplegable de Ajustes preestablecidos](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-### Edición de un ajuste preestablecido
+### Editar un ajuste preestablecido
 
 1. Seleccione el ajuste preestablecido que desee editar.
 1. Edite la configuración del informe a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etc.).
@@ -79,7 +79,7 @@ Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONT
 
 1. Vuelva a hacer clic en **[!UICONTROL Eliminar]** para confirmar la eliminación (los ajustes preestablecidos eliminados no se pueden recuperar).
 
-### Gestión de errores preestablecidos
+### Gestión de errores de ajustes preestablecidos
 
 Si un ajuste preestablecido deja de ser válido, se indica mediante avisos y mensajes dentro de los informes. El aviso o mensaje le indica que elija otra audiencia, métrica, grupo de hosts o experiencia para crear un ajuste preestablecido válido.
 
@@ -89,7 +89,7 @@ La lista siguiente describe algunas de las situaciones que pueden provocar que u
 * Se eliminan una o más métricas, pero la definición del ajuste preestablecido sigue haciendo referencia a ellas. Por ejemplo, podría eliminar una o más métricas de la actividad y, después, agregar nuevas métricas.
 * Uno o más grupos de hosts (entorno) no existen, pero la definición del ajuste preestablecido hace referencia a ellos.
 * Se eliminan una o más experiencias tras la creación del ajuste preestablecido, pero la definición del ajuste sigue haciendo referencia a ellas.
-* Un ajuste preestablecido no es semánticamente válido porque algunas entidades referidas siguen existiendo, pero se han actualizado de un modo que la definición del ajuste preestablecido ha cambiado semánticamente. Por ejemplo, suponga que creó un ajuste preestablecido denominado “Ingresos en Chrome”. Posteriormente actualizó la actividad para medir la métrica Conversión en vez de Ingresos. Esta actualización de la definición de actividad invalida semánticamente la definición del ajuste preestablecido.
+* Un ajuste preestablecido no es semánticamente válido porque algunas entidades referidas siguen existiendo, pero se han actualizado de un modo que la definición del ajuste preestablecido ha cambiado semánticamente. Por ejemplo, suponga que creó un ajuste preestablecido denominado “Ingresos en Chrome”. Posteriormente actualizó la actividad para medir la métrica Conversión en vez de Ingresos. Esta actualización de la definición de la actividad invalida semánticamente la definición del ajuste preestablecido.
 
 ## Métrica de informes {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -111,21 +111,21 @@ El cuadro Intervalo de fechas muestra el intervalo de fechas actual del informe.
 
 ![Calendario](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Seleccione las nuevas fechas **[!UICONTROL inicial]** y **[!UICONTROL final]** del informe. También puede utilizar las casillas de verificación **[!UICONTROL De inicio de Actividad]** y **[!UICONTROL Hasta el final de la Actividad]**.
+Seleccione las nuevas fechas **[!UICONTROL inicial]** y **[!UICONTROL final]** del informe. También puede utilizar las casillas de verificación **[!UICONTROL Desde el inicio de la actividad]** y **[!UICONTROL Hasta el final de la actividad]**.
 
 Haga clic **[!UICONTROL Fechas personalizadas]** para seleccionar intervalos de fecha predefinidos: Últimos 7 días, Últimos 15 días o Últimos 30 días. Estos intervalos de fechas predefinidos se pueden extender. Si la fecha inicial es menor que el número de días elegido, el calendario mostrará el intervalo a partir de la ficha inicial, pero se extenderá una vez que la fecha inicial sea anterior al número de días elegido a medida que se incremente la duración de la actividad.
 
 Los informes tienen las siguientes restricciones de fechas:
 
 * La fecha de inicio del informe debe estar entre los dos últimos años.
-* Los informes de los grupos de ofertas están limitados a 99 días a partir de la fecha actual.
+* Los informes de grupos de ofertas están limitados a 99 días a partir de la fecha actual.
 * Los informes por horas tienen un límite de 15 días.
 
 ## Configuración {#section_D99CE462107D45CABE0960F820E1E972}
 
-Para configurar los informes:
+Para configurar las opciones del informe:
 
-1. Haga clic en el icono de engranaje y realice los cambios deseados (como se explica más abajo).
+1. Haga clic en el icono del engranaje y realice los cambios que desee (como se explica más abajo).
 1. Haga clic en **[!UICONTROL Guardar]** cuando termine.
 
 La siguiente ilustración muestra el cuadro de diálogo Configuración para una actividad A/B:
@@ -152,7 +152,7 @@ Seleccione el entorno (grupo de hosts) que se usará para el informe. Para obten
 
 ### Restablecer datos del informe
 
-Restablezca los datos de sistema de informes para eliminar los datos antiguos. Los visitantes actuales permanecerán en la actividad.  Esta opción solo está disponible para aquellos con permisos [!UICONTROL Aprobador].
+Restablezca los datos del informe para eliminar los datos antiguos. Los visitantes actuales permanecerán en la actividad.  Esta opción solo está disponible para aquellos con permisos de [!UICONTROL Aprobador].
 
 >[!IMPORTANT]
 >
@@ -160,11 +160,11 @@ Restablezca los datos de sistema de informes para eliminar los datos antiguos. L
 
 ### Excluir valores extremos
 
-La opción [!UICONTROL Excluir valores extremos] solo se aplica a actividades con tipos de métricas de ingresos y participación. Para obtener más información, consulte [Exclusión de pedidos extremos](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+La opción [!UICONTROL Excluir valores extremos] se aplica solo a las actividades con tipos de métrica de ingresos y participación. Para obtener más información, consulte [Exclusión de pedidos extremos](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Descargar {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Haga clic en el icono **[!UICONTROL Descargar]** para descargar los datos del informe en formato [!DNL .csv] para importarlos rápidamente a Excel, Access u otros programas de análisis de datos.
+Haga clic en el icono **[!UICONTROL Download]** para descargar datos de informes en formato [!DNL .csv] para poder importarlos rápidamente a Excel, Access o cualquier otro programa de análisis de datos.
 
 ![Icono de descarga](/help/c-reports/c-report-settings/assets/download-icon.png)
 
@@ -172,22 +172,22 @@ Para obtener más información, consulte [Descarga de datos en un archivo CSV](/
 
 ## Actualizar {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Haga clic en el icono **[!UICONTROL Actualizar]** para actualizar la vista de gráficos y la tabla de un informe sin actualizar la página completa, su configuración o su intervalo de fechas.
+Haga clic en el icono **[!UICONTROL Actualizar]** para actualizar la tabla y la vista de gráfico de un informe sin actualizar toda la página, su configuración o su intervalo de fechas.
 
 ## Más opciones {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Haga clic en el icono de Más opciones (tres elipses verticales) para acceder a las opciones [!UICONTROL Editar actividad] y [!UICONTROL Ver las URL de la experiencia].
 
-## Opciones de vista
+## Ver opciones
 
-Puede vista del informe en varios formatos, según el tipo de actividad. Seleccione una opción.
+Puede ver el informe en varios formatos, según el tipo de actividad. Seleccione una opción.
 
-![Iconos de opciones de vista](/help/c-reports/c-report-settings/assets/view-options.png)
+![Ver iconos de opciones](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **Vista** de tabla: Haga clic en el icono  **[!UICONTROL Vista de]** tabla para vista del informe como una tabla.
-* **Vista** de gráfico: Haga clic en el icono  **[!UICONTROL Vista de]** gráfico para vista del informe como un gráfico.
-* **Segmentos** automatizados: (disponible solo para actividades de Automated Personalization (AP) y Destinatario automático (AT)). Haga clic en el icono **[!UICONTROL Segmentos automatizados] para vista del [informe de segmentos automatizados](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
-* **Atributos** importantes: (Disponible solo para actividades de Automated Personalization (AP) y Destinatario automático (AT)). Haga clic en el icono **[!UICONTROL Atributos importantes] para vista del [informe Atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+* **Vista** de tabla: Haga clic en el  **[!UICONTROL icono]** Visualización de tabla para ver el informe como una tabla.
+* **Visualización** de gráfico: Haga clic en el  **[!UICONTROL icono]** Visualización de gráfico para ver el informe como un gráfico.
+* **Segmentos automatizados**: (solo disponible para actividades de Automated Personalization (AP) y Segmentación automática (AT)). Haga clic en el icono **[!UICONTROL Segmentos automatizados] para ver el [Informe Segmentos automatizados](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Atributos** importantes: (Disponible solo para actividades de Automated Personalization (AP) y Segmentación automática (AT)). Haga clic en el icono **[!UICONTROL Atributos importantes] para ver el [Informe Atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Alza promedio, límites de alza e intervalo de confianza {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -218,7 +218,7 @@ En la siguiente ilustración, vemos que en el informe solo aparecen las experien
 
 (solo disponible al visualizar el informe en Visualización de gráfico)
 
-&quot;Promedio corriente&quot; refleja las conversiones acumulativas (desde el inicio de la ventana de sistemas de informes hasta la fecha representada en el gráfico) divididas por los visitantes acumulados.
+&quot;Media móvil&quot; refleja las conversiones acumulativas (desde el inicio de la ventana de informes hasta la fecha representada en el gráfico) divididas por los visitantes acumulados.
 
 Seleccione la visualización de gráfico que desee:
 
@@ -229,15 +229,15 @@ Seleccione la visualización de gráfico que desee:
 
 ![Promedio en ejecución del informe](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
-El nombre de esta lista desplegable varía según la vista seleccionada, pero será una de las vistas enumeradas arriba.
+El nombre de esta lista desplegable varía en función de la vista seleccionada, pero será una de las vistas enumeradas arriba.
 
 ## Metodología de contabilización {#section_01B0ED5665C74AE1AE97259800190C3E}
 
 (solo disponible al visualizar el informe en Visualización de gráfico)
 
-Puede elegir la metodología de contabilización para los gráficos de los informes. Tenga en cuenta que esto no se admite para actividades [!UICONTROL Automated Personalization] (AP).
+Puede elegir la metodología de contabilización para los gráficos de los informes. Tenga en cuenta que esto no es compatible con las actividades [!UICONTROL Automated Personalization] (AP).
 
-Para acceder a la opción [!UICONTROL Metodología de contabilización], mientras ve un informe en modo gráfico, haga clic en la lista desplegable **[!UICONTROL Mi objetivo principal]** y seleccione la metodología de contabilización.
+Para acceder a la opción [!UICONTROL Metodología de contabilización], mientras ve un informe en modo de gráfico, haga clic en la lista desplegable **[!UICONTROL Mi objetivo principal]** y seleccione la metodología de contabilización.
 
 La metodología de contabilización será la misma que se seleccionó en el cuadro de diálogo [!UICONTROL Ajustes] descrito anteriormente.
 
@@ -245,7 +245,7 @@ La metodología de contabilización será la misma que se seleccionó en el cuad
 
 De forma predeterminada, el gráfico se representa en modo [!UICONTROL Diario].
 
-Para cambiar el modo, haga clic en la lista desplegable [!UICONTROL Diario] y seleccione una opción acumulativa.
+Para cambiar el modo, haga clic en la lista desplegable [!UICONTROL Daily] y seleccione una opción acumulativa.
 
 ![Acumulativo](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
@@ -259,15 +259,15 @@ El orden predeterminado de representación del gráfico es el siguiente:
 
 * **Pruebas A/B (incluidas la asignación automática y Automated Personalization)**: Orden de creación de la experiencia, en orden descendente.
 * **Segmentación de experiencias (XT)**: Orden de las experiencias en la actividad.
-* **Prueba multivariada (MVT)**: Alfabético por nombre de experiencia.
+* **Prueba multivariable (MVT)**: Alfabético por nombre de experiencia.
 * **Recommendations**: Orden de creación de la experiencia, en orden descendente.
 
 Al trabajar con las opciones de Metodología de contabilización, tenga en cuenta las siguientes advertencias:
 
-* Para [actividades de Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md), no hay opción para seleccionar &quot;Visitantes&quot; como metodología de recuento. El tipo de actividad Segmentación automática es el único que no se puede representar por visitantes.
-* Para actividades que utilizan [Analytics como fuente de sistema de informes (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), no puede trazar Visitantes, visitas o impresiones de forma acumulativa.
+* Para las [actividades de segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md), no existe la opción de seleccionar &quot;Visitantes&quot; como metodología de contabilización. El tipo de actividad Segmentación automática es el único que no se puede representar por visitantes.
+* En las actividades que usan [Analytics como fuente de informes (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), no se puede representar el visitante, la visita o la impresión de forma acumulativa.
 
-## Uso de gráficos con más de 16 experiencias en la actividad
+## Trabajo con gráficos que tienen más de 16 experiencias en la actividad
 
 Si una actividad tiene menos de 16 experiencias, cada una se representa en el gráfico con un color distinto.
 
@@ -290,4 +290,3 @@ Si pasa el cursor sobre una de las experiencias en gris, en el gráfico se muest
 Suponga que quiere mostrar la línea de diagrama de la Experiencia R pero no quiere ver la de la Experiencia P. Puede hacer clic en el nombre de la Experiencia P para anular su selección y, a continuación, hacer clic en el nombre de la Experiencia R para seleccionarla, como se muestra a continuación:
 
 ![](assets/graph_3.png)
-
