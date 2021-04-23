@@ -1,14 +1,14 @@
 ---
 keywords: registro de cambios de la documentación de target;actualizaciones de la documentación;nuevos temas;ediciones;actualizaciones;actualizar
-description: Manténgase actualizado con importantes adiciones y cambios en la documentación del producto de Adobe Target.
+description: Manténgase al día con las adiciones y cambios importantes en la documentación del producto de Adobe [!DNL Target] .
 title: ¿Dónde puedo ver las actualizaciones de documentación de Target?
-feature: Release Notes
+feature: ' Notas de la versión '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 32%
+source-wordcount: '898'
+ht-degree: 31%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 32%
 
 Esta página enumera los cambios significativos realizados en la documentación del producto [!DNL Adobe Target].
 
-## Adobe Target Standard/Premium 21.4.1 (19 de abril de 2021)
+## Adobe [!DNL Target] Standard/Premium 21.4.1 (19 de abril de 2021)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ Esta página enumera los cambios significativos realizados en la documentación 
 |  | [Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br> de Adobe Target (Guía de administración y servicios de *Experience Cloud* ) | Se ha añadido información adicional sobre el &quot;ID de sesión&quot;. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.4.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
-## Adobe Target Standard/Premium 21.2.1 (9 de marzo de 2021). 
+## Adobe [!DNL Target] Standard/Premium 21.2.1 (9 de marzo de 2021)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ Esta página enumera los cambios significativos realizados en la documentación 
 |  | [Atributos de entidad](/help/c-recommendations/c-products/entity-attributes.md) | Se agregó texto para indicar que entity.value debe estar en formato decimal (por ejemplo, 15.99 en lugar de 15.99). |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.2.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
-## Adobe Target Standard/Premium 21.1.1 (19 de enero de 2021)
+## Adobe [!DNL Target] Standard/Premium 21.1.1 (19 de enero de 2021)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
