@@ -1,20 +1,20 @@
 ---
 keywords: configuración de actividad;objetivos y configuración de A/B;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;métricas adicionales;configuración avanzada;objetivo principal;objetivo;prioridad;duración;solución de informes;audiencias para informes;Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
-description: Aprenda a utilizar la página Objetivos y configuración de Adobe Target para especificar información sobre los objetivos de una actividad A/B.
-title: ¿Cómo se especifican objetivos y configuración en una Actividad A/B de Destinatario?
-feature: A/B Tests
+description: Aprenda a utilizar la página Objetivos y configuración de Adobe [!DNL Target] para especificar información sobre los objetivos de una actividad A/B.
+title: ¿Cómo se especifican objetivos y configuraciones en una actividad  [!DNL Target] A/B?
+feature: Pruebas A/B
+exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1331'
 ht-degree: 92%
 
 ---
 
-
 # Configuración y objetivos
 
-La página Objetivos y configuración de [!DNL Adobe Target] es donde se escribe información sobre los objetivos de la prueba.
+La página Objetivos y configuración de [!DNL Adobe Target] es donde se especifica información sobre los objetivos de la prueba.
 
 La configuración disponible depende de si usa Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) como fuente de datos.
 
@@ -25,7 +25,7 @@ La configuración disponible depende de si usa Target o [Analytics](/help/c-inte
 | Configuración | Descripción |
 |--- |--- |
 | Objetivo | Escriba un objetivo opcional. El objetivo puede ser cualquier información que le ayude a usted y a su equipo a identificar la campaña. |
-| Prioridad | La interfaz de usuario y las opciones de Prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999.<br>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<br>Si esta opción no está habilitada en  [!UICONTROL Administración]  (opción predeterminada), especifique una prioridad: Bajo, Medio o Alto. <br>Para habilitar prioridades específicas, haga clic en   [!UICONTROL Administración]  >  [!UICONTROL Sistema de informes] y, a continuación, active la opción Activar prioridades específicas en la posición &quot;Activado&quot;. <br>Si esta opción está habilitada, indique un valor entre 0 y 999: 0 = bajo y 999 = alto. <br>En las actividades creadas en versiones anteriores de Target Standard/Premium, el nivel bajo de prioridad se convierte en 0; el medio, en 5; y el alto, en 10. Si lo necesita, puede ajustar estos valores.<br>Nota: Para deshabilitar esta opción después de usar las prioridades específicas, hay que volver a fijar todas las prioridades en 0, 5 y 10. |
+| Prioridad | La interfaz de usuario y las opciones de Prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999.<br>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<br>Si esta opción no está habilitada en  [!UICONTROL Administration]  (la predeterminada), especifique una prioridad: Bajo, Medio o Alto. <br>Para habilitar prioridades específicas, haga clic en   [!UICONTROL Administración]  >  [!UICONTROL Informes] y luego coloque la opción Habilitar prioridades específicas en la posición &quot;Activado&quot;. <br>Si esta opción está habilitada, indique un valor entre 0 y 999: 0 = bajo y 999 = alto. <br>En las actividades creadas en versiones anteriores de Target Standard/Premium, el nivel bajo de prioridad se convierte en 0; el medio, en 5; y el alto, en 10. Si lo necesita, puede ajustar estos valores.<br>Nota: Para deshabilitar esta opción después de usar las prioridades específicas, hay que volver a fijar todas las prioridades en 0, 5 y 10. |
 | Duración | La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo. |
 
 ## Configuración de informes.   {#section_13119392051044FBA6387D9B3B1C43CF}
@@ -67,7 +67,7 @@ Para obtener más información sobre la configuración avanzada, consulte [Métr
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Configuración de actividad (3:02) ![Distintivo de tutorial](/help/assets/tutorial.png)
+### Configuración de actividades (3:02) ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
