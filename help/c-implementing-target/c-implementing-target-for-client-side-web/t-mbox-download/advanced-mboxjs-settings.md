@@ -1,14 +1,14 @@
 ---
 keywords: configuración avanzada de mbox.js;cliente;dominio del servidor;dominio x;nivel de compresión;compatibilidad con id de sesión de cliente;secureOnly;compatibilidad con id de pc de cliente;pasar página;url de referencia;nivel de tráfico;duración del tráfico;cuerpo de función mboxParameters();cuerpo de función mboxSupported();cuerpo de función mboxCookieDomain();JavaScript adicional;complemento de SiteCatalyst;Obtener mbox.js como JavaScript autoextraíble;parpadeo;ocultamiento de cuerpo;ocultar cuerpo
 description: Obtenga información sobre la implementación de mbox.js heredada de Adobe Target. Migrar al SDK web de Adobe Experience Platform (SDK web de AEP) o a la versión más reciente de at.js.
-title: ¿Cómo configuro la biblioteca mbox.js de Target?
-feature: at.js
+title: ¿Cómo configuro la biblioteca  [!DNL Target] mbox.js?
+feature: 'at.js '
 role: Developer
 exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 71%
 
 ---
