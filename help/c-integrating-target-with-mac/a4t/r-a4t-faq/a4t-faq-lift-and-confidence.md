@@ -1,18 +1,18 @@
 ---
 keywords: faq;preguntas frecuentes;analytics para target;a4T;alza;específicos;creador de informes;confianza
-description: Encuentre respuestas a preguntas sobre el alza y la confianza al usar Analytics for Target (A4T). A4T le permite utilizar los informes de Analytics para actividades de Target.
+description: Encuentre respuestas a preguntas sobre el alza y la confianza al usar Analytics para actividades [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: ¿Dónde puedo encontrar información sobre el alza y la confianza con A4T?
 feature: Analytics for Target (A4T)
+exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 40%
+source-wordcount: '498'
+ht-degree: 41%
 
 ---
 
-
-# Alza y confianza: preguntas más frecuentes sobre A4T{#lift-and-confidence-a-t-faq}
+# Alza y confianza: preguntas más frecuentes sobre A4T
 
 En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el alza y la confianza al usar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
@@ -37,7 +37,7 @@ Los eventos no calculados (estándar) se admiten en alza y confianza. Se convier
 Algunos ejemplos de métricas o casos de uso no compatibles son:
 
 * Valor de pedido promedio (ingresos/pedido, por visitante). No se admite AOV porque el numerador es una métrica calculada. En su lugar, la recomendación es considerar las dos métricas influyentes de AOV - Ingresos por visitantes y Tasa de conversión.
-* Métricas calculadas que son la suma de eventos estándar. Por ejemplo, puede rastrear diez formularios de posibles clientes diferentes en diez eventos independientes y luego agregarlos para obtener el total de envíos de posibles clientes. Un método recomendado para rastrear estos eventos es implementar un solo evento de envío de posible cliente en Analytics y luego usar una eVar para recopilar el tipo de formulario de posibles clientes. El uso de este método requiere menos variables y garantiza que puede utilizar la métrica de envío de posible cliente único en las funciones de alza y confianza.
+* Métricas calculadas que son la suma de eventos estándar. Por ejemplo, puede rastrear diez formularios de posibles clientes diferentes en diez eventos independientes y luego agregarlos para obtener el total de envíos de posibles clientes. Un método recomendado para rastrear estos eventos es implementar un solo evento de envío de posibles clientes en Analytics y, a continuación, utilizar un eVar para recopilar el tipo de formulario de posibles clientes. El uso de este método requiere menos variables y garantiza que puede utilizar la métrica de envío de posible cliente único en las funciones de alza y confianza.
 
 ## ¿Cómo gestiona A4T los cálculos de confianza?    {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
