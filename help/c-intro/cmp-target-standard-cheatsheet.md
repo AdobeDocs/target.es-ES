@@ -1,18 +1,18 @@
 ---
 keywords: Target Standard;preguntas frecuentes;faqs;hoja de referencia
 description: Explore una lista de las preguntas más frecuentes sobre el uso de las funciones de Adobe Target, junto con información y vínculos para obtener más información.
-title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
-feature: Overview
+title: ¿Dónde puedo encontrar respuestas a mis preguntas de optimización y personalización?
+feature: Información general
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 96%
 
 ---
 
-
-# Preguntas más frecuentes sobre la optimización y personalización de Target{#target-optimization-and-personalization-faq}
+# Preguntas más frecuentes sobre la optimización y personalización de Target
 
 Una lista de preguntas más frecuentes sobre el uso de las funciones de Adobe Target, junto con información y vínculos para obtener más información.
 
@@ -62,7 +62,7 @@ Use nuestros [informes para determinar la experiencia ganadora](/help/c-activiti
 
 **¿Puedo realizar una actividad con un nivel de personalización como parte integral de la actividad?**
 
-Consulte la opción [Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
+Consulte la opción [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 **¿Cómo puedo saber qué tipo de actividad se ajusta mejor a mis necesidades?**
 
@@ -133,7 +133,7 @@ Use la configuración Prioridad disponible en el paso 3 del flujo de trabajo gui
 Existen dos opciones:
 
 * Predeterminado, con tres niveles (bajo/medio/alto)
-* Personalizado, con un rango de 0 a 999. En Personalizado, habilite la función Prioridades específicas (Administración > Compositor de experiencias visuales).
+* Personalizado, con un rango de 0 a 999. Para Personalizar, habilite la característica Prioridades específicas ( Administración > Compositor de experiencias visuales).
 
 ## Audiencias{#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -189,7 +189,7 @@ Pruebe la [información de solución de problemas](/help/c-experiences/c-visual-
 
 También tenemos un [método basado en formularios](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que puede desbloquearlo.
 
-Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que deba comunicarse con su departamento de TI para   [También ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) los servidores proxy del Adobe de lista de permitidos.
+Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que deba comunicarse con su departamento de TI para   [También los ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) servidores proxy del Adobe de lista de permitidos.
 
 **Tengo un sitio adaptable. Al crear una actividad, ¿cómo puedo estar seguro de que estoy considerando dispositivos clave?**
 
@@ -197,7 +197,7 @@ Pruebe la función [Ventanillas móviles](/help/c-experiences/c-visual-experienc
 
 **Tengo varios dominios. Uno de los dominios necesita el Compositor de experiencia mejorada habilitado, mientras que otros necesitan que esté deshabilitado. ¿Cómo puedo hacer esto?**
 
-Siempre puede utilizar la opción [Compositor de experiencias mejorado en el nivel de actividad](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular la configuración predeterminada ( Administración > Compositor de experiencias visuales).
+Siempre puede usar la opción [Compositor de experiencias mejorado en el nivel de actividad](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular la configuración predeterminada ( Administración > Compositor de experiencias visuales).
 
 **¿Por qué no veo una opción para intercambiar imágenes?**
 
@@ -271,7 +271,7 @@ Utilice el poder de [las actividades basadas en formularios](/help/c-experiences
 
 Eche un vistazo a los siguientes aspectos del producto:
 
-* [Analytics para Destinatario (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
