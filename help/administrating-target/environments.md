@@ -1,17 +1,17 @@
 ---
-keywords: entorno;solución de problemas;prácticas recomendadas;ubox;redirecciones;redireccionamiento;lista blanca;lista negra;lista de bloqueados;lista de permitidos
-description: Aprenda a utilizar entornos en Adobe Target para organizar sus sitios y entornos de preproducción para facilitar la administración y el sistema de informes separado.
-title: ¿Qué son los Entornos y cómo los uso?
-feature: Administration & Configuration
+keywords: entorno;solución de problemas;prácticas recomendadas;ubox;redirecciones;redireccionamiento;lista de direcciones permitidas;lista de direcciones bloqueadas;lista de bloqueados;lista de permitidos
+description: Aprenda a utilizar entornos en Adobe [!DNL Target] para organizar sus sitios y entornos de preproducción con el fin de facilitar la administración y la creación de informes separados.
+title: ¿Qué son los entornos y cómo puedo utilizarlos?
+feature: Administración y configuración
 role: Administrator
+exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '683'
 ht-degree: 63%
 
 ---
-
 
 # Entornos
 
@@ -21,28 +21,28 @@ Los hosts se agrupan en entornos para facilitar la administración. Así, se pue
 
 Un entorno, el entorno predeterminado, se denomina previamente [!UICONTROL Producción]. El entorno predeterminado no se puede eliminar aunque se le cambie el nombre. [!DNL Target] da por hecho que es desde este entorno desde donde se van a suministrar las actividades y pruebas finales y aprobadas.
 
-Cuando se recibe una solicitud [!DNL Target] de nuevos sitios Web o dominios, estos nuevos dominios siempre aparecen en el entorno [!UICONTROL Producción]. El entorno [!UICONTROL Producción] no puede cambiar su configuración, por lo que los sitios nuevos o desconocidos solo verán contenido que esté activo y listo. La administración de hosts también permite garantizar la calidad de las nuevas actividades y el contenido en los entornos de prueba, ensayo y desarrollo antes de activar las actividades.
+Cuando se recibe una solicitud [!DNL Target] de nuevos sitios web o dominios, estos nuevos dominios siempre aparecen en el entorno [!UICONTROL Producción]. El entorno [!UICONTROL Producción] no puede cambiar su configuración, por lo que se garantiza que los sitios nuevos o desconocidos solo verán contenido que esté activo y listo. La administración de hosts también permite garantizar la calidad de las nuevas actividades y el contenido en los entornos de prueba, ensayo y desarrollo antes de activar las actividades.
 
 Para administrar entornos, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Entornos]**.
 
-![Lista entornos](/help/administrating-target/assets/environments.png)
+![Lista de entornos](/help/administrating-target/assets/environments.png)
 
-## Añadir un entorno {#section_32097D0993724DF3A202D164D3F18674}
+## Agregar un entorno {#section_32097D0993724DF3A202D164D3F18674}
 
-1. En la lista [!UICONTROL Entornos], haga clic en **[!UICONTROL Añadir Entorno]**.
+1. En la lista [!UICONTROL Entornos], haga clic en **[!UICONTROL Agregar entorno]**.
 1. Elija un nombre descriptivo para el entorno.
 1. Indique el modo activo del entorno: [!UICONTROL Actividades activas] o [!UICONTROL Actividades activas e inactivas].
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Definir el entorno predeterminado para sistema de informes {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Definir el entorno predeterminado para informes {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Puede seleccionar el entorno que quiere usar como predeterminado para todos los informes de actividad.
 
-Si utiliza [!UICONTROL Producción] como opción predeterminada, todos los hosts desconocidos se agregan automáticamente aquí y los datos del informe desde allí se incluyen en la vista de informe predeterminada. Al crear un entorno “limpio”, se asegura de que se incluyan solo los sitios o dominios principales.
+Si utiliza [!UICONTROL Producción] como opción predeterminada, todos los hosts desconocidos se añaden automáticamente aquí y los datos del informe de allí se incluyen en la vista de informe predeterminada. Al crear un entorno “limpio”, se asegura de que se incluyan solo los sitios o dominios principales.
 
 Para establecer el entorno predeterminado en la creación de informes:
 
-1. En la lista [!UICONTROL Entornos], haga clic en el icono Estrella
+1. En la lista [!UICONTROL Environments], haga clic en el icono Estrella
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Puede eliminar un entorno que ya no vaya a necesitar.
 
 >[!NOTE]
 >
->No puede eliminar el entorno [!UICONTROL Producción], pero puede cambiarle el nombre.
+>No puede eliminar el entorno [!UICONTROL Production], pero puede cambiarle el nombre.
 
 ## Recommendations: filtrar colecciones y exclusiones por entorno (grupo de hosts)
 
@@ -73,16 +73,16 @@ Puede obtener una vista previa del contenido de las colecciones y exclusiones de
 
 >[!NOTE]
 >
->Las actividades de Recommendations están disponibles como parte de la solución [!DNL Target] Premium. No están disponibles en [!DNL Target] Standard sin una licencia de [!DNL Target] Premium.
+>Las actividades de Recommendations están disponibles como parte de la solución [!DNL Target] Premium . No están disponibles en [!DNL Target] Standard sin una licencia de [!DNL Target] Premium.
 
-Se puede utilizar un entorno para separar los elementos disponibles en el catálogo para distintos usos. Por ejemplo, puede utilizar grupos de hosts para entornos [!UICONTROL de desarrollo] y [!UICONTROL de producción], marcas diferentes o diferentes regiones geográficas. De forma predeterminada, la vista previa de los resultados en Búsqueda de catálogo, Colecciones y Exclusiones se basa en el grupo de hosts predeterminado. (También puede seleccionar otro grupo de hosts para obtener una vista previa de los resultados mediante el filtro Entorno). De forma predeterminada, los elementos recién añadidos están disponibles en todos los grupos de hosts a menos que se especifique un ID de entorno al crear o actualizar el elemento. Las recomendaciones enviadas dependen del grupo de hosts especificado en la solicitud.
+Se puede utilizar un entorno para separar los elementos disponibles en el catálogo para usos diferentes. Por ejemplo, puede utilizar grupos de hosts para entornos [!UICONTROL Development] y [!UICONTROL Production], diferentes marcas o diferentes zonas geográficas. De forma predeterminada, la vista previa de los resultados en Búsqueda de catálogo, Colecciones y Exclusiones se basa en el grupo de hosts predeterminado. (También puede seleccionar otro grupo de hosts para obtener una vista previa de los resultados mediante el filtro Entorno). De forma predeterminada, los elementos recién añadidos están disponibles en todos los grupos de hosts a menos que se especifique un ID de entorno al crear o actualizar el elemento. Las recomendaciones enviadas dependen del grupo de hosts especificado en la solicitud.
 
 Si no ve sus productos, asegúrese de que esté usando el grupo de hosts correcto. Por ejemplo, si configura que la recomendación use un entorno de ensayo y establece el grupo de hosts en Ensayo, puede que tenga que volver a crear las colecciones en el entorno de ensayo para que se puedan mostrar los productos. Para ver qué productos están disponibles en cada entorno, use Búsqueda en catálogo con cada entorno. También puede obtener una vista previa del contenido de las colecciones y exclusiones de Recommendations para un entorno seleccionado (grupo de hosts).
 
 >[!NOTE]
 >Después de cambiar el entorno seleccionado, debe hacer clic en Buscar para actualizar los resultados devueltos.
 
-El filtro [!UICONTROL Entorno] está disponible en los siguientes lugares de la interfaz de usuario de Destinatario:
+El filtro [!UICONTROL Entorno] está disponible en los siguientes lugares de la interfaz de usuario de Target:
 
 * Búsqueda en el catálogo ([!UICONTROL Recommendations > Buscar en el catálogo])
 * Cuadro de diálogo Crear colección ([!UICONTROL Recommendations > Colecciones > Crear nuevo])
