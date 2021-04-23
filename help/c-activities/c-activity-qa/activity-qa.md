@@ -1,18 +1,18 @@
 ---
 keywords: control de calidad;vista previa;vínculos de vista previa;adobe target;target
-description: Aprenda a utilizar las URL de control de calidad de Adobe Target para realizar sencillos controles de calidad de las actividades integrales con vínculos de vista previa invariables, segmentación opcional de audiencias y realización de informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
+description: Aprenda a utilizar URL de control de calidad de Adobe [!DNL Target] para realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa que nunca cambian, segmentación opcional de audiencias y realización de informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
 title: ¿Cómo Se Hacen Evaluaciones De Las Actividades?
-feature: Activities
+feature: Actividades
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1545'
 ht-degree: 78%
 
 ---
 
-# Control de calidad de la actividad {#activity-qa}
+# Control de calidad de la actividad
 
 Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa invariables, segmentación opcional de audiencias y realización de informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
 
