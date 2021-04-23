@@ -1,17 +1,17 @@
 ---
 keywords: segmentación;a4t;segmentación geográfica;geografía;precisión de segmentación geográfica;país;estado;ciudad;código postal;dma;operador de telefonía móvil;códigos de ciudad;códigos regionales;códigos de país;códigos de metro;scripts de perfil;scripts de perfil de segmentación geográfica;segmentación geográfica móvil
-description: Aprenda a crear audiencias de Adobe Target para segmentar usuarios según su ubicación geográfica, incluidos país, ciudad, código postal, etc.
-title: ¿Puedo Segmentar La Ubicación Basada En Visitantes?
-feature: Audiences
+description: Aprenda a crear audiencias de Adobe [!DNL Target] para dirigirse a los usuarios según su ubicación geográfica, incluidos país, ciudad, código postal, etc.
+title: ¿Puedo  [!DNL Target] Ubicación basada en visitantes?
+feature: Audiencias
 solution: Target,Analytics
+exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 68%
+source-wordcount: '997'
+ht-degree: 69%
 
 ---
-
 
 # Geografía 
 
