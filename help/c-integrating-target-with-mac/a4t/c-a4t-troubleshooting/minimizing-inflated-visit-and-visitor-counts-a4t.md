@@ -1,18 +1,18 @@
 ---
 keywords: datos parciales;A4T;discrepancias;Analytics para Target;huérfano;grupo de informes virtual;fantasma;resolución de problemas;no vinculado;inflado;no especificado
-description: Aprenda a minimizar los efectos de los recuentos inflados de visitas y visitantes al utilizar Analytics for Target (A4t). Conozca qué son los "datos parciales" y cómo reducirlos.
+description: Aprenda a minimizar los efectos de los recuentos inflados de visitas y visitantes al utilizar Analytics for [!DNL Target] (A4t). Conozca qué son los "datos parciales" y cómo reducirlos.
 title: ¿Cómo minimizo los recuentos inflados de visitas y visitantes en A4T?
 feature: Analytics for Target (A4T)
+exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 48%
 
 ---
 
-
-# Minimización de los recuentos inflados de visitas y visitantes en A4T{#minimizing-inflated-visit-and-visitor-counts-in-a-t}
+# Minimización de los recuentos inflados de visitas y visitantes en A4T
 
 Información que le ayudará a minimizar los efectos de los recuentos inflados de visitas y visitantes al utilizar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
@@ -33,11 +33,11 @@ La biblioteca mbox.js no admite ofertas de redireccionamiento con A4T. La implem
 
 ## Cambios {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-Cuando se utiliza [!DNL Adobe Analytics] para medir [!DNL Target] actividades (lo que se conoce como A4T), [!DNL Analytics] recopila datos adicionales que no están disponibles cuando no hay actividad [!DNL Target] en la página. La actividad [!DNL Target] activa una llamada al principio de la página, pero [!DNL Analytics] suele activar sus llamadas de recopilación de datos al final de la página. En las implementaciones de A4T realizadas hasta la fecha, Adobe incluye estos datos adicionales siempre que había una actividad [!DNL Target] activa. Ahora, Adobe incluye estos datos adicionales solo cuando se han activado tanto la etiqueta [!DNL Target] como la [!DNL Analytics] .
+Cuando se utiliza [!DNL Adobe Analytics] para medir [!DNL Target] actividades (lo que se conoce como A4T), [!DNL Analytics] recopila datos adicionales que no están disponibles cuando no hay actividad [!DNL Target] en la página. La actividad [!DNL Target] activa una llamada al principio de la página, pero [!DNL Analytics] suele activar sus llamadas de recopilación de datos al final de la página. En las implementaciones de A4T realizadas hasta la fecha, Adobe incluye estos datos adicionales siempre que había una actividad [!DNL Target] activa. En adelante, Adobe incluye estos datos adicionales solo si se han activado tanto la etiqueta [!DNL Target] como la [!DNL Analytics].
 
 ## ¿Por qué ha hecho Adobe este cambio? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-Adobe se enorgullece de la calidad y la precisión de sus datos. Cuando se activa la etiqueta [!DNL Target] , pero no la etiqueta [!DNL Analytics] , Analytics registra &quot;datos parciales&quot; (a veces denominados &quot;visitas no vinculadas&quot;). Estas visitas no vinculadas no serían capturadas por [!DNL Analytics] si no había actividad [!DNL Target]. Aunque la inclusión de estos datos parciales en los informes [!DNL Analytics] proporciona información adicional, también crea incoherencia con los datos históricos de periodos en los que no se ejecutó ninguna actividad [!DNL Target]. Esta situación puede causar problemas a los usuarios de [!DNL Analytics] que analizan las tendencias a lo largo del tiempo. Para garantizar la coherencia de los datos en [!DNL Analytics], Adobe excluye todos los datos parciales.
+Adobe se enorgullece de la calidad y la precisión de sus datos. Cuando se activa la etiqueta [!DNL Target] , pero no la etiqueta [!DNL Analytics] , Analytics registra &quot;datos parciales&quot; (a veces denominados &quot;visitas no vinculadas&quot;). Estas visitas no vinculadas no serían capturadas por [!DNL Analytics] si no había actividad [!DNL Target]. Aunque la inclusión de estos datos parciales en los informes [!DNL Analytics] proporciona información adicional, también crea incoherencia con los datos históricos de periodos en los que no se ejecutó ninguna actividad [!DNL Target]. Esta situación puede causar problemas a los usuarios de [!DNL Analytics] que analizan las tendencias a lo largo del tiempo. Para garantizar la coherencia de los datos en [!DNL Analytics], el Adobe excluye todos los datos parciales.
 
 ## Contribuciones a los datos parciales {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
@@ -47,9 +47,9 @@ Estas son algunas de las causas que se han identificado para los datos parciales
 
 * **Desalineación de ID de grupos de informes (implementación):** el grupo de informes especificado durante la configuración de la actividad no coincide con el grupo de informes de la página en la que se realiza la prueba. Los datos no se pueden reconciliar en servidores [!DNL Analytics], por lo que parecen datos parciales.
 * **Páginas lentas:** [!DNL Target] las llamadas de se realizan en la parte superior de la página y las  [!DNL Analytics] llamadas suelen realizarse en la parte inferior de la página. Si la página se carga lentamente, aumenta la probabilidad de que un visitante salga de la página después de que se active la llamada [!DNL Target] , pero antes de la llamada [!DNL Analytics] . Las páginas lentas pueden resultar especialmente problemáticas en los sitios web móviles, donde las conexiones suelen ser más lentas.
-* **Errores de página:** si hay errores de JavaScript u otros escenarios en los que no se activa ninguno de los puntos de contacto (servicio de Experience Cloud ID, Target y Analytics), se obtendrán resultados de datos parciales.
+* **Errores de página:** si hay errores de JavaScript u otros escenarios en los que no se activa ninguno de los puntos de contacto (servicio de ID de Experience Cloud, Target y Analytics), se obtendrán resultados de datos parciales.
 * **Ofertas de redireccionamiento en la  [!DNL Target] actividad:** Para redireccionar ofertas en actividades que utilizan A4T, la implementación debe satisfacer ciertos requisitos mínimos. Además, hay información importante que debe conocer. Para obtener más información, consulte las [preguntas más frecuentes de A4T sobre las ofertas de redireccionamiento](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Versiones antiguas de bibliotecas:** a lo largo del último año, Adobe ha realizado varias mejoras en las bibliotecas de JavaScript (  [!DNL appMeasurement.js],  `at.js/mbox.js` y  `visitorAPI.js`) para garantizar que los datos se envíen de la manera más eficiente posible. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Versiones antiguas de bibliotecas:** a lo largo del último año, el Adobe ha realizado varias mejoras en las bibliotecas de JavaScript (  [!DNL appMeasurement.js],  `at.js/mbox.js` y  `visitorAPI.js`) para garantizar que los datos se envíen de la manera más eficiente posible. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Prácticas recomendadas para reducir la cantidad de datos parciales {#section_065C38501527451C8058278054A1818D}
 
@@ -95,7 +95,7 @@ Cuando cree un grupo de informes virtuales, especifique la siguiente configuraci
 * Y
 * Instancias de vínculos de salida: no existe
 
-**Visitas huérfanas:** con menor frecuencia, los usuarios no permanecen en la página el tiempo suficiente para que se realice la llamada de Analytics y, además, Target no tiene un MCID apropiado. Estas visitas son lo que Adobe define como visitas &quot;huérfanas&quot;. Estas visitas representan a los clientes que raramente regresan e inflan indebidamente los recuentos de visitas y visitantes.
+**Visitas huérfanas:** con menor frecuencia, los usuarios no permanecen en la página el tiempo suficiente para que se realice la llamada de Analytics y, además, Target no tiene un MCID apropiado. Estas visitas son lo que el Adobe define como visitas &quot;huérfanas&quot;. Estas visitas representan a los clientes que raramente regresan e inflan indebidamente los recuentos de visitas y visitantes.
 
 Para minimizar estas visitas &quot;huérfanas&quot;, puede crear un [grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que las excluya, tal y como hemos explicado.
 
