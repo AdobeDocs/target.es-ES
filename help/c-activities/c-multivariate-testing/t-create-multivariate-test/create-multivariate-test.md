@@ -1,22 +1,22 @@
 ---
 keywords: mvt; prueba multivariable; crear prueba multivariable; creación de prueba multivariable; crear mvt; creación de mvt, procedimiento de mvt; procedimiento de prueba multivariable
-description: Aprenda a utilizar el Compositor de experiencias visuales (VEC) en Adobe Target para crear una prueba multivariada (MVT) directamente en una página con Destinatario habilitado.
-title: ¿Cómo se crea una prueba multivariada?
-feature: Multivariate Tests
+description: Aprenda a usar el Compositor de experiencias visuales (VEC) en Adobe [!DNL Target] para crear una prueba multivariable (MVT) directamente en una página habilitada para  [!DNL Target].
+title: ¿Cómo se crea una prueba multivariable?
+feature: Pruebas multivariable
+exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 89%
 
 ---
 
-
-# Crear una prueba multivariable{#create-a-multivariate-test}
+# Crear una prueba multivariable
 
 El [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] le permite crear su prueba directamente en una página compatible con Target y modificar partes de la página en [!DNL Target], todo ello de una manera sencilla.
 
-El editor [!DNL Target] de apuntar y hacer clic le permite elegir cualquier ubicación y agregar varias ofertas.
+El editor de &quot;apuntar y hacer clic&quot; [!DNL Target] le permite elegir cualquier ubicación y agregar varias ofertas.
 
 La [!UICONTROL prueba multivariada] (MVT) toma un informe centrado en una página. Es decir, la prueba se ejecuta en una determinada dirección URL, con las experiencias que diseño para esa página.
 
@@ -113,7 +113,7 @@ La [!UICONTROL prueba multivariada] (MVT) toma un informe centrado en una págin
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** para crear la actividad.
 
-## Vídeo de capacitación: Creación de pruebas multivariable (9:25) ![distintivo de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 En este vídeo explicamos cómo planificar y crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target.
 
