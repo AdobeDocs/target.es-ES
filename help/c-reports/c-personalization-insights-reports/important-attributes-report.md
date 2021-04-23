@@ -1,24 +1,24 @@
 ---
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;segmentación;automática;informe de segmentación automática;informe;personalización;perspectivas;faq;preguntas frecuentes;atributos importantes
-description: Obtenga información sobre cómo utilizar el informe Atributos importantes en Adobe Target, que muestra los atributos principales que influyeron en el modelo de personalización y su importancia relativa.
+description: Aprenda a utilizar el informe Atributos importantes en el Adobe [!DNL Target] que muestra los principales atributos que influyeron en el modelo de personalización y su importancia relativa.
 title: ¿Qué es el informe Atributos importantes?
-feature: Reports
+feature: Informes
+exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Informe de Atributos importantes{#important-attributes-report}
+# ![PREMIUM](/help/assets/premium.png) Informe de Atributos importantes
 
 Información sobre el informe Atributos importantes, uno de los dos informes especializados disponibles para los usuarios de las actividades de Personalización automatizada (AP) y Segmentación automática (AT).
 
 >[!NOTE]
 >
->Tenga en cuenta lo siguiente al utilizar los informes de Perspectivas de personalización:
+>Tenga en cuenta lo siguiente al usar los informes de Perspectivas de personalización :
 >
 >* Las actividades de AP y AT están disponibles como parte de la solución [!DNL Target Premium]. No se incluyen en [!DNL Target Standard] sin una licencia [!DNL Target Premium].
    >
@@ -26,26 +26,26 @@ Información sobre el informe Atributos importantes, uno de los dos informes esp
 * [!UICONTROL Los informes de Perspectivas de personalización están disponibles solo para actividades de AP y AT que utilizan un objetivo de optimización de conversión. ] Tampoco se admiten las actividades en las que el objetivo de optimización se cambió a la conversión de ingresos después de que la actividad ya estaba activa.
    >
    >
-* [!UICONTROL Los informes de ] perspectivas de personalización solo están disponibles si se seleccionan los objetivos  [!UICONTROL principales ] en la lista desplegable  [!UICONTROL Métricas de ] informes.
+* [!UICONTROL Los ] informes de Perspectivas de personalización solo están disponibles si el Objetivo  [!UICONTROL principal está seleccionado ] en la lista  [!UICONTROL desplegable ] Métrica de informes .
    >
    >
 * Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL Los informes ] Perspectivas de personalización se generan solamente para actividades que están en el   estado Activo y que se han activado y recibido tráfico durante al menos 15 días.
+* [!UICONTROL Los ] informes de Perspectivas de personalización solo se generan para actividades que se encuentran en   Livestatus y que han sido activadas y reciben tráfico durante al menos 15 días.
 
 
 En las distintas actividades, distintos atributos son más o menos importantes para el modo en que el modelo decide realizar la personalización. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa.
 
 ## Acceso al informe Atributos importantes {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Haga clic en **[!UICONTROL Actividades]** y, a continuación, haga clic en la actividad [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md) que desee de la lista.
+1. Haga clic en **[!UICONTROL Actividades]** y, a continuación, haga clic en la actividad [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md) que desee en la lista.
 
    Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Fuente de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas] y [!UICONTROL Fuente de la actividad].
 
 1. Haga clic en **[!UICONTROL Informes]**.
 
-   Se muestra el informe [Resumen de Automated Personalization](/help/c-reports/reports-ap.md) o [Resumen de Destinatario automático](/help/c-reports/auto-target-summary-report.md), que proporciona información sobre el rendimiento de sus actividades, representada por el icono de la primera pantalla. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. Tenga en cuenta que Segmentación automática dispone de un icono de gráfico adicional para la visualización gráfica del informe [!UICONTROL Resumen].
+   Se muestra el informe [Resumen de Automated Personalization](/help/c-reports/reports-ap.md) o [Resumen de segmentación automática](/help/c-reports/auto-target-summary-report.md) , que proporciona información sobre el rendimiento de las actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. Tenga en cuenta que Segmentación automática dispone de un icono de gráfico adicional para la visualización gráfica del informe [!UICONTROL Resumen].
 
    ![](assets/personalization_insights.png)
 
