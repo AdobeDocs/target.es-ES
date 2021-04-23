@@ -1,18 +1,18 @@
 ---
 keywords: audiencia;inclinación;atributo de perfil;comparar;comparación;crear audiencia;creación de audiencia
-description: Obtenga información sobre cómo definir una audiencia para comparar dos atributos de perfil para la biblioteca de Audiencias de Destinatario o en una audiencia solo de actividad.
-title: ¿Puedo comparar dos atributos de Perfil para utilizarlos en Audiencias?
-feature: Audiences
+description: Aprenda a definir una audiencia para comparar dos atributos de perfil para su  [!DNL Target] biblioteca de audiencias o en una audiencia solo de actividad.
+title: ¿Puedo comparar dos atributos de perfil para usarlos en las audiencias?
+feature: Audiencias
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 91%
 
 ---
 
-
-# Crear una audiencia de comparación de atributos de perfil{#create-a-profile-attribute-comparison-audience}
+# Crear una audiencia de comparación de atributos de perfil. 
 
 Defina una audiencia con el fin de comparar dos atributos de perfil para su [biblioteca de audiencias](/help/c-target/c-audiences/audiences.md) o en una [audiencia solo de actividad](/help/c-target/creating-activity-only-audience.md). Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
 
@@ -58,7 +58,7 @@ Para obtener más información, consulte [Métodos para obtener datos en Target]
 
    ![](assets/propensity_score_4.png)
 
-## Vídeo de capacitación ![Distintivo de información general](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Vídeo de formación ![Distintivo de información general](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Vea el siguiente vídeo para obtener más información y ver un caso en el que podría utilizar esta función:
 
