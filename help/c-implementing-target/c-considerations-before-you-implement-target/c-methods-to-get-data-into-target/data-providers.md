@@ -1,15 +1,15 @@
 ---
 keywords: implementar;implementación;configuración;configuración;proveedores de datos
-description: Obtenga datos en Target mediante proveedores de datos.
-title: ¿Cómo puedo obtener datos en Target mediante proveedores de datos?
-feature: Implementation
+description: Obtenga datos en [!DNL Target] mediante proveedores de datos.
+title: ¿Cómo se obtienen los datos en  [!DNL Target] con los proveedores de datos?
+feature: Implementación
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 66%
+source-wordcount: '299'
+ht-degree: 67%
 
 ---
 
