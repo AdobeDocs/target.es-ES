@@ -1,20 +1,20 @@
 ---
 keywords: A/B;métricas de actividad;métricas;definir métricas;métrica de objetivo;métrica de éxito;configuración de actividades;conversión;ingresos;participación
-description: Obtenga información sobre cómo especificar métricas en una actividad A/B de Adobe Target para determinar cuándo se realiza correctamente una visita, como Conversión, Ingresos y Participación.
-title: ¿Cómo configuro las métricas de objetivo en una Actividad A/B?
-feature: A/B Tests
+description: Aprenda a especificar métricas en una actividad A/B de Adobe [!DNL Target] A/B para determinar si una visita es satisfactoria, como Conversión, Ingresos y Participación.
+title: ¿Cómo establezco métricas de objetivo en una actividad A/B?
+feature: Pruebas A/B
+exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 85%
 
 ---
 
-
 # Definir métricas
 
-Utilice métricas en una actividad A/B [!DNL Adobe Target] para determinar cuándo se realiza una visita con éxito.
+Utilice métricas en una actividad A/B [!DNL Adobe Target] para determinar si una visita es satisfactoria.
 
 Para obtener información detallada sobre las métricas de éxito, consulte  [Métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -49,13 +49,13 @@ Tenga en cuenta que cuando nombra o renombra una métrica, no se permiten los si
 | / | Barra oblicua |
 | ? | Signo de interrogación |
 | # | Signo de número |
-| :: | Dos puntos |
+| : | Dos puntos |
 | = | Igual a |
 | + | Más |
 | - | Menos |
 | @ | Arroba |
 
-## Vídeo de formación: Métricas de actividad (7:43)  ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Métricas de actividad (7:43)  ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 
