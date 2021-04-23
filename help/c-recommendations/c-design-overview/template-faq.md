@@ -1,20 +1,20 @@
 ---
 keywords: recomendaciones;preguntas más frecuentes;FAQ
-description: Revise una lista de las preguntas más frecuentes (FAQ) y sus respuestas sobre los diseños de Adobe Target Recommendations.
-title: ¿Dónde puedo responder a preguntas de diseño para Destinatario Recommendations?
+description: Revise una lista de las preguntas más frecuentes (FAQ) y sus respuestas sobre los diseños de Adobe [!DNL Target] Recommendations.
+title: ¿Dónde puedo responder a preguntas de diseño para [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 84%
+source-wordcount: '411'
+ht-degree: 85%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) FAQ de diseño
 
-# ![PREMIUM](/help/assets/premium.png) FAQ de diseño{#design-faq}
-
-Lista de las preguntas más frecuentes sobre los diseños de [!DNL Adobe Target] recomendaciones.
+Lista de las preguntas más frecuentes (FAQ) sobre diseños de recomendaciones [!DNL Adobe Target].
 
 ## El precio del elemento recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?
 
@@ -48,7 +48,7 @@ La versión 1.7, sin herramientas ni bibliotecas adicionales agregadas. La funci
 
 ## ¿Cómo puedo sustituir un valor de entidad existente por un espacio en blanco? Por ejemplo, un entity.message de artículo debe borrarse cuando finaliza la promoción. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Enviar un espacio de no separación de JavaScript parece hacer esto. Haga que los programadores envíen `\u00A0` como el valor. Ejemplo: `entity.message=\u00A0`. Puede considerar la posibilidad de que este sea el valor predeterminado cuando no haya ningún valor presente, en lugar de un cero.
+Al enviar un espacio de no separación de JavaScript, esto parece hacerse. Haga que los programadores envíen `\u00A0` como el valor. Ejemplo: `entity.message=\u00A0`. Puede considerar la posibilidad de que este sea el valor predeterminado cuando no haya ningún valor presente, en lugar de un cero.
 
 ## ¿Puedo usar un script de perfil en un diseño de Recommendations?{#section_6BD55203984A4D80A0C6F241AD7806DF}
 
