@@ -1,18 +1,18 @@
 ---
 keywords: perfil del visitante;segmentar el perfil del visitante;
-description: Obtenga información sobre cómo crear audiencias en Adobe Target para visitantes de destinatario que cumplan parámetros de perfil específicos, como visitante nuevo o recurrente, afinidad de categoría, etc.
-title: ¿Puedo Destinatario Visitantes Que Cumplen Parámetros De Perfil Específicos?
-feature: Audiences
+description: Aprenda a crear audiencias en Adobe [!DNL Target] para dirigirse a visitantes que cumplan parámetros de perfil específicos como visitante nuevo o que regresa, afinidad de la categoría, etc.
+title: ¿Puedo  [!DNL Target] Visitantes que cumplen parámetros de perfil específicos?
+feature: Audiencias
+exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 83%
 
 ---
 
-
-# Perfil del visitante{#visitor-profile}
+# Perfil del visitante
 
 Cree audiencias para segmentar visitantes que cumplan parámetros de perfil específicos.
 
@@ -43,7 +43,7 @@ Cree audiencias para segmentar visitantes que cumplan parámetros de perfil espe
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Vídeo de capacitación: Creando distintivo de Audiencias ![Información general](/help/assets/overview.png)
+## Vídeo de formación: Creación de audiencias ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
