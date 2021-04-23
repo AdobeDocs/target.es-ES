@@ -1,20 +1,20 @@
 ---
 keywords: varias páginas;prueba de trayecto;actividad de varias páginas
-description: Obtenga información sobre cómo crear una actividad de varias páginas en Adobe Target para crear un artículo en varias páginas, con un diseño específico para cada página.
-title: ¿Cómo se crea una Actividad de varias páginas?
-feature: Visual Experience Composer (VEC)
+description: Aprenda a crear una actividad de varias páginas en Adobe [!DNL Target] le permite crear un artículo en varias páginas, con un diseño específico para cada página.
+title: ¿Cómo creo una actividad de varias páginas?
+feature: 'Compositor de experiencias visuales (VEC). '
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 85%
 
 ---
 
-
 # Actividad de varias páginas
 
-Una actividad de varias páginas en [!DNL Adobe Target] permite crear un artículo en varias páginas, con un diseño específico para cada página.
+Una actividad de varias páginas en [!DNL Adobe Target] permite crear un artículo en varias páginas, con un diseño que es específico de cada página.
 
 Por ejemplo, podría querer probar una oferta para envío gratuito con compras superiores a cierto monto. Podría querer que esa oferta apareciera en su página de aterrizaje, una página de categoría y ciertas páginas de producto, pero desea que tenga un tamaño diferente y esté en una ubicación diferente en cada tipo de página. Podría mostrar una oferta destacada en su página de inicio y luego reforzar esa oferta con ofertas más pequeñas en otras páginas relevantes.
 
@@ -46,4 +46,3 @@ Para agregar páginas a una prueba:
    Utilice este menú para cambiar el nombre de las páginas, realizar una prueba de redirección desde la actividad de varias páginas o eliminar la página.
 
 1. Use el Compositor de experiencias visuales para diseñar la manera en que se muestra la oferta en cada página.
-
