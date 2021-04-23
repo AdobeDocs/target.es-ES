@@ -1,19 +1,19 @@
 ---
 keywords: instancias en la nube;lista de sufijos públicos;sufijos públicos;cookie;cookie de origen;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: Explore los problemas (con las soluciones) que enfrentan los clientes al usar instancias basadas en la nube para probar Adobe Target o con fines de prueba de concepto.
-title: ¿Puedo usar Destinatario con instancias basadas en la nube?
-feature: at.js
+description: Explore los problemas (con soluciones) que los clientes afrontan al usar instancias basadas en la nube para probar el Adobe [!DNL Target] o con fines de prueba de concepto.
+title: ¿Puedo usar [!DNL Target] con instancias basadas en la nube?
+feature: 'at.js '
 role: Developer
+exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 81%
+source-wordcount: '169'
+ht-degree: 82%
 
 ---
 
-
-# Uso de instancias basadas en la nube con Target{#use-cloud-based-instances-with-target}
+# Uso de instancias basadas en la nube con Target
 
 Información acerca de problemas que los clientes afrontan al usar instancias basadas en la nube para probar [!DNL Adobe Target].
 
