@@ -1,22 +1,22 @@
 ---
 keywords: faq;preguntas más frecuentes;analytics para target;a4T;redireccionamiento;oferta de redireccionamiento;adobe-mc-sdid;adobe_mc_ref
-description: Encuentre respuestas a preguntas sobre el uso de ofertas de redireccionamiento al usar Analytics for Target (A4T). A4T le permite utilizar los informes de Analytics para actividades de Target.
+description: Encuentre respuestas a preguntas sobre el uso de ofertas de redireccionamiento al usar Analytics para actividades [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: ¿Dónde puedo encontrar preguntas más frecuentes sobre las ofertas de redireccionamiento con A4T?
 feature: Analytics for Target (A4T)
+exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1218'
 ht-degree: 69%
 
 ---
-
 
 # Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T
 
 En este tema encontrará respuestas a preguntas que se plantean a menudo sobre el uso de ofertas de redireccionamiento al usar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
-## ¿Admite Analytics for Target (A4T) ofertas de redireccionamiento?{#section_46B8B03ED4D542C6AD875F5F61176298}
+## ¿Admite Analytics for Adobe Target (A4T) ofertas de redireccionamiento? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Sí, si la implementación utiliza [!DNL at.js]. Sin embargo, la implementación debe cumplir los requisitos mínimos enumerados a continuación para utilizar [ofertas de redireccionamiento](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) en actividades que usen Analytics como fuente de informes.
 
@@ -75,7 +75,7 @@ Estos parámetros se agregan automáticamente a las direcciones URL de redirecci
 
 ## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-Trabaje con su equipo de TI para que se incluyan estos parámetros ( `adobe_mc_sdid` y `adobe_mc_ref`) en la lista de permitidos.
+Trabaje con su equipo de TI para que estos parámetros ( `adobe_mc_sdid` y `adobe_mc_ref`) estén incluidos en la lista de permitidos.
 
 ## ¿Qué sucede si yo no utilizo A4T en mi actividad de redireccionamiento y no quiero que se agreguen estos parámetros adicionales a mis direcciones URL?{#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -93,7 +93,7 @@ Si utiliza A4T y ofertas de redireccionamiento, Target añade los parámetros `a
 
 Debido a esta doble codificación, cuando la API de visitante intenta descodificar el valor `adobe_mc_sdid`, no consigue extraer el valor SDID y genera un SDID nuevo. Este proceso provoca que se envíen valores SDID incorrectos a Target y Analytics, y que se vean divisiones desiguales para las redirecciones en los informes de Analytics.
 
-Adobe recomienda hablar con su equipo de TI para asegurarse de que `adobe_mc_ref` y `adobe_mc_sdid` estén permitidos para que estos valores no se transformen de ninguna manera.
+Adobe recomienda hablar con su equipo de TI para asegurarse de que `adobe_mc_ref` y `adobe_mc_sdid` estén incluidos en la lista de permitidos, de modo que estos valores no se transformen de modo alguno.
 
 ## ¿Por qué se debe pasar la dirección URL de referencia a la nueva página? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
