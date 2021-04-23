@@ -1,21 +1,21 @@
 ---
 keywords: atributos de entidad de varios valores;atributos de entidad personalizados;JSON válido;valor de atributo de entidad;matriz de JSON;varios valores;valores múltiples
-description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los elementos del catálogo de Adobe Target Recommendations.
-title: ¿Cómo se utilizan los atributos de entidad personalizados?
+description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los artículos de su catálogo de Recommendations  [!DNL Target] Adobe.
+title: ¿Cómo Se Utilizan Los Atributos De Entidad Personalizados?
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Atributos de entidad personalizados
 
-# ![PREMIUM](/help/assets/premium.png) Atributos de entidad personalizados{#custom-entity-attributes}
-
-Utilice atributos de entidad personalizados de un solo valor y varios valores en [!DNL Adobe Target Recommendations] para definir información adicional sobre los elementos del catálogo.
+Use atributos de entidad personalizados de uno o varios valores en [!DNL Adobe Target Recommendations] para definir información adicional sobre los artículos del catálogo.
 
 ## Límites {#limits}
 
@@ -109,7 +109,7 @@ Tenga cuidado al editar directamente un archivo CSV de catálogo sin procesar.
 
 ### Usar API
 
-Puede pasar atributos de varios valores mediante la API de Envío en un parámetro de mbox como un valor de cadena que contenga una matriz JSON de escape.
+Puede pasar atributos de varios valores usando la API de envío en un parámetro de mbox como un valor de cadena que contenga una matriz de JSON escapada.
 
 ```javascript
 "execute": {
@@ -127,7 +127,7 @@ Puede pasar atributos de varios valores mediante la API de Envío en un parámet
   }
 ```
 
-Consulte la [documentación de la API de Adobe Recommendations](http://developers.adobetarget.com/api/recommendations) para obtener información sobre el uso de las API de Envío y Guardar entidades.
+Consulte la [documentación de la API de Adobe Recommendations](http://developers.adobetarget.com/api/recommendations) para obtener información sobre el uso de las API Entrega y Guardar entidades.
 
 ## Uso de operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -140,7 +140,7 @@ En el ejemplo siguiente, la regla es  `message contains abc`.
 
 En el caso de los operadores negativos, todos los valores de atributo deben cumplir el criterio (booleano *AND*). Por ejemplo, si el operador es  `notEquals`, el resultado será *false* si algún valor coincide.
 
-Consulte las siguientes secciones para ver el comportamiento de los operadores en las reglas de inclusión de algoritmos, las reglas de catálogo y las reglas de exclusión.
+Consulte las secciones siguientes para ver el comportamiento de los operadores en las reglas de inclusión de algoritmos, las reglas de catálogo y las reglas de exclusión.
 
 ### Es igual a
 
