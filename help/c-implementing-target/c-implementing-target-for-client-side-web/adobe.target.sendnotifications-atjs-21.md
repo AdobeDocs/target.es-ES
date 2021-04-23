@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;enviar notificaciones;notificaciones;at.js;funciones;función
-description: Utilice adobe.destinatario.sendNotifications() para at.js para enviar notificaciones al borde del Destinatario cuando se procese una experiencia sin utilizar applyOffer(s). (at.js.2.1 +)
-title: ¿Cómo se usa la función adobe.destinatario.sendNotifications()?
+description: Utilice adobe.target.sendNotifications() para at.js para enviar notificaciones al perímetro  [!DNL Target] cuando se represente una experiencia que no utilice applyOffer(s) . (at.js.2.1 +)
+title: ¿Cómo utilizo la función adobe.target.sendNotifications() ?
 feature: at.js
 role: Developer
+exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 95%
 
 ---
-
 
 # adobe.target.sendNotifications(options)
 
