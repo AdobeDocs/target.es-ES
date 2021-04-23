@@ -1,18 +1,18 @@
 ---
 keywords: periodo de tiempo;fecha de inicio;fecha de fin;fechas de inicio/fin;intervalo de tiempo;programación de Target;partición por semana;partición por día;partición
-description: Conozca cómo utilizar las fechas y horas de inicio y finalización para destinatario a los usuarios que visitan el sitio durante un intervalo de tiempo específico. También puede definir las opciones Partición por semana y día.
-title: ¿Puedo Destinatario Visitantes que visitan mi sitio en momentos específicos?
-feature: Audiences
+description: Aprenda a utilizar las fechas y horas de inicio y finalización para dirigirse a los usuarios que visitan el sitio durante un intervalo de tiempo específico. También puede establecer las opciones de Partición por semana y día .
+title: ¿Puedo [!DNL Target] Visitantes que visitan mi sitio en momentos específicos?
+feature: Audiencias
+exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
-
-# Periodo de tiempo{#time-frame}
+# Periodo de tiempo
 
 Puede añadir fechas y horas de inicio y fin para dirigirse a los usuarios que visitan el sitio durante un periodo de tiempo determinado. También puede establecer opciones de Partición por semana y día para crear patrones recurrentes en la segmentación de audiencia.
 
@@ -52,7 +52,7 @@ Por ejemplo, con las [funciones de audiencias combinadas específicas](/help/c-t
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Vídeo de capacitación: Creando distintivo de Audiencias ![Información general](/help/assets/overview.png)
+## Vídeo de formación: Creación de audiencias ![Distintivo de información general](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
