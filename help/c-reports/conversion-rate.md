@@ -1,16 +1,16 @@
 ---
 keywords: Segmentación
-description: Conozca cómo muestra y calcula Adobe Target la tasa de conversión, el alza, la confianza (relevancia estadística) y el intervalo de confianza para cada experiencia.
-title: ¿Cómo se Vista el nivel de Tasa de conversión, alza y confianza?
-feature: Reports
+description: Descubra cómo Adobe [!DNL Target] muestra y calcula la tasa de conversión, el alza, la confianza (relevancia estadística) y el intervalo de confianza para cada experiencia.
+title: ¿Cómo puedo ver la tasa de conversión, el alza y el nivel de confianza?
+feature: Informes
+exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 70%
+ht-degree: 69%
 
 ---
-
 
 # Tasa de conversión
 
@@ -106,17 +106,17 @@ El *intervalo de confianza* es un intervalo en el que se puede encontrar el valo
 
 El [informe CSV descargado](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) solo contiene datos sin procesar; no incluye métricas calculadas, como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B.
 
-Para calcular estas métricas calculadas, descargue el archivo de Excel [Calculadora de confianza completa](/help/assets/complete_confidence_calculator.xlsx) del Destinatario para introducir el valor de la actividad o revise los [cálculos estadísticos utilizados por Destinatario](/help/assets/statistical-calculations.pdf).
+Para calcular estas métricas calculadas, descargue el archivo de Excel [Calculadora de confianza completa](/help/assets/complete_confidence_calculator.xlsx) de Target para introducir el valor de la actividad o revisar los [cálculos estadísticos utilizados por Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
 >Esta calculadora es para informes basados en Target y no para informes de A4T.
 
-## Realización de cálculos sin conexión en Analytics for Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Realización de cálculos sin conexión en Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 Puede realizar cálculos sin conexión para A4T, pero es necesario realizar un paso de exportaciones de datos en [!DNL Analytics].
 
-Para A4T empleamos un cálculo t-test de estudiante con variables continuas (en vez de métricas binarias). En Analytics, siempre se realiza un seguimiento de los visitantes y se cuenta toda acción realizada. Por tanto, si el visitante realiza varias compras o visita varias veces una métrica de éxito, todas estas visitas adicionales se cuentan. Esto convierte la métrica en una variable continua. Para realizar el cálculo de la prueba T del estudiante, se requiere la &quot;suma de cuadrados&quot; para calcular la varianza, que se utiliza en el denominador de la estadística t. [Este documento explica los ](/help/assets/statistical-calculations.pdf) detalles de las fórmulas matemáticas utilizadas. La suma de cuadrados se puede recuperar de [!DNL Analytics]. Para obtener datos de la suma de los cuadrados, debe realizar una exportación en el nivel de visitante de la métrica que desea optimizar durante un periodo de muestra.
+Para A4T empleamos un cálculo t-test de estudiante con variables continuas (en vez de métricas binarias). En Analytics, siempre se realiza un seguimiento de los visitantes y se cuenta toda acción realizada. Por tanto, si el visitante realiza varias compras o visita varias veces una métrica de éxito, todas estas visitas adicionales se cuentan. Esto convierte la métrica en una variable continua. Para realizar el cálculo de la prueba T de estudiante, se necesita la &quot;suma de los cuadrados&quot; para calcular la varianza, que se utiliza en el denominador de la estadística t. [Este documento explica los ](/help/assets/statistical-calculations.pdf) detalles de las fórmulas matemáticas utilizadas. La suma de los cuadrados se puede recuperar de [!DNL Analytics]. Para obtener datos de la suma de los cuadrados, debe realizar una exportación en el nivel de visitante de la métrica que desea optimizar durante un periodo de muestra.
 
 Por ejemplo, si está optimizando las vistas de página por visitante, exportaría una muestra del número total de vistas de página por cada visitante durante un tiempo concreto, tal vez un par de días (no necesita más que unos pocos miles de puntos de datos). A continuación, elevaría al cuadrado cada valor y sumaría los totales (en este caso, el orden de las operaciones es esencial). Este valor “suma de los cuadrados” se utiliza en la calculadora de confianza completa. Para estos valores, utilice la sección “ingresos” de dicha hoja de cálculo.
 
@@ -147,7 +147,7 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 Para obtener más información sobre el [!DNL Data Warehouse], vea los siguientes vínculos en la documentación de ayuda de [!DNL Analytics]:
 
 * [Crear una solicitud del Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Prácticas recomendadas de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [prácticas recomendadas de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodología de contabilización {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -186,26 +186,26 @@ Puede visualizar informes siguiendo las siguientes metodologías de contabilizac
 >
 >Los recuentos se suelen determinar a partir de las cookies y la actividad de la sesión. Sin embargo, si se alcanza el punto de conversión final de una actividad y se vuelve a entrar en ella, se le considerará un visitante nuevo y una nueva visita a la actividad. Esto ocurre incluso cuando los valores de PCID y `sessionID` no han variado.
 
-## ¿Por qué el Destinatario recomienda utilizar las pruebas T de estudiante? {#t-test}
+## ¿Por qué [!DNL Target] recomienda utilizar las pruebas T de estudiante? {#t-test}
 
 Las pruebas A/B son experimentos para comparar el valor medio de alguna métrica comercial en una variante de control (también conocida como experiencia) con el valor medio de esa misma métrica en una o más experiencias alternativas.
 
-[!DNL Target] recomienda utilizar dos pruebas [ T de ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)estudiante de muestra, ya que requieren menos suposiciones que otras alternativas como las pruebas z, y son la prueba estadística adecuada para realizar comparaciones por pares de métricas comerciales (cuantitativas) entre una experiencia de control y una experiencia alternativa.
+[!DNL Target] recomienda utilizar dos pruebas T de  [estudiante](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.) de muestra, ya que requieren menos suposiciones que otras alternativas, como las pruebas z, y son la prueba estadística adecuada para hacer comparaciones por pares de métricas empresariales (cuantitativas) entre experiencias de control y experiencias alternativas.
 
-### Más detalles
+### Más información
 
-Al ejecutar pruebas A/B en línea, cada usuario/visitante se asigna aleatoriamente a una sola variante. Posteriormente, realizamos mediciones de las métricas comerciales de interés (por ejemplo: conversiones, pedidos, ingresos, etc.) para visitantes en cada variante. La prueba estadística que utilizamos luego prueba la hipótesis de que la métrica comercial media (por ejemplo, tasa de conversión, pedidos por usuario, ingresos por usuario, etc.) es igual para el control y una variante alternativa determinada.
+Al ejecutar pruebas A/B en línea, cada usuario/visitante se asigna aleatoriamente a una sola variante. Posteriormente, realizamos mediciones de las métricas de interés del negocio (por ejemplo: conversiones, pedidos, ingresos, etc.) para los visitantes de cada variante. La prueba estadística que utilizamos luego prueba la hipótesis de que la métrica comercial media (por ejemplo, tasa de conversión, pedidos por usuario, ingresos por usuario, etc.) es igual para el control y una variante alternativa determinada.
 
-Aunque la métrica de negocios en sí puede distribuirse de acuerdo con alguna distribución arbitraria, la distribución de la media de esta métrica (dentro de cada variante) debe converger a una distribución normal a través del [Teorema de límite central](https://en.wikipedia.org/wiki/Central_limit_theorem). Tenga en cuenta que, aunque no hay garantía de la rapidez con la que esta distribución de muestreo de la media convergerá a la normalidad, esta condición suele alcanzarse dada la escala de visitantes en las pruebas en línea.
+Aunque la propia métrica del negocio puede distribuirse según alguna distribución arbitraria, la distribución de la media de esta métrica (dentro de cada variante) debe converger a una distribución normal a través del [Teorema del límite central](https://en.wikipedia.org/wiki/Central_limit_theorem). Tenga en cuenta que, aunque no hay garantía de la rapidez con la que esta distribución de muestreo de la media converja a la normalidad, esta condición se suele lograr dada la escala de visitantes en las pruebas en línea.
 
-Dada esta normalidad de la media, puede demostrarse que la estadística de prueba que se va a utilizar sigue una distribución t, ya que es la proporción de un valor distribuido normalmente (la diferencia en los medios de la métrica comercial) con un término de escala basado en una estimación de los datos (el error estándar de la diferencia en los medios). El **t-test** del estudiante es entonces la prueba de hipótesis adecuada, dado que la estadística de la prueba sigue una distribución t.
+Dada esta normalidad de la media, se puede mostrar que la estadística de prueba que se va a utilizar sigue una distribución t, ya que es la proporción de un valor distribuido normalmente (la diferencia en los medios de la métrica empresarial) con un término de escala basado en una estimación de los datos (el error estándar de la diferencia en los medios). La **prueba t del estudiante** es entonces la prueba de hipótesis adecuada, dado que la estadística de prueba sigue una distribución t.
 
 ### Por qué no se utilizan otras pruebas
 
-Un **z-test** no es apropiado porque en el escenario típico de prueba A/B, el denominador de la estadística de prueba no se deriva de una varianza conocida y, en su lugar, debe estimarse a partir de los datos.
+Una **z-test** no es apropiada porque en el escenario típico de prueba A/B, el denominador de la estadística de prueba no se deriva de una varianza conocida, sino que debe estimarse a partir de los datos.
 
-**No se utilizan** pruebas Chi-squared porque son adecuadas para determinar si existe una relación cualitativa entre dos variantes (es decir, una hipótesis nula de que no hay diferencia entre las variantes). Las pruebas T son más apropiadas para el escenario de _comparación cuantitativa_ de métricas.
+**No se utilizan** pruebas Chi-squared porque son adecuadas para determinar si existe una relación cualitativa entre dos variantes (es decir, una hipótesis nula de que no hay diferencia entre variantes). Las pruebas T son más adecuadas para el escenario de _comparación cuantitativa_ de métricas.
 
-La **prueba U de Mann-Whitney** es una prueba no paramétrica, que es apropiada cuando la distribución de muestra de la métrica comercial media (para cada variante) no se distribuye normalmente. Sin embargo, como se ha explicado anteriormente, dadas las magnitudes de tráfico que implican las pruebas en línea, el teorema de límite central suele aplicarse, por lo que la prueba t se puede aplicar de forma segura.
+La **prueba U de Mann-Whitney** es una prueba no paramétrica, que es apropiada cuando la distribución de muestreo de la métrica comercial media (para cada variante) no se distribuye normalmente. Sin embargo, como se ha comentado anteriormente, dada la magnitud del tráfico involucrado en las pruebas en línea, el teorema de límite central suele aplicarse, y por lo tanto la prueba t puede aplicarse de forma segura.
 
-Se pueden aplicar métodos más complejos como **ANOVA** (que generalizan pruebas t a más de dos variantes) cuando una prueba tiene más de dos experiencias (&quot;pruebas A/Bn&quot;). Sin embargo, ANOVA responde a la pregunta de &quot;si todas las variantes tienen la misma media&quot;, mientras que en la prueba A/Bn típica estamos más interesados en _qué variante específica_ es la mejor. En [!DNL Target], por lo tanto, aplicamos pruebas t regulares comparando cada variante con un control, con una corrección de Bonferroni para tener en cuenta múltiples comparaciones.
+Se pueden aplicar métodos más complejos como **ANOVA** (que generalizan pruebas t a más de dos variantes) cuando una prueba tiene más de dos experiencias (&quot;pruebas A/Bn&quot;). Sin embargo, ANOVA responde a la pregunta de &quot;si todas las variantes tienen la misma media&quot;, mientras que en la prueba A/Bn típica nos interesa más _qué variante específica_ es la mejor. En [!DNL Target], por lo tanto, se aplican pruebas t normales comparando cada variante con un control, con una corrección de Bonferroni para tener en cuenta múltiples comparaciones.
