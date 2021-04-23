@@ -1,14 +1,14 @@
 ---
 keywords: implementar;implementación;configuración;configuración;atributos del cliente
-description: Obtenga datos en Target mediante atributos del cliente.
-title: ¿Cómo puedo obtener datos en Target mediante Atributos del cliente?
-feature: Implementation
+description: Obtenga datos en [!DNL Target] mediante atributos del cliente.
+title: ¿Cómo puedo obtener datos en  [!DNL Target] Uso de atributos del cliente?
+feature: Implementación
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 56%
 
 ---
