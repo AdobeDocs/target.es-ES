@@ -1,22 +1,22 @@
 ---
 keywords: preguntas frecuentes;faq;analytics para target;a4T;informe;informes;visualización de informes;creación de informes;metodología de contabilización;impresiones;visitantes;visitas;métrica predeterminada;conversiones de actividad;sin especificar
-description: Encuentre respuestas a preguntas que se plantean a menudo sobre la visualización de informes al usar Analytics for Target (A4T). A4T le permite utilizar los informes de Analytics para actividades de Target.
+description: Encuentre respuestas a preguntas que se plantean a menudo sobre la visualización de informes al utilizar Analytics para actividades [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: ¿Encuentra respuestas a preguntas sobre la visualización de informes con A4T?
 feature: Analytics for Target (A4T)
+exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 translation-type: tm+mt
-source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 39%
+source-wordcount: '2512'
+ht-degree: 38%
 
 ---
-
 
 # Visualización de informes: preguntas más frecuentes sobre A4T
 
 En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la visualización de informes al utilizar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
-## ¿Puedo ver los datos de mi actividad de Target en Analysis Workspace? {#workspace}
+## ¿Puedo ver mis [!DNL Target] datos de actividad en Analysis Workspace? {#workspace}
 
 Puede utilizar [!DNL Analysis Workspace] para analizar las actividades y experiencias de [!DNL Target]. El panel [Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) le permite ver el alza y la confianza hasta en tres métricas de éxito. También puede profundizar con tablas y visualizaciones.
 
@@ -28,7 +28,7 @@ Los segmentos se utilizan generalmente en la parte superior de un panel en la zo
 
 Un segmento también puede colocarse directamente en la tabla de forma libre, pero tenga en cuenta que debe superponerse en toda la tabla para conservar los cálculos de alza y confianza dentro del panel de A4T. Actualmente, los segmentos de nivel de columna no son compatibles con el panel.
 
-## Cuando se aplica un segmento de visita para una actividad de Target específica, ¿por qué se devuelven experiencias no relacionadas? {#activity-segmentation}
+## Cuando se aplica un segmento de visita para una actividad [!DNL Target] específica, ¿por qué se devuelven experiencias no relacionadas? {#activity-segmentation}
 
 La variable de [!DNL Target] enviada a [!DNL Analytics] caduca, de forma predeterminada, en un plazo de 90 días. (Nota: el Servicio de atención al cliente puede ajustar este periodo de caducidad si es necesario). A medida que los visitantes navegan por el sitio a través de esta ventana de caducidad, forman parte de muchas actividades [!DNL Target], todas las cuales se recopilan en la dimensión.
 
@@ -75,7 +75,7 @@ Tras el periodo de clasificación, los datos aparecen en estos informes aproxima
 
 En caso de que la clasificación se haya realizado para esa actividad y siga viendo una fila &quot;No especificada&quot; en el informe, asegúrese de que el informe no esté usando una métrica que no sea [!DNL Target] para mostrar los datos. A menos que el informe utilice una métrica específica de [!DNL Target], esa fila &quot;No especificada&quot; contiene eventos para llamadas que no están asociadas con [!DNL Target]. Esa fila no contiene información asociada a [!DNL Target] (por ejemplo, visitantes/visitas/impresiones).
 
-## ¿Por qué se envían métricas de Target a Analytics aunque la actividad se haya desactivado?{#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## ¿Por qué se envían [!DNL Target] métricas a Analytics aunque la actividad se haya desactivado? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 La variable de [!DNL Target] enviada a [!DNL Analytics] caduca, de forma predeterminada, en un plazo de 90 días. El Servicio de atención al cliente puede ajustar este periodo de caducidad si es necesario. Sin embargo, esta configuración es global para todas las actividades, por lo que no se debería cambiar para un caso.
 
@@ -99,20 +99,20 @@ El usuario vuelve el 1 de febrero y ve otras cinco páginas. No encuentra más a
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 1 |
+| XYZ | 1 | 10 | 2 | 1 |
 
 El usuario vuelve el 1 de marzo y ve una actividad nueva: ABC. Esta vez también ve cinco páginas. Debido a que la actividad XYZ sigue al usuario a través de la persistencia y este usuario luego tiene ABC configurado, verá dos artículos de línea en los informes:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 3 | 3 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 1 | 1 |
 
 El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. El vencimiento de 90 días de ese primer valor de eVar se restablece el 1 de abril, por lo que lo ve en el informe. Se atribuye el origen de la conversión a todas las actividades de Target que el usuario ve, pero el número total de conversiones se desduplica:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 1 | 3 |
+| XYZ | 1 | 20 | 4 | 1 | 1 |
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Total | 2 | 20 | 1 | 1 | 1 |
 
@@ -124,7 +124,7 @@ Para obtener más información, consulte [Variables de conversión (eVar](https:
 
 Una fuente de impresiones sobre el informe de una actividad de A4T después de la desactivación puede ser el tráfico en modo de control de calidad. Normalmente, Target no registra eventos para una actividad desactivada, pero Analytics no tiene forma de saber que las impresiones provienen del modo de control de calidad. Cuando el informe de actividad de Target se recupera de Analytics, muestra estas impresiones. Esto funciona como está diseñado, ya que los clientes necesitan una forma de comprobar los informes de A4T aunque la actividad no esté activa mediante el modo de control de calidad.
 
-## ¿Por qué Analytics y Analytics for Target (A4T) calculan las cifras de la métrica Visitantes únicos de distinta forma?{#section_0C3B648AB54041F9A2AA839D51791883}
+## ¿Por qué Analytics y Analytics for Adobe Target (A4T) calculan las cifras de la métrica Visitantes únicos de distinta forma? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Una de las presuposiciones que se dan al ejecutar una prueba A/B, que emplea la prueba T de estudiante (la métrica de confianza) para elegir al ganador de una prueba, es que hay un plazo de tiempo fijo. La prueba solo es válida estadísticamente si se mira este tamaño de muestra fijo.
 
