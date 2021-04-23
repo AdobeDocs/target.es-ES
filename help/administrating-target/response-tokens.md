@@ -1,19 +1,19 @@
 ---
 keywords: tokens de respuesta;tokens;complementos;complementos;at.js;respuesta
-description: Aprenda a utilizar tokens de respuesta en Adobe Target para generar información específica para su uso en la depuración y la integración con sistemas de terceros (como Clicktale).
+description: Aprenda a utilizar tokens de respuesta en la información específica de salida de Adobe [!DNL Target] para su uso en la depuración y la integración con sistemas de terceros (como Clicktale).
 title: ¿Qué son los tokens de respuesta y cómo se utilizan?
-feature: Administration & Configuration
+feature: Administración y configuración
 role: Administrator
+exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1573'
 ht-degree: 76%
 
 ---
 
-
-# Tokens de respuesta{#response-tokens}
+# Tokens de respuesta
 
 Los tokens de respuesta le permiten generar automáticamente información específica de [!DNL Target] (detalles de actividad, información de perfil de usuario, información geográfica, etc.) para su uso en la depuración o integración con sistemas de terceros (como Clicktale).
 
