@@ -2,16 +2,16 @@
 keywords: límite de caracteres;parámetros de mbox;api de entrega por lotes;parámetros de perfil;límites;perfiles integrados;máximo;límite;restricción;carácter;práctica recomendada;id de pedido;total de pedido;id de terceros de mbox;categoría;id de categoría;solución de problemas
 description: Ver una lista de límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
 title: ¿Cuáles son los distintos caracteres, tamaños y otros límites de Adobe Target?
-feature: Troubleshooting
+feature: 'Resolución de problemas  '
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 60%
+source-wordcount: '1162'
+ht-degree: 59%
 
 ---
-
 
 # Límites
 
@@ -234,7 +234,7 @@ Los límites de tamaño siguientes se aplican a las ofertas:
 
 * **Límite**: 50 audiencias/segmentos por actividad.
 
-## Cuadro de entrada de perfil de script en la interfaz de usuario de Target
+## Cuadro de entrada de perfil de secuencia de comandos en la interfaz de usuario de [!DNL Target]
 
 * **Límite recomendado**: 2000 caracteres.
 
@@ -273,4 +273,3 @@ Los límites de tamaño siguientes se aplican a las ofertas:
 * **Límite** recomendado: 2.500 caracteres por valor de regla de segmentación.
 * **Límite recomendado**: 30 000 valores únicos por audiencia en reglas de segmentación.
 * **Límite recomendado**: 100 000 valores únicos de reglas de segmentación por actividad.
-
