@@ -1,32 +1,32 @@
 ---
-keywords: script de perfil;atributos de script de perfil;prácticas recomendadas de script de perfil;depurar;depuración;secuencias de comandos;secuencias de comandos de perfil;atributos;atributo;parámetro
-description: Obtenga información sobre los atributos específicos de visitante que se almacenan en el perfil del visitante para proporcionar información sobre los que se pueden utilizar en sus actividades de Adobe Target.
-title: ¿Qué son los atributos de Perfil?
-feature: Audiences
+keywords: Script de perfil;atributos de script de perfil;prácticas recomendadas de script de perfil;depurar;depuración;scripts;scripts de perfil;atributos;atributo;parámetro
+description: Obtenga información sobre los atributos específicos del visitante que se almacenan en el perfil del visitante para proporcionar información sobre los que se pueden usar en las actividades de Adobe [!DNL Target] .
+title: ¿Qué son los atributos de perfil?
+feature: Audiencias
+exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 76%
 
 ---
 
-
-# Atributos de perfil{#profile-attributes}
+# Atributos de perfil
 
 Los atributos de perfil son parámetros específicos de un visitante. Estos atributos se almacenan en el perfil del visitante para proporcionar información acerca de ese visitante que puede utilizar en sus actividades.
 
-Un perfil de usuario contiene información demográfica y de comportamiento de un visitante de página web, como edad, sexo, productos comprados, última vez de la visita, etc., que el Destinatario utiliza para personalizar el contenido que sirve al visitante.
+Un perfil de usuario contiene información demográfica y de comportamiento de un visitante de una página web, como la edad, el sexo, los productos comprados, la última vez de la visita, etc., que Target usa para personalizar el contenido que sirve para el visitante.
 
-Cuando un visitante explora su sitio web o cuando el visitante regresa para otra sesión, los atributos de perfil guardados en el perfil se pueden utilizar para destinatario de contenido o registrar información para filtrar segmentos.
+Cuando un visitante navega por su sitio web o regresa para otra sesión, los atributos de perfil guardados en el perfil se pueden utilizar para segmentar el contenido o registrar información para filtrar segmentos.
 
 Para configurar atributos de perfil:
 
-1. Haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Secuencias de comandos de Perfil.]**
+1. Haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Scripts de perfil.]**
 
    ![Pestaña Scripts de perfil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
-1. Haga clic en **[!UICONTROL Crear secuencia de comandos]**.
+1. Haga clic en **[!UICONTROL Crear script]**.
 
    ![Cuadro de diálogo Crear script de perfil](/help/c-target/c-visitor-profile/assets/create-script.png)
 
@@ -53,13 +53,13 @@ Para agregar un nuevo script de perfil, haga clic en la pestaña **[!UICONTROL S
 
 O
 
-Para copiar una secuencia de comandos de perfil existente, en la lista [!UICONTROL Perfil Scripts], pase el ratón sobre la secuencia de comandos que desee y haga clic en el icono **[!UICONTROL Copiar]**: ![icono de copia](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+Para copiar un script de perfil existente, en la lista [!UICONTROL Scripts de perfil], pase el ratón sobre el script que quiera y luego haga clic en el icono **[!UICONTROL Copiar]**: ![icono de copia](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 Luego puede editar la audiencia para crear otra parecida.
 
 ![Cuadro de diálogo Crear script de perfil](assets/profile-script.png)
 
-Los scripts ejecutan “catchers” de atributos de perfil en cada solicitud de ubicación. Cuando se recibe una solicitud de ubicación, Target determina la actividad que debe ejecutarse y muestra el contenido apropiado para esa actividad y esa experiencia, rastrea el éxito de la actividad y ejecuta todos los script de perfil pertinentes. Esto le permite rastrear información sobre la visita, como la ubicación del visitante, la hora del día, la cantidad de veces que ese visitante ha estado en el sitio, si ha realizado compras con anterioridad, etc. A continuación, esta información se agrega al perfil del visitante con el objetivo de rastrear mejor su actividad en el sitio.
+Los scripts ejecutan “catchers” de atributos de perfil en cada solicitud de ubicación. Cuando se recibe una solicitud de ubicación, Target determina la actividad que debe ejecutarse y muestra el contenido apropiado para esa actividad y esa experiencia, rastrea el éxito de la actividad y ejecuta todos los script de perfil pertinentes. Esto le permite rastrear información sobre la visita, como la ubicación del visitante, la hora del día, la cantidad de veces que el visitante ha estado en el sitio, si ha comprado antes, etc. A continuación, esta información se agrega al perfil del visitante con el objetivo de rastrear mejor su actividad en el sitio.
 
 Los atributos de script de perfil tienen la etiqueta `user.` insertada antes del nombre de atributo. Por ejemplo:
 
@@ -77,9 +77,9 @@ Tenga en cuenta la siguiente información:
 * Guarde las variables a las que posiblemente se vaya a tener acceso la próxima vez que se ejecute el script (en la siguiente solicitud de mbox) con `user.setLocal('variable_name', 'value')`. Haga referencia a la variable con `user.getLocal('variable_name')`. Esto es práctico en situaciones en las que se quiere remitir a la fecha y hora de la última solicitud.
 * Los parámetros y valores hacen distinción de mayúsculas y minúsculas. Haga que las mayúsculas y minúsculas de los parámetros y valores que va a recibir durante la actividad o prueba sean las mismas.
 * Consulte la sección “Referencia JavaScript para parámetros de perfil de secuencia de comandos” para obtener más sintaxis de JavaScript.
-* El parámetro permanece en el perfil después de desactivar la secuencia de comandos. Los usuarios cuyos perfiles ya contengan un parámetro que se utilice en la audiencia de una actividad se clasificarán en esa actividad.
-* Las secuencias de comandos de perfil no se pueden eliminar mientras se utilizan en una actividad.
-* No se recomienda crear secuencias de comandos de perfil dependientes que utilicen el resultado de una secuencia de comandos de perfil en otra secuencia de comandos de perfil. El orden de ejecución de la secuencia de comandos de perfil no está garantizado.
+* El parámetro permanece en el perfil después de deshabilitar la secuencia de comandos. Los usuarios cuyos perfiles ya contienen un parámetro que se utiliza en la audiencia de una actividad podrán participar en dicha actividad.
+* Los scripts de perfil no se pueden eliminar mientras se utilizan en una actividad.
+* No se recomienda crear scripts de perfil dependientes que utilicen el resultado de un script de perfil en otro script de perfil. No se garantiza el orden de ejecución de la secuencia de comandos del perfil.
 
 ## Visualización de tarjetas de información de scripts de perfil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -105,7 +105,7 @@ La pestaña [!UICONTROL Uso del script] enumera las actividades (y sus espacios 
 
 ## Target deshabilita los scripts de perfil en determinadas situaciones {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] desactiva automáticamente las secuencias de comandos de perfil en determinadas situaciones, como si tardan demasiado en ejecutarse o tienen demasiadas instrucciones.
+[!DNL Target] deshabilita automáticamente los scripts de perfil en determinadas situaciones, como cuando tardan demasiado en ejecutarse o tienen demasiadas instrucciones.
 
 Cuando se deshabilita un script de perfil, aparece un icono de alerta amarillo junto al script del perfil en la interfaz de usuario de Target, como se muestra a continuación:
 
@@ -119,31 +119,31 @@ Estas son las razones habituales por las que el sistema deshabilita los scripts 
 
 * Se hace referencia a una variable sin definir.
 * Se hace referencia a un valor no válido. Esto suele deberse a valores de redirección URL y otros datos introducidos por el usuario sin la validación adecuada.
-* Se están utilizando demasiadas instrucciones JavaScript. Target tiene un límite de 2000 instrucciones JavaScript por script, pero esto no se puede calcular simplemente de forma manual leyendo el JavaScript. Por ejemplo, Rhino trata todas las llamadas de función y “nuevas” llamadas como 100 instrucciones. Esto significa que cualquier llamada a una función consume 100 instrucciones. Además, el tamaño de los datos de entrada, como los valores URL, puede afectar a la contabilización de instrucciones.
+* Se están utilizando demasiadas instrucciones JavaScript. Target tiene un límite de 2000 instrucciones JavaScript por script, pero esto no se puede calcular simplemente de forma manual leyendo el JavaScript. Por ejemplo, Rhino trata todas las llamadas de función y “nuevas” llamadas como 100 instrucciones. Esto significa que cualquier llamada a cualquier función consume 100 instrucciones. Además, el tamaño de los datos de entrada, como los valores URL, puede afectar a la contabilización de instrucciones.
 * Elementos no destacados en la sección [prácticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) a continuación.
 
 ## Prácticas recomendadas {#best}
 
 Las siguientes directrices pretenden ayudarle a escribir secuencias de comandos de perfil simplificadas que tengan la menor probabilidad de caer en errores mientras escribe el código que falla, por lo que se procesa sin forzar una parada de secuencia de comandos del sistema. Estas instrucciones son el resultado de las prácticas recomendadas cuya eficacia ha sido demostrada. Estas directrices se tiene que aplicar junto a los principios y recomendaciones descritos por la comunidad de desarrollo Rhino.
 
-* Establezca el valor de la secuencia de comandos actual en una variable local en la secuencia de comandos del usuario, establezca una conmutación por error en una cadena en blanco.
+* Establezca el valor de la secuencia de comandos actual en una variable local de la secuencia de comandos del usuario y establezca una conmutación por error en una cadena en blanco.
 * Valide la variable local y asegúrese de que no se trate de una cadena en blanco.
-* Utilice funciones de manipulación basadas en cadenas en comparación con Expresiones regulares.
+* Utilice funciones de manipulación basadas en cadenas en lugar de expresiones regulares.
 * Utilice bucles limitados en lugar de bucles sin fin o continuos.
 * No supere los 1300 caracteres o las 50 repeticiones de bucle.
 * No supere las 2000 instrucciones de JavaScript. Target tiene un límite de 2000 instrucciones JavaScript por script, pero esto no se puede calcular simplemente de forma manual leyendo el JavaScript. Por ejemplo, Rhino trata todas las llamadas de función y “nuevas” llamadas como 100 instrucciones. Además, el tamaño de los datos de entrada, como los valores URL, puede afectar a la contabilización de instrucciones.
-* Tenga en cuenta no solo el rendimiento del script, sino también el rendimiento combinado de todos los scripts. Como práctica recomendada, debería utilizarse un máximo de 5000 instrucciones en total. Recuento del número de instrucciones no es obvio, pero lo importante es que las secuencias de comandos que superen las 2000 instrucciones se desactiven automáticamente. El número de secuencias de comandos de perfil activas no debe superar los 300. Cada secuencia de comandos se ejecuta con cada llamada de mbox. Ejecute solo los scripts necesarios.
+* Tenga en cuenta no solo el rendimiento del script, sino también el rendimiento combinado de todos los scripts. Como práctica recomendada, debería utilizarse un máximo de 5000 instrucciones en total. El recuento del número de instrucciones no es obvio, pero lo importante es que los scripts que exceden las 2000 instrucciones se desactivan automáticamente. El número de scripts de perfil activos no debe superar los 300. Cada secuencia de comandos se ejecuta con cada llamada de mbox. Ejecute solo los scripts necesarios.
 * En un regex, tener punto y asterisco al principio (p. ej.: `/.*match/`, `/a|.*b/`) casi nunca es necesario. La búsqueda de regex comienza desde todas las posiciones en una cadena (a menos que se enlace con `^`), por lo que se asume un punto y un asterisco. La ejecución de la secuencia de comandos se puede interrumpir si este regex coincide con datos de entrada lo suficientemente largos (que pueden contener varios cientos de caracteres).
 * Si falla todo, ajuste el script a un try/catch.
-* Las siguientes recomendaciones pueden ayudarle a limitar la complejidad del script de perfil. Las secuencias de comandos de perfil pueden ejecutar un número limitado de instrucciones.
+* Las siguientes recomendaciones pueden ayudarle a limitar la complejidad del script de perfil. Los scripts de perfil pueden ejecutar un número limitado de instrucciones.
 
    Como práctica recomendada:
 
-   * Mantenga las secuencias de comandos de perfil pequeñas y sencillas lo más posible.
-   * Evite expresiones regulares o utilice solo expresiones regulares muy sencillas. Incluso las expresiones simples pueden tomar muchas instrucciones para evaluarlas.
+   * Mantenga los scripts de perfil pequeños y lo más simples posible.
+   * Evite las expresiones regulares o utilice solo expresiones regulares muy simples. Incluso las expresiones simples pueden requerir muchas instrucciones para evaluarlas.
    * Evite la recursión.
-   * Los scripts de perfil deben probarse de rendimiento antes de agregarse al Destinatario. Todas las secuencias de comandos de perfil se ejecutan en cada solicitud de mbox. Si las secuencias de comandos de perfil no se ejecutan correctamente, las solicitudes de mbox tardan más en ejecutarse. Esto podría afectar al tráfico y a la conversión.
-   * Si las secuencias de comandos de perfil se vuelven demasiado complejas, considere la posibilidad de utilizar [tokens de respuesta](/help/administrating-target/response-tokens.md) en su lugar.
+   * Los scripts de perfil deben probarse de rendimiento antes de agregarse a Target. Todos los scripts de perfil se ejecutan en cada solicitud de mbox. Si los scripts de perfil no se ejecutan correctamente, las solicitudes de mbox tardan más en ejecutarse. Esto podría afectar al tráfico y a la conversión.
+   * Si los scripts de perfil se vuelven demasiado complejos, considere la posibilidad de utilizar [tokens de respuesta](/help/administrating-target/response-tokens.md) en su lugar.
 
 * Consulte la documentación del motor JS Rhino para obtener más información: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -157,7 +157,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
 * **Agregar scripts de perfil como tokens de respuesta para depurar scripts de perfil:**
 
-   En Destinatario, haga clic en **[!UICONTROL Administración]**, haga clic en **[!UICONTROL Tokens de respuesta]** y, a continuación, habilite la secuencia de comandos de perfil que desee depurar.
+   En Target, haga clic en **[!UICONTROL Administración]**, en **[!UICONTROL Tokens de respuesta]** y, a continuación, habilite el script de perfil que desea depurar.
 
    Cada vez que carga para el sitio una página que incluye Target, parte de la respuesta de Target contendrá su valor para el script de perfil dado, como se muestra a continuación:
 
@@ -165,7 +165,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
 * **Utilice la herramienta de depuración mboxTrace para depurar scripts de perfil.**
 
-   Este método requiere un token de autorización que puede generar haciendo clic en **[!UICONTROL Destinatario]** > **[!UICONTROL Administración]** > **[!UICONTROL Implementación]** > **[!UICONTROL Generar token de autorización]** en la sección [!UICONTROL Herramientas del depurador].
+   Este método requiere un token de autorización que puede generarse haciendo clic en **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** en la sección [!UICONTROL Debugger tools].
 
    A continuación, agregue estos dos parámetros a la URL de su página después de “?”: `mboxTrace=window&authorization=YOURTOKEN`.
 
@@ -181,7 +181,7 @@ Los scripts de perfil no pueden leer la página directamente porque se ejecutan 
 
 ## Referencia de JavaScript para parámetros de perfil de secuencia de comandos
 
-Se requiere un conocimiento simple de JavaScript para utilizar con eficacia el perfil de secuencias de comandos
+Se requiere conocimiento simple de JavaScript para utilizar de forma eficaz el perfil de secuencia de comandos
 parámetros. Esta sección sirve como referencia rápida para aumentar su productividad con esta funcionalidad en solo unos minutos.
 
 Los parámetros de perfil de secuencia de comandos se encuentran en la pestaña mboxes/perfiles. Puede escribir programas Javascript que devuelvan cualquier tipo de Javascript (cadena, número entero, matriz, etc.).
@@ -212,7 +212,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Crea una variable llamada `frequency`, inicializándola en el valor anterior o en 0, si no había ningún valor anterior. Si el nombre del mbox es `orderThankyouPage`, se devuelve el valor incrementado.
+Crea una variable llamada `frequency`, inicializándola en el valor anterior o 0, si no había ningún valor anterior. Si el nombre del mbox es `orderThankyouPage`, se devuelve el valor incrementado.
 
 **Nombre:** *user.monetaryValue*
 
@@ -236,7 +236,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Crea una variable llamada `adobeQA` para rastrear a un usuario para [control de calidad de la Actividad](/help/c-activities/c-activity-qa/activity-qa.md).
+Crea una variable denominada `adobeQA` para rastrear a un usuario para [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md).
 
 ### Objetos y métodos
 
@@ -277,7 +277,7 @@ Todos los operadores de JavaScript estándar están presentes y pueden utilizars
 | `||` | Lógicamente “O” las expresiones a la izquierda y a la derecha de la misma, son solo verdaderas si uno de los lados es verdadero (falso en caso contrario). |
 | `//` | Comprueba si la fuente contiene todos los elementos que el booleano de destino contiene (origen de matriz, destino de matriz).<br>`//` extrae la subcadena de destino (correspondiente a regexp) y la descodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La función también es compatible con el uso de valores de cadena constantes, agrupación (`condition1 || condition2) && condition3` y expresiones regulares (`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Vídeo de capacitación: Secuencias de comandos de perfil ![distintivo de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Scripts de perfil ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo usar y crear scripts de perfil.
 
