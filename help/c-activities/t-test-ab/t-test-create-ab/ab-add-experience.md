@@ -1,16 +1,16 @@
 ---
 keywords: Segmentación;experiencia;añadir experiencia;adición de experiencia
-description: Aprenda a utilizar el Compositor de experiencias visuales (VEC) en Adobe Target. El VEC proporciona una interfaz visual para agregar y editar experiencias en la página.
-title: ¿Cómo Añado experiencias en una Actividad A/B de Destinatario?
-feature: A/B Tests
+description: Aprenda a usar el Compositor de experiencias visuales (VEC) en Adobe Target. El VEC proporciona una interfaz visual para añadir y editar experiencias en la página.
+title: ¿Cómo puedo añadir experiencias en una actividad  [!DNL Target] A/B?
+feature: Pruebas A/B
+exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '483'
 ht-degree: 79%
 
 ---
-
 
 # Añadir experiencia
 
@@ -30,7 +30,7 @@ Para obtener más información sobre las experiencias, consulte [Experiencias](/
 
    Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Los elementos resaltados se pueden modificar con el Compositor de experiencias.
 
-   Si ha creado una solicitud [!DNL Target] en la página mediante Destinatario Classic (anteriormente Test&amp;Destinatario), esa solicitud [!DNL Target] aparece como un elemento que muestra el nombre de la solicitud y se puede modificar como cualquier otro elemento.
+   Si creó una solicitud [!DNL Target] en la página mediante Target Classic (antes denominado Test&amp;Target), esa solicitud [!DNL Target] aparece como un elemento que muestra el nombre de la solicitud y se puede modificar como cualquier otro elemento.
 
    Para obtener una lista de las acciones que se pueden realizar en un elemento de la página mostrada para cambiar la experiencia, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -54,7 +54,7 @@ Tenga en cuenta que cuando nombra o renombra una experiencia, no se permiten los
 | / | Barra oblicua |
 | ? | Signo de interrogación |
 | # | Signo de número |
-| :: | Dos puntos |
+| : | Dos puntos |
 | = | Igual a |
 | + | Más |
 | - | Menos |
@@ -73,7 +73,7 @@ Para obtener más información, consulte [Redireccionamiento a URL](/help/c-expe
 | / | Barra oblicua |
 | ? | Signo de interrogación |
 | # | Signo de número |
-| :: | Dos puntos |
+| : | Dos puntos |
 | = | Igual a |
 | + | Más |
 | - | Menos |
@@ -93,7 +93,7 @@ En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo
 
 ![Opción Eliminar experiencia](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Vídeo de capacitación: Uso del Compositor de experiencias visuales ![distintivo de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Uso del Compositor de experiencias visuales ![Distintivo Tutorial](/help/assets/tutorial.png)
 
 El siguiente vídeo proporciona información sobre cómo usar las opciones del Compositor de experiencias visuales. (7:17)
 
