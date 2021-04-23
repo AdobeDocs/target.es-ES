@@ -2,16 +2,16 @@
 keywords: host;hosts;grupo de hosts;solución de problemas;prácticas recomendadas;ubox;redirecciones;redireccionamiento;lista de direcciones permitidas;lista de permitidos;lista de direcciones bloqueadas;lista de bloqueados
 description: Aprenda a organizar sus sitios web y entornos de preproducción para facilitar la administración y la creación de informes separados en Adobe Target.
 title: ¿Qué son los hosts y cómo puedo utilizarlos?
-feature: Administration & Configuration
+feature: Administración y configuración
 role: Administrator
+exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1080'
 ht-degree: 22%
 
 ---
-
 
 # Hosts
 
@@ -65,7 +65,7 @@ Para ordenar la lista [!UICONTROL Hosts], haga clic en cualquier encabezado de c
 
 Para buscar la lista [!UICONTROL Hosts], escriba un término de búsqueda en el cuadro [!UICONTROL Buscar hosts].
 
-## Cree listas de permitidos que especifiquen hosts con autorización para enviar solicitudes de Target a Target. {#allowlist}
+## Cree listas de permitidos que especifiquen hosts con autorización para enviar solicitudes [!DNL Target] a [!DNL Target]. {#allowlist}
 
 Puede crear una lista de permitidos que especifique los hosts (dominios) con autorización para enviar solicitudes [!DNL Target] a [!DNL Target]. Todos los demás hosts que generan solicitudes obtienen una respuesta de error de autorización comentada. De forma predeterminada, cualquier host que contenga una solicitud [!DNL Target] se registra con [!DNL Target] en el entorno [!UICONTROL Production] y tiene acceso a todas las actividades activas y aprobadas. Si no desea este método, puede usar la lista de permitidos para registrar hosts específicos que son aptos para realizar [!DNL Target] solicitudes y recibir [!DNL Target] contenido. Todos los hosts siguen mostrándose en la lista [!UICONTROL Hosts] y los entornos aún se pueden utilizar para agrupar estos hosts y asignar diferentes niveles a cada uno, como si el host puede ver actividades activas o inactivas.
 
