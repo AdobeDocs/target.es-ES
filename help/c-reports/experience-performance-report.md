@@ -1,18 +1,18 @@
 ---
 keywords: prueba multivariable;mvt;informe de rendimiento de las experiencias
-description: Descubra cómo utilizar el informe Rendimiento de la experiencia para actividades de segmentación de experiencias de Adobe Target que muestran el rendimiento de cada experiencia en la actividad.
-title: ¿Cómo se utiliza el informe Rendimiento de la experiencia para las pruebas multivariadas?
-feature: Reports
+description: Aprenda a utilizar el informe Rendimiento de las experiencias para actividades de Adobe [!DNL Target] Segmentación de experiencias que muestran el rendimiento de cada experiencia en la actividad.
+title: ¿Cómo utilizo el informe Rendimiento de las experiencias para pruebas multivariable?
+feature: Informes
+exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 89%
 
 ---
 
-
-# Informe Rendimiento de las experiencias (MVT){#experience-performance-report-mvt}
+# Informe Rendimiento de las experiencias (MVT)
 
 El informe Rendimiento de las experiencias muestra cómo funciona cada experiencia de la actividad. Este informe incluye información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
 
@@ -36,7 +36,7 @@ Puede mostrar todas las experiencias, las cinco mejores o las cinco peores. Las 
 
 Debajo del gráfico, se muestra una tabla con la cantidad de participantes que vio cada experiencia y otra información relevante para la métrica de éxito.
 
-## Vídeo de formación: Crear una prueba MVT  ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Crear una prueba MVT  ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Rendimiento de las experiencias se describe a partir del minuto 8:20.
 
