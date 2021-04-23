@@ -1,18 +1,18 @@
 ---
 keywords: opciones del explorador;tipo;tipo de explorador;idioma del explorador;idioma;versión;versión del explorador
-description: Obtenga información sobre cómo crear audiencias en Adobe Target para usuarios de destinatario que utilizan un navegador específico o opciones específicas del navegador cuando visitan la página.
-title: ¿Puedo Destinatario Visitantes según el tipo de explorador?
-feature: Audiences
+description: Aprenda a crear audiencias en Adobe [!DNL Target] para dirigirse a usuarios que usen un navegador específico u opciones del navegador específicas cuando visiten la página.
+title: ¿Puedo [!DNL Target] Visitantes en función del tipo de explorador?
+feature: Audiencias
+exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 94%
+source-wordcount: '661'
+ht-degree: 95%
 
 ---
 
-
-# Navegador{#browser}
+# Explorador
 
 Puede segmentar usuarios que usen un navegador específico y opciones del navegador concretas cuando visiten una página.
 
@@ -119,7 +119,7 @@ En el campo de texto solo se pueden introducir versiones principales. Es decir, 
 
 Si hay varias opciones, se conectan con un parámetro O.
 
-## Vídeo de formación: Creación de audiencias  ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de audiencias  ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
