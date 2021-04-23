@@ -1,20 +1,20 @@
 ---
-keywords: configuración de actividad;objetivos y configuración;multivariable;mvt
-description: Descubra cómo utilizar la página Objetivos y configuración de Adobe Target para especificar información sobre los objetivos de una actividad de prueba multivariada (MVT).
-title: ¿Cómo se especifican objetivos y configuración en una Actividad de prueba multivariada (MVT)?
-feature: Multivariate Tests
+keywords: configuración de actividades;objetivos y configuración;multivariable;mvt
+description: Aprenda a utilizar la página Objetivos y configuración de Adobe [!DNL Target] para especificar información sobre los objetivos de una actividad de prueba multivariable (MVT).
+title: ¿Cómo se especifican objetivos y configuraciones en una actividad de prueba multivariable (MVT)?
+feature: Pruebas multivariable
+exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 90%
+source-wordcount: '1281'
+ht-degree: 91%
 
 ---
 
+# Objetivos y configuración (pruebas multivariable)
 
-# Objetivos y configuración (Pruebas multivariable)
-
-En la página Objetivos y configuración de Adobe Target puede introducir información sobre los objetivos de las pruebas [!UICONTROL multivariadas] (MVT).
+La página Objetivos y configuración de Adobe Target es donde se especifica información sobre los objetivos de las pruebas [!UICONTROL multivariable] (MVT).
 
 * Configuración de actividades
 * Configuración de informes
@@ -38,9 +38,9 @@ La interfaz de usuario y las opciones de Prioridad varían en función de la con
 
 La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
-Si esta opción no está habilitada en S[!UICONTROL Administración] > [!UICONTROL Sistema de informes] (valor predeterminado), especifique una prioridad: Bajo, Medio o Alto.
+Si esta opción no está habilitada en S[!UICONTROL Administration] > [!UICONTROL Reporting] (opción predeterminada), especifique una prioridad: Bajo, Medio o Alto.
 
-Para habilitar las prioridades específicas, haga clic en [!UICONTROL Administración] > [!UICONTROL Sistema de informes] y, a continuación, coloque la opción Habilitar prioridades específicas en la posición &quot;Activado&quot;.
+Para habilitar prioridades específicas, haga clic en [!UICONTROL Administración] > [!UICONTROL Informes] y luego coloque la opción Habilitar prioridades específicas en la posición &quot;Activado&quot;.
 
 Si esta opción está habilitada, indique un valor entre 0 y 999:
 
@@ -154,7 +154,7 @@ Escriba la información sobre la actividad que sea útil tener disponible para e
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Configuración de actividad (3:02) ![Distintivo de tutorial](/help/assets/tutorial.png)
+### Configuración de actividades (3:02) ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
@@ -166,7 +166,7 @@ Este vídeo incluye información sobre la configuración de las actividades.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Creación de pruebas multivariable (9:25) ![distintivo de tutorial](/help/assets/tutorial.png)
+### Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. Los objetivos y la configuración se describen a partir del minuto 7:00.
 
