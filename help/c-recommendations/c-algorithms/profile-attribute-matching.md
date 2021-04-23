@@ -1,39 +1,39 @@
 ---
 keywords: reglas de inclusión;criterios de inclusión;recomendaciones;promoción;promociones;filtrado dinámico;dinámico;coincidencia de atributos de perfil
-description: Descubra cómo filtrar dinámicamente en Adobe Target Recommendations comparando elementos (entidades) con un valor en el perfil del usuario.
-title: ¿Cómo se filtra por coincidencia de atributos de Perfil en Actividades de Recommendations?
+description: Aprenda a filtrar dinámicamente en Adobe [!DNL Target] Recommendations comparando elementos (entidades) con un valor del perfil del usuario.
+title: ¿Cómo Filtro Por Coincidencia De Atributos De Perfil En Las Actividades De Recommendations?
 feature: Recommendations
+exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
+# ![](/help/assets/premium.png) PREMIUMProfile Attribute Match
 
-# ![Coincidencia de atributos ](/help/assets/premium.png) PREMIUMProfile
+Filtre dinámicamente en [!DNL Adobe Target] [!DNL Recommendations] comparando elementos (entidades) con un valor del perfil del usuario.
 
-Filtre dinámicamente en [!DNL Adobe Target] [!DNL Recommendations] comparando elementos (entidades) con un valor en el perfil del usuario.
-
-Utilice [!UICONTROL Coincidencia de atributos de Perfil] cuando desee mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita.
+Utilice [!UICONTROL Coincidencia de atributos de perfil] cuando quiera mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita.
 
 >[!NOTE]
 >
->El proceso [para crear y utilizar reglas de inclusión](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) para criterios y promociones es similar, al igual que los casos de uso y los ejemplos.
+>El proceso [para crear y usar reglas de inclusión](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) para criterios y promociones es similar, al igual que los casos de uso y los ejemplos.
 
-Los escenarios siguientes muestran cómo puede utilizar [!UICONTROL Coincidencia de atributos de Perfil]:
+Los siguientes escenarios muestran cómo se puede usar [!UICONTROL Coincidencia de atributos de perfil]:
 
-* Una compañía que vende anteojos almacena el color de marco favorito de un visitante como &quot;nuez&quot;. Para ese visitante específico, las recomendaciones se configuran para devolver solo marcos de lentes que coincidan con &quot;nogal&quot; en color.
-* Se puede definir un parámetro de perfil para el tamaño de la ropa (por ejemplo, Pequeño, Medio o Grande) de un visitante a medida que navegue por el sitio web de la compañía. Se puede configurar una recomendación para que coincida con ese parámetro de perfil y devuelva productos específicos solo al tamaño de ropa preferido por el usuario.
+* Una empresa que vende lentes de ojos almacena el color de marco favorito de un visitante como &quot;nogal&quot;. Para ese visitante específico, las recomendaciones se configuran para que solo devuelvan marcos de lentes de ojos que coincidan con &quot;nogal&quot; en color.
+* Se puede definir un parámetro de perfil para el tamaño de la ropa (p. ej., Pequeño, Medio o Grande) de un visitante a medida que navega por el sitio web de su empresa. Se puede configurar una recomendación para que coincida con ese parámetro de perfil y devuelva productos específicos del tamaño de ropa preferido del usuario.
 
 ## Ejemplos de coincidencia de atributos de perfil {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL La ] coincidencia de atributos de perfil permite recomendar solo los elementos que coinciden con un atributo del perfil del visitante, como en los ejemplos siguientes.
+[!UICONTROL La ] coincidencia de atributos de perfil le permite recomendar solo los elementos que coinciden con un atributo del perfil del visitante, como en los ejemplos siguientes.
 
-### Recomendar artículos de la marca favorita del usuario
+### Recomendación de artículos de la marca favorita del usuario
 
-Por ejemplo, puede utilizar la opción [!UICONTROL Coincidencia de atributos de Perfil] para crear una regla que recomiende elementos sólo donde la marca sea igual al valor o al texto almacenado en `profile.favoritebrand`. Con una regla así, si un visitante está buscando pantalones de deporte cortos de una marca particular, solo se mostrarán las recomendaciones que coincidan con la marca favorita del usuario (el valor almacenado en `profile.favoritebrand` en el perfil del visitante).
+Por ejemplo, puede utilizar la opción [!UICONTROL Coincidencia de atributos de perfil] para crear una regla que recomiende solo elementos cuya marca sea igual al valor o texto almacenado en `profile.favoritebrand`. Con una regla así, si un visitante está buscando pantalones de deporte cortos de una marca particular, solo se mostrarán las recomendaciones que coincidan con la marca favorita del usuario (el valor almacenado en `profile.favoritebrand` en el perfil del visitante).
 
 ![Marca favorita](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
 
@@ -42,11 +42,11 @@ Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-### Confrontación de trabajos con solicitantes de empleo
+### Asignación de trabajos a solicitantes de empleo
 
-Supongamos que está tratando de relacionar los empleos con los buscadores de empleo. Solo desea recomendar los trabajos que se encuentran en la misma ciudad que el buscador de trabajo.
+Supongamos que está tratando de igualar los empleos con los buscadores de empleo. Desea recomendar solo los trabajos que se encuentran en la misma ciudad que el buscador de trabajos.
 
-Puede utilizar reglas de inclusión para comparar la ubicación de un buscador de trabajo desde el perfil de su visitante con una lista de trabajos, como en el siguiente ejemplo:
+Puede utilizar reglas de inclusión para hacer coincidir la ubicación de un buscador de empleo desde el perfil de su visitante con una oferta de empleo, como en el siguiente ejemplo:
 
 ![Ciudad del usuario](/help/c-recommendations/c-algorithms/assets/city.png)
 
@@ -57,18 +57,18 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 ### Recomendar artículos según el tamaño
 
-Para ver un ejemplo visual de cómo la coincidencia de atributos de perfil afecta a las recomendaciones, considere un sitio web que vende ventiladores eléctricos.
+Para ver un ejemplo visual de cómo afecta la coincidencia de atributos de perfil a las recomendaciones, considere un sitio web que vende seguidores eléctricos.
 
 Cuando un visitante hace clic en varias imágenes de seguidores en este sitio web, cada página establece el valor del parámetro `entity.size` en función de si el tamaño del ventilador en la imagen es pequeño o grande.
 
-Supongamos que ha creado una secuencia de comandos de perfil para rastrear y contar el número de veces que el valor de `entity.size` se establece en pequeño vs. grande.
+Supongamos que ha creado un script de perfil para rastrear y contar el número de veces que el valor de `entity.size` se define en pequeño frente a grande.
 
-Si el visitante regresa a la Página de inicio, verá las recomendaciones filtradas en función de si se hizo clic en más seguidores pequeños o grandes.
+Si el visitante regresa a la página principal, verá recomendaciones filtradas en función de si se hizo clic en más seguidores pequeños o grandes.
 
-Recommendations se basa en ver más seguidores pequeños en el sitio web:
+Recommendations basado en la visualización de seguidores más pequeños en el sitio web:
 
 ![recomendaciones de seguidores pequeños](/help/c-recommendations/c-algorithms/assets/small-fans.png)
 
-Recommendations basado en la visualización de más ventiladores grandes en el sitio web:
+Recommendations basado en la visualización de seguidores más grandes en el sitio web:
 
-![recomendaciones de seguidores grandes](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+![recomendaciones de fans grandes](/help/c-recommendations/c-algorithms/assets/large-fans.png)
