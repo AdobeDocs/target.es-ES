@@ -1,18 +1,18 @@
 ---
 keywords: Segmentación;biblioteca de segmentos;biblioteca
-description: Obtenga información sobre visitantes de objetivo que utilizan audiencias heredadas prediseñadas. Lo mejor es utilizar las nuevas categorías de audiencia para mejorar el rendimiento.
-title: ¿Puedo Destinatario Visitantes en base a reglas de objetivo prediseñadas?
-feature: Audiences
+description: Obtenga información sobre la segmentación de visitantes mediante audiencias heredadas creadas previamente. Una práctica recomendada es utilizar las nuevas categorías de audiencia para mejorar el rendimiento.
+title: ¿Puedo  [!DNL Target] Visitantes en función de reglas de segmentación creadas previamente?
+feature: Audiencias
+exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
-
-# Biblioteca de segmentos{#target-library}
+# Biblioteca de segmentos
 
 Usuarios de Target según las reglas de segmentación prediseñadas.
 
