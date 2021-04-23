@@ -1,22 +1,22 @@
 ---
 keywords: afinidad;afinidad de la categoría
-description: Obtenga información sobre la afinidad de categorías en Adobe Target que captura automáticamente las categorías que visita un usuario y luego calcula la afinidad del usuario para la categoría, de modo que pueda segmentarse y segmentarse.
-title: ¿Qué es la Afinidad de Categoría?
-feature: Audiences
+description: Obtenga información sobre la afinidad de la categoría en el Adobe [!DNL Target] que captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías para que se pueda establecer como objetivo y se le apliquen segmentos.
+title: ¿Qué es la afinidad de la categoría?
+feature: Audiencias
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '811'
 ht-degree: 94%
 
 ---
 
-
-# Afinidad de la categoría{#category-affinity}
+# Afinidad de la categoría
 
 La función de afinidad de la categoría captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de forma que se pueda establecer como objetivo y se le apliquen segmentos. Esto contribuye a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de realizar alguna acción a partir de esa información.
 
-## Transferir información sobre la afinidad de la categoría a Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Transferir información sobre la afinidad de la categoría a [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 Cada vez que un usuario visite su sitio web, en la base de datos de [!DNL Target] se registrarán unos parámetros de perfil exclusivos para ese visitante. Dichos datos están unidos a la cookie del usuario. Un parámetro especialmente útil es `user.categoryId`, un parámetro de mbox asignado en una página de producto. A medida que el visitante continúa la visita, o vuelve para otra sesión, se pueden registrar las categorías de productos que un visitante concreto elige ver. También puede registrar información de categoría pasándola como el parámetro de mbox `user.categoryId` en cualquier mbox (incluido un mbox anidado), como un parámetro de URL `user.categoryId` o en parámetros de página de Target con un mbox global. Si desea obtener más detalles, consulte a su representante de cuentas.
 
@@ -73,7 +73,7 @@ Suponiendo que el usuario ve, en orden, `jewelry`, `accessories`, `beauty`, `sho
 
 * `accessories`: 6,5 (4,5 + 5 – 1 – 1 – 1)
 
-* `womens-clothing`:: 5 (+5)
+* `womens-clothing`: 5 (+5)
 
 * `jewelry`: 4,5 (2,5 + 5 – 1 – 1 – 1)
 
@@ -131,7 +131,7 @@ Esta sección contiene la información siguiente:
    * Cuarta categoría
    * Quinta categoría
 
-   Las opciones &quot;Categoría favorita&quot; y &quot;Primera Categoría&quot; son equivalentes.
+   Las opciones &quot;Categoría favorita&quot; y &quot;Primera categoría&quot; son equivalentes.
 
 1. Elija el evaluador:
 
