@@ -1,24 +1,24 @@
 ---
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes
-description: Descubra cómo los distintos segmentos definidos por los modelos de personalización de Adobe Target responden a las ofertas y experiencias de la actividad visualizando el informe Segmentos automatizados.
+description: Descubra cómo los distintos segmentos definidos por los modelos de personalización de Adobe [!DNL Target] responden a las ofertas y experiencias de la actividad consultando el informe Segmentos automatizados .
 title: ¿Qué es el informe Segmentos automatizados?
-feature: Reports
+feature: Informes
+exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Informe Segmentos automatizados{#automated-segments-report}
+# ![PREMIUM](/help/assets/premium.png) Informe Segmentos automatizados
 
 Información sobre el informe Segmentos automatizados, uno de los dos informes especializados disponibles para los usuarios de las actividades de Personalización automatizada (AP) y Segmentación automática (AT).
 
 >[!NOTE]
 >
->Tenga en cuenta lo siguiente al utilizar los informes de Perspectivas de personalización:
+>Tenga en cuenta lo siguiente al usar los informes de Perspectivas de personalización :
 >
 >* Las actividades de AP y AT están disponibles como parte de la solución [!DNL Target Premium]. No se incluyen en [!DNL Target Standard] sin una licencia [!DNL Target Premium].
    >
@@ -26,26 +26,26 @@ Información sobre el informe Segmentos automatizados, uno de los dos informes e
 * [!UICONTROL Los informes de Perspectivas de personalización están disponibles solo para actividades de AP y AT que utilizan un objetivo de optimización de conversión. ] Tampoco se admiten las actividades en las que el objetivo de optimización se cambió a la conversión de ingresos después de que la actividad ya estaba activa.
    >
    >
-* [!UICONTROL Los informes de ] perspectivas de personalización solo están disponibles si se seleccionan los objetivos  [!UICONTROL principales ] en la lista desplegable  [!UICONTROL Métricas de ] informes.
+* [!UICONTROL Los ] informes de Perspectivas de personalización solo están disponibles si el Objetivo  [!UICONTROL principal está seleccionado ] en la lista  [!UICONTROL desplegable ] Métrica de informes .
    >
    >
 * Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL Los informes ] Perspectivas de personalización se generan solamente para actividades que están en el   estado Activo y que se han activado y recibido tráfico durante al menos 15 días.
+* [!UICONTROL Los ] informes de Perspectivas de personalización solo se generan para actividades que se encuentran en   Livestatus y que han sido activadas y reciben tráfico durante al menos 15 días.
 
 
 Los distintos visitantes responden de forma diferente a las ofertas y experiencias de su actividad AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
 
 ## Acceso al informe Segmentos automatizados {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Haga clic en **[!UICONTROL Actividades]** y, a continuación, haga clic en la actividad [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Destinatario automático](/help/c-activities/auto-target/auto-target-to-optimize.md) que desee de la lista.
+1. Haga clic en **[!UICONTROL Actividades]** y, a continuación, haga clic en la actividad [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md) que desee en la lista.
 
-   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones de [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Propiedad], [!UICONTROL Origen del Sistema de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas&lt;a10 1/> y [!UICONTROL listas desplegables de Origen de Actividad].]
+   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones de [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Propiedad], [!UICONTROL Fuente de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas] y listas desplegables [!UICONTROL Origen de la actividad].
 
 1. Haga clic en **[!UICONTROL Informes]**.
 
-   Se muestra el informe [Resumen de Automated Personalization](/help/c-reports/reports-ap.md) o [Resumen de Destinatario automático](/help/c-reports/auto-target-summary-report.md), que proporciona información sobre el rendimiento de sus actividades, representada por el icono de la primera pantalla. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. Tenga en cuenta que Segmentación automática dispone de un icono de gráfico adicional para la visualización gráfica del informe [!UICONTROL Resumen].
+   Se muestra el informe [Resumen de Automated Personalization](/help/c-reports/reports-ap.md) o [Resumen de segmentación automática](/help/c-reports/auto-target-summary-report.md) , que proporciona información sobre el rendimiento de las actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. Tenga en cuenta que Segmentación automática dispone de un icono de gráfico adicional para la visualización gráfica del informe [!UICONTROL Resumen].
 
    ![](assets/personalization_insights.png)
 
