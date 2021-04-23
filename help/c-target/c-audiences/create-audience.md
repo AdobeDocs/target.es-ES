@@ -1,18 +1,18 @@
 ---
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia
-description: Obtenga información sobre cómo crear audiencias personalizadas y guardarlas en la biblioteca de Audiencias de Adobe Target para utilizarlas en sus actividades.
-title: ¿Cómo puedo crear Audiencias?
-feature: Audiences
+description: Aprenda a crear audiencias personalizadas y guardarlas en la biblioteca de audiencias de Adobe [!DNL Target] para usarlas en sus actividades.
+title: ¿Cómo Creo Audiencias?
+feature: Audiencias
+exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 94%
 
 ---
 
-
-# Crear audiencias en Target{#build-audiences-in-target}
+# Crear audiencias en Target
 
 Puede crear audiencias personalizadas y guardarlas en la biblioteca de Target para usarlas en las actividades. Puede copiar una audiencia existente que después puede editar para crear una audiencia parecida y combinar varias.
 
@@ -58,7 +58,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
    Las audiencias recién creadas aparecen en la lista tras unos segundos de retraso en el procesamiento. Si la audiencia no aparece en la lista inmediatamente, pruebe a buscarla o actualice la lista.
 
-## Vídeo de formación: Creación de audiencias  ![Distintivo de información general](/help/assets/overview.png)
+## Vídeo de formación: Creación de audiencias  ![Distintivo Información general](/help/assets/overview.png)
 
 Este vídeo contiene información sobre la creación de audiencias.
 
