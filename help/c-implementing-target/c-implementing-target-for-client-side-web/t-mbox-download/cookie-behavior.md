@@ -2,18 +2,18 @@
 keywords: Información general y referencia;webkit
 description: Obtenga información sobre la implementación de mbox.js heredada de Adobe Target. Migrar al SDK web de Adobe Experience Platform (SDK web de AEP) o a la versión más reciente de at.js.
 title: ¿Dónde puedo encontrar información sobre las cookies de mbox.js?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1652'
 ht-degree: 92%
 
 ---
 
-# Cookies mbox.js{#mbox-js-cookies}
+# Cookies mbox.js
 
 El comportamiento de la cookie depende de si es una cookie de origen, una cookie de terceros con una cookie de origen o solo una cookie de terceros.
 
@@ -112,12 +112,12 @@ La cookie conserva una serie de valores para administrar la forma en que los vis
 
 | Valor | Definición |
 |--- |--- |
-| session ID | Identificador exclusivo de una sesión de usuario. De manera predeterminada, tiene una duración de 30 minutos. |
+| session ID | ID único para una sesión de usuario. De manera predeterminada, tiene una duración de 30 minutos. |
 | pc ID | Identificador semipermanente del navegador de un visitante. Dura 14 días. |
 | check | Sencillo valor de prueba que sirve para averiguar si un visitante admite cookies. Se establece cada vez que un visitante solicita una página. |
 | disable | Se establece si el tiempo de carga de un visitante supera el tiempo de espera fijado en el archivo mbox.js. De manera predeterminada, tiene una duración de 1 hora. |
 
-## Impacto en Target de los cambios que Apple ha introducido en el seguimiento de WebKit para visitantes con Safari {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
+## Impacto en [!DNL Target] para visitantes de Safari debido a cambios en el seguimiento de WebKit de Apple {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
 
 **¿Cómo funciona el seguimiento de Adobe Target?**
 
