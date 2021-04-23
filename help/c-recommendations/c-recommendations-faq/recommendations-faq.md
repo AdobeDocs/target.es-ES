@@ -1,16 +1,16 @@
 ---
 keywords: solución de problemas;preguntas más frecuentes;FAQ;recomendaciones;caracteres especiales;ponderación de atributos;similitud de contenido
-description: Vea una lista de las preguntas más frecuentes y las respuestas sobre las actividades de Adobe Target Recommendations.
-title: ¿Dónde puedo encontrar preguntas y respuestas sobre Target Recommendations?
+description: Vea una lista de las preguntas más frecuentes y las respuestas sobre las actividades de Adobe [!DNL Target] Recommendations.
+title: ¿Dónde puedo encontrar preguntas y respuestas sobre [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2691'
 ht-degree: 40%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Preguntas más frecuentes sobre Recommendations
 
@@ -130,7 +130,7 @@ Este tipo de ponderación es más dinámico y se basa en la “clave de recomend
 
 ![](assets/content_similarity_example.png)
 
-## ¿Por qué a veces Target no puede mostrar recomendaciones?   {#section_DB3F40673AED42228E407C05437D99E9}
+## ¿Por qué a veces [!DNL Target] no puede mostrar recomendaciones? {#section_DB3F40673AED42228E407C05437D99E9}
 
 Target a veces no puede mostrar recomendaciones debido al bajo número de recomendaciones disponibles.
 
@@ -223,5 +223,3 @@ Si un visitante tiene dos sesiones activas al mismo tiempo, los artículos visto
 Tenga en cuenta que este comportamiento sigue ocurriendo si un visitante está activo en un dispositivo y luego se activa en el otro dispositivo unos minutos después. La primera sesión del dispositivo no caduca durante 30 minutos y puede haber hasta cinco minutos de retraso antes de que el estado del perfil se escriba en el estado permanente y se procese. Espere 35 minutos para que la sesión caduque y el perfil se almacene al probar este comportamiento.
 
 Si el visitante no tiene dos sesiones activas al mismo tiempo, los artículos vistos recientemente en un dispositivo actualizarán los artículos vistos recientemente en el otro dispositivo siempre y cuando la sesión haya finalizado. Espere 35 minutos para que la sesión caduque al probar este comportamiento.
-
-
