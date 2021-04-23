@@ -1,22 +1,22 @@
 ---
-keywords: multivariable;mvt;previsualización;experiencias
-description: Obtenga información sobre cómo previsualización cada experiencia en una actividad de prueba multivariada (MVT) en Adobe Target mediante el Compositor de experiencias visuales (VEC).
-title: ¿Cómo puedo realizar la Previsualización de experiencias para una prueba multivariada (MVT)?
-feature: Multivariate Tests
+keywords: multivariable;mvt;vista previa;experiencias
+description: Obtenga información sobre cómo previsualizar cada experiencia en una actividad de prueba multivariable (MVT) en Adobe [!DNL Target] mediante el Compositor de experiencias visuales (VEC).
+title: Cómo puedo previsualizar experiencias para una prueba multivariable (MVT)
+feature: Pruebas multivariable
+exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 68%
 
 ---
 
+# Previsualizar experiencias para una prueba multivariable
 
-# Previsualizar experiencias para una prueba multivariable{#preview-experiences-for-a-multivariate-test}
+Dado que una [!UICONTROL prueba multivariable] en [!DNL Adobe Target] compara varias experiencias en una página, resulta útil previsualizar la página con cada experiencia.
 
-Dado que una [!UICONTROL prueba multivariada] en [!DNL Adobe Target] compara varias experiencias en una página, resulta útil realizar una previsualización de la página con cada experiencia.
-
-1. En el Compositor de experiencias visuales (VEC), haga clic en **[!UICONTROL Previsualización]**.
+1. En el Compositor de experiencias visuales (VEC), haga clic en **[!UICONTROL Vista previa]**.
 
    Se muestra una lista de todas las experiencias.
 
@@ -37,4 +37,3 @@ Dado que una [!UICONTROL prueba multivariada] en [!DNL Adobe Target] compara var
    De manera predeterminada, todas las experiencias se incluyen en la prueba multivariable. Para incluir una experiencia que se había excluido, seleccione la experiencia excluida y haga clic en **[!UICONTROL Incluir]**.
 
 Haga clic en **[!UICONTROL Salir del modo de vista previa]** para volver al Compositor de experiencias y realizar cambios, o haga clic en **[!UICONTROL Continuar]** para ir al resumen de la prueba.
-
