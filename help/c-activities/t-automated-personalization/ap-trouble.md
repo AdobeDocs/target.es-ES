@@ -1,18 +1,18 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: Explore los desafíos potenciales que podría enfrentar al usar actividades de Automated Personalization (AP) en Adobe Target, junto con las soluciones sugeridas.
-title: ¿Cómo puedo solucionar problemas de Automated Personalization?
-feature: Automated Personalization
+description: Explore los posibles desafíos que podría enfrentar al usar actividades de Automated Personalization (AP) en Adobe Target, junto con las soluciones sugeridas.
+title: ¿Cómo Solucionar Problemas De Automated Personalization?
+feature: Personalización automatizada
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 91%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Resolución de problemas de la personalización automatizada{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Resolución de problemas de la personalización automatizada
 
 A veces, las actividades no salen como se esperaba. A continuación, le presentamos algunos de los posibles desafíos a los que se puede enfrentar al usar la personalización automatizada y algunas soluciones sugeridas.
 
@@ -40,7 +40,7 @@ Hay varios factores necesarios para que una actividad AP genere alza:
 
 ## Mi dirección URL de actividad AP muestra contenido de ofertas en páginas incorrectas.    {#section_82A224406DBF4107B05204BEFBBE458C}
 
-En AP, las reglas de prueba de plantilla y URL se agregan a la restricción de entrada de solicitud [!DNL Target] (por ejemplo, destinatario-global-mbox), donde se evalúan una sola vez. Una vez que un usuario cumple los requisitos para una actividad, las reglas de objetivo de nivel de solicitud de Destinatario no se vuelven a evaluar. Sin embargo, se agrega la audiencia de segmentación a las reglas de segmentación de ubicación.
+En AP, las reglas de URL y prueba de plantilla se añaden a la restricción de entrada de solicitud [!DNL Target] (por ejemplo, target-global-mbox), donde se evalúan solo una vez. Una vez que un usuario reúne los requisitos para una actividad, las reglas de segmentación en el nivel de solicitud de Target no se vuelven a evaluar. Sin embargo, se agrega la audiencia de segmentación a las reglas de segmentación de ubicación.
 
 **Solución:** agregue las reglas de plantillas necesarias como audiencia de entrada de la campaña. La evaluación de audiencia sucede con cada solicitud/llamada.
 
@@ -58,4 +58,3 @@ Por ejemplo, existe una actividad con una métrica de conversión (C1) y una mé
 
 * Si no ve la vista previa en la ficha nueva (debido a la memoria caché del navegador), intente actualizar la ficha dos o tres veces o copie el vínculo y ábralo en un navegador nuevo o en una sesión nueva.
 * Vuelva a generar los vínculos URL de experiencia si cambió algún contenido y comparta los nuevos vínculos con sus compañeros de equipo.
-
