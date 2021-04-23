@@ -1,20 +1,20 @@
 ---
-keywords: páginas del sitio;páginas del sitio de destinatario;objetivo;página actual;página actual de destinatario;página anterior;página anterior de destinatario;página de aterrizaje;página de aterrizaje de destinatario;encabezado http
-description: Obtenga información sobre cómo realizar destinatarios de visitantes mediante Adobe Target que se encuentran en una página específica del sitio.
-title: ¿Puedo Destinatario de Visitantes en base a las páginas del sitio?
-feature: Audiences
+keywords: páginas de sitio;páginas de sitio de Target;segmentación;página actual;página actual de Target;página anterior de Target;página de aterrizaje;página de aterrizaje de Target;encabezado http
+description: Aprenda a dirigirse a los visitantes que utilizan Adobe [!DNL Target] que están en una página específica del sitio.
+title: ¿Puedo [!DNL Target] Visitantes en función de las páginas del sitio?
+feature: Audiencias
+exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 42%
 
 ---
 
+# Páginas del sitio
 
-# Páginas del sitio{#site-pages}
-
-Puede destinatario visitantes que se encuentren en una página específica del sitio.
+Puede segmentar visitantes que estén en una página específica del sitio.
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Ponga un nombre a la audiencia.
@@ -22,9 +22,9 @@ Puede destinatario visitantes que se encuentren en una página específica del s
 
    ![Audiencia de páginas del sitio](assets/target_site_pages.png)
 
-1. Haga clic en la lista desplegable **[!UICONTROL Seleccionar]**, seleccione una de las siguientes opciones y luego configure la regla como desee.
+1. Haga clic en la lista desplegable **[!UICONTROL Seleccionar]**, seleccione una de las siguientes opciones y, a continuación, configure la regla como desee.
 
-   Las opciones y los evaluadores disponibles en listas desplegables posteriores de la regla varían según la opción que elija. La siguiente ilustración muestra las opciones disponibles si elige [!UICONTROL Página actual]:
+   Las opciones y evaluadores disponibles en listas desplegables posteriores de la regla varían según la opción que elija. La siguiente ilustración muestra las opciones disponibles si elige [!UICONTROL Página actual]:
 
    ![Página actual](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
@@ -34,7 +34,7 @@ Puede destinatario visitantes que se encuentren en una página específica del s
 
       Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
-      * URL (para obtener más información sobre cómo evalúa Destinatario las direcciones URL, consulte [Preguntas más frecuentes sobre Destinatarios y audiencias](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
+      * URL (Para obtener más información sobre cómo Target evalúa las direcciones URL, consulte [Preguntas frecuentes sobre audiencias y segmentación](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
       * Dominio
       * Consulta
       * Subdominio
@@ -45,7 +45,7 @@ Puede destinatario visitantes que se encuentren en una página específica del s
 
       Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
-      * URL (para obtener más información sobre cómo evalúa Destinatario las direcciones URL, consulte [Preguntas más frecuentes sobre Destinatarios y audiencias](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
+      * URL (Para obtener más información sobre cómo Target evalúa las direcciones URL, consulte [Preguntas frecuentes sobre audiencias y segmentación](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
       * Dominio
       * Consulta
       * Subdominio
@@ -55,7 +55,7 @@ Puede destinatario visitantes que se encuentren en una página específica del s
 
       Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
-      * URL (para obtener más información sobre cómo evalúa Destinatario las direcciones URL, consulte [Preguntas más frecuentes sobre Destinatarios y audiencias](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
+      * URL (Para obtener más información sobre cómo Target evalúa las direcciones URL, consulte [Preguntas frecuentes sobre audiencias y segmentación](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
       * Dominio
       * Consulta
       * Subdominio
@@ -67,7 +67,7 @@ Puede destinatario visitantes que se encuentren en una página específica del s
       >
       >El objeto `landing.url` se restablece en un cambio de subdominio o sustitución directa de la dirección URL.
 
-   * **Encabezado HTTP:** esta opción evalúa la información en el encabezado HTTP de la solicitud de Destinatario. Por ejemplo, si el encabezado HTTP contiene información de idioma, puede crear una regla que contenga la condición `Accept-Language: es` para los visitantes de destinatario que accedan a la página en español.
+   * **Encabezado HTTP:** esta opción evalúa la información en el encabezado HTTP de la solicitud de Target. Por ejemplo, si el encabezado HTTP contiene información de idioma, puede crear una regla que contenga la condición `Accept-Language: es` para dirigirse a los visitantes que accedan a la página en español.
 
       Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
@@ -85,10 +85,10 @@ Puede destinatario visitantes que se encuentren en una página específica del s
       * Expect
       * De
       * Host
-      * Si-Coincidencia
+      * If-Match
       * If-Modified-Since
-      * Si-Ninguno-Coincidencia
-      * Si-Intervalo
+      * If-None-Match
+      * If-Range
       * If-Unmodified-Since
       * Max-Forwards
       * Pragma
@@ -101,7 +101,7 @@ Puede destinatario visitantes que se encuentren en una página específica del s
       * Via
       * Advertencia
 
-   Si elige [!UICONTROL Página actual], [!UICONTROL Página anterior] o [!UICONTROL Página de aterrizaje], estarán disponibles las opciones [!UICONTROL Dominio] y [!UICONTROL Consulta]. Tenga en cuenta lo siguiente al elegir estas opciones:
+   Si elige [!UICONTROL Página actual], [!UICONTROL Página anterior] o [!UICONTROL Página de aterrizaje], las opciones [!UICONTROL Dominio] y [!UICONTROL Consulta] están disponibles. Tenga en cuenta lo siguiente al elegir estas opciones:
 
    * **Dominio:** el dominio completo de la página. Al especificar un dominio, se recomienda utilizar “contains” (contiene). Por ejemplo, “Domain equals facebook.com” (Dominio igual a facebook.com) no aceptará `m.facebook.com` ni `www.facebook.com`. “Domain contains facebook.com” (Dominio contiene facebook.com) aceptará cualquier variante de facebook.com.
    * **Consulta:** el contenido de la dirección URL que hay después del primer signo de interrogación (?).
@@ -128,20 +128,20 @@ como se ilustra a continuación:
 
 ## Resolución de problemas {#ts}
 
-* Para que las audiencias de página de aterrizaje funcionen correctamente, las solicitudes deben tener el parámetro `mboxReferrer` establecido (para la API de Envío, el parámetro `context.address.referringUrl`) que la biblioteca JavaScript de at.js toma de la página mediante el atributo `document.referrer`. Este atributo `HTMLDocument` devuelve el URI de la página desde la que el usuario ha navegado. El valor de este atributo es una cadena vacía cuando el usuario navega directamente a la página (no a través de un vínculo, sino, por ejemplo, a través de un marcador).
+* Para que las audiencias de página de aterrizaje funcionen correctamente, las solicitudes deben tener el parámetro `mboxReferrer` establecido (para la API de envío, el parámetro `context.address.referringUrl`) que la biblioteca JavaScript de at.js toma de la página con el atributo `document.referrer`. Este atributo `HTMLDocument` devuelve el URI de la página desde la que el usuario ha navegado. El valor de este atributo es una cadena vacía cuando el usuario navega a la página directamente (no a través de un vínculo, sino, por ejemplo, a través de un marcador).
 
    Si este comportamiento no coincide con sus necesidades, considere la posibilidad de realizar una de las siguientes acciones:
 
-   * Pase [parámetros de mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) a [!DNL Target] para usarlos con fines de segmentación.
+   * Pasa [parámetros de mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) a [!DNL Target] para usarlos con fines de segmentación.
    * Utilice una [actividad de prueba A/B](/help/c-activities/t-test-ab/test-ab.md) en lugar de una actividad de página de aterrizaje. Las actividades de prueba A/B no cambian experiencias para el mismo visitante.
-   * Utilice un [perfil de visitante](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) en su lugar.
+   * En su lugar, utilice un [perfil del visitante](/help/c-target/c-audiences/c-target-rules/visitor-profile.md).
 
-* Cuando utilice evaluadores &quot;inicios/termina con&quot; en cadenas que contengan comas, tenga en cuenta que estas
+* Cuando utilice evaluadores &quot;comienza/termina con&quot; en cadenas que contengan comas, tenga en cuenta que estas
 se evalúan como una matriz de valores, en la que se evalúa cada valor separado por coma. Por ejemplo, si tenemos el valor de un encabezado: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` calificará para condiciones como:
-   * inicios con zh,
-   * inicios con en,
-   * termina con 0,7,
-   * termina con 0,8.
+   * comienza con zh,
+   * comienza con en,
+   * termina en 0.7,
+   * termina con 0.8.
 
 ## Vídeo de formación: Creación de audiencias
 
