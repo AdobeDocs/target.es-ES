@@ -1,18 +1,18 @@
 ---
 keywords: Segmentación;fuentes de tráfico;fuentes de tráfico de Target;motor de búsqueda Target;motor de búsqueda;página de destino;página de destino Target;página de destino de referencia
-description: Conozca cómo crear audiencias en Adobe Target para visitantes de destinatario basados en el motor de búsqueda o la página de aterrizaje que los remite a su sitio.
-title: ¿Puedo Destinatario Visitantes en base al motor de búsqueda o al sitio de referencia?
-feature: Audiences
+description: Aprenda a crear audiencias en Adobe [!DNL Target] para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
+title: ¿Puedo [!DNL Target] Visitantes en función del motor de búsqueda o del sitio de referencia?
+feature: Audiencias
+exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 86%
 
 ---
 
-
-# Fuentes de tráfico.{#traffic-sources}
+# Informe de
 
 Cree audiencias para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
 
@@ -43,7 +43,7 @@ Puede combinar varias fuentes de tráfico para crear una regla de segmentación 
 
 Puede segmentar usuarios dirigidos a su sitio por un motor de búsqueda específico o desde una página de aterrizaje concreta.
 
-## Vídeo de formación: Creación de audiencias  ![Distintivo de información general](/help/assets/overview.png)
+## Vídeo de formación: Creación de audiencias  ![Distintivo Información general](/help/assets/overview.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
