@@ -1,31 +1,31 @@
 ---
-keywords: personalización automatizada;oferta;sistema de informes;grupo;grupo de sistemas de informes
-description: Obtenga información sobre cómo usar grupos de sistemas de informes de oferta en actividades Automated Personalization de Adobe Target. Con los grupos de sistemas de informes, Destinatario solo crea un modelo de personalización para cada grupo de sistemas de informes.
-title: ¿Puedo usar grupos de Sistemas de informes de Oferta en Actividades de Automated Personalization?
-feature: Reports
+keywords: personalización automatizada;oferta;informes;grupo;grupo de informes
+description: Aprenda a utilizar grupos de informes de ofertas en Adobe [!DNL Target] Automated Personalization activities. Using reporting groups, [!DNL Target] crea solo un modelo de personalización para cada grupo de informes.
+title: ¿Puedo usar grupos de informes de ofertas en actividades de Automated Personalization?
+feature: Informes
+exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 61%
+source-wordcount: '441'
+ht-degree: 63%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Grupos de informes de ofertas en Personalización automatizada
 
-# ![PREMIUM](/help/assets/premium.png) Grupos de informes de ofertas en Personalización automatizada{#offer-reporting-groups-in-automated-personalization}
-
-Información sobre el uso de grupos de sistemas de informes en actividades [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
+Información sobre el uso de grupos de informes en actividades [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 
 Los grupos de informes realizan dos funciones clave:
 
 * Permiten ver las ofertas agrupadas en informes de actividad de AP.
-* Desempeñan un papel clave en el funcionamiento de los modelos de personalización [!DNL Target].
+* Juegan un papel clave con el funcionamiento de los modelos de personalización [!DNL Target].
 
-Cuando se utilizan grupos de sistemas de informes, [!DNL Target] crea sólo un modelo de personalización para cada grupo de sistemas de informes en lugar de cada oferta de la actividad AP utilizando los datos de todas las ofertas de ese grupo.
+Cuando se utilizan grupos de informes, [!DNL Target] crea solo un modelo de personalización para cada grupo de informes en lugar de cada oferta en su actividad AP utilizando los datos de todas las ofertas de ese grupo.
 
 Si la configuración de su actividad no tiene datos suficientes para crear un modelo de personalización para cada oferta, los grupos de informes pueden ayudar a reducir los requisitos de datos para el uso de la personalización automatizada. Los grupos de informes también pueden ayudar a resolver el problema de “inicio en frío” de las nuevas ofertas. Lo hacen agrupando ofertas similares, de modo que cada modelo disponga de más datos con los que trabajar. Los grupos de modelado también se pueden utilizar para aquellas actividades de AP en las que se introducen nuevas ofertas con regularidad.
 
-Este enfoque funciona bien si los visitantes responden de la misma manera a todas las ofertas de un grupo. Una práctica recomendada es agrupar aquellas ofertas a las que grupos de visitantes similares responden de forma similar. En otras palabras, agrupe las ofertas con tasas de conversión similares. Nunca debe colocar todas las ofertas en un solo grupo de informes. Agrupar todas las ofertas o agrupar ofertas con tasas de conversión muy diferentes probablemente reduzca la efectividad de los modelos de personalización [!DNL Target].
+Este enfoque funciona bien si los visitantes responden de la misma manera a todas las ofertas de un grupo. Una práctica recomendada es agrupar aquellas ofertas a las que grupos de visitantes similares responden de forma similar. En otras palabras, agrupe las ofertas con tasas de conversión similares. Nunca debe colocar todas las ofertas en un solo grupo de informes. Agrupar todas las ofertas o agrupar ofertas con tasas de conversión muy diferentes probablemente reduzca la eficacia de los modelos de personalización [!DNL Target].
 
 >[!NOTE]
 >
@@ -46,11 +46,10 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
 
    ![](assets/ap_manage_content_3.png)
 
-1. (Condicional) Para asignar la oferta seleccionada a un grupo de sistemas de informes existente, seleccione **[!UICONTROL Existente]**, seleccione el grupo de sistemas de informes que desee en la lista desplegable y haga clic en **[!UICONTROL Aplicar]**.
+1. (Condicional) Para asignar la oferta seleccionada a un grupo de informes existente, seleccione **[!UICONTROL Existente]**, seleccione el grupo de informes deseado en la lista desplegable y haga clic en **[!UICONTROL Aplicar]**.
 
    O
 
    Para crear un nuevo grupo de informes al que asignar la oferta seleccionada, elija **[!UICONTROL Nuevo]**, asigne un nombre al nuevo grupo de informes y haga clic en **[!UICONTROL Aplicar]**.
 
    ![](assets/ap_reporting_groups.png)
-
