@@ -1,24 +1,24 @@
 ---
-keywords: destinatario automático;segmentación;asignación de tráfico;preguntas más frecuentes;preguntas más frecuentes;preguntas más frecuentes;solución de problemas;resolución de problemas;tráfico
-description: Explore los temas de solución de problemas y las preguntas más frecuentes sobre las actividades de Destinatario automático en Adobe Target.
-title: ¿Cómo puedo solucionar problemas de Actividades de Destinatario automático?
-feature: Auto-Target
+keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;preguntas frecuentes;preguntas frecuentes;solución de problemas;solución de problemas;tráfico
+description: Explore los temas de solución de problemas y las preguntas más frecuentes sobre las actividades de segmentación automática en Adobe Target.
+title: ¿Cómo puedo solucionar problemas de las actividades de segmentación automática?
+feature: Segmentación automática
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 68%
 
 ---
 
+# ![](/help/assets/premium.png) PREMIUMAuto-Target resolución de problemas y preguntas frecuentes
 
-# ![](/help/assets/premium.png) PREMIUMAuto-Destinatario solución de problemas y preguntas más frecuentes
-
-Resolución de problemas y preguntas más frecuentes (FAQ) sobre [!UICONTROL Destinatario automático] en [!DNL Adobe Target].
+Resolución de problemas y preguntas más frecuentes (FAQ) sobre [!UICONTROL Segmentación automática] en [!DNL Adobe Target].
 
 ## Preguntas más frecuentes sobre la segmentación automática {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consulte las siguientes preguntas más frecuentes y respuestas mientras trabaja con actividades [!UICONTROL Destinatario automático]:
+Consulte las siguientes preguntas frecuentes y respuestas mientras trabaja con actividades de [!UICONTROL Segmentación automática]:
 
 ### ¿Cuáles son las prácticas recomendadas para configurar una actividad de [!UICONTROL segmentación automática]?
 
@@ -33,13 +33,13 @@ Consulte las siguientes preguntas más frecuentes y respuestas mientras trabaja 
 
 * Trate de no hacer cambios sustanciales en las experiencias durante el curso de la actividad.
 
-### ¿Recomendamos que usemos el Destinatario automático con una división 90 (Control)/10 (Segmentación) hasta que se creen los modelos?
+### ¿Se recomienda utilizar Auto [!DNL Target] con una división 90(Control)/10 (Segmentado) hasta que se creen los modelos?
 
-La división óptima de la asignación de tráfico depende de lo que desee lograr.
+La división óptima de la asignación del tráfico depende de lo que desee lograr.
 
-Si su objetivo es personalizar el mayor tráfico posible, puede mantener un control del 90 % y del 10 % durante la duración de la actividad. Si su objetivo es ejecutar un experimento comparando el rendimiento de los algoritmos personalizados con el control, entonces una división 50/50 es mejor para la duración de la actividad.
+Si su objetivo es personalizar el mayor tráfico posible, puede mantener un control del 90 % y del 10 % durante toda la actividad. Si su objetivo es ejecutar un experimento comparando el rendimiento de los algoritmos personalizados con el control, entonces una división 50/50 es mejor para la duración de la actividad.
 
-Lo mejor es mantener la división de asignación de tráfico durante la duración de la actividad para que los visitantes no cambien entre las experiencias de destino y de control.
+Una práctica recomendada es mantener la división de asignación de tráfico durante la duración de la actividad para que los visitantes no cambien entre las experiencias de segmentación y de control.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
@@ -72,15 +72,15 @@ Si desea realizar cambios sustanciales en el contenido en su actividad de [!UICO
 
 ### ¿Cuánto tiempo debo esperar para que los modelos se creen?   {#how-long}
 
-El tiempo que tardan los modelos en generar su actividad [!UICONTROL Destinatario automático] generalmente depende del tráfico de las ubicaciones de actividad seleccionadas y de las tasas de conversión asociadas con la métrica de éxito de actividad.
+La cantidad de tiempo que tardan los modelos en desarrollar su actividad de [!UICONTROL Segmentación automática] depende típicamente del tráfico a las ubicaciones de la actividad seleccionada y las tasas de conversión asociadas con la métrica de éxito de la actividad.
 
-[!UICONTROL La segmentación automática no ] intentará crear un modelo personalizado para una experiencia determinada hasta que haya al menos 50 conversiones para esa experiencia. Además, si el modelo creado tiene una calidad insuficiente (como lo determina la evaluación sin conexión de los datos de &quot;prueba&quot; de retención, utilizando [una métrica conocida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), el modelo no se utilizará para servir el tráfico de manera personalizada.
+[!UICONTROL La segmentación automática no ] intentará crear un modelo personalizado para una experiencia determinada hasta que haya al menos 50 conversiones para esa experiencia. Además, si el modelo creado no es de calidad suficiente (tal y como determina la evaluación sin conexión de los datos de &quot;prueba&quot; de retención, utilizando [una métrica conocida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), el modelo no se utilizará para servir tráfico de forma personalizada.
 
-Otros puntos que hay que tener en cuenta sobre la creación de modelos de [!UICONTROL Destinatario automático]:
+Otros puntos que hay que tener en cuenta sobre la creación de modelos de [!UICONTROL Segmentación automática]:
 
-* Una vez que una actividad está activa, [!UICONTROL Destinatario automático] considera hasta los últimos 45 días de datos suministrados al azar al intentar crear modelos (es decir, controlar el tráfico, además de algunos datos suministrados al azar por nuestro algoritmo).
-* Cuando [!UICONTROL Ingresos por visita] es la métrica de éxito, estas actividades generalmente requieren más datos para generar modelos debido a la mayor varianza de datos que generalmente existe en los ingresos por visita en comparación con la tasa de conversión.
-* Dado que los modelos se crean por experiencia, reemplazar una experiencia por otra significa que se debe recopilar suficiente tráfico (es decir, al menos 50 conversiones) para la nueva experiencia antes de que se puedan volver a crear los modelos personalizados.
+* Una vez que una actividad está activa, la [!UICONTROL Segmentación automática] considera hasta los últimos 45 días de datos suministrados aleatoriamente al intentar crear modelos (es decir, tráfico de control, además de algunos datos servidos aleatoriamente extra que nuestro algoritmo mantiene).
+* Cuando [!UICONTROL Ingresos por visita] es su métrica de éxito, estas actividades generalmente requieren más datos para crear modelos debido a la mayor varianza de datos que normalmente existe en los ingresos por visita en comparación con la tasa de conversión.
+* Dado que los modelos se crean según la experiencia, sustituir una experiencia por otra significa que se debe recopilar tráfico suficiente (es decir, al menos 50 conversiones) para la nueva experiencia antes de poder volver a crear los modelos personalizados.
 
 ### Se ha creado un modelo en mi actividad. ¿Las visitas a esa experiencia están personalizadas?  
 
@@ -98,21 +98,21 @@ Esta función le permite dirigir todo el tráfico de control a una experiencia e
 
 Para obtener más información, consulte [Uso de una experiencia específica como control](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
-### ¿Puedo cambiar la métrica de objetivos a medio camino a través de una actividad de Destinatario automático? {#change-metric}
+### ¿Puedo cambiar la métrica de objetivos a mitad de camino a través de una actividad de segmentación automática? {#change-metric}
 
-No se recomienda cambiar la métrica de objetivos a mitad de camino a través de una actividad. Aunque es posible cambiar la métrica de objetivos durante una actividad mediante la [!DNL Target] interfaz de usuario, siempre debe realizar el inicio de una nueva actividad. No garantizamos lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
+No se recomienda cambiar la métrica de objetivo a mitad de una actividad. Aunque es posible cambiar la métrica de objetivo durante una actividad mediante la interfaz de usuario [!DNL Target] , siempre debe iniciar una nueva actividad. No garantizamos lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
 
-Esta recomendación se aplica a [!UICONTROL actividades de asignación automática], [!UICONTROL Destinatario automático] y [!UICONTROL Automated Personalization] que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como fuente de sistema de informes.
+Esta recomendación se aplica a las actividades de [!UICONTROL Asignación automática], [!UICONTROL Segmentación automática] y [!UICONTROL Automated Personalization] que utilizan [!DNL Target] o [!DNL Analytics] (A4T) como fuente de informes.
 
-### ¿Puedo utilizar la opción Restablecer datos del informe al ejecutar una actividad de Destinatario automático?
+### ¿Puedo usar la opción Restablecer los datos del informe al ejecutar una actividad de segmentación automática?
 
-No se sugiere utilizar la opción [!UICONTROL Restablecer datos del informe] para actividades [!UICONTROL Destinatario automático]. Aunque elimina los datos de sistema de informes visibles, esta opción no elimina todos los registros de capacitación del modelo [!UICONTROL Destinatario automático]. En lugar de utilizar la opción [!UICONTROL Restablecer datos del informe] para actividades [!UICONTROL Destinatario automático], cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades [!UICONTROL de asignación automática] y [!UICONTROL Automated Personalization]).
+No se recomienda utilizar la opción [!UICONTROL Restablecer datos del informe] para las actividades de [!UICONTROL Segmentación automática]. Aunque elimina los datos de informes visibles, esta opción no elimina todos los registros de capacitación del modelo de [!UICONTROL Segmentación automática]. En lugar de utilizar la opción [!UICONTROL Restablecer datos del informe] para las actividades de [!UICONTROL Segmentación automática], cree una nueva actividad y desactive la actividad original. (Nota: Esta guía también se aplica a las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Automated Personalization]).
 
-### ¿Qué sucede si elimino una sola experiencia de una actividad de Destinatario automático?
+### ¿Qué sucede si elimino una sola experiencia de una actividad de segmentación automática?
 
-[!DNL Target] crea un modelo por experiencia, por lo que eliminar una experiencia significa que solo  [!DNL Target] generará un modelo menos y no afectará a los modelos de las otras experiencias.
+[!DNL Target] crea un modelo por experiencia, por lo que al eliminar una experiencia se  [!DNL Target] generará un modelo menos y no afectará a los modelos del resto de experiencias.
 
-Por ejemplo, supongamos que tiene una actividad [!UICONTROL Destinatario automático] con ocho experiencias y no le gusta el rendimiento de una experiencia. Puede eliminar esa experiencia y no afectará a los modelos de las siete experiencias restantes.
+Por ejemplo, suponga que tiene una actividad de [!UICONTROL Segmentación automática] con ocho experiencias y que no le gusta el rendimiento de una experiencia. Puede eliminar esa experiencia y no afectará a los modelos de las siete experiencias restantes.
 
 ## Solución de problemas de la [!UICONTROL segmentación automática] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -149,4 +149,3 @@ Esto es esperable.
 En una actividad de [!UICONTROL Segmentación automática], una vez convertida la métrica de conversión (ya sea por objetivos de optimización o de anuncio), el usuario se libera de la experiencia y se reinicia la actividad.
 
 Por ejemplo, existe una actividad con una métrica de conversión (C1) y una métrica adicional (A1). A1 depende de C1. Cuando un visitante entra a la actividad por primera vez y no se convierten los criterios de conversión de A1 y C1, la métrica A1 no se convierte debido a la dependencia de métrica de éxito. Si el visitante convierte C1 y luego convierte A1, A1 aún no se convierte porque en cuanto se convierte C1, se libera el visitante.
-
