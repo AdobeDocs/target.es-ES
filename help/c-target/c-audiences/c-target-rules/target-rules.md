@@ -1,18 +1,18 @@
 ---
 keywords: Segmentación;categorías de objetivos;condiciones de segmentación;administrador de audiencias;parámetros de perfil personalizados;perfil de visitante;parámetros de usuario personalizados;reglas de segmentación
-description: Aprenda a utilizar categorías (como Explorador, Geografía, Red, Sistema operativo, Perfil de Visitante) para destinatario de contenido.
-title: ¿Cuáles son las Categorías para Audiencias?
-feature: Audiences
+description: Aprenda a utilizar categorías (como Explorador, Geografía, Red, Sistema operativo, Perfil del visitante) para el contenido objetivo.
+title: ¿Cuáles son las categorías de las audiencias?
+feature: Audiencias
+exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 92%
 
 ---
 
-
-# Categorías para audiencias{#categories-for-audiences}
+# Categorías para audiencias
 
 Se pueden tener varias categorías de objetivos. Cada una de ellas funciona como una ficha que le permite crear reglas de objetivos (o grupos) para cada categoría.
 
@@ -28,7 +28,7 @@ Use el cuadro de búsqueda para buscar la lista [!UICONTROL Audiencias]. Puede b
 
 Puede ordenar la lista de audiencias por nombre o por la fecha de la última modificación. Para ordenar por nombre o fecha, haga clic en el encabezado de columna y, a continuación, seleccione si quiere mostrar las audiencias en orden ascendente o descendente.
 
-## Vídeo de capacitación: Creación de Audiencias ![distintivo de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de audiencias ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
