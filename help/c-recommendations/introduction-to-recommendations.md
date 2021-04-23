@@ -1,16 +1,16 @@
 ---
-keywords: Recommendations;introducción;introducción;seminario web;demostración
-description: Obtenga información sobre las actividades de Recommendations en Adobe Target que muestran automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos.
-title: ¿Qué son las Actividades de Recommendations?
+keywords: Recommendations;introducción;seminario web;demostración
+description: Obtenga información sobre las actividades de Recommendations en el Adobe [!DNL Target] que muestra automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos.
+title: ¿Qué son las actividades de Recommendations?
 feature: Recommendations
+exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 95%
+source-wordcount: '2115'
+ht-degree: 94%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Introducción a Recommendations
 
@@ -41,7 +41,7 @@ Los especialistas en marketing utilizan [!DNL Adobe Target] para impulsar experi
 * **Juegos**: Las empresas de juegos utilizan [!DNL Target] para recomendar juegos y contenido a los usuarios de sus consolas.
 * **Ventas B2B**: [Las empresas B2B utilizan Target para recomendar vídeos, documentos técnicos y anuncios de blogs a posibles clientes B2B; proporcionar descargas y ayudar a los clientes existentes](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **Viajes**:  [Un corredor de viajes alemán utiliza el Destinatario para recomendar hoteles y más a los viajeros](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+* **Viajes**:  [Un vendedor de viajes alemán usa Target para recomendar hoteles y más a los viajeros](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
 * **Comercio minorista**: [Un minorista líder BB usa Target para recomendar categorías y productos principales para los visitantes de retorno en el explorador y en su aplicación móvil](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2.
 
@@ -57,7 +57,7 @@ Las mejores recomendaciones son relevantes y personalizadas. Esto significa que 
 * **Modelos sofisticados** para dar sentido a los millones de artículos en los eventos de catálogo y de interacción. [!DNL Target] tiene funcionalidades sofisticadas de aprendizaje automático creadas durante más una década de experiencia. Gestionamos miles de millones de recomendaciones al año.
 * **Contexto del usuario** para garantizar que las recomendaciones sean oportunas y relevantes para el mismo. No sirve de nada recomendar el vídeo que alguien acaba de ver o la camiseta que alguien acaba de agregar al carro de compras. El perfil de usuario enriquecido de Target se puede usar en las recomendaciones para garantizar la personalización.
 
-## Implementar Recommendations de Target
+## Implementar [!DNL Target] Recommendations
 
 Comience con una estrategia.
 
@@ -195,6 +195,6 @@ Por ejemplo, en el contexto de contenido, es posible que quiera excluir películ
 
 Después de completar las tareas ilustradas en el canal de recomendaciones descrito arriba, se le deja con la recomendación final. Si desea ver una demostración del producto dentro de [!DNL Target], la demostración comienza a las 21:00 en el *Seminario web de funciones básicas de Adobe Target*, y tiene el vínculo a continuación.
 
-## Seminario web básico de Adobe Target: Introducción a Recommendations {#intro-to-recs}
+## Seminario web básico de Adobe [!DNL Target]: Introducción a Recommendations {#intro-to-recs}
 
 [Introducción a Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
