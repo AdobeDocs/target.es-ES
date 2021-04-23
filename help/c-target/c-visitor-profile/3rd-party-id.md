@@ -1,18 +1,18 @@
 ---
 keywords: mbox;mbox3rdPartyId;sincronización de perfiles;sinc. de perfiles;PCID
-description: Obtenga información sobre cómo utilizar el mbox3rdPartyId, que es el ID de visitante de su organización, como el ID de pertenencia o el programa de lealtad de su organización.
-title: ¿Cómo se utiliza la sincronización de Perfiles en tiempo real para mbox3rdPartyId?
-feature: Audiences
+description: Aprenda a utilizar el mbox3rdPartyId, que es el ID de visitante de su organización, como el ID de pertenencia o el programa de fidelidad de su organización.
+title: ¿Cómo utilizo la sincronización de perfiles en tiempo real para mbox3rdPartyId?
+feature: Audiencias
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 76%
 
 ---
 
-
-# Sincronización de perfiles en tiempo real para mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
+# Sincronización de perfiles en tiempo real para mbox3rdPartyId
 
 mbox3rdPartyId es el ID del visitante de su empresa, como el ID de pertenencia para el programa de fidelidad de su empresa.
 
@@ -24,7 +24,7 @@ Las actualizaciones se sincronizan con la base de datos con una frecuencia compr
 
 | PCID (sin sesión iniciada) | mbox3rdPartyId (con sesión iniciada) | Combinado y guardado en el mbox3rdPartyId |
 |---|---|---|
-| category=hats | category=skis | categoría=skis |
+| category=hats | category=skis | category=skis |
 |  | store=94103 | store=94103 |
 | Actividad 1, experiencia A | Actividad 1, experiencia B | Actividad 1, experiencia B |
 | Actividad 1 |  | Actividad 1 |
@@ -33,11 +33,11 @@ Cuando el visitante cierra sesión, se conserva el perfil combinado.
 
 >[!NOTE]
 >
->Si desea distinguir entre usuarios autenticados (con inicio de sesión) y usuarios no autenticados, utilice Adobe Experience Cloud Identity Service (ECID) en lugar de mbox3rdPartyID. Una vez que un usuario está asociado con mbox3rdPartyID, permanece asociado al usuario incluso después de cerrar sesión.
+>Si desea distinguir entre usuarios autenticados (iniciados sesión) y usuarios no autenticados, utilice el servicio de identidad de Adobe Experience Cloud (ECID) en lugar de mbox3rdPartyID. Una vez que un usuario está asociado con mbox3rdPartyID, permanece asociado con el usuario incluso después de cerrar la sesión.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] no se rastrearán los objetivos en los casos en los que el  [!DNL Adobe Experience Cloud] ID (EDID) cambie (por ejemplo, el visitante cambie de dispositivo), aunque el  [!DNL Target] perfil se pueda combinar en función del mbox3rdPartyId y siga teniendo información de actividad. Para visitantes identificados con el mismo EDID (aquellos que acceden a la página con el mismo dispositivo), [!DNL Analytics for Target] (A4T) debe funcionar según lo esperado.
+>[!DNL Adobe Analytics] Los objetivos no se rastrearán cuando cambie el  [!DNL Adobe Experience Cloud] ID (EDID) (por ejemplo, el visitante cambia de dispositivo), aunque el  [!DNL Target] perfil se pueda combinar en función del mbox3rdPartyId y tenga aún información de actividad. Para los visitantes identificados con el mismo EDID (los que acceden a la página con el mismo dispositivo), [!DNL Analytics for Target] (A4T) debería funcionar según lo esperado.
 
 ## Consideraciones {#considerations}
 
