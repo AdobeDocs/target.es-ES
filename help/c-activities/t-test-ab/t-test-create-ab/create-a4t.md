@@ -1,22 +1,22 @@
 ---
-keywords: Segmentación;análisis;servidor de seguimiento;análisis para destinatario;a4t
-description: Obtenga información sobre cómo configurar una actividad en Adobe Target para utilizar Adobe Analytics como fuente de sistema de informes. Esta integración se denomina Analytics para Destinatario (A4T).
-title: ¿Cómo puedo usar datos de Analytics en Destinatario?
+keywords: Segmentación;analytics;servidor de seguimiento;analytics for target;a4t
+description: Aprenda a configurar una actividad en Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T).
+title: ¿Cómo puedo usar datos de Analytics en Target?
 feature: Analytics for Target (A4T)
+exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 85%
+source-wordcount: '543'
+ht-degree: 88%
 
 ---
 
-
 # Usar datos de Analytics
 
-Puede configurar una actividad en [!DNL Adobe Target] para que utilice [!DNL Adobe Analytics] como fuente de sistema de informes (A4T).
+Puede configurar una actividad en [!DNL Adobe Target] para que use [!DNL Adobe Analytics] como fuente de informes (A4T).
 
-Para obtener información detallada sobre la configuración de Analytics como fuente de datos para Destinatario, consulte [Adobe Analytics como fuente de Sistema de informes para Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+Para obtener información detallada sobre la configuración de Analytics como fuente de datos para Target, consulte [Adobe Analytics como fuente de informes para Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 Antes de configurar una actividad que use Analytics como fuente de informes, establezca el objetivo de la actividad, como mejorar los ingresos por visitante (RPV) o aumentar los clics en el carro de compras. Seleccione una métrica de éxito final para la campaña. Aunque puede seleccionar métricas adicionales en cualquier momento en Analytics, es necesario que especifique una métrica en particular en torno a la cual desea que gire la prueba.
 
