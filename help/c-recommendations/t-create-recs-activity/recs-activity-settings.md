@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;Configuración;nombre;objetivo;prioridad;duración;configuración de informes;otros metadatos
-description: Obtenga información sobre cómo configurar las opciones utilizadas para describir y controlar una actividad de Recommendations en Adobe Target.
-title: ¿Cómo configuro la Actividad de Recommendations?
+description: Obtenga información sobre cómo configurar los ajustes utilizados para describir y controlar una actividad de Recommendations en Adobe Target.
+title: ¿Cómo configuro la configuración de actividades de Recommendations?
 feature: Recommendations
+exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Configuración de actividades de Recommendations{#recommendations-activity-settings}
+# ![PREMIUM](/help/assets/premium.png) Configuración de actividades de Recommendations
 
 Información sobre la configuración que puede utilizar para describir y controlar una actividad [!UICONTROL Recommendations] en [!DNL Adobe Target].
 
@@ -55,7 +55,7 @@ La actividad se puede iniciar cuando se activa, o bien se puede establecer una f
 
 ## Configuración de informes. 
 
-* **Origen de sistema de informes:** seleccione el origen de sistema de informes:  [!DNL Adobe Target] o  [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). No cambie la fuente de informes después de que la actividad se active. Cambiar la fuente de informes después de una actividad causa un informe incoherente.
+* **Fuente de informes:** seleccione la fuente de informes:  [!DNL Adobe Target] o  [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). No cambie la fuente de informes después de que la actividad se active. Cambiar la fuente de informes después de una actividad causa un informe incoherente.
 * **Métrica de objetivo:** Asigne un nombre al objetivo y seleccione la métrica de éxito que determina si la actividad tiene éxito.
 * **Métricas adicionales:** Configure métricas de éxito adicionales para usarlas en sus informes.
 * **Audiencias para creación de informes:** Defina las audiencias que se pueden usar cuando filtre los informes.
@@ -64,7 +64,7 @@ La actividad se puede iniciar cuando se activa, o bien se puede establecer una f
 
 Escriba notas sobre la actividad.
 
-## Vídeo de capacitación: Configuración de actividad (3:02) ![Distintivo de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Configuración de actividades (3:02) ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre la configuración de las actividades.
 
