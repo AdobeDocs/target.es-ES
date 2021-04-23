@@ -1,20 +1,20 @@
 ---
 keywords: mvt;prueba multivariable;ofertas;combinaciones
-description: Descubra cómo usar el Compositor de experiencias visuales (VEC) en Adobe Target para crear las ofertas que desee incluir en la prueba multivariada (MVT).
-title: ¿Cómo se crean combinaciones en pruebas multivariable (MVT)?
-feature: Multivariate Tests
+description: Aprenda a usar el Compositor de experiencias visuales (VEC) en Adobe [!DNL Target] para crear las ofertas que desee incluir en la prueba multivariable (MVT).
+title: ¿Cómo creo combinaciones en pruebas multivariable (MVT)?
+feature: Pruebas multivariable
+exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
 
-
 # Crear combinaciones
 
-Utilice el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] para crear las ofertas que desee incluir en la [!UICONTROL Prueba multivariada] (MVT).
+Use el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] para crear las ofertas que desee incluir en su [!UICONTROL Prueba multivariable] (MVT).
 
 Para obtener más información sobre el uso del VEC para crear y editar ofertas, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -65,4 +65,3 @@ Cada oferta de texto/HTML se convierte en una experiencia independiente en esa u
 * Debe contar con un mínimo de tres elementos que probar. Si tiene menos, ejecute una serie de  pruebas A/B.
 * Es recomendable que las alternativas de cada elemento sean bastante diferentes entre sí.
 * Aunque no es necesario, es aconsejable que cada elemento tenga el mismo número de alternativas.
-
