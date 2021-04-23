@@ -1,16 +1,16 @@
 ---
 keywords: Segmentación de experiencias;xt;crear
-description: Descubra cómo usar el Compositor de experiencias visuales (VEC) en Adobe Target para crear una actividad de segmentación de experiencias (XT) en una página con Destinatario habilitado.
-title: ¿Cómo se crea una Actividad de segmentación de experiencias?
-feature: Experience Targeting
+description: Aprenda a usar el Compositor de experiencias visuales (VEC) en Adobe [!DNL Target] para crear una actividad de segmentación de experiencias (XT) en una página con Target habilitado.
+title: ¿Cómo creo una actividad de segmentación de experiencias?
+feature: Segmentación de experiencias
+exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 translation-type: tm+mt
-source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '426'
 ht-degree: 89%
 
 ---
-
 
 # Crear una actividad de segmentación de experiencias
 
