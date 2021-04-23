@@ -1,18 +1,18 @@
 ---
 keywords: mvt;prueba multivariable;informe de contribución de ubicación
-description: Descubra cómo utilizar el informe Contribución de ubicación para las actividades de segmentación de experiencias de Adobe Target que muestra el rendimiento de cada elemento y cada oferta.
-title: ¿Cómo se utiliza el informe Contribución de ubicación para las pruebas multivariadas?
-feature: Reports
+description: Aprenda a utilizar el informe Contribución de ubicación para actividades de Adobe [!DNL Target] Segmentación de experiencias que muestran el rendimiento de cada elemento y cada oferta.
+title: ¿Cómo utilizo el informe Contribución de ubicación para pruebas multivariable?
+feature: Informes
+exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 83%
 
 ---
 
-
-# Informe Contribución de ubicación (MVT){#location-contribution-report-mvt}
+# Informe Contribución de ubicación (MVT)
 
 El informe Contribución de ubicación muestra el rendimiento de cada elemento y cada oferta.
 
@@ -32,7 +32,7 @@ La segunda tabla proporciona un informe de nivel de oferta. Muestra la tasa de c
 
 ![](assets/locationcontributionbottom.png)
 
-## Vídeo de formación: Crear una prueba MVT  ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Crear una prueba MVT  ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Contribución de ubicación se describe a partir del minuto 8:45.
 
