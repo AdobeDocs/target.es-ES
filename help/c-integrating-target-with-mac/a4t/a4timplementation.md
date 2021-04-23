@@ -1,18 +1,18 @@
 ---
 keywords: A4T;Adobe Analytics;actividad basada en Analytics;grupo de informes de Analytics;grupo de informes;integración de Analytics Target;configurar grupo de informes
-description: Siga los pasos necesarios para implementar Analytics for Target (A4T) en sus soluciones de Adobe Target y Adobe Analytics.
-title: ¿Cómo implemento Analytics for Target (A4T)?
+description: Siga los pasos necesarios para implementar las soluciones de Analytics for [!DNL Target] (A4T) in your Adobe [!DNL Target] y Adobe Analytics.
+title: ¿Cómo implemento Analytics para [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
+exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '881'
 ht-degree: 29%
 
 ---
 
-
-# Implementación de Analytics for Target{#analytics-for-target-implementation}
+# Implementación de Analytics for [!DNL Target]
 
 Se requieren varios pasos a la hora de implementar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
@@ -32,7 +32,7 @@ Deben cumplirse los requisitos de cuenta de usuario para poder crear una activid
 
 El servicio de ID de visitante permite identificar a usuarios en todas las soluciones de [!DNL Adobe Experience Cloud]. Implemente o migre a la versión requerida del ID de visitante de Experience Cloud. Para obtener más información, consulte “Requisitos de implementación” en [Antes de la implementación](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulte [Implementación del servicio de Experience Cloud ID para Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) en la documentación *Servicio de ID de visitante de Experience Cloud* .
+Consulte [Implementación del servicio de ID de Experience Cloud para Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) en la documentación *Servicio de ID de visitante de Experience Cloud* .
 
 ## Paso 4: Actualizar AppMeasurement para JavaScript o s_code
 
@@ -90,7 +90,7 @@ Esta configuración tiene un efecto global, lo que significa que cada llamada re
 }
 ```
 
-La carga útil se puede reenviar a Analytics a través de la [API de inserción de datos](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Para las actividades de asignación automática y segmentación automática, también debe reenviar el sessionId. Para obtener más información, consulte [Informes de Analytics for Target (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) en la guía *SDK de Adobe Target*.
+La carga útil se puede reenviar a Analytics a través de la [API de inserción de datos](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Para las actividades de asignación automática y segmentación automática, también debe reenviar el sessionId. Para obtener más información, consulte [Informes de Analytics for Target (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) en la guía *SDK para Adobe Target*.
 
 Si no desea una configuración global y prefiere un método bajo demanda, utilice la función at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) pasando **analyticsLogging: &quot;client_side&quot;**. La carga útil de Analytics solo se devuelve para esta llamada y el back-end [!DNL Target] no reenvía la carga útil a [!DNL Analytics]. Al seguir este método, cada solicitud [!DNL Target] at.js devuelve la carga útil de forma predeterminada, pero solo cuando se desea y se especifica.
 
@@ -168,4 +168,3 @@ En [!DNL Target], haga clic en **[!UICONTROL Administración > Compositor de exp
 
 * **[!UICONTROL La opción Seleccionar por actividad permite elegir entre y a la hora de crear cada actividad.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL La opción Adobe establece Analytics como fuente de informes para todas las actividades que cree.]**[!DNL Analytics]
-
