@@ -1,18 +1,18 @@
 ---
 keywords: variables;perfiles;parámetros;perfiles integrados;métodos;variables de url;perfiles geográficos;perfiles de terceros;variables de mbox;variables de campaña;atributos de cliente
-description: Vista de una lista de varios perfiles, variables y parámetros que son útiles en secuencias de comandos de perfil en Adobe Target.
-title: ¿Qué Perfiles, variables y parámetros se utilizan en Destinatario?
-feature: Audiences
+description: Vea una lista de varios perfiles, variables y parámetros que son útiles en los scripts de perfil de Adobe Target.
+title: ¿Qué perfiles, variables y parámetros se utilizan en Target?
+feature: Audiencias
+exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 88%
 
 ---
 
-
-# Glosario de perfiles y variables{#profile-and-variable-glossary}
+# Glosario de perfiles y variables
 
 Esta página contiene una lista de perfiles, variables y parámetros que son útiles en los scripts de perfil.
 
@@ -30,7 +30,7 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | user.daysSinceLastVisit |  |
 | user.browser | El agente de usuario |
 | user.header | Todos los perfiles `user.header` están integrados en los datos de encabezado de las peticiones de mbox |
-| user.header(&#39;x-forwarded-for&#39;) | La dirección IP pública de la conexión de red en que se encuentra el visitante.<br>Se puede consultar de varias maneras, por ejemplo, usando [whatismyip.com](https://www.whatismyip.com/). La dirección IP no es la dirección NAT (dirección interna), que empieza por 10., 192.168. o 172.<br>Nota: user.header(&#39;x-cluster-client-ip&#39;) se ha desaprobado. |
+| user.header(&#39;x-forward-for&#39;) | La dirección IP pública de la conexión de red en que se encuentra el visitante.<br>Se puede consultar de varias maneras, por ejemplo, usando [whatismyip.com](https://www.whatismyip.com/). La dirección IP no es la dirección NAT (dirección interna), que empieza por 10., 192.168. o 172.<br>Nota: user.header(&#39;x-cluster-client-ip&#39;) ha quedado obsoleto. |
 | user.header(&#39;host&#39;) | Nombre de host del visitante |
 | user.header(&#39;cookie&#39;) | Datos de cookies del visitante |
 | user.header(&#39;user-agent&#39;) | Agente de usuario del navegador del visitante |
@@ -43,7 +43,7 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Atributos de perfil persistentes creados desde scripts de perfil. También hace referencia a perfiles del “sistema” como la geolocalización, el recuento de visitas, etc. |
-| profile.get(&#39;param_name&#39;) | La forma correcta de obtener un parámetro de perfil para utilizarlo en una secuencia de comandos de perfil es el método perfil.get(&#39;param_name&#39;). |
+| profile.get(&#39;param_name&#39;) | La forma correcta de obtener un parámetro de perfil para utilizarlo en un script de perfil es el método profile.get(&#39;param_name&#39;) . |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Los parámetros de mbox que se vuelven persistentes debido a su prefijo perfil.  prefix. |
 | profile.browserTime | La hora local del navegador del visitante. Para la hora del sistema, cree un nuevo objeto de fecha en la secuencia de comandos del perfil |
@@ -92,4 +92,4 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 
 Se puede hacer referencia a los atributos del cliente en las secuencias de comandos de perfil con el formato `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Estos atributos también están disponibles como tokens en secuencias de comandos de perfil y directamente en ofertas sin que resulte necesario requerir primero una secuencia de comandos de perfil. El token debe presentar el siguiente formato: `${crs.datasourceName.attributeName}`. Tenga en cuenta que los espacios de `datasourceName` deben eliminarse de cualquier llamada de API.
+Estos atributos también están disponibles como tokens en secuencias de comandos de perfil y directamente en ofertas sin que resulte necesario requerir primero una secuencia de comandos de perfil. El token debe presentar el siguiente formato: `${crs.datasourceName.attributeName}`. Tenga en cuenta que los espacios en `datasourceName` deben eliminarse de cualquier llamada de API.
