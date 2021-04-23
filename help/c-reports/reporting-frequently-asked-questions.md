@@ -1,16 +1,16 @@
 ---
 keywords: solución de problemas;discrepancias en las métricas;preguntas más frecuentes;informes;nuevo visitante;nuevos visitantes;visitantes que regresan;visita de retorno;nueva visita
-description: Explore una lista de las preguntas más frecuentes y las respuestas sobre los informes de Adobe Target.
-title: ¿Dónde puedo encontrar respuestas a preguntas sobre los informes de Target?
-feature: Reports
+description: Explore una lista de las preguntas más frecuentes y las respuestas sobre los informes de Adobe [!DNL Target] .
+title: ¿Dónde puedo encontrar respuestas a preguntas sobre los informes [!DNL Target] ?
+feature: Informes
+exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 23%
+source-wordcount: '1219'
+ht-degree: 24%
 
 ---
-
 
 # Preguntas más frecuentes sobre la creación de informes
 
