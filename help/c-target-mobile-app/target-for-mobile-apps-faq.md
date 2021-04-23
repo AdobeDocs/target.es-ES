@@ -1,42 +1,42 @@
 ---
-keywords: aplicación móvil;preguntas más frecuentes;faq;aplicación móvil de destinatario
-description: Vista las preguntas más frecuentes y sus respuestas sobre Adobe Target para aplicaciones móviles.
-title: ¿Cuáles son las preguntas más frecuentes sobre Destinatario para aplicaciones móviles?
-feature: Implement Mobile
+keywords: aplicación móvil;preguntas más frecuentes;faq;aplicación móvil de target
+description: Vea las preguntas más frecuentes y sus respuestas sobre Adobe [!DNL Target] para aplicaciones móviles.
+title: ¿Qué son las preguntas más frecuentes sobre [!DNL Target] para aplicaciones móviles?
+feature: Implementar Mobile
 role: Developer
+exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
+# Preguntas frecuentes sobre Target para aplicaciones móviles
 
-# Preguntas más frecuentes sobre destinatario para aplicaciones móviles
+Lista de las preguntas más frecuentes sobre [!DNL Target] para aplicaciones móviles.
 
-Lista de las preguntas más frecuentes sobre [!DNL Target] aplicaciones móviles.
+## ¿Debería utilizar [!DNL Adobe Experience Platform Launch] para implementar el SDK o puedo implementar el SDK sin utilizar [!DNL Launch]?
 
-## ¿Debo utilizar [!DNL Adobe Experience Platform Launch] para implementar el SDK o puedo implementar el SDK sin utilizar [!DNL Launch]?
+El SDK está disponible en el [Adobe Marketing Cloud git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). Si no utiliza [Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html), debe administrar su propio archivo de configuración y administrarlo en la aplicación.
 
-El SDK está disponible en la [git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) de Adobe Marketing Cloud. Si no utiliza [Iniciar](https://experienceleague.adobe.com/docs/launch/using/overview.html), debe administrar su propio archivo de configuración y administrarlo en la aplicación.
+## ¿Qué SDK están disponibles hoy en día?
 
-## ¿Qué SDK están disponibles actualmente?
+Los SDK de Adobe Experience Platform Mobile son compatibles actualmente con iOS, Android y React. Para obtener más información, consulte la [Guía de SDK para móviles de la plataforma Adobe Experience Cloud](https://aep-sdks.gitbook.io/docs/).
 
-Los SDK de Adobe Experience Platform Mobile admiten actualmente iOS, Android y React. Para obtener más información, consulte la [guía de SDK móviles de la plataforma de Adobe Experience Cloud](https://aep-sdks.gitbook.io/docs/).
+## ¿Cuál es la frecuencia de la función basada en la ubicación, en términos de verificación de la latitud y longitud?
 
-## ¿Cuál es la frecuencia de la característica basada en la ubicación, en términos de verificación de la latitud y la longitud?
-
-Consulte la [documentación de Adobe Places](https://placesdocs.com/places-services-by-adobe-documentation/) para obtener más información.
+Consulte la [documentación de Adobes Places](https://placesdocs.com/places-services-by-adobe-documentation/) para obtener más información.
 
 ## ¿Necesito at.js para que funcionen los SDK de Adobe Experience Platform Mobile?
 
-No, no necesita at.js para utilizar los SDK móviles. at.js es la [!DNL Target] biblioteca JavaScript para sitios Web. Los SDK de Adobe Experience Platform Mobile son para aplicaciones móviles.
+No, no es necesario que at.js utilice los SDK para móviles. at.js es la [!DNL Target] biblioteca JavaScript para sitios web. Los SDK de Adobe Experience Platform Mobile son para aplicaciones móviles.
 
-## ¿Es Destinatario Mobile una funcionalidad de SKU de producto de Adobe Target Premium?
+## ¿Es [!DNL Target] Mobile una funcionalidad de Adobe [!DNL Target] Premium Product SKU únicamente?
 
-No. Para los clientes [!DNL Adobe Target Standard], puede utilizar nuestros SDK móviles para las actividades A/B Test and Experience Targeting (XT) solo con el complemento de la aplicación móvil [!DNL Target Standard]. Si desea utilizar funciones de Recommendations o de AI en la aplicación móvil, necesita una licencia [Adobe Target Premium](/help/c-intro/intro.md#premium).
+No. Para los clientes [!DNL Adobe Target Standard], puede utilizar nuestros SDK móviles para pruebas A/B y actividades de segmentación de experiencias (XT) solo con el complemento [!DNL Target Standard] Aplicación móvil. Si desea utilizar Recommendations o funciones con tecnología de IA en la aplicación móvil, necesita una licencia [Adobe Target Premium](/help/c-intro/intro.md#premium).
 
-## ¿Existe una integración de aplicaciones móviles entre Adobe Experience Manager (AEM) y actividades móviles de Destinatario?
+## ¿Existe una integración de aplicación móvil entre las actividades móviles de Adobe Experience Manager (AEM) y [!DNL Target]?
 
-Está en nuestra hoja de ruta, pero todavía no hay cronología. Actualmente, puede compartir fragmentos de experiencia [JSON](/help/c-experiences/c-manage-content/aem-experience-fragments.md) de AEM a Destinatario y podría haber posibilidades de usarlos en una actividad de aplicación móvil.
+Está en nuestra hoja de ruta, pero todavía no hay cronología. Actualmente, puede compartir JSON [Fragmentos de experiencia](/help/c-experiences/c-manage-content/aem-experience-fragments.md) de AEM a Target y es posible que los utilice en una actividad de aplicación móvil.
