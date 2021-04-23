@@ -1,23 +1,23 @@
 ---
 keywords: solución de problemas;preguntas frecuentes;FAQ;global;mbox global
-description: Lea las preguntas más frecuentes y las respuestas sobre los mboxes globales de Adobe Target.
+description: Lea las preguntas más frecuentes (FAQ) y las respuestas sobre mboxes globales de Adobe [!DNL Target] .
 title: ¿Qué son las preguntas más frecuentes sobre el mbox global?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 93%
+source-wordcount: '312'
+ht-degree: 85%
 
 ---
 
-
-# Preguntas más frecuentes sobre mbox global{#global-mbox-frequently-asked-questions}
+# Preguntas más frecuentes sobre mbox global
 
 Lista de las preguntas más frecuentes (FAQ) sobre los mboxes globales.
 
-## ¿Puedo tener más de un mbox global si mi cuenta de Target está establecida en múltiples dominios?{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## ¿Puedo tener más de un mbox global si mi cuenta [!DNL Target] está establecida en varios dominios? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 Se admite un único mbox global en su cuenta.
 
@@ -25,7 +25,7 @@ Puede limitar dónde se ejecutan sus actividades añadiéndoles reglas de URL. P
 
 También puede transferir un parámetro en la página utilizando [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) y, a continuación, seleccionar esos parámetros en la sección “configurar URL” del [!UICONTROL Compositor de experiencias visuales] (VEC) o añadiendo los parámetros como “refinamientos” en el Compositor de experiencias basadas en formularios.
 
-## ¿Cómo paso los datos de ingresos en un mbox global de Target?{#section_17AEA933BADA4D169CCEDF5833C41306}
+## ¿Cómo paso los datos de ingresos en un mbox global [!DNL Target]? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
 Para recabar ingresos e información de pedidos en target-global-mbox, se deben enviar a Target “parámetros de mbox”. Estos parámetros son pares de nombre/valor que se utilizan para enviar más información a Target. Target busca automáticamente estos parámetros (son nombres reservados) para rellenar los datos de ingresos.
 
