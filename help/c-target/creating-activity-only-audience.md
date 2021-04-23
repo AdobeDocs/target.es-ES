@@ -1,18 +1,18 @@
 ---
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;solo actividad;específica
-description: Obtenga información sobre cómo crear audiencias solo de actividad en Adobe Target que se utilicen una sola vez en la actividad actual y que no se almacenen en la biblioteca de Audiencias.
-title: ¿Puedo crear una Audiencia para usarla una sola vez?
-feature: Audiences
+description: Aprenda a crear audiencias solo de actividad en el Adobe [!DNL Target] que se usan una sola vez en la actividad actual y no se almacenan en la biblioteca de audiencias.
+title: ¿Puedo crear una audiencia para usarla una sola vez?
+feature: Audiencias
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 91%
 
 ---
 
-
-# Crear una audiencia solo de actividad{#create-an-activity-only-audience}
+# Crear una audiencia solo de actividad. 
 
 Cree audiencias solo de actividad dentro del flujo de trabajo guiado de tres pasos para la creación de una actividad. Estas audiencias ad-hoc pueden usarse en otros lugares dentro de la misma actividad, pero no se almacenan en la [!UICONTROL Biblioteca de audiencias] para su uso en otras actividades.
 
@@ -52,4 +52,3 @@ Tenga en cuenta lo siguiente al trabajar con audiencias solo de actividad:
 * Las audiencias solo de actividad tienen un estado de [!UICONTROL Utilizada] o [!UICONTROL No utilizada]. Las audiencias solo de actividad no utilizadas se muestran hasta que la actividad se guarda. Si se dejan sin utilizar e intenta guardarlas, se muestra un mensaje de advertencia que indica que las audiencias solo de actividad no utilizadas se eliminarán.
 * Puede ver los detalles de definición de una audiencia en forma de tarjeta emergente a la que se accede desde el selector de audiencias, sin necesidad de abrir la audiencia.
 * Puede [combinar varias audiencias](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear audiencias solo de actividad.
-
