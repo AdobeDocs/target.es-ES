@@ -1,16 +1,16 @@
 ---
 keywords: vec spa;react;angular;react.js;compositor de experiencias visuales para spa;opciones de compositor de experiencias visuales para spa;aplicaciones de una sola página;aplicación de una sola página;spa;opciones de experiencias móviles;vista de target
-description: Aprenda a utilizar el VEC SPA en Adobe Target para crear pruebas y personalizar el contenido en SPA de una forma que haga usted mismo sin dependencias de desarrollo continuas.
-title: ¿Cómo se usa el Compositor de experiencias visuales de una sola página (SPA VEC)?
-feature: Visual Experience Composer (VEC)
+description: Aprenda a utilizar el VEC SPA en Adobe [!DNL Target] para crear pruebas y personalizar contenido en SPA de forma independiente sin tener que depender de un desarrollo continuo.
+title: ¿Cómo utilizo el Compositor de experiencias visuales de una aplicación de una sola página (SPA VEC)?
+feature: 'Compositor de experiencias visuales (VEC). '
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3700'
 ht-degree: 91%
 
 ---
-
 
 # Compositor de experiencias visuales para aplicaciones de una sola página (SPA)
 
@@ -20,7 +20,7 @@ En [!DNL Adobe Target], el [!UICONTROL Compositor de experiencias visuales] (VEC
 
 Con la versión más reciente, presentamos el VEC para las SPA. El VEC para aplicaciones de una sola página (SPA) permite que los comerciantes creen pruebas y personalicen el contenido de las SPA de forma independiente sin tener que depender de un desarrollo continuo. El VEC se puede utilizar para crear [pruebas A/B](/help/c-activities/t-test-ab/test-ab.md) y actividades de [segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) (XT) en marcos populares, como React y Angular.
 
-## Vistas de Adobe Target y Aplicaciones de una sola página
+## Vistas de Adobe [!DNL Target] y aplicaciones de una sola página
 
 El VEC de Adobe Target para SPA aprovecha un nuevo concepto llamado Vistas: un grupo lógico de elementos visuales que, juntos, constituyen una experiencia de SPA. Una SPA puede, por lo tanto, considerarse como una transición entre vistas (en lugar de las direcciones URL) según las interacciones del usuario. Una vista suele representar un sitio completo o elementos visuales agrupados dentro de un sitio.
 
@@ -56,7 +56,7 @@ Además, el concepto de Vistas puede ampliarse mucho más. Si los especialistas 
 
 Es posible que los especialistas en marketing deseen ejecutar una prueba A/B para ver si el cambio del color de azul a rojo cuando se selecciona la opción Envío exprés puede mejorar las conversiones en lugar de mantener el botón de color azul en ambas opciones de envío.
 
-## Implementación de Vistas de Adobe Target
+## Implementación de vistas de Adobe [!DNL Target]
 
 Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovechar este concepto en Target para permitir a los especialistas en marketing ejecutar pruebas A/B y XT en SPA a través del VEC. Esto requiere una configuración de desarrollador única. Veamos los pasos para configurarlo.
 
@@ -66,7 +66,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    ![Cuadro de diálogo de detalles de implementación](/help/c-experiences/assets/imp-200.png)
 
-   Descargue at.js 2.x a través de la interfaz de usuario de Adobe Target ubicada en [!UICONTROL Administración > Implementación]. at.js 2.x también se puede implementar mediante [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
+   Descargue at.js 2 a través de la IU de Adobe Target ubicada en [!UICONTROL Administration > Implementation]. at.js 2.x también se puede implementar mediante [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
 
 1. Implemente la función más reciente de at.js 2.x en sus sitios: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md).
 
@@ -393,7 +393,7 @@ Se han realizado los cambios siguientes:
 * Se ha cambiado el color de fondo en la vista de Inicio, que se encuentra en la dirección URL: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
 * Se ha cambiado el color del botón en la vista Productos, que se encuentra en la dirección URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-Teniendo en cuenta el ejemplo anterior, ¿qué ocurriría cuando configuramos la configuración de [!UICONTROL Envío de página] para incluir únicamente: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) en un SPA con at.js 2.*x*?
+Con el ejemplo anterior en mente, lo que sucedería cuando establecemos la configuración [!UICONTROL Entrega de páginas] para que solo incluya: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) en un SPA con at.js 2.*x*?
 
 ![Cuadro de diálogo Entrega de páginas](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -404,18 +404,18 @@ La siguiente ilustración muestra el flujo de Target: carga de página en at.js 
 **Recorrido del usuario número 1**
 
 * Un usuario navega directamente a [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x*  realiza una consulta a Edge para ver si es necesario ejecutar alguna actividad para la dirección URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x*  realiza una consulta a Edge para ver si hay alguna actividad que se deba ejecutar para la URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * En el paso 6, Target Edge devuelve las acciones para la vista Inicio y Productos para que se almacenen en la caché del explorador.
 
 **Resultado**: El usuario ve el color de fondo verde en la vista Inicio. Cuando el usuario navega a [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, el color de fondo azul del botón se ve porque la acción se almacena en la caché del explorador en la vista Productos.
 
-Nota: El usuario que navegaba a [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) no déclencheur una carga de página.
+Nota: El usuario que navega a [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) no déclencheur una carga de página.
 
 **Recorrido del usuario número 2**
 
 * Un usuario navega directamente a [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x*  realiza una consulta a Edge para ver si es necesario ejecutar alguna actividad para la dirección URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* No hay actividades calificadas para [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x*  realiza una consulta a Edge para ver si hay alguna actividad que se deba ejecutar para la URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* No hay actividades cualificadas para [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Debido a que no hay actividades cualificadas, no hay acciones ni vistas que almacenar en caché para at.js 2.*x* para activarse.
 
 **Resultado**: Aunque haya definido `triggerView()` para la vista Productos y haya realizado una acción en la vista Productos a través del SPA de VEC, no verá la acción esperada, ya que no creó ninguna regla que incluya [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products en la configuración de Entrega de páginas.
@@ -440,4 +440,4 @@ Este mensaje aparece cuando agrega la primera acción a una Vista para cada nuev
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Consulte [Uso del Compositor de experiencias visuales para la aplicación de una sola página (SPA VEC) en Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obtener más información.
+Consulte [Uso del Compositor de experiencias visuales para aplicaciones de una sola página (SPA VEC) en Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obtener más información.
