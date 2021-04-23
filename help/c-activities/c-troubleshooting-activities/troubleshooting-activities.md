@@ -1,20 +1,20 @@
 ---
 keywords: solucionar problemas de target;resolución de problemas de target;contenido predeterminado;prueba no activa;actividad no activa;segmentación no funciona;pantallas de experiencias previas;no puedo crear actividades;no se pueden crear actividades;crear actividades;cambió la estructura de la página;se modificó la estructura de la página;mensaje de error;error al eliminar script de perfil;ajax no funciona
-description: Busque sugerencias de solución de problemas en caso de que la actividad de Adobe Target no aparezca en el sitio.
-title: ¿Cómo puedo solucionar problemas de Actividades?
-feature: Activities
+description: Encuentre sugerencias para la solución de problemas en caso de que la actividad de Adobe [!DNL Target] no aparezca en el sitio.
+title: ¿Cómo Puedo Solucionar Problemas De Actividades?
+feature: Actividades
+exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 78%
+source-wordcount: '834'
+ht-degree: 77%
 
 ---
 
-
 # Resolución de problemas de actividades
 
-Si la actividad [!DNL Adobe Target] no aparece en el sitio, estas sugerencias para la solución de problemas le ayudarán a encontrar la solución.
+Si su actividad [!DNL Adobe Target] no aparece en el sitio, estas sugerencias para la solución de problemas le ayudarán a encontrar una solución.
 
 >[!NOTE]
 >
@@ -22,11 +22,11 @@ Si la actividad [!DNL Adobe Target] no aparece en el sitio, estas sugerencias pa
 
 En las siguientes secciones puede encontrar ejemplos de problemas y sus posibles soluciones.
 
-## He creado una actividad con la interfaz de usuario de Destinatario y no puedo actualizarla con la API.
+## He creado una actividad utilizando la interfaz de usuario [!DNL Target] y no puedo actualizarla mediante API.
 
-Las actividades creadas con la interfaz de usuario de Destinatario se deben actualizar mediante la interfaz de usuario de Destinatario. Las actividades creadas mediante API deben actualizarse mediante API. Si originalmente crea una actividad con la API, por ejemplo, pero posteriormente edita la actividad mediante la interfaz de usuario de Destinatario, no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
+Las actividades creadas mediante la interfaz de usuario de Target se deben actualizar mediante la interfaz de usuario de Target. Las actividades creadas mediante API deben actualizarse mediante API. Si, originalmente, crea una actividad utilizando la API, por ejemplo, pero luego edita la actividad a través de la interfaz de usuario de Target, no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
 
-Se recomienda actualizar la actividad con el mismo método (IU o API) que se utilizó para crear la actividad originalmente.
+Como práctica recomendada, intente actualizar la actividad utilizando el mismo método (interfaz de usuario o API) que se utilizó para crear la actividad originalmente.
 
 ## Se muestra el contenido predeterminado.
 
@@ -69,7 +69,7 @@ Asegúrese de que su actividad está completa y se ha activado.
 * Pruebe con un navegador diferente.
 * Utilice el modo privado o incógnito.
 
-## Se agregó recientemente a Target pero no puede crear actividades.
+## Se agregó recientemente a [!DNL Target] pero no puede crear actividades.
 
 **Validar:** haga clic en Crear actividad. Si la opción no está disponible, lo más probable es que no tenga los derechos suficientes para crear una actividad.
 
@@ -78,7 +78,7 @@ Asegúrese de que su actividad está completa y se ha activado.
 Una vez que se lo agrega como usuario en Target, necesita tener la función Aprobador para crear Actividades.
 
 * Solicite al Administrador de la cuenta que lo convierta en Aprobador.
-* Si es el administrador, asígnese la función Aprobador de **[!UICONTROL Administración]** > **[!UICONTROL Usuarios]** en Destinatario.
+* Si es el Administrador, asígnese usted mismo la función Aprobador de **[!UICONTROL Administración]** > **[!UICONTROL Usuarios]** en Target.
 
    Consulte [Asignarse a usted mismo la función de aprobador](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -141,6 +141,6 @@ Realice uno de los siguientes pasos:
 
 **Nota:**[!DNL Target] Varias llamadas de ajax con el mismo nombre de pero parámetros diferentes no funcionarán en la misma página. Solo se realizará la primera llamada.
 
-## Ha activado una actividad mediante la API de Destinatario, pero la actividad muestra un estado de [!UICONTROL Inactivo] en la interfaz de usuario de Destinatario.
+## Ha activado una actividad mediante la API [!DNL Target], pero la actividad muestra un estado [!UICONTROL Inactivo] en la interfaz de usuario [!DNL Target].
 
 Cuando se realizan determinadas acciones (por ejemplo, activar una actividad fuera de la interfaz de usuario empleando la API de Target), los cambios pueden tardar hasta 10 minutos en propagarse a la interfaz.
