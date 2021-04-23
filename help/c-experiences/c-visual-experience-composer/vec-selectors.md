@@ -1,16 +1,16 @@
 ---
 keywords: Segmentación de experiencias;prueba de página de destino
-description: 'Un selector de elementos es una expresión CSS que puede identificar uno o varios elementos. Obtenga información sobre cómo utilizar selectores de elementos en el Compositor de experiencias visuales (VEC) de Adobe Target. '
-title: ¿Puedo utilizar selectores de elementos en el Compositor de experiencias visuales (VEC)?
-feature: Visual Experience Composer (VEC)
+description: 'Un selector de elementos es una expresión CSS que puede identificar uno o más elementos. Aprenda a utilizar selectores de elementos en el Adobe [!DNL Target] Compositor de experiencias visuales (VEC). '
+title: ¿Puedo usar selectores de elementos en el Compositor de experiencias visuales (VEC)?
+feature: 'Compositor de experiencias visuales (VEC). '
+exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 82%
+source-wordcount: '430'
+ht-degree: 80%
 
 ---
-
 
 # Selectores de elementos utilizados en el Compositor de experiencias visuales
 
@@ -18,7 +18,7 @@ Un selector de elementos es una expresión CSS que puede identificar un elemento
 
 Puede encontrar información básica sobre selectores CSS en el documento [Selectores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) en Mozilla Developer Network (MDN).
 
-Puede determinar si desea usar ID de elementos o clases de elementos en las preferencias de la cuenta. Haga clic en **[!UICONTROL Administración > Compositor de experiencias visuales]** y, a continuación, elija los selectores CSS preferidos.
+Puede determinar si desea usar ID de elementos o clases de elementos en las preferencias de la cuenta. Haga clic en **[!UICONTROL Administración > Compositor de experiencias visuales]** y, a continuación, elija los selectores CSS que prefiera.
 
 ![](assets/css_selectors.png)
 
@@ -28,7 +28,7 @@ Puede determinar si desea usar ID de elementos o clases de elementos en las pref
 
 Para obtener información sobre cuándo utilizar selectores CSS y cuándo utilizar Ids. únicos, consulte [Prácticas recomendadas y limitaciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Cómo Adobe Target genera un selector para un elemento {#section_D89D954BCBFB486CA081BE183776A475}
+## Cómo el Adobe [!DNL Target] genera un selector para un elemento {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target usa un algoritmo simple para crear un selector. A continuación, encontrará una breve explicación de la lógica de generación:
 
@@ -100,4 +100,3 @@ En el proceso anterior:
 * Puede usar cualquier selector CSS siempre y cuando identifique de manera unívoca a un elemento en DOM.
 * El enfoque de arriba es el que Target usa. Target no lo obliga a usar este enfoque. Puede agregar cualquier selector siempre que el punto 1 sea verdadero.
 * Puede usar cualquier atributo en el selector. Este documento solo usa el nombre de la clase como ejemplo.
-
