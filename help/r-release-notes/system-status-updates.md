@@ -1,16 +1,16 @@
 ---
 keywords: actualización del sistema;solución de problemas;mantenimiento;estado del sistema;estado de las actualizaciones
-description: Vista el estado actual de Adobe Target para ayudarle a determinar si los problemas que puede encontrar se deben a las actualizaciones del sistema o al mantenimiento de rutina.
-title: ¿Dónde puedo vista el estado del Destinatario y otros productos de Adobe?
-feature: Release Notes
+description: Vea el estado actual de Adobe [!DNL Target] para ayudarle a determinar si los problemas que puede encontrar se deben a actualizaciones del sistema o a mantenimiento de rutina.
+title: ¿Dónde puedo ver el estado de [!DNL Target] y otros productos de Adobe?
+feature: ' Notas de la versión '
+exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
-
 
 # Actualizaciones del estado del sistema y notificaciones dinámicas
 
