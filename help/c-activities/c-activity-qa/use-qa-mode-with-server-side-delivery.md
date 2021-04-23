@@ -1,22 +1,22 @@
 ---
 keywords: control de calidad;lado del servidor;vista previa;vínculos de vista previa
-description: Obtenga información sobre cómo utilizar las URL de control de calidad de Adobe Target con envío de servidor para realizar un control de calidad de la actividad de extremo a extremo sencillo con vínculos de previsualización que nunca cambian, objetivos de audiencia opcionales y sistema de informes de control de calidad que permanece segmentado a partir de datos de actividad activos.
-title: ¿Puedo realizar un control de calidad de la Actividad con el Envío del lado del servidor?
-feature: Activities
+description: Aprenda a utilizar URL de control de calidad de Adobe [!DNL Target] con entrega de servidor para realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa que nunca cambian, segmentación opcional de audiencias e informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
+title: ¿Puedo realizar un control de calidad de la actividad con entrega de servidor?
+feature: Actividades
+exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 70%
 
 ---
 
-
 # Usar el control de calidad de la actividad con entrega de servidor
 
-Use direcciones URL de control de calidad con envío del lado del servidor en [!DNL Adobe Target] para realizar un control de calidad de actividad de extremo a extremo sencillo con vínculos de previsualización que nunca cambian, objetivos de audiencia opcionales y sistemas de informes de control de calidad que permanecen segmentados a partir de datos de actividad activos.
+Use direcciones URL de control de calidad con entrega del lado del servidor en [!DNL Adobe Target] para realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa que nunca cambian, segmentación opcional de audiencias e informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
 
-La implementación estándar del control de calidad de la actividad admite pasar parámetros `qa_mode` mediante parámetros de `pageUrl`. Este método resulta práctico para llamadas [!DNL Target] estándar/ajax. Sin embargo, para las llamadas de servidor a servidor, este no es el mejor enfoque para un caso de SDK móvil cuando `pageUrl` no está disponible.
+La implementación estándar del control de calidad de la actividad admite pasar parámetros `qa_mode` mediante parámetros de `pageUrl`. Este método es conveniente para las llamadas estándar/ajax [!DNL Target] . Sin embargo, para las llamadas de servidor a servidor, este no es el mejor enfoque para un caso de SDK móvil cuando `pageUrl` no está disponible.
 
 El siguiente ejemplo de código muestra el control de calidad de la actividad en una llamada del servidor:
 
@@ -63,6 +63,6 @@ La siguiente tabla explica los detalles de una solicitud del servidor:
 | bypassEntryAudience | Booleano | Falso | Especifica si los objetivos de paso de entrada para actividades de control de calidad deben evaluarse o si deben considerarse como coincidentes. |
 | listedActivitiesOnly | Booleano | Falso | Especifica si las actividades de control de calidad deben ejecutarse de forma aislada o si deben evaluarse como actividades activas para el entorno actual. |
 | evaluateAsTrueAudienceIds | Lista de ID | Lista vacía. | Lista de ID de audiencia que siempre deben evaluarse como verdaderas en el ámbito de la solicitud [!DNL Target]. |
-| evaluateAsFalseAudienceIds | Lista de ID | Lista vacía. | Lista de ID de audiencia que siempre deben evaluarse como false en el ámbito de la solicitud [!DNL Target]. |
+| evaluateAsFalseAudienceIds | Lista de ID | Lista vacía. | Lista de ID de audiencia que siempre deben evaluarse como falsas en el ámbito de la solicitud [!DNL Target]. |
 | activityIndex | Número entero | Nulo.<br>No puede estar vacío. | Índice de actividad en el token cifrado. Si activityIndex está fuera de los límites de la actividad en el token o si es nulo, se ignorará. El índice empieza con 1.<br>Reglas de validación: deben ser al menos un índice de actividad y deben hacer referencia a una actividad especificada en el token. |
 | experienceIndex | Número entero | Nulo. | Cuando se especifica, selecciona una experiencia por índice en la definición de la actividad. Si no se especifica o está fuera de los límites, se recurrirá a la estrategia de selección de experiencia de la actividad. El índice empieza con 1  Reglas de validación: pueden ser nulas o deben hacer referencia a una experiencia en la actividad. |
