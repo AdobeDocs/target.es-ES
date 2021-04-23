@@ -1,30 +1,30 @@
 ---
 keywords: control de calidad;vista previa;bookmarklet;vínculos de vista previa
-description: Aprenda a utilizar el bookmarklet de control de calidad de Adobe Target para forzar a Destinatario a que lo libere del modo de control de calidad.
-title: ¿Cómo se usa el bookmarklet de control de calidad de la Actividad?
-feature: Activities
+description: Aprenda a utilizar el Adobe [!DNL Target] QA bookmarklet to force [!DNL Target] para liberarlo del modo de control de calidad.
+title: ¿Cómo utilizo el bookmarklet de control de calidad de la actividad?
+feature: Actividades
+exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 27%
+source-wordcount: '262'
+ht-degree: 28%
 
 ---
 
-
 # Bookmarklet de control de calidad de la actividad
 
-Información para ayudarle a utilizar el bookmarklet [!DNL Target] QA para obligar a [!DNL Target] a liberarlo del modo de control de calidad.
+Información para ayudarle a utilizar el bookmarklet de control de calidad [!DNL Target] para forzar a [!DNL Target] a liberarlo del modo de control de calidad.
 
 >[!NOTE]
 >
 >El proceso para crear un bookmarklet varía según el tipo y la versión del explorador. Consulte la ayuda del explorador o busque en Internet para obtener instrucciones específicas.
 
-## bookmarklet de control de calidad de actividad para at.js 1.*x* 
+## Bookmarklet de control de calidad de la actividad para at.js 1.*x* 
 
-Como el modo de [control de calidad](/help/c-activities/c-activity-qa/activity-qa.md) es persistente, después de examinar un sitio web en modo de control de calidad, la sesión de debe caducar o tiene que indicar a que lo libere del modo de control de calidad antes de poder ver su sitio como lo vería un visitante. [!DNL Target][!DNL Target] Utilice el bookmarklet QA [!DNL Target] para forzar su salida del modo de control de calidad.
+Como el modo de [control de calidad](/help/c-activities/c-activity-qa/activity-qa.md) es persistente, después de examinar un sitio web en modo de control de calidad, la sesión de debe caducar o tiene que indicar a que lo libere del modo de control de calidad antes de poder ver su sitio como lo vería un visitante. [!DNL Target][!DNL Target] Use el bookmarklet QA [!DNL Target] para forzar su salida del modo de control de calidad.
 
-Para utilizar el bookmarklet [!DNL Target] QA, cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de marcadores del explorador:
+Para utilizar el bookmarklet de control de calidad [!DNL Target], cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de marcadores del explorador:
 
 ```javascript
 javascript:(
@@ -49,11 +49,11 @@ Por ejemplo:
 
 `https://www.mysite.com/?at_preview_token=`
 
-## bookmarklet de control de calidad de actividad para at.js 2.*x* 
+## Bookmarklet de control de calidad de la actividad para at.js 2.*x* 
 
-A diferencia de at.js 1.*x*, at.js 2.** xis no admite cookies de terceros y el modo de control de calidad solo es fijo para el dominio de origen (mediante una cookie de origen configurada por at.js). Por lo tanto, en at.js 2.*x*, la sesión del modo de control de calidad se administra solamente en el lado del cliente y no se envían cookies del modo de control de calidad a Destinatario.
+En contraste con at.js 1.*x*, at.js 2.** xdoes not support third-party cookies, y el modo de control de calidad solo es persistente para el dominio de origen (mediante una cookie de origen configurada por at.js). Por lo tanto, en at.js 2.*x*, la sesión en modo de control de calidad solo se administra en el lado del cliente y no se envían cookies en modo de control de calidad a Target.
 
-Para utilizar el bookmarklet [!DNL Target] QA, cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de marcadores del explorador:
+Para utilizar el bookmarklet de control de calidad [!DNL Target], cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de marcadores del explorador:
 
 ```javascript
 javascript:(
@@ -70,7 +70,6 @@ javascript:(
     })();
 ```
 
-## Uso del bookmarklet de control de calidad de la Actividad
+## Usar el bookmarklet de control de calidad de la actividad
 
 Haga clic en el bookmarklet en la barra de herramientas del explorador.
-
