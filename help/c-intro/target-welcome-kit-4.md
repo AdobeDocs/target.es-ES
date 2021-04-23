@@ -1,62 +1,62 @@
 ---
-keywords: kit de bienvenida;kit de bienvenida de destinatario;introducción;introducción;introducción
-description: Lea sugerencias de nuestro panel de expertos sobre el uso de Adobe Target como parte de sus esfuerzos de pruebas y personalización.
-title: ¿Dónde puedo encontrar consejos y trucos para usar Destinatario?
-feature: Overview
+keywords: kit de bienvenida;kit de bienvenida de target;introducción;introducción;introducción
+description: Lea sugerencias de nuestro panel de expertos sobre el uso de Adobe [!DNL Target] como parte de sus esfuerzos de prueba y personalización.
+title: ¿Dónde puedo encontrar consejos y trucos para usar Target?
+feature: Información general
+exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
 
+# Capítulo 4: Sugerencias para usar Target
 
-# Capítulo 4: Sugerencias para el uso de Destinatario
+Basándonos en nuestro trabajo con muchos usuarios de [!DNL Target], hemos observado maneras de obtener más valor de su solución [!DNL Target]. Hemos resumido estos consejos en las muchas sugerencias que hemos incluido en este capítulo. Aunque puede que no esté listo para usar todas estas ideas de inmediato, manténgase en esta lista. Cuanto más experiencia adquiera con la solución y cuanto más madure su programa, más verá cómo estas sugerencias pueden ayudarle a lograr más con [!DNL Target].
 
-En base a nuestro trabajo con muchos usuarios [!DNL Target], hemos observado maneras de obtener más valor de su solución [!DNL Target]. Hemos resumido estas sugerencias en las muchas sugerencias que hemos incluido en este capítulo. Aunque quizá no estés listo para usar todas estas ideas de inmediato, sigue con esta lista. Cuanta más experiencia tenga con la solución y cuanto más madure su programa, más podrá ver cómo estos consejos le ayudarán a lograr más con [!DNL Target].
+## Sugerencia 1: Una personalización más profunda mediante el aumento del perfil del visitante con datos adicionales.
 
-## Sugerencia 1: Profundizar la personalización aumentando el perfil de visitante con datos adicionales.
+Puede personalizar experiencias con datos [!DNL Target] directamente de serie. Pero personalice más profundamente agregando sus propios datos a la mezcla. Puede aumentar el perfil con datos históricos de [!DNL Adobe Analytics] y datos en tiempo real de [!DNL Adobe Audience Manager]. También puede usar Atributos del cliente, una función del servicio principal Personas de [!DNL Adobe Experience Cloud], para incorporar fácilmente datos CRM, datos de socios de segundo nivel y datos comprados de terceros a [!DNL Target].
 
-Puede personalizar experiencias con [!DNL Target] datos directamente desde el principio. Pero personalice más profundamente agregando sus propios datos a la combinación. Puede aumentar su perfil con datos históricos de [!DNL Adobe Analytics] y datos en tiempo real de [!DNL Adobe Audience Manager]. También puede utilizar Atributos del cliente, una característica del servicio principal Personas de [!DNL Adobe Experience Cloud], para incorporar fácilmente datos de CRM, datos de socios de terceros y datos adquiridos por terceros a [!DNL Target].
-
-Por ejemplo, puede asociar los datos de compra del sistema del punto de venta con un perfil de visitante. Para ello, solo tiene que crear un archivo CSV con hasta 200 variables sin conexión y cargarlo directamente en [!DNL Adobe Experience Cloud] mediante una carga de archivo, o bien utilizar FTP para alojar y programar la actualización del archivo con regularidad. Una vez que los atributos del cliente se encuentren en [!DNL Adobe Experience Cloud], puede asignarlos a [!DNL Experience Cloud] soluciones como [!DNL Adobe Analytics] y [!DNL Target], donde estarán disponibles para análisis, pruebas y personalización.
+Por ejemplo, puede asociar datos de compra de su sistema de puntos de venta con un perfil del visitante. Para ello, simplemente cree un archivo CSV con hasta 200 variables sin conexión y cárguelo directamente en [!DNL Adobe Experience Cloud] a través de una carga de archivo, o utilice FTP para alojar y programar el archivo para que se actualice con regularidad. Una vez que los Atributos del cliente se encuentran en [!DNL Adobe Experience Cloud], puede asignarlos a soluciones de [!DNL Experience Cloud] como [!DNL Adobe Analytics] y [!DNL Target], donde estarán disponibles para análisis, pruebas y personalización.
 
 Consulte [Atributos personalizados](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) para obtener instrucciones paso a paso.
 
-**Es bueno saber**: Dado que  [!DNL Target] es una plataforma abierta y agnóstica que funciona bien con diferentes tecnologías, puede agregar CRM o datos adquiridos de muchas maneras diferentes. Esto significa que puede elegir un método que funcione mejor para su organización.
+**Es bueno saber**: Como  [!DNL Target] es una plataforma abierta y agnóstica que funciona bien con diferentes tecnologías, puede agregar CRM o datos comprados de muchas maneras diferentes. Esto significa que puede elegir un método que funcione mejor para su organización.
 
-Consulte [Métodos para obtener datos en Destinatario](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) para obtener más información.
+Consulte [Métodos para obtener los datos en Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) para obtener más información.
 
-## Sugerencia 2: Personalice más profundamente mezclando audiencias de Destinatario con otras audiencias de Adobe Experience Cloud.
+## Sugerencia 2: Personalice más profundamente mezclando audiencias [!DNL Target] con otras audiencias de Adobe Experience Cloud.
 
-La combinación de audiencias que viven en diferentes soluciones [!DNL Adobe Experience Cloud] puede proporcionarle una comprensión mucho más amplia de sus clientes, así como la capacidad de personalizar más profundamente. Por ejemplo: aunque [!DNL Target] proporciona datos de audiencia en tiempo real, [!DNL Adobe Analytics] proporciona datos de audiencia históricos. La combinación de ambos puede ayudarle a identificar cuándo el comportamiento de un cliente es coherente y cuándo puede haber una oportunidad para actuar en un nuevo comportamiento. Simplemente haga clic en el menú desplegable situado junto a &quot;Todos los Visitantes&quot; al crear una actividad. A continuación, marque las casillas de hasta veinte audiencias, haga clic en &quot;Combinar varias Audiencias&quot; y en &quot;Guardar&quot;.
+La combinación de audiencias que residen en diferentes soluciones [!DNL Adobe Experience Cloud] puede ofrecerle una comprensión mucho más amplia de sus clientes, así como la capacidad de personalizar más profundamente. Por ejemplo, aunque [!DNL Target] proporciona datos de audiencia en tiempo real, [!DNL Adobe Analytics] proporciona datos de audiencia históricos. La combinación de ambos puede ayudarle a identificar cuándo el comportamiento de un cliente es coherente y cuándo puede haber una oportunidad para actuar en un nuevo comportamiento. Simplemente haga clic en el menú desplegable situado junto a &quot;Todos los visitantes&quot; al crear una actividad. A continuación, marque las casillas de hasta veinte audiencias, haga clic en &quot;Combinar varias audiencias&quot; y haga clic en &quot;Guardar&quot;.
 
 Consulte [Combinación de varias audiencias](/help/c-target/combining-multiple-audiences.md) para obtener instrucciones paso a paso.
 
-**Es bueno saber**:  [!DNL Adobe Audience Manager] Las audiencias están disponibles de  [!DNL Target] forma automática. Sin embargo, el uso compartido de la audiencia [!DNL Adobe Analytics] requiere un poco de configuración manual. Simplemente marque la casilla rotulada &quot;Convertir esto en una audiencia Experience Cloud&quot; durante el proceso de creación de audiencias en [!DNL Analytics]. A continuación, en [!DNL Target], haga clic en &quot;Importar audiencias de Experience Cloud&quot;.
+**Es bueno saber**:  [!DNL Adobe Audience Manager] las audiencias están disponibles en  [!DNL Target] automáticamente. Sin embargo, el uso compartido de audiencias [!DNL Adobe Analytics] requiere un poco de configuración manual. Simplemente marque la casilla denominada &quot;Convertir en una audiencia Experience Cloud&quot; durante el proceso de creación de audiencias en [!DNL Analytics]. A continuación, en [!DNL Target], haga clic en &quot;Importar audiencias de Experience Cloud&quot;.
 
-## Sugerencia 3: Exporte datos de Destinatario para utilizarlos con herramientas de terceros.
+## Sugerencia 3: Exporte datos de [!DNL Target] para usarlos con herramientas de terceros.
 
-Con los tokens de respuesta, los administradores pueden obtener datos fácilmente de [!DNL Target] y a herramientas de terceros. Esto puede resultar útil cuando desee agregar los datos a los datos recopilados en una herramienta de encuesta. Por ejemplo, si una encuesta muestra una muestra de una población con una puntuación de &quot;9&quot; en una experiencia y otra con una puntuación de &quot;4&quot; en una experiencia, puede utilizar sus datos para ver quién vio la experiencia A y quién vio la experiencia B. También puede utilizar tokens de respuesta para exportar [!DNL Target] datos al almacén de datos interno. Haga clic en &quot;Administración&quot; y, a continuación, coloque el conmutador junto al testigo de respuesta deseado en la posición ON. A continuación, cree una actividad. Los datos están listos para transferirse al proveedor externo. Puede verificar que [!DNL Target] esté exportando los datos mediante herramientas de depuración.
-
-Consulte [Tokens de respuesta](/help/administrating-target/response-tokens.md) para obtener instrucciones paso a paso.
-
-**Sugerencia** útil: Antes de que un administrador pueda activar un token de respuesta asociado a un tercero, un desarrollador debe establecer una asociación con esa compañía de terceros.
+Con los tokens de respuesta, los administradores pueden obtener datos fácilmente de [!DNL Target] y en herramientas de terceros. Esto puede resultar útil cuando desea agregar los datos a los datos recopilados en una herramienta de encuesta. Por ejemplo, si un estudio muestra una muestra de una población que obtuvo una experiencia como &quot;9&quot; y otro obtuvo una experiencia como &quot;4&quot;, puede utilizar los datos para ver quién vio la experiencia A y quién vio la experiencia B. También puede utilizar tokens de respuesta para exportar datos [!DNL Target] al almacén de datos interno. Simplemente haga clic en &quot;Administración&quot; y luego coloque el conmutador situado junto al token de respuesta deseado en la posición ON. A continuación, cree una actividad . Los datos están listos para transferirse al proveedor de terceros. Puede verificar que [!DNL Target] esté exportando los datos mediante herramientas de depuración.
 
 Consulte [Tokens de respuesta](/help/administrating-target/response-tokens.md) para obtener instrucciones paso a paso.
 
-**Haga esto primero**: Asegúrese de que está utilizando la versión 1.1 o posterior de at.js. Si utiliza una versión anterior, verá los tokens de respuesta, pero at.js no podrá utilizarlos.
+**Sugerencia** útil: Para que un administrador pueda activar un token de respuesta asociado a un tercero, un desarrollador debe configurar una asociación con esa empresa de terceros.
+
+Consulte [Tokens de respuesta](/help/administrating-target/response-tokens.md) para obtener instrucciones paso a paso.
+
+**Haga esto primero**: Asegúrese de que está utilizando la versión 1.1 o posterior de at.js . Si utiliza una versión anterior, verá los tokens de respuesta, pero at.js no podrá utilizarlos.
 
 ## Sugerencia 4: Cree audiencias a partir de estas variables clave para aumentar el valor de la actividad.
 
-Al crear audiencias para objetivos o probar promociones y ofertas, considere primero estas variables:
+Al crear audiencias para segmentar o probar promociones y ofertas, considere primero estas variables:
 
-* Comportamiento. Patrones de visitas al sitio y patrones de compra
-* Referrer. Sitios y campañas de referencia
-* Temporal. Horas del día, días de la semana y factores de temporada
-* Sin conexión. Patrones de visitas y compras en tiendas físicas
-* Entorno. País de origen, sistema operativo, tipo de explorador
+* Comportamiento. Patrones de visita al sitio y patrones de compra
+* Referrer. Sitios de referencia y campañas
+* Temporal. Tiempos del día, días de la semana y factores de temporada
+* Sin conexión. Patrones de visita y compra en tiendas físicas
+* Entorno. País de origen, sistema operativo, tipo de navegador
 
 ## Sugerencia 5: Proporcione a los usuarios el nivel de acceso que necesitan para realizar su trabajo.
 
@@ -64,23 +64,23 @@ Facilite el trabajo con los datos de su organización y mantenerlos seguros. [!D
 
 Consulte [Permisos de usuario de Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) para obtener más información.
 
-**Sugerencia** útil: Al agregar usuarios, si el nombre de un miembro del equipo no se ha agregado previamente a su organización, como puede ser el caso de un empleado de una agencia de terceros, al introducir su dirección de correo electrónico y contraseña se déclencheur una invitación por correo electrónico para unirse al espacio de trabajo de un equipo.
+**Sugerencia** útil: Al agregar usuarios, si el nombre de un miembro del equipo no se ha agregado previamente a su organización (como puede ser el caso de un empleado de una agencia de terceros), al introducir su dirección de correo electrónico y contraseña, se envía una invitación por correo electrónico para unirse al espacio de trabajo de un equipo.
 
-¿Usar Target Standard? Todavía puede [asignar tres niveles de acceso](/help/administrating-target/c-user-management/c-user-management/user-management.md) para sus usuarios con funciones de solo lectura, editor y aprobador.
+¿Usar Target Standard? Aún puede [asignar tres niveles de acceso](/help/administrating-target/c-user-management/c-user-management/user-management.md) a los usuarios con funciones de solo lectura, editor y aprobador.
 
-## Sugerencia 6: Descubra el rendimiento de una oferta en un recorrido de cliente probándolo en todas las páginas del recorrido.
+## Sugerencia 6: Descubra el rendimiento de una oferta en un recorrido de clientes probándolo en todas las páginas del recorrido.
 
-Ver el rendimiento de una oferta, como el envío gratuito, durante un recorrido del cliente que se produce en varias páginas del sitio web.
+Ver el rendimiento de una oferta, como envío gratuito, durante un recorrido con el cliente que se produce en varias páginas del sitio web.
 
-Consulte [actividad de varias páginas](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) para obtener instrucciones paso a paso.
+Consulte [Actividad de varias páginas](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) para obtener instrucciones paso a paso.
 
-**Sugerencia** útil: Si cambia la dirección URL después de especificar un intervalo de páginas, se restablecerá la experiencia. Esto significa que las variaciones especificadas ya no aparecerán. Si necesita cambiar la dirección URL, recuerde redefinir la experiencia.
+**Sugerencia** útil: Si cambia la dirección URL después de especificar un intervalo de páginas, se restablecerá la experiencia. Esto significa que las variaciones que ha especificado ya no aparecerán. Si necesita cambiar la dirección URL, recuerde redefinir la experiencia.
 
-## Sugerencia 7: Pruebe una oferta con diferentes audiencias para descubrir si las audiencias tienen preferencias diferentes.
+## Sugerencia 7: Pruebe una oferta con distintas audiencias para descubrir si las audiencias tienen preferencias diferentes.
 
-Con las versiones de experiencia, puede ejecutar una prueba con variaciones para tantas audiencias como desee. Por ejemplo, puede crear una publicidad tipo titular que ofrezca envío gratuito (con imágenes y variaciones de moneda para los clientes de EE.UU., Reino Unido y EE.UU.) sin tener que ejecutar pruebas para tres audiencias diferentes.
+Con las versiones de experiencia, puede ejecutar una prueba con variaciones para tantas audiencias como desee. Por ejemplo, puede crear una publicidad tipo titular que ofrezca envío gratuito (con imágenes y variaciones de moneda para clientes de EE.UU., Reino Unido y EE.UU.) sin tener que ejecutar pruebas para tres audiencias diferentes.
 
-Consulte las [audiencias de varias experiencias en una prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) y [Versiones de experiencias en Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) para obtener instrucciones paso a paso.
+Consulte para [Varias audiencias de experiencia en una prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) y [Versiones de experiencia en Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) para obtener instrucciones paso a paso.
 
 ## Sugerencia 8: Ahorre tiempo replicando experiencias de actividad en páginas similares.
 
@@ -88,113 +88,113 @@ Cree una variación en una página web, como un nuevo color de botón, y aplíqu
 
 Consulte [Incluir la misma experiencia en páginas similares](/help/c-experiences/c-visual-experience-composer/temtest.md) para obtener instrucciones paso a paso.
 
-## Sugerencia 9: Reduzca el desorden en la biblioteca de Audiencias mediante la creación de audiencias únicas.
+## Sugerencia 9: Reduzca el desorden en la biblioteca de audiencias creando audiencias únicas.
 
-Si está dirigiendo un segmento que sabe que no volverá a tener destinatarios (por ejemplo, los clientes afectados por un evento meteorológico inesperado), la creación de una audiencia de un solo uso puede ayudarle a realizar el trabajo sin agregar más desorden a la biblioteca de Audiencias. Esto facilita la búsqueda de audiencias que se usan una y otra vez.
+Si va a segmentar un segmento que sabe que no se volverá a dirigir (por ejemplo, clientes afectados por un evento meteorológico inesperado), la creación de una audiencia de un solo uso puede ayudarle a realizar el trabajo sin necesidad de agregar desorden a la biblioteca de audiencias. Esto facilita la búsqueda de audiencias que utiliza una y otra vez.
 
-Consulte [Creación de una audiencia de solo actividad](/help/c-target/creating-activity-only-audience.md) para obtener instrucciones paso a paso.
+Consulte [Crear una audiencia solo de actividad](/help/c-target/creating-activity-only-audience.md) para obtener instrucciones paso a paso.
 
-**Capacidad** muy solicitada: Nuestros clientes nos pidieron que pudiéramos evitar que las audiencias de un solo uso se guardaran automáticamente en la Biblioteca de Audiencias. Ahora, ya no tienen que eliminar audiencias manualmente para mantener sus bibliotecas organizadas.
+**Capacidad** muy solicitada: Nuestros clientes nos pidieron que permitiéramos evitar que las audiencias de un solo uso se guardaran automáticamente en la Biblioteca de audiencias. Ahora, ya no tienen que eliminar audiencias manualmente para mantener sus bibliotecas organizadas.
 
-## Sugerencia 10: Ejecute pruebas simples más rápido, ya que no las coloca en el proceso de control de calidad estándar.
+## Sugerencia 10: Ejecute pruebas simples más rápido, ya que no las somete al proceso de control de calidad estándar.
 
-No hay nada peor que tener una actividad lista para ir y luego esperar semanas para que complete el proceso estándar de control de calidad. Puede realizar el control de calidad de la mayoría de las actividades simplemente pasando algunos vínculos de control de calidad a compañeros para probarlos en varios exploradores. Lo más probable es que quiera realizar más pruebas de control de calidad para los esfuerzos que cambian radicalmente la función del sitio, pero en realidad debería tener menos de esas actividades y muchas más de las actividades más básicas. Añadir mejores controles de derechos para que menos personas puedan impulsar las cosas en plena vida también añade límites significativos y le permite lograr lo que necesita sin sacrificar la velocidad y la eficiencia. Otra opción es contar con un recurso de TI designado para supervisar oportunamente el proceso de control de calidad.
+No hay nada peor que tener una actividad lista para ir y luego esperar semanas para que complete el proceso estándar de control de calidad. Puede realizar el control de calidad de la mayoría de las actividades simplemente pasando unos cuantos vínculos de control de calidad a compañeros para probarlos en varios navegadores. Lo más probable es que quiera realizar más pruebas de control de calidad para los esfuerzos que cambian drásticamente la función del sitio, pero en realidad, debería tener menos de esas actividades y muchas más de las más básicas. Añadir mejores controles de derechos para que menos personas puedan impulsar las cosas en su totalidad también añade límites significativos y le permite realizar lo que necesita sin sacrificar la velocidad y la eficiencia. Otra opción es disponer de un recurso de TI designado para supervisar oportunamente el proceso de control de calidad.
 
-Consulte [Control de calidad de la Actividad](/help/c-activities/c-activity-qa/activity-qa.md) para obtener instrucciones paso a paso.
+Consulte [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) para obtener instrucciones paso a paso.
 
-## Sugerencia 11: Ejecute pruebas en páginas de mucho tráfico para que alcancen más rápidamente la relevancia estadística.
+## Sugerencia 11: Ejecute pruebas en páginas de alto tráfico para que alcancen la relevancia estadística más rápidamente.
 
-Muchos especialistas en mercadotecnia inician programas de optimización para segmentación y segmentación de audiencias sin comprobar si los niveles de tráfico y las audiencias representadas proporcionarán resultados significativos dentro del intervalo de tiempo de prueba para sus objetivos de optimización y conversión. Para evitar este error común, responda a estas preguntas con antelación:
+Muchos especialistas en marketing inician programas de optimización para segmentación de audiencia y segmentación sin comprobar si los niveles de tráfico y las audiencias representadas proporcionarán resultados significativos dentro del marco temporal de prueba para sus objetivos de optimización y conversión. Para evitar este error común, responda a estas preguntas con antelación:
 
 * ¿Cuántos visitantes únicos diarios tiene la página?
 * ¿Cuál es la tasa de conversión de la página?
-* ¿Cuánto tiempo espera que tenga que ejecutar la prueba antes de que pueda llamarla completa con confianza?
+* ¿Cuánto tiempo espera que se ejecute la prueba antes de que pueda llamarla completa con seguridad?
 
-**Sugerencia** útil: Utilice el  [calculador de tamaño de ](https://docs.adobe.com/content/target-microsite/testcalculator.html) muestra de Destinatario para determinar el tamaño de la muestra necesario para una prueba correcta.
+**Sugerencia útil**: Utilice el  [calculador de tamaño de la ](https://docs.adobe.com/content/target-microsite/testcalculator.html) muestra de Target para determinar el tamaño de la muestra necesario para una prueba con éxito.
 
 ## Sugerencia 12: Diseñe pruebas más sencillas para asegurarse de que puede crearlas e implementarlas.
 
-Después de considerar todos los aspectos de cómo diseñar una prueba, un plan puede resultar muy complejo. En función de dónde se encuentre su empresa con las pruebas y de la capacidad del grupo para diseñar, codificar, ejecutar y analizar los resultados, determine si la prueba parece demasiado ambiciosa. De ser así, estar preparados para reducir su alcance y complejidad. Es mejor realizar un inicio pequeño que no realizar la prueba en absoluto. No puede proporcionar un alza impactante si nunca inicia la prueba. Es importante equilibrar las aspiraciones del equipo con las realidades de sus recursos y capacidades.
+Después de considerar todos los aspectos de cómo diseñar una prueba, un plan puede ser muy complejo. En función de dónde esté su negocio con las pruebas y de la capacidad de su grupo para diseñar, codificar, ejecutar y analizar los resultados, determine si la prueba parece demasiado ambiciosa. En caso afirmativo, esté preparado para reducir su alcance y complejidad. Es mejor comenzar con un tamaño pequeño que no realizar la prueba en absoluto. No puede proporcionar un alza impactante si nunca inicia la prueba. Es importante equilibrar las aspiraciones del equipo con las realidades de sus recursos y capacidades.
 
-## Sugerencia 13: Desglose pruebas complejas en actividades de prueba más pequeñas para hacerlas alcanzables.
+## Sugerencia 13: Divida pruebas complejas en actividades de prueba más pequeñas para que sean alcanzables.
 
-En lugar de desarrollar una prueba grande con múltiples variables y desarrollo complejo, desarrolle una serie menos compleja de pruebas más pequeñas con variables mínimas. Esto permite una comprensión más profunda del rendimiento de las pruebas en función de variables específicas. También reduce los posibles problemas técnicos derivados del desarrollo de proyectos más grandes.
+En lugar de desarrollar una prueba de gran tamaño con múltiples variables y desarrollo complejo, desarrolle una serie menos compleja de pruebas más pequeñas con variables mínimas. Esto permite una comprensión más profunda del rendimiento de las pruebas en función de variables específicas. También reduce los posibles problemas técnicos que conlleva el desarrollo de proyectos más grandes.
 
 ![Ilustración de pruebas complejas](/help/c-intro/assets/break-complex-tasks.png)
 
-## Sugerencia 14: Maximice el impacto de la prueba probándola más cerca del final del canal de conversión.
+## Sugerencia 14: Maximice el impacto de la prueba realizando pruebas más cerca del final del canal de conversión.
 
-Realizar pruebas tan cerca de la página en la que los visitantes hacen clic en Completar compra, Enviar solicitud o bien completar una conversión tiende a ofrecer los resultados más impactantes. Los visitantes que llegan al final del canal están más cualificados, han invertido más tiempo y están listos para comprar, por lo que probar las perspectivas sobre sus preferencias y acciones puede ayudarle a realizar cambios rentables. Dado que las páginas de la ruta de compra son críticas para las tasas de conversión, las pruebas que se realicen en esas páginas deben socializarse con los principales interesados antes de publicarlas.
+Realizar pruebas tan cerca de la página en la que los visitantes hacen clic en Completar compra, Enviar solicitud o completar de otro modo una conversión tiende a ofrecer los resultados más impactantes. Los visitantes que llegan al final del canal están más cualificados, han invertido más tiempo y están listos para realizar compras, por lo que probar perspectivas sobre sus preferencias y acciones puede ayudarle a realizar cambios rentables. Dado que las páginas en la ruta de compra son críticas para las tasas de conversión, las pruebas que se realicen en esas páginas deben socializarse con las partes interesadas clave antes de implementarlas.
 
 ![Ilustración del canal de conversión](/help/c-intro/assets/conversion-funnel.png)
 
-## Sugerencia 15: Actualice constantemente las pruebas para realizar mejoras repetitivas.
+## Sugerencia 15: Actualice constantemente las pruebas para realizar mejoras iterativas.
 
-Si su hipótesis no demostró ser cierta, piense en maneras de mejorar la prueba. Recuerde que, aunque ninguna de las experiencias probadas funcionara mejor, el experimento no era una pérdida de tiempo. Una prueba exitosa no siempre significa un aumento de ingresos o conversiones. Si la prueba realmente apoyó su hipótesis, entonces usted está en camino a desarrollar una teoría general. Pero incluso cuando tenga un claro resultado ganador, no se detenga ahí. Con demasiada frecuencia, los especialistas en mercadotecnia cometen el error de probar una vez y luego recurrir a esos resultados sin comprender realmente qué llevó al éxito. En cambio, planee repetir esos resultados para averiguar por qué el favorito estaba por delante. Esto le llevará a perspectivas más profundas que puede utilizar en campañas futuras.
+Si la hipótesis no ha demostrado ser verdadera, piense en formas de mejorar la prueba. Recuerde que aunque ninguna de las experiencias probadas funcionara mejor, su experimento no era una pérdida de tiempo. Una prueba con éxito no siempre significa un aumento de ingresos o conversiones. Si la prueba realmente apoyó su hipótesis, entonces usted está en camino a desarrollar una teoría general. Pero incluso cuando tenga un claro resultado ganador, no se detenga allí. Con demasiada frecuencia, los especialistas en marketing cometen el error de probar de una vez y luego confiar en esos resultados sin comprender realmente qué llevó al éxito. En cambio, planee repetir esos resultados para averiguar por qué el favorito estaba por delante. Esto le llevará a perspectivas más profundas que puede usar en campañas futuras.
 
-## Sugerencia 16: Compare pruebas y actividades de personalización para obtener ideas a fin de mejorar la segmentación.
+## Sugerencia 16: Compare pruebas y actividades de personalización para obtener ideas y mejorar la segmentación.
 
-La comparación del rendimiento de conversión de diferentes audiencias dentro de diferentes pruebas en diferentes ubicaciones puede ayudar a enfocar y refinar la estrategia de optimización de una compañía. Utilice las comparaciones de prueba para identificar qué audiencias son más valiosas de probar, qué experiencias deben recibir experiencias objetivo y qué tipos de experiencias tienen más probabilidades de generar una respuesta.
+La comparación del rendimiento de conversión de distintas audiencias dentro de distintas pruebas en diferentes ubicaciones puede ayudar a enfocar y refinar la estrategia de optimización de una empresa. Utilice comparaciones de prueba para identificar qué audiencias son las más valiosas de probar, qué deben recibir experiencias segmentadas y qué tipos de experiencias tienen más probabilidades de generar una respuesta.
 
-Por ejemplo, un cliente de servicios financieros ejecutó una campaña promocional para una tarjeta de crédito que incluía incentivos profesionales de evento deportivo. Mediante pruebas multivariadas factoriales parciales de sus páginas de aterrizaje, el cliente pudo equilibrar de manera óptima los mensajes sobre los beneficios de las tarjetas de crédito con incentivos deportivos para el destinatario de audiencias distintas de su base de clientes. Este enfoque permitió a la compañía aprovechar al máximo la conversión durante una ventana en la que el tiempo depende de un evento deportivo importante.
+Por ejemplo, un cliente de servicios financieros dirigió una campaña promocional para una tarjeta de crédito que incluía incentivos profesionales para eventos deportivos. Mediante pruebas multivariable factoriales parciales de sus páginas de aterrizaje, el cliente pudo equilibrar de forma óptima la mensajería sobre los beneficios de las tarjetas de crédito con incentivos deportivos para dirigirse a distintas audiencias desde su base de clientes. Este método permitió a la empresa aprovechar y maximizar la conversión durante una ventana en la que el evento deportivo principal se encontraba en una situación de tiempo delicado.
 
-## Sugerencia 17: Haga que las pruebas sean útiles solo al iniciarlas si sabe que puede actuar con los datos.
+## Sugerencia 17: Haga que las pruebas sean útiles al iniciarlas únicamente si sabe que puede actuar con los datos.
 
-Una prueba no tiene sentido si no está claro cómo va a actuar con los datos. Esto incluye saber cuál es la métrica de éxito clave, qué debe suceder para impulsar al ganador, cómo seguirá los resultados de la prueba y qué hará con la información de audiencia. Para una prueba rápida y exitosa, es vital que todos los grupos involucrados en la prueba (desarrolladores, creativos, especialistas en pruebas y otros) conozcan su función antes del lanzamiento de la prueba.
+Una prueba no tiene sentido si no está claro cómo va a actuar en los datos. Esto incluye saber cuál es la métrica de éxito clave, qué debe suceder para impulsar a un ganador, cómo seguirá los resultados de las pruebas y qué hará con la información de audiencia. Para una prueba rápida y exitosa, es vital que todos los grupos involucrados en la prueba (desarrolladores, creativos, especialistas en pruebas y otros) conozcan su papel antes del inicio de la prueba.
 
-## Sugerencia 18: Antes de lanzar una prueba, asegúrese de que la empresa admite la promoción del ganador.
+## Sugerencia 18: Antes de iniciar una prueba, asegúrese de que la empresa admita el impulso del ganador.
 
-Las organizaciones de optimización exitosas creen en el concepto de prueba y entienden que sus opiniones profesionales sobre qué experiencia ganará la prueba no siempre resultan verdaderas. Determinan el ganador en base a una sólida base de datos y están ansiosos y dispuestos a impulsar la experiencia ganadora en vivo después de que los resultados estén en curso, incluso aunque no esté en línea con sus expectativas o parezca contrario a la intuición.
+Las organizaciones de optimización exitosas creen en el concepto de las pruebas y entienden que sus opiniones profesionales sobre qué experiencia ganará la prueba no siempre son ciertas. Determinan el ganador en función de una base de datos sólida y están ansiosos y dispuestos a impulsar la experiencia ganadora en vivo después de que los resultados se hayan obtenido, aunque no esté en línea con sus expectativas o parezca contrario a la intuición.
 
-Por ejemplo, un cliente de servicios de salud de Adobe demostró recientemente el valor de las pruebas mostrando cómo un titular héroe que el equipo había considerado que un fragmento de slam tenía un impacto negativo en la conversión. Si su organización aún no ha adoptado completamente las pruebas, es mejor realizar primero pruebas de ámbito más simples y más pequeñas para que los cambios de los resultados de las pruebas se puedan realizar de forma incremental.
+Por ejemplo, un cliente de servicios de atención médica de Adobe demostró recientemente el valor de las pruebas mostrando cómo un banner a pantalla completa que el equipo había considerado un dunk en realidad impactó negativamente en la conversión. Si su organización aún no ha adoptado plenamente las pruebas, es mejor realizar primero pruebas de ámbito más simples y más pequeñas para que los cambios de los resultados de las pruebas se puedan realizar gradualmente.
 
-## Sugerencia 19: Comunique a todos que ha lanzado una prueba para evitar preocuparse cuando el sitio cambie.
+## Sugerencia 19: Comunique a todos que ha iniciado una prueba para evitar preocuparse cuando cambie el sitio.
 
-Una de las ventajas de configurar sus actividades para utilizar parámetros de control de calidad es que puede compartir esos vínculos con todos los integrantes de su equipo. Debe informar a más personas sobre la actividad y asegurarse de que no asumen que el sitio no funciona correctamente cuando se encuentra en una variante de prueba.
+Una de las ventajas de configurar las actividades para que utilicen parámetros de control de calidad es que puede compartir esos vínculos con todos los miembros de su equipo. Considere la actividad y asegúrese de que no supone que el sitio no funciona correctamente cuando visita una variante de prueba.
 
-Una vez finalizadas las pruebas, la comunicación de los inicios de campaña, los resultados de las pruebas y, sobre todo, las lecciones aprendidas, le ayuda a crear conciencia de los resultados de las pruebas y a despertar interés en ellos. Compartir los resultados con todos los miembros de la organización también evita volver a probar una hipótesis, educa a todos sobre lo que funciona y los ayuda a desafiar fundamentalmente sus propias ideas sobre lo que funciona basándose en lo que se ha encontrado. Es aconsejable preparar una plantilla que se utilice cada vez para compartir sus conclusiones y las lecciones clave.
-A continuación, considere la posibilidad de crear un libro que se pueda compartir o un paquete de Microsoft PowerPoint que capture de forma acumulativa estos conocimientos.
+Una vez finalizadas las pruebas, la comunicación de los lanzamientos de las campañas, los resultados de las pruebas y, en especial, las lecciones aprendidas, le ayuda a crear conciencia de los resultados de las pruebas y a interesarse por ellos. Compartir los resultados con todos los miembros de la organización también evita volver a probar una hipótesis, educa a todos sobre lo que funciona y los ayuda a desafiar fundamentalmente sus propias ideas sobre lo que funciona basándose en lo que ha encontrado. Es aconsejable preparar una plantilla que utilice cada vez para compartir sus conclusiones y aprendizajes clave.
+A continuación, considere la posibilidad de crear un libro que se pueda compartir o Microsoft PowerPoint que capture acumulativamente estos conocimientos.
 
 ## Sugerencia 20: Aproveche la funcionalidad móvil para crear actividades móviles más innovadoras.
 
-Las experiencias de los usuarios de tabletas y smartphones deben centrarse en los controles táctiles como la interacción principal del visitante en lugar de los clics del ratón y los controles del teclado. Aproveche los controles de visualización móviles, incluidos el barrido con los dedos, el tacto, el arrastre, la pellizco y el zoom. Utilice botones sencillos y grandes para designar las interacciones y la navegación, como un carro de compras grande o un botón de reproducción de vídeo. Si diseña para la venta al por menor móvil, incorpore una visualización de productos enriquecidos optimizada para el tipo de dispositivo. Siempre busque oportunidades para cambiar el enfoque de la experiencia del usuario a visores incrustados y grandes o zoom y recorrido interactivos a pantalla completa, giro de 360 grados y funcionalidad de vídeo mejorada.
+Las experiencias de los usuarios de tableta y smartphones deben centrarse en los controles táctiles como la interacción principal del visitante en lugar de los clics del ratón y los controles de teclado. Aproveche los controles de visualización móviles, incluidos el desliz, el tacto, el arrastre, el pellizco y el zoom. Utilice botones grandes y simples para designar las interacciones y la navegación, como un carro de compras grande o un botón de reproducción de vídeo. Si diseña para minoristas móviles, incorpore una visualización de producto enriquecida que esté optimizada para el tipo de dispositivo. Siempre busque oportunidades para cambiar el enfoque de la experiencia del usuario a visores integrados, grandes o con zoom y panorámica interactivos de pantalla completa, giros de 360 grados y funciones de vídeo mejoradas.
 
-## Sugerencia 21: Ayude a los visitantes móviles a encontrar lo que desean optimizando la búsqueda móvil.
+## Sugerencia 21: Ayudar a los visitantes móviles a encontrar lo que desean optimizando la búsqueda móvil.
 
-Los usuarios móviles tienen una alta calidad. La mayoría de ellos utiliza la búsqueda antes de hacer cualquier otra cosa en los sitios de comercio electrónico, lo que hace que la optimización de la búsqueda de sitios móviles sea crucial. Para mejorar la optimización del motor de búsqueda (SEO) para dispositivos móviles, utilice indicaciones de navegación explícitas para facilitar la navegación. Además, implemente la sugerencia automática y la corrección automática en los cuadros de entrada de búsqueda para resolver la dificultad de escribir con dispositivos móviles. Proporcione resultados de búsqueda relevantes y convincentes optimizados para el tamaño y la ubicación de la pantalla.
+Los usuarios de móviles tienen una intención alta. La mayoría de ellos utilizan la búsqueda antes de hacer cualquier otra cosa en los sitios de comercio electrónico, lo que hace que la optimización de la búsqueda en sitios móviles sea crucial. Para mejorar la optimización de los motores de búsqueda (SEO) para móviles, utilice indicaciones de navegación explícitas para facilitar la navegación. Además, implemente la sugerencia automática y la corrección automática en los cuadros de entrada de búsqueda para resolver la dificultad de escribir en dispositivos móviles. Proporcionar resultados de búsqueda relevantes y convincentes optimizados para el tamaño y la ubicación de la pantalla.
 
-## Sugerencia 22: Alcance mejor las audiencias móviles mediante la segmentación por hora del día para campañas SEM móviles.
+## Sugerencia 22: Llegue a las audiencias móviles mejor mediante el targeting de hora del día para campañas SEM móviles.
 
-Conozca cómo y cuándo llegar a su audiencia y cómo administrar mejor su gasto diario en publicidad &quot;partiendo el día&quot; de sus campañas móviles en diferentes segmentos a lo largo del día.
+Conozca cómo y cuándo llegar a su audiencia y cómo administrar mejor su gasto en publicidad diaria dividiendo sus campañas móviles en distintos segmentos a lo largo del día.
 
 Muchos especialistas en marketing cometen el error de no asignar suficiente presupuesto para capturar esa parte de voz en las horas en que el uso de dispositivos particulares es más pesado, dejando así muchos ingresos y posibles clientes sobre la mesa.
 
-Por ejemplo, el uso de tabletas suele aumentar en las horas de la noche y muchos usuarios navegan mientras ven la televisión. En cambio, los usuarios de smartphones suelen acceder al contenido sobre la marcha. Los tiempos de conversión pico también varían según la industria, por lo que es importante saber cuándo es más probable que actúen los clientes únicos.
+Por ejemplo, el uso de tabletas suele aumentar en el horario nocturno y muchos usuarios navegan mientras ven la televisión. Por el contrario, los usuarios de smartphones suelen acceder al contenido sobre la marcha. Los tiempos de máxima conversión también varían según el sector, por lo que es importante comprender cuándo es más probable que actúen sus clientes únicos.
 
 ## Recuerde
 
 Considere las siguientes ideas antes de pasar al siguiente capítulo: &quot;Inspiración para pruebas y actividades de personalización&quot;.
 
-### Cuando cree sus pruebas, no decore, sea intencional.
+### Cuando cree las pruebas, no decore, sea intencional.
 
-* Controle el flujo con las rutas oculares intencionales centradas en los puntos de conversión.
-* Asegúrese de que utiliza sus bienes raíces en su beneficio.
-* Aproveche el enfoque de imagen para asegurarse de que las imágenes no están decoradas, pero funcionan bien.
-* Reduzca el desorden, la fricción y el desenfoque con Copia simplificada.
-* Asegúrese de que tiene Llamadas a acción efectivas cuando necesite que el usuario actúe.
-* Añada credibilidad a través de Contenido generado por el usuario siempre que sea posible.
+* Controle el flujo con rutas oculares intencionales centradas en los puntos de conversión.
+* Asegúrese de usar su Inmobiliaria para su ventaja.
+* Aproveche el enfoque de la imagen para asegurarse de que las imágenes no sean decorativas, sino que funcionan para usted.
+* Reduzca el desorden, la fricción y la desenfoque con Copia simplificada.
+* Asegúrese de que tiene Llamadas a acciones efectivas cuando necesite que el usuario tome medidas.
+* Añada credibilidad a través del Contenido generado por el usuario siempre que sea posible.
 
 ### Simplifique el sitio web.
 
-* No &quot;haga&quot; leer a los clientes. No lo harán.
-* Facilite el escaneo.
-* Utilice bloques de texto con viñetas.
+* No &quot;haga&quot; que los clientes lean. No lo harán.
+* Facilitar el escaneo.
+* Utilice bloques de copia con viñetas.
 * Asegúrese de que su copia sigue un proceso de pensamiento claro y secuencial.
 
-### Utilizar llamadas a acción eficaces
+### Utilizar Llamada a acción efectiva
 
 * Pónganse en los zapatos del cliente.
 * Utilice un lenguaje orientado a la acción.
-* Considere la motivación para la conversión.
+* Tenga en cuenta la motivación de la conversión.
 * Abordar el resultado de la conversión.
-* ¡Asegúrate de que se vean los CTA!
+* ¡Asegúrese de que se vean los CTA!
