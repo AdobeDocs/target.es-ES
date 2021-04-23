@@ -1,24 +1,24 @@
 ---
 keywords: datos de entorno;datos de sesión;datos geográficos;datos geográficos;datos del dispositivo;datos móviles;atributos;atributos de perfil
-description: Descubra qué datos recopila y utiliza Adobe Target para crear sus algoritmos de personalización en actividades Automated Personalization (AP) y de Destinatario automático (AT).
-title: ¿Qué datos se recopilan para generar algoritmos de personalización?
-feature: Automated Personalization
+description: Descubra qué Adobe de datos [!DNL Target] recopila y utiliza para crear sus algoritmos de personalización en actividades de Automated Personalization (AP) y Segmentación automática (AT).
+title: ¿Qué datos se recopilan para crear algoritmos de personalización?
+feature: Personalización automatizada
+exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 90%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png)[!DNL Target] Recopilación de datos para los algoritmos de personalización de 
 
-# ![PREMIUM](/help/assets/premium.png) Recopilación de datos para los algoritmos de personalización de Target
-
-[!DNL Adobe Target] recopila y utiliza automáticamente una variedad de datos para crear sus algoritmos de personalización en actividades de  [!UICONTROL Automated Personalization]  (AP) y de Destinatario  automático (AT). Cuando un visitante introduce una actividad AP o AT, se pasa una instantánea de la información a un conjunto de &quot;registros de formación&quot; (los datos de visitante sobre los que aprenderán los algoritmos de personalización).
+[!DNL Adobe Target] recopila y utiliza automáticamente una variedad de datos para crear sus algoritmos de personalización en las actividades de  [!UICONTROL Automated Personalization]  (AP) y  [!UICONTROL Segmentación automática]  (AT). Cuando un visitante introduce una actividad AP o AT, se pasa una instantánea de información a un conjunto de &quot;registros de formación&quot; (los datos de visitantes que aprenderán los algoritmos de personalización).
 
 Para obtener más información sobre los algoritmos de personalización de Target, consulte  [Algoritmo de bosque aleatorio](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-La siguiente tabla muestra los datos recopilados por [!UICONTROL Automated Personalization] y [!UICONTROL Destinatario automático] de manera predeterminada, sin que el especialista en mercadotecnia tenga que hacer nada, así como la convención de nombres utilizada para indicar estos atributos en [Informes de perspectivas de personalización](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Los datos de entrada establecidos se pueden aumentar en cualquier momento. Para obtener más información acerca de cómo cargar datos adicionales, consulte  [Carga de datos para los algoritmos de personalización de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+La tabla siguiente muestra los datos recopilados por [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] de forma predeterminada, sin que el especialista en marketing tenga que hacer nada, así como la convención de nomenclatura utilizada para indicar estos atributos en los [Informes de perspectivas de personalización](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Los datos de entrada establecidos se pueden aumentar en cualquier momento. Para obtener más información acerca de cómo cargar datos adicionales, consulte  [Carga de datos para los algoritmos de personalización de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Tipo de datos | Descripción | Nomenclatura de los tipos de datos | Atributos de ejemplo |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ La siguiente tabla muestra los datos recopilados por [!UICONTROL Automated Perso
 | Segmento de Experience Cloud | Audiencias creadas en Audience Manager o Analytics y compartidas en Experience Cloud | `Custom - Experience Cloud Audience - [Audience Name]` | Datos personalizados |
 | [Datos geográficos](#geo) | Información sobre dónde se encuentra el visitante.<br>Consulte “Datos geográficos” a continuación. | `Geo - [geo attribute]` | Ciudad<br>País<br>Región/Estado<br>Código postal<br>Latitud<br>Longitud<br>Proveedor de servicios de internet u operador de telefonía móvil |
 | Atributos de perfil | Los scripts o atributos de perfil cargados directamente en el perfil de Target a través de la API de actualización | `Custom - Visitor Profile - [attribute name]` | Datos personalizados |
-| Parámetros de URL de referencia | En general, la dirección URL de referencia es la dirección URL que hace referencia a una página concreta que inició la llamada de Destinatario.<br>Tenga en cuenta que esta variable puede verse afectada por la actividad de los usuarios en su sitio, así como por la implementación técnica de este. | `Custom - [Referring URL Parameter] - [Parameter value]` | Datos personalizados |
+| Parámetros de URL de referencia | En general, la dirección URL de referencia es la dirección URL que hace referencia a una página en particular que inició la llamada de Target.<br>Tenga en cuenta que esta variable puede verse afectada por la actividad de los usuarios en su sitio, así como por la implementación técnica de este. | `Custom - [Referring URL Parameter] - [Parameter value]` | Datos personalizados |
 | Segmentos de informes | Cualquier segmento configurado en la configuración de la actividad. | `Reporting Segment -[Segment Name]` | Datos personalizados |
 | [Datos de sesión](#session) | Información sobre el comportamiento del visitante en la sesión al acceder a la actividad. | `Visitor Profile - [Attribute Name]` | Visitor Profile - Start of Most Recent Visit |
 | parámetros de URL. | Target inspecciona la URL para extraer los parámetros de URL. | `Custom - URL Parameter - [URL Parameter]` | Datos personalizados |
@@ -62,7 +62,7 @@ Las secciones siguientes contienen información detallada sobre los distintos ti
 | Browser - Screen Height (px) | Altura de la pantalla del explorador del dispositivo (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
 | Browser - Time of Day | Hora del día del explorador cuando el visitante accedió a la actividad. | 0, 6, 12, 18<br>(0 es la noche, 6 es mañana,<br>12 es mediodía, 18 es tarde) |
 | Browser - Timezone | Zona horaria del visitante al acceder a la actividad. | Pacific Time<br>Eastern Time<br>GMT |
-| Explorador - Tipo | Tipo de explorador que el visitante utilizó al acceder a la actividad. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
+| Browser - Type | Tipo de explorador que el visitante utilizó al acceder a la actividad. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
 | Browser - Weekday/Weekend | Estado de trabajo cuando el visitante accedió a la actividad (fin de semana, jornada laboral o tiempo libre entre semana). | Sábado y domingo es fin de semana<br>De lunes a viernes de 09:00 a 18:00 es jornada laboral<br>De lunes a viernes después de 18:00 hasta 09:00 es tiempo libre entre semana |
 | Browser - Window Height (px) | Altura de la ventana del explorador (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
 | Browser - Window Width (px) | Ancho de ventana del explorador (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
@@ -99,11 +99,11 @@ Las secciones siguientes contienen información detallada sobre los distintos ti
 | Visitor Profile - First Visit | Especifica la hora de la primera visita en la que el usuario interactuó con Target. | Doble, milisegundos |
 | Visitor Profile - Hours since Last Visit | Especifica las horas desde la última visita a esta actividad en particular. | Doble (solo número positivo entero) 1, 2, 3, etc. |
 | Visitor Profile - Impressions of Location/Content | Especifica el número de impresiones de una combinación de contenido/ubicación en particular en una actividad concreta. | Doble (solo número positivo entero) 1, 2, 3, etc. |
-| Visitor Profile - Last Target Interaction | Especifica la hora de la última interacción con Target. La interacción se produce en cada solicitud [!DNL Target] porque la implementación actual de [!DNL Target] actualiza el perfil en cada solicitud. | Doble, milisegundos |
+| Visitor Profile - Last Target Interaction | Especifica la hora de la última interacción con Target. La interacción ocurre en cada solicitud [!DNL Target] porque la implementación actual de [!DNL Target] actualiza el perfil en cada solicitud. | Doble, milisegundos |
 | Visitor Profile - Pages Seen Before Activity | Especifica el número total de vistas de página (impresiones), incluida la visita o sesión actual hasta que el visitante entra en la actividad. | Doble (solo número positivo entero) 1, 2, 3, etc. |
 | Visitor Profile - Page Views in Current Visit | Especifica el número de vistas de página en la visita o sesión actual hasta que el visitante entra en la actividad. En concreto, el número de impresiones. Estas impresiones no son vistas reales de la página, sino el número de veces que la solicitud llegó a Target. Target no puede distinguir entre tiempos de espera u otros motivos por los que el usuario no recibió o visualizó el contenido. | Doble (solo número positivo entero) |
 | Visitor Profile - Start of Current Visit | Especifica la hora en la que se inició la visita o sesión actual de Target. La visita con Target se puede iniciar sin entrar en una actividad. Todo lo que se necesita es una llamada a cualquier solicitud [!DNL Target]. Un visitante podría tardar un poco hasta entrar en la actividad y registrar el acceso. | Doble, milisegundos |
-| Perfil de visitante: Inicio de la visita más reciente | Especifica la hora en la que se inició la última visita o sesión de Target. Este atributo se actualiza cuando caduca la sesión.<br>Si esta es la primera sesión del visitante, resultará en `LAST_SESSION_START = 0.` | Doble, milisegundos |
+| Perfil del visitante: inicio de la visita más reciente | Especifica la hora en la que se inició la última visita o sesión de Target. Este atributo se actualiza cuando caduca la sesión.<br>Si esta es la primera sesión del visitante, resultará en `LAST_SESSION_START = 0.` | Doble, milisegundos |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | Especifica la duración entre la sesión anterior y la hora en la que el usuario entra en la actividad y se registra el acceso. | Doble, milisegundos |
 | Visitor Profile - Time in Visit Before Enter Activity | Especifica la diferencia entre la última interacción con Target y la fecha en la que comenzó la visita actual. Este atributo puede considerarse una duración de visita/sesión hasta que el usuario entre en la actividad y se registre el acceso.<br>[!DNL Target]Los valores negativos se producen cuando la sesión empieza, y la última hora de actualización se activa mediante la misma llamada de Los valores negativos deben considerarse como 0 (cero). | Doble, milisegundos |
 | Perfil del visitante - Visitas totales | Especifica el número total de visitas/sesiones. No incluye la visita o sesión actual. | Doble (solo número positivo entero) 1, 2, 3, etc. |
