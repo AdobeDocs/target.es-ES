@@ -1,21 +1,21 @@
 ---
 keywords: diagrama del sistema;parpadeo;at.js;implementación;biblioteca javascript;js;atjs
-description: Descubra cómo funciona la biblioteca JavaScript de Destinatario at.js, incluidos los diagramas del sistema para ayudarle a comprender el flujo de trabajo a medida que se cargan las páginas.
-title: ¿Cómo funciona la biblioteca de at.js Javascript?
-feature: at.js
+description: 'Descubra cómo funciona la biblioteca JavaScript de at.js, incluidos los diagramas del sistema, para ayudarle a comprender el flujo de trabajo a medida que se cargan las páginas. [!DNL Target] '
+title: ¿Cómo funciona la biblioteca Javascript de at.js?
+feature: 'at.js '
 role: Developer
+exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 85%
 
 ---
 
-
 # Cómo funciona at.js
 
-Para implementar [!DNL Adobe Target] en el lado del cliente, debe utilizar la biblioteca JavaScript de at.js.
+Para implementar [!DNL Adobe Target] del lado del cliente, debe utilizar la biblioteca JavaScript at.js.
 
 En una implementación del lado del cliente de [!DNL Adobe Target], [!DNL Target] envía las experiencias asociadas a una actividad directamente al explorador del cliente. El explorador decide qué experiencia mostrar y lo hace. Con una implementación del lado del cliente, puede utilizar un editor WYSIWYG, el [Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) o una interfaz no visual, el [Compositor de experiencias basadas en formularios](/help/c-experiences/form-experience-composer.md), para crear experiencias de prueba y personalización.
 
@@ -25,16 +25,16 @@ La [biblioteca at.js](/help/c-implementing-target/c-implementing-target-for-clie
 
 Para obtener más información, consulte [Bibliotecas de JavaScript de Target](/help/c-intro/how-target-works.md#libraries).
 
-En la implementación [!DNL Target] que se ilustra a continuación, se implementan las siguientes [!DNL Adobe Experience Cloud] soluciones: Analytics, Destinatario y Audience Manager. Además, se han implementado los siguientes servicios principales de Experience Cloud: Adobe Launch, Audiencias y el servicio de ID de visitante
+En la implementación [!DNL Target] que se muestra a continuación, se implementan las siguientes [!DNL Adobe Experience Cloud] soluciones: Analytics, Target y Audience Manager. Además, se han implementado los siguientes servicios principales de Experience Cloud: Adobe Launch, Audiencias y el servicio de ID de visitante
 
-## Cuál es la diferencia entre at.js 1.¿Diagramas de flujo de trabajo de *x* y at.js 2.x?
+## ¿Cuál es la diferencia entre at.js 1?¿Diagramas de flujo de trabajo de *x* y at.js 2.x?
 
 Para obtener más información sobre las diferencias introducidas en 2.O de 1, consulte [Actualización de at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md).*x*.
 
 En términos generales, existen un par de diferencias entre las dos versiones:
 
 * at.js 2 no tiene un concepto de solicitud de mbox global sino una solicitud de carga de página. La solicitud de carga de página se puede ver como una solicitud para recuperar contenido que debería aplicarse en la carga inicial de página del sitio web.
-* at.js 2.x administra conceptos llamados Vistas, que se utilizan en aplicaciones de una sola página (SPA). at.js 1.*x* no tiene en cuenta este concepto.
+* at.js 2.x administra conceptos llamados Vistas, que se utilizan para aplicaciones de una sola página (SPA). at.js 1.*x* no tiene en cuenta este concepto.
 
 ## Diagramas de at.js 2.x
 
@@ -49,7 +49,7 @@ Los siguientes diagramas le ayudan a comprender el flujo de trabajo de at.js 2.x
 | 3 | Se solicita una carga de página que incluye todos los parámetros configurados (MCID, SDID y el ID del cliente). |
 | 4 | Se ejecutan los scripts de perfiles y se incluyen en el Almacenamiento de perfiles. El Almacenamiento solicita audiencias de la Biblioteca de audiencias que cumplan los requisitos (por ejemplo, audiencias compartidas de Adobe Analytics, Gestión de público, etc.).<br>Se envían los atributos del cliente al Almacenamiento de perfiles en un procesamiento de lotes. |
 | 5 | Según los parámetros de la solicitud de la URL y los datos de perfil, [!DNL Target] decide qué actividades y experiencias vuelven al visitante para la página actual y las vistas futuras. |
-| 6 | El contenido dirigido se devuelve a la página, incluyendo, de manera opcional, los valores de perfil para una personalización adicional.<br>El contenido dirigido se muestra en la página actual lo más rápido posible y sin parpadeo del contenido predeterminado.<br>El contenido de destino para vistas que se muestran como resultado de acciones del usuario en un SPA se almacena en caché en el navegador, de modo que se puede aplicar instantáneamente sin necesidad de realizar una llamada al servidor adicional cuando se activan las vistas a través de  `triggerView()`. |
+| 6 | El contenido dirigido se devuelve a la página, incluyendo, de manera opcional, los valores de perfil para una personalización adicional.<br>El contenido dirigido se muestra en la página actual lo más rápido posible y sin parpadeo del contenido predeterminado.<br>El contenido dirigido para vistas que se muestran como resultado de acciones del usuario en una SPA se almacena en caché en el explorador para que se pueda aplicar instantáneamente sin una llamada al servidor adicional cuando se activan las vistas  `triggerView()`. |
 | 7 | Se envían los datos de Analytics a los servidores de recopilación de datos. |
 | 8 | Se comparan los datos de Target con los datos de Analytics mediante el SDID y se procesan en el almacén de informes de Analytics.<br>Por lo tanto, los datos de Analytics se pueden visualizar tanto en Analytics como en Target mediante los informes de Analytics for Target (A4T). |
 
@@ -61,18 +61,18 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 | --- | --- |
 | 1 | En la SPA, se llama a `triggerView()` para procesar la vista y aplicar acciones para modificar los elementos visuales. |
 | 2 | El contenido dirigido para la vista se lee desde la caché. |
-| 3 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
+| 1 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
 | 4 | La solicitud de notificación se envía al Almacenamiento de perfiles de [!DNL Target] para contar al visitante en la actividad e incrementar las métricas. |
 | 5 | Los datos de Analytics se envían a los servidores de recopilación de datos. |
 | 6 | Se comparan los datos de Target con los datos de Analytics mediante el SDID y se procesan en el almacén de informes de Analytics. Por lo tanto, los datos de Analytics se pueden visualizar tanto en Analytics como en Target mediante los informes de A4T. |
 
-### Vídeo: Diagrama de la arquitectura de at.js 2.x
+### Vídeo: Diagrama de arquitectura de at.js 2.x
 
 at.js 2.x mejora la compatibilidad de Adobe Target con las SPA e integra otras soluciones de Experience Cloud. Este vídeo explica cómo se vincula todo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Consulte [Explicación del funcionamiento de at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obtener más información.
+Consulte [Descripción del funcionamiento de at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obtener más información.
 
 ## Diagrama de at.js 1.x
 
@@ -85,7 +85,7 @@ Consulte [Explicación del funcionamiento de at.js 2.x](https://helpx.adobe.com/
 | 5 | Según la URL, los parámetros de mbox y los datos de perfil, [!DNL Target] decide qué actividades y experiencias vuelven al visitante. | 6 | Se devuelve el contenido dirigido a la página, incluyendo de manera opcional los valores de perfil para una personalización adicional.<br>Se muestra la experiencia lo más rápido posible sin parpadeos del contenido predeterminado. |
 | 7 | Se envían los datos de [!DNL Analytics] a los servidores de recopilación de datos. | 8 | Se comparan los datos de [!DNL Target] con los datos de [!DNL Analytics] mediante el SDID y se procesan en el almacén de informes de [!DNL Analytics].<br>[!DNL Analytics]Por lo tanto, los datos de  se pueden visualizar tanto en [!DNL Analytics] como en [!DNL Target] mediante los informes de [!DNL Analytics for Target] (A4T). |
 
-### Vídeo - Horario de trabajo: Sugerencias y descripción general de at.js (26 de junio de 2019)
+### Vídeo: Horario de oficina: Sugerencias y descripción general de at.js (26 de junio de 2019)
 
 Este vídeo es una grabación de “Horario de oficina”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
