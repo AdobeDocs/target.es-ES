@@ -1,18 +1,18 @@
 ---
 keywords: Información general y referencia
-description: Obtenga más información sobre los perfiles de visitante que contienen información sobre cómo utilizan sus visitantes las páginas y otras ubicaciones de contenido optimizado.
-title: ¿Qué son los Perfiles de Visitante?
-feature: Audiences
+description: Obtenga más información sobre los perfiles de los visitantes que contienen información sobre cómo los visitantes utilizan las páginas y otras ubicaciones de contenido optimizado.
+title: ¿Qué son los perfiles del visitante?
+feature: Audiencias
+exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 78%
 
 ---
 
-
-# Perfiles de los visitantes{#visitor-profiles}
+# Perfiles de los visitantes
 
 Los perfiles de los visitantes contienen información sobre el modo en que los visitantes usan las páginas de su sitio y otras ubicaciones de contenido optimizado.
 
