@@ -1,27 +1,27 @@
 ---
 keywords: Administración;función de aprobador;aprobador
-description: Realice las primeras tareas que los administradores de Adobe Target deben tomar después de recibir la invitación por correo electrónico al Adobe Experience Cloud.
-title: ¿Dónde puedo empezar a administrar Destinatarios?
-feature: Administration & Configuration
+description: Realice las primeras tareas que los administradores del Adobe [!DNL Target] deben realizar después de recibir la invitación por correo electrónico a Adobe Experience Cloud.
+title: ¿Dónde Se Comienza A Administrar Target?
+feature: Administración y configuración
 role: Administrator
+exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
-
 # Primeros pasos del administrador
 
-Este artículo contiene los primeros pasos que deben realizar los administradores [!DNL Adobe Target] después de recibir la invitación por correo electrónico a [!DNL Adobe Experience Cloud].
+Este artículo contiene los primeros pasos que deben realizar los administradores [!DNL Adobe Target] después de recibir por correo electrónico la invitación a [!DNL Adobe Experience Cloud].
 
-## Obtenga una invitación para usar Target{#task_3E0817630774431983FAA3D2CB2E75BD}
+## Obtenga una invitación para [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 Un administrador del sistema de la [!DNL Adobe Admin Console] debe agregarle como usuario de [!DNL Target] para enviarle una invitación. A continuación, el administrador de sistemas debe agregarle a uno o varios grupos específicos de funciones. Ambas tareas se realizan en [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) en la *ayuda de Experience Cloud y servicios principales*.
+Para obtener más información, consulte [Administrar usuarios y productos del Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) en la *Ayuda del Experience Cloud y los servicios principales*.
 
 Recibirá un correo electrónico de invitación después de que el administrador del sistema haya realizado estos pasos.
 
