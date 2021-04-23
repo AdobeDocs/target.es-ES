@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;activar vista;at.js;funciones;función;viewName;viewname;ver nombre
-description: Utilice la función adobe.destinatario.activateView() para la biblioteca JavaScript de Adobe Target at.js para utilizarla en aplicaciones de una sola página (SPA). (at.js 2.x)
-title: ¿Cómo se usa la función adobe.destinatario.desencadenesvista()?
-feature: at.js
+description: Utilice la función adobe.target.triggerView() para la biblioteca JavaScript Adobe [!DNL Target] at.js para utilizarla en Aplicaciones de una sola página (SPA). (at.js 2.x)
+title: ¿Cómo utilizo la función adobe.target.triggerView() ?
+feature: 'at.js '
 role: Developer
+exl-id: 619d5166-d1d9-49a6-9807-338544782e66
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 84%
 
 ---
-
 
 # adobe.target.triggerView (viewName, options): at.js 2.x
 
@@ -25,7 +25,7 @@ Se puede llamar a esta función cada vez que se carga una página nueva o cuando
 | --- | --- | --- | --- |
 | Nombre de vista | Cadena | Sí | Pase cualquier nombre como tipo de cadena que desee que represente la vista. Este nombre de vista aparece en el panel [!UICONTROL Modificaciones] del VEC para que los especialistas en marketing creen acciones y ejecuten sus actividades A/B y XT. |
 | opciones | Objeto | No |  |
-| opciones > página | Booleano | No | **VERDADERO:** el valor predeterminado de la página es verdadero. Cuando la página es “page=true”, las notificaciones se envían al back-end [!DNL Target] para incrementar el recuento de impresiones.<br>Siempre se envía una notificación de forma predeterminada cuando  `triggerView` se llama a un usuario, excepto cuando las opciones > página están configuradas en false.<br>**FALSO:** Cuando la página es “page=false”, las notificaciones no se envían para incrementar el recuento de impresiones. Debe utilizarse cuando desee volver a procesar un componente en una página con una oferta. |
+| opciones > página | Booleano | No | **VERDADERO:** el valor predeterminado de la página es verdadero. Cuando la página es “page=true”, las notificaciones se envían al back-end [!DNL Target] para incrementar el recuento de impresiones.<br>Siempre se envía una notificación de forma predeterminada cuando  `triggerView` se llama a , excepto cuando options > page está establecido en false.<br>**FALSO:** Cuando la página es “page=false”, las notificaciones no se envían para incrementar el recuento de impresiones. Debe utilizarse cuando desee volver a procesar un componente en una página con una oferta. |
 
 ## Ejemplo: True
 
