@@ -1,18 +1,18 @@
 ---
 keywords: document.write;target;implementar;implementar target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;sdk web
-description: Implemente Adobe Target haciendo referencia a las bibliotecas de Target (at.js o mbox.js) en sus páginas web.
-title: Comprender las bibliotecas JavaScript de Target
-feature: Implementation
+description: Implemente bibliotecas de Adobe [!DNL Target] by referencing the [!DNL Target] (at.js o mbox.js) en sus páginas web.
+title: Comprender las  [!DNL Target] bibliotecas JavaScript
+feature: Implementación
 translation-type: tm+mt
-source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '476'
 ht-degree: 23%
 
 ---
 
 
-# Comprender las bibliotecas JavaScript de Target
+# Comprender las [!DNL Target]bibliotecas JavaScript
 
 Implemente [!DNL Adobe Target] haciendo referencia a las [!DNL Adobe Target] bibliotecas (Adobe Experience Platform Web SDK o at.js) en sus páginas web.
 
@@ -20,7 +20,7 @@ Implemente [!DNL Adobe Target] haciendo referencia a las [!DNL Adobe Target] bib
 >
 >La biblioteca mbox.js ya no está en desarrollo. Todos los clientes deben migrar de mbox.js a at.js o al [!UICONTROL SDK web de Adobe Experience Platform] antes del 31 de marzo de 2021. Para obtener más información, consulte [Migrar a at.js desde mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) o [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
-## Diferencias entre las bibliotecas JavaScript de Target {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Diferencias entre las [!DNL Target] bibliotecas JavaScript {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
 La siguiente tabla explica las diferencias entre las bibliotecas JavaScript [!DNL Target]:
 
