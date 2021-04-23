@@ -1,48 +1,48 @@
 ---
-keywords: Segmentación;compositor de experiencias visuales;lista blanca;lista de permitidos;lista de permitidos;compositor de experiencias visuales mejorado;vec;resolución de problemas del compositor de experiencias visuales;resolución de problemas;eec;compositor de experiencias mejorado;tls;tls 1.2
-description: Descubra cómo solucionar problemas que a veces se producen en el Compositor de experiencias visuales (VEC) de Adobe Target y en el Compositor de experiencias mejorado (EEC) en determinadas condiciones.
+keywords: Segmentación;compositor de experiencias visuales;lista de direcciones permitidas;lista de direcciones permitidas;lista de permitidos;lista de permitidos;compositor de experiencias visuales mejorado;vec;resolución de problemas del compositor de experiencias visuales;solución de problemas;eec;compositor de experiencias mejorado;tls;tls 1.2
+description: Obtenga información sobre cómo solucionar problemas que a veces ocurren en el Adobe [!DNL Target] Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC) en ciertas condiciones.
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado?
-feature: Visual Experience Composer (VEC)
+feature: 'Compositor de experiencias visuales (VEC). '
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 65%
+source-wordcount: '1404'
+ht-degree: 64%
 
 ---
-
 
 # Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado
 
 Los problemas de visualización y otros problemas a veces ocurren en el [!DNL Adobe Target] Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC) bajo ciertas condiciones.
 
-## ¿Cómo afectan las políticas de aplicación de cookies Google Chrome SameSite al VEC y EEC? {#samesite}
+## ¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite recientemente anunciadas al VEC y EEC? {#samesite}
 
 Con los cambios más recientes (agosto de 2020), todos los usuarios con versiones de navegador Chrome 80+:
 
-* *no* podrá utilizar el VEC (con o sin la extensión del asistente de VEC instalada y habilitada) en páginas de sus sitios protegidas por contraseña. Esto se debe a que las cookies de inicio de sesión del sitio se considerarán cookies de terceros y no se enviarán con la solicitud de inicio de sesión. La única excepción es cuando la cookie de inicio de sesión del sitio del cliente ya tiene el parámetro SameSite establecido en &quot;none&quot;.
-* *no* podrá descargar [!DNL Target] bibliotecas mientras edita una actividad (cuando no se encuentren ya en el sitio). Esto se debe a que la llamada de descarga se realiza desde el dominio del cliente hacia un dominio de Adobe seguro y se rechaza como no autenticada.
-* El EEC *no* funcionará para todos los usuarios porque no puede establecer el atributo SameSite para las cookies en `adobemc.com domain`. Sin este atributo, el explorador rechazará estas cookies, lo que ocasionará que el EEC falle.
+* *no* podrá utilizar el VEC (con o sin la extensión VEC Helper instalada y habilitada) en páginas de sus sitios protegidas con contraseña. Esto se debe a que las cookies de inicio de sesión del sitio se considerarán una cookie de terceros y no se enviarán con la solicitud de inicio de sesión. La única excepción es cuando la cookie de inicio de sesión del sitio del cliente ya tiene el parámetro SameSite establecido en &quot;ninguno&quot;.
+* *no* podrá descargar [!DNL Target] bibliotecas mientras edite una actividad (cuando no estén en el sitio). Esto se debe a que la llamada de descarga se realiza desde el dominio del cliente hacia un dominio de Adobe seguro y se rechaza como no autenticada.
+* El EEC *no* funcionará para todos los usuarios porque no es capaz de establecer el atributo SameSite para las cookies en `adobemc.com domain`. Sin este atributo, el explorador rechazará estas cookies, lo que provoca que el EEC falle.
 
-Adobe ha enviado una extensión del asistente VEC actualizada a la tienda Google Chrome. Esta extensión sobrescribe los atributos de cookie para establecer el atributo `SameSite="none"` cuando sea necesario. La extensión [actualizada se puede encontrar aquí](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obtener más información sobre la instalación y el uso de la extensión del asistente de VEC, consulte [Extensión del asistente del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+Adobe ha enviado una extensión VEC Helper actualizada a Google Chrome Store. Esta extensión sobrescribe los atributos de cookies para establecer el atributo `SameSite="none"` cuando sea necesario. La extensión [actualizada se puede encontrar aquí](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obtener más información sobre la instalación y el uso de la extensión VEC Helper, consulte [Extensión del Helper del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Para las cookies de su propio sitio, debe especificar las cookies por nombre. Cambie el control deslizante [!UICONTROL Cookie] a la posición on y, a continuación, especifique la cookie por nombre y el dominio de la cookie. El nombre de la cookie es &quot;mbox&quot; y el dominio de la cookie es el segundo nivel y el nivel superior de los dominios desde los que se proporciona el mbox. Dado que se proporciona desde el dominio de la compañía, se trata de una cookie de origen. Ejemplo: `mycompany.com`. Para obtener más información, consulte [Cookies de Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) en la *Guía del usuario de la interfaz de Experience Cloud*.
+Para sus propias cookies de sitio, debe especificar las cookies por su nombre. Cambie el control deslizante [!UICONTROL Cookie] a la posición on y, a continuación, especifique la cookie por su nombre y el dominio de la cookie. El nombre de la cookie es &quot;mbox&quot; y el dominio de la cookie es el segundo nivel y el nivel superior de los dominios desde los que se proporciona el mbox. Dado que se proporciona desde el dominio de la compañía, se trata de una cookie de origen. Ejemplo: `mycompany.com`. Para obtener más información, consulte [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) en la *Guía del usuario de la interfaz del Experience Cloud*.
 
-![Alternar las cookies en la extensión del asistente de VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+![Alternar cookies en la extensión del asistente de VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
 ### Alternativas y soluciones alternativas
 
-Utilice una de las siguientes opciones para asegurarse de que el VEC y EEC siguen funcionando según lo esperado:
+Utilice una de las siguientes opciones para asegurarse de que el VEC y el EEC sigan funcionando según lo esperado:
 
-* Descargue y utilice la [extensión auxiliar de VEC](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en) actualizada.
+* Descargue y use la [extensión VEC Helper actualizada](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * Utilice el navegador Mozilla Firefox. Firefox aún no está aplicando esta directiva.
-* Continúe utilizando Chrome, pero establezca el indicador `chrome://flags/#same-site-by-default-cookies` en &quot;Deshabilitado&quot;.
+* Siga utilizando Chrome, pero establezca el indicador `chrome://flags/#same-site-by-default-cookies` en &quot;Deshabilitado&quot;.
 
    >[!NOTE]
    >
-   >Esto *no será suficiente si las cookies ya tienen el atributo SameSite establecido en &quot;Lax&quot; o &quot;Strict&quot; desde el servidor.*
+   >Esto *no* será suficiente si las cookies ya tienen el atributo SameSite establecido en &quot;Lax&quot; o &quot;Strict&quot; desde el servidor.
 
-## ¿Admite Target los iframes de varios niveles?
+## ¿[!DNL Target] admite iframes de varios niveles?
 
 Target no admite iframes de varios niveles. Si el sitio web carga un iframe que tiene un iframe secundario, las bibliotecas de Target (at.js y mbox.js) interactúan únicamente con el iframe principal. Las bibliotecas de Target no interactúan con el iframe secundario.
 
@@ -52,7 +52,7 @@ Como solución alternativa, puede agregar una página en la experiencia con la U
 
 Esto puede ocurrir si la dirección URL contiene un carácter #. Para corregir el problema, cambie en modo Examinar en el Compositor de experiencias visuales y después vuelva a cambiar al modo Componer. El control de número debería desaparecer y la página debería cargarse.
 
-## Los encabezados Content Security Policy (CSP) bloquean las bibliotecas de Target en mi sitio web. (VEC y EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## Los encabezados de Políticas de seguridad de contenido (CSP) bloquean las bibliotecas [!DNL Target] de mi sitio web. (VEC y EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 Si los encabezados CSP de su sitio web bloquean las bibliotecas de Target y luego el sitio web se carga pero no es posible editar, asegúrese de que las bibliotecas de Target no estén bloqueadas.
 
