@@ -1,16 +1,16 @@
 ---
 keywords: a4t;A4T;Analytics como fuente de informes para Target
-description: Aprenda a crear actividades de asignación automática y segmentación automática en Adobe Target que empleen Analytics como fuente de informes (A4T).
+description: Aprenda a crear actividades de asignación automática y segmentación automática en Adobe [!DNL Target] que use Analytics como fuente de informes (A4T).
 title: ¿Admite A4T las actividades de asignación automática y segmentación automática?
 feature: Analytics for Target (A4T)
+exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
 translation-type: tm+mt
-source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '963'
 ht-degree: 2%
 
 ---
-
 
 # Compatibilidad de A4T con actividades de asignación automática y segmentación automática
 
