@@ -1,19 +1,19 @@
 ---
 keywords: at.js;2.0;1.x;cookies
-description: Detalles sobre la administración de cookies de Adobe Target at.js 2.x y at.js 1.x
+description: Detalles sobre la administración de cookies por Adobe [!DNL Target] at.js 2.x y at.js 1.x
 title: Cookies de at.js
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 97%
 
 ---
 
-
-# Cookies de at.js {#at-js-cookies}
+# Cookies de at.js
 
 Información sobre at.js 2.x y at.js 1.Comportamiento de la cookie de *x*
 
@@ -119,16 +119,16 @@ La cookie conserva una serie de valores para administrar la forma en que los vis
 
 | Valor | Definición |
 |--- |--- |
-| session ID | Identificador exclusivo de una sesión de usuario. De manera predeterminada, tiene una duración de 30 minutos. |
+| session ID | ID único para una sesión de usuario. De manera predeterminada, tiene una duración de 30 minutos. |
 | pc ID | Identificador semipermanente del navegador de un visitante. Dura 14 días. |
 | check | Sencillo valor de prueba que sirve para averiguar si un visitante admite cookies. Se establece cada vez que un visitante solicita una página. |
 | disable | Se establece si el tiempo de carga de un visitante supera el tiempo de espera fijado en el archivo mbox.js. De manera predeterminada, tiene una duración de 1 hora. |
 
-## Impacto en Target de los cambios que Apple ha introducido en el seguimiento de WebKit para visitantes con Safari
+## Impacto en [!DNL Target] para visitantes de Safari debido a cambios en el seguimiento de Apple WebKit
 
 Tenga en cuenta lo siguiente:
 
-### ¿Cómo funciona el seguimiento de Adobe Target?
+### ¿Cómo funciona el seguimiento de Adobe [!DNL Target]?
 
 | Cookies | Detalles |
 |--- |--- |
