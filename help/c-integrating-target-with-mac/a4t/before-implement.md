@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations
-description: Conozca los requisitos de implementación para Analytics for Target (A4T) y qué debe tener en cuenta antes de implementar esta integración.
+description: Conozca los requisitos de implementación de Analytics para [!DNL Target] (A4T) y qué debe tener en cuenta antes de implementar esta integración.
 title: ¿Qué Debo Saber Antes De Implementar A4T?
 feature: Analytics for Target (A4T)
+exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '883'
 ht-degree: 33%
 
 ---
 
-
-# Antes de la implementación{#before-you-implement}
+# Antes de la implementación 
 
 Se producen varios cambios en el proceso de recopilación de datos al habilitar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
@@ -84,7 +84,7 @@ Hay casos en los que es posible que desee tener más control sobre cuándo y có
 
 ## Audiencias compartidas
 
-Al rellenar el [Formulario de aprovisionamiento de integraciones de Marketing Cloud](https://www.adobe.com/go/audiences), tenga en cuenta la siguiente información importante sobre la opción [!UICONTROL Audiencias compartidas] que aparece en &quot;[!UICONTROL ¿Para qué capacidades solicita aprovisionamiento]?&quot;
+Al rellenar el [Formulario de aprovisionamiento de integraciones de Marketing Cloud](https://www.adobe.com/go/audiences), tenga en cuenta la siguiente información importante sobre la opción [!UICONTROL Audiencias compartidas] que aparece en &quot;[!UICONTROL ¿Para qué funcionalidades solicita el aprovisionamiento]?&quot;
 
 ![Formulario de solicitud](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
@@ -92,4 +92,4 @@ Cuando solicita [!UICONTROL Audiencias compartidas], habilita [!UICONTROL Target
 
 >[!IMPORTANT]
 >
->Esta integración entre [!UICONTROL Target] y AAM conlleva costes adicionales. Se le facturan cada llamada de [!UICONTROL Target] en AAM.
+>Esta integración entre [!UICONTROL Target] y AAM incluye costes adicionales. Se le facturan todas las llamadas de [!UICONTROL Target] en AAM.
