@@ -1,18 +1,18 @@
 ---
-keywords: Pruebas multivariable;URL de actividad
-description: Obtenga información sobre cómo especificar la dirección URL de Actividad que determina la página que se utiliza en la prueba y que se abre cuando la actividad de prueba multivariada está diseñada con Adobe Target.
-title: ¿Cuál es la URL de Actividad en una Actividad multivariada (MVT)?
-feature: Multivariate Tests
+keywords: Pruebas multivariable;dirección url de la actividad
+description: Aprenda a especificar la dirección URL de actividad que determina la página que se usa en la prueba y que se abre cuando la actividad de prueba multivariable se diseña con Adobe Target.
+title: ¿Qué es la URL de actividad en una actividad multivariada (MVT)?
+feature: Pruebas multivariable
+exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '305'
 ht-degree: 79%
 
 ---
 
-
-# URL de actividad{#activity-url}
+# Dirección URL de actividad
 
 La dirección URL de actividad determina la página que se usa en la [!UICONTROL Prueba multivariada] (MVT) y que se abre cuando se diseña la prueba en [!DNL Adobe Target].
 
@@ -22,7 +22,7 @@ Cuando se le pida durante la [creación de la actividad](/help/c-activities/c-mu
 >
 >[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Esto quiere decir que tanto [!DNL `https://www.adobe.com`] como [!DNL `http://www.adobe.com`] coinciden.
 
-De forma predeterminada, el [!UICONTROL Compositor de experiencias visuales] (VEC) abre la página especificada en la configuración del [Compositor de experiencias visuales](/help/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
+De forma predeterminada, el [!UICONTROL Compositor de experiencias visuales] (VEC) abre la página que se especifica en la configuración del [Compositor de experiencias visuales](/help/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
 
 Para mostrar una página diferente después de que se abra el VEC, haga clic en el icono **[!UICONTROL Configurar]**, luego seleccione **[!UICONTROL Entrega de página]** y, a continuación, especifique la dirección URL.
 
