@@ -1,14 +1,14 @@
 ---
 keywords: implementar;implementación;configuración;configuración;atributos de perfil de secuencia
-description: Obtenga datos en Target mediante atributos de perfil de secuencia de comandos.
-title: ¿Cómo puedo obtener datos en Target mediante el uso de atributos de perfil de secuencia de comandos?
-feature: Implementation
+description: Obtenga datos en [!DNL Target] mediante atributos de perfil de secuencia de comandos.
+title: ¿Cómo puedo obtener datos en  [!DNL Target] mediante atributos de perfil de secuencia de comandos?
+feature: Implementación
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 83%
 
 ---
