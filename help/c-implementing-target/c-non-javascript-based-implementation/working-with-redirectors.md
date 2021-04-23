@@ -1,19 +1,19 @@
 ---
 keywords: Implementación;mbox.js sin javascript;redirector;costes por clic;ingresos por clic
-description: Aprenda a usar redirectores en implementaciones de correo electrónico, de forma similar a como utiliza un mbox en sus actividades de Adobe Target.
+description: Aprenda a utilizar redirectores en implementaciones de correo electrónico, de forma similar a como se usa un mbox en las actividades de Adobe [!DNL Target] .
 title: ¿Cómo trabajo con los redirectores?
-feature: Implement Email
+feature: Implementación del correo electrónico
 role: Developer
+exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '681'
 ht-degree: 66%
 
 ---
 
-
-# Trabajar con redirectores{#work-with-redirectors}
+# Trabajar con redirectores
 
 Use un redirector de forma similar a como se usa un mbox en las pruebas.
 
@@ -46,7 +46,7 @@ Antes de poder usar un redirector, debe crearlo.
 
    * Donde `yourclientcode` es el código de cliente de la empresa. El código de cliente de su compañía está por completo en minúscula y carece de caracteres especiales.
 
-      El código de cliente está disponible en la parte superior de la página [!UICONTROL Administración > Implementación] de la interfaz [!DNL Target].
+      El código de cliente se encuentra disponible en la parte superior de la página [!UICONTROL Administration > Implementation] de la interfaz [!DNL Target].
 
    * `redirectorlink_456` es el nombre del mbox de redirector que aparecerá en la cuenta para usarlo en campañas y pruebas.
 
@@ -54,14 +54,14 @@ Antes de poder usar un redirector, debe crearlo.
 
    * Donde `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` es el destino predeterminado.
 
-      Debe tener codificación de dirección URL y ser una referencia absoluta. Puede utilizar la [Referencia de codificación de URL HTML](https://www.w3schools.com/tags/ref_urlencode.asp) para codificar rápidamente las direcciones URL.
+      Debe tener codificación de dirección URL y ser una referencia absoluta. Puede utilizar la [Referencia de codificación de la URL HTML](https://www.w3schools.com/tags/ref_urlencode.asp) para codificar rápidamente sus URL.
 
       >[!IMPORTANT]
       >
-      >Tenga en cuenta que con Redirector puede estar expuesto al riesgo de una vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector por parte de terceros, le recomendamos que utilice &quot;hosts autorizados&quot; para la lista de permitidos de los dominios de URL de redireccionamiento predeterminados. Destinatario utiliza los hosts en dominios de lista de permitidos a los que desea permitir las redirecciones. Para obtener más información, consulte [Creación de Listas de permitidos que especifican hosts autorizados para enviar llamadas de mbox a Destinatario](/help/administrating-target/hosts.md#allowlist) en *Hosts*.
+      >Tenga en cuenta que con Redirector puede estar expuesto al riesgo de una vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector por terceros, recomendamos utilizar &quot;hosts autorizados&quot; para la lista de permitidos de los dominios de URL de redireccionamiento predeterminados. Target usa hosts para la lista de permitidos de dominios a los que desea permitir redirecciones. Para obtener más información, consulte [Crear Listas de permitidos que especifiquen hosts con autorización para enviar llamadas de mbox a Target](/help/administrating-target/hosts.md#allowlist) en *Hosts*.
 
 1. Valide el redirector.
-   1. *Práctica* recomendada de seguridad: Asegúrese de que el dominio utilizado en el redirector esté incluido en la lista de permitidos, como se indicó anteriormente. Si utiliza un dominio que no está incluido en la lista de permitidos, Adobe bloqueará todas las llamadas a dicho dominio para evitar que los actores malintencionados utilicen el redirector para redireccionar a dominios potencialmente malintencionados.
+   1. *Práctica* recomendada de seguridad: Asegúrese de que el dominio utilizado en el redirector esté incluido en la lista de permitidos, tal como se ha indicado anteriormente. Si utiliza un dominio que no está incluido en la lista de permitidos, el Adobe bloqueará cualquier llamada a ese dominio para evitar que los actores maliciosos utilicen el redirector para redireccionar a dominios potencialmente maliciosos.
    1. Inserte la dirección URL del redirector en un navegador y actualícelo.
    1. Inicie sesión en la cuenta, actualice la lista de mboxes y confirme que el nuevo redirector aparece enumerado en la cuenta.
 1. Si va a comprobar diferentes destinos para un anuncio, cree [Ofertas de redireccionamiento](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) para cada versión.
@@ -88,7 +88,7 @@ Antes de poder usar un redirector, debe crearlo.
 
 1. Envíe la dirección URL completa del redirector a la red de anuncios en pantalla como destino de la publicidad.
 
-## Use un redirector para pasar Costos por clic e Ingresos por clic {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Use un redirector para pasar los costes por clic y los ingresos por clic {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Información acerca de cómo utilizar un redirector para pasar los costes por clic y los ingresos por clic.
 
@@ -98,7 +98,7 @@ Use un redirector para pasar los costes por clic.
 
 >[!NOTE]
 >
->Lo mejor es determinar el valor del costo mediante la métrica de compromiso **Puntuación por visita**.
+>Una práctica recomendada es determinar el valor de coste mediante la métrica de participación **Puntuación por visita** .
 
 Añada `&mboxPageValue=-value` a la dirección URL. Observe el valor negativo.
 
@@ -115,7 +115,7 @@ Use un redirector para pasar los ingresos por clic.
 
 >[!NOTE]
 >
->Lo mejor es determinar el valor de los ingresos mediante la métrica de compromiso **Puntuación por visita**.
+>Una práctica recomendada es determinar el valor de los ingresos mediante la métrica de participación **Puntuación por visita**.
 
 Añada `&mboxPageValue=value` a la dirección URL.
 
