@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;aplicar oferta;at.js;funciones;función
-description: Utilice la función adobe.destinatario.applyOffers() de la biblioteca JavaScript de Adobe Target at.js para aplicar varias ofertas en la respuesta. (at.js 2.x)
-title: ¿Cómo se usa la función adobe.destinatario.applyOffers()?
-feature: at.js
+description: Utilice la función adobe.target.applyOffers() para la biblioteca JavaScript Adobe [!DNL Target] at.js para aplicar varias ofertas en la respuesta. (at.js 2.x)
+title: ¿Cómo utilizo la función adobe.target.applyOffers() ?
+feature: 'at.js '
 role: Developer
+exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 92%
 
 ---
-
 
 # adobe.target.applyOffers(options) - at.js 2.x
 
@@ -30,7 +30,7 @@ Esta función permite aplicar más de una oferta recuperada por `adobe.target.ge
 
 >[!NOTE]
 >
->Consulte la [documentación de API de Envío](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obtener información sobre los tipos aceptables para todos los campos que se enumeran a continuación.
+>Consulte la [documentación de la API de envío](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obtener información sobre los tipos aceptables para todos los campos enumerados a continuación.
 
 | Nombre del campo | Descripción |
 | --- | --- |
