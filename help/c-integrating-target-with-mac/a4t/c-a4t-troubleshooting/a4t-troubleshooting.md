@@ -1,18 +1,18 @@
 ---
 keywords: servidor de seguimiento de analytics;A4T;segmentos de analytics;grupos de informes;datos incorrectos;huérfanos;sdid;VisitorAPI.js;mboxMCSDID;fantasma;sin especificar
-description: Explore los problemas comunes que los clientes han encontrado al usar Analytics for Target (A4T).
-title: ¿Cómo puedo solucionar problemas de integración de Analytics y Target (A4T)?
+description: Explore los problemas comunes que los clientes han encontrado al usar Analytics for [!DNL Target] (A4T).
+title: '¿Cómo puedo solucionar los problemas de integración (A4T) y de Analytics? [!DNL Target] '
 feature: Analytics for Target (A4T)
+exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 translation-type: tm+mt
-source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1000'
 ht-degree: 42%
 
 ---
 
-
-# Resolución de problemas de integración de Analytics y Target (A4T)
+# Resolución de problemas de integración de Analytics y [!DNL Target] (A4T)
 
 Este tema cubre algunos problemas comunes que se han encontrado al usar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
@@ -70,8 +70,8 @@ Las actividades de A4T requieren que se especifique un servidor de seguimiento. 
 
 Asegúrese de tener los permisos adecuados antes de empezar a crear actividades de A4T:
 
-* Pertenecer al grupo de acceso a servicios web de Adobe Analytics para poder usar Analytics como fuente de informes para Target
-* Sea miembro de uno o varios grupos de Experience Cloud que tengan acceso a Analytics y Target.
+* Pertenecer al grupo de acceso a servicios web en Adobe Analytics para poder usar Analytics como fuente de informes para Target
+* Ser miembro de uno o más grupos de Experience Cloud que tienen acceso a Analytics y Target.
 * Compruebe que Analytics y Target están presentes en la sección Aplicaciones de marketing del menú de navegación izquierdo.
 
 ## Las métricas de tasas de salto, saltos y salidas aparecen como positivos en los informes.    {#section_B5C3D56EF0344407AE67ABEB93037F5A}
