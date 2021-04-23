@@ -1,22 +1,22 @@
 ---
 keywords: configuración;prioridad
-description: Descubra cómo Adobe Target determina qué actividad (o actividades) entregar a una página de forma diferente en función de la interfaz de Destinatario y de la función de creación de actividades que esté utilizando.
-title: ¿Cómo asigna Destinatario prioridad a diferentes Actividades?
-feature: Activities
+description: Descubra cómo utiliza la interfaz de Adobe [!DNL Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] y qué función de creación de actividades está utilizando.
+title: ¿Cómo asigna prioridad  [!DNL Target] a diferentes actividades?
+feature: Actividades
+exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 88%
+source-wordcount: '1149'
+ht-degree: 89%
 
 ---
-
 
 # Prioridad
 
 Target determina qué actividad (o actividades) ofrece en una página de forma diferente en función de qué interfaz de Target y de qué función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) esté usando.
 
-## Solo el Compositor de experiencias visuales de Target Standard/Premium o el Compositor basado en formularios que utiliza solo la solicitud de Destinatario global {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Solo compositor de experiencias visuales de Target Standard/Premium o solo compositor basado en formularios utilizando [!DNL Target] Solicitud global {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor de experiencias visuales, se puede devolver el contenido de varias actividades para la misma llamada. Las actividades se ofrecen según el siguiente flujo de decisiones:
 
@@ -40,7 +40,7 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
    * Si solo una actividad tiene segmentación de la audiencia, se muestra esa actividad.
    * Si todas o ninguna tienen segmentación, se muestra la actividad que se aprobó en primer lugar.
 
-## Compositor basado en formularios de Target Standard/Premium y Compositor de experiencias visuales de Target Standard/Premium.   {#section_4620253E1CE942DD830724C7822B175F}
+## Compositor basado en formularios de Target Standard/Premium y [!DNL Target] Compositor de experiencias visuales Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -48,8 +48,8 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
 
 Si en su empresa se utiliza el compositor basado en formularios en Target Standard/Premium y el Compositor de experiencias visuales en Target Standard/Premium, se puede ofrecer el contenido de varias actividades del Compositor de experiencias visuales, pero solo una actividad del flujo de trabajo basado en formularios. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
-1. La llamada al servidor de destinatario llega al Destinatario con información sobre la solicitud [!DNL Target] y la dirección URL.
-1. Destinatario Classic y Standard obtienen todas las actividades que se ejecutan en esa solicitud [!DNL Target].
+1. La llamada del servidor de Target llega a Target con información sobre la solicitud [!DNL Target] y la dirección URL.
+1. Target Classic y Standard extraen todas las actividades que se ejecutan en esa solicitud [!DNL Target].
 1. Target intenta relacionar al visitante con actividades.
 
    Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
@@ -65,13 +65,13 @@ Si tiene dos actividades, una que segmenta por la palabra clave de búsqueda por
 
 Si ambas actividades segmentadas tienen la misma prioridad, se muestra la última actividad que se vio. Si el visitante es nuevo en la página, se muestra la última actividad que se activó.
 
-## Compositor basado en formularios de Target Standard/Premium con solicitudes de Destinatario no globales {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositor basado en formularios de Target Standard/Premium con solicitudes [!DNL Target] no globales {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Esta información también se aplica a cualquier campaña en ejecución creada en Target Classic.
 
-Si su compañía utiliza [!DNL Target] solicitudes distintas de la solicitud [!DNL Target] global en el compositor basado en formularios, sólo se puede devolver el contenido de una actividad por llamada. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
+Si su empresa utiliza [!DNL Target] solicitudes que no sean la [!DNL Target] global en el compositor basado en formularios, solo se puede devolver contenido de una actividad por llamada. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
 1. La llamada al servidor [!DNL Target] llega a [!DNL Target] con información sobre la solicitud [!DNL Target] y la dirección URL.
 1. [!DNL Target] extrae todas las actividades que se ejecutan en esa  [!DNL Target] solicitud.
@@ -90,7 +90,7 @@ Si su compañía utiliza [!DNL Target] solicitudes distintas de la solicitud [!D
 >
 >Los valores de prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. Para obtener más información, consulte  [Configuración de actividades](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Dos campañas de Destinatario Classic utilizan solicitudes de Destinatario no globales**
+**Dos campañas de Target Classic usan solicitudes de Target que no son globales**
 
 * Campaña 1: homePageHero, offer1, prioridad alta
 * Campaña 2: homePageHero, offer2, prioridad baja
