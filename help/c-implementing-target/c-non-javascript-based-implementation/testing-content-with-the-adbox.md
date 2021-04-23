@@ -1,21 +1,21 @@
 ---
 keywords: Implementación;mbox.js sin javascript;mbox;AdBox
-description: Use un adbox para enviar imágenes en una implementación fuera del sitio mediante Adobe Target. Un adbox es como un mbox, pero está controlado por una dirección URL en lugar de por JavaScript.
-title: ¿Cómo se crea un adbox para una imagen?
-feature: Implement Email
+description: Utilice un AdBox para ofrecer imágenes en una implementación externa mediante Adobe Target. Un AdBox es como un mbox, pero se controla mediante una dirección URL en lugar de JavaScript.
+title: ¿Cómo se crea un AdBox para una imagen?
+feature: Implementación del correo electrónico
 role: Developer
+exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 74%
+source-wordcount: '330'
+ht-degree: 73%
 
 ---
 
+# Creación de un AdBox para una imagen
 
-# Creación de un AdBox para una imagen{#create-an-adbox-for-an-image}
-
-Use un adbox para enviar imágenes en una implementación fuera del sitio mediante Adobe Target.
+Utilice un AdBox para ofrecer imágenes en una implementación externa mediante Adobe Target.
 
 Un AdBox es lo mismo que un mbox, con la diferencia de que se controla mediante una dirección URL en lugar de con JavaScript. Los AdBoxes se crean con una dirección URL de AdBox especial que carga un mbox de “publicidad” (o AdBox) en su cuenta de Adobe. Use este AdBox en lugar del mbox en las actividades. Use la URL de AdBox en vez de una referencia de imagen directa para correo electrónico y otras implementaciones no basadas en JavaScript.
 
@@ -31,7 +31,7 @@ Si desea obtener ayuda para decidir la configuración adecuada, consulte   [Impl
 
    * Donde `myClientCode` es el código de cliente de la empresa. El código de cliente de su compañía está por completo en minúscula y carece de caracteres especiales.
 
-      El código de cliente está disponible en la parte superior de la página [!UICONTROL Administración > Implementación] de la interfaz [!DNL Target].
+      El código de cliente se encuentra disponible en la parte superior de la página [!UICONTROL Administration > Implementation] de la interfaz [!DNL Target].
 
    * Donde `image` es el tipo de llamada. En este caso, se trata de una imagen.
 
@@ -39,7 +39,7 @@ Si desea obtener ayuda para decidir la configuración adecuada, consulte   [Impl
 
    * Donde `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` es el contenido predeterminado del mbox. Debe ser una imagen.
 
-      Debe tener codificación de dirección URL y ser una referencia absoluta. Puede utilizar la [Referencia de codificación de URL HTML](https://www.w3schools.com/tags/ref_urlencode.asp) para codificar rápidamente las direcciones URL.
+      Debe tener codificación de dirección URL y ser una referencia absoluta. Puede utilizar la [Referencia de codificación de la URL HTML](https://www.w3schools.com/tags/ref_urlencode.asp) para codificar rápidamente sus URL.
 
 1. Cree [Ofertas de redireccionamiento](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) para cada imagen alternativa.
 
