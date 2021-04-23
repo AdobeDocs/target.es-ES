@@ -1,18 +1,18 @@
 ---
 keywords: A4T;Analytics;Analytics para Target;fuente de informes de Analytics;Adobe Analytics;fuente de informes para Target
-description: Utilice Analytics para Target (A4T) para crear actividades basadas en métricas de conversión y segmentos de audiencia de Analytics y utilice los informes de Analytics para examinar los resultados.
-title: ¿Qué es Analytics for Target (A4T)?
+description: Utilice Analytics for [!DNL Target]  (A4T) para crear actividades basadas en métricas de conversión y segmentos de audiencia de Analytics y utilice los informes de Analytics para examinar los resultados.
+title: ¿Qué es Analytics para [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
+exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 42%
+source-wordcount: '1268'
+ht-degree: 41%
 
 ---
 
-
-# Adobe Analytics como fuente de informes para Adobe Target (A4T)
+# Adobe Analytics como fuente de informes para el Adobe [!DNL Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) es una integración entre soluciones que le permite crear actividades basadas en métricas de  [!DNL Analytics] conversión y segmentos de audiencia. La integración de A4T permite utilizar informes [!DNL Analytics] para examinar los resultados. Si utiliza [!DNL Analytics] como fuente de informes para una actividad, todos los informes y la segmentación de dicha actividad se basarán en la [!DNL Analytics] recopilación de datos.
 
@@ -24,13 +24,13 @@ Los tres beneficios principales de utilizar [!DNL Analytics] datos en [!DNL Targ
 
 * Los especialistas en marketing pueden aplicar de forma dinámica [!DNL Analytics] métricas de éxito o segmentos de informes a [!DNL Target] informes de actividad en cualquier momento. No es necesario especificarlo todo antes de ejecutar la actividad.
 * Disponer de una única fuente de datos elimina la variación derivada de la recopilación de datos de dos sistemas distintos.
-* La implementación existente [!DNL Analytics] recopila todos los datos necesarios. No es necesario implementar mboxes en páginas con el único objetivo de recopilar datos para informes. Adobe recomienda implementar un mbox de confirmación de pedido para las actividades de [Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
+* La implementación existente [!DNL Analytics] recopila todos los datos necesarios. No es necesario implementar mboxes en páginas con el único objetivo de recopilar datos para informes. Adobe recomienda implementar un mbox de confirmación de pedido para las actividades [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 
 >[!IMPORTANT]
 >
 >Antes de empezar a usar A4T, debe solicitar el aprovisionamiento de integración para su cuenta. Rellene [este formulario](https://www.adobe.com/go/audiences) para solicitar el aprovisionamiento.
 >
->La integración que habilita [!DNL Analytics] como fuente de datos para [!DNL Target] (A4T) representa la siguiente generación del complemento de Test&amp;Target para SiteCatalyst. Este complemento se considera obsoleto, pero aún se ofrece asistencia técnica para aquellos clientes que todavía lo usan.
+>La integración que habilita [!DNL Analytics] como fuente de datos para [!DNL Target] (A4T) representa la siguiente generación del complemento de SiteCatalyst de Test&amp;Target. Este complemento se considera obsoleto, pero aún se ofrece asistencia técnica para aquellos clientes que todavía lo usan.
 
 Si utiliza [!DNL Analytics] como fuente de informes para una actividad, todos los informes y la segmentación de dicha actividad se basarán en [!DNL Analytics].
 
@@ -71,10 +71,10 @@ La siguiente tabla muestra qué tipos de actividades admiten [!DNL Analytics] co
 | API de envío del lado del servidor | Sí | Para obtener más información, consulte [Lado de servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | SDK de NodeJS | Sí | Para obtener más información, consulte [Lado de servidor: implementación de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | Integración de servicios en la nube AEM 6.1 (o anterior) | No |  |
-| Integración de servicios en la nube AEM 6.2 (o posterior) | Sí | Para obtener más información, consulte [Integración con Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) en la documentación de [!DNL Adobe Experience Manager] 6.2 . |
+| Integración de servicios en la nube AEM 6.2 (o posterior) | Sí | Para obtener más información, consulte [Integración con Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) en la documentación de [!DNL Adobe Experience Manager] 6.2. |
 | Cualquier actividad que utilice una oferta de redireccionamiento | Sí | Existen requisitos mínimos más estrictos para utilizar ofertas de redireccionamiento con A4T. Para obtener más información, consulte las [preguntas más frecuentes de A4T sobre las ofertas de redireccionamiento](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
-| Node.JS | Sí | Para obtener más información, consulte [Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk) en la guía *Adobe Target SDKs*. |
-| SDK de Java | Sí | Para obtener más información, consulte [Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk) en la guía SDK de *Adobe Target*. |
+| Node.JS | Sí | Para obtener más información, consulte [Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk) en la guía *Adobe Target SDK*. |
+| SDK de Java | Sí | Para obtener más información, consulte [Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk) en la guía *Adobe Target* SDK. |
 
 Como todos los tipos de actividades aún no admiten A4T, se recomienda mantener o implementar mboxes de conversión importantes, como el mbox `orderConfirmPage`.
 
@@ -110,7 +110,7 @@ Abra [Analytics &amp; Target: Tutorial Prácticas recomendadas para el análisis
 
 Los siguientes vídeos contienen más información sobre los conceptos abordados en este tema.
 
-### Analytics for Target (A4T) (4:32) ![Distintivo de información general](/help/assets/overview.png)
+### Analytics for Adobe Target (A4T) (4:32) ![Distintivo de información general](/help/assets/overview.png)
 
 En este vídeo se explica cómo utilizar [!DNL Analytics] como fuente de informes en [!DNL Target] para dirigir el análisis del programa de optimización.
 
@@ -120,7 +120,7 @@ En este vídeo se explica cómo utilizar [!DNL Analytics] como fuente de informe
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Integración de Analytics y Target (A4T) (40:33) ![Distintivo de tutorial](/help/assets/tutorial.png)
+### Integración de Analytics/Adobe Target (A4T) (40:33) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 Este vídeo es una grabación de “[Horario de oficina](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
