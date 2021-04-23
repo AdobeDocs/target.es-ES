@@ -1,18 +1,18 @@
 ---
 keywords: diseño personalizado;personalizar diseño;velocity;decimal;coma
-description: Conozca cómo utilizar el lenguaje de diseño Velocity de código abierto para personalizar diseños de recomendaciones en Adobe Target Recommendations.
-title: ¿Cómo personalizo un diseño con Velocity?
+description: Aprenda a utilizar el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendaciones en Adobe [!DNL Target] Recommendations.
+title: ¿Cómo Personalizar un diseño mediante Velocity?
 feature: Recommendations
+exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Personalización de un diseño mediante Velocity{#customize-a-design-using-velocity}
+# ![PREMIUM](/help/assets/premium.png) Personalización de un diseño mediante Velocity
 
 Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación en [!DNL Adobe Target Recommendations].
 
@@ -119,18 +119,18 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Si desea agregar texto después del valor de una variable antes de que una etiqueta indique que el nombre de la variable ha finalizado, puede hacerlo utilizando una notación formal para incluir el nombre de la variable. Por ejemplo: `${entity1.thumbnailUrl}.gif`.
+>Si desea agregar texto después del valor de una variable antes de una etiqueta que indique que el nombre de la variable ha finalizado, puede hacerlo usando una anotación formal para incluir el nombre de la variable. Por ejemplo: `${entity1.thumbnailUrl}.gif`.
 
 También puede usar `algorithm.name` y `algorithm.dayCount` como variables en los diseños, de modo que se pueda utilizar un diseño para probar varios criterios y el nombre del criterio se pueda visualizar de forma dinámica en el diseño. Esto indica al visitante que está viendo productos de mayor venta o productos que otras personas han comprado en combinación con otros productos. Incluso puede utilizar dichas variables para visualizar el valor de `dayCount` (número de días de datos utilizados en el criterio), como por ejemplo, “productos más vendidos en los últimos 2 días”, etc.
 
-## Trabajo con números en plantillas Velocity
+## Trabajo con números en plantillas de Velocity
 
-De forma predeterminada, las plantillas Velocity tratan todos los atributos de entidad como valores de cadena. Es posible que desee tratar un atributo de entidad como un valor numérico para realizar una operación matemática o compararlo con otro valor numérico. Para tratar un atributo de entidad como un valor numérico, siga estos pasos:
+De forma predeterminada, las plantillas de Velocity tratan todos los atributos de entidad como valores de cadena. Puede que desee tratar un atributo de entidad como un valor numérico para realizar una operación matemática o compararlo con otro valor numérico. Para tratar un atributo de entidad como un valor numérico, siga estos pasos:
 
-1. Declare una variable ficticia e inicialícela en un entero o valor de doble arbitrario.
-1. Asegúrese de que el atributo de entidad que desea utilizar no está en blanco (necesario para que el analizador de plantillas de Destinatario Recommendations valide y guarde la plantilla).
-1. Pase el atributo entity al método `parseInt` o `parseDouble` en la variable ficticia que ha creado en el paso 1 para convertir la cadena en un valor entero o de doble.
-1. Realice la operación matemática o comparación en el nuevo valor numérico.
+1. Declare una variable ficticia e inicialícela con un valor doble o entero arbitrario.
+1. Asegúrese de que el atributo de entidad que desea utilizar no esté en blanco (requerido para que el analizador de plantillas de Target Recommendations valide y guarde la plantilla).
+1. Pase el atributo de entidad al método `parseInt` o `parseDouble` en la variable ficticia que ha creado en el paso 1 para convertir la cadena en un valor entero o doble.
+1. Realice la operación o comparación matemática en el nuevo valor numérico.
 
 ### Ejemplo: Cálculo de un precio de descuento
 
@@ -147,9 +147,9 @@ Supongamos que desea reducir el precio mostrado de un artículo en 0,99 $ para a
 #end
 ```
 
-### Ejemplo: Selección del número de estrellas que se mostrarán en función de la clasificación de un elemento
+### Ejemplo: Selección del número de estrellas que se mostrarán según la clasificación de un elemento
 
-Supongamos que desea mostrar un número adecuado de estrellas en función de la clasificación de cliente promedio numérica de un artículo. Puede utilizar el siguiente método para lograr este resultado:
+Supongamos que desea mostrar un número adecuado de estrellas en función de la clasificación de cliente media numérica de un artículo. Puede utilizar el siguiente método para lograr este resultado:
 
 ```
 #set( $Double = 0.1 )
@@ -172,7 +172,7 @@ Supongamos que desea mostrar un número adecuado de estrellas en función de la 
 #end
 ```
 
-### Ejemplo: Calcular el tiempo en horas y minutos en función de la longitud de un elemento en minutos
+### Ejemplo: Cálculo del tiempo en horas y minutos en función de la longitud de un elemento en minutos
 
 Supongamos que almacena la duración de una película en minutos, pero desea mostrar la duración en horas y minutos. Puede utilizar el siguiente método para lograr este resultado:
 
@@ -210,7 +210,7 @@ Al crear su actividad de [!DNL Recommendations], si el artículo clave se toma d
 
 ## Realización de reemplazos en un valor de cadena {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Puede modificar el diseño para reemplazar valores dentro de una cadena. Por ejemplo, si se sustituye el delimitador de punto decimal utilizado en Estados Unidos por el delimitador de coma utilizado en Europa y otros países.
+Puede modificar el diseño para reemplazar valores dentro de una cadena. Por ejemplo, sustituir el delimitador de punto decimal utilizado en Estados Unidos por el delimitador de coma utilizado en Europa y otros países.
 
 El siguiente código muestra una sola línea en un ejemplo condicional de precio de venta:
 
