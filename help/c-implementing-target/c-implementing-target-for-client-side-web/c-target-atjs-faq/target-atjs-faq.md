@@ -1,19 +1,19 @@
 ---
 keywords: preguntas frecuentes;faq sobre at.js;preguntas frecuentes sobre at.js;parpadeo;cargador;cargador de páginas;dominios cruzados;dominio cruzado;tamaño de archivo;dominio x;at.js y mbox.js;solo x;safari;una sola página;aplicación de una sola página;spa;selectores desaparecidos;selectores;tt.omtrdc.net;Adobe Experience Manager;AEM;dirección ip;solo http;solo Http;ip;segura;dominio de cookie
-description: Lea las respuestas a las preguntas más frecuentes sobre la biblioteca JavaScript de Adobe Target at.js.
+description: Lea las respuestas a las preguntas más frecuentes sobre la biblioteca JavaScript de Adobe [!DNL Target] at.js.
 title: ¿Qué son las preguntas y respuestas comunes sobre at.js?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2703'
-ht-degree: 93%
+source-wordcount: '2700'
+ht-degree: 92%
 
 ---
 
-
-# Preguntas más frecuentes de at.js{#at-js-frequently-asked-questions}
+# Preguntas más frecuentes de at.js
 
 Respuestas a las preguntas más frecuentes sobre at.js.
 
@@ -84,13 +84,13 @@ Desde la perspectiva del tiempo de respuesta, matemáticamente se puede resumir 
 
 Como puede verse, [!DNL at.js] 1.0.0 completará antes las solicitudes. Además, las solicitudes de [!DNL at.js] son asíncronas, de modo que Target no bloquea la representación de páginas. Aunque las solicitudes tarden segundos en completarse, se verá la página representada; no obstante, algunas partes pueden quedar en blanco hasta que Target obtenga una respuesta de su perímetro.
 
-## ¿Puedo cargar la biblioteca de Target de forma asíncrona?{#section_AB9A0CA30C5440C693413F1455841470}
+## ¿Puedo cargar la biblioteca [!DNL Target] asincrónicamente? {#section_AB9A0CA30C5440C693413F1455841470}
 
 La versión at.js 1.0.0 permite cargar la biblioteca de Target de forma asíncrona.
 
 Para cargar at.js de forma asíncrona:
 
-* El método recomendado es mediante un administrador de etiquetas como Adobe Launch o Administrador dinámico de etiquetas de Adobe (DTM). Consulte la [lección de Añadir Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) del tutorial [Implementación del Experience Cloud en sitios web con Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) para obtener más información.
+* El método recomendado es mediante un administrador de etiquetas como Adobe Launch o Administrador dinámico de etiquetas de Adobe (DTM). Consulte la lección [Añadir Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) del tutorial [Implementación del Experience Cloud en sitios web con Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) para obtener más información.
 * También puede cargar at.js de forma asíncrona añadiendo el atributo async a la etiqueta de script que carga at.js. Utilice algo similar a esto:
 
    ```
@@ -110,7 +110,7 @@ Cargar at.js de forma asíncrona es un modo excelente de evitar el bloqueo de pr
 
 Puede evitar el parpadeo utilizando un fragmento de ocultamiento previo que oculta la página (o partes especificadas) y luego lo revela después de que at.js y la solicitud global se hayan cargado por completo. El fragmento debe añadirse antes de cargar at.js.
 
-Si implementa at.js mediante una implementación de Launch asincrónica, asegúrese de incluir el fragmento de ocultamiento previo directamente en sus páginas, antes del código de Launch Embed, tal como se describe en la sección [Añada el fragmento de Destinatario de preocultación](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) de la [Implementación del Experience Cloud en sitios web con el tutorial de Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+Si va a implementar at.js a través de una implementación asincrónica de Launch, asegúrese de incluir el fragmento de ocultamiento previo directamente en las páginas, antes del código Insertar, tal como se describe en la sección [Añadir el fragmento de ocultación previa de Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) del [tutorial Implementación del Experience Cloud en sitios web con Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 Si implementa at.js a través de una implementación sincrónica de DTM, el fragmento de ocultamiento previo se puede añadir a través de una regla de carga de página activada en la parte superior de la misma.
 
@@ -150,7 +150,7 @@ Para permitir el acceso desde Safari, habría que “deshabilitar” (solo estab
 
 No en la misma página. Sin embargo, al implementar y probar [!DNL at.js], puede ejecutar [!DNL at.js] en unas páginas y [!DNL mbox.js] en otras hasta que haya validado completamente [!DNL at.js].
 
-## ¿Puedo usar el Compositor de experiencias visuales en mis aplicaciones de una sola página?{#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
+## ¿Puedo usar el [!DNL Target] Compositor de experiencias visuales en mis aplicaciones de una sola página? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
 Sí, puede utilizar el VEC para su SPA si usa at.js 2.x. Para obtener más información, consulte [Compositor de experiencias visuales de una sola página (SPA)](/help/c-experiences/spa-visual-experience-composer.md).
 
@@ -204,15 +204,15 @@ Estos mensajes no están relacionados con la funcionalidad de [!DNL at.js]. La b
 
 Las siguientes son posibles causas para que aparezca este mensaje de advertencia:
 
-* La página se está generando dinámicamente y at.js no puede encontrar el elemento.
-* La página se está generando lentamente (debido a una red lenta) y at.js no puede encontrar el selector en el DOM.
+* La página se está creando dinámicamente y at.js no puede encontrar el elemento .
+* La página se está creando lentamente (debido a una red lenta) y at.js no puede encontrar el selector en el DOM.
 * La estructura de la página en la que se ejecuta la actividad ha cambiado. Si vuelve a abrir la actividad en el Compositor de experiencias visuales (VEC), debería recibir un mensaje de advertencia. Se debe actualizar la actividad de modo que se encuentren todos los elementos necesarios.
 * La página subyacente es parte de una aplicación de una sola página (SPA) o la página contiene elementos que aparecen más adelante y el “mecanismo de sondeo selector” de [!DNL at.js] no puede encontrar dichos elementos. Aumentar el valor de `selectorsPollingTimeout` podría ser de ayuda. Para obtener más información, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Cualquier métrica de seguimiento de clics intenta añadirse a todas las páginas, independientemente de la dirección URL en la que se estableciera dicha métrica. Aunque es algo inofensivo, esta situación provoca la aparición de muchos de estos mensajes.
 
    Para obtener los mejores resultados, descargue y utilice la versión más reciente de [!DNL at.js]. Para obtener más información, consulte [Detalles de versión de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) y [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-## ¿Cuál es el dominio tt.omtrdc.net al cual se dirigen las llamadas del servidor de Target?{#section_999C29940E8B4CAD8A957A6B1D440317}
+## ¿Cuál es el dominio tt.omtrdc.net al que se dirigen las llamadas al servidor [!DNL Target]? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] es el nombre de dominio de la red EDGE de Adobe, que se utiliza para recibir todas las llamadas de servidor para Target.
 
