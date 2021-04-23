@@ -1,22 +1,22 @@
 ---
 keywords: datos dinámicos;activos;datos;ofertas;ofertas personalizadas;ofertas personales;reemplazo del token
-description: Obtenga información sobre cómo pasar datos dinámicos a Ofertas de Adobe Target. Explore los casos comerciales que muestran por qué podría querer utilizar ofertas dinámicas, ejemplos de vista e información de implementación.
-title: ¿Cómo paso datos dinámicos a Ofertas?
-feature: Experiences and Offers
+description: Aprenda a pasar datos dinámicos a ofertas de Adobe [!DNL Target] . Explore casos empresariales que muestren por qué podría querer utilizar ofertas dinámicas y vea ejemplos e información de implementación.
+title: ¿Cómo paso datos dinámicos en ofertas?
+feature: Experiencias y ofertas
+exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 78%
+source-wordcount: '520'
+ht-degree: 77%
 
 ---
 
-
 # Transmisión dinámica de datos en ofertas
 
-Puede mostrar dinámicamente la información de visitante almacenada en el perfil [!DNL Adobe Target]. Del mismo modo, la información de la actividad (como el nombre de la actividad o el de la experiencia) también se puede utilizar para crear una sola oferta que devuelva contenido personalizado de forma dinámica en función de los intereses, el comportamiento anterior y el perfil general del visitante.
+Puede mostrar de forma dinámica la información del visitante almacenada en el perfil [!DNL Adobe Target]. Del mismo modo, la información de la actividad (como el nombre de la actividad o el de la experiencia) también se puede utilizar para crear una sola oferta que devuelva contenido personalizado de forma dinámica en función de los intereses, el comportamiento anterior y el perfil general del visitante.
 
-## Casos comerciales
+## Casos de uso
 
 * Promocione una oferta de descuento para reorganizar o reponer el último producto comprado. En lugar de crear una oferta separada para cada elemento del catálogo, puede crear una oferta con texto dinámico que indique el último producto comprado del perfil y muestre un vínculo en la oferta.
 * Un visitante llega a su página de destino con `keyword=world` `cup`. El término *World cup* aparece en la oferta.
@@ -52,7 +52,7 @@ Para ver los diseños de Recommendations, consulte los ejemplos adicionales en [
 
 ## Implementación
 
-Para los parámetros de perfil pasados a un mbox, utilice la sintaxis:
+Para los parámetros de perfil transferidos a un mbox, utilice la sintaxis:
 
 `${profile.parameter}`
 
@@ -66,7 +66,7 @@ Al utilizar atributos dinámicos en un diseño [!DNL Recommendations], debe inse
 
 Estas variables se sustituyen por el valor que hay en el servidor, así que no es necesario usar comillas ni ningún otro JavaScript para la visualización correcta.
 
-También se pueden especificar valores predeterminados para los valores que se desean exponer a ofertas. La sintaxis es similar a esta:
+También se pueden especificar valores predeterminados para los valores que desea exponer a ofertas. La sintaxis es similar a esta:
 
 `${user.testAttribute default="All Items!"}`
 
