@@ -1,27 +1,27 @@
 ---
 keywords: compositor de experiencias basadas en formularios;compositor basado en formularios;refinamientos
-description: Aprenda a utilizar el Compositor de experiencias basadas en formularios de Adobe Target para la creación de experiencias no visuales. Utilice este compositor cuando el VEC no esté disponible o no sea práctico de usar.
-title: ¿Cómo se usa el Compositor de experiencias basadas en formularios?
-feature: Form-based Experience Composer
+description: Aprenda a utilizar el Compositor de experiencias basadas en formularios de Adobe [!DNL Target] para la creación de experiencias no visuales. Use este compositor cuando el VEC no esté disponible o no sea práctico de usar.
+title: ¿Cómo utilizo el Compositor de experiencias basadas en formularios?
+feature: Compositor de experiencias basadas en formularios
+exl-id: d06a271b-f058-4c83-af75-da2a29774967
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 66%
 
 ---
 
+# Compositor de experiencias basadas en formularios
 
-# Compositor de experiencias basadas en formularios{#form-based-experience-composer}
-
-El [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz de creación de ofertas y experiencias no visuales que resulta útil para crear experiencias que se pueden usar en actividades A/B Tests, Segmentación de experiencias, Automated Personalization y Recommendations cuando el Compositor de experiencias visuales no está disponible o resulta práctico para su uso. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
+El [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en pruebas A/B, Segmentación de experiencias, Automated Personalization y actividades de Recommendations cuando el Compositor de experiencias visuales no está disponible o su uso no es práctico. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
 
 Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus criterios y su diseño. Si elige varios criterios o diseños, Target genera las experiencias automáticamente.
 
 1. Haga clic en **[!UICONTROL Crear actividad]** y luego seleccione el tipo de actividad que desee crear.
 
    El Compositor de experiencias basadas en formularios está disponible para pruebas A/B y para actividades de segmentación de experiencias, personalización automatizada y de Recommendations.
-1. Seleccione **[!UICONTROL Compositor de experiencias basadas en formularios]** en el cuadro de diálogo [!UICONTROL Crear Actividad].
+1. Seleccione **[!UICONTROL Compositor de experiencias basadas en formularios]** en el cuadro de diálogo [!UICONTROL Crear actividad].
 
 1. (Condicional) Elija un espacio de trabajo y una propiedad.
 
@@ -41,7 +41,7 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 
    >[!NOTE]
    >
-   >La creación de una ubicación introducida manualmente durante la creación de la actividad no crea automáticamente una nueva ubicación. El nombre de la ubicación solo se guarda en el contexto de la actividad. La ubicación se crea cuando hay una llamada de envío de contenido. Una vez creada la ubicación, estará disponible para su uso en otras actividades, para crear audiencias, etc. en la lista desplegable de ubicaciones disponibles.
+   >La creación de una ubicación introducida manualmente durante la creación de la actividad no crea automáticamente una nueva ubicación. El nombre de la ubicación solo se guarda en el contexto de la actividad . La ubicación se crea cuando hay una llamada de entrega de contenido. Una vez creada la ubicación, estará disponible para usarla en otras actividades, para crear audiencias, etc. en la lista desplegable de ubicaciones disponibles.
 
 1. Haga clic en **[!UICONTROL Agregar refinamientos de audiencia]** y, a continuación, elija una o varias [audiencias](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta actividad.
 
@@ -70,7 +70,7 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 
    **Cambiar oferta de redireccionamiento:** elija una oferta de redireccionamiento. Para obtener más información, consulte [Creación de ofertas de redireccionamiento](/help/c-experiences/c-manage-content/offer-redirect.md).
 
-   **Cambiar oferta remota:** elija una oferta remota. Para obtener más información, consulte [Creación de ofertas remotas](/help/c-experiences/c-manage-content/about-remote-offers.md).
+   **Cambiar oferta remota:** elija una oferta remota. Para obtener más información, consulte [Crear ofertas remotas](/help/c-experiences/c-manage-content/about-remote-offers.md).
 
    **Crear oferta HTML:**
 
@@ -98,14 +98,14 @@ Si va a crear una actividad de Recommendations, no hay experiencias. Elija sus c
 
    ![](assets/change_criteria_2.png)
 
-1. (Opcional, para actividades A/B, Automated Personalization y Segmentación de experiencias) Para repetir este proceso en ubicaciones adicionales, haga clic en **[!UICONTROL Añadir ubicación]** y configure la ubicación y el contenido.
-1. Haga clic en **[!UICONTROL Siguiente]** y complete los pasos de creación de actividades como de costumbre para el tipo de actividad.
+1. (Opcional, para actividades A/B, Automated Personalization y Segmentación de experiencias) Para repetir este proceso para ubicaciones adicionales, haga clic en **[!UICONTROL Agregar ubicación]** y configure la ubicación y el contenido.
+1. Haga clic en **[!UICONTROL Siguiente]** y complete los pasos de creación de actividad como es habitual para su tipo de actividad.
 
 * [Crear una prueba A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Crear una actividad de segmentación de experiencias](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Crear una actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vídeo de formación: Compositor basado en formularios  ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Compositor basado en formularios  ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo proporciona una demostración del compositor basado en formularios.
 
