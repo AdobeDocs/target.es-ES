@@ -1,18 +1,18 @@
 ---
-keywords: formación;certificación;destinatario;cursos en línea;cursos;clase;clases
-description: Encuentre clases y certificaciones de Adobe Target ofrecidas por los Servicios de formación de Adobe.
-title: ¿Dónde puedo encontrar clases de Formación y Certificación?
-feature: Overview
+keywords: formación;certificación;Target;cursos en línea;cursos;clase;clases
+description: Busque las clases y certificaciones de Adobe [!DNL Target] que ofrecen los Servicios de formación de Adobe.
+title: ¿Dónde puedo encontrar clases de formación y certificación?
+feature: Información general
+exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 47%
+ht-degree: 48%
 
 ---
 
-
-# Capacitación y certificación{#training-and-certification}
+# Capacitación y certificación
 
 Adobe Training Services ofrece clases y certificaciones para productos y soluciones de Adobe, incluido Adobe Target.
 
@@ -24,4 +24,3 @@ Para obtener más información, póngase en contacto con el centro de Adobe Trai
 |---|---|
 | Europa, Oriente Medio y África | [ats_emea@adobe.com](mailto:ats_emea@adobe.com) |
 | Asia-Pacífico | [ats_apac@adobe.com](mailto:ats_apac@adobe.com) |
-
