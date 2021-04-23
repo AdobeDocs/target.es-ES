@@ -1,16 +1,16 @@
 ---
-keywords: servidor de seguimiento de analytics;A4T;Adobe Experience Cloud Debugger;Adobe Experience Platform Debugger;fuente de informes;herramientas para desarrolladores
-description: 'Obtenga información sobre cómo especificar un servidor de seguimiento de Analytics para actividades que utilicen Analytics for Target (A4T) si utiliza una versión anterior de at.js o mbox.js. '
+keywords: servidor de seguimiento de analytics;A4T;depurador de Adobe Experience Cloud;depurador de Adobe Experience Platform;fuente de informes;herramientas para desarrolladores
+description: 'Obtenga información sobre cómo especificar un servidor de seguimiento de Analytics para actividades que utilicen Analytics for [!DNL Target]  (A4T) si utiliza una versión anterior de at.js o mbox.js. '
 title: ¿Cómo utilizo un servidor de seguimiento de Analytics?
 feature: Analytics for Target (A4T)
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 20%
 
 ---
-
 
 # Uso de un servidor de seguimiento de Analytics
 
@@ -77,4 +77,3 @@ Las herramientas para desarrolladores deben verse en una página en la que se en
    >[!NOTE]
    >
    >Seleccione [!UICONTROL Analytics como Fuente de informes] para la actividad del campo [!UICONTROL Servidor de seguimiento] que estará disponible.
-
