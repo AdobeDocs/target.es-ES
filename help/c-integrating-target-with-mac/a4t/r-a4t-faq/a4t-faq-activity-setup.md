@@ -1,16 +1,16 @@
 ---
 keywords: preguntas más frecuentes;faq;analytics para target;a4T;configuración de actividades
-description: Encuentre respuestas a preguntas sobre la configuración de actividades al usar Analytics for Target (A4T). A4T le permite utilizar los informes de Analytics para actividades de Target.
+description: Encuentre respuestas a preguntas sobre la configuración de actividades al usar Analytics para actividades [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: ¿Dónde puedo encontrar preguntas más frecuentes sobre la configuración de actividades con A4T?
 feature: Analytics for Target (A4T)
+exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '502'
 ht-degree: 25%
 
 ---
-
 
 # Configuración de actividades: preguntas más frecuentes sobre A4T
 
@@ -41,7 +41,7 @@ Puede cambiar las opciones de [!UICONTROL Configuración de informes] en [!UICON
 
 La lista desplegable **[!UICONTROL Fuente de informes]** está habilitada en la pantalla **[!UICONTROL Objetivo y configuración]** para crear y editar actividades.
 
-Para usar siempre [!DNL Analytics] como fuente de informes, seleccione **[!UICONTROL Adobe Analytics]** en la lista desplegable de [!UICONTROL Administration].
+Para usar siempre [!DNL Analytics] como fuente de informes, seleccione **[!UICONTROL Adobe Analytics]** en la lista desplegable de [!UICONTROL Administración].
 
 ## ¿Puede un visitante cambiar entre experiencias segmentadas y controladas en diferentes visitas en una actividad de segmentación automática que utiliza A4T?
 
