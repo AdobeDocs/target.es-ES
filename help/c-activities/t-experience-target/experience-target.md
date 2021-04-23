@@ -1,16 +1,16 @@
 ---
 keywords: Segmentación;segmentación de experiencias;XT;página de aterrizaje;prueba de página de aterrizaje
-description: Obtenga información sobre cómo utilizar las actividades de segmentación de experiencias (XT) en Adobe Target para ofrecer contenido a una audiencia específica basada en un conjunto de reglas y criterios definidos por expertos en marketing.
-title: ¿Qué es una Actividad de segmentación de experiencias (XT)?
-feature: Experience Targeting
+description: Aprenda a utilizar las actividades de Segmentación de experiencias (XT) en Adobe [!DNL Target] para entregar contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
+title: ¿Qué es una actividad de segmentación de experiencias (XT)?
+feature: Segmentación de experiencias
+exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 93%
 
 ---
-
 
 # Segmentación de experiencias
 
