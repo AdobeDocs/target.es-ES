@@ -1,17 +1,17 @@
 ---
-keywords: privacidad;dirección IP;segmentación geográfica;exclusión;exclusión;exclusión;privacidad de datos;regulaciones gubernamentales;regulaciones;gdpr;ccpa
-description: Conozca cómo cumple Adobe Target con las leyes de privacidad de datos aplicables, incluida la recopilación y el manejo de direcciones IP y las instrucciones de exclusión.
-title: ¿Cómo gestiona Destinatario los problemas de privacidad?
-feature: Privacy & Security
+keywords: privacidad;dirección ip;segmentación geográfica;exclusión;exclusión;exclusión;privacidad de datos;regulaciones gubernamentales;regulaciones;rgpd;ccpa
+description: Descubra cómo Adobe [!DNL Target] cumple las leyes aplicables sobre privacidad de datos, incluida la recopilación y administración de direcciones IP, y las instrucciones de exclusión.
+title: ¿Cómo gestiona  [!DNL Target] los problemas de privacidad?
+feature: Privacidad y seguridad
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 73%
 
 ---
-
 
 # Privacidad
 
@@ -29,15 +29,15 @@ Cuando se habilita esta función, la dirección IP se convierte en lo suficiente
 
 Las configuraciones disponibles son las siguientes:
 
-* Sin confusión: Destinatario no oculta ninguna parte de la dirección IP.
-* Último octeto: Destinatario oculta el último octeto de la dirección IP.
-* IP completa: Destinatario oculta toda la dirección IP.
+* Sin confusión: Target no oculta ninguna parte de la dirección IP.
+* Último octeto: Target oculta el último octeto de la dirección IP.
+* IP completa: Target oculta toda la dirección IP.
 
-Destinatario recibe la dirección IP completa y la confunde (si se establece en Último octeto o IP completa) como se especifica. A continuación, destinatario guarda la dirección IP confusión en la memoria durante la sesión.
+Target recibe la dirección IP completa y la confunde (si se configura en Último octeto o IP completa) según se ha especificado. A continuación, Target guarda la dirección IP ofuscada en la memoria durante la sesión.
 
 >[!NOTE]
 >
->[Póngase en contacto con el ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) servicio de atención al cliente de Adobe para determinar qué configuración está utilizando actualmente o para habilitar la función de confusión de IP.
+>[Póngase en contacto con el ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) servicio de atención al cliente de Adobe para determinar qué configuración está utilizando o para habilitar la función de confusión de IP.
 
 ## Segmentación geográfica {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -60,4 +60,4 @@ Aunque utilice una implementación de cookies de origen, la posibilidad de exclu
 
 ## Reglamentos de protección de datos y privacidad
 
-Consulte [Regulaciones de privacidad y protección de datos](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) para obtener información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de Privacidad del Consumidor de California (CCPA) y otros requerimientos internacionales de privacidad, y cómo estas regulaciones afectan a su organización y a Adobe Target.
+Consulte [Privacidad y regulaciones de protección de datos](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) para obtener información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de Privacidad del Consumidor de California (CCPA) y otros requisitos de privacidad internacionales, y cómo estas regulaciones afectan a su organización y a Adobe Target.
