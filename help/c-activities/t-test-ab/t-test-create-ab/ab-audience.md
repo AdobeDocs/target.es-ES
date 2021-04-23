@@ -1,20 +1,20 @@
 ---
 keywords: audiencia;seleccionar audiencia;elegir audiencia;selectores
-description: La audiencia determina qué visitantes del sitio se introducen en la actividad de Adobe Target.
-title: ¿Cómo se selecciona una Audiencia en una Actividad A/B de Destinatario?
-feature: A/B Tests
+description: La audiencia determina qué visitantes del sitio participan en la actividad de Adobe [!DNL Target] .
+title: ¿Cómo se selecciona una audiencia en una  [!DNL Target] actividad A/B?
+feature: Pruebas A/B
+exl-id: 281ae227-c593-4b71-ad12-865430b332be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '445'
 ht-degree: 90%
 
 ---
 
-
 # Seleccionar la audiencia
 
-La audiencia determina qué visitantes del sitio se introducen en la actividad [!DNL Adobe Target].
+La audiencia determina qué visitantes del sitio participan en su actividad [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ También puede elegir que Target  [asigne el tráfico automáticamente](/help/c-
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Uso de audiencias en Adobe Target (6:21)  ![Distintivo de información general](/help/assets/overview.png)
+### Uso de audiencias en Adobe Target (6:21)  ![Distintivo Información general](/help/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
@@ -60,7 +60,7 @@ En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Pr
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Flujo de trabajo de actividad - Segmentación (2:14) ![Insignia de tutorial](/help/assets/tutorial.png)
+### Flujo de trabajo de actividad - Segmentación (2:14) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre cómo configurar las audiencias.
 
