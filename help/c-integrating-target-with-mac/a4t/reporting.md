@@ -1,18 +1,18 @@
 ---
 keywords: analytics para target, a4t, analytics como fuente de informes, analytics
-description: Aprenda a utilizar Analytics para Target (A4T). A4T proporciona acceso a los informes de Analytics para las actividades de Target que usan métricas de Analytics y segmentos de audiencia.
+description: Aprenda a utilizar Analytics para actividades [!DNL Target] (A4T). A4T provides access to Analytics reports for [!DNL Target] que usan métricas de Analytics y segmentos de audiencia.
 title: ¿Cómo utilizo los informes en A4T?
 feature: Analytics for Target (A4T)
+exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 translation-type: tm+mt
-source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '678'
 ht-degree: 33%
 
 ---
 
-
-# Informes de A4T{#a-t-reporting}
+# Informes de A4T
 
 El uso de [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T) le permite acceder a [!DNL Analytics] informes para sus actividades [!DNL Target].
 
@@ -57,7 +57,7 @@ En [!DNL Analysis Workspace], utilice el panel [!UICONTROL Analytics for Target]
 
 Para obtener información detallada y ejemplos, abra [Analytics &amp; Target: Tutorial Prácticas recomendadas de análisis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), proporcionado por Adobe Experience League.
 
-## Informes en Target    {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Informes en [!DNL Target] {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 Cuando se utiliza [!DNL Analytics] como fuente de informes, los informes de [!DNL Target] muestran los datos recopilados de [!DNL Analytics]. El informe difiere un poco de otros [!DNL Target] informes:
 
@@ -76,7 +76,7 @@ Haga clic en para ver el informe completo [!DNL Analytics] directamente desde la
 
 Durante la creación de la actividad, debe especificar un objetivo para la actividad en la página [!UICONTROL Ajustes]. Este objetivo se convierte en la métrica predeterminada para el informe y siempre se enumera como la primera opción en el selector de métricas. No se pueden seleccionar segmentos para informes como lo haría para una actividad normal de Target. Una prueba con [!DNL Analytics] utiliza segmentos [!DNL Adobe Analytics] en lugar de [!DNL Target] audiencias.
 
-## Realización de cálculos sin conexión en Analytics for Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## Realización de cálculos sin conexión en Analytics for Adobe Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
 
 Puede realizar cálculos sin conexión para A4T, pero es necesario realizar un paso de exportaciones de datos en [!DNL Analytics].
 
