@@ -1,20 +1,20 @@
 ---
 keywords: varias audiencias;versiones de experiencias;versiones de experiencias de target
-description: Obtenga información sobre cómo destinatario versiones de la misma experiencia a distintas audiencias en actividades A/B de Adobe Target.
-title: ¿Puedo usar varias versiones de experiencias en una actividad A/B?
-feature: A/B Tests
+description: Aprenda a dirigir versiones de la misma experiencia a diferentes audiencias en actividades de Adobe [!DNL Target] A/B.
+title: ¿Puedo usar varias versiones de una experiencia en una actividad A/B?
+feature: Pruebas A/B
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 92%
 
 ---
 
-
 # Varias audiencias de una experiencia en una prueba A/B
 
-Puede destinatario versiones de la misma experiencia a distintas audiencias en actividades A/B [!DNL Adobe Target]. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
+Puede dirigir versiones de la misma experiencia a distintas audiencias en actividades A/B [!DNL Adobe Target]. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
 
 Los usuarios pueden cambiar entre audiencias de experiencias a medida que cambian sus perfiles. No están atrapados en la misma experiencia todo el tiempo que dure la actividad.
 
@@ -53,4 +53,3 @@ En este caso, lo que necesitamos son versiones geográficas de la experiencia pa
 * Elija audiencias que se excluyan entre sí. Si la actividad se creó en el VEC y un visitante se ajusta a más de una audiencia, se devuelve el contenido de todas, pero el que aparece en la página es el de la última audiencia de la lista.
 * Las audiencias de participación en la actividad definidas en el diagrama se combinan con las audiencias de experiencia mediante la condición AND. Para participar en la actividad, un visitante debe cumplir los requisitos de la audiencia de la actividad y los requisitos de una de las audiencias de la experiencia.
 * Añada las mismas audiencias como segmentos para los informes. De este modo, se pueden ver los resultados de las pruebas tanto en el nivel superior de experiencia, A comparado con B, como en el nivel inferior de experiencia, A comparado con B solo en el “idioma de navegador ja_JP”. Esto solo funciona para los informes de Target, no para los de Analytics.
-
