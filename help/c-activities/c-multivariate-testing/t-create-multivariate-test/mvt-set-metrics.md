@@ -1,20 +1,20 @@
 ---
 keywords: multivariable;mvt;métricas;definir métricas;métrica de objetivo;configuración de actividades;métrica de éxito;conversión;ingresos;participación
-description: Obtenga información sobre cómo especificar métricas en una actividad de prueba multivariada de Adobe Target para determinar cuándo se realiza correctamente una visita, como Conversión, Ingresos y Participación.
-title: ¿Cómo configuro las métricas de objetivo en una Actividad de prueba multivariada (MVT)?
-feature: Multivariate Tests
+description: Aprenda a especificar métricas en una actividad de prueba multivariable de Adobe [!DNL Target] para determinar si una visita es satisfactoria, como Conversión, Ingresos y Participación.
+title: ¿Cómo establezco métricas de objetivo en una actividad de prueba multivariable (MVT)?
+feature: Pruebas multivariable
+exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 83%
 
 ---
 
+# Definir métricas para pruebas multivariable
 
-# Configurar métricas para pruebas multivariable
-
-Utilice métricas en una prueba multivariada de Adobe Target para determinar cuándo se realiza una visita con éxito.
+Utilice métricas en una prueba multivariable de Adobe Target para determinar si una visita es satisfactoria.
 
 Para obtener información detallada sobre las métricas de éxito, consulte  [Métricas de éxito](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -53,7 +53,7 @@ Para obtener información detallada sobre las métricas de éxito, consulte  [M�
    | `-` | Menos |
    | `@` | Arroba |
 
-## Vídeo de formación: Métricas de actividad (7:43)  ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Métricas de actividad (7:43)  ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 
