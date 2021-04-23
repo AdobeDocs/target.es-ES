@@ -1,24 +1,24 @@
 ---
 keywords: Rastreo de clics;rastrear clics;clics;AppMeasurement
-description: Descubra cómo Adobe Target le permite rastrear los clics en cualquier elemento como una métrica de éxito.
+description: Descubra cómo Adobe [!DNL Target] le permite rastrear clics en cualquier elemento como una métrica de éxito.
 title: ¿Qué es el rastreo de clics?
-feature: Success Metrics
+feature: Métricas de éxito
+exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '886'
 ht-degree: 91%
 
 ---
 
-
 # Rastreo de clics
 
-[!DNL Adobe Target] permite rastrear los clics en cualquier elemento como una métrica de éxito.
+[!DNL Adobe Target] permite rastrear clics en cualquier elemento como una métrica de éxito.
 
 >[!NOTE]
 >
->El seguimiento de clics no se admite en la solicitud de Destinatario global cuando se utiliza como ubicación en una actividad basada en formularios.
+>El rastreo de clics no es compatible con la solicitud global de Target cuando se utiliza como ubicación en una actividad basada en formularios.
 
 ## Configuración del rastreo de clics {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -83,7 +83,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
    | Carácter | Descripción |
    |---|---|
    | # | Signo de número  o almohadilla |
-   | :: | Dos puntos |
+   | : | Dos puntos |
    | . | Periodo |
    | $ | Símbolo del dólar |
    | `[ ]` | Corchetes |
