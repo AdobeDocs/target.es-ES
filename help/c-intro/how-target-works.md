@@ -5,9 +5,9 @@ title: ¿Cómo funciona [!DNL Target] ?
 feature: Información general
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2564'
 ht-degree: 32%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 32%
 
 Descubra cómo funciona [!DNL Adobe Target], incluida la información sobre las bibliotecas [!DNL Adobe Experience Platform Web SDK] y JavaScript (at.js y mbox.js). Este artículo también presenta los distintos tipos de actividades que puede crear mediante [!DNL Target]. También puede obtener información sobre la red perimetral [!DNL Target], la optimización de los motores de búsqueda (SEO) y cómo [!DNL Target] detecta los bots.
 
-## SDK web de la plataforma de Target y bibliotecas JavaScript {#libraries}
+## [!DNL Target] SDK web de plataforma y bibliotecas JavaScript  {#libraries}
 
 [!DNL Target] se integra con los sitios web que utilizan las bibliotecas de  [!DNL AEP Web SDK] o JavaScript:
 
@@ -41,7 +41,7 @@ En [!DNL Target], cada elemento de la página forma parte de una sola experienci
 
 El contenido que se muestra a los visitantes depende del tipo de actividad que cree:
 
-### Prueba A/B
+### [!UICONTROL Prueba A/B]
 
 El contenido que se muestra en una prueba A/B básica se elige aleatoriamente entre las experiencias que asigna a la actividad. Puede asignar los porcentajes de asignación de tráfico para cada experiencia. Como resultado de esta división aleatoria del tráfico, puede requerir una cantidad significativa de tráfico inicial antes de que se nivelen los porcentajes. Por ejemplo, si crea una campaña con dos experiencias, la experiencia inicial se elige de forma aleatoria. Si hay poco tráfico, es posible que el porcentaje de visitantes se desvíe hacia una experiencia. A medida que aumenta el tráfico, los porcentajes se igualan.
 
@@ -54,19 +54,19 @@ Se pueden especificar los objetivos de porcentaje para cada experiencia. En este
 
 Para obtener más información, consulte [Creación de pruebas A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-### Asignación automática
+### [!UICONTROL Asignación automática]
 
-Asignación automática identifica un ganador entre dos o más experiencias. La asignación automática reasigna automáticamente más tráfico a la experiencia ganadora, lo que ayuda a aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
+[!UICONTROL La ] asignación automática identifica un ganador entre dos o más experiencias. [!UICONTROL La ] asignación automática reasigna automáticamente más tráfico a la experiencia ganadora, lo que ayuda a aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 
-Para obtener más información, consulte [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Para obtener más información, consulte [[!UICONTROL Asignación automática]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-### Segmentación automática (AT)
+### [!UICONTROL Segmentación automática]
 
 La segmentación automática utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias de alto nivel de rendimiento definidas por expertos en marketing. La segmentación automática proporciona la experiencia más adaptada a cada visitante. El envío de experiencias se basa en perfiles de clientes individuales y en el comportamiento de visitantes anteriores con perfiles similares. Utilice la segmentación automática para personalizar el contenido y dirigir las conversiones.
 
 Para obtener más información, consulte [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
-### Personalización automatizada (AP)
+### [!UICONTROL Personalización automatizada] (AP)
 
 Automated Personalization (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones de ofertas a cada visitante. El envío de experiencias se basa en perfiles de clientes individuales para personalizar el contenido y dirigir el alza.
 
@@ -80,13 +80,13 @@ La segmentación de experiencias, incluyendo Geotargeting, sirve para definir re
 
 Consulte [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) para obtener más información.
 
-### Prueba multivariable (MVT)
+### [!UICONTROL Prueba multivariable] (MVT)
 
 Multivariate Testing (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica. MVT ayuda a identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 
 Consulte [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) para obtener más información.
 
-### Recommendations
+### [!UICONTROL Recommendations]
 
 Las actividades de Recommendations muestran automáticamente productos o contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
 
@@ -213,6 +213,6 @@ Específicamente, para el tráfico de bots conocido [!DNL Target] no:
 * Crea ni recupera un perfil de visitante.
 * Registra atributos de perfil ni ejecuta scripts de perfil.
 * Busca segmentos de Adobe Audience Manager (AAM) (si corresponde).
-* Utilice el tráfico de bots para modelar y ofrecer contenido personalizado para actividades de Recommendations, Segmentación automática, Automated Personalization o Asignación automática
+* Utilice el tráfico de bots para modelar y ofrecer contenido personalizado para actividades de Recommendations, Segmentación automática, Automated Personalization o [!UICONTROL Asignación automática]
 * Registra una visita de actividad para la creación informes.
 * Los datos de registro se enviarán a la plataforma [!DNL Adobe Experience Cloud]
