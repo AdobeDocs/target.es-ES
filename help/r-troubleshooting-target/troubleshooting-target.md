@@ -1,16 +1,16 @@
 ---
 keywords: resolución de problemas de target;solucionar problemas de target
-description: Revise una lista de temas para ayudarle a resolver problemas en Adobe Target, incluidos temas de solución de problemas, preguntas más frecuentes (FAQ) y otros temas útiles.
-title: ¿Cómo puedo solucionar problemas de Destinatario?
-feature: Troubleshooting
+description: Revise una lista de temas para ayudarle a resolver problemas en Adobe Target, incluidos temas de resolución de problemas, preguntas más frecuentes (PF) y otros temas útiles.
+title: ¿Cómo puedo solucionar problemas de Target?
+feature: 'Resolución de problemas  '
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
-
 
 # Resolución de problemas de Target
 
@@ -37,7 +37,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 
 ### Segmentación automática
 
-* [Solución de problemas de Destinatario automático y preguntas más frecuentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Solución de problemas y preguntas más frecuentes sobre la segmentación automática](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### Personalización automatizada (AP)
 
@@ -56,7 +56,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 * [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Preguntas más frecuentes sobre diseño](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Integración de Analytics y Target (A4T)
+## Integración de Analytics y [!DNL Target] (A4T)
 
 * [Resolución de problemas de integración de Analytics y Target](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * Vídeo “Horario de oficina”, una iniciativa liderada por el equipo del Servicio de atención al cliente de Adobe. Consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
@@ -135,7 +135,7 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 ## Aplicaciones móviles
 
-* [Preguntas más frecuentes sobre destinatario para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [Preguntas frecuentes sobre Target para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Creación de informes
 
