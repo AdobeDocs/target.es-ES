@@ -1,22 +1,22 @@
 ---
 keywords: Segmentación;compositor de experiencias visuales;vec;resolución de problemas del compositor de experiencias visuales;resolución de problemas;tls;tls 1.2
-description: Obtenga información sobre cómo solucionar problemas que a veces se producen en el Compositor de experiencias visuales (VEC) de Adobe Target en determinadas condiciones.
+description: Obtenga información sobre cómo solucionar problemas que a veces ocurren en el Adobe [!DNL Target] Compositor de experiencias visuales (VEC) bajo determinadas condiciones.
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales?
-feature: Visual Experience Composer (VEC)
+feature: 'Compositor de experiencias visuales (VEC). '
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 89%
+source-wordcount: '800'
+ht-degree: 87%
 
 ---
 
+# Resolución de problemas relacionados con el Compositor de experiencias visuales
 
-# Solución de problemas relacionados con el Compositor de experiencias visuales
+Los problemas de visualización a veces ocurren en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) bajo ciertas condiciones.
 
-A veces se producen problemas de visualización en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) bajo ciertas condiciones.
-
-## Cuando abro mi sitio web en el Compositor de experiencias visuales, las bibliotecas de Target no se cargan. (Solo VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Cuando abro mi sitio web en el Compositor de experiencias visuales, las bibliotecas [!DNL Target] no se cargan. (Solo VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target añade dos parámetros (`mboxEdit=1` y `mboxDisable=1`) al abrir el sitio web en el Compositor de experiencias visuales.
 
@@ -33,7 +33,7 @@ Varios problemas pueden afectar al rendimiento de la página en los compositores
 
 Si ocurren problemas en el Compositor de experiencias mejorado, pruebe desactivar el Compositor de experiencias mejorado y use en cambio el Compositor de experiencias visuales.
 
-Para deshabilitar el Compositor de experiencias mejorado, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]** y desactive la opción **[!UICONTROL Habilitar el Compositor de experiencias mejorado]**.
+Para deshabilitar el Compositor de experiencias mejorado, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]** y desactive la opción **[!UICONTROL Habilitar Compositor de experiencias mejorado]**.
 
 Algunos usuarios ven el siguiente mensaje de error en la consola:
 
