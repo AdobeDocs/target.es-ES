@@ -1,16 +1,16 @@
 ---
 keywords: bosque aleatorio;árbol de decisiones;ap;Automated Personalization
-description: Descubra cómo Adobe Target utiliza el algoritmo de bosque aleatorio tanto en actividades de Automated Personalization (AP) como de Destinatario automático.
-title: ¿Cómo utiliza el Destinatario el algoritmo de bosque aleatorio?
-feature: Automated Personalization
+description: Descubra cómo Adobe [!DNL Target] utiliza el algoritmo de bosque aleatorio en las actividades de Automated Personalization (AP) y Segmentación automática.
+title: ¿Cómo utiliza [!DNL Target] el algoritmo de bosque aleatorio?
+feature: Personalización automatizada
+exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 95%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Algoritmo de bosque aleatorio
 
@@ -20,7 +20,7 @@ Al considerar las estadísticas, es habitual pensar en un modelo de regresión �
 
 El algoritmo de bosque aleatorio es la clave que se esconde en el algoritmo de personalización utilizado en actividades de Personalización automatizada y Segmentación automática. Con el bosque aleatorio se combinan cientos de árboles de decisiones para conseguir una mejor predicción que la que se conseguiría con un solo árbol.
 
-## ¿Qué es un árbol de decisiones? {#section_7F5865D8064447F4856FED426243FDAC}
+## ¿Qué es un árbol de decisión? {#section_7F5865D8064447F4856FED426243FDAC}
 
 El objetivo de un árbol de decisión es desglosar todos los datos de visitas disponibles de los que un sistema puede aprender y agruparlos de modo que las visitas de cada grupo sean lo más parecidas posibles las unas a las otras con relación a la métrica objetivo. Entre grupos, sin embargo, las visitas son lo más diferentes posibles con relación a la métrica objetivo (por ejemplo, la tasa de conversión). El árbol de decisión tiene en cuenta las diferentes variables existentes en el conjunto de formación para determinar cómo dividir los datos de forma MECE (mutuamente exclusiva, colectivamente exhaustiva) en estos grupos (u “hojas”) para maximizar este objetivo.
 
@@ -43,11 +43,11 @@ El árbol de nuestro ejemplo sería el siguiente:
 
 ![](assets/decsion_tree_2.png)
 
-## ¿Cómo se utilizan los árboles de decisión por bosque aleatorio? {#section_536C105EF9F540C096D60450CAC6F627}
+## ¿Cómo utilizan los árboles de decisión el bosque aleatorio? {#section_536C105EF9F540C096D60450CAC6F627}
 
 Los árboles de decisión pueden ser una herramienta estadística muy útil. Sin embargo, presenta algunas desventajas. La más importante es que se puede producir un sobreajuste de datos, con lo que un solo árbol difícilmente predeciría datos futuros que no se hubieran utilizado para crear el árbol inicial. En estadística, este problema se conoce como [compensación sesgo-varianza](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Los bosques aleatorios ayudan a superar este problema de sobreajuste. En su máximo nivel, un bosque aleatorio es un conjunto de árboles de decisión que se ha creado de un modo algo distinto a partir del mismo conjunto de datos que “vota” conjuntamente para producir un modelo mejor que un árbol individual. Los árboles se crean seleccionando aleatoriamente un subconjunto de registros de visitas con sustitución (conocidos como empacados) y seleccionando aleatoriamente un subconjunto de los atributos para que el bosque esté formado de árboles de decisión ligeramente distintos. Con este método se introducen pequeñas variaciones en los árboles que se crean en el bosque aleatorio. Al añadir esta cantidad controlada de varianza, la precisión predictiva del algoritmo mejora.
 
-## ¿Cómo utilizan los algoritmos de personalización de Destinatario el bosque aleatorio? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## ¿Cómo utilizan los algoritmos de personalización de Target el bosque aleatorio? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **¿Cómo se crean los modelos?**
 
@@ -78,7 +78,7 @@ Las transformaciones de la característica dependen del tipo de atributo. Princi
 
 Para las características categóricas, se mantiene un conjunto de todas las características posibles y la posibilidad de que se use la transformación para reducir el tamaño de los datos. Para las características numéricas, el reajuste de escala garantiza que las características se puedan comparar en el panel.
 
-**Equilibrio entre aprendizaje y personalización con el Multi-Armed Bandit**
+**Aprendizaje equilibrado frente a personalización con multi-armed bandit**
 
 Cuando Target haya creado modelos de personalización para personalizar su tráfico, deberá afrontar una clara compensación en el caso de los futuros visitantes de su actividad: ¿debe personalizar todo el tráfico a partir del modelo actual o debe seguir aprendiendo de los nuevos visitantes haciéndoles ofertas aleatorias? Le interesa asegurarse de que el algoritmo de personalización siempre aprenda de las tendencias nuevas de sus visitantes, al mismo tiempo que personaliza la mayor parte del tráfico.
 
