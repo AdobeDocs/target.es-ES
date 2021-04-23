@@ -1,20 +1,20 @@
 ---
 keywords: Segmentación;eec;compositor de experiencias visuales;resolución de problemas del compositor de experiencias mejorado;resolución de problemas
-description: Descubra cómo solucionar problemas que a veces se producen en el Compositor de experiencias mejorado de Adobe Target (EEC) en determinadas condiciones.
+description: Obtenga información sobre cómo solucionar problemas que a veces ocurren en el Compositor de experiencias mejorado (EEC) de Adobe [!DNL Target] en ciertas condiciones.
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias mejorado?
-feature: Visual Experience Composer (VEC)
+feature: 'Compositor de experiencias visuales (VEC). '
+exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 61%
+source-wordcount: '452'
+ht-degree: 62%
 
 ---
 
-
 # Resolución de problemas relacionados con el Compositor de experiencias mejorado
 
-A veces se producen problemas de visualización en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias mejorado] (EEC) bajo ciertas condiciones.
+Los problemas de visualización a veces ocurren en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias mejorado] (EEC) bajo ciertas condiciones.
 
 ## El EEC no carga una URL de control de calidad interna que no es accesible desde una IP pública. (Solo EEC) {#section_D29E96911D5C401889B5EACE267F13CF}
 
@@ -38,15 +38,15 @@ Lo que sigue son motivos por los que podría ver este mensaje de error y remedio
 
 * **Problema**: el dominio del sitio web (ISP) está bloqueando el Compositor de experiencias mejorado.
 
-   **Remedio:** Lista de permitidos de las direcciones IP enumeradas arriba.
+   **Remedio:** Lista de permitidos de las direcciones IP enumeradas anteriormente.
 
-* **Problema:** Las direcciones IP están incluidas en la lista de permitidos pero su sitio web no admite TLS versión 1.2. Destinatario utiliza actualmente la configuración predeterminada de 1.2. Antes del Destinatario 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte Cambios [ ](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) en el cifrado de TLS (Transport Layer Security).
+* **Problema:** las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite la versión 1.2 de TLS. Target utiliza actualmente la configuración predeterminada de 1.2. Antes de Target 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte Cambios [ en el cifrado de ](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Seguridad de capa de transporte).
 
    **Solución:** vea la siguiente pregunta (El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio que usan TLS 1.2).
 
 ## El EEC no se carga en páginas seguras de mi sitio que utilizan TLS 1.0. (Solo EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Podría ver el mensaje de error descrito en “El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio”. si las direcciones IP anteriores están incluidas en la lista de permitidos pero su sitio web no admite TLS versión 1.2. Destinatario utiliza actualmente la configuración predeterminada de 1.2. Antes del Destinatario 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios en el cifrado TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Podría ver el mensaje de error descrito en “El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio”. si las direcciones IP anteriores están incluidas en la lista de permitidos pero su sitio web no admite la versión 1.2 de TLS. Target utiliza actualmente la configuración predeterminada de 1.2. Antes de Target 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte Cambios en el cifrado de [TLS (Seguridad de capa de transporte)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegadores tienen pasos similares):
 
