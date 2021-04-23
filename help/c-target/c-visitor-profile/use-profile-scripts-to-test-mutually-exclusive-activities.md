@@ -1,24 +1,24 @@
 ---
-keywords: script de perfil;atributos de script de perfil;actividades mutuamente excluyentes
-description: Aprenda a usar atributos de perfil para configurar pruebas en Adobe Target que comparen varias actividades pero no permitan que los mismos visitantes participen en cada actividad.
-title: ¿Puedo utilizar secuencias de comandos de Perfil para probar Actividades mutuamente exclusivas?
-feature: Audiences
+keywords: Script de perfil;atributos de script de perfil;actividades mutuamente excluyentes
+description: Aprenda a utilizar atributos de perfil para configurar pruebas en Adobe [!DNL Target] que comparen varias actividades pero no permitan que los mismos visitantes participen en cada actividad.
+title: ¿Puedo usar scripts de perfil para probar actividades mutuamente exclusivas?
+feature: Audiencias
+exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 76%
 
 ---
 
-
-# Utilice secuencias de comandos de perfil para probar actividades mutuamente excluyentes {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# Uso de scripts de perfil para probar actividades mutuamente exclusivas
 
 Puede usar atributos de perfil para definir pruebas que comparen dos o más actividades, pero sin permitir que los mismos visitantes participen en cada una de ellas.
 
 La prueba de actividades mutuamente exclusivas evita que un visitante de una campaña afecte a los resultados de la prueba para el resto de actividades. Cuando un visitante participa en diversas actividades, puede resultar difícil determinar si se ha producido un alza positiva o negativa de la experiencia del visitante con una actividad o si interacciones entre varias actividades han afectado a los resultados de una o más actividades.
 
-Por ejemplo, puede probar dos áreas del sistema de comercio electrónico. Es posible que desee probar haciendo que el botón &quot;Añadir al carro&quot; sea rojo en lugar de azul. También puede desear probar un nuevo proceso de cierre de compra que reduzca el número de pasos de cinco a dos. Si ambas actividades tienen el mismo evento de éxito (una compra completada), puede resultar difícil determinar si el botón rojo mejora las conversiones o si esas mismas conversiones también se incrementaron debido al proceso de cierre de compra mejorado. Al separar las pruebas en actividades mutuamente exclusivas, puede probar cada fase de forma independiente.
+Por ejemplo, puede probar dos áreas del sistema de comercio electrónico. Puede que desee probar a hacer que el botón &quot;Agregar al carro&quot; aparezca rojo en lugar de azul. También puede desear probar un nuevo proceso de cierre de compra que reduzca el número de pasos de cinco a dos. Si ambas actividades tienen el mismo evento de éxito (una compra completada), puede resultar difícil determinar si el botón rojo mejora las conversiones o si las mismas conversiones también aumentan debido al proceso de cierre de compra mejorado. Al separar las pruebas en actividades mutuamente exclusivas, puede probar cada fase de forma independiente.
 
 Tenga en cuenta la siguiente información cuando utilice uno de los siguientes scripts de perfil:
 
@@ -46,7 +46,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` comienza una rutina que determina el grupo al que pertenece el visitante. Si el número devuelto está entre 0 y 49, el visitante se asigna a GrupoA. Si el número devuelto está entre 50 y 99, el visitante se asigna a GrupoB. El grupo determina qué actividad ve el visitante.
 
-Después de crear el atributo de perfil, configure la primera actividad para destinatario de la población deseada al exigir que el parámetro de perfil de usuario `user.twogroups` coincida con el valor especificado para GroupA.
+Después de crear el atributo de perfil, configure la primera actividad para que se dirija a la población deseada. Para ello, es necesario que el parámetro de perfil de usuario `user.twogroups` coincida con el valor especificado para GrupoA.
 
 >[!NOTE]
 >
