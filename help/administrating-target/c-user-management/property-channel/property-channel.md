@@ -2,18 +2,18 @@
 keywords: espacios de trabajo;administrar la propiedad;permisos;configuración de producto;perfil de producto;roles;proyecto
 description: Obtenga información sobre cómo crear espacios de trabajo separados (perfiles de producto) y asignar a los usuarios diferentes roles y permisos para páginas, propiedades o sitios web individuales.
 title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
-feature: Administration & Configuration
+feature: Administración y configuración
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3018'
 ht-degree: 59%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Permisos de usuario de Enterprise{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) Permisos de usuario de Enterprise
 
 Los permisos de usuario de Enterprise son un medio para administrar formalmente el acceso de usuarios de toda la empresa a [!DNL Adobe Target]. Agregue usuarios a [!DNL Target], asigne permisos según sus funciones y cree espacios de trabajo para equipos en función de diferentes departamentos, ubicaciones globales, canales y otras agrupaciones lógicas. Puede asignar a los usuarios las funciones de [!UICONTROL Observador], [!UICONTROL Editor] o [!UICONTROL Aprobador].
 
@@ -296,7 +296,7 @@ Objetivos de aprendizaje:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Horario de oficina: Espacios de trabajo de Target Premium
+### Horario de oficina: [!DNL Target] Espacios de trabajo Premium
 
 Este vídeo es una grabación de “Horario de oficina”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
