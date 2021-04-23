@@ -1,19 +1,19 @@
 ---
 keywords: parpadeo;at.js;implementación;asincrónicamente;asincrónico;sincrónico;sincrónico
-description: Descubra cómo at.js y Adobe Target evitan el parpadeo (el contenido predeterminado se muestra momentáneamente antes de ser reemplazado por el contenido de actividad) durante la carga de la página o la aplicación.
+description: Descubra cómo at.js y el Adobe [!DNL Target] evitan el parpadeo (el contenido predeterminado se muestra momentáneamente antes de ser reemplazado por contenido de actividad) durante la carga de la página o la aplicación.
 title: ¿Cómo gestiona at.js el parpadeo?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 76%
 
 ---
 
-
-# Cómo gestiona at.js el parpadeo{#how-at-js-manages-flicker}
+# Cómo gestiona at.js el parpadeo
 
 Información sobre cómo la biblioteca de JavaScript de at.js de Target evita el parpadeo mientras se carga una página o una aplicación.
 
@@ -27,7 +27,7 @@ Si activa el ajuste al configurar at.js, at.js establece la opacidad del estilo 
 
 La opacidad establecida en 0 mantiene el contenido de la página oculto para evitar el parpadeo, pero el navegador sigue procesando la página y carga todos los activos necesarios, como CSS, imágenes, etc.
 
-Si la opacidad 0 no funciona en su implementación, también puede gestionar el parpadeo personalizando `bodyHiddenStyle` y estableciéndolo en `body {visibility:hidden !important}`. Puede usar el cuerpo de valores `{opacity:0 !important}` o `body {visibility:hidden !important}`, lo que mejor funcione para su circunstancia específica.
+Si la opacidad 0 no funciona en su implementación, también puede gestionar el parpadeo personalizando `bodyHiddenStyle` y estableciéndolo en `body {visibility:hidden !important}`. Puede utilizar el cuerpo del valor `{opacity:0 !important}` o `body {visibility:hidden !important}`, el que funcione mejor para sus circunstancias específicas.
 
 La ilustración siguiente muestra las llamadas a Ocultar cuerpo y Mostrar cuerpo en at.js 1.*x* y at.js 2.x.
 
@@ -47,9 +47,9 @@ Cargar at.js de forma asíncrona es un modo excelente de evitar el bloqueo de pr
 
 Puede evitar el parpadeo utilizando un fragmento de ocultamiento previo que será visible después de que [!DNL Target] personalice los elementos HTML relevantes. 
 
-at.js se puede cargar asincrónicamente, ya sea directamente incrustado en la página o a través de un administrador de etiquetas (Inicio de Adobe, Administrador dinámico de etiquetas (DTM), etc.).
+at.js se puede cargar de forma asíncrona, ya sea directamente incrustado en la página o a través de un administrador de etiquetas (Adobe Launch, Dynamic Tag Manager (DTM), etc.).
 
-Si at.js está incrustado en la página, se debe agregar el fragmento antes de cargar at.js. Si carga at.js a través de un administrador de etiquetas, que también se carga asincrónicamente, debe agregar el fragmento antes de cargar el administrador de etiquetas. Si el administrador de etiquetas se carga sincrónicamente, la secuencia de comandos puede incluirse en el administrador de etiquetas antes de at.js.
+Si at.js está incrustado en la página, se debe agregar el fragmento antes de cargar at.js. Si carga at.js a través de un administrador de etiquetas, que también se carga asincrónicamente, debe añadir el fragmento antes de cargar el administrador de etiquetas. Si el administrador de etiquetas se carga sincrónicamente, el script podría incluirse en el administrador de etiquetas antes de at.js.
 
 El fragmento de código de ocultamiento previo es como sigue:
 
@@ -107,11 +107,11 @@ En lugar del predeterminado:
 body {opacity: 0 !important}
 ```
 
-## Administrar parpadeo en at.js 2.x para desencadenadorView()
+## Administrar parpadeo en at.js 2.x para triggerView()
 
 Al utilizar `triggerView()` para mostrar contenido dirigido en su SPA, la administración de parpadeo se proporciona fuera del cuadro. Esto significa que no es necesario agregar manualmente la lógica de ocultamiento previo. En su lugar, at.js 2.x oculta previamente la ubicación donde debe mostrarse la vista antes de aplicar el contenido objetivo.
 
-## Gestionar el parpadeo con getOffer() y applyOffer()
+## Administrar parpadeo con getOffer() y applyOffer()
 
 Dado que tanto `getOffer()` como `applyOffer()` son API de bajo nivel, no hay control integrado de parpadeo. Puede transferir un selector o un elemento HTML como opción para `applyOffer()`, en este caso `applyOffer()` añade el contenido de la actividad a este elemento concreto; sin embargo, debe asegurarse de que el elemento esté oculto previamente de forma correcta antes de invocar a `getOffer()` y `applyOffer()`.
 
