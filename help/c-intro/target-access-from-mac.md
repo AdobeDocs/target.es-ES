@@ -1,28 +1,28 @@
 ---
-keywords: Experience Cloud;iniciar sesión;idioma;idioma ui predeterminado;idioma predeterminado
-description: Obtenga información sobre cómo acceder a Destinatario desde el Adobe Experience Cloud, establecer la vista predeterminada y cambiar el idioma de la interfaz de usuario y la documentación de Destinatario.
-title: ¿Cómo puedo acceder al Destinatario desde el Adobe Experience Cloud?
-feature: Overview
+keywords: Experience Cloud;iniciar sesión;idioma;idioma de la interfaz de usuario predeterminado;idioma predeterminado
+description: Obtenga información sobre cómo acceder a la  [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] IU y la documentación.
+title: ¿Cómo puedo acceder a [!DNL Target] desde Adobe Experience Cloud?
+feature: Información general
+exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 67%
+source-wordcount: '398'
+ht-degree: 62%
 
 ---
 
-
-# Acceder a Target desde Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
+# Acceso [!DNL Target] desde Adobe Experience Cloud
 
 Información sobre el acceso a [!DNL Adobe Target] desde [!DNL Adobe Experience Cloud], la configuración de la página de destino predeterminada y el cambio del idioma de la interfaz de usuario de [!DNL Target].
 
-## Inicie sesión en Adobe Target y defina la vista predeterminada
+## Inicie sesión en el Adobe [!DNL Target] y defina la vista predeterminada
 
-1. Inicie sesión en el [Adobe Experience Cloud](https://experience.adobe.com/).
+1. Inicie sesión en [Adobe Experience Cloud](https://experience.adobe.com/).
 
-1. Haga clic en el **[!UICONTROL icono de la aplicación]** en la barra de navegación y, a continuación, haga clic en **[!UICONTROL Destinatario]**.
+1. Haga clic en el **[!UICONTROL icono de la aplicación]** en la barra de navegación y, a continuación, haga clic en **[!UICONTROL Target]**.
 
-   También puede hacer clic en el panel [!DNL Target] de la ventana principal para acceder a [!DNL Target] (o a cualquier otra [!DNL Adobe Experience Cloud] solución a la que tenga acceso).
+   También puede hacer clic en el panel [!DNL Target] de la ventana principal para acceder a [!DNL Target] (o a cualquier otra solución [!DNL Adobe Experience Cloud] a la que tenga acceso).
 
    ![Icono de aplicación](/help/c-intro/assets/appmenu-new.png)
 
@@ -30,17 +30,17 @@ Información sobre el acceso a [!DNL Adobe Target] desde [!DNL Adobe Experience 
 
    ![Página de destino](/help/c-intro/assets/pagepref-new.png)
 
-## Cambio del idioma predeterminado para la interfaz de usuario de Target {#language}
+## Cambiar el idioma predeterminado para la [!DNL Target] IU {#language}
 
-1. Después de iniciar sesión en [!DNL Adobe Experience Cloud ] o [!DNL Target], haga clic en el avatar de su perfil y, a continuación, haga clic en **[!UICONTROL Editar preferencias]**.
+1. Después de iniciar sesión en [!DNL Adobe Experience Cloud ] o [!DNL Target], haga clic en el avatar de perfil y, a continuación, haga clic en **[!UICONTROL Editar preferencias]**.
 
    ![Editar perfil](/help/c-intro/assets/change-language.png)
 
-1. Haga clic en **[!UICONTROL Cuenta de Adobe]** para acceder al perfil [!DNL Adobe].
+1. Haga clic en **[!UICONTROL Cuenta de Adobe]** para acceder a su perfil [!DNL Adobe].
 
    ![Cuenta de Adobe](/help/c-intro/assets/adobe-account.png)
 
-1. Haga clic en la ficha **[!UICONTROL Notificaciones]** en la barra de menús superior y, a continuación, haga clic en la ficha **[!UICONTROL Preferencias]** en el lado izquierdo.
+1. Haga clic en la pestaña **[!UICONTROL Notifications]** en la barra de menús superior y, a continuación, haga clic en la pestaña **[!UICONTROL Preferences]** a la izquierda.
 
    ![Idiomas preferidos](/help/c-intro/assets/prefered-language.png)
 
@@ -65,7 +65,7 @@ Información sobre el acceso a [!DNL Adobe Target] desde [!DNL Adobe Experience 
 
 1. Cierre la sesión de [!DNL Adobe Experience Cloud] o [!DNL Target], e inicie sesión de nuevo para que los cambios surtan efecto.
 
-## Cambiar el idioma de la documentación del producto de Target {#doc-lang}
+## Cambiar el idioma de la [!DNL Target] documentación del producto {#doc-lang}
 
 La configuración del sistema operativo o del explorador debe detectar su idioma preferido y mostrar la documentación en ese idioma (si está disponible). [!DNL Target]La documentación de se traduce automáticamente y se sincroniza con la versión en inglés en cuestión de horas después de realizar cambios en la documentación en inglés.
 
