@@ -1,16 +1,16 @@
 ---
 keywords: prioridad;crear experiencia;prioridad;experiencia;audiencia;experiencia;convertir experiencias;compositor de experiencias visuales;visual experience composer
-description: Descubra cómo los visitantes pueden cambiar entre experiencias en una actividad de Adobe Target Experience Targeting (XT) a medida que evolucionan sus perfiles.
-title: ¿Pueden los Visitantes cambiar experiencias en una Actividad de segmentación de experiencias?
-feature: Experience Targeting
+description: Descubra cómo los visitantes pueden cambiar entre experiencias en una actividad de Adobe [!DNL Target] Segmentación de experiencias (XT) a medida que evolucionan sus perfiles.
+title: ¿Pueden los visitantes cambiar experiencias en una actividad de segmentación de experiencias?
+feature: Segmentación de experiencias
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 96%
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
-
 
 # Cambiar experiencias en segmentación de experiencias
 
@@ -72,4 +72,3 @@ Para aprovechar estas capacidades en [!DNL Target], es importante entender la si
    Es importante tener esto en cuenta cuando es posible que un visitante cumpla los requisitos de más de una de sus audiencias. Por ejemplo, si tiene dos experiencias, una dirigida a “Estados Unidos” y otra a “Nueva York”, un visitante en Nueva York cumpliría los requisitos para ambas audiencias. Por lo tanto, debe asegurarse de que la experiencia “Nueva York” se define antes que “Estados Unidos” en la interfaz de usuario de Target. De este modo se asegura de que la experiencia más dirigida, “Nueva York”, tenga mayor prioridad, como se muestra en el siguiente ejemplo:
 
    ![Prioridad NY > EE. UU.](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-
