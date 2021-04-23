@@ -1,26 +1,26 @@
 ---
 keywords: diseño de recomendaciones;crear diseño;copiar diseño
-description: Aprenda a crear un diseño de Adobe Target Recommendations con un diseño predeterminado o creando un diseño personalizado que se ajuste mejor al diseño de la página.
-title: ¿Cómo puedo crear un diseño en Recommendations?
+description: Aprenda a crear un diseño de Adobe [!DNL Target] Recommendations con un diseño predeterminado o creando un diseño personalizado que se ajuste mejor al diseño de la página.
+title: ¿Cómo creo un diseño en Recommendations?
 feature: Recommendations
+exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Crear un diseño{#create-a-design}
+# ![PREMIUM](/help/assets/premium.png) Crear un diseño
 
 Un diseño define el modo en que las recomendaciones aparecen en una página.
 
-Puede crear un diseño de [!UICONTROL Recommendations] usando un diseño predeterminado o creando uno personalizado. La pantalla **[!UICONTROL Recommendations > Diseños]** muestra tanto las tarjetas de diseño predeterminadas como los diseños que se han creado en la cuenta.
+Puede crear un diseño de [!UICONTROL Recommendations] usando un diseño predeterminado o creando uno personalizado. La pantalla **[!UICONTROL Recommendations > Diseños]** muestra las tarjetas de diseño predeterminadas y los diseños que se han creado en la cuenta.
 
 Tenga en cuenta la siguiente información cuando trabaje con diseños:
 
-* Puede crear un diseño de recomendaciones utilizando un diseño predeterminado o puede crear un diseño personalizado.
+* Puede crear un diseño de recomendaciones utilizando un diseño predeterminado o un diseño personalizado.
 * No se puede editar ni eliminar un diseño predeterminado.
 * Puede editar, copiar o eliminar un diseño personalizado.
 * Para crear un diseño basado en un diseño predeterminado, primero debe copiar el diseño y luego editar la copia.
@@ -33,19 +33,19 @@ Esta ilustración muestra un diseño personalizado:
 
 ![Diseño personalizado](/help/c-recommendations/c-design-overview/assets/custom-design.png)
 
-Puede crear un diseño durante el proceso de creación de actividades desde el Compositor de experiencias visuales (VEC) o desde la biblioteca de diseño fuera de la creación de actividades. Las siguientes secciones suponen que está creando diseños desde la biblioteca, pero los pasos son similares.
+Puede crear un diseño durante el proceso de creación de actividades desde el Compositor de experiencias visuales (VEC) o desde la biblioteca de diseño fuera de la creación de actividades. En las secciones siguientes se presupone que está creando diseños a partir de la biblioteca, pero los pasos son similares.
 
 ## Creación de diseños
 
-Puede crear un diseño basado en un diseño predeterminado o puede crear un diseño personalizado.
+Puede crear un diseño basado en un diseño predeterminado o uno personalizado.
 
 ### Crear un diseño basado en un diseño predeterminado
 
 1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Diseños]** para mostrar la biblioteca [!UICONTROL Diseños].
 
-   ![Biblioteca de diseños](/help/c-recommendations/c-design-overview/assets/design-library.png)
+   ![Diseña la biblioteca](/help/c-recommendations/c-design-overview/assets/design-library.png)
 
-1. Pase el ratón sobre la tarjeta del diseño que desee crear y, a continuación, haga clic en el icono **[!UICONTROL Copiar]**.
+1. Pase el ratón sobre la tarjeta del diseño que desea crear y, a continuación, haga clic en el icono **[!UICONTROL Copiar]**.
 
    ![](assets/Card_CopyDesign.png)
 
@@ -53,15 +53,15 @@ Puede crear un diseño basado en un diseño predeterminado o puede crear un dise
 
    ![](assets/createDesign.png)
 
-1. En el panel **[!UICONTROL Información]**, agregue una **[!UICONTROL Nombre del contenido]** e imagen de previsualización opcional para mostrarla en la tarjeta de diseño.
+1. En el panel **[!UICONTROL Información]**, añada un **[!UICONTROL Nombre de contenido]** y una imagen de vista previa opcional para mostrarla en la tarjeta de diseño.
 
-   Cuando se utiliza un diseño predeterminado, el nombre del diseño y &quot;Copiar&quot; aparecen en el campo **[!UICONTROL Nombre del contenido]**. Puede editar el nombre. También puede seleccionar una imagen para mostrarla en la tarjeta de diseño.
+   Cuando se utiliza un diseño predeterminado, el nombre del diseño y &quot;Copiar&quot; aparecen en el campo **[!UICONTROL Nombre de contenido]**. Puede editar el nombre. También puede seleccionar una imagen para mostrarla en la tarjeta de diseño.
 
-1. (Condicional) Edite el diseño **[!UICONTROL Code]** según lo desee.
+1. (Condicional) Edite el diseño **[!UICONTROL Code]** según sus preferencias.
 
-   Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Puede encontrar información sobre Velocity en [https://velocity.apache.org](https://velocity.apache.org) y en [Personalice un diseño con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
+   Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Puede encontrar información sobre Velocity en [https://velocity.apache.org](https://velocity.apache.org) y en [Personalizar un diseño mediante Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Un diseño puede ser HTML o no HTML. De forma predeterminada, los diseños HTML se encapsulan con una `<div>` etiqueta para permitir el seguimiento de clics en un entorno web. Los diseños que no son HTML son para entornos que no son de web donde los clics no se pueden rastrear. Deslice el [!UICONTROL Diseño HTML] para cambiar a la posición &quot;off&quot; para utilizar código que no sea HTML.
+   Un diseño puede ser HTML o no HTML. De forma predeterminada, los diseños HTML se encapsulan con una `<div>` etiqueta para permitir el seguimiento de clics en un entorno web. Los diseños que no son HTML son para entornos que no son de web donde los clics no se pueden rastrear. Deslice la opción [!UICONTROL HTML Design] a la posición &quot;off&quot; para utilizar código que no sea HTML.
 
    >[!NOTE]
    >
@@ -75,11 +75,11 @@ Puede crear un diseño basado en un diseño predeterminado o puede crear un dise
 
 1. Haga clic en **[!UICONTROL Crear diseño]**.
 
-   Si desea basar el nuevo diseño personalizado en un diseño existente, pase el ratón por encima del diseño deseado y haga clic en el icono [!UICONTROL Copiar]. A continuación, puede editar la copia para crear un nuevo diseño personalizado.
+   Si desea basar el nuevo diseño personalizado en un diseño existente, pase el ratón sobre el diseño que quiera y luego haga clic en el icono [!UICONTROL Copiar]. A continuación, puede editar la copia para crear un nuevo diseño personalizado.
 
-1. Añada un **[!UICONTROL Nombre del contenido]** y una imagen de previsualización opcional.
+1. Agregue un **[!UICONTROL Nombre de contenido]** y una imagen de vista previa opcional.
 
-1. (Condicional) Edite el diseño **[!UICONTROL Code]** según lo desee.
+1. (Condicional) Edite el diseño **[!UICONTROL Code]** según sus preferencias.
 
    Consulte la información del paso 4 anterior para obtener más información.
 
@@ -91,9 +91,9 @@ Recuerde que no puede editar ni copiar un diseño predeterminado; solo puede cop
 
 Pase el ratón sobre el diseño deseado en la biblioteca [!UICONTROL Design] y haga clic en el icono correspondiente: editar, copiar o eliminar.
 
-![Iconos del ratón sobre un diseño](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+![Iconos al pasar el ratón por encima de un diseño](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
-Puede copiar un diseño existente para crear un diseño de duplicado que luego pueda modificar. Esto le permite crear un diseño similar con menos esfuerzo.
+Puede copiar un diseño existente para crear un diseño duplicado que luego pueda modificar. Esto permite crear un diseño similar con menos esfuerzo.
 
 Tenga en cuenta que los diseños están disponibles en toda la cuenta. Asegúrese de tener esto en cuenta antes de eliminar un diseño. Los diseños eliminados no se pueden recuperar.
 
@@ -107,7 +107,7 @@ El siguiente ejemplo muestra cómo se pueden devolver las respuestas JSON al con
 
    ![](assets/html_design_toggle.png)
 
-1. El siguiente código es un ejemplo de lo que se puede pegar en el diseño:
+1. El siguiente código es un ejemplo de lo que puede pegar en el diseño:
 
    ```javascript
        #* 
@@ -140,18 +140,18 @@ El siguiente ejemplo muestra cómo se pueden devolver las respuestas JSON al con
 
    1. Vaya a la página **[!UICONTROL Actividades]**.
    1. Haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Recomendaciones]**.
-   1. En **[!UICONTROL Elija Compositor de experiencias]**, seleccione **[!UICONTROL Formulario]** y haga clic en **[!UICONTROL Siguiente]**.
+   1. En **[!UICONTROL Elegir Compositor de experiencias]**, seleccione **[!UICONTROL Formulario]** y haga clic en **[!UICONTROL Siguiente]**.
    1. En Ubicación, introduzca el texto: “Sample_Recs_Response”
    1. En **[!UICONTROL Contenido predeterminado]**, haga clic en la flecha hacia abajo y, a continuación, haga clic en **[!UICONTROL Añadir recomendación]**.
    1. Elija un tipo de página. Esto determina el filtrado inicial de la siguiente pantalla.
    1. Seleccione una tarjeta Criterios y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
-   1. Seleccione el diseño que creó en el paso anterior y haga clic en **[!UICONTROL Siguiente]**.
+   1. Seleccione el diseño que creó en el paso anterior y haga clic en **[!UICONTROL Next]**.
    1. Complete el proceso de configuración.
    1. Haga clic en la flecha derecha situada junto a **[!UICONTROL Inactivo]** y, a continuación, seleccione **[!UICONTROL Activar]**.
 
 1. Una vez configurada y activada la actividad, puede configurar una solicitud de muestra para recuperar la respuesta JSON limpia.
 
-   Desde el momento en que guarde la actividad, [!DNL Target] deberá crear un modelo para admitir la configuración de criterios seleccionada. En función de una serie de factores, esto puede llevar cierto tiempo. Los resultados aparecen una vez creado el modelo.
+   Desde el momento en que guarda la actividad, [!DNL Target] tendrá que crear un modelo para admitir la configuración de criterios seleccionada. En función de una serie de factores, esto puede llevar cierto tiempo. Los resultados aparecen una vez creado el modelo.
 
    Por ejemplo:
 
@@ -163,8 +163,8 @@ El siguiente ejemplo muestra cómo se pueden devolver las respuestas JSON al con
 
    | Parámetro | Valor |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Código de cliente de destinatario (disponible en /help/target/products.html#recsSettings > Token de API de Recommendations > Código de cliente). |
-   | `[YOUR_MBOX_NAME]` | Nombre seleccionado en la sección &quot;ubicaciones&quot; del Recommendations basado en formularios, en este caso Sample_Recs_Response. |
+   | `[YOUR_CLIENT_CODE]` | Código de cliente de Target (disponible en /help/target/products.html#recsSettings > Token de la API de Recommendations > Código de cliente). |
+   | `[YOUR_MBOX_NAME]` | El nombre que ha seleccionado en la sección &quot;ubicaciones&quot; de Recommendations basado en formularios, en este caso Sample_Recs_Response. |
    | `[ENTITY_ID` | El `entity.id` de un artículo del catálogo. |
    | `[AT_PROPERTY_TOKEN]` | (Opcional) Añada este parámetro si ha seleccionado una Propiedad (parte de los permisos de empresa) durante la configuración de la actividad. |
 
@@ -180,7 +180,7 @@ También puede enviar una sencilla lista de elementos delimitada por comas confi
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Alternativamente, también puede enviar información adicional en la respuesta. El siguiente archivo de código es un ejemplo más complejo que devuelve mucho más que los identificadores de la entidad con sus espacios asociados (solicitud). Este ejemplo de diseño también devuelve detalles de actividad, detalles de Perfil de Destinatario (según corresponda) y otros `entity.attributes` asociados con los elementos devueltos.
+Alternativamente, también puede enviar información adicional en la respuesta. El siguiente archivo de código es un ejemplo más complejo que devuelve mucho más que los identificadores de la entidad con sus espacios asociados (solicitud). Este ejemplo de diseño también devuelve detalles de la actividad, detalles del perfil de Target (según corresponda) y otros `entity.attributes` asociados con los elementos devueltos.
 
 ```javascript
     {   
@@ -320,7 +320,7 @@ Alternativamente, también puede enviar información adicional en la respuesta. 
     }  
 ```
 
-## Vídeo de capacitación: Crear diseños personalizados en Recommendations (3:20) ![Distintivo de información general](/help/assets/overview.png)
+## Vídeo de formación: Crear diseños personalizados en Recommendations (3:20) ![Distintivo Información general](/help/assets/overview.png)
 
 Este vídeo contiene la información siguiente:
 
