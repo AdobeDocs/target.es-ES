@@ -1,16 +1,16 @@
 ---
-keywords: experiencia;compositor de experiencias visuales;compositor de experiencias mejorado;compositor de experiencias basadas en formularios;compositor de formularios;compositor visual;compositor de experiencias;contenido mixto;iframe;eliminación de iframes;iframe;opciones de x-frame;opciones de x-frame;origen cruzado;problemas de orígenes cruzados;flujo de trabajo de autenticación
-description: Obtenga más información sobre el Compositor de experiencias visuales (VEC), el Compositor de experiencias basadas en formularios y el Compositor de experiencias visuales de una sola página.
-title: ¿Qué Compositores de experiencias Oferta Destinatario?
-feature: Experiences and Offers
+keywords: experiencia;compositor de experiencias visuales;compositor de experiencias mejorado;compositor de experiencias basadas en formularios;compositor de formularios;compositor visual;compositor de experiencias;contenido mixto;iframe;eliminación de iframes;iframe;opciones de x-frame;opciones de x-frame;origen cruzado;problemas de origen cruzado;flujo de trabajo de autenticación
+description: Obtenga más información sobre el Compositor de experiencias visuales de Adobe (VEC), el Compositor de experiencias basadas en formularios y el Compositor de experiencias visuales de una sola página.
+title: ¿Qué compositores de experiencias ofrece [!DNL Target] ?
+feature: Experiencias y ofertas
+exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 79%
+source-wordcount: '383'
+ht-degree: 78%
 
 ---
-
 
 # Experiencias y ofertas
 
