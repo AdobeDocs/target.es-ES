@@ -1,13 +1,13 @@
 ---
 keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;faq;solución de problemas;solucionar problemas
-description: Descubra cómo una actividad de segmentación automática en Target ofrece la experiencia más adaptada a cada visitante en función de los perfiles de los clientes y el comportamiento de visitantes similares.
+description: Descubra cómo una actividad de segmentación automática en [!DNL Target] ofrece la experiencia más adaptada a cada visitante en función de los perfiles de los clientes y el comportamiento de visitantes similares.
 title: ¿Qué es una actividad de segmentación automática?
-feature: Auto-Target
+feature: Segmentación automática
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1992'
 ht-degree: 70%
 
 ---
