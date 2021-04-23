@@ -1,19 +1,19 @@
 ---
 keywords: aplicación móvil;sdk de aplicación móvil;aplicación móvil target;sdk de target móvil;sdk de aplicación móvil; habilitar target en sdk
-description: Obtenga información sobre cómo añadir el SDK de Adobe Mobile Services a su aplicación móvil.
-title: ¿Cómo se habilita el Destinatario en el SDK de Adobe Mobile?
-feature: Implement Mobile
+description: Aprenda a añadir el SDK de Adobe Mobile Services a su aplicación móvil.
+title: ¿Cómo se habilita [!DNL Target] en el SDK de Adobe Mobile?
+feature: Implementar Mobile
 role: Developer
+exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
-
-# Habilitar Target en el SDK{#enable-target-in-the-sdk}
+# Habilitar [!DNL Target] en el SDK
 
 Añada el SDK de Adobe Mobile Services a su aplicación.
 
@@ -27,7 +27,7 @@ Añada el SDK de Adobe Mobile Services a su aplicación.
 
    En Experience Cloud, abra Mobile Services y vaya a **[!UICONTROL Administrar configuración de aplicación]** > **[!UICONTROL Opciones de Target de SDK]**.
 
-   Añada el código de cliente y el tiempo de espera de Target. El código de cliente es exclusivo de la cuenta o compañía. El tiempo de espera es el número de segundos que Target espera la respuesta antes de mostrar el contenido predeterminado. Compruebe que la opción **[!UICONTROL Utilizar HTTPS]** esté marcada en la página Administrar configuración de aplicación de Adobe Mobile Services. Si HTTPS no está habilitado, todas las llamadas en iOS9+ se bloquearán a menos que lista de permitidos al servidor de Destinatario.
+   Añada el código de cliente y el tiempo de espera de Target. El código de cliente es exclusivo de la cuenta o compañía. El tiempo de espera es el número de segundos que Target espera la respuesta antes de mostrar el contenido predeterminado. Compruebe que la opción **[!UICONTROL Utilizar HTTPS]** esté marcada en la página Administrar configuración de aplicación de Adobe Mobile Services. Si HTTPS no está habilitado, todas las llamadas que se hagan en iOS9+ se bloquearán a menos que realice la lista de permitidos del servidor de Target.
 
    ![](assets/mobile-clientcode.png)
 
@@ -38,4 +38,3 @@ Añada el SDK de Adobe Mobile Services a su aplicación.
 >[!IMPORTANT]
 >
 > Si no tiene acceso a la interfaz de marketing móvil, puede hacer los cambios directamente en el archivo de configuración en el código de la aplicación, pero no se sincronizarán con la página de configuración de la interfaz de usuario.
-
