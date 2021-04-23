@@ -1,19 +1,19 @@
 ---
 keywords: aplicación móvil;ubicación de aplicación móvil;aplicación móvil de Target;ubicaciones de Target móvil;métricas de éxito de aplicaciones móviles
-description: Utilice el código de muestra de vista para aprender a crear ubicaciones y métricas de éxito en las aplicaciones de iOS y así poder personalizar y optimizar la aplicación con Adobe Target.
-title: ¿Cómo se crean ubicaciones de Destinatario y métricas de éxito en una aplicación de iOS?
-feature: Implement Mobile
+description: Vea código de muestra para aprender a crear ubicaciones y métricas de éxito en aplicaciones iOS, de modo que pueda utilizar Adobe [!DNL Target] para personalizar y optimizar su aplicación.
+title: ¿Cómo creo  [!DNL Target] ubicaciones y métricas de éxito en una aplicación iOS?
+feature: Implementar Mobile
 role: Developer
+exl-id: c2f05478-b019-47a7-b1a5-3783929e6732
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 83%
+source-wordcount: '419'
+ht-degree: 81%
 
 ---
 
-
-# iOS: crear una ubicación y una métrica de éxito de Target{#ios-create-a-target-location-and-success-metric}
+# iOS: crear una ubicación [!DNL Target] y una métrica de éxito
 
 Para usar Target en una aplicación móvil, cree una ubicación y una métrica de éxito.
 
@@ -21,7 +21,7 @@ Esta sección incluye código de ejemplo que se puede usar como plantilla en la 
 
 >[!NOTE]
 >
->Consulte la [documentación de Mobile](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) para obtener una lista de todos los métodos de Destinatario disponibles.
+>Consulte la [Documentación móvil](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) para obtener una lista de todos los métodos de Target disponibles.
 
 Para crear una ubicación de Target en la aplicación y realizar una solicitud, existen dos métodos principales:
 
