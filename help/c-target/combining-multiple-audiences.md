@@ -1,18 +1,18 @@
 ---
 keywords: audiencia;reglas de audiencia;combinar audiencias;combinación de audiencias;exclusión;añadir exclusión;excluir;audiencia específica
-description: Aprenda a combinar varias audiencias (incluidas audiencias de Adobe Experience Cloud y audiencias de Destinatario) sobre la marcha para crear audiencias ad hoc.
-title: ¿Puedo combinar varias Audiencias para crear una nueva Audiencia?
-feature: Audiences
+description: Aprenda a combinar varias audiencias (incluidas las de Adobe Experience Cloud y las  [!DNL Target] audiencias) sobre la marcha para crear audiencias ad-hoc.
+title: ¿Puedo combinar varias audiencias para crear una nueva?
+feature: Audiencias
+exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 95%
 
 ---
 
-
-# Combinación de varias audiencias{#combine-multiple-audiences}
+# Combinación de varias audiencias
 
 Combine varias audiencias (incluidas las de Adobe Experience Cloud y las de Target) sobre la marcha para crear audiencias ad-hoc. También puede crear reglas de exclusión y excluir audiencias de una regla.
 
@@ -112,7 +112,7 @@ Cuando edita una actividad existente, puede crear una audiencia combinada ad-hoc
 
    Haga clic en la actividad para abrirla y luego haga clic en **[!UICONTROL Editar actividad]**.
 
-1. Haga clic en **[!UICONTROL Configurar]** > **[!UICONTROL Audiencias]** > **[!UICONTROL Varias Audiencias]**.
+1. Haga clic en **[!UICONTROL Configurar]** > **[!UICONTROL Audiencias]** > **[!UICONTROL Varias audiencias]**.
 
    ![Configurar > Audiencias > Varias audiencias](/help/c-target/assets/combine_multiple_audiences7.png)
 
