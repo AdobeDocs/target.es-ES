@@ -1,14 +1,14 @@
 ---
 keywords: lista de actividades;actividades;actividad;tipos de actividades;editar actividad;acciones de actividad;atributo de actividad;filtro de lista de actividades;limitaciones de actividades;personalización;personalización
-description: Descubra cómo las actividades en Adobe Target le permiten personalizar el contenido para audiencias específicas y probar diseños de página
+description: Descubra cómo las actividades en Adobe [!DNL Target] le permiten personalizar el contenido para audiencias específicas y probar los diseños de página
 title: ¿Cómo puedo personalizar el contenido y probar los diseños de página con Target?
-feature: Activities
+feature: Actividades
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 92%
+source-wordcount: '2097'
+ht-degree: 91%
 
 ---
 
@@ -144,7 +144,7 @@ Si incrementa los números de estos artículos en su actividad, también se incr
 
 Para límites adicionales del Compositor de experiencias visuales, consulte [Limitaciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
-## Atributos importados en Target para actividades actualizadas fuera de Target {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## Atributos importados en [!DNL Target] para actividades actualizadas fuera de [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 Si las actividades creadas en [!DNL Target] se actualizan desde fuera de [!DNL Target] (por ejemplo, mediante Adobe I/O), los siguientes atributos de actividad se importan de vuelta en [!DNL Target]:
 
