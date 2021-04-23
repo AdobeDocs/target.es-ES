@@ -1,18 +1,18 @@
 ---
 keywords: Segmentación;audiencias;segmento de porcentaje
-description: Descubra cómo usar audiencias en Adobe Target para destinatario de contenido y experiencias diferentes en audiencias específicas para optimizar sus esfuerzos de mercadotecnia web.
-title: ¿Cómo puedo usar Audiencias para Destinatario de contenido diferente a segmentos específicos?
-feature: Audiences
+description: Aprenda a utilizar audiencias en Adobe [!DNL Target] para segmentar contenido y experiencias diferentes para audiencias específicas a fin de optimizar los esfuerzos de marketing web.
+title: ¿Cómo puedo usar audiencias para [!DNL Target] contenido diferente para segmentos específicos?
+feature: Audiencias
+exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 89%
+source-wordcount: '357'
+ht-degree: 90%
 
 ---
 
-
-# Audiencias{#audiences}
+# Audiencias
 
 Utilice audiencias para segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para cada tipo de persona y en el momento adecuado.
 
@@ -28,7 +28,7 @@ Cuando un visitante llega a una página donde ha configurado una actividad, [!DN
 
 Si el visitante cumple los criterios para pertenecer a una audiencia segmentada, [!DNL Target] determina qué experiencia se mostrará según los criterios definidos cuando se creó la actividad.
 
-## Vídeo de formación: Segmentación de actividades  (2:13)  ![Insignia de tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Segmentación de actividades  (2:13)  ![Distintivo del tutorial](/help/assets/tutorial.png)
 
 Este vídeo incluye información sobre cómo configurar la segmentación y las audiencias.
 
