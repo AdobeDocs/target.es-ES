@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n;tamaño de muestra;calculadora de tamaño de muestra;asignación automática;asignación automática;calculadora
-description: Obtenga información sobre cuánto tiempo se debe ejecutar una prueba A/B. Una prueba A/B exitosa en Adobe Target requiere visitantes suficientes (tamaño de muestra) para mejorar la tasa de conversión.
+description: Obtenga información sobre cuánto tiempo se debe ejecutar una prueba A/B. Una prueba A/B exitosa en Adobe [!DNL Target] requiere visitantes suficientes (tamaño de muestra) para mejorar la tasa de conversión.
 title: ¿Durante cuánto tiempo debo ejecutar una prueba A/B?
-feature: A/B Tests
+feature: Pruebas A/B
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 translation-type: tm+mt
-source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3063'
 ht-degree: 63%
 
 ---
-
 
 # ¿Durante cuánto tiempo se debe ejecutar una prueba A/B?
 
@@ -38,7 +38,7 @@ Al utilizar la función de [!UICONTROL asignación automática], [!DNL Adobe Tar
 
 Para obtener más información, consulte [Información general de asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Calculadora de tamaño de muestra de Adobe Target.   {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Calculadora de tamaño de muestra [!DNL Target] de Adobe {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Si elige utilizar una actividad [!UICONTROL Prueba A/B] manual en lugar de [!UICONTROL Asignación automática], la [!DNL Target] Calculadora de tamaño de muestra le ayuda a determinar el tamaño de muestra necesario para una prueba con éxito. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta útil. El uso de la calculadora para una actividad [!UICONTROL de asignación automática] es opcional porque [!UICONTROL Asignación automática] declara un ganador por usted. La calculadora proporciona una estimación aproximada del tamaño de la muestra necesario. Siga leyendo para obtener más información sobre cómo usar la calculadora.
 
