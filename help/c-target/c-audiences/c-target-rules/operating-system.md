@@ -1,18 +1,18 @@
 ---
 keywords: Segmentación;sistema operativo Target;sistema operativo;so target;target en linux;linux;target en windows;windows;target en macintosh;macintosh;mac;target en mac;win;target en win
-description: Aprenda a destinatario de visitantes que utilizan un sistema operativo determinado (Linux, Macintosh o Windows).
-title: ¿Puedo Destinatario de Visitantes según el sistema operativo?
-feature: Audiences
+description: Aprenda a dirigirse a visitantes que usen un sistema operativo determinado (Linux, Macintosh o Windows).
+title: ¿Puedo  [!DNL Target] Visitantes en función del sistema operativo?
+feature: Audiencias
+exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 82%
 
 ---
 
-
-# Sistema operativo{#operating-system}
+# Sistema operativo
 
 Puede segmentar visitantes que usen un sistema operativo determinado.
 
