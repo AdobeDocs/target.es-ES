@@ -1,18 +1,18 @@
 ---
 keywords: informes;informes de descargas;csv;métricas de éxito;detalles de pedidos
-description: Obtenga información sobre cómo descargar datos de actividades de Adobe Target en formato CVS para poder importarlos rápidamente a Excel, Access u otros programas de análisis de datos.
+description: Aprenda a descargar datos de actividades de Adobe [!DNL Target] en formato CVS para poder importarlos rápidamente a Excel, Access u otros programas de análisis de datos.
 title: ¿Cómo Descargo Datos De Informes En Un Archivo CSV?
-feature: Reports
+feature: Informes
+exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
-
-# Descarga de datos en un archivo CSV{#downloading-data-in-a-csv-file}
+# Descarga de datos en un archivo CSV
 
 Descargue datos en formato .csv para poder importarlos rápidamente a Excel, Access o cualquier otro programa de análisis de datos.
 
@@ -41,11 +41,11 @@ Los datos se guardan hasta que finaliza la actividad.
 
 >[!NOTE]
 >
->El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza que se utilizan en las pruebas A/B. Para calcular estas métricas calculadas, descargue el archivo de Excel [Calculadora de confianza completa](/help/assets/complete_confidence_calculator.xlsx) del Destinatario para introducir el valor de la actividad o revise los [cálculos estadísticos utilizados por Destinatario](/help/assets/statistical-calculations.pdf).
+>El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B. Para calcular estas métricas calculadas, descargue el archivo de Excel [Calculadora de confianza completa](/help/assets/complete_confidence_calculator.xlsx) de Target para introducir el valor de la actividad o revisar los [cálculos estadísticos utilizados por Target](/help/assets/statistical-calculations.pdf).
 
 ## Exportar detalles del pedido a un archivo .csv {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-El informe Detalles del pedido muestra información sobre los pedidos, entre ellos:
+El informe Detalles del pedido muestra información sobre sus pedidos, que incluye:
 
 * Hora y fecha del pedido
 * Cantidad de pedido (si insertó un mbox de realización de pedido)
@@ -84,7 +84,7 @@ El informe Detalles del pedido muestra información sobre los pedidos, entre ell
 
 La información siguiente se refiere a la opción Descargar:
 
-* Puede descargar ambos informes para las actividades A/B Test, Automated Personalization, Segmentación de experiencias y multivariable. No puede descargar el informe de métricas de éxito para actividades de Recommendations.
+* Puede descargar ambos informes para pruebas A/B, Automated Personalization, Segmentación de experiencias y actividades multivariable. No puede descargar el informe de métricas de éxito para actividades de Recommendations.
 * La opción Descargar no está disponible para actividades A/B ni Segmentación de experiencias creadas antes de la versión 15.7.1 de Target (julio de 2015).
 * Las experiencias que no tienen datos asociados no se registran en el informe descargado.
 * Las audiencias aplicadas en la interfaz de usuario de informes de Target no se transmiten al informe de descarga.
