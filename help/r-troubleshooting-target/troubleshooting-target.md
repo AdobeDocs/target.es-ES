@@ -5,9 +5,9 @@ title: ¿Cómo puedo solucionar problemas de Target?
 feature: 'Resolución de problemas  '
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '452'
 ht-degree: 88%
 
 ---
@@ -139,7 +139,7 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 ## Toma de decisiones en el dispositivo
 
-* [Toma de decisiones en el dispositivo para at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* [Resolución de problemas de la toma de decisiones en el dispositivo para at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
 ## Creación de informes
 
