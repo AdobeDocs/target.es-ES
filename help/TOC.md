@@ -4,9 +4,9 @@ breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1607'
 ht-degree: 74%
 
 ---
@@ -103,6 +103,7 @@ ht-degree: 74%
             + [Información general sobre la toma de decisiones en dispositivos](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
             + [Funciones compatibles. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
             + [Error de regla](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
+            + [Resolución de problemas  ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
          + Cómo funciona at.js {#at-js}
             + [Información general sobre el funcionamiento de at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [Cómo gestiona at.js el parpadeo](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
