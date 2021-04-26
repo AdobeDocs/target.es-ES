@@ -5,9 +5,9 @@ title: ¿Dónde puedo ver las actualizaciones de documentación de Target?
 feature: ' Notas de la versión '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '897'
 ht-degree: 31%
 
 ---
@@ -38,7 +38,7 @@ Esta página enumera los cambios significativos realizados en la documentación 
 | --- | --- | --- |
 | Abril de 9 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información previa al lanzamiento de la versión 2.5.0 de at.js (19 de abril de 2021) |
 | Abril de 9 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información previa al lanzamiento de la versión Target Standard/Premium 21.4.1 (19 de abril de 2021) |
-|  | [Integrar Recommendations con el correo electrónico](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | Se ha añadido la siguiente sección: &quot;Directrices de capacidad para las opciones 1 y 2.&quot; |
+|  | [Integrar Recommendations con el correo electrónico](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Se agregó una nota que describe las directrices de capacidad para las opciones 1 y 2. |
 | Marzo de 29 | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Se ha añadido una nueva pregunta frecuente:<ul><li>¿Las recomendaciones basadas en artículos vistos recientemente persisten en varios dispositivos para un único visitante?</li></ul> |
 | Marzo de 23 | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se han añadido las notas de la versión 2.4.1 de at.js. |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se han añadido las notas de la versión 2.4.1 de at.js. |
