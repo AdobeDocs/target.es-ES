@@ -2,14 +2,14 @@
 keywords: implementación;biblioteca javascript;js;atjs;toma de decisiones en el dispositivo;en la toma de decisiones del dispositivo;at.js;en el dispositivo;en el dispositivo
 description: Aprenda a tomar decisiones en el dispositivo con la biblioteca at.js
 title: ¿Cómo funciona la toma de decisiones en el dispositivo con la biblioteca JavaScript at.js?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 7%
+source-wordcount: '3747'
+ht-degree: 6%
 
 ---
 
@@ -109,7 +109,7 @@ La siguiente lista corresponde a los números del diagrama:
 
 | Paso   | Descripción |
 | --- | --- |
-| 3 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
 | 1 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | La biblioteca at.js realiza una solicitud para recuperar el artefacto de regla JSON de la CDN de Akamai más cercana al visitante. |
@@ -169,7 +169,7 @@ La siguiente lista corresponde a los números del diagrama:
 | --- | --- |
 | 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
-| 3 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
+| 1 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | Se realiza una solicitud de carga de página en la red perimetral de Adobe Target, que incluye todos los parámetros configurados como (ECID, ID de cliente, parámetros personalizados, perfil de usuario, etc.). |
 | 5 | En paralelo, at.js realiza una solicitud para recuperar el artefacto de regla JSON de la CDN de Akamai más cercana al visitante. |
 | 6 | (Adobe Target Edge Network) Los scripts de perfil se ejecutan y luego se alimentan en el Almacenamiento de perfiles. El Almacenamiento de perfiles solicita audiencias de la Biblioteca de audiencias que cumplan los requisitos (por ejemplo, audiencias compartidas de [!DNL Adobe Analytics], [!DNL Adobe Audience Manager], etc.). |
@@ -195,7 +195,7 @@ La siguiente lista corresponde a los números del diagrama:
 
 | Paso   | Descripción |
 | --- | --- |
-| 3 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | El [!DNL Experience Cloud Visitor ID] se recupera del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento.<br>La biblioteca at.js también se puede cargar de forma asíncrona con un fragmento de ocultamiento previo opcional implementado en la página. |
 | 1 | La biblioteca at.js oculta el cuerpo para evitar parpadeos. |
 | 4 | Se realiza una solicitud para recuperar una experiencia. |
@@ -329,3 +329,63 @@ Puede filtrar todas las actividades que cumplen los requisitos para la toma de d
 1. Cree y active un tipo de actividad [compatible con la toma de decisiones en el dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md) y verifique que sea apto para la toma de decisiones en el dispositivo.
 1. Establezca el **[!UICONTROL Método de toma de decisiones]** en **[!UICONTROL &quot;Híbrido&quot;]** o **[!UICONTROL &quot;Solo en el dispositivo&quot;]** a través de la interfaz de usuario de la configuración de at.js.
 1. Descargue e implemente At.js 2.5.0+ en sus páginas.
+
+## Resolución de problemas  
+
+Complete los siguientes pasos para solucionar problemas de la toma de decisiones en el dispositivo:
+
+1. Habilitar el registro de la consola para at.js
+1. Verifique la descarga de artefactos de reglas en la pestaña Red del explorador
+1. Verifique la descarga de artefactos de reglas mediante eventos personalizados de at.js
+
+Las secciones siguientes describen cada paso con más detalle:
+
+### Paso 1: Habilitar el registro de la consola para at.js
+
+Añadir el parámetro de URL `mboxDebug=1` permite que at.js imprima mensajes en la consola del explorador.
+
+Todos los mensajes contienen el prefijo &quot;AT:&quot; para una descripción general práctica. Para asegurarse de que un artefacto se ha cargado correctamente, el registro de la consola debe contener mensajes similares a los siguientes:
+
+```
+AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
+AT: LD.ArtifactProvider artifact received - status=200
+```
+
+La siguiente ilustración muestra estos mensajes en el registro de la consola:
+
+![Registro de consola con mensajes de artefactos](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
+
+### Paso 2: Verifique la descarga de artefactos de reglas en la pestaña Red del explorador
+
+Abra la pestaña Red del explorador.
+
+Por ejemplo, para abrir DevTools en Google Chrome:
+
+1. Pulse Control+Mayús+J (Windows) o Comando+Opción+J (Mac).
+1. Vaya a la pestaña Red (Network).
+1. Filtre sus llamadas por palabra clave &quot;rules.json&quot; para asegurarse de que solo se muestre el archivo de reglas de artefactos.
+
+   Además, puede filtrar por &quot;/delivery|rules.json/&quot; para mostrar todas las llamadas [!DNL Target] y artifact rules.json.
+
+   ![Pestaña Red en Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
+
+### Verifique la descarga de artefactos de reglas mediante eventos personalizados de at.js
+
+La biblioteca at.js envía dos nuevos eventos personalizados para admitir la toma de decisiones en el dispositivo.
+
+* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
+* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
+
+Puede suscribirse para escuchar estos eventos personalizados en la aplicación a la acción si la descarga del archivo de reglas de artefactos se ha realizado correctamente o no se ha realizado correctamente.
+
+El siguiente ejemplo muestra una muestra de código que escucha los eventos de éxito y error de descarga de artefactos:
+
+```javascript
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
+  console.log("Artifact successfully downloaded", e.detail);
+}, false);
+
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
+  console.log("Artifact failed to download", e.detail);
+}, false);
+```
