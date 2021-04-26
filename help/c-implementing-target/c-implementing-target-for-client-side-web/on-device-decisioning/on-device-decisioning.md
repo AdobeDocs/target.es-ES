@@ -6,9 +6,9 @@ feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3748'
 ht-degree: 6%
 
 ---
@@ -369,7 +369,7 @@ Por ejemplo, para abrir DevTools en Google Chrome:
 
    ![Pestaña Red en Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
 
-### Verifique la descarga de artefactos de reglas mediante eventos personalizados de at.js
+### Paso 3: Verifique la descarga de artefactos de reglas mediante eventos personalizados de at.js
 
 La biblioteca at.js envía dos nuevos eventos personalizados para admitir la toma de decisiones en el dispositivo.
 
