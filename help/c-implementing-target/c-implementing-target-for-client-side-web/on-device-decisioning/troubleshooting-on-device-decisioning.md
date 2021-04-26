@@ -5,22 +5,16 @@ title: ¿Cómo puedo solucionar problemas de la toma de decisiones en el disposi
 feature: 'at.js '
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # Resolución de problemas de la toma de decisiones en el dispositivo para at.js
 
-Complete los siguientes pasos para solucionar los problemas de la toma de decisiones en dispositivos en Adobe Target con la biblioteca JavaScript at.js :
-
-1. Habilitar el registro de la consola para at.js
-1. Verifique la descarga de artefactos de reglas en la pestaña Red del explorador
-1. Verifique la descarga de artefactos de reglas mediante eventos personalizados de at.js
-
-Las secciones siguientes describen cada paso con más detalle:
+Complete los siguientes pasos para solucionar los problemas de la toma de decisiones en el dispositivo en [!DNL Adobe Target] con la biblioteca JavaScript at.js:
 
 ## Paso 1: Habilitar el registro de la consola para at.js
 
