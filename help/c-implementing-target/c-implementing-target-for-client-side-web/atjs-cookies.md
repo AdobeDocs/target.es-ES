@@ -6,10 +6,10 @@ feature: 'at.js '
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 97%
+source-wordcount: '1827'
+ht-degree: 96%
 
 ---
 
@@ -112,7 +112,7 @@ La cookie tiene varias configuraciones predeterminadas. En caso necesario, puede
 | Nombre de la cookie | mbox. |
 | Dominio de la cookie | Niveles segundo y superior de los dominios desde los que se proporciona el contenido. Dado que se proporciona desde el dominio de la compañía, se trata de una cookie de origen. Ejemplo: `mycompany.com`. |
 | Dominio del servidor | `clientcode.tt.omtrdc.net`, usando el código de cliente de su cuenta. |
-| Duración de la cookie | La cookie permanece en el explorador del visitante dos años después de su último inicio de sesión. La duración de la cookie no se puede cambiar. |
+| Duración de la cookie | La cookie permanece en el explorador del visitante dos años después de su último inicio de sesión.<br>La  `deviceIdLifetime` configuración se puede sobrescribir en la versión 2.3.1 o posterior de  [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Para obtener más información, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
 | Directiva P3P | Tal y como precisa la configuración predeterminada de la mayoría de los navegadores, la cookie se publica con una directiva P3P. Una directiva P3P indica el navegador que proporciona la cookie y el modo en que se va a usar la información. |
 
 La cookie conserva una serie de valores para administrar la forma en que los visitantes viven las campañas de
