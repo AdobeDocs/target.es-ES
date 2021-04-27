@@ -5,9 +5,9 @@ description: Aprenda a utilizar Adobe [!DNL Target] para personalizar la experie
 feature: Información general
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 25192c5e36bb823660f3fec8115d4cdfe7bd5995
+source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 43%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 43%
 ## Cumbre del Adobe: La conferencia de la experiencia digital
 
 [Haga clic aquí para obtener más información sobre la Cumbre de Adobe.](https://business.adobe.com/summit/adobe-summit.html)
+
+Horario de verano del Pacífico (PDT) - 7 GMT.
 
 ![Sesiones de la Cumbre](/help/assets/summit-2021.png)
 
