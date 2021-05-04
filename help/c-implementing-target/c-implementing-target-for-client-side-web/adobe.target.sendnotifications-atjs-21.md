@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 95%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ Esta función envía una notificación a Target Edge cuando se procesa una exper
 | Request > notifications > view > key | Cadena | No | `<=` 512 caracteres. | Ver clave. La clave que se configuró con la vista a través de la API. |
 | Request > notifications > view > state | Cadena | No |  | Ver token de estado. |
 
-**Nota**: Los caracteres siguientes están permitidos para `Request > notifications > mbox > name`:
+**Nota**: Los siguientes caracteres no están  ** permitidos para  `Request > notifications > mbox > name`:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
