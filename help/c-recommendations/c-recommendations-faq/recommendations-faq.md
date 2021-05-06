@@ -5,10 +5,10 @@ title: ¿Dónde puedo encontrar preguntas y respuestas sobre [!DNL Target] Recom
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
-source-wordcount: '2691'
-ht-degree: 40%
+source-wordcount: '2957'
+ht-degree: 36%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 40%
 
 Lista de las preguntas más frecuentes (FAQ) sobre actividades [!DNL Adobe Target] [!DNL Recommendations].
 
-## ¿Por qué la búsqueda en el catálogo no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
+## ¿Por qué la [!UICONTROL Búsqueda en el catálogo] no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
 
 Cuando se realiza una búsqueda en el catálogo de un atributo personalizado con un valor numérico, los resultados tratan el atributo personalizado como un tipo de cadena en lugar de un valor numérico.
 
@@ -29,16 +29,16 @@ El lapso de tiempo y los resultados varían en función de cómo se actualicen l
 | Fuente | Detalles |
 | --- | --- |
 | Atributos de elemento actualizados mediante mbox o API | <ul><li>Recommendations se actualiza en 15 minutos.</li><li>Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.</li><li>La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).</li></ul> |
-| Atributos de elemento actualizados a través de la fuente | <ul><li>Recommendations se actualiza después de la ingesta de fuentes (de 2 a 8 horas).</li><li>Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.</li><li>La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (2-8 horas) y después del siguiente índice de catálogo (3-8 horas). La búsqueda en el catálogo se actualiza normalmente en un total de 5-16 horas.</li></ul> |
+| Atributos de elemento actualizados a través de la fuente | <ul><li>Recommendations se actualiza después de la ingesta de fuentes (de 2 a 8 horas).</li><li>Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.</li><li>La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (2-8 horas) y después del siguiente índice de catálogo (3-8 horas). La búsqueda en el catálogo se actualiza en un total de 5-16 horas.</li></ul> |
 | Elemento eliminado del catálogo a través de la interfaz de usuario o la API de Target | <ul><li>Recommendations se actualiza en 15 minutos.</li><li>Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.</li><li>La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).</li></ul> |
 | Elemento añadido al catálogo mediante mbox o API | <ul><li>Recommendations se actualiza después de ejecutar el algoritmo. Las ejecuciones de algoritmos se programan cada 12 horas para algoritmos de 1 a 2 días y cada 24 horas para algoritmos de más de 7 días.</li><li>Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.</li><li>Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.</li><li>La búsqueda en el catálogo se actualiza después del índice del catálogo (3-8 horas).</li></ul> |
-| Elemento añadido al catálogo mediante fuente | <ul><li>Recommendations se actualiza después de ingerir la fuente (de 2 a 8 horas). Las ejecuciones de algoritmos posteriores se programan cada 12 horas para algoritmos de 1 a 2 días y cada 24 horas para algoritmos de más de 7 días. Recommendations se actualiza normalmente en un plazo total de 2 a 32 horas.</li><li>Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.</li><li>Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.</li><li>La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (2-8 horas) y después del índice del catálogo (3-8 horas). La búsqueda en el catálogo se actualiza normalmente en un total de 5-16 horas.</li></ul> |
+| Elemento añadido al catálogo mediante fuente | <ul><li>Recommendations se actualiza después de ingerir la fuente (de 2 a 8 horas). Las ejecuciones de algoritmos posteriores se programan cada 12 horas para algoritmos de 1 a 2 días y cada 24 horas para algoritmos de más de 7 días. Recommendations se actualiza en un plazo total de 2 a 32 horas.</li><li>Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.</li><li>Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.</li><li>La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (2-8 horas) y después del índice del catálogo (3-8 horas). La búsqueda en el catálogo se actualiza en un total de 5-16 horas.</li></ul> |
 
 Después de importar un archivo de fuente o de recibir actualizaciones de entidad mediante API o mbox, los cambios siguientes se reflejan en menos de 60 minutos:
 
 * Si un elemento se ha excluido anteriormente pero ahora debe incluirse, el elemento se incluirá en la próxima ejecución del algoritmo (de 12 a 24 horas).
 
-   Esto ocurre porque Target aplica exclusiones en línea y sin conexión. Cuando se excluye un elemento recientemente, la exclusión en línea se aplica rápidamente. Cuando se incluye un elemento recientemente, la exclusión en línea desaparece rápidamente, pero la exclusión sin conexión no desaparece hasta que se ejecuta el siguiente algoritmo.
+   Esta situación se produce porque [!DNL Target] aplica exclusiones tanto en línea como sin conexión. Cuando se excluye un elemento recientemente, la exclusión en línea se aplica rápidamente. Cuando se incluye un elemento recientemente, la exclusión en línea desaparece rápidamente, pero la exclusión sin conexión no desaparece hasta que se ejecuta el siguiente algoritmo.
 
 * Si un elemento se incluyó anteriormente pero ahora debe excluirse, el elemento se excluye por los atributos de elemento actualizados... línea de tiempo analizada anteriormente en función de la fuente (15 minutos a través de mbox/API o de 12 a 24 horas a través de la fuente).
 
@@ -53,6 +53,24 @@ Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritm
 >[!NOTE]
 >
 >Un archivo de fuente se considera importado cuando su estado cambia de “Importación de elementos” a “Preparación de las actualizaciones del índice de búsqueda”. Las actualizaciones pueden tardar más de 60 minutos en reflejarse en la interfaz de usuario Búsqueda en el catálogo; La búsqueda en el catálogo está actualizada cuando el estado de la fuente cambia a &quot;Actualizaciones completadas&quot;. Aunque la Búsqueda en el catálogo aún no esté actualizada, su sitio refleja actualizaciones en los intervalos de tiempo enumerados arriba. El tiempo de actualización del índice de Búsqueda en el catálogo más reciente se muestra en la página Búsqueda en el catálogo.
+
+## ¿Cuánto tiempo se tarda en reflejar en mi sitio un cambio en la configuración de mi actividad [!UICONTROL Recommendations], oferta, promociones o configuración de criterios?
+
+* Un cambio en la configuración de la promoción puede tardar hasta cinco horas en reflejarse en el sitio.
+* Es posible que un cambio en la configuración de otros criterios no se refleje hasta que se ejecute el siguiente algoritmo:
+
+   * Algunas configuraciones de criterios (por ejemplo, &quot;adición de una regla de inclusión dinámica&quot;) se reflejan instantáneamente.
+   * Otros ajustes de criterios (por ejemplo, &quot;eliminación de una regla de inclusión dinámica&quot;, cambio de ventana retrospectiva, etc.) no se pueden incorporar hasta que se ejecute el siguiente algoritmo.
+   * Los cambios activan las ejecuciones de algoritmos, pero pueden tardar hasta 24 horas en completarse. Los algoritmos también se ejecutan de forma programada cada 12 a 24 horas.
+
+## ¿Cuánto tiempo tarda un usuario en mostrar su comportamiento (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones que *recibe?*
+
+* El producto/contenido que se está viendo/comprando influye en las recomendaciones que el usuario recibe en la misma solicitud de contenido de vista de página/Target.
+* El comportamiento histórico del usuario, como &quot;último producto visualizado&quot;, &quot;producto más visualizado&quot; y el historial general de visualización/compra se actualiza con esa solicitud e influye en las recomendaciones que el usuario recibe en la siguiente solicitud de contenido de vista de página/Target. Por ejemplo, los algoritmos de &quot;Artículos vistos recientemente&quot; y &quot;Recomendados para ti&quot; se actualizan con cada vista/compra de producto y se reflejan en la solicitud de contenido posterior.
+
+## ¿Cuánto tiempo tardan los usuarios en reflejar el comportamiento de un usuario (por ejemplo, hacer clic en el producto A y comprar el producto B) en las recomendaciones *que reciben los usuarios*?
+
+El comportamiento de los usuarios en conjunto se incorpora al procesamiento de algoritmos sin conexión, con cada algoritmo ejecutado cada 12-24 horas.
 
 ## ¿Qué debo hacer si hay caracteres especiales que rompen la matriz?{#section_D27214116EE443638A60887C7D1C534E}
 
@@ -218,8 +236,8 @@ Cuando finaliza la sesión (normalmente, cuando caduca después de 30 minutos si
 
 Las sesiones posteriores de distintos dispositivos pueden acceder a estos elementos vistos recientemente, siempre que la nueva sesión esté vinculada al perfil del cliente mediante el mismo ID de Marketing Cloud (MCID), ID de Experience Cloud (ECID) o CustomerID/mbox3rdPartyId.
 
-Si un visitante tiene dos sesiones activas al mismo tiempo, los artículos vistos recientemente en un dispositivo no actualizan los artículos vistos recientemente en el otro dispositivo, a menos que los dispositivos se vean obligados a compartir el mismo ID de sesión. Existe una solución alternativa para el problema, pero [!DNL Target] no admite directamente el uso compartido de un ID de sesión entre varios dispositivos. El cliente debe administrar por sí mismo este uso compartido de ID.
+Si un visitante tiene dos sesiones activas al mismo tiempo, los elementos visualizados recientemente en un dispositivo no actualizan los elementos visualizados recientemente en el otro dispositivo, a menos que los dispositivos se vean obligados a compartir el ID de sesión. Existe una solución alternativa para el problema, pero [!DNL Target] no admite directamente el uso compartido de un ID de sesión entre varios dispositivos. El cliente debe administrar por sí mismo este uso compartido de ID.
 
-Tenga en cuenta que este comportamiento sigue ocurriendo si un visitante está activo en un dispositivo y luego se activa en el otro dispositivo unos minutos después. La primera sesión del dispositivo no caduca durante 30 minutos y puede haber hasta cinco minutos de retraso antes de que el estado del perfil se escriba en el estado permanente y se procese. Espere 35 minutos para que la sesión caduque y el perfil se almacene al probar este comportamiento.
+Este comportamiento sigue ocurriendo si un visitante está activo en un dispositivo y luego se activa en el otro dispositivo unos minutos después. La primera sesión del dispositivo no caduca durante 30 minutos y puede haber hasta cinco minutos de retraso antes de que el estado del perfil se escriba en el estado permanente y se procese. Espere 35 minutos para que la sesión caduque y el perfil se almacene al probar este comportamiento.
 
 Si el visitante no tiene dos sesiones activas al mismo tiempo, los artículos vistos recientemente en un dispositivo actualizarán los artículos vistos recientemente en el otro dispositivo siempre y cuando la sesión haya finalizado. Espere 35 minutos para que la sesión caduque al probar este comportamiento.
