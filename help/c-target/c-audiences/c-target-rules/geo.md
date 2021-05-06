@@ -1,15 +1,15 @@
 ---
 keywords: segmentación;a4t;segmentación geográfica;geografía;precisión de segmentación geográfica;país;estado;ciudad;código postal;dma;operador de telefonía móvil;códigos de ciudad;códigos regionales;códigos de país;códigos de metro;scripts de perfil;scripts de perfil de segmentación geográfica;segmentación geográfica móvil
 description: Aprenda a crear audiencias de Adobe [!DNL Target] para dirigirse a los usuarios según su ubicación geográfica, incluidos país, ciudad, código postal, etc.
-title: ¿Puedo  [!DNL Target] Ubicación basada en visitantes?
+title: ¿Puedo  [!DNL Target] Ubicación Basada En Visitantes?
 feature: Audiencias
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 69%
+source-wordcount: '993'
+ht-degree: 62%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 69%
 
 Utilice audiencias en [!DNL Adobe Target] para segmentar usuarios según su ubicación geográfica, incluidos país, estado/provincia, ciudad, código postal, DMA y operador de telefonía móvil.
 
-Los parámetros de ubicación geográfica permiten segmentar las actividades y experiencias en función de la ubicación geográfica de los visitantes. Puede incluir o excluir visitantes en función de su país, estado/provincia, ciudad, código postal, latitud, longitud, DMA y operador de telefonía móvil. Estos datos se envían con cada petición de Target y se basan en la dirección IP del visitante. Seleccione estos parámetros igual que cualquier otro valor de segmentación.
+Los parámetros de ubicación geográfica permiten segmentar las actividades y experiencias en función de la ubicación geográfica de los visitantes. Puede incluir o excluir visitantes en función de su país, estado/provincia, ciudad, código postal, latitud, longitud, DMA y operador de telefonía móvil. Estos datos se envían con cada solicitud [!DNL Target] y se basan en la dirección IP del visitante. Seleccione estos parámetros igual que cualquier otro valor de segmentación.
 
 ## Crear una audiencia con segmentación geográfica {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -44,7 +44,7 @@ Los parámetros de ubicación geográfica permiten segmentar las actividades y e
 1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-La siguiente ilustración muestra una audiencia que segmenta usuarios que acceden a la actividad desde una latitud superior a 44 grados y una longitud inferior a 22 grados.
+La siguiente ilustración muestra una audiencia que segmenta usuarios que acceden a la actividad desde una latitud buena de 44° y una longitud inferior a 22°.
 
 ![](assets/target_geo.png)
 
@@ -116,7 +116,7 @@ Por ejemplo, use:
 
 **¿Cómo funciona la segmentación geográfica en los dispositivos móviles?**
 
-La mayoría de los usuarios de dispositivos móviles accede al contenido a través de una red WiFi, lo que significa que la segmentación geográfica basada en la IP de Target es tan precisa como en un equipo de escritorio. Las conexiones basadas en torres celulares pueden ser menos exactas porque la dirección IP del visitante se basa en la torre de donde se está recibiendo la señal. Algunos problemas de geolocalización en dispositivos móviles se pueden resolver usando la [API de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La mayoría de los usuarios de dispositivos móviles accede al contenido a través de una red WiFi, lo que significa que la segmentación geográfica basada en IP de [!DNL Target] es tan precisa como en un equipo de escritorio. Las conexiones basadas en torres celulares pueden ser menos exactas porque la dirección IP del visitante se basa en la torre de donde se está recibiendo la señal. Algunos problemas de geolocalización en dispositivos móviles se pueden resolver usando la [API de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **¿Cómo gestiona la función geográfica los visitantes de AOL?**
 
@@ -133,7 +133,7 @@ Debido al modo en que AOL dirige su tráfico, [!DNL Target] solo puede dirigirse
 
 **¿Cómo puedo probar mis actividades si soy un usuario de una ubicación diferente?**
 
-* **at.js 1.*x***: Puede sustituir su dirección IP por una dirección IP de una ubicación diferente y usar el  `mboxOverride.browserIp url` parámetro . Así pues, si su empresa está en el Reino Unido, pero la campaña global está dirigida a visitantes de Auckland, Nueva Zelanda, deberá usar este estilo de URL suponiendo que `60.234.0.39` sea una dirección IP de Auckland:
+* **at.js 1.*x***: Puede sustituir su dirección IP por una dirección IP de una ubicación diferente y usar el  `mboxOverride.browserIp url` parámetro . Por lo tanto, si su empresa está en el Reino Unido, pero la campaña global está dirigida a visitantes de Auckland, Nueva Zelanda, use este estilo de URL suponiendo que `60.234.0.39` es una dirección IP de Auckland:
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -143,7 +143,7 @@ Debido al modo en que AOL dirige su tráfico, [!DNL Target] solo puede dirigirse
    >
    >`mboxOverride.browserIp` es compatible con at.js 1.Solamente *x*. Esta funcionalidad no es compatible con at.js 2.*x*.
 
-* **at.js 1.*x***: Para anular su dirección IP por at.js 2.*x*, instale una extensión/complemento del explorador (como el encabezado X-Forwarded-For para Chrome o Firefox). Esta extensión le permite pasar el encabezado x-forward-for en las solicitudes de página.
+* **at.js 2.*x***: Para anular su dirección IP por at.js 2.*x*, instale una extensión/complemento del explorador (como el encabezado X-Forwarded-For para Chrome o Firefox). Esta extensión le permite pasar el encabezado x-forward-for en las solicitudes de página.
 
 **¿Cómo se asignan los territorios, como Puerto Rico y Hong Kong, a la estructura de segmentación geográfica?**
 
