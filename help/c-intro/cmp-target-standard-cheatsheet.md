@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;preguntas frecuentes;faqs;hoja de referencia
-description: Explore una lista de las preguntas más frecuentes sobre el uso de las funciones de Adobe Target, junto con información y vínculos para obtener más información.
-title: ¿Dónde puedo encontrar respuestas a mis preguntas de optimización y personalización?
+description: Explore una lista de preguntas más frecuentes acerca del uso de las funciones de Adobe Target, junto con información y vínculos para obtener más información.
+title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Información general
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2918'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Una lista de preguntas más frecuentes sobre el uso de las funciones de Adobe Ta
 
 **¿Cómo puedo ver cómo han aprovechado otros clientes Adobe Target para obtener mejores resultados?**
 
-[Estas son solo algunas de las historias de éxito de nuestros clientes](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Vea cómo clientes como usted han aprovechado Target para mejorar la optimización y la personalización para lograr los objetivos comerciales.
+[Estas son solo algunas de las historias de éxito de nuestros clientes](https://www.adobe.com/es/marketing-cloud/target/resources.html#x). Vea cómo clientes como usted han aprovechado Target para mejorar la optimización y la personalización para lograr los objetivos comerciales.
 
 Tenga en cuenta que algunos de estos estudios de casos han aprovechado las capacidades de Adobe Target Premium.
 
@@ -133,9 +133,9 @@ Use la configuración Prioridad disponible en el paso 3 del flujo de trabajo gui
 Existen dos opciones:
 
 * Predeterminado, con tres niveles (bajo/medio/alto)
-* Personalizado, con un rango de 0 a 999. Para Personalizar, habilite la característica Prioridades específicas ( Administración > Compositor de experiencias visuales).
+* Personalizado, con un rango de 0 a 999. Para Personalizar, habilite la característica Prioridades específicas (Administración > Compositor de experiencias visuales).
 
-## Audiencias{#section_FA6314777ABC46D8B198D6F388051460}
+## Audiencias {#section_FA6314777ABC46D8B198D6F388051460}
 
 **¿Puedo crear un segmento de audiencia en una actividad que sea específica para la actividad? No creo que se cree una audiencia así en la Biblioteca de audiencias porque no hay factor de reutilización.**
 
@@ -189,7 +189,7 @@ Pruebe la [información de solución de problemas](/help/c-experiences/c-visual-
 
 También tenemos un [método basado en formularios](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que puede desbloquearlo.
 
-Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que deba comunicarse con su departamento de TI para   [También los ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) servidores proxy del Adobe de lista de permitidos.
+Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que deba comunicarse con su departamento de TI para  [incluya también en la lista de permitidos los servidores](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) proxy de Adobe.
 
 **Tengo un sitio adaptable. Al crear una actividad, ¿cómo puedo estar seguro de que estoy considerando dispositivos clave?**
 
@@ -197,7 +197,7 @@ Pruebe la función [Ventanillas móviles](/help/c-experiences/c-visual-experienc
 
 **Tengo varios dominios. Uno de los dominios necesita el Compositor de experiencia mejorada habilitado, mientras que otros necesitan que esté deshabilitado. ¿Cómo puedo hacer esto?**
 
-Siempre puede usar la opción [Compositor de experiencias mejorado en el nivel de actividad](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular la configuración predeterminada ( Administración > Compositor de experiencias visuales).
+Siempre puede usar la opción del [Compositor de experiencia mejorada en el nivel de actividad](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular la configuración predeterminada (Administración > Compositor de experiencia visual).
 
 **¿Por qué no veo una opción para intercambiar imágenes?**
 
@@ -235,7 +235,7 @@ Use el [enfoque basado en formularios](/help/c-experiences/form-experience-compo
 
 **¿Puedo asegurar que la misma experiencia se entregue de manera consistente en todos los dispositivos que un usuario pueda tener?**
 
-Eche un vistazo a nuestro [Dispositivo Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) que le permite vincular de manera determinista y probabilística múltiples dispositivos de un usuario a través del poder de una cooperativa. 
+Eche un vistazo a nuestro [Dispositivo Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=es) que le permite vincular de manera determinista y probabilística múltiples dispositivos de un usuario a través del poder de una cooperativa.
 
 Si está en la Co-op, un simple indicador en la página Objetivos y configuración habilitará la función. Ahora, los informes también cambian para reflejar a las personas en lugar de a los visitantes. Hable con su contacto de Adobe para obtener más información sobre esta característica, ya que no está disponible en todas las regiones.
 
@@ -290,7 +290,7 @@ Tenga en cuenta que Target recopila los datos a este respecto desde el momento e
 
 **¿Qué puedo hacer para facilitar este proceso?**
 
-Es allí donde [Analytics para Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) resulta más práctico. Si tiene Adobe Analytics, simplemente elija una fuente como Analytics, que elimina esta restricción. Ahora puede realizar análisis en cualquier audiencia en cualquier punto y no necesita definir las audiencias de informes por adelantado.
+Es allí donde [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) resulta más práctico. Si tiene Adobe Analytics, simplemente elija una fuente como Analytics, que elimina esta restricción. Ahora puede realizar análisis en cualquier audiencia en cualquier punto y no necesita definir las audiencias de informes por adelantado.
 
 **¿Puedo realizar cálculos de informes sin conexión?**
 
@@ -302,7 +302,7 @@ Haga estos cambios usando los  [ajustes en la página de informes](/help/c-repor
 
 **¿Cómo debo interpretar los informes?**
 
-Hemos intentado hacer informes lo más intuitivos posible con características como  [las barras de intervalo de confianza, los límites de ascenso, la significancia/confianza y múltiples selecciones de métricas, vistas de tablas y gráficos, promedios de carrera y más](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para permitir análisis de informes potentes pero fáciles. Obviamente, puede comprobar Analytics si utiliza [Analytics para actividades de Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para un análisis más amplio de las audiencias.
+Hemos intentado hacer informes lo más intuitivos posible con características como  [las barras de intervalo de confianza, los límites de ascenso, la significancia/confianza y múltiples selecciones de métricas, vistas de tablas y gráficos, promedios de carrera y más](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para permitir análisis de informes potentes pero fáciles. Obviamente, puede comprobar Analytics si utiliza [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para un análisis más amplio de las audiencias.
 
 ## Tokens de respuesta {#section_C2A7118B4B62482A9D630C2212112A3D}
 
