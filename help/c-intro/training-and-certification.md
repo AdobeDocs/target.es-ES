@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 48%
+ht-degree: 89%
 
 ---
 
 # Capacitación y certificación
 
-Adobe Training Services ofrece clases y certificaciones para productos y soluciones de Adobe, incluido Adobe Target.
+Los Servicios de formación de Adobe ofrecen clases y certificaciones para productos y soluciones de Adobe, incluido Adobe Target.
 
 Para ver una lista de los cursos en línea y los presenciales con profesor, visite el [sitio web de formación para clientes de Adobe](https://training.adobe.com/training/courses.html#solution=adobeTarget).
 
