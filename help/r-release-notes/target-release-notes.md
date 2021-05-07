@@ -1,20 +1,20 @@
 ---
 keywords: notas de la versión;versiones;actualizaciones;futuras versiones;mejoras;nuevas funciones;correcciones;actualizaciones;versión preliminar
-description: Obtenga información sobre las nuevas funciones, mejoras y correcciones incluidas en la próxima versión de Adobe Target, incluidos SDK, API y bibliotecas JavaScript.
-title: ¿Qué nuevas funciones se incluyen en la próxima versión?
-feature: Release Notes
+description: Obtenga información sobre las nuevas funciones, mejoras y correcciones que incluirá la próxima versión de Adobe Target, incluidos el SDK, la API y las bibliotecas de JavaScript.
+title: ¿Qué nuevas funciones se incluirán en la próxima versión?
+feature: Notas de la versión
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 20%
+ht-degree: 32%
 
 ---
 
 # Notas de la versión de Target (versión previa)
 
-Este artículo contiene información previa al lanzamiento. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
+Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
 **Última actualización: 16 de abril de 2021**
 
@@ -24,7 +24,7 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 >
 >**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js fallan correctamente e influyen en las páginas que tienen [!DNL Target] actividades ejecutándose al servir contenido predeterminado.
 >
->Para evitar posibles problemas con sus sitios, migre a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Para evitar posibles problemas con sus sitios, migre a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 ## Target Standard/Premium 21.4.1 (19 de abril de 2021)
 
