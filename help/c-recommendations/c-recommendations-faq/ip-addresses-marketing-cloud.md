@@ -1,5 +1,5 @@
 ---
-keywords: Dirección IP;direcciones IP;lista de direcciones permitidas;lista de permitidos;cortafuegos;recomendaciones;fuente;servidores;adobe marketing cloud;recommendations
+keywords: dirección IP;direcciones IP;lista de permitidos;cortafuegos;recomendaciones;fuente;servidores;adobe experience cloud;recommendations
 description: 'Vea una lista de direcciones IP que se usan en los servidores de procesamiento de fuentes de Recommendations para configurar el firewall de modo que permita las direcciones IP procedentes de los servidores de Adobe. [!DNL Target] '
 title: ¿Qué direcciones IP utilizan los servidores de procesamiento de fuentes de Recommendations?
 feature: Recommendations
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 8%
+ht-degree: 24%
 
 ---
 
