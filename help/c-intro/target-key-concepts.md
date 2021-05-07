@@ -1,14 +1,14 @@
 ---
 keywords: Información general y referencia;tipos de actividades;introducción
-description: Conozca los conceptos básicos de Adobe Target. Este artículo le presenta Target, sus tipos de actividades y otras funciones.
-title: ¿Cómo utilizo Target?
-feature: Overview
+description: Conozca los fundamentos de Adobe Target. Este artículo le presenta Target, sus tipos de actividades y otras funciones.
+title: ¿Cómo usar Target?
+feature: Información general
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
 source-wordcount: '1528'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -32,9 +32,9 @@ Target incluye varios tipos de actividades. En la tabla siguiente se proporciona
 | [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de asignación automática](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
 | [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing. Las actividades de segmentación automática ofrecen a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación automática](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
 | [Uso de datos de Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Puede configurar una actividad para que use [!DNL Adobe Analytics] como fuente de informes. Para este tipo de actividad es necesario que vincule su cuenta de [!DNL Adobe Experience Cloud] con [!DNL Analytics] y [!DNL Target]. |
-| [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | La prueba multivariable (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad. |
+| [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing (MVT o prueba multivariada) compara combinaciones de ofertas en elementos de una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica e identifica qué elemento tiene mayor impacto en el éxito de la actividad. |
 | [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) | Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación de experiencias](/help/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/c-intro/intro.md#premium). |
-| [Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | La personalización automatizada (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante en función de su perfil de cliente, con el fin de personalizar el contenido y dirigir las conversiones. |
+| [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | La Automated Personalization (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante en función de su perfil de cliente, con el fin de personalizar el contenido y dirigir las conversiones. |
 | [Recommendations](/help/c-recommendations/recommendations.md)<br>![ Target Premium](/help/assets/premium.png) | Una recomendación determina el modo en que se sugiere un producto a un usuario del sitio web según las actividades que este realice en el sitio.<br>Por ejemplo, puede que quiera animar a los usuarios que compran una mochila a que consideren la opción de comprar botas y bastones de senderismo. Podría crear una recomendación que muestre artículos que a menudo se compran juntos, empleando el algoritmo “Otras personas que compraron esto también compraron aquello”. O puede que quiera animar a los visitantes a pasar más tiempo en su sitio multimedia mediante la recomendación de un vídeo similar al que están viendo, empleando el algoritmo “Otras personas que han visto esto también vieron aquello”.<br>**Nota:** Ahora puede incluir recomendaciones dentro de la prueba A/B (incluidas las actividades de asignación automática y segmentación automática) y actividades de segmentación de experiencias (XT). Consulte [Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Ubicaciones {#section_F18FBF1ED23340ED9F39C51971A4E874}
@@ -82,7 +82,7 @@ Por ejemplo, una página web con dos ofertas podría mostrar cualquiera de las d
 
 Una *experiencia* determina el contenido que se muestra cuando se cumplen unas condiciones determinadas.
 
-## Audiencias{#section_3F32DA46BDF947878DD79DBB97040D01}
+## Audiencias {#section_3F32DA46BDF947878DD79DBB97040D01}
 
 Optimice el contenido segmentado de su sitio para los participantes de la actividad que cumplan determinados criterios.
 
@@ -100,7 +100,7 @@ Las audiencias se pueden guardar para reutilizarlas en varias actividades o pued
 |--- |--- |
 | Audiencias reutilizables | Pueden seleccionarse audiencias reutilizables para cualquier actividad. Si cambia una de estas audiencias, se cambia para todas las actividades que la usen. |
 | Segmentos personalizados | Los segmentos personalizados (también conocidos como segmentos específicos de campaña) son lo que se utilizan en una campaña de Target Classic. Se crean como parte de la campaña y no se pueden reutilizar en otras campañas. |
-| Audiencias compartidas | Las audiencias se pueden compartir entre las distintas soluciones de [!DNL Adobe Experience Cloud]. Consulte [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) para ver ejemplos. |
+| Audiencias compartidas | Las audiencias se pueden compartir entre las distintas soluciones de [!DNL Adobe Experience Cloud]. Consulte [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) para ver algunos ejemplos. |
 
 Si desea obtener información sobre el modo en que el perfil del visitante realiza el seguimiento de la información sobre los visitantes de su página, consulte.[Perfiles de visitantes](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -108,7 +108,7 @@ Si desea obtener información sobre el modo en que el perfil del visitante reali
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Tipos de actividades (9:03) ![Distintivo Información general](/help/assets/overview.png)
+### Tipos de actividades (9:03) ![Distintivo de información general](/help/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 
@@ -118,7 +118,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Uso de audiencias en Adobe Target (6:21) ![Distintivo Información general](/help/assets/overview.png)
+### Uso de audiencias en Adobe Target (6:21) ![Distintivo de información general](/help/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
