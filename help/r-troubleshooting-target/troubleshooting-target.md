@@ -1,14 +1,14 @@
 ---
 keywords: resolución de problemas de target;solucionar problemas de target
-description: Revise una lista de temas para ayudarle a resolver problemas en Adobe Target, incluidos temas de resolución de problemas, preguntas más frecuentes (PF) y otros temas útiles.
+description: Vea una lista de temas útiles para resolver problemas de Adobe Target. Incluye temas de resolución de problemas, preguntas más frecuentes (FAQ) y otros.
 title: ¿Cómo puedo solucionar problemas de Target?
-feature: 'Resolución de problemas  '
+feature: Resolución de problemas
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -33,17 +33,17 @@ Las secciones siguientes contienen información sobre la resolución de problema
 
 ### Asignación automática
 
-* [Información general de asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [Información general sobre la asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
 
 ### Segmentación automática
 
 * [Solución de problemas y preguntas más frecuentes sobre la segmentación automática](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
-### Personalización automatizada (AP)
+### Automated Personalization (AP)
 
-* [Preguntas más frecuentes sobre Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
-* [Resolución de problemas de personalización automatizada](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [Informes Resumen de Personalización automatizada](/help/c-reports/reports-ap.md)
+* [Preguntas más frecuentes sobre Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Resolución de problemas de Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Informes Resumen de Automated Personalization](/help/c-reports/reports-ap.md)
 
 ### Prueba multivariable (MVT)
 
