@@ -1,13 +1,13 @@
 ---
-description: ¿Qué significan los diferentes términos utilizados en Adobe [!DNL Target] ? Encuentre definiciones de términos comunes para ayudarle a obtener más información [!DNL Target].
-title: ¿Dónde puedo encontrar los términos y definiciones utilizados en Target?
+description: ¿Qué significan los diferentes términos utilizados en Adobe [!DNL Target] ? Encuentre definiciones de términos comunes para ayudarle a sacar más partido a [!DNL Target].
+title: ¿Dónde puedo encontrar los términos y definiciones que se usan en Target?
 feature: Información general
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2470'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ Un registro de quién modificó sus actividades y cuándo se produjeron los camb
 
 Un conflicto de actividades ocurre cuando existen varias actividades configuradas para entregar contenido a la misma página. Cuando se produce un conflicto de actividades, es probable que no se vea el contenido esperado en la página.
 
-**Dirección URL de la actividad**
+**Dirección URL de actividad**
 
 La dirección URL predeterminada que se usa para una actividad.
 
@@ -51,7 +51,7 @@ La biblioteca [!DNL at.js] es una nueva biblioteca de implementación para [!DNL
 
 **audiencia**
 
-Grupo de participantes con características similares en una actividad a los se les mostrará una actividad segmentada.  Grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds de la zona oeste. La funcionalidad Audiencia le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará según los criterios definidos durante la creación de la actividad.
+Grupo de participantes con características similares en una actividad a los se les mostrará una actividad segmentada.  Un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La funcionalidad Audiencia le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará según los criterios definidos durante la creación de la actividad.
 
 **Asignación automática**
 
@@ -61,9 +61,9 @@ Asignación automática identifica un ganador entre dos o más experiencias y le
 
 La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones.
 
-**personalización automatizada**
+**automated personalization**
 
-La personalización automatizada (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante en función de su perfil de cliente, con el fin de personalizar el contenido y dirigir las conversiones.
+La Automated Personalization (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante en función de su perfil de cliente, con el fin de personalizar el contenido y dirigir las conversiones.
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
@@ -185,7 +185,7 @@ Representación visual de una actividad en Target Standard.
 
 **Compositor de experiencias basadas en formularios**
 
-Una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en pruebas A/B, Segmentación de experiencias, Automated Personalization y actividades de Recomendaciones cuando el Compositor de experiencias visuales no está disponible o su uso no es práctico. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
+Una interfaz no visual de creación de ofertas y experiencias que resulta útil para crear experiencias para utilizarlas en pruebas A/B, Segmentación de experiencias, Automated Personalization y actividades de Recommendations cuando Visual Experience Compositor no está disponible o su uso no es práctico. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
 
 ## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -237,21 +237,21 @@ Antes de 16.3.1, [!DNL Target] requería una llamada a [!DNL mbox.js] para crear
 
 Se transmite en la página, no en la dirección URL. Los parámetros sirven para pasar datos de la base de datos, rastrear los datos de ventas o ejecutar Adobe Recommendations. También se denomina parámetro de página.
 
-**prueba multivariada**
+**prueba multivariable**
 
-La prueba multivariable (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad
+Multivariate Testing (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad
 
 ## N
 
 **Nuevo visitante**
 
-Un visitante se incluye en el segmento Nuevos visitantes si se cumple una de las siguientes condiciones:
+Los visitantes se incluyen en el segmento Nuevos visitantes si se cumple una de las siguientes condiciones:
 
 * Es la primera vez que el visitante visita el sitio.
 * Es la primera vez que el visitante visita el sitio desde que se borraron las cookies.
-* Es la primera vez que el visitante visita el sitio desde que caducó la duración del perfil del [visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
+* Es la primera vez que el visitante visita el sitio desde que finalizó la [vida útil del perfil del visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
 
-Para obtener más información, consulte [¿Cómo se cuentan las métricas Nuevos visitantes y Visitantes que regresan?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) en Informes de preguntas y respuestas. Contraste con &quot;Visitante que regresa&quot; a continuación.
+Para obtener más información, consulte [¿Cómo se cuentan las métricas de nuevos visitantes y visitantes que regresan?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) en Informes de preguntas y respuestas. Compare esta definición con la del concepto Visitante que regresa, que se describe a continuación.
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -293,9 +293,9 @@ Transmite valores al mbox de la página de destino como parámetros y valores de
 
 **Visitante que regresa**
 
-El visitante se incluye en el segmento Visitantes que regresan si el usuario ha visitado el sitio anteriormente, lo ha abandonado durante 30 minutos como mínimo y ha vuelto al sitio con las mismas cookies. Siempre y cuando un visitante regrese dentro de su duración de perfil, este visitante será un visitante reincidente.
+Los visitantes se incluyen en el segmento Visitante que regresa si el usuario ha visitado anteriormente el sitio, si lo ha abandonado durante un mínimo de 30 minutos y si ha vuelto con las mismas cookies. Siempre que un visitante regrese antes de que finalice la vida útil del perfil, este se considerará como visitante que regresa.
 
-Para obtener más información, consulte [Cómo se cuentan las métricas Nuevos visitantes y Visitantes que regresan](/help/c-reports/reporting-frequently-asked-questions.md#methodology) en Informes de preguntas y respuestas. Contraste con el &quot;Visitante nuevo&quot; anterior.
+Para obtener más información, consulte [Cómo se cuentan las métricas de nuevos visitantes y visitantes que regresan](/help/c-reports/reporting-frequently-asked-questions.md#methodology) en Informes de preguntas y respuestas. Compare esta definición con la del concepto Visitante nuevo, descrita anteriormente.
 
 **función**
 
@@ -303,7 +303,7 @@ Grupo de usuarios con una serie de privilegios determinados.
 
 **oferta remota**
 
-Utilice las ofertas remotas para alojar contenido fuera de [!DNL Target][!DNL Target] al que haga referencia y que entregue a los sitios web de los usuarios. Este contenido puede encontrarse en un sistema de gestión de contenido o de otro tipo por cuestiones de comodidad o de seguridad.
+Utilice las ofertas remotas para alojar contenido fuera de [!DNL Target] al que [!DNL Target] haga referencia y que entregue a los sitios web de los usuarios. Este contenido puede encontrarse en un sistema de gestión de contenido o de otro tipo por cuestiones de comodidad o de seguridad.
 
 **informes**
 
@@ -349,9 +349,9 @@ Todas las variables de página de referencia y dirección URL de página se pasa
 
 ## V   {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
-**visit**
+**visita**
 
-A veces, una visita se denomina sesión. Una visita finaliza tras 30 minutos de inactividad, lo que significa que han transcurrido al menos 30 minutos entre las solicitudes del servidor a Target.
+Las visitas también se conocen como sesiones. Una visita finaliza tras 30 minutos de inactividad, lo que significa que han transcurrido al menos 30 minutos desde la última solicitud del servidor a Target.
 
 **visitante**
 
