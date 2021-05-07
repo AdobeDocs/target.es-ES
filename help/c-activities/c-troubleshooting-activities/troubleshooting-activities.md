@@ -1,20 +1,20 @@
 ---
 keywords: solucionar problemas de target;resolución de problemas de target;contenido predeterminado;prueba no activa;actividad no activa;segmentación no funciona;pantallas de experiencias previas;no puedo crear actividades;no se pueden crear actividades;crear actividades;cambió la estructura de la página;se modificó la estructura de la página;mensaje de error;error al eliminar script de perfil;ajax no funciona
 description: Encuentre sugerencias para la solución de problemas en caso de que la actividad de Adobe [!DNL Target] no aparezca en el sitio.
-title: ¿Cómo Puedo Solucionar Problemas De Actividades?
+title: ¿Cómo puedo solucionar problemas de actividades?
 feature: Actividades
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 77%
+ht-degree: 93%
 
 ---
 
 # Resolución de problemas de actividades
 
-Si su actividad [!DNL Adobe Target] no aparece en el sitio, estas sugerencias para la solución de problemas le ayudarán a encontrar una solución.
+Si su actividad de [!DNL Adobe Target] no aparece en su sitio, estas sugerencias para solucionar problemas le ayudarán.
 
 >[!NOTE]
 >
@@ -24,9 +24,9 @@ En las siguientes secciones puede encontrar ejemplos de problemas y sus posibles
 
 ## He creado una actividad utilizando la interfaz de usuario [!DNL Target] y no puedo actualizarla mediante API.
 
-Las actividades creadas mediante la interfaz de usuario de Target se deben actualizar mediante la interfaz de usuario de Target. Las actividades creadas mediante API deben actualizarse mediante API. Si, originalmente, crea una actividad utilizando la API, por ejemplo, pero luego edita la actividad a través de la interfaz de usuario de Target, no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
+Las actividades creadas con la IU de Target deben actualizarse mediante esta. Las actividades creadas mediante API deben actualizarse mediante esta. Si, originalmente, crea una actividad utilizando la API, por ejemplo, pero luego edita la actividad a través de la IU de Target, no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
 
-Como práctica recomendada, intente actualizar la actividad utilizando el mismo método (interfaz de usuario o API) que se utilizó para crear la actividad originalmente.
+Como práctica recomendada, intente actualizar la actividad mediante el mismo método (IU o API) que se utilizó para crear la actividad originalmente.
 
 ## Se muestra el contenido predeterminado.
 
@@ -78,7 +78,7 @@ Asegúrese de que su actividad está completa y se ha activado.
 Una vez que se lo agrega como usuario en Target, necesita tener la función Aprobador para crear Actividades.
 
 * Solicite al Administrador de la cuenta que lo convierta en Aprobador.
-* Si es el Administrador, asígnese usted mismo la función Aprobador de **[!UICONTROL Administración]** > **[!UICONTROL Usuarios]** en Target.
+* Si usted es el Administrador, asígnese usted mismo la función Aprobador desde **[!UICONTROL Administración]** > **[!UICONTROL Usuarios]** en Target.
 
    Consulte [Asignarse a usted mismo la función de aprobador](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -90,7 +90,7 @@ Una vez que se lo agrega como usuario en Target, necesita tener la función Apro
 
 * Recompile la actividad.
 
-Para obtener más información sobre el modo en que las modificaciones de la página afectan a la capacidad de visualización de Target, consulte   [Escenarios de modificación de página](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para obtener más información sobre el modo en que las modificaciones de la página afectan a la capacidad de visualización de Target, consulte  [Escenarios de modificación de página](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## La estructura de la página se modifica durante la carga de la página (en tiempo de ejecución).
 
@@ -103,11 +103,11 @@ Para obtener más información sobre el modo en que las modificaciones de la pá
 * Actualice el código de la página para que identifique de manera única cada elemento que se probará (mediante un ID).
 * Deje de modificar dinámicamente la clase o los elementos del mismo nivel como se describe más arriba.
 
-Para obtener más información sobre el modo en que las modificaciones de la página afectan a la capacidad de visualización de Target, consulte   [Escenarios de modificación de página](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para obtener más información sobre el modo en que las modificaciones de la página afectan a la capacidad de visualización de Target, consulte  [Escenarios de modificación de página](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Mbox.js está sacando todo el código subsiguiente del encabezado y lo está incluyendo en el cuerpo.
 
-**Validar:** vea el origen para determinar si hay alguna declaración después del archivo mbox.js, antes de la `</body>` etiqueta de cierre.
+**Validar:** vea el origen para determinar si hay alguna declaración después del archivo mbox.js, antes de la  `</body>` etiqueta de cierre.
 
 **Opciones:**
 
@@ -137,9 +137,9 @@ Realice uno de los siguientes pasos:
 * Vuelva a eliminarlo. Aparece el mensaje de proceso realizado correctamente.
 * Espere 10 minutos aproximadamente para que se ejecute el programa de importación de Target Standard/Premium. El programa de importación actualiza la lista de scripts de perfil.
 
-## Algunas llamadas ajax [!DNL Target] no funcionan.
+## Algunas llamadas de ajax de [!DNL Target] no están funcionando.
 
-**Nota:**[!DNL Target] Varias llamadas de ajax con el mismo nombre de pero parámetros diferentes no funcionarán en la misma página. Solo se realizará la primera llamada.
+**Nota:** Varias llamadas de ajax de [!DNL Target] con el mismo nombre de pero parámetros diferentes no funcionarán en la misma página. Solo se realizará la primera llamada.
 
 ## Ha activado una actividad mediante la API [!DNL Target], pero la actividad muestra un estado [!UICONTROL Inactivo] en la interfaz de usuario [!DNL Target].
 
