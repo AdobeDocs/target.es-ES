@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;oferta
-description: Aprenda a utilizar Adobe Recommendations como oferta en las actividades de las pruebas A/B (incluidas la asignación automática y el Destinatario automático) y la segmentación de experiencias (XT).
-title: ¿Cómo se usa Recommendations como Oferta en otros tipos de Actividades?
+description: Aprenda a utilizar Adobe Recommendations como oferta en pruebas A/B (incluida la Asignación automática y la Segmentación automática) y en actividades de direccionamiento de experiencias (XT).
+title: ¿Cómo puedo utilizar Recommendations como oferta en otros tipos de actividades?
 feature: Recommendations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -121,6 +121,6 @@ El estado de oferta de las recomendaciones (algoritmo) aparece en la página [!U
 
 ![Estado de la oferta de Recommendations](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vídeo de capacitación: Recommendations como distintivo de oferta ![Información general](/help/assets/overview.png)
+## Vídeo de formación: Recommendations como oferta ![Distintivo de información general](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
