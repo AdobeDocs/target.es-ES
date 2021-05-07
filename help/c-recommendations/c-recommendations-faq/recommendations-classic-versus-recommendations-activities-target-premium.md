@@ -58,10 +58,10 @@ Para obtener más información sobre el uso y la creación de criterios, consult
 El flujo de trabajo de [!DNL Recommendations] se ha simplificado. En lugar de tener que rellenar complicados formularios, solo tiene que seguir un flujo de trabajo visual para:
 
 1. Seleccionar el criterio.
-1. Seleccione un   [diseño](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Seleccione un  [diseño](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Obtener una vista previa de las recomendaciones resultantes.
 
-## Vista previa    {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Vista previa   {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Puede obtener una vista previa de las recomendaciones después de configurarlas y realizar los cambios necesarios sin necesidad de crearlas en la página, publicarlas y probarlas. Las vistas previas están disponibles desde [!DNL Target].
 
@@ -71,7 +71,7 @@ En [!DNL Recommendations Classic] había seis opciones de segmentación. Las act
 
 ![](assets/overview_targeting.png)
 
-## Creación de informes{#section_25C2FCCE4BC1488496C517C0470B5CD6}
+## Creación de informes {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 En [!DNL Target], [!DNL Recommendations] genera informes mejorados que aprovechan las capacidades de [!DNL Target] y [!DNL Experience Cloud]. En lugar de mostrar simplemente el alza proporcionada por [!DNL Recommendations] comparada con los resultados sin ellas, puede ver información completa sobre su actividad de [!DNL Recommendations].
 
