@@ -1,50 +1,50 @@
 ---
-keywords: kit de bienvenida;kit de bienvenida de destinatario;introducción;introducción;introducción
-description: Ha creado su primera actividad en Adobe Target. ¿Qué sigue? Utilice este artículo para encontrar vínculos a recursos adicionales, tutoriales de formación y vídeos de procedimientos.
-title: ¿Dónde puedo encontrar recursos adicionales para utilizar el Destinatario de manera más eficaz?
-feature: Overview
-translation-type: tm+mt
+keywords: kit de bienvenida;kit de bienvenida de target;intro;introducción;introducción a
+description: Ha creado su primera actividad en Adobe Target. ¿Cuál es el siguiente paso? Utilice este artículo para buscar vínculos a recursos adicionales, tutoriales de aprendizaje y vídeos explicativos.
+title: ¿Dónde puedo encontrar recursos adicionales para utilizar Target de forma más eficaz?
+feature: Información general
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '721'
+ht-degree: 100%
 
 ---
 
 
-# Capítulo 9: Próximos pasos y recursos
+# Capítulo 9: Pasos siguientes y recursos
 
-Hemos cubierto los conceptos básicos para ejecutar su primera actividad. Esperamos que esa actividad le muestre a usted y a su compañía el increíble potencial que tiene el uso de [!DNL Adobe Target] para optimizar y personalizar para impactar el balance final del negocio. Esto es solo un inicio. ¿Es hora de pensar en qué se centrará para su segunda actividad? Considere la posibilidad de crear una lista de actividades con prioridad que desee ejecutar. Le sorprenderá la rapidez con la que ve cómo la actividad por actividad mejora la experiencia del cliente e impulsa el éxito empresarial.
+Hemos visto los fundamentos para la ejecución de su primera actividad. Esperamos que esa actividad le haya mostrado a usted y a su compañía el increíble potencial que tiene el uso de [!DNL Adobe Target] para optimizar y personalizar experiencias e influir en el balance final de la empresa. Esto es solo el principio. Es hora de pensar en qué se centrará su segunda actividad. Considere la posibilidad de crear una lista priorizada de actividades que desee ejecutar. Le sorprenderá la rapidez con la que podrá mejorar con cada actividad la experiencia del cliente e impulsar el éxito de la empresa.
 
-Por cierto, tiene muchas maneras de aprender más sobre pruebas, personalización y uso de [!DNL Target]. Examinar la lista de los recursos que figuran a continuación para fomentar los inicios en ese sentido. Escuchen en nuestros seminarios web, lean el blog de Adobe Target, asistan a la Cumbre de Adobe y actúen en la comunidad en línea de Adobe Target. No olvide que siempre estamos aquí para ayudarle a lanzar su programa y ponerlo en el camino del éxito. Alcanza en cualquier momento.
+Existen muchas maneras de obtener más información acerca de los procesos de prueba, la personalización y el uso de [!DNL Target]. Revise la lista de recursos que aparece a continuación para comenzar a generar este conocimiento. Asista a nuestros seminarios web, lea el blog de Adobe Target, asista al evento Adobe Summit y participe en la comunidad en línea de Adobe Target. Recuerde que siempre estaremos aquí para ayudarle a iniciar su programa y a ponerle en la senda del éxito. Puede ponerse en contacto con nosotros en cualquier momento.
 
-Hemos compilado una lista organizada de información valiosa para ayudarle a obtener aún más conocimientos sobre optimización y personalización mediante [!DNL Target].
+Hemos compilado una lista organizada de información valiosa para ayudarle a obtener aún más información acerca de la optimización y la personalización de experiencias con [!DNL Target].
 
-## Vínculos de recursos
+## Vínculos a recursos
 
-* **Configuración de Adobe Target**: Información para ayudarle a administrar  [!DNL Adobe Target], incluida la configuración del Compositor [!UICONTROL  de experiencias ] visuales (VEC), sistema de informes,  [!DNL Scene7] configuración, implementación, hosts, entornos, tokens de respuesta y usuarios. Consulte [Administración de información general de Destinatario](/help/administrating-target/administrating-target.md).
-* **Documentación** del producto de Adobe Target: Todo lo que necesita saber sobre Adobe Target. Consulte la [documentación del producto de Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html).
-* **Documentación** de Adobe Target API y SDK: Obtenga información sobre cómo implementar  [!DNL Target] en aplicaciones de cliente, aplicaciones de servidor, aplicaciones móviles, IoT y más. Además, aprenda a intercambiar sus [!DNL Target] datos con soluciones de terceros. Consulte [Información general de la API de Adobe Target](/help/api/api-overview.md).
-* **Guía** de Actividades de Adobe Target: Introducción a las diferentes actividades que puede utilizar en  [!DNL Target]. Consulte [tipos de actividad de Destinatario](/help/c-activities/target-activities-guide.md).
-* **Servicio de atención** al cliente de Adobe Target: ¿Atrapado en un problema? Los usuarios de Adobe Target pueden enviar un correo electrónico o llamar en cualquier momento para obtener asistencia técnica. Consulte la [página de soporte empresarial de Destinatario](https://helpx.adobe.com/contact/enterprise-support.ec.html#target).
+* **Configuración de Adobe Target**: Información que le ayudará a administrar [!DNL Adobe Target], con ajustes de configuración del [!UICONTROL Compositor de experiencias visuales] (VEC), informes, configuración de [!DNL Scene7], implementación, hosts, entornos, tokens de respuesta y usuarios. Consulte [Información general sobre la administración de Target](/help/administrating-target/administrating-target.md).
+* **Documentación del producto Adobe Target**: Todo lo que necesita saber sobre Adobe Target. Consulte la [Documentación del producto Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=es).
+* **Documentación de la API y el SDK de Adobe Target**: Obtenga información sobre cómo implementar [!DNL Target] en aplicaciones del lado del cliente, aplicaciones del lado del servidor, aplicaciones móviles, IoT y mucho más. Además, aprenda a intercambiar sus datos de [!DNL Target] con soluciones de terceros. Consulte [Información general de la API de Adobe Target](/help/api/api-overview.md).
+* **Guía de actividades de Adobe Target**: Introducción a las diferentes actividades que puede usar en [!DNL Target]. Consulte [Tipos de actividades de Target](/help/c-activities/target-activities-guide.md).
+* **Servicio de Atención al Cliente de Adobe Target**: ¿No consigue resolver algún problema? Los usuarios de Adobe Target pueden enviar un correo electrónico o llamar en cualquier momento para obtener asistencia técnica. Consulte la [página de asistencia técnica empresarial de Target](https://helpx.adobe.com/es/contact/enterprise-support.ec.html#target).
 
-## Formación y habilitación
+## Aprendizaje y disponibilidad de recursos
 
-* **Tutorials** de Adobe Target: Aprenda lo básico o perfeccione sus habilidades. Consulte la [página Tutorials de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
-* **Capacitación** a pedido de Adobe Target: Explore los diferentes cursos de Destinatario que ofrecemos en nuestra oferta. Consulte la página [tutoriales y capacitación de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK).
-* **Vídeos de Adobe Target:** Binge ve los  [!DNL Target] vídeos para ver historias de éxito y funciones de solución. Consulte [Vídeos de capacitación para Adobe Target Standard y Premium](/help/c-intro/target-standard-premium-training-videos.md)
-* **Serie** de seminarios web: Conceptos básicos de Adobe Target. Únase a nuestra serie de seminarios web sobre el éxito de los clientes que explora los conceptos básicos de optimización con usuarios de Adobe Target. Consulte [Serie de seminarios Web sobre conceptos básicos de Destinatario](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
-* **Horas** de la oficina de atención al cliente de Adobe: &quot;Horario de oficina&quot; es una iniciativa dirigida por el equipo de atención al cliente de Adobe. Estas sesiones están diseñadas para informar y ayudar a los participantes a solucionar problemas, y para proporcionar consejos y trucos para tener éxito con las soluciones [!DNL Adobe Experience Cloud], incluyendo [!DNL Target]. Consulte [Horas de la oficina de atención al cliente de Adobe](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
-* **Cumbre** Adobe: Asista al mayor evento profesional del año para especialistas en mercadotecnia digital.
-   * [Cumbre](https://summit.adobe.com/na/)  de Adobe (Norteamérica)
-   * [Cumbre](http://summit-emea.adobe.com/emea/)  de Adobe (EMEA)
+* **Tutoriales de Adobe Target**: Aprenda los fundamentos o perfeccione sus habilidades. Consulte la [página de tutoriales de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es).
+* **Aprendizaje a demanda de Adobe Target**: Explore los distintos cursos de Target que ofrecemos. Consulte la página [Tutoriales y aprendizaje de Adobe](https://helpx.adobe.com/es/learning.html?promoid=KAUDK).
+* **Vídeos de Adobe Target:** Vea vídeos de [!DNL Target] para obtener información sobre historias de éxito y sobre las funcionalidades de la solución. Consulte [Vídeos de aprendizaje de Adobe Target Standard y Premium](/help/c-intro/target-standard-premium-training-videos.md)
+* **Serie de seminarios web**: Fundamentos de Adobe Target. Únase a nuestra serie de seminarios web de éxito de clientes que analiza los fundamentos de la optimización con los usuarios de Adobe Target. Consulte [Serie de seminarios web sobre fundamentos de Target](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
+* **Horario del servicio de Atención al Cliente de Adobe**: &quot;Horario de oficina&quot; es una iniciativa del equipo de atención al cliente de Adobe. Estas sesiones están diseñadas para informar y ayudar a los participantes a solucionar problemas, y ofrecen sugerencias y trucos para usar correctamente las soluciones de [!DNL Adobe Experience Cloud], como [!DNL Target]. Consulte [Horario del servicio de atención al cliente de Adobe](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
+* **Adobe Summit**: Asista al mayor evento profesional del año para especialistas en marketing digital.
+   * [Adobe Summit](https://summit.adobe.com/na/) (Norteamérica)
+   * [Adobe Summit](http://summit-emea.adobe.com/emea/) (EMEA)
 
 ## Recursos adicionales
 
-* **Página principal** de Adobe Target: La página de inicio de  [!DNL Adobe Target], conozca nuestras capacidades y vea nuestros últimos éxitos aquí. Consulte [Adobe Target](https://www.adobe.com/es/marketing/target.html).
-* **El blog**: Manténgase al día con las últimas noticias, consejos e historias de éxito siguiendo el blog [ del ](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5)Destinatario.
-* **Experience League**: Descubra las guías, los eventos y la formación que necesita para dar inicio a su negocio de experiencia, conectarse con la comunidad de Destinatarios y encontrar las respuestas que busca. Consulte la [página principal de Adobe Experience League](https://experienceleague.adobe.com/#home).
-* **Certificación** de Adobe Target: Obtenga el estado de experto certificado por Adobe con los nuevos exámenes de Adobe Target. Programe un examen aquí o cursos de capacitación. Consulte [Formación y certificación](/help/c-intro/training-and-certification.md).
-* **Notas** de la versión de Adobe Target: Información sobre funciones, mejoras y correcciones para cada  [!DNL Target Standard] y  [!DNL Target Premium] versión. Además, también se incluyen las notas de la versión de las API de Destinatario, los SDK, la biblioteca de JavaScript (at.js) y otros cambios en la plataforma, cuando corresponde. Consulte [Notas de la versión de Destinatario (actual)](/help/r-release-notes/release-notes.md).
-* **Boletín** de Adobe Target: Obtenga información sobre actualizaciones de productos y planes futuros, consejos y trucos de personalización y optimización, éxitos de clientes, eventos próximos, anuncios populares de blogs y mucho más. Consulte [Boletín de información privilegiada de Destinatario](/help/r-release-notes/target-insider-newsletter.md).
+* **Página principal de Adobe Target**: Página de inicio de [!DNL Adobe Target], donde podrá obtener información sobre nuestras capacidades y sobre nuestras historias de éxito más recientes. Consulte [Adobe Target](https://www.adobe.com/es/marketing/target.html).
+* **El blog**: Manténgase al día con información sobre las noticias más recientes, sugerencias e historias de éxito a través del [blog de Target](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5).
+* **Experience League**: Obtenga información sobre guías, eventos y el aprendizaje que necesita para poner en marcha su empresa de experiencias, conectarse a la comunidad de Target y encontrar las respuestas que busca. Consulte la [Página principal de Adobe Experience League](https://experienceleague.adobe.com/?lang=es#home).
+* **Certificación de Adobe Target**: Obtenga el estado certificado por Adobe con nuevos exámenes de Adobe Target. Programe un examen aquí o cursos de aprendizaje. Consulte [Aprendizaje y certificación](/help/c-intro/training-and-certification.md).
+* **Notas de la versión de Adobe Target**: Información sobre funciones, mejoras y correcciones de cada versión de [!DNL Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de la API de Target, el SDK, la biblioteca JavaScript (at.js) y otros cambios de plataforma, cuando corresponda. Consulte [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md).
+* **Newsletter de Adobe Target**: Obtenga información sobre actualizaciones de productos y planes futuros, consejos y trucos para la personalización y la optimización, casos de éxito de clientes, eventos próximos, publicaciones de blog populares y mucho más. Consulte [Newsletter de Target Insider](/help/r-release-notes/target-insider-newsletter.md).
 
