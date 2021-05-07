@@ -2,25 +2,25 @@
 keywords: Notas de la versión;nuevas funciones;versiones;actualizaciones;actualización;versión;mejora;mejoras;correcciones;correcciones de errores;actualizaciones
 description: Conozca las nuevas funciones, mejoras y correcciones incluidas en la versión actual de Adobe Target, incluidos SDK, API y bibliotecas de JavaScript.
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
-feature: Release Notes
+feature: Notas de la versión
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 35%
+ht-degree: 59%
 
 ---
 
 # Notas de la versión de Target (actual)
 
-Estas notas de la versión proporcionan información sobre características, mejoras y correcciones para cada versión [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de API de Target, SDK, la biblioteca JavaScript (at.js) y otros cambios de plataforma, cuando corresponde.
+Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de la API de Target, el SDK, la biblioteca JavaScript (at.js) y otros cambios de plataforma, cuando corresponda.
 
 >[!IMPORTANT]
 >
->**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js producirán errores y afectarán a las páginas que tengan actividades [!DNL Target] ejecutándose al servir contenido predeterminado.
+>**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas que se realicen desde mbox.js producirán errores y afectarán a las páginas que tengan actividades de [!DNL Target] en ejecución para las que se mostrará contenido predeterminado.
 >
->Migrar a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar problemas potenciales con sus sitios. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migre a la versión más reciente del [!DNL Adobe Experience Platform Web SDK] o a la biblioteca JavaScript at.js antes de esta fecha para evitar posibles problemas con sus sitios. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
@@ -62,9 +62,9 @@ Además de las notas de cada versión, los recursos siguientes también contiene
 
 | Recurso | Detalles |
 |--- |--- |
-| Cambios de la documentación | Vea información detallada sobre las actualizaciones hechas a esta guía que no se incluyen en estas notas de la versión.<br>Para obtener más información, consulte [Cambios de la documentación](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
+| Cambios de la documentación | Vea información detallada sobre las actualizaciones que se realizaron en esta guía que no se incluyen en estas notas de la versión.<br>Para obtener más información, consulte [Cambios de la documentación](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
 | Notas de la versión para versiones anteriores | Vea información sobre las nuevas funciones y mejoras de las versiones anteriores de Target Standard y Target Premium.<br>Para obtener más información, consulte [Notas de versiones anteriores](/help/r-release-notes/release-notes-for-previous-releases.md). |
-| Notas de la versión de Adobe Experience Cloud | Vea las notas de la última versión de las soluciones de Adobe Experience Cloud.<br>Para obtener más información, consulte Notas de la versión del  [Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html). |
+| Notas de la versión de Adobe Experience Cloud | Vea las notas de la última versión de las soluciones de Adobe Experience Cloud.<br>Para obtener más información, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es). |
 
 ## Información previa a la publicación {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -72,5 +72,5 @@ Los siguientes recursos le permiten ver qué novedades hay en la próxima versi�
 
 | Recurso | Detalles |
 |--- |--- |
-| Actualización de producto prioritario de Adobe | Para recibir notificaciones avanzadas sobre futuras mejoras de productos en Target y otras soluciones de Adobe Experience Cloud, regístrese en Adobe Priority Product Update:<br>[](https://www.adobe.com/subscription/priority-product-update.html)https://www.adobe.com/subscription/priority-product-update.html |
+| Adobe Priority Product Update | Para recibir notificaciones avanzadas sobre futuras mejoras de productos en Target y otras soluciones de Adobe Experience Cloud, regístrese en Adobe Priority Product Update:<br>[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html) |
 | Próximas notas de la versión | Si desea obtener información sobre las versiones de Target publicadas en el mes actual, como la información sobre la versión preliminar, visite la página de [Notas de la versión de Target: versión previa](/help/r-release-notes/target-release-notes.md). |
