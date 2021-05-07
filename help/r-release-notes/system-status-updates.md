@@ -2,13 +2,13 @@
 keywords: actualización del sistema;solución de problemas;mantenimiento;estado del sistema;estado de las actualizaciones
 description: Vea el estado actual de Adobe [!DNL Target] para ayudarle a determinar si los problemas que puede encontrar se deben a actualizaciones del sistema o a mantenimiento de rutina.
 title: ¿Dónde puedo ver el estado de [!DNL Target] y otros productos de Adobe?
-feature: ' Notas de la versión '
+feature: Notas de la versión
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
