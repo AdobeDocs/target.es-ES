@@ -6,25 +6,24 @@ feature: Implementación del lado del servidor
 role: Developer
 exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 49%
+source-wordcount: '255'
+ht-degree: 32%
 
 ---
 
 # Cómo implementar at.js
 
-Información sobre cómo implementar la biblioteca de JavaScript de Adobe Target, at.js, mediante Adobe Launch, sin un administrador de etiquetas, o mediante Dynamic Tag Management (DTM) de Adobe.
+Información sobre cómo implementar la biblioteca JavaScript de Adobe Target, at.js, mediante Adobe Experience Platform Launch o sin un administrador de etiquetas.
 
 Puede implementar at.js con los métodos siguientes:
 
-* **[Implementar Target utilizando Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Launch es la plataforma de administración de etiquetas de próxima generación de Adobe y es el método preferido para implementar Adobe Target. Launch ofrece a los clientes una alternativa sencilla para implementar y gestionar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente.
-* **[Implementar Target sin un Administrador de etiquetas](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)**: Puede implementar Target sin utilizar un administrador de etiquetas (Adobe Launch o Dynamic Tag Management).
-* **[Implementar Target mediante Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**: Puede implementar Target mediante Adobe Dynamic Tag Management (DTM), el administrador de etiquetas heredado de Adobe. Adobe Launch es el método preferido y actualizado para implementar Target y la biblioteca de at.js. Para nuevas implementaciones de Target, use Launch.
+* **[ [!DNL Target] Implementar utilizando [!DNL Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Launch es la plataforma de administración de etiquetas de próxima generación de Adobe y es el método preferido para implementar Adobe Target. Launch ofrece a los clientes una alternativa sencilla para implementar y gestionar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente.
+* **[Implementación de Target sin un Administrador de etiquetas](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)**: Puede implementar Target sin utilizar un administrador de etiquetas ([!DNL Platform Launch]).
 * **Implemente Target utilizando un administrador de etiquetas de terceros**:  [El ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) lanzamiento de Adobes es el método preferido para implementar Target; sin embargo, también puede implementar Target utilizando un administrador de etiquetas de terceros, como Tealium, Ensightly, Google Tag, etc. Para obtener una lista de las ventajas de utilizar Launch, consulte [Ventajas de implementar at.js mediante la extensión Launch de Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304).
 
-   Sin embargo, si sabe cómo implementar Target sin un administrador de etiquetas, puede implementar fácilmente con un administrador de etiquetas de terceros en lugar de preprogramar at.js en el código del sitio.
+   Sin embargo, si sabe cómo implementar [!DNL Target] sin un administrador de etiquetas, puede implementarlo fácilmente con un administrador de etiquetas de terceros en lugar de codificar at.js en el código del sitio.
 
    Estos son dos temas relevantes que le ayudarán a implementar Target con un administrador de etiquetas de terceros:
 
