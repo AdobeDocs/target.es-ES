@@ -2,14 +2,14 @@
 keywords: lanzamientios de at.js;versiones de at.js;aplicación de una sola página;spa;dominio cruzado;cross-domain
 description: Obtenga información sobre cómo actualizar desde Adobe [!DNL Target] at.js 1.x a at.js 2.x. Examine los diagramas de flujo del sistema, conozca las funciones nuevas y obsoletas, y mucho más.
 title: ¿Cómo actualizo de la versión 1.x de at.js a la versión 2.x?
-feature: 'at.js '
+feature: 'at.js. '
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 91%
+source-wordcount: '2765'
+ht-degree: 92%
 
 ---
 
@@ -289,7 +289,7 @@ En Target, la cookie de terceros se almacena en `<CLIENTCODE>.tt.omtrdc.net`. La
 
 Sin embargo, en at.js 2.*x*, HTTP GET ya no se utiliza, y en su lugar utilizamos HTTP POST. HTTP POST se utiliza ahora a través de at.js 2.*x* para enviar cargas JSON a servidores de Target Edge. Esto significa que la solicitud de redirección para comprobar si un explorador admite cookies de terceros se interrumpe. Esto se debe a que las solicitudes HTTP GET son transacciones idempotentes, mientras que HTTP POST no es idempotente y no se debe repetir arbitrariamente. Por lo tanto, en el seguimiento entre dominios en at.js 2.*x* ya no es compatible de serie. Solo at.js 1.*x* es compatible de serie para el seguimiento entre dominios.
 
-Si desea utilizar el seguimiento entre dominios, debe instalar la [biblioteca ECID v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) junto con at.js 2.*x*. La biblioteca ECID sirve para administrar los ID persistentes que se utilizan para identificar a un visitante, incluso entre dominios.
+Si desea utilizar el seguimiento entre dominios, debe instalar la [biblioteca ECID v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=es) junto con at.js 2.*x*. La biblioteca ECID sirve para administrar los ID persistentes que se utilizan para identificar a un visitante, incluso entre dominios.
 
 >[!NOTE]
 >
@@ -364,7 +364,6 @@ Las tablas siguientes explican la 2.*compatibilidad con x* con diferentes tipos 
 | Extensión Adobe Launch | [Sí](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Depurador | Sí |
 | Auditor | Todavía no se han actualizado las reglas para at.js 2.*x* |
-| Administrador dinámico de etiquetas (DTM) | Sí |
 | Inclusión | No. La compatibilidad con el [RGPD](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) se ofrece en [la versión 2.1.0 de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | Personalización mejorada AEM con tecnología de Adobe Target | No |
 
