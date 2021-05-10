@@ -2,14 +2,14 @@
 keywords: preguntas frecuentes;faq sobre at.js;preguntas frecuentes sobre at.js;parpadeo;cargador;cargador de páginas;dominios cruzados;dominio cruzado;tamaño de archivo;dominio x;at.js y mbox.js;solo x;safari;una sola página;aplicación de una sola página;spa;selectores desaparecidos;selectores;tt.omtrdc.net;Adobe Experience Manager;AEM;dirección ip;solo http;solo Http;ip;segura;dominio de cookie
 description: Lea las respuestas a las preguntas más frecuentes sobre la biblioteca JavaScript de Adobe [!DNL Target] at.js.
 title: ¿Qué son las preguntas y respuestas comunes sobre at.js?
-feature: 'at.js '
+feature: 'at.js. '
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 92%
+source-wordcount: '2687'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ La versión at.js 1.0.0 permite cargar la biblioteca de Target de forma asíncro
 
 Para cargar at.js de forma asíncrona:
 
-* El método recomendado es mediante un administrador de etiquetas como Adobe Launch o Administrador dinámico de etiquetas de Adobe (DTM). Consulte la lección [Añadir Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) del tutorial [Implementación del Experience Cloud en sitios web con Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) para obtener más información.
+* El método recomendado es mediante [!DNL Adobe Experience Platform Launch]. Consulte la lección [Añadir Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) del tutorial [Implementación del Experience Cloud en sitios web con Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) para obtener más información.
 * También puede cargar at.js de forma asíncrona añadiendo el atributo async a la etiqueta de script que carga at.js. Utilice algo similar a esto:
 
    ```
