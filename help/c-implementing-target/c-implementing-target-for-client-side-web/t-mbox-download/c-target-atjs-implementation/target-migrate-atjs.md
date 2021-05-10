@@ -2,14 +2,14 @@
 keywords: Target;at.js;migrar a at.js;disposición;auditar at.js;integrar at.js
 description: Aprenda a migrar a at.js, la nueva biblioteca de implementación para Adobe [!DNL Target] diseñada tanto para implementaciones web típicas como para aplicaciones de una sola página (SPA).
 title: Cómo migrar de mbox.js a at.js
-feature: 'at.js '
+feature: 'at.js. '
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 96%
+source-wordcount: '856'
+ht-degree: 92%
 
 ---
 
@@ -77,7 +77,7 @@ Siga estos pasos para migrar de [!DNL mbox.js] a [!DNL at.js] y para comprobar l
 
    **¿Usa un administrador de etiquetas?**
 
-   * Dynamic Tag Management
+   * Adobe Experience Platform Launch
    * Ensighten
    * Tealium
    * Signal/BrightTag
@@ -86,7 +86,11 @@ Siga estos pasos para migrar de [!DNL mbox.js] a [!DNL at.js] y para comprobar l
 
    >[!NOTE]
    >
-   >Si actualmente no usa un administrador de etiquetas para implementar [!DNL Target], este puede ser un buen momento para planteárselo. [Dynamic Tag Management](https://dtm.adobe.com) de Adobe es una herramienta gratuita para los clientes de [!DNL Target] y es el método recomendado para implementar [!DNL Target]. Para obtener más información, consulte [Prácticas recomendadas para implementar Adobe Target mediante Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
+   >Si actualmente no usa un administrador de etiquetas para implementar [!DNL Target], este puede ser un buen momento para planteárselo.
+   >
+   >[!DNL Platform Launch] es la plataforma de administración de etiquetas de próxima generación de  [!DNL Adobe] y es el método preferido para implementar  [!DNL Adobe Target]. [!DNL Platform Launch] ofrece a los clientes una alternativa sencilla para implementar y gestionar las etiquetas de análisis, marketing y publicidad necesarias para ofrecer al cliente experiencias más relevantes.
+   >
+   >Para obtener más información, consulte [Implementar [!DNL Target] utilizando [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 1. Compruebe que todas las actividades e integraciones actuales funcionan correctamente.
 
