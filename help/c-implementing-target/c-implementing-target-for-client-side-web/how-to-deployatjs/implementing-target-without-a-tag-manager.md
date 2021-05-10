@@ -6,16 +6,16 @@ feature: Implementación del lado del servidor
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 52%
+source-wordcount: '1687'
+ht-degree: 53%
 
 ---
 
 # Implementar [!DNL Target] sin un administrador de etiquetas
 
-Información sobre la implementación de [!DNL Adobe Target] sin utilizar un administrador de etiquetas ([!DNL Adobe Experience Platform Launch] o [!DNL Dynamic Tag Manager]).
+Información sobre la implementación de [!DNL Adobe Target] sin utilizar un administrador de etiquetas ([!DNL Adobe Experience Platform Launch]).
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ Para descargar [!DNL at.js] con la API
 
 at.js debe implementarse en el elemento `<head>` de cada página de su sitio web.
 
-Una implementación típica de Target que no utiliza un administrador de etiquetas como [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) o [Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) tiene este aspecto:
+Una implementación típica de Target que no utiliza un administrador de etiquetas como [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) tiene este aspecto:
 
 ```
 <!doctype html> 
