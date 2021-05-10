@@ -6,10 +6,10 @@ feature: Administración y configuración
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 76%
+source-wordcount: '1498'
+ht-degree: 74%
 
 ---
 
@@ -95,31 +95,7 @@ El siguiente ejemplo de código añade un controlador de evento personalizado [!
 </html>
 ```
 
-Las siguientes instrucciones muestran cómo se añade un controlador de evento personalizado [!DNL at.js] utilizando el administrador dinámico de etiquetas de Adobe (DTM):
-
-1. Inicie sesión en DTM.
-1. Vaya a la propiedad pertinente.
-1. Abra la herramienta Target.
-
-   Como DTM no admite at.js de forma nativa, deberá utilizar un editor de código.
-
-1. En el editor, añada el siguiente código a [!DNL at.js]:
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-Puede agregar el siguiente fragmento a la página de [configuración de pie de página de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) si desea tener todo en un archivo.
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
-## Preguntas frecuentes de tokens de respuesta {#section_3DD5F32C668246289CDF9B4CDE1F536D}
+## Preguntas frecuentes sobre tokens de respuesta {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **¿Qué rol se necesita para activar o desactivar tokens de respuesta?**
 
@@ -133,7 +109,7 @@ Verá los tokens de respuesta, pero at.js no será capaz de usarlos.
 
 Los tokens de respuesta se enviarán a las respuestas de [!DNL at.js] Target, pero no a las respuestas de [!DNL mbox.js].
 
-**¿Puedo tener activos a la vez complementos de Target Classic y tokens de respuesta?**
+**[!DNL Target Classic]¿Puedo tener activos a la vez complementos de y tokens de respuesta?**
 
 Los complementos y los tokens de respuesta estarán disponibles en paralelo; sin embargo, los complementos quedarán obsoletos en el futuro.
 
@@ -165,7 +141,7 @@ Como se ha mencionado anteriormente, los tokens de respuesta operan con la infor
 
 Target realiza una actualización de atributos a intervalos regulares. Cualquier atributo que no esté activado se eliminará durante la siguiente actualización. Sin embargo, si se elimina un atributo activado (por ejemplo, si se elimina un script de perfil que se utilizaba como token), dicho script no se eliminará de la lista de atributos hasta que lo desactive. Target solo elimina de la lista los atributos desactivados cuando estos se eliminan o se cambia su nombre.
 
-## Envío de datos a Google Analytics mediante at.js    {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Envío de datos a los Google Analytics mediante at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Es posible enviar datos a Google Analytics mediante at.js añadiendo el siguiente código en la página HTML:
 
@@ -283,7 +259,7 @@ Puede crearse el equivalente del complemento ttMeta para depuración añadiendo 
 </script>
 ```
 
-## Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js ![Distintivo de tutorial](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js ![Distintivo de Tutorial ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Vea el siguiente vídeo para aprender a utilizar los tokens de respuesta y los eventos personalizados de at.js con el fin de compartir información de perfil de Target con sistemas de terceros.
 
