@@ -1,13 +1,13 @@
 ---
-keywords: document.write;target;implementar;implementar target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;sdk web
+keywords: document.write;target;implementar;implementar target;dtm;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;sdk web
 description: Implemente bibliotecas de Adobe [!DNL Target] by referencing the [!DNL Target] (at.js o mbox.js) en sus páginas web.
 title: Comprender las  [!DNL Target] bibliotecas JavaScript
 feature: Implementación
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 23%
+source-wordcount: '473'
+ht-degree: 24%
 
 ---
 
@@ -27,7 +27,7 @@ La siguiente tabla explica las diferencias entre las bibliotecas JavaScript [!DN
 | Referencia sobre la biblioteca | Descripción |
 |--- |--- |
 | SDK web de Adobe Experience Platform | El [!UICONTROL SDK web de Adobe Experience Platform] le permite interactuar con los distintos servicios de [!DNL Experience Cloud] (incluido [!DNL Target]) a través de la red perimetral de Adobe Experience. Si decide migrar al [!DNL Adobe Experience Platform Web SDK], consulte [Qué es el SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) en la *Guía del SDK web*. |
-| at.js  | at.js reemplaza a mbox.js para implementaciones de [!DNL [!DNL Target]].<br>Entre otros beneficios, at.js mejora los tiempos de carga de página en implementaciones web, mejora la seguridad, evita advertencias de document.write en Google Chrome y proporciona mejores opciones de implementación en aplicaciones de una sola página.<br>Para obtener más información, consulte [Implementación at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| at.js.  | at.js reemplaza a mbox.js para implementaciones de [!DNL [!DNL Target]].<br>Entre otros beneficios, at.js mejora los tiempos de carga de página en implementaciones web, mejora la seguridad, evita advertencias de document.write en Google Chrome y proporciona mejores opciones de implementación en aplicaciones de una sola página.<br>Para obtener más información, consulte [Implementación at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 ## Impacto de at.js en el tiempo de carga de página {#section_16630CD0FF0A498EB596A51381366A5A}
 
