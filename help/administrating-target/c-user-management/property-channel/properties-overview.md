@@ -6,9 +6,9 @@ feature: Administración y configuración
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1454'
 ht-degree: 66%
 
 ---
@@ -29,7 +29,7 @@ La siguiente tabla enumera las tareas que debe realizar para crear propiedades y
 | 2. Crear un espacio de trabajo (perfil de producto) | [!DNL Adobe Admin Console for Enterprise] |
 | 3. Crear grupos de usuarios (Opcional) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. Crear propiedades | [!DNL Target] IU |
-| 5. Actualizar la implementación para incluir el parámetro.`at_property` | [!DNL Target] Interfaz de usuario, funciones de at.js, [!DNL Adobe Launch] o [!DNL Dynamic Tag Management] |
+| 5. Actualizar la implementación para incluir el parámetro.`at_property` | [!DNL Target] Interfaz de usuario, funciones de at.js o  [!DNL Adobe Experience Platform Launch] |
 | 6. Especificar roles y permisos | [!DNL Adobe Admin Console for Enterprise] |
 
 Para las tareas realizadas en [!DNL Adobe Admin Console for Enterprise], acceda a la consola siguiendo estos pasos:
@@ -151,12 +151,6 @@ Para utilizar la funcionalidad de permisos de usuario [!DNL Target] , debe añad
 
       Para obtener más información, consulte [Agregar parámetros de destino globales](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) en la documentación de *Adobe Experience Platform Launch*.
 
-   * **Mediante un “Parámetro global” en [!DNL Dynamic Tag Management]:**
-
-      ![](assets/property_token_2.png)
-
-      Para obtener más información, consulte [Parámetros globales: Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) en la *documentación sobre Dynamic Tag Management*.
-
    * **Mediante la función targetPageParams():**  coloque el siguiente código en las  `<head>` etiquetas, encima de la referencia a at.js o mbox.js.
 
       ![](assets/property_token_1.png)
@@ -194,7 +188,7 @@ Para utilizar la funcionalidad de permisos de usuario [!DNL Target] , debe añad
    | Aprobador | Puede crear, editar y activar o detener actividades. |
    | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
    | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
-   | Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, el rol Editor tiene el permiso adicional para activar actividades. |
+   | Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, la función Publicador tiene el permiso adicional de activar actividades. |
 
    Para obtener más información, consulte [Administrar permisos y roles de producto en Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) en la *Guía del usuario de Enterprise*.
 
