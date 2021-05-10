@@ -2,13 +2,13 @@
 keywords: parpadeo;at.js;implementación;asincrónicamente;asincrónico;sincrónico;sincrónico
 description: Descubra cómo at.js y el Adobe [!DNL Target] evitan el parpadeo (el contenido predeterminado se muestra momentáneamente antes de ser reemplazado por contenido de actividad) durante la carga de la página o la aplicación.
 title: ¿Cómo gestiona at.js el parpadeo?
-feature: 'at.js '
+feature: 'at.js. '
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 76%
 
 ---
@@ -47,7 +47,7 @@ Cargar at.js de forma asíncrona es un modo excelente de evitar el bloqueo de pr
 
 Puede evitar el parpadeo utilizando un fragmento de ocultamiento previo que será visible después de que [!DNL Target] personalice los elementos HTML relevantes. 
 
-at.js se puede cargar de forma asíncrona, ya sea directamente incrustado en la página o a través de un administrador de etiquetas (Adobe Launch, Dynamic Tag Manager (DTM), etc.).
+at.js se puede cargar de forma asíncrona, ya sea directamente incrustado en la página o a través de un administrador de etiquetas (por ejemplo, [!DNL Adobe Experience Platform Launch]).
 
 Si at.js está incrustado en la página, se debe agregar el fragmento antes de cargar at.js. Si carga at.js a través de un administrador de etiquetas, que también se carga asincrónicamente, debe añadir el fragmento antes de cargar el administrador de etiquetas. Si el administrador de etiquetas se carga sincrónicamente, el script podría incluirse en el administrador de etiquetas antes de at.js.
 
