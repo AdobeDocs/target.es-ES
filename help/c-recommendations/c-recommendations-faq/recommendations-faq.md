@@ -5,10 +5,10 @@ title: ¿Dónde puedo encontrar preguntas y respuestas sobre [!DNL Target] Recom
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
+source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
-source-wordcount: '2940'
-ht-degree: 58%
+source-wordcount: '2995'
+ht-degree: 57%
 
 ---
 
@@ -241,3 +241,9 @@ Si un visitante tiene dos sesiones activas al mismo tiempo, los elementos visual
 Este comportamiento sigue ocurriendo si un visitante está activo en un dispositivo y luego se activa en el otro dispositivo unos minutos después. La primera sesión del dispositivo no caduca durante 30 minutos y puede haber hasta cinco minutos de retraso antes de que el estado del perfil se escriba en el estado permanente y se procese. Espere 35 minutos para que la sesión caduque y el perfil se almacene al probar este comportamiento.
 
 Si el visitante no tiene dos sesiones activas al mismo tiempo, los artículos vistos recientemente en un dispositivo actualizarán los artículos vistos recientemente en el otro dispositivo siempre y cuando la sesión haya finalizado. Espere 35 minutos para que la sesión caduque al probar este comportamiento.
+
+## ¿Puedo usar un algoritmo creado en [!DNL Adobe Recommendations Classic] en [!DNL Recommendations Premium]?
+
+Un algoritmo creado en [!DNL Recommendations Classic] no es compatible con [!DNL Recommendations Premium]. Puede utilizar el algoritmo preexistente en [!DNL Target Premium]; sin embargo, el algoritmo puede crear problemas de sincronización al desactivar o eliminar la actividad en la interfaz de usuario de [!DNL Target Premium]. Para obtener más información sobre las diferencias entre las dos soluciones, consulte [[!DNL Recommendations Classic] versus [!DNL Recommendations] actividades en [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+
