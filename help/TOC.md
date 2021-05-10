@@ -4,10 +4,10 @@ breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -110,9 +110,9 @@ ht-degree: 89%
             + [Integraciones de at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + Cómo implementar at.js {#deploy-at-js}
             + [Cómo implementar at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Implementar Target utilizando Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [Implementación de Target mediante Platform launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [Implementación de Target sin un administrador de etiquetas](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [Implementación de Target mediante Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [Implementación de Target mediante Dynamic Tag Manager (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [Implementación de Target para aplicaciones de una sola página (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + Funciones de at.js {#functions-overview}
             + [Información general sobre las funciones de at.js](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
