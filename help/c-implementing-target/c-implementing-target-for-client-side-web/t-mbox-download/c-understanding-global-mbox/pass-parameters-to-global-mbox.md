@@ -1,15 +1,15 @@
 ---
-keywords: parámetros de mbox global;targetPageParams;cadena de consulta;matriz;json;dtm;dynamic tag management
+keywords: parámetros de mbox global;targetPageParams;cadena de consulta;matriz;json;dtm
 description: Aprenda a utilizar la función targetPageParams para pasar información de contexto o segmentación adicional al mbox global de Adobe [!DNL Target] .
 title: ¿Cómo paso parámetros a un mbox global?
-feature: 'at.js '
+feature: 'at.js. '
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 67%
+source-wordcount: '382'
+ht-degree: 65%
 
 ---
 
