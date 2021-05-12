@@ -4,11 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Notas de la versión
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 32%
+source-wordcount: '384'
+ht-degree: 37%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 32%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 16 de abril de 2021**
+**Última actualización: 12 de mayo de 2021**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas podría ser la misma, dependiendo del tiempo de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -26,24 +25,23 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 >
 >Para evitar posibles problemas con sus sitios, migre a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.4.1 (19 de abril de 2021)
+## [!DNL Adobe Experience Platform Web SDK] (17 de mayo de 2021)
+
+Esta versión de [!DNL Platform Web SDK] incluye compatibilidad con [!UICONTROL Analytics for Target] (A4T) para redirecciones [!DNL Target].
+
+## [!DNL Target Standard/Premium] 21.5.2 (Fecha por determinar)
 
 Esta versión contiene las siguientes nuevas funciones y mejoras. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 | Función | Detalles |
 | --- | --- |
-| Compatibilidad con la toma de decisiones en el dispositivo para at.js | La toma de decisiones en dispositivos permite a los especialistas en marketing y a los desarrolladores ofrecer experimentación y personalización en el navegador de un usuario con una latencia cercana a cero.<br>Para obtener más información, consulte  [Decisiones en el dispositivo para at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)<br>(Fecha por anunciar) |
-| ![](/help/assets/premium.png) Operadores basados en PremiumList para reglas de filtrado de entidades | [!DNL Target Recommendations] admite nuevos operadores basados en listas para reglas de filtrado de entidades. (TGT-39234)<br>Los operadores añadidos recientemente incluyen:<br><ul><li>Está contenido en la lista</li><li>No está contenido en la lista</li><li>La Lista Contiene Un Elemento De</li><li>La Lista No Contiene Un Elemento En</li><li>La lista contiene todos los elementos de</li><li>La Lista No Contiene Todos Los Elementos De</li></ul>Para obtener más información, consulte &quot;Operadores disponibles&quot; en [Uso de reglas de inclusión dinámicas y estáticas](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Las siguientes mejoras se aplican a los algoritmos de popularidad [!DNL Recommendations]:<ul><li>Habrá disponible una nueva opción de seis horas de &quot;ventana retrospectiva&quot; (intervalo de datos) para todos los algoritmos de popularidad (más visitados/más vendidos) cuando [!DNL Target] sea la fuente de datos de comportamiento. (Esta ventana retrospectiva está *no* disponible cuando [!DNL Adobe Analytics] es la fuente de datos de comportamiento).</li><li>Cuando se selecciona, los siguientes algoritmos se ejecutan aproximadamente cada tres horas (en lugar de cada 12 horas).<ul><li>Más visitados</li><li>Más compradas</li><li>Más visitados por categoría</li><li>Más comprados por categoría</li><li>Más visitados por atributo personalizado (con la función groupBy)</li><li>La mayoría de las compras realizadas por el atributo personalizado (con la función groupBy)</li></ul></ul>(TOP-1086) |
 
 Esta versión contiene las siguientes correcciones.
 
-* Se ha corregido un problema que impedía que una actividad se sincronizara después de cambiar la audiencia a [!UICONTROL Todos los visitantes]. (TGT-40259)
-* Se ha corregido un problema que impedía que las ofertas se duplicaran cuando se usaban en distintas ubicaciones en actividades [!UICONTROL Automated Personalization] aunque la opción [!UICONTROL No permitir duplicados] estuviera habilitada. (TGT-39567)
-* Se ha corregido un problema que impedía que la página [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] se cargara correctamente. (TGT-39918)
-* Se ha corregido un problema que provocaba que las propiedades se asignaran al espacio de trabajo incorrecto. (TGT-39869)
-* Se ha corregido un problema que provocaba una carga infinita si la solicitud fallaba después de cambiar el entorno al crear una exclusión de Recommendations. (TGT-39948)
+* Se agregará a medida que se acerca la fecha de lanzamiento.
 
-## Versión 2.5.0 de at.js (fecha por anunciar)
+## Versión 2.5.0 de at.js (fecha por determinar)
 
 Esta versión de at.js incluye las siguientes mejoras y cambios:
 
