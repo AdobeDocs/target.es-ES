@@ -4,11 +4,10 @@ description: Manténgase al día con las adiciones y cambios importantes en la d
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-translation-type: tm+mt
-source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 61%
+source-wordcount: '1119'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| Mayo de 10 | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se ha añadido la siguiente pregunta frecuente: &quot;¿Puedo usar un algoritmo creado en [!DNL Adobe Recommendations Classic] en [!DNL Recommendations Premium]?&quot; |
+| Mayo de 12 | [[!DNL Target] notas de la versión (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han añadido notas de revisión para lo siguiente:<ul><li>SDK web de Adobe Experience Platform (17 de mayo de 2021)</li><li>Target Standard Premium 21.5.2</li></ul> |
+| Mayo de 10 | [[!DNL Recommendations] Preguntas más frecuentes](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se ha añadido la siguiente pregunta frecuente: &quot;¿Puedo usar un algoritmo creado en [!DNL Adobe Recommendations Classic] en [!DNL Recommendations Premium]?&quot; |
 |  | [Implementación [!DNL Target] using [!DNL Dynamic Tag Manager]  (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Se indica que [!DNL Adobe Dynamic Tag Manager] ya no es compatible. En su lugar, [!DNL Adobe] recomienda implementar con [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). |
 | Mayo de 6 | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se agregaron las siguientes preguntas más frecuentes:<ul><li>¿Cuánto tiempo se tarda en reflejar en mi sitio un cambio en la configuración de mi actividad [!UICONTROL Recommendations], oferta, promociones o configuración de criterios?</li><li>¿Cuánto tiempo tarda un usuario en mostrar su comportamiento (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones que *recibe?*</li><li>¿Cuánto tiempo tardan los usuarios en reflejar el comportamiento de un usuario (por ejemplo, hacer clic en el producto A y comprar el producto B) en las recomendaciones *que reciben los usuarios*?</li></ul> |
 |  | [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Se agregó un enlace a la siguiente entrada de blog en el blog Adobe Tech:<ul><li>Parte 1: Ejecutar SDK de NodeJS de Adobe Target para experimentación y personalización en plataformas perimetrales (trabajadores de Akamai Edge)</li></ul> |
