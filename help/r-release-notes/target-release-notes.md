@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Notas de la versión
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
+source-git-commit: f5047484b7cb113698b9b09f699d4e6a293b0b59
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 37%
+source-wordcount: '394'
+ht-degree: 36%
 
 ---
 
@@ -28,6 +28,10 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 ## [!DNL Adobe Experience Platform Web SDK] (17 de mayo de 2021)
 
 Esta versión de [!DNL Platform Web SDK] incluye compatibilidad con [!UICONTROL Analytics for Target] (A4T) para redirecciones [!DNL Target].
+
+## [!DNL Target Standard/Premium] 21.5.1 (25 de mayo de 2021)
+
+Se agregará contenido a medida que se aproxime la fecha de lanzamiento.
 
 ## [!DNL Target Standard/Premium] 21.5.2 (Fecha por determinar)
 
