@@ -4,11 +4,10 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Notas de la versión
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '30801'
-ht-degree: 99%
+source-wordcount: '31074'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +22,32 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >Consulte [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión: 2021
+
+### Versión 2.5.0 de at.js (13 de mayo de 2021)
+
+Esta versión de at.js incluye las siguientes mejoras y cambios:
+
+* [Compatibilidad de ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) decisiones en el dispositivo para at.js.
+* [Vista previa de ](/help/c-activities/c-activity-qa/activity-qa.md) vínculos Compatibilidad con actividades de Automated Personalization
+
+Esta versión también elimina la compatibilidad con Microsoft Internet Explorer 10, Internet Explorer 11 y todas las versiones anteriores. Microsoft Edge sigue siendo compatible con at.js 2.5.0 y versiones posteriores.
+
+### Target Standard/Premium 21.4.1 (19 de abril de 2021)
+
+Esta versión contiene las siguientes nuevas funciones y mejoras. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+| Función | Detalles |
+| --- | --- |
+| Compatibilidad con la toma de decisiones en el dispositivo para at.js<br>(Fecha por anunciar) | La toma de decisiones en dispositivos permite a los especialistas en marketing y a los desarrolladores ofrecer experimentación y personalización en el navegador de un usuario con una latencia cercana a cero.<br>Para obtener más información, consulte  [Decisiones en el dispositivo para at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![](/help/assets/premium.png) Operadores basados en PremiumList para reglas de filtrado de entidades | [!DNL Target Recommendations] admite nuevos operadores basados en listas para reglas de filtrado de entidades. (TGT-39234)<br>Los operadores añadidos recientemente incluyen:<br><ul><li>Está contenido en la lista</li><li>No está contenido en la lista</li><li>La Lista Contiene Un Elemento De</li><li>La Lista No Contiene Un Elemento En</li><li>La lista contiene todos los elementos de</li><li>La Lista No Contiene Todos Los Elementos De</li></ul>Para obtener más información, consulte &quot;Operadores disponibles&quot; en [Uso de reglas de inclusión dinámicas y estáticas](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+
+Esta versión contiene las siguientes correcciones.
+
+* Se ha corregido un problema que impedía que una actividad se sincronizara después de cambiar la audiencia a [!UICONTROL Todos los visitantes]. (TGT-40259)
+* Se ha corregido un problema que impedía que las ofertas se duplicaran cuando se usaban en distintas ubicaciones en actividades [!UICONTROL Automated Personalization] aunque la opción [!UICONTROL No permitir duplicados] estuviera habilitada. (TGT-39567)
+* Se ha corregido un problema que impedía que la página [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] se cargara correctamente. (TGT-39918)
+* Se ha corregido un problema que provocaba que las propiedades se asignaran al espacio de trabajo incorrecto. (TGT-39869)
+* Se ha corregido un problema que provocaba una carga infinita si la solicitud fallaba después de cambiar el entorno al crear una exclusión de Recommendations. (TGT-39948)
 
 ### at.js 2.4.1 (23 de marzo de 2021)
 
@@ -563,7 +588,7 @@ Esta versión incorpora las siguientes funciones, cambios y mejoras:
 | --- | --- |
 | Compositor de experiencias visuales | El Compositor de experiencias visuales (VEC) incluye las siguientes mejoras para que su funcionamiento sea más rápido y eficiente:<ul><li>Ahora puede cancelar la carga de un sitio web en el VEC para desbloquear la edición de una actividad. Esta mejora es útil si, por ejemplo, necesita hacer un pequeño cambio en una actividad, revisar su configuración o añadir código personalizado y no quiere esperar a que se cargue el sitio web. (TGT -31288)<br>Consulte [Cancelar carga de una página dentro del VEC](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>Puede realizar muchas acciones antes de que la página se cargue en VEC o incluso si la página no se carga completamente (por ejemplo, si el código personalizado ya no funciona). Las acciones que no se pueden editar antes de que el sitio web cargue no aparecerán en la IU de Target. (TGT-31288, TGT-31611 y TGT-32602)<br>Consulte [Editar una página mientras se carga la página o después de que la página no se haya cargado](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>El VEC muestra la ruta DOM para que pueda seleccionar fácilmente el elemento que necesite durante la creación o edición de experiencias. (TGT -13422)<br>Consulte [Navegación por elementos utilizando la ruta DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul> |
 
-### Versión 2.0.1 de at. js (19 de marzo de 2019) {#atjs201}
+### Versión 2.0.1 de at.js (19 de marzo de 2019) {#atjs201}
 
 Esta es una versión de mantenimiento e incluye las siguientes mejoras y correcciones:
 
@@ -579,7 +604,7 @@ Esta es una versión de mantenimiento e incluye las siguientes mejoras y correcc
 >
 >Si necesita [!DNL Adobe] soporte de Opt-in para el Reglamento General de Protección de Datos (RGPD), debe implementar at.js 1.7.1., ya que el soporte de Opt-in no está disponible actualmente para at.js 2.*x*.
 
-### Versión 1.7.1 de at. js (19 de marzo de 2019) {#atjs171}
+### Versión 1.7.1 de at.js (19 de marzo de 2019) {#atjs171}
 
 Esta es una versión de mantenimiento e incluye la siguiente corrección:
 
@@ -659,7 +684,7 @@ Esta versión incorpora las siguientes funciones, cambios y mejoras:
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.11.1 (12 de noviembre de 2018) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
+### Target Standard/Premium 18.11.1 (12 de noviembre de 2018).  {#section_6BBA8B1EE9D241C28E12856A375E97F6}
 
 La versión de [!DNL Target] Standard/Premium del 12 de noviembre incluye ampliaciones back-end, soluciones y cambios. Los informes de [!UICONTROL Perspectivas de personalización] estarán disponibles el 14 de noviembre.
 
@@ -788,7 +813,7 @@ En esta versión de [!DNL Target] se incluyen las siguientes mejoras, correccion
 * Actualizamos la apariencia de las tarjetas de Criterios para que sean más intuitivas y fáciles de usar. (TGT-30469)
 * Mejoras de rendimiento en la interfaz de usuario para una carga más rápida de las páginas.
 
-### Target Standard/Premium 18.8.1 (21 de agosto de 2018) {#section_66A0030993D54565BE30E56AC9CAC1DA}
+### Target Standard/Premium 18.8.1 (21 de agosto de 2018).  {#section_66A0030993D54565BE30E56AC9CAC1DA}
 
 Esta versión incorpora las siguientes funciones y mejoras:
 
@@ -838,7 +863,7 @@ En esta versión de [!DNL Target] se incluyen las siguientes mejoras, correccion
 
 * Hemos agregado varias mejoras para hacer que Target sea incluso más seguro que antes. (TGT-31090, TGT-31089, TGT-31143)
 
-### Target Standard/Premium 18.7.1 (25 de julio de 2018).   {#section_A4A9C20EB677455F84FF0BA389F645E5}
+### Target Standard/Premium 18.7.1 (25 de julio de 2018).  {#section_A4A9C20EB677455F84FF0BA389F645E5}
 
 Esta versión incorpora las siguientes funciones y mejoras:
 
@@ -925,7 +950,7 @@ En esta versión de [!DNL Target] se incluyen las siguientes mejoras, correccion
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.6.1 (20 de junio de 2018) {#section_B63C660815B245DA9922BE33E03734A1}
+### Target Standard/Premium 18.6.1 (20 de junio de 2018).  {#section_B63C660815B245DA9922BE33E03734A1}
 
 Esta versión incorpora las siguientes funciones y mejoras:
 
@@ -963,7 +988,7 @@ En esta versión de [!DNL Target] se incluyen las siguientes mejoras, correccion
 * La fila Copia de seguridad de la descarga de CSV de Recomendaciones ahora comienza con &quot;*&quot; (un asterisco entre comillas dobles), no con * (un solo asterisco).
 * La fila Más vendidos/Más visitados de la descarga de CSV de Recommendations ya no comienza con una coma.
 
-### Cambios en la plataforma de Target (19 de junio de 2018).   {#section_0638BD69F3C640479A2A258AD78C0884}
+### Cambios en la plataforma de Target (19 de junio de 2018).  {#section_0638BD69F3C640479A2A258AD78C0884}
 
 Esta versión incluye la siguiente mejora:
 
@@ -977,11 +1002,11 @@ Esta versión incluye la siguiente mejora:
 
    Para obtener más información, consulte [Móvil](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714 &amp; TNT-28288)
 
-### API de descarga de Target (5 de junio de 2018).   {#section_B8729DA10F18433C8D8E01B04F308ED2}
+### API de descarga de Target (5 de junio de 2018).  {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
 Puede utilizar la API de descarga de Recommendations para descargar las recomendaciones en un archivo .CSV, que se puede visualizar en una hoja de cálculo o un editor de textos Para mejorar la seguridad, a partir del **5 de junio de 2018**, Target bloqueará las solicitudes HTTP y permitirá únicamente las solicitudes HTTPS.
 
-### Target Standard/Premium 18.5.1 (22 de mayo de 2018).   {#section_7C1427793C2A48DBAC39F8290717DC5B}
+### Target Standard/Premium 18.5.1 (22 de mayo de 2018).  {#section_7C1427793C2A48DBAC39F8290717DC5B}
 
 Esta versión incorpora las siguientes funciones y mejoras:
 
@@ -1130,7 +1155,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.3.1 (20 de marzo de 2018).   {#section_880706BE15544A03A2C951F267F4AEC5}
+### Target Standard/Premium 18.3.1 (20 de marzo de 2018).  {#section_880706BE15544A03A2C951F267F4AEC5}
 
 Esta versión incorpora las siguientes funciones y mejoras:
 
@@ -1242,7 +1267,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.1.1 (23 de enero de 2018).   {#section_3A2216543B064D6F82EC03E1F8AEC74D}
+### Target Standard/Premium 18.1.1 (23 de enero de 2018).  {#section_3A2216543B064D6F82EC03E1F8AEC74D}
 
 Esta versión incorpora las siguientes funciones y mejoras:
 
@@ -1336,7 +1361,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.11.1 (8 de noviembre de 2017).   {#section_324A9B1DA0B14F5999FEE41F15B13A44}
+### Target Standard/Premium 17.11.1 (8 de noviembre de 2017).  {#section_324A9B1DA0B14F5999FEE41F15B13A44}
 
 Esta versión incluye las siguientes características y mejoras (los números de problema que aparecen entre paréntesis son para uso interno de Adobe):
 
@@ -1423,7 +1448,7 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras, correcciones y ca
 * Puede filtrar por espacio de trabajo en la biblioteca de audiencias y la biblioteca de ofertas (se aplica a los usuarios de Target Premium con permisos de usuario de Enterprise). (TGT-26813)
 * Se han realizado mejoras en la interfaz de usuario de Informes en cuanto al desplazamiento por las tablas y la ubicación de las listas desplegables de filtrado. (TGT-23713 y TGT-26819)
 
-### Cambios de la plataforma de Target (13 de octubre de 2017).   {#section_6C298C5C3D01415CB4B658EB2166096C}
+### Cambios de la plataforma de Target (13 de octubre de 2017).  {#section_6C298C5C3D01415CB4B658EB2166096C}
 
 <table id="table_8457FAE3508F454F9DFDEF093FBD7E40"> 
  <thead> 
@@ -1519,7 +1544,7 @@ Para obtener más información, consulte [Habilitar contenido mixto en el explor
 
 * Se ha mejorado el flujo de trabajo al agotarse el tiempo de espera de la sesión de Target de un usuario mientras configura opciones en las páginas de Administración, Audiencias y Recommendations. Cuando el usuario hace clic en Guardar se muestra el mensaje de sesión expirada. Sin embargo, cuando vuelve a iniciar la sesión, un cuadro de diálogo indica que el inicio de sesión se ha realizado correctamente y que la interfaz de usuario permanece en la misma página de Target, sin que se haya producido pérdida de datos. (TGT-25557)
 
-### Cambios en la plataforma de Target (27 de septiembre de 2017).   {#section_AC32516DFBA64AD2AC9A74171D452778}
+### Cambios en la plataforma de Target (27 de septiembre de 2017).  {#section_AC32516DFBA64AD2AC9A74171D452778}
 
 <table id="table_701D8D53D1DF4F28ADAC6EC221B0208A"> 
  <thead> 
@@ -1552,7 +1577,7 @@ Para obtener más información, consulte [Habilitar contenido mixto en el explor
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.8.1 (22 de agosto de 2017) {#section_71A554D072F04B18B359C1626529E5D8}
+### Target Standard/Premium 17.8.1 (22 de agosto de 2017).  {#section_71A554D072F04B18B359C1626529E5D8}
 
 <table id="table_AAC16F89060D4CC09762A370B86C0885"> 
  <thead> 
@@ -1603,7 +1628,7 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras, correcciones y ca
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.3 (3 de agosto de 2017).   {#section_D90CB766679442C7A0642E5D79657674}
+### Target Standard/Premium 17.7.3 (3 de agosto de 2017).  {#section_D90CB766679442C7A0642E5D79657674}
 
 <table id="table_C81EA97B251547169BC9681E5DDB4B8F"> 
  <thead> 
@@ -1620,7 +1645,7 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras, correcciones y ca
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.2 (27 de julio de 2017) {#section_6980EC04D3CF4A00919953B9B10BC472}
+### Target Standard/Premium 17.7.2 (27 de julio de 2017).  {#section_6980EC04D3CF4A00919953B9B10BC472}
 
 <table id="table_DB51BD66756F4EBD875ED008B2C7C5D0"> 
  <thead> 
@@ -1637,7 +1662,7 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras, correcciones y ca
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.1 (20 de julio de 2017) {#section_BB75DE30174F4ADD963451909FB81D74}
+### Target Standard/Premium 17.7.1 (20 de julio de 2017).  {#section_BB75DE30174F4ADD963451909FB81D74}
 
 <table id="table_BCE36E0D56804E7B8861858DCF2F380E"> 
  <thead> 
@@ -1718,7 +1743,7 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras y correcciones de 
 
    Este trabajo de importación se ejecuta cuando se abre la página de actividades, con un retardo máximo de diez minutos. (KB-1526)
 
-### Target Standard/Premium 17.6.2 (22 de junio de 2017).   {#section_F0372B07B56E454CB048CE79FF56E9CD}
+### Target Standard/Premium 17.6.2 (22 de junio de 2017).  {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
 <table id="table_8C4DB1B83B874E4C85CE9FF352E7B857"> 
  <thead> 
@@ -1754,7 +1779,7 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras y correcciones de 
 * Se ha corregido un problema que causaba que la contabilidad en el diagrama de actividad fuera en ocasiones incorrecta en la interfaz al aplicar deduplicación automática después de crear grupos de exclusión.
 * Se ha corregido un problema por el que las inclusiones manuales podían no reflejarse correctamente en la interfaz de usuario al editar una actividad existente con grupo de exclusión.
 
-### Target Standard/Premium 17.6.1 (8 de junio de 2017).   {#section_1D05FE23CE3744DDB5D28E933341F575}
+### Target Standard/Premium 17.6.1 (8 de junio de 2017).  {#section_1D05FE23CE3744DDB5D28E933341F575}
 
 <table id="table_47117524922A472AA977C652B581B356"> 
  <thead> 
@@ -1815,7 +1840,7 @@ Esta versión de [!DNL Target] se centra en la corrección de errores en el back
 * Se ha corregido un problema que provocaba que el ajuste “Aumentar recuento, liberar usuario y bloquear su reentrada” en la Configuración avanzada de actividades no funcionara correctamente. (TNT-26556)
 * Se ha corregido un problema que impedía que los datos de Atributos del cliente se eliminaran de Target después de actualizarse con NULL en la interfaz de usuario de Experience Cloud. (TNT-26462)
 
-### Cambios en la plataforma de Target (13 de abril de 2017).   {#section_B59C26405EB7482AA80820D6D39B9C44}
+### Cambios en la plataforma de Target (13 de abril de 2017).  {#section_B59C26405EB7482AA80820D6D39B9C44}
 
 <table id="table_6167ECB7B44F40DCADF299F46F1F795C"> 
  <thead> 
@@ -1924,7 +1949,7 @@ Esta versión de [!DNL Target] se centra en las mejoras del uso y el rendimiento
 
    Si esto no es lo que quiere, puede añadir otra ubicación a la actividad, asignar el mbox global a esa ubicación y darle un contenido predeterminado. Esta solución conecta el mbox global con la actividad y permite a Target contabilizar la métrica a la hora de crear los informes.
 
-### Cambios de la plataforma de Target (18 de enero de 2017).   {#section_EA41802B2B24426FBA88D25E17DBE360}
+### Cambios de la plataforma de Target (18 de enero de 2017).  {#section_EA41802B2B24426FBA88D25E17DBE360}
 
 <table id="table_3A2CD47252894F119B0E60BF6A9285B0"> 
  <thead> 
@@ -1946,7 +1971,7 @@ Esta versión de [!DNL Target] se centra en las mejoras del uso y el rendimiento
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.1.1 (19 de enero de 2017) {#section_88AFA2F54CF24DF7822CFEBB07DFABE2}
+### Target Standard/Premium 17.1.1 (19 de enero de 2017).  {#section_88AFA2F54CF24DF7822CFEBB07DFABE2}
 
 Esta versión incorpora las siguientes funciones y mejoras:
 
@@ -2022,7 +2047,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
 
 ## Versiones 2016 {#reference_607661929B504CCFAB3791B13C0DCDBE}
 
-### Target Standard/Premium 16.10.2 (8 de noviembre de 2016) {#section_2FDEFB3D56CC4BD7BC04DBEECFF6E942}
+### Target Standard/Premium 16.10.2 (8 de noviembre de 2016).  {#section_2FDEFB3D56CC4BD7BC04DBEECFF6E942}
 
 **Correcciones**
 
@@ -2071,7 +2096,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  </tbody> 
 </table>
 
-### Cambios en la plataforma de Target (10 de octubre de 2016) {#section_0761AED70C3E44EA9D8546107B162CC1}
+### Cambios de la plataforma de Target (10 de octubre de 2016).  {#section_0761AED70C3E44EA9D8546107B162CC1}
 
 <table id="table_E3E52A4362724D05A8472DB5F51A2429"> 
  <thead> 
@@ -2136,7 +2161,7 @@ Esta versión incluye las siguientes mejoras:
 
 * Actualmente, la opción [!UICONTROL Representar usando JavaScript] no se puede usar cuando existe código personalizado en el Compositor de experiencias visuales.
 
-### Cambios en la plataforma de Target (septiembre de 2016).   {#section_1955146045A247D393DB824669A2A916}
+### Cambios en la plataforma de Target (septiembre de 2016).  {#section_1955146045A247D393DB824669A2A916}
 
 <table id="table_8FDAEED5D84C4C718AB863BD6C383F20"> 
  <thead> 
@@ -2689,7 +2714,7 @@ Se han informado los siguientes problemas conocidos:
 * La actualización de la versión 48 de Chrome introdujo un problema que ocasionaba un funcionamiento incorrecto del Compositor de experiencias visuales en Chrome. Google está trabajando en una solución. Para obtener información, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para encontrar una solución alternativa a este problema:
 
    * Use Firefox o Internet Explorer.
-   * Active el Compositor de experiencias mejorado, el cual puede configurarse desde la pestaña **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]**.
+   * Active el Compositor de experiencias mejorado, que puede configurarse desde la pestaña **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]**.
 
 ## Versiones 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -3162,7 +3187,7 @@ Esta versión incluye las siguientes correcciones:
 * Se ha corregido un problema en Recommendations donde los atributos con caracteres de doble byte (para clases de varios idiomas) omitían las reglas de filtrado de inclusión.
 * Todos los tipos de actividades ahora admiten nombres de actividades con un máximo de 200 caracteres de largo.
 
-### Adobe [!DNL Target] Standard/Premium15.3.1 (26 de marzo de 2015) {#section_591371851693496C820175753F588E73}
+### Adobe [!DNL Target] Standard/Premium 15.3.1 (26 de marzo de 2015) {#section_591371851693496C820175753F588E73}
 
 Esta versión incorpora las siguientes funciones y mejoras:
 
