@@ -2,13 +2,12 @@
 keywords: faq;preguntas más frecuentes;analytics para target;a4T;redireccionamiento;oferta de redireccionamiento;adobe-mc-sdid;adobe_mc_ref
 description: Encuentre respuestas a preguntas sobre el uso de ofertas de redireccionamiento al usar Analytics para actividades [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: ¿Dónde puedo encontrar preguntas más frecuentes sobre las ofertas de redireccionamiento con A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 69%
+source-wordcount: '1355'
+ht-degree: 62%
 
 ---
 
@@ -40,7 +39,7 @@ Las tres bibliotecas deben incluirse en la página con la oferta de redirecciona
 
 Se esperan algunas discrepancias en los datos. Para obtener más información, consulte [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección?   {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 Si se utiliza la versión 1.6.3 o posterior de at.js , el recuento de las vistas de página en ambas páginas no supone ningún problema. Esta condición de carrera solo afecta a los clientes que utilizan versiones más antiguas. El equipo de Target mantiene dos versiones de at.js: la actual y la penúltima. Actualice at.js cuando sea posible para garantizar que dispone de una [versión compatible](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -52,17 +51,17 @@ Una ventaja de utilizar ofertas de redireccionamiento para todas las experiencia
 
 Para obtener más información sobre este problema, consulte la información “Ofertas de redireccionamiento” en [Problemas conocidos](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
-## ¿Puedo utilizar ofertas de redireccionamiento con A4T si empleo la biblioteca mbox.js de JavaScript?{#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
+## ¿Puedo utilizar ofertas de redireccionamiento con A4T si empleo la biblioteca mbox.js de JavaScript? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
 La biblioteca [!DNL mbox.js] no admite ofertas de redireccionamiento con A4T. La implementación debe utilizar [!DNL at.js].
 
-## ¿Son compatibles el Compositor de experiencias visuales (VEC) y el Compositor de experiencias basado en formularios?{#section_FDA26FE7909B48539DA770559E687677}
+## ¿Son compatibles el Compositor de experiencias visuales (VEC) y el Compositor de experiencias basado en formularios? {#section_FDA26FE7909B48539DA770559E687677}
 
 Sí, ambos son compatibles mientras se utilicen las ofertas de redireccionamiento integradas.
 
 Si utiliza su propio código personalizado para el redireccionamiento, debe asegurarse de rellenar los dos nuevos parámetros asociados con direcciones URL de redireccionamiento (`adobe_mc_sdid` y `adobe_mc_ref`, explicados más adelante).
 
-## ¿Cuáles son los nuevos parámetros de cadena de consulta agregados a las direcciones URL de redireccionamiento?{#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
+## ¿Cuáles son los nuevos parámetros de cadena de consulta agregados a las direcciones URL de redireccionamiento? {#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
 
 Los siguientes parámetros de cadena de consulta se asocian con las ofertas de redireccionamiento:
 
@@ -73,11 +72,11 @@ Los siguientes parámetros de cadena de consulta se asocian con las ofertas de r
 
 Estos parámetros se agregan automáticamente a las direcciones URL de redireccionamiento al utilizar las ofertas de redireccionamiento integradas en el Compositor de experiencias visuales y el Compositor de experiencias basado en formularios cuando se implementa en la página el servicio Visitor Id. Si está utilizando código personalizado de redireccionamiento en VEC o el Compositor de experiencias basado en formularios, debe asegurarse de pasar estos parámetros junto al código personalizado.
 
-## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Trabaje con su equipo de TI para que estos parámetros ( `adobe_mc_sdid` y `adobe_mc_ref`) estén incluidos en la lista de permitidos.
 
-## ¿Qué sucede si yo no utilizo A4T en mi actividad de redireccionamiento y no quiero que se agreguen estos parámetros adicionales a mis direcciones URL?{#section_9E608D75FF9349FE96C65FEDD7539F45}
+## ¿Qué sucede si yo no utilizo A4T en mi actividad de redireccionamiento y no quiero que se agreguen estos parámetros adicionales a mis direcciones URL? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
 Utilice un redireccionamiento con código personalizado si:
 
@@ -87,7 +86,7 @@ Utilice un redireccionamiento con código personalizado si:
 
 En cualquier caso, se recomienda mantener el parámetro `adobe_mc_ref` en la dirección URL para transmitir correctamente a [!DNL Analytics] la información del referente.
 
-## ¿Por qué los parámetros adobe_mc_ref y adobe_mc_sdid se codifican dos veces en la dirección URL en mi implementación?{#section_5EFE5F012B944C40865731EA18E7E79E}
+## ¿Por qué los parámetros adobe_mc_ref y adobe_mc_sdid se codifican dos veces en la dirección URL en mi implementación? {#section_5EFE5F012B944C40865731EA18E7E79E}
 
 Si utiliza A4T y ofertas de redireccionamiento, Target añade los parámetros `adobe_mc_ref` y `adobe_mc_sdid` a la dirección URL. Estos valores ya están codificados en la dirección URL. La mayoría de las veces, todo funciona según lo esperado, pero algunos clientes podrían disponer de equilibradores de carga o servidores WEB que traten de codificar una vez más los parámetros de la cadena de consulta.
 
@@ -103,6 +102,26 @@ Anteriormente, la solicitud de [!DNL Analytics] para la nueva página informarí
 
 Con las versiones [!DNL at.js] 0.9.6 (o posterior) y [!DNL AppMeasurement.js] 2.1 (o posterior), la solicitud [!DNL Analytics] de la nueva página informa de que la dirección URL de referencia es [!DNL `www.google.com`].
 
-## ¿Puedo utilizar ofertas de redireccionamiento personalizadas/HTML?{#section_E49F9A83A286488C8F1098A040203D7E}
+## ¿Puedo utilizar ofertas de redireccionamiento personalizadas/HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 No, debe utilizar una oferta de redireccionamiento integrada para las actividades que empleen [!DNL Analytics] como fuente de informes (A4T). Desde la perspectiva de [!DNL Target], las ofertas HTML son opacas: [!DNL Target] no tiene forma de saber si un fragmento particular de HTML contiene código JavaScript que crea una instancia de redireccionamiento.
+
+## ¿Admite [!DNL Adobe Experience Platform Web SDK] ofertas de redireccionamiento para A4T? {#platform}
+
+Las siguientes preguntas frecuentes proporcionan más información sobre el uso de A4T y ofertas de redireccionamiento con [!DNL Platform Web SDK].
+
+>[!NOTE]
+>
+>La compatibilidad con A4T en una implementación [!DNL Adobe Experience Platform Web SDK] discutida en este artículo está programada para estar disponible con la versión 2.5.0 de [!DNL Platform Web SDK] (24 de mayo de 2021).
+
+### ¿Admite Analytics for Target (A4T) ofertas de redireccionamiento?
+
+Sí, A4T a través del SDK web de Platform admite [ofertas de redireccionamiento](/help/c-experiences/c-manage-content/offer-redirect.md).
+
+### ¿Son compatibles el [!UICONTROL Compositor de experiencias visuales] (VEC) y el [!UICONTROL Compositor de experiencias basadas en formularios]?
+
+Sí, el [[!UICONTROL Compositor de experiencias visuales]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) y el [[!UICONTROL Compositor de experiencias basadas en formularios]](/help/c-experiences/form-experience-composer.md) son compatibles si utiliza ofertas de redireccionamiento integradas.
+
+### ¿Puedo utilizar ofertas de redireccionamiento personalizadas/HTML con [!DNL Platform Web SDK]?
+
+No, debe utilizar una oferta de redireccionamiento integrada para las actividades que utilicen A4T. Desde la perspectiva [!DNL Target], las ofertas HTML son opacas. [!DNL Target] no puede saber si un fragmento particular de HTML contiene JavaScript que crea una instancia de redireccionamiento.
