@@ -5,11 +5,10 @@ title: ¿Qué exploradores admite [!DNL Target] ?
 feature: Implementación
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 58%
+source-wordcount: '341'
+ht-degree: 48%
 
 ---
 
@@ -19,7 +18,7 @@ La aplicación y la entrega de contenido de [!DNL Adobe Target] se han probado e
 
 Para obtener información más importante sobre TLS, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
-## [!DNL Target]Interfaz de Standard/Premium {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target]Interfaz de Standard/Premium  {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 La interfaz [!DNL Target] es compatible con los siguientes exploradores y dispositivos:
 
@@ -34,7 +33,7 @@ La entrega de contenido se ha probado en los siguientes navegadores y dispositiv
 
 | Tipo de dispositivo | Versión del navegador |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 y 10. Probado en modo de emulación.<br>**Nota**: at.js 1.3.0 (y versiones posteriores) ya no es compatible con la entrega de contenido en Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (última versión, última versión menos 1)</li><li>Firefox (último, último menos 1)</li></ul> |
+| Windows | <ul><li>Microsoft Internet Explorer 9 y 10. Probado en modo de emulación.<br>**Nota**: La entrega de contenido en IE 9 ya no es compatible con at.js 1.3.0 (y versiones posteriores). La entrega de contenido en IE 10, 11 y todas las versiones anteriores ya no es compatible con at.js 2.5.0 (y versiones posteriores).</li><li>Internet Explorer 11 <br>**Nota**: La entrega de contenido en IE 10, 11 y todas las versiones anteriores ya no es compatible con at.js 2.5.0 (y versiones posteriores).</li><li>Microsoft Edge</li><li>Chrome (última versión, última versión menos 1)</li><li>Firefox (último, último menos 1)</li></ul> |
 | Mac | <ul><li>Apple Safari (versión más reciente)<br>**Nota**: Para obtener más información sobre cómo gestiona Safari las cookies de origen y de terceros, consulte [Cookie de Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (último, último menos 1)</li><li>Chrome (última versión, última versión menos 1)</li></ul> |
 | Móvil o tableta | <ul><li>Apple iOS (última versión)</li><li>Dispositivos y tabletas Android (Android 4 y versiones posteriores)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
