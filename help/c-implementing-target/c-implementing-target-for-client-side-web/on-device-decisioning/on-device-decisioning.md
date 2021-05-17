@@ -2,22 +2,17 @@
 keywords: implementación;biblioteca javascript;js;atjs;toma de decisiones en el dispositivo;en la toma de decisiones del dispositivo;at.js;en el dispositivo;en el dispositivo
 description: Aprenda a tomar decisiones en el dispositivo con la biblioteca at.js
 title: ¿Cómo funciona la toma de decisiones en el dispositivo con la biblioteca JavaScript at.js?
-feature: 'at.js '
+feature: 'at.js. '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 7f1db24e902c4b06c2035a94924abfe2d254bf25
 workflow-type: tm+mt
-source-wordcount: '3506'
+source-wordcount: '3491'
 ht-degree: 7%
 
 ---
 
 # Toma de decisiones en el dispositivo para at.js
-
->[!NOTE]
->
->La toma de decisiones en el dispositivo estará disponible con la próxima versión [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Fecha que se anunciará próximamente.
 
 A partir de la versión 2.5.0, at.js ofrece la toma de decisiones en el dispositivo. La toma de decisiones en dispositivos le permite almacenar en caché sus actividades [Prueba A/B](/help/c-activities/t-test-ab/test-ab.md) y [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md) (XT) en el explorador para realizar decisiones en memoria sin bloquear una solicitud de red a la [!DNL Adobe Target] Red perimetral.
 
