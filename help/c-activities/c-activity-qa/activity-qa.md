@@ -4,11 +4,10 @@ description: Aprenda a utilizar URL de control de calidad de Adobe [!DNL Target]
 title: ¿Cómo Se Hacen Evaluaciones De Las Actividades?
 feature: Actividades
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 78%
+source-wordcount: '1525'
+ht-degree: 79%
 
 ---
 
@@ -21,9 +20,6 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
 Control de calidad de la actividad le permite probar completamente las actividades de Target antes de su lanzamiento. La funcionalidad de control de calidad de la actividad incluye:
 
 * Vínculos que nunca cambian ni requieren regeneración, independientemente de las actualizaciones realizadas en las experiencias o actividades, para compartir con los integrantes del equipo. Esto permite probar todas las actividades a lo largo del viaje del usuario.
-
-   Se agregó compatibilidad con vínculos de vista previa para actividades [!UICONTROL Automated Personalization] con [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
 * Respeto opcional a las condiciones a audiencia, de forma que los expertos en marketing puedan probar o ignorar criterios de segmentación con el fin de evaluar el aspecto de las experiencias sin necesidad de cumplir sus condiciones de audiencia.
 * La realización de informes de control de calidad se captura; de este modo, los expertos en marketing pueden confirmar si las métricas aumentan del modo esperado y es posible mantener los datos de informes de control de calidad separados de los informes de producción (para la creación de informes ajenos a A4T).
 * La capacidad de obtener una vista previa de una experiencia de forma aislada o junto con otras actividades activas que satisfagan los criterios de entrega (página/solicitud de Target/audiencia).
@@ -67,7 +63,7 @@ Control de calidad de la actividad le permite probar completamente las actividad
 
 ## Consideraciones {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* El vínculo [!UICONTROL Control de calidad de la actividad] aparece en la página [!UICONTROL Información general] de todos los tipos de actividad excepto Personalización automatizada (AP). Puede usar  [Vínculos de vista previa](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) para actividades AP.
+* El vínculo [!UICONTROL Control de calidad de la actividad] aparece en la página [!UICONTROL Información general] de todos los tipos de actividad excepto Personalización automatizada (AP).
 * Es posible que los vínculos de Vista previa de control de calidad de la actividad para las actividades guardadas no se carguen si hay demasiadas guardadas en su cuenta. Volver a intentar los vínculos de vista previa debería funcionar. Para evitar que esto siga ocurriendo, archive las actividades guardadas que ya no se usan de forma activa.
 * Las URL de control de calidad de la actividad están disponibles con actividades que tienen Analytics como fuente de informes (A4T). Las visitas generadas mientras se realiza un control de calidad utilizando el control de calidad de la actividad fluirán al mismo grupo de informes al que llegan los datos de la actividad, incluso después de activarse esta última.
 * El control de calidad de la actividad no muestra contenido para actividades archivadas o ya caducadas. Si desactiva una actividad terminada, debe guardar la actividad de nuevo para que el control de calidad de la actividad funcione.
@@ -91,9 +87,9 @@ Control de calidad de la actividad le permite probar completamente las actividad
    | Parámetro | Tipo | Valor | Descripción |
    |--- |--- |--- |--- |
    | `at_preview_token` | Cadena cifrada | Obligatorio; no hay valor predeterminado | Una entidad cifrada que contiene la lista de ID de campaña que se pueden ejecutar en modo QA. |
-   | `at_preview_index` | Cadena | Vacía | El formato del parámetro es `<campaignIndex>` o `<campaignIndex>_< experienceIndex>`<br>ambos índices comienzan con 1. |
+   | `at_preview_index` | Cadena | Vacío | El formato del parámetro es `<campaignIndex>` o `<campaignIndex>_< experienceIndex>`<br>ambos índices comienzan con 1. |
    | `at_preview_listed_activities_only` | Booleano (true/false) | Valor predeterminado: false | Si es “true”, se procesan todas las campañas especificadas en los parámetros `at_preview_index`.<br>Si es “false”, se procesan todas las campañas de la página, aunque no se especificaran en el token de vista previa. |
-   | `at_preview_evaluate_as_true_audience_ids` | Cadena | Vacía | Lista de segmentId separada por guiones bajos (&quot;_&quot;) que siempre (en los niveles de segmentación e informes) deben evaluarse como &quot;true&quot; en el ámbito de la solicitud [!DNL Target]. |
+   | `at_preview_evaluate_as_true_audience_ids` | Cadena | Vacío | Lista de segmentId separada por guiones bajos (&quot;_&quot;) que siempre (en los niveles de segmentación e informes) deben evaluarse como &quot;true&quot; en el ámbito de la solicitud [!DNL Target]. |
    | `_AT_Debug` | Cadena | Ventana o consola | Registro de consola o nueva ventana. |
    | `adobe_mc_ref` |  |  | Pasa la URL de referencia de la página predeterminada a la nueva página. Cuando se utiliza con `AppMeasurement.js` versión 2.1 (o posterior), [!DNL Adobe Analytics] usa este valor de parámetro como URL de referencia en la nueva página. |
    | `adobe_mc_sdid` |  |  | Transfiere los valores de [!DNL Supplemental Data Id] (SDID) y de [!DNL Experience Cloud Org Id] la página predeterminada a la nueva página, de modo que Analytics para Target (A4T) “una” la solicitud de Target en la página predeterminada a la solicitud de Analytics en la nueva página. |
