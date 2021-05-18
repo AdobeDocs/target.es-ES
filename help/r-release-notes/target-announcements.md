@@ -4,11 +4,10 @@ description: Lea los anuncios y regístrese para eventos de Adobe [!DNL Target] 
 title: ¿Dónde puedo encontrar los  [!DNL Target] anuncios y eventos?
 feature: Notas de la versión
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 76%
+source-wordcount: '536'
+ht-degree: 85%
 
 ---
 
@@ -24,20 +23,6 @@ Adobe Target fue reconocido recientemente por Forrester y Gartner como líder de
 | --- | --- |
 | Forrester | **Adobe fue nombrado líder en el informe The Forrester Wave sobre plataformas de optimización de experiencia.**<br> Adobe fue designado como líder en el informe The Forrester Wave sobre plataformas de optimización de experiencia (Experience Optimization Platforms) del cuarto trimestre de 2020, por su oferta dentro de este segmento, Adobe Target Premium. Adobe recibió la puntuación más alta de todos los proveedores participantes en las categorías de oferta y presencia en el mercado actuales, así como en las recomendaciones y los criterios de experiencia en la plataforma. Target Premium también obtuvo la máxima puntuación posible en los criterios de innovación en las técnicas de optimización de experiencia y servicios de soporte. El informe se basa en una completa evaluación de diez proveedores de plataformas de optimización de experiencia para los que se evaluaron veintidós criterios.<br>Lea más al respecto en el [blog de Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe fue nombrado de nuevo líder en el Cuadrante Mágico de Gartner para motores de personalización.**<br> Una vez más, Adobe fue nombrado líder en el tercer informe Cuadrante Mágico de Gartner para motores de personalización, 2020. El Cuadrante Mágico de Gartner para motores de personalización evaluó a los proveedores en quince criterios que se dividen en dos categorías: integridad de la visión y capacidad de ejecución.<br>[Lea más al respecto en The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
-## Descanso de café de la comunidad de Adobe Target
-
-* Miércoles, 12 de mayo de 2021
-* 8 a. m. (PDT, GMT-7)
-* [Haga clic aquí para obtener más información](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-5-12-21-8am-pt-shannon/td-p/405341)
-
-Shannon Hamilton, Group Product Manager for [!DNL Adobe Target], se inscribirá en la Comunidad [!DNL Target] para responder a sus preguntas relativas a sus áreas de experiencia:
-
-* Integraciones
-* Perfil unificado
-* Integraciones de Target Adobe Experience Platform (AEP)
-* Integraciones puntuales con otras soluciones de Adobe
-* Flujos de trabajo de la interfaz de usuario principal
 
 ## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de Adobe Target
 
