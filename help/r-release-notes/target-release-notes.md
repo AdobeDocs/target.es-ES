@@ -4,7 +4,7 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Notas de la versión
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7eb44049a954f1f18c1e4a52d455d352d0fcfdf0
+source-git-commit: 031512e205fc26dd51ad5d586d8a68bbe0a26484
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 36%
@@ -38,7 +38,7 @@ Esta versión también elimina la compatibilidad con Microsoft Internet Explorer
 
 Esta versión de [!DNL Platform Web SDK] incluye compatibilidad con [!UICONTROL Analytics for Target] (A4T) para redirecciones [!DNL Target].
 
-## [!DNL Target Standard/Premium] 21.5.1 (25 de mayo de 2021)
+## [!DNL Target Standard/Premium] 21.5.1 (8 de junio de 2021)
 
 Se agregará contenido a medida que se aproxime la fecha de lanzamiento.
 
