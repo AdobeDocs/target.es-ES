@@ -4,10 +4,9 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Notas de la versión
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '4373'
+source-wordcount: '4409'
 ht-degree: 98%
 
 ---
@@ -23,6 +22,10 @@ Información sobre problemas conocidos de [!DNL Adobe Target]. También incluye 
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
+
+### El archivado de las actividades [!UICONTROL Segmentación automática] puede causar problemas de sincronización
+
+Si se intenta archivar actividades inactivas de [!UICONTROL Segmentación automática], pueden producirse problemas de sincronización. Hasta que se solucione este problema, no archive las actividades de [!UICONTROL Segmentación automática]. Déjelos en estado [!UICONTROL Inactivo]. (TGT-40885)
 
 ### Métricas de Analytics for Adobe Target (A4T) para actividades de asignación automática y segmentación automática
 
@@ -88,7 +91,7 @@ Los siguientes son problemas conocidos de las actividades de [!UICONTROL Recomen
 
 En una actividad MVT, el ganador que se muestra en la tabla y en el gráfico no concuerdan al comprobar métricas. Esto ocurre si un usuario cambia de la vista Resumen a la Visualización de gráfico, después regresa a Resumen, modifica una métrica y vuelve a cambiar a Visualización de gráfico. Cuando se produce este problema, la vista Resumen siempre muestra el ganador correcto. Si el usuario no cambia entre Visualización de gráfico y la vista Resumen, la Visualización de gráfico muestra al ganador correcto.
 
-### at.js   {#atjs}
+### at.js {#atjs}
 
 A continuación, detallamos los problemas conocidos de at.js:
 
@@ -237,7 +240,7 @@ Cuando se descarga mbox.js por primera vez después del aprovisionamiento, el ca
 
 at.js se descargará con `global_mbox_autocreate = false` para un inquilino recién aprovisionado. Si mbox.js se descarga primero, global_mbox_autocreate se establece en “true” y at.js también se descarga con `global_mbox_autocreate = true`. (TGT-15929)
 
-### Compatibilidad con permisos de Enterprise en [!DNL Target] API {#api}
+### Compatibilidad con permisos de Enterprise en las API [!DNL Target] {#api}
 
 Es posible que las ofertas de código creadas desde la interfaz de usuario de Target en la biblioteca de ofertas se muestren en el espacio de trabajo predeterminado si se recupera la lista de ofertas mediante las API de GET. Este problema se solucionará en la primera semana de marzo de 2019. Una vez solucionado el problema, las ofertas de código se mostrarán en el espacio de trabajo apropiado cuando se extraigan de las API. Este problema *no* afecta a las ofertas creadas a partir de las API. Por ejemplo, las ofertas de código creadas a partir de las API se muestran en el espacio de trabajo en el que fueron creadas, ya sea mediante la API de GET o desde la interfaz de usuario de Target.
 
