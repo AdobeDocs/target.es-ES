@@ -1,46 +1,48 @@
 ---
 keywords: tokens de respuesta;tokens;complementos;complementos;at.js;respuesta
-description: Aprenda a utilizar tokens de respuesta en la información específica de salida de Adobe [!DNL Target] para su uso en la depuración y la integración con sistemas de terceros (como Clicktale).
+description: Aprenda a utilizar tokens de respuesta en información específica de salida de Adobe [!DNL Target] para su uso en la depuración y la integración con sistemas de terceros (como Clicktale).
 title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administración y configuración
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 74%
+source-wordcount: '1576'
+ht-degree: 31%
 
 ---
 
 # Tokens de respuesta
 
-Los tokens de respuesta le permiten generar automáticamente información específica de [!DNL Target] (detalles de actividad, información de perfil de usuario, información geográfica, etc.) para su uso en la depuración o integración con sistemas de terceros (como Clicktale).
+Los tokens de respuesta le permiten generar automáticamente información específica de [!DNL Adobe Target] en la página web de su marca. Esta información puede incluir detalles sobre la actividad, la oferta, la experiencia, el perfil de usuario, la información geográfica, etc. Estos detalles proporcionan datos de respuesta adicionales para compartirlos con sistemas internos o de terceros (como Clicktale) o usarlos para la depuración.
 
-Los tokens de respuesta le permiten elegir qué variables aprovechar y habilitarlas para que se envíen como parte de una respuesta de Target. Para ello, simplemente habilite una variable mediante el conmutador y la variable se enviará con las respuestas de Target, que pueden validarse en llamadas de red. Los tokens de respuesta también funcionan en el modo [!UICONTROL Preview].
+Los tokens de respuesta le permiten elegir qué variables (en pares de valor clave) utilizar y, a continuación, habilitarlas para que se envíen como parte de una respuesta [!DNL Target]. Se habilita una variable mediante el conmutador y la variable se envía con respuestas [!DNL Target], que pueden validarse en llamadas de red. Los tokens de respuesta también funcionan en modo [!UICONTROL Preview].
 
-Una diferencia clave entre complementos y tokens de respuesta es que, mientras que los primeros envían a la página código JavaScript que se ejecuta al recibirlo, los segundos envían un objeto que puede leerse y sobre el que puede actuarse utilizando detectores de eventos. Para obtener más información, consulte Más adelante en este artículo se encuentran los [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) y los ejemplos. El enfoque de tokens de respuesta es más seguro y debería facilitar el desarrollo y mantenimiento de integraciones de terceros.
+Una diferencia clave entre complementos y tokens de respuesta es que los complementos envían JavaScript a la página que se ejecuta al realizar el envío. Sin embargo, los tokens de respuesta envían un objeto que luego se puede leer y sobre el que se puede actuar utilizando detectores de eventos. El enfoque de token de respuesta es más seguro y permite un desarrollo y mantenimiento más sencillos de las integraciones de terceros.
 
 >[!NOTE]
 >
->Los tokens de respuesta están disponibles con at.js 1.1 o versiones posteriores.
+>Los tokens de respuesta están disponibles con la [!DNL Adobe Experience Platform Web SDK] versión 2.5.0 o posterior (versión programada para el 24 de mayo de 2021) y con la versión 1.1 o posterior de at.js.
 
-| Biblioteca de Target en uso | Acciones sugeridas |
+| SDK de Target | Acciones sugeridas |
 |--- |--- |
-| at.js | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre la descarga de la versión más reciente de at.js, consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Para obtener más información sobre las funcionalidades en cada versión de at.js, consulte [Detalles de la versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Se enviarán algunos complementos que dependen de métodos internos y que existen en mbox.js pero no en at.js, aunque no funcionarán. Para obtener más información, consulte [Limitaciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
-| mbox.js | Los complementos siguen siendo compatibles y se entregan al usar mbox.js.<br>Sin embargo, se recomienda a los clientes que utilicen mbox.js y los complementos que se pasen a at.js y a los tokens de respuesta. Para obtener más información sobre las ventajas de utilizar at.js sobre mbox.js, consulte [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Para obtener más información acerca de la migración, consulte [Migrar de mbox.js a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Cuando Target Classic sea declarado obsoleto (noviembre de 2017), es posible que deba ponerse en contacto con Client Care para editar o deshabilitar los complementos existentes. Tendría que haber auditado sus conectores antes de que Target Classic quedara obsoleto y haber deshabilitado los complementos no deseados.<br>No puede crear nuevos complementos en Target Standard/Premium. En su lugar, utiliza tokens de respuesta.<br>Los antiguos complementos de SiteCatalyst deben deshabilitarse y reemplazarse con [Adobe Analytics como Fuente de informes para Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). El complemento ttMeta debería deshabilitarse y reemplazarse con [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| [SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Compruebe que está utilizando Platform Web SDK versión 2.5.0 o posterior. Para obtener información sobre la descarga de la última versión del SDK web de Platform, consulte [Instalar el SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en la guía *Información general del SDK web de Platform*. Para obtener información sobre las nuevas funciones de cada versión del SDK web de Platform, consulte [Notas de la versión](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) en la guía *Información general del SDK web de Platform*. |
+| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre la descarga de la versión más reciente de at.js, consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Para obtener más información sobre las funcionalidades en cada versión de at.js, consulte [Detalles de la versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Se envían algunos complementos que dependen de métodos internos y que existen en mbox.js, pero no en at.js, pero que no funcionan. Para obtener más información, consulte [Limitaciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
 
 ## Uso de tokens de respuesta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Compruebe que está utilizando la versión 1.1 o posterior de [!DNL at.js].
+1. Compruebe que está utilizando Platform Web SDK versión 2.5.0 (o posterior) o at.js versión 1.1 (o posterior).
 
-   Para obtener más información, consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Para obtener más información:
+
+   * **SDK** web de plataforma: Consulte  [Instalar el ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) SDK en la guía de  *descripción general del SDK web de* plataforma .
+   * **at.js**: Consulte  [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 1. En [!DNL Target], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Tokens de respuesta]**.
 
    ![](assets/response_tokens-new.png)
 
-1. Active los tokens de respuesta deseados, como `activity.id`, `option.id`, etc.
+1. Active los tokens de respuesta deseados, como `activity.id` y `option.id`.
 
    Los siguientes parámetros están disponibles de forma predeterminada:
 
@@ -66,13 +68,82 @@ Una diferencia clave entre complementos y tokens de respuesta es que, mientras q
    >
    >Los parámetros con caracteres especiales no se muestran en la lista. Se admiten únicamente caracteres alfanuméricos y guiones bajos.
 
-1. (Condicional) Si desea utilizar un parámetro de perfil como token de respuesta, pero el parámetro no se ha pasado a través de una solicitud [!DNL Target] y, por lo tanto, no se ha cargado en la interfaz de usuario de Target, puede utilizar el botón [!UICONTROL Agregar token de respuesta] para agregar el perfil a la interfaz de usuario.
+1. (Condicional) Para utilizar un parámetro de perfil como token de respuesta, pero el parámetro no se ha pasado a través de una solicitud [!DNL Target] y, por lo tanto, no se ha cargado en la interfaz de usuario [!DNL Target], puede utilizar el botón [!UICONTROL Añadir token de respuesta] para añadir el perfil a la interfaz de usuario.
 
    Haga clic en **[!UICONTROL Agregar token de respuesta]**, proporcione el nombre del token y haga clic en **[!UICONTROL Activar]**.
 
    ![](assets/response_token_create.png)
 
 1. Cree una actividad.
+
+## ![Distintivo del SDK web de Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] mediante la clase Handle object
+
+Utilice la clase Handle object , que tiene un objeto de metadatos y un objeto de datos para detectar respuestas [!DNL Target] y leer los tokens de respuesta.
+
+El siguiente ejemplo de código añade un [!DNL Platform Web SDK] controlador de evento personalizado directamente a la página HTML:
+
+```html
+<html>
+
+<head>
+ ...
+ <script src="alloy.js"></script>
+ <script>
+  {
+   "requestId": "4d0a7cfd-952c-408c-b3b8-438edc38250a",
+   "handle": [{
+    "type": "personalization:decisions",
+    "payload": [{
+     "id": "....",
+     "scope": "__view__",
+     "scopeDetails": {
+      "decisionProvider": "TGT",
+      "activity": {
+       "id": "..."
+      },
+      "experience": {
+       "id": "...."
+      }
+     },
+     "items": [{
+      "id": "123",
+      "schema": "https://ns.adobe.com/personalization/dom-action",
+      "meta": {
+       "activity.id": "...",
+       "activity.name": "...",
+       "profile.foo": "...",
+       "profile.bar": "..."
+      },
+      "data": {
+       "id": "123",
+       "type": "setHtml",
+       "selector": "#foo",
+       "prehidingSelector": "#foo",
+       "content": "<div>Hello world</div>"
+      }
+     }]
+    }]
+   }]
+  }
+  });
+ </script>
+</head>
+
+<body>
+ ...
+</body>
+
+</html>
+```
+
+| Objeto | Información |
+| --- | --- |
+| Tipo: Personalization.decision | [!DNL Target] y los datos de Offer decisioning se pasan aquí. |
+| Proveedor de decisiones - TGT | TGT-[!DNL Target]. [!DNL Target] proporciona los metadatos y valores del token de respuesta a la página. |
+| Meta | Metadatos que se pasan a la página. |
+| Datos | Valores de los metadatos pasados a la página. |
+
+## ![at.js ](/help/assets/atjs.png) badgeat.js mediante eventos personalizados
 
 Utilice [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) para detectar la respuesta de y leer los tokens de respuesta.[!DNL Target]
 
@@ -99,47 +170,53 @@ El siguiente ejemplo de código añade un controlador de evento personalizado [!
 
 **¿Qué rol se necesita para activar o desactivar tokens de respuesta?**
 
-Los tokens de respuesta pueden activarlos o desactivarlos únicamente los usuarios con el rol Administrador de Target.
+Solo los usuarios con la función [!DNL Target] [!UICONTROL Administrator] pueden activar o desactivar los tokens de respuesta.
 
-**¿Qué sucede si ejecuto at.js 1.0 o inferior?**
+**¿Qué sucede si ejecuto [!DNL Platform Web SDK] 2.5.0 (o anterior)?
 
-Verá los tokens de respuesta, pero at.js no será capaz de usarlos.
+No tiene acceso a los tokens de respuesta.
 
-**¿Qué sucede su utilizo at.js 1.1 (o posterior) en algunas página de mi sitio, pero mbox.js en otras?**
+**¿Qué sucede si ejecuto at.js 1.0 (o anterior)?**
 
-Los tokens de respuesta se enviarán a las respuestas de [!DNL at.js] Target, pero no a las respuestas de [!DNL mbox.js].
+Verá los tokens de respuesta, pero at.js no puede utilizarlos.
 
 **[!DNL Target Classic]¿Puedo tener activos a la vez complementos de y tokens de respuesta?**
 
-Los complementos y los tokens de respuesta estarán disponibles en paralelo; sin embargo, los complementos quedarán obsoletos en el futuro.
+Los complementos y los tokens de respuesta están disponibles en paralelo; sin embargo, los complementos quedarán obsoletos en el futuro.
 
 **¿Los tokens de respuesta se envían a través de todas las  [!DNL Target] respuestas o solo a través de  [!DNL Target] respuestas que envían una actividad?**
 
 Los tokens de respuesta solo se entregan mediante respuestas [!DNL Target] que envían una actividad.
 
-**Mis complementos de Target Classic incluyen código JavaScript. ¿Cómo replico su funcionalidad mediante tokens de respuesta?**
+**Mi  [!DNL Target Classic] complemento incluía JavaScript. ¿Cómo replico su funcionalidad mediante tokens de respuesta?**
 
-Al migrar a los tokens de respuesta, este tipo de JavaScript deberá mantenerse en su base de código o en su solución de administración de etiquetas. Puede activar este código utilizando eventos [!DNL at.js] personalizados y pasando los valores de token de respuesta a sus funciones JavaScript.
+Al migrar a tokens de respuesta, este tipo de JavaScript debe mantenerse en la base de código o en la solución de administración de etiquetas. Puede almacenar en déclencheur este código mediante eventos personalizados [!DNL Platform Web SDK] o [!DNL at.js] y pasar los valores de token de respuesta a sus funciones JavaScript.
 
 **¿Por qué mi perfil o el parámetro de atributos de cliente no se muestra en la lista de tokens de respuesta?**
 
-Target actualiza normalmente los parámetros cada 15 minutos. Esto depende de acciones del usuario y los datos se actualizan únicamente cuando se ve la página de tokens de respuesta. Si sus parámetros no aparecen en la lista de tokens de respuesta, puede deberse a que Target no haya actualizado los datos todavía.
+[!DNL Target] normalmente actualiza los parámetros cada 15 minutos. Esta actualización depende de la acción del usuario y los datos solo se actualizan cuando se ve la página de tokens de respuesta. Si los parámetros no se muestran en la lista de tokens de respuesta, [!DNL Target] aún no ha actualizado los datos.
 
-Además, los parámetros que contienen caracteres distintos de los alfanuméricos o cualquier símbolo distinto del guion bajo no aparecen en la lista. En este momento, solo se admiten caracteres alfanuméricos y guiones bajos.
+Además, si el parámetro contiene cualquier cosa excepto caracteres no alfanuméricos o cualquier símbolo que no sea guiones bajos, el parámetro no aparece en la lista. En este momento, solo se admiten caracteres alfanuméricos y guiones bajos.
 
-**Si creo un token de respuesta utilizando un script de perfil o un parámetro de perfil y posteriormente elimino el script o parámetro ¿seguirá ofreciendo contenido el token de respuesta?**
+**¿El token de respuesta sigue ofreciendo contenido si utiliza un script de perfil eliminado o un parámetro de perfil?**
 
-Los tokens de respuesta extraen y posteriormente envían información de los perfiles de usuario. Que elimine un script o parámetro de perfil no significa que la información se haya eliminado de los perfiles de usuario. Estos seguirán teniendo los datos correspondientes al script de perfil. El token de respuesta seguirá ofreciendo ese contenido. En el caso de usuarios que no tienen esa información guardada en sus perfiles, o de nuevos visitantes, ese token no se enviará porque los datos no están presentes en su perfil.
+Los tokens de respuesta extraen y posteriormente envían información de los perfiles de usuario. Que elimine un script o parámetro de perfil no significa que la información se haya eliminado de los perfiles de usuario. Los perfiles de usuario siguen teniendo datos correspondientes al script de perfil. El token de respuesta sigue entregando el contenido. Para los usuarios que no tienen esa información guardada en sus perfiles o para visitantes nuevos, ese token no se entrega porque los datos no están presentes en sus perfiles.
 
-Target no desactivará el token automáticamente. Si elimina un script de perfil y ya no quiere que se envíe el token, deberá desactivar este usted mismo.
+[!DNL Target] no desactiva automáticamente el token. Si elimina un script de perfil y ya no quiere que se envíe el token, deberá desactivar este usted mismo.
 
 **He cambiado el nombre del script Mi perfil, ¿por qué el token que utiliza dicho script sigue activo con el nombre antiguo?**
 
-Como se ha mencionado anteriormente, los tokens de respuesta operan con la información de perfil que los usuarios tienen guardada. Aunque cambie el nombre de su script de perfil, los usuarios que hayan visitado el sitio web tendrán el valor del antiguo script guardado en sus perfiles y el token seguirá tomando ese valor antiguo. Si desea enviar contenido con el nuevo nombre, deberá desactivar el token antiguo y activar el nuevo.
+Como se ha mencionado anteriormente, los tokens de respuesta operan con la información de perfil que los usuarios tienen guardada. Aunque haya cambiado el nombre del script de perfil, los usuarios que hayan visitado el sitio web tendrán el antiguo valor de script de perfil guardado en sus perfiles. El token sigue recogiendo el valor antiguo que ya se ha guardado en los perfiles de usuario. Si desea enviar contenido con el nuevo nombre, deberá desactivar el token antiguo y activar el nuevo.
 
-**Si mis atributos cambian, ¿cuándo se eliminarán de la lista?**
+**Si mis atributos han cambiado, ¿cuándo se eliminan de la lista?**
 
-Target realiza una actualización de atributos a intervalos regulares. Cualquier atributo que no esté activado se eliminará durante la siguiente actualización. Sin embargo, si se elimina un atributo activado (por ejemplo, si se elimina un script de perfil que se utilizaba como token), dicho script no se eliminará de la lista de atributos hasta que lo desactive. Target solo elimina de la lista los atributos desactivados cuando estos se eliminan o se cambia su nombre.
+[!DNL Target] realiza una actualización de atributos a intervalos regulares. Cualquier atributo que no esté activado se elimina durante la siguiente actualización. Sin embargo, si tiene un atributo activado que se haya eliminado, ese script no se eliminará de la lista de atributos hasta que lo desactive. Por ejemplo, se ha eliminado un script de perfil que se utilizaba como token. [!DNL Target] solo elimina de la lista los atributos desactivados cuando estos se eliminan o se cambia su nombre.
+
+## Envío de datos a los Google Analytics mediante el SDK web de Platform
+
+Se pueden enviar datos a los Google Analytics a través de Platform Web SDK versión 2.5.0 (o posterior) añadiendo el siguiente código en la página HTML:
+
+(Código por venir)
 
 ## Envío de datos a los Google Analytics mediante at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
@@ -207,7 +284,7 @@ Es posible enviar datos a Google Analytics mediante at.js añadiendo el siguient
 </script>
 ```
 
-## Depuración (similar al complemento ttMeta)    {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## Depuración (similar al complemento ttMeta)   {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 Puede crearse el equivalente del complemento ttMeta para depuración añadiendo el siguiente código a la página HTML:
 
@@ -259,12 +336,133 @@ Puede crearse el equivalente del complemento ttMeta para depuración añadiendo 
 </script>
 ```
 
-## Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js ![Distintivo de Tutorial ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Depuración
 
-Vea el siguiente vídeo para aprender a utilizar los tokens de respuesta y los eventos personalizados de at.js con el fin de compartir información de perfil de Target con sistemas de terceros.
+Las secciones siguientes proporcionan información sobre la depuración de tokens de respuesta:
+
+### Google Analytics y depuración
+
+El siguiente código permite depurar mediante Google Analytics:
+
+```javascript
+<script type="text/javascript"> 
+  (function(i, s, o, g, r, a, m) { 
+    i['GoogleAnalyticsObject'] = r; 
+    i[r] = i[r] || function() { 
+      (i[r].q = i[r].q || []).push(arguments) 
+    }, i[r].l = 1 * new Date(); 
+    a = s.createElement(o), 
+      m = s.getElementsByTagName(o)[0]; 
+    a.async = 1; 
+    a.src = g; 
+    m.parentNode.insertBefore(a, m) 
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+  ga('create', 'Google Client Id', 'auto'); 
+</script> 
+ 
+<script type="text/javascript"> 
+  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
+    var tokens = e.detail.responseTokens; 
+ 
+    if (isEmpty(tokens)) { 
+      return; 
+    } 
+ 
+    var activityNames = []; 
+    var experienceNames = []; 
+    var uniqueTokens = distinct(tokens); 
+ 
+    uniqueTokens.forEach(function(token) { 
+      activityNames.push(token["activity.name"]); 
+      experienceNames.push(token["experience.name"]); 
+    }); 
+ 
+    ga('send', 'event', { 
+      eventCategory: "target", 
+      eventAction: experienceNames, 
+      eventLabel: activityNames 
+    }); 
+  }); 
+ 
+  function isEmpty(val) { 
+    return (val === undefined || val == null || val.length <= 0) ? true : false; 
+  } 
+ 
+  function key(obj) { 
+     return Object.keys(obj) 
+    .map(function(k) { return k + "" + obj[k]; }) 
+    .join(""); 
+  } 
+ 
+  function distinct(arr) { 
+    var result = arr.reduce(function(acc, e) { 
+      acc[key(e)] = e; 
+      return acc; 
+    }, {}); 
+   
+    return Object.keys(result) 
+    .map(function(k) { return result[k]; }); 
+  } 
+```
+
+### Depuración con el equivalente del complemento ttMeta
+
+Puede crearse el equivalente del complemento ttMeta para depuración añadiendo el siguiente código a la página HTML:
+
+```javascript
+<script type="text/javascript" > 
+  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
+    window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
+ 
+    var tokens=e.detail.responseTokens; 
+ 
+    if (isEmpty(tokens)) { 
+      return; 
+    } 
+     
+    var uniqueTokens = distinct(tokens); 
+ 
+    uniqueTokens.forEach(function(token) { 
+      window.ttMETA.push({ 
+        'CampaignName': token["activity.name"], 
+        'CampaignId' : token["activity.id"], 
+        'RecipeName': token["experience.name"], 
+        'RecipeId': token["experience.id"], 
+        'OfferId': token["option.id"], 
+        'OfferName': token["option.name"], 
+        'MboxName': e.detail.mbox}); 
+      console.log(ttMETA); 
+    }); 
+  }); 
+ 
+  function isEmpty(val){ 
+    return (val === undefined || val == null || val.length <= 0) ? true : false; 
+  } 
+ 
+  function key(obj) { 
+     return Object.keys(obj) 
+    .map(function(k) { return k + "" + obj[k]; }) 
+    .join(""); 
+  } 
+ 
+  function distinct(arr) { 
+    var result = arr.reduce(function(acc, e) { 
+      acc[key(e)] = e; 
+      return acc; 
+    }, {}); 
+   
+    return Object.keys(result) 
+    .map(function(k) { return result[k]; }); 
+  } 
+</script>
+```
+
+## Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js ![Distintivo de tutorial](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+
+En el siguiente vídeo se explica cómo usar tokens de respuesta y eventos personalizados de at.js para compartir información de perfil de [!DNL Target] a sistemas de terceros.
 
 >[!NOTE]
 >
->La interfaz de usuario del menú [!DNL Target] [!UICONTROL Administration] (anteriormente [!UICONTROL Setup]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información que aparece en el siguiente vídeo es, en general, correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán próximamente.
+>La interfaz de usuario del menú [!DNL Target] [!UICONTROL Administration] (anteriormente [!UICONTROL Setup]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información contenida en el siguiente vídeo es correcta; sin embargo, las opciones se encuentran en ubicaciones ligeramente diferentes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
