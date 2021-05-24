@@ -5,11 +5,10 @@ title: ¿Qué es la toma de decisiones en dispositivos?
 feature: Implementación del lado del servidor
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-translation-type: tm+mt
-source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +20,7 @@ Para obtener más información, consulte [Introducción a la toma de decisiones 
 
 ## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de Adobe Target
 
-Más que nunca, a los especialistas en marketing, propietarios de productos y desarrolladores se les está asignando la tarea de optimizar la experiencia general del cliente en los sitios, las aplicaciones y en cualquier otro lugar donde se conecten con sus clientes. Varias herramientas con silos de datos e implementaciones complejas no lo cortan.
+Más que nunca, a los especialistas en marketing, propietarios de productos y desarrolladores se les está asignando la tarea de optimizar la experiencia general del cliente en los sitios, las aplicaciones y en cualquier otro lugar donde se conecten con sus clientes. No sirven varias herramientas con silos de datos e implementaciones complejas.
 
 En este seminario web grabado, los expertos en productos [!DNL Adobe Target] analizan cómo mover las decisiones de optimización de experiencias críticas en el dispositivo para ejecutarse localmente con latencia cercana a cero puede abrir las puertas a nuevos casos de uso interesantes, a la vez que mejoran el rendimiento del sitio para sus clientes.
 
@@ -41,8 +40,12 @@ Este vídeo de 7 minutos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
-Para obtener más vídeos y tutoriales, consulte la guía [Tutorials de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
+Para obtener más vídeos y tutoriales, consulte la guía [Tutorials de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es).
 
 ## Adobe Tech Blog - Parte 1: Ejecute [!DNL Adobe Target] SDK de NodeJS para la experimentación y personalización en plataformas Edge (trabajadores de Akamai Edge)
 
 [Haga clic aquí para acceder al post](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9) del blog.
+
+## Adobe Tech Blog - Parte 2: Ejecute [!DNL Adobe Target] SDK de NodeJS para la experimentación y personalización en plataformas Edge (AWS Lambda@Edge)
+
+[Haga clic aquí para acceder al post](https://medium.com/adobetech/part-2-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-aws-4d6bdac24563) del blog.
