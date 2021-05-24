@@ -4,9 +4,9 @@ description: Siga los pasos necesarios para implementar las soluciones de Analyt
 title: ¿Cómo implemento Analytics para [!DNL Target] (A4T)?
 feature: 'Analytics for Target (A4T) '
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: efa796edf3cd4da718fdcb0dbfd3d6f635ebf401
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1164'
 ht-degree: 24%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 Se requieren varios pasos a la hora de implementar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T). El proceso varía en función de si se implementa A4T con [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) o con at.js.
 
-## Pasos de implementación para una implementación del SDK web de Adobe Experience Platform {#platform}
+## ![Distintivo del SDK web de Adobe Experience Platform ](/help/assets/platform.png) Pasos de implementación para una implementación del SDK web de Adobe Experience Platform {#platform}
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ En la interfaz de usuario de [!DNL Target], haga clic en **[!UICONTROL Administr
 * **[!UICONTROL La opción Seleccionar por actividad permite elegir entre y a la hora de crear cada actividad.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL La opción Adobe establece Analytics como fuente de informes para todas las actividades que cree.]**[!DNL Analytics]
 
-## Pasos de implementación para una implementación de at.js{#section_73961BAD5BB4430A95E073DE5C026277}
+## ![Pasos de ](/help/assets/atjs.png) implementación de at.js para una implementación de at.js{#section_73961BAD5BB4430A95E073DE5C026277}
 
 Las secciones siguientes describen los pasos necesarios para implementar esta integración en su sitio si planea utilizar at.js:
 
