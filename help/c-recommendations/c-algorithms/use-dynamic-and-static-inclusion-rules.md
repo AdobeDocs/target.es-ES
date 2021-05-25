@@ -5,10 +5,9 @@ title: ¿Cómo utilizo las reglas de inclusión dinámicas y estáticas en Recom
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b2416c1b7930ed28622e7e6cb68f2fad7ab7f2a9
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2079'
 ht-degree: 17%
 
 ---
@@ -27,7 +26,7 @@ Mientras [crea criterios](/help/c-recommendations/c-algorithms/create-new-algori
 
 Las opciones disponibles varían en función del sector seleccionado y la clave de recomendación.
 
-## Agregación de reglas de filtrado a las promociones    {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Agregación de reglas de filtrado a las promociones   {#section_D59AFB62E2EE423086281CF5D18B1076}
 
 Mientras [crea una promoción](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), seleccione **[!UICONTROL Promocionar por atributo]** y, a continuación, haga clic en **[!UICONTROL Agregar regla de filtrado]**.
 
@@ -86,7 +85,7 @@ En los ejemplos siguientes se proporcionan ideas generales sobre cómo usar las 
 | La lista contiene un elemento en<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros). | Usando el operador &quot;lista contiene un elemento en&quot; en la coincidencia de atributos de perfil, cuando un visitante está viendo un elemento en su sitio web (como un evento deportivo o un concierto), puede promocionar otros elementos que:<ul><li>Asociado a uno de los equipos favoritos del visitante</li></ul>**Ejemplo**: Desea recomendar juegos asociados a uno de los equipos favoritos del visitante.<br>La regla de filtrado puede tener el siguiente aspecto: <br>` teamsPlaying list contains an item in user.favoriteTeams`<br>**Nota**: Al utilizar este operador, se espera una lista en  [ambos ](#caveats) lados de la regla. |
 | La lista no contiene ningún elemento en<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros). | Usando el operador &quot;lista no contiene un elemento en&quot; en la coincidencia de atributos de parámetros, cuando un visitante está viendo un elemento en su sitio web (como un producto, un artículo, una película, etc.), puede excluir otros elementos que:<ul><li>Incluido en una lista de tipos prohibidos</li></ul>**Ejemplo**: Desea excluir los artículos disponibles para los visitantes que son adultos, como el tabaco y el alcohol.<br>La regla de filtrado puede tener el siguiente aspecto: <br>`itemType is not contained in list mbox.prohibitedTypes`<br>**Nota**: Al utilizar este operador, se espera una lista en  [ambos ](#caveats) lados de la regla. |
 | La lista contiene todos los elementos de<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros). | Usando el operador &quot;lista contiene todos los elementos en&quot; en la coincidencia de atributos de perfil, cuando un visitante está viendo un elemento en su sitio web (como un anuncio de trabajo o una fórmula), puede promocionar otros elementos que:<ul><li>Incluir un conjunto de habilidades</li><li>Incluir un conjunto de ingredientes necesarios</li></ul>**Ejemplo 1**: Supongamos que un visitante tiene un conjunto de habilidades (Java, C++ y HTML). Los artículos del catálogo son trabajos con las habilidades necesarias (Java y HTML). Antes de recomendar el trabajo al visitante, debe asegurarse de que el perfil del visitante contenga todas las habilidades necesarias.<br>La regla de filtrado puede tener el siguiente aspecto: <br>`profile.jobSeekerSkills contains all items in entity.requiredSkills`<br>**Ejemplo 2**: Supongamos que un usuario tiene una lista de ingredientes de la despensa. La receta tiene una lista de ingredientes necesarios. Antes de recomendar la fórmula al visitante, debe asegurarse de que el perfil del visitante contenga todos los ingredientes necesarios.<br>La regla de filtrado puede tener el siguiente aspecto: <br>`profile.ingredientsInPantry contains all items in recipe.ingredientsRequired`<br>**Nota**: Al utilizar este operador, se espera una lista en  [ambos ](#caveats) lados de la regla. |
-| La lista no contiene todos los elementos en<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros). | Usando el operador &quot;lista no contiene todos los elementos en&quot; en la coincidencia de atributos de entidad, cuando un visitante está viendo un elemento en su sitio web (como evento deportivo o concierto), puede promocionar otros elementos que:<ul><li>No incluir un conjunto de equipos</li></ul>**Ejemplo**: Supongamos que un evento deportivo incluye dos equipos: los Astros de Houston y los cerveceros Milwaukee. El perfil del visitante indica que este visitante no desea ver los juegos de estos equipos. Desea asegurarse de que no recomienda un juego si estos equipos están jugando.<br>La regla de filtrado puede tener el siguiente aspecto: <br>`profile.leastfavoriteTeams does not contain all items in entity.teamsPlaying`<br>**Nota**: Al utilizar este operador, se espera una lista en  [ambos ](#caveats) lados de la regla. |
+| La lista no contiene todos los elementos en<br>(disponible con coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros). | Usando el operador &quot;lista no contiene todos los elementos en&quot; en la coincidencia de atributos de entidad, cuando un visitante está viendo un elemento en su sitio web (como evento deportivo o concierto), puede promocionar otros elementos que:<ul><li>No incluir un conjunto de equipos</li></ul>**Ejemplo**: Supongamos que un evento deportivo incluye dos equipos. El perfil del visitante indica que este visitante no desea ver los juegos de estos equipos. Desea asegurarse de que no recomienda un juego si estos equipos están jugando.<br>La regla de filtrado puede tener el siguiente aspecto: <br>`profile.leastfavoriteTeams does not contain all items in entity.teamsPlaying`<br>**Nota**: Al utilizar este operador, se espera una lista en  [ambos ](#caveats) lados de la regla. |
 
 ## Gestión de valores vacíos al filtrar por coincidencia de atributos de entidad, coincidencia de atributos de perfil y coincidencia de parámetros {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -105,7 +104,7 @@ Para seleccionar la acción deseada, pase el ratón sobre el icono del engranaje
 | [!UICONTROL No promocionar ningún elemento<br> (solo promociones)] | [!UICONTROL Coincidencia] de atributos de entidad, coincidencia de atributos de  [!UICONTROL perfil] y coincidencia  [!UICONTROL de parámetros] | Esta acción es la predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<br>Esta acción es el  [!DNL Target] modo en que se gestionan los valores vacíos antes de añadir esta opción: no se muestran resultados para este criterio. |
 | [!UICONTROL Uso de un valor estático] | [!UICONTROL Coincidencia] de atributos de entidad, coincidencia de atributos de  [!UICONTROL perfil] y coincidencia  [!UICONTROL de parámetros] | Si un valor está en blanco, puede optar por usar un valor estático. |
 
-## Advertencias {#caveats}
+## Advertencias  {#caveats}
 
 >[!IMPORTANT]
 >
