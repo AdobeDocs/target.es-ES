@@ -3,14 +3,13 @@ keywords: guía de actividades;actividades;actividad;tipos de actividad;acciones
 description: Descargue un PDF interactivo con descripciones de los diferentes tipos de actividades de Adobe Target.
 title: ¿Qué tipos de actividades hay disponibles en Target?
 feature: Actividades
-translation-type: ht
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: ht
-source-wordcount: '1468'
+exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
+source-git-commit: 882f656ee2f534e39ad608d06829c2bea463a029
+workflow-type: tm+mt
+source-wordcount: '1452'
 ht-degree: 100%
 
 ---
-
 
 # Tipos de actividades de Target
 
@@ -20,7 +19,7 @@ Descargue un PDF interactivo con descripciones de los diferentes tipos de activi
 >
 >Para lograr la mejor experiencia y compartir contenido con otros usuarios, descargue el archivo [PDF Guía de actividades de Adobe Target](/help/assets/activities_guide_82817.pdf).
 
-## ¿Qué hace? {#section_4ECAACC68723402EB3649033190E1BBC}
+## ¿Qué hace?  {#section_4ECAACC68723402EB3649033190E1BBC}
 
 | Tipo de actividad | Detalles |
 |--- |--- |
@@ -31,7 +30,7 @@ Descargue un PDF interactivo con descripciones de los diferentes tipos de activi
 | ![Icono MVT](/help/c-activities/assets/icon_mvt.png)<br/>Multivariate Testing (MVT) | Compara combinaciones de ofertas entre elementos de una página para ver cuál ofrece el mejor resultado para una audiencia específica. También identifica qué elemento de la página mejora más las conversiones durante un periodo de prueba previamente establecido.  Para obtener más información, consulte [Multivariate Testing](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | ![Icono XT](/help/c-activities/assets/icon_xt.png)<br/>Segmentación de experiencias (XT) | Ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing. Para obtener más información, consulte [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md). |
 
-## ¿Por qué utiliza esto? {#section_46A70DD7CE3448749E635DDF5EAFC131}
+## ¿Por qué utiliza esto?  {#section_46A70DD7CE3448749E635DDF5EAFC131}
 
 | Tipo de actividad | Motivo |
 |--- |--- |
@@ -42,7 +41,7 @@ Descargue un PDF interactivo con descripciones de los diferentes tipos de activi
 | Multivariate Testing (MVT) | Un modo de mostrar múltiples ofertas en múltiples elementos y, a continuación, probar de forma concurrente las experiencias únicas resultantes con un objetivo específico, lo que ayuda a determinar qué variación de los elementos tiene más éxito. También puede revelar qué elementos tienen un impacto más positivo o más negativo en la interacción con los visitantes. |
 | Segmentación de experiencias (XT) | Simplemente es un modo de segmentar contenido específico para una audiencia específica, en función de un conjunto de reglas de asignación definidas. |
 
-## ¿Qué clase de experto en marketing usaría esto? {#section_A843D663D3E543FFB1A594266B560395}
+## ¿Qué clase de experto en marketing usaría esto?  {#section_A843D663D3E543FFB1A594266B560395}
 
 | Tipo de actividad | El experto en marketing |
 |--- |--- |
@@ -69,8 +68,8 @@ Descargue un PDF interactivo con descripciones de los diferentes tipos de activi
 | Tipo de actividad | Beneficios | Consideraciones |
 |--- |--- |--- |
 | Prueba A/B manual | Las pruebas A/B le permiten comprender plenamente el rendimiento de cada experiencia, más allá de saber cuál de ellas tiene mejor comportamiento. | En una prueba A/B, si se observa el resultado antes de alcanzar el tamaño de la muestra, se corre el riesgo de ofrecer resultados imprecisos (¡no se debe mirar antes de tiempo!).</br>Esto se debe a que, al contrario que en la asignación automática, en una prueba A/B la distribución del tráfico permanece fija incluso después de reconocer que algunas experiencias se comportan mejor que otras. |
-| Asignación automática | La asignación automática reduce el coste de una prueba A/B típica porque tiene una mayor tasa de conversión general que una prueba A/B manual. La tasa de conversión es mayor porque la asignación automática desvía más tráfico a la experiencia con mayor rendimiento, lo que significa que se disfrutan las ventajas de la experiencia ganadora antes de concluir el periodo de prueba (¡aquí sí puede mirar los resultados!). | La asignación automática identifica al ganador pero no diferencia entre los perdedores. Si necesita conocer el comportamiento de cada experiencia, es preferible una prueba A/B.</br>La función de asignación automática funciona solo con una configuración de métrica avanzadas: “Aumentar recuento y mantener al usuario en la actividad”.Esto significa que, si no quiere contar conversiones repetidas, debe utilizar una prueba A/B.  La asignación automática no puede consumir informes en A4T. |
-| Segmentación automática | En la segmentación automática se aplica aprendizaje automático a cualquier clase de experiencia, incluidas las multipágina. También permite disfrutar de las ventajas de la Automated Personalization, pero utilizando el conocido flujo de trabajo de las pruebas A/B. | Con la segmentación automática, si desea cambiar el contenido de sus ofertas con frecuencia, el algoritmo necesitará un tiempo después de cada cambio para aprovechar lo aprendido y empezar a ofrecer el contenido a los visitantes correctos.</br>La segmentación automática no puede consumir informes en A4T. |
+| Asignación automática | La asignación automática reduce el coste de una prueba A/B típica porque tiene una mayor tasa de conversión general que una prueba A/B manual. La tasa de conversión es mayor porque la asignación automática desvía más tráfico a la experiencia con mayor rendimiento, lo que significa que se disfrutan las ventajas de la experiencia ganadora antes de concluir el periodo de prueba (¡aquí sí puede mirar los resultados!). | La asignación automática identifica al ganador pero no diferencia entre los perdedores. Si necesita conocer el comportamiento de cada experiencia, es preferible una prueba A/B.</br>La función de asignación automática funciona solo con una configuración de métrica avanzadas: “Aumentar recuento y mantener al usuario en la actividad”.Esto significa que, si no quiere contar conversiones repetidas, debe utilizar una prueba A/B. |
+| Segmentación automática | En la segmentación automática se aplica aprendizaje automático a cualquier clase de experiencia, incluidas las multipágina. También permite disfrutar de las ventajas de la Automated Personalization, pero utilizando el conocido flujo de trabajo de las pruebas A/B. | Con la segmentación automática, si desea cambiar el contenido de sus ofertas con frecuencia, el algoritmo necesitará un tiempo después de cada cambio para aprovechar lo aprendido y empezar a ofrecer el contenido a los visitantes correctos. |
 | Automated Personalization (AP) | Con la Automated Personalization, puede reunir todas las ofertas en un mismo sitio y el algoritmo simplemente determina cuál es la mejor combinación de ellas. No es necesario especificar o crear experiencias individuales. La Automated Personalization utiliza los mismos algoritmos de aprendizaje automático que la segmentación automática. | Cuando combina múltiples ofertas se produce una explosión combinatoria que resulta en la necesidad de aumentar el tráfico de forma significativa. El algoritmo de Automated Personalization tiene en cuenta un gran número de factores, por lo que sus requisitos de tráfico son mayores.</br>La Automated Personalization no puede consumir informes en A4T. |
 | Multivariate Testing (MVT) | Multivariate Testing le permiten probar múltiples elementos de forma simultánea. | Una prueba multivariada requiere tiempo y, debido a las muchas variables en juego, no produce necesariamente una experiencia claramente ganadora.</br>A menudo es complicado alcanzar la cantidad de tráfico necesario para completar la prueba. Como todos los experimentos de pruebas multivariadas son factoriales completos, en caso de producirse demasiados cambios en los elementos al mismo tiempo, puede generarse rápidamente un gran número de posibles combinaciones que es preciso someter a prueba.</br>Incluso un sitio con tráfico muy elevado puede tener problemas para completar una prueba con más de 25 combinaciones en un tiempo razonable. |
 | Segmentación de experiencias (XT) | La segmentación de experiencias le permite actuar rápidamente ante la información deducida de los resultados de la actividad.</br>Por ejemplo, si ejecuta una prueba A/B en la que el aspirante no supera al control, pero el resultado indica que un segmento muy específico de visitantes ha realizado cuatro veces más conversiones con el aspirante que con el control, puede utilizar la segmentación de experiencias para dirigir la experiencia del aspirante a ese segmento particular. | La segmentación de experiencias no permite controlar el porcentaje de división de una experiencia entre varias audiencias. |
