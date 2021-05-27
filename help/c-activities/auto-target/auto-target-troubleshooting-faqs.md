@@ -4,10 +4,9 @@ description: Explore los temas de solución de problemas y las preguntas más fr
 title: ¿Cómo puedo solucionar problemas de las actividades de segmentación automática?
 feature: Segmentación automática
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1920'
 ht-degree: 99%
 
 ---
@@ -33,7 +32,7 @@ Consulte las siguientes preguntas frecuentes y respuestas mientras trabaja con a
 
 * Trate de no hacer cambios sustanciales en las experiencias durante el curso de la actividad.
 
-### ¿Se recomienda utilizar Auto [!DNL Target] con una división 90(Control)/10 (Segmentado) hasta que se creen los modelos?
+### ¿Se recomienda utilizar la [!UICONTROL Segmentación automática] con una división 90(Control)/10 (Segmentado) hasta que se creen los modelos?
 
 La división óptima de la asignación del tráfico depende de lo que desee lograr.
 
