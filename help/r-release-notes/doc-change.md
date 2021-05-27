@@ -4,10 +4,10 @@ description: Manténgase al día con las adiciones y cambios importantes en la d
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 56%
+source-wordcount: '1257'
+ht-degree: 55%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Mayo de 27 | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha añadido una sección para las llamadas de API [!DNL Target]. El límite es de 50 llamadas por minuto. |
 | Mayo de 20 | [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Se agregó un enlace a la siguiente entrada de blog en el blog Adobe Tech:<ul><li>Adobe Tech Blog - Parte 2: Ejecute [!DNL Adobe Target] SDK de NodeJS para la experimentación y personalización en plataformas Edge (AWS Lambda@Edge)</li></ul> |
 |  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido: &quot;El archivado de las actividades [!UICONTROL Segmentación automática] puede causar problemas de sincronización.&quot; |
 | Mayo de 17 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha agregado información sobre la versión 2.5.0 de at.js. |
