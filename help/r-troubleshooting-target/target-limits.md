@@ -5,11 +5,10 @@ title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro ti
 feature: Resolución de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 92%
+source-wordcount: '1184'
+ht-degree: 90%
 
 ---
 
@@ -36,6 +35,12 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 * **Límite recomendado**: 10 000 actividades activas.
 
 * **Límite recomendado**: 10 000 acciones guardadas (y no finalizadas).
+
+## Llamadas de API de Target
+
+* **Límite**: 50 llamadas por minuto.
+
+   Si realiza más de 50 llamadas API por minuto, [!DNL Target] devuelve un mensaje de error &quot;Estado HTTP 503&quot;.
 
 ## Audiencias
 
