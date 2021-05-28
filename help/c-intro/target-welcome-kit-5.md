@@ -4,11 +4,10 @@ description: ¿Dónde puedo encontrar ideas e inspiración para mis actividades 
 title: ¿Dónde puedo encontrar inspiración para mis esfuerzos de pruebas y personalización?
 feature: Información general
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 99%
+source-wordcount: '1054'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +23,7 @@ Tras identificar estas audiencias, realice pruebas de experiencia del usuario e 
 
 Por ejemplo, cuando un visitante clasificado en una audiencia &quot;usuario importante&quot; para una compañía de telecomunicaciones visita el sitio web de la compañía, ofrezca una experiencia que incluya copias e imágenes que resuenen con este tipo de usuarios junto con una oferta de conexión a Internet de alta velocidad.
 
-## Idea 2: [!DNL Target] visitantes nuevos y clientes repetidos de forma diferente.
+## Idea 2: Direccione a los visitantes nuevos y a los clientes que regresan de forma diferente.
 
 Los especialistas en marketing digital saben de manera intuitiva que los clientes existentes son más valiosos que los nuevos, pero a menudo no dan prioridad a los programas de marketing diseñados para mantener a los clientes existentes. Para evitar esta dificultad, analice las métricas de clientes que regresan para determinar cuál es el comportamiento de los clientes fieles en el sitio. Use estas perspectivas para crear campañas dirigidas a visitantes con una o dos compras, ofreciendo incentivos que los anime a volver a visitar el sitio.
 
