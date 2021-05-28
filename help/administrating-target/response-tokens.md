@@ -5,16 +5,16 @@ title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administración y configuración
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1598'
 ht-degree: 28%
 
 ---
 
 # Tokens de respuesta
 
-Los tokens de respuesta le permiten generar automáticamente información específica de [!DNL Adobe Target] en la página web de su marca. Esta información puede incluir detalles sobre la actividad, la oferta, la experiencia, el perfil de usuario, la información geográfica, etc. Estos detalles proporcionan datos de respuesta adicionales para compartirlos con sistemas internos o de terceros (como Clicktale) o usarlos para la depuración.
+Los tokens de respuesta le permiten generar automáticamente información específica de [!DNL Adobe Target] en la página web de su marca. Esta información puede incluir detalles sobre la actividad, la oferta, la experiencia, el perfil de usuario, la información geográfica, etc. Estos detalles proporcionan datos de respuesta adicionales para compartirlos con herramientas internas o de terceros, o para usarlos para la depuración.
 
 Los tokens de respuesta le permiten elegir qué variables (en pares de valor clave) utilizar y, a continuación, habilitarlas para que se envíen como parte de una respuesta [!DNL Target]. Se habilita una variable mediante el conmutador y la variable se envía con respuestas [!DNL Target], que pueden validarse en llamadas de red. Los tokens de respuesta también funcionan en modo [!UICONTROL Preview].
 
