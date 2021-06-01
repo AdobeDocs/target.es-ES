@@ -4,15 +4,14 @@ description: 'Obtenga información sobre cómo previsualizar la actividad de Ado
 title: ¿Cómo se previsualiza y se inicia una actividad de Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f4972f04906cb3476f50abedd6cec847e015daf9
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 17%
 
 ---
 
-# Previsualice e inicie su actividad de Recommendations
+# Vista previa e inicio de su actividad de Recommendations
 
 Después de crear la actividad [!UICONTROL Recommendations], [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias] (XT) que contiene [Ofertas de Recommendations](/help/c-recommendations/recommendations-as-an-offer.md), tendrá que obtener una vista previa de las recomendaciones para asegurarse de que los resultados estén disponibles antes de iniciar la actividad. [!DNL Target Recommendations] ofrece varias formas de obtener una vista previa de las recomendaciones.
 
@@ -77,7 +76,7 @@ El uso de un vínculo de control de calidad le permite obtener una vista previa 
 >* El modo de control de calidad de Target es &quot;fijo&quot; y se guarda en una cookie. Si no sale del modo de control de calidad, seguirá viendo los resultados del control de calidad en todo el sitio. Para salir del modo de control de calidad, utilice el [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
    >
    >
-* Mientras esté en modo de control de calidad, navegar por el sitio no afectará a los [!UICONTROL Elementos vistos recientemente] o [!UICONTROL Elementos comprados recientemente] de su perfil.&quot; Este comportamiento se produce por diseño para evitar la contaminación no intencional de los datos de comportamiento de producción. Para obtener una vista previa de los resultados de los criterios [!UICONTROL Artículos vistos recientemente] o [!UICONTROL Recommendations basado en usuarios], primero examine el sitio fuera del modo de control de calidad y, a continuación, utilice la misma sesión para abrir un vínculo al modo de control de calidad.
+* Mientras esté en modo de control de calidad, navegar por el sitio no afectará a los [!UICONTROL Elementos vistos recientemente] o [!UICONTROL Elementos comprados recientemente] de su perfil. Este comportamiento se produce por diseño para evitar la contaminación no intencional de los datos de comportamiento de producción. Para obtener una vista previa de los resultados de los criterios [!UICONTROL Artículos vistos recientemente] o [!UICONTROL Recommendations basado en usuarios], primero examine el sitio fuera del modo de control de calidad y, a continuación, utilice la misma sesión para abrir un vínculo al modo de control de calidad.
 
 
 ## Uso de la descarga de CSV para obtener una vista previa de las recomendaciones
