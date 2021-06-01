@@ -5,14 +5,14 @@ title: ¿Cómo utilizo CNAME en Target?
 feature: Privacidad y seguridad
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 0327f4450ad7b764b01091a106e3dfd3160ffbaf
+source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 2%
+source-wordcount: '1191'
+ht-degree: 1%
 
 ---
 
-# CNAME y Adobe Target
+# CNAME y Target
 
 Instrucciones para trabajar con [!DNL Adobe] ClientCare para implementar la compatibilidad con CNAME (Nombre canónico) en [!DNL Adobe Target]. Utilice CNAME para gestionar problemas de bloqueo de anuncios o directivas de cookies relacionadas con ITP (prevención inteligente del seguimiento). Con CNAME, las llamadas se realizan a un dominio propiedad del cliente en lugar de a un dominio propiedad de [!DNL Adobe].
 
