@@ -5,9 +5,9 @@ title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administración y configuración
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1624'
 ht-degree: 27%
 
 ---
@@ -22,7 +22,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
 
 >[!NOTE]
 >
->Los tokens de respuesta están disponibles con la [!DNL Adobe Experience Platform Web SDK] versión 2.6.0 o posterior (versión programada para el 1 de junio de 2021) y con la versión 1.1 o posterior de at.js.
+>Los tokens de respuesta están disponibles con la versión 2.6.0 o posterior de [!DNL Adobe Experience Platform Web SDK] y con la versión 1.1 o posterior de at.js.
 
 | SDK de Target | Acciones sugeridas |
 |--- |--- |
