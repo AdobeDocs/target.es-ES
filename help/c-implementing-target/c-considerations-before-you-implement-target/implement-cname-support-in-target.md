@@ -5,10 +5,9 @@ title: ¿Cómo utilizo CNAME en Target?
 feature: Privacidad y seguridad
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-translation-type: tm+mt
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
+source-git-commit: 0327f4450ad7b764b01091a106e3dfd3160ffbaf
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1192'
 ht-degree: 2%
 
 ---
@@ -140,6 +139,13 @@ Utilice el siguiente conjunto de comandos (en el terminal de línea de comandos 
    >[!NOTE]
    >
    >Si este comando falla pero el comando `validateEdgeFpsslSni` se ejecuta correctamente, espere a que las actualizaciones DNS se propaguen completamente. Los registros DNS tienen un [TTL (tiempo de vida)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) asociado que dicta el tiempo de caducidad de la caché para las respuestas DNS de esos registros. Como resultado, es posible que tenga que esperar al menos mientras los TTL sean. Puede utilizar el comando `dig target.example.com` o [el Cuadro de herramientas de G Suite](https://toolbox.googleapps.com/apps/dig/#CNAME) para buscar los TTL específicos.
+
+### ¿Cómo utilizo un vínculo de no participación con CNAME?
+
+Si utiliza CNAME, el vínculo de no participación debe contener el parámetro &quot;client=`clientcode`, por ejemplo:
+`https://my.cname.domain/optout?client=clientcode`.
+
+Reemplace `clientcode` por su código de cliente y, a continuación, añada el texto o la imagen que se vinculará a la [URL de exclusión](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#reference_E7A62B7B99C94B3A806CB262D16E27FC).
 
 ## Limitaciones conocidas
 
