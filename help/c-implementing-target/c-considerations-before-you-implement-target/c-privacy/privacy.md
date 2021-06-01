@@ -5,11 +5,10 @@ title: ¿Cómo gestiona  [!DNL Target] los problemas de privacidad?
 feature: Privacidad y seguridad
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 73%
+source-wordcount: '676'
+ht-degree: 68%
 
 ---
 
@@ -45,14 +44,18 @@ Si habilita la sustitución del último octeto de la dirección IP, los valores 
 
 Si las direcciones IP se ocultan por completo, la segmentación geográfica y el direccionamiento geográfico no estarán disponibles.
 
-## Vínculo de exclusión {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Vínculo de no participación {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 Puede añadir un vínculo de no participación a sus sitios para permitir que los visitantes renuncien a los recuentos y la publicación de contenido.
 
 1. Añada el vínculo siguiente a su sitio:
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
-1. Reemplace el texto `clientcode` por su código de cliente de y añada el texto o la imagen que se vinculará a la dirección URL de no participación.
+
+1. (Condicional) Si utiliza CNAME, el vínculo debe contener el parámetro &quot;client=`clientcode`, por ejemplo:
+https://my.cname.domain/optout?client=clientcode.
+
+1. Reemplace `clientcode` por su código de cliente y añada el texto o la imagen que se vinculará a la dirección URL de exclusión.
 
 Los visitantes que hagan clic en este vínculo no se incluirán en ninguna petición de mbox llamada desde sus sesiones de navegación hasta que eliminen sus cookies o hasta pasados dos años, lo que ocurra primero. Esto funciona estableciendo una cookie para el visitante llamada `disableClient` en el dominio `clientcode.tt.omtrdc.net`.
 
