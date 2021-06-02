@@ -4,11 +4,11 @@ description: Vea una lista de temas útiles para resolver problemas de Adobe Tar
 title: ¿Cómo puedo solucionar problemas de Target?
 feature: Resolución de problemas
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 * [Resolución de problemas de las pruebas multivariable](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [Calcular el tráfico necesario para una prueba de éxito](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### Recommendations
+### Recomendaciones
 
 * [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Preguntas más frecuentes sobre diseño](/help/c-recommendations/c-design-overview/template-faq.md)
