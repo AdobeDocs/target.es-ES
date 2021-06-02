@@ -1,14 +1,14 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de target;intro;introducción;introducción a
-description: ¿Es nuevo en Adobe Target? Obtenga un salto inicial con el kit de bienvenida Adobe [!DNL Target] .
+description: ¿Es nuevo en Adobe Target? Comience con el kit de bienvenida de Adobe  [!DNL Target] .
 title: ¿Cómo empiezo con Target?
 feature: Información general
 exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
