@@ -1,14 +1,14 @@
 ---
 keywords: Recommendations;introducción;seminario web;demostración
-description: Obtenga información sobre las actividades de Recommendations en el Adobe [!DNL Target] que muestra automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos.
+description: Conozca las actividades de Recommendations en Adobe  [!DNL Target]  que muestran automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
 title: ¿Qué son las actividades de Recommendations?
-feature: Recommendations
+feature: Recomendaciones
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 El texto de este artículo se obtiene del seminario web *Introducción a Recommendations*, que puede ver íntegramente a continuación.
 
-El seminario web *Introducción a Recommendations* incluye una exploración exhaustiva de cómo aprovechar el valor de [!DNL Adobe Target Recommendations]. Descubra cómo esta actividad [!DNL Target] muestra automáticamente los productos o el contenido que pueda interesar a sus clientes optimizando las sugerencias en tiempo real en función de las visitas anteriores. Además, sumérjase en la interfaz de usuario [!DNL Target] para obtener información general paso a paso sobre cómo generar una actividad [!DNL Recommendations].
+El seminario web *Introducción a Recommendations* incluye una exploración exhaustiva de cómo aprovechar el valor de [!DNL Adobe Target Recommendations]. Descubra cómo esta actividad [!DNL Target] muestra automáticamente los productos o el contenido que pueda interesar a sus clientes optimizando las sugerencias en tiempo real en función de las visitas anteriores. Además, sumérjase en la interfaz de usuario de [!DNL Target] para obtener información general paso a paso sobre cómo generar una actividad de [!DNL Recommendations].
 
 ## Primeros pasos
 
@@ -57,7 +57,7 @@ Las mejores recomendaciones son relevantes y personalizadas. Esto significa que 
 * **Modelos sofisticados** para dar sentido a los millones de artículos en los eventos de catálogo y de interacción. [!DNL Target] tiene funcionalidades sofisticadas de aprendizaje automático creadas durante más una década de experiencia. Gestionamos miles de millones de recomendaciones al año.
 * **Contexto del usuario** para garantizar que las recomendaciones sean oportunas y relevantes para el mismo. No sirve de nada recomendar el vídeo que alguien acaba de ver o la camiseta que alguien acaba de agregar al carro de compras. El perfil de usuario enriquecido de Target se puede usar en las recomendaciones para garantizar la personalización.
 
-## Implementar [!DNL Target] Recommendations
+## Implementación de Recommendations de [!DNL Target]
 
 Comience con una estrategia.
 
@@ -195,6 +195,6 @@ Por ejemplo, en el contexto de contenido, es posible que quiera excluir películ
 
 Después de completar las tareas ilustradas en el canal de recomendaciones descrito arriba, se le deja con la recomendación final. Si desea ver una demostración del producto dentro de [!DNL Target], la demostración comienza a las 21:00 en el *Seminario web de funciones básicas de Adobe Target*, y tiene el vínculo a continuación.
 
-## Seminario web básico de Adobe [!DNL Target]: Introducción a Recommendations {#intro-to-recs}
+## Seminario web de conceptos básicos de Adobe [!DNL Target]: Introducción a Recommendations {#intro-to-recs}
 
 [Introducción a Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
