@@ -4,11 +4,11 @@ description: Busque sugerencias para solucionar problemas si la página no muest
 title: ¿Cómo se pueden solucionar los problemas en la entrega de contenido?
 feature: Actividades
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1415'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Entre esta información se incluyen los ID de objetivo y los segmentos con coinc
 * **Unmatched**: la solicitud no cumplió los requisitos en esta llamada para aquellos segmentos u objetivos.
 * **Matched**: la solicitud cumplió los requisitos para los segmentos u objetivos especificados.
 
-**Uso de mboxTrace en las páginas de recomendaciones**: Al agregar mboxTrace como un parámetro de consulta en páginas con recomendaciones, se sustituye el diseño de Recomendaciones de la página por una ventana de detalles de mboxTrace que muestra información exhaustiva sobre sus recomendaciones, incluido lo siguiente:
+**Uso de mboxTrace en las páginas de recomendaciones**: Al agregar mboxTrace como un parámetro de consulta en páginas con recomendaciones, se sustituye el diseño de Recommendations de la página por una ventana de detalles de mboxTrace que muestra información exhaustiva sobre sus recomendaciones, incluido lo siguiente:
 
 * Recomendaciones devueltas frente a recomendaciones solicitadas
 * La clave utilizada y si está generando recomendaciones
@@ -109,7 +109,7 @@ Para usar mboxDebug, añada un parámetro de mboxDebug al final de la dirección
 >
 >Asegúrese de que el fragmento de URL está después de los parámetros de cadena de consulta. Todo lo que haya después del primer `#` es un identificador de fragmento y hace que los parámetros de depuración no funcionen correctamente.
 
-## Adobe Experience Cloud Debugger.   {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Adobe Experience Cloud Debugger.  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla su implementación de Target. Puede ver rápidamente la configuración de la biblioteca, examinar las solicitudes para asegurarse de que los parámetros personalizados se pasan correctamente, activar el registro de consola y desactivar todas las solicitudes de Target. Si se autentica en Experience Cloud, podrá utilizar la potente herramienta MboxTrace para inspeccionar su actividad, las cualificaciones de audiencia y el perfil del visitante.
 
@@ -121,7 +121,7 @@ Para obtener información más detallada, consulte [Depurar at.js con Adobe Expe
 
 Mbox.js envía una cookie denominada “em-disabled” al visitante si target.js no se puede cargar durante la entrega. Esta cookie impide que las ofertas creadas con el Compositor de experiencias visuales se procesen en el sitio. Los visitantes con esta cookie no ven el contenido de prueba ni se cuentan en esos informes de actividades. Todo el demás contenido de ofertas (de campañas en Target Classic, por ejemplo) sigue cargándose. La cookie tiene una vida útil de 30 minutos desde el momento del error en la carga.
 
-## Los principales vendedores no aparecen en Recommendations.   {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Los principales vendedores no aparecen en Recommendations.  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 No se puede usar la llamada de *`SiteCatalyst: purchase`* para los datos del tráfico del algoritmo Compra. Utilice la llamada *`orderConfirmPage`* en su lugar.
 
@@ -149,7 +149,7 @@ Si un elemento DOM es parte de una segmentación de personalización de Adobe Ex
 
 A fin de remediar esto, puede deshabilitar la personalización de AEM en las páginas en las que Target se está ejecutando.
 
-## Las ofertas de redirección y remotas no se pueden entregar debido a una dirección URL no válida.   {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Las ofertas de redirección y remotas no se pueden entregar debido a una dirección URL no válida.  {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Si la oferta de redirección o remota utiliza una dirección URL no válida, es posible que no se pueda entregar.
 
@@ -173,7 +173,7 @@ Los siguientes vídeos contienen más información sobre los conceptos mencionad
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Depuración básica de Adobe Target ![Distintivo tutorial](/help/assets/tutorial.png)
+### ![Insignia](/help/assets/tutorial.png) del tutorial de depuración básica de Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
