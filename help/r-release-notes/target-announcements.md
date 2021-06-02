@@ -1,13 +1,13 @@
 ---
 keywords: anuncios;generador de habilidades;chat de desarrollador;pausa para café;eventos;forrester;gartner;seminario web
-description: Lea los anuncios y regístrese para eventos de Adobe [!DNL Target] , incluidas las sesiones de Generador de habilidades, chats para desarrolladores y gestores de productos, seminarios web y mucho más.
-title: ¿Dónde puedo encontrar los  [!DNL Target] anuncios y eventos?
+description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Target] , incluidos sesiones acerca del Generador de habilidades, charlas con desarrolladores y gestores de productos, seminarios web y mucho más.
+title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Notas de la versión
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ En este seminario web grabado, los expertos en productos de Adobe Target analiza
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Seminario web: Cómo HSBC aprovecha el Adobe [!DNL Target] y la IA para optimizar y ofrecer personalización a escala rápida
+## Seminario web: Cómo HSBC aprovecha Adobe [!DNL Target] y la IA para optimizar y ofrecer personalización a escala rápidamente
 
 * **[Vea la grabación del seminario web aquí](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -48,8 +48,8 @@ Las demandas de los consumidores evolucionan rápidamente, y HSBC ha adoptado la
 
 *Artículo de McKinsey: “[La recuperación de la COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”, mayo de 2020
 
-## Adobe [!DNL Target] Generador de habilidades: Chat del desarrollador, migre el mbox.js del Adobe [!DNL Target] a at.js {#skill-builder}
+## Generador de habilidades de Adobe [!DNL Target]: Chat del desarrollador, migrar el mbox.js de Adobe [!DNL Target] a at.js {#skill-builder}
 
-Con la desaprobación de mbox.js el 31 de marzo de 2021, David Son, administrador de productos de Adobe Target, organizó recientemente un chat para desarrolladores con el fin de analizar las ventajas de migrar mbox.js a at.js.
+Ante la obsolescencia de mbox.js el 31 de marzo de 2021, David Son, gestor de producto de Adobe Target, organizó recientemente un chat para desarrolladores con el fin de analizar las ventajas de migrar mbox.js a at.js.
 
 * **[Vea la grabación del seminario web aquí](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
