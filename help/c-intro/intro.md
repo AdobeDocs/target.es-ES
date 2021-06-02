@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;segmentación automática;permisos;qué es Adobe Target;
-description: Conozca los conceptos básicos de Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium incluye funciones avanzadas que no están disponibles en el producto estándar.
+description: Conozca los conceptos básicos de Adobe  [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target]  Premium, con funciones avanzadas que no están disponibles en el producto estándar.
 landing-page-description: Personalice la experiencia de sus clientes para maximizar los ingresos en sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 title: ¿Qué es Target?
 feature: Información general
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 La solución [!DNL Adobe Target] puede usarse con licencia [!DNL Target Standard] o [!DNL Target Premium].
 
-## Target Standard   {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## Target Standard  {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
 [!DNL Target Standard] es el front-end de [!DNL Adobe Target], que le ayuda a crear y administrar de forma visual pruebas A/B y actividades de direccionamiento basadas en reglas. [!DNL Target Standard] también admite la inserción de código personalizado tanto dentro como fuera del flujo de trabajo del [!UICONTROL Compositor de experiencias visuales]. [!DNL Target Standard] ofrece una estrategia de implementación simplificada con sus propiedades digitales: una sola línea de código en cada página gestiona toda la comunicación necesaria entre su sitio y [!DNL Target].
 
@@ -47,7 +47,7 @@ Target Premium incluye las siguientes características avanzadas:
 
 [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md) utiliza un sistema de aprendizaje automático avanzado para identificar varias experiencias de alto rendimiento definidas por expertos en marketing. A continuación, [!UICONTROL Segmentación automática] ofrece la experiencia más adaptada a cada visitante. La entrega se basa en perfiles de clientes individuales y en el comportamiento de visitantes anteriores con perfiles similares. [!UICONTROL Segmentación automática] ayuda a personalizar el contenido y fomenta las conversiones.
 
-### Recommendations
+### Recomendaciones
 
 Las actividades de [Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) muestran automáticamente productos o contenido que podría interesar a sus clientes, en función de la actividad previa del usuario. [!UICONTROL Recommendations] le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
 
@@ -65,7 +65,7 @@ Una recomendación determina cómo se sugiere un producto a un cliente, según l
 
    Muestre otros productos que compraron otras personas después de ver un determinado producto, sin mostrar el primer producto en las recomendaciones, empleando el criterio “Otras personas que vieron esto también compraron”.
 
-### Recommendations como oferta
+### Recomendaciones como oferta
 
 [Recomendaciones como oferta](/help/c-recommendations/recommendations-as-an-offer.md) permite incluir recomendaciones en actividades de [!UICONTROL Prueba A/B], [!UICONTROL Asignar automáticamente], [!UICONTROL Segmentación automática] y [!UICONTROL Direccionamiento de experiencias].
 
@@ -86,11 +86,11 @@ La funcionalidad [Permisos de usuarios empresariales](/help/administrating-targe
 >
 >[!DNL Recommendations Classic] es un producto heredado y del que ya no se ofrece licencia a los nuevos clientes. Para obtener la mejor experiencia con [!DNL Recommendations], actualice a las actividades de [!DNL Recommendations] disponibles en [!DNL Adobe Target Premium] y descritas anteriormente.
 
-[!DNL Recommendations Classic] muestra automáticamente productos o contenido que podrían interesar a sus clientes en función de la actividad previa del usuario en el sitio web. Las recomendaciones sirven para dirigir a los clientes hacia artículos que de otra manera no conocerían, algo que mejora las ventas generadas en el sitio web.
+[!DNL Recommendations Classic] muestra automáticamente productos o contenido que podrían interesar a sus clientes en función de la actividad previa del usuario en el sitio web. Recommendations le ayuda a dirigir a los clientes hacia artículos que de otra manera no conocerían, algo que mejora las ventas generadas en el sitio web.
 
 Para obtener más información, consulte la [documentación de Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf).
 
-## Experience League: El kit de bienvenida [!DNL Target] del Adobe {#kit}
+## Experience League: Kit de bienvenida de Adobe [!DNL Target] {#kit}
 
 Cree su propio programa de optimización y personalización en [!DNL Adobe Target] con este kit de bienvenida. El kit de bienvenida incluye información, herramientas y recursos clave para ayudarle a prepararse para su primera actividad de [!DNL Target] y lanzarla. El kit incluye ideas para obtener ganancias rápidas a corto plazo, así como estrategias de optimización a largo plazo.
 
