@@ -1,18 +1,18 @@
 ---
 keywords: interfaz de usuario de target;interfaz de usuario;iu
 description: Familiarícese con la interfaz de usuario y encuentre vínculos a información más detallada para ayudarle a sacar el máximo partido de Target.
-title: ¿Cómo utilizo la IU [!DNL Target] ?
+title: ¿Cómo se utiliza la IU de  [!DNL Target] ?
 feature: Información general
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Comprender la interfaz de usuario de [!DNL Target]
+# Información sobre la IU de [!DNL Target]
 
 La interfaz de usuario está organizada en un formato lógico y fácil de usar para ayudarle a sacar el máximo partido a [!DNL Adobe Target]. La siguiente descripción general breve le ayudará a familiarizarse con [!DNL Target] y proporciona vínculos para obtener información más detallada e instrucciones paso a paso.
 
@@ -86,19 +86,19 @@ Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combina
 
 Consulte [Ofertas](/help/c-experiences/c-manage-content/manage-content.md) para obtener información detallada acerca de los tipos de oferta en [!DNL Target] y para obtener más información sobre la interfaz de usuario de la lista [!UICONTROL Oferta].
 
-## Recommendations
+## Recomendaciones
 
-Haga clic en la pestaña **[!UICONTROL Recommendations]** para acceder a [!DNL Target Recommendations].
+Haga clic en la pestaña **[!UICONTROL Recomendaciones]** para acceder a [!DNL Target Recommendations].
 
 >[!NOTE]
 >
 >Las actividades de Recommendations están disponibles como parte de la solución [!DNL Target Premium]. No están disponibles en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información, consulte [Target Premium](/help/c-intro/intro.md#premium) en *Introducción a Target*.
 
-![Recommendations](/help/c-intro/assets/recommendations.png)
+![Recomendaciones](/help/c-intro/assets/recommendations.png)
 
 Las actividades de [!UICONTROL Recommendations] muestran automáticamente productos o contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
 
-Consulte [Recommendations](/help/c-recommendations/recommendations.md) para obtener información detallada acerca de [!UICONTROL Recommendations] en [!DNL Target] y para obtener más información sobre la interfaz de usuario de [!UICONTROL Recommendations].
+Consulte [Recomendaciones](/help/c-recommendations/recommendations.md) para obtener información detallada acerca de [!UICONTROL Recommendations] en [!DNL Target] y para obtener más información sobre la interfaz de usuario de [!UICONTROL Recommendations].
 
 ## Administración
 
