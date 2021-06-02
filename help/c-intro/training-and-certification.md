@@ -1,14 +1,14 @@
 ---
 keywords: formación;certificación;Target;cursos en línea;cursos;clase;clases
-description: Busque las clases y certificaciones de Adobe [!DNL Target] que ofrecen los Servicios de formación de Adobe.
+description: Busque las clases y certificaciones de Adobe  [!DNL Target]  que ofrecen los servicios de formación de Adobe.
 title: ¿Dónde puedo encontrar clases de formación y certificación?
 feature: Información general
 exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
