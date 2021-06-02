@@ -1,14 +1,14 @@
 ---
 keywords: contacto;legal;asistencia técnica;soporte técnico;soporte;servicio;capacidad;facturación;comentarios
-description: Obtenga información sobre recursos adicionales para ayudarle a obtener más información sobre las funciones de Adobe [!DNL Target] y cómo ponerse en contacto con Adobe si necesita ayuda con [!DNL Target].
+description: Conozca cuáles son los recursos adicionales para ayudarle a conocer las funciones de Adobe  [!DNL Target]  y cómo ponerse en contacto con Adobe si necesita ayuda con  [!DNL Target].
 title: ¿Dónde puedo encontrar recursos e información de contacto para Target?
 feature: Notas de la versión, información general
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1231'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Además de las sesiones sobre Target, existen sesiones para otras soluciones de 
 
 Customer Care está preparado para ayudarle a solucionar los problemas que pueda encontrar. Esta página contiene la información que necesita para ponerse en contacto con Customer Care y obtener asistencia.
 
-### Información básica   {#section_CC8B206F58D6495C9372D5C0D4055CF6}
+### Información básica  {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
 Si tiene problemas o quiere realizar alguna pregunta sobre el uso de Target tiene varias opciones.
 
@@ -84,7 +84,7 @@ Para agilizar la evaluación de su problema, se recomienda que disponga de la si
 
 Para problemas de entrega de contenido, consulte [Solución de problemas de entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md) para obtener información sobre posibles soluciones y datos de resolución de problemas.
 
-### En caso de una interrupción del servicio   {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+### En caso de una interrupción del servicio  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
 Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la [página Estado del sistema de Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]). En esta página se registran todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las Soluciones de Experience Cloud, incluida Target, además de las últimas noticias del equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada anteriormente, cuando contacte con atención al cliente:
 
@@ -97,7 +97,7 @@ Si cree que se ha producido una interrupción del servicio, en primer lugar cons
 
 Información que le ayudará a comunicarse con Adobe y a comprender los aspectos legales relativos al uso de este producto y esta documentación.
 
-### Ayuda y asistencia técnica   {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### Ayuda y asistencia técnica  {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ayudarle y, para ello, le ofrece una serie de opciones de asistencia:
 
@@ -115,7 +115,7 @@ Para recibir notificaciones sobre próximas mejoras de productos, regístrese en
 
 Según la configuración de su solución, es posible que algunas de las opciones descritas en esta documentación no estén disponibles para usted. Cada cuenta es única, de modo que debe consultar el contrato para obtener información acerca de los precios, las fechas de vencimiento, los términos y las condiciones. Si desea actualizar o cambiar de nivel de servicios, o si tiene preguntas acerca de su servicio actual, póngase en contacto con el administrador de su cuenta.
 
-### Comentarios   {#section_8154D6D712054220A90D85FA8E92933E}
+### Comentarios  {#section_8154D6D712054220A90D85FA8E92933E}
 
 Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a esta solución. Puede agregar sugerencias e ideas de mejora a la [Comunidad de Experience League de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Haga clic en la pestaña [!UICONTROL Ideas].
 
