@@ -1,18 +1,18 @@
 ---
 keywords: SDK web de Adobe Experience Platform;sdk web de aep;sdk de aep;optimización de los motores de búsqueda;optimización del motor de búsqueda;seo;clústeres edge, clústeres centrales;at.js;mbox.js;
-description: Obtenga información sobre cómo utilizar las bibliotecas de Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript (at.js y SDK web de AEP), los centros de datos de Adobe y las pruebas de SEO.
-title: ¿Cómo funciona [!DNL Target] ?
+description: Obtenga información sobre cómo utilizar las bibliotecas de JavaScript de Adobe  [!DNL Target] works, including information about the [!DNL Target]  (at.js y SDK web de AEP), los centros de datos de Adobe y las pruebas de optimización de los motores de búsqueda (SEO).
+title: ¿Cómo funciona  [!DNL Target] ?
 feature: Información general
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2563'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Funcionamiento del Adobe [!DNL Target]
+# Cómo funciona Adobe [!DNL Target]
 
 Descubra cómo funciona [!DNL Adobe Target], incluida la información acerca de las bibliotecas de [!DNL Adobe Experience Platform Web SDK] y JavaScript (at.js y mbox.js). Este artículo también presenta los distintos tipos de actividades que puede crear mediante [!DNL Target]. También puede obtener información sobre la red de Edge de [!DNL Target], la optimización de los motores de búsqueda (SEO) y cómo [!DNL Target] detecta los bots.
 
@@ -33,7 +33,7 @@ Haga referencia a [!DNL AEP Web SDK] o at.js en todas las páginas del sitio. Po
 Los siguientes recursos contienen información detallada para ayudarle a implementar el SDK web de AEP o at.js:
 
 * [Extensión Web SDK de Adobe Experience Platform](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=es#configure-the-aep-web-sdk-extension)
-* [ [!DNL Target] Implementación mediante Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementación  [!DNL Target]  de  mediante Adobe Experience Platform Launch ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Cada vez que un visitante solicita una página que se ha optimizado para [!DNL Target], se envía una solicitud al sistema de segmentación. La solicitud ayuda a determinar qué contenido se mostrará a ese visitante. Este proceso se produce en tiempo real. Cada vez que se carga una página, el sistema realiza una solicitud del contenido y la completa. El contenido está regido por reglas de actividades y experiencias controladas por especialistas en marketing y se segmenta para cada visitante del sitio. El contenido se sirve para indicar que el visitante de cada sitio tiene más probabilidades de responder, interactuar con o, en última instancia, comprar. El contenido personalizado ayuda a maximizar las tasas de respuesta, las tasas de adquisición y los ingresos.
 
@@ -56,11 +56,11 @@ Para obtener más información, consulte [Creación de pruebas A/B](/help/c-acti
 
 ### [!UICONTROL Asignación automática]
 
-[!UICONTROL Asignación automática identifica un ganador entre dos o más experiencias. ] [!UICONTROL La asignación automática reasigna automáticamente más tráfico a la experiencia ganadora, lo que ayuda a aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.]
+[!UICONTROL Asignación automática identifica un ganador entre dos o más experiencias. ] [!UICONTROL La asignación automática] reasigna automáticamente más tráfico a la experiencia ganadora, lo que ayuda a aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 
 Para obtener más información, consulte [[!UICONTROL Asignación automática]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-### [!UICONTROL Segmentación automática]
+### [!UICONTROL Segmentación automática] (AT)
 
 La segmentación automática utiliza aprendizaje automático avanzado para seleccionar entre varias experiencias de alto nivel de rendimiento definidas por expertos en marketing. La segmentación automática proporciona la experiencia más adaptada a cada visitante. La entrega de experiencias se basa en perfiles de clientes individuales y en el comportamiento de visitantes anteriores con perfiles similares. Utilice la segmentación automática para personalizar el contenido y dirigir las conversiones.
 
@@ -72,7 +72,7 @@ Automated Personalization (AP) combina ofertas o mensajes, y utiliza aprendizaje
 
 Para obtener más información, consulte [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
-### Segmentación de experiencias (XT)
+### [!UICONTROL Segmentación de experiencias] (XT)
 
 Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 
@@ -86,7 +86,7 @@ Multivariate Testing (MVT) compara combinaciones de ofertas entre elementos de u
 
 Consulte [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) para obtener más información.
 
-### [!UICONTROL Recommendations]
+### [!UICONTROL Recomendaciones]
 
 Las actividades de Recommendations muestran automáticamente productos o contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
 
@@ -130,7 +130,7 @@ En lugar de responder a todas las solicitudes de direccionamiento desde una sola
 * Dublín, Irlanda
 * República de Singapur
 
-El servicio [!DNL Target Recommendations] está alojado en un centro de datos de [!DNL Adobe] en Oregón.
+El servicio de [!DNL Target Recommendations] está alojado en un centro de datos de [!DNL Adobe] en Oregón.
 
 >[!IMPORTANT]
 >
@@ -213,6 +213,6 @@ En concreto, para el tráfico de bots conocido, [!DNL Target] no:
 * Crea ni recupera un perfil de visitante.
 * Registra atributos de perfil ni ejecuta scripts de perfil.
 * Busca segmentos de Adobe Audience Manager (AAM) (si corresponde).
-* Utilice el tráfico de bots para modelar y ofrecer contenido personalizado para actividades de Recommendations, Segmentación automática, Automated Personalization o [!UICONTROL Asignación automática]
+* Utiliza el tráfico de bots para modelar y ofrecer contenido personalizado para actividades de Recommendations, Auto-Target, Automated Personalization o [!UICONTROL Auto-Allocate]. 
 * Registra una visita de actividad para la creación informes.
 * Registra datos que se enviarán a la plataforma de [!DNL Adobe Experience Cloud]
