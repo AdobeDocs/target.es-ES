@@ -1,14 +1,14 @@
 ---
 keywords: Recommendations;criterios de Recommendations;algoritmos de Recommendations;actividad de Recommendations;criterios;direccionamiento en Recommendations;recommendations
-description: Obtenga información sobre las actividades de Recommendations en el Adobe [!DNL Target] que muestra automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos.
-title: ¿Qué es [!DNL Target] Recommendations?
-feature: Recommendations
+description: Conozca las actividades de Recommendations en Adobe  [!DNL Target]  que muestran automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
+title: ¿Qué es Recommendations de  [!DNL Target] ?
+feature: Recomendaciones
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Antes de empezar a usar [!DNL Recommendations], es útil familiarizarse con algu
 | Diseños | Los diseños definen el aspecto de las recomendaciones en una actividad de [!DNL Recommendations], como una fila, columna, tabla o cuadrícula. La ilustración de la parte superior de este artículo muestra un diseño de 4 x 1. Para obtener más información, consulte [Crear un diseño](/help/c-recommendations/c-design-overview/create-design.md). |
 | Ubicaciones | Las ubicaciones hacen referencia a un área de contenido específica de una página web, una aplicación móvil o un correo electrónico en la que ejecuta una actividad con fines de personalización y optimización. |
 | Audiencias | Las audiencias son grupos de participantes con características similares en una actividad a los se les mostrará una actividad segmentada. Una audiencia es un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La funcionalidad Audiencia le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Para obtener más información, consulte [Audiencias](/help/c-target/target.md). |
-| Recommendations como oferta | Una funcionalidad que le permite incluir recomendaciones dentro de la prueba A/B (incluidas Asignación automática y Segmentación automática) y las actividades de direccionamiento de experiencias (XT). Para obtener más información, consulte [Recommendations como oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
+| Recomendaciones como oferta | Una funcionalidad que le permite incluir recomendaciones dentro de la prueba A/B (incluidas Asignación automática y Segmentación automática) y las actividades de direccionamiento de experiencias (XT). Para obtener más información, consulte [Recomendaciones como oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Vídeo de aprendizaje: Tipos de actividades ![distintivo de Información general](/help/assets/overview.png)
 
@@ -74,6 +74,6 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 ## Seminario web básico de Adobe Target: Introducción a Recommendations ![Distintivo de Tutorial ](/help/assets/tutorial.png) {#intro-to-recs}
 
-El seminario web *Introducción a Recommendations* incluye una exploración exhaustiva de cómo aprovechar el valor de [!DNL Adobe Target Recommendations]. Descubra cómo esta actividad [!DNL Target] muestra automáticamente los productos o el contenido que pueda interesar a sus clientes optimizando las sugerencias en tiempo real en función de las visitas anteriores. Además, sumérjase en la interfaz de usuario [!DNL Target] para obtener información general paso a paso sobre cómo generar una actividad [!DNL Recommendations].
+El seminario web *Introducción a Recommendations* incluye una exploración exhaustiva de cómo aprovechar el valor de [!DNL Adobe Target Recommendations]. Descubra cómo esta actividad [!DNL Target] muestra automáticamente los productos o el contenido que pueda interesar a sus clientes optimizando las sugerencias en tiempo real en función de las visitas anteriores. Además, sumérjase en la interfaz de usuario de [!DNL Target] para obtener información general paso a paso sobre cómo generar una actividad de [!DNL Recommendations].
 
 [Introducción a Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
