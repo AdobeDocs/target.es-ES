@@ -1,22 +1,21 @@
 ---
-user-guide-title: 'Guía de Adobe [!DNL Target] '
+user-guide-title: 'Guía de Adobe  [!DNL Target] '
 breadcrumb-title: Guía de Target
-user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
+user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-translation-type: tm+mt
 source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
 
-# Guía de Adobe Target   {#using}
+# Guía de Adobe Target {#using}
 
 + [Inicio de la Guía de Adobe Target](target-home.md)
 + Notas de la versión de Target {#release-notes}
-   + [Anuncios y eventos relacionados con Target](/help/r-release-notes/target-announcements.md)
+   + [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md)
    + [Notas de la versión de Target (actual)](r-release-notes/release-notes.md)
    + [Notas de la versión de Target (versión previa)](r-release-notes/target-release-notes.md)
    + [Información general sobre la documentación de Target](/help/r-release-notes/target-documentation.md)
@@ -28,17 +27,17 @@ ht-degree: 88%
 + Primeros pasos {#introduction}
    + [Introducción a Target](c-intro/intro.md)
    + [Acceder a Target desde Adobe Experience Cloud](c-intro/target-access-from-mac.md)
-   + [Conceptos clave de Target](c-intro/target-key-concepts.md)
+   + [Target conceptos clave](c-intro/target-key-concepts.md)
    + [Información sobre la interfaz de usuario de Target](/help/c-intro/understand-the-target-ui.md)
    + Kit de bienvenida de Adobe Target {#welcome}
-      + [Información general del kit de bienvenida de Target](/help/c-intro/target-welcome-kit.md)
+      + [Información general sobre el kit de bienvenida de Target](/help/c-intro/target-welcome-kit.md)
       + [Capítulo 1: Introducción](/help/c-intro/target-welcome-kit-1.md)
-      + [Capítulo 2: Segmentación de un vistazo](/help/c-intro/target-welcome-kit-2.md)
+      + [Capítulo 2: Generalidades de Target](/help/c-intro/target-welcome-kit-2.md)
       + [Capítulo 3: Desarrollo de las ideas de prueba y personalización](/help/c-intro/target-welcome-kit-3.md)
-      + [Capítulo 4: Sugerencias de uso de Target](/help/c-intro/target-welcome-kit-4.md)
-      + [Capítulo 5: Inspiración para actividades de personalización y pruebas](/help/c-intro/target-welcome-kit-5.md)
+      + [Capítulo 4: Sugerencias sobre el uso de Target](/help/c-intro/target-welcome-kit-4.md)
+      + [Capítulo 5: Inspiración para pruebas y actividades de personalización](/help/c-intro/target-welcome-kit-5.md)
       + [Capítulo 6: Dificultades fáciles de evitar](/help/c-intro/target-welcome-kit-6.md)
-      + [Capítulo 7: Creación y ejecución de su primera actividad de Target](/help/c-intro/target-welcome-kit-7.md)
+      + [Capítulo 7: Crear y ejecutar la primera actividad de Target](/help/c-intro/target-welcome-kit-7.md)
       + [Capítulo 8: Comunicación de los resultados de las actividades](/help/c-intro/target-welcome-kit-8.md)
       + [Capítulo 9: Pasos siguientes y recursos](/help/c-intro/target-welcome-kit-9.md)
    + [Glosario](c-intro/glossary.md)
@@ -52,7 +51,7 @@ ht-degree: 88%
    + [Configuración del Compositor de experiencias visuales](/help/administrating-target/visual-experience-composer-set-up.md)
    + Creación de informes {#reporting}
       + [Configuración de informes](/help/administrating-target/reporting.md)
-      + [Calcular el aumento de ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+      + [Cálculo del aumento de ingresos](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Configuración de Scene7](administrating-target/scene7-settings.md)
    + [Implementación](/help/administrating-target/implementation.md)
    + [Hosts](administrating-target/hosts.md)
@@ -70,7 +69,7 @@ ht-degree: 88%
 + Implementación de Target {#implement-target}
    + [Información general sobre la implementación de Target](c-implementing-target/implementing-target.md)
    + Antes de la implementación {#before-implement}
-      + [Antes de la implementación](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
+      + [Antes de la implementación ](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Preparación para implementar Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacidad y seguridad {#privacy}
          + [Información general sobre la privacidad](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
@@ -79,7 +78,7 @@ ht-degree: 88%
          + [Políticas de cookies de Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Directivas de la política de seguridad de contenido (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Lista de nodos perimetrales de Target permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Inclusión en la lista de permitidos de los nodos de Edge de Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Métodos para obtener los datos en Target {#methods}
          + [Información general sobre métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Parámetros de página](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
@@ -89,8 +88,8 @@ ht-degree: 88%
          + [API de actualización de perfiles en lote](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
          + [API de actualización de perfil único](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
          + [Atributos del cliente](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
-         + [Configuración de la API del perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [Información general sobre la seguridad de Target](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
+         + [Configuración de la API de perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
+      + [Target información general sobre seguridad](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Navegadores admitidos](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
       + [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME y Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
@@ -100,9 +99,9 @@ ht-degree: 88%
          + [Información general del SDK web de AEP](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + Implementación de at.js {#at-js-implementation}
          + Toma de decisiones en el dispositivo {#on-device-decisioning}
-            + [Información general sobre la toma de decisiones en dispositivos](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+            + [Información general sobre la toma de decisiones en el dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
             + [Funciones compatibles. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
-            + [Error de regla](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
+            + [Artefacto de regla](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
             + [Resolución de problemas](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
          + Cómo funciona at.js {#at-js}
             + [Información general sobre el funcionamiento de at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
@@ -144,22 +143,22 @@ ht-degree: 88%
             + [Cómo migrar de mbox.js a at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
             + [Limitaciones de at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
             + [Complementos de at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
-            + [Implementar at.js en un entorno que no sea de producción](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
+            + [Implementación de at.js en un entorno que no sea de producción](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
          + [Qué hace mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
          + [Configurar mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
-         + [Descarga de mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
+         + [Descargar mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
          + [Métodos de página de Target por versión de biblioteca mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
-         + [Crear un mbox de confirmación de pedido: mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
-         + [Preguntas más frecuentes sobre mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
+         + [Creación de un mbox de confirmación de pedido: mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
+         + [Preguntas frecuentes de mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [Funciones mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
          + [Cookies mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [Detalles de la versión de mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + Comprender el mbox global {#global-mbox}
-         + [Información general sobre el mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
-         + [Personalizar un mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
+         + [Información general sobre mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+         + [Personalización de un mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
          + [Uso de un mbox global desde una implementación heredada](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
-         + [Pasar parámetros a un mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-         + [Preguntas más frecuentes sobre mbox global](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+         + [Pase de parámetros a un mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
+         + [Preguntas frecuentes sobre mbox global](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
    + Target para aplicaciones móviles {#mobile-apps}
       + [Información general sobre Target para aplicaciones móviles](c-target-mobile-app/target-mobile-app.md)
       + [¿Cómo funciona Target en las aplicaciones móviles?](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
@@ -169,22 +168,22 @@ ht-degree: 88%
       + [Enviar información de actividad a Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Vista previa para móviles en Target](c-target-mobile-app/target-mobile-preview.md)
       + [Recuperación previa de contenido de ofertas](c-target-mobile-app/prefetch-offer-content.md)
-      + [Preguntas frecuentes sobre Target para aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target preguntas frecuentes sobre aplicaciones móviles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Uso del servicio de ubicación](/help/c-target-mobile-app/use-location-service.md)
    + Servidor: implementación de Target {#server-side}
       + [Servidor: información general sobre la implementación de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transición de las API heredadas de Target a Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
-      + [Toma de decisiones según el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
+      + [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [Implementación híbrida](/help/c-implementing-target/hybrid-implementation.md)
    + Correo electrónico: implementación de Target {#implement-email}
       + [Correo electrónico: información general sobre la implementación de Target.](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
-      + [Crear un Adbox para una imagen](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
-      + [Comprobación de un Adbox de imagen de correo electrónico](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
+      + [Creación de un AdBox para una imagen](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
+      + [Comprobación de un AdBox de imagen de correo electrónico](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Trabajar con redirectores](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Integración de Target con Experience Cloud {#integrate}
-   +  Analytics como fuente de informes para Adobe Target (A4T){#a4t}
+   +  Adobe Analytics como fuente de informes para Adobe Target (A4T) {#a4t}
       + [Información general de A4T](c-integrating-target-with-mac/a4t/a4t.md)
-      + [Antes de la implementación](c-integrating-target-with-mac/a4t/before-implement.md)
+      + [Antes de la implementación ](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Implementación de Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Requisitos de permisos de usuario](c-integrating-target-with-mac/a4t/account-reqs.md)
       + [Creación de una actividad que use Analytics como fuente de informes](c-integrating-target-with-mac/a4t/campaign-creation.md)
@@ -194,7 +193,7 @@ ht-degree: 88%
       + Resolución de problemas de integración de Analytics y Target (A4T) {#troubleshoot-a4t}
          + [Resolución de problemas de A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimización de los recuentos inflados de visitas y visitantes en A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + Preguntas más frecuentes sobre A4T.   {#a4t-faq}
+      + Preguntas más frecuentes sobre A4T {#a4t-faq}
          + [Aprovisionamiento inicial: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Configuración de actividades: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Visualización de informes: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -203,7 +202,7 @@ ht-degree: 88%
          + [Definiciones de métricas: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [Recuentos inflados de visitas y visitantes: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [Clasificaciones: Preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-         + [Compartir métricas, audiencias e informes: preguntas más frecuentes sobre A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
+         + [Uso compartido de métricas, audiencias e informes: preguntas más frecuentes sobre A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integración heredada de SiteCatalyst con Test&amp;Target: Preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Audiencias de Experience Cloud](c-integrating-target-with-mac/mmp.md)
@@ -224,7 +223,7 @@ ht-degree: 88%
          + [Añadir experiencia](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Seleccionar la audiencia](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [Configuración y objetivos](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [Usar datos de Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
+         + [Uso de datos de Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Definir métricas](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Varias audiencias de una experiencia en una prueba A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Asignación automática {#auto-allocate}
@@ -239,17 +238,17 @@ ht-degree: 88%
    + Automated Personalization {#automated-personalization}
       + [Información general sobre la Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo de bosque aleatorio](c-activities/t-automated-personalization/algo-random-forest.md)
-      + [Cree una actividad de Automated Personalization](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [Crear una actividad de personalización automatizada](c-activities/t-automated-personalization/create-ap-activity.md)
       + [Carga de datos para los algoritmos de personalización de Target](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Recopilación de datos para los algoritmos de personalización de Target](c-activities/t-automated-personalization/ap-data.md)
       + [Calcular el tráfico necesario para realizar una prueba con éxito](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Previsualizar experiencias para una prueba de Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Ofertas de Automated Personalization de Target](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Previsualización de experiencias para una prueba de Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Ofertas de personalización automatizada de Target](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Gestión de exclusiones](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Seleccione el control de la actividad de Automated Personalization o de Segmentación automática](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Preguntas más frecuentes sobre Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
+      + [Preguntas más frecuentes sobre Personalización automatizada](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Vista previa de actividades de Automated Personalization con URL de vista previa de experiencias](c-activities/t-automated-personalization/experience-preview.md)
-      + [Resolución de problemas de Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
+      + [Resolución de problemas de la personalización automatizada](c-activities/t-automated-personalization/ap-trouble.md)
    + Segmentación de experiencias {#experience-targeting}
       + [Información general sobre segmentación de experiencias](c-activities/t-experience-target/experience-target.md)
       + Crear una actividad de segmentación de experiencias {#create-targeting}
@@ -273,7 +272,7 @@ ht-degree: 88%
          + [Configuración y objetivos](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [Definir métricas](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [Resolución de problemas de pruebas multivariada](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
-   + [Actividad de recomendaciones](c-activities/recommendations-activity.md)
+   + [Actividad de Recommendations](c-activities/recommendations-activity.md)
    + [Editar una actividad o guardar como borrador](c-activities/edit-activity.md)
    + [Prioridad](c-activities/priority.md)
    + [Configuración de actividades](c-activities/activity-settings.md)
@@ -288,7 +287,7 @@ ht-degree: 88%
    + Control de calidad de la actividad {#activity-qa}
       + [Información general sobre el control de calidad de la actividad](c-activities/c-activity-qa/activity-qa.md)
       + [Bookmarklet de control de calidad de la actividad](c-activities/c-activity-qa/activity-qa-bookmark.md)
-      + [Usar el control de calidad de la actividad con entrega del lado del servidor](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
+      + [Usar el control de calidad de la actividad con entrega de servidor](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + Audiencias {#audiences}
    + [Información general de las audiencias](c-target/target.md)
    + Crear audiencias {#create-audiences}
@@ -296,20 +295,20 @@ ht-degree: 88%
       + [Crear audiencias en Target](c-target/c-audiences/create-audience.md)
       + Categorías para audiencias {#categories-audiences}
          + [Información general sobre las categorías para las audiencias](c-target/c-audiences/c-target-rules/target-rules.md)
-         + [Navegador](c-target/c-audiences/c-target-rules/browser.md)
+         + [Explorador](c-target/c-audiences/c-target-rules/browser.md)
          + [Parámetros personalizados](c-target/c-audiences/c-target-rules/custom-parameters.md)
-         + [Ubicación geográfica](c-target/c-audiences/c-target-rules/geo.md)
+         + [Geografía ](c-target/c-audiences/c-target-rules/geo.md)
          + [Red](c-target/c-audiences/c-target-rules/network.md)
-         + [Mobile](c-target/c-audiences/c-target-rules/mobile.md)
+         + [Móvil](c-target/c-audiences/c-target-rules/mobile.md)
          + [Sistema operativo](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Páginas del sitio](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [Biblioteca de segmentos](c-target/c-audiences/c-target-rules/target-library.md)
+         + [Target Biblioteca](c-target/c-audiences/c-target-rules/target-library.md)
          + [Periodo de tiempo](c-target/c-audiences/c-target-rules/time-frame.md)
-         + [Fuentes de tráfico](c-target/c-audiences/c-target-rules/traffic-sources.md)
+         + [Informe de](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Perfil del visitante](c-target/c-audiences/c-target-rules/visitor-profile.md)
-      + [Crear una audiencia de comparación de atributos de perfil](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
+      + [Crear una audiencia de comparación de atributos de perfil. ](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
    + [Combinación de varias audiencias](c-target/combining-multiple-audiences.md)
-   + [Crear una audiencia solo de actividad](c-target/creating-activity-only-audience.md)
+   + [Crear una audiencia solo de actividad. ](c-target/creating-activity-only-audience.md)
    + [Filtros de audiencia para la creación de informes](c-target/managing-audience-filters.md)
    + [Aplicación de una audiencia de informes a una métrica de éxito](c-target/apply-reporting-audience-success-metric.md)
    + Perfiles de los visitantes {#visitor-profiles}
@@ -325,7 +324,7 @@ ht-degree: 88%
       + [Preguntas más frecuentes sobre audiencias y segmentación](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + Experiencias y ofertas {#experiences}
    + [Información general sobre experiencias y ofertas](c-experiences/experiences.md)
-   + Compositor de experiencias visuales (VEC)   {#vec}
+   + Compositor de experiencias visuales (VEC) {#vec}
       + [Información general sobre el Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Opciones del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Incluir la misma experiencia en páginas similares](c-experiences/c-visual-experience-composer/temtest.md)
@@ -343,10 +342,10 @@ ht-degree: 88%
          + [Resolución de problemas del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [Solución de problemas del Compositor de experiencias mejorado](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Habilitación del contenido mixto en el navegador](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
-         + [Situaciones de modificación de página](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
+         + [Escenarios de modificación de página](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Extensión del Helper del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Redireccionar a una dirección URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [Crear carruseles que funcionen en el Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/vec-carousels.md)
+      + [Creación de carruseles que funcionen en el Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Compositor de experiencias basadas en formularios](c-experiences/form-experience-composer.md)
    + [Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](c-experiences/spa-visual-experience-composer.md)
    + Ofertas {#offers}
@@ -355,25 +354,25 @@ ht-degree: 88%
       + [Carga de contenido](c-experiences/c-manage-content/assets-upload.md)
       + [Crear ofertas de redireccionamiento](c-experiences/c-manage-content/offer-redirect.md)
       + [Crear ofertas remotas](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Crear ofertas JSON](c-experiences/c-manage-content/create-json-offer.md)
+      + [Creación de ofertas JSON](c-experiences/c-manage-content/create-json-offer.md)
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Búsqueda de contenido](c-experiences/c-manage-content/filter-and-search-content.md)
-      + [Transferir datos dinámicos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
+      + [Transmisión dinámica de datos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [Fragmentos de experiencia de AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Informes {#reports}
    + [Información general sobre informes](c-reports/reports.md)
    + Configuración del informe {#settings}
       + [Información general sobre la configuración de informes](c-reports/c-report-settings/report-settings.md)
-      + [Alza promedio, límites de alza e intervalo de confianza](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
+      + [Alza media, límites de alza e intervalo de confianza](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Ver varias métricas en un informe](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Excluir valores extremos](c-reports/c-report-settings/excluding-extreme-orders.md)
    + [Informe Resumen de segmentación automática](c-reports/auto-target-summary-report.md)
-   + [Informes Resumen de Automated Personalization](c-reports/reports-ap.md)
+   + [Informes Resumen de Personalización automatizada](c-reports/reports-ap.md)
    + Informe Perspectivas de personalización {#insights}
       + [Información general sobre los informes de Perspectivas de personalización](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Informe Segmentos automatizados](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Informe Atributos importantes](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Grupos de informes de ofertas en Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
+   + [Grupos de informes de ofertas en Personalización automatizada](c-reports/offer-reporting-groups-in-automated-personalization.md)
    + [Informe Rendimiento de las experiencias (MVT)](c-reports/experience-performance-report.md)
    + [Informe Contribución de ubicación (MVT)](c-reports/location-contribution-report.md)
    + [Creación de informes en Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
@@ -389,7 +388,7 @@ ht-degree: 88%
       + [Atributos de entidad](c-recommendations/c-products/entity-attributes.md)
       + [Atributos de entidad personalizados](c-recommendations/c-products/custom-entity-attributes.md)
       + [Fuentes](c-recommendations/c-products/feeds.md)
-      + [Buscar en el catálogo](c-recommendations/c-products/catalog-search.md)
+      + [Búsqueda en el catálogo](c-recommendations/c-products/catalog-search.md)
       + [Colecciones](c-recommendations/c-products/collections.md)
       + [Exclusiones](c-recommendations/c-products/exclusions.md)
    + Criterios {#criteria}
@@ -399,7 +398,7 @@ ht-degree: 88%
       + [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Cargar criterios personalizados](c-recommendations/c-algorithms/recommendations-csv.md)
       + Reglas de inclusión dinámicas y estáticas {#dynamic-static}
-         + [Usar reglas de inclusión dinámicas y estáticas](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [Uso de reglas de inclusión dinámicas y estáticas](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Coincidencia de atributos de entidad](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Coincidencia de atributos de perfil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [Coincidencia de parámetros](/help/c-recommendations/c-algorithms/parameter-matching.md)
@@ -418,7 +417,7 @@ ht-degree: 88%
       + [Agregar promociones](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Configuración de actividades de Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Vista previa e inicio de su actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [Recommendations como oferta](c-recommendations/recommendations-as-an-offer.md)
+   + [Recomendaciones como oferta](c-recommendations/recommendations-as-an-offer.md)
    + Preguntas más frecuentes {#recommendations-faq}
       + [Preguntas más frecuentes de Recommendations](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Integrar Recommendations con el correo electrónico](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
