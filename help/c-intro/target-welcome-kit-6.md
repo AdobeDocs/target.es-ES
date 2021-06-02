@@ -1,14 +1,14 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de target;intro;introducción;introducción a
-description: Aprenda de los errores de otros para no hacer los mismos al utilizar Adobe [!DNL Target] como parte de su estrategia de pruebas y personalización.
-title: ¿Cuáles son los errores más comunes al utilizar [!DNL Target] y cómo puedo evitarlos?
+description: Aprenda de los errores de otros para no cometerlos al utilizar Adobe  [!DNL Target]  como parte de su estrategia de pruebas y personalización.
+title: ¿Cuáles son los errores más comunes que se cometen al usar  [!DNL Target]  y cómo puedo evitarlos?
 feature: Información general
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
