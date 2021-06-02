@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -81,8 +81,8 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 ### Número de entidades
 
 * El número máximo de entidades a las que se puede hacer referencia en un diseño, tanto codificadas como mediante bucles, es de 99.
-* El límite recomendado para un mejor rendimiento es mantener el catálogo con menos de un millón de artículos por entorno y menos de diez millones de artículos en todos los entornos.
-* El límite máximo es de diez millones de elementos por entorno y 100 millones de elementos en todos los entornos. Si tiene entre un millón y diez millones de elementos por entorno, el rendimiento de la interfaz de usuario de [!UICONTROL Búsqueda en catálogo] se ve afectado. [!DNL Target Recommendations]Sin embargo, sigue produciendo y formulando recomendaciones.
+* El límite recomendado para un mejor rendimiento es mantener el catálogo con menos de un millón de elementos por entorno y menos de diez millones de elementos en todos los entornos.
+* El límite máximo es de diez millones de elementos por entorno y 100 millones de elementos en todos los entornos. Si tiene entre un millón y diez millones de elementos por entorno, el rendimiento de la IU de [!UICONTROL Búsqueda en catálogo] se ve afectado. [!DNL Target Recommendations], sin embargo, sigue produciendo y formulando recomendaciones.
 
 ### Atributos personalizados de entidad
 
@@ -239,7 +239,7 @@ A continuación se describen los límites de tamaño que se aplican a las oferta
 
 * **Límite**: 50 audiencias/segmentos por actividad.
 
-## Cuadro de entrada de perfil de secuencia de comandos en la interfaz de usuario de [!DNL Target]
+## Cuadro de entrada de perfil de script en la IU de [!DNL Target]
 
 * **Límite recomendado**: 2000 caracteres.
 
