@@ -1,14 +1,14 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de target;intro;introducción;introducción a
-description: Utilice la plantilla Resultados del resumen ejecutivo para comunicar los éxitos con las actividades de Adobe [!DNL Target] .
-title: '¿Cómo puedo compartir los resultados de mis actividades con mi organización? [!DNL Target] '
+description: Utilice la plantilla de resultados de resumen ejecutivo para comunicar los éxitos obtenidos con las actividades de Adobe  [!DNL Target] .
+title: ¿Cómo puedo compartir los resultados de mis actividades de  [!DNL Target]  con mi organización?
 feature: Información general
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
