@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
 source-wordcount: '4409'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 
 Si se intenta archivar actividades inactivas de [!UICONTROL Segmentación automática], pueden producirse problemas de sincronización. Hasta que se solucione este problema, no archive las actividades de [!UICONTROL Segmentación automática]. Déjelos en estado [!UICONTROL Inactivo]. (TGT-40885)
 
-### Métricas de Analytics for Adobe Target (A4T) para actividades de asignación automática y segmentación automática
+### Métricas de Analytics for Adobe Target (A4T) para actividades Auto-Allocate y Auto-Target
 
 La IU [!DNL Target] permite a los usuarios seleccionar métricas de participación e ingresos no admitidas como métrica de objetivo principal para la optimización en las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. Se admiten las métricas de conversión; las métricas de participación e ingresos *no* son compatibles. Si selecciona métricas de objetivo de participación o de ingresos, no se creará un modelo de optimización.
 
@@ -66,9 +66,9 @@ Los siguientes son problemas conocidos de las ofertas de redireccionamiento:
 
 * Para los sitios web de aplicación de una sola página, la cancelación de la carga no permite editar acciones en el panel [!UICONTROL Modificaciones].
 
-### Recommendations
+### Recomendaciones
 
-Los siguientes son problemas conocidos de las actividades de [!UICONTROL Recomendaciones]:
+Los siguientes son problemas conocidos de las actividades de [!UICONTROL Recommendations]:
 
 * Al copiar una actividad de [!UICONTROL Recommendations] con una promoción activa, cualquier cambio en la actividad duplicada actualmente también afecta a la actividad original, y a la inversa. (TGT-39155)
 
@@ -81,7 +81,7 @@ Los siguientes son problemas conocidos de las actividades de [!UICONTROL Recomen
 * Cuando [!DNL Target] devuelve una oferta JSON con getOffer(), se devuelve con el tipo de JSON. Sin embargo, si devuelve un diseño JSON de Recommendations, devuelve con un tipo de HTML.
 * Las entidades caducan correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después del vencimiento. (IRI-857)
 * Las superposiciones &quot;Información de uso&quot; para criterios y diseños no reflejan su uso en actividades A/B y de segmentación de experiencias (TGT-34331)
-* Las ofertas de Recommendations en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja de Recommendations (TGT-33426)
+* Las ofertas de recomendaciones en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja de Recommendations (TGT-33426)
 * Las colecciones, las exclusiones, los criterios y los diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API. Del mismo modo, si crea cualquiera de estos elementos en la IU de Target y posteriormente los edita mediante API, esos cambios no se reflejarán en la IU de Target. Los elementos editados mediante API deben continuar editándose mediante API para evitar la pérdida de modificaciones. (TGT-35777)
 * Las actividades de Recommendations creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
 * El estado de la fuente de criterios personalizados que se muestra en la lista de criterios (tarjeta) se actualiza cada diez minutos, y es posible que pasen más de diez minutos de la fecha en circunstancias excepcionales. El estado que se muestra en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre está actualizado. (TGT-35896, TGT-36173)
@@ -110,7 +110,7 @@ A continuación, detallamos los problemas conocidos de at.js:
 
    Este problema se aplica solo a actividades de Recommendations que usan el VEC.
 
-   **Solución alternativa**: en [!UICONTROL Recommendations > Configuración], desactive la opción [!UICONTROL Filtrar los criterios no compatibles]. Después de desactivar este ajuste, el selector de criterios los muestra todos, compatibles y no compatibles. (TGT-25949)
+   **Solución alternativa**: en [!UICONTROL Recomendaciones > Configuración], desactive la opción [!UICONTROL Filtrar los criterios no compatibles]. Después de desactivar este ajuste, el selector de criterios los muestra todos, compatibles y no compatibles. (TGT-25949)
 
 * Los mboxes no se activan en los navegadores Microsoft Explorer 11 después de actualizar a at.js versión 1.0 debido a la interacción entre at.js y la API de visitante 2.2.0. Este problema afecta a la versión 0.9.6 y posteriores de at.js. (TNT-27600)
 * Es posible que at.js no funcione con aplicaciones Cordova o híbridas porque no admiten las cookies de origen. (TNT-26166)
@@ -137,7 +137,7 @@ Los clientes no pueden realizar operaciones de CRUD en actividades de asignació
 
 El 10 de mayo de 2020, Adobe actualizó los archivos del proveedor GEO, lo que introdujo algunas incoherencias. Por ejemplo, se han añadido algunos valores que contienen comas; no obstante, los valores de las audiencias existentes no tenían coma. Este cambio no afectó a todos los servidores de entrega de Adobe. Como resultado, es posible que las audiencias que utilizan estos valores no hayan clasificado a todos los visitantes correctos entre el 10 de mayo y el 22 de julio de 2020.
 
-### Informes : datos incoherentes en el informe descargable .csv frente al informe mostrado en la interfaz de usuario [!DNL Target]. {#csv}
+### Creación de informes: Datos incoherentes entre el informe descargable .csv y el informe que se muestra en la IU de [!DNL Target].  {#csv}
 
 Los informes generados para su descarga como archivos .csv son incoherentes si la actividad utiliza más de una métrica. El informe descargable se genera solo en función de la configuración del informe y considera el mismo valor para cualquier otra métrica utilizada.
 
@@ -240,7 +240,7 @@ Cuando se descarga mbox.js por primera vez después del aprovisionamiento, el ca
 
 at.js se descargará con `global_mbox_autocreate = false` para un inquilino recién aprovisionado. Si mbox.js se descarga primero, global_mbox_autocreate se establece en “true” y at.js también se descarga con `global_mbox_autocreate = true`. (TGT-15929)
 
-### Compatibilidad con permisos de Enterprise en las API [!DNL Target] {#api}
+### Compatibilidad con permisos de Enterprise en las API de [!DNL Target]  {#api}
 
 Es posible que las ofertas de código creadas desde la interfaz de usuario de Target en la biblioteca de ofertas se muestren en el espacio de trabajo predeterminado si se recupera la lista de ofertas mediante las API de GET. Este problema se solucionará en la primera semana de marzo de 2019. Una vez solucionado el problema, las ofertas de código se mostrarán en el espacio de trabajo apropiado cuando se extraigan de las API. Este problema *no* afecta a las ofertas creadas a partir de las API. Por ejemplo, las ofertas de código creadas a partir de las API se muestran en el espacio de trabajo en el que fueron creadas, ya sea mediante la API de GET o desde la interfaz de usuario de Target.
 
@@ -258,7 +258,7 @@ Se ha visto *no* afectado si:
 
 Para determinar si este problema afectó a los informes de Target, póngase en contacto con [atención al cliente](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
-### Recommendations
+### Recomendaciones
 
 * El índice de fuentes de Recommendations puede mostrar “Esperando índice” si los elementos de la fuente son los mismos que en la ejecución anterior. La ingesta del producto para la entrega no se ve afectada. (RECS-6663)
 
@@ -428,7 +428,7 @@ Este problema se corrigió en la versión 17.4.1 de Target (27 de abril de 2017)
 
 Para los criterios visualizados recientemente, las reglas dinámicas basadas en entidades no llevarán a ninguna recomendación si el parámetro entity.id no se pasa en la solicitud de mbox. (RECS-6241)
 
-Este problema se corrigió después de la publicación de Recommendations (22 de marzo de 2018). Después de la publicación de Recommendations, Target omite las reglas dinámicas basadas en entidad si entity.id no se pasa en la solicitud de mbox.
+Este problema se ha corregido después de la publicación de Recommendations (22 de marzo de 2018). Después de la publicación de Recommendations, Target omite las reglas dinámicas basadas en entidad si entity.id no se pasa en la solicitud de mbox.
 
 ### at.js  {#at-js-7}
 
@@ -440,7 +440,7 @@ Este problema se corrigió en la versión 17.3.1 de Target (30 de marzo de 2017)
 
 Las reglas de exclusión globales tardan entre 10 y 20 minutos en propagarse al borde para Recommendations Premium. (RECS-5270)
 
-Este problema se corrigió en la versión 17.2.2.0 de Recommendations (6 de marzo de 2017).
+Este problema se ha corregido en la versión 17.2.2.0 de Recommendations (6 de marzo de 2017).
 
 ### Creación de informes en Analytics for Adobe Target (A4T)
 
