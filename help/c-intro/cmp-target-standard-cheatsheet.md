@@ -4,9 +4,9 @@ description: Explore una lista de preguntas más frecuentes acerca del uso de la
 title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Información general
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2918'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Consulte el [Foro de la comunidad de Target](/help/cmp-resources-and-contact-inf
 
 Lea nuestros [exploradores permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
 
-## Biblioteca JavaScript de Target (at.js y mbox.js).   {#section_C2AC78DFDAD84981A8C84DF20893E340}
+## Biblioteca JavaScript de Target (at.js y mbox.js).  {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
 **¿Qué archivo JavaScript de implementación debo usar, at.js o mbox.js?**
 
@@ -330,4 +330,4 @@ Para optimizar y personalizar en dispositivos móviles, necesita utilizar [activ
 
 **¿Dónde puedo obtener más información sobre las API de Target?**
 
-Tenemos documentación exhaustiva sobre las API. Consulte [API de entrega, SDK de NodeJS y documentación de la API Recommendations](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+Tenemos documentación exhaustiva sobre las API. Consulte [API de entrega, SDK de NodeJS y documentación de la API de Recommendations](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
