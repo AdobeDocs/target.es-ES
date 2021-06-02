@@ -1,14 +1,14 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de target;intro;introducción;introducción a
-description: Lea sugerencias de nuestro panel de expertos sobre el uso de Adobe [!DNL Target] como parte de sus esfuerzos de prueba y personalización.
+description: Lea sugerencias de nuestro panel de expertos acerca del uso de Adobe  [!DNL Target]  en sus tareas de prueba y personalización.
 title: ¿Dónde puedo encontrar sugerencias y trucos sobre el uso de Target?
 feature: Información general
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Consulte [Atributos personalizados](https://experienceleague.adobe.com/docs/targ
 
 Consulte [Métodos para obtener los datos en Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) para obtener más información.
 
-## Sugerencia 2: Personalice más profundamente mezclando audiencias [!DNL Target] con otras audiencias de Adobe Experience Cloud.
+## Sugerencia 2: Intensifique la personalización mediante la fusión de audiencias de [!DNL Target] con otras audiencias de Adobe Experience Cloud.
 
 La fusión de audiencias que residen en diferentes soluciones de [!DNL Adobe Experience Cloud] puede ofrecerle una perspectiva mucho más amplia de sus clientes, así como mayor capacidad de personalización. Por ejemplo, aunque [!DNL Target] proporciona datos de audiencia en tiempo real, [!DNL Adobe Analytics] ofrece datos de audiencia históricos. La combinación de ambos datos puede ayudarle a identificar cuándo el comportamiento de un cliente es coherente y cuándo puede haber una oportunidad para actuar ante un nuevo comportamiento. Simplemente haga clic en el menú desplegable situado junto a &quot;Todos los visitantes&quot; cuando cree una actividad. A continuación, active las casillas de hasta veinte audiencias, haga clic en &quot;Combinar varias audiencias&quot; y en &quot;Guardar&quot;.
 
