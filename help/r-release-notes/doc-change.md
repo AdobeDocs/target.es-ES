@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 84%
+source-wordcount: '1374'
+ht-degree: 83%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 3 de junio | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información sobre el Descanso de café de la comunidad de Adobe Target que se celebrará el miércoles, 9 de junio de 2021 a las 8 a.m. (PDT, GMT-7). |
 | 1 de junio | [CNAME y [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Se ha añadido la siguiente pregunta frecuente: <ul><li>¿Cómo utilizo un vínculo de no participación con CNAME?</li></ul> |
 |  | [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Se ha actualizado la sección &quot;Vínculo de no participación&quot; para explicar cómo utilizar el vínculo de no participación con CNAME. |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Se ha añadido información sobre [!DNL Adobe Experience Platform Web SDK]. |
