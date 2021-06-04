@@ -5,9 +5,9 @@ title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administración y configuración
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: e5d1aaa3a182bf15466aa29d6632d9009dbcd698
+source-git-commit: a63b123ed180a818de5338656781957931abd755
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1650'
 ht-degree: 27%
 
 ---
@@ -26,7 +26,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
 
 >[!IMPORTANT]
 >
->La funcionalidad de tokens de respuesta con [!DNL Adobe Experience Platform Web SDK] estará disponible en una versión futura (fecha por determinar). La siguiente documentación sobre los tokens de respuesta y el SDK web de Platform se incluye como punto álgido.
+>El token de respuesta estará disponible con [!DNL Adobe Experience Platform Web SDK] en una versión futura (fecha por determinar). La siguiente documentación sobre los tokens de respuesta y el SDK web de Platform se incluye como punto álgido.
 
 | SDK de Target | Acciones sugeridas |
 |--- |--- |
