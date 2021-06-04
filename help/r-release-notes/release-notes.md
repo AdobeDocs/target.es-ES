@@ -1,13 +1,13 @@
 ---
 keywords: Notas de la versión;nuevas funciones;versiones;actualizaciones;actualización;versión;mejora;mejoras;correcciones;correcciones de errores;actualizaciones
-description: Conozca las nuevas funciones, mejoras y correcciones incluidas en la versión actual de Adobe Target, incluidos SDK, API y bibliotecas de JavaScript.
+description: Obtenga información sobre las nuevas funciones, mejoras y correcciones incluidas en la versión actual de  [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas JavaScript.
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: Notas de la versión
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c0c38ef739de71df314a1bdeae17c521280fb910
+source-git-commit: a63b123ed180a818de5338656781957931abd755
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 86%
+source-wordcount: '683'
+ht-degree: 83%
 
 ---
 
