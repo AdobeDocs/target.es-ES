@@ -4,7 +4,7 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a63b123ed180a818de5338656781957931abd755
+source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 82%
@@ -26,7 +26,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Analytics  [!DNL Target] para la implementación](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Se ha agregado una sección nueva:<ul><li>Pasos de implementación para una implementación [!DNL Adobe Experience Platform Web SDK]</li></ul> |
 |  | [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Se ha añadido información sobre el uso de ofertas de redireccionamiento con A4T y el SDK web de Platform. |
 |  | [Tokens de respuesta](/help/administrating-target/response-tokens.md) | Se ha añadido información sobre el uso de tokens de respuesta con [!DNL Adobe Experience Platform Web SDK].<br>**Nota**: Esta funcionalidad se lanzará en una versión futura del SDK web de la plataforma (pendiente de determinación). |
-|  | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión 2.6.0 del SDK web de Adobe Experience Platform (1 de junio de 2021). |
+|  | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión 2.5.0 del SDK web de Adobe Experience Platform (1 de junio de 2021). |
 | Mayo de 27 | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha añadido una sección para las llamadas de API [!DNL Target]. El límite es de 50 llamadas por minuto. |
 | Mayo de 20 | [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Se ha añadido un enlace a la siguiente publicación de blog de Adobe Tech Blog:<ul><li>Adobe Tech Blog - Parte 2: Ejecute [!DNL Adobe Target] SDK de NodeJS para la experimentación y personalización en plataformas Edge (AWS Lambda@Edge)</li></ul> |
 |  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido: &quot;El archivado de las actividades [!UICONTROL Segmentación automática] puede causar problemas de sincronización.&quot; |
