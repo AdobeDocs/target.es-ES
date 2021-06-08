@@ -4,10 +4,10 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Notas de la versión
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '4409'
-ht-degree: 99%
+source-wordcount: '4438'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ Información sobre problemas conocidos de [!DNL Adobe Target]. También incluye 
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
+
+### [!DNL Adobe Experience Platform] los nombres de los segmentos no se muestran en el informe  [!UICONTROL Atributos ] importantes.
+
+[!DNL Adobe Experience Platform] los nombres de segmentos no se muestran en el informe  [!UICONTROL Atributos ] importantes para las actividades de  [!UICONTROL Automated Personalization]  (AP) y  [!UICONTROL Segmentación automática]  (AT). (TOP-3813)
 
 ### El archivado de las actividades [!UICONTROL Segmentación automática] puede causar problemas de sincronización
 
