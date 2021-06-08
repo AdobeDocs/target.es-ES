@@ -4,8 +4,7 @@ description: Obtenga información sobre cuánto tiempo se debe ejecutar una prue
 title: ¿Durante cuánto tiempo debo ejecutar una prueba A/B?
 feature: Pruebas A/B
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '3063'
 ht-degree: 63%
@@ -42,7 +41,7 @@ Para obtener más información, consulte [Información general de asignación au
 
 Si elige utilizar una actividad [!UICONTROL Prueba A/B] manual en lugar de [!UICONTROL Asignación automática], la [!DNL Target] Calculadora de tamaño de muestra le ayuda a determinar el tamaño de muestra necesario para una prueba con éxito. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta útil. El uso de la calculadora para una actividad [!UICONTROL de asignación automática] es opcional porque [!UICONTROL Asignación automática] declara un ganador por usted. La calculadora proporciona una estimación aproximada del tamaño de la muestra necesario. Siga leyendo para obtener más información sobre cómo usar la calculadora.
 
-Antes de configurar la prueba A/B, acceda a la [calculadora de tamaño de la muestra](https://docs.adobe.com/content/target-microsite/testcalculator.html) de Adobe Target.
+Antes de configurar la prueba A/B, acceda a la [calculadora de tamaño de la muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) de Adobe Target.
 
 ![Calculadora de tamaño de muestra de Adobe Target.](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -138,7 +137,7 @@ En este ejemplo, es posible que considere adecuado poder detectar un alza del 5 
 
 Una vez más, se recomienda que el tiempo necesario se redondee siempre a la semana completa más próxima, para evitar cualquier efecto de día de la semana. Por tanto, en este ejemplo, la prueba se realizaría durante dos semanas antes de evaluar los resultados.
 
-### Métrica de ingresos por visita.   {#section_C704C0861C9B4641AB02E911648D2DC2}
+### Métrica de ingresos por visita.  {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Cuando se usan los ingresos por visita (RPV) como métrica, se añade una fuente de varianza adicional, ya que RPV es el producto de los ingresos por pedido y la tasa de conversión (RPV = ingresos/nº visitantes = (ingresos por pedido * nº de pedidos)/nº de visitantes = ingresos por pedido * (nº de visitantes * CTR)/nº de visitantes = ingresos por pedido * CTR), cada uno con su propia varianza. La varianza de la tasa de conversión se puede calcular directamente utilizando un modelo matemático, pero la varianza de ingresos por pedido es específica de la actividad. Por lo tanto, utilice el conocimiento de esta variación de actividades anteriores o ejecute la prueba A/B durante unos días para estimar la varianza en los ingresos. La varianza se calcula a partir de los valores de Suma de ventas, Suma de ventas al cuadrado y Número de visitantes que se encuentran en el archivo de descarga CSV. Una vez establecida esta opción, utilice la hoja de cálculo para calcular el tiempo necesario para completar la prueba.
 
@@ -159,7 +158,7 @@ En general, el uso de RPV como métrica requiere entre un 20 y un 30 % más de t
 
 Cada vez que compara dos ofertas, las posibilidades de obtener un falso positivo (es decir, observar una diferencia con relevancia estadística aunque no haya diferencia en la tasa de conversión) son iguales al nivel de relevancia. Por ejemplo, si hay cinco ofertas, A/B/C/D/E, y A es la oferta control, se realizan las cuatro comparaciones (control frente a B, control frente a C, control frente a D y control frente a E), y la probabilidad de obtener un falso positivo es del 18,5 % aunque el nivel de confianza sea del 95 % porque Pr (al menos un falso positivo) = 1 - Pr (sin falsos positivos) = 1 - 0,95 = 18,5 %. En este contexto, un falso positivo se define como la notificación de que el control es mejor que la alternativa, o que la alternativa es mejor que el control cuando, de hecho, no hay ninguna diferencia entre ellos.
 
-## Conclusión.   {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusión.  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Al utilizar una actividad [!UICONTROL de asignación automática], [!DNL Target] identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo. [!UICONTROL La asignación automática facilita el logro de sus objetivos de conversión y elimina las suposiciones.]
 
