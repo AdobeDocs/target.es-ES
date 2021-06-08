@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1504'
 ht-degree: 79%
 
 ---
@@ -21,6 +21,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | --- | --- | --- |
 | 8 de junio | [Antes de implementar Analytics for Target (A4T) con at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Se ha añadido una nota para indicar que at.js 1.8.0 o versiones posteriores ya no funciona con versiones de API de visitante anteriores a la 2.5.0 para pasar parámetros [!DNL Adobe Audience Manager] (AAM). |
 |  | [Entornos](/help/administrating-target/environments.md) | Se agregó una nota que indica que si especifica [!UICONTROL Actividades activas e inactivas], los hosts de este entorno también muestran actividades inactivas. |
+|  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido:<ul><li>[!DNL Adobe Experience Platform] los nombres de los segmentos no se muestran en el informe  [!UICONTROL Atributos ] importantes.</li></ul> |
 | 7 de junio | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.6.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (19 de abril de 2021)
