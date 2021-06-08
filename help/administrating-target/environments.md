@@ -5,11 +5,10 @@ title: ¿Qué son los entornos y cómo puedo utilizarlos?
 feature: Administración y configuración
 role: Administrator
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +26,14 @@ Para administrar entornos, haga clic en **[!UICONTROL Administración]** > **[!U
 
 ![Lista de entornos](/help/administrating-target/assets/environments.png)
 
-## Agregar un entorno {#section_32097D0993724DF3A202D164D3F18674}
+## Añadir un entorno {#section_32097D0993724DF3A202D164D3F18674}
 
 1. En la lista [!UICONTROL Entornos], haga clic en **[!UICONTROL Agregar entorno]**.
 1. Elija un nombre descriptivo para el entorno.
 1. Indique el modo activo del entorno: [!UICONTROL Actividades activas] o [!UICONTROL Actividades activas e inactivas].
+
+   Si especifica [!UICONTROL Actividades activas e inactivas], los hosts de este entorno también muestran actividades inactivas.
+
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Definir el entorno predeterminado para informes {#section_4F8539B07C0C45E886E8525C344D5FB0}
