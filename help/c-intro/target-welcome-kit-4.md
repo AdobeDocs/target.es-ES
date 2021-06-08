@@ -4,11 +4,10 @@ description: Lea sugerencias de nuestro panel de expertos acerca del uso de Adob
 title: ¿Dónde puedo encontrar sugerencias y trucos sobre el uso de Target?
 feature: Información general
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -110,7 +109,7 @@ Muchos especialistas en marketing inician programas de optimización de segmenta
 * ¿Cuál es la tasa de conversión de la página?
 * ¿Cuánto tiempo espera que se ejecute la prueba antes de que pueda darla por completa con seguridad?
 
-**Sugerencia útil**: Utilice la [calculadora de tamaño de muestra](https://docs.adobe.com/content/target-microsite/testcalculator.html) de Target para determinar el tamaño de muestra necesario para que la prueba se realice correctamente.
+**Sugerencia útil**: Utilice la [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) de Target para determinar el tamaño de muestra necesario para que la prueba se realice correctamente.
 
 ## Sugerencia 12: Diseñe pruebas más sencillas para asegurarse de que puede crearlas e implementarlas.
 
