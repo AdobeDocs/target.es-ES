@@ -4,11 +4,10 @@ description: Obtenga información sobre cómo utilizar las bibliotecas de JavaSc
 title: ¿Cómo funciona  [!DNL Target] ?
 feature: Información general
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: ht
-source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '2563'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Descubra cómo funciona [!DNL Adobe Target], incluida la información acerca de las bibliotecas de [!DNL Adobe Experience Platform Web SDK] y JavaScript (at.js y mbox.js). Este artículo también presenta los distintos tipos de actividades que puede crear mediante [!DNL Target]. También puede obtener información sobre la red de Edge de [!DNL Target], la optimización de los motores de búsqueda (SEO) y cómo [!DNL Target] detecta los bots.
 
-## [!DNL Target]Bibliotecas de SDK web de la plataforma de y de JavaScript {#libraries}
+## [!DNL Target]Bibliotecas de SDK web de la plataforma de y de JavaScript  {#libraries}
 
 [!DNL Target] se integra con los sitios web que utilizan las bibliotecas de [!DNL AEP Web SDK] o JavaScript:
 
@@ -153,7 +152,7 @@ Adobe protege la experiencia del usuario al optimizar y garantizar el rendimient
 * Adobe utiliza un enfoque de varios niveles para garantizar sus aplicaciones y proporcionar la máxima disponibilidad y fiabilidad a sus clientes.
 * Los servicios de asesoramiento de [!DNL Target] ofrecen asistencia para la implementación y soporte continuado para los productos.
 
-## Pruebas sencillas para la optimización del motor de búsqueda (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## Pruebas sencillas para la optimización del motor de búsqueda (SEO)  {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] se adhiere a las directrices de motores de búsqueda en las pruebas.
 
@@ -180,7 +179,7 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
    Adobe sigue buscando soluciones viables para cumplir completamente con las directrices de los motores de búsqueda. Para los clientes que deben utilizar direcciones URL independientes para realizar pruebas, Adobe está seguro de que la correcta implementación de las etiquetas canónicas mitigará el riesgo asociado con este método.
 
-* **Realizar experimentos solo cuando sea necesario**: Adobe cree que “cuando sea necesario” significa cuando haya que alcanzar la relevancia estadística. [!DNL Target] [sugiere prácticas recomendadas](https://docs.adobe.com/content/target-microsite/testcalculator.html) para determinar el momento en que una prueba ha alcanzado este punto. Adobe le recomienda que incorpore la implementación incrustada en el código de las pruebas ganadoras en el flujo de trabajo de pruebas y le asigne los recursos apropiados.
+* **Realizar experimentos solo cuando sea necesario**: Adobe cree que “cuando sea necesario” significa cuando haya que alcanzar la relevancia estadística. [!DNL Target] [sugiere prácticas recomendadas](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) para determinar el momento en que una prueba ha alcanzado este punto. Adobe le recomienda que incorpore la implementación incrustada en el código de las pruebas ganadoras en el flujo de trabajo de pruebas y le asigne los recursos apropiados.
 
    No se recomienda usar la plataforma [!DNL Target] para “publicar” pruebas ganadoras como solución permanente. Si la prueba ganadora se publica para el 100 % de los usuarios el 100 % de las veces, este método se puede utilizar mientras se completa el proceso de incrustar en el código la prueba ganadora.
 
