@@ -2,13 +2,12 @@
 keywords: a4t;A4T;Analytics como fuente de informes para Target
 description: Aprenda a crear actividades de asignación automática y segmentación automática en Adobe [!DNL Target] que use Analytics como fuente de informes (A4T).
 title: ¿Admite A4T las actividades de asignación automática y segmentación automática?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 103ee22a4bf37569f8a02a91af194ebcdc79f3b4
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 2%
+source-wordcount: '979'
+ht-degree: 3%
 
 ---
 
@@ -82,6 +81,7 @@ Algunas limitaciones y notas se aplican tanto a las actividades de [!UICONTROL A
 
 ### Asignación automática y segmentación automática
 
+* Cuando utilice [!DNL Adobe Analytics] como fuente de informes para [!UICONTROL Asignación automática] o [!UICONTROL Segmentación automática], siempre debe ver los informes en [!DNL Analytics].
 * La fuente de informes no se puede cambiar de [!DNL Analytics] a [!DNL Target] ni a la inversa después de activar una actividad.
 * Aunque las métricas calculadas no son compatibles como métricas de objetivo principales, a menudo es posible lograr el resultado deseado seleccionando un evento personalizado como métrica de objetivo principal. Por ejemplo, si desea optimizar para una métrica como &quot;finalizaciones de formulario por visitante&quot;, seleccione un evento personalizado correspondiente a &quot;finalizaciones de formulario&quot; como métrica de objetivo principal. [!DNL Target] normaliza automáticamente las métricas de conversión por visita para tener en cuenta la distribución de tráfico desigual, por lo que no es necesario utilizar una métrica calculada para realizar la normalización.
 * [!DNL Target] utiliza el modelo de atribución &quot;Mismo contacto&quot; en la función de  [!UICONTROL asignación ] automática: Analytics for Target (A4T).
@@ -97,7 +97,7 @@ Algunas limitaciones y notas se aplican tanto a las actividades de [!UICONTROL A
 
 Para obtener más información, consulte [Modelos de atribución y ventanas retroactivas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) en la *Guía de herramientas de Analytics*.
 
-## Tutorial: Configuración de informes de A4T en Analysis Workspace para actividades de Segmentación automática {#tutorial}
+## Tutorial: Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática {#tutorial}
 
 Aunque las funciones de análisis enriquecidos están disponibles en [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], es necesario realizar algunas modificaciones en el panel predeterminado [!UICONTROL Analytics for Target] para interpretar correctamente las actividades de segmentación automática. Estas modificaciones son necesarias debido a las diferencias entre las actividades de experimentación (manual A/B y [!UICONTROL Asignación automática]) y las actividades de personalización ([!UICONTROL Segmentación automática]).
 
