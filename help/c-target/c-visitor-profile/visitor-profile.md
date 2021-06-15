@@ -4,21 +4,22 @@ description: Obtenga más información sobre los perfiles de los visitantes que 
 title: ¿Qué son los perfiles del visitante?
 feature: Audiencias
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c3c76b01ab158a8cab31de487f1cd7c8199339b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 78%
+source-wordcount: '107'
+ht-degree: 40%
 
 ---
 
 # Perfiles de los visitantes
 
-Los perfiles de los visitantes contienen información sobre el modo en que los visitantes usan las páginas de su sitio y otras ubicaciones de contenido optimizado.
+Los perfiles de visitante contienen información sobre cómo los visitantes utilizan las páginas y otras ubicaciones de contenido optimizado.
 
-Si utiliza Target junto con otras soluciones de Adobe Marketing Suite, como Adobe Analytics, Audiencias de Experience Cloud comparte la información del visitante en las distintas soluciones.
+Si [!DNL Adobe Target] se utiliza con otras soluciones [!DNL Adobe Experience Cloud], como [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] comparte la información del visitante entre soluciones.
 
-De manera predeterminada, la información de perfil de Target se almacena en una sola cookie de origen. La configuración se puede modificar fácilmente para que proporcione también cookies de terceros.
+De forma predeterminada, la información de perfil [!DNL Target] se almacena en una sola cookie de origen. La configuración se puede modificar fácilmente para que proporcione también cookies de terceros.
+
+Las secciones siguientes contienen más información:
 
 - [Duración del perfil del visitante](visitor-profile-lifetime.md)
 - [Atributos de perfil](profile-parameters.md)
