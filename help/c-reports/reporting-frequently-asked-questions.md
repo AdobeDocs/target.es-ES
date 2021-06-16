@@ -4,17 +4,22 @@ description: Explore una lista de las preguntas más frecuentes y las respuestas
 title: ¿Dónde puedo encontrar respuestas a preguntas sobre los informes [!DNL Target] ?
 feature: Informes
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 24%
+source-wordcount: '1321'
+ht-degree: 30%
 
 ---
 
 # Preguntas más frecuentes sobre la creación de informes
 
 Lista de las preguntas más frecuentes sobre los informes en [!DNL Adobe Target].
+
+## ¿Durante cuánto tiempo persisten los datos de los modelos [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática]?
+
+[!UICONTROL Los modelos de Automated Personalization]  (AP) y  [!UICONTROL Segmentación ] automática han recibido formación sobre los últimos 45 días de comportamiento del usuario (perfiles de usuario, eventos de impresión y eventos de conversión) en la actividad.
+
+[!UICONTROL Los modelos Automated Personalization]  (AP) y  [!UICONTROL Segmentación ] automática conservan el comportamiento del usuario, los registros de capacitación y los datos de decisiones de modelo durante 90 días para producir informes de   perspectivas. Después de 90 días, se descartan los registros de capacitación y las decisiones modelo. [!UICONTROL Los modelos de Automated Personalization]  (AP) y  [!UICONTROL Segmentación ] automática también conservan datos acumulados de conversión y de impresión a nivel de experiencia/oferta para la generación de informes durante dos años. Estos datos son solo datos agregados y no contienen datos de perfil de nivel individual.
 
 ## ¿Cómo se cuentan las métricas Nuevos visitantes y Visitantes que regresan? {#methodology}
 
@@ -26,15 +31,15 @@ La siguiente información explica con más detalle cómo se cuentan los nuevos v
 
 ### Visitantes nuevos
 
-Un visitante se incluye en el segmento Nuevos visitantes si se cumple una de las siguientes condiciones:
+Los visitantes se incluyen en el segmento Nuevos visitantes si se cumple una de las siguientes condiciones:
 
 * Es la primera vez que el visitante visita el sitio.
 * Es la primera vez que el visitante visita el sitio desde que se borraron las cookies.
-* Es la primera vez que el visitante visita el sitio desde que caducó la duración del perfil del [visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
+* Es la primera vez que el visitante visita el sitio desde que finalizó la [vida útil del perfil del visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
 
 ### Visitantes que regresan
 
-El visitante se incluye en el segmento Visitantes que regresan si el usuario ha visitado el sitio anteriormente, lo ha abandonado durante 30 minutos como mínimo y ha vuelto al sitio con las mismas cookies. Siempre y cuando un visitante regrese dentro de su duración de perfil, este visitante será un visitante reincidente.
+Los visitantes se incluyen en el segmento Visitante que regresa si el usuario ha visitado anteriormente el sitio, si lo ha abandonado durante un mínimo de 30 minutos y si ha vuelto con las mismas cookies. Siempre que un visitante regrese antes de que finalice la vida útil del perfil, este se considerará como visitante que regresa.
 
 Supongamos que la duración de su perfil se establece para 14 días (valor predeterminado). Un visitante se incluye en el segmento Visitantes que regresan si se cumplen las siguientes condiciones:
 
@@ -66,14 +71,14 @@ Algunos visitantes llegan a la métrica de conversión, que se configuró como &
 
 Las actividades XT siempre deben tener una experiencia de control. Si utiliza una actividad XT de manera similar a una actividad de [!UICONTROL prueba A/B], que es algo bastante común, los datos de experiencia de control le serán útiles. Puede ignorar los datos de experiencia de control si no los considera útiles en sus informes.
 
-## ¿Por qué el número de visitas es menor en [!DNL Target] que en otras soluciones de [!DNL Adobe Experience Cloud]?{#section_7E626FDB417E41B8B58BBF30FB207409}
+## ¿Por qué el número de visitas es menor en [!DNL Target] que en otras soluciones de [!DNL Adobe Experience Cloud]? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 Los números de las métricas que recoge [!DNL Target] , como las visitas, siempre son inferiores a los números recogidos en otras soluciones [!DNL Experience Cloud] por varios motivos:
 
 * [!DNL Target] solo cuenta las visitas de las personas que cumplen los requisitos de la actividad. Otras soluciones cuentan las visitas de las personas que muestran la página sea cual sea la actividad que los trajo a la página.
 * Pueden darse casos en que distintas actividades compitan por la misma ubicación (que se excluyan mutuamente). Como resultado, los visitantes ven contenido distinto en una página web, lo cual afecta a los números de las métricas que [!DNL Target] recaba.
 
-## ¿Por qué no hay datos disponibles en el informe de mi actividad?{#section_E4722F6445884130951DF79981C8289B}
+## ¿Por qué no hay datos disponibles en el informe de mi actividad? {#section_E4722F6445884130951DF79981C8289B}
 
 Si el contenido de una actividad se entregó correctamente a los usuarios, pero el informe no contiene datos, compruebe si el entorno ([grupo de hosts](/help/administrating-target/hosts.md)) correcto está seleccionado en la configuración del informe.
 
