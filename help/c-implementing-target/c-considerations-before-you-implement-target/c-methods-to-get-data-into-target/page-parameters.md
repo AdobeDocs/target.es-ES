@@ -5,8 +5,7 @@ title: ¿Cómo puedo obtener datos en  [!DNL Target] mediante parámetros de pá
 feature: Implementación
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 46%
@@ -48,7 +47,7 @@ Los datos se envían a Target en tiempo real y se pueden utilizar en la misma ll
 
    Además de los caracteres mencionados en el sitio IETF, Target permite los siguientes caracteres en cadenas de consulta:
 
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
+   ```< > # % " { } | \ ^ [ ] ` ```
 
    Todo lo demás debe tener codificación URL. El estándar especifica el siguiente formato ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), como se ilustra a continuación:
 
