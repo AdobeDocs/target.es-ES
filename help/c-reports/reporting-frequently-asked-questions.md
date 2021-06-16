@@ -4,22 +4,16 @@ description: Explore una lista de las preguntas más frecuentes y las respuestas
 title: ¿Dónde puedo encontrar respuestas a preguntas sobre los informes [!DNL Target] ?
 feature: Informes
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 30%
+source-wordcount: '1219'
+ht-degree: 33%
 
 ---
 
 # Preguntas más frecuentes sobre la creación de informes
 
 Lista de las preguntas más frecuentes sobre los informes en [!DNL Adobe Target].
-
-## ¿Durante cuánto tiempo persisten los datos de los modelos [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática]?
-
-[!UICONTROL Los modelos de Automated Personalization]  (AP) y  [!UICONTROL Segmentación ] automática han recibido formación sobre los últimos 45 días de comportamiento del usuario (perfiles de usuario, eventos de impresión y eventos de conversión) en la actividad.
-
-[!UICONTROL Los modelos Automated Personalization]  (AP) y  [!UICONTROL Segmentación ] automática conservan el comportamiento del usuario, los registros de capacitación y los datos de decisiones de modelo durante 90 días para producir informes de   perspectivas. Después de 90 días, se descartan los registros de capacitación y las decisiones modelo. [!UICONTROL Los modelos de Automated Personalization]  (AP) y  [!UICONTROL Segmentación ] automática también conservan datos acumulados de conversión y de impresión a nivel de experiencia/oferta para la generación de informes durante dos años. Estos datos son solo datos agregados y no contienen datos de perfil de nivel individual.
 
 ## ¿Cómo se cuentan las métricas Nuevos visitantes y Visitantes que regresan? {#methodology}
 
