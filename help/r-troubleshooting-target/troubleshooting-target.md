@@ -4,10 +4,9 @@ description: Vea una lista de temas útiles para resolver problemas de Adobe Tar
 title: ¿Cómo puedo solucionar problemas de Target?
 feature: Resolución de problemas
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: ht
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
-workflow-type: ht
-source-wordcount: '452'
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -38,12 +37,14 @@ Las secciones siguientes contienen información sobre la resolución de problema
 ### Segmentación automática
 
 * [Solución de problemas y preguntas más frecuentes sobre la segmentación automática](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Informes de Perspectivas de personalización](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization (AP)
 
-* [Preguntas más frecuentes sobre Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Preguntas más frecuentes sobre Personalización automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Resolución de problemas de Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [Informes Resumen de Automated Personalization](/help/c-reports/reports-ap.md)
+* [Informes Resumen de Personalización automatizada](/help/c-reports/reports-ap.md)
+* [Informes de Perspectivas de personalización](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Prueba multivariable (MVT)
 
@@ -116,7 +117,7 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 * [Preguntas frecuentes sobre mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
 
-### at.js
+### at.js 
 
 * [Preguntas frecuentes sobre at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [Depurar at.js mediante Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
@@ -148,7 +149,7 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 ## Optimización del motor de búsqueda (SEO)
 
-* [Pruebas sencillas para la optimización del motor de búsqueda (SEO)](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Pruebas sencillas para la optimización del motor de búsqueda (SEO) ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
 ## Estado del sistema
 
@@ -156,13 +157,13 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 ## Segmentación
 
-* [Ubicación geográfica](/help/c-target/c-audiences/c-target-rules/geo.md)
+* [Geografía ](/help/c-target/c-audiences/c-target-rules/geo.md)
 
 ## Usuarios
 
 * [Resolución de problemas de la administración de usuarios](/help/administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
 
-## Compositor de experiencias visuales (VEC)
+## Compositor de experiencias visuales (VEC) 
 
 * [Preguntas más frecuentes sobre la optimización y personalización de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Resolución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
