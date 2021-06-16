@@ -4,11 +4,10 @@ description: 'Aprenda a utilizar los informes especializados para las actividade
 title: ¿Cómo utilizo los informes de Perspectivas de personalización?
 feature: Informes
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 63%
+source-wordcount: '862'
+ht-degree: 53%
 
 ---
 
@@ -65,7 +64,17 @@ En los informes de [!UICONTROL Perspectivas de personalización] se representan 
 | Audiencias compartidas (Adobe Audience Manager o Adobe Analytics) | Audiencias creadas a través de Adobe Audience Manager o Adobe Analytics y compartidas con Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Audiencias/segmentos de informes de actividad | Audiencias definidas en su actividad de AP o Segmentación automática durante la configuración en “Objetivos y métricas”. | `Custom - Reporting Segment - [segment name]` |
 
-## Vídeo de formación: Uso de los informes de Perspectivas de personalización  ![Distintivo del tutorial](/help/assets/tutorial.png)
+## Preguntas frecuentes
+
+Lista de las preguntas más frecuentes sobre los informes de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] [!UICONTROL Perspectivas].
+
+### ¿Durante cuánto tiempo persisten los datos de los modelos [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática]?
+
+[!UICONTROL Los modelos de Automated Personalization]  (AP) y  [!UICONTROL Segmentación ] automática han recibido formación sobre los últimos 45 días de comportamiento del usuario (perfiles de usuario, eventos de impresión y eventos de conversión) en la actividad.
+
+[!UICONTROL Los modelos Automated Personalization]  (AP) y  [!UICONTROL Segmentación ] automática conservan el comportamiento del usuario, los registros de capacitación y los datos de decisiones de modelo durante 90 días para producir informes de   perspectivas. Después de 90 días, se descartan los registros de capacitación y las decisiones modelo. [!UICONTROL Los modelos de Automated Personalization]  (AP) y  [!UICONTROL Segmentación ] automática también conservan datos acumulados de conversión y de impresión a nivel de experiencia/oferta para la generación de informes durante dos años. Estos datos son solo datos agregados y no contienen datos de perfil de nivel individual.
+
+## Vídeo de formación: Uso de los informes de Perspectivas de personalización ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
