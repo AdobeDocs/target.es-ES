@@ -2,12 +2,11 @@
 keywords: fuente de recomendaciones;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
 description: Descubra cómo las fuentes importan entidades en Adobe [!DNL Target] Recommendations mediante archivos CSV, el formato de fuente de Búsqueda de productos de Google y las clasificaciones de productos de Analytics.
 title: ¿Cómo utilizo las fuentes en [!DNL Target] Recommendations?
-feature: Recommendations
+feature: Recomendaciones
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 062a47e2dd76fe6dc87a71ad7b17355d57d769dd
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 84%
 
 ---
@@ -207,7 +206,7 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Clasificaciones de productos Analytics    {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Clasificaciones de productos Analytics   {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 La clasificación de productos Analytics es la única clasificación disponible para Recommendations. Para obtener más información sobre este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía de usuario.
 
@@ -221,7 +220,7 @@ La clasificación de productos Analytics es la única clasificación disponible 
 >* [!DNL Target] solo admite clasificaciones de productos. El SKU del producto de Analytics debe asignarse al mismo nivel que el [!DNL Recommendations] `entity.id`. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
 
 
-## Crear fuente    {#steps}
+## Crear fuente   {#steps}
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
@@ -236,7 +235,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
    * Fuente de productos de Google
    * Clasificaciones de Analytics
 
-   Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). También puede [descargar una guía de CSV modelo](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
+   Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). También puede [descargar una guía de CSV modelo](/help/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
 
 1. (Condicional) Si ha seleccionado **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
 
@@ -284,7 +283,7 @@ Mientras la indización está en curso, se muestran los encabezados de la fuente
 
 Cuando el estado indica “Correcto”, significa que el archivo se ha encontrado y se ha analizado correctamente. La información no está disponible para su uso en [!DNL Recommendations] hasta que se indexa el archivo. La tarea de indexación puede tardar bastante, en función del tamaño del archivo. Si se produce un error en el proceso, se debe a que no se encontró el archivo (por ejemplo, utilizó una dirección URL incorrecta o unos datos de FTP incorrectos) o que se produjo un error de análisis.
 
-## Estados e indicadores de alimentación    {#concept_E475986720D1400999868B3DFD14A7A0}
+## Estados e indicadores de alimentación   {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Información sobre los posibles estados de alimentación y sus indicadores.
 
@@ -311,7 +310,7 @@ Para actualizar una fuente (por ejemplo, si quiere hacer cambios en la configura
 >
 >Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un elemento no está incluido en un archivo de fuente (u otro método de actualización de entidad) al menos una vez cada 60 días, [!DNL Adobe Target] deduce que el elemento ya no es relevante y lo elimina del catálogo.
 
-### Indicadores de estado de fuente    {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Indicadores de estado de fuente   {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
 En la columna [!UICONTROL Estado] se muestran los siguientes indicadores de estado de fuente:
 
@@ -351,7 +350,7 @@ Este vídeo contiene la información siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creación de una fuente (6:44)  ![Distintivo del tutorial](/help/assets/tutorial.png)
+### Creación de una fuente (6:44) ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
