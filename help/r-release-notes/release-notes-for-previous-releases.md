@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Notas de la versión
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
-source-wordcount: '31074'
+source-wordcount: '31050'
 ht-degree: 99%
 
 ---
@@ -2514,7 +2514,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
       <li id="li_C47240826E5844D6843314F453F042FC">La navegación se ha movido de la izquierda a la zona superior. </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">Se han mejorado los cuadros de diálogo. </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">Ha mejorado el flujo de creación de actividades. </li> 
-     </ul> </p> <p>Se ha cambiado la forma de seleccionar las soluciones de Experience Cloud, incluyendo Target. Para acceder a las soluciones y los servicios de Experience Cloud, haga clic en el icono de menú. </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Para obtener más información sobre cómo tener acceso a Target y hacer que Target sea la página predeterminada después de iniciar sesión en Experience Cloud, consulte  <a href="/help/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Acceder a Target desde Adobe Experience Cloud</a>. </p> <p>Para obtener más información sobre las mejoras en la interfaz de usuario, consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/release-notes/marketing-cloud-interface.html" format="https" scope="external">Novedades de Adobe Experience Cloud: primavera de 2016</a>. </p> </td> 
+     </ul> </p> <p>Se ha cambiado la forma de seleccionar las soluciones de Experience Cloud, incluyendo Target. Para acceder a las soluciones y los servicios de Experience Cloud, haga clic en el icono de menú. </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Para obtener más información sobre cómo tener acceso a Target y hacer que Target sea la página predeterminada después de iniciar sesión en Experience Cloud, consulte  <a href="/help/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Acceder a Target desde Adobe Experience Cloud</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Las reglas de inclusión se pueden deshabilitar para recomendaciones de copia de seguridad </td> 
