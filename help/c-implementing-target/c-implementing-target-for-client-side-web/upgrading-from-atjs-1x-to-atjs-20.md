@@ -2,11 +2,10 @@
 keywords: lanzamientios de at.js;versiones de at.js;aplicación de una sola página;spa;dominio cruzado;cross-domain
 description: Obtenga información sobre cómo actualizar desde Adobe [!DNL Target] at.js 1.x a at.js 2.x. Examine los diagramas de flujo del sistema, conozca las funciones nuevas y obsoletas, y mucho más.
 title: ¿Cómo actualizo de la versión 1.x de at.js a la versión 2.x?
-feature: 'at.js. '
+feature: 'at.js '
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
 workflow-type: tm+mt
 source-wordcount: '2765'
 ht-degree: 92%
@@ -337,7 +336,7 @@ Los siguientes parámetros de at.js 1.x son *NOT* compatibles actualmente con la
 
 Las tablas siguientes explican la 2.*compatibilidad con x* con diferentes tipos de actividades, integraciones, características y funciones de at.js.
 
-### Tipos de actividades.   {#types}
+### Tipos de actividades {#types}
 
 | Tipo | Compatible? |
 | --- | --- |
@@ -391,7 +390,7 @@ Las tablas siguientes explican la 2.*compatibilidad con x* con diferentes tipos 
 | `?mboxDisable` | Sí |
 | `?mboxTrace` | Sí |
 | `?mboxSession` | No |
-| `?mboxOverride.browserIp` | No |
+| `?mboxOverride.browserIp` | Sí |
 
 ## Tokens de respuesta {#response-tokens}
 
