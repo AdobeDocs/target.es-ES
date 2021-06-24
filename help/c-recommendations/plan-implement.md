@@ -2,12 +2,11 @@
 keywords: Recommendations;configuración;preferencias;sector;filtro de criterios incompatibles;grupo de hosts predeterminado;URL de base en miniatura;token de api de recomendaciones
 description: 'Obtenga información sobre cómo implementar actividades de Recommendations en Adobe Target. Asegúrese de que la implementación cumpla los requisitos previos necesarios. '
 title: ¿Cómo Implemento Las Actividades De Recommendations?
-feature: Recommendations
+feature: Recomendaciones
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1551'
 ht-degree: 94%
 
 ---
@@ -24,7 +23,7 @@ Lo que debe saber antes de crear una actividad de [!DNL Recommendations].
 
 | Paso | Información | Detalles |
 |--- |--- |--- |
-| ![Paso 1](/help/c-recommendations/assets/step1_red.png) | Biblioteca de JavaScript | Cada página requiere una referencia a las versiones 0.9.1 (o posterior) de at.js o 55 (o posterior) de mbox.js. Este paso de implementación es necesario en todas las páginas donde se usará una actividad de Target y puede incluir claves como un ID de producto o categoría.<BR>Para obtener más información sobre at.js, consulte [Implementación de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Para obtener más información sobre mbox.js, consulte [Implementación de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
+| ![Paso 1](/help/c-recommendations/assets/step1_red.png) | Biblioteca de JavaScript | Cada página requiere una referencia a las versiones 0.9.1 (o posterior) de at.js o 55 (o posterior) de mbox.js. Este paso de implementación es necesario en todas las páginas donde se usará una actividad de [!DNL Target], y puede incluir claves como un ID de producto o categoría. |
 | ![Paso 2](/help/c-recommendations/assets/step2_red.png) | Claves | La clave determina el tipo de producto o contenido que se muestra en las recomendaciones. Por ejemplo, la clave podría ser una categoría de producto. Consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 | ![Paso 3](/help/c-recommendations/assets/step3_red.png) | Atributos | Los atributos proporcionan información más específica sobre los productos que quiere mostrar. Por ejemplo, es posible que quiera mostrar productos dentro de un determinado rango de precios o artículos cuyo inventario se ajuste a un determinado umbral. Los atributos se pueden proporcionar en el mbox o a través de una  [fuente](/help/c-recommendations/c-products/feeds.md).<br>Consulte  [Especificar reglas de inclusión](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). |
 | ![Paso 4](/help/c-recommendations/assets/step4_red.png) | Exclusiones | Las exclusiones determinan qué artículos concretos no aparecen en las recomendaciones.<br>Consulte [Exclusiones](/help/c-recommendations/c-products/exclusions.md). |
@@ -45,7 +44,7 @@ Existen dos métodos para proporcionar información sobre productos y servicios 
 
 Estos métodos se pueden usar juntos o separados, como en los ejemplos siguientes.
 
-## Ejemplo 1: Combinar páginas y fuentes.   {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
+## Ejemplo 1: Combinar páginas y fuentes.  {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
 
 Una opción de implementación común de [!DNL Recommendations] usa tanto fuentes como parámetros de página.
 
@@ -81,7 +80,7 @@ Una vez la fuente esté configurada y pasada a [!DNL Recommendations], pase par�
 
 Se da prioridad a cualquier conjunto de datos ejecutado más recientemente. Si primero pasa la fuente y luego actualiza los parámetros de la página, los cambios que se hagan en estos se mostrarán y reemplazarán la información del artículo que se pasó en la fuente.
 
-## Ejemplo 2: Pasar todos los parámetros en la página de detalles del producto (o contenido) {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
+## Ejemplo 2: Pasar todos los parámetros en la página de detalles del producto (o contenido)  {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
 
 Si pasa todos los parámetros de la página, podrá hacer actualizaciones rápidamente cuando actualice la página. En algunas organizaciones, para hacer esto es necesario recurrir al personal de TI o al equipo de diseño web.
 
@@ -93,7 +92,7 @@ Este ejemplo puede resultar especialmente útil para una compañía de contenido
    * `entity.categoryId`
    * Resto de atributos
 
-## Código de ejemplo.   {#section_6E8A73376F30468BB549F337C4C220B1}
+## Código de ejemplo.  {#section_6E8A73376F30468BB549F337C4C220B1}
 
 Por ejemplo, puede usar el código siguiente en la sección de encabezado de sus páginas de producto o contenido.
 
@@ -138,15 +137,9 @@ Todas las páginas que contienen recomendaciones requieren una referencia de [!D
 
 Esta implementación requiere:
 
-* [!DNL at.js] versión 0.9.2 (o posterior) o [!DNL mbox.js] versión 55 (o posterior).
-
-* [!DNL mbox.js] debe incluir la referencia a [!DNL target.js] ([!DNL at.js] no requiere una referencia a [!DNL target.js]).
+* [!DNL at.js] versión 0.9.2 (o posterior)
 
 Para obtener más información sobre la implementación de [!DNL at.js], consulte [Implementación de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
-
-Para obtener más información sobre la implementación [!DNL mbox.js], consulte [Implementación de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
-
-Si desea más información sobre las diferencias entre las dos bibliotecas de Target JavaScript, consulte [Ventajas de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Página de categoría {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
@@ -179,7 +172,7 @@ function targetPageParams() {
 }
 ```
 
-## Página del carro de compras   {#section_D37E48700F074556B925D0CA0291405E}
+## Página del carro de compras  {#section_D37E48700F074556B925D0CA0291405E}
 
 En una página de carro de compras, es probable que quiera excluir algunos artículos de las recomendaciones, como aquellos artículos que ya están dentro del carro de la compra.
 
@@ -193,12 +186,11 @@ function targetPageParams() {
 </script>
 ```
 
-## Página de agradecimiento.   {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+## Página de agradecimiento.  {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
 
 En la página de agradecimiento, puede interesarle mostrar el total del pedido y el ID del pedido, y mostrar los productos que se han comprado, sin recomendar otros artículos. Puede implementar un segundo mbox para capturar la información del pedido.
 
 * Si está usando at.js, consulte  [Seguimiento de conversiones](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* Si utiliza mbox.js, consulte [Creación de una confirmación de pedido mbox: mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Configuración {#concept_C1E1E2351413468692D6C21145EF0B84}
 
