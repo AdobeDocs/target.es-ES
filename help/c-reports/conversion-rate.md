@@ -4,11 +4,10 @@ description: Descubra cómo Adobe [!DNL Target] muestra y calcula la tasa de con
 title: ¿Cómo puedo ver la tasa de conversión, el alza y el nivel de confianza?
 feature: Informes
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -46,7 +45,7 @@ Alza = (tasa de conversión de la experiencia - tasa de conversión de control):
 
 Si el control es 0, no existe alza de porcentaje.
 
-## Confianza (relevancia estadística)    {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Confianza (relevancia estadística)   {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 Este número indica la probabilidad de que los resultados se dupliquen si la prueba se realiza de nuevo. La confianza se redondea al 100,00 % cuando la confianza es superior o igual al 99,995 %.
 
@@ -54,7 +53,7 @@ Consulte [Nivel de confianza e intervalo de confianza](/help/c-reports/conversio
 
 ## Datos comerciales {#section_30A674731BA6440E9BB93C421BE990EE}
 
-Si ha insertado un mbox [Realizar pedido](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) y lo ha seleccionado como mbox de conversión, se muestran los datos de AOV (valor de pedido promedio), RPV (ingresos por visitante) y ventas de cada experiencia.
+Si ha insertado un mbox Realizar pedido (`orderConfirmPage`) y lo ha seleccionado como mbox de conversión, se muestran los datos de AOV, RPV y ventas de cada experiencia.
 
 ## Nivel de confianza e intervalo de confianza {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -102,7 +101,7 @@ El *intervalo de confianza* es un intervalo en el que se puede encontrar el valo
 * **Tamaño de la muestra:** A medida que la muestra crece, el intervalo se reduce. Esto es recomendable, ya que pone de manifiesto que los informes se aproximan al valor real de la métrica de éxito.
 * **Desviación estándar menor:** Más resultados similares, como AOV similares o la conversión de números o visitantes similares cada día, reducen la desviación estándar.
 
-## El cálculo de confianza y cómo realizarlo sin conexión    {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## El cálculo de confianza y cómo realizarlo sin conexión   {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 El [informe CSV descargado](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) solo contiene datos sin procesar; no incluye métricas calculadas, como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B.
 
