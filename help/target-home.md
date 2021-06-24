@@ -1,13 +1,13 @@
 ---
 keywords: Target;inicio;temas populares;adobe target;standard;premium;documentación de target;documentación de adobe target
 title: ¿Dónde puedo encontrar la documentación de  [!DNL Target] ?
-description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
+description: Aprenda a utilizar Adobe [!DNL Target] para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Información general
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 16 de junio de 2021 (  [Vea los cambios](r-release-notes/doc-change.md) )**
+**Última actualización: 16 de junio de 2021 ([vea los cambios](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -31,12 +31,12 @@ Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados 
 
 - [Todos los usuarios de Target](#all)
 - [Especialistas en marketing](#marketers)
-- [Desarrolladores ](#developers)
+- [Desarrolladores](#developers)
 - [Administradores de Target y Adobe Experience Cloud](#admins)
-- [Analistas ](#analysts)
-- [Ingenieros de control de calidad ](#qa)
+- [Analistas](#analysts)
+- [Ingenieros de control de calidad](#qa)
 
-## Todos los usuarios de [!DNL Target]  {#all}
+## Todos los usuarios de [!DNL Target] {#all}
 
 Especialistas en marketing, desarrolladores, administradores, analistas e ingenieros de control de calidad.
 
@@ -68,7 +68,7 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 
 - [Administración de Target](administrating-target/administrating-target.md): explica cómo agregar usuarios y configurar su cuenta de [!DNL Target].
 
-## Analistas  {#analysts}
+## Analistas {#analysts}
 
 - [Audiencias](c-target/target.md): explica cómo determinar quién ve el contenido y las experiencias en las actividades direccionadas.
 - [Informes](c-reports/reports.md): explica cómo interpretar el rendimiento de las actividades.
