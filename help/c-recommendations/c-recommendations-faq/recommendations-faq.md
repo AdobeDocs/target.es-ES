@@ -1,19 +1,19 @@
 ---
 keywords: solución de problemas;preguntas más frecuentes;FAQ;recomendaciones;caracteres especiales;ponderación de atributos;similitud de contenido
-description: Consulte la lista preguntas frecuentes y sus respuestas acerca de las actividades de Recommendations de Adobe  [!DNL Target] .
+description: Consulte la lista preguntas frecuentes y sus respuestas acerca de las actividades de Recommendations de Adobe [!DNL Target] .
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de Recommendations de  [!DNL Target] ?
 feature: Recomendaciones
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Preguntas más frecuentes sobre Recommendations
 
-Lista de las preguntas frecuentes (FAQ) acerca de actividades de [!DNL Recommendations] de [!DNL Adobe Target] 
+Lista de las preguntas frecuentes (FAQ) acerca de actividades de [!DNL Recommendations] de [!DNL Adobe Target]
 
 ## ¿Por qué [!UICONTROL la búsqueda en el catálogo] no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
 
@@ -71,7 +71,7 @@ Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritm
 
 El comportamiento de los usuarios en conjunto se incorpora al procesamiento de algoritmos sin conexión, con cada algoritmo ejecutado cada 12 a 24 horas.
 
-## ¿Qué debo hacer si hay caracteres especiales que rompen la matriz?  {#section_D27214116EE443638A60887C7D1C534E}
+## ¿Qué debo hacer si hay caracteres especiales que rompen la matriz? {#section_D27214116EE443638A60887C7D1C534E}
 
 Utilice valores escapados en JavaScript. Las comillas ( &quot; ) pueden romper la matriz. El siguiente fragmento de código es un ejemplo de valores escapados:
 
@@ -86,7 +86,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## ¿Por qué no están disponibles para su selección todos los criterios, incluidos los personalizados, al crear una actividad de Recommendations?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## ¿Por qué no están disponibles para su selección todos los criterios, incluidos los personalizados, al crear una actividad de Recommendations? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Los criterios disponibles dependen de la categoría actual. Cuando crea ofertas de recomendaciones, el selector de algoritmo muestra criterios basados en el ID de la categoría.
 
@@ -119,7 +119,7 @@ La siguiente lista contiene casos especiales en los que [!DNL Target] no muestra
 * No se activa ninguna llamada a mbox desde la página (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Los parámetros de [!DNL Target] no están definidos.
 
-## ¿Qué debería hacer si una colección en Recommendations resulta en cero (0)?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## ¿Qué debería hacer si una colección en Recommendations resulta en cero (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Tenga en cuenta la siguiente información si ve que una colección que era distinta de cero resulta en cero:
 
@@ -133,7 +133,7 @@ Tenga en cuenta la siguiente información si ve que una colección que era disti
 * ¿Se ejecutó correctamente la fuente? ¿Ha cambiado alguien el directorio FTP, la contraseña, etc.?
 * [!DNL Target] intenta que las actualizaciones del envío (en la página/aplicación del cliente) se produzcan lo más rápido posible. No obstante, [!DNL Target] también debe proporcionar determinada representación en la IU para el experto en marketing. [!DNL Target] no retrasa las actualizaciones de entrega hasta que las actualizaciones de la IU se sincronizan con ellas. Puede utilizar [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) para comprobar el contenido del sistema en el momento de recibirse una solicitud.
 
-## ¿Cuál es la diferencia entre la ponderación de atributos general y la específica para similitud de contenido?  {#section_FCD96598CBB44B16A4C6C084649928FF}
+## ¿Cuál es la diferencia entre la ponderación de atributos general y la específica para similitud de contenido? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
 Existen dos formas de ponderación de atributos: la “ponderación de atributos estándar” y la “ponderación de atributos de similitud de contenido”.
 
@@ -147,7 +147,7 @@ Este tipo de ponderación es más dinámico y se basa en la “clave de recomend
 
 ![](assets/content_similarity_example.png)
 
-## ¿Por qué, a veces, [!DNL Target] no puede mostrar recomendaciones?  {#section_DB3F40673AED42228E407C05437D99E9}
+## ¿Por qué, a veces, [!DNL Target] no puede mostrar recomendaciones? {#section_DB3F40673AED42228E407C05437D99E9}
 
 [!DNL Target] a veces no puede mostrar recomendaciones debido al bajo número de recomendaciones disponibles.
 
@@ -164,13 +164,13 @@ Puede usar el siguiente JavaScript al comienzo del diseño para incrementar el n
 #end 
 ```
 
-## ¿Cuál es el límite de tamaño de una llamada API para insertar/actualizar productos? ¿Puedo actualizar 50 000 productos en una llamada usando la API en vez de una fuente?  {#section_434FE1F187B7436AA39B7C14C7895168}
+## ¿Cuál es el límite de tamaño de una llamada API para insertar/actualizar productos? ¿Puedo actualizar 50 000 productos en una llamada usando la API en vez de una fuente? {#section_434FE1F187B7436AA39B7C14C7895168}
 
 [!DNL Target] impone a las publicaciones un límite de 50 MB en el nivel de aplicación. Sin embargo, eso ocurre solamente cuando pasa el encabezado de tipo de contenido `application/x-www-form-urlencoded`.
 
 Bien podría probar enviar 50 000 productos en una sola llamada. Si da error, debería dividir ese número en lotes. Adobe suele recomendar que los clientes dividan sus llamadas en lotes de 5000 o 10 000 productos para reducir la probabilidad de tiempo de espera agotado debido a la carga del sistema.
 
-## ¿Es necesario especificar el nombre del mbox al crear en criterios, promociones o reglas de prueba de plantillas de Recommendations?  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## ¿Es necesario especificar el nombre del mbox al crear en criterios, promociones o reglas de prueba de plantillas de Recommendations? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Cuando se crean criterios, promociones o reglas de prueba de plantilla basadas en un parámetro de mbox de Recommendations, `mboxParameter` ya no le solicita `mboxName`. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro.
 
@@ -183,13 +183,13 @@ Con ninguno de estos métodos existe vínculo entre el mbox y el parámetro. Los
 
 Si edita un criterio, promoción o regla de prueba de plantilla existente, el criterio de filtrado se muestra con el nombre de mbox que se suministró durante la creación.
 
-## ¿Por qué no puedo guardar la actividad de Recommendations heredada después de definir una nueva audiencia?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## ¿Por qué no puedo guardar la actividad de Recommendations heredada después de definir una nueva audiencia? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Asegúrese de que la audiencia tiene un nombre único. Si le dio a la audiencia el mismo nombre que una audiencia existente, no puede guardar su actividad de Recommendations heredada (una actividad de Recommendations creada antes de octubre de 2016).
 
-## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente?  {#section_20F1AF4839A447B9889B246D6E873538}
+## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente? {#section_20F1AF4839A447B9889B246D6E873538}
 
-No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, Adobe recomienda limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la [[!DNL Target]  página Limitaciones de ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, Adobe recomienda limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la página Limitaciones de [[!DNL Target] ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## ¿Puedo excluir dinámicamente una entidad? {#exclude}
 
@@ -227,7 +227,7 @@ NO_CONTENT se devuelve cuando las recomendaciones no están disponibles para la 
 
    Esta situación suele ocurrir cuando se tiene una regla de inclusión dinámica, que filtra de forma agresiva muchos elementos de los posibles resultados. Para evitar situaciones, habilite las copias de seguridad y no aplique la regla de inclusión a las copias de seguridad, o utilice los criterios en secuencia con criterios filtrados de manera menos agresiva.
 
-## ¿Persisten las recomendaciones basadas en artículos vistos recientemente en varios dispositivos de un único visitante? {#persist-across-devices}
+## ¿Persisten las recomendaciones basadas en artículos vistos recientemente en varios dispositivos para un único visitante? {#persist-across-devices}
 
 Cuando un visitante inicia una sesión, el ID de sesión está vinculado a un solo equipo Edge y se almacena una caché de perfiles temporal en este equipo Edge. Las solicitudes posteriores de la misma sesión leen esta caché de perfil, incluidos los artículos vistos recientemente.
 
@@ -243,6 +243,6 @@ Si el visitante no tiene dos sesiones activas a la vez, los artículos vistos re
 
 ## ¿Puedo usar un algoritmo creado en [!DNL Adobe Recommendations Classic] en [!DNL Recommendations Premium]?
 
-Un algoritmo creado en [!DNL Recommendations Classic] no es compatible con [!DNL Recommendations Premium]. Puede utilizar el algoritmo preexistente en [!DNL Target Premium]; sin embargo, el algoritmo puede crear problemas de sincronización al desactivar o eliminar la actividad en la interfaz de usuario de [!DNL Target Premium]. Para obtener más información sobre las diferencias entre las dos soluciones, consulte [[!DNL Recommendations Classic] versus [!DNL Recommendations] actividades en [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Un algoritmo creado en [!DNL Recommendations Classic] no es compatible con [!DNL Recommendations Premium]. Puede utilizar el algoritmo heredado en [!DNL Target Premium]; sin embargo, el algoritmo puede crear problemas de sincronización al desactivar o eliminar la actividad en la IU de [!DNL Target Premium]. Para obtener más información acerca de las diferencias entre las dos soluciones, consulte Actividades de [[!DNL Recommendations Classic] versus [!DNL Recommendations] en [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 
