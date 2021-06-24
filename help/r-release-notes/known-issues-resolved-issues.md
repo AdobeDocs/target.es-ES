@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
 source-wordcount: '4438'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 
 [!DNL Adobe Experience Platform] los nombres de segmentos no se muestran en el informe  [!UICONTROL Atributos ] importantes para las actividades de  [!UICONTROL Automated Personalization]  (AP) y  [!UICONTROL Segmentación automática]  (AT). (TOP-3813)
 
-### El archivado de las actividades [!UICONTROL Segmentación automática] puede causar problemas de sincronización
+### El archivado de las actividades de [!UICONTROL Segmentación automática] puede causar problemas de sincronización
 
-Si se intenta archivar actividades inactivas de [!UICONTROL Segmentación automática], pueden producirse problemas de sincronización. Hasta que se solucione este problema, no archive las actividades de [!UICONTROL Segmentación automática]. Déjelos en estado [!UICONTROL Inactivo]. (TGT-40885)
+Si se intenta archivar actividades inactivas de [!UICONTROL Segmentación automática], pueden producirse problemas de sincronización. Hasta que se solucione este problema, no archive las actividades de [!UICONTROL Segmentación automática]. Déjelas en estado [!UICONTROL Inactivo]. (TGT-40885)
 
 ### Métricas de Analytics for Adobe Target (A4T) para actividades Auto-Allocate y Auto-Target
 
@@ -141,7 +141,7 @@ Los clientes no pueden realizar operaciones de CRUD en actividades de asignació
 
 El 10 de mayo de 2020, Adobe actualizó los archivos del proveedor GEO, lo que introdujo algunas incoherencias. Por ejemplo, se han añadido algunos valores que contienen comas; no obstante, los valores de las audiencias existentes no tenían coma. Este cambio no afectó a todos los servidores de entrega de Adobe. Como resultado, es posible que las audiencias que utilizan estos valores no hayan clasificado a todos los visitantes correctos entre el 10 de mayo y el 22 de julio de 2020.
 
-### Creación de informes: Datos incoherentes entre el informe descargable .csv y el informe que se muestra en la IU de [!DNL Target].  {#csv}
+### Creación de informes: Datos incoherentes entre el informe descargable .csv y el informe que se muestra en la IU de [!DNL Target]. {#csv}
 
 Los informes generados para su descarga como archivos .csv son incoherentes si la actividad utiliza más de una métrica. El informe descargable se genera solo en función de la configuración del informe y considera el mismo valor para cualquier otra métrica utilizada.
 
@@ -244,7 +244,7 @@ Cuando se descarga mbox.js por primera vez después del aprovisionamiento, el ca
 
 at.js se descargará con `global_mbox_autocreate = false` para un inquilino recién aprovisionado. Si mbox.js se descarga primero, global_mbox_autocreate se establece en “true” y at.js también se descarga con `global_mbox_autocreate = true`. (TGT-15929)
 
-### Compatibilidad con permisos de Enterprise en las API de [!DNL Target]  {#api}
+### Compatibilidad con permisos de Enterprise en las API de [!DNL Target] {#api}
 
 Es posible que las ofertas de código creadas desde la interfaz de usuario de Target en la biblioteca de ofertas se muestren en el espacio de trabajo predeterminado si se recupera la lista de ofertas mediante las API de GET. Este problema se solucionará en la primera semana de marzo de 2019. Una vez solucionado el problema, las ofertas de código se mostrarán en el espacio de trabajo apropiado cuando se extraigan de las API. Este problema *no* afecta a las ofertas creadas a partir de las API. Por ejemplo, las ofertas de código creadas a partir de las API se muestran en el espacio de trabajo en el que fueron creadas, ya sea mediante la API de GET o desde la interfaz de usuario de Target.
 
@@ -295,7 +295,7 @@ La versión v1 de las API de oferta en Adobe I/O trata todas las ofertas creadas
 
 Se ha resuelto este problema.
 
-### at.js  {#at-js-2}
+### at.js {#at-js-2}
 
 Los mboxes no se activan en los navegadores Microsoft Explorer 11 después de actualizar a at.js versión 1.0 debido a la interacción entre at.js y la API de visitante 2.2.0. Este problema afecta a la versión 0.9.6 y posteriores de at.js. (TNT-27600)
 
@@ -307,7 +307,7 @@ La búsqueda de una cadena que contiene caracteres especiales (como un espacio o
 
 Corregido en noviembre de 2018.
 
-### at.js  {#at-js-3}
+### at.js {#at-js-3}
 
 Al utilizar la versión 1.6.0 de at.js, se produce el redireccionamiento de Analytics for Target (A4T), pero sin calificación de la actividad.
 
@@ -349,7 +349,7 @@ Cuando se cambia el nombre de una audiencia de informes utilizado en una activid
 
 Este problema se corrigió en la versión 18.5.1 (22 de mayo de 2018).
 
-### at.js  {#at-js-4}
+### at.js {#at-js-4}
 
 El algoritmo para extraer el dominio de nivel superior que debería usarse al guardar cookies ha cambiado en la versión 0.9.6 de at.js. Debido a ello, no es posible guardar cookies en direcciones que utilicen IP. La mayoría de las veces, las direcciones IP se utilizan con fines de prueba, pero como solución alternativa se pueden utilizar entradas DNS, ajustar el archivo de host en un cuadro local o utilizar la función targetGlobalSettings() de at.js para insertar un fragmento de código para admitir direcciones IP.
 
@@ -390,7 +390,7 @@ El primer problema se corrigió en la versión de Target 17.3.1 (marzo de 2017).
 
 El segundo problema se corrigió en la versión de Target 17.6.1 (junio de 2017).
 
-### at.js  {#at-js-5}
+### at.js {#at-js-5}
 
 Desde la publicación de Target 17.4.1 (27 de abril de 2017), el uso de la acción Insertar imagen en el Compositor de experiencias visuales (VEC) provoca que el contenido de la oferta no se envíe al usar la biblioteca at.js.
 
@@ -410,7 +410,7 @@ El envío y la vista previa se vieron afectados para las ofertas de actividades 
 
 Este problema se corrigió en la versión 17.4.3 de Target.
 
-### at.js  {#at-js-6}
+### at.js {#at-js-6}
 
 Las siguientes acciones provocaban que la oferta no se enviara al utilizar el Compositor de experiencias visuales (VEC) y at.js: Mover y Reorganizar.
 
@@ -434,7 +434,7 @@ Para los criterios visualizados recientemente, las reglas dinámicas basadas en 
 
 Este problema se ha corregido después de la publicación de Recommendations (22 de marzo de 2018). Después de la publicación de Recommendations, Target omite las reglas dinámicas basadas en entidad si entity.id no se pasa en la solicitud de mbox.
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 Cuando los usuarios intentan descargar at.js desde la página de detalles de Implementaciones después de actualizar la configuración de at.js, se descarga mbox.js en lugar de at.js. (TGT-23069)
 
