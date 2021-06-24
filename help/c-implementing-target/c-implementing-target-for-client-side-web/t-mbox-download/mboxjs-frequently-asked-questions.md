@@ -2,14 +2,13 @@
 keywords: preguntas frecuentes sobre mbox.js;faq;mbox.js;document.write;tt.omtrdc.net;analizador bloqueado
 description: Obtenga información sobre la implementación de mbox.js heredada de Adobe Target. Migrar al SDK web de Adobe Experience Platform (SDK web de AEP) o a la versión más reciente de at.js.
 title: ¿Cuáles son las preguntas más frecuentes sobre [!DNL Target] mbox.js?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 71%
+source-wordcount: '329'
+ht-degree: 75%
 
 ---
 
@@ -19,21 +18,11 @@ Respuestas a las preguntas más frecuentes sobre mbox.js.
 
 >[!IMPORTANT]
 >
->**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021,  [!DNL Adobe Target] no es compatible con la biblioteca mbox.js . Después del 31 de marzo de 2021, todas las llamadas realizadas desde mbox.js producirán errores y afectarán a las páginas que tengan actividades [!DNL Target] ejecutándose al servir contenido predeterminado.
+>**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021, [!DNL Adobe Target] no es compatible con la biblioteca mbox.js. Después del 31 de marzo de 2021, todas las llamadas que se realicen desde mbox.js producirán errores y afectarán a las páginas que tengan actividades de [!DNL Target] en ejecución para las que se mostrará contenido predeterminado.
 >
->Recomendamos que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: implementar Target para la web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Recomendamos que todos los clientes migren a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js antes de esta fecha para evitar cualquier problema potencial con sus sitios. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## ¿Cuál es el impacto de mbox.js en el tiempo de carga de las páginas?{#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-Para obtener más información, consulte [Ventajas de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
-
-## ¿Por qué recibo mensajes de advertencia de “Analizador bloqueado” en Google Chrome cuando uso mbox.js y document.write?{#section_355A3A5BF02F42EEB8271C96EF41590A}
-
-Este mensaje de la consola aparece cuando utiliza Chrome en diferentes casos en los que se está usando la función `document.write` en el archivo mbox.js. Este es un mensaje de advertencia y no debe afectar a su proceso de configuración de la actividad.
-
-La mejor manera de evitar esta situación es  [migrar su implementación de Target a la biblioteca de JavaScript de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), que no utiliza la función `document.write`. El uso de at.js ofrece más ventajas que el uso de mbox.js. Para obtener más información, consulte [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
-
-## ¿Por qué no se activan los mboxes en mis páginas web?{#section_4BA5DA424B734324AAB51E4588FA50F5}
+## ¿Por qué no se activan los mboxes en mis páginas web? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
 Los clientes de [!DNL Target] utilizan en ocasiones instancias basadas en la nube para realizar pruebas o simplemente exponer conceptos. Estos dominios, y muchos otros, son parte de la [Lista pública de sufijos](https://publicsuffix.org/list/public_suffix_list.dat).
 
@@ -43,7 +32,7 @@ Los navegadores modernos no guardan las cookies si se utilizan estos dominios, a
 
 [!DNL tt.omtrdc.net] es el nombre de dominio de la red EDGE de Adobe, que se utiliza para recibir todas las llamadas de servidor para Target.
 
-## ¿Por qué at.js y mbox.js no utilizan los indicadores de cookies HttpOnly y Secure?{#section_74527E3B41B54B0A83F217C3E664ED1F}
+## ¿Por qué at.js y mbox.js no utilizan los indicadores de cookies HttpOnly y Secure? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
 HttpOnly solo se puede establecer mediante código del servidor. Las cookies de Target, como mbox, se crean y guardan mediante código JavaScript, de modo que Target no puede utilizar el indicador de cookie HttpOnly.
 
