@@ -2,14 +2,13 @@
 keywords: Target;at.js;migrar a at.js;disposición;auditar at.js;integrar at.js
 description: Aprenda a migrar a at.js, la nueva biblioteca de implementación para Adobe [!DNL Target] diseñada tanto para implementaciones web típicas como para aplicaciones de una sola página (SPA).
 title: Cómo migrar de mbox.js a at.js
-feature: 'at.js. '
+feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 92%
+source-wordcount: '847'
+ht-degree: 91%
 
 ---
 
@@ -97,7 +96,7 @@ Siga estos pasos para migrar de [!DNL mbox.js] a [!DNL at.js] y para comprobar l
    Estas son algunas acciones que puede realizar mientras prueba para confirmar que [!DNL at.js] funciona tal como se espera:
 
    * Asegúrese de que todas las actividades actuales funcionen con la nueva biblioteca JavaScript.
-   * Confirme que todas las   Las [integraciones](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) y [complementos](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) funcionan según lo esperado.
+   * Confirme que todas las   Las [integraciones](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) y complementos funcionan según lo esperado.
    * Asegúrese de estar cómodo con la [depuración](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) de los enfoques disponibles con [!DNL at.js].
 
 **Posibles problemas al migrar a at.js** Algunos clientes han informado de los siguientes problemas después de realizar la migración a at.js:
@@ -125,4 +124,4 @@ En estos casos, los selectores de elementos podrían iniciarse con algo parecido
 
    Para obtener más información sobre cómo utilizar el editor de código para hacer esto, consulte   [Editor de código](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Como todos los mboxes ahora son asincrónicos, no bloquearán el procesamiento de páginas ni devolverán el orden en que se activaron. Para obtener más información, consulte “Consideraciones asincrónicas” en   [Limitaciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Como todos los mboxes ahora son asincrónicos, no bloquearán el procesamiento de páginas ni devolverán el orden en que se activaron.
