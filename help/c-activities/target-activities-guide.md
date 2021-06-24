@@ -5,7 +5,7 @@ title: ¿Qué tipos de actividades hay disponibles en Target?
 feature: Actividades
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
 source-git-commit: 882f656ee2f534e39ad608d06829c2bea463a029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1452'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Descargue un PDF interactivo con descripciones de los diferentes tipos de activi
 >
 >Para lograr la mejor experiencia y compartir contenido con otros usuarios, descargue el archivo [PDF Guía de actividades de Adobe Target](/help/assets/activities_guide_82817.pdf).
 
-## ¿Qué hace?  {#section_4ECAACC68723402EB3649033190E1BBC}
+## ¿Qué hace? {#section_4ECAACC68723402EB3649033190E1BBC}
 
 | Tipo de actividad | Detalles |
 |--- |--- |
@@ -30,7 +30,7 @@ Descargue un PDF interactivo con descripciones de los diferentes tipos de activi
 | ![Icono MVT](/help/c-activities/assets/icon_mvt.png)<br/>Multivariate Testing (MVT) | Compara combinaciones de ofertas entre elementos de una página para ver cuál ofrece el mejor resultado para una audiencia específica. También identifica qué elemento de la página mejora más las conversiones durante un periodo de prueba previamente establecido.  Para obtener más información, consulte [Multivariate Testing](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | ![Icono XT](/help/c-activities/assets/icon_xt.png)<br/>Segmentación de experiencias (XT) | Ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing. Para obtener más información, consulte [Segmentación de experiencias](/help/c-activities/t-experience-target/experience-target.md). |
 
-## ¿Por qué utiliza esto?  {#section_46A70DD7CE3448749E635DDF5EAFC131}
+## ¿Por qué utiliza esto? {#section_46A70DD7CE3448749E635DDF5EAFC131}
 
 | Tipo de actividad | Motivo |
 |--- |--- |
@@ -41,7 +41,7 @@ Descargue un PDF interactivo con descripciones de los diferentes tipos de activi
 | Multivariate Testing (MVT) | Un modo de mostrar múltiples ofertas en múltiples elementos y, a continuación, probar de forma concurrente las experiencias únicas resultantes con un objetivo específico, lo que ayuda a determinar qué variación de los elementos tiene más éxito. También puede revelar qué elementos tienen un impacto más positivo o más negativo en la interacción con los visitantes. |
 | Segmentación de experiencias (XT) | Simplemente es un modo de segmentar contenido específico para una audiencia específica, en función de un conjunto de reglas de asignación definidas. |
 
-## ¿Qué clase de experto en marketing usaría esto?  {#section_A843D663D3E543FFB1A594266B560395}
+## ¿Qué clase de experto en marketing usaría esto? {#section_A843D663D3E543FFB1A594266B560395}
 
 | Tipo de actividad | El experto en marketing |
 |--- |--- |
