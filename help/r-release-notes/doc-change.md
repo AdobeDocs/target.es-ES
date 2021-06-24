@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 92%
+source-wordcount: '1548'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 24 de junio | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de la versión [!DNL Target Standard/Premium] 21.6.1 (30 de junio de 2021). |
 | 16 de junio | [[!DNL Target] notas de la versión (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión 1.0.0 del SDK de Python [!DNL Adobe Target]. |
 |  | [Informes de Perspectivas de personalización](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Durante cuánto tiempo persisten los datos de los modelos [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática]?</li></ul> |
 | 8 de junio | [Antes de implementar Analytics for Target (A4T) con at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Se ha añadido una nota para indicar que at.js 1.8.0 o versiones posteriores ya no funciona con versiones de API de visitante anteriores a la 2.5.0 para pasar parámetros [!DNL Adobe Audience Manager] (AAM). |
