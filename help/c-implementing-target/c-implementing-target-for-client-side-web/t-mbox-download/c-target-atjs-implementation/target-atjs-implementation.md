@@ -2,14 +2,13 @@
 keywords: Target Standard;at.js;implementación
 description: Aprenda a migrar a at.js, la nueva biblioteca de implementación para Adobe [!DNL Target] diseñada tanto para implementaciones web típicas como para aplicaciones de una sola página (SPA).
 title: ¿Cómo puedo migrar de mbox.js a at.js?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 91%
+source-wordcount: '353'
+ht-degree: 90%
 
 ---
 
@@ -23,16 +22,7 @@ Entre otros beneficios, [!DNL at.js] mejora los tiempos de carga de página en i
 
 >[!NOTE]
 >
->Adobe Experience Manager (AEM) 6.2 con FP-11577 (o posterior) admite las implementaciones de at.js mediante su integración con los Servicios en la nube de Adobe Target. Para obtener más información, consulte [Paquetes de características](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) e [Integración con Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) en la documentación de *Adobe Experience Manager 6.2*.
-
-## Ventajas de at.js {#benefits}
-
-La tabla siguiente explica las diferencias entre las dos bibliotecas:
-
-| Referencia sobre la biblioteca | Descripción |
-|--- |--- |
-| at.js | at.js reemplaza a mbox.js para [!DNL Target]implementaciones.<br>Entre otros beneficios, at.js mejora los tiempos de carga de página en implementaciones web, mejora la seguridad, evita advertencias de document.write en Google Chrome y proporciona mejores opciones de implementación en aplicaciones de una sola página.<br>Para obtener más información, consulte [Implementación at.js](#implement). |
-| mbox.js | Antes de [!DNL Target]16.3.1 (marzo de 2016), [!DNL Target] requería una llamada a mbox.js para crear el mbox global necesario [!DNL Target] para suministrar actividades, rastrear clics y rastrear la mayoría de las métricas de éxito. Este archivo contiene las bibliotecas necesarias para todas sus actividades. No es necesario que mantenga una versión del archivo para cada actividad.<br>Si ya tiene mboxes envolventes en las páginas de una implementación anterior de [!DNL Target], podrá usarlos en la nueva interfaz. El archivo mbox.js actualizado sigue siendo necesario, pero estos mboxes pueden seleccionarse para actividades y modificarse con el Compositor de experiencias visuales.<br>[!DNL Target] Standard y Premium actualizan y complementan mbox.js con una referencia a un archivo target.js. El archivo target.js se aloja en Adobe. El archivo Target.js permite editar contenido en cualquier página con el Compositor de experiencias visuales aunque la página no contenga mboxes predefinidos. Deberá hacer referencia a este archivo en todas las páginas del sitio.<br>Para obtener más información, consulte [Implementación de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md).<br>**Importante**: La biblioteca mbox.js sigue siendo compatible, pero sus características ya no se actualizarán. Todos los clientes deberían migrar a at.js. Para obtener más información, consulte [Migrar a at.js desde mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md) |
+>Adobe Experience Manager (AEM) 6.2 con FP-11577 (o posterior) admite las implementaciones de at.js mediante su integración con los Servicios en la nube de Adobe Target. Para obtener más información, consulte [Paquetes de características](https://experienceleague.adobe.com/docs/?lang=es#experience-cloud) e [Integración con Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) en la documentación de *Adobe Experience Manager 6.2*.
 
 ## Implementar at.js {#implement}
 
