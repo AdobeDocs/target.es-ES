@@ -1,6 +1,6 @@
 ---
 keywords: anuncios;generador de habilidades;chat de desarrollador;pausa para café;eventos;forrester;gartner;seminario web
-description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Target] , incluidos sesiones acerca del Generador de habilidades, charlas con desarrolladores y gestores de productos, seminarios web y mucho más.
+description: Lea los anuncios y regístrese en los eventos de Adobe [!DNL Target] , incluidos sesiones acerca del Generador de habilidades, charlas con desarrolladores y gestores de productos, seminarios web y mucho más.
 title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Notas de la versión
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
