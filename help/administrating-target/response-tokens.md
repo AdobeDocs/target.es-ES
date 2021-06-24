@@ -5,9 +5,9 @@ title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administración y configuración
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: a63b123ed180a818de5338656781957931abd755
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1644'
 ht-degree: 27%
 
 ---
@@ -31,7 +31,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
 | SDK de Target | Acciones sugeridas |
 |--- |--- |
 | [SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Compruebe que está utilizando Platform Web SDK versión 2.6.0 o posterior. Para obtener información sobre la descarga de la última versión del SDK web de Platform, consulte [Instalar el SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en la guía *Información general del SDK web de Platform*. Para obtener información sobre las nuevas funciones de cada versión del SDK web de Platform, consulte [Notas de la versión](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) en la guía *Información general del SDK web de Platform*. |
-| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre la descarga de la versión más reciente de at.js, consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Para obtener más información sobre las funcionalidades en cada versión de at.js, consulte [Detalles de la versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Se envían algunos complementos que dependen de métodos internos y que existen en mbox.js, pero no en at.js, pero que no funcionan. Para obtener más información, consulte [Limitaciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
+| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre la descarga de la versión más reciente de at.js, consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Para obtener más información sobre las funcionalidades en cada versión de at.js, consulte [Detalles de la versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Se envían algunos complementos que dependen de métodos internos existentes en mbox.js, pero no en at.js, pero que no funcionan. |
 
 ## Uso de tokens de respuesta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
