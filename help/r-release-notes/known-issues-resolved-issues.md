@@ -4,9 +4,9 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Notas de la versión
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '4438'
+source-wordcount: '4390'
 ht-degree: 99%
 
 ---
@@ -100,7 +100,7 @@ En una actividad MVT, el ganador que se muestra en la tabla y en el gráfico no 
 A continuación, detallamos los problemas conocidos de at.js:
 
 * Si se utilizan las versiones de at.js anteriores a la 2.2.0, el rastreo de clics no informa de las conversiones en Analytics for Target (A4T) si el código de Adobe Analytics no está presente en los elementos de la página (como los botones). Se ha introducido una corrección para este problema en at.js 2.2.0. [Actualice a la última versión de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) si experimenta este problema.
-* Si crea una experiencia sin modificaciones con at.js 2.1.1 o versiones anteriores (por ejemplo, una experiencia predeterminada), es posible que la experiencia no se contabilice en informes, Analytics for Target (A4T), Adobe Analytics ni Google Analytics. Además, es posible que el [complemento](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) ttMeta no funcione correctamente.
+* Si crea una experiencia sin modificaciones con at.js 2.1.1 o versiones anteriores (por ejemplo, una experiencia predeterminada), es posible que la experiencia no se contabilice en informes, Analytics for Target (A4T), Adobe Analytics ni Google Analytics. Además, es posible que el complemento ttMeta no funcione correctamente.
 
    Como solución alternativa, utilice un espacio en blanco en el contenido de la experiencia. (TNT-33366)
 
@@ -229,12 +229,6 @@ Para obtener más información y una corrección, consulte “¿Cómo afectan la
 El informe gráfico de una actividad de segmentación automática no se puede procesar para modos “diferenciales” (Alza media y Alza diaria) si no hay datos (0 visitas) en ninguna experiencia. Esta situación puede suceder durante la etapa inicial de una actividad si la experiencia de control está definida como personalizada. Para los demás modos (Control medio de ejecución y segmentaciones, Control diario y segmentaciones y Visitas) funciona correctamente. Tan pronto como hay algunos datos (visitas que no sean cero), el informe se procesa según lo esperado.
 
 Este problema se solucionó en la versión 19.7.1 de Target.
-
-### mbox.js
-
-La biblioteca mbox.js no admite los lenguajes de plantilla en el lado del cliente, como Handlebars y Mustache. La biblioteca at.js *sí* admite estos lenguajes.
-
-**Nota**: La biblioteca mbox.js ya no está en desarrollo. Todos los clientes deberían migrar de mbox.js a at.js. Para obtener más información, consulte [Migrar a at.js desde mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Implementación: Crear mbox global automáticamente
 
