@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 * **Límite recomendado**: 10 000 acciones guardadas (y no finalizadas).
 
-## Llamadas de API de Target
+## Llamadas a API de Target
 
 * **Límite**: 50 llamadas por minuto.
 
-   Si realiza más de 50 llamadas API por minuto, [!DNL Target] devuelve un mensaje de error &quot;Estado HTTP 503&quot;.
+   Si realiza más de 50 llamadas de API por minuto, [!DNL Target] devuelve el mensaje de error Estado HTTP 503.
 
 ## Audiencias
 
