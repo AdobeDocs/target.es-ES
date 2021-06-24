@@ -4,10 +4,9 @@ description: Explore una lista de preguntas más frecuentes acerca del uso de la
 title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Información general
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '2918'
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+workflow-type: tm+mt
+source-wordcount: '2847'
 ht-degree: 100%
 
 ---
@@ -35,14 +34,6 @@ Consulte el [Foro de la comunidad de Target](/help/cmp-resources-and-contact-inf
 **¿Qué navegadores admite Target?**
 
 Lea nuestros [exploradores permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
-
-## Biblioteca JavaScript de Target (at.js y mbox.js).  {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**¿Qué archivo JavaScript de implementación debo usar, at.js o mbox.js?**
-
-at.js es nuestra última y mejor biblioteca de JavaScript. mbox.js es nuestra versión anterior. Consulte [Ventajas de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para comprender las diferencias entre las dos bibliotecas. Todos los clientes nuevos deberían utilizar at.js.
-
-Todos los clientes existentes de mbox.js deberían migrar a at.js. Obtenga más información sobre los pasos que debe seguir  [al migrar de mbox.js a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) antes de hacer la transición.
 
 ## Actividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -163,7 +154,7 @@ Utilice los controles de asignación porcentual disponibles desde el [paso 2 del
 
 Eche un vistazo a los siguientes aspectos del producto:
 
-* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T) ](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 * [Audiencias](/help/c-integrating-target-with-mac/mmp.md)
 
@@ -271,7 +262,7 @@ Utilice el poder de [las actividades basadas en formularios](/help/c-experiences
 
 Eche un vistazo a los siguientes aspectos del producto:
 
-* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T) ](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
