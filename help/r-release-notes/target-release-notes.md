@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 >
 >Para evitar posibles problemas con sus sitios, migre a la versión más reciente del nuevo [!DNL Adobe Experience Platform Web SDK] o la biblioteca de JavaScript at.js. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.5.2 (Fecha por determinar)
+## [!DNL Target Standard/Premium] 21.5.2 (fecha por determinar)
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 | Función | Detalles |
 | --- | --- |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Las siguientes mejoras se aplican a los algoritmos de popularidad [!DNL Recommendations]:<ul><li>Habrá disponible una nueva opción de seis horas de &quot;ventana retrospectiva&quot; (intervalo de datos) para todos los algoritmos de popularidad (más visitados/más vendidos) cuando [!DNL Target] sea la fuente de datos de comportamiento. (Esta ventana retrospectiva está *no* disponible cuando [!DNL Adobe Analytics] es la fuente de datos de comportamiento).</li><li>Cuando se selecciona, los siguientes algoritmos se ejecutan aproximadamente cada tres horas (en lugar de cada 12 horas).<ul><li>Más visitados</li><li>Más compradas</li><li>Más visitados por categoría</li><li>Más comprados por categoría</li><li>Más visitados por atributo personalizado (con la función groupBy)</li><li>La mayoría de las compras realizadas por el atributo personalizado (con la función groupBy)</li></ul></ul>(TOP-1086) |
+| [!DNL Recommendations] ![premium](/help/assets/premium.png) | Las siguientes mejoras se aplican a los algoritmos de popularidad de [!DNL Recommendations]:<ul><li>Habrá disponible una nueva opción de ventana retrospectiva de seis horas (intervalo de datos) para todos los algoritmos de popularidad (más visitados/más vendidos) cuando [!DNL Target] sea la fuente de datos de comportamiento. (Esta ventana retrospectiva *no* está disponible cuando [!DNL Adobe Analytics] es la fuente de datos de comportamiento).</li><li>Cuando se seleccionan, los siguientes algoritmos se ejecutan aproximadamente cada tres horas (en lugar de cada doce).<ul><li>Más visitados</li><li>Más comprados</li><li>Más visitados por categoría</li><li>Más comprados por categoría</li><li>Más visitados por atributo personalizado (con la función groupBy)</li><li>Más comprados por atributo personalizado (con la función groupBy)</li></ul></ul>(TOP-1086) |
 
 Esta versión incluye las siguientes correcciones.
 
-* Se agregará contenido a medida que se aproxime la fecha de lanzamiento.
+* Se añadirá contenido a medida que se aproxime la fecha de lanzamiento.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
