@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 50%
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 >
 >**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021, [!DNL Adobe Target] no es compatible con la biblioteca mbox.js. Después del 31 de marzo de 2021, todas las llamadas que se realicen desde mbox.js producirán errores y afectarán a las páginas que tengan actividades de [!DNL Target] en ejecución para las que se mostrará contenido predeterminado.
 >
->Migrar a la versión más reciente de la nueva [!DNL Adobe Experience Platform Web SDK] o la biblioteca JavaScript at.js para evitar problemas potenciales con sus sitios. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migre a la versión más reciente de [!DNL Adobe Experience Platform Web SDK] o a la biblioteca de JavaScript at.js antes más recientes para evitar posibles problemas con sus sitios. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
@@ -29,26 +29,26 @@ Ya está disponible el nuevo SDK de Python [!DNL Adobe Target] con capacidades d
 
 Para obtener más información, consulte la [Documentación del SDK de Python](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) en la [Guía de SDK de Adobe Target](https://adobetarget-sdks.gitbook.io/docs/).
 
-## Target Standard/Premium 21.5.1 (7 de junio de 2021). 
+## Target Standard/Premium 21.5.1 (7 de junio de 2021).
 
 Esta versión incluye las siguientes mejoras:
 
 | Función | Detalles |
 | --- | --- |
-| ![Distintivo Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catálogo ] SearchAPI | Busque en su catálogo de productos y contenido [!DNL Recommendations] mediante programación a través de API para identificar los elementos que coinciden con un criterio de búsqueda y simplificar la administración del catálogo.<br>**Limitaciones y notas**:<ul><li>La búsqueda en el catálogo mediante API no es compatible con entornos con más de 2000 000 elementos.</li><li>Los resultados de búsqueda en el catálogo a través de API se actualizan más rápidamente que los resultados de búsqueda en el catálogo a través de la interfaz de usuario [!DNL Target]. La búsqueda en el catálogo en la interfaz de usuario [!DNL Target] puede tardar más tiempo en reflejar los resultados más recientes.</li></ul>Para obtener más información, consulte [Búsqueda de entidades](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) en la guía *[!DNL Adobe Target][!DNL Recommendations] API*. |
+| API de ![Distintivo Premium](/help/assets/premium.png) de [!UICONTROL Búsqueda en el catálogo] de [!DNL Recommendations] | Busque en su catálogo de productos y contenido de [!DNL Recommendations] mediante programación a través de API para identificar los elementos que coinciden con un criterio de búsqueda y simplificar la administración del catálogo.<br>**Limitaciones y notas**:<ul><li>La búsqueda en el catálogo mediante API no es compatible con entornos que contienen más de 2 000 000 de elementos.</li><li>Los resultados de búsqueda en el catálogo a través de API se actualizan más rápido que los buscados a través de la IU de [!DNL Target]. La búsqueda en el catálogo en la IU de [!DNL Target] puede tardar más tiempo en reflejar los resultados más recientes.</li></ul>Para obtener más información, consulte [Búsqueda de entidades](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) en la Guía API de *[!DNL Adobe Target][!DNL Recommendations]*. |
 
 Esta versión de mantenimiento de la versión contiene las siguientes correcciones.
 
 * Se ha corregido un problema que provocaba que el espacio de trabajo predeterminado cambiara a otro espacio de trabajo al actualizar la página [!UICONTROL Audiencias]. (TGT-38871)
 * Se ha corregido un problema en [!UICONTROL Administración] > [!UICONTROL Implementación] que a veces provocaba un mensaje de error que indicaba que &quot;Es posible que el mbox global no esté sincronizado. Intenta reguardarlo&quot;.
 
-## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versión 2.5.0 (1 de junio de 2021)
+## ![Insignia del SDK web de Adobe Experience Platform](/help/assets/platform.png) versión 2.5.0 (1 de junio de 2021) de [!DNL Adobe Experience Platform Web SDK]
 
 Esta versión de [!DNL Platform Web SDK] incluye compatibilidad con lo siguiente:
 
 | Función | Detalles |
 | --- | --- |
-| Compatibilidad de redireccionamiento con [!UICONTROL Analytics for Target] (A4T) | El SDK web de Platform ahora admite redirecciones [!DNL Target] al utilizar [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obtener más información, consulte  [Analytics  [!DNL Target] para implementación](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Compatibilidad de redireccionamiento con [!UICONTROL Analytics for Target] (A4T) | El SDK web de Platform ahora admite redirecciones [!DNL Target] al utilizar [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obtener más información, consulte [Implementación de Analytics para [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Versión 2.5.0 de at.js (13 de mayo de 2021)
 
@@ -75,7 +75,7 @@ Además de las notas de cada versión, los recursos siguientes también contiene
 | Notas de la versión para versiones anteriores | Vea información sobre las nuevas funciones y mejoras de las versiones anteriores de Target Standard y Target Premium.<br>Para obtener más información, consulte [Notas de versiones anteriores](/help/r-release-notes/release-notes-for-previous-releases.md). |
 | Notas de la versión de Adobe Experience Cloud | Vea las notas de la última versión de las soluciones de Adobe Experience Cloud.<br>Para obtener más información, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es). |
 
-## Información previa a la publicación {#section_5D588F0415A2435B851A4D0113ACA3A0}
+## Información previa al lanzamiento {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
 Los siguientes recursos le permiten ver qué novedades hay en la próxima versión de Target.
 
