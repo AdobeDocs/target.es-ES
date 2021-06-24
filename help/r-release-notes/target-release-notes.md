@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Notas de la versión
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 7 de junio de 2021**
+**Última actualización: 24 de junio de 2021**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -25,17 +25,14 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 >
 >Para evitar posibles problemas con sus sitios, migre a la versión más reciente del nuevo [!DNL Adobe Experience Platform Web SDK] o la biblioteca de JavaScript at.js. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.5.2 (fecha por determinar)
+## [!DNL Target Standard/Premium] 21.6.1 (30 de junio de 2021)
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 | Función | Detalles |
 | --- | --- |
-| [!DNL Recommendations] ![premium](/help/assets/premium.png) | Las siguientes mejoras se aplican a los algoritmos de popularidad de [!DNL Recommendations]:<ul><li>Habrá disponible una nueva opción de ventana retrospectiva de seis horas (intervalo de datos) para todos los algoritmos de popularidad (más visitados/más vendidos) cuando [!DNL Target] sea la fuente de datos de comportamiento. (Esta ventana retrospectiva *no* está disponible cuando [!DNL Adobe Analytics] es la fuente de datos de comportamiento).</li><li>Cuando se seleccionan, los siguientes algoritmos se ejecutan aproximadamente cada tres horas (en lugar de cada doce).<ul><li>Más visitados</li><li>Más comprados</li><li>Más visitados por categoría</li><li>Más comprados por categoría</li><li>Más visitados por atributo personalizado (con la función groupBy)</li><li>Más comprados por atributo personalizado (con la función groupBy)</li></ul></ul>(TOP-1086) |
-
-Esta versión incluye las siguientes correcciones.
-
-* Se añadirá contenido a medida que se aproxime la fecha de lanzamiento.
+| Analytics for Target (A4T) | Ahora, al hacer clic en el vínculo &quot;[!UICONTROL Ver en Analytics]&quot; de la página [!UICONTROL Informes] de una actividad que utiliza [!DNL Analytics] como fuente de informes (A4T), [!DNL Analysis Workspace] se abre. Anteriormente, el vínculo abría informes [!DNL Analytics]. (TGT-36959) |
+| [!DNL Recommendations] ![premium](/help/assets/premium.png) | Las siguientes mejoras se aplican a los algoritmos de popularidad de [!DNL Recommendations]:<ul><li>Hay disponible una nueva opción de seis horas de &quot;ventana retrospectiva&quot; (intervalo de datos) para todos los algoritmos de popularidad (más visitados/más vendidos) cuando [!DNL Target] es la fuente de datos de comportamiento. (Esta ventana retrospectiva *no* está disponible cuando [!DNL Adobe Analytics] es la fuente de datos de comportamiento).</li><li>Cuando está seleccionado, los siguientes algoritmos se ejecutan aproximadamente cada tres horas (en lugar de cada 12 horas).<ul><li>Más visitados</li><li>Más comprados</li><li>Más visitados por categoría</li><li>Más comprados por categoría</li><li>Más visitados por atributo personalizado (con la función groupBy)</li><li>Más comprados por atributo personalizado (con la función groupBy)</li></ul></ul>La fecha de publicación se anunciará. (TOP-1086) |
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
