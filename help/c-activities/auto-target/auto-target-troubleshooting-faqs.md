@@ -7,7 +7,7 @@ exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Consulte las siguientes preguntas frecuentes y respuestas mientras trabaja con a
 
 * Trate de no hacer cambios sustanciales en las experiencias durante el curso de la actividad.
 
-### ¿Se recomienda utilizar la [!UICONTROL Segmentación automática] con una división 90(Control)/10 (Segmentado) hasta que se creen los modelos?
+### ¿Se recomienda utilizar la [!UICONTROL segmentación automática] con una división 90 (Control)/10 (Segmentación) hasta que se creen los modelos?
 
 La división óptima de la asignación del tráfico depende de lo que desee lograr.
 
@@ -69,7 +69,7 @@ Si los resultados de una prueba A/B muestran un aumento estadísticamente signif
 
 Si desea realizar cambios sustanciales en el contenido en su actividad de [!UICONTROL segmentación automática], la práctica recomendada es comenzar una nueva actividad para que otros usuarios que revisen los informes no confundan ni relacionen resultados pasados con contenido diferente.
 
-### ¿Cuánto tiempo debo esperar para que los modelos se creen?   {#how-long}
+### ¿Cuánto tiempo debo esperar para que los modelos se creen? {#how-long}
 
 La cantidad de tiempo que tardan los modelos en desarrollar su actividad de [!UICONTROL segmentación automática] depende típicamente del tráfico a las ubicaciones de la actividad seleccionada y la métrica de éxito de la actividad.
 
@@ -97,7 +97,7 @@ Esta función le permite dirigir todo el tráfico de control a una experiencia e
 
 Para obtener más información, consulte [Uso de una experiencia específica como control](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
-### ¿Puedo cambiar la métrica de objetivo a mitad de camino a través de una actividad de segmentación automática? {#change-metric}
+### ¿Puedo cambiar la métrica de objetivo a mitad de camino a través de una actividad de segmentación automática?  {#change-metric}
 
 No se recomienda cambiar la métrica de objetivo a mitad de una actividad. Aunque es posible cambiar la métrica de objetivo durante una actividad mediante la IU de [!DNL Target], siempre debe iniciar una nueva actividad. No garantizamos lo que pueda suceder si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
 
@@ -113,7 +113,7 @@ No se recomienda utilizar la opción [!UICONTROL Restablecer los datos del infor
 
 Por ejemplo, suponga que tiene una actividad de [!UICONTROL Segmentación automática] con ocho experiencias y que no le gusta el rendimiento de una experiencia. Puede eliminar esa experiencia y no afectará a los modelos de las siete experiencias restantes.
 
-## Solución de problemas de la [!UICONTROL  segmentación automática] {#section_23995AB813F24525AF294D20A20875C8}
+## Solución de problemas de la [!UICONTROL segmentación automática] {#section_23995AB813F24525AF294D20A20875C8}
 
 A veces, las actividades no salen como se esperaba. A continuación, le presentamos algunos de los posibles desafíos a los que se puede enfrentar al usar la [!UICONTROL segmentación automática] y algunas soluciones sugeridas.
 
