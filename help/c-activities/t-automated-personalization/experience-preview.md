@@ -2,13 +2,12 @@
 keywords: vista previa de experiencias;direcciones URL de experiencia;generar direcciones URL;ver direcciones URL de experiencia
 description: Aprenda a utilizar las direcciones URL de vista previa de la experiencia para actividades de Adobe [!DNL Target] Automated Personalization para ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa.
 title: ¿Cómo puedo utilizar las direcciones URL de vista previa de experiencia en actividades de Automated Personalization?
-feature: Personalización automatizada
+feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 568760262622b1097dca9384ed9d1360cfadfb6f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 65%
+source-wordcount: '758'
+ht-degree: 67%
 
 ---
 
@@ -19,8 +18,6 @@ Se pueden generar direcciones URL de vista previa de experiencias para actividad
 >[!NOTE]
 >
 >Las direcciones URL de vista previa de experiencias para Automated Personalization difieren del modo de control de calidad de la actividad. El modo de control de calidad de la actividad le permite crear direcciones URL de actividad para otro tipo de actividades. Para obtener más información, consulte [Control de calidad de las actividades](/help/c-activities/c-activity-qa/activity-qa.md).
->
->Las direcciones URL de vista previa de experiencias para actividades AP solo están disponibles cuando se utiliza at.js 1.x. Actualmente, las direcciones URL de vista previa de experiencias para actividades AP no son compatibles con at.js 2.x.
 
 Utilice las direcciones URL de vista previa de la experiencia para compartir experiencias con integrantes del equipo y para controlar la calidad de las experiencias en distintos navegadores y entornos, sin necesidad de crear una actividad de control de calidad independiente. Esta característica resulta especialmente útil en sitios complejos o si las políticas de seguridad no permiten que el sitio se vea en un simulador.
 
