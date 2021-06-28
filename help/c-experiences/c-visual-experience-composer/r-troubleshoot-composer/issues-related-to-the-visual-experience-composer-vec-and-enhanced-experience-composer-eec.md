@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo solucionar problemas que a veces o
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado?
 feature: 'Compositor de experiencias visuales (VEC) '
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 63%
+source-wordcount: '1341'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,7 @@ Utilice una de las siguientes opciones para asegurarse de que el VEC y el EEC si
 
 ## ¿[!DNL Target] admite iframes de varios niveles?
 
-Target no admite iframes de varios niveles. Si el sitio web carga un iframe que tiene un iframe secundario, las bibliotecas de Target (at.js y mbox.js) interactúan únicamente con el iframe principal. Las bibliotecas de Target no interactúan con el iframe secundario.
+[!DNL Target] no admite iframes de varios niveles. Si el sitio web carga un iframe que tiene un iframe secundario, at.js solo interactúa con el iframe principal. [!DNL Target]Las bibliotecas de no interactúan con el iframe secundario.
 
 Como solución alternativa, puede agregar una página en la experiencia con la URL del iframe secundario.
 
