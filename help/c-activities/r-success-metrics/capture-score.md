@@ -4,11 +4,10 @@ description: Obtenga información sobre la métrica de participación Puntuació
 title: ¿Qué es la métrica Puntuación de captación?
 feature: Métricas de éxito
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 51%
+source-wordcount: '765'
+ht-degree: 48%
 
 ---
 
@@ -54,7 +53,7 @@ Una práctica recomendada es asignar valores en la solicitud [!DNL Target]. Esto
 
 >[!NOTE]
 >
->Para facilitar el mantenimiento puede configurar cada asignación de valor de puntuación de página del sitio en el archivo [!DNL at.js] o [!DNL mbox.js] con alguna lógica JavaScript condicional. De este modo se elimina la necesidad de añadir más código a las páginas. Póngase en contacto con su consultor de cuentas para solicitar asistencia.
+>Para facilitar el mantenimiento, puede configurar las asignaciones de valor de puntuación de página del sitio en el archivo [!DNL at.js] con alguna lógica JavaScript condicional. De este modo se elimina la necesidad de añadir más código a las páginas. Póngase en contacto con su consultor de cuentas para solicitar asistencia.
 
 Puede combinar ambos métodos, pero esto dará como resultado una puntuación mayor de la esperada. Por ejemplo, si asigna un valor de 10 a cada una de las tres solicitudes [!DNL Target] y no asigna ninguna puntuación a una cuarta solicitud, al pasar el parámetro de URL `?mboxPageValue=5`, la puntuación de la página será de 50, 30 para las tres solicitudes con valores asignados y 5 para cada una de las cuatro solicitudes de la página.
 
