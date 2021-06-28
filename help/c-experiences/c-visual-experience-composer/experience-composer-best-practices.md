@@ -1,42 +1,37 @@
 ---
 keywords: compositor de experiencias visuales;prácticas recomendadas del compositor de experiencias visuales;limitaciones del compositor de experiencias visuales;advertencias del compositor de experiencias visuales;prácticas recomendadas del vec;vec
-description: Conozca las prácticas recomendadas para que sus experiencias funcionen correctamente al usar el Compositor de experiencias visuales (VEC) en Adobe Target.
-title: ¿Qué son las optimizaciones y limitaciones del Compositor de experiencias visuales?
-feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+description: Conozca las prácticas recomendadas para hacer que sus experiencias funcionen correctamente al usar el Compositor de experiencias visuales (VEC) en Adobe Target.
+title: ¿Cuáles son las prácticas recomendadas y limitaciones del Compositor de experiencias visuales?
+feature: 'Compositor de experiencias visuales (VEC) '
+exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 93%
 
 ---
 
-
 # Prácticas recomendadas y limitaciones del Compositor de experiencias visuales
 
-Estas prácticas recomendadas pueden contribuir a que las experiencias funcionen correctamente. También hay otras sugerencias y limitaciones que debe tener en cuenta al usar el Compositor de experiencias visuales (VEC) en [!DNL Adobe Target].
+Estas prácticas recomendadas pueden contribuir a que las experiencias funcionen correctamente. También hay otros consejos y limitaciones que debe tener en cuenta al usar el Compositor de experiencias visuales (VEC) en [!DNL Adobe Target].
 
 Aplicando estas prácticas recomendadas se reduce la probabilidad de encontrar problemas inesperados en las experiencias que diseñe.
 
-## Prácticas recomendadas {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
+## Prácticas recomendadas   {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**En la versión 57 y posteriores de mbox.js, y en at.js, coloque la referencia de mbox.js o at.js en la parte superior de la sección `<head>` de la página.**
+**Coloque la referencia a at.js en la parte superior de la  `<head>` sección de la página.**
 
-Si también usa el servicio de API de visitante, coloque el script de la API de visitante encima de mbox.js o at.js.
-
-**En versiones de mbox.js anteriores a la 57, coloque el código de mbox.js lo más abajo posible en la sección `<head>` de la página.**
-
-Coloque el código mbox.js al final de la sección `<head>` sin ninguna declaración adicional después de él. De no hacerlo así, cualquier etiqueta de script o vínculo se moverá a la sección `<body>`.
+Si también utiliza el servicio de API de visitante, coloque el script de la API de visitante encima de at.js.
 
 **Puede habilitar el Compositor de experiencias mejorado en la cuenta (se habilitará en todas las actividades de la cuenta) o en cada actividad por separado.**
 
-Para habilitar el Compositor de experiencias mejorado en el nivel de cuenta, haga clic en [!UICONTROL Administración > Compositor de experiencias visuales] y coloque el conmutador en la posición Activado.
+Para habilitar el Compositor de experiencias mejorado en la cuenta, haga clic en [!UICONTROL Administración > Compositor de experiencias visuales] y coloque el conmutador en la posición Activado.
 
 Para habilitar el Compositor de experiencias mejorado en una actividad al crearla en el Compositor de experiencias visuales, haga clic en [!UICONTROL Configurar > Dirección URL] y coloque el conmutador en la posición Activado.
 
-**Puede realizar listas de permitidos en determinadas direcciones IP si el Compositor de experiencias visuales mejorado no se carga en páginas seguras del sitio.**
+**Si el Compositor de experiencias visuales mejorado no se carga en las páginas seguras de su sitio, puede realizar la lista de permitidos de ciertas direcciones IP.**
 
-Los problemas al cargar el Compositor de experiencias visuales mejorado se pueden resolver mediante la inclusión en la lista de permitidos de las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los visitantes al sitio no necesitan que estas direcciones IP estén incluidas en la lista de permitidos.
+Los problemas que surgen al cargar el Compositor de experiencias visuales mejoradas se pueden resolver mediante la inclusión en la lista de permitidos de las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los visitantes del sitio no necesitan estas direcciones IP incluidas en la lista de permitidos.
 
 Estados Unidos: 52.55.99.45, 54.80.158.92 y 54.204.197.253
 
@@ -182,7 +177,7 @@ Desactive las técnicas de eliminación de iframes en el sitio web y compruebe s
 </html>
 ```
 
-## Advertencias {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
+## Advertencias  {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
 Tenga en cuenta las siguientes advertencias cuando use el Compositor de experiencias visuales para diseñar su actividad.
 
@@ -226,7 +221,7 @@ Si usa el Compositor de experiencias mejorado en un sitio que no está activo, c
 
 La solución es contraer el carril de la experiencia y el de la página haciendo clic en los iconos de los corchetes angulares izquierdos de la parte superior.
 
-## Limitaciones {#section_F33C2EA27F2E417AA036BC199DD6C721}
+## Limitaciones   {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
 **Función de mover**
 
@@ -234,7 +229,7 @@ Un elemento no se puede mover fuera de un contenedor que va seguido de una propi
 
 **Solo las ofertas de intercambio están disponibles en mboxes.**
 
-Las acciones como editar clase o reorganizar no están permitidas dentro de un mbox. El contenido de mbox se proporciona mediante mbox.js.
+Las acciones como editar clase o reorganizar no están permitidas dentro de un mbox.
 
 **No debe reorganizar y mover el mismo elemento.**
 
