@@ -2,12 +2,12 @@
 keywords: versiones de at.js;versiones de at.js;notas de la versión
 description: Vea los detalles sobre los cambios realizados en cada versión de la biblioteca JavaScript de Adobe [!DNL Target] at.js.
 title: ¿Qué se incluye en cada versión de at.js?
-feature: 'at.js. '
+feature: at.js
 role: Developer
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '4181'
-ht-degree: 88%
+source-wordcount: '4143'
+ht-degree: 89%
 
 ---
 
@@ -26,8 +26,8 @@ Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScri
 
 Esta versión de at.js incluye las siguientes mejoras y cambios:
 
-* [Compatibilidad de ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) decisiones en el dispositivo para at.js.
-* [Vista previa de ](/help/c-activities/c-activity-qa/activity-qa.md) vínculos Compatibilidad con actividades de Automated Personalization
+* [Compatibilidad de decisiones en el dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) para at.js.
+* [Vista previa de vínculos](/help/c-activities/c-activity-qa/activity-qa.md) Compatibilidad con actividades de Automated Personalization
 
 Esta versión también elimina la compatibilidad con Microsoft Internet Explorer 10 y versiones posteriores.
 
@@ -35,7 +35,7 @@ Esta versión también elimina la compatibilidad con Microsoft Internet Explorer
 
 Esta versión de at.js es de mantenimiento e incluye las siguientes mejoras y correcciones:
 
-* Se ha corregido un problema por el que `targetPageParams` se incluía en las solicitudes de mbox. `targetPageParams` solo debe incluirse en las  `pageLoad` solicitudes. (TNT-40247)
+* Se ha corregido un problema por el que `targetPageParams` se incluía en las solicitudes de mbox. `targetPageParams` solo debe incluirse en las solicitudes de `pageLoad`. (TNT-40247)
 * Se han optimizado las globalizaciones de ventana y documento que hacen referencia a en la extensión [!DNL Adobe Experience Platform Launch]. (TNT-37124)
 
 ## at.js 2.4.0 (14 de enero de 2021)
@@ -123,7 +123,7 @@ Esta versión de at.js es de mantenimiento e incluye las siguientes mejoras y co
 * Se ha corregido un problema que impedía que se activara la notificación `triggerView()` aunque no hubiera vistas guardadas. (TNT-32614)
 * Se ha corregido un problema que provocaba un error debido al uso de decodeURIcomponent, que causaba problemas cuando la dirección URL contenía un parámetro de cadena de consulta incorrecto. (TNT-32710)
 * El indicador de señalización ahora se establece como “true” en el contexto de las solicitudes de envío enviadas mediante la API `Navigator.sendBeacon()`. (TNT-32683)
-* Se ha corregido un problema que impedía que las ofertas de Recommendations se mostraran en sitios web para algunos clientes. Los clientes podían ver el contenido de la oferta en la llamada de API de entrega, pero la oferta no se aplicaba al sitio web. (TNT-32680)
+* Se ha corregido un problema que impedía que las ofertas de recomendaciones se mostraran en sitios web para algunos clientes. Los clientes podían ver el contenido de la oferta en la llamada de API de entrega, pero la oferta no se aplicaba al sitio web. (TNT-32680)
 * Se ha corregido un problema que provocaba que el rastreo de clics en varias experiencias no funcionara según lo esperado. (TNT-32644)
 * Se ha corregido un problema que impedía que at.js aplicara la segunda métrica después de que fallara la representación de la primera. (TNT-32628)
 * Se ha corregido un problema al pasar `mboxThirdPartyId` con la función `targetPageParams` que provocaba que la carga útil de la solicitud no estuviera presente en los parámetros de consulta ni en la carga útil de la misma. (TNT-32613)
@@ -406,7 +406,7 @@ En la versión 0.9.6 de [!DNL at.js] se incluyen las siguientes mejoras y correc
 
 **Fecha:** 21 de septiembre de 2016
 
-* Se ha añadido la opción de configuración `optoutEnabled` para habilitar o deshabilitar la exclusión de Device Graph. Si esta opción se establece en `true` y el visitante ha excluido el seguimiento, su navegador no hará llamadas de mbox. Device Graph está aún en versión beta. Esta opción está definida en `false` de forma predeterminada; si se usa Device Graph, hay que establecerla en `true`. En la versión 61 de mbox.js existe una opción parecida.
+* Se ha añadido la opción de configuración `optoutEnabled` para habilitar o deshabilitar la exclusión de Device Graph. Si esta opción se establece en `true` y el visitante ha excluido el seguimiento, su navegador no hará llamadas de mbox. Device Graph está aún en versión beta. Esta opción está definida en `false` de forma predeterminada; si se usa Device Graph, hay que establecerla en `true`. 
 * Se ha añadido compatibilidad con `CustomEvent` para el mecanismo de notificación. Antes, el mecanismo de notificación de los eventos de at.js no se podía usar desde las API Standard del DOM, como `document.addEventListener()`. Ahora puede usar `document.addEventListener()` para suscribirse a los eventos de at.js, como eventos de solicitud y eventos de representación de contenido.
 * Se ha arreglado un error relacionado con las ofertas creadas en el Compositor de experiencias visuales (VEC). Antes de esta versión, Target ocultaba los selectores y solo los mostraba cuando todos coincidían. En la versión 0.9.2 de at.js, Target muestra los selectores en cuanto coinciden.
 
@@ -416,7 +416,7 @@ En la versión 0.9.6 de [!DNL at.js] se incluyen las siguientes mejoras y correc
 
 * Incorpora un tiempo de espera en at.js para el servicio de ID de visitante. Es independiente del propio tiempo de espera del servicio.
 * Corrige un error en la versión 0.9.0 que afectaba a las implementaciones que usaban at.js en algunas páginas y mbox.js en otras.
-* Si usa Adobe Analytics como fuente de informes de la actividad, no es necesario que especifique un servidor de seguimiento durante la creación de la actividad en las versiones 61 (o posterior) de mbox.js y 0.9.1 (o posterior) de at.js. La biblioteca mbox.js o at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
+* Si usa Adobe Analytics como fuente de informes de la actividad, no es necesario que especifique un servidor de seguimiento durante la creación de la actividad en las versiones 61 (o posterior) de mbox.js y 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
 
 ## Versión 0.9.0 de at.js {#section_2981CC9792F245389B39BB5B69F84C4E}
 
@@ -451,10 +451,6 @@ Esta es la primera fecha de lanzamiento oficial de la biblioteca [!DNL at.js].
 [!DNL at.js] es una biblioteca de implementación nueva para [!DNL Target] que está diseñada tanto para implementaciones web típicas como para aplicaciones de una sola página.
 
 [!DNL at.js] reemplaza [!DNL mbox.js] por las implementaciones [!DNL Adobe Target].
-
->[!NOTE]
->
->Aunque [!DNL at.js] reemplaza a [!DNL mbox.js], mbox.js se seguirá admitiendo. Para la mayoría de las personas, [!DNL at.js] proporciona ventajas con respecto a [!DNL mbox.js]. Esto le da tiempo de probar [!DNL at.js] y cambiar la implementación en las páginas.
 
 Entre otros beneficios, [!DNL at.js] mejora los tiempos de carga de página para implementaciones web, mejora la seguridad y proporciona mejores opciones de implementación para aplicaciones de una sola página.
 
