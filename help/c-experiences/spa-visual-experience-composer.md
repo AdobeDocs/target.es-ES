@@ -2,12 +2,11 @@
 keywords: vec spa;react;angular;react.js;compositor de experiencias visuales para spa;opciones de compositor de experiencias visuales para spa;aplicaciones de una sola página;aplicación de una sola página;spa;opciones de experiencias móviles;vista de target
 description: Aprenda a utilizar el VEC SPA en Adobe [!DNL Target] para crear pruebas y personalizar contenido en SPA de forma independiente sin tener que depender de un desarrollo continuo.
 title: ¿Cómo utilizo el Compositor de experiencias visuales de una aplicación de una sola página (SPA VEC)?
-feature: 'Compositor de experiencias visuales (VEC). '
+feature: 'Compositor de experiencias visuales (VEC) '
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '3700'
+source-wordcount: '3699'
 ht-degree: 91%
 
 ---
@@ -62,7 +61,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
 1. Instale at. js 2. x.
 
-   En primer lugar, es necesario instalar at.js 2.x. Esta versión de at.js se desarrolló teniendo en cuenta las SPA. Las versiones anteriores de at.js y mbox.js no son compatibles con las vistas de Adobe Target y con el VEC para SPA.
+   En primer lugar, es necesario instalar at.js 2.x. Esta versión de at.js se desarrolló teniendo en cuenta las SPA. Las versiones anteriores de at.js y no son compatibles con las vistas de Adobe Target y con el VEC para SPA.
 
    ![Cuadro de diálogo de detalles de implementación](/help/c-experiences/assets/imp-200.png)
 
@@ -358,7 +357,7 @@ Si desea utilizar actividades A/B de Segmentación automática puede mover todas
 | [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Sí |
 | [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Sí |
 
-## Funciones compatibles.   {#supported-features}
+## Funciones compatibles {#supported-features}
 
 | Función | Compatible? |
 | --- | --- |
