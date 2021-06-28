@@ -5,11 +5,10 @@ title: ¿Cómo configuro los permisos de Enterprise?
 feature: Administración y configuración
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 66%
+source-wordcount: '1452'
+ht-degree: 67%
 
 ---
 
@@ -50,7 +49,7 @@ Cuando comience a utilizar la nueva funcionalidad [!UICONTROL Propiedades], toda
 1. [En Admin Console](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en la pestaña **[!UICONTROL Usuarios]** en la parte superior de la página > **[!UICONTROL Agregar usuarios]** para crear usuarios nuevos o para editar los existentes.
 1. Siga las instrucciones de [Administrar usuarios y grupos en Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) en la *Guía del usuario de Enterprise*.
 
-## Paso 2: Crear un espacio de trabajo (perfil de producto) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
+## Paso 2: Creación de un espacio de trabajo (perfil de producto) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
 Un espacio de trabajo (perfil de producto) permite que una organización asigne un conjunto de usuarios específico a un conjunto de propiedades específicas. En muchos aspectos, un espacio de trabajo es parecido a un grupo de informes en [!DNL Analytics].
 
@@ -151,7 +150,7 @@ Para utilizar la funcionalidad de permisos de usuario [!DNL Target] , debe añad
 
       Para obtener más información, consulte [Agregar parámetros de destino globales](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) en la documentación de *Adobe Experience Platform Launch*.
 
-   * **Mediante la función targetPageParams():**  coloque el siguiente código en las  `<head>` etiquetas, encima de la referencia a at.js o mbox.js.
+   * **Mediante la función targetPageParams():**  coloque el siguiente código en las  `<head>` etiquetas, encima de la referencia a at.js.
 
       ![](assets/property_token_1.png)
 
