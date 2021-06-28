@@ -5,10 +5,10 @@ title: ¿Qué exploradores admite [!DNL Target] ?
 feature: Implementación
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 48%
+source-wordcount: '330'
+ht-degree: 47%
 
 ---
 
@@ -39,7 +39,7 @@ La entrega de contenido se ha probado en los siguientes navegadores y dispositiv
 
 Tenga en cuenta lo siguiente:
 
-* Para implementaciones de [!DNL at.js], [!DNL Target] muestra el contenido predeterminado en versiones anteriores de Internet Explorer y, posiblemente, en versiones anteriores de los exploradores enumerados anteriormente. Para implementaciones de [!DNL mbox.js], [!DNL Target] intenta reproducir contenido, aunque podría no tener éxito.
+* Para implementaciones de [!DNL at.js], [!DNL Target] muestra el contenido predeterminado en versiones anteriores de Internet Explorer y, posiblemente, en versiones anteriores de los exploradores enumerados anteriormente.
 * Internet Explorer trata todos los elementos desconocidos (como los elementos personalizados) como el mismo tipo de elemento. Como resultado, la entrega no funciona con elementos personalizados.
 * [!DNL Target] muestra el contenido predeterminado en navegadores que no aparecen enumerados anteriormente y en navegadores que utilicen [quirks mode](https://en.wikipedia.org/wiki/Quirks_mode). at.js requiere un tipo de documento que se muestre en modo estándar, por ejemplo: `<!DOCTYPE html>`.
 * La infraestructura de Adobe Delivery está siendo protegida para NO admitir dispositivos y exploradores TLS 1.0 a partir del 12 de septiembre de 2018. Consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) para entender el impacto general de este cambio.
