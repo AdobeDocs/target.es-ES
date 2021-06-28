@@ -4,11 +4,10 @@ description: Aprenda a crear ofertas JSON en Adobe [!DNL Target] para utilizarla
 title: ¿Cómo creo ofertas JSON?
 feature: Experiencias y ofertas
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 54%
+source-wordcount: '403'
+ht-degree: 53%
 
 ---
 
@@ -28,9 +27,8 @@ Cuando trabaje con ofertas JSON, tenga en cuenta la información siguiente:
 * En el explorador, las ofertas JSON se pueden recuperar SOLAMENTE a través de at.js 1.2.3 (o versiones posteriores) y utilizando   [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) filtrando acciones usando la acción `setJson`.
 * Las ofertas JSON se proporcionan como objetos JSON nativos en vez de como cadenas. Los consumidores de estos objetos ya no son necesarios para gestionar objetos como cadenas y convertirlos en objetos JSON.
 * Las ofertas JSON no se aplican automáticamente, a diferencia de otras ofertas (como la ofertas HTML), porque las ofertas JSON son ofertas no visuales. Los desarrolladores deben escribir código para obtener explícitamente la oferta utilizando   [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
-* Las ofertas JSON no son compatibles si usa mbox.js.
 
-## Crear una oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
+## Creación de una oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de código]**.
 
