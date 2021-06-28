@@ -2,13 +2,12 @@
 keywords: at.js;2.0;1.x;cookies
 description: Detalles sobre la administración de cookies por Adobe [!DNL Target] at.js 2.x y at.js 1.x
 title: Cookies de at.js
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1828'
 ht-degree: 96%
 
 ---
@@ -35,7 +34,7 @@ Sin embargo, en at.js 2.x, ya no se utiliza HTTP GET, sino HTTP POST. HTTP POST 
 
 Por lo tanto, ni las cookies de terceros ni el seguimiento entre dominios son compatibles en at.js 2.0.0.
 
-## at.js 1.Comportamiento de la cookie *x* {#at-js-1x-cookie-behavior}.
+## at.js 1.*x*  comportamiento de las cookies {#at-js-1x-cookie-behavior}
 
 Para las versiones 1 de at.js.*x*, el comportamiento de la cookie depende de si es una cookie de origen, una cookie de terceros con una cookie de origen o solo una cookie de terceros.
 
@@ -122,7 +121,7 @@ La cookie conserva una serie de valores para administrar la forma en que los vis
 | session ID | ID único para una sesión de usuario. De manera predeterminada, tiene una duración de 30 minutos. |
 | pc ID | Identificador semipermanente del navegador de un visitante. Dura 14 días. |
 | check | Sencillo valor de prueba que sirve para averiguar si un visitante admite cookies. Se establece cada vez que un visitante solicita una página. |
-| disable | Se establece si el tiempo de carga de un visitante supera el tiempo de espera fijado en el archivo mbox.js. De manera predeterminada, tiene una duración de 1 hora. |
+| disable | Se establece si el tiempo de carga de un visitante supera el tiempo de espera fijado en el archivo [!DNL Adobe Experience Platform Web SDK] o at.js . De manera predeterminada, tiene una duración de 1 hora. |
 
 ## Impacto en [!DNL Target] para visitantes de Safari debido a cambios en el seguimiento de Apple WebKit
 
