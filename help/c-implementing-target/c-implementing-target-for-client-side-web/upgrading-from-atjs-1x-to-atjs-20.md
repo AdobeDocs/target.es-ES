@@ -2,13 +2,13 @@
 keywords: lanzamientios de at.js;versiones de at.js;aplicación de una sola página;spa;dominio cruzado;cross-domain
 description: Obtenga información sobre cómo actualizar desde Adobe [!DNL Target] at.js 1.x a at.js 2.x. Examine los diagramas de flujo del sistema, conozca las funciones nuevas y obsoletas, y mucho más.
 title: ¿Cómo actualizo de la versión 1.x de at.js a la versión 2.x?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 92%
+source-wordcount: '2761'
+ht-degree: 91%
 
 ---
 
@@ -47,12 +47,12 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 | --- | --- |
 | 1 | En la SPA, se llama a `triggerView()` para procesar la vista y aplicar acciones para modificar los elementos visuales. |
 | 2 | El contenido dirigido para la vista se lee desde la caché. |
-| 1 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
+| 3 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
 | 4 | La solicitud de notificación se envía al Almacenamiento de perfiles de [!DNL Target] para contar al visitante en la actividad e incrementar las métricas. |
 | 5 | Los datos de Analytics se envían a los servidores de recopilación de datos. |
 | 6 | Se comparan los datos de Target con los datos de Analytics mediante el SDID y se procesan en el almacén de informes de Analytics. Por lo tanto, los datos de Analytics se pueden visualizar tanto en Analytics como en Target mediante los informes de A4T. |
 
-## Implementación de at.js 2.*x* {#deploy-atjs-200}
+## Implementación de at.js 2.*x*  {#deploy-atjs-200}
 
 1. Implementación de at.js 2.*x* a través de la extensión [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
@@ -217,7 +217,7 @@ Los clientes que utilizan `mboxCreate()` para el seguimiento de conversiones deb
 
 Los clientes que no reemplacen `mboxCreate()` por `getOffer()` o `applyOffer()` se arriesgan a que no se entreguen las ofertas.
 
-### Puede usarse at.js 2.*x* en algunas páginas mientras que at.js 1.*x*, o mbox.js se encuentra en otras páginas?
+### Puede usarse at.js 2.*x* en algunas páginas mientras que at.js 1.** ¿existe en otras páginas?
 
 Sí, el perfil del visitante se conserva en todas las páginas que utilizan distintas versiones y bibliotecas. El formato de la cookie es el mismo.
 
@@ -248,7 +248,7 @@ fundamentalmente, el concepto de mbox global se introdujo para hacer saber a [!D
 
 ### ¿Sigue siendo relevante el nombre de mbox global en at.js?
 
-Los clientes pueden especificar un nombre de mbox global mediante [!UICONTROL Target > Administración > Implementación > Editar la configuración de at.js]. Este ajuste lo utilizan los servidores [!DNL Target] Edge para traducir Ejecutar > pageLoad al nombre de mbox global que aparece en la interfaz de usuario [!DNL Target]. Esto permite a los clientes seguir utilizando API del lado del servidor, el compositor basado en formularios, los comandos de perfil y crear audiencias utilizando el nombre de mbox global. Le recomendamos encarecidamente que compruebe que también esté configurado el mismo nombre de mbox global en la página [!UICONTROL Administración > Compositor de experiencias visuales], en caso de que tenga páginas que usen at.js 1.*x* o mbox.js como se muestra en las ilustraciones siguientes.
+Los clientes pueden especificar un nombre de mbox global mediante [!UICONTROL Target > Administración > Implementación > Editar la configuración de at.js]. Este ajuste lo utilizan los servidores [!DNL Target] Edge para traducir Ejecutar > pageLoad al nombre de mbox global que aparece en la interfaz de usuario [!DNL Target]. Esto permite a los clientes seguir utilizando API del lado del servidor, el compositor basado en formularios, los comandos de perfil y crear audiencias utilizando el nombre de mbox global. Le recomendamos encarecidamente que compruebe que también esté configurado el mismo nombre de mbox global en la página [!UICONTROL Administración > Compositor de experiencias visuales], en caso de que tenga páginas que usen at.js 1.*x*, como se muestra en las ilustraciones siguientes.
 
 ![Modificación del diálogo at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
