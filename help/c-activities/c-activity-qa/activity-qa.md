@@ -4,9 +4,9 @@ description: Aprenda a utilizar URL de control de calidad de Adobe [!DNL Target]
 title: ¿Cómo Se Hacen Evaluaciones De Las Actividades?
 feature: Actividades
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1760'
 ht-degree: 38%
 
 ---
@@ -94,7 +94,7 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
 
 * La interfaz de usuario [!UICONTROL Target QA Mode] solo muestra la primera URL de una experiencia en una actividad de varias páginas. Se supone que está creando una prueba de recorrido y se mueve de la URL1 a la URL2. Sin embargo, si desea ir a la URL 2 de forma independiente, copie todos los parámetros de la URL proporcionados con la URL 1 y aplíquelos a la URL 2 después de colocar “?” como se ve en la URL 1.
 
-## Compatibilidad con la biblioteca JavaScript de Target [!UICONTROL Modo de control de calidad]
+## Compatibilidad con la biblioteca JavaScript [!UICONTROL QA Mode] de Target {#compatibility}
 
 [!DNL Target] admite las siguientes bibliotecas JavaScript:
 
@@ -128,18 +128,13 @@ Para acceder y compartir una dirección URL de vista previa, en la página **[!U
 
 La tabla siguiente muestra los distintos tipos de actividades e indica si la función de vista previa de direcciones URL es compatible con cada biblioteca o API:
 
-| Tipo de actividad | at.js 1.x | at.js 2.x | SDK web de plataforma | API de entrega | API de administración |
-| --- | --- | --- | --- | --- | --- |
-| [!UICONTROL Prueba A/B] | Sí | Sí | Sí | No aplicable | Sí |
-| [!UICONTROL Asignación automática] | Sí | Sí | Sí | No aplicable | Sí |
-| [!UICONTROL Segmentación automática] | Sí | Sí | Sí | No aplicable | Sí |
-| [!UICONTROL Personalización automatizada] (AP) | Sí | Sí | No | No aplicable | Sí |
-| [!UICONTROL Segmentación de experiencias] (XT) | Sí | Sí | Sí | No aplicable | Sí |
-| [!UICONTROL Prueba multivariable] (MVT) | Sí | Sí | Sí | No aplicable | Sí |
-| [!UICONTROL Recomendaciones] | Sí | Sí | Sí | No aplicable | Sí |
-
-
-
-
-
+| Tipo de actividad | at.js 1.x | at.js 2.x | SDK web de plataforma |
+| --- | --- | --- | --- |
+| [!UICONTROL Prueba A/B] | Sí | Sí | Sí |
+| [!UICONTROL Asignación automática] | Sí | Sí | Sí |
+| [!UICONTROL Segmentación automática] | Sí | Sí | Sí |
+| [!UICONTROL Personalización automatizada] (AP) | Sí | Sí | Sí |
+| [!UICONTROL Segmentación de experiencias] (XT) | Sí | Sí | Sí |
+| [!UICONTROL Prueba multivariable] (MVT) | Sí | Sí | Sí |
+| [!UICONTROL Recomendaciones] | Sí | Sí | Sí |
 
