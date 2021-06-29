@@ -1,13 +1,13 @@
 ---
-keywords: control de calidad;modo control de calidad; control de calidad de la actividad;url de control de calidad;url de control de calidad
+keywords: control de calidad;modo control de calidad; control de calidad de la actividad;url de control de calidad;url de control de calidad;url de vista previa;url de vista previa
 description: Aprenda a utilizar URL de control de calidad de Adobe [!DNL Target] para realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa que nunca cambian, segmentación opcional de audiencias y realización de informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
 title: ¿Cómo Se Hacen Evaluaciones De Las Actividades?
 feature: Actividades
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 39%
+source-wordcount: '1785'
+ht-degree: 38%
 
 ---
 
@@ -94,7 +94,7 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
 
 * La interfaz de usuario [!UICONTROL Target QA Mode] solo muestra la primera URL de una experiencia en una actividad de varias páginas. Se supone que está creando una prueba de recorrido y se mueve de la URL1 a la URL2. Sin embargo, si desea ir a la URL 2 de forma independiente, copie todos los parámetros de la URL proporcionados con la URL 1 y aplíquelos a la URL 2 después de colocar “?” como se ve en la URL 1.
 
-## Compatibilidad de la biblioteca JavaScript de Target
+## Compatibilidad con la biblioteca JavaScript de Target [!UICONTROL Modo de control de calidad]
 
 [!DNL Target] admite las siguientes bibliotecas JavaScript:
 
@@ -113,6 +113,32 @@ La tabla siguiente muestra los distintos tipos de actividades e indica si el mod
 | [!UICONTROL Segmentación de experiencias] (XT) | Sí | Sí | Sí |
 | [!UICONTROL Prueba multivariable] (MVT) | Sí | Sí | Sí |
 | [!UICONTROL Recomendaciones] | Sí | Sí | Sí |
+
+## Vista previa de direcciones URL {#preview}
+
+Las direcciones URL de vista previa de la experiencia se pueden generar para todos los tipos de actividades [!DNL Target]. Las direcciones URL de vista previa permiten ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa para su vista previa y control de calidad. Las direcciones URL de vista previa de experiencias evitan la segmentación para forzar la visualización de una experiencia en particular.
+
+Para obtener información sobre cómo funcionan las direcciones URL de vista previa con actividades [!UICONTROL Automated Personalization] (AP), consulte [Vista previa de actividades de Automated Personalization con direcciones URL de vista previa](/help/c-activities/t-automated-personalization/experience-preview.md).
+
+Para acceder y compartir una dirección URL de vista previa, en la página **[!UICONTROL Información general]** de una actividad, haga clic en el enlace **[!UICONTROL Control de calidad de la actividad]**.
+
+>[!NOTE]
+>
+>El vínculo [!UICONTROL Control de calidad de la actividad] y la dirección URL de vista previa son los mismos para todas las actividades que no sean [!DNL Target] actividades AP.
+
+La tabla siguiente muestra los distintos tipos de actividades e indica si la función de vista previa de direcciones URL es compatible con cada biblioteca o API:
+
+| Tipo de actividad | at.js 1.x | at.js 2.x | SDK web de plataforma | API de entrega | API de administración |
+| --- | --- | --- | --- | --- | --- |
+| [!UICONTROL Prueba A/B] | Sí | Sí | Sí | No aplicable | Sí |
+| [!UICONTROL Asignación automática] | Sí | Sí | Sí | No aplicable | Sí |
+| [!UICONTROL Segmentación automática] | Sí | Sí | Sí | No aplicable | Sí |
+| [!UICONTROL Personalización automatizada] (AP) | Sí | Sí | No | No aplicable | Sí |
+| [!UICONTROL Segmentación de experiencias] (XT) | Sí | Sí | Sí | No aplicable | Sí |
+| [!UICONTROL Prueba multivariable] (MVT) | Sí | Sí | Sí | No aplicable | Sí |
+| [!UICONTROL Recomendaciones] | Sí | Sí | Sí | No aplicable | Sí |
+
+
 
 
 
