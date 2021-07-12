@@ -4,10 +4,10 @@ description: Consulte la lista preguntas frecuentes y sus respuestas acerca de l
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de Recommendations de  [!DNL Target] ?
 feature: Recomendaciones
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
+source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 99%
+source-wordcount: '3150'
+ht-degree: 94%
 
 ---
 
@@ -244,5 +244,39 @@ Si el visitante no tiene dos sesiones activas a la vez, los artículos vistos re
 ## ¿Puedo usar un algoritmo creado en [!DNL Adobe Recommendations Classic] en [!DNL Recommendations Premium]?
 
 Un algoritmo creado en [!DNL Recommendations Classic] no es compatible con [!DNL Recommendations Premium]. Puede utilizar el algoritmo heredado en [!DNL Target Premium]; sin embargo, el algoritmo puede crear problemas de sincronización al desactivar o eliminar la actividad en la IU de [!DNL Target Premium]. Para obtener más información acerca de las diferencias entre las dos soluciones, consulte Actividades de [[!DNL Recommendations Classic] versus [!DNL Recommendations] en [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+## ¿Cómo puedo recomendar artículos que no tengan más de 60 días? {#less-than-60}
+
+Por ejemplo, un cliente [!DNL Target] utilizó el siguiente método para recomendar artículos con menos de 60 días de antigüedad.
+
+Este cliente no utiliza una fuente de datos. Todos los datos recopilados sobre los artículos proceden de la capa de datos y se pasan a [!DNL Target] en las vistas de página.
+
+Este cliente ha utilizado el siguiente método:
+
+* Se ha pasado la fecha de publicación en formato AAAAMMDD como parámetro de entidad.
+* Se ha creado un script de perfil que es la fecha actual menos 60 días, también en formato AAAAMMDD.
+* Se ha utilizado un filtro de inclusión dinámica en los criterios para que `publish date > today’s date minus 60 days`.
+
+Este cliente capturó los siguientes campos de datos:
+
+| Campo de datos | Ejemplo |
+| --- | --- |
+| issueDate | 2021218 |
+| lastViewDate | 2021701 |
+| parentCategory | comentario |
+| publishDate | 20210113 |
+| publishDateDisplay | 13 de enero de 2021 |
+
+Este cliente ha utilizado la siguiente regla de inclusión utilizando la coincidencia de atributos de perfil:
+
+![Regla de inclusión de muestra](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
+Este cliente ha utilizado el siguiente script de perfil:
+
+![Ejemplo de script de perfil](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+
+>[!NOTE]
+>
+>Este ejemplo también se puede lograr si los parámetros coinciden y pasan el valor `priorDate60` como parámetro de mbox.
 
 
