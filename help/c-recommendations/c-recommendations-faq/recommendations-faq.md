@@ -4,7 +4,7 @@ description: Consulte la lista preguntas frecuentes y sus respuestas acerca de l
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de Recommendations de  [!DNL Target] ?
 feature: Recomendaciones
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3129'
 ht-degree: 95%
@@ -247,7 +247,7 @@ Un algoritmo creado en [!DNL Recommendations Classic] no es compatible con [!DNL
 
 ## ¿Cómo puedo recomendar solo nuevos artículos o vídeos? {#recommend-new-articles}
 
-Es posible que algunos clientes de medios y publicaciones deseen asegurarse de que los artículos recomendados incluyan solo los artículos o vídeos más recientes. Por ejemplo, un cliente [!DNL Target] utilizó el siguiente método para recomendar artículos con menos de 60 días de antigüedad:
+Algunos clientes de medios y publicaciones desean asegurarse de que los artículos recomendados incluyan solo los artículos o vídeos más recientes. Por ejemplo, un cliente [!DNL Target] utilizó el siguiente método para recomendar artículos con menos de 60 días de antigüedad:
 
 1. Pase la fecha de publicación del artículo, en formato YYMDDD, como atributo de entidad personalizado.
 1. Cree un script de perfil que sea la fecha actual menos 60 días, también en formato AAAAMMDD.
