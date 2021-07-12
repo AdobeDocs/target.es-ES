@@ -3,13 +3,12 @@ keywords: espacios de trabajo;administrar la propiedad;permisos;configuración d
 description: Obtenga información sobre cómo crear espacios de trabajo separados (perfiles de producto) y asignar a los usuarios diferentes roles y permisos para páginas, propiedades o sitios web individuales.
 title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
 feature: Administración y configuración
-role: Administrator
+role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '3018'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -92,7 +91,7 @@ Las funciones y los permisos determinan los niveles de acceso que tienen los usu
 | Aprobador | Puede crear, editar y activar o detener actividades. |
 | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
 | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
-| Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, el rol Editor tiene el permiso adicional para activar actividades. |
+| Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, la función Publicador tiene el permiso adicional de activar actividades. |
 
 ### Canal
 
@@ -121,7 +120,7 @@ Cada función tiene diferentes niveles de permisos:
 | Aprobador | Puede crear, editar y activar o detener actividades. |
 | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
 | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
-| Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, el rol Editor tiene el permiso adicional para activar actividades. |
+| Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, la función Publicador tiene el permiso adicional de activar actividades. |
 
 Es importante tener en cuenta que la función de cada usuario se aplica a cada página, propiedad o sitio de su cuenta que incluya etiquetas de [!DNL Target] como se muestra a continuación:
 
@@ -204,7 +203,7 @@ La nueva funcionalidad Permisos puede verse en diferentes sitios de la interfaz 
 
    ![](assets/properties_list.png)
 
-## Advertencias {#section_9714311B1CD9497A86F4910F8AE635E2}
+## Advertencias  {#section_9714311B1CD9497A86F4910F8AE635E2}
 
 Tenga en cuenta lo siguiente al usar o configurar propiedades y permisos en [!DNL Target] Premium:
 
