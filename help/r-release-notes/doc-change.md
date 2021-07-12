@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f6b475e4fa7cdad2e190dfbfecdc8e5335a524f5
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 88%
+source-wordcount: '1643'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,9 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | Julio de 12 | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información sobre los siguientes eventos:<ul><li>Seminario web: Cuantificar el ROI, las perspectivas y los ahorros de tiempo significativos de la integración de Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Descanso del café de la comunidad que se celebrará el miércoles 21 de julio de 2021 a las 8 a.m. (PDT, GMT-7).</li></ul> |
-|  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Se ha añadido la siguiente pregunta frecuente: &quot;¿Cómo puedo recomendar artículos que no tengan más de 60 días?&quot; |
+|  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Se ha añadido la siguiente pregunta frecuente: &quot;¿Cómo puedo recomendar solo nuevos artículos o vídeos?&quot; |
+|  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado el texto de la sección &quot;Llamadas de API de Target&quot;. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Se ha actualizado la descripción de la clave `consumerId`. |
 |  | Cooperación entre dispositivos de Experience Cloud | Se ha eliminado el tema. Esta funcionalidad está en desuso. |
 | 29 de junio | [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) | Se agregaron las siguientes secciones:<ul><li>Compatibilidad con la biblioteca JavaScript [!UICONTROL QA Mode] de Target</li><li>Vista previa de direcciones URL</li></ul> |
 | 24 de junio | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de la versión [!DNL Target Standard/Premium] 21.6.1 (30 de junio de 2021). |
