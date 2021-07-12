@@ -4,9 +4,9 @@ description: Explore una lista de preguntas más frecuentes acerca del uso de la
 title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Información general
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2755'
 ht-degree: 100%
 
 ---
@@ -223,12 +223,6 @@ Haga clic en la miniatura en frente del nombre de la experiencia en el Paso 2 y 
 **Soy un usuario anterior de Target Classic. ¿Puedo aprovechar mis mboxes para algunos casos de uso?**
 
 Use el [enfoque basado en formularios](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) para crear actividades.
-
-**¿Puedo asegurar que la misma experiencia se entregue de manera consistente en todos los dispositivos que un usuario pueda tener?**
-
-Eche un vistazo a nuestro [Dispositivo Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=es) que le permite vincular de manera determinista y probabilística múltiples dispositivos de un usuario a través del poder de una cooperativa.
-
-Si está en la Co-op, un simple indicador en la página Objetivos y configuración habilitará la función. Ahora, los informes también cambian para reflejar a las personas en lugar de a los visitantes. Hable con su contacto de Adobe para obtener más información sobre esta característica, ya que no está disponible en todas las regiones.
 
 **¿Por qué no veo la oferta/experiencia deseada y, en cambio, estoy viendo alguna otra actividad?**
 
