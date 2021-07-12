@@ -1,17 +1,16 @@
 ---
 keywords: integración; funciones; permisos de usuario; admin console
-description: Obtenga información sobre cómo otorgar a las integraciones de Adobe I/O existentes acceso a todos los espacios de trabajo con la función deseada en Adobe Target.
-title: ¿Cómo puedo otorgar acceso a Adobe I/O a espacios de trabajo y asignar funciones?
-feature: Administration & Configuration
-role: Administrator
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+description: Obtenga información sobre cómo conceder acceso a las integraciones de Adobe I/O existentes a todos los espacios de trabajo con la función deseada en Adobe Target.
+title: ¿Cómo puedo conceder acceso al Adobe I/O a espacios de trabajo y asignar funciones?
+feature: Administración y configuración
+role: Admin
+exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 83%
+source-wordcount: '623'
+ht-degree: 84%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Concesión de acceso a integraciones de Adobe I/O a espacios de trabajo y asignación de funciones
 
@@ -23,7 +22,7 @@ Los [!UICONTROL Permisos de Enterprise] permiten [!DNL Target] a los clientes ut
 
 La funcionalidad de [!UICONTROL Permisos de Enterprise] facilita la escala efectiva de los programas de optimización entre los equipos. Aunque la funcionalidad estaba disponible en la interfaz de usuario de [!DNL Target], las API de administrador no tenían la compatibilidad correspondiente hasta principios de 2019. En la versión de febrero de 2019 de [!DNL Target], Adobe actualizó las API de administrador para que se pueda utilizar la cuenta de integración para acceder a todos los espacios de trabajo creados en su organización. Por tanto, las API de administrador estaban restringidas únicamente al espacio de trabajo predeterminado, pero dicha actualización de febrero de 2019 ha permitido el acceso a todos los espacios de trabajo con acceso de [!UICONTROL Aprobador].
 
-Con la versión de [!DNL Target] septiembre de 2019, [!DNL Target] [!UICONTROL Enterprise Permissions] proporciona a los clientes los siguientes controles de acceso:
+Con la versión de [!DNL Target] septiembre de 2019, [!DNL Target] [!UICONTROL Permisos de Enterprise] proporciona a los clientes los siguientes controles de acceso:
 
 * Puede elegir los espacios de trabajo a los que se puede aplicar la integración
 * Puede aplicar una función a la integración de Adobe I/O: [!UICONTROL Aprobador], [!UICONTROL Editor] u [!UICONTROL Observador].
@@ -39,11 +38,11 @@ Esta actualización es compatible con los siguientes ejemplos prácticos:
 
 >[!NOTE]
 >
->Si no se realiza esta acción, después de la versión de septiembre de 2019 de [!DNL Target], los controles de acceso se activarán y tendrá acceso solo al espacio de trabajo predeterminado (si es su configuración actual). Se pueden configurar integraciones por adelantado sin problema. Cuanto antes realice este cambio, mejor. En función del número de espacios de trabajo de la organización, este proceso requiere sólo unos pocos clics para agregar una integración existente a espacios de trabajo con la función deseada.
+>Si no se realiza esta acción, después de la versión de septiembre de 2019 de [!DNL Target], los controles de acceso se activarán y tendrá acceso solo al espacio de trabajo predeterminado (si es su configuración actual). Se pueden configurar integraciones por adelantado sin problema. Cuanto antes realice este cambio, mejor. En función del número de espacios de trabajo de la organización, este proceso tarda solo unos pocos clics en agregar una integración existente a espacios de trabajo con la función deseada.
 
 **Para conceder acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones:**
 
-1. Abra el **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. Abra **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Haga clic en la pestaña **[!UICONTROL Productos]** y luego seleccione el nombre del producto deseado.
 
@@ -66,4 +65,4 @@ Esta actualización es compatible con los siguientes ejemplos prácticos:
    | Aprobador | Puede crear, editar y activar o detener actividades. |
    | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
    | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
-   | Editor | Similar a la función Observador (puede vista de actividades, pero no puede crearlas o editarlas). Sin embargo, la función Editor tiene el permiso adicional para activar actividades. |
+   | Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, la función Publicador tiene el permiso adicional de activar actividades. |
