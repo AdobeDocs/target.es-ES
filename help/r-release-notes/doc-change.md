@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
+source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1663'
 ht-degree: 87%
 
 ---
@@ -23,6 +23,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Se ha añadido la siguiente pregunta frecuente: &quot;¿Cómo puedo recomendar solo nuevos artículos o vídeos?&quot; |
 |  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado el texto de la sección &quot;Llamadas de API de Target&quot;. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Se ha actualizado la descripción de la clave `consumerId`. |
+|  | [Personalización de un mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Se ha actualizado el paso 1 para indicar que el cambio se guarda automáticamente después de seleccionar un nuevo mbox. |
 |  | Cooperación entre dispositivos de Experience Cloud | Se ha eliminado el tema. Esta funcionalidad está en desuso. |
 | 29 de junio | [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) | Se agregaron las siguientes secciones:<ul><li>Compatibilidad con la biblioteca JavaScript [!UICONTROL QA Mode] de Target</li><li>Vista previa de direcciones URL</li></ul> |
 | 24 de junio | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de la versión [!DNL Target Standard/Premium] 21.6.1 (30 de junio de 2021). |
