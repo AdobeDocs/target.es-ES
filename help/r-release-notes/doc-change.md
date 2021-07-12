@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
+source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 91%
+source-wordcount: '1575'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Julio de 11 | Cooperación entre dispositivos de Experience Cloud | Se ha eliminado el tema. Esta funcionalidad está en desuso. |
 | 29 de junio | [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) | Se agregaron las siguientes secciones:<ul><li>Compatibilidad con la biblioteca JavaScript [!UICONTROL QA Mode] de Target</li><li>Vista previa de direcciones URL</li></ul> |
 | 24 de junio | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de la versión [!DNL Target Standard/Premium] 21.6.1 (30 de junio de 2021). |
 | 16 de junio | [[!DNL Target] notas de la versión (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión 1.0.0 del SDK de Python [!DNL Adobe Target]. |
