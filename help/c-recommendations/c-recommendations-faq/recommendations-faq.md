@@ -4,10 +4,10 @@ description: Consulte la lista preguntas frecuentes y sus respuestas acerca de l
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de Recommendations de  [!DNL Target] ?
 feature: Recomendaciones
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
+source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -98,7 +98,7 @@ Si utiliza una ubicación en la que el ID de categoría está presente en el mbo
 
 >[!NOTE]
 >
->Este ajuste se aplica únicamente a las actividades creadas en el Compositor de experiencias visuales (VEC). Esta configuración no se aplica a las actividades creadas en el Compositor de experiencias basadas en formularios ([!DNL Target] carece de contexto de ubicación).
+>Esta configuración se aplica solo a las actividades creadas en el [!UICONTROL Compositor de experiencias visuales] (VEC). Esta configuración no se aplica a las actividades creadas en el Compositor de experiencias basadas en formularios ([!DNL Target] carece de contexto de ubicación).
 
 Para acceder al ajuste [!UICONTROL Filtrar los criterios no compatibles], haga clic en [!UICONTROL Recomendaciones] > [!UICONTROL Configuración]:
 
