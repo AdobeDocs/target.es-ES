@@ -3,13 +3,12 @@ keywords: agregar usuario;administrar usuario;permisos de usuario
 description: Aprenda a utilizar Adobe Admin Console para administrar usuarios y sus permisos y derechos en Adobe Target.
 title: ¿Cómo puedo agregar usuarios y administrar permisos?
 feature: Administración y configuración
-role: Administrator
+role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -103,7 +102,7 @@ Los usuarios administradores del sistema deben agregar usuarios al sistema. Los 
    | Aprobador | Puede crear, editar y activar o detener actividades. |
    | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
    | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
-   | Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, el rol Editor tiene el permiso adicional para activar actividades. |
+   | Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, la función Publicador tiene el permiso adicional de activar actividades. |
 
 Para obtener más información, consulte [Administrar permisos y roles de producto en Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) en la *Guía del usuario de Enterprise*.
 
