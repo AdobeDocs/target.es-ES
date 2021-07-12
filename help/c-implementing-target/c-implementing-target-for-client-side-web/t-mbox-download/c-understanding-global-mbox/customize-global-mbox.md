@@ -1,33 +1,34 @@
 ---
 keywords: mbox global;personalizar mbox global;editar at.js;at.js;implementar at.js
-description: Descubra cómo personalizar un mbox global para at.js en la página Administración-Implementación de Adobe Target.
-title: ¿Cómo puedo personalizar un mbox global?
+description: Obtenga información sobre cómo personalizar un mbox global para at.js en la página Administration-Implementation de Adobe Target.
+title: ¿Cómo personalizo un mbox global?
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
+source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 50%
+source-wordcount: '181'
+ht-degree: 22%
 
 ---
 
+# Personalización de un mbox global
 
-# Personalizar un mbox global
-
-Información útil para personalizar un mbox global para at.js.
+Información para personalizar un mbox global en at.js.
 
 1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
 
-1. Deshabilite **[!UICONTROL Carga de página habilitada (Crear automáticamente mbox global)]**, luego agregue el nombre del mbox global personalizado que desee usar para enviar actividades desde [!DNL Target].
+1. Deshabilite **[!UICONTROL Page load enabled (Auto create global mbox)]** y luego añada el nombre del mbox global personalizado que desea usar para publicar actividades desde [!DNL Target].
+
+   >[!IMPORTANT]
+   >
+   >El cambio se guarda automáticamente al seleccionar un mbox global diferente.
 
    Este mbox global personalizado también se usa para el rastreo de clics.
 
    ![custom-global-mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/assets/custom-global-mbox.png)
 
-1. Haga clic en **[!UICONTROL Guardar]** cuando termine.
-
-1. Implementar la biblioteca [!DNL at.js] en el sitio.
+1. Implemente la biblioteca [!DNL at.js] en el sitio.
 
    Consulte [Cómo implementar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) para obtener más información.
 
@@ -39,5 +40,4 @@ Información útil para personalizar un mbox global para at.js.
 
    >[!IMPORTANT]
    >
-   >Cuando se guarda, todas las actividades de la cuenta se sincronizan con este mbox. Si este mbox no está en su sitio, todas las actividades dejarán de funcionar.
-
+   >Todas las actividades de la cuenta se sincronizan con este mbox. Si este mbox no está en su sitio, todas las actividades dejarán de funcionar.
