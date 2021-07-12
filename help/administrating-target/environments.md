@@ -3,12 +3,12 @@ keywords: entorno;solución de problemas;prácticas recomendadas;ubox;redireccio
 description: Aprenda a utilizar entornos en Adobe [!DNL Target] para organizar sus sitios y entornos de preproducción con el fin de facilitar la administración y la creación de informes separados.
 title: ¿Qué son los entornos y cómo puedo utilizarlos?
 feature: Administración y configuración
-role: Administrator
+role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 61%
 
 ---
 
