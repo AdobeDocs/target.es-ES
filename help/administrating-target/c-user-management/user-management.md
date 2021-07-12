@@ -3,10 +3,9 @@ keywords: agregar usuario;administrar usuario;permisos de usuario
 description: Obtenga información sobre cómo administrar usuarios en Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premium.
 title: ¿Cómo configuro la administración de usuarios?
 feature: Administración y configuración
-role: Administrator
+role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 20%
