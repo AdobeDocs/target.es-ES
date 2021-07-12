@@ -3,10 +3,9 @@ keywords: informe;informes;solución de experience cloud;zona horaria;zona horar
 description: Use [!DNL Target] o Adobe Analytics como fuente de informes, especifique la zona horaria y el formato de moneda predeterminados, agregue direcciones IP para excluir de los informes, etc.
 title: ¿Cómo configuro los informes en Target?
 feature: Administración y configuración
-role: Administrator
+role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 31%
