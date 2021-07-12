@@ -3,9 +3,9 @@ keywords: añadir usuario;proyecto;grupo de usuarios;espacio de trabajo;propieda
 description: Aprenda a añadir usuarios a Adobe Target; crear espacios de trabajo, grupos de usuarios y propiedades; actualizar la implementación; y especificar funciones y permisos.
 title: ¿Cómo configuro los permisos de Enterprise?
 feature: Administración y configuración
-role: Administrator
+role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 67%
