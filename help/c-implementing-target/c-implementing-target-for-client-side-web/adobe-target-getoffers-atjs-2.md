@@ -2,14 +2,13 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;obtener oferta;at.js;funciones;función
 description: Utilice la función adobe.target.getOffers() y sus opciones para las ofertas de Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] . (at.js 2.x)
 title: ¿Cómo utilizo la función adobe.target.getOffers() ?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 90%
+source-wordcount: '1293'
+ht-degree: 85%
 
 ---
 
@@ -23,10 +22,10 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 
 | Clave | Tipo | ¿Requerido? | Descripción |
 | --- | --- | --- | --- |
-| consumerId | Cadena | No | Si no se proporciona, el valor predeterminado es el mbox global del cliente. Esta clave se utiliza para generar el ID de datos suplementario utilizado para la integración de A4T. Esta clave es una cadena única por visitante. |
-| decisioningMethod | Cadena | No | &quot;del lado del servidor&quot;, &quot;en el dispositivo&quot;, &quot;híbrido&quot; |
-| de eventos | Objeto | Sí | Consulte la tabla Solicitudes a continuación. |
-| timeout | Número | No | Tiempo de espera de solicitud. Si no se especifica, se usará el tiempo de espera predeterminado en at.js. |
+| `consumerId` | Cadena | No | Si no se proporciona, el valor predeterminado es el mbox global del cliente. Esta clave se utiliza para generar el ID de datos suplementario (SDID) utilizado para la integración de A4T. Esta clave es una cadena única por visitante.<br>Al utilizar  `getOffers()`, cada llamada genera un SDID nuevo. Si tiene varias solicitudes de mbox en la misma página y desea conservar el SDID (de modo que coincida con el SDID de target-global-mbox y el SDID de Adobe Analytics), utilice el parámetro `consumerId` .<br>Si  `getOffers()` incluye tres mboxes (llamados &quot;mbox1&quot;, &quot;mbox2&quot; y &quot;mbox3&quot;), incluya:  `consumerId: "mbox1, mbox2, mbox3"` en la  `getOffers()` llamada de . |
+| `decisioningMethod` | Cadena | No | &quot;del lado del servidor&quot;, &quot;en el dispositivo&quot;, &quot;híbrido&quot; |
+| `request` | Objeto | Sí | Consulte la tabla Solicitudes a continuación. |
+| `timeout` | Número | No | Tiempo de espera de la solicitud. Si no se especifica, se usará el tiempo de espera predeterminado en at.js. |
 
 ## Solicitud
 
