@@ -1,24 +1,23 @@
 ---
 keywords: servidor de seguimiento de analytics;A4T;depurador de Adobe Experience Cloud;depurador de Adobe Experience Platform;fuente de informes;herramientas para desarrolladores
-description: 'Obtenga información sobre cómo especificar un servidor de seguimiento de Analytics para actividades que utilicen Analytics for [!DNL Target]  (A4T) si utiliza una versión anterior de at.js o mbox.js. '
+description: 'Obtenga información sobre cómo especificar un servidor de seguimiento de Analytics para actividades que utilicen Analytics for [!DNL Target]  (A4T) si utiliza una versión anterior de at.js. '
 title: ¿Cómo utilizo un servidor de seguimiento de Analytics?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 20%
+source-wordcount: '693'
+ht-degree: 19%
 
 ---
 
 # Uso de un servidor de seguimiento de Analytics
 
-Si utiliza una versión anterior de at.js o mbox.js, debe especificar un servidor de seguimiento de Analytics para las actividades que usan [!DNL Adobe Analytics] para [!DNL Adobe Target] (A4T).
+Si utiliza una versión anterior de at.js, debe especificar un servidor de seguimiento de Analytics para las actividades que usan [!DNL Adobe Analytics] para [!DNL Adobe Target] (A4T).
 
 >[!NOTE]
 >
->No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 61 (o posterior) de mbox.js o la versión 0.9.1 (o posterior) de at.js . La biblioteca mbox.js o at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
+>No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js . La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
 >
 >El equipo [!DNL Target] es compatible con at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que está ejecutando una versión compatible. Para obtener más información, consulte [Detalles de la versión de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
