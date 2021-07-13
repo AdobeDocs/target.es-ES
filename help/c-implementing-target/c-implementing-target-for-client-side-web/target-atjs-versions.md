@@ -4,9 +4,9 @@ description: Vea los detalles sobre los cambios realizados en cada versión de l
 title: ¿Qué se incluye en cada versión de at.js?
 feature: at.js
 role: Developer
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4132'
 ht-degree: 89%
 
 ---
@@ -387,7 +387,7 @@ En la versión 0.9.6 de [!DNL at.js] se incluyen las siguientes mejoras y correc
 
 **Fecha:** 19 de enero de 2017
 
-* Los nombres de mbox ahora pueden contener caracteres especiales, incluido el símbolo &amp;, para que sean coherentes con los requisitos de los nombres de mbox que usan mbox.js.
+* Los nombres de mbox ahora pueden contener caracteres especiales, incluido el símbolo et (&amp;). 
 
    Para acceder a una lista de caracteres especiales permitidos, consulte [Configuraciones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
