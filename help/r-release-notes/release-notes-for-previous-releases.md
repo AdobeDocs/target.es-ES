@@ -4,10 +4,10 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Notas de la versión
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '31022'
-ht-degree: 100%
+source-wordcount: '31327'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,33 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >Consulte [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión: 2021
+
+### Python SDK 1.0.0 (16 de junio de 2021)
+
+Ya está disponible el nuevo SDK de Python [!DNL Adobe Target] con capacidades de toma de decisiones en el dispositivo. Esta adición más reciente refuerza el conjunto [!DNL Target] de SDK del lado del servidor. Estos SDK le ayudan a integrarse con [!DNL Target] y aceleran su tiempo de valor, en el idioma de su elección. Las integraciones del lado del servidor se están convirtiendo en una opción popular, dado que el mercado está cambiando a un mundo sin cookies en el que los datos de origen son valiosos. Los SDK de Target están disponibles en los lenguajes de programación más populares del mercado (Python, Java, JavaScript, C# / .Net).
+
+Para obtener más información, consulte la [Documentación del SDK de Python](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) en la [Guía de SDK de Adobe Target](https://adobetarget-sdks.gitbook.io/docs/).
+
+### Target Standard/Premium 21.5.1 (7 de junio de 2021).
+
+Esta versión incluye las siguientes mejoras:
+
+| Función | Detalles |
+| --- | --- |
+| API de ![Distintivo Premium](/help/assets/premium.png) de [!UICONTROL Búsqueda en el catálogo] de [!DNL Recommendations] | Busque en su catálogo de productos y contenido de [!DNL Recommendations] mediante programación a través de API para identificar los elementos que coinciden con un criterio de búsqueda y simplificar la administración del catálogo.<br>**Limitaciones y notas**:<ul><li>La búsqueda en el catálogo mediante API no es compatible con entornos que contienen más de 2 000 000 de elementos.</li><li>Los resultados de búsqueda en el catálogo a través de API se actualizan más rápido que los buscados a través de la IU de [!DNL Target]. La búsqueda en el catálogo en la IU de [!DNL Target] puede tardar más tiempo en reflejar los resultados más recientes.</li></ul>Para obtener más información, consulte [Búsqueda de entidades](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) en la Guía API de *[!DNL Adobe Target][!DNL Recommendations]*. |
+
+Esta versión de mantenimiento de la versión contiene las siguientes correcciones.
+
+* Se ha corregido un problema que provocaba que el espacio de trabajo predeterminado cambiara a otro espacio de trabajo al actualizar la página [!UICONTROL Audiencias]. (TGT-38871)
+* Se ha corregido un problema en [!UICONTROL Administración] > [!UICONTROL Implementación] que a veces provocaba un mensaje de error que indicaba que &quot;Es posible que el mbox global no esté sincronizado. Intenta reguardarlo&quot;.
+
+### ![Insignia del SDK web de Adobe Experience Platform](/help/assets/platform.png) versión 2.5.0 (1 de junio de 2021) de [!DNL Adobe Experience Platform Web SDK]
+
+Esta versión de [!DNL Platform Web SDK] incluye compatibilidad con lo siguiente:
+
+| Función | Detalles |
+| --- | --- |
+| Compatibilidad de redireccionamiento con [!UICONTROL Analytics for Target] (A4T) | El SDK web de Platform ahora admite redirecciones [!DNL Target] al utilizar [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obtener más información, consulte [Implementación de Analytics para [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ### Versión 2.5.0 de at.js (13 de mayo de 2021)
 
