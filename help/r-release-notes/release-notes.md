@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: Notas de la versión
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 76%
+source-wordcount: '661'
+ht-degree: 70%
 
 ---
 
@@ -23,24 +23,20 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
+## [!DNL Target Standard/Premium] 21.6.1 (30 de junio de 2021)
+
+Esta versión incorpora las siguientes nuevas funciones y mejoras. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+| Función | Detalles |
+| --- | --- |
+| Analytics for Target (A4T) | Ahora, al hacer clic en el vínculo &quot;[!UICONTROL Ver en Analytics]&quot; de la página [!UICONTROL Informes] de una actividad que utiliza [!DNL Analytics] como fuente de informes (A4T), [!DNL Analysis Workspace] se abre. Anteriormente, el vínculo abría informes [!DNL Analytics]. (TGT-36959) |
+| [!DNL Recommendations] ![premium](/help/assets/premium.png) | Las siguientes mejoras se aplican a los algoritmos de popularidad de [!DNL Recommendations]:<ul><li>Hay disponible una nueva opción de seis horas de &quot;ventana retrospectiva&quot; (intervalo de datos) para todos los algoritmos de popularidad (más visitados/más vendidos) cuando [!DNL Target] es la fuente de datos de comportamiento. (Esta ventana retrospectiva *no* está disponible cuando [!DNL Adobe Analytics] es la fuente de datos de comportamiento).</li><li>Cuando está seleccionado, los siguientes algoritmos se ejecutan aproximadamente cada tres horas (en lugar de cada 12 horas).<ul><li>Más visitados</li><li>Más comprados</li><li>Más visitados por categoría</li><li>Más comprados por categoría</li><li>Más visitados por atributo personalizado (con la función groupBy)</li><li>Más comprados por atributo personalizado (con la función groupBy)</li></ul></ul>La fecha de publicación se anunciará. (TOP-1086) |
+
 ## Python SDK 1.0.0 (16 de junio de 2021)
 
 Ya está disponible el nuevo SDK de Python [!DNL Adobe Target] con capacidades de toma de decisiones en el dispositivo. Esta adición más reciente refuerza el conjunto [!DNL Target] de SDK del lado del servidor. Estos SDK le ayudan a integrarse con [!DNL Target] y aceleran su tiempo de valor, en el idioma de su elección. Las integraciones del lado del servidor se están convirtiendo en una opción popular, dado que el mercado está cambiando a un mundo sin cookies en el que los datos de origen son valiosos. Los SDK de Target están disponibles en los lenguajes de programación más populares del mercado (Python, Java, JavaScript, C# / .Net).
 
 Para obtener más información, consulte la [Documentación del SDK de Python](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) en la [Guía de SDK de Adobe Target](https://adobetarget-sdks.gitbook.io/docs/).
-
-## Target Standard/Premium 21.5.1 (7 de junio de 2021).
-
-Esta versión incluye las siguientes mejoras:
-
-| Función | Detalles |
-| --- | --- |
-| API de ![Distintivo Premium](/help/assets/premium.png) de [!UICONTROL Búsqueda en el catálogo] de [!DNL Recommendations] | Busque en su catálogo de productos y contenido de [!DNL Recommendations] mediante programación a través de API para identificar los elementos que coinciden con un criterio de búsqueda y simplificar la administración del catálogo.<br>**Limitaciones y notas**:<ul><li>La búsqueda en el catálogo mediante API no es compatible con entornos que contienen más de 2 000 000 de elementos.</li><li>Los resultados de búsqueda en el catálogo a través de API se actualizan más rápido que los buscados a través de la IU de [!DNL Target]. La búsqueda en el catálogo en la IU de [!DNL Target] puede tardar más tiempo en reflejar los resultados más recientes.</li></ul>Para obtener más información, consulte [Búsqueda de entidades](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) en la Guía API de *[!DNL Adobe Target][!DNL Recommendations]*. |
-
-Esta versión de mantenimiento de la versión contiene las siguientes correcciones.
-
-* Se ha corregido un problema que provocaba que el espacio de trabajo predeterminado cambiara a otro espacio de trabajo al actualizar la página [!UICONTROL Audiencias]. (TGT-38871)
-* Se ha corregido un problema en [!UICONTROL Administración] > [!UICONTROL Implementación] que a veces provocaba un mensaje de error que indicaba que &quot;Es posible que el mbox global no esté sincronizado. Intenta reguardarlo&quot;.
 
 ## ![Insignia del SDK web de Adobe Experience Platform](/help/assets/platform.png) versión 2.5.0 (1 de junio de 2021) de [!DNL Adobe Experience Platform Web SDK]
 
@@ -49,15 +45,6 @@ Esta versión de [!DNL Platform Web SDK] incluye compatibilidad con lo siguiente
 | Función | Detalles |
 | --- | --- |
 | Compatibilidad de redireccionamiento con [!UICONTROL Analytics for Target] (A4T) | El SDK web de Platform ahora admite redirecciones [!DNL Target] al utilizar [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obtener más información, consulte [Implementación de Analytics para [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
-
-## Versión 2.5.0 de at.js (13 de mayo de 2021)
-
-Esta versión de at.js incluye las siguientes mejoras y cambios:
-
-* [Compatibilidad de decisiones en el dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) para at.js.
-* [Vista previa de vínculos](/help/c-activities/c-activity-qa/activity-qa.md) Compatibilidad con actividades de Automated Personalization
-
-Esta versión también elimina la compatibilidad con Microsoft Internet Explorer 10, Internet Explorer 11 y todas las versiones anteriores. Microsoft Edge sigue siendo compatible con at.js 2.5.0 y versiones posteriores.
 
 ## Notas de la versión adicionales y detalles de la versión
 
