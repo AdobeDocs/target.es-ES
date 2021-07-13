@@ -4,10 +4,10 @@ description: Conozca los requisitos de implementación de Analytics para [!DNL T
 title: ¿Qué Debo Saber Antes De Implementar A4T?
 feature: 'Analytics for Target (A4T) '
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 31%
+source-wordcount: '879'
+ht-degree: 28%
 
 ---
 
@@ -34,7 +34,7 @@ Esta integración con A4T requiere que implemente las siguientes versiones de la
 Esta integración requiere que implemente las siguientes versiones de la biblioteca (o versiones más recientes) si no planea utilizar ofertas de redireccionamiento con A4T. El orden de la lista es el orden de las operaciones.
 
 * [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js versión 1.8.0
-* [!DNL Adobe Target] (según su implementación): at.js versión 0.9.1 o mbox.js versión 61
+* [!DNL Adobe Target]: Versión 0.9.1 de at.js
 * Adobe Analytics: appMeasurement.js versión 1.7.0
 
 ### Requisitos necesarios si se utilizan ofertas de redireccionamiento con A4T
@@ -46,8 +46,6 @@ Para utilizar ofertas de redireccionamiento con A4T, debe implementar las siguie
    **Nota:**  at.js 1.8.0 o versiones posteriores ya no funciona con versiones de API de visitante anteriores a la 2.5.0 para pasar parámetros  [!DNL Adobe Audience Manager] (AAM).
 
 * [!DNL Adobe Target]: Versión 1.6.2 de at.js
-
-   **Nota**: La biblioteca mbox.js no admite ofertas de redireccionamiento con A4T. La implementación debe utilizar at.js.
 
 * Adobe Analytics: appMeasurement.js versión 2.1
 
@@ -78,7 +76,6 @@ Todas las llamadas [!DNL Target] utilizadas por una actividad de A4T para ofrece
 Las visitas que contienen datos de [!DNL Analytics] y [!DNL Target] contienen un ID de datos suplementario. Puede ver este ID en [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) como parámetro `sdid`. Por ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Este ID se genera cada vez que se cumplen los siguientes criterios:
 
 * Se ha implementado el servicio de ID de visitante.
-* Se ha implementado una versión de [!DNL mbox.js] que admite esta integración.
 
 Cuando [solucione problemas](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), asegúrese de que el ID suplementario esté presente en las visitas [!DNL Analytics].
 
@@ -86,7 +83,7 @@ Cuando [solucione problemas](/help/c-integrating-target-with-mac/a4t/c-a4t-troub
 
 Si at.js, [!DNL Experience Cloud Visitor ID Service] y appMeasurement.js están en la página, [!DNL Analytics] y [!DNL Target] vinculan correctamente eventos para fines de informes y análisis en el backend, siempre y cuando se incluya el ID suplementario correcto desde la página. No es necesario administrar y realizar operaciones adicionales para A4T para funcionar correctamente.
 
-Hay casos en los que es posible que desee tener más control sobre cuándo y cómo enviar datos de análisis relacionados con [!DNL Target] a [!DNL Analytics] con fines de informes. Es posible que tenga una herramienta de análisis interna que utilice con fines internos. Sin embargo, también desea enviar los datos de análisis a [!DNL Analytics] mediante el producto de análisis interno para que otros miembros de su organización puedan seguir utilizando [!DNL Analytics] como fuente de informes visual. Consulte [Paso 7: Agregar la referencia de at.js o mbox.js a todas las páginas del sitio](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) en *Implementación de Analytics para Target* para obtener más información.
+Hay casos en los que es posible que desee tener más control sobre cuándo y cómo enviar datos de análisis relacionados con [!DNL Target] a [!DNL Analytics] con fines de informes. Es posible que tenga una herramienta de análisis interna que utilice con fines internos. Sin embargo, también desea enviar los datos de análisis a [!DNL Analytics] mediante el producto de análisis interno para que otros miembros de su organización puedan seguir utilizando [!DNL Analytics] como fuente de informes visual. Consulte [Paso 7: Haga referencia a at.js en todas las páginas del sitio](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) en *Implementación de Analytics para Target* para obtener más información.
 
 ## Audiencias compartidas
 
