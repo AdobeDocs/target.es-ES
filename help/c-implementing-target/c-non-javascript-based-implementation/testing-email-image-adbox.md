@@ -5,11 +5,10 @@ title: ¿Cómo pruebo un AdBox de imagen de correo electrónico?
 feature: Implementación del correo electrónico
 role: Developer
 exl-id: 87a918d7-83dc-4277-821b-d90302c59736
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 90%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
@@ -40,7 +39,7 @@ Donde los siguientes valores son específicos del usuario:
 
 | Valor | Descripción |
 |--- |--- |
-| clientcode | El código de cliente de su compañía: Lo encontrará en at.js o mbox.js como `clientCode='yourclientcode'`. Todo esto se escribe en minúsculas y no contiene caracteres especiales. |
+| clientcode | El código de cliente de su compañía: Lo encontrará en at.js como `clientCode='yourclientcode'`. Todo esto se escribe en minúsculas y no contiene caracteres especiales. |
 | imagen | El tipo de oferta. Siempre es “image” para las publicidades gráficas y “page” para los redirectores. |
 | email_header | El nombre del AdBox. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Requerido. Reemplace la URL con el contenido predeterminado apropiado para su adbox. Debe ser una referencia absoluta y debe estar codificado en la dirección URL. |
