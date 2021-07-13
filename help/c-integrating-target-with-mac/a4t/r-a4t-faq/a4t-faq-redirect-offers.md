@@ -4,10 +4,10 @@ description: Encuentre respuestas a preguntas sobre el uso de ofertas de redirec
 title: ¿Dónde puedo encontrar preguntas más frecuentes sobre las ofertas de redireccionamiento con A4T?
 feature: 'Analytics for Target (A4T) '
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 63%
+source-wordcount: '1298'
+ht-degree: 62%
 
 ---
 
@@ -31,8 +31,6 @@ Su implementación debe cumplir los siguientes requisitos mínimos:
 * Adobe Analytics: [!DNL appMeasurement.js] versión 2.1.
 * Adobe Target: [!DNL at.js] versión 1.6.2 o posterior.
 
-   La biblioteca [!DNL mbox.js] no admite ofertas de redireccionamiento con A4T. La implementación debe utilizar [!DNL at.js].
-
 Las tres bibliotecas deben incluirse en la página con la oferta de redireccionamiento y en aquella a la que se redireccione al visitante.
 
 ## ¿Por qué algunas veces hay discrepancias en los datos entre A4T y Analytics?
@@ -50,10 +48,6 @@ Se recomienda utilizar el compositor basado en formularios para crear una activi
 Una ventaja de utilizar ofertas de redireccionamiento para todas las experiencias de la actividad, incluida la experiencia predeterminada (control), es que puede reunir las mismas condiciones en todas las experiencias. Por ejemplo, si la experiencia predeterminada no tiene una oferta de redireccionamiento y las demás experiencias sí, la velocidad de la experiencia sin la oferta de redireccionamiento tiene una ventaja inherente. Solo se recomiendan las ofertas de redireccionamiento para situaciones temporales, como las pruebas. No se recomiendan ofertas de redireccionamiento para situaciones permanentes, como la personalización. Después de determinar el “ganador”, debe quitar la redirección para mejorar el rendimiento de carga de página.
 
 Para obtener más información sobre este problema, consulte la información “Ofertas de redireccionamiento” en [Problemas conocidos](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
-
-## ¿Puedo utilizar ofertas de redireccionamiento con A4T si empleo la biblioteca mbox.js de JavaScript? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
-
-La biblioteca [!DNL mbox.js] no admite ofertas de redireccionamiento con A4T. La implementación debe utilizar [!DNL at.js].
 
 ## ¿Son compatibles el Compositor de experiencias visuales (VEC) y el Compositor de experiencias basado en formularios? {#section_FDA26FE7909B48539DA770559E687677}
 
