@@ -2,14 +2,13 @@
 keywords: instancias en la nube;lista de sufijos públicos;sufijos públicos;cookie;cookie de origen;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
 description: Explore los problemas (con soluciones) que los clientes afrontan al usar instancias basadas en la nube para probar el Adobe [!DNL Target] o con fines de prueba de concepto.
 title: ¿Puedo usar [!DNL Target] con instancias basadas en la nube?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 82%
+source-wordcount: '168'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +24,6 @@ Estos dominios, y muchos otros, son parte de la [Lista pública de sufijos](http
 
 **Problema:** los navegadores modernos no guardarán las cookies si utiliza estos dominios.
 
-Las bibliotecas JavaScript [!DNL at.js] y [!DNL mbox.js] utilizan cookies para realizar un seguimiento de los usuarios y asegurar que [!DNL Target] ofrezca siempre una experiencia coherente. Si las bibliotecas JavaScript de [!DNL Target] no pueden guardar las cookies, las solicitudes de [!DNL Target] se desactivan.
+La biblioteca JavaScript [!DNL at.js] usa cookies para rastrear usuarios y asegurar que [!DNL Target] siempre ofrezca una experiencia coherente. Si la biblioteca JavaScript [!DNL Target] no puede guardar cookies, las solicitudes [!DNL Target] se desactivan.
 
 **Solución:** Si piensa usar instancias basadas en la nube con dominios incluidos en la lista de sufijos públicos, es recomendable que se asegure de personalizar el ajuste `cookieDomain`. Para obtener más información, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
