@@ -2,12 +2,12 @@
 keywords: preguntas frecuentes;faq sobre at.js;preguntas frecuentes sobre at.js;parpadeo;cargador;cargador de páginas;dominios cruzados;dominio cruzado;tamaño de archivo;dominio x;at.js y mbox.js;solo x;safari;una sola página;aplicación de una sola página;spa;selectores desaparecidos;selectores;tt.omtrdc.net;Adobe Experience Manager;AEM;dirección ip;solo http;solo Http;ip;segura;dominio de cookie
 description: Lea las respuestas a las preguntas más frecuentes sobre la biblioteca JavaScript de Adobe [!DNL Target] at.js.
 title: ¿Qué son las preguntas y respuestas comunes sobre at.js?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2609'
 ht-degree: 75%
 
 ---
@@ -26,9 +26,9 @@ El diagrama siguiente compara el rendimiento de carga de página de mbox.js y at
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-Como se observa en la ilustración, al usar mbox.js, el contenido de la página no empieza a cargarse hasta que no se completa la llamada a [!DNL Target]. Con at.js, el contenido de la página empieza a cargarse cuando se inicia la llamada a [!DNL Target] y no espera hasta que ha finalizado.
+Como se ilustra más arriba, al usar mbox.js, el contenido de la página no empezó a cargarse hasta que no se completó la llamada [!DNL Target] . Con at.js, el contenido de la página empieza a cargarse cuando se inicia la llamada a [!DNL Target] y no espera hasta que ha finalizado.
 
-## ¿Cuál es el impacto de at.js y mbox.js en el tiempo de carga de página? {#page-load}
+## ¿Cuál es el impacto de at.js y mbox.js en el tiempo de carga de página?  {#page-load}
 
 Muchos clientes y consultores quieren conocer el impacto de [!DNL at.js] y [!DNL mbox.js] en el tiempo de carga de página, especialmente en el contexto de los nuevos usuarios frente a los que regresan. Lamentablemente, es difícil medir y ofrecer números concretos sobre la influencia de [!DNL at.js] o [!DNL mbox.js] en el tiempo de carga, ya que cada cliente dispone de una implementación diferente.
 
@@ -131,7 +131,7 @@ El archivo at.js pesa aproximadamente 109 kB cuando se descarga. Sin embargo, c
 
 Las implementaciones de at.js utilizan una sola biblioteca ([!DNL at.js]), mientras que las de mbox.js utilizan dos bibliotecas ([!DNL mbox.js] y [!DNL target.js]). Así pues, una comparación más justa sería de at.js con mbox.js *y* `target.js`. Comparando los tamaños comprimidos en formato gzip de las dos versiones, la versión 1.2 de at.js ocupa 34 kB y la versión 63 de mbox.js, 26,2 kB. ``
 
-at.js tiene un tamaño mayor porque realiza mucho más análisis de DOM en comparación con mbox.js. Esto es necesario porque at.js obtiene datos “sin procesar” en la respuesta de JSON y tiene que darle sentido. mbox.js utiliza `document.write()` y todo el análisis lo realiza el explorador.
+at.js tiene un tamaño mayor porque realiza mucho más análisis de DOM en comparación con mbox.js. Esto es necesario porque at.js obtiene datos “sin procesar” en la respuesta de JSON y tiene que darle sentido. mbox.js usaba `document.write()` y todo el análisis lo realizaba el explorador.
 
 A pesar del mayor tamaño de archivo, nuestra prueba determina que las páginas se cargan más rápido con at.js en comparación con mbox.js. Además, at.js es superior desde una perspectiva de seguridad porque no carga archivos adicionales de forma dinámica ni utiliza `document.write`.
 
@@ -144,10 +144,6 @@ Actualmente, at.js utiliza partes de jQuery y, por lo tanto, puede ver la notifi
 No, si el dominio cruzado se establece en x-solamente y Safari tiene deshabilitadas las cookies de terceros, tanto [!DNL mbox.js] como at.js establecen una cookie deshabilitada y no se ejecuta ninguna solicitud de mbox para el dominio de ese cliente en particular.
 
 Para permitir el acceso desde Safari, habría que “deshabilitar” (solo establece una cookie de origen) o “habilitar” (solo establece una cookie de origen en Safari, pero establece cookies de origen y de terceros en otros navegadores) un mejor dominio x.
-
-## ¿Puedo ejecutar at.js y mbox.js en paralelo? {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
-
-No en la misma página. Sin embargo, mientras implementa y prueba [!DNL at.js], puede ejecutar [!DNL at.js] en algunas páginas y [!DNL mbox.js] en otras hasta que haya validado [!DNL at.js].
 
 ## ¿Puedo usar el [!DNL Target] Compositor de experiencias visuales (VEC) en mis aplicaciones de una sola página? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
