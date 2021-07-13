@@ -2,13 +2,12 @@
 keywords: servidor de seguimiento de analytics;A4T;segmentos de analytics;grupos de informes;datos incorrectos;huérfanos;sdid;VisitorAPI.js;mboxMCSDID;fantasma;sin especificar
 description: Explore los problemas comunes que los clientes han encontrado al usar Analytics for [!DNL Target] (A4T).
 title: '¿Cómo puedo solucionar los problemas de integración (A4T) y de Analytics? [!DNL Target] '
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 42%
+source-wordcount: '992'
+ht-degree: 39%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 42%
 
 Este tema cubre algunos problemas comunes que se han encontrado al usar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
-## Las actividades no muestran datos en Analytics y aparecen como “sin especificar”.{#unspecified}
+## Las actividades no muestran datos en Analytics y aparecen como “sin especificar”. {#unspecified}
 
 Existen varias razones por las que los datos se muestran como &quot;sin especificar&quot;:
 
@@ -50,7 +49,7 @@ Esa fila no tendrá ninguna información asociada a [!DNL Target] (por ejemplo, 
 
 Si elige una métrica específica de [!DNL Target] en el informe, no se mostrará la fila [!UICONTROL &quot;No especificado&quot;]. La única manera de evitar que esto ocurra en el informe es establecer una [!DNL Target] llamada en cada solicitud enviada desde esa página, lo cual no es común ni necesario.
 
-## Los datos de My Analytics muestran un recuento inflado de visitas o visitantes cuando se inicia A4T.    {#section_4BE374E573D44FB7918611699B74F58E}
+## Los datos de My Analytics muestran un recuento inflado de visitas o visitantes cuando se inicia A4T.   {#section_4BE374E573D44FB7918611699B74F58E}
 
 Para obtener más información, consulte [Minimización de recuentos inflados de visitas y visitantes en A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
@@ -58,15 +57,15 @@ Para obtener más información, consulte [Minimización de recuentos inflados de
 
 Los detalles de alza y confianza no están disponibles en Analytics. Sin embargo, están disponibles en los informes de Target.
 
-## Las actividades no aparecen en los informes de Analytics.    {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Las actividades no aparecen en los informes de Analytics.   {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 Las actividades de A4T requieren que se especifique un servidor de seguimiento. Consulte  [Usar un ](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) servidor de seguimiento de Analytics para asegurarse de que el servidor de seguimiento de Analytics está correctamente configurado.
 
 >[!NOTE]
 >
->No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 61 (o posterior) de mbox.js o la versión 0.9.1 (o posterior) de at.js . La biblioteca mbox.js o at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
+>No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js . La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
 
-## Mis segmentos de Analytics no aparecen en Target.    {#section_DEE87F1557834F448E99381D3D02EEEF}
+## Mis segmentos de Analytics no aparecen en Target.   {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Asegúrese de tener los permisos adecuados antes de empezar a crear actividades de A4T:
 
@@ -74,7 +73,7 @@ Asegúrese de tener los permisos adecuados antes de empezar a crear actividades 
 * Ser miembro de uno o más grupos de Experience Cloud que tienen acceso a Analytics y Target.
 * Compruebe que Analytics y Target están presentes en la sección Aplicaciones de marketing del menú de navegación izquierdo.
 
-## Las métricas de tasas de salto, saltos y salidas aparecen como positivos en los informes.    {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Las métricas de tasas de salto, saltos y salidas aparecen como positivos en los informes.   {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Estas métricas que aparecen como positivas en los informes son un problema conocido.
 
@@ -101,6 +100,6 @@ Si no ha instalado el depurador, consulte [Introducción a Adobe Experience Plat
 
 ![Depurador](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
-Si no hay ningún ID de datos suplementario en la llamada de [!DNL Target], confirme que el archivo [!DNL VisitorAPI.js] se carga antes que [!DNL at.js] o [!DNL mbox.js]. Si no hay ningún ID de datos suplementario en la llamada de [!DNL Analytics], confirme que la llamada de [!DNL Target] se activa antes que la llamada de [!DNL Analytics].
+Si no hay ningún ID de datos suplementario en la llamada [!DNL Target], confirme que el archivo [!DNL VisitorAPI.js] se carga antes que [!DNL at.js]. Si no hay ningún ID de datos suplementario en la llamada de [!DNL Analytics], confirme que la llamada de [!DNL Target] se activa antes que la llamada de [!DNL Analytics].
 
 Para obtener más información, consulte [Implementación de Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) o póngase en contacto con el [Servicio de atención al cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
