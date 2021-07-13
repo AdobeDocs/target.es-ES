@@ -5,10 +5,9 @@ title: ¿Cómo gestiona [!DNL Target] las políticas de cookies de Samesite de G
 feature: Privacidad y seguridad
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '1950'
 ht-degree: 7%
 
 ---
@@ -82,14 +81,12 @@ Sin embargo, cuando decide utilizar el seguimiento entre dominios para aprovecha
 
 Para comprender lo que debe hacer para que [!DNL Target] siga funcionando para los usuarios de Google Chrome 80+, consulte la siguiente tabla, de la que verá las siguientes columnas:
 
-* **Biblioteca JavaScript de Target**: Si utiliza mbox.js, at.js 1.*x* o at.js 2.** xon your sites.
+* **Biblioteca JavaScript de Target**: Si utiliza at.js 1.** xor at.js 2.** xon your sites.
 * **SameSite con cookies predeterminadas = Habilitado**: Si los usuarios tienen habilitado &quot;SameSite con cookies predeterminadas&quot;, ¿cómo le afectará a usted? ¿Hay algo que necesite hacer  [!DNL Target] para seguir funcionando?
 * **Las cookies sin SameSite deben ser seguras = Habilitado**: Si los usuarios tienen habilitado &quot;Las cookies sin SameSite deben ser seguras&quot;, ¿cómo le afectará a usted? ¿Hay algo que necesite hacer para  [!DNL Target] seguir funcionando?
 
 | Biblioteca JavaScript de Target | SameSite con cookies predeterminadas = Habilitado | Las cookies sin SameSite debe ser seguras = Habilitado |
 | --- | --- | --- |
-| mbox.js solo con cookie de origen. | Sin impacto. | Sin impacto si no utiliza el seguimiento entre dominios. |
-| mbox.js con seguimiento entre dominios habilitado. | Sin impacto. | Debe habilitar el protocolo HTTPS para su sitio.<br>[!DNL Target] utiliza una cookie de terceros para rastrear usuarios y Google requiere que las cookies de terceros tengan un indicador  `SameSite = None` y seguro. El indicador Secure requiere que sus sitios utilicen el protocolo HTTPS. |
 | at.js 1.*x*  con cookie de origen. | Sin impacto. | Sin impacto si no utiliza el seguimiento entre dominios. |
 | at.js 1.*x*  con seguimiento entre dominios habilitado. | Sin impacto. | Debe habilitar el protocolo HTTPS para su sitio.<br>[!DNL Target] utiliza una cookie de terceros para rastrear usuarios y Google requiere que las cookies de terceros tengan un indicador  `SameSite = None` y seguro. El indicador Secure requiere que sus sitios utilicen el protocolo HTTPS. |
 | at.js 2.*x*  | Sin impacto. | Sin impacto. |
@@ -100,15 +97,13 @@ Entonces, ¿qué necesitamos hacer en nuestra plataforma para ayudarle a cumplir
 
 | Biblioteca JavaScript de Target | SameSite con cookies predeterminadas = Habilitado | Las cookies sin SameSite debe ser seguras = Habilitado |
 | --- | --- | --- |
-| mbox.js solo con cookie de origen. | Sin impacto. | Sin impacto si no utiliza el seguimiento entre dominios. |
-| mbox.js con seguimiento entre dominios habilitado. | Sin impacto. | [!DNL Target] agrega el indicador  `SameSite = None` y seguro a la cookie de terceros cuando se llaman a los  [!DNL Target] servidores. |
 | at.js 1.*x*  con cookie de origen. | Sin impacto. | Sin impacto si no utiliza el seguimiento entre dominios. |
 | at.js 1.*x*  con seguimiento entre dominios habilitado. | Sin impacto. | at.js 1.*x*  con seguimiento entre dominios habilitado. |
 | at.js 2.*x*  | Sin impacto. | Sin impacto. |
 
 ## ¿Cuál es el impacto si no pasa a utilizar el protocolo HTTPS?
 
-El único caso de uso que le afectará es si utiliza la función de seguimiento entre dominios en [!DNL Target] a través de mbox.js o at.js 1.*x*. Sin pasar a HTTPS, que es un requisito de Google, verá un pico en los visitantes únicos en sus dominios, ya que la cookie de terceros que usamos será eliminada por Google. Y como se eliminará la cookie de terceros, [!DNL Target] no podrá proporcionar una experiencia coherente y personalizada para ese usuario a medida que este navega de un dominio a otro. La cookie de terceros se utiliza principalmente para identificar a un único usuario que navega entre sus dominios.
+El único caso de uso que le afectará es si utiliza la función de seguimiento entre dominios de [!DNL Target] a at.js 1.*x*. Sin pasar a HTTPS, que es un requisito de Google, verá un pico en los visitantes únicos en sus dominios, ya que la cookie de terceros que usamos será eliminada por Google. Y como se eliminará la cookie de terceros, [!DNL Target] no podrá proporcionar una experiencia coherente y personalizada para ese usuario a medida que este navega de un dominio a otro. La cookie de terceros se utiliza principalmente para identificar a un único usuario que navega entre sus dominios.
 
 ## Conclusión. 
 
