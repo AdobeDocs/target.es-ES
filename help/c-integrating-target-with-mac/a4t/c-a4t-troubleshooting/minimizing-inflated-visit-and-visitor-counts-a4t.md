@@ -2,13 +2,12 @@
 keywords: datos parciales;A4T;discrepancias;Analytics para Target;huérfano;grupo de informes virtual;fantasma;resolución de problemas;no vinculado;inflado;no especificado
 description: Aprenda a minimizar los efectos de los recuentos inflados de visitas y visitantes al utilizar Analytics for [!DNL Target] (A4t). Conozca qué son los "datos parciales" y cómo reducirlos.
 title: ¿Cómo minimizo los recuentos inflados de visitas y visitantes en A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 48%
+source-wordcount: '1346'
+ht-degree: 47%
 
 ---
 
@@ -27,19 +26,16 @@ Información que le ayudará a minimizar los efectos de los recuentos inflados d
 >* Adobe Analytics: appMeasurement.js versión 2.1.
 >* Adobe Target: versión 0.9.6 de at.js o posterior (excepto la versión 1.1.0 si se utilizan ofertas de redireccionamiento con A4T).
 
->
->  
-La biblioteca mbox.js no admite ofertas de redireccionamiento con A4T. La implementación debe utilizar at.js.
 
-## Cambios {#section_9CCF45F5D66D48EBA88F3A178B27D986}
+## Cambios  {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
 Cuando se utiliza [!DNL Adobe Analytics] para medir [!DNL Target] actividades (lo que se conoce como A4T), [!DNL Analytics] recopila datos adicionales que no están disponibles cuando no hay actividad [!DNL Target] en la página. La actividad [!DNL Target] activa una llamada al principio de la página, pero [!DNL Analytics] suele activar sus llamadas de recopilación de datos al final de la página. En las implementaciones de A4T realizadas hasta la fecha, Adobe incluye estos datos adicionales siempre que había una actividad [!DNL Target] activa. En adelante, Adobe incluye estos datos adicionales solo si se han activado tanto la etiqueta [!DNL Target] como la [!DNL Analytics].
 
-## ¿Por qué ha hecho Adobe este cambio? {#section_92380A4BD69E4B8886692DD27540C92A}
+## ¿Por qué ha hecho Adobe este cambio?  {#section_92380A4BD69E4B8886692DD27540C92A}
 
 Adobe se enorgullece de la calidad y la precisión de sus datos. Cuando se activa la etiqueta [!DNL Target] , pero no la etiqueta [!DNL Analytics] , Analytics registra &quot;datos parciales&quot; (a veces denominados &quot;visitas no vinculadas&quot;). Estas visitas no vinculadas no serían capturadas por [!DNL Analytics] si no había actividad [!DNL Target]. Aunque la inclusión de estos datos parciales en los informes [!DNL Analytics] proporciona información adicional, también crea incoherencia con los datos históricos de periodos en los que no se ejecutó ninguna actividad [!DNL Target]. Esta situación puede causar problemas a los usuarios de [!DNL Analytics] que analizan las tendencias a lo largo del tiempo. Para garantizar la coherencia de los datos en [!DNL Analytics], el Adobe excluye todos los datos parciales.
 
-## Contribuciones a los datos parciales {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
+## Contribuciones a los datos parciales  {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
 Adobe ha encontrado algunos clientes con altas tasas de datos parciales en [!DNL Analytics]. Las altas tasas de datos parciales pueden resultar de una implementación incorrecta, pero también hay causas legítimas.
 
@@ -49,24 +45,24 @@ Estas son algunas de las causas que se han identificado para los datos parciales
 * **Páginas lentas:** [!DNL Target] las llamadas de se realizan en la parte superior de la página y las  [!DNL Analytics] llamadas suelen realizarse en la parte inferior de la página. Si la página se carga lentamente, aumenta la probabilidad de que un visitante salga de la página después de que se active la llamada [!DNL Target] , pero antes de la llamada [!DNL Analytics] . Las páginas lentas pueden resultar especialmente problemáticas en los sitios web móviles, donde las conexiones suelen ser más lentas.
 * **Errores de página:** si hay errores de JavaScript u otros escenarios en los que no se activa ninguno de los puntos de contacto (servicio de ID de Experience Cloud, Target y Analytics), se obtendrán resultados de datos parciales.
 * **Ofertas de redireccionamiento en la  [!DNL Target] actividad:** Para redireccionar ofertas en actividades que utilizan A4T, la implementación debe satisfacer ciertos requisitos mínimos. Además, hay información importante que debe conocer. Para obtener más información, consulte las [preguntas más frecuentes de A4T sobre las ofertas de redireccionamiento](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Versiones antiguas de bibliotecas:** a lo largo del último año, el Adobe ha realizado varias mejoras en las bibliotecas de JavaScript (  [!DNL appMeasurement.js],  `at.js/mbox.js` y  `visitorAPI.js`) para garantizar que los datos se envíen de la manera más eficiente posible. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Versiones antiguas de bibliotecas:** a lo largo del último año, el Adobe ha realizado varias mejoras en las bibliotecas de JavaScript (  [!DNL appMeasurement.js],  `at.js` y  `visitorAPI.js`) para garantizar que los datos se envíen de la manera más eficiente posible. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
-## Prácticas recomendadas para reducir la cantidad de datos parciales {#section_065C38501527451C8058278054A1818D}
+## Prácticas recomendadas para reducir la cantidad de datos parciales  {#section_065C38501527451C8058278054A1818D}
 
 Revise los siguientes pasos para reducir la recopilación de datos parciales:
 
 | Paso | Tarea |
 | --- | --- |
 | ![Paso 1](assets/step1_icon.png) | Asegúrese de que el grupo de informes seleccionado en [!DNL Target] es el mismo que el de las páginas donde se presenta la actividad. |
-| ![Paso 2](assets/step2_icon.png) | Asegúrese de que las bibliotecas visitorAPI.js, appMeasurement.js, at.js/mbox.js están en versiones compatibles con A4T. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
+| ![Paso 2](assets/step2_icon.png) | Asegúrese de que las bibliotecas visitorAPI.js, appMeasurement.js y at.js están en versiones compatibles con A4T. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Paso 3](assets/step3_icon.png) | Asegúrese de que se establece SDID en todas las llamadas [!DNL Target] y [!DNL Analytics] que salen de la página y que coinciden.<br/>Utilice un analizador de redes o una herramienta de depuración para asegurarse de que el  `mboxMCSDID` parámetro de las  [!DNL Target] llamadas coincide con el parámetro SDID de la  [!DNL Analytics] llamada. |
 | ![Paso 4](assets/step4_icon.png) | Confirme que las bibliotecas de implementación se cargan en el orden correcto en sus sitios. Para obtener más información, consulte   [Implementación de Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
-## Ver la cantidad de datos parciales guardada {#section_89B663E2824A4805AB934153508A0F4B}
+## Ver la cantidad de datos parciales guardada  {#section_89B663E2824A4805AB934153508A0F4B}
 
 Aunque esta información no está disponible directamente en [!DNL Analytics], puede ponerse en contacto con el servicio de atención al cliente de Adobe para recibir un informe de datos parciales. El objetivo de este informe es facilitar la depuración.
 
-## Visualización de las tendencias históricas sin datos parciales {#section_4C9DED560FAD4428B362DDA2064897C3}
+## Visualización de las tendencias históricas sin datos parciales  {#section_4C9DED560FAD4428B362DDA2064897C3}
 
 Este cambio de procesamiento solo afecta a los datos después de la fecha de la versión (14 de noviembre de 2016). Si desea ajustar las métricas históricas para que coincidan, Adobe recomienda crear un segmento para excluir los datos parciales.
 
@@ -99,6 +95,6 @@ Cuando cree un grupo de informes virtuales, especifique la siguiente configuraci
 
 Para minimizar estas visitas &quot;huérfanas&quot;, puede crear un [grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que las excluya, tal y como hemos explicado.
 
-## Consecuencias para los informes de [!DNL Target] {#section_AAD354C722BE46D4875507F0FCBA5E36}
+## Consecuencias para los informes de [!DNL Target]  {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
 Una vez que se realice este cambio, es posible que observe que disminuyen los nuevos visitantes y las visitas en las pruebas en directo porque [!DNL Adobe] no procesa la entrada de datos parciales. Las conversiones y visitas a otras métricas [!DNL Analytics] no se verán afectadas.
