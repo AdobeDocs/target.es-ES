@@ -1,13 +1,13 @@
 ---
 keywords: SDK web de Adobe Experience Platform;sdk web de aep;sdk de aep;optimización de los motores de búsqueda;optimización del motor de búsqueda;seo;clústeres edge, clústeres centrales;at.js;mbox.js;
-description: Obtenga información sobre cómo utilizar las bibliotecas de Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript (at.js y SDK web Experience Platform), los centros de datos de Adobe y las pruebas de SEO.
+description: Obtenga información sobre cómo utilizar las bibliotecas de JavaScript de Adobe  [!DNL Target] works, including information about the [!DNL Target]  (at.js y SDK web de Experience Platform), los centros de datos de Adobe y las pruebas de optimización de los motores de búsqueda (SEO).
 title: ¿Cómo funciona  [!DNL Target] ?
 feature: Información general
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 95%
 
 Descubra cómo funciona [!DNL Adobe Target], incluida la información acerca de las bibliotecas de [!DNL Adobe Experience Platform Web SDK] y JavaScript (at.js y mbox.js). Este artículo también presenta los distintos tipos de actividades que puede crear mediante [!DNL Target]. También puede obtener información sobre la red de Edge de [!DNL Target], la optimización de los motores de búsqueda (SEO) y cómo [!DNL Target] detecta los bots.
 
-## [!DNL Target]Bibliotecas de SDK web de la plataforma de y de JavaScript  {#libraries}
+## [!DNL Target] Bibliotecas de SDK web de la plataforma de y de JavaScript {#libraries}
 
 [!DNL Target] se integra con los sitios web que utilizan las bibliotecas de [!DNL Experience Platform Web SDK] o JavaScript:
 
-* **SDK web de Adobe Experience Platform:** El  [SDK web de ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) Experience Platform es una nueva biblioteca JavaScript del lado del cliente. El SDK web del Experience Platform permite a los clientes de [!DNL Adobe Experience Cloud] interactuar con los distintos servicios de [!DNL Experience Cloud] (incluido [!DNL Target]) a través de la [!DNL Experience Platform] red perimetral. Adobe recomienda que todos los clientes nuevos de [!DNL Target] implementen el [!DNL Experience Platform Web SDK].
+* **SDK web de Adobe Experience Platform:** El [SDK web de Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) es una nueva biblioteca de JavaScript del lado del cliente. El SDK web de Experience Platform permite a los clientes de [!DNL Adobe Experience Cloud] interactuar con los distintos servicios de [!DNL Experience Cloud] (incluido [!DNL Target]) a través de la red de Edge de [!DNL Experience Platform]. Adobe recomienda que todos los clientes nuevos de [!DNL Target] implementen el [!DNL Experience Platform Web SDK].
 * **at.js:** La biblioteca at.js es una biblioteca de implementación para [!DNL Target]. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js se actualiza con frecuencia con nuevas funciones. Adobe recomienda que todos los clientes que utilicen at.js actualicen sus implementaciones a la [última versión de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** la biblioteca mbox.js es la biblioteca de implementación heredada para [!DNL Target]. La biblioteca mbox.js ya no es compatible a partir del 31 de marzo de 2021.
+* **mbox.js:** la biblioteca mbox.js es la biblioteca de implementación heredada para [!DNL Target]. La biblioteca mbox.js deja de ser compatible a partir del 31 de marzo de 2021.
 
 Haga referencia a [!DNL Experience Platform Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, puede añadir una de estas bibliotecas al encabezado global. Alternativamente, considere la posibilidad de utilizar [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=es) para implementar [!DNL Target].
 
 Los siguientes recursos contienen información detallada para ayudarle a implementar el SDK web de Experience Platform o at.js:
 
 * [Extensión Web SDK de Adobe Experience Platform](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=es#configure-the-aep-web-sdk-extension)
-* [Implementación  [!DNL Target]  de  mediante Adobe Experience Platform Launch ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementación  [!DNL Target]  de mediante Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Cada vez que un visitante solicita una página que se ha optimizado para [!DNL Target], se envía una solicitud al sistema de segmentación. La solicitud ayuda a determinar qué contenido se mostrará a ese visitante. Este proceso se produce en tiempo real. Cada vez que se carga una página, el sistema realiza una solicitud del contenido y la completa. El contenido está regido por reglas de actividades y experiencias controladas por especialistas en marketing y se segmenta para cada visitante del sitio. El contenido se sirve para indicar que el visitante de cada sitio tiene más probabilidades de responder, interactuar con o, en última instancia, comprar. El contenido personalizado ayuda a maximizar las tasas de respuesta, las tasas de adquisición y los ingresos.
 
@@ -51,7 +51,7 @@ Para obtener más información, consulte [Creación de pruebas A/B](/help/c-acti
 
 ### [!UICONTROL Asignación automática]
 
-[!UICONTROL Asignación automática identifica un ganador entre dos o más experiencias. ] [!UICONTROL La asignación automática] reasigna automáticamente más tráfico a la experiencia ganadora, lo que ayuda a aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
+[!UICONTROL Asignación automática] identifica un ganador entre dos o más experiencias. [!UICONTROL La asignación automática] reasigna automáticamente más tráfico a la experiencia ganadora, lo que ayuda a aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 
 Para obtener más información, consulte [[!UICONTROL Asignación automática]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -61,7 +61,7 @@ La segmentación automática utiliza aprendizaje automático avanzado para selec
 
 Para obtener más información, consulte [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
-### [!UICONTROL Personalización automatizada] (AP)
+### [!UICONTROL Automated Personalization] (AP)
 
 Automated Personalization (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones de ofertas a cada visitante. La entrega de experiencias se basa en perfiles de clientes individuales para personalizar el contenido y dirigir el alza.
 
@@ -77,7 +77,7 @@ Consulte [direccionamiento de experiencias](/help/c-activities/t-experience-targ
 
 ### [!UICONTROL Prueba multivariable] (MVT)
 
-Multivariate Testing (MVT) compara combinaciones de ofertas entre elementos de una página para ver cuál ofrece el mejor resultado para una audiencia específica. MVT ayuda a identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
+Prueba multivariada (MVT) compara combinaciones de ofertas entre elementos de una página para ver cuál ofrece el mejor resultado para una audiencia específica. MVT ayuda a identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 
 Consulte [Prueba multivariable](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) para obtener más información.
 
@@ -103,7 +103,7 @@ La solución de [!DNL Target] está alojada en centros de datos de todo el mundo
 
 Las ubicaciones del clúster central contienen un centro de recopilación de datos y uno de procesamiento de datos. Las ubicaciones del clúster de Edge contienen solo un centro de recopilación de datos. Cada grupo de informes está asignado a un centro de procesamiento de datos específico.
 
-Los datos de actividad del sitio del cliente los recopila el más cercano de siete clústeres de Edge. Estos datos se dirigen al destino de clúster central predeterminado por el cliente (una de las tres ubicaciones: Oregón, Dublín, Singapur) para su procesamiento. Los datos del perfil del visitante se almacenan en el clúster de Edge más cercano al visitante del sitio. Las ubicaciones de clústeres perimetrales incluyen las ubicaciones de Cluster Central y Virginia, Mumbai, Sydney y Tokio.
+Los datos de actividad del sitio del cliente los recopila el más cercano de siete clústeres de Edge. Estos datos se dirigen al destino de clúster central predeterminado por el cliente (una de las tres ubicaciones: Oregón, Dublín, Singapur) para su procesamiento. Los datos del perfil del visitante se almacenan en el clúster de Edge más cercano al visitante del sitio. Entre las ubicaciones de clústeres de Edge se encuentran las del clúster central y Virginia, Bombay, Sídney y Tokio.
 
 En lugar de responder a todas las solicitudes de direccionamiento desde una sola ubicación, el clúster de Edge más cercano al visitante procesa las solicitudes. Este proceso ayuda a mitigar el impacto del tiempo de viaje en red/Internet.
 
@@ -148,11 +148,11 @@ Adobe protege la experiencia del usuario al optimizar y garantizar el rendimient
 * Adobe utiliza un enfoque de varios niveles para garantizar sus aplicaciones y proporcionar la máxima disponibilidad y fiabilidad a sus clientes.
 * Los servicios de asesoramiento de [!DNL Target] ofrecen asistencia para la implementación y soporte continuado para los productos.
 
-## Pruebas sencillas para la optimización del motor de búsqueda (SEO)  {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## Pruebas sencillas para la optimización del motor de búsqueda (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] se adhiere a las directrices de motores de búsqueda en las pruebas.
 
-Google promueve las pruebas de usuario. Google afirma en su documentación que las pruebas A/B y Multivariate Testing no perjudican las clasificaciones de los motores de búsqueda orgánica si se siguen determinadas directrices.
+Google promueve las pruebas de usuario. Google afirma en su documentación que las pruebas A/B y Prueba multivariada no perjudican las clasificaciones de los motores de búsqueda orgánica si se siguen determinadas directrices.
 
 Para obtener más información, consulte los siguientes recursos de Google:
 
@@ -175,9 +175,9 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
    Adobe sigue buscando soluciones viables para cumplir completamente con las directrices de los motores de búsqueda. Para los clientes que deben utilizar direcciones URL independientes para realizar pruebas, Adobe está seguro de que la correcta implementación de las etiquetas canónicas mitigará el riesgo asociado con este método.
 
-* **Realizar experimentos solo cuando sea necesario**: Adobe cree que “cuando sea necesario” significa cuando haya que alcanzar la relevancia estadística. [!DNL Target] [sugiere prácticas recomendadas](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) para determinar el momento en que una prueba ha alcanzado este punto. Adobe le recomienda que incorpore la implementación incrustada en el código de las pruebas ganadoras en el flujo de trabajo de pruebas y le asigne los recursos apropiados.
+* **Realizar experimentos solo cuando sea necesario**: Adobe cree que “cuando sea necesario” significa cuando haya que alcanzar la relevancia estadística. [!DNL Target] [sugiere prácticas recomendadas](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es) para determinar el momento en que una prueba ha alcanzado este punto. Adobe le recomienda que incorpore la implementación incrustada en el código de las pruebas ganadoras en el flujo de trabajo de pruebas y le asigne los recursos apropiados.
 
-   No se recomienda usar la plataforma [!DNL Target] para “publicar” pruebas ganadoras como solución permanente. Si la prueba ganadora se publica para el 100 % de los usuarios el 100 % de las veces, este método se puede utilizar mientras se completa el proceso de incrustar en el código la prueba ganadora.
+   No se recomienda usar la plataforma [!DNL Target] para “publicar” pruebas ganadoras como solución permanente. Si la prueba ganadora se publica para el 100 % de los usuarios el 100 % de las veces, este método se puede utilizar mientras se completa el proceso de incrustar en el código la prueba ganadora.
 
    También es importante tener en cuenta lo que la prueba ha cambiado. Actualizar el color de los botones u otros artículos pequeños que no sean de texto en la página no influirá en las clasificaciones orgánicas. No obstante, los cambios realizados en el texto se deben incrustar en el código.
 
@@ -208,6 +208,6 @@ En concreto, para el tráfico de bots conocido, [!DNL Target] no:
 * Crea ni recupera un perfil de visitante.
 * Registra atributos de perfil ni ejecuta scripts de perfil.
 * Busca segmentos de Adobe Audience Manager (AAM) (si corresponde).
-* Utiliza el tráfico de bots para modelar y ofrecer contenido personalizado para actividades de Recommendations, Auto-Target, Automated Personalization o [!UICONTROL Auto-Allocate]. 
+* Utiliza el tráfico de bots para modelar y ofrecer contenido personalizado para actividades de Recommendations, Auto-Target, Automated Personalization o [!UICONTROL Auto-Allocate].
 * Registra una visita de actividad para la creación informes.
 * Registra datos que se enviarán a la plataforma de [!DNL Adobe Experience Cloud]
