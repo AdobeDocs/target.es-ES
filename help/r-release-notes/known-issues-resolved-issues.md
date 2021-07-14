@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '4390'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Información sobre problemas conocidos de [!DNL Adobe Target]. También incluye 
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
 
-### [!DNL Adobe Experience Platform] los nombres de los segmentos no se muestran en el informe  [!UICONTROL Atributos ] importantes.
+### Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran en el informe [!UICONTROL Atributos importantes].
 
-[!DNL Adobe Experience Platform] los nombres de segmentos no se muestran en el informe  [!UICONTROL Atributos ] importantes para las actividades de  [!UICONTROL Automated Personalization]  (AP) y  [!UICONTROL Segmentación automática]  (AT). (TOP-3813)
+Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran en el informe [!UICONTROL Atributos importantes] en el caso de las actividades de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT). (TOP-3813)
 
 ### El archivado de las actividades de [!UICONTROL Segmentación automática] puede causar problemas de sincronización
 
@@ -39,7 +39,7 @@ Para obtener una lista de las métricas de objetivo admitidas y no admitidas, co
 
 ### Entrega de página {#page-delivery}
 
-Si agrega una regla de plantilla, como contenidos de una URL (/checkout, /cart) en la entrega [de](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, se añadirán espacios adicionales a las reglas. Estos espacios adicionales son estéticos y no afectan a la creación de definiciones de audiencia ni a la entrega de ofertas. (TGT-35920)
+Si agrega una regla de plantilla, como contenidos de una URL (/checkout, /cart) en la [entrega de página](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), se añadirán espacios adicionales a las reglas. Estos espacios adicionales son estéticos y no afectan a la creación de definiciones de audiencia ni a la entrega de ofertas. (TGT-35920)
 
 ### Vínculos de previsualización de control de calidad
 
