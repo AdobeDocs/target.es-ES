@@ -1,13 +1,13 @@
 ---
 keywords: Notas de la versión;nuevas funciones;versiones;actualizaciones;actualización;versión;mejora;mejoras;correcciones;correcciones de errores;actualizaciones
-description: Obtenga información sobre las nuevas funciones, mejoras y correcciones incluidas en la versión actual de  [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas JavaScript.
+description: Conozca las nuevas funciones, mejoras y correcciones incluidas en la versión actual de [!DNL Adobe Target], incluidos SDK, API y bibliotecas de JavaScript.
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: Notas de la versión
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 70%
+ht-degree: 89%
 
 ---
 
@@ -34,11 +34,11 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras. Los números 
 
 ## Python SDK 1.0.0 (16 de junio de 2021)
 
-Ya está disponible el nuevo SDK de Python [!DNL Adobe Target] con capacidades de toma de decisiones en el dispositivo. Esta adición más reciente refuerza el conjunto [!DNL Target] de SDK del lado del servidor. Estos SDK le ayudan a integrarse con [!DNL Target] y aceleran su tiempo de valor, en el idioma de su elección. Las integraciones del lado del servidor se están convirtiendo en una opción popular, dado que el mercado está cambiando a un mundo sin cookies en el que los datos de origen son valiosos. Los SDK de Target están disponibles en los lenguajes de programación más populares del mercado (Python, Java, JavaScript, C# / .Net).
+Ya está disponible el nuevo SDK de Python de [!DNL Adobe Target] con funcionalidades de toma de decisiones en el dispositivo. Esta adición más reciente refuerza el conjunto de [!DNL Target] de SDK del lado del servidor. Estos SDK le ayudan a integrar con [!DNL Target] y aceleran el tiempo de valor, en el idioma de su elección. Las integraciones del lado del servidor se están convirtiendo en una opción popular, dado que el mercado está cambiando a un mundo sin cookies en el que los datos de origen son valiosos. Los SDK de Target están disponibles en los lenguajes de programación más populares del mercado (Python, Java, JavaScript, C# / .Net).
 
 Para obtener más información, consulte la [Documentación del SDK de Python](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) en la [Guía de SDK de Adobe Target](https://adobetarget-sdks.gitbook.io/docs/).
 
-## ![Insignia del SDK web de Adobe Experience Platform](/help/assets/platform.png) versión 2.5.0 (1 de junio de 2021) de [!DNL Adobe Experience Platform Web SDK]
+## ![Insignia del SDK web de Adobe Experience Platform](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versión 2.5.0 (1 de junio de 2021)
 
 Esta versión de [!DNL Platform Web SDK] incluye compatibilidad con lo siguiente:
 
