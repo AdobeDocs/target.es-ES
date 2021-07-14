@@ -4,10 +4,10 @@ description: Lea sugerencias de nuestro panel de expertos acerca del uso de Adob
 title: ¿Dónde puedo encontrar sugerencias y trucos sobre el uso de Target?
 feature: Información general
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: ht
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
+workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -137,7 +137,7 @@ La comparación del rendimiento de conversión de distintas audiencias de distin
 
 Por ejemplo, un cliente de servicios financieros dirigió una campaña promocional para una tarjeta de crédito que incluía incentivos de eventos deportivos profesionales. Mediante pruebas multivariadas factoriales parciales de sus páginas de aterrizaje, el cliente pudo encontrar el equilibrio óptimo en el envío de mensajes sobre los beneficios de las tarjetas de crédito con incentivos deportivos para dirigirse a distintas audiencias de su base de clientes. Este método permitió a la compañía aprovechar y maximizar la conversión en un periodo clave durante un importante evento deportivo.
 
-## Sugerencia 17: Haga que las pruebas sean útiles al iniciarlas únicamente si sabe que podrá tomar acciones en base a los datos.
+## Sugerencia 17: Haga que las pruebas sean útiles al iniciarlas únicamente si sabe que puede actuar con los datos.
 
 No tiene sentido realizar una prueba si no tiene claro qué acciones podrá realizar con los datos. Esto incluye saber cuál es la métrica de éxito clave, qué debe suceder para impulsar a un ganador, cómo seguirá los resultados de las pruebas y qué hará con la información de la audiencia. Para que la prueba se realice de manera rápida y con éxito, es vital que todos los grupos involucrados en la prueba (desarrolladores, creativos, especialistas en pruebas y otros) conozcan su papel antes de comenzar.
 
