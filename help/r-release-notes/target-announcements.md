@@ -7,15 +7,15 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 80%
+ht-degree: 88%
 
 ---
 
 # Anuncios y eventos de Target
 
-Anuncios e información sobre próximos eventos, incluidas sesiones de [!DNL Adobe Target] generador de habilidades, charlas para desarrolladores, seminarios web y sesiones de [!DNL Target] pausas para café.
+Anuncios e información acerca de próximos eventos, incluidas sesiones de Generador de habilidades de [!DNL Adobe Target], charlas para desarrolladores, seminarios web y charlas cortas de [!DNL Target].
 
-## Reconocimiento para [!DNL Adobe Target]
+## Reconocimiento de [!DNL Adobe Target]
 
 [!DNL Adobe Target] fue reconocido recientemente por Forrester y Gartner como líder del mercado.
 
@@ -46,7 +46,7 @@ David Son, [!DNL Target] Senior Product Manager responderá a sus preguntas rela
 
 ## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de Adobe Target
 
-Más que nunca, a los especialistas en marketing, propietarios de productos y desarrolladores se les está asignando la tarea de optimizar la experiencia general del cliente en los sitios, las aplicaciones y en cualquier otro lugar donde se conecten con sus clientes. No sirven varias herramientas con silos de datos e implementaciones complejas.
+Ahora más que nunca, a los expertos en marketing, propietarios de productos y desarrolladores se les está asignando la tarea de optimizar la experiencia general del cliente en los sitios, las aplicaciones y en cualquier otro lugar donde conecten con sus clientes. No sirven varias herramientas con silos de datos e implementaciones complejas.
 
 En este seminario web grabado, los expertos en productos de Adobe Target analizan cómo mover las decisiones de optimización de experiencias críticas en el dispositivo para ejecutarse localmente con latencia cero puede abrirles las puertas a nuevos casos de uso interesantes, a la vez que mejoran el rendimiento del sitio para sus clientes.
 
