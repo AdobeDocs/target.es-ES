@@ -1,13 +1,13 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de target;intro;introducción;introducción a
-description: Lea sugerencias de nuestro panel de expertos acerca del uso de Adobe  [!DNL Target]  en sus tareas de prueba y personalización.
+description: Lea sugerencias de nuestro panel de expertos acerca del uso de Adobe [!DNL Target] en sus tareas de prueba y personalización.
 title: ¿Dónde puedo encontrar sugerencias y trucos sobre el uso de Target?
 feature: Información general
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Consulte [Tokens de respuesta](/help/administrating-target/response-tokens.md) p
 Cuando cree audiencias para dirigir o probar promociones y ofertas, tenga primero en cuenta las variables siguientes:
 
 * Comportamiento. Patrones de visita al sitio y patrones de compra.
-* Referrer. Sitios de referencia y campañas.
+* Referente. Sitios de referencia y campañas.
 * Temporal. Horas del día, días de la semana y factores de temporada.
 * Sin conexión. Patrones de visita y compra en tiendas físicas.
 * Entorno. País de origen, sistema operativo, tipo de navegador.
@@ -109,7 +109,7 @@ Muchos especialistas en marketing inician programas de optimización de segmenta
 * ¿Cuál es la tasa de conversión de la página?
 * ¿Cuánto tiempo espera que se ejecute la prueba antes de que pueda darla por completa con seguridad?
 
-**Sugerencia útil**: Utilice la [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) de Target para determinar el tamaño de muestra necesario para que la prueba se realice correctamente.
+**Sugerencia útil**: Utilice la [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es) de Target para determinar el tamaño de muestra necesario para que la prueba se realice correctamente.
 
 ## Sugerencia 12: Diseñe pruebas más sencillas para asegurarse de que puede crearlas e implementarlas.
 
