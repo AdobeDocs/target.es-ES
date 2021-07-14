@@ -143,7 +143,7 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 ## Optimización del motor de búsqueda (SEO)
 
-* [Pruebas sencillas para la optimización del motor de búsqueda (SEO) ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Pruebas sencillas para la optimización del motor de búsqueda (SEO)](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
 ## Estado del sistema
 
@@ -157,7 +157,7 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 * [Resolución de problemas de la administración de usuarios](/help/administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
 
-## Compositor de experiencias visuales (VEC) 
+## Compositor de experiencias visuales (VEC)
 
 * [Preguntas más frecuentes sobre la optimización y personalización de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Resolución de problemas del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
