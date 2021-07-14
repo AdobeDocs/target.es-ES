@@ -1,13 +1,13 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de target;intro;introducción;introducción a
-description: Empecemos con su primera actividad en Adobe  [!DNL Target]  para que pueda obtener el retorno de la inversión (ROI).
+description: Empecemos con su primera actividad en Adobe [!DNL Target] para que pueda obtener el retorno de la inversión (ROI).
 title: Necesito crear mi primera actividad en Target. ¿Por dónde empiezo?
 feature: Información general
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Si su actividad requiere el asistente de un diseñador, un desarrollador web o u
 
 Se necesita añadir un determinado número de visitantes a la población de prueba para extraer una conclusión estadísticamente relevante de la prueba. Piense en ello: si solo dos personas participan en su prueba, ¿va a confiar en los resultados?
 
-[!DNL Target] se basa en principios estadísticos para determinar que los resultados de una prueba son estadísticamente válidos. La [calculadora de tamaño de la muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) de Adobe le ayuda a determinar el tiempo necesario para ejecutar una prueba en función de la confianza que necesite en sus resultados. Haga clic en el enlace [!UICONTROL Más información] de este cuadro para abrir y utilizar la calculadora.
+[!DNL Target] se basa en principios estadísticos para determinar que los resultados de una prueba son estadísticamente válidos. La [calculadora de tamaño de la muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es) de Adobe le ayuda a determinar el tiempo necesario para ejecutar una prueba en función de la confianza que necesite en sus resultados. Haga clic en el enlace [!UICONTROL Más información] de este cuadro para abrir y utilizar la calculadora.
 
 ### ¿Qué importancia tiene esta actividad?
 
