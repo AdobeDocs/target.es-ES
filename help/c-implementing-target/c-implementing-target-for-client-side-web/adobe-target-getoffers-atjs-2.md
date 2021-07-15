@@ -5,10 +5,10 @@ title: ¿Cómo utilizo la función adobe.target.getOffers() ?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
+source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: '1285'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 
 | Clave | Tipo | ¿Requerido? | Descripción |
 | --- | --- | --- | --- |
-| `consumerId` | Cadena | No | Si no se proporciona, el valor predeterminado es el mbox global del cliente. Esta clave se utiliza para generar el ID de datos suplementario (SDID) utilizado para la integración de A4T. Esta clave (customerId) no es única.<br>Al utilizar  `getOffers()`, cada llamada genera un SDID nuevo. Si tiene varias solicitudes de mbox en la misma página y desea conservar el SDID (de modo que coincida con el SDID de target-global-mbox y el SDID de Adobe Analytics), utilice el parámetro `consumerId` .<br>Si  `getOffers()` incluye tres mboxes (llamados &quot;mbox1&quot;, &quot;mbox2&quot; y &quot;mbox3&quot;), incluya:  `consumerId: "mbox1, mbox2, mbox3"` en la  `getOffers()` llamada de . |
+| `consumerId` | Cadena | No | Si no se proporciona, el valor predeterminado es el mbox global del cliente. Esta clave se utiliza para generar el ID de datos suplementario (SDID) utilizado para la integración de A4T.<br>Al utilizar  `getOffers()`, cada llamada genera un SDID nuevo. Si tiene varias solicitudes de mbox en la misma página y desea conservar el SDID (de modo que coincida con el SDID de target-global-mbox y el SDID de Adobe Analytics), utilice el parámetro `consumerId` .<br>Si  `getOffers()` incluye tres mboxes (llamados &quot;mbox1&quot;, &quot;mbox2&quot; y &quot;mbox3&quot;), incluya:  `consumerId: "mbox1, mbox2, mbox3"` en la  `getOffers()` llamada de . |
 | `decisioningMethod` | Cadena | No | &quot;del lado del servidor&quot;, &quot;en el dispositivo&quot;, &quot;híbrido&quot; |
 | `request` | Objeto | Sí | Consulte la tabla Solicitudes a continuación. |
 | `timeout` | Número | No | Tiempo de espera de la solicitud. Si no se especifica, se usará el tiempo de espera predeterminado en at.js. |
