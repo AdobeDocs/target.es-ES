@@ -2,12 +2,12 @@
 keywords: Segmentación;eec;compositor de experiencias visuales;resolución de problemas del compositor de experiencias mejorado;resolución de problemas
 description: Obtenga información sobre cómo solucionar problemas que a veces ocurren en el Compositor de experiencias mejorado (EEC) de Adobe [!DNL Target] en ciertas condiciones.
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias mejorado?
-feature: 'Compositor de experiencias visuales (VEC) '
+feature: Compositor de experiencias visuales (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 53%
+source-wordcount: '435'
+ht-degree: 55%
 
 ---
 
@@ -21,9 +21,15 @@ Esto se puede resolver mediante la inclusión en la lista de permitidos de las s
 
 Pida a su equipo de TI que lista de permitidos las siguientes direcciones IP:
 
-* 52.55.99.45
-* 52.51.238.221
-* 52.193.67.35
+* 34 253 100 20
+* 34 248 100 23
+* 52 49 228 246
+* 54.205.42.123
+* 107.22.177.39
+* 52.201.5.105
+* 52.193.211.177
+* 18 180 24 249
+* 52.194.154.154
 
 Puede ver el siguiente mensaje de error en [!DNL Target]:
 
