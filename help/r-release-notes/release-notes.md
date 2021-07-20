@@ -4,10 +4,10 @@ description: Conozca las nuevas funciones, mejoras y correcciones incluidas en l
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: Notas de la versión
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '653'
+ht-degree: 82%
 
 ---
 
@@ -40,7 +40,6 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras. Los números 
 | Función | Detalles |
 | --- | --- |
 | Analytics for Target (A4T) | Ahora, al hacer clic en el vínculo &quot;[!UICONTROL Ver en Analytics]&quot; de la página [!UICONTROL Informes] de una actividad que utiliza [!DNL Analytics] como fuente de informes (A4T), [!DNL Analysis Workspace] se abre. Anteriormente, el vínculo abría informes [!DNL Analytics]. (TGT-36959) |
-| [!DNL Recommendations] ![premium](/help/assets/premium.png) | Las siguientes mejoras se aplican a los algoritmos de popularidad de [!DNL Recommendations]:<ul><li>Hay disponible una nueva opción de seis horas de &quot;ventana retrospectiva&quot; (intervalo de datos) para todos los algoritmos de popularidad (más visitados/más vendidos) cuando [!DNL Target] es la fuente de datos de comportamiento. (Esta ventana retrospectiva *no* está disponible cuando [!DNL Adobe Analytics] es la fuente de datos de comportamiento).</li><li>Cuando está seleccionado, los siguientes algoritmos se ejecutan aproximadamente cada tres horas (en lugar de cada 12 horas).<ul><li>Más visitados</li><li>Más comprados</li><li>Más visitados por categoría</li><li>Más comprados por categoría</li><li>Más visitados por atributo personalizado (con la función groupBy)</li><li>Más comprados por atributo personalizado (con la función groupBy)</li></ul></ul>La fecha de publicación se anunciará. (TOP-1086) |
 
 ## Python SDK 1.0.0 (16 de junio de 2021)
 
