@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo solucionar problemas que a veces o
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado?
 feature: Compositor de experiencias visuales (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
+source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 49%
 
 ---
@@ -19,6 +19,13 @@ Los problemas de visualización y otros problemas a veces ocurren en el [!DNL Ad
 
 Tenga en cuenta los cambios que afectan al VEC y al EEC al utilizar las siguientes versiones de Chrome:
 
+>[!NOTE]
+>
+>El siguiente cambio afecta a las tres actualizaciones que se describen a continuación:
+>
+> * *no* podrá utilizar el VEC (con o sin la extensión VEC Helper instalada y habilitada) en páginas de sus sitios protegidas con contraseña. Las cookies de inicio de sesión del sitio se consideran una cookie de terceros y se envían con la solicitud de inicio de sesión. La única excepción es cuando la cookie de inicio de sesión del sitio ya tiene el parámetro SameSite establecido en &quot;ninguno&quot;.
+
+
 **Chrome 94 (21 de septiembre de 2021)**: Con los cambios inminentes planificados para la versión de Chrome 94 (21 de septiembre de 2021), el siguiente cambio afecta a todos los usuarios con versiones de Chrome 94+:
 
 * Se eliminará el indicador de línea de comandos `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`.
@@ -29,7 +36,6 @@ Tenga en cuenta los cambios que afectan al VEC y al EEC al utilizar las siguient
 
 **Chrome 80 (agosto de 2020)**: Con los cambios implementados en agosto de 2020, todos los usuarios con versiones de navegador Chrome 80+:
 
-* *no* podrá utilizar el VEC (con o sin la extensión VEC Helper instalada y habilitada) en páginas de sus sitios protegidas con contraseña. Las cookies de inicio de sesión del sitio se consideran una cookie de terceros y se envían con la solicitud de inicio de sesión. La única excepción es cuando la cookie de inicio de sesión del sitio ya tiene el parámetro SameSite establecido en &quot;ninguno&quot;.
 * *no* podrá descargar [!DNL Target] bibliotecas mientras edite una actividad (cuando no estén en el sitio). Esto se debe a que la llamada de descarga se realiza desde el dominio del cliente hacia un dominio de Adobe seguro y se rechaza como no autenticada.
 * El EEC *no* funcionará para todos los usuarios porque no es capaz de establecer el atributo SameSite para las cookies en `adobemc.com domain`. Sin este atributo, el explorador rechaza estas cookies, lo que provoca que el EEC falle.
 
