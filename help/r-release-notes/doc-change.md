@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1876'
 ht-degree: 88%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Julio de 21 | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado la siguiente sección:<ul><li>¿Cómo afectan las políticas de aplicación de cookies de Google Chrome a SameSite al VEC y EEC?</li></ul> |
 | Julio de 19 | [Clasificaciones: Preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Se ha añadido información sobre el código de evento -1 o 65535. |
 | Julio de 16 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md)<br><br>[ y detalles de la versión de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha agregado información sobre la versión 2.6.0 de at.js. |
 |  | [Resolución de problemas relacionados con el [!UICONTROL Compositor de experiencias mejorado]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Se ha actualizado la lista de direcciones IP a la lista de permitidos. |
