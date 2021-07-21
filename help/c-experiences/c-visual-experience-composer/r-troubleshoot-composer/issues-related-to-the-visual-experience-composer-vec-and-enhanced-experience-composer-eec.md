@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo solucionar problemas que a veces o
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado?
 feature: Compositor de experiencias visuales (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 068cce681946382365049fdc69671cd011431201
+source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 50%
+source-wordcount: '1545'
+ht-degree: 49%
 
 ---
 
@@ -17,28 +17,38 @@ Los problemas de visualización y otros problemas a veces ocurren en el [!DNL Ad
 
 ## ¿Cómo afectan las políticas de aplicación de cookies de Google Chrome a SameSite al VEC y EEC? {#samesite}
 
-Con los cambios inminentes planificados para la versión de Chrome 94 (21 de septiembre de 2021), el siguiente cambio afecta a todos los usuarios con versiones de Chrome 94+:
+Tenga en cuenta los cambios que afectan al VEC y al EEC al utilizar las siguientes versiones de Chrome:
+
+**Chrome 94 (21 de septiembre de 2021)**: Con los cambios inminentes planificados para la versión de Chrome 94 (21 de septiembre de 2021), el siguiente cambio afecta a todos los usuarios con versiones de Chrome 94+:
 
 * Se eliminará el indicador de línea de comandos `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`.
 
-Con los cambios implementados para la versión de Chrome 91 (25 de mayo de 2021), el siguiente cambio afecta a todos los usuarios con versiones de Chrome 91+:
+**Chrome 91 (25 de mayo de 2021)**: Con los cambios implementados para la versión de Chrome 91 (25 de mayo de 2021), el siguiente cambio afecta a todos los usuarios con versiones de Chrome 91+:
 
 * Los indicadores `#same-site-by-default-cookies` y `#cookies-without-same-site-must-be-secure` se han eliminado de `chrome://flags`. Este comportamiento ahora está habilitado de forma predeterminada.
 
-Con los cambios implementados en agosto de 2020, todos los usuarios con versiones de navegador Chrome 80+:
+**Chrome 80 (agosto de 2020)**: Con los cambios implementados en agosto de 2020, todos los usuarios con versiones de navegador Chrome 80+:
 
 * *no* podrá utilizar el VEC (con o sin la extensión VEC Helper instalada y habilitada) en páginas de sus sitios protegidas con contraseña. Las cookies de inicio de sesión del sitio se consideran una cookie de terceros y se envían con la solicitud de inicio de sesión. La única excepción es cuando la cookie de inicio de sesión del sitio ya tiene el parámetro SameSite establecido en &quot;ninguno&quot;.
 * *no* podrá descargar [!DNL Target] bibliotecas mientras edite una actividad (cuando no estén en el sitio). Esto se debe a que la llamada de descarga se realiza desde el dominio del cliente hacia un dominio de Adobe seguro y se rechaza como no autenticada.
 * El EEC *no* funcionará para todos los usuarios porque no es capaz de establecer el atributo SameSite para las cookies en `adobemc.com domain`. Sin este atributo, el explorador rechaza estas cookies, lo que provoca que el EEC falle.
 
-Para comprobar qué cookies están bloqueadas debido a las políticas de aplicación de cookies de SameSite, use las herramientas para desarrolladores en Chrome.
+### Determinar qué cookies están bloqueadas
+
+Para determinar qué cookies están bloqueadas debido a las políticas de aplicación de cookies de SameSite, utilice las herramientas para desarrolladores de Chrome.
 
 1. Para acceder a las herramientas para desarrolladores, mientras ve el VEC en Chrome, haga clic en el icono **[!UICONTROL ellipsis]** en la esquina superior derecha de Chrome > **[!UICONTROL Más herramientas]** > **[!UICONTROL Herramientas para desarrolladores]**.
 1. Haga clic en la pestaña **[!UICONTROL Network]** y luego busque las cookies bloqueadas.
 
+   >[!NOTE]
+   >
+   >Utilice la casilla de verificación **[!UICONTROL Has blocked cookies]** para facilitar la búsqueda de cookies bloqueadas.
+
    La siguiente ilustración muestra una cookie bloqueada:
 
    ![Herramientas para desarrolladores > Pestaña Red que muestra una cookie bloqueada](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
+
+### Extensión de Google VEC Helper
 
 Adobe ha enviado una extensión VEC Helper actualizada a Google Chrome Store. Esta extensión sobrescribe los atributos de cookies para establecer el atributo `SameSite="none"` cuando sea necesario. La extensión [actualizada se puede encontrar aquí](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obtener más información sobre la instalación y el uso de la extensión VEC Helper, consulte [Extensión del Helper del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
