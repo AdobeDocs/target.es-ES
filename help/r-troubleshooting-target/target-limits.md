@@ -6,9 +6,9 @@ feature: Resolución de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 ## Llamadas a API de Target
 
-* **Límite**: 50 llamadas por minuto para las API de administración, informes y actualización de perfiles en lote. Este límite no se aplica a las API de entrega y actualización de perfil único.
+* **Límite**: 50 llamadas por minuto para las API de administración, creación de informes y actualización de perfiles en lote. Este límite no se aplica a las API de entrega y actualización de perfil único.
 
    Si realiza más de 50 llamadas de API por minuto, [!DNL Target] devuelve el mensaje de error Estado HTTP 503.
 
