@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 82%
+ht-degree: 87%
 
 ---
 
@@ -39,7 +39,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras. Los números 
 
 | Función | Detalles |
 | --- | --- |
-| Analytics for Target (A4T) | Ahora, al hacer clic en el vínculo &quot;[!UICONTROL Ver en Analytics]&quot; de la página [!UICONTROL Informes] de una actividad que utiliza [!DNL Analytics] como fuente de informes (A4T), [!DNL Analysis Workspace] se abre. Anteriormente, el vínculo abría informes [!DNL Analytics]. (TGT-36959) |
+| [!UICONTROL Analytics for Target] (A4T) | Ahora, al hacer clic en el vínculo “[!UICONTROL Ver en Analytics]” de la página [!UICONTROL Informes] de una actividad que utiliza [!DNL Analytics] como fuente de informes (A4T), [!DNL Analysis Workspace] se abre. Anteriormente, el vínculo abría Creación de informes [!DNL Analytics]. (TGT-36959) |
 
 ## Python SDK 1.0.0 (16 de junio de 2021)
 
@@ -53,7 +53,7 @@ Esta versión de [!DNL Platform Web SDK] incluye compatibilidad con lo siguiente
 
 | Función | Detalles |
 | --- | --- |
-| Compatibilidad de redireccionamiento con [!UICONTROL Analytics for Target] (A4T) | El SDK web de Platform ahora admite redirecciones [!DNL Target] al utilizar [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obtener más información, consulte [Implementación de Analytics para [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Compatibilidad de redireccionamiento con [!UICONTROL Analytics for Target] (A4T) | El SDK web de Platform ahora admite redirecciones [!DNL Target] al utilizar [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obtener más información, consulte [Implementación de Analytics para  [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Notas de la versión adicionales y detalles de la versión
 
