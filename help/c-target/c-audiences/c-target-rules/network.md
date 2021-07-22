@@ -1,24 +1,23 @@
 ---
 keywords: segmentación;red;red de target;isp;nombre de dominio;velocidad de conexión;isp de target;nombre de dominio de target;velocidad de conexión de target
-description: Aprenda a crear audiencias en Adobe [!DNL Target] en función de detalles de red como ISP, nombre de dominio y velocidad de conexión.
-title: ¿Puedo [!DNL Target] Visitantes en función de las opciones de red?
+description: Aprenda a crear audiencias en [!DNL Adobe Target] en función de los detalles de la red.
+title: ¿Puedo orientar a los visitantes en función de las opciones de red?
 feature: Audiencias
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 94%
+source-wordcount: '517'
+ht-degree: 78%
 
 ---
 
 # Red
 
-Puede crear audiencias que estén basadas en datos de la red.
+Puede crear audiencias en [!DNL Adobe Target] en función de los detalles de red, como ISP, nombre de dominio y velocidad de conexión.
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
-1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Red]**.
+1. Asigne un nombre a la audiencia y añada una descripción opcional.
+1. Arrastre y suelte **[!UICONTROL Red]** en el panel del generador de audiencias.
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
    * **ISP:** un ISP es una organización que proporciona acceso a Internet a sus suscriptores, generalmente por una tarifa mensual o anual. Muchos ISP proporcionan servicios adicionales, como hospedaje web o correo electrónico. El campo ISP es un ISP comercial (como Comcast o TimeWarner) u otra entidad como una institución comercial o educativa.
@@ -47,13 +46,13 @@ Puede crear audiencias que estén basadas en datos de la red.
 
       Puede probar los valores de ISP y nombre de dominio. [](https://www.whoismyisp.org)https://www.whoismyisp.org es un buen recurso para fines de segmentación. Puede usar las direcciones IP de ejemplo que aparecen en la tabla anterior o escribir sus propias direcciones. A continuación use el parámetro `mboxOverride.browserIp= URL` para imitar la dirección IP.
 
-   * **Nombre de dominio:** es el nombre de dominio de la dirección IP del visitante. No es el nombre de dominio del sitio web que está usando con [!DNL Target]. Este nombre de dominio está relacionado con la dirección IP del visitante y a veces se denomina nombre de host. Generalmente es muy similar al nombre de ISP. A veces el nombre de host hace referencia a nombres más antiguos de compañías que han cambiado el nombre de marca de su ISP pero no el nombre de dominio.
-   * **Velocidad de conexión:** es la velocidad de la conexión a Internet del visitante. Las opciones incluyen: banda ancha, cable, acceso telefónico, móvil, oc3, oc12, satélite, t1, t2, inalámbrico y xdsl.
+   * **Nombre de dominio:** este nombre es el nombre de dominio de la dirección IP del visitante. Este nombre no es el nombre de dominio del sitio web que está usando con [!DNL Target]. Este nombre de dominio está relacionado con la dirección IP del visitante y a veces se denomina nombre de host. Es similar al nombre del ISP. A veces el nombre de host hace referencia a nombres más antiguos de compañías que han cambiado el nombre de marca de su ISP pero no el nombre de dominio.
+   * **Velocidad de conexión:** Esta velocidad es la velocidad de la conexión a Internet del visitante. Las opciones incluyen: banda ancha, cable, acceso telefónico, móvil, oc3, oc12, satélite, t1, t2, inalámbrico y xdsl.
 
       Este campo está basado en el tipo de conexión y no en la velocidad real. [!DNL Target] no puede determinar las velocidades exactas de la conexión. El tipo de conexión Banda ancha se usa cuando no existe indicación de otros tipos de conexión, por lo que no se puede elegir un tipo específico.
 
-1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. (Opcional) Configure reglas adicionales para la audiencia.
+1. Haga clic en **[!UICONTROL Finalizado]**.
 
 La siguiente ilustración muestra una audiencia dirigida a visitantes que utilizan AT&amp;T con una velocidad de conexión [!UICONTROL móvil].
 
