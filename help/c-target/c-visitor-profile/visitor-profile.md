@@ -1,10 +1,10 @@
 ---
 keywords: Información general y referencia
-description: Obtenga más información sobre los perfiles de los visitantes que contienen información sobre cómo los visitantes utilizan las páginas y otras ubicaciones de contenido optimizado.
+description: Obtenga información sobre los perfiles de los visitantes que contienen información sobre cómo los visitantes utilizan las páginas y otras ubicaciones de contenido optimizado.
 title: ¿Qué son los perfiles del visitante?
 feature: Audiencias
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 4c3c76b01ab158a8cab31de487f1cd7c8199339b
+source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 40%
@@ -13,9 +13,9 @@ ht-degree: 40%
 
 # Perfiles de los visitantes
 
-Los perfiles de visitante contienen información sobre cómo los visitantes utilizan las páginas y otras ubicaciones de contenido optimizado.
+Los perfiles de visitante en [!DNL Adobe Target] contienen información sobre cómo los visitantes utilizan sus páginas y otras ubicaciones de contenido optimizado.
 
-Si [!DNL Adobe Target] se utiliza con otras soluciones [!DNL Adobe Experience Cloud], como [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] comparte la información del visitante entre soluciones.
+Si [!DNL Target] se utiliza con otras soluciones [!DNL Adobe Experience Cloud], como [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] comparte la información del visitante entre soluciones.
 
 De forma predeterminada, la información de perfil [!DNL Target] se almacena en una sola cookie de origen. La configuración se puede modificar fácilmente para que proporcione también cookies de terceros.
 
