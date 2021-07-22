@@ -1,14 +1,13 @@
 ---
 keywords: administración de la relación con los clientes;servicio de registro de clientes;crs;crm;mbox3rdpartyid;atributos del cliente;segmentación;csv;crm;personas de adobe experience cloud
-description: Aprenda a utilizar los datos de clientes empresariales de una base de datos de administración de la relación con los clientes (CRM) para la segmentación de contenido en Adobe Target.
+description: Aprenda a utilizar los datos de clientes empresariales de una base de datos de administración de la relación con los clientes (CRM) para la segmentación de contenido en [!DNL Adobe Target].
 title: ¿Qué son los atributos del cliente y cómo se utilizan?
 feature: Audiencias
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 40%
+source-wordcount: '1496'
+ht-degree: 38%
 
 ---
 
@@ -20,7 +19,7 @@ Los datos de clientes empresariales recopilados a través de múltiples fuentes 
 
 ## Información general sobre Atributos del cliente {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Los ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) Atributos del cliente en el  [!DNL People] servicio forman parte de  [!DNL Adobe Experience Cloud] y proporcionan a las empresas una herramienta para trasladar los datos de sus clientes a la  [!DNL Experience Cloud] plataforma.
+[Los ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es) Atributos del cliente en el  [!DNL People] servicio forman parte de  [!DNL Adobe Experience Cloud] y proporcionan a las empresas una herramienta para trasladar los datos de sus clientes a la  [!DNL Experience Cloud] plataforma.
 
 Los datos introducidos en [!DNL Experience Cloud] están disponibles para todos los flujos de trabajo de [!DNL Experience Cloud]. [!DNL Target] utiliza estos datos para segmentar a los clientes que regresan en función de los atributos. [!DNL Adobe Analytics] consume estos atributos, que pueden entonces utilizarse para el análisis y la segmentación.
 
@@ -34,11 +33,11 @@ Tenga en cuenta lo siguiente al trabajar con Atributos del cliente y [!DNL Targe
    >
    >[!DNL at.js] (cualquier versión) o  [!DNL mbox.js] versión 58 o posterior.
 
-* [!DNL Adobe] no garantiza que el 100% de los datos de atributos del cliente (perfil del visitante) de las bases de datos CRM se incorporen al  [!DNL Experience Cloud] y, por lo tanto, estén disponibles para su uso como objetivos en  [!DNL Target]. En nuestro diseño actual, existe la posibilidad de que un pequeño porcentaje de datos (hasta el 0,1% de lotes de producción grandes) no se incorporen.
-* La duración de los datos de atributos del cliente importados de [!DNL Experience Cloud] a [!DNL Target] depende de la duración del perfil del visitante, que es de 14 días de forma predeterminada. Para obtener más información, consulte   [Duración del perfil del visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* Si los parámetros `vst.*` son los únicos que identifican al visitante, el perfil &quot;autenticado&quot; existente no se recuperará mientras `authState` no esté AUTENTICADO (0). El perfil entrará en juego solo si `authState` se cambia a AUTHENTICATED (1).
+* [!DNL Adobe] no garantiza que el 100% de los datos de atributos del cliente (perfil del visitante) de las bases de datos CRM se incorporen al  [!DNL Experience Cloud] y, por lo tanto, estén disponibles para su uso como objetivos en  [!DNL Target]. En el diseño actual, existe la posibilidad de que no se incorpore un pequeño porcentaje de datos (hasta el 0,1% de los lotes de producción grandes).
+* La duración de los datos de atributos del cliente importados de [!DNL Experience Cloud] a [!DNL Target] depende de la duración del perfil del visitante, que es de 14 días de forma predeterminada. Para obtener más información, consulte [Duración del perfil del visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
+* Si los parámetros `vst.*` son los únicos que identifican al visitante, el perfil &quot;autenticado&quot; existente no se recuperará mientras `authState` no esté AUTENTICADO (0). El perfil solo entra en juego si `authState` se cambia a AUTHENTICATED (1).
 
-   Por ejemplo, si el parámetro `vst.myDataSource.id` se utiliza para identificar al visitante (donde `myDataSource` es el alias del origen de datos) y no hay ningún MCID ni ID de terceros, al usar el parámetro `vst.myDataSource.authState=0` no se recuperará el perfil que se podría haber creado mediante una importación de Atributos del cliente. Si el comportamiento deseado es recuperar el perfil autenticado, `vst.myDataSource.authState` debe tener el valor de 1 (AUTHENTICATED).
+   Por ejemplo, si el parámetro `vst.myDataSource.id` se utiliza para identificar al visitante (donde `myDataSource` es el alias del origen de datos) y no hay ningún MCID ni ID de terceros, al utilizar el parámetro `vst.myDataSource.authState=0` no se recupera el perfil que se podría haber creado mediante una importación de Atributos del cliente. Si el comportamiento deseado es recuperar el perfil autenticado, `vst.myDataSource.authState` debe tener el valor de 1 (AUTHENTICATED).
 
 * No se pueden enviar los siguientes caracteres en `mbox3rdPartyID`: signo más (+) y barra diagonal (/).
 
@@ -80,12 +79,12 @@ Puede encontrar instrucciones detalladas para completar cada una de las siguient
    >
    >El nombre de la fuente de datos y el nombre del atributo no pueden contener un punto.
 
-   El archivo de datos debe cumplir los requisitos de carga de archivos y no debe superar los 100 MB. Si el archivo es demasiado grande o tiene datos que deberán cargarse de forma recurrente, puede crear FTP con los archivos en su lugar.
+   El archivo de datos debe cumplir los requisitos de carga de archivos y no debe superar los 100 MB. Si el archivo es demasiado grande o tiene datos que deben cargarse de forma recurrente, puede crear FTP con los archivos en su lugar.
 
    * **HTTPS:** puede arrastrar y soltar el archivo de datos .csv o hacer clic en  **** Examinar para cargar desde el sistema de archivos.
    * **FTP:** haga clic en el vínculo FTP para  [cargar el archivo a través de FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). El primer paso es proporcionar una contraseña para el servidor FTP de Adobe. Especifique la contraseña y haga clic en **[!UICONTROL Listo]**.
 
-   Ahora, transfiera su archivo CSV/ZIP/GZIP al servidor FTP. Una vez completada la transferencia de archivos, cree un nuevo archivo con el mismo nombre y extensión .fin. Transfiera este archivo vacío al servidor. Esto indica un Fin de transferencia y el [!DNL Experience Cloud] comienza a procesar el archivo de datos.
+   Ahora, transfiera su archivo CSV/ZIP/GZIP al servidor FTP. Una vez completada la transferencia de archivos, cree un archivo con el mismo nombre y extensión `.fin`. Transfiera este archivo vacío al servidor. Esto indica un Fin de transferencia y el [!DNL Experience Cloud] comienza a procesar el archivo de datos.
 
 1. Valide el esquema.
 
@@ -141,7 +140,7 @@ Pase `mbox3rdPartyId` como parámetro al mbox global dentro del método `targetP
 
 ### Uso del servicio Experience Cloud ID.
 
-Si está utilizando el servicio de Experience Cloud ID, necesita establecer un ID de cliente y un estado de autenticación para poder usar atributos del cliente en la segmentación. Para obtener más información, consulte [Customer IDs and Authentication State](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) en la *Ayuda del servicio de ID de Experience Cloud*.
+Si utiliza el servicio de ID de Experience Cloud, debe establecer un ID de cliente y un estado de autenticación para utilizar los atributos del cliente en la segmentación. Para obtener más información, consulte [Customer IDs and Authentication State](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) en la *Ayuda del servicio de ID de Experience Cloud*.
 
 Para obtener más información sobre el uso de atributos del cliente en [!DNL Target], consulte los siguientes recursos:
 
