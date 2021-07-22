@@ -1,14 +1,13 @@
 ---
 keywords: opciones del explorador;tipo;tipo de explorador;idioma del explorador;idioma;versión;versión del explorador
-description: Aprenda a crear audiencias en Adobe [!DNL Target] para dirigirse a usuarios que usen un navegador específico u opciones del navegador específicas cuando visiten la página.
-title: ¿Puedo [!DNL Target] Visitantes en función del tipo de explorador?
+description: Aprenda a crear audiencias en [!DNL Adobe Target] para dirigirse a usuarios que usen un navegador específico u opciones del navegador específicas cuando visiten la página.
+title: ¿Puedo segmentar visitantes en función del tipo de explorador?
 feature: Audiencias
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 95%
+source-wordcount: '669'
+ht-degree: 78%
 
 ---
 
@@ -19,48 +18,49 @@ Puede segmentar usuarios que usen un navegador específico y opciones del navega
 Se pueden segmentar los siguientes navegadores:
 
 * Chrome
-* Microsoft Edge
 * Firefox
-* Opera
 * Safari
+* Internet Explorer
+* Microsoft Edge
+* Opera
 * iPad
-* Internet Explorer
 * iPhone|
 
 Hay dos formar de segmentar según el navegador:
 
-**Audiencia prediseñada:** utilice la audiencia prediseñada si quiere segmentar solo los visitantes que usan un navegador concreto para visitar el sitio. Si, por ejemplo, ofrece una extensión de Chrome, se dirigiría solo a los usuarios de este navegador.
+* **Audiencia prediseñada:** utilice la audiencia prediseñada si quiere segmentar solo los visitantes que usan un navegador concreto para visitar el sitio. Si, por ejemplo, ofrece una extensión de Chrome, se dirigiría solo a los usuarios de este navegador.
 
-1. Al configurar la actividad, seleccione el navegador en el menú desplegable de audiencias.
+   1. Al configurar la actividad, seleccione el explorador en la lista desplegable.
 
-   Esta opción dirige la actividad únicamente a los visitantes que usan el navegador especificado.
+      Esta opción dirige la actividad únicamente a los visitantes que usan el navegador especificado.
 
-**Regla de audiencia de navegador personalizada:** una audiencia personalizada permite segmentar por varios navegadores o configurar reglas o exclusiones para navegadores, versiones de navegador e idiomas de navegador específicos. Esto le proporciona una flexibilidad considerable a la hora de segmentar una campaña según los atributos del navegador.
+      ![Usuarios de Target Chrome](/help/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
-1. Ponga un nombre a la audiencia.
-1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Navegador]**.
+* **Regla de audiencia de navegador personalizada:** una audiencia personalizada le permite dirigirse a varios navegadores o configurar reglas o exclusiones para navegadores, versiones de navegador o idiomas de navegador específicos. Esta funcionalidad proporciona una flexibilidad significativa al segmentar una actividad en función de los atributos del explorador.
 
-   ![Reglas > Navegador](assets/target_browser.png)
+   1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
+   1. Asigne un nombre a la audiencia y añada una descripción opcional.
+   1. Arrastre y suelte **[!UICONTROL Browser]** en el panel del generador de audiencias.
 
-1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
+      ![Reglas > Explorador](assets/target_browser.png)
 
-   * **Tipo:** dirija la actividad a un navegador o exclúyalo. Consulte [Tipo](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Idioma:** dirija la actividad a ciertos navegadores que estén configurados en idiomas específicos o exclúyalos. Consulte [Idioma](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Versión:** dirija la actividad a ciertas versiones del navegador o exclúyalas. Consulte [Versión](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
-1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y configure reglas adicionales para la audiencia.
-1. Haga clic en **[!UICONTROL Guardar]**.
+      * **Tipo:** dirija la actividad a un navegador o exclúyalo. Consulte [Tipo](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+      * **Idioma:** dirija la actividad ciertos navegadores que estén configurados en idiomas específicos o exclúyalos. Consulte [Idioma](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+      * **Versión:** dirija la actividad a ciertas versiones del navegador o exclúyalas. Consulte [Versión](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   1. (Opcional) Configure reglas adicionales para la audiencia.
+   1. Haga clic en **[!UICONTROL Finalizado]**.
 
-En el ejemplo siguiente se muestra una audiencia que incluye a los usuarios de las versiones 10 u 11 de Internet Explorer:
+   El siguiente ejemplo muestra una audiencia que incluye usuarios de Microsoft Edge en las versiones 91 o 92:
 
-![Target IE 10 y 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+   ![Target Edge 91 o 92](assets/target_edge.png)
 
 ## Opciones del navegador {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
 Dirija la actividad a visitantes o exclúyalos en función del tipo, el idioma o la versión de navegador que tengan.
 
-### Tipo   {#section_6ADC758F23F145B3A310151546D83D56}
+### Tipo  {#section_6ADC758F23F145B3A310151546D83D56}
 
 Dirija la actividad a un navegador o exclúyalo.
 
@@ -71,7 +71,7 @@ Seleccione **[!UICONTROL Tipo]** y, a continuación, elija igual a o no es igual
 
 Seleccione uno o varios. Si hay varias opciones, se conectan con un parámetro O.
 
-### Idioma   {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Idioma  {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Dirija la actividad ciertos navegadores que estén configurados en idiomas específicos o exclúyalos.
 
@@ -98,7 +98,7 @@ Los siguientes idiomas de navegador se pueden incluir o excluir de la segmentaci
 * Español
 * Chino tradicional
 
-### Versión   {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versión  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Dirija la actividad a ciertas versiones del navegador o exclúyalas.
 
@@ -113,13 +113,11 @@ Seleccione **[!UICONTROL Versión]** y, a continuación, elija un operador:
 * Es menor que
 * Es menor que o igual a
 
-Escriba el nombre de la versión.
-
-En el campo de texto solo se pueden introducir versiones principales. Es decir, la versión especificada incluye las versiones secundarias de la principal. Si, por ejemplo, especifica la versión 10, se incluyen los visitantes de la versión 10.1.
+Escriba el nombre de la versión. En el campo de texto solo se pueden introducir versiones principales. Es decir, la versión especificada incluye las versiones secundarias de la principal. Por ejemplo, si especifica la versión 10, también se incluyen los visitantes de la versión 10.1.
 
 Si hay varias opciones, se conectan con un parámetro O.
 
-## Vídeo de formación: Creación de audiencias  ![Distintivo del tutorial](/help/assets/tutorial.png)
+## Vídeo de formación: Creación de audiencias ![Distintivo de tutorial](/help/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
