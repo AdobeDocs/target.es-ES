@@ -4,21 +4,20 @@ description: Obtenga información sobre la afinidad de la categoría en el Adobe
 title: ¿Qué es la afinidad de la categoría?
 feature: Audiencias
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 94%
+source-wordcount: '793'
+ht-degree: 74%
 
 ---
 
 # Afinidad de la categoría
 
-La función de afinidad de la categoría captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de forma que se pueda establecer como objetivo y se le apliquen segmentos. Esto contribuye a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de realizar alguna acción a partir de esa información.
+La función de afinidad de la categoría de [!DNL Adobe Target] captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de modo que se pueda establecer como objetivo y se le apliquen segmentos. La afinidad de la categoría ayuda a garantizar que el contenido esté dirigido a los visitantes que tienen más probabilidades de actuar sobre esa información.
 
 ## Transferir información sobre la afinidad de la categoría a [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Cada vez que un usuario visite su sitio web, en la base de datos de [!DNL Target] se registrarán unos parámetros de perfil exclusivos para ese visitante. Dichos datos están unidos a la cookie del usuario. Un parámetro especialmente útil es `user.categoryId`, un parámetro de mbox asignado en una página de producto. A medida que el visitante continúa la visita, o vuelve para otra sesión, se pueden registrar las categorías de productos que un visitante concreto elige ver. También puede registrar información de categoría pasándola como el parámetro de mbox `user.categoryId` en cualquier mbox (incluido un mbox anidado), como un parámetro de URL `user.categoryId` o en parámetros de página de Target con un mbox global. Si desea obtener más detalles, consulte a su representante de cuentas.
+Cada vez que un usuario visite su sitio web, en la base de datos de [!DNL Target] se registrarán unos parámetros de perfil exclusivos para ese visitante. Dichos datos están unidos a la cookie del usuario. Un parámetro útil es `user.categoryId`, un parámetro de mbox asignado en una página de producto. A medida que el visitante continúa la visita, o vuelve para otra sesión, se pueden registrar las categorías de productos que un visitante concreto elige ver. También puede registrar información de categoría pasándola como el parámetro de mbox `user.categoryId` en cualquier mbox (incluido un mbox anidado), como un parámetro de URL `user.categoryId` o en parámetros de página de Target con un mbox global. Si desea obtener más detalles, consulte a su representante de cuentas.
 
 Separe las categorías con una coma para incluir un elemento en varias categorías. Por ejemplo:
 
@@ -30,7 +29,7 @@ Puede utilizar `user.categoryAffinities[]` en un script de perfil para devolver 
 
 >[!IMPORTANT]
 >
->El atributo `user.categoryId` utilizado para el algoritmo de afinidad de categoría de Adobe Target es distinto del atributo `entity.categoryId` utilizado para las recomendaciones de productos y de productos en Recommendations de Adobe Target. `user.categoryId` es necesario para rastrear la categoría favorita de un usuario. `entity.categoryId` es necesario para basar las recomendaciones en la categoría o el elemento actual. Pase ambos valores a Adobe Target si desea utilizar ambas funciones.
+>El atributo `user.categoryId` utilizado para el algoritmo de afinidad de la categoría es distinto del atributo `entity.categoryId` utilizado para las recomendaciones de productos y contenido de [!DNL Adobe Target Recommendations]. `user.categoryId` es necesario para rastrear la categoría favorita de un usuario. `entity.categoryId` es necesario para basar las recomendaciones en la categoría o el elemento actual. Pase ambos valores a Adobe Target si desea utilizar ambas funciones.
 
 ## Caso de negocio para la afinidad de la categoría {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -44,10 +43,10 @@ Pongamos por supuesto que se dedica a la venta de instrumentos musicales por Int
 
 El algoritmo de afinidad de la categoría funciona de la siguiente forma:
 
-* 10 puntos por la primera categoría visualizada
-* 5 puntos por cada categoría pulsada después de la primera.
+* Diez puntos para la primera categoría visualizada
+* Cinco puntos por cada categoría pulsada después del primer
 * Cuando se hace clic en una categoría nueva, se resta 1 punto de todas las categorías previamente pulsadas.
-* Si ya se hizo clic en una categoría (vista), volver a hacer clic en ella no restará 1 punto del resto de categorías.
+* Si ya se hizo clic en una categoría (vista), volver a hacer clic en ella no restará 1 punto del resto de categorías
 * Si se hace clic en una sexta categoría nueva, se abandona la categoría con menos puntos de entre las primeras cinco categorías del cálculo.
 * Al final de la sesión, se dividen todos los valores entre 2.
 
@@ -97,16 +96,11 @@ Cuando la sesión termina y el usuario vuelve al sitio, las puntuaciones se redu
 
 ## Usar la afinidad de la categoría para segmentar {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
-Explicamos cómo usar una audiencia de [!UICONTROL Afinidad de la categoría] para segmentar en una actividad.
+Las secciones siguientes contienen información para ayudarle a usar una audiencia de afinidad de la categoría para segmentar en una actividad.
 
-Esta sección contiene la información siguiente:
+### Crear una audiencia para usar la afinidad de la categoría {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-* [Crear una audiencia para usar la afinidad de la categoría](/help/c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
-* [Usar la audiencia de afinidad de la categoría en una actividad](/help/c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
-
-## Crear una audiencia para usar la afinidad de la categoría {#section_A27C600BBA664FE7A74F8FE076B78F40}
-
-1. En la lista **[!UICONTROL Audiencias]**, haga clic en **[!UICONTROL + Crear audiencia]**.
+1. En la lista **[!UICONTROL Audiencias]**, haga clic en **[!UICONTROL Crear audiencia]**.
 
    O
 
@@ -142,6 +136,6 @@ Esta sección contiene la información siguiente:
 1. Coloque cada valor nuevo en una línea distinta (por ejemplo, “zapatos”).
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Usar la audiencia de afinidad de la categoría en una actividad {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
+### Usar la audiencia de afinidad de la categoría en una actividad {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Las audiencias de afinidad de la categoría se pueden usar en cualquier actividad. Durante el flujo de trabajo guiado de tres pasos, en el paso de Target, elija a la audiencia que quiera.
+Puede utilizar audiencias de afinidad de la categoría en cualquier actividad. Durante el flujo de trabajo guiado de tres pasos, en el paso [!UICONTROL Target], elija la audiencia deseada.
