@@ -4,17 +4,16 @@ description: Aprenda a utilizar atributos de perfil para configurar pruebas en A
 title: ¿Puedo usar scripts de perfil para probar actividades mutuamente exclusivas?
 feature: Audiencias
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 76%
+source-wordcount: '699'
+ht-degree: 74%
 
 ---
 
 # Uso de scripts de perfil para probar actividades mutuamente exclusivas
 
-Puede usar atributos de perfil para definir pruebas que comparen dos o más actividades, pero sin permitir que los mismos visitantes participen en cada una de ellas.
+Puede usar atributos de perfil en [!DNL Adobe Target] para configurar pruebas que comparen dos o más actividades pero no permitan que los mismos visitantes participen en cada actividad.
 
 La prueba de actividades mutuamente exclusivas evita que un visitante de una campaña afecte a los resultados de la prueba para el resto de actividades. Cuando un visitante participa en diversas actividades, puede resultar difícil determinar si se ha producido un alza positiva o negativa de la experiencia del visitante con una actividad o si interacciones entre varias actividades han afectado a los resultados de una o más actividades.
 
