@@ -5,15 +5,15 @@ title: ¿Dónde puedo encontrar preguntas y respuestas acerca de Recommendations
 feature: Recomendaciones
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3129'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Preguntas más frecuentes sobre Recommendations
 
-Lista de las preguntas frecuentes (FAQ) acerca de actividades de [!DNL Recommendations] de [!DNL Adobe Target]
+Lista de las preguntas frecuentes (FAQ) acerca de actividades de [!DNL Adobe Target] [!DNL Recommendations].
 
 ## ¿Por qué [!UICONTROL la búsqueda en el catálogo] no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
 
@@ -98,7 +98,7 @@ Si utiliza una ubicación en la que el ID de categoría está presente en el mbo
 
 >[!NOTE]
 >
->Esta configuración se aplica solo a las actividades creadas en el [!UICONTROL Compositor de experiencias visuales] (VEC). Esta configuración no se aplica a las actividades creadas en el Compositor de experiencias basadas en formularios ([!DNL Target] carece de contexto de ubicación).
+>Este ajuste se aplica únicamente a las actividades creadas en el [!UICONTROL Compositor de experiencias visuales] (VEC). Esta configuración no se aplica a las actividades creadas en el Compositor de experiencias basadas en formularios ([!DNL Target] carece de contexto de ubicación).
 
 Para acceder al ajuste [!UICONTROL Filtrar los criterios no compatibles], haga clic en [!UICONTROL Recomendaciones] > [!UICONTROL Configuración]:
 
@@ -247,15 +247,15 @@ Un algoritmo creado en [!DNL Recommendations Classic] no es compatible con [!DNL
 
 ## ¿Cómo puedo recomendar solo nuevos artículos o vídeos? {#recommend-new-articles}
 
-Algunos clientes de medios y publicaciones desean asegurarse de que los artículos recomendados incluyan solo los artículos o vídeos más recientes. Por ejemplo, un cliente [!DNL Target] utilizó el siguiente método para recomendar artículos con menos de 60 días de antigüedad:
+Algunos clientes de medios y publicaciones desean asegurarse de que los artículos recomendados incluyan solo los artículos o vídeos más recientes. Por ejemplo, un cliente de [!DNL Target] utilizó el siguiente método para recomendar artículos con menos de 60 días de antigüedad:
 
-1. Pase la fecha de publicación del artículo, en formato YYMDDD, como atributo de entidad personalizado.
+1. Pase la fecha de publicación del artículo, en formato AAMMDD, como atributo de entidad personalizado.
 1. Cree un script de perfil que sea la fecha actual menos 60 días, también en formato AAAAMMDD.
 1. Utilice un filtro de inclusión dinámica en los criterios para que `publish date > today’s date minus 60 days`.
 
 ### Transfiera la fecha de publicación como un atributo de entidad personalizado:
 
-| Atributo de entidad | Ejemplo |
+| Atributo de la entidad | Ejemplo |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
