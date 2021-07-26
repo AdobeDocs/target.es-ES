@@ -5,9 +5,9 @@ title: ¿Cómo se implementa con el SDK web de Experience Platform?
 feature: SDK web de AEP
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 5b5a94c6dc586e12789de7465f42c483bf268de0
+source-git-commit: 054ec2658e311e6eeae475ee02dbfce48242331f
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,5 @@ Además de la documentación [!DNL Platform Web SKD] mencionada anteriormente, l
 
 | Tema | Descripción |
 | --- | --- |
-| [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) | Las direcciones URL de control de calidad de [!DNL Adobe Target] permiten realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa invariables, segmentar audiencias de manera opcional y crear informes de control de calidad que permanecen segmentados a partir de datos de actividades activas. Pruebe completamente las actividades [!DNL Target] antes de iniciarlas en vivo.<br>Consulte  [Compatibilidad con  [!UICONTROL modelos de control de ] calidad de la biblioteca JavaScript de Target](/help/c-activities/c-activity-qa/activity-qa.md#compatibility). |
-| [Tokens de respuesta](/help/administrating-target/response-tokens.md) | Los tokens de respuesta le permiten enviar datos de Target a Google Analytics y otras integraciones de terceros.<br>Consulte  [Envío de datos a los Google Analytics mediante el SDK web de Platform](/help/administrating-target/response-tokens.md#platform-web-sdk). |
-
+| [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) | Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa invariables, segmentación opcional de audiencias y realización de informes de control de calidad que permanecen segmentados a partir de datos de actividades activas. [!UICONTROL El ] control de calidad de la actividad le permite probar completamente sus  [!DNL Target] actividades antes de iniciarlas en directo. |
+| [Tokens de respuesta](/help/administrating-target/response-tokens.md) | Los tokens de respuesta le permiten enviar datos de Target a Google Analytics y otras integraciones de terceros.<br>Consulte  [Envío de datos a los Google Analytics mediante el ](/help/administrating-target/response-tokens.md#platform-web-sdk) SDK web de Platform para ver una muestra de código de cómo realizar esta tarea. |
