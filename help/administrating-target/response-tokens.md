@@ -5,7 +5,7 @@ title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administración y configuración
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 27%
@@ -84,7 +84,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
 
 El proceso que utiliza para detectar [!DNL Target] respuestas y leer tokens de respuesta varía en función de si tiene una implementación [!DNL Platform Web SDK] o at.js.
 
-### ![Distintivo del SDK web de Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] mediante la clase Handle object
+### ![Distintivo del SDK web de Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] mediante la clase Handle object {#platform-web-sdk}
 
 Utilice la clase Handle object , que tiene un objeto de metadatos y un objeto de datos para detectar respuestas [!DNL Target] y leer los tokens de respuesta.
 
