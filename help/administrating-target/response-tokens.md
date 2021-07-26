@@ -1,13 +1,13 @@
 ---
-keywords: tokens de respuesta;tokens;complementos;complementos;at.js;respuesta
+keywords: tokens de respuesta;tokens;complementos;complementos;at.js;respuesta;sdk web de plataforma
 description: Aprenda a utilizar tokens de respuesta en [!DNL Adobe Target] para obtener información específica sobre la salida para depurar e integrar con herramientas de terceros.
 title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administración y configuración
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1645'
 ht-degree: 27%
 
 ---
