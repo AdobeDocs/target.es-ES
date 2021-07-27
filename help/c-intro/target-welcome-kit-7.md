@@ -1,13 +1,13 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de target;intro;introducción;introducción a
-description: Empecemos con su primera actividad en Adobe [!DNL Target] para que pueda obtener el retorno de la inversión (ROI).
+description: Empecemos con su primera actividad en Adobe  [!DNL Target]  para que pueda obtener el retorno de la inversión (ROI).
 title: Necesito crear mi primera actividad en Target. ¿Por dónde empiezo?
 feature: Información general
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
