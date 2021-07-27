@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 * Se ha agregado un atributo seguro a las cookies cada vez que la configuración `secureOnly` de at.js se establece en `true`.
 * Los tokens de respuesta ya están disponibles al utilizar `triggerView()`.
-* Se ha corregido un problema relacionado con el evento `CONTENT_RENDERING_NO_OFFERS` . Ahora este evento se activa correctamente siempre que no haya contenido devuelto de [!DNL Target].
-* [!DNL Anlytics for Target] (A4T) Los detalles de las métricas de clic se devuelven correctamente al usar  `prefetch` solicitudes.
+* Se ha corregido un problema relacionado con el evento `CONTENT_RENDERING_NO_OFFERS`. Ahora este evento se activa correctamente siempre que no haya contenido devuelto de [!DNL Target].
+* [!DNL Anlytics for Target] (A4T) Los detalles de las métricas de clic se devuelven correctamente al usar solicitudes `prefetch`.
 * La generación UUID ya no utiliza `Math.random()`, sino que depende de `window.crypto`.
 * La caducidad de la cookie `sessionId` se amplía correctamente en cada llamada de red.
 * La inicialización de la caché de la vista [!UICONTROL Aplicación de una sola página] (SPA) ahora se gestiona correctamente y respeta la configuración `viewsEnable`.
