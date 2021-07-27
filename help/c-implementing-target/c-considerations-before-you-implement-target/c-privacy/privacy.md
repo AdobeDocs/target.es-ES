@@ -5,10 +5,10 @@ title: ¿Cómo gestiona  [!DNL Target] los problemas de privacidad?
 feature: Privacidad y seguridad
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 68%
+source-wordcount: '728'
+ht-degree: 58%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 68%
 
 ## Recopilación de direcciones IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
-La dirección IP de un visitante del sitio web se transmite a un centro de procesamiento de datos (DPC) de Adobe. Dependiendo de la configuración de red del visitante, la dirección IP no representa necesariamente la dirección IP del equipo del visitante. Por ejemplo, la dirección IP puede ser una dirección IP externa de un cortafuegos de traducción de direcciones de red (NAT), un proxy HTTP o una puerta de enlace de Internet. Target no almacena ninguna dirección IP del usuario ni ningún tipo de información personal de identificación (PII). Target utiliza las direcciones IP solo mientras dura la sesión (y lo hace en memoria, nunca de forma persistente).
+La dirección IP de un visitante del sitio web se transmite a un centro de procesamiento de datos (DPC) de Adobe. Dependiendo de la configuración de red del visitante, la dirección IP no representa necesariamente la dirección IP del equipo del visitante. Por ejemplo, la dirección IP puede ser una dirección IP externa de un cortafuegos de traducción de direcciones de red (NAT), un proxy HTTP o una puerta de enlace de Internet. Target no almacena ninguna dirección IP del usuario ni ningún tipo de información personal de identificación (PII). Target solo utiliza las direcciones IP durante la sesión (en memoria, nunca persistió).
 
 ## Sustitución del último octeto de direcciones IP {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
-Adobe ha desarrollado una nueva configuración de “privacidad mediante diseño” que Adobe ClientCare puede habilitar para Adobe Target. Cuando se habilita esta configuración, el último octeto (la última parte) de la dirección IP se oculta inmediatamente cuando Adobe recopila la dirección IP. Esta anonimización se realiza antes de cualquier procesamiento de la dirección IP, incluso antes de una consulta geográfica opcional de la dirección IP.
+Adobe ha desarrollado una nueva configuración de “privacidad mediante diseño” que Adobe ClientCare puede habilitar para Adobe Target. Cuando se habilita esta configuración, el último octeto (la última parte) de la dirección IP se oculta inmediatamente cuando Adobe recopila la dirección IP. Esta anonimización se realiza antes de cualquier procesamiento de la dirección IP, incluso antes de una búsqueda geográfica opcional de la dirección IP.
 
 Cuando se habilita esta función, la dirección IP se convierte en lo suficientemente anónima para que ya no pueda identificarse como información personal. Por ello, Adobe Target puede utilizarse en cumplimiento con las leyes de privacidad de datos en países en los que no se permite la recopilación de información personal. Es muy probable que la obtención de información por nivel de ciudad vea significativamente afectada por la confusión de la dirección IP. La obtención de información por nivel de región y país solo debería verse ligeramente afectada.
 
@@ -60,6 +60,12 @@ https://my.cname.domain/optout?client=clientcode.
 Los visitantes que hagan clic en este vínculo no se incluirán en ninguna petición de mbox llamada desde sus sesiones de navegación hasta que eliminen sus cookies o hasta pasados dos años, lo que ocurra primero. Esto funciona estableciendo una cookie para el visitante llamada `disableClient` en el dominio `clientcode.tt.omtrdc.net`.
 
 Aunque utilice una implementación de cookies de origen, la posibilidad de exclusión proporcionada se establece mediante una cookie de terceros. Si el cliente solo utiliza una cookie de origen, Target comprueba si se ha establecido una cookie de exclusión.
+
+## Recopilación de datos sobre el uso de las funciones {#feature-usage}
+
+Los datos del uso de las funcionalidades individuales se recopilan con fines internos [!DNL Adobe] para identificar si las características [!DNL Target] están funcionando según lo previsto o para identificar las características que se están infrautilizando. Se recopilan varias mediciones de latencia para ayudar a resolver los problemas de rendimiento. Los datos personales no se recopilan.
+
+Puede excluirse de los datos de uso de informes estableciendo `telemetryEnabled` en el archivo de configuración en `false`.
 
 ## Reglamentos de protección de datos y privacidad
 
