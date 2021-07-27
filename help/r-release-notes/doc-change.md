@@ -1,13 +1,13 @@
 ---
 keywords: registro de cambios de la documentación de Target;actualizaciones de la documentación;nuevos temas;ediciones;actualizaciones;actualizar
 description: 'Manténgase al tanto de los cambios y las adiciones más importantes realizados en la documentación del producto Adobe  [!DNL Target] '
-title: ¿Dónde puedo ver las actualizaciones de documentación de Target?
+title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 92c8637ac8c2ce925e0c16b726b76451a4691904
 workflow-type: tm+mt
 source-wordcount: '1956'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -20,12 +20,12 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | Julio de 26 | [Uso de Adobe Target con el ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK web de la plataforma en la guía de  *descripción general del SDK web de* Adobe Experience Platform | Se ha agregado una sección nueva:<ul><li>Diagrama del sistema del SDK web de la plataforma</li></ul> |
-| Julio de 23 | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado la siguiente sección para proporcionar más detalles:<ul><li>¿Cómo afectan las políticas de aplicación de cookies de Google Chrome a SameSite al VEC y EEC?</li></ul> |
+| Julio de 23 | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado la siguiente sección para proporcionar más detalles:<ul><li>¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC? </li></ul> |
 |  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha añadido una nueva sección &quot;Modificaciones por experiencia&quot; en &quot;Experiencias&quot;. |
-| Julio de 21 | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado la siguiente sección:<ul><li>¿Cómo afectan las políticas de aplicación de cookies de Google Chrome a SameSite al VEC y EEC?</li></ul> |
+| Julio de 21 | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado el párrafo siguiente:<ul><li>¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC? </li></ul> |
 | Julio de 19 | [Clasificaciones: Preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Se ha añadido información sobre el código de evento -1 o 65535. |
-| Julio de 16 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md)<br><br>[ y detalles de la versión de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha agregado información sobre la versión 2.6.0 de at.js. |
-|  | [Resolución de problemas relacionados con el [!UICONTROL Compositor de experiencias mejorado]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Se ha actualizado la lista de direcciones IP a la lista de permitidos. |
+| Julio de 16 | [Notas de la versión de Target (versión preliminar)](/help/r-release-notes/release-notes.md)<br>y<br>[detalles de la versión de at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha agregado información sobre la versión 2.6.0 de at.js. |
+|  | [Resolución de problemas relacionados con el [!UICONTROL Compositor de experiencias mejorado]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Se ha actualizado la lista de direcciones IP para incluirla en la lista de permitidos. |
 | Julio de 12 | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido acerca de los eventos siguientes:<ul><li>Seminario web: cuantificar el retorno de la inversión, las perspectivas y el ahorro de tiempo significativos de la integración de Adobe Analytics + [!DNL Adobe Target].</li><li>El coffee break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] se celebrará el miércoles 21 de julio de 2021 a las 8 a. m. (PDT, GMT-7).</li></ul> |
 |  | [Preguntas más frecuentes de Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Se ha añadido la siguiente pregunta frecuente: “¿Cómo puedo recomendar solo nuevos artículos o vídeos?” |
 |  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha actualizado el texto de la sección “Llamadas de API de Target”. |
