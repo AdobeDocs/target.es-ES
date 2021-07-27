@@ -5,10 +5,10 @@ title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro ti
 feature: Resolución de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 91%
 
 ---
 
@@ -59,6 +59,24 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 ## Parámetro categoryId
 
 * **Límite**: 250 caracteres.
+
+## Entrega de contenido {#content-delivery}
+
+* **Límite**: 100 solicitudes de entrega de  [!DNL Target] contenido concurrente.
+
+   Si un cliente supera las 100 solicitudes de envío de contenido [!DNL Target] concurrentes para una sesión de usuario determinada, se bloquearán todas las solicitudes posteriores para esa sesión de usuario. Se consideran simultáneas dos o más solicitudes si todas se envían al servidor [!DNL Target] antes de recibir la respuesta de cualquiera de ellas. [!DNL Target] procesa las solicitudes simultáneas para la misma sesión secuencialmente.
+
+* **Comportamiento** del error:
+
+   * API de envío y Mbox por lotes v2:
+      * Código de error: HTTP 420 demasiadas solicitudes
+      * Mensaje de error: &quot;Demasiadas solicitudes con el mismo ID de sesión&quot;
+   * API de mbox heredada:
+      * Contenido predeterminado con el comentario &quot;Demasiadas solicitudes con el mismo ID de sesión&quot;
+   * at.js:
+      * Contenido predeterminado mostrado
+
+
 
 ## Atributos del cliente
 
