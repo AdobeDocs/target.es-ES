@@ -5,9 +5,9 @@ title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro ti
 feature: Resolución de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1322'
 ht-degree: 91%
 
 ---
@@ -62,7 +62,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 ## Entrega de contenido {#content-delivery}
 
-* **Límite**: 100 solicitudes de entrega de  [!DNL Target] contenido concurrente.
+* **Límite**: 100 solicitudes de entrega de  [!DNL Target] contenido concurrentes por sesión de usuario.
 
    Si un cliente supera las 100 solicitudes de envío de contenido [!DNL Target] concurrentes para una sesión de usuario determinada, se bloquearán todas las solicitudes posteriores para esa sesión de usuario. Se consideran simultáneas dos o más solicitudes si todas se envían al servidor [!DNL Target] antes de recibir la respuesta de cualquiera de ellas. [!DNL Target] procesa las solicitudes simultáneas para la misma sesión secuencialmente.
 
