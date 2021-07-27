@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 60352fdc5279f546a2585506a7233ebaad25c41a
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1981'
 ht-degree: 97%
 
 ---
@@ -19,8 +19,9 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| Julio de 27 | [SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Se ha añadido la sección siguiente:<ul><li>Documentación recomendada en esta guía</li></ul> |
-|  | [Límites](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Se ha agregado una sección nueva:<ul><li>Entrega de contenido</li></ul>  |
+| Julio de 27 | [SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Se ha agregado una sección nueva:<ul><li>Documentación recomendada</li></ul> |
+|  | [Límites](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Se ha agregado una sección nueva:<ul><li>Entrega de contenido</li></ul> |
+|  | [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#feature-usage) | Se ha agregado una sección nueva:<ul><li>Recopilación de datos sobre el uso de las funciones</li></ul> |
 | Julio de 26 | [Uso de Adobe Target con el ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK web de la plataforma en la guía de  *descripción general del SDK web de* Adobe Experience Platform | Se ha agregado una sección nueva:<ul><li>Diagrama del sistema del SDK web de la plataforma</li></ul> |
 | Julio de 23 | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado la siguiente sección para proporcionar más detalles:<ul><li>¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC? </li></ul> |
 |  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha añadido una nueva sección &quot;Modificaciones por experiencia&quot; en &quot;Experiencias&quot;. |
