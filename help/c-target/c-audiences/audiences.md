@@ -4,7 +4,7 @@ description: Aprenda a utilizar la lista [!UICONTROL Audiencias] en [!DNL Adobe 
 title: ¿Cómo utilizo la lista de audiencias?
 feature: Audiencias
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f7d73de376c2345b628e3ebadb1d4ab4dc598693
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 34%
@@ -30,7 +30,7 @@ Existen dos tipos de audiencias en [!DNL Target]:
 
    En [!DNL Target], las audiencias de informes solo se pueden configurar si se usa [!DNL Target] como fuente de informes. Si utiliza [ Adobe Analytics como fuente de informes](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), tiene que configurar la audiencia de informe en [!DNL Analytics].
 
-## Usar la lista [!UICONTROL Audiencias]
+## Usar la lista [!UICONTROL Audiencias] {#use-list}
 
 Para acceder a la lista [!UICONTROL Audiencias], haga clic en **[!UICONTROL Audiencias]** en la barra de menús superior:
 
