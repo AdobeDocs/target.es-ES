@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe [!DNL Target
 title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Notas de la versión
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 100%
+source-wordcount: '581'
+ht-degree: 93%
 
 ---
 
@@ -26,17 +26,15 @@ Anuncios e información acerca de próximos eventos, incluidas sesiones de Gener
 
 ## [!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad
 
-* **Miércoles, 21 de julio de 2021**
+* **Miércoles, 11 de agosto de 2021**
 * **08:00 a. m. (PDT, UTC -7)**
-* **[Haga clic aquí para obtener más información y registrarse](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
+* **[Haga clic aquí para obtener más información y registrarse](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
 
-David Son, [!DNL Target] encargado de producción sénior, responderá preguntas relativas a sus áreas de experiencia:
+Consultor Principal de Soluciones para [!DNL Adobe Target], James McTiernan responderá a las preguntas de los clientes relacionadas con sus áreas de experiencia dentro de [!DNL Target]:
 
-* [!DNL Adobe Experience Platform Web SDK]
-* Toma de decisiones en el dispositivo
-* at.js
-* Móvil
-* API de Target
+* Recomendaciones
+* Pruebas A/B y multivariable (MVT)
+* Personalización
 
 ## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de Adobe Target
 
