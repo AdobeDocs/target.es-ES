@@ -4,10 +4,10 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Notas de la versión
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '4390'
-ht-degree: 100%
+source-wordcount: '4419'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,10 @@ Información sobre problemas conocidos de [!DNL Adobe Target]. También incluye 
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
+
+### El Compositor de experiencias mejorado (EEC) no admite solicitudes de PUT.
+
+Actualmente, un problema con el EEC impide que admita solicitudes del PUT y resulta en un error de tiempo de espera 504. (TGT-41493)
 
 ### Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran en el informe [!UICONTROL Atributos importantes].
 
