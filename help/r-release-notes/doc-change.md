@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2045'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Julio de 30 | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se han actualizado las secciones siguientes:<ul><li>entity.id</li><li>Parámetro productPurchasedId</li></ul> |
 | Julio de 29 | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información sobre el [!DNL Adobe Target] Coffee Break de la comunidad de preguntas y respuestas: Miércoles, 11 de agosto de 2021. |
 |  | [Personalización de un mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Se ha actualizado la nota importante para indicar que debe editar y volver a guardar las actividades afectadas creadas en el VEC después de personalizar un mbox global. |
 |  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido:<ul><li>El Compositor de experiencias mejorado (EEC) no admite solicitudes de PUT.</li></ul> |
