@@ -5,10 +5,10 @@ title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro ti
 feature: Resolución de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 90%
+source-wordcount: '1364'
+ht-degree: 86%
 
 ---
 
@@ -115,9 +115,15 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
    Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (véase arriba).
 
-### Parámetros de entityid
+### entity.id
 
-* **Límite**: 1000 caracteres.
+* **Límite para implementaciones que requieren capturar información** de compra: 50 caracteres.
+
+   Este límite se impone porque el parámetro de mbox `productPurchasedId` captura entity.ids, que limita el recuento de caracteres a 50.
+
+* **Límite para implementaciones que solo requieren algoritmos basados en vistas:**: 1000 caracteres.
+
+   Los algoritmos basados en vistas incluyen vista/vista, más visitados, más vistos recientemente, etc.
 
 ## Excludedids {#excludedid}
 
