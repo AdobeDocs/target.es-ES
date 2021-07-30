@@ -5,10 +5,10 @@ title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro ti
 feature: Resolución de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 91%
+source-wordcount: '1320'
+ht-degree: 90%
 
 ---
 
@@ -243,7 +243,7 @@ A continuación se describen los límites de tamaño que se aplican a las oferta
 
 ## Parámetro productPurchasedId
 
-* **Límite**: 47 caracteres por valor separado por coma y 250 caracteres en total. El sistema puede truncar los valores individuales de más de 47 caracteres. Las longitudes totales de más de 250 caracteres pueden provocar el error 400.
+* **Límite**: 50 caracteres por valor separado por coma y 250 caracteres en total. El sistema trunca los valores individuales superiores a 50 caracteres. Las longitudes totales superiores a 250 caracteres dan como resultado un error 400.
 
 ## Scripts de perfil
 
