@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -25,9 +25,9 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido:<ul><li>El Compositor de experiencias mejorado (EEC) no admite solicitudes de PUT.</li></ul> |
 | Julio de 27 | [SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Se ha agregado una sección nueva:<ul><li>Documentación recomendada</li></ul> |
 |  | [Límites](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Se ha agregado una sección nueva:<ul><li>Entrega de contenido</li></ul> |
-| Julio de 26 | [Uso de Adobe Target con el ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK web de la plataforma en la guía de  *descripción general del SDK web de* Adobe Experience Platform | Se ha agregado una sección nueva:<ul><li>Diagrama del sistema del SDK web de la plataforma</li></ul> |
+| Julio de 26 | [Uso de Adobe Target con el SDK web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=es) en la guía de *Descripción general del SDK web de Adobe Experience Platform* | Se ha agregado una sección nueva:<ul><li>Diagrama del sistema del SDK web de Platform</li></ul> |
 | Julio de 23 | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado la siguiente sección para proporcionar más detalles:<ul><li>¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC? </li></ul> |
-|  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha añadido una nueva sección &quot;Modificaciones por experiencia&quot; en &quot;Experiencias&quot;. |
+|  | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se ha añadido la nueva sección “Modificaciones por experiencia” en “Experiencias”. |
 | Julio de 21 | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado el párrafo siguiente:<ul><li>¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC? </li></ul> |
 | Julio de 19 | [Clasificaciones: Preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Se ha añadido información sobre el código de evento -1 o 65535. |
 | Julio de 16 | [Notas de la versión de Target (versión preliminar)](/help/r-release-notes/release-notes.md)<br>y<br>[detalles de la versión de at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha agregado información sobre la versión 2.6.0 de at.js. |
