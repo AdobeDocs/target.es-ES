@@ -5,7 +5,7 @@ title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro ti
 feature: Resolución de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 87%
@@ -58,7 +58,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 ## Parámetro categoryId
 
-* **Límite**: 250 caracteres.
+* **Límite**: 256 caracteres.
 
 ## Entrega de contenido {#content-delivery}
 
@@ -196,7 +196,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
    **Extremo de API de envíos**:
 
-   * Parámetros de mbox 50
+   * Parámetros de mbox 100
    * Longitud máxima del nombre del parámetro de mbox 128
    * El valor del parámetro de mbox no puede ser nulo
    * Valor del parámetro de mbox 5000
