@@ -4,9 +4,9 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Notas de la versión
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 61%
 
 ---
@@ -31,7 +31,7 @@ Esta versión de mantenimiento contiene muchas mejoras del back-end, incluido el
 
 * Se ha corregido un problema que provocaba que los informes para actividades de [!UICONTROL Personalización automática] creadas en el [!UICONTROL Compositor de experiencias basadas en formularios] hicieran referencia a ofertas eliminadas en los informes. Esto provocó que se mostrara el siguiente mensaje de error: &quot;Tenemos problemas para recuperar datos para este informe. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste.&quot; (TGT-41028)
 
-## API de envío de Target (fecha por determinar)
+## API de envío de Target (3 de agosto de 2021)
 
 Esta versión contiene las siguientes mejoras:
 
