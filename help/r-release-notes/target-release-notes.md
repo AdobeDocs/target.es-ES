@@ -4,9 +4,9 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Notas de la versión
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '273'
 ht-degree: 74%
 
 ---
@@ -29,7 +29,7 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 Esta versión contiene las siguientes mejoras:
 
-* El límite de parámetros de mbox se ha aumentado a 100 parámetros. El límite anterior era de 50 parámetros.
+* El límite de parámetros de mbox se ha aumentado a 100 parámetros. El límite anterior era de 50 parámetros. (TNT-41717)
 * El límite de `categoryId` se ha aumentado a 256 caracteres. El límite anterior era de 128 caracteres.
 * Se han añadido los siguientes detalles [!DNL Adobe Audience Manager] (AAM) a la API de envío:
 
