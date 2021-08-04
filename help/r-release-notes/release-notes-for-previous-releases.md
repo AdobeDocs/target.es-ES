@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Notas de la versión
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
-source-wordcount: '31327'
+source-wordcount: '31382'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,14 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 
 ## Notas de la versión: 2021
 
+### [!DNL Target Standard/Premium] 21.6.1 (30 de junio de 2021)
+
+Esta versión incorpora las siguientes nuevas funciones y mejoras. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+| Función | Detalles |
+| --- | --- |
+| [!UICONTROL Analytics for Target] (A4T) | Ahora, al hacer clic en el vínculo “[!UICONTROL Ver en Analytics]” de la página [!UICONTROL Informes] de una actividad que utiliza [!DNL Analytics] como fuente de informes (A4T), [!DNL Analysis Workspace] se abre. Anteriormente, el vínculo abría Creación de informes [!DNL Analytics]. (TGT-36959) |
+
 ### Python SDK 1.0.0 (16 de junio de 2021)
 
 Ya está disponible el nuevo SDK de Python de [!DNL Adobe Target] con funcionalidades de toma de decisiones en el dispositivo. Esta adición más reciente refuerza el conjunto de [!DNL Target] de SDK del lado del servidor. Estos SDK le ayudan a integrar con [!DNL Target] y aceleran el tiempo de valor, en el idioma de su elección. Las integraciones del lado del servidor se están convirtiendo en una opción popular, dado que el mercado está cambiando a un mundo sin cookies en el que los datos de origen son valiosos. Los SDK de Target están disponibles en los lenguajes de programación más populares del mercado (Python, Java, JavaScript, C# / .Net).
@@ -35,7 +43,7 @@ Esta versión incluye las siguientes mejoras:
 
 | Función | Detalles |
 | --- | --- |
-| API de ![Distintivo Premium](/help/assets/premium.png) de [!UICONTROL Búsqueda en el catálogo] de [!DNL Recommendations] | Busque en su catálogo de productos y contenido de [!DNL Recommendations] mediante programación a través de API para identificar los elementos que coinciden con un criterio de búsqueda y simplificar la administración del catálogo.<br>**Limitaciones y notas**:<ul><li>La búsqueda en el catálogo mediante API no es compatible con entornos que contienen más de 2 000 000 de elementos.</li><li>Los resultados de búsqueda en el catálogo a través de API se actualizan más rápido que los buscados a través de la IU de [!DNL Target]. La búsqueda en el catálogo en la IU de [!DNL Target] puede tardar más tiempo en reflejar los resultados más recientes.</li></ul>Para obtener más información, consulte [Búsqueda de entidades](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) en la Guía API de *[!DNL Adobe Target][!DNL Recommendations]*. |
+| API de ![Distintivo Premium](/help/assets/premium.png) de [!UICONTROL Búsqueda en el catálogo] de [!DNL Recommendations] | Busque en su catálogo de productos y contenido de [!DNL Recommendations] mediante programación a través de API para identificar los elementos que coinciden con un criterio de búsqueda y simplificar la administración del catálogo.<br>**Limitaciones y notas**:<ul><li>La búsqueda en el catálogo mediante API no es compatible con entornos que contienen más de 2 000 000 de elementos.</li><li>Los resultados de búsqueda en el catálogo a través de API se actualizan más rápido que los buscados a través de la IU de [!DNL Target]. La búsqueda en el catálogo en la IU de [!DNL Target] puede tardar más tiempo en reflejar los resultados más recientes.</li></ul>Para obtener más información, consulte [Búsqueda de entidades](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) en la Guía *[!DNL Adobe Target]API de [!DNL Recommendations]*. |
 
 Esta versión de mantenimiento incluye las siguientes correcciones.
 
@@ -48,7 +56,7 @@ Esta versión de [!DNL Platform Web SDK] incluye compatibilidad con lo siguiente
 
 | Función | Detalles |
 | --- | --- |
-| Compatibilidad de redireccionamiento con [!UICONTROL Analytics for Target] (A4T) | El SDK web de Platform ahora admite redirecciones [!DNL Target] al utilizar [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obtener más información, consulte [Implementación de Analytics para [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Compatibilidad de redireccionamiento con [!UICONTROL Analytics for Target] (A4T) | El SDK web de Platform ahora admite redirecciones [!DNL Target] al utilizar [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obtener más información, consulte [Implementación de Analytics para  [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ### Versión 2.5.0 de at.js (13 de mayo de 2021)
 
@@ -1401,7 +1409,7 @@ Esta versión incluye las siguientes características y mejoras (los números de
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ofertas </p> </td> 
-   <td colname="col2"> <p> Si un usuario tiene el permiso de “Editor”, no podrá editar una oferta que haga referencia a una actividad programada o en directo. </p> <p> <p>Nota: En el caso de clientes de Target Premium que tengan <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=es" format="html" scope="external">Permisos de usuario de Enterprise</a>, si un usuario selecciona la opción Todos los espacios de trabajo, Target utiliza el permiso más alto del usuario a través de los espacios de trabajo. Si el permiso más alto es “Editor”, Target restringe la edición, como se ha indicado anteriormente </p>. </p> <p>Estas restricciones se aplican a todas las ofertas, no solo a las ofertas creadas en Target. (TGT-27276) </p> </td> 
+   <td colname="col2"> <p> Si un usuario tiene el permiso de “Editor”, no podrá editar una oferta que haga referencia a una actividad programada o en directo. </p> <p> <p>Nota: En el caso de clientes de Target Premium que tengan <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=es" format="html" scope="external">Permisos de usuario de Enterprise</a>, si un usuario selecciona la opción Todos los espacios de trabajo, Target utiliza el permiso más alto del usuario a través de los espacios de trabajo. Si el permiso más alto es “Editor”, Target restringe la edición, como se ha indicado anteriormente. </p>  </p> <p>Estas restricciones se aplican a todas las ofertas, no solo a las ofertas creadas en Target. (TGT-27276) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tokens de respuesta </p> </td> 
