@@ -5,9 +5,9 @@ title: ¿Cómo utilizo la función targetGlobalSettings() ?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
+source-git-commit: 4fa34643969c1f60ca79e195c1bca4043adadcd9
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2317'
 ht-degree: 30%
 
 ---
@@ -155,7 +155,7 @@ Las configuraciones que se pueden anular son las siguientes:
 
 * **Tipo**: Booleano
 * **Valor** predeterminado: false
-* **Descripción**:  [!DNL Target] proporciona soporte de funcionalidad opcional a través de  [!DNL Adobe Platform Launch] para ayudar a respaldar su estrategia de gestión de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Platform Launch] para aprobar previamente la etiqueta de [!DNL Target]. Para activar Opt-In en la biblioteca [!DNL Target] at.js, añada la configuración `optinEnabled=true`. En [!DNL Platform Launch] debe seleccionar &quot;habilitar&quot; en la lista desplegable [!UICONTROL Opt-In del RGPD] en la vista de instalación de la extensión de Launch. Consulte la [documentación del Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obtener más información.
+* **Descripción**:  [!DNL Target] proporciona soporte de funcionalidad opcional a través de  [!DNL Adobe Platform Launch] para ayudar a respaldar su estrategia de gestión de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Platform Launch] para aprobar previamente la etiqueta de [!DNL Target]. Para activar Opt-In en la biblioteca [!DNL Target] at.js, añada la configuración `optinEnabled=true`. En [!DNL Platform Launch] debe seleccionar &quot;habilitar&quot; en la lista desplegable [!UICONTROL Opt-In del RGPD] en la vista de instalación de la extensión de Launch. Consulte la [documentación del Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obtener más información. Para obtener más información sobre esta configuración en relación con las normas de privacidad y protección de datos, incluido el Reglamento General de Protección de Datos (RGPD) de la Unión Europea y la Ley de Privacidad del Consumidor de California (CCPA), consulte [Reglamentos de privacidad y protección de datos](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 ### optoutEnabled
 
