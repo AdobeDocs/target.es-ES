@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 95%
+source-wordcount: '2108'
+ht-degree: 96%
 
 ---
 
@@ -15,17 +15,11 @@ ht-degree: 95%
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
-## Adobe [!DNL Target] Standard/Premium 21.8.1 (4 de agosto de 2021)
-
-| Fecha | Tema | Cambios |
-| --- | --- | --- |
-| 4 de agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Se ha añadido información sobre la opción de configuración `optinEnabled`. |
-|  | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md): 21.8.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
-
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 de junio de 2021)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 4 de agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Se ha añadido información sobre la opción de configuración `optinEnabled`. |
 | 3 de agosto | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión [!UICONTROL Target Delivery API]. |
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la próxima versión [!DNL Target Standard/Premium] 21.8.1 (4 de agosto de 2021). |
 | 2 de agosto | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido:<ul><li>Distribución del tráfico de las actividades de asignación automática mediante A4T</li></ul> |
