@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 96%
+source-wordcount: '2138'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 5 de agosto | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se agregó una nota que indica que la versión [!DNL Target Standard/Premium] 18.8.1 está retrasada. |
+|  | [Información general sobre la asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Puedo cambiar la fuente de informes a mitad de camino a través de una actividad [!UICONTROL de asignación automática]?</li></ul> |
 | 4 de agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Se ha añadido información sobre la opción de configuración `optinEnabled`. |
 | 3 de agosto | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión [!UICONTROL Target Delivery API]. |
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la próxima versión [!DNL Target Standard/Premium] 21.8.1 (4 de agosto de 2021). |
