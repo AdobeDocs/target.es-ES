@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 95%
+source-wordcount: '2172'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 6 de agosto | [Antes de implementar Analytics for Target (A4T) con at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Se ha actualizado la nota siguiente:<ul><li>at.js 1.8.0 y versiones posteriores de at.js 2.x y posteriores ya no funcionan con versiones de la API de visitante anteriores a la 2.5.0 para pasar parámetros de Adobe Audience Manager (AAM).</li></ul> |
 | 5 de agosto | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se agregó una nota que indica que la versión [!DNL Target Standard/Premium] 18.8.1 está retrasada. |
 |  | [Información general sobre la asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Puedo cambiar la fuente de informes a mitad de camino a través de una actividad [!UICONTROL de asignación automática]?</li></ul> |
 | 4 de agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Se ha añadido información sobre la opción de configuración `optinEnabled`. |
