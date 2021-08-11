@@ -1,13 +1,13 @@
 ---
-keywords: apple;ITP;prevención inteligente del seguimiento;experience cloud id;ecid
+keywords: apple;ITP;prevención inteligente del seguimiento;experience cloud id;ecid;itp
 description: Obtenga información sobre el Adobe [!DNL Target] y el impacto de la iniciativa Prevención inteligente del seguimiento de Apple (ITP) que busca proteger la privacidad de los usuarios de Safari.
 title: ¿Cómo gestiona [!DNL Target] la compatibilidad con Apple ITP?
 feature: Privacidad y seguridad
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
+source-git-commit: 898a18cbd9c6f499f9e7b74078575bc149c9a292
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 38%
 
 ---
