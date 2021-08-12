@@ -5,7 +5,7 @@ landing-page-description: Obtenga información sobre las nuevas funciones, mejor
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: Notas de la versión
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 62%
@@ -24,7 +24,7 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target] SDK 2.1.8 de node.js (11 de agosto de 2021)
+## [!DNL Target] SDK 2.2.0 de node.js (11 de agosto de 2021)
 
 * Se ha añadido la recopilación de datos de telemetría de SDK
 * Código de API de envío automatizada del cliente openapi
