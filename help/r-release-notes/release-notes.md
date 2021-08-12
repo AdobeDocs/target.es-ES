@@ -5,10 +5,10 @@ landing-page-description: Obtenga información sobre las nuevas funciones, mejor
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: Notas de la versión
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
+source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 62%
+ht-degree: 60%
 
 ---
 
