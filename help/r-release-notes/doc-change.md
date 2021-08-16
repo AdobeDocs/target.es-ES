@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
+source-git-commit: fe70f357e2298f1656d713aae5fae800e6775d64
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2214'
 ht-degree: 93%
 
 ---
@@ -20,6 +20,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 16 de agosto | [Notas de la versión de Target (versión preliminar)](/help/r-release-notes/release-notes.md)<br>y<br>[detalles de la versión de at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se han añadido notas de la versión para at.js 2.6.1. |
+|  | [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Se ha añadido la sección &quot;Prácticas recomendadas&quot;. |
 | 11 de agosto | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se han añadido notas de la versión para el SDK de [!DNL Target] node.js versión 2.2.0. |
 | 9 de agosto | [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Tema actualizado. |
 | 6 de agosto | [Antes de implementar Analytics for Target (A4T) con at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Se ha actualizado la nota siguiente:<ul><li>at.js 1.8.0 y versiones posteriores de at.js 2.x y posteriores ya no funcionan con versiones de la API de visitante anteriores a la 2.5.0 para pasar parámetros de Adobe Audience Manager (AAM).</li></ul> |
