@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fe70f357e2298f1656d713aae5fae800e6775d64
 workflow-type: tm+mt
 source-wordcount: '2214'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -31,10 +31,10 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la próxima versión [!DNL Target Standard/Premium] 21.8.1 (4 de agosto de 2021). |
 | 2 de agosto | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido:<ul><li>Distribución del tráfico de las actividades de asignación automática mediante A4T</li></ul> |
 |  | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la próxima versión de [!UICONTROL Target Delivery API]. |
-| Julio de 30 | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se han actualizado las secciones siguientes:<ul><li>entity.id</li><li>Parámetro productPurchasedId</li></ul> |
-| Julio de 29 | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información sobre el [!DNL Adobe Target] Coffee Break de la comunidad de preguntas y respuestas: Miércoles, 11 de agosto de 2021. |
+| Julio de 30 | [Límites](/help/r-troubleshooting-target/target-limits.md) | Se han actualizado las siguientes secciones:<ul><li>entity.id</li><li>Parámetro productPurchasedId</li></ul> |
+| Julio de 29 | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información acerca del descanso para preguntas y respuestas de la comunidad de [!DNL Adobe Target]: miércoles, 11 de agosto de 2021. |
 |  | [Personalización de un mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Se ha actualizado la nota importante para indicar que debe editar y volver a guardar las actividades afectadas creadas en el VEC después de personalizar un mbox global. |
-|  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido:<ul><li>El Compositor de experiencias mejorado (EEC) no admite solicitudes de PUT.</li></ul> |
+|  | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido:<ul><li>El Compositor de experiencias mejorado (EEC) no admite peticiones PUT.</li></ul> |
 | Julio de 27 | [SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Se ha agregado una sección nueva:<ul><li>Documentación recomendada</li></ul> |
 |  | [Límites](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Se ha agregado una sección nueva:<ul><li>Entrega de contenido</li></ul> |
 | Julio de 26 | [Uso de Adobe Target con el SDK web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=es) en la guía de *Descripción general del SDK web de Adobe Experience Platform* | Se ha agregado una sección nueva:<ul><li>Diagrama del sistema del SDK web de Platform</li></ul> |
