@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -62,17 +62,17 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 ## Entrega de contenido {#content-delivery}
 
-* **Límite**: 100 solicitudes de entrega de  [!DNL Target] contenido concurrentes por sesión de usuario.
+* **Límite**: 100 solicitudes de entrega de contenido de [!DNL Target] concurrentes por sesión de usuario.
 
-   Si un cliente supera las 100 solicitudes de envío de contenido [!DNL Target] concurrentes para una sesión de usuario determinada, se bloquearán todas las solicitudes posteriores para esa sesión de usuario. Se consideran simultáneas dos o más solicitudes si todas se envían al servidor [!DNL Target] antes de recibir la respuesta de cualquiera de ellas. [!DNL Target] procesa las solicitudes simultáneas para la misma sesión secuencialmente.
+   Si un cliente supera las 100 solicitudes de entrega de contenido de [!DNL Target] concurrentes durante una sesión determinada, se bloquearán todas las solicitudes posteriores durante esa sesión de usuario. Dos o más solicitudes se consideran concurrentes si todas se envían al servidor de [!DNL Target] antes de recibir la respuesta de cualquiera de ellas. [!DNL Target] procesa las solicitudes concurrentes de la misma sesión de forma secuencial.
 
-* **Comportamiento** del error:
+* **Comportamiento del error**:
 
-   * API de envío y Mbox por lotes v2:
-      * Código de error: HTTP 420 demasiadas solicitudes
-      * Mensaje de error: &quot;Demasiadas solicitudes con el mismo ID de sesión&quot;
+   * API de entrega y Mbox por lotes v2:
+      * Código de error: HTTP 420 Too Many Requests
+      * Mensaje de error: “Demasiadas solicitudes con el mismo ID de sesión”
    * API de mbox heredada:
-      * Contenido predeterminado con el comentario &quot;Demasiadas solicitudes con el mismo ID de sesión&quot;
+      * Contenido predeterminado con el comentario “Demasiadas solicitudes con el mismo ID de sesión”
    * at.js:
       * Contenido predeterminado mostrado
 
@@ -117,13 +117,13 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 ### entity.id
 
-* **Límite para implementaciones que requieren capturar información** de compra: 50 caracteres.
+* **Límite para implementaciones que requieren capturar información de compra**: 50 caracteres.
 
-   Este límite se impone porque el parámetro de mbox `productPurchasedId` captura entity.ids, que limita el recuento de caracteres a 50.
+   Este límite se impone porque el parámetro de mbox `productPurchasedId` captura entity.ids, lo que limita el recuento de caracteres a 50.
 
 * **Límite para implementaciones que solo requieren algoritmos basados en vistas:**: 1000 caracteres.
 
-   Los algoritmos basados en vistas incluyen vista/vista, más visitados, más vistos recientemente, etc.
+   Los algoritmos basados en vistas incluyen vista/vista, más visto, recientemente visto, etc.
 
 ## Excludedids {#excludedid}
 
@@ -249,7 +249,7 @@ A continuación se describen los límites de tamaño que se aplican a las oferta
 
 ## Parámetro productPurchasedId
 
-* **Límite**: 50 caracteres por valor separado por coma y 250 caracteres en total. El sistema trunca los valores individuales superiores a 50 caracteres. Las longitudes totales superiores a 250 caracteres dan como resultado un error 400.
+* **Límite**: 50 caracteres por valor separado por coma y 250 caracteres en total. El sistema trunca los valores individuales de más de 50 caracteres. Las longitudes totales de más de 250 caracteres provocan un error 400.
 
 ## Scripts de perfil
 
