@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
 source-wordcount: '4505'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -35,9 +35,9 @@ La IU [!DNL Target] permite a los usuarios seleccionar métricas de participaci�
 
 Para obtener una lista de las métricas de objetivo admitidas y no admitidas, consulte [Compatibilidad de A4T para actividades de asignación automática y segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
-### El Compositor de experiencias mejorado (EEC) no admite solicitudes de PUT.
+### El Compositor de experiencias mejorado (EEC) no admite peticiones PUT.
 
-Actualmente, un problema con el EEC impide que admita solicitudes del PUT y resulta en un error de tiempo de espera 504. (TGT-41493)
+Actualmente, un problema con el EEC impide admitir peticiones PUT y provoca un error de tiempo de espera 504. (TGT-41493)
 
 ### Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran en el informe [!UICONTROL Atributos importantes].
 
