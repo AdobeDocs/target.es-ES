@@ -4,7 +4,7 @@ description: Aprenda a utilizar una actividad de asignación automática en Adob
 title: ¿Qué es una actividad de asignación automática?
 feature: Asignación automática
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3454'
 ht-degree: 50%
@@ -33,7 +33,7 @@ En estas pruebas, la mayoría de los productos, incluido [!DNL Target], utilizan
 
 [!UICONTROL Asignación automática realiza comparaciones implícitas entre todas las experiencias y produce una ganadora “real”. ] No existe ninguna experiencia de “control” en la prueba.
 
-[!UICONTROL La ] asignación automática asigna de forma inteligente nuevos visitantes a las experiencias hasta que el intervalo de confianza de la mejor experiencia no se superponga con el intervalo de confianza de ninguna otra experiencia. Normalmente, este proceso puede producir falsos positivos, pero [!UICONTROL Asignación automática] utiliza intervalos de confianza basados en la [desigualdad de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) que compensan las evaluaciones repetidas. En este punto, hay un verdadero ganador. Cuando [!UICONTROL Asignación automática] se detiene, siempre que no exista una dependencia del tiempo sustancial para los visitantes que llegan a la página, hay al menos un 95 % de probabilidades de que [!UICONTROL Asignación automática] devuelva una experiencia cuya respuesta verdadera no difiera más del 1 % (relativo) de la respuesta verdadera de la experiencia ganadora.
+[!UICONTROL La ] asignación automática asigna de forma inteligente nuevos visitantes a las experiencias hasta que el intervalo de confianza de la mejor experiencia no se superponga con el intervalo de confianza de ninguna otra experiencia. Normalmente, este proceso puede producir falsos positivos, pero [!UICONTROL Asignación automática] utiliza intervalos de confianza basados en la [desigualdad de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) que compensan las evaluaciones repetidas. En este punto, hay un verdadero ganador. Cuando [!UICONTROL Asignación automática] se detiene, siempre que no exista una dependencia del tiempo sustancial para los visitantes que llegan a la página, hay al menos un 95 % de probabilidades de que [!UICONTROL Asignación automática] devuelva una experiencia cuya respuesta verdadera no difiera más del 1 % (relativo) de la respuesta verdadera de la experiencia ganadora.
 
 ## Cuándo utilizar [!UICONTROL Asignación automática] frente a A/B o [!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
