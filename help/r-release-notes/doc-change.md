@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Notas de la versión
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe70f357e2298f1656d713aae5fae800e6775d64
+source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2231'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 19 de agosto | [Visualización de informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Se ha actualizado la pregunta frecuente siguiente:<ul><li>¿Admite A4T grupos de informes virtuales?</li></ul> |
 | 16 de agosto | [Notas de la versión de Target (versión preliminar)](/help/r-release-notes/release-notes.md)<br>y<br>[detalles de la versión de at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se han añadido notas de la versión para at.js 2.6.1. |
 |  | [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Se ha añadido la sección &quot;Prácticas recomendadas&quot;. |
 | 11 de agosto | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se han añadido notas de la versión para el SDK de [!DNL Target] node.js versión 2.2.0. |
