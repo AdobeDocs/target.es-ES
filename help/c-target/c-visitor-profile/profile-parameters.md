@@ -4,7 +4,7 @@ description: Obtenga información sobre los atributos específicos del visitante
 title: ¿Qué son los atributos de perfil?
 feature: Audiencias
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 50%
@@ -33,7 +33,7 @@ Para configurar atributos de perfil:
 
    | Tipo de parámetro | Descripción |
    |--- |--- |
-   | mbox | Se pasan directamente a través del código de la página cuando el mbox se crea. Consulte [Pasar parámetros a un mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Nota:  tiene un límite de 50 atributos de perfil únicos por llamada de mbox. [!DNL Target] Si debe pasar más de 50 atributos de perfil a [!DNL Target], páselo con el método de API Profile Update. Para obtener más información, consulte [Profile Update in the [!DNL Adobe Target] API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Se pasan directamente a través del código de la página cuando el mbox se crea. Consulte [Pasar parámetros a un mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Nota:  tiene un límite de 50 atributos de perfil únicos por llamada de mbox. [!DNL Target] Si debe pasar más de 50 atributos de perfil a [!DNL Target], páselo con el método de API Profile Update. Para obtener más información, consulte [Profile Update in the [!DNL Adobe Target] API documentation](https://developers.adobetarget.com/api/#updating-profiles). |
    | Perfil | Definido directamente con un fragmento de código de JavaScript. Estos fragmentos pueden almacenar totales en ejecución, como el dinero total gastado por el consumidor, y se ejecutan en cada solicitud de mbox. Consulte Atributos de script de perfil a continuación. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
