@@ -2,12 +2,11 @@
 keywords: preguntas frecuentes;faq;analytics para target;a4T;informe;informes;visualización de informes;creación de informes;metodología de contabilización;impresiones;visitantes;visitas;métrica predeterminada;conversiones de actividad;sin especificar
 description: Encuentre respuestas a preguntas que se plantean a menudo sobre la visualización de informes al utilizar Analytics para actividades [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: ¿Encuentra respuestas a preguntas sobre la visualización de informes con A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2538'
 ht-degree: 38%
 
 ---
@@ -18,7 +17,7 @@ En este tema encontrará respuestas a preguntas que se plantean a menudo sobre l
 
 ## ¿Puedo ver mis [!DNL Target] datos de actividad en Analysis Workspace? {#workspace}
 
-Puede utilizar [!DNL Analysis Workspace] para analizar las actividades y experiencias de [!DNL Target]. El panel [Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) le permite ver el alza y la confianza hasta en tres métricas de éxito. También puede profundizar con tablas y visualizaciones.
+Puede utilizar [!DNL Analysis Workspace] para analizar las actividades y experiencias de [!DNL Target]. El panel [Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=es) le permite ver el alza y la confianza hasta en tres métricas de éxito. También puede profundizar con tablas y visualizaciones.
 
 Para obtener información detallada y ejemplos, abra [Analytics &amp; Target: Tutorial Prácticas recomendadas de análisis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), proporcionado por Adobe Experience League.
 
@@ -63,7 +62,7 @@ Para obtener más información, consulte [Configuración de informes de A4T en A
 
 Para evaluar métricas exactas de [!UICONTROL Impresiones de actividad] y [!UICONTROL Conversiones de actividad] en [!DNL Analysis Workspace], asegúrese de que ambas métricas tengan aplicados modelos de atribución de [!UICONTROL Mismo contacto]. Los modelos se pueden aplicar si hace clic en el engranaje de configuración de columna y habilita [!UICONTROL Modelos de atribución no predeterminados] y, a continuación, selecciona [!UICONTROL Mismo contacto]. Obtenga más información sobre la atribución en [Información general de Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) en la *Guía de herramientas de Analytics*.
 
-## ¿Qué significa “conversiones de la actividad” si el especialista en marketing elige una métrica de Analytics durante la configuración de la actividad?{#section_F3EBACF85AF846E9B366A549AAB64356}
+## ¿Qué significa “conversiones de la actividad” si el especialista en marketing elige una métrica de Analytics durante la configuración de la actividad? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
 Las &quot;conversiones de actividad&quot; están vacías si se seleccionó una métrica [!DNL Analytics] como métrica de conversión de la actividad.
 
@@ -134,7 +133,7 @@ La métrica [!UICONTROL Visitantes únicos] muestra el número de personas que h
 
 Puede reducir la cantidad de tiempo que la variable [!DNL Target] persiste hasta una sesión; sin embargo, esto resulta problemático en las pruebas en las que no es tan probable que el evento de conversión se produzca en la misma sesión.
 
-## ¿Por qué en Analytics a veces se cuenta el mismo visitante en diferentes experiencias?    {#section_1397E972D31C4207A142E4D2D6D794A2}
+## ¿Por qué en Analytics a veces se cuenta el mismo visitante en diferentes experiencias?   {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 A continuación se explican los motivos por los que puede ser que el mismo visitante se cuente en varias experiencias en [!DNL Analytics]:
 
@@ -142,9 +141,9 @@ A continuación se explican los motivos por los que puede ser que el mismo visit
 * Si el visitante utiliza `mbox3rdPartyId`, cuando el visitante anónimo se fusiona con el perfil de ID de terceros, [!DNL Target] podría poner al visitante en una experiencia diferente para emparejarlo con el ID de terceros. Para obtener más información, consulte [Sincronización de perfiles en tiempo real para mbox con ID de terceros](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * [!DNL Analytics] puede estar rastreando diferentes dispositivos como el mismo visitante de una manera diferente a como  [!DNL Target] rastrea esos dispositivos: la configuración de ID de terceros en  [!DNL Target] es diferente a la de Analytics.
 
-## ¿Admite A4T grupos de informes virtuales?
+## ¿Admite A4T grupos de informes virtuales? {#virtual}
 
-Los grupos de informes virtuales *no* se incluyen en la lista de grupos de informes y las audiencias de los grupos de informes virtuales no se admiten en los informes de A4T.
+Aunque los grupos de informes virtuales no están incluidos en la lista [!UICONTROL Grupo de informes], cualquier dato de A4T compartido con un grupo de informes vinculado a un grupo de informes virtuales en [!DNL Analytics] tiene acceso a esos datos. Tenga en cuenta que cualquier audiencia creada a partir de un grupo de informes virtuales no se puede volver a compartir en [!DNL Target].
 
 ## ¿Puedo cambiar el porcentaje de asignación de tráfico en una actividad que utiliza A4T después de activar la actividad?
 
