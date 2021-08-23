@@ -4,9 +4,9 @@ description: Aprenda a utilizar AEM fragmentos de experiencia en actividades de 
 title: ¿Cómo utilizo los fragmentos de experiencia de Adobe Experience Manager (AEM)?
 feature: Experiencias y ofertas
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
+source-git-commit: 0437d7c83734ee707d4d42996d856f9e19416c3d
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 28%
 
 ---
@@ -55,8 +55,8 @@ Para obtener más información, consulte:
 
 Los fragmentos de experiencia se crean en [!DNL AEM]. Para obtener más información, consulte:
 
-* **[!DNL AEM]6.3**:  [Fragmentos ](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) de experiencias en la documentación de  *Adobe Experience Manager 6.3* .
-* **[!DNL AEM]6.4**:  [Fragmentos ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) de experiencias en la documentación de  *Adobe Experience Manager 6.4* .
+* **[!DNL AEM]6.3**:  [Fragmentos ](https://experienceleague.adobe.com/docs/) de experiencias en la documentación de  *Adobe Experience Manager 6.3* .
+* **[!DNL AEM]6.4**:  [Fragmentos ](https://experienceleague.adobe.com/docs/) de experiencias en la documentación de  *Adobe Experience Manager 6.4* .
 * **[!DNL AEM]6.5**:  [Fragmentos ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) de experiencias en la documentación de  *Adobe Experience Manager 6.5* .
 
 ### Paso 3: Configure [!DNL AEM] para compartir el fragmento de experiencia con [!DNL Target]
