@@ -2,13 +2,12 @@
 keywords: Analytics como fuente de informes;a4t;A4T;requisitos
 description: Obtenga información sobre cómo configurar los requisitos de cuenta de usuario necesarios para crear una actividad basada en Adobe Analytics en Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T).
 title: ¿Qué requisitos de permisos de usuario se necesitan para A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 36%
 
 ---
@@ -29,7 +28,7 @@ Complete las siguientes tareas en [!DNL Adobe Experience Cloud][Admin Console](h
 
 Las cuentas de usuario de [!DNL Analytics] y de [!DNL Target] deben estar vinculadas a su Adobe ID.
 
-Para obtener más información, consulte [Organizaciones y vinculación de cuentas](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Para obtener más información, consulte [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Configuración de la pertenencia a grupo de Experience Cloud
 
@@ -37,7 +36,7 @@ Debe ser miembro de uno o más grupos de [!DNL Experience Cloud] que tengan acce
 
 Para obtener más información, consulte [Administrar usuarios y productos del Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-## Adobe Analytics    {#section_8F404FDE9A634534AB0AA4CB3075582B}
+## Adobe Analytics   {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 Para utilizar A4T en un grupo de informes determinado, debe tener acceso a ese grupo de informes y conceder acceso al grupo [!DNL Web Services Access].
 
