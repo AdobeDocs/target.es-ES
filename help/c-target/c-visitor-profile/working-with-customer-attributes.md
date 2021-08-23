@@ -4,9 +4,9 @@ description: Aprenda a utilizar los datos de clientes empresariales de una base 
 title: ¿Qué son los atributos del cliente y cómo se utilizan?
 feature: Audiencias
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1476'
 ht-degree: 38%
 
 ---
@@ -145,7 +145,6 @@ Si utiliza el servicio de ID de Experience Cloud, debe establecer un ID de clien
 Para obtener más información sobre el uso de atributos del cliente en [!DNL Target], consulte los siguientes recursos:
 
 * [Crear un origen de atributos del cliente y cargar el archivo de datos ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) en la documentación de  *Experience Cloud Services and Administration*
-* [Atributos del cliente: cuanto más sabe, mejor se relaciona](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) en el *blog Digital Marketing*
 
 ## Problemas que los clientes encuentran con frecuencia {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
