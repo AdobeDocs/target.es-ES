@@ -4,7 +4,7 @@ description: Aprenda a interpretar los resultados de una actividad A/B de asigna
 title: ¿Cómo interpreto los informes de asignación automática?
 feature: Asignación automática
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
@@ -41,13 +41,13 @@ Al finalizar una actividad A/B, la asignación automática garantiza que el gana
 
 En la asignación automática no se utiliza la confianza basada en el valor P.
 
-La columna Confianza de una actividad de asignación automática (ilustrada abajo) muestra la probabilidad de que una experiencia sea la ganadora con un 1 % de margen de error (es decir, el algoritmo usa un efecto mínimo detectable del 1 % entre la primera mejor tasa de conversión y la segunda). Observe que el algoritmo usa la [desigualdad de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) para calcular esta probabilidad.
+La columna Confianza de una actividad de asignación automática (ilustrada abajo) muestra la probabilidad de que una experiencia sea la ganadora con un 1 % de margen de error (es decir, el algoritmo usa un efecto mínimo detectable del 1 % entre la primera mejor tasa de conversión y la segunda). Observe que el algoritmo usa la [desigualdad de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) para calcular esta probabilidad.
 
 Las pruebas A/B normales calculan la confianza según los valores p. La asignación automática no usa valores p. Los valores p calculan de forma “flexible” la probabilidad de que una experiencia indicada sea diferente al control. Estos valores P solo pueden usarse para determinar si una experiencia es diferente al control. Estos valores no pueden usarse para determinar si una experiencia es diferente a otra experiencia (no control).
 
 >[!IMPORTANT]
 >
->Target muestra un ganador después de un número mínimo predefinido de conversiones; sin embargo, la decisión final de elegir al ganador siempre debe estar en los resultados de la [calculadora de tamaño de la muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) de Adobe Target. Target no tiene en cuenta las tasas de conversión base de un sitio y otros aspectos importantes que se incluyen en la calculadora para determinar la duración de la actividad. Como resultado, Target podría mostrar un ganador antes de lo justificado, basándose en un número mínimo de conversiones. Para obtener más información, consulte [Calculadora de tamaño de muestra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target muestra un ganador después de un número mínimo predefinido de conversiones; sin embargo, la decisión final de elegir al ganador siempre debe estar en los resultados de la [calculadora de tamaño de la muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es) de Adobe Target. Target no tiene en cuenta las tasas de conversión base de un sitio y otros aspectos importantes que se incluyen en la calculadora para determinar la duración de la actividad. Como resultado, Target podría mostrar un ganador antes de lo justificado, basándose en un número mínimo de conversiones. Para obtener más información, consulte [Calculadora de tamaño de muestra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Comprender los informes de alza y confianza en las actividades de asignación automática {#lift-confidence}
 
