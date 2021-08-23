@@ -2,11 +2,10 @@
 keywords: atributos de entidad de varios valores;atributos de entidad personalizados;JSON válido;valor de atributo de entidad;matriz de JSON;varios valores;valores múltiples
 description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los artículos de su catálogo de Recommendations  [!DNL Target] Adobe.
 title: ¿Cómo Se Utilizan Los Atributos De Entidad Personalizados?
-feature: Recommendations
+feature: Recomendaciones
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
@@ -127,7 +126,7 @@ Puede pasar atributos de varios valores usando la API de envío en un parámetro
   }
 ```
 
-Consulte la [documentación de la API de Adobe Recommendations](http://developers.adobetarget.com/api/recommendations) para obtener información sobre el uso de las API Entrega y Guardar entidades.
+Consulte la [documentación de la API de Adobe Recommendations](https://developers.adobetarget.com/api/recommendations) para obtener información sobre el uso de las API Entrega y Guardar entidades.
 
 ## Uso de operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 
