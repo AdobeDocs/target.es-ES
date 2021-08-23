@@ -4,14 +4,14 @@ description: Siga los pasos necesarios para implementar las soluciones de Analyt
 title: ¿Cómo implemento Analytics para [!DNL Target] (A4T)?
 feature: 'Analytics for Target (A4T) '
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 25%
 
 ---
 
-# Implementación de Analytics for[!DNL Target]
+# Implementación de Analytics for [!DNL Target]
 
 Se requieren varios pasos a la hora de implementar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T). El proceso varía en función de si se implementa A4T con [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) o con at.js.
 
@@ -48,7 +48,7 @@ Las secciones siguientes describen los pasos necesarios para implementar esta in
 
 ### Paso 1: Solicitud de aprovisionamiento para Analytics y Target
 
-Después de implementar [!DNL Analytics] como fuente de informes para [!DNL Target], debe aprovisionarse para [!DNL Analytics] y [!DNL Target]. [Rellene este formulario para solicitar el aprovisionamiento](http://www.adobe.com/go/audiences).
+Después de implementar [!DNL Analytics] como fuente de informes para [!DNL Target], debe aprovisionarse para [!DNL Analytics] y [!DNL Target]. [Rellene este formulario para solicitar el aprovisionamiento](https://www.adobe.com/go/audiences).
 
 ### Paso 2: Configurar los permisos de usuario
 
