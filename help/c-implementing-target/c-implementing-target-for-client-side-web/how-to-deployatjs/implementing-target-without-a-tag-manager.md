@@ -5,21 +5,20 @@ title: ¿Puedo implementar [!DNL Target] sin un Administrador de etiquetas?
 feature: Implementación del lado del servidor
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 53%
+source-wordcount: '1682'
+ht-degree: 52%
 
 ---
 
 # Implementar [!DNL Target] sin un administrador de etiquetas
 
-Información sobre la implementación de [!DNL Adobe Target] sin utilizar un administrador de etiquetas ([!DNL Adobe Experience Platform Launch]).
+Información sobre la implementación de [!DNL Adobe Target] sin utilizar un administrador de etiquetas o etiquetas en [!DNL Adobe Experience Platform].
 
 >[!NOTE]
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch es el método preferido para implementar Target y la biblioteca de at.js. La siguiente información no es aplicable cuando se utiliza el Platform launch de Adobe para implementar Target.
+>Las etiquetas de [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) es el método preferido para implementar [!DNL Target] y la biblioteca de at.js. La siguiente información no es aplicable cuando se utilizan etiquetas en [!DNL Adobe Experience Platform] para implementar [!DNL Target].
 
 Para acceder a la página [!UICONTROL Implementación], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
 
@@ -33,7 +32,7 @@ Puede especificar la siguiente configuración en esta página:
 
 >[!NOTE]
 >
->En lugar de definir la configuración en la interfaz de usuario de Target Standard/Premium, puede anular la configuración de la biblioteca at.js o usar las API de REST. Para obtener más información, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+>En lugar de definir la configuración en la [!DNL Target Standard/Premium]interfaz de usuario de , , puede anular la configuración de la biblioteca at.js o usar las API de REST. Para obtener más información, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
 ## Detalles de la cuenta
 
@@ -41,9 +40,9 @@ Puede ver los siguientes detalles de la cuenta. Estos ajustes no se pueden cambi
 
 | Configuración | Descripción |
 | --- | --- |
-| [!UICONTROL Código de cliente] | El código de cliente es una secuencia de caracteres específica del cliente que a menudo se requiere al usar las API de Target. |
+| [!UICONTROL Código de cliente] | El código de cliente es una secuencia de caracteres específica del cliente que a menudo se requiere al usar las API de [!DNL Target]. |
 | [!UICONTROL ID de organización de IMS] | Este ID vincula la implementación con su cuenta de [!DNL Adobe Experience Cloud]. |
-| [!UICONTROL Toma de decisiones en el dispositivo] | Para activar la toma de decisiones en el dispositivo, deslice el conmutador a la posición &quot;activado&quot;.<br>La toma de decisiones en el dispositivo le permite almacenar en caché las campañas A/B y de Segmentación de experiencias (XT) en el servidor y realizar decisiones en la memoria con una latencia cercana a cero. Para obtener más información, consulte [Introducción a la toma de decisiones en el dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) en la guía *Adobe Target SDK*. |
+| [!UICONTROL Toma de decisiones en el dispositivo] | Para activar la toma de decisiones en el dispositivo, deslice el conmutador a la posición &quot;activado&quot;.<br>La toma de decisiones en el dispositivo le permite almacenar en caché las campañas A/B y de  [!UICONTROL Segmentación de experiencias]  (XT) en el servidor y realizar decisiones en la memoria con una latencia cercana a cero. Para obtener más información, consulte [Introducción a la toma de decisiones en el dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) en la guía *[!DNL Adobe Target]SDK*. |
 | [!UICONTROL Incluya en el artefacto todas las actividades cualificadas para la toma de decisiones en el dispositivo.] | (Condicional) Esta opción se muestra si habilita la toma de decisiones en el dispositivo.<br>Deslice la opción a la posición &quot;activada&quot; si desea que todas las actividades de Target activas que cumplen los requisitos para la toma de decisiones en el dispositivo se incluyan automáticamente en el artefacto.<br>Si deja esta opción desactivada, debe volver a crear y activar cualquier actividad de toma de decisiones en el dispositivo para que se incluya en el artefacto de reglas generadas. |
 
 ## Métodos de implementación
@@ -106,13 +105,13 @@ Elija la configuración que desee en la lista desplegable Proteger dirección IP
 * Confusión de IP completa
 * Ninguna
 
-Para obtener más información, consulte  [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+Para obtener más información, consulte [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
 
 >[!NOTE]
 >
 >La opción Compatibilidad con navegadores anteriores estaba disponible en la versión 0.9.3 (y anteriores) de at.js . Esta opción se ha eliminado de la versión 0.9.4 de at.js. Para saber cuáles con los exploradores compatibles con at.js, consulte [Exploradores compatibles](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)<br>Los navegadores anteriores son navegadores más viejos que no admiten completamente CORS (Uso compartido de recursos de origen cruzado). Algunos de estos navegadores son: Internet Explorer antes de la versión 11 y Safari versión 6 y anteriores. Si se deshabilitaba la compatibilidad con navegadores anteriores, Target no ofrecía contenido ni contaba los visitantes en los informes de estos navegadores. Si esta opción está habilitada, se recomienda realizar un control de calidad en los exploradores más antiguos para garantizar una buena experiencia del cliente.
 
-## Descargar at.js{#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
+## Descargar at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
 Instrucciones para descargar la biblioteca mediante la interfaz [!DNL Target] o la API de descarga.
 
@@ -131,7 +130,7 @@ Para descargar [!DNL at.js] desde la interfaz de [!DNL Target]:
 1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
 1. En la sección [!UICONTROL Implementation methods] , haga clic en el botón **[!UICONTROL Download]** situado junto a la versión de at.js que desee.
 
-### Descargar at.js con la [!DNL Target] API de descarga {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Descargar at.js con la API de descarga [!DNL Target] {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 Para descargar [!DNL at.js] con la API
 
