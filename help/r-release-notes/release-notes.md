@@ -5,7 +5,7 @@ landing-page-description: Obtenga información sobre las nuevas funciones, mejor
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: Notas de la versión
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
+source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 61%
@@ -60,7 +60,7 @@ Esta versión contiene las siguientes mejoras:
 * Se ha agregado un atributo seguro a las cookies cada vez que la configuración `secureOnly` de at.js se establece en `true`.
 * Los tokens de respuesta ya están disponibles al utilizar `triggerView()`.
 * Se ha corregido un problema relacionado con el evento `CONTENT_RENDERING_NO_OFFERS`. Ahora este evento se activa correctamente siempre que no haya contenido devuelto de [!DNL Target].
-* [!DNL Anlytics for Target] (A4T) Los detalles de las métricas de clic se devuelven correctamente al usar solicitudes `prefetch`.
+* [!DNL Analytics for Target] (A4T) Los detalles de las métricas de clic se devuelven correctamente al usar solicitudes `prefetch`.
 * La generación UUID ya no utiliza `Math.random()`, sino que depende de `window.crypto`.
 * La caducidad de la cookie `sessionId` se amplía correctamente en cada llamada de red.
 * La inicialización de la caché de la vista [!UICONTROL Aplicación de una sola página] (SPA) ahora se gestiona correctamente y respeta la configuración `viewsEnable`.
