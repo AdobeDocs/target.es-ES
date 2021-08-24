@@ -5,10 +5,10 @@ title: ¿Qué son las preguntas y respuestas comunes sobre at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 75%
+source-wordcount: '2543'
+ht-degree: 77%
 
 ---
 
@@ -89,7 +89,7 @@ La versión at.js 1.0.0 permite cargar la biblioteca de Target de forma asíncro
 
 Para cargar at.js de forma asíncrona:
 
-* El método recomendado es mediante [!DNL Adobe Experience Platform Launch]. Consulte la lección [Añadir Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html) del tutorial [Implementación del Experience Cloud en sitios web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) para obtener más información.
+* El método recomendado es mediante etiquetas en [!DNL Adobe Experience Platform].
 * También puede cargar at.js de forma asíncrona añadiendo el atributo async a la etiqueta de script que carga at.js. Utilice algo similar a esto:
 
    ```
@@ -109,7 +109,7 @@ Cargar at.js de forma asíncrona es un modo excelente de evitar el bloqueo de pr
 
 Puede evitar el parpadeo utilizando un fragmento de ocultamiento previo que oculta la página (o partes especificadas) y luego lo revela después de que se hayan cargado at.js y la solicitud global. El fragmento debe añadirse antes de cargar at.js.
 
-Si va a implementar at.js a través de una implementación asincrónica de Launch, asegúrese de incluir el fragmento de ocultamiento previo directamente en las páginas, antes del código Insertar, tal como se describe en la sección [Añadir el fragmento de ocultación previa de Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) del [tutorial Implementación del Experience Cloud en sitios web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html).
+Si va a implementar at.js a través de una implementación asíncrona [!DNL Adobe Experience Platform], asegúrese de incluir el fragmento de ocultamiento previo directamente en las páginas, antes de implementar [!DNL Target] mediante [!DNL Adobe Experience Platform] código incrustado.
 
 Si implementa at.js a través de una implementación sincrónica de DTM, el fragmento de ocultamiento previo se puede añadir a través de una regla de carga de página activada en la parte superior de la misma.
 
