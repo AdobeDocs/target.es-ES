@@ -5,10 +5,10 @@ title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
 feature: Administración y configuración
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 60%
+source-wordcount: '3020'
+ht-degree: 59%
 
 ---
 
@@ -42,7 +42,7 @@ Los siguientes términos se utilizan en esta sección y pueden ser nuevos para l
 
 ### Propiedad
 
-Las propiedades son similares a las propiedades de [!DNL Adobe Platform Launch] en que utilizan un único fragmento de código para diferenciarlas.
+Las propiedades son similares a las propiedades de [!DNL Adobe Experience Platform] en que utilizan un único fragmento de código para diferenciarlas.
 
 Una propiedad web es una biblioteca de reglas y un código incrustado. Una propiedad web puede ser cualquier conjunto de uno o varios dominios y subdominios.
 
@@ -265,7 +265,7 @@ Las actividades creadas antes de la migración se siguen ejecutando del mismo mo
 
 ### ¿Por qué aparece un mensaje de error que indica que no hay ninguna propiedad asociada con esta actividad, aunque haya una propiedad asignada?
 
-Si ha implementado [!DNL Target] con [!DNL Adobe Experience Platform Launch] y ha obtenido un mensaje de error indicando que no hay propiedad asociada con la actividad, pase el parámetro `at_property` con la función `targetPageParams`.
+Si ha implementado [!DNL Target] con etiquetas en [!DNL Adobe Experience Platform] y ha obtenido un mensaje de error indicando que no hay propiedad asociada con la actividad, pase el parámetro `at_property` con la función `targetPageParams`.
 
 ### ¿Se registran conversiones de rastreo de clics si una página redireccionada y la dirección URL de actividad pertenecen a propiedades diferentes?
 
