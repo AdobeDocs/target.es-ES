@@ -5,9 +5,9 @@ title: ¿Cómo actualizo de la versión 1.x de at.js a la versión 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2758'
 ht-degree: 91%
 
 ---
@@ -47,18 +47,18 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 | --- | --- |
 | 1 | En la SPA, se llama a `triggerView()` para procesar la vista y aplicar acciones para modificar los elementos visuales. |
 | 2 | El contenido dirigido para la vista se lee desde la caché. |
-| 3 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
+| 1 | El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado. |
 | 4 | La solicitud de notificación se envía al Almacenamiento de perfiles de [!DNL Target] para contar al visitante en la actividad e incrementar las métricas. |
 | 5 | Los datos de Analytics se envían a los servidores de recopilación de datos. |
 | 6 | Se comparan los datos de Target con los datos de Analytics mediante el SDID y se procesan en el almacén de informes de Analytics. Por lo tanto, los datos de Analytics se pueden visualizar tanto en Analytics como en Target mediante los informes de A4T. |
 
 ## Implementación de at.js 2.*x*  {#deploy-atjs-200}
 
-1. Implementación de at.js 2.*x* a través de la extensión [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+1. Implementación de at.js 2.** etiquetas xvia en la  [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extensión.
 
    >[!NOTE]
    >
-   > La implementación de at.js con Adobe Launch es el método preferido.
+   > La implementación de at.js mediante etiquetas en [!DNL Adobe Experience Platform] es el método preferido.
 
    O
 
@@ -360,7 +360,7 @@ Las tablas siguientes explican la 2.*compatibilidad con x* con diferentes tipos 
 | Audiencias | Sí |
 | Atributos del cliente | Sí |
 | Fragmentos de experiencia de AEM | Sí |
-| Extensión Adobe Launch | [Sí](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] Extensión | [Sí](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Depurador | Sí |
 | Auditor | Todavía no se han actualizado las reglas para at.js 2.*x* |
 | Inclusión | No. La compatibilidad con el [RGPD](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) se ofrece en [la versión 2.1.0 de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
