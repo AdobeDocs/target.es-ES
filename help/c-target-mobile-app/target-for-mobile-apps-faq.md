@@ -5,9 +5,9 @@ title: ¿Qué son las preguntas más frecuentes sobre [!DNL Target] para aplicac
 feature: Implementar Mobile
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Lista de las preguntas más frecuentes sobre [!DNL Target] para aplicaciones móviles.
 
-## ¿Debería utilizar [!DNL Adobe Experience Platform Launch] para implementar el SDK o puedo implementar el SDK sin utilizar [!DNL Launch]?
+## ¿Debería utilizar etiquetas en [!DNL Adobe Experience Platform] para implementar el SDK o puedo implementar el SDK sin utilizar [!DNL Launch]?
 
 El SDK está disponible en el [Adobe Marketing Cloud git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). Si no utiliza etiquetas [en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html), debe administrar su propio archivo de configuración y administrarlo en la aplicación.
 
