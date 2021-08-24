@@ -2,13 +2,12 @@
 keywords: adaptable;ventanillas móviles;ventanilla;dispositivos;móvil;diseño web adaptable;rwd
 description: Las ventanillas móviles ayudan a ver el aspecto que tienen las actividades de Adobe [!DNL Target] en Screens de distintos tamaños. Encuentre una lista de tamaños y resoluciones populares de las ventanillas móviles.
 title: ¿Cómo utilizo las ventanillas móviles para las experiencias adaptables?
-feature: 'Compositor de experiencias visuales (VEC). '
+feature: Compositor de experiencias visuales (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 36%
+source-wordcount: '1159'
+ht-degree: 38%
 
 ---
 
@@ -32,7 +31,7 @@ A continuación se muestran las ventanillas móviles y las resoluciones para dis
 
 >[!NOTE]
 >
->Diversos sitios web enumeran los tamaños de las ventanillas para dispositivos populares. Por ejemplo, consulte [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/). Consulte el sitio web del fabricante del dispositivo para obtener la información más precisa y actualizada.
+>Diversos sitios web enumeran los tamaños de las ventanillas para dispositivos populares. Por ejemplo, consulte `https://viewportsizer.com/devices/`. Consulte el sitio web del fabricante del dispositivo para obtener la información más precisa y actualizada.
 
 | Device | Tamaño de la ventanilla (anchura x altura) | Resolución del dispositivo (anchura x altura) |
 |---|---|---|
@@ -96,7 +95,7 @@ Si el sitio no responde, use el Compositor web móvil para ver un sitio si la ac
 >
 >Puede editar una experiencia desde las ventanillas móviles. Sin embargo, estos cambios se aplican a todas las ventanillas móviles y dispositivos, no solo a la ventanilla móvil en la que está trabajando. De modo similar, si edita una experiencia en la vista de escritorio normal, se cambia la página en todos los tamaños de pantalla, no solo en la vista de escritorio. Actualmente, [!DNL Target] no admite cambios de página específicos de cada ventanilla móvil.
 
-## Configuración de la ventanilla móvil {#task_B4B161499DC0470584ED922A4D20FCAB}
+## Configuración de las ventanillas móviles {#task_B4B161499DC0470584ED922A4D20FCAB}
 
 Configure las ventanillas móviles que quiera que estén disponibles durante la creación de las experiencias.
 
@@ -133,9 +132,9 @@ Configure las ventanillas móviles que quiera que estén disponibles durante la 
 
 >[!NOTE]
 >
->Si intenta eliminar una ventanilla móvil en uso, se muestra el siguiente mensaje: &quot;Actualmente, esta ventanilla está asociada a una o varias actividades. Debe eliminar la ventanilla móvil de esas actividades antes de poder eliminarla&quot;.
+>Si intenta eliminar una ventanilla móvil en uso, se muestra el siguiente mensaje: &quot;Actualmente, esta ventanilla está asociada a una o varias actividades. Debe quitar la ventanilla móvil de esas actividades antes de poder eliminarla”. 
 
-## Crear una experiencia adaptable {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## Crear una experiencia interactiva {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
 Agregue ventanillas móviles a sus actividades [!DNL Target] para crear experiencias adaptables para pantallas móviles.
 
