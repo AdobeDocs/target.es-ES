@@ -5,10 +5,10 @@ title: ¿Cómo funciona la biblioteca Javascript de at.js?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 86%
+source-wordcount: '1107'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ La biblioteca at.js es la nueva biblioteca de implementación para Target. La bi
 
 Para obtener más información, consulte [Bibliotecas de JavaScript de Target](/help/c-intro/how-target-works.md#libraries).
 
-En la implementación [!DNL Target] que se muestra a continuación, se implementan las siguientes [!DNL Adobe Experience Cloud] soluciones: Analytics, Target y Audience Manager. Además, se han implementado los siguientes servicios principales de Experience Cloud: Adobe Launch, Audiencias y el servicio de ID de visitante
+En la implementación [!DNL Target] que se muestra a continuación, se implementan las siguientes [!DNL Adobe Experience Cloud] soluciones: Analytics, Target y Audience Manager. Además, se implementan los siguientes servicios principales de Experience Cloud: [!DNL Adobe Experience Platform], [!DNL Audiences] y [!DNL Visitor ID Service].
 
 ## ¿Cuál es la diferencia entre at.js 1?¿Diagramas de flujo de trabajo de *x* y at.js 2.x?
 
@@ -79,7 +79,7 @@ Consulte [Descripción del funcionamiento de at.js 2.x](https://helpx.adobe.com/
 
 | Paso   | Descripción | La llamada | Descripción |
 |--- |--- |--- |--- |
-| 3 | La llamada devuelve el [!DNL Experience Cloud ID] (MCID) si el usuario se autentica; otra llamada sincroniza el ID del cliente. | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento. |
+| 1 | La llamada devuelve el [!DNL Experience Cloud ID] (MCID) si el usuario se autentica; otra llamada sincroniza el ID del cliente. | 2 | La biblioteca de at.js carga de forma sincronizada y oculta el cuerpo del documento. |
 | 1 | Se realiza una solicitud de mbox global que incluye todos los parámetros, MCID, SDID e ID de cliente (opcional) configurados. | 4 | Se ejecutan los scripts de perfiles y se incluyen en el Almacenamiento de perfiles. El Almacenamiento solicita audiencias de la [!UICONTROL Biblioteca de audiencias] que cumplan los requisitos (por ejemplo, audiencias compartidas de [!DNL Adobe Analytics], [!DNL Audience Manager], etc.).<br>Los atributos del cliente se envían a [!DNL Profile Store] en un procesamiento de lotes. |
 | 5 | Según la URL, los parámetros de mbox y los datos de perfil, [!DNL Target] decide qué actividades y experiencias vuelven al visitante. | 6 | Se devuelve el contenido dirigido a la página, incluyendo de manera opcional los valores de perfil para una personalización adicional.<br>Se muestra la experiencia lo más rápido posible sin parpadeos del contenido predeterminado. |
 | 7 | Se envían los datos de [!DNL Analytics] a los servidores de recopilación de datos. | 8 | Se comparan los datos de [!DNL Target] con los datos de [!DNL Analytics] mediante el SDID y se procesan en el almacén de informes de [!DNL Analytics].<br>[!DNL Analytics]Por lo tanto, los datos de  se pueden visualizar tanto en [!DNL Analytics] como en [!DNL Target] mediante los informes de [!DNL Analytics for Target] (A4T). |
