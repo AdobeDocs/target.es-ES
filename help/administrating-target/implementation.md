@@ -5,10 +5,10 @@ title: ¿Cómo se implementa [!DNL Target] en mi sitio?
 feature: Administración y configuración
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 18%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Para obtener más información, consulte los distintos temas en [Implementación
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] es el método preferido para implementar  [!DNL Target]. [!DNL Launch] ofrece a los clientes una alternativa sencilla para implementar y gestionar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. Para obtener más información, consulte [Implementar Target utilizando Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) de Adobe.
+>Las etiquetas en [!DNL Adobe Experience Platform] es el método preferido para implementar [!DNL Target]. Las etiquetas de [!DNL Adobe Experience Platform] son la siguiente generación de funcionalidades de administración de etiquetas de [!DNL Adobe]. Las etiquetas proporcionan a los clientes una alternativa sencilla para implementar y gestionar las etiquetas de análisis, marketing y publicidad necesarias para ofrecer al cliente experiencias más relevantes. Para obtener más información, consulte [Implementar [!DNL Target] utilizando [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 1. Para acceder a la página [!UICONTROL Implementación], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
 
