@@ -4,7 +4,7 @@ description: Siga los pasos necesarios para implementar las soluciones de Analyt
 title: ¿Cómo implemento Analytics para [!DNL Target] (A4T)?
 feature: 'Analytics for Target (A4T) '
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 25%
@@ -29,7 +29,7 @@ Deben cumplirse los requisitos de cuenta de usuario para poder crear una activid
 
 ### Paso 3: Crear una configuración de Edge
 
-Cree una configuración de Edge utilizando [!DNL Adobe Experience Platform Launch] la herramienta de configuración de Edge. Configure los [[!DNL Analytics] and [!DNL Target] ajustes de configuración de edge](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
+Cree una configuración de Edge utilizando [!DNL Adobe Experience Platform] la herramienta de configuración de Edge. Configure los [[!DNL Analytics] and [!DNL Target] ajustes de configuración de edge](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
 
 ### Paso 4: Instalación y configuración del SDK web de Platform
 
