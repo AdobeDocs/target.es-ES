@@ -5,10 +5,10 @@ title: ¿Cómo gestiona [!DNL Target] las normas de privacidad y protección de 
 feature: Privacidad y seguridad
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2ee87e2c6e8bbdb62eedf709e6454a0467197749
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2204'
-ht-degree: 59%
+source-wordcount: '2195'
+ht-degree: 58%
 
 ---
 
@@ -51,9 +51,9 @@ Si estuvo ocupado preparándose para la ley de privacidad de Europa (RGPD) del a
 >
 >El acceso a los datos y su eliminación, tal como se aplican a la CCPA, siguen el mismo proceso que para el RGPD.
 
-## Inclusión de Adobe [!DNL Target] y [!DNL Adobe Experience Platform Launch] {#section_6F7B53F5E40C4425934627B653E831B0}
+## Inclusión de Adobe [!DNL Target] y [!DNL Adobe Experience Platform] {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] proporciona soporte de funcionalidad opcional a través de [!DNL Platform Launch] para ayudar a respaldar su estrategia de gestión de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Platform Launch] para aprobar previamente la etiqueta de [!DNL Target]. Para activar Opt-in en la biblioteca at.js de [!DNL Target], debe utilizar `targetGlobalSettings` y agregar la configuración `optinEnabled=true`. En [!DNL Platform Launch], seleccione &quot;habilitar&quot; en la lista desplegable [!UICONTROL Opt-In] del RGPD en la vista de instalación de la extensión [!DNL Platform Launch]. Consulte la [documentación del Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obtener más información.
+[!DNL Target] proporciona soporte de funcionalidad opcional a través de etiquetas en  [!DNL Adobe Experience Platform] para ayudar a respaldar su estrategia de administración de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Adobe Experience Platform] para aprobar previamente la etiqueta de [!DNL Target]. Para activar Opt-in en la biblioteca at.js de [!DNL Target], debe utilizar `targetGlobalSettings` y agregar la configuración `optinEnabled=true`. En [!DNL Adobe ExperiencePlatform], seleccione &quot;habilitar&quot; en la lista desplegable [!UICONTROL Opt-In] del RGPD en la vista de instalación de la extensión. Consulte [Implementar [!DNL Target] utilizando [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obtener más información.
 
 El siguiente fragmento de código muestra cómo habilitar la configuración `optinEnabled=true`:
 
@@ -67,13 +67,13 @@ window.targetGlobalSettings = {
 >
 >La funcionalidad Opt-in es compatible con la versión 1.7.0 de at.js y con at.js 2.1.0 o posteriores. Opt-in no es compatible con la versión 2.0.0 y 2.0.1 de at.js.
 >
->El uso de [!DNL Platform Launch] es el enfoque recomendado para administrar inclusiones. Existe un control granular adicional en [!DNL Platform Launch] para ocultar elementos seleccionados de su página antes de la activación de [!DNL Target] que son útiles para usar como parte de su estrategia de consentimiento.
+>El uso de [!DNL Adobe Experience Platform] es el enfoque recomendado para administrar inclusiones. Existe un control granular adicional en [!DNL Adobe Experience Platform] para ocultar elementos seleccionados de su página antes de la activación de [!DNL Target] que son útiles para usar como parte de su estrategia de consentimiento.
 
 Hay tres escenarios a considerar cuando se usa la inclusión:
 
-1. **La etiqueta de [!DNL Target] se aprobó previamente mediante [!DNL Platform Launch] (o [!DNL Target] que el titular de los datos haya aprobado previamente):** La etiqueta de [!DNL Target] no se dispone para el consentimiento y funciona como se espera.
+1. **La etiqueta de [!DNL Target] se aprobó previamente mediante [!DNL Adobe Experience Platform] (o [!DNL Target] que el titular de los datos haya aprobado previamente):** La etiqueta de [!DNL Target] no se dispone para el consentimiento y funciona como se espera.
 1. **[!DNL Target]La etiqueta de NO está aprobada previamente y `bodyHidingEnabled` es FALSO:** la etiqueta de se activa solo después de que se haya obtenido el consentimiento del cliente. [!DNL Target] Antes de recopilar el consentimiento, solo está disponible el contenido predeterminado. Después de recibir el consentimiento, se llama a [!DNL Target], y el contenido personalizado está disponible para el sujeto de los datos (visitante). Dado que solo el contenido predeterminado está disponible antes del consentimiento, es importante utilizar una estrategia adecuada, como una página de inicio que cubra cualquier parte de la página o el contenido que se pueda personalizar. Este proceso garantiza que la experiencia sea coherente para el interesado (visitante).
-1. **[!DNL Target]La etiqueta de NO está aprobada previamente y `bodyHidingEnabled` es VERDADERO:** la etiqueta de se activa solo después de que se haya obtenido el consentimiento del cliente. [!DNL Target] Antes de recopilar el consentimiento, solo está disponible el contenido predeterminado. Sin embargo, debido a que `bodyHidingEnabled` se establece como verdadero, `bodyHiddenStyle` dicta qué contenido de la página está oculto hasta que se dispara la etiqueta de [!DNL Target] (o el sujeto de los datos rechaza la opción Opt-in, en cuyo caso se muestra el contenido predeterminado). De forma predeterminada, `bodyHiddenStyle` está establecido en `body { opacity:0;}`, que oculta la etiqueta de cuerpo HTML. La configuración de página recomendada de Adobe se muestra a continuación para que todo el cuerpo de la página, excepto el cuadro de diálogo del administrador de consentimiento, se oculte al colocar el contenido de la página en un contenedor y el cuadro de diálogo del administrador de consentimiento en un contenedor separado. Estos ajustes configuran [!DNL Target] de modo que ocultan únicamente el contenedor de contenido de la página. Consulte la documentación del Platform launch [para obtener más información sobre cómo configurar estos ajustes](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).
+1. **[!DNL Target]La etiqueta de NO está aprobada previamente y `bodyHidingEnabled` es VERDADERO:** la etiqueta de se activa solo después de que se haya obtenido el consentimiento del cliente. [!DNL Target] Antes de recopilar el consentimiento, solo está disponible el contenido predeterminado. Sin embargo, debido a que `bodyHidingEnabled` se establece como verdadero, `bodyHiddenStyle` dicta qué contenido de la página está oculto hasta que se dispara la etiqueta de [!DNL Target] (o el sujeto de los datos rechaza la opción Opt-in, en cuyo caso se muestra el contenido predeterminado). De forma predeterminada, `bodyHiddenStyle` está establecido en `body { opacity:0;}`, que oculta la etiqueta de cuerpo HTML. La configuración de página recomendada de Adobe se muestra a continuación para que todo el cuerpo de la página, excepto el cuadro de diálogo del administrador de consentimiento, se oculte al colocar el contenido de la página en un contenedor y el cuadro de diálogo del administrador de consentimiento en un contenedor separado. Estos ajustes configuran [!DNL Target] de modo que ocultan únicamente el contenedor de contenido de la página. Consulte la [información general del Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).
 
    La configuración de página recomendada para el escenario 3 es:
 
@@ -145,9 +145,9 @@ El RGPD y la CCPA no cambian cuándo debe obtener el consentimiento, sino cómo 
 
 [!DNL Adobe] no ofrece actualmente una solución de administración de consentimiento, pero hay diversas herramientas en desarrollo en el mercado para satisfacer algunos de los nuevos requisitos. Para obtener más información sobre herramientas de privacidad en general, incluidos los administradores de consentimiento, consulte el [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) en el sitio web *International Association of Privacy Professionals (iaap)*.
 
-[!DNL Target] proporciona soporte de funcionalidad opcional a través de  [!DNL Platform Launch] para admitir su estrategia de gestión de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Platform Launch] para aprobar previamente la etiqueta de [!DNL Target]. El uso de [!DNL Platform Launch] es el enfoque recomendado para administrar inclusiones. Existe un control granular adicional en [!DNL Platform Launch] para ocultar elementos seleccionados de su página antes de la activación de [!DNL Target] que pueden resultar útiles para usar como parte de su estrategia de consentimiento.
+[!DNL Target] proporciona soporte de funcionalidad opcional a través de  [!DNL Adobe Experience Platform] para admitir su estrategia de gestión de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Adobe Experience Platform] para aprobar previamente la etiqueta de [!DNL Target]. El uso de [!DNL Adobe Experience Platform] es el enfoque recomendado para administrar inclusiones. Existe un control granular adicional en [!DNL Adobe Experience Platform] para ocultar elementos seleccionados de su página antes de la activación de [!DNL Target] que pueden resultar útiles para usar como parte de su estrategia de consentimiento.
 
-Para obtener más información sobre el RGPD, la CCPA y [!DNL Launch], consulte [La biblioteca JavaScript de privacidad del Adobe y el RGPD](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Además, consulte la *inclusión de Adobe Target y Experience Platform Launch* en la sección superior.
+Para obtener más información sobre el RGPD, la CCPA y [!DNL Adobe Experience Platform], consulte [La biblioteca JavaScript de privacidad del Adobe y el RGPD](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Además, consulte la sección de inclusión *Adobe Target y Adobe Experience Platform* anterior.
 
 ### ¿Envía `AdobePrivacy.js` información a la API del RGPD? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
