@@ -4,10 +4,10 @@ description: 'Obtenga información sobre cómo implementar actividades de Recomm
 title: ¿Cómo Implemento Las Actividades De Recommendations?
 feature: Recomendaciones
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 94%
+source-wordcount: '1553'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ Para obtener información sobre los atributos en los ejemplos, consulte [Atribut
 
 Se requiere un formato de JSON válido.
 
-La siguiente función `targetPageParams` es especialmente útil si va a usar una solución de administración de etiquetas para implementar las páginas. [!DNL Adobe Experience Platform Launch] coloca la referencia a at.js/mbox.js y la  `targetPageParams` función en la página y le permite configurar los valores. Debe colocar esa función antes de la llamada a at.js/mbox.js o en la sección Extra de JavaScript de su at.js/mbox.js.
+La siguiente función `targetPageParams` es especialmente útil si va a usar una solución de administración de etiquetas para implementar las páginas. Las etiquetas de [!DNL Adobe Experience Platform] colocan la referencia a at.js/mbox.js y la función `targetPageParams` en la página y le permiten configurar los valores. Debe colocar esa función antes de la llamada a at.js/mbox.js o en la sección Extra de JavaScript de su at.js/mbox.js.
 
 ## Todas las páginas {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
