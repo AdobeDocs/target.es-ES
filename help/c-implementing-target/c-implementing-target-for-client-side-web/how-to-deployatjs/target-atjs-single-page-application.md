@@ -4,11 +4,10 @@ description: Aprenda a utilizar Adobe [!DNL Target] at.js 2.x to implement [!DNL
 title: ¿Puedo implementar [!DNL Target] para aplicaciones de una sola página (SPA)?
 feature: Implementación del lado del servidor
 role: Developer
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 72%
+source-wordcount: '2771'
+ht-degree: 71%
 
 ---
 
@@ -71,7 +70,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    En primer lugar, es necesario instalar at.js 2.x. Esta versión de at.js se desarrolló teniendo en cuenta las SPA. Las versiones anteriores de at.js y mbox.js no son compatibles con las vistas de Adobe Target y con el VEC para SPA.
 
-   Descargue at.js 2 a través de la IU de Adobe Target ubicada en [!UICONTROL Administration > Implementation]. at.js 2.x también se puede implementar mediante Adobe Launch. Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
+   Descargue at.js 2 a través de la IU de Adobe Target ubicada en [!UICONTROL Administration > Implementation]. at.js 2.x también se puede implementar mediante etiquetas en [!DNL Adobe Experience Platform]. Sin embargo, las extensiones [!DNL Adobe Target] no están actualizadas actualmente y no son compatibles.
 
 1. Implemente la función más reciente de at.js 2.x `triggerView()` en sus sitios.
 
@@ -269,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >Debe activar los eventos `at-view-start` y `at-view-end`. Estos eventos no forman parte de los eventos personalizados de at.js.
 
-Aunque estos ejemplos utilizan código JavaScript, todo esto se puede simplificar si utiliza un administrador de etiquetas, como [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+Aunque estos ejemplos utilizan código JavaScript, todo esto se puede simplificar si utiliza un administrador de etiquetas, como etiquetas en [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 Si se siguen los pasos anteriores, debe tener una solución A4T sólida para los SPA.
 
