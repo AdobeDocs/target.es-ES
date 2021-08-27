@@ -1,20 +1,20 @@
 ---
 keywords: Notas de la versión;nuevas funciones;versiones;actualizaciones;actualización;versión;mejora;mejoras;correcciones;correcciones de errores;actualizaciones
-description: Conozca las nuevas funciones, mejoras y correcciones incluidas en la versión actual de [!DNL Adobe Target], incluidos SDK, API y bibliotecas de JavaScript.
-landing-page-description: Obtenga información sobre las nuevas funciones, mejoras y correcciones incluidas en la versión actual de [!DNL Adobe Target].
+description: Conozca las nuevas funciones, mejoras y correcciones incluidas en la versión actual de  [!DNL Adobe Target], incluidos SDK, API y bibliotecas de JavaScript.
+landing-page-description: Obtenga información acerca de las nuevas funciones, mejoras y correcciones incluidas en la versión actual de  [!DNL Adobe Target].
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
-feature: Notas de la versión
+feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 61%
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
 # Notas de la versión de Target (actual)
 
-Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen las notas de la versión de las API de Target, los SDK, el [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de plataforma, cuando corresponde.
+Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de Target, los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de plataforma, cuando corresponda.
 
 >[!IMPORTANT]
 >
@@ -26,32 +26,32 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 ## at.js 2.6.1 (16 de agosto de 2021)
 
-* Corrección de errores para &quot;No hay artefactos en caché disponibles para el modo híbrido&quot; al utilizar la toma de decisiones en el dispositivo.
+* Corrección de errores para el mensaje “No hay artefactos en caché disponibles para el modo híbrido” al utilizar la toma de decisiones en el dispositivo.
 
-## [!DNL Target] SDK 2.2.0 de node.js (11 de agosto de 2021)
+## SDK 2.2.0 de node.js de [!DNL Target] (11 de agosto de 2021)
 
 * Se ha añadido la recopilación de datos de telemetría de SDK
-* Código de API de envío automatizada del cliente openapi
+* API de envío automatizado del cliente openapi codegen
 
-Para obtener más información sobre esta y las versiones anteriores, consulte el [Registro de cambios](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) en la [documentación del SDK de Target node.js](https://github.com/adobe/target-nodejs-sdk) en Github.
+Para obtener más información acerca de esta versión y las anteriores, consulte el [Registro de cambios](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) en la [documentación del SDK de node.js de Target](https://github.com/adobe/target-nodejs-sdk) en Github.
 
 ## [!DNL Target Standard/Premium] 21.8.1 (10 de agosto de 2021)
 
-Esta versión de mantenimiento contiene muchas mejoras del back-end, incluido el siguiente cambio de cara al cliente:
+Esta versión de mantenimiento contiene muchas mejoras del back-end, incluido el siguiente cambio usado por el cliente:
 
-* Se ha corregido un problema que provocaba que los informes para actividades de [!UICONTROL Personalización automática] creadas en el [!UICONTROL Compositor de experiencias basadas en formularios] hicieran referencia a ofertas eliminadas en los informes. Esto provocó que se mostrara el siguiente mensaje de error: &quot;Tenemos problemas para recuperar datos para este informe. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste.&quot; (TGT-41028)
+* Se ha corregido un problema que provocaba que los informes de actividades de [!UICONTROL Personalización automática] creadas en el [!UICONTROL Compositor de experiencias basadas en formularios] hicieran referencia a ofertas eliminadas en los informes. Esto provocó que se mostrara el siguiente mensaje de error: Tenemos problemas para recuperar datos de este informe. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste. (TGT-41028)
 
 ## [!DNL Target Delivery API] (3 de agosto de 2021)
 
-Esta versión contiene las siguientes mejoras:
+Esta versión incluye las siguientes mejoras:
 
-* El límite de parámetros de mbox se ha aumentado a 100 parámetros. El límite anterior era de 50 parámetros. (TNT-41717)
-* El límite de `categoryId` se ha aumentado a 256 caracteres. El límite anterior era de 128 caracteres.
-* Se han añadido los siguientes detalles [!DNL Adobe Audience Manager] (AAM) a la API de envío:
+* El límite de parámetros de mbox se ha aumentado a 100. El anterior era de 50 caracteres. (TNT-41717)
+* El límite de `categoryId` se ha aumentado a 256 caracteres. El anterior era de 128 caracteres.
+* Se han añadido los siguientes detalles de [!DNL Adobe Audience Manager] (AAM) a la API de envío:
 
-   * UUID AAM: ID de AAM interno que se utiliza para identificar a un usuario de forma exclusiva.
-   * dataPartnerId: El ID de un socio de datos.
-   * dataPartnerUserId: ID de usuario proporcionado por un socio de datos.
+   * UUID de AAM: el ID de AAM interno que se utiliza para identificar a un usuario de forma exclusiva.
+   * dataPartnerId: el ID de un socio de datos.
+   * dataPartnerUserId: el ID de usuario proporcionado por un socio de datos.
 
    Anteriormente, la API de envío solo incluía `dcsLocationHint` y `blob`. (TNT-41644)
 
@@ -69,7 +69,7 @@ Esta versión contiene las siguientes mejoras:
 
 | Recurso | Detalles |
 |--- |--- |
-| [Notas de la versión: SDK web de Adobe Target Platform Experience](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Detalles sobre los cambios realizados en cada versión del SDK web de Platform. |
+| [Notas de la versión: SDK web de Adobe Target Platform Experience](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=es) | Detalles acerca de los cambios realizados en cada versión del SDK web de Platform. |
 | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScript de at.js. [!DNL Adobe Target]. |
 
 ## Cambios de la documentación, notas de versiones anteriores y notas de la versión de Experience Cloud

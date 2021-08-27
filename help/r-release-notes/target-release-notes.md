@@ -2,12 +2,12 @@
 keywords: notas de la versión;versiones;actualizaciones;futuras versiones;mejoras;nuevas funciones;correcciones;actualizaciones;versión preliminar
 description: Obtenga información sobre las nuevas funciones, mejoras y correcciones que incluirá la próxima versión de Adobe Target, incluidos el SDK, la API y las bibliotecas de JavaScript.
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
-feature: Notas de la versión
+feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 58%
+source-wordcount: '349'
+ht-degree: 99%
 
 ---
 
@@ -27,21 +27,21 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 ## [!DNL Target Standard/Premium] 21.8.1 (10 de agosto de 2021)
 
-Esta versión de mantenimiento contiene muchas mejoras del back-end, incluido el siguiente cambio de cara al cliente:
+Esta versión de mantenimiento contiene muchas mejoras del back-end, incluido el siguiente cambio usado por el cliente:
 
-* Se ha corregido un problema que provocaba que los informes para actividades de [!UICONTROL Personalización automática] creadas en el [!UICONTROL Compositor de experiencias basadas en formularios] hicieran referencia a ofertas eliminadas en los informes. Esto provocó que se mostrara el siguiente mensaje de error: &quot;Tenemos problemas para recuperar datos para este informe. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste.&quot; (TGT-41028)
+* Se ha corregido un problema que provocaba que los informes de actividades de [!UICONTROL Personalización automática] creadas en el [!UICONTROL Compositor de experiencias basadas en formularios] hicieran referencia a ofertas eliminadas en los informes. Esto provocó que se mostrara el siguiente mensaje de error: Tenemos problemas para recuperar datos de este informe. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste. (TGT-41028)
 
 ## API de envío de Target (3 de agosto de 2021)
 
-Esta versión contiene las siguientes mejoras:
+Esta versión incluye las siguientes mejoras:
 
-* El límite de parámetros de mbox se ha aumentado a 100 parámetros. El límite anterior era de 50 parámetros. (TNT-41717)
-* El límite de `categoryId` se ha aumentado a 256 caracteres. El límite anterior era de 128 caracteres.
-* Se han añadido los siguientes detalles [!DNL Adobe Audience Manager] (AAM) a la API de envío:
+* El límite de parámetros de mbox se ha aumentado a 100. El anterior era de 50 caracteres. (TNT-41717)
+* El límite de `categoryId` se ha aumentado a 256 caracteres. El anterior era de 128 caracteres.
+* Se han añadido los siguientes detalles de [!DNL Adobe Audience Manager] (AAM) a la API de envío:
 
-   * UUID AAM: ID de AAM interno que se utiliza para identificar a un usuario de forma exclusiva.
-   * dataPartnerId: El ID de un socio de datos.
-   * dataPartnerUserId: ID de usuario proporcionado por un socio de datos.
+   * UUID de AAM: el ID de AAM interno que se utiliza para identificar a un usuario de forma exclusiva.
+   * dataPartnerId: el ID de un socio de datos.
+   * dataPartnerUserId: el ID de usuario proporcionado por un socio de datos.
 
    Anteriormente, la API de envío solo incluía `dcsLocationHint` y `blob`. (TNT-41644)
 

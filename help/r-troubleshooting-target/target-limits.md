@@ -2,12 +2,12 @@
 keywords: límite de caracteres;parámetros de mbox;api de entrega por lotes;parámetros de perfil;límites;perfiles integrados;límite;máximo;restricción;carácter;práctica recomendada;id de pedido;total del pedido;id de terceros de mbox;categoría;id de categoría;solución de problemas
 description: Visualización de una lista de límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
 title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro tipo de Adobe Target?
-feature: Resolución de problemas
+feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1363'
 ht-degree: 100%
 
 ---
@@ -121,7 +121,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
    Este límite se impone porque el parámetro de mbox `productPurchasedId` captura entity.ids, lo que limita el recuento de caracteres a 50.
 
-* **Límite para implementaciones que solo requieren algoritmos basados en vistas:**: 1000 caracteres.
+* **Límite para implementaciones que solo requieren algoritmos basados en vistas**: 1000 caracteres.
 
    Los algoritmos basados en vistas incluyen vista/vista, más visto, recientemente visto, etc.
 

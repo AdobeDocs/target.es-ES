@@ -2,12 +2,12 @@
 keywords: problemas conocidos;problemas resueltos;notas de la versión;errores;problemas;correcciones
 description: Encuentre información acerca de problemas conocidos en Adobe Target, incluida la información sobre la solución. Cuando se resuelven los problemas, se mueven a la sección Resueltos.
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
-feature: Notas de la versión
+feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4505'
-ht-degree: 98%
+source-wordcount: '4503'
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 
 ### Distribución del tráfico de las actividades de asignación automática mediante A4T {#aa-a4t}
 
-En algunos casos, la distribución del tráfico de las actividades de [!UICONTROL Asignación automática] que utilizan [!UICONTROL Analytics for Target] (A4T) puede variar con respecto a lo que debería suceder en función de la tasa de conversión registrada en cada experiencia. Esto ocurre con mayor frecuencia en las actividades con una alta proporción de tráfico de visitantes de retorno. Se notificará a los clientes afectados sobre las actividades afectadas.
+En algunos casos, la distribución del tráfico de las actividades de [!UICONTROL Asignación automática] que utilizan [!UICONTROL Analytics for Target] (A4T) puede variar con respecto a lo que debería suceder en función de la tasa de conversión registrada en cada experiencia. Esto ocurre con mayor frecuencia en las actividades con una alta proporción de tráfico de visitantes de retorno. Se notificará a los clientes afectados acerca de las actividades afectadas.
 
-Hasta que se resuelva este problema, utilice [!UICONTROL Asignación automática] con informes [!DNL Target] estándar o utilice pruebas A/B estándar con [!DNL Analytics] informes como alternativa a [!UICONTROL Asignación automática] con [!DNL Analytics] informes. (TOP-131)
+Hasta que se resuelva este problema, utilice [!UICONTROL Asignación automática] con informes de [!DNL Target] estándar o utilice pruebas A/B estándar con informes de [!DNL Analytics] como alternativa a [!UICONTROL Asignación automática] con informes de [!DNL Analytics]. (TOP-131)
 
 ### Métricas de Analytics for Adobe Target (A4T) para actividades Auto-Allocate y Auto-Target
 

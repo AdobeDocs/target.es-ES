@@ -2,11 +2,11 @@
 keywords: Target;inicio;temas populares;adobe target;standard;premium;documentación de target;documentación de adobe target;Creative Cloud
 title: ¿Dónde puedo encontrar la documentación de  [!DNL Target] ?
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
-feature: Información general
+feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '692'
 ht-degree: 99%
 
 ---
@@ -57,7 +57,7 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 
 ## Desarrolladores {#developers}
 
-- [Implementación de Target](c-implementing-target/implementing-target.md): explica cómo implementar [!DNL Target] en sitios web, aplicaciones móviles, aplicaciones de una sola página (SPA) y plataformas IOT/OTT.
+- [Implementación de Target](c-implementing-target/implementing-target.md): explica cómo implementar [!DNL Target] en sitios web, aplicaciones móviles, aplicaciones de una sola página (SPA) y plataformas iOT/OTT.
 - [API del lado del servidor de Target](https://developers.adobetarget.com/api/delivery-api/): Describe los recursos que conforman la API de envío de Adobe Target.
 - [SDK de NodeJS de Target](https://github.com/adobe/target-nodejs-sdk): Explica cómo implementar Target del lado del servidor. Este SDK de Node.js le ayuda a integrar fácilmente Target con otras soluciones de Adobe Experience Cloud.
 - [SDK de Java de Target](https://github.com/adobe/target-java-sdk): Explica cómo implementar Target del lado del servidor. Este SDK de Java le ayuda a integrar fácilmente Target con otras soluciones de Adobe Experience Cloud.
