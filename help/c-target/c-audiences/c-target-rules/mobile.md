@@ -1,13 +1,13 @@
 ---
 keywords: segmentación;móvil;segmentar por móvil;deviceatlas;iPhone;modelos de iPhone;device atlas;anchuradepantalla;anchura de pantalla;altura de pantalla;tipo de dispositivo;alturadepantalla;teléfono;tablet;modelo de dispositivo
-description: Aprenda a crear audiencias en [!DNL Adobe Target] para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla (en píxeles) y más.
+description: Aprenda a crear audiencias en [!DNL Adobe Target] para dirigirse a dispositivos móviles.
 title: ¿Puedo segmentar visitantes en función de las opciones móviles?
-feature: Audiencias
+feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 43%
+source-wordcount: '669'
+ht-degree: 40%
 
 ---
 
@@ -56,12 +56,6 @@ Los clientes que utilicen una integración personalizada (sin usar at.js o el SD
 
    >[!NOTE]
    >
-   >Debido a los nuevos cambios introducidos en iOS 12.2, la creación de una audiencia con reglas definidas por [!UICONTROL Nombre de marketing del dispositivo] y [!UICONTROL Modelo de dispositivo] que especifique modelos de iPhone se ve afectada. [!DNL Target] ya no puede segmentar usuarios que tengan iPhone con iOS 12.2 (o posterior) instalado en ellos. Sin embargo, si esos usuarios no tienen iOS 12.2 (o posterior), la segmentación del modelo iPhone seguirá funcionando correctamente.
-   >
-   >La actualización de iOS 12.2 (o posterior) no afecta a la identificación de los siguientes modelos, ya que estos no admiten la actualización a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / pantalla Retina, iPad Retina (4ª generación), iPod Touch 4 y iPod Touch 5.
-
-   >[!NOTE]
-   >
    >Puede segmentar por operador de dispositivo móvil mediante la [configuración Geográfica](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Opcional) Configure reglas adicionales para la audiencia.
@@ -70,6 +64,20 @@ Los clientes que utilicen una integración personalizada (sin usar at.js o el SD
 La siguiente ilustración muestra una audiencia dirigida a visitantes que utilizan dispositivos fabricados por Google que son dispositivos móviles.
 
 ![Segmentar dispositivos móviles](assets/target_mobile.png)
+
+## Consideraciones
+
+Tenga en cuenta la siguiente información al segmentar dispositivos móviles:
+
+### Dispositivos de destino que ejecutan iOS 12.2 o posterior
+
+Debido a los nuevos cambios introducidos en iOS 12.2, la creación de una audiencia con reglas definidas por [!UICONTROL Nombre de marketing del dispositivo] y [!UICONTROL Modelo de dispositivo] que especifique modelos de iPhone se ve afectada. [!DNL Target] ya no puede segmentar usuarios que tengan iPhone con iOS 12.2 (o posterior) instalado en ellos. Sin embargo, si esos usuarios no tienen iOS 12.2 (o posterior), la segmentación del modelo iPhone seguirá funcionando correctamente.
+
+La actualización de iOS 12.2 (o posterior) no afecta a la identificación de los siguientes modelos, ya que estos no admiten la actualización a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / pantalla Retina, iPad Retina (4ª generación), iPod Touch 4 y iPod Touch 5.
+
+### Dispositivos de destino que ejecutan Safari 14.0.2 (o posterior)
+
+Cuando se utilizan reglas móviles para dirigirse a dispositivos que ejecutan Safari versión 14.0.2 (o posterior) en macOS, debido a un problema conocido que implica a agentes de usuario de Apple y DeviceAtlas, [!DNL Target] identifica incorrectamente Safari en dispositivos Mac como versión de iPad. Esta cuestión se abordará en el futuro.
 
 ## Vídeo de formación: Creación de audiencias
 

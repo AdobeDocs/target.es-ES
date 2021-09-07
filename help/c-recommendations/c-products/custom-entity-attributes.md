@@ -2,13 +2,13 @@
 keywords: atributos de entidad de varios valores;atributos de entidad personalizados;JSON válido;valor de atributo de entidad;matriz de JSON;varios valores;valores múltiples
 description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los artículos de su catálogo de Recommendations  [!DNL Target] Adobe.
 title: ¿Cómo Se Utilizan Los Atributos De Entidad Personalizados?
-feature: Recomendaciones
+feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 73e213bfbf2b84f982549ff265aa9c98d9f3a461
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 89%
+source-wordcount: '1397'
+ht-degree: 88%
 
 ---
 
@@ -62,7 +62,7 @@ Cuando un atributo personalizado se envía como matriz de JSON válida, se trata
 
 ## Implementación de atributos de varios valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Los atributos de entidad personalizados de varios valores se admiten al usar fuentes (CSV), `targetPageParams`, la API Entrega y la API Guardar entidades para cargar productos. Los valores nuevos reemplazan a los actuales, no se adjuntan. Las matrices vacías ([]) se tratan como si no tuvieran valores.
+Los atributos de entidad personalizados de varios valores se admiten al usar fuentes (CSV), `targetPageParams` y la API de envío para cargar productos. Los valores nuevos reemplazan a los actuales, no se adjuntan. Las matrices vacías ([]) se tratan como si no tuvieran valores.
 
 Las comillas dobles se deben escapar. Por ejemplo, `"[""test"", ""value""]"` es una matriz JSON válida que se pueden usar en CSV.
 
