@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2317'
 ht-degree: 97%
 
 ---
@@ -20,6 +20,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 7 de septiembre | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Se ha actualizado la sección &quot;Consideraciones&quot; con información sobre los dispositivos de destino que ejecutan Safari 14.0.2 (o posterior). |
+|  | [Clasificaciones: Preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Se ha actualizado la información sobre `targettype` y `algorithmId`, que son identificadores internos utilizados por las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. |
 | 24 de agosto | [ [!DNL Target] Implementación mediante [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] se ha convertido en un conjunto de tecnologías de recopilación de datos en  [!DNL Adobe Experience Platform]. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. |
 | 23 de agosto | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información sobre el siguiente evento:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad<ul><li>Miércoles, 8 de septiembre de 2021</li><li>08:00 a. m. (PDT, UTC -7)</li></ul></li></ul> |
 | 19 de agosto | [Visualización de informes: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Se ha actualizado la pregunta frecuente siguiente:<ul><li>¿Admite A4T grupos de informes virtuales?</li></ul> |
