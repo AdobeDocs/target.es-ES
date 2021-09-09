@@ -2,12 +2,12 @@
 keywords: anuncios;generador de habilidades;chat de desarrollador;pausa para café;eventos;forrester;gartner;seminario web
 description: Lea los anuncios y regístrese en los eventos de Adobe [!DNL Target] , incluidos sesiones acerca del Generador de habilidades, charlas con desarrolladores y gestores de productos, seminarios web y mucho más.
 title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
-feature: Notas de la versión
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
-workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '576'
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ Anuncios e información acerca de próximos eventos, incluidas sesiones de Gener
 * **08:00 a. m. (PDT, UTC -7)**
 * **[Haga clic aquí para obtener más información y registrarse](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
 
-Vishal Chordia, director de producto senior de [!DNL Adobe Target], responderá a las preguntas de los clientes relacionadas con sus áreas de experiencia:
+Vishal Chordia, director de producto senior de [!DNL Adobe Target], responderá a las preguntas de los clientes relacionadas con sus áreas de conocimiento:
 
 * [!DNL Adobe Experience Platform]
 * Personalización basada en audiencias
-* [!DNL Real-time Customer Data Platform] Integración (RTCDP) con  [!DNL Target]
-* Temas generales [!DNL Target]
+* Integración de [!DNL Real-time Customer Data Platform] (RTCDP) con [!DNL Target]
+* Temas generales de [!DNL Target]
 
 ## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de Adobe Target
 
