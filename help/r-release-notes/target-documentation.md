@@ -2,12 +2,12 @@
 keywords: adobe target;target;documentación;api;api;sdk;sdk;tutoriales;documento;documentación
 description: Acceda a la documentación de Adobe  [!DNL Target] , que incluye ayuda en línea, tutoriales, vídeos y documentación para desarrolladores (SDK, API y bibliotecas de JavaScript).
 title: ¿Dónde puedo encontrar la documentación de Target?
-feature: Notas de la versión
+feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '465'
+ht-degree: 100%
 
 ---
 
