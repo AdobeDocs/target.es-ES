@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,25 +25,9 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 >
 >Para evitar posibles problemas con sus sitios, migre a la versión más reciente del nuevo [!DNL Adobe Experience Platform Web SDK] o la biblioteca de JavaScript at.js. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.8.1 (10 de agosto de 2021)
+## [!DNL Target Standard/Premium] 21.9.1 (14 de septiembre de 2021)
 
-Esta versión de mantenimiento contiene muchas mejoras del back-end, incluido el siguiente cambio usado por el cliente:
-
-* Se ha corregido un problema que provocaba que los informes de actividades de [!UICONTROL Personalización automática] creadas en el [!UICONTROL Compositor de experiencias basadas en formularios] hicieran referencia a ofertas eliminadas en los informes. Esto provocó que se mostrara el siguiente mensaje de error: Tenemos problemas para recuperar datos de este informe. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste. (TGT-41028)
-
-## API de envío de Target (3 de agosto de 2021)
-
-Esta versión incluye las siguientes mejoras:
-
-* El límite de parámetros de mbox se ha aumentado a 100. El anterior era de 50 caracteres. (TNT-41717)
-* El límite de `categoryId` se ha aumentado a 256 caracteres. El anterior era de 128 caracteres.
-* Se han añadido los siguientes detalles de [!DNL Adobe Audience Manager] (AAM) a la API de envío:
-
-   * UUID de AAM: el ID de AAM interno que se utiliza para identificar a un usuario de forma exclusiva.
-   * dataPartnerId: el ID de un socio de datos.
-   * dataPartnerUserId: el ID de usuario proporcionado por un socio de datos.
-
-   Anteriormente, la API de envío solo incluía `dcsLocationHint` y `blob`. (TNT-41644)
+La próxima semana se publicará más información aquí.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
