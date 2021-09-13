@@ -11,7 +11,7 @@ ht-degree: 99%
 
 ---
 
-# [!DNL Adobe Target] Guía
+# Guía de [!DNL Adobe Target]
 
 ![Banner](assets/target-home-banner-simple.png)
 
