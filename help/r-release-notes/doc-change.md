@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
+source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2341'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 14 de septiembre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión [!DNL Target Standard/Premium] 21.9.1 (14 de septiembre de 2021). Esta información se moverá a las [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) más adelante hoy. |
 | 7 de septiembre | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Se ha actualizado la sección &quot;Consideraciones&quot; con información sobre los dispositivos de destino que ejecutan Safari 14.0.2 (o posterior). |
 |  | [Clasificaciones: Preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Se ha actualizado la información sobre `targettype` y `algorithmId`, que son identificadores internos utilizados por las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. |
 | 24 de agosto | [Implementación [!DNL Target] mediante [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] se ha convertido en un conjunto de tecnologías de recopilación de datos en [!DNL Adobe Experience Platform]. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. |
