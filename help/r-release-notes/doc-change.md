@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
+source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2398'
 ht-degree: 98%
 
 ---
@@ -15,11 +15,17 @@ ht-degree: 98%
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
+## [!DNL Adobe Target Standard/Premium] 21.9.1 (14 de septiembre de 2021)
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| 14 de septiembre | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.9.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
+
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (10 de agosto de 2021)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 14 de septiembre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión [!DNL Target Standard/Premium] 21.9.1 (14 de septiembre de 2021). Esta información se moverá a las [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) más adelante hoy. |
+| 14 de septiembre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión [!DNL Target Standard/Premium] 21.9.1 (14 de septiembre de 2021). |
 | 7 de septiembre | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Se ha actualizado la sección &quot;Consideraciones&quot; con información sobre los dispositivos de destino que ejecutan Safari 14.0.2 (o posterior). |
 |  | [Clasificaciones: Preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Se ha actualizado la información sobre `targettype` y `algorithmId`, que son identificadores internos utilizados por las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. |
 | 24 de agosto | [Implementación [!DNL Target] mediante [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] se ha convertido en un conjunto de tecnologías de recopilación de datos en [!DNL Adobe Experience Platform]. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. |
@@ -28,6 +34,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | 16 de agosto | [Notas de la versión de Target (versión preliminar)](/help/r-release-notes/release-notes.md)<br>y<br>[detalles de la versión de at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se han añadido las notas de la versión 2.6.1 de at.js. |
 |  | [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Se ha añadido la sección “Prácticas recomendadas”. |
 | 11 de agosto | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se han añadido notas de la versión para el SDK versión 2.2.0 de node.js de [!DNL Target]. |
+| 10 de agosto | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.8.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 de junio de 2021)
 

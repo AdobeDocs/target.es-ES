@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
+source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 36%
+source-wordcount: '526'
+ht-degree: 41%
 
 ---
 
@@ -31,6 +31,7 @@ En esta versión de mantenimiento se incluyen las siguientes mejoras, correccion
 
 * Se han corregido problemas que evitaban que los clientes iniciaran sesión en el [!UICONTROL Compositor de experiencias visuales] (VEC) debido a las nuevas políticas de seguridad para cookies de terceros en algunos exploradores web. Este problema se trató en &quot;Páginas que no se cargan en el Compositor de experiencias visuales (VEC) o el Compositor de experiencias mejorado (EEC) al usar Google Chrome versión 80+&quot; en [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
 * Se ha corregido un problema que provocaba que los nombres de oferta en el VEC mostraran la ruta de la oferta en lugar del nombre descriptivo de la oferta. (TGT-41300)
+* Los nombres de experiencia ahora se reflejan en [!DNL Analysis Workspace] para actividades A4T (TGT-38674)
 * Se ha corregido un problema en [!DNL Recommendations] que producía cambios erróneos en el ID de entidad en una promoción de una actividad duplicada en la actividad original. (TGT-41482)
 * Se ha corregido un problema que impedía que el botón &quot;Editar criterios&quot; se mostrara correctamente en la página [!UICONTROL Experiencias] de las actividades [!DNL Recommendations] del VEC. (TGT-39512)
 * Se ha corregido un problema que impedía la sincronización de actividades cuando se duplicaban y copiaban en un espacio de trabajo de prueba. (TGT-40686)
@@ -39,12 +40,6 @@ En esta versión de mantenimiento se incluyen las siguientes mejoras, correccion
 * Se ha corregido un problema que provocaba que se abrieran los informes [!DNL Analytics] heredados en lugar de [!DNL Analysis Workspace] cuando los clientes hacían clic en &quot;[!UICONTROL Ver en Analytics]&quot; mientras visualizaban un informe. (TGT-41867)
 * Se ha añadido una aclaración adicional al mensaje de interfaz de usuario mostrado cuando un cliente intenta seleccionar [!DNL Analytics] como fuente de informes (A4T) para una actividad [!UICONTROL Automated Personalization]. El mensaje indica que, &quot;[!DNL Target] es la única fuente admitida para las actividades [!UICONTROL Automated Personalization]&quot;. (TGT-41954)
 * Se ha añadido una aclaración adicional al mensaje de error cuando los clientes intentan separar hosts con &quot;nueva línea&quot; en lugar de comas. (TGT-40671)
-* Se ha actualizado el campo [!UICONTROL Tipo] para que los segmentos incluyan con precisión [!DNL Platform] y [!DNL AAM] ([!DNL Adobe Audience Manager]). (TGT-41328)
-* Se ha corregido un problema que provocaba que los operandos de fuentes de tráfico cambiaran después de hacer clic en [!UICONTROL Guardar]. (TGT-41408)
-* Después de guardar una audiencia solo de actividad (ya sea basada en reglas o combinada), la interfaz de usuario ahora carga el selector [!UICONTROL Audiencia] con el filtro de solo actividad aplicado. (TGT-41747).
-* Se ha corregido un problema que provocaba que las audiencias eliminadas del origen ([!DNL Adobe Experience Platform], [!UICONTROL AAM], etc.) siguieran mostrándose en la interfaz de usuario de [!DNL Target].
-* Se ha agregado una opción de filtro a la página [!UICONTROL Audiencias] para mostrar solo las audiencias importadas desde [!DNL Adobe Experience Platform]. (TGT-41298)
-* Se han añadido opciones mejoradas de accesibilidad del teclado en la interfaz de usuario de [!UICONTROL Audiences]. (TGT-39927)
 * Se ha corregido un problema que provocaba que las fechas &quot;[!UICONTROL Última actualización]&quot; de algunas actividades difieran de la IU en inglés para clientes españoles y japoneses (al ver la IU en español y japonés). (TGT-38980)
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
