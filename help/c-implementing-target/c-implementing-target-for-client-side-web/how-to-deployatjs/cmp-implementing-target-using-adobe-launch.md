@@ -1,24 +1,24 @@
 ---
 keywords: implementar;implementación;adobe launch;launch;race;redireccionamiento;experience platform launch;platform launch;etiquetas;adobe platform
-description: Aprenda a implementar la biblioteca Adobe [!DNL Target] at.js mediante Adobe Experience Platform Launch, el método preferido para implementar Adobe [!DNL Target].
-title: ¿Cómo puedo implementar [!DNL Target] utilizando Launch de Adobe?
-feature: Implementación del lado del servidor
+description: Obtenga información sobre cómo implementar la biblioteca  [!DNL Adobe Target] at.js mediante [!DNL Adobe Experience Platform], the preferred method to implement [!DNL Target].
+title: ¿Cómo puedo implementar [!DNL Target] utilizando [!DNL Adobe Experience Platform]?
+feature: Implement Server-side
 role: Developer
 exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 5%
+source-wordcount: '417'
+ht-degree: 11%
 
 ---
 
-# Implementar [!DNL Target] utilizando [!DNL Adobe Experience Platform]
+# Implementación[!DNL Target]mediante [!DNL Adobe Experience Platform]
 
 Las etiquetas de [!DNL Adobe Experience Platform] son la siguiente generación de funcionalidades de administración de etiquetas de [!DNL Adobe]. Las etiquetas proporcionan a los clientes una alternativa sencilla para implementar y gestionar las etiquetas de análisis, marketing y publicidad necesarias para ofrecer al cliente experiencias más relevantes.
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] se ha convertido en un conjunto de tecnologías de recopilación de datos en  [!DNL Adobe Experience Platform]. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) para obtener una referencia consolidada de los cambios terminológicos.
+>[!DNL Adobe Experience Platform Launch] se ha convertido en un conjunto de tecnologías de recopilación de datos en [!DNL Adobe Experience Platform]. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) para obtener una referencia consolidada de los cambios terminológicos.
 
 La tabla siguiente muestra las distintas fuentes en las que puede obtener más información:
 
@@ -33,4 +33,9 @@ La tabla siguiente muestra las distintas fuentes en las que puede obtener más i
 Las siguientes ventajas solo se aplican si utiliza etiquetas en [!DNL Adobe Experience Platform] para implementar at.js. Por este motivo, [!DNL Adobe] sugiere encarecidamente que utilice etiquetas en [!DNL Adobe Experience Platform] en lugar de una implementación manual de at.js.
 
 * **Condiciones de solución  [!DNL Adobe Analytics] y  [!DNL Target] carrera:** Dado que la  [!DNL Analytics] llamada podría activarse antes de la  [!DNL Target] llamada, la  [!DNL Target] llamada no se une a la  [!DNL Analytics] llamada. Esta secuenciación puede dar lugar a datos incorrectos. La extensión [!DNL Target] garantiza que la llamada de señalización [!DNL Analytics] espera hasta que la llamada [!DNL Target] se complete, tenga éxito o no. El uso de etiquetas en [!DNL Adobe Experience Platform] resuelve la incoherencia de datos que los clientes pueden experimentar al implementar manualmente.
+
+   >[!NOTE]
+   >
+   >Utilice la acción [!UICONTROL Send Beacon] en la extensión [!DNL Adobe Analytics] para que la llamada [!DNL Analytics] espere a que se realice la llamada [!DNL Target]. Si llama directamente a `s.t()` o `s.tl()` utilizando código personalizado, las llamadas de [!DNL Analytics] no esperan hasta que se hayan completado las llamadas de [!DNL Target] .
+
 * **Evita la gestión de ofertas de redireccionamiento incorrectas:** Si tiene  [!DNL Target] y  [!DNL Analytics] en la página y hay una oferta de redireccionamiento ejecutada por  [!DNL Target], puede darse el caso de que el  [!DNL Analytics] rastreador active una solicitud cuando no debería (porque el usuario se está redireccionando a una dirección URL diferente). Si implementa [!DNL Target] y [!DNL Analytics] mediante etiquetas en [!DNL Adobe Experience Platform], no tendrá este problema. Utilizando etiquetas en [!DNL Adobe Experience Platform], [!DNL Target] ordena a [!DNL Analytics] que interrumpa la solicitud de señalización [!DNL Analytics].
