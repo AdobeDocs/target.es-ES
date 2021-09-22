@@ -4,10 +4,9 @@ description: Aprenda a utilizar el lenguaje de diseño Velocity de código abier
 title: ¿Cómo Personalizar un diseño mediante Velocity?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 61%
 
 ---
@@ -137,10 +136,10 @@ De forma predeterminada, las plantillas de Velocity tratan todos los atributos d
 Supongamos que desea reducir el precio mostrado de un artículo en 0,99 $ para aplicar un descuento. Puede utilizar el siguiente método para lograr este resultado:
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('priceBeforeDiscount') != '' )
-    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    #set( $discountedPrice = $double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
     Item price: $$discountedPrice
 #else
     Item price unavailable
@@ -152,10 +151,10 @@ Supongamos que desea reducir el precio mostrado de un artículo en 0,99 $ para a
 Supongamos que desea mostrar un número adecuado de estrellas en función de la clasificación de cliente media numérica de un artículo. Puede utilizar el siguiente método para lograr este resultado:
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('rating') != '' )
-    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #set( $rating = $double.parseDouble($entity1.get('rating')) )
     #if( $rating >= 4.5 )
         <img src="5_stars.jpg">
     #elseif( $rating >= 3.5 )
