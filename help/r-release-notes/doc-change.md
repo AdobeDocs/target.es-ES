@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
+source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2536'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 22 de septiembre | [Preguntas más frecuentes sobre diseño](/help/c-recommendations/c-design-overview/template-faq.md) | Se ha actualizado la pregunta frecuente siguiente:<ul><li>¿Puedo usar un script de perfil en un diseño [!DNL Recommendations]?</li></ul> |
 | 22 de septiembre | [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Se agregaron las siguientes consideraciones:<ul><li>Las métricas de seguimiento de clics no están vinculadas a ninguna experiencia específica de una actividad.</li><li>Utilice audiencias si es necesario restringir el alcance de las métricas de rastreo de clics.</li><li>Varias actividades pueden definir una métrica de rastreo de clics para el mismo selector. Si es así, cuando un visitante cumple los requisitos para una de esas actividades y hace clic en ese selector, la métrica rastreo de clics aumenta para todas las actividades asociadas para las que el visitante cumple los requisitos.</li></ul> |
 |  | [Implementación [!DNL Target] mediante [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Se ha añadido una nota en la sección &quot;Ventajas de implementar at.js con la extensión [!DNL Target]&quot;. |
 |  | [Sincronización de perfiles en tiempo real para mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Se ha actualizado la sección &quot;Consideraciones&quot; con nueva información. |
