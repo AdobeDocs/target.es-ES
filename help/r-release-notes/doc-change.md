@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2570'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 27 de septiembre | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad<ul><li>Miércoles, 13 de octubre de 2021</li><li>08:00 a. m. (PDT, UTC -7)</li></ul></li></ul> |
 | 22 de septiembre | [Personalización de un diseño mediante Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Se ha cambiado `$Double` a `$double` en ejemplos de código para evitar posibles ambigüedades. |
 |  | [Preguntas más frecuentes sobre diseño](/help/c-recommendations/c-design-overview/template-faq.md) | Se ha actualizado la pregunta frecuente siguiente:<ul><li>¿Puedo usar un script de perfil en un diseño [!DNL Recommendations]?</li></ul> |
 |  | [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Se agregaron las siguientes consideraciones:<ul><li>Las métricas de seguimiento de clics no están vinculadas a ninguna experiencia específica de una actividad.</li><li>Utilice audiencias si es necesario restringir el alcance de las métricas de rastreo de clics.</li><li>Varias actividades pueden definir una métrica de rastreo de clics para el mismo selector. Si es así, cuando un visitante cumple los requisitos para una de esas actividades y hace clic en ese selector, la métrica rastreo de clics aumenta para todas las actividades asociadas para las que el visitante cumple los requisitos.</li></ul> |
