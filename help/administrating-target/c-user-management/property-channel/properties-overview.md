@@ -5,9 +5,9 @@ title: ¿Cómo configuro los permisos de Enterprise?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1456'
 ht-degree: 63%
 
 ---
@@ -139,8 +139,6 @@ Para utilizar la funcionalidad de permisos de usuario [!DNL Target] , debe añad
       ![Código de pase de propiedad](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. Haga clic con el botón derecho sobre el código de implementación destacado para copiarlo en el Portapapeles.
-
-      ![Código de propiedad](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
 1. Actualice la implementación [!DNL Target] con el código de implementación obtenido en el paso anterior.
 
