@@ -2,13 +2,13 @@
 keywords: añadir usuario;proyecto;grupo de usuarios;espacio de trabajo;propiedades;propiedad;administrar propiedad;at_property;funciones;permisos
 description: Aprenda a añadir usuarios a Adobe Target; crear espacios de trabajo, grupos de usuarios y propiedades; actualizar la implementación; y especificar funciones y permisos.
 title: ¿Cómo configuro los permisos de Enterprise?
-feature: Administración y configuración
+feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 65%
+source-wordcount: '1458'
+ht-degree: 63%
 
 ---
 
@@ -150,17 +150,25 @@ Para utilizar la funcionalidad de permisos de usuario [!DNL Target] , debe añad
 
       Para obtener más información, consulte [Agregar parámetros de destino globales](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) en la documentación *Información general sobre etiquetas* .
 
-   * **Mediante la función targetPageParams():**  coloque el siguiente código en las  `<head>` etiquetas, encima de la referencia a at.js.
+   * **Mediante la función targetPageParamsAll():**  coloque el siguiente código en las  `<head>` etiquetas, encima de la referencia a at.js.
 
-      ![](assets/property_token_1.png)
+      ```javascript
+      <script>
+       function targetPageParamsAll() {
+        return {
+         "at_property": "5f8bd98b-1456-a84c-2a96-11s9b8e2b112"
+        };
+       }
+      </script>
+      ```
 
-      Para obtener más información sobre la realización de esto con at.js, consulte [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
+      Para obtener más información sobre cómo hacerlo con at.js, consulte [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
 
    * **Mediante la función mboxCreate():**
 
       ![](assets/property_token_3.png)
 
-      Para obtener más información sobre cómo realizar esto con at.js, consulte  [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) y  [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
+      Para obtener más información sobre cómo realizar esto con at.js, consulte   [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) targetPageParamsAlland   [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Paso 6: Especificar roles y permisos {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
