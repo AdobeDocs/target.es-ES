@@ -4,7 +4,7 @@ description: Aprenda a interpretar los informes de Adobe [!DNL Target] que inclu
 title: ¿Cómo veo el alza promedio, los límites de alza y el intervalo de confianza?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: 905de3cd4f4f660fc7c192a2f68f0660002e47b0
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 71%
