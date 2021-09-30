@@ -2,13 +2,12 @@
 keywords: Target;informes;configuración de informes;entorno;alza;límite de alza;variación;confianza;control
 description: Aprenda a interpretar los informes de Adobe [!DNL Target] que incluyen puntos de datos y representaciones de visualización para ayudarle a comprender los límites de aumento y el nivel de confianza de sus actividades.
 title: ¿Cómo veo el alza promedio, los límites de alza y el intervalo de confianza?
-feature: Informes
+feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 73%
+source-wordcount: '835'
+ht-degree: 71%
 
 ---
 
@@ -48,6 +47,10 @@ La longitud de la barra del gráfico del cuadro representa cómo de grande es el
 
 La confianza de una experiencia u oferta representa la probabilidad de que la elevación de la experiencia/oferta asociada sobre la experiencia/oferta de control sea “real” (no causada por una probabilidad aleatoria). Normalmente, el 95 % es el nivel de confianza recomendado para que el levantamiento se considere significativo.
 
+## Comprender cómo se determina el intervalo de confianza para el alza {#pdf}
+
+Descargue el [Intervalo de confianza para alza pdf](/help/assets/confidence_interval_lift.pdf) para obtener más información.
+
 ## ¿Cómo se calculan los límites de aumento? {#section_1D360781D972483693680BE0F07AEAD1}
 
 Los límites de elevación representan los intervalos de confianza del 95 % del aumento que tiene la experiencia u oferta específica sobre la experiencia u oferta de control. En términos generales, significa que el aumento real tiene aproximadamente un 95 % de posibilidades de estar entre estos límites.
@@ -71,7 +74,7 @@ Hay algunos cálculos adicionales para llegar a la entrada de nuestros límites 
    >
    >El error estándar para las actividades de métricas de éxito de ingresos se basa en la variación de muestra de los ingresos.
 
-## Ejemplo de cálculo {#example}
+## Cálculo de ejemplo {#example}
 
 Consideremos una actividad de ejemplo con dos experiencias y los siguientes resultados:
 

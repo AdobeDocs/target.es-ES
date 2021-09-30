@@ -5,9 +5,9 @@ title: ¿Cómo configuro los permisos de Enterprise?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 63%
 
 ---
@@ -142,9 +142,9 @@ Para utilizar la funcionalidad de permisos de usuario [!DNL Target] , debe añad
 
    Existen varias formas de actualizar la implementación de [!DNL Target]. Por ejemplo, puede usar los siguientes métodos para páginas web:
 
-   * **Mediante un parámetro global en etiquetas en   [!DNL Adobe Experience Platform]:**
+   * **Mediante un &quot;Parámetro personalizado&quot; en etiquetas dentro de  [!DNL Adobe Experience Platform]:**
 
-      Para obtener más información, consulte [Agregar parámetros de destino globales](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) en la documentación *Información general sobre etiquetas* .
+      Para obtener más información, consulte [Agregar parámetros de mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) en la documentación *Información general sobre etiquetas* .
 
    * **Mediante la función targetPageParamsAll():**  coloque el siguiente código en las  `<head>` etiquetas, encima de la referencia a at.js.
 

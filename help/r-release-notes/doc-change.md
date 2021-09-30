@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2633'
 ht-degree: 93%
 
 ---
@@ -20,6 +20,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 30 de septiembre | Enviar información de actividad a [!DNL Adobe Analytics] | Se ha eliminado todo el tema porque los pasos descritos ya no son necesarios para enviar la información de actividad de la aplicación móvil [!DNL Target] a [!DNL Analytics] para la segmentación post hoc. |
+|  | [Alza promedio, límites de alza e intervalo de confianza](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Se ha agregado un archivo pdf para explicar cómo se calcula el intervalo de confianza para el alza. |
 |  | [Configuración de permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Se ha cambiado `targetPageParams` a `targetPageParamsAll` en &quot;Paso 5 Actualice la implementación para incluir el parámetro `at_property`&quot;. |
 | 27 de septiembre | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad<ul><li>Miércoles, 13 de octubre de 2021</li><li>08:00 a. m. (PDT, UTC -7)</li></ul></li></ul> |
 | 22 de septiembre | [Personalización de un diseño mediante Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Se ha cambiado `$Double` a `$double` en ejemplos de código para evitar posibles ambigüedades. |
