@@ -5,10 +5,10 @@ title: ¿Cómo utilizo la función adobe.target.getOffers() ?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 85%
+source-wordcount: '1304'
+ht-degree: 69%
 
 ---
 
@@ -36,43 +36,43 @@ Esta función le permite recuperar varias ofertas pasando varios mboxes. Además
 | Nombre del campo | ¿Requerido? | Limitaciones | Descripción |
 | --- | --- | --- | --- |
 | solicitud > id | No |  | Uno de `tntId`, `thirdPartyId` o `marketingCloudVisitorId` es obligatorio. |
-| Solicitud > ID > thirdPartyId | No | Tamaño máximo = 128 |  |  |
+| Solicitud > ID > thirdPartyId | No | Tamaño máximo = 128  |  |  |
 | Request > experienceCloud | No |  |  |
 | Request > experienceCloud > analytics | No |  | Integración de Adobe Analytics |
 | Request > experienceCloud > analytics > logging | No | Se debe implementar lo siguiente en la página:<ul><li>Servicio de ID de visitante</li><li>AppMeasurement.js</li></ul> | Se admiten los siguientes valores:<br>**client_side**: Cuando se especifique, se devolverá una carga útil de Analytics al que ha realizado la llamada, que debe utilizarse para enviar a Adobe Analytics mediante la API de inserción de datos.<br>**server_side**: Este es el valor predeterminado en el que el backend de Target y Analytics usará el SDID para unir las llamadas con fines de informes. |
 | Solicitud > Captura previa | No |  |  |
-| Solicitud > Captura previa > Vistas | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud del nombre `<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe empezar con “perfil”<br>Nombres no permitidos: “orderId”, “orderTotal”, “productPurchasedId” | Pase parámetros para utilizarlos para recuperar vistas relevantes en actividades activas. |
-| Solicitud > Captura previa > Vistas > profileParameters | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud de nombre `<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe empezar con “perfil” | Pase parámetros de perfil para utilizarlos para recuperar vistas relevantes en actividades activas. |
+| Solicitud > Captura previa > Vistas | No | Recuento máximo 50.<br>Nombre no en blanco.<br>Longitud del nombre `<=` 128.<br>Longitud del valor `<=` 5000.<br>El nombre no debe comenzar con &quot;perfil&quot;.<br>Nombres no permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Pase parámetros para utilizarlos para recuperar vistas relevantes en actividades activas. |
+| Solicitud > Captura previa > Vistas > profileParameters | No | Recuento máximo 50.<br>Nombre no en blanco.<br>Longitud del nombre `<=` 128.<br>Longitud del valor `<=` 5000.<br>Acepta únicamente valores de cadena.<br>El nombre no debe comenzar con &quot;perfil&quot;. | Pase parámetros de perfil para utilizarlos para recuperar vistas relevantes en actividades activas. |
 | Solicitud > Captura previa > Vistas > Producto | No |  |  |
-| Solicitud > Captura previa > Vistas > Producto > Id. | No | Tamaño máximo<br>no vacío = 128 | Pase los ID de producto para que se utilicen para recuperar vistas relevantes en actividades activas. |
-| Solicitud > Captura previa > Vistas > Producto > categoryId | No | Tamaño máximo<br>no vacío = 128 | Pase los ID de categoría de producto para que se utilicen para recuperar vistas relevantes en las actividades. |
+| Solicitud > Captura previa > Vistas > Producto > Id. | No | Tamaño máximo = 128.<br> | Pase los ID de producto para que se utilicen para recuperar vistas relevantes en actividades activas. |
+| Solicitud > Captura previa > Vistas > Producto > categoryId | No | Tamaño máximo = 128.<br> | Pase los ID de categoría de producto para que se utilicen para recuperar vistas relevantes en las actividades. |
 | Solicitud > Captura previa > Vistas > Pedido | No |  |  |
-| Solicitud > Captura previa > Vistas > Pedido > Id. | No | Longitud máxima = 250 | Pase los ID de pedido para que se utilicen para recuperar vistas relevantes en actividades activas. |
-| Solicitud > Captura previa > Vistas > Pedido > Total | No | Total `>=` 0 | Pase los totales del pedido para que se utilicen para recuperar vistas relevantes en actividades activas. |
-| Solicitud > Captura previa > Vistas > Pedido > purchasedProductIds | No | Valores no vacíos<br>Longitud máxima de cada valor 50<br><br>Longitud total del ID de producto concatenado y separado por una coma `<=` 250 | Pase los ID de productos comprados para que se utilicen para recuperar vistas relevantes en actividades activas. |
+| Solicitud > Captura previa > Vistas > Pedido > Id. | No | Longitud máxima = 250  | Pase los ID de pedido para que se utilicen para recuperar vistas relevantes en actividades activas. |
+| Solicitud > Captura previa > Vistas > Pedido > Total | No | Total `>=` 0  | Pase los totales del pedido para que se utilicen para recuperar vistas relevantes en actividades activas. |
+| Solicitud > Captura previa > Vistas > Pedido > purchasedProductIds | No | No hay valores en blanco.<br>Longitud máxima de cada valor 50.<br>Concatenada y separada por coma.<br>Longitud total de los ID de producto `<=` 250. | Pase los ID de productos comprados para que se utilicen para recuperar vistas relevantes en actividades activas. |
 | Solicitud > Ejecutar | No |  |  |
 | Solicitud > Ejecutar > pageLoad | No |  |  |
-| Solicitud > Ejecutar > pageLoad > Parámetros | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud del nombre`<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe comenzar con “perfil”.<br>Nombres no permitidos: “orderId”, “orderTotal”, “productPurchasedId” | Recupere ofertas con parámetros especificados cuando se carga la página. |
-| Solicitar > Ejecutar > pageLoad > profileParameters | No | Recuento máximo 50<br>Nombre no en blanco<br>Longitud del nombre `<=` 128<br>Valor de longitud `<=`256<br>El nombre no debe comenzar con “perfil”. | Recupere ofertas con parámetros de perfil especificados cuando se carga la página. |
+| Solicitud > Ejecutar > pageLoad > Parámetros | No | Recuento máximo 50.<br>Nombre no en blanco.<br>Longitud del nombre `<=` 128.<br>Longitud del valor `<=` 5000.<br>Acepta únicamente valores de cadena.<br>El nombre no debe comenzar con &quot;perfil&quot;.<br>Nombres no permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Recupere ofertas con parámetros especificados cuando se carga la página. |
+| Solicitar > Ejecutar > pageLoad > profileParameters | No | Recuento máximo 50.<br>Nombre no en blanco.<br>Longitud del nombre `<=` 128.<br>Longitud del valor `<=`256.<br>El nombre no debe comenzar con &quot;perfil&quot;.<br>Acepta únicamente valores de cadena. | Recupere ofertas con parámetros de perfil especificados cuando se carga la página. |
 | Solicitar > Ejecutar > pageLoad > Producto | No |  |  |
-| Solicitud > Ejecutar > pageLoad > Producto > Id. | No | Tamaño máximo<br>no vacío = 128 | Recupere ofertas con ID de productos especificadas cuando se carga la página. |
-| Solicitud > Ejecutar > pageLoad > Producto > categoryId | No | Tamaño máximo<br>no vacío = 128 | Recupere ofertas con ID de categoría de productos especificadas cuando se carga la página. |
+| Solicitud > Ejecutar > pageLoad > Producto > Id. | No | Tamaño máximo = 128.<br> | Recupere ofertas con ID de productos especificadas cuando se carga la página. |
+| Solicitud > Ejecutar > pageLoad > Producto > categoryId | No | Tamaño máximo = 128.<br> | Recupere ofertas con ID de categoría de productos especificadas cuando se carga la página. |
 | Solicitar > Ejecutar > pageLoad >Pedido | No |  |  |
-| Solicitar > Ejecutar > pageLoad > Pedido > ID | No | Longitud máxima = 250 | Recupere ofertas con ID de pedidos especificados cuando se carga la página. |
-| Solicitar > Ejecutar > pageLoad > Pedido > Total | No | `>=` 0 | Recupere ofertas con totales de pedidos especificados cuando se carga la página. |
-| Solicitud > Ejecutar > pageLoad > Pedido > purchasedProductIds | No | Valores no vacíos<br>Longitud máxima de cada valor 50<br><br>Longitud total del ID de producto concatenado y separado por una coma `<=` 250 | Recupere ofertas con ID de productos comprados cuando se carga la página. |
-| Solicitud > Ejecutar > mboxes | No | Tamaño máximo = 50<br>Sin elementos nulos |  |
-| Solicitud > Ejecutar > mboxes > mbox | Sí | Tamaño máximo<br>Sin sufijo “-clicked”<br>no vacío = 250<br>Caracteres permitidos: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nombre del mbox. |
-| Solicitud > Ejecutar > mboxes > mbox > Índice | Sí | Sin<br>Único<br>`>=` 0 | Tenga en cuenta que el índice no representa el orden en que se procesarán los mboxes. Al igual que en una página web con varios mboxes regionales, no se puede especificar el orden en que se procesarán. |
-| Solicitud > Ejecutar > mboxes > mbox > Parámetros | No | Recuento máximo = 50<br>Nombre no en blanco<br>Longitud del nombre `<=` 128<br>Valor de longitud `<=` 5000<br>El nombre no debe comenzar con “perfil”.<br>Nombres no permitidos: “orderId”, “orderTotal”, “productPurchasedId” | Recupere ofertas para un mbox determinado con los parámetros especificados. |
-| Solicitud > Ejecutar > mboxes > mbox > profileParameters | No | Recuento máximo = 50<br>Nombre no en blanco<br>Longitud del nombre`<=` 128<br>Valor de longitud `<=`256<br>El nombre no debe comenzar con “perfil”. | Recupere ofertas para un mbox determinado con los parámetros de perfil especificados. |
+| Solicitar > Ejecutar > pageLoad > Pedido > ID | No | Longitud máxima = 250  | Recupere ofertas con ID de pedidos especificados cuando se carga la página. |
+| Solicitar > Ejecutar > pageLoad > Pedido > Total | No | `>=` 0  | Recupere ofertas con totales de pedidos especificados cuando se carga la página. |
+| Solicitud > Ejecutar > pageLoad > Pedido > purchasedProductIds | No | No hay valores en blanco.<br>Longitud máxima de cada valor 50.<br>Concatenada y separada por coma.<br>Longitud total de los ID de producto `<=` 250. | Recupere ofertas con ID de productos comprados cuando se carga la página. |
+| Solicitud > Ejecutar > mboxes | No | Tamaño máximo = 50.<br>Sin elementos nulos. |  |
+| Solicitud > Ejecutar > mboxes > mbox | Sí | No está en blanco.<br>Sin sufijo &quot;-clicked&quot;.<br>Tamaño máximo = 250.<br>Caracteres permitidos: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nombre del mbox. |
+| Solicitud > Ejecutar > mboxes > mbox > Índice | Sí | No nulo.<br>Único.<br>`>=` 0. | Tenga en cuenta que el índice no representa el orden en que se procesarán los mboxes. Al igual que en una página web con varios mboxes regionales, no se puede especificar el orden en que se procesarán. |
+| Solicitud > Ejecutar > mboxes > mbox > Parámetros | No | Recuento máximo = 50.<br>Nombre no en blanco.<br>Longitud del nombre `<=` 128.<br>Acepta únicamente valores de cadena.<br>Longitud del valor  `<=` 5000.<br>El nombre no debe comenzar con &quot;perfil&quot;.<br>Nombres no permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Recupere ofertas para un mbox determinado con los parámetros especificados. |
+| Solicitud > Ejecutar > mboxes > mbox > profileParameters | No | Recuento máximo = 50.<br>Nombre no en blanco.<br>Longitud del nombre `<=` 128.<br>Acepta únicamente valores de cadena.<br>Longitud del valor  `<=`256.<br>El nombre no debe comenzar con &quot;perfil&quot;. | Recupere ofertas para un mbox determinado con los parámetros de perfil especificados. |
 | Solicitud > Ejecutar > mboxes > mbox > Producto | No |  |  |
-| Solicitud > Ejecutar > mboxes > mbox > Producto > ID | No | Tamaño máximo<br>no vacío = 128 | Recupere ofertas para un mbox determinado con los ID de producto especificados. |
-| Solicitud > Ejecutar > mboxes > mbox > Producto > categoryId | No | Tamaño máximo<br>no vacío = 128 | Recupere ofertas para un mbox determinado con los ID de categoría de producto especificados. |
+| Solicitud > Ejecutar > mboxes > mbox > Producto > ID | No | Tamaño máximo = 128.<br> | Recupere ofertas para un mbox determinado con los ID de producto especificados. |
+| Solicitud > Ejecutar > mboxes > mbox > Producto > categoryId | No | Tamaño máximo = 128.<br> | Recupere ofertas para un mbox determinado con los ID de categoría de producto especificados. |
 | Solicitar > Ejecutar > mboxes > mbox > Pedido | No |  |  |
-| Solicitud > Ejecutar > mboxes > mbox > Pedido > ID | No | Longitud máxima = 250 | Recupere ofertas para un mbox determinado con los ID de pedidos especificados. |
-| Solicitud > Ejecutar > mboxes > mbox > Pedido > Total | No | `>=` 0 | Recupere ofertas para un mbox determinado con los totales de pedidos especificados. |
-| Solicitud > Ejecutar > mboxes > mbox > Pedido > purchasedProductIds | No | Valores no vacíos<br>Longitud máxima de cada valor = 50<br><br>Longitud total de ID de productos concatenados y separados por comas `<=` 250 | Recupere ofertas para un mbox determinado con los ID de pedido especificada del producto comprado. |
+| Solicitud > Ejecutar > mboxes > mbox > Pedido > ID | No | Longitud máxima = 250  | Recupere ofertas para un mbox determinado con los ID de pedidos especificados. |
+| Solicitud > Ejecutar > mboxes > mbox > Pedido > Total | No | `>=` 0  | Recupere ofertas para un mbox determinado con los totales de pedidos especificados. |
+| Solicitud > Ejecutar > mboxes > mbox > Pedido > purchasedProductIds | No | No hay valores en blanco.<br>Longitud máxima de cada valor = 50.<br>Concatenado y separado por coma.<br>Longitud total de los ID de producto `<=` 250. | Recupere ofertas para un mbox determinado con los ID de pedido especificada del producto comprado. |
 
 ## Llame a getOffers() para todas las vistas
 
