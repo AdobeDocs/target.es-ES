@@ -2,11 +2,11 @@
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;segmentación de audiencia;informe de audiencia;audiencia de informe;segmento;parámetros de perfil personalizados;definición de audiencia;lista de audiencias
 description: Aprenda a utilizar la lista [!UICONTROL Audiencias] en [!DNL Adobe Target].
 title: ¿Cómo utilizo la lista de audiencias?
-feature: Audiencias
+feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '759'
 ht-degree: 34%
 
 ---
@@ -21,7 +21,7 @@ Las audiencias se utilizan siempre que está disponible la determinación de obj
 * [Crear una ](/help/c-target/creating-activity-only-audience.md) audiencia específica de actividad y segmentarla
 * [Combinación de varias ](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) audiencias para crear una audiencia ad-hoc
 
-También puede usar datos de audiencia recopilados por [!DNL Adobe Analytics] para personalización y segmentación en tiempo real en [!DNL Target] y otras aplicaciones [!DNL Adobe Experience Cloud]. Consulte [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) en la guía *Componentes de interfaz central de Experience Cloud*.
+También puede usar datos de audiencia recopilados por [!DNL Adobe Analytics] para personalización y segmentación en tiempo real en [!DNL Target] y otras aplicaciones [!DNL Adobe Experience Cloud]. Consulte [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) en la guía *Componentes de la interfaz central de Experience Cloud*.
 
 Existen dos tipos de audiencias en [!DNL Target]:
 
@@ -45,7 +45,7 @@ La lista [!UICONTROL Audiencias] contiene las audiencias que puede usar en sus a
 
    >[!NOTE]
    >
-   >La fuente [!DNL Adobe Experience Platform] se encuentra en un programa de pruebas beta, pero está disponible para todos los clientes [!DNL Target] que utilizan el [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Las audiencias disponibles en [!DNL Adobe Experience Platform] se pueden usar tal cual o [combinadas con audiencias existentes](/help/c-target/combining-multiple-audiences.md).
+   >La fuente [!DNL Adobe Experience Platform] está disponible para todos los clientes [!DNL Target] que utilizan el [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Las audiencias disponibles en [!DNL Adobe Experience Platform] se pueden usar tal cual o [combinadas con audiencias existentes](/help/c-target/combining-multiple-audiences.md).
 
 No se puede cambiar el nombre a las audiencias predefinidas como &quot;[!UICONTROL Nuevos visitantes]&quot; y &quot;[!UICONTROL Visitantes que regresan]&quot;.
 

@@ -2,11 +2,11 @@
 keywords: opciones del explorador;tipo;tipo de explorador;idioma del explorador;idioma;versión;versión del explorador
 description: Aprenda a crear audiencias en [!DNL Adobe Target] para dirigirse a usuarios que usen un navegador específico u opciones del navegador específicas cuando visiten la página.
 title: ¿Puedo segmentar visitantes en función del tipo de explorador?
-feature: Audiencias
+feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 78%
 
 ---
@@ -40,7 +40,7 @@ Hay dos formar de segmentar según el navegador:
 
    1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
    1. Asigne un nombre a la audiencia y añada una descripción opcional.
-   1. Arrastre y suelte **[!UICONTROL Browser]** en el panel del generador de audiencias.
+   1. Arrastre y suelte el **[!UICONTROL Explorador]** en el Generador de audiencias.
 
       ![Reglas > Explorador](assets/target_browser.png)
 

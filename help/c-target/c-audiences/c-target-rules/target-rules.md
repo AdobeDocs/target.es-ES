@@ -2,9 +2,9 @@
 keywords: Segmentación;categorías de objetivos;condiciones de segmentación;administrador de audiencias;parámetros de perfil personalizados;perfil de visitante;parámetros de usuario personalizados;reglas de segmentación
 description: Aprenda a utilizar categorías (como Explorador, Geografía, Red, Sistema operativo, Perfil del visitante) para el contenido objetivo.
 title: ¿Cuáles son las categorías de las audiencias?
-feature: Audiencias
+feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 50%
@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # Categorías para audiencias
 
-Puede segmentar en cualquiera de los atributos de categoría utilizando [!DNL Adobe Target]. Para crear reglas de segmentación (o grupos) para cada atributo, arrastre y suelte los atributos deseados en el generador de audiencias .
+Puede segmentar en cualquiera de los atributos de categoría utilizando [!DNL Adobe Target]. Para crear reglas de segmentación (o grupos) para cada atributo, arrastre y suelte los atributos que desee en el panel del Generador de audiencias .
 
 ![Atributos para audiencias](/help/c-target/c-audiences/assets/attributes.png)
 
@@ -21,7 +21,7 @@ Cuando se selecciona una categoría en concreto, se puede aplicar una o más con
 
 Después de crear una regla, haga clic en **[!UICONTROL Finalizado]**. Se mostrará un resumen de la regla junto al vínculo de la segmentación para el nivel que esté segmentando.
 
-Puede ajustar aún más la regla si agrega más condiciones o si crea reglas adicionales en otras categorías. Por ejemplo, puede segmentar solo los usuarios de Firefox de San Francisco que hayan accedido al sitio desde Google. Defina la categoría [!UICONTROL Geografía] para dirigirse a los usuarios de San Francisco, la categoría [!UICONTROL Explorador] para dirigirse a los usuarios que utilicen Firefox y la categoría [!UICONTROL Fuentes de tráfico] para dirigirse a los usuarios que provengan de [!UICONTROL Desde Google]. Las reglas creadas entre categorías se combinan con el operador AND.
+Puede ajustar aún más la regla si agrega más condiciones o si crea reglas adicionales en otras categorías. Por ejemplo, puede segmentar solo los usuarios de Firefox de San Francisco que accedan al sitio desde Google. Defina la categoría [!UICONTROL Geografía] para dirigirse a los usuarios de San Francisco, la categoría [!UICONTROL Explorador] para dirigirse a los usuarios que utilicen Firefox y la categoría [!UICONTROL Fuentes de tráfico] para dirigirse a los usuarios que provengan de [!UICONTROL Desde Google]. Las reglas creadas entre categorías se combinan con el operador AND.
 
 Para crear reglas de segmentación complejas que incluyan operaciones OR en todas las categorías, cree un objetivo de expresión.
 

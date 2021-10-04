@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2649'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 4 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de la versión de Target Standard/Premium 21.10.1 (6 de octubre de 2021). |
 | 30 de septiembre | Enviar información de actividad a [!DNL Adobe Analytics] | Se ha eliminado todo el tema porque los pasos descritos ya no son necesarios para enviar la información de actividad de la aplicación móvil [!DNL Target] a [!DNL Analytics] para la segmentación post hoc. |
 |  | [Alza promedio, límites de alza e intervalo de confianza](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Se ha añadido un archivo pdf para explicar cómo se calcula el intervalo de confianza para el alza. |
 |  | [Configuración de permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Se ha cambiado `targetPageParams` a `targetPageParamsAll` en &quot;Paso 5 Actualice la implementación para incluir el parámetro `at_property`&quot;. |

@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 93%
+source-wordcount: '292'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 27 de septiembre de 2021**
+**Última actualización: 4 de octubre de 2021**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -32,6 +32,7 @@ Esta versión incluye las siguientes nuevas funciones:
 | Función | Detalles |
 | --- | --- |
 | Actualización de la interfaz de usuario de las audiencias | Estamos reescribiendo gradualmente toda la IU de [!DNL Target] mediante un nuevo stack tecnológico para poder ofrecer un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La sección [Administration](/help/administrating-target/administrating-target.md) se actualizó en 2020. La sección [!UICONTROL Audiencias] es la segunda actualización importante de la interfaz de usuario. |
+| ![Distintivo Premium ](/help/assets/premium.png) Recomendaciones Criterios de creación y edición | El flujo de trabajo de creación y edición de [!UICONTROL Recommendations Criteria] se ha optimizado para simplificar la elección del algoritmo y la configuración de recomendaciones adecuados para lograr sus objetivos. |
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

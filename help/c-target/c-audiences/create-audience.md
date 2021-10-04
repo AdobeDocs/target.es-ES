@@ -1,12 +1,12 @@
 ---
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia
-description: Aprenda a crear audiencias personalizadas y guardarlas en la biblioteca [!DNL Adobe Target] [!UICONTROL Audiences] para usarlas en sus actividades.
+description: Obtenga información sobre cómo crear audiencias personalizadas y guardarlas en la biblioteca [!DNL Adobe Target] [!UICONTROL Audiences] para usarlas en actividades.
 title: ¿Cómo Creo Audiencias?
-feature: Audiencias
+feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 61%
 
 ---
@@ -60,7 +60,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
 1. (Condicional) Siga agregando y definiendo los atributos deseados.
 
-   Para crear otro contenedor, haga clic en **[!UICONTROL Agregar contenedor]** o simplemente arrastre otro atributo al marco central. A continuación, puede ajustar el operador (Y u O) mediante la lista desplegable.
+   Para crear otro contenedor, haga clic en **[!UICONTROL Agregar contenedor]** o simplemente arrastre otro atributo al panel de Audience Builder. A continuación, puede ajustar el operador (Y u O) mediante la lista desplegable.
 
 1. Haga clic en **[!UICONTROL Finalizado]**.
 

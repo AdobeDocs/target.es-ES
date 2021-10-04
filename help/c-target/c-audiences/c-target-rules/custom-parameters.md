@@ -2,11 +2,11 @@
 keywords: parámetros personalizados;parámetros personalizados de target;targetpageparams;segmentación de parámetros mbox
 description: Aprenda a pasar parámetros personalizados a [!DNL Adobe Target] para usarlos en las audiencias.
 title: ¿Puedo segmentar visitantes en función de parámetros personalizados?
-feature: Audiencias
+feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,7 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
-1. Arrastre y suelte **[!UICONTROL Personalizado]** en el panel del generador de audiencias.
+1. Arrastre y suelte **[!UICONTROL Personalizado]** en el Generador de audiencias.
 
    Para seleccionar el parámetro deseado:
 
@@ -56,7 +56,7 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
 1. (Opcional) Configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
-La [tarjeta emergente de detalles de definición](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) de la audiencia muestra el nombre del parámetro en la sección Reglas. No hay ninguna referencia al mbox utilizado para el filtrado.
+La [tarjeta emergente de detalles de definición](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) de la audiencia muestra el nombre del parámetro en la sección Reglas. **** No hay ninguna referencia al mbox utilizado para el filtrado.
 
 >[!NOTE]
 >
