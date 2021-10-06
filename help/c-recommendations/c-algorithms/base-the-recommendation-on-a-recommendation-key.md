@@ -5,9 +5,9 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: c3092f63dbcb91aca4afe2ba35715cbd3f658506
+source-git-commit: 17004e002e6ff7eb0a50f637561c5ec25823a2eb
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3142'
 ht-degree: 47%
 
 ---
@@ -207,7 +207,7 @@ Utilice este algoritmo en páginas generales, como páginas de inicio o de aterr
 >
 >[!UICONTROL Elementos vistos recientemente ] respeta tanto la configuración global de exclusiones como la configuración de recopilación seleccionada para la actividad. Si un elemento está excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará. Por lo tanto, cuando se utilizan los criterios [!UICONTROL Artículos vistos recientemente], generalmente se debe utilizar la configuración &quot;Todas las colecciones&quot;.
 
-### Recomendado para usted {#user-based}
+### Recomendado para usted {#recommended-for-you}
 
 Recomienda artículos según el historial de navegación, visualización y compra de cada visitante.
 
