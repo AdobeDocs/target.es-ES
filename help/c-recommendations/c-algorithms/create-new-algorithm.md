@@ -1,14 +1,13 @@
 ---
-keywords: criterios;algoritmo;sector vertical;tipo de página;clave de recomendación;lógica de recomendación;rango de datos;fuente de datos de comportamiento;diseño parcial;recomendaciones de copia de seguridad;reglas de inclusión;ponderación de atributos;categoría actual;atributo personalizado;último artículo comprado;último artículo visto;último artículo visto;más visitado;artículo más visto;categoría favorita;popularidad;artículo visto recientemente;último comprado;más visitado;favorito;visitado recientemente
+keywords: criterios;algoritmo;sector vertical;tipo de página;clave de recomendación;lógica de recomendación;intervalo de datos;ventana retrospectiva;fuente de datos de comportamiento;diseño parcial;recomendaciones de copia de seguridad;reglas de inclusión;ponderación de atributos;categoría actual;atributo personalizado;último artículo comprado;último artículo visto;último artículo visto;más visitado;más visto;categoría favorita;popularidad;último artículo visto;último comprado;más visto;favorito;visitado recientemente
 description: Aprenda a crear criterios que controlen el contenido de sus actividades de Adobe Recommendations para mostrar las recomendaciones que sean más adecuadas para su actividad.
 title: ¿Cómo creo criterios en Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a86726aa6cc11f229c8157bb6d81a40d9f6b994e
 workflow-type: tm+mt
-source-wordcount: '2486'
-ht-degree: 64%
+source-wordcount: '2799'
+ht-degree: 54%
 
 ---
 
@@ -32,17 +31,17 @@ Los siguientes pasos suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
 
 1. Haga clic en **[!UICONTROL Crear criterio]** > **[!UICONTROL Crear criterio]**.
 
-   ![Crear nuevos criterios](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+   ![Crear nuevos criterios](assets/CreateNewCriteria_full-new.png)
 
 1. Configure la información en las secciones siguientes.
 
-## Información básica    {#info}
+## [!UICONTROL Información básica ] {#info}
 
 1. Escriba un **[!UICONTROL Nombre de criterio]**.
 
    Es el nombre “interno” que se usa para describir los criterios. Por ejemplo, quizá use el nombre “Productos con más margen” para los criterios, pero es probable que no quiera que ese título se muestre al público. Consulte el paso siguiente para establecer el título que se presenta al público.
 
-   ![Sección Información básica](/help/c-recommendations/c-algorithms/assets/basic-information.png)
+   ![Sección Información básica](assets/basic-information.png)
 
 1. Escriba un **[!UICONTROL Título]** que se mostrará a la audiencia para que aparezca en la página para todas las recomendaciones que usen este criterio.
 
@@ -68,43 +67,38 @@ Los siguientes pasos suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
 
    En conjunto, el sector y los tipos de página se usan para categorizar los criterios guardados, facilitando su reutilización para otras actividades de [!DNL Recommendations].
 
-1. Seleccione una **[!UICONTROL Clave de recomendación]**.
+## [!UICONTROL Algoritmo de Recommendations] {#rec-algo}
 
-   Para obtener más información sobre cómo basar los criterios en una clave, consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+1. Seleccione un **[!UICONTROL Algorithm Type]** y **[!UICONTROL Algorithm]**:
 
-1. Seleccione la **[!UICONTROL Lógica de recomendación]**.
+   ![Sección Algoritmo recomendado](assets/recommended-algorithm.png)
 
-   Para obtener más información sobre opciones de lógica de recomendación, consulte [Criterios](/help/c-recommendations/c-algorithms/algorithms.md).
+   | Tipo de algoritmo | Cuándo se utiliza | Algoritmos disponibles |
+   | --- | --- | --- |
+   | [!UICONTROL Basado en popularidad] | Haga recomendaciones en función de la popularidad general de un artículo en todo el sitio o de la popularidad de artículos dentro de la categoría, marca, género, etc. favorita del usuario o los más vistos. | <ul><li>Más visitados en todo el sitio</li><li>Más visitados por categoría</li><li>Más visitados por atributo de artículo</li><li>Principales vendedores del sitio</li><li>Principales vendedores por categoría</li><li>Principales vendedores por atributo de artículo</li><li>Principales por métrica de Analytics</li></ul> |
+   | [!UICONTROL Basado en elementos] | Realice recomendaciones basadas en la búsqueda de artículos similares a un elemento que el usuario esté viendo o que haya visto recientemente. | <ul><li>Los usuarios que vieron esto, vieron aquello.</li><li>Los usuarios que vieron esto, compraron aquello.</li><li>Los usuarios que compraron esto, compraron aquello.</li><li>Elementos con atributos similares</li></ul> |
+   | [!UICONTROL Basado en el usuario] | Recomendaciones basadas en el comportamiento del usuario. | <ul><li>Artículos vistos recientemente. </li><li>Recomendado para usted</li></ul> |
+   | Basado en el carro de compras | (Próximamente) Haga recomendaciones en función del contenido del carro de compras del usuario. | <ul><li>Los usuarios que vieron esto, vieron aquéllos</li><li>Los usuarios que vieron esto, compraron aquéllos</li><li>Las personas que compraron estos, compraron esos</li></ul> |
+   | [!UICONTROL Criterios personalizados] | Realice recomendaciones basadas en un archivo personalizado que cargue. | <ul><li>Algoritmo personalizado</li></ul> |
+
 
    >[!NOTE]
    >
    >Si selecciona **[!UICONTROL Elementos]**/ **[!UICONTROL Medios con atributos similares]**, tendrá la opción de establecer [reglas de similitud de contenido](#similarity).
 
-## Fuente de datos {#data-source}
+1. Si es necesario, seleccione un **Atributo de elemento** y **Atributo de perfil para que coincida**, una **Clave de recomendación**, **Clave de filtrado** y/o **Métrica de análisis** para configurar el algoritmo.
 
-1. Establezca el **[!UICONTROL Intervalo de fechas]** para determinar el intervalo de fechas del historial de datos de comportamiento del usuario, para usarlo cuando determine qué recomendaciones mostrar.
+Para obtener más información sobre cómo elegir una clave de recomendación, consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
-   ![Regulador de rango de datos](/help/c-recommendations/c-algorithms/assets/data-range.png)
+## [!UICONTROL Fuente de datos] {#data-source}
 
-   Si el sitio tiene mucho tráfico y los comportamientos cambian con frecuencia, elija un período de datos más breve. Un periodo más breve permite a [!DNL Recommendations]responder mejor a los cambios del mercado y de su empresa. Por ejemplo, un periodo breve significa que [!DNL Recommendations]detectará cambios en el comportamiento de los visitantes a medida que estos comiencen a realizar compras de temporada, como las compras de vuelta al colegio o las compras navideñas, y recomendará artículos apropiados para esas temporadas.
-
-   Si no dispone de muchos datos o el comportamiento de los visitantes no cambia con frecuencia, puede elegir un período de tiempo más largo. Sin embargo, para muchos sitios, un período más corto permite ofrecer mejores recomendaciones.
-
-   Los intervalos de fechas que hay disponibles son:
-
-   * Dos días
-   * Una semana
-   * Dos semanas
-   * Un mes
-   * Dos meses
-
-1. (Condicional) Seleccione la **[!UICONTROL Fuente de datos de comportamiento]** que desee: [!UICONTROL mboxes] o [!UICONTROL Analytics].
+1. Seleccione la **[!UICONTROL Fuente de datos de comportamiento]** que desee: [!UICONTROL Adobe Target] o [!UICONTROL Analytics].
 
    >[!NOTE]
    >
    >La sección [!UICONTROL Fuente de datos de comportamiento] solo se muestra si la implementación utiliza [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 
-   ![Sección de fuentes de datos de comportamiento](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
+   ![Sección de fuentes de datos de comportamiento](assets/data-source.png)
 
    Si elige [!UICONTROL Analytics], seleccione el grupo de informes deseado.
 
@@ -116,11 +110,31 @@ Los siguientes pasos suponen que accede a la pantalla [!UICONTROL Crear nuevo cr
 
    Para obtener más información, consulte [Uso de Adobe Analytics con Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-## Contenido {#content}
+1. Establezca la **[!UICONTROL Ventana de retrospectiva]** para determinar el intervalo de tiempo de los datos de comportamiento del usuario históricos disponibles que se utilizarán al determinar qué recomendaciones mostrar. Esta opción está disponible para todos los algoritmos, a excepción de los elementos con atributos similares y algoritmos personalizados.
 
-Las reglas de contenido determinan lo que sucede si el número de artículos recomendados no rellena el [diseño de recomendaciones](/help/c-recommendations/c-design-overview/design-overview.md). Es posible que algunos criterios de [!DNL Recommendations] devuelvan menos recomendaciones que las que exige el diseño. Por ejemplo, si el diseño tiene espacios para cuatro artículos, pero los criterios hacen que solo se recomienden dos artículos, puede dejar vacíos los espacios restantes, o puede usar recomendaciones de copia de seguridad para rellenar los espacios adicionales.
+   ![Control deslizante de la ventana retrospectiva](assets/data-range.png)
 
-![Sección de contenido](/help/c-recommendations/c-algorithms/assets/content.png)
+   Si el sitio tiene mucho tráfico y los comportamientos cambian con frecuencia, elija un período de datos más breve. Un periodo más breve permite a [!DNL Recommendations]responder mejor a los cambios del mercado y de su empresa. Por ejemplo, un periodo breve significa que [!DNL Recommendations]detectará cambios en el comportamiento de los visitantes a medida que estos comiencen a realizar compras de temporada, como las compras de vuelta al colegio o las compras navideñas, y recomendará artículos apropiados para esas temporadas.
+
+   Si no dispone de muchos datos o el comportamiento de los visitantes no cambia con frecuencia, puede elegir un período de tiempo más largo. Sin embargo, para muchos sitios, un periodo más breve resulta en recomendaciones de mayor calidad.
+
+   Los intervalos de fechas que hay disponibles son:
+
+   | Opción Ventana retroactiva | Frecuencia actualizada (se muestra al pasar el ratón) | Algoritmos admitidos |
+   | --- | --- | --- |
+   | Seis horas | El algoritmo se ejecuta cada 3-6 horas | [!UICONTROL Algoritmos ] basados en popularidad cuando se selecciona la fuente de datos  [!UICONTROL de ] comportamiento  [!DNL Adobe Target] |
+   | Un día | El algoritmo se ejecuta cada 12-24 horas | [!UICONTROL Algoritmos ] de popularidad |
+   | Dos días | El algoritmo se ejecuta cada 12-24 horas | <ul><li>[!UICONTROL Algoritmos ] de popularidad</li><li>[!UICONTROL Algoritmos ] basados en elementos</li><li>[!UICONTROL Algoritmos ] basados en el usuario</li><li>[!UICONTROL Algoritmos ] basados en el carro de compras</li></ul> |
+   | Una semana | El algoritmo se ejecuta cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] de popularidad</li><li>[!UICONTROL Algoritmos ] basados en elementos</li><li>[!UICONTROL Algoritmos ] basados en el usuario</li><li>[!UICONTROL Algoritmos ] basados en el carro de compras</li></ul> |
+   | Dos semanas | El algoritmo se ejecuta cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] de popularidad</li><li>[!UICONTROL Algoritmos ] basados en elementos</li><li>Todos los algoritmos [!UICONTROL basados en el usuario]</li><li>[!UICONTROL Algoritmos ] basados en el carro de compras</li></ul> |
+   | Un mes (30 días) | El algoritmo se ejecuta cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] de popularidad</li><li>[!UICONTROL Algoritmos ] basados en elementos</li><li>[!UICONTROL Algoritmos ] basados en el usuario</li><li>[!UICONTROL Algoritmos ] basados en el carro de compras</li></ul> |
+   | Dos meses (61 días) | El algoritmo se ejecuta cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] de popularidad</li><li>[!UICONTROL Algoritmos ] basados en elementos</li><li>[!UICONTROL Algoritmos ] basados en el usuario</li><li>[!UICONTROL Algoritmos ] basados en el carro de compras</li></ul> |
+
+## [!UICONTROL Contenido de copia de seguridad] {#content}
+
+[!UICONTROL Las reglas de ] contenido de copia de seguridad determinan qué sucede si el número de artículos recomendados no completa el diseño [ de las ](/help/c-recommendations/c-design-overview/design-overview.md)recomendaciones. Es posible que algunos criterios de [!DNL Recommendations] devuelvan menos recomendaciones que las que exige el diseño. Por ejemplo, si el diseño tiene espacios para cuatro artículos, pero los criterios hacen que solo se recomienden dos artículos, puede dejar vacíos los espacios restantes, puede usar recomendaciones de copia de seguridad para rellenar los espacios adicionales o puede optar por no mostrar ninguna recomendación.
+
+![Sección de contenido](assets/content.png)
 
 1. (Opcional) Deslice el botón **[!UICONTROL Representación parcial de diseño]** hasta la posición &quot;activada&quot;.
 
@@ -128,7 +142,7 @@ Las reglas de contenido determinan lo que sucede si el número de artículos rec
 
    Active esta opción si desea que las recomendaciones se proporcionen con espacios en blanco. Utilice las recomendaciones de copia de seguridad si desea que las ranuras de recomendación se llenen de contenido según sus criterios con espacios vacíos llenos de contenido similar o popular de su sitio, como se explica en el paso siguiente.
 
-1. (Opcional) Deslice el conmutador **[!UICONTROL Mostrar copia de seguridad de Recommendations]** a la posición &quot;activada&quot;.
+1. (Opcional) Deslice el conmutador **[!UICONTROL Mostrar contenido de copia de seguridad]** a la posición &quot;activada&quot;.
 
    Rellene los espacios vacíos restantes del diseño con una selección aleatoria de los productos más vistos de su sitio.
 
@@ -138,9 +152,9 @@ Las reglas de contenido determinan lo que sucede si el número de artículos rec
 
    Supongamos que los criterios hacen que solo se recomienden dos artículos. Si activa la opción [!UICONTROL Representación parcial de diseño], se rellenarán las dos primeras ranuras, pero las dos ranuras restantes permanecerán vacías. Sin embargo, si habilita la opción [!UICONTROL Mostrar copia de seguridad de Recommendations] , las dos primeras ranuras se rellenarán según los criterios especificados y las dos ranuras restantes se rellenarán según las recomendaciones de copia de seguridad.
 
-   La siguiente matriz muestra el resultado que observará al utilizar las opciones [!UICONTROL Representación de diseño parcial] y [!UICONTROL Copia de seguridad de Recommendations]:
+   La siguiente matriz muestra el resultado que observará al utilizar las opciones [!UICONTROL Representación de diseño parcial] y [!UICONTROL Contenido de copia de seguridad]:
 
-   | Procesamiento de diseño parcial | Recomendaciones de copia de seguridad | Resultado |
+   | Procesamiento de diseño parcial | Contenido de copia de seguridad | Resultado |
    |--- |--- |--- |
    | Deshabilitado | Deshabilitado | Si se devuelven menos recomendaciones que las que llama el diseño, el diseño de recomendaciones se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
    | Habilitado | Deshabilitado | Se procesa el diseño, pero puede incluir espacio en blanco si se devuelven menos recomendaciones que las que llama el diseño. |
@@ -149,7 +163,7 @@ Las reglas de contenido determinan lo que sucede si el número de artículos rec
 
    Para obtener más información, consulte [Usar una recomendación de copia de seguridad](/help/c-recommendations/c-algorithms/backup-recs.md).
 
-1. (Condicional) Si seleccionó **[!UICONTROL Mostrar copia de seguridad de Recommendations]** en el paso anterior, puede habilitar **[!UICONTROL Aplicar reglas de inclusión a las recomendaciones de copia de seguridad]**.
+1. (Condicional) Si seleccionó **[!UICONTROL Mostrar contenido de copia de seguridad]** en el paso anterior, puede habilitar **[!UICONTROL Aplicar reglas de inclusión a recomendaciones de copia de seguridad]**.
 
    Las reglas de inclusión determinan qué artículos se incluyen en las recomendaciones. Las opciones disponibles dependen del sector.
 
@@ -165,13 +179,13 @@ Use reglas de [!UICONTROL similitud de contenido] para hacer recomendaciones seg
 
 >[!NOTE]
 >
->Si ha seleccionado **[!UICONTROL Elementos]**/ **[!UICONTROL Medios con atributos similares]** como [lógica de recomendación](#info), tendrá la opción de establecer reglas de contenido similares.
+>Si ha seleccionado **[!UICONTROL Medios basados en elementos]**/ **[!UICONTROL con atributos similares]** como Tipo y algoritmo de algoritmo, tiene la opción de establecer reglas de similitud de contenido.
 
 La similitud de contenido compara palabras clave de los atributos de los artículos y realiza recomendaciones basándose en la cantidad de palabras clave que los artículos tienen en común. Las recomendaciones que se basan en la similitud de contenido no requieren información anterior para ofrecer buenos resultados.
 
 Resulta especialmente eficaz usar la similitud de contenido para generar recomendaciones en los artículos nuevos, ya que es poco probable que estos aparezcan en las recomendaciones usando *Otras personas que vieron esto también vieron* y otras lógicas basadas en el comportamiento anterior. También puede utilizar la similitud de contenido si quiere generar recomendaciones útiles para los nuevos visitantes, que no han hecho ninguna compra ni tienen datos históricos.
 
-Al seleccionar **[!UICONTROL Artículos]**/**[!UICONTROL Medios con atributos similares]**, tiene la opción de crear reglas para aumentar o reducir la importancia que ciertos atributos de artículo tienen a la hora de determinar las recomendaciones. En el caso de artículos como libros, puede aumentar la importancia de atributos como el *género*, el *autor* o la *serie* para recomendar libros parecidos.
+Al seleccionar **[!UICONTROL Medios basados en elementos]**/ **[!UICONTROL Medios con atributos similares]**, tiene la opción de crear reglas para aumentar o reducir la importancia de atributos de elementos específicos a la hora de determinar las recomendaciones. En el caso de artículos como libros, puede aumentar la importancia de atributos como el *género*, el *autor* o la *serie* para recomendar libros parecidos.
 
 ![](assets/ContentSimilarity.png)
 
