@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
+source-git-commit: 8f5e2c5025dc4b9caf31f51c03fb073ddd9ba756
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 84%
+source-wordcount: '513'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 4 de octubre de 2021**
+**Última actualización: 6 de octubre de 2021**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -31,8 +31,10 @@ Esta versión incluye las siguientes nuevas funciones:
 
 | Función | Detalles |
 | --- | --- |
-| Actualización de la interfaz de usuario de las audiencias | Estamos reescribiendo gradualmente toda la IU de [!DNL Target] mediante un nuevo stack tecnológico para poder ofrecer un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La sección [Administration](/help/administrating-target/administrating-target.md) se actualizó en 2020. La sección [!UICONTROL Audiencias] es la segunda actualización importante de la interfaz de usuario. |
-| ![Distintivo Premium ](/help/assets/premium.png) Recomendaciones Criterios de creación y edición | El flujo de trabajo de creación y edición de [!UICONTROL Recommendations Criteria] se ha optimizado para simplificar la elección del algoritmo y la configuración de recomendaciones adecuados para lograr sus objetivos. |
+|  Actualización de audiencias en la interfaz de usuario | Como parte del esfuerzo continuo del equipo [!DNL Adobe Target] para mejorar la experiencia del usuario para los usuarios de [!DNL Target], esta versión actualiza las páginas [!UICONTROL Audiencias] y [!UICONTROL Scripts de perfil] en la interfaz de usuario de [!DNL Target]. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que agrega nuevas mejoras, como:<ul><li>La capacidad de seleccionar y eliminar varias audiencias simultáneamente</li><li>Un [diseño actualizado del generador de audiencias](/help/c-target/c-audiences/create-audience.md)</li><li>Compatibilidad con reglas de exclusión en el [!UICONTROL Audience] generador de reglas de la biblioteca</li><li>Un nuevo filtro &quot;Fuente de audiencia&quot; que permite una detección de audiencias más rápida</li><li>Opciones de filtro y búsqueda persistentes de sesión</li></ul>Para obtener más información, consulte [Audiencias](/help/c-target/target.md).<br>**Nota**: Esta actualización de la interfaz de usuario solo afecta a los clientes de la región EMEA. Los clientes de otras partes del mundo, incluida Norteamérica, verán la interfaz de usuario actualizada la próxima semana. |
+| [!UICONTROL Actualización de la interfaz de usuario de ] scripts de perfil | La biblioteca [!UICONTROL Scripts de perfil] también se actualizó e incluye una interfaz actualizada y varias actualizaciones de productividad:<ul><li>La capacidad de seleccionar y eliminar varios scripts de perfil simultáneamente</li><li>Un nuevo editor de código para scripts de perfil</li><li>Resaltado de sintaxis y comprobación de errores dentro del editor de código</li><li>Completar automáticamente los parámetros de tokens (mbox o perfil) mediante métodos abreviados del teclado</li></ul>Para obtener más información, consulte [Perfiles del visitante](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**Nota**: Esta actualización de la interfaz de usuario solo afecta a los clientes de la región EMEA. Los clientes de otras partes del mundo, incluida Norteamérica, verán la interfaz de usuario actualizada la próxima semana. |
+| ![Distintivo PremiumCriterios de Recommendations crear y editar ](/help/assets/premium.png)  | El flujo de trabajo de creación y edición de [!UICONTROL Recommendations Criteria] se ha optimizado para simplificar la elección del algoritmo de recomendaciones y la configuración adecuados para lograr sus objetivos.<br>Para obtener más información, consulte  [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Distintivo PremiumVentana retrospectiva de Recommendations y mejoras en la velocidad de actualización del algoritmo ](/help/assets/premium.png)  | Ahora puede ejecutar los algoritmos &quot;Más visitados&quot; y &quot;Principales vendedores&quot; con una ventana retrospectiva de seis horas para capturar el contenido que es más reciente en la tendencia. Cuando se selecciona la ventana retrospectiva de seis horas, los resultados de las recomendaciones se actualizan cada 3-6 horas a lo largo del día.<br>Para obtener más información, consulte  [Fuente ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) de datos en  *Crear criterios*. |
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
