@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: 088912db2bd404978ec1403144779b0b87ba95f1
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2741'
 ht-degree: 91%
 
 ---
@@ -19,7 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 6 de octubre | [Crear audiencias en [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Se han actualizado el texto y las imágenes para reflejar la [!DNL Target] [!UICONTROL Audiences] IU actualizada. Se han realizado cambios similares en los temas [!UICONTROL Audiencias]. |
+| 11 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Added information about the Target Standard/Premium 21.10.2 release (October 13, 2021). |
+| 6 de octubre | [Crear audiencias en [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Se han actualizado el texto y las imágenes para reflejar la [!DNL Target] [!UICONTROL Audiences] IU actualizada. Similar changes have been made throughout the [!UICONTROL Audiences] topics. |
 |  | [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Se han actualizado las siguientes secciones:<ul><li>Información básica </li><li>Fuente de datos</li></ul> |
 |  | [Cargar criterios personalizados](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Se han actualizado las instrucciones para reflejar el nuevo flujo de trabajo. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.10.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
@@ -28,7 +29,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 4 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de la versión de Target Standard/Premium 21.10.1 (6 de octubre de 2021). |
+| 4 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Updated prerelease notes for the Target Standard/Premium 21.10.1 release (October 6, 2021). |
 | 30 de septiembre | Enviar información de actividad a [!DNL Adobe Analytics] | Se ha eliminado todo el tema porque los pasos descritos ya no son necesarios para enviar la información de actividad de la aplicación móvil [!DNL Target] a [!DNL Analytics] para la segmentación post hoc. |
 |  | [Alza promedio, límites de alza e intervalo de confianza](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Se ha añadido un archivo pdf para explicar cómo se calcula el intervalo de confianza para el alza. |
 |  | [Configuración de permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Se ha cambiado `targetPageParams` a `targetPageParamsAll` en &quot;Paso 5 Actualice la implementación para incluir el parámetro `at_property`&quot;. |
