@@ -5,10 +5,10 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bd7032b915bf1b333fa5cc3cb4825eaa7e4f83fb
+source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 59%
+source-wordcount: '816'
+ht-degree: 50%
 
 ---
 
@@ -24,14 +24,46 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
+## [!DNL Target Standard/Premium] 21.10.2 (13 de octubre de 2021)
+
+Se han añadido las siguientes mejoras al utilizar [!DNL Target] [!UICONTROL Audiencias] con [!DNL Adobe Experience Platform Web SDK]:
+
+* Se han añadido iconos, programas y mensajes de advertencia en varios lugares de la interfaz de usuario de [!DNL Target] para indicar que la audiencia se eliminó en el origen y ya no está disponible para su uso en actividades de [!DNL Target].
+
+   En las ilustraciones siguientes se muestran algunos de los lugares que muestran los iconos, los botones y los mensajes:
+
+   *  Página lista de actividades
+
+      ![Audiencia eliminada en el mensaje de origen en la página de lista de actividades](assets/deleted-at-source-audiences-list.png)
+
+   * Páginas [!UICONTROL Información general] de actividad:
+
+      ![Audiencia eliminada en el mensaje de origen en la página de información general](assets/deleted-at-source-overview.png)
+
+   *  Paso de las experiencias del flujo de trabajo de creación de actividades:
+
+      ![Audiencia eliminada en el mensaje de origen en la página de   experiencias](assets/deleted-at-source-experiences.png)
+
+   *  Paso de segmentación del flujo de trabajo de creación de actividades:
+
+      ![Audiencia eliminada en el mensaje de origen en la   página de segmentación](assets/deleted-at-source-targeting.png)
+
+   * [!UICONTROL Objetivos y ] configuración, paso del flujo de trabajo de creación de actividades:
+
+      ![Audiencia eliminada en el mensaje de origen en el  [!UICONTROL paquete Objetivos y ] configuración](assets/deleted-at-source-goals-settings.png)
+
+   * Mejoras de audiencia ([!UICONTROL Reemplazar audiencia] en el paso [!UICONTROL Segmentación] del flujo de trabajo de creación de actividades):
+
+* Si intenta usar la función Combinar audiencias y se eliminó una de las audiencias en el origen, [!UICONTROL Guardar] se deshabilitará.
+
 ## [!DNL Target Standard/Premium] 21.10.1 (6 de octubre de 2021)
 
 Esta versión incluye las siguientes nuevas funciones:
 
 | Función | Detalles |
 | --- | --- |
-|  Actualización de audiencias en la interfaz de usuario | Como parte del esfuerzo continuo del equipo [!DNL Adobe Target] para mejorar la experiencia del usuario para los usuarios de [!DNL Target], esta versión actualiza las páginas [!UICONTROL Audiencias] y [!UICONTROL Scripts de perfil] en la interfaz de usuario de [!DNL Target]. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que agrega nuevas mejoras, como:<ul><li>La capacidad de seleccionar y eliminar varias audiencias simultáneamente</li><li>Un [diseño actualizado del generador de audiencias](/help/c-target/c-audiences/create-audience.md)</li><li>Compatibilidad con reglas de exclusión en el [!UICONTROL Audience] generador de reglas de la biblioteca</li><li>Un nuevo filtro &quot;Fuente de audiencia&quot; que permite una detección de audiencias más rápida</li><li>Opciones de filtro y búsqueda persistentes de sesión</li></ul>Para obtener más información, consulte [Audiencias](/help/c-target/target.md).<br>**Nota**: La nueva interfaz de usuario de   Audiencias y  [!UICONTROL Scripts de ] perfil se implementará en todas las regiones la próxima semana. |
-| [!UICONTROL Actualización de la interfaz de usuario de ] scripts de perfil | La biblioteca [!UICONTROL Scripts de perfil] también se actualizó e incluye una interfaz actualizada y varias actualizaciones de productividad:<ul><li>La capacidad de seleccionar y eliminar varios scripts de perfil simultáneamente</li><li>Un nuevo editor de código para scripts de perfil</li><li>Resaltado de sintaxis y comprobación de errores dentro del editor de código</li><li>Completar automáticamente los parámetros de tokens (mbox o perfil) mediante métodos abreviados del teclado</li></ul>Para obtener más información, consulte [Perfiles del visitante](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**Nota**: La nueva interfaz de usuario de   Audiencias y  [!UICONTROL Scripts de ] perfil se implementará en todas las regiones la próxima semana. |
+|  Actualización de audiencias en la interfaz de usuario | Como parte del esfuerzo continuo del equipo [!DNL Adobe Target] para mejorar la experiencia del usuario para los usuarios de [!DNL Target], esta versión actualiza las páginas [!UICONTROL Audiencias] y [!UICONTROL Scripts de perfil] en la interfaz de usuario de [!DNL Target]. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que agrega nuevas mejoras, como:<ul><li>La capacidad de seleccionar y eliminar varias audiencias simultáneamente</li><li>Un [diseño actualizado del generador de audiencias](/help/c-target/c-audiences/create-audience.md)</li><li>Compatibilidad con reglas de exclusión en el [!UICONTROL Audience] generador de reglas de la biblioteca</li><li>Un nuevo filtro &quot;Fuente de audiencia&quot; que permite una detección de audiencias más rápida</li><li>Opciones de filtro y búsqueda persistentes de sesión</li></ul>Para obtener más información, consulte [Audiencias](/help/c-target/target.md). |
+| [!UICONTROL Actualización de la interfaz de usuario de ] scripts de perfil | La biblioteca [!UICONTROL Scripts de perfil] también se actualizó e incluye una interfaz actualizada y varias actualizaciones de productividad:<ul><li>La capacidad de seleccionar y eliminar varios scripts de perfil simultáneamente</li><li>Un nuevo editor de código para scripts de perfil</li><li>Resaltado de sintaxis y comprobación de errores dentro del editor de código</li><li>Completar automáticamente los parámetros de tokens (mbox o perfil) mediante métodos abreviados del teclado</li></ul>Para obtener más información, consulte [Perfiles del visitante](/help/c-target/c-visitor-profile/visitor-profile.md). |
 | ![Distintivo PremiumCriterios de Recommendations crear y editar ](/help/assets/premium.png)  | El flujo de trabajo de creación y edición de [!UICONTROL Recommendations Criteria] se ha optimizado para simplificar la elección del algoritmo de recomendaciones y la configuración adecuados para lograr sus objetivos.<br>Para obtener más información, consulte  [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Distintivo PremiumVentana retrospectiva de Recommendations y mejoras en la velocidad de actualización del algoritmo ](/help/assets/premium.png)  | Ahora puede ejecutar los algoritmos &quot;Más visitados&quot; y &quot;Principales vendedores&quot; con una ventana retrospectiva de seis horas para capturar el contenido que es más reciente en la tendencia. Cuando se selecciona la ventana retrospectiva de seis horas, los resultados de las recomendaciones se actualizan cada 3-6 horas a lo largo del día.<br>Para obtener más información, consulte  [Fuente ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) de datos en  *Crear criterios*. |
 
