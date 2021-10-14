@@ -4,11 +4,10 @@ description: Encuentre respuestas a preguntas sobre la configuración de activid
 title: ¿Dónde puedo encontrar preguntas más frecuentes sobre la configuración de actividades con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 25%
+source-wordcount: '553'
+ht-degree: 22%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 25%
 
 En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la configuración de actividades y el uso de [!DNL Analytics] como fuente de informes para [!DNL Target] (A4T).
 
-## ¿Qué tipos de actividades son compatibles con Analytics como fuente de informes (A4T)?{#section_5E4F58CD25A5424E869E6FE0803968EF}
+## ¿Qué tipos de actividades son compatibles con Analytics como fuente de informes (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 Para obtener una lista completa, consulte “Tipos de actividades compatibles” en [Adobe Analytics como Fuente de informes para Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
@@ -28,7 +27,7 @@ Para obtener más información, consulte &quot;Al configurar las métricas de ob
 
 ## Acabo de crear una actividad. ¿Por qué no entran datos? {#section_9F8092BE4225442896F926540292F221}
 
-Cuando se crea una actividad, [!DNL Target] envía un archivo de clasificación a [!DNL Analytics]. Aunque [!DNL Analytics] está capturando y procesando los datos, no lo muestra en los informes hasta que se actualiza el archivo de clasificación. Este proceso puede tardar hasta 24 horas. Si al cabo de 48 horas no ve los datos, [contacte con ClientCare](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Alternativamente, si sabe que va a iniciar una actividad, puede crearla con unos días de antelación y las clasificaciones se envían cuando se guarda la actividad. De este modo, aparecerán datos en el informe en cuanto se inicie la actividad. Tenga en cuenta que los datos tardan entre 45 y 90 minutos en procesarse en [!DNL Analytics].
+Cuando se crea una actividad, [!DNL Target] envía un archivo de clasificación a [!DNL Analytics]. Aunque [!DNL Analytics] está capturando y procesando los datos, no lo muestra en los informes hasta que se actualiza el archivo de clasificación. Este proceso puede tardar hasta 24 horas. Si al cabo de 48 horas no ve los datos, [contacte con ClientCare](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Alternativamente, si sabe que inicia una actividad, puede crearla con unos días de antelación y las clasificaciones se envían cuando se guarda la actividad. De este modo, aparecerán datos en el informe en cuanto se inicie la actividad. Tenga en cuenta que los datos tardan entre 45 y 90 minutos en procesarse en [!DNL Analytics].
 
 ## ¿Por qué no puedo seleccionar Analytics como fuente de informes cuando creo una actividad? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
@@ -53,3 +52,8 @@ Si los porcentajes no se ajustan a mitad de la actividad, un visitante que vea i
 
 * Después de estar en el &quot;bloque&quot; de tráfico segmentado, el visitante puede ser enviado a una experiencia diferente de la visita a la visita si los modelos de aprendizaje automático determinan que una experiencia diferente es relevante para la nueva visita.
 * Después de asignarse al &quot;bloque&quot; de tráfico de control, un visitante siempre verá la misma experiencia, ya que la asignación de experiencias se basa en un hash pseudoaleatorio determinístico del visitorId.
+
+
+## ¿Puedo usar una métrica binomial [!DNL Analytics] con un segmento aplicado como objetivo de optimización en una actividad [!UICONTROL de asignación automática]? {#binomial}
+
+No puede utilizar una métrica [!DNL Analytics] con un segmento aplicado como objetivo de optimización en una actividad [!UICONTROL de asignación automática]. Como solución alternativa, puede definir un Evento personalizado que alcance el mismo objetivo y usarlo como métrica de optimización de objetivos.
