@@ -4,9 +4,9 @@ description: Aprenda a crear audiencias en [!DNL Adobe Target] para dirigirse a 
 title: ¿Puedo segmentar visitantes en función de las opciones móviles?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: 05619301a4cd145d07abb4bf5fbe9fd44bb3d65f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ El destino para móviles se ofrece a través de [DeviceAtlas](https://deviceatla
 
 La detección de dispositivos se efectúa analizando las cadenas User-Agent. Algunos fabricantes de dispositivos, como Apple, proporcionan poca información en las UA para deshabilitar esta funcionalidad.
 
-Por ejemplo, los dispositivos Apple no comparten en las UA tokens específicos sobre el modelo de dispositivo. El resultado es que no es posible detectar modelos de iPhone (como iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, etc.) utilizando un simple método basado en palabras clave.
+Por ejemplo, los dispositivos Apple no comparten en las UA tokens específicos sobre el modelo de dispositivo. El resultado es que no es posible detectar modelos de iPhone (como iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, etc.) utilizando un método sencillo basado en palabras clave.
 
 Para resolver este problema, [!DNL Target] recopila datos adicionales para detectar con precisión los iPhone y otros dispositivos Apple mediante los siguientes parámetros:
 
@@ -71,13 +71,13 @@ Tenga en cuenta la siguiente información al segmentar dispositivos móviles:
 
 ### Dispositivos de destino que ejecutan iOS 12.2 o posterior
 
-Debido a los nuevos cambios introducidos en iOS 12.2, la creación de una audiencia con reglas definidas por [!UICONTROL Nombre de marketing del dispositivo] y [!UICONTROL Modelo de dispositivo] que especifique modelos de iPhone se ve afectada. [!DNL Target] ya no puede segmentar usuarios que tengan iPhone con iOS 12.2 (o posterior) instalado en ellos. Sin embargo, si esos usuarios no tienen iOS 12.2 (o posterior), la segmentación del modelo iPhone seguirá funcionando correctamente.
+Debido a los nuevos cambios introducidos en iOS 12.2, la creación de una audiencia con reglas definidas por [!UICONTROL Device Marketing Name] y [!UICONTROL Device Model] que especifique los modelos de iPhone se ve afectada. [!DNL Target] ya no puede segmentar usuarios que tengan iPhone con iOS 12.2 (o posterior) instalado en ellos. Sin embargo, si esos usuarios no tienen iOS 12.2 (o posterior), la segmentación del modelo de iPhone seguirá funcionando correctamente.
 
-La actualización de iOS 12.2 (o posterior) no afecta a la identificación de los siguientes modelos, ya que estos no admiten la actualización a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / pantalla Retina, iPad Retina (4ª generación), iPod Touch 4 y iPod Touch 5.
+La actualización de iOS 12.2 (o posterior) no afecta a la identificación de los siguientes modelos, ya que estos no admiten la actualización a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, pantalla iPad/Retina, iPad Retina (4ª generación), iPod Touch 4 y iPod Touch 5.
 
 ### Dispositivos de destino que ejecutan Safari 14.0.2 (o posterior)
 
-Cuando se utilizan reglas móviles para dirigirse a dispositivos que ejecutan Safari versión 14.0.2 (o posterior) en macOS, debido a un problema conocido que implica a agentes de usuario de Apple y DeviceAtlas, [!DNL Target] identifica incorrectamente Safari en dispositivos Mac como versión de iPad. Esta cuestión se abordará en el futuro.
+Cuando se utilizan reglas móviles para dirigirse a dispositivos que ejecutan Safari versión 14.0.2 (o posterior) en macOS, debido a un problema conocido que implica a agentes de usuario y DeviceAtlas de Apple, [!DNL Target] identifica incorrectamente Safari en dispositivos Mac y iPad. Esta cuestión se abordará en el futuro.
 
 ## Vídeo de formación: Creación de audiencias
 
