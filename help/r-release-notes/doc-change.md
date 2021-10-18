@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2789'
 ht-degree: 90%
 
 ---
@@ -19,10 +19,11 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 14 de octubre | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Se ha añadido la siguiente pregunta frecuente: &quot;¿Puedo utilizar una métrica binomial [!DNL Analytics] con un segmento aplicado como objetivo de optimización en una actividad [!UICONTROL de asignación automática]?&quot; |
-| 13 de octubre | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.10.2 | Se ha añadido información sobre la versión [!DNL Target Standard/Premium] 21.10.2 (13 de octubre de 2021). |
+| 19 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] Versión 21.10.3 (19 de octubre de 2021). |
+| 14 de octubre | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Se ha añadido la siguiente pregunta frecuente: &quot;¿Puedo usar un binomial? [!DNL Analytics] métrica con un segmento aplicado como objetivo de optimización en una [!UICONTROL Asignación automática] actividad?&quot; |
+| 13 de octubre | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.10.2 | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] Versión 21.10.2 (13 de octubre de 2021). |
 | 11 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión de Target Standard/Premium 21.10.2 (13 de octubre de 2021). |
-| 6 de octubre | [Crear audiencias en [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Se han actualizado el texto y las imágenes para reflejar la [!DNL Target] [!UICONTROL Audiences] IU actualizada. Se han realizado cambios similares en los temas [!UICONTROL Audiencias]. |
+| 6 de octubre | [Crear audiencias en [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Se han actualizado el texto y las imágenes para reflejar la actualización [!DNL Target] [!UICONTROL Audiencias] IU. Se han realizado cambios similares en todo el [!UICONTROL Audiencias] temas. |
 |  | [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Se han actualizado las siguientes secciones:<ul><li>Información básica </li><li>Fuente de datos</li></ul> |
 |  | [Cargar criterios personalizados](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Se han actualizado las instrucciones para reflejar el nuevo flujo de trabajo. |
 |  | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.10.1 | Esta versión incluye mejoras y correcciones. Puede leer al respecto y consultar la documentación desde las Notas de la versión. Esta versión incorpora muchas actualizaciones de documentación en la ayuda. |
@@ -32,14 +33,14 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 4 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de la versión de Target Standard/Premium 21.10.1 (6 de octubre de 2021). |
-| 30 de septiembre | Enviar información de actividad a [!DNL Adobe Analytics] | Se ha eliminado todo el tema porque los pasos descritos ya no son necesarios para enviar la información de actividad de la aplicación móvil [!DNL Target] a [!DNL Analytics] para la segmentación post hoc. |
+| 30 de septiembre | Enviar información de actividad a [!DNL Adobe Analytics] | Se ha eliminado todo el tema porque los pasos descritos ya no son necesarios para enviar [!DNL Target] información de actividad de aplicación móvil a [!DNL Analytics] para la segmentación post-hoc. |
 |  | [Alza promedio, límites de alza e intervalo de confianza](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Se ha añadido un archivo pdf para explicar cómo se calcula el intervalo de confianza para el alza. |
-|  | [Configuración de permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Se ha cambiado `targetPageParams` a `targetPageParamsAll` en &quot;Paso 5 Actualice la implementación para incluir el parámetro `at_property`&quot;. |
+|  | [Configuración de permisos de Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Modificado `targetPageParams` a `targetPageParamsAll` en el paso 5, actualice la implementación para incluir el `at_property` parámetro&quot;. |
 | 27 de septiembre | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad<ul><li>Miércoles, 13 de octubre de 2021</li><li>08:00 a. m. (PDT, UTC -7)</li></ul></li></ul> |
-| 22 de septiembre | [Personalización de un diseño mediante Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Se ha cambiado `$Double` a `$double` en ejemplos de código para evitar posibles ambigüedades. |
-|  | [Preguntas más frecuentes sobre diseño](/help/c-recommendations/c-design-overview/template-faq.md) | Se ha actualizado la pregunta frecuente siguiente:<ul><li>¿Puedo usar un script de perfil en un diseño [!DNL Recommendations]?</li></ul> |
+| 22 de septiembre | [Personalización de un diseño mediante Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modificado `$Double` a `$double` en muestras de código para evitar posibles ambigüedades. |
+|  | [Preguntas más frecuentes sobre diseño](/help/c-recommendations/c-design-overview/template-faq.md) | Se ha actualizado la pregunta frecuente siguiente:<ul><li>¿Puedo utilizar un script de perfil en un [!DNL Recommendations] diseño?</li></ul> |
 |  | [Rastreo de clics](/help/c-activities/r-success-metrics/click-tracking.md) | Se agregaron las siguientes consideraciones:<ul><li>Las métricas de seguimiento de clics no están vinculadas a ninguna experiencia específica de una actividad.</li><li>Utilice audiencias si es necesario restringir el alcance de las métricas de rastreo de clics.</li><li>Varias actividades pueden definir una métrica de rastreo de clics para el mismo selector. Si es así, cuando un visitante cumple los requisitos para una de esas actividades y hace clic en ese selector, la métrica rastreo de clics aumenta para todas las actividades asociadas para las que el visitante cumple los requisitos.</li></ul> |
-|  | [Implementación  [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Se ha añadido una nota en la sección &quot;Ventajas de implementar at.js con la extensión [!DNL Target]&quot;. |
+|  | [Implementación  [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Se ha añadido una nota en &quot;Ventajas de implementar at.js mediante el uso de [!DNL Target] extensión&quot;. |
 |  | [Sincronización de perfiles en tiempo real para mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Se ha actualizado la sección &quot;Consideraciones&quot; con nueva información. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Se ha actualizado la sección &quot;secureOnly&quot;. |
 |  | [Preguntas más frecuentes de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | Se ha actualizado la siguiente pregunta frecuente: &quot;¿Por qué at.js no siempre utiliza los indicadores de cookies HttpOnly y Secure?&quot; |
@@ -49,7 +50,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 14 de septiembre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión [!DNL Target Standard/Premium] 21.9.1 (14 de septiembre de 2021). |
+| 14 de septiembre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] Versión 21.9.1 (14 de septiembre de 2021). |
 | 7 de septiembre | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Se ha actualizado la sección &quot;Consideraciones&quot; con información sobre los dispositivos de direccionamiento que ejecutan Safari 14.0.2 (o posterior). |
 |  | [Clasificaciones: Preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Se ha actualizado la información sobre `targettype` y `algorithmId`, que son identificadores internos utilizados por las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. |
 | 24 de agosto | [Implementación  [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] se ha convertido en un conjunto de tecnologías de recopilación de datos en [!DNL Adobe Experience Platform]. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. |
