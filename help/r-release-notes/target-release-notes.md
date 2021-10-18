@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 55%
+source-wordcount: '317'
+ht-degree: 67%
 
 ---
 
@@ -25,37 +25,15 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 >
 >Para evitar posibles problemas con sus sitios, migre a la versión más reciente del nuevo [!DNL Adobe Experience Platform Web SDK] o la biblioteca de JavaScript at.js. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.10.2 (13 de octubre de 2021)
+## [!DNL Target Standard/Premium] 21.10.3 (19 de octubre de 2021)
 
-Se han añadido las siguientes mejoras al utilizar [!DNL Target] [!UICONTROL Audiencias] con [!DNL Adobe Experience Platform Web SDK]:
+En esta versión de mantenimiento se incluyen las siguientes mejoras, correcciones y cambios:
 
-* Se han añadido iconos, programas y mensajes de advertencia en varios lugares de la interfaz de usuario de [!DNL Target] para indicar que la audiencia se eliminó en el origen y ya no está disponible para su uso en actividades de [!DNL Target].
-
-   En las ilustraciones siguientes se muestran algunos de los lugares que muestran los iconos, los botones y los mensajes:
-
-   *  Página lista de actividades
-
-      ![Audiencia eliminada en el mensaje de origen en la página de lista de actividades](assets/deleted-at-source-audiences-list.png)
-
-   * Páginas [!UICONTROL Información general] de actividad:
-
-      ![Audiencia eliminada en el mensaje de origen en la página de información general](assets/deleted-at-source-overview.png)
-
-   *  Paso de las experiencias del flujo de trabajo de creación de actividades:
-
-      ![Audiencia eliminada en el mensaje de origen en la página de   experiencias](assets/deleted-at-source-experiences.png)
-
-   *  Paso de segmentación del flujo de trabajo de creación de actividades:
-
-      ![Audiencia eliminada en el mensaje de origen en la   página de segmentación](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL Objetivos y ] configuración, paso del flujo de trabajo de creación de actividades:
-
-      ![Audiencia eliminada en el mensaje de origen en el  [!UICONTROL paquete Objetivos y ] configuración](assets/deleted-at-source-goals-settings.png)
-
-   * Mejoras de audiencia ([!UICONTROL Reemplazar audiencia] en el paso [!UICONTROL Segmentación] del flujo de trabajo de creación de actividades):
-
-* Si intenta usar la función Combinar audiencias y se eliminó una de las audiencias en el origen, [!UICONTROL Guardar] se deshabilitará.
+* Se han corregido problemas que evitaban que los clientes abrieran la variable [!UICONTROL A4T] panel en [!DNL Analysis Workspace] haciendo clic en el botón [!UICONTROL Ver en Analytics] botón [!DNL Target] informes de actividad. (TGT-42099, TGT-42100)
+* Se ha corregido un problema que hacía que la variable [!UICONTROL Editar diseño] botón para que no aparezca al editar [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] Actividades (XT) utilizando el [!UICONTROL Compositor de experiencias basadas en formularios]. (TGT-41980)
+* Se ha corregido un problema que impedía que la variable [!UICONTROL Compatible] casilla de verificación que aparece en la selección de criterios al crear un nuevo [!UICONTROL Recommendations] actividad. (TGT-42053)
+* Se ha corregido un mensaje de error incorrecto al no poder seleccionar [!DNL Analytics] como fuente de informes (A4T) debido a la falta de [!DNL Analytics] permisos. (TGT-41954)
+* Se han implementado varias correcciones de accesibilidad para mejorar la navegación mediante el teclado en el [!DNL Target] IU.
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
