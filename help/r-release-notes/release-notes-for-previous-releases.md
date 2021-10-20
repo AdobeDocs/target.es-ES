@@ -4,10 +4,10 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '32459'
-ht-degree: 97%
+source-wordcount: '32515'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,14 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >Consulte [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión: 2021
+
+### [!DNL Target Standard/Premium] 21.10.4 (21 de octubre de 2021)
+
+Esta versión de mantenimiento contiene las siguientes mejoras:
+
+| Función | Detalles |
+| --- | --- |
+| Recommendations basado en el carro de compras | Una nueva familia de algoritmos que ofrecen recomendaciones en función del contenido del carro de compras del visitante.<br>Para obtener más información, consulte &quot;Basado en el carro de compras&quot; en [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) y &quot;Adiciones al carro de compras/Vistas del carro de compras/Páginas de cierre de compra&quot; y &quot;Excluir elementos que ya están en el carro de compras del visitante&quot; en [Planificar e implementar Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 de octubre de 2021)
 
@@ -71,7 +79,7 @@ Esta versión incluye las siguientes nuevas funciones:
 
 | Función | Detalles |
 | --- | --- |
-| [!UICONTROL Audiencias] Actualización de la interfaz de usuario | Como parte del [!DNL Adobe Target] esfuerzo continuo del equipo para mejorar la experiencia del usuario para [!DNL Target] usuarios, esta versión actualiza el [!UICONTROL Audiencias] y [!UICONTROL Scripts de perfil] en las [!DNL Target] IU. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que agrega nuevas mejoras, como:<ul><li>La capacidad de seleccionar y eliminar varias audiencias simultáneamente</li><li>Se ha actualizado [diseño del generador de audiencias](/help/c-target/c-audiences/create-audience.md)</li><li>Compatibilidad con reglas de exclusión en la variable [!UICONTROL Audiencia] generador de reglas de biblioteca</li><li>Un nuevo filtro &quot;Fuente de audiencia&quot; que permite una detección de audiencias más rápida</li><li>Opciones de filtro y búsqueda persistentes de sesión</li></ul>Para obtener más información, consulte [Audiencias](/help/c-target/target.md).<br>**NOTA**: El nuevo [!UICONTROL Audiencias] La interfaz de usuario de se ha deshabilitado temporalmente para todos los clientes, excepto los que se encuentran actualmente en una [!DNL Target] Programa beta. Esta actualización de la interfaz de usuario se volverá a habilitar para un subconjunto de clientes el martes 19 de octubre y para el resto de clientes el jueves 21 de octubre de 2021. |
+| [!UICONTROL Actualización de la IU de las audiencias] | Como parte del [!DNL Adobe Target] esfuerzo continuo del equipo para mejorar la experiencia del usuario para [!DNL Target] usuarios, esta versión actualiza el [!UICONTROL Audiencias] y [!UICONTROL Scripts de perfil] en las [!DNL Target] IU. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que agrega nuevas mejoras, como:<ul><li>La capacidad de seleccionar y eliminar varias audiencias simultáneamente</li><li>Se ha actualizado [diseño del generador de audiencias](/help/c-target/c-audiences/create-audience.md)</li><li>Compatibilidad con reglas de exclusión en la variable [!UICONTROL Audiencia] generador de reglas de biblioteca</li><li>Un nuevo filtro &quot;Fuente de audiencia&quot; que permite una detección de audiencias más rápida</li><li>Opciones de filtro y búsqueda persistentes de sesión</li></ul>Para obtener más información, consulte [Audiencias](/help/c-target/target.md).<br>**NOTA**: El nuevo [!UICONTROL Audiencias] La interfaz de usuario de se ha deshabilitado temporalmente para todos los clientes, excepto los que se encuentran actualmente en una [!DNL Target] Programa beta. Esta actualización de la interfaz de usuario se volverá a habilitar para un subconjunto de clientes el martes 19 de octubre y para el resto de clientes el jueves 21 de octubre de 2021. |
 | [!UICONTROL Scripts de perfil] Actualización de la interfaz de usuario | La variable [!UICONTROL Scripts de perfil] La biblioteca de también se ha actualizado e incluye una interfaz actualizada y varias actualizaciones de productividad:<ul><li>La capacidad de seleccionar y eliminar varios scripts de perfil simultáneamente</li><li>Un nuevo editor de código para scripts de perfil</li><li>Resaltado de sintaxis y comprobación de errores dentro del editor de código</li><li>Completar automáticamente los parámetros de tokens (mbox o perfil) mediante métodos abreviados del teclado</li></ul>Para obtener más información, consulte [Perfiles de los visitantes](/help/c-target/c-visitor-profile/visitor-profile.md). |
 | ![Distintivo Premium](/help/assets/premium.png) Crear y editar criterios de Recommendations | La variable [!UICONTROL Criterios de Recommendations] el flujo de trabajo de creación y edición se ha optimizado para simplificar la selección del algoritmo y la configuración de recomendaciones adecuados para lograr sus objetivos.<br>Para obtener más información, consulte [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Distintivo Premium](/help/assets/premium.png) Mejoras en la ventana retrospectiva y la velocidad de actualización del algoritmo de Recommendations | Ahora puede ejecutar los algoritmos &quot;Más visitados&quot; y &quot;Principales vendedores&quot; con una ventana retrospectiva de seis horas para capturar el contenido que es más reciente en la tendencia. Cuando se selecciona la ventana retrospectiva de seis horas, los resultados de las recomendaciones se actualizan cada 3-6 horas a lo largo del día.<br>Para obtener más información, consulte [Fuente de datos](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) en *Crear criterios*. |
@@ -80,18 +88,18 @@ Esta versión incluye las siguientes nuevas funciones:
 
 En esta versión de mantenimiento se incluyen las siguientes mejoras, correcciones y cambios.
 
-* Se han corregido problemas que evitaban que los clientes iniciaran sesión en el [!UICONTROL Compositor de experiencias visuales] (VEC) debido a las nuevas políticas de seguridad para cookies de terceros en algunos exploradores web. Este problema se trató en &quot;Páginas que no se cargan en el Compositor de experiencias visuales (VEC) o el Compositor de experiencias mejorado (EEC) al usar Google Chrome versión 80+&quot; en [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+* Se han corregido problemas que evitaban que los clientes iniciaran sesión en el [!UICONTROL Compositor de experiencias visuales] (VEC) debido a las nuevas políticas de seguridad para cookies de terceros en algunos exploradores web. Este problema se trató en “Páginas que no se cargan en el Compositor de experiencias visuales (VEC) o el Compositor de experiencias mejorado (EEC) al usar Google Chrome versión 80+” en [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
 * Se ha corregido un problema que provocaba que los nombres de oferta en el VEC mostraran la ruta de la oferta en lugar del nombre descriptivo de la oferta. (TGT-41300)
-* Los nombres de las experiencias ahora se reflejan en [!DNL Analysis Workspace] para actividades de A4T (TGT-38674)
-* Se ha corregido un problema en [!DNL Recommendations] que hayan aplicado erróneamente cambios en el ID de entidad en una promoción de una actividad duplicada a la actividad original. (TGT-41482)
-* Se ha corregido un problema que impedía que el botón &quot;Editar criterios&quot; se mostrara correctamente en el informe [!UICONTROL Experiencias] página para [!DNL Recommendations] actividades en el VEC. (TGT-39512)
+* Los nombres de experiencia ahora se reflejan en [!DNL Analysis Workspace] para actividades de A4T (TGT-38674)
+* Se ha corregido un problema en [!DNL Recommendations] que producía cambios erróneos en el ID de entidad en una promoción de una actividad duplicada en la actividad original. (TGT-41482)
+* Se ha corregido un problema que impedía que el botón Editar criterios se mostrara correctamente en la página [!UICONTROL Experiencias] de las actividades de [!DNL Recommendations] del VEC. (TGT-39512)
 * Se ha corregido un problema que impedía la sincronización de actividades cuando se duplicaban y copiaban en un espacio de trabajo de prueba. (TGT-40686)
-* Se ha corregido un problema que impedía realizar modificaciones en un selector con [fragmentos de experiencia](/help/c-experiences/c-manage-content/aem-experience-fragments.md) al usar &quot;[!UICONTROL Insertar después]&quot; en el VEC. (TGT-41802)
+* Se ha corregido un problema que impedía realizar modificaciones en un selector con [fragmentos de experiencias](/help/c-experiences/c-manage-content/aem-experience-fragments.md) al usar [!UICONTROL Insertar después] en el VEC. (TGT-41802)
 * Se ha corregido un problema que impedía que el contenido JSON vacío en una oferta se enviara al servidor. [!DNL Target] ahora envía el objeto JSON aunque esté vacío. (TGT-41555)
-* Se ha corregido un problema que provocaba la aparición de [!DNL Analytics] creación de informes para abrir en lugar de [!DNL Analysis Workspace] cuando los clientes hicieron clic en &quot;[!UICONTROL Ver en Analytics]&quot; mientras ve un informe. (TGT-41867)
-* Se ha añadido una aclaración adicional al mensaje de interfaz de usuario mostrado cuando un cliente intenta seleccionar [!DNL Analytics] como fuente de informes (A4T) para un [!UICONTROL Automated Personalization] actividad. El mensaje indica que, &quot;[!DNL Target] es el único origen admitido para [!UICONTROL Automated Personalization] actividades&quot;. (TGT-41954)
-* Se ha añadido una aclaración adicional al mensaje de error cuando los clientes intentan separar hosts con &quot;nueva línea&quot; en lugar de comas. (TGT-40671)
-* Se ha corregido un problema que provocaba que algunas actividades &quot;[!UICONTROL Última actualización]&quot; fechas diferentes de la IU en inglés para clientes españoles y japoneses (al ver la IU en español y japonés). (TGT-38980)
+* Se ha corregido un problema que provocaba que se abrieran los informes [!DNL Analytics] heredados en lugar de [!DNL Analysis Workspace] cuando los clientes hacían clic en [!UICONTROL Ver en Analytics] mientras visualizaban un informe. (TGT-41867)
+* Se ha añadido una aclaración adicional al mensaje de la IU mostrado cuando un cliente intenta seleccionar [!DNL Analytics] como fuente de informes (A4T) para una actividad de [!UICONTROL Automated Personalization]. El mensaje indica que “[!DNL Target] es la única fuente admitida para las actividades de [!UICONTROL Automated Personalization]”. (TGT-41954)
+* Se ha añadido una aclaración adicional al mensaje de error cuando los clientes intentan separar hosts con una nueva línea en lugar de comas. (TGT-40671)
+* Se ha corregido un problema que provocaba que las fechas de “[!UICONTROL Última actualización]” de algunas actividades difirieran de la IU en inglés para los clientes españoles y japoneses (al ver la IU en español y japonés). (TGT-38980)
 
 ### at.js 2.6.1 (16 de agosto de 2021)
 

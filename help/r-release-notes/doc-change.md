@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 95%
+source-wordcount: '2820'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,9 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 20 de octubre | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] Versión 21.10.4 (21 de octubre de 2021). |
+|  | [Planificar e implementar Recommendations](/help/c-recommendations/plan-implement.md#section_D37E48700F074556B925D0CA0291405E) | Se ha actualizado el fragmento de código en la sección &quot;Página del carro de compras&quot;. |
+|  | [Planificar e implementar Recommendations](/help/c-recommendations/plan-implement.md) | Se ha actualizado todo el tema. |
 | 19 de octubre | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] Versión 21.10.3 (19 de octubre de 2021). |
 | 14 de octubre | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Se ha añadido la siguiente pregunta frecuente: &quot;¿Puedo usar un binomial? [!DNL Analytics] métrica con un segmento aplicado como objetivo de optimización en una [!UICONTROL Asignación automática] actividad?&quot; |
 | 13 de octubre | [Notas de la versión](/help/r-release-notes/release-notes.md): 21.10.2 | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] Versión 21.10.2 (13 de octubre de 2021). |

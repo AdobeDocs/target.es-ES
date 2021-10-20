@@ -5,10 +5,10 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 44%
+source-wordcount: '1032'
+ht-degree: 42%
 
 ---
 
@@ -23,6 +23,14 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 >Migre a la versión más reciente de [!DNL Adobe Experience Platform Web SDK] o a la biblioteca de JavaScript at.js antes más recientes para evitar posibles problemas con sus sitios. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 21.10.4 (21 de octubre de 2021)
+
+Esta versión de mantenimiento contiene las siguientes mejoras:
+
+| Función | Detalles |
+| --- | --- |
+| Recommendations basado en el carro de compras | Una nueva familia de algoritmos que ofrecen recomendaciones en función del contenido del carro de compras del visitante.<br>Para obtener más información, consulte &quot;Basado en el carro de compras&quot; en [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) y &quot;Adiciones al carro de compras/Vistas del carro de compras/Páginas de cierre de compra&quot; y &quot;Excluir elementos que ya están en el carro de compras del visitante&quot; en [Planificar e implementar Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 de octubre de 2021)
 

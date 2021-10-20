@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 67%
+source-wordcount: '375'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 67%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 18 de octubre de 2021**
+**Última actualización: 20 de octubre de 2021**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -24,6 +24,14 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 >**Fin de vida útil de mbox.js**: Desde el 31 de marzo de 2021, [!DNL Adobe Target] no es compatible con la biblioteca mbox.js. Después del 31 de marzo de 2021, todas las llamadas que se realicen desde mbox.js producirán errores y afectarán a las páginas que tengan actividades de [!DNL Target] en ejecución por contenido predeterminado.
 >
 >Para evitar posibles problemas con sus sitios, migre a la versión más reciente del nuevo [!DNL Adobe Experience Platform Web SDK] o la biblioteca de JavaScript at.js. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.10.4 (21 de octubre de 2021)
+
+Esta versión de mantenimiento contiene las siguientes mejoras:
+
+| Función | Detalles |
+| --- | --- |
+| Recommendations basado en el carro de compras | Una nueva familia de algoritmos que ofrecen recomendaciones en función del contenido del carro de compras del visitante.<br>Para obtener más información, consulte &quot;Basado en el carro de compras&quot; en [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) y &quot;Adiciones al carro de compras/Vistas del carro de compras/Páginas de cierre de compra&quot; y &quot;Excluir elementos que ya están en el carro de compras del visitante&quot; en [Planificar e implementar Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 de octubre de 2021)
 
