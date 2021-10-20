@@ -1,19 +1,19 @@
 ---
 keywords: recomendaciones;preguntas más frecuentes;FAQ
-description: Revise una lista de las preguntas más frecuentes (FAQ) y sus respuestas sobre los diseños de Adobe [!DNL Target] Recommendations.
-title: ¿Dónde puedo responder a preguntas de diseño para [!DNL Target] Recommendations?
+description: Revise la lista de preguntas frecuentes (FAQ) y sus respuestas acerca de los diseños de Adobe  [!DNL Target]  Recommendations.
+title: ¿Dónde puedo responder a preguntas de diseño de  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) FAQ de diseño
 
-Lista de las preguntas más frecuentes (FAQ) sobre [!DNL Adobe Target] [!DNL Recommendations] diseños.
+Lista de preguntas frecuentes (FAQ) acerca de diseños de [!DNL Adobe Target] [!DNL Recommendations].
 
 ## El precio del elemento recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?
 
@@ -35,7 +35,7 @@ El ID de categoría no se puede mostrar en el diseño. Dado que es posible almac
 
 ## ¿Cómo debo cambiar un diseño para obtener una actualización instantánea?   {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-La alteración del diseño que se está usando actualmente tarda unos minutos en actualizarse. Para cambiar el diseño instantáneamente, cree un nuevo diseño, selecciónelo en la actividad y guarde la recomendación.
+La alteración del diseño que se está usando actualmente tarda unos minutos en actualizarse. Para cambiar el diseño de forma instantánea, cree un nuevo diseño, selecciónelo en la actividad y guarde la recomendación.
 
 ## ¿Cómo se puede capturar información esencial para mostrarla en el diseño? Ejemplo: si queremos visualizar la categoría del producto principal, ¿se codifica el valor en el diseño Velocity?   {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
@@ -47,8 +47,8 @@ La versión 1.7, sin herramientas ni bibliotecas adicionales agregadas. La funci
 
 ## ¿Cómo puedo sustituir un valor de entidad existente por un espacio en blanco? Por ejemplo, un entity.message de artículo debe borrarse cuando finaliza la promoción. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Al enviar un espacio de no separación de JavaScript, esto parece hacerse. Haga que los programadores envíen `\u00A0` como el valor. Ejemplo: `entity.message=\u00A0`. Puede considerar la posibilidad de que este sea el valor predeterminado cuando no haya ningún valor presente, en lugar de un cero.
+Parece ser que se consigue enviando un espacio de no separación de JavaScript. Haga que los programadores envíen `\u00A0` como el valor. Ejemplo: `entity.message=\u00A0`. Puede considerar la posibilidad de que este sea el valor predeterminado cuando no haya ningún valor presente, en lugar de un cero.
 
-## ¿Puedo usar un script de perfil en un diseño [!DNL Recommendations]? {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## ¿Puedo usar un script de perfil en un diseño de [!DNL Recommendations]? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-Sí. Para utilizar un script de perfil en un diseño [!DNL Recommendations], ajuste el nombre en `\${...}`. Por ejemplo, si el script de perfil se llama `user.basket`, menciónelo como `\${user.basket}` en el diseño. Tenga en cuenta que la barra invertida implica que Velocity no procesa el script de perfil. Por lo tanto, no se puede realizar ninguna operación en el script de perfil de una plantilla de Velocity. El valor se imprime directamente en la página.
+Sí. Para utilizar un script de perfil en un diseño de [!DNL Recommendations], ajuste el nombre en `\${...}`. Por ejemplo, si el script de perfil se llama `user.basket`, menciónelo como `\${user.basket}` en el diseño. Tenga en cuenta que la barra invertida implica que Velocity no procesa el script de perfil. Por lo tanto, no se puede realizar ninguna operación en el script de perfil de una plantilla de Velocity. El valor se imprimirá directamente en la página.
