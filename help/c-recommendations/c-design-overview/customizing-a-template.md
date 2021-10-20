@@ -1,13 +1,13 @@
 ---
 keywords: diseño personalizado;personalizar diseño;velocity;decimal;coma
-description: Aprenda a utilizar el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendaciones en Adobe [!DNL Target] Recommendations.
-title: ¿Cómo Personalizar un diseño mediante Velocity?
+description: Aprenda a utilizar el lenguaje de diseño de código abierto Velocity para personalizar los diseños de recomendaciones en Adobe  [!DNL Target]  Recommendations.
+title: ¿Cómo puedo personalizar un diseño con Velocity?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Utilice el lenguaje de diseño Velocity de código abierto para personalizar los
 
 ## Descripción general de Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Puede encontrar información sobre Velocity en [](https://velocity.apache.org)https://velocity.apache.org.
+Puede encontrar información sobre Velocity en [https://velocity.apache.org](https://velocity.apache.org).
 
 La sintaxis, la lógica, etc. de Velocity se pueden usar en el diseño de recomendaciones. Esto significa que puede crear bucles *for*, instrucciones *if* y otro código usando Velocity en lugar de JavaScript.
 
@@ -118,7 +118,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Si desea agregar texto después del valor de una variable antes de una etiqueta que indique que el nombre de la variable ha finalizado, puede hacerlo usando una anotación formal para incluir el nombre de la variable. Por ejemplo: `${entity1.thumbnailUrl}.gif`.
+>Si desea añadir texto después del valor de una variable antes de una etiqueta que indique que el nombre de la variable ha finalizado, puede hacerlo usando una anotación formal para incluir el nombre de la variable. Por ejemplo: `${entity1.thumbnailUrl}.gif`.
 
 También puede usar `algorithm.name` y `algorithm.dayCount` como variables en los diseños, de modo que se pueda utilizar un diseño para probar varios criterios y el nombre del criterio se pueda visualizar de forma dinámica en el diseño. Esto indica al visitante que está viendo productos de mayor venta o productos que otras personas han comprado en combinación con otros productos. Incluso puede utilizar dichas variables para visualizar el valor de `dayCount` (número de días de datos utilizados en el criterio), como por ejemplo, “productos más vendidos en los últimos 2 días”, etc.
 
@@ -129,11 +129,11 @@ De forma predeterminada, las plantillas de Velocity tratan todos los atributos d
 1. Declare una variable ficticia e inicialícela con un valor doble o entero arbitrario.
 1. Asegúrese de que el atributo de entidad que desea utilizar no esté en blanco (requerido para que el analizador de plantillas de Target Recommendations valide y guarde la plantilla).
 1. Pase el atributo de entidad al método `parseInt` o `parseDouble` en la variable ficticia que ha creado en el paso 1 para convertir la cadena en un valor entero o doble.
-1. Realice la operación o comparación matemática en el nuevo valor numérico.
+1. Realice la operación o comparación matemática con el nuevo valor numérico.
 
 ### Ejemplo: Cálculo de un precio de descuento
 
-Supongamos que desea reducir el precio mostrado de un artículo en 0,99 $ para aplicar un descuento. Puede utilizar el siguiente método para lograr este resultado:
+Supongamos que desea reducir el precio mostrado de un artículo en 0,99 € para aplicar un descuento. Puede utilizar el siguiente método para lograr este resultado:
 
 ```
 #set( $double = 0.1 )
