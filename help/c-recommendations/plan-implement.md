@@ -4,28 +4,26 @@ description: 'Obtenga información sobre cómo implementar actividades de Recomm
 title: ¿Cómo Implemento Las Actividades De Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 37%
+source-wordcount: '1279'
+ht-degree: 36%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Planificar e implementar Recommendations
+# ![PREMIUM](/help/assets/premium.png) Planificar e implementar [!DNL Recommendations]
 
 Antes de configurar la primera [!DNL Recommendations] actividad en [!DNL Adobe Target], complete los siguientes pasos:
 
-| Paso | Detalles |
-|--- |--- |
-| ![Paso 1](/help/c-recommendations/assets/step1_red.png) | [Implementación [!DNL Adobe Target]](#implement-target) en la web y en la aplicación móvil que desea utilizar para capturar el comportamiento del usuario y enviar recomendaciones. |
-| ![Paso 2](/help/c-recommendations/assets/step2_red.png) | [Configure su [!DNL Recommendations] catálogo](#rec-catalog) de productos o contenido que desea recomendar a sus usuarios. |
-| ![Paso 3](/help/c-recommendations/assets/step3_red.png) | [Pasar información de comportamiento y contexto](#pass-behavioral) a [!DNL Adobe Target Recommendations] para permitir que envíe recomendaciones personalizadas. |
-| ![Paso 4](/help/c-recommendations/assets/step4_red.png) | [Configuración de exclusiones globales](#exclusions). |
-| ![Paso 5](/help/c-recommendations/assets/step5_red.png) | [Configurar [!DNL Recommendations] configuración](#concept_C1E1E2351413468692D6C21145EF0B84). |
+1. [Implementación [!DNL Target]](#implement-target) en la web y en la aplicación móvil que desea utilizar para capturar el comportamiento del usuario y enviar recomendaciones.
+1. [Configure su [!DNL Recommendations] catálogo](#rec-catalog) de productos o contenido que desea recomendar a sus usuarios.
+1. [Pasar información de comportamiento y contexto](#pass-behavioral) a [!DNL Target Recommendations] para permitir que envíe recomendaciones personalizadas.
+1. [Configuración de exclusiones globales](#exclusions).
+1. [Configurar [!DNL Recommendations] configuración](#concept_C1E1E2351413468692D6C21145EF0B84).
 
-## Implementación de Adobe Target {#implement-target}
+## Implementación [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] requiere que implemente el [!DNL Adobe Experience Platform Web SDK] o at.js 0.9.2 (o posterior). Consulte [Implementación de Target](/help/c-implementing-target/implementing-target.md) para obtener más información.
+[!DNL Target Recommendations] requiere que implemente el [!DNL Adobe Experience Platform Web SDK] o at.js 0.9.2 (o posterior). Consulte [Implementación [!DNL Target]](/help/c-implementing-target/implementing-target.md) para obtener más información.
 
 ## Configurar el catálogo de Recommendations {#rec-catalog}
 
@@ -41,7 +39,7 @@ Para ofrecer recomendaciones de alta calidad, [!DNL Target] debe conocer los pro
 | --- | --- | --- | --- |
 | Fuente del catálogo | Programar una fuente (CSV, Google Product XML o [!DNL Analytics Product Classifications]) que se cargarán e incorporarán diariamente. | Para enviar información sobre varios elementos a la vez. Para enviar información que cambia con poca frecuencia. | Consulte [Fuentes](/help/c-recommendations/c-products/feeds.md). |
 | API de entidades | Llame a una API para enviar actualizaciones de última hora para un solo elemento. | Para enviar actualizaciones a medida que ocurren de un elemento a la vez. Para enviar información que cambia con frecuencia (por ejemplo, precio, inventario/nivel de existencias). | Consulte la [Documentación para desarrolladores de la API de entidades](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
-| Pasar actualizaciones en la página | Envíe actualizaciones minuto a minuto para un solo elemento usando JavaScript en la página o usando la API de envío. | Para enviar actualizaciones a medida que ocurren de un elemento a la vez. Para enviar información que cambia con frecuencia (por ejemplo, precio, inventario/nivel de existencias). | Consulte Vistas de artículos/páginas de productos a continuación. |
+| Pasar actualizaciones en la página | Envíe actualizaciones minuto a minuto para un solo elemento usando JavaScript en la página o usando la API de envío. | Para enviar actualizaciones a medida que ocurren de un elemento a la vez. Para enviar información que cambia con frecuencia (por ejemplo, precio, inventario/nivel de existencias). | Consulte [Vistas de elementos/páginas de productos](#items-product-pages) más abajo. |
 
 La mayoría de los clientes deben implementar al menos una fuente. A continuación, puede elegir complementar la fuente con actualizaciones para los atributos o elementos modificados con frecuencia mediante la API Entidades o el método en la página.
 
@@ -49,7 +47,7 @@ La mayoría de los clientes deben implementar al menos una fuente. A continuaci�
 
 La información de comportamiento y el contexto al que debe pasar [!DNL Target] depende de la acción que realice el visitante, que a menudo está asociada con el tipo de página con la que esté interactuando el visitante.
 
-### Vistas de elementos/páginas de productos
+### Vistas de elementos/páginas de productos {#items-product-pages}
 
 En las páginas donde un visitante está viendo un solo elemento, como una página de detalles de un producto, debe pasar la identidad del elemento que el visitante está viendo. También debe pasar la categoría más granular del elemento que el visitante esté viendo, para permitir el filtrado de recomendaciones a la categoría actual.
 
