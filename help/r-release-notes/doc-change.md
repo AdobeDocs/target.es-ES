@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 95%
+source-wordcount: '2830'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 21 de octubre | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] Descanso de café de la comunidad (10 de noviembre de 2021)</li><li>[!DNL Adobe Target] Descanso de café de la comunidad (8 de diciembre de 2021)</li></ul> |
 | 20 de octubre | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] Versión 21.10.4 (21 de octubre de 2021). |
 |  | [Planificar e implementar Recommendations](/help/c-recommendations/plan-implement.md) | Se ha actualizado todo el tema. |
 | 19 de octubre | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] Versión 21.10.3 (19 de octubre de 2021). |
