@@ -4,7 +4,7 @@ description: Busque sugerencias para solucionar problemas si la página no muest
 title: ¿Cómo se pueden solucionar los problemas en la entrega de contenido?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 68%
@@ -154,7 +154,7 @@ Puede comprobar la respuesta [!DNL Target] en el explorador, o utilizando mboxTr
 
 at.js no activa solicitudes de Target si utiliza un doctype no válido. at.js requiere el tipo de documento HTML 5.
 
-## Asegúrese de que [!DNL Target] las actividades gestionan correctamente las direcciones URL con parámetros de cadena de consulta {#query-strings}
+## Asegúrese de que [!DNL Target] las actividades gestionan correctamente las direcciones URL con parámetros de cadena de consulta. {#query-strings}
 
 La variable [!UICONTROL URL de actividad] determina la página que clasifica a los visitantes para la actividad y presenta las experiencias de actividad a los usuarios. Cuando se le solicita durante la creación de la actividad, escribir la dirección URL completa no siempre garantiza que el contenido se envíe en esa página del sitio, especialmente con las direcciones URL que contienen parámetros de cadena de consulta.
 
