@@ -4,7 +4,7 @@ description: Explore las opciones disponibles en el Compositor de experiencias v
 title: ¿Cómo utilizo las opciones del Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 823694603c0248316e471f0b15070c0a34356620
+source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 72%
@@ -348,7 +348,7 @@ Deshace los cambios realizados en las actividades durante una sesión de edició
 
 * Si una oferta contiene contenido HTML, consulte “Cómo at.js procesa ofertas con contenido HTML” en [Cómo funciona at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) para obtener más información.
 
-## Compatibilidad con elementos personalizados (26 de octubre de 2021) {#custom}
+## Compatibilidad con elementos personalizados (28 de octubre de 2021) {#custom}
 
 El VEC es compatible [Componentes web](https://developer.mozilla.org/en-US/docs/Web/Web_Components) para permitirle crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad está disponible en el VEC para todos los [!DNL Target] tipos de actividades.
 
