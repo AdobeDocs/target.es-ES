@@ -4,9 +4,9 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
+source-git-commit: 8a011f9076cd4d5041fa17485441c83de43581e5
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '420'
 ht-degree: 53%
 
 ---
@@ -31,7 +31,7 @@ Esta versión de mantenimiento contiene las siguientes mejoras:
 
 | Función | Detalles |
 | --- | --- |
-| [!UICONTROL Compositor de experiencias visuales] (VEC) | Se ha agregado compatibilidad con los componentes web. Las experiencias y ofertas personalizadas se pueden crear y probar en Elementos personalizados y en elementos dentro de Elementos personalizados. |
+| [!UICONTROL Compositor de experiencias visuales] (VEC) | Se ha agregado compatibilidad con [Componentes web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Las experiencias y ofertas personalizadas se pueden crear y probar en elementos personalizados y en elementos dentro de elementos personalizados. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 de octubre de 2021)
 
