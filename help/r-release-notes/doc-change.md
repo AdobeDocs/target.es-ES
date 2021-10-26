@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2865'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 26 de octubre | [CNAME y [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Se ha actualizado todo el tema. |
 | 25 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] Versión 21.10.5 (28 de octubre de 2021). |
 | 22 de octubre | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Se ha añadido la sección siguiente:<ul><li>Asegúrese de que [!DNL Target] las actividades gestionan correctamente las direcciones URL con parámetros de cadena de consulta</li></ul> |
 | 21 de octubre | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] Descanso de café de la comunidad (10 de noviembre de 2021)</li><li>[!DNL Adobe Target] Descanso de café de la comunidad (8 de diciembre de 2021)</li></ul> |

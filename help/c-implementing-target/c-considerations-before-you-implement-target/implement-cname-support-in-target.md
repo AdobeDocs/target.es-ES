@@ -1,22 +1,22 @@
 ---
 keywords: client care;cname;programa de certificados;nombre canónico;cookies;certificado;amc;adobe managed certificate;digicert;validación de control de dominio;dcv
-description: Trabaje con Adobe Client Care para implementar la compatibilidad con CNAME (Nombre canónico) en Adobe [!DNL Target] para controlar los problemas de bloqueo de anuncios.
+description: Trabajar con [!DNL Adobe] Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target] para controlar los problemas de bloqueo de anuncios.
 title: ¿Cómo utilizo CNAME en Target?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: e51c7805939e8bf32d7f358036c9070931580187
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
 
-# CNAME y Target
+# CNAME y [!DNL Target]
 
 Instrucciones para trabajar con [!DNL Adobe] ClientCare va a implementar la compatibilidad con CNAME (nombre canónico) en [!DNL Adobe Target]. Utilice CNAME para gestionar problemas de bloqueo de anuncios o directivas de cookies relacionadas con ITP (prevención inteligente del seguimiento). Con CNAME, las llamadas se realizan a un dominio propiedad del cliente en lugar de a un dominio propiedad de [!DNL Adobe].
 
-## Solicitar compatibilidad con CNAME en Target
+## Solicitar compatibilidad con CNAME en [!DNL Target]
 
 1. Determine la lista de nombres de host que necesita para su certificado SSL (consulte las preguntas frecuentes a continuación).
 
@@ -30,13 +30,13 @@ Instrucciones para trabajar con [!DNL Adobe] ClientCare va a implementar la comp
 
    >[!IMPORTANT]
    >
-   >La autoridad de certificación de Adobe, DigiCert, no puede emitir un certificado hasta que se complete este paso. Por lo tanto, [!DNL Adobe] no puede realizar la solicitud de una implementación CNAME hasta que se complete este paso.
+   >[!DNL Adobe]La autoridad de certificación de , DigiCert, no puede emitir un certificado hasta que se complete este paso. Por lo tanto, [!DNL Adobe] no puede realizar la solicitud de una implementación CNAME hasta que se complete este paso.
 
-1. [Rellene este formulario](/help/assets/FPC_Request_Form.xlsx) e inclúyalo cuando [abra un ticket de Adobe Client Care solicitando asistencia de CNAME](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [Rellene este formulario](/help/assets/FPC_Request_Form.xlsx) e inclúyalo cuando [abra un [!DNL Adobe] ticket de ClientCare solicitando asistencia de CNAME](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
-   * Adobe [!DNL Target] código de cliente:
+   * [!DNL Adobe Target] client code:
    * Nombres de host de certificados SSL (ejemplo: `target.example.com target.example.org`):
-   * Comprador de certificados SSL (se recomienda encarecidamente el Adobe, consulte Preguntas frecuentes): Adobe/cliente
+   * Comprador de certificados SSL ([!DNL Adobe] es muy recomendable, consulte preguntas frecuentes): Adobe/cliente
    * Si el cliente compra el certificado, también conocido como &quot;Traer su propio certificado&quot; (BYOC), rellene estos detalles adicionales:
       * Organización de certificados (ejemplo: Empresa de Ejemplo S.A.):
       * Unidad organizativa del certificado (opcional, ejemplo: Marketing):
@@ -44,7 +44,7 @@ Instrucciones para trabajar con [!DNL Adobe] ClientCare va a implementar la comp
       * Estado o región del certificado (ejemplo: California):
       * Ciudad del certificado (ejemplo: San José):
 
-1. If [!DNL Adobe] compra el certificado, [!DNL Adobe] trabaja con DigiCert para adquirir e implementar el certificado en los servidores de producción de Adobe.
+1. If [!DNL Adobe] compra el certificado, [!DNL Adobe] funciona con DigiCert para adquirir e implementar el certificado en [!DNL Adobe]de los servidores de producción de .
 
    Si el cliente compra el certificado (BYOC), [!DNL Adobe] ClientCare le envía la solicitud de firma de certificado (CSR). Utilice la CSR al adquirir el certificado a través de la autoridad de certificación que elija. Una vez emitido el certificado, envíe una copia del certificado y de los certificados intermedios a [!DNL Adobe] ClientCare para la implementación.
 
@@ -66,13 +66,13 @@ Puede proporcionar su propio certificado. Sin embargo, [!DNL Adobe] no recomiend
 
 ### ¿Cuánto tiempo falta para que caduque mi nuevo certificado SSL?
 
-Todos los certificados comprados por el Adobe son válidos durante un año. Consulte [Artículo de DigiCert sobre certificados de 1 año](https://www.digicert.com/blog/position-on-1-year-certificates) para obtener más información.
+Todo [!DNL Adobe]-los certificados adquiridos son válidos durante un año. Consulte [Artículo de DigiCert sobre certificados de 1 año](https://www.digicert.com/blog/position-on-1-year-certificates) para obtener más información.
 
 ### ¿Qué nombres de host debo elegir? ¿Cuántos nombres de host debo elegir por dominio?
 
-[!DNL Target] Las implementaciones CNAME requieren solo un nombre de host por dominio en el certificado SSL y en el DNS del cliente. Adobe recomienda un nombre de host por dominio. Algunos clientes requieren más nombres de host por dominio para sus propios fines (prueba en el entorno de ensayo, por ejemplo), que se admite.
+[!DNL Target] Las implementaciones CNAME requieren solo un nombre de host por dominio en el certificado SSL y en el DNS del cliente. [!DNL Adobe] recomienda un nombre de host por dominio. Algunos clientes requieren más nombres de host por dominio para sus propios fines (prueba en el entorno de ensayo, por ejemplo), que se admite.
 
-La mayoría de los clientes eligen un nombre de host como `target.example.com`. Adobe recomienda seguir esta práctica, pero la elección es en última instancia tuya. No solicite un nombre de host de un registro DNS existente. Al hacerlo, se genera un conflicto y se retrasa el tiempo de resolución de [!DNL Target] Solicitud CNAME.
+La mayoría de los clientes eligen un nombre de host como `target.example.com`. [!DNL Adobe] recomienda seguir esta práctica, pero la elección es en última instancia tuya. No solicite un nombre de host de un registro DNS existente. Al hacerlo, se genera un conflicto y se retrasa el tiempo de resolución de [!DNL Target] Solicitud CNAME.
 
 ### Ya tengo una implementación CNAME para [!DNL Adobe Analytics], ¿puedo usar el mismo certificado o nombre de host?
 
@@ -80,8 +80,7 @@ No, [!DNL Target] requiere un nombre de host y un certificado independientes.
 
 ### ¿Es mi implementación actual de [!DNL Target] ¿se ve afectado por ITP 2.x?
 
-La versión 2.3 de Prevención inteligente del seguimiento de Apple (ITP) introdujo su función de mitigación de cierre CNAME, que permite detectar implementaciones CNAME de Adobe Target y reduce la caducidad de la cookie a siete días. Actualmente [!DNL Target] no tiene una solución para la mitigación de cierre CNAME de ITP. Para obtener más información sobre ITP, consulte [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
-
+La versión 2.3 de Apple Intelligent Tracking Prevention (ITP) introdujo su función de mitigación de encubrimiento CNAME, que es capaz de detectar [!DNL Adobe Target] Implementaciones CNAME y reduce la caducidad de la cookie a siete días. Actualmente [!DNL Target] no tiene una solución para la mitigación de cierre CNAME de ITP. Para obtener más información sobre ITP, consulte [Prevención inteligente del seguimiento de Apple (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ### ¿Qué tipo de interrupciones del servicio puedo esperar cuando se implementa mi implementación CNAME?
 
