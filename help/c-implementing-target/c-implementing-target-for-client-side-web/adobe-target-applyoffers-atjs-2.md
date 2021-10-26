@@ -1,14 +1,14 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;aplicar oferta;at.js;funciones;función
-description: Utilice la función adobe.target.applyOffers() para la biblioteca JavaScript Adobe [!DNL Target] at.js para aplicar varias ofertas en la respuesta. (at.js 2.x)
+description: Utilice la función adobe.target.applyOffers() para el Adobe [!DNL Target] biblioteca JavaScript at.js para aplicar varias ofertas en la respuesta. (at.js 2.x)
 title: ¿Cómo utilizo la función adobe.target.applyOffers() ?
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: f057df3b20325c04e29f55a90e03934a9343a254
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 93%
+source-wordcount: '836'
+ht-degree: 88%
 
 ---
 
@@ -22,14 +22,14 @@ Esta función permite aplicar más de una oferta recuperada por `adobe.target.ge
 
 | Clave | Tipo | ¿Requerido? | Descripción |
 | --- | --- | --- | --- |
-| selector | Cadena | No | Elemento HTML o selector de CSS utilizado para identificar el elemento HTML donde [!DNL Target] debería colocar el contenido de la oferta. Si no se proporciona un selector, [!DNL Target] supone que el elemento HTML que se va a utilizar es HEAD HTML. |
+| selector | Cadena | No | Elemento HTML o selector de CSS utilizado para identificar el elemento HTML donde [!DNL Target] debería colocar el contenido de la oferta. Si no se proporciona un selector, [!DNL Target] supone que el elemento de HTML que se va a utilizar es HEAD de HTML. |
 | Respuesta | Objeto | Sí | Objeto de respuesta de `getOffers()`.<br>Consulte la tabla Solicitudes a continuación. |
 
 ## Respuesta
 
 >[!NOTE]
 >
->Consulte la [documentación de la API de envío](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obtener información sobre los tipos aceptables para todos los campos enumerados a continuación.
+>Consulte la [Documentación de la API de envío](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obtener información sobre los tipos aceptables para todos los campos enumerados a continuación.
 
 | Nombre del campo | Descripción |
 | --- | --- |
@@ -108,7 +108,7 @@ adobe.target.applyOffers({response:{
 }});
 ```
 
-## Llamada de ejemplo de Promise encadenada con `getOffers()` y `applyOffers()`, ya que estas funciones están localizadas en Promise.
+## Ejemplos de llamadas de Promise encadenadas con `getOffers()` y `applyOffers()`, ya que estas funciones están basadas en Promise
 
 ```javascript
 adobe.target.getOffers({...})
@@ -116,3 +116,22 @@ adobe.target.getOffers({...})
 .then(() => console.log("Success"))
 .catch(error => console.log("Error", error));
 ```
+
+Para obtener más ejemplos sobre cómo utilizar getOffers(), consulte getOffers [documentación](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html)
+
+### Ejemplo de solicitud de carga de página
+
+
+```javascript
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {}
+        }
+    }
+}).
+then(response => adobe.target.applyOffers({ response: response }))
+.then(() => console.log("Success"))
+.catch(error => console.log("Error", error));
+```
+
