@@ -4,7 +4,7 @@ description: 'Obtenga información sobre cómo implementar actividades de Recomm
 title: ¿Cómo Implemento Las Actividades De Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
+source-git-commit: 152d9f0b942956363aece1ba279aeaa7b93f43e6
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 30%
@@ -102,13 +102,13 @@ La lógica de recomendación basada en el carro de compras es similar a la &quot
 
 * **Dentro de una sola sesión**: En función de lo que otros visitantes hicieron dentro de una sola sesión.
 
-* **En varias sesiones**: En función de lo que otros visitantes hicieron en varias sesiones. 
+   Mirar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos se &quot;unen&quot; estrechamente en función de un uso, ocasión o evento. Por ejemplo, un visitante está comprando una impresora y también puede necesitar tinta y papel. O, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
+
+* **En varias sesiones**: En función de lo que otros visitantes hicieron en varias sesiones.
+
+   Ver el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; fuerza unos con otros según la preferencia o el gusto del visitante. Por ejemplo, a un visitante le gusta Star Wars y también puede gustarle Indiana Jones, aunque no necesariamente quiera ver ambas películas en la misma sesión. O, a un visitante le gusta el juego de tablero &quot;Codenames&quot; y también el juego de tablero &quot;Avalon&quot;, aunque el visitante no pueda jugar ambos juegos simultáneamente. 
 
 Independientemente de si observa el comportamiento de los visitantes en una sola sesión o en varias sesiones, [!DNL Target] realiza recomendaciones para este visitante en función de los artículos del carro de compras actual.
-
-Mirar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos se &quot;unen&quot; estrechamente en función de un uso, ocasión o evento. Por ejemplo, un visitante está comprando una impresora y también puede necesitar tinta y papel. O, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
-
-Ver el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; fuerza unos con otros según la preferencia o el gusto del visitante. Por ejemplo, a un visitante le gusta Star Wars y también puede gustarle Indiana Jones, aunque no necesariamente quiera ver ambas películas en la misma sesión. O, a un visitante le gusta el juego de tablero &quot;Codenames&quot; y también el juego de tablero &quot;Avalon&quot;, aunque el visitante no pueda jugar ambos juegos simultáneamente.
 
 ### Excluir elementos que ya están en el carro de compras del visitante
 
