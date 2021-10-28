@@ -4,10 +4,10 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: f17d98f30b1fb25b5ffcafcd6cb8368adad99f97
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '32475'
-ht-degree: 98%
+source-wordcount: '32578'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,20 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >Consulte [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión: 2021
+
+### Versión 2.7.0 de at.js (28 de octubre de 2021)
+
+Esta versión contiene la siguiente mejora:
+
+* Se ha agregado compatibilidad con [Componentes web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Esta versión de at.js es necesaria para crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad se incluye en la variable [!DNL Target Standard/Premium] Versión 21.10.5.
+
+### [!DNL Target Standard/Premium] 21.10.5 (28 de octubre de 2021)
+
+Esta versión de mantenimiento contiene las siguientes mejoras:
+
+| Función | Detalles |
+| --- | --- |
+| [!UICONTROL Compositor de experiencias visuales] (VEC) | Se ha agregado compatibilidad con [Componentes web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Las experiencias y ofertas personalizadas se pueden crear y probar en elementos personalizados y en elementos dentro de elementos personalizados.<br>Para obtener más información, consulte [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
 ### [!DNL Target Standard/Premium] 21.10.4 (21 de octubre de 2021)
 
