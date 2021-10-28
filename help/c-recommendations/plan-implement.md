@@ -4,7 +4,7 @@ description: 'Obtenga información sobre cómo implementar actividades de Recomm
 title: ¿Cómo Implemento Las Actividades De Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 152d9f0b942956363aece1ba279aeaa7b93f43e6
+source-git-commit: 2910fd1130030df79b96160b64e6bd1bdf295814
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 30%
@@ -108,7 +108,7 @@ La lógica de recomendación basada en el carro de compras es similar a la &quot
 
    Ver el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; fuerza unos con otros según la preferencia o el gusto del visitante. Por ejemplo, a un visitante le gusta Star Wars y también puede gustarle Indiana Jones, aunque no necesariamente quiera ver ambas películas en la misma sesión. O, a un visitante le gusta el juego de tablero &quot;Codenames&quot; y también el juego de tablero &quot;Avalon&quot;, aunque el visitante no pueda jugar ambos juegos simultáneamente. 
 
-Independientemente de si observa el comportamiento de los visitantes en una sola sesión o en varias sesiones, [!DNL Target] realiza recomendaciones para este visitante en función de los artículos del carro de compras actual.
+Independientemente de si observa el comportamiento de los visitantes en una sola sesión o en varias sesiones, [!DNL Target] realiza recomendaciones para cada visitante en función de los artículos del carro de compras actual.
 
 ### Excluir elementos que ya están en el carro de compras del visitante
 
