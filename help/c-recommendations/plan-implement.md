@@ -4,9 +4,9 @@ description: 'Obtenga información sobre cómo implementar actividades de Recomm
 title: ¿Cómo Implemento Las Actividades De Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 2910fd1130030df79b96160b64e6bd1bdf295814
+source-git-commit: 802ed4cc03973ee61ff3e40930b137422868835b
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1544'
 ht-degree: 30%
 
 ---
