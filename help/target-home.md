@@ -1,13 +1,13 @@
 ---
 keywords: Target;inicio;temas populares;adobe target;standard;premium;documentación de target;documentación de adobe target;Creative Cloud
-title: ¿Dónde puedo encontrar la documentación de  [!DNL Target] ?
-description: Aprenda a utilizar Adobe [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
+title: ¿Dónde puedo encontrar la documentación de [!DNL Target] ?
+description: Aprenda a utilizar Adobe [!DNL Target] para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 28 de octubre de 2021 ( [Vea los cambios](r-release-notes/doc-change.md) )**
+**Última actualización: 28 de octubre de 2021 ([vea los cambios](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 ## Especialistas en marketing {#marketers}
 
 - [Actividades](c-activities/activities.md): explica cómo configurar, administrar y realizar controles de calidad de actividades de [!DNL Target].
-- [Audiencias](c-target/target.md): Explica cómo determinar quién ve el contenido y las experiencias en las actividades direccionadas.
+- [Audiencias](c-target/target.md): explica cómo determinar quién ve el contenido y las experiencias en las actividades direccionadas.
 - [Experiencias y ofertas](c-experiences/experiences.md): explica cómo especificar qué contenido se muestra cuando un visitante cumple los criterios de audiencia de una actividad.
 - [Recommendations](c-recommendations/recommendations.md): explica cómo las actividades de [!DNL Recommendations] muestran automáticamente productos o contenido que podrían interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
 
