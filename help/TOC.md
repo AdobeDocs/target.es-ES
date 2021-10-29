@@ -1,10 +1,10 @@
 ---
-user-guide-title: 'Guía de Adobe  [!DNL Target] '
+user-guide-title: 'Guía de Adobe [!DNL Target] '
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
 source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ ht-degree: 100%
       + Implementación de at.js {#at-js-implementation}
          + Toma de decisiones en el dispositivo {#on-device-decisioning}
             + [Información general sobre la toma de decisiones en el dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-            + [Funciones compatibles.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [Funciones compatibles](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
             + [Artefacto de regla](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
             + [Resolución de problemas](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
          + Cómo funciona at.js {#at-js}
@@ -159,7 +159,7 @@ ht-degree: 100%
       + [Toma de decisiones en el dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [Implementación híbrida](/help/c-implementing-target/hybrid-implementation.md)
    + Correo electrónico: implementación de Target {#implement-email}
-      + [Correo electrónico: información general sobre la implementación de Target.](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
+      + [Correo electrónico: información general sobre la implementación de Target](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Creación de un AdBox para una imagen](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [Comprobación de un AdBox de imagen de correo electrónico](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Trabajar con redirectores](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
@@ -288,9 +288,9 @@ ht-degree: 100%
          + [Periodo de tiempo](c-target/c-audiences/c-target-rules/time-frame.md)
          + [Informe de](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Perfil del visitante](c-target/c-audiences/c-target-rules/visitor-profile.md)
-      + [Crear una audiencia de comparación de atributos de perfil.](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
+      + [Crear una audiencia de comparación de atributos de perfil](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
    + [Combinación de varias audiencias](c-target/combining-multiple-audiences.md)
-   + [Crear una audiencia solo de actividad.](c-target/creating-activity-only-audience.md)
+   + [Crear una audiencia solo de actividad](c-target/creating-activity-only-audience.md)
    + [Filtros de audiencia para la creación de informes](c-target/managing-audience-filters.md)
    + [Aplicación de una audiencia de informes a una métrica de éxito](c-target/apply-reporting-audience-success-metric.md)
    + Perfiles de los visitantes {#visitor-profiles}
@@ -319,7 +319,7 @@ ht-degree: 100%
       + [Ventanillas móviles para las experiencias adaptables](c-experiences/c-visual-experience-composer/mobile-viewports.md)
       + [Prácticas recomendadas y limitaciones del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
       + Solución de problemas del compositor de experiencias visuales {#troubleshoot-composer}
-         + [Información general sobre la resolución de problemas del Compositor de experiencias visuales.](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+         + [Información general sobre la resolución de problemas del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [Resolución de problemas del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [Solución de problemas del Compositor de experiencias mejorado](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
