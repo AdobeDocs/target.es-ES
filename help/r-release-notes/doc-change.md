@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2909'
+source-wordcount: '2912'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | 28 de octubre | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido la información sobre las siguientes versiones:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha agregado información sobre la versión 2.7.0 de at.js. |
 |  | [Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | Se ha añadido la siguiente sección: &quot;Compatibilidad con elementos personalizados&quot;. |
-| 27 de octubre | [Planificar e implementar [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Se ha añadido información adicional sobre las recomendaciones basadas en el carro de compras. |
+| 27 de octubre | [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Se agregó información sobre las recomendaciones basadas en el carro de compras. |
 | 26 de octubre | [CNAME y [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Se ha actualizado todo el tema. |
 | 25 de octubre | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la versión de [!DNL Target Standard/Premium] 21.10.5 (28 de octubre de 2021). |
 | 22 de octubre | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Se ha añadido la sección siguiente:<ul><li>Asegúrese de que [!DNL Target] las actividades gestionan correctamente las direcciones URL con parámetros de cadena de consulta</li></ul> |

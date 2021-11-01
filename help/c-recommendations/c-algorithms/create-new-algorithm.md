@@ -1,19 +1,19 @@
 ---
-keywords: criterios;algoritmo;sector vertical;tipo de página;clave de recomendación;lógica de recomendación;intervalo de datos;ventana retrospectiva;fuente de datos de comportamiento;diseño parcial;recomendaciones de copia de seguridad;reglas de inclusión;ponderación de atributos;categoría actual;atributo personalizado;último artículo comprado;último artículo visto;último artículo visto;más visitado;más visto;categoría favorita;popularidad;último artículo visto;último comprado;más visto;favorito;visitado recientemente
+keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;lookback window;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: Aprenda a crear criterios que controlen el contenido de sus actividades de Adobe Recommendations para mostrar las recomendaciones que sean más adecuadas para su actividad.
 title: ¿Cómo creo criterios en Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2797'
-ht-degree: 54%
+source-wordcount: '2810'
+ht-degree: 53%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Crear criterios
 
-Criterios en [!UICONTROL Adobe Target] [!UICONTROL Recommendations] controle el contenido de su [!UICONTROL Recommendations] actividades. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad. Estos criterios utilizan las acciones del visitante para determinar qué contenido o productos mostrar.
+Criteria in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] control the content of your [!UICONTROL Recommendations] activities. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad. These criteria use the visitor&#39;s actions to determine which content or products to display.
 
 En las siguientes secciones se explica cómo crear un nuevo criterio.
 
@@ -22,12 +22,12 @@ En las siguientes secciones se explica cómo crear un nuevo criterio.
 Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterios]. Algunas opciones de pantalla dependen de cómo llega a la pantalla.
 
 * En el **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]** pantalla biblioteca, haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Crear criterios]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!DNL Recommendations].
-* Al crear un [!DNL Recommendations] actividad que utiliza la variable [!UICONTROL Compositor de experiencias visuales] (VEC), se le redirige inmediatamente al [!UICONTROL Seleccionar criterios] después de seleccionar un elemento en la página y hacer clic en [!UICONTROL Reemplazar con Recommendations], [!UICONTROL Insertar Recommendations antes]o [!UICONTROL Insertar Recommendations después]. A continuación, puede seleccionar un criterio disponible o hacer clic en **[!UICONTROL Crear criterios]**. Si crea un nuevo criterio, tiene la opción de guardar los criterios para usarlos con otros [!DNL Recommendations] actividades. Para obtener más información, consulte [Crear una actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* Al crear un [!DNL Recommendations] actividad que utiliza la variable [!UICONTROL Compositor de experiencias visuales] (VEC), se le redirige inmediatamente al [!UICONTROL Seleccionar criterios] después de seleccionar un elemento en la página y hacer clic en [!UICONTROL Reemplazar con Recommendations], [!UICONTROL Insertar Recommendations antes]o [!UICONTROL Insertar Recommendations después]. A continuación, puede seleccionar un criterio disponible o hacer clic en **[!UICONTROL Crear criterios]**. If you create a new criteria, you have the option to save your criteria for use with other [!DNL Recommendations] activities. Para obtener más información, consulte [Crear una actividad de Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 * Cuando esté editando una [!DNL Recommendations]actividad, haga clic en el cuadro [!UICONTROL Ubicación de Recommendations] de la página y seleccione **[!UICONTROL Cambiar criterios]**. En el [!UICONTROL Seleccionar criterios] pantalla, haga clic en **[!UICONTROL Crear criterios]**. Tendrá la opción de guardar los nuevos criterios para usarlos con otras actividades de [!DNL Recommendations].
 
-Los siguientes pasos suponen que accede a la variable [!UICONTROL Crear nuevos criterios] utilizando el primer método: el **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]** biblioteca.
+The following steps assume you access the [!UICONTROL Create New Criteria] screen by using the first method: the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen.
 
-1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]**.
+1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
 1. Haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Crear criterios]**.
 
@@ -35,7 +35,7 @@ Los siguientes pasos suponen que accede a la variable [!UICONTROL Crear nuevos c
 
 1. Configure la información en las secciones siguientes.
 
-## [!UICONTROL Información básica ] {#info}
+## [!UICONTROL Información básica] {#info}
 
 1. Escriba un **[!UICONTROL Nombre de criterio]**.
 
@@ -69,17 +69,18 @@ Los siguientes pasos suponen que accede a la variable [!UICONTROL Crear nuevos c
 
 ## [!UICONTROL Algoritmo de Recommendations] {#rec-algo}
 
-1. Seleccione un **[!UICONTROL Tipo de algoritmo]** y **[!UICONTROL Algoritmo]**:
+1. Select an **[!UICONTROL Algorithm Type]** and **[!UICONTROL Algorithm]**:
 
    ![Sección Algoritmo recomendado](assets/recommended-algorithm.png)
 
    | Tipo de algoritmo | Cuándo se utiliza | Algoritmos disponibles |
    | --- | --- | --- |
-   | [!UICONTROL Basado en popularidad] | Haga recomendaciones en función de la popularidad general de un artículo en todo el sitio o de la popularidad de artículos dentro de la categoría, marca, género, etc. favorita del usuario o los más vistos. | <ul><li>Más visitados en todo el sitio</li><li>Más visitados por categoría</li><li>Más visitados por atributo de artículo</li><li>Principales vendedores del sitio</li><li>Principales vendedores por categoría</li><li>Principales vendedores por atributo de artículo</li><li>Principales por métrica de Analytics</li></ul> |
-   | [!UICONTROL Basado en elementos] | Realice recomendaciones basadas en la búsqueda de artículos similares a un elemento que el usuario esté viendo o que haya visto recientemente. | <ul><li>Los usuarios que vieron esto, vieron aquello.</li><li>Los usuarios que vieron esto, compraron aquello.</li><li>Los usuarios que compraron esto, compraron aquello.</li><li>Elementos con atributos similares</li></ul> |
+   | [!UICONTROL Basado en el carro de compras] | Realice recomendaciones basadas en el contenido del carro de compras del usuario. | <ul><li>Los usuarios que vieron esto, vieron aquéllos</li><li>Los usuarios que vieron esto, compraron aquéllos</li><li>Las personas que compraron estos, compraron esos</li></ul>Para obtener más información, consulte [Basado en el carro de compras](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) en *Basar la recomendación en una clave de recomendación*. |
+   | [!UICONTROL Basado en popularidad] | Haga recomendaciones en función de la popularidad general de un artículo en todo el sitio o de la popularidad de artículos dentro de la categoría, marca, género, etc. favorita del usuario o los más vistos. | <ul><li>Más visitados en todo el sitio</li><li>Más visitados por categoría</li><li>Más visitados por atributo de artículo</li><li>Principales vendedores del sitio</li><li>Top Sellers by Category</li><li>Principales vendedores por atributo de artículo</li><li>Principales por métrica de Analytics</li></ul> |
+   | [!UICONTROL Item-Based] | Realice recomendaciones basadas en la búsqueda de artículos similares a un elemento que el usuario esté viendo o que haya visto recientemente. | <ul><li>Los usuarios que vieron esto, vieron aquello.</li><li>Los usuarios que vieron esto, compraron aquello.</li><li>Los usuarios que compraron esto, compraron aquello.</li><li>Elementos con atributos similares</li></ul> |
    | [!UICONTROL Basado en el usuario] | Recomendaciones basadas en el comportamiento del usuario. | <ul><li>Artículos vistos recientemente. </li><li>Recomendado para usted</li></ul> |
-   | Basado en el carro de compras | Realice recomendaciones basadas en el contenido del carro de compras del usuario. | <ul><li>Los usuarios que vieron esto, vieron aquéllos</li><li>Los usuarios que vieron esto, compraron aquéllos</li><li>Las personas que compraron estos, compraron esos</li></ul> |
-   | [!UICONTROL Criterios personalizados] | Realice recomendaciones basadas en un archivo personalizado que cargue. | <ul><li>Algoritmo personalizado</li></ul> |
+
+   |[!UICONTROL Criterios personalizados]|Realice recomendaciones basadas en un archivo personalizado que cargue.|<ul><li>Algoritmo personalizado</li></ul>|
 
 
    >[!NOTE]
@@ -88,7 +89,7 @@ Los siguientes pasos suponen que accede a la variable [!UICONTROL Crear nuevos c
 
 1. Si es necesario, seleccione una **Atributo de elemento** y **Atributo de perfil que coincida**, **Clave de recomendación**, **Tecla de filtrado** y/o **Métrica de Analytics** para configurar el algoritmo.
 
-Para obtener más información sobre cómo elegir una clave de recomendación, consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+For more information about choosing a Recommendation Key, see [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL Fuente de datos] {#data-source}
 
@@ -126,15 +127,15 @@ Para obtener más información sobre cómo elegir una clave de recomendación, c
    | Un día | El algoritmo se ejecuta cada 12-24 horas | [!UICONTROL Basado en popularidad] algoritmos |
    | Dos días | El algoritmo se ejecuta cada 12-24 horas | <ul><li>[!UICONTROL Basado en popularidad] algoritmos</li><li>[!UICONTROL Basado en elementos] algoritmos</li><li>[!UICONTROL Basado en el usuario] algoritmos</li><li>[!UICONTROL Basado en el carro de compras] algoritmos</li></ul> |
    | Una semana | El algoritmo se ejecuta cada 24-48 horas | <ul><li>[!UICONTROL Basado en popularidad] algoritmos</li><li>[!UICONTROL Basado en elementos] algoritmos</li><li>[!UICONTROL Basado en el usuario] algoritmos</li><li>[!UICONTROL Basado en el carro de compras] algoritmos</li></ul> |
-   | Dos semanas | El algoritmo se ejecuta cada 24-48 horas | <ul><li>[!UICONTROL Basado en popularidad] algoritmos</li><li>[!UICONTROL Basado en elementos] algoritmos</li><li>Todo [!UICONTROL Basado en el usuario] algoritmos</li><li>[!UICONTROL Basado en el carro de compras] algoritmos</li></ul> |
+   | Dos semanas | Algorithm runs every 24-48 hours | <ul><li>[!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Basado en elementos] algoritmos</li><li>Todo [!UICONTROL Basado en el usuario] algoritmos</li><li>[!UICONTROL Cart-Based] algorithms</li></ul> |
    | Un mes (30 días) | El algoritmo se ejecuta cada 24-48 horas | <ul><li>[!UICONTROL Basado en popularidad] algoritmos</li><li>[!UICONTROL Basado en elementos] algoritmos</li><li>[!UICONTROL Basado en el usuario] algoritmos</li><li>[!UICONTROL Basado en el carro de compras] algoritmos</li></ul> |
-   | Dos meses (61 días) | El algoritmo se ejecuta cada 24-48 horas | <ul><li>[!UICONTROL Basado en popularidad] algoritmos</li><li>[!UICONTROL Basado en elementos] algoritmos</li><li>[!UICONTROL Basado en el usuario] algoritmos</li><li>[!UICONTROL Basado en el carro de compras] algoritmos</li></ul> |
+   | Dos meses (61 días) | El algoritmo se ejecuta cada 24-48 horas | <ul><li>[!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Basado en elementos] algoritmos</li><li>[!UICONTROL Basado en el usuario] algoritmos</li><li>[!UICONTROL Basado en el carro de compras] algoritmos</li></ul> |
 
 ## [!UICONTROL Contenido de copia de seguridad] {#content}
 
-[!UICONTROL Contenido de copia de seguridad] las reglas determinan qué sucede si el número de artículos recomendados no rellena el [diseño de recomendaciones](/help/c-recommendations/c-design-overview/design-overview.md). Es posible que algunos criterios de [!DNL Recommendations] devuelvan menos recomendaciones que las que exige el diseño. Por ejemplo, si el diseño tiene espacios para cuatro artículos, pero los criterios hacen que solo se recomienden dos artículos, puede dejar vacíos los espacios restantes, puede usar recomendaciones de copia de seguridad para rellenar los espacios adicionales o puede optar por no mostrar ninguna recomendación.
+[!UICONTROL Contenido de copia de seguridad] las reglas determinan qué sucede si el número de artículos recomendados no rellena el [diseño de recomendaciones](/help/c-recommendations/c-design-overview/design-overview.md). Es posible que algunos criterios de [!DNL Recommendations] devuelvan menos recomendaciones que las que exige el diseño. As an example, if your design has slots for four items, but your criteria causes only two items to be recommended, you can leave the remaining slots empty, you can use backup recommendations to fill the extra slots, or you can choose to display no recommendations.
 
-![Sección de contenido](assets/content.png)
+![Content section](assets/content.png)
 
 1. (Opcional) Deslice la **[!UICONTROL Representación parcial de diseño]** cambie a la posición &quot;activado&quot;.
 
@@ -150,11 +151,11 @@ Para obtener más información sobre cómo elegir una clave de recomendación, c
 
    ![4 x 1 diseño](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Supongamos que los criterios hacen que solo se recomienden dos artículos. Si activa la variable [!UICONTROL Representación parcial de diseño] , las dos primeras ranuras se rellenan, pero las dos ranuras restantes permanecen vacías. Sin embargo, si activa la variable [!UICONTROL Mostrar copia de seguridad de Recommendations] , las dos primeras ranuras se rellenan según los criterios especificados y las dos ranuras restantes se rellenan según las recomendaciones de copia de seguridad.
+   Supongamos que los criterios hacen que solo se recomienden dos artículos. Si activa la variable [!UICONTROL Representación parcial de diseño] , las dos primeras ranuras se rellenan, pero las dos ranuras restantes permanecen vacías. However, if you enable the [!UICONTROL Show Backup Recommendations] option, the first two slots are filled based on your specified criteria and the remaining two slots are filled based on your backup recommendations.
 
    La siguiente matriz muestra el resultado que observará al usar la variable [!UICONTROL Representación parcial de diseño] y [!UICONTROL Contenido de copia de seguridad] opciones:
 
-   | Procesamiento de diseño parcial | Contenido de copia de seguridad | Resultado |
+   | Procesamiento de diseño parcial | Backup Content | Resultado |
    |--- |--- |--- |
    | Deshabilitado | Deshabilitado | Si se devuelven menos recomendaciones que las que llama el diseño, el diseño de recomendaciones se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
    | Habilitado | Deshabilitado | Se procesa el diseño, pero puede incluir espacio en blanco si se devuelven menos recomendaciones que las que llama el diseño. |
@@ -195,7 +196,7 @@ De forma predeterminada, todos los atributos están definidos en *Línea de base
 
 >[!NOTE]
 >
->El algoritmo de similitud de contenido puede utilizar muestreo aleatorio para calcular similitudes entre elementos. Como resultado, las clasificaciones de similitud entre artículos pueden variar entre ejecuciones de algoritmos.
+>The content similarity algorithm might use random sampling in computing similarity between items. Como resultado, las clasificaciones de similitud entre artículos pueden variar entre ejecuciones de algoritmos.
 
 ## Reglas de inclusión {#inclusion}
 

@@ -4,10 +4,10 @@ description: 'Obtenga información sobre cómo implementar actividades de Recomm
 title: ¿Cómo Implemento Las Actividades De Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 30%
+source-wordcount: '1295'
+ht-degree: 36%
 
 ---
 
@@ -94,21 +94,7 @@ function targetPageParams() {
 }
 ```
 
-La lógica de recomendación basada en el carro de compras es similar a la &quot;[!UICONTROL Recomendado]&quot; algoritmo basado en el usuario y a &quot;[!UICONTROL Los usuarios que vieron esto, compraron aquéllos]&quot; y &quot;[!UICONTROL Las personas que compraron estos, compraron esos]&quot; algoritmos basados en elementos.
-
-[!DNL Target] utiliza técnicas de filtrado colaborativas para determinar las similitudes de cada elemento del carro de compras del visitante y, a continuación, combina estas similitudes de comportamiento en cada elemento para obtener una lista combinada.
-
-[!DNL Target] también ofrece a los especialistas en marketing la opción de observar el comportamiento de los visitantes en una sola sesión o en varias sesiones:
-
-* **Dentro de una sola sesión**: En función de lo que otros visitantes hicieron dentro de una sola sesión.
-
-   Mirar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos se &quot;unen&quot; estrechamente en función de un uso, ocasión o evento. Por ejemplo, un visitante está comprando una impresora y también puede necesitar tinta y papel. O, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
-
-* **En varias sesiones**: En función de lo que otros visitantes hicieron en varias sesiones.
-
-   Ver el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; fuerza unos con otros según la preferencia o el gusto del visitante. Por ejemplo, a un visitante le gusta Star Wars y también puede gustarle Indiana Jones, aunque no necesariamente quiera ver ambas películas en la misma sesión. O, a un visitante le gusta el juego de tablero &quot;Codenames&quot; y también el juego de tablero &quot;Avalon&quot;, aunque el visitante no pueda jugar ambos juegos simultáneamente. 
-
-[!DNL Target] realiza recomendaciones para cada visitante en función de los artículos del carro de compras actual, independientemente de si observa el comportamiento de los visitantes en una sola sesión o en varias sesiones.
+Para obtener más información, consulte [!UICONTROL Basado en el carro de compras] recomendaciones, consulte [Basado en el carro de compras](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) en *Basar la recomendación en una clave de recomendación*.
 
 ### Excluir elementos que ya están en el carro de compras del visitante
 
