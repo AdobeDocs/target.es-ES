@@ -4,10 +4,10 @@ description: Aprenda a crear criterios que controlen el contenido de sus activid
 title: ¿Cómo creo criterios en Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2797'
-ht-degree: 54%
+source-wordcount: '2832'
+ht-degree: 53%
 
 ---
 
@@ -87,7 +87,9 @@ Los siguientes pasos suponen que accede a la variable [!UICONTROL Crear nuevos c
 
 1. Si es necesario, seleccione una **Atributo de elemento** y **Atributo de perfil que coincida**, **Clave de recomendación**, **Tecla de filtrado** y/o **Métrica de Analytics** para configurar el algoritmo.
 
-Para obtener más información sobre cómo elegir una clave de recomendación, consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+Las demás opciones de configuración del algoritmo varían en función del algoritmo seleccionado. Para finalizar la configuración del algoritmo, seleccione una [!UICONTROL Clave de recomendación], [!UICONTROL Tecla de filtrado], [!UICONTROL Base de coincidencia], [!UICONTROL Métrica de Analytics]y/o [!UICONTROL Atributo de elemento] y [!UICONTROL Atributo de perfil que coincida].
+
+Para obtener más información sobre cómo elegir un [!UICONTROL Clave de recomendación], consulte [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL Fuente de datos] {#data-source}
 
