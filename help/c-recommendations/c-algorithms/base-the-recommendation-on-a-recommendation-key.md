@@ -5,9 +5,9 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
 workflow-type: tm+mt
-source-wordcount: '3850'
+source-wordcount: '3834'
 ht-degree: 41%
 
 ---
@@ -25,10 +25,6 @@ Hay cinco tipos de algoritmos en [!DNL Target Recommendations]:
 * [!UICONTROL Criterios personalizados]
 
 Cada tipo de algoritmo proporciona distintos algoritmos apropiados para su tipo, como se muestra en la siguiente tabla:
-
->[!NOTE]
->
->La variable [!UICONTROL Basado en el carro de compras] se describe en la siguiente tabla y está a punto de llegar.
 
 | Tipo de algoritmo | Cuándo se utiliza | Algoritmos disponibles |
 | --- | --- | --- |
@@ -54,11 +50,11 @@ La lógica de recomendación basada en el carro de compras es similar a la &quot
 
 [!DNL Target] también ofrece a los especialistas en marketing la opción de observar el comportamiento de los visitantes en una sola sesión o en varias sesiones:
 
-* **Dentro de una sola sesión**: En función de lo que otros visitantes hicieron dentro de una sola sesión.
+* **[!UICONTROL Sesión única]**: En función de lo que otros visitantes hicieron dentro de una sola sesión.
 
    Mirar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos se &quot;unen&quot; estrechamente en función de un uso, ocasión o evento. Por ejemplo, un visitante está comprando una impresora y también puede necesitar tinta y papel. O, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
 
-* **En varias sesiones**: En función de lo que otros visitantes hicieron en varias sesiones.
+* **[!UICONTROL Entre sesiones]**: En función de lo que otros visitantes hicieron en varias sesiones.
 
    Ver el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; fuerza unos con otros según la preferencia o el gusto del visitante. Por ejemplo, a un visitante le gusta Star Wars y también puede gustarle Indiana Jones, aunque no necesariamente quiera ver ambas películas en la misma sesión. O, a un visitante le gusta el juego de tablero &quot;Codenames&quot; y también el juego de tablero &quot;Avalon&quot;, aunque el visitante no pueda jugar ambos juegos simultáneamente. 
 
