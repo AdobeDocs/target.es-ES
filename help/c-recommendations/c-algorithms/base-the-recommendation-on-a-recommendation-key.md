@@ -5,9 +5,9 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
+source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
 workflow-type: tm+mt
-source-wordcount: '3834'
+source-wordcount: '3820'
 ht-degree: 41%
 
 ---
@@ -16,19 +16,11 @@ ht-degree: 41%
 
 Recommendations, basado en algoritmos, utiliza el contexto de comportamiento del visitante para mostrar resultados relevantes en [!DNL Adobe Target] [!DNL Recommendations] actividades.
 
-Hay cinco tipos de algoritmos en [!DNL Target Recommendations]:
-
-* [!UICONTROL Basado en el carro de compras]
-* [!UICONTROL Basado en popularidad]
-* [!UICONTROL Basado en elementos]
-* [!UICONTROL Basado en el usuario]
-* [!UICONTROL Criterios personalizados]
-
 Cada tipo de algoritmo proporciona distintos algoritmos apropiados para su tipo, como se muestra en la siguiente tabla:
 
 | Tipo de algoritmo | Cuándo se utiliza | Algoritmos disponibles |
 | --- | --- | --- |
-| [!UICONTROL Basado en el carro de compras] | (Próximamente) Haga recomendaciones en función del contenido del carro de compras del usuario. | <ul><li>Los usuarios que vieron esto, vieron aquéllos</li><li>Los usuarios que vieron esto, compraron aquéllos</li><li>Las personas que compraron estos, compraron esos</li></ul> |
+| [!UICONTROL Basado en el carro de compras] | Realice recomendaciones basadas en el contenido del carro de compras del usuario. | <ul><li>Los usuarios que vieron esto, vieron aquéllos</li><li>Los usuarios que vieron esto, compraron aquéllos</li><li>Las personas que compraron estos, compraron esos</li></ul> |
 | [!UICONTROL Basado en popularidad] | Haga recomendaciones en función de la popularidad general de un artículo en todo el sitio o de la popularidad de artículos dentro de la categoría, marca, género, etc. favorita del usuario o los más vistos. | <ul><li>Más visitados en todo el sitio</li><li>Más visitados por categoría</li><li>Más visitados por atributo de artículo</li><li>Principales vendedores del sitio</li><li>Principales vendedores por categoría</li><li>Principales vendedores por atributo de artículo</li><li>Principales por métrica de Analytics</li></ul> |
 | [!UICONTROL Basado en elementos] | Realice recomendaciones basadas en la búsqueda de artículos similares a un elemento que el usuario esté viendo o que haya visto recientemente. | <ul><li>Los usuarios que vieron esto, vieron aquello.</li><li>Los usuarios que vieron esto, compraron aquello.</li><li>Los usuarios que compraron esto, compraron aquello.</li><li>Elementos con atributos similares</li></ul> |
 | [!UICONTROL Basado en el usuario] | Recomendaciones basadas en el comportamiento del usuario. | <ul><li>Artículos vistos recientemente. </li><li>Recomendado para usted</li></ul> |
