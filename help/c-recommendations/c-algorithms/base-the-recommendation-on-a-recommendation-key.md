@@ -5,10 +5,10 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '3820'
-ht-degree: 41%
+source-wordcount: '3877'
+ht-degree: 40%
 
 ---
 
@@ -44,7 +44,7 @@ La lógica de recomendación basada en el carro de compras es similar a la &quot
 
 * **[!UICONTROL Sesión única]**: En función de lo que otros visitantes hicieron dentro de una sola sesión.
 
-   Mirar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos se &quot;unen&quot; estrechamente en función de un uso, ocasión o evento. Por ejemplo, un visitante está comprando una impresora y también puede necesitar tinta y papel. O, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
+   Mirar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos se &quot;unen&quot; fuertemente en función de un uso, una ocasión o un evento. Por ejemplo, un visitante está comprando una impresora y también puede necesitar tinta y papel. O, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
 
 * **[!UICONTROL Entre sesiones]**: En función de lo que otros visitantes hicieron en varias sesiones.
 
@@ -139,7 +139,11 @@ Si selecciona el algoritmo Más visitados por categoría , puede seleccionar las
 
 ### Más visitados por atributo de artículo
 
-(Próximamente habrá información)
+Recomienda artículos o medios similares a los artículos o medios más vistos del sitio.
+
+Este algoritmo le permite seleccionar el atributo del elemento en el que desea basar la recomendación, por ejemplo, en &quot;Nombre&quot; o &quot;Marca&quot;.
+
+A continuación, seleccione qué atributos de perfil se almacenan en el perfil del visitante para que coincidan, por ejemplo, &quot;Marca favorita&quot;, &quot;Último artículo agregado al carro de compras&quot; o &quot;Programa más visitado&quot;.
 
 ### Principales vendedores del sitio {#top-sellers}
 
@@ -168,7 +172,7 @@ Si selecciona el algoritmo Más visitados por categoría , puede seleccionar las
 
 ## [!UICONTROL Basado en elementos]
 
-La variable [!UICONTROL Basado en elementos] el tipo de recomendación le permite hacer recomendaciones en función de encontrar artículos similares a los que el usuario está viendo o que ha visto recientemente.
+La variable [!UICONTROL Basado en elementos] el tipo de recomendación permite hacer recomendaciones en función de encontrar artículos similares a los que el usuario está viendo o que ha visto recientemente.
 
 Los siguientes algoritmos están disponibles con la variable [!UICONTROL Basado en elementos] tipo de algoritmo:
 
