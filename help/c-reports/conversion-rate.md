@@ -1,19 +1,19 @@
 ---
 keywords: Segmentación
-description: Descubra cómo Adobe [!DNL Target] muestra y calcula la tasa de conversión, el alza, la confianza (relevancia estadística) y el intervalo de confianza para cada experiencia.
+description: Descubra cómo Adobe [!DNL Target] muestra y calcula la tasa de conversión, el alza, la confianza y el intervalo de confianza para cada experiencia.
 title: ¿Cómo puedo ver la tasa de conversión, el alza y el nivel de confianza?
-feature: Informes
+feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 68%
+source-wordcount: '2136'
+ht-degree: 58%
 
 ---
 
 # Tasa de conversión
 
-De cada experiencia, se informa de la tasa de conversión, el alza, la confianza (relevancia estadística) y el intervalo de confianza.
+La tasa de conversión, el alza, la confianza y el intervalo de confianza se incluyen en los informes para cada experiencia.
 
 La siguiente ilustración muestra el encabezado de gráfico de una actividad de muestra, con los encabezados [!UICONTROL Tasa de conversión], [!UICONTROL Alza] y [!UICONTROL Confianza] destacados.
 
@@ -45,44 +45,25 @@ Alza = (tasa de conversión de la experiencia - tasa de conversión de control):
 
 Si el control es 0, no existe alza de porcentaje.
 
-## Confianza (relevancia estadística)   {#section_35DB6724813D40C7B0808DE18FE595C1}
-
-Este número indica la probabilidad de que los resultados se dupliquen si la prueba se realiza de nuevo. La confianza se redondea al 100,00 % cuando la confianza es superior o igual al 99,995 %.
-
-Consulte [Nivel de confianza e intervalo de confianza](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Datos comerciales {#section_30A674731BA6440E9BB93C421BE990EE}
 
-Si ha insertado un mbox Realizar pedido (`orderConfirmPage`) y lo ha seleccionado como mbox de conversión, se muestran los datos de AOV, RPV y ventas de cada experiencia.
+Si ha insertado un pedido (`orderConfirmPage`) y lo seleccionó como mbox de conversión.
 
-## Nivel de confianza e intervalo de confianza {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Intervalo de confianza {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
-En cada experiencia se muestran el nivel de confianza y el intervalo de confianza.
-
-Las conversiones y las variables continuas para métricas basadas en Target, como las métricas de ingresos y participación, se calculan del siguiente modo:
-
-* **Conversión:** sí o no
-* **El resto:** valores de un rango
+Para cada experiencia, se muestran la confianza y el intervalo de confianza.
 
 Puede realizar cálculos sin conexión en for Target (A4T), pero tendrá que realizar un paso de exportaciones de datos en [!DNL Analytics]Analytics. Para obtener más información, véase “Realización de cálculos sin conexión en Analytics for Target (A4T)”, más adelante.
 
-### Nivel de confianza {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
+### Confianza {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-El *nivel de confianza* se representa por medio de un porcentaje más oscuro en la columna Tasa de conversión de cada experiencia.
+La confianza de una experiencia u oferta que se muestra es una probabilidad (expresada como porcentaje) de obtener un resultado menos extremo que el que se observa realmente, si la hipótesis nula es verdadera, es decir, si no hay diferencia en las tasas de conversión entre esa experiencia u oferta y la experiencia/oferta de control. En términos de valores p, esta confianza mostrada es 1 - valor p. Dicho de forma más sencilla, una mayor confianza indica que los datos son menos coherentes con el supuesto de que la oferta/experiencia de control y no de control tienen tasas de conversión iguales. La confianza se redondea al 100,00 % cuando la confianza es superior o igual al 99,995 %.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
-El nivel de confianza (o relevancia estadística) indica en qué medida el éxito de una experiencia no depende del azar. Un nivel de confianza elevado pone de manifiesto lo siguiente:
+Antes de tomar una decisión empresarial, espere a que el tamaño de la muestra sea lo suficientemente grande y que las cuatro barras de confianza de una o varias experiencias se mantengan constantes durante un periodo de tiempo ininterrumpido. De este modo, se asegurará de que los resultados son estables.
 
-* El rendimiento de la experiencia es considerablemente distinto al del control.
-* El rendimiento de la experiencia no se debe simplemente al ruido.
-* Si realizara esta prueba de nuevo, probablemente obtendría los mismos resultados.
-
-En caso de que el nivel de confianza supere el 90% o 95%, el resultado se puede considerar estadísticamente relevante. Antes de tomar una decisión empresarial, espere a que el tamaño de la muestra sea lo suficientemente grande y que las cuatro barras de confianza de una o varias experiencias se mantengan constantes durante un periodo de tiempo ininterrumpido. De este modo, se asegurará de que los resultados son estables.
-
->[!NOTE]
->
->La confianza se redondea al 100,00 % cuando la confianza es superior o igual al 99,995 %.
 
 ### Intervalo de confianza {#section_F582738DFE1648C78B93D81EBC6CACF7}
 
@@ -90,11 +71,11 @@ En caso de que el nivel de confianza supere el 90% o 95%, el resultado se puede 
 >
 >Actualmente, el intervalo de confianza solo se calcula para las métricas binarias.
 
-El *intervalo de confianza* es un intervalo en el que se puede encontrar el valor verdadero en cualquier nivel de confianza. El intervalo de confianza aparece como un porcentaje positivo o negativo de color gris claro en la columna Tasa de conversión. En el ejemplo siguiente, el intervalo de confianza de alza de la Experiencia B es más o menos 15,65%.
+La variable *intervalo de confianza* es un rango de estimaciones dentro del cual el valor verdadero de la métrica se puede encontrar en un nivel de confianza determinado. Target siempre muestra intervalos de confianza del 95 %. El intervalo de confianza aparece como un porcentaje positivo o negativo de color gris claro en la columna Tasa de conversión. En el ejemplo siguiente, el intervalo de confianza de alza de la Experiencia B es más o menos 15,65%.
 
 ![](assets/conversion_rate.png)
 
-**Ejemplo:** El RPV de una experiencia es 10 $, su nivel de confianza es 95% y su **intervalo de confianza** es 5 $ a 15 $. Si ejecutáramos esta prueba varias veces, el 95% del tiempo el RPV estaría entre 5 $ y 15 $.
+**Ejemplo:** El RPV observado en una experiencia es de 10 dólares y su 95% **intervalo de confianza** es de 5 a 15 dólares. Desconocido para nosotros, su verdadero RPV es $12. Entonces, si ejecutamos esta prueba varias veces, el 95 % del tiempo que calculamos el intervalo de confianza contendrá la variable _true_ valor del RPV de $12.
 
 **¿Qué afecta al intervalo de confianza?** La fórmula sigue métodos estadísticos estándar para calcular intervalos de confianza.
 
@@ -105,7 +86,7 @@ El *intervalo de confianza* es un intervalo en el que se puede encontrar el valo
 
 El [informe CSV descargado](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) solo contiene datos sin procesar; no incluye métricas calculadas, como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B.
 
-Para calcular estas métricas calculadas, descargue el archivo de Excel [Calculadora de confianza completa](/help/assets/complete_confidence_calculator.xlsx) de Target para introducir el valor de la actividad o revisar los [cálculos estadísticos utilizados por Target](/help/assets/statistical-calculations.pdf).
+Para calcular estas métricas calculadas, descargue el informe [Calculadora de confianza completa](/help/assets/complete_confidence_calculator.xlsx) Archivo de Excel para introducir el valor de la actividad o revisar el [cálculos estadísticos utilizados por Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -115,7 +96,7 @@ Para calcular estas métricas calculadas, descargue el archivo de Excel [Calcula
 
 Puede realizar cálculos sin conexión para A4T, pero es necesario realizar un paso de exportaciones de datos en [!DNL Analytics].
 
-Para A4T empleamos un cálculo t-test de estudiante con variables continuas (en vez de métricas binarias). En Analytics, siempre se realiza un seguimiento de los visitantes y se cuenta toda acción realizada. Por tanto, si el visitante realiza varias compras o visita varias veces una métrica de éxito, todas estas visitas adicionales se cuentan. Esto convierte la métrica en una variable continua. Para realizar el cálculo de la prueba T de estudiante, se necesita la &quot;suma de los cuadrados&quot; para calcular la varianza, que se utiliza en el denominador de la estadística t. [Este documento explica los ](/help/assets/statistical-calculations.pdf) detalles de las fórmulas matemáticas utilizadas. La suma de los cuadrados se puede recuperar de [!DNL Analytics]. Para obtener datos de la suma de los cuadrados, debe realizar una exportación en el nivel de visitante de la métrica que desea optimizar durante un periodo de muestra.
+Para A4T empleamos un cálculo t-test de estudiante con variables continuas (en vez de métricas binarias). En Analytics, siempre se realiza un seguimiento de los visitantes y se cuenta toda acción realizada. Por tanto, si el visitante realiza varias compras o visita varias veces una métrica de éxito, todas estas visitas adicionales se cuentan. Esto convierte la métrica en una variable continua. Para realizar el cálculo de la prueba T de estudiante, se necesita la &quot;suma de los cuadrados&quot; para calcular la varianza, que se utiliza en el denominador de la estadística t. [Este documento explica los detalles](/help/assets/statistical-calculations.pdf) de las fórmulas matemáticas utilizadas. La suma de los cuadrados se puede recuperar de [!DNL Analytics]. Para obtener datos de la suma de los cuadrados, debe realizar una exportación en el nivel de visitante de la métrica que desea optimizar durante un periodo de muestra.
 
 Por ejemplo, si está optimizando las vistas de página por visitante, exportaría una muestra del número total de vistas de página por cada visitante durante un tiempo concreto, tal vez un par de días (no necesita más que unos pocos miles de puntos de datos). A continuación, elevaría al cuadrado cada valor y sumaría los totales (en este caso, el orden de las operaciones es esencial). Este valor “suma de los cuadrados” se utiliza en la calculadora de confianza completa. Para estos valores, utilice la sección “ingresos” de dicha hoja de cálculo.
 
@@ -185,26 +166,26 @@ Puede visualizar informes siguiendo las siguientes metodologías de contabilizac
 >
 >Los recuentos se suelen determinar a partir de las cookies y la actividad de la sesión. Sin embargo, si se alcanza el punto de conversión final de una actividad y se vuelve a entrar en ella, se le considerará un visitante nuevo y una nueva visita a la actividad. Esto ocurre incluso cuando los valores de PCID y `sessionID` no han variado.
 
-## ¿Por qué [!DNL Target] recomienda utilizar las pruebas T de estudiante? {#t-test}
+## Why [!DNL Target] ¿recomienda utilizar las pruebas T de estudiante? {#t-test}
 
 Las pruebas A/B son experimentos para comparar el valor medio de alguna métrica comercial en una variante de control (también conocida como experiencia) con el valor medio de esa misma métrica en una o más experiencias alternativas.
 
-[!DNL Target] recomienda utilizar dos pruebas T de  [estudiante](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.) de muestra, ya que requieren menos suposiciones que otras alternativas, como las pruebas z, y son la prueba estadística adecuada para hacer comparaciones por pares de métricas empresariales (cuantitativas) entre experiencias de control y experiencias alternativas.
+[!DNL Target] recomienda usar [Prueba T de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test), ya que requieren menos supuestos que alternativas como las pruebas z, y son la prueba estadística adecuada para hacer comparaciones por pares de métricas empresariales (cuantitativas) entre experiencias de control y experiencias alternativas.
 
 ### Más información
 
 Al ejecutar pruebas A/B en línea, cada usuario/visitante se asigna aleatoriamente a una sola variante. Posteriormente, realizamos mediciones de las métricas de interés del negocio (por ejemplo: conversiones, pedidos, ingresos, etc.) para los visitantes de cada variante. La prueba estadística que utilizamos luego prueba la hipótesis de que la métrica comercial media (por ejemplo, tasa de conversión, pedidos por usuario, ingresos por usuario, etc.) es igual para el control y una variante alternativa determinada.
 
-Aunque la propia métrica del negocio puede distribuirse según alguna distribución arbitraria, la distribución de la media de esta métrica (dentro de cada variante) debe converger a una distribución normal a través del [Teorema del límite central](https://en.wikipedia.org/wiki/Central_limit_theorem). Tenga en cuenta que, aunque no hay garantía de la rapidez con la que esta distribución de muestreo de la media converja a la normalidad, esta condición se suele lograr dada la escala de visitantes en las pruebas en línea.
+Aunque la propia métrica comercial puede distribuirse de acuerdo con alguna distribución arbitraria, la distribución de la media de esta métrica (dentro de cada variante) debe converger a una distribución normal a través de la variable [Teorema de límite central](https://en.wikipedia.org/wiki/Central_limit_theorem). Tenga en cuenta que, aunque no hay garantía de la rapidez con la que esta distribución de muestreo de la media converja a la normalidad, esta condición se suele lograr dada la escala de visitantes en las pruebas en línea.
 
-Dada esta normalidad de la media, se puede mostrar que la estadística de prueba que se va a utilizar sigue una distribución t, ya que es la proporción de un valor distribuido normalmente (la diferencia en los medios de la métrica empresarial) con un término de escala basado en una estimación de los datos (el error estándar de la diferencia en los medios). La **prueba t del estudiante** es entonces la prueba de hipótesis adecuada, dado que la estadística de prueba sigue una distribución t.
+Dada esta normalidad de la media, se puede mostrar que la estadística de prueba que se va a utilizar sigue una distribución t, ya que es la proporción de un valor distribuido normalmente (la diferencia en los medios de la métrica empresarial) con un término de escala basado en una estimación de los datos (el error estándar de la diferencia en los medios). La variable **t-test** es entonces la prueba de hipótesis adecuada, dado que la estadística de prueba sigue una distribución t.
 
 ### Por qué no se utilizan otras pruebas
 
-Una **z-test** no es apropiada porque en el escenario típico de prueba A/B, el denominador de la estadística de prueba no se deriva de una varianza conocida, sino que debe estimarse a partir de los datos.
+A **z-test** no es técnicamente apropiado porque en el escenario típico de prueba A/B, el denominador de la estadística de prueba no se deriva de una varianza conocida, sino que debe estimarse a partir de los datos. Sin embargo, para muestras suficientemente grandes, la prueba z y la prueba t son idénticas.
 
-**No se utilizan** pruebas Chi-squared porque son adecuadas para determinar si existe una relación cualitativa entre dos variantes (es decir, una hipótesis nula de que no hay diferencia entre variantes). Las pruebas T son más adecuadas para el escenario de _comparación cuantitativa_ de métricas.
+**Pruebas Chi cuadradas** no se utilizan porque son adecuados para determinar si existe una relación cualitativa entre dos variantes (es decir, una hipótesis nula de que no hay diferencia entre variantes). Las pruebas T son más adecuadas para el escenario de _cuantitativamente_ comparación de métricas.
 
-La **prueba U de Mann-Whitney** es una prueba no paramétrica, que es apropiada cuando la distribución de muestreo de la métrica comercial media (para cada variante) no se distribuye normalmente. Sin embargo, como se ha comentado anteriormente, dada la magnitud del tráfico involucrado en las pruebas en línea, el teorema de límite central suele aplicarse, y por lo tanto la prueba t puede aplicarse de forma segura.
+La variable **Prueba U de Mann-Whitney** es una prueba no paramétrica, que es adecuada cuando la distribución por muestreo de la métrica media de negocio (para cada variante) no se distribuye normalmente. Sin embargo, como se ha comentado anteriormente, dada la magnitud del tráfico involucrado en las pruebas en línea, el teorema de límite central suele aplicarse, y por lo tanto la prueba t puede aplicarse de forma segura.
 
-Se pueden aplicar métodos más complejos como **ANOVA** (que generalizan pruebas t a más de dos variantes) cuando una prueba tiene más de dos experiencias (&quot;pruebas A/Bn&quot;). Sin embargo, ANOVA responde a la pregunta de &quot;si todas las variantes tienen la misma media&quot;, mientras que en la prueba A/Bn típica nos interesa más _qué variante específica_ es la mejor. En [!DNL Target], por lo tanto, se aplican pruebas t normales comparando cada variante con un control, con una corrección de Bonferroni para tener en cuenta múltiples comparaciones.
+Métodos más complejos como **ANOVA** (que generalizan pruebas t a más de dos variantes) se pueden aplicar cuando una prueba tiene más de dos experiencias (&quot;pruebas A/Bn&quot;). Sin embargo, ANOVA responde a la pregunta de &quot;si todas las variantes tienen la misma media&quot;, mientras que en la prueba A/Bn típica estamos más interesados en _que variante específica_ es mejor. En [!DNL Target], por lo tanto, aplicamos pruebas t normales comparando cada variante con un control, con una corrección de Bonferroni para tener en cuenta múltiples comparaciones.
