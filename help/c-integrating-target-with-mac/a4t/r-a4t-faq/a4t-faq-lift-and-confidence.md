@@ -4,9 +4,9 @@ description: Encuentre respuestas a preguntas sobre el alza y la confianza al us
 title: ¿Dónde puedo encontrar información sobre el alza y la confianza con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ Algunos ejemplos de métricas o casos de uso no compatibles son:
 
 ## ¿Cómo gestiona A4T los cálculos de confianza?   {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T calcula los valores de confianza/p de una manera diferente a las pruebas t normales mediante métricas binarias. En concreto, los cálculos utilizados por A4T permiten que cada usuario tenga un resultado de métrica continuo (no solo 1 o 0 por cada usuario), de modo que la varianza (o, en relación, la desviación estándar) de cada experiencia debe calcularse exactamente. No se tienen en cuenta los pedidos extremos. Además, el cálculo de confianza no aplica una corrección de Bonferroni para varias ofertas.
+[!DNL Adobe Analytics] trata todas las métricas como no binarias y, por lo tanto, calcula los valores de confianza/p de una manera diferente al uso de métricas binarias en una prueba t normal. En concreto, los cálculos utilizados por A4T permiten que cada usuario tenga un resultado de métrica continuo (no solo 1 o 0 por cada usuario), de modo que la varianza (o, en relación, la desviación estándar) de cada experiencia se debe calcular adecuadamente. No se tienen en cuenta los pedidos extremos. Además, el cálculo de confianza no aplica una corrección de Bonferroni para varias ofertas.
 
 ## ¿El alza y la confianza funcionan en las soluciones Ad Hoc y Report Builder? Si no es una opción ya integrada, ¿puedo usar esas soluciones para hacerlo yo? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 

@@ -4,10 +4,10 @@ description: Descubra cómo Adobe [!DNL Target] muestra y calcula la tasa de con
 title: ¿Cómo puedo ver la tasa de conversión, el alza y el nivel de confianza?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 58%
+source-wordcount: '2138'
+ht-degree: 59%
 
 ---
 
@@ -50,7 +50,7 @@ Si el control es 0, no existe alza de porcentaje.
 
 Si ha insertado un pedido (`orderConfirmPage`) y lo seleccionó como mbox de conversión.
 
-## Intervalo de confianza {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Nivel de confianza e intervalo de confianza {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 Para cada experiencia, se muestran la confianza y el intervalo de confianza.
 
@@ -58,7 +58,9 @@ Puede realizar cálculos sin conexión en for Target (A4T), pero tendrá que rea
 
 ### Confianza {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-La confianza de una experiencia u oferta que se muestra es una probabilidad (expresada como porcentaje) de obtener un resultado menos extremo que el que se observa realmente, si la hipótesis nula es verdadera, es decir, si no hay diferencia en las tasas de conversión entre esa experiencia u oferta y la experiencia/oferta de control. En términos de valores p, esta confianza mostrada es 1 - valor p. Dicho de forma más sencilla, una mayor confianza indica que los datos son menos coherentes con el supuesto de que la oferta/experiencia de control y no de control tienen tasas de conversión iguales. La confianza se redondea al 100,00 % cuando la confianza es superior o igual al 99,995 %.
+La confianza de una experiencia u oferta que se muestra es una probabilidad (expresada como porcentaje) de obtener un resultado menos extremo que el que se observa realmente, si la hipótesis nula es verdadera (en esencia, si no hay diferencia en las tasas de conversión entre esa experiencia u oferta y la experiencia/oferta de control). En términos de valores p, esta confianza mostrada es 1 - valor p. Dicho de forma más sencilla, una mayor confianza indica que los datos son menos coherentes con el supuesto de que la oferta/experiencia de control y no de control tienen tasas de conversión iguales.
+
+La confianza se redondea al 100,00 % cuando la confianza es superior o igual al 99,995 %.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
