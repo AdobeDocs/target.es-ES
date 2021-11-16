@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0a39adb3194acf4d5c4827658aff008db5248f33
+source-git-commit: b063432da8690a25c3178c286075b7c930fe4891
 workflow-type: tm+mt
-source-wordcount: '2920'
-ht-degree: 98%
+source-wordcount: '2976'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Noviembre de 16 | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado el documento &quot;¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite al VEC y EEC?&quot; con información sobre la versión más reciente de la extensión de ayuda. |
+|  | [Extensión del Helper del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Se ha actualizado la sección &quot;Obtener e instalar la extensión del explorador VEC Helper&quot;. |
 | Noviembre de 12 | [Integrar [!DNL Recommendations] con correo electrónico](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Se ha añadido nueva información introductoria. |
 | 28 de octubre | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido la información sobre las siguientes versiones:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha agregado información sobre la versión 2.7.0 de at.js. |
