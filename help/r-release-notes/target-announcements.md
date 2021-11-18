@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,27 +18,27 @@ Anuncios e información acerca de próximos eventos, incluidas sesiones de Gener
 ## [!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (10 de noviembre de 2021)
 
 * **Miércoles, 10 de noviembre de 2021**
-* **8:00 a.m. (PST, UTC -8)**
-* **[Más información e información de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
+* **8:00 a. m. (PST, UTC -8)**
+* **[Más información e información de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696?profile.language=es)**
 
-Cristinel &quot;Muti&quot; Anastasoaie, responsable de producto principal de [!DNL Adobe Target], responderá a sus preguntas relativas a sus áreas de experiencia:
+Cristinel “Muti”Anastasoaie, responsable de producto sénior de [!DNL Adobe Target], responderá a sus preguntas relativas a sus áreas de experiencia:
 
-* [!DNL Target] interfaz de usuario
+* Interfaz de usuario de [!DNL Target]
 * [!DNL Target] integraciones
 * [!UICONTROL Permisos de Enterprise] y [!UICONTROL espacios de trabajo]
 
-## [!DNL Adobe Target] Descanso de café de la comunidad (8 de diciembre de 2021)
+## Coffee Break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (8 de diciembre de 2021)
 
 * **Miércoles, 8 de diciembre de 2021**
-* **8:00 a.m. (PST, UTC -8)**
-* **[Más información e información de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+* **8:00 a. m. (PST, UTC -8)**
+* **[Más datos e información de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697?profile.language=es)**
 
-Robert Calangiu, director de producto sénior de [!DNL Adobe Target], responderá a sus preguntas relativas a sus áreas de experiencia:
+Robert Calangiu, responsable de producto sénior de [!DNL Adobe Target], responderá preguntas relativas a sus áreas de experiencia:
 
-* [!DNL Target] configuración y IU de administración
-* [!UICONTROL Analytics para Target] Integración (A4T)
-* [!DNL Adobe Audience Manager] (AEM) integración
-* General [!DNL Target] IU
+* Configuración e IU de administración de [!DNL Target]
+* Integración de [!UICONTROL Analytics for Target] (A4T)
+* Integración de [!DNL Adobe Audience Manager] (AEM)
+* IU general de [!DNL Target]
 
 ## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de Adobe Target
 
@@ -64,7 +64,7 @@ Las demandas de los consumidores evolucionan rápidamente, y HSBC ha adoptado la
 
 *Artículo de McKinsey: “[La recuperación de la COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”, mayo de 2020
 
-## Generador de habilidades de Adobe [!DNL Target]: Chat del desarrollador, migrar el mbox.js de Adobe [!DNL Target] a at.js {#skill-builder}
+## Generador de habilidades de Adobe [!DNL Target]：Chat del desarrollador, migrar el mbox.js de Adobe [!DNL Target] a at.js {#skill-builder}
 
 Ante la obsolescencia de mbox.js el 31 de marzo de 2021, David Son, gestor de producto de Adobe Target, organizó recientemente un chat para desarrolladores con el fin de analizar las ventajas de migrar mbox.js a at.js.
 
