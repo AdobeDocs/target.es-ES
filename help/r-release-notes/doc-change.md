@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 885510848b141b646971658e2fd20440d2344efc
+source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
-source-wordcount: '3017'
+source-wordcount: '3045'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Noviembre de 18 | [Modificaciones](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Se ha añadido una nota en la fila Mbox que indica que ya no se admiten mboxes en la variable [!UICONTROL Compositor de experiencias visuales] (VEC) en páginas que utilizan at.js 2.*x*. |
 | Noviembre de 16 | [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Se ha añadido información sobre las limitaciones relacionadas con las cargas de archivos con un vínculo a [Acerca del archivo de datos y las fuentes de datos para los Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) en el *Guía de componentes de la interfaz central del Experience Cloud*. |
 |  | [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Se ha actualizado el documento &quot;¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite al VEC y EEC?&quot; con información sobre la versión más reciente de la extensión de ayuda. |
 |  | [Extensión del Helper del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Se ha actualizado la sección &quot;Obtener e instalar la extensión del explorador VEC Helper&quot;. |
