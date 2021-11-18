@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 68%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Si su página no muestra el contenido esperado, puede seguir algunos pasos que l
 * Utilice mboxTrace o mboxDebug para solucionar los problemas de la petición de [!DNL Target].
 * Use Adobe Experience Cloud Debugger, una sencilla herramienta que ofrece gran parte de la información que proporciona mboxDebug, para solucionar los problemas de petición de [!DNL Target].
 
-mboxDebug es especialmente útil cuando se configura [!DNL Target] en su página para asegurarse de que la solicitud de Target se está activando y que la cookie se está configurando. Sin embargo, no muestra el tipo de detalles que resulta útil cuando se quiere depurar la publicación de contenido. Si su actividad no se muestra en la página o se muestra contenido no deseado, utilice mboxTrace para examinar la página y depurarla en detalle.
+mboxDebug resulta especialmente útil para configurar [!DNL Target] en la página, para asegurarse de que se activa la petición de Target y se establece la cookie. Sin embargo, no muestra el tipo de detalles que resulta útil cuando se quiere depurar la publicación de contenido. Si su actividad no se muestra en la página o se muestra contenido no deseado, utilice mboxTrace para examinar la página y depurarla en detalle.
 
 ## Recuperar el token de autorización para utilizarlo con las herramientas de depuración {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -65,7 +65,7 @@ Están disponibles los siguientes parámetros:
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-El resultado muestra información detallada sobre el contenido. mboxTrace muestra detalles sobre su campaña o actividad y perfil. También proporciona una instantánea del perfil antes de la ejecución y una instantánea de los cambios después de la ejecución. También muestra qué campañas o actividades se evaluaron para cada ubicación.
+El resultado muestra información detallada acerca de su contenido. mboxTrace muestra los detalles acerca de su campaña o su actividad y perfil. También ofrece una instantánea del perfil antes de la ejecución y una instantánea de lo que cambió después de la ejecución. También muestra qué campañas o actividades se evaluaron para cada ubicación.
 
 Entre esta información se incluyen los ID de objetivo y los segmentos con coincidencia y sin coincidencia.
 
@@ -85,7 +85,7 @@ Entre esta información se incluyen los ID de objetivo y los segmentos con coinc
 
 No tiene que incluir  `=console`, `=json` ni `=window` en el parámetro de consulta. Cuando termine con los detalles de mboxTrace, agregue `=disable` y pulse **[!UICONTROL Intro]** para volver al modo de visualización normal.
 
-mboxTrace no afecta a la apariencia ni al funcionamiento normal de su sitio. Los visitantes ven su diseño normal de Recommendations.
+mboxTrace no afecta a la apariencia ni al funcionamiento normal de su sitio. Los visitantes ven su diseño habitual de Recommendations.
 
 ## mboxDebug {#mboxdebug}
 
@@ -114,7 +114,7 @@ Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla 
 
 Para obtener más información, consulte los vídeos de formación siguientes:
 
-Para obtener información más detallada, consulte [Depurar at.js con Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Para obtener información más detallada, consulte [Depuración de at.js con Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Los principales vendedores no aparecen en Recommendations.  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -136,7 +136,7 @@ Si su sitio tiene un subdominio, como [!DNL us.domain.com], pero necesita establ
 
 Si un elemento DOM es parte de una segmentación de personalización de Adobe Experience Manager (AEM) y una actividad de Target, el contenido de Target puede parpadear o no mostrarse.
 
-Para solucionar esta situación, puede desactivar AEM personalización en las páginas en las que se está ejecutando Target.
+A fin de remediar esto, puede deshabilitar la personalización de AEM en las páginas en las que Target se está ejecutando.
 
 ## Las ofertas de redirección y remotas no se pueden entregar debido a una dirección URL no válida.  {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -154,39 +154,39 @@ Puede comprobar la respuesta [!DNL Target] en el explorador, o utilizando mboxTr
 
 at.js no activa solicitudes de Target si utiliza un doctype no válido. at.js requiere el tipo de documento HTML 5.
 
-## Asegúrese de que [!DNL Target] las actividades gestionan correctamente las direcciones URL con parámetros de cadena de consulta. {#query-strings}
+## Asegúrese de que las actividades de [!DNL Target] gestionan correctamente las direcciones URL con parámetros de cadena de consulta. {#query-strings}
 
-La variable [!UICONTROL URL de actividad] determina la página que clasifica a los visitantes para la actividad y presenta las experiencias de actividad a los usuarios. Cuando se le solicita durante la creación de la actividad, escribir la dirección URL completa no siempre garantiza que el contenido se envíe en esa página del sitio, especialmente con las direcciones URL que contienen parámetros de cadena de consulta.
+La [!UICONTROL URL de actividad] determina la página que clasifica a los visitantes para la actividad y presenta las experiencias de actividad a los usuarios. Cuando se le solicita durante la creación de la actividad escribir la dirección URL completa no siempre garantiza que el contenido se envíe en esa página del sitio, especialmente con las direcciones URL que contienen parámetros de cadena de consulta.
 
-De forma predeterminada, la variable [!UICONTROL Compositor de experiencias visuales] (VEC) abre la página que se especifica en su [Configuración del Compositor de experiencias visuales](/help/administrating-target/visual-experience-composer-set-up.md). También puede especificar una página diferente durante la creación de la actividad.
+De manera predeterminada, el [!UICONTROL Compositor de experiencias visuales] (VEC) abre la página que se ha especificado en [Configuración del Compositor de experiencias visuales](/help/administrating-target/visual-experience-composer-set-up.md). También puede especificar una página diferente durante la creación de la actividad.
 
-Para mostrar una página diferente después de que se abra el VEC, haga clic en el **[!UICONTROL Configuración del icono de engranaje]** > seleccione **[!UICONTROL Entrega de páginas]** > y luego especifique la dirección URL que desee en la [!UICONTROL URL de actividad] campo .
+Para mostrar una página diferente después de que se abra el VEC, haga clic en **[!UICONTROL el icono de engranaje de Configurar]** > seleccione **[!UICONTROL Entrega de páginas]** > y especifique la URL en el campo [!UICONTROL URL de actividad].
 
-![Configuración de la interfaz de usuario de Entrega de páginas](assets/configure-page-delivery.png)
+![Configuración de la IU de entrega de páginas](assets/configure-page-delivery.png)
 
-Pero, ¿qué sucede si la dirección URL contiene parámetros de cadena de consulta? ¿Funcionará y mostrará el contenido personalizado? En este escenario, independientemente de la audiencia de destino, puede incluir reglas de plantilla además de la dirección URL base para definir los parámetros de consulta.
+Pero ¿qué sucede si la dirección URL contiene parámetros de cadena de consulta? ¿Funcionará y mostrará el contenido personalizado? En este escenario, independientemente de la audiencia de destino, puede incluir reglas de plantilla además de la dirección URL base para definir los parámetros de consulta.
 
 Se pueden utilizar las siguientes opciones para incluir reglas de plantilla adicionales:
 
-### Opción 1: Repita la dirección URL y manténgala en la regla de plantilla con la opción &quot;contiene&quot;.
+### Opción 1: Replique la dirección URL y manténgala en la regla de plantilla con la opción “contiene”.
 
-Esta opción garantiza que esta dirección URL cumpla los requisitos de la actividad, pero tenga en cuenta que hay casos de esquina que pueden influir en los datos de informes con registros adicionales a las direcciones URL que contienen la dirección URL base.
+Esta opción garantiza que esta dirección URL cumpla los requisitos de la actividad, pero tenga en cuenta que hay casos límite que pueden influir en los datos de informes con registros adicionales a las direcciones URL que contienen la dirección URL base.
 
-En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20Offers` y reglas de plantilla adicionales &quot;contiene&quot; la misma dirección URL, separada por un operador OR:
+En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20Offers` y las reglas de plantilla adicionales “contienen” la misma dirección URL, separadas por un operador OR:
 
-![Replicar URL en reglas de plantilla](assets/option1.png)
+![Replicación de URL en reglas de plantilla](assets/option1.png)
 
-### Opción 2: Restringir la condición &quot;contiene&quot; de la dirección URL con solo la cadena de consulta.
+### Opción 2: Restrinja la condición “contiene” de la dirección URL con solo la cadena de consulta.
 
-El caso de esquina que se discute en la opción anterior se aplica en esta opción, pero aquí la configuración condicional está limitada únicamente a la cadena de consulta.
+El caso límite que se discute en la opción anterior se aplica en esta opción, pero aquí la configuración condicional está limitada únicamente a la cadena de consulta.
 
-En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20Offers` y reglas de plantilla adicionales &quot;contiene&quot; solamente la cadena de consulta, separada por un operador OR:
+En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20Offers` y las reglas de plantilla adicionales “contienen” solo la cadena de consulta, separadas por un operador OR:
 
 ![La regla de plantilla solo contiene la cadena de consulta](assets/option2.png)
 
-### Opción 3: En lugar de segmentar la dirección URL completa, aproveche una parte específica de la dirección URL.
+### Opción 3: en lugar de segmentar la dirección URL completa, aproveche una parte específica.
 
-En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20Offers` y las reglas de plantilla adicionales especifican un [!UICONTROL Consulta] con [!UICONTROL type] > [!UICONTROL es (con distinción de mayúsculas y minúsculas)] > type=Summers%20Offers, separadas por un operador OR:
+En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20Offers` y las reglas de plantilla adicionales especifican una [!UICONTROL Consulta] con [!UICONTROL tipo] > [!UICONTROL es (con distinción de mayúsculas y minúsculas)] > type=Summers%20Offers, separadas por un operador OR:
 
 ![Regla de plantilla que aprovecha una parte específica de la URL](assets/option3.png)
 

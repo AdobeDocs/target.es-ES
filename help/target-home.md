@@ -1,7 +1,7 @@
 ---
 keywords: Target;inicio;temas populares;adobe target;standard;premium;documentación de target;documentación de adobe target;Creative Cloud
 title: ¿Dónde puedo encontrar la documentación de [!DNL Target] ?
-description: Aprenda a utilizar Adobe [!DNL Target] para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
+description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
