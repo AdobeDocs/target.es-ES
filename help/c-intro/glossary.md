@@ -1,12 +1,12 @@
 ---
 description: ¿Qué significan los distintos términos que se usan en Adobe  [!DNL Target] ? Encuentre definiciones de términos comunes para ayudarle a sacar más partido a  [!DNL Target].
 title: ¿Dónde puedo encontrar los términos y definiciones que se usan en Target?
-feature: Información general
+feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
-workflow-type: ht
-source-wordcount: '2417'
-ht-degree: 100%
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+workflow-type: tm+mt
+source-wordcount: '2425'
+ht-degree: 99%
 
 ---
 
@@ -227,6 +227,10 @@ Una actividad de página de aterrizaje le permite usar la segmentación para mos
 **mbox**
 
 “mbox de marketing”, es decir, la ubicación de la página web donde se muestra contenido y se registra el comportamiento de los visitantes. Algunos mboxes no muestran nada. Estos pueden realizar el seguimiento del progreso de un visitante a través del sitio web o rastrear si el visitante completa una métrica de éxito específica como, por ejemplo, añadir un artículo al carro de compras o realizar una compra. Uno de estos tipos de mbox es un *mbox de conversión*.
+
+**mbox.js**
+
+A [!DNL Target] Biblioteca de implementación de JavaScript que ha quedado obsoleta.
 
 **parámetro de mbox**
 

@@ -4,9 +4,9 @@ description: Busque sugerencias para solucionar problemas si la página no muest
 title: ¿Cómo se pueden solucionar los problemas en la entrega de contenido?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1630'
 ht-degree: 68%
 
 ---
@@ -56,7 +56,7 @@ Están disponibles los siguientes parámetros:
 
 | Opciones de mboxTrace | Resultado |
 |--- |--- |
-| `?mboxTrace=console` | Imprime en el registro de la consola como objetos.<br>Para at.js, en lugar de abrir una nueva ventana del explorador o generar la salida a la consola, como se hacía en mbox.js, debe inspeccionar la solicitud de red y mirar en la opción de vista previa (Chrome) o en la opción de respuesta (Firefox). |
+| `?mboxTrace=console` | Imprime en el registro de la consola como objetos.<br>Para at.js, en lugar de abrir una nueva ventana del explorador o generar la salida a la consola, como se hacía en mbox.js (ahora obsoleto), debe inspeccionar la solicitud de red y mirar en la opción de vista previa (Chrome) o en la opción de respuesta (Firefox). |
 | `?mboxTrace=json` | Imprime en el registro de la consola como una cadena JSON literal |
 | `?mboxTrace=window` | Imprime en una ventana emergente como una cadena JSON |
 | `?mboxTrace=disable` | Desactiva el modo de sesión de seguimiento. |

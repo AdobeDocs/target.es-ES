@@ -4,10 +4,10 @@ description: Aprenda a integrar el correo electrónico con la API de entrega de 
 title: ¿Cómo integrar Recommendations con el correo electrónico?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 81%
+source-wordcount: '1712'
+ht-degree: 80%
 
 ---
 
@@ -82,7 +82,7 @@ Consulte la [documentación de la API de envío](https://developers.adobetarget.
 
 ## Método 2: Uso de una plantilla de correo electrónico de rawbox {#rawbox}
 
-Un rawbox es parecido a una solicitud de mbox, pero para entornos que no son de web, como los proveedores de servicios de correo electrónico (ESP). Dado que no tiene [!DNL mbox.js] o [!DNL at.js] para utilizarlos en las solicitudes rawbox, debe crear las solicitudes manualmente. Los siguientes ejemplos explican cómo trabajar con las solicitudes rawbox en correos electrónicos.
+Un rawbox es parecido a una solicitud de mbox, pero para entornos que no son de web, como los proveedores de servicios de correo electrónico (ESP). Porque no tienes el [!DNL Adobe Experience Platform Web SDK] o [!DNL at.js] para utilizarlas en las solicitudes rawbox, debe crear las solicitudes manualmente. Los siguientes ejemplos explican cómo trabajar con las solicitudes rawbox en correos electrónicos.
 
 >[!NOTE]
 >

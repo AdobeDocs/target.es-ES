@@ -1,15 +1,14 @@
 ---
 keywords: eventos personalizados;at.js;solicitud fallida;solicitud correcta;error de procesamiento de contenido;procesamiento de contenido correcto;biblioteca cargada;solicitar inicio;inicio de procesamiento de contenido;contenido no procesa ofertas;redirección de representación de contenido
-description: Utilice eventos personalizados para que la biblioteca JavaScript de Adobe [!DNL Target] at.js reciba notificaciones cuando una oferta o una solicitud de mbox se procesen correcta o incorrectamente.
+description: Usar eventos personalizados para el Adobe [!DNL Target] biblioteca JavaScript at.js para recibir notificaciones cuando una oferta o una solicitud de mbox se procesen correcta o incorrectamente.
 title: ¿Cómo utilizo los eventos personalizados de at.js?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 87%
+source-wordcount: '656'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 87%
 
 Información sobre `at.js custom events`, le avisa cuando una oferta o una solicitud de mbox se procesa correcta o incorrectamente.
 
-Históricamente, mbox.js impedía a otros códigos de JavaScript que se ejecutaban en la página saber lo que pasaba entre bastidores. Con el adelanto de at.js, tuvimos una oportunidad única de arreglar este problema.
+Históricamente, mbox.js (ahora obsoleto) no permitía a otros códigos JavaScript que se ejecutan en la página saber lo que sucede entre bastidores. Con el adelanto de at.js, tuvimos una oportunidad única de arreglar este problema.
 
 Nuestros clientes nos han contado que les gustaría recibir notificación sobre varias situaciones, entre otras:
 
@@ -38,7 +37,7 @@ Para asegurarse de que los eventos se puedan usar en distintos casos, los evento
 | mbox | Cadena | nombre de mbox |
 | message | Cadena | Contiene una descripción legible por humanos, como lo que sucedió, el mensaje de error, etc. |
 | seguimiento | Objeto | Contiene el `sessionId` y `deviceId`. En algunos casos, el `deviceId` podría no estar porque [!DNL Target] no lo pudo recuperar del servidor Edge. |
-| type | Cadena | **El artefacto de toma de decisiones en el dispositivo**<br> se ejecuta correctamenteConstante:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>Valor de cadena:  `artifactDownloadSucceeded`<br>Descripción: Se llama cuando el artefacto de toma de decisiones en el dispositivo se descarga correctamente.<br>**Fallo del artefacto de toma de decisiones en el dispositivo**<br> Constante:  `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>Valor de cadena:  `artifactDownloadFailed`<br>Descripción: Se llama cuando el artefacto de toma de decisiones en el dispositivo no se puede descargar. |
+| type | Cadena | **El artefacto de toma de decisiones en el dispositivo se ha realizado correctamente**<br> Constante:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>Valor de cadena: `artifactDownloadSucceeded`<br>Descripción: Se llama cuando el artefacto de toma de decisiones en el dispositivo se descarga correctamente.<br>**Error en el artefacto de toma de decisiones en el dispositivo**<br> Constante: `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>Valor de cadena: `artifactDownloadFailed`<br>Descripción: Se llama cuando el artefacto de toma de decisiones en el dispositivo no se puede descargar. |
 
 ## Uso {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
@@ -48,7 +47,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## Vídeo de formación: Tokens de respuesta y eventos personalizados ![ de at.jsDistintivo de tutorial](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
+## Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js ![Distintivo del tutorial](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
 Vea el siguiente vídeo para aprender a utilizar los tokens de respuesta y los eventos personalizados de at.js con el fin de compartir información de perfil de Target con sistemas de terceros.
 

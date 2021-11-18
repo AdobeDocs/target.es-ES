@@ -1,14 +1,14 @@
 ---
-keywords: implementación;mbox.js no javascript;AdBox;redirector;mbox
-description: Aprenda a implementar el Adobe [!DNL Target] en escenarios que no sean de JavaScript, como usar un AdBox o un redirector.
-title: ¿Cómo implemento [!DNL Target] para el correo electrónico?
-feature: Implementación del correo electrónico
+keywords: Implementación;at.js no javascript;AdBox;redirector;mbox
+description: Obtenga información sobre cómo implementar el Adobe [!DNL Target] en situaciones que no sean de JavaScript, como el uso de un AdBox o un redirector.
+title: ¿Cómo puedo implementar? [!DNL Target] para correo electrónico?
+feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 81%
+source-wordcount: '432'
+ht-degree: 78%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 81%
 
 Información acerca de la implementación de Target en situaciones sin JavaScript, como el uso de un AdBox o un redirector.
 
-Puede realizar un seguimiento de las visitas a los anuncios y otro contenido sin conexión. También se puede identificar al mismo usuario en el sitio y fuera de él y ofrecer una experiencia coherente en la web. Con una sola dirección URL, el AdBox permite realizar pruebas sin JavaScript, [!DNL at.js] o [!DNL mbox.js].
+Puede realizar un seguimiento de las visitas a los anuncios y otro contenido sin conexión. También se puede identificar al mismo usuario en el sitio y fuera de él y ofrecer una experiencia coherente en la web. Con una sola dirección URL, el adbox permite realizar pruebas sin JavaScript o [!DNL at.js].
 
-Un adbox es útil para sitios que no tienen [!DNL at.js], como los afiliados. En caso de que la actividad necesite elementos creativos dinámicos (por ejemplo, debe mostrar un producto en la publicidad que no llegó a completarse en el carro de compras), no podrá usar un AdBox.
+Un AdBox es útil para sitios que no tienen [!DNL at.js], como los afiliados. En caso de que la actividad necesite elementos creativos dinámicos (por ejemplo, debe mostrar un producto en la publicidad que no llegó a completarse en el carro de compras), no podrá usar un AdBox.
 
 Tanto la publicidad de AdBox como redirector se pueden usar en cualquier tipo de actividad. En la siguiente tabla se comparan un redirector y un AdBox, y se indica cuándo usar cada uno de ellos:
 

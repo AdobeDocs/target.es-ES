@@ -1,14 +1,13 @@
 ---
 keywords: mbox global;Target Classic;usar mbox global desde Target Classic
-description: Aprenda a utilizar un mbox global heredado para sus actividades de Adobe [!DNL Target] si ya ha creado un mbox global en sus páginas para sus implementaciones heredadas.
+description: Aprenda a utilizar un mbox global heredado para su Adobe [!DNL Target] actividades si ya ha creado un mbox global en sus páginas para implementaciones heredadas.
 title: ¿Puedo usar un mbox global desde una implementación heredada?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 36%
 
 ---
@@ -23,17 +22,17 @@ De forma predeterminada, [!DNL Target] crea un mbox global denominado target-glo
 
 Para usar un mbox global existente tanto para [!DNL Target] como para su implementación heredada, es necesario configurar algunos parámetros.
 
-1. Vaya a [!DNL Target] y haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
+1. Vaya a [!DNL Target]y haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
 
-   De forma predeterminada, **[!UICONTROL Page load enabled (Crear automáticamente mbox global]** está habilitado y el mbox global personalizado se llama `target-global-mbox`.
+   De forma predeterminada, **[!UICONTROL Carga de página habilitada (Crear automáticamente mbox global)]** está habilitado y el nombre del mbox global personalizado es `target-global-mbox`.
 
-1. Si desea utilizar un mbox existente, deshabilite **[!UICONTROL Page load enabled (Creación automática de mbox global]**) y especifique el nombre de un mbox global creado anteriormente en el campo **[!UICONTROL Global Mbox]**.
+1. Si desea usar un mbox existente, deshabilite **[!UICONTROL Carga de página habilitada (Crear automáticamente mbox global)]** y especifique el nombre de un mbox global creado anteriormente en la variable **[!UICONTROL Mbox global]** campo .
 
-   La lista desplegable [!UICONTROL Global Mbox] muestra todos los mboxes de la cuenta. Si desea utilizar un mbox que aún no existe, créelo.
+   La variable [!UICONTROL Mbox global] lista desplegable de todos los mboxes de la cuenta. Si desea utilizar un mbox que aún no existe, créelo.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   Se actualiza la configuración de mbox.js de la cuenta.
+   Se actualiza la configuración de de la cuenta.
 
 1. Descargue el nuevo archivo at.js y haga referencia a él en su sitio.
 
@@ -45,4 +44,4 @@ Se pueden usar las preguntas más frecuentes siguientes para solucionar problema
 
 ### ¿Por qué no se está cargando el mbox global, o por qué hay una latencia en la carga del mbox global cuando se carga la página?
 
-Asegúrese de que la referencia de at.js sea la primera llamada de JavaScript en la página. Para conocer otras soluciones a este problema, consulte [Preguntas más frecuentes de mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).
+Asegúrese de que la referencia de at.js sea la primera llamada de JavaScript en la página. Para conocer otras soluciones a este problema, consulte [Preguntas más frecuentes sobre mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).

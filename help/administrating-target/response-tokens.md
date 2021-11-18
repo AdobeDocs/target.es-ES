@@ -1,11 +1,11 @@
 ---
 keywords: tokens de respuesta;tokens;complementos;complementos;at.js;respuesta;sdk web de plataforma
-description: Aprenda a utilizar tokens de respuesta en [!DNL Adobe Target] para obtener información específica sobre la salida para depurar e integrar con herramientas de terceros.
+description: Aprenda a utilizar tokens de respuesta en [!DNL Adobe Target] para obtener información específica sobre la salida para la depuración y la integración con herramientas de terceros.
 title: ¿Qué son los tokens de respuesta y cómo se utilizan?
-feature: Administración y configuración
+feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: b7e9fdb3bb6cd3edafc30e6d7efc749c14dc828d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 27%
@@ -14,9 +14,9 @@ ht-degree: 27%
 
 # Tokens de respuesta
 
-Los tokens de respuesta le permiten generar automáticamente información específica de [!DNL Adobe Target] en la página web de su marca. Esta información puede incluir detalles sobre la actividad, la oferta, la experiencia, el perfil de usuario, la información geográfica, etc. Estos detalles proporcionan datos de respuesta adicionales para compartirlos con herramientas internas o de terceros, o para usarlos para la depuración.
+Los tokens de respuesta le permiten generar automáticamente información específica de [!DNL Adobe Target] a la página web de su marca. Esta información puede incluir detalles sobre la actividad, la oferta, la experiencia, el perfil de usuario, la información geográfica, etc. Estos detalles proporcionan datos de respuesta adicionales para compartirlos con herramientas internas o de terceros, o para usarlos para la depuración.
 
-Los tokens de respuesta le permiten elegir qué variables (en pares de valor clave) utilizar y, a continuación, habilitarlas para que se envíen como parte de una respuesta [!DNL Target]. Se habilita una variable mediante el conmutador y la variable se envía con respuestas [!DNL Target], que pueden validarse en llamadas de red. Los tokens de respuesta también funcionan en modo [!UICONTROL Preview].
+Los tokens de respuesta le permiten elegir qué variables (en pares de valor clave) utilizar y, a continuación, habilitarlas para que se envíen como parte de una [!DNL Target] respuesta. Se habilita una variable mediante el conmutador y la variable se envía con [!DNL Target] respuestas, que pueden validarse en llamadas de red. Los tokens de respuesta también funcionan en [!UICONTROL Vista previa] en el menú contextual.
 
 Una diferencia clave entre complementos y tokens de respuesta es que los complementos envían JavaScript a la página que se ejecuta al realizar el envío. Sin embargo, los tokens de respuesta envían un objeto que luego se puede leer y sobre el que se puede actuar utilizando detectores de eventos. El enfoque de token de respuesta es más seguro y permite un desarrollo y mantenimiento más sencillos de las integraciones de terceros.
 
@@ -26,8 +26,8 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
 
 | SDK de Target | Acciones sugeridas |
 |--- |--- |
-| [SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Compruebe que está utilizando Platform Web SDK versión 2.6.0 o posterior. Para obtener información sobre la descarga de la última versión del SDK web de Platform, consulte [Instalar el SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en la guía *Información general del SDK web de Platform*. Para obtener información sobre las nuevas funciones de cada versión del SDK web de Platform, consulte [Notas de la versión](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) en la guía *Información general del SDK web de Platform*. |
-| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre la descarga de la versión más reciente de at.js, consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Para obtener más información sobre las funcionalidades en cada versión de at.js, consulte [Detalles de la versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Se envían algunos complementos que dependen de métodos internos existentes en mbox.js, pero no en at.js, pero que no funcionan. |
+| [SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Compruebe que está utilizando Platform Web SDK versión 2.6.0 o posterior. Para obtener información sobre la descarga de la última versión del SDK web de Platform, consulte [Instalación del SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en el *Información general del SDK web de plataforma* guía. Para obtener información sobre las nuevas funciones de cada versión del SDK web de Platform, consulte [Notas de la versión](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) en el *Información general del SDK web de plataforma* guía. |
+| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre la descarga de la versión más reciente de at.js, consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Para obtener más información sobre las funcionalidades en cada versión de at.js, consulte [Detalles de la versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Algunos complementos que dependen de métodos internos existentes en mbox.js (ahora obsoletos), pero no en at.js, se entregan pero no funcionan. |
 
 ## Uso de tokens de respuesta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -35,8 +35,8 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
 
    Para obtener más información:
 
-   * **SDK** web de plataforma: Consulte  [Instalar el ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) SDK en la guía de  *descripción general del SDK web de* plataforma .
-   * **at.js**: Consulte  [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   * **SDK web de plataforma**: Consulte [Instalación del SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en el *Información general del SDK web de plataforma* guía.
+   * **at.js**: Consulte [Descargar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 1. En [!DNL Target], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Tokens de respuesta]**.
 
@@ -48,7 +48,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
 
    | Tipo | Parámetro | Notas |
    |--- |--- |--- |
-   | Perfiles integrados | `profile.activeActivities` | Devuelve una matriz de los `activityIds` para los que el visitante está cualificado. Aumenta a medida que los usuarios se cualifican. Por ejemplo, en una página con dos solicitudes [!DNL Target] que ofrecen dos actividades diferentes, la segunda solicitud incluye ambas actividades. |
+   | Perfiles integrados | `profile.activeActivities` | Devuelve una matriz de los `activityIds` para los que el visitante está cualificado. Aumenta a medida que los usuarios se cualifican. Por ejemplo, en una página con dos [!DNL Target] solicitudes que envían dos actividades diferentes, la segunda solicitud incluye ambas actividades. |
    |  | `profile.isFirstSession` | Devuelve “true” o “false”. |
    |  | `profile.isNewSession` | Devuelve “true” o “false”. |
    |  | `profile.daysSinceLastVisit` | Devuelve el número de días desde la última visita del visitante. |
@@ -59,7 +59,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
    |  | `profile.categoryAffinities` | Devuelve una matriz de las cinco principales categorías del visitante en forma de cadenas. |
    | Actividad | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Detalles sobre la actividad actual. Tenga en cuenta que “opción” es igual a “oferta”. |
    | Geografía | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Para obtener más información acerca del uso de la segmentación geográfica en las actividades, consulte [Geografía](/help/c-target/c-audiences/c-target-rules/geo.md). |
-   | Método de asignación de tráfico<br>(solo se aplica a las actividades [!UICONTROL Segmentación automática] y [!UICONTROL Automated Personalization]). | `experience.trafficAllocationId` | Devuelve 0 si un visitante ha recibido una experiencia por estar en tráfico de &quot;control&quot; y 1 si un visitante ha recibido una experiencia de la distribución de tráfico &quot;segmentada&quot;. |
+   | Método de asignación de tráfico<br>(se aplica a [!UICONTROL Segmentación automática] y [!UICONTROL Automated Personalization] solo actividades). | `experience.trafficAllocationId` | Devuelve 0 si un visitante ha recibido una experiencia por estar en tráfico de &quot;control&quot; y 1 si un visitante ha recibido una experiencia de la distribución de tráfico &quot;segmentada&quot;. |
    |  | `experience.trafficAllocationType` | Devuelve &quot;control&quot; o &quot;segmentado&quot;. |
 
    Los atributos del perfil de usuario y los atributos de cliente también se muestran en la lista.
@@ -68,7 +68,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
    >
    >Los parámetros con caracteres especiales no se muestran en la lista. Se admiten únicamente caracteres alfanuméricos y guiones bajos.
 
-1. (Condicional) Para utilizar un parámetro de perfil como token de respuesta, pero el parámetro no se ha pasado a través de una solicitud [!DNL Target] y, por lo tanto, no se ha cargado en la interfaz de usuario [!DNL Target], puede utilizar el botón [!UICONTROL Añadir token de respuesta] para añadir el perfil a la interfaz de usuario.
+1. (Condicional) Para usar un parámetro de perfil como token de respuesta, pero el parámetro no se ha pasado a través de un [!DNL Target] y, por lo tanto, no se ha cargado en la variable [!DNL Target] La interfaz de usuario de puede usar la variable [!UICONTROL Agregar token de respuesta] para añadir el perfil a la interfaz de usuario.
 
    Haga clic en **[!UICONTROL Agregar token de respuesta]**, proporcione el nombre del token y haga clic en **[!UICONTROL Activar]**.
 
@@ -78,13 +78,13 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
 
 ## Escuchar respuestas y leer tokens de respuesta
 
-El proceso que utiliza para detectar [!DNL Target] respuestas y leer tokens de respuesta varía en función de si tiene una implementación [!DNL Platform Web SDK] o at.js.
+El proceso que utiliza para escuchar [!DNL Target] las respuestas y los tokens de respuesta de lectura difieren en función de si tiene un [!DNL Platform Web SDK] o implementación de at.js.
 
-### ![Distintivo del SDK web de Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] mediante la clase Handle object {#platform-web-sdk}
+### ![Distintivo del SDK web de Adobe Experience Platform](/help/assets/platform.png) [!DNL Platform Web SDK] uso de la clase Handle object {#platform-web-sdk}
 
-Utilice la clase Handle object , que tiene un objeto de metadatos y un objeto de datos para detectar respuestas [!DNL Target] y leer los tokens de respuesta.
+Utilice la clase Handle object , que tiene un objeto de metadatos y un objeto de datos que escuchar [!DNL Target] respuestas y lea los tokens de respuesta.
 
-En el siguiente ejemplo de respuesta se agrega un controlador de evento personalizado [!DNL Platform Web SDK] directamente a la página HTML (la tabla explica los objetos utilizados en el código):
+El siguiente ejemplo de respuesta agrega un [!DNL Platform Web SDK] controlador de eventos personalizado directamente en la página HTML (la tabla explica los objetos utilizados en el código):
 
 | Objeto | Información |
 | --- | --- |
@@ -147,7 +147,7 @@ En el siguiente ejemplo de respuesta se agrega un controlador de evento personal
 </html>
 ```
 
-### ![at.js ](/help/assets/atjs.png) badgeat.js mediante eventos personalizados
+### ![Distintivo de at.js](/help/assets/atjs.png) at.js mediante eventos personalizados
 
 Utilice [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) para detectar la respuesta de y leer los tokens de respuesta.[!DNL Target]
 
@@ -174,9 +174,9 @@ El siguiente ejemplo de código añade un controlador de evento personalizado [!
 
 **¿Qué rol se necesita para activar o desactivar tokens de respuesta?**
 
-Solo los usuarios con la función [!DNL Target] [!UICONTROL Administrator] pueden activar o desactivar los tokens de respuesta.
+Los tokens de respuesta solo los usuarios que utilicen la variable [!DNL Target] [!UICONTROL Administrador] función.
 
-**¿Qué sucede si ejecuto  [!DNL Platform Web SDK] 2.6.0 (o una versión anterior)?**
+**¿Qué sucede si se ejecuta [!DNL Platform Web SDK] 2.6.0 (o anterior)?**
 
 No tiene acceso a los tokens de respuesta.
 
@@ -188,13 +188,13 @@ Verá los tokens de respuesta, pero at.js no puede utilizarlos.
 
 Los complementos y los tokens de respuesta están disponibles en paralelo; sin embargo, los complementos quedarán obsoletos en el futuro.
 
-**¿Los tokens de respuesta se envían a través de todas las  [!DNL Target] respuestas o solo a través de  [!DNL Target] respuestas que envían una actividad?**
+**Los tokens de respuesta se entregan a través de todas las [!DNL Target] respuestas o solo mediante [!DNL Target] respuestas que envían una actividad**
 
-Los tokens de respuesta solo se entregan mediante respuestas [!DNL Target] que envían una actividad.
+Los tokens de respuesta solo se entregan mediante [!DNL Target] respuestas que envían una actividad .
 
-**Mi  [!DNL Target Classic] complemento incluía JavaScript. ¿Cómo replico su funcionalidad mediante tokens de respuesta?**
+**My [!DNL Target Classic] complemento incluido JavaScript. ¿Cómo replico su funcionalidad mediante tokens de respuesta?**
 
-Al migrar a tokens de respuesta, este tipo de JavaScript debe mantenerse en la base de código o en la solución de administración de etiquetas. Puede almacenar en déclencheur este código mediante eventos personalizados [!DNL Platform Web SDK] o [!DNL at.js] y pasar los valores de token de respuesta a sus funciones JavaScript.
+Al migrar a tokens de respuesta, este tipo de JavaScript debe mantenerse en la base de código o en la solución de administración de etiquetas. Puede almacenar en déclencheur este código mediante [!DNL Platform Web SDK] o [!DNL at.js] eventos personalizados y pase los valores de token de respuesta a sus funciones de JavaScript.
 
 **¿Por qué mi perfil o el parámetro de atributos de cliente no se muestra en la lista de tokens de respuesta?**
 
@@ -218,15 +218,15 @@ Como se ha mencionado anteriormente, los tokens de respuesta operan con la infor
 
 ## Envío de datos a los Google Analytics
 
-En las secciones siguientes se describe cómo enviar datos [!DNL Target] a los Google Analytics. Los datos enviados por tokens de respuesta también se pueden enviar a otras integraciones de terceros.
+Las secciones siguientes describen cómo enviar [!DNL Target] a los Google Analytics. Los datos enviados por tokens de respuesta también se pueden enviar a otras integraciones de terceros.
 
-### ![Distintivo de AEP](/help/assets/platform.png) Envío de datos a los Google Analytics a través del SDK web de Platform
+### ![Distintivo de AEP](/help/assets/platform.png) Envío de datos a los Google Analytics mediante el SDK web de Platform
 
 Se pueden enviar datos a los Google Analytics a través de Platform Web SDK versión 2.6.0 (o posterior) añadiendo el siguiente código en la página HTML.
 
 >[!NOTE]
 >
->Asegúrese de que el par de valor de clave de token de respuesta está bajo el objeto `alloy(“sendEvent”` .
+>Asegúrese de que el par de valor de clave de token de respuesta está debajo de la variable `alloy(“sendEvent”` objeto.
 
 ```
 <script type="text/javascript"> 
@@ -277,7 +277,7 @@ Se pueden enviar datos a los Google Analytics a través de Platform Web SDK vers
 </script>
 ```
 
-### ![Insignia at.js ](/help/assets/atjs.png) Envío de datos a los Google Analytics a través de at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![Distintivo de at.js](/help/assets/atjs.png) Envío de datos a los Google Analytics mediante at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Es posible enviar datos a Google Analytics mediante at.js añadiendo el siguiente código en la página HTML:
 
@@ -347,7 +347,7 @@ Es posible enviar datos a Google Analytics mediante at.js añadiendo el siguient
 
 Las secciones siguientes proporcionan información sobre la depuración de tokens de respuesta:
 
-### ![Insignia at.js ](/help/assets/atjs.png) Google Analytics y depuración
+### ![Distintivo de at.js](/help/assets/atjs.png) Google Analytics y depuración
 
 El siguiente código permite depurar mediante Google Analytics:
 
@@ -464,12 +464,12 @@ Puede crearse el equivalente del complemento ttMeta para depuración añadiendo 
 </script>
 ```
 
-## ![Vídeo de at.](/help/assets/atjs.png) jsTraining: Tokens de respuesta y eventos personalizados de at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.js](/help/assets/atjs.png) Vídeo de formación: Tokens de respuesta y eventos personalizados de at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-En el siguiente vídeo se explica cómo usar tokens de respuesta y eventos personalizados de at.js para compartir información de perfil de [!DNL Target] a sistemas de terceros.
+En el siguiente vídeo se explica cómo usar tokens de respuesta y eventos personalizados de at.js para compartir información de perfil desde [!DNL Target] a sistemas de terceros.
 
 >[!NOTE]
 >
->La interfaz de usuario del menú [!DNL Target] [!UICONTROL Administration] (anteriormente [!UICONTROL Setup]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información contenida en el siguiente vídeo es correcta; sin embargo, las opciones se encuentran en ubicaciones ligeramente diferentes.
+>La variable [!DNL Target] [!UICONTROL Administración] interfaz de usuario del menú (anteriormente [!UICONTROL Configuración]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información contenida en el siguiente vídeo es correcta; sin embargo, las opciones se encuentran en ubicaciones ligeramente diferentes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)

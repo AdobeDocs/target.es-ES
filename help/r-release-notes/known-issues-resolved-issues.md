@@ -4,10 +4,10 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4503'
-ht-degree: 100%
+source-wordcount: '4504'
+ht-degree: 98%
 
 ---
 
@@ -244,9 +244,9 @@ Este problema se solucionó en la versión 19.7.1 de Target.
 
 En la pestaña Implementación ([!UICONTROL Administración > Implementación]), el campo [!UICONTROL Creación automática de Global Mbox] será “false” de forma predeterminada para un inquilino recién aprovisionado.
 
-Cuando se descarga mbox.js por primera vez después del aprovisionamiento, el campo [!UICONTROL Creación automática de Global Mbox] se establece en “true” en el archivo mbox.js descargado y en el back-end de [!DNL Target], pero seguirá mostrándose como “false” en la página [!UICONTROL Implementación] de la interfaz de usuario hasta que se actualice la página (una vez hecho, el estado será “true”).
+Cuando at.js se descarga por primera vez después del aprovisionamiento, la variable [!UICONTROL Creación automática de mbox global] se establece en &quot;true&quot; en el archivo at.js descargado y en la variable [!DNL Target] backend, pero seguirá mostrándose como &quot;false&quot; en la variable [!UICONTROL Implementación] en la interfaz de usuario hasta que se actualice la página (una vez que se actualice la página, el estado será &quot;true&quot;).
 
-at.js se descargará con `global_mbox_autocreate = false` para un inquilino recién aprovisionado. Si mbox.js se descarga primero, global_mbox_autocreate se establece en “true” y at.js también se descarga con `global_mbox_autocreate = true`. (TGT-15929)
+at.js se descargará con `global_mbox_autocreate = false` para un inquilino recién aprovisionado. Si mbox.js (ahora obsoleto) se descargó primero, global\_mbox\_autocreate se establece en &quot;true&quot; y at.js también se descargará con `global_mbox_autocreate = true`. (TGT-15929)
 
 ### Compatibilidad con permisos de Enterprise en las API de [!DNL Target] {#api}
 
@@ -440,7 +440,7 @@ Este problema se ha corregido después de la publicación de Recommendations (22
 
 ### at.js {#at-js-7}
 
-Cuando los usuarios intentan descargar at.js desde la página de detalles de Implementaciones después de actualizar la configuración de at.js, se descarga mbox.js en lugar de at.js. (TGT-23069)
+Cuando los usuarios intentan descargar at.js desde la página de detalles de Implementaciones después de actualizar la configuración de at.js, se descarga en lugar de at.js. (TGT-23069)
 
 Este problema se corrigió en la versión 17.3.1 de Target (30 de marzo de 2017).
 

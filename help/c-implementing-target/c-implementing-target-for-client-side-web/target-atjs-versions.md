@@ -4,9 +4,9 @@ description: Ver los detalles sobre los cambios en cada versión del Adobe [!DNL
 title: ¿Qué se incluye en cada versión de at.js?
 feature: at.js
 role: Developer
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4278'
+source-wordcount: '4280'
 ht-degree: 88%
 
 ---
@@ -435,7 +435,7 @@ En la versión 0.9.6 de [!DNL at.js] se incluyen las siguientes mejoras y correc
 **Fecha:** 14 de julio de 2016
 
 * Incorpora un tiempo de espera en at.js para el servicio de ID de visitante. Es independiente del propio tiempo de espera del servicio.
-* Corrige un error en la versión 0.9.0 que afectaba a las implementaciones que usaban at.js en algunas páginas y mbox.js en otras.
+* Corrige un problema en la versión 0.9.0 que afectaba a las implementaciones que usaban at.js en algunas páginas y mbox.js (ahora obsoleto) en otras.
 * Si usa Adobe Analytics como fuente de informes de la actividad, no es necesario que especifique un servidor de seguimiento durante la creación de la actividad en las versiones 61 (o posterior) de mbox.js y 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
 
 ## Versión 0.9.0 de at.js {#section_2981CC9792F245389B39BB5B69F84C4E}
