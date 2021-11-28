@@ -4,9 +4,9 @@ description: Aprenda a pasar datos dinámicos a [!DNL Adobe Target] Ofertas.
 title: ¿Cómo paso datos dinámicos en ofertas?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: ae4b2e85db508e4ef00f8ed4c59e0e35782708b6
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 63%
 
 ---
@@ -81,4 +81,4 @@ También puede introducir y extraer valores para mostrar. Si su valor tiene un a
 
 Para los parámetros de oferta (offer.name, offer.id) utilizados en el contenido de una oferta:
 
-Si esa oferta es uno de los varios conjuntos de una experiencia, el valor de la última oferta añadida rellena el valor del parámetro. Es decir, estos parámetros se evalúan en el nivel de experiencia.
+Si esa oferta es una de las varias ofertas configuradas en una experiencia, el valor de la última oferta añadida rellena el valor del parámetro. Es decir, estos parámetros se evalúan en el nivel de experiencia.
