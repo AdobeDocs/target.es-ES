@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información acerca de problemas conocidos y pro
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4504'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ Los siguientes son problemas conocidos de las actividades de [!UICONTROL Recomme
 
 * Cuando [!DNL Target] devuelve una oferta JSON con getOffer(), se devuelve con el tipo de JSON. Sin embargo, si devuelve un diseño JSON de Recommendations, devuelve con un tipo de HTML.
 * Las entidades caducan correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después del vencimiento. (IRI-857)
-* Las superposiciones &quot;Información de uso&quot; para criterios y diseños no reflejan su uso en actividades A/B y de segmentación de experiencias (TGT-34331)
-* Las ofertas de recomendaciones en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja de Recommendations (TGT-33426)
+* Las superposiciones &quot;Información de uso&quot; para criterios y diseños no reflejan su uso en actividades A/B y de segmentación de experiencias. (TGT-34331)
+* Las ofertas de recomendaciones en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja de Recommendations. (TGT-33426)
 * Las colecciones, las exclusiones, los criterios y los diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API. Del mismo modo, si crea cualquiera de estos elementos en la IU de Target y posteriormente los edita mediante API, esos cambios no se reflejarán en la IU de Target. Los elementos editados mediante API deben continuar editándose mediante API para evitar la pérdida de modificaciones. (TGT-35777)
 * Las actividades de Recommendations creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
 * El estado de la fuente de criterios personalizados que se muestra en la lista de criterios (tarjeta) se actualiza cada diez minutos, y es posible que pasen más de diez minutos de la fecha en circunstancias excepcionales. El estado que se muestra en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre está actualizado. (TGT-35896, TGT-36173)
@@ -244,9 +244,9 @@ Este problema se solucionó en la versión 19.7.1 de Target.
 
 En la pestaña Implementación ([!UICONTROL Administración > Implementación]), el campo [!UICONTROL Creación automática de Global Mbox] será “false” de forma predeterminada para un inquilino recién aprovisionado.
 
-Cuando at.js se descarga por primera vez después del aprovisionamiento, la variable [!UICONTROL Creación automática de mbox global] se establece en &quot;true&quot; en el archivo at.js descargado y en la variable [!DNL Target] backend, pero seguirá mostrándose como &quot;false&quot; en la variable [!UICONTROL Implementación] en la interfaz de usuario hasta que se actualice la página (una vez que se actualice la página, el estado será &quot;true&quot;).
+Cuando se descarga at.js por primera vez después del aprovisionamiento, el campo [!UICONTROL Creación automática de Global Mbox] se establece en “true” en el archivo at.js descargado y en el back-end de [!DNL Target], pero seguirá mostrándose como “false” en la página [!UICONTROL Implementación] de la IU hasta que se actualice la página (una vez hecho, el estado será “true”).
 
-at.js se descargará con `global_mbox_autocreate = false` para un inquilino recién aprovisionado. Si mbox.js (ahora obsoleto) se descargó primero, global\_mbox\_autocreate se establece en &quot;true&quot; y at.js también se descargará con `global_mbox_autocreate = true`. (TGT-15929)
+at.js se descargará con `global_mbox_autocreate = false` para un inquilino recién aprovisionado. Si mbox.js (ahora obsoleto) se descargó primero, global\_mbox\_autocreate se establece en “true” y at.js también se descarga con `global_mbox_autocreate = true`. (TGT-15929)
 
 ### Compatibilidad con permisos de Enterprise en las API de [!DNL Target] {#api}
 
