@@ -5,9 +5,9 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
 workflow-type: tm+mt
-source-wordcount: '3894'
+source-wordcount: '3937'
 ht-degree: 40%
 
 ---
@@ -16,21 +16,21 @@ ht-degree: 40%
 
 Recommendations, basado en algoritmos, utiliza el contexto de comportamiento del visitante para mostrar resultados relevantes en [!DNL Adobe Target] [!DNL Recommendations] actividades.
 
-Each algorithm type provides different algorithms appropriate for its type, as shown in the following table:
+Cada tipo de algoritmo proporciona distintos algoritmos apropiados para su tipo, como se muestra en la siguiente tabla:
 
 | Tipo de algoritmo | Cuándo se utiliza | Algoritmos disponibles |
 | --- | --- | --- |
 | [!UICONTROL Basado en el carro de compras] | Realice recomendaciones basadas en el contenido del carro de compras del usuario. | <ul><li>Los usuarios que vieron esto, vieron aquéllos</li><li>Los usuarios que vieron esto, compraron aquéllos</li><li>Las personas que compraron estos, compraron esos</li></ul> |
 | [!UICONTROL Basado en popularidad] | Haga recomendaciones en función de la popularidad general de un artículo en todo el sitio o de la popularidad de artículos dentro de la categoría, marca, género, etc. favorita del usuario o los más vistos. | <ul><li>Más visitados en todo el sitio</li><li>Más visitados por categoría</li><li>Más visitados por atributo de artículo</li><li>Principales vendedores del sitio</li><li>Principales vendedores por categoría</li><li>Principales vendedores por atributo de artículo</li><li>Principales por métrica de Analytics</li></ul> |
 | [!UICONTROL Basado en elementos] | Realice recomendaciones basadas en la búsqueda de artículos similares a un elemento que el usuario esté viendo o que haya visto recientemente. | <ul><li>Los usuarios que vieron esto, vieron aquello.</li><li>Los usuarios que vieron esto, compraron aquello.</li><li>Los usuarios que compraron esto, compraron aquello.</li><li>Elementos con atributos similares</li></ul> |
-| [!UICONTROL Basado en el usuario] | Recomendaciones basadas en el comportamiento del usuario. | <ul><li>Artículos vistos recientemente. </li><li>Recommended for You</li></ul> |
-| [!UICONTROL Custom Criteria] | Make recommendations based on a custom file you upload. | <ul><li>Algoritmo personalizado</li></ul> |
+| [!UICONTROL Basado en el usuario] | Recomendaciones basadas en el comportamiento del usuario. | <ul><li>Artículos vistos recientemente. </li><li>Recomendado para usted</li></ul> |
+| [!UICONTROL Criterios personalizados] | Realice recomendaciones basadas en un archivo personalizado que cargue. | <ul><li>Algoritmo personalizado</li></ul> |
 
-Cada criterio está definido en su propia pestaña. El tráfico se divide equitativamente en las distintas pruebas de criterios. Es decir, si tiene dos criterios, el tráfico se divide a partes iguales entre ellos. Si tiene dos criterios y dos diseños, el tráfico se divide equitativamente entre las cuatro combinaciones. También puede especificar el porcentaje de los visitantes del sitio que ven el contenido predeterminado, para su comparación. In that case, the specified percentage of visitors sees the default content, and the rest are split between your criteria and design combinations.
+Cada criterio está definido en su propia pestaña. El tráfico se divide equitativamente en las distintas pruebas de criterios. Es decir, si tiene dos criterios, el tráfico se divide a partes iguales entre ellos. Si tiene dos criterios y dos diseños, el tráfico se divide equitativamente entre las cuatro combinaciones. También puede especificar el porcentaje de los visitantes del sitio que ven el contenido predeterminado, para su comparación. En ese caso, el porcentaje especificado de visitantes ve el contenido predeterminado y el resto se divide entre las combinaciones de criterios y diseños.
 
 Para obtener más información sobre la creación de criterios y la definición de sus tipos de algoritmos y algoritmos, consulte [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
 
-Los distintos algoritmos de recomendaciones se prestan a colocarse en distintos tipos de páginas. Refer to the following sections for more information about each algorithm type and its available algorithms.
+Los distintos algoritmos de recomendaciones se prestan a colocarse en distintos tipos de páginas. Consulte las secciones siguientes para obtener más información sobre cada tipo de algoritmo y sus algoritmos disponibles.
 
 ## Basado en el carro de compras {#cart-based}
 
@@ -48,7 +48,7 @@ La lógica de recomendación basada en el carro de compras es similar a la &quot
 
 * **[!UICONTROL Entre sesiones]**: En función de lo que otros visitantes hicieron en varias sesiones.
 
-   Ver el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; fuerza unos con otros según la preferencia o el gusto del visitante. For example, a visitor likes Star Wars and might also like Indiana Jones, even if the visitor doesn&#39;t necessarily want to watch both movies in the same sitting. O, a un visitante le gusta el juego de tablero &quot;Codenames&quot; y también el juego de tablero &quot;Avalon&quot;, aunque el visitante no pueda jugar ambos juegos simultáneamente. 
+   Ver el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; fuerza unos con otros según la preferencia o el gusto del visitante. Por ejemplo, a un visitante le gusta Star Wars y también puede gustarle Indiana Jones, aunque no necesariamente quiera ver ambas películas en la misma sesión. O, a un visitante le gusta el juego de tablero &quot;Codenames&quot; y también el juego de tablero &quot;Avalon&quot;, aunque el visitante no pueda jugar ambos juegos simultáneamente. 
 
 [!DNL Target] realiza recomendaciones para cada visitante en función de los artículos del carro de compras actual, independientemente de si observa el comportamiento de los visitantes en una sola sesión o en varias sesiones.
 
@@ -58,7 +58,7 @@ Los siguientes algoritmos están disponibles con la variable [!UICONTROL Basado 
 
 Recomienda artículos que se visitan con mayor frecuencia en la misma sesión en que se ve el artículo especificado.
 
-This logic returns other products people viewed after viewing this one; the specified product is not included in the results set.
+Esta lógica devuelve otros productos vistos por las personas después de ver este; el producto especificado no se incluye en el conjunto de resultados.
 
 Esta lógica le permite crear oportunidades de conversión adicionales recomendando artículos que otros visitantes que vieron un artículo también vieron. Por ejemplo: los visitantes que ven las bicicletas de carretera en su sitio también pueden ver cascos para bicicletas, kits para bicicletas, cerraduras, etc. Puede crear una recomendación con esta lógica que sugiera que otros productos le ayudan a aumentar los ingresos.
 
@@ -115,7 +115,7 @@ La recomendación está determinada por el artículo que se ha visto con más fr
 
 Por ejemplo, si ve surfboardA y luego surfboardB en una misma sesión, el resultado es A: 10, B: 5. Cuando finaliza la sesión, tiene A: 5, B: 2.5. Si ve los mismos elementos en la siguiente sesión, los valores cambian a A: 15 B: 7.5.
 
-Use this algorithm on general pages, such as home or landing pages and offsite ads.
+Utilice este algoritmo en páginas generales, como páginas de inicio o de aterrizaje y anuncios externos.
 
 ### Más visitados por categoría {#most-viewed-category}
 
@@ -149,11 +149,11 @@ A continuación, seleccione qué atributos de perfil se almacenan en el perfil d
 
 Muestra los artículos que están incluidos en los pedidos más completados de todo el sitio. Varias unidades del mismo artículo en un único pedido se cuentan como un solo pedido.
 
-Este algoritmo le permite crear recomendaciones para los artículos más vendidos del sitio a fin de aumentar la conversión y los ingresos. This logic is especially suited for first-time visitors to your site.
+Este algoritmo le permite crear recomendaciones para los artículos más vendidos del sitio a fin de aumentar la conversión y los ingresos. Esta lógica es especialmente adecuada para los visitantes que ingresan al sitio por primera vez.
 
 ### Principales vendedores por categoría
 
-Displays the items that are included in the most completed orders by category. Varias unidades del mismo artículo en un único pedido se cuentan como un solo pedido.
+Muestra los artículos incluidos en los pedidos más completados por categoría. Varias unidades del mismo artículo en un único pedido se cuentan como un solo pedido.
 
 Este algoritmo permite crear recomendaciones para los artículos más vendidos del sitio en función de la categoría para aumentar la conversión y los ingresos. Esta lógica es especialmente adecuada para los visitantes que ingresan al sitio por primera vez.
 
@@ -168,9 +168,9 @@ Si selecciona el algoritmo Más visitados por categoría , puede seleccionar las
 
 ### Principales por métrica de Analytics
 
-(Próximamente habrá información)
+Muestra la &quot;Top x&quot; donde x es un arbitrario [!DNL Analytics] métrica. Cuando se utilizan datos de comportamiento de mboxes, solo se pueden usar los más vendidos o los más vistos (x = &quot;vendidos&quot; o x = &quot;vistos&quot;). Si utiliza datos de comportamiento de [!DNL Adobe Analytics], puede utilizar x = &quot;Adiciones al carro de compras&quot; u otros [!DNL Analytics] métrica.
 
-## [!UICONTROL Item-Based]
+## [!UICONTROL Basado en elementos]
 
 La variable [!UICONTROL Basado en elementos] el tipo de recomendación permite hacer recomendaciones en función de encontrar artículos similares a los que el usuario está viendo o que ha visto recientemente.
 
@@ -197,7 +197,7 @@ Recomienda artículos que se compran con mayor frecuencia en la misma sesión en
 
 Esta lógica devuelve otros productos que otras personas compraron después de ver este; el producto especificado no se incluye en el conjunto de resultados.
 
-This logic lets you increase cross-selling opportunities by displaying a recommendation on a product page, for example, that displays items that other visitors who viewed the item purchased. Por ejemplo, si el visitante está viendo un campo de pesca, la recomendación podría mostrar artículos adicionales que otros visitantes compraron, como cajas de direcciones, alcantarillas y lámparas de pesca. As visitors browse your site, you provide them with additional purchasing recommendations.
+Esta lógica le permite aumentar las oportunidades de venta cruzada mostrando una recomendación en una página de producto, por ejemplo, que muestra artículos que otros visitantes vieron el artículo comprado. Por ejemplo, si el visitante está viendo un campo de pesca, la recomendación podría mostrar artículos adicionales que otros visitantes compraron, como cajas de direcciones, alcantarillas y lámparas de pesca. A medida que los visitantes navegan por el sitio, usted les proporciona recomendaciones de compra adicionales.
 
 Si selecciona este algoritmo, puede seleccionar las siguientes claves de Recommendations:
 
@@ -236,9 +236,9 @@ Si selecciona este algoritmo, puede seleccionar las siguientes claves de Recomme
 * Último artículo visitado
 * Artículo más visitado
 
-For more information, see [Content Similarity](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+Para obtener más información, consulte [Similitud de contenido](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
-## [!UICONTROL User-Based]
+## [!UICONTROL Basado en el usuario]
 
 El tipo de algoritmo basado en usuarios le permite hacer recomendaciones en función del comportamiento del usuario.
 
@@ -377,7 +377,7 @@ Si el atributo de perfil personalizado no coincide directamente con un ID de ent
 
 ### Último artículo visitado {#last-viewed}
 
-La recomendación está determinada por el último artículo que vio cada visitante único. This is captured automatically, so no values must be passed on the page.
+La recomendación está determinada por el último artículo que vio cada visitante único. Esto se captura automáticamente, por lo que no se debe pasar ningún valor a la página.
 
 Se puede utilizar con los siguientes algoritmos:
 
@@ -446,11 +446,11 @@ Recomienda elementos según la certeza de una relación entre artículos. Puede 
 
 Por ejemplo, si establece una afinidad muy fuerte y el diseño incluye cinco artículos, tres de los cuales cumplen la seguridad de umbral de conexión, los dos artículos que no cumplen los requisitos mínimos de seguridad no se muestran en las recomendaciones y son reemplazados por sus artículos de copia de seguridad definidos. Los artículos con la mayor afinidad se muestran primero.
 
-Por ejemplo, un comerciante en línea puede recomendar artículos en visitas posteriores en las que un visitante haya mostrado interés durante sesiones anteriores. Activity for each visitor&#39;s session is captured to calculate an affinity based on a recency and frequency model. As this visitor returns to your site, site affinity is used to display recommendations based on past actions on your site.
+Por ejemplo, un comerciante en línea puede recomendar artículos en visitas posteriores en las que un visitante haya mostrado interés durante sesiones anteriores. La actividad de cada sesión de visitante se captura para calcular una afinidad basada en un modelo de actualización y frecuencia. A medida que este visitante regresa a su sitio, la afinidad del sitio se usa para mostrar recomendaciones basadas en acciones anteriores del sitio.
 
 Es posible que algunos clientes con diferentes colecciones de productos y diversos comportamientos de sitio obtengan mejores resultados si establecen una afinidad de sitio débil.
 
-This logic can be used with the following recommendation keys:
+Esta lógica se puede usar con las siguientes claves de recomendación:
 
 * Artículo actual
 * Último artículo comprado
