@@ -5,9 +5,9 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
+source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
 workflow-type: tm+mt
-source-wordcount: '3937'
+source-wordcount: '3936'
 ht-degree: 40%
 
 ---
@@ -168,7 +168,7 @@ Si selecciona el algoritmo Más visitados por categoría , puede seleccionar las
 
 ### Principales por métrica de Analytics
 
-Muestra la &quot;Top x&quot; donde x es un arbitrario [!DNL Analytics] métrica. Cuando se utilizan datos de comportamiento de mboxes, solo se pueden usar los más vendidos o los más vistos (x = &quot;vendidos&quot; o x = &quot;vistos&quot;). Si utiliza datos de comportamiento de [!DNL Adobe Analytics], puede utilizar x = &quot;Adiciones al carro de compras&quot; u otros [!DNL Analytics] métrica.
+Muestra la &quot;x superior&quot; donde *x* es arbitrario [!DNL Analytics] métrica. Al utilizar datos de comportamiento de mboxes, puede utilizar Principales vendidos o Más visitados (x = &quot;Vendido&quot; o x = &quot;Visto&quot;). Si utiliza datos de comportamiento de [!DNL Adobe Analytics], puede utilizar x = &quot;Adiciones al carro de compras&quot; u otros [!DNL Analytics] métrica.
 
 ## [!UICONTROL Basado en elementos]
 
