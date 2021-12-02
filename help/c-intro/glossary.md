@@ -1,12 +1,12 @@
 ---
-description: ¿Qué significan los distintos términos que se usan en Adobe  [!DNL Target] ? Encuentre definiciones de términos comunes para ayudarle a sacar más partido a  [!DNL Target].
+description: ¿Qué significan los distintos términos que se usan en Adobe  [!DNL Target] ? Encuentre definiciones de términos comunes para ayudarle a sacar más partido a [!DNL Target].
 title: ¿Dónde puedo encontrar los términos y definiciones que se usan en Target?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ Una actividad de página de aterrizaje le permite usar la segmentación para mos
 
 **mbox.js**
 
-A [!DNL Target] Biblioteca de implementación de JavaScript que ha quedado obsoleta.
+Una biblioteca de implementación de JavaScript de [!DNL Target] que ha quedado obsoleta.
 
 **parámetro de mbox**
 
