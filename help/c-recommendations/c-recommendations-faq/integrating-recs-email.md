@@ -35,7 +35,6 @@ La personalización en tiempo abierto de recomendaciones no es compatible con [!
 >
 >* Las solicitudes deben estar limitadas a una tasa menor de 1000 solicitudes por segundo o 25 veces el tráfico diario máximo.
 >* Tráfico de rampa en pasos de 200 solicitudes por segundo cada minuto.
-
 > 
 >Póngase en contacto con su administrador de cuentas si desea usar límites de tasa más altos.
 
