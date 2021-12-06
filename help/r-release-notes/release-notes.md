@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
 source-wordcount: '1153'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 Esta versión incluye la siguiente mejora:
 
-* Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/es-ES/docs/Web/Web_Components). Esta versión de at.js es necesaria para crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad se incluye en la versión de [!DNL Target Standard/Premium] 21.10.5.
+* Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/es/docs/Web/Web_Components). Esta versión de at.js es necesaria para crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad se incluye en la versión de [!DNL Target Standard/Premium] 21.10.5.
 
 ## [!DNL Target Standard/Premium] 21.10.5 (28 de octubre de 2021)
 
@@ -44,7 +44,7 @@ Esta versión de mantenimiento incluye la siguiente mejora:
 
 | Función | Detalles |
 | --- | --- |
-| Recomendaciones basadas en el carro de compras | Se ha añadido una nueva familia de algoritmos para ofrecer recomendaciones basadas en el contenido del carro de compras del visitante.<br>Para obtener más información, consulte &quot;Basado en el carro de compras&quot; en [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Adiciones al carro de compras/vistas del carro de compras/páginas de cierre de compra&quot; y &quot;Excluir elementos que ya están en el carro de compras del visitante&quot; en [Planificar e implementar Recommendations](/help/c-recommendations/plan-implement.md)y &quot;Basado en el carro de compras&quot; en [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| Recomendaciones basadas en el carro de compras | Se ha añadido una nueva familia de algoritmos para ofrecer recomendaciones basadas en el contenido del carro de compras del visitante.<br>Para obtener más información, consulte “Basado en el carro de compras”; en [Creación de criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md), “Adiciones al carro de compras/vistas del carro de compras/páginas de cierre de compra” y ”Excluir elementos que ya están en el carro de compras del visitante” en [Planificación e implementación de Recommendations](/help/c-recommendations/plan-implement.md) y “Basado en el carro de compras” en [Fundamentación de la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 de octubre de 2021)
 
