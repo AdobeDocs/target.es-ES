@@ -3,7 +3,7 @@ user-guide-title: 'Guía de Adobe [!DNL Target] '
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 99%
