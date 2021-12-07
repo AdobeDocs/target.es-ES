@@ -5,7 +5,7 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
 workflow-type: tm+mt
 source-wordcount: '3936'
 ht-degree: 40%
@@ -312,7 +312,7 @@ Los posibles casos de uso incluyen:
 * Desea ejecutar un algoritmo sin conexión y usar los resultados para potenciar las recomendaciones, pero debe asegurarse de que los artículos sin existencias nunca se recomienden.
 * Desea incluir solo los elementos que pertenecen a la categoría favorita de este visitante.
 
-## Claves de recomendación
+## Claves de recomendación {#keys}
 
 Las siguientes claves de recomendación están disponibles en la sección [!UICONTROL Clave de recomendación] lista desplegable:
 
