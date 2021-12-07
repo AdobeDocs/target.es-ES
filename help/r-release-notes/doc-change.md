@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '3078'
-ht-degree: 99%
+source-wordcount: '3087'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Diciembre de 7 | [La ciencia detrás de los algoritmos de recomendaciones de Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nuevo tema. |
 | Diciembre de 2 | [Fundamentación de la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Se ha actualizado el algoritmo basado en el carro de compras para incluir que las claves de recomendación se proporcionan mediante el parámetro de mbox cartIds en valores separados por coma. Solo se tienen en cuenta los 10 primeros valores. |
 | 18 de noviembre | [Modificaciones](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Se ha añadido una nota en la fila Mbox que indica que ya no se admiten mboxes en la variable [!UICONTROL Compositor de experiencias visuales] (VEC) en páginas que utilizan at.js 2.*x*. |
 | 16 de noviembre | [Atributos del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Se ha añadido información acerca de las limitaciones relacionadas con las cargas de archivos con un vínculo a [Acerca del archivo de datos y las fuentes de datos para los atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=es) en la *Guía de componentes de la interfaz central de Experience Cloud*. |

@@ -1,17 +1,17 @@
 ---
 keywords: algoritmos de recomendaciones;formación de modelos;servicio de modelos;entrega de contenido;basado en artículos;basado en usuarios;basado en popularidad;basado en carros;criterios personalizados
 description: Obtenga información sobre los algoritmos utilizados en [!DNL Target Recommendations], incluida la formación modelo y el servicio modelo.
-title: ¿Dónde Puedo Aprender Sobre La Ciencia Detrás De Los Algoritmos De Recommendations?
+title: ¿Dónde puedo obtener información sobre la ciencia detrás de los algoritmos de Recommendations de Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) La ciencia detrás de los algoritmos de Recommendations
+# ![PREMIUM](/help/assets/premium.png) La ciencia detrás de los algoritmos de recomendaciones de Target
 
 Una descripción detallada de los algoritmos utilizados en [!DNL Adobe Target Recommendations], incluidos la lógica y los detalles matemáticos de la formación del modelo y el proceso de servicio del modelo.
 
@@ -106,7 +106,7 @@ Los detalles de estos pasos son los siguientes:
 
       Para evitar una complejidad significativa en la computación de similitudes entre todos los elementos N x N, la variable *tf-idf* el vector se trunca para contener solo sus 500 entradas más grandes y, a continuación, calcular las similitudes de coseno entre los elementos que utilizan esta representación vectorial truncada. Este enfoque resulta más robusto para los cálculos de similitud vectorial dispersa, en comparación con otras técnicas de vecindad aproximada más cercana (ANN), como el hashing sensible a la localidad.
 
-* **Servicio de modelo**: Este proceso es idéntico al de las técnicas de filtrado colaborativo de elementos descritos en la sección anterior.
+   * **Servicio de modelo**: Este proceso es idéntico al de las técnicas de filtrado colaborativo de elementos descritos en la sección anterior.
 
 ## Recomendaciones de varias claves
 
@@ -137,7 +137,7 @@ Los detalles de estos pasos son los siguientes:
 
    ![FormulaFormula](assets/formula4.png)
 
-   * **Evaluación del modelo de similitud de artículos**: La evaluación del modelo se realiza tomando las recomendaciones generadas en el paso anterior y haciendo predicciones en el conjunto de datos de prueba. La fase de puntuación en línea se imita ordenando cronológicamente los usos de elementos de cada usuario en el conjunto de datos de prueba y, a continuación, haciendo 100 recomendaciones para subconjuntos ordenados de elementos en un intento de predecir vistas y compras posteriores. Una métrica de recuperación de información, la variable [Precisión media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)), se utiliza para evaluar la calidad de estas recomendaciones. Esta métrica tiene en cuenta el orden de las recomendaciones y favorece a los elementos relevantes en una posición superior en la lista de recomendaciones, que es una propiedad importante para los sistemas de clasificación.
+   * **Evaluación del modelo de similitud de artículos**: La evaluación del modelo se realiza tomando las recomendaciones generadas en el paso anterior y haciendo predicciones en el conjunto de datos de prueba. La fase de puntuación en línea se imita ordenando cronológicamente los usos de elementos de cada usuario en el conjunto de datos de prueba y, a continuación, haciendo 100 recomendaciones para subconjuntos ordenados de elementos en un intento de predecir vistas y compras posteriores. Una métrica de recuperación de información, la variable [Precisión media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), se utiliza para evaluar la calidad de estas recomendaciones. Esta métrica tiene en cuenta el orden de las recomendaciones y favorece a los elementos relevantes en una posición superior en la lista de recomendaciones, que es una propiedad importante para los sistemas de clasificación.
    * **Selección de modelo**: Después de la evaluación sin conexión, se selecciona el modelo que tiene la precisión media más alta y se calculan todas las recomendaciones de elementos individuales.
    * **Filtro sin conexión**: La etapa final de la formación del modelo es la aplicación de cualquier filtro dinámico aplicable. Después de este paso, las recomendaciones precalculadas se almacenan en la caché global para que estén disponibles para su uso.
 
