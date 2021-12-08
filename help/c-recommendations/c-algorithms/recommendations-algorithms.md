@@ -4,9 +4,9 @@ description: Obtenga información sobre los algoritmos utilizados en [!DNL Targe
 title: ¿Dónde puedo obtener información sobre la ciencia detrás de los algoritmos de Recommendations de Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Un ejemplo de semejante similitud es la aparición conjunta entre elementos: un 
 
 Por ejemplo, si
 
-![Fórmula](assets/formula.png)
+![Fórmula para el algoritmo visto/comprado](assets/formula.png)
 
 entonces no se recomienda el elemento B con el elemento A. Se proporcionan todos los detalles de este cálculo de similitud de relación de probabilidad de registro [en este PDF](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 El flujo lógico de la implementación real del algoritmo se muestra en el siguiente diagrama esquemático:
 
-![Diagrama esquemático](assets/diagram1.png)
+![Diagrama esquemático de un algoritmo visto/comprado](assets/diagram1.png)
 
 Los detalles de estos pasos son los siguientes:
 
@@ -83,7 +83,7 @@ En este tipo de algoritmo, se considera que dos elementos están relacionados si
 
 Aunque los aspectos del servicio de modelos y la entrega de contenido de [!DNL Target]Los algoritmos de similitud de contenido de son idénticos a otros algoritmos basados en elementos, los pasos de formación del modelo son muy diferentes e implican una serie de pasos de procesamiento y preprocesamiento de lenguajes naturales, como se muestra en el diagrama siguiente. El núcleo del cálculo de similitud es el uso de la similitud de coseno de los vectores tf-idf modificados que representan cada elemento del catálogo.
 
-![Diagrama 2](assets/diagram2.png)
+![Diagrama que muestra el flujo del proceso de similitud de contenido](assets/diagram2.png)
 
 Los detalles de estos pasos son los siguientes:
 
@@ -96,13 +96,13 @@ Los detalles de estos pasos son los siguientes:
    * **Creación de n-gramas**: Después de los pasos anteriores, cada palabra se trata como un token. El proceso de combinación de secuencias contiguas de tokens en un único token se denomina creación de n-gramas. [!DNL Target]Los algoritmos de consideran hasta 2 gramos.
    * **cálculo de tf-idf**: El siguiente paso implica la creación de vectores tf-idf para reflejar la importancia relativa de los tokens en la descripción del elemento. Para cada token/término t en un elemento i, en un catálogo D con |D| elementos, el término frecuencia TF(t, i) se calcula primero (el número de veces que el término aparece en el elemento i), así como la frecuencia del documento DF(t, D). En esencia, el número de elementos en los que existe el token. La medida tf-idf es entonces
 
-      ![Fórmula](assets/formula2.png)
+      ![Fórmula que muestra la medida tf-idf](assets/formula2.png)
 
       [!DNL Target] utiliza Apache Spark *tf-idf* implementación de featurización, que en el capó coloca cada token en un espacio de 218 tokens. En este paso, el aumento y la combustión de atributos especificados por el cliente también se aplican ajustando las frecuencias de los términos en cada vector en función de la configuración especificada en la variable [criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **Cálculo de similitud de artículos**: El cálculo de similitud del elemento final se realiza utilizando una similitud de coseno aproximada. Para dos artículos, *A* y *B*, con los vectores tA y tB, la similitud de coseno se define como:
 
-      ![FormulaFormula](assets/formula3.png)
+      ![Fórmula que muestra el cálculo de similitud de elementos](assets/formula3.png)
 
       Para evitar una complejidad significativa en la computación de similitudes entre todos los elementos N x N, la variable *tf-idf* el vector se trunca para contener solo sus 500 entradas más grandes y, a continuación, calcular las similitudes de coseno entre los elementos que utilizan esta representación vectorial truncada. Este enfoque resulta más robusto para los cálculos de similitud vectorial dispersa, en comparación con otras técnicas de vecindad aproximada más cercana (ANN), como el hashing sensible a la localidad.
 
@@ -121,7 +121,7 @@ Estos algoritmos se basan en las técnicas de filtrado colaborativas básicas de
 
 La lógica de los pasos de entrenamiento y puntuación del modelo se muestra en el siguiente diagrama:
 
-![Diagrama](assets/diagram3.png)
+![Diagrama que muestra la lógica de los pasos de entrenamiento y puntuación del modelo](assets/diagram3.png)
 
 Los detalles de estos pasos son los siguientes:
 
@@ -135,7 +135,7 @@ Los detalles de estos pasos son los siguientes:
 
    El paso de formación calcula varios tipos de similitudes vectoriales: Similitud LLR ([discutido aquí](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), similitud de coseno (definida anteriormente) y similitud de L2 normalizada, definida como:
 
-   ![FormulaFormula](assets/formula4.png)
+   ![Fórmula que muestra el cálculo de la formación](assets/formula4.png)
 
    * **Evaluación del modelo de similitud de artículos**: La evaluación del modelo se realiza tomando las recomendaciones generadas en el paso anterior y haciendo predicciones en el conjunto de datos de prueba. La fase de puntuación en línea se imita ordenando cronológicamente los usos de elementos de cada usuario en el conjunto de datos de prueba y, a continuación, haciendo 100 recomendaciones para subconjuntos ordenados de elementos en un intento de predecir vistas y compras posteriores. Una métrica de recuperación de información, la variable [Precisión media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), se utiliza para evaluar la calidad de estas recomendaciones. Esta métrica tiene en cuenta el orden de las recomendaciones y favorece a los elementos relevantes en una posición superior en la lista de recomendaciones, que es una propiedad importante para los sistemas de clasificación.
    * **Selección de modelo**: Después de la evaluación sin conexión, se selecciona el modelo que tiene la precisión media más alta y se calculan todas las recomendaciones de elementos individuales.
@@ -149,7 +149,7 @@ Los detalles de estos pasos son los siguientes:
 
 Estos procesos se ilustran en la imagen siguiente, donde un visitante ha visto el artículo A y comprado el artículo B. Las recomendaciones individuales se recuperan con las puntuaciones de similitud sin conexión que se muestran debajo de cada etiqueta de artículo. Después de la recuperación, las recomendaciones se combinan con puntuaciones de similitud ponderadas sumadas. Por último, en un escenario en el que el cliente ha especificado que los artículos vistos y comprados anteriormente deben filtrarse, el paso de filtrado elimina los artículos A y B de la lista de recomendaciones.
 
-![Diagrama](assets/diagram4.png)
+![Diagrama del procesamiento de algoritmos de varias claves](assets/diagram4.png)
 
 ## Basado en popularidad
 
