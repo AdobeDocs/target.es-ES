@@ -1,50 +1,46 @@
 ---
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes
-description: Descubra cómo los distintos segmentos definidos por los modelos de personalización de Adobe [!DNL Target] responden a las ofertas y experiencias de la actividad consultando el informe Segmentos automatizados .
+description: Descubra cómo se definen los distintos segmentos según el Adobe [!DNL Target] los modelos de personalización responden a ofertas y experiencias en la actividad consultando el informe Segmentos automatizados .
 title: ¿Qué es el informe Segmentos automatizados?
-feature: Informes
+feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 6f5e999859847e93e66372a9e7dc9814f7e2c84d
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2107'
 ht-degree: 82%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Informe Segmentos automatizados
 
-Información sobre el informe [!UICONTROL Segmentos automatizados], uno de los dos informes especializados disponibles para los usuarios de las actividades de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT).
+Información sobre [!UICONTROL Segmentos automatizados] uno de los dos informes especializados a disposición de los usuarios de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] actividades (AT).
 
 >[!NOTE]
 >
 >Tenga en cuenta lo siguiente al usar los informes de Perspectivas de personalización :
 >
 >* Las actividades de AP y AT están disponibles como parte de la solución [!DNL Target Premium]. No se incluyen en [!DNL Target Standard] sin una licencia [!DNL Target Premium].
-   >
-   >
-* [!UICONTROL Los informes de Perspectivas de personalización están disponibles solo para actividades de AP y AT que utilizan un objetivo de optimización de conversión. ] Tampoco se admiten las actividades en las que el objetivo de optimización se cambió a la conversión de ingresos después de que la actividad ya estaba activa.
-   >
-   >
-* [!UICONTROL Los ] informes de Perspectivas de personalización solo están disponibles si el Objetivo  [!UICONTROL principal está seleccionado ] en la lista  [!UICONTROL desplegable ] Métrica de informes .
-   >
-   >
-* Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](/help/administrating-target/hosts.md).
-   >
-   >
-* [!UICONTROL Los ] informes de Perspectivas de personalización solo se generan para actividades que se encuentran en   Livestatus y que han sido activadas y reciben tráfico durante al menos 15 días.
+>
+>* [!UICONTROL Los informes de Perspectivas de personalización están disponibles solo para actividades de AP y AT que utilizan un objetivo de optimización de conversión. ] Tampoco se admiten las actividades en las que el objetivo de optimización se cambió a la conversión de ingresos después de que la actividad ya estaba activa.
+>
+>* [!UICONTROL Perspectivas de personalización] los informes solo están disponibles si la variable [!UICONTROL Objetivo principal] se selecciona de la variable [!UICONTROL Métrica de informes] lista desplegable.
+>
+>* Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](/help/administrating-target/hosts.md).
+>
+>* [!UICONTROL Perspectivas de personalización] los informes solo se generan para las actividades que se encuentran en la variable [!UICONTROL Activo] y han sido activados y reciben tráfico durante al menos 15 días.
 
 
 Los distintos visitantes responden de forma diferente a las ofertas y experiencias de su actividad AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
 
 ## Acceso al informe Segmentos automatizados {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Haga clic en **[!UICONTROL Actividades]** y, a continuación, haga clic en la actividad [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md) que desee en la lista.
+1. Haga clic en **[!UICONTROL Actividades]** y, a continuación, haga clic en el [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md) actividad de la lista.
 
-   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones de [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Propiedad], [!UICONTROL Fuente de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas] y listas desplegables [!UICONTROL Origen de la actividad].
+   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en la lista [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Propiedad], [!UICONTROL Fuente de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas]y [!UICONTROL Fuente de la actividad] listas desplegables.
 
 1. Haga clic en **[!UICONTROL Informes]**.
 
-   Se muestra el informe [Resumen de Automated Personalization](/help/c-reports/reports-ap.md) o [Resumen de segmentación automática](/help/c-reports/auto-target-summary-report.md) , que proporciona información sobre el rendimiento de las actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. La segmentación automática tiene un icono de gráfico adicional para la vista gráfica del informe [!UICONTROL Resumen].
+   La variable [Resumen de Automated Personalization](/help/c-reports/reports-ap.md) o [Resumen de segmentación automática](/help/c-reports/auto-target-summary-report.md) que proporciona información sobre el rendimiento de sus actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. La segmentación automática tiene un icono de gráfico adicional para la vista gráfica del [!UICONTROL Resumen] informe.
 
    ![](assets/personalization_insights.png)
 
@@ -58,7 +54,7 @@ Los distintos visitantes responden de forma diferente a las ofertas y experienci
 
 1. Seleccione el intervalo de fechas deseado.
 
-   A diferencia del informe [!UICONTROL Resumen] (informe de rendimiento), [!UICONTROL Perspectivas de personalización], incluidos [!UICONTROL Segmentos automatizados], solo está disponible para intervalos de fechas fijos: 15 días, 30 días y 60 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Verá que el &quot;Inicio&quot; aparece atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
+   A diferencia de [!UICONTROL Resumen] informe (informe de rendimiento), [!UICONTROL Perspectivas de personalización], incluyendo [!UICONTROL Segmentos automatizados], solo está disponible para intervalos de fechas fijos: 15 días, 30 días y 60 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Verá que el &quot;Inicio&quot; aparece atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
 
    ![](assets/personalization_insights_calendar_1.png)
 
@@ -149,7 +145,7 @@ No, el informe Interfaz de usuario contiene información seleccionada. La descar
 
 **¿Puedo ver [!UICONTROL Perspectivas de personalización] para un intervalo de fechas personalizado?**
 
-Los informes de Perspectivas de personalización (tanto [!UICONTROL Segmentos automatizados] como [!UICONTROL Atributos importantes]) solo están disponibles para intervalos de fechas fijos: 15 días, 30 días y 60 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Puede seleccionar estas duraciones para cualquier fecha de finalización (mientras haya datos suficientes en la actividad para satisfacer la duración).
+Informes de Perspectivas de personalización (ambos [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes]) solo está disponible para intervalos de fechas fijos: 15 días, 30 días y 60 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Puede seleccionar estas duraciones para cualquier fecha de finalización (mientras haya datos suficientes en la actividad para satisfacer la duración).
 
 **¿Cómo se crea [!UICONTROL Perspectivas de personalización]?**
 
