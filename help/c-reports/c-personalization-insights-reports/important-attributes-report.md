@@ -4,10 +4,10 @@ description: Aprenda a utilizar la variable [!UICONTROL Atributos importantes] i
 title: ¿Qué es el informe Atributos importantes?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 86%
+source-wordcount: '1709'
+ht-degree: 82%
 
 ---
 
@@ -58,7 +58,13 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
 1. Seleccione el intervalo de fechas deseado.
 
-   A diferencia del informe [!UICONTROL Resumen] (informe de rendimiento), [!UICONTROL Perspectivas de personalización], incluido [!UICONTROL Atributos importantes], solo estará disponible para intervalos de fechas fijos: 15 días, 30 días, 45 días, 60 días y 90 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Observe que “Inicio” aparece atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
+   A diferencia de [!UICONTROL Resumen] informe (informe de rendimiento), [!UICONTROL Perspectivas de personalización], incluyendo [!UICONTROL Atributos importantes], solo está disponible para intervalos de fechas fijos: 15 días, 30 días y 60 días.
+
+   >[!NOTE]
+   >
+   >La variable [!DNL Target] Actualmente, la IU permite elegir intervalos de fechas de 45 días y 90 días. Sin embargo, la variable [!DNL Target] backend no procesa estos dos rangos. Debido a los patrones de uso y en un esfuerzo por mejorar el rendimiento, estos intervalos de fechas han quedado obsoletos. La interfaz de usuario se actualizará para reflejar los intervalos actualmente permitidos: 15, 30 y 60 días.
+
+   Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Observe que “Inicio” aparece atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
 
    ![](assets/personalization_insights_calendar_1.png)
 
