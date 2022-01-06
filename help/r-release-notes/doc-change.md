@@ -4,9 +4,9 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3163'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Enero de 6 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] versión 2.1.1. |
 | Diciembre de 17 | [Informe Atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Se ha añadido la nota siguiente sobre los intervalos de fechas al ver los informes de Atributos importantes:<ul><li>La variable [!DNL Target] Actualmente, la IU permite elegir intervalos de fechas de 45 días y 90 días. Sin embargo, la variable [!DNL Target] backend no procesa estos dos rangos. Debido a los patrones de uso y en un esfuerzo por mejorar el rendimiento, estos intervalos de fechas han quedado obsoletos. La interfaz de usuario se actualizará para reflejar los intervalos actualmente permitidos: 15, 30 y 60 días.</li></ul> |
 | 7 de diciembre | [La ciencia detrás de los algoritmos de recomendaciones de Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nuevo tema. |
 | 2 de diciembre | [Fundamentación de la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Se ha actualizado el algoritmo basado en el carro de compras para incluir que las claves de recomendación se proporcionan mediante cartIds de parámetro de mbox en valores separados por coma. Solo se tienen en cuenta los 10 primeros valores. |
