@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 28 de octubre de 2021**
+**Última actualización:6 de enero de 2022**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -25,11 +25,19 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 >
 >Para evitar posibles problemas con sus sitios, migre a la versión más reciente del nuevo [!DNL Adobe Experience Platform Web SDK] o la biblioteca de JavaScript at.js. Para obtener más información, consulte [Información general: Implementación de Target en sitios web del lado del cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
+## [!DNL Target Standard/Premium] 22.1.1 (6 de enero de 2022)
+
+Esta versión contiene la siguiente función nueva:
+
+| Función | Detalles |
+| --- | --- |
+| Uso de decisiones de oferta en actividades de Target | Ahora puede usar [!DNL Adobe Journey Optimizer] decisiones de oferta en [!DNL Adobe Target] Prueba A/B y actividades de segmentación de experiencias (XT) para determinar y ofrecer la siguiente mejor oferta para sus visitantes en la web y dispositivos móviles.<br>Para obtener más información, consulte Uso de decisiones de oferta.<br>**Nota**: Esta capacidad está disponible para [!DNL Target] clientes que también tienen acceso a Offer decisioning y tienen un [!DNL Target] implementación basada en el SDK web de Adobe Experience Platform. |
+
 ## Versión 2.7.0 de at.js (28 de octubre de 2021)
 
 Esta versión incluye la siguiente mejora:
 
-* Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/es-ES/docs/Web/Web_Components). Esta versión de at.js es necesaria para crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad se incluye en la versión de [!DNL Target Standard/Premium] 21.10.5.
+* Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/es/docs/Web/Web_Components). Esta versión de at.js es necesaria para crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad se incluye en la versión de [!DNL Target Standard/Premium] 21.10.5.
 
 ## [!DNL Target Standard/Premium] 21.10.5 (28 de octubre de 2021)
 
