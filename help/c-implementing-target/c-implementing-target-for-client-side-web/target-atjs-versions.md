@@ -4,13 +4,13 @@ description: Ver los detalles sobre los cambios en cada versión del Adobe [!DNL
 title: ¿Qué se incluye en cada versión de at.js?
 feature: at.js
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '4280'
+source-wordcount: '4318'
 ht-degree: 88%
 
 ---
-
 
 # Detalles de las versiones de at.js
 
@@ -22,11 +22,15 @@ Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScri
 >
 >Etiquetas en [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) es el método preferido para actualizar at.js. Los desarrolladores de extensiones añaden continuamente nuevas funciones a sus extensiones y suelen corregir errores. Estas actualizaciones se incluyen en las nuevas versiones de una extensión y están disponibles en la [!DNL Adobe Experience Platform] catálogo como actualizaciones. Para obtener más información, consulte [Actualizaciones de extensiones](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) en el *Información general sobre etiquetas* guía.
 
+## Versión 2.8.0 de at.js (7 de enero de 2022)
+
+La variable [!DNL Target] La biblioteca JavaScript de at.js ahora recopila datos de uso de funciones y telemetría de rendimiento. Los datos personales no se recopilan. La exclusión de esta función está disponible al configurar `telemetryEnabled` para usar false en `targetGlobalSettings`. Para obtener más información, consulte [telemetryEnabled en targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+
 ## Versión 2.7.0 de at.js (28 de octubre de 2021)
 
-Esta versión contiene la siguiente mejora:
+Esta versión incluye la siguiente mejora:
 
-* Se ha agregado compatibilidad con [Componentes web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Esta versión de at.js es necesaria para crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad se incluye en la variable [!DNL Target Standard/Premium] Versión 21.10.5.
+* Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/es/docs/Web/Web_Components). Esta versión de at.js es necesaria para crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad se incluye en la versión de [!DNL Target Standard/Premium] 21.10.5.
 
 ## at.js 2.6.1 (16 de agosto de 2021)
 

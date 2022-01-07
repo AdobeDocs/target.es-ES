@@ -4,10 +4,10 @@ description: 'Manténgase al tanto de los cambios y las adiciones más important
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 97%
+source-wordcount: '3223'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,11 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 7 de enero | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión 2.8.0 de at.js. |
+|  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha añadido información sobre la versión 2.8.0 de at.js. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Se ha añadido información sobre la opción de configuración `telemetry`. |
+|  | [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Se ha añadido la siguiente sección: &quot;Recopilación de datos sobre el uso de las funciones&quot;. |
+|  | [Datos utilizados por [!DNL Target] algoritmos de aprendizaje automático](/help/c-activities/t-automated-personalization/ap-data.md) | Se ha actualizado todo el tema, incluido:<ul><li>Nueva sección: &quot;Bloqueo de funciones [!DNL Target] algoritmos de aprendizaje automático&quot;</li><li>Se agregaron columnas de &quot;Nombre del sistema&quot; e información a varias tablas.</li></ul> |
 | Enero de 6 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] versión 2.1.1. |
 | Diciembre de 17 | [Informe Atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Se ha añadido la nota siguiente sobre los intervalos de fechas al ver los informes de Atributos importantes:<ul><li>La variable [!DNL Target] Actualmente, la IU permite elegir intervalos de fechas de 45 días y 90 días. Sin embargo, la variable [!DNL Target] backend no procesa estos dos rangos. Debido a los patrones de uso y en un esfuerzo por mejorar el rendimiento, estos intervalos de fechas han quedado obsoletos. La interfaz de usuario se actualizará para reflejar los intervalos actualmente permitidos: 15, 30 y 60 días.</li></ul> |
 | 7 de diciembre | [La ciencia detrás de los algoritmos de recomendaciones de Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nuevo tema. |

@@ -5,10 +5,10 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué nuevas funciones se incluyen en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 100%
+source-wordcount: '1140'
+ht-degree: 96%
 
 ---
 
@@ -24,11 +24,9 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## Versión 2.7.0 de at.js (28 de octubre de 2021)
+## Versión 2.8.0 de at.js (7 de enero de 2022)
 
-Esta versión incluye la siguiente mejora:
-
-* Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/es/docs/Web/Web_Components). Esta versión de at.js es necesaria para crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad se incluye en la versión de [!DNL Target Standard/Premium] 21.10.5.
+La variable [!DNL Target] La biblioteca JavaScript de at.js ahora recopila datos de uso de funciones y telemetría de rendimiento. Los datos personales no se recopilan. La exclusión de esta función está disponible al configurar `telemetryEnabled` para usar false en `targetGlobalSettings`. Para obtener más información, consulte [telemetryEnabled en targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## [!DNL Target Standard/Premium] 21.10.5 (28 de octubre de 2021)
 
@@ -36,7 +34,7 @@ Esta versión de mantenimiento incluye la siguiente mejora:
 
 | Función | Detalles |
 | --- | --- |
-| [!UICONTROL Compositor de experiencias visuales] (VEC) | Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Las experiencias y ofertas personalizadas se pueden crear y probar en elementos personalizados y en elementos dentro de elementos personalizados.<br>Para obtener más información, consulte [Estilos en Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
+| [!UICONTROL Compositor de experiencias visuales] (VEC) | Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/es/docs/Web/Web_Components). Las experiencias y ofertas personalizadas se pueden crear y probar en elementos personalizados y en elementos dentro de elementos personalizados.<br>Para obtener más información, consulte [Estilos en Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 de octubre de 2021)
 
