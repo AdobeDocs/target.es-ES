@@ -1,112 +1,112 @@
 ---
-keywords: datos de entorno;datos de sesión;datos geográficos;datos geográficos;datos del dispositivo;datos móviles;atributos;atributos de perfil
-description: Descubra qué Adobe de datos [!DNL Target] recopila y utiliza para crear sus algoritmos de personalización en actividades de Automated Personalization (AP) y Segmentación automática (AT).
-title: ¿Qué datos se recopilan para crear algoritmos de personalización?
-feature: Personalización automatizada
+keywords: datos ambientales;datos de sesión;datos geográficos;datos geográficos;datos de dispositivo;datos móviles;atributos;atributos de perfil;algoritmos de personalización;algoritmos de aprendizaje automático;algoritmos de aprendizaje automático
+description: Descubra qué Adobe de datos [!DNL Target] recopila y utiliza para crear sus algoritmos de aprendizaje automático en [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] actividades (AT).
+title: ¿Qué datos se recopilan para crear algoritmos de aprendizaje automático?
+feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d017f753f8eabdfb5a7e50af50c0c332a65867ea
 workflow-type: tm+mt
-source-wordcount: '1737'
-ht-degree: 90%
+source-wordcount: '2135'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png)[!DNL Target] Recopilación de datos para los algoritmos de personalización de 
+# ![PREMIUM](/help/assets/premium.png) Datos utilizados por [!DNL Target] algoritmos de aprendizaje automático
 
-[!DNL Adobe Target] recopila y utiliza automáticamente una variedad de datos para crear sus algoritmos de personalización en las actividades de  [!UICONTROL Automated Personalization]  (AP) y  [!UICONTROL Segmentación automática]  (AT). Cuando un visitante introduce una actividad AP o AT, se pasa una instantánea de información a un conjunto de &quot;registros de formación&quot; (los datos de visitantes que aprenderán los algoritmos de personalización).
+[!DNL Adobe Target] recopila y utiliza automáticamente una variedad de datos para crear sus algoritmos de personalización en [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] actividades (AT). Cuando un visitante introduce una actividad AP o AT, se pasa una instantánea de información a un conjunto de &quot;registros de formación&quot; (los datos de visitantes que aprenderán los algoritmos de personalización).
 
-Para obtener más información sobre los algoritmos de personalización de Target, consulte  [Algoritmo de bosque aleatorio](/help/c-activities/t-automated-personalization/algo-random-forest.md).
+Para obtener más información sobre [!DNL Target] algoritmos de personalización, consulte [Algoritmo de bosque aleatorio](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-La tabla siguiente muestra los datos recopilados por [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] de forma predeterminada, sin que el especialista en marketing tenga que hacer nada, así como la convención de nomenclatura utilizada para indicar estos atributos en los [Informes de perspectivas de personalización](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Los datos de entrada establecidos se pueden aumentar en cualquier momento. Para obtener más información acerca de cómo cargar datos adicionales, consulte  [Carga de datos para los algoritmos de personalización de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+## Predeterminado [!DNL Adobe Target] categorías de atributos
 
-| Tipo de datos | Descripción | Nomenclatura de los tipos de datos | Atributos de ejemplo |
+La tabla siguiente muestra los datos recopilados por [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] actividades de forma predeterminada, sin ninguna configuración de [!DNL Target] u otros [!DNL Adobe] , así como la convención de nomenclatura utilizada para indicar estos atributos en [Informes de Perspectivas de personalización](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Los datos de entrada establecidos se pueden aumentar en cualquier momento. Para obtener más información acerca de cómo cargar datos adicionales, consulte  [Carga de datos para [!DNL Target] algoritmos de personalización](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+
+| Categoría de datos | Prefijo del sistema | Descripción | Mostrar nombre en [!UICONTROL Perspectivas] informes |
 | --- | --- | --- | --- |
-| [Datos de dispositivos y móviles](#device-mobile) | Dispositivo e información específica del móvil.<br>Consulte “Datos de dispositivos y móviles”. | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | SO de dispositivo móvil<br>Tamaño de pantalla de dispositivo |
-| [Datos ambientales](#env) | Información sobre el sistema operativo del visitante y cómo y cuándo el visitante accede a la actividad. | `Browser - / Operating System] - [Attribute Name]` | Browser - Type |
-| Segmento de Experience Cloud | Audiencias creadas en Audience Manager o Analytics y compartidas en Experience Cloud | `Custom - Experience Cloud Audience - [Audience Name]` | Datos personalizados |
-| [Datos geográficos](#geo) | Información sobre dónde se encuentra el visitante.<br>Consulte “Datos geográficos” a continuación. | `Geo - [geo attribute]` | Ciudad<br>País<br>Región/Estado<br>Código postal<br>Latitud<br>Longitud<br>Proveedor de servicios de internet u operador de telefonía móvil |
-| Atributos de perfil | Los scripts o atributos de perfil cargados directamente en el perfil de Target a través de la API de actualización | `Custom - Visitor Profile - [attribute name]` | Datos personalizados |
-| Parámetros de URL de referencia | En general, la dirección URL de referencia es la dirección URL que hace referencia a una página en particular que inició la llamada de Target.<br>Tenga en cuenta que esta variable puede verse afectada por la actividad de los usuarios en su sitio, así como por la implementación técnica de este. | `Custom - [Referring URL Parameter] - [Parameter value]` | Datos personalizados |
-| Segmentos de informes | Cualquier segmento configurado en la configuración de la actividad. | `Reporting Segment -[Segment Name]` | Datos personalizados |
-| [Datos de sesión](#session) | Información sobre el comportamiento del visitante en la sesión al acceder a la actividad. | `Visitor Profile - [Attribute Name]` | Visitor Profile - Start of Most Recent Visit |
-| parámetros de URL. | Target inspecciona la URL para extraer los parámetros de URL. | `Custom - URL Parameter - [URL Parameter]` | Datos personalizados |
+| Parámetros de entorno | ENV | Información sobre el entorno de un usuario, incluido el sistema operativo, el explorador y la hora del día/día de la semana. | Explorador: [Nombre de atributo]<br>Sistema operativo - [Valor] |
+| Geografía | GEO | Información sobre la ubicación geográfica de un usuario, obtenida mediante la búsqueda de IP. | Segmentación geográfica [atributo geográfico] |
+| Dispositivo móvil | MOB | Información sobre el dispositivo móvil de un usuario. | Device - [atributo del dispositivo]<br>Mobile - [atributo móvil] |
+| Segmentos de informes de Target | SEG | Segmentos de informes configurados en [!DNL Target] informes. | Segmento de informes -[Nombre del segmento] |
+| Comportamiento de la sesión | SES | Información sobre el comportamiento del usuario, como el número de páginas vistas. | Perfil del visitante - [Nombre de atributo] |
 
-Las secciones siguientes contienen información detallada sobre los distintos tipos de datos, incluidos nombres de atributos, descripciones y valores de muestra.
+## Categorías de atributos de Adobe Target personalizadas
+
+La tabla siguiente muestra los datos proporcionados por el cliente recopilados por [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] actividades. Estos datos solo se recopilan si se proporcionan. Los nombres de atributos específicos y los valores de muestra serán específicos de la configuración del sistema.
+
+| Categoría de datos | Prefijo del sistema | Descripción | Mostrar nombre en [!UICONTROL Perspectivas] informes |
+| --- | --- | --- | --- |
+| Parámetros de página | CUADRO | Parámetros de página personalizados (&quot;parámetros de mbox&quot;) que se pasan en la llamada a [!DNL Target]. | Personalizado - Parámetro de mbox - [nombre de parámetro] |
+| [!DNL Target] perfil | PRO | Atributos de perfil personalizados cargados directamente en el [!DNL Target] perfil mediante API o parámetro de página y [!DNL Target] scripts de perfil. | Personalizado - Perfil del visitante - [nombre de atributo] |
+| Atributos del cliente | CRS | Atributos del cliente cargados en [!DNL Target] a través de la variable [Servicio de Atributos del cliente de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Personalizado - Perfil del visitante - [nombre de atributo] |
+| parámetros de URL. | Dirección URL | Dirección URL y cualquier parámetro de URL de la página que se está viendo. | Personalizado - Parámetro de URL - [Parámetro de URL] |
+| Dirección URL de referencia | REF | Dirección URL de referencia y cualquier parámetro de dirección URL de la dirección URL de referencia. | Personalizado - [Parámetro de URL de referencia] - [Valor de parámetro] |
+| Audiencias compartidas de Adobe Experience Cloud | AAM | Todas las audiencias compartidas con [!DNL Target] de otro [!DNL Adobe Experience Cloud] soluciones (por ejemplo, [!DNL Adobe Audience Manager] y [!DNL Adobe Analytics], a través de la variable [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personalizado: audiencia de Experience Cloud [Nombre de audiencia] |
+| Audiencias RTCDP de Adobe Experience Platform | UPS | Audiencias RTCDP de AEP compartidas con [!DNL Target] a través de Destinations.<br>Tenga en cuenta que esta funcionalidad aún no se encuentra en [!DNL Target] pero se implementará en el futuro. |  |
+
+## Bloqueo de funciones de [!DNL Target] algoritmos de aprendizaje automático
+
+Las funciones se pueden bloquear de [!DNL Target] algoritmos de aprendizaje automático que impiden su uso en [!UICONTROL Segmentación automática] o [!UICONTROL Automated Personalization] modelo o actividad.
+
+Para bloquear una categoría de funciones de [!DNL Target] algoritmos de aprendizaje automático, póngase en contacto con [Servicio de atención al cliente de Adobe](/help/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) y especifique las categorías de funciones que desea bloquear, utilizando los Prefijos del sistema proporcionados anteriormente.
+
+Para bloquear una o varias funciones específicas de [!DNL Target] algoritmos de aprendizaje automático, póngase en contacto con [Servicio de atención al cliente de Adobe](/help/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) y especifique los nombres específicos de las funciones que deben bloquearse, utilizando los nombres de sistema que se indican a continuación. Las secciones siguientes contienen información detallada sobre los distintos tipos de datos, incluidos nombres de atributos, descripciones y valores de muestra.
 
 ## Datos de dispositivos y móviles {#device-mobile}
 
-| Nombre de atributo | Descripción de atributo | Valores de muestra |
-| --- | --- | --- |
-| Mobile - Device - Brand | Marca del dispositivo móvil que el visitante utilizó para acceder a la actividad. | Apple |
-| Mobile - Device - eReader | Especifica si el dispositivo es un eReader. | 0 es Falso, 1 es Verdadero |
-| Mobile - Device - Game Console | Especifica si el dispositivo es una videoconsola. | 0 es Falso, 1 es Verdadero |
-| Mobile - Device - Media Player | Especifica si el dispositivo es un reproductor multimedia. | 0 es Falso, 1 es Verdadero |
-| Mobile - Device - Mobile Phone | Especifica si el dispositivo es un teléfono móvil. | 0 es Falso, 1 es Verdadero |
-| Mobile - Device - Model Name | El nombre del modelo del dispositivo móvil que el visitante utilizó para acceder a la actividad. | iPhone XS |
-| Device - Set-Top Box | Especifica si el dispositivo es un cuadro de configuración superior. | 0 es Falso, 1 es Verdadero |
-| Mobile - Device - Tablet | Especifica si el dispositivo es una tablet. | 0 es Falso, 1 es Verdadero |
-| Mobile - Pixel Density (ppi) | Densidad de píxeles del dispositivo móvil que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
-| Móvil - OS - OSX (Android, Windows, etc.) | Especifica si el usuario ha utilizado un OSX (o Android, Windows, etc.) para acceder a la actividad. | 0 es Falso, 1 es Verdadero |
-| Mobile - Screen Height (px) | Altura de la pantalla del dispositivo móvil (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
-| Mobile - Screen Width (px) | Ancho de pantalla del dispositivo móvil (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
+| Nombre de atributo | Descripción de atributo | Valores de muestra | Nombre del sistema |
+| --- | --- | --- | --- |
+| Mobile - Device - Brand | Marca del dispositivo móvil que el visitante utilizó para acceder a la actividad. | Apple | MOB_targeting.mobile.vendor |
+| Mobile - Device - eReader | Especifica si el dispositivo es un eReader. | 0 es Falso, 1 es Verdadero | MOB_targeting.mobile.ereader |
+| Mobile - Device - Game Console | Especifica si el dispositivo es una videoconsola. | 0 es Falso, 1 es Verdadero | MOB_targeting.mobile.gamesConsole |
+| Mobile - Device - Media Player | Especifica si el dispositivo es un reproductor multimedia. | 0 es Falso, 1 es Verdadero | MOB_targeting.mobile.mediaPlayer |
+| Mobile - Device - Mobile Phone | Especifica si el dispositivo es un teléfono móvil. | 0 es Falso, 1 es Verdadero | MOB_targeting.mobile.mobilePhone |
+| Mobile - Device - Model Name | El nombre del modelo del dispositivo móvil que el visitante utilizó para acceder a la actividad. | iPhone XS | MOB_targeting.mobile.modelName |
+| Device - Set-Top Box | Especifica si el dispositivo es un cuadro de configuración superior. | 0 es Falso, 1 es Verdadero | MOB_targeting.mobile.setTopBox |
+| Mobile - Device - Tablet | Especifica si el dispositivo es una tablet. | 0 es Falso, 1 es Verdadero | MOB_targeting.mobile.tablet |
+| Mobile - Pixel Density (ppi) | Densidad de píxeles del dispositivo móvil que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. | MOB_targeting.mobile.displayPpi |
+| Móvil - OS - OSX (Android, Windows, etc.) | Especifica si el usuario ha utilizado un OSX (o Android, Windows, etc.) para acceder a la actividad. | 0 es Falso, 1 es Verdadero | MOB_targeting.mobile.os[Sistema operativo]<br>Por ejemplo, MOB_targeting.mobile.osOSx, MOB_targeting.mobile.osAndroid, MOB_targeting.mobile.osLinux |
+| Mobile - Screen Height (px) | Altura de la pantalla del dispositivo móvil (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. | MOB_targeting.mobile.displayHeight |
+| Mobile - Screen Width (px) | Ancho de pantalla del dispositivo móvil (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. | MOB_targeting.mobile.displayWidth |
 
 ## Datos ambientales {#env}
 
-| Nombre de atributo | Descripción de atributo | Valores de muestra |
-| --- | --- | --- |
-| Browser - Day of Week | El día de la semana en el que el visitante accedió a la actividad. | De 0 a 6.<br>(0 es domingo) |
-| Browser - Hour of Day | Hora del día en que el visitante accedió a la actividad. | 0 a 23<br>(0 equivale a medianoche) |
-| Browser - Hour of Week | Hora de la semana en la que el visitante accedió a la actividad. | 0 a 168<br>(el domingo a medianoche es 0) |
-| Browser - Language Setting | El idioma especificado en el explorador del visitante utilizado para acceder a la actividad. | English<br>German |
-| Browser - Screen Height (px) | Altura de la pantalla del explorador del dispositivo (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
-| Browser - Time of Day | Hora del día del explorador cuando el visitante accedió a la actividad. | 0, 6, 12, 18<br>(0 es la noche, 6 es mañana,<br>12 es mediodía, 18 es tarde) |
-| Browser - Timezone | Zona horaria del visitante al acceder a la actividad. | Pacific Time<br>Eastern Time<br>GMT |
-| Browser - Type | Tipo de explorador que el visitante utilizó al acceder a la actividad. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
-| Browser - Weekday/Weekend | Estado de trabajo cuando el visitante accedió a la actividad (fin de semana, jornada laboral o tiempo libre entre semana). | Sábado y domingo es fin de semana<br>De lunes a viernes de 09:00 a 18:00 es jornada laboral<br>De lunes a viernes después de 18:00 hasta 09:00 es tiempo libre entre semana |
-| Browser - Window Height (px) | Altura de la ventana del explorador (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
-| Browser - Window Width (px) | Ancho de ventana del explorador (en píxeles) que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
-| Device - Screen Height | Altura de pantalla del dispositivo que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
-| Device - Screen Width | Ancho de pantalla del dispositivo que el visitante utilizó para acceder a la actividad. | 1, 2, 3, etc. |
-| Sistema operativo | Sistema operativo en el dispositivo del visitante utilizado para acceder a la actividad. | Mac OS<br>Windows<br>Linux<br>Search Bot<br>OS Unknown |
-| Operating System - Version | Versión del sistema operativo que el visitante utilizó para acceder a la actividad. | Windows 10<br>Mac OS 10 |
-| Traffic Sources - Referring Landing Page URL | Primera página que vio el visitante al acceder al sitio. | `https://www.adobe.com/ecloud.html` |
+|Nombre de atributo|Descripción de atributo|Valores de muestra|Nombre del sistema| | — | — | — | — | |Explorador - Día de la semana|El día de la semana en que el visitante accedió a la actividad.|De 0 a 6.<br>(0 es domingo)|ENV_DAY_OF_WEEK_HOUR| |Explorador - Hora del día|La hora del día en que el visitante accedió a la actividad.|0 a 23<br>(0 equivale a medianoche)|ENV_USER_HOUR| |Explorador - Hora de la semana|Hora de la semana en la que el visitante accedió a la actividad.|0 a 168<br>(El domingo a medianoche es 0)|ENV_WeekHour| |Explorador - Configuración de idioma|El idioma especificado en el explorador del visitante utilizado para acceder a la actividad.|Inglés<br>Alemán|ENV_Language| |Browser - Screen Height (px)|La altura de la pantalla del explorador del dispositivo (en píxeles) que el visitante utilizó para acceder a la actividad.|1, 2, 3, etc.|ENV_browserHeight| |Explorador - Ancho de la pantalla (px)|El ancho de la pantalla del explorador del dispositivo (en píxeles) que el visitante utilizó para acceder a la actividad.|1, 2, 3, etc.|ENV_browserWidth| |Explorador - Hora del día|La hora del día del explorador cuando el visitante accedió a la actividad.|0, 6, 12, 18<br>(0 es la noche, 6 es mañana,<br>12 es mediodía, 18 es tarde)|ENV_LOCAL_TIME_PERIOD| |Explorador - Zona horaria|Zona horaria del visitante al acceder a la actividad.|Hora del Pacífico<br>Hora del este<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |Explorador - Tipo|El tipo de explorador que el visitante utilizó al acceder a la actividad.|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Otros|ENV_Browser| |Explorador: día de la semana/fin de semana|El estado del trabajo cuando el visitante accedió a la actividad (fin de semana, horas de trabajo o tiempo libre entre semana).|Sábado y domingo es fin de semana<br>De lunes a viernes de 09:00 a 18:00 es tiempo de trabajo<br>Lunes a viernes después de 1800 hasta 0900 es tiempo libre entre semana|ENV_USER_HOUR_TYPE| |Browser - Window Height (px)|La altura de la ventana del explorador (en píxeles) que el visitante utilizó para acceder a la actividad.|1, 2, 3, etc.|ENV_BrowserHeight| |Explorador - Anchura de la ventana (px)|El ancho de la ventana del explorador (en píxeles) que el visitante utilizó para acceder a la actividad.|1, 2, 3, etc.|ENG_BrowserWidth| |Dispositivo: altura de la pantalla|La altura de pantalla del dispositivo que el visitante utilizó para acceder a la actividad.|1, 2, 3, etc.|ENV_SCREEN_HEIGHT| |Dispositivo - Ancho de la pantalla|El ancho de pantalla del dispositivo que el visitante utilizó para acceder a la actividad.|1, 2, 3, etc.|ENV_SCREEN_WIDTH| |Sistema operativo|Sistema operativo en el dispositivo del visitante utilizado para acceder a la actividad.|Sistema operativo Mac<br>Windows<br>Linux<br>Bot de búsqueda<br>SO desconocido|ENV_OperatingSystem| |Sistema operativo - Versión|La versión del sistema operativo que el visitante utilizó para acceder a la actividad.|Windows 10<br>Mac OS 10|ENV_OPERATING_SYSTEM_VERSION| |Fuentes de tráfico: dirección URL de la página de aterrizaje de referencia|La primera página que vio el visitante al acceder al sitio.|`https://www.adobe.com/ecloud.html`|ENG_REFERRER|
 
 ## Datos geográficos {#geo}
 
-| Nombre de atributo | Descripción de atributo | Valores de muestra |
-| --- | --- | --- |
-| Geo - City | Ciudad desde la que el visitante accedió a la actividad. | San Francisco |
-| Geo - Country | País desde el que el visitante accedió a la actividad. | Alemania |
-| Geo - DMA | El área designada de marketing (DMA) desde la que el visitante accedió a la actividad. | Charlottesville |
-| Geo - Latitude | Latitud desde la cual el visitante accedió a la actividad. | 47 269<br>Redondeado a 3 decimales (precisión de 100 metros aproximadamente) |
-| Geo - Longitude | Longitud desde la cual el visitante accedió a la actividad. | -122 269<br>Redondeado a 3 decimales (precisión de 100 metros aproximadamente) |
-| Geo - State/Region | Estado o región desde donde el visitante accedió a la actividad. | Utah<br>New South Wales |
-| Geo - Zip Code | Código postal desde el cual el visitante accedió a la actividad. | 84004 |
-| Mobile - Carrier | Operador de telefonía móvil que el visitante utilizó al acceder a la actividad. | Vodafone<br>T-Mobile |
-| Network - Connection Speed | Velocidad de conexión de red del dispositivo cuando el visitante accedió a la actividad. | Broadband<br>Cable<br>DSL<br>Mobile<br>Wireless<br>Satellite |
-| Network - Domain Name | El nombre del dominio de red desde el cual el visitante accedió a la actividad. | `nnt.net` |
-| Network - ISP | La red desde la cual el visitante accedió a la actividad. | nnt communications corporation |
+| Nombre de atributo | Descripción de atributo | Valores de muestra | Nombre del sistema |
+| --- | --- | --- | --- |
+| Geo - City | Ciudad desde la que el visitante accedió a la actividad. | San Francisco | Geo_City |
+| Geo - Country | País desde el que el visitante accedió a la actividad. | Alemania | Geo_County |
+| Geo - DMA | El área designada de marketing (DMA) desde la que el visitante accedió a la actividad. | Charlottesville | Geo_DMA |
+| Geo - Latitude | Latitud desde la cual el visitante accedió a la actividad. | 47 269<br>Redondeado a 3 decimales (precisión de 100 metros aproximadamente) | GEO_Latitude |
+| Geo - Longitude | Longitud desde la cual el visitante accedió a la actividad. | -122 269<br>Redondeado a 3 decimales (precisión de 100 metros aproximadamente) | GEO_Longitude |
+| Geo - State/Region | Estado o región desde donde el visitante accedió a la actividad. | Utah<br>New South Wales | GEO_State<br>GEO_Region |
+| Geo - Zip Code | Código postal desde el cual el visitante accedió a la actividad. | 84004 | GEO_ZipCode |
+| Mobile - Carrier | Operador de telefonía móvil que el visitante utilizó al acceder a la actividad. | Vodafone<br>T-Mobile | GEO_mobileCarrier |
+| Network - Connection Speed | Velocidad de conexión de red del dispositivo cuando el visitante accedió a la actividad. | Broadband<br>Cable<br>DSL<br>Mobile<br>Wireless<br>Satellite | GEO_ConnectionSpeed |
+| Network - Domain Name | El nombre del dominio de red desde el cual el visitante accedió a la actividad. | `nnt.net` | GEO_DomainName |
+| Network - ISP | La red desde la cual el visitante accedió a la actividad. | nnt communications corporation | GEO_IspName |
 
 ## Datos de sesión {#session}
 
-| Nombre de atributo | Descripción de atributo | Valores de muestra |
-| --- | --- | --- |
-| Visitor Profile - Activity Lifetime Order Value | Especifica la suma de todos los valores de pedidos en todas las visitas o sesiones a una actividad concreta. | Doble |
-| Visitor Profile - Activity Lifetime Time on Site | Especifica el tiempo total invertido en el sitio, excluida la sesión actual, y se actualiza cuando caduca la sesión. | Doble, milisegundos |
-| Visitor Profile -Average Page Views per Visit during Activity | Especifica el número promedio de vistas de página por sesión, excluida la sesión actual. | Doble |
-| Visitor Profile - Average Time per Visit | Especifica el tiempo promedio empleado por visita/sesión. Esto no incluye la sesión actual. | Doble, milisegundos |
-| Visitor Profile - First Visit | Especifica la hora de la primera visita en la que el usuario interactuó con Target. | Doble, milisegundos |
-| Visitor Profile - Hours since Last Visit | Especifica las horas desde la última visita a esta actividad en particular. | Doble (solo número positivo entero) 1, 2, 3, etc. |
-| Visitor Profile - Impressions of Location/Content | Especifica el número de impresiones de una combinación de contenido/ubicación en particular en una actividad concreta. | Doble (solo número positivo entero) 1, 2, 3, etc. |
-| Visitor Profile - Last Target Interaction | Especifica la hora de la última interacción con Target. La interacción ocurre en cada solicitud [!DNL Target] porque la implementación actual de [!DNL Target] actualiza el perfil en cada solicitud. | Doble, milisegundos |
-| Visitor Profile - Pages Seen Before Activity | Especifica el número total de vistas de página (impresiones), incluida la visita o sesión actual hasta que el visitante entra en la actividad. | Doble (solo número positivo entero) 1, 2, 3, etc. |
-| Visitor Profile - Page Views in Current Visit | Especifica el número de vistas de página en la visita o sesión actual hasta que el visitante entra en la actividad. En concreto, el número de impresiones. Estas impresiones no son vistas reales de la página, sino el número de veces que la solicitud llegó a Target. Target no puede distinguir entre tiempos de espera u otros motivos por los que el usuario no recibió o visualizó el contenido. | Doble (solo número positivo entero) |
-| Visitor Profile - Start of Current Visit | Especifica la hora en la que se inició la visita o sesión actual de Target. La visita con Target se puede iniciar sin entrar en una actividad. Todo lo que se necesita es una llamada a cualquier solicitud [!DNL Target]. Un visitante podría tardar un poco hasta entrar en la actividad y registrar el acceso. | Doble, milisegundos |
-| Perfil del visitante: inicio de la visita más reciente | Especifica la hora en la que se inició la última visita o sesión de Target. Este atributo se actualiza cuando caduca la sesión.<br>Si esta es la primera sesión del visitante, resultará en `LAST_SESSION_START = 0.` | Doble, milisegundos |
-| Visitor Profile - Time Since Most Recent Visit When First Enter Activity | Especifica la duración entre la sesión anterior y la hora en la que el usuario entra en la actividad y se registra el acceso. | Doble, milisegundos |
-| Visitor Profile - Time in Visit Before Enter Activity | Especifica la diferencia entre la última interacción con Target y la fecha en la que comenzó la visita actual. Este atributo puede considerarse una duración de visita/sesión hasta que el usuario entre en la actividad y se registre el acceso.<br>[!DNL Target]Los valores negativos se producen cuando la sesión empieza, y la última hora de actualización se activa mediante la misma llamada de Los valores negativos deben considerarse como 0 (cero). | Doble, milisegundos |
-| Perfil del visitante - Visitas totales | Especifica el número total de visitas/sesiones. No incluye la visita o sesión actual. | Doble (solo número positivo entero) 1, 2, 3, etc. |
-| Visitor Profile - Total Visits to Activity | Especifica el número de visitas a una actividad concreta. Si no hay ninguna visita anterior, devuelve 0 (cero). | Doble (solo número positivo entero) 1, 2, 3, etc. |
-| Visitor Profile - Total Visits to Activity with Conversion | Especifica el número de visitas/sesiones a una actividad concreta cuando hay al menos una conversión durante la visita. | Doble |
-| Visitor Profile - Visits to Activity with No Conversion | Número de visitas/sesiones sin conversiones a una actividad en particular. Este valor se restablece en cero después de la conversión o -1 si la conversión no ha sucedido nunca. | Doble (solo número positivo entero) 1, 2, 3, etc. |
+| Nombre de atributo | Descripción de atributo | Valores de muestra | Nombre del sistema |
+| --- | --- | --- | --- |
+| Visitor Profile - Activity Lifetime Order Value | Especifica la suma de todos los valores de pedidos en todas las visitas o sesiones a una actividad concreta. | Doble | SES_CUMULATIVE_ORDER_VALUE |
+| Visitor Profile - Activity Lifetime Time on Site | Especifica el tiempo total invertido en el sitio, excluida la sesión actual, y se actualiza cuando caduca la sesión. | Doble, milisegundos | SES_TOTAL_TIME |
+| Visitor Profile -Average Page Views per Visit during Activity | Especifica el número promedio de vistas de página por sesión, excluida la sesión actual. | Doble | SES_REQUESTS_PER_SESSION |
+| Visitor Profile - Average Time per Visit | Especifica el tiempo promedio empleado por visita/sesión. Esto no incluye la sesión actual. | Doble, milisegundos | SES_TIME_PER_SESSION |
+| Visitor Profile - First Visit | Especifica la hora de la primera visita en la que el usuario interactuó con [!DNL Target]. | Doble, milisegundos | SES_PROFILE_CREATION_TIME |
+| Visitor Profile - Hours since Last Visit | Especifica las horas desde la última visita a esta actividad en particular. | Doble (solo número positivo entero) 1, 2, 3, etc. | SES_HOURS_SINCE_LAST_VISIT |
+| Visitor Profile - Impressions of Location/Content | Especifica el número de impresiones de una combinación de contenido/ubicación en particular en una actividad concreta. | Doble (solo número positivo entero) 1, 2, 3, etc. | SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID] |
+| Perfil del visitante - Último [!DNL Target] Interacción | Especifica la hora de la última interacción con [!DNL Target]. La interacción ocurre en cada [!DNL Target] solicitud porque la implementación actual de [!DNL Target] actualiza el perfil en cada solicitud. | Doble, milisegundos | SES_PROFILE_UPDATE_TIME |
+| Visitor Profile - Pages Seen Before Activity | Especifica el número total de vistas de página (impresiones), incluida la visita o sesión actual hasta que el visitante entra en la actividad. | Doble (solo número positivo entero) 1, 2, 3, etc. | SES_TOTAL_PAGE_VIEWS |
+| Visitor Profile - Page Views in Current Visit | Especifica el número de vistas de página en la visita o sesión actual hasta que el visitante entra en la actividad. En concreto, el número de impresiones. Estas impresiones no son vistas reales de la página, sino el número de veces que la solicitud llegó a Target. Target no puede distinguir entre tiempos de espera u otros motivos por los que el usuario no recibió o visualizó el contenido. | Doble (solo número positivo entero) | SES_SESSION_POSITION |
+| Visitor Profile - Start of Current Visit | Especifica la hora en la que se inició la visita o sesión actual de Target. La visita con Target se puede iniciar sin entrar en una actividad. Todo lo que se necesita es una llamada a cualquier [!DNL Target] solicitud. Un visitante podría tardar un poco hasta entrar en la actividad y registrar el acceso. | Doble, milisegundos | SES_SESSION_START |
+| Visitor Profile - Start of Most Recent Visit | Especifica la hora de la última visita o sesión con [!DNL Target] iniciado. Este atributo se actualiza cuando caduca la sesión.<br>Si esta es la primera sesión del visitante, resultará en `LAST_SESSION_START = 0.` | Doble, milisegundos | SES_LAST_SESSION_START |
+| Visitor Profile - Time Since Most Recent Visit When First Enter Activity | Especifica la duración entre la sesión anterior y la hora en la que el usuario entra en la actividad y se registra el acceso. | Doble, milisegundos | SES_RECENCY |
+| Visitor Profile - Time in Visit Before Enter Activity | Especifica la diferencia entre la última interacción y [!DNL Target] y cuándo comenzó la visita actual. Este atributo puede considerarse una duración de visita/sesión hasta que el usuario entre en la actividad y se registre el acceso.<br>[!DNL Target]Los valores negativos se producen cuando la sesión empieza, y la última hora de actualización se activa mediante la misma llamada de Los valores negativos deben considerarse como 0 (cero). | Doble, milisegundos | SES_SESSION_TIME |
+| Perfil del visitante - Visitas totales | Especifica el número total de visitas/sesiones. No incluye la visita o sesión actual. | Doble (solo número positivo entero) 1, 2, 3, etc. | SES_TOTAL_SESSIONS |
+| Visitor Profile - Total Visits to Activity | Especifica el número de visitas a una actividad concreta. Si no hay ninguna visita anterior, devuelve 0 (cero). | Doble (solo número positivo entero) 1, 2, 3, etc. | SES_PREVIOUS_VISIT_COUNT |
+| Visitor Profile - Total Visits to Activity with Conversion | Especifica el número de visitas/sesiones a una actividad concreta cuando hay al menos una conversión durante la visita. | Doble | SES_CUMULATIVE_SUCCESSES |
+| Visitor Profile - Visits to Activity with No Conversion | Número de visitas/sesiones sin conversiones a una actividad en particular. Este valor se restablece en cero después de la conversión o -1 si la conversión no ha sucedido nunca. | Doble (solo número positivo entero) 1, 2, 3, etc. | SES_SUCCESS_RECENCY |
