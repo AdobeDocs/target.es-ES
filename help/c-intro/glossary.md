@@ -3,10 +3,10 @@ description: ¿Qué significan los distintos términos que se usan en Adobe  [!D
 title: ¿Dónde puedo encontrar los términos y definiciones que se usan en Target?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '2425'
-ht-degree: 100%
+source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
+workflow-type: tm+mt
+source-wordcount: '2493'
+ht-degree: 97%
 
 ---
 
@@ -271,6 +271,10 @@ Permite a los visitantes renunciar al seguimiento y la publicación de contenido
 **recuento de páginas**
 
 Una métrica de participación que mide el número de páginas vistas en una visita desde el momento en que el visitante ve por primera vez el primer mbox de visualización de la actividad.
+
+**vista de página**
+
+Vista de página significa una sola vista de una aplicación móvil o de navegador, un correo electrónico o una página web de un sitio de Internet, incluidas las vistas de pantalla de la aplicación, los estados de pantalla de la aplicación, las páginas web móviles y las páginas de redes sociales. Las vistas de páginas se producen cada vez que se carga o actualiza una página web, cuando se carga una aplicación, cuando el contenido de destino se procesa o se genera, o se muestra mediante un correo electrónico abierto o visualizado.
 
 **prioridad**
 
