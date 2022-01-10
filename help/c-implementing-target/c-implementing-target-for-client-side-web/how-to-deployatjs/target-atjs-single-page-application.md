@@ -1,16 +1,16 @@
 ---
 keywords: implementación de aplicación de una sola página;implementar aplicación de una sola página;spa;at.js 2.x;at.js;aplicación de una sola página;aplicación de una sola página;spa;SPA
-description: Aprenda a utilizar Adobe [!DNL Target] at.js 2.x to implement [!DNL Target] para aplicaciones de una sola página (SPA).
+description: Aprenda a utilizar Adobe [!DNL Target] at.js 2.x para implementar [!DNL Target] para aplicaciones de una sola página (SPA).
 title: ¿Puedo implementar [!DNL Target] para aplicaciones de una sola página (SPA)?
 feature: Implement Server-side
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
+source-git-commit: a2a70136dba70a8b5b448b00199d3113f5f14da4
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2764'
 ht-degree: 70%
 
 ---
-
 
 # Implementación de aplicación de página única
 
@@ -70,7 +70,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    En primer lugar, es necesario instalar at.js 2.x. Esta versión de at.js se desarrolló teniendo en cuenta las SPA. Las versiones anteriores de at.js y mbox.js (ahora obsoletas) no admiten las vistas de Adobe Target y el VEC para SPA.
 
-   Descargue at.js 2 a través de la IU de Adobe Target ubicada en [!UICONTROL Administración > Implementación]. at.js 2.x también se puede implementar mediante etiquetas en [!DNL Adobe Experience Platform]. Sin embargo, la variable [!DNL Adobe Target] las extensiones no están actualizadas actualmente y no son compatibles.
+   Descargue at.js 2 a través de la IU de Adobe Target ubicada en [!UICONTROL Administración > Implementación]. at.js 2.x también se puede implementar mediante etiquetas en [!DNL Adobe Experience Platform].
 
 1. Implemente la función más reciente de at.js 2.x `triggerView()` en sus sitios.
 
