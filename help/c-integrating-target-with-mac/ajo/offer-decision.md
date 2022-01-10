@@ -1,11 +1,12 @@
 ---
 keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias;opciones de experiencia;decisión de ofertas;offer decisioning;ajo;optimización de recorrido
 description: Obtenga información sobre cómo añadir una decisión de oferta creada en [!DNL Adobe Journey Optimizer] a una actividad .
-title: '¿Cómo Utilizo Las Decisiones De Oferta? '
+title: ¿Cómo Utilizo Las Decisiones De Oferta?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 39d278747cec838ef7855116c820e3c80160d364
+exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Agregar decisiones de oferta creadas en [!DNL Adobe Journey Optimizer] a [!DNL T
 >
 >La funcionalidad de decisión de ofertas descrita en este tema está programada para su lanzamiento el 13 de enero de 2022 con la variable [!DNL Target Standard/Premium] versión 2.1.1.
 
-Para obtener más información, consulte [!DNL Adobe Journey Optimizer], consulte [Introducción a Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) en el *Journey Optimizer* documentación.
+Para obtener más información, consulte [!DNL Adobe Journey Optimizer], consulte [Introducción a Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) en el *Journey Optimizer* documentación.
 
 Para obtener más información sobre las decisiones de oferta, consulte [Acerca de la gestión de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) en el *[!DNL Journey Optimizer]documentación*.
 
@@ -40,13 +41,18 @@ Los siguientes ejemplos son casos de uso de cómo puede usar la variable [!DNL T
 
 ### Comercialización deportiva
 
-Como especialista en marketing de una liga deportiva, desea personalizar el contenido en su página principal (tanto en el sitio web de escritorio como en el móvil). Desea personalizar el contenido en función del equipo favorito del visitante y de los movimientos recientes del reproductor para ofrecerles una oferta para los productos de franquicia relacionados con la tienda. Por ejemplo, para ofrecer una experiencia personalizada para cada una de las regiones siguientes: Dortmund, Frankfurt y Bochum, así como para los usuarios que son seguidores implícitos y explícitos de estos equipos. Como métricas, le interesa ver las visitas y los clics en el sitio de mercadotecnia.
+Como especialista en marketing de una liga deportiva, desea personalizar el contenido en su página principal (tanto en el sitio web de escritorio como en el móvil). Desea personalizar el contenido basado en varias dimensiones y presentar una oferta a los productos de franquicia relacionados con la tienda. Le interesa:
 
-Desea diseñar una actividad de prueba A/B (división 50/50) entre la experiencia predeterminada y la experiencia personalizada (que incluye una decisión de oferta con ofertas para cada región y equipo). Desea utilizar esta actividad para determinar la conversión y el alza de la experiencia personalizada frente al control.
+* El equipo favorito del visitante
+* Actividad reciente del atleta/jugador (por ejemplo, movimiento del equipo, actualizaciones de contratos o lesiones)
+
+Por ejemplo, desea ofrecer una experiencia personalizada para cada una de las regiones siguientes: Dortmund, Frankfurt y Bochum, así como para los usuarios que son seguidores implícitos y explícitos de estos equipos. Como métricas, le interesa ver las visitas y los clics en el sitio de mercadotecnia.
+
+Desea diseñar un [!UICONTROL Prueba A/B] actividad (50/50 dividido) entre la experiencia predeterminada y la experiencia personalizada (que incluye una decisión de oferta con ofertas para cada región y equipo). Desea utilizar esta actividad para determinar la conversión y el alza de la experiencia personalizada frente al control.
 
 ### Plataformas de transmisión de juegos
 
-Como experto en marketing de una organización deportiva, desea ofrecer una oferta personalizada para una plataforma de transmisión de juegos para usuarios de escritorio y móviles de diferentes regiones geográficas: Alemania, Francia, México y Brasil. Cuando un visitante accede al escritorio o al sitio web móvil desde una de esas regiones geográficas, desea ofrecer una oferta para la transmisión de juegos en el idioma local y con el precio correspondiente para la moneda local.
+Como comerciante de una organización de juegos, desea ofrecer una oferta personalizada para una plataforma de transmisión de juegos para usuarios de equipos de escritorio y móviles de diferentes regiones geográficas: Alemania, Francia, México y Brasil. Cuando un visitante accede al escritorio o al sitio web móvil desde una de esas regiones geográficas, desea ofrecer una oferta para la transmisión de juegos en el idioma local y con el precio correspondiente para la moneda local.
 
 En [!DNL Adobe Journey Optimizer], puede crear una oferta de página principal personalizada para cada una de las regiones geográficas objetivo, además de una oferta de reserva con una página principal predeterminada. A continuación, puede crear una decisión de oferta que incorpore estas ofertas y sus reglas de idoneidad. A continuación, en [!DNL Target], puede crear un [!DNL Experience Targeting] (XT) e inserte esa decisión de oferta en su sitio web de escritorio o móvil para ofrecer la experiencia personalizada a los visitantes.
 
@@ -105,11 +111,3 @@ Tenga en cuenta las siguientes notas y limitaciones al trabajar con decisiones d
 * [!DNL Target] los informes no proporcionan informes a nivel de decisión de oferta.
 
 * Visualización [Vínculos de control de calidad](/help/c-activities/c-activity-qa/activity-qa.md) para [!DNL Target] las experiencias que contienen decisiones de oferta afectan al límite de frecuencia establecido en [!DNL Adobe Journey Optimizer] para esas decisiones de oferta.
-
-
-
-
-
-
-
-
