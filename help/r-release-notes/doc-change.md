@@ -1,12 +1,12 @@
 ---
 keywords: registro de cambios de la documentación de Target;actualizaciones de la documentación;nuevos temas;ediciones;actualizaciones;actualizar
-description: 'Manténgase al tanto de los cambios y las adiciones más importantes realizados en la documentación del producto Adobe  [!DNL Target] '
+description: Manténgase actualizado con importantes adiciones y cambios en el [!DNL Adobe Target] documentación.
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
 workflow-type: tm+mt
-source-wordcount: '3223'
+source-wordcount: '3238'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Enero de 11 | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (19 de enero de 2022)</li></ul> |
 | 7 de enero | [Notas de la versión](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión 2.8.0 de at.js. |
 |  | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha añadido información sobre la versión 2.8.0 de at.js. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Se ha añadido información sobre la opción de configuración `telemetry`. |
