@@ -4,9 +4,9 @@ description: Manténgase actualizado con importantes adiciones y cambios en el [
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3228'
 ht-degree: 96%
 
 ---
@@ -25,7 +25,6 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Se ha añadido información sobre la opción de configuración `telemetry`. |
 |  | [Privacidad](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Se ha añadido la siguiente sección: &quot;Recopilación de datos sobre el uso de las funciones&quot;. |
 |  | [Datos utilizados por [!DNL Target] algoritmos de aprendizaje automático](/help/c-activities/t-automated-personalization/ap-data.md) | Se ha actualizado todo el tema, incluido:<ul><li>Nueva sección: &quot;Bloqueo de funciones [!DNL Target] algoritmos de aprendizaje automático&quot;</li><li>Se agregaron columnas de &quot;Nombre del sistema&quot; e información a varias tablas.</li></ul> |
-| Enero de 6 | [Notas de la versión de Target (versión previa)](/help/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] versión 2.1.1. |
 | Diciembre de 17 | [Informe Atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Se ha añadido la nota siguiente sobre los intervalos de fechas al ver los informes de Atributos importantes:<ul><li>La variable [!DNL Target] Actualmente, la IU permite elegir intervalos de fechas de 45 días y 90 días. Sin embargo, la variable [!DNL Target] backend no procesa estos dos rangos. Debido a los patrones de uso y en un esfuerzo por mejorar el rendimiento, estos intervalos de fechas han quedado obsoletos. La interfaz de usuario se actualizará para reflejar los intervalos actualmente permitidos: 15, 30 y 60 días.</li></ul> |
 | 7 de diciembre | [La ciencia detrás de los algoritmos de recomendaciones de Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nuevo tema. |
 | 2 de diciembre | [Fundamentación de la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Se ha actualizado el algoritmo basado en el carro de compras para incluir que las claves de recomendación se proporcionan mediante cartIds de parámetro de mbox en valores separados por coma. Solo se tienen en cuenta los 10 primeros valores. |

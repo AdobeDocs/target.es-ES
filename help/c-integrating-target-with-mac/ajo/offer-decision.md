@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo añadir una decisión de oferta cr
 title: ¿Cómo Utilizo Las Decisiones De Oferta?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Agregar decisiones de oferta creadas en [!DNL Adobe Journey Optimizer] a [!DNL T
 
 >[!NOTE]
 >
->La funcionalidad de decisión de ofertas descrita en este tema está programada para su lanzamiento el 13 de enero de 2022 con la variable [!DNL Target Standard/Premium] versión 2.1.1.
+>Funcionalidad de decisión de ofertas descrita en este tema actualmente en versión beta y disponible solo para clientes seleccionados.
 
 Para obtener más información, consulte [!DNL Adobe Journey Optimizer], consulte [Introducción a Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) en el *Journey Optimizer* documentación.
 
