@@ -1,19 +1,19 @@
 ---
 keywords: afinidad;afinidad de la categoría
-description: Obtenga información sobre la afinidad de la categoría en el Adobe [!DNL Target] que captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de modo que se pueda establecer como objetivo y se le apliquen segmentos.
+description: Obtenga información sobre la afinidad de la categoría en [!DNL Adobe Target] que captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de modo que se pueda establecer como objetivo y se le apliquen segmentos.
 title: ¿Qué es la afinidad de la categoría?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '801'
 ht-degree: 68%
 
 ---
 
 # Afinidad de la categoría
 
-La función de afinidad de la categoría en [!DNL Adobe Target] captura automáticamente las categorías que visitan los usuarios y calcula la afinidad del usuario hacia las categorías, de modo que se pueda establecer como objetivo y se le apliquen segmentos. La afinidad de la categoría ayuda a garantizar que el contenido esté dirigido a los visitantes que tienen más probabilidades de actuar sobre esa información.
+La función de afinidad de la categoría en [!DNL Adobe Target] captura automáticamente las categorías del sitio que visitan los usuarios y luego calcula la afinidad del usuario por cada categoría para que se pueda establecer como objetivo y se le apliquen segmentos. La afinidad de la categoría ayuda a garantizar que el contenido esté dirigido a los visitantes que tienen más probabilidades de actuar sobre esa información.
 
 ## Transferir información sobre la afinidad de la categoría a [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
