@@ -1,27 +1,27 @@
 ---
 keywords: audiencia;reglas de audiencia;combinar audiencias;combinación de audiencias;exclusión;añadir exclusión;excluir;audiencia específica
-description: Aprenda a combinar varias audiencias (incluidas las de Adobe Experience Cloud y las  [!DNL Target] audiencias) sobre la marcha para crear audiencias ad-hoc.
+description: Aprenda a combinar varias audiencias (incluidas las de Adobe Experience Cloud y [!DNL Target] audiencias) sobre la marcha para crear audiencias ad-hoc.
 title: ¿Puedo combinar varias audiencias para crear una nueva?
-feature: Audiencias
+feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 71%
+source-wordcount: '927'
+ht-degree: 72%
 
 ---
 
 # Combinación de varias audiencias
 
-Combine varias audiencias (incluidas [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform] y [!DNL Target] ) sobre la marcha para crear audiencias ad-hoc. También puede crear reglas de exclusión y excluir audiencias de una regla.
+Combinación de varias audiencias (incluidas [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform]y [!DNL Target] audiencias) sobre la marcha para crear audiencias ad-hoc. También puede crear reglas de exclusión y excluir audiencias de una regla.
 
 >[!NOTE]
 >
->La fuente [!DNL Adobe Experience Platform] se encuentra en un programa de pruebas beta, pero está disponible para todos los clientes [!DNL Target] que utilizan el [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Las audiencias disponibles en [!DNL Adobe Experience Platform] se pueden usar tal cual o [combinadas con audiencias existentes](/help/c-target/combining-multiple-audiences.md).
+>La variable [!DNL Adobe Experience Platform] el origen está disponible para todos [!DNL Target] clientes que utilizan la variable [SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o en combinación con audiencias existentes, tal como se explica en este tema).
 
 Imagine que tiene las audiencias “Visitantes nuevos” y “Usuarios de Chrome”. Para una actividad concreta, puede combinar estas audiencias existentes para dirigirse a los visitantes nuevos que utilicen navegadores Chrome. En lugar de crear una tercera audiencia y almacenarla en la biblioteca [!UICONTROL Audiencias], puede combinar las dos audiencias al crear o editar una actividad existente.
 
-Otro ejemplo: puede dirigirse a todos los clientes fieles. Por ejemplo, puede incluir una audiencia [!DNL Audience Manager] específica para el estado de lealtad y combinarla con una audiencia [!DNL Target] compuesta por personas que se registraron en el programa de fidelidad durante la sesión actual. Combinar estas dos audiencias es más fácil que crear una tercera audiencia permanente.
+Otro ejemplo: puede dirigirse a todos los clientes fieles. Por ejemplo, puede incluir un [!DNL Audience Manager] audiencia para el estado de fidelidad y combínelo con una [!DNL Target] audiencia compuesta por personas que se registraron en el programa de fidelidad durante la sesión actual. Combinar estas dos audiencias es más fácil que crear una tercera audiencia permanente.
 
 Puede combinar hasta diez audiencias usando los operadores Y y O.
 
@@ -31,17 +31,17 @@ Puede crear y usar audiencias combinadas en varios lugares de la interfaz de usu
 
 Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] de la actividad durante el flujo de trabajo guiado de tres pasos.
 
-1. Mientras crea una [actividad](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Segmentación]**, haga clic en los tres elipses verticales y, a continuación, haga clic en **[!UICONTROL Reemplazar audiencia]**.
+1. Al crear un [actividad](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en el **[!UICONTROL Segmentación]** , haga clic en las tres elipses verticales y, a continuación, haga clic en **[!UICONTROL Reemplazar audiencia]**.
 
    ![Resultado del paso](assets/edit_audience.png)
 
 1. En la página [!UICONTROL Elegir audiencia], marque las casillas de verificación de las audiencias que quiera usar como componentes básicos en la audiencia combinada.
 
-   Haga clic en el botón [!UICONTROL Filters] para limitar la búsqueda de la audiencia deseada. Puede filtrar audiencias por su fuente: ([!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform] (beta)).
+   Haga clic en el [!UICONTROL Filtros] para limitar la búsqueda de la audiencia deseada. Puede filtrar audiencias por su fuente: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform].
 
    ![Resultado del paso](assets/combine_multiple_audiences1.png)
 
-1. Haga clic en **[!UICONTROL Combinar audiencias]** en la esquina superior derecha.
+1. Haga clic en **[!UICONTROL Combinación de audiencias]** en la esquina superior derecha.
 
    ![Resultado del paso](assets/combine_multiple_audiences2.png)
 
@@ -61,7 +61,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
       >
       >El operador Y u O (AND u OR) debe ser el mismo durante la combinación de audiencias. No puede combinar distintos operadores.
 
-   1. Para agregar una exclusión a una regla, haga clic en **[!UICONTROL Excluir]**.
+   1. Para añadir una exclusión a una regla, haga clic en **[!UICONTROL Excluir]**.
 
       ![](assets/combine_multiple_audiences3a.png)
 
@@ -113,7 +113,7 @@ Cuando edita una actividad existente, puede crear una audiencia combinada ad-hoc
 
    Haga clic en la actividad para abrirla y luego haga clic en **[!UICONTROL Editar actividad]**.
 
-1. Haga clic en **[!UICONTROL Configurar]** > **[!UICONTROL Audiencias]** > **[!UICONTROL Varias audiencias]**.
+1. Haga clic en el **[!UICONTROL Configurar]** > **[!UICONTROL Audiencias]** > **[!UICONTROL Varias audiencias]**.
 
    ![Configurar > Audiencias > Varias audiencias](assets/combine_multiple_audiences7.png)
 
