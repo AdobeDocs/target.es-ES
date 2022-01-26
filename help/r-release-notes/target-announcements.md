@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ Anuncios e información acerca de próximos eventos, incluidas sesiones de Gener
 * **8:00 a. m. (PST, UTC -8)**
 * **[Más información e información de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-Jon Tehero, administrador de productos de grupo para [!DNL Adobe Target], responderá a sus preguntas relativas a sus áreas de experiencia:
+Jon Tehero, responsable de producto del grupo para [!DNL Adobe Target], responderá preguntas relativas a sus áreas de experiencia:
 
-* [!DNL Adobe Target] integración con [!DNL Adobe Journey Optimizer] (AJO)
-* [!DNL Adobe Target] IU
+* Integración de [!DNL Adobe Target] con [!DNL Adobe Journey Optimizer] (AJO)
+* IU de [!DNL Adobe Target]
 * Temas generales de [!DNL Adobe Target]
 
 ## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de [!DNL Adobe Target]
