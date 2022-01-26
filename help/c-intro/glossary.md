@@ -4,9 +4,9 @@ title: ¿Dónde puedo encontrar los términos y definiciones que se usan en Targ
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2493'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -194,7 +194,7 @@ Le permite segmentar actividades y experiencias en función de la ubicación geo
 
 **objetivo**
 
-La conversión o el resultado que indica el éxito de una actividad. Se recomienda no ejecutar nunca una prueba sin tener como objetivo mejorarla de alguna manera específica.
+La conversión o el resultado que indica el éxito de una actividad. La práctica recomendada es no ejecutar nunca una prueba sin tener como objetivo mejorar de una manera específica.
 
 ## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
@@ -272,9 +272,9 @@ Permite a los visitantes renunciar al seguimiento y la publicación de contenido
 
 Una métrica de participación que mide el número de páginas vistas en una visita desde el momento en que el visitante ve por primera vez el primer mbox de visualización de la actividad.
 
-**vista de página**
+**vista de páginas**
 
-Vista de página significa una sola vista de una aplicación móvil o de navegador, un correo electrónico o una página web de un sitio de Internet, incluidas las vistas de pantalla de la aplicación, los estados de pantalla de la aplicación, las páginas web móviles y las páginas de redes sociales. Las vistas de páginas se producen cada vez que se carga o actualiza una página web, cuando se carga una aplicación, cuando el contenido de destino se procesa o se genera, o se muestra mediante un correo electrónico abierto o visualizado.
+Vista de páginas significa una sola vista de una aplicación móvil o de explorador, un correo electrónico o una página web de un sitio de Internet, incluidas las vistas de pantalla de la aplicación, los estados de pantalla de la aplicación, las páginas web móviles y las páginas de redes sociales. Las vistas de páginas se producen cada vez que se carga o actualiza una página web, cuando se carga una aplicación, cuando el contenido de destino se procesa o se genera, o se muestra mediante un correo electrónico abierto o visualizado.
 
 **prioridad**
 
