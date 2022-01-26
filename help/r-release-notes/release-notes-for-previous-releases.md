@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
 workflow-type: tm+mt
-source-wordcount: '32587'
+source-wordcount: '32658'
 ht-degree: 99%
 
 ---
@@ -21,13 +21,21 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >
 >Consulte [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
+## Notas de la versión - 2022
+
+### [!DNL Target Standard/Premium] 22.1.2 (12 de enero de 2022)
+
+| Función | Detalles |
+| --- | --- |
+| Uso de las decisiones de oferta en [!DNL Target] actividades | Ahora puede usar [!DNL Adobe Journey Optimizer] decisiones de oferta en [!DNL Adobe Target] Prueba A/B y actividades de segmentación de experiencias (XT) para determinar y ofrecer la siguiente mejor oferta para sus visitantes en la web y dispositivos móviles.<br>**Nota**: Esta capacidad está disponible para [!DNL Target] clientes que también tienen acceso a [!DNL Offer Decisioning] y están teniendo un [!DNL Target] implementación basada en el SDK web de Adobe Experience Platform.<br>Para obtener más información, consulte [Uso de decisiones de oferta](/help/c-integrating-target-with-mac/ajo/offer-decision.md). |
+
 ## Notas de la versión: 2021
 
 ### Versión 2.7.0 de at.js (28 de octubre de 2021)
 
 Esta versión incluye la siguiente mejora:
 
-* Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/es-ES/docs/Web/Web_Components). Esta versión de at.js es necesaria para crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad se incluye en la versión de [!DNL Target Standard/Premium] 21.10.5.
+* Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/es/docs/Web/Web_Components). Esta versión de at.js es necesaria para crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad se incluye en la versión de [!DNL Target Standard/Premium] 21.10.5.
 
 ### [!DNL Target Standard/Premium] 21.10.5 (28 de octubre de 2021)
 
@@ -37,13 +45,13 @@ Esta versión de mantenimiento incluye la siguiente mejora:
 | --- | --- |
 | [!UICONTROL Compositor de experiencias visuales] (VEC) | Se ha añadido compatibilidad con [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Las experiencias y ofertas personalizadas se pueden crear y probar en elementos personalizados y en elementos dentro de elementos personalizados.<br>Para obtener más información, consulte [Estilos en Opciones del Compositor de experiencias visuales](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
-## [!DNL Target Standard/Premium] 21.10.4 (21 de octubre de 2021)
+### [!DNL Target Standard/Premium] 21.10.4 (21 de octubre de 2021)
 
 Esta versión de mantenimiento incluye la siguiente mejora:
 
 | Función | Detalles |
 | --- | --- |
-| Recomendaciones basadas en el carro de compras | Se ha añadido una nueva familia de algoritmos para ofrecer recomendaciones basadas en el contenido del carro de compras del visitante.<br>Para obtener más información, consulte &quot;Basado en el carro de compras&quot; en [Crear criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Adiciones al carro de compras/vistas del carro de compras/páginas de cierre de compra&quot; y &quot;Excluir elementos que ya están en el carro de compras del visitante&quot; en [Planificar e implementar Recommendations](/help/c-recommendations/plan-implement.md)y &quot;Basado en el carro de compras&quot; en [Basar la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| Recomendaciones basadas en el carro de compras | Se ha añadido una nueva familia de algoritmos para ofrecer recomendaciones basadas en el contenido del carro de compras del visitante.<br>Para obtener más información, consulte “Basado en el carro de compras”; en [Creación de criterios](/help/c-recommendations/c-algorithms/create-new-algorithm.md), “Adiciones al carro de compras/vistas del carro de compras/páginas de cierre de compra” y ”Excluir elementos que ya están en el carro de compras del visitante” en [Planificación e implementación de Recommendations](/help/c-recommendations/plan-implement.md) y “Basado en el carro de compras” en [Fundamentación de la recomendación en una clave de recomendación](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 de octubre de 2021)
 
@@ -1968,7 +1976,7 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras y correcciones de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nueva ubicación para el foro de Target </p> </td> 
-   <td colname="col2"> <p> El foro de Target se ha trasladado a la nueva <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external">Adobe Community Platform</a>. </p> </td> 
+   <td colname="col2"> <p> El foro de Target se ha trasladado a la nueva <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es" format="https" scope="external">Adobe Community Platform</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
