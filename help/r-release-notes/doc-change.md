@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7c8620df9cefe422f499d4edb681d024e74529ce
+source-git-commit: 9887358f905b8fda8cf42f0cbd721c1ad13632d4
 workflow-type: tm+mt
-source-wordcount: '3318'
+source-wordcount: '3329'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Enero de 27 | [Fragmentos de experiencia de AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Se ha actualizado el tema y se ha añadido información sobre [!DNL AEM as a Cloud Service] y [!DNL Adobe I/0]. |
 | Enero de 26 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha agregado información sobre la versión 22.1.2 de Target Standard/Premium. |
 |  | [Crear audiencias](/help/c-target/c-audiences/audiences.md) | Se ha añadido información sobre [!DNL Adobe Experience Platform] audiencias. |
 |  | [Combinación de varias audiencias](/help/c-target/combining-multiple-audiences.md) | Se ha añadido información sobre [!DNL Adobe Experience Platform] audiencias. |
