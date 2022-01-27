@@ -1,12 +1,12 @@
 ---
 keywords: datos ambientales;datos de sesión;datos geográficos;datos geográficos;datos de dispositivo;datos móviles;atributos;atributos de perfil;algoritmos de personalización;algoritmos de aprendizaje automático;algoritmos de aprendizaje automático
-description: Descubra qué Adobe de datos [!DNL Target] recopila y utiliza para crear sus algoritmos de aprendizaje automático en [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] actividades (AT).
+description: Descubra qué Adobe de datos [!DNL Target] recopila y utiliza para crear sus algoritmos de aprendizaje automático.
 title: ¿Qué datos se recopilan para crear algoritmos de aprendizaje automático?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
+source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2077'
 ht-degree: 52%
 
 ---
