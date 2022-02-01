@@ -5,10 +5,10 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
+source-git-commit: 211540256d2bbaddf3053eb1cba2b30b058af8fd
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,13 @@ ht-degree: 70%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de Target, los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## Target Standard/Premium 22.2.1 (1 de febrero de 2022)
+
+Esta versión de mantenimiento contiene las siguientes correcciones y mejoras para el nuevo [!UICONTROL Audiencias] La interfaz de usuario se anunció en la versión Target Standard/Premium 22.1.2 que se lanzará a los clientes de todas las regiones en las próximas seis semanas. Estas correcciones alinean la funcionalidad de las audiencias creadas en [!DNL Adobe Target Standard/Premium].
+
+* Se ha corregido un problema que impedía importar audiencias de [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]y [!DNL Adobe Target Classic] desde estar asignadas como audiencias de informes. (TGT-43140)
+* Se ha añadido un [!UICONTROL Eliminar] en la [!UICONTROL Audiencias] lista para audiencias importadas de [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]y [!DNL Adobe Target Classic]. También se ha agregado la funcionalidad de eliminación masiva. (TGT-42914)
 
 ## Versión 2.8.1 de at.js (28 de enero de 2022)
 
@@ -31,14 +38,6 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 | [!DNL Adobe Experience Platform] audiencias en [!DNL Target] | Ahora puede consumir y utilizar [!DNL Adobe Experience Platform] audiencias en [!DNL Target]. La variable [!DNL Target] equipo, [!DNL Experience Platform] [!DNL Destinations] y [!DNL Unified Profile Service] El equipo se complace en anunciar la disponibilidad general de los casos de uso de &quot;Personalización de la misma página/página siguiente&quot;.<br>Uso de audiencias creadas en [!DNL Adobe Experience Platform] proporcione datos de clientes más completos que conduzcan a una personalización más impactante. La variable [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), generado en [!DNL Adobe Experience Platform] ayuda a las empresas a reunir datos conocidos y anónimos de varias fuentes empresariales para crear perfiles de clientes que se puedan usar para ofrecer experiencias de clientes personalizadas en todos los canales y dispositivos en tiempo real.<br>Para obtener más información, consulte [Usar audiencias de Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep) en *Crear audiencias*.<br>Asegúrese de leer el blog del Adobe y ver el video: [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] y [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
 | Actualización de la IU de las [!UICONTROL audiencias] | Como parte del esfuerzo continuo del equipo de [!DNL Adobe Target] para mejorar la experiencia del usuario para los usuarios de [!DNL Target], esta versión actualiza las páginas [!UICONTROL Audiencias] y [!UICONTROL Scripts de perfil] en la IU de [!DNL Target]. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que añade nuevas mejoras, como las siguientes:<ul><li>La capacidad de seleccionar y eliminar varias audiencias simultáneamente</li><li>Un [diseño del generador de audiencias](/help/c-target/c-audiences/create-audience.md) actualizado</li><li>Compatibilidad con las reglas de exclusión en el generador de reglas de biblioteca de [!UICONTROL Audiencia]</li><li>El nuevo filtro “Fuente de audiencia” que permite una detección de audiencias más rápida</li><li>Opciones de filtro y búsqueda persistentes de sesión</li><li>La capacidad de mover audiencias entre espacios de trabajo para [!DNL Target Premium] clientes.</li></ul>Para obtener más información, consulte [Audiencias](/help/c-target/target.md).<br>**NOTA**: Esta función se implementará para clientes de diferentes regiones en las próximas ocho semanas. |
 | Actualización de la IU de [!UICONTROL Scripts de perfil] | La biblioteca de [!UICONTROL Scripts de perfil] también se ha actualizado e incluye una interfaz renovada y varias actualizaciones de productividad:<ul><li>La capacidad de seleccionar y eliminar varios scripts del perfil simultáneamente</li><li>Un nuevo editor de código para scripts de perfil</li><li>Resaltado de sintaxis y comprobación de errores dentro del editor de código</li><li>Completar automáticamente los parámetros de tokens (mbox o perfil) mediante métodos abreviados del teclado</li></ul>Para obtener más información, consulte [Perfiles de los visitantes](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTA**: Esta función se implementará para clientes de diferentes regiones en las próximas ocho semanas. |
-
-## [!DNL Target Standard/Premium] 22.1.1 (12 de enero de 2022)
-
-Esta versión incluye correcciones de errores y funciones previas necesarias para integraciones futuras.
-
-## Versión 2.8.0 de at.js (7 de enero de 2022)
-
-La biblioteca JavaScript de at.js de [!DNL Target] ahora recopila datos de uso de funcionalidades y telemetría de rendimiento. Los datos personales no se recopilan. La exclusión de esta funcionalidad está disponible al configurar `telemetryEnabled` en falso en `targetGlobalSettings`. Para obtener más información, consulte [telemetryEnabled en targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## Notas de la versión adicionales y detalles de la versión
 

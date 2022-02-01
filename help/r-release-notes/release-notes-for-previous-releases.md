@@ -4,16 +4,16 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a7f28b4d94cb18bb3e50c7b04918a516f0d10616
+source-git-commit: 211540256d2bbaddf3053eb1cba2b30b058af8fd
 workflow-type: tm+mt
-source-wordcount: '32601'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Notas de la versión para versiones anteriores
 
-Notas de la versión de versiones anteriores de Target, incluidas las notas de la versión Target Standard/Premium, la plataforma Target y las bibliotecas Javascript de Target (at.js).
+Notas de la versión anterior [!DNL Adobe Target] versiones, incluidas las notas de la versión para [!DNL Target Standard/Premium], el [!DNL Target] y la [!DNL Target] Biblioteca de JavaScript (at.js).
 
 Las notas de la versión se presentan en orden descendente por mes y año de publicación.
 
@@ -23,9 +23,27 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 
 ## Notas de la versión - 2022
 
+### Versión 2.8.1 de at.js (28 de enero de 2022)
+
+* Fijo `pageLoad` no está asignado a target-global-mbox en [!UICONTROL Al decidir el dispositivo] (ODD) modo de ejecución híbrido.
+* Se ha corregido un problema con los detalles de análisis para la solicitud de mbox.
+* Se han actualizado las dependencias de desarrollo para corregir las vulnerabilidades de seguridad.
+
+### [!DNL Target Standard/Premium] 22.1.2 (26 de enero de 2022)
+
+| Función | Detalles |
+| --- | --- |
+| [!DNL Adobe Experience Platform] audiencias en [!DNL Target] | Ahora puede consumir y utilizar [!DNL Adobe Experience Platform] audiencias en [!DNL Target]. La variable [!DNL Target] equipo, [!DNL Experience Platform] [!DNL Destinations] y [!DNL Unified Profile Service] El equipo se complace en anunciar la disponibilidad general de los casos de uso de &quot;Personalización de la misma página/página siguiente&quot;.<br>Uso de audiencias creadas en [!DNL Adobe Experience Platform] proporcione datos de clientes más completos que conduzcan a una personalización más impactante. La variable [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), generado en [!DNL Adobe Experience Platform] ayuda a las empresas a reunir datos conocidos y anónimos de varias fuentes empresariales para crear perfiles de clientes que se puedan usar para ofrecer experiencias de clientes personalizadas en todos los canales y dispositivos en tiempo real.<br>Para obtener más información, consulte [Usar audiencias de Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep) en *Crear audiencias*.<br>Asegúrese de leer el blog del Adobe y ver el video: [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] y [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
+| Actualización de la IU de las [!UICONTROL audiencias] | Como parte del esfuerzo continuo del equipo de [!DNL Adobe Target] para mejorar la experiencia del usuario para los usuarios de [!DNL Target], esta versión actualiza las páginas [!UICONTROL Audiencias] y [!UICONTROL Scripts de perfil] en la IU de [!DNL Target]. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que añade nuevas mejoras, como las siguientes:<ul><li>La capacidad de seleccionar y eliminar varias audiencias simultáneamente</li><li>Un [diseño del generador de audiencias](/help/c-target/c-audiences/create-audience.md) actualizado</li><li>Compatibilidad con las reglas de exclusión en el generador de reglas de biblioteca de [!UICONTROL Audiencia]</li><li>El nuevo filtro “Fuente de audiencia” que permite una detección de audiencias más rápida</li><li>Opciones de filtro y búsqueda persistentes de sesión</li><li>La capacidad de mover audiencias entre espacios de trabajo para [!DNL Target Premium] clientes.</li></ul>Para obtener más información, consulte [Audiencias](/help/c-target/target.md).<br>**NOTA**: Esta función se implementará para clientes de diferentes regiones en las próximas ocho semanas. |
+| Actualización de la IU de [!UICONTROL Scripts de perfil] | La biblioteca de [!UICONTROL Scripts de perfil] también se ha actualizado e incluye una interfaz renovada y varias actualizaciones de productividad:<ul><li>La capacidad de seleccionar y eliminar varios scripts del perfil simultáneamente</li><li>Un nuevo editor de código para scripts de perfil</li><li>Resaltado de sintaxis y comprobación de errores dentro del editor de código</li><li>Completar automáticamente los parámetros de tokens (mbox o perfil) mediante métodos abreviados del teclado</li></ul>Para obtener más información, consulte [Perfiles de los visitantes](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTA**: Esta función se implementará para clientes de diferentes regiones en las próximas ocho semanas. |
+
 ### [!DNL Target Standard/Premium] 22.1.1 (12 de enero de 2022)
 
 Esta versión incluye correcciones de errores y funciones previas necesarias para integraciones futuras.
+
+### Versión 2.8.0 de at.js (7 de enero de 2022)
+
+La biblioteca JavaScript de at.js de [!DNL Target] ahora recopila datos de uso de funcionalidades y telemetría de rendimiento. Los datos personales no se recopilan. La exclusión de esta funcionalidad está disponible al configurar `telemetryEnabled` en falso en `targetGlobalSettings`. Para obtener más información, consulte [telemetryEnabled en targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## Notas de la versión: 2021
 
