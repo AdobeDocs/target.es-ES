@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 201877ba0c8bc167c404744b4d33658a9e373f69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3378'
+ht-degree: 99%
 
 ---
 
@@ -32,8 +32,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Enero de 26 | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha agregado información sobre la versión 22.1.2 de Target Standard/Premium. |
 |  | [Crear audiencias](/help/c-target/c-audiences/audiences.md) | Se ha añadido información sobre [!DNL Adobe Experience Platform] audiencias. |
 |  | [Combinación de varias audiencias](/help/c-target/combining-multiple-audiences.md) | Se ha añadido información sobre [!DNL Adobe Experience Platform] audiencias. |
-| Enero de 21 | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Se ha agregado información sobre la versión 1.8.3 de at.js. |
-| Enero de 19 | [Actualización de at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Se ha añadido la siguiente sección: &quot;at.js 2.*x* no admite la creación de audiencias con vst.* parámetros&quot; |
+| 21 de enero | [Detalles de las versiones de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Se ha agregado información sobre la versión 1.8.3 de at.js. |
+| 19 de enero | [Actualización de at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Se ha añadido la siguiente sección: &quot;at.js 2.*x* no admite la creación de audiencias con vst.* parámetros&quot; |
 | 12 de enero | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha agregado información sobre la versión 22.1.1 de Target Standard/Premium. |
 |  | [SDK web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Se ha añadido un vínculo al tutorial con instrucciones para implementar [!DNL Adobe Experience Cloud] con el SDK web. |
 
