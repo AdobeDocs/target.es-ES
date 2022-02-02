@@ -4,10 +4,10 @@ description: Busque sugerencias para solucionar problemas si la página no muest
 title: ¿Cómo se pueden solucionar los problemas en la entrega de contenido?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -98,10 +98,7 @@ Para usar mboxDebug, añada un parámetro de mboxDebug al final de la dirección
 | Parámetros de URL | Finalidad |
 |--- |--- |
 | `mboxDebug=1` | Debugger<br>Si se añade este parámetro a cualquier dirección URL con peticiones de Target definidas, se abrirá una ventana emergente con detalles importantes sobre la depuración. Se detalla la información de cookies y los valores PCid y Session ID. Además, todas las direcciones URL de están visibles. Haga clic en una URL de petición de Target si desea mostrar la respuesta para dicha petición de [!DNL Target]. En [mbox_debug.pdf](/help/assets/mbox_debug.pdf) encontrará más información. |
-| `mboxDebug=x-cookie` | Modifique la cookie |
 | `mboxDisable=1` | Deshabilitar los mboxes de la página |
-| `mboxDebug=x-profile` | Ver los perfiles definidos. |
-| `mboxDebug=x-time` | Mostrar el tiempo de respuesta de cada petición de [!DNL Target] |
 | `mboxOverride.browserIp=<Insert IP address>` | Pruebe el targeting geográfico<br>Pruebe el targeting geográfico con este parámetro de URL. Escriba una dirección IP como valor para este atributo. El targeting geográfico de Test&amp;Target evalúa esa dirección IP para compararla con cualquier targeting geográfico o conjunto de segmentación definido en una campaña. |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20O
 En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20Offers` y las reglas de plantilla adicionales especifican una [!UICONTROL Consulta] con [!UICONTROL tipo] > [!UICONTROL es (con distinción de mayúsculas y minúsculas)] > type=Summers%20Offers, separadas por un operador OR:
 
 ![Regla de plantilla que aprovecha una parte específica de la URL](assets/option3.png)
+
+## Aplicar comillas dobles al escape [!DNL Target] el valor de atributo de perfil no funciona como se esperaba. {#escape}
+
+Cuando envía valores que contienen comillas dobles en un [!DNL Target] atributo de perfil, debe omitirlo dos veces como se muestra a continuación.
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## Vídeos de formación
 

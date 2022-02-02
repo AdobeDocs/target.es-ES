@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 201877ba0c8bc167c404744b4d33658a9e373f69
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '3378'
-ht-degree: 99%
+source-wordcount: '3397'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 2 de febrero | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Se ha añadido la siguiente sección: &quot;Salir de comillas dobles [!DNL Target] el valor de atributo de perfil no funciona como se esperaba.&quot; |
 | 1 de febrero | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] versión 2.2.1. |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (12 de enero de 2022)
