@@ -4,10 +4,10 @@ description: Aprenda a utilizar audiencias en [!DNL Adobe Target].
 title: ¿Cómo utilizo la lista de audiencias?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 26%
+source-wordcount: '1186'
+ht-degree: 24%
 
 ---
 
@@ -125,13 +125,10 @@ Las funciones clave incluyen:
 Para obtener más información, consulte los temas siguientes:
 
 * [Notas de la versión de destinos](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [Configurar destinos de personalización para la personalización de la misma página y de la página siguiente](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}
 * [Conexión personalizada personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} en la sección *Información general sobre destinos* guía
 * [Conexión Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} en la sección *Información general sobre destinos* guía
 * [Configurar destinos de personalización para los casos de uso de personalización de la misma página y de la página siguiente](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
-
-### Blog y video de Adobe Target:
-
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] y [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ### Información adicional
 
@@ -144,6 +141,18 @@ La tabla siguiente muestra el tiempo de evaluación de segmentos para eventos qu
 | Eventos de los SDK para móviles de Target | No | Sí | N/D |
 | Eventos desde la carga por lotes | No | No | Sí |
 | Eventos de datos sin conexión (flujo) | No | Sí | Sí |
+
+### Vídeo: Personalización de próxima visita con CDP en tiempo real y [!DNL Adobe Target]{#RTCDP}
+
+Obtenga información sobre cómo personalizar en la siguiente visita individual con [!DNL Real-time Customer Data Platform] y [!DNL Adobe Target]. La variable [!DNL Adobe Target] destino en [!DNL Real-time CDP] le permite usar [!DNL Experience Platform] segmentos en [!DNL Adobe Target] para la personalización de la misma página y de la página siguiente con compatibilidad con la administración y la privacidad.
+
+Para obtener más información, consulte [Personalización de próxima visita con CDP en tiempo real y Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} en la sección *Tutorials de plataforma* guía.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### Blog y video de Adobe Target:
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] y [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ## Vídeo de formación: Uso de audiencias ![Distintivo del tutorial](/help/assets/tutorial.png)
 
