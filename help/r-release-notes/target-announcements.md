@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe [!DNL Target
 title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 94%
 
 ---
 
@@ -15,17 +15,20 @@ ht-degree: 100%
 
 Anuncios e información acerca de próximos eventos, incluidas sesiones de Generador de habilidades de [!DNL Adobe Target], charlas para desarrolladores, seminarios web y charlas cortas de [!DNL Target].
 
-## [!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (19 de enero de 2022)
+## [!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (23 de febrero de 2022)
 
-* **Miércoles, 19 de enero de 2022**
+* **Miércoles, 23 de febrero de 2022**
 * **8:00 a. m. (PST, UTC -8)**
-* **[Más información e información de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
+* **[Más información e información de registro](https://adobe.ly/3skO6DV)**
 
-Jon Tehero, responsable de producto del grupo para [!DNL Adobe Target], responderá preguntas relativas a sus áreas de experiencia:
+El responsable de producto Vishal Chordia responderá a las preguntas de los clientes relacionadas con sus siguientes áreas de experiencia:
 
-* Integración de [!DNL Adobe Target] con [!DNL Adobe Journey Optimizer] (AJO)
-* IU de [!DNL Adobe Target]
-* Temas generales de [!DNL Adobe Target]
+* [!DNL Adobe Experience Platform]
+* Personalización basada en audiencias
+* Integración de [!DNL Real-time Customer Data Platform] (RTCDP) con [!DNL Target]
+* Temas generales de [!DNL Target]
+
+El ingeniero de soporte técnico Mihnea Docea ayudará a Vishal.
 
 ## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de [!DNL Adobe Target]
 
