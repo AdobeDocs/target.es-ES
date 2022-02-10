@@ -4,10 +4,10 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '4504'
-ht-degree: 100%
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+workflow-type: tm+mt
+source-wordcount: '4561'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ Información sobre problemas conocidos de [!DNL Adobe Target]. También incluye 
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
+
+### Compositor de experiencias visuales (VEC): carga de sitios web con trabajadores de servicios
+
+Existen algunas limitaciones actuales al intentar utilizar el VEC para abrir un sitio web que utilice trabajadores de servicio. Una solución es deshabilitar los trabajadores de servicio en la pestaña Herramientas para desarrolladores de Chrome > Aplicación y, a continuación, activar la casilla &quot;Omitir por red&quot; en la sección Trabajadores de servicio. (KB-2006)
 
 ### Distribución del tráfico de las actividades de asignación automática mediante A4T {#aa-a4t}
 
