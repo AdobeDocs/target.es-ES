@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información acerca de problemas conocidos y pro
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4738'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Información sobre problemas conocidos de [!DNL Adobe Target]. También incluye 
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
 
-### Compositor de experiencias visuales (VEC): carga de sitios web con trabajadores de servicios
+### Compositor de experiencias visuales (VEC): carga de sitios web con Service Workers
 
-Existen algunas limitaciones actuales al intentar usar el VEC para abrir un sitio web que esté usando [Trabajadores del Servicio](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+Existen algunas limitaciones actuales al intentar usar el VEC para abrir un sitio web que esté usando [Service Workers](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
-SW es una tecnología web que se puede utilizar para interceptar solicitudes del dominio en el que están instalados en una página web. El software sobrevive a la visita de página y se activa en visitas posteriores. El SW decide qué solicitudes pasan y cuáles son interceptadas y servidas desde una caché en su lugar.
+Un SW es una tecnología web que se puede utilizar para interceptar solicitudes del dominio en el que están instalados en una página web. El SW sobrevive a la visita de página y se activa en visitas posteriores. El SW decide qué solicitudes pasan y cuáles se interceptan y sirven desde una caché en su lugar.
 
-El SW puede controlar el almacenamiento en caché; puede almacenar en caché la página web en sí, los recursos estáticos como JS, CSS, IMG, las solicitudes de AJAX, su contenido y sus encabezados de respuesta, incluidos los que [Extensión de Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) intenta quitar, como X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) o Set-Cookie.
+El SW puede controlar el almacenamiento en caché; puede almacenar en caché la página web en sí, los recursos estáticos como JS, CSS, IMG, las solicitudes de AJAX, su contenido y sus encabezados de respuesta, incluidos los que la [Extensión de Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) intenta quitar, como X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) o Set-Cookie.
 
-Desafortunadamente, las API de extensión de Chrome que interceptan solicitudes web no reciben las solicitudes interceptadas y gestionadas por un SW. Por lo tanto, la extensión no puede corregir los encabezados y las cookies si la solicitud de página web la proporcionó un SW desde una caché porque la página web no se cargará dentro del VEC debido a los encabezados X-Frame-Options o CSP que también se almacenaron en caché.
+Desafortunadamente, las API de extensión de Chrome que interceptan solicitudes web no reciben las solicitudes interceptadas y gestionadas por un SW. Por lo tanto, la extensión no puede corregir los encabezados y las cookies si la solicitud de página web la proporcionó un SW desde una caché porque la página web no se cargará dentro del VEC, debido a los encabezados X-Frame-Options o CSP que también se almacenaron en caché.
 
-Como solución alternativa, puede deshabilitar Trabajadores de servicio desde la pestaña Herramientas para desarrolladores de Chrome > Aplicación y, a continuación, activar la casilla &quot;Omitir para red&quot; en la sección Trabajadores de servicio. (KB-2006)
+Como solución, puede deshabilitar los Service Workers desde la pestaña Herramientas para desarrolladores de Chrome > Aplicación y, a continuación, activar la casilla Saltar para acceder a red en la sección Service Workers. (KB-2006)
 
 ### Distribución del tráfico de las actividades de asignación automática mediante A4T {#aa-a4t}
 
