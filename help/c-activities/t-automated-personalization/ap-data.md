@@ -4,10 +4,10 @@ description: Descubra qué Adobe de datos [!DNL Target] recopila y utiliza para 
 title: ¿Qué datos se recopilan para crear algoritmos de aprendizaje automático?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
+source-git-commit: 32f2c32c697f5afa169d9e453fdc454dda533f8b
 workflow-type: tm+mt
-source-wordcount: '2077'
-ht-degree: 52%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ La tabla siguiente muestra los datos proporcionados por el cliente recopilados p
 | parámetros de URL. | Dirección URL | Dirección URL y cualquier parámetro de URL de la página que se está viendo. | Personalizado - Parámetro de URL - [Parámetro de URL] |
 | Dirección URL de referencia | REF | Dirección URL de referencia y cualquier parámetro de dirección URL de la dirección URL de referencia. | Personalizado - [Parámetro de URL de referencia] - [Valor de parámetro] |
 | Audiencias compartidas de Adobe Experience Cloud | AAM | Todas las audiencias compartidas con [!DNL Target] de otro [!DNL Adobe Experience Cloud] soluciones (por ejemplo, [!DNL Adobe Audience Manager] y [!DNL Adobe Analytics], a través de la variable [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personalizado: audiencia de Experience Cloud [Nombre de audiencia] |
-| Audiencias RTCDP de Adobe Experience Platform | UPS | Audiencias RTCDP de AEP compartidas con [!DNL Target] a través de Destinations.<br>Tenga en cuenta que esta funcionalidad aún no se encuentra en [!DNL Target] pero se implementará en el futuro. |  |
+| Audiencias RTCDP de Adobe Experience Platform | UPS | Audiencias RTCDP de AEP compartidas con [!DNL Target] a través de Destinations. |  |
 
 ## Bloqueo de funciones de [!DNL Target] algoritmos de aprendizaje automático
 
