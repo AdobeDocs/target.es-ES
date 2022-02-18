@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
 source-wordcount: '3449'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 10 de febrero | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido:<ul><li>Compositor de experiencias visuales (VEC): carga de sitios web con trabajadores de servicios</li></ul> |
+| 10 de febrero | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido:<ul><li>Compositor de experiencias visuales (VEC): carga de sitios web con Service Workers</li></ul> |
 | 7 de febrero | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (23 de febrero de 2022)</li></ul> |
-| 3 de febrero | [Creación de audiencias](/help/c-target/c-audiences/audiences.md#RTCDP) | Se ha añadido una nueva sección y un nuevo vídeo: &quot;Vídeo: Personalización de próxima visita con CDP en tiempo real y [!DNL Adobe Target].&quot; |
-| 2 de febrero | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Se ha añadido la siguiente sección: &quot;Salir de comillas dobles [!DNL Target] el valor de atributo de perfil no funciona como se esperaba.&quot; |
+| 3 de febrero | [Creación de audiencias](/help/c-target/c-audiences/audiences.md#RTCDP) | Se ha añadido una nueva sección y un nuevo vídeo: “Vídeo: Personalización de próxima visita con Real-Time CDP y [!DNL Adobe Target]”. |
+| 2 de febrero | [Resolución de problemas de la entrega de contenido](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Se ha añadido la siguiente sección: “El escapado de comillas dobles en el valor de atributo del perfil de [!DNL Target] no funciona como se esperaba”. |
 | 1 de febrero | [Notas de la versión de Target (actual)](/help/r-release-notes/release-notes.md) | Se ha añadido información acerca de la versión 22.2.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (12 de enero de 2022)

@@ -40,24 +40,24 @@ Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados 
 
 Especialistas en marketing, desarrolladores, administradores, analistas e ingenieros de control de calidad.
 
-- [Notas de la versión de Target](r-release-notes/release-notes.md): contiene información sobre la versión actual, información sobre los problemas conocidos que afectan a [!DNL Target], una lista de cambios importantes en esta documentación y un archivo de notas de versiones anteriores.
-- [Introducción a Target](c-intro/intro.md): explica los conceptos principales de la solución [!DNL Target].
+- [Notas de la versión de Target](r-release-notes/release-notes.md): Contiene información sobre la versión actual, información sobre los problemas conocidos que afectan a [!DNL Target], una lista de cambios importantes en esta documentación y un archivo de notas de versiones anteriores.
+- [Introducción a Target](c-intro/intro.md): Explica los conceptos principales de la solución [!DNL Target].
 - Integrar Target con Adobe Experience Cloud: explica cómo se integra [!DNL Target] con otras soluciones [!DNL Experience Cloud], como [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md) y [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md).
 - [Tutoriales de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es): Proporciona tutoriales y vídeos que pueden ayudarle a sacar el máximo partido a Target.
 - [Solución de problemas de Target](r-troubleshooting-target/troubleshooting-target.md): Proporciona vínculos a información de solución de problemas que se incluye en esta guía, como, por ejemplo, información sobre los límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y a otros elementos de [!DNL Target].
-- [Target para aplicaciones móviles](c-target-mobile-app/target-mobile-app.md): explica cómo [!DNL Target] se puede utilizar para la optimización y personalización de aplicaciones móviles.
+- [Target para aplicaciones móviles](c-target-mobile-app/target-mobile-app.md): Explica cómo [!DNL Target] se puede utilizar para la optimización y personalización de aplicaciones móviles.
 - [Recursos e información de contacto](cmp-resources-and-contact-information.md): Proporciona información sobre recursos adicionales para ayudarle a obtener información sobre las características de [!DNL Target] y sobre cómo ponerse en contacto con [!DNL Adobe] en caso de necesitar ayuda.
 
 ## Especialistas en marketing {#marketers}
 
-- [Actividades](c-activities/activities.md): explica cómo configurar, administrar y realizar controles de calidad de actividades de [!DNL Target].
-- [Audiencias](c-target/target.md): explica cómo determinar quién ve el contenido y las experiencias en las actividades direccionadas.
-- [Experiencias y ofertas](c-experiences/experiences.md): explica cómo especificar qué contenido se muestra cuando un visitante cumple los criterios de audiencia de una actividad.
-- [Recommendations](c-recommendations/recommendations.md): explica cómo las actividades de [!DNL Recommendations] muestran automáticamente productos o contenido que podrían interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
+- [Actividades](c-activities/activities.md): Explica cómo configurar, administrar y realizar controles de calidad de actividades de [!DNL Target].
+- [Audiencias](c-target/target.md): Explica cómo determinar quién ve el contenido y las experiencias en las actividades direccionadas.
+- [Experiencias y ofertas](c-experiences/experiences.md): Explica cómo especificar qué contenido se muestra cuando un visitante cumple los criterios de audiencia de una actividad.
+- [Recommendations](c-recommendations/recommendations.md): Explica cómo las actividades de [!DNL Recommendations] muestran automáticamente productos o contenido que podrían interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
 
 ## Desarrolladores {#developers}
 
-- [Implementación de Target](c-implementing-target/implementing-target.md): explica cómo implementar [!DNL Target] en sitios web, aplicaciones móviles, aplicaciones de una sola página (SPA) y plataformas iOT/OTT.
+- [Implementación de Target](c-implementing-target/implementing-target.md): Explica cómo implementar [!DNL Target] en sitios web, aplicaciones móviles, aplicaciones de una sola página (SPA) y plataformas iOT/OTT.
 - [API del lado del servidor de Target](https://developers.adobetarget.com/api/delivery-api/): Describe los recursos que conforman la API de envío de Adobe Target.
 - [SDK de NodeJS de Target](https://github.com/adobe/target-nodejs-sdk): Explica cómo implementar Target del lado del servidor. Este SDK de Node.js le ayuda a integrar fácilmente Target con otras soluciones de Adobe Experience Cloud.
 - [SDK de Java de Target](https://github.com/adobe/target-java-sdk): Explica cómo implementar Target del lado del servidor. Este SDK de Java le ayuda a integrar fácilmente Target con otras soluciones de Adobe Experience Cloud.
@@ -66,16 +66,16 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 
 ## Administradores de Target y Adobe Experience Cloud {#admins}
 
-- [Administración de Target](administrating-target/administrating-target.md): explica cómo agregar usuarios y configurar su cuenta de [!DNL Target].
+- [Administración de Target](administrating-target/administrating-target.md): Explica cómo agregar usuarios y configurar su cuenta de [!DNL Target].
 
 ## Analistas {#analysts}
 
-- [Audiencias](c-target/target.md): explica cómo determinar quién ve el contenido y las experiencias en las actividades direccionadas.
-- [Informes](c-reports/reports.md): explica cómo interpretar el rendimiento de las actividades.
+- [Audiencias](c-target/target.md): Explica cómo determinar quién ve el contenido y las experiencias en las actividades direccionadas.
+- [Informes](c-reports/reports.md): Explica cómo interpretar el rendimiento de las actividades.
 
 ## Ingenieros de control de calidad {#qa}
 
-- [Actividades](c-activities/activities.md): explica cómo configurar, administrar y realizar controles de calidad de actividades de [!DNL Target].
+- [Actividades](c-activities/activities.md): Explica cómo configurar, administrar y realizar controles de calidad de actividades de [!DNL Target].
 
 ## Recursos adicionales {#additional}
 
