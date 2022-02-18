@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Anuncios e información acerca de próximos eventos, incluidas sesiones de Gener
 * **8:00 a. m. (PST, UTC -8)**
 * **[Más información e información de registro](https://adobe.ly/3skO6DV)**
 
-El responsable de producto Vishal Chordia responderá a las preguntas de los clientes relacionadas con sus siguientes áreas de experiencia:
+El director de producto sénior Vishal Chordia responderá a las preguntas de los clientes relacionadas con sus siguientes áreas de conocimiento:
 
 * [!DNL Adobe Experience Platform]
 * Personalización basada en audiencias
