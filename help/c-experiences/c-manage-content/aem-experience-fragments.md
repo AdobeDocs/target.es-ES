@@ -4,10 +4,10 @@ description: Aprenda a utilizar [!DNL Adobe Experience Manager] fragmentos de ex
 title: Cómo Uso [!DNL Adobe Experience Manager] (AEM) ¿Fragmentos de experiencias?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
+source-git-commit: e991af90d58a8084ece9a8ff05acf85a68f077d3
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 60%
+source-wordcount: '1180'
+ht-degree: 59%
 
 ---
 
@@ -78,7 +78,7 @@ Los fragmentos de experiencia se crean en [!DNL AEM]. Para obtener más informac
 
 Según su versión de [!DNL AEM], consulte los siguientes vínculos para obtener instrucciones paso a paso:
 
-* **AEM as a Cloud Service**: [Exportación de fragmentos de experiencias a Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank}
+* **AEM as a Cloud Service**: [Exportación de fragmentos de experiencias a Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} en la sección *Experience Manager as a Cloud Service* guía.
 * **[!DNL AEM]6,5**: [Exportación de un fragmento de experiencia a Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} en la sección *Adobe Experience Manager 6.5* documentación.
 * **[!DNL AEM]6,4**: [Exportación de un fragmento de experiencia a Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=es){target=_blank} en la sección *Adobe Experience Manager 6.4* documentación.
 
@@ -99,7 +99,7 @@ Puede consumir fragmentos de experiencias en actividades de [!DNL Target] emplea
 
 >[!NOTE]
 >
->Para usar completamente el [!DNL Target] funcionalidad AI y ML, puede seleccionar [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) o [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) al crear una prueba A/B.
+>Para usar completamente el [!DNL Target] funcionalidad AI y ML, puede seleccionar [Asignación automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) o [Segmentación automática](/help/c-activities/auto-target/auto-target-to-optimize.md) al crear una prueba A/B.
 
 **Para consumir fragmentos de experiencias usando el VEC:**
 
