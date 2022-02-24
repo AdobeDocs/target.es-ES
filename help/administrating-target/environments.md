@@ -5,9 +5,9 @@ title: ¿Qué son los entornos y cómo puedo utilizarlos?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: c335fde454e31c6d82ebc8b0b5570f3c65d18541
+source-git-commit: f3ca5805ae94f79a66f4aa52a46b4fd06909bf86
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '680'
 ht-degree: 60%
 
 ---
@@ -73,9 +73,7 @@ Puede eliminar un entorno que ya no vaya a necesitar.
 
 Puede obtener una vista previa del contenido de las colecciones y exclusiones de Recommendations para un entorno seleccionado (grupo de hosts).
 
->[!NOTE]
->
->Las actividades de Recommendations están disponibles como parte del [!DNL Target] Solución Premium. No están disponibles en [!DNL Target] Standard sin una licencia de [!DNL Target] Premium.
+{{premium-note}}
 
 Se puede utilizar un entorno para separar los elementos disponibles en el catálogo para usos diferentes. Por ejemplo, puede usar grupos de hosts para [!UICONTROL Desarrollo] y [!UICONTROL Producción] entornos, diferentes marcas o diferentes zonas geográficas. De forma predeterminada, la vista previa de los resultados en Búsqueda de catálogo, Colecciones y Exclusiones se basa en el grupo de hosts predeterminado. (También puede seleccionar otro grupo de hosts para obtener una vista previa de los resultados mediante el filtro Entorno). De forma predeterminada, los elementos recién añadidos están disponibles en todos los grupos de hosts a menos que se especifique un ID de entorno al crear o actualizar el elemento.
 
