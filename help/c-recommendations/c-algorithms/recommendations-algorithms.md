@@ -5,9 +5,9 @@ title: ¿Dónde puedo obtener información sobre la ciencia detrás de los algor
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 7b9dad2f17496103b8fc2f91468ddcb665c339fa
+source-git-commit: 2e249f11375ab964e662e6d7bbab58b982add8ae
 workflow-type: tm+mt
-source-wordcount: '2840'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Los algoritmos de recomendación de filtrado colaborativo de elementos se basan 
 
 Para el algoritmo &quot;Otras personas que vieron/compraron este artículo también vieron/compraron estos artículos&quot;, el objetivo es calcular una similitud s (A,B) entre todos los pares de artículos. Para un elemento A determinado, las recomendaciones principales se ordenan según su similitud s(A,B).
 
-Un ejemplo de semejante similitud es la aparición conjunta entre elementos: un recuento simple del número de usuarios que compraron ambos artículos. Aunque es intuitiva, tal métrica es ingenua en el sentido de que está sesgada a recomendar elementos populares. Por ejemplo, si en un supermercado la mayoría de las personas compran pan, el pan tendrá una incidencia alta con todos los artículos, pero no necesariamente es una buena recomendación. [!DNL Target] en su lugar, utiliza una métrica de similitud más sofisticada conocida como la relación de probabilidad de registro (LLR). Esta cantidad es grande cuando la probabilidad de que dos artículos, A y B, se coproduzcan es muy diferente a la probabilidad de que no ocurran. Para obtener información concreta, considere un caso de [!UICONTROL Los usuarios que vieron esto, compraron aquello.] algoritmo. La similitud LLR es grande cuando la probabilidad de que se haya comprado B es independiente de si alguien ha visto o no A.
+Un ejemplo de semejante similitud es la aparición conjunta entre elementos: un recuento simple del número de usuarios que compraron ambos artículos. Aunque es intuitiva, tal métrica es ingenua en el sentido de que está sesgada a recomendar elementos populares. Por ejemplo, si en un supermercado la mayoría de las personas compran pan, el pan tendrá una incidencia alta con todos los artículos, pero no necesariamente es una buena recomendación. [!DNL Target] en su lugar, utiliza una métrica de similitud más sofisticada conocida como la relación de probabilidad de registro (LLR). Esta cantidad es grande cuando la probabilidad de que dos artículos, A y B, se coproduzcan es muy diferente a la probabilidad de que no ocurran. Para obtener información concreta, considere un caso de [!UICONTROL Los usuarios que vieron esto, compraron aquello.] algoritmo. La similitud LLR es grande cuando la probabilidad de que se haya adquirido B es *not* independientemente de si alguien ha visto A.
 
 Por ejemplo, si
 
