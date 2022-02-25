@@ -1,19 +1,19 @@
 ---
 keywords: asignación de tráfico automática;segmentación;ganador;garantía estadística;confianza;determinar ganador;alza;confianza;predeterminada;experiencia predeterminada;asignación automática;asignación automática
-description: Aprenda a interpretar los resultados de una actividad A/B de asignación automática en Adobe [!DNL Target] examinando indicadores importantes, incluidos el alza y la confianza.
+description: Obtenga información sobre cómo interpretar los resultados de una actividad A/B de asignación automática en Adobe [!DNL Target] mediante el examen de indicadores importantes, incluidos el alza y la confianza.
 title: ¿Cómo interpreto los informes de asignación automática?
-feature: Asignación automática
+feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 47%
+source-wordcount: '1233'
+ht-degree: 44%
 
 ---
 
 # Interpretación de informes de asignación automática
 
-Interprete los resultados de una actividad A/B de [!UICONTROL Asignación automática] en [!UICONTROL Adobe Target] examinando indicadores importantes, incluidos el alza y la confianza.
+Interpretación de los resultados de un [!UICONTROL Asignación automática] Actividad A/B en [!UICONTROL Adobe Target] mediante el examen de indicadores importantes, incluidos el alza y la confianza.
 
 Muchos especialistas en marketing cometen el error de declarar una experiencia ganadora precipitadamente antes de que los resultados indiquen el claro ganador. Ahora, le facilitamos la tarea de determinar el ganador.
 
@@ -47,7 +47,7 @@ Las pruebas A/B normales calculan la confianza según los valores p. La asignaci
 
 >[!IMPORTANT]
 >
->Target muestra un ganador después de un número mínimo predefinido de conversiones; sin embargo, la decisión final de elegir al ganador siempre debe estar en los resultados de la [calculadora de tamaño de la muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es) de Adobe Target. Target no tiene en cuenta las tasas de conversión base de un sitio y otros aspectos importantes que se incluyen en la calculadora para determinar la duración de la actividad. Como resultado, Target podría mostrar un ganador antes de lo justificado, basándose en un número mínimo de conversiones. Para obtener más información, consulte [Calculadora de tamaño de muestra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target muestra un ganador después de un número mínimo predefinido de conversiones; sin embargo, la decisión final de elegir al ganador siempre debe estar en los resultados de Adobe Target [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es). Target no tiene en cuenta las tasas de conversión base de un sitio y otros aspectos importantes que se incluyen en la calculadora para determinar la duración de la actividad. Como resultado, Target podría mostrar un ganador antes de lo justificado, basándose en un número mínimo de conversiones. Para obtener más información, consulte [Calculadora de tamaño de muestra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Comprender los informes de alza y confianza en las actividades de asignación automática {#lift-confidence}
 
@@ -63,7 +63,9 @@ También se comunica un número de &quot;confianza&quot; junto a la experiencia 
 
 ## Preguntas frecuentes {#section_C8E068512A93458D8C006760B1C0B6A2}
 
-**Han pasado varios días desde que empezó la actividad. ¿Por qué todos los valores de confianza siguen en el 0 %?**
+Tenga en cuenta las siguientes respuestas a las preguntas más frecuentes:
+
+### Han pasado varios días desde que empezó la actividad. ¿Por qué todos los valores de confianza siguen en el 0 %?
 
 Alguna de las siguientes razones describe la razón por la que se muestra un 0 % en la columna [!UICONTROL Confianza] de todas las actividades en el informe:
 
@@ -73,5 +75,13 @@ Alguna de las siguientes razones describe la razón por la que se muestra un 0 
 
    La asignación automática muestra la probabilidad de que una experiencia indicada sea la auténtica ganadora de todas las experiencias de la actividad. Esto significa que solo una experiencia ganadora (que tiene más probabilidades de ganar) tendrá un valor de confianza diferente a cero. El resto tienen más probabilidades de perder y mostrarán un 0 %.
 
-* La asignación automática solo empieza a mostrar la confianza después de que la experiencia ganadora reúna un 60 % de confianza. Estos niveles de confianza suelen aparecer en aproximadamente la mitad del tiempo que tardaría una prueba A/B normal en completarse (aunque esto no está garantizado). Para determinar cuánto tiempo tarda en ejecutarse una prueba A/B normal, utilice una [calculadora de tamaño de la muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): tasa de conversión de plug-control en &quot;Tasa de conversión de línea de base&quot;, &quot;5 %&quot; para &quot;Alza&quot; y &quot;95 %&quot; para &quot;Confianza&quot;. Normalmente, la confianza empieza a mostrarse después de que cada experiencia haya reunido al menos un 50 % de las muestras por experiencia necesarias. Esto le dará una idea de cuándo empezará a aparecer la confianza.
+* La asignación automática solo empieza a mostrar la confianza después de que la experiencia ganadora reúna un 60 % de confianza. Estos niveles de confianza suelen aparecer en aproximadamente la mitad del tiempo que tardaría una prueba A/B normal en completarse (aunque esto no está garantizado). Para determinar cuánto tiempo tarda en ejecutarse una prueba A/B normal, utilice un [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): tasa de conversión de plug-control en &quot;Tasa de conversión de línea de base&quot;, &quot;5 %&quot; para &quot;Alza&quot; y &quot;95 %&quot; para &quot;Confianza&quot;. Normalmente, la confianza empieza a mostrarse después de que cada experiencia haya reunido al menos un 50 % de las muestras por experiencia necesarias. Esto le dará una idea de cuándo empezará a aparecer la confianza.
 * Si el informe muestra un 0 % en el panel, es probable que sea pronto para la actividad.
+
+## ¿Están disponibles los distintivos &quot;Sin ganador&quot;, &quot;Ganador&quot; y &quot;estrella&quot; para [!UICONTROL Asignación automática] actividades que utilizan [!UICONTROL Analytics como fuente de informes] (A4T)?
+
+Los distintivos &quot;Ningún ganador aún&quot; y &quot;Ganador&quot; no están disponibles actualmente en la [!UICONTROL A4T] panel en [!DNL Analysis Workspace]. Estos distintivos tampoco están disponibles si se ve el mismo informe en [!DNL Target]. Un distintivo de &quot;estrella&quot; ganador se muestra en una [!DNL Target] para [!UICONTROL Asignación automática] debe ignorarse la actividad que utiliza A4T.
+
+Para obtener más información sobre esta y otras limitaciones y notas, consulte [Asignación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) en *Compatibilidad con A4T para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades*.
+
+
