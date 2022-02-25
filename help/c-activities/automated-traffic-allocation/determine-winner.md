@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo interpretar los resultados de una 
 title: ¿Cómo interpreto los informes de asignación automática?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 44%
@@ -78,7 +78,7 @@ Alguna de las siguientes razones describe la razón por la que se muestra un 0 
 * La asignación automática solo empieza a mostrar la confianza después de que la experiencia ganadora reúna un 60 % de confianza. Estos niveles de confianza suelen aparecer en aproximadamente la mitad del tiempo que tardaría una prueba A/B normal en completarse (aunque esto no está garantizado). Para determinar cuánto tiempo tarda en ejecutarse una prueba A/B normal, utilice un [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): tasa de conversión de plug-control en &quot;Tasa de conversión de línea de base&quot;, &quot;5 %&quot; para &quot;Alza&quot; y &quot;95 %&quot; para &quot;Confianza&quot;. Normalmente, la confianza empieza a mostrarse después de que cada experiencia haya reunido al menos un 50 % de las muestras por experiencia necesarias. Esto le dará una idea de cuándo empezará a aparecer la confianza.
 * Si el informe muestra un 0 % en el panel, es probable que sea pronto para la actividad.
 
-## ¿Están disponibles los distintivos &quot;Sin ganador&quot;, &quot;Ganador&quot; y &quot;estrella&quot; para [!UICONTROL Asignación automática] actividades que utilizan [!UICONTROL Analytics como fuente de informes] (A4T)?
+### ¿Están disponibles los distintivos &quot;Sin ganador&quot;, &quot;Ganador&quot; y &quot;estrella&quot; para [!UICONTROL Asignación automática] actividades que utilizan [!UICONTROL Analytics como fuente de informes] (A4T)?
 
 Los distintivos &quot;Ningún ganador aún&quot; y &quot;Ganador&quot; no están disponibles actualmente en la [!UICONTROL A4T] panel en [!DNL Analysis Workspace]. Estos distintivos tampoco están disponibles si se ve el mismo informe en [!DNL Target]. Un distintivo de &quot;estrella&quot; ganador se muestra en una [!DNL Target] para [!UICONTROL Asignación automática] debe ignorarse la actividad que utiliza A4T.
 
