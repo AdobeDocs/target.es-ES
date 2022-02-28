@@ -4,10 +4,10 @@ description: Aprenda a utilizar el mbox3rdPartyId, que es el ID de visitante de 
 title: ¿Cómo utilizo la sincronización de perfiles en tiempo real para mbox3rdPartyId?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 47772ebbdec10f78ec120d2e4437eccad969b338
+source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 92%
+source-wordcount: '737'
+ht-degree: 84%
 
 ---
 
@@ -57,11 +57,13 @@ Cuando el visitante cierra sesión, se conserva el perfil combinado.
       * `customerIds` es el nombre del parámetro que se utiliza cuando se establece directamente en la carga útil de la API de entrega y que generalmente se realiza en implementaciones del lado del servidor o IOT (Internet de las cosas).
       * A diferencia de `mbox3rdPartyId`/`thirdPartyId`, puede enviar varios ID como una lista en este enfoque, pero como [!DNL Target] solo admite un ID de cliente único por ID de TnT, utiliza el primer ID de la lista con un alias conocido (alias configurado en la IU de Atributos del cliente).
 
+   Puede usar `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] es el único [!DNL Adobe Experience Cloud] y no desea utilizar Atributos del cliente. Para todos los demás casos, le recomendamos que utilice `setCustomerId`/`customerIds` para enviar sus ID de cliente.
+
    >[!IMPORTANT]
    >
    > El uso de ambos enfoques mencionados anteriormente de forma intercambiable para un único visitante puede dar como resultado combinaciones de perfiles incorrectas de los perfiles [!DNL Target] no autenticados y autenticados.
    >
    >Adobe no recomienda utilizar `mbox3rdPartyId`/`thirdPartyId` y `setCustomerID`/`customerIds` juntos.
    >
-   >Si debe utilizar ambos métodos de forma intercambiable, asegúrese de que el primer ID de la lista utilizado por `setCustomerID`/`customerIds` es el que utilizan `thirdPartyId`/`mbox3rdPartyId` y viceversa.
+   >Si debe utilizar ambos métodos de forma intercambiable, asegúrese de que el primer ID de la lista utilizado por `setCustomerID`/`customerIds` es lo que usa `thirdPartyId`/`mbox3rdPartyId` y viceversa.
 
