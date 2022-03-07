@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 974b2093bc9ebc81acb64aa5df0c4c345e52383c
+source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 99%
+source-wordcount: '3519'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 7 de marzo | [Creación de audiencias](/help/c-target/c-audiences/audiences.md#aep) | Se ha añadido una nueva sección en &quot;Usar audiencias de [!DNL Adobe Experience Platform]:&quot;<ul><li>Casos de uso de personalización</li></ul> |
 | 25 de febrero | [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Se han actualizado las siguientes secciones:<ul><li>[Asignación automática y segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Asignación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretación de informes de asignación automática](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Se ha añadido una nueva pregunta frecuente:<ul><li>¿Están disponibles los distintivos &quot;Sin ganador&quot;, &quot;Ganador&quot; y &quot;estrella&quot; para [!UICONTROL Asignación automática] actividades que utilizan [!UICONTROL Analytics como fuente de informes] (A4T)?</li></ul> |
 |  | [Crear una audiencia solo de actividad](/help/c-target/creating-activity-only-audience.md) | Se agregó información en la sección &quot;Consideraciones&quot; que trata sobre las reglas de exclusión. |
