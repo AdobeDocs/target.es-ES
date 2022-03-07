@@ -5,10 +5,10 @@ title: ¿Cómo se implementa con el SDK web de Experience Platform?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 636016be6e8a6adc8c4b7fb09af93bb89e28373a
+source-git-commit: 7cded87ef6c9a61a6f259a8ea458c31a8c6c9e39
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 5%
+source-wordcount: '554'
+ht-degree: 8%
 
 ---
 
@@ -34,6 +34,7 @@ Además del [!DNL Platform Web SDK] documentación mencionada anteriormente, los
 | [Control de calidad de la actividad](/help/c-activities/c-activity-qa/activity-qa.md) | Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa invariables, segmentación opcional de audiencias e informes de control de calidad que permanecen segmentados a partir de datos de actividades activas. [!UICONTROL Control de calidad de la actividad] permite probar completamente el [!DNL Target] antes de lanzarlas en directo.<br>Consulte [Compatibilidad con el modo de control de calidad de la biblioteca JavaScript de Target](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) y [Vista previa de direcciones URL](/help/c-activities/c-activity-qa/activity-qa.md#preview). |
 | [[!UICONTROL Analytics for Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T) es una integración entre soluciones que le permite crear actividades basadas en [!DNL Analytics] métricas de conversión y segmentos de audiencia. La integración de A4T le permite utilizar [!DNL Analytics] para examinar los resultados.<br>Consulte [Tipos de actividades compatibles](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) y [Pasos de implementación para una implementación del SDK web de Adobe Experience Platform](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
 | [Audiencias](/help/c-target/target.md) | Audiencias en [!DNL Adobe Target] determine quién ve el contenido y las experiencias en una actividad segmentada.<br>Consulte [Usar la lista Audiencias](/help/c-target/c-audiences/audiences.md#use-list) y [Combinación de varias audiencias](/help/c-target/combining-multiple-audiences.md). |
+| [Creación de audiencias](/help/c-target/c-audiences/audiences.md) | Usar audiencias creadas en [!DNL Adobe Experience Platform] proporciona datos de clientes más completos que conducen a una personalización más impactante.<ul>Consulte [Usar audiencias de [!DNL Adobe Experience Platform]](/help/c-target/c-audiences/audiences.md#aep). |
 | [Decisiones de oferta](/help/c-integrating-target-with-mac/ajo/offer-decision.md) | Agregue las decisiones de oferta creadas en Adobe Journey Optimizer a las actividades de Target (prueba A/B manual o segmentación de experiencias) para determinar y ofrecer la siguiente mejor oferta para sus visitantes en la web y dispositivos móviles. |
 | [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Las ofertas de redireccionamiento hacen que los navegadores de los visitantes redirijan a una página nueva.<br>Consulte [¿El [!DNL Adobe Experience Platform Web SDK] ¿admite ofertas de redireccionamiento para A4T?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Tokens de respuesta](/help/administrating-target/response-tokens.md) | Los tokens de respuesta le permiten enviar datos de Target a Google Analytics y otras integraciones de terceros.<br>Consulte [Envío de datos a los Google Analytics mediante el SDK web de Platform](/help/administrating-target/response-tokens.md#platform-web-sdk) para ver una muestra de código de cómo realizar esta tarea. |
