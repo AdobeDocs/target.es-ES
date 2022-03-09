@@ -4,10 +4,10 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: ht
-source-wordcount: '4738'
-ht-degree: 100%
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+workflow-type: tm+mt
+source-wordcount: '4819'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,10 @@ El SW puede controlar el almacenamiento en caché; puede almacenar en caché la 
 Desafortunadamente, las API de extensión de Chrome que interceptan solicitudes web no reciben las solicitudes interceptadas y gestionadas por un SW. Por lo tanto, la extensión no puede corregir los encabezados y las cookies si la solicitud de página web la proporcionó un SW desde una caché porque la página web no se cargará dentro del VEC, debido a los encabezados X-Frame-Options o CSP que también se almacenaron en caché.
 
 Como solución, puede deshabilitar los Service Workers desde la pestaña Herramientas para desarrolladores de Chrome > Aplicación y, a continuación, activar la casilla Saltar para acceder a red en la sección Service Workers. (KB-2006)
+
+### Eliminación de ubicaciones que tienen ofertas ad-hoc en actividades creadas en el Compositor de experiencias basadas en formularios {#ad-hoc}
+
+Evite eliminar ubicaciones en una actividad creada en el Compositor de experiencias basadas en formularios si esas ubicaciones utilizan ofertas específicas (ofertas creadas dentro de la actividad). La eliminación de ubicaciones puede provocar que la actividad se dañe. La variable [!DNL Target] El equipo está trabajando en una solución para esto. Como solución alternativa, puede crear ofertas globales desde el [!UICONTROL Biblioteca de ofertas] y utilícelos con ubicaciones o puede crear experiencias nuevas, si es necesario. (KB-2014)
 
 ### Distribución del tráfico de las actividades de asignación automática mediante A4T {#aa-a4t}
 

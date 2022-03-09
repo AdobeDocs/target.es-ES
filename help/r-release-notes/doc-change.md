@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3561'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 9 de marzo | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Se ha agregado el siguiente problema conocido:<ul><li>Eliminación de ubicaciones que tienen ofertas ad-hoc en actividades creadas en el Compositor de experiencias basadas en formularios</li></ul> |
 | 8 de marzo | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (30 de marzo de 2022)</li></ul> |
 | 7 de marzo | [Creación de audiencias](/help/c-target/c-audiences/audiences.md#aep) | Se ha añadido una nueva sección en &quot;Usar audiencias de [!DNL Adobe Experience Platform]:&quot;<ul><li>Casos de uso de personalización</li></ul> |
 | 25 de febrero | [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Se han actualizado las siguientes secciones:<ul><li>[Asignación automática y segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Asignación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
