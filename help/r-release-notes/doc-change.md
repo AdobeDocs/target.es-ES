@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
 workflow-type: tm+mt
 source-wordcount: '3536'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -22,8 +22,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | 8 de marzo | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (30 de marzo de 2022)</li></ul> |
 | 7 de marzo | [Creación de audiencias](/help/c-target/c-audiences/audiences.md#aep) | Se ha añadido una nueva sección en &quot;Usar audiencias de [!DNL Adobe Experience Platform]:&quot;<ul><li>Casos de uso de personalización</li></ul> |
 | 25 de febrero | [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Se han actualizado las siguientes secciones:<ul><li>[Asignación automática y segmentación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Asignación automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
-|  | [Interpretación de informes de asignación automática](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Se ha añadido una nueva pregunta frecuente:<ul><li>¿Están disponibles los distintivos &quot;Sin ganador&quot;, &quot;Ganador&quot; y &quot;estrella&quot; para [!UICONTROL Asignación automática] actividades que utilizan [!UICONTROL Analytics como fuente de informes] (A4T)?</li></ul> |
-|  | [Crear una audiencia solo de actividad](/help/c-target/creating-activity-only-audience.md) | Se agregó información en la sección &quot;Consideraciones&quot; que trata sobre las reglas de exclusión. |
+|  | [Interpretación de informes de asignación automática](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Se ha añadido una nueva pregunta frecuente:<ul><li>¿Están disponibles los distintivos “Sin ganador”, “Ganador” y “estrella” para actividades de [!UICONTROL Asignación automática] que utilizan [!UICONTROL Analytics como fuente de creación de informes] (A4T)?</li></ul> |
+|  | [Creación de una audiencia solo de actividad](/help/c-target/creating-activity-only-audience.md) | Se ha añadido información en la sección Consideraciones que trata sobre las reglas de exclusión. |
 | 10 de febrero | [Problemas conocidos y problemas resueltos](/help/r-release-notes/known-issues-resolved-issues.md) | Se ha agregado el siguiente problema conocido:<ul><li>Compositor de experiencias visuales (VEC): carga de sitios web con Service Workers</li></ul> |
 | 7 de febrero | [Anuncios y eventos de Target](/help/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (23 de febrero de 2022)</li></ul> |
 | 3 de febrero | [Creación de audiencias](/help/c-target/c-audiences/audiences.md#RTCDP) | Se ha añadido una nueva sección y un nuevo vídeo: “Vídeo: Personalización de próxima visita con Real-Time CDP y [!DNL Adobe Target]”. |
