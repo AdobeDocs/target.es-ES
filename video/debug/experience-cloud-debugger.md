@@ -1,26 +1,25 @@
 ---
 keywords: experience cloud debugger;seguimiento de mbox
-description: Depurar Adobe [!DNL Target] con Adobe Experience Cloud Debugger.
-title: Depurar [!DNL Target] con el Experience Cloud Debugger
-feature: 'Resolución de problemas  '
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+description: Adobe de depuración [!DNL Target] con Adobe Experience Cloud Debugger.
+title: Depuración [!DNL Target] con el Experience Cloud Debugger
+feature: Troubleshooting
+source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 11%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 
 
-# Depurar [!DNL Target] con el Experience Cloud Debugger
+# Depuración [!DNL Target] con el Experience Cloud Debugger
 
-Depurar [!DNL Adobe Target] con [!DNL Adobe Experience Cloud Debugger].
+Depuración [!DNL Adobe Target] usando la variable [!DNL Adobe Experience Cloud Debugger].
 
-## Agregar la extensión
+## Agregar la extensión 
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
-## Depuración básica [!DNL Target]
+## Básico [!DNL Target] Depuración
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
@@ -31,5 +30,5 @@ Depurar [!DNL Adobe Target] con [!DNL Adobe Experience Cloud Debugger].
 ## Recursos adicionales
 
 + [Adobe Experience Cloud Debugger en la tienda de Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Solución de problemas de la documentación de ayuda de Target](/help/r-troubleshooting-target/troubleshooting-target.md)
++ [Solución de problemas de la documentación de ayuda de Target](/help/main/r-troubleshooting-target/troubleshooting-target.md)
 + [Cómo utilizar el vídeo del Experience Cloud Debugger](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)

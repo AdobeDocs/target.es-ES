@@ -1,0 +1,52 @@
+---
+keywords: perfil del visitante;segmentar el perfil del visitante;
+description: Aprenda a crear audiencias en [!DNL Adobe Target] para dirigirse a visitantes que cumplan parámetros de perfil específicos, como visitante nuevo o que regresa, afinidad de la categoría, etc.
+title: ¿Puedo Dirigirme A Visitantes Que Cumplen Parámetros De Perfil Específicos?
+feature: Audiences
+exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
+source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 47%
+
+---
+
+# Perfil del visitante
+
+Cree audiencias en [!DNL Adobe Target] para dirigirse a visitantes que cumplan parámetros de perfil específicos.
+
+1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
+1. Asigne un nombre a la audiencia y añada una descripción opcional.
+1. Arrastrar y soltar **[!UICONTROL Perfil del visitante]** en el panel del generador de audiencias.
+
+1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
+
+   ![](assets/target_visitor_profile.png)
+
+   Los parámetros de perfil de visitante se pasan a través del mbox (perfil). Puede segmentar visitantes nuevos o recurrentes, o bien incluir todos los usuarios.
+
+   * [!UICONTROL Nuevo visitante]
+   * [!UICONTROL Visitante que regresa]
+   * [!UICONTROL En otras pruebas]
+   * [!UICONTROL No está en otras pruebas]
+   * [!UICONTROL Primera página de la sesión]
+   * [!UICONTROL No es primera página de la sesión]
+   * [!UICONTROL Afinidad de la categoría]
+
+   Se crea un perfil de visitante en la memoria perimetral local para cada llamada a mbox con el nuevo `mboxPC`. Después de 30 minutos de inactividad, el perfil se guarda en la variable [!DNL Target] base de datos y es accesible desde otros perímetros.
+
+   Cuando el visitante de un sitio inicia sesión en la mitad de la sesión y obtiene un `3rdpartyId`, todos los atributos de perfil cargados anteriormente y asociados a la variable `3rdPartyId` están disponibles inmediatamente.
+
+   Puede segmentar parámetros personalizados de perfil y parámetros `user.`. Elija el parámetro que quiera usar para segmentar la actividad. Si el parámetro deseado no se muestra, un mbox no lo ha activado.
+
+1. (Opcional) Configure reglas adicionales para la audiencia.
+1. Haga clic en **[!UICONTROL Finalizado]**.
+
+## Vídeo de formación: Creación de audiencias ![Distintivo Información general](/help/main/assets/overview.png)
+
+Este vídeo contiene información sobre el uso de las categorías de audiencias.
+
+* Crear audiencias
+* Definir categorías de audiencias
+
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
