@@ -5,39 +5,50 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 49%
 
 ---
 
 # Notas de la versión de Target (actual)
 
-Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de Target, los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de plataforma, cuando corresponda.
+Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, las notas de la versión para [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de plataforma también se incluyen, cuando corresponde.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## Target Standard/Premium 22.2.1 (1 de febrero de 2022)
+## [!DNL Target Standard/Premium] 22.3.1 (versión escalonada, fecha por determinar)
 
-Esta versión de mantenimiento contiene las siguientes correcciones y mejoras para la nueva IU de [!UICONTROL Audiences] anunciada en la versión 22.1.2 de Target Standard/Premium que se lanzará a los clientes de todas las regiones en las próximas seis semanas. Estas correcciones alinean la funcionalidad de las audiencias creadas en [!DNL Adobe Target Standard/Premium].
+Esta versión contiene las siguientes mejoras y cambios:
 
-* Se ha corregido un problema que impedía que las audiencias importadas de [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] y [!DNL Adobe Target Classic] se asignaran como audiencias de creación de informes. (TGT-43140)
-* Se ha añadido la opción [!UICONTROL Eliminar] en la lista de [!UICONTROL Audiences] para audiencias importadas de [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] y [!DNL Adobe Target Classic]. También se ha añadido la funcionalidad de eliminación en lote. (TGT-42914)
+* Se ha corregido un problema que provocaba que las ediciones de los scripts de perfil volvieran al script original sin editar después de editarlo, activarlo y desactivarlo. El script de perfil ahora permanece en estado editado. (TGT-43249)
+* Se ha corregido un problema que provocaba el siguiente mensaje de error en la variable [!DNL Target] IU al mover una audiencia utilizada en una actividad con el estado &quot;borrador&quot;: &quot;No podemos completar su solicitud. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste&quot;. (TGT-43212)
+* Se ha corregido un problema que hacía que la variable [!UICONTROL Incluir] y [!UICONTROL Excluir] opciones que se deshabilitarán para audiencias combinadas al editar una actividad. (TGT-43422)
+* Se ha corregido un problema que impedía a algunos clientes ver la lista de audiencias disponibles al editar una actividad. (TGT-43404)
+* Se ha corregido un problema que impedía que algunos clientes eliminaran una dirección IP de &quot;[!UICONTROL IP de las que excluir [!DNL Target] datos de informes]&quot; en [!UICONTROL Administración] > [!UICONTROL Informes]. (TGT-43384)
+* Se ha corregido un problema que impedía el uso de números negativos en criterios de audiencia que comprobaban que cualquier variable era &quot;buena que&quot;, &quot;buena o igual que&quot;, &quot;menor que&quot; o &quot;menor o igual que&quot;. (TGT-43367)
+* Se ha corregido un problema que impedía que los clientes vieran la variable [!UICONTROL Detalles de audiencia] al crear audiencias combinadas. (TGT-43303)
+* Se ha corregido un problema que hacía que la variable [!DNL Target] IU o nueva [!UICONTROL Audiencias] La interfaz de usuario de para agotar el tiempo de espera prematuramente para algunos clientes. (TGT-42590 y TGT-43273)
 
-## Versión 2.8.1 de at.js (28 de enero de 2022)
+## [!DNL Target] Versión de plataforma (30 de marzo)
 
-* Se ha corregido que la `pageLoad` no se asignara a target-global-mbox en el modo de ejecución híbrido de [!UICONTROL On Device Decisioning] (ODD).
-* Se ha corregido un problema con los detalles de análisis para la solicitud de mbox.
-* Se han actualizado las dependencias de desarrollo para corregir las vulnerabilidades de seguridad.
+Esta versión incluye la siguiente mejora:
 
-## [!DNL Target Standard/Premium] 22.1.2 (26 de enero de 2022)
+* Las métricas de rastreo de clics incluirán carga útil de análisis en solicitudes de API de envío para actividades que utilizan Analytics como fuente de informes (A4T) y procesan eventos en el lado del cliente. (TNT-43073)
 
-| Función | Detalles |
-| --- | --- |
-| Audiencias de [!DNL Adobe Experience Platform] en [!DNL Target] | Ahora puede consumir y utilizar audiencias de [!DNL Adobe Experience Platform] en [!DNL Target]. Los equipos de [!DNL Target], de [!DNL Experience Platform] de [!DNL Destinations] y de [!DNL Unified Profile Service] se complacen en anunciar la disponibilidad general de los casos de uso de “Personalización de la misma página/página siguiente”.<br>Usar audiencias creadas en [!DNL Adobe Experience Platform] proporciona datos de clientes más completos que conducen a una personalización más impactante. [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es){target=_blank} (RTCDP), creada en [!DNL Adobe Experience Platform], ayuda a las compañías a reunir datos conocidos y anónimos de varias fuentes empresariales para crear perfiles de clientes que se puedan usar para ofrecer experiencias de cliente personalizadas en todos los canales y dispositivos en tiempo real.<br>Para obtener más información, consulte [Uso de audiencias de Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) en *Creación de audiencias* y [Casos de uso de personalización de la misma página y de la siguiente página](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} en la guía *Información general sobre destinos*. |
-| Actualización de la IU de las [!UICONTROL audiencias] | Como parte del esfuerzo continuo del equipo de [!DNL Adobe Target] para mejorar la experiencia del usuario para los usuarios de [!DNL Target], esta versión actualiza las páginas [!UICONTROL Audiencias] y [!UICONTROL Scripts de perfil] en la IU de [!DNL Target]. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que añade nuevas mejoras, como las siguientes:<ul><li>La capacidad de seleccionar y eliminar varias audiencias simultáneamente</li><li>Un [diseño del generador de audiencias](/help/main/c-target/c-audiences/create-audience.md) actualizado</li><li>Compatibilidad con las reglas de exclusión en el generador de reglas de biblioteca de [!UICONTROL Audiencia]</li><li>El nuevo filtro “Fuente de audiencia” que permite una detección de audiencias más rápida</li><li>Opciones de filtro y búsqueda persistentes de sesión</li><li>La capacidad de mover audiencias entre espacios de trabajo para clientes de [!DNL Target Premium].</li></ul>Para obtener más información, consulte [Audiences](/help/main/c-target/target.md).<br>**NOTA**: Esta función se implementará para clientes de diferentes regiones en las próximas ocho semanas. |
-| Actualización de la IU de [!UICONTROL Scripts de perfil] | La biblioteca de [!UICONTROL Scripts de perfil] también se ha actualizado e incluye una interfaz renovada y varias actualizaciones de productividad:<ul><li>La capacidad de seleccionar y eliminar varios scripts del perfil simultáneamente</li><li>Un nuevo editor de código para scripts de perfil</li><li>Resaltado de sintaxis y comprobación de errores dentro del editor de código</li><li>Completar automáticamente los parámetros de tokens (mbox o perfil) mediante métodos abreviados del teclado</li></ul>Para obtener más información, consulte [Perfiles de los visitantes](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTA**: Esta función se implementará para clientes de diferentes regiones en las próximas ocho semanas. |
+## [!DNL Target Standard] Se actualizan las audiencias (28 de marzo)
+
+Esta versión contiene la siguiente actualización:
+
+* El nuevo [!UICONTROL Audiencias] La IU estará habilitada para todos [!DNL Target Standard] clientes.
+
+## Correcciones de ingeniería para clientes de Target Standard/Premium (22 de marzo de 2022)
+
+Esta versión de mantenimiento contiene las siguientes mejoras:
+
+* Se ha agregado funcionalidad para devolver [!DNL Analytics] datos de carga útil para `prefetch` vistas y `pageLoad` haga clic en las métricas al usar la variable [!UICONTROL API de envío] con actividades que utilizan [!UICONTROL Analytics como fuente de informes] (A4T). (TNT-43198)
+* Se ha actualizado la lista de agentes de usuario que filtra bots para permitir un tipo de explorador que se utiliza comúnmente en Japón. (TNT-43867)
 
 ## Notas de la versión adicionales y detalles de la versión
 

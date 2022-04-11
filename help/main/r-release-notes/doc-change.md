@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '3582'
+source-wordcount: '3664'
 ht-degree: 98%
 
 ---
@@ -15,14 +15,25 @@ ht-degree: 98%
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
+## Adobe Target Standard/Premium 22.3.1 (del 4 al 6 de abril de 2022); versión escalonada)
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| 4 de abril | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información acerca de la versión 22.3.1 de [!DNL Target Standard/Premium]. |
+
 ## Adobe Target Standard/Premium 22.2.1 (1 de febrero de 2022)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Marzo de 30 | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información de la versión sobre la variable [!DNL Target] Versión de plataforma. |
+| 28 de marzo | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha agregado información de versión preliminar sobre el [!DNL Target] Versión de plataforma. |
+| 22 de marzo | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información de la versión sobre la variable [!DNL Target Standard/Premium] versión de correcciones de ingeniería de cliente. |
+|  | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha añadido información de versión preliminar acerca de la versión 22.3.1 de [!DNL Target Standard/Premium]. |
+| 17 de marzo | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha agregado información de versión preliminar sobre el [!DNL Target Standard/Premium] versión de correcciones de ingeniería de cliente. |
 | 9 de marzo | [Problemas conocidos y problemas resueltos](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Se ha agregado el siguiente problema conocido:<ul><li>Eliminación de ubicaciones que tienen ofertas ad-hoc en actividades creadas en el Compositor de experiencias basadas en formularios</li></ul> |
 |  | [Sincronización de perfiles en tiempo real para mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | Se ha actualizado la siguiente oración sobre la sincronización de perfiles: &quot;Las actualizaciones se sincronizan con el almacén de perfiles cada 5-10 minutos&quot;. |
 | 8 de marzo | [Anuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (30 de marzo de 2022)</li></ul> |
-| 7 de marzo | [Creación de audiencias](/help/main/c-target/c-audiences/audiences.md#aep) | Se ha añadido una nueva sección en &quot;Usar audiencias de [!DNL Adobe Experience Platform]:&quot;<ul><li>Casos de uso de personalización</li></ul> |
+| 7 de marzo | [Creación de audiencias](/help/main/c-target/c-audiences/audiences.md#aep) | Se ha añadido una nueva sección a “Uso de audiencias de [!DNL Adobe Experience Platform]”:<ul><li>Casos de uso de personalización</li></ul> |
 | 25 de febrero | [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Se han actualizado las siguientes secciones:<ul><li>[Asignación automática y segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Asignación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretación de informes de asignación automática](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | Se ha añadido una nueva pregunta frecuente:<ul><li>¿Están disponibles los distintivos “Sin ganador”, “Ganador” y “estrella” para actividades de [!UICONTROL Asignación automática] que utilizan [!UICONTROL Analytics como fuente de creación de informes] (A4T)?</li></ul> |
 |  | [Creación de una audiencia solo de actividad](/help/main/c-target/creating-activity-only-audience.md) | Se ha añadido información en la sección Consideraciones que trata sobre las reglas de exclusión. |
@@ -36,7 +47,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 31 de enero | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha añadido información de versión preliminar acerca de la versión 2.2.1 de [!DNL Target Standard/Premium]. |
+| 31 de enero | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha añadido información de versión preliminar acerca de la versión 22.2.1 de [!DNL Target Standard/Premium]. |
 | 28 de enero | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información acerca de la versión 2.8.1 de at.js. |
 |  | [Detalles de las versiones de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha añadido información acerca de la versión 2.8.1 de at.js. |
 | 27 de enero | [Fragmentos de experiencias de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Se ha actualizado el tema y se ha añadido información acerca de [!DNL AEM as a Cloud Service] y [!DNL Adobe I/0]. |

@@ -1,13 +1,13 @@
 ---
-keywords: Notas de la versión
+keywords: Notas de la versión;notas de la versión preliminar;futuras mejoras;futuras correcciones;futuras funciones;próxima versión
 description: Vea una lista de funciones, mejoras y correcciones incluidas en versiones anteriores de Adobe Target.
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '32991'
-ht-degree: 100%
+source-wordcount: '33054'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,13 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión: 2022
+
+### Target Standard/Premium 22.2.1 (1 de febrero de 2022)
+
+Esta versión de mantenimiento contiene las siguientes correcciones y mejoras para la nueva IU de [!UICONTROL Audiences] anunciada en la versión 22.1.2 de Target Standard/Premium que se lanzará a los clientes de todas las regiones en las próximas seis semanas. Estas correcciones alinean la funcionalidad de las audiencias creadas en [!DNL Adobe Target Standard/Premium].
+
+* Se ha corregido un problema que impedía que las audiencias importadas de [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] y [!DNL Adobe Target Classic] se asignaran como audiencias de creación de informes. (TGT-43140)
+* Se ha añadido la opción [!UICONTROL Eliminar] en la lista de [!UICONTROL Audiences] para audiencias importadas de [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] y [!DNL Adobe Target Classic]. También se ha añadido la funcionalidad de eliminación en lote. (TGT-42914)
 
 ### Versión 2.8.1 de at.js (28 de enero de 2022)
 
@@ -1166,7 +1173,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
 
 En esta versión de [!DNL Target] se incluyen las siguientes mejoras, correcciones y cambios:
 
-* La fila Copia de seguridad de la descarga de CSV de Recomendaciones ahora comienza con &quot;*&quot; (un asterisco entre comillas dobles), no con * (un solo asterisco).
+* La fila Copia de seguridad de la descarga de CSV de Recommendations tiene ahora un &quot;&#42;&quot; (comillas dobles que incluyen un asterisco) en lugar de &#42; (un solo asterisco).
 * La fila Más vendidos/Más visitados de la descarga de CSV de Recommendations ya no comienza con una coma.
 
 ### Cambios en la plataforma de Target (19 de junio de 2018). {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1233,7 +1240,6 @@ Esta versión incorpora las siguientes funciones y mejoras:
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>Cuando se seleccionan los criterios de Recommendations en el Compositor de experiencias basadas en formularios, ahora existe un vínculo directo a la tarjeta de criterios seleccionada de modo que pueda editarlos de forma rápida y sencilla. (TGT-28483) </p> <p>Para obtener más información, consulte <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Compositor de experiencias basadas en formularios</a>. </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Ahora, la creación de Criterios de recomendaciones, Promociones de recomendaciones y reglas de prueba de plantilla permite utilizar directamente el parámetro del mbox sin necesidad de especificar obligatoriamente el nombre del mbox. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro. También puede filtrar los parámetros de mbox empleando el filtro de nombres de mbox. </p> <p>Esta misma mejora se ha extendido también a la creación de audiencias personalizadas. </p> <p>Para obtener más información, consulte <a href="/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local">Preguntas más frecuentes de Recommendations</a>. </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Se ha actualizado la interfaz de las tarjetas de diseño de Recommendations. </p> </li> 
-      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>La documentación de la API de Recommendations de Target se encuentra en el <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">sitio web de Adobe I/0 Adobe Target</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

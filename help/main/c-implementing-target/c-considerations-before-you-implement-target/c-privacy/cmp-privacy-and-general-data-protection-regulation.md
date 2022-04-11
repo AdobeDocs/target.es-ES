@@ -5,10 +5,10 @@ title: How [!DNL Target] ¿Gestionar las normas de privacidad y protección de d
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 58%
+source-wordcount: '2209'
+ht-degree: 57%
 
 ---
 
@@ -31,8 +31,9 @@ Como responsable del tratamiento de datos, usted determina los datos personales 
 
 Para obtener más información, consulte:
 
-* [Sitio web de la API del Reglamento General de Protección de Datos de Adobe](https://www.adobe.io/apis/experienceplatform/gdpr.html)
-* [Documentación del RGPD](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [Resumen del Privacy Service de Adobe](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=-blank}
+* [Guía de API del Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=_blank}
+* [Información general sobre la IU de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=_blank}
 
 ## Información general sobre la Ley de privacidad del consumidor de California (CCPA)
 

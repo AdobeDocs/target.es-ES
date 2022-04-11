@@ -4,9 +4,9 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
 workflow-type: tm+mt
-source-wordcount: '4819'
+source-wordcount: '4818'
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ Actualmente, un problema con el EEC impide admitir peticiones PUT y provoca un e
 
 Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran en el informe [!UICONTROL Atributos importantes] en el caso de las actividades de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT). (TOP-3813)
 
-### El archivado de las actividades de [!UICONTROL Segmentación automática] puede causar problemas de sincronización
+### Archivado [!UICONTROL Segmentación automática] las actividades pueden causar problemas de sincronización
 
 Si se intenta archivar actividades inactivas de [!UICONTROL Segmentación automática], pueden producirse problemas de sincronización. Hasta que se solucione este problema, no archive las actividades de [!UICONTROL Segmentación automática]. Déjelas en estado [!UICONTROL Inactivo]. (TGT-40885)
 

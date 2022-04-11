@@ -4,10 +4,10 @@ description: Aprenda a combinar varias audiencias (incluidas las de Adobe Experi
 title: ¿Puedo combinar varias audiencias para crear una nueva?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 71%
+source-wordcount: '931'
+ht-degree: 67%
 
 ---
 
@@ -17,7 +17,7 @@ Combinación de varias audiencias (incluidas [!DNL Adobe Experience Cloud], [!DN
 
 >[!NOTE]
 >
->La variable [!DNL Adobe Experience Platform] el origen está disponible para todos [!DNL Target] clientes que utilizan la variable [SDK web de Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o en combinación con audiencias existentes, tal como se explica en este tema).
+>La variable [!DNL Adobe Experience Platform] el origen está disponible para todos [!DNL Target] clientes que utilizan la variable [SDK web de Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o en combinación con audiencias existentes, tal como se explica en este tema.
 >
 >Para obtener más información, consulte [Usar audiencias de Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -25,7 +25,7 @@ Imagine que tiene las audiencias “Visitantes nuevos” y “Usuarios de Chrome
 
 Otro ejemplo: puede dirigirse a todos los clientes fieles. Por ejemplo, puede incluir un [!DNL Audience Manager] audiencia para el estado de fidelidad y combínelo con una [!DNL Target] audiencia compuesta por personas que se registraron en el programa de fidelidad durante la sesión actual. Combinar estas dos audiencias es más fácil que crear una tercera audiencia permanente.
 
-Puede combinar hasta diez audiencias usando los operadores Y y O.
+Puede combinar hasta 20 audiencias usando los operadores Y y O.
 
 Puede crear y usar audiencias combinadas en varios lugares de la interfaz de usuario de [!DNL Target]..
 
@@ -37,13 +37,13 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
    ![Resultado del paso](assets/edit_audience.png)
 
-1. En la página [!UICONTROL Elegir audiencia], marque las casillas de verificación de las audiencias que quiera usar como componentes básicos en la audiencia combinada.
+1. En la página **[!UICONTROL Elegir audiencia]**, marque las casillas de verificación de las audiencias que quiera usar como componentes básicos en la audiencia combinada.
 
-   Haga clic en el [!UICONTROL Filtros] para limitar la búsqueda de la audiencia deseada. Puede filtrar audiencias por su fuente: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform].
+   Utilice la variable [!UICONTROL Buscar audiencias] para limitar la búsqueda de la audiencia deseada.
 
    ![Resultado del paso](assets/combine_multiple_audiences1.png)
 
-1. Haga clic en **[!UICONTROL Combinación de audiencias]** en la esquina superior derecha.
+1. Haga clic en **[!UICONTROL Combinación de varias audiencias]** en la esquina superior derecha.
 
    ![Resultado del paso](assets/combine_multiple_audiences2.png)
 
@@ -57,7 +57,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Observe que el operador que separa las dos audiencias de tipo de navegador es “Y”. Seleccione la lista desplegable “Y” y elija el valor “O” para crear una audiencia combinada nueva para los visitantes nuevos que utilizan Firefox o Safari. Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con los navegadores Firefox y Safari simultáneamente.
+      Observe que el operador que separa las dos audiencias de tipo de navegador es “Y”. Seleccione el [!UICONTROL Y] lista desplegable y cambie a &quot;O&quot; para crear una audiencia combinada nueva para los visitantes nuevos que utilicen Firefox o Safari. Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con los navegadores Firefox y Safari simultáneamente.
 
       >[!NOTE]
       >
