@@ -5,10 +5,10 @@ title: ¿Puedo recuperar previamente contenido de ofertas para aplicaciones móv
 feature: Implement Mobile
 role: Developer
 exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e152d3d68eede9c7606e546e30bd3e65bb8bcb9a
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 47%
+source-wordcount: '216'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,6 @@ Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permi
 Tenga en cuenta las siguientes limitaciones al utilizar el método de recuperación previa con los SDK para móviles iOS y Android:
 
 * El contenido de recuperación previa no persiste de un inicio a otro. El contenido de recuperación previa se guarda en caché mientras la aplicación esté activa o hasta que se realice una llamada al método `clearPrefetchCache()`.
-* La funcionalidad de recuperación previa no es compatible con [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] métodos de asignación de tráfico, para [!UICONTROL Automated Personalization] o [!UICONTROL Recommendations] tipos de actividades, o para [ofertas de Recommendations dentro de una actividad A/B o XT](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 Para obtener más información, incluidos los métodos de recuperación previa, las clases públicas y ejemplos de código, consulte:
 
