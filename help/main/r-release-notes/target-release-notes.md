@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluyen en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
+source-git-commit: 01c36c0288a15d68f99a6c2f136da9066ccf2e62
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 37%
+source-wordcount: '392'
+ht-degree: 34%
 
 ---
 
@@ -15,9 +15,15 @@ ht-degree: 37%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 11 de abril de 2022**
+**Última actualización: 13 de abril de 2022**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+## Versión de la plataforma de Target (13 de abril de 2022)
+
+Esta versión contiene la siguiente actualización:
+
+* Se ha corregido un problema para garantizar que el último octeto de direcciones IP se confunda correctamente al capturarse mediante scripts de perfil. (TNT-44076)
 
 ## [!DNL Target Standard/Premium] 22.3.1 (versión escalonada, fecha por determinar)
 
