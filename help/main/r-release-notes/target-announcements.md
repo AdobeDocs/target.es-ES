@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe [!DNL Target
 title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 94%
+source-wordcount: '584'
+ht-degree: 93%
 
 ---
 
@@ -15,20 +15,21 @@ ht-degree: 94%
 
 Anuncios e información acerca de próximos eventos, incluidas sesiones de Generador de habilidades de [!DNL Adobe Target], charlas para desarrolladores, seminarios web y charlas cortas de [!DNL Target].
 
-## [!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (30 de marzo de 2022)
+## [!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (27 de abril de 2022)
 
-* **Miércoles, 30 de marzo de 2022**
-* **8:00 a.m. (PDT, UTC -7)**
-* **[Más información e información de registro](https://adobe.ly/3sIS5Mg)**
+* **Miércoles, 27 de abril de 2022**
+* **8:00 a. m. (PDT, UTC -7)**
+* **[Más información e información de registro](https://adobe.ly/371Uny2)**
 
-Ryan Pizzuto, Consultor Senior de Soluciones, responderá a las preguntas de los clientes relacionadas con sus siguientes áreas de experiencia:
+El Consultor Principal de Soluciones, James McTiernan, responderá a las preguntas de los clientes relacionadas con sus siguientes áreas de experiencia:
 
-* [!UICONTROL Segmentación automática]
-* [!UICONTROL Personalización automatizada]
-* [!UICONTROL Recomendaciones]
-* General [!UICONTROL Adobe Target] temas
+* [!UICONTROL Prueba A/B] actividades
+* [!UICONTROL Prueba multivariable] actividades
+* [!UICONTROL Actividades de Recommendations]
+* Personalización
+* Temas generales de [!UICONTROL Adobe Target]
 
-El ingeniero de soporte técnico Mihnea Docea ayudará a Vishal.
+El ingeniero de soporte técnico Simon Chen asistirá a James.
 
 ## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de [!DNL Adobe Target]
 
@@ -54,7 +55,7 @@ Las demandas de los consumidores evolucionan rápidamente, y HSBC ha adoptado la
 
 *Artículo de McKinsey: “[La recuperación de la COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”, mayo de 2020
 
-## Generador de habilidades de Adobe [!DNL Target]：Chat del desarrollador, migrar el mbox.js de Adobe [!DNL Target] a at.js {#skill-builder}
+## Generador de habilidades de Adobe [!DNL Target]: Chat del desarrollador, migrar el mbox.js de Adobe [!DNL Target] a at.js {#skill-builder}
 
 Ante la obsolescencia de mbox.js el 31 de marzo de 2021, David Son, gestor de producto de Adobe Target, organizó recientemente un chat para desarrolladores con el fin de analizar las ventajas de migrar mbox.js a at.js.
 
