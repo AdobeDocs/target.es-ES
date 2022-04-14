@@ -4,10 +4,10 @@ description: Explore las opciones disponibles en la [!DNL Adobe Target] [!UICONT
 title: ¿Cómo utilizo la variable [!UICONTROL Compositor de experiencias visuales] ¿Opciones (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 65%
+source-wordcount: '2907'
+ht-degree: 63%
 
 ---
 
@@ -330,7 +330,9 @@ Las opciones disponibles son las siguientes:
 
 Arrastrar el elemento a otra ubicación dentro del mismo elemento principal o DIV. Otros elementos cambian de ubicación para dejar espacio al elemento que se ha cambiado de sitio.
 
-**Nota:** El rastreo de clics no funcionará en los elementos que se hayan cambiado de posición.
+**Nota**: El rastreo de clics no funciona en elementos reorganizados.
+
+Actualmente, algunas acciones del VEC, como [!UICONTROL Reorganizar] y [!UICONTROL Mover], suponga que los elementos del mismo nivel de los elementos principales de origen y destino están completamente cargados. Si la carga diferida se produce bajo los elementos DOM principales (origen o destino), estas acciones del VEC pueden causar un comportamiento incoherente. Estamos trabajando en un enfoque más fiable para hacer que las acciones del VEC funcionen en elementos DOM cargados de pereza. Como solución temporal, puede utilizar [!UICONTROL Código personalizado] en estos escenarios para presentar sus experiencias.
 
 ### [!UICONTROL Cambiar el tamaño]
 
@@ -343,6 +345,8 @@ Cambia el tamaño de un elemento en la página. Al seleccionar [!UICONTROL Cambi
 Mueve elementos en la página. A diferencia de [!UICONTROL Reorganizar], [!UICONTROL Mover] no desplaza otros elementos para conseguir espacio para el elemento que se va a mover. Use las teclas de dirección para ajustar el movimiento. (Mejora prevista: compatibilidad para garantizar que los elementos movidos no se oculten detrás de otros elementos).
 
 En determinadas situaciones, como cuando una restricción de CSS requiere que un elemento permanezca dentro de su elemento principal, no se puede mover el elemento fuera del elemento principal. Un elemento no se puede mover fuera de un contenedor que tenga la propiedad CSS siguiente: `overflow: hidden`.
+
+Consulte [!UICONTROL Reorganizar] más arriba para obtener más información sobre el comportamiento incoherente con la variable [!UICONTROL Mover] y [!UICONTROL Reorganizar] acciones debidas a la carga lenta de elementos DOM.
 
 ### [!UICONTROL Ocultar]
 
