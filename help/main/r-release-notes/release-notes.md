@@ -5,10 +5,10 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 47%
+source-wordcount: '489'
+ht-degree: 65%
 
 ---
 
@@ -24,37 +24,15 @@ Esta versión contiene la siguiente actualización:
 
 * Se ha corregido un problema para garantizar que el último octeto de direcciones IP se confunda correctamente al capturarse mediante scripts de perfil. (TNT-44076)
 
-## [!DNL Target Standard/Premium] 22.3.1 (versión escalonada, fecha por determinar)
+## [!DNL Target Standard/Premium] 22.3.1 (5 de abril de 2022)
 
 Esta versión contiene las siguientes mejoras y cambios:
 
-* Se ha corregido un problema que provocaba que las ediciones de los scripts de perfil volvieran al script original sin editar después de editarlo, activarlo y desactivarlo. El script de perfil ahora permanece en estado editado. (TGT-43249)
-* Se ha corregido un problema que provocaba el siguiente mensaje de error en la variable [!DNL Target] IU al mover una audiencia utilizada en una actividad con el estado &quot;borrador&quot;: &quot;No podemos completar su solicitud. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste&quot;. (TGT-43212)
 * Se ha corregido un problema que hacía que la variable [!UICONTROL Incluir] y [!UICONTROL Excluir] opciones que se deshabilitarán para audiencias combinadas al editar una actividad. (TGT-43422)
 * Se ha corregido un problema que impedía a algunos clientes ver la lista de audiencias disponibles al editar una actividad. (TGT-43404)
 * Se ha corregido un problema que impedía que algunos clientes eliminaran una dirección IP de &quot;[!UICONTROL IP de las que excluir [!DNL Target] datos de informes]&quot; en [!UICONTROL Administración] > [!UICONTROL Informes]. (TGT-43384)
 * Se ha corregido un problema que impedía el uso de números negativos en criterios de audiencia que comprobaban que cualquier variable era &quot;buena que&quot;, &quot;buena o igual que&quot;, &quot;menor que&quot; o &quot;menor o igual que&quot;. (TGT-43367)
 * Se ha corregido un problema que impedía que los clientes vieran la variable [!UICONTROL Detalles de audiencia] al crear audiencias combinadas. (TGT-43303)
-* Se ha corregido un problema que hacía que la variable [!DNL Target] IU o nueva [!UICONTROL Audiencias] La interfaz de usuario de para agotar el tiempo de espera prematuramente para algunos clientes. (TGT-42590 y TGT-43273)
-
-## [!DNL Target] Versión de plataforma (30 de marzo)
-
-Esta versión incluye la siguiente mejora:
-
-* Las métricas de rastreo de clics incluirán carga útil de análisis en solicitudes de API de envío para actividades que utilizan Analytics como fuente de informes (A4T) y procesan eventos en el lado del cliente. (TNT-43073)
-
-## [!DNL Target Standard] Se actualizan las audiencias (28 de marzo)
-
-Esta versión contiene la siguiente actualización:
-
-* El nuevo [!UICONTROL Audiencias] La IU estará habilitada para todos [!DNL Target Standard] clientes.
-
-## Correcciones de ingeniería para clientes de Target Standard/Premium (22 de marzo de 2022)
-
-Esta versión de mantenimiento contiene las siguientes mejoras:
-
-* Se ha agregado funcionalidad para devolver [!DNL Analytics] datos de carga útil para `prefetch` vistas y `pageLoad` haga clic en las métricas al usar la variable [!UICONTROL API de envío] con actividades que utilizan [!UICONTROL Analytics como fuente de informes] (A4T). (TNT-43198)
-* Se ha actualizado la lista de agentes de usuario que filtra bots para permitir un tipo de explorador que se utiliza comúnmente en Japón. (TNT-43867)
 
 ## Notas de la versión adicionales y detalles de la versión
 

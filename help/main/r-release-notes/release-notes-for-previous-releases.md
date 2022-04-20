@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '33054'
+source-wordcount: '33168'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,25 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión: 2022
+
+### [!DNL Target] Versión de plataforma (30 de marzo)
+
+Esta versión incluye la siguiente mejora:
+
+* Las métricas de rastreo de clics incluirán carga útil de análisis en solicitudes de API de envío para actividades que utilizan Analytics como fuente de informes (A4T) y procesan eventos en el lado del cliente. (TNT-43073)
+
+### [!DNL Target Standard] Se actualizan las audiencias (28 de marzo)
+
+Esta versión contiene la siguiente actualización:
+
+* El nuevo [!UICONTROL Audiencias] La IU estará habilitada para todos [!DNL Target Standard] clientes.
+
+### Correcciones de ingeniería para clientes de Target Standard/Premium (22 de marzo de 2022)
+
+Esta versión de mantenimiento contiene las siguientes mejoras:
+
+* Se ha agregado funcionalidad para devolver [!DNL Analytics] datos de carga útil para `prefetch` vistas y `pageLoad` haga clic en las métricas al usar la variable [!UICONTROL API de envío] con actividades que utilizan [!UICONTROL Analytics como fuente de informes] (A4T). (TNT-43198)
+* Se ha actualizado la lista de agentes de usuario que filtra bots para permitir un tipo de explorador que se utiliza comúnmente en Japón. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1 de febrero de 2022)
 

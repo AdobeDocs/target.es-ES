@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluyen en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 37%
+source-wordcount: '175'
+ht-degree: 73%
 
 ---
 
@@ -15,22 +15,17 @@ ht-degree: 37%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 13 de abril de 2022**
+**Última actualización: 20 de abril de 2022**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 22.3.1 (versión escalonada, fecha por determinar)
+## [!DNL Target Standard/Premium] 22.4.1 (28 de abril de 2022)
 
-Esta versión contiene las siguientes mejoras y cambios:
+Esta versión estará disponible según la siguiente programación escalonada:
 
-* Se ha corregido un problema que provocaba que las ediciones de los scripts de perfil volvieran al script original sin editar después de editarlo, activarlo y desactivarlo. El script de perfil ahora permanece en estado editado. (TGT-43249)
-* Se ha corregido un problema que provocaba el siguiente mensaje de error en la variable [!DNL Target] IU al mover una audiencia utilizada en una actividad con el estado &quot;borrador&quot;: &quot;No podemos completar su solicitud. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste&quot;. (TGT-43212)
-* Se ha corregido un problema que hacía que la variable [!UICONTROL Incluir] y [!UICONTROL Excluir] opciones que se deshabilitarán para audiencias combinadas al editar una actividad. (TGT-43422)
-* Se ha corregido un problema que impedía a algunos clientes ver la lista de audiencias disponibles al editar una actividad. (TGT-43404)
-* Se ha corregido un problema que impedía que algunos clientes eliminaran una dirección IP de &quot;[!UICONTROL IP de las que excluir [!DNL Target] datos de informes]&quot; en [!UICONTROL Administración] > [!UICONTROL Informes]. (TGT-43384)
-* Se ha corregido un problema que impedía el uso de números negativos en criterios de audiencia que comprobaban que cualquier variable era &quot;buena que&quot;, &quot;buena o igual que&quot;, &quot;menor que&quot; o &quot;menor o igual que&quot;. (TGT-43367)
-* Se ha corregido un problema que impedía que los clientes vieran la variable [!UICONTROL Detalles de audiencia] al crear audiencias combinadas. (TGT-43303)
-* Se ha corregido un problema que hacía que la variable [!DNL Target] IU o nueva [!UICONTROL Audiencias] La interfaz de usuario de para agotar el tiempo de espera prematuramente para algunos clientes. (TGT-42590 y TGT-43273)
+Esta versión contiene la siguiente corrección:
+
+* Se ha corregido un problema que hacía que tres algoritmos basados en el carro de compras usaran la misma condición Comprado/Comprado en la variable [!DNL Target] backend. (TGT-43456)
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
