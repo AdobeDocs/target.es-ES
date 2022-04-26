@@ -4,9 +4,9 @@ description: Obtenga información sobre los atributos específicos del visitante
 title: ¿Qué son los atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2423'
 ht-degree: 49%
 
 ---
@@ -72,6 +72,9 @@ Tenga en cuenta la siguiente información:
 
 * Haga referencia a los atributos de script de perfil (incluido el que se está usando) en el código con `user.get('parameterName')`.
 * Guarde las variables a las que se puede acceder la próxima vez que se ejecute el script (en la siguiente solicitud de mbox) con `user.setLocal('variable_name', 'value')`. Haga referencia a la variable con `user.getLocal('variable_name')`. Este proceso resulta útil en situaciones en las que desea hacer referencia a la fecha y hora de la última solicitud.
+
+   Estos valores persisten del mismo modo que un script de perfil, pero solo tiene acceso a ellos dentro del script en el que se establecieron.
+
 * Los parámetros y valores distinguen entre mayúsculas y minúsculas. Haga coincidir las mayúsculas y minúsculas de los parámetros y valores que reciba durante la actividad o prueba.
 * Consulte la sección “Referencia JavaScript para parámetros de perfil de secuencia de comandos” para obtener más sintaxis de JavaScript.
 * El parámetro permanece en el perfil después de deshabilitar la secuencia de comandos. Los usuarios cuyos perfiles ya contienen un parámetro que se utiliza en la audiencia de una actividad se califican en esa actividad.
