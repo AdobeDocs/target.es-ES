@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
+source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
 workflow-type: tm+mt
-source-wordcount: '3751'
+source-wordcount: '3777'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 26 de abril | [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Cómo puedo minimizar las discrepancias en la distribución del tráfico al utilizar ofertas de redireccionamiento en actividades de A4T?</li></ul> |
 | 21 de abril | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha agregado información de versión preliminar sobre el [!DNL Target] lanzamiento de la plataforma programada para el 17 de abril de 2022. |
 | 20 de abril | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha añadido información de versión preliminar acerca de la versión 22.4.1 de [!DNL Target Standard/Premium]. |
 | Abril de 14 | [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Se agregó información a la sección Reorganizar para explicar cómo abordar el comportamiento incoherente del VEC con la variable [!UICONTROL Mover] y [!UICONTROL Reorganizar] acciones debidas a la carga lenta de elementos DOM. |

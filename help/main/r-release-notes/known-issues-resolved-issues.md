@@ -4,9 +4,9 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4818'
+source-wordcount: '4783'
 ht-degree: 98%
 
 ---
@@ -77,9 +77,6 @@ Un problema conocido impide la previsualización si los criterios utilizados en 
 
 ### Ofertas de redireccionamiento {#redirect}
 
-Los siguientes son problemas conocidos de las ofertas de redireccionamiento:
-
-* Un número limitado de clientes ha informado de grados de variación más altos en la distribución del tráfico al utilizar una oferta de redirección en actividades configuradas con Analytics for Target (A4T).
 * Las actividades de redirección en las implementaciones de at.js hacen que la dirección URL de vista previa entre en bucle (la oferta se suministra repetidamente). Puede utilizar el [Modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) para llevar a cabo la vista previa y el control de calidad. Este problema no afecta al suministro real de la oferta. (TGT-23019)
 
 ### Cancelación de la carga de una página dentro del Compositor de experiencias visuales (VEC) {#cancel}
