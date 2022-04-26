@@ -4,10 +4,10 @@ description: Aprenda a utilizar [!DNL Adobe Experience Manager] fragmentos de ex
 title: Cómo Uso [!DNL Adobe Experience Manager] (AEM) ¿Fragmentos de experiencias?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
+source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 57%
+source-wordcount: '1277'
+ht-degree: 55%
 
 ---
 
@@ -149,6 +149,12 @@ Puede consumir fragmentos de experiencias en actividades de [!DNL Target] emplea
 * El fragmento de experiencia se importa en [!DNL Target] como oferta de HTML. La versión &quot;principal&quot; del fragmento de experiencia permanece en [!DNL AEM]. No puede editar el fragmento de experiencia en [!DNL Target].
 * No puede crear fragmentos de experiencia utilizando [!DNL Adobe I/O]. Cree fragmentos de experiencia con AEM, tal como se explica más arriba.
 * Si actualiza el fragmento de experiencia en AEM, el fragmento de experiencia debe publicarse y exportarse a [!DNL Target] nuevamente así [!DNL Target] puede utilizar los cambios más recientes.
+
+## Eliminación de bibliotecas de cliente de fragmentos de experiencias exportados a Target
+
+Al utilizar una oferta de fragmento de experiencia con [!DNL Target] en una página entregada por AEM, la página de destino ya contiene todas las bibliotecas de cliente necesarias. Además, no es necesario el HTML superfluo de la oferta XF.
+
+Para obtener más información, consulte [esta publicación de blog](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## Vídeo de formación: Uso de AEM fragmentos de experiencia con [!DNL Adobe Target]
 
