@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluyen en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: 2eba98d780cfcd0e5a7388ad47301aecb90133dd
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 71%
+source-wordcount: '188'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 Esta versión contiene la siguiente corrección:
 
 * Se ha corregido un problema que hacía que tres algoritmos basados en el carro de compras usaran la misma condición Comprado/Comprado en la variable [!DNL Target] backend. (TGT-43456)
-* Habilitado [!DNL Target] Actualización de tokens de interfaz de usuario para organizaciones habilitadas para T2E y PBA (autenticación basada en políticas) (TGT-42590).
+* Habilitado [!DNL Target] Actualización de tokens de la interfaz de usuario para organizaciones habilitadas con [Cuentas de ID de negocio](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} y autenticación basada en directivas (PBA). (TGT-42590)
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
