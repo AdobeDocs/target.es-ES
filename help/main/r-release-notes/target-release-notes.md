@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluyen en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2eba98d780cfcd0e5a7388ad47301aecb90133dd
+source-git-commit: 97ec17366e567f7e2f4cb0bf24a39c653718431f
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 68%
+source-wordcount: '180'
+ht-degree: 58%
 
 ---
 
@@ -28,6 +28,6 @@ Esta versión contiene la siguiente corrección:
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
-Para recibir notificaciones avanzadas sobre futuras mejoras de productos en Target y otras soluciones de Adobe Experience Cloud, regístrese en Adobe Priority Product Update:
+Para recibir notificaciones avanzadas sobre próximas mejoras de productos para [!DNL Target] y otros [!DNL Adobe Experience Cloud] soluciones, regístrese para [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
