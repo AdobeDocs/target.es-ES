@@ -5,7 +5,7 @@ title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
+source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
 workflow-type: tm+mt
 source-wordcount: '3133'
 ht-degree: 57%
@@ -277,7 +277,7 @@ Sí, puede mover audiencias entre espacios de trabajo utilizando la variable [!U
 
 >[!NOTE]
 >
->Debe tener los derechos adecuados para editar una audiencia. Además, la audiencia no debe utilizarse en otras actividades. Si la audiencia está siendo utilizada en otras actividades y todavía desea trasladarla a otra estación de trabajo, elimine la audiencia de las otras actividades en las que se están utilizando.
+>Debe tener los derechos adecuados para editar una audiencia. Además, la audiencia no debe utilizarse en otras actividades. Si la audiencia está siendo utilizada en otras actividades y todavía desea trasladarla a otro lugar de trabajo, elimine la audiencia de las otras actividades en las que se están utilizando.
 
 ### ¿Por qué aparece un mensaje de error que indica que no hay ninguna propiedad asociada con esta actividad, aunque haya una propiedad asignada?
 
