@@ -5,10 +5,10 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 65%
+source-wordcount: '566'
+ht-degree: 56%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 65%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, las notas de la versión para [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de plataforma también se incluyen, cuando corresponde.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target] versión de plataforma (27 de abril de 2022)
+
+Esta versión contiene el siguiente cambio:
+
+* Con esta versión puede recuperar previamente contenido para [!UICONTROL Personalización automática] (AP) y [!UICONTROL Segmentación automática] Actividades (AT) (anteriormente no devueltas por [!DNL Target]). Esto puede cambiar las experiencias que los usuarios finales ven en caso de una llamada de recuperación previa (sin cambios en el flujo &quot;ejecutar&quot;) si una actividad AP/AT está en la ruta de entrega y tiene mayor prioridad que otras actividades AB/XT que utilizan la misma ubicación para la entrega de contenido.
 
 ## Versión de la plataforma de Target (13 de abril de 2022)
 

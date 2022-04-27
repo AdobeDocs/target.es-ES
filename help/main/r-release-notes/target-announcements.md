@@ -4,32 +4,16 @@ description: Lea los anuncios y regístrese en los eventos de Adobe [!DNL Target
 title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 67%
+source-wordcount: '772'
+ht-degree: 69%
 
 ---
 
 # Anuncios y eventos de Target
 
 Anuncios e información acerca de próximos eventos, incluidas sesiones de Generador de habilidades de [!DNL Adobe Target], charlas para desarrolladores, seminarios web y charlas cortas de [!DNL Target].
-
-## [!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad (27 de abril de 2022)
-
-* **Miércoles, 27 de abril de 2022**
-* **8:00 a. m. (PDT, UTC -7)**
-* **[Más información e información de registro](https://adobe.ly/371Uny2)**
-
-El Consultor Principal de Soluciones, James McTiernan, responderá a las preguntas de los clientes relacionadas con sus siguientes áreas de experiencia:
-
-* [!UICONTROL Prueba A/B] actividades
-* [!UICONTROL Prueba multivariable] actividades
-* [!UICONTROL Actividades de Recommendations]
-* Personalización
-* Temas generales de [!UICONTROL Adobe Target]
-
-El ingeniero de soporte técnico Simon Chen asistirá a James.
 
 ## Seminario web: Personalización en tiempo real con Adobe Target (28 de abril de 2022)
 
