@@ -5,10 +5,10 @@ title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 59%
+source-wordcount: '3132'
+ht-degree: 57%
 
 ---
 
@@ -262,6 +262,22 @@ Las preguntas más frecuentes sobre permisos de Enterprise incluyen las siguient
 Por desgracia, las actividades no se pueden trasladar de un espacio de trabajo a otro. Sin embargo, puede copiar una actividad en cualquier espacio de trabajo sabiendo que los datos de los informes no se transmiten. Para obtener más información, consulte “Copiar/editar una actividad al utilizar espacios de trabajo” en [Copiar/Editar una actividad al usar espacios de trabajo.](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)
 
 Las actividades creadas antes de la migración se siguen ejecutando del mismo modo en el espacio de trabajo predeterminado, a menos que se editen y se les asignen propiedades. Las actividades de un espacio de trabajo específico respetan las propiedades asignadas a ese espacio de trabajo y, por lo tanto, el comportamiento puede no ser el mismo que antes de la migración.
+
+### ¿Puedo mover una audiencia de un espacio de trabajo a otro? {#move-audience}
+
+Sí, puede mover audiencias entre espacios de trabajo utilizando la variable [!UICONTROL Más acciones] en la [!UICONTROL Audiencias] página.
+
+1. Haga clic en el **[!UICONTROL Más acciones]** (los tres puntos suspensivos) y, a continuación, haga clic en **[!UICONTROL Mover]**.
+
+   ![Más acciones > Mover](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. Seleccione el espacio de trabajo deseado en el **[!UICONTROL Espacio de trabajo]** lista desplegable y haga clic en **[!UICONTROL Mover]**.
+
+   ![Seleccione la audiencia que desee para desplazarse a un nuevo espacio de trabajo](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>Debe tener los derechos adecuados para editar una audiencia. Además, la audiencia no debe utilizarse en otras actividades. Si la audiencia está siendo utilizada en otras actividades y todavía desea trasladarla a otra estación de trabajo, elimine la audiencia de las otras actividades en las que se están utilizando.
 
 ### ¿Por qué aparece un mensaje de error que indica que no hay ninguna propiedad asociada con esta actividad, aunque haya una propiedad asignada?
 
