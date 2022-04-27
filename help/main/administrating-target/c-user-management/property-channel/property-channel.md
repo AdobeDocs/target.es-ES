@@ -5,9 +5,9 @@ title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
+source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3133'
 ht-degree: 57%
 
 ---
@@ -215,7 +215,7 @@ Tenga en cuenta lo siguiente al usar o configurar propiedades y permisos en [!DN
    * Al crear una actividad, audiencia u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se creará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
    * Al copiar una actividad, audiencia u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se copiará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
 
-* Cualquier aprobador puede controlar cualquier configuración de las páginas de administración siguientes en cualquier espacio de trabajo:
+* Cualquier configuración en el administrador siguienteLas páginas de racionamiento pueden ser controladas por cualquier Aprobador en cualquier espacio de trabajo:
 
    * Compositor de experiencias visuales
    * Creación de informes
