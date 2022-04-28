@@ -4,10 +4,10 @@ description: Aprenda a utilizar una actividad de asignación automática en Adob
 title: ¿Qué es una actividad de asignación automática?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 51%
+source-wordcount: '3559'
+ht-degree: 49%
 
 ---
 
@@ -72,7 +72,7 @@ La ilustración muestra cómo progresa el tráfico asignado a cada experiencia d
 
 | Ronda | Descripción |
 |--- |--- |
-| ![Ronda de calentamiento](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-0.png) | **Ronda de calentamiento (0):** durante la ronda de calentamiento, cada experiencia obtiene la misma asignación de tráfico hasta que cada experiencia de la actividad tenga un mínimo de 1000 visitantes y 50 conversiones.<ul><li>Experiencia A = 25 %</li><li>Experiencia B = 25 %</li><li>Experiencia C = 25 %</li><li>Experiencia D = 25 %</li></ul>Una vez que todas las experiencias han obtenido 1000 visitantes y 50 conversiones, Target inicia la asignación automática del tráfico. Todas las asignaciones tienen lugar por rondas y se eligen dos experiencias para cada ronda.<br>Solo dos experiencias pasan a la siguiente ronda: D y C.<br>Al pasar a la siguiente ronda, se asignará a las dos experiencias un 80 % del tráfico de forma equitativa. Las otras dos experiencias siguen participando, pero solo forman parte del 20 % de asignación aleatoria del tráfico cuando entran nuevos visitantes a la actividad.<br>Todas las asignaciones se actualizan cada hora (tal y como se muestra por rondas en el eje X anterior). Después de cada ronda, se comparan los datos acumulados. |
+| ![Ronda de calentamiento](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-0.png) | **Ronda de calentamiento (0):** durante la ronda de calentamiento, cada experiencia obtiene la misma asignación de tráfico hasta que cada experiencia de la actividad tenga un mínimo de 1000 visitantes y 50 conversiones.<ul><li>Experiencia A = 25 %</li><li>Experiencia B = 25 %</li><li>Experiencia C = 25 %</li><li>Experiencia D = 25 %</li></ul>Una vez que todas las experiencias han obtenido 1000 visitantes y 50 conversiones, Target inicia la asignación automática del tráfico. Todas las asignaciones tienen lugar por rondas y se eligen dos experiencias para cada ronda.<br>Solo dos experiencias pasan a la siguiente ronda: D y C.<br>Al pasar a la siguiente ronda, se asignará a las dos experiencias un 80 % del tráfico de forma equitativa. Las otras dos experiencias siguen participando, pero solo forman parte del 20 % de asignación aleatoria del tráfico a medida que entran nuevos visitantes a la actividad.<br>Todas las asignaciones se actualizan cada hora (tal y como se muestra por rondas en el eje X anterior). Después de cada ronda, se comparan los datos acumulados. |
 | ![Ronda 1](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-1.png) | **Ronda 1**: durante esta ronda, el 80 % del tráfico se asigna a las experiencias C y D (un 40 % a cada una). El 20 % del tráfico se asigna aleatoriamente a las experiencias A, B, C y D (un 5 % a cada una). Durante esta ronda, la experiencia A presenta un buen rendimiento.<ul><li>El algoritmo decide que la experiencia D pasa a la siguiente ronda porque tiene la tasa de conversión más alta (tal y como indica en la escala vertical de cada actividad).</li><li>El algoritmo decide que la experiencia A también supera esta primera prueba porque tiene la cota superior más alta del intervalo de confianza del 95 % de Bernstein en comparación con las demás experiencias.</li></ul>Las experiencias D y A pasan a la siguiente ronda. |
 | ![Ronda 2](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-2.png) | **Ronda 2**: durante esta ronda, el 80 % del tráfico se asigna a las experiencias A y D (un 40 % a cada una). El 20 % del tráfico se asigna aleatoriamente, de modo que A, B, C y D reciben, respectivamente, un 5 % del tráfico. Durante esta ronda, la experiencia B presenta un buen rendimiento.<ul><li>El algoritmo decide que la experiencia D pasa a la siguiente ronda porque tiene la tasa de conversión más alta (tal y como indica en la escala vertical de cada actividad).</li><li>El algoritmo decide que la experiencia B también supera esta segunda prueba porque tiene la cota superior más alta del intervalo de confianza del 95 % de Bernstein en comparación con las demás experiencias.</li></ul>Las experiencias D y B pasan a la siguiente ronda. |
 | ![Ronda 3](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-3.png) | **Ronda 3**: durante esta ronda, el 80 % del tráfico se asigna a las experiencias B y D (un 40 % a cada una). El 20 % del tráfico se asigna aleatoriamente, de modo que A, B, C y D reciben, respectivamente, un 5 % del tráfico. Durante esta ronda, la experiencia D sigue teniendo un buen rendimiento y la experiencia C también logra buenos resultados.<ul><li>El algoritmo decide que la experiencia D pasa a la siguiente ronda porque tiene la tasa de conversión más alta (tal y como indica en la escala vertical de cada actividad).</li><li>El algoritmo decide que la experiencia C también pasa a la siguiente ronda porque tiene la cota superior más alta del intervalo de confianza del 95 % de Bernstein de las experiencias restantes.</li></ul>Las experiencias D y C pasan a la siguiente ronda. |
@@ -206,6 +206,16 @@ Al usar la variable [!UICONTROL Restablecer los datos del informe] para [!UICONT
 Si se produce una visita en otro entorno (no predeterminado), el tráfico se distribuye según el comportamiento de conversión observado en el entorno predeterminado. El resultado de esa visita (conversión o no conversión) se registra a efectos de generación de informes, pero no se tiene en cuenta en la variable [!UICONTROL Asignación automática] modelo.
 
 Al seleccionar otro entorno, el informe muestra el tráfico y las conversiones de dicho entorno. El entorno seleccionado de forma predeterminada para un informe es el valor predeterminado seleccionado para toda la cuenta. El entorno predeterminado no se puede establecer por actividad.
+
+### Puede [!UICONTROL Asignación automática] actividad ajusta la ventana retrospectiva a lo largo de una prueba para tener en cuenta los cambios en las tendencias a lo largo del tiempo?
+
+Por ejemplo, ¿puede la actividad considerar el mes de diciembre para decidir cómo asignar el tráfico, en lugar de consultar los datos de visitantes de septiembre (cuando comenzó la prueba)?
+
+No, [!UICONTROL Asignación automática] considera el rendimiento de toda la actividad.
+
+### Does [!UICONTROL Asignación automática] mostrar una experiencia ganadora a un visitante que regresa si la experiencia ganadora es diferente de lo que vio el visitante al calificar para la actividad?
+
+[!UICONTROL Asignación automática] utiliza la toma de decisiones adhesivas por las mismas razones que [!UICONTROL Prueba A/B] las actividades son duraderas. La asignación de tráfico solo funciona para visitantes nuevos.
 
 ## Vídeos de formación {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 

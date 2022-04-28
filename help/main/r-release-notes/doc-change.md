@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3854'
-ht-degree: 95%
+source-wordcount: '3908'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | Abril de 28 | [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Puedo mover una audiencia de un espacio de trabajo a otro?</li></ul> |
+|  | Información general sobre la [[!UICONTROL asignación automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | Se agregaron las siguientes preguntas más frecuentes:<ul><li>Puede [!UICONTROL Asignación automática] actividad ajusta la ventana retrospectiva a lo largo de una prueba para tener en cuenta los cambios en las tendencias a lo largo del tiempo?</li><li>Does [!UICONTROL Asignación automática] mostrar una experiencia ganadora a un visitante que regresa si la experiencia ganadora es diferente de lo que vio el visitante al calificar para la actividad?</li></ul> |
 |  | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información sobre la variable [!DNL Target Standard/Premium] Versiones 22.4.1 y plataforma de Target (27 de abril de 2022). |
 
 ## Adobe Target Standard/Premium 22.3.1 (5 de abril)
