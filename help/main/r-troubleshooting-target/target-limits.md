@@ -1,14 +1,14 @@
 ---
 keywords: límite de caracteres;parámetros de mbox;api de entrega por lotes;parámetros de perfil;límites;perfiles integrados;límite;máximo;restricción;carácter;práctica recomendada;id de pedido;total del pedido;id de terceros de mbox;categoría;id de categoría;solución de problemas
-description: Visualización de una lista de límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de Adobe Target.
-title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro tipo de Adobe Target?
+description: Ver una lista de límites de caracteres y otros límites que afectan a las actividades y otros elementos de [!DNL Adobe Target].
+title: ¿Cuáles son los distintos caracteres, tamaños y otros límites de [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
+source-git-commit: 516dd288f2aa8116d05f1a9f28c5074df0932e8c
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 98%
+source-wordcount: '1352'
+ht-degree: 96%
 
 ---
 
