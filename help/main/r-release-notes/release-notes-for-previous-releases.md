@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '33168'
+source-wordcount: '33324'
 ht-degree: 99%
 
 ---
@@ -66,6 +66,22 @@ Esta versión de mantenimiento contiene las siguientes correcciones y mejoras pa
 ### [!DNL Target Standard/Premium] 22.1.1 (12 de enero de 2022)
 
 Esta versión incluye correcciones de errores y funciones previas necesarias para integraciones futuras.
+
+### Versión de la plataforma de Target (13 de abril de 2022)
+
+Esta versión contiene la siguiente actualización:
+
+* Se ha corregido un problema para garantizar que el último octeto de direcciones IP se confunda correctamente al capturarse mediante scripts de perfil. (TNT-44076)
+
+### [!DNL Target Standard/Premium] 22.3.1 (5 de abril de 2022)
+
+Esta versión contiene las siguientes mejoras y cambios:
+
+* Se ha corregido un problema que hacía que la variable [!UICONTROL Incluir] y [!UICONTROL Excluir] opciones que se deshabilitarán para audiencias combinadas al editar una actividad. (TGT-43422)
+* Se ha corregido un problema que impedía a algunos clientes ver la lista de audiencias disponibles al editar una actividad. (TGT-43404)
+* Se ha corregido un problema que impedía que algunos clientes eliminaran una dirección IP de &quot;[!UICONTROL IP de las que excluir [!DNL Target] datos de informes]&quot; en [!UICONTROL Administración] > [!UICONTROL Informes]. (TGT-43384)
+* Se ha corregido un problema que impedía el uso de números negativos en criterios de audiencia que comprobaban que cualquier variable era &quot;buena que&quot;, &quot;buena o igual que&quot;, &quot;menor que&quot; o &quot;menor o igual que&quot;. (TGT-43367)
+* Se ha corregido un problema que impedía que los clientes vieran la variable [!UICONTROL Detalles de audiencia] al crear audiencias combinadas. (TGT-43303)
 
 ### Versión 2.8.0 de at.js (7 de enero de 2022)
 

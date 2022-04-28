@@ -5,9 +5,9 @@ title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3150'
 ht-degree: 57%
 
 ---
@@ -198,6 +198,7 @@ La nueva funcionalidad Permisos puede verse en diferentes sitios de la interfaz 
    ![](assets/channel_options.png)
 
 * **Creación de audiencias:** Cuando crea una audiencia, esta se crea en el espacio de trabajo seleccionado actualmente.
+* **Lista de audiencias:** Puede mover audiencias entre espacios de trabajo utilizando la variable [!UICONTROL Más acciones] > [!DNL Move] en la [!UICONTROL Audiencias] página.
 * **Creación de ofertas:** Cuando crea una oferta, esta se crea en el espacio de trabajo seleccionado actualmente.
 * **Página Propiedades (Administración > Propiedades):** Puede usar la variable [!UICONTROL Buscar] para buscar [!UICONTROL Propiedad] lista.
 
@@ -215,7 +216,7 @@ Tenga en cuenta lo siguiente al usar o configurar propiedades y permisos en [!DN
    * Al crear una actividad, audiencia u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se creará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
    * Al copiar una actividad, audiencia u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se copiará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
 
-* Cualquier configuración en el administrador siguienteLas páginas de racionamiento pueden ser controladas por cualquier Aprobador en cualquier espacio de trabajo:
+* Cualquier configuración de la siguiente variable [!UICONTROL Administración] las páginas pueden ser controladas por cualquier [!UICONTROL Aprobador] en cualquier espacio de trabajo:
 
    * Compositor de experiencias visuales
    * Creación de informes
