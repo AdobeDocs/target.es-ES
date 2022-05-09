@@ -1,13 +1,13 @@
 ---
 keywords: notas de la versión;versiones;actualizaciones;futuras versiones;mejoras;nuevas funciones;correcciones;actualizaciones;versión preliminar
 description: Obtenga información sobre las nuevas funciones, mejoras y correcciones que incluirá la próxima versión de Adobe Target, incluidos el SDK, la API y las bibliotecas de JavaScript.
-title: ¿Qué nuevas funciones y mejoras se incluyen en la próxima versión?
+title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 83a7fb03dcf334cb82eb507d2803e955a655b40a
+source-git-commit: ca2e85a5cadd014c192be6795445e0cfc4ca75cb
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 23%
+source-wordcount: '489'
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 23%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 5 de mayo de 2022**
+**Última actualización: 9 de mayo de 2022**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -23,9 +23,9 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
-* **10 de mayo**: Región de Europa, Oriente Medio y África (EMEA)
 * **11 de mayo**: Región de Asia y el Pacífico (APAC)
 * **12 de mayo**: Región de América del Norte (NA)
+* **13 de mayo**: Región de Europa, Oriente Medio y África (EMEA)
 
 Esta versión contiene las siguientes mejoras y correcciones:
 
@@ -38,11 +38,9 @@ Esta versión contiene las siguientes mejoras y correcciones:
 * Se ha corregido un problema que impedía que los clientes eliminaran ubicaciones que tuvieran ofertas ad-hoc en actividades creadas en la variable [!UICONTROL Compositor de experiencias basadas en formularios]. (TGT-43315)
 * Se ha corregido un problema que impedía a los clientes acceder a ofertas de código después de hacer clic en ofertas de imagen y actualizar la interfaz de usuario. (TGT-43566)
 * Asegúrese de que la lista de métricas disponibles en la variable [!DNL Target] IU al crear actividades que utilizan [!DNL Analytics for Target] (A4T) muestra solo las métricas recopiladas por [!DNL Adobe Analytics]. (TGT-43294)
-* Se ha corregido un problema que a veces provocaba [!UICONTROL Configuración] solicitudes de página para fallar. Por ejemplo, al cambiar el &quot;[!UICONTROL Solución de Experience Cloud de informes]&quot; opción de &quot;[!UICONTROL Analytics]&quot; a &quot;[!UICONTROL Target]&quot; o &quot;[!UICONTROL Seleccionar por actividad]&quot;. (TGT-43272)
-* Se ha corregido un problema que a veces provocaba que los cambios en los scripts de perfil no se actualizaran correctamente. (TGT-43249)
+* Se ha corregido un problema que provocaba que las ediciones de los scripts de perfil volvieran al script original sin editar después de editarlo, activarlo y desactivarlo. El script de perfil ahora permanece en estado editado. (TGT-43249)
 * Se ha corregido un problema que provocaba el siguiente error al intentar mover una audiencia a otro espacio de trabajo: &quot;No podemos completar su solicitud. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste&quot;. (TGT-43212)
 * Se ha corregido un error que provocaba un error al clonar modificaciones de código personalizado para páginas de aplicación de una sola página (SPA). (TGT-43137)
-* Se ha cambiado la forma en que se gestiona la métrica &quot;vistas de página&quot; en SPA. En lugar de que la dirección URL de la página se muestre en la [!DNL Target] La IU ahora muestra la &quot;vista&quot;. (TGT-41200)
 * Se ha corregido un problema que hacía que la promoción original se viera afectada tras duplicar una experiencia y luego editar la promoción. (TGT-41775)
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
