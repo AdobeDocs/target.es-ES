@@ -5,10 +5,10 @@ title: ¿Puedo Implementar [!DNL Target] sin un Administrador de etiquetas?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 53%
+source-wordcount: '1794'
+ht-degree: 50%
 
 ---
 
@@ -83,6 +83,20 @@ Además de la configuración explicada anteriormente, también están disponible
 | Encabezado de biblioteca personalizado | Añada código de JavaScript personalizado para incluirlo en la parte superior de la biblioteca. |
 | Pie de página de biblioteca personalizado | Añada código de JavaScript personalizado para incluirlo en la parte inferior de la biblioteca. |
 
+### Métodos de implementación con On-Device Decisioning
+
+A partir de la versión 2.5.0, at.js ofrece la toma de decisiones en el dispositivo. La toma de decisiones en el dispositivo le permite almacenar en caché su [Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md) y [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) (XT) actividades en el explorador para realizar decisiones en memoria sin bloquear una solicitud de red al [!DNL Adobe Target] Red perimetral.
+
+Para obtener más información, consulte:
+
+* Lado del cliente: [Toma de decisiones en el dispositivo para at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* Lado del servidor: [Introducción a la toma de decisiones en el dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Lado del servidor: [Toma de decisiones en el dispositivo](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Node.js: [Habilitar la toma de decisiones en el dispositivo para su organización](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java: [Habilitar la toma de decisiones en el dispositivo para su organización](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET: [Habilitar la toma de decisiones en el dispositivo para su organización](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* Python: [Habilitar la toma de decisiones en el dispositivo para su organización](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+
 ### API de perfil
 
 Habilite o deshabilite la autenticación para actualizaciones en lote mediante API y genere un token de autenticación de perfil.
@@ -105,7 +119,7 @@ Elija la configuración que desee en la lista desplegable Proteger dirección IP
 * Confusión de IP completa
 * Ninguna
 
-Para obtener más información, consulte [Privacidad](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+Para obtener más información, consulte   [Privacidad](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
 
 >[!NOTE]
 >
