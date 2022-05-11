@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '33324'
+source-wordcount: '33451'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,19 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 
 ## Notas de la versión: 2022
 
+### [!DNL Target Standard/Premium] 22.4.1 (jueves, 28 de abril de 2022)
+
+Esta versión incluye la siguiente corrección:
+
+* Se ha corregido un problema que hacía que tres algoritmos basados en el carro de compras usaran la misma condición Comprado/Comprado en el backend de [!DNL Target]. (TGT-43456)
+* Habilitado [!DNL Target] Actualización de tokens de la interfaz de usuario para organizaciones habilitadas con [Cuentas de ID de negocio](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} y autenticación basada en directivas (PBA). (TGT-42590)
+
+### [!DNL Target] versión de plataforma (27 de abril de 2022)
+
+Esta versión contiene el siguiente cambio:
+
+* Con esta versión puede recuperar previamente contenido para [!UICONTROL Personalización automática] (AP) y [!UICONTROL Segmentación automática] Actividades (AT) (anteriormente no devueltas por [!DNL Target]). Esto puede cambiar las experiencias que los usuarios finales ven en caso de una llamada de recuperación previa (sin cambios en el flujo &quot;ejecutar&quot;) si una actividad AP/AT está en la ruta de entrega y tiene mayor prioridad que otras actividades AB/XT que utilizan la misma ubicación para la entrega de contenido.
+
 ### [!DNL Target] Versión de plataforma (30 de marzo)
 
 Esta versión incluye la siguiente mejora:
@@ -31,7 +44,7 @@ Esta versión incluye la siguiente mejora:
 
 ### [!DNL Target Standard] Se actualizan las audiencias (28 de marzo)
 
-Esta versión contiene la siguiente actualización:
+Esta versión incluye la siguiente actualización:
 
 * El nuevo [!UICONTROL Audiencias] La IU estará habilitada para todos [!DNL Target Standard] clientes.
 
@@ -67,21 +80,21 @@ Esta versión de mantenimiento contiene las siguientes correcciones y mejoras pa
 
 Esta versión incluye correcciones de errores y funciones previas necesarias para integraciones futuras.
 
-### Versión de la plataforma de Target (13 de abril de 2022)
+### Lanzamiento de Target Platform (13 de abril de 2022).
 
-Esta versión contiene la siguiente actualización:
+Esta versión incluye la siguiente actualización:
 
-* Se ha corregido un problema para garantizar que el último octeto de direcciones IP se confunda correctamente al capturarse mediante scripts de perfil. (TNT-44076)
+* Se ha corregido un problema para garantizar que el último octeto de direcciones IP se ofusque correctamente al capturarse mediante scripts de perfil. (TNT-44076)
 
 ### [!DNL Target Standard/Premium] 22.3.1 (5 de abril de 2022)
 
-Esta versión contiene las siguientes mejoras y cambios:
+Esta versión incorpora los siguientes cambios y mejoras:
 
-* Se ha corregido un problema que hacía que la variable [!UICONTROL Incluir] y [!UICONTROL Excluir] opciones que se deshabilitarán para audiencias combinadas al editar una actividad. (TGT-43422)
+* Se ha corregido un problema que hacía que las opciones [!UICONTROL Incluir] y [!UICONTROL Excluir] se deshabilitaran para audiencias combinadas al editar una actividad. (TGT-43422)
 * Se ha corregido un problema que impedía a algunos clientes ver la lista de audiencias disponibles al editar una actividad. (TGT-43404)
-* Se ha corregido un problema que impedía que algunos clientes eliminaran una dirección IP de &quot;[!UICONTROL IP de las que excluir [!DNL Target] datos de informes]&quot; en [!UICONTROL Administración] > [!UICONTROL Informes]. (TGT-43384)
-* Se ha corregido un problema que impedía el uso de números negativos en criterios de audiencia que comprobaban que cualquier variable era &quot;buena que&quot;, &quot;buena o igual que&quot;, &quot;menor que&quot; o &quot;menor o igual que&quot;. (TGT-43367)
-* Se ha corregido un problema que impedía que los clientes vieran la variable [!UICONTROL Detalles de audiencia] al crear audiencias combinadas. (TGT-43303)
+* Se ha corregido un problema que impedía que algunos clientes eliminaran una dirección IP de “[!UICONTROL IP que excluir de los datos de informes de [!DNL Target]]” en [!UICONTROL Administración] > [!UICONTROL Informes]. (TGT-43384)
+* Se ha corregido un problema que impedía el uso de números negativos en criterios de audiencia que comprobaban que cualquier variable era “mayor que”, “mayor o igual que”, “menor que” o “menor o igual que”. (TGT-43367)
+* Se ha corregido un problema que impedía que los clientes vieran la tarjeta [!UICONTROL Detalles de audiencia] al crear audiencias combinadas. (TGT-43303)
 
 ### Versión 2.8.0 de at.js (7 de enero de 2022)
 
