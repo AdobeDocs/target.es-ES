@@ -4,9 +4,9 @@ description: Lea los anuncios y regístrese en los eventos de Adobe [!DNL Target
 title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: a820a1cbc56332cc6414dc9f5ce4578fa0349481
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1165'
 ht-degree: 30%
 
 ---
@@ -34,7 +34,9 @@ Kai Motoyama, ingeniero de soporte técnico, también estará en el hilo de disc
 
 Regístrese en los siguientes seminarios web para ver cómo utilizan los clientes [!DNL Adobe Target] para lograr sus objetivos de personalización y optimización:
 
-### Productos deportivos de Dick: Personalización y cambio de panorama en el mercado minorista
+### Productos deportivos de Dick: Personalización y el cambio de panorama en el mercado minorista (19 de mayo de 2022)
+
++++Clic en mí
 
 * **Jueves 19 de mayo de 2022**
 * **1:00 a 2:00 p.m. (EDT, UTC-4)**
@@ -49,15 +51,22 @@ Aprenda cómo Dick&#39;s Sporting Goods está impulsando el crecimiento de dos d
 * Impacto general del negocio mediante la ampliación de las actividades de personalización y experimentación en la web y dispositivos móviles
 * Sugerencias y trucos comerciales para usar datos de análisis con el fin de convertir a los visitantes promedio en atletas que regresan
 
-### Adobe: Perspectiva de la industria de la personalización: Servicios financieros y seguros
++++
+
+### Adobe: Perspectiva de la industria de la personalización - Servicios financieros y seguros (24 de mayo de 2022)
+
++++Clic en mí
 
 * **Martes, 24 de mayo de 2022**
 * **1:00 a 2:00 p.m. (EDT, UTC-4)**
 * **[Más información e información de registro](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-Únase a Christopher Young (Director, Industry Strategy Financial Services) y James Capasso (Consultor de Target, Premier Support de Adobe) para conocer cómo las marcas responden a los cambios inmediatos en la demanda, al tiempo que sitúan la personalización en el centro de sus compromisos con los clientes. Conozca cómo las empresas de servicios financieros están apoyando e informando a los clientes de todo el mundo que están preocupados por las recientes pautas de inflación y las circunstancias de sus inversiones. 
+Únase a Christopher Young (Director, Industry Strategy Financial Services) y James Capasso (Consultor de Target, Premier Support de Adobe) para conocer cómo las marcas responden a los cambios inmediatos en la demanda, al tiempo que sitúan la personalización en el centro de sus compromisos con los clientes. Conozca cómo las empresas de servicios financieros están apoyando e informando a los clientes de todo el mundo que están preocupados por las recientes pautas de inflación y las circunstancias de sus inversiones.
+++ 
 
-### Banco Nacional de la Ciudad: Cómo lograr el 1% superior en la optimización digital
+### Banco Nacional de la Ciudad: Cómo alcanzar el 1% superior en optimización digital (26 de mayo de 2022)
+
++++Clic en mí
 
 * **Jueves, 26 de mayo de 2022**
 * **1:00 a 2:00 p.m. (EDT, UTC-4)**
@@ -72,7 +81,11 @@ Descubra cómo está aprovechando el City National Bank [!DNL Target] a:
 * Acelerar el crecimiento del negocio con una mayor participación y adopción de ofertas personalizadas
 * Optimice las campañas multicanal para obtener el retorno de la inversión (tiempo-valor) y el retorno de la inversión (ROI).
 
-### Adobe: Personalización con Precision: [!DNL Adobe Analytics] y [!DNL Target]
++++
+
+### Adobe: Personalización con Precision: [!DNL Adobe Analytics] y [!DNL Target] (2 de junio de 2022)
+
++++Clic en mí
 
 * **Jueves, 2 de junio de 2022**
 * **1:00 a 2:00 p.m. (EDT, UTC-4)**
@@ -85,15 +98,22 @@ Descubra cómo está aprovechando el City National Bank [!DNL Target] a:
 * Visita guiada paso a paso de [!DNL Adobe Analytics] y [!DNL Target] flujos de trabajo para personalización, segmentación y prueba
 * Casos de uso principales para desbloquear qué atributos predicen el comportamiento del visitante y qué atributos son los más importantes para las visualizaciones clave y el análisis de segmentación
 
-### Banco Nacional de la Ciudad: Cero a héroe: inicio y ampliación de un programa de personalización
++++
+
+### Banco Nacional de la Ciudad: Cero a héroe: inicio y ampliación de un programa de personalización (9 de junio de 2022)
+
++++Clic en mí
 
 * **Jueves, 9 de junio de 2022**
 * **1:00 a 2:00 p.m. (EDT, UTC-4)**
 * **Próximamente más información e información de registro**
 
 Únase a Heather Adkins (tecnología de marketing de SVP) para conocer las prácticas recomendadas y convertirse en un &quot;banco de relaciones&quot; para aumentar la lealtad de la marca y cómo impulsar a las personas y los procesos a crear y escalar programas de personalización exitosos.
++++
 
-### Adobe: Descubra las oportunidades de optimización de alto impacto
+### Adobe: Descubra las oportunidades de optimización de alto impacto (16 de junio de 2022)
+
++++Clic en mí
 
 * **Jueves 16 de junio de 2022**
 * **1:00 a 2:00 p.m. (EDT, UTC-4)**
@@ -106,13 +126,18 @@ Descubra cómo está aprovechando el City National Bank [!DNL Target] a:
 * Adición a la afinidad del cliente para la personalización
 * Y muchas más ideas para ayudarlo a descubrir oportunidades de alto impacto en su organización
 
-### Adobe: Perspectiva del sector de la personalización: venta minorista 
++++
+
+### Adobe: Perspectiva del sector de la personalización: minorista (21 de junio de 2022)
+
++++Clic en mí
 
 * **Jueves 21 de junio de 2022**
 * **1:00 a 2:00 p.m. (EDT, UTC-4)**
 * **[Más información e información de registro](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 Únase a Michael Klein (Director, Industry Strategy Retail) y Leina Betzer (Consultora de Target, Premier Support de Adobe) para discutir cómo las ventas de comercio electrónico minorista se disparan a medida que los patrones y comportamientos de compra de los consumidores cambian, con una mayor demanda de bienes y servicios en ciertos mercados.
++++
 
 ## Grabaciones de seminarios web anteriores y sesiones de formación
 
