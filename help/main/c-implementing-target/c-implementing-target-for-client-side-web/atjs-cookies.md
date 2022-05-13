@@ -5,9 +5,9 @@ title: Cookies de at.js
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1825'
 ht-degree: 96%
 
 ---
@@ -34,7 +34,7 @@ Sin embargo, en at.js 2.x, ya no se utiliza HTTP GET, sino HTTP POST. HTTP POST 
 
 Por lo tanto, ni las cookies de terceros ni el seguimiento entre dominios son compatibles en at.js 2.0.0.
 
-## at.js 1.*x*  comportamiento de las cookies {#at-js-1x-cookie-behavior}
+## at.js 1.*x*   comportamiento de las cookies {#at-js-1x-cookie-behavior}
 
 Para las versiones 1 de at.js.*x*, el comportamiento de la cookie depende de si es una cookie de origen, una cookie de terceros con una cookie de origen o solo una cookie de terceros.
 
@@ -111,7 +111,7 @@ La cookie tiene varias configuraciones predeterminadas. En caso necesario, puede
 | Nombre de la cookie | mbox. |
 | Dominio de la cookie | Niveles segundo y superior de los dominios desde los que se proporciona el contenido. Dado que se proporciona desde el dominio de la compañía, se trata de una cookie de origen. Ejemplo: `mycompany.com`. |
 | Dominio del servidor | `clientcode.tt.omtrdc.net`, usando el código de cliente de su cuenta. |
-| Duración de la cookie | La cookie permanece en el explorador del visitante dos años después de su último inicio de sesión.<br>La variable `deviceIdLifetime` se puede sobrescribir en [Versión 2.3.1 o posterior de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Para obtener más información, consulte [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
+| Duración de la cookie | La cookie permanece en el explorador del visitante dos años después del último inicio de sesión.<br>La variable `deviceIdLifetime` se puede sobrescribir en [Versión 2.3.1 o posterior de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Para obtener más información, consulte [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
 | Directiva P3P | Tal y como precisa la configuración predeterminada de la mayoría de los navegadores, la cookie se publica con una directiva P3P. Una directiva P3P indica el navegador que proporciona la cookie y el modo en que se va a usar la información. |
 
 La cookie conserva una serie de valores para administrar la forma en que los visitantes viven las campañas de
@@ -119,8 +119,8 @@ La cookie conserva una serie de valores para administrar la forma en que los vis
 | Valor | Definición |
 |--- |--- |
 | session ID | ID único para una sesión de usuario. De manera predeterminada, tiene una duración de 30 minutos. |
-| pc ID | Identificador semipermanente del navegador de un visitante. Dura 14 días. |
-| check | Sencillo valor de prueba que sirve para averiguar si un visitante admite cookies. Se establece cada vez que un visitante solicita una página. |
+| pc ID | Identificador semipermanente del navegador de un visitante. Dura 14 días.  |
+| at_check | Sencillo valor de prueba que sirve para averiguar si un visitante admite cookies. Se establece cada vez que un visitante solicita una página. |
 | disable | Se establece si el tiempo de carga del visitante supera el tiempo de espera configurado en la variable [!DNL Adobe Experience Platform Web SDK] o archivo at.js. De manera predeterminada, tiene una duración de 1 hora. |
 
 ## Impacto en [!DNL Target] para visitantes de Safari debido a cambios en el seguimiento de Apple WebKit
