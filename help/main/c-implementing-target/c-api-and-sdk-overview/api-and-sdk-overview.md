@@ -5,7 +5,7 @@ title: ¿Dónde puedo obtener información sobre [!DNL Target] ¿API de envío d
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 23%
@@ -37,7 +37,7 @@ Vínculo: [API de envío del servidor](https://developers.adobetarget.com/api/de
 
 `/rest/v1/delivery`
 
-Se ha creado el [!DNL Target] API de envío, puede:
+Al usar la variable [!DNL Target] API de envío, puede:
 
 * Entregue experiencias en la web, incluidos los canales SPA y móviles, así como en dispositivos IoT no basados en navegador, como televisores conectados, quioscos o pantallas digitales de la tienda.
 * Ofrecer experiencias desde cualquier plataforma o aplicación del lado del servidor que pueda realizar llamadas HTTP/s.
