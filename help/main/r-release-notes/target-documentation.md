@@ -5,7 +5,7 @@ title: ¿Dónde puedo encontrar la documentación de Target?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ A continuación se muestra una breve descripción de los tipos de documentación
 
 | Tipo de documentación | Descripción |
 | --- | --- |
-| [Documentación del producto de Adobe Target](/help/main/target-home.md)<br> (esta guía) | Información general, pasos y capturas de pantalla centrados en la interacción con [!DNL Target] a través de la interfaz de usuario. Esta guía describe todas las acciones y opciones disponibles, incluidas las acciones que deben evitarse. Este es el recurso más detallado para trabajar con la interfaz de usuario de [!DNL Target]. |
+| [Documentación del producto de Adobe Target](/help/main/target-home.md)<br>(esta guía) | Información general, pasos y capturas de pantalla centrados en la interacción con [!DNL Target] a través de la interfaz de usuario. Esta guía describe todas las acciones y opciones disponibles, incluidas las acciones que deben evitarse. Este es el recurso más detallado para trabajar con la interfaz de usuario de [!DNL Target]. |
 | [Tutoriales de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es) | Vídeos y tutoriales que le ayudarán a conocer los numerosos componentes de [!DNL Target]. |
 | [Biblioteca de contenido de Adobe Experience League Target](https://guided.adobe.com/#recommended/solutions/target) | Se trata de una colección de vídeos y tutoriales explicativos que resaltan las capacidades de [!DNL Target] que están disponibles en la página [!DNL Adobe Target Experience League]. |
 | [Documentación de Adobe Experience Platform Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Información sobre la implementación de [!DNL Target] mediante etiquetas en [!DNL Adobe Experience Platform], la plataforma de administración de etiquetas de próxima generación de [!DNL Adobe]. Este es el método preferido para implementar [!DNL Target]. |
@@ -34,6 +34,6 @@ A continuación se muestra una breve descripción de los tipos de documentación
 
 Además de los recursos anteriores, visite la [Comunidad de Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), donde podrá:
 
-* Más información sobre lo que puede ofrecerle [!DNL Target].
-* Conecte con compañeros y con los expertos de [!DNL Adobe].
-* Vote o envíe ideas propias para futuras versiones de [!DNL Target].
+* Más información sobre lo que puede ofrecerle [!DNL Target]
+* Conecte con compañeros y con los expertos de [!DNL Adobe]
+* Vote o envíe ideas propias para futuras versiones de [!DNL Target]
