@@ -1,13 +1,13 @@
 ---
 keywords: SDK web de Adobe Experience Platform;sdk web de aep;sdk de aep;optimización de los motores de búsqueda;optimización del motor de búsqueda;seo;clústeres edge, clústeres centrales;at.js;mbox.js;
-description: Descubra cómo Adobe [!DNL Target] funciona, incluida la información sobre [!DNL Target] Bibliotecas de JavaScript (at.js y SDK web de Experience Platform), centros de datos de Adobe y pruebas de SEO.
+description: Obtenga información acerca de cómo funciona Adobe  [!DNL Target] , incluida información sobre las bibliotecas de JavaScript de  [!DNL Target]  (at.js y SDK web de AEP), los centros de datos de Adobe y las pruebas de optimización de los motores de búsqueda.
 title: ¿Cómo funciona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2536'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Haga referencia a [!DNL Experience Platform Web SDK] o at.js en todas las págin
 Los siguientes recursos contienen información detallada para ayudarle a implementar el SDK web de Experience Platform o at.js:
 
 * [Extensión de SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es)
-* [Implementación [!DNL Target] de mediante Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementación  [!DNL Target]  de mediante Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Cada vez que un visitante solicita una página que se ha optimizado para [!DNL Target], se envía una solicitud al sistema de segmentación. La solicitud ayuda a determinar qué contenido se mostrará a ese visitante. Este proceso se produce en tiempo real. Cada vez que se carga una página, el sistema realiza una solicitud del contenido y la completa. El contenido está regido por reglas de actividades y experiencias controladas por especialistas en marketing y se segmenta para cada visitante del sitio. El contenido se sirve para indicar que el visitante de cada sitio tiene más probabilidades de responder, interactuar con o, en última instancia, comprar. El contenido personalizado ayuda a maximizar las tasas de respuesta, las tasas de adquisición y los ingresos.
 
@@ -205,9 +205,9 @@ El tráfico que se identifica como generado por un bot sigue siendo contenido se
 
 En concreto, para el tráfico de bots conocido, [!DNL Target] no:
 
-* Crea ni recupera un perfil de visitante.
-* Registra atributos de perfil ni ejecuta scripts de perfil.
-* Busca segmentos de Adobe Audience Manager (AAM) (si corresponde).
-* Utiliza el tráfico de bots para modelar y ofrecer contenido personalizado para actividades de Recommendations, Auto-Target, Automated Personalization o [!UICONTROL Auto-Allocate].
-* Registra una visita de actividad para la creación informes.
+* Crea ni recupera un perfil de visitante
+* Registra atributos de perfil ni ejecuta scripts de perfil
+* Busca segmentos de Adobe Audience Manager (AAM) (si corresponde)
+* Utiliza el tráfico de bots para modelar y ofrecer contenido personalizado para actividades de Recommendations, Auto-Target, Automated Personalization o [!UICONTROL Auto-Allocate]
+* Registra una visita de actividad para la creación informes
 * Registra datos que se enviarán a la plataforma de [!DNL Adobe Experience Cloud]
