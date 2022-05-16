@@ -1,14 +1,14 @@
 ---
 keywords: seguridad;prácticas de seguridad
-description: Obtenga información sobre los procedimientos que utiliza el Adobe para reforzar la seguridad de sus datos y Adobes [!DNL Target] experiencia. Descargar el Adobe [!DNL Target] Documento técnico Información general de seguridad .
-title: How [!DNL Target] ¿Gestionar la seguridad de mis datos?
+description: Obtenga información sobre los procedimientos que utiliza Adobe para reforzar la seguridad de sus datos y la experiencia de Adobe  [!DNL Target] . Descargue el Documento técnico Información general de seguridad de Adobe  [!DNL Target] .
+title: ¿Cómo administra  [!DNL Target]  la seguridad de mis datos?
 feature: Privacy & Security
 role: Developer
 exl-id: be93072f-2c21-40fa-8648-513348afacc8
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
