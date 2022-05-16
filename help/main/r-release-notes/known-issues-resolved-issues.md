@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4783'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 
 ### Compositor de experiencias visuales (VEC): carga de sitios web con Service Workers
 
-Existen algunas limitaciones actuales al intentar usar el VEC para abrir un sitio web que esté usando [Service Workers](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+Existen algunas limitaciones actuales al intentar usar el VEC para abrir un sitio web que esté usando [Service Workers](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API) {target=_blank} (SW).
 
 Un SW es una tecnología web que se puede utilizar para interceptar solicitudes del dominio en el que están instalados en una página web. El SW sobrevive a la visita de página y se activa en visitas posteriores. El SW decide qué solicitudes pasan y cuáles se interceptan y sirven desde una caché en su lugar.
 
@@ -37,7 +37,7 @@ Como solución, puede deshabilitar los Service Workers desde la pestaña Herrami
 
 ### Eliminación de ubicaciones que tienen ofertas ad-hoc en actividades creadas en el Compositor de experiencias basadas en formularios {#ad-hoc}
 
-Evite eliminar ubicaciones en una actividad creada en el Compositor de experiencias basadas en formularios si esas ubicaciones utilizan ofertas específicas (ofertas creadas dentro de la actividad). La eliminación de ubicaciones puede provocar que la actividad se dañe. La variable [!DNL Target] El equipo está trabajando en una solución para esto. Como solución alternativa, puede crear ofertas globales desde el [!UICONTROL Biblioteca de ofertas] y utilícelos con ubicaciones o puede crear experiencias nuevas, si es necesario. (KB-2014)
+Evite eliminar ubicaciones en una actividad creada en el Compositor de experiencias basadas en formularios si esas ubicaciones utilizan ofertas específicas (ofertas creadas dentro de la actividad). La eliminación de ubicaciones puede provocar que la actividad se dañe. El equipo de [!DNL Target] está trabajando en una solución para esto. Como solución alternativa, puede crear ofertas globales desde la [!UICONTROL Biblioteca de ofertas] y utilizarlas con ubicaciones o puede crear experiencias nuevas, si es necesario. (KB-2014)
 
 ### Distribución del tráfico de las actividades de asignación automática mediante A4T {#aa-a4t}
 
@@ -59,7 +59,7 @@ Actualmente, un problema con el EEC impide admitir peticiones PUT y provoca un e
 
 Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran en el informe [!UICONTROL Atributos importantes] en el caso de las actividades de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT). (TOP-3813)
 
-### Archivado [!UICONTROL Segmentación automática] las actividades pueden causar problemas de sincronización
+### El archivado de las actividades de [!UICONTROL Segmentación automática] puede causar problemas de sincronización
 
 Si se intenta archivar actividades inactivas de [!UICONTROL Segmentación automática], pueden producirse problemas de sincronización. Hasta que se solucione este problema, no archive las actividades de [!UICONTROL Segmentación automática]. Déjelas en estado [!UICONTROL Inactivo]. (TGT-40885)
 
@@ -334,7 +334,7 @@ Se corrigió en la versión 1.6.2 de at.js.
 
 Las actividades en el espacio de trabajo predeterminado eliminadas a través de la API siguen mostrándose en la IU de Target. Como solución alternativa, elimine todas las actividades en el espacio de trabajo predeterminado utilizando la IU de Target. (TGT-31315)
 
-Se corrigió el 25 de octubre de 2018.
+Se corrigió el 25 de octubre de 2018
 
 ### Creación de informes de nivel de oferta de Automated Personalization (AP)
 
@@ -381,20 +381,20 @@ Esta migración ha provocado dos posibles problemas de los que debe tener consta
 * Los usuarios no administradores recibieron un correo electrónico donde se indicaba que ya tenían acceso a Adobe Target. Esto indica que la migración se completó para su organización. Este mensaje puede ignorarse.
 * Tras la migración se han producido algunos informes de usuarios previamente desactivados que reaparecen en Adobe Admin Console. El que usuarios desactivados en Adobe Admin Console sigan apareciendo en la lista de usuarios de Target antes de la migración puede suponer un problema para su organización. Recomendamos que los administradores revisen la lista de usuarios en Admin Console para validar el acceso.
 
-Este problema se corrigió el 30 de agosto de 2017.
+Este problema se corrigió el 30 de agosto de 2017
 
 ### Creación de actividades
 
 Un problema en la versión 17.6.2 puede haber afectado a las actividades creadas o actualizadas entre el 22 y el 29 de junio de 2017. Se vieron afectadas las siguientes actividades:
 
-* Cualquier experiencia reordenada en segmentación de experiencias (XT) habrá retomado al orden original.
+* Cualquier experiencia reordenada en segmentación de experiencias (XT) habrá retomado al orden original
 * Cualquier regla de segmentación local respecto a la actividad (no guardada dentro de una audiencia) se habrá perdido: audiencias combinadas, refinamientos de ubicación y cualquier regla con métricas de éxito.
 
 No se vio afectada ninguna otra actividad.
 
 **Importante**: Este problema no se arregla automáticamente. Para ello, debe volver a guardar cualquier actividad afectada.
 
-Este problema se corrigió el 29 de junio de 2017.
+Este problema se corrigió el 29 de junio de 2017
 
 ### Compositor de experiencias basadas en formularios
 
