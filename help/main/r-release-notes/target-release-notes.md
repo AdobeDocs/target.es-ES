@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 41db493ad71a2e0909346f81b897d2b1db631116
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '463'
+ht-degree: 30%
 
 ---
 
@@ -37,7 +37,6 @@ Esta versión contiene las siguientes mejoras y correcciones:
 * Se ha corregido un problema que impedía a los clientes crear audiencias duplicadas, pero en diferentes espacios de trabajo. (TGT-43423)
 * Se ha corregido un problema que impedía que los clientes eliminaran ubicaciones que tuvieran ofertas ad-hoc en actividades creadas en la variable [!UICONTROL Compositor de experiencias basadas en formularios]. (TGT-43315)
 * Se ha corregido un problema que impedía a los clientes acceder a ofertas de código después de hacer clic en ofertas de imagen y actualizar la interfaz de usuario. (TGT-43566)
-* Asegúrese de que la lista de métricas disponibles en la variable [!DNL Target] IU al crear actividades que utilizan [!DNL Analytics for Target] (A4T) muestra solo las métricas recopiladas por [!DNL Adobe Analytics]. (TGT-43294)
 * Se ha corregido un problema que provocaba que las ediciones de los scripts de perfil volvieran al script original sin editar después de editarlo, activarlo y desactivarlo. El script de perfil ahora permanece en estado editado. (TGT-43249)
 * Se ha corregido un problema que provocaba el siguiente error al intentar mover una audiencia a otro espacio de trabajo: &quot;No podemos completar su solicitud. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste&quot;. (TGT-43212)
 * Se ha corregido un error que provocaba un error al clonar modificaciones de código personalizado para páginas de aplicación de una sola página (SPA). (TGT-43137)
