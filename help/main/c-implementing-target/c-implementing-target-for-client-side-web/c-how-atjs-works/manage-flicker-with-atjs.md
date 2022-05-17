@@ -5,7 +5,7 @@ title: ¿Cómo gestiona at.js el parpadeo?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 76%
@@ -34,7 +34,7 @@ La ilustración siguiente muestra las llamadas a Ocultar cuerpo y Mostrar cuerpo
 
 ![Flujo de Target: Solicitud de carga de página de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x*** 
+**at.js 1.*x***  
 
 ![](assets/target-flow2.png)
 
