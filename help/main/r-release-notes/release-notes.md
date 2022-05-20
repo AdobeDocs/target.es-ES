@@ -5,9 +5,9 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
+source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '664'
 ht-degree: 54%
 
 ---
@@ -23,7 +23,7 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 Esta versión estará disponible según la siguiente programación escalonada:
 
 * **11 de mayo**: Región de Asia y el Pacífico (APAC)
-* **12 de mayo**: Región de América del Norte (NA)
+* **12 de mayo**: Región de América
 * **13 de mayo**: Región de Europa, Oriente Medio y África (EMEA)
 
 Esta versión contiene las siguientes mejoras y correcciones:
