@@ -5,9 +5,9 @@ title: ¿Qué se incluye en cada versión de at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '4390'
+source-wordcount: '4414'
 ht-degree: 88%
 
 ---
@@ -21,6 +21,11 @@ Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScri
 >El equipo de Target es compatible con at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que está ejecutando una versión compatible.
 >
 >Etiquetas en [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) es el método preferido para actualizar at.js. Los desarrolladores de extensiones añaden continuamente nuevas funciones a sus extensiones y suelen corregir errores. Estas actualizaciones se incluyen en las nuevas versiones de una extensión y están disponibles en la [!DNL Adobe Experience Platform] catálogo como actualizaciones. Para obtener más información, consulte [Actualizaciones de extensiones](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) en el *Información general sobre etiquetas* guía.
+
+## Versión 2.9.0 de at.js (27 de mayo de 2022)
+
+* Se ha añadido [Sugerencias del cliente del agente de usuario](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) asistencia técnica.
+* Se ha corregido un error por el cual varias solicitudes de mbox en la misma página tenían ID de impresión diferentes.
 
 ## Versión 2.8.1 de at.js (28 de enero de 2022)
 

@@ -4,7 +4,7 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '33451'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Esta versión contiene el siguiente cambio:
 
 * Con esta versión puede recuperar previamente contenido para [!UICONTROL Personalización automática] (AP) y [!UICONTROL Segmentación automática] Actividades (AT) (anteriormente no devueltas por [!DNL Target]). Esto puede cambiar las experiencias que los usuarios finales ven en caso de una llamada de recuperación previa (sin cambios en el flujo &quot;ejecutar&quot;) si una actividad AP/AT está en la ruta de entrega y tiene mayor prioridad que otras actividades AB/XT que utilizan la misma ubicación para la entrega de contenido.
 
-### [!DNL Target] Versión de plataforma (30 de marzo)
+### [!DNL Target] versión de plataforma (30 de marzo)
 
 Esta versión incluye la siguiente mejora:
 
@@ -80,7 +80,7 @@ Esta versión de mantenimiento contiene las siguientes correcciones y mejoras pa
 
 Esta versión incluye correcciones de errores y funciones previas necesarias para integraciones futuras.
 
-### Lanzamiento de Target Platform (13 de abril de 2022).
+### Lanzamiento de Target Platform (13 de abril de 2022)
 
 Esta versión incluye la siguiente actualización:
 
