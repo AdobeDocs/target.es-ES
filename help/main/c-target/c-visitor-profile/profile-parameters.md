@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
 source-wordcount: '2423'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -177,7 +177,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
 **¿Es posible utilizar scripts de perfil para capturar información de una página que reside en una capa de datos?**
 
-Los scripts de perfil no pueden leer la página directamente porque se ejecutan en el lado del servidor. Los datos se deben pasar a través de una solicitud de mbox o a través de otros   [métodos de obtención de datos en Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Una vez que los datos están en [!DNL Target], los scripts de perfil pueden leer los datos como un parámetro de mbox o un parámetro de perfil.
+Los scripts de perfil no pueden leer la página directamente porque se ejecutan en el lado del servidor. Los datos se deben pasar a través de una solicitud de mbox o a través de otros    [métodos de obtención de datos en Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Una vez que los datos están en [!DNL Target], los scripts de perfil pueden leer los datos como un parámetro de mbox o un parámetro de perfil.
 
 ## Referencia de JavaScript para parámetros de perfil de secuencia de comandos
 

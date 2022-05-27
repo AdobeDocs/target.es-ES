@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4783'
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Los clientes no pueden realizar operaciones de CRUD en actividades de asignació
 
 El 10 de mayo de 2020, Adobe actualizó los archivos del proveedor GEO, lo que introdujo algunas incoherencias. Por ejemplo, se han añadido algunos valores que contienen comas; no obstante, los valores de las audiencias existentes no tenían coma. Este cambio no afectó a todos los servidores de entrega de Adobe. Como resultado, es posible que las audiencias que utilizan estos valores no hayan clasificado a todos los visitantes correctos entre el 10 de mayo y el 22 de julio de 2020.
 
-### Creación de informes: Datos incoherentes entre el informe descargable .csv y el informe que se muestra en la IU de [!DNL Target]. {#csv}
+### Creación de informes: Datos incoherentes entre el informe descargable .csv y el informe que se muestra en la IU de [!DNL Target] {#csv}
 
 Los informes generados para su descarga como archivos .csv son incoherentes si la actividad utiliza más de una métrica. El informe descargable se genera solo en función de la configuración del informe y considera el mismo valor para cualquier otra métrica utilizada.
 
