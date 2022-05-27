@@ -4,10 +4,10 @@ description: Se producen conflictos cuando se configuran varias actividades para
 title: ¿Cómo puedo evitar los conflictos de actividades?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 79%
+ht-degree: 72%
 
 ---
 
@@ -24,7 +24,7 @@ La variable [!UICONTROL Conflictos] le ayuda a:
 * Identificar si ya se está ejecutando una prueba en una página antes de configurar una actividad nueva.
 * Solucionar problemas de una actividad si no se muestra el contenido esperado.
 
-La variable [!UICONTROL Conflictos] la lista muestra cada [!DNL Target] escenario en el que se usa el mbox y que usa la misma dirección URL. La lista muestra para cada posible conflicto la dirección URL de la actividad, el nombre del mbox donde podría producirse el conflicto y todas las actividades que cumplan estos dos criterios. Si hubiera más de un mbox, se incluirán todos.
+La variable [!UICONTROL Conflictos] la lista muestra cada [!DNL Target] escenario en el que se usa el mbox y que usa la misma dirección URL. Para cada posible conflicto, la lista muestra la dirección URL de la actividad, el nombre del mbox en el que podría producirse el conflicto y las actividades que coincidan con ambos criterios. Si hubiera más de un mbox, se incluirán todos.
 
 En la lista se muestra el estado y la prioridad de cada posible conflicto, junto con otros datos. Puede usar el estado y la prioridad para determinar la probabilidad de que se produzca un conflicto. Por ejemplo, si hubiera un posible conflicto entre dos actividades y una estuviera inactiva, el conflicto no llegará a producirse a menos que se active la actividad inactiva. Si el posible conflicto afecta a dos actividades activas con la misma prioridad y la misma audiencia, el conflicto se producirá. Puede cambiar la prioridad o el estado para impedir el conflicto.
 
