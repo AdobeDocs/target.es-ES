@@ -4,10 +4,10 @@ description: Se producen conflictos cuando se configuran varias actividades para
 title: ¿Cómo puedo evitar los conflictos de actividades?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
+source-git-commit: b34701113ebdc9f539e5a3d7163aa3dd85368af3
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 72%
+source-wordcount: '352'
+ht-degree: 66%
 
 ---
 
@@ -17,7 +17,7 @@ La variable [!UICONTROL Conflictos] en la ficha [!UICONTROL Información general
 
 Un conflicto de actividades ocurre cuando existen varias actividades configuradas para entregar contenido a la misma página. Cuando se produce un conflicto de actividades, es probable que no se vea el contenido esperado en la página.
 
-Si su actividad contiene posibles conflictos, la pestaña [!UICONTROL Conflictos] se encontrará disponible en la página Información general de la actividad. Se muestran todas las actividades de la misma dirección URL, independientemente de si se ha segmentado la audiencia o no en cada actividad. Abra esta pestaña para ver una lista de las actividades que pueden crear conflictos. Haga clic en una actividad de la lista para ver la página de información general para dicha actividad. Si el conflicto altera la experiencia esperada, edite la actividad.
+La variable [!UICONTROL Conflictos] está disponible en la página de información general de la actividad y puede informarle si la actividad contiene posibles conflictos. Se muestran todas las actividades de la misma dirección URL, independientemente de si se ha segmentado la audiencia o no en cada actividad. Abra esta pestaña para ver una lista de las actividades que pueden crear conflictos. Haga clic en una actividad de la lista para ver la página de información general para dicha actividad. Si el conflicto altera la experiencia esperada, edite la actividad.
 
 La variable [!UICONTROL Conflictos] le ayuda a:
 
