@@ -4,9 +4,9 @@ description: 'Obtenga información sobre cómo previsualizar el Adobe [!DNL Targ
 title: ¿Cómo se previsualiza y se inicia una actividad de Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7732f3af0fd995309035a8a214afd438ab7a1823
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1381'
 ht-degree: 17%
 
 ---
@@ -120,17 +120,17 @@ Cambio [!DNL Recommendations] las colecciones, los criterios, las promociones o 
 
 Para evitar interrumpir una actividad activa, se recomienda seguir el siguiente método al modificar una actividad activa:
 
-1. Duplique la actividad y los criterios que desee modificar.
-1. Realice cambios en la actividad y los criterios duplicados y espere a que el algoritmo genere resultados.
-1. Previsualice la nueva actividad modificada y confirme que los resultados son los deseados.
-1. Active la nueva actividad.
-1. Desactive la actividad antigua.
+1. Duplique la actividad original (actividad 1) y los criterios que desea modificar para crear una nueva actividad (actividad 2).
+1. Realice cambios en la actividad duplicada (actividad 2) y en los criterios y espere a que el algoritmo genere resultados.
+1. Previsualice la nueva actividad modificada (actividad 2) y confirme que los resultados son los deseados.
+1. Active la nueva actividad (actividad 2).
+1. Desactive la actividad original (actividad 1).
 
 Si necesita conservar los resultados históricos de los informes en la misma actividad, se puede aplicar un enfoque alternativo que podría provocar una interrupción temporal en la disponibilidad de las recomendaciones:
 
-1. Duplique la actividad y los criterios que desee modificar.
-1. Realice cambios en la actividad y los criterios duplicados y espere a que el algoritmo genere resultados.
-1. Previsualice la nueva actividad modificada y confirme que los resultados son los deseados.
-1. Pause la actividad existente e intercambie la configuración/criterios por los nuevos criterios.
-1. Previsualice la actividad existente y confirme que los resultados son los que desee.
-1. Vuelva a activar la actividad.
+1. Duplique la actividad original (actividad 1) y los criterios que desea modificar para crear una nueva actividad (actividad 2).
+1. Realice cambios en la actividad duplicada (actividad 2) y en los criterios y espere a que el algoritmo genere resultados.
+1. Previsualice la nueva actividad modificada (actividad 2) y confirme que los resultados son los deseados.
+1. Pause la nueva actividad modificada (actividad 2) e cambie la configuración/criterios a la actividad original (actividad 1).
+1. Previsualice la actividad original (actividad 1) y confirme que los resultados son los deseados.
+1. Vuelva a activar la actividad original (actividad 1).
