@@ -5,10 +5,10 @@ title: ¿Cómo puedo agregar usuarios y administrar permisos?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '911'
-ht-degree: 100%
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Toda la administración de usuarios debe realizarse en [!DNL Adobe Admin Console
 Puede crear grupos de usuarios, como Desarrolladores, Analistas, Especialistas en marketing, Ejecutivos, etc., y luego asignar privilegios en varios productos y espacios de trabajo de Adobe. Asignar todos los privilegios apropiados en diferentes productos de Adobe a un nuevo miembro del equipo puede ser tan fácil como añadirlos a un grupo de usuarios específico.
 
 1. [En Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en **[!UICONTROL Usuarios]** > **[!UICONTROL Grupos de usuarios]** para crear grupos de usuarios nuevos o editar los existentes.
-1. Siga las instrucciones de [Administrar usuarios y grupos en Experience Cloud](https://helpx.adobe.com/es/enterprise/using/users.html) en la *Guía del usuario de Enterprise*.
+1. Siga las instrucciones de [Administrar usuarios y grupos en Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) en la *Guía del usuario de Enterprise*.
 
 ## Especificar funciones y permisos {#roles-permissions}
 
@@ -98,7 +98,7 @@ Los usuarios administradores del sistema deben agregar usuarios al sistema. Los 
    | Función | Descripción |
    |--- |--- |
    | Aprobador | Puede crear, editar y activar o detener actividades. |
-   | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
+   | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. Puede editar audiencias en actividades activas. |
    | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
    | Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, la función Publicador tiene el permiso adicional de activar actividades. |
 

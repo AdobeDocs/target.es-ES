@@ -5,10 +5,10 @@ title: ¿Cómo configuro los permisos de Enterprise?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 63%
+source-wordcount: '1437'
+ht-degree: 68%
 
 ---
 
@@ -47,7 +47,7 @@ Para las tareas realizadas en la variable [!DNL Adobe Admin Console for Enterpri
 Cuando comience a utilizar la nueva funcionalidad [!UICONTROL Propiedades], toda la administración de usuarios debe realizarse en [!DNL Adobe Admin Console for Enterprise]. Sin embargo, todos los usuarios existentes en [!DNL Target] se migrarán de [!DNL Target] a [!DNL Admin Console for Enterprise].
 
 1. [En Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en la pestaña **[!UICONTROL Usuarios]** en la parte superior de la página > **[!UICONTROL Agregar usuarios]** para crear usuarios nuevos o para editar los existentes.
-1. Siga las instrucciones de [Administrar usuarios y grupos en Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) en la *Guía del usuario de Enterprise*.
+1. Siga las instrucciones de [Administrar usuarios y grupos en Experience Cloud](https://helpx.adobe.com/es/enterprise/using/users.html) en la *Guía del usuario de Enterprise*.
 
 ## Paso 2: Creación de un espacio de trabajo (perfil de producto) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -183,7 +183,7 @@ Para usar la variable [!DNL Target] funcionalidad de permisos de usuario, debe a
    | Función | Descripción |
    |--- |--- |
    | Aprobador | Puede crear, editar y activar o detener actividades. |
-   | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
+   | Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. Puede editar audiencias en actividades activas. |
    | Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
    | Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, la función Publicador tiene el permiso adicional de activar actividades. |
 
@@ -195,7 +195,7 @@ Los siguientes vídeos contienen más información sobre los conceptos mencionad
 
 >[!NOTE]
 >
->La variable [!DNL Target] [!UICONTROL Administración] interfaz de usuario del menú (anteriormente [!UICONTROL Configuración]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información contenida en los siguientes vídeos es, en general, correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán próximamente.
+>La interfaz del menú [!UICONTROL Administración] de [!DNL Target] (anteriormente [!UICONTROL Configuración]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información contenida en los siguientes vídeos es, en general, correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán próximamente.
 
 ### Cómo configurar espacios de trabajo de Adobe Target (6:55) ![Distintivo del tutorial](/help/main/assets/tutorial.png)
 
