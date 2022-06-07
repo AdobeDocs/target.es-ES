@@ -4,10 +4,10 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '4549'
-ht-degree: 100%
+source-wordcount: '4507'
+ht-degree: 98%
 
 ---
 
@@ -51,18 +51,6 @@ Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran 
 
 Si se intenta archivar actividades inactivas de [!UICONTROL Segmentación automática], pueden producirse problemas de sincronización. Hasta que se solucione este problema, no archive las actividades de [!UICONTROL Segmentación automática]. Déjelas en estado [!UICONTROL Inactivo]. (TGT-40885)
 
-### Entrega de página {#page-delivery}
-
-Si agrega una regla de plantilla, como contenidos de una URL (/checkout, /cart) en la [entrega de página](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), se añadirán espacios adicionales a las reglas. Estos espacios adicionales son estéticos y no afectan a la creación de definiciones de audiencia ni a la entrega de ofertas. (TGT-35920)
-
-### Vínculos de previsualización de control de calidad
-
-Es posible que los vínculos de Vista previa de control de calidad de la actividad para las actividades guardadas no se carguen si hay demasiadas guardadas en su cuenta. Reinténtelo con los vínculos de previsualización. Archive las actividades guardadas que ya no se utilizan activamente para evitar que este problema siga ocurriendo. (TNT-37294)
-
-### Modo de control de calidad para actividades de Recommendations
-
-Un problema conocido impide la previsualización si los criterios utilizados en la actividad se basan en elementos o en categorías. (TNT-37455)
-
 ### Ofertas de redireccionamiento {#redirect}
 
 * Las actividades de redirección en las implementaciones de at.js hacen que la dirección URL de vista previa entre en bucle (la oferta se suministra repetidamente). Puede utilizar el [Modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) para llevar a cabo la vista previa y el control de calidad. Este problema no afecta al suministro real de la oferta. (TGT-23019)
@@ -84,14 +72,6 @@ Un problema conocido impide la previsualización si los criterios utilizados en 
 ### Recomendaciones
 
 Los siguientes son problemas conocidos de las actividades de [!UICONTROL Recommendations]:
-
-* Al copiar una actividad de [!UICONTROL Recommendations] con una promoción activa, cualquier cambio en la actividad duplicada actualmente también afecta a la actividad original, y a la inversa. (TGT-39155)
-
-   Como solución temporal:
-
-   * Desactive las promociones de actividad
-   * Duplique la actividad
-   * Vuelva a activar las promociones en cada actividad
 
 * Cuando [!DNL Target] devuelve una oferta JSON con getOffer(), se devuelve con el tipo de JSON. Sin embargo, si devuelve un diseño JSON de Recommendations, devuelve con un tipo de HTML.
 * Las entidades caducan correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después del vencimiento. (IRI-857)
@@ -148,10 +128,6 @@ Todos los paquetes actuales de Analytics pueden añadir este modelo con Attribut
 
 Los clientes no pueden realizar operaciones de CRUD en actividades de asignación automática a través de la versión v3 de la API de actividades A/B en Adobe I/O.
 
-### Targeting geográfico
-
-El 10 de mayo de 2020, Adobe actualizó los archivos del proveedor GEO, lo que introdujo algunas incoherencias. Por ejemplo, se han añadido algunos valores que contienen comas; no obstante, los valores de las audiencias existentes no tenían coma. Este cambio no afectó a todos los servidores de entrega de Adobe. Como resultado, es posible que las audiencias que utilizan estos valores no hayan clasificado a todos los visitantes correctos entre el 10 de mayo y el 22 de julio de 2020.
-
 ### Creación de informes: Datos incoherentes entre el informe descargable .csv y el informe que se muestra en la IU de [!DNL Target] {#csv}
 
 Los informes generados para su descarga como archivos .csv son incoherentes si la actividad utiliza más de una métrica. El informe descargable se genera solo en función de la configuración del informe y considera el mismo valor para cualquier otra métrica utilizada.
@@ -160,7 +136,27 @@ La fuente de verdad es siempre el informe mostrado en la IU de [!DNL Target].
 
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-A medida que se resuelven los problemas conocidos que hemos mencionado, pasarán a las secciones siguientes. Si es necesario, se añaden notas adicionales.
+A medida que se resuelven los problemas conocidos que hemos mencionado, pasarán a las secciones siguientes. Se agregan notas adicionales, si es necesario.
+
+### Targeting geográfico
+
+El 10 de mayo de 2020, Adobe actualizó los archivos del proveedor GEO, lo que introdujo algunas incoherencias. Por ejemplo, se han añadido algunos valores que contienen comas; no obstante, los valores de las audiencias existentes no tenían coma. Este cambio no afectó a todos los servidores de entrega de Adobe. Como resultado, es posible que las audiencias que utilizan estos valores no hayan clasificado a todos los visitantes correctos entre el 10 de mayo y el 22 de julio de 2020.
+
+### Copia de un [!UICONTROL Recommendations] actividad
+
+Al copiar un [!UICONTROL Recommendations] actividad con una promoción activa, cualquier cambio en la actividad duplicada actualmente también afecta a la actividad original y, a la inversa. (TGT-39155)
+
+Este problema se corrigió en la variable [!DNL Target Standard/Premium] versión 21.2.1.
+
+### Modo de control de calidad para actividades de Recommendations
+
+Un problema conocido impide la previsualización si los criterios utilizados en la actividad se basan en elementos o en categorías. (TNT-37455)
+
+Este problema se corrigió en enero de 2022. (TNT-37455)
+
+### Entrega de página {#page-delivery}
+
+Si agrega una regla de plantilla, como contenidos de una URL (/checkout, /cart) en la [entrega de página](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), se añadirán espacios adicionales a las reglas. Estos espacios adicionales son estéticos y no afectan a la creación de definiciones de audiencia ni a la entrega de ofertas. (TGT-35920)
 
 ### Ofertas de imágenes que muestran la etiqueta “Procesando”
 

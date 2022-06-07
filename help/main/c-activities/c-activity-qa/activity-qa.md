@@ -4,10 +4,10 @@ description: Aprenda a utilizar Adobe [!DNL Target] Direcciones URL de control d
 title: ¿Cómo Se Hacen Evaluaciones De Las Actividades?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 38%
+source-wordcount: '1800'
+ht-degree: 40%
 
 ---
 
@@ -93,6 +93,7 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
    | `adobe_mc_sdid` |  |  | Pasa el [!DNL Supplemental Data Id] (SDID) y [!DNL Experience Cloud Org Id] de la página predeterminada a la nueva página. Pasar estos ID permite [!UICONTROL Analytics para Target] (A4T) para &quot;unir&quot; el [!DNL Target] en la página predeterminada con la variable [!DNL Analytics] en la nueva página. |
 
 * La variable [!UICONTROL Modo de control de calidad de Target] La interfaz de usuario solo muestra la primera URL de una experiencia en una actividad de varias páginas. Se supone que está creando una prueba de recorrido y se mueve de la URL1 a la URL2. Sin embargo, si desea ir a la URL 2 de forma independiente, copie todos los parámetros de la URL proporcionados con la URL 1 y aplíquelos a la URL 2 después de colocar “?” como se ve en la URL 1.
+* Es posible que los vínculos de Vista previa de control de calidad de la actividad para las actividades guardadas no se carguen si hay demasiadas guardadas en su cuenta. Reinténtelo con los vínculos de previsualización. Archive las actividades guardadas que ya no se utilizan activamente para evitar que este problema siga ocurriendo.
 
 ## Compatibilidad con la biblioteca JavaScript [!UICONTROL Modo QA] de Target {#compatibility}
 
