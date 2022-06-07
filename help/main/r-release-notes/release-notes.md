@@ -5,10 +5,10 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 93%
+source-wordcount: '837'
+ht-degree: 83%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 93%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] correcciones de ingeniería de clientes (versión escalonada: 7 y 9 de junio de 2022)
+
+Esta versión estará disponible según la siguiente programación escalonada:
+
+* **7 de junio**: Región de Asia y el Pacífico (APAC)
+* **8 de junio**: Región de América
+* **Junio de 9**: Región de Europa, Oriente Medio y África (EMEA)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Los usuarios con la variable [!UICONTROL Editor] ya no puede editar audiencias en actividades activas. (TGT-43582)
+* Se mejoró la nueva [!UICONTROL Audiencias] para evitar un estado incoherente entre la antigua base de datos donde las audiencias se almacenaron en el pasado y la nueva arquitectura que está recuperando la información directamente desde el servidor. (TGT-43552)
+* Se ha corregido un problema que impedía que algunos clientes guardaran audiencias combinadas provocadas por la creación de contenedores &quot;vacíos&quot; por la interfaz de usuario de Target. (TGT-43588)
 
 ## Versión de la plataforma de Target (25 de mayo de 2022)
 
