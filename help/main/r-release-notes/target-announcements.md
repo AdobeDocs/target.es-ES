@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -108,11 +108,11 @@ Acceso a grabaciones de eventos anteriores:
 
 Conozca las prácticas recomendadas sobre la ampliación de programas de personalización a escala. Ver cómo utiliza Dick&#39;s Sporting Goods [!DNL Adobe Target] para atraer a los atletas y marcas más importantes.
 
-* [Vínculo de grabación](https://video.tv.adobe.com/v/343042){target=_blank}
+* [Vínculo de grabación](https://video.tv.adobe.com/v/343042) {target=_blank}
 
 +++Haga clic
 
-Unirse a Shawn Wilkinson (eCommerce Personalization Manager) para aprender a [!DNL Target] está ayudando a Dick&#39;s Sporting Goods a convertir a los visitantes promedio en atletas que regresan.
+Únase a Shawn Wilkinson (eCommerce Personalization Manager) para descubrir cómo [!DNL Target] está ayudando a Dick&#39;s Sporting Goods a convertir a los visitantes promedio en atletas que regresan.
 
 Aprenda cómo Dick&#39;s Sporting Goods está impulsando el crecimiento de dos dígitos a medida que explicamos:
 
@@ -127,7 +127,7 @@ Aprenda cómo Dick&#39;s Sporting Goods está impulsando el crecimiento de dos d
 
 Conozca cómo las empresas de servicios financieros apoyan e informan a los clientes utilizando la personalización para prepararse para los patrones de inflación y las estrategias de inversión.
 
-[Vínculo de grabación](https://video.tv.adobe.com/v/343240){target=_blank}
+[Vínculo de grabación](https://video.tv.adobe.com/v/343240) {target=_blank}
 
 +++Haga clic
 
@@ -138,7 +138,7 @@ Conozca cómo las empresas de servicios financieros apoyan e informan a los clie
 
 Vea el kit de herramientas y casos de uso para implementar estrategias de personalización interfuncionales. Vea cómo CNB pasó del 26% inferior de su industria al 1% superior con [!DNL Adobe Target].
 
-[Vínculo de grabación](https://video.tv.adobe.com/v/343344){target=_blank}
+[Vínculo de grabación](https://video.tv.adobe.com/v/343344) {target=_blank}
 
 +++Haga clic
 
@@ -170,7 +170,7 @@ En esta sesión, aprenda cómo [!DNL Adobe Target] reduce la brecha en la combin
 
 ### Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de [!DNL Adobe Target]
 
-[Vínculo de grabación](https://video.tv.adobe.com/v/328148){target=_blank}
+[Vínculo de grabación](https://video.tv.adobe.com/v/328148) {target=_blank}
 
 +++Haga clic
 

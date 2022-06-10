@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -36,12 +36,12 @@ Esta versión incluye las siguientes mejoras y correcciones:
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha añadido [Sugerencias del cliente del agente de usuario](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) asistencia técnica.
-* Se ha corregido un problema que ocasionaba tiempos de espera intermitentes al procesar [!UICONTROL Decisiones de oferta] en [!UICONTROL Segmentación de experiencias] (XT). (TNT-44611)
+* Se ha añadido la compatibilidad con [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md).
+* Se ha corregido un problema que ocasionaba tiempos de espera intermitentes al procesar [!UICONTROL Decisiones de oferta] en actividades de [!UICONTROL Segmentación de experiencias] (XT). (TNT-44611)
 
 ## Versión 2.9.0 de at.js (27 de mayo de 2022)
 
-* Se ha añadido [Sugerencias del cliente del agente de usuario](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) asistencia técnica.
+* Se ha añadido la compatibilidad con [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md).
 * Se ha corregido un error por el cual varias solicitudes de mbox en la misma página tenían ID de impresión diferentes.
 
 ## [!DNL Target Standard/Premium] 22.5.1 (versión escalonada; 11 a 13 de mayo de 2022)
