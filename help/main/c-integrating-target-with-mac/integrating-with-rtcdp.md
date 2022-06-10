@@ -1,24 +1,24 @@
 ---
-keywords: Real-time Customer Data Platform;rtcdp;personalización;audiencias aep;audiencias de adobe experience platform
-description: Aprenda a utilizar la variable [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) para proporcionar datos de clientes más completos y una personalización más impactante.
-title: ¿Cómo puedo integrarme? [!DNL Target] con la variable [!DNL Real-time Customer Data Platform]?
+keywords: Real-time Customer Data Platform;rtcdp;personalización;aep audiences;adobe experience platform audiences
+description: Aprenda a utilizar la integración de  [!DNL Target]/[!DNL Real-time Customer Data Platform]  (RTCDP) para proporcionar datos de clientes más completos y una personalización más impactante.
+title: ¿Cómo puedo integrar  [!DNL Target]  con  [!DNL Real-time Customer Data Platform]?
 feature: Integrations
-source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
-workflow-type: tm+mt
+exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
+source-git-commit: e0a6162edac53e11296c4ba77be7d2caf5f27b39
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
-
 # Integración con Real-time Customer Data Platform
 
-Integrado en [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] (RTCDP) ayuda a las empresas a reunir datos conocidos y anónimos de varias fuentes empresariales para crear perfiles de clientes que se puedan utilizar para ofrecer experiencias de clientes personalizadas en todos los canales y dispositivos en tiempo real.
+[!DNL Real-time Customer Data Platform] (RTCDP), creada en [!DNL Adobe Experience Platform], ayuda a las compañías a reunir datos conocidos y anónimos de varias fuentes empresariales para crear perfiles de clientes que se puedan usar para ofrecer experiencias de cliente personalizadas en todos los canales y dispositivos en tiempo real.
 
-Para obtener más información sobre RTCDP, consulte [Información general de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es){target=_blank}.
+Para obtener más información sobre RTCDP, consulte [Información general de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es) {target=_blank}.
 
-Uso de audiencias en [!DNL Adobe Target] creado en [!DNL Adobe Experience Platform] proporcione datos de clientes más completos que conduzcan a una personalización más impactante.
+Usar audiencias creadas en [!DNL Adobe Experience Platform] en [!DNL Adobe Target] proporciona datos de clientes más completos que conducen a una personalización más impactante.
 
-Conectando [!DNL Target] a [!DNL Real-time Customer Data Platform], los clientes pueden enriquecer su personalización web desbloqueando nuevos segmentos que anteriormente podrían haber sido inaccesibles para [!DNL Target] para habilitar la personalización en tiempo real en la primera página de la visita web de un cliente. Uso de audiencias creadas en [!DNL Adobe Experience Platform] permite ampliar los puntos de datos disponibles para una mejor personalización.
+Al conectar [!DNL Target] con [!DNL Real-time Customer Data Platform], los clientes pueden enriquecer su personalización web desbloqueando nuevos segmentos que anteriormente podrían haber sido inaccesibles para [!DNL Target] y, así, habilitar la personalización en tiempo real en la primera página de la visita web de un cliente. Usar audiencias creadas en [!DNL Adobe Experience Platform] permite ampliar los puntos de datos disponibles para conseguir una mejor personalización.
 
 Para obtener más información, consulte [Uso de audiencias de Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) en *Creación de audiencias*.
