@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
 workflow-type: tm+mt
-source-wordcount: '33451'
+source-wordcount: '33782'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,29 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión: 2022
+
+### [!DNL Target Standard/Premium] 22.5.1 (versión escalonada; 11 a 13 de mayo de 2022)
+
+Esta versión estará disponible según la siguiente programación escalonada:
+
+* **11 de mayo**: Región de Asia y el Pacífico (APAC)
+* **12 de mayo**: Región de América
+* **13 de mayo**: Región de Europa, Oriente Medio y África (EMEA)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Se ha corregido un problema que provocaba un error de JavaScript e impedía que algunos clientes accedieran a los detalles de la actividad para determinadas actividades de [!UICONTROL Automated Personalization] (AP). (TGT-43526)
+* Se ha corregido un problema que impedía a algunos clientes añadir (o editar) una oferta específica a una actividad de AP. (TGT-43503)
+* Se ha corregido un problema en la interfaz de [!DNL Target] que mostraba el siguiente mensaje de error: “Es posible que el mbox global no esté sincronizado. Intente volver a guardarlo”. Este problema era un problema de la interfaz de usuario y no afectaba a las implementaciones de los clientes. (TGT-43475)
+* Se ha corregido un problema que impedía que un cliente editara refinamientos y audiencias de nivel de experiencia para una actividad si las refinaciones y audiencias se habían creado antes de que se implementara la nueva interfaz de [!UICONTROL Audiences]. (TGT-43433)
+* Se ha corregido un problema que permitía a los clientes seleccionar audiencias duplicadas de [!DNL Adobe Audience Manager] (AAM) al editar audiencias de informes para una actividad. (TGT-43430)
+* Se ha corregido un problema que impedía a los clientes crear audiencias duplicadas, pero en diferentes espacios de trabajo. (TGT-43423)
+* Se ha corregido un problema que impedía que los clientes eliminaran ubicaciones que tuvieran ofertas ad-hoc en actividades creadas en [!UICONTROL Compositor de experiencias basadas en formularios]. (TGT-43315)
+* Se ha corregido un problema que impedía a los clientes acceder a ofertas de código después de hacer clic en ofertas de imagen y actualizar la interfaz de usuario. (TGT-43566)
+* Se ha corregido un problema que provocaba que las ediciones de los scripts de perfil volvieran al script original sin editar después de editarlo, activarlo y desactivarlo. El script de perfil ahora permanece en estado editado. (TGT-43249)
+* Se ha corregido un problema que provocaba el siguiente error al intentar mover una audiencia a otro espacio de trabajo: “No podemos completar su solicitud. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste”. (TGT-43212)
+* Se ha corregido un problema que provocaba un error al clonar modificaciones de código personalizado para páginas de aplicación de una sola página (SPA). (TGT-43137)
+* Se ha corregido un problema que hacía que la promoción original se viera afectada tras duplicar una experiencia y luego editar la promoción. (TGT-41775)
 
 ### [!DNL Target Standard/Premium] 22.4.1 (jueves, 28 de abril de 2022)
 
