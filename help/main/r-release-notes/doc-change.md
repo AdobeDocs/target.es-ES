@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: fd49060cc193ef07d9309ceb11373b8747902f5c
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4167'
 ht-degree: 98%
 
 ---
@@ -15,12 +15,18 @@ ht-degree: 98%
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
+## Adobe Target Standard/Premium 22.6.1 (versión escalonada: 7 y 9 de junio de 2022)
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| 14 de junio | [Planificar e implementar Recommendations](/help/main/c-recommendations/plan-implement.md) | Se han actualizado los ejemplos de código en las siguientes secciones:<ul><li>Adiciones al carro de compras/vistas del carro de compras/páginas de cierre de compra</li><li>Excluir elementos que ya están en el carro de compras del visitante</li></ul> |
+| 7 de junio | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para el [!DNL Target Standard/Premium] versión 2.6.1. |
+
 ## Adobe Target Standard/Premium 22.5.1 (versión escalonada; 11 y 13 de mayo de 2022)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 7 de junio | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para el [!DNL Target Standard/Premium] versión 2.6.1. |
-| 6 de junio | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha agregado información de prelanzamiento para la variable [!DNL Target Standard/Premium] versión 2.6.1. |
+| 7 de junio | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha agregado información de prelanzamiento para la variable [!DNL Target Standard/Premium] versión 2.6.1. |
 | 31 de mayo | [Anuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Se ha añadido información sobre las próximas [!DNL Adobe Target] Descanso de café de la comunidad (29 de junio de 2022) |
 | 25 de mayo | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información sobre la variable [!DNL Target] versión de la plataforma (25 de mayo de 2022) y la versión at.js 2.9.0 (27 de mayo de 2022). |
 |  | [Detalles de las versiones de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Se ha añadido información acerca de la versión 2.9.0 de at.js. |

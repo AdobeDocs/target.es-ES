@@ -4,7 +4,7 @@ description: 'Obtenga información sobre cómo implementar actividades de Recomm
 title: ¿Cómo Implemento Las Actividades De Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fc2a9641b4b949b4d1308a5d17deff1754960bad
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 36%
@@ -89,7 +89,7 @@ En una página del carro de compras, puede recomendar artículos según el conte
 ```
 function targetPageParams() {
    return {
-      "cartIds": ["352", "223", "23432", "432", "553"]
+      "cartIds": "352,223,23432,432,553"
       }
 }
 ```
@@ -103,7 +103,7 @@ En las páginas de todo el sitio, puede excluir algunos artículos de las recome
 ```
 function targetPageParams() {
    return {
-      "excludedIds": ["352", "223", "23432", "432", "553"]
+      "excludedIds": "352,223,23432,432,553"
       }
 }
 ```
