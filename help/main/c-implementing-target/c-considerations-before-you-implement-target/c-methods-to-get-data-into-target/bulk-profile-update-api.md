@@ -5,10 +5,10 @@ title: ¿Cómo puedo obtener datos en [!DNL Target] ¿Usar la API de actualizaci
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 79%
+source-wordcount: '392'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,8 @@ Esta opción es similar a Atributos del cliente con algunas diferencias:
 * Los atributos de cliente utilizan una carga FTP, mientras que la API de actualización de perfiles en lote de Target utiliza una API HTTP POST.
 * Los datos de atributos del cliente se pueden compartir con Analytics. La actualización de perfiles en lote solo se puede usar en Target.
 * La compatibilidad de los atributos del cliente para crear un perfil para un usuario Target todavía no se ha constatado. La API de actualización de perfiles en lote solo actualiza los perfiles de Target existentes.
-* Los atributos del cliente requieren el uso del Experience Cloud ID (ECID). La API de actualización de perfiles en lote requiere el ID de TNT o el `mbox3rdPartyId`.
+* Los atributos del cliente requieren el uso del ID de Experience Cloud (ECID) y el uso de un ID de origen, como el ID de CRM o el ID de fidelidad.
+* La API de actualización de perfiles en lote requiere el ID de TNT o el `mbox3rdPartyId`.
 * No se pueden enviar los siguientes caracteres en `mbox3rdPartyID`: signo más (+) y barra diagonal (/).
 
 ## Formato
