@@ -5,10 +5,10 @@ title: ¿Cómo gestiona at.js el parpadeo?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 68%
 
 ---
 
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## Administrar parpadeo en at.js 2.x para triggerView()
 
-Al utilizar `triggerView()` para mostrar contenido dirigido en su SPA, la administración de parpadeo se proporciona fuera del cuadro. Esto significa que no es necesario agregar manualmente la lógica de ocultamiento previo. En su lugar, at.js 2.x oculta previamente la ubicación donde debe mostrarse la vista antes de aplicar el contenido objetivo.
+La preocultación de DOM se aplica solo a la carga inicial de la página. Por SPA, el DOM se actualiza cuando `triggerView()` se llama. Puede haber un breve parpadeo entre el momento en que el SPA procesa el contenido en las actualizaciones DOM y at.js [!DNL Target] ofertas.  Para minimizar el parpadeo, si utiliza `triggerView` para modificar el contenido de carga de la página, se debe llamar a &quot;triggerView&quot; en cuanto se represente la página.
 
 ## Administrar parpadeo con getOffer() y applyOffer()
 
