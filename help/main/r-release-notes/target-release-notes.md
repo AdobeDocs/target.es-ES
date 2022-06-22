@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 65%
+ht-degree: 71%
 
 ---
 
@@ -23,7 +23,7 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Los usuarios con la variable [!UICONTROL Editor] ya no puede editar audiencias en actividades activas. (TGT-43582)
+* Los usuarios con la función [!UICONTROL Editor] ya no pueden editar audiencias en actividades activas. (TGT-43582)
 * Atributos del cliente compartidos desde [!DNL Adobe Experience Platform] a [!DNL Target] en el [!DNL Platform] La interfaz de usuario está visible en la [!DNL Target] IU. (TGT-43150)
 * Aparece un mensaje de advertencia si un cliente intenta guardar una audiencia con un signo de exclamación ( ! ) como el primer carácter del nombre de la audiencia (por ejemplo, !Londres). (TGT-43643)
 * Se ha corregido un problema que provocaba que las tarjetas de detalles de definición de audiencias para algunos clientes indicaran que una actividad finalizada seguía activa. (TGT-43527)

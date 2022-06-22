@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -24,11 +24,11 @@ Esta versión estará disponible según la siguiente programación escalonada:
 
 * **7 de junio**: Región de Asia y el Pacífico (APAC)
 * **8 de junio**: Región de América
-* **Junio de 9**: Región de Europa, Oriente Medio y África (EMEA)
+* **9 de junio**: Región de Europa, Oriente Medio y África (EMEA)
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se mejoró la nueva [!UICONTROL Audiencias] para evitar un estado incoherente entre la antigua base de datos donde las audiencias se almacenaron en el pasado y la nueva arquitectura que está recuperando la información directamente desde el servidor. (TGT-43552)
+* Se mejoró la nueva página [!UICONTROL Audiencias] para evitar un estado incoherente entre la antigua base de datos donde las audiencias se almacenaron en el pasado y la nueva arquitectura que está recuperando la información directamente desde el servidor. (TGT-43552)
 * Se ha corregido un problema que impedía que algunos clientes guardaran audiencias combinadas provocadas por la creación de contenedores &quot;vacíos&quot; por la interfaz de usuario de Target. (TGT-43588)
 
 ## Versión de la plataforma de Target (25 de mayo de 2022)

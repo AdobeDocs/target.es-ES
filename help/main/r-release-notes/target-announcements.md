@@ -7,28 +7,28 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Anuncios y eventos de Target
 
-Anuncios e información sobre próximas [!DNL Adobe Target] eventos, incluidos [!DNL Target] Sesiones de Coffee Break, [!DNL Target] serie de seminarios web, [!DNL Target] Sesiones de generador de habilidades, charlas de desarrollador y mucho más. Los vínculos a grabaciones anteriores se incluyen si están disponibles.
+Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [!DNL Target] Sesiones de coffee break, [!DNL Target] serie de seminarios web, [!DNL Target] Sesiones de generador de habilidades, charlas de desarrollador y mucho más. Los vínculos de las grabaciones anteriores se incluyen si están disponibles.
 
-## Descanso de café de la comunidad de Adobe Target (29 de junio de 2022)
+## Coffee break de la comunidad de Adobe Target (29 de junio de 2022)
 
-+++Haga clic
++++Haga clic aquí
 
 * **Miércoles, 29 de junio de 2022**
-* **8:00 a 9:00 a.m. (PDT, UTC-7)**
+* **De 8:00 a 9:00 a.m. (PDT, UTC-7)**
 * **[Más información e información de registro](https://adobe.ly/3wKhcQS) {target=_blank}**
 
-A nosotros nos unirán Jordan Ison, Kati McKinney, Justine Lee, y Kaela Cusack del equipo de consultoría de soluciones de Adobe, para charlar directamente con usted en sus áreas de experiencia. También responderán a cualquier pregunta relacionada con los temas tratados durante la personalización con precisión del 22 de junio: Seminario web de Adobe Analytics y Target (más información a continuación):
+Nos acompañarán Jordan Ison, Kati McKinney, Justine Lee y Kaela Cusack del equipo de consultoría de soluciones de Adobe, para charlar directamente con usted en sus áreas de experiencia. También responderán a cualquier pregunta relacionada con los temas tratados durante la personalización con precisión del 6/2/22: Seminario web de Adobe Analytics y Target (más información a continuación).
 
 * Cómo los especialistas en marketing, los desarrolladores y los equipos de productos pueden abrir la “caja negra” de IA para impulsar futuras estrategias de pruebas y personalización.
-* Cómo superar los desafíos en la optimización de la web, la aplicación móvil, el correo electrónico, IoT y cada punto de contacto digital para una mayor conversión y participación
-* Flujos de trabajo de Adobe Analytics y Adobe Target para personalización, establecimiento de objetivos y pruebas
-* Comprender los casos de uso para desbloquear qué atributos predicen el comportamiento del visitante y qué atributos son los más importantes para las visualizaciones clave y el análisis de segmentación
+* Superar los desafíos para optimizar la web, la aplicación móvil, el correo electrónico, IoT y cada punto de contacto digital para lograr una mayor conversión y participación.
+* Flujos de trabajo de Adobe Analytics y Adobe Target para personalización, direccionamiento y pruebas
+* Comprender los casos de uso principales para desbloquear qué atributos predicen el comportamiento de los visitantes y qué atributos son los más importantes para las visualizaciones clave y el análisis de segmentación
 
 +++
 
@@ -89,7 +89,7 @@ Aprenda cómo, a medida que entramos en la nueva normalidad, que es más digital
 
 ### Adobe: Perspectiva del sector de la personalización: minorista (21 de junio de 2022)
 
-2022 ha dado a las empresas un entorno dinámico y en rápida evolución para funcionar y operar. Aprenda cómo los expertos de la industria están viendo que las nuevas tendencias de consumo cobran forma mientras la vida empieza a regresar a la normalidad para trabajadores y viajeros. 
+El 2022 le ha dado a las empresas un entorno dinámico de rápida evolución para funcionar y operar. Aprenda cómo los expertos de la industria están viendo que las nuevas tendencias de consumo cobran forma mientras la vida empieza a regresar a la normalidad para trabajadores y viajeros. 
 
 +++Haga clic
 
@@ -157,7 +157,7 @@ Descubra cómo está aprovechando el City National Bank [!DNL Target] para:
 
 **[Regístrese para ver la grabación del seminario web](https://real-time.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
-+++Haga clic
++++Haga clic aquí
 
 En esta sesión, aprenda cómo [!DNL Adobe Target] reduce la brecha en la combinación de datos entre múltiples fuentes para la personalización en tiempo real, a medida que debatimos sobre:
 
@@ -168,7 +168,7 @@ En esta sesión, aprenda cómo [!DNL Adobe Target] reduce la brecha en la combin
 
 +++
 
-### Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de [!DNL Adobe Target]
+### Seminario web: personalice y pruebe con una latencia cero con decisiones en el dispositivo de [!DNL Adobe Target]
 
 [Vínculo de grabación](https://video.tv.adobe.com/v/328148) {target=_blank}
 
@@ -183,7 +183,7 @@ En este seminario web grabado, los expertos en productos de Adobe Target analiza
 
 * **[Vínculo de grabación](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
-+++Haga clic
++++Haga clic aquí
 
 McKinsey Digital informa de que “hemos avanzado cinco años en la adopción digital de consumidores y empresas en apenas ocho semanas”. *
 
