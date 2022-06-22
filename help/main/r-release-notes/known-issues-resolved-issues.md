@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información acerca de problemas conocidos y pro
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ La fuente de verdad es siempre el informe mostrado en la IU de [!DNL Target].
 
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-A medida que se resuelven los problemas conocidos que hemos mencionado, pasarán a las secciones siguientes. Se agregan notas adicionales, si es necesario.
+A medida que se resuelven los problemas conocidos que hemos mencionado, pasan a las secciones siguientes. Se agregan notas adicionales, si es necesario.
 
 ### at.js
 
@@ -137,7 +137,7 @@ A medida que se resuelven los problemas conocidos que hemos mencionado, pasarán
 
    Se ha incluido una corrección para este problema en at.js 2.2.0. Actualice a la versión [más reciente o a at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) o use la solución mencionada anteriormente solo para las versiones de at.js anteriores a la 2.2.0.  (TNT-33366)
 
-* Al usar versiones de at.js anteriores a la 2.2.0, el rastreo de clics no informa de las conversiones en [!UICONTROL Analytics para Target] (A4T) si [!DNL Adobe Analytics] El código no está presente en los elementos de la página (como los botones).
+* Si se utilizan las versiones de at.js anteriores a la 2.2.0, el rastreo de clics no informa de las conversiones en [!UICONTROL Analytics for Target] (A4T) si el código de [!DNL Adobe Analytics] no está presente en los elementos de la página (como los botones).
 
    Se ha introducido una corrección para este problema en at.js 2.2.0. [Actualice a la última versión de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) si experimenta este problema.
 
@@ -145,17 +145,17 @@ A medida que se resuelven los problemas conocidos que hemos mencionado, pasarán
 
 El 10 de mayo de 2020, Adobe actualizó los archivos del proveedor GEO, lo que introdujo algunas incoherencias. Por ejemplo, se han añadido algunos valores que contienen comas; no obstante, los valores de las audiencias existentes no tenían coma. Este cambio no afectó a todos los servidores de entrega de Adobe. Como resultado, es posible que las audiencias que utilizan estos valores no hayan clasificado a todos los visitantes correctos entre el 10 de mayo y el 22 de julio de 2020.
 
-### Copia de un [!UICONTROL Recommendations] actividad
+### Copia de una actividad de [!UICONTROL Recommendations]
 
-Al copiar un [!UICONTROL Recommendations] actividad con una promoción activa, cualquier cambio en la actividad duplicada actualmente también afecta a la actividad original y, a la inversa. (TGT-39155)
+Al copiar una actividad de [!UICONTROL Recommendations] con una promoción activa, cualquier cambio en la actividad duplicada actualmente también afecta a la actividad original, y a la inversa. (TGT-39155)
 
-Este problema se corrigió en la variable [!DNL Target Standard/Premium] versión 21.2.1.
+Este problema se solucionó en la versión 21.2.1 de [!DNL Target Standard/Premium]
 
 ### Modo de control de calidad para actividades de Recommendations
 
 Un problema conocido impide la previsualización si los criterios utilizados en la actividad se basan en elementos o en categorías. (TNT-37455)
 
-Este problema se corrigió en enero de 2022. (TNT-37455)
+Este problema se solucionó en enero de 2022. (TNT-37455)
 
 ### Entrega de página {#page-delivery}
 
