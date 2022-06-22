@@ -4,9 +4,9 @@ description: Familiarícese con la interfaz de usuario y encuentre vínculos a i
 title: ¿Cómo se utiliza la IU de  [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1313'
 ht-degree: 47%
 
 ---
@@ -115,6 +115,11 @@ Para editar las preferencias de notificaciones:
    * Compartido conmigo: Cuando alguien comparte un objeto con usted.
    * Actualizaciones en el contenido: Cuando alguien edita, elimina o comenta un objeto que ha creado o sigue.
    * Otros:
+
+   >[!NOTE]
+   >
+   >Las &quot;nuevas versiones&quot; y &quot;actualizaciones de contenido&quot; son las únicas categorías de notificación que se aplican a [!DNL Target]. Las otras categorías se aplican a otras soluciones de Adobe.
+
 
 1. Seleccione las categorías que desea que se consideren de alta prioridad.
 1. Seleccione las notificaciones para las que desea ver las alertas en el explorador.
