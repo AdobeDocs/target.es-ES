@@ -4,9 +4,9 @@ description: Aprenda a crear audiencias en [!DNL Adobe Target] para dirigirse a 
 title: ¿Puedo segmentar visitantes en función de las opciones móviles?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '674'
 ht-degree: 40%
 
 ---
@@ -33,7 +33,7 @@ Para resolver este problema, [!DNL Target] recopila datos adicionales para detec
 
 >[!NOTE]
 >
->Los clientes que utilicen el SDK móvil no necesitan hacer nada para aplicar esta funcionalidad. Los clientes que utilizan at.js deben [actualizar a la versión 1.5.0 de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (o posterior).
+>Los clientes que utilicen el SDK móvil no necesitan hacer nada para aplicar esta funcionalidad. Los clientes que utilizan at.js deben [actualizar a la versión 1.5.0 de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (o posterior).
 
 Puede elegirse más de una propiedad de dispositivo móvil. Las selecciones múltiples se unen con un operador OR.
 

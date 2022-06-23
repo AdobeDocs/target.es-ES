@@ -5,10 +5,10 @@ title: ¿Qué es la toma de decisiones en dispositivos?
 feature: Implement Server-side
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 10%
+source-wordcount: '700'
+ht-degree: 9%
 
 ---
 
@@ -16,9 +16,12 @@ ht-degree: 10%
 
 La toma de decisiones en el dispositivo proporciona la capacidad de almacenar en caché su [!DNL Adobe Target] [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] (XT) en su servidor y realice la toma de decisiones en memoria con una latencia cercana a cero, sin bloquear las solicitudes de red al [!DNL Adobe Target] Red perimetral.
 
-Para obtener más información, consulte [Introducción a la toma de decisiones en el dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) en el *[Documentación de los SDK para Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)*.
+Para obtener más información, consulte los temas:
 
-## Seminario web: Personalice y pruebe con una latencia cero con decisiones en el dispositivo de [!DNL Adobe Target]
+* [Toma de decisiones en el dispositivo para el lado del cliente](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [Toma de decisiones en el dispositivo para el lado del servidor](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
+
+## Seminario web: personalice y pruebe con una latencia cero con decisiones en el dispositivo de [!DNL Adobe Target]
 
 Más que nunca, a los especialistas en marketing, propietarios de productos y desarrolladores se les está asignando la tarea de optimizar la experiencia general del cliente en los sitios, las aplicaciones y en cualquier otro lugar donde se conecten con sus clientes. Las herramientas múltiples con silos de datos y las implementaciones complicadas son inadecuadas.
 

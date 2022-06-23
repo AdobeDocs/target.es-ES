@@ -4,9 +4,9 @@ description: Aprenda a combinar varias audiencias (incluidas las de Adobe Experi
 title: ¿Puedo combinar varias audiencias para crear una nueva?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '937'
 ht-degree: 67%
 
 ---
@@ -17,7 +17,7 @@ Combinación de varias audiencias (incluidas [!DNL Adobe Experience Cloud], [!DN
 
 >[!NOTE]
 >
->La variable [!DNL Adobe Experience Platform] el origen está disponible para todos [!DNL Target] clientes que utilizan la variable [SDK web de Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o en combinación con audiencias existentes, tal como se explica en este tema.
+>La variable [!DNL Adobe Experience Platform] el origen está disponible para todos [!DNL Target] clientes que utilizan la variable [SDK web de Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o en combinación con audiencias existentes, tal como se explica en este tema.
 >
 >Para obtener más información, consulte [Usar audiencias de Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 

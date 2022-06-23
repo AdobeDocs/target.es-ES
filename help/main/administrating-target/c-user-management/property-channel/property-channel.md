@@ -5,10 +5,10 @@ title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '3149'
-ht-degree: 59%
+source-wordcount: '3150'
+ht-degree: 60%
 
 ---
 
@@ -20,11 +20,11 @@ Los permisos de usuario de Enterprise son un medio para administrar formalmente 
 
 >[!NOTE]
 >
->La funcionalidad Propiedades y Permisos está disponible como parte de la [!DNL Target]solución Premium. No están disponibles en [!DNL Target] Standard sin una licencia de [!DNL Target] Premium.
+>La funcionalidad Propiedades y Permisos está disponible como parte de la [!DNL Target] solución Premium. No están disponibles en [!DNL Target] Standard sin una licencia de [!DNL Target] Premium.
 >
 >Su [!DNL Target] la implementación puede utilizar cualquier versión de at.js.
 
-Puede comprobar si su organización dispone de una licencia Standard o Premium haciendo clic en el vínculo [!UICONTROL Administración] en la parte superior de la interfaz de usuario de.[!DNL Target]
+Puede comprobar si su organización dispone de una licencia Standard o Premium haciendo clic en el vínculo [!UICONTROL Administración] en la parte superior de la interfaz de usuario de [!DNL Target].
 
 * Clientes de **[!DNL Target Standard]**: Si ve la pestaña [!UICONTROL Usuarios] ([!UICONTROL Administración > Usuarios]) (y no la pestaña [!UICONTROL Propiedades]), su organización tiene una licencia de [!DNL Target Standard]  Los clientes de [!DNL Target Standard] deben seguir las instrucciones de [Usuarios](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) para agregar usuarios y asignar permisos en [!DNL Adobe Admin Console].
 
@@ -252,7 +252,7 @@ Tenga en cuenta lo siguiente al usar o configurar propiedades y permisos en [!DN
 
    En una versión futura, Target funcionará en páginas donde no haya presente un token `at_property`, o donde exista un token `at_property` distinto.
 
-* La funcionalidad Permisos de usuario de Enterprise no se admite en [llamadas a la API de Adobe I/O](https://developers.adobetarget.com)
+* La funcionalidad Permisos de usuario de Enterprise no se admite en [llamadas a la API de Adobe I/O](https://developer.adobe.com/target/)
 
 ## Preguntas frecuentes {#faqs}
 
@@ -264,7 +264,7 @@ Por desgracia, las actividades no se pueden trasladar de un espacio de trabajo a
 
 Las actividades creadas antes de la migración se siguen ejecutando del mismo modo en el espacio de trabajo predeterminado, a menos que se editen y se les asignen propiedades. Las actividades de un espacio de trabajo específico respetan las propiedades asignadas a ese espacio de trabajo y, por lo tanto, el comportamiento puede no ser el mismo que antes de la migración.
 
-### ¿Puedo mover una audiencia de un espacio de trabajo a otro? {#move-audience}
+### ¿Puedo trasladar una audiencia de un espacio de trabajo a otro? {#move-audience}
 
 Sí, puede mover audiencias entre espacios de trabajo utilizando la variable [!UICONTROL Más acciones] en la [!UICONTROL Audiencias] página.
 

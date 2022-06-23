@@ -4,10 +4,10 @@ description: Aprenda a integrar el correo electrónico con la API de entrega de 
 title: ¿Cómo puedo integrar Recommendations con el correo electrónico?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 100%
+source-wordcount: '1713'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ El elemento `clientcode` es su código de cliente de [!DNL Target]
 >
 >Asegúrese de proporcionar un valor único para `sessionId` y uno para `tntId` o `thirdPartyId` para cada destinatario de correo electrónico (por ejemplo, para cada llamada de API). Si no proporciona valores únicos en estos campos, la respuesta de la API puede ralentizarse o dar error debido al gran número de eventos generados dentro de un solo perfil.
 
-Consulte la [documentación de la API de entrega](https://developers.adobetarget.com/api/#server-side-delivery) para obtener más información.
+Consulte la [documentación de la API de entrega](https://developer.adobe.com/target/implement/delivery-api/) para obtener más información.
 
 ## Método 2: usar una plantilla de correo electrónico de rawbox {#rawbox}
 

@@ -4,10 +4,10 @@ description: Lea sugerencias de nuestro panel de expertos acerca del uso de Adob
 title: ¿Dónde puedo encontrar sugerencias y trucos sobre el uso de Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2897'
-ht-degree: 100%
+source-wordcount: '2903'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Consulte [Atributos personalizados](https://experienceleague.adobe.com/docs/targ
 
 **Datos útiles**: Como [!DNL Target] es una plataforma abierta y agnóstica que funciona con diferentes tecnologías, puede agregar datos de sistemas CRM o comprados de muchas maneras diferentes. Esto significa que puede elegir el método que mejor funcione para su organización.
 
-Consulte [Métodos para obtener los datos en Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) para obtener más información.
+Consulte [Métodos para obtener los datos en Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/) para obtener más información.
 
 ## Sugerencia 2: Intensifique la personalización mediante la fusión de audiencias de [!DNL Target] con otras audiencias de Adobe Experience Cloud.
 

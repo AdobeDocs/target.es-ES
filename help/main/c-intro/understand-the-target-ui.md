@@ -4,10 +4,10 @@ description: Familiarícese con la interfaz de usuario y encuentre vínculos a i
 title: ¿Cómo se utiliza la IU de  [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
+source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 47%
+source-wordcount: '1373'
+ht-degree: 45%
 
 ---
 
@@ -92,7 +92,9 @@ Las secciones siguientes contienen información sobre cada pestaña y sobre cóm
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed to import from source`
 
-Puede marcar todas las notificaciones como leídas o ver todas las notificaciones en la parte inferior del panel.
+Para marcar las notificaciones individuales como leídas, pase el ratón sobre la notificación deseada y luego haga clic en la marca de verificación. Puede marcar todas las notificaciones como leídas o ver todas las notificaciones haciendo clic en [!UICONTROL &quot;Marcar como leído&quot;] o [!UICONTROL &quot;Ver todo&quot;] en la parte inferior del panel.
+
+También puede configurar un recordatorio para que se le notifique de nuevo pasando el cursor sobre una notificación, haciendo clic en el botón[!UICONTROL Recordarme]&quot; y, a continuación, seleccione cuándo desea que se le notifique: 5 minutos, 15 minutos, una hora o mañana.
 
 ### Anuncios
 

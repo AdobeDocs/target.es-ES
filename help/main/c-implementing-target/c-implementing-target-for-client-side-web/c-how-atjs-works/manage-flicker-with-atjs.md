@@ -5,10 +5,10 @@ title: ¿Cómo gestiona at.js el parpadeo?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 68%
+source-wordcount: '691'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ El parpadeo tiene lugar cuando se muestra momentáneamente el contenido predeter
 
 ## Uso de un mbox global creado automáticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Si habilita la función [mbox global creado automáticamente](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) al configurar at.js, éste gestiona el parpadeo cambiando al configuración de opacidad mientras la página carga. Cuando se carga at.js, cambia la configuración de opacidad del `<body>` elemento a “0”, para que la página sea invisible inicialmente para los visitantes. Después de recibir una respuesta de Target (o si se detecta un error en la solicitud de Target), at.js restablece la opacidad a “1”. Esto garantiza que el visitante solo vea la página después de haberse aplicado el contenido de sus actividades.
+Si habilita la función [mbox global creado automáticamente](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/) al configurar at.js, éste gestiona el parpadeo cambiando al configuración de opacidad mientras la página carga. Cuando se carga at.js, cambia la configuración de opacidad del `<body>` elemento a “0”, para que la página sea invisible inicialmente para los visitantes. Después de recibir una respuesta de Target (o si se detecta un error en la solicitud de Target), at.js restablece la opacidad a “1”. Esto garantiza que el visitante solo vea la página después de haberse aplicado el contenido de sus actividades.
 
 Si activa el ajuste al configurar at.js, at.js establece la opacidad del estilo HTML BODY en 0. Tras recibir la respuesta de Target, at.js vuelve a establecer la opacidad de HTML BODY en 1.
 
@@ -38,7 +38,7 @@ La ilustración siguiente muestra las llamadas a Ocultar cuerpo y Mostrar cuerpo
 
 ![](assets/target-flow2.png)
 
-Para obtener más información sobre la anulación de `bodyHiddenStyle`, consulte [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Para obtener más información sobre la anulación de `bodyHiddenStyle`, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Administración del parpadeo al cargar at.js de forma asíncrona
 

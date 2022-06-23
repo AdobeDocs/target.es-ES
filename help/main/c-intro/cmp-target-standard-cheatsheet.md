@@ -4,10 +4,10 @@ description: Explore una lista de preguntas más frecuentes acerca del uso de la
 title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2754'
-ht-degree: 100%
+source-wordcount: '2787'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Consulte el [Foro de la comunidad de Target](/help/main/cmp-resources-and-contac
 
 **¿Qué navegadores admite Target?**
 
-Lea nuestros [exploradores permitidos](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
+Lea nuestros [exploradores permitidos](https://developer.adobe.com/target/before-implement/supported-browsers/) admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
 
 ## Actividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Utilice los controles de asignación porcentual disponibles desde el [paso 2 del
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
+* [Atributos del cliente](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 * [Audiencias](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Experiencias {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -258,7 +258,7 @@ Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Atributos del cliente](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
+* [Atributos del cliente](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 
 * [Audiencias](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,10 +309,10 @@ Lamentamos que tenga problemas. Consulte [Solución de problemas de Target](/hel
 
 **Tenemos un SKU móvil. ¿Puedo crear actividades móviles?**
 
-Para optimizar y personalizar en dispositivos móviles, necesita utilizar [actividades basadas en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) junto con el [SDK de Adobe](/help/main/c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91). Consulte más detalles sobre [Target para aplicaciones móviles](/help/main/c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559).
+Para optimizar y personalizar en dispositivos móviles, necesita utilizar [actividades basadas en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) junto con el [SDK de Adobe](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/). Consulte más detalles sobre [Target para aplicaciones móviles](https://developer.adobe.com/target/implement/mobile/).
 
 ## API de Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **¿Dónde puedo obtener más información sobre las API de Target?**
 
-Tenemos documentación exhaustiva sobre las API. Consulte [API de entrega, SDK de NodeJS y documentación de la API de Recommendations](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+Tenemos documentación exhaustiva sobre las API. Consulte [API de entrega, SDK de NodeJS y documentación de la API de Recommendations](https://developer.adobe.com/target/implement/server-side/).

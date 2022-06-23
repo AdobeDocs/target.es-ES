@@ -5,10 +5,10 @@ title: ¿Cómo paso parámetros a un mbox global?
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 65%
+source-wordcount: '389'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +22,7 @@ El código para llamar a la función JavaScript debe estar antes del mbox global
 
 >[!NOTE]
 >
->Si desea agregar parámetros a todos los mboxes de la página, no solo a mbox global, use la variable [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) función.
+>Si desea agregar parámetros a todos los mboxes de la página, no solo a mbox global, use la variable [targetPageParamsAll()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/) función.
 
 Puede pasar parámetros a `target-global-mbox` mediante la función `targetPageParams()` de cualquiera de estas formas:
 

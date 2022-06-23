@@ -5,9 +5,9 @@ title: ¿Puedo implementar [!DNL Target] para aplicaciones de una sola página (
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2788'
 ht-degree: 70%
 
 ---
@@ -187,7 +187,7 @@ Es posible que los especialistas en marketing deseen ejecutar una prueba A/B par
 
 ## Diagramas de sistema de at.js 2.x
 
-Los siguientes diagramas le ayudan a comprender el flujo de trabajo de at.js 2.x con Vistas y cómo esto mejora la integración de SPA. Para obtener una mejor introducción a los conceptos utilizados en at.js 2.x, consulte [Implementación de aplicación de una sola página](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Los siguientes diagramas le ayudan a comprender el flujo de trabajo de at.js 2.x con Vistas y cómo esto mejora la integración de SPA. Para obtener una mejor introducción a los conceptos utilizados en at.js 2.x, consulte [Implementación de aplicación de una sola página](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Flujo de Target con at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -233,7 +233,7 @@ Prácticas recomendadas relacionadas con los SPA:
 * Active un evento personalizado antes de que la vista empiece a procesarse
 * Active un evento personalizado cuando la vista termine de procesarse
 
-at.js 2.x ha agregado una nueva función de API [triggerView()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md). Debe utilizar `triggerView()` para notificar a at.js que una vista comenzará a procesarse.
+at.js 2.x ha agregado una nueva función de API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/). Debe utilizar `triggerView()` para notificar a at.js que una vista comenzará a procesarse.
 
 Para ver cómo combinar eventos personalizados, at.js 2.x y Analytics, veamos un ejemplo. Este ejemplo asume que la página HTML contiene la API de visitante, seguida de at.js 2.x y de AppMeasurement.
 
@@ -268,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >Debe activar los eventos `at-view-start` y `at-view-end`. Estos eventos no forman parte de los eventos personalizados de at.js.
 
-Aunque estos ejemplos utilizan código JavaScript, todo esto se puede simplificar si utiliza un administrador de etiquetas, como las etiquetas de [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+Aunque estos ejemplos utilizan código JavaScript, todo esto se puede simplificar si utiliza un administrador de etiquetas, como las etiquetas de [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
 
 Si se siguen los pasos anteriores, debe tener una solución A4T sólida para los SPA.
 
@@ -308,7 +308,7 @@ Los vídeos siguientes contienen más información:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Consulte [Descripción del funcionamiento de at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obtener más información.
+Consulte [Descripción del funcionamiento de at.js 2.x](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/understanding-how-atjs-20-works.html?lang=es) para obtener más información.
 
 ### Implementación de at.js 2.x en una SPA ![Distintivo del tutorial](/help/main/assets/tutorial.png)
 

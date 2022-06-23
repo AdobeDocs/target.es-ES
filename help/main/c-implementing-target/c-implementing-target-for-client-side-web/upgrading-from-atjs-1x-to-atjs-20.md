@@ -5,10 +5,10 @@ title: ¿Cómo actualizo de la versión 1.x de at.js a la versión 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 89%
+source-wordcount: '2874'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ Estos son algunos de los beneficios de utilizar at.js 2.*x* con las que no está
 
 ## at.js 2.*x*  Diagramas del sistema
 
-Los siguientes diagramas le ayudan a comprender el flujo de trabajo de at.js 2.*x* con Vistas y cómo esto mejora la integración de SPA. Para obtener una mejor introducción a los conceptos utilizados en at.js 2.*x*, consulte [Implementación de Aplicación de una sola página (SPA)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Los siguientes diagramas le ayudan a comprender el flujo de trabajo de at.js 2.*x* con Vistas y cómo esto mejora la integración de SPA. Para obtener una mejor introducción a los conceptos utilizados en at.js 2.*x*, consulte [Implementación de Aplicación de una sola página (SPA)](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Flujo de Target con at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -52,9 +52,9 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 | 5 | Los datos de Analytics se envían a los servidores de recopilación de datos. |
 | 6 | Se comparan los datos de Target con los datos de Analytics mediante el SDID y se procesan en el almacén de informes de Analytics. Por lo tanto, los datos de Analytics se pueden visualizar tanto en Analytics como en Target mediante los informes de A4T. |
 
-## Implementación de at.js 2.*x*  {#deploy-atjs-200}
+## Implementación de at.js 2.*x*   {#deploy-atjs-200}
 
-1. Implementación de at.js 2.*x* mediante etiquetas en [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extensión.
+1. Implementación de at.js 2.*x* mediante etiquetas en [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) extensión.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 
    O
 
-   Descargue manualmente at.js 2.*x* mediante la interfaz de usuario de Target e impleméntelo usando el [método de su elección](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
+   Descargue manualmente at.js 2.*x* mediante la interfaz de usuario de Target e impleméntelo usando el [método de su elección](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/).
 
 ## Funciones obsoletas de at.js
 
@@ -72,7 +72,7 @@ Existen varias funciones que se han quedado obsoletas en at.js 2.*x*.
 >
 >Si se siguen utilizando estas funciones obsoletas en el sitio cuando se implemente at.js 2.*x*, se mostrarán advertencias de la consola. Al realizar la actualización se recomienda probar la implementación de at.js 2.*x* en un entorno de ensayo, asegurarse de avanzar por cada advertencia que se haya registrado en la consola y traducir las funciones obsoletas por aquellas nuevas introducidas en at.js 2.*x*.
 
-Puede encontrar las funciones obsoletas y sus equivalentes a continuación. Para ver una lista completa de las funciones, consulte [Funciones de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+Puede encontrar las funciones obsoletas y sus equivalentes a continuación. Para ver una lista completa de las funciones, consulte [Funciones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 
 >[!NOTE]
 >at.js 2.*x*  ya no oculta automáticamente los elementos marcados `mboxDefault`. Por lo tanto, los clientes tendrán que ajustar manualmente la lógica de ocultación previa en el sitio o a través de un administrador de etiquetas.
@@ -186,7 +186,7 @@ Ofrece una forma estándar de registrar una extensión determinada.
 
 Esto ya no se admite y no debe usarse.
 
-## Resumen de las funciones de at.js obsoletas, nuevas y admitidas en 2.*x* 
+## Resumen de las funciones de at.js obsoletas, nuevas y admitidas en 2.*x*  
 
 | Método | Compatible? | nueva? | Obsoleto?<br>(Se muestra el contenido predeterminado) |
 | --- | --- | --- | --- |
@@ -365,10 +365,10 @@ Las tablas siguientes explican la 2.*x* compatibilidad con diferentes tipos de a
 | Audiencias | Sí |
 | Atributos del cliente | Sí |
 | Fragmentos de experiencia de AEM | Sí |
-| [!DNL Adobe Experience Platform] Extensión | [Sí](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] Extensión | [Sí](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | Depurador | Sí |
 | Auditor | Todavía no se han actualizado las reglas para at.js 2.*x* |
-| Inclusión | No. La compatibilidad con el [RGPD](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) se ofrece en [la versión 2.1.0 de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| Inclusión | No. La compatibilidad con el [RGPD](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) se ofrece en [la versión 2.1.0 de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
 | Personalización mejorada AEM con tecnología de Adobe Target | No |
 
 ### Funciones
@@ -766,4 +766,4 @@ at.js 2.*x*  mejora la compatibilidad de Adobe Target con las SPA e integra otra
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Consulte [Explicación de cómo at.js 2.*x* works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obtener más información.
+Consulte [Explicación de cómo at.js 2.*x* works](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/understanding-how-atjs-20-works.html?lang=es) para obtener más información.

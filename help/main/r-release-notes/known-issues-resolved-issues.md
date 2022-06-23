@@ -4,10 +4,10 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: ht
-source-wordcount: '4506'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '4520'
+ht-degree: 99%
 
 ---
 
@@ -135,11 +135,11 @@ A medida que se resuelven los problemas conocidos que hemos mencionado, pasan a 
 
    Como solución alternativa, utilice un espacio en blanco en el contenido de la experiencia.
 
-   Se ha incluido una corrección para este problema en at.js 2.2.0. Actualice a la versión [más reciente o a at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) o use la solución mencionada anteriormente solo para las versiones de at.js anteriores a la 2.2.0.  (TNT-33366)
+   Se ha incluido una corrección para este problema en at.js 2.2.0. Actualice a la versión [más reciente o a at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) o use la solución mencionada anteriormente solo para las versiones de at.js anteriores a la 2.2.0.  (TNT-33366)
 
 * Si se utilizan las versiones de at.js anteriores a la 2.2.0, el rastreo de clics no informa de las conversiones en [!UICONTROL Analytics for Target] (A4T) si el código de [!DNL Adobe Analytics] no está presente en los elementos de la página (como los botones).
 
-   Se ha introducido una corrección para este problema en at.js 2.2.0. [Actualice a la última versión de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) si experimenta este problema.
+   Se ha introducido una corrección para este problema en at.js 2.2.0. [Actualice a la última versión de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) si experimenta este problema.
 
 ### Targeting geográfico
 

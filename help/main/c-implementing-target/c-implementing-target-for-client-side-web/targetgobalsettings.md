@@ -5,10 +5,10 @@ title: ¿Cómo utilizo la función targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2364'
-ht-degree: 98%
+source-wordcount: '2405'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Las configuraciones que se pueden anular son las siguientes:
 * **Valor predeterminado**: body { opacity: 0 }
 * **Descripción**: solo se usa cuando `globalMboxAutocreate === true` para minimizar los parpadeos.
 
-   Para obtener más información, consulte [Cómo gestiona at.js el parpadeo](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
+   Para obtener más información, consulte [Cómo gestiona at.js el parpadeo](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ Las configuraciones que se pueden anular son las siguientes:
 
 * **Tipo**: booleano
 * **Valor predeterminado**: false
-* **Descripción**: [!DNL Target] proporciona soporte de funcionalidad de inclusión a través de [!DNL Adobe Experience Platform] para ayudar a respaldar su estrategia de gestión de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Adobe Experience Platform] para aprobar previamente la etiqueta de [!DNL Target]. Para activar la posibilidad de utilizar la inclusión en la biblioteca at.js de [!DNL Target], debe utilizar y añadir la configuración `optinEnabled=true`. En [!DNL Adobe Experience Platform], tendrá que seleccionar “habilitar” en la lista desplegable de [!UICONTROL Inclusión del RGPD] en la vista de instalación de extensión. Consulte la [Documentación de Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obtener más información. Para obtener más información acerca de esta configuración en relación con las normas de privacidad y protección de datos, incluido el Reglamento general de protección de datos (RGPD) de la Unión Europea y la Ley de Privacidad del Consumidor de California (CCPA), consulte [Reglamentos de privacidad y protección de datos](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Descripción**: [!DNL Target] proporciona soporte de funcionalidad de inclusión a través de [!DNL Adobe Experience Platform] para ayudar a respaldar su estrategia de gestión de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Adobe Experience Platform] para aprobar previamente la etiqueta de [!DNL Target]. Para activar la posibilidad de utilizar la inclusión en la biblioteca at.js de [!DNL Target], debe utilizar y añadir la configuración `optinEnabled=true`. En [!DNL Adobe Experience Platform], tendrá que seleccionar “habilitar” en la lista desplegable de [!UICONTROL Inclusión del RGPD] en la vista de instalación de extensión. Consulte la [Documentación de Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) para obtener más información. Para obtener más información acerca de esta configuración en relación con las normas de privacidad y protección de datos, incluido el Reglamento general de protección de datos (RGPD) de la Unión Europea y la Ley de Privacidad del Consumidor de California (CCPA), consulte [Reglamentos de privacidad y protección de datos](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
 
 ### optoutEnabled
 
@@ -169,7 +169,7 @@ Las configuraciones que se pueden anular son las siguientes:
 * **Valor predeterminado**: true (verdadero a partir de la versión 1.6.2 de at.js)
 * **Descripción**: indica si se debe utilizar el dominio `<clientCode>.tt.omtrdc.net` o el `mboxedge<clusterNumber>.tt.omtrdc.net`.
 
-   Si este valor es “true”, el dominio `mboxedge<clusterNumber>.tt.omtrdc.net` se guarda en una cookie. Actualmente no funciona con [CNAME](/help/main/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) al utilizar versiones de at.js anteriores a at.js 1.8.2 y at.js 2.3.1. Si esto es un problema para usted, considere la posibilidad de [actualizar at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) a una versión más reciente y compatible.
+   Si este valor es “true”, el dominio `mboxedge<clusterNumber>.tt.omtrdc.net` se guarda en una cookie. Actualmente no funciona con [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/) al utilizar versiones de at.js anteriores a at.js 1.8.2 y at.js 2.3.1. Si esto es un problema para usted, considere la posibilidad de [actualizar at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) a una versión más reciente y compatible.
 
 ### overrideMboxEdgeServerTimeout
 
@@ -398,7 +398,7 @@ Una vez especificadas las configuraciones `cspScriptNonce` y `cspStyleNonce`, at
 Debe tener una integración híbrida de [!DNL Target].
 
 * **Del lado del servidor**: debe utilizar la nueva [API de entrega](https://developers.adobetarget.com/api/delivery-api/) o los [SDK de Target](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Del lado del cliente**: debe utilizar la versión 2.2 o posterior de [at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* **Del lado del cliente**: debe utilizar la versión 2.2 o posterior de [at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 ### Ejemplos de código
 

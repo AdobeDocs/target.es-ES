@@ -5,10 +5,10 @@ title: ¿Puedo Implementar [!DNL Target] sin un Administrador de etiquetas?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1794'
-ht-degree: 50%
+source-wordcount: '1824'
+ht-degree: 48%
 
 ---
 
@@ -18,7 +18,7 @@ Información sobre la implementación [!DNL Adobe Target] sin usar un administra
 
 >[!NOTE]
 >
->Etiquetas en [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) es el método preferido para implementar [!DNL Target] y la biblioteca at.js. La siguiente información no es aplicable cuando se utilizan etiquetas en [!DNL Adobe Experience Platform] implementar [!DNL Target].
+>Etiquetas en [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) es el método preferido para implementar [!DNL Target] y la biblioteca at.js. La siguiente información no es aplicable cuando se utilizan etiquetas en [!DNL Adobe Experience Platform] implementar [!DNL Target].
 
 Para acceder a la [!UICONTROL Implementación] página, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
 
@@ -32,7 +32,7 @@ Puede especificar la siguiente configuración en esta página:
 
 >[!NOTE]
 >
->En lugar de definir la configuración en la [!DNL Target Standard/Premium]interfaz de usuario de , , puede anular la configuración de la biblioteca at.js o usar las API de REST. Para obtener más información, consulte [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+>En lugar de definir la configuración en la [!DNL Target Standard/Premium]interfaz de usuario de , , puede anular la configuración de la biblioteca at.js o usar las API de REST. Para obtener más información, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Detalles de la cuenta
 
@@ -42,7 +42,7 @@ Puede ver los siguientes detalles de la cuenta. Estos ajustes no se pueden cambi
 | --- | --- |
 | [!UICONTROL Código de cliente] | El código de cliente es una secuencia de caracteres específica del cliente que a menudo se requiere al usar las API de [!DNL Target]. |
 | [!UICONTROL ID de organización de IMS] | Este ID vincula la implementación con su cuenta de [!DNL Adobe Experience Cloud]. |
-| [!UICONTROL Toma de decisiones en el dispositivo] | Para activar la toma de decisiones en el dispositivo, deslice el conmutador a la posición &quot;activado&quot;.<br>La toma de decisiones en el dispositivo permite almacenar en caché el A/B y [!UICONTROL Segmentación de experiencias] (XT) campañas en su servidor y realice decisiones en memoria con una latencia cercana a cero. Para obtener más información, consulte [Introducción a la toma de decisiones en el dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) en el *[!DNL Adobe Target]SDK* guía. |
+| [!UICONTROL Toma de decisiones en el dispositivo] | Para activar la toma de decisiones en el dispositivo, deslice el conmutador a la posición &quot;activado&quot;.<br>La toma de decisiones en el dispositivo permite almacenar en caché el A/B y [!UICONTROL Segmentación de experiencias] (XT) campañas en su servidor y realice decisiones en memoria con una latencia cercana a cero. Para obtener más información, consulte [Introducción a la toma de decisiones en el dispositivo](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/) en el *[!DNL Adobe Target]SDK* guía. |
 | [!UICONTROL Incluya en el artefacto todas las actividades cualificadas para la toma de decisiones en el dispositivo.] | (Condicional) Esta opción se muestra si habilita la toma de decisiones en el dispositivo.<br>Deslice la opción a la posición &quot;activada&quot; si desea que todas las actividades de Target activas que cumplen los requisitos para la toma de decisiones en el dispositivo se incluyan automáticamente en el artefacto.<br>Si deja esta opción desactivada, debe volver a crear y activar cualquier actividad de toma de decisiones en el dispositivo para que se incluya en el artefacto de reglas generadas. |
 
 ## Métodos de implementación
@@ -59,7 +59,7 @@ Se pueden configurar las siguientes opciones en el panel Métodos de implementac
 | --- | --- |
 | Carga de página habilitada (Crear automáticamente mbox global) | Seleccione si quiere incrustar la llamada de mbox global en el archivo at.js para que se active automáticamente cada vez que se cargue la página. |
 | Mbox global | Seleccione un nombre para el mbox global. De forma predeterminada, este nombre es target-global-mbox.<br>Pueden utilizarse caracteres especiales, incluido el símbolo &amp;, en los nombres de mbox con at.js. |
-| Tiempo de espera (segundos) | Si [!DNL Target] no responde con contenido dentro del periodo definido, se agota el tiempo de espera de la llamada del servidor y se muestra el contenido predeterminado. Se siguen realizando llamadas adicionales durante la sesión del visitante. El valor predeterminado es de 5 segundos.<br>La biblioteca de at.js utiliza la configuración de tiempo de espera de `XMLHttpRequest`. El tiempo de espera empieza cuando una solicitud se activa y se detiene cuando [!DNL Target] obtiene una respuesta del servidor. Para obtener más información, consulte [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) en la red de desarrolladores de Mozilla.<br>Si el tiempo de espera especificado se agota antes de recibir una respuesta, se mostrará el contenido predeterminado y el visitante se podrá contar como un participante de la actividad, ya que la recopilación de datos se realizará a partir del límite de [!DNL Target]. Si la solicitud alcanza el límite de [!DNL Target], se contará al visitante.<br>Considere los siguientes puntos a la hora de configurar el tiempo de espera:<ul><li>Si el valor es demasiado bajo, los usuarios podrían ver el contenido predeterminado la mayor parte del tiempo, aunque se cuente al visitante como un participante de la actividad.</li><li>Si el valor es demasiado alto, los visitantes podrían ver áreas negras en la página web o páginas en blanco si oculta el cuerpo durante periodos muy largos.</li></ul>Para comprender mejor cómo funcionan los tiempos de respuesta de mbox, consulte la ficha Red en las herramientas para desarrolladores de su navegador. También puede utilizar herramientas de supervisión del rendimiento web de terceros, como Catchpoint.<br>**Nota:** Las características de [visitorApiTimeout](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) garantizan que [!DNL Target] no tenga que esperar a la respuesta de la API del visitante durante demasiado tiempo. Esta configuración y la configuración Tiempo de espera para at.js descrita no se afectan entre sí. |
+| Tiempo de espera (segundos) | Si [!DNL Target] no responde con contenido dentro del periodo definido, se agota el tiempo de espera de la llamada del servidor y se muestra el contenido predeterminado. Se siguen realizando llamadas adicionales durante la sesión del visitante. El valor predeterminado es de 5 segundos.<br>La biblioteca de at.js utiliza la configuración de tiempo de espera de `XMLHttpRequest`. El tiempo de espera empieza cuando una solicitud se activa y se detiene cuando [!DNL Target] obtiene una respuesta del servidor. Para obtener más información, consulte [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) en la red de desarrolladores de Mozilla.<br>Si el tiempo de espera especificado se agota antes de recibir una respuesta, se mostrará el contenido predeterminado y el visitante se podrá contar como un participante de la actividad, ya que la recopilación de datos se realizará a partir del límite de [!DNL Target]. Si la solicitud alcanza el límite de [!DNL Target], se contará al visitante.<br>Considere los siguientes puntos a la hora de configurar el tiempo de espera:<ul><li>Si el valor es demasiado bajo, los usuarios podrían ver el contenido predeterminado la mayor parte del tiempo, aunque se cuente al visitante como un participante de la actividad.</li><li>Si el valor es demasiado alto, los visitantes podrían ver áreas negras en la página web o páginas en blanco si oculta el cuerpo durante periodos muy largos.</li></ul>Para comprender mejor cómo funcionan los tiempos de respuesta de mbox, consulte la ficha Red en las herramientas para desarrolladores de su navegador. También puede utilizar herramientas de supervisión del rendimiento web de terceros, como Catchpoint.<br>**Nota:** Las características de [visitorApiTimeout](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) garantizan que [!DNL Target] no tenga que esperar a la respuesta de la API del visitante durante demasiado tiempo. Esta configuración y la configuración Tiempo de espera para at.js descrita no se afectan entre sí. |
 | Duración del perfil | Esta opción determina durante cuánto tiempo se almacenan los perfiles de los visitantes. De forma predeterminada, los perfiles se almacenan durante dos semanas. Esta configuración se puede aumentar hasta 90 días.<br>Para modificar la opción Duración del perfil, póngase en contacto con [ClientCare](https://helpx.adobe.com/es/contact/enterprise-support.ec.html). |
 
 ### Método de implementación principal
@@ -87,21 +87,16 @@ Además de la configuración explicada anteriormente, también están disponible
 
 A partir de la versión 2.5.0, at.js ofrece la toma de decisiones en el dispositivo. La toma de decisiones en el dispositivo le permite almacenar en caché su [Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md) y [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) (XT) actividades en el explorador para realizar decisiones en memoria sin bloquear una solicitud de red al [!DNL Adobe Target] Red perimetral.
 
-Para obtener más información, consulte:
+Para obtener más información, consulte los temas:
 
-* Lado del cliente: [Toma de decisiones en el dispositivo para at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-* Lado del servidor: [Introducción a la toma de decisiones en el dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Lado del servidor: [Toma de decisiones en el dispositivo](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
-* Node.js: [Habilitar la toma de decisiones en el dispositivo para su organización](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
-* Java: [Habilitar la toma de decisiones en el dispositivo para su organización](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
-* .NET: [Habilitar la toma de decisiones en el dispositivo para su organización](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
-* Python: [Habilitar la toma de decisiones en el dispositivo para su organización](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+* [Toma de decisiones en el dispositivo para el lado del cliente](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [Toma de decisiones en el dispositivo para el lado del servidor](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ### API de perfil
 
 Habilite o deshabilite la autenticación para actualizaciones en lote mediante API y genere un token de autenticación de perfil.
 
-Para obtener más información, consulte [Configuración de la API del perfil](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+Para obtener más información, consulte [Configuración de la API del perfil](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
 
 ### Herramientas de depuración
 
@@ -119,11 +114,11 @@ Elija la configuración que desee en la lista desplegable Proteger dirección IP
 * Confusión de IP completa
 * Ninguna
 
-Para obtener más información, consulte   [Privacidad](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+Para obtener más información, consulte   [Privacidad](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 >[!NOTE]
 >
->La opción Compatibilidad con navegadores anteriores estaba disponible en la versión 0.9.3 (y anteriores) de at.js . Esta opción se ha eliminado de la versión 0.9.4 de at.js. Para saber cuáles con los exploradores compatibles con at.js, consulte [Exploradores compatibles](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)<br>Los navegadores anteriores son navegadores más viejos que no admiten completamente CORS (Uso compartido de recursos de origen cruzado). Algunos de estos navegadores son: Internet Explorer antes de la versión 11 y Safari versión 6 y anteriores. Si se deshabilitaba la compatibilidad con navegadores anteriores, Target no ofrecía contenido ni contaba los visitantes en los informes de estos navegadores. Si esta opción está habilitada, se recomienda realizar un control de calidad en los exploradores más antiguos para garantizar una buena experiencia del cliente.
+>La opción Compatibilidad con navegadores anteriores estaba disponible en la versión 0.9.3 (y anteriores) de at.js . Esta opción se ha eliminado de la versión 0.9.4 de at.js. Para saber cuáles con los exploradores compatibles con at.js, consulte [Exploradores compatibles](https://developer.adobe.com/target/before-implement/supported-browsers/)<br>Los navegadores anteriores son navegadores más viejos que no admiten completamente CORS (Uso compartido de recursos de origen cruzado). Algunos de estos navegadores son: Internet Explorer antes de la versión 11 y Safari versión 6 y anteriores. Si se deshabilitaba la compatibilidad con navegadores anteriores, Target no ofrecía contenido ni contaba los visitantes en los informes de estos navegadores. Si esta opción está habilitada, se recomienda realizar un control de calidad en los exploradores más antiguos para garantizar una buena experiencia del cliente.
 
 ## Descargar at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -131,9 +126,9 @@ Instrucciones para descargar la biblioteca utilizando la variable [!DNL Target] 
 
 >[!NOTE]
 >
->* [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) es el método preferido para implementar [!DNL Target] y la biblioteca at.js. La siguiente información no es aplicable cuando se utilizan etiquetas en [!DNL Adobe Experience Platform] implementar [!DNL Target].
+>* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) es el método preferido para implementar [!DNL Target] y la biblioteca at.js. La siguiente información no es aplicable cuando se utilizan etiquetas en [!DNL Adobe Experience Platform] implementar [!DNL Target].
 >
->* La variable [!DNL Target] El equipo es compatible con at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que está ejecutando una versión compatible. Para obtener información detallada sobre los cambios en cada versión de at.js, consulte [Detalles de las versiones de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+>* La variable [!DNL Target] El equipo es compatible con at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que está ejecutando una versión compatible. Para obtener información detallada sobre los cambios en cada versión de at.js, consulte [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 
 ### Descargue at.js mediante el [!DNL Target] interfaz {#section_1F5EE401C2314338910FC57F9592894E}
@@ -185,7 +180,7 @@ Para descargar [!DNL at.js] con la API
 
    >[!IMPORTANT]
    >
-   >El equipo de Target mantiene solo dos versiones de [!DNL at.js]: la actual y la penúltima. Actualice [!DNL at.js] cuando sea posible para garantizar que dispone de una versión compatible. Para obtener información detallada sobre los cambios en cada versión de at.js, consulte [Detalles de las versiones de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+   >El equipo de Target mantiene solo dos versiones de [!DNL at.js]: la actual y la penúltima. Actualice [!DNL at.js] cuando sea posible para garantizar que dispone de una versión compatible. Para obtener información detallada sobre los cambios en cada versión de at.js, consulte [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
    Al cargar esta dirección URL, se inicia la descarga del archivo [!DNL at.js] personalizado.
 
@@ -193,7 +188,7 @@ Para descargar [!DNL at.js] con la API
 
 at.js debe implementarse en el elemento `<head>` de cada página de su sitio web.
 
-Una implementación típica de Target que no utiliza un administrador de etiquetas, como etiquetas en [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) tiene este aspecto:
+Una implementación típica de Target que no utiliza un administrador de etiquetas, como etiquetas en [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) tiene este aspecto:
 
 ```
 <!doctype html> 
@@ -252,7 +247,7 @@ Tenga en cuenta las siguientes notas importantes:
 * El tipo de documento HTML5 (por ejemplo, `<!doctype html>`). Los tipos de documentos no admitidos o anteriores pueden hacer que Target no pueda realizar una solicitud.
 * Conexión previa y Recuperación previa son opciones que pueden ayudar a que sus páginas web se carguen más rápido. Si utiliza estas configuraciones, asegúrese de reemplazar `<client code>` con su propio código de cliente, que puede obtener de la **[!UICONTROL Administración]** > **[!UICONTROL Implementación] página.
 * Si tiene una capa de datos es óptimo definir la mayor cantidad posible en el `<head>` de sus páginas antes de que se cargue at.js. Esta ubicación proporciona la máxima capacidad para utilizar esta información en Target para personalización.
-* Las funciones especiales de Target, como `targetPageParams()`, `targetPageParamsAll()`, proveedores de datos y `targetGlobalSettings()` deben definirse después de la capa de datos y antes de que at.js cargue. Alternativamente, estas funciones se podrían guardar en la variable [!UICONTROL Encabezado de la biblioteca] de la sección [!UICONTROL Editar la configuración de at.js] y se guarda como parte de la propia biblioteca at.js. Para obtener más información sobre estas funciones, consulte   [Funciones de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* Las funciones especiales de Target, como `targetPageParams()`, `targetPageParamsAll()`, proveedores de datos y `targetGlobalSettings()` deben definirse después de la capa de datos y antes de que at.js cargue. Alternativamente, estas funciones se podrían guardar en la variable [!UICONTROL Encabezado de la biblioteca] de la sección [!UICONTROL Editar la configuración de at.js] y se guarda como parte de la propia biblioteca at.js. Para obtener más información sobre estas funciones, consulte   [Funciones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 * Si utiliza bibliotecas de ayuda de JavaScript, como jQuery, inclúyalas antes de Target para poder usar su sintaxis y métodos al crear experiencias de Target.
 * Incluya at.js en el `<head>` de sus páginas.
 

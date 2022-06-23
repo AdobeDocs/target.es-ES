@@ -5,10 +5,10 @@ title: User Agent y Client Hints
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
-workflow-type: ht
-source-wordcount: '1332'
-ht-degree: 100%
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->La información contenida en este artículo se aplica a la [versión 2.9.0 de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (o posterior).
+>La información contenida en este artículo se aplica a la [versión 2.9.0 de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (o posterior).
 
 
 Cada vez que un explorador web realiza una solicitud a un servidor, incluida en el encabezado de la solicitud, se incluye información sobre el explorador y el entorno en el que se ejecuta el explorador. Desde los primeros días de Internet, estos datos se han agregado en una sola cadena denominada user-agent.
@@ -226,4 +226,4 @@ A partir de at.js 2.9.0, User Agent Client Hints se recopilarán automáticament
 
 ### SDK del lado del servidor
 
-Para obtener más información sobre cómo pasar Client Hints mediante SDK del lado del servidor, consulte [Client Hints](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints) {target=_blank} en la documentación de *SDK para Adobe Target*.
+Para obtener más información sobre cómo pasar sugerencias del cliente mediante SDK del lado del servidor, consulte [Sugerencias del cliente](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/){target=_blank} en *Segmentación de audiencia* en el *SDK para Adobe Target* documentación.

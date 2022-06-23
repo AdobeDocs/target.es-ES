@@ -4,9 +4,9 @@ description: Aprenda a definir una audiencia para comparar dos atributos de perf
 title: ¿Puedo comparar dos atributos de perfil para usarlos en las audiencias?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '426'
 ht-degree: 61%
 
 ---
@@ -30,7 +30,7 @@ Por ejemplo, supongamos que trabaja para una empresa de muebles y que ha cargado
 
 Podría crear una audiencia definida como que la inclinación a comprar mobiliario de comedor es mayor que la inclinación a comprar mobiliario de salón. [!DNL Target]A continuación,  compara dinámicamente las puntuaciones de inclinación hacia comedor y salón de un visitante específico para determinar si el visitante entra o no en la audiencia.
 
-Para obtener más información, consulte [Métodos para obtener datos en Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Para obtener más información, consulte [Métodos para obtener datos en Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/).
 
 ## Crear una audiencia de comparación de atributos de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

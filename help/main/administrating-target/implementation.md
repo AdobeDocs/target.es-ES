@@ -5,10 +5,10 @@ title: Cómo implementar [!DNL Target] en Mi sitio?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 24%
+source-wordcount: '166'
+ht-degree: 21%
 
 ---
 
@@ -20,10 +20,10 @@ Para obtener más información, consulte los distintos temas de [Implementación
 
 >[!NOTE]
 >
->Etiquetas en [!DNL Adobe Experience Platform] es el método preferido para implementar [!DNL Target]. Las etiquetas de [!DNL Adobe Experience Platform] son la siguiente generación de funcionalidades de administración de etiquetas de [!DNL Adobe]. Las etiquetas ofrecen a los clientes una forma sencilla de implementar y administrar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. Para obtener más información, consulte [Implementación [!DNL Target] using [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+>Etiquetas en [!DNL Adobe Experience Platform] es el método preferido para implementar [!DNL Target]. Las etiquetas de [!DNL Adobe Experience Platform] son la siguiente generación de funcionalidades de administración de etiquetas de [!DNL Adobe]. Las etiquetas ofrecen a los clientes una forma sencilla de implementar y administrar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. Para obtener más información, consulte [Implementación [!DNL Target] using [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
 
 1. Para acceder a la [!UICONTROL Implementación] página, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
 
-1. Para obtener información aplicable a la configuración de esta página, consulte [Implementación de Target sin un administrador de etiquetas](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
+1. Para obtener información aplicable a la configuración de esta página, consulte [Implementación de Target sin un administrador de etiquetas](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 ![Página de implementación](/help/main/administrating-target/assets/implementation.png)

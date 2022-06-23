@@ -4,9 +4,9 @@ description: Aprenda a dirigirse a visitantes que utilizan [!DNL Adobe Target] q
 title: ¿Puedo segmentar visitantes en función de las páginas del sitio?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '891'
 ht-degree: 24%
 
 ---
@@ -52,9 +52,9 @@ Puede dirigirse a visitantes mediante [!DNL Adobe Target] que acceden a una pág
       * [!UICONTROL Ruta]
    * **Página de aterrizaje:** la página de aterrizaje es la primera página que ve el visitante al acceder al sitio. Por ejemplo, si el visitante hace clic en un vínculo de Google que le lleva a la página de categorías, entonces la página de categorías es la página de aterrizaje. Si el vínculo lleva a la página principal, entonces ésta es la página de aterrizaje. Se recuerda la página de aterrizaje durante la sesión del visitante. Puede segmentar mucho más en el sitio según la página de aterrizaje del visitante correspondiente a la sesión.
 
-      The following options are available in the second drop-down list if you choose this option:
+      Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
-      * [!UICONTROL URL] (For more information about how Target evaluates URLs, see [Targets and audiences FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL URL] (Para obtener más información sobre cómo Target evalúa las direcciones URL, consulte [Preguntas más frecuentes sobre audiencias y segmentación](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Dominio]
       * [!UICONTROL Consulta]
       * [!UICONTROL Subdominio]
@@ -66,7 +66,7 @@ Puede dirigirse a visitantes mediante [!DNL Adobe Target] que acceden a una pág
       >
       >El objeto `landing.url` se restablece en un cambio de subdominio o sustitución directa de la dirección URL.
 
-   * **[!UICONTROL Encabezado HTTP]:** Esta opción evalúa la información en el encabezado HTTP de la variable [!DNL Target] solicitud. For example, if the HTTP header contains language information, you could create a rule that contains the `Accept-Language: es` condition to target visitors who access the page in Spanish.
+   * **[!UICONTROL Encabezado HTTP]:** Esta opción evalúa la información en el encabezado HTTP de la variable [!DNL Target] solicitud. Por ejemplo, si el encabezado HTTP contiene información de idioma, puede crear una regla que contenga la variable `Accept-Language: es` condición para dirigirse a los visitantes que accedan a la página en español.
 
       Las siguientes opciones están disponibles en la segunda lista desplegable si elige esta opción:
 
@@ -102,7 +102,7 @@ Puede dirigirse a visitantes mediante [!DNL Adobe Target] que acceden a una pág
 
    Si elige [!UICONTROL Página actual], [!UICONTROL Página anterior]o [!UICONTROL Página de aterrizaje], el [!UICONTROL Dominio] y [!UICONTROL Consulta] están disponibles. Tenga en cuenta lo siguiente al elegir estas opciones:
 
-   * **Dominio:** el dominio completo de la página. Al especificar un dominio, se recomienda utilizar “contains” (contiene). Por ejemplo, &quot;Domain equals facebook.com&quot; (Dominio igual a.com) no acepta `m.facebook.com` o `www.facebook.com`. &quot;Domain contains facebook.com&quot; accepts any variant of facebook.com.
+   * **Dominio:** el dominio completo de la página. Al especificar un dominio, se recomienda utilizar “contains” (contiene). Por ejemplo, &quot;Domain equals facebook.com&quot; (Dominio igual a.com) no acepta `m.facebook.com` o `www.facebook.com`. &quot;Domain contains facebook.com&quot; (El dominio contiene.com) acepta cualquier variante de facebook.com.
    * **Consulta:** el contenido de la dirección URL que hay después del primer signo de interrogación (?).
 
       `foo.html?e0a72cb2a2c7`
@@ -127,9 +127,9 @@ Utilice un:
 
    Si este comportamiento no coincide con sus necesidades, considere la posibilidad de realizar una de las siguientes acciones:
 
-   * Pass [Parámetros de mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) a [!DNL Target] para su uso con fines de segmentación.
+   * Pass [Parámetros de mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) a [!DNL Target] para su uso con fines de segmentación.
    * Utilice un [Actividad de prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md) en lugar de una actividad de página de aterrizaje. Las actividades de prueba A/B no cambian experiencias para el mismo visitante.
-   * Use a [visitor profile](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) instead.
+   * Utilice un [perfil del visitante](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) en su lugar.
 
 * Cuando se utilizan evaluadores &quot;comienza/termina con&quot; en cadenas que contienen comas, estas cadenas se evalúan como una matriz de valores, en la que se evalúa cada valor separado por coma. Por ejemplo, si tiene el valor de un encabezado: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` califica para condiciones como:
    * comienza con zh,

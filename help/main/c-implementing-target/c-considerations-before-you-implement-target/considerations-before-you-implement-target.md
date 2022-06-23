@@ -5,10 +5,10 @@ title: ¿Qué Debo Saber Antes De Implementar?
 feature: Implementation
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 69%
+source-wordcount: '159'
+ht-degree: 50%
 
 ---
 
@@ -22,11 +22,11 @@ En esta sección se incluye información para desarrolladores específica para l
 >
 >Modificaciones a at.js o al [!DNL Adobe Experience Platform Web SDK] no son compatibles con el servicio de atención al cliente de Adobe.
 
-- [Preparación para implementar Target](prepare-to-implement-target.md)
-- [Privacidad](c-privacy/privacy.md)
-- [Métodos para obtener los datos en Target](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-- [Target información general sobre seguridad](target-security-overview.md)
-- [Navegadores admitidos](supported-browsers.md)
-- [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](tls-transport-layer-security-encryption.md)
-- [CNAME y Adobe Target](implement-cname-support-in-target.md)
-- [Inclusión en la lista de permitidos de los nodos de Edge de Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Preparación para implementar Target](https://developer.adobe.com/target/before-implement/prepare-to-implement-target/)
+- [Privacidad](https://developer.adobe.com/target/before-implement/privacy/privacy/)
+- [Métodos para obtener los datos en Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+- [Información general sobre la seguridad de Target](https://developer.adobe.com/target/before-implement/target-security-overview/)
+- [Navegadores admitidos](https://developer.adobe.com/target/before-implement/supported-browsers/)
+- [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)
+- [CNAME y Adobe Target](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/)
+- [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)

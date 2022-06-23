@@ -5,9 +5,9 @@ title: ¿Cuáles son los distintos caracteres, tamaños y otros límites de [!DN
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1348'
 ht-degree: 96%
 
 ---
@@ -177,7 +177,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
    Si utiliza la API de envíos por lotes, el límite es de 50 mboxes por solicitud de lote.
 
-   Si utiliza la [API de envío por lotes](https://developers.adobetarget.com/api/#server-side-batch-delivery) en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud supera estos límites, la API devolverá el mensaje de error siguiente:
+   Si utiliza la API de envío por lotes en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud supera estos límites, la API devolverá el mensaje de error siguiente:
 
    &quot;El número de mboxParameters no puede superar los 50.&quot;
 
