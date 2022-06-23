@@ -4,9 +4,9 @@ description: Explore una lista de preguntas más frecuentes acerca del uso de la
 title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 98%
 
 ---
@@ -33,7 +33,7 @@ Consulte el [Foro de la comunidad de Target](/help/main/cmp-resources-and-contac
 
 **¿Qué navegadores admite Target?**
 
-Lea nuestros [exploradores permitidos](https://developer.adobe.com/target/before-implement/supported-browsers/) admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
+Lea nuestros [Navegadores admitidos](https://developer.adobe.com/target/before-implement/supported-browsers/)matriz {target=_blank} para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
 
 ## Actividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 

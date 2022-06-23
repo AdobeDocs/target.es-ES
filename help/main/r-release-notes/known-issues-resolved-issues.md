@@ -4,10 +4,10 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 99%
+source-wordcount: '4524'
+ht-degree: 98%
 
 ---
 
@@ -135,11 +135,11 @@ A medida que se resuelven los problemas conocidos que hemos mencionado, pasan a 
 
    Como solución alternativa, utilice un espacio en blanco en el contenido de la experiencia.
 
-   Se ha incluido una corrección para este problema en at.js 2.2.0. Actualice a la versión [más reciente o a at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) o use la solución mencionada anteriormente solo para las versiones de at.js anteriores a la 2.2.0.  (TNT-33366)
+   Se incluyó una solución para este problema en at.js 2.2.0. Actualice a la variable [versión más reciente o at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} o use la solución mencionada anteriormente solo para versiones de at.js anteriores a la 2.2.0.  (TNT-33366)
 
 * Si se utilizan las versiones de at.js anteriores a la 2.2.0, el rastreo de clics no informa de las conversiones en [!UICONTROL Analytics for Target] (A4T) si el código de [!DNL Adobe Analytics] no está presente en los elementos de la página (como los botones).
 
-   Se ha introducido una corrección para este problema en at.js 2.2.0. [Actualice a la última versión de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) si experimenta este problema.
+   Se ha introducido una corrección para este problema en at.js 2.2.0. [Actualice a la última versión de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} si experimenta este problema.
 
 ### Targeting geográfico
 

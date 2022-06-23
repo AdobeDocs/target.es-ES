@@ -4,10 +4,10 @@ description: Aprenda a utilizar colecciones en Adobe [!DNL Target] Recommendatio
 title: ¿Cómo utilizo las colecciones en las actividades de Recommendations?
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '886'
+ht-degree: 59%
 
 ---
 
@@ -45,7 +45,7 @@ Cree una colección para organizar los productos o el contenido que desee mostra
 
    ![Iconos al pasar el ratón por encima: editar, copiar y eliminar](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   El “Número de elementos” registrado para cada colección en la vista de la lista [!UICONTROL Colecciones] es el número de productos que coinciden con las reglas para esa colección en el [grupo de hosts](/help/main/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://developer.adobe.com/target/implement/recommendations/).
+   El “Número de elementos” registrado para cada colección en la vista de la lista [!UICONTROL Colecciones] es el número de productos que coinciden con las reglas para esa colección en el [grupo de hosts](/help/main/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Consulte [Configuración](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para cambiar el grupo de hosts predeterminado.
 
 1. Haga clic en **[!UICONTROL Crear colección]**.
 

@@ -5,10 +5,10 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 95%
+source-wordcount: '514'
+ht-degree: 92%
 
 ---
 
@@ -35,12 +35,12 @@ Esta versión incluye las siguientes mejoras y correcciones:
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha añadido la compatibilidad con [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/).
+* Se ha añadido [Sugerencias del cliente del agente de usuario](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)Compatibilidad con {target=_blank}.
 * Se ha corregido un problema que ocasionaba tiempos de espera intermitentes al procesar [!UICONTROL Decisiones de oferta] en actividades de [!UICONTROL Segmentación de experiencias] (XT). (TNT-44611)
 
 ## Versión 2.9.0 de at.js (27 de mayo de 2022)
 
-* Se ha añadido la compatibilidad con [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/).
+* Se ha añadido [Sugerencias del cliente del agente de usuario](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)Compatibilidad con {target=_blank}.
 * Se ha corregido un error por el cual varias solicitudes de mbox en la misma página tenían ID de impresión diferentes.
 
 ## Notas de la versión adicionales y detalles de la versión

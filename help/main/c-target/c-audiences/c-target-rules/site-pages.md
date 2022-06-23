@@ -4,9 +4,9 @@ description: Aprenda a dirigirse a visitantes que utilizan [!DNL Adobe Target] q
 title: ¿Puedo segmentar visitantes en función de las páginas del sitio?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '893'
 ht-degree: 24%
 
 ---
@@ -127,7 +127,7 @@ Utilice un:
 
    Si este comportamiento no coincide con sus necesidades, considere la posibilidad de realizar una de las siguientes acciones:
 
-   * Pass [Parámetros de mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) a [!DNL Target] para su uso con fines de segmentación.
+   * Pass [Parámetros de mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank} para [!DNL Target] para su uso con fines de segmentación.
    * Utilice un [Actividad de prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md) en lugar de una actividad de página de aterrizaje. Las actividades de prueba A/B no cambian experiencias para el mismo visitante.
    * Utilice un [perfil del visitante](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) en su lugar.
 

@@ -4,9 +4,9 @@ description: Consulte la lista preguntas frecuentes y sus respuestas acerca de l
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de Recommendations de  [!DNL Target] ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3135'
 ht-degree: 99%
 
 ---
@@ -94,7 +94,7 @@ Si la ubicación en la que aplica los criterios no contiene el Id. de categoría
 
 Si utiliza una ubicación en la que el ID de categoría está presente en el mbox, el selector de criterio contendrá todos los criterios aplicables.
 
-[!DNL Target] tiene una configuración de [Filtrar los criterios no compatibles](https://developer.adobe.com/target/implement/recommendations/) para controlar el filtrado inteligente del selector de algoritmo.
+[!DNL Target] tiene un [Filtrar criterios no compatibles](https://developer.adobe.com/target/implement/recommendations/)Configuración de {target=_blank} para controlar el filtrado inteligente del selector de algoritmo.
 
 >[!NOTE]
 >

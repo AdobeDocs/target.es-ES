@@ -4,9 +4,9 @@ description: Aprenda a utilizar el VEC SPA en Adobe [!DNL Target] para crear pru
 title: ¿Cómo utilizo el Compositor de experiencias visuales de una aplicación de una sola página (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3722'
 ht-degree: 90%
 
 ---
@@ -67,9 +67,9 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    Descargue at.js 2 a través de la IU de Adobe Target ubicada en [!UICONTROL Administración > Implementación]. at.js 2.x también se puede implementar mediante etiquetas en [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
 
-1. Implemente la función más reciente de at.js 2.x en sus sitios: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/).
+1. Implemente la función más reciente de at.js 2.x: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} en sus sitios.
 
-   Después de definir las vistas de la SPA donde desea ejecutar una prueba A/B o XT, implemente la función de at.js 2.x `triggerView()` con las vistas transferidas como parámetro. Esto permite a los especialistas en marketing utilizar el VEC para diseñar y ejecutar las pruebas A/B y XT para esas vistas definidas. Si la función de `triggerView()` no está definida para estas vistas, el VEC no detectará las vistas y, por lo tanto, los especialistas en marketing no podrán utilizar el VEC para diseñar y ejecutar pruebas A/B y XT.
+   Después de definir las Vistas de la SPA donde desea ejecutar una prueba A/B o XT, implemente la función de at.js 2.x `triggerView()` con las vistas transferidas como parámetro. Esto permite a los especialistas en marketing utilizar el VEC para diseñar y ejecutar las pruebas A/B y XT para esas vistas definidas. Si la función de `triggerView()` no está definida para estas vistas, el VEC no detectará las vistas y, por lo tanto, los especialistas en marketing no podrán utilizar el VEC para diseñar y ejecutar pruebas A/B y XT.
 
    **`adobe.target.triggerView(viewName, options)`**
 

@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo solucionar problemas que a veces o
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias mejorado?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 53%
+source-wordcount: '448'
+ht-degree: 50%
 
 ---
 
@@ -66,7 +66,7 @@ Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegad
 
    ![](assets/firefox_more_info_3.png)
 
-1. Si encuentra que el sitio web está mostrando TLS 1.0, consulte   [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) para obtener información sobre la política de compatibilidad con TLS de Target. Para solucionar la situación por el momento (válido hasta el 12 de septiembre de 2018), póngase en contacto con el [Servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para configurar su versión TLS y el dominio.
+1. Si encuentra que el sitio web está mostrando TLS 1.0, consulte   [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} para obtener información sobre la política de compatibilidad con TLS de Target. Para solucionar la situación por el momento (válido hasta el 12 de septiembre de 2018), póngase en contacto con el [Servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para configurar su versión TLS y el dominio.
 
 ## Veo errores de tiempo de espera o “acceso denegado” al cargar sitios con el proxy habilitado. (Solo EEC)   {#section_60CBB9022DC449F593606C0E6252302D}
 

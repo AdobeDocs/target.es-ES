@@ -4,10 +4,10 @@ description: Aprenda a utilizar las actividades de Automated Personalization (AP
 title: ¿Qué es una actividad de Automated Personalization (AP)?
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 87%
+source-wordcount: '1053'
+ht-degree: 86%
 
 ---
 
@@ -67,8 +67,8 @@ El bosque aleatorio es una solución pionera de aprendizaje automático. En el �
 
 Los datos sin conexión, como información de CRM o puntuaciones de inclinación de cancelación por parte del cliente, pueden ser muy valiosos al crear modelos de personalización. Hay muchas maneras de introducir datos en los algoritmos de personalización de [!UICONTROL Personalización automatizada](AP) y de [!UICONTROL Segmentación automática].
 
-* [Parámetros de mbox](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
-* [Parámetros de perfil](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+* [Parámetros de mbox](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
+* [Parámetros de perfil](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
 * [API del lado del servidor para actualizar perfiles](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
 
 Para obtener información sobre los datos que los algoritmos de [!UICONTROL Personalización automatizada] y de [!UICONTROL Segmentación automática] recopilan y utilizan automáticamente, consulte [Recopilación de datos de personalización automatizada](/help/main/c-activities/t-automated-personalization/ap-data.md).

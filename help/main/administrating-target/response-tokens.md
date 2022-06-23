@@ -5,10 +5,10 @@ title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 28%
+source-wordcount: '1680'
+ht-degree: 27%
 
 ---
 
@@ -26,7 +26,7 @@ Una diferencia clave entre complementos y tokens de respuesta es que los complem
 
 | SDK de Target | Acciones sugeridas |
 |--- |--- |
-| [SDK web de Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Compruebe que está utilizando Platform Web SDK versión 2.6.0 o posterior. Para obtener información sobre la descarga de la última versión del SDK web de Platform, consulte [Instalación del SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en el *Información general del SDK web de plataforma* guía. Para obtener información sobre las nuevas funciones de cada versión del SDK web de Platform, consulte [Notas de la versión](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) en el *Información general del SDK web de plataforma* guía. |
+| [SDK web de Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Compruebe que está utilizando Platform Web SDK versión 2.6.0 o posterior. Para obtener información sobre la descarga de la última versión del SDK web de Platform, consulte [Instalación del SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} en la sección *Información general del SDK web de plataforma* guía. Para obtener información sobre las nuevas funciones de cada versión del SDK web de Platform, consulte [Notas de la versión](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) en el *Información general del SDK web de plataforma* guía. |
 | [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre la descarga de la versión más reciente de at.js, consulte [Descargar at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/). Para obtener más información sobre las funcionalidades en cada versión de at.js, consulte [Detalles de la versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Algunos complementos que dependen de métodos internos existentes en mbox.js (ahora obsoletos), pero no en at.js, se entregan pero no funcionan. |
 
 ## Uso de tokens de respuesta {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -149,7 +149,7 @@ El siguiente ejemplo de respuesta agrega un [!DNL Platform Web SDK] controlador 
 
 ### ![Distintivo de at.js](/help/main/assets/atjs.png) at.js mediante eventos personalizados
 
-Utilice [eventos personalizados de at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/) para detectar la respuesta de y leer los tokens de respuesta.[!DNL Target]
+Uso [Eventos personalizados de at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/){target=_blank} para escuchar el [!DNL Target] y lea los tokens de respuesta.
 
 El siguiente ejemplo de código añade un controlador de evento personalizado [!DNL at.js] directamente a la página HTML:
 
