@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
+source-git-commit: 6450b9d247f21f578a5bef15422765dc2a2ed32d
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 71%
+source-wordcount: '203'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 71%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 20 de junio de 2022**
+**Última actualización: 23 de junio de 2022**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -24,7 +24,6 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 Esta versión incluye las siguientes mejoras y correcciones:
 
 * Los usuarios con la función [!UICONTROL Editor] ya no pueden editar audiencias en actividades activas. (TGT-43582)
-* Atributos del cliente compartidos desde [!DNL Adobe Experience Platform] a [!DNL Target] en el [!DNL Platform] La interfaz de usuario está visible en la [!DNL Target] IU. (TGT-43150)
 * Aparece un mensaje de advertencia si un cliente intenta guardar una audiencia con un signo de exclamación ( ! ) como el primer carácter del nombre de la audiencia (por ejemplo, !Londres). (TGT-43643)
 * Se ha corregido un problema que provocaba que las tarjetas de detalles de definición de audiencias para algunos clientes indicaran que una actividad finalizada seguía activa. (TGT-43527)
 
