@@ -5,10 +5,10 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 91%
+source-wordcount: '589'
+ht-degree: 84%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 91%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 22.6.2 (24 de junio de 2022)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Los usuarios con la función [!UICONTROL Editor] ya no pueden editar audiencias en actividades activas. (TGT-43582)
+* Aparece un mensaje de advertencia si un cliente intenta guardar una audiencia con un signo de exclamación ( ! ) como el primer carácter del nombre de la audiencia (por ejemplo, !Londres). (TGT-43643)
+* Se ha corregido un problema que provocaba que las tarjetas de detalles de definición de audiencias para algunos clientes indicaran que una actividad finalizada seguía activa. (TGT-43527)
 
 ## [!DNL Target Standard/Premium] 22.6.1 (versión escalonada: 7 y 9 de junio de 2022)
 
