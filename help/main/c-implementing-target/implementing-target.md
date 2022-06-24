@@ -6,10 +6,10 @@ title: ¿Cómo puedo implementar? [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: d8fd919830cb6f73540af842a3b87b06b0bece3c
+source-git-commit: 5ae32fbbc51b6277794fb702a4188133b5e29029
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 5%
+source-wordcount: '185'
+ht-degree: 2%
 
 ---
 
@@ -21,12 +21,19 @@ La variable [Portal de guía para desarrolladores de Adobe Target](https://devel
 
 El portal para desarrolladores incluye información sobre los siguientes tipos de implementación:
 
-* Del lado del cliente, incluida información sobre la implementación mediante el [!DNL Adobe Experience Platform Web SDK] o [!DNL Target Web SDK] (at.js).
-* Del lado del servidor, incluida información sobre la implementación de mediante los SDK de Node.JS, JAVA, .NET y Python.
-* Información híbrida que le ayudará a implementar si utiliza una combinación de implementaciones del lado del cliente y del lado del servidor.
-* Recommendations, información para ayudarle a implementar [!DNL Recommendations], [Target Premium](/help/main/c-intro/intro.md#premium) oferta.
-* Aplicaciones móviles.
-* Correo electrónico.
+* Lado del cliente: Información sobre la implementación mediante la variable [!DNL Adobe Experience Platform Web SDK] o [!DNL Target Web SDK] (at.js).
+* Lado del servidor: Información sobre la implementación de con los SDK de Node.JS, JAVA, .NET y Python.
+* Híbrido: Información sobre la implementación si utiliza una combinación de implementaciones del lado del cliente y del lado del servidor.
+* Recommendations: Información para ayudarle a implementar [!DNL Recommendations], [Target Premium](/help/main/c-intro/intro.md#premium) oferta.
+* Aplicaciones móviles: Información para ayudarle a implementar mediante [!DNL Adobe Experience Platform Mobile] SDK.
+* Correo electrónico: Información para ayudarle a implementar [!DNL Target] en correos electrónicos.
+
+Para obtener más información, consulte la [Portal de guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank}.
+
+>[!NOTE]
+>
+>Toda la información que se incluyó anteriormente en la variable *Implementación de Target* de esta guía (la *Guía de práctica de Adobe Target*) ahora se incluye en el portal para desarrolladores.
+
 
 
 
