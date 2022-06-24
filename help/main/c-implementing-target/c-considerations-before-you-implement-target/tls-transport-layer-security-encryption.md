@@ -5,10 +5,10 @@ title: How [!DNL Target] ¿Usar TLS para proporcionar seguridad?
 feature: Privacy & Security
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 55%
+source-wordcount: '1152'
+ht-degree: 52%
 
 ---
 
@@ -56,7 +56,7 @@ Mientras planifica este cambio, considere lo siguiente (tenga en cuenta que el p
 * Tenga presente que el número de visitantes de sus informes de Target puede experimentar una caída insignificante en el número de visitantes.
 * Es posible que tenga que cambiar las audiencias creadas específicamente para dirigirse a dispositivos o navegadores más antiguos que no sean compatibles con TLS 1.2. La entrega a esos dispositivos y navegadores ya no funcionará.
 
-Para conocer más detalles sobre exploradores compatibles y sus versiones, consulte   [Exploradores admitidos](https://developer.adobe.com/target/before-implement/supported-browsers/).
+Para obtener más información sobre los navegadores compatibles y sus versiones, consulte [Navegadores admitidos](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}.
 
 ## Adobe [!DNL Target] API {#section_88797FA5434049EC89F908853CC76903}
 
@@ -68,7 +68,7 @@ A partir del 1 de marzo de 2020, las API de Target dejarán de ser compatibles c
 
 ## Acceso a las interfaces de las soluciones de Experience Cloud {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Debido a que la interfaz de Target Standard/Premium ya requiere un [explorador web actual](https://developer.adobe.com/target/before-implement/supported-browsers/), no se esperan problemas. Si no puede conectarse a Target, deberá actualizar el navegador a la última versión.
+Debido a que la interfaz de Target Standard/Premium ya requiere un [navegador web moderno](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}, no se esperan problemas. Si no puede conectarse a Target, deberá actualizar el navegador a la última versión.
 
 ## Cómo comprobar la versión de TLS que utiliza el explorador {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 

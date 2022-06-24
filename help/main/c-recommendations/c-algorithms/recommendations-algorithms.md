@@ -5,9 +5,9 @@ title: ¿Dónde puedo obtener información sobre la ciencia detrás de los algor
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ El flujo lógico de la implementación real del algoritmo se muestra en el sigui
 
 Los detalles de estos pasos son los siguientes:
 
-* **Datos de entrada**: Datos de comportamiento, en forma de vistas y compras de visitantes recopiladas al [implementar Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Datos de entrada**: Datos de comportamiento, en forma de vistas y compras de visitantes recopiladas al [implementar Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formación del modelo**:
 
@@ -88,7 +88,7 @@ Aunque los aspectos del servicio de modelos y la entrega de contenido de [!DNL T
 
 Los detalles de estos pasos son los siguientes:
 
-* **Datos de entrada**: Como se ha descrito anteriormente, este algoritmo se basa exclusivamente en los datos del catálogo (incorporados a [!DNL Target] a través de una [Fuente de catálogo, API de entidades o desde actualizaciones en la página](https://developer.adobe.com/target/implement/recommendations/).
+* **Datos de entrada**: Como se ha descrito anteriormente, este algoritmo se basa exclusivamente en los datos del catálogo (incorporados a [!DNL Target] a través de una [Fuente de catálogo, API de entidades o desde actualizaciones en la página](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 * **Formación del modelo**:
 
@@ -126,7 +126,7 @@ La lógica de los pasos de entrenamiento y puntuación del modelo se muestra en 
 
 Los detalles de estos pasos son los siguientes:
 
-* **Datos de entrada**: Esto es idéntico a los métodos de filtrado colaborativo (CF) de elementos. [!UICONTROL Ambas Se Recomiendan Para Usted] y los algoritmos basados en el carro de compras utilizan datos de comportamiento, en forma de vistas y compras de usuarios recopiladas al [implementar Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Datos de entrada**: Esto es idéntico a los métodos de filtrado colaborativo (CF) de elementos. [!UICONTROL Ambas Se Recomiendan Para Usted] y los algoritmos basados en el carro de compras utilizan datos de comportamiento, en forma de vistas y compras de usuarios recopiladas al [implementar Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formación del modelo**:
 

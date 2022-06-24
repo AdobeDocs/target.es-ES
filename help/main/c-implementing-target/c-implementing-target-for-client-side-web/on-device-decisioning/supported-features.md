@@ -5,9 +5,9 @@ title: Qué funciones se admiten en la toma de decisiones en dispositivos
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ La tabla siguiente indica qué reglas de audiencia se admiten o no para la toma 
 
 ### Segmentación geográfica para la toma de decisiones en el dispositivo
 
-Para mantener una latencia mínima para las actividades de toma de decisiones en dispositivos con audiencias basadas en geografía, Adobe recomienda que proporcione los valores geográficos en la llamada a [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). Establezca el objeto Geografía en el Contexto de la solicitud. Esto significa que desde el explorador, se puede determinar la ubicación de cada visitante. Por ejemplo, puede realizar una búsqueda de IP a información geográfica mediante un servicio que configure. Algunos proveedores de alojamiento, como Google Cloud, proporcionan esta funcionalidad a través de encabezados personalizados en cada `HttpServletRequest`.
+Para mantener una latencia mínima para las actividades de toma de decisiones en dispositivos con audiencias basadas en geografía, Adobe recomienda que proporcione los valores geográficos en la llamada a [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}. Establezca el objeto Geografía en el Contexto de la solicitud. Esto significa que desde el explorador, se puede determinar la ubicación de cada visitante. Por ejemplo, puede realizar una búsqueda de IP a información geográfica mediante un servicio que configure. Algunos proveedores de alojamiento, como Google Cloud, proporcionan esta funcionalidad a través de encabezados personalizados en cada `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 

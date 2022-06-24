@@ -4,10 +4,10 @@ description: Conozca las actividades de Recommendations en Adobe  [!DNL Target] 
 title: ¿Qué son las actividades de Recommendations?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2114'
-ht-degree: 99%
+source-wordcount: '2116'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ A continuación, debe agregar etiquetas o aprovechar la implementación existent
 
 Compruebe que [!DNL Target] tenga en cuenta los artículos que los usuarios están viendo y comprando. Si la compra no es relevante para su contexto, es posible que desee rastrear un tipo diferente de evento de conversión, por ejemplo, descargar un PDF, completar una encuesta, suscribirse a una newsletter, ver un vídeo, etc.
 
-Si ya está utilizando [!DNL Target] para ejecutar actividades A/B en su sitio, es posible que ya haya completado este paso. O si ya utiliza [!DNL Adobe Analytics] para informar sobre las visitas del sitio y el comportamiento de conversión, puede utilizar [!DNL Analytics] como fuente de datos de comportamiento. Si no es así, es más fácil configurarlo con un administrador de etiquetas como las etiquetas en [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). También es posible enviar interacciones sin conexión o dentro de la aplicación a [!DNL Target] a través de una API en tiempo real.
+Si ya está utilizando [!DNL Target] para ejecutar actividades A/B en su sitio, es posible que ya haya completado este paso. O si ya utiliza [!DNL Adobe Analytics] para informar sobre las visitas del sitio y el comportamiento de conversión, puede utilizar [!DNL Analytics] como fuente de datos de comportamiento. Si no es así, es más fácil configurarlo con un administrador de etiquetas como etiquetas en [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. También es posible enviar interacciones sin conexión o dentro de la aplicación a [!DNL Target] a través de una API en tiempo real.
 
 ### Obtener recomendaciones con el contexto correcto
 

@@ -4,9 +4,9 @@ description: Eche un vistazo general a Adobe Target. Obtenga información sobre 
 title: ¿Dónde puedo encontrar una introducción general de Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2536'
 ht-degree: 99%
 
 ---
@@ -52,8 +52,8 @@ Es posible que muchos usuarios deseen utilizar [!DNL Target] para probar y perso
 
 | Tipo de implementación | Detalles |
 | --- | --- |
-| Lado del cliente | Con esta implementación de [!DNL Target], [!DNL Target] envía las experiencias asociadas a una actividad directamente al explorador del cliente. El explorador decide qué experiencia mostrar y lo hace. En el lado del cliente, puede utilizar un editor WYSIWYG, **[!UICONTROL Visual Experience Composer]** (VEC) o una interfaz no visual, **[!UICONTROL Compositor de experiencas basado en la forma]** para crear experiencias de prueba y personalización. [Más información](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/). |
-| Lado del servidor | En este tipo de implementación de [!DNL Target], un dispositivo cliente realiza una solicitud de una experiencia a través del servidor, el servidor envía esa solicitud a [!DNL Target], [!DNL Target] devuelve la respuesta al servidor y este toma la decisión sobre la experiencia que debe ofrecerse al dispositivo cliente para que se procese. La experiencia no necesita mostrarse en un explorador; puede mostrarse en un correo electrónico o quiosco, a través de un asistente de voz o a través de otro dispositivo no visual o no basado en un explorador. Dado que su servidor se encuentra entre el cliente y [!DNL Target], este tipo de implementación también es ideal si necesita mayor control y seguridad o si tiene procesos backend complejos que desee ejecutar en el servidor. [Más información](https://developer.adobe.com/target/implement/server-side/). |
+| Lado del cliente | Con esta implementación de [!DNL Target], [!DNL Target] envía las experiencias asociadas a una actividad directamente al explorador del cliente. El explorador decide qué experiencia mostrar y lo hace. En el lado del cliente, puede utilizar un editor WYSIWYG, **[!UICONTROL Visual Experience Composer]** (VEC) o una interfaz no visual, **[!UICONTROL Compositor de experiencas basado en la forma]** para crear experiencias de prueba y personalización. [Más información](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}. |
+| Lado del servidor | En este tipo de implementación de [!DNL Target], un dispositivo cliente realiza una solicitud de una experiencia a través del servidor, el servidor envía esa solicitud a [!DNL Target], [!DNL Target] devuelve la respuesta al servidor y este toma la decisión sobre la experiencia que debe ofrecerse al dispositivo cliente para que se procese. La experiencia no necesita mostrarse en un explorador; puede mostrarse en un correo electrónico o quiosco, a través de un asistente de voz o a través de otro dispositivo no visual o no basado en un explorador. Dado que su servidor se encuentra entre el cliente y [!DNL Target], este tipo de implementación también es ideal si necesita mayor control y seguridad o si tiene procesos backend complejos que desee ejecutar en el servidor. [Más información](https://developer.adobe.com/target/implement/server-side/){target=_blank}. |
 | Implementación híbrida | En esta implementación, elige el método de implementación que mejor se adapte a un caso de uso determinado. Por ejemplo, puede utilizar una implementación del lado del cliente para probar una oferta en un banner a pantalla completa en la página de inicio, pero también utilizar una implementación del lado del servidor para determinar los resultados de búsqueda interna que se mostrarán en el explorador del cliente, la experiencia que se mostrará en el salpicadero de un coche inteligente o la respuesta de voz que ofrezca un asistente de voz. |
 
 ## Elementos de actividad

@@ -5,9 +5,9 @@ title: User Agent y Client Hints
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1348'
 ht-degree: 95%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->La información contenida en este artículo se aplica a [Versión 2.9.0 de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} (o posterior).
+>La información contenida en este artículo se aplica a [Versión 2.9.0 de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} (o posterior){target=_blank}.
 
 
 Cada vez que un explorador web realiza una solicitud a un servidor, incluida en el encabezado de la solicitud, se incluye información sobre el explorador y el entorno en el que se ejecuta el explorador. Desde los primeros días de Internet, estos datos se han agregado en una sola cadena denominada user-agent.

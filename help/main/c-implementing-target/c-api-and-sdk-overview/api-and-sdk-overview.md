@@ -5,9 +5,9 @@ title: ¿Dónde puedo obtener información sobre [!DNL Target] ¿API de envío d
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 21%
 
 ---
@@ -53,6 +53,6 @@ La variable [!DNL Adobe Target] portal de documentación de SDK del lado del ser
 
 ## API de Recommendations de Target
 
-Vínculo: [API de Recommendations de Target](https://developer.adobe.com/target/).
+Vínculo: [API de Recommendations de Target](https://developer.adobe.com/target/){target=_blank}.
 
 Las API de Recommendations le permiten interactuar mediante programación con [!DNL Target] servidores de recomendaciones. Estas API se pueden integrar con una serie de pilas de aplicaciones para realizar funciones que normalmente se harían mediante la función [!DNL Target] interfaz de usuario.

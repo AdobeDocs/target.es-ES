@@ -4,10 +4,10 @@ description: Explore una lista de preguntas más frecuentes acerca del uso de la
 title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 98%
+source-wordcount: '2795'
+ht-degree: 96%
 
 ---
 
@@ -309,10 +309,10 @@ Lamentamos que tenga problemas. Consulte [Solución de problemas de Target](/hel
 
 **Tenemos un SKU móvil. ¿Puedo crear actividades móviles?**
 
-Para optimizar y personalizar en dispositivos móviles, necesita utilizar [actividades basadas en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) junto con el [SDK de Adobe](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/). Consulte más detalles sobre [Target para aplicaciones móviles](https://developer.adobe.com/target/implement/mobile/).
+Para la optimización y personalización en dispositivos móviles, debe utilizar [actividades basadas en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) junto con la variable [SDK de Adobe](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Consulte más detalles sobre [Target para aplicaciones móviles](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## API de Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **¿Dónde puedo obtener más información sobre las API de Target?**
 
-Tenemos documentación exhaustiva sobre las API. Consulte [API de entrega, SDK de NodeJS y documentación de la API de Recommendations](https://developer.adobe.com/target/implement/server-side/).
+Tenemos documentación exhaustiva sobre las API. Consulte [API de envío, SDK de NodeJS y documentación de las API de Recommendations](https://developer.adobe.com/target/implement/server-side/){target=_blank}.

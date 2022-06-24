@@ -4,9 +4,9 @@ description: Explorar una lista de preguntas frecuentes y respuestas sobre el Ad
 title: Dónde puedo encontrar respuestas a preguntas sobre [!DNL Target] ¿Informar?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1227'
 ht-degree: 32%
 
 ---
@@ -106,6 +106,6 @@ Por ejemplo, configuro la división de tráfico en 50/50 o 25/25/25/25, pero veo
 * La práctica recomendada para las pruebas A/B y MVT es mantener unidas las divisiones de tráfico. Cambiar la distribución del tráfico entre las experiencias (por ejemplo, del 10/90 al 50/50) durante una prueba puede provocar un número de visitantes desiguales entre las experiencias. Es posible que la experiencia con menos tráfico nunca se &quot;ponga al día&quot;.
 * Si sigue las prácticas recomendadas anteriores y la división del tráfico no se normaliza con el tiempo, debe comprobar lo siguiente:
 
-   * ¿Está utilizando la última biblioteca de at.js? Para obtener más información sobre la versión actual y las notas de la versión asociadas, consulte [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+   * ¿Está utilizando la última biblioteca de at.js? Para obtener más información sobre la versión actual y las notas de la versión asociadas, consulte [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
    * ¿Es una prueba de redireccionamiento? La sincronización incorrecta de etiquetas al activarse en la página puede provocar divisiones de tráfico desiguales, especialmente al utilizar [!DNL Analytics] como fuente de datos para un [!DNL Target] actividad. Para obtener más información sobre cómo solucionar la distribución desigual del tráfico en una actividad de redireccionamiento con Analytics for Target (A4T), consulte [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

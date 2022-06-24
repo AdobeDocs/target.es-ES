@@ -5,10 +5,10 @@ title: Qué hacen los navegadores [!DNL Target] ¿Asistencia?
 feature: Implementation
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 40%
+source-wordcount: '351'
+ht-degree: 39%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 40%
 
 La aplicación y la entrega de contenido de [!DNL Adobe Target] se han probado en una amplia gama de navegadores y dispositivos.
 
-Para obtener información más importante sobre TLS, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+Para obtener información más importante sobre TLS, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}.
 
 ## [!DNL Target]Interfaz de Standard/Premium  {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
@@ -34,7 +34,7 @@ La entrega de contenido se ha probado en los siguientes navegadores y dispositiv
 | Tipo de dispositivo | Versión del navegador |
 |--- |--- |
 | Windows | <ul><li>Microsoft Internet Explorer 9 y 10. Probado en modo de emulación.<br>**Nota**: La entrega de contenido en IE 9 ya no es compatible con at.js 1.3.0 (y versiones posteriores). La entrega de contenido en IE 10, 11 y todas las versiones anteriores ya no es compatible con at.js 2.5.0 (y versiones posteriores).</li><li>Internet Explorer 11 <br>**Nota**: La entrega de contenido en IE 10, 11 y todas las versiones anteriores ya no es compatible con at.js 2.5.0 (y versiones posteriores).</li><li>Microsoft Edge</li><li>Chrome (última versión, última versión menos 1)</li><li>Firefox (último, último menos 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (versión más reciente)<br>**Nota**: Para obtener más información sobre cómo gestiona Safari las cookies de origen y de terceros, consulte [Cookie de Target](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/).</li><li>Firefox (último, último menos 1)</li><li>Chrome (última versión, última versión menos 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (versión más reciente)<br>**Nota**: Para obtener más información sobre cómo gestiona Safari las cookies de origen y de terceros, consulte [Cookie de Target](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/){target=_blank}.</li><li>Firefox (último, último menos 1)</li><li>Chrome (última versión, última versión menos 1)</li></ul> |
 | Móvil o tableta | <ul><li>Apple iOS (última versión)</li><li>Dispositivos y tabletas Android (Android 4 y versiones posteriores)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 Tenga en cuenta lo siguiente:

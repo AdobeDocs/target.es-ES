@@ -4,9 +4,9 @@ description: Aprenda a utilizar Adobe [!DNL Target] Direcciones URL de control d
 title: ¿Cómo Se Hacen Evaluaciones De Las Actividades?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1829'
 ht-degree: 39%
 
 ---
@@ -72,7 +72,7 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
    También puede forzar la salida manual cargando una página en su sitio con un valor en blanco en el parámetro `at_preview_token` (por ejemplo, `https://www.mysite.com/?at_preview_token=`).
 
 * Si especificó &quot;URL es&quot; al crear la actividad [refinamientos en el Compositor basado en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o [opciones de envío de página en el Compositor de experiencias visuales)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), la URL de control de calidad no funciona porque [!UICONTROL Control de calidad de la actividad] adjunta parámetros de URL. Para solucionar este problema, haga clic en la URL de control de calidad para ir a su sitio, elimine los parámetros añadidos a la URL y cargue la nueva dirección.
-* Si tiene at.js 1.*x*, [!UICONTROL Control de calidad de la actividad] no es persistente si utiliza Safari u otro explorador que bloquee cookies de terceros. En estos casos, debe añadir los parámetros de vista previa a cada URL a la que navegue. Lo mismo ocurre si ha implementado [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/).
+* Si tiene at.js 1.*x*, [!UICONTROL Control de calidad de la actividad] no es persistente si utiliza Safari u otro explorador que bloquee cookies de terceros. En estos casos, debe añadir los parámetros de vista previa a cada URL a la que navegue. Lo mismo ocurre si ha implementado [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}.
 * Si una actividad utiliza varias audiencias de experiencia (por ejemplo, un sitio de EE. UU. y Reino Unido que están incluidos en la misma actividad), no se generan vínculos de control de calidad para las cuatro combinaciones (Experiencia A/EE. UU., Experiencia A/Sitio RU, Experiencia B/Sitio EE. UU., Experiencia B/Sitio RU). Se crean solo dos vínculos de QA (Experiencia A y Experiencia B) y los usuarios deben cumplir las condiciones de audiencia apropiadas para ver la página. Una persona de control de calidad del Reino Unido no puede ver el sitio de EE. UU.
 * Todos los parámetros y valores de `at_preview` ya están codificados en la URL. La mayoría de las veces, todo funciona según lo esperado. Sin embargo, algunos clientes deben cargar equilibradores o servidores web que intenten codificar de nuevo los parámetros de cadena de consulta.
 

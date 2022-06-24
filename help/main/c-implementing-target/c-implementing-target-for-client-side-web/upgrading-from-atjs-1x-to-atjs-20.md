@@ -5,10 +5,10 @@ title: ¿Cómo actualizo de la versión 1.x de at.js a la versión 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 87%
+source-wordcount: '2888'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ Estos son algunos de los beneficios de utilizar at.js 2.*x* con las que no está
 
 ## at.js 2.*x*  Diagramas del sistema
 
-Los siguientes diagramas le ayudan a comprender el flujo de trabajo de at.js 2.*x* con Vistas y cómo esto mejora la integración de SPA. Para obtener una mejor introducción a los conceptos utilizados en at.js 2.*x*, consulte [Implementación de Aplicación de una sola página (SPA)](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
+Los siguientes diagramas le ayudan a comprender el flujo de trabajo de at.js 2.*x* con Vistas y cómo esto mejora la integración de SPA. Para obtener una mejor introducción a los conceptos utilizados en at.js 2.*x*, consulte [Implementación de aplicación de página única](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}.
 
 ![Flujo de Target con at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -62,7 +62,7 @@ Ahora, independientemente de que se implemente `triggerView()` en la SPA, las vi
 
    O
 
-   Descargue manualmente at.js 2.*x* mediante la interfaz de usuario de Target e impleméntelo usando el [método de su elección](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/).
+   Descargar manualmente at.js 2.*x* uso de la interfaz de usuario de Target e implementación mediante el [método que elija](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank}.
 
 ## Funciones obsoletas de at.js
 
@@ -72,7 +72,7 @@ Existen varias funciones que se han quedado obsoletas en at.js 2.*x*.
 >
 >Si se siguen utilizando estas funciones obsoletas en el sitio cuando se implemente at.js 2.*x*, se mostrarán advertencias de la consola. Al realizar la actualización se recomienda probar la implementación de at.js 2.*x* en un entorno de ensayo, asegurarse de avanzar por cada advertencia que se haya registrado en la consola y traducir las funciones obsoletas por aquellas nuevas introducidas en at.js 2.*x*.
 
-Puede encontrar las funciones obsoletas y sus equivalentes a continuación. Para ver una lista completa de las funciones, consulte [Funciones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+Puede encontrar las funciones obsoletas y sus equivalentes a continuación. Para obtener una lista completa de las funciones, consulte [Funciones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.
 
 >[!NOTE]
 >at.js 2.*x*  ya no oculta automáticamente los elementos marcados `mboxDefault`. Por lo tanto, los clientes tendrán que ajustar manualmente la lógica de ocultación previa en el sitio o a través de un administrador de etiquetas.
@@ -365,10 +365,10 @@ Las tablas siguientes explican la 2.*x* compatibilidad con diferentes tipos de a
 | Audiencias | Sí |
 | Atributos del cliente | Sí |
 | Fragmentos de experiencia de AEM | Sí |
-| [!DNL Adobe Experience Platform] Extensión | [Sí](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
+| [!DNL Adobe Experience Platform] Extensión | [Sí](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} |
 | Depurador | Sí |
 | Auditor | Todavía no se han actualizado las reglas para at.js 2.*x* |
-| Inclusión | No. Compatibilidad de Opt-in con [RGPD](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} es compatible con [Versión 2.1.0 de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
+| Inclusión | No. Compatibilidad de Opt-in con [RGPD](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} es compatible con [Versión 2.1.0 de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
 | Personalización mejorada AEM con tecnología de Adobe Target | No |
 
 ### Funciones

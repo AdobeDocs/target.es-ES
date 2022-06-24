@@ -5,16 +5,16 @@ title: ¿Cómo administra  [!DNL Target]  las políticas de seguridad de conteni
 feature: Privacy & Security
 role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 97%
+source-wordcount: '338'
+ht-degree: 90%
 
 ---
 
 # Directivas de la política de seguridad de contenido (CSP)
 
-Si está utilizando una [política de seguridad de contenido](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) para su implementación de [!DNL Adobe Target], debe agregar las siguientes directivas CSP al utilizar [at.js 2.1 o posterior](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/):
+Si está utilizando [Política de seguridad de contenido](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) para su [!DNL Adobe Target] implementación, debe agregar las siguientes directivas CSP al utilizar [at.js 2.1 o posterior](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}:
 
 * `connect-src` con `*.tt.omtrdc.net` incluido en la lista de permitidos. Necesario para permitir la solicitud de red al perímetro de [!DNL Target].
 * `style-src unsafe-inline`. Necesaria para el control de parpadeo y preocultación.

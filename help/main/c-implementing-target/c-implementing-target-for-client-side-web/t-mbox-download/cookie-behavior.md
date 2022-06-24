@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información sobre [!DNL Target] ¿Cookies?
 feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1557'
 ht-degree: 58%
 
 ---
@@ -20,7 +20,7 @@ El comportamiento de la cookie depende de si es una cookie de origen, una cookie
 >
 >Este tema contiene información sobre `mboxSession` y `mboxPC`. Las prácticas recomendadas de implementación recomiendan que no vincule ni almacene información confidencial con los datos de las cookies: `mboxSession` o `mboxPC`.
 
-Consulte también [Eliminar la cookie de Target](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/).
+Consulte también [Eliminar la cookie de Target](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/){target=_blank}.
 
 ## Cuándo usar cookies de origen o de terceros {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -137,5 +137,5 @@ De Apple:
 
 | Funcionalidad afectada | Detalles |
 |--- |--- |
-| Soporte para la no participación | Los cambios de Apple en el seguimiento de WebKit interrumpen el soporte para la no participación.<br>[!DNL Target]La no participación en emplea una cookie en el dominio `clientcode.tt.omtrdc.net`. Para obtener más información, consulte [Privacidad](https://developer.adobe.com/target/before-implement/privacy/privacy/).<br>[!DNL Target] admite dos exclusiones:<ul><li>Una por cliente (el cliente gestiona el vínculo de no participación).</li><li>Una vez [!DNL Adobe] que excluye al usuario de todo [!DNL Target] para todos los clientes.</li></ul>Ambos métodos utilizan una cookie de terceros. |
+| Soporte para la no participación | Los cambios de Apple en el seguimiento de WebKit interrumpen el soporte para la no participación.<br>[!DNL Target]La no participación en emplea una cookie en el dominio `clientcode.tt.omtrdc.net`. Para obtener más información, consulte [Privacidad](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.<br>[!DNL Target] admite dos exclusiones:<ul><li>Una por cliente (el cliente gestiona el vínculo de no participación).</li><li>Una vez [!DNL Adobe] que excluye al usuario de todo [!DNL Target] para todos los clientes.</li></ul>Ambos métodos utilizan una cookie de terceros. |
 | [!DNL Target] Recomendaciones | Los clientes pueden elegir su [duración del perfil](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) para su [!DNL Target] cuentas (hasta 90 días). El problema es que si la duración del perfil de la cuenta supera los 30 días y se purga la cookie de origen porque el dominio del cliente se ha marcado como uno que realiza un seguimiento de los usuarios entre sitios, el comportamiento de los visitantes de Safari se verá afectado en las siguientes áreas de [!DNL Target]:<br>**[!DNL Target] informes **: Si un usuario de Safari entra en una actividad, regresa pasados 30 días y luego lo convierte, ese usuario se cuenta como dos visitantes y una conversión.<br>[!DNL Analytics]Este comportamiento es el mismo para las actividades que utilizan como fuente de informes (A4T).<br>** Pertenencia a perfil y actividad **:<ul><li>Los datos de perfil se borran al caducar la cookie de origen.</li><li>La pertenencia a actividades se borra al caducar la cookie de origen.</li><li> [!DNL Target] no funciona en Safari para cuentas que utilizan una implementación de cookie de terceros, o de cookies de origen y de terceros. Este comportamiento no es nuevo. Safari no ha permitido cookies de terceros durante un tiempo.</li></ul><br>**Sugerencias**: Si existe la preocupación de que el dominio del cliente se pueda marcar como uno que realiza un seguimiento de los visitantes entre sesiones, lo más seguro es establecer la duración del perfil en 30 días o menos en [!DNL Target]. Este límite garantiza que los usuarios reciban un seguimiento similar en Safari y en todos los demás navegadores. |

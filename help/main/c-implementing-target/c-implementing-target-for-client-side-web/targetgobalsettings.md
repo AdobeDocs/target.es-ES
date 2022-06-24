@@ -5,10 +5,10 @@ title: ¿Cómo utilizo la función targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 95%
+source-wordcount: '2419'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Las configuraciones que se pueden anular son las siguientes:
 * **Valor predeterminado**: body { opacity: 0 }
 * **Descripción**: solo se usa cuando `globalMboxAutocreate === true` para minimizar los parpadeos.
 
-   Para obtener más información, consulte [Cómo gestiona at.js el parpadeo](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+   Para obtener más información, consulte [Cómo gestiona at.js el parpadeo](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ Las configuraciones que se pueden anular son las siguientes:
 
 * **Tipo**: booleano
 * **Valor predeterminado**: false
-* **Descripción**: [!DNL Target] proporciona soporte de funcionalidad de inclusión a través de [!DNL Adobe Experience Platform] para ayudar a respaldar su estrategia de gestión de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Adobe Experience Platform] para aprobar previamente la etiqueta de [!DNL Target]. Para activar la posibilidad de utilizar la inclusión en la biblioteca at.js de [!DNL Target], debe utilizar y añadir la configuración `optinEnabled=true`. En [!DNL Adobe Experience Platform], tendrá que seleccionar “habilitar” en la lista desplegable de [!UICONTROL Inclusión del RGPD] en la vista de instalación de extensión. Consulte la [Documentación de Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} para obtener más información. Para obtener más información acerca de esta configuración en relación con las normas de privacidad y protección de datos, incluido el Reglamento general de protección de datos (RGPD) de la Unión Europea y la Ley de Privacidad del Consumidor de California (CCPA), consulte [Reglamentos de privacidad y protección de datos](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
+* **Descripción**: [!DNL Target] proporciona soporte de funcionalidad de inclusión a través de [!DNL Adobe Experience Platform] para ayudar a respaldar su estrategia de gestión de consentimiento. La funcionalidad de inclusión permite a los clientes controlar cómo y cuándo se inicia la etiqueta de [!DNL Target]. También hay una opción a través de [!DNL Adobe Experience Platform] para aprobar previamente la etiqueta de [!DNL Target]. Para activar la posibilidad de utilizar la inclusión en la biblioteca at.js de [!DNL Target], debe utilizar y añadir la configuración `optinEnabled=true`. En [!DNL Adobe Experience Platform], tendrá que seleccionar “habilitar” en la lista desplegable de [!UICONTROL Inclusión del RGPD] en la vista de instalación de extensión. Consulte la [Documentación de Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} para obtener más información. Para obtener más información sobre esta configuración en relación con las normas de privacidad y protección de datos, incluido el Reglamento General de Protección de Datos (RGPD) de la Unión Europea{target=_blank} y la Ley de Privacidad del Consumidor de California (CCPA), consulte [Reglamentos de protección de datos y privacidad](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}.
 
 ### optoutEnabled
 
@@ -398,7 +398,7 @@ Una vez especificadas las configuraciones `cspScriptNonce` y `cspStyleNonce`, at
 Debe tener una integración híbrida de [!DNL Target].
 
 * **Del lado del servidor**: debe utilizar la nueva [API de entrega](https://developers.adobetarget.com/api/delivery-api/) o los [SDK de Target](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Del lado del cliente**: debe utilizar la versión 2.2 o posterior de [at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **Lado del cliente**: Debe usar [Versión 2.2 o posterior de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Ejemplos de código
 

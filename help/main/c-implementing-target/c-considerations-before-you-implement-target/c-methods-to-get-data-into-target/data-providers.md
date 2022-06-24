@@ -5,10 +5,10 @@ title: ¿Cómo puedo obtener datos en [!DNL Target] ¿Usar proveedores de datos?
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 62%
+source-wordcount: '326'
+ht-degree: 55%
 
 ---
 
@@ -22,7 +22,7 @@ Nota: Los proveedores de datos requieren at.js 1.3 o posterior.
 
 La configuración `window.targetGlobalSettings.dataProviders` es una matriz de proveedores de datos.
 
-Para obtener más información sobre la estructura de cada proveedor de datos, consulte [Proveedores de datos](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Para obtener más información sobre la estructura de cada proveedor de datos, consulte [Proveedores de datos](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Casos de uso de ejemplo
 
@@ -44,7 +44,7 @@ at.js no intenta almacenar en caché los datos. Si el proveedor de datos obtiene
 
 ## Ejemplos de código
 
-Se pueden encontrar varios ejemplos en [Proveedores de datos](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Se pueden encontrar varios ejemplos en [Proveedores de datos](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Enlaces a información relevante
 
