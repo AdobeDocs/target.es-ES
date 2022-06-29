@@ -4,10 +4,10 @@ description: Aprenda a utilizar Multivariate Testing (MVT) en Adobe [!DNL Target
 title: ¿Qué es una prueba multivariable?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '1460'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -55,7 +55,7 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
 
 * Utilice una prueba MVT para determinar qué elemento es el más importante y, después, realice una prueba A/B que se centre en ese elemento.
 
-   Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más elementos, es aconsejable realizar una prueba MVT antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estos son los elementos en los que debería centrarse un especialista en marketing. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es el elemento más importante para lograr sus objetivos. Una vez que haya determinado qué elementos y contenido son los más útiles para ayudarle a lograr sus objetivos, puede ejecutar una prueba A/B para restringir aún más los resultados, como probar dos imágenes específicas entre sí, o comparar las palabras o los colores de una llamada a la acción. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
+   Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más elementos, es aconsejable realizar una prueba MVT antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estos son los elementos en los que debería centrarse un especialista en marketing. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es el elemento más importante para lograr sus objetivos. Una vez que haya determinado qué elementos y contenido son los más útiles para ayudarle a lograr sus objetivos, puede ejecutar una prueba A/B para refinar aún más los resultados, como probar dos imágenes específicas entre sí, o comparar la redacción o los colores de una llamada a la acción. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
 
 ## Consideraciones   {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 

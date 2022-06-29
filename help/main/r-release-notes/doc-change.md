@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 84%
+source-wordcount: '1095'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 24 de junio | [Portal de guía para desarrolladores de Adobe Target](https://developer-stage.adobe.com/target/){target=_blank} | Se ha iniciado el *Guía para desarrolladores de Adobe Target* portal para consolidar todo [!DNL Target] contenido para desarrolladores en un portal conveniente. El portal incluye información sobre la implementación de [!DNL Target] y [!DNL Recommendations], [!DNL Target] SDK y [!DNL Target] API. |
+| 24 de junio | [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank} | Se ha iniciado el *Guía para desarrolladores de Adobe Target* para consolidar todo [!DNL Target] contenido para desarrolladores en un portal conveniente. El portal incluye información sobre la implementación de [!DNL Target] y [!DNL Recommendations], [!DNL Target] SDK y [!DNL Target] API. |
 |  | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para el [!DNL Target Standard/Premium] versión 2.6.2. |
 | 14 de junio | [Planificar e implementar Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Se han actualizado los ejemplos de código en las siguientes secciones:<ul><li>Adiciones al carro de compras/vistas del carro de compras/páginas de cierre de compra</li><li>Excluir elementos que ya están en el carro de compras del visitante</li></ul> |
 | 7 de junio | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para el [!DNL Target Standard/Premium] versión 2.6.1. |
