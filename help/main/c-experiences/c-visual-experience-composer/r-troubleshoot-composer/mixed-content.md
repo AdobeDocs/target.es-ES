@@ -1,13 +1,13 @@
 ---
 keywords: contenido mixto;seguro;inseguro;chrome;solución de problemas;vec;compositor de experiencias visuales;no seguro;http;https;firefox;internet explorer
-description: Algunos navegadores no permiten visualizar las páginas donde se combina contenido seguro con contenido no seguro. Aprenda a habilitar contenido mixto en Chrome, Firefox y Edge.
-title: ¿Cómo se habilita el contenido mixto en mi navegador?
+description: Aprenda a habilitar el contenido mixto en Chrome, Firefox y Edge. Puede habilitar el contenido mixto cuando un navegador bloquee la visualización de una página porque el contenido seguro se mezcla con contenido no seguro.
+title: Habilitación de contenido mixto en mi navegador
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ El contenido mixto se produce si la solicitud inicial es segura a través de HTT
 
 Los exploradores modernos pueden bloquear la visualización de una página o mostrar mensajes de advertencia si el contenido seguro se mezcla con contenido no seguro.
 
-Si el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Target] intenta abrir una página con contenido mixto. Este mensaje le informa sobre cómo deshabilitar el bloqueo en su explorador. Deshabilitar el bloqueo le permite abrir un sitio HTTP o un sitio que tenga llamadas mixtas (HTTPS y HTTP).
+Si el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] intenta abrir una página con contenido mixto. Este mensaje le informa sobre cómo deshabilitar el bloqueo en su explorador. Deshabilitar el bloqueo le permite abrir un sitio HTTP o un sitio que tenga llamadas mixtas (HTTPS y HTTP).
 
 ![Advertencia de contenido mixto](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
