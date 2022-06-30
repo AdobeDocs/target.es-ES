@@ -4,7 +4,7 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 95%
@@ -23,9 +23,9 @@ Regístrese en los siguientes seminarios web para ver cómo utilizan los cliente
 
 El 2022 le ha dado a las empresas un entorno dinámico de rápida evolución para funcionar y operar. Aprenda cómo los expertos de la industria están viendo que las nuevas tendencias de consumo cobran forma mientras la vida empieza a regresar a la normalidad para trabajadores y viajeros.
 
-+++Haga clic
++++Haga clic aquí
 
-* **martes, 21 de junio de 2022**
+* **Jueves 11 de agosto de 2022**
 * **13:00 a 14:00 (EDT, UTC-4)**
 * **[Más información e información de registro](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
