@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 6450b9d247f21f578a5bef15422765dc2a2ed32d
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 Esta versión incluye las siguientes mejoras y correcciones:
 
 * Los usuarios con la función [!UICONTROL Editor] ya no pueden editar audiencias en actividades activas. (TGT-43582)
-* Aparece un mensaje de advertencia si un cliente intenta guardar una audiencia con un signo de exclamación ( ! ) como el primer carácter del nombre de la audiencia (por ejemplo, !Londres). (TGT-43643)
-* Se ha corregido un problema que provocaba que las tarjetas de detalles de definición de audiencias para algunos clientes indicaran que una actividad finalizada seguía activa. (TGT-43527)
+* Aparece un mensaje de advertencia si un cliente intenta guardar una audiencia con un signo de exclamación (!) como el primer carácter del nombre de la audiencia (por ejemplo, !Londres). (TGT-43643)
+* Se ha corregido un problema que provocaba que las tarjetas de detalles de definición de audiencias de algunos clientes indicaran que una actividad finalizada seguía activa. (TGT-43527)
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

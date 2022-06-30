@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 85%
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
-## Adobe Target Standard/Premium 22.6.1 (versión escalonada: 7 y 9 de junio de 2022)
+## Adobe Target Standard/Premium 22.6.1 (versión escalonada; 7 y 9 de junio de 2022)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 24 de junio | [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank} | Se ha iniciado el *Guía para desarrolladores de Adobe Target* para consolidar todo [!DNL Target] contenido para desarrolladores en un portal conveniente. El portal incluye información sobre la implementación de [!DNL Target] y [!DNL Recommendations], [!DNL Target] SDK y [!DNL Target] API. |
-|  | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para el [!DNL Target Standard/Premium] versión 2.6.2. |
-| 14 de junio | [Planificar e implementar Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Se han actualizado los ejemplos de código en las siguientes secciones:<ul><li>Adiciones al carro de compras/vistas del carro de compras/páginas de cierre de compra</li><li>Excluir elementos que ya están en el carro de compras del visitante</li></ul> |
-| 7 de junio | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para el [!DNL Target Standard/Premium] versión 2.6.1. |
+|  | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.6.2 de [!DNL Target Standard/Premium]. |
+| 14 de junio | [Planificar e implementar Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Se han actualizado las muestras de código en las siguientes secciones:<ul><li>Adiciones al carro de compras/vistas del carro de compras/páginas de cierre de compra</li><li>Excluir elementos que ya están en el carro de compras del visitante</li></ul> |
+| 7 de junio | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.6.1 de [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.5.1 (versión escalonada; 11 y 13 de mayo de 2022)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 7 de junio | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha agregado información de prelanzamiento para la variable [!DNL Target Standard/Premium] versión 2.6.1. |
+| 7 de junio | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha añadido información de versión preliminar para la versión 22.6.1 de [!DNL Target Standard/Premium]. |
 | 31 de mayo | [Anuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Se ha añadido información acerca de la próxima Pausa para café de la comunidad de [!DNL Adobe Target] (29 de junio de 2022) |
 | 25 de mayo | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información acerca de la versión de la plataforma [!DNL Target] (25 de mayo de 2022) y la versión at.js 2.9.0 (27 de mayo de 2022). |
 |  | [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Se ha añadido información acerca de la versión 2.9.0 de at.js. |

@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -23,8 +23,8 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 Esta versión incluye las siguientes mejoras y correcciones:
 
 * Los usuarios con la función [!UICONTROL Editor] ya no pueden editar audiencias en actividades activas. (TGT-43582)
-* Aparece un mensaje de advertencia si un cliente intenta guardar una audiencia con un signo de exclamación ( ! ) como el primer carácter del nombre de la audiencia (por ejemplo, !Londres). (TGT-43643)
-* Se ha corregido un problema que provocaba que las tarjetas de detalles de definición de audiencias para algunos clientes indicaran que una actividad finalizada seguía activa. (TGT-43527)
+* Aparece un mensaje de advertencia si un cliente intenta guardar una audiencia con un signo de exclamación (!) como el primer carácter del nombre de la audiencia (por ejemplo, !Londres). (TGT-43643)
+* Se ha corregido un problema que provocaba que las tarjetas de detalles de definición de audiencias de algunos clientes indicaran que una actividad finalizada seguía activa. (TGT-43527)
 
 ## [!DNL Target Standard/Premium] 22.6.1 (versión escalonada: 7 y 9 de junio de 2022)
 
