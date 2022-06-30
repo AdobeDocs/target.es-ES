@@ -1,12 +1,12 @@
 ---
-keywords: interfaz de usuario de target;interfaz de usuario;iu;anuncios;eventos
+keywords: interfaz de usuario de target;interfaz de usuario;iu;anuncios;eventos;notificaciones
 description: Familiarícese con la interfaz de usuario y encuentre vínculos a información más detallada para ayudarle a sacar el máximo partido de [!DNL Target].
 title: ¿Cómo se utiliza la IU de  [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
+source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 46%
 
 ---
@@ -53,7 +53,7 @@ El panel contiene pestañas para [!UICONTROL Notificaciones] y [!UICONTROL Anunc
 
 ![ Notificaciones ](assets/notifications.png)
 
-Las secciones siguientes contienen información sobre cada pestaña y sobre cómo configurar las notificaciones y los anuncios.
+Las secciones siguientes contienen información sobre cada pestaña y sobre cómo configurar las notificaciones y los anuncios:
 
 ###  Notificaciones 
 
