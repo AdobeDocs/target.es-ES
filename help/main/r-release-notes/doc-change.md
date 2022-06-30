@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1106'
 ht-degree: 89%
 
 ---
@@ -19,8 +19,9 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 24 de junio | [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank} | Se ha iniciado el *Guía para desarrolladores de Adobe Target* para consolidar todo [!DNL Target] contenido para desarrolladores en un portal conveniente. El portal incluye información sobre la implementación de [!DNL Target] y [!DNL Recommendations], [!DNL Target] SDK y [!DNL Target] API. |
+| 30 de junio | [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank} | Se ha iniciado el *Guía para desarrolladores de Adobe Target* para consolidar todo [!DNL Target] contenido para desarrolladores en un portal conveniente. El portal incluye información sobre la implementación de [!DNL Target] y [!DNL Recommendations], [!DNL Target] SDK y [!DNL Target] API. |
 |  | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.6.2 de [!DNL Target Standard/Premium]. |
+|  | [Anuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md) | Se agregaron vínculos de grabación para sesiones de seminarios web anteriores. |
 | 14 de junio | [Planificar e implementar Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Se han actualizado las muestras de código en las siguientes secciones:<ul><li>Adiciones al carro de compras/vistas del carro de compras/páginas de cierre de compra</li><li>Excluir elementos que ya están en el carro de compras del visitante</li></ul> |
 | 7 de junio | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.6.1 de [!DNL Target Standard/Premium]. |
 
