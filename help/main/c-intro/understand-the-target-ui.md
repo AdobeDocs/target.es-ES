@@ -4,10 +4,10 @@ description: Familiarícese con la interfaz de usuario y encuentre vínculos a i
 title: ¿Cómo se utiliza la IU de  [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 45%
+source-wordcount: '1344'
+ht-degree: 46%
 
 ---
 
@@ -44,10 +44,6 @@ El icono Ayuda le permite acceder a información, vídeos, blogs y mucho más pa
 ## Notificaciones y anuncios {#notifications-announcements}
 
 Los paneles [!UICONTROL Notificaciones] y [!UICONTROL Anuncios] le ayudan a estar al día acerca de todas las cosas de [!DNL Adobe Target]. Las notificaciones dinámicas ayudan a mantenerle al día del estado de [!DNL Adobe Experience Cloud] soluciones y [!DNL Target] eventos. Las notificaciones proactivas le avisan sobre eventos de interrupción y eventos de mantenimiento.
-
->[!NOTE]
->
->La información sobre la [!UICONTROL Notificaciones y anuncios] en esta sección se aplica actualmente a seleccionar [!DNL Target] y se implementarán para todos los clientes en los próximos meses.
 
 Haga clic en el icono de campana del encabezado para ver las notificaciones:
 
