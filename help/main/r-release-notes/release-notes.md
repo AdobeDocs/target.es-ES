@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -48,12 +48,12 @@ Esta versión incluye las siguientes mejoras y correcciones:
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha añadido [Sugerencias del cliente del agente de usuario](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)Compatibilidad con {target=_blank}.
+* Se ha añadido compatibilidad con [Sugerencias para el cliente del agente de usuario](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}.
 * Se ha corregido un problema que ocasionaba tiempos de espera intermitentes al procesar [!UICONTROL Decisiones de oferta] en actividades de [!UICONTROL Segmentación de experiencias] (XT). (TNT-44611)
 
 ## Versión 2.9.0 de at.js (27 de mayo de 2022)
 
-* Se ha añadido [Sugerencias del cliente del agente de usuario](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)Compatibilidad con {target=_blank}.
+* Se ha añadido compatibilidad con [Sugerencias para el cliente del agente de usuario](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}.
 * Se ha corregido un error por el cual varias solicitudes de mbox en la misma página tenían ID de impresión diferentes.
 
 ## Notas de la versión adicionales y detalles de la versión
