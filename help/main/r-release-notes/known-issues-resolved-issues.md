@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información acerca de problemas conocidos y pro
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Cuando una métrica de éxito se establece para que se incremente con cada impre
 
 ### Analytics for [!DNL Target] (A4T)
 
-Cuando utilice impresiones y conversiones de actividad de Target en Analysis Workspace, aplique el modelo de Attribution IQ “Mismo contacto” a las métricas para garantizar un recuento preciso. Para aplicar un [modelo de atribución no predeterminado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings.html?lang=es#cja-workspace), haga clic con el botón derecho en la métrica para **modificar Configuración de columna > habilitar Utilizar modelo de atribución no predeterminado > seleccione Mismo modelo de contacto**. Si no se aplica este modelo, las métricas se sobrevaloran.
+Cuando utilice impresiones y conversiones de actividad de Target en Analysis Workspace, aplique el modelo de Attribution IQ “Mismo contacto” a las métricas para garantizar un recuento preciso. Para aplicar un [modelo de atribución no predeterminado](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=es), haga clic con el botón derecho en la métrica para **modificar Configuración de columna > habilitar Utilizar modelo de atribución no predeterminado > seleccione Mismo modelo de contacto**. Si no se aplica este modelo, las métricas se sobrevaloran.
 
 Todos los paquetes actuales de Analytics pueden añadir este modelo con Attribution IQ. Si no tiene acceso a Attribution IQ, confíe en los datos de A4T en Reports &amp; Analytics.
 
@@ -135,7 +135,7 @@ A medida que se resuelven los problemas conocidos que hemos mencionado, pasan a 
 
    Como solución alternativa, utilice un espacio en blanco en el contenido de la experiencia.
 
-   Se incluyó una solución para este problema en at.js 2.2.0. Actualice a la variable [versión más reciente o at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} o use la solución mencionada anteriormente solo para versiones de at.js anteriores a la 2.2.0.  (TNT-33366)
+   Se ha incluido una corrección para este problema en at.js 2.2.0. Actualice a la versión [más reciente o a at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} o use la solución mencionada anteriormente solo para las versiones de at.js anteriores a la 2.2.0.  (TNT-33366)
 
 * Si se utilizan las versiones de at.js anteriores a la 2.2.0, el rastreo de clics no informa de las conversiones en [!UICONTROL Analytics for Target] (A4T) si el código de [!DNL Adobe Analytics] no está presente en los elementos de la página (como los botones).
 
