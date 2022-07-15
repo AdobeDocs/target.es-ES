@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ El 2022 le ha dado a las empresas un entorno dinámico de rápida evolución par
 
 +++Haga clic aquí
 
-* **Jueves 11 de agosto de 2022**
+* **Jueves, 11 de agosto de 2022**
 * **13:00 a 14:00 (EDT, UTC-4)**
 * **[Más información e información de registro](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
@@ -36,11 +36,11 @@ El 2022 le ha dado a las empresas un entorno dinámico de rápida evolución par
 
 La siguiente serie de seminarios web está planificada para un futuro próximo:
 
-* Insiders del sector: Perspectiva del sector de la personalización: Viajes y hospitalidad
-* Insiders del sector: Perspectiva del sector de la personalización: Medios y entretenimiento
-* Generadores de aptitudes: Nuevo, Usuarios Premium/Gestores de productos, Desarrolladores Móviles, Especialistas En Marketing, Analistas, Usuarios Empresariales
+* Perspectivas del sector, perspectiva del sector de la personalización: Viajes y hospitalidad
+* Perspectivas del sector, perspectiva del sector de la personalización: Medios y entretenimiento
+* Generadores de habilidades: Nuevo, Usuarios prémium/responsables de productos, Desarrolladores móviles, Especialistas en marketing, Analistas, Usuarios empresariales
 
-Observe las fechas y la información de registro en el [Comunidad de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es){target=_blank}.
+Vea las fechas y la información de registro en la [Comunidad de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es){target=_blank}.
 
 ## Grabaciones de seminarios web anteriores y sesiones de formación
 
