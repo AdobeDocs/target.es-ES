@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: d0b6f81507cc5d5bc17d029c3d8f5b36c2c71a29
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '657'
+ht-degree: 56%
 
 ---
 
@@ -15,9 +15,18 @@ ht-degree: 0%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 30 de junio de 2022**
+**Última actualización: 18 de julio de 2022**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 22.7.1 (20 de julio de 2022)
+
+Esta versión incluye las siguientes funciones, mejoras y correcciones:
+
+| Función | Descripción |
+| --- | --- |
+| Se ha mejorado la precisión de la evaluación de audiencia y la latencia del usuario final gracias a la compatibilidad con IPv6 | Las ubicaciones geográficas de los visitantes ahora están determinadas por las direcciones IPv6, si están disponibles, en lugar de solo las direcciones IPv4. Las API de envío también admiten parámetros de entrada de IPv6. El filtrado y la inclusión en la lista de permitidos admiten direcciones IPv4 e IPv6. Esta compatibilidad con IPv6 en esta versión significa que los visitantes se incluirán de forma más precisa en las audiencias (más exactamente, calificarán para actividades o se incluirán en los criterios de filtrado). También mejora la latencia de datos, ya que los clientes de IPv6 se dirigirán directamente, evitando la sobrecarga de la puerta de enlace IPv6 a IPv4. |
+| Mejora de la gestión de la carga útil del lado del cliente de A4T | Con la integración del lado del servidor de A4T, si Adobe Target identifica una solicitud como proveniente de un bot, no reenvía la carga útil a Analytics y no hay ningún evento mod_stats registrado en los registros de Target. Antes de esta versión, las integraciones del lado del cliente de A4T reenviaban la carga útil a Analytics, incluso cuando se había identificado como tráfico de bots. Esta incoherencia entre el lado del servidor y el del cliente crearía discrepancias, ya que los informes de A4T correspondientes a este último incluían el tráfico de bots. Además, el tráfico de bots no necesariamente se identificó ni se marcó, lo que significa que no fue posible desambiguar ni eliminar el tráfico de bots del resto del tráfico. E incluso si un cliente tuviera en cuenta el tráfico de bots por su cuenta, no coincidiría necesariamente con el conjunto de tráfico que Target identificó y excluyó como tráfico de bots, lo que produciría discrepancias divididas u otros problemas. Con esta versión, se ha mejorado el registro en el lado del cliente de A4T de modo que el comportamiento con respecto a la carga útil de A4T sea el mismo que con el lado del servidor de A4T: Los visitantes identificados como bots se excluyen del recuento/sistema de informes de Target, tanto en el servidor como en el lado del cliente. |
 
 ## [!DNL Target Standard/Premium] 22.6.2 (30 de junio de 2022)
 
