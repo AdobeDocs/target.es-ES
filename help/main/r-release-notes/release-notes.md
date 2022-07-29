@@ -6,9 +6,9 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target] versión de plataforma (20 de julio de 2022)
+## Versión de la plataforma de [!DNL Target] (20 de julio de 2022)
 
 Esta versión incluye las siguientes funciones, mejoras y correcciones:
 
 | Función | Descripción |
 | --- | --- |
-| Se ha mejorado la precisión de la evaluación de audiencia y se ha reducido la latencia del usuario final mediante la compatibilidad con IPv6 (TNT-43364, TNT-44692) | Las ubicaciones geográficas de los visitantes ahora están determinadas por las direcciones IPv6, si están disponibles, en lugar de solo las direcciones IPv4. Las API de envío también admiten parámetros de entrada de IPv6. El filtrado y la inclusión en la lista de permitidos admiten direcciones IPv4 e IPv6. La compatibilidad con IPv6 en esta versión significa que los visitantes se incluirán de forma más precisa en las audiencias (para calificar con mayor precisión para actividades o se incluirán en los criterios de filtrado). También mejora la latencia de datos, ya que los clientes de IPv6 se dirigirán directamente, evitando la sobrecarga de la puerta de enlace IPv6 a IPv4. |
-| Se ha corregido un problema de gestión de carga útil del lado del cliente de A4T (TNT-44926) | Con la integración del lado del servidor de A4T, si Adobe Target identifica una solicitud como proveniente de un bot, no reenvía la carga útil a Analytics y no hay ningún evento mod_stats registrado en el [!DNL Target] registros. Con esta versión, se ha mejorado el registro en el lado del cliente de A4T de modo que el comportamiento con respecto a la carga útil de A4T sea el mismo que con el lado del servidor de A4T: Los visitantes identificados como bots se excluyen de [!DNL Target] recuento/sistema de informes. (Tenga en cuenta que el problema en cuestión se limitaba a las implementaciones que utilizaban la gestión de la carga útil del lado del cliente; el lado del servidor no se vio afectado. Con esta versión, el comportamiento ahora es coherente para la gestión de carga útil del lado del servidor y del lado del cliente). |
+| Se ha mejorado la precisión de la evaluación de audiencia y se ha reducido la latencia del usuario final gracias a la compatibilidad con IPv6 (TNT-43364, TNT-44692) | Las ubicaciones geográficas de los visitantes ahora están determinadas por las direcciones IPv6, si están disponibles, en lugar de solo las direcciones IPv4. Las API de entrega también admiten parámetros de entrada de IPv6. El filtrado y la inclusión en la lista de permitidos admiten direcciones IPv4 e IPv6. La compatibilidad con IPv6 en esta versión significa que los visitantes se incluirán de forma más precisa en las audiencias (más exactamente, calificarán para actividades o se incluirán en los criterios de filtrado). También mejora la latencia de datos, ya que los clientes de IPv6 se dirigirán directamente, lo que evita la sobrecarga de la puerta de enlace IPv6 a IPv4. |
+| Se ha corregido un problema de gestión de carga útil del lado del cliente de A4T (TNT-44926) | Con la integración del lado del servidor de A4T, si Adobe Target identifica una solicitud como proveniente de un bot, no reenvía la carga útil a Analytics y no hay ningún evento mod_stats registrado en los registros de [!DNL Target]. Con esta versión, se ha mejorado el registro en el lado del cliente de A4T, de modo que el comportamiento con respecto a la carga útil de A4T sea el mismo que con el del lado del servidor de A4T. Los visitantes identificados como bots se excluyen del recuento/creación de informes de [!DNL Target]. Tenga en cuenta que el problema en cuestión se limitaba a las implementaciones que utilizaban la gestión de la carga útil del lado del cliente; del lado del servidor no se vieron afectadas. Con esta versión, el comportamiento ahora es coherente para la gestión de carga útil del lado del servidor y del lado del cliente. |
 
 ## [!DNL Target Standard/Premium] 22.6.2 (30 de junio de 2022)
 
