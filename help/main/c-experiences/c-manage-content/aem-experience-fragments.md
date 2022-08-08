@@ -4,10 +4,10 @@ description: Aprenda a utilizar [!DNL Adobe Experience Manager] fragmentos de ex
 title: Cómo Uso [!DNL Adobe Experience Manager] (AEM) ¿Fragmentos de experiencias?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 53%
+source-wordcount: '1369'
+ht-degree: 52%
 
 ---
 
@@ -105,6 +105,10 @@ Puede consumir fragmentos de experiencias en actividades de [!DNL Target] emplea
 
 **Para consumir fragmentos de experiencias usando el VEC:**
 
+>[!NOTE]
+>
+>Fragmentos de experiencia exportados como JSON en [!DNL Target] no se puede usar en actividades creadas con el VEC; solo se admiten fragmentos de experiencia de HTML en actividades basadas en VEC. Si desea utilizar fragmentos de experiencia JSON, utilícelos en actividades creadas con el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md).
+
 1. En [!DNL Target], mientras crea o edita una experiencia en el [Compositor de experiencias visuales](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), haga clic en la ubicación de la página donde desea insertar contenido [!DNL AEM] y, a continuación, seleccione la opción que desee para mostrar la lista [!UICONTROL Elegir un fragmento de experiencias].
 
    * [!UICONTROL Insertar antes]
@@ -146,7 +150,7 @@ Puede consumir fragmentos de experiencias en actividades de [!DNL Target] emplea
 ## Consideraciones {#considerations}
 
 * [!DNL Target] busca fragmentos de experiencia para importar cada diez minutos. El fragmento de experiencia importado debería estar disponible en [!DNL Target] en unos diez minutos, pero este lapso de tiempo debería ser menor en adelante.
-* El fragmento de experiencia se importa en [!DNL Target] como oferta de HTML. La versión &quot;principal&quot; del fragmento de experiencia permanece en [!DNL AEM]. No puede editar el fragmento de experiencia en [!DNL Target].
+* El fragmento de experiencia se importa en [!DNL Target] como HTML o oferta JSON. La versión &quot;principal&quot; del fragmento de experiencia permanece en [!DNL AEM]. No puede editar el fragmento de experiencia en [!DNL Target].
 * No puede crear fragmentos de experiencia utilizando [!DNL Adobe I/O]. Cree fragmentos de experiencia con AEM, tal como se explica más arriba.
 * Si actualiza el fragmento de experiencia en AEM, el fragmento de experiencia debe publicarse y exportarse a [!DNL Target] nuevamente así [!DNL Target] puede utilizar los cambios más recientes.
 
