@@ -4,10 +4,10 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: ht
-source-wordcount: '4524'
-ht-degree: 100%
+source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
+workflow-type: tm+mt
+source-wordcount: '4651'
+ht-degree: 97%
 
 ---
 
@@ -209,6 +209,12 @@ Para volver a sincronizar y corregir los informes:
 1. Elimine las actividades originales (afectadas).
 
 (TGT-38522, CSO 20201006007)
+
+### Indicador de disponibilidad del modelo de segmentación automática y Automated Personalization {#at-ap-model}
+
+La funcionalidad Disponibilidad del modelo para las actividades de Segmentación automática y Automated Personalization falló intermitentemente del 1 de junio de 2022 al 19 de julio de 2022. Esto significa que la interfaz de usuario de informes de Target puede no haber mostrado una marca de verificación verde que indique que un modelo se creó correctamente, aunque las experiencias u ofertas se ofrecieran de forma personalizada en actividades de segmentación automática o de Automated Personalization.
+
+Tenga en cuenta que **creación de modelo personalizado** no se vio afectada y los modelos se construyeron correctamente durante todo el periodo. Solo el sistema de disponibilidad del modelo se vio afectado por este error. **Los datos de los informes tampoco se vieron afectados**. En otras palabras, el rendimiento (visitas, conversiones y tasas de conversión) de las experiencias y ofertas no se vio afectado. Solo la marca de verificación verde que indica la disponibilidad del modelo personalizado puede no haber aparecido.
 
 ### Creación de informes {#conversions-audiences}
 
