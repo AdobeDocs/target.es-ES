@@ -4,10 +4,10 @@ description: Aprenda a crear actividades de asignación automática y segmentaci
 title: ¿Admite A4T las actividades de asignación automática y segmentación automática?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e8fc28ef2497c1dfea523a769c9c817cbd74fea2
+source-git-commit: 6235324c7a8952cca3a238b1948351ddc454862f
 workflow-type: tm+mt
-source-wordcount: '1695'
-ht-degree: 3%
+source-wordcount: '1248'
+ht-degree: 2%
 
 ---
 
@@ -17,8 +17,8 @@ La variable [!DNL Adobe Target]-a-[!DNL Adobe Analytics] integración, conocida 
 
 La integración de A4T le permite:
 
-* Uso [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)La capacidad multi-armed bandit de para dirigir el tráfico a las experiencias ganadoras.
-* Uso [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)Ensamblar el algoritmo de aprendizaje automático para elegir una mejor experiencia para cada visitante. La segmentación automática elige la mejor experiencia en función de los perfiles, comportamientos y contexto de los usuarios, al mismo tiempo que utiliza un [!DNL Adobe Analytics] métrica de objetivo y [!DNL Adobe Analytics]funcionalidades enriquecidas de informes y análisis.
+* Uso [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)La capacidad multi-armed bandit de para dirigir el tráfico a experiencias ganadoras.
+* Uso [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)Ensamble el algoritmo de aprendizaje automático para elegir una mejor experiencia para cada visitante. La segmentación automática elige la mejor experiencia en función de los perfiles, comportamientos y contexto de los usuarios, al mismo tiempo que utiliza un [!DNL Adobe Analytics] métrica de objetivo y [!DNL Adobe Analytics]&#39; capacidades enriquecidas de informes y análisis.
 
 Asegúrese de que [Se ha implementado A4T para su uso con pruebas A/B y actividades de segmentación de experiencias](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Si está utilizando `analyticsLogging = client_side`, también debe pasar la variable `sessionId` valor [!DNL Analytics]. Para obtener más información, consulte [Creación de informes en Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} en la sección *SDK para Adobe Target* guía.
 
@@ -37,11 +37,12 @@ En primer lugar:
 
    ![Sección Fuente de informes en la página Objetivos y configuración](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
-1. Elija una métrica de objetivo principal. La primera lista desplegable le permite especificar un objetivo en [!DNL Adobe Target] (que luego se rastreará mediante [!DNL Adobe Analytics] como métrica &quot;Conversiones de actividad&quot;), o bien, para usar un [!DNL Analytics] como objetivo.
+1. Elija una métrica de objetivo principal.
 
-   * Para usar [!DNL Adobe Target] para especificar el objetivo de optimización, elija **[!UICONTROL Conversión]** y, a continuación, especifique la acción que debe realizar la audiencia para indicar que se ha alcanzado el objetivo de conversión.
-   * Si en su lugar selecciona **[!UICONTROL Usar una métrica de Analytics]**, se le dará la opción de elegir qué tipo de criterio de optimización se debe utilizar.  Consulte [Métricas de objetivo compatibles y criterios de optimización](#supported) más abajo para obtener más información. Después de especificar el criterio de optimización, puede seleccionar una métrica compatible de [!DNL Analytics] para usar como objetivo de optimización. Puede utilizar una [!DNL Analytics] métrica de conversión o una [!DNL Analytics] evento personalizado.
+   * Para usar [!DNL Adobe Target] para especificar el objetivo de optimización, elija **[!UICONTROL Conversión]** .
+   * Choose **[!UICONTROL Usar una métrica de Analytics]** y, a continuación, seleccione una métrica de [!DNL Analytics] para usar como objetivo de optimización. Puede utilizar una [!DNL Analytics] métrica de conversión o una [!DNL Analytics] evento personalizado.
 
+   Consulte [Métricas de objetivo admitidas](#supported) más abajo para obtener más información.
 
 1. Guarde y active su actividad.
 
@@ -51,11 +52,9 @@ En primer lugar:
 
    [!UICONTROL Segmentación automática] utiliza la métrica seleccionada para optimizar la actividad y llevar a los visitantes a una mejor experiencia personalizada.
 
-1. Utilice la variable **[!UICONTROL Informes]** para ver los informes de su actividad y haga clic en **[!UICONTROL Ver en Analytics]** para profundizar y segmentar los datos de los informes en un espacio de trabajo de Adobe Analytics. Puede seguir los siguientes tutoriales para ver cómo configurar los informes en Workspace:
-* Asignación automática: see [Configuración de informes de A4T en Analysis Workspace para actividades de asignación automática](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) en *Tutorials de Adobe Target*
-* Segmentación automática: see [Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) en *Tutorials de Adobe Target*.
+1. Utilice la variable **[!UICONTROL Informes]** para ver los informes de la actividad según su elección de [!DNL Adobe Analytics] métricas. Haga clic en **[!UICONTROL Ver en Analytics]** para profundizar y segmentar los datos de los informes.
 
-## Métricas de objetivo compatibles y criterios de optimización {#supported}
+## Métricas de objetivo admitidas {#supported}
 
 [!UICONTROL A4T] para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] permite elegir cualquiera de los siguientes tipos de métricas como métrica de objetivo principal para la optimización:
 
@@ -63,24 +62,18 @@ En primer lugar:
 * [!DNL Adobe Analytics] métricas de conversión
 * [!DNL Adobe Analytics] eventos personalizados
 
-Sin embargo, [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] los modelos se optimizarán para **normalizado** versiones de estas métricas, con la normalización exacta en función del tipo de actividad. Las opciones para los criterios de optimización para cada tipo de actividad se explican en la siguiente tabla:
+[!UICONTROL A4T] para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] requiere que elija una métrica basada en un evento binomial. Un evento binomial ocurre o no. Los eventos binomiales incluyen un clic, una conversión, un pedido, etc. Estos tipos de eventos también se denominan a veces eventos Bernoulli, binarios o discretos.
 
-| Tipo de actividad | Fuente de métricas | Criterios de optimización | Descripción |
-|---------------|---------------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Asignación automática | Analytics | Maximizar la tasa de conversión de visitantes únicos | Los modelos intentan encontrar la Experiencia con la tasa de conversión de visitante único más alta, que se define como el número de visitantes para los que la métrica de análisis es distinta de cero, dividido por el número total de visitantes (que recibieron esa Experiencia). Esto significa que la métrica se trata como binaria: 0 o 1 para cada visitante único de la actividad.   Utilice esta opción si solo le importa la fracción de usuarios que realizan una acción en particular, o si los eventos de conversión múltiples para un único usuario no son significativos. |
-| Asignación automática | Analytics | Maximizar el valor de la métrica por visitante | Los modelos intentan encontrar la Experiencia con el valor de métrica más alto por visitante, que se define como el valor total de la métrica para todos los usuarios expuestos a esa Experiencia, dividido por el número total de visitantes que recibieron esa Experiencia. Esto significa que la métrica puede tomar cualquier valor para cada visitante único de la actividad. Por ejemplo, si un visitante se convierte varias veces, se contará cada conversión.  Utilice esta opción si está interesado en maximizar una métrica continua como los ingresos totales, o si varios eventos de conversión para un único usuario son más significativos que uno (por ejemplo, si varios pedidos valen más que uno) |
-| Asignación automática | Target | (no se puede configurar) | La métrica se trata como binaria y la tasa de conversión de visitante único se maximiza. |
-| Segmentación automática | Analytics | Maximizar la tasa de conversión de visitas únicas | A diferencia de las pruebas A/B manuales o de asignación automática, la naturaleza personalizada de la segmentación automática significa que la experiencia que ve un visitante puede cambiar en cada nueva visita. La tasa apropiada es entonces una tasa de conversión normalizada por visita, que se define como la fracción de visitas en la que se registra una métrica distinta a cero. Es la tasa de conversión optimizada por la segmentación automática.   De forma similar a la asignación automática, esta opción debe elegirse cuando le importe la fracción de visitas en las que se produce una conversión, es decir, cuando no son importantes los eventos de conversión múltiple que se producen en una sola visita. |
-| Segmentación automática | Analytics | Maximizar el valor de la métrica por visita | Cuando la métrica para la que se está optimizando es continua (por ejemplo, ingresos) o cuando la presencia de varios eventos de conversión en una sola visita es significativa (por ejemplo, varios pedidos), puede elegir maximizar el valor de la métrica por visita. La &quot;tasa&quot; que se está optimizando es el valor total de la métrica, dividido por el número de visitas. |
-| Segmentación automática | Target | (no se puede configurar) | La métrica se trata como binaria y la tasa de conversión de visita única se maximiza. |
+[!UICONTROL A4T] para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] no admite la optimización para métricas continuas. Las métricas continuas incluyen ingresos, número de productos pedidos, duración de la sesión, número de vistas de página en la sesión, etc. A veces, estos tipos de métricas no compatibles también se denominan métricas no binomiales o no Bernoulli.
 
+Los siguientes tipos de métricas no son compatibles con las métricas de objetivo principales:
 
+* [!DNL Adobe Target] métricas de participación e ingresos
+* [!DNL Adobe Analytics] métricas de participación e ingresos
 
-Tenga en cuenta que, según el criterio de optimización, ciertos [!DNL Adobe Analytics] no serán compatibles.
+   Es posible seleccionar un [!DNL Analytics] la métrica de participación o ingresos como métrica de objetivo principal porque [!DNL Target] no puede identificar ni excluir todas las métricas de participación e ingresos de [!DNL Analytics]. Seleccione solo las métricas de conversión binomiales o los eventos personalizados de [!DNL Analytics].
 
-* [!DNL Adobe Analytics] no se admiten métricas calculadas.
-* [!DNL Adobe Analytics] las métricas siempre deben poder segmentarse y, si se está optimizando el valor por visitante/visita, la métrica debe tener polaridad positiva (es decir, los valores positivos son mejores que los negativos)
-* [!DNL Adobe Analytics] métrica utilizada en [!DNL Auto-Target] las actividades de deben estar disponibles en las exportaciones de DataWarehouse.
+* [!DNL Adobe Analytics] métricas calculadas
 
 ## Limitaciones y notas
 
@@ -90,8 +83,10 @@ Algunas limitaciones y notas se aplican a ambos [!UICONTROL Asignación automát
 
 * Al usar [!DNL Adobe Analytics] como fuente de informes para [!UICONTROL Asignación automática] o [!UICONTROL Segmentación automática], siempre debe ver los informes en [!DNL Analytics].
 * La fuente de informes no se puede cambiar de [!DNL Analytics] a [!DNL Target] o a la inversa después de activar una actividad.
-* Aunque las métricas calculadas no son compatibles como métricas de objetivo principales, a menudo es posible lograr el resultado deseado seleccionando un evento personalizado como métrica de objetivo principal. Por ejemplo, si desea optimizar para una métrica como &quot;finalizaciones de formulario por visitante&quot;, seleccione un evento personalizado correspondiente a &quot;finalizaciones de formulario&quot; como métrica de objetivo principal. Como se explica en [Métricas de objetivo compatibles y criterios de optimización](#supported), según el tipo de actividad y el criterio de optimización, [!DNL Target] normaliza automáticamente las métricas de conversión, por lo que no es necesario utilizar una métrica calculada para realizar la normalización.
-
+* Aunque las métricas calculadas no son compatibles como métricas de objetivo principales, a menudo es posible lograr el resultado deseado seleccionando un evento personalizado como métrica de objetivo principal. Por ejemplo, si desea optimizar para una métrica como &quot;finalizaciones de formulario por visitante&quot;, seleccione un evento personalizado correspondiente a &quot;finalizaciones de formulario&quot; como métrica de objetivo principal. [!DNL Target] normaliza automáticamente las métricas de conversión por visita para tener en cuenta la distribución de tráfico desigual, por lo que no es necesario utilizar una métrica calculada para realizar la normalización.
+* Al usar [!DNL Adobe Analytics] como fuente de informes para [!UICONTROL Asignación automática] o [!UICONTROL Segmentación automática] actividades, siempre debe ver los informes en [!DNL Analytics].
+* La fuente de informes no se puede cambiar de [!DNL Analytics] a [!DNL Target] o viceversa después de activar una actividad.
+* Aunque las métricas calculadas no son compatibles como métricas de objetivo principales, a menudo es posible lograr el resultado deseado seleccionando un evento personalizado como métrica de objetivo principal. Por ejemplo, si desea optimizar para una métrica como &quot;finalizaciones de formulario por visitante&quot;, seleccione un evento personalizado correspondiente a &quot;finalizaciones de formulario&quot; como métrica de objetivo principal. [!DNL Target] normaliza automáticamente las métricas de conversión por visitante para [!UICONTROL Asignación automática] , por lo que no es necesario utilizar una métrica calculada para realizar la normalización.
 
 ### Asignación automática {#aa}
 
@@ -102,19 +97,15 @@ Algunas limitaciones y notas se aplican a ambos [!UICONTROL Asignación automát
 
 ### Segmentación automática {#at}
 
-* **Frecuencia de formación**: [!UICONTROL Segmentación automática] los modelos siguen entrenándose cada 24 horas, como de costumbre. Sin embargo, los datos de eventos de conversión procedentes de [!DNL Analytics] se retrasa de seis a 24 horas más. Este retraso implica la distribución del tráfico por [!DNL Target] rastrea los últimos eventos registrados en [!DNL Analytics]. Este retraso tiene el mayor efecto en las primeras 48 horas después de activar una actividad inicialmente. El rendimiento de la actividad se reflejará más de cerca [!DNL Analytics] comportamiento de conversión después de cinco días. Considere utilizar [!UICONTROL Asignación automática] en lugar de [!UICONTROL Segmentación automática] para actividades de corta duración en las que la mayoría del tráfico se produce dentro de los cinco primeros días de vida de la actividad.
+* [!UICONTROL Segmentación automática] los modelos siguen entrenándose cada 24 horas, como de costumbre. Sin embargo, los datos de eventos de conversión procedentes de [!DNL Analytics] se retrasa de seis a 24 horas más. Este retraso implica la distribución del tráfico por [!DNL Target] rastrea los últimos eventos registrados en [!DNL Analytics]. Este retraso tiene el mayor efecto en las primeras 48 horas después de activar una actividad inicialmente. El rendimiento de la actividad se reflejará más de cerca [!DNL Analytics] comportamiento de conversión después de cinco días. Considere utilizar [!UICONTROL Asignación automática] en lugar de [!UICONTROL Segmentación automática] para actividades de corta duración en las que la mayoría del tráfico se produce dentro de los cinco primeros días de vida de la actividad.
 * Al usar [!DNL Analytics] como fuente de datos para un [!UICONTROL Segmentación automática] actividad, las sesiones finalizan después de que hayan transcurrido seis horas. No se contabilizan las conversiones que se producen después de seis horas.
 
 Para obtener más información, consulte [Modelos de atribución y ventanas retroactivas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) en el *Guía de herramientas de Analytics*.
 
-## Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática y asignación automática {#tutorial}
+## Tutorial: Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática {#tutorial}
 
-Aunque las funciones de análisis enriquecidos están disponibles en [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], algunas modificaciones al valor predeterminado [!UICONTROL Analytics para Target] para interpretar correctamente las actividades de Asignación automática y Segmentación automática.
+Aunque las funciones de análisis enriquecidos están disponibles en [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], algunas modificaciones al valor predeterminado [!UICONTROL Analytics para Target] para interpretar correctamente las actividades de segmentación automática. Estas modificaciones son necesarias debido a las diferencias entre las actividades de experimentación (manual A/B y [!UICONTROL Asignación automática]) y actividades de personalización ([!UICONTROL Segmentación automática]).
 
-Estas modificaciones son necesarias debido a las definiciones matizadas de las tasas de conversión descritas en [Métricas de objetivo compatibles y criterios de optimización](#supported), así como las diferencias entre las actividades de experimentación (manual A/B y [!UICONTROL Asignación automática]) y actividades de personalización ([!UICONTROL Segmentación automática]).
+Este tutorial le guía por las modificaciones recomendadas para el análisis [!UICONTROL Segmentación automática] actividades en [!UICONTROL Espacio de trabajo].
 
-Estos tutoriales le guían a través de las modificaciones recomendadas para el análisis [!UICONTROL A4T] [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades en [!UICONTROL Espacio de trabajo].
-
-Para obtener más información, consulte  
-* [Configuración de informes de A4T en Analysis Workspace para actividades de asignación automática](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) en *Tutorials de Adobe Target*.
-* [Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) en *Tutorials de Adobe Target*.
+Para obtener más información, consulte [Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) en *Tutorials de Adobe Target*.
