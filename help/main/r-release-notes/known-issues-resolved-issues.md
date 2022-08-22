@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información acerca de problemas conocidos y pro
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4651'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Si se intenta archivar actividades inactivas de [!UICONTROL Segmentación autom�
 
 * Para los sitios web de aplicación de una sola página, la cancelación de la carga no permite editar acciones en el panel [!UICONTROL Modificaciones].
 
-### Recomendaciones
+### Recommendations
 
 Los siguientes son problemas conocidos de las actividades de [!UICONTROL Recommendations]:
 
@@ -96,7 +96,7 @@ A continuación, detallamos los problemas conocidos de at.js:
 
    Este problema se aplica solo a actividades de Recommendations que usan el VEC.
 
-   **Solución alternativa**: en [!UICONTROL Recomendaciones > Configuración], desactive la opción [!UICONTROL Filtrar los criterios no compatibles]. Después de desactivar este ajuste, el selector de criterios los muestra todos, compatibles y no compatibles. (TGT-25949)
+   **Solución alternativa**: en [!UICONTROL Recommendations > Configuración], desactive la opción [!UICONTROL Filtrar los criterios no compatibles]. Después de desactivar este ajuste, el selector de criterios los muestra todos, compatibles y no compatibles. (TGT-25949)
 
 * Los mboxes no se activan en los navegadores Microsoft Explorer 11 después de actualizar a at.js versión 1.0 debido a la interacción entre at.js y la API de visitante 2.2.0. Este problema afecta a la versión 0.9.6 y posteriores de at.js. (TNT-27600)
 * Es posible que at.js no funcione con aplicaciones Cordova o híbridas porque no admiten las cookies de origen. (TNT-26166)
@@ -210,11 +210,11 @@ Para volver a sincronizar y corregir los informes:
 
 (TGT-38522, CSO 20201006007)
 
-### Indicador de disponibilidad del modelo de segmentación automática y Automated Personalization {#at-ap-model}
+### Indicador de disponibilidad del modelo Segmentación automática y Automated Personalization {#at-ap-model}
 
-La funcionalidad Disponibilidad del modelo para las actividades de Segmentación automática y Automated Personalization falló intermitentemente del 1 de junio de 2022 al 19 de julio de 2022. Esto significa que la interfaz de usuario de informes de Target puede no haber mostrado una marca de verificación verde que indique que un modelo se creó correctamente, aunque las experiencias u ofertas se ofrecieran de forma personalizada en actividades de segmentación automática o de Automated Personalization.
+La funcionalidad Disponibilidad del modelo para las actividades Segmentación automática y Automated Personalization experimentó fallos de forma intermitente del 1 de junio de 2022 al 19 de julio de 2022. Esto significa que la IU de creación de informes de Target puede no haber mostrado la marca de verificación verde que indica que un modelo se creó correctamente, aunque las experiencias u ofertas se ofrecieran de forma personalizada en actividades de Segmentación automática o de Automated Personalization.
 
-Tenga en cuenta que **creación de modelo personalizado** no se vio afectada y los modelos se construyeron correctamente durante todo el periodo. Solo el sistema de disponibilidad del modelo se vio afectado por este error. **Los datos de los informes tampoco se vieron afectados**. En otras palabras, el rendimiento (visitas, conversiones y tasas de conversión) de las experiencias y ofertas no se vio afectado. Solo la marca de verificación verde que indica la disponibilidad del modelo personalizado puede no haber aparecido.
+Tenga en cuenta que la **creación de modelos personalizados en sí** no se vio afectada y los modelos se construyeron correctamente durante todo el período. Solo el sistema de disponibilidad del modelo se vio afectado por este error. **Los datos de creación de informes tampoco resultaron alterados**. En otras palabras, el rendimiento (visitas, conversiones y tasas de conversión) de las experiencias y las ofertas no sufrieron alteraciones. Solo puede no haber aparecido la marca de verificación verde que indica la disponibilidad del modelo personalizado.
 
 ### Creación de informes {#conversions-audiences}
 
@@ -272,7 +272,7 @@ Se ha visto *no* afectado si:
 
 Para determinar si este problema afectó a los informes de Target, póngase en contacto con [atención al cliente](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
-### Recomendaciones
+### Recommendations
 
 * El índice de fuentes de Recommendations puede mostrar “Esperando índice” si los elementos de la fuente son los mismos que en la ejecución anterior. La ingesta del producto para la entrega no se ve afectada. (RECS-6663)
 
@@ -347,7 +347,7 @@ Cuando edita o copia una actividad de Recommendations que usa una regla de promo
 
 Se corrigió en la versión 17.8.1.
 
-### Recomendaciones de copia de seguridad
+### Recommendations de copia de seguridad
 
 Las recomendaciones de copias de seguridad muestran erróneamente “Habilitado” en las tarjetas de Elementos visualizados recientemente en la IU de Target. (TGT-29308)
 
