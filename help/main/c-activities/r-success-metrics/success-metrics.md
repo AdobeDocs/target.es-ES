@@ -4,9 +4,9 @@ description: Obtenga información sobre las métricas de éxito en Adobe [!DNL T
 title: ¿Qué son las métricas de éxito?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 44%
 
 ---
@@ -27,7 +27,7 @@ Métricas de ingresos establecidas en &quot;[!UICONTROL Incremente el recuento y
 
 >[!NOTE]
 >
->Para actividades que utilizan [Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) La métrica de objetivo siempre utilizará la variable[!UICONTROL Aumentar recuento y mantener al usuario en la actividad]&quot; y &quot;[!UICONTROL En cada impresión]&quot;. Esto es *not* configurable.
+>Para actividades que utilizan [Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), la métrica de objetivo siempre utilizará la variable[!UICONTROL Aumentar recuento y mantener al usuario en la actividad]&quot; y &quot;[!UICONTROL En cada impresión]&quot;. Esto es *not* configurable.
 
 Están disponibles las siguientes métricas de éxito:
 
@@ -75,7 +75,7 @@ Por ejemplo, una conversión de prueba podría ser válida únicamente si el vis
 
 La funcionalidad de dependencia es *not* compatible con lo siguiente:
 
-* [!UICONTROL Actividades de Recommendations. ] La funcionalidad admite los demás tipos de actividad.
+* Actividades de [!UICONTROL Recommendations. ] La funcionalidad admite los demás tipos de actividad.
 * Si usa [Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 * El tipo de métrica “Visualizó una página”.
 * El tipo de métrica “Se hizo clic en un elemento” para actividades del Compositor de experiencias visuales (VEC).
