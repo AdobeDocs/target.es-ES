@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Gartner ha nombrado [!DNL Adobe Target] líder en su último Cuadrante Mágico p
 
 Para obtener más información, consulte la [Publicación en el blog de Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Pausa de café Q&amp;A de la comunidad
+## [!DNL Adobe Target] Termina de café Q&amp;A de la comunidad (31 de agosto de 2022)
 
 * **Miércoles, 31 de agosto de 2022**
 * **De 9:00 a 10:00 a.m. (PDT, UTC-7)**
@@ -58,7 +58,7 @@ Analicemos ideas sobre:
 * Creación de experiencias hiperpersonalizadas
 +++
 
-## [!DNL Adobe Target] Generadores de habilidades: Optimización de experiencias móviles (6 de septiembre de 2022)
+### [!DNL Adobe Target] Generadores de habilidades: Optimización de experiencias móviles (6 de septiembre de 2022)
 
 Las experiencias móviles están impulsando la innovación en la forma en que los equipos de ingeniería y marketing están aprovechando las estrategias basadas en productos para la personalización entre canales en la web y la aplicación. Únase a [!DNL Adobe] Sesión de los creadores de habilidades y aprenda a [!DNL Adobe Target] desbloquea la participación potencial y el crecimiento de ingresos nuevos para los especialistas en marketing, desarrolladores y propietarios de productos a fin de crear comunidades de productos florecientes.
 
@@ -70,7 +70,7 @@ Las experiencias móviles están impulsando la innovación en la forma en que lo
 
 +++
 
-## [!DNL Adobe Target] Generadores de habilidades: personalización y Recommendations impulsadas por IA (15 de septiembre de 2022)
+### [!DNL Adobe Target] Generadores de habilidades: personalización y Recommendations impulsadas por IA (15 de septiembre de 2022)
 
 La automatización de la experimentación y la personalización sigue siendo la causa principal de las conversiones y el retorno de la inversión más elevadas para los equipos de marketing, ingeniería y productos. Únase a [!DNL Adobe] Skills Builder sesión y aprenda a usar [!DNL Adobe Target] casos de uso avanzados impulsados por IA y capacidades con recomendaciones de productos y contenido para mantenerse por delante de la competencia y aprovechar todas las experiencias.
 
