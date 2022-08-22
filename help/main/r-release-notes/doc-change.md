@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9f758ce9b86bc795a6f846a759e7a3d0a8578a47
+source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 94%
+source-wordcount: '1194'
+ht-degree: 93%
 
 ---
 
@@ -15,11 +15,12 @@ ht-degree: 94%
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
-## Adobe Target Standard/Premium 22.7.1
+## Adobe Target Standard/Premium 22.8.1 (versión escalonada: 17 y 18 de agosto de 2022)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 22 de agosto | [[!DNL Adobe Target] anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido la información sobre el siguiente anuncio:<ul><li>[!DNL Target] nombrado líder en Gartner Magic Quadrant for Personalization Engines (2022)</li></ul>Se ha añadido información sobre los próximos eventos siguientes:<ul><li>[!DNL Adobe Target] Termina de café Q&amp;A de la comunidad (31 de agosto de 2022)</li><li>Colección de Chef: Fórmulas para personalización (30 de agosto de 2022)</li><li>[!DNL Adobe Target] Generadores de habilidades: Optimización de experiencias móviles (6 de septiembre de 2022)</li><li>[!DNL Adobe Target] Generadores de habilidades: personalización y Recommendations impulsadas por IA (15 de septiembre de 2022)</li></ul>Se ha añadido un vínculo de grabación para la siguiente sesión del seminario web anterior:<ul><li>Adobe: Perspectiva del sector de la personalización: minorista (11 de agosto de 2022)</li></ul> |
+| 22 de agosto[Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.8.1 de [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.6.1 (versión escalonada; 7 y 9 de junio de 2022)
 
