@@ -4,9 +4,9 @@ description: Aprenda a crear criterios que controlen el contenido de sus activid
 title: ¿Cómo creo criterios en Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
 workflow-type: tm+mt
-source-wordcount: '2832'
+source-wordcount: '2835'
 ht-degree: 53%
 
 ---
@@ -170,10 +170,6 @@ Para obtener más información sobre cómo elegir un [!UICONTROL Clave de recome
 
    Para obtener más información, consulte [Especificar reglas de inclusión](#inclusion) más abajo.
 
-1. (Opcional) Deslice la **[!UICONTROL Recomendar artículos comprados anteriormente]** cambie a la posición &quot;activado&quot;.
-
-   Esta configuración se basa en `productPurchasedId`. El comportamiento predeterminado es no recomendar artículos comprados previamente. En la mayoría de los casos, no desea promocionar artículos que un cliente haya comprado recientemente. Es útil si vende artículos que la gente suele comprar solo una vez como, por ejemplo, canoas. Si vende artículos que la gente vuelve a comprar repetidamente, como champú u otros artículos personales, debe activar esta opción.
-
 ## Similitud de contenido {#similarity}
 
 Use reglas de [!UICONTROL similitud de contenido] para hacer recomendaciones según los atributos de artículos o medios.
@@ -219,6 +215,10 @@ Las opciones de reglas de inclusión varían por sector. De forma predeterminada
 Las reglas de inclusión se unen mediante Y. Deben cumplirse todas las reglas para incluir un artículo en una recomendación.
 
 Para crear una regla de inclusión sencilla, como se mencionó, previamente, que muestre únicamente zapatos de mujer de entre 25 y 45 dólares y de los que haya más de 50 pares en el inventario, siga los pasos siguientes:
+
+1. (Condicional) Deslice el **[!UICONTROL ¿Permitir que se recomienden los artículos comprados recientemente?]** cambie a la posición &quot;activado&quot;.
+
+   Esta configuración se basa en `productPurchasedId`. El comportamiento predeterminado es no recomendar artículos comprados previamente. En la mayoría de los casos, no desea promocionar artículos que un cliente haya comprado recientemente. Es útil si vende artículos que la gente suele comprar solo una vez como, por ejemplo, canoas. Si vende artículos que la gente vuelve a comprar repetidamente, como champú u otros artículos personales, debe activar esta opción.
 
 1. Establezca un rango de precios para los productos que desea recomendar.
 1. Defina la cantidad mínima en inventario para los productos que desea recomendar.
