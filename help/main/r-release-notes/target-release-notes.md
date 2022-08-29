@@ -4,7 +4,7 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 78c394a2e82bdf02f124240f0755f4b747804cf6
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 52%
@@ -29,7 +29,7 @@ Esta versión estará disponible según la siguiente programación escalonada:
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha añadido un [!UICONTROL Dominio cruzado] al descargar at.js 2.9.0 (y versiones posteriores) para permitir o deshabilitar la configuración de cookies de terceros (TGT-43674)
+* Se ha añadido un [!UICONTROL Dominio cruzado] al descargar at.js 2.9.1 (y versiones posteriores) para permitir o deshabilitar la configuración de cookies de terceros (TGT-43674)
 * Se ha corregido un problema que provocaba [!UICONTROL Ofertas de decisión] para no funcionar correctamente dentro de [!UICONTROL Compositor de experiencias visuales] (VEC). (TGT-43866)
 * Se ha corregido un problema que provocaba que se mostrara un mensaje de error al seleccionar la variable [!UICONTROL Se ha hecho clic en un elemento] objetivo de conversión al crear un [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
 * Se ha corregido un problema que impedía que la variable [!UICONTROL Impresiones] de visualización en el archivo de informe CSV descargado para [!UICONTROL Automated Personalization] (AP). (TGT-43780)
