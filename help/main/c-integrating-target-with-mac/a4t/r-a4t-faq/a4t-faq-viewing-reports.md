@@ -4,10 +4,10 @@ description: Encuentre respuestas a preguntas que se plantean a menudo sobre la 
 title: ¿Encuentra respuestas a preguntas sobre la visualización de informes con A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 38%
+source-wordcount: '2551'
+ht-degree: 34%
 
 ---
 
@@ -115,7 +115,7 @@ El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. 
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Total | 2 | 20 | 3 | 1 | 1 |
 
-Puesto que ambas experiencias se vieron antes de la conversión, ambas son las &quot;responsables&quot; del pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. Para [!DNL Target] informes, porque no está poniendo un [!DNL Target] actividad en relación con otra actividad para ver cuál es más exitosa, no importa que todas las actividades que vio el usuario obtengan crédito. Está comparando los resultados de dos elementos dentro de la actividad única. Un usuario no puede ver experiencias diferentes en la misma actividad, por lo que no tiene que preocuparse por la contaminación cruzada del crédito de pedido.
+Puesto que ambas experiencias se vieron antes de la conversión, ambas son las &quot;responsables&quot; del pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. Para [!DNL Target] informe, porque no está poniendo un [!DNL Target] actividad contra otra actividad para ver cuál es más exitosa, no importa que todas las actividades que vio el usuario obtuvieran crédito. Está comparando los resultados de dos elementos dentro de la actividad única. No es posible que un usuario vea experiencias diferentes en la misma actividad, por lo que no tiene que preocuparse por la contaminación cruzada del crédito de pedido.
 
 Para obtener más información, consulte [Variables de conversión (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) en el *Guía de administración de Analytics*.
 
@@ -125,13 +125,13 @@ Una fuente de impresiones sobre el informe de una actividad de A4T después de l
 
 ## ¿Por qué Analytics y Analytics for Adobe Target (A4T) calculan las cifras de la métrica Visitantes únicos de distinta forma? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-Una de las presuposiciones que se dan al ejecutar una prueba A/B, que emplea la prueba T de estudiante (la métrica de confianza) para elegir al ganador de una prueba, es que hay un plazo de tiempo fijo. La prueba solo es válida estadísticamente si se mira este tamaño de muestra fijo.
+Al ejecutar una prueba A/B, que usa la variable [Prueba T de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (la métrica de confianza) para elegir el ganador de una prueba; uno de los supuestos es que hay un horizonte temporal fijo. La prueba no es válida estadísticamente a menos que esté mirando ese tamaño de muestra fijo.
 
-La variable [!UICONTROL Visitantes únicos] es diferente en [!DNL Analytics] y [!DNL Target] solo cuando observa un periodo más corto que la prueba real. Si no se ha alcanzado el tamaño de la muestra, la prueba no es tan fiable. Consulte [Cómo no ejecutar una prueba A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) en [el sitio web de Evan Miller](https://www.evanmiller.org/index.html) para obtener más información.
+La variable [!UICONTROL Visitantes únicos] es diferente en [!DNL Analytics] y [!DNL Target] solo cuando observa un periodo más corto que la prueba real. Si no ha alcanzado el tamaño de la muestra, la prueba no es tan fiable. Consulte [Cómo no ejecutar una prueba A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) en [el sitio web de Evan Miller](https://www.evanmiller.org/index.html) para obtener más información.
 
 La variable [!UICONTROL Visitantes únicos] muestra el número de personas que han estado expuestas a la prueba y que han visitado el sitio durante el período de tiempo especificado. Estas personas forman parte de la prueba y deben incluirse en el recuento. Si desea ver solo el número de personas que han estado expuestas durante una semana, puede crear un segmento de visitantes que efectuaron una impresión de actividad y aplicarlo al informe.
 
-Puede acortar la cantidad de tiempo que se tarda en [!DNL Target] persiste hasta una sesión; sin embargo, esto resulta problemático en las pruebas en las que no es tan probable que el evento de conversión se produzca en la misma sesión.
+Puede acortar la cantidad de tiempo que se tarda en [!DNL Target] persiste hasta una sesión; sin embargo, esto es problemático en las pruebas en las que el evento de conversión no es tan probable que ocurra dentro de la misma sesión.
 
 ## ¿Por qué en Analytics a veces se cuenta el mismo visitante en diferentes experiencias?   {#section_1397E972D31C4207A142E4D2D6D794A2}
 

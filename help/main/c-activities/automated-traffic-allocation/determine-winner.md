@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo interpretar los resultados de una 
 title: ¿Cómo interpreto los informes de asignación automática?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 45%
@@ -59,7 +59,7 @@ Las barras de intervalo de confianza mostradas representan el intervalo de confi
 
 Se encuentra un ganador cuando el intervalo de confianza del 95 % de la experiencia principal no se superpone con ninguna otra experiencia. La experiencia ganadora se designa con un distintivo de estrella verde a la izquierda del nombre de la experiencia y en el banner &quot;Ganador&quot;. Cuando no hay ninguna estrella visible, el banner dice &quot;Ningún ganador aún&quot; y aún no se ha encontrado un ganador.
 
-También se comunica un número de &quot;confianza&quot; junto a la experiencia ganadora o líder actual. Esta cifra solo se registra hasta que la confianza de la experiencia principal alcance al menos el 60 %. Si hay exactamente dos experiencias presentes en el experimento de asignación automática, este número representa el nivel de confianza de que la experiencia está teniendo un mejor rendimiento que la otra experiencia. Si hay más de dos experiencias presentes en el experimento de asignación automática, este número representa el nivel de confianza de que la experiencia está teniendo un mejor rendimiento que la experiencia definida como &quot;Control&quot;. Si la experiencia &quot;Control&quot; está ganando, no se notifica ninguna cifra de &quot;Confianza&quot;.
+También se comunica un número de &quot;confianza&quot; junto a la experiencia ganadora o líder actual. Esta cifra se registra solamente hasta que la confianza de la experiencia líder alcance al menos el 60%. Si hay exactamente dos experiencias presentes en el experimento de asignación automática, este número representa el nivel de confianza de que la experiencia está teniendo un mejor rendimiento que la otra experiencia. Si hay más de dos experiencias presentes en el experimento de asignación automática, este número representa el nivel de confianza de que la experiencia está teniendo un mejor rendimiento que la experiencia definida como &quot;Control&quot;. Si la experiencia &quot;Control&quot; está ganando, no se notifica ninguna cifra de &quot;Confianza&quot;.
 
 ## Preguntas frecuentes {#section_C8E068512A93458D8C006760B1C0B6A2}
 
@@ -71,7 +71,7 @@ Alguna de las siguientes razones describe la razón por la que se muestra un 0 
 
 * Las pruebas A/B manuales y la asignación automática usan diferentes estadísticas para mostrar valores de confianza.
 
-   Las pruebas A/B manuales usan valores p según una [prueba T de estudiante](https://en.wikipedia.org/wiki/Student%27s_t-test). Un valor P es la probabilidad de encontrar la diferencia observada (o más extrema) entre una experiencia y el control, dado que en la realidad no existe dicha diferencia. Estos valores P solo pueden utilizarse para determinar si los datos observados son coherentes con una experiencia determinada y si el control es el mismo. Estos valores no pueden usarse para determinar si una experiencia es diferente a otra experiencia (no control).
+   Las pruebas A/B manuales utilizan valores p basados en [Prueba T de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test). Un valor P es la probabilidad de encontrar la diferencia observada (o más extrema) entre una experiencia y el control, dado que en la realidad no existe dicha diferencia. Estos valores P solo pueden utilizarse para determinar si los datos observados son coherentes con una experiencia determinada y si el control es el mismo. Estos valores no pueden usarse para determinar si una experiencia es diferente a otra experiencia (no control).
 
    La asignación automática muestra la probabilidad de que una experiencia indicada sea la auténtica ganadora de todas las experiencias de la actividad. Esto significa que solo una experiencia ganadora (que tiene más probabilidades de ganar) tendrá un valor de confianza diferente a cero. El resto tienen más probabilidades de perder y mostrarán un 0 %.
 
