@@ -5,9 +5,9 @@ title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 94%
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
-## Adobe Target Standard/Premium 22.8.1 (versión escalonada: 17 y 18 de agosto de 2022)
+## Versión 22.8.1 de Adobe Target Standard/Premium (versión escalonada: 17 y 18 de agosto de 2022)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 22 de agosto | [[!DNL Adobe Target] anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido la información sobre el siguiente anuncio:<ul><li>[!DNL Target] nombrado líder en Gartner Magic Quadrant for Personalization Engines (2022)</li></ul>Se ha añadido información sobre los próximos eventos siguientes:<ul><li>[!DNL Adobe Target] Termina de café Q&amp;A de la comunidad (31 de agosto de 2022)</li><li>Colección de Chef: Fórmulas para personalización (30 de agosto de 2022)</li><li>[!DNL Adobe Target] Generadores de habilidades: Optimización de experiencias móviles (6 de septiembre de 2022)</li><li>[!DNL Adobe Target] Generadores de habilidades: personalización y Recommendations impulsadas por IA (15 de septiembre de 2022)</li></ul>Se ha añadido un vínculo de grabación para la siguiente sesión del seminario web anterior:<ul><li>Adobe: Perspectiva del sector de la personalización: minorista (11 de agosto de 2022)</li></ul> |
-| 22 de agosto | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.8.1 de [!DNL Target Standard/Premium]. |
+| 22 de agosto | Anuncios y eventos de [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Se ha añadido la información acerca del siguiente anuncio:<ul><li>[!DNL Target] designado como líder en Magic Quadrant de Gartner para motores de personalización (2022)</li></ul>Se ha añadido información acerca de los eventos siguientes:<ul><li>Coffee break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (31 de agosto de 2022)</li><li>Chef&#39;s Collection: Fórmulas para la personalización (30 de agosto de 2022)</li><li>Generadores de habilidades de [!DNL Adobe Target]: optimización de experiencias móviles (6 de septiembre de 2022)</li><li>Generadores de habilidades de [!DNL Adobe Target]: personalización y recomendaciones impulsadas por IA (15 de septiembre de 2022)</li></ul>Se ha añadido el siguiente vínculo de grabación de la sesión del seminario web anterior:<ul><li>Adobe: Perspectiva del sector de la personalización: minorista (11 de agosto de 2022)</li></ul> |
+| 22 de agosto | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.8.1 de [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.6.1 (versión escalonada; 7 y 9 de junio de 2022)
 
@@ -104,6 +104,6 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Creación de audiencias](/help/main/c-target/c-audiences/audiences.md) | Se ha añadido información acerca de las audiencias de [!DNL Adobe Experience Platform]. |
 |  | [Combinación de varias audiencias](/help/main/c-target/combining-multiple-audiences.md) | Se ha añadido información acerca de las audiencias de [!DNL Adobe Experience Platform]. |
 | 21 de enero | [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Se ha agregado información sobre la versión 1.8.3 de at.js. |
-| 19 de enero | [Actualización de at.js 1.*x* a at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Se ha añadido la siguiente sección: &quot;at.js 2.*x* no admite la creación de audiencias con vst.* parámetros&quot; |
+| 19 de enero | [Actualización de at.js 1.*x* a at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Se ha añadido la siguiente sección: “at.js 2.*x* no admite la creación de audiencias con vst.* parámetros” |
 | 12 de enero | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información acerca de la versión 22.1.1 de Target Standard/Premium. |
 |  | [SDK web de Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Se ha añadido un vínculo al tutorial con instrucciones para implementar [!DNL Adobe Experience Cloud] con el SDK web. |
