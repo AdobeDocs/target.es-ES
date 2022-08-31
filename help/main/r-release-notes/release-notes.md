@@ -6,9 +6,9 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 22.8.1 (versión escalonada del 17 al 18 de agosto de 2022)
+## [!DNL Target Standard/Premium] 22.8.1 (versión escalonada: 17 y 18 de agosto de 2022)
 
 Esta versión de mantenimiento incluye correcciones de back-end y localización.
 
