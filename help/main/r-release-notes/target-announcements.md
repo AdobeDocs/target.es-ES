@@ -6,18 +6,18 @@ feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Target] anuncios y eventos
+# Anuncios y eventos de [!DNL Adobe Target]
 
 Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [!DNL Target] Sesiones de coffee break, [!DNL Target] serie de seminarios web, [!DNL Target] Sesiones de generador de habilidades, charlas de desarrollador y mucho más. Los vínculos de las grabaciones anteriores se incluyen si están disponibles.
 
-## [!DNL Target] designado como líder en el Magic Quadrant de Gartner para motores de personalización (2022)
+## [!DNL Target] designado como líder en Magic Quadrant de Gartner para motores de personalización (2022)
 
-Gartner ha nombrado a [!DNL Adobe Target] como líder en su último Magic Quadrant para motores de personalización (PE) por quinto año consecutivo. [!DNL Adobe] también recibió puntuaciones principales y aumentos significativos año tras año en los tres casos de uso principal: Marketing digital, comercio digital y servicio y asistencia. [!DNL Target] también recibió las puntuaciones más elevadas por las capacidades de prueba entre todos los proveedores evaluados.
+Gartner ha nombrado a [!DNL Adobe Target] como líder en su último Magic Quadrant para motores de personalización (PE) por quinto año consecutivo. [!DNL Adobe] también recibió puntuaciones muy altas y un aumento significativo año tras año en los tres casos de uso principales: Marketing digital, Comercio digital y Servicio y asistencia. [!DNL Target] también recibió las puntuaciones más elevadas por las capacidades de prueba entre todos los proveedores evaluados.
 
 Para obtener más información, consulte la [Publicación de blog de Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
