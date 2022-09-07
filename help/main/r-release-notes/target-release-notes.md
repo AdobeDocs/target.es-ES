@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 40%
+ht-degree: 71%
 
 ---
 
@@ -23,19 +23,19 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
-* **13 de septiembre**: Región de Europa, Oriente Medio y África (EMEA)
-* **14 de septiembre**: Región de América
-* **15 de septiembre**: Región de Asia y el Pacífico (APAC)
+* **13 de septiembre**: región de Europa, Oriente Medio y África (EMEA)
+* **14 de septiembre**: región de América
+* **15 de septiembre**: región Asia-Pacífico (APAC)
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
 * Se ha añadido un [!UICONTROL Dominio cruzado] al descargar at.js 2.9.1 (y versiones posteriores) para permitir o deshabilitar la configuración de cookies de terceros. (TGT-43674)
 * Se han actualizado las notificaciones en el [!DNL Target] Interfaz de usuario para informar a los clientes de que las actividades se han habilitado, deshabilitado y han alcanzado los umbrales de objetivo y alza. (TGT-35811)
-* Se ha corregido un problema que provocaba [!UICONTROL Ofertas de decisión] para no funcionar correctamente dentro de [!UICONTROL Compositor de experiencias visuales] (VEC). (TGT-43866)
-* Se ha corregido un problema que provocaba que se mostrara un mensaje de error al seleccionar la variable [!UICONTROL Se ha hecho clic en un elemento] objetivo de conversión al crear un [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
-* Se ha corregido un problema que impedía que la variable [!UICONTROL Impresiones] de visualización en el archivo de informe CSV descargado para [!UICONTROL Automated Personalization] (AP). (TGT-43780)
-* Se ha corregido un problema que impedía que los clientes editaran ofertas HTML/JSON después de duplicar experiencias al usar la variable [!UICONTROL Compositor de experiencias basadas en formularios]. (TGT-43633)
-* Se ha corregido un problema que impedía que los clientes copiaran un [!UICONTROL Prueba A/B] de un espacio de trabajo no predeterminado a otro no predeterminado. (TGT-41910)
+* Se ha solucionado un problema que provocaba que las [!UICONTROL Ofertas de decisión] no funcionaran correctamente dentro del [!UICONTROL Compositor de experiencias visuales] (VEC). (TGT-43866)
+* Se ha corregido un problema que provocaba que se mostrara un mensaje de error al seleccionar el objetivo de conversión. [!UICONTROL Se ha hecho clic en un elemento] al crear una [!UICONTROL Prueba multivariada] (MVT). (TGT-43842)
+* Se ha corregido un problema que impedía que la columna [!UICONTROL Impresiones] mostrara el archivo de informe CSV descargado para actividades de [!UICONTROL Automated Personalization] (AP). (TGT-43780)
+* Se ha corregido un problema que impedía que los clientes editaran ofertas HTML/JSON después de duplicar experiencias al usar el [!UICONTROL Compositor de experiencias basadas en formularios]. (TGT-43633)
+* Se ha corregido un problema que impedía que los clientes copiaran una actividad de [!UICONTROL Prueba A/B] de un espacio de trabajo no predeterminado a otro no predeterminado. (TGT-41910)
 * Se ha corregido un problema para garantizar que los clientes puedan editar y eliminar correctamente objetos (diseños, criterios, colecciones, etc.) mediante la función [!DNL Target] IU en [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] (XT) actividades que contienen recomendaciones. (TGT-42331)
 * Se ha corregido un problema que provocaba que apareciera una alerta de tiempo de espera de red en la variable [!DNL Target] IU al recuperar parámetros. (TGT-43737)
 * Se han realizado actualizaciones de la interfaz de usuario para garantizar que se pueda acceder mediante el teclado a ciertas acciones de arrastrar y soltar. (TGT-42969)
