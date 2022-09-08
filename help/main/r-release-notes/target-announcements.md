@@ -1,13 +1,13 @@
 ---
 keywords: anuncios;generador de habilidades;chat de desarrollador;pausa para café;eventos;forrester;gartner;seminario web
 description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Target] , incluidos sesiones acerca del Generador de habilidades, charlas con desarrolladores y gestores de productos, seminarios web y mucho más.
-title: ¿Dónde puedo encontrar anuncios y eventos de  [!DNL Target] ?
+title: Dónde puedo encontrar [!DNL Target] ¿Anuncios e información del evento?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
+source-git-commit: a37a530a4ea163070e82820801f7acdfa1eae7c5
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 93%
+source-wordcount: '1757'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [
 
 ## [!DNL Target] designado como líder en Magic Quadrant de Gartner para motores de personalización (2022)
 
-Gartner ha nombrado a [!DNL Adobe Target] como líder en su último Magic Quadrant para motores de personalización (PE) por quinto año consecutivo. [!DNL Adobe] también recibió puntuaciones muy altas y un aumento significativo año tras año en los tres casos de uso principales: Marketing digital, Comercio digital y Servicio y asistencia. [!DNL Target] también recibió las puntuaciones más elevadas por las capacidades de prueba entre todos los proveedores evaluados.
+Gartner ha nombrado a [!DNL Adobe Target] como líder en su último Magic Quadrant para motores de personalización (PE) por quinto año consecutivo. [!DNL Adobe] también recibió puntuaciones muy altas y un aumento significativo año tras año en los tres casos de uso principales: Marketing digital, Comercio digital y Servicio y asistencia. [!DNL Target] ha recibido las puntuaciones más altas para nuestras capacidades de prueba entre todos los proveedores evaluados.
 
 Para obtener más información, consulte la [Publicación de blog de Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
@@ -26,24 +26,11 @@ Para obtener más información, consulte la [Publicación de blog de Adobe Exper
 
 Regístrese en los siguientes seminarios web para ver cómo utilizan los clientes [!DNL Adobe Target] para lograr sus objetivos de personalización y optimización:
 
-
-### Generadores de habilidades de [!DNL Adobe Target]: Optimización de experiencias móviles (6 de septiembre de 2022)
-
-Las experiencias móviles están impulsando la innovación de forma que los equipos de ingeniería y marketing aprovechen las estrategias basadas en productos para la personalización en canales múltiples en webs y aplicaciones. Únase a la sesión de los generadores de habilidades de [!DNL Adobe] y descubra cómo [!DNL Adobe Target] desbloquea una participación potencial y un crecimiento de ingresos nuevos para los especialistas en marketing, desarrolladores y propietarios de productos, a fin de crear comunidades de productos prósperas.
-
-+++Haga clic aquí
-
-* **Martes, 6 de septiembre de 2022**
-* **13:00 a 14:00 (EDT, UTC-4)**
-* **[Más información e información de registro](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
-
 ### Generadores de habilidades de [!DNL Adobe Target]: Personalización y recomendaciones impulsadas IA (15 de septiembre de 2022)
 
 La automatización de la experimentación y la personalización sigue dirigiendo las conversiones y el ROI más elevados para los equipos de marketing, ingeniería y productos. Únase a la sesión de los generadores de habilidades de [!DNL Adobe] y aprenda a usar casos de uso avanzados impulsados por IA y capacidades de [!DNL Adobe Target] con recomendaciones de productos y contenido para adelantarse a la competencia y aprovechar todas las experiencias.
 
-+++Haga clic aquí
++++Detalles
 
 * **Jueves, 15 de septiembre de 2022**
 * **13:00 a 14:00 (EDT, UTC-4)**
@@ -55,11 +42,23 @@ La automatización de la experimentación y la personalización sigue dirigiendo
 
 Acceder a las grabaciones de eventos anteriores (cuando estén disponibles):
 
+### Generadores de habilidades de [!DNL Adobe Target]: Optimización de experiencias móviles (6 de septiembre de 2022)
+
+Las experiencias móviles están impulsando la innovación de forma que los equipos de ingeniería y marketing aprovechen las estrategias basadas en productos para la personalización en canales múltiples en webs y aplicaciones. Únase a la sesión de los generadores de habilidades de [!DNL Adobe] y descubra cómo [!DNL Adobe Target] desbloquea una participación potencial y un crecimiento de ingresos nuevos para los especialistas en marketing, desarrolladores y propietarios de productos, a fin de crear comunidades de productos prósperas.
+
++++Detalles
+
+* **Martes, 6 de septiembre de 2022**
+* **13:00 a 14:00 (EDT, UTC-4)**
+* **[Más información e información de registro](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
 ### Chef&#39;s Collection: Fórmulas para la personalización (30 de agosto de 2022)
 
 Únase al equipo de [!DNL Adobe Target] [!DNL ], que ofrece algunas ideas nuevas sobre cómo sacar el máximo partido a Target. Basado en nuestro eBook más reciente, &quot;Colección de Chef: Ideas para la personalización&quot;.
 
-+++Haga clic aquí
++++Detalles
 
 * **Martes, 30 de agosto de 2022**
 * **13:00 a 14:00 (EDT, UTC-4)**
@@ -78,7 +77,7 @@ Analizaremos ideas sobre estos temas:
 
 La lealtad creciente en un momento de problemas acelerados de la cadena de suministro, fallos de servicio y personal limitado es un desafío al que se enfrentan la mayoría de las marcas de viajes, hotelería y gastronomía. En la era de la IA, cómo escalan las marcas las experiencias sin los recursos necesarios del sector. El progreso digital se ha acelerado de 20 a 25 veces más para satisfacer no solo las expectativas aceleradas de los clientes, sino también para escalar los equipos mediante la automatización.
 
-+++Haga clic aquí
++++Detalles
 
 * **Jueves, 25 de agosto de 2022**
 * **De 10:00 a 11:00 p. m. (PDT, UTC-7)**
@@ -94,13 +93,13 @@ Temas que analizaremos:
 * Activación de la lealtad en tiempo real en acción
 +++
 
-### Adobe: Perspectiva del sector de la personalización: minorista (11 de agosto de 2022)
+### [!DNL Adobe]: Perspectiva del sector de la personalización: minorista (11 de agosto de 2022)
 
 El 2022 le ha dado a las empresas un entorno dinámico de rápida evolución para funcionar y operar. Aprenda cómo los expertos de la industria están viendo que las nuevas tendencias de consumo cobran forma mientras la vida empieza a regresar a la normalidad para trabajadores y viajeros.
 
 * [Vínculo de grabación](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++Haga clic aquí
++++Detalles
 
 * **Jueves, 11 de agosto de 2022**
 * **De 1:00 a 2:00 p. m. ()**
@@ -109,13 +108,13 @@ El 2022 le ha dado a las empresas un entorno dinámico de rápida evolución par
 Únase a Michael Klein (director, Industry Strategy Retail) y Leina Betzer (consultora de Target, Adobe Premier Support) para discutir cómo las ventas de comercio electrónico minorista se disparan a medida que los patrones y comportamientos de compra de los consumidores cambian, con una mayor demanda de bienes y servicios en ciertos mercados.
 +++
 
-### Adobe: Personalización con precisión: [!DNL Adobe Analytics] y [!DNL Target] (2 de junio de 2022)
+### [!DNL Adobe]: Personalización con precisión: [!DNL Adobe Analytics] y [!DNL Target] (2 de junio de 2022)
 
 Descubra cómo la inteligencia artificial sigue redefiniendo las expectativas de los consumidores, ya que los modelos de aprendizaje automático y las perspectivas de datos abren nuevas puertas para que los especialistas en marketing, los desarrolladores y los propietarios de productos interactúen con los consumidores con experiencias personalizadas que importen. Realice un recorrido paso a paso por los flujos de trabajo de [!DNL Adobe Analytics] y [!DNL Adobe Target] de personalización, segmentación y pruebas.
 
 * [Vínculo de grabación](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++Haga clic
++++Detalles
 
 * **jueves, 2 de junio de 2022**
 * **13:00 a 14:00 (EDT, UTC-4)**
@@ -136,7 +135,7 @@ Conozca las prácticas recomendadas sobre cómo convertirse en un “banco de re
 
 * [Vínculo de grabación](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++Haga clic
++++Detalles
 
 * **jueves, 9 de junio de 2022**
 * **13:00 a 14:00 (EDT, UTC-4)**
@@ -145,13 +144,13 @@ Conozca las prácticas recomendadas sobre cómo convertirse en un “banco de re
 Únase a Heather Adkins (vicepresidenta senior de tecnologías de marketing) para conocer las prácticas recomendadas y convertirse en un “banco de relaciones” para aumentar la lealtad de la marca y cómo impulsar a las personas y los procesos a crear y escalar programas de personalización exitosos.
 +++
 
-### Adobe: Descubra las oportunidades de optimización de alto impacto (16 de junio de 2022)
+### [!DNL Adobe]: Descubra las oportunidades de optimización de alto impacto (16 de junio de 2022)
 
 Aprenda cómo, a medida que entramos en la nueva normalidad, que es más digital que nunca, es crucial que las organizaciones aprovechen todas las oportunidades para ofrecer experiencias digitales excepcionales. Lo suficientemente bueno ya no es lo suficientemente bueno. Se necesitan experiencias buenas para seguir siendo competitivos.
 
 * [Vínculo de grabación](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++Haga clic
++++Detalles
 
 * **jueves, 16 de junio de 2022**
 * **13:00 a 14:00 (EDT, UTC-4)**
@@ -172,7 +171,7 @@ Conozca las prácticas recomendadas sobre la ampliación de programas de persona
 
 * [Vínculo de grabación](https://video.tv.adobe.com/v/343042){target=_blank}
 
-+++Haga clic
++++Detalles
 
 Únase a Shawn Wilkinson (eCommerce Personalization Manager) para descubrir cómo [!DNL Target] está ayudando a Dick&#39;s Sporting Goods a convertir a los visitantes promedio en atletas que regresan.
 
@@ -185,13 +184,13 @@ Aprenda cómo Dick&#39;s Sporting Goods está impulsando el crecimiento de dos d
 
 +++
 
-### Adobe: Perspectiva de la industria de la personalización - Servicios financieros y seguros (24 de mayo de 2022)
+### [!DNL Adobe]: Perspectiva de la industria de la personalización - Servicios financieros y seguros (24 de mayo de 2022)
 
 Conozca cómo las empresas de servicios financieros apoyan e informan a los clientes utilizando la personalización para prepararse para los patrones de inflación y las estrategias de inversión.
 
 [Vínculo de grabación](https://video.tv.adobe.com/v/343240){target=_blank}
 
-+++Haga clic
++++Detalles
 
 Únase a Christopher Young (director, Industry Strategy Financial Services) y James Capasso (consultor de Target, Adobe Premier Support) para conocer cómo las marcas responden a los cambios inmediatos en la demanda, al tiempo que sitúan la personalización en el centro de sus compromisos con los clientes. Conozca cómo las empresas de servicios financieros están apoyando e informando a los clientes de todo el mundo que están preocupados por las recientes pautas de inflación y las circunstancias de sus inversiones.
 +++ 
@@ -202,7 +201,7 @@ Vea el kit de herramientas y casos de uso para implementar estrategias de person
 
 [Vínculo de grabación](https://video.tv.adobe.com/v/343344){target=_blank}
 
-+++Haga clic
++++Detalles
 
 Únase a Heather Adkins (vicepresidenta senior de tecnología de marketing) para conocer cómo el City National Bank se convirtió en uno de los “Bancos de relaciones digitalmente habilitadas” más sofisticados.
 
@@ -219,7 +218,7 @@ Descubra cómo está aprovechando el City National Bank [!DNL Target] para:
 
 **[Regístrese para ver la grabación del seminario web](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-+++Haga clic aquí
++++Detalles
 
 En esta sesión, aprenda cómo [!DNL Adobe Target] reduce la brecha en la combinación de datos entre múltiples fuentes para la personalización en tiempo real, a medida que debatimos sobre:
 
@@ -234,7 +233,7 @@ En esta sesión, aprenda cómo [!DNL Adobe Target] reduce la brecha en la combin
 
 [Vínculo de grabación](https://video.tv.adobe.com/v/328148){target=_blank}
 
-+++Haga clic
++++Detalles
 
 Ahora más que nunca, a los expertos en marketing, propietarios de productos y desarrolladores se les está asignando la tarea de optimizar la experiencia general del cliente en los sitios, las aplicaciones y en cualquier otro lugar donde conecten con sus clientes. Si hay varias herramientas con silos de datos e implementaciones complejas, no se cortará.
 
@@ -245,7 +244,7 @@ En este seminario web grabado, los expertos en productos de Adobe Target analiza
 
 * **[Vínculo de grabación](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
-+++Haga clic aquí
++++Detalles
 
 McKinsey Digital informa que &quot;hemos avanzado cinco años en la adopción digital de consumidores y empresas en apenas ocho semanas&quot;. *
 
@@ -260,7 +259,7 @@ Las demandas de los consumidores evolucionan rápidamente, y HSBC ha adoptado la
 *Artículo de McKinsey: &quot;[La recuperación de COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; mayo de 2020
 +++
 
-### Generador de habilidades de Adobe [!DNL Target]: Chat del desarrollador, migrar el mbox.js de Adobe [!DNL Target] a at.js {#skill-builder}
+### Generador de habilidades de [!DNL Adobe Target]: Chat del desarrollador, migrar el mbox.js de [!DNL Adobe Target] a at.js {#skill-builder}
 
 Ante la obsolescencia de mbox.js el 31 de marzo de 2021, David Son, gestor de producto de Adobe Target, organizó recientemente un chat para desarrolladores con el fin de analizar las ventajas de migrar mbox.js a at.js.
 
