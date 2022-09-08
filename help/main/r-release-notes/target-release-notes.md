@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
+source-git-commit: c3f6c67d1e9626d45d0e4cf879260fd5584e5b90
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -29,7 +29,7 @@ Esta versión estará disponible según la siguiente programación escalonada:
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha añadido un [!UICONTROL Dominio cruzado] al descargar at.js 2.9.1 (y versiones posteriores) para permitir o deshabilitar la configuración de cookies de terceros. (TGT-43674)
+* Se ha añadido un [!UICONTROL Dominio cruzado] al descargar at.js 2.10.0 (y versiones posteriores) para permitir o deshabilitar la configuración de cookies de terceros. (TGT-43674)
 * Se han actualizado las notificaciones en el [!DNL Target] Interfaz de usuario para informar a los clientes de que las actividades se han habilitado, deshabilitado y han alcanzado los umbrales de objetivo y alza. (TGT-35811)
 * Se ha solucionado un problema que provocaba que las [!UICONTROL Ofertas de decisión] no funcionaran correctamente dentro del [!UICONTROL Compositor de experiencias visuales] (VEC). (TGT-43866)
 * Se ha corregido un problema que provocaba que se mostrara un mensaje de error al seleccionar el objetivo de conversión. [!UICONTROL Se ha hecho clic en un elemento] al crear una [!UICONTROL Prueba multivariada] (MVT). (TGT-43842)
