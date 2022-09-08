@@ -5,10 +5,10 @@ title: ¿Dónde puedo obtener información sobre la ciencia detrás de los algor
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 0%
+source-wordcount: '2858'
+ht-degree: 1%
 
 ---
 
@@ -118,7 +118,7 @@ Los algoritmos incluyen:
 
 Las adiciones más recientes a [!DNL Target] grupo de algoritmos de recomendaciones [!UICONTROL Recomendado] y una serie de algoritmos de recomendaciones basadas en el carro de compras. Ambos tipos de algoritmos utilizan técnicas de filtrado colaborativas para formar recomendaciones individuales basadas en elementos. A continuación, en el momento del envío, varios elementos en el historial de navegación del usuario (para [!UICONTROL Recomendado]), o el carro de compras actual del usuario (para recomendaciones basadas en el carro de compras) se utilizan para recuperar estas recomendaciones basadas en artículos, que luego se combinan para formar la lista final de recomendaciones. Tenga en cuenta que existen muchos sabores de algoritmos de recomendación personalizados. La elección de un algoritmo con varias claves significa que las recomendaciones están disponibles inmediatamente después de que un visitante tenga algún historial de navegación y las recomendaciones se pueden actualizar para responder al comportamiento del visitante más reciente.
 
-Estos algoritmos se basan en las técnicas de filtrado colaborativas básicas descritas en la sección de recomendaciones basadas en elementos, pero también incorporan el ajuste de hiperparámetros para determinar la métrica de similitud óptima entre elementos. El algoritmo realiza una división cronológica de los datos de comportamiento de cada usuario y forma los modelos de recomendación en los datos anteriores mientras intenta predecir los artículos que el usuario ve o compra más tarde. La métrica de similitud que produce la métrica óptima [Precisión media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision) a continuación, se elige.
+Estos algoritmos se basan en las técnicas de filtrado colaborativas básicas descritas en la sección de recomendaciones basadas en elementos, pero también incorporan el ajuste de hiperparámetros para determinar la métrica de similitud óptima entre elementos. El algoritmo realiza una división cronológica de los datos de comportamiento de cada usuario y forma los modelos de recomendación en los datos anteriores mientras intenta predecir los artículos que el usuario ve o compra más tarde. La métrica de similitud que produce la métrica óptima [Precisión media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) se elige.
 
 La lógica de los pasos de entrenamiento y puntuación del modelo se muestra en el siguiente diagrama:
 
@@ -138,7 +138,7 @@ Los detalles de estos pasos son los siguientes:
 
    ![Fórmula que muestra el cálculo de la formación](assets/formula4.png)
 
-   * **Evaluación del modelo de similitud de artículos**: La evaluación del modelo se realiza tomando las recomendaciones generadas en el paso anterior y haciendo predicciones en el conjunto de datos de prueba. La fase de puntuación en línea se imita ordenando cronológicamente los usos de elementos de cada usuario en el conjunto de datos de prueba y, a continuación, haciendo 100 recomendaciones para subconjuntos ordenados de elementos en un intento de predecir vistas y compras posteriores. Una métrica de recuperación de información, la variable [Precisión media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), se utiliza para evaluar la calidad de estas recomendaciones. Esta métrica tiene en cuenta el orden de las recomendaciones y favorece a los elementos relevantes en una posición superior en la lista de recomendaciones, que es una propiedad importante para los sistemas de clasificación.
+   * **Evaluación del modelo de similitud de artículos**: La evaluación del modelo se realiza tomando las recomendaciones generadas en el paso anterior y haciendo predicciones en el conjunto de datos de prueba. La fase de puntuación en línea se imita ordenando cronológicamente los usos de elementos de cada usuario en el conjunto de datos de prueba y, a continuación, haciendo 100 recomendaciones para subconjuntos ordenados de elementos en un intento de predecir vistas y compras posteriores. Una métrica de recuperación de información, la variable [Precisión media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval), se utiliza para evaluar la calidad de estas recomendaciones. Esta métrica tiene en cuenta el orden de las recomendaciones y favorece a los elementos relevantes en una posición superior en la lista de recomendaciones, que es una propiedad importante para los sistemas de clasificación.
    * **Selección de modelo**: Después de la evaluación sin conexión, se selecciona el modelo que tiene la precisión media más alta y se calculan todas las recomendaciones de elementos individuales.
    * **Filtro sin conexión**: La etapa final de la formación del modelo es la aplicación de cualquier filtro dinámico aplicable. Después de este paso, las recomendaciones precalculadas se almacenan en la caché global para que estén disponibles para su uso.
 
