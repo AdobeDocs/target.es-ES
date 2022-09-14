@@ -4,10 +4,10 @@ description: Familiarícese con la interfaz de usuario y encuentre vínculos a i
 title: ¿Cómo se utiliza la IU de  [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 46%
+ht-degree: 49%
 
 ---
 
@@ -55,11 +55,11 @@ El panel contiene pestañas para [!UICONTROL Notificaciones] y [!UICONTROL Anunc
 
 Las secciones siguientes contienen información sobre cada pestaña y sobre cómo configurar las notificaciones y los anuncios:
 
-###  Notificaciones 
+###  Notificaciones  {#notifications}
 
 [!DNL Target] las notificaciones de eventos incluyen lo siguiente:
 
-* **Actividades**: Notificaciones para todos los tipos de actividades cuando se aprueba o desactiva una actividad, ya sea manualmente o cuando llega a su fecha de inicio o de finalización. La notificación incluye el nombre de la actividad con un vínculo a la página de información general de la actividad.
+* **Actividades**: notificaciones para todos los tipos de actividades cuando se aprueba o desactiva una actividad, ya sea manualmente o cuando llega a su fecha de inicio o de finalización. La notificación incluye el nombre de la actividad con un vínculo a la página de información general de la actividad.
 
    Las notificaciones se pueden configurar y reciben, de forma predeterminada, por administradores de productos, editores y aprobadores en el espacio de trabajo de la actividad para [!DNL Target Premium] cuentas. Para [!DNL Target Standard] cuentas, las notificaciones las reciben todos los editores y aprobadores.
 
@@ -78,7 +78,7 @@ Las secciones siguientes contienen información sobre cada pestaña y sobre cóm
    * `Profile Script {target.profileScript.name} has been activated`
    * `Profile Script {target.profileScript.name} has been deactivated`
 
-* **Fuentes de Recommendations**: Notificaciones cuando una [!DNL Recommendations] la fuente se activa o se desactiva manualmente o mediante [!DNL Target]. Las notificaciones también se envían cuando se [!DNL Recommendations] la fuente falla.
+* **Fuentes de**[!DNL Recommendations]: notificaciones cuando se activa o desactiva una fuente de Recommendations, ya sea de forma manual o por parte de [!DNL Target]. Las notificaciones también se envían cuando se [!DNL Recommendations] la fuente falla.
 
    Las notificaciones se pueden configurar y reciben, de forma predeterminada, por administradores de productos y aprobadores para [!DNL Target Premium] cuentas. [!DNL Recommendations] es [!DNL Target Premium] y no está disponible en [!DNL Target Standard].
 
@@ -86,6 +86,7 @@ Las secciones siguientes contienen información sobre cada pestaña y sobre cóm
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
 Para marcar las notificaciones individuales como leídas, pase el ratón sobre la notificación deseada y luego haga clic en la marca de verificación. Puede marcar todas las notificaciones como leídas o ver todas las notificaciones haciendo clic en [!UICONTROL &quot;Marcar como leído&quot;] o [!UICONTROL &quot;Ver todo&quot;] en la parte inferior del panel.
@@ -177,7 +178,7 @@ Haga clic en la pestaña **[!UICONTROL Recomendaciones]** para acceder a [!DNL T
 
 ![Recomendaciones](/help/main/c-intro/assets/recommendations.png)
 
-Las actividades de [!UICONTROL Recommendations] muestran automáticamente productos o contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos. Recommendations ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
+Las actividades de [!UICONTROL Recommendations] muestran automáticamente productos o contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
 
 Consulte [Recomendaciones](/help/main/c-recommendations/recommendations.md) para obtener información detallada acerca de [!UICONTROL Recommendations] en [!DNL Target] y para obtener más información sobre la interfaz de usuario de [!UICONTROL Recommendations].
 

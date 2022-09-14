@@ -4,16 +4,23 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
-workflow-type: ht
-source-wordcount: '1194'
-ht-degree: 100%
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+workflow-type: tm+mt
+source-wordcount: '1224'
+ht-degree: 99%
 
 ---
 
 # Cambios de la documentación
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
+
+## [!DNL Adobe Target] Standard/Premium 22.9.1 (versión escalonada del 13 al 15 de septiembre de 2022)
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| 22 de agosto | [Información sobre la IU de  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Se ha agregado información sobre las notificaciones cuando se usa un [!DNL Recommendations] la fuente falla. |
+|  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.9.1 de [!DNL Target Standard/Premium]. |
 
 ## Versión 22.8.1 de Adobe Target Standard/Premium (versión escalonada: 17 y 18 de agosto de 2022)
 
