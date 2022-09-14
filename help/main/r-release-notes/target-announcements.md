@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
 workflow-type: tm+mt
 source-wordcount: '1614'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Las experiencias móviles están impulsando la innovación de forma que los equi
 
 ### Chef&#39;s Collection: Fórmulas para la personalización (30 de agosto de 2022)
 
-Únase al equipo de [!DNL Adobe Target] [!DNL ], que ofrece algunas ideas nuevas sobre cómo sacar el máximo partido a Target. Basado en nuestro eBook más reciente, &quot;Colección de Chef: Ideas para la personalización&quot;.
+Únase al equipo de [!DNL Adobe Target] [!DNL ], que ofrece algunas ideas nuevas sobre cómo sacar el máximo partido a Target. Basado en nuestro libro electrónico más reciente, “Chef’s Collection: Ideas para la personalización”.
 
 +++Detalles
 
@@ -99,7 +99,7 @@ Descubra cómo la inteligencia artificial sigue redefiniendo las expectativas de
 
 Únase a Jordan Ison (consultor de soluciones de expertos principales de [!DNL Adobe]) para debatir sobre lo siguiente:
 
-* Cómo los especialistas en marketing, desarrolladores y equipos de productos pueden abrir la &quot;caja negra&quot; de IA para impulsar futuras estrategias de pruebas y personalización
+* Cómo los especialistas en marketing, los desarrolladores y los equipos de productos pueden abrir la “caja negra” de IA para impulsar futuras estrategias de pruebas y personalización.
 * Superar los desafíos para optimizar la web, la aplicación móvil, el correo electrónico, IoT y cada punto de contacto digital para lograr una mayor conversión y participación.
 * Guía paso a paso de los flujos de trabajo de [!DNL Adobe Analytics] y [!DNL Target] para personalización, segmentación y pruebas.
 * Casos de uso principales para desbloquear qué atributos predicen el comportamiento del visitante y qué atributos son los más importantes para las visualizaciones clave y el análisis de segmentación.
@@ -145,7 +145,7 @@ Conozca las prácticas recomendadas sobre la ampliación de programas de persona
 
 Únase a Shawn Wilkinson (eCommerce Personalization Manager) para descubrir cómo [!DNL Target] está ayudando a Dick&#39;s Sporting Goods a convertir a los visitantes promedio en atletas que regresan.
 
-Aprenda cómo Dick&#39;s Sporting Goods está impulsando el crecimiento de dos dígitos a medida que desempaquetamos:
+Aprenda cómo Dick&#39;s Sporting Goods está impulsando el crecimiento de doble dígito a medida que explicamos:
 
 * Cómo planificar e iniciar un programa de personalización de alto rendimiento para minoristas.
 * Por qué la aceptación en toda la organización es crítica para superar obstáculos y dificultades.
@@ -206,7 +206,7 @@ En esta sesión, aprenda cómo [!DNL Adobe Target] reduce la brecha en la combin
 
 +++Detalles
 
-Ahora más que nunca, a los expertos en marketing, propietarios de productos y desarrolladores se les está asignando la tarea de optimizar la experiencia general del cliente en los sitios, las aplicaciones y en cualquier otro lugar donde conecten con sus clientes. Si hay varias herramientas con silos de datos e implementaciones complejas, no se cortará.
+Ahora más que nunca, a los expertos en marketing, propietarios de productos y desarrolladores se les está asignando la tarea de optimizar la experiencia general del cliente en los sitios, las aplicaciones y en cualquier otro lugar donde conecten con sus clientes. No sirven varias herramientas con silos de datos e implementaciones complejas.
 
 En este seminario web grabado, los expertos en productos de Adobe Target analizan cómo mover las decisiones de optimización de experiencias críticas en el dispositivo para ejecutarse localmente con latencia cero puede abrirles las puertas a nuevos casos de uso interesantes, a la vez que mejoran el rendimiento del sitio para sus clientes.
 
@@ -218,7 +218,7 @@ En este seminario web grabado, los expertos en productos de Adobe Target analiza
 
 +++Detalles
 
-McKinsey Digital informa que &quot;hemos avanzado cinco años en la adopción digital de consumidores y empresas en apenas ocho semanas&quot;. *
+McKinsey Digital informa de que “hemos avanzado cinco años en la adopción digital de consumidores y empresas en apenas ocho semanas”. *
 
 Las demandas de los consumidores evolucionan rápidamente, y HSBC ha adoptado la optimización con Adobe Target para probar y personalizar rápidamente los nuevos recorridos de los clientes, lo que reduce algunos desarrollos y lanzamientos de 6 meses a 1 semana.
 
@@ -228,7 +228,7 @@ Las demandas de los consumidores evolucionan rápidamente, y HSBC ha adoptado la
 * Cómo la IA y Analytics aceleran sus esfuerzos y proporcionan un impacto comercial claro y significativo
 * Cómo HSBC ha creado un programa exitoso a escala que ofrece más de 3000 actividades
 
-*Artículo de McKinsey: &quot;[La recuperación de COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; mayo de 2020
+*Artículo de McKinsey: “[La recuperación de la COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”, mayo de 2020
 
 +++
 
