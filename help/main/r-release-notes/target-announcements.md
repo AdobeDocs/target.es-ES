@@ -4,9 +4,9 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: Dónde puedo encontrar [!DNL Target] ¿Anuncios e información del evento?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
+source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1837'
 ht-degree: 87%
 
 ---
@@ -69,9 +69,13 @@ Acceder a las grabaciones de eventos anteriores (cuando estén disponibles):
 
 Las experiencias móviles están impulsando la innovación de forma que los equipos de ingeniería y marketing aprovechen las estrategias basadas en productos para la personalización en canales múltiples en webs y aplicaciones. Únase a la sesión de los generadores de habilidades de [!DNL Adobe] y descubra cómo [!DNL Adobe Target] desbloquea una participación potencial y un crecimiento de ingresos nuevos para los especialistas en marketing, desarrolladores y propietarios de productos, a fin de crear comunidades de productos prósperas.
 
+* [Vínculo de grabación](https://video.tv.adobe.com/v/347360){target=_blank}
+
 ### Chef&#39;s Collection: Fórmulas para la personalización (30 de agosto de 2022)
 
 Únase al equipo de [!DNL Adobe Target] [!DNL ], que ofrece algunas ideas nuevas sobre cómo sacar el máximo partido a Target. Basado en nuestro libro electrónico más reciente, “Chef’s Collection: Ideas para la personalización”.
+
+* [Vínculo de grabación](https://video.tv.adobe.com/v/346970/){target=_blank}
 
 +++Detalles
 
