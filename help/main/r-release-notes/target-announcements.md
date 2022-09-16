@@ -4,7 +4,7 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: Dónde puedo encontrar [!DNL Target] ¿Anuncios e información del evento?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
+source-git-commit: bcb90bf8bc1943d9f91b6132d0d8b41afaebec2b
 workflow-type: tm+mt
 source-wordcount: '1837'
 ht-degree: 87%
@@ -91,16 +91,16 @@ Explore ideas sobre:
 
 La lealtad creciente en un momento de problemas acelerados de la cadena de suministro, fallos de servicio y personal limitado es un desafío al que se enfrentan la mayoría de las marcas de viajes, hotelería y gastronomía. En la era de la IA, cómo escalan las marcas las experiencias sin los recursos necesarios del sector. El progreso digital se ha acelerado de 20 a 25 veces más para satisfacer no solo las expectativas aceleradas de los clientes, sino también para escalar los equipos mediante la automatización.
 
-+++Detalles
+* +++Detalles
 
-En 2022, los sistemas han alcanzado un punto crítico en la capacidad de proporcionar inteligencia continua para ofrecer activación de lealtad en tiempo real.
+   En 2022, los sistemas han alcanzado un punto crítico en la capacidad de proporcionar inteligencia continua para ofrecer activación de lealtad en tiempo real.
 
-Temas que analizaremos:
+   Temas que analizaremos:
 
-* Aceleración de la interrupción digital y aumento de la IA
-* Por qué los pioneros están ganando tanto en crecimiento de facturación como de beneficios
-* Automatización de la personalización en viajes
-* Activación de la lealtad en tiempo real en acción
+   * Aceleración de la interrupción digital y aumento de la IA
+   * Por qué los pioneros están ganando tanto en crecimiento de facturación como de beneficios
+   * Automatización de la personalización en viajes
+   * Activación de la lealtad en tiempo real en acción
 
 +++
 
@@ -110,9 +110,9 @@ El 2022 le ha dado a las empresas un entorno dinámico de rápida evolución par
 
 * [Vínculo de grabación](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++Detalles
+* +++Detalles
 
-Únase a Michael Klein (director, Industry Strategy Retail) y Leina Betzer (consultora de Target, Adobe Premier Support) para discutir cómo las ventas de comercio electrónico minorista se disparan a medida que los patrones y comportamientos de compra de los consumidores cambian, con una mayor demanda de bienes y servicios en ciertos mercados.
+   Únase a Michael Klein (director, Industry Strategy Retail) y Leina Betzer (consultora de Target, Adobe Premier Support) para discutir cómo las ventas de comercio electrónico minorista se disparan a medida que los patrones y comportamientos de compra de los consumidores cambian, con una mayor demanda de bienes y servicios en ciertos mercados.
 
 +++
 
