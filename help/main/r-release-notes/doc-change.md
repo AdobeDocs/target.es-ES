@@ -20,14 +20,14 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 15 de septiembre | Anuncios y eventos de [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información sobre el siguiente seminario web:<ul><li>Ajuste de la personalización con tecnología de IA: Nuevas funciones de [!DNL Adobe Target] (11 de octubre de 2022)</li></ul> |
-| 13 de septiembre | [Información sobre la IU de  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Se ha agregado información sobre las notificaciones cuando se usa un [!DNL Recommendations] la fuente falla. |
+| 13 de septiembre | [Información sobre la IU de  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Se ha agregado información sobre las notificaciones cuando una fuente [!DNL Recommendations] falla. |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.9.1 de [!DNL Target Standard/Premium]. |
 
 ## Versión 22.8.1 de Adobe Target Standard/Premium (versión escalonada: 17 y 18 de agosto de 2022)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 22 de agosto | Anuncios y eventos de [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Se ha añadido la información acerca del siguiente anuncio:<ul><li>[!DNL Target] designado como líder en Magic Quadrant de Gartner para motores de personalización (2022)</li></ul>Se ha añadido información acerca de los eventos siguientes:<ul><li>Coffee break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (31 de agosto de 2022)</li><li>Chef&#39;s Collection: Fórmulas para la personalización (30 de agosto de 2022)</li><li>Generadores de habilidades de [!DNL Adobe Target]: optimización de experiencias móviles (6 de septiembre de 2022)</li><li>Generadores de habilidades de [!DNL Adobe Target]: personalización y recomendaciones impulsadas por IA (15 de septiembre de 2022)</li></ul>Se ha añadido el siguiente vínculo de grabación de la sesión del seminario web anterior:<ul><li>Adobe: Perspectiva del sector de la personalización: minorista (11 de agosto de 2022)</li></ul> |
+| 22 de agosto | Anuncios y eventos de [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Se ha añadido la información acerca del siguiente anuncio:<ul><li>[!DNL Target] designado como líder en Magic Quadrant de Gartner para motores de personalización (2022)</li></ul>Se ha añadido información acerca de los eventos siguientes:<ul><li>Coffee break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (31 de agosto de 2022)</li><li>Chef&#39;s Collection: Fórmulas para la personalización (30 de agosto de 2022)</li><li>Generadores de habilidades de [!DNL Adobe Target]: optimización de experiencias móviles (6 de septiembre de 2022)</li><li>Generadores de habilidades de [!DNL Adobe Target]: Personalización y recomendaciones impulsadas por IA (15 de septiembre de 2022)</li></ul>Se ha añadido el siguiente vínculo de grabación de la sesión del seminario web anterior:<ul><li>Adobe: Perspectiva del sector de la personalización: minorista (11 de agosto de 2022)</li></ul> |
 | 22 de agosto | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.8.1 de [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.6.1 (versión escalonada; 7 y 9 de junio de 2022)
@@ -68,7 +68,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 26 de abril | [Anuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md) | Se ha añadido acerca de los eventos siguientes:<ul><li>Seminario web: Personalización en tiempo real con Adobe Target (28 de abril de 2022)</li><li>Coffee Break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (miércoles, 25 de mayo de 2022)</li></ul> |
+| 26 de abril | [Anuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md) | Se ha añadido acerca de los eventos siguientes:<ul><li>Seminario web: Personalización en tiempo real con Adobe Target (28 de abril de 2022)</li><li>Coffee Break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (25 de mayo de 2022)</li></ul> |
 |  | [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Cómo puedo minimizar las discrepancias en la distribución del tráfico al utilizar ofertas de redireccionamiento en actividades de A4T?</li></ul> |
 |  | [Fragmentos de experiencias de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Se ha añadido la sección siguiente:<ul><li>Eliminación de las bibliotecas de cliente y el HTML superfluo de los fragmentos de experiencias exportados a Target</li></ul> |
 | 21 de abril | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha agregado información de versión preliminar sobre el lanzamiento de [!DNL Target] Platform programado para el 17 de abril de 2022. |
@@ -100,7 +100,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | 2 de febrero | [Resolución de problemas de la entrega de contenido](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Se ha añadido la siguiente sección: “El escapado de comillas dobles en el valor de atributo del perfil de [!DNL Target] no funciona como se esperaba”. |
 | 1 de febrero | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información acerca de la versión 22.2.1 de [!DNL Target Standard/Premium]. |
 
-## [!DNL Adobe Target Standard/Premium] 22.1.1 (miércoles, 12 de enero de 2022)
+## [!DNL Adobe Target Standard/Premium] 22.1.1 (12 de enero de 2022)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
