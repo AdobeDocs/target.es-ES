@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
+source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 86%
+source-wordcount: '2044'
+ht-degree: 80%
 
 ---
 
@@ -21,6 +21,27 @@ Gartner ha nombrado a [!DNL Adobe Target] como líder en su último Magic Quadra
 
 Para obtener más información, consulte la [Publicación de blog de Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+
+## [!DNL Adobe Target] Descanso de café de Community Q&amp;A (28 de septiembre de 2022)
+
+Únete a Gentry Lin y Brent Kostak para responder en tiempo real a las preguntas publicadas por [!DNL Adobe Target] clientes en el evento específico [!UICONTROL Comunidad de Target] hilo de discusión. Esta pausa será una extensión de la conversación de preguntas y respuestas del seminario web desde la [!DNL Adobe Target] Seminario web de Generadores de habilidades: Optimización de experiencias móviles.
+
++++Detalles
+
+* **Miércoles, 28 de septiembre de 2022**
+* **De 8:00 a 9:00 a.m. (PDT, UTC-7)**
+* **[Registrar vínculo](https://adobe.ly/3pYkmMG){target=_blank}**
+
+Se le invita a publicar preguntas relacionadas con los temas tratados durante el [[!DNL Adobe Target] Seminario web de la serie de Expedición del generador de habilidades sobre la optimización de la experiencia móvil](https://video.tv.adobe.com/v/347360){target=_blank}, así como otros relacionados con las áreas de experiencia de Gentry y Brent con [!DNL Target]:
+
+* [!UICONTROL Prueba A/B], [!UICONTROL Prueba multivariable] (MVT), [!UICONTROL Segmentación de experiencias] actividades (XT), pruebas automatizadas y personalización
+* Flujos de trabajo de configuración de actividades paso a paso
+* Recuperación previa de experiencias por lotes, lo que permite una personalización siempre activada para dispositivos móviles
+* Métricas del ciclo vital para pruebas y segmentación en experiencias de clientes, SDK y API móviles, e implementaciones de plataformas iOS y Android
+* Flujos de trabajo básicos de creación de páginas web
+* [!DNL Adobe Experience Cloud] integraciones
+
++++
 
 ## Serie de seminarios web sobre [!DNL Adobe Target] {#webinar-series}
 
