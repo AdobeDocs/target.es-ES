@@ -4,7 +4,7 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -26,12 +26,6 @@ En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]
 ### Eliminación de ubicaciones que tienen ofertas ad-hoc en actividades creadas en el Compositor de experiencias basadas en formularios {#ad-hoc}
 
 Evite eliminar ubicaciones en una actividad creada en el Compositor de experiencias basadas en formularios si esas ubicaciones utilizan ofertas específicas (ofertas creadas dentro de la actividad). La eliminación de ubicaciones puede provocar que la actividad se dañe. El equipo de [!DNL Target] está trabajando en una solución para esto. Como solución alternativa, puede crear ofertas globales desde la [!UICONTROL Biblioteca de ofertas] y utilizarlas con ubicaciones o puede crear experiencias nuevas, si es necesario. (KB-2014)
-
-### Métricas de Analytics for Adobe Target (A4T) para actividades Auto-Allocate y Auto-Target
-
-La IU [!DNL Target] permite a los usuarios seleccionar métricas de participación e ingresos no admitidas como métrica de objetivo principal para la optimización en las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. Se admiten las métricas de conversión; las métricas de participación e ingresos *no* son compatibles. Si selecciona métricas de objetivo de participación o de ingresos, no se creará un modelo de optimización.
-
-Para obtener una lista de las métricas de objetivo admitidas y no admitidas, consulte [Compatibilidad de A4T para actividades de asignación automática y segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### El Compositor de experiencias mejorado (EEC) no admite peticiones PUT.
 
@@ -122,6 +116,12 @@ La fuente de verdad es siempre el informe mostrado en la IU de [!DNL Target].
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 A medida que se resuelven los problemas conocidos que hemos mencionado, pasan a las secciones siguientes. Se agregan notas adicionales, si es necesario.
+
+### Métricas de Analytics for Adobe Target (A4T) para actividades Auto-Allocate y Auto-Target
+
+La IU [!DNL Target] permite a los usuarios seleccionar métricas de participación e ingresos no admitidas como métrica de objetivo principal para la optimización en las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. Se admiten las métricas de conversión; las métricas de participación e ingresos *no* son compatibles. Si selecciona métricas de objetivo de participación o de ingresos, no se creará un modelo de optimización.
+
+Para obtener una lista de las métricas de objetivo admitidas y no admitidas, consulte [Compatibilidad de A4T para actividades de asignación automática y segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Distribución del tráfico [!DNL Auto-Allocate] actividades con A4T {#aa-a4t}
 
