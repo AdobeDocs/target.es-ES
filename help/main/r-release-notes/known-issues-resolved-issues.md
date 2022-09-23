@@ -4,7 +4,7 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
+source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -22,10 +22,6 @@ Información sobre problemas conocidos de [!DNL Adobe Target]. También incluye 
 ## Problemas conocidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
-
-### Eliminación de ubicaciones que tienen ofertas ad-hoc en actividades creadas en el Compositor de experiencias basadas en formularios {#ad-hoc}
-
-Evite eliminar ubicaciones en una actividad creada en el Compositor de experiencias basadas en formularios si esas ubicaciones utilizan ofertas específicas (ofertas creadas dentro de la actividad). La eliminación de ubicaciones puede provocar que la actividad se dañe. El equipo de [!DNL Target] está trabajando en una solución para esto. Como solución alternativa, puede crear ofertas globales desde la [!UICONTROL Biblioteca de ofertas] y utilizarlas con ubicaciones o puede crear experiencias nuevas, si es necesario. (KB-2014)
 
 ### El Compositor de experiencias mejorado (EEC) no admite peticiones PUT.
 
@@ -116,6 +112,10 @@ La fuente de verdad es siempre el informe mostrado en la IU de [!DNL Target].
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 A medida que se resuelven los problemas conocidos que hemos mencionado, pasan a las secciones siguientes. Se agregan notas adicionales, si es necesario.
+
+### Eliminación de ubicaciones que tienen ofertas ad-hoc en actividades creadas en el Compositor de experiencias basadas en formularios {#ad-hoc}
+
+Evite eliminar ubicaciones en una actividad creada en el Compositor de experiencias basadas en formularios si esas ubicaciones utilizan ofertas específicas (ofertas creadas dentro de la actividad). La eliminación de ubicaciones puede provocar que la actividad se dañe. El equipo de [!DNL Target] está trabajando en una solución para esto. Como solución alternativa, puede crear ofertas globales desde la [!UICONTROL Biblioteca de ofertas] y utilizarlas con ubicaciones o puede crear experiencias nuevas, si es necesario. (KB-2014)
 
 ### Métricas de Analytics for Adobe Target (A4T) para actividades Auto-Allocate y Auto-Target
 
