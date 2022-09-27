@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: bd12d615b784b26e2b5a7b9e391f3e7d5a9cc8c5
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 32%
+source-wordcount: '473'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 7 de septiembre de 2022**
+**Última actualización: 27 de septiembre de 2022**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -40,7 +40,7 @@ Esta versión contiene las siguientes nuevas funciones, mejoras y correcciones:
 * Se ha corregido un problema que impedía que algunos clientes archivaran [!UICONTROL Prueba A/B] actividades que utilizan [!UICONTROL Segmentación automática]. (TGT-40978)
 * Se ha agregado la capacidad de usar automáticamente una sola oferta en varias ubicaciones dentro de un único grupo de informes. (TGT-43974)
 * Se ha agregado la capacidad de filtrar fragmentos de experiencia por tipo (HTML o JSON) en la variable [!UICONTROL Ofertas] lista. (TGT-43121)
-* Se ha corregido un problema que permitía a los clientes insertar JSON [!UICONTROL Fragmento de experiencia] ofertas al usar el VEC. Las ofertas JSON solo se pueden insertar utilizando la variable [!UICONTROL Experiencia basada en formularios] compositor. (TGT-43846)
+* Se ha corregido un problema que permitía a los clientes insertar JSON [!UICONTROL Fragmento de experiencia] ofertas al usar el VEC, que no es compatible. Las ofertas JSON solo se pueden insertar al usar la variable [!UICONTROL Experiencia basada en formularios] compositor. (TGT-43846)
 
 ## Información previa al lanzamiento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
