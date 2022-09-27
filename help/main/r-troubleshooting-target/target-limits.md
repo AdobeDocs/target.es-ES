@@ -5,7 +5,7 @@ title: ¿Cuáles son los distintos caracteres, tamaños y otros límites de [!DN
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 96%
@@ -301,8 +301,8 @@ A continuación se describen los límites de tamaño que se aplican a las oferta
 
    Esto hace referencia al número de valores separados por líneas en el área de texto de determinación de objetivos. Por ejemplo, si se escriben 1000 códigos postales en un solo objetivo de código postal.
 
-### Reglas de segmentación
+### Reglas de segmentación {#targeting-rules}
 
 * **Límite recomendado**: 2500 caracteres por valor de regla de direccionamiento.
-* **Límite recomendado**: 30 000 valores únicos por audiencia en reglas de segmentación.
+* **Límite recomendado**: 50 000 valores únicos por audiencia en reglas de segmentación.
 * **Límite recomendado**: 100 000 valores únicos de reglas de segmentación por actividad.
