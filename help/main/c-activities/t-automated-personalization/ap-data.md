@@ -4,10 +4,10 @@ description: Descubra qué Adobe de datos [!DNL Target] recopila y utiliza para 
 title: ¿Qué datos se recopilan para crear algoritmos de aprendizaje automático?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '2062'
-ht-degree: 53%
+source-wordcount: '2085'
+ht-degree: 52%
 
 ---
 
@@ -41,7 +41,8 @@ La tabla siguiente muestra los datos proporcionados por el cliente recopilados p
 | parámetros de URL. | Dirección URL | Dirección URL y cualquier parámetro de URL de la página que se está viendo. | Personalizado - Parámetro de URL - [Parámetro de URL] |
 | Dirección URL de referencia | REF | Dirección URL de referencia y cualquier parámetro de dirección URL de la dirección URL de referencia. | Personalizado - [Parámetro de URL de referencia] - [Valor de parámetro] |
 | Audiencias compartidas de Adobe Experience Cloud | AAM | Todas las audiencias compartidas con [!DNL Target] de otro [!DNL Adobe Experience Cloud] soluciones (por ejemplo, [!DNL Adobe Audience Manager] y [!DNL Adobe Analytics], a través de la variable [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personalizado: audiencia de Experience Cloud [Nombre de audiencia] |
-| Audiencias RTCDP de Adobe Experience Platform | UPS | Audiencias RTCDP de AEP compartidas con [!DNL Target] a través de Destinations. |  |
+| Audiencias CDP en tiempo real de Adobe Experience Platform | UPS | Audiencias CDP en tiempo real de AEP compartidas con [!DNL Target] a través de Destinations. |  |
+| Atributos CDP en tiempo real de Adobe Experience Platform | AEP | Atributos CDP en tiempo real de AEP compartidos con [!DNL Target] a través de Destinations. Esta función está actualmente en versión beta. |  |
 
 ## Bloqueo de funciones de [!DNL Target] algoritmos de aprendizaje automático
 

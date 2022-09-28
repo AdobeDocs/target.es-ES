@@ -4,10 +4,10 @@ description: 'Aprenda a utilizar los informes especializados para las actividade
 title: ¿Cómo utilizo los informes de Perspectivas de personalización?
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 55%
+source-wordcount: '909'
+ht-degree: 52%
 
 ---
 
@@ -58,6 +58,8 @@ En los informes de [!UICONTROL Perspectivas de personalización] se representan 
 | Parámetros de página (también denominados “parámetros de mbox”) | Pares de nombre/valor que se pasan directamente mediante código de página y que no se almacenan en el perfil del visitante para su uso futuro. | `Custom - Mbox Parameter - [parameter name]` |
 | Atributos del cliente | Los atributos del cliente le permiten cargar datos de perfil del visitante a través del FTP a Experience Cloud. Una vez cargados, podrá sacar el máximo partido de los datos en Adobe Analytics y Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Audiencias compartidas (Adobe Audience Manager o Adobe Analytics) | Audiencias creadas a través de Adobe Audience Manager o Adobe Analytics y compartidas con Target. | `Custom - Experience Cloud Segment - [segment name]` |
+| Audiencias compartidas (Adobe Experience Platform/CDP en tiempo real) | Audiencias creadas mediante Adobe Experience Platform/CDP en tiempo real y compartidas con Target mediante Destinations. | `Custom - Adobe Experience Platform Segment - [segment name]` |
+| Atributos compartidos (Adobe Experience Platform/CDP en tiempo real) | Atributos creados mediante Adobe Experience Platform/CDP en tiempo real y compartidos con Target a través de Destinations. Esta función está actualmente en versión beta. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
 | Audiencias/segmentos de informes de actividad | Audiencias definidas en su actividad de AP o Segmentación automática durante la configuración en “Objetivos y métricas”. | `Custom - Reporting Segment - [segment name]` |
 
 ## Preguntas frecuentes
