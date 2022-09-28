@@ -37,8 +37,8 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 - Integrar Target con Adobe Experience Cloud: explica cómo se integra [!DNL Target] con otras soluciones [!DNL Experience Cloud], como [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) y [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [Tutoriales de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es): Proporciona tutoriales y vídeos que pueden ayudarle a sacar el máximo partido a Target.
 - [Solución de problemas de Target](r-troubleshooting-target/troubleshooting-target.md): Proporciona vínculos a información de solución de problemas que se incluye en esta guía, como, por ejemplo, información sobre los límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y a otros elementos de [!DNL Target].
-- [Target para aplicaciones móviles](https://developer.adobe.com/target/implement/mobile/){target=_blank}: explica cómo [!DNL Target] se puede utilizar para la optimización y personalización de aplicaciones móviles.
-- [Recursos e información de contacto](cmp-resources-and-contact-information.md): proporciona información sobre recursos adicionales para ayudarle a obtener información sobre las características de [!DNL Target] y sobre cómo ponerse en contacto con [!DNL Adobe] en caso de necesitar ayuda.
+- [Target para aplicaciones móviles](https://developer.adobe.com/target/implement/mobile/){target=_blank}: Explica cómo [!DNL Target] se puede utilizar para la optimización y personalización de aplicaciones móviles.
+- [Recursos e información de contacto](cmp-resources-and-contact-information.md): Proporciona información sobre recursos adicionales para ayudarle a obtener información sobre las características de [!DNL Target] y sobre cómo ponerse en contacto con [!DNL Adobe] en caso de necesitar ayuda.
 
 ## Especialistas en marketing {#marketers}
 
@@ -49,7 +49,7 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 
 ## Desarrolladores  {#developers}
 
-- [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank}: este portal proporciona recursos y guías para desarrolladores de [!DNL Adobe Target], incluida la documentación de API y SDK para implementar [!DNL Target].
+- [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank}: Este portal proporciona recursos y guías para desarrolladores de [!DNL Adobe Target], incluida la documentación de API y SDK para implementar [!DNL Target].
 
 ## Administradores de Target y Adobe Experience Cloud {#admins}
 

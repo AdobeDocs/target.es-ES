@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -47,24 +47,24 @@ Se le invita a publicar preguntas relacionadas con los temas tratados durante el
 
 Regístrese en los siguientes seminarios web para ver cómo utilizan los clientes [!DNL Adobe Target] para lograr sus objetivos de personalización y optimización:
 
-### Ajuste de la personalización con tecnología de IA: Nuevas funciones de [!DNL Adobe Target] (11 de octubre de 2022)
+### Ajuste de la personalización con tecnología de IA: nuevas funciones de [!DNL Adobe Target] (11 de octubre de 2022)
 
-Por favor, únase a nosotros para participar en este seminario web especial sobre el anuncio de productos.
+¡Únase a nosotros en este seminario web especial para anunciar productos!
 
-Estamos encantados de compartir algunas noticias &quot;muy grandes,&quot; innovadoras en términos de personalización a escala con [!DNL Adobe Target]: nuevos filtros e inteligencia que mejorarán la capacidad de [!DNL Target] Los usuarios afinan las actividades de personalización impulsadas por IA para tener un impacto directo en las métricas comerciales más importantes por actividad.
+Nos complace compartir algunas noticias “muy grandes” e innovadoras en términos de personalización a escala con [!DNL Adobe Target]: nuevos filtros e inteligencia que mejorarán la capacidad de los usuarios de [!DNL Target] a la hora de afinar las actividades de personalización impulsadas por IA para tener un impacto directo en las métricas empresariales más importantes por actividad.
 
 +++Detalles
 
-Este nuevo anuncio de producto es oportuno e hiper crítico, ya que hemos visto la necesidad de aumentar la personalización, independientemente de la industria, en los últimos años. Se ha convertido en un medio para que las empresas se diferencien críticamente de la competencia a lo largo de su recorrido de clientes. La personalización puede ser muy eficaz &quot;en todas partes:&quot; desde el primer contacto de un visitante, aprovechando los datos básicos para los casos de uso de adquisición, hasta los casos de uso de servicio al cliente y lealtad.
+Este nuevo anuncio de productos resulta oportuno y es sumamente esencial, ya que hemos constatado la necesidad de aumentar la personalización, sin importar el sector, en los últimos años. Se ha convertido en un medio para que las empresas se diferencien críticamente de la competencia a lo largo de su recorrido del cliente. La personalización puede ser muy eficaz “en todas partes”: desde el primer contacto de un visitante, en que se aprovechan los datos básicos para los casos de uso de adquisición, hasta los de servicio de atención al cliente y lealtad.
 
-En esta sesión, descubra cómo puede realizar un alza de conversión de costes adicionales aprovechando el [!DNL Adobe Target]Las nuevas características de mientras discutimos:
+En esta sesión, descubra cómo puede aumentar el alza de las conversiones aprovechando las nuevas funciones de [!DNL Adobe Target] conforme hablamos de lo siguiente:
 
-* Controles de modelo mejorados dentro de [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] actividades
-* Desbloquear la capacidad de evaluar atributos de perfil y segmentos de alto valor de [!DNL Adobe]&#39;s [!DNL Real-Time Customer Data Platform]
+* Controles de modelos mejorados dentro de actividades de [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática]
+* Desbloquear la capacidad de evaluar atributos de perfil y segmentos de alto valor de la [!DNL Real-Time Customer Data Platform] de [!DNL Adobe]
 * Cómo las marcas pueden ofrecer velocidades y decisiones más rápidas mediante el ajuste de sus algoritmos con tecnología de IA
 * Casos de uso únicos para ofrecer personalización de 1 a 1
 
-* **Martes 11 de octubre de 2022**
+* **Martes, 11 de octubre de 2022**
 * **13:00 a 14:00 (EDT, UTC-4)**
 * **[Más información e información de registro](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -96,11 +96,11 @@ Las experiencias móviles están impulsando la innovación de forma que los equi
 
    Mapa del curso:
 
-   * [!UICONTROL Prueba A/B], [!UICONTROL Multivariate Testing] (MVT), (XT) y pruebas y personalización automatizadas
+   * [!UICONTROL Prueba A/B], [!UICONTROL Prueba multivariada] (MVT), (XT) y pruebas y personalización automatizadas
    * Flujos de trabajo paso a paso para la configuración de actividades
-   * Recuperación previa de experiencias por lotes, lo que permite una personalización siempre activada para dispositivos móviles
-   * Métricas del ciclo vital para pruebas y segmentación en las experiencias de los clientes
-   * SDK para móviles = API para implementaciones flexibles (plataformas iOS y Android)
+   * Recuperación previa de experiencias por lotes, lo que permite una personalización siempre activa para móviles
+   * Métricas del ciclo vital para pruebas y direccionamiento en las experiencias de los clientes
+   * SDK móviles = API para implementaciones flexibles (plataformas iOS y Android)
 
 +++
 
