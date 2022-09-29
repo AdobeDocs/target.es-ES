@@ -4,10 +4,10 @@ description: Descubra por qué algunos sitios web podrían no abrirse de forma f
 title: ¿Cómo utilizo la extensión de ayuda del Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 64%
+source-wordcount: '1058'
+ht-degree: 55%
 
 ---
 
@@ -15,9 +15,11 @@ ht-degree: 64%
 
 La variable [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) La extensión del explorador Helper para Google Chrome permite cargar sitios web de forma fiable dentro del VEC para crear y realizar controles de calidad de experiencias rápidamente.
 
->[!NOTE]
+El explorador VEC Helper es una extensión de Chrome. Esta extensión no es necesaria cuando se utiliza Mozilla Firefox.
+
+>[!IMPORTANT]
 >
->El explorador VEC Helper es una extensión de Chrome. Esta extensión no es necesaria cuando se utiliza Mozilla Firefox.
+>A partir de enero de 2023, la variable [!DNL Target] La extensión VEC Helper dejará de funcionar en Google Chrome porque Google no permitirá extensiones con Manifest V2. Descargue la nueva extensión para seguir creando visualmente sus sitios web en [!DNL Target] a partir del nuevo año. Para obtener más información, consulte [Extensión de Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
 
 ## Razones por las que algunos sitios web podrían no abrirse de forma fiable en el VEC
 
@@ -31,7 +33,7 @@ Un SW es una tecnología web que se puede utilizar para interceptar solicitudes 
 
 El SW puede controlar el almacenamiento en caché; puede almacenar en caché la página web en sí, los recursos estáticos como JS, CSS, IMG, las solicitudes de AJAX, su contenido y sus encabezados de respuesta, incluidos los que la [Extensión de Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) intenta quitar, como X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) o Set-Cookie.
 
-Desafortunadamente, las API de extensión de Chrome que interceptan solicitudes web no reciben las solicitudes interceptadas y gestionadas por un SW. Por lo tanto, la extensión no puede corregir los encabezados y las cookies si la solicitud de página web la proporcionó un SW desde una caché porque la página web no se cargará dentro del VEC, debido a los encabezados X-Frame-Options o CSP que también se almacenaron en caché.
+Desafortunadamente, las API de extensión de Chrome que interceptan solicitudes web no reciben las solicitudes que fueron interceptadas y manejadas por un SW. Por lo tanto, la extensión no puede corregir los encabezados y las cookies si la solicitud de página web la proporcionó un SW desde una caché porque la página web no se cargará dentro del VEC debido a los encabezados X-Frame-Options o CSP que también se almacenaron en caché.
 
 Como solución, puede deshabilitar los Service Workers desde la pestaña Herramientas para desarrolladores de Chrome > Aplicación y, a continuación, activar la casilla Saltar para acceder a red en la sección Service Workers.
 

@@ -4,14 +4,14 @@ description: Obtenga información sobre cómo solucionar problemas que a veces o
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 52%
 
 ---
 
-# Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado
+# Resolución de problemas relacionados con el [!UICONTROL Compositor de experiencias visuales] y [!UICONTROL Compositor de experiencias mejorado]
 
 Mostrar problemas y otros problemas que a veces ocurren en la variable [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (CEE) en determinadas condiciones.
 
