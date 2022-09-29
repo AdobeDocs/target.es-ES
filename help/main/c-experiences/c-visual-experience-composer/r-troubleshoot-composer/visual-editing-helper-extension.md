@@ -3,10 +3,10 @@ keywords: VEC;Compositor de experiencias visuales;visual experience composer;VEC
 description: Descubra por qué algunos sitios web podrían no abrirse de forma fiable en la variable [!UICONTROL Compositor de experiencias visuales] (VEC). La variable [!UICONTROL Ayuda de edición visual] la extensión del explorador permite cargar sitios web de forma fiable dentro del VEC.
 title: ¿Cómo utilizo la variable [!UICONTROL Ayuda de edición visual] ¿Extensión?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 70ab1ec7f5313d8c1f8ecaa9b436d95919cf479a
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 30%
+source-wordcount: '568'
+ht-degree: 27%
 
 ---
 
@@ -56,12 +56,6 @@ Tenga en cuenta que al usar la variable [Compositor de experiencias mejorado](/h
 
    * Si intenta cargar un sitio web mediante el VEC que falla al cargar, aparece un mensaje sugiriendo que instale el [!UICONTROL Ayuda de edición visual] extensión del explorador.
    * Si at.js o alloy.js aún no están implementados en el sitio web, aparece un mensaje en el VEC sugiriendo que instale la extensión.
-
-## Más ayuda sobre esta función
-
-* [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [Resolución de problemas relacionados con el Compositor de experiencias mejorado](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
 
 
 
