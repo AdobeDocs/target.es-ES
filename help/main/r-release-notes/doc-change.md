@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7deebcf7f6f6b0044748f598c53f165402d1cda3
+source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1268'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 3 de octubre | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han actualizado las fechas de la [!DNL Target Standard/Premium] Versión 22.10.1. |
 | 22 de septiembre | Anuncios y eventos de [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] Termina de café Q&amp;A de la comunidad (28 de septiembre de 2022)</li></ul> |
 | 15 de septiembre | Anuncios y eventos de [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca del siguiente seminario web:<ul><li>Ajuste de la personalización con tecnología de IA: nuevas funciones de [!DNL Adobe Target] (11 de octubre de 2022)</li></ul> |
 | 13 de septiembre | [Información sobre la IU de  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Se ha agregado información sobre las notificaciones cuando una fuente [!DNL Recommendations] falla. |
