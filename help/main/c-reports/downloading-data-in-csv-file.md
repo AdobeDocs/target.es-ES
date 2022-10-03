@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo descargar datos de Adobe [!DNL Tar
 title: ¿Cómo Descargo Datos De Informes En Un Archivo CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 83%
@@ -40,7 +40,7 @@ Los datos se guardan hasta que finaliza la actividad.
 
 >[!NOTE]
 >
->El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B. Para calcular estas métricas calculadas, descargue el informe [Calculadora de confianza completa](/help/main/assets/complete_confidence_calculator.xlsx) Archivo de Excel para introducir el valor de la actividad o revisar el [cálculos estadísticos utilizados por Target](/help/main/assets/statistical-calculations.pdf).
+>El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B. Para calcular estas métricas calculadas, descargue el informe [Calculadora de confianza completa](/help/main/assets/complete_confidence_calculator.xlsx) Archivo de Excel para introducir el valor de la actividad o revisar [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Exportar detalles del pedido a un archivo .csv {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 

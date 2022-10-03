@@ -4,10 +4,10 @@ description: Encuentre respuestas a preguntas sobre el alza y la confianza al us
 title: ¿Dónde puedo encontrar información sobre el alza y la confianza con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 28%
+source-wordcount: '541'
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ En este tema encontrará respuestas a preguntas que se plantean a menudo sobre e
 
 ## ¿Puedo realizar cálculos sin conexión para A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-Puede realizar cálculos sin conexión para A4T, pero es necesario realizar un paso de exportaciones de datos en [!DNL Analytics]. Para obtener más información, consulte “Realización de cálculos sin conexión para Analytics para Target (A4T)” en [Nivel de confianza e Intervalo de confianza](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Puede realizar cálculos sin conexión para A4T, pero es necesario realizar un paso de exportaciones de datos en [!DNL Analytics]. Para obtener más información, consulte [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## ¿Cómo se calcula el alza? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,7 +25,7 @@ El alza es la diferencia porcentual entre los resultados de la página de contro
 
 ## ¿Cómo se calcula la confianza?   {#section_97DB24D833E742988318CA65DA65DAD9}
 
-El nivel de confianza es una probabilidad, expresada como porcentaje, igual a `1 - p-value`, donde la variable `p-value` se calcula a partir de una prueba t. Consulte [Tasa de conversión](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+El nivel de confianza es una probabilidad, expresada como porcentaje, igual a `1 - p-value`, donde la variable `p-value` se calcula a partir de una prueba t. Consulte [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## ¿Por qué no veo el alza y la confianza en las métricas calculadas?   {#lift-confidence}
 

@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo interpretar el informe Resumen de 
 title: ¿Cómo utilizo los informes de resumen de Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '673'
 ht-degree: 40%
 
 ---
@@ -38,7 +38,7 @@ El informe [!UICONTROL Nivel de actividad] compara el rendimiento global del uso
 
 ![Informe Nivel de actividad  ](/help/main/c-reports/assets/box_plot_ap.png)
 
-Las reglas estándar de interpretación de resultados para prueba A/B aún se aplican, incluidos alza, confianza, tendencias, duración, etc. Para obtener más información sobre interpretación de resultados, consulte   [Acerca de la tasa de conversión](/help/main/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+Las reglas estándar de interpretación de resultados para prueba A/B aún se aplican, incluidos alza, confianza, tendencias, duración, etc. Para obtener más información sobre interpretación de resultados, consulte   [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Informe de nivel de oferta {#section_CAA6409879E349C6906E2BE8156D87A1}
 

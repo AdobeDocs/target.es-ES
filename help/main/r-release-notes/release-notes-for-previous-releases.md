@@ -4,7 +4,7 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '34596'
 ht-degree: 96%
@@ -2289,7 +2289,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>Se ha rediseñado la interfaz de usuario de los informes. </p> </li> 
       <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>Los informes de Target tienen ahora una opción para restablecer los datos del informe y eliminar los datos antiguos. (TGT-5933) </p> </li> 
       <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>Las opciones de metodología de contabilización para informes incluyen Visitantes (predeterminado), Visitas e Impresiones de actividad. (TGT-10002) </p> </li> 
-     </ul> </p> <p>Para obtener más información, consulte <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">Configuración de informes</a> y <a href="/help/main/c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local">Metodología de recuento</a>. </p> <p>Las siguientes mejoras para informes ya están disponibles para los informes descargables de CSV: </p> <p> 
+     </ul> </p> <p>Para obtener más información, consulte <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Configuración de informes</a> y <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Metodología de recuento</a>. </p> <p>Las siguientes mejoras para informes ya están disponibles para los informes descargables de CSV: </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>El informe de CSV a nivel de oferta ahora tiene más detalles sobre cada oferta. (TGT-18995) </p> </li> 
       <li id="li_659D126E846348D4BE4544962F41539F"> <p>Los archivos de CSV a nivel de oferta descargados ahora incluyen datos de los segmentos destinados y de control para los informes de <span class="wintitle">Automated Personalization</span>. (TGT-22000) </p> </li> 
@@ -2955,7 +2955,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> Visualización de Intervalo de confianza en los informes de Target para la obtención de variables continuas </td> 
-   <td colname="col2"> <p>Aplique la función Rango de intervalos de confianza para cada tipo de métrica de ingresos (RPV, AOV, Ventas, Pedidos) y métricas de participación. </p> <p>Por ejemplo, si RPV = 200,00 y Rango de IC = 50,00, en el caso de RPV se mostrará así: 200,00 +/- 50,00. </p> <p>Este cambio se aplica a A/B, Segmentación de experiencias, y Pruebas multivariable. </p> <p>Consulte <a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">Nivel de confianza e intervalo de confianza</a>. </p> </td> 
+   <td colname="col2"> <p>Aplique la función Rango de intervalos de confianza para cada tipo de métrica de ingresos (RPV, AOV, Ventas, Pedidos) y métricas de participación. </p> <p>Por ejemplo, si RPV = 200,00 y Rango de IC = 50,00, en el caso de RPV se mostrará así: 200,00 +/- 50,00. </p> <p>Este cambio se aplica a A/B, Segmentación de experiencias, y Pruebas multivariable. </p> <p>Consulte <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Nivel de confianza e intervalo de confianza</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mejora de las reglas para las URL del Compositor de experiencias visuales </td> 
@@ -3212,7 +3212,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> Intervalo de confianza para métricas binarias </td> 
-   <td colname="col2"> <p>En los informes actualizados con datos basados en Target se muestra el intervalo de confianza del alza, en comparación con el control. </p> <p>Consulte <a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">Nivel de confianza e intervalo de confianza</a>. </p> </td> 
+   <td colname="col2"> <p>En los informes actualizados con datos basados en Target se muestra el intervalo de confianza del alza, en comparación con el control. </p> <p>Consulte <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Nivel de confianza e intervalo de confianza</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Descargar datos de informe de actividades de exportación </td> 
