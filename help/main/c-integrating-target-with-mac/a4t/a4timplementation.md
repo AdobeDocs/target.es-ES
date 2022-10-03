@@ -4,9 +4,9 @@ description: Siga los pasos necesarios para implementar Analytics para [!DNL Tar
 title: ¿Cómo implemento Analytics para [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1155'
 ht-degree: 25%
 
 ---
@@ -192,7 +192,7 @@ Adobe recomienda eliminar la integración anterior para simplificar la implement
 
 ### Paso 10: Habilitar las opciones para usar Analytics como fuente de informes para Target
 
-En [!DNL Target], haga clic en **[!UICONTROL Administración > Compositor de experiencias visuales]** y elija **[!UICONTROL Seleccionar por actividad]** o **[!UICONTROL Adobe Analytics]** para activar las opciones.
+En [!DNL Target], haga clic en **[!UICONTROL Administración > Informes]** y elija **[!UICONTROL Seleccionar por actividad]** o **[!UICONTROL Adobe Analytics]** para activar las opciones.
 
 * **[!UICONTROL La opción Seleccionar por actividad permite elegir entre y a la hora de crear cada actividad.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL La opción Adobe establece Analytics como fuente de informes para todas las actividades que cree.]**[!DNL Analytics]
