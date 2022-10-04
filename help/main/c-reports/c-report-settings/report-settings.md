@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo configurar las opciones de informe
 title: ¿Cómo configuro los informes?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1923'
 ht-degree: 68%
 
 ---
@@ -276,16 +276,16 @@ Si pasa el cursor sobre cualquiera de las experiencias en gris, en el gráfico s
 
 A modo de ejemplo, la siguiente ilustración muestra un gráfico de actividad con 26 experiencias:
 
-![](assets/graph_1.png)
+![imagen graph_1](assets/graph_1.png)
 
 En el gráfico se representan las líneas de las 16 primeras experiencias (algunas se solapan, por lo que parece que hay menos de 16 líneas). El punto de color del panel Experiencias, situado la izquierda junto a cada nombre de experiencia, indica que la línea de diagrama de la experiencia se muestra en su color correspondiente.
 
 Si se desplaza hacia abajo en el panel Experiencias, verá que los nombres de los puestos 17.º a 26.º aparecen atenuados, como se ven en esta ilustración:
 
-![](assets/graph_2.png)
+![imagen graph_2](assets/graph_2.png)
 
 Si pasa el cursor sobre una de las experiencias en gris, en el gráfico se muestra temporalmente su correspondiente nueva línea de diagrama gris.
 
 Suponga que quiere mostrar la línea de diagrama de la Experiencia R pero no quiere ver la de la Experiencia P. Puede hacer clic en el nombre de la Experiencia P para anular su selección y, a continuación, hacer clic en el nombre de la Experiencia R para seleccionarla, como se muestra a continuación:
 
-![](assets/graph_3.png)
+![imagen graph_3](assets/graph_3.png)

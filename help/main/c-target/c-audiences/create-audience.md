@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear audiencias personalizadas y 
 title: ¿Cómo Creo Audiencias?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '521'
 ht-degree: 61%
 
 ---
@@ -37,7 +37,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
 1. Haga clic en **[!UICONTROL Audiencias]** en la barra de menú superior.
 
-   ![](assets/audiences_list.png)
+   ![imagen audiences_list](assets/audiences_list.png)
 
 1. En el [!UICONTROL Audiencias] lista, haga clic en **[!UICONTROL Crear audiencia]**.
 

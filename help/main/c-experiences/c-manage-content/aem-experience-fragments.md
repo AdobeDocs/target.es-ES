@@ -4,10 +4,10 @@ description: Aprenda a utilizar [!DNL Adobe Experience Manager] fragmentos de ex
 title: Cómo Uso [!DNL Adobe Experience Manager] (AEM) ¿Fragmentos de experiencias?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 52%
+source-wordcount: '1379'
+ht-degree: 51%
 
 ---
 
@@ -117,7 +117,7 @@ Puede consumir fragmentos de experiencias en actividades de [!DNL Target] emplea
    >
    >La opción [!UICONTROL Intercambiar con fragmento de experiencia] no está disponible para imágenes. Si desea utilizar esta opción con una imagen, haga clic en el elemento contenedor que contenga la imagen deseada.
 
-   ![](assets/experience_fragment_list.png)
+   ![imagen experience_fragment_list](assets/experience_fragment_list.png)
 
 1. Seleccione el fragmento de experiencia deseado y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 1. Termine de configurar la actividad.
@@ -140,7 +140,7 @@ Puede consumir fragmentos de experiencias en actividades de [!DNL Target] emplea
 
 1. En [!DNL Target], mientras crea o edita una experiencia en el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), haga clic en el lugar de la página donde desea insertar contenido de [!DNL AEM] y, a continuación, seleccione **[!UICONTROL Cambiar fragmento de experiencia]** para mostrar la lista [!UICONTROL Elegir un fragmento de experiencia].
 
-   ![](assets/experience_fragment_list.png)
+   ![imagen experience_fragment_list](assets/experience_fragment_list.png)
 
    La variable [!UICONTROL Fragmento de experiencia] muestra el contenido creado en [!DNL AEM] que ahora está disponible de forma nativa desde [!DNL Target].
 

@@ -4,9 +4,9 @@ description: Aprenda a crear criterios que controlen el contenido de sus activid
 title: ¿Cómo creo criterios en Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2843'
 ht-degree: 53%
 
 ---
@@ -184,7 +184,7 @@ Resulta especialmente eficaz usar la similitud de contenido para generar recomen
 
 Al seleccionar **[!UICONTROL Basado en elementos]**/ **[!UICONTROL Medios con atributos similares]**, tiene la opción de crear reglas para aumentar o reducir la importancia de atributos de artículos específicos a la hora de determinar las recomendaciones. En el caso de artículos como libros, puede aumentar la importancia de atributos como el *género*, el *autor* o la *serie* para recomendar libros parecidos.
 
-![](assets/ContentSimilarity.png)
+![Imagen ContentSimilarity](assets/ContentSimilarity.png)
 
 Como la similitud de contenido emplea palabras clave para comparar los artículos, algunos atributos, como *mensaje* o *descripción*, pueden producir “ruido” en la comparación. Puede crear reglas para pasar por alto estos atributos.
 
@@ -224,7 +224,7 @@ Para crear una regla de inclusión sencilla, como se mencionó, previamente, que
 1. Defina la cantidad mínima en inventario para los productos que desea recomendar.
 1. Configure la recomendación para que únicamente muestre los artículos cuando cumplan determinados criterios.
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Imagen Recs_InclusionRules](assets/Recs_InclusionRules.png)
 
    Puede especificar que los artículos se incluyan solamente cuando uno de los atributos de la lista cumpla o no una o varias condiciones especificadas.
 
@@ -254,7 +254,7 @@ Por ejemplo, puede aplicar una ponderación más alta para artículos en venta d
 
    Por ejemplo, la regla completa podría ser &quot;La categoría contiene zapatos de subcadena&quot;.
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Imagen Recs_AttributeWeighting](assets/Recs_AttributeWeighting.png)
 
 1. Seleccione la ponderación para asignarla a la regla.
 

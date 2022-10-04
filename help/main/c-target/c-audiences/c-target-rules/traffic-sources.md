@@ -4,9 +4,9 @@ description: Aprenda a crear audiencias en Adobe [!DNL Target] para dirigirse a 
 title: ¿Puedo orientar a los visitantes en función del motor de búsqueda o del sitio de referencia?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '270'
 ht-degree: 63%
 
 ---
@@ -24,7 +24,7 @@ Puede combinar varias fuentes de tráfico para crear una regla de segmentación 
    1. Asigne un nombre a la audiencia y añada una descripción opcional.
 1. Arrastrar y soltar **[!UICONTROL Fuentes de tráfico]** en el panel del generador de audiencias.
 
-   ![](assets/target_traffic_source.png)
+   ![imagen target_traffic_source](assets/target_traffic_source.png)
 
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 

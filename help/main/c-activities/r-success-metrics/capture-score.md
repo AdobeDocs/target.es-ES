@@ -4,9 +4,9 @@ description: Obtenga información sobre la métrica de participación Puntuació
 title: ¿Qué es la métrica Puntuación de captación?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '769'
 ht-degree: 48%
 
 ---
@@ -17,7 +17,7 @@ La métrica de participación Puntuación de captación de [!DNL Adobe Target] c
 
 En el siguiente ejemplo se muestra cómo se calcula la participación de puntuación en una campaña que prueba dos experiencias: una con la imagen de un gato y otra con la imagen de un perro.
 
-![](assets/example_score.png)
+![imagen example_score](assets/example_score.png)
 
 En este ejemplo, el visitante experimenta en primer lugar la experiencia del gato. Supongamos que una [!DNL Target] La solicitud de pasa una puntuación de página basada en el valor de la página. Si el especialista en marketing ha capturado una participación de recuento de páginas en una métrica de éxito asociada con `**any Target request**`, la puntuación de visita se acumula para cualquier solicitud vista después de la solicitud de visualización alrededor de la imagen del gato.
 
@@ -25,7 +25,7 @@ La primera página añade 1 a la puntuación, la segunda página 0,25, la tercer
 
 Puede tener en cuenta los costos de adquisición de la cuenta y los ingresos de vínculos afiliados pasando AdBoxes y redirectores, tal como se muestra en el flujo de páginas siguiente. Observe que, en este ejemplo, ambos [!DNL Target] las solicitudes en la página de artículos pasan una puntuación, lo que posiblemente representa un CPM conocido.
 
-![](assets/example_score2.png)
+![imagen example_score2](assets/example_score2.png)
 
 ## Asignación de una puntuación de página
 

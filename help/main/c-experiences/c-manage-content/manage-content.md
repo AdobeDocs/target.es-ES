@@ -4,9 +4,9 @@ description: Aprenda a administrar ofertas de código e imagen mediante la bibli
 title: ¿Cómo administro las ofertas de código y de imagen?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 37%
 
 ---
@@ -25,7 +25,7 @@ Utilice la variable [!UICONTROL Ofertas] biblioteca en [!DNL Adobe Target] para 
 
 1. (Opcional) Haga clic en el **[!UICONTROL Tipo]** lista desplegable para filtrar ofertas por tipo (oferta de HTML, [Fragmentos de experiencias](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Oferta de redireccionamiento](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Oferta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)y [Carpetas](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
-   ![](assets/offers_filter.png)
+   ![imagen offer_filter](assets/offers_filter.png)
 
 1. (Opcional) Haga clic en el **[!UICONTROL Fuente]** lista desplegable para filtrar ofertas por fuente (Adobe Target, Adobe Target Classic y Adobe Experience Manager).
 
@@ -66,7 +66,7 @@ Puede ver los detalles de la definición de una oferta en una tarjeta emergente 
 
 Por ejemplo, se accede a la siguiente tarjeta de definición de oferta para una oferta de HTML pasando el puntero sobre una oferta en la [!UICONTROL Contenido] y, a continuación, haga clic en el icono de información:
 
-![](assets/offer-card-html.png)
+![imagen offer-card-html](assets/offer-card-html.png)
 
 Está disponible la siguiente información:
 
@@ -79,11 +79,11 @@ Está disponible la siguiente información:
 
 En cada tarjeta emergente de definición de la oferta, puede hacer clic en la pestaña [!UICONTROL Uso de la oferta] para ver las actividades que hacen referencia a una oferta de código. Esta funcionalidad no se aplica a ofertas de imagen. De esta forma, puede evitar que otras actividades se vean influidas mientras edita las ofertas. La información incluye [!UICONTROL Actividades en directo] y [!UICONTROL Actividades inactivas].
 
-![](assets/offer-card-usage.png)
+![imagen offer-card-usage](assets/offer-card-usage.png)
 
 La siguiente es la tarjeta de definición de una oferta de redireccionamiento:
 
-![](assets/offer-card-redirect.png)
+![imagen de redireccionamiento de tarjeta de oferta](assets/offer-card-redirect.png)
 
 Está disponible la siguiente información:
 
@@ -99,7 +99,7 @@ Está disponible la siguiente información:
 
 La siguiente es la tarjeta de definición de una oferta remota:
 
-![](assets/offer-card-remote.png)
+![imagen remota de tarjeta de oferta](assets/offer-card-remote.png)
 
 Está disponible la siguiente información:
 

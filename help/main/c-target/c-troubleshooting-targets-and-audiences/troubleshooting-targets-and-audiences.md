@@ -4,9 +4,9 @@ description: Ver las preguntas más frecuentes (FAQ) sobre la segmentación de e
 title: ¿Dónde puedo encontrar preguntas y respuestas sobre segmentación y audiencias?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 62%
 
 ---
@@ -80,7 +80,7 @@ El usuario cumple los criterios de la primera experiencia o audiencia que se mue
 
 Por ejemplo, en la siguiente ilustración, un usuario de California que utiliza un dispositivo Windows cumple los criterios de la Experiencia A (audiencia de Windows) y de Experiencia C (audiencia de California). Este usuario vería la Experiencia A porque aparece en la lista anterior por encima de Experiencia C en la página de Target.
 
-![](assets/audiences_order.png)
+![imagen audiences_order](assets/audiences_order.png)
 
 ## ¿Por qué los nombres de las mismas audiencias en [!DNL Target], Adobe Audience Manager (AAM) y la Biblioteca de audiencias en los servicios principales son diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 

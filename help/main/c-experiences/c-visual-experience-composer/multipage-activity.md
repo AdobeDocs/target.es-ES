@@ -4,10 +4,10 @@ description: Aprenda a crear una actividad de varias páginas en Adobe [!DNL Tar
 title: ¿Cómo creo una actividad de varias páginas?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 85%
+source-wordcount: '383'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ Para agregar páginas a una prueba:
 
    Aparece una barra de navegación en el lado izquierdo de la pantalla.
 
-   ![](assets/multipage_nav.png)
+   ![imagen multipage_nav](assets/multipage_nav.png)
 
 1. Use esa barra de navegación para especificar las páginas y establecer la página predeterminada.
 
@@ -40,7 +40,7 @@ Para agregar páginas a una prueba:
 
    Haga clic en el icono de tres elipses verticales para mostrar un menú de acción:
 
-   ![](assets/multipage_menu.png)
+   ![imagen multipage_menu](assets/multipage_menu.png)
 
    Utilice este menú para cambiar el nombre de las páginas, realizar una prueba de redirección desde la actividad de varias páginas o eliminar la página.
 

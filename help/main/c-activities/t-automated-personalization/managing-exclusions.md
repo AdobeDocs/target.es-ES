@@ -5,10 +5,10 @@ title: ¿Cómo administro las exclusiones en actividades de Automated Personaliz
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 90%
+source-wordcount: '1001'
+ht-degree: 88%
 
 ---
 
@@ -119,7 +119,7 @@ Excluir el contenido predeterminado es una excelente manera de cambiar la aparie
 
    Puede ver las experiencias creadas a partir de las ofertas que especificó en [!UICONTROL Administrar contenido]. Notará que no se crean experiencias en [!UICONTROL Administrar contenido] con la oferta predeterminada que excluyó.
 
-   ![](assets/exclude_content_vec_4.png)
+   ![imagen exclude_content_vec_4](assets/exclude_content_vec_4.png)
 
 **Para excluir el contenido predeterminado utilizando el Compositor basado en la experiencia del formulario:**
 
@@ -130,14 +130,14 @@ Excluir el contenido predeterminado es una excelente manera de cambiar la aparie
 
    Para el contenido del texto/HTML:
 
-   ![](assets/exclude_content_form_1.png)
+   ![imagen exclude_content_form_1](assets/exclude_content_form_1.png)
 
    Para el contenido de imagen/vídeo:
 
-   ![](assets/exclude_content_form_2.png)
+   ![imagen exclude_content_form_2](assets/exclude_content_form_2.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    Puede ver las experiencias creadas a partir de las ofertas que especificó en [!UICONTROL Administrar contenido]. Notará que no se crean experiencias en [!UICONTROL Administrar contenido] con la oferta predeterminada que excluyó.
 
-   ![](assets/exclude_content_form_3.png)
+   ![imagen exclude_content_form_3](assets/exclude_content_form_3.png)

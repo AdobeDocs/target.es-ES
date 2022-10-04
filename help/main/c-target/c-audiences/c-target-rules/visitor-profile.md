@@ -4,10 +4,10 @@ description: Aprenda a crear audiencias en [!DNL Adobe Target] para dirigirse a 
 title: ¿Puedo Dirigirme A Visitantes Que Cumplen Parámetros De Perfil Específicos?
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 47%
+source-wordcount: '251'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ Cree audiencias en [!DNL Adobe Target] para dirigirse a visitantes que cumplan p
 
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
-   ![](assets/target_visitor_profile.png)
+   ![imagen target_visitor_profile](assets/target_visitor_profile.png)
 
    Los parámetros de perfil de visitante se pasan a través del mbox (perfil). Puede segmentar visitantes nuevos o recurrentes, o bien incluir todos los usuarios.
 

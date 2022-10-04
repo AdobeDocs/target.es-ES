@@ -4,10 +4,10 @@ description: Aprenda a utilizar las fechas y horas de inicio y finalización par
 title: ¿Puedo segmentar Visitantes que Visiten Mi Sitio En Tiempos Específicos?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 45%
+source-wordcount: '428'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ Por ejemplo, si se usa la variable [característica de audiencias combinadas y a
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
 1. Arrastrar y soltar **[!UICONTROL Periodo de tiempo]** en el panel del generador de audiencias.
 
-   ![](assets/target_timeframe_dialog.png)
+   ![imagen target_timeframe_dialog](assets/target_timeframe_dialog.png)
 
 1. Especifique la variable [!UICONTROL Inicio] y [!UICONTROL Fin] fechas y horas para la audiencia.
 

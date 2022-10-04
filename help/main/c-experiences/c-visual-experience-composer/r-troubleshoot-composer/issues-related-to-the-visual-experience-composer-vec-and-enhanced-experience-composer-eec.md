@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo solucionar problemas que a veces o
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 52%
+source-wordcount: '1427'
+ht-degree: 51%
 
 ---
 
@@ -90,11 +90,11 @@ Si los encabezados CSP de su sitio web bloquean las bibliotecas de Target y lueg
 >
 >Además de la siguiente información, puede utilizar la [extensión del explorador Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para Google Chrome.
 
-![](assets/cps_headers.png)
+![imagen cps_headers](assets/cps_headers.png)
 
 Como solución alternativa, puede configurar una regla de Requestly para eliminar los encabezados CSP, como se muestra abajo:
 
-![](assets/cps_headers_2.png)
+![imagen cps_headers_2](assets/cps_headers_2.png)
 
 Puede configurar una regla de Requestly similar para cualquier encabezado que provoque que un recurso no se cargue dentro del VEC.
 

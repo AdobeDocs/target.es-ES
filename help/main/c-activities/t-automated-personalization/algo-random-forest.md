@@ -4,10 +4,10 @@ description: Descubra cómo Adobe [!DNL Target] utiliza el algoritmo de bosque a
 title: How [!DNL Target] ¿Usar el algoritmo de bosque aleatorio?
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 95%
+source-wordcount: '1427'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +34,13 @@ Pongamos que el código postal es más predictivo. Esta variable formaría la pr
 
 Esta acción se convertirá en la primera capa de nuestro árbol de decisión:
 
-![](assets/decsion_tree_1.png)
+![imagen decsion_tree_1](assets/decsion_tree_1.png)
 
 El árbol de decisión le preguntará: “¿Cuál es la variable más predictiva?”. En nuestro ejemplo, solo tenemos dos variables, así que la respuesta es claramente el sexo. Ahora el árbol va a realizar un ejercicio similar para dividir los datos *dentro de cada rama*. En primer lugar, consideraremos la rama 11111, 22222 y 33333. En estos códigos postales, si hay alguna diferencia de conversión entre hombres y mujeres, habrá dos hojas (hombres y mujeres) y esta rama estará completa. En la otra rama, 44444 y 55555, asumiremos que no hay ninguna diferencia estadística entre cómo convierten los hombres y las mujeres. En este caso, la primera rama se convierte en la división final.
 
 El árbol de nuestro ejemplo sería el siguiente:
 
-![](assets/decsion_tree_2.png)
+![imagen decsion_tree_2](assets/decsion_tree_2.png)
 
 ## ¿Cómo utilizan los árboles de decisión el bosque aleatorio? {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -52,7 +52,7 @@ Los árboles de decisión pueden ser una herramienta estadística muy útil. Sin
 
 El diagrama siguiente resume cómo se crean los modelos para las actividades de Segmentación automática o de Personalización automatizada:
 
-![](assets/random_forest_flow.png)
+![imagen random_forest_flow](assets/random_forest_flow.png)
 
 1. Target recopila datos sobre visitantes, mientras sirve aleatoriamente experiencias y ofertas.
 1. Cuando Target consigue una cantidad de datos importante, realiza ingeniería de características.

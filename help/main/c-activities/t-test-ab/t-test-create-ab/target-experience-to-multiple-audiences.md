@@ -4,9 +4,9 @@ description: Aprenda a dirigir versiones de la misma experiencia a distintas aud
 title: ¿Puedo usar varias versiones de una experiencia en una actividad A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 92%
 
 ---
@@ -39,7 +39,7 @@ En este caso, lo que necesitamos son versiones geográficas de la experiencia pa
 
 1. Haga clic en **[!UICONTROL Añadir audiencia]** y seleccione la primera audiencia a la que se quiere dirigir. Haga lo mismo por cada audiencia.
 
-   ![](assets/exp-versions.png)
+   ![imagen exp-versions](assets/exp-versions.png)
 
    Si la audiencia todavía no existe, haga clic en [Crear audiencia](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) y configúrela.
 

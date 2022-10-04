@@ -4,9 +4,9 @@ description: Aprenda a crear audiencias solo de actividad en Adobe [!DNL Target]
 title: ¿Puedo crear una audiencia para usarla una sola vez?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '451'
 ht-degree: 55%
 
 ---
@@ -28,7 +28,7 @@ Las audiencias solo de actividad proporcionan las siguientes ventajas:
 
 1. Haga clic en **[!UICONTROL Solo esta actividad]**.
 
-   ![](assets/activity-only-aud.png)
+   ![imagen de solo austeridad de actividad](assets/activity-only-aud.png)
 
 1. Escriba un nombre descriptivo para la audiencia.
 1. Arrastre y suelte los atributos deseados en el generador de audiencias.

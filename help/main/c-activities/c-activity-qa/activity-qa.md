@@ -4,9 +4,9 @@ description: Aprenda a utilizar Adobe [!DNL Target] Direcciones URL de control d
 title: ¿Cómo Se Hacen Evaluaciones De Las Actividades?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1832'
 ht-degree: 39%
 
 ---
@@ -57,7 +57,7 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
 
    Puede navegar por el sitio para ver las otras páginas porque la variable [!UICONTROL Control de calidad de la actividad] es fijo. Esta situación se da en las implementaciones de at.js con la versión 2.*x* o posterior. Para at.js 1.*x* , esta situación solo ocurre si el explorador del visitante no bloquea las cookies de terceros.
 
-1. Para ver los informes generados a partir de las URL de vínculos de actividad, haga clic en el **[!UICONTROL Informes]** , haga clic en el botón **[!UICONTROL Configuración]** icono (  ![](assets/icon_gear.png) ) y, a continuación, seleccione **[!UICONTROL Tráfico de modo de control de calidad]** de la variable **[!UICONTROL Entorno]** lista desplegable.
+1. Para ver los informes generados a partir de las URL de vínculos de actividad, haga clic en el **[!UICONTROL Informes]** , haga clic en el botón **[!UICONTROL Configuración]** icono (  ![icon_engrane image](assets/icon_gear.png) ) y, a continuación, seleccione **[!UICONTROL Tráfico de modo de control de calidad]** de la variable **[!UICONTROL Entorno]** lista desplegable.
 
 ## Consideraciones {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
@@ -113,7 +113,7 @@ La tabla siguiente muestra los distintos tipos de actividades e indica si [!UICO
 | [!UICONTROL Automated Personalization] (AP) | No | No | No |
 | [!UICONTROL Segmentación de experiencias] (XT) | Sí | Sí | Sí |
 | [!UICONTROL Prueba multivariable] (MVT) | Sí | Sí | Sí |
-| [!UICONTROL Recomendaciones] | Sí | Sí | Sí |
+| [!UICONTROL Recommendations] | Sí | Sí | Sí |
 
 ## Vista previa de direcciones URL {#preview}
 
@@ -137,5 +137,5 @@ La tabla siguiente muestra los distintos tipos de actividades e indica si la fun
 | [!UICONTROL Automated Personalization] (AP) | Sí | Sí | Sí |
 | [!UICONTROL Segmentación de experiencias] (XT) | Sí | Sí | Sí |
 | [!UICONTROL Prueba multivariable] (MVT) | Sí | Sí | Sí |
-| [!UICONTROL Recomendaciones] | Sí | Sí | Sí |
+| [!UICONTROL Recommendations] | Sí | Sí | Sí |
 

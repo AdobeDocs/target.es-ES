@@ -4,10 +4,10 @@ description: Use  [!DNL Analytics]  for  [!DNL Target]  (A4T) para crear activid
 title: ¿Qué es  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '1140'
+ht-degree: 98%
 
 ---
 
@@ -79,15 +79,15 @@ Para cambiar entre la [!UICONTROL Visualización de tabla] y la [!UICONTROL Visu
 
 En la ilustración siguiente, se ve la [!UICONTROL Visualización de gráfico] de un informe de A4T. La lista desplegable [!UICONTROL Métrica de informes] muestra las métricas de objetivo de [!DNL Analytics] disponibles:
 
-![](assets/a4t_report_graph1.png)
+![imagen a4t_report_graph1](assets/a4t_report_graph1.png)
 
 En la ilustración siguiente, se ve la [!UICONTROL Visualización de gráfico] de un informe de A4T. La lista desplegable [!UICONTROL Audiencia] muestra las audiencias de [!DNL Analytics] disponibles:
 
-![](assets/a4t_report_graph2.png)
+![imagen a4t_report_graph2](assets/a4t_report_graph2.png)
 
 En la ilustración siguiente, se muestra la [!UICONTROL Visualización de tabla] de un informe de A4T:
 
-![](assets/a4t_report_table.png)
+![imagen a4t_report_table](assets/a4t_report_table.png)
 
 Para ver el informe en [!DNL Analytics] en lugar de en [!DNL Target], haga clic en **[!UICONTROL Ver en Analytics]** en la parte superior del informe.
 

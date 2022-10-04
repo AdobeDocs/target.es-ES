@@ -4,10 +4,10 @@ description: Aprenda a utilizar el estimador de tráfico que le permite saber si
 title: ¿Cuánto tráfico se necesita para una actividad de prueba multivariable (MVT)?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 93%
+source-wordcount: '506'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ El estimador de tráfico también proporciona información que le permite conoce
 
    Se abre el estimador de tráfico. Para ocultar el calculador de Tráfico, vuelva a hacer clic en el icono **[!UICONTROL Tráfico]**.
 
-   ![](assets/estimatorempty.png)
+   ![estimatorempty image](assets/estimatorempty.png)
 
 1. Indique la tasa de conversión típica, la estimación de visitantes al día y la duración de la prueba.
 
@@ -48,7 +48,7 @@ El estimador de tráfico también proporciona información que le permite conoce
 
    Cerca de la parte superior del estimador de tráfico, se calculan los valores que ha indicado y se muestran los resultados.
 
-   ![](assets/estimatorinsufficient.png)
+   ![estimador: imagen insuficiente](assets/estimatorinsufficient.png)
 
    Al cambiar estos números, también cambian las estimaciones. Por ejemplo, si va a probar un gran número de experiencias y la tasa de conversión y las impresiones son demasiado bajas, el estimador de tráfico muestra el tiempo que deberá ejecutarse la prueba para que tenga éxito. O, si el tráfico es escaso, es posible que el estimador de tráfico sugiera un menor número de experiencias para poder ejecutar la prueba durante el número de días que desee.
 
@@ -59,4 +59,4 @@ El estimador de tráfico también proporciona información que le permite conoce
 
    Ajuste las cifras hasta que el estimador de tráfico le indique que tiene tráfico suficiente y, después, diseñe la prueba según corresponda.
 
-   ![](assets/estimatorok.png)
+   ![imagen estimmatorok](assets/estimatorok.png)

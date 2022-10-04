@@ -4,9 +4,9 @@ description: Aprenda a configurar secuencias de hasta cinco criterios para ejerc
 title: ¿Cómo creo secuencias de criterios en Recommendations?
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '835'
 ht-degree: 34%
 
 ---
@@ -46,7 +46,7 @@ Los siguientes pasos suponen que accede a la variable [!UICONTROL Crear secuenci
 
 1. Haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Crear secuencia de criterios]**.
 
-   ![](assets/CreateCriteriaSequence.png)
+   ![Imagen CreateCriteriaSequence](assets/CreateCriteriaSequence.png)
 
 1. Rellene la información de la sección [Información básica](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) para obtener más información.
 

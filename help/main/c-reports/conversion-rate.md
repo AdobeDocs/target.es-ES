@@ -4,10 +4,10 @@ description: Descubra cómo Adobe [!DNL Target] muestra y calcula la tasa de con
 title: ¿Cómo puedo ver la tasa de conversión, el alza y el nivel de confianza?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2150'
-ht-degree: 53%
+source-wordcount: '2164'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ La tasa de conversión, el alza, la confianza y el intervalo de confianza se inc
 
 La siguiente ilustración muestra el encabezado de gráfico de una actividad de muestra, con los encabezados [!UICONTROL Tasa de conversión], [!UICONTROL Alza] y [!UICONTROL Confianza] destacados.
 
-![](assets/conversion-rate.jpg)
+![imagen de tasa de conversión](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Indica la tasa de conversión media, el intervalo de confianza y el número de c
 
 Examine la siguiente columna del informe Tasa de conversión a modo de ejemplo:
 
-![](assets/conversion-rate-detail.jpg)
+![imagen conversion-rate-detail](assets/conversion-rate-detail.jpg)
 
 La primera línea corresponde a la experiencia de control. Muestra una tasa de conversión del 15%, con tres conversiones. En la segunda línea, Experiencia B, se muestra una tasa de conversión del 15%, con un intervalo de confianza de más o menos 15,65% y tres conversiones.
 
@@ -62,7 +62,7 @@ La confianza de una experiencia u oferta que se muestra es una probabilidad (exp
 
 La confianza se redondea al 100,00 % cuando la confianza es superior o igual al 99,995 %.
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![imagen conf_report](assets/conf_report.png)  ![imagen conf_report_detail](assets/conf_report_detail.png)
 
 Antes de tomar una decisión empresarial, espere a que el tamaño de la muestra sea lo suficientemente grande y que las cuatro barras de confianza de una o varias experiencias se mantengan constantes durante un periodo de tiempo ininterrumpido. De este modo, se asegurará de que los resultados son estables.
 
@@ -75,7 +75,7 @@ Antes de tomar una decisión empresarial, espere a que el tamaño de la muestra 
 
 La variable *intervalo de confianza* es un rango de estimaciones dentro del cual el valor verdadero de la métrica se puede encontrar en un nivel de confianza determinado. Target siempre muestra intervalos de confianza del 95 %. El intervalo de confianza aparece como un porcentaje positivo o negativo de color gris claro en la columna Tasa de conversión. En el ejemplo siguiente, el intervalo de confianza de alza de la Experiencia B es más o menos 15,65%.
 
-![](assets/conversion_rate.png)
+![imagen conversion_rate](assets/conversion_rate.png)
 
 **Ejemplo:** El RPV observado en una experiencia es de 10 dólares y su 95% **intervalo de confianza** es de 5 a 15 dólares. Desconocido para nosotros, su verdadero RPV es $12. Entonces, si ejecutamos esta prueba varias veces, el 95 % del tiempo que calculamos el intervalo de confianza contendrá la variable _true_ valor del RPV de $12.
 

@@ -5,10 +5,10 @@ title: ¿Cómo utilizo las reglas de inclusión dinámicas y estáticas en Recom
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 17%
+source-wordcount: '2094'
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ El proceso de creación y uso de reglas de inclusión para criterios y promocion
 
 Mientras [crea criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), haga clic en **[!UICONTROL Agregar regla de filtrado]** en **[!UICONTROL Reglas de inclusión]**.
 
-![](assets/inclusion_options_new.png)
+![inclusión_options_new imagen](assets/inclusion_options_new.png)
 
 Las opciones disponibles varían en función del sector seleccionado y la clave de recomendación.
 
@@ -30,7 +30,7 @@ Las opciones disponibles varían en función del sector seleccionado y la clave 
 
 Mientras [crea una promoción](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), seleccione **[!UICONTROL Promocionar por atributo]** y, a continuación, haga clic en **[!UICONTROL Agregar regla de filtrado]**.
 
-![](assets/inclusion_options.png)
+![imagen include_options](assets/inclusion_options.png)
 
 ## Tipos de filtro {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -93,9 +93,9 @@ Puede elegir varias opciones para gestionar valores vacíos al filtrar por [!UIC
 
 Anteriormente, si un valor estaba en blanco no se devolvía ningún resultado. La lista desplegable “Si *x* está en blanco” le permite elegir la acción que se debe realizar si los criterios contienen valores en blanco, como se muestra en la siguiente ilustración:
 
-![](assets/empty_value.png)
+![imagen empty_value](assets/empty_value.png)
 
-Para seleccionar la acción deseada, pase el ratón sobre el icono del engranaje (![](assets/icon_gear.png)) y, a continuación, elija la acción deseada:
+Para seleccionar la acción deseada, pase el ratón sobre el icono del engranaje (![icon_engrane image](assets/icon_gear.png)) y, a continuación, elija la acción deseada:
 
 | Acción | Disponible para | Detalles |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ Para seleccionar la acción deseada, pase el ratón sobre el icono del engranaje
 >
 >Es posible que no se puedan usar atributos de tipo de datos diferentes en los criterios dinámicos o promociones durante el tiempo de ejecución con los operadores “es igual que” y “no es igual que”. Uso [!UICONTROL Valor], [!UICONTROL Margen], [!UICONTROL Inventario]y [!UICONTROL Entorno] de forma acertada en el lado derecho si el lado izquierdo tiene atributos predefinidos o personalizados.
 
-![](assets/left_right.png)
+![imagen izquierda_derecha](assets/left_right.png)
 
 La tabla siguiente contiene reglas eficaces y reglas que pueden no ser compatibles durante el tiempo de ejecución:
 

@@ -4,10 +4,10 @@ description: Obtenga información sobre cuánto tiempo se debe ejecutar una prue
 title: ¿Durante cuánto tiempo debo ejecutar una prueba A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 63%
+source-wordcount: '3072'
+ht-degree: 59%
 
 ---
 
@@ -61,11 +61,11 @@ Hay cinco parámetros definidos por el usuario que definen una prueba A/B. Estos
 
 Para una prueba A/B, el analista fija la relevancia estadística, la eficacia estadística, el alza mínima fiable detectable y la tasa de conversión de línea de base, y el número de visitantes se calcula a partir de estos valores. Este artículo analiza estos elementos y ofrece directrices para determinar estas métricas para una prueba específica.
 
-![](assets/samplesize.png)
+![imagen de ejemplo](assets/samplesize.png)
 
 En la siguiente imagen se muestran los cuatro resultados posibles de una prueba A/B:
 
-![](assets/outcomes.png)
+![imagen de resultados](assets/outcomes.png)
 
 Es deseable no obtener falsos positivos ni falsos negativos. Sin embargo, la obtención de cero falsos positivos nunca se puede garantizar mediante una prueba estadística. Siempre es posible que las tendencias observadas no sean representativas de las tasas de conversión subyacentes. Por ejemplo, en una prueba para ver si era más probable que las caras o cruces de una moneda cambiaran, incluso con una moneda justa, se podían conseguir diez caras en diez lanzamientos sólo por casualidad. La relevancia y la potencia estadísticas nos permiten cuantificar las tasas de falsos positivos y falsos negativos, y mantenerlos en niveles razonables para una determinada prueba.
 
@@ -109,11 +109,11 @@ Por ejemplo, supongamos que dos ofertas (A y B) tienen tasas de conversión verd
 
 En la siguiente imagen se muestran estas distribuciones de probabilidad.
 
-![](assets/probability_distributions.png)
+![imagen probability_distributions](assets/probability_distributions.png)
 
 Debido al gran solapamiento entre los dos rangos, la prueba no puede determinar si las tasas de conversión son diferentes. Por tanto, esta prueba con 100 visitantes no puede distinguir entre las dos ofertas. Sin embargo, si Target expone las ofertas a 5000 visitantes cada una, hay un 95 % de probabilidades de que las tasas de conversión observadas se reduzcan en los intervalos del 9 % al 11 % y del 14 % al 16 %, respectivamente.
 
-![](assets/probability_distributions2.png)
+![imagen probability_distributions2](assets/probability_distributions2.png)
 
 En este caso, es poco probable que la prueba llegue a una conclusión incorrecta, por lo que la prueba con 5000 visitantes puede distinguir entre las dos ofertas. La prueba con 5000 visitantes tiene un intervalo de confianza de +/-1 % aproximadamente. Esto significa que la prueba puede detectar diferencias de alrededor del 1 %. Por tanto, se necesitarían incluso más visitantes si las tasas de conversión reales de las ofertas fueran, por ejemplo, del 10 % y el 10,5 %, en lugar del 10 % y el 15 %.
 
@@ -131,15 +131,15 @@ En la calculadora de tamaño de la muestra (encontrará el vínculo más arriba)
 
 Existe un equilibrio entre el alza mínima que la prueba puede detectar de manera fiable y el número de visitantes necesario. En la imagen de abajo, que es válida para una tasa de conversión de línea de base (control) del 5 %, se muestra una fuerte reducción de los valores devueltos conforme aumenta el número de visitantes. El alza mínima que se puede detectar de manera fiable mejora considerablemente cuando se agregan algunos de los primeros visitantes a la prueba, pero toma un número de visitantes cada vez mayor para mejorar la prueba. La imagen ayuda a encontrar un equilibrio adecuado entre el tiempo necesario para realizar la prueba (según viene determinado por el número de visitantes necesario y el tráfico del sitio) y el alza mínima que la prueba puede detectar de manera fiable.
 
-![](assets/samplesizecontrol.png)
+![imagen samplesizecontrol](assets/samplesizecontrol.png)
 
-En este ejemplo, es posible que considere adecuado poder detectar un alza del 5 % (correspondiente a una tasa de conversión de la oferta alternativa (100 % + 5 %)*5 % = 5,25 %) en 80 de 100 pruebas, por lo que necesitará un tamaño de muestra de 100 000 visitantes para cada oferta. Si el sitio tiene 20 000 visitantes al día y realiza la prueba de dos ofertas, la prueba debería permitir ejecutar 2*100 000/20 000 = 10 días, antes de poder determinar si la oferta alternativa tiene una relevancia estadística superior a la de la oferta de control.
+En este ejemplo, podría decidir que es posible detectar un alza del 5 % (correspondiente a una tasa de conversión de la oferta alternativa de (100 %+5 %)&#42;5 % = 5,25 %) en 80 de 100 pruebas es adecuado, por lo que necesitará un tamaño de muestra de 100 000 visitantes para cada oferta. Si el sitio tiene 20 000 visitantes al día y realiza la prueba de dos ofertas, se debe permitir que la prueba se ejecute durante 2&#42;100 000/20 000 = 10 días antes de poder determinar si la oferta alternativa es estadísticamente significativamente superior a la oferta de control.
 
 Una vez más, se recomienda que el tiempo necesario se redondee siempre a la semana completa más próxima, para evitar cualquier efecto de día de la semana. Por tanto, en este ejemplo, la prueba se realizaría durante dos semanas antes de evaluar los resultados.
 
 ### Métrica de ingresos por visita.  {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-Cuando se usan los ingresos por visita (RPV) como métrica, se añade una fuente de varianza adicional, ya que RPV es el producto de los ingresos por pedido y la tasa de conversión (RPV = ingresos/nº visitantes = (ingresos por pedido * nº de pedidos)/nº de visitantes = ingresos por pedido * (nº de visitantes * CTR)/nº de visitantes = ingresos por pedido * CTR), cada uno con su propia varianza. La varianza de la tasa de conversión se puede calcular directamente utilizando un modelo matemático, pero la varianza de ingresos por pedido es específica de la actividad. Por lo tanto, utilice el conocimiento de esta variación de actividades anteriores o ejecute la prueba A/B durante unos días para estimar la varianza en los ingresos. La varianza se calcula a partir de los valores de Suma de ventas, Suma de ventas al cuadrado y Número de visitantes que se encuentran en el archivo de descarga CSV. Una vez establecida esta opción, utilice la hoja de cálculo para calcular el tiempo necesario para completar la prueba.
+Al usar los ingresos por visita (RPV) como métrica, se agrega una fuente de variación adicional porque RPV es el producto de los ingresos por pedido y la tasa de conversión (RPV = ingresos / nº visitantes = (Ingresos por pedido) &#42; #pedidos) / # visitantes = Ingresos por pedido &#42; (#visitors &#42; CTR) / #visitors = Ingresos por pedido &#42; CTR), cada uno con su propia varianza. La varianza de la tasa de conversión se puede calcular directamente utilizando un modelo matemático, pero la varianza de ingresos por pedido es específica de la actividad. Por lo tanto, utilice el conocimiento de esta variación de actividades anteriores o ejecute la prueba A/B durante unos días para estimar la varianza en los ingresos. La varianza se calcula a partir de los valores de Suma de ventas, Suma de ventas al cuadrado y Número de visitantes que se encuentran en el archivo de descarga CSV. Una vez establecida esta opción, utilice la hoja de cálculo para calcular el tiempo necesario para completar la prueba.
 
 La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ayudarle a configurar la métrica de RPV. Cuando abra la calculadora, verá una pestaña etiquetada [!UICONTROL Métrica de RPV]. Necesitará la siguiente información al usar la versión de RPV de la calculadora:
 

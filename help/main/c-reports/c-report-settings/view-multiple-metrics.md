@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo seleccionar varias métricas para 
 title: ¿Cómo puedo ver varias métricas en un informe?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 58%
 
 ---
 
@@ -27,7 +27,7 @@ Tenga en cuenta la siguiente información cuando trabaje con varias métricas en
 1. Para mostrar un informe, haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes.]**
 1. Haga clic en la lista desplegable **[!UICONTROL Métrica de informes]** para ver las listas [!UICONTROL Métricas mostradas] y [!UICONTROL Métricas ocultas].
 
-   ![](assets/multiple_metrics.png)
+   ![imagen de varias métricas](assets/multiple_metrics.png)
 
    Puede utilizar el cuadro [!UICONTROL Buscar] para encontrar rápidamente métricas disponibles que se añadirán a la lista [!UICONTROL Métricas mostradas].
 
@@ -46,10 +46,10 @@ Tenga en cuenta la siguiente información cuando trabaje con varias métricas en
 1. Haga clic en **[!UICONTROL Guardar]** cuando termine.
 1. (Condicional) Mientras ve el informe en el [!UICONTROL Vista de tabla], pase el puntero del ratón sobre el encabezado de columna de cualquier métrica para mostrar una flecha azul. Haga clic en la flecha para expandir la tabla y mostrar el [!UICONTROL Alza] y la [!UICONTROL Confianza] para esa métrica.
 
-   ![](assets/multiple_metrics_table.png)
+   ![imagen multiple_metrics_table](assets/multiple_metrics_table.png)
 
    Solo puede expandir una métrica/coluna a la vez. Vuelva a hacer clic en la flecha para contraer las columnas.
 
 1. (Condicional) Mientras ve el informe en la Visualización de gráfico, puede seleccionar métricas individuales para mostrarlas en la lista desplegable:
 
-   ![](assets/multiple_metrics_graph.png)
+   ![imagen multiple_metrics_graph](assets/multiple_metrics_graph.png)

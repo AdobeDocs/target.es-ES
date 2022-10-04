@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo elegir una métrica de éxito en [
 title: ¿Puedo Aplicar Una Audiencia De Informes A Una Métrica De Éxito?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 54%
+source-wordcount: '301'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ Elija una métrica de éxito que permita al usuario entrar en la audiencia de in
 
 Para todas las actividades, la lista desplegable [!UICONTROL Aplicado a] le permite aplicar una audiencia a una métrica de éxito, de modo que pueda ver los números del informe una vez que se alcance la métrica y en acciones posteriores.
 
-![](assets/success_metric.png)
+![imagen success_metric](assets/success_metric.png)
 
 Por ejemplo, supongamos que ha creado una actividad para todos los visitantes que entran en su página de inicio y alcanzan la página de conversión, pero que también desea obtener más datos sobre los visitantes que añadieron más de 50 $ al carro antes de la conversión.
 
@@ -32,4 +32,4 @@ Tenga en cuenta la siguiente información al aplicar una audiencia de informes a
 
 Para ver la segmentación en los informes, seleccione la audiencia que desee en el informe [!UICONTROL Audiencia] lista desplegable en el informe de la actividad.
 
-![](assets/reporting_audience_dropdown.png)
+![imagen reporting_audience_dropdown](assets/reporting_audience_dropdown.png)

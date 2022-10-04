@@ -4,10 +4,10 @@ description: Aprenda a utilizar la opción Redireccionar a URL en el Adobe [!DNL
 title: ¿Puedo redirigir una página a una dirección URL diferente?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 84%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -31,9 +31,9 @@ Las ofertas de redireccionamiento tienen ciertas limitaciones:
 Para crear una oferta de redireccionamiento:
 
 1. Cree una experiencia.
-1. Pase el ratón sobre una experiencia y haga clic en el icono Redireccionar a dirección URL (![](assets/icon_redirect_url.png)).
+1. Pase el ratón sobre una experiencia y haga clic en el icono Redireccionar a dirección URL (![icon_redirect_url image](assets/icon_redirect_url.png)).
 
-   ![](assets/exp_actions.png)
+   ![imagen exp_actions](assets/exp_actions.png)
 
 1. Escriba la dirección URL.
 1. Si lo desea, seleccione la opción para incluir los parámetros de consulta actuales.

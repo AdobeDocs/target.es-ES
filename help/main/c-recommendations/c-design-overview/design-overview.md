@@ -4,9 +4,9 @@ description: Aprenda a utilizar diseños en Adobe [!DNL Target] Recommendations 
 title: ¿Cómo utilizo los diseños en Recommendations?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '200'
 ht-degree: 32%
 
 ---
@@ -19,7 +19,7 @@ Diseña [!DNL Adobe Target Recommendations] defina cómo aparecen las recomendac
 
 [!DNL Target] puede proporcionar el aspecto completo de sus recomendaciones como se muestra en la ilustración siguiente. El diseño puede incluir HTML, JavaScript y CSS. Este diseño se denomina diseño 4 x 1: cuatro espacios en una fila.
 
-![](assets/velocity_example.png)
+![imagen velocity_example](assets/velocity_example.png)
 
 Target también puede enviar sus recomendaciones como objetos JSON que se pueden utilizar en mensajes de correo electrónico, dispositivos con internet de las cosas, consola o casos de uso de voz (Alexa de Amazon o Google Home).
 

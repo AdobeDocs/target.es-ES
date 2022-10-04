@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear ofertas JSON en Adobe [!DNL 
 title: ¿Cómo creo ofertas JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 38%
 
 ---
@@ -36,7 +36,7 @@ Cuando trabaje con ofertas JSON, tenga en cuenta la información siguiente:
 
 1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Oferta JSON]**.
 
-   ![](assets/offer-json.png)
+   ![imagen offer-json](assets/offer-json.png)
 
 1. Escriba el nombre de una oferta.
 1. Escriba o pegue su código JSON en el recuadro **[!UICONTROL Código]**.
@@ -137,7 +137,7 @@ Los atributos de perfil CDP en tiempo real se pueden compartir con Target para s
 
 Ejemplo de caso de uso: Como especialista en marketing en línea, Grace quiere que el AEP/Perfil unificado comparta valores de atributo con Target para proporcionar una personalización en tiempo real. Mediante el uso de Atributos de perfil CDP en tiempo real, Grace puede mostrar el valor del atributo AEP en una oferta de Target mediante el reemplazo de tokens. Por ejemplo, puede personalizar según el color favorito de un cliente utilizando `${aep.profile.favoriteColor}`, o su nivel de lealtad y valor de punto de lealtad mediante los tokens `${aep.loyalty.tier}` y `${aep.loyalty.points}`.
 
-![](assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
 En el ejemplo que se muestra arriba, tenga en cuenta que la asignación de valores predeterminados es opcional.
 
@@ -145,4 +145,4 @@ En el ejemplo que se muestra arriba, tenga en cuenta que la asignación de valor
 
 Puede filtrar la variable [!UICONTROL Ofertas] biblioteca por tipo de oferta JSON haciendo clic en el botón **[!UICONTROL Tipo]** lista desplegable y, a continuación, seleccionando la **[!UICONTROL JSON]** casilla de verificación.
 
-![](assets/offer-json-filter.png)
+![imagen offer-json-filter](assets/offer-json-filter.png)

@@ -4,10 +4,10 @@ description: Revise la información para comprender las diferencias entre las ac
 title: ¿Cuál es la diferencia entre Recommendations Classic y Recommendations en  [!DNL Target]  Premium?
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Para obtener más información, consulte [Recomendaciones como oferta](/help/mai
 
 [!DNL Target Recommendations] incluye una biblioteca de criterios que contiene conjuntos empaquetados previamente de reglas y configuraciones. En [!DNL Recommendations Classic], cada recomendación se creó manualmente rellenando un formulario y eligiendo a partir de una larga lista de reglas. Ahora, cuando cree una actividad de [!DNL Recommendations], solo tiene que elegir un conjunto de criterios preconfigurados. Puede seguir creando recomendaciones personalizadas, pero la biblioteca de criterios contiene muchas de las configuraciones más comunes, está prediseñada para simplificar el proceso y usar un lenguaje comprensible para los usuarios. Estos criterios preempaquetados se pueden usar tal cual, o puede copiarlos y editarlos para adaptarlos a sus necesidades concretas.
 
-![](assets/overview_criteria.png)
+![imagen overview_criteria](assets/overview_criteria.png)
 
 Los criterios están preconfigurados y ordenados por sectores, tipos de página e implementación. Por ejemplo, puede buscar los criterios que se apliquen al vertical minorista, para usarlos en una página de producto, que muestre productos de una categoría en particular (definida por el parámetro `entity.categoryID`).
 
@@ -68,10 +68,10 @@ Puede obtener una vista previa de las recomendaciones después de configurarlas 
 
 En [!DNL Recommendations Classic] había seis opciones de segmentación. Las actividades de Recommendations emplean la amplia gama de opciones de segmentación de Target. Defina una audiencia mediante [!DNL Target] o cualquier otra audiencia de [!DNL Adobe Experience Cloud] (como [!DNL Audience Manager] y [!DNL Analytics]) y elija el porcentaje de participantes en la actividad que verá cada diseño y el porcentaje que verá el control.
 
-![](assets/overview_targeting.png)
+![imagen overview_targeting](assets/overview_targeting.png)
 
 ## Creación de informes {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 En [!DNL Target], [!DNL Recommendations] genera informes mejorados que aprovechan las capacidades de [!DNL Target] y [!DNL Experience Cloud]. En lugar de mostrar simplemente el alza proporcionada por [!DNL Recommendations] comparada con los resultados sin ellas, puede ver información completa sobre su actividad de [!DNL Recommendations].
 
-![](assets/overview_report.png)
+![imagen overview_report](assets/overview_report.png)

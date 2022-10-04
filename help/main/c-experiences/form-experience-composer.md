@@ -4,9 +4,9 @@ description: Aprenda a utilizar el Adobe [!DNL Target] Compositor de experiencia
 title: ¿Cómo utilizo el Compositor de experiencias basadas en formularios?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '871'
 ht-degree: 46%
 
 ---
@@ -29,7 +29,7 @@ Si está creando un [!UICONTROL Recommendations] actividad, no hay experiencias.
 
    La variable [!UICONTROL Compositor de experiencias basadas en formularios] se abre.
 
-   ![](assets/location_refinements.png)
+   ![imagen location_refinements](assets/location_refinements.png)
 
    Esta pantalla es diferente si crea un [!UICONTROL Recommendations] actividad. [!UICONTROL Las actividades de Recommendations no incluyen experiencias.]
 
@@ -46,13 +46,13 @@ Si está creando un [!UICONTROL Recommendations] actividad, no hay experiencias.
 
 1. Haga clic en **[!UICONTROL Agregar refinamientos de audiencia]**, elija una o más [audiencia](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta actividad, haga clic en **[!UICONTROL Listo]**.
 
-   ![](assets/location_refinements_2.png)
+   ![imagen location_refinements_2](assets/location_refinements_2.png)
 
    En el [!UICONTROL Compositor de experiencias basadas en formularios], los refinamientos se han sustituido por funciones de audiencia completas. Los refinamientos para las actividades existentes se han migrado a  [audiencias solo de actividad](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Seleccione el tipo de contenido que desea que aparezca en esa ubicación.
 
-   ![](assets/form_content.png)
+   ![imagen form_content](assets/form_content.png)
 
 1. Para el tipo de contenido seleccionado, especifique el contenido.
 
@@ -96,11 +96,11 @@ Si está creando un [!UICONTROL Recommendations] actividad, no hay experiencias.
 
    Cuando se seleccionan los criterios de Recommendations en el Compositor de experiencias basadas en formularios, ahora existe un vínculo directo a la tarjeta de criterios seleccionada de modo que pueda editarlos de forma rápida y sencilla.
 
-   ![](assets/change_criteria.png)
+   ![imagen change_criteria](assets/change_criteria.png)
 
    En la página Segmentación del flujo de trabajo guiado de tres pasos de Target:
 
-   ![](assets/change_criteria_2.png)
+   ![imagen change_criteria_2](assets/change_criteria_2.png)
 
    **Agregar decisión de oferta:**
 

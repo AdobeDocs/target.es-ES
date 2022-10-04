@@ -5,10 +5,10 @@ title: ¿Cómo Se Utilizan Los Atributos De Entidad Personalizados?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 88%
+source-wordcount: '1411'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Los atributos personalizados de entidad de varios valores no pueden contener má
 
 Los atributos de entidad personalizados pueden contener uno o varios valores. Los valores de los atributos de entidad se muestran en la vista del producto.
 
-![](assets/multi-value_product.png)
+![imagen multi-value_product](assets/multi-value_product.png)
 
 Un atributo de entidad personalizado con un solo valor tiene el mismo formato que un atributo de entidad predefinido de un solo valor:
 
@@ -93,11 +93,11 @@ Puede administrar los archivos CSV sin procesar mediante un editor de texto o us
 
 El CSV sin procesar tendrá este aspecto:
 
-![](assets/multi-value_example_raw.png)
+![imagen multi-value_example_raw](assets/multi-value_example_raw.png)
 
 El mismo catálogo se verá del modo siguiente en una hoja de cálculo:
 
-![](assets/multi-value_example_excel.png)
+![imagen multi-value_example_excel](assets/multi-value_example_excel.png)
 
 Al convertir al formato .csv, el programa de hojas de cálculo encierra entre comillas dobles el contenido de las celdas para evitar que las comas de la celda funcionen como separadores de columnas. También encierra entre comillas dobles los valores de las cadenas JSON que se incluyen en los atributos personalizados de varios valores. Esto puede hacer que trabajar directamente con el archivo sin procesar sea un poco complicado. Por ejemplo:
 

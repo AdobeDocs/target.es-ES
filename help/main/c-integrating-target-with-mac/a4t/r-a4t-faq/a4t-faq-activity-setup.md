@@ -4,9 +4,9 @@ description: Encuentre respuestas a preguntas sobre la configuración de activid
 title: ¿Dónde puedo encontrar preguntas más frecuentes sobre la configuración de actividades con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 22%
 
 ---
@@ -36,7 +36,7 @@ Puede cambiar el [!UICONTROL Configuración de informes] opciones [!UICONTROL Ad
 1. En [!DNL Target], haga clic en **[!UICONTROL Administración]**.
 1. En la lista desplegable **[!UICONTROL Solución de Experience Cloud utilizada para la creación de informes]**, haga clic en **[!UICONTROL Seleccionar por actividad]**.
 
-![](assets/select-per-activity.png)
+![imagen de selección por actividad](assets/select-per-activity.png)
 
 La lista desplegable **[!UICONTROL Fuente de informes]** está habilitada en la pantalla **[!UICONTROL Objetivo y configuración]** para crear y editar actividades.
 

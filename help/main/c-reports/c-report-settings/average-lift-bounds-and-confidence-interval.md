@@ -4,10 +4,10 @@ description: Aprenda a interpretar el Adobe [!DNL Target] , que incluyen puntos 
 title: ¿Cómo veo el alza promedio, los límites de alza y el intervalo de confianza?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 62%
+source-wordcount: '911'
+ht-degree: 60%
 
 ---
 
@@ -57,18 +57,18 @@ Los límites de elevación representan los intervalos de confianza del 95 % del
 
 Los límites de alza se calculan con la siguiente fórmula:
 
-![](assets/lift_diagram.png)
+![imagen del diagrama de elevación](assets/lift_diagram.png)
 
 Hay algunos cálculos adicionales para llegar a la entrada de nuestros límites de alza:
 
 * **Valor t:** la estadística crítica para nuestro nivel de confianza del 95 % es 1,96. Puede obtener más información acerca de los [valores t aquí](https://en.wikipedia.org/wiki/T-statistic).
 * **Varianza de alza:** el error estándar de la métrica de éxito de la experiencia N y el error estándar de la métrica de éxito de la experiencia de control son necesarios para determinar la varianza de aumento, que se calcula con la siguiente fórmula (ilustrada en el caso de que la métrica de éxito sea conversión).
 
-   ![](assets/lift_variance.png)
+   ![imagen de alza_varianza](assets/lift_variance.png)
 
 * **Error estándar de métrica de porcentaje de conversión/éxito:** el error estándar se calcula de la misma manera para la experiencia N y de control, utilizando la siguiente fórmula (ilustrada en el caso de que la métrica de éxito sea la conversión). Puede obtener [más información sobre el error estándar aquí](https://en.wikipedia.org/wiki/Standard_error).
 
-   ![](assets/standard_error.png)
+   ![imagen standard_error](assets/standard_error.png)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ De acuerdo con nuestras fórmulas, podemos calcular las entradas que necesitamos
 
 **Error estándar para la experiencia A (control)**
 
-![](assets/standard_error_A.png)
+![imagen standard_error_A](assets/standard_error_A.png)
 
 **Error estándar para la experiencia B**
 
-![](assets/standard_error_B.png)
+![imagen standard_error_B](assets/standard_error_B.png)
 
 **Varianza del alza para la experiencia B**
 
-![](assets/lift_variance_B.png)
+![imagen de alza_varianza_B](assets/lift_variance_B.png)
 
 **Límites del alza para la experiencia B**
 
 Alza esperada para la experiencia B:
 
-![](assets/lift_bounds_B.png)
+![imagen de alza_límites_B](assets/lift_bounds_B.png)
 
 Por lo tanto, los límites de alza para la Experiencia B serían:
 
-![](assets/lift_bounds_B2.png)
+![imagen de alza_límites_B2](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

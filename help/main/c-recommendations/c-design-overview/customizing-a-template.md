@@ -4,10 +4,10 @@ description: Aprenda a utilizar el lenguaje de diseño de código abierto Veloci
 title: ¿Cómo puedo personalizar un diseño con Velocity?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Si usa un script de perfil en su diseño, el símbolo $ que precede al nombre de
 
 Por ejemplo, si desea que un diseño muestre algo similar a esto:
 
-![](assets/velocity_example.png)
+![imagen velocity_example](assets/velocity_example.png)
 
 puede usar el siguiente código:
 
@@ -203,7 +203,7 @@ Para lograrlo, cree una columna en el diseño que use el atributo `$key` en el q
 
 El resultado es un diseño como el siguiente, en el que se muestra el artículo clave en una columna.
 
-![](assets/rec_key.png)
+![imagen rec_key](assets/rec_key.png)
 
 Al crear su actividad de [!DNL Recommendations], si el artículo clave se toma del perfil del visitante (por ejemplo, “último artículo comprado”), [!DNL Target] muestra un producto aleatorio en el [!UICONTROL Compositor de experiencias visuales] (VEC). Se debe a que no hay un perfil disponible mientras diseña la actividad. Cuando los visitantes vean la página, verán el artículo clave previsto.
 

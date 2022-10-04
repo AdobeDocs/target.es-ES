@@ -4,10 +4,10 @@ description: Aprenda a combinar varias audiencias (incluidas las de Adobe Experi
 title: ¿Puedo combinar varias audiencias para crear una nueva?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 67%
+source-wordcount: '960'
+ht-degree: 66%
 
 ---
 
@@ -55,7 +55,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
       Supongamos que, en el ejemplo anterior, queremos incluir a los usuarios de Safari en la audiencia combinada. Busque y arrastre la audiencia “Explorador Safari” al cuadro “Explorador Firefox” de la derecha, como se ve a continuación:
 
-      ![](assets/combine_multiple_audiences3.png)
+      ![imagen merge_multiple_audiences3](assets/combine_multiple_audiences3.png)
 
       Observe que el operador que separa las dos audiencias de tipo de navegador es “Y”. Seleccione el [!UICONTROL Y] lista desplegable y cambie a &quot;O&quot; para crear una audiencia combinada nueva para los visitantes nuevos que utilicen Firefox o Safari. Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con los navegadores Firefox y Safari simultáneamente.
 
@@ -65,7 +65,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
    1. Para añadir una exclusión a una regla, haga clic en **[!UICONTROL Excluir]**.
 
-      ![](assets/combine_multiple_audiences3a.png)
+      ![imagen merge_multiple_audiences3a](assets/combine_multiple_audiences3a.png)
 
       Arrastre y suelte una audiencia.
 
@@ -86,12 +86,12 @@ Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y
 1. Al editar o crear una [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]**, seleccione **[!UICONTROL Conversión]** para la métrica de éxito y, luego, seleccione **[!UICONTROL Mbox visto]** como la acción.
 1. Elija el mbox que quiera en el campo **[!UICONTROL Buscar mbox]**.
 
-   ![](assets/combine_multiple_audiences4.png)
+   ![imagen merge_multiple_audiences4](assets/combine_multiple_audiences4.png)
 
 1. Haga clic en el icono del engranaje y luego en **[!UICONTROL Añadir destino de la audiencia]**.
 1. Haga clic en el vínculo **[!UICONTROL Agregar condición de Público/Objetivo]** para mostrar el cuadro de diálogo [!UICONTROL Elegir audiencia].
 
-   ![](assets/combine_multiple_audiences5.png)
+   ![imagen merge_multiple_audiences5](assets/combine_multiple_audiences5.png)
 
 1. Realice el [paso 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) de la sección “Crear una audiencia combinada al crear una actividad” para crear una audiencia combinada.
 
@@ -101,7 +101,7 @@ Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y
 
 1. Al editar o crear una  [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]** haga clic en el icono **[!UICONTROL Añadir audiencia]** de [!UICONTROL Audiencias para los informes] para mostrar la página [!UICONTROL Elegir audiencia].
 
-   ![](assets/combine_multiple_audiences6.png)
+   ![imagen merge_multiple_audiences6](assets/combine_multiple_audiences6.png)
 
 1. Realice el [paso 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) de la sección “Crear una audiencia combinada al crear una actividad” para crear una audiencia combinada.
 

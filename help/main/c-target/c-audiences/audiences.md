@@ -4,10 +4,10 @@ description: Aprenda a utilizar audiencias en [!DNL Adobe Target].
 title: ¿Cómo utilizo la lista de audiencias?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 25%
+source-wordcount: '1505'
+ht-degree: 24%
 
 ---
 
@@ -86,7 +86,7 @@ La información de uso de la audiencia puede ayudarle a evitar impactos accident
 
 Si una audiencia es [combinado con otra audiencia](/help/main/c-target/combining-multiple-audiences.md) y la audiencia combinada se utiliza para crear una actividad, la información de uso para ambas audiencias enumera esa actividad recién creada.
 
-![](assets/audience_definition_list_usage.png)
+![imagen audience_definition_list_usage](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 

@@ -1,12 +1,12 @@
 ---
 keywords: servidor de seguimiento de analytics;A4T;depurador de Adobe Experience Cloud;depurador de Adobe Experience Platform;fuente de informes;herramientas para desarrolladores
-description: 'Obtenga información sobre cómo especificar un servidor de seguimiento de Analytics para las actividades que usan Analytics para [!DNL Target] (A4T) si utiliza una versión anterior de at.js. '
+description: Obtenga información sobre cómo especificar un servidor de seguimiento de Analytics para las actividades que usan Analytics para [!DNL Target] (A4T) si utiliza una versión anterior de at.js.
 title: ¿Cómo utilizo un servidor de seguimiento de Analytics?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '686'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ El depurador debe verse en una página en la que se envíe la actividad para ase
 
 1. Haga clic en **[!UICONTROL Analytics]** en el menú de navegación de la izquierda.
 
-   ![](assets/Screen_DebuggerTrackServ.png)
+   ![Imagen Screen_DebuggerTrackServ](assets/Screen_DebuggerTrackServ.png)
 
    La variable [!DNL Analytics] el servidor de seguimiento se encuentra en la variable [!UICONTROL Nombre del host] del depurador.
 

@@ -4,9 +4,9 @@ description: Aprenda a utilizar la búsqueda en el catálogo de Recommendations 
 title: ¿Cómo utilizo la búsqueda en el catálogo de Recommendations?
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1041'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ Puede utilizar una búsqueda simple o avanzada para localizar elementos en el ca
 
 1. (Opcional) Puede restringir la búsqueda seleccionando una opción de búsqueda en el menú de opciones que aparece al hacer clic en la flecha hacia abajo del campo de búsqueda.
 
-   ![](assets/searchproductsmenu.png)
+   ![searchproductsmenú image](assets/searchproductsmenu.png)
 
    Las opciones de búsqueda son las siguientes:
 
@@ -72,7 +72,7 @@ Puede utilizar una búsqueda simple o avanzada para localizar elementos en el ca
 
 ### Realizar una búsqueda avanzada {#advanced-search}
 
-You can use [!UICONTROL Advanced Search] to further refine your search results or to save your search results as a [collection](/help/main/c-recommendations/c-products/collections.md) or [exclusion](/help/main/c-recommendations/c-products/exclusions.md).
+Puede usar [!UICONTROL Búsqueda avanzada] para restringir aún más los resultados de búsqueda o para guardar los resultados de búsqueda como un [colección](/help/main/c-recommendations/c-products/collections.md) o [exclusión](/help/main/c-recommendations/c-products/exclusions.md).
 
 1. Haga clic en el **[!UICONTROL Búsqueda avanzada]** vínculo.
 

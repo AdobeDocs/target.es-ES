@@ -4,10 +4,10 @@ description: Aprenda a usar el Compositor de experiencias visuales (VEC) en Adob
 title: ¿Cómo se crea una prueba multivariable?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 89%
+source-wordcount: '570'
+ht-degree: 88%
 
 ---
 
@@ -88,11 +88,11 @@ La [!UICONTROL prueba multivariada] (MVT) toma un informe centrado en una págin
 
    La siguiente ilustración indica que la actividad no tiene tráfico suficiente.
 
-   ![](assets/estimator.png)
+   ![imagen del estimador](assets/estimator.png)
 
    La siguiente ilustración indica que la actividad no tiene tráfico suficiente.
 
-   ![](assets/estimator2.png)
+   ![imagen estimador2](assets/estimator2.png)
 
 1. Haga clic en **[!UICONTROL Siguiente]** para avanzar a la página [!UICONTROL Segmentación.]
 

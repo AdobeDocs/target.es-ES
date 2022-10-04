@@ -4,10 +4,10 @@ description: Obtenga información sobre los atributos específicos del visitante
 title: ¿Qué son los atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: ht
-source-wordcount: '2441'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 99%
 
 ---
 
@@ -109,11 +109,11 @@ Haga clic en **[!UICONTROL Ver detalles completos]** para ver las audiencias y a
 
 Cuando se deshabilita un script de perfil, aparece un icono de alerta amarillo junto al script del perfil en la interfaz de usuario de Target, como se muestra a continuación:
 
-![](assets/profile_script_invalid.png)
+![profile_script_image no válida](assets/profile_script_invalid.png)
 
 Al pasar el ratón por encima, aparecen los detalles del error, como se muestra a continuación:
 
-![](assets/profile_script_hover.png)
+![imagen profile_script_hover](assets/profile_script_hover.png)
 
 Estas son las razones habituales por las que el sistema deshabilita los scripts de perfil:
 
@@ -161,7 +161,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
    Cada vez que carga para el sitio una página que incluye [!DNL Target], parte de la respuesta de [!DNL Target] contendrá su valor para el script de perfil dado, como se muestra a continuación:
 
-   ![](assets/debug_profile_script_1.png)
+   ![imagen debug_profile_script_1](assets/debug_profile_script_1.png)
 
 * **Utilice la herramienta de depuración mboxTrace para depurar scripts de perfil.**
 
@@ -171,7 +171,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
    Añadir estos parámetros proporciona algo más de información que el token de respuesta porque se obtiene una instantánea de su perfil anterior a la ejecución y otra posterior a la ejecución. También muestra todos los perfiles disponibles.
 
-   ![](assets/debug_profile_script_2.png)
+   ![imagen debug_profile_script_2](assets/debug_profile_script_2.png)
 
 ## Preguntas más frecuentes sobre scripts de perfil {#section_1389497BB6D84FC38958AE43AAA6E712}
 
