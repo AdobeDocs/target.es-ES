@@ -4,10 +4,10 @@ description: Descubra cómo una actividad de segmentación automática en [!DNL 
 title: ¿Qué es una actividad de segmentación automática?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 70%
+source-wordcount: '1987'
+ht-degree: 66%
 
 ---
 
@@ -63,7 +63,7 @@ Los siguientes términos pueden resultar útiles al tratar el tema de la [!UICON
 |---|---|
 | Multi-armed bandit | Un método multi-armed bandit en la optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje. |
 | Bosque aleatorio | El bosque aleatorio es una solución pionera de aprendizaje automático. En el ámbito de la ciencia de datos, se trata de un método de clasificación o regresión de ensamblado que funciona creando muchos árboles de decisión basados en los atributos del visitante y de la visita. En Target, el bosque aleatorio se utiliza para determinar qué experiencia se prevé que tendrá la mayor probabilidad de conversión (o los mayores ingresos por visita) para cada visitante específico. Para obtener más información sobre el bosque aleatorio, consulte  [Algoritmo de bosque aleatorio](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). |
-| Muestreo Thompson | El objetivo del muestreo Thompson es determinar qué experiencia es la mejor globalmente (sin personalizar), al mismo tiempo que se minimiza el “coste” de encontrar dicha experiencia. El muestreo Thompson siempre selecciona un ganador, aunque no haya diferencias estadísticas entre las dos experiencias. Para obtener más información, consulte [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Muestreo Thompson | El objetivo del muestreo Thompson es determinar qué experiencia es la mejor globalmente (no personalizada), al mismo tiempo que se minimiza el &quot;coste&quot; de encontrar esa experiencia. El muestreo Thompson siempre selecciona un ganador, aunque no haya diferencias estadísticas entre las dos experiencias. Para obtener más información, consulte [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Cómo funciona la [!UICONTROL segmentación automática] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -89,8 +89,8 @@ La lista desplegable [!UICONTROL Asignación personalizada] le permite elegir en
 
 | Objetivo de la actividad | Asignación de tráfico sugerida | Compensaciones |
 |--- |--- |--- |
-| **Evaluar el algoritmo de personalización (50/50)**: Si su objetivo es probar el algoritmo, utilice una división del 50/50 por ciento de los visitantes entre el control y el algoritmo seleccionado. Esta división proporciona la estimación más precisa del alza. Se sugiere utilizar con “experiencias aleatorias” como control. | 50 % de control/50 % de experiencia personalizada dividida | <ul><li>Maximiza la precisión del aumento entre el control y el personalizado</li><li>Relativamente, menos visitantes tienen una experiencia personalizada</li></ul> |
-| **Maximización del tráfico de personalización (90/10)**: Si su objetivo es crear una actividad “siempre activada”, ponga el 10% de los visitantes en el control a fin de asegurarse de que haya suficientes datos para que los algoritmos continúen aprendiendo a lo largo del tiempo. Tenga en cuenta que la compensación aquí es que a cambio de personalizar una mayor proporción de su tráfico, tiene menos precisión en cuál es exactamente el alza. Independientemente del objetivo, esta es la división de tráfico recomendada al usar una experiencia específica como control. | Lo mejor es usar una división de Experiencia personalizada del 10 % - 30 %/70 % - 90 % | <ul><li>Maximiza el número de visitantes que tienen una experiencia personalizada</li><li>Maximiza el alza</li><li>Menos precisión en cuanto a lo que significa el aumento para la actividad</li></ul> |
+| **Evaluar el algoritmo de personalización (50/50)**: Si su objetivo es probar el algoritmo, utilice una división del 50/50 por ciento de los visitantes entre el control y el algoritmo seleccionado. Esta división proporciona la estimación más precisa del alza. Se sugiere usar con &quot;experiencias aleatorias&quot; como control. | 50 % de control/50 % de experiencia personalizada dividida | <ul><li>Maximiza la precisión del aumento entre el control y el personalizado</li><li>Relativamente, menos visitantes tienen una experiencia personalizada</li></ul> |
+| **Maximizar el tráfico de personalización (90/10)**: Si su objetivo es crear una actividad &quot;siempre activada&quot;, ponga el 10 % de los visitantes en el control para asegurarse de que haya suficientes datos para que los algoritmos continúen aprendiendo a lo largo del tiempo. Tenga en cuenta que la compensación aquí es que a cambio de personalizar una mayor proporción de su tráfico, tiene menos precisión en cuál es exactamente el alza. Independientemente del objetivo, esta es la división de tráfico recomendada al usar una experiencia específica como control. | Lo mejor es usar una división de Experiencia personalizada del 10 % - 30 %/70 % - 90 % | <ul><li>Maximiza el número de visitantes que tienen una experiencia personalizada</li><li>Maximiza el alza</li><li>Menos precisión en cuanto a lo que significa el aumento para la actividad</li></ul> |
 | **Asignación personalizada** | Divida manualmente el porcentaje según lo desee. | <ul><li>Puede que no consiga los resultados deseados. Si no está seguro, siga las sugerencias de cualquiera de las opciones anteriores</li></ul> |
 
 Para ajustar el porcentaje de Control, haga clic en los iconos de la columna Asignación. No se puede reducir el grupo de control por debajo del 10 %.
@@ -159,7 +159,7 @@ Para la [!UICONTROL segmentación automática], se pueden usar reglas simples pa
 
 ## Informes y [!UICONTROL segmentación automática] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-Para obtener más información, consulte [Informe Resumen de la segmentación automática](/help/main/c-reports/auto-target-summary-report.md) en la sección [Informes](/help/main/c-reports/reports.md).
+Para obtener más información, consulte [Informe Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).
 
 ## Vídeo de formación: Información sobre las actividades de segmentación automática ![Distintivo Información general](/help/main/assets/overview.png)
 

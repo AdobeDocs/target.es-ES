@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo configurar las opciones de informe
 title: ¿Cómo configuro los informes?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 70%
+source-wordcount: '1917'
+ht-degree: 68%
 
 ---
 
@@ -57,7 +57,7 @@ Seleccione el ajuste preestablecido que desee en la lista desplegable **[!UICONT
 1. Seleccione el ajuste preestablecido que desee editar.
 1. Edite la configuración del informe a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etc.).
 
-   Una vez que hace clic en [!UICONTROL Guardar] después de editar la configuración del informe, aparece un asterisco (*) detrás del nombre del ajuste preestablecido para indicar que ha sido modificado, como se muestra a continuación:
+   Después de hacer clic en [!UICONTROL Guardar] después de editar la configuración del informe, aparece un asterisco ( &#42; ) aparece después del nombre del ajuste preestablecido para indicar que ha cambiado, como se muestra a continuación:
 
    ![Informe de Ajustes preestablecidos con asterisco](/help/main/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
@@ -167,7 +167,7 @@ Haga clic en el **[!UICONTROL Descargar]** para descargar datos de informes en u
 
 ![Icono de descarga](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-Para obtener más información, consulte [Descarga de datos en un archivo CSV](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Para obtener más información, consulte [Descarga de datos en un archivo CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Actualizar {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -192,7 +192,7 @@ Puede ver el informe en varios formatos, según el tipo de actividad. Seleccione
 
 Los informes incluyen varios puntos de datos y representaciones de visualización que comprenden los límites de la elevación y el nivel de confianza asociado a su actividad. Esto le ayuda a determinar un ganador con mayor precisión.
 
-Para obtener más información, consulte [Promedio de alza, límites de alza e intervalo de confianza](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Para obtener más información, consulte [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Tenga en cuenta lo siguiente:
 

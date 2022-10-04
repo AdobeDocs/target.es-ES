@@ -4,10 +4,10 @@ description: Aprenda a utilizar la variable [!UICONTROL Atributos importantes] i
 title: ¿Qué es el informe Atributos importantes?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -40,13 +40,13 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
 1. Haga clic en **[!UICONTROL Informes]**.
 
-   La variable [Resumen de Automated Personalization](/help/main/c-reports/reports-ap.md) o [Resumen de segmentación automática](/help/main/c-reports/auto-target-summary-report.md) que proporciona información sobre el rendimiento de sus actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos [!UICONTROL Perspectivas de personalización] informes: [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes].
+   La variable [Resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) que proporciona información sobre el rendimiento de sus actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos [!UICONTROL Perspectivas de personalización] informes: [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes].
 
-   ![Informe de resumen de la actividad de Automated Personalization](assets/summary-report-ap.png)
+   ![Informe de resumen de la actividad de Automated Personalization](/help/main/c-reports/assets/summary-report-ap.png)
 
    Tenga en cuenta que [!UICONTROL Segmentación automática] tiene un icono de gráfico adicional para la vista gráfica de la variable [!UICONTROL Resumen] informe.
 
-   ![Informe de resumen de la actividad de segmentación automática](assets/personalization_insights.png)
+   ![Informe de resumen de la actividad de segmentación automática](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -54,7 +54,7 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
 1. Transcurridos 15 días a partir de la activación de la actividad, haga clic en el **[!UICONTROL Atributos importantes]** icono.
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Seleccione el intervalo de fechas deseado.
 
@@ -66,16 +66,15 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
    Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Observe que “Inicio” aparece atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Puede acceder a los intervalos de fechas fijos disponibles desde la lista desplegable [!UICONTROL Elegir duración].
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Revise los datos del informe [!UICONTROL Atributos importantes].
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Opcional) [Descargue el informe en formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para su análisis con Excel y otras herramientas.
 
@@ -118,7 +117,7 @@ Los informes de Perspectivas de personalización (tanto [!UICONTROL Segmentos au
 
 **¿Cómo se crea [!UICONTROL Perspectivas de personalización]?**
 
-[!UICONTROL Perspectivas de personalización] se crea empleando una técnica de Adobe con patente en trámite llamada MAGIX (Model Agnostic Globally Interpretable Explanations). Puede obtener más información sobre MAGIX en el documento publicado por el equipo de investigación de Adobe en la [página web arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Perspectivas de personalización] se crea empleando una técnica de Adobe con patente en trámite llamada MAGIX (Model Agnostic Globally Interpretable Explanations). Puede obtener más información sobre MAGIX en el documento publicado por el equipo de investigación de Adobe en el [sitio web arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **¿Está disponible [!UICONTROL Perspectivas de personalización] para objetivos de modelado basados en los ingresos o para objetivos principales?**
 
@@ -136,7 +135,7 @@ Existen varias causas potenciales para que una oferta o experiencia con una tasa
 * Actividades de menor volumen en las que determinadas ofertas o experiencias no tienen modelos creados.
 * Actividades de menor volumen en las que los modelos se crearon antes para algunas ofertas o experiencias. Por ejemplo, supongamos que se creó un modelo adicional el día 22 y que está viendo los datos de los días 10-24.
 * Las reglas de segmentación de una oferta específica limitan a los visitantes que pueden ver cada oferta o experiencia.
-* No existen intervalos de confianza en los informes de perspectivas. Sin embargo, si las tasas de conversión son lo suficientemente cercanas, el modelo podría servir tráfico para que sea más alto en la cantidad de punto, pero no son números “estadísticamente distintos”.
+* No existen intervalos de confianza en los informes de perspectivas. Sin embargo, si las tasas de conversión son lo suficientemente cercanas, el modelo podría servir tráfico para que sea más alto en la cantidad de punto, pero no son números &quot;estadísticamente diferentes&quot;.
 
 Saber cómo funciona el modelo que proporciona tráfico puede ser útil. Cada persona se sirve en función de su perfil total. Sin embargo, los informes de perspectivas generalizan este comportamiento para hacerlo más interpretativo por parte de un humano. Como resultado, los segmentos no son mutuamente excluyentes. Esto puede generar segmentos individuales que muestren este tipo de comportamiento, porque la misma persona puede aparecer en varios segmentos.
 

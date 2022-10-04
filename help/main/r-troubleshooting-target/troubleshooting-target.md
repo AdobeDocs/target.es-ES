@@ -4,10 +4,10 @@ description: Vea una lista de temas útiles para resolver problemas de Adobe Tar
 title: ¿Cómo puedo solucionar problemas de Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 
 * [Preguntas frecuentes de Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Resolución de problemas de Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md)
-* [Informes resumen de Automated Personalization](/help/main/c-reports/reports-ap.md)
+* [Informes resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
 * [Informes de Perspectivas de personalización](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Prueba multivariable (MVT)

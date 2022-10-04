@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo seleccionar varias métricas para 
 title: ¿Cómo puedo ver varias métricas en un informe?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 59%
@@ -19,7 +19,7 @@ Tenga en cuenta la siguiente información cuando trabaje con varias métricas en
 
 * La capacidad de ver varias métricas está disponible para [Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md), [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)y [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo.
 * No se pueden agregar más de 20 métricas a un informe para una actividad que use [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Puede agregar tantas métricas como tenga en la actividad a informes para actividades que sí lo hagan *not* utilice A4T.
-* Si selecciona varias métricas, no puede utilizar la opción [](/help/main/c-reports/downloading-data-in-csv-file.md)Descargar para descargar informes a CSV. Para habilitar la opción [!UICONTROL Descargar], seleccione una única métrica.
+* Si selecciona varias métricas, no puede utilizar la opción [](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)Descargar para descargar informes a CSV. Para habilitar la opción [!UICONTROL Descargar], seleccione una única métrica.
 * No puede ver varias métricas en las actividades creadas antes de julio de 2015 [!DNL Target] versión (30 de julio de 2015).
 
 **Para seleccionar varias métricas que se mostrarán en el informe:**

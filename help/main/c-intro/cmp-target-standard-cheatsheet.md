@@ -4,7 +4,7 @@ description: Explore una lista de preguntas más frecuentes acerca del uso de la
 title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 96%
@@ -166,7 +166,7 @@ Revise las [reglas de plantilla](/help/main/c-experiences/c-visual-experience-co
 
 **Estoy cansado del mensaje “Permitir que tu navegador cargue secuencias de comandos” cuando intento cargar mi página en el Compositor de experiencias visuales (VEC). ¿Cómo puedo evitar esto?**
 
-Esto se debe a que su sitio tiene contenido mixto; es un sitio que obtiene recursos HTTP y HTTPS. Solicite que su equipo de TI se mueva completamente a HTTPS.
+Esto se debe a que el sitio tiene contenido mixto, es un sitio que obtiene recursos HTTP y HTTPS. Solicite que su equipo de TI se mueva completamente a HTTPS.
 
 Hasta que esto suceda, siga las instrucciones en  [Habilitar contenido mixto en el explorador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para que el explorador cargue contenido mixto. Esta es una característica de seguridad de la mayoría de los navegadores modernos.
 
@@ -279,7 +279,7 @@ Es allí donde [Analytics for Target (A4T)](/help/main/c-integrating-target-with
 
 **¿Puedo realizar cálculos de informes sin conexión?**
 
-Use [Exportar informes a CSV y descargar detalles de pedidos a las opciones de CSV](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) en la página Informes para descargar los datos de informes deseados.
+Use [Exportar informes a CSV y descargar detalles de pedidos a las opciones de CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) en la página Informes para descargar los datos de informes deseados.
 
 **¿Puedo cambiar la experiencia de control para evaluar informes o cambiar la metodología de conteo de Visitantes a Visitas?**
 
@@ -315,4 +315,4 @@ Para la optimización y personalización en dispositivos móviles, debe utilizar
 
 **¿Dónde puedo obtener más información sobre las API de Target?**
 
-Tenemos documentación exhaustiva sobre las API. Consulte [API de envío, SDK de NodeJS y documentación de las API de Recommendations](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+Tenemos documentación exhaustiva sobre las API. Consulte [API de envío, SDK de NodeJS y documentación de las API de Recommendations](https://developer.adobe.com/target/implementar/server-side/){target=_blank}.
