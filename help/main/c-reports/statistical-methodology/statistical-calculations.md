@@ -3,18 +3,22 @@ keywords: informes;metodología estadística;cálculos estadísticos;estadístic
 description: Obtenga información sobre los cálculos estadísticos utilizados en el manual [!UICONTROL Prueba A/B] actividades en [!DNL Adobe Target].
 title: Cómo puedo obtener información sobre los cálculos estadísticos utilizados en [!UICONTROL Prueba A/B] ¿Actividades?
 feature: Reports
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1096'
 ht-degree: 2%
 
 ---
 
 # Cálculos estadísticos en pruebas A/Bn
 
-Esta página documenta los cálculos estadísticos detallados utilizados en las pruebas A/Bn manuales en [!DNL Adobe Target]. Se proporcionan definiciones para Tasa de conversión, Intervalo de confianza de tasa de conversión, Alza, Intervalo de confianza para alza y Confianza.
+Esta página documenta los cálculos estadísticos detallados utilizados en las pruebas A/Bn manuales en [!DNL Adobe Target]. Las definiciones están previstas para [!UICONTROL Tasa de conversión], [!UICONTROL Intervalo de confianza de la tasa de conversión], [!UICONTROL Alza], [!UICONTROL Intervalo de confianza para el alza]y [!UICONTROL Confianza].
 
-![Informe de Target que muestra la tasa de conversión, el intervalo promedio de alza y confianza y la confianza de una actividad de prueba A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+>[!NOTE]
+>
+>La información de este artículo sustituye al *Cálculos de Adobe Target para pruebas A/B* archivo pdf que anteriormente estaba disponible para su descarga en este sitio.
+
+![Informe de Target que muestra la variable [!UICONTROL Tasa de conversión], [!UICONTROL Intervalo de alza y confianza promedio]y [!UICONTROL Confianza] de una actividad de prueba A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## Rendimiento medio
 
@@ -36,15 +40,15 @@ Aquí,
 
 * La suma sobre unidades *i* depende de la elección de la metodología de contabilización.
 
-   * If *Visitantes* se utiliza como metodología de contabilización, cada unidad es un visitante único definido como un participante único en la actividad durante toda la actividad.
-   * If *Visitas* se utiliza como metodología de contabilización, cada unidad es una visita única definida como un participante único en una experiencia durante un [!DNL Target] sesión (con una `sessionId`). Cuando la variable `sessionId` cambia, o si el visitante llega al paso de conversión, se cuenta una nueva visita.
-   * If *Impresiones de actividad* se utiliza como metodología de contabilización, cada unidad es una impresión única definida como cada vez que un visitante carga una página de la actividad.
+   * If *[!UICONTROL Visitantes]* se utiliza como metodología de contabilización, cada unidad es un visitante único definido como un participante único en la actividad durante toda la actividad.
+   * If *[!UICONTROL Visitas]* se utiliza como metodología de contabilización, cada unidad es una visita única definida como un participante único en una experiencia durante un [!DNL Target] sesión (con una `sessionId`). Cuando la variable `sessionId` cambia, o si el visitante llega al paso de conversión, se cuenta una nueva visita.
+   * If *[!UICONTROL Impresiones de actividad]* se utiliza como metodología de contabilización, cada unidad es una impresión única definida como cada vez que un visitante carga una página de la actividad.
 
-## Intervalo de confianza de la tasa media/de conversión
+## [!UICONTROL Intervalo de confianza de la media]/[!UICONTROL Tasa de conversión]
 
 El intervalo de confianza de la tasa de conversión se define de forma intuitiva como un intervalo de tasas de conversión posibles que sea coherente con los datos subyacentes.
 
-Al ejecutar experimentos, la tasa de conversión que observamos para una experiencia determinada es una *estimación* de la tasa de conversión &quot;true&quot;. Para cuantificar la incertidumbre en esta estimación, podemos usar un intervalo de confianza. [!DNL Target] siempre informa de un intervalo de confianza del 95 %, lo que significa que a largo plazo, el 95 % de los intervalos de confianza calculados incluyen la tasa de conversión verdadera de la experiencia.
+Al ejecutar experimentos, la tasa de conversión de una experiencia determinada es de *estimación* de la tasa de conversión &quot;true&quot;. Para cuantificar la incertidumbre de esta estimación, [!DNL Target] utiliza un intervalo de confianza. [!DNL Target] siempre informa de un intervalo de confianza del 95 %, lo que significa que a largo plazo, el 95 % de los intervalos de confianza calculados incluyen la tasa de conversión verdadera de la experiencia.
 
 Un intervalo de confianza del 95 % de la tasa de conversión *μ<sub>ν</sub>* se define como el rango de valores:
 
@@ -64,7 +68,7 @@ Tenga en cuenta que cuando la campaña es una campaña de tasa de conversión (e
 
 ## Alza
 
-La siguiente ilustración muestra el intervalo de alza y confianza del alza en un [!DNL Target] Informe. El número representa el promedio del rango de los límites de alza y la flecha refleja si el alza es positiva o negativa. La flecha aparece en gris hasta que la confianza pasa el 95 %. Una vez que la confianza supera el umbral, la flecha es verde o roja, en función de un alza positiva o negativa.
+La siguiente ilustración muestra [!UICONTROL Alza] y [!UICONTROL Intervalo de confianza del alza] en un [!DNL Target] Informe. El número representa el promedio del rango de los límites de alza y la flecha refleja si el alza es positiva o negativa. La flecha aparece en gris hasta que la confianza pasa el 95 %. Una vez que la confianza supera el umbral, la flecha es verde o roja, en función de un alza positiva o negativa.
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -80,9 +84,9 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 Si la tasa de conversión de la experiencia de control *ν<sub>0</sub>* es 0, no hay ascensor.
 
-## Intervalo de confianza del alza
+## [!DNL Confidence Interval of Lift]
 
-El gráfico de boxplot en la [!UICONTROL Intervalo de alza y confianza promedio] representa el valor promedio y el intervalo de confianza del 95% del alza. El gráfico del cuadro aparece en gris cuando hay alguna superposición en el intervalo de confianza de una experiencia no de control determinada con el intervalo de confianza de la experiencia de control y está en verde o rojo cuando el intervalo de confianza de una experiencia dada está por encima o por debajo del intervalo de confianza de la experiencia de control.
+El gráfico de boxplot en la [!UICONTROL Intervalo de alza y confianza promedio] representa el valor promedio y 95% [!UICONTROL Intervalo de confianza del alza]. El gráfico del cuadro aparece en gris cuando hay alguna superposición en el intervalo de confianza de una experiencia no de control determinada con el intervalo de confianza de la experiencia de control y está en verde o rojo cuando el intervalo de confianza de una experiencia dada está por encima o por debajo del intervalo de confianza de la experiencia de control.
 
 El error estándar del alza entre una experiencia  *ν* y la experiencia de control  *ν<sub>0</sub>* se define como:
 
@@ -94,7 +98,7 @@ A continuación, el intervalo de confianza del 95 % del alza es:
 
 Este cálculo utiliza el método &quot;Delta&quot; y se describe [en más detalle en este documento](/help/main/assets/confidence_interval_lift.pdf)
 
-## Confianza
+## [!UICONTROL Confianza]
 
 La última columna muestra la confianza en un [!DNL Target] informe. La confianza de una experiencia es una probabilidad (indicada como porcentaje) de obtener un resultado menos extremo que el que se observa realmente, dado que la hipótesis nula es verdadera. En términos de valores p, la confianza mostrada es *1 - valor p*. Intuitivamente, una mayor confianza implica que es menos probable que la experiencia de control y de no control tenga tasas de conversión iguales.
 
@@ -126,7 +130,7 @@ A continuación, el valor p se puede calcular desde el área en la cola del *t*-
 
 <p style="text-align:center;"><img width="20%" src="img/p_value.png"></p>
 
-Por último, la confianza indicada en [!DNL Target] se define como:
+Por último, la confianza notificada en [!DNL Target] se define como:
 
 <p style="text-align:center;"><img width="20%" src="img/confidence.png"></p>
 
