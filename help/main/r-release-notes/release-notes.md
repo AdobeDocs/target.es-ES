@@ -5,10 +5,10 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dea956fe5d28200515a9638306a7d879585cb794
+source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 43%
+source-wordcount: '769'
+ht-degree: 81%
 
 ---
 
@@ -18,28 +18,27 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target] Standard/Premium 22.10.1 (versión escalonada del 5 al 7 de octubre de 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (versión escalonada del 10 al 13 de octubre de 2022)
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
-* **5 de octubre**: Región de Asia y el Pacífico (APAC)
-* **6 de octubre**: Región de América
-* **7 de octubre**: Región de Europa, Oriente Medio y África (EMEA)
+* **10 de octubre**: región Asia-Pacífico (APAC)
+* **11 de octubre**: región de América
+* **13 de octubre**: región de Europa, Oriente Medio y África (EMEA)
 
-Esta versión contiene las siguientes nuevas funciones, mejoras y correcciones:
+Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 
 | Función | Detalles |
 | --- | --- |
-| [!DNL Adobe Experience Manager] (AEM) fragmentos de experiencias | Las actualizaciones de la funcionalidad de fragmentos de experiencia de AEM incluyen lo siguiente:<ul><li>Se ha agregado la capacidad de filtrar AEM fragmentos de experiencia por tipo (HTML o JSON) en la variable [!UICONTROL Ofertas] lista. (TGT-43121)</li><li>Se ha corregido un problema que permitía a los clientes insertar JSON [!UICONTROL Fragmento de experiencia] ofertas al usar el VEC, que no es compatible. Las ofertas JSON solo se pueden insertar al usar la variable [!UICONTROL Experiencia basada en formularios] compositor. (TGT-43846)</li></ul>Para obtener más información, consulte AEM [fragmentos de experiencia](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
-| Nuevo [!UICONTROL Compositor de experiencias visuales] extensión para Google Chrome | Un nuevo [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] La extensión (VEC) para Chrome está disponible en Chrome Web Store.<br>A partir de enero de 2023, la variable [!DNL Target] La extensión VEC Helper dejará de funcionar en Google Chrome porque Google no permitirá extensiones con Manifest V2. Descargue la nueva extensión para seguir creando visualmente sus sitios web en [!DNL Target] a partir del nuevo año.<br>Los siguientes vínculos muestran las dos extensiones en la tienda web de Chrome:<ul><li>[Nueva extensión](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Extensión antigua](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Para obtener más información, consulte [Extensión de Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
-| Métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]<br>(Fecha exacta de lanzamiento por determinar). | Tenga en cuenta los siguientes cambios:<ul><li>Se ha agregado compatibilidad con las métricas binarias y de maximización en [!UICONTROL Analytics para Target] Informes de A4T para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades</li><li>Se ha mantenido el comportamiento para las actividades existentes hasta el 20 de febrero de 2023. Después de esta fecha, las actividades se suspenderán para forzar la migración de la actividad existente a un nuevo comportamiento</li><li>A partir del 20 de febrero de 2023, la compatibilidad con `averagetimespentonsite`, `bouncerate`y `entries` métricas en [!DNL Target] las actividades de quedarán obsoletas.</li></ul> |
+| [!DNL Adobe Experience Manager] (AEM) fragmentos de experiencias | Las actualizaciones de la funcionalidad de fragmentos de experiencia de AEM incluyen lo siguiente:<ul><li>Se ha agregado la capacidad de filtrar AEM fragmentos de experiencia por tipo (HTML o JSON) en la variable [!UICONTROL Ofertas] lista. (TGT-43121)</li><li>Se ha corregido un problema que permitía a los clientes insertar ofertas de [!UICONTROL Fragmento de experiencia] JSON al usar el VEC, lo cual no es compatible. Las ofertas JSON solo se pueden insertar al usar el compositor de [!UICONTROL Experiencias basadas en formularios]. (TGT-43846)</li></ul>Para obtener más información, consulte AEM [fragmentos de experiencia](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| Nueva extensión del [!UICONTROL Compositor de experiencias visuales] para Google Chrome | Una nueva extensión [!UICONTROL Compositor de experiencias visuales] (VEC) de [!DNL Adobe Target] para Chrome está disponible en Chrome Web Store.<br>A partir de enero de 2023, la extensión del ayudante del VEC de [!DNL Target] dejará de funcionar en Google Chrome porque Google no permitirá extensiones con Manifest V2. Descargue la nueva extensión para continuar creando de forma visual sus sitios web en [!DNL Target] a partir del nuevo año.<br>Los siguientes vínculos muestran las dos extensiones en la Chrome Web Store:<ul><li>[Nueva extensión](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Extensión antigua](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Para obtener más información, consulte [Extensión de Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
 | Actualizaciones de documentación | Las principales actualizaciones de la documentación son las siguientes:<ul><li>Nuevo y actualizado [Documentación de la API de administración e informes de Adobe Target](https://developer.adobe.com/target/administer/admin-api/){target=_blank} incluye una cobertura completa de los extremos de las API de administración y creación de informes, incluidas propiedades, ofertas, hosts, entornos, clientes, audiencias, actividades y mucho más.<br>Consulte este y contenido adicional para desarrolladores en la sección [[!DNL Adobe Target] [!UICONTROL Guía para desarrolladores]](https://developer.adobe.com/target/){target=_blank}.</li><li>[Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>Este artículo documenta los cálculos estadísticos detallados utilizados en las pruebas A/Bn manuales en [!DNL Adobe Target].<br>La información de este artículo sustituye al *Cálculos de Adobe Target para pruebas A/B* archivo pdf que anteriormente estaba disponible para su descarga en este sitio.</li></ul> |
 
-* Se ha corregido un problema que impedía que la información de reglas de audiencia se mostrara correctamente en la variable [!UICONTROL Refinamientos de audiencias] ventana de información. (TGT-43917)
-* Se ha mejorado el rendimiento del [!DNL Target] IU al cargar audiencias que se aproximan al [límite recomendado de reglas de segmentación](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
-* Se ha corregido un problema que hacía que algunos componentes no se mostraran correctamente en la sección [!UICONTROL Modificaciones] en el panel [!UICONTROL Experiencias] página al crear o editar actividades en el VEC después de cambiar de [!UICONTROL Componer] a [!UICONTROL Examinar] en el menú contextual. (TGT-43300)
-* Se ha corregido un problema que impedía que algunos clientes archivaran [!UICONTROL Prueba A/B] actividades que utilizan [!UICONTROL Segmentación automática]. (TGT-40978)
-* Se ha agregado la capacidad de usar automáticamente una sola oferta en varias ubicaciones dentro de un único grupo de informes. (TGT-40689)
+* Se ha corregido un problema que impedía que la información de reglas de audiencias se mostrara correctamente en la ventana de información [!UICONTROL Refinamientos de audiencias]. (TGT-43917)
+* Se ha mejorado el rendimiento de la IU de [!DNL Target] al cargar audiencias que se aproximan al [límite recomendado de las reglas de segmentación](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
+* Se ha corregido un problema que hacía que algunos componentes no se mostraran correctamente en el panel [!UICONTROL Modificaciones] de la página [!UICONTROL Experiencias] al crear o editar actividades en el VEC después de cambiar del modo [!UICONTROL Componer] a [!UICONTROL Examinar]. (TGT-43300)
+* Se ha corregido un problema que impedía que algunos clientes archivaran actividades de [!UICONTROL Prueba A/B] que utilizan [!UICONTROL Segmentación automática]. (TGT-40978)
+* Se ha añadido la capacidad de usar automáticamente una sola oferta en varias ubicaciones dentro de un único grupo de creación de informes. (TGT-40689)
 
 ## Notas de la versión adicionales y detalles de la versión
 
