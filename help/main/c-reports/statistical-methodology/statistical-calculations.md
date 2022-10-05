@@ -3,7 +3,7 @@ keywords: informes;metodología estadística;cálculos estadísticos;estadístic
 description: Obtenga información sobre los cálculos estadísticos utilizados en el manual [!UICONTROL Prueba A/B] actividades en [!DNL Adobe Target].
 title: Cómo puedo obtener información sobre los cálculos estadísticos utilizados en [!UICONTROL Prueba A/B] ¿Actividades?
 feature: Reports
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Cálculos estadísticos en pruebas A/Bn
 
-Esta página documenta los cálculos estadísticos detallados utilizados en las pruebas A/Bn manuales en [!DNL Adobe Target]. Las definiciones están previstas para [!UICONTROL Tasa de conversión], [!UICONTROL Intervalo de confianza de la tasa de conversión], [!UICONTROL Alza], [!UICONTROL Intervalo de confianza para el alza]y [!UICONTROL Confianza].
+Este artículo documenta los cálculos estadísticos detallados utilizados en las pruebas A/Bn manuales en [!DNL Adobe Target]. Las definiciones están previstas para [!UICONTROL Tasa de conversión], [!UICONTROL Intervalo de confianza de la tasa de conversión], [!UICONTROL Alza], [!UICONTROL Intervalo de confianza para el alza]y [!UICONTROL Confianza].
 
 >[!NOTE]
 >
