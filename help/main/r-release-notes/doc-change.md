@@ -4,7 +4,7 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: dddca90ac9280b6bab25b7e01d5ced33d1feead5
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
-## [!DNL Adobe Target] Standard/Premium 22.10.1 (versión escalonada del 5 al 7 de octubre de 2022)
+## [!DNL Adobe Target] Standard/Premium 22.10.1 (versión escalonada del 10 al 13 de octubre de 2022)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
