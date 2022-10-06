@@ -3,9 +3,9 @@ keywords: informes;metodología estadística;cálculos estadísticos;estadístic
 description: Obtenga información sobre los cálculos estadísticos utilizados en el manual [!UICONTROL Prueba A/B] actividades en [!DNL Adobe Target].
 title: Cómo puedo obtener información sobre los cálculos estadísticos utilizados en [!UICONTROL Prueba A/B] ¿Actividades?
 feature: Reports
-source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1092'
 ht-degree: 2%
 
 ---
@@ -48,21 +48,21 @@ Aquí,
 
 El intervalo de confianza de la tasa de conversión se define de forma intuitiva como un intervalo de tasas de conversión posibles que sea coherente con los datos subyacentes.
 
-Al ejecutar experimentos, la tasa de conversión de una experiencia determinada es de *estimación* de la tasa de conversión &quot;true&quot;. Para cuantificar la incertidumbre de esta estimación, [!DNL Target] utiliza un intervalo de confianza. [!DNL Target] siempre informa de un intervalo de confianza del 95 %, lo que significa que a largo plazo, el 95 % de los intervalos de confianza calculados incluyen la tasa de conversión verdadera de la experiencia.
+Al ejecutar experimentos, la tasa de conversión de una experiencia determinada es de *estimación* de la tasa de conversión &quot;true&quot;. Para cuantificar la incertidumbre de esta estimación, [!DNL Target] utiliza un intervalo de confianza. [!DNL Target] siempre informa de un intervalo de confianza del 95 %, lo que significa que al final, el 95 % de los intervalos de confianza calculados incluyen la tasa de conversión verdadera de la experiencia.
 
 Un intervalo de confianza del 95 % de la tasa de conversión *μ<sub>ν</sub>* se define como el rango de valores:
 
 <p style="text-align:center;"><img width="30%" src="img/confidence_interval.png"></p>
 
-donde el error estándar de la media se define como
+Donde el error estándar de la media se define como
 
 <p style="text-align:center;"><img width="75px" src="img/se_conv_continuous.png"></p>
 
-cuando se utilice una estimación imparcial de la desviación estándar de la muestra:
+Cuando se utilice una estimación imparcial de la desviación estándar de la muestra:
 
 <p style="text-align:center;"><img width="200px" src="img/stdev_definition.png"></p>
 
-Tenga en cuenta que cuando la campaña es una campaña de tasa de conversión (es decir, la métrica de conversión es binaria), el error estándar se reduce a:
+Cuando la campaña es una campaña de tasa de conversión (es decir, la métrica de conversión es binaria), el error estándar se reduce a:
 
 <p style="text-align:center;"><img width="150px" src="img/se_conv.png"></p>
 
@@ -76,7 +76,7 @@ El alza entre una experiencia  *ν* y la experiencia de control *ν<sub>0</sub>*
 
 <p style="text-align:center;"><img width="15%" src="img/lift_definition.png"></p>
 
-donde las tasas de conversión individuales son las definidas anteriormente. Más simplemente,
+Donde las tasas de conversión individuales son las definidas anteriormente. Más simplemente,
 
 ```
 Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performance_Control
@@ -86,7 +86,7 @@ Si la tasa de conversión de la experiencia de control *ν<sub>0</sub>* es 0, no
 
 ## [!DNL Confidence Interval of Lift]
 
-El gráfico de boxplot en la [!UICONTROL Intervalo de alza y confianza promedio] representa el valor promedio y 95% [!UICONTROL Intervalo de confianza del alza]. El gráfico del cuadro aparece en gris cuando hay alguna superposición en el intervalo de confianza de una experiencia no de control determinada con el intervalo de confianza de la experiencia de control y está en verde o rojo cuando el intervalo de confianza de una experiencia dada está por encima o por debajo del intervalo de confianza de la experiencia de control.
+El gráfico de boxplot en la [!UICONTROL Intervalo de alza y confianza promedio] representa el valor promedio y 95% [!UICONTROL Intervalo de confianza del alza]. El gráfico del cuadro aparece en gris cuando hay alguna superposición en el intervalo de confianza de una experiencia no de control determinada con el intervalo de confianza de la experiencia de control. El gráfico del cuadro aparece en verde o rojo cuando el intervalo de confianza de una experiencia determinada está por encima o por debajo del intervalo de confianza de la experiencia de control.
 
 El error estándar del alza entre una experiencia  *ν* y la experiencia de control  *ν<sub>0</sub>* se define como:
 
@@ -100,7 +100,7 @@ Este cálculo utiliza el método &quot;Delta&quot; y se describe [en más detall
 
 ## [!UICONTROL Confianza]
 
-La última columna muestra la confianza en un [!DNL Target] informe. La confianza de una experiencia es una probabilidad (indicada como porcentaje) de obtener un resultado menos extremo que el que se observa realmente, dado que la hipótesis nula es verdadera. En términos de valores p, la confianza mostrada es *1 - valor p*. Intuitivamente, una mayor confianza implica que es menos probable que la experiencia de control y de no control tenga tasas de conversión iguales.
+La última columna muestra la confianza en un [!DNL Target] informe. La confianza de una experiencia es una probabilidad (indicada como porcentaje) de obtener un resultado menos extremo que el observado, dado que la hipótesis nula es verdadera. En términos de valores p, la confianza mostrada es *1 - valor p*. Intuitivamente, una mayor confianza implica que es menos probable que la experiencia de control y de no control tenga tasas de conversión iguales.
 
 En [!DNL Target], un **Prueba T de Welch** se realiza entre la experiencia de prueba y la experiencia de control para comprobar si los medios de las experiencias de prueba y control son los mismos. Debido a que normalmente no sabemos si los tamaños de muestra y las variaciones de dos grupos son los mismos antes de ejecutar el experimento, y [!DNL Target] también le permite que se envíen porcentajes desiguales de tráfico a cada experiencia. no suponemos que la varianza de cada experiencia sea igual. Por lo tanto, se elige la prueba T de Welch en lugar de la prueba T de estudiante.
 
@@ -110,17 +110,17 @@ La variable *t*-estadística se define como la diferencia de los medios de dos v
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-donde *μ<sub>v</sub>* y *μ<sub>v0</sub>* son los medios de *ν*  y *ν<sub>0</sub>* respectivamente, y el error estándar de la diferencia entre *μ<sub>v</sub>* y *μ<sub>v0</sub>* están dadas por:
+Donde *μ<sub>v</sub>* y *μ<sub>v0</sub>* son los medios de *ν*  y *ν<sub>0</sub>* respectivamente, y el error estándar de la diferencia entre *μ<sub>v</sub>* y *μ<sub>v0</sub>* están dadas por:
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-donde *σ<sup>2</sup><sub>v</sub>* y *σ<sup>2</sup><sub>v<sub>0</sub></sub>* son las variaciones de dos experiencias *ν*  y *ν<sub>0</sub>* respectivamente, y *N<sub>v</sub>* y *N<sub>v<sub>0</sub></sub>* son tamaños de muestra para *ν* y *ν<sub>0</sub>* respectivamente.
+Donde *σ<sup>2</sup><sub>v</sub>* y *σ<sup>2</sup><sub>v<sub>0</sub></sub>* son las variaciones de dos experiencias *ν*  y *ν<sub>0</sub>* respectivamente, y *N<sub>v</sub>* y *N<sub>v<sub>0</sub></sub>* son tamaños de muestra para *ν* y *ν<sub>0</sub>* respectivamente.
 
 Para la prueba T de Welch, el grado de libertad se calcula de la siguiente manera:
 
 <p style="text-align:center;"><img width="180px" src="img/degree_of_freedom.png"></p>
 
-y el grado de libertad de *ν*  y *ν<sub>0</sub>* se definen como:
+Y grado de libertad para *ν*  y *ν<sub>0</sub>* se definen como:
 
 <p style="text-align:center;"><img width="100px" src="img/df_v.png"></p>
 

@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo interpretar el informe Resumen de 
 title: ¿Cómo utilizo los informes de resumen de Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 40%
+source-wordcount: '679'
+ht-degree: 39%
 
 ---
 
@@ -46,7 +46,7 @@ El informe [!UICONTROL Nivel de oferta] para la experiencia de bosque aleatorio 
 
 Haga clic en el algoritmo de la experiencia (bosque aleatorio o control) para ver la variable [!UICONTROL Nivel de oferta] informe.
 
-![](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
+![Informe de nivel de oferta en Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 Las ofertas se pueden mostrar dentro de grupos de informes, que se pueden contraer o expandir. Seleccione [!UICONTROL Grupo de informes] en la lista desplegable para ver información resumida por grupos de informes en lugar de por ofertas.
 

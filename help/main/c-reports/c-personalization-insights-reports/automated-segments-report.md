@@ -4,9 +4,9 @@ description: Descubra cómo se definen los distintos segmentos según el Adobe [
 title: ¿Qué es el informe Segmentos automatizados?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2143'
 ht-degree: 74%
 
 ---
@@ -42,7 +42,7 @@ Los distintos visitantes responden de forma diferente a las ofertas y experienci
 
    La variable [Resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) que proporciona información sobre el rendimiento de sus actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. La segmentación automática tiene un icono de gráfico adicional para la vista gráfica del [!UICONTROL Resumen] informe.
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Informe Perspectivas de personalización en Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,11 +56,11 @@ Los distintos visitantes responden de forma diferente a las ofertas y experienci
 
    A diferencia de [!UICONTROL Resumen] informe (informe de rendimiento), [!UICONTROL Perspectivas de personalización], incluyendo [!UICONTROL Segmentos automatizados], solo está disponible para intervalos de fechas fijos: 15 días, 30 días y 60 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Verá que el &quot;Inicio&quot; aparece atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Calendario en el informe Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Puede acceder a los intervalos de fechas fijos disponibles desde la lista desplegable [!UICONTROL Elegir duración].
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Lista desplegable Duración en Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Revise los datos del informe [!UICONTROL Segmentos automatizados].
 

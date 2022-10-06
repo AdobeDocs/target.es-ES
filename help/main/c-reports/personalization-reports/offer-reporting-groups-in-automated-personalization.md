@@ -4,10 +4,10 @@ description: Aprenda a utilizar grupos de informes de ofertas en Adobe [!DNL Tar
 title: ¿Puedo usar grupos de informes de ofertas en actividades de Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 59%
 
 ---
 
@@ -34,16 +34,16 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
 
 1. En el [!UICONTROL Experiencias] de una actividad AP, haga clic en el botón **[!UICONTROL Administrar contenido]** icono.
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![Icono Administrar contenido](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. Haga clic en la pestaña **[!UICONTROL Ofertas]** en la parte superior del cuadro de diálogo [!UICONTROL Administrar contenido].
 1. (Condicional) Agregue experiencias específicas a un grupo de informes pasando el puntero sobre la oferta deseada y haciendo clic en el icono de la carpeta **[!UICONTROL Grupo de informes]**.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![Icono del grupo de informes](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. (Condicional) Incluya experiencias en lote en un grupo de informes seleccionando la casilla de las experiencias relevantes y haciendo clic en el icono de la carpeta **[!UICONTROL Grupo de informes]**, en la esquina superior derecha del cuadro de diálogo.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![Icono del grupo de informes](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. (Condicional) Para asignar la oferta seleccionada a un grupo de informes existente, seleccione **[!UICONTROL Existente]**, seleccione el grupo de informes que desee en la lista desplegable y haga clic en **[!UICONTROL Aplicar]**.
 
@@ -51,4 +51,4 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
 
    Para crear un nuevo grupo de informes al que asignar la oferta seleccionada, elija **[!UICONTROL Nuevo]**, asigne un nombre al nuevo grupo de informes y haga clic en **[!UICONTROL Aplicar]**.
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![Nuevo icono para crear un nuevo grupo de informes](/help/main/c-reports/assets/ap_reporting_groups.png)

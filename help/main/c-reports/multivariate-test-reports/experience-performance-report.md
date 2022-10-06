@@ -4,10 +4,10 @@ description: Aprenda a utilizar el informe Rendimiento de las experiencias para 
 title: ¿Cómo utilizo el informe Rendimiento de las experiencias para pruebas multivariable?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ El informe Rendimiento de las experiencias muestra cómo funciona cada experienc
 
 Puede seleccionar una o varias experiencias para compararlas. Haga clic en una experiencia y seleccione **[!UICONTROL Vista previa]** para abrir la experiencia en un navegador web.
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Informe Rendimiento de las experiencias en Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 En la parte superior del informe se muestra la métrica, las fechas de inicio y finalización y la audiencia que se han empleado para elaborar el informe. Puede cambiar cualquiera de estos factores.
 
