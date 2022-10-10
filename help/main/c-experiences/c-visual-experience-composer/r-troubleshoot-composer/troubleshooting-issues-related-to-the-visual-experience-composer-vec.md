@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo solucionar problemas que a veces o
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 85%
+source-wordcount: '869'
+ht-degree: 78%
 
 ---
 
@@ -106,7 +106,7 @@ Si ni el Compositor de experiencias visuales ni el Compositor de experiencias me
 
 Después de configurar una extensión, abra Target. Sus páginas ahora deberían cargarse en el Compositor de experiencias visuales, incluso si está deshabilitado el Compositor de experiencias visuales.
 
-## Mi página no se muestra en el VEC (solo VEC)   {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Mi página no se muestra en el VEC (solo VEC)   {#does-not-load}
 
 * El navegador no es compatible.
 * El navegador bloquea una página no segura en un sitio seguro.
@@ -115,7 +115,11 @@ Después de configurar una extensión, abra Target. Sus páginas ahora deberían
 * Ha escrito una dirección URL no válida.
 * La dirección URL que ha indicado no es la predeterminada en la página de configuración de cuenta.
 
-Asegúrese de que esta configuración esté habilitada y luego descargue y actualice at.js en su sitio web.
+   Asegúrese de que esta configuración esté habilitada y luego descargue y actualice at.js en su sitio web.
+
+* Si intenta usar la variable [new [!UICONTROL Ayuda de edición visual] Extensión](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) y vuelva a la [Extensión antigua](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) y [!DNL Target] no se puede cargar el sitio web, borrar todos los datos del explorador y desactivar la nueva extensión.
+
+* Si el sitio web no se carga en el VEC o se comporta de forma inesperada, una posible corrección es aceptar cookies en el sitio web del explorador antes de intentar cargar el sitio web en [!DNL Target].
 
 ## El VEC parece roto cuando utilizo el modo Examinar. (Solo VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
