@@ -5,13 +5,13 @@ title: ¿Qué es  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1140'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Analytics] como fuente de informes para (A4T) [!DNL Adobe Target]
+# [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) es una integración de soluciones cruzadas que le permite crear actividades basadas en las métricas de conversión y los segmentos de audiencia de [!DNL Analytics] Esta integración de A4T le permite utilizar informes de [!DNL Analytics] para examinar sus resultados. Si usa [!DNL Analytics] como fuente de informes de una actividad, todos los informes y la segmentación de dicha actividad se basarán en la recopilación de datos de [!DNL Analytics].
 
@@ -61,7 +61,7 @@ Las secciones siguientes contienen información sobre tipos de actividades compa
 | [Actividad A/B con segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Sí | Consulte [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | [Segmentación de experiencias (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sí |  |
 | [Prueba multivariable (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sí | Requiere una métrica de objetivos basada en mbox para obtener el informe de [!UICONTROL contribución de elementos]. En este momento, el informe de [!UICONTROL contribución de elementos] no admite métricas de [!DNL Analytics]. |
-| [Actividad de personalización automatizada (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No |  |
+| [Actividad de Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No |  |
 | [Actividad de Recommendations](/help/main/c-recommendations/recommendations.md) | Sí |  |
 | [Cualquier actividad que utilice una oferta de redireccionamiento](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Sí |
 
@@ -77,7 +77,7 @@ Para ver los informes de A4T en [!DNL Target], haga clic en **[!UICONTROL Activi
 
 Para cambiar entre la [!UICONTROL Visualización de tabla] y la [!UICONTROL Visualización de gráfico] del informe, haga clic en el icono correspondiente en la parte superior derecha del informe.
 
-En la ilustración siguiente, se ve la [!UICONTROL Visualización de gráfico] de un informe de A4T. La lista desplegable [!UICONTROL Métrica de informes] muestra las métricas de objetivo de [!DNL Analytics] disponibles:
+En la ilustración siguiente, se ve la [!UICONTROL Visualización de gráfico] de un informe de A4T. La lista desplegable [!UICONTROL Métrica de informes] muestra las métricas de metas de [!DNL Analytics] disponibles:
 
 ![imagen a4t_report_graph1](assets/a4t_report_graph1.png)
 
