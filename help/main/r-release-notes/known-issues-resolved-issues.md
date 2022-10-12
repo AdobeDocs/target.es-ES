@@ -4,9 +4,9 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: ht
-source-wordcount: '4593'
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+workflow-type: tm+mt
+source-wordcount: '4528'
 ht-degree: 100%
 
 ---
@@ -98,12 +98,6 @@ Cuando una métrica de éxito se establece para que se incremente con cada impre
 Cuando utilice impresiones y conversiones de actividad de Target en Analysis Workspace, aplique el modelo de Attribution IQ “Mismo contacto” a las métricas para garantizar un recuento preciso. Para aplicar un [modelo de atribución no predeterminado](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=es), haga clic con el botón derecho en la métrica para **modificar Configuración de columna > habilitar Utilizar modelo de atribución no predeterminado > seleccione Mismo modelo de contacto**. Si no se aplica este modelo, las métricas se sobrevaloran.
 
 Todos los paquetes actuales de Analytics pueden añadir este modelo con Attribution IQ. Si no tiene acceso a Attribution IQ, confíe en los datos de A4T en Reports &amp; Analytics.
-
-### Creación de informes: Datos incoherentes entre el informe descargable .csv y el informe que se muestra en la IU de [!DNL Target] {#csv}
-
-Los informes generados para su descarga como archivos .csv son incoherentes si la actividad utiliza más de una métrica. El informe descargable se genera solo en función de la configuración del informe y considera el mismo valor para cualquier otra métrica utilizada.
-
-La fuente de verdad es siempre el informe mostrado en la IU de [!DNL Target].
 
 ## Problemas resueltos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 

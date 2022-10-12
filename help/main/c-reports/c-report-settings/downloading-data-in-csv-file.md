@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo descargar datos de Adobe [!DNL Tar
 title: ¿Cómo Descargo Datos De Informes En Un Archivo CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: abbb81f2c9d5503c72eb427e7ae20a560b1daf95
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 83%
+source-wordcount: '727'
+ht-degree: 54%
 
 ---
 
@@ -29,9 +29,9 @@ Para descargar datos en un archivo CSV:
 
    ![Descargar opciones](/help/main/c-reports/assets/download-options.png)
 
-## Exportar informes a CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
+## [!UICONTROL Exportar informes a CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
-El informe de métricas de éxito muestra información sobre las métricas de éxito, así como las siguientes métricas que no están disponibles en la interfaz de usuario de Target.
+La variable [!UICONTROL Métricas de éxito] El informe muestra información sobre las métricas de éxito y las métricas siguientes que no están disponibles en la variable [!DNL Target] IU:
 
 * Promedio de tiempo de la conversión (en horas), con lo cual podrá saber cuánto tarda el visitante promedio en alcanzar el punto de conversión
 * Suma de los ingresos (al cuadrado) para los cálculos de confianza estadística sin conexión
@@ -40,24 +40,24 @@ Los datos se guardan hasta que finaliza la actividad.
 
 >[!NOTE]
 >
->El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B. Para calcular estas métricas calculadas, descargue el informe [Calculadora de confianza completa](/help/main/assets/complete_confidence_calculator.xlsx) Archivo de Excel para introducir el valor de la actividad o revisar [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+>El informe CSV solo incluye datos sin procesar y no incluye métricas calculadas como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B. Para calcular estas métricas calculadas, descargue el [!DNL Target] [Calculadora de confianza completa](/help/main/assets/complete_confidence_calculator.xlsx) Archivo de Excel para introducir el valor de la actividad o revisar [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
-## Exportar detalles del pedido a un archivo .csv {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
+## [!UICONTROL Exportar detalles del pedido a un archivo .csv] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-El informe Detalles del pedido muestra información sobre sus pedidos, que incluye:
+La variable [!UICONTROL Detalles del pedido] El informe muestra información sobre sus pedidos, que incluye:
 
 * Hora y fecha del pedido
 * Cantidad de pedido (si insertó un mbox de realización de pedido)
 
-   El informe de detalles del pedido solo funciona si tiene pedidos.
+   La variable [!UICONTROL Detalles del pedido] solo funciona si tiene pedidos.
 
 * Indicador de pedido (pedidos duplicados o extremos)
 
-   Un pedido se marca como extremo si cuenta con más de 3 desviaciones estándares +/- del valor de pedido promedio según los datos del último mes (hasta el momento en el que se realizó el cálculo). Los pedidos extremos de una actividad se excluirán cuando la actividad se haya ejecutado durante una hora o cuando se hayan realizado 15 pedidos, lo que suceda antes. Para obtener más información, consulte [Exclusión de pedidos extremos](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+   Un pedido se marca como extremo si tiene más de 3 desviaciones estándar +/- del valor de pedido promedio. Este cálculo utiliza el último mes de datos (hasta el momento en el que se realizó el cálculo). Los pedidos extremos de una actividad se excluirán cuando la actividad se haya ejecutado durante una hora o cuando se hayan realizado 15 pedidos, lo que suceda antes. Para obtener más información, consulte [Exclusión de pedidos extremos](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 * ID del producto
 
-   La longitud total de los ID de producto, concatenados con comas, no debe superar los 255 caracteres. En caso contrario, no se mostrarán adecuadamente en el informe. Por ejemplo, si su pedido tenía productos con ID “aa, bb”, la longitud total sería “aa,bb” = 5.
+   La longitud total de los ID de producto, concatenados con comas, no debe superar los 255 caracteres o los ID no se muestran correctamente en el informe. Por ejemplo, si su pedido tenía productos con ID “aa, bb”, la longitud total sería “aa,bb” = 5.
 
 * Experiencia
 
@@ -70,20 +70,21 @@ El informe Detalles del pedido muestra información sobre sus pedidos, que inclu
 >[!NOTE]
 >
 >* Los datos de informe de pedido incluyen cuatro semanas de datos para el entorno (grupo de hosts) predeterminado y dos semanas para todos los demás.
->* Las métricas de ingresos establecidas en “Aumentar recuento y mantener al usuario en la actividad” registran los detalles de pedido únicamente para el primer pedido realizado por el mismo visitante. Todos los pedidos posteriores aumentan el contador de conversión, pero no añaden ingresos a RPV/AOV/Sales y no se incluyen en el informe Detalles del pedido.
+>* Métricas de ingresos establecidas en &quot;[!UICONTROL Incremente el recuento y mantenga al usuario en la actividad]&quot; registra los detalles del pedido solo para el primer pedido realizado por el mismo visitante. Todos los pedidos subsiguientes aumentan el recuento de conversiones, pero no añaden ingresos a RPV/AOV/Sales y no se incluyen en la variable [!UICONTROL Detalles del pedido] informe.
 
 
-## Prácticas recomendadas
+## Prácticas recomendadas  
 
-* Para registrar un registro de pedido, se deberá pasar el parámetro `orderTotal`.
+* Para registrar un registro de pedido, la variable `orderTotal` se debe pasar.
 * Los valores que se pasan mediante el parámetro de mbox `ProductPurchasedId` aparecen ahora recogidos en el informe de detalles del pedido.
-* Una práctica recomendada es incluir un `orderID`, así como un `orderTotal`. Esto permite ignorar automáticamente los pedidos duplicados.
+* Una práctica recomendada es incluir un `orderID` y `orderTotal`. Esto permite ignorar automáticamente los pedidos duplicados.
 
 ## Advertencias  {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
-La información siguiente se refiere a la opción Descargar:
+La siguiente información se aplica a la variable [!UICONTROL Descargar] opción:
 
-* Puede descargar ambos informes para pruebas A/B, Automated Personalization, Segmentación de experiencias y actividades multivariable. No puede descargar el informe de métricas de éxito para actividades de Recommendations.
-* La opción Descargar no está disponible para actividades A/B ni Segmentación de experiencias creadas antes de la versión 15.7.1 de Target (julio de 2015).
+* Puede descargar ambos informes para [!UICONTROL Prueba A/B], [!UICONTROL Automated Personalization], [!UICONTROL Segmentación de experiencias]y [!UICONTROL Multivariable] actividades. No puede descargar el [!UICONTROL Métricas de éxito] informe para [!UICONTROL Recommendations] actividades.
+* La variable [!UICONTROL Descargar] no está disponible para [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] actividades creadas antes de [!DNL Target] versión 15.7.1 (julio de 2015).
 * Las experiencias que no tienen datos asociados no se registran en el informe descargado.
-* Las audiencias aplicadas en la interfaz de usuario de informes de Target no se transmiten al informe de descarga.
+* Audiencias aplicadas en la variable [!DNL Target] la interfaz de usuario de informes no lleva al informe de descarga.
+* Los informes generados para su descarga como archivos .csv son incoherentes si la actividad utiliza más de una métrica. El informe descargable se genera solo en función de la configuración del informe y considera el mismo valor para cualquier otra métrica utilizada. La fuente de verdad es siempre el informe mostrado en la IU de [!DNL Target].
