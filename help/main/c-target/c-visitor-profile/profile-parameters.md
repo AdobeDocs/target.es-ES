@@ -5,9 +5,9 @@ title: ¿Qué son los atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Haga clic en **[!UICONTROL Ver detalles completos]** para ver las audiencias y a
 
 Cuando se deshabilita un script de perfil, aparece un icono de alerta amarillo junto al script del perfil en la interfaz de usuario de Target, como se muestra a continuación:
 
-![profile_script_image no válida](assets/profile_script_invalid.png)
+![imagen profile_script_invalid](assets/profile_script_invalid.png)
 
 Al pasar el ratón por encima, aparecen los detalles del error, como se muestra a continuación:
 
