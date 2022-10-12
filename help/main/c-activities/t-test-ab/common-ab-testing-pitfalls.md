@@ -5,9 +5,9 @@ title: ¿Cómo evito errores comunes de pruebas A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ En las pruebas A/B, los especialistas en marketing usan niveles de confianza del
 
 Como se ve en el gráfico siguiente, cuantas más pruebas se efectúen, más probabilidades existen de que al menos una de ellas arroje un falso positivo. Por ejemplo, si ejecuta 10 pruebas usando un nivel de confianza del 95 %, habrá aproximadamente un 40 % de probabilidad de que se detecten uno o varios falsos positivos [siempre que no haya un alza real: Pr(al menos un falso positivo) = 1 - Pr(ningún falso positivo) = 1 - 0,95^10 = 40 %].
 
-![imagen de escollos1](assets/pitfalls1.png)
+![imagen pitfalls1](assets/pitfalls1.png)
 
 Normalmente, el 95 % de una organización de marketing constituye un término medio razonable entre el riesgo de un falso positivo y los falsos negativos.
 
@@ -59,7 +59,7 @@ Sin embargo, existen dos situaciones en las que hay que prestar especial atenci�
 
 Al realizar pruebas con varias ofertas, los especialistas en marketing suelen declarar como ganadora de la prueba la oferta con la mayor alza aunque no exista una diferencia estadísticamente relevante entre el ganador y el segundo finalista. Esta situación se da cuando la diferencia entre las alternativas es inferior a la diferencia entre las alternativas y el control. La imagen siguiente ilustra este concepto. Las barras negras de error representan los intervalos de confianza del alza del 95 %. El alza verdadera de cada oferta en relación con la oferta de control tiene un 95 % de probabilidad de incluirse en el intervalo de confianza (el rango señalado por las barras de error).
 
-![imagen de escollos 2](assets/pitfalls2.png)
+![imagen pitfalls2](assets/pitfalls2.png)
 
 Las ofertas A y B tienen la mayor alza observada durante la prueba y es poco probable que la oferta C supere en rendimiento a estas ofertas en una próxima prueba, ya que el intervalo de confianza de C ni siquiera se superpone con los intervalos de confianza de A y B. Sin embargo, aunque la oferta A tiene la mayor alza observada durante la prueba, hay muchas posibilidades de que la oferta B ofrezca un mejor rendimiento en una próxima prueba debido a la superposición de los intervalos de confianza.
 
@@ -77,7 +77,7 @@ Hay dos factores clave que determinan la efectividad de una prueba. En primer lu
 
 Hoy en día, los especialistas en marketing emplean una potencia estadística insuficiente en gran cantidad de pruebas. En otras palabras, el tamaño de muestra que utilizan es demasiado pequeño. Esto quiere decir que tienen escasas posibilidades de detectar verdaderos positivos aunque exista una diferencia notable en la tasa de conversión. Es más: si se ejecutan continuamente pruebas con una potencia estadística insuficiente, el número de falsos positivos puede ser equiparable al de verdaderos positivos e, incluso, lo puede sobrepasar. A menudo, esto desemboca en la implementación de cambios neutros en un sitio (una pérdida de tiempo) o cambios que, paradójicamente, reducen las tasas de conversión.
 
-![imagen de escollos3](assets/pitfalls3.png)
+![imagen pitfalls3](assets/pitfalls3.png)
 
 Para evitar que esto ocurra, hay que tener en cuenta que el estándar típico para que una prueba arroje resultados fiables es un nivel de confianza del 95 % y una potencia estadística del 80 %. Estos porcentajes indican que la prueba ofrece un 95 % de probabilidad de evitar un falso positivo y un 80 % de evitar un falso negativo.
 
@@ -109,7 +109,7 @@ Es tentador detener una prueba si una de las ofertas muestra un rendimiento much
 
 En la ilustración siguiente vemos cinco ofertas que tienen la misma tasa de conversión a largo plazo. La oferta B tuvo una tasa de conversión deficiente durante los primeros 2000 visitantes y la tasa de conversión estimada tarda mucho en volver a la tasa verdadera a largo plazo.
 
-![imagen de escollos4](assets/pitfalls4.png)
+![imagen pitfalls4](assets/pitfalls4.png)
 
 Este fenómeno se conoce como “regresión a la media” y puede llevar a decepciones cuando una oferta que mostró un buen rendimiento durante los días iniciales de una prueba no es capaz de mantener el mismo rendimiento a largo plazo. También puede suponer la pérdida de ingresos cuando una buena oferta no se implementa debido a un mal rendimiento en los primeros días de una prueba solo por casualidad.
 
@@ -145,7 +145,7 @@ Las ofertas de este tipo animan a los visitantes a realizar la conversión antes
 
 En la ilustración siguiente observamos dos ofertas que dos visitantes distintos ven a la vez un domingo por la tarde. El periodo de consideración de la oferta A es breve y el visitante realiza la conversión más tarde ese mismo día. Sin embargo, el periodo de consideración de la oferta B es más extenso y el visitante que la vio piensa en ella un tiempo y acaba efectuando la conversión el lunes por la mañana. Si detiene la prueba el domingo por la noche, la conversión asociada a la oferta A se cuenta en la métrica de conversión de dicha oferta, mientras que la conversión asociada a la oferta B no se contabilizará en la métrica correspondiente de esta oferta. Esto pone en una situación de gran desventaja a la oferta B.
 
-![imagen de escollos5](assets/pitfalls5.png)
+![imagen pitfalls5](assets/pitfalls5.png)
 
 Si quiere evitar este escollo, debe dejar un tiempo para que los visitantes que estuvieron expuestos a las ofertas de la prueba generen la conversión después de haberse detenido una nueva entrada de la prueba. Con esto, podría ver una comparación justa de las ofertas.
 
@@ -153,13 +153,13 @@ Si quiere evitar este escollo, debe dejar un tiempo para que los visitantes que 
 
 Los especialistas en marketing pueden sentir la tentación de usar métricas de conversión de tráfico elevado y varianza baja en el canal superior, como la tasa de pulsaciones (CTR), para alcanzar con mayor rapidez un número adecuado de conversiones de prueba. No obstante, debemos pensar muy bien si la CTR es un medio apropiado para el objetivo comercial que deseamos conseguir. Las ofertas con mayores cifras de CTR pueden conducir fácilmente a una caída de los ingresos. Esto puede ocurrir cuando las ofertas atraen a visitantes con menor propensión a comprar o cuando la propia oferta (un descuento, por ejemplo) supone, de por sí, unos ingresos menores.
 
-![imagen de escollos6](assets/pitfalls6.png)
+![imagen pitfalls6](assets/pitfalls6.png)
 
 Vamos a fijarnos en la oferta para esquiar que hay abajo. Genera una CTR mucho mayor que la oferta de ciclismo, pero, como los visitantes gastan mucho más dinero de media cuando eligen la oferta de ciclismo, los ingresos esperados de exponer dicha oferta a un visitante determinado son más elevados. Por lo tanto, una prueba A/B cuya métrica fuera la CTR elegiría una oferta que no maximizara los ingresos: el objetivo esencial del negocio.
 
-![imagen de escollos7](assets/pitfalls7.png)
+![imagen pitfalls7](assets/pitfalls7.png)
 
-Para evitar este problema, supervise atentamente las métricas del negocio a fin de identificar el impacto comercial de las ofertas o, mejor aún, use una métrica que se aproxime más al objetivo comercial (si es posible).
+Para evitar este problema, monitorice atentamente las métricas de la empresa a fin de identificar el impacto comercial de las ofertas o, mejor aún, use una métrica que se aproxime más a la meta comercial (si es posible).
 
 ## Conclusión: Reconocer y sortear los escollos es la clave para tener éxito en las pruebas A/B {#section_54D33248163A481EBD4421A786FE2B15}
 
