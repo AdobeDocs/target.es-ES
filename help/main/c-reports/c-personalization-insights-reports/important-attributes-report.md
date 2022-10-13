@@ -4,9 +4,9 @@ description: Aprenda a utilizar la variable [!UICONTROL Atributos importantes] i
 title: ¿Qué es el informe Atributos importantes?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1776'
 ht-degree: 80%
 
 ---
@@ -148,3 +148,9 @@ Saber cómo funciona el modelo que proporciona tráfico puede ser útil. Cada pe
 * Averigüe qué atributos resultaron más importantes para el aprendizaje del modelo.
 * Vea qué atributos se utilizan en los modelos de personalización y qué importancia tienen.
 * Identifique oportunidades para incluir nuevos puntos de datos que puede pasar a Target para profundizar en la personalización.
+
+## Problemas conocidos
+
+El siguiente problema está siendo investigado por la [!DNL Target] equipo de ingeniería.
+
+* Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran en el informe [!UICONTROL Atributos importantes] en el caso de las actividades de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT). (TOP-3813)

@@ -4,10 +4,10 @@ description: Obtenga información sobre las métricas de éxito en Adobe [!DNL T
 title: ¿Qué son las métricas de éxito?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 44%
+source-wordcount: '1267'
+ht-degree: 43%
 
 ---
 
@@ -77,8 +77,8 @@ La funcionalidad de dependencia es *not* compatible con lo siguiente:
 
 * Actividades de [!UICONTROL Recommendations. ] La funcionalidad admite los demás tipos de actividad.
 * Si usa [Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
-* El tipo de métrica “Visualizó una página”.
-* El tipo de métrica “Se hizo clic en un elemento” para actividades del Compositor de experiencias visuales (VEC).
+* El tipo de métrica &quot;Visualizó una página&quot;.
+* El tipo de métrica &quot;Se hizo clic en un elemento&quot; para actividades del Compositor de experiencias visuales (VEC).
 
 Las métricas de éxito dependientes no se convierten en los casos siguientes:
 
@@ -106,6 +106,12 @@ Elija el comportamiento deseado:
 * Una vez por participante 
 * En cada impresión (excluyendo las actualizaciones de página)
 * En cada impresión
+
+## Problemas conocidos
+
+* Las métricas de éxito con la opción avanzada “Cómo se incrementará el recuento” establecida en “con cada impresión” o en “con cada impresión (excluyendo actualizaciones)” no se pueden utilizar como métricas de éxito de las que dependa otra métrica.
+
+Cuando una métrica de éxito se configura para aumentar en cada impresión, [!DNL Target] cuenta de nuevo al visitante cada vez que visita esta métrica de éxito. [!DNL Target]A continuación,  restablece la métrica de éxito “abono” a 0 para que pueda contar de nuevo la siguiente impresión. Por lo tanto, si otra métrica requiere que esta métrica se haya visto primero, [!DNL Target] nunca reconoce que el usuario ha visto la primera métrica.
 
 ## Vídeo de formación: Métricas de actividad
 

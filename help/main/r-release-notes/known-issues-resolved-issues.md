@@ -4,9 +4,9 @@ description: Encuentre información acerca de problemas conocidos en Adobe Targe
 title: ¿Dónde puedo encontrar información acerca de problemas conocidos y problemas resueltos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '4528'
+source-wordcount: '4326'
 ht-degree: 100%
 
 ---
@@ -23,21 +23,9 @@ Información sobre problemas conocidos de [!DNL Adobe Target]. También incluye 
 
 En las secciones siguientes se enumeran los problemas conocidos de [!DNL Target]:
 
-### El Compositor de experiencias mejorado (EEC) no admite peticiones PUT.
-
-Actualmente, un problema con el EEC impide admitir peticiones PUT y provoca un error de tiempo de espera 504. (TGT-41493)
-
-### Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran en el informe [!UICONTROL Atributos importantes].
-
-Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran en el informe [!UICONTROL Atributos importantes] en el caso de las actividades de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT). (TOP-3813)
-
 ### El archivado de las actividades de [!UICONTROL Segmentación automática] puede causar problemas de sincronización
 
 Si se intenta archivar actividades inactivas de [!UICONTROL Segmentación automática], pueden producirse problemas de sincronización. Hasta que se solucione este problema, no archive las actividades de [!UICONTROL Segmentación automática]. Déjelas en estado [!UICONTROL Inactivo]. (TGT-40885)
-
-### Ofertas de redireccionamiento {#redirect}
-
-* Las actividades de redirección en las implementaciones de at.js hacen que la dirección URL de vista previa entre en bucle (la oferta se suministra repetidamente). Puede utilizar el [Modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) para llevar a cabo la vista previa y el control de calidad. Este problema no afecta al suministro real de la oferta. (TGT-23019)
 
 ### Cancelación de la carga de una página dentro del Compositor de experiencias visuales (VEC) {#cancel}
 
@@ -86,12 +74,6 @@ A continuación, detallamos los problemas conocidos de at.js:
 * Es posible que at.js no funcione con aplicaciones Cordova o híbridas porque no admiten las cookies de origen. (TNT-26166)
 
    **Solución alternativa**: configure at.js con la opción “solo x” habilitada y transfiera `mboxThirdPartyId` en llamadas para administrar usuarios.
-
-### Métricas de éxito
-
-Las métricas de éxito con la opción avanzada “Cómo se incrementará el recuento” establecida en “con cada impresión” o en “con cada impresión (excluyendo actualizaciones)” no se pueden utilizar como métricas de éxito de las que dependa otra métrica.
-
-Cuando una métrica de éxito se establece para que se incremente con cada impresión, Target vuelve a contar el visitante cada vez que visita esa métrica de éxito. A continuación, Target restablece la métrica de éxito “abono” a 0 para que pueda contar de nuevo la siguiente impresión. Por lo tanto, si otra métrica requiere que esta métrica se haya visto primero, Target no reconocerá nunca que el usuario ha visto la métrica primero.
 
 ### Analytics for [!DNL Target] (A4T)
 
