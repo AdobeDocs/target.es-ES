@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
+source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 97%
+source-wordcount: '1214'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 97%
    + [Notas de la versión de Target (actual)](r-release-notes/release-notes.md)
    + [Notas de la versión de Target (versión previa)](r-release-notes/target-release-notes.md)
    + [Información general sobre la documentación de Target](/help/main/r-release-notes/target-documentation.md)
-   + [Newsletter de Target Insider](/help/main/r-release-notes/target-insider-newsletter.md)
    + [Problemas conocidos y problemas resueltos](r-release-notes/known-issues-resolved-issues.md)
    + [Actualizaciones del estado del sistema y notificaciones dinámicas](r-release-notes/system-status-updates.md)
    + [Cambios de la documentación](r-release-notes/doc-change.md)
@@ -234,7 +233,7 @@ ht-degree: 97%
          + [Solución de problemas del Compositor de experiencias mejorado](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Habilitación del contenido mixto en el navegador](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Escenarios de modificación de página](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Extensión de Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
+         + [Extensión Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Extensión del Helper del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Redireccionar a una dirección URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Creación de carruseles que funcionen en el Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/vec-carousels.md)
@@ -259,7 +258,7 @@ ht-degree: 97%
       + [Excluir valores extremos](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [Descarga de datos en un archivo CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Metodología estadística {#statistical-methodology}
-      + [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
+      + [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + Informes de personalización {#personalization-reports}
       + [Informe Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Informes resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
