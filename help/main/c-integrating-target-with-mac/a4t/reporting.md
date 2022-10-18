@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo usar Analytics para [!DNL Target] 
 title: ¿Cómo utilizo los informes en A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 49%
+source-wordcount: '1312'
+ht-degree: 48%
 
 ---
 
@@ -77,7 +77,7 @@ Durante la creación de la actividad, debe especificar un objetivo para la activ
 
 ## Realización de cálculos sin conexión en Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
-Puede realizar cálculos sin conexión para A4T, pero es necesario realizar un paso de exportaciones de datos en [!DNL Analytics].
+Puede realizar cálculos sin conexión en intervalos de confianza para A4T mediante la función [!DNL Target] [Calculadora de confianza completa](/help/main/assets/complete_confidence_calculator.xlsx) El archivo de Excel requiere un paso con las exportaciones de datos en [!DNL Analytics].
 
 Para A4T se usa un [Prueba T de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test)Cálculo de {target=_blank} para variables continuas (en lugar de métricas binarias). En Analytics, siempre se realiza un seguimiento de los visitantes y se cuenta toda acción realizada. Por tanto, si el visitante realiza varias compras o visita varias veces una métrica de éxito, todas estas visitas adicionales se cuentan. Esto convierte la métrica en una variable continua. Para realizar el cálculo de la prueba T de Welch, se necesita la &quot;suma de los cuadrados&quot; para calcular la varianza, que se utiliza en el denominador de la estadística t. [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explica los detalles de las fórmulas matemáticas utilizadas. La suma de los cuadrados se puede recuperar de [!DNL Analytics]. Para obtener datos de la suma de los cuadrados, debe realizar una exportación en el nivel de visitante de la métrica que desea optimizar durante un periodo de muestra.
 

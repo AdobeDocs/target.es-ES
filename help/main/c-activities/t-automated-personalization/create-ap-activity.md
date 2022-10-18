@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear una [!UICONTROL Automated Pe
 title: ¿Cómo creo un [!UICONTROL Automated Personalization] ¿Actividad?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 89%
+source-wordcount: '2078'
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ La variable [!UICONTROL Automated Personalization] Flujo de trabajo de la activi
 
    >[!NOTE]
    >
-   >Aunque se pueden crear hasta 30 000 experiencias en una actividad AP, el rendimiento de la actividad es mejor cuando se utilizan menos de 5000.
+   >Aunque se pueden crear hasta 30 000 experiencias en una actividad AP, el rendimiento de la actividad es mejor cuando se utilizan menos de 5000. Este mismo límite se aplica incluso cuando la actividad ha habilitado la variable [!UICONTROL Mostrar duplicados] .
 
    La lista [!UICONTROL Experiencias] muestra cada parte de contenido seleccionada para la actividad y la ubicación que se le asigna.
 
@@ -106,7 +106,7 @@ La variable [!UICONTROL Automated Personalization] Flujo de trabajo de la activi
 
    ![Pestaña Grupos de exclusión del cuadro de diálogo Administrar contenido](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se usan menos de 10 000 experiencias distintas.
+   Aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se usan menos de 10 000 experiencias distintas. Este mismo límite se aplica incluso cuando la actividad ha habilitado la variable [!UICONTROL Mostrar duplicados] .
 
    Si actualmente no tiene grupos de exclusión incluidos en su actividad, haga clic en **Crear grupo de exclusión**. Puede filtrar para crear una lista que muestre solo las combinaciones que desea excluir. Asigne un nombre a su grupo de exclusión y haga clic en **Guardar**.
 

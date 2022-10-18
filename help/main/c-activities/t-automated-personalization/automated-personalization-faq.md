@@ -4,10 +4,10 @@ description: Explore una lista de las preguntas más frecuentes (FAQ) y respuest
 title: ¿Cómo puedo encontrar preguntas frecuentes sobre las actividades de Automated Personalization?
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 88%
+source-wordcount: '2004'
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Para obtener más información, consulte [Uso de una experiencia específica com
 
 ## ¿Cómo puedo comparar la Personalización automatizada con una experiencia predeterminada? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-No existe una opción para comparar la AP con una experiencia predeterminada. Sin embargo, como alternativa, si existe una oferta o experiencia predeterminada como parte de la actividad general, para comprender su rendimiento inicial puede hacer clic en el segmento “Control” de los informes y colocar la oferta concreta en el informe a nivel de oferta resultante. Las tasas de conversión registradas para esta oferta pueden usarse para compararlas con las tasas de conversión del segmento “Bosque aleatorio” al completo. Esto ayuda a comparar cómo funciona la máquina en comparación la oferta predeterminada.
+No existe una opción para comparar la AP con una experiencia predeterminada. Sin embargo, como solución alternativa, si existe una oferta o experiencia predeterminada como parte de la actividad general, para comprender su rendimiento inicial puede hacer clic en el segmento &quot;Control&quot; de los informes y localizar esa oferta en particular en el informe a nivel de oferta resultante. La tasa de conversión registrada para esta oferta se puede utilizar para compararla con la tasa de conversión de todo el segmento &quot;Bosque aleatorio&quot;. Esto ayuda a comparar cómo funciona la máquina en comparación la oferta predeterminada.
 
 ## ¿Qué es lo mejor para configurar una actividad de Personalización automatizada?  {#section_E155B26282BE49B58EA2683413D11DE6}
 
@@ -37,11 +37,11 @@ No existe una opción para comparar la AP con una experiencia predeterminada. Si
 * Asegúrate de usar el [Estimador de tráfico](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para que pueda tener una idea de cuánto tiempo tardará la creación de modelos de personalización en su actividad de Personalización automatizada.
 * Decida la asignación entre el control y el objetivo antes de comenzar la actividad en función de sus objetivos.
 
-   Hay tres situaciones que se deben tener en cuenta en función del objetivo de la actividad y el tipo de control seleccionado:
+   Hay tres escenarios a considerar en función del objetivo de su actividad y el tipo de control que ha seleccionado:
 
-   * **Experiencias aleatorias como control y el objetivo de la actividad es probar la eficacia del algoritmo de personalización**: Si su objetivo es evaluar el algoritmo de personalización, deberá tener un conocimiento más detallado del crecimiento. Probablemente quiera compararla con la posible tasa de conversión de sus experiencias u ofertas si hiciese simplemente una prueba A/B (un control servido de forma aleatoria). En ese caso, se recomienda utilizar una asignación del 50% a un control de experiencias servidas aleatoriamente.
-   * **“Experiencias aleatorias” como control y el objetivo de la actividad es maximizar el tráfico personalizado**: Si se siente cómodo con el algoritmo y desea tener la máxima cantidad de tráfico personalizado, se recomienda una asignación de 10% a 30% para el control. Este es el equilibrio que podrá ver en la información de crecimiento (ya que los intervalos de confianza del tráfico de control serán más grandes porque hay menos tráfico fluido).
-   * **Experiencia específica como control, con cualquier tipo de objetivo**: Si desea comparar una experiencia específica basada en especialistas en marketing en los modelos de personalización, se recomienda una asignación de 10% a 30% para el control. Cuando se selecciona una sola experiencia como control, ese tráfico no se propaga en todas las ofertas o experiencias de la actividad.
+   * **Experiencias aleatorias como control y el objetivo de la actividad es probar la eficacia del algoritmo de personalización**: Si su objetivo es evaluar el algoritmo de personalización, tendrá una imagen más precisa del alza. Probablemente quiera compararla con la posible tasa de conversión de sus experiencias u ofertas si hiciese simplemente una prueba A/B (un control servido de forma aleatoria). En ese caso, se recomienda utilizar una asignación del 50% a un control de experiencias servidas aleatoriamente.
+   * **&quot;Experiencias aleatorias&quot; como control y el objetivo de la actividad es maximizar el tráfico personalizado**: Si se siente cómodo con el algoritmo y desea que la cantidad máxima de tráfico se personalice, se recomienda una asignación del 10 % al 30 % para el control. La compensación aquí es la precisión que podrá ver en su información de alza (ya que los intervalos de confianza del tráfico de control serán más grandes porque hay menos tráfico fluyendo a ellos).
+   * **Experiencia específica como control, con cualquier tipo de objetivo**: Si desea comparar una experiencia específica basada en especialistas en marketing en los modelos de personalización, se recomienda una asignación de 10% a 30% para el control. Cuando selecciona una sola experiencia como control, ese tráfico no se propaga en todas las ofertas o experiencias de la actividad.
 
 * Las reglas de orientación deben usarse con la menor cantidad posible porque pueden interferir con la capacidad del modelo para optimizar.
 * Los grupos de informes pueden limitar el éxito de su actividad de personalización automatizada. Solo deben usarse bajo condiciones específicas.
@@ -56,7 +56,9 @@ Consulte las siguientes preguntas frecuentes y respuestas mientras trabaja con [
 
 ### ¿Cuáles son los límites de la Personalización automatizada?  {#section_08BA09ED51B547299963C94FE6417CFA}
 
-Target tiene un límite estricto de 30 000 experiencias, pero funciona mejor cuando se crean menos de 10 000 experiencias.
+[!DNL Target] tiene un límite estricto de 30 000 experiencias, pero funciona mejor cuando se crean menos de 10 000 experiencias.
+
+Este mismo límite se aplica incluso cuando la actividad ha habilitado la variable [!UICONTROL Mostrar duplicados] .
 
 ### ¿Cómo se implementa la orientación a nivel de oferta?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

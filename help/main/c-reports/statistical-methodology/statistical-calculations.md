@@ -3,20 +3,20 @@ keywords: informes;metodología estadística;cálculos estadísticos;estadístic
 description: Obtenga información sobre los cálculos estadísticos utilizados en el manual [!UICONTROL Prueba A/B] actividades en [!DNL Adobe Target].
 title: Cómo puedo obtener información sobre los cálculos estadísticos utilizados en [!UICONTROL Prueba A/B] ¿Actividades?
 feature: Reports
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 2%
+source-wordcount: '1091'
+ht-degree: 5%
 
 ---
 
-# Cálculos estadísticos en pruebas A/Bn
+# Cálculos estadísticos en Pruebas A/Bn
 
 Este artículo documenta los cálculos estadísticos detallados utilizados en las pruebas A/Bn manuales en [!DNL Adobe Target]. Las definiciones están previstas para [!UICONTROL Tasa de conversión], [!UICONTROL Intervalo de confianza de la tasa de conversión], [!UICONTROL Alza], [!UICONTROL Intervalo de confianza para el alza]y [!UICONTROL Confianza].
 
 >[!NOTE]
 >
->La información de este artículo sustituye al *Cálculos de Adobe Target para pruebas A/B* archivo pdf que anteriormente estaba disponible para su descarga en este sitio.
+>La información de este artículo sustituye al archivo PDF *Cálculos de Adobe Target para Pruebas A/B* que anteriormente estaba disponible para su descarga en este sitio.
 
 ![Informe de Target que muestra la variable [!UICONTROL Tasa de conversión], [!UICONTROL Intervalo de alza y confianza promedio]y [!UICONTROL Confianza] de una actividad de prueba A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
@@ -138,4 +138,4 @@ Por último, la confianza notificada en [!DNL Target] se define como:
 
 El [informe CSV descargado](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) solo contiene datos sin procesar; no incluye métricas calculadas, como los ingresos por visitante, el alza o la confianza, utilizadas en las pruebas A/B.
 
-Para calcular estas cantidades estadísticas, descargue el [Calculadora de confianza completa](/help/main/assets/complete_confidence_calculator.xlsx) Archivo de Excel para introducir el valor de la actividad.
+Para calcular estas cantidades estadísticas, descargue el [!DNL Target] [Calculadora de confianza completa](/help/main/assets/complete_confidence_calculator.xlsx) Archivo de Excel para introducir el valor de la actividad.
