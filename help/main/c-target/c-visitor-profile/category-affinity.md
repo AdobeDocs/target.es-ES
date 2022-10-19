@@ -4,10 +4,10 @@ description: Obtenga información sobre la afinidad de la categoría en [!DNL Ad
 title: ¿Qué es la afinidad de la categoría?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 68%
+source-wordcount: '830'
+ht-degree: 66%
 
 ---
 
@@ -49,6 +49,10 @@ El algoritmo de afinidad de la categoría funciona de la siguiente forma:
 * Si ya se hizo clic en una categoría (vista), volver a hacer clic en ella no restará 1 punto del resto de categorías
 * Si se hace clic en una sexta categoría nueva, se abandona la categoría con menos puntos de entre las primeras cinco categorías del cálculo.
 * Al final de la sesión, se dividen todos los valores entre 2.
+
+>[!NOTE]
+>
+>Cuando se pasan varias categorías dentro de una sola llamada de mbox, el orden de las categorías en `categoryAffinities` no está garantizado. Una categoría arbitraria se registra primero y recibe una puntuación de 10.
 
 ### Ejemplo: algoritmo de afinidad de la categoría
 

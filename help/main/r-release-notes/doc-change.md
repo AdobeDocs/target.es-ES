@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 93%
+source-wordcount: '1477'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 19 de octubre | [Afinidad de la categoría](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Se agregó una nota que explica la puntuación cuando se pasan varias categorías dentro de una sola llamada de mbox. |
 | 18 de octubre | [[!UICONTROL Crear una actividad de Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Se ha actualizado el texto para indicar que, aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se utilizan menos de 10 000 experiencias diferentes. Este mismo límite se aplica incluso cuando la actividad ha habilitado la variable [!UICONTROL Mostrar duplicados] . |
 |  | [Preguntas frecuentes sobre Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Se ha actualizado el texto para indicar que, aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se utilizan menos de 10 000 experiencias diferentes. Este mismo límite se aplica incluso cuando la actividad ha habilitado la variable [!UICONTROL Mostrar duplicados] . |
 | 14 de octubre | Anuncios y eventos de [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información de registro sobre el [!DNL Adobe Target] Descanso de café de la comunidad (26 de octubre de 2022). |
