@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Preguntas frecuentes sobre Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Se ha actualizado el texto para indicar que, aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se utilizan menos de 10 000 experiencias diferentes. Este mismo límite se aplica incluso cuando la actividad ha habilitado la variable [!UICONTROL Mostrar duplicados] . |
 | 14 de octubre | Anuncios y eventos de [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información de registro sobre el [!DNL Adobe Target] Descanso de café de la comunidad (26 de octubre de 2022). |
 | 10 de octubre | Extensión [[!UICONTROL Ayuda de edición visual]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nuevo artículo. |
-|  | [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Se ha actualizado el &quot;[Mi página no se muestra en el VEC (solo VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)&quot;. |
+|  | [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Se ha actualizado la sección &quot;[Mi página no se muestra en el VEC (solo VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)&quot;. |
 | 4 de octubre | [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nuevo tema.<br>La información de este artículo sustituye al archivo PDF *Cálculos de Adobe Target para Pruebas A/B* que anteriormente estaba disponible para su descarga en este sitio. |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.10.1 de [!DNL Target Standard/Premium]. |
 
