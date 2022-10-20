@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo solucionar problemas que a veces o
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias mejorado?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 43%
+source-wordcount: '469'
+ht-degree: 40%
 
 ---
 
@@ -71,7 +71,3 @@ Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegad
 ## Veo errores de tiempo de espera o “acceso denegado” al cargar sitios con el proxy habilitado. (Solo EEC)   {#section_60CBB9022DC449F593606C0E6252302D}
 
 Asegúrese de que las IP del proxy no estén bloqueadas en el entorno.
-
-## Problemas conocidos
-
-* Actualmente, un problema con el EEC impide admitir peticiones PUT y provoca un error de tiempo de espera 504. (TGT-41493)
