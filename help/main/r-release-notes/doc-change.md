@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
 source-wordcount: '1477'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -20,11 +20,11 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 19 de octubre | [Afinidad de la categoría](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Se agregó una nota que explica la puntuación cuando se pasan varias categorías dentro de una sola llamada de mbox. |
-| 18 de octubre | [[!UICONTROL Crear una actividad de Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Se ha actualizado el texto para indicar que, aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se utilizan menos de 10 000 experiencias diferentes. Este mismo límite se aplica incluso cuando la actividad ha habilitado la variable [!UICONTROL Mostrar duplicados] . |
-|  | [Preguntas frecuentes sobre Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Se ha actualizado el texto para indicar que, aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se utilizan menos de 10 000 experiencias diferentes. Este mismo límite se aplica incluso cuando la actividad ha habilitado la variable [!UICONTROL Mostrar duplicados] . |
-| 14 de octubre | Anuncios y eventos de [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información de registro sobre el [!DNL Adobe Target] Descanso de café de la comunidad (26 de octubre de 2022). |
+| 18 de octubre | [Crear una actividad de [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Se ha actualizado el texto para indicar que, aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se usan menos de 10 000 experiencias distintas. Este mismo límite se aplica incluso cuando la actividad tiene habilitada la opción [!UICONTROL No permitir duplicados]. |
+|  | [Preguntas frecuentes sobre Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Se ha actualizado el texto para indicar que, aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se usan menos de 10 000 experiencias distintas. Este mismo límite se aplica incluso cuando la actividad tiene habilitada la opción [!UICONTROL No permitir duplicados]. |
+| 14 de octubre | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información de registro acerca del Coffee break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (26 de octubre de 2022). |
 | 10 de octubre | Extensión [[!UICONTROL Ayuda de edición visual]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nuevo artículo. |
-|  | [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Se ha actualizado la sección &quot;[Mi página no se muestra en el VEC (solo VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)&quot;. |
+|  | [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Se ha actualizado la sección “[Mi página no se muestra en el VEC (solo VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)”. |
 | 4 de octubre | [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nuevo tema.<br>La información de este artículo sustituye al archivo PDF *Cálculos de Adobe Target para Pruebas A/B* que anteriormente estaba disponible para su descarga en este sitio. |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.10.1 de [!DNL Target Standard/Premium]. |
 
