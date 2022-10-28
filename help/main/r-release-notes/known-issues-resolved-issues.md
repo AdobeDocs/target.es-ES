@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
 source-wordcount: '3974'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Si se intenta archivar actividades inactivas de [!UICONTROL Segmentación autom�
 Los siguientes son problemas conocidos de las actividades de [!UICONTROL Recommendations]:
 
 * Cuando [!DNL Target] devuelve una oferta JSON con getOffer(), se devuelve con el tipo de JSON. Sin embargo, si devuelve un diseño JSON de Recommendations, devuelve con un tipo de HTML.
-* Las entidades caducadas caducan correctamente después de 60 días de no recibir actualizaciones a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice Búsqueda en el catálogo después de la caducidad. Las entidades eliminadas a través de fuentes o API tampoco se eliminan actualmente del índice de búsqueda en el catálogo. (IRI-857)
+* Las entidades caducadas expiran correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después del vencimiento. Las entidades eliminadas a través de fuentes o API tampoco se eliminan actualmente del índice de búsqueda en el catálogo. (IRI-857)
 * Las ofertas de recomendaciones en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja de Recommendations. (TGT-33426)
 * Las colecciones, las exclusiones, los criterios y los diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API. Del mismo modo, si crea cualquiera de estos elementos en la IU de Target y posteriormente los edita mediante API, esos cambios no se reflejarán en la IU de Target. Los elementos editados mediante API deben continuar editándose mediante API para evitar la pérdida de modificaciones. (TGT-35777)
 * Las actividades de Recommendations creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.

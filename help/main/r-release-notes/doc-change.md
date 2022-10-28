@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 25 de octubre | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para la versión 22.10.3 de [!DNL Target Standard/Premium]. |
-| 19 de octubre | [Afinidad de la categoría](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Se agregó una nota que explica la puntuación cuando se pasan varias categorías dentro de una sola llamada de mbox. |
+| 19 de octubre | [Afinidad de la categoría](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Se agregó una nota que explica la puntuación cuando se pasan varias categorías dentro de una sola llamada de mBox. |
 | 18 de octubre | [Crear una actividad de [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Se ha actualizado el texto para indicar que, aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se usan menos de 10 000 experiencias distintas. Este mismo límite se aplica incluso cuando la actividad tiene habilitada la opción [!UICONTROL No permitir duplicados]. |
 |  | [Preguntas frecuentes sobre Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Se ha actualizado el texto para indicar que, aunque puede crear hasta 30 000 experiencias en una prueba AP, el algoritmo funciona mejor cuando se usan menos de 10 000 experiencias distintas. Este mismo límite se aplica incluso cuando la actividad tiene habilitada la opción [!UICONTROL No permitir duplicados]. |
 | 14 de octubre | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información de registro acerca del Coffee break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (26 de octubre de 2022). |
