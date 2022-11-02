@@ -6,7 +6,7 @@ feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 35%
 
 ---
@@ -169,7 +169,7 @@ El siguiente ejemplo muestra cómo se pueden devolver las respuestas JSON al con
 
 Cuando se haya ejecutado el algoritmo y tenga los resultados, su respuesta tendría que parecerse a esta:
 
-![imagen json_recommendations](assets/json_recommendation.png){width=&quot;575px&quot;}
+![imagen json_recommendations](assets/json_recommendation.png){width="575px"}
 
 ## Sugerencias y trucos adicionales para objetos JSON {#section_C305673C68944749969DB239E3221DC2}
 
