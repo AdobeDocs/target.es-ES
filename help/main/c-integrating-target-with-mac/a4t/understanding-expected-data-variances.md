@@ -4,10 +4,10 @@ description: Obtenga información sobre las variaciones de datos esperadas entre
 title: ¿Cuál es la variación de datos esperada entre Analytics y A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 48%
+source-wordcount: '733'
+ht-degree: 46%
 
 ---
 
@@ -26,10 +26,6 @@ Estos son algunos escenarios en los que puede experimentar variaciones de datos 
    Si se configura una prueba de redireccionamiento en Target para dividir el tráfico 50/50 (o 25/25/25/25, etc.), es posible que el comportamiento del usuario no se divida de forma equitativa. Si ve una división desigual, simplemente significa que un grupo de usuarios falló en ejecutar una llamada de Analytics en la página de aterrizaje más que los demás grupos. Este error al ejecutar la llamada de Analytics para un grupo provocó que se excluyera la visita de Target para ese usuario, lo que crea uniformidad.
 
    Adobe espera abordar este problema en el futuro, mientras los equipos de Adobe trabajan para A4T en Adobe Experience Platform. Los equipos de Adobe están determinando cómo gestionar estos diferentes eventos que se producen en momentos diferentes de la página.
-
-   >[!NOTE]
-   >
-   >Hay un problema conocido que provoca que un número limitado de clientes que utilizan redireccionamientos con A4T vean un porcentaje más alto de tasas de visitas no vinculadas. Consulte [Problemas conocidos y problemas resueltos](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Variaciones de datos previstas al *no usar* A4T {#expected-not-using-a4t}
 

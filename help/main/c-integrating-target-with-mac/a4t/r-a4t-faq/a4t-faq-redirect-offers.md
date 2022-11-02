@@ -4,10 +4,10 @@ description: Encuentre respuestas a preguntas sobre el uso de ofertas de redirec
 title: ¿Dónde puedo encontrar preguntas más frecuentes sobre las ofertas de redireccionamiento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 54%
+source-wordcount: '1431'
+ht-degree: 52%
 
 ---
 
@@ -18,10 +18,6 @@ Este tema contiene respuestas a preguntas que se plantean a menudo sobre el uso 
 ## ¿Admite Analytics for Adobe Target (A4T) ofertas de redireccionamiento? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Sí, si su implementación utiliza [!DNL at.js]. Sin embargo, la implementación debe cumplir los requisitos mínimos enumerados a continuación para utilizar [ofertas de redireccionamiento](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) en actividades que usen Analytics como fuente de informes.
-
->[!NOTE]
->
->Hay un problema conocido que provoca que un número limitado de clientes que utilizan redireccionamientos con A4T vean un porcentaje más alto de tasas de visitas no vinculadas. Consulte [Problemas conocidos y problemas resueltos](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## ¿Cuáles son los requisitos mínimos para utilizar ofertas de redireccionamiento con A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -60,9 +56,7 @@ Si utiliza una versión anterior y no compatible de at.js, existe la posibilidad
 
 Se recomienda utilizar el compositor basado en formularios para crear una actividad de redireccionamiento para aumentar la velocidad del redireccionamiento de página debido al lugar en el que se ejecuta el código en la página. También se recomienda crear una oferta de redireccionamiento para cada experiencia, incluso para la experiencia predeterminada, en la que la redirección devuelva la página original. La creación de una oferta de redireccionamiento para cada experiencia garantiza que, si se produce un recuento erróneo, se produzca en todas las experiencias. Los informes y análisis siguen siendo válidos para la prueba.
 
-Una ventaja de utilizar ofertas de redireccionamiento para todas las experiencias de la actividad, incluida la experiencia predeterminada (control), es que puede reunir las mismas condiciones en todas las experiencias. Por ejemplo, si la experiencia predeterminada no tiene una oferta de redireccionamiento y las demás experiencias sí, la velocidad de la experiencia sin la oferta de redireccionamiento tiene una ventaja inherente. Solo se recomiendan las ofertas de redireccionamiento para situaciones temporales, como las pruebas. No se recomiendan ofertas de redireccionamiento para situaciones permanentes, como la personalización. Después de determinar el “ganador”, debe quitar la redirección para mejorar el rendimiento de carga de página.
-
-Para obtener más información sobre este problema, consulte la información “Ofertas de redireccionamiento” en [Problemas conocidos](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
+Una ventaja de utilizar ofertas de redireccionamiento para todas las experiencias de la actividad, incluida la experiencia predeterminada (control), es que puede reunir las mismas condiciones en todas las experiencias. Por ejemplo, si la experiencia predeterminada no tiene una oferta de redireccionamiento y las demás experiencias sí, la velocidad de la experiencia sin la oferta de redireccionamiento tiene una ventaja inherente. Solo se recomiendan las ofertas de redireccionamiento para situaciones temporales, como las pruebas. No se recomiendan ofertas de redireccionamiento para situaciones permanentes, como la personalización. Después de determinar el &quot;ganador&quot;, debe eliminar el redireccionamiento para mejorar el rendimiento de carga de página.
 
 ## ¿Son compatibles el Compositor de experiencias visuales (VEC) y el Compositor de experiencias basado en formularios? {#section_FDA26FE7909B48539DA770559E687677}
 

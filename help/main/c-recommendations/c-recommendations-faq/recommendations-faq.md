@@ -4,10 +4,10 @@ description: Consulte la lista preguntas frecuentes y sus respuestas acerca de l
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de Recommendations de  [!DNL Target] ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 98%
+source-wordcount: '3402'
+ht-degree: 91%
 
 ---
 
@@ -58,16 +58,16 @@ Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritm
 * Un cambio en la configuración de la promoción puede tardar hasta cinco horas en reflejarse en el sitio.
 * Es posible que un cambio en la configuración de otros criterios no se refleje hasta que se ejecute el siguiente algoritmo:
 
-   * Algunas configuraciones de criterios (por ejemplo, “adición de una regla de inclusión dinámica”) se reflejan instantáneamente.
-   * Otra configuración de criterios (por ejemplo, “eliminación de una regla de inclusión dinámica”, cambio de ventana retrospectiva, etc.) no se pueden incorporar hasta que se ejecute el siguiente algoritmo.
+   * Algunas configuraciones de criterios (por ejemplo, &quot;adición de una regla de inclusión dinámica&quot;) se reflejan instantáneamente.
+   * Otros ajustes de criterios (por ejemplo, &quot;eliminación de una regla de inclusión dinámica&quot;, cambio de ventana retrospectiva, etc.) no se pueden incorporar hasta que se ejecute el siguiente algoritmo.
    * Los cambios activan las ejecuciones de algoritmos, pero pueden tardar hasta 24 horas en completarse. Los algoritmos también se ejecutan de forma programada cada 12 a 24 horas.
 
-## ¿Cuánto tiempo tarda un usuario en mostrar su comportamiento (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones que *recibe?*
+## Cuánto tiempo tarda un usuario en mostrar su comportamiento (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones *that* ¿recibe el usuario?
 
 * El producto/contenido que se está viendo/comprando influye en las recomendaciones que el usuario recibe en la misma vista de página/solicitud de contenido de [!DNL Target].
-* El comportamiento histórico del usuario, como “último producto visualizado”, “producto más visualizado” y el historial general de visualización/compra se actualiza con esa solicitud, lo que influye en las recomendaciones que el usuario recibe en la siguiente vista de página/solicitud de contenido de [!DNL Target]. Por ejemplo, los algoritmos de “Artículos vistos recientemente” y “Recomendados para ti” se actualizan con cada vista/compra de producto y se reflejan en la solicitud de contenido posterior.
+* El comportamiento histórico del usuario, como &quot;último producto visualizado&quot;, &quot;producto más visualizado&quot; y el historial general de visualización/compra se actualiza con esa solicitud e influye en las recomendaciones que el usuario recibe en la siguiente vista de página/[!DNL Target] solicitud de contenido. Por ejemplo, los algoritmos de &quot;Artículos vistos recientemente&quot; y &quot;Recomendados para ti&quot; se actualizan con cada vista/compra de producto y se reflejan en la solicitud de contenido posterior.
 
-## ¿Cuánto tiempo tardan los usuarios en reflejar el comportamiento de un usuario (por ejemplo, hacer clic en el producto A y comprar el producto B) en las recomendaciones que reciben *otros usuarios*?
+## Cuánto tiempo tarda un usuario en mostrar su comportamiento (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones *other* ¿reciben los usuarios?
 
 El comportamiento de los usuarios en conjunto se incorpora al procesamiento de algoritmos sin conexión, con cada algoritmo ejecutado cada 12 a 24 horas.
 
@@ -128,10 +128,10 @@ Tenga en cuenta la siguiente información si ve que una colección que era disti
 
    ![imagen product_catalog](assets/product_catalog.png)
 
-* ¿Está actualizado el índice? Vaya a [!DNL /target/products.html#productSearch] y compruebe cuántas horas hace que se actualizó el índice (por ejemplo, “Indexado hace 3 horas”). Puede actualizar el índice si lo desea.
+* ¿Está actualizado el índice? Vaya a [!DNL /target/products.html#productSearch] y compruebe cuántas horas tiene el índice (por ejemplo, &quot;Indexado hace 3 horas&quot;). Puede actualizar el índice si lo desea.
 * ¿Ha cambiado algo en la fuente o en la capa de datos que resulte en que sus entidades ya no cumplan las reglas de la colección? Compruebe que las mayúsculas y minúsculas concuerden.
 * ¿Se ejecutó correctamente la fuente? ¿Ha cambiado alguien el directorio FTP, la contraseña, etc.?
-* [!DNL Target] intenta que las actualizaciones del envío (en la página/aplicación del cliente) se produzcan lo más rápido posible. No obstante, [!DNL Target] también debe proporcionar determinada representación en la IU para el experto en marketing. [!DNL Target] no retrasa las actualizaciones de entrega hasta que las actualizaciones de la IU se sincronizan con ellas. Puede utilizar [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) para comprobar el contenido del sistema en el momento de recibirse una solicitud.
+* [!DNL Target] hace todo lo posible para que las actualizaciones del envío (en la página o la aplicación del cliente) se produzcan lo antes posible. No obstante, [!DNL Target] también debe proporcionar determinada representación en la IU para el experto en marketing. [!DNL Target] no retrasa las actualizaciones de entrega hasta que las actualizaciones de la IU se sincronizan con ellas. Puede utilizar [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) para comprobar el contenido del sistema en el momento de recibirse una solicitud.
 
 ## ¿Cuál es la diferencia entre la ponderación de atributos general y la específica para similitud de contenido? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -141,9 +141,9 @@ La “ponderación de atributos estándar” se aplica a la mayoría de los tipo
 
 ![imagen attribute_weiting_example](assets/attribute_weighting_example.png)
 
-La “ponderación de atributos de similitud de contenido” se aplica únicamente a los criterios de Similitud de contenido.
+La &quot;ponderación de atributos de similitud de contenido&quot; se aplica solo a los criterios de Similitud de contenido.
 
-Este tipo de ponderación es más dinámico y se basa en la “clave de recomendación” actual (el elemento que se está viendo en ese momento). En el siguiente ejemplo (marca x 16), si un visitante estuviera viendo zapatillas de Nike, sería más probable que se le recomendaran otros productos de Nike (no necesariamente zapatillas) que zapatillas de otras marcas. Si un visitante estuviera viendo zapatillas de Adidas, tendría más probabilidades de recibir la recomendación de otros productos de Adidas.
+Este tipo de ponderación es más dinámico y se basa en la &quot;clave de recomendación&quot; actual (el elemento que se está viendo en ese momento). En el siguiente ejemplo (marca x 16), si un visitante estuviera viendo zapatillas de Nike, es más probable que se recomiende a ese visitante otros productos de Nike (no necesariamente zapatillas) en lugar de zapatillas de otros competidores. Si un visitante estuviera viendo zapatillas de Adidas, tendría más probabilidades de recibir la recomendación de otros productos de Adidas.
 
 ![imagen content_similarity_example](assets/content_similarity_example.png)
 
@@ -251,7 +251,7 @@ Algunos clientes de medios y publicaciones desean asegurarse de que los artícul
 
 1. Pase la fecha de publicación del artículo, en formato AAMMDD, como atributo de entidad personalizado.
 1. Cree un script de perfil que sea la fecha actual menos 60 días, también en formato AAAAMMDD.
-1. Utilice un filtro de inclusión dinámica en los criterios para que `publish date > today’s date minus 60 days`.
+1. Utilice un filtro de inclusión dinámica en los criterios para que `publish date > today's date minus 60 days`.
 
 ### Transfiera la fecha de publicación como un atributo de entidad personalizado:
 
@@ -274,3 +274,14 @@ Algunos clientes de medios y publicaciones desean asegurarse de que los artícul
 >[!NOTE]
 >
 >Este ejemplo también se puede realizar utilizando la coincidencia de parámetros y pasando el valor `priorDate60` como parámetro de mbox.
+
+### ¿Cuáles son algunos problemas conocidos al utilizar [!DNL Recommendations] actividades?
+
+Los siguientes son problemas conocidos de las actividades de [!UICONTROL Recommendations]:
+
+* Cuando [!DNL Target] devuelve una oferta JSON con getOffer(), se devuelve con el tipo de JSON. Sin embargo, si devuelve un diseño JSON de Recommendations, devuelve con un tipo de HTML.
+* Las entidades caducadas expiran correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después del vencimiento. Las entidades eliminadas a través de fuentes o API tampoco se eliminan actualmente del índice de búsqueda en el catálogo. (IRI-857)
+* Las ofertas de recomendaciones en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja de Recommendations. (TGT-33426)
+* Las colecciones, las exclusiones, los criterios y los diseños creados mediante API no están visibles en la interfaz de usuario de Target y solo se pueden editar mediante API. Del mismo modo, si crea cualquiera de estos elementos en la IU de Target y posteriormente los edita mediante API, esos cambios no se reflejarán en la IU de Target. Los elementos editados mediante API deben continuar editándose mediante API para evitar la pérdida de modificaciones. (TGT-35777)
+* Las actividades de Recommendations creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
+* El estado de la fuente de criterios personalizados que se muestra en la lista de criterios (tarjeta) se actualiza cada diez minutos, y es posible que pasen más de diez minutos de la fecha en circunstancias excepcionales. El estado que se muestra en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre está actualizado. (TGT-35896, TGT-36173)
