@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo interpretar el informe Resumen de 
 title: ¿Cómo utilizo los informes de resumen de Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 39%
+ht-degree: 34%
 
 ---
 
@@ -38,7 +38,7 @@ El informe [!UICONTROL Nivel de actividad] compara el rendimiento global del uso
 
 ![Informe Nivel de actividad  ](/help/main/c-reports/assets/box_plot_ap.png)
 
-Las reglas estándar de interpretación de resultados para prueba A/B aún se aplican, incluidos alza, confianza, tendencias, duración, etc. Para obtener más información sobre interpretación de resultados, consulte   [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Las reglas estándar de interpretación de resultados para prueba A/B aún se aplican, incluidos alza, confianza, tendencias, duración, etc. Para obtener más información sobre interpretación de resultados, consulte   [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Informe de nivel de oferta {#section_CAA6409879E349C6906E2BE8156D87A1}
 
@@ -48,11 +48,11 @@ Haga clic en el algoritmo de la experiencia (bosque aleatorio o control) para ve
 
 ![Informe de nivel de oferta en Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-Las ofertas se pueden mostrar dentro de grupos de informes, que se pueden contraer o expandir. Seleccione [!UICONTROL Grupo de informes] en la lista desplegable para ver información resumida por grupos de informes en lugar de por ofertas.
-
 >[!NOTE]
 >
->El icono de reloj indica que el modelo de algoritmo aún se está generando. El icono de la marca de verificación indica que se ha establecido el algoritmo base.
+>Un icono de reloj indica que el modelo de algoritmo aún se está generando. Un icono de marca de verificación indica que se ha establecido el algoritmo base.
+
+Las ofertas se pueden mostrar dentro de [grupos de informes](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md), y estos grupos de informes pueden contraerse y expandirse. Haga clic en **[!UICONTROL Control]** o **[!UICONTROL Segmentado]** en la tabla para ver la información resumida por grupos de informes, en lugar de por ofertas.
 
 ## Segmentos automatizados
 

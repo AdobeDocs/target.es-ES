@@ -4,10 +4,10 @@ description: Aprenda a utilizar grupos de informes de ofertas en Adobe [!DNL Tar
 title: ¿Puedo usar grupos de informes de ofertas en actividades de Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
+source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 52%
+source-wordcount: '542'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
 >
 >Si se remplaza o elimina una oferta de un grupo de modelado particular, el tráfico histórico de la oferta también se elimina del grupo de modelado. En otras palabras, las ofertas eliminadas no contribuyen a los datos que se utilizan para la variable [!DNL Target] modelos de personalización para aprender.
 
-**Para configurar grupos de informes:**
+## Configurar grupos de informes
 
 1. En el **[!UICONTROL Experiencias]** de una actividad AP, haga clic en el botón **[!UICONTROL Administrar contenido]** icono.
 
@@ -52,3 +52,17 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
    Para crear un nuevo grupo de informes al que asignar la oferta seleccionada, elija **[!UICONTROL Nuevo]**, asigne un nombre al nuevo grupo de informes y haga clic en **[!UICONTROL Aplicar]**.
 
    ![Nuevo icono para crear un nuevo grupo de informes](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+## Ver ofertas en un grupo de informes
+
+1. Haga clic en **[!UICONTROL Actividades]**, haga clic en el [!UICONTROL Automated Personalization] actividad de la lista y haga clic en la **[!UICONTROL Informes]** para mostrar la [Nivel de oferta](/help/main/c-reports/personalization-reports/reports-ap.md) informe.
+
+   Si tiene muchas actividades, puede filtrar la lista seleccionando [!UICONTROL Personalización automatizada] en la lista desplegable [!UICONTROL Tipo].
+
+1. Haga clic en **[!UICONTROL Control]** o **[!UICONTROL Segmentado]** en la tabla para mostrar las ofertas y ofertas no agrupadas dentro de los grupos de informes.
+
+   ![Grupos de ofertas: Control y segmentación](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+
+Para obtener información sobre el uso de [!UICONTROL Automated Personalization] informes (incluido el [!UICONTROL Nivel de oferta] informe), consulte [Informes de resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+
