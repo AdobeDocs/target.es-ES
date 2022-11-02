@@ -4,10 +4,10 @@ description: Aprenda a utilizar grupos de informes de ofertas en Adobe [!DNL Tar
 title: ¿Puedo usar grupos de informes de ofertas en actividades de Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
+source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 47%
+source-wordcount: '698'
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ Cuando se usan grupos de informes, [!DNL Target] crea un modelo de personalizaci
 
 Si la configuración de la actividad no tiene datos suficientes para crear un modelo de personalización para cada oferta, los grupos de informes pueden ayudar a reducir los requisitos de datos que se deben usar [!UICONTROL Automated Personalization]. Los grupos de informes también pueden ayudar a resolver el problema de “inicio en frío” de las nuevas ofertas. Lo hacen agrupando ofertas similares, de modo que cada modelo disponga de más datos con los que trabajar. Los grupos de modelos también se pueden utilizar para actividades en las que se introducen nuevas ofertas regularmente en su actividad de AP.
 
-Este enfoque funciona bien si los visitantes responden de la misma manera a todas las ofertas de un grupo. Una práctica recomendada es agrupar aquellas ofertas a las que grupos de visitantes similares responden de forma similar. En otras palabras, agrupe las ofertas con tasas de conversión similares. Nunca debe colocar todas las ofertas en un solo grupo de informes. Agrupar todas las ofertas o agrupar ofertas con tasas de conversión muy diferentes probablemente reduzca la eficacia del [!DNL Target] modelos de personalización.
+Este enfoque funciona bien si los visitantes responden de la misma manera a todas las ofertas de un grupo. Una práctica recomendada es agrupar aquellas ofertas a las que grupos de visitantes similares responden de forma similar. En otras palabras, agrupe las ofertas con tasas de conversión similares. Nunca debe colocar todas las ofertas en un solo grupo de informes. Agrupar todas las ofertas o agrupar ofertas con diferentes tasas de conversión probablemente reduzca la eficacia del [!DNL Target] modelos de personalización.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
 
    ![Icono del grupo de informes](/help/main/c-reports/assets/ap_manage_content_2.png)
 
-1. (Condicional) Incluya experiencias en lote en un grupo de informes seleccionando la casilla de las experiencias relevantes y haciendo clic en el icono de la carpeta **[!UICONTROL Grupo de informes]**, en la esquina superior derecha del cuadro de diálogo.
+1. (Condicional) Incluya experiencias en lote en un grupo de informes seleccionando la casilla de las experiencias relevantes y haciendo clic en el botón **[!UICONTROL Grupo de informes]** en la esquina superior derecha del cuadro de diálogo.
 
    ![Icono del grupo de informes](/help/main/c-reports/assets/ap_manage_content_3.png)
 
@@ -49,9 +49,17 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
 
    O
 
-   Para crear un nuevo grupo de informes al que asignar la oferta seleccionada, elija **[!UICONTROL Nuevo]**, asigne un nombre al nuevo grupo de informes y haga clic en **[!UICONTROL Aplicar]**.
+   Para crear un grupo de informes al que asignar la oferta seleccionada, seleccione **[!UICONTROL Nuevo]**, asigne un nombre al nuevo grupo de informes y haga clic en **[!UICONTROL Aplicar]**.
 
    ![Nuevo icono para crear un nuevo grupo de informes](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+Puede usar la variable [!UICONTROL Ubicación] para filtrar ofertas por ubicación. Utilice la lista [!UICONTROL Grupo de informes] para filtrar ofertas por grupos de informes. Ahora también puede usar la lista [!UICONTROL Grupo de informes] para filtrar por [!UICONTROL Ofertas no asignadas], de modo que puede asignar un grupo de informes a una oferta que no está actualmente asignada a ningún grupo de informes.
+
+Para obtener información sobre la segmentación de una oferta para audiencias específicas, consulte [Ofertas PA de Target](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+
+## Advertencias 
+
+* Es importante comprender que los grupos de informes afectan a la forma en que [!DNL Target] crea sus modelos. Como resultado, [!DNL Adobe] recomienda utilizar grupos de informes solo si planea reemplazar o agregar nuevas ofertas mientras una actividad está activa. Si se introduce una oferta nueva en una actividad activa, al colocar la oferta nueva en un grupo con ofertas similares existentes, la máquina puede utilizar los datos ya recopilados para las demás ofertas de su grupo para obtener información sobre la oferta nueva. Nunca debe colocar todas las ofertas en un solo grupo de informes.
 
 ## Ver ofertas en un grupo de informes
 
