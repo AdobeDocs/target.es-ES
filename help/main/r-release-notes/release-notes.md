@@ -6,9 +6,9 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
-workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target] Estándar/Prémium 22.10.3 (versión escalonada del 25 al 27 de octubre de 2022)
+## [!DNL Target] Standard/Premium 22.10.3 (versión escalonada del 25 al 27 de octubre de 2022)
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
