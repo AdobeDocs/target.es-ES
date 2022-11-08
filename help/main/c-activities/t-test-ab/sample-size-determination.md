@@ -4,10 +4,10 @@ description: Obtenga información sobre cuánto tiempo se debe ejecutar una prue
 title: ¿Durante cuánto tiempo debo ejecutar una prueba A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '3072'
-ht-degree: 59%
+source-wordcount: '3085'
+ht-degree: 58%
 
 ---
 
@@ -49,7 +49,7 @@ Es importante determinar un tamaño de muestra adecuado (número de visitantes) 
 
 Esto puede dar como resultado muchos falsos positivos, lo que lleva a la implementación de ofertas que no ofrecen el alza predicha al final. Un alza deficiente en sí es un resultado insatisfactorio, pero una consecuencia aún más grave es que, con el tiempo, la incapacidad para predecir con precisión el alza erosiona la confianza de la organización en las pruebas como práctica.
 
-En este artículo se comentan los factores que deben equilibrarse cuando se determina un tamaño de muestra y se presenta una herramienta en hoja de cálculo que permite calcular un tamaño adecuado de la muestra. Si calcula el tamaño de la muestra mediante la calculadora de tamaño de la muestra (encontrará el vínculo más arriba) antes de iniciar cualquier prueba A/B, tendrá la garantía de que siempre ejecutará pruebas A/B de alta calidad que cumplan los estándares estadísticos.
+Este artículo analiza los factores que deben equilibrarse cuando se determina un tamaño de muestra e introduce una calculadora para estimar un tamaño de muestra adecuado. Si calcula el tamaño de la muestra mediante la calculadora de tamaño de la muestra (encontrará el vínculo más arriba) antes de iniciar cualquier prueba A/B, tendrá la garantía de que siempre ejecutará pruebas A/B de alta calidad que cumplan los estándares estadísticos.
 
 Hay cinco parámetros definidos por el usuario que definen una prueba A/B. Estos parámetros están interconectados, así que cuatro de ellos están establecidos y el quinto se puede calcular:
 
@@ -58,6 +58,11 @@ Hay cinco parámetros definidos por el usuario que definen una prueba A/B. Estos
 * Alza mínima fiable detectable
 * Tasa de conversión de línea de base
 * Número de visitantes
+
+>[!IMPORTANT]
+>
+>Para obtener resultados precisos, debe volver a cargar la página antes de cambiar los números de parámetro.
+
 
 Para una prueba A/B, el analista fija la relevancia estadística, la eficacia estadística, el alza mínima fiable detectable y la tasa de conversión de línea de base, y el número de visitantes se calcula a partir de estos valores. Este artículo analiza estos elementos y ofrece directrices para determinar estas métricas para una prueba específica.
 

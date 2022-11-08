@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo interpretar el informe Resumen de 
 title: ¿Cómo utilizo los informes de resumen de Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 34%
@@ -52,7 +52,7 @@ Haga clic en el algoritmo de la experiencia (bosque aleatorio o control) para ve
 >
 >Un icono de reloj indica que el modelo de algoritmo aún se está generando. Un icono de marca de verificación indica que se ha establecido el algoritmo base.
 
-Las ofertas se pueden mostrar dentro de [grupos de informes](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md), y estos grupos de informes pueden contraerse y expandirse. Haga clic en **[!UICONTROL Control]** o **[!UICONTROL Segmentado]** en la tabla para ver la información resumida por grupos de informes, en lugar de por ofertas.
+Las ofertas se pueden mostrar dentro de [grupos de informes](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md), y estos grupos de informes pueden contraerse y expandirse. Haga clic en **[!UICONTROL Control]** o **[!UICONTROL Segmentado]** en la tabla para ver la información resumida por grupos de informes, en lugar de por ofertas.
 
 ## Segmentos automatizados
 

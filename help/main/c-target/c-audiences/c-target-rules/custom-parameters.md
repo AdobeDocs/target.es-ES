@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo pasar parámetros personalizados a
 title: ¿Puedo segmentar visitantes en función de parámetros personalizados?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 41%
+source-wordcount: '497'
+ht-degree: 40%
 
 ---
 
@@ -29,6 +29,10 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
    * Si recuerda el nombre del mbox, pero no el nombre del parámetro, use la variable [!UICONTROL Filtrar por] lista desplegable para filtrar por un mbox conocido que pase el parámetro deseado.
 
    Con ninguno de estos métodos existe vínculo entre el mbox y el parámetro. La audiencia funciona en función del parámetro en todos los mboxes que pasan ese parámetro.
+
+   >[!NOTE]
+   >
+   >El mbox que seleccione en el [!UICONTROL Filtrar por] la lista desplegable no se guarda al crear la actividad. Esta opción le permite filtrar los parámetros en función del mbox seleccionado.
 
    Si edita una audiencia existente, el criterio de filtrado se muestra con el nombre de mbox que se suministró durante la creación.
 
