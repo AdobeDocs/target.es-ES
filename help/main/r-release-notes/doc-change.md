@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 93%
+source-wordcount: '1596'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,6 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Se ha actualizado la descripción del `adobe_mc_sdid` en la tabla. |
 |  | [Resolución de problemas de las actividades](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Se ha añadido una nueva sección: &quot;Después de la conversión de la actividad, el visitante no está en ninguna experiencia&quot;. |
 |  | [Parámetros personalizados](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Se ha añadido la nota de que el mbox que seleccione en el [!UICONTROL Filtrar por] la lista desplegable no se guarda al crear la actividad. Esta opción le permite filtrar los parámetros en función del mbox seleccionado. |
-|  | [Límites de Target](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters) | Se ha corregido la longitud máxima del valor del parámetro de perfil. El límite es de 256 caracteres. |
 | 2 de noviembre | Problemas conocidos y problemas resueltos | Se ha eliminado la página y se han trasladado los problemas relevantes a las páginas adecuadas para que la información esté en contexto. |
 | 25 de octubre | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 22.10.3 de [!DNL Target Standard/Premium]. |
 | 19 de octubre | [Afinidad de la categoría](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Se agregó una nota que explica la puntuación cuando se pasan varias categorías dentro de una sola llamada de mBox. |

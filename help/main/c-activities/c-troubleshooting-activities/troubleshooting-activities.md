@@ -4,9 +4,9 @@ description: Encontrará sugerencias para la resolución de problemas en caso de
 title: ¿Cómo puedo solucionar problemas de actividades?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '863'
 ht-degree: 50%
 
 ---
@@ -19,7 +19,7 @@ Si su actividad de [!DNL Adobe Target] no aparece en su sitio, estas sugerencias
 >
 >Además de la siguiente información de solución de problemas, consulte [Solución de problemas de Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) para encontrar vínculos a temas de solución de problemas adicionales, preguntas frecuentes y otra información útil sobre la solución de problemas y otras funciones en [!DNL Adobe Target].
 
-Las secciones siguientes contienen problemas que podrían encontrar con las soluciones sugeridas.
+Las secciones siguientes contienen problemas que pueden encontrar con las soluciones sugeridas.
 
 ## He creado una actividad con la IU de [!DNL Target] y no puedo actualizarla mediante la API.
 
@@ -136,6 +136,6 @@ Cuando se realizan determinadas acciones, como activar una actividad fuera de la
 
 ## Después de la conversión de la actividad, el visitante no está en ninguna experiencia.
 
-Si la métrica de conversión de la actividad para cumplir los requisitos de una experiencia se envía del mismo modo [!DNL Target] solicitud como calificación de actividad, es posible que el visitante no esté en ninguna experiencia después de enviar la solicitud. En este caso, el visitante ve el contenido predeterminado. [!DNL Adobe] recomienda no enviar conversión y calificación de actividad en la misma solicitud.
+En casos excepcionales, si la métrica de conversión de la actividad para cumplir los requisitos de una experiencia se envía en la misma solicitud que la calificación de la actividad, es posible que el visitante no esté en ninguna experiencia después de que se envíe la solicitud. En este caso, el visitante ve el contenido predeterminado y el ID de experiencia capturado mediante tokens sería -1. [!DNL Adobe] no recomienda enviar la calificación y conversión de la actividad en el mismo [!DNL Target] solicitud.
 
-Si desea enviar ambas configuraciones en la misma solicitud, puede utilizar [!UICONTROL Configuración avanzada] para especificar que el visitante permanecerá en la misma experiencia después de la conversión.
+Si desea enviar ambas métricas en la misma solicitud, puede utilizar [!UICONTROL Configuración avanzada] para especificar que el visitante permanecerá en la misma experiencia después de la conversión.
