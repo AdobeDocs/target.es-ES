@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;tamaño de muestra;calculadora de tamaño de muestra;asignación automática;asignación automática;calculadora
-description: Obtenga información sobre cuánto tiempo se debe ejecutar una prueba A/B. Una prueba A/B correcta en el Adobe [!DNL Target] requiere visitantes suficientes (tamaño de muestra) para mejorar la tasa de conversión.
+description: Obtenga información sobre cuánto tiempo se debe ejecutar una prueba A/B. Una prueba A/B correcta en [!DNL Adobe Target] requiere visitantes suficientes (tamaño de muestra) para mejorar la tasa de conversión.
 title: ¿Durante cuánto tiempo debo ejecutar una prueba A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
+source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3092'
 ht-degree: 57%
 
 ---
@@ -41,9 +41,9 @@ Para obtener más información, consulte [Información general de asignación au
 
 Si decide utilizar un manual [!UICONTROL Prueba A/B] actividad en lugar de [!UICONTROL Asignación automática], el [!DNL Target] La calculadora de tamaño de la muestra le ayuda a determinar el tamaño de la muestra necesario para realizar una prueba con éxito. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta útil. Uso de la calculadora para un [!UICONTROL Asignación automática] la actividad es opcional porque [!UICONTROL Asignación automática] declara un ganador para usted. La calculadora proporciona una estimación aproximada del tamaño de la muestra necesario. Siga leyendo para obtener más información sobre cómo usar la calculadora.
 
-Antes de configurar la prueba A/B, acceda a la [!DNL Adobe Target] [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Antes de configurar la prueba A/B, acceda a la [!DNL Adobe Target] [Calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es).
 
-![Calculadora de tamaño de muestra de Adobe Target.](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es)
+![Calculadora de tamaño de muestra de Adobe Target.](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 Es importante determinar un tamaño de muestra adecuado (número de visitantes) antes de realizar una prueba A/B para establecer el tiempo durante el cual se debe ejecutar la actividad antes de evaluar los resultados. La simple monitorización de la actividad hasta que se alcance la relevancia estadística hace que el intervalo de confianza se subestime enormemente, por lo que la prueba no es fiable. La intuición que hay tras el resultado es que, en el caso de que se detecte un resultado estadísticamente relevante, se detendrá la prueba y se declarará un ganador. Sin embargo, si el resultado no es estadísticamente relevante, se permite que la prueba siga realizándose. Este procedimiento favorece enormemente un resultado positivo, que aumenta la tasa de falsos positivos y, por tanto, distorsiona el nivel de relevancia estadística de la prueba.
 
