@@ -4,10 +4,10 @@ description: Obtenga información sobre cuánto tiempo se debe ejecutar una prue
 title: ¿Durante cuánto tiempo debo ejecutar una prueba A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 58%
+source-wordcount: '3088'
+ht-degree: 57%
 
 ---
 
@@ -41,7 +41,7 @@ Para obtener más información, consulte [Información general de asignación au
 
 Si decide utilizar un manual [!UICONTROL Prueba A/B] actividad en lugar de [!UICONTROL Asignación automática], el [!DNL Target] La calculadora de tamaño de la muestra le ayuda a determinar el tamaño de la muestra necesario para realizar una prueba con éxito. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta útil. Uso de la calculadora para un [!UICONTROL Asignación automática] la actividad es opcional porque [!UICONTROL Asignación automática] declara un ganador para usted. La calculadora proporciona una estimación aproximada del tamaño de la muestra necesario. Siga leyendo para obtener más información sobre cómo usar la calculadora.
 
-Antes de configurar la prueba A/B, acceda a Adobe Target [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es).
+Antes de configurar la prueba A/B, acceda a la [!DNL Adobe Target] [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ![Calculadora de tamaño de muestra de Adobe Target.](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -61,8 +61,7 @@ Hay cinco parámetros definidos por el usuario que definen una prueba A/B. Estos
 
 >[!IMPORTANT]
 >
->Para obtener resultados precisos, debe volver a cargar la página antes de cambiar los números de parámetro.
-
+>Para obtener resultados precisos, debe volver a cargar la página antes de cambiar los números de parámetro. Repita este proceso cada vez que cambie algún número de parámetro.
 
 Para una prueba A/B, el analista fija la relevancia estadística, la eficacia estadística, el alza mínima fiable detectable y la tasa de conversión de línea de base, y el número de visitantes se calcula a partir de estos valores. Este artículo analiza estos elementos y ofrece directrices para determinar estas métricas para una prueba específica.
 

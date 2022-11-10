@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo interpretar los resultados de una 
 title: ¿Cómo interpreto los informes de asignación automática?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1222'
 ht-degree: 44%
 
 ---
@@ -47,7 +47,7 @@ Las pruebas A/B normales calculan la confianza según los valores p. La asignaci
 
 >[!IMPORTANT]
 >
->Target muestra un ganador después de un número mínimo predefinido de conversiones; sin embargo, la decisión final de elegir al ganador siempre debe estar en los resultados de Adobe Target [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es). Target no tiene en cuenta las tasas de conversión base de un sitio y otros aspectos importantes que se incluyen en la calculadora para determinar la duración de la actividad. Como resultado, Target podría mostrar un ganador antes de lo justificado, basándose en un número mínimo de conversiones. Para obtener más información, consulte [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target muestra un ganador después de un número mínimo predefinido de conversiones; sin embargo, la decisión final de elegir al ganador debe basarse siempre en los resultados del [!DNL Adobe Target] Calculadora de tamaño de muestra. [!DNL Target] no tiene en cuenta las tasas de conversión base de un sitio y otros aspectos importantes que se incluyen en la calculadora para determinar la duración de la actividad. Como resultado, Target podría mostrar un ganador antes de lo justificado, basándose en un número mínimo de conversiones. Para obtener más información, consulte [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Comprender los informes de alza y confianza en las actividades de asignación automática {#lift-confidence}
 
@@ -75,7 +75,8 @@ Alguna de las siguientes razones describe la razón por la que se muestra un 0 
 
    La asignación automática muestra la probabilidad de que una experiencia indicada sea la auténtica ganadora de todas las experiencias de la actividad. Esto significa que solo una experiencia ganadora (que tiene más probabilidades de ganar) tendrá un valor de confianza diferente a cero. El resto tienen más probabilidades de perder y mostrarán un 0 %.
 
-* La asignación automática solo empieza a mostrar la confianza después de que la experiencia ganadora reúna un 60 % de confianza. Estos niveles de confianza suelen aparecer en aproximadamente la mitad del tiempo que tardaría una prueba A/B normal en completarse (aunque esto no está garantizado). Para determinar cuánto tiempo tarda en ejecutarse una prueba A/B normal, utilice un [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): tasa de conversión de plug-control en &quot;Tasa de conversión de línea de base&quot;, &quot;5 %&quot; para &quot;Alza&quot; y &quot;95 %&quot; para &quot;Confianza&quot;. Normalmente, la confianza empieza a mostrarse después de que cada experiencia haya reunido al menos un 50 % de las muestras por experiencia necesarias. Esto le dará una idea de cuándo empezará a aparecer la confianza.
+* La asignación automática solo empieza a mostrar la confianza después de que la experiencia ganadora reúna un 60 % de confianza. Estos niveles de confianza suelen aparecer en aproximadamente la mitad del tiempo que tardaría una prueba A/B normal en completarse (aunque esto no está garantizado). Para determinar cuánto tiempo tarda en ejecutarse una prueba A/B normal, utilice la variable [!DNL Adobe Target] [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6): tasa de conversión de plug-control en &quot;Tasa de conversión de línea de base&quot;, &quot;5 %&quot; para &quot;Alza&quot; y &quot;95 %&quot; para &quot;Confianza&quot;. Normalmente, la confianza empieza a mostrarse después de que cada experiencia haya reunido al menos un 50 % de las muestras por experiencia necesarias. Esto le dará una idea de cuándo empezará a aparecer la confianza.
+
 * Si el informe muestra un 0 % en el panel, es probable que sea pronto para la actividad.
 
 ### ¿Están disponibles los distintivos “Sin ganador”, “Ganador” y “estrella” para actividades de [!UICONTROL Asignación automática] que utilizan [!UICONTROL Analytics como fuente de creación de informes] (A4T)?

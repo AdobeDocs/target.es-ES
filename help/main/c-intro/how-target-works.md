@@ -4,10 +4,10 @@ description: Descubra cómo funciona  [!DNL Adobe Target] , incluida informació
 title: ¿Cómo funciona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 0d00315b7460a36aceaa4d4d0ce4bb5402824c73
-workflow-type: ht
-source-wordcount: '2568'
-ht-degree: 100%
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+workflow-type: tm+mt
+source-wordcount: '2583'
+ht-degree: 98%
 
 ---
 
@@ -178,7 +178,7 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
    [!DNL Adobe] sigue buscando soluciones viables para cumplir completamente con las directrices de los motores de búsqueda. Para los clientes que deben utilizar direcciones URL independientes para realizar pruebas, [!DNL Adobe] está seguro de que la correcta implementación de las etiquetas canónicas mitigará el riesgo asociado con este método.
 
-* **Realizar experimentos solo cuando sea necesario**: [!DNL Adobe] cree que “cuando sea necesario” significa cuando haya que alcanzar la relevancia estadística. [!DNL Target] [sugiere prácticas recomendadas](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es) para determinar el momento en que una prueba ha alcanzado este punto. [!DNL Adobe] le recomienda que incorpore la implementación incrustada en el código de las pruebas ganadoras en el flujo de trabajo de pruebas y le asigne los recursos apropiados.
+* **Realizar experimentos solo cuando sea necesario**: [!DNL Adobe] cree que “cuando sea necesario” significa cuando haya que alcanzar la relevancia estadística. [!DNL Target] proporciona prácticas recomendadas y la variable [!DNL Adobe Target] [Calculadora de tamaño de muestra] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) para determinar si la prueba ha alcanzado este punto. [!DNL Adobe] le recomienda que incorpore la implementación incrustada en el código de las pruebas ganadoras en el flujo de trabajo de pruebas y le asigne los recursos apropiados.
 
    No se recomienda usar la plataforma [!DNL Target] para “publicar” pruebas ganadoras como solución permanente. Si la prueba ganadora se publica para el 100 % de los usuarios el 100 % de las veces, este método se puede utilizar mientras se completa el proceso de incrustar en el código la prueba ganadora.
 
