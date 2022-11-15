@@ -4,10 +4,10 @@ description: Vea una lista de varios perfiles, variables y parámetros que son �
 title: ¿Qué perfiles, variables y parámetros se utilizan en Target?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 85%
+source-wordcount: '596'
+ht-degree: 83%
 
 ---
 
@@ -39,9 +39,8 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | user.header(&#39;connection&#39;) | Conexión del servidor. Por ejemplo: keep-live |
 | user.header(&#39;referrer&#39;) | Dirección URL del sitio web de la página actual del visitante. No funciona con Internet Explorer. |
 | user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
-| user.parameter | Atributos de perfil persistentes creados desde scripts de perfil. También hace referencia a perfiles del “sistema” como la geolocalización, el recuento de visitas, etc. |
+| user.parameter | Atributos de perfil persistentes creados desde scripts de perfil. También hace referencia a perfiles del &quot;sistema&quot; como la geolocalización, el recuento de visitas, etc. |
 | profile.get(&#39;param_name&#39;) | La forma correcta de obtener un parámetro de perfil para utilizarlo en un script de perfil es el método profile.get(&#39;param_name&#39;) . |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Los parámetros de mbox que se vuelven persistentes debido a su prefijo perfil.  prefix. |
