@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 100%
+source-wordcount: '1615'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 16 de noviembre | [Anuncios y eventos de Adobe Target](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información de registro para el siguiente evento:<ul><li>[!DNL Adobe Target] Termina de café Q&amp;A de la comunidad (29 de noviembre)</li></ul> |
 | 8 de noviembre | [¿Durante cuánto tiempo se debe ejecutar una prueba A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Se ha añadido una nota importante sobre que, para obtener resultados precisos, debe recargar la página antes de cambiar los números de parámetros en la[!DNL Adobe Target] [!UICONTROL Calculadora de tamaño de muestra]. También se ha agregado una nota en la propia [calculadora](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es){target=_blank}. |
 |  | [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Se ha actualizado la descripción del parámetro `adobe_mc_sdid` en la tabla. |
 |  | [Resolución de problemas de las actividades](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Se ha añadido una nueva sección: “Después de la conversión de la actividad, el visitante no está en ninguna experiencia”. |
