@@ -4,14 +4,14 @@ description: Descubra cómo una actividad de segmentación automática en [!DNL 
 title: ¿Qué es una actividad de segmentación automática?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1989'
 ht-degree: 66%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Información general sobre la segmentación automática
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Segmentación automática] información general
 
 [!UICONTROL Segmentación automática] actividades en [!DNL Adobe Target] utilice aprendizaje automático avanzado para seleccionar entre varias experiencias de alto nivel de rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. La segmentación automática proporciona la experiencia más adaptada a cada visitante en función del perfil del cliente individual y el comportamiento de visitantes anteriores con perfiles similares.
 
@@ -46,7 +46,7 @@ Al contrario que en una actividad A/B, en la que la asignación de experiencias 
 Hay algunas consideraciones importantes que debe tener en cuenta al utilizar [!UICONTROL Segmentación automática]:
 
 * No puede cambiar una actividad específica de [!UICONTROL Segmentación automática] a Automated Personalization y viceversa.
-* No puede pasar de la asignación de tráfico manual (prueba A/B tradicional) a [!UICONTROL Segmentación automática]y viceversa después de que una actividad esté activa.
+* No puede pasar de la asignación de tráfico manual (prueba A/B tradicional) a [!UICONTROL Segmentación automática]y viceversa después de guardar una actividad como borrador.
 * Se ha creado un modelo para identificar el rendimiento de la estrategia personalizada frente al tráfico servido aleatoriamente frente al envío de todo el tráfico a la experiencia ganadora general. Este modelo solo tiene en cuenta las visitas y las conversiones en el entorno predeterminado.
 
    El tráfico de un segundo conjunto de modelos se crea para cada grupo de modelos (AP) o experiencia (AT). Para cada uno de estos modelos, se tienen en cuenta las visitas y conversiones en todos los entornos.
