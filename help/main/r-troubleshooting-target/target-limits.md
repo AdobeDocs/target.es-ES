@@ -5,9 +5,9 @@ title: ¿Cuáles son los distintos caracteres, tamaños y otros límites de [!DN
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 97d53f25261f30d3255323fba7efff51744cb74e
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1346'
 ht-degree: 96%
 
 ---
@@ -271,7 +271,7 @@ A continuación se describen los límites de tamaño que se aplican a las oferta
 
 * **Límite recomendado**: 2000 caracteres.
 
-   Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado larga, producirá un error antes de llegar a Adobe Target.
+   Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado larga, producirá un error antes de llegar a [!DNL Adobe Target].
 
 ## Perfiles de scripts de comandos
 
