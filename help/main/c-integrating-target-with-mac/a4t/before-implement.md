@@ -1,13 +1,13 @@
 ---
-keywords: Recomendaciones
+keywords: Recommendations
 description: Conozca los requisitos de implementación de Analytics para [!DNL Target] (A4T) y qué considerar antes de implementar esta integración.
 title: ¿Qué Debo Saber Antes De Implementar A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 28%
+source-wordcount: '995'
+ht-degree: 29%
 
 ---
 
@@ -25,7 +25,7 @@ Antes de decidir si usará esta integración, lea el contenido de estas seccione
 
 >[!IMPORTANT]
 >
->Antes de empezar a usar A4T, debe solicitar que su cuenta esté aprovisionada para la integración. Utilice la variable [Formulario de aprovisionamiento de integraciones de Marketing Cloud](https://www.adobe.com/go/audiences) para solicitar el aprovisionamiento.
+>Antes de empezar a usar A4T, debe solicitar que su cuenta esté aprovisionada para la integración. Utilice la variable [Formulario de aprovisionamiento de integraciones de Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} para solicitar el aprovisionamiento.
 
 Esta integración con A4T requiere que implemente las siguientes versiones de las bibliotecas (o versiones más recientes), en función de si quiere redireccionar ofertas con A4T o no.
 
@@ -97,7 +97,7 @@ Hay casos en los que es posible que desee tener más control sobre cuándo y có
 
 ## Audiencias compartidas
 
-Al rellenar el [Formulario de aprovisionamiento de integraciones de Marketing Cloud](https://www.adobe.com/go/audiences), tenga en cuenta la siguiente información importante sobre la [!UICONTROL Audiencias compartidas] opción que aparece en &quot;[!UICONTROL Para qué capacidades solicita el aprovisionamiento]?&quot;
+Al rellenar el [Formulario de aprovisionamiento de integraciones de Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tenga en cuenta la siguiente información importante sobre la variable [!UICONTROL Audiencias compartidas] opción que aparece en &quot;[!UICONTROL Para qué capacidades solicita el aprovisionamiento]?&quot;
 
 ![Formulario de solicitud](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '34836'
+source-wordcount: '34852'
 ht-degree: 96%
 
 ---
@@ -3755,11 +3755,11 @@ Esta versión incluye las siguientes funciones nuevas:
  <tbody> 
   <tr> 
    <td colname="col1"> Mejora de los informes de Adobe Analytics para Adobe Target </td> 
-   <td colname="col2"> Los clientes de Adobe Analytics pueden seleccionar Analytics como fuente de informes predeterminada durante <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">el proceso de configuración de prueba</a>. Ya no es necesaria la selección de todas las métricas o audiencias de éxito que quiere utilizar para filtrar sus resultados. En los informes, puede seleccionar cualquier métrica o segmento de audiencia de éxito definida en Analytics y aplicarla de manera retroactiva a sus informes para realizar filtros amplios o análisis en profundidad de sus resultados de optimización. <p> <p>Nota: Para solicitar acceso a esta función, visite <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>. </p> </p> </td> 
+   <td colname="col2"> Los clientes de Adobe Analytics pueden seleccionar Analytics como fuente de informes predeterminada durante <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">el proceso de configuración de prueba</a>. Ya no es necesaria la selección de todas las métricas o audiencias de éxito que quiere utilizar para filtrar sus resultados. En los informes, puede seleccionar cualquier métrica o segmento de audiencia de éxito definida en Analytics y aplicarla de manera retroactiva a sus informes para realizar filtros amplios o análisis en profundidad de sus resultados de optimización. <p> <p>Nota: Para solicitar acceso a esta función, visite <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Perfil de marketing principal de audiencia en tiempo real </td> 
-   <td colname="col2"> Aproveche el perfil de marketing principal que unifica el ID y los datos de los visitantes en un único perfil que se puede activar para utilizarlo en todos los programas. Una casilla de verificación durante el proceso de creación de segmentos en Adobe Analytics permite que el segmento esté disponible dentro de la biblioteca de audiencias personalizada de Adobe Target. Un segmento creado en Analytics o Audience Manager puede utilizarse para segmentar visitantes en Target. <p> <p>Nota: Para solicitar acceso a esta función, visite <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>. </p> </p> </td> 
+   <td colname="col2"> Aproveche el perfil de marketing principal que unifica el ID y los datos de los visitantes en un único perfil que se puede activar para utilizarlo en todos los programas. Una casilla de verificación durante el proceso de creación de segmentos en Adobe Analytics permite que el segmento esté disponible dentro de la biblioteca de audiencias personalizada de Adobe Target. Un segmento creado en Analytics o Audience Manager puede utilizarse para segmentar visitantes en Target. <p> <p>Nota: Para solicitar acceso a esta función, visite <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tipo de actividad de segmentación de experiencias </td> 
