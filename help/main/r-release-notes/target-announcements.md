@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y ev
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1990'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Para obtener más información, consulte la [Publicación de blog de Adobe Exper
 ## Coffee break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (29 de noviembre)
 
 * **Martes, 29 de noviembre de 2022**
-* **8:00 a 9:00 a.m. (PST GMT-8)**
+* **De 8:00 a 9:00 a.m. (PST GMT-8)**
 * **[Información de registro](https://adobe.ly/3UtQoxv){target=_blank}**
 
-Nos acompañará Cristinel Anastasoaie, responsable de producto sénior de [!DNL Adobe Target], que responderá a sus preguntas relacionadas con el [!DNL Adobe Target] seminario web en [Personalización impulsada por IA y Recommendations](#AI).
+Nos acompañará Cristinel Anastasoaie, responsable de producto sénior de [!DNL Adobe Target], que responderá a sus preguntas relacionadas con el [!DNL Adobe Target] seminario web [Personalización impulsada por IA y recomendaciones](#AI).
 
 No olvide revisar la grabación del seminario web y, a continuación, plantear sus preguntas de seguimiento para obtener información exhaustiva, explicaciones más detalladas y sugerencias estratégicas para sus casos de uso únicos.
 
