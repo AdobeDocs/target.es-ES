@@ -4,7 +4,7 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de documentación de [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 95%
@@ -19,7 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 28 de noviembre | [Información general sobre la API de modelos (Inclusión en la lista de bloqueados)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} en la sección *Guía para desarrolladores de Adobe Target*. | Nueva API de modelos.<br>Las funciones se pueden bloquear de [!DNL Target] algoritmos de aprendizaje automático que impiden su uso en [!UICONTROL Segmentación automática] o [!UICONTROL Automated Personalization] modelo o actividad. |
+| 28 de noviembre | [Información general sobre la API de modelos (Inclusión en la lista de bloqueados)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} en la sección *Guía para desarrolladores de Adobe Target*. | Nueva API de modelos.<br>Las funciones se pueden bloquear de [!DNL Target] algoritmos de aprendizaje automático que impiden su uso en [!UICONTROL Segmentación automática] o [!UICONTROL Automated Personalization] modelo o actividad. |
 | 23 de noviembre | [Antes de implementar Analytics for Target (A4T) con at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Se ha actualizado el vínculo a la variable [Formulario de aprovisionamiento de integraciones de Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 de noviembre | [Anuncios y eventos de Adobe Target](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información de registro para el siguiente evento:<ul><li>[!DNL Adobe Target] Coffee Break de preguntas y respuestas de la comunidad (29 de noviembre)</li></ul> |
 | 8 de noviembre | [¿Durante cuánto tiempo se debe ejecutar una prueba A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Se ha añadido una nota importante sobre que, para obtener resultados precisos, debe recargar la página antes de cambiar los números de parámetros en la [!DNL Adobe Target] [!UICONTROL Calculadora de tamaño de muestra]. También se ha agregado una nota en la propia [calculadora](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es){target=_blank}. |
