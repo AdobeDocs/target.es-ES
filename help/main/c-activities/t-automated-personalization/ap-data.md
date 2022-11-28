@@ -4,10 +4,10 @@ description: Descubra qué Adobe de datos [!DNL Target] recopila y utiliza para 
 title: ¿Qué datos se recopilan para crear algoritmos de aprendizaje automático?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '2085'
-ht-degree: 52%
+source-wordcount: '2029'
+ht-degree: 53%
 
 ---
 
@@ -48,9 +48,7 @@ La tabla siguiente muestra los datos proporcionados por el cliente recopilados p
 
 Las funciones se pueden bloquear de [!DNL Target] algoritmos de aprendizaje automático que impiden su uso en [!UICONTROL Segmentación automática] o [!UICONTROL Automated Personalization] modelo o actividad.
 
-Para bloquear una categoría de funciones de [!DNL Target] algoritmos de aprendizaje automático, póngase en contacto con [Servicio de atención al cliente de Adobe](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) y especifique las categorías de funciones que desea bloquear, utilizando los Prefijos del sistema proporcionados anteriormente.
-
-Para bloquear una o varias funciones específicas de [!DNL Target] algoritmos de aprendizaje automático, póngase en contacto con [Servicio de atención al cliente de Adobe](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) y especifique los nombres específicos de las funciones que deben bloquearse, utilizando los nombres de sistema que se indican a continuación. Las secciones siguientes contienen información detallada sobre los distintos tipos de datos, incluidos nombres de atributos, descripciones y valores de muestra.
+Para obtener más información, consulte [Información general sobre la API de modelos (Inclusión en la lista de bloqueados)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} en la sección *Guía para desarrolladores de Adobe Target*.
 
 ## Datos de dispositivos y móviles {#device-mobile}
 
