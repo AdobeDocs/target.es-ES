@@ -5,14 +5,14 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
+source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1055'
 ht-degree: 94%
 
 ---
 
-# Notas de la versión de Target (actual)
+# [!DNL Target] Notas de la versión (actuales)
 
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
 
