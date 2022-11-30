@@ -5,10 +5,10 @@ title: ¿Puedo segmentar visitantes en función de la ubicación?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 50%
+source-wordcount: '1041'
+ht-degree: 41%
 
 ---
 
@@ -35,7 +35,7 @@ Los parámetros de ubicación geográfica permiten segmentar actividades y exper
    * [!UICONTROL DMA]
    * [!UICONTROL Operador de telefonía móvil]
 
-   La dirección IP de los visitantes se transmite con una solicitud de mbox, una vez por visita (sesión), para resolver los parámetros de segmentación geográfica para dichos visitantes.
+   La información geográfica de un visitante se determina a partir de la dirección IP de origen de un [!DNL Target] solicitud de ubicación (solicitud de mbox). La resolución de IP a regiones se realiza para la primera llamada de una nueva sesión. Esto significa que, si la dirección IP de un visitante cambia a mitad de la sesión de una visita, la información geográfica sigue basándose en la dirección IP de la primera llamada.
 
    Para [!UICONTROL Operador de telefonía móvil], [!DNL Target] utiliza los datos de registro de la dirección IP (a quién pertenece el bloque de direcciones IP) para determinar el operador de telefonía móvil correspondiente mediante [Códigos de país móviles (MCC) y códigos de red móviles (MNC)](https://www.mcc-mnc.com).
 
@@ -49,7 +49,7 @@ La siguiente ilustración muestra una audiencia que segmenta usuarios que accede
 
 ## Precisión {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La precisión de la segmentación geográfica depende de varios factores. Las conexiones WiFi son más precisas que las redes móviles. Cuando el visitante está usando una conexión de datos móviles, la precisión de la búsqueda geográfica puede verse afectada por la ubicación, la relación de datos del proveedor con [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) y otros factores. Las conexiones de redes basadas en torres celulares pueden ser menos precisas que las conexiones cableadas o WiFi. Además, la dirección IP de un visitante puede asignarse a la ubicación ISP del visitante, que puede no ser la misma que la ubicación real del visitante. Algunos problemas de geolocalización en dispositivos móviles se pueden resolver usando la variable [API de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La precisión de la segmentación geográfica depende de varios factores. Las conexiones WiFi son más precisas que las redes móviles. Cuando un visitante utiliza una conexión de datos móviles, la precisión de la búsqueda geográfica puede verse afectada por la ubicación, la relación de datos del proveedor con [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)y otros factores. Las conexiones de redes basadas en torres celulares pueden ser menos precisas que las conexiones cableadas o WiFi. Además, la dirección IP de un visitante puede asignarse a la ubicación ISP del visitante, que puede no ser la misma que la ubicación real del visitante. Algunos problemas de geolocalización en dispositivos móviles se pueden resolver usando la variable [API de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 En la tabla siguiente se muestra la precisión de la información geográfica basada en IP desde [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexiones a Internet cableadas o WiFi. DigitalEnvoy proporciona los datos más precisos de la industria. La precisión global es de más del 99,9 por ciento en el ámbito de país y de hasta el 97 por ciento en el ámbito de ciudad. La información de precisión no se aplica a redes basadas en torres celulares.
 
@@ -110,21 +110,29 @@ Las preguntas siguientes se plantean a menudo sobre la segmentación geográfica
 
 ### ¿Cómo especifico la latitud y la longitud?
 
++++Ver detalles
 * El valor de latitud y longitud debe ser un valor numérico en grados.
 * El valor de latitud y longitud puede tener una precisión máxima de cinco decimales.
 * El valor de latitud debe situarse entre -90 y 90.
 * El valor de longitud debe situarse entre -180 y 180.
 
++++
+
 ### ¿Cómo funciona la segmentación geográfica en los dispositivos móviles?
 
-La mayoría de los usuarios de dispositivos móviles acceden al contenido a través de una red WiFi, lo que significa que [!DNL Target]La segmentación geográfica basada en IP de es tan precisa como en un escritorio. Las conexiones basadas en torres celulares pueden ser menos exactas porque la dirección IP del visitante se basa en la torre de donde se está recibiendo la señal. Algunos problemas de geolocalización en dispositivos móviles se pueden resolver usando la variable [API de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
++++Ver detalles La mayoría de los usuarios de dispositivos móviles acceden al contenido a través de WiFi, lo que significa [!DNL Target]La segmentación geográfica basada en IP de es tan precisa como en un escritorio. Las conexiones basadas en torres celulares pueden ser menos exactas porque la dirección IP del visitante se basa en la torre de donde se está recibiendo la señal. Algunos problemas de geolocalización en dispositivos móviles se pueden resolver usando la variable [API de geolocalización](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+
++++
 
 ### ¿Cómo gestiona la función geográfica los visitantes de AOL?
 
-Debido a la forma en que AOL dirige su tráfico, [!DNL Target] solo puede dirigirse a ellos a nivel de país. Por ejemplo, una campaña dirigida a Francia se dirige correctamente a los usuarios de AOL de Francia. Sin embargo, una campaña dirigida a París no se dirige correctamente a los usuarios de AOL de París. Si desea realizar el enfoque específicamente para usuarios de AOL, puede establecer el campo de región en “aol”. De hecho, puede dirigirse a usuarios de AOL de EE. UU. si especifica dos condiciones de segmentación: un país que coincida exactamente con “united states” (Estados Unidos) y una región que coincida exactamente con “aol”.
++++Ver detalles Debido a la forma en que AOL dirige su tráfico, [!DNL Target] solo puede dirigirse a ellos a nivel de país. Por ejemplo, una campaña dirigida a Francia se dirige correctamente a los usuarios de AOL de Francia. Sin embargo, una campaña dirigida a París no se dirige correctamente a los usuarios de AOL de París. Si desea realizar el enfoque específicamente para usuarios de AOL, puede establecer el campo de región en “aol”. De hecho, puede dirigirse a usuarios de AOL de EE. UU. si especifica dos condiciones de segmentación: un país que coincida exactamente con “united states” (Estados Unidos) y una región que coincida exactamente con “aol”.
+
++++
 
 ### ¿Qué granularidad de ubicación ofrece el targeting geográfico?
 
++++Ver detalles
 * País: global
 * Estado/provincia/región: global
 * Ciudad: global
@@ -132,8 +140,11 @@ Debido a la forma en que AOL dirige su tráfico, [!DNL Target] solo puede dirigi
 * DMA/ITV (Reino Unido): EE. UU., Reino Unido
 * Operador de telefonía móvil - global
 
++++
+
 ### ¿Cómo puedo probar mis actividades si soy un usuario de una ubicación diferente?
 
++++Ver detalles
 * **at.js 1.*x***: Puede sustituir su dirección IP por una dirección IP de una ubicación diferente y usar la variable `mboxOverride.browserIp url` parámetro. Por ejemplo, si su empresa está en el Reino Unido, pero la campaña global está dirigida a visitantes de Auckland, Nueva Zelanda, utilice este estilo de URL suponiendo que `60.234.0.39` es una dirección IP de Auckland:
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
@@ -146,13 +157,19 @@ Debido a la forma en que AOL dirige su tráfico, [!DNL Target] solo puede dirigi
 
 * **at.js 2.*x***: Para anular su dirección IP por at.js 2.*x*, instale una extensión/complemento del explorador (como el encabezado X-Forwarded-For para Chrome o Firefox). Esta extensión le permite pasar el encabezado x-forward-for en las solicitudes de página.
 
++++
+
 ### ¿Cómo se asignan los territorios, como Puerto Rico y Hong Kong, a la estructura de segmentación geográfica?
 
-Puerto Rico, Hong Kong y otros territorios se tratan como valores de “País” independientes.
++++Ver detalles Puerto Rico, Hong Kong y otros territorios se tratan como valores &quot;País&quot; independientes.
+
++++
 
 ### Does [!DNL Target] ¿capturar (y almacenar) información como código postal cuando la actividad se segmenta con capacidades de segmentación por ubicación geográfica?
 
-No, [!DNL Target] utiliza datos geográficos solo durante la sesión y, a continuación, los datos se descartan.
++++Ver detalles No, [!DNL Target] utiliza datos geográficos solo durante la sesión y, a continuación, los datos se descartan.
+
++++
 
 ## Vídeo de formación: Creación de audiencias ![Distintivo del tutorial](/help/main/assets/tutorial.png)
 
