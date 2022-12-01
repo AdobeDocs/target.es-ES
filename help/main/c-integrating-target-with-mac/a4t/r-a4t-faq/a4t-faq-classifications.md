@@ -4,10 +4,10 @@ description: Encuentre respuestas a preguntas sobre las clasificaciones y el uso
 title: ¿Dónde puedo encontrar información sobre las clasificaciones con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 29%
+source-wordcount: '318'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ En este tema encontrará respuestas a preguntas que se plantean a menudo sobre l
 
 ## Después de usar la variable [!UICONTROL Importador de clasificaciones] para descargar clasificaciones, ¿cómo relaciono el valor post-tnt-action con el nombre de una actividad? {#section_6045DAC488B248418F430E663C38D001}
 
-Puede descargarse la clasificación para la cadena A4T/TNT del [importador de clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) de las herramientas de administración. En la lista de exportación, la variable se llama “TNT”. Los datos incluidos incluyen los nombres descriptivos de actividades, experiencias, etc.
++++Respuesta Puede descargar las clasificaciones para la cadena A4T/TNT desde las herramientas de administración [Importador de clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). La variable se denomina &quot;TNT&quot; en la lista de exportación. Los datos incluidos incluyen los nombres descriptivos de actividades, experiencias, etc.
 
 Este archivo de búsqueda resulta útil para los clientes que reciben [!DNL Adobe]Fuente de datos del flujo de navegación de . El archivo proporciona nombres descriptivos para las columnas `post_tnt` y `post_tnt_action`.
 
@@ -42,3 +42,5 @@ activityId:experienceId:targettype:algorithmId|event
 * El evento -1 o 65535 representa que el usuario se elimina de la actividad o experiencia. Esta situación suele ocurrir cuando el visitante se convierte. El visitante es liberado de la experiencia y ahora está disponible para cumplir los requisitos de cualquier otra experiencia.
 
 Puede importar el archivo de clasificación con frecuencia desde la interfaz de usuario mediante un [importación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) o [Importación de FTP](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). También puede incluir servicios de ingeniería para obtener el archivo como una tabla de búsqueda con una fuente de datos de secuencias de clic.
+
++++
