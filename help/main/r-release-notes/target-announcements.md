@@ -4,42 +4,26 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
-workflow-type: ht
-source-wordcount: '1990'
-ht-degree: 100%
+source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
+workflow-type: tm+mt
+source-wordcount: '1873'
+ht-degree: 95%
 
 ---
 
 # Anuncios y eventos de [!DNL Adobe Target]
 
-Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [!DNL Target] Sesiones de coffee break, [!DNL Target] serie de seminarios web, [!DNL Target] Sesiones de generador de habilidades, charlas de desarrollador y mucho más. Los vínculos de las grabaciones anteriores se incluyen si están disponibles.
+Anuncios e información sobre [!DNL Adobe Target] eventos, incluidos [!DNL Target] Sesiones de Coffee Break, [!DNL Target] serie de seminarios web, [!DNL Target] Sesiones de generador de habilidades, charlas de desarrollador y mucho más. Los vínculos de las grabaciones anteriores se incluyen si están disponibles.
 
 ## [!DNL Target] designado como líder en Magic Quadrant de Gartner para motores de personalización (2022)
 
-Gartner ha nombrado a [!DNL Adobe Target] como líder en su último Magic Quadrant para motores de personalización (PE) por quinto año consecutivo. [!DNL Adobe] también recibió puntuaciones muy altas y un aumento significativo año tras año en los tres casos de uso principales: Marketing digital, Comercio digital y Servicio y asistencia. [!DNL Target] recibió las puntuaciones más elevadas por las capacidades de prueba entre todos los proveedores evaluados.
+Gartner [!DNL Adobe Target] líder en su último Cuadrante Mágico para Motores de Personalización (PE) por quinto año consecutivo. [!DNL Adobe] también recibió puntuaciones muy altas y un aumento significativo año tras año en los tres casos de uso principales: Marketing digital, Comercio digital y Servicio y asistencia. [!DNL Target] recibió las puntuaciones más altas para sus capacidades de prueba entre todos los proveedores evaluados.
 
 Para obtener más información, consulte la [Publicación de blog de Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## Coffee break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (29 de noviembre)
-
-* **Martes, 29 de noviembre de 2022**
-* **De 8:00 a 9:00 a.m. (PST GMT-8)**
-* **[Información de registro](https://adobe.ly/3UtQoxv){target=_blank}**
-
-Nos acompañará Cristinel Anastasoaie, responsable de producto sénior de [!DNL Adobe Target], que responderá a sus preguntas relacionadas con el [!DNL Adobe Target] seminario web [Personalización impulsada por IA y recomendaciones](#AI).
-
-No olvide revisar la grabación del seminario web y, a continuación, plantear sus preguntas de seguimiento para obtener información exhaustiva, explicaciones más detalladas y sugerencias estratégicas para sus casos de uso únicos.
-
-* Optimizar recomendaciones en tiempo real, actividades de personalización con un solo clic y ofertas automatizadas
-* Cree e inicie actividades de personalización impulsadas por IA utilizando la variable [!UICONTROL Compositor de experiencias visuales] (VEC)
-* Integrar con [!DNL Adobe Experience Platform] (AEP) para el uso compartido de segmentos en tiempo real y atributos de perfil
-
-[!DNL Adobe] Simon Chen, ingeniero de soporte técnico, proporcionará información adicional y respuestas a sus preguntas.
-
 ## Serie de seminarios web sobre [!DNL Adobe Target] {#webinar-series}
 
-Regístrese en los siguientes seminarios web para ver cómo utilizan los clientes [!DNL Adobe Target] para lograr sus objetivos de personalización y optimización:
+Regístrese en los siguientes seminarios web para ver cómo utilizan los clientes [!DNL Target] para lograr sus objetivos de personalización y optimización:
 
 Nada programado en este momento.
 
@@ -284,6 +268,6 @@ Vea el kit de herramientas y casos de uso para implementar estrategias de person
 
 ### [!DNL Adobe Target] Generador de habilidades: Chat del desarrollador, migrar el mbox.js de [!DNL Adobe Target] a at.js {#skill-builder}
 
-Ante la obsolescencia de mbox.js el 31 de marzo de 2021, David Son, gestor de producto de Adobe Target, organizó recientemente un chat para desarrolladores con el fin de analizar las ventajas de migrar mbox.js a at.js.
+Con la desaprobación de mbox.js el 31 de marzo de 2021, David Son, administrador de productos de Adobe Target, organizó un chat de desarrollador para analizar las ventajas de migrar mbox.js a at.js.
 
 * **[Vínculo de grabación](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
