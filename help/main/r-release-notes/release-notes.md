@@ -6,9 +6,9 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## Versión de la API de modelos (23 de noviembre de 2022)
+## Versión de API de modelos (23 de noviembre de 2022)
 
-El nuevo [!DNL Adobe Target] La API de modelos, también denominada API de Lista de bloqueados, permite a los usuarios ver y administrar la lista de funciones utilizadas en los modelos de aprendizaje automático para [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] actividades (AT).
+La nueva API de modelos [!DNL Adobe Target], también denominada API de lista de bloqueados, permite a los usuarios ver y administrar la lista de funciones utilizadas en los modelos de aprendizaje automático para actividades de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT).
 
-Para obtener más información, consulte [Información general sobre la API de modelos](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} en la sección *Guía para desarrolladores de Adobe Target*.
+Para obtener más información, consulte [Información general sobre API de modelos](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} en la *Guía para desarrolladores de Adobe Target*.
 
 ## [!DNL Target] Standard/Premium 22.10.3 (versión escalonada del 25 al 27 de octubre de 2022)
 
