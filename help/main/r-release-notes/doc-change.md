@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 29 de noviembre | [Ubicación geográfica](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Se ha aclarado el texto añadiendo el párrafo siguiente:<ul><li>La información geográfica de un visitante se determina a partir de la dirección IP de origen de un [!DNL Target] solicitud de ubicación (solicitud de mbox). La resolución de IP a regiones se realiza para la primera llamada de una nueva sesión. Esto significa que, si la dirección IP de un visitante cambia a mitad de la sesión de una visita, la información geográfica sigue basándose en la dirección IP de la primera llamada.</li></ul> |
+| 29 de noviembre | [Ubicación geográfica](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Se ha aclarado el texto añadiendo el párrafo siguiente:<ul><li>La información geográfica de un visitante se determina a partir de la dirección IP de origen de una solicitud de ubicación [!DNL Target] (solicitud mBox). La resolución de IP a ubicación geográfica está lista para la primera llamada de una nueva sesión. Esto significa que, si la dirección IP de un visitante cambia a mitad de la sesión de una visita, la información geográfica sigue basándose en la dirección IP de la primera llamada.</li></ul> |
 | 28 de noviembre | [Información general sobre la API de modelos (Inclusión en la lista de bloqueados)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} en la *Guía para desarrolladores de Adobe Target*. | Nueva API de modelos.<br>Las funciones se pueden bloquear mediante [!DNL Target] algoritmos de aprendizaje automático, lo que impide su uso en cualquier modelo o actividad de [!UICONTROL Segmentación automática] o [!UICONTROL Automated Personalization]. |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se ha añadido información sobre la versión de la API de modelos (23 de noviembre de 2022). |
 | 23 de noviembre | [Antes de implementar Analytics for Target (A4T) con at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Se ha actualizado el vínculo al [Formulario de aprovisionamiento de integraciones de Experience Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
