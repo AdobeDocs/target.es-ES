@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo configurar las opciones de informe
 title: ¿Cómo configuro los informes?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 68%
+source-wordcount: '1959'
+ht-degree: 67%
 
 ---
 
@@ -145,9 +145,14 @@ Seleccione la metodología deseada:
 
 seleccione la experiencia de control que quiere usar para calcular y comparar alzas.
 
-### Entorno
+### Entorno {#environment}
 
 Seleccione el entorno (grupo de hosts) que se usará para el informe. Para obtener más información, consulte [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+>[!NOTE]
+>
+>Si su organización está utilizando [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) para enviar datos de métricas a [!DNL Target], el entorno del almacén de datos de AEP debe coincidir con el entorno del [!DNL Target] configuración del informe.
+
 
 ### Restablecer datos del informe
 
@@ -192,7 +197,7 @@ Puede ver el informe en varios formatos, según el tipo de actividad. Seleccione
 
 Los informes incluyen varios puntos de datos y representaciones de visualización que comprenden los límites de la elevación y el nivel de confianza asociado a su actividad. Esto le ayuda a determinar un ganador con mayor precisión.
 
-Para obtener más información, consulte [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Para obtener más información, consulte [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Tenga en cuenta lo siguiente:
 
