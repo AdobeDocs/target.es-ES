@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
+source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 99%
+source-wordcount: '1793'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 20 de diciembre | [[!UICONTROL Grupos de informes de ofertas en Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Se ha añadido información adicional sobre los grupos de informes en &quot;Advertencias&quot;. |
 | 14 de diciembre | [Configuración de informes](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Se ha añadido una nota en la sección &quot;Entorno&quot; sobre el uso de [!DNL Adobe Experience Platform] (AEP) para enviar datos de métricas a [!DNL Target]. |
 | 29 de noviembre | [Ubicación geográfica](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Se ha aclarado el texto añadiendo el párrafo siguiente:<ul><li>La información geográfica de un visitante se determina a partir de la dirección IP de origen de una solicitud de ubicación [!DNL Target] (solicitud mBox). La resolución de IP a ubicación geográfica está lista para la primera llamada de una nueva sesión. Esto significa que, si la dirección IP de un visitante cambia a mitad de la sesión de una visita, la información geográfica sigue basándose en la dirección IP de la primera llamada.</li></ul> |
 | 28 de noviembre | [Información general sobre la API de modelos (Inclusión en la lista de bloqueados)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} en la *Guía para desarrolladores de Adobe Target*. | Nueva API de modelos.<br>Las funciones se pueden bloquear mediante [!DNL Target] algoritmos de aprendizaje automático, lo que impide su uso en cualquier modelo o actividad de [!UICONTROL Segmentación automática] o [!UICONTROL Automated Personalization]. |
