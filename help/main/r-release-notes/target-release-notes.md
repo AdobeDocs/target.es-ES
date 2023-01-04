@@ -4,9 +4,9 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 52%
 
 ---
@@ -29,7 +29,7 @@ Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 
 * Se ha agregado compatibilidad con ofertas JSON en [!UICONTROL Automated Personalization] (AP) mediante el Compositor de experiencias basadas en formularios. (TGT-41460)
 * Se ha agregado la capacidad de buscar y filtrar ofertas mediante etiquetas AEM. (TGT-43837)
-* Se ha cambiado el nombre de &quot;[!UICONTROL Fragmento de experiencia]&quot; en el flujo de trabajo del Compositor de experiencias visuales. La opción es ahora &quot;[!UICONTROL XF de HTML]&quot;.
+* Se ha cambiado el nombre de &quot;[!UICONTROL Fragmento de experiencia]&quot; en el flujo de trabajo del Compositor de experiencias visuales. La opción es ahora &quot;[!UICONTROL XF de HTML].&quot; (TGT-44132)
 * Se ha añadido la capacidad de ver metadatos de ofertas de fragmentos de experiencias en la información de la herramienta de información de ofertas. (TGT-43838)
 * Se han eliminado las opciones de calendario de 45 días y 90 días de la API y [!UICONTROL Segmentación automática] [!UICONTROL Perspectivas de personalización] y [!UICONTROL Atributos importantes] en el [!DNL Target] IU. Debido a los patrones de uso y para mejorar el rendimiento, estos intervalos de fechas han quedado obsoletos. La interfaz de usuario se ha actualizado para reflejar los intervalos actualmente permitidos: 15, 30 y 60 días. (TGT-39357)
 * Se ha eliminado la capacidad de cambiar la variable [!UICONTROL Igual que el objetivo de optimización] en la variable [!UICONTROL Objetivos y configuración] después de que la actividad esté activa. (TGT-43923)
