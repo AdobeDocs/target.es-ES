@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 98%
 
 ---
@@ -124,6 +124,7 @@ ht-degree: 98%
       + [Información general sobre la segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [Creación de una actividad de segmentación automática](/help/main/c-activities/auto-target/create-auto-target.md)
       + [Solución de problemas con la segmentación automática y preguntas frecuentes](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [Informes y segmentación automática](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Información general sobre la Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo de bosque aleatorio](c-activities/t-automated-personalization/algo-random-forest.md)
