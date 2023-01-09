@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
 source-wordcount: '1824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 21 de diciembre | [Personalización de un diseño mediante Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Se ha aclarado que los atributos de entidad enviados a [!DNL Recommendations] en el `productPage` mbox o la carga CSV se pueden mostrar en un diseño, con la excepción de los atributos &quot;multivalor&quot;. |
+| 21 de diciembre | [Personalización de un diseño mediante Velocidad](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Se ha aclarado que los atributos de entidad enviados a [!DNL Recommendations] en el `productPage` mbox o la carga CSV se pueden mostrar en un diseño, con la excepción de los atributos &quot;multivalor&quot;. |
 | 20 de diciembre | [Grupos de creación de informes de ofertas en [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Se ha añadido información adicional sobre los grupos de creación de informes en “Advertencias”. |
 | 14 de diciembre | [Configuración de informes](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Se ha añadido una nota en la sección “Entorno” sobre el uso de [!DNL Adobe Experience Platform] (AEP) para enviar datos de métricas a [!DNL Target]. |
 | 29 de noviembre | [Ubicación geográfica](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Se ha aclarado el texto añadiendo el párrafo siguiente:<ul><li>La información geográfica de un visitante se determina a partir de la dirección IP de origen de una solicitud de ubicación [!DNL Target] (solicitud mBox). La resolución de IP a ubicación geográfica está lista para la primera llamada de una nueva sesión. Esto significa que, si la dirección IP de un visitante cambia a mitad de la sesión de una visita, la información geográfica sigue basándose en la dirección IP de la primera llamada.</li></ul> |
