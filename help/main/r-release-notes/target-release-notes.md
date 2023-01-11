@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ee1307da98bfd83e605f772c0727340f6d262f30
+source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 52%
+source-wordcount: '333'
+ht-degree: 61%
 
 ---
 
@@ -22,10 +22,6 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 ## [!DNL Target] Standard/Premium 23.1.1 (25-26 de enero de 2023)
 
 Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
-
-| Función | Detalles |
-| --- | --- |
-| AEM fragmentos de contenido<br>(La fecha de lanzamiento exacta de esta función está por determinar). | Uso de fragmentos de contenido creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] actividades para ayudar en la optimización o personalización.<br>Uso de fragmentos de contenido creados en AEM en [!DNL Target] Las actividades le permiten combinar la facilidad de uso y la potencia de la AEM con potentes capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para probar y personalizar experiencias a escala. |
 
 * Se ha agregado compatibilidad con ofertas JSON en [!UICONTROL Automated Personalization] (AP) mediante el Compositor de experiencias basadas en formularios. (TGT-41460)
 * Se ha agregado la capacidad de buscar y filtrar ofertas mediante etiquetas AEM. (TGT-43837)
