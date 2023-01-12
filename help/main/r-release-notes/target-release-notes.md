@@ -4,9 +4,9 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 02105c00a856e755ef2fd0bb41620fd35ed609d2
+source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 37%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 4 de enero de 2023**
+**Última actualización: 12 de enero de 2023**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -24,7 +24,7 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 
 * Se ha agregado compatibilidad con ofertas JSON en [!UICONTROL Automated Personalization] (AP) mediante el Compositor de experiencias basadas en formularios. (TGT-41460)
-* Implementado [Modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) para actividades AP.
+* Implementado [Modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) para actividades AP. (TGT-44341)
 * Nombres de experiencias en [!DNL Recommendations] las actividades ahora se muestran con nombres descriptivos para que los clientes puedan correlacionar mejor los datos en [!DNL Adobe Analytics] con eso en el [!DNL Target] IU. (TGT-41853)
 * Se ha corregido un problema que provocaba un &quot;error 500&quot; en [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] (XT) actividades que contienen recomendaciones. Este problema se originó cuando [!DNL Target] no se pudieron eliminar correctamente los objetos de criterios del [!DNL Target] IU y [!DNL Recommendations] backend que ya no están en uso. (TGT-44383)
 * Se ha eliminado la ubicación del nombre de oferta mostrado en el [!UICONTROL Nivel de oferta] informe para [!UICONTROL Automated Personalization] actividades. Este cambio hace que el informe sea más legible. (TGT-44294)
