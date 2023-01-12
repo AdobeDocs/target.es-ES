@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 98%
+source-wordcount: '1853'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 12 de enero | [Extensión del ayudante del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Se ha actualizado la nota importante que explica el estado de la [!UICONTROL Compositor de experiencias visuales] extensión de ayuda. |
+|  | [Preguntas más frecuentes sobre audiencias y segmentación](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Se agregó información que explica que la segmentación de URL de audiencia y la segmentación de URL se agregaron mediante [!UICONTROL Reglas de plantilla] se evalúan como objetivos de URL. |
 |  | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han añadido notas de revisión para la versión 22.13.3. |
 | 21 de diciembre | [Personalización de un diseño mediante Velocidad](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Se ha aclarado que los atributos de entidad enviados a [!DNL Recommendations] en el `productPage` mbox o la carga CSV se pueden mostrar en un diseño, con la excepción de los atributos &quot;multivalor&quot;. |
 | 20 de diciembre | [Grupos de creación de informes de ofertas en [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Se ha añadido información adicional sobre los grupos de creación de informes en “Advertencias”. |
