@@ -1,13 +1,13 @@
 ---
-keywords: VEC;Compositor de experiencias visuales;visual experience composer;VEC;iframe;extensión;explorador
+keywords: VEC;Compositor de experiencias visuales;VEC;iframe;extensión;explorador
 description: Descubra por qué algunos sitios web podrían no abrirse de forma fiable en el Compositor de experiencias visuales (VEC). La extensión del explorador VEC Helper permite cargar sitios web de forma fiable dentro del VEC.
 title: ¿Cómo utilizo la extensión de ayuda del Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 55%
+source-wordcount: '1108'
+ht-degree: 57%
 
 ---
 
@@ -19,15 +19,17 @@ El explorador VEC Helper es una extensión de Chrome. Esta extensión no es nece
 
 >[!IMPORTANT]
 >
->A partir de enero de 2023, la variable [!DNL Target] La extensión VEC Helper dejará de funcionar en Google Chrome porque Google no permitirá extensiones con Manifest V2. Descargue la nueva extensión para seguir creando visualmente sus sitios web en [!DNL Target] a partir del nuevo año. Para obtener más información, consulte [Extensión de Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>El [!DNL Target] La extensión de VEC Helper documentada en este artículo se creó con Manifest v2. Google ha anunciado recientemente que ya no permitirá nuevas extensiones creadas con la versión 2 de Manifest.
+>
+>La extensión existente sigue funcionando en Google Chrome. En el futuro, [!DNL Adobe] eliminará la extensión de ayuda documentada en este tema y requerirá que los clientes se pasen a la versión más reciente [Extensión de Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). Se le notificará mediante notas de la versión y texto en este artículo cuando esta extensión deje de funcionar. Sin embargo, debido a las mejoras de seguridad en Manifest v3, [!DNL Adobe] recomienda descargar la nueva extensión para seguir creando visualmente sus sitios web en [!DNL Target].
 
 ## Razones por las que algunos sitios web podrían no abrirse de forma fiable en el VEC
 
 * El sitio web tiene normas estrictas de seguridad.
 * El sitio web se encuentra en un iframe.
 * Aún no se ha implementado la biblioteca at.js en el sitio web.
-* El control de calidad o el sitio del cliente no están disponibles para el mundo exterior (el sitio es interno).
-* Existen algunas limitaciones actuales al intentar usar el VEC para abrir un sitio web que esté usando [Service Workers](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API) {target=_blank} (SW).
+* El control de calidad o la fase del cliente no están disponibles para el mundo exterior (el sitio es interno).
+* Existen algunas limitaciones actuales al intentar usar el VEC para abrir un sitio web que esté usando [Trabajadores del Servicio](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
 Un SW es una tecnología web que se puede utilizar para interceptar solicitudes del dominio en el que están instalados en una página web. El SW sobrevive a la visita de página y se activa en visitas posteriores. El SW decide qué solicitudes pasan y cuáles se interceptan y sirven desde una caché en su lugar.
 
@@ -46,9 +48,9 @@ La extensión del explorador VEC Helper para Chrome resuelve los problemas de ca
 * Todos los encabezados de eliminación de iframes, como X-Frame-Options y Content-Security-Policy, se eliminan implícitamente del sitio web. No hay más necesidad de crear complicadas reglas Requestly.
 * Si una página web todavía no contiene la biblioteca JavaScript at.js de [!DNL Target], puede utilizar la extensión para insertar la biblioteca y así poder crear experiencias para el sitio web. A continuación, puede crear actividades y realizar controles de calidad mediante vínculos de vista previa.
 
-   Tenga en cuenta que, con el Compositor de experiencias mejorado (EEC), la extensión no inyecta at.js, pero la funcionalidad Cookie SameSite sigue presente. Para insertar at.js en la página web, desactive el EEC.
+   Tenga en cuenta que, con el Compositor de experiencias mejorado (EEC), la extensión no inyecta at.js, pero la funcionalidad Cookie SameSite sigue presente. Para insertar at.js en el sitio web, desactive el EEC.
 
-* [Ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) son compatibles incluso sin [!UICONTROL Compositor de experiencias mejorado] (CEE)
+* Las [Ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) son compatibles incluso sin el [!UICONTROL Compositor de experiencias mejorado] (EEC).
 * Los clientes nuevos de [!DNL Target] pueden utilizar la extensión para experimentar con [!DNL Target] incluso si los desarrolladores de TI todavía no han implementado [!DNL Target] en sus sitios web.
 * Los socios que brindan servicios de múltiples páginas web de clientes y cuentas de [!DNL Target] ahora tienen un mecanismo sencillo para admitir la carga de VEC, en lugar de administrar varias reglas en herramientas de terceros.
 
@@ -72,7 +74,7 @@ La extensión del explorador VEC Helper para Chrome resuelve los problemas de ca
 
    ![Alternar cookies en la extensión del asistente de VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   Para obtener más información sobre `SameSite=None` corrección del navegador de atributos, consulte &quot;¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC?&quot; en [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+   Para obtener más información sobre la `SameSite=None` corrección del atributo de explorador, consulte “¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC?” en [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ## Notas
 

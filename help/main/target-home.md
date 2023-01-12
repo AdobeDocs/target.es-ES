@@ -4,10 +4,10 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 20 de diciembre de 2022 ([vea los cambios](r-release-notes/doc-change.md))**
+**Última actualización: 12 de enero de 2023 ([vea los cambios](r-release-notes/doc-change.md))**
 
 Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados según las audiencias a las que se dirigen:
 
@@ -49,7 +49,7 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 
 ## Desarrolladores  {#developers}
 
-- [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank}: Este portal proporciona recursos y guías para desarrolladores de [!DNL Adobe Target], incluida la documentación de API y SDK para implementar [!DNL Target].
+- [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank}: Este portal proporciona recursos y guías para [!DNL Adobe Target] desarrolladores, incluida la documentación de API y SDK para implementar [!DNL Target].
 
 ## Administradores de Target y Adobe Experience Cloud {#admins}
 
