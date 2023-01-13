@@ -4,9 +4,9 @@ description: Vea una lista de temas útiles para resolver problemas de Adobe Tar
 title: ¿Cómo puedo solucionar problemas de Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
@@ -159,4 +159,5 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 * [Resolución de problemas del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Prácticas recomendadas y limitaciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modificaciones](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+* [Extensión Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
 * Vídeo “Horario de oficina”, una iniciativa liderada por el equipo del Servicio de atención al cliente de Adobe. Consulte [Compositor de experiencias visuales (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)
