@@ -4,10 +4,10 @@ description: Aprenda a utilizar la variable [!UICONTROL Atributos importantes] i
 title: ¿Qué es el informe Atributos importantes?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 80%
+source-wordcount: '1724'
+ht-degree: 81%
 
 ---
 
@@ -60,10 +60,6 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
    A diferencia de [!UICONTROL Resumen] informe (informe de rendimiento), [!UICONTROL Perspectivas de personalización], incluyendo [!UICONTROL Atributos importantes], solo está disponible para intervalos de fechas fijos: 15 días, 30 días y 60 días.
 
-   >[!NOTE]
-   >
-   >Actualmente, la IU de [!DNL Target] permite elegir intervalos de fechas de 45 y 90 días. Sin embargo, el backend de [!DNL Target] no procesa estos dos rangos. Debido a los patrones de uso y como parte de un esfuerzo por mejorar el rendimiento, estos intervalos de fechas han quedado obsoletos. La IU se actualizará para reflejar los intervalos actualmente permitidos: 15, 30 y 60 días.
-
    Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Observe que “Inicio” aparece atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
 
    ![Calendario en un informe de Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
@@ -105,7 +101,7 @@ Existen varias razones por las que los informes de [!UICONTROL Perspectivas de p
 
 Un atributo es información sobre un visitante o sobre su visita específica que los algoritmos de personalización utilizan para aprender a personalizar el tráfico. Por ejemplo, un atributo podría ser el tipo de navegador, la ubicación, la hora del día de la visita, etcétera.
 
-Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en los modelos de personalización de Target, consulte [Métodos para obtener los datos en Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
+Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en modelos de personalización de Target, consulte [Métodos para introducir datos a Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
 **¿La información que aparece en los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] es la misma que la que aparece en la descarga de CSV?**
 

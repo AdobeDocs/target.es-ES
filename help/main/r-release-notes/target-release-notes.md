@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 24df83c228ef5ebb9f0cd2234a689244625be9a2
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 96%
+source-wordcount: '588'
+ht-degree: 93%
 
 ---
 
@@ -23,13 +23,15 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 
-* Se ha agregado compatibilidad con ofertas JSON en actividades de [!UICONTROL Automated Personalization] (AP) mediante el Compositor de experiencias basadas en formularios. (TGT-41460)
-* Implementado [Modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) para actividades AP para clientes seleccionados. Esta funcionalidad estará disponible para todos los clientes después de una fase inicial de prueba. (TGT-44341)
-* Se han agregado nombres descriptivos en la creación de informes de [!UICONTROL Analytics for Target] de A4T. Anteriormente, solo se enumeraban los ID de experiencia de [!DNL Target]. Esta mejora alinea el sistema de informes entre [!DNL Adobe Analytics] y [!DNL Target] y ayuda a los clientes a optimizar la creación de informes en A4T. (TGT-41853)
+| Función | Detalles |
+| --- | --- |
+| Automated Personalization (AP) | Se ha agregado compatibilidad con ofertas JSON en actividades de [!UICONTROL Automated Personalization] (AP) mediante el Compositor de experiencias basadas en formularios.<br>Para obtener más información, consulte [Creación de ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
+| Recommendations | Nombres descriptivos en [!UICONTROL Analytics para Target] Ya está disponible la creación de informes de A4T. Anteriormente, solo se enumeraban los ID de experiencia de [!DNL Target]. Esta mejora alinea el sistema de informes entre [!DNL Adobe Analytics] y [!DNL Target] y ayuda a los clientes a optimizar la creación de informes en A4T. (TGT-41853) |
+| Control de calidad de la actividad | Implementado [Modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) para actividades AP para clientes seleccionados. Esta funcionalidad estará disponible para todos los clientes después de una fase inicial de prueba. (TGT-44341) |
+
 * Se ha corregido un problema que provocaba un “error 500” en actividades de [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] (XT) que contienen recomendaciones. Este problema se originó cuando [!DNL Target] no pudo eliminar correctamente los objetos de criterios de la IU de [!DNL Target] y el backend de [!DNL Recommendations] que ya no están en uso. (TGT-44383)
 * Se ha eliminado la ubicación del nombre de oferta mostrado en el informe [!UICONTROL Nivel de oferta] para actividades de [!UICONTROL Automated Personalization]. Este cambio hace que el informe sea más legible. (TGT-44294)
 * Se ha cambiado el nombre de la opción “[!UICONTROL Fragmento de experiencia]” en el flujo de trabajo del [!UICONTROL Compositor de experiencias visuales] (VEC). La opción se conoce ahora como &quot;[!UICONTROL XF de HTML]&quot;. (TGT-44132)
-* Se ha añadido la capacidad de ver metadatos de ofertas de fragmentos de experiencia en la información sobre ofertas. (TGT-43838)
 * Se han eliminado las opciones de calendario de 45 días y 90 días de la API y la [!UICONTROL Segmentación automática], la [!UICONTROL Información de personalización] y los [!UICONTROL Atributos importantes] de la IU [!DNL Target]. Debido a los patrones de uso y para mejorar el rendimiento, estos intervalos de fechas han quedado obsoletos. La IU se actualizó para reflejar los intervalos actualmente permitidos: 15, 30 y 60 días. (TGT-39357)
 * Se ha desactivado la capacidad de cambiar la configuración [!UICONTROL Igual que el objetivo de optimización] en la página [!UICONTROL Objetivos y configuración] después de que la actividad esté activa. (TGT-43923)
 * Se ha corregido un problema que provocaba problemas con el lugar de trabajo predeterminado en el backend de [!DNL Target] al actualizar desde [!DNL Target Standard] a [!DNL Target Premium]. (TGT-44081 y TGT-44306)
