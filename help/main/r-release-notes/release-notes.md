@@ -5,9 +5,9 @@ landing-page-description: Obtenga información acerca de las nuevas funciones, m
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
+source-git-commit: 50703e9709d515cbee18569fedb6139e9bf18ccd
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '756'
 ht-degree: 91%
 
 ---
@@ -36,7 +36,6 @@ Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 
 * Se ha corregido un problema que provocaba un “error 500” en actividades de [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] (XT) que contienen recomendaciones. Este problema se originó cuando [!DNL Target] no pudo eliminar correctamente los objetos de criterios de la IU de [!DNL Target] y el backend de [!DNL Recommendations] que ya no están en uso. (TGT-44383)
 * Se ha eliminado la ubicación del nombre de oferta mostrado en el informe [!UICONTROL Nivel de oferta] para actividades de [!UICONTROL Automated Personalization]. Este cambio hace que el informe sea más legible. (TGT-44294)
-* Se ha cambiado el nombre de la opción “[!UICONTROL Fragmento de experiencia]” en el flujo de trabajo del [!UICONTROL Compositor de experiencias visuales] (VEC). La opción se conoce ahora como &quot;[!UICONTROL XF de HTML]&quot;. (TGT-44132)
 * Se han eliminado las opciones de calendario de 45 días y 90 días de la API y la [!UICONTROL Segmentación automática], la [!UICONTROL Información de personalización] y los [!UICONTROL Atributos importantes] de la IU [!DNL Target]. Debido a los patrones de uso y para mejorar el rendimiento, estos intervalos de fechas han quedado obsoletos. La IU se actualizó para reflejar los intervalos actualmente permitidos: 15, 30 y 60 días. (TGT-39357)
 * Se ha desactivado la capacidad de cambiar la configuración [!UICONTROL Igual que el objetivo de optimización] en la página [!UICONTROL Objetivos y configuración] después de que la actividad esté activa. (TGT-43923)
 * Se ha corregido un problema que provocaba problemas con el lugar de trabajo predeterminado en el backend de [!DNL Target] al actualizar desde [!DNL Target Standard] a [!DNL Target Premium]. (TGT-44081 y TGT-44306)
