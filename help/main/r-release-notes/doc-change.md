@@ -27,7 +27,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 13 de enero | Extensión [Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Se ha añadido una sección Preguntas más frecuentes . |
+| 13 de enero | [Extensión Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Se ha añadido la sección Preguntas más frecuentes. |
 | 12 de enero | [Extensión del ayudante del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Se ha actualizado la nota importante que explica el estado de la extensión de ayuda del [!UICONTROL Compositor de experiencias visuales]. |
 |  | [Preguntas más frecuentes sobre audiencias y segmentación](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Se ha añadido información que explica que la segmentación por URL de audiencia y la segmentación por URL agregada mediante [!UICONTROL Reglas de plantilla] se evalúan como segmentación por URL. |
 |  | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han agregado notas de versión preliminar para la versión 22.13.3. |
