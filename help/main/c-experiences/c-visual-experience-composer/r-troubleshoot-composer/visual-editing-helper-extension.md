@@ -1,13 +1,13 @@
 ---
-keywords: VEC;Compositor de experiencias visuales;VEC;iframe;extensión;explorador;faq
+keywords: VEC;Compositor de experiencias visuales;VEC;iframe;extensión;explorador;preguntas frecuentes
 description: Descubra por qué algunos sitios web podrían no abrirse de forma fiable en el [!UICONTROL Compositor de experiencias visuales] (VEC). La extensión del explorador [!UICONTROL Ayuda de edición visual] le permite cargar sitios web de forma fiable dentro del VEC.
 title: ¿Cómo utilizo la extensión [!UICONTROL Ayuda de edición visual]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -61,10 +61,10 @@ La extensión de explorador [!DNL Adobe Experience Cloud] [!UICONTROL Ayuda de e
 
 ## Preguntas frecuentes
 
-### ¿Hace la extensión, cuando está activa, algo cuando se utiliza fuera de [!DNL Adobe Target] o [!UICONTROL Adobe Journey Optimizer] (AJO)?
+### ¿Cuándo la extensión está activa hace algo si se utiliza fuera de [!DNL Adobe Target] o [!UICONTROL Adobe Journey Optimizer] (AJO)?
 
-La extensión solo se activa cuando el sitio web en cuestión se carga dentro de un iFrame en [!DNL Adobe] products ([!DNL Target], [!DNL AJO]). Fuera de este flujo, la extensión no intenta añadir, quitar ni modificar ningún encabezado y la extensión no intenta insertar ningún código dentro del sitio web.
+La extensión solo se activa cuando el sitio web en cuestión se carga dentro de un iFrame en productos de [!DNL Adobe] ([!DNL Target], [!DNL AJO]). Fuera de este flujo, la extensión no intenta añadir, quitar ni modificar ningún encabezado, ni intenta insertar ningún código dentro del sitio web.
 
-### ¿Qué hace la extensión cuando está activa en la [!DNL Adobe Target] ¿VEC?
+### ¿Qué hace la extensión cuando está activa en el VEC de [!DNL Adobe Target]?
 
-Cuando un sitio web se carga dentro de un iFrame en [!DNL Adobe] products ([!DNL Target], [!DNL AJO]), la extensión inserta código (empaquetado con la extensión) en el sitio web y descarga los archivos de ayuda desde el [!DNL Adobe] CDN para habilitar la creación visual.
+Cuando un sitio web se carga dentro de un iFrame en productos de [!DNL Adobe] ([!DNL Target], [!DNL AJO]), la extensión inserta código (empaquetado con la extensión) en el sitio web y descarga los archivos de ayuda desde el CDN de [!DNL Adobe] para habilitar la creación visual.
