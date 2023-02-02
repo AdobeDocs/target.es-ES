@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo solucionar problemas que a veces o
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
+source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 78%
+source-wordcount: '971'
+ht-degree: 68%
 
 ---
 
@@ -123,4 +123,8 @@ Después de configurar una extensión, abra Target. Sus páginas ahora deberían
 
 ## El VEC parece roto cuando utilizo el modo Examinar. (Solo VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Cuando se usa el modo Examinar, si accede a una dirección URL que no tiene target.js o contiene un encabezado con eliminación de iframes, parece que el Compositor de experiencias visuales no funciona. Debido a problemas de seguridad del navegador, Target no puede acceder a la dirección URL a la que navegó.
+Mientras utiliza el modo Examinar, si accede a una dirección URL que no tiene [!DNL Target] bibliotecas implementadas ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) o contiene un encabezado de trama-buster, el VEC parece roto. Debido a problemas de seguridad del explorador, [!DNL Target] no puede acceder correctamente a la dirección URL a la que navegó o la dirección URL del VEC no se actualiza de forma coherente si la página se carga.
+
+Este problema se produce porque el VEC carga la página web en una `<iframe>`. Los mecanismos de seguridad actuales de los navegadores impiden que [!DNL Target] La interfaz de usuario no puede acceder a los elementos del marco dado debido a la política del mismo origen. Los navegadores bloquean los scripts que intentan acceder a un marco con un origen diferente y que incluyen información como el `location.href`.
+
+Debe usar el nuevo [Extensión de Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (recomendado) o [Extensión antigua](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para inyectar el [!DNL Target] dentro de las páginas para explorarlas de forma óptima.
