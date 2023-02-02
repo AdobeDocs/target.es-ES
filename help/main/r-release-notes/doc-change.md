@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c58b7627d776bccf36165b80ed30f8537fc8f5e
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 98%
+source-wordcount: '1978'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 2 de febrero | [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Se ha actualizado el párrafo siguiente:<ul><li>El VEC parece roto cuando utilizo el modo Examinar</li></ul> |
+|  | [Crear audiencias en Target](/help/main/c-target/c-audiences/create-audience.md) | Se ha añadido una lista de caracteres y secuencias de caracteres que no se pueden usar en los nombres de audiencia. |
 | 31 de enero | [Límites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Se ha añadido una lista de caracteres permitidos y no permitidos en los nombres de mbox. |
 | 25 de enero | [Crear ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Se ha indicado que la compatibilidad con ofertas JSON en [!UICONTROL Automated Personalization] Ya están disponibles las actividades (AP) que usan el Compositor de experiencias basadas en formularios. |
 |  | [Anuncios y eventos de Adobe Target](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad: Casos de uso autenticados y móviles para la optimización de la experiencia</li></ul> |
