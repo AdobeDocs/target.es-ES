@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear audiencias personalizadas y 
 title: ¿Cómo Creo Audiencias?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 59%
@@ -53,7 +53,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
    Los nombres de audiencia no pueden contener ninguna de las siguientes secuencias de caracteres:
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. Arrastre y suelte los atributos que desee desde el **[!UICONTROL Atributos]** a la derecha del panel del generador de audiencias.
 
