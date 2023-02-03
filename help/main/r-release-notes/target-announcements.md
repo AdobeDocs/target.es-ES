@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y ev
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1931'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Para obtener más información, consulte la [Publicación de blog de Adobe Exper
 
 ## [!DNL Adobe Target] Coffee break de preguntas y respuestas de la comunidad
 
-* **Casos de uso autenticados y móviles para la optimización de la experiencia**
+* **Casos de uso autenticados y móviles para la optimización de experiencias**
 * **Miércoles, 1 de febrero de 2023**
-* **8:00 - 9:00 a.m. (PST, GMT-8)**
+* **De 8:00 a 9:00 de la mañana (PST, GMT-8)**
 * **[Registro](https://adobe.ly/3IWsAiX){target=_blank}**
 
-Nos unirá Brent Kostak, responsable de marketing de productos de [!DNL Adobe Target], que charlará directamente con usted en este hilo sobre su [!DNL Target] preguntas relacionadas con casos de uso móviles y autenticados para la optimización de la experiencia:
+Nos acompañará Brent Kostak, Director de marketing de productos de [!DNL Adobe Target], que charlará directamente con usted en este hilo sobre sus preguntas de [!DNL Target] relacionadas con casos de uso móviles y autenticados para la optimización de experiencias:
 
 * Flujos de trabajo para la configuración de actividades en [!DNL Target]
 * Métricas del ciclo vital del cliente para probar y segmentar experiencias móviles
-* Aproveche AI/ML para la personalización entre canales en la web y la aplicación
-* SDK y API móviles para implementaciones flexibles que admiten plataformas iOS y Android
+* Aproveche AI/ML para la personalización en canales múltiples en webs y aplicaciones
+* SDK móviles y API para implementaciones flexibles compatibles con plataformas iOS y Android
 
 ## Serie de seminarios web sobre [!DNL Adobe Target] {#webinar-series}
 
