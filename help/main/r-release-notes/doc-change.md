@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '1988'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 8 de febrero | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido las notas de la versión 2.10.1 de at.js. |
 | 2 de febrero | [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Se ha actualizado la sección siguiente:<ul><li>El VEC parece roto cuando utilizo el modo Examinar</li></ul> |
 |  | [Crear audiencias en Target](/help/main/c-target/c-audiences/create-audience.md) | Se ha añadido una lista de caracteres y secuencias de caracteres que no se pueden usar en los nombres de audiencia. |
 | 31 de enero | [Límites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Se ha añadido una lista de caracteres permitidos y no permitidos en los nombres de mbox. |
