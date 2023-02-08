@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
 source-wordcount: '1978'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 2 de febrero | [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Se ha actualizado el párrafo siguiente:<ul><li>El VEC parece roto cuando utilizo el modo Examinar</li></ul> |
+| 2 de febrero | [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Se ha actualizado la sección siguiente:<ul><li>El VEC parece roto cuando utilizo el modo Examinar</li></ul> |
 |  | [Crear audiencias en Target](/help/main/c-target/c-audiences/create-audience.md) | Se ha añadido una lista de caracteres y secuencias de caracteres que no se pueden usar en los nombres de audiencia. |
 | 31 de enero | [Límites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Se ha añadido una lista de caracteres permitidos y no permitidos en los nombres de mbox. |
 | 25 de enero | [Crear ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Se ha indicado que la compatibilidad con ofertas JSON en actividades de [!UICONTROL Automated Personalization] (AP) mediante el Compositor de experiencias basadas en formularios está ahora disponible. |
