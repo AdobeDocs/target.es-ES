@@ -1,14 +1,14 @@
 ---
-keywords: Notas de la versión;nuevas funciones;versiones;actualizaciones;actualización;versión;mejora;mejoras;correcciones;correcciones de errores;actualizaciones
+keywords: notas de la versión;nuevas funciones;versiones;actualizaciones;actualización;versión;mejora;mejoras;correcciones;correcciones de errores;actualizaciones
 description: Conozca las nuevas funciones, mejoras y correcciones incluidas en la versión actual de  [!DNL Adobe Target], incluidos SDK, API y bibliotecas de JavaScript.
 landing-page-description: Obtenga información acerca de las nuevas funciones, mejoras y correcciones incluidas en la versión actual de  [!DNL Adobe Target].
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: 7541293203ebb78296227b8c15beb767970e3bd2
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 93%
+source-wordcount: '813'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 ## Versión 2.10.1 de at.js (2 de febrero de 2023)
 
 * Se ha corregido un error en el cual las actividades que involucraban reglas de audiencia que contenían parámetros con puntos en sus nombres no devolvían la experiencia esperada para la toma de decisiones en el dispositivo.
-* Se ha corregido un error en at.js 2.6.0 por el que at.js activaba una llamada de entrega, incluso cuando `mboxDisable` se habilitó.
+* Se ha corregido un error introducido en at.js 2.6.0 en el que at.js activaba una llamada de entrega, incluso cuando `mboxDisable` se habilitó.
 
 Para obtener información sobre todas las versiones de at.js, consulte [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
