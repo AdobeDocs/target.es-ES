@@ -4,7 +4,7 @@ description: Aprenda a utilizar [!DNL Adobe Experience Manager] fragmentos de ex
 title: Cómo Uso [!DNL Adobe Experience Manager] (AEM) ¿Fragmentos de experiencias?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 5ddaaa69edec92f35368e33d51c42b66ed400511
+source-git-commit: 6ae28ac884a6db54d8c06f44319bb2b6fc1cadf8
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 50%
@@ -111,7 +111,7 @@ Puede consumir fragmentos de experiencias en actividades de [!DNL Target] emplea
 >
 >Para usar completamente el [!DNL Target] funcionalidad AI y ML, puede seleccionar [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) al crear una prueba A/B.
 >
->Los fragmentos de experiencias no son compatibles con [!DNL Recommendations] actividades. Sin embargo, para utilizar fragmentos de experiencia en recomendaciones, puede crear un [!UICONTROL Prueba A/B] actividad (incluida [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]) o un [!UICONTROL Segmentación de experiencias] (XT) y [incluir recomendaciones como oferta](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+>Los fragmentos de experiencias no son compatibles con [!DNL Recommendations] actividades. Sin embargo, para utilizar fragmentos de experiencia en recomendaciones, puede crear un [!UICONTROL Prueba A/B] actividad (incluida [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]) o un [!UICONTROL Segmentación de experiencias] (XT) y [incluir recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 **Para consumir fragmentos de experiencias usando el VEC:**
 
