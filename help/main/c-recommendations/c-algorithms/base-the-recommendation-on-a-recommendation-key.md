@@ -5,10 +5,10 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
 workflow-type: tm+mt
-source-wordcount: '3936'
-ht-degree: 40%
+source-wordcount: '3942'
+ht-degree: 37%
 
 ---
 
@@ -34,7 +34,7 @@ Los distintos algoritmos de recomendaciones se prestan a colocarse en distintos 
 
 ## Basado en el carro de compras {#cart-based}
 
-La variable [!UICONTROL Basado en el carro de compras] el tipo de algoritmo permite recomendar elementos en función del contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del parámetro mbox `cartIds` en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
+La variable [!UICONTROL Basado en el carro de compras] el tipo de algoritmo permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan mediante [parámetro de mbox `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
 
 La lógica de recomendación basada en el carro de compras es similar a la &quot;[!UICONTROL Recomendado]&quot; algoritmo basado en el usuario y a &quot;[!UICONTROL Los usuarios que vieron esto, compraron aquéllos]&quot; y &quot;[!UICONTROL Las personas que compraron estos, compraron esos]&quot; algoritmos basados en elementos.
 
@@ -356,22 +356,22 @@ Utilice la variable [!UICONTROL Último artículo comprado] clave de recomendaci
 
 Puede basar las recomendaciones en el valor de un atributo de perfil personalizado. Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la película que agregó un visitante recientemente a su cola.
 
-1. Seleccione su atributo de perfil personalizado en la lista **[!UICONTROL desplegable Clave]** de recomendación (por ejemplo, «Última visualización agregada a la lista de observación»).
+1. Seleccione su atributo de perfil personalizado en la **[!UICONTROL Clave de recomendación]** lista desplegable (por ejemplo, &quot;Última visualización agregada a la lista de observación&quot;).
 1. A continuación, seleccione la lógica **[!UICONTROL de recomendación]** (por ejemplo, &quot;Personas que vieron esto, Vieron aquello&quot;).
 
    ![Crear nuevo cuadro de diálogo de criterios](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
 Si el atributo de perfil personalizado no coincide directamente con un ID de entidad único, es necesario explicar cómo [!DNL Recommendations] desea que se produzca la coincidencia en una entidad. Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la marca favorita de un visitante.
 
-1. Seleccione su atributo de perfil personalizado en **[!UICONTROL la lista desplegable Clave]** de recomendación (por ejemplo, «Marca favorita»).
+1. Seleccione su atributo de perfil personalizado en la **[!UICONTROL Clave de recomendación]** lista desplegable (por ejemplo, &quot;Marca favorita&quot;).
 
 1. A continuación, seleccione **[!UICONTROL la lógica]** de recomendación que desee utilizar con esta clave (por ejemplo, &quot;Principales vendedores&quot;).
 
    Se muestra [!UICONTROL la] opción Agrupar por valor único de.
 
-1. Seleccione el atributo de entidad que coincida con la clave que ha elegido. En este caso, «Marca favorita» coincide con `entity.brand`.
+1. Seleccione el atributo de entidad que coincida con la clave elegida. En este caso, &quot;Marca favorita&quot; coincide con `entity.brand`.
 
-   [!DNL Recommendations] ahora genera una lista «Principales vendedores» para cada marca y muestra al visitante la lista «Principales vendedores» adecuada en función del valor almacenado en el atributo de perfil de Marca favorita del visitante.
+   [!DNL Recommendations] ahora genera una lista &quot;Principales vendedores&quot; para cada marca y muestra al visitante la lista &quot;Principales vendedores&quot; adecuada en función del valor almacenado en el atributo de perfil de Marca favorita del visitante.
 
    ![Crear nuevo cuadro de diálogo de criterios 2](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
