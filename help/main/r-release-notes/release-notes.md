@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -33,7 +33,7 @@ Esta versión incluye las siguientes correcciones:
 
 ## Versión 2.10.1 de at.js (2 de febrero de 2023)
 
-* Se ha corregido un error en el cual las actividades que involucraban reglas de audiencia que contenían parámetros con puntos en sus nombres no devolvían la experiencia esperada para la toma de decisiones en el dispositivo.
+* Se ha corregido un error por el que las actividades que implicaban reglas de audiencia que contenían parámetros con puntos en sus nombres no devolvían la experiencia esperada, para la toma de decisiones en el dispositivo.
 * Se ha corregido un error introducido en at.js 2.6.0 en el que at.js activaba una llamada de entrega, incluso cuando `mboxDisable` se habilitó.
 
 Para obtener información sobre todas las versiones de at.js, consulte [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
@@ -51,7 +51,7 @@ Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 | Función | Detalles |
 | --- | --- |
 | [Oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) compatibilidad con Automated Personalization (AP) | Se ha agregado compatibilidad con ofertas JSON en actividades de [!UICONTROL Automated Personalization] (AP) mediante el Compositor de experiencias basadas en formularios. (TGT-41460) |
-| [Fragmentos de experiencias de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Se ha agregado la capacidad de distinguir entre [!DNL Adobe Experience Manager] tipos de fragmento (AEM XF) que se exportan a [!DNL Target]. En lugar de la opción ”Fragmento de experiencia”, [!DNL Target] ahora le permite filtrar y buscar por ”HTML XF” y ”JSON XF”. (TGT-44132) |
+| [Fragmentos de experiencias de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Se ha agregado la capacidad de distinguir entre [!DNL Adobe Experience Manager] tipos de fragmento (AEM XF) que se exportan a [!DNL Target]. En lugar de la opción “Fragmento de experiencia”, [!DNL Target] ahora le permite filtrar y buscar por “HTML XF” y “JSON XF”. (TGT-44132) |
 
 * Se ha corregido un problema que provocaba un “error 500” en actividades de [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] (XT) que contienen recomendaciones. Este problema se originó cuando [!DNL Target] no pudo eliminar correctamente los objetos de criterios de la IU de [!DNL Target] y el backend de [!DNL Recommendations] que ya no están en uso. (TGT-44383)
 * Se ha eliminado la ubicación del nombre de oferta mostrado en el informe [!UICONTROL Nivel de oferta] para actividades de [!UICONTROL Automated Personalization]. Este cambio hace que el informe sea más legible. (TGT-44294)
