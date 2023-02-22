@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
+source-git-commit: 419f675b0fdf0d48a0ddd5250c29e339020a278d
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 100%
+source-wordcount: '2053'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 21 de febrero | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Se ha actualizado la lista de direcciones IP a la lista de permitidos para todas las regiones del [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
+|  | [Modificaciones](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Se agregó texto que explica que el ejemplo que utiliza JQuery supone que el sitio web del cliente tiene jQuery disponible en la página cuando [!DNL Target] ejecuta las ofertas. |
 | 10 de febrero | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 22.14.5 de [!DNL Target Standard/Premium]. |
 | 8 de febrero | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido las notas de la versión 2.10.1 de at.js. |
 | 2 de febrero | [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Se ha actualizado la sección siguiente:<ul><li>El VEC parece roto cuando utilizo el modo Examinar</li></ul> |
