@@ -4,10 +4,10 @@ description: Aprenda a utilizar el lenguaje de diseño de código abierto Veloci
 title: ¿Cómo puedo personalizar un diseño con Velocity?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 78%
+source-wordcount: '1067'
+ht-degree: 76%
 
 ---
 
@@ -61,7 +61,9 @@ $entities[0].categoriesList[2]
 
 Para obtener más información sobre las variables (atributos) de Velocity, consulte [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Si usa un script de perfil en su diseño, el símbolo $ que precede al nombre del script debe señalarse con una barra (“\”). Por ejemplo, `\${user.script_name}`.
+Si utiliza un script de perfil en su diseño, el símbolo $ que precede al nombre del script debe omitirse con un `\` (barra invertida). Por ejemplo:
+
+`\${user.script_name}`
 
 >[!NOTE]
 >
