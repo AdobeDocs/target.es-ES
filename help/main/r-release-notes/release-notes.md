@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
-* **13 de febrero**: Región de América
-* **15 de febrero**: Región de Europa, Oriente Medio y África (EMEA)
-* **15 de febrero**: Región de Asia y el Pacífico (APAC)
+* **13 de febrero**: región de América
+* **15 de febrero**: región de Europa, Oriente Medio y África (EMEA)
+* **15 de febrero**: región Asia-Pacífico (APAC)
 
 Esta versión incluye las siguientes correcciones:
 
@@ -34,7 +34,7 @@ Esta versión incluye las siguientes correcciones:
 ## Versión 2.10.1 de at.js (2 de febrero de 2023)
 
 * Se ha corregido un error por el que las actividades que implicaban reglas de audiencia que contenían parámetros con puntos en sus nombres no devolvían la experiencia esperada, para la toma de decisiones en el dispositivo.
-* Se ha corregido un error introducido en at.js 2.6.0 en el que at.js activaba una llamada de entrega, incluso cuando `mboxDisable` se habilitó.
+* Se ha corregido un error en at.js 2.6.0 mediante el cual at.js activaba una llamada de envío, incluso cuando `mboxDisable` estaba habilitado.
 
 Para obtener información sobre todas las versiones de at.js, consulte [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
