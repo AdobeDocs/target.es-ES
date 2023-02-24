@@ -1,13 +1,13 @@
 ---
 keywords: notas de la versión;versiones;actualizaciones;futuras versiones;mejoras;nuevas funciones;correcciones;actualizaciones;versión preliminar
 description: Obtenga información sobre las nuevas funciones, mejoras y correcciones que incluirá la próxima versión de Adobe Target, incluidos el SDK, la API y las bibliotecas de JavaScript.
-title: Qué nuevas funciones y mejoras se incluyen en las próximas [!DNL Target] ¿Versión?
+title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
-* **13 de febrero**: Región de América
-* **15 de febrero**: Región de Europa, Oriente Medio y África (EMEA)
-* **15 de febrero**: Región de Asia y el Pacífico (APAC)
+* **13 de febrero**: región de América
+* **15 de febrero**: región de Europa, Oriente Medio y África (EMEA)
+* **15 de febrero**: región Asia-Pacífico (APAC)
 
 Esta versión incluye las siguientes correcciones:
 
