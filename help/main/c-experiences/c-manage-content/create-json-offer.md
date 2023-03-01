@@ -1,36 +1,36 @@
 ---
 keywords: oferta remota;creación de oferta remota
-description: Obtenga información sobre cómo crear ofertas JSON en Adobe [!DNL Target] para usar en el Compositor de experiencias basadas en formularios.
+description: Obtenga información sobre cómo crear ofertas JSON en Adobe [!DNL Target] para su uso en el Compositor de experiencias basadas en formularios.
 title: ¿Cómo creo ofertas JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 29%
+source-wordcount: '533'
+ht-degree: 27%
 
 ---
 
 # Creación de ofertas JSON
 
-Cree ofertas JSON en la variable [!UICONTROL Biblioteca de ofertas] en [!DNL Adobe Target] para usar en [!UICONTROL Compositor de experiencias basadas en formularios].
+Creación de ofertas JSON en [!UICONTROL Biblioteca de ofertas] in [!DNL Adobe Target] para su uso en [!UICONTROL Compositor de experiencias basadas en formularios].
 
-Las ofertas JSON se pueden utilizar en actividades basadas en formularios mediante las cuales se pueden habilitar casos de uso en los que [!DNL Target] es necesario tomar decisiones para enviar una oferta en formato JSON para su consumo en SPA marco de trabajo o integraciones del lado del servidor.
+Las ofertas JSON se pueden utilizar en actividades basadas en formularios, lo que permite casos de uso en los que [!DNL Target] SPA Se requiere la toma de decisiones para enviar una oferta en formato JSON para su consumo en integraciones de marco de trabajo o del lado del servidor de la.
 
 ## Consideraciones de JSON
 
 Cuando trabaje con ofertas JSON, tenga en cuenta la información siguiente:
 
-* Actualmente, las ofertas JSON solo están disponibles para [!UICONTROL Prueba A/B], Automated Personalization (AP) y [!UICONTROL Segmentación de experiencias] (XT).
-* Las ofertas JSON se pueden usar en [actividades basadas en formularios](/help/main/c-experiences/form-experience-composer.md) solo.
-* La oferta JSON se puede recuperar directamente cuando esté utilizando la variable [API del servidor y SDK de Node.js, Java, .NET y Python para móviles](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
-* En el navegador, las ofertas JSON se pueden recuperar SOLAMENTE a través de at.js 1.2.3 (o posterior) y utilizando [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} filtrando acciones usando la variable `setJson` acción.
+* Actualmente, las ofertas JSON solo están disponibles para [!UICONTROL Prueba A/B], Automated Personalization (AP) y [!UICONTROL Segmentación de experiencias] Actividades de (XT).
+* Las ofertas JSON se pueden utilizar en [actividades basadas en formularios](/help/main/c-experiences/form-experience-composer.md) solo.
+* La oferta JSON se puede recuperar directamente cuando utilice el [API del servidor y SDK de Mobile Node.js, Java, .NET y Python](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+* En el explorador, las ofertas JSON se pueden recuperar SOLAMENTE a través de at.js 1.2.3 (o versiones posteriores) y utilizando [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} filtrando acciones usando la variable `setJson` acción.
 * Las ofertas JSON se proporcionan como objetos JSON nativos en vez de como cadenas. Los consumidores de estos objetos ya no son necesarios para gestionar objetos como cadenas y convertirlos en objetos JSON.
-* Las ofertas JSON no se aplican automáticamente, a diferencia de otras ofertas (como la ofertas HTML), porque las ofertas JSON son ofertas no visuales. Los desarrolladores deben escribir código para obtener explícitamente la oferta utilizando   [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
+* Las ofertas JSON no se aplican automáticamente, a diferencia de otras ofertas (como la ofertas HTML), porque las ofertas JSON son ofertas no visuales. Los desarrolladores deben escribir código para obtener explícitamente la oferta utilizando   [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
-## Creación de una oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
+## Crear una oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de código]**.
+1. Clic **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de código]**.
 
    ![Pestaña Ofertas > Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
@@ -44,7 +44,7 @@ Cuando trabaje con ofertas JSON, tenga en cuenta la información siguiente:
 
 ## Ejemplo de JSON {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-Las ofertas JSON solo se admiten en actividades creadas con la variable [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md). Actualmente, la única forma de poder utilizar ofertas JSON es mediante llamadas directas a API/SDK.
+Las ofertas JSON solo son compatibles con las actividades creadas con [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md). Actualmente, la única manera de poder utilizar ofertas JSON es mediante llamadas directas de API/SDK.
 
 Vea el siguiente ejemplo:
 
@@ -81,7 +81,7 @@ La matriz de acciones tiene esta estructura:
 ]
 ```
 
-Para extraer la oferta JSON, debe iterar a través de acciones y encontrar la acción con la variable `setJson` y luego se repite a través de la matriz de contenido.
+Para extraer la oferta JSON, debe iterar a través de acciones y encontrar la acción con `setJson` y, a continuación, iterar en la matriz de contenido.
 
 ## Caso de uso {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -131,18 +131,18 @@ adobe.target.getOffer({
 });
 ```
 
-## Ejemplo de oferta JSON utilizando Atributos de perfil CDP en tiempo real
+## Ejemplo de oferta JSON con atributos de perfil de CDP en tiempo real
 
-Los atributos de perfil CDP en tiempo real se pueden compartir con [!DNL Target] para su uso en ofertas de HTML y ofertas JSON. (Tenga en cuenta que esta función está en versión beta).
+Los atributos de perfil de Real-time CDP se pueden compartir con [!DNL Target] para su uso en ofertas de HTML y ofertas JSON. (Tenga en cuenta que esta función está actualmente en beta).
 
-Ejemplo de caso de uso: Como especialista en marketing en línea, Grace quiere que AEP/Unified Profile comparta valores de atributos con [!DNL Target] para proporcionar personalización en tiempo real. Mediante los atributos de perfil CDP en tiempo real, Grace puede mostrar el valor del atributo AEP en una [!DNL Target] oferta mediante sustitución de tokens. Por ejemplo, puede personalizar según el color favorito de un cliente utilizando `${aep.profile.favoriteColor}`, o su nivel de lealtad y valor de punto de lealtad mediante los tokens `${aep.loyalty.tier}` y `${aep.loyalty.points}`.
+Caso de uso de ejemplo: como experto en marketing en línea, Grace desea que AEP/Unified Profile comparta valores de atributo con [!DNL Target] para proporcionar una personalización en tiempo real. Al utilizar los atributos de perfil de Real-time CDP, Grace puede mostrar el valor del atributo de AEP en una [!DNL Target] oferta mediante reemplazo de token. Por ejemplo, puede personalizar según el color favorito de un cliente utilizando `${aep.profile.favoriteColor}`o su nivel de lealtad y valor de punto de lealtad mediante los tokens `${aep.loyalty.tier}` y `${aep.loyalty.points}`.
 
-![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
+![imagen offer-json-aep-shared-attribute](assets/offer-json-aep-shared-attribute.png)
 
 Tenga en cuenta que la asignación de valores predeterminados es opcional.
 
 ## Filtrado de ofertas por tipo de oferta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Puede filtrar la variable [!UICONTROL Ofertas] biblioteca por tipo de oferta JSON haciendo clic en el botón **[!UICONTROL Tipo]** lista desplegable y, a continuación, seleccionando la **[!UICONTROL JSON]** casilla de verificación.
+Puede filtrar la variable [!UICONTROL Ofertas] por tipo de oferta JSON haciendo clic en el icono **[!UICONTROL Tipo]** lista desplegable y, a continuación, seleccionando la variable **[!UICONTROL JSON]** casilla de verificación
 
 ![imagen offer-json-filter](assets/offer-json-filter.png)

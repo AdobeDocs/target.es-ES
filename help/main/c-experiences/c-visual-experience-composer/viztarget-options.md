@@ -1,27 +1,27 @@
 ---
-keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias;opciones de experiencia;editar texto;editar html;editar texto/html;editar color de fondo;insertar elemento;editar vínculo;vínculo;vínculo;compositor de experiencias visuales;editar clase css;clase css;intercambiar oferta;intercambiar imagen;intercambiar imagen;eliminar elemento;ocultar elemento;ocultar elemento;reorganizar;mover elemento;mover elemento;cambiar tamaño del elemento;cambiar tamaño del elemento;expandir selección;navegar a este vínculo;navegar por vínculo;navegar;navegar;vínculo;deshacer;deshacer;deshacer/rehacer;eventos personalizados;componentes web;decisión de oferta;offer decisioning
+keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias visuales;opciones de experiencia;editar texto;editar html;editar texto/html;editar color de fondo;insertar elemento;editar vínculo;vínculo del compositor de experiencias visuales;editar clase css;clase css;intercambiar oferta;intercambio de ofertas;intercambiar imagen;intercambio de imágenes;quitar elemento;eliminar elemento;ocultar elemento;ocultar elemento;reorganizar;mover elemento;mover elemento;cambiar tamaño elemento;cambiar tamaño elemento;elemento;expandir selección;expandir selección;navegar a este vínculo;navegar vínculo;navegar por vínculo;deshacer;rehacer;deshacer/rehacer;eventos personalizados;componentes web;decisión de oferta;offer decisioning
 description: Explore las opciones disponibles en la [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC).
-title: ¿Cómo utilizo la variable [!UICONTROL Compositor de experiencias visuales] ¿Opciones (VEC)?
+title: ¿Cómo utilizo el [!UICONTROL Compositor de experiencias visuales] ¿Opciones de (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2936'
-ht-degree: 61%
+source-wordcount: '2923'
+ht-degree: 62%
 
 ---
 
 # Opciones del Compositor de experiencias visuales
 
-Al hacer clic en un elemento de página de la [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC), un menú muestra las opciones disponibles para ese tipo de elemento. Además, se muestra una ruta DOM en la parte inferior de la página que permite navegar fácilmente por la estructura de la página.
+Al hacer clic en un elemento de página en la variable [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC), un menú muestra las opciones disponibles para ese tipo de elemento. Además, se muestra una ruta DOM en la parte inferior de la página que permite navegar fácilmente por la estructura de la página.
 
-Los distintos [!UICONTROL Compositor de experiencias visuales] Las acciones (VEC) se agrupan en opciones de menú apropiadas para que su trabajo sea más rápido y eficiente:
+Los distintos [!UICONTROL Compositor de experiencias visuales] Las acciones de (VEC) se agrupan en opciones de menú adecuadas para que su trabajo sea más rápido y eficiente:
 
 ![Menú Opciones de VEC](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->Las opciones disponibles dependen del tipo de actividad que esté creando o editando.
+>Las opciones disponibles dependen del tipo de actividad que cree o edite.
 
 ## [!UICONTROL Editar  ]
 
@@ -54,21 +54,21 @@ Use el selector de color para seleccionar o configurar un color de fondo. Puede 
 
 Utilice el panel [!UICONTROL Estilos] para ver o editar el valor de los estilos existentes para el elemento seleccionado. También puede añadir estilos adicionales.
 
-Para acceder a la [!UICONTROL Estilos] , haga clic en un elemento de página desde el VEC y, a continuación, haga clic en **[!UICONTROL Editar]** > **[!UICONTROL Estilos]**.
+Para acceder a [!UICONTROL Estilos] , haga clic en un elemento de página desde el VEC y, a continuación, haga clic en **[!UICONTROL Editar]** > **[!UICONTROL Estilos]**.
 
 El panel [!UICONTROL Estilos] aparece en la parte derecha del VEC. El panel contiene una lista de estilos que le permite editar o agregar al elemento seleccionado. Un editor CSS en tiempo real permite ver cambios y agregar estilos si se siente cómodo utilizando hojas de estilo en cascada (CSS) o si recibe código de su desarrollador.
 
 ![Panel Estilos](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-Al aplicar distintos estilos, siempre puede revertir los cambios haciendo clic en el botón [!UICONTROL Revertir] que se muestra en la esquina superior derecha de la variable [!UICONTROL Estilos] después de cambiar cualquier sección. Al hacer clic en [!UICONTROL Revertir] revierte todos los cambios en el panel de la sección actual.
+Al aplicar diferentes estilos, siempre puede revertir los cambios haciendo clic en el [!UICONTROL Revertir] que se muestra en la esquina superior derecha de la [!UICONTROL Estilos] después de cambiar cualquier sección. Haciendo clic en [!UICONTROL Revertir] El icono revierte todos los cambios en el panel de la sección actual.
 
-Expanda cada sección para editar o agregar estilos, como se explica a continuación. Para guardar los cambios, haga clic en el botón [!UICONTROL Atrás] en la parte superior del panel para volver a la pantalla principal del panel y, a continuación, haga clic en **[!UICONTROL Guardar]**.
+Expanda cada sección para editar o agregar estilos, como se explica a continuación. Para guardar los cambios, haga clic en [!UICONTROL Atrás] en la parte superior del panel para volver a la pantalla principal del panel y haga clic en **[!UICONTROL Guardar]**.
 
-Los puntos azules del panel principal y junto a cada opción en los distintos paneles de sección indican que ha cambiado los estilos correspondientes. Este indicador visual le permite revisar sus cambios antes de hacer clic en [!UICONTROL Guardar].
+Los puntos azules en el panel principal y junto a cada opción en los distintos paneles de sección indican que ha cambiado los estilos correspondientes. Este indicador visual facilita la revisión de los cambios antes de hacer clic en [!UICONTROL Guardar].
 
 >[!NOTE]
 >
->Las acciones rápidas para cambios de diseño, color de fondo, cambio de tamaño y movimiento también están disponibles como acciones independientes en el menú VEC. Estas opciones pueden utilizarse como acciones independientes o puede utilizar el menú Estilos, tal como se explica aquí.
+>Las acciones rápidas para cambios de diseño, color de fondo, cambio de tamaño y movimiento también están disponibles como acciones independientes en el menú VEC. Estas opciones se pueden utilizar como acciones independientes o puede utilizar el menú Estilos, tal como se explica aquí.
 
 * **[!UICONTROL Contexto]**
 
@@ -111,7 +111,7 @@ Los puntos azules del panel principal y junto a cada opción en los distintos pa
 
    El margen admite valores positivos y negativos.
 
-   Target también admite otras unidades de tamaño, como rem, pc, em. Para obtener más información sobre estas unidades, consulte [Consejos y trucos de las hojas de estilo web CSS](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target también admite otras unidades de tamaño, como rem, pc, em. Para obtener más información sobre estas unidades, consulte [Consejos y trucos para hojas de estilo web CSS](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **[!UICONTROL Relleno]**
 
@@ -129,9 +129,9 @@ Los puntos azules del panel principal y junto a cada opción en los distintos pa
 
    Puede editar los estilos siguientes para cada borde (superior, derecho, inferior e izquierdo):
 
-   * [!UICONTROL Estilo de borde] (ninguno, oculto, punteado, discontinuo, sólido o doble)
+   * [!UICONTROL Estilo de borde] (ninguno, oculto, punteado, discontinuo, continuo o doble)
    * [!UICONTROL Color del borde] (especifique el código de color o use el selector de color)
-   * [!UICONTROL Ancho del borde] (arrastre el control deslizante para seleccionar un ancho de borde o especificar el ancho en píxeles)
+   * [!UICONTROL Anchura del borde] (arrastre el control deslizante para seleccionar un ancho de borde o especificar el ancho en píxeles)
 
    El borde admite escalas de anchura a partir de 0.
 
@@ -139,7 +139,7 @@ Los puntos azules del panel principal y junto a cada opción en los distintos pa
 
 * **[!UICONTROL Posición]**
 
-   Mueva el elemento seleccionado desde su posición actual. Puede cambiar la parte superior, inferior, izquierda, derecha y [Índice Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) posición.
+   Mueva el elemento seleccionado desde su posición actual. Puede cambiar la parte superior, inferior, izquierda, derecha y derecha del elemento [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) posición.
 
    Haga clic en la lista desplegable [!UICONTROL Estática] para elegir entre las siguientes opciones de posición:
 
@@ -152,7 +152,7 @@ Los puntos azules del panel principal y junto a cada opción en los distintos pa
    Haga clic en el icono desplegable de cada posición para elegir entre las siguientes opciones:
 
    * [!UICONTROL Automático]
-   * [!UICONTROL Valor] (arrastre el control deslizante para colocar el elemento o especificar el número de píxeles que desea desplazar el elemento)
+   * [!UICONTROL Valor] (arrastre el control deslizante para colocar el elemento o especificar el número de píxeles que desea mover)
 
    La posición admite valores positivos y negativos.
 
@@ -165,7 +165,7 @@ Los puntos azules del panel principal y junto a cada opción en los distintos pa
    Haga clic en el icono desplegable situado junto a [!UICONTROL Anchura] y [!UICONTROL Altura] para elegir entre las siguientes opciones:
 
    * [!UICONTROL Automático]
-   * [!UICONTROL Valor] (arrastre el control deslizante para cambiar el tamaño del elemento o especificar el número de píxeles para cada dimensión)
+   * [!UICONTROL Valor] (arrastre el regulador para cambiar el tamaño del elemento o especificar el número de píxeles para cada dimensión)
 
 * **[!UICONTROL Filtro]**
 
@@ -194,7 +194,7 @@ Los puntos azules del panel principal y junto a cada opción en los distintos pa
 
    Puede escribir su propio código si el estilo deseado no está disponible de forma predeterminada en [!UICONTROL Estilos].
 
-   El Editor CSS muestra los detalles de la sesión actual solamente. Si guarda cambios y vuelve a abrir el editor, los detalles sobre el cambio anterior no se muestran en el editor, aunque vuelva a seleccionar el mismo elemento.
+   El editor CSS muestra solo los detalles de la sesión actual. Si guarda cambios y vuelve a abrir el editor, los detalles sobre el cambio anterior no se muestran en el editor, aunque vuelva a seleccionar el mismo elemento.
 
    >[!IMPORTANT]
    >
@@ -218,13 +218,13 @@ Las opciones disponibles son las siguientes:
 
 ### [!UICONTROL Decisión de oferta]
 
-Agregue un [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para presentar la mejor oferta y experiencia a sus clientes mediante el offer decisioning.
+Añadir un [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para presentar la mejor oferta y experiencia a sus clientes con offer decisioning.
 
-**Nota:** Esta opción está disponible al editar o crear [manual [!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Segmentación de experiencias]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo. Esta opción no está disponible para otros tipos de actividades.
+**Nota:** Esta opción está disponible al editar o crear [manual [!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Segmentación de experiencias]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo actividades de. Esta opción no está disponible para otros tipos de actividades.
 
 Para obtener más información, consulte [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
-### [!UICONTROL Imagen], [!UICONTROL HTML]y [!UICONTROL Texto]
+### [!UICONTROL Imagen], [!UICONTROL HTML], y [!UICONTROL Texto]
 
 Agrega cualquier tipo de elemento a la página además de modificar el contenido existente. Agregue texto, código, listas, etc. para crear experiencias que probar completamente diferentes.
 
@@ -250,13 +250,13 @@ Las opciones disponibles son las siguientes:
 
 ### [!UICONTROL Decisión de oferta]
 
-Agregue un [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para presentar la mejor oferta y experiencia a sus clientes mediante el offer decisioning.
+Añadir un [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para presentar la mejor oferta y experiencia a sus clientes con offer decisioning.
 
-**Nota:** Esta opción está disponible al editar o crear [manual [!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Segmentación de experiencias]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo. Esta opción no está disponible para otros tipos de actividades.
+**Nota:** Esta opción está disponible al editar o crear [manual [!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Segmentación de experiencias]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo actividades de. Esta opción no está disponible para otros tipos de actividades.
 
 Para obtener más información, consulte [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
-### [!UICONTROL Imagen], [!UICONTROL HTML]y [!UICONTROL Texto]
+### [!UICONTROL Imagen], [!UICONTROL HTML], y [!UICONTROL Texto]
 
 Agrega cualquier tipo de elemento a la página además de modificar el contenido existente. Agregue texto, código, listas, etc. para crear experiencias que probar completamente diferentes.
 
@@ -282,9 +282,9 @@ Las opciones disponibles son las siguientes:
 
 ### [!UICONTROL Decisión de oferta]
 
-Agregue un [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para presentar la mejor oferta y experiencia a sus clientes mediante el offer decisioning.
+Añadir un [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para presentar la mejor oferta y experiencia a sus clientes con offer decisioning.
 
-**Nota:** Esta opción está disponible al editar o crear [manual [!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Segmentación de experiencias]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo. Esta opción no está disponible para otros tipos de actividades.
+**Nota:** Esta opción está disponible al editar o crear [manual [!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Segmentación de experiencias]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo actividades de. Esta opción no está disponible para otros tipos de actividades.
 
 Para obtener más información, consulte [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
@@ -312,7 +312,7 @@ Seleccione una oferta distinta de la [!UICONTROL Biblioteca de contenido].
 
 **Nota:**[!DNL Target] Las ofertas HTML se almacenan en servidores de
 
-Una oferta de HTML puede ser de hasta 256 kB.
+La oferta de HTML puede alcanzar los 256 KB.
 
 ### Recomendación
 
@@ -332,11 +332,11 @@ Arrastrar el elemento a otra ubicación dentro del mismo elemento principal o DI
 
 **Nota**: El rastreo de clics no funciona en elementos reorganizados.
 
-Actualmente, algunas acciones del VEC, como [!UICONTROL Reorganizar] y [!UICONTROL Mover], suponga que los elementos del mismo nivel de los elementos principales de origen y destino están completamente cargados. Si la carga diferida se produce bajo los elementos DOM principales (origen o destino), estas acciones del VEC pueden causar un comportamiento incoherente. Estamos trabajando en un enfoque más fiable para hacer que las acciones del VEC funcionen en elementos DOM cargados de pereza. Como solución temporal, puede utilizar [!UICONTROL Código personalizado] en estos escenarios para presentar sus experiencias.
+Actualmente, ciertas acciones del VEC, como [!UICONTROL Reorganizar] y [!UICONTROL Mover], supongamos que los elementos del mismo nivel de los elementos principales de origen y destino se cargan completamente. Si la carga diferida se produce en los elementos DOM principales (origen o destino), estas acciones del VEC pueden provocar un comportamiento incoherente. Estamos trabajando en un enfoque más confiable para hacer que las acciones del VEC funcionen en elementos DOM cargados de forma diferida. Como solución temporal, puede utilizar [!UICONTROL Código personalizado] en estos escenarios para procesar sus experiencias.
 
 ### [!UICONTROL Cambiar el tamaño]
 
-Cambia el tamaño de un elemento en la página. Al seleccionar [!UICONTROL Cambiar tamaño], aparece un controlador en la esquina inferior derecha del elemento que permite arrastrar esa esquina para cambiar el tamaño. Mantenga pulsada la tecla Mayús para conservar la misma relación de aspecto.
+Cambia el tamaño de un elemento en la página. Al seleccionar [!UICONTROL Redimensionar], aparece un controlador en la esquina inferior derecha del elemento que le permite arrastrar esa esquina para cambiar de tamaño. Mantenga pulsada la tecla Mayús para conservar la misma relación de aspecto.
 
 **Nota:** No se puede cambiar el tamaño de los elementos en línea.
 
@@ -346,7 +346,7 @@ Mueve elementos en la página. A diferencia de [!UICONTROL Reorganizar], [!UICON
 
 En determinadas situaciones, como cuando una restricción de CSS requiere que un elemento permanezca dentro de su elemento principal, no se puede mover el elemento fuera del elemento principal. Un elemento no se puede mover fuera de un contenedor que tenga la propiedad CSS siguiente: `overflow: hidden`.
 
-Consulte [!UICONTROL Reorganizar] más arriba para obtener más información sobre el comportamiento incoherente con la variable [!UICONTROL Mover] y [!UICONTROL Reorganizar] acciones debidas a la carga lenta de elementos DOM.
+Consulte [!UICONTROL Reorganizar] para obtener más información sobre comportamientos incoherentes con la [!UICONTROL Mover] y [!UICONTROL Reorganizar] acciones debido a la carga diferida de elementos DOM.
 
 ### [!UICONTROL Ocultar]
 
@@ -372,19 +372,19 @@ Deshace los cambios realizados en las actividades durante una sesión de edició
 
 ## Consideraciones {#considerations}
 
-* Si una oferta contiene contenido de HTML, consulte &quot;Cómo at.js procesa ofertas con contenido de HTML&quot; en [Cómo funciona at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} para obtener más información.
+* Si una oferta contiene contenido HTML, consulte “Cómo at.js procesa ofertas con contenido HTML” en [Cómo funciona at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html) para obtener más información.{target=_blank}
 
 ## Compatibilidad con elementos personalizados {#custom}
 
-El VEC es compatible [Componentes web](https://developer.mozilla.org/es/docs/Web/Web_Components) para permitirle crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad está disponible en el VEC para todos los [!DNL Target] tipos de actividades.
+El VEC admite [Componentes web](https://developer.mozilla.org/es/docs/Web/Web_Components) para permitirle crear y probar experiencias y ofertas personalizadas en elementos personalizados y en elementos dentro de elementos personalizados. Esta funcionalidad está disponible en el VEC para todos los [!DNL Target] tipos de actividades.
 
 >[!NOTE]
 >
->La compatibilidad con VEC para elementos personalizados se admite en [Versión de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (o posterior){target=_blank}. Asegúrese de que el sitio web tenga implementada la versión requerida. Si está utilizando la variable [Extensión del Helper del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), también debe tener implementada la versión requerida de at.js. Las opciones de VEC descritas anteriormente no son visibles y están disponibles para su uso con versiones no compatibles de at.js.
+>La compatibilidad con VEC para elementos personalizados se admite en [Versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Asegúrese de que el sitio web tenga implementada la versión requerida. Si utiliza el complemento [Extensión de ayuda del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), también debe tener implementada la versión requerida de at.js. Las opciones de VEC descritas anteriormente no están visibles y disponibles para su uso con versiones no compatibles de at.js.
 >
->Actualmente, la compatibilidad con VEC para elementos personalizados no es compatible con [SDK web de Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+>Actualmente, la compatibilidad con VEC para elementos personalizados no es compatible con [SDK web de Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
-La mayoría de las acciones del VEC se admiten en eventos personalizados y dentro de eventos personalizados, con las siguientes excepciones:
+La mayoría de las acciones del VEC son compatibles con los eventos personalizados y dentro de los eventos personalizados, con las siguientes excepciones:
 
 Las siguientes acciones no están disponibles en los elementos personalizados:
 
@@ -395,7 +395,7 @@ Las siguientes acciones no están disponibles en los elementos personalizados:
 
 * [!UICONTROL Reemplazar contenido]
 
-La siguiente acción no está disponible dentro de elementos personalizados:
+La siguiente acción no está disponible dentro de los elementos personalizados:
 
 * [!UICONTROL Diseño]
    * [!UICONTROL Reorganizar]

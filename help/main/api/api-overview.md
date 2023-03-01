@@ -1,13 +1,13 @@
 ---
-keywords: api;api;api de administrador;api de envío;api de informes;api de perfil
-description: Buscar Adobe [!DNL Target] API, incluidas las API de administrador, envío, informes y perfil.
-title: Dónde puedo encontrar [!DNL Target] ¿Documentación de API y SDK?
+keywords: api;api de administración;api de entrega;api de informes;api de perfil
+description: Buscar Adobe [!DNL Target] API, incluidas las API de administración, envío, creación de informes y perfil.
+title: ¿Dónde puedo encontrar? [!DNL Target] Documentación de API y SDK
 feature: APIs/SDKs
 role: Developer
 exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
-source-git-commit: d8fd919830cb6f73540af842a3b87b06b0bece3c
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '164'
 ht-degree: 1%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 1%
 
 Antes de empezar a usar [!DNL Adobe Target], debe implementarlo en el sitio.
 
-La variable [Portal de guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank} contiene información que debe conocer antes de implementar [!DNL Target].
+El [Guía para desarrolladores de Adobe Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contiene información que debe conocer antes de implementar [!DNL Target].
 
 El portal para desarrolladores incluye información sobre los siguientes tipos de implementación:
 
-* Del lado del cliente, incluida información sobre la implementación mediante el [!DNL Adobe Experience Platform Web SDK] o [!DNL Target Web SDK] (at.js).
-* Del lado del servidor, incluida información sobre la implementación de mediante los SDK de Node.JS, JAVA, .NET y Python.
-* Información híbrida que le ayudará a implementar si utiliza una combinación de implementaciones del lado del cliente y del lado del servidor.
-* Recommendations, información para ayudarle a implementar [!DNL Recommendations], [Target Premium](/help/main/c-intro/intro.md#premium) oferta.
+* Del lado del cliente, incluida la información acerca de la implementación de mediante [!DNL Adobe Experience Platform Web SDK] o el [!DNL Target Web SDK] (at.js).
+* Del lado del servidor, incluida la información sobre la implementación del uso de los SDK de Node.JS, JAVA, .NET y Python.
+* Información híbrida para ayudarle a implementar si utiliza una combinación de implementaciones del lado del cliente y del lado del servidor.
+* Recommendations, información para ayudarle a implementar [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) oferta.
 * Aplicaciones móviles.
 * Correo electrónico.
 
@@ -31,6 +31,6 @@ El portal para desarrolladores incluye información sobre los siguientes tipos d
 
 * API de administrador y perfil.
 * API de informes.
-* API de recomendación.
+* API de Recommendations.
 
-Para obtener más información, consulte [Información general de la API de Target](https://developer.adobe.com/target/before-administer/){target=_blank} en la sección [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/)Portal {target=_blank}.
+Para obtener más información, consulte [Información general de API de Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/target-api-overview.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} portal.
