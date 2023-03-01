@@ -5,9 +5,9 @@ title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '3166'
+source-wordcount: '3169'
 ht-degree: 59%
 
 ---
@@ -252,7 +252,7 @@ Tenga en cuenta lo siguiente al utilizar o configurar propiedades y permisos en 
 
    En una versión futura, Target funcionará en páginas donde no haya presente un token `at_property`, o donde exista un token `at_property` distinto.
 
-* La funcionalidad Permisos de usuario de Enterprise no se admite en llamadas a la API de Adobe I/O
+* La funcionalidad Permisos de usuario de Enterprise no se admite en [llamadas a la API de Adobe I/O](https://developer.adobe.com/target/){target=_blank}
 
 ## Preguntas frecuentes {#faqs}
 

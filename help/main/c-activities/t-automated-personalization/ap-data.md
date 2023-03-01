@@ -4,9 +4,9 @@ description: Descubra qué Adobe de datos [!DNL Target] recopila y utiliza para 
 title: ¿Qué datos se recopilan para crear algoritmos de aprendizaje automático?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2023'
 ht-degree: 54%
 
 ---
@@ -48,7 +48,7 @@ La siguiente tabla muestra los datos proporcionados por el cliente y recopilados
 
 Las funciones se pueden bloquear mediante [!DNL Target] algoritmos de aprendizaje automático, lo que impide su uso en cualquier modelo o actividad de [!UICONTROL Segmentación automática] o [!UICONTROL Automated Personalization].
 
-Para obtener más información, consulte [Información general sobre la API de modelos (Inclusión en la lista de bloqueados)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} en el *Guía para desarrolladores de Adobe Target*.
+Para obtener más información, consulte [Información general sobre la API de modelos (Inclusión en la lista de bloqueados)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} en el *Guía para desarrolladores de Adobe Target*.
 
 ## Datos de dispositivos y móviles {#device-mobile}
 

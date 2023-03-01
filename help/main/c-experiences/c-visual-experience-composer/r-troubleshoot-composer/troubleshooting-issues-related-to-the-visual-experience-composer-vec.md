@@ -4,10 +4,10 @@ description: Aprenda a solucionar problemas que a veces se producen en el Adobe 
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 67%
+source-wordcount: '971'
+ht-degree: 68%
 
 ---
 
@@ -123,7 +123,7 @@ Después de configurar una extensión, abra Target. Sus páginas ahora deberían
 
 ## El VEC parece roto cuando utilizo el modo Examinar. (Solo VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Al utilizar el modo Examinar, si accede a una dirección URL que no tiene [!DNL Target] bibliotecas implementadas ([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) o contiene un encabezado de eliminación de fotogramas, el VEC parece roto. Debido a problemas de seguridad del explorador, [!DNL Target] no puede acceder correctamente a la dirección URL a la que ha navegado o la URL del VEC no se actualiza de forma coherente si se carga la página.
+Al utilizar el modo Examinar, si accede a una dirección URL que no tiene [!DNL Target] bibliotecas implementadas ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) o contiene un encabezado de eliminación de fotogramas, el VEC parece roto. Debido a problemas de seguridad del explorador, [!DNL Target] no puede acceder correctamente a la dirección URL a la que ha navegado o la URL del VEC no se actualiza de forma coherente si se carga la página.
 
 Este problema se produce porque VEC carga la página web en un `<iframe>`. Los mecanismos de seguridad actuales de los exploradores impiden que [!DNL Target] La interfaz de usuario no puede acceder a los elementos del marco determinado debido a la política del mismo origen. Los navegadores bloquean los scripts que intentan acceder a un marco con un origen diferente y que incluye información como la `location.href`.
 

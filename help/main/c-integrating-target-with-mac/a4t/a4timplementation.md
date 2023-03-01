@@ -4,9 +4,9 @@ description: Siga los pasos necesarios para implementar Analytics para [!DNL Tar
 title: ¿Cómo puedo implementar Analytics para? [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1156'
 ht-degree: 26%
 
 ---
@@ -116,9 +116,9 @@ Esta configuración tiene un efecto global, lo que significa que cada llamada re
 }
 ```
 
-La carga útil se puede reenviar a Analytics a través de la variable [API de inserción de datos](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Para las actividades de Asignación automática y Segmentación automática, también debe reenviar el sessionId. Para obtener más información, consulte [Creación de informes en Analytics for Target (A4T)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} en el *SDK para Adobe Target* guía.
+La carga útil se puede reenviar a Analytics a través de la variable [API de inserción de datos](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Para las actividades de Asignación automática y Segmentación automática, también debe reenviar el sessionId. Para obtener más información, consulte [Creación de informes en Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} en el *SDK para Adobe Target* guía.
 
-Si no desea una configuración global y prefiere un método bajo demanda, utilice la función at.js [getOffers()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} al pasar **analyticsLogging: &quot;client_side&quot;**. La carga útil de Analytics solo se devuelve para esta llamada y el [!DNL Target] backend no reenvía la carga útil a [!DNL Analytics]. Al llevar a cabo este enfoque, cada at.js [!DNL Target] La solicitud de devuelve la carga útil de forma predeterminada, pero solo cuando se desea y se especifica.
+Si no desea una configuración global y prefiere un método bajo demanda, utilice la función at.js [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} al pasar **analyticsLogging: &quot;client_side&quot;**. La carga útil de Analytics solo se devuelve para esta llamada y el [!DNL Target] backend no reenvía la carga útil a [!DNL Analytics]. Al llevar a cabo este enfoque, cada at.js [!DNL Target] La solicitud de devuelve la carga útil de forma predeterminada, pero solo cuando se desea y se especifica.
 
 Por ejemplo:
 

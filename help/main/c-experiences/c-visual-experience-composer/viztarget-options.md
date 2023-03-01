@@ -4,10 +4,10 @@ description: Explore las opciones disponibles en la [!DNL Adobe Target] [!UICONT
 title: ¿Cómo utilizo el [!UICONTROL Compositor de experiencias visuales] ¿Opciones de (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2923'
-ht-degree: 62%
+source-wordcount: '2920'
+ht-degree: 63%
 
 ---
 
@@ -372,7 +372,7 @@ Deshace los cambios realizados en las actividades durante una sesión de edició
 
 ## Consideraciones {#considerations}
 
-* Si una oferta contiene contenido HTML, consulte “Cómo at.js procesa ofertas con contenido HTML” en [Cómo funciona at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html) para obtener más información.{target=_blank}
+* Si una oferta contiene contenido HTML, consulte “Cómo at.js procesa ofertas con contenido HTML” en [Cómo funciona at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) para obtener más información.{target=_blank}
 
 ## Compatibilidad con elementos personalizados {#custom}
 
@@ -380,9 +380,9 @@ El VEC admite [Componentes web](https://developer.mozilla.org/es/docs/Web/Web_Co
 
 >[!NOTE]
 >
->La compatibilidad con VEC para elementos personalizados se admite en [Versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Asegúrese de que el sitio web tenga implementada la versión requerida. Si utiliza el complemento [Extensión de ayuda del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), también debe tener implementada la versión requerida de at.js. Las opciones de VEC descritas anteriormente no están visibles y disponibles para su uso con versiones no compatibles de at.js.
+>La compatibilidad con VEC para elementos personalizados se admite en [Versión de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (or later){target=_blank}. Asegúrese de que el sitio web tenga implementada la versión requerida. Si utiliza el complemento [Extensión de ayuda del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), también debe tener implementada la versión requerida de at.js. Las opciones de VEC descritas anteriormente no están visibles y disponibles para su uso con versiones no compatibles de at.js.
 >
->Actualmente, la compatibilidad con VEC para elementos personalizados no es compatible con [SDK web de Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+>Actualmente, la compatibilidad con VEC para elementos personalizados no es compatible con [SDK web de Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 La mayoría de las acciones del VEC son compatibles con los eventos personalizados y dentro de los eventos personalizados, con las siguientes excepciones:
 

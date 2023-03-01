@@ -5,9 +5,9 @@ title: ¿Qué son los hosts y cómo los utilizo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1087'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Si un [!DNL Target] la solicitud se realiza en un host no autorizado, la llamada
 
 >[!IMPORTANT]
 >
->**Prácticas recomendadas de seguridad**: Si utiliza la funcionalidad ubox de [!DNL Target], esta lista de permitidos también controla la lista de dominios a los que se [redirectores](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} puede navegar. Asegúrese de agregar los dominios a los que desee redirigir al utilizar ubox como parte de la implementación. Si no se especifica la lista de permitidos, [!DNL Adobe] no puede verificar las direcciones URL de redireccionamiento y protegerlo de posibles redireccionamientos malintencionados.
+>**Prácticas recomendadas de seguridad**: Si utiliza la funcionalidad ubox de [!DNL Target], esta lista de permitidos también controla la lista de dominios a los que se [redirectores](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} puede navegar. Asegúrese de agregar los dominios a los que desee redirigir al utilizar ubox como parte de la implementación. Si no se especifica la lista de permitidos, [!DNL Adobe] no puede verificar las direcciones URL de redireccionamiento y protegerlo de posibles redireccionamientos malintencionados.
 >
 >La lista de permitidos tiene prioridad sobre los entornos. Borre todos los hosts antes de utilizar la función de lista de permitidos y, a continuación, en la lista de hosts solo aparecerán los hosts permitidos por la lista de permitidos. A continuación, puede mover los hosts al entorno que quiera.
 

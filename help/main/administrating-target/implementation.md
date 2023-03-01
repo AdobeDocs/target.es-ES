@@ -5,10 +5,10 @@ title: ¿Cómo se implementa? [!DNL Target] en Mi sitio?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 21%
+source-wordcount: '166'
+ht-degree: 26%
 
 ---
 
@@ -20,10 +20,10 @@ Para obtener más información, consulte los distintos temas de [Implementación
 
 >[!NOTE]
 >
->Etiquetas en [!DNL Adobe Experience Platform] es el método preferido para implementar [!DNL Target]. Las etiquetas de [!DNL Adobe Experience Platform] son la siguiente generación de funcionalidades de administración de etiquetas de [!DNL Adobe]. Las etiquetas ofrecen a los clientes una forma sencilla de implementar y administrar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. Para obtener más información, consulte [Implementación [!DNL Target] usando [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}.
+>Etiquetas en [!DNL Adobe Experience Platform] es el método preferido para implementar [!DNL Target]. Las etiquetas de [!DNL Adobe Experience Platform] son la siguiente generación de funcionalidades de administración de etiquetas de [!DNL Adobe]. Las etiquetas ofrecen a los clientes una forma sencilla de implementar y administrar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. Para obtener más información, consulte [Implementación [!DNL Target] usando [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
 1. Para acceder a [!UICONTROL Implementación] página, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Implementación]**.
 
-1. Para obtener información aplicable a la configuración de esta página, consulte [Implementación de Target sin un administrador de etiquetas](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+1. Para obtener información aplicable a la configuración de esta página, consulte [Implementación de Target sin un administrador de etiquetas](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 ![Página de implementación](/help/main/administrating-target/assets/implementation.png)

@@ -5,10 +5,10 @@ title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 27%
+source-wordcount: '1669'
+ht-degree: 28%
 
 ---
 
@@ -26,8 +26,8 @@ Una diferencia clave entre los complementos y los tokens de respuesta es que los
 
 | SDK de Target | Acciones sugeridas |
 |--- |--- |
-| [SDK web de Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Compruebe que está utilizando la versión 2.6.0 o posterior del SDK web de Platform. Para obtener información sobre la descarga de la versión más reciente del SDK web de Platform, consulte [Instalación del SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} en el *Información general de Platform Web SDK* guía. Para obtener información sobre las nuevas funcionalidades en cada versión del SDK web de Platform, consulte [Notas de versión](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) en el *Información general de Platform Web SDK* guía. |
-| [at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre la descarga de la versión más reciente de at.js, consulte [Descargar at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Algunos complementos que dependen de métodos internos y que existían en mbox.js (ahora obsoletos), pero no en at.js, se entregan pero fallan. |
+| [SDK web de Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Compruebe que está utilizando la versión 2.6.0 o posterior del SDK web de Platform. Para obtener información sobre la descarga de la versión más reciente del SDK web de Platform, consulte [Instalación del SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} en el *Información general de Platform Web SDK* guía. Para obtener información sobre las nuevas funcionalidades en cada versión del SDK web de Platform, consulte [Notas de versión](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) en el *Información general de Platform Web SDK* guía. |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre la descarga de la versión más reciente de at.js, consulte [Descargar at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Algunos complementos que dependen de métodos internos y que existían en mbox.js (ahora obsoletos), pero no en at.js, se entregan pero fallan. |
 
 ## Uso de tokens de respuesta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ Una diferencia clave entre los complementos y los tokens de respuesta es que los
    Para obtener más información:
 
    * **SDK web de Platform**: consulte [Instalación del SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en el *Información general de Platform Web SDK* guía.
-   * **at.js**: consulte [Descargar at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+   * **at.js**: consulte [Descargar at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 1. Entrada [!DNL Target], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Tokens de respuesta]**.
 
@@ -149,7 +149,7 @@ El siguiente ejemplo de respuesta agrega una [!DNL Platform Web SDK] controlador
 
 ### ![Distintivo de at.js](/help/main/assets/atjs.png) at.js mediante eventos personalizados
 
-Utilice [eventos personalizados de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html) para detectar la respuesta de y leer los tokens de respuesta.{target=_blank}[!DNL Target]
+Utilice [eventos personalizados de at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/) para detectar la respuesta de y leer los tokens de respuesta.{target=_blank}[!DNL Target]
 
 El siguiente ejemplo de código añade un controlador de evento personalizado [!DNL at.js] directamente a la página HTML:
 
@@ -226,7 +226,7 @@ Se pueden enviar datos a los Google Analytics a través de la versión 2.6.0 (o 
 
 >[!NOTE]
 >
->Asegúrese de que el par clave-valor del token de respuesta esté en la variable `alloy("sendEvent"` objeto.
+>Asegúrese de que el par clave-valor del token de respuesta esté en la variable `alloy(“sendEvent”` objeto.
 
 ```
 <script type="text/javascript"> 
