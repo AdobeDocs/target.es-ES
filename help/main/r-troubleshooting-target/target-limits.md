@@ -1,14 +1,14 @@
 ---
 keywords: límite de caracteres;parámetros de mbox;api de entrega por lotes;parámetros de perfil;límites;perfiles integrados;límite;máximo;restricción;carácter;práctica recomendada;id de pedido;total del pedido;id de terceros de mbox;categoría;id de categoría;solución de problemas
-description: Ver una lista de límites de caracteres y otros límites que afectan a las actividades y otros elementos de [!DNL Adobe Target].
-title: ¿Cuáles son los distintos caracteres, tamaños y otros límites de [!DNL Adobe Target]?
+description: Vea una lista de límites de caracteres y otros límites que afectan a las actividades y otros elementos de [!DNL Adobe Target].
+title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro tipo en? [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
+source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 93%
+source-wordcount: '1582'
+ht-degree: 81%
 
 ---
 
@@ -66,17 +66,33 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
    Si un cliente supera las 100 solicitudes de entrega de contenido de [!DNL Target] concurrentes durante una sesión determinada, se bloquearán todas las solicitudes posteriores durante esa sesión de usuario. Dos o más solicitudes se consideran concurrentes si todas se envían al servidor de [!DNL Target] antes de recibir la respuesta de cualquiera de ellas. [!DNL Target] procesa las solicitudes concurrentes de la misma sesión de forma secuencial.
 
-* **Comportamiento del error**:
+   * **Comportamiento del error**:
 
-   * API de entrega y Mbox por lotes v2:
-      * Código de error: HTTP 420 Too Many Requests
-      * Mensaje de error: “Demasiadas solicitudes con el mismo ID de sesión”
-   * API de mbox heredada:
-      * Contenido predeterminado con el comentario “Demasiadas solicitudes con el mismo ID de sesión”
-   * at.js:
-      * Contenido predeterminado mostrado
+      * API de entrega y Mbox por lotes v2:
+         * Código de error: HTTP 420 Too Many Requests
+         * Mensaje de error: “Demasiadas solicitudes con el mismo ID de sesión”
+      * API de mbox heredada:
+         * Contenido predeterminado con el comentario “Demasiadas solicitudes con el mismo ID de sesión”
+      * at.js:
+         * Contenido predeterminado mostrado
 
 
+
+* **Límite**: 50 mboxes por [!DNL Target] solicitud mbox de lote de entrega de contenido.
+
+   Más de 50 mboxes por [!DNL Target] la solicitud mbox de lote de entrega de contenido genera un código de error de respuesta `HTTP 400` con mensaje de error `size must be between 0 and 50`.
+
+   Las solicitudes mbox por lotes se procesan secuencialmente, lo que aumenta el tiempo de respuesta general con cada iteración. Cuantos más mboxes haya en la solicitud de lote, más latencia de respuesta se puede esperar y, por lo tanto, más tiempo de espera se puede esperar. Si el procesamiento de experiencias está bloqueado en estas solicitudes por lotes de alta latencia, la latencia podría provocar una experiencia del usuario degradada a medida que los usuarios esperan a que se procesen las experiencias.
+
+* **Límite**: tamaño del cuerpo del POST HTTP de 60 MB para [!DNL Target] solicitudes de entrega de contenido.
+
+   Más de 60 MB en el tamaño del cuerpo del POST HTTP de un [!DNL Target] la solicitud de entrega de contenido genera un código de error de respuesta `HTTP 413 Request Entity Too Large`.
+
+* **Límite recomendado**: 50 notificaciones por [!DNL Target] solicitud de lote de envío.
+
+   Más de 50 notificaciones por [!DNL Target] es probable que la solicitud de lote de envíos aumente la latencia de respuesta y los tiempos de espera.
+
+   Las solicitudes de notificación por lotes se procesan secuencialmente, lo que aumenta el tiempo de respuesta general con cada iteración. Cuantas más notificaciones haya en la solicitud de lote, mayor será la latencia de respuesta esperada y, por lo tanto, el potencial de tiempos de espera. Algunos clientes pueden aceptar cierta latencia adicional en las solicitudes de notificación por lotes, pero tenga en cuenta que los tiempos de espera y los reintentos posteriores podrían causar una latencia aún mayor.
 
 ## Atributos del cliente
 
@@ -139,7 +155,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 ### Experiencias por actividad
 
-* **Límite**: 2000 experiencias por [!UICONTROL Segmentación de experiencias] (XT), [!UICONTROL Prueba A/B], [!UICONTROL Prueba multivariable] (MVT) y [!UICONTROL Segmentación automática] actividad.
+* **Límite**: 2000 experiencias al día [!UICONTROL Segmentación de experiencias] (XT), [!UICONTROL Prueba A/B], [!UICONTROL Prueba multivariable] (MVT) y [!UICONTROL Segmentación automática] actividad.
 
    30 000 experiencias por actividad de Automated Personalization (AP).
 
@@ -163,13 +179,13 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 * **Límite**: 250 caracteres.
 
-   Para la API de envío (at.js 2.*x*), Batch mbox V2 y AEP Web SDK (alloy.js) integraciones, nombres de mbox *can* contiene caracteres alfanuméricos (A-Z, a-z, 0-9) y cualquiera de los siguientes caracteres:
+   Para la API de entrega (at.js 2.*x*), Integraciones de mbox por lotes V2 y SDK web de AEP (alloy.js), nombres de mbox *lata* contener caracteres alfanuméricos (A-Z, a-z, 0-9) y cualquiera de los siguientes caracteres:
 
    ```
    - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
    ```
 
-   Para at.js 1.*x* integraciones, nombres de mbox *cannot* contiene cualquiera de los siguientes caracteres:
+   Para at.js 1.*x* integraciones, nombres de mbox *no puede* contener cualquiera de los siguientes caracteres:
 
    ```
    ' " %22 %27 < > %3C %3E 
