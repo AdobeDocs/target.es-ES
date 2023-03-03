@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
 workflow-type: tm+mt
 source-wordcount: '2072'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 23 de febrero | [Migrar Target desde at.js 2.*x* a Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} | Se ha añadido un nuevo tutorial. |
-| 21 de febrero | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Se ha actualizado la lista de direcciones IP a la lista de permitidos para todas las regiones del [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
-|  | [Modificaciones](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Se agregó texto que explica que el ejemplo que utiliza JQuery supone que el sitio web del cliente tiene jQuery disponible en la página cuando [!DNL Target] ejecuta las ofertas. |
+| 23 de febrero | [Migración de Target de at.js 2.*x* al SDK web de plataforma](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=es){target=_blank} | Se ha añadido un nuevo tutorial. |
+| 21 de febrero | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Se ha actualizado la lista de direcciones IP a la lista de permitidos para todas las regiones de la [Guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
+|  | [Modificaciones](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Se ha añadido texto que explica que en el ejemplo que utiliza JQuery se presupone que el sitio web del cliente tiene jQuery disponible en la página cuando [!DNL Target] ejecuta las ofertas. |
 | 10 de febrero | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 22.14.5 de [!DNL Target Standard/Premium]. |
 | 8 de febrero | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido las notas de la versión 2.10.1 de at.js. |
 | 2 de febrero | [Resolución de problemas relacionados con el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Se ha actualizado la sección siguiente:<ul><li>El VEC parece roto cuando utilizo el modo Examinar</li></ul> |
