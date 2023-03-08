@@ -4,16 +4,27 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '2072'
-ht-degree: 100%
+source-wordcount: '2216'
+ht-degree: 95%
 
 ---
 
 # Cambios de la documentación
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
+
+## ## [!DNL Target] Standard/Premium 22.15.1 (8 y 9 de marzo de 2023)
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| 8 de marzo | [[!UICONTROL Compatibilidad de A4T con actividades de asignación automática y segmentación automática]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Se ha actualizado la sección para incluir información sobre las métricas admitidas (y no admitidas) para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades que utilizan [!UICONTROL Analytics for Target] (A4T) |
+|  | [Tutoriales de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es){target=_blank} | Se agregaron los siguientes nuevos tutoriales:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para [!UICONTROL Asignación automática] actividades](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para [!UICONTROL Segmentación automática] actividades](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+|  | [Editar una actividad o guardar como borrador](/help/main/c-activities/edit-activity.md) | Se ha añadido la sección Prácticas recomendadas. |
+|  | [Modificaciones](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Se ha añadido la siguiente nota a la sección &quot;Solución de problemas con el código personalizado&quot;:<ul><li>Las ofertas de código personalizado del VEC no se vuelven a procesar cuando `triggerView()` se llama con `{page: false}` como la opción.</li></ul> |
+|  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se ha añadido información acerca de la versión 2.10.2 de at.js. |
+|  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 22.15.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 22.13.3 (25 de enero de 2023)
 

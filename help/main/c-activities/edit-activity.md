@@ -1,19 +1,19 @@
 ---
 keywords: actividades;actividad;tipos de actividad;editar actividad;editar;borrador
 description: Obtenga información sobre las distintas formas de editar una actividad existente en Adobe Target, incluido el guardado de una actividad en forma de borrador.
-title: ¿Cómo editar una actividad o guardar como borrador?
+title: ¿Cómo edito una actividad o guardo como borrador?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 95%
+source-wordcount: '1211'
+ht-degree: 91%
 
 ---
 
 # Editar una actividad o guardar como borrador
 
-Información sobre las distintas formas de editar una actividad existente en [!DNL Adobe Target], incluido el guardado de una actividad en forma de borrador.
+Información sobre las distintas formas de editar una actividad existente en [!DNL Adobe Target], incluido el guardado de una actividad como borrador.
 
 Target ofrece en su interfaz varios puntos donde se pueden editar las actividades existentes. El proceso varía en función del método que elija.
 
@@ -105,3 +105,11 @@ Tenga en cuenta la siguiente información cuando utilice la funcionalidad de cop
 * Cuando copia una actividad en un espacio de trabajo diferente, la actividad se copia en el otro espacio de trabajo sin abrirlo en el flujo de creación de actividades. Después de que la actividad se haya copiado correctamente, aparece un mensaje que indica que la actividad se copió con éxito e incluye un vínculo para abrir la nueva actividad.
 
 Si su entorno no tiene habilitada la funcionalidad Permisos de usuario de Enterprise, todas las actividades se abren en el modo de edición antes de copiarse.
+
+## Prácticas recomendadas
+
+* Como práctica recomendada, intente actualizar la actividad mediante el mismo método (IU o API) que se utilizó para crear la actividad originalmente.
+
+   Actividades creadas con [!DNL Target] La interfaz de usuario debe actualizarse mediante la variable [!DNL Target] IU. Las actividades creadas mediante API deben actualizarse mediante esta. Si, originalmente, crea una actividad utilizando la API, por ejemplo, pero luego edita la actividad a través de la [!DNL Target] IU, no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
+
+
