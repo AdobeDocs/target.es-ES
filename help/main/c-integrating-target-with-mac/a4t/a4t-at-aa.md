@@ -4,10 +4,10 @@ description: Aprenda a crear [!UICONTROL Asignación automática] y [!UICONTROL 
 title: ¿Admite A4T? [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] ¿Actividades?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 3%
+source-wordcount: '1382'
+ht-degree: 2%
 
 ---
 
@@ -76,25 +76,25 @@ En primer lugar:
 
 | Nombre de la métrica | Ya no es compatible con: |
 | --- | --- |
-| [!UICONTROL averagepagedepth] | Tasa de conversión, RPV |
-| [!UICONTROL averagetimespentonsite] | Tasa de conversión, RPV |
-| [!UICONTROL botar] | Tasa de conversión, RPV |
-| [!UICONTROL bounces] | Tasa de conversión, RPV |
-| [!UICONTROL entradas] | Tasa de conversión, RPV |
-| [!UICONTROL salidas] | Tasa de conversión, RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL recargas] | RPV |
-| [!UICONTROL Visitantes] | Tasa de conversión, RPV |
-| [!UICONTROL Visitas] | RPV |
+| [!UICONTROL averagepagedepth] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL averagetimespentonsite] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL botar] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL bounces] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL entradas] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL salidas] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL pageviews] | Maximizar valor de métrica |
+| [!UICONTROL recargas] | Maximizar valor de métrica |
+| [!UICONTROL Visitantes] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL Visitas] | Maximizar valor de métrica |
 
 ### Impacto en [!UICONTROL Segmentación automática] actividades
 
 | Nombre de la métrica | Ya no es compatible con: |
 | --- | --- |
-| [!UICONTROL movimientos del carro] | RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL Visitantes] | Tasa de conversión, RPV |
-| [!UICONTROL Visitas] | RPV |
+| [!UICONTROL movimientos del carro] | Maximizar valor de métrica |
+| [!UICONTROL pageviews] | Maximizar valor de métrica |
+| [!UICONTROL Visitantes] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL Visitas] | Maximizar valor de métrica |
 
 ## Limitaciones y notas
 
