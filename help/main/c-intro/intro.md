@@ -5,10 +5,10 @@ landing-page-description: Personalice la experiencia de sus clientes para maximi
 title: ¿Qué es Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
+source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 89%
+source-wordcount: '1026'
+ht-degree: 88%
 
 ---
 
@@ -30,9 +30,9 @@ Las prácticas recomendadas del sector están incorporadas en [!DNL Target Stand
 
 [!DNL Target Premium] es una oferta de [!DNL Target] avanzada que requiere una licencia para añadir características avanzadas a [!DNL Target Standard].
 
-Todo [!DNL Target Premium] Los artículos de las guías de Target incluyen el distintivo Premium en la parte superior de cada página o en línea cerca del texto afectado. Se puede hacer clic en el distintivo Premium, que incluye un vínculo a esta sección.
+Todo [!DNL Target Premium] artículos en [!DNL Target] las guías incluyen [!UICONTROL Premium] distintivo en la parte superior de cada página o en línea cerca del texto afectado. El [!UICONTROL Premium] El distintivo se puede seleccionar e incluye un vínculo a esta sección.
 
-[!DNL Target Premium] incluye las siguientes funciones:
+**[!DNL Target Premium]incluye las siguientes funciones:**
 
 ### Automated Personalization
 
@@ -83,7 +83,7 @@ La funcionalidad [Permisos de usuarios empresariales](/help/main/administrating-
 
 [!BADGE Beta]{type=Informative}
 
-El [!DNL Adobe Target] El equipo de activa a menudo las funciones para clientes seleccionados con fines de prueba y comentarios antes de habilitar dichas funciones para todos los clientes en futuras versiones.
+El [!DNL Adobe Target] A menudo, el equipo de habilita nuevas funciones para clientes seleccionados con fines de prueba y comentarios. Una vez completado el periodo de prueba, estas funciones se habilitarán para todos los clientes en el futuro [!DNL Target Standard/Premium] Versiones de y anunciadas en las notas de la versión.
 
 Artículos de [!DNL Target] Las guías que describen las funciones beta incluyen el distintivo Beta en la parte superior de cada página o en línea cerca del texto afectado. Se puede hacer clic en el distintivo Beta e incluye un vínculo a esta sección.
 
