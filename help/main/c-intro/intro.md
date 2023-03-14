@@ -5,10 +5,10 @@ landing-page-description: Personalice la experiencia de sus clientes para maximi
 title: ¿Qué es Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1017'
+ht-degree: 89%
 
 ---
 
@@ -26,13 +26,13 @@ Las prácticas recomendadas del sector están incorporadas en [!DNL Target Stand
 
 ## Target Premium {#premium}
 
+ [!BADGE premium]{type=Positive}
+
 [!DNL Target Premium] es una oferta de [!DNL Target] avanzada que requiere una licencia para añadir características avanzadas a [!DNL Target Standard].
 
-Todos los artículos de [!DNL Target Premium] de esta guía de ayuda incluyen el distintivo Premium en la parte superior de cada página:
+Todo [!DNL Target Premium] Los artículos de las guías de Target incluyen el distintivo Premium en la parte superior de cada página o en línea cerca del texto afectado. Se puede hacer clic en el distintivo Premium, que incluye un vínculo a esta sección.
 
-![Distintivo Premium](/help/main/assets/premium.png)
-
-Target Premium incluye las siguientes características avanzadas:
+[!DNL Target Premium] incluye las siguientes funciones:
 
 ### Automated Personalization
 
@@ -78,6 +78,14 @@ Esta funcionalidad revela capacidades completamente nuevas, como:
 ### Permisos de usuario de Enterprise
 
 La funcionalidad [Permisos de usuarios empresariales](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) permite crear diferentes proyectos (denominados Perfiles de productos en [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Permisos de usuarios empresariales] permite asignar a un único usuario diferentes permisos que determinan sus derechos de acceso a cada proyecto. Estos proyectos independientes pueden compararse con el modo en el que funcionan los grupos de informes en [!DNL Adobe Analytics]. Cada proyecto tiene usuarios específicos con funciones específicas que se aplican a un conjunto de propiedades. El resultado es que los clientes pueden restringir el acceso de visualización, edición, aprobación y publicación a sus usuarios. Puede restringir los permisos a los usuarios según la región, el entorno (dev/stage/prod), el canal u otros criterios personalizados.
+
+## Características beta {#beta}
+
+[!BADGE Beta]{type=Informative}
+
+El [!DNL Adobe Target] El equipo de activa a menudo las funciones para clientes seleccionados con fines de prueba y comentarios antes de habilitar dichas funciones para todos los clientes en futuras versiones.
+
+Artículos de [!DNL Target] Las guías que describen las funciones beta incluyen el distintivo Beta en la parte superior de cada página o en línea cerca del texto afectado. Se puede hacer clic en el distintivo Beta e incluye un vínculo a esta sección.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
