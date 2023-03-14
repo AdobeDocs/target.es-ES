@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 44%
+source-wordcount: '446'
+ht-degree: 52%
 
 ---
 
@@ -27,13 +27,9 @@ Esta versión estará disponible según la siguiente programación escalonada:
 * **Marzo de 9**: región de Europa, Oriente Medio y África (EMEA)
 * **Marzo de 9**: región Asia-Pacífico (APAC)
 
-Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
-
-| Función | Detalles |
-| --- | --- |
-| Métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] | [!DNL Target] permite elegir métricas basadas en eventos binomiales o métricas basadas en eventos continuos al utilizar [!UICONTROL A4T] para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades.<P>Tenga en cuenta el siguiente cambio en las métricas admitidas:<ul><li>[!DNL Target] conservó el comportamiento anterior para las actividades existentes hasta (FECHA POR DETERMINAR). Después de esta fecha, las actividades que usen métricas no admitidas se suspenderán para forzar la migración de la actividad existente al nuevo comportamiento.</li></ul>Para obtener más información, consulte [Métricas de objetivo admitidas](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *Compatibilidad de A4T con actividades de asignación automática y segmentación automática*. |
-| [!UICONTROL Asignación automática] usando [!UICONTROL Analytics for Target] (A4T) | Nuevo tutorial:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para [!UICONTROL Asignación automática] actividades](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
-| [!UICONTROL Segmentación automática] usando [!UICONTROL Analytics for Target] (A4T) | Nuevo tutorial:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para [!UICONTROL Segmentación automática] actividades](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+>[!NOTE]
+>
+>Debido a problemas que se han corregido desde entonces, las métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]&quot; la función que se lanzó el 8 y 9 de marzo se ha eliminado temporalmente. Después de más pruebas internas, la función se lanzará de nuevo en las próximas semanas.
 
 Esta versión incluye las siguientes correcciones:
 
