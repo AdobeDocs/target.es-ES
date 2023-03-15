@@ -2,17 +2,18 @@
 keywords: atributos de entidad de varios valores;atributos de entidad personalizados;JSON válido;valor de atributo de entidad;matriz de JSON;varios valores;valores múltiples
 description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los elementos de su Adobe [!DNL Target] catálogo de Recommendations.
 title: ¿Cómo Se Utilizan Los Atributos De Entidad Personalizados?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 87%
+source-wordcount: '1408'
+ht-degree: 88%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Atributos de entidad personalizados
+# Atributos de entidad personalizados
 
 Utilice atributos de entidad personalizados de uno o varios valores en [!DNL Adobe Target Recommendations] para definir información adicional sobre los elementos del catálogo.
 
@@ -36,7 +37,7 @@ Un atributo de entidad personalizado con un solo valor tiene el mismo formato qu
 
 Un atributo de entidad personalizado con varios valores se debe enviar como una matriz de JSON válida:
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 Estos son ejemplos de matrices de JSON válidas compatibles con [!DNL Recommendations]:
 
@@ -126,7 +127,8 @@ Puede pasar atributos de varios valores usando la API de envío en un parámetro
   }
 ```
 
-Consulte la [Documentación de la API de Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para obtener información sobre el uso de las API Entrega y Guardar entidades.
+Consulte la [documentación de la API Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para obtener información sobre
+el uso de las API Entrega y Guardar entidades.
 
 ## Uso de operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 

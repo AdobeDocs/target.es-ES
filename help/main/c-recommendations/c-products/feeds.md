@@ -2,16 +2,17 @@
 keywords: fuente de recomendaciones;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
 description: Descubra cómo las fuentes importan entidades en el Adobe [!DNL Target] Recommendations utiliza archivos CSV, el formato de fuente de Búsqueda de productos de Google y las clasificaciones de productos de Analytics.
 title: ¿Cómo utilizo las fuentes en [!DNL Target] ¿Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2511'
 ht-degree: 84%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Fuentes
+# Fuentes
 
 Utilice fuentes para obtener entidades importadas en [!DNL Adobe Target Recommendations]. Las entidades se pueden enviar con archivos CSV, el formato de fuente de Google Product Search y las clasificaciones de productos de Adobe Analytics.
 

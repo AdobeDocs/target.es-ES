@@ -2,16 +2,17 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes
 description: Descubra cómo se definen los distintos segmentos según el Adobe [!DNL Target] los modelos de personalización responden a ofertas y experiencias en la actividad consultando el informe Segmentos automatizados .
 title: ¿Qué es el informe Segmentos automatizados?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 74%
+source-wordcount: '2140'
+ht-degree: 75%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Informe Segmentos automatizados
+# [!UICONTROL Informe Segmentos automatizados]
 
 Información sobre [!UICONTROL Segmentos automatizados] uno de los dos informes especializados a disposición de los usuarios de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] actividades (AT).
 
@@ -112,7 +113,7 @@ Existen varias razones para que los informes de [!UICONTROL Perspectivas de pers
 
 Un atributo es información sobre un visitante o sobre su visita específica que los algoritmos de personalización utilizan para aprender a personalizar el tráfico. Por ejemplo, un atributo podría ser el tipo de navegador, la ubicación, la hora del día de la visita, etcétera.
 
-Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en los modelos de personalización de Target, consulte [Métodos para obtener los datos en Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
+Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en modelos de personalización de Target, consulte [Métodos para introducir datos a Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
 **¿Qué es un segmento automatizado?**
 

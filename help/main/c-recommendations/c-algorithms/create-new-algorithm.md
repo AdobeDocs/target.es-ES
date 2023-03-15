@@ -2,16 +2,17 @@
 keywords: criterios;algoritmo;sector vertical;tipo de página;clave de recomendación;lógica de recomendación;intervalo de datos;ventana retrospectiva;fuente de datos de comportamiento;diseño parcial;recomendaciones de copia de seguridad;reglas de inclusión;ponderación de atributos;categoría actual;atributo personalizado;último artículo comprado;último artículo visto;último artículo visto;más visitado;más visto;categoría favorita;popularidad;último artículo visto;último comprado;más visto;favorito;visitado recientemente
 description: Aprenda a crear criterios que controlen el contenido de sus actividades de Adobe Recommendations para mostrar las recomendaciones que sean más adecuadas para su actividad.
 title: ¿Cómo creo criterios en Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2842'
 ht-degree: 53%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Crear criterios
+# Crear criterios
 
 Criterios en [!UICONTROL Adobe Target] [!UICONTROL Recommendations] controle el contenido de su [!UICONTROL Recommendations] actividades. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad. Estos criterios utilizan las acciones del visitante para determinar qué contenido o productos mostrar.
 

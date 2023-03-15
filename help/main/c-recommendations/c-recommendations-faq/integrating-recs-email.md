@@ -2,16 +2,17 @@
 keywords: correo electrónico;ESP;proveedor de servicio de correo electrónico;rawbox;api de envío;plantilla de solo descarga;plantilla de correo electrónico;procesamiento por lotes;hora de creación del correo electrónico
 description: Aprenda a integrar el correo electrónico con la API de entrega de Adobe [!DNL Target Recommendations], including using the [!DNL Target] , las plantillas de rawbox y las plantillas de solo descarga.
 title: ¿Cómo puedo integrar Recommendations con el correo electrónico?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 99%
+source-wordcount: '1712'
+ht-degree: 97%
 
 ---
 
-# ![PRÉMIUM](/help/main/assets/premium.png)Integrar [!DNL Recommendations] con el correo electrónico 
+# Integración de [!DNL Recommendations] con el correo electrónico
 
 [!DNL Adobe Target] admite la personalización en tiempo de envío de recomendaciones en correos electrónicos.
 
@@ -77,7 +78,7 @@ El elemento `clientcode` es su código de cliente de [!DNL Target]
 >
 >Asegúrese de proporcionar un valor único para `sessionId` y uno para `tntId` o `thirdPartyId` para cada destinatario de correo electrónico (por ejemplo, para cada llamada de API). Si no proporciona valores únicos en estos campos, la respuesta de la API puede ralentizarse o dar error debido al gran número de eventos generados dentro de un solo perfil.
 
-Consulte [Documentación de la API de envío](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} para obtener más información.
+Consulte la [documentación de la API de entrega](https://developer.adobe.com/target/implement/delivery-api/) para obtener más información.{target=_blank}
 
 ## Método 2: usar una plantilla de correo electrónico de rawbox {#rawbox}
 
@@ -132,7 +133,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.categoryId`<br>(Necesario para determinados tipos de criterio: más vistos por categoría y más vendidos por categoría) | *category_id* | La categoría en la que se basa la recomendación, como los más vendidos en una categoría.<br>Si el criterio lo requiere, la llamada de rawbox debe incluir el `entity.categoryId`. |  |
 | `mboxDefault` | *`https://www.default.com`* | Si el parámetro `mboxNoRedirect` no está presente, `mboxDefault` debe ser una URL absoluta que devuelva el contenido predeterminado si no hay recomendaciones disponibles. Esta URL puede ser una imagen u otro contenido estático.<br>Si el parámetro `mboxNoRedirect` está presente, `mboxDefault` puede ser cualquier texto que indique que no hay recomendaciones, por ejemplo `no_content`.<br>El proveedor de correo electrónico debe procesar el caso en el que se devuelve este valor e insertar el HTML predeterminado en el correo electrónico. <br> **Práctica recomendada de seguridad**: Tenga en cuenta que si el dominio que se usa en la URL `mboxDefault` no está incluido en la lista de permitidos, se expone a una posible vulnerabilidad de redireccionamiento abierto. Para evitar el uso no autorizado de vínculos de redirector o `mboxDefault` de terceros, Adobe le recomienda utilizar “hosts autorizados” en la lista de permitidos de los dominios de URL de redireccionamiento predeterminados. Target usa hosts para la lista de permitidos de dominios a los que desea permitir redirecciones. Para obtener más información, consulte [Creación de listas de permitidos que especifiquen hosts con autorización para enviar llamadas de mbox a  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) en *Hosts*. |  |
 | `mboxHost` | *mbox_host* | Este es el dominio que se añade al entorno predeterminado (grupo de hosts) cuando se activa la llamada. |  |
-| `mboxPC` | Vacío | (Necesario para recomendaciones que utilizan el perfil de un visitante).<br>Si no se proporcionó el valor “thirdPartyId”, se genera un nuevo tntId que se devuelve como parte de la respuesta. En caso contrario, permanece vacío.<br>**Nota**: Asegúrese de proporcionar un valor exclusivo de `mboxSession` y `mboxPC` para cada destinatario del correo electrónico (es decir, para cada llamada a la API). Si no proporciona valores únicos en estos campos, la respuesta de la API puede ralentizarse o dar error debido al gran número de eventos generados dentro de un solo perfil. | 1 &lt; Longitud &lt; 128<br>No puede contener más de un “.” (punto).<br>El único punto permitido es el del sufijo de ubicación del perfil. |
+| `mboxPC` | Vacío | (Necesario para recomendaciones que utilizan el perfil de un visitante).<br>Si no se proporcionó el valor &quot;thirdPartyId&quot;, se genera un nuevo tntId que se devuelve como parte de la respuesta. En caso contrario, permanece vacío.<br>**Nota**: Asegúrese de proporcionar un valor exclusivo de `mboxSession` y `mboxPC` para cada destinatario del correo electrónico (es decir, para cada llamada a la API). Si no proporciona valores únicos en estos campos, la respuesta de la API puede ralentizarse o dar error debido al gran número de eventos generados dentro de un solo perfil. | 1 &lt; Longitud &lt; 128<br>No puede contener más de un “.” (punto).<br>El único punto permitido es el del sufijo de ubicación del perfil. |
 
 ### Parámetros opcionales
 

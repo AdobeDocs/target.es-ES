@@ -2,16 +2,17 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;informe de nivel de actividad;informe de nivel de oferta;informe de detalle de oferta;faq
 description: Obtenga información sobre cómo interpretar el informe Resumen de Automated Personalization en Adobe Target. Desde este informe puede cambiar a los informes Segmentos automatizados y Atributos importantes.
 title: ¿Cómo utilizo los informes de resumen de Automated Personalization?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 34%
+source-wordcount: '678'
+ht-degree: 33%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Informes Resumen de personalización automatizada
+# Informes resumen de Automated Personalization
 
 Los usuarios de [!UICONTROL Automated Personalization] actividades en [!DNL Adobe Target].
 

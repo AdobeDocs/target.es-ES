@@ -2,16 +2,17 @@
 keywords: recomendación;copia de seguridad;copia;seguridad
 description: Aprenda a utilizar recomendaciones de copia de seguridad en Adobe [!DNL Target] Recommendations. La recomendación que no tiene suficientes artículos recomendados muestra los resultados del algoritmo de copia de seguridad.
 title: ¿Cómo utilizo una recomendación de copia de seguridad en Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 82%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Usar una recomendación de copia de seguridad
+# Usar una recomendación de copia de seguridad
 
 Si utiliza la función de recomendación de copia de seguridad en Adobe Target, cualquier recomendación que no tenga suficientes artículos recomendados no mostrará el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
 

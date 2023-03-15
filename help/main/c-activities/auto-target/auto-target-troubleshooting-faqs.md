@@ -2,16 +2,17 @@
 keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;faq;solución de problemas;solucionar problemas;tráfico
 description: Explore los temas de solución de problemas y las preguntas más frecuentes acerca de las actividades de segmentación automática en Adobe Target.
 title: ¿Cómo puedo solucionar problemas de las actividades de segmentación automática?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1920'
 ht-degree: 58%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Preguntas frecuentes y solución de problemas de la segmentación automática
+# Segmentación automática Preguntas frecuentes y solución de problemas
 
 Resolución de problemas y preguntas más frecuentes (FAQ) sobre [!UICONTROL Segmentación automática] actividades en [!DNL Adobe Target].
 

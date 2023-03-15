@@ -2,16 +2,17 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;informes de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes;atributos importantes
 description: 'Aprenda a utilizar los informes especializados para las actividades de Automated Personalization (AP) y Segmentación automática (AT): Segmentos automatizados y Atributos importantes.'
 title: ¿Cómo utilizo los informes de Perspectivas de personalización?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 52%
+source-wordcount: '908'
+ht-degree: 46%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Informes de Perspectivas de personalización
+# Informes de Perspectivas de personalización
 
 Los usuarios de las actividades de [!UICONTROL Personalización automatizada] (AP) y Segmentación automática (AT) disponen de dos informes especializados: los informes [!UICONTROL Segmentos automatizados] y Atributos importantes.
 
@@ -47,20 +48,20 @@ Two [!UICONTROL Perspectivas de personalización] están disponibles:
 
 En los informes de [!UICONTROL Perspectivas de personalización] se representan dos tipos de atributos que se utilizan en los modelos de AP y Segmentación automática:
 
-* **Atributos recopilados automáticamente por :**[!DNL Target] Target utiliza un conjunto de datos base para crear sus algoritmos de personalización en actividades de AP y AT que se reflejan en Perspectivas de personalización. Consulte [Recopilación de datos para los algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md) para tipos de datos, atributos de ejemplo y sus [!UICONTROL Perspectivas de personalización] convención de nomenclatura. Tenga en cuenta que, aunque estos atributos se toman en consideración, los modelos de una actividad concreta podrían no utilizarlos todos en el modelo final.
-* **Atributos pasados a Target:** consulte   [Carga de datos para los algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* **Atributos recopilados automáticamente por :**[!DNL Target] Target utiliza un conjunto de datos base para crear sus algoritmos de personalización en actividades de AP y AT que se reflejan en Perspectivas de personalización. Consulte [Recopilación de datos para los algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md) para tipos de datos, atributos de ejemplo y sus [!UICONTROL Perspectivas de personalización] convención de nomenclatura. Tenga en cuenta que, aunque estos atributos se tienen en cuenta, los modelos de una actividad individual podrían no utilizar todos estos atributos en el modelo final.
+* **Atributos pasados a Target:** Consulte [Carga de datos para los algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] proporciona muchas maneras de pasar datos adicionales a [!DNL Target] para enriquecer el conjunto de datos base utilizado para crear sus algoritmos de personalización en actividades AP y AT:
 
 | Tipo de datos | Descripción | Nomenclatura de los tipos de datos |
 |--- |--- |--- |
 | Atributos de perfil, incluidos los scripts de perfil, API de actualización de perfil y atributos de perfil en página | La información que haya decidido incluir en el perfil de usuario de Target.<br>Esta información podría provenir de los scripts de perfil, de la información cargada mediante la API de actualización de perfil o de los parámetros de perfil de mbox con el prefijo “perfil”. | `Custom - Profile - [parameter name]` |
-| Parámetros de página (también denominados “parámetros de mbox”) | Pares de nombre/valor que se pasan directamente mediante código de página y que no se almacenan en el perfil del visitante para su uso futuro. | `Custom - Mbox Parameter - [parameter name]` |
+| Parámetros de página (también denominados &quot;parámetros de mbox&quot;) | Pares de nombre/valor que se pasan directamente mediante código de página y que no se almacenan en el perfil del visitante para su uso futuro. | `Custom - Mbox Parameter - [parameter name]` |
 | Atributos del cliente | Los atributos del cliente le permiten cargar datos de perfil del visitante a través del FTP a Experience Cloud. Una vez cargados, podrá sacar el máximo partido de los datos en Adobe Analytics y Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Audiencias compartidas (Adobe Audience Manager o Adobe Analytics) | Audiencias creadas a través de Adobe Audience Manager o Adobe Analytics y compartidas con Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Audiencias compartidas (Adobe Experience Platform/CDP en tiempo real) | Audiencias creadas mediante Adobe Experience Platform/CDP en tiempo real y compartidas con Target mediante Destinations. | `Custom - Adobe Experience Platform Segment - [segment name]` |
 | Atributos compartidos (Adobe Experience Platform/CDP en tiempo real) | Atributos creados mediante Adobe Experience Platform/CDP en tiempo real y compartidos con Target a través de Destinations. Esta función está actualmente en versión beta. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
-| Audiencias/segmentos de informes de actividad | Audiencias definidas en su actividad de AP o Segmentación automática durante la configuración en “Objetivos y métricas”. | `Custom - Reporting Segment - [segment name]` |
+| Audiencias/segmentos de informes de actividad | Audiencias definidas en su actividad de AP o Segmentación automática durante la configuración en &quot;Objetivos y métricas&quot;. | `Custom - Reporting Segment - [segment name]` |
 
 ## Preguntas frecuentes
 
