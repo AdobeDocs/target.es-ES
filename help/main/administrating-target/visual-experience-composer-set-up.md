@@ -5,10 +5,10 @@ title: ¿Cómo configuro el Compositor de experiencias visuales (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 50%
+source-wordcount: '726'
+ht-degree: 57%
 
 ---
 
@@ -57,7 +57,7 @@ Esta opción resulta útil si, por ejemplo:
 
 Cuando se habilitan las instantáneas de experiencia, se generan miniaturas de las experiencias en el diagrama de flujo de trabajo de la actividad. Si deshabilita las instantáneas, podría obtener un rendimiento más rápido para algunos usuarios.
 
-## ![Distintivo Premium](/help/main/assets/premium.png) Configuración de las ventanillas móviles
+##  [!BADGE premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Consulte los elementos incluidos en Target Premium."}
 
 Puede añadir dispositivos para usarlos al obtener una vista previa de las experiencias. Cada dispositivo tiene una audiencia asociada.
 
@@ -103,6 +103,6 @@ Este vídeo incluye información sobre las preferencias de cuenta.
 
 >[!NOTE]
 >
->La variable [!DNL Target] [!UICONTROL Administración] interfaz de usuario del menú (anteriormente [!UICONTROL Configuración]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información que aparece en el siguiente vídeo es, en general, correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán próximamente.
+>La interfaz del menú [!UICONTROL Administración] de [!DNL Target] (anteriormente [!UICONTROL Configuración]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información que aparece en el siguiente vídeo es, en general, correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán próximamente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

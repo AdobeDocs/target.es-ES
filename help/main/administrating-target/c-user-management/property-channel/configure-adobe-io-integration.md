@@ -2,17 +2,18 @@
 keywords: integración; funciones; permisos de usuario; admin console
 description: Obtenga información sobre cómo conceder acceso a las integraciones de Adobe I/O existentes a todos los espacios de trabajo con la función deseada en Adobe Target.
 title: ¿Cómo puedo conceder acceso al Adobe I/O a espacios de trabajo y asignar funciones?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 84%
+source-wordcount: '620'
+ht-degree: 87%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Concesión de acceso a integraciones de Adobe I/O a espacios de trabajo y asignación de funciones
+# Conceder acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones
 
 Los [!UICONTROL Permisos de Enterprise] permiten [!DNL Target] a los clientes utilizar una sola organización, pero dividirla en espacios de trabajo para distintos equipos o flujos de trabajo.
 
