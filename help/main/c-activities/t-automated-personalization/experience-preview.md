@@ -2,16 +2,17 @@
 keywords: vista previa de experiencias;direcciones URL de experiencia;generar direcciones URL;ver direcciones URL de experiencia
 description: Aprenda a utilizar las direcciones URL de vista previa de la experiencia para el Adobe [!DNL Target] Actividades de Automated Personalization para ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa.
 title: ¿Cómo puedo utilizar las direcciones URL de vista previa de experiencia en actividades de Automated Personalization?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 50%
+source-wordcount: '719'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Vista previa de actividades de Automated Personalization con direcciones URL de vista previa de experiencias
+# Vista previa de actividades de Automated Personalization con URL de vista previa de experiencias
 
 Se pueden generar direcciones URL de vista previa de experiencias para [!DNL Target] [!UICONTROL Automated Personalization] actividades para ver el contenido de la experiencia directamente en el sitio antes de que la actividad esté activa para su vista previa y control de calidad. Las direcciones URL de vista previa de experiencias evitan la segmentación para forzar la visualización de una experiencia en particular.
 

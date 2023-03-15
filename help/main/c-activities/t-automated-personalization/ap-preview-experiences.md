@@ -2,16 +2,17 @@
 keywords: Automated Personalization;ap;vista previa;excluir experiencia;
 description: Obtenga información sobre cómo previsualizar cada experiencia en una actividad de Automated Personalization (AP) en Adobe [!DNL Target] usar el Compositor de experiencias visuales (VEC).
 title: ¿Cómo puedo previsualizar las experiencias de Automated Personalization en el VEC?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 47%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Previsualizar experiencias para una personalización automatizada en el Compositor de experiencias visuales
+# !Previsualizar experiencias para una personalización automatizada en el Compositor de experiencias visuales
 
 Porque [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) compara varias ofertas en una página, resulta útil previsualizar la página con cada experiencia.
 

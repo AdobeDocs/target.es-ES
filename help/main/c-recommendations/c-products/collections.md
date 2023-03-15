@@ -2,16 +2,17 @@
 keywords: colección;Segmentación
 description: Aprenda a utilizar colecciones en Adobe [!DNL Target] Recommendations. Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación.
 title: ¿Cómo utilizo las colecciones en las actividades de Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 59%
+source-wordcount: '883'
+ht-degree: 60%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Colecciones
+# Colecciones
 
 Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación. Una colección se define especificando las condiciones que deben cumplir los elementos para formar parte de ella.
 
@@ -45,7 +46,7 @@ Cree una colección para organizar los productos o el contenido que desee mostra
 
    ![Iconos al pasar el ratón por encima: editar, copiar y eliminar](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   El “Número de elementos” registrado para cada colección en la vista de la lista [!UICONTROL Colecciones] es el número de productos que coinciden con las reglas para esa colección en el [grupo de hosts](/help/main/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Consulte [Configuración](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para cambiar el grupo de hosts predeterminado.
+   El “Número de elementos” registrado para cada colección en la vista de la lista [!UICONTROL Colecciones] es el número de productos que coinciden con las reglas para esa colección en el [grupo de hosts](/help/main/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://developer.adobe.com/target/implement/recommendations/).{target=_blank}
 
 1. Haga clic en **[!UICONTROL Crear colección]**.
 

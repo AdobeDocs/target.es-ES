@@ -2,16 +2,17 @@
 keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;preguntas frecuentes;preguntas frecuentes;solución de problemas;solución de problemas
 description: Obtenga información sobre cómo [!UICONTROL Segmentación automática] actividad en [!DNL Target] ofrece a cada visitante la experiencia más adaptada en función de los perfiles de los clientes y el comportamiento de visitantes similares.
 title: ¿Qué es un [!UICONTROL Segmentación automática] ¿Actividad?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 3e567236b30db453e2cd1bbb7c92c58ae4528ff4
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 50%
+source-wordcount: '1965'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Segmentación automática] información general
+# [!UICONTROL Información general sobre la segmentación automática]
 
 [!UICONTROL Segmentación automática] actividades en [!DNL Adobe Target] utilice aprendizaje automático avanzado para seleccionar entre varias experiencias de alto nivel de rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. [!UICONTROL Segmentación automática] ofrece a cada visitante la experiencia más adaptada en función del perfil del cliente individual y del comportamiento de visitantes anteriores con perfiles similares.
 

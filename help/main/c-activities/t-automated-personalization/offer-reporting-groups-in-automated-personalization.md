@@ -2,16 +2,17 @@
 keywords: personalización automatizada;oferta;informes;grupo;grupo de informes;ap
 description: Aprenda a utilizar grupos de informes de ofertas en Adobe [!DNL Target] [!UICONTROL Automated Personalization] actividades.
 title: ¿Puedo usar grupos de informes de ofertas en actividades de Automated Personalization?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 30%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png)[!UICONTROL  Grupos de informes de ofertas en Personalización automatizada]
+# Grupos de creación de informes de ofertas en [!UICONTROL Automated Personalization]
 
 Información sobre el uso de grupos de informes en [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 

@@ -2,16 +2,17 @@
 keywords: recomendaciones;preguntas más frecuentes;FAQ
 description: Revise la lista de preguntas frecuentes (FAQ) y sus respuestas acerca de los diseños de Adobe  [!DNL Target]  Recommendations.
 title: ¿Dónde puedo responder a preguntas de diseño de  [!DNL Target]  Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 100%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) FAQ de diseño
+# Preguntas más frecuentes sobre diseño
 
 Lista de preguntas frecuentes (FAQ) acerca de diseños de [!DNL Adobe Target] [!DNL Recommendations].
 

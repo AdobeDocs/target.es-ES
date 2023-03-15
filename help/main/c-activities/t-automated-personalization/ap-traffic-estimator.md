@@ -2,16 +2,17 @@
 keywords: estimador de tráfico;personalización automatizada;ap;estimación de tráfico;segmentación automática
 description: Uso del Adobe [!DNL Target] Estimador de tráfico para determinar si tiene tráfico suficiente para que su actividad de Automated Personalization tenga éxito.
 title: ¿Cuánto tráfico se necesita para una actividad de éxito?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 13%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Estimar el tráfico necesario para realizar una prueba con éxito
+# Calcular el tráfico necesario para realizar una prueba con éxito
 
 La variable [!DNL Adobe Target] [!UICONTROL Estimador de tráfico] proporciona comentarios que le permiten saber si tiene tráfico suficiente para [!UICONTROL Automated Personalization] actividad para que se realice correctamente.
 

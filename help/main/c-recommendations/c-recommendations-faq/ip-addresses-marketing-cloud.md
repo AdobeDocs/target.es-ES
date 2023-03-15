@@ -2,16 +2,17 @@
 keywords: dirección IP;direcciones IP;lista de permitidos;cortafuegos;recomendaciones;fuente;servidores;adobe experience cloud;recommendations
 description: Consulte la lista de direcciones IP que se usan en los servidores de procesamiento de fuentes de recomendaciones de  [!DNL Target]  para configurar el firewall de modo que admita las direcciones IP procedentes de los servidores de Adobe.
 title: ¿Qué direcciones IP utilizan los servidores de procesamiento de fuentes de Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Servidores de procesamiento de fuentes de Recommendations que usan direcciones IP
+# Direcciones IP que usan los servidores de procesamiento de fuentes de Recommendations
 
 Consulte la lista de direcciones IP que se usan en los servidores de procesamiento de fuentes de [!DNL Adobe Target] [!DNL Recommendations] para configurar el firewall de modo que admita las direcciones IP procedentes de los servidores de Adobe.
 
