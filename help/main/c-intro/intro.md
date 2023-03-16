@@ -2,10 +2,11 @@
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;segmentación automática;permisos;qué es Adobe Target;
 description: Conozca los conceptos básicos del Adobe [!DNL Target] Estándar y Adobe [!DNL Target] Premium. [!DNL Target] Premium incluye funciones avanzadas que no están disponibles en el producto estándar.
 landing-page-description: Personalice la experiencia de sus clientes para maximizar los ingresos en sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
+short-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 title: ¿Qué es Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
+source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 88%
@@ -30,7 +31,7 @@ Las prácticas recomendadas del sector están incorporadas en [!DNL Target Stand
 
 [!DNL Target Premium] es una oferta de [!DNL Target] avanzada que requiere una licencia para añadir características avanzadas a [!DNL Target Standard].
 
-Todo [!DNL Target Premium] artículos en [!DNL Target] las guías incluyen [!UICONTROL Premium] distintivo en la parte superior de cada página o en línea cerca del texto afectado. El [!UICONTROL Premium] El distintivo se puede seleccionar e incluye un vínculo a esta sección.
+Todo [!DNL Target Premium] artículos en [!DNL Target] las guías incluyen [!UICONTROL Premium] distintivo en la parte superior de cada página o en línea cerca del texto afectado. La variable [!UICONTROL Premium] se puede hacer clic en el distintivo e incluye un vínculo a esta sección.
 
 **[!DNL Target Premium]incluye las siguientes funciones:**
 
@@ -79,13 +80,13 @@ Esta funcionalidad revela capacidades completamente nuevas, como:
 
 La funcionalidad [Permisos de usuarios empresariales](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) permite crear diferentes proyectos (denominados Perfiles de productos en [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Permisos de usuarios empresariales] permite asignar a un único usuario diferentes permisos que determinan sus derechos de acceso a cada proyecto. Estos proyectos independientes pueden compararse con el modo en el que funcionan los grupos de informes en [!DNL Adobe Analytics]. Cada proyecto tiene usuarios específicos con funciones específicas que se aplican a un conjunto de propiedades. El resultado es que los clientes pueden restringir el acceso de visualización, edición, aprobación y publicación a sus usuarios. Puede restringir los permisos a los usuarios según la región, el entorno (dev/stage/prod), el canal u otros criterios personalizados.
 
-## Características beta {#beta}
+## Funciones beta {#beta}
 
 [!BADGE Beta]{type=Informative}
 
-El [!DNL Adobe Target] A menudo, el equipo de habilita nuevas funciones para clientes seleccionados con fines de prueba y comentarios. Una vez completado el periodo de prueba, estas funciones se habilitarán para todos los clientes en el futuro [!DNL Target Standard/Premium] Versiones de y anunciadas en las notas de la versión.
+La variable [!DNL Adobe Target] a menudo, el equipo habilita nuevas funciones para clientes seleccionados con fines de prueba y comentarios. Una vez finalizado el período de prueba, estas funciones se habilitarán para todos los clientes en el futuro [!DNL Target Standard/Premium] versiones y anunciadas en las notas de la versión.
 
-Artículos de [!DNL Target] Las guías que describen las funciones beta incluyen el distintivo Beta en la parte superior de cada página o en línea cerca del texto afectado. Se puede hacer clic en el distintivo Beta e incluye un vínculo a esta sección.
+Artículos de [!DNL Target] las guías que describen funciones beta incluyen el distintivo Beta en la parte superior de cada página o en línea cerca del texto afectado. Se puede hacer clic en el distintivo Beta e incluye un vínculo a esta sección.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
