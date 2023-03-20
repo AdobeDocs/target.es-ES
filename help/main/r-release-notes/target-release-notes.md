@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
+source-git-commit: 04d4cf13e0054a767e9bf08770cdace1e130067f
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 59%
+source-wordcount: '734'
+ht-degree: 49%
 
 ---
 
@@ -15,42 +15,43 @@ ht-degree: 59%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 14 de marzo de 2023**
+**Última actualización: 20 de marzo de 2023**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target] Estándar/Premium 22.15.1 (8 y 9 de marzo de 2023)
+## [!DNL Target] Standard/Premium 23.3.1 (28-30 de marzo de 2023)
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
-* **8 de marzo**: región de las Américas
-* **9 de marzo**: región de Europa, Oriente Medio y África (EMEA)
-* **9 de marzo**: región Asia-Pacífico (APAC)
+* **28 de marzo**: región de Europa, Oriente Medio y África (EMEA)
+* **29 de marzo**: región Asia-Pacífico (APAC)
+* **30 de marzo**: región de las Américas
 
->[!NOTE]
->
->Debido a problemas que se han solucionado desde entonces, las métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]&quot; que se lanzó el 8 y 9 de marzo se ha eliminado temporalmente. Después de realizar más pruebas internas, la función se volverá a publicar en las próximas semanas.
+Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 
-Esta versión incluye las siguientes correcciones:
+| Función | Detalles |
+|--- |--- |
+| AEM fragmentos de contenido para una personalización y experimentación sin objetivos | Uso [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de contenido] en [!DNL Target] actividades. Combine la facilidad de uso y la potencia de la AEM con potentes capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para probar y personalizar experiencias a escala. |
+| Métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] | [!DNL Target] permite elegir métricas basadas en eventos binomiales o métricas basadas en eventos continuos al utilizar [!UICONTROL A4T] para actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].<P>Tenga en cuenta el siguiente cambio en las métricas admitidas:<ul><li>[!DNL Target] conservó el comportamiento anterior para las actividades existentes hasta el 9 de septiembre de 2023. Después de esta fecha, las actividades que utilizan métricas no compatibles se suspenderán para forzar la migración de la actividad existente a un nuevo comportamiento.</li></ul> |
+| [!UICONTROL Asignación automática] utilizando [!UICONTROL Analytics para Target] (A4T) | Tutorial actualizado:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Asignación automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=es){target=_blank}</li></ul> |
+| [!UICONTROL Segmentación automática] utilizando [!UICONTROL Analytics para Target] (A4T) | Tutorial actualizado:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Segmentación automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=es){target=_blank}</li></ul> |
 
-* Actualizaciones para la creación de componentes web personalizados con la variable [!UICONTROL Compositor de experiencias visuales] (VEC):
+* Se ha mejorado la sincronización de audiencias y actividades para que los elementos creados en [!DNL Adobe Experience Platform] y [!DNL Adobe Audience Manager] están disponibles en la [!DNL Target] IU más rápido. (TGT-44568)
+* Se ha realizado un cambio para permitir que los usuarios eliminen el [!UICONTROL Dirección URL predeterminada] under [!UICONTROL Administración] > [!UICONTROL Compositor de experiencias visuales] > [!UICONTROL Dirección URL predeterminada]. Este cambio permite a los clientes volver a cambiar la dirección URL predeterminada a una cadena vacía, que anteriormente no era posible tras la configuración inicial. (TGT-44577)
+* Se han eliminado restricciones que impedía a los clientes editar o eliminar audiencias predeterminadas (audiencias con nombres reservados). (TGT-44655)
+* Se ha deshabilitado &quot;[!UICONTROL Listo]&quot; mientras se cargaban los spinners estaban visibles en el [!DNL Target] IU al crear [audiencias combinadas](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
+* Se ha corregido la variable [!UICONTROL Idioma] vínculo en la parte inferior del [!UICONTROL Audiencias] para que se vincule correctamente al &quot;[!UICONTROL Preferencias de comunicación de la cuenta]&quot;. (TGT-43562)
+* Se ha resuelto un problema que a veces impedía que los clientes crearan [!UICONTROL Prueba A/B] actividades después de seleccionar la variable [!UICONTROL Adobe Analytics] opción bajo [!UICONTROL Administración] > [!UICONTROL Informes] > [!UICONTROL Solución de Experience Cloud de informes]. (TGT-44844)
+* Se ha corregido un problema que impedía que los clientes vieran la última experiencia en un [!UICONTROL Prueba multivariable] actividad con muchas experiencias desde dentro de [!UICONTROL Compositor de experiencias visuales] (VEC). La variable [Ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en la parte inferior del VEC, a veces impedía que los clientes vieran la última experiencia. (TGT-44578)
+* Se ha corregido un problema que provocaba que la URL de exploración del VEC no reflejara la página actual que es visible en una sesión normal del explorador si la página requiere autorización o invoca redirecciones. (TGT-44350)
+* Se ha corregido un problema que impedía que los clientes cambiaran la variable [!UICONTROL Filtrar criterios no compatibles] configurar en [!UICONTROL Recommendations] > [!UICONTROL Configuración]. (TGT-44398)
+* Se ha corregido un problema que provocaba que las solicitudes de POST crearan nuevas [!DNL Recommendations] fuentes en las que se producen errores al usar [!UICONTROL Clasificaciones de Analytics] con grupos de informes con puntos en sus nombres. (TGT-44598)
+* Vínculos actualizados en la variable [!DNL Target] La interfaz de usuario de señala al nuevo [Extensión de Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
+* Seguridad mejorada para evitar intentos de falsificación de solicitudes del lado del servidor (SSRF) en [!DNL Recommendations] fuentes. (TGT-43769)
+* Se ha corregido un problema que impedía a los clientes ver imágenes de vista previa en [!DNL Recommendations] diseños si el nombre de la imagen contiene [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
+* Se ha corregido un problema que provocaba algunos [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank} para escapar en la variable [!UICONTROL Modificaciones] panel mientras edita [!UICONTROL Texto/HTML] en una actividad [!UICONTROL Experiencias] página.
+* Se han realizado varias correcciones de localización en la IU de [!DNL Target].
 
-   * Se ha corregido la selección de elementos DOM de sombra en el VEC mejorando el proceso de creación para que no haya dependencia en el [!DNL Target] tipo de implementación al crear la raíz de sombra. Ahora, seleccionar los elementos DOM de sombra en el VEC debería funcionar para cualquier sitio web.
-   * Se ha corregido un problema que impedía cargar elementos de HTML usando #Shadow DOM en el VEC. (TGT-35801)
-   * Se corrigieron problemas de VEC con sitios web SPA que utilizan ShadowDOM. (TGT-43169)
-   * Se ha corregido un problema con el objetivo de optimización: &quot;se hizo clic en un elemento&quot; que no identificaba correctamente el selector de CSS en ShadowDOM.
-
->[!NOTE]
->
->Para garantizar la entrega de los cambios creados en el VEC, asegúrese de que está utilizando un [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) con una versión buena a la 2.8.
-
-**Problema conocido**: Rastreo de clics en un elemento raíz de la sombra al utilizar [!DNL Adobe Experience Platform Web SDK] no funciona correctamente. (TNT-47012)
-
-## Versión 2.10.2 de at.js (7 de marzo de 2023)
-
-* Se ha corregido un problema que provocaba que la función `trackEvent` devolviera siempre un error.
-
-Para obtener información sobre todas las versiones de at.js, consulte [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ## Notas de la versión adicionales y detalles de la versión
 
