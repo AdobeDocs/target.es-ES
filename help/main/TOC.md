@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 807ebc15f78341bb642ce05d040918c7aa8633b2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1239'
+ht-degree: 95%
 
 ---
 
@@ -94,7 +94,12 @@ ht-degree: 0%
    + Integración de Target con Adobe Journey Optimizer {#ajo}
       + [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
-   + [Integración de Target con Adobe Experience Manager](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
+   + Integración de Target con Adobe Experience Manager {#aem}
+      + [Integración de Target con Adobe Experience Manager (AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + Fragmentos de experiencias y fragmentos de contenido {#fragments}
+         + [AEM Información general sobre fragmentos de experiencias y fragmentos de contenido](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [Fragmentos de experiencia de AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+         + [AEM fragmentos de contenido](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Integración de Target con Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integración con Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integración de Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
@@ -250,7 +255,7 @@ ht-degree: 0%
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Búsqueda de contenido](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transmisión dinámica de datos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [Fragmentos de experiencia de AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [Fragmentos de contenido y experiencia AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Informes {#reports}
    + [Información general sobre informes](c-reports/reports.md)
    + Configuración del informe {#settings}
