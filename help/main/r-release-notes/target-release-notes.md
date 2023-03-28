@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 1cc630f12f4b9dc1d9c5700bc6174b40d4f0dae2
+source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 48%
+source-wordcount: '692'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 48%
 
 Este artículo contiene información sobre la versión preliminar. Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 
-**Última actualización: 27 de marzo de 2023**
+**Última actualización: 28 de marzo de 2023**
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
@@ -31,10 +31,7 @@ Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 
 | Función | Detalles |
 |--- |--- |
-| AEM fragmentos de contenido para una personalización y experimentación sin objetivos | Uso [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de contenido] en [!DNL Target] actividades. Combine la facilidad de uso y la potencia de la AEM con potentes capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para probar y personalizar experiencias a escala. |
-| Métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]<p>(Fecha de la versión: 30 de marzo de 2023) | [!DNL Target] permite elegir métricas basadas en eventos binomiales o métricas basadas en eventos continuos al utilizar [!UICONTROL A4T] para actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].<P>Tenga en cuenta el siguiente cambio en las métricas admitidas:<ul><li>[!DNL Target] conservó el comportamiento anterior para las actividades existentes hasta el 9 de septiembre de 2023. Después de esta fecha, las actividades que utilizan métricas no compatibles se suspenderán para forzar la migración de la actividad existente a un nuevo comportamiento.</li></ul> |
-| [!UICONTROL Asignación automática] utilizando [!UICONTROL Analytics para Target] (A4T) | Tutorial actualizado:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Asignación automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=es){target=_blank}</li></ul> |
-| [!UICONTROL Segmentación automática] utilizando [!UICONTROL Analytics para Target] (A4T) | Tutorial actualizado:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Segmentación automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=es){target=_blank}</li></ul> |
+| Métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]<p>(Fecha de la versión: 30 de marzo de 2023) | [!DNL Target] permite elegir métricas basadas en eventos binomiales o métricas basadas en eventos continuos al utilizar [!UICONTROL A4T] para actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].<P>Tenga en cuenta el siguiente cambio en las métricas admitidas:<ul><li>[!DNL Target] conservó el comportamiento anterior para las actividades existentes hasta el 9 de septiembre de 2023. Después de esta fecha, las actividades que utilizan métricas no compatibles se suspenderán para forzar la migración de la actividad existente a un nuevo comportamiento.</li></ul>Junto con esta función, se han actualizado los siguientes tutoriales:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Asignación automática] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=es){target=_blank}</li><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Segmentación automática] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=es){target=_blank}</li></ul> |
 
 * Se ha mejorado la sincronización de audiencias y actividades para que los elementos creados en [!DNL Adobe Experience Platform] y [!DNL Adobe Audience Manager] están disponibles en la [!DNL Target] IU más rápido. (TGT-44568)
 * Se ha realizado un cambio para permitir que los usuarios eliminen el [!UICONTROL Dirección URL predeterminada] under [!UICONTROL Administración] > [!UICONTROL Compositor de experiencias visuales] > [!UICONTROL Dirección URL predeterminada]. Este cambio permite a los clientes volver a cambiar la dirección URL predeterminada a una cadena vacía, que anteriormente no era posible tras la configuración inicial. (TGT-44577)
@@ -51,7 +48,6 @@ Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 * Se ha corregido un problema que impedía a los clientes ver imágenes de vista previa en [!DNL Recommendations] diseños si el nombre de la imagen contiene [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
 * Se ha corregido un problema que provocaba algunos [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank} para escapar en la variable [!UICONTROL Modificaciones] panel mientras edita [!UICONTROL Texto/HTML] en una actividad [!UICONTROL Experiencias] página. (TGT-44600)
 * Se han realizado varias correcciones de localización en la IU de [!DNL Target].
-
 
 ## Notas de la versión adicionales y detalles de la versión
 
