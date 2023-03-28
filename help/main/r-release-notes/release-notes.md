@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -29,22 +29,22 @@ Esta versión estará disponible según la siguiente programación escalonada:
 
 >[!NOTE]
 >
->Debido a problemas que se han solucionado desde entonces, las métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]&quot; que se lanzó el 8 y 9 de marzo se ha eliminado temporalmente. Después de realizar más pruebas internas, la función se volverá a publicar en las próximas semanas.
+>Debido a problemas que se han solucionado desde entonces, la función &quot;Métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]&quot; que se publicó el 8 y 9 de marzo se ha eliminado temporalmente. Después de realizar más pruebas internas, la funcionalidad se volverá a publicar en las próximas semanas.
 
 Esta versión incluye las siguientes correcciones:
 
 * Actualizaciones para la creación de componentes web personalizados con la variable [!UICONTROL Compositor de experiencias visuales] (VEC):
 
-   * Se ha corregido la selección de elementos DOM de sombra en el VEC mejorando el proceso de creación para que no haya dependencia en el [!DNL Target] tipo de implementación al crear la raíz de sombra. Ahora, seleccionar los elementos DOM de sombra en el VEC debería funcionar para cualquier sitio web.
+   * Se ha corregido la selección de elementos Shadow DOM fijos en el VEC mejorando el proceso de creación para que no haya dependencia en el [!DNL Target] tipo de implementación al crear la raíz de sombra. Ahora, seleccionar los elementos Shadow DOM en el VEC debería funcionar para cualquier sitio web.
    * Se ha corregido un problema que impedía cargar elementos de HTML usando #Shadow DOM en el VEC. (TGT-35801)
-   * Se corrigieron problemas de VEC con sitios web SPA que utilizan ShadowDOM. (TGT-43169)
-   * Se ha corregido un problema con el objetivo de optimización: &quot;se hizo clic en un elemento&quot; que no identificaba correctamente el selector de CSS en ShadowDOM.
+   * Se han corregido problemas de VEC con sitios web SPA que utilizan ShadowDOM. (TGT-43169)
+   * Se ha corregido un problema con el objetivo de optimización: &quot;se ha hecho clic en un elemento&quot; que no identificaba correctamente el selector de CSS en ShadowDOM.
 
 >[!NOTE]
 >
->Para garantizar la entrega de los cambios creados en el VEC, asegúrese de que está utilizando un [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) con una versión buena a la 2.8.
+>Para garantizar la entrega de los cambios creados en el VEC, asegúrese de que está utilizando un [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=es){target=_blank} (alloy.js)) con una versión superior a la 2.8.
 
-**Problema conocido**: Rastreo de clics en un elemento raíz de la sombra al utilizar [!DNL Adobe Experience Platform Web SDK] no funciona correctamente. (TNT-47012)
+**Problema conocido**: El rastreo de clics en un elemento raíz de la sombra al utilizar [!DNL Adobe Experience Platform Web SDK] no funciona correctamente. (TNT-47012)
 
 ## Versión 2.10.2 de at.js (7 de marzo de 2023)
 
@@ -66,7 +66,7 @@ Además de las notas de cada versión, los recursos siguientes también contiene
 | Recurso | Detalles |
 |--- |--- |
 | Cambios de la documentación | Vea información detallada sobre las actualizaciones que se realizaron en esta guía que no se incluyen en estas notas de la versión.<br>Para obtener más información, consulte [Cambios de la documentación](/help/main/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
-| Notas de la versión para versiones anteriores | Vea información sobre las nuevas funciones y mejoras de las versiones anteriores de Target Standard y Target Premium.<br>Para obtener más información, consulte [Notas de versiones anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md). |
+| Notas de la versión para versiones anteriores | Vea información sobre las nuevas funciones y mejoras de las versiones anteriores de Target Standard y Target Premium.<br>Para obtener más información, consulte [Notas de las versiones anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md). |
 | Notas de la versión de Adobe Experience Cloud | Vea las notas de la última versión de las soluciones de Adobe Experience Cloud.<br>Para obtener más información, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es). |
 
 ## Información previa al lanzamiento {#section_5D588F0415A2435B851A4D0113ACA3A0}
