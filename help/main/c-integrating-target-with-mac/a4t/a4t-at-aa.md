@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear [!UICONTROL Asignación auto
 title: ¿Admite A4T? [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] ¿Actividades?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
+source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 6%
+source-wordcount: '1265'
+ht-degree: 8%
 
 ---
 
@@ -62,18 +62,39 @@ En primer lugar:
 * [!DNL Adobe Analytics] métricas de conversión
 * [!DNL Adobe Analytics] eventos personalizados
 
-[!UICONTROL A4T] para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] requiere que elija una métrica basada en un evento binomial. Un evento binomial ocurre o no. Los eventos binomiales incluyen un clic, una conversión, un pedido, etc. Estos tipos de eventos también se denominan a veces eventos Bernoulli, binarios o discretos.
+[!DNL Target] permite elegir métricas basadas en eventos binomiales o métricas basadas en eventos continuos al utilizar [!UICONTROL A4T] para actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].
 
-[!UICONTROL A4T] para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] no admite la optimización para métricas continuas. Las métricas continuas incluyen ingresos, número de productos pedidos, duración de la sesión, número de vistas de página en la sesión, etc. A veces, estos tipos de métricas no compatibles también se denominan métricas no binomiales o no Bernoulli.
+* **Métricas basadas en eventos binomiales**: Un evento binomial ocurre o no. Los eventos binomiales incluyen un clic, una conversión, un pedido, etc. Estos tipos de eventos también se denominan a veces eventos Bernoulli, binarios o discretos.
 
-Los siguientes tipos de métricas no son compatibles con las métricas de objetivo principales:
+* **Métricas basadas en eventos continuos**. Las métricas continuas incluyen ingresos, número de productos pedidos, duración de la sesión, número de vistas de página en la sesión, etc. Estos tipos de eventos también se denominan a veces métricas no binomiales o no Bernoulli.
 
-* [!DNL Adobe Target] métricas de participación e ingresos
-* [!DNL Adobe Analytics] métricas de participación e ingresos
+>[!IMPORTANT]
+>
+>A partir de la variable [!DNL Adobe Target Standard/Premium] versión 22.15.1 (8 y 9 de marzo de 2023), [!DNL Target] sigue admitiendo las actividades existentes con métricas que ahora no son compatibles (enumeradas en las tablas siguientes). Sin embargo, a partir del 9 de septiembre de 2023, estas métricas ya no serán compatibles con las actividades existentes y todas las actividades que utilicen métricas no compatibles dejarán de forzar la migración de actividad existente al nuevo comportamiento.
 
-   Es posible seleccionar un [!DNL Analytics] la métrica de participación o ingresos como métrica de objetivo principal porque [!DNL Target] no puede identificar ni excluir todas las métricas de participación e ingresos de [!DNL Analytics]. Seleccione solo las métricas de conversión binomiales o los eventos personalizados de [!DNL Analytics].
+### Impacto en [!UICONTROL Asignación automática] actividades
 
-* [!DNL Adobe Analytics] métricas calculadas
+| Nombre de la métrica | Ya no es compatible con: |
+| --- | --- |
+| [!UICONTROL averagepagedepth] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL averagetimespentonsite] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL bouncerate] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL bounces] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL entradas] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL salidas] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL vistas de página] | Maximizar valor de métrica |
+| [!UICONTROL recargas] | Maximizar valor de métrica |
+| [!UICONTROL Visitantes] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL Visitas] | Maximizar valor de métrica |
+
+### Impacto en [!UICONTROL Segmentación automática] actividades
+
+| Nombre de la métrica | Ya no es compatible con: |
+| --- | --- |
+| [!UICONTROL cartremovalos] | Maximizar valor de métrica |
+| [!UICONTROL vistas de página] | Maximizar valor de métrica |
+| [!UICONTROL Visitantes] | Tasa de conversión, Maximizar valor de métrica |
+| [!UICONTROL Visitas] | Maximizar valor de métrica |
 
 ## Limitaciones y notas
 
