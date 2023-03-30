@@ -4,9 +4,9 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 78%
 
 ---
@@ -25,7 +25,7 @@ Esta versión contiene la siguiente función nueva:
 
 | Función | Detalles |
 |--- |--- |
-| AEM fragmentos de contenido para una personalización y experimentación sin objetivos | Uso [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de contenido] en [!DNL Target] actividades. Combine la facilidad de uso y la potencia de la AEM con potentes capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para probar y personalizar experiencias a escala. |
+| AEM fragmentos de contenido para una personalización y experimentación sin objetivos | Uso [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de contenido] en [!DNL Target] actividades. Combine la facilidad de uso y la potencia de la AEM con potentes capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para ayudar a una personalización y experimentación sin objetivos. |
 
 ## Notas de la versión adicionales y detalles de la versión
 
