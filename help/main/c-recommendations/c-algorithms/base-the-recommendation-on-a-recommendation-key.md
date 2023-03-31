@@ -5,9 +5,9 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
+source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3999'
 ht-degree: 37%
 
 ---
@@ -164,7 +164,11 @@ Si selecciona el algoritmo Más visitados por categoría , puede seleccionar las
 
 ### Principales vendedores por atributo de artículo
 
-(Próximamente habrá información)
+Recomienda artículos o medios similares a los artículos o medios más comprados del sitio.
+
+Este algoritmo le permite seleccionar el atributo del elemento en el que desea basar la recomendación, por ejemplo, en &quot;Nombre&quot; o &quot;Marca&quot;.
+
+A continuación, seleccione qué atributos de perfil se almacenan en el perfil del visitante para que coincidan, por ejemplo, &quot;Marca favorita&quot;, &quot;Último artículo agregado al carro de compras&quot; o &quot;Programa más visitado&quot;.
 
 ### Principales por métrica de Analytics
 
