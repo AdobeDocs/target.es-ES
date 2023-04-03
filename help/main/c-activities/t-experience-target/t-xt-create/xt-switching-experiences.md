@@ -4,24 +4,16 @@ description: Descubra cómo los visitantes pueden cambiar entre experiencias en 
 title: ¿Pueden los visitantes cambiar experiencias en una actividad de segmentación de experiencias?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 97%
+source-wordcount: '762'
+ht-degree: 96%
 
 ---
 
 # Cambiar experiencias en segmentación de experiencias
 
 Información sobre cómo los visitantes pueden cambiar entre experiencias en una actividad de Segmentación de experiencias (XT) conforme evolucionan sus perfiles.
-
->[!NOTE]
->
->**21 de septiembre de 2017**
->
->Con la versión del 21 de septiembre de 2017, Target cambió el modo en que se coloca a los usuarios en experiencias en las actividades de segmentación de experiencias (XT; pruebas de página de aterrizaje en Target Classic). Para todas las actividades nuevas y existentes, los usuarios deben satisfacer las reglas de segmentación de experiencias en todos los aspectos para seguir viendo el contenido de la experiencia y ser contabilizados en los informes. Anteriormente, aunque un usuario dejara de cumplir los requisitos de cualquier experiencia, seguía viendo el contenido de la última experiencia para la que estuvo cualificado y se lo contabilizaba en sus informes.
->
->Este cambio se produjo automáticamente como parte de la versión para todas las actividades existentes y para cualquier actividad creada posteriormente. Si prefiere el método antiguo (el anterior al 21 de septiembre), puede crear audiencias empleando scripts de perfil, de modo que el usuario solo deba satisfacer una vez una condición para poder seguir perteneciendo a esa audiencia en el futuro. A continuación, utilice esas audiencias para cada experiencia de la actividad.
 
 Con la Segmentación de experiencias, puede controlar la experiencia que ve cada visitante conforme evoluciona su perfil. La siguiente lista muestra solo algunas situaciones en las que los perfiles de los visitantes pueden evolucionar y es posible que quiera presentar contenido diferente:
 
