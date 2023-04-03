@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1890'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Para obtener más información, consulte la [Publicación de blog de Adobe Exper
 ## [!UICONTROL Comunidad de Adobe Target;pausa para café]
 
 * **Miércoles, 12 de abril de 2023**
-* **8:00 a 9:00 a.m. (PDT, GMT -7)
+* **8:00 a 9:00 a.m. (PDT, GMT -7)**
 * **[Información de registro](https://adobe.ly/42gQGfv){target=_blank}**
 
 Únase a Matthew Bailie y a Georgia Fail, ambos consultores de soluciones sénior para [!DNL Adobe Target], que charlará directamente con usted acerca de su [!DNL Adobe Target] preguntas relacionadas con [!DNL Target] Funciones de IA, específicamente [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática].
