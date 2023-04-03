@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: cead599ec57e0532cabe29295d19380eb80575f9
-workflow-type: ht
+source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+workflow-type: tm+mt
 source-wordcount: '0'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,14 @@ Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [
 Gartner ha nombrado a [!DNL Adobe Target] como líder en su último Magic Quadrant para motores de personalización (PE) por quinto año consecutivo. [!DNL Adobe] también recibió puntuaciones muy altas y un aumento significativo año tras año en los tres casos de uso principales: Marketing digital, Comercio digital y Servicio y asistencia. [!DNL Target] recibió las puntuaciones más elevadas por las capacidades de prueba entre todos los proveedores evaluados.
 
 Para obtener más información, consulte la [Publicación de blog de Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!UICONTROL Comunidad de Adobe Target;pausa para café]
+
+* **Miércoles, 12 de abril de 2023**
+* **8:00 a 9:00 a.m. (PDT, GMT -7)
+* **[Información de registro](https://adobe.ly/42gQGfv){target=_blank}**
+
+Únase a Matthew Bailie y a Georgia Fail, ambos consultores de soluciones sénior para [!DNL Adobe Target], que charlará directamente con usted acerca de su [!DNL Adobe Target] preguntas relacionadas con [!DNL Target] Funciones de IA, específicamente [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática].
 
 ## Serie de seminarios web sobre [!DNL Adobe Target] {#webinar-series}
 
