@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 95%
+source-wordcount: '2336'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 5 de abril | [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Se agregó texto que indica que [!UICONTROL Analytics como fuente de informes] (A4t) no es compatible con las actividades que utilizan decisiones de oferta. |
 | 3 de abril | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información sobre la variable [!UICONTROL Comunidad de Adobe Target] Descanso del café programado para miércoles, 12 de abril de 2023. |
 |  | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Se ha añadido una nota a la lista de permitidos de todo [!DNL Adobe Analytics] Bloques de direcciones IP. |
 | 30 de marzo | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Notas de la versión actualizadas para la versión de las métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] característica que le permite elegir métricas basadas en eventos binarios o métricas basadas en eventos continuos al usar [!UICONTROL A4T] para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades. |
