@@ -4,7 +4,7 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
+source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 64%
@@ -23,7 +23,7 @@ Este artículo contiene información previa al lanzamiento para [!DNL Adobe Targ
 
 Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Adobe Experience Manager] AEM) y [!DNL Adobe Target] [!UICONTROL Fragmentos de contenido] versión (6 de abril de 2023)
+## [!DNL Adobe Experience Manager] AEM) y [!DNL Adobe Target] [!UICONTROL Fragmentos de contenido] versión (12 de abril de 2023)
 
 Esta versión contiene la siguiente función nueva:
 
