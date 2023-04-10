@@ -4,9 +4,9 @@ description: Vea una lista de temas útiles para resolver problemas de Adobe Tar
 title: ¿Cómo puedo solucionar problemas de Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '503'
 ht-degree: 88%
 
 ---
@@ -62,7 +62,6 @@ Las secciones siguientes contienen información sobre la resolución de problema
 * [Resolución de problemas de integración de Analytics y Target](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * Vídeo “Horario de oficina”, una iniciativa liderada por el equipo del Servicio de atención al cliente de Adobe. Consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 * Preguntas más frecuentes sobre A4T
-   * [Minimización de los recuentos inflados de visitas y visitantes en A4T](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [Aprovisionamiento inicial: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [Configuración de actividades: preguntas frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [Ver informes: Preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
