@@ -5,10 +5,10 @@ title: ¿Qué es el informe Atributos importantes?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 81%
+source-wordcount: '1847'
+ht-degree: 75%
 
 ---
 
@@ -90,7 +90,9 @@ La tabla siguiente explica cómo se interpreta el informe y describe sus element
 
 ## Preguntas más frecuentes sobre Atributos importantes {#section_740910A52FA646B4AC9452F98C2F5719}
 
-**Los informes de Perspectivas de personalización aún no están disponibles para mi actividad. ¿A qué se debe?**
+Consulte las siguientes preguntas frecuentes para obtener respuestas a las preguntas más frecuentes sobre el uso de la variable [!UICONTROL Atributos importantes] informe.
+
+### Los informes de Perspectivas de personalización aún no están disponibles para mi actividad. ¿A qué se debe?
 
 Existen varias razones por las que los informes de [!UICONTROL Perspectivas de personalización] pueden no estar aún disponibles para su actividad:
 
@@ -98,33 +100,39 @@ Existen varias razones por las que los informes de [!UICONTROL Perspectivas de p
 * La actividad no tuvo suficiente tráfico durante el periodo de tiempo especificado. Transcurridos 15 días, y suponiendo que haya [tráfico personalizado suficiente](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) en la actividad para crear los modelos de personalización, estarán disponibles los informes Segmentos automatizados y Atributos importantes.
 * Su actividad tiene un objetivo de optimización de ingresos. En este momento, [!UICONTROL Perspectivas de personalización] solo está disponible para actividades de optimización de la conversión. En una futura versión añadiremos compatibilidad con las actividades de optimización de los ingresos.
 
-¿**Qué es un atributo?**
+### ¿Qué es un atributo?
 
 Un atributo es información sobre un visitante o sobre su visita específica que los algoritmos de personalización utilizan para aprender a personalizar el tráfico. Por ejemplo, un atributo podría ser el tipo de navegador, la ubicación, la hora del día de la visita, etcétera.
 
 Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en modelos de personalización de Target, consulte [Métodos para introducir datos a Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
-**¿La información que aparece en los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] es la misma que la que aparece en la descarga de CSV?**
+### Veo uno o más atributos que no quiero que el modelo use para la formación. ¿Puedo eliminar esos atributos del modelo de formación? {#models-api}
+
+La variable [!UICONTROL API de modelos], también denominada API de Lista de bloqueados, permite a los usuarios ver y administrar la lista de atributos (también llamados funciones) que se utilizan en los modelos de aprendizaje automático para [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] actividades (AT). Si desea excluir uno o más atributos de los que utilizan los modelos para actividades AP o AT, puede utilizar la API de modelos para agregar esos atributos a la &quot;lista de bloqueados&quot;.
+
+Para obtener información detallada, consulte [Información general sobre la API de modelos](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+
+### ¿La información que aparece en los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] es la misma que la que aparece en la descarga de CSV?
 
 No, el informe Interfaz de usuario contiene información seleccionada. La descarga de CSV contiene detalles adicionales. La descarga del informe Perspectivas de segmentos automatizados incluye segmentos automatizados adicionales que se suman a los ya incluidos en la interfaz de usuario, así como información sobre el comportamiento de dichos segmentos ante sus ofertas o experiencias. El informe Atributos importantes incluye los 100 principales atributos de visitante y su importancia relativa, mientras que Interfaz de usuario solo incluye los 10 principales atributos de visitante.
 
-**¿Puedo ver Perspectivas de personalización para un intervalo de fechas personalizado?**
+### ¿Puedo ver Perspectivas de personalización para un intervalo de fechas personalizado?
 
 Los informes de Perspectivas de personalización (tanto [!UICONTROL Segmentos automatizados] como [!UICONTROL Atributos importantes]) solo están disponibles para intervalos de fechas fijos: 15 días, 30 días, 45 días, 60 días y 90 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Puede seleccionar estas duraciones para cualquier fecha de finalización (mientras haya datos suficientes en la actividad para satisfacer la duración).
 
-**¿Cómo se crea [!UICONTROL Perspectivas de personalización]?**
+### ¿Cómo se crea [!UICONTROL Perspectivas de personalización]?
 
 [!UICONTROL Perspectivas de personalización] se crea empleando una técnica de Adobe con patente en trámite llamada MAGIX (Model Agnostic Globally Interpretable Explanations). Puede obtener más información sobre MAGIX en el documento publicado por el equipo de investigación de Adobe en el [sitio web arXiv.org](https://arxiv.org/abs/1706.07160).
 
-**¿Está disponible [!UICONTROL Perspectivas de personalización] para objetivos de modelado basados en los ingresos o para objetivos principales?**
+### Son [!UICONTROL Perspectivas de personalización] está disponible para objetivos de modelado basados en ingresos/objetivo principal?
 
 En este momento, [!UICONTROL Perspectivas de personalización] solo está disponible para actividades de optimización de la conversión. En una futura versión añadiremos compatibilidad con las actividades de optimización de los ingresos.
 
-**¿Qué representa la puntuación de importancia de atributo en el informe Atributos importantes?**
+### ¿Qué representa la puntuación de importancia de atributo en el informe Atributos importantes?
 
 La puntuación de importancia en la parte “Clasificación de la importancia del atributo” del informe ofrece información sobre cuáles de las variables que el algoritmo utilizó para aprender fueron más importantes al decidir el reparto de todos los visitantes entre los segmentos identificados. Se asigna una puntuación porcentual a los 100 principales atributos utilizados por el modelo.
 
-**¿Por qué, para un determinado segmento automatizado, algunas ofertas o experiencias con una tasa de conversión menor que otras reciben una mayor cantidad de tráfico?**
+### ¿Por qué, para un determinado segmento automatizado, algunas ofertas o experiencias con una tasa de conversión menor que otras reciben una mayor cantidad de tráfico?
 
 Existen varias causas potenciales para que una oferta o experiencia con una tasa de conversión menor pueda tener más visitas dentro de un segmento automatizado, como las siguientes:
 
@@ -136,7 +144,7 @@ Existen varias causas potenciales para que una oferta o experiencia con una tasa
 
 Saber cómo funciona el modelo que proporciona tráfico puede ser útil. Cada persona se sirve en función de su perfil total. Sin embargo, los informes de perspectivas generalizan este comportamiento para hacerlo más interpretativo por parte de un humano. Como resultado, los segmentos no son mutuamente excluyentes. Esto puede generar segmentos individuales que muestren este tipo de comportamiento, porque la misma persona puede aparecer en varios segmentos.
 
-**¿De qué maneras puedo aprovechar la información de Perspectivas de personalización?**
+### ¿De qué maneras puedo aprovechar la información de Perspectivas de personalización?
 
 * Descubra nuevas audiencias para segmentar: si detecta un segmento automatizado concreto que funciona especialmente bien, plantéese crear una audiencia para poder reutilizarlo en otros informes.
 * Pruebe hipótesis sobre el tipo de visitantes que responderán a cada una de sus experiencias.

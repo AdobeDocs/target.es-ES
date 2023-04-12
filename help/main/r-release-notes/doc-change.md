@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '2336'
-ht-degree: 94%
+source-wordcount: '2386'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 12 de abril | [Informe sobre Atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>Veo uno o más atributos que no quiero que el modelo use para la formación. ¿Puedo eliminar esos atributos del modelo de formación?</li></ul> |
+|  | [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Qué sucede si un usuario tiene varias funciones y permisos?</li></ul> |
 | 5 de abril | [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Se agregó texto que indica que [!UICONTROL Analytics como fuente de informes] (A4t) no es compatible con las actividades que utilizan decisiones de oferta. |
 | 3 de abril | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información sobre la variable [!UICONTROL Comunidad de Adobe Target] Descanso del café programado para miércoles, 12 de abril de 2023. |
 |  | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Se ha añadido una nota a la lista de permitidos de todo [!DNL Adobe Analytics] Bloques de direcciones IP. |
