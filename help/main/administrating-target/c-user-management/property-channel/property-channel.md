@@ -1,27 +1,27 @@
 ---
-keywords: espacios de trabajo;administrar la propiedad;permisos;configuración de producto;perfil de producto;roles;proyecto
+keywords: espacios de trabajo;administrar propiedad;permisos;configuración de producto;perfil de producto;funciones;proyecto;observador;editor;aprobador;editor
 description: Obtenga información sobre cómo crear espacios de trabajo separados (perfiles de producto) y asignar a los usuarios diferentes roles y permisos para páginas, propiedades o sitios web individuales.
 title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 59%
+source-wordcount: '3214'
+ht-degree: 58%
 
 ---
 
 # Permisos de usuario de Enterprise
 
-Permisos de usuario de Enterprise son un medio para administrar formalmente el acceso de los usuarios de toda la empresa a [!DNL Adobe Target]. Agregar usuarios a [!DNL Target], asigne permisos según sus funciones y cree espacios de trabajo para equipos en función de diferentes departamentos, ubicaciones globales, canales y otras agrupaciones lógicas. Puede asignar a los usuarios las funciones de [!UICONTROL Observador], [!UICONTROL Editor]o [!UICONTROL Aprobador].
+Permisos de usuario de Enterprise son un medio para administrar formalmente el acceso de los usuarios de toda la empresa a [!DNL Adobe Target]. Agregar usuarios a [!DNL Target], asigne permisos según sus funciones y cree espacios de trabajo para equipos en función de diferentes departamentos, ubicaciones globales, canales y otras agrupaciones lógicas. Puede asignar a los usuarios las funciones de [!UICONTROL Observador], [!UICONTROL Editor], [!UICONTROL Aprobador]o [!UICONTROL Editor].
 
 ## Determinar si tiene acceso a permisos de usuario de enterprise
 
 >[!NOTE]
 >
->La funcionalidad Propiedades y Permisos está disponible como parte de la [!DNL Target] solución Premium. No están disponibles en [!DNL Target] Standard sin una licencia de [!DNL Target] Premium.
+>La funcionalidad [!UICONTROL Propiedades y Permisos] está disponible como parte de la [!DNL Target] solución Premium. No están disponibles en [!DNL Target] Standard sin una licencia de [!DNL Target] Premium.
 >
 >Su [!DNL Target] la implementación puede utilizar cualquier versión de at.js.
 
@@ -89,10 +89,10 @@ Las funciones y los permisos determinan los niveles de acceso que tienen los usu
 
 | Función | Descripción |
 |--- |--- |
-| Aprobador | Puede crear, editar y activar o detener actividades. |
-| Editor | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
-| Observador | Puede ver actividades, pero no puede crearlas o editarlas. |
-| Editor | Similar a la función Observador (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, la función Publicador tiene el permiso adicional de activar actividades. |
+| [!UICONTROL Aprobador] | Puede crear, editar y activar o detener actividades. |
+| [!UICONTROL Editor] | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
+| [!UICONTROL Observador] | Puede ver actividades, pero no puede crearlas o editarlas. |
+| [!UICONTROL Editor] | Similar a la variable [!UICONTROL Observador] (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, la función [!UICONTROL Publicador] tiene el permiso adicional de activar actividades. |
 
 ### Canal
 
@@ -258,6 +258,10 @@ Tenga en cuenta lo siguiente al usar o configurar propiedades y permisos en [!DN
 ## Preguntas frecuentes {#faqs}
 
 Las preguntas más frecuentes sobre permisos de Enterprise incluyen las siguientes:
+
+### ¿Qué sucede si un usuario tiene varias funciones y permisos?
+
+Si un usuario tiene varias funciones y permisos, se aplica la función con los permisos de remitente. Por ejemplo, si un usuario tiene [!UICONTROL Observador] y [!UICONTROL Aprobador] funciones, la variable [!UICONTROL Aprobador] se aplica.
 
 ### ¿Puedo trasladar una actividad de un espacio de trabajo a otro?
 
