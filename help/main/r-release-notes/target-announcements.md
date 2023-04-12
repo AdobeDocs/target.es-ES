@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
 workflow-type: tm+mt
-source-wordcount: '1984'
-ht-degree: 93%
+source-wordcount: '1937'
+ht-degree: 94%
 
 ---
 
@@ -21,14 +21,6 @@ Gartner ha nombrado a [!DNL Adobe Target] como líder en su último Magic Quadra
 
 Para obtener más información, consulte la [Publicación de blog de Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!UICONTROL Comunidad de Adobe Target;pausa para café]
-
-* **Miércoles, 12 de abril de 2023**
-* **8:00 a 9:00 a.m. (PDT, GMT -7)**
-* **[Información de registro](https://adobe.ly/42gQGfv){target=_blank}**
-
-Únase a Matthew Bailie y a Georgia Fail, ambos consultores de soluciones sénior para [!DNL Adobe Target], que charlará directamente con usted acerca de su [!DNL Adobe Target] preguntas relacionadas con [!DNL Target] Funciones de IA, específicamente [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática].
-
 ## Serie de seminarios web sobre [!DNL Adobe Target] {#webinar-series}
 
 Regístrese en los siguientes seminarios web para ver cómo utilizan los clientes [!DNL Target] para lograr sus objetivos de personalización y optimización:
@@ -36,7 +28,7 @@ Regístrese en los siguientes seminarios web para ver cómo utilizan los cliente
 ### Ofrezca experiencias personalizadas a los clientes, cada vez.
 
 * **Jueves, 27 de abril de 2023**
-* **9:00 a 10:00 a.m. (BST, GMT +1), de 10:00 a 11:00 p.m. (CEST, GMT +2)**
+* **9:00 a 10:00 a.m. (BST, GMT +1), de 10:00 a 11:00 a.m. (CEST, GMT +2)**
 * **[Información de registro](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
 Manténgase al frente del cliente con [!DNL Adobe Target]las potentes funciones de prueba y personalización de . Asegúrese de que está en todas partes del sitio donde se encuentra el cliente, al ofrecer experiencias contextuales dinámicas en la web, dispositivos móviles y dispositivos digitales.
