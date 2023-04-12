@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2420'
 ht-degree: 92%
 
 ---
@@ -19,7 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 12 de abril | [Informe sobre Atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>Veo uno o más atributos que no quiero que el modelo use para la formación. ¿Puedo eliminar esos atributos del modelo de formación?</li></ul> |
+| 12 de abril | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha agregado un vínculo para registrarse en el siguiente seminario web:<ul><li>Ofrezca experiencias personalizadas a los clientes, cada vez.</li></ul> |
+|  | [Informe sobre Atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>Veo uno o más atributos que no quiero que el modelo use para la formación. ¿Puedo eliminar esos atributos del modelo de formación?</li></ul> |
 |  | [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Qué sucede si un usuario tiene varias funciones y permisos?</li></ul> |
 |  | [Fragmentos de contenido](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) de AEM | Nuevo tema. Tenga en cuenta que esta función está en estado &quot;versión preliminar&quot; para realizar pruebas. |
 | 5 de abril | [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Se agregó texto que indica que [!UICONTROL Analytics como fuente de informes] (A4t) no es compatible con las actividades que utilizan decisiones de oferta. |

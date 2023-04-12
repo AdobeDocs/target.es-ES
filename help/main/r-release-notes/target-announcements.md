@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 97%
+source-wordcount: '1984'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,28 @@ Para obtener más información, consulte la [Publicación de blog de Adobe Exper
 
 Regístrese en los siguientes seminarios web para ver cómo utilizan los clientes [!DNL Target] para lograr sus objetivos de personalización y optimización:
 
-Nada programado en este momento.
+### Ofrezca experiencias personalizadas a los clientes, cada vez.
+
+* **Jueves, 27 de abril de 2023**
+* **9:00 a 10:00 a.m. (BST, GMT +1), de 10:00 a 11:00 p.m. (CEST, GMT +2)**
+* **[Información de registro](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+
+Manténgase al frente del cliente con [!DNL Adobe Target]las potentes funciones de prueba y personalización de . Asegúrese de que está en todas partes del sitio donde se encuentra el cliente, al ofrecer experiencias contextuales dinámicas en la web, dispositivos móviles y dispositivos digitales.
+
++++Detalles
+
+El seminario web abarcará:
+
+* Por qué la personalización es una parte fundamental de cualquier estrategia
+* Identificación y uso de diferentes tipos de actividades
+* Elementos destacados: Casos de uso del sector
+* Recommendations impulsará la personalización
+* Demostración del [!DNL Target] Interfaz de usuario, resaltado
+   * Creación de audiencias
+   * Configuración [!UICONTROL Segmentación de experiencias] Actividades (XT)
+   * Configuración [!UICONTROL Segmentación automática] y [!UICONTROL Personalización automática] actividades
+
++++
 
 ## Grabaciones de seminarios web anteriores y sesiones de formación
 
