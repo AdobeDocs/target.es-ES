@@ -4,10 +4,10 @@ description: Obtenga información sobre las nuevas funciones, mejoras y correcci
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 64%
+source-wordcount: '272'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 
 Este artículo contiene información previa al lanzamiento para [!DNL Adobe Target] versiones, incluidos SDK, API y bibliotecas JavaScript.
 
-**Última actualización: 30 de marzo de 2023**
+**Última actualización: 12 de abril de 2023**
 
 >[!NOTE]
 >
@@ -25,11 +25,15 @@ Para obtener información acerca de la versión actual, consulte [Notas de la ve
 
 ## [!DNL Adobe Experience Manager] AEM) y [!DNL Adobe Target] [!UICONTROL Fragmentos de contenido] versión (12 de abril de 2023)
 
+>[!NOTE]
+>
+>Esta función estará disponible como función de prelanzamiento el 12 de abril de 2023 y estará disponible para la versión de disponibilidad general el 26 de abril de 2023.
+
 Esta versión contiene la siguiente función nueva:
 
 | Función | Detalles |
 |--- |--- |
-| AEM [!UICONTROL Fragmentos de contenido] para una personalización y experimentación sin objetivos | Use [!UICONTROL fragmentos de contenido] de [!DNL Adobe Experience Manager] (AEM) en actividades de [!DNL Target]. Combine la facilidad de uso y la potencia de la AEM con potentes capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para ayudar a una personalización y experimentación sin objetivos. |
+| AEM [!UICONTROL Fragmentos de contenido] para una personalización y experimentación sin objetivos | Use [!UICONTROL fragmentos de contenido] de [!DNL Adobe Experience Manager] (AEM) en actividades de [!DNL Target]. Combine la facilidad de uso y la potencia de la AEM con potentes capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para ayudar a una personalización y experimentación sin objetivos.<P>Para obtener más información, consulte [AEM [!UICONTROL Fragmentos de contenido]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
 
 ## Notas de la versión adicionales y detalles de la versión
 
