@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2432'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 13 de abril | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha añadido información sobre la variable [!DNL Target] Versión Standard/Premium 23.4.1 (del 25 al 27 de abril de 2023). |
 | 12 de abril | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha agregado un vínculo para registrarse en el siguiente seminario web:<ul><li>Ofrezca experiencias personalizadas a los clientes, cada vez.</li></ul> |
 |  | [Informe sobre Atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>Veo uno o más atributos que no quiero que el modelo use para la formación. ¿Puedo eliminar esos atributos del modelo de formación?</li></ul> |
 |  | [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Qué sucede si un usuario tiene varias funciones y permisos?</li></ul> |
