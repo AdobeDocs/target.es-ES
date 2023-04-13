@@ -4,9 +4,9 @@ description: Aprenda a utilizar la integración de  [!DNL Target]/[!DNL Real-tim
 title: ¿Cómo puedo integrar  [!DNL Target]  con  [!DNL Real-time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: e9fd075db7c533c77154af7806076d8ed0198979
+source-git-commit: c14365b6d3296ab09d599ecb33239470a857efce
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '915'
 ht-degree: 18%
 
 ---
@@ -59,11 +59,7 @@ Para obtener más información, consulte los temas siguientes:
 * [Conexión Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} en el *Información general sobre destinos* guía
 * [Configurar destinos de personalización para los casos de uso de personalización de la misma página y de la página siguiente](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} en el *Información general sobre destinos* guía
 
-### Detalles adicionales
-
-Tenga en cuenta la siguiente información cuando use audiencias de [!DNL Adobe Experience Platform]:
-
-#### Casos de uso de personalización
+### Casos de uso de personalización
 
 La tabla siguiente muestra qué tipo de caso de uso de personalización (sesión siguiente o página misma) está disponible al usar la variable [!DNL Adobe Experience Platform Web SDK] en lugar de usar at.js:
 
@@ -73,7 +69,7 @@ La tabla siguiente muestra qué tipo de caso de uso de personalización (sesión
 | [!DNL Platform Web SDK] ni [!DNL AEP Server-Side API] | **Soluciones**:<ul><li>[!DNL RTCDP] (cualquier SKU) y [!DNL Target]</li></ul>**Caso de uso**:<ul><li>Personalización de próxima sesión</li><li>Personalización de la misma página mediante Edge</li><li>Gobernanza aplicada al compartir segmentos</li></ul>**Soluciones**:<ul><li>[!DNL RTCDP] (cualquier SKU), [!DNL AAM]y [!DNL Target]</li></ul>**Caso de uso**:<ul><li>Personalización de próxima sesión</li><ul><li>[!DNL AAM] segmentos</li><li>Segmentos de terceros a través de [!DNL AAM]</li></ul><li>Personalización de la misma página mediante Edge</li><ul><li>[!DNL RTCDP] segmentos</li><li>Gobernanza aplicada al compartir segmentos</li></ul> |
 | Mezcla de [!UICONTROL at.js] y [!DNL Platform Web SDK] | **Soluciones**:<ul><li>[!DNL RTCDP] (cualquier SKU) y [!DNL Target]</li></ul>**Caso de uso**:<ul><li>Personalización de próxima sesión</li><ul><li>Para todas las páginas con [!UICONTROL at.js]</li></ul><li>Personalización de la misma página</li><ul><li>Para todas las páginas con [!DNL Platform Web SDK]</li></ul></ul>**Soluciones**:<ul><li>[!DNL RTCDP] (cualquier SKU), [!DNL AAM]y [!DNL Target]</li></ul>**Caso de uso**:<ul><li>Personalización de próxima sesión</li><ul><li>Para todas las páginas con [!UICONTROL at.js]</li><li>[!DNL AAM] segmentos</li><li>Segmentos de terceros a través de [!DNL AAM]</li></ul> |
 
-#### Tiempo de evaluación de segmentos
+### Tiempo de evaluación de segmentos
 
 La tabla siguiente muestra el tiempo de evaluación de segmentos para eventos que provienen de diferentes escenarios de implementación:
 
@@ -95,7 +91,11 @@ Ejemplo de caso de uso: Como especialista en marketing en línea, desea que AEP/
 
 Tenga en cuenta que la asignación de valores predeterminados es opcional.
 
-## Vídeo: Personalización de próxima visita con CDP en tiempo real y [!DNL Adobe Target]{#RTCDP}
+## Vídeos y publicaciones en blogs
+
+Los siguientes vídeos y anuncios de blog proporcionan más información sobre la personalización mejorada con Target y RTCDP:
+
+### Vídeo: Personalización de próxima visita con CDP en tiempo real y [!DNL Adobe Target]{#RTCDP}
 
 Obtenga información sobre cómo personalizar en la siguiente visita individual con [!DNL Real-time Customer Data Platform] y [!DNL Adobe Target]. La variable [!DNL Adobe Target] destino en [!DNL Real-time CDP] le permite usar [!DNL Experience Platform] segmentos en [!DNL Adobe Target] para la misma personalización de páginas y la personalización de páginas siguientes con compatibilidad con la administración y la privacidad.
 
@@ -103,6 +103,6 @@ Para obtener más información, consulte [Personalización de próxima visita co
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-## Blog y video de Adobe Target:
+### Blog y video de Adobe Target:
 
 [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] y [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
