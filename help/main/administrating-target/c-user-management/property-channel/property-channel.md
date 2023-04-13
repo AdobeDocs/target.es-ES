@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
-source-wordcount: '3215'
+source-wordcount: '3216'
 ht-degree: 58%
 
 ---
@@ -23,7 +23,7 @@ Permisos de usuario de Enterprise son un medio para administrar formalmente el a
 >
 >La funcionalidad [!UICONTROL Propiedades y Permisos] está disponible como parte de la [!DNL Target] solución Premium. No están disponibles en [!DNL Target] Standard sin una licencia de [!DNL Target] Premium.
 >
->Su [!DNL Target] la implementación puede utilizar cualquier versión de at.js.
+>Su [!DNL Target] la implementación puede utilizar cualquier versión de at.js o [!DNL Adobe Experience Platform Web SDK].
 
 Puede comprobar si su organización dispone de una licencia Standard o Premium haciendo clic en el vínculo [!UICONTROL Administración] en la parte superior de la interfaz de usuario de [!DNL Target].
 
