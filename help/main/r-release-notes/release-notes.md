@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target] Standard/Premium 23.3.1 (28-30 de marzo de 2023)
+## [!DNL Target] Standard/Premium 23.3.1 (28 y 30 de marzo de 2023)
 
-Esta versión está disponible según el siguiente programa escalonado:
+Esta versión está disponible según la siguiente programación escalonada:
 
 * **28 de marzo**: región de Europa, Oriente Medio y África (EMEA)
 * **29 de marzo**: región Asia-Pacífico (APAC)
@@ -31,10 +31,10 @@ Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 
 | Función | Detalles |
 |--- |--- |
-| Métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]<p>(Fecha de la versión: 30 de marzo de 2023) | [!DNL Target] permite elegir métricas basadas en eventos binomiales o métricas basadas en eventos continuos al utilizar [!UICONTROL A4T] para actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].<P>Tenga en cuenta el siguiente cambio en las métricas admitidas:<ul><li>[!DNL Target] conservó el comportamiento anterior para las actividades existentes hasta el 9 de septiembre de 2023. Después de esta fecha, las actividades que utilizan métricas no compatibles se suspenderán para forzar la migración de la actividad existente a un nuevo comportamiento.</li></ul>Para obtener más información, consulte &quot;Métricas de objetivo compatibles&quot; en [Compatibilidad con A4T para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Con esta función, se han actualizado los siguientes tutoriales:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Asignación automática] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=es){target=_blank}</li><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Segmentación automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=es){target=_blank}</li></ul> |
+| Métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]<p>(Fecha de la versión: 30 de marzo de 2023) | [!DNL Target] permite elegir métricas basadas en eventos binomiales o métricas basadas en eventos continuos al utilizar [!UICONTROL A4T] para actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].<P>Tenga en cuenta el siguiente cambio en las métricas admitidas:<ul><li>[!DNL Target] conservó el comportamiento anterior para las actividades existentes hasta el 9 de septiembre de 2023. Después de esta fecha, las actividades que utilizan métricas no compatibles se suspenderán para forzar la migración de la actividad existente a un nuevo comportamiento.</li></ul>Para obtener más información, consulte “Métricas de objetivo admitidas” en [Compatibilidad de A4T con actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Con esta función, se han actualizado los siguientes tutoriales:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Asignación automática] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=es){target=_blank}</li><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Segmentación automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=es){target=_blank}</li></ul> |
 
 * Se ha mejorado la sincronización de audiencias y actividades para que los elementos creados en [!DNL Adobe Experience Platform] y [!DNL Adobe Audience Manager] están disponibles en la IU de [!DNL Target] más rápido. (TGT-44568)
-* Interfaz de usuario mejorada para permitir que los usuarios eliminen el [!UICONTROL Dirección URL predeterminada] under [!UICONTROL Administración] > [!UICONTROL Compositor de experiencias visuales] > [!UICONTROL Dirección URL predeterminada]. Esta modificación permite a los clientes volver a cambiar la dirección URL predeterminada a una cadena vacía, que anteriormente no era posible tras la configuración inicial. (TGT-44577)
+* Se ha mejorado la IU para permitir que los usuarios quiten la [!UICONTROL URL predeterminada] en [!UICONTROL Administración] > [!UICONTROL Compositor de experiencias visuales] > [!UICONTROL URL predeterminada]. Esta modificación permite a los clientes volver a cambiar la dirección URL predeterminada a una cadena vacía, que anteriormente no era posible tras la configuración inicial. (TGT-44577)
 * Se han eliminado restricciones que impedían a los clientes editar o quitar audiencias predeterminadas (audiencias con nombres reservados). (TGT-44655)
 * Se ha deshabilitado la opción &quot;[!UICONTROL Listo]&quot; mientras se veían las ruedas giratorias de carga en la IU de [!DNL Target] al crear [audiencias combinadas](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
 * Se ha corregido el vínculo [!UICONTROL Idioma] en la parte inferior de la página [!UICONTROL Audiencias] para que se vincule correctamente a la página [!UICONTROL Preferencias de comunicación de la cuenta]. (TGT-43562)
@@ -42,7 +42,7 @@ Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 * Se ha corregido un problema que impedía que los clientes vieran la última experiencia en una actividad de [!UICONTROL Prueba multivariada] con muchas experiencias desde dentro del [!UICONTROL Compositor de experiencias visuales] (VEC). La [Ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en la parte inferior del VEC, a veces, impedía que los clientes vieran la última experiencia. (TGT-44578)
 * Se ha corregido un problema que provocaba que la URL de Examinar del VEC no reflejara la página actual que es visible en una sesión normal del explorador si esta requiere autorización o invoca redirecciones. (TGT-44350)
 * Se ha corregido un problema que impedía que los clientes cambiaran la configuración [!UICONTROL Filtrar criterios no compatibles] en [!UICONTROL Recomendaciones] > [!UICONTROL Configuración]. (TGT-44398)
-* Se ha corregido un problema que provocaba que las solicitudes del POST crearan [!DNL Recommendations] fuentes en las que se producen errores al usar [!UICONTROL Clasificaciones de Analytics] con grupos de informes con puntos en sus nombres. (TGT-44598)
+* Se ha corregido un problema que provocaba que las solicitudes POST para crear fuentes de [!DNL Recommendations] fallaran al utilizar las [!UICONTROL Clasificaciones de Analytics] con grupos de informes con puntos en los nombres. (TGT-44598)
 * Se han actualizado los vínculos de la IU de [!DNL Target] para que apunten a la nueva [extensión Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Se ha mejorado la seguridad para evitar intentos de falsificación de solicitudes del lado del servidor (SSRF) en las fuentes de [!DNL Recommendations]. (TGT-43769)
 * Se han realizado varias correcciones de localización en la IU de [!DNL Target].
@@ -66,7 +66,7 @@ Además de las notas de cada versión, los recursos siguientes también contiene
 
 | Recurso | Detalles |
 |--- |--- |
-| [Cambios de la documentación](/help/main/r-release-notes/doc-change.md) | Vea información detallada sobre las actualizaciones que se realizaron en esta guía que no se incluyen en estas notas de la versión. |
+| [Cambios de la documentación](/help/main/r-release-notes/doc-change.md) | Vea información detallada sobre las actualizaciones que se realizaron en esta guía y que no se incluyen en estas notas de la versión. |
 | [Notas de la versión para versiones anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Vea información sobre las nuevas funciones y mejoras de las versiones anteriores de Target Standard y Target Premium. |
 | [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es){target=_blank} | Vea las notas de la última versión de las soluciones de Adobe Experience Cloud. |
 
@@ -76,5 +76,5 @@ Los siguientes recursos le permiten ver qué novedades hay en la próxima versi�
 
 | Recurso | Detalles |
 |--- |--- |
-| [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Reciba notificaciones avanzadas sobre próximas mejoras de productos para [!DNL Target] y otros [!DNL Adobe Experience Cloud] soluciones. |
-| [Notas de la versión de Target: versión previa](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Información sobre las versiones de Target publicadas en el mes actual, incluida la información sobre la versión preliminar. |
+| [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Reciba notificaciones avanzadas acerca de próximas mejoras de productos para [!DNL Target] y otras soluciones de [!DNL Adobe Experience Cloud]. |
+| [Notas de la versión de Target: versión preliminar](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Información acerca de las versiones de Target publicadas en el mes actual, incluida la información sobre la versión preliminar. |

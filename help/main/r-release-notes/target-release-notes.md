@@ -1,19 +1,19 @@
 ---
 keywords: notas de la versión;versiones;actualizaciones;futuras versiones;mejoras;nuevas funciones;correcciones;actualizaciones;versión preliminar
-description: Obtenga información sobre las nuevas funciones, mejoras y correcciones incluidas en la próxima versión de [!DNL Adobe Target], incluidos SDK, API y bibliotecas JavaScript.
-title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión [!DNL Target] ?
+description: Obtenga información acerca de las nuevas funciones, mejoras y correcciones que incluirá la próxima versión de  [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
+title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 51%
+ht-degree: 73%
 
 ---
 
-# [!DNL Target] Notas de la versión (versión preliminar)
+# Notas de la versión de [!DNL Target] (versión preliminar)
 
-Este artículo contiene información previa al lanzamiento para [!DNL Adobe Target] versiones, incluidos SDK, API y bibliotecas JavaScript.
+Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
 **Última actualización: 13 de abril de 2023**
 
@@ -29,7 +29,7 @@ Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
 
 | Función | Detalles |
 |--- |--- |
-| AEM [!UICONTROL Fragmentos de contenido] para una personalización y experimentación sin objetivos | Use [!UICONTROL fragmentos de contenido] de [!DNL Adobe Experience Manager] (AEM) en actividades de [!DNL Target]. Combine la facilidad de uso y la potencia de la AEM con potentes capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para ayudar a una personalización y experimentación sin objetivos.<P>Para obtener más información, consulte [AEM [!UICONTROL Fragmentos de contenido]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**NOTA**: Esta función está disponible como función de prelanzamiento a partir del 12 de abril de 2023. Como función de prelanzamiento, puede experimentar con [!UICONTROL Fragmentos de contenido] usar entornos de desarrollo y ensayo, pero no usar entornos de producción. Esta función estará disponible para GA (disponibilidad general) en la [!DNL Target Standard/Premium] versión 23.4.1. |
+| [!UICONTROL Fragmentos de contenido] de AEM para personalización y experimentación sin encabezado | Use [!UICONTROL fragmentos de contenido] de [!DNL Adobe Experience Manager] (AEM) en las actividades de [!DNL Target]. Combine la facilidad de uso y la potencia de AEM con las eficaces capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para facilitar la personalización y la experimentación sin encabezado.<P>Para obtener más información, consulte [AEM [!UICONTROL Fragmentos de contenido]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**NOTA**: Esta función está disponible como función de prelanzamiento a partir del 12 de abril de 2023. Como función de prelanzamiento, puede experimentar con [!UICONTROL Fragmentos de contenido] usar entornos de desarrollo y ensayo, pero no usar entornos de producción. Esta función estará disponible para GA (disponibilidad general) en la [!DNL Target Standard/Premium] versión 23.4.1. |
 | Atributos de perfil de Real-Time CDP compartidos con [!DNL Target] | [!UICONTROL Atributos de perfil de Real-Time CDP] se puede compartir con [!DNL Target] para su uso en ofertas de HTML y JSON.<P>Para obtener más información, consulte [Compartir atributos de perfil de Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## Notas de la versión adicionales y detalles de la versión

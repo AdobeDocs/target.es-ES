@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
 source-wordcount: '2432'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 23.3.1 (28-30 de marzo de 2023)
+## [!DNL Target] Standard/Premium 23.3.1 (28 y 30 de marzo de 2023)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
@@ -24,13 +24,13 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Informe sobre Atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>Veo uno o más atributos que no quiero que el modelo use para la formación. ¿Puedo eliminar esos atributos del modelo de formación?</li></ul> |
 |  | [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Qué sucede si un usuario tiene varias funciones y permisos?</li></ul> |
 |  | [Fragmentos de contenido](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) de AEM | Nuevo tema. Tenga en cuenta que esta función está en estado &quot;versión preliminar&quot; para realizar pruebas. |
-| 5 de abril | [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Se agregó texto que indica que [!UICONTROL Analytics como fuente de informes] (A4t) no es compatible con las actividades que utilizan decisiones de oferta. |
-| 3 de abril | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información sobre la variable [!UICONTROL Comunidad de Adobe Target] Descanso del café programado para miércoles, 12 de abril de 2023. |
-|  | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Se ha añadido una nota a la lista de permitidos de todo [!DNL Adobe Analytics] Bloques de direcciones IP. |
-| 30 de marzo | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Notas de la versión actualizadas para la versión de las métricas de A4T optimizadas para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] característica que le permite elegir métricas basadas en eventos binarios o métricas basadas en eventos continuos al usar [!UICONTROL A4T] para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades. |
-|  | [Compatibilidad de A4T con actividades de [!UICONTROL asignación automática] y [!UICONTROL segmentación automática]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Se ha actualizado la sección &quot;Métricas de objetivo compatibles&quot; para incluir información sobre las métricas admitidas (y no admitidas) para [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades que usan [!UICONTROL Analytics para Target] (A4T) |
+| 5 de abril | [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Se agregó texto que indica que [!UICONTROL Analytics como fuente de creación de informes] (A4T) no es compatible con las actividades que utilizan decisiones de oferta. |
+| 3 de abril | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca del descanso para el café de la [!UICONTROL Comunidad de Adobe Target], programado para el miércoles 12 de abril de 2023. |
+|  | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Se ha añadido una nota para incluir en la lista de permitidos todos los bloques de direcciones IP de [!DNL Adobe Analytics]. |
+| 30 de marzo | [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) | Se han actualizado las notas de la versión de las métricas A4T optimizadas para la función de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] que le permite elegir métricas basadas en eventos binarios o continuos al usar [!UICONTROL A4T] para las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. |
+|  | [Compatibilidad de A4T con actividades de [!UICONTROL asignación automática] y [!UICONTROL segmentación automática]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Se ha actualizado la sección “Métricas de objetivos admitidas” para incluir información acerca de las métricas admitidas (y no admitidas) para las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] que utilizan [!UICONTROL Analytics for Target] (A4T) |
 |  | [Tutoriales de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es){target=_blank} | Se han actualizado los siguientes tutoriales:<ul><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Asignación automática] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=es){target=_blank}</li><li>[Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Segmentación automática] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=es){target=_blank}</li></ul> |
-|  | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha añadido información para la variable [!DNL Adobe Experience Manager] AEM) y [!DNL Adobe Target] [!UICONTROL Fragmentos de contenido] versión. (6 de abril de 2023) |
+|  | [Notas de la versión de Target (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha añadido información para el lanzamiento de [!DNL Adobe Experience Manager] (AEM) y [!UICONTROL Fragmentos de contenido] de [!DNL Adobe Target]. (6 de abril de 2023) |
 | 28 de marzo | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.3.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Estándar/Premium 22.15.1 (8 y 9 de marzo de 2023)
