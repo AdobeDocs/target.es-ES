@@ -1,13 +1,13 @@
 ---
 keywords: mvt;prueba multivariable;informe de contribución de ubicación
-description: Aprenda a utilizar el informe Contribución de ubicación para el Adobe [!DNL Target] Actividades de segmentación de experiencias que muestran el rendimiento de cada elemento y cada oferta.
-title: ¿Cómo utilizo el informe Contribución de ubicación para pruebas multivariable?
+description: Aprenda a utilizar el informe Contribución de ubicación para el Adobe [!DNL Target] [!UICONTROL Segmentación de experiencias] actividades que muestran el rendimiento de cada elemento y cada oferta.
+title: ¿Cómo utilizo la variable [!UICONTROL Contribución de ubicación] Informe de [!UICONTROL Prueba multivariable] actividades?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 61%
+source-wordcount: '298'
+ht-degree: 37%
 
 ---
 
@@ -19,15 +19,22 @@ En la parte superior del informe se muestra la métrica, las fechas de inicio y 
 
 >[!NOTE]
 >
->Los selectores de audiencia y métrica solo están disponibles si [!DNL Analytics] se usa como fuente de informes.
+>Tenga en cuenta la siguiente información cuando trabaje con la variable [!UICONTROL Contribución de ubicación] informe:
+>
+>* Los selectores de audiencia y métrica solo están disponibles si [!DNL Analytics] se utiliza como fuente de informes (A4T).
+>
+>* Los datos del [!UICONTROL Contribución de ubicación] se obtiene del [!DNL Target] backend incluso si la actividad está configurada para utilizar [!UICONTROL Analytics como fuente de informes] (A4T).
+>
+>* Los datos del [!UICONTROL Contribución de ubicación] para el entorno &quot;Producción&quot;, aunque haya definido un entorno predeterminado distinto en la variable [!DNL Target] nivel de cuenta.
+
 
 La variable [!UICONTROL Contribución de ubicación] incluye dos tablas.
 
-La primera tabla muestra la influencia relativa de cada elemento. Muestra cuál de los elementos en el que ha añadido ofertas está generando más conversiones.
+La primera tabla muestra la influencia relativa de cada elemento. Esta tabla muestra cuál de los elementos donde ha agregado ofertas está resultando en la mayor cantidad de conversiones.
 
 ![Informe Contribución de ubicación en Adobe Target](/help/main/c-reports/assets/locationcontributiontop.png)
 
-La segunda tabla proporciona un informe de nivel de oferta. Muestra la tasa de conversión, el alza y la confianza para cada oferta en cada elemento. Esto le ayuda a determinar qué ofertas tienen más éxito. La segunda columna muestra los valores para la métrica seleccionada (tasa de conversión, ingresos por visitante, valor de pedido promedio, pedidos o métricas de participación) de la oferta y una estandarización.
+La segunda tabla proporciona un informe de nivel de oferta. Muestra la tasa de conversión, el alza y la confianza para cada oferta en cada elemento. Esta tabla le ayuda a determinar qué ofertas tienen más éxito. La segunda columna muestra los valores para la métrica seleccionada (tasa de conversión, ingresos por visitante, valor de pedido promedio, pedidos o métricas de participación) de la oferta y una estandarización.
 
 ![Informe Contribución de ubicación en Adobe Target](/help/main/c-reports/assets/locationcontributionbottom.png)
 
