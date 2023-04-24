@@ -7,10 +7,10 @@ title: ¿Cómo puedo implementar? [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 6%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Antes de empezar a usar [!DNL Adobe Target], debe implementarlo en el sitio.
 
-La variable [Portal de guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank} contiene información que debe conocer antes de implementar [!DNL Target].
+La variable [Guía para desarrolladores de Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contiene información que debe conocer antes de implementar [!DNL Target].
 
 El portal para desarrolladores incluye información sobre los siguientes tipos de implementación:
 
@@ -29,11 +29,11 @@ El portal para desarrolladores incluye información sobre los siguientes tipos d
 * **Aplicaciones móviles**: Información para ayudarle a implementar mediante [!DNL Adobe Experience Platform Mobile] SDK.
 * **Correo electrónico**: Información para ayudarle a implementar [!DNL Target] en correos electrónicos.
 
-Para obtener más información, consulte la [Portal de guía para desarrolladores de Adobe Target](https://developer.adobe.com/target/){target=_blank}.
+Para obtener más información, consulte la [Guía para desarrolladores de Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 >[!NOTE]
 >
->Toda la información que se incluyó anteriormente en la variable *Implementación de Target* de esta guía (la *Guía de práctica de Adobe Target*) ahora se incluye en el [Portal de desarrolladores](https://developer.adobe.com/target/){target=_blank}.
+>Toda la información que se incluyó anteriormente en la variable *Implementación de Target* de esta guía (la *Guía de práctica de Adobe Target*) ahora se incluye en el [Guía para desarrolladores](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 
 

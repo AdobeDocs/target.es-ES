@@ -4,10 +4,10 @@ description: Busque sugerencias para solucionar problemas si la página no muest
 title: ¿Cómo se pueden solucionar los problemas en la entrega de contenido?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 97%
+source-wordcount: '1667'
+ht-degree: 95%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla 
 
 Para obtener más información, consulte los vídeos de formación siguientes:
 
-Para obtener información más detallada, consulte [Depuración de at.js con Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
+Para obtener información más detallada, consulte [Depuración de at.js con Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Los principales vendedores no aparecen en Recommendations.  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target ya no admite IE8.
 
 ## La cookie de Target no se puede establecer {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Si su sitio tiene un subdominio, como [!DNL us.domain.com], pero necesita establecer la cookie de Target en [!DNL domain.com] (en lugar de [!DNL us.domain.com]), tiene que anular el valor de configuración `cookieDomain`. Para obtener más información, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
+Si su sitio tiene un subdominio, como [!DNL us.domain.com], pero necesita establecer la cookie de Target en [!DNL domain.com] (en lugar de [!DNL us.domain.com]), tiene que anular el valor de configuración `cookieDomain`. Para obtener más información, consulte [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
 
 ## El contenido de Target parpadea o no se muestra si un elemento también es parte de una personalización de Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -165,7 +165,7 @@ Pero ¿qué sucede si la dirección URL contiene parámetros de cadena de consul
 
 Se pueden utilizar las siguientes opciones para incluir reglas de plantilla adicionales:
 
-### Opción 1: Replique la dirección URL y manténgala en la regla de plantilla con la opción “contiene”.
+### Opción 1: Repita la dirección URL y manténgala en la regla de plantilla con la opción &quot;contiene&quot;.
 
 Esta opción garantiza que esta dirección URL cumpla los requisitos de la actividad, pero tenga en cuenta que hay casos límite que pueden influir en los datos de informes con registros adicionales a las direcciones URL que contienen la dirección URL base.
 
@@ -173,7 +173,7 @@ En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20O
 
 ![Replicación de URL en reglas de plantilla](assets/option1.png)
 
-### Opción 2: Restrinja la condición “contiene” de la dirección URL con solo la cadena de consulta.
+### Opción 2: Restringir la condición &quot;contiene&quot; de la dirección URL con solo la cadena de consulta.
 
 El caso límite que se discute en la opción anterior se aplica en esta opción, pero aquí la configuración condicional está limitada únicamente a la cadena de consulta.
 
@@ -187,9 +187,9 @@ En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20O
 
 ![Regla de plantilla que aprovecha una parte específica de la URL](assets/option3.png)
 
-## Escape de comillas dobles en [!DNL Target] el valor del atributo de perfil no funciona como se esperaba. {#escape}
+## Aplicar comillas dobles al escape [!DNL Target] el valor de atributo de perfil no funciona como se esperaba. {#escape}
 
-Cuando envía valores que contienen comillas dobles en una [!DNL Target] atributo de perfil, debe omitirlo dos veces como se muestra a continuación.
+Cuando envía valores que contienen comillas dobles en un [!DNL Target] atributo de perfil, debe omitirlo dos veces como se muestra a continuación.
 
 ```
 adobe.target.trackEvent({

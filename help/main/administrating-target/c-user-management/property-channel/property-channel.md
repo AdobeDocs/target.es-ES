@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3213'
 ht-degree: 58%
 
 ---
@@ -253,7 +253,7 @@ Tenga en cuenta lo siguiente al usar o configurar propiedades y permisos en [!DN
 
    En una versión futura, Target funcionará en páginas donde no haya presente un token `at_property`, o donde exista un token `at_property` distinto.
 
-* La funcionalidad Permisos de usuario de Enterprise no se admite en [llamadas a la API de Adobe I/O](https://developer.adobe.com/target/){target=_blank}
+* La funcionalidad Permisos de usuario de Enterprise no se admite en llamadas a la API de Adobe I/O
 
 ## Preguntas frecuentes {#faqs}
 

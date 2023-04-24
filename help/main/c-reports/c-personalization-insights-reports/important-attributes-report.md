@@ -5,10 +5,10 @@ title: ¿Qué es el informe Atributos importantes?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 75%
+source-wordcount: '1855'
+ht-degree: 74%
 
 ---
 
@@ -110,7 +110,7 @@ Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus
 
 La variable [!UICONTROL API de modelos], también denominada API de Lista de bloqueados, permite a los usuarios ver y administrar la lista de atributos (también llamados funciones) que se utilizan en los modelos de aprendizaje automático para [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] actividades (AT). Si desea excluir uno o más atributos de los que utilizan los modelos para actividades AP o AT, puede utilizar la API de modelos para agregar esos atributos a la &quot;lista de bloqueados&quot;.
 
-Para obtener información detallada, consulte [Información general sobre la API de modelos](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+Para obtener información detallada, consulte [Información general sobre la API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### ¿La información que aparece en los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] es la misma que la que aparece en la descarga de CSV?
 

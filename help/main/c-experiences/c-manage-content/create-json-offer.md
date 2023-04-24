@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear ofertas JSON en Adobe [!DNL 
 title: ¿Cómo creo ofertas JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 24f445128aa76eb7e0af7d0f2c5de96f11b8d110
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 33%
+source-wordcount: '465'
+ht-degree: 32%
 
 ---
 
@@ -23,10 +23,10 @@ Cuando trabaje con ofertas JSON, tenga en cuenta la información siguiente:
 
 * Actualmente, las ofertas JSON solo están disponibles para [!UICONTROL Prueba A/B], Automated Personalization (AP) y [!UICONTROL Segmentación de experiencias] (XT).
 * Las ofertas JSON se pueden usar en [actividades basadas en formularios](/help/main/c-experiences/form-experience-composer.md) solo.
-* La oferta JSON se puede recuperar directamente cuando esté utilizando la variable [API del servidor y SDK de Node.js, Java, .NET y Python para móviles](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
-* En el navegador, las ofertas JSON se pueden recuperar SOLAMENTE a través de at.js 1.2.3 (o posterior) y utilizando [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} filtrando acciones usando la variable `setJson` acción.
+* La oferta JSON se puede recuperar directamente cuando esté utilizando la variable [API del servidor y SDK de Node.js, Java, .NET y Python para móviles](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+* En el navegador, las ofertas JSON se pueden recuperar SOLAMENTE a través de at.js 1.2.3 (o posterior) y utilizando [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} filtrando acciones usando la variable `setJson` acción.
 * Las ofertas JSON se proporcionan como objetos JSON nativos en vez de como cadenas. Los consumidores de estos objetos ya no son necesarios para gestionar objetos como cadenas y convertirlos en objetos JSON.
-* Las ofertas JSON no se aplican automáticamente, a diferencia de otras ofertas (como la ofertas HTML), porque las ofertas JSON son ofertas no visuales. Los desarrolladores deben escribir código para obtener explícitamente la oferta utilizando   [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
+* Las ofertas JSON no se aplican automáticamente, a diferencia de otras ofertas (como la ofertas HTML), porque las ofertas JSON son ofertas no visuales. Los desarrolladores deben escribir código para obtener explícitamente la oferta utilizando   [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
 ## Creación de una oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 

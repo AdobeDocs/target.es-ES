@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 68%
+source-wordcount: '1448'
+ht-degree: 67%
 
 ---
 
@@ -84,7 +84,7 @@ Los usuarios pueden formar parte de varios espacios de trabajo y pueden incluso 
 
 ### Obtenga su ID de espacio de trabajo {#workspace-id}
 
-Tendrá que pasar el ID de espacio de trabajo para aprovechar los permisos de Enterprise en [las API de Target](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+Tendrá que pasar el ID de espacio de trabajo para aprovechar los permisos de Enterprise en [las API de Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 
 1. En [Adobe Admin Console](https://adminconsole.adobe.com), haga clic en la ficha [!UICONTROL Productos] y, a continuación, haga clic en el producto en el menú izquierdo para mostrar la lista PLC (espacio de trabajo).
 1. Haga clic en el PLC (espacio de trabajo) deseado y luego busque el ID de «perfiles» en la URL, como se muestra a continuación.
@@ -159,7 +159,7 @@ Para usar la variable [!DNL Target] funcionalidad de permisos de usuario, debe a
       </script>
       ```
 
-      Para obtener más información sobre cómo hacerlo con at.js, consulte [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}.
+      Para obtener más información sobre cómo hacerlo con at.js, consulte [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
 
 ## Paso 6: Especificar roles y permisos {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
