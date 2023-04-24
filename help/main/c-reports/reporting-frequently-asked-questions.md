@@ -4,10 +4,10 @@ description: Explorar una lista de preguntas frecuentes y respuestas sobre el Ad
 title: Dónde puedo encontrar respuestas a preguntas sobre [!DNL Target] ¿Informar?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 32%
+source-wordcount: '1226'
+ht-degree: 30%
 
 ---
 
@@ -29,7 +29,7 @@ Los visitantes se incluyen en el segmento Nuevos visitantes si se cumple una de 
 
 * Es la primera vez que el visitante visita el sitio.
 * Es la primera vez que el visitante visita el sitio desde que se borraron las cookies.
-* Es la primera vez que el visitante visita el sitio desde que finalizó la [vida útil del perfil del visitante](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md).
+* Es la primera vez que el visitante visita el sitio desde que el [Duración del perfil del visitante](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) ha caducado.
 
 ### Visitantes que regresan
 
@@ -51,7 +51,7 @@ Consideremos el siguiente ejemplo, teniendo en cuenta las condiciones mencionada
 * Un visitante visita el sitio por primera vez y se cuenta como un visitante nuevo.
 * El visitante regresa al sitio después de que se cumplan las condiciones para los visitantes que regresan y se cuente como un visitante que regresa.
 
-Este visitante se cuenta como un solo visitante en el recuento de visitantes general de la actividad aunque se cuente tanto en los segmentos de Visitantes nuevos como de Visitantes que regresan .
+Este visitante se cuenta como un solo visitante en el recuento total de visitantes de la actividad aunque se cuente en los segmentos Visitantes nuevos y Visitantes que regresan .
 
 **Ejemplo 2**: Las discrepancias entre los recuentos de Nuevos visitantes y Visitantes que regresan también dependen de cómo configure el [métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
@@ -106,6 +106,6 @@ Por ejemplo, configuro la división de tráfico en 50/50 o 25/25/25/25, pero veo
 * La práctica recomendada para las pruebas A/B y MVT es mantener unidas las divisiones de tráfico. Cambiar la distribución del tráfico entre las experiencias (por ejemplo, del 10/90 al 50/50) durante una prueba puede provocar un número de visitantes desiguales entre las experiencias. Es posible que la experiencia con menos tráfico nunca se &quot;ponga al día&quot;.
 * Si sigue las prácticas recomendadas anteriores y la división del tráfico no se normaliza con el tiempo, debe comprobar lo siguiente:
 
-   * ¿Está utilizando la última biblioteca de at.js? Para obtener más información sobre la versión actual y las notas de la versión asociadas, consulte [Detalles de las versiones de at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+   * ¿Está utilizando la última biblioteca de at.js? Para obtener más información sobre la versión actual y las notas de la versión asociadas, consulte [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
    * ¿Es una prueba de redireccionamiento? La sincronización incorrecta de etiquetas al activarse en la página puede provocar divisiones de tráfico desiguales, especialmente al utilizar [!DNL Analytics] como fuente de datos para un [!DNL Target] actividad. Para obtener más información sobre cómo solucionar la distribución desigual del tráfico en una actividad de redireccionamiento con Analytics for Target (A4T), consulte [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

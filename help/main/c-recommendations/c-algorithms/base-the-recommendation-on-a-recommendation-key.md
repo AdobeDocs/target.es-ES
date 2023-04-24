@@ -5,7 +5,7 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 37%
@@ -34,7 +34,7 @@ Los distintos algoritmos de recomendaciones se prestan a colocarse en distintos 
 
 ## Basado en el carro de compras {#cart-based}
 
-La variable [!UICONTROL Basado en el carro de compras] el tipo de algoritmo permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan mediante [parámetro de mbox `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
+La variable [!UICONTROL Basado en el carro de compras] el tipo de algoritmo permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan mediante [parámetro de mbox `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
 
 La lógica de recomendación basada en el carro de compras es similar a la &quot;[!UICONTROL Recomendado]&quot; algoritmo basado en el usuario y a &quot;[!UICONTROL Los usuarios que vieron esto, compraron aquéllos]&quot; y &quot;[!UICONTROL Las personas que compraron estos, compraron esos]&quot; algoritmos basados en elementos.
 
