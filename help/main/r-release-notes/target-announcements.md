@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -48,26 +48,26 @@ En esta sesión, aprenda a [!DNL Target] y [!DNL Real-Time Customer Data Platfor
 
 Regístrese en los siguientes seminarios web para ver cómo utilizan los clientes [!DNL Target] para lograr sus objetivos de personalización y optimización:
 
-### Ofrezca experiencias personalizadas a los clientes, cada vez.
+### Ofrezca experiencias personalizadas a los clientes, ¡siempre!
 
 * **Jueves, 27 de abril de 2023**
-* **9:00 a 10:00 a.m. (BST, GMT +1), de 10:00 a 11:00 a.m. (CEST, GMT +2)**
+* **9:00 a 10:00 a. m. (BST, GMT+1), 10:00 a 11:00 a. m. (CEST, GMT+2)**
 * **[Información de registro](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
-Manténgase al frente del cliente con [!DNL Adobe Target]las potentes funciones de prueba y personalización de . Asegúrese de que está en todas partes del sitio donde se encuentra el cliente, al ofrecer experiencias contextuales dinámicas en la web, dispositivos móviles y dispositivos digitales.
+Anticípese al cliente con las potentes funciones de prueba y personalización de[!DNL Adobe Target]. Asegúrese de que está en todas partes del sitio donde se encuentra el cliente ofreciendo experiencias contextuales dinámicas en la web, dispositivos móviles y dispositivos digitales.
 
 +++Detalles
 
-El seminario web abarcará:
+El seminario web abarcará lo siguiente:
 
-* Por qué la personalización es una parte fundamental de cualquier estrategia
+* Por qué la personalización es una parte esencial de cualquier estrategia
 * Identificación y uso de diferentes tipos de actividades
-* Elementos destacados: Casos de uso del sector
-* Recommendations impulsará la personalización
-* Demostración del [!DNL Target] Interfaz de usuario, resaltado
+* Elementos destacados: casos de uso del sector
+* Recomendaciones para dirigir la personalización
+* Demostración de la interfaz de usuario de [!DNL Target], resaltado
    * Creación de audiencias
-   * Configuración [!UICONTROL Segmentación de experiencias] Actividades (XT)
-   * Configuración [!UICONTROL Segmentación automática] y [!UICONTROL Personalización automática] actividades
+   * Configuración de actividades de [!UICONTROL Segmentación de experiencias] (XT)
+   * Configuración de actividades de [!UICONTROL Segmentación automática] y [!UICONTROL Personalización automática]
 
 +++
 
