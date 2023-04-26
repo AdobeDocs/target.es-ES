@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7ce7df9d1553cc0eebd25b8812a480c2326ddbfa
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 95%
+source-wordcount: '2600'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,9 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 26 de abril | [Información general de [!UICONTROL fragmentos de experiencias] y [!UICONTROL fragmentos de contenido] de AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | La variable [!UICONTROL AEM fragmentos de contenido] ya está disponible para todos [!DNL Target customers]. |
+|  | [[!UICONTROL Fragmentos de contenido]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) de AEM | La variable [!UICONTROL AEM fragmentos de contenido] ya está disponible para todos [!DNL Target customers]. |
+|  | [*Guía para desarrolladores de Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Guía para desarrolladores de Adobe Target* se ha trasladado a *Adobe Experience League*. Mover a *Experience League* ayuda en la localización de texto a idiomas adicionales, unifica la búsqueda en *Experience League* para proporcionar resultados de búsqueda de ambas guías, y proporciona beneficios adicionales.<P>Las redirecciones de la ubicación anterior se implementarán en los próximos días. Actualice sus marcadores. |
 | 24 de abril | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información sobre las siguientes preguntas y respuestas de Adobe Target Community Coffee Break:<ul><li>Optimización y personalización de la experiencia móvil para entornos autenticados</li></ul> |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.4.1 de [!DNL Target Standard/Premium]. |
 

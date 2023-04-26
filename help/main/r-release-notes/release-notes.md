@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 75%
+source-wordcount: '476'
+ht-degree: 81%
 
 ---
 
@@ -25,8 +25,9 @@ Esta versión contiene actualizaciones de seguridad y las siguientes nuevas func
 
 | Función | Detalles |
 |--- |--- |
-| [!UICONTROL Fragmentos de contenido] de AEM para personalización y experimentación sin encabezado | Use [!UICONTROL fragmentos de contenido] de [!DNL Adobe Experience Manager] (AEM) en las actividades de [!DNL Target]. Combine la facilidad de uso y la potencia de AEM con las eficaces capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para facilitar la personalización y la experimentación sin encabezado.<P>Para obtener más información, consulte [AEM [!UICONTROL Fragmentos de contenido]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**NOTA**: Esta función está disponible como función de prelanzamiento a partir del 12 de abril de 2023. Como función de prelanzamiento, puede experimentar con [!UICONTROL Fragmentos de contenido] usar entornos de desarrollo y ensayo, pero no usar entornos de producción. Esta función estará disponible para todos los clientes el 26 de abril de 2023. |
-| Atributos de perfil de Real-Time CDP compartidos con [!DNL Target] | [!UICONTROL Atributos de perfil de Real-Time CDP] se puede compartir con [!DNL Target] para su uso en ofertas de HTML y JSON.<P>Para obtener más información, consulte [Compartir atributos de perfil de Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>Esta función estará disponible para todos los clientes el 9 de mayo de 2023. |
+| [!UICONTROL Fragmentos de contenido] de AEM para personalización y experimentación sin encabezado | Use [!UICONTROL fragmentos de contenido] de [!DNL Adobe Experience Manager] (AEM) en las actividades de [!DNL Target]. Combine la facilidad de uso y la potencia de AEM con las eficaces capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para facilitar la personalización y la experimentación sin encabezado.<P>Para obtener más información, consulte [!UICONTROL Fragmentos de contenido]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) de AEM[. |
+| Atributos de perfil de Real-Time CDP compartidos con [!DNL Target] | Los [!UICONTROL Atributos de perfil de Real-Time CDP] se pueden compartir con [!DNL Target] para su uso en ofertas de HTML y JSON.<P>Para obtener más información, consulte [Uso compartido de atributos de perfil de Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>**NOTA**: Esta función estará disponible para todos los clientes el 9 de mayo de 2023. |
+| [*Guía para desarrolladores de Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Guía para desarrolladores de Adobe Target* se ha trasladado a *Adobe Experience League*. Mover a *Experience League* ayuda en la localización de texto a idiomas adicionales, unifica la búsqueda en *Experience League* para proporcionar resultados de búsqueda de ambas guías, y proporciona beneficios adicionales.<P>Las redirecciones de la ubicación anterior se implementarán en los próximos días. Actualice sus marcadores. |
 
 ## Notas de la versión adicionales y detalles de la versión
 

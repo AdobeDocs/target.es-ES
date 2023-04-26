@@ -4,10 +4,10 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 107556e43b088d5a2033b80e3f5ef63ee3fe0632
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 96%
+source-wordcount: '571'
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,17 @@ ht-degree: 96%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 24 de abril de 2023 ([Vea los cambios](r-release-notes/doc-change.md))**
+**Última actualización: 26 de abril de 2023 ([Vea los cambios](r-release-notes/doc-change.md))**
+
+>[!NOTE]
+>
+>Además de esta guía, [!DNL Adobe Target] también hay guías disponibles:
+>
+>- [*Guía para desarrolladores de Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
+>
+>- [*Tutoriales de Adobe Target*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es){target=_blank}
+>
+>Para obtener información sobre la versión, consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) en esta guía.
 
 Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados según las audiencias a las que se dirigen:
 
