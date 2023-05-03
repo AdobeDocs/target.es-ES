@@ -4,10 +4,10 @@ description: Obtenga información sobre los atributos específicos del visitante
 title: ¿Qué son los atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
-source-wordcount: '2455'
-ht-degree: 94%
+source-wordcount: '2499'
+ht-degree: 92%
 
 ---
 
@@ -249,7 +249,7 @@ Los parámetros de perfil de script pueden hacer referencia a los siguientes obj
 | `page.query` | La cadena de consulta de la página actual. Todo después de &#39;?&#39;. Por ejemplo, `blue&size=small` en `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param('<par_name>')` | El valor del parámetro indicado por `<par_name>`. Si la dirección URL actual es la página de búsqueda de Google y había introducido `page.param('hl')`, obtendrá &quot;en&quot; para la URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | El mismo conjunto de operaciones que se aplica arriba se aplica al referente y al aterrizaje (por ejemplo, referrer.url es la dirección URL del referente). |
-| `landing.url`, `landing.protocol`, `landing.query`, y `landing.param` | Similar a la de la página, pero para la página de aterrizaje. |
+| `landing.url`, `landing.protocol`, `landing.query`, y `landing.param` | Similar a la de la página, pero para la página de aterrizaje.<P>Para que la URL de la página de aterrizaje funcione según lo esperado, establezca la variable `context` > `browser` > `host`.<P>Además, no puede tener la dirección URL de referencia en la primera llamada de la sesión. En llamadas posteriores, asegúrese de que `referringURL` es realmente la dirección URL anterior que el usuario visitó en la sesión actual.<!-- KB-2092 --> |
 | `mbox.name` | El nombre del mbox activo. |
 | `mbox.param('<par_name>')` | Un parámetro de mbox por el nombre dado en el mbox activo. |
 | `profile.get('<par_name>')` | El parámetro de perfil de usuario creado por el cliente por el nombre `<par_name>`. Por ejemplo, si el usuario configura un parámetro de perfil denominado &quot;gender&quot;, el valor se puede extraer usando &quot;profile.gender&quot;. Devuelve el valor de la variable &quot;`profile.<par_name>`&quot; configurado para el visitante actual; devuelve nulo si no se ha establecido ningún valor. Tenga en cuenta que `profile.get(<par_name>)` se califica como una llamada a una función. |
@@ -260,7 +260,6 @@ Los parámetros de perfil de script pueden hacer referencia a los siguientes obj
 | `user.browser` | Devuelve el agente de usuario en el encabezado HTTP. Como por ejemplo, puede crear un objetivo de expresión únicamente dirigido a los usuarios de Safari: `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
 
 ### Operadores comunes
-
 
 Todos los operadores de JavaScript estándar están presentes y pueden utilizarse. Los operadores JavaScript se pueden utilizar en cadenas y números (así como en otros tipos de datos). Una breve explicación:
 
