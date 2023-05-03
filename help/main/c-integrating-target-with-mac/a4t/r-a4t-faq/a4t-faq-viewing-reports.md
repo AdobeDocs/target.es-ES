@@ -4,9 +4,9 @@ description: Encuentre respuestas a preguntas que se plantean a menudo sobre la 
 title: ¿Encuentra respuestas a preguntas sobre la visualización de informes con A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2714'
 ht-degree: 30%
 
 ---
@@ -70,7 +70,7 @@ Tenga en cuenta lo siguiente:
 * Las métricas anteriores déclencheur cuando un usuario reúne los requisitos para una actividad y el contenido se devuelve de [!DNL Target]. Esto no significa necesariamente que el usuario haya visto la oferta. Si una experiencia de actividad está por debajo del pliegue y el usuario no se desplaza hacia abajo en la página significa que [!DNL Target] proporcionó la oferta, pero el usuario no la vio.
 * [!UICONTROL Impresiones de actividad] (medida mediante [!DNL Target]) e [!UICONTROL Instancias] (medida mediante [!DNL Analytics]) son iguales, a menos que haya varias llamadas de mbox en la misma página de la misma actividad. De esta forma se contabilizan varias [!UICONTROL Impresiones de actividad], pero una sola [!UICONTROL Instancia].
 
-Para obtener más información, consulte [Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) en *Tutorials de Adobe Target*.
+Para obtener más información, consulte [Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=es) en *Tutorials de Adobe Target*.
 
 +++
 
@@ -154,7 +154,7 @@ Para obtener más información, consulte [Variables de conversión (eVar](https:
 
 ## ¿Por qué [!DNL Analytics] y [!UICONTROL Analytics para Adobe Target] (A4T) calcula los números de [!UICONTROL Visitantes únicos] métrica de forma diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-+++Respuesta Al ejecutar una prueba A/B, que usa la variable [Prueba T de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (la métrica de confianza) para elegir el ganador de una prueba; uno de los supuestos es que hay un horizonte temporal fijo. La prueba no es válida estadísticamente a menos que esté mirando ese tamaño de muestra fijo.
++++Respuesta Al ejecutar una prueba A/B, que usa la variable [Prueba T de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (la métrica de confianza) para elegir el ganador de una prueba, uno de los supuestos es que hay un horizonte temporal fijo. La prueba no es válida estadísticamente a menos que esté mirando ese tamaño de muestra fijo.
 
 La variable [!UICONTROL Visitantes únicos] es diferente en [!DNL Analytics] y [!DNL Target] solo cuando observa un periodo más corto que la prueba real. Si no ha alcanzado el tamaño de la muestra, la prueba no es tan fiable. Consulte [Cómo no ejecutar una prueba A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) en [el sitio web de Evan Miller](https://www.evanmiller.org/index.html) para obtener más información.
 
@@ -198,5 +198,19 @@ A continuación se indican algunos puntos que hay que tener en cuenta al ver [!D
 * Si se produce una conversión fuera de la ventana del informe, la conversión no es visible en [!DNL Analytics].
 * Cuando se encuentra en la parte &quot;segmentada&quot; del tráfico para [!UICONTROL Segmentación automática] , es posible que los visitantes vean experiencias diferentes de una sesión a otra. Por ejemplo, si su perfil o contexto ha cambiado y [!DNL Target]Los algoritmos de aprendizaje automático de deciden que es más probable que se conviertan en una nueva experiencia. A medida que los visitantes pasan de una experiencia a otra, el recuento de visitas aumenta con cada experiencia vista. A diferencia de las actividades normales de prueba A/B, las experiencias se mantienen fieles a los visitantes en todas las visitas.
 * Si un visitante ve varias experiencias en todas las visitas, cualquier conversión siempre se atribuye a la última experiencia que vio el visitante. Como se ha mencionado, el recuento de visitas aumenta con cada experiencia que vio el visitante. Esto puede reducir artificialmente las tasas de conversión por experiencia al ver las experiencias en el[!UICONTROL Segmentado]&quot; en [!DNL Adobe Analytics] informes.
+
++++
+
+## ¿Cómo realizo un seguimiento de las impresiones de actividad en [!DNL Analysis Workspace] cuando se usa [!UICONTROL Analytics para Target] (A4T)? {#activity-impressions}
+
++++Respuesta
+
+Para ver las impresiones de la actividad en [!DNL Analysis Workspace]:
+
+1. En el [!DNL Target] IU, haga clic en **[!UICONTROL Ver en Analytics]**.
+1. Agregue la variable **[!UICONTROL Impresiones de actividad]** a [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} informe.
+1. En el **[!UICONTROL Impresiones de actividad]** , haga clic en el botón [!UICONTROL Engranaje] icono.
+1. Haga clic en **[!UICONTROL Uso de modelos de atribución no predeterminados]**.
+1. Select **[!UICONTROL Mismo modelo táctil]** > **[!UICONTROL Aplicar]**.
 
 +++
