@@ -5,7 +5,7 @@ title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y ev
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1843'
 ht-degree: 100%
 
