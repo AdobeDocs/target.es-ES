@@ -5,9 +5,9 @@ title: ¿Cómo funciona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2565'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Descubra cómo funciona [!DNL Adobe Target], incluida la información acerca de 
 
 [!DNL Target] se integra con los sitios web que utilizan el [!DNL Experience Platform Web SDK] o at.js:
 
-* **[!DNL Adobe Experience Platform Web SDK]:** El [SDK web de Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} es una nueva biblioteca de JavaScript del lado del cliente. El [!DNL Experience Platform Web SDK] permite a los clientes de [!DNL Adobe Experience Cloud] interactuar con los distintos servicios de [!DNL Experience Cloud] (incluido [!DNL Target]) a través de la red de Edge de [!DNL Experience Platform]. [!DNL Adobe] recomienda que todos los clientes nuevos de [!DNL Target] implementen el [!DNL Experience Platform Web SDK].
-* **at.js:** La biblioteca at.js es una biblioteca de implementación para [!DNL Target]. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js se actualiza con frecuencia con nuevas funciones. [!DNL Adobe] recomienda que todos los clientes que utilicen at.js actualicen sus implementaciones a la [última versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[!DNL Adobe Experience Platform Web SDK]:** El [SDK web de Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank} es una nueva biblioteca de JavaScript del lado del cliente. El [!DNL Experience Platform Web SDK] permite a los clientes de [!DNL Adobe Experience Cloud] interactuar con los distintos servicios de [!DNL Experience Cloud] (incluido [!DNL Target]) a través de la red de Edge de [!DNL Experience Platform]. [!DNL Adobe] recomienda que todos los clientes nuevos de [!DNL Target] implementen el [!DNL Experience Platform Web SDK].
+* **at.js:** La biblioteca at.js es una biblioteca de implementación para [!DNL Target]. La biblioteca at.js mejora los tiempos de carga de página en implementaciones web y proporciona mejores opciones de implementación en aplicaciones de una sola página. at.js se actualiza con frecuencia con nuevas funciones. [!DNL Adobe] recomienda que todos los clientes que utilicen at.js actualicen sus implementaciones a la [última versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.
 
 >[!NOTE]
 >
@@ -30,8 +30,8 @@ Haga referencia a [!DNL Experience Platform Web SDK] o at.js en todas las págin
 
 Los siguientes recursos contienen información detallada para ayudarle a implementar el [!DNL Experience Platform Web SDK] o at.js:
 
-* Extensión de [[!DNL Adobe Experience Platform Web SDK] ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [Implementación [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
+* Extensión de [[!DNL Adobe Experience Platform Web SDK] ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
+* [Implementación [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=es){target=_blank}
 
 Cada vez que un visitante solicita una página que se ha optimizado para [!DNL Target], se envía una solicitud al sistema de segmentación. La solicitud ayuda a determinar qué contenido se mostrará a ese visitante. Este proceso se produce en tiempo real. Cada vez que se carga una página, el sistema realiza una solicitud del contenido y la completa. El contenido está regido por reglas de actividades y experiencias controladas por especialistas en marketing y se segmenta para cada visitante del sitio. El contenido se sirve para indicar que el visitante de cada sitio tiene más probabilidades de responder, interactuar con o, en última instancia, comprar. El contenido personalizado ayuda a maximizar las tasas de respuesta, las tasas de adquisición y los ingresos.
 
@@ -134,7 +134,7 @@ El servicio de [!DNL Target Recommendations] está alojado en un centro de datos
 >
 >[!DNL Adobe Target] actualmente no tiene ningún clúster de Edge en China y el rendimiento del visitante sigue siendo limitado para los clientes de [!DNL Target] de China. Debido al firewall y a la falta de clústeres de Edge dentro del país, las experiencias de los sitios con [!DNL Target] implementado pueden verse afectadas. Las experiencias pueden procesarse lentamente y las cargas de página pueden verse afectadas. Además, los especialistas en marketing pueden experimentar latencia al utilizar la IU de creación de [!DNL Target].
 
-Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}.
+Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=es){target=_blank}.
 
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
