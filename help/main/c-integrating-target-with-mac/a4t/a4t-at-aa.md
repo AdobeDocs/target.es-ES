@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear [!UICONTROL Asignación auto
 title: ¿Admite A4T? [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] ¿Actividades?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
+source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # Compatibilidad de A4T con actividades de [!UICONTROL asignación automática] y [!UICONTROL segmentación automática]
 
-La variable [!DNL Adobe Target]-a-[!DNL Adobe Analytics] integración, conocida como [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) Compatibilidad con (A4T) [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades.
+La variable [!DNL Adobe Target]-a-[!DNL Adobe Analytics] integración, conocida como [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), admite [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades.
 
 La integración de A4T le permite:
 
