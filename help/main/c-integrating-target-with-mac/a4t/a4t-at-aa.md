@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear [!UICONTROL Asignación auto
 title: ¿Admite A4T? [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] ¿Actividades?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
+source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1271'
 ht-degree: 7%
 
 ---
@@ -18,9 +18,9 @@ La variable [!DNL Adobe Target]-a-[!DNL Adobe Analytics] integración, conocida 
 La integración de A4T le permite:
 
 * Utilice la variable [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) capacidad multi-armed bandit para dirigir el tráfico a experiencias ganadoras.
-* Utilice la variable [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ensamblado el algoritmo de aprendizaje automático para elegir una mejor experiencia para cada visitante. [!UICONTROL Segmentación automática] elige la mejor experiencia según los perfiles, los comportamientos y el contexto de los usuarios, mientras utiliza un [!DNL Adobe Analytics] métrica de objetivo y [!DNL Adobe Analytics]&#39; capacidades enriquecidas de informes y análisis.
+* Utilice la variable [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ensamblado el algoritmo de aprendizaje automático para elegir la mejor experiencia para cada visitante. [!UICONTROL Segmentación automática] elige la mejor experiencia según el perfil, el comportamiento y el contexto de cada usuario, todo ello mientras utiliza un [!DNL Adobe Analytics] métrica objetivo y las enriquecidas capacidades de informes y análisis de [!DNL Adobe Analytics].
 
-Asegúrese de que [Se ha implementado A4T para su uso con pruebas A/B y actividades de segmentación de experiencias](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Si está utilizando `analyticsLogging = client_side`, también debe pasar la variable `sessionId` valor [!DNL Analytics]. Para obtener más información, consulte [Creación de informes en Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} en el *SDK para Adobe Target* guía.
+Asegúrese de que [Se ha implementado A4T para su uso con pruebas A/B y actividades de segmentación de experiencias](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Si usa `analyticsLogging = client_side`, también debe pasar la variable `sessionId` valor [!DNL Analytics]. Para obtener más información, consulte [Creación de informes en Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} en el *Guía para desarrolladores de Adobe Target*.
 
 En primer lugar:
 
@@ -110,8 +110,8 @@ Algunas limitaciones y notas se aplican a ambos [!UICONTROL Asignación automát
 
 * **Frecuencia de formación**: [!UICONTROL Asignación automática] los modelos siguen entrenándose cada hora, como de costumbre.
 * **Modelos de atribución**: [!DNL Target] utiliza la variable [!DNL Adobe Analytics] modelo de atribución predeterminado para[!UICONTROL  Asignación automática] actividades que utilizan A4T.
-* **Confianza**: La fórmula de confianza utilizada por [!UICONTROL Asignación automática] actividades es diferente de la fórmula que se muestra de forma predeterminada en la variable [!DNL Adobe Analytics] [!UICONTROL A4T] panel. [Como se describe aquí](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Asignación automática] utiliza intervalos de confianza más conservadores que los habituales [!UICONTROL Prueba A/B] actividades. Estos niveles de confianza conservadores compensan las evaluaciones repetidas (peeks) en los datos. Como resultado, el informe predeterminado de [!DNL Adobe Analytics] muestra intervalos de confianza más estrechos en comparación con los que usa el [!UICONTROL Asignación automática] algoritmo. Sin embargo, puede determinar qué experiencia es favorita por los algoritmos en función de qué experiencia se le envían más visitantes únicos.
-* **Estado ganador**: Actualmente, la variable [Insignias &quot;Ningún ganador aún&quot; y &quot;Ganador&quot;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) no están disponibles en la variable [!UICONTROL A4T] panel en [!DNL Analysis Workspace]. Estos distintivos tampoco están disponibles si se ve el mismo informe en [!DNL Target]. Un distintivo de &quot;estrella&quot; ganador se muestra en una [!DNL Target] para [!UICONTROL Asignación automática] debe ignorarse la actividad que utiliza A4T. Este distintivo refleja cálculos de confianza regulares y no los que utiliza [!UICONTROL Asignación automática].
+* **Confianza**: La fórmula de confianza utilizada por [!UICONTROL Asignación automática] actividades es diferente de la fórmula que se muestra de forma predeterminada en la variable [!DNL Adobe Analytics] [!UICONTROL A4T] panel. [Como se describe aquí](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Asignación automática] utiliza intervalos de confianza más conservadores que los habituales [!UICONTROL Prueba A/B] actividades. Estos niveles de confianza conservadores compensan las evaluaciones repetidas (peeks) en los datos. Como resultado, el informe predeterminado de [!DNL Adobe Analytics] muestra intervalos de confianza más estrechos en comparación con los intervalos que usa la variable [!UICONTROL Asignación automática] algoritmo. Sin embargo, puede determinar qué experiencia es favorita por los algoritmos en función de qué experiencia se le envían más visitantes únicos.
+* **Estado ganador**: Actualmente, la variable [Insignias &quot;Ningún ganador aún&quot; y &quot;Ganador&quot;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) no están disponibles en la variable [!UICONTROL A4T] panel en [!DNL Analysis Workspace]. Estos distintivos tampoco están disponibles si se ve el mismo informe en [!DNL Target]. Un distintivo de &quot;estrella&quot; ganador se muestra en una [!DNL Target] para [!UICONTROL Asignación automática] debe ignorarse la actividad que utiliza A4T. Este distintivo refleja cálculos de confianza regulares y no los cálculos utilizados por [!UICONTROL Asignación automática].
 
 ### Segmentación automática {#at}
 
