@@ -1,13 +1,13 @@
 ---
-keywords: a4t;A4T;Analytics como fuente de informes para Target
+keywords: a4t;A4T;Analytics como fuente de informes para Target;Analytics para Target
 description: Obtenga información sobre cómo crear [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades en [!DNL Target] que utilizan [!DNL Analytics] como fuente de informes (A4T).
 title: ¿Admite A4T? [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] ¿Actividades?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 073c1ce6ad591204fb0f27ca2887bcb65b7c5809
+source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 8%
+source-wordcount: '1268'
+ht-degree: 7%
 
 ---
 
