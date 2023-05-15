@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
 source-wordcount: '2648'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 3 de mayo | [Visualización de informes: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Se ha añadido la siguiente pregunta muy frecuente:<ul><li>¿Cómo realizo un seguimiento de las impresiones de actividad en [!DNL Analysis Workspace] cuando se usa [!UICONTROL Analytics para Target] (A4T)?</li></ul> |
-|  | [Atributos de perfil](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | Se ha añadido información adicional a la fila &quot;landing.URL&quot;. |
-| 26 de abril | [Información general de [!UICONTROL fragmentos de experiencias] y [!UICONTROL fragmentos de contenido] de AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | La variable [!UICONTROL AEM fragmentos de contenido] ya está disponible para todos [!DNL Target customers]. |
-|  | [[!UICONTROL Fragmentos de contenido]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) de AEM | La variable [!UICONTROL AEM fragmentos de contenido] ya está disponible para todos [!DNL Target customers]. |
-|  | [*Guía para desarrolladores de Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es){target=_blank} | La variable *Guía para desarrolladores de Adobe Target* se ha trasladado a *[!UICONTROL Adobe Experience League]*. Mover a *[!UICONTROL Experience League]* ayuda en la localización de texto en idiomas adicionales, unifica la búsqueda en *Experience League* para abarcar y ofrecer resultados de búsqueda desde la variable *[!UICONTROL Guía para profesionales de Adobe Target Business]* y *[!UICONTROL Guía para desarrolladores de Adobe Target]* y proporciona beneficios adicionales.<P>Se le redirigirá de la ubicación anterior a *[!UICONTROL Experience League]* automáticamente. Actualice los marcadores según sea necesario. |
+|  | [Atributos de perfil](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | Se ha agregado información adicional a la fila &quot;landing.URL&quot; |
+| 26 de abril | [Información general de [!UICONTROL fragmentos de experiencias] y [!UICONTROL fragmentos de contenido] de AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | La función [!UICONTROL Fragmentos de contenido de AEM] ya está disponible para todos [!DNL Target customers]. |
+|  | [[!UICONTROL Fragmentos de contenido]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) de AEM | La función [!UICONTROL Fragmentos de contenido de AEM] ya está disponible para todos [!DNL Target customers]. |
+|  | [*Guía para desarrolladores de Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es){target=_blank} | La *Guía para desarrolladores de Adobe Target* se ha trasladado a *[!UICONTROL Adobe Experience League]*. Mover a *[!UICONTROL Experience League]* ayuda en la localización de texto en idiomas adicionales, unifica la búsqueda en *Experience League* para abarcar y ofrecer resultados de búsqueda desde la *[!UICONTROL Guía para profesionales de Adobe Target Business]* y la *[!UICONTROL Guía para desarrolladores de Adobe Target]* y proporciona otras ventajas.<P>Se le redirigirá desde la ubicación anterior a *[!UICONTROL Experience League]* automáticamente. Actualice los marcadores según sea necesario. |
 | 24 de abril | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de las siguientes preguntas y respuestas del Coffee break de preguntas y respuestas de la comunidad de Adobe Target:<ul><li>Optimización y personalización de la experiencia móvil para entornos autenticados</li></ul> |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.4.1 de [!DNL Target Standard/Premium]. |
 
