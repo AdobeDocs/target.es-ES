@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2759'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 19 de mayo | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de las próximas versiones. |
 | 17 de mayo | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información sobre la variable [!UICONTROL Comunidad de Adobe Target] Descanso de café de preguntas y respuestas el miércoles 24 de mayo de 2023. |
 | 16 de mayo | [Atributos de entidad](/help/main/c-recommendations/c-products/entity-attributes.md) | Indicado que no se permiten &quot;espacios&quot; en `entity.id` valores. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Actualizado `viewsEnabled` descripción. |
