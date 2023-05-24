@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y ev
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1850'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [
 
 ## Descanso para el café con preguntas y respuestas de la [!UICONTROL Comunidad de Adobe Target]
 
-* **Miércoles, 24 de mayo de 2023**
+* **Miércoles 24 de mayo de 2023**
 * **8:00-9:00 a.m. (PT, UTC-7)**
 * **[Información de registro](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-Nos unirán Ryan Roberts, Gentry Lin y Ryan Pizzuto del [!UICONTROL Consultoría de Adobe Target] equipo y Mihnea Docea del [!UICONTROL Ingeniería de soporte técnico de Adobe] equipo, que iniciará sesión en [Comunidad de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es){target=_blank} para hablar directamente con usted en este hilo sobre su [!DNL Adobe Target] preguntas relacionadas con las preguntas relacionadas con [!DNL Target] @ [!UICONTROL Adobe Summit] 2023.
+Se unirán a nosotros Ryan Roberts, Gentry Lin y Ryan Pizzuto del equipo de [!UICONTROL Consultoría de Adobe Target] y Mihnea Docea del equipo de [!UICONTROL Ingeniería de soporte técnico de Adobe], que iniciará la sesión en la [Comunidad de Adobe Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank} para hablar directamente con usted en este hilo sobre sus preguntas de [!DNL Adobe Target] relacionadas con las preguntas relacionadas con [!DNL Target] @ [!UICONTROL Adobe Summit] 2023.
 
-No dude en revisar cualquiera de los [grabaciones de la sesión de Adobe Target Summit bajo demanda](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} por adelantado para llevar sus preguntas de seguimiento a este chat.
+No dude en revisar las [grabaciones de la sesión de Adobe Target Summit bajo demanda](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} por adelantado para formular sus preguntas de seguimiento en este chat.
 
 ## Serie de seminarios web sobre [!DNL Adobe Target] {#webinar-series}
 
