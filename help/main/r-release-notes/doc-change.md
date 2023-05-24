@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
+source-git-commit: e4029b203ad4d7c1ea12ba04f72628b272703973
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '2798'
 ht-degree: 95%
 
 ---
@@ -20,6 +20,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 22 de mayo | [Integrar con [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Se agregaron los siguientes vídeos nuevos:<ul><li>Configure las variables [!DNL Adobe Target] destino en [!DNL Real-Time Customer Data Platform]</li><li>Activar segmentos y atributos de perfil</li><li>Uso [!DNL Real-Time CDP] segmentos en [!DNL Target]</li><li>Uso [!DNL Real-Time CDP] atributos de perfil en [!DNL Adobe Target]</li></ul> |
+|  | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=es){target=_blank} | Se ha actualizado la nota importante. |
 | 19 de mayo | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de próximas versiones. |
 | 17 de mayo | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de [!UICONTROL Comunidad de Adobe Target] Coffee Break de preguntas y respuestas el miércoles 24 de mayo de 2023. |
 | 16 de mayo | [Atributos de entidad](/help/main/c-recommendations/c-products/entity-attributes.md) | Se ha indicado que no se permiten &quot;espacios&quot; en `entity.id` valores. |
