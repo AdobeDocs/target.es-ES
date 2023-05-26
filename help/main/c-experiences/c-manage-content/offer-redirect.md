@@ -1,6 +1,6 @@
 ---
 keywords: oferta de redireccionamiento;crear oferta de redireccionamientoa;añadir oferta de html;Pasar los parámetros de URL en el redireccionamiento;Pasar mboxSessionId en el redireccionamiento (solo cuando el redireccionamiento va a un dominio diferente)
-description: 'Aprenda a crear ofertas de redireccionamiento en Adobe [!DNL Target] para hacer que un navegador redirija a una página nueva. '
+description: Obtenga información sobre cómo crear ofertas de redireccionamiento en Adobe [!DNL Target] para hacer que un explorador redirija a una página nueva.
 title: ¿Cómo Se Crean Ofertas De Redireccionamiento?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
@@ -13,13 +13,13 @@ ht-degree: 48%
 
 # Crear ofertas de redireccionamiento
 
-Ofertas de redireccionamiento en [!DNL Adobe Target] haga que un explorador redirija a una página nueva.
+Redireccionar ofertas en [!DNL Adobe Target] hacer que un explorador redirija a una página nueva.
 
-Es posible que tenga dos páginas completamente distintas para probarlas, en lugar de simplemente cambiar partes de contenido dentro de una página. En este caso, la prueba A/B compara la página A con la B. Configure una prueba A/B con dos experiencias: una que señala a la página predeterminada A y otra que redirige a la página B. La oferta está configurada para redirigir al visitante a una página diferente.
+Es posible que tenga dos páginas completamente distintas para probarlas, en lugar de simplemente cambiar partes de contenido dentro de una página. En este caso, la prueba A/B compara la página A con la B. Configure una actividad Prueba A/B con dos experiencias: una que apunte a la página A predeterminada y otra que redirija a la página B. La oferta está configurada para redirigir al visitante a una página diferente.
 
 >[!NOTE]
 >
-> * Las ofertas de redireccionamiento se pueden crear en la variable [!UICONTROL Ofertas] > [!UICONTROL Ofertas de código] o en la [Compositor de experiencias basadas en Forms](/help/main/c-experiences/form-experience-composer.md). No se pueden crear ni aplicar ofertas de redireccionamiento en el Compositor de experiencias visuales (VEC). El contenido se insertará en la variable [!DNL Target] ubicaciones de solicitud, por lo que es muy probable que no sean apropiadas para una [!DNL Target] solicitud.
+> * Las ofertas de redireccionamiento se pueden crear en [!UICONTROL Ofertas] > [!UICONTROL Ofertas de código] o en la [Compositor de experiencias basadas en Forms](/help/main/c-experiences/form-experience-composer.md). No puede crear ni aplicar ofertas de redireccionamiento en el Compositor de experiencias visuales (VEC). El contenido se insertará en [!DNL Target] ubicaciones de solicitudes, por lo que es muy probable que no sean adecuadas para una [!DNL Target] solicitud.
 >
 >* No se pueden usar las ofertas de redireccionamiento en los mboxes de Ajax (`mboxUpdate`).
 >
@@ -56,13 +56,13 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
 1. Seleccione las opciones que quiera para personalizar la oferta de redireccionamiento:
 
-   * **Incluir todos los parámetros de URL:** Deslice la opción para habilitar esta opción si desea que todos los parámetros de URL presentes en la página anterior se propaguen a la página a la que se redirige.
+   * **Incluir todos los parámetros de URL:** Deslice el botón de alternancia para activar esta opción si desea que todos los parámetros de URL presentes en la página anterior se propaguen a la página a la que se redirige.
 
-      Por ejemplo, imagine que quiere redirigir a las personas que están en una página para hombres directamente a una página de categoría de camisetas para hombres. También quiere que los parámetros dinámicos de la dirección URL se transmitan porque es su manera de hacer un seguimiento de si las personas han llegado al sitio web a través del correo electrónico, de publicidad tipo titular, de un anuncio de búsqueda o de forma orgánica. Al activar esta opción, la oferta de redireccionamiento en la página `https://www.mycompany.com/mens.html?emailId=123` se convertirá automáticamente en `https://www.mycompany.com/mensShirts.html?emailId=123` cuando todo lo que introdujo en el cuadro URL era `https://www.mycompany.com/mensShirts.html`.
+      Por ejemplo, imagine que quiere redirigir a las personas que están en una página para hombres directamente a una página de categoría de camisetas para hombres. También quiere que los parámetros dinámicos de la dirección URL se transmitan porque es su manera de hacer un seguimiento de si las personas han llegado al sitio web a través del correo electrónico, de publicidad tipo titular, de un anuncio de búsqueda o de forma orgánica. Al activar esta opción, se modifica la oferta de redireccionamiento de la página `https://www.mycompany.com/mens.html?emailId=123` se convertirá automáticamente en `https://www.mycompany.com/mensShirts.html?emailId=123` cuando todo lo que ha introducido en el cuadro URL ha sido `https://www.mycompany.com/mensShirts.html`.
 
-   * **Pasar ID de sesión de mbox:** Necesario para redirigir a un dominio diferente. Deslice el botón de alternancia para activar esta opción si desea que el `sessionId` para que se incluya automáticamente en la redirección. Esto solo es necesario si está probando los clics de un correo electrónico o los clics de un dominio a otro. El parámetro `sessionId` coincide con la cookie del visitante para que pueda realizarse un seguimiento del visitante y mostrar el contenido adecuado.
+   * **Transferir ID de sesión de mbox:** Necesario para redirigir a un dominio diferente. Deslice el botón de alternancia para activar esta opción si desea que el `sessionId` para que se incluya automáticamente en el redireccionamiento. Esto solo es necesario cuando realiza una prueba de los clics desde un correo electrónico o de los clics de un dominio a otro. El parámetro `sessionId` coincide con la cookie del visitante para que pueda realizarse un seguimiento del visitante y mostrar el contenido adecuado.
 
-      Si utiliza la configuración de cookies de origen y de terceros, no es necesario que pase el ID de sesión de mbox al cruzar dominios. Este identificador se conserva en la cookie de terceros, por lo que no es necesario en la dirección URL.
+      Si utiliza la configuración de cookies de origen y de terceros, no necesita pasar el ID de sesión de mbox al cruzar dominios. Este identificador se conserva en la cookie de terceros, por lo que no es necesario en la dirección URL.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -70,15 +70,15 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 >
 >Consulte con su asesor de implementación antes de iniciar estas pruebas.
 
-## Crear una oferta de redireccionamiento con el Compositor de experiencias basadas en formularios
+## Creación de una oferta de redireccionamiento mediante el Compositor de experiencias basadas en formularios
 
-1. Al crear una actividad con la variable [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione la ubicación para mostrar la variable **[!UICONTROL Contenido]** para obtener más información.
+1. Al crear una actividad con [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione la ubicación para mostrar el **[!UICONTROL Contenido]** sección.
 
    ![Sección Contenido del Compositor de experiencias basadas en formularios](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
-1. Haga clic en el **[!UICONTROL Contenido predeterminado]** lista desplegable y haga clic en **[!UICONTROL Cambiar oferta de redireccionamiento]**.
+1. Haga clic en **[!UICONTROL Contenido predeterminado]** y haga clic en. **[!UICONTROL Cambiar oferta de redirección]**.
 
-   ![Opción Cambiar oferta de redireccionamiento](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
+   ![Cambiar opción de oferta de redirección](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
 
 1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Oferta de redireccionamiento]**.
 
@@ -96,13 +96,13 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
 1. Seleccione las opciones que quiera para personalizar la oferta de redireccionamiento:
 
-   * **Incluir todos los parámetros de URL:** Deslice la opción para habilitar esta opción si desea que todos los parámetros de URL presentes en la página anterior se propaguen a la página a la que se redirige.
+   * **Incluir todos los parámetros de URL:** Deslice el botón de alternancia para activar esta opción si desea que todos los parámetros de URL presentes en la página anterior se propaguen a la página a la que se redirige.
 
-      Por ejemplo, imagine que quiere redirigir a las personas que están en una página para hombres directamente a una página de categoría de camisetas para hombres. También quiere que los parámetros dinámicos de la dirección URL se transmitan porque es su manera de hacer un seguimiento de si las personas han llegado al sitio web a través del correo electrónico, de publicidad tipo titular, de un anuncio de búsqueda o de forma orgánica. Al activar esta opción, la oferta de redireccionamiento en la página `https://www.mycompany.com/mens.html?emailId=123` se convertirá automáticamente en `https://www.mycompany.com/mensShirts.html?emailId=123` cuando todo lo que introdujo en el cuadro URL era `https://www.mycompany.com/mensShirts.html`.
+      Por ejemplo, imagine que quiere redirigir a las personas que están en una página para hombres directamente a una página de categoría de camisetas para hombres. También quiere que los parámetros dinámicos de la dirección URL se transmitan porque es su manera de hacer un seguimiento de si las personas han llegado al sitio web a través del correo electrónico, de publicidad tipo titular, de un anuncio de búsqueda o de forma orgánica. Al activar esta opción, se modifica la oferta de redireccionamiento de la página `https://www.mycompany.com/mens.html?emailId=123` se convertirá automáticamente en `https://www.mycompany.com/mensShirts.html?emailId=123` cuando todo lo que ha introducido en el cuadro URL ha sido `https://www.mycompany.com/mensShirts.html`.
 
-   * **Pasar ID de sesión de mbox:** Necesario para redirigir a un dominio diferente. Deslice el botón de alternancia para activar esta opción si desea que el `sessionId` para que se incluya automáticamente en la redirección. Esto solo es necesario si está probando los clics de un correo electrónico o los clics de un dominio a otro. El parámetro `sessionId` coincide con la cookie del visitante para que pueda realizarse un seguimiento del visitante y mostrar el contenido adecuado.
+   * **Transferir ID de sesión de mbox:** Necesario para redirigir a un dominio diferente. Deslice el botón de alternancia para activar esta opción si desea que el `sessionId` para que se incluya automáticamente en el redireccionamiento. Esto solo es necesario cuando realiza una prueba de los clics desde un correo electrónico o de los clics de un dominio a otro. El parámetro `sessionId` coincide con la cookie del visitante para que pueda realizarse un seguimiento del visitante y mostrar el contenido adecuado.
 
-      Si utiliza la configuración de cookies de origen y de terceros, no es necesario que pase el ID de sesión de mbox al cruzar dominios. Este identificador se conserva en la cookie de terceros, por lo que no es necesario en la dirección URL.
+      Si utiliza la configuración de cookies de origen y de terceros, no necesita pasar el ID de sesión de mbox al cruzar dominios. Este identificador se conserva en la cookie de terceros, por lo que no es necesario en la dirección URL.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -110,27 +110,27 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 >
 >Consulte con su asesor de implementación antes de iniciar estas pruebas.
 
-## Uso de ofertas de redireccionamiento en actividades
+## Usar ofertas de redireccionamiento en actividades
 
-Debe aplicar ofertas de redireccionamiento utilizando la variable [!UICONTROL Compositor de experiencias basadas en formularios]. Actualmente no puede aplicar ofertas de redireccionamiento utilizando el VEC.
+Debe aplicar ofertas de redireccionamiento utilizando [!UICONTROL Compositor de experiencias basadas en formularios]. Actualmente, no puede aplicar ofertas de redireccionamiento utilizando el VEC.
 
-La variable [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en [!UICONTROL Pruebas A/B], [!UICONTROL Segmentación de experiencias] (XT), [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Recommendations] actividades cuando el compositor de experiencias visuales no está disponible o su uso no es práctico. Por ejemplo, puede usar la variable [!UICONTROL Compositor de experiencias basadas en formularios] para crear experiencias que utilicen ofertas de redireccionamiento.
+El [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz no visual de creación de ofertas y experiencias que resulta útil para crear experiencias para utilizarlas en [!UICONTROL Pruebas A/B], [!UICONTROL Segmentación de experiencias] (XT), [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Recommendations] actividades cuando el compositor de experiencias visuales no está disponible o su uso no es práctico. Por ejemplo, puede utilizar la variable [!UICONTROL Compositor de experiencias basadas en formularios] para crear experiencias que utilicen ofertas de redireccionamiento.
 
-1. Cree o edite una actividad en la [!UICONTROL Compositor de experiencias basadas en formularios].
+1. Cree o edite una actividad en [!UICONTROL Compositor de experiencias basadas en formularios].
 
    Consulte [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) para obtener instrucciones detalladas paso a paso.
 
-1. Especifique la ubicación deseada y añada cualquier refinamiento de audiencia según sea necesario.
+1. Especifique la ubicación deseada y añada los refinamientos de audiencia que sean necesarios.
 
-1. Haga clic en la lista desplegable de la **[!UICONTROL Contenido]** y, a continuación, haga clic en **[!UICONTROL Cambiar oferta de redireccionamiento]**.
+1. Haga clic en la lista desplegable en la **[!UICONTROL Contenido]** y haga clic en **[!UICONTROL Cambiar oferta de redirección]**.
 
-   ![Opción Cambiar oferta de redireccionamiento](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
+   ![Cambiar opción de oferta de redirección](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
 
-1. Seleccione la oferta de redireccionamiento que desee en el [!UICONTROL Seleccionar oferta remota] y, a continuación, haga clic en **[!UICONTROL Listo]**.
+1. Seleccione la oferta de redirección que desee en [!UICONTROL Seleccionar oferta remota] y haga clic en **[!UICONTROL Listo]**.
 
 1. Termine de configurar la actividad.
 
-## Vídeo de formación: Compositor basado en formularios ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+## Vídeo de formación: Compositor basado en formularios ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo proporciona una demostración del compositor basado en formularios, que puede utilizar para crear ofertas de redireccionamiento.
 

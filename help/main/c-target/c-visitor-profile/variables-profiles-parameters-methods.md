@@ -1,6 +1,6 @@
 ---
 keywords: variables;perfiles;parámetros;perfiles integrados;métodos;variables de url;perfiles geográficos;perfiles de terceros;variables de mbox;variables de campaña;atributos de cliente
-description: Vea una lista de varios perfiles, variables y parámetros que son útiles en los scripts de perfil de Adobe Target.
+description: Vea una lista de varios perfiles, variables y parámetros que son útiles en los scripts de perfil en Adobe Target.
 title: Qué perfiles, variables y parámetros se utilizan en [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
@@ -29,7 +29,7 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | user.daysSinceLastVisit |  |
 | user.browser | El agente de usuario |
 | user.header | Todos los perfiles `user.header` están integrados en los datos de encabezado de las peticiones de mbox |
-| user.header(&#39;x-forward-for&#39;) | La dirección IP pública de la conexión de red en que se encuentra el visitante.<br>Se puede consultar de varias maneras, por ejemplo, usando [whatismyip.com](https://www.whatismyip.com/). La dirección IP no es la dirección NAT (dirección interna), que empieza por 10., 192.168. o 172.<br>Nota: user.header(&#39;x-cluster-client-ip&#39;) ha quedado obsoleto. |
+| user.header(&#39;x-forwarded-for&#39;) | La dirección IP pública de la conexión de red en que se encuentra el visitante.<br>Se puede consultar de varias maneras, por ejemplo, usando [whatismyip.com](https://www.whatismyip.com/). La dirección IP no es la dirección NAT (dirección interna), que empieza por 10., 192.168. o 172.<br>Nota: user.header(&#39;x-cluster-client-ip&#39;) ha quedado obsoleto. |
 | user.header(&#39;host&#39;) | Nombre de host del visitante |
 | user.header(&#39;cookie&#39;) | Datos de cookies del visitante |
 | user.header(&#39;user-agent&#39;) | Agente de usuario del navegador del visitante |
@@ -38,11 +38,11 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | user.header(&#39;accept&#39;) | Idioma del visitante y codificación de caracteres |
 | user.header(&#39;connection&#39;) | Conexión del servidor. Por ejemplo: keep-live |
 | user.header(&#39;referrer&#39;) | Dirección URL del sitio web de la página actual del visitante. No funciona con Internet Explorer. |
-| user.getLocal(&#39;param_name&#39;); | Recupere el valor establecido mediante `user.setLocal`. |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | Cree valores de perfil persistentes dentro de un script de perfil. Estos valores persisten del mismo modo que un script de perfil, pero solo tiene acceso a él dentro del script que se estableció. |
+| user.getLocal(&#39;param_name&#39;); | Recupere el valor que ha establecido mediante `user.setLocal`. |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | Cree valores de perfil persistentes dentro de un script de perfil. Estos valores persisten del mismo modo que un script de perfil, pero solo tiene acceso a ellos dentro del script en el que se configuró. |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Atributos de perfil persistentes creados desde scripts de perfil. También hace referencia a perfiles del &quot;sistema&quot; como la geolocalización, el recuento de visitas, etc. |
-| profile.get(&#39;param_name&#39;) | La forma correcta de obtener un parámetro de perfil para utilizarlo en un script de perfil es el método profile.get(&#39;param_name&#39;) . |
+| profile.get(&#39;param_name&#39;) | La forma correcta de obtener un parámetro de perfil para utilizarlo en un script de perfil es el método profile.get(&#39;param_name&#39;). |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Los parámetros de mbox que se vuelven persistentes debido a su prefijo perfil.  prefix. |
 | profile.browserTime | La hora local del navegador del visitante. Para la hora del sistema, cree un nuevo objeto de fecha en la secuencia de comandos del perfil |
@@ -91,4 +91,4 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 
 Se puede hacer referencia a los atributos del cliente en las secuencias de comandos de perfil con el formato `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Estos atributos también están disponibles como tokens en secuencias de comandos de perfil y directamente en ofertas sin que resulte necesario requerir primero una secuencia de comandos de perfil. El token debe presentar el siguiente formato: `${crs.datasourceName.attributeName}`. Tenga en cuenta que los espacios en la variable `datasourceName` debe eliminarse de cualquier llamada de API.
+Estos atributos también están disponibles como tokens en secuencias de comandos de perfil y directamente en ofertas sin que resulte necesario requerir primero una secuencia de comandos de perfil. El token debe presentar el siguiente formato: `${crs.datasourceName.attributeName}`. Tenga en cuenta que los espacios en `datasourceName` debe eliminarse de cualquier llamada de API.

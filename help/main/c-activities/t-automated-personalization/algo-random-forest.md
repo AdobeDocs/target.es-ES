@@ -1,7 +1,7 @@
 ---
-keywords: bosque aleatorio;árbol de decisiones;ap;Automated Personalization
-description: Descubra cómo Adobe [!DNL Target] utiliza el algoritmo de bosque aleatorio tanto en las actividades de Automated Personalization (AP) como de Segmentación automática .
-title: How [!DNL Target] ¿Usar el algoritmo de bosque aleatorio?
+keywords: bosque aleatorio;árbol de decisión;ap;Automated Personalization
+description: Descubra cómo Adobe [!DNL Target] utiliza el algoritmo de bosque aleatorio en las actividades de Automated Personalization (AP) y segmentación automática.
+title: ¿Cómo [!DNL Target] ¿Utilizar el algoritmo de bosque aleatorio?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
@@ -35,15 +35,15 @@ Pongamos que el código postal es más predictivo. Esta variable formaría la pr
 
 Esta acción se convertirá en la primera capa de nuestro árbol de decisión:
 
-![imagen decsion_tree_1](assets/decsion_tree_1.png)
+![imagen decision_tree_1](assets/decsion_tree_1.png)
 
 El árbol de decisión le preguntará: “¿Cuál es la variable más predictiva?”. En nuestro ejemplo, solo tenemos dos variables, así que la respuesta es claramente el sexo. Ahora el árbol va a realizar un ejercicio similar para dividir los datos *dentro de cada rama*. En primer lugar, consideraremos la rama 11111, 22222 y 33333. En estos códigos postales, si hay alguna diferencia de conversión entre hombres y mujeres, habrá dos hojas (hombres y mujeres) y esta rama estará completa. En la otra rama, 44444 y 55555, asumiremos que no hay ninguna diferencia estadística entre cómo convierten los hombres y las mujeres. En este caso, la primera rama se convierte en la división final.
 
 El árbol de nuestro ejemplo sería el siguiente:
 
-![imagen decsion_tree_2](assets/decsion_tree_2.png)
+![imagen decision_tree_2](assets/decsion_tree_2.png)
 
-## ¿Cómo utilizan los árboles de decisión el bosque aleatorio? {#section_536C105EF9F540C096D60450CAC6F627}
+## ¿Cómo utiliza el bosque aleatorio los árboles de decisión? {#section_536C105EF9F540C096D60450CAC6F627}
 
 Los árboles de decisión pueden ser una herramienta estadística muy útil. Sin embargo, presenta algunas desventajas. La más importante es que se puede producir un sobreajuste de datos, con lo que un solo árbol difícilmente predeciría datos futuros que no se hubieran utilizado para crear el árbol inicial. En estadística, este problema se conoce como [compensación sesgo-varianza](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Los bosques aleatorios ayudan a superar este problema de sobreajuste. En su máximo nivel, un bosque aleatorio es un conjunto de árboles de decisión que se ha creado de un modo algo distinto a partir del mismo conjunto de datos que “vota” conjuntamente para producir un modelo mejor que un árbol individual. Los árboles se crean seleccionando aleatoriamente un subconjunto de registros de visitas con sustitución (conocidos como empacados) y seleccionando aleatoriamente un subconjunto de los atributos para que el bosque esté formado de árboles de decisión ligeramente distintos. Con este método se introducen pequeñas variaciones en los árboles que se crean en el bosque aleatorio. Al añadir esta cantidad controlada de varianza, la precisión predictiva del algoritmo mejora.
 

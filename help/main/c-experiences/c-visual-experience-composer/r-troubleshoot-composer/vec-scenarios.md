@@ -1,7 +1,7 @@
 ---
-keywords: Recomendaciones
-description: Explore escenarios comunes que muestren cómo los cambios realizados en su página en el Compositor de experiencias visuales (VEC) afectan a la capacidad de Adobe Target para mostrar una experiencia.
-title: ¿Cuáles Son Algunos Escenarios Comunes De Modificación De Páginas?
+keywords: Recommendations
+description: Explore escenarios comunes que muestran cómo los cambios realizados en la página en el Compositor de experiencias visuales (VEC) afectan a la capacidad de Adobe Target para mostrar una experiencia.
+title: ¿Cuáles Son Algunos Escenarios Comunes De Modificación De Página?
 feature: Visual Experience Composer (VEC)
 exl-id: 7a05fbf9-3427-436e-a54f-4f1dd16d885a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

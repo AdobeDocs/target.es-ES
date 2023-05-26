@@ -1,7 +1,7 @@
 ---
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia
-description: Obtenga información sobre cómo crear audiencias personalizadas y guardarlas en el [!DNL Adobe Target] [!UICONTROL Audiencias] biblioteca para utilizarla en actividades.
-title: ¿Cómo Creo Audiencias?
+description: Obtenga información sobre cómo crear audiencias personalizadas y guardarlas en el [!DNL Adobe Target] [!UICONTROL Audiencias] biblioteca para su uso en actividades.
+title: ¿Cómo Se Generan Audiencias?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
@@ -13,13 +13,13 @@ ht-degree: 59%
 
 # Generación de audiencias en [!DNL Target]
 
-Puede crear audiencias personalizadas y guardarlas en el [!DNL Adobe Target] [!UICONTROL Audiencias] biblioteca para utilizarla en sus actividades. También puede copiar una audiencia existente que luego puede editar para crear una audiencia similar y combinar varias.
+Puede crear audiencias personalizadas y guardarlas en el [!DNL Adobe Target] [!UICONTROL Audiencias] para su uso en sus actividades. También puede copiar una audiencia existente y editarla para crear una similar y combinar varias audiencias.
 
 ## Información general de audiencia
 
 Las audiencias están definidas por reglas que determinan quién se incluye o excluye de una actividad de [!DNL Target]. Una definición de audiencia puede incluir varias reglas y cada regla puede incluir varios parámetros. Las definiciones de audiencias complejas usan operadores booleanos Y y O para combinar reglas y parámetros para otorgarle un control detallado sobre qué visitantes del sitio se cuentan como participantes de actividades.
 
-Cuando se combinan reglas o parámetros con AND, cualquier miembro potencial de la audiencia debe cumplir *all* condiciones definidas que deben incluirse como participante. Por ejemplo, si define una regla de sistema operativo AND (y) una regla de navegador, solo se incluyen en la actividad los visitantes que usan el sistema operativo *y* el navegador especificados.
+Cuando combina reglas o parámetros con AND, cualquier posible miembro de la audiencia debe cumplir con *todo* se han definido condiciones para incluirlas como participantes. Por ejemplo, si define una regla de sistema operativo AND (y) una regla de navegador, solo se incluyen en la actividad los visitantes que usan el sistema operativo *y* el navegador especificados.
 
 Cuando se combinan reglas o parámetros con O, cualquier miembro potencial de la audiencia solamente necesita cumplir cualquier condición única definida para que se lo incluya como participante. Por ejemplo, si se definen varias reglas móviles conectadas por O, se incluyen en la actividad los visitantes que cumplen *cualquiera* de los criterios definidos.
 
@@ -39,13 +39,13 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
    ![imagen audiences_list](assets/audiences_list.png)
 
-1. En el [!UICONTROL Audiencias] lista, haga clic en **[!UICONTROL Crear audiencia]**.
+1. Desde el [!UICONTROL Audiencias] , haga clic en **[!UICONTROL Crear audiencia]**.
 
    O
 
-   Para copiar una audiencia existente, desde la [!UICONTROL Audiencias] , haga clic en la **[!UICONTROL Más acciones]** (icono de elipsis) y, a continuación, haga clic en **[!UICONTROL Duplicar]**. Luego puede editar la audiencia para crear otra parecida.
+   Para copiar una audiencia existente, en [!UICONTROL Audiencias] , haga clic en **[!UICONTROL Más acciones]** (el icono de los tres puntos) y, a continuación, haga clic en **[!UICONTROL Duplicar]**. Luego puede editar la audiencia para crear otra parecida.
 
-1. Escriba un nombre descriptivo y único para la audiencia y una descripción opcional.
+1. Escriba un nombre descriptivo y único para la audiencia, así como una descripción opcional.
 
    Los nombres de audiencia no pueden comenzar con los siguientes caracteres:
 
@@ -55,7 +55,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Arrastre y suelte los atributos que desee desde el **[!UICONTROL Atributos]** a la derecha del panel del generador de audiencias.
+1. Arrastre y suelte los atributos deseados de la **[!UICONTROL Atributos]** en la parte derecha del panel de audience builder.
 
    ![Arrastrar y soltar atributos](assets/drag-attribute.png)
 
@@ -63,13 +63,13 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
 1. Defina los parámetros de la regla.
 
-   Por ejemplo, la siguiente audiencia está dirigida a visitantes de Utah que utilizan el sistema operativo Macintosh.
+   Por ejemplo, la siguiente audiencia identifica visitantes de Utah que usan el sistema operativo Macintosh.
 
-   ![Audiencia Utah/Macintosh](assets/adience-builder.png)
+   ![Audiencia de Utah/Macintosh](assets/adience-builder.png)
 
 1. (Condicional) Siga agregando y definiendo los atributos deseados.
 
-   Para crear otro contenedor, haga clic en **[!UICONTROL Agregar contenedor]** o simplemente arrastre otro atributo al panel de Audience Builder . A continuación, puede ajustar el operador (Y u O) mediante la lista desplegable.
+   Para crear otro contenedor, haga clic en **[!UICONTROL Agregar contenedor]** o simplemente arrastre otro atributo al panel Generador de audiencias. A continuación, se puede ajustar el operador (AND u OR) mediante la lista desplegable.
 
 1. Haga clic en **[!UICONTROL Finalizado]**.
 

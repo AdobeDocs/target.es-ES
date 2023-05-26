@@ -1,6 +1,6 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Aprenda a utilizar la opción Redireccionar a URL en el Adobe [!DNL Target] cuando quiera enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
+description: Aprenda a utilizar la opción Redirigir a URL en Adobe [!DNL Target] cuando desee enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
 title: ¿Puedo redirigir una página a una dirección URL diferente?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
@@ -13,7 +13,7 @@ ht-degree: 82%
 
 # Redireccionar a una dirección URL
 
-Utilice la variable [!UICONTROL Redirigir a URL] en [!DNL Adobe Target] cuando quiera enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
+Utilice el [!UICONTROL Redirigir a URL] opción en [!DNL Adobe Target] cuando desee enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
 
 Es posible que tenga dos páginas completamente distintas para probarlas, en lugar de simplemente cambiar partes de contenido dentro de una página. En ese caso, la prueba A/B compara la página A con la B. Configure una campaña de prueba A/B con dos experiencias: una que apunte a la página A predeterminada y otra que redireccione a la página B. En el menú Acción de experiencia, que aparece al hacer clic en la etiqueta de carta para la experiencia, elija **[!UICONTROL Redireccionar a dirección URL]** y especifique la dirección URL de la página B. La oferta se configura para redireccionar al visitante hacia una página diferente.
 
@@ -31,7 +31,7 @@ Las ofertas de redireccionamiento tienen ciertas limitaciones:
 Para crear una oferta de redireccionamiento:
 
 1. Cree una experiencia.
-1. Pase el ratón sobre una experiencia y haga clic en el icono Redireccionar a dirección URL (![icon_redirect_url image](assets/icon_redirect_url.png)).
+1. Pase el ratón sobre una experiencia y haga clic en el icono Redirigir a URL (![imagen icon_redirect_url](assets/icon_redirect_url.png)).
 
    ![imagen exp_actions](assets/exp_actions.png)
 

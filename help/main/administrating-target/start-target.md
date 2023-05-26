@@ -1,7 +1,7 @@
 ---
 keywords: Administración;función de aprobador;aprobador
-description: Realizar el primer Adobe de tareas [!DNL Target] los administradores deben recibir una vez recibida la invitación por correo electrónico a Adobe Experience Cloud.
-title: ¿Dónde Se Comienza A Administrar Target?
+description: Realizar el primer Adobe de tareas [!DNL Target] Los administradores de deben tener en cuenta lo siguiente tras recibir por correo electrónico la invitación de Adobe Experience Cloud.
+title: ¿Dónde Empiezo A Administrar Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
@@ -14,13 +14,13 @@ ht-degree: 82%
 
 # Primeros pasos del administrador
 
-Este artículo contiene los primeros pasos [!DNL Adobe Target] los administradores deben aceptar la invitación por correo electrónico para [!DNL Adobe Experience Cloud].
+Este artículo contiene los primeros pasos [!DNL Adobe Target] Los administradores de deben tomar después de recibir por correo electrónico la invitación de [!DNL Adobe Experience Cloud].
 
 ## Obtenga una invitación para [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 Un administrador del sistema de la [!DNL Adobe Admin Console] debe agregarle como usuario de [!DNL Target] para enviarle una invitación. A continuación, el administrador de sistemas debe agregarle a uno o varios grupos específicos de funciones. Ambas tareas se realizan en [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Para obtener más información, consulte [Administración de usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) en el *Ayuda de Experience Cloud y servicios principales*.
+Para obtener más información, consulte [Administración de usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) en el *Ayuda del Experience Cloud y los servicios principales*.
 
 Recibirá un correo electrónico de invitación después de que el administrador del sistema haya realizado estos pasos.
 

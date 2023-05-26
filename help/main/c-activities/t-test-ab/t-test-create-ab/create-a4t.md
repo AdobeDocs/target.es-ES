@@ -1,19 +1,19 @@
 ---
 keywords: Segmentación;analytics;servidor de seguimiento;analytics for target;a4t
-description: Obtenga información sobre cómo configurar una actividad en Adobe [!DNL Target] para usar Adobe Analytics como fuente de informes. Esta integración se denomina Analytics para [!DNL Target] (A4T).
-title: ¿Cómo puedo usar datos de Analytics en Target?
+description: Obtenga información sobre cómo configurar una actividad en Adobe [!DNL Target] para usar Adobe Analytics como fuente de informes. Esta integración se denomina Analytics for [!DNL Target] (A4T).
+title: ¿Cómo se puede usar los datos de Analytics en Target?
 feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
 # Usar datos de Analytics
 
-Puede configurar una actividad en [!DNL Adobe Target] para usar [!DNL Adobe Analytics] como fuente de informes (A4T).
+Puede configurar una actividad en [!DNL Adobe Target] para utilizar [!DNL Adobe Analytics] como fuente de informes (A4T).
 
 Para obtener información detallada sobre la configuración de Analytics como fuente de datos para Target, consulte [Adobe Analytics como fuente de informes para Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
@@ -29,7 +29,7 @@ Analytics for Target requiere un servidor de seguimiento para registrar los resu
 
 >[!NOTE]
 >
->Si usa Adobe Analytics como fuente de informes de la actividad, no es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js . La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
+>Si utiliza Adobe Analytics como fuente de informes de la actividad, no es necesario que especifique un servidor de seguimiento durante la creación de la actividad en la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
 
 Cuando se configura una actividad después de establecer Analytics como fuente de informes, ya no se pueden configurar audiencias para los informes. Los segmentos de Analytics se encuentran disponibles en el informe Actividades de Target.
 

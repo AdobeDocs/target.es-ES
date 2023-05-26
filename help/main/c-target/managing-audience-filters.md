@@ -1,7 +1,7 @@
 ---
 keywords: Segmentación;filtro de audiencia;audiencias;filtro
-description: Aprenda a utilizar los filtros de audiencia en [!DNL Adobe Target] para ver los datos de los visitantes que comparten características.
-title: ¿Puedo usar filtros de audiencia para los informes?
+description: Aprenda a utilizar los filtros de audiencia en [!DNL Adobe Target] para ver datos de visitantes que comparten características.
+title: ¿Puedo usar filtros de audiencia para informes?
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -15,7 +15,7 @@ ht-degree: 74%
 
 Filtros de audiencia (o audiencias) en [!DNL Adobe Target] son grupos de visitantes que comparten una característica o un conjunto de características específicos.
 
-Utilice los filtros de audiencia para especificar las audiencias utilizadas en los informes. Puede seleccionar una audiencia y comparar su rendimiento con el tráfico global. Tal vez quiera saber si los ganadores de las múltiples fuentes de tráfico eran diferentes cuando se comparan con el tráfico general. Los filtros de audiencia le ayudan a descubrir audiencias a las que se debería destinar potencialmente a distintos contenidos. En muchos casos, un ganador no se ajusta a todo el tráfico.
+Utilice los filtros de audiencia para especificar las audiencias utilizadas en los informes. Puede seleccionar una audiencia y comparar su rendimiento con el tráfico global. Tal vez quiera saber si los ganadores de las múltiples fuentes de tráfico eran diferentes cuando se comparan con el tráfico general. Los filtros de audiencia le ayudan a descubrir audiencias que deberían estar potencialmente dirigidas a contenido diferente. En muchos casos, un ganador no se ajusta a todo el tráfico.
 
 Por ejemplo, una audiencia puede ser la de los visitantes que llegan a la página desde un motor de búsqueda determinado. Otras audiencias pueden estar basadas en el sexo, la edad, la ubicación, el estado de registro, el historial de compras o en cualquier otro dato que se pueda recabar sobre los visitantes. Utilice filtros de audiencia para dividir el tráfico de los visitantes y comparar el rendimiento de las experiencias en cada segmento de tráfico.
 

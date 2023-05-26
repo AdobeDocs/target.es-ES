@@ -1,7 +1,7 @@
 ---
 keywords: Segmentación;experiencia;añadir experiencia;adición de experiencia
-description: Aprenda a usar el Compositor de experiencias visuales (VEC) en Adobe Target. El VEC proporciona una interfaz visual para añadir y editar experiencias en la página.
-title: ¿Cómo puedo añadir experiencias en una [!DNL Target] ¿Actividad A/B?
+description: Aprenda a utilizar el Compositor de experiencias visuales (VEC) en Adobe Target. El VEC proporciona una interfaz visual para agregar y editar experiencias en la página.
+title: ¿Cómo puedo añadir experiencias en una? [!DNL Target] ¿Actividad A/B?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # Añadir experiencia
 
-El Compositor de experiencias visuales (VEC) de Adobe Target proporciona una interfaz visual para agregar y editar las experiencias en la página.
+El Compositor de experiencias visuales (VEC) de Adobe Target proporciona una interfaz visual para añadir y editar las experiencias en la página.
 
 Para obtener más información sobre las experiencias, consulte [Experiencias](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
@@ -29,7 +29,7 @@ Para obtener más información sobre las experiencias, consulte [Experiencias](/
 
    Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Los elementos resaltados se pueden modificar con el Compositor de experiencias.
 
-   Si creó un [!DNL Target] solicite en la página que use Target Classic (antes denominado Test&amp;Target) que [!DNL Target] aparece como un elemento que muestra el nombre de la solicitud y se puede modificar como cualquier otro elemento.
+   Si ha creado un [!DNL Target] solicitud en la página que utiliza Target Classic (anteriormente Test&amp;Target), que [!DNL Target] la solicitud aparece como un elemento que muestra el nombre de la solicitud y se puede modificar como cualquier otro elemento.
 
    Para obtener una lista de las acciones que se pueden realizar en un elemento de la página mostrada para cambiar la experiencia, consulte [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -92,7 +92,7 @@ En la página **[!UICONTROL Experiencias]** (el primer paso del flujo de trabajo
 
 ![Opción Eliminar experiencia](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Vídeo de formación: Uso del Compositor de experiencias visuales ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+## Vídeo de formación: Uso del Compositor de experiencias visuales ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 El siguiente vídeo proporciona información sobre cómo usar las opciones del Compositor de experiencias visuales. (7:17)
 

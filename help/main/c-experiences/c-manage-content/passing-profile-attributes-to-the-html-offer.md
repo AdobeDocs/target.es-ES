@@ -1,7 +1,7 @@
 ---
 keywords: datos dinámicos;activos;datos;ofertas;ofertas personalizadas;ofertas personales;reemplazo del token
 description: Aprenda a pasar datos dinámicos a [!DNL Adobe Target] Ofertas.
-title: ¿Cómo paso datos dinámicos en ofertas?
+title: ¿Cómo paso datos dinámicos a las ofertas?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,9 +13,9 @@ ht-degree: 63%
 
 # Transmisión dinámica de datos en ofertas
 
-Puede mostrar de forma dinámica la información del visitante almacenada en la variable [!DNL Adobe Target] perfil. Del mismo modo, la información de la actividad (como el nombre de la actividad o el de la experiencia) también se puede utilizar para crear una sola oferta que devuelva contenido personalizado de forma dinámica en función de los intereses, el comportamiento anterior y el perfil general del visitante.
+Puede mostrar dinámicamente la información del visitante almacenada en el [!DNL Adobe Target] perfil. Del mismo modo, la información de la actividad (como el nombre de la actividad o el de la experiencia) también se puede utilizar para crear una sola oferta que devuelva contenido personalizado de forma dinámica en función de los intereses, el comportamiento anterior y el perfil general del visitante.
 
-## Casos de uso
+## Casos comerciales
 
 * Promocione una oferta de descuento para reorganizar o reponer el último producto comprado. En lugar de crear una oferta separada para cada elemento del catálogo, puede crear una oferta con texto dinámico que indique el último producto comprado del perfil y muestre un vínculo en la oferta.
 * Un visitante llega a su página de destino con `keyword=world` `cup`. El término *World cup* aparece en la oferta.
@@ -30,7 +30,7 @@ Dado que las preferencias, los comportamientos y el estado específicos del visi
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
 * Código de oferta HTML: `Get your ${profile.keyword} information here!`
-* El visitante ve: ¡Obtenga aquí su información sobre la Copa del Mundo!
+* Visitante ve: ¡Obtenga su información de la Copa del Mundo aquí!
 
 Los siguientes valores se pueden “sustituir con testigos”:
 
@@ -55,17 +55,17 @@ Para los parámetros de perfil transferidos a un mbox, utilice la sintaxis:
 
 `${profile.parameter}`
 
-Para los parámetros de perfil creados en una secuencia de comandos de perfil, utilice la sintaxis:
+Para los parámetros de perfil creados en un script de perfil, utilice la sintaxis:
 
 `${user.parameter}`
 
-Cuando se utilizan atributos dinámicos en un [!DNL Recommendations] diseño, debe insertar una barra invertida ( \ ) antes del signo de dólar ( $ ) para que el valor dinámico se represente correctamente:
+Cuando se utilizan atributos dinámicos en una [!DNL Recommendations] diseño, debe insertar una barra invertida ( \ ) antes del signo de dólar ( $ ) para que el valor dinámico se represente correctamente:
 
 `\${user.endpoint.lastViewedEntity}`
 
 Estas variables se sustituyen por el valor que hay en el servidor, así que no es necesario usar comillas ni ningún otro JavaScript para la visualización correcta.
 
-También se pueden especificar valores predeterminados para los valores que desea exponer a ofertas. La sintaxis es similar a esta:
+También se pueden especificar valores predeterminados para los valores que desea exponer a las ofertas. La sintaxis es similar a esta:
 
 `${user.testAttribute default="All Items!"}`
 
@@ -73,12 +73,12 @@ Si `testAttribute` no existe o está en blanco, “All Items!” está escrito. 
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-También puede introducir y extraer valores para mostrar. Si su valor tiene un apóstrofo, por ejemplo, puede omitir el valor para que no interrumpa el JavaScript en la página. (Las ofertas de se escriben en JavaScript, por lo que un solo apóstrofo se puede confundir con las comillas). Por ejemplo:
+También puede introducir y extraer valores para mostrar. Si su valor tiene un apóstrofo, por ejemplo, puede aplicar un escape al valor para que no interrumpa el JavaScript en la página. (Las ofertas de se escriben en JavaScript, por lo que un solo apóstrofo se puede confundir con las comillas). Por ejemplo:
 
 `${user.encodedValue encode="unescape"}`
 
 `${user.unencodedValue encode="escape"}`
 
-Para los parámetros de oferta (offer.name, offer.id) utilizados en el contenido de una oferta:
+Para parámetros de oferta (offer.name, offer.id) utilizados en el contenido de una oferta:
 
-Si esa oferta es una de las varias ofertas configuradas en una experiencia, el valor de la última oferta añadida rellena el valor del parámetro. Es decir, estos parámetros se evalúan en el nivel de experiencia.
+Si esa oferta es una de las varias establecidas en una experiencia, el valor de la última oferta añadida rellena el valor del parámetro. Es decir, estos parámetros se evalúan en el nivel de experiencia.

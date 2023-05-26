@@ -1,7 +1,7 @@
 ---
 keywords: configuración de actividad;objetivos y configuración de la segmentación de experiencias;objetivos y configuración de xt;segmentación de experiencias;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;configuración avanzada;objetivo principal;métricas adicionales;objetivo;prioridad;duración;solución de informes;audiencias para informes;qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
 description: Aprenda a utilizar la página Objetivos y configuración en Adobe [!DNL Target] para especificar información sobre los objetivos de una actividad de segmentación de experiencias (XT).
-title: ¿Cómo se especifican objetivos y configuraciones en una actividad de segmentación de experiencias?
+title: ¿Cómo especifico los objetivos y la configuración en una actividad de segmentación de experiencias?
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,7 +11,7 @@ ht-degree: 94%
 
 ---
 
-# Objetivos y configuración en actividades de Segmentación de experiencias (XT)
+# Configuración y objetivos en las actividades de segmentación de experiencias (XT)
 
 La página Configuración y objetivos es donde se especifica información sobre los objetivos de la prueba.
 
@@ -37,9 +37,9 @@ La interfaz de usuario y las opciones de Prioridad varían en función de la con
 
 La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
-Si esta opción no está habilitada en Administración (la predeterminada), especifique una prioridad: Bajo, Medio o Alto.
+Si esta opción no está habilitada en Administración (la predeterminada), indique un nivel de prioridad: bajo, medio o alto.
 
-Para habilitar prioridades específicas, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Informes]** y luego coloque la opción Habilitar prioridades específicas en la posición &quot;Activado&quot;.
+Para habilitar prioridades específicas, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Informes]** A continuación, coloque la opción Habilitar prioridades específicas en la posición &quot;Activado&quot;.
 
 Si esta opción está habilitada, indique un valor entre 0 y 999:
 

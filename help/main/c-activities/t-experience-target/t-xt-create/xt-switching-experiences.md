@@ -1,7 +1,7 @@
 ---
 keywords: prioridad;crear experiencia;prioridad;experiencia;audiencia;experiencia;convertir experiencias;compositor de experiencias visuales;visual experience composer
-description: Descubra cómo los visitantes pueden cambiar entre experiencias en un Adobe [!DNL Target] Segmentación de experiencias (XT) a medida que evolucionan sus perfiles.
-title: ¿Pueden los visitantes cambiar experiencias en una actividad de segmentación de experiencias?
+description: Descubra cómo los visitantes pueden cambiar entre experiencias en un Adobe [!DNL Target] Actividad de segmentación de experiencias (XT) a medida que evolucionan sus perfiles.
+title: ¿Pueden los visitantes cambiar de experiencia en una actividad de segmentación de experiencias?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
@@ -17,7 +17,7 @@ Información sobre cómo los visitantes pueden cambiar entre experiencias en una
 
 Con la Segmentación de experiencias, puede controlar la experiencia que ve cada visitante conforme evoluciona su perfil. La siguiente lista muestra solo algunas situaciones en las que los perfiles de los visitantes pueden evolucionar y es posible que quiera presentar contenido diferente:
 
-| Situación | Detalles |
+| Escenario | Detalles |
 |--- |--- |
 | Ubicación geográfica | Mientras que los visitantes viajan por negocios o por ocio, es posible que accedan a su sitio web o aplicación móvil desde diferentes ubicaciones geográficas. |
 | Estado del cliente | Los visitantes pueden considerarse potenciales antes de crear una cuenta o comprar un producto. |

@@ -1,7 +1,7 @@
 ---
 keywords: recomendaciones;actividad de recomendaciones;criterios;algoritmo
-description: Obtenga información sobre cómo seleccionar los criterios (reglas que determinan qué productos o contenido se recomiendan) para usar en el Adobe [!DNL Target] Actividad de Recommendations.
-title: ¿Cómo se seleccionan los criterios de una actividad de Recommendations?
+description: Obtenga información sobre cómo seleccionar los criterios (reglas que determinan qué productos o contenido recomendar) que se deben utilizar en el Adobe [!DNL Target] Actividad de Recommendations.
+title: ¿Cómo selecciono los criterios para una actividad de Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
@@ -24,7 +24,7 @@ Si selecciona varios criterios, el tráfico se distribuye uniformemente entre lo
 
    Algunos criterios se proporcionan con [!DNL Recommendations]. También puede crear sus propios criterios personalizados.
 
-* Para crear un nuevo criterio, haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Crear criterios]**, rellene la información del nuevo criterio. Para obtener información sobre la creación de nuevos criterios, consulte [Crear nuevos criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+* Para crear un nuevo criterio, haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Crear criterios]**, luego complete la información para los nuevos criterios. Para obtener información sobre la creación de nuevos criterios, consulte [Crear nuevos criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
 
 **Para seleccionar criterios:**
 
@@ -34,7 +34,7 @@ Si selecciona varios criterios, el tráfico se distribuye uniformemente entre lo
 
    Puede utilizar el filtro [!UICONTROL Tipo de sector], el filtro [!UICONTROL Tipo de página] y la casilla [!UICONTROL Compatible] para filtrar la lista de criterios. Estas opciones le ayudan a encontrar los criterios deseados.
 
-   * **Tipo de sector:** el tipo de sector se usa para categorizar los criterios de [!DNL Recommendations]. Para cambiar el sector predeterminado, haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Configuración]** y seleccione el valor predeterminado que desee **[!UICONTROL Sector]** configuración.
+   * **Tipo de sector:** el tipo de sector se usa para categorizar los criterios de [!DNL Recommendations]. Para cambiar el sector predeterminado, haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Configuración]** y seleccione el valor predeterminado que desee **[!UICONTROL Sector vertical]** configuración.
    * **Tipo de página:** el tipo de página sirve para categorizar las recomendaciones. También hay criterios integrados que se pueden elegir para cada tipo de página.
    * **Compatible:** muestra solo aquellos criterios en los que la página seleccionada pasa los datos necesarios. No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o `entity.categoryId` para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desmarque la casilla de verificación **[!UICONTROL Compatible]**. Esta opción se puede activar o desactivar en la configuración: **[!UICONTROL Recommendations]** > **[!UICONTROL Configuración]**.
 

@@ -1,6 +1,6 @@
 ---
-keywords: Segmentación de experiencias;xt;url de actividad;url
-description: Obtenga información sobre cómo especificar la dirección URL de actividad que determina la página que se usa en la prueba y que se abre cuando la actividad de segmentación de experiencias se diseña con Adobe Target.
+keywords: Segmentación de experiencias;XT;URL de actividad;URL
+description: Obtenga información sobre cómo especificar la URL de actividad que determina la página que se usa en la prueba y que se abre cuando la actividad de segmentación de experiencias se diseña con Adobe Target.
 title: ¿Qué es la URL de actividad en una actividad de segmentación de experiencias (XT)?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
@@ -11,9 +11,9 @@ ht-degree: 63%
 
 ---
 
-# URL de actividad en actividades de Segmentación de experiencias (XT)
+# URL de actividad en actividades de segmentación de experiencias (XT)
 
-La variable [!UICONTROL URL de actividad] determina la página que se usa en la variable [!DNL Adobe Target] [!UICONTROL Segmentación de experiencias] (XT) y que se abre en la [!UICONTROL Compositor de experiencias visuales] (VEC) o [!UICONTROL Compositor de experiencias basadas en formularios] cuando se diseña la actividad.
+El [!UICONTROL URL de actividad] determina la página que se usa en [!DNL Adobe Target] [!UICONTROL Segmentación de experiencias] (XT) y que se abre en la [!UICONTROL Compositor de experiencias visuales] (VEC) o [!UICONTROL Compositor de experiencias basadas en formularios] cuando se diseña la actividad.
 
 1. Cuando se le pida, al [crear una actividad XT](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), especifique la URL de la actividad. Escriba la URL completa (incluido `https://`) y haga clic en **[!UICONTROL Crear actividad]**.
 

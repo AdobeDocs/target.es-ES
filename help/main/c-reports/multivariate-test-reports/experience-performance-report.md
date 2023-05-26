@@ -1,7 +1,7 @@
 ---
 keywords: prueba multivariable;mvt;informe de rendimiento de las experiencias
-description: Aprenda a utilizar el informe Rendimiento de las experiencias para el Adobe [!DNL Target] Actividades de segmentación de experiencias que muestran el rendimiento de cada experiencia en la actividad.
-title: ¿Cómo utilizo el informe Rendimiento de las experiencias para pruebas multivariable?
+description: Aprenda a utilizar el informe Rendimiento de las experiencias para el Adobe [!DNL Target] Actividades de segmentación de experiencias que muestran el rendimiento de cada experiencia de la actividad.
+title: ¿Cómo se usa el informe de rendimiento de las experiencias para las pruebas multivariable?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: 79d51e39b733ee13270f924912251e45c8597917

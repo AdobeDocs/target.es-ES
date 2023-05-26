@@ -1,6 +1,6 @@
 ---
 keywords: compositor de experiencias visuales;vec;wysiwyg
-description: Conozca los conceptos básicos del uso del Compositor de experiencias visuales (VEC) en Adobe Target. El VEC es un editor WYSIWYG que permite crear fácilmente experiencias personalizadas.
+description: Aprenda los conceptos básicos del uso del Compositor de experiencias visuales (VEC) en Adobe Target. El VEC es un editor WYSIWYG que permite crear fácilmente experiencias personalizadas.
 title: ¿Cómo utilizo el Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
@@ -13,13 +13,13 @@ ht-degree: 92%
 
 # Compositor de experiencias visuales (VEC)
 
-Información sobre el uso de la variable [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target].
+Información sobre el uso de [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target].
 
 El VEC es una interfaz de usuario WYSIWYG que permite crear y probar fácilmente experiencias y ofertas personalizadas en el contexto del sitio. Puede crear experiencias y ofertas para actividades de Target arrastrando y soltando, intercambiando y modificando el diseño y el contenido de una página Web (u oferta) o una página web móvil.
 
 El VEC es una de las características principales de [!DNL Adobe Target]. El VEC permite que los expertos en marketing y los diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
 
-En el objetivo **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]** , puede introducir la dirección URL predeterminada del Compositor de experiencias visuales.
+En el destino **[!UICONTROL Administration]** > **[!UICONTROL Compositor de experiencias visuales]** , puede introducir la URL predeterminada del Compositor de experiencias visuales.
 
 ![Configuración de URL predeterminada de VEC](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -108,14 +108,14 @@ Para continuar administrando experiencias en la actividad actual o agregar nueva
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Compositor de experiencias visuales (1 de 2) (7:17) ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+### Compositor de experiencias visuales (1 de 2) (7:17) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 * Cambiar el contenido de una página
 * Cambiar el diseño de una página
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Compositor de experiencias visuales (2 de 2) (7:29) ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+### Compositor de experiencias visuales (2 de 2) (7:29) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 * Cambiar el nombre de una experiencia y duplicarla
 * Crear una experiencia de redirección
@@ -126,7 +126,7 @@ Los siguientes vídeos contienen más información sobre los conceptos mencionad
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Horario de oficina: Compositor de experiencias visuales ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+### Horario de oficina: Compositor de experiencias visuales ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo es una grabación de “[Horario de oficina](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 

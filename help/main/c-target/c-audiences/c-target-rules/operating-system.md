@@ -1,7 +1,7 @@
 ---
 keywords: Segmentación;sistema operativo Target;sistema operativo;so target;target en linux;linux;target en windows;windows;target en macintosh;macintosh;mac;target en mac;win;target en win
-description: Aprenda a dirigirse a visitantes que usen un sistema operativo determinado (Linux, Macintosh o Windows).
-title: ¿Puedo segmentar visitantes en función del sistema operativo?
+description: Obtenga información sobre cómo dirigirse a visitantes que utilizan un sistema operativo determinado (Linux, Macintosh o Windows).
+title: ¿Puedo segmentar visitantes según el sistema operativo?
 feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,11 +13,11 @@ ht-degree: 46%
 
 # Sistema operativo
 
-Puede dirigirse a visitantes mediante [!DNL Adobe Target] que utilizan un sistema operativo determinado.
+Puede segmentar visitantes mediante [!DNL Adobe Target] que utilizan un sistema operativo determinado.
 
 1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
-1. Arrastrar y soltar **[!UICONTROL Sistema operativo]** en el panel del generador de audiencias.
+1. Arrastrar y soltar **[!UICONTROL Sistema operativo]** en el panel de audience builder.
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
    * Linux

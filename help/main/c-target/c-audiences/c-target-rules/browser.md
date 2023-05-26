@@ -1,7 +1,7 @@
 ---
 keywords: opciones del explorador;tipo;tipo de explorador;idioma del explorador;idioma;versión;versión del explorador
-description: Aprenda a crear audiencias en [!DNL Adobe Target] para dirigirse a usuarios que usen un navegador específico u opciones específicas del navegador cuando visiten la página.
-title: ¿Puedo segmentar visitantes en función del tipo de explorador?
+description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Target] para dirigirse a los usuarios que utilizan un explorador específico u opciones específicas del explorador cuando visitan la página.
+title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -36,11 +36,11 @@ Hay dos formar de segmentar según el navegador:
 
       ![Usuarios de Target Chrome](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-* **Regla de audiencia de navegador personalizada:** Una audiencia personalizada le permite dirigirse a varios navegadores o configurar reglas o exclusiones para navegadores, versiones de navegador o idiomas de navegador específicos. Esta funcionalidad proporciona una flexibilidad significativa al segmentar una actividad en función de los atributos del explorador.
+* **Regla de audiencia del explorador personalizada:** Una audiencia personalizada le permite dirigirse a varios exploradores o configurar reglas o exclusiones para exploradores, versiones de exploradores o idiomas específicos. Esta funcionalidad proporciona una flexibilidad considerable a la hora de segmentar una actividad según los atributos del explorador.
 
    1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
    1. Asigne un nombre a la audiencia y añada una descripción opcional.
-   1. Arrastrar y soltar **[!UICONTROL Navegador]** en el Generador de audiencias.
+   1. Arrastrar y soltar **[!UICONTROL Explorador]** en el Generador de audiencias.
 
       ![Reglas > Explorador](assets/target_browser.png)
 
@@ -52,7 +52,7 @@ Hay dos formar de segmentar según el navegador:
    1. (Opcional) Configure reglas adicionales para la audiencia.
    1. Haga clic en **[!UICONTROL Finalizado]**.
 
-   El siguiente ejemplo muestra una audiencia que incluye a usuarios de Microsoft Edge en las versiones 91 o 92:
+   El siguiente ejemplo muestra una audiencia que incluye a los usuarios de Microsoft Edge en las versiones 91 o 92:
 
    ![Target Edge 91 o 92](assets/target_edge.png)
 

@@ -1,7 +1,7 @@
 ---
 keywords: compositor de experiencias visuales;prácticas recomendadas del compositor de experiencias visuales;limitaciones del compositor de experiencias visuales;advertencias del compositor de experiencias visuales;prácticas recomendadas del vec;vec
-description: Conozca las prácticas recomendadas para hacer que sus experiencias funcionen correctamente al usar el Compositor de experiencias visuales (VEC) en Adobe Target.
-title: ¿Cuáles son las prácticas recomendadas y limitaciones del Compositor de experiencias visuales?
+description: Conozca las prácticas recomendadas para que sus experiencias funcionen según lo esperado al utilizar el Compositor de experiencias visuales (VEC) en Adobe Target.
+title: ¿Cuáles son las prácticas recomendadas y las limitaciones del Compositor de experiencias visuales?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,25 +13,25 @@ ht-degree: 93%
 
 # Prácticas recomendadas y limitaciones del Compositor de experiencias visuales
 
-Estas prácticas recomendadas pueden contribuir a que las experiencias funcionen correctamente. También hay otros consejos y limitaciones que debe tener en cuenta al usar el Compositor de experiencias visuales (VEC) en [!DNL Adobe Target].
+Estas prácticas recomendadas pueden contribuir a que las experiencias funcionen correctamente. También existen otras sugerencias y limitaciones que debe tener en cuenta al usar el Compositor de experiencias visuales (VEC) en [!DNL Adobe Target].
 
 Aplicando estas prácticas recomendadas se reduce la probabilidad de encontrar problemas inesperados en las experiencias que diseñe.
 
 ## Prácticas recomendadas   {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Coloque la referencia de at.js en la parte superior del `<head>` de su página.**
+**Coloque la referencia de at.js en la parte superior de la `<head>` de la página.**
 
 Si también utiliza el servicio de API de visitante, coloque el script de la API de visitante encima de at.js.
 
 **Puede habilitar el Compositor de experiencias mejorado en la cuenta (se habilitará en todas las actividades de la cuenta) o en cada actividad por separado.**
 
-Para habilitar el Compositor de experiencias mejorado en la cuenta, haga clic en [!UICONTROL Administración > Compositor de experiencias visuales]y, a continuación, coloque el interruptor en la posición Activado.
+Para habilitar el Compositor de experiencias mejorado en una cuenta, haga clic en [!UICONTROL Administración > Compositor de experiencias visuales]A continuación, coloque el interruptor en la posición ON.
 
 Para habilitar el Compositor de experiencias mejorado en una actividad al crearla en el Compositor de experiencias visuales, haga clic en [!UICONTROL Configurar > Dirección URL] y coloque el conmutador en la posición Activado.
 
-**Si el Compositor de experiencias visuales mejorado no se carga en las páginas seguras de su sitio, puede realizar la lista de permitidos de ciertas direcciones IP.**
+**Puede crear listas de permitidos de determinadas direcciones IP si el Compositor de experiencias visuales mejorado no se carga en las páginas seguras del sitio.**
 
-Los problemas que surgen al cargar el Compositor de experiencias visuales mejoradas se pueden resolver mediante la inclusión en la lista de permitidos de las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los visitantes del sitio no necesitan estas direcciones IP incluidas en la lista de permitidos.
+Los problemas al cargar el Compositor de experiencias visuales mejorado se pueden resolver mediante la inclusión en la lista de permitidos de las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los visitantes del sitio no necesitan estas direcciones IP incluidas en la lista de permitidos.
 
 Estados Unidos: 52.55.99.45, 54.80.158.92 y 54.204.197.253
 

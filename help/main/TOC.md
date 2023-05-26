@@ -13,7 +13,7 @@ ht-degree: 95%
 
 # Guía para profesionales de Adobe Target Business {#using}
 
-+ [Página de inicio de la guía para profesionales de Adobe Target Business](target-home.md)
++ [Guía para profesionales de Adobe Target Business](target-home.md)
 + Notas de la versión de Target {#release-notes}
    + [Anuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md)
    + [Notas de la versión de Target (actual)](r-release-notes/release-notes.md)
@@ -92,13 +92,13 @@ ht-degree: 95%
    + Integración de Target con Adobe Journey Optimizer (AJO) {#ajo}
       + [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Integración de Target con Adobe Experience Manager (AEM) {#aem}
-      + [Información general sobre la integración de Target con AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+   + Integración de Target con Adobe Experience Manager AEM () {#aem}
+      + [AEM Información general sobre la integración de Target con](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Fragmentos de experiencias y fragmentos de contenido {#fragments}
          + [Información general de fragmentos de experiencias y fragmentos de contenido de AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Fragmentos de experiencia de AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [Fragmentos de contenido de AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
-   + [Integración de Target con Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Integración de Target con Adobe Audience Manager AAM ()](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integración con Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integración de Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Actividades {#activities}
@@ -126,7 +126,7 @@ ht-degree: 95%
    + Segmentación automática {#auto-target}
       + [Información general sobre la segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [Creación de una actividad de segmentación automática](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [Preguntas frecuentes y solución de problemas de la segmentación automática](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [Preguntas frecuentes y solución de problemas sobre la segmentación automática](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Informes y segmentación automática](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Información general sobre la Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
@@ -253,7 +253,7 @@ ht-degree: 95%
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Búsqueda de contenido](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transmisión dinámica de datos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [Fragmentos de contenido y experiencia AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM Fragmentos de contenido y experiencia de](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Informes {#reports}
    + [Información general sobre informes](c-reports/reports.md)
    + Configuración del informe {#settings}
@@ -270,7 +270,7 @@ ht-degree: 95%
       + [Información general sobre los informes de Perspectivas de personalización](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Informe Segmentos automatizados](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Informe Atributos importantes](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + Informes de pruebas multivariable {#multivariate-test-reports}
+   + Informes de prueba multivariable {#multivariate-test-reports}
       + [Informe Rendimiento de las experiencias (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
       + [Informe Contribución de ubicación (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Creación de informes en Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)

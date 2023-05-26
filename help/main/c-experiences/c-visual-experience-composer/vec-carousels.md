@@ -13,7 +13,7 @@ ht-degree: 70%
 
 # Crear carruseles que funcionen en el Compositor de experiencias visuales
 
-Este tema muestra cómo crear un carrusel que se pueda editar en la variable [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC).
+En este tema se muestra cómo crear un carrusel que se pueda editar en [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC).
 
 Cuando se siguen los pasos descritos a continuación, [!DNL Target] siempre sabe que la diapositiva seleccionada tendrá el “selector” de la diapositiva correcta aunque, pasados unos segundos, se cambie en el Compositor de experiencias visuales.
 

@@ -14,9 +14,9 @@ ht-degree: 57%
 
 # Configuración del Compositor de experiencias visuales
 
-Configure las variables [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) especificando su configuración general, la configuración de las ventanillas móviles y los selectores CSS.
+Configure las variables [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) especificando su configuración general, la configuración de la ventanilla móvil y los selectores CSS.
 
-Para acceder a la [!UICONTROL Compositor de experiencias visuales] página de configuración, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales].**
+Para acceder a [!UICONTROL Compositor de experiencias visuales] , haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Compositor de experiencias visuales].**
 
 >[!NOTE]
 >
@@ -32,38 +32,38 @@ Puede especificar la configuración general del Compositor de experiencias visua
 
 Las configuraciones disponibles son las siguientes:
 
-### Dirección URL predeterminada
+### URL predeterminada
 
 La dirección URL predeterminada que utiliza el [!UICONTROL Compositor de experiencias visuales]. Esta es la página predeterminada, como la página principal, que se utiliza siempre que quiere configurar una experiencia para cada nueva actividad. Si no establece una URL predeterminada, tiene que escribir una URL para cada actividad en el momento de la creación.
 
 ### Activar el compositor de experiencias mejorado {#eec}
 
-Permite editar en sitios con eliminación de iFrames y sitios con contenido mixto. Es posible que algunos sitios no sean compatibles con la versión mejorada. Anule la selección de esta opción para revertir al original [!UICONTROL Compositor de experiencias visuales]. La publicación de actividades en los sitios no se verá afectada por esta opción.
+Permite editar en sitios con eliminación de iFrames y sitios con contenido mixto. Es posible que algunos sitios no sean compatibles con la versión mejorada. Anule la selección de esta opción para volver al original [!UICONTROL Compositor de experiencias visuales]. La publicación de actividades en los sitios no se verá afectada por esta opción.
 
 Para obtener más información, consulte [Solución de problemas del Compositor de experiencias visuales.](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 
-También puede habilitar la variable [!UICONTROL Compositor de experiencias mejorado] en el nivel de actividad.
+También puede activar la variable [!UICONTROL Compositor de experiencias mejorado] en el nivel de actividad.
 
 ### Cargar contenido combinado
 
-Habilite el contenido mixto al abrir un sitio web mediante el [!UICONTROL Compositor de experiencias mejorado] (CEE) Al habilitar esta opción, se evita la sobrecarga adicional de cargar recursos estáticos mediante [!DNL Target] servidores proxy.
+Habilite el contenido combinado al abrir un sitio web mediante [!UICONTROL Compositor de experiencias mejorado] (CEE). Al habilitar esta opción, se evitará una carga excesiva de recursos estáticos mediante [!DNL Target] servidores proxy.
 
 Esta opción resulta útil si, por ejemplo:
 
-* Los encabezados Content Security Policy (CSP) permiten cargar contenido mixto sin el uso de servidores proxy con el EEC habilitado.
-* El sitio web HTTP tiene una mayor cantidad de tiempo de carga en el EEC, donde JavaScript, imágenes, etc. tardan más en cargarse mediante proxy.
+* Los encabezados de la Política de seguridad de contenido (CSP) permiten cargar contenido mixto sin el uso de servidores proxy con el EEC habilitado.
+* El sitio web HTTP tiene una mayor cantidad de tiempo de carga en el EEC, donde JavaScript, imágenes, etc. tardan más de lo esperado en cargarse mediante proxy.
 
-### Generar instantáneas de experiencia en el diagrama de flujo de actividad
+### Cree instantáneas de experiencias en el diagrama de flujo de las actividades
 
 Cuando se habilitan las instantáneas de experiencia, se generan miniaturas de las experiencias en el diagrama de flujo de trabajo de la actividad. Si deshabilita las instantáneas, podría obtener un rendimiento más rápido para algunos usuarios.
 
-##  [!BADGE premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Consulte los elementos incluidos en Target Premium."}
+##  [!BADGE premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."}
 
 Puede añadir dispositivos para usarlos al obtener una vista previa de las experiencias. Cada dispositivo tiene una audiencia asociada.
 
-![Sección Configuración de las ventanillas móviles](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![Sección Configuración de ventanillas móviles](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-Haga clic en **[!UICONTROL Agregar]**, especifique un nombre descriptivo para la ventanilla móvil, especifique la anchura y la altura, seleccione el sistema operativo deseado y haga clic en [!UICONTROL Guardar].
+Clic **[!UICONTROL Añadir]**, especifique un nombre descriptivo para la ventanilla móvil, especifique la anchura y la altura, seleccione el sistema operativo que desee y haga clic en [!UICONTROL Guardar].
 
 Si desea información sobre cómo añadir una ventanilla móvil, consulte [Configuración de la ventanilla móvil](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -93,7 +93,7 @@ Puede anular esta configuración por actividad (haga clic en el icono de engrana
 
 >[!NOTE]
 >
->La anulación de la configuración por actividad no está disponible en [!UICONTROL Automated Personalization] y [!UICONTROL Multivariate Testing] actividades.  Consulte [Selectores de elementos utilizados en el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) para obtener información adicional sobre selectores.
+>No se puede anular la configuración por actividad en [!UICONTROL Automated Personalization] y [!UICONTROL Multivariate Testing] actividades.  Consulte [Selectores de elementos utilizados en el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) para obtener información adicional sobre selectores.
 
 ## Vídeo de formación: Preferencias de cuenta (7:33) ![Distintivo Información general](/help/main/assets/overview.png)
 

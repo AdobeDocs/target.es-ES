@@ -165,7 +165,7 @@ Pero ¿qué sucede si la dirección URL contiene parámetros de cadena de consul
 
 Se pueden utilizar las siguientes opciones para incluir reglas de plantilla adicionales:
 
-### Opción 1: Repita la dirección URL y manténgala en la regla de plantilla con la opción &quot;contiene&quot;.
+### Opción 1: Replique la dirección URL y manténgala en la regla de plantilla con la opción &quot;contiene&quot;.
 
 Esta opción garantiza que esta dirección URL cumpla los requisitos de la actividad, pero tenga en cuenta que hay casos límite que pueden influir en los datos de informes con registros adicionales a las direcciones URL que contienen la dirección URL base.
 
@@ -173,7 +173,7 @@ En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20O
 
 ![Replicación de URL en reglas de plantilla](assets/option1.png)
 
-### Opción 2: Restringir la condición &quot;contiene&quot; de la dirección URL con solo la cadena de consulta.
+### Opción 2: Restrinja la condición &quot;contiene&quot; de la dirección URL con solo la cadena de consulta.
 
 El caso límite que se discute en la opción anterior se aplica en esta opción, pero aquí la configuración condicional está limitada únicamente a la cadena de consulta.
 
@@ -187,9 +187,9 @@ En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20O
 
 ![Regla de plantilla que aprovecha una parte específica de la URL](assets/option3.png)
 
-## Aplicar comillas dobles al escape [!DNL Target] el valor de atributo de perfil no funciona como se esperaba. {#escape}
+## Escape de comillas dobles en [!DNL Target] el valor del atributo de perfil no funciona como se esperaba. {#escape}
 
-Cuando envía valores que contienen comillas dobles en un [!DNL Target] atributo de perfil, debe omitirlo dos veces como se muestra a continuación.
+Cuando envía valores que contienen comillas dobles en una [!DNL Target] atributo de perfil, debe omitirlo dos veces como se muestra a continuación.
 
 ```
 adobe.target.trackEvent({

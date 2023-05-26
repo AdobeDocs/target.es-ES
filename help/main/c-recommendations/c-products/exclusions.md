@@ -1,29 +1,29 @@
 ---
 keywords: exclusiones
-description: Obtenga información sobre cómo crear exclusiones en Adobe [!DNL Target] Recommendations para evitar que se recomienden productos o contenido a los visitantes.
-title: ¿Cómo utilizo las exclusiones en actividades de Recommendations?
+description: Obtenga información sobre cómo crear exclusiones en Adobe [!DNL Target] Recommendations para evitar que los productos o el contenido se recomienden a los visitantes.
+title: ¿Cómo utilizo las exclusiones en las actividades de Recommendations?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 43%
+ht-degree: 44%
 
 ---
 
 # Exclusiones
 
-Crear una exclusión en [!DNL Adobe Target Recommendations] para evitar que se recomienden productos o contenido a los visitantes. Una exclusión es un subconjunto de productos o contenido que no se debe recomendar a los visitantes.
+Creación de una exclusión en [!DNL Adobe Target Recommendations] para evitar que se recomienden productos o contenido a los visitantes. Una exclusión es un subconjunto de productos o contenido que no debe recomendarse a los visitantes.
 
-Las exclusiones están disponibles en toda la cuenta. A diferencia de las colecciones, donde especifica una colección específica para cada experiencia a medida que crea un [!UICONTROL Recommendations] actividad, las exclusiones se aplican a todas las actividades de la cuenta. No existe la opción de asignar un grupo de exclusión durante la creación de la actividad.
+Las exclusiones están disponibles en toda la cuenta. A diferencia de las colecciones, donde especifica una colección específica para cada experiencia al crear una [!UICONTROL Recommendations] actividad, las exclusiones se aplican a todas las actividades de la cuenta. No hay ninguna opción para asignar un grupo de exclusión durante la creación de la actividad.
 
-Algunos ejemplos de veces que se utilizarían exclusiones son:
+A continuación, mostramos algunos ejemplos de uso de exclusiones:
 
-* Productos que se han interrumpido
-* El catálogo de otoño/invierno es ahora el único catálogo que debería estar presente en línea. Cualquier artículo del catálogo de verano ya no está disponible para su compra.
-* Elementos que pueden no ser apropiados para recomendar en la mayoría de páginas o pantallas (productos para adultos, películas NC-17, etc.)
-* Productos con campos de metadatos incompletos (falta la miniatura, el precio u otros metadatos importantes)
-* Productos que nunca deben recomendarse (puede que exista un SKU en el sistema para algo, pero no es un artículo que se puede comprar, o puede que sea un SKU falso para que el equipo de control de calidad simule una compra sin pedir realmente algo, etc.)
+* Productos que se han suspendido
+* El catálogo de otoño/invierno es ahora el único catálogo que debería estar presente en línea. Cualquier artículo del catálogo de verano ya no está disponible para adquirir.
+* Artículos que pueden ser inadecuados para recomendar en la mayoría de las páginas o pantallas (productos para adultos, películas NC-17, etc.)
+* Productos con campos de metadatos incompletos (faltan miniaturas, precios u otros metadatos importantes)
+* Productos que nunca se deben recomendar (puede que exista un SKU en el sistema para algo, pero no es un artículo que se pueda comprar, o puede que sea un SKU falso para que el equipo de control de calidad simule una compra sin realmente pedir algo, etc.)
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Algunos ejemplos de veces que se utilizarían exclusiones son:
 
    ![imagen exclusions_list](assets/exclusions_list.png)
 
-   El “Número de elementos” registrado para cada exclusión en la vista de la lista [!UICONTROL Exclusiones] es el número de productos que coinciden con las reglas para esa exclusión en el [grupo de hosts](/help/main/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html).{target=_blank}
+   El “Número de elementos” registrado para cada exclusión en la vista de la lista [!UICONTROL Exclusiones] es el número de productos que coinciden con las reglas para esa exclusión en el [grupo de hosts](/help/main/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es).{target=_blank}
 
 1. Haga clic en **[!UICONTROL Crear exclusión]**.
 
@@ -55,7 +55,7 @@ Algunos ejemplos de veces que se utilizarían exclusiones son:
 
 ## Cree una exclusión con Búsqueda avanzada
 
-También puede crear exclusiones utilizando [!UICONTROL Búsqueda avanzada] en el [Buscar en el catálogo](/help/main/c-recommendations/c-products/catalog-search.md#save-as) página ( [!UICONTROL Recommendations] > [!UICONTROL Buscar en el catálogo] > [!UICONTROL Búsqueda avanzada]).
+También puede crear exclusiones utilizando [!UICONTROL Búsqueda avanzada] en el [Búsqueda en catálogo](/help/main/c-recommendations/c-products/catalog-search.md#save-as) página ( [!UICONTROL Recommendations] > [!UICONTROL Búsqueda en catálogo] > [!UICONTROL Búsqueda avanzada]).
 
 ![Guardar como cuadro de diálogo](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -63,19 +63,19 @@ Después de crear una búsqueda utilizando “id > contiene”, por ejemplo, pue
 
 >[!IMPORTANT]
 >
->La variable [!UICONTROL Búsqueda avanzada] no distingue entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que distingue entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear exclusiones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea una exclusión con la intención de excluir productos que contengan “vacaciones”, solo se excluirán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
+>El [!UICONTROL Búsqueda avanzada] no distingue entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que distingue entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta las mayúsculas y minúsculas al crear exclusiones basadas en resultados que utilizan la funcionalidad Búsqueda avanzada. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea una exclusión con la intención de excluir productos que contengan “vacaciones”, solo se excluirán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”.
 
 ## Editar, copiar o eliminar una exclusión
 
-Pase el ratón sobre la exclusión que quiera de la lista y luego haga clic en el icono correspondiente: editar, copiar o eliminar.
+Pase el ratón sobre la exclusión que quiera en la lista y luego haga clic en el icono correspondiente: editar, copiar o eliminar.
 
-![Iconos al pasar el ratón por encima para una exclusión](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
+![Iconos de desplazamiento de una exclusión](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
 
-Puede copiar una exclusión existente para crear una exclusión duplicada que luego pueda modificar. Esto permite crear una exclusión similar con menos esfuerzo.
+Puede copiar una exclusión existente para crear una exclusión duplicada que luego puede modificar. Esto permite crear una exclusión similar con menos esfuerzo.
 
 Tenga en cuenta que las exclusiones están disponibles en toda la cuenta. Asegúrese de tener esto en cuenta antes de eliminar una exclusión. Las exclusiones eliminadas no se pueden recuperar.
 
-## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05) ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 

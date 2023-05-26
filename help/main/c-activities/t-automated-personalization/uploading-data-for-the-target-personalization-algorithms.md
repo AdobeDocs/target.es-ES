@@ -1,6 +1,6 @@
 ---
-keywords: Automated Personalization;ap;cargar datos;datos sin conexión;algoritmo de personalización;segmentación automática;prácticas recomendadas
-description: Aprenda a cargar datos sin conexión, como información de CRM, al crear modelos de personalización en Adobe [!DNL Target] Actividades de Automated Personalization (AP).
+keywords: Automated Personalization;aplicación;cargar datos;datos sin conexión;algoritmo de personalización;segmentación automática;segmentación automática;prácticas recomendadas
+description: Obtenga información sobre cómo cargar datos sin conexión, como información de CRM, al crear modelos de personalización en Adobe [!DNL Target] Actividades de Automated Personalization (AP).
 title: ¿Cómo puedo cargar datos para algoritmos de personalización?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
@@ -13,9 +13,9 @@ ht-degree: 37%
 
 # Carga de datos para [!DNL Target] algoritmos de personalización
 
-Los datos sin conexión, como la información de CRM o las puntuaciones de inclinación de cancelación por parte del cliente, pueden ser muy valiosos al crear modelos de personalización en [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
+Los datos sin conexión, como información de CRM o puntuaciones de inclinación de cancelación por parte del cliente, pueden ser muy valiosos al crear modelos de personalización en [!DNL Adobe Target] [!UICONTROL Automated Personalization] Actividades de (AP).
 
-Hay muchas maneras de introducir datos en los algoritmos de personalización de [!UICONTROL Personalización automatizada](AP) y de [!UICONTROL Segmentación automática. ] Además de los métodos indicados en [Métodos para obtener los datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}, Experience Cloud shared audiences (Adobe Analytics, Audience Management){target=_blank} y las audiencias de informes de actividad también se utilizan en nuestros algoritmos.
+Hay muchas maneras de introducir datos en los algoritmos de personalización de [!UICONTROL Personalización automatizada](AP) y de [!UICONTROL Segmentación automática. ] Además de los métodos indicados en [Métodos para obtener los datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}, Experience Cloud shared audiences (Adobe Analytics, Audience Management){target=_blank} y las audiencias de informes en la actividad también se usan en nuestros algoritmos.
 
 Para obtener información sobre los datos que los algoritmos de Personalización automatizada y de Segmentación automática recopilan y utilizan automáticamente, consulte [Recopilación de datos de personalización automatizada](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

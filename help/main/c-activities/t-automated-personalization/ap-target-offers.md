@@ -1,7 +1,7 @@
 ---
-keywords: personalización automatizada;ofertas;segmentación;audiencia;reglas de segmentación;segmentación
-description: Aprenda a segmentar ofertas individuales para audiencias específicas mediante una actividad de Automated Personalization (AP) en Adobe Target.
-title: ¿Cómo puedo? [!DNL Target] ¿Ofertas de Automated Personalization?
+keywords: personalización automatizada;ofertas;target;audiencia;reglas de segmentación;segmentación
+description: Obtenga información sobre cómo segmentar ofertas individuales para audiencias específicas mediante una actividad de Automated Personalization (AP) en Adobe Target.
+title: ¿Cómo puedo [!DNL Target] ¿Ofertas de Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 # [!DNL Target] Ofertas de Automated Personalization
 
-En un [!DNL Adobe Target] [!DNL Automated Personalization] (AP), puede segmentar ofertas para audiencias específicas.
+En un [!DNL Adobe Target] [!DNL Automated Personalization] (AP) , puede segmentar ofertas para audiencias específicas.
 
 El uso de esta funcionalidad reduce el número de ofertas que un visitante específico puede ver. Por ejemplo, considere una actividad de AP con tres ofertas. La oferta 1 tiene una regla de segmentación que limita su exposición a la audiencia A. Dos visitantes vieron esta actividad de AP.
 

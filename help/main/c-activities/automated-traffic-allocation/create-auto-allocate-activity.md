@@ -1,6 +1,6 @@
 ---
-keywords: crear asignación automática;prueba A/B;actividad de asignación automática;nueva actividad a/b;asignación automática;asignación automática a la mejor experiencia;asignación;asignación automática
-description: Aprenda a usar el Compositor de experiencias visuales (VEC) en Adobe [!DNL Target] para crear una actividad de prueba A/B de asignación automática directamente en una [!DNL Target]-habilitada.
+keywords: crear asignación automática;prueba A/B;actividad de asignación automática;nueva actividad a/b;asignación automática;asignación automática a la mejor experiencia;asignar;asignación automática
+description: Aprenda a utilizar el Compositor de experiencias visuales (VEC) en Adobe [!DNL Target] para crear una actividad de prueba A/B de asignación automática directamente en una [!DNL Target]página habilitada para.
 title: ¿Cómo creo una actividad de asignación automática?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
@@ -13,13 +13,13 @@ ht-degree: 57%
 
 # Creación de una actividad de asignación automática
 
-Utilice la variable [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] para crear su [!UICONTROL Asignación automática] [!UICONTROL Prueba A/B] actividad directamente en un [!DNL Target]-página habilitada y para modificar partes de la página en [!DNL Target].
+Utilice el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] para crear su [!UICONTROL Asignación automática] [!UICONTROL Prueba A/B] actividad directamente en una [!DNL Target]página habilitada para y para modificar partes de la página en [!DNL Target].
 
 >[!NOTE]
 >
->Además del [!UICONTROL Asignación automática] [!UICONTROL Prueba A/B] actividad (analizada en este artículo), [!DNL Target] proporciona dos tipos adicionales de [!UICONTROL Prueba A/B] actividades: [!UICONTROL Manual (predeterminado)] y [!UICONTROL Segmentación automática].
+>Además de las [!UICONTROL Asignación automática] [!UICONTROL Prueba A/B] actividad (que se analiza en este artículo), [!DNL Target] proporciona dos tipos adicionales de [!UICONTROL Prueba A/B] actividades: [!UICONTROL Manual (predeterminado)] y [!UICONTROL Segmentación automática].
 >
->Consulte [Tipos de actividades de prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) en *Información general sobre la prueba A/B*.
+>Consulte [Tipos de actividades de prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) in *Información general sobre las pruebas A/B*.
 
 Para crear un [!UICONTROL Asignación automática] actividad:
 
@@ -37,7 +37,7 @@ Para crear un [!UICONTROL Asignación automática] actividad:
 
    ![Crear actividad de prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-   Si prefiere usar la variable [!UICONTROL Compositor de experiencias basadas en formularios], seleccione [!UICONTROL Formulario]. Consulte [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) para obtener más información.
+   Si prefiere usar la variable [!UICONTROL Compositor de experiencias basadas en formularios], seleccione [!UICONTROL Form]. Consulte [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) para obtener más información.
 
    >[!NOTE]
    >
@@ -84,9 +84,9 @@ Para crear un [!UICONTROL Asignación automática] actividad:
 
    El diagrama de flujo le guía durante el procedimiento para seleccionar una audiencia para la actividad y configurar las experiencias.
 
-1. En el [!UICONTROL Audiencia] , haga clic en el icono de edición (tres elipses verticales) y haga clic en **[!UICONTROL Reemplazar audiencia]**, luego [seleccionar la audiencia](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) para su actividad.
+1. En el [!UICONTROL Audiencia] , haga clic en el icono editar (tres elipses verticales) y, a continuación, haga clic en **[!UICONTROL Reemplazar audiencia]**, entonces [seleccionar la audiencia](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) para su actividad de.
 
-   De forma predeterminada, la audiencia está configurada en [!UICONTROL Todos los visitantes].
+   De forma predeterminada, la audiencia se establece en [!UICONTROL Todos los visitantes].
 
 1. Elija el porcentaje de visitantes correspondiente que desea que participen de la actividad.
 
@@ -98,7 +98,7 @@ Para crear un [!UICONTROL Asignación automática] actividad:
 
    Se pueden mostrar varias experiencias a la misma audiencia. La audiencia seleccionada se mostrará en un diagrama junto con las experiencias que haya añadido a la actividad.
 
-   Elija el método de asignación de tráfico que desee. Para crear un [!UICONTROL Asignación automática] actividad, seleccione **[!UICONTROL Asignar automáticamente a la mejor experiencia]**.
+   Elija el método de asignación de tráfico que desee. Para crear un [!UICONTROL Asignación automática] actividad, seleccione **[!UICONTROL Asignación automática a la mejor experiencia]**.
 
    A continuación se describen los tres tipos de asignación de tráfico:
 
@@ -106,10 +106,10 @@ Para crear un [!UICONTROL Asignación automática] actividad:
 
    * **[!UICONTROL Asignar automáticamente a la mejor experiencia]**: La mayoría de los visitantes de la actividad se dirigen automáticamente a experiencias de mejor rendimiento. Algunos visitantes se asignan a todas las experiencias para mantener la exploración de las experiencias y para detectar cambios en las tendencias de rendimiento.
 
-   * **[!UICONTROL Segmentación automática para experiencias personalizadas]**: [!DNL Target] utiliza aprendizaje automático avanzado para personalizar el contenido y dirigir las conversiones identificando múltiples experiencias de alto rendimiento definidas por expertos en marketing, y sirviendo la experiencia más adaptada a los visitantes en función de sus perfiles de cliente y del comportamiento pasado de visitantes similares. Para obtener más información, consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
-   También puede hacer clic en **[!UICONTROL Agregar]** para agregar otra experiencia a la actividad.
+   * **[!UICONTROL Segmentación automática para experiencias personalizadas]**: [!DNL Target] utiliza aprendizaje automático avanzado para personalizar el contenido y dirigir las conversiones identificando múltiples experiencias de alto rendimiento definidas por expertos en marketing; y sirve las experiencias más adaptadas a los visitantes en función de sus perfiles de cliente y del comportamiento pasado de visitantes similares. Para obtener más información, consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+   También puede hacer clic en **[!UICONTROL Añadir]** para añadir otra experiencia a la actividad.
 
-1. Cuando esté satisfecho con las opciones de audiencia, experiencia y asignación de tráfico, haga clic en **[!UICONTROL Siguiente]** para pasar al tercer paso del flujo de trabajo guiado de tres pasos.
+1. Cuando esté satisfecho con las opciones de asignación de audiencia, experiencia y tráfico, haga clic en **[!UICONTROL Siguiente]** para pasar al tercer paso del flujo de trabajo guiado de tres pasos.
 
 1. Especifique los [objetivos y la configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) para la actividad.
 
@@ -117,17 +117,17 @@ Para crear un [!UICONTROL Asignación automática] actividad:
 
    >[!NOTE]
    >
-   >Si desea utilizar [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) con esta actividad, consulte información importante en [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+   >Si desea utilizar [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) con esta actividad, consulte información importante en [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
-1. Haga clic en **[!UICONTROL Guardar y cerrar]** o **[!UICONTROL Guardar]**.
+1. Clic **[!UICONTROL Guardar y cerrar]** o **[!UICONTROL Guardar]**.
 
-Después de crear la actividad, la variable [!UICONTROL Información general] muestra información sobre la actividad, incluido un diagrama de la actividad.
+Después de crear la actividad, las variables [!UICONTROL Información general] La pestaña muestra información sobre la actividad, incluido un diagrama de la actividad.
 
-## Vídeo de formación: Creación de pruebas A/B (8:36) ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+## Vídeo de formación: Creación de pruebas A/B (8:36). ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de trabajo guiado de tres pasos de [!DNL Target].
 
-* Cree un [!UICONTROL Prueba A/B] actividad en [!DNL Adobe Target]
+* Crear un [!UICONTROL Prueba A/B] actividad en [!DNL Adobe Target]
 * Asignar tráfico usando una división manual o una asignación automática
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)

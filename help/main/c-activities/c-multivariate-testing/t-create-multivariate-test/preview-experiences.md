@@ -1,7 +1,7 @@
 ---
 keywords: multivariable;mvt;vista previa;experiencias
-description: Obtenga información sobre cómo previsualizar cada experiencia en una actividad de prueba multivariable (MVT) en Adobe [!DNL Target] usar el Compositor de experiencias visuales (VEC).
-title: Cómo puedo previsualizar experiencias para una prueba multivariable (MVT)
+description: Obtenga información sobre cómo obtener una vista previa de cada experiencia en una actividad de prueba multivariable (MVT) en Adobe [!DNL Target] uso del Compositor de experiencias visuales (VEC).
+title: ¿Cómo puedo obtener una vista previa de las experiencias de una prueba multivariable (MVT)?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,13 +13,13 @@ ht-degree: 67%
 
 # Previsualizar experiencias para una prueba multivariable
 
-Porque [!UICONTROL Prueba multivariable] en [!DNL Adobe Target] compara varias experiencias en una página; resulta útil previsualizar la página con cada experiencia.
+Debido a un [!UICONTROL Prueba multivariable] in [!DNL Adobe Target] compara varias experiencias en una página, resulta útil previsualizar la página con cada experiencia.
 
-1. En el Compositor de experiencias visuales (VEC), haga clic en **[!UICONTROL Vista previa]**.
+1. En el Compositor de experiencias visuales (VEC), haga clic en **[!UICONTROL Previsualizar]**.
 
    Se muestra una lista de todas las experiencias.
 
-   ![imagen de vista previa](assets/preview.png)
+   ![previsualizar imagen](assets/preview.png)
 
 1. Haga clic en una experiencia de la lista para verla.
 

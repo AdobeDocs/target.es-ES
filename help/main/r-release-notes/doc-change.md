@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: e4029b203ad4d7c1ea12ba04f72628b272703973
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2798'
 ht-degree: 95%
 
 ---
@@ -14,14 +14,6 @@ ht-degree: 95%
 # Cambios de la documentación
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
-
-## [!DNL Target] Estándar/Premium 23.5.1 (23-25 de mayo de 2023)
-
-| Fecha | Tema | Cambios |
-| --- | --- | --- |
-| 23 de mayo | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=es){target=_blank} | Se ha actualizado la nota importante. |
-|  | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de próximas versiones. |
-|  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.5.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.4.1 (25-27 de abril de 2023)
 

@@ -1,7 +1,7 @@
 ---
 keywords: configuración;prioridad
-description: Descubra cómo Adobe [!DNL Target] determina qué actividad (o actividades) se ofrecen en una página de forma diferente en función de cuál [!DNL Target] y qué función de creación de actividades está utilizando.
-title: How [!DNL Target] ¿Asignar prioridad a diferentes actividades?
+description: Descubra cómo Adobe [!DNL Target] determina qué actividad (o actividades) se envía a una página de forma diferente en función de cuál [!DNL Target] y qué función de creación de actividades está utilizando.
+title: ¿Cómo [!DNL Target] ¿Asignar prioridad a diferentes actividades?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 Target determina qué actividad (o actividades) ofrece en una página de forma diferente en función de qué interfaz de Target y de qué función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) esté usando.
 
-## Solo compositor de experiencias visuales de Target Standard/Premium o solo compositor basado en formularios utilizando global [!DNL Target] Solo solicitud {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Solo Compositor de experiencias visuales de Target Standard/Premium o Compositor basado en formularios usando Global [!DNL Target] Solo solicitud {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor de experiencias visuales, se puede devolver el contenido de varias actividades para la misma llamada. Las actividades se ofrecen según el siguiente flujo de decisiones:
 
@@ -39,7 +39,7 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
    * Si solo una actividad tiene segmentación de la audiencia, se muestra esa actividad.
    * Si todas o ninguna tienen segmentación, se muestra la actividad que se aprobó en primer lugar.
 
-## Compositor basado en formularios de Target Standard/Premium y [!DNL Target] Compositor de experiencias visuales Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
+## Compositor basado en formularios de Target Standard/Premium y [!DNL Target] Compositor de experiencias visuales de Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
 
 Si en su empresa se utiliza el compositor basado en formularios en Target Standard/Premium y el Compositor de experiencias visuales en Target Standard/Premium, se puede ofrecer el contenido de varias actividades del Compositor de experiencias visuales, pero solo una actividad del flujo de trabajo basado en formularios. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
-1. La llamada del servidor de Target llega a Target con información sobre [!DNL Target] solicitud y dirección URL.
+1. La llamada al servidor de Target llega a Target con información sobre [!DNL Target] solicitud y URL.
 1. Target Classic y Standard extraen todas las actividades que se ejecutan en ese [!DNL Target] solicitud.
 1. Target intenta relacionar al visitante con actividades.
 
@@ -64,16 +64,16 @@ Si tiene dos actividades, una que segmenta por la palabra clave de búsqueda por
 
 Si ambas actividades segmentadas tienen la misma prioridad, se muestra la última actividad que se vio. Si el visitante es nuevo en la página, se muestra la última actividad que se activó.
 
-## Compositor basado en formularios de Target Standard/Premium con soluciones no globales [!DNL Target] Solicitudes {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositor basado en formularios de Target Standard/Premium con compatibilidad no global [!DNL Target] Solicitudes {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Esta información también se aplica a cualquier campaña en ejecución creada en Target Classic.
 
-Si su empresa utiliza [!DNL Target] otras solicitudes que no sean globales [!DNL Target] en el compositor basado en formularios, solo se puede devolver contenido de una actividad por llamada. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
+Si su empresa utiliza [!DNL Target] solicitudes distintas de la global [!DNL Target] solicitud en el compositor basado en formularios, solo se puede devolver contenido de una actividad por llamada. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
-1. La variable [!DNL Target] la llamada al servidor llega a [!DNL Target] con información sobre [!DNL Target] solicitud y dirección URL.
-1. [!DNL Target] extrae todas las actividades que se ejecutan en que [!DNL Target] solicitud.
+1. El [!DNL Target] la llamada al servidor llega a [!DNL Target] con información acerca de [!DNL Target] solicitud y URL.
+1. [!DNL Target] extrae todas las actividades que se ejecutan en [!DNL Target] solicitud.
 1. [!DNL Target] intenta relacionar al visitante con la actividad de mayor prioridad.
 
    Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
@@ -89,7 +89,7 @@ Si su empresa utiliza [!DNL Target] otras solicitudes que no sean globales [!DNL
 >
 >Los valores de prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. Para obtener más información, consulte  [Configuración de actividades](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Dos campañas de Target Classic usan solicitudes de Target que no son globales**
+**Dos campañas de Target Classic usan solicitudes de Target no globales**
 
 * Campaña 1: homePageHero, offer1, prioridad alta
 * Campaña 2: homePageHero, offer2, prioridad baja

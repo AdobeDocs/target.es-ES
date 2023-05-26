@@ -1,7 +1,7 @@
 ---
 keywords: Analytics como fuente de informes;a4t;A4T;requisitos
 description: Obtenga información sobre cómo configurar los requisitos de cuenta de usuario necesarios para crear una actividad basada en Adobe Analytics en Adobe [!DNL Target] uso de Analytics para [!DNL Target] (A4T).
-title: ¿Qué requisitos de permisos de usuario se necesitan para A4T?
+title: ¿Qué requisitos de permisos de usuario son necesarios para A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
@@ -38,21 +38,21 @@ Para obtener más información, consulte [Administración de usuarios y producto
 
 ## Adobe Analytics   {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Para utilizar A4T en un grupo de informes determinado, debe tener acceso a ese grupo de informes y conceder acceso a la variable [!DNL Web Services Access] grupo.
+Para utilizar A4T en un grupo de informes determinado, debe tener acceso a ese grupo de informes y conceder acceso a [!DNL Web Services Access] grupo.
 
-1. En **[!UICONTROL Admin Console]**, haga clic en [!DNL Analytics] perfil de producto y, a continuación, haga clic en el botón **[!UICONTROL Permisos]** pestaña .
+1. Entrada **[!UICONTROL Admin Console]**, haga clic en una [!DNL Analytics] perfil de producto y, a continuación, haga clic en **[!UICONTROL Permisos]** pestaña.
 
    A continuación, puede ver a qué grupos de informes tiene acceso el perfil.
 
-1. Asegúrese de que el grupo de informes al que desea tener acceso esté en [!DNL Target] es uno de los que aparecen en el perfil de producto del que forma parte.
+1. Asegúrese de que el grupo de informes al que desea tener acceso en [!DNL Target] es uno de los que se enumeran en el perfil de producto del que forma parte.
 
    La siguiente ilustración es un ejemplo de un perfil de producto que tiene acceso a todos los grupos de informes:
 
    ![Pestaña Permiso del Admin Console](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. Configure el acceso a la variable [!UICONTROL Acceso a servicios Web] grupo.
+1. Configuración del acceso a [!UICONTROL Acceso a servicios web] grupo.
 
-   Acceso a [!UICONTROL Acceso a servicios Web] grupo en [!DNL Analytics] es necesario para poder usar [!DNL Analytics] como fuente de informes para [!DNL Target].
+   Acceso a la [!UICONTROL Acceso a servicios web] agrupar en [!DNL Analytics] es necesario para poder utilizar [!DNL Analytics] como fuente de informes para [!DNL Target].
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

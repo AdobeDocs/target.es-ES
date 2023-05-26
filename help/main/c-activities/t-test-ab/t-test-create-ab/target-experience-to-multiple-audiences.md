@@ -1,7 +1,7 @@
 ---
 keywords: varias audiencias;versiones de experiencias;versiones de experiencias de target
 description: Aprenda a dirigir versiones de la misma experiencia a distintas audiencias en Adobe [!DNL Target] Actividades A/B.
-title: ¿Puedo usar varias versiones de una experiencia en una actividad A/B?
+title: ¿Puedo utilizar varias versiones de una experiencia en una actividad A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 # Varias audiencias de una experiencia en una prueba A/B
 
-Puede dirigir versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] Actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
+Puede segmentar versiones de la misma experiencia para distintas audiencias en [!DNL Adobe Target] Actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
 
 Los usuarios pueden cambiar entre audiencias de experiencias a medida que cambian sus perfiles. No están atrapados en la misma experiencia todo el tiempo que dure la actividad.
 
@@ -23,7 +23,7 @@ Si no se pudieran configurar versiones de la experiencia, habría que configurar
 
 Al crear distintas versiones de una experiencia, se recibe información más precisa sin necesidad de cálculos manuales ni conjeturas.
 
-## Situación
+## Escenario
 
 Vamos a probar dos experiencias, un banner con segmentación geográfica y otro genérico. El banner de cada ubicación geográfica tiene que ser distinto, pero la prueba general consiste en determinar si la segmentación geográfica es mejor que mostrar el contenido genérico. Si configuráramos una experiencia distinta para cada ubicación, estaríamos midiendo el rendimiento de cada ubicación en relación con las demás, no si la segmentación geográfica ayuda más que el banner genérico a lograr los objetivos de éxito.
 

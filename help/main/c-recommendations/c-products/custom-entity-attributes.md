@@ -1,7 +1,7 @@
 ---
 keywords: atributos de entidad de varios valores;atributos de entidad personalizados;JSON válido;valor de atributo de entidad;matriz de JSON;varios valores;valores múltiples
-description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los elementos de su Adobe [!DNL Target] catálogo de Recommendations.
-title: ¿Cómo Se Utilizan Los Atributos De Entidad Personalizados?
+description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los elementos del Adobe [!DNL Target] catálogo Recommendations.
+title: ¿Cómo utilizo los atributos de entidad personalizados?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # Atributos de entidad personalizados
 
-Utilice atributos de entidad personalizados de uno o varios valores en [!DNL Adobe Target Recommendations] para definir información adicional sobre los elementos del catálogo.
+Uso de atributos de entidad personalizados de uno o varios valores en [!DNL Adobe Target Recommendations] para definir información adicional sobre los artículos del catálogo.
 
 ## Límites {#limits}
 
@@ -25,7 +25,7 @@ La longitud máxima de los atributos personalizados de entidad de un solo valor 
 
 Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (véase arriba).
 
-## Valores de atributos de entidad personalizados {#section_313331A9F8194A89B5EDD89363018651}
+## Valores de atributo de entidad personalizados {#section_313331A9F8194A89B5EDD89363018651}
 
 Los atributos de entidad personalizados pueden contener uno o varios valores. Los valores de los atributos de entidad se muestran en la vista del producto.
 
@@ -109,7 +109,7 @@ Tenga cuidado al editar directamente un archivo CSV de catálogo sin procesar.
 
 ### Usar API
 
-Puede pasar atributos de varios valores usando la API de envío en un parámetro de mbox como un valor de cadena que contenga una matriz de JSON escapada.
+Puede pasar atributos de varios valores utilizando la API de entrega en un parámetro de mbox como un valor de cadena que contiene una matriz JSON de escape.
 
 ```javascript
 "execute": {
@@ -127,7 +127,7 @@ Puede pasar atributos de varios valores usando la API de envío en un parámetro
   }
 ```
 
-Consulte la [documentación de la API Adobe Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para obtener información sobre
+Consulte la [documentación de la API Adobe Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} para obtener información sobre
 el uso de las API Entrega y Guardar entidades.
 
 ## Uso de operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
@@ -141,7 +141,7 @@ En el ejemplo siguiente, la regla es  `message contains abc`.
 
 En el caso de los operadores negativos, todos los valores de atributo deben cumplir el criterio (booleano *AND*). Por ejemplo, si el operador es  `notEquals`, el resultado será *false* si algún valor coincide.
 
-Consulte las secciones siguientes para ver el comportamiento de los operadores en las reglas de inclusión de algoritmos, las reglas de catálogo y las reglas de exclusión.
+Consulte las secciones siguientes para ver el comportamiento del operador en las reglas de inclusión de algoritmos, reglas de catálogo y reglas de exclusión.
 
 ### Es igual a
 
@@ -242,7 +242,7 @@ Ejemplo: `genre does not match abc`
 
 ### Se incluye dinámicamente en el rango (solo disponible en algoritmos de artículos y solo valores numéricos)
 
-Si algún valor de atributo numérico se encuentra dentro del rango especificado, el resultado es true.
+Si algún valor de atributo se encuentra en el rango especificado, el resultado es true.
 
 Ejemplo: `price dynamically ranges in 80% to 120% of 100`
 

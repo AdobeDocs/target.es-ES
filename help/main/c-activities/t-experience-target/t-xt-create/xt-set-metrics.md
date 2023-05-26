@@ -1,7 +1,7 @@
 ---
 keywords: segmentación de experiencias;xt;métricas;definir métricas;métrica de segmentación;configuración de actividades;métrica de éxito;conversión;ingresos;participación
 description: Obtenga información sobre cómo especificar métricas en un Adobe [!DNL Target] Actividad de segmentación de experiencias para determinar si una visita es satisfactoria, como Conversión, Ingresos y Participación.
-title: ¿Cómo establezco métricas de objetivo en una actividad de segmentación de experiencias?
+title: ¿Cómo configuro las métricas de objetivo en una actividad de segmentación de experiencias?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 83%
 
 # Definir métricas en actividades de Segmentación de experiencias (XT)
 
-Uso de métricas en un [!DNL Adobe Target] [!UICONTROL Segmentación de experiencias] (XT) para determinar si una visita es satisfactoria.
+Uso de métricas en una [!DNL Adobe Target] [!UICONTROL Segmentación de experiencias] (XT) para determinar si una visita es satisfactoria.
 
 Para obtener información detallada sobre las métricas de éxito, consulte  [Métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 

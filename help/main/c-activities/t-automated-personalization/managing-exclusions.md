@@ -1,7 +1,7 @@
 ---
-keywords: desduplicar;permitir duplicados;excluir ofertas duplicadas;personalización automatizada;impedir ofertas duplicadas;excluir;contenido predeterminado;grupo de exclusión;
-description: Gestión de exclusiones en Adobe [!DNL Target] Actividades de Automated Personalization (AP). Cree grupos de exclusión y excluya ofertas duplicadas, experiencias específicas y contenido predeterminado.
-title: ¿Cómo administro las exclusiones en actividades de Automated Personalization?
+keywords: desduplicar;permitir duplicados;excluir ofertas duplicadas;personalización automatizada;no permitir ofertas duplicadas;excluir;contenido predeterminado;grupo de exclusión;
+description: Administración de exclusiones en Adobe [!DNL Target] Actividades de Automated Personalization (AP). Cree grupos de exclusión y excluya ofertas duplicadas, experiencias específicas y contenido predeterminado.
+title: ¿Cómo administro las exclusiones en las actividades de Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # Gestión de exclusiones
 
-Administre exclusiones creando grupos de exclusión, excluyendo ofertas duplicadas, experiencias específicas y contenido predeterminado en [!UICONTROL Automated Personalization] actividades (AP) en [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
+Administre exclusiones creando grupos de exclusión, excluyendo ofertas duplicadas, experiencias específicas y el contenido predeterminado en [!UICONTROL Automated Personalization] Actividades de (AP) en [!DNL Adobe Target] [!UICONTROL Automated Personalization] Actividades de (AP).
 
 ## Creación de grupos de exclusión {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -99,7 +99,7 @@ Excluir el contenido predeterminado es una excelente manera de cambiar la aparie
 
 **Para excluir el contenido predeterminado usando Visual Experience Composer (VEC):**
 
-1. While [creación o edición de una actividad AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), seleccione el contenido que desea reemplazar y haga clic en para acceder **[!UICONTROL Cambiar texto/HTML]**, **[!UICONTROL Cambiar imagen]** o **[!UICONTROL Cambiar color de fondo]**.
+1. While [creación o edición de una actividad AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), seleccione el contenido que desea reemplazar y haga clic en para acceder a **[!UICONTROL Cambiar texto/HTML]**, **[!UICONTROL Cambiar imagen]**, o **[!UICONTROL Cambiar color de fondo]**.
 1. En el cuadro de diálogo, cree su nuevo contenido y desmarque **Incluir** a la derecha del contenido predeterminado (o desmarque la Imagen/Vídeo predeterminado en la pantalla Seleccionar contenido).
 
    Dependiendo del tipo de contenido/oferta, la casilla [!UICONTROL Incluir] está en un lugar ligeramente diferente.

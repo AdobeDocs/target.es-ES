@@ -1,7 +1,7 @@
 ---
 keywords: crear experiencia;crear;experiencia;prioridad;audiencia;experiencia;compositor de experiencias visuales
-description: Descubra cómo usar el Adobe [!DNL Target] Compositor de experiencias visuales (VEC) para crear y editar experiencias en su página en una actividad de segmentación de experiencias (XT).
-title: ¿Cómo creo experiencias en una actividad de segmentación de experiencias?
+description: Aprenda a utilizar el Adobe [!DNL Target] Compositor de experiencias visuales (VEC) para crear y editar experiencias en su página en una actividad de segmentación de experiencias (XT).
+title: ¿Cómo puedo crear experiencias en una actividad de segmentación de experiencias?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,9 +11,9 @@ ht-degree: 87%
 
 ---
 
-# Crear experiencia en actividades de Segmentación de experiencias (XT)
+# Crear experiencias en actividades de segmentación de experiencias (XT)
 
-La variable [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] proporciona una interfaz visual para editar las experiencias en la página en un [!UICONTROL Segmentación de experiencias] (XT).
+El [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] proporciona una interfaz visual para editar las experiencias en la página en un [!UICONTROL Segmentación de experiencias] Actividad (XT).
 
 1. Seleccione los elementos que quiera cambiar y realice los cambios necesarios.
 
@@ -25,7 +25,7 @@ La variable [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adob
 
    Al desplazar el cursor sobre los elementos de la página, estos se resaltarán. Los elementos resaltados se pueden modificar con el VEC. Para obtener una lista de las acciones que se pueden realizar en un elemento para cambiar la experiencia, consulte [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Si creó un [!DNL Target] solicite en la página utilizando [!DNL Target Classic], que [!DNL Target] aparece como un elemento que muestra el nombre de la solicitud y se puede modificar como cualquier otro elemento.
+   Si ha creado un [!DNL Target] solicitud en la página mediante [!DNL Target Classic], que [!DNL Target] la solicitud aparece como un elemento que muestra el nombre de la solicitud y se puede modificar como cualquier otro elemento.
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ La variable [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adob
    >
    >Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas específicas en lugar de crear una nueva. Para obtener más información, consulte [Combinar varias audiencias](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Al crear una audiencia, puede seleccionar una ubicación y especificar parámetros para dicha ubicación. En [!UICONTROL Personalizado] (Crear audiencia > Agregar regla > Personalizar), seleccione la ubicación y especifique los parámetros que desee.
+   Al crear una audiencia, puede seleccionar una ubicación y especificar parámetros para esa ubicación. En [!UICONTROL Personalizado] (Crear audiencia > Agregar regla > Personalizar), seleccione la ubicación y, a continuación, especifique los parámetros deseados.
 
    >[!NOTE]
    >

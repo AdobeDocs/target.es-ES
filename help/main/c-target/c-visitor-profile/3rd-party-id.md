@@ -19,7 +19,7 @@ Cuando un visitante inicia sesión en el sitio de una empresa, esta generalmente
 
 Cuando un visitante tiene acceso a una página en la que está habilitado [!DNL Target], se asigna al visitante un PCID de [!DNL Target]. Si el visitante luego inicia sesión, y la implementación pasa el `mbox3rdPartyId` a [!DNL Target], [!DNL Target] conecta el `mbox3rdPartyId` de ese visitante con el PCID de [!DNL Target].
 
-Las actualizaciones se sincronizan con el almacén de perfiles cada 5-10 minutos. Cuando finaliza la sesión del visitante, los datos combinados sustituyen a los datos anteriores asociados con la variable `mbox3rdPartyId`, creando un registro completo de las acciones de ese visitante. Si el mismo atributo existe en ambos ID (por ejemplo, el PCID tiene category=hats y el `mbox3rdPartyId` tiene category=skis), o si el visitante vio la experiencia A antes de iniciar sesión, pero la experiencia B está almacenada en el `mbox3rdPartyId`, el atributo almacenado en el `mbox3rdPartyId` sobrescribe el atributo del PCID. Si el visitante estaba en una actividad o experiencia antes de iniciar sesión, pero una actividad y experiencia diferentes están almacenadas en el `mbox3rdPartyId`, tras iniciar sesión ese visitante se coloca en la actividad y experiencia del `mbox3rdPartyId`.
+Las actualizaciones se sincronizan con el almacén de perfiles cada 5-10 minutos. Cuando finaliza la sesión del visitante, los datos combinados reemplazan a los datos anteriores asociados con el `mbox3rdPartyId`, creando un registro completo de las acciones de ese visitante. Si el mismo atributo existe en ambos ID (por ejemplo, el PCID tiene category=hats y el `mbox3rdPartyId` tiene category=skis), o si el visitante vio la experiencia A antes de iniciar sesión, pero la experiencia B está almacenada en el `mbox3rdPartyId`, el atributo almacenado en el `mbox3rdPartyId` sobrescribe el atributo del PCID. Si el visitante estaba en una actividad o experiencia antes de iniciar sesión, pero una actividad y experiencia diferentes están almacenadas en el `mbox3rdPartyId`, tras iniciar sesión ese visitante se coloca en la actividad y experiencia del `mbox3rdPartyId`.
 
 | PCID (sin sesión iniciada) | mbox3rdPartyId (con sesión iniciada) | Combinado y guardado en el mbox3rdPartyId |
 |---|---|---|
@@ -36,7 +36,7 @@ Cuando el visitante cierra sesión, se conserva el perfil combinado.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] no se realiza un seguimiento de los objetivos en los casos en que la variable [!DNL Adobe Experience Cloud] El ID (ECID) cambia (por ejemplo, el visitante cambia de dispositivo), aunque la variable [!DNL Target] el perfil se puede combinar en función del mbox3rdPartyId y seguirá teniendo información de actividad. Para los visitantes identificados con el mismo ECID (los que acceden a la página con el mismo dispositivo), [!DNL Analytics for Target] (A4T) debe funcionar según lo esperado.
+>[!DNL Adobe Analytics] Los objetivos de no se rastrean cuando [!DNL Adobe Experience Cloud] Cambia el ID (ECID) (por ejemplo, el visitante cambia de dispositivo), aunque la variable [!DNL Target] El perfil de se puede combinar en función del mbox3rdPartyId y aún tiene información de actividad. Para visitantes identificados con el mismo ECID (los que acceden a la página con el mismo dispositivo), [!DNL Analytics for Target] (A4T) debería funcionar según lo esperado.
 
 ## Consideraciones {#considerations}
 
@@ -57,7 +57,7 @@ Cuando el visitante cierra sesión, se conserva el perfil combinado.
       * `customerIds` es el nombre del parámetro que se utiliza cuando se establece directamente en la carga útil de la API de entrega y que generalmente se realiza en implementaciones del lado del servidor o IOT (Internet de las cosas).
       * A diferencia de `mbox3rdPartyId`/`thirdPartyId`, puede enviar varios ID como una lista en este enfoque, pero como [!DNL Target] solo admite un ID de cliente único por ID de TnT, utiliza el primer ID de la lista con un alias conocido (alias configurado en la IU de Atributos del cliente).
 
-   Puede usar `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] es el único [!DNL Adobe Experience Cloud] y no desea utilizar Atributos del cliente. Para todos los demás casos, le recomendamos que utilice `setCustomerId`/`customerIds` para enviar sus ID de cliente.
+   Puede utilizar `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] es el único [!DNL Adobe Experience Cloud] y no desea utilizar los Atributos del cliente. Para el resto de los casos, le recomendamos que utilice `setCustomerId`/`customerIds` para enviar sus ID de cliente.
 
    >[!IMPORTANT]
    >
@@ -65,5 +65,5 @@ Cuando el visitante cierra sesión, se conserva el perfil combinado.
    >
    >Adobe no recomienda utilizar `mbox3rdPartyId`/`thirdPartyId` y `setCustomerID`/`customerIds` juntos.
    >
-   >Si debe utilizar ambos métodos de forma intercambiable, asegúrese de que el primer ID de la lista utilizado por `setCustomerID`/`customerIds` es lo que usa `thirdPartyId`/`mbox3rdPartyId` y viceversa.
+   >Si debe utilizar ambos métodos de forma intercambiable, asegúrese de que el primer ID de la lista lo utiliza `setCustomerID`/`customerIds` es lo que usa `thirdPartyId`/`mbox3rdPartyId` y viceversa.
 

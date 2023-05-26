@@ -5,8 +5,8 @@ title: ¿Cómo utilizo las ventanillas móviles para las experiencias adaptables
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1155'
+workflow-type: tm+mt
+source-wordcount: '1154'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ A continuación tiene las ventanillas móviles y las resoluciones de dispositivo
 | iPhone 7 | 375 x 667 | 750 x 1334 |
 | iPhone 6s Plus | 414 x 736 | 1080 x 1920 |
 | iPhone 6s | 375 x 667 | 750 x 1334 |
-| iPhone 6 Plus | 414  x 736 | 1080 x 1920 |
+| iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
 | iPhone 6 | 375 x 667 | 750 x 1334 |
 | iPad Pro | 1024 x 1366 | 2048 x 2732 |
 | iPad de tercera y cuarta generación | 768 x 1024 | 1536 x 2048 |

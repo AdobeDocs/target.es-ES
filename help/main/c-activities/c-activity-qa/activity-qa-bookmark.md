@@ -1,6 +1,6 @@
 ---
 keywords: control de calidad;vista previa;bookmarklet;vínculos de vista previa
-description: Aprenda a utilizar el Adobe [!DNL Target] Bookmarklet de control de calidad para forzar [!DNL Target] para liberarlo del modo de control de calidad.
+description: Aprenda a utilizar el Adobe [!DNL Target] bookmarklet de control de calidad para forzar [!DNL Target] para liberarlo del modo de control de calidad.
 title: ¿Cómo utilizo el bookmarklet de control de calidad de la actividad?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
@@ -13,17 +13,17 @@ ht-degree: 27%
 
 # Bookmarklet de control de calidad de la actividad
 
-Información para ayudarle a usar la variable [!DNL Target] Bookmarklet de control de calidad para forzar [!DNL Target] para liberarlo del modo de control de calidad.
+Información para ayudarle a utilizar [!DNL Target] bookmarklet de control de calidad para forzar [!DNL Target] para liberarlo del modo de control de calidad.
 
 >[!NOTE]
 >
 >El proceso para crear un bookmarklet varía según el tipo y la versión del explorador. Consulte la ayuda del explorador o busque en Internet para obtener instrucciones específicas.
 
-## Bookmarklet de control de calidad de la actividad para at.js 1.*x* 
+## bookmarklet de control de calidad de la actividad para at.js 1.*x*  
 
 Como el modo de [control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) es persistente, después de examinar un sitio web en modo de control de calidad, la sesión de debe caducar o tiene que indicar a que lo libere del modo de control de calidad antes de poder ver su sitio como lo vería un visitante. [!DNL Target][!DNL Target] Usar el control de calidad [!DNL Target] bookmarklet para forzar su salida del modo de control de calidad.
 
-Para usar la variable [!DNL Target] bookmarklet QA, cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de Marcadores de su explorador:
+Para usar la variable [!DNL Target] bookmarklet QA, cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de Marcadores del explorador:
 
 ```javascript
 javascript:(
@@ -42,17 +42,17 @@ javascript:(
 )();
 ```
 
-También puede forzar la salida manual del modo de control de calidad cargando una página en su sitio con la variable `at_preview_token` con un valor vacío.
+También puede forzar la salida manual del modo de control de calidad cargando una página en su sitio con el `at_preview_token` parámetro con un valor vacío.
 
 Por ejemplo:
 
 `https://www.mysite.com/?at_preview_token=`
 
-## Bookmarklet de control de calidad de la actividad para at.js 2.*x* 
+## bookmarklet de control de calidad de la actividad para at.js 2.*x*  
 
-En contraste con at.js 1.*x*, at.js 2.*x* no admite cookies de terceros y el modo de control de calidad solo es persistente para el dominio de origen (mediante una cookie de origen configurada por at.js). Por lo tanto, en at.js 2.*x*, la sesión en modo de control de calidad solo se administra en el lado del cliente y no se envían cookies en modo de control de calidad a Target.
+A diferencia de at.js 1.*x*, at.js 2.*x* no admite cookies de terceros y el modo de control de calidad solo es adhesivo para el dominio de origen (mediante una cookie de origen configurada por at.js). Por lo tanto, en at.js 2.*x* Sin embargo, la sesión en modo de control de calidad solo se administra en el lado del cliente y no se envían cookies en modo de control de calidad a Target.
 
-Para usar la variable [!DNL Target] bookmarklet QA, cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de Marcadores de su explorador:
+Para usar la variable [!DNL Target] bookmarklet QA, cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de Marcadores del explorador:
 
 ```javascript
 javascript:(
@@ -69,6 +69,6 @@ javascript:(
     })();
 ```
 
-## Usar el bookmarklet de control de calidad de la actividad
+## Usar el bookmarklet de control de calidad de actividad
 
-Haga clic en el bookmarklet en la barra de herramientas del explorador.
+Haga clic en el bookmarklet de la barra de herramientas del explorador.

@@ -22,7 +22,7 @@ Puede encontrar información sobre Velocity en [https://velocity.apache.org](htt
 
 La sintaxis, la lógica, etc. de Velocity se pueden usar en el diseño de recomendaciones. Esto significa que puede crear bucles *for*, instrucciones *if* y otro código usando Velocity en lugar de JavaScript.
 
-Atributos de entidad enviados a [!DNL Recommendations] en el `productPage` mbox o la carga CSV se pueden mostrar en un diseño, con la excepción de los atributos &quot;multivalor&quot;. Se puede enviar cualquier tipo de atributo; sin embargo, [!DNL Target] no pasa atributos de tipo &quot;multi-valor&quot; como una matriz sobre la que una plantilla puede iterar (por ejemplo `entityN.categoriesList`).
+Atributos de entidad enviados a [!DNL Recommendations] en el `productPage` mbox o la carga CSV se pueden mostrar en un diseño, con la excepción de los atributos &quot;multivalor&quot;. Se puede enviar cualquier tipo de atributo, pero [!DNL Target] no pasa atributos de tipo &quot;varios valores&quot; como una matriz sobre la que una plantilla puede iterar (por ejemplo, `entityN.categoriesList`).
 
 A estos valores se hace referencia con la siguiente sintaxis:
 
@@ -30,7 +30,7 @@ A estos valores se hace referencia con la siguiente sintaxis:
 $entityN.variable
 ```
 
-Los nombres de atributos de entidad deben seguir la notación taquigráfica de Velocity, que consiste en un *$* , seguido de un identificador de Velocity Template Language (VTL). El identificador VTL debe comenzar por un carácter alfabético (a-z o A-Z).
+Los nombres de atributos de entidad deben seguir la notación abreviada de Velocity, que consiste en una inicial *$* seguido de un identificador de lenguaje de plantilla de velocidad (VTL). El identificador VTL debe comenzar por un carácter alfabético (a-z o A-Z).
 
 Los nombres de atributos de entidad de Velocity están restringidos a los siguientes tipos de caracteres:
 
@@ -39,7 +39,7 @@ Los nombres de atributos de entidad de Velocity están restringidos a los siguie
 * Guion ( - )
 * Guion bajo ( _ )
 
-Los siguientes atributos están disponibles como matrices de Velocity. Como tales, es posible iterarlas o referenciarlas mediante índice.
+Los atributos siguientes están disponibles como matrices de Velocity. Como tales, es posible iterarlas o referenciarlas mediante índice.
 
 * `entities`
 * `entityN.categoriesList`
@@ -62,7 +62,7 @@ $entities[0].categoriesList[2]
 
 Para obtener más información sobre las variables (atributos) de Velocity, consulte [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Si utiliza un script de perfil en su diseño, el símbolo $ que precede al nombre del script debe omitirse con un `\` (barra invertida). Por ejemplo:
+Si utiliza un script de perfil en su diseño, el símbolo $ que precede al nombre del script debe señalarse con un `\` (barra invertida). Por ejemplo:
 
 `\${user.script_name}`
 
@@ -125,7 +125,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 >
 >Si desea agregar texto después del valor de un atributo antes de una etiqueta que indique que el nombre del atributo ha finalizado, puede hacerlo usando una anotación formal para incluir el nombre del atributo. Por ejemplo: `${entity1.thumbnailUrl}.gif`.
 
-También puede utilizar `algorithm.name` y `algorithm.dayCount` como atributos de entidad en diseños, de modo que se pueda utilizar un diseño para probar varios criterios y el nombre del criterio se pueda visualizar de forma dinámica en el diseño. Esto indica al visitante que está viendo productos de mayor venta o productos que otras personas han comprado en combinación con otros productos. Incluso puede utilizar estos atributos para mostrar la variable `dayCount` (número de días de datos utilizados en el criterio, como &quot;productos más vendidos en los últimos 2 días&quot;, etc.
+También puede utilizar `algorithm.name` y `algorithm.dayCount` como atributos de entidad en los diseños, de modo que se pueda utilizar un diseño para probar varios criterios y el nombre del criterio se pueda mostrar dinámicamente en el diseño. Esto indica al visitante que está viendo productos de mayor venta o productos que otras personas han comprado en combinación con otros productos. Incluso puede utilizar estos atributos para mostrar el `dayCount` (número de días de datos utilizados en los criterios, como &quot;principales vendedores en los últimos 2 días&quot;, etc.
 
 ## Trabajo con números en plantillas de Velocity
 

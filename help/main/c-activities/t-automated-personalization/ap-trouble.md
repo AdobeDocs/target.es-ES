@@ -1,7 +1,7 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: Explore los posibles desafíos que podría enfrentar al usar actividades de Automated Personalization (AP) en Adobe Target, junto con las soluciones sugeridas.
-title: ¿Cómo Solucionar Problemas De Automated Personalization?
+description: Explore los posibles desafíos a los que podría enfrentarse al usar actividades de Automated Personalization (AP) en Adobe Target, junto con soluciones sugeridas.
+title: ¿Cómo puedo solucionar problemas de Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
@@ -40,7 +40,7 @@ Hay varios factores necesarios para que una actividad AP genere alza:
 
 ## Mi dirección URL de actividad AP muestra contenido de ofertas en páginas incorrectas.   {#section_82A224406DBF4107B05204BEFBBE458C}
 
-En AP, las reglas de URL y prueba de plantilla se añaden al [!DNL Target] restricción de entrada de solicitud (por ejemplo, target-global-mbox), donde se evalúan solo una vez. Una vez que un usuario reúne los requisitos para una actividad, las reglas de segmentación en el nivel de solicitud de Target no se vuelven a evaluar. Sin embargo, se agrega la audiencia de segmentación a las reglas de segmentación de ubicación.
+En AP, las reglas de prueba de plantilla y URL se añaden a [!DNL Target] restricción de entrada de solicitud (por ejemplo, target-global-mbox), donde se evalúan solo una vez. Una vez que un usuario cumple los requisitos para una actividad, las reglas de segmentación de nivel de solicitud de Target no se vuelven a evaluar. Sin embargo, se agrega la audiencia de segmentación a las reglas de segmentación de ubicación.
 
 **Solución:** agregue las reglas de plantillas necesarias como audiencia de entrada de la campaña. La evaluación de audiencia sucede con cada solicitud/llamada.
 

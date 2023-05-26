@@ -1,6 +1,6 @@
 ---
 keywords: compositor de experiencias basadas en formularios;compositor basado en formularios;refinamientos
-description: Aprenda a utilizar el Adobe [!DNL Target] Compositor de experiencias basadas en formularios para la creación de experiencias no visuales. Use este compositor cuando el VEC no esté disponible o no sea práctico de usar.
+description: Aprenda a utilizar el Adobe [!DNL Target] Compositor de experiencias basadas en formularios para la creación de experiencias no visuales. Utilice este compositor cuando el VEC no esté disponible o su uso no sea práctico.
 title: ¿Cómo utilizo el Compositor de experiencias basadas en formularios?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
@@ -13,38 +13,38 @@ ht-degree: 46%
 
 # Compositor de experiencias basadas en formularios
 
-La variable [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en [!UICONTROL Prueba A/B], [!UICONTROL Segmentación de experiencias], [!UICONTROL Automated Personalization]y [!UICONTROL Recommendations] actividades cuando la variable [!UICONTROL Compositor de experiencias visuales] (VEC) no está disponible ni es práctico para usar. Por ejemplo, puede usar el Compositor de experiencias basadas en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
+El [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz no visual de creación de ofertas y experiencias que resulta útil para crear experiencias para utilizarlas en [!UICONTROL Prueba A/B], [!UICONTROL Segmentación de experiencias], [!UICONTROL Automated Personalization], y [!UICONTROL Recommendations] actividades cuando la variable [!UICONTROL Compositor de experiencias visuales] (VEC) no está disponible o su uso no es práctico. Por ejemplo, puede utilizar el Compositor de experiencias basadas en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
 
 Si está creando un [!UICONTROL Recommendations] actividad, no hay experiencias. Elija sus criterios y su diseño. Si elige varios criterios o diseños, [!UICONTROL Target] genera automáticamente las experiencias.
 
 1. Haga clic en **[!UICONTROL Crear actividad]** y luego seleccione el tipo de actividad que desee crear.
 
-   La variable [!UICONTROL Compositor de experiencias basadas en formularios] está disponible para [!UICONTROL Prueba A/B], [!UICONTROL Segmentación de experiencias], [!UICONTROL Automated Personalization]y [!UICONTROL Recommendations] actividades.
+   El [!UICONTROL Compositor de experiencias basadas en formularios] está disponible para [!UICONTROL Prueba A/B], [!UICONTROL Segmentación de experiencias], [!UICONTROL Automated Personalization], y [!UICONTROL Recommendations] actividades.
 
-1. Select **[!UICONTROL Formulario]** de la variable [!UICONTROL Crear actividad] para abrir el Navegador.
+1. Seleccionar **[!UICONTROL Form]** desde el [!UICONTROL Crear actividad] Cuadro de diálogo.
 
 1. (Condicional) Elija un espacio de trabajo y una propiedad.
 
 1. Haga clic en **[!UICONTROL Siguiente]**.
 
-   La variable [!UICONTROL Compositor de experiencias basadas en formularios] se abre.
+   El [!UICONTROL Compositor de experiencias basadas en formularios] abre.
 
    ![imagen location_refinements](assets/location_refinements.png)
 
-   Esta pantalla es diferente si crea un [!UICONTROL Recommendations] actividad. [!UICONTROL Las actividades de Recommendations no incluyen experiencias.]
+   Esta pantalla es diferente si va a crear un [!UICONTROL Recommendations] actividad. [!UICONTROL Las actividades de Recommendations no incluyen experiencias.]
 
 1. Asigne un nombre a la actividad haciendo clic en &quot;[!UICONTROL Actividad sin título].&quot;
 1. Seleccione una ubicación.
 
-   Al hacer clic en el [!UICONTROL Seleccionar ubicación] , aparece una lista de ubicaciones disponibles. Seleccione una de esas ubicaciones.
+   Al hacer clic en [!UICONTROL Seleccionar ubicación] , aparecerá una lista de ubicaciones disponibles. Seleccione una de esas ubicaciones.
 
-   También puede especificar una ubicación que no aparece en esta lista. Esto puede ser útil si el mbox todavía no se ha creado ni visto en una página. Escriba el nombre de la ubicación. Tenga cuidado al especificar una ubicación que no existe aún. Si la ortografía o las mayúsculas no coinciden con las que se usaron cuando se creó el mbox, la actividad no se publicará. Las ubicaciones introducidas manualmente se guardan en la lista de ubicaciones disponibles. La próxima vez que intente seleccionar una ubicación introducida manualmente, estará disponible en la [!UICONTROL Seleccionar ubicación] lista desplegable de esa actividad.
+   También puede especificar una ubicación que no aparece en esta lista. Esto puede ser útil si el mbox todavía no se ha creado ni visto en una página. Escriba el nombre de la ubicación. Tenga cuidado al especificar una ubicación que no existe aún. Si la ortografía o las mayúsculas no coinciden con las que se usaron cuando se creó el mbox, la actividad no se publicará. Las ubicaciones introducidas manualmente se guardan en la lista de ubicaciones disponibles. La próxima vez que intente seleccionar una ubicación introducida manualmente, estará disponible en el [!UICONTROL Seleccionar ubicación] lista desplegable de para esa actividad.
 
    >[!NOTE]
    >
-   >La creación de una ubicación introducida manualmente durante la creación de la actividad no crea automáticamente una nueva ubicación. El nombre de la ubicación solo se guarda en el contexto de la actividad . La ubicación se crea cuando hay una llamada de entrega de contenido. Una vez creada la ubicación, estará disponible para usarla en otras actividades, para crear audiencias, etc. en la lista desplegable de ubicaciones disponibles.
+   >La creación de una ubicación introducida manualmente durante la creación de la actividad no crea automáticamente una nueva ubicación. El nombre de la ubicación solo se guarda en el contexto de la actividad. La ubicación se crea cuando hay una llamada de envío de contenido. Una vez creada la ubicación, estará disponible para su uso en otras actividades, para crear audiencias, etc. en la lista desplegable de ubicaciones disponibles.
 
-1. Haga clic en **[!UICONTROL Agregar refinamientos de audiencia]**, elija una o más [audiencia](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta actividad, haga clic en **[!UICONTROL Listo]**.
+1. Clic **[!UICONTROL Añadir refinamientos de audiencia]**, elija una o más [audiencia](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta actividad, haga clic en **[!UICONTROL Listo]**.
 
    ![imagen location_refinements_2](assets/location_refinements_2.png)
 
@@ -92,7 +92,7 @@ Si está creando un [!UICONTROL Recommendations] actividad, no hay experiencias.
 
    **Agregar recomendación:**
 
-   Para una actividad de Recommendations, la lista desplegable Contenido le proporciona la variable [!UICONTROL Agregar recomendación] . Haga clic en **[!UICONTROL Agregar recomendación]** y seleccione el tipo de página. Después siga los pasos habituales que se definen en la interfaz para [crear una actividad de Recomendaciones](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   Para una actividad de Recommendations, la lista desplegable Contenido le proporciona el [!UICONTROL Agregar recomendación] opción. Haga clic en **[!UICONTROL Agregar recomendación]** y seleccione el tipo de página. Después siga los pasos habituales que se definen en la interfaz para [crear una actividad de Recomendaciones](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Cuando se seleccionan los criterios de Recommendations en el Compositor de experiencias basadas en formularios, ahora existe un vínculo directo a la tarjeta de criterios seleccionada de modo que pueda editarlos de forma rápida y sencilla.
 
@@ -104,18 +104,18 @@ Si está creando un [!UICONTROL Recommendations] actividad, no hay experiencias.
 
    **Agregar decisión de oferta:**
 
-   Añadir una oferta creada en [!DNL Adobe Journey Optimizer] (AJO) a un [!DNL Adobe Target] actividad para presentar la mejor oferta y experiencia dinámicas a los visitantes de su sitio web o sitio móvil mediante offers decisioning. Esta opción está disponible para manual [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] (XT) solo.
+   Añadir una oferta creada en [!DNL Adobe Journey Optimizer] (AJO) a un [!DNL Adobe Target] actividad para presentar la mejor oferta dinámica y experiencia a los visitantes de su sitio web o sitio móvil mediante offer decisioning. Esta opción está disponible para manual [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] (XT) solo actividades de.
 
    Para obtener más información, consulte [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
-1. (Opcional, para [!UICONTROL Prueba A/B], [!UICONTROL Automated Personalization]y [!UICONTROL Segmentación de experiencias] para repetir este proceso para ubicaciones adicionales, haga clic en **[!UICONTROL Agregar ubicación]** y configure la ubicación y el contenido.
-1. Haga clic en **[!UICONTROL Siguiente]** y, a continuación, complete los pasos de creación de actividad como de costumbre para su tipo de actividad.
+1. (Opcional, para [!UICONTROL Prueba A/B], [!UICONTROL Automated Personalization], y [!UICONTROL Segmentación de experiencias] actividades) Para repetir este proceso para ubicaciones adicionales, haga clic en **[!UICONTROL Añadir ubicación]** y configure la ubicación y el contenido.
+1. Clic **[!UICONTROL Siguiente]** A continuación, complete los pasos de creación de actividad como es habitual para su tipo de actividad.
 
 * [Crear una prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Crear una actividad de segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Crear una actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vídeo de formación: Compositor basado en formularios ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+## Vídeo de formación: Compositor basado en formularios ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo proporciona una demostración del compositor basado en formularios.
 

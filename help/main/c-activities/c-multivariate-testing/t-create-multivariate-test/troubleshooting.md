@@ -1,6 +1,6 @@
 ---
-keywords: Pruebas multivariable;solución de problemas;solución de problemas;mvt
-description: Explore los posibles desafíos que podría enfrentar al usar actividades de pruebas multivariable (MVT) en Adobe Target, junto con las soluciones sugeridas.
+keywords: Pruebas multivariable;solucionar problemas;solución de problemas;mvt
+description: Explore los posibles desafíos a los que se podría enfrentar al usar actividades de prueba multivariable (MVT) en Adobe Target, junto con soluciones sugeridas.
 title: ¿Cómo puedo solucionar problemas de las pruebas multivariable?
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
@@ -13,12 +13,12 @@ ht-degree: 42%
 
 # Resolución de problemas de pruebas multivariada
 
-Este tema contiene sugerencias para resolver algunos problemas que podrían producirse al diseñar un [!UICONTROL Multivariable] Prueba (MVT) en [!DNL Adobe Target].
+Este tema contiene sugerencias para resolver algunos problemas que podrían producirse al diseñar un [!UICONTROL Multivariado] Prueba de (MVT) en [!DNL Adobe Target].
 
-* Al editar una actividad, si ha utilizado [!DNL Analytics]Las métricas basadas en y el grupo de informes no se carga (se muestra un control de número), cambie las métricas a [!DNL Target] métricas y luego cambiar de nuevo a [!DNL Analytics]Métrica basada en Ahora el grupo de informes debería cargarse.
-* Si realiza cambios en una prueba que ya se está ejecutando, podría restablecer la prueba y sus datos.
+* Al editar una actividad, si ha utilizado [!DNL Analytics]Las métricas basadas en y el grupo de informes no se cargan (aparece el control de número). Cambie las métricas a. [!DNL Target] y, a continuación, cambie a [!DNL Analytics]métrica basada en. Ahora el grupo de informes debería cargarse.
+* Si realiza cambios en una prueba que ya se está ejecutando, puede restablecer la prueba y sus datos.
 
-   [!DNL Target] permite editar una actividad activa. Tenga en cuenta que si modifica una actividad que se está publicando, podría restablecer la prueba y es posible que los informes no reconozcan algunos cambios.
+   [!DNL Target] permite editar una actividad en directo. Tenga en cuenta que si modifica una actividad que se está publicando, podría restablecer la prueba y es posible que los informes no reconozcan algunos cambios.
 
    Puede realizar pequeños cambios con total seguridad, como por ejemplo, modificar ofertas de texto o de html.
 

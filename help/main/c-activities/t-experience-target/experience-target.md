@@ -1,6 +1,6 @@
 ---
 keywords: Segmentación;segmentación de experiencias;XT;página de aterrizaje;prueba de página de aterrizaje
-description: Aprenda a utilizar actividades de Segmentación de experiencias (XT) en Adobe [!DNL Target] para entregar contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
+description: Aprenda a utilizar las actividades de segmentación de experiencias (XT) en Adobe [!DNL Target] para enviar contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 title: ¿Qué es una actividad de segmentación de experiencias (XT)?
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
@@ -17,7 +17,7 @@ Segmentación de experiencias (XT) ofrece contenido a una audiencia específica 
 
 La segmentación de experiencias, incluyendo [Segmentación geográfica](/help/main/c-target/c-audiences/c-target-rules/geo.md), sirve para definir reglas que dirigen un contenido o experiencia determinados a una audiencia concreta. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintas audiencias.
 
-Cuando los visitantes ven el sitio, Segmentación de experiencias (XT) los evalúa para determinar si cumplen los criterios establecidos. En caso afirmativo, participan en la actividad y se les muestra la experiencia diseñada para clasificar audiencias. Puede crear experiencias para varias audiencias dentro de una misma actividad.
+Cuando los visitantes ven el sitio, Segmentación de experiencias (XT) los evalúa para determinar si cumplen con los criterios establecidos. En caso afirmativo, participan en la actividad y se les muestra la experiencia diseñada para clasificar audiencias. Puede crear experiencias para varias audiencias dentro de una misma actividad.
 
 La segmentación de experiencias es un primer paso en el mundo de la personalización y a menudo comienza con las pruebas A/B. Un experto en marketing realiza una prueba A/B y, a través del uso de audiencias de informes, detecta que cada experiencia estimula a una audiencia diferente. La segmentación de experiencias permite al experto aprovechar fácilmente esta información y empezar a utilizar segmentación de contenido a largo plazo para cada uno de estos segmentos de usuarios.
 

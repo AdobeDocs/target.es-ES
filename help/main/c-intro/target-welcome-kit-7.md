@@ -13,9 +13,9 @@ ht-degree: 78%
 
 # Capítulo 7: Creación y ejecución de la primera actividad de [!DNL Target]
 
-Así que está listo para empezar con su primera actividad en [!DNL Target]? Excelente. Vamos a averiguar una actividad para su sitio web, sitio móvil o aplicación móvil que no sea demasiado compleja, pero que pueda proporcionar un rápido retorno de la inversión y entusiasmarle con el potencial de usar [!DNL Target] para probar y personalizar. En función de su organización y de su enfoque, puede considerar la posibilidad de seguir una de las tres rutas diferentes con esta primera actividad.
+Por lo tanto, está listo para empezar con su primera actividad en [!DNL Target]? Excelente. Vamos a diseñar una actividad para su sitio web, sitio móvil o aplicación móvil que no sea excesivamente compleja, pero que pueda proporcionar un retorno de la inversión rápido y que le entusiasme con el potencial de utilizar [!DNL Target] para probar y personalizar. En función de su organización y de su enfoque, puede considerar la posibilidad de seguir una de las tres rutas diferentes con esta primera actividad.
 
-La clave de su primera actividad, sin embargo, es establecer una línea de base de la métrica empresarial que está intentando mejorar: ingresos, pulsaciones, envíos de formularios, registros completados, etc. En una prueba A/B, a menudo puede utilizar la experiencia u oferta actual como un &quot;control&quot; y medir el impacto de una variante de esa experiencia u oferta en su contra. Sin embargo, con la mayoría de las actividades de personalización, lo ideal es determinar el rendimiento de la experiencia actual antes de lanzar una versión personalizada de la misma. Esto le permitirá medir el impacto de la personalización.
+La clave de su primera actividad, sin embargo, es establecer una línea de base de la métrica empresarial que está intentando mejorar: ingresos, clics, envíos de formularios, registros completados, etc. En una prueba A/B, a menudo puede utilizar la experiencia u oferta actual como un control y medir el impacto de una variante de esa experiencia u oferta frente a ella. Sin embargo, con la mayoría de las actividades de personalización, lo ideal sería determinar el rendimiento de la experiencia actual antes de lanzar una versión personalizada de ella. Esto le permitirá medir el impacto de la personalización.
 
 ## Ruta 1: Pruebas A/B en todo el tráfico de visitantes
 
@@ -31,7 +31,7 @@ Ejemplo: Una aerolínea se dirige a sus miembros de nivel platino con una oferta
 
 ## Ruta 3: Aplicación de IA y automatización para personalizar a escala a visitantes individuales
 
-Puede configurar una actividad controlada por IA para ofrecer la mejor experiencia de varios visitantes simplemente seleccionando [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) en el segundo paso del flujo de trabajo de configuración de la prueba A/B. El uso de la segmentación automática con su primera actividad puede resultar extremadamente útil cuando no sabe qué experiencia va a resonar para distintos visitantes. Con la segmentación automática, el aprendizaje automático evalúa y puntúa atributos predictivos en tiempo real y determina qué atributos de los visitantes son los más importantes a la hora de determinar qué experiencia se ofrece.
+Puede configurar una actividad controlada por IA para ofrecer la mejor experiencia de varios visitantes simplemente seleccionando [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) en el segundo paso del flujo de trabajo de configuración de la prueba A/B. El uso de la segmentación automática con su primera actividad puede resultar extremadamente útil cuando no sabe qué experiencia va a interesar a distintos visitantes. Con la segmentación automática, el aprendizaje automático evalúa y puntúa atributos predictivos en tiempo real y determina qué atributos de los visitantes son los más importantes a la hora de determinar qué experiencia se ofrece.
 
 Ejemplo: Una compañía de telecomunicaciones que vende varias marcas y modelos de teléfono activa la segmentación automática para utilizar la automatización y el aprendizaje automático a fin de determinar cuál de las cuatro experiencias u ofertas diferentes de su página de inicio o de la pantalla de apertura de la aplicación móvil interesará más a su amplia variedad de visitantes.
 
@@ -43,15 +43,15 @@ Estas son solo algunas formas de concebir esas ideas de actividades que son fác
 
 * **Use lo que conoce.** Tal vez ya conoce bien a sus clientes y tiene una idea precisa de lo que les interesa. Utilícelo para desarrollar experiencias personalizadas.
 * **Utilice su solución de análisis.** Busque los lugares en el sitio donde los clientes abandonaron un flujo de compra o salieron de una página. Revise las páginas y formule una hipótesis sobre lo que podría estar causando la salida antes de realizar la acción deseada.
-* **Use sus poderes de observación.** Examine algunas páginas clave de su sitio web y siga su instinto para identificar los aspectos que deben mejorarse. Tal vez una página de detalles del producto que está demasiado abarrotada y sirve, así que simplifíquela. Tal vez el botón de compra es difícil de encontrar, así que muévalo a un lugar más visible.
-* **Observe a sus competidores.** Una rápida revisión de los sitios web de sus competidores puede revelar diseños, ofertas, copias y otros elementos que usted cree que son altamente efectivos en la obtención de resultados comerciales. Considere la posibilidad de probar esos enfoques en su sitio.
+* **Use sus poderes de observación.** Examine algunas páginas clave de su sitio web y siga su instinto para identificar los aspectos que deben mejorarse. Tal vez una página de detalles del producto que está demasiado abarrotada y llena de palabras, por lo que debe simplificarla. Tal vez el botón de compra es difícil de encontrar, así que muévalo a un lugar más visible.
+* **Observe a sus competidores.** Una rápida revisión de los sitios web de sus competidores puede revelar diseños, ofertas, textos y otros elementos que usted cree que son muy efectivos para obtener resultados comerciales. Considere la posibilidad de probar esos enfoques en su sitio.
 * **Aproveche los comentarios de los clientes.** Es posible que sus clientes le hayan aportado ideas para mejorar su experiencia a través de una encuesta en línea o en las llamadas del servicio de atención al cliente. Identifique los puntos problemáticos que hayan sido mencionados por varios clientes e idee una experiencia que pueda eliminarlos.
 
 Cuando se le ocurra una idea que probar, tenga en cuenta que debería poder explicar, idealmente con datos, por qué cree que la idea de prueba que propone puede mejorar la experiencia del cliente y las métricas que importan a la empresa.
 
 ## Planificación de la actividad con el planificador de actividades
 
-Hemos incluido el [Planificador de actividades de Adobe Target](/help/main/assets/activity-planner.pdf) como PDF independiente que puede guardar y usar una y otra vez. Haga clic en el vínculo para ver el archivo PDF. Haga clic con el botón derecho para descargar el archivo PDF.
+Hemos incluido el [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) como PDF independiente que puede guardar y utilizar una y otra vez. Haga clic en el vínculo para ver el archivo PDF. Haga clic con el botón derecho para descargar el archivo PDF.
 
 Para ejecutar una actividad efectiva, debe rellenar cada área del planificador. Utilice esta herramienta para que usted y otros piensen en ideas para las actividades de prueba y personalización.
 
@@ -77,7 +77,7 @@ En una prueba A/B con una experiencia de control y una variante, por ejemplo, pu
 
 ### ¿Cuáles son las métricas principales para medir el impacto de la actividad?
 
-Describa las métricas comerciales que utilizará como indicador del éxito de su actividad. Por ejemplo, aumento de ingresos por visitante (RPV), tasa de conversión o valor de pedido promedio (AOV). Cuanto más pueda vincular el impacto al balance financiero del negocio, mejor, así que si puede vincular el impacto a los ingresos, eso es ideal.
+Describa las métricas comerciales que utilizará como indicador del éxito de su actividad. Por ejemplo, aumento de ingresos por visitante (RPV), tasa de conversión o valor de pedido promedio (AOV). Cuanto más pueda vincular el impacto a los resultados empresariales, mejor, por lo que si puede vincular el impacto a los ingresos, es ideal.
 
 ### ¿Cuáles son las métricas secundarias para medir el impacto de la actividad?
 
@@ -85,13 +85,13 @@ Es igual que la métrica principal. Seleccione una métrica que le ayude a medir
 
 ### ¿Qué recursos o equipos deben implicarse?
 
-Si la actividad requiere el asistente de un diseñador, un desarrollador web o un analista de datos, documenta esto aquí, explicando lo que deberán hacer como parte de la actividad.
+Si su actividad requiere el asistente de un diseñador, un desarrollador web o un analista de datos, documente esto aquí, explicando lo que deberán hacer como parte de la actividad.
 
 ### Si se ejecuta una prueba, ¿durante cuánto tiempo debe ejecutarse esta prueba para alcanzar la relevancia?
 
 Se necesita añadir un determinado número de visitantes a la población de prueba para extraer una conclusión estadísticamente relevante de la prueba. Piense en ello: si solo dos personas participan en su prueba, ¿va a confiar en los resultados?
 
-[!DNL Target] se basa en principios estadísticos para determinar que los resultados de una prueba son estadísticamente válidos. La variable [!DNL Adobe Target] [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) le ayuda a determinar la duración de la ejecución de una prueba en función de la confianza que necesite en sus resultados. Haga clic en el enlace [!UICONTROL Más información] de este cuadro para abrir y utilizar la calculadora.
+[!DNL Target] se basa en principios estadísticos para determinar que los resultados de una prueba son estadísticamente válidos. El [!DNL Adobe Target] [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) le ayuda a determinar el tiempo necesario para ejecutar una prueba en función de la confianza que necesite en sus resultados. Haga clic en el enlace [!UICONTROL Más información] de este cuadro para abrir y utilizar la calculadora.
 
 ### ¿Qué importancia tiene esta actividad?
 
@@ -103,8 +103,8 @@ Una vez finalizada la actividad, documente los resultados asegurándose de enlaz
 
 ### ¿Qué se debe refinar en la actividad/cuáles son los pasos siguientes?
 
-Los resultados de la actividad a menudo proporcionan información sobre las acciones que debe realizar a continuación. Si una variación de experiencia se ha realizado correctamente, es posible que desee codificarla en el sitio web. Es posible que vea oportunidades para aplicar ese éxito en otras páginas similares. Los resultados pueden indicar que queda mucho por hacer para mejorar la experiencia del cliente en esta página. Utilice esta área para documentar las lecciones clave de la actividad y para documentar lo que hará en función de esas lecciones.
+Los resultados de la actividad a menudo proporcionan información sobre las acciones que debe realizar a continuación. Si una variación de experiencia se ha realizado correctamente, es posible que desee codificarla en el sitio web. Es posible que vea oportunidades para aplicar ese éxito en otras páginas similares. Los resultados pueden indicar que queda mucho por hacer para mejorar la experiencia del cliente en esta página. Utilice esta área para documentar las lecciones clave de la actividad y lo que hará en función de esas lecciones.
 
 ## Abra [!DNL Target], y cree e inicie su actividad
 
-Ha rellenado el planificador de actividades. Ahora es el momento de entrar en la solución y crear su actividad. [!DNL Target] facilita la modificación de la página web en el [!UICONTROL Compositor de experiencias visuales].
+Ha rellenado su planificador de actividades. Ahora es el momento de entrar en la solución y crear su actividad. [!DNL Target] facilita la modificación de la página web en el [!UICONTROL Compositor de experiencias visuales].

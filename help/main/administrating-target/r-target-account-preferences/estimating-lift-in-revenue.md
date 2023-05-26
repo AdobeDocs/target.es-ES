@@ -1,14 +1,14 @@
 ---
 keywords: ingresos;alza de ingresos;aumento estimado de ingresos;estimar alza;valor estimado
-description: Calcule el aumento que podría conseguirse si cada visitante ve la experiencia ganadora, si las tendencias continúan tal como lo han hecho durante la prueba.
-title: ¿Qué estimo el alza de ingresos?
+description: Calcule el alza que podría lograr si todos los visitantes ven la experiencia ganadora, si las tendencias continúan como lo han hecho durante la prueba.
+title: ¿Qué calculo para el alza de ingresos?
 feature: Administration & Configuration
 role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ Uso [!DNL Adobe Target] para calcular el aumento de ingresos que obtendría si t
 
 >[!NOTE]
 >
->El alza estimada no está disponible para [!UICONTROL Segmentación de experiencias] (XT) en este momento.
+>El alza estimada no está disponible para [!UICONTROL Segmentación de experiencias] (XT) actividades en este momento.
 
 La característica de alza estimada está desactivada de manera predeterminada. Se puede habilitar en las preferencias de cuenta. Solo los usuarios administradores de Experience Cloud pueden activar o desactivar esta característica. Si se deshabilita el alza estimada, los campos correspondientes no aparecerán en la interfaz. Deshabilitar esta característica no genera pérdidas de datos, incluidos los datos usados para los cálculos. Los cálculos se basan en datos recopilados, independientemente de si la característica está habilitada o no.
 
@@ -30,7 +30,7 @@ Esto calcula el aumento obtenido por la experiencia ganadora y el número total 
 
 El aumento estimado en los ingresos se calcula en función de los ingresos por visita (RPV) obtenidos de la métrica del objetivo principal.
 
-El alza estimada se calcula mediante la fórmula siguiente: (&lt;RPV de experiencia ganadora> - &lt;RPV de experiencia de control>)*&lt;número total de visitantes en la actividad>
+El alza estimada se calcula mediante la fórmula siguiente: (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
 
 El número resultante se redondea a un decimal, como máximo, si la forma corta tiene un solo dígito antes del decimal. Por ejemplo: 1,6 millones de dólares, 60 000 dólares, 900 dólares, 8500 dólares, 205 000 dólares
 

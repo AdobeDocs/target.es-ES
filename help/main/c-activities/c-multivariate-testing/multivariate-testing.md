@@ -1,5 +1,5 @@
 ---
-keywords: prueba multivariable;mvt;factorial completa;mvt o a/b;a/b multivariable;estimador de tráfico;cuándo usar mvt;consideraciones de mvt;multivariable;factorial parcial;factorial parcial;factorial completo
+keywords: prueba multivariable;mvt;factorial completa;mvt o a/b;a/b multivariable;estimador de tráfico;cuándo usar mvt;consideraciones de mvt;multivariable;factorial parcial;factorial parcial;factorial completa
 description: Aprenda a utilizar Multivariate Testing (MVT) en Adobe [!DNL Target] para comparar combinaciones de ofertas en elementos de una página y determinar qué combinación ofrece el mejor rendimiento.
 title: ¿Qué es una prueba multivariable?
 feature: Multivariate Tests
@@ -27,7 +27,7 @@ Las pruebas multivariable también ayudan a encontrar efectos compuestos entre d
 
 En Target, cada combinación es una experiencia. La prueba multivariable compara cada experiencia para que pueda saber qué combinaciones tienen mayor éxito. Al mismo tiempo, se recopilan y analizan datos para comprender en qué medida influyen las ubicaciones y las ofertas en la métrica de éxito.
 
-![imagen multivariada](assets/multivariate.png)
+![imagen multivariable](assets/multivariate.png)
 
 Debido al número de combinaciones que se puede generar, una prueba multivariable requiere más tiempo y tráfico que una prueba A/B. La página debe recibir tráfico suficiente para generar resultados relevantes estadísticamente para cada experiencia. Para obtener resultados útiles, debe conocer la cantidad de tráfico que recibe su página y probar el número óptimo de combinaciones durante la cantidad adecuada de tiempo, a fin de obtener los resultados deseados. El [estimador de tráfico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de Target puede ayudarle a diseñar una prueba que funcione con su tráfico. Antes de usar el estimador de tráfico, debe disponer de estadísticas fiables que muestren el número de impresiones y conversiones que normalmente recibe su sitio. Considere los niveles de tráfico por día. Cuantas más experiencias haya en una actividad, la actividad deberá incluir más tráfico o deberá ejecutarse durante más tiempo. Si su tráfico no es muy elevado, deberá probar un pequeño número de combinaciones; de lo contrario, se necesitará demasiado tiempo para que la prueba genere resultados significativos y resulte útil.
 
@@ -55,21 +55,21 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
 
 * Utilice una prueba MVT para determinar qué elemento es el más importante y, después, realice una prueba A/B que se centre en ese elemento.
 
-   Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más elementos, es aconsejable realizar una prueba MVT antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estos son los elementos en los que debería centrarse un especialista en marketing. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es el elemento más importante para lograr sus objetivos. Una vez que haya determinado qué elementos y contenido son los más útiles para ayudarle a lograr sus objetivos, puede ejecutar una prueba A/B para refinar aún más los resultados, como probar dos imágenes específicas entre sí, o comparar la redacción o los colores de una llamada a la acción. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
+   Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más elementos, es aconsejable realizar una prueba MVT antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estos son los elementos en los que debería centrarse un especialista en marketing. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es el elemento más importante para lograr sus objetivos. Una vez que haya determinado qué elementos y contenido son más útiles para ayudarle a alcanzar sus objetivos, puede ejecutar una prueba A/B para refinar aún más los resultados, como probar dos imágenes específicas una contra la otra o comparar las palabras o los colores de una llamada a la acción. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
 
 ## Consideraciones   {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Utilice una prueba MVT cuando tenga al menos tres elementos que probar. Si tiene menos, ejecute una serie de  pruebas A/B.
 * Seleccione los elementos de página que crea que tendrán un impacto más significativo en los resultados.
 * No incluya demasiados elementos o ubicaciones en una prueba. Cuanto mayor sea el número, más tiempo durará la prueba.
-* Planifique el diseño de la prueba con antelación. No es aconsejable editar una prueba después de que se ponga en marcha y los datos empiecen a recopilarse y analizarse.
+* Planifique el diseño de la prueba con antelación. No es aconsejable editar una prueba después de que se active y de que los datos empiecen a recopilarse y a analizarse.
 * Es recomendable que los elementos sean independientes entre sí.
 
    Por ejemplo, no realice una prueba del diseño y del contenido a la vez.
 
 * Planifique más tiempo para el control de calidad debido al aumento del número de experiencias. También puede utilizar pruebas factoriales parciales para reducir la cantidad de tráfico necesario para una prueba multivariable. Para obtener más información, consulte Pruebas factoriales parciales a continuación:
 
-## Pruebas parciales-factoriales
+## Pruebas factoriales parciales
 
 [!DNL Target] ofrece pruebas multivariable totalmente factoriales como opción de actividad integrada. En estadística, Diseño de experimentos ofrece muchos enfoques, o diseños, para determinar qué factores influyen en los resultados. Uno de estos enfoques es el [Método Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) para pruebas factoriales parciales. Taguchi permite a los expertos en marketing realizar una serie de suposiciones que limitan el número de permutaciones de experiencias que se deben probar, lo que a su vez reduce los requisitos de tráfico para una prueba multivariable. Esta funcionalidad y enfoque de prueba puede aprovecharse en [!DNL Target] con esta [hoja de cálculo sin conexión](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
@@ -99,7 +99,7 @@ En este vídeo de información general se describen los tipos de actividades dis
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Creación de pruebas multivariable (9:25) ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+### Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 En este vídeo se explica qué es una prueba multivariable, cómo planificarla y cómo crearla siguiendo el flujo de trabajo guiado de tres pasos de Target.
 

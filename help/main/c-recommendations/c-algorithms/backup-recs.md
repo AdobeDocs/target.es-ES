@@ -1,6 +1,6 @@
 ---
 keywords: recomendación;copia de seguridad;copia;seguridad
-description: Aprenda a utilizar recomendaciones de copia de seguridad en Adobe [!DNL Target] Recommendations. La recomendación que no tiene suficientes artículos recomendados muestra los resultados del algoritmo de copia de seguridad.
+description: Aprenda a utilizar las recomendaciones de copia de seguridad en el Adobe [!DNL Target] Recommendations. Las recomendaciones que no tienen elementos recomendados suficientes muestran los resultados del algoritmo de copia de seguridad.
 title: ¿Cómo utilizo una recomendación de copia de seguridad en Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -14,13 +14,13 @@ ht-degree: 82%
 
 # Usar una recomendación de copia de seguridad
 
-Si utiliza la función de recomendación de copia de seguridad en Adobe Target, cualquier recomendación que no tenga suficientes artículos recomendados no mostrará el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
+Si utiliza la función de copia de seguridad de recomendaciones en Adobe Target, las recomendaciones que no tengan suficientes artículos recomendados no mostrarán el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
 
 Si no utiliza una recomendación de copia de seguridad, y si una recomendación no contiene suficientes artículos para llenar la presentación, el sistema mostrará al usuario contenido predeterminado.
 
 >[!NOTE]
 >
->La información adicional se incluye en el [Sección de contenido de Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) , incluida una matriz que explica los resultados que se observarán al usar la variable [!UICONTROL Representación parcial de diseño] y [!UICONTROL Mostrar copia de seguridad de Recommendations] opciones juntas o por separado.
+>Se incluye información adicional en la [Sección Contenido de Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) tema, incluida una matriz que explica los resultados que observará al utilizar el [!UICONTROL Representación de diseño parcial] y [!UICONTROL Mostrar copia de seguridad de Recommendations] opciones juntas o por separado.
 
 La función de recomendación de copia de seguridad siempre utiliza los artículos más vistos del sitio para llenar los espacios restantes después de utilizar los datos del algoritmo. Por ejemplo, la plantilla está configurada para mostrar cinco artículos recomendados y usted usa el algoritmo *Afinidades de compra*. Sin embargo, solamente tendrá suficientes datos para llenar dos de los cinco espacios, de modo que la función de recomendación de copia de seguridad llena los otros tres espacios con los artículos más vistos.
 

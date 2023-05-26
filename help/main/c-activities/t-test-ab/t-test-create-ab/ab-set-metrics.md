@@ -1,7 +1,7 @@
 ---
 keywords: A/B;métricas de actividad;métricas;definir métricas;métrica de objetivo;métrica de éxito;configuración de actividades;conversión;ingresos;participación
-description: Obtenga información sobre cómo especificar métricas en un Adobe [!DNL Target] Actividad A/B para determinar si una visita es satisfactoria, como Conversión, Ingresos y Participación.
-title: ¿Cómo establezco métricas de objetivo en una actividad A/B?
+description: Obtenga información sobre cómo especificar métricas en un Adobe [!DNL Target] Actividad A/B para determinar si una visita es satisfactoria; por ejemplo, en el caso de la conversión, los ingresos y la participación.
+title: ¿Cómo configuro las métricas de objetivo en una actividad A/B?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 85%
 
 # Definir métricas
 
-Uso de métricas en un [!DNL Adobe Target] Actividad A/B para determinar si una visita es satisfactoria.
+Uso de métricas en una [!DNL Adobe Target] Actividad A/B para determinar si una visita es satisfactoria.
 
 Para obtener información detallada sobre las métricas de éxito, consulte  [Métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 

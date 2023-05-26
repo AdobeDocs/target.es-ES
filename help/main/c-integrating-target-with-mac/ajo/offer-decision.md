@@ -1,7 +1,7 @@
 ---
-keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias;opciones de experiencia;decisión de ofertas;offer decisioning;ajo;optimización de recorrido
-description: Obtenga información sobre cómo añadir una decisión de oferta creada en [!DNL Adobe Journey Optimizer] a una actividad .
-title: ¿Cómo Utilizo Las Decisiones De Oferta?
+keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias;opciones de experiencia;decisión de oferta;offer decisioning;ajo;optimizador de recorridos
+description: Obtenga información sobre cómo añadir una decisión de oferta creada en [!DNL Adobe Journey Optimizer] a una actividad.
+title: ¿Cómo Se Utilizan Las Decisiones De Oferta?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
@@ -13,50 +13,50 @@ ht-degree: 1%
 
 # Uso de decisiones de oferta
 
-Uso [!DNL Adobe Target] con [!DNL Adobe Journey Optimizer] decisiones de oferta para determinar y entregar la siguiente mejor oferta para sus visitantes en la web y dispositivos móviles.
+Uso [!DNL Adobe Target] con [!DNL Adobe Journey Optimizer] ofrece decisiones para determinar y entregar la siguiente mejor oferta para sus visitantes en la web y dispositivos móviles.
 
-Agregar decisiones de oferta creadas en [!DNL Adobe Journey Optimizer] a [!DNL Target] actividades (manual [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias]) mediante [!UICONTROL Compositor de experiencias visuales] (VEC) o [!UICONTROL Compositor basado en formularios] para probar y entregar ofertas personalizadas a los visitantes en los canales entrantes ofrecidas por [!DNL Target].
+Añadir decisiones de oferta creadas en [!DNL Adobe Journey Optimizer] hasta [!DNL Target] actividades (manual) [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias]) mediante el complemento [!UICONTROL Compositor de experiencias visuales] (VEC) o el [!UICONTROL Compositor basado en formularios] para probar y entregar ofertas personalizadas a los visitantes en sus canales de entrada con tecnología [!DNL Target].
 
-Para obtener más información, consulte [!DNL Adobe Journey Optimizer] y las decisiones de oferta, consulte los temas siguientes en la sección *[!DNL Journey Optimizer]* documentación:
+Para obtener más información acerca de [!DNL Adobe Journey Optimizer] y decisiones de oferta, consulte los siguientes temas en la *[!DNL Journey Optimizer]* documentación:
 
 * [Introducción a Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [Acerca de la gestión de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
+* [Acerca de Administración de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## Requisitos previos  
 
-Para usar las decisiones de oferta en [!DNL Target], necesita lo siguiente:
+Para usar decisiones de oferta en [!DNL Target], necesita lo siguiente:
 
-* [!DNL Adobe Target Standard] o [!DNL Adobe Target Premium] implementado usando la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+* [!DNL Adobe Target Standard] o [!DNL Adobe Target Premium] implementado con la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
-   La función no está disponible al implementar [!DNL Target] con at.js u otros [!DNL Target] SDK.
+   La función no está disponible al implementar [!DNL Target] con at.js u otro [!DNL Target] SDK.
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer decisioning) o [!DNL Adobe Experience Platform] y [!UICONTROL offer decisioning] complemento del servicio de aplicaciones.
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer decisioning) o [!DNL Adobe Experience Platform] y el [!UICONTROL Offer decisioning] complemento del servicio de aplicaciones.
 
 ## Ejemplos de uso
 
-Los siguientes ejemplos son casos de uso de cómo puede usar la variable [!DNL Target]/[!DNL Adobe Journey Optimizer] integración para utilizar las decisiones de oferta en [!DNL Target] actividades:
+Los siguientes ejemplos son casos de uso de cómo se puede utilizar el [!DNL Target]/[!DNL Adobe Journey Optimizer] integración para utilizar decisiones de oferta en [!DNL Target] actividades:
 
 ### Comercialización deportiva
 
-Como especialista en marketing de una liga deportiva, desea personalizar el contenido en su página principal (tanto en el sitio web de escritorio como en el móvil). Desea personalizar el contenido basado en varias dimensiones y presentar una oferta a los productos de franquicia relacionados con la tienda. Le interesa:
+Como experto en marketing de una liga deportiva, desea personalizar el contenido de su página de inicio (tanto en el escritorio como en el sitio web móvil). Desea personalizar el contenido en función de varias dimensiones y presentar una oferta para la mercancía de la franquicia relacionada con la tienda. Está interesado en:
 
 * El equipo favorito del visitante
-* Actividad reciente del atleta/jugador (por ejemplo, movimiento del equipo, actualizaciones de contratos o lesiones)
+* Actividad reciente del atleta/jugador (por ejemplo, movimiento del equipo, actualizaciones de contrato o lesiones)
 
-Por ejemplo, desea ofrecer una experiencia personalizada para cada una de las regiones siguientes: Dortmund, Frankfurt y Bochum, así como para los usuarios que son seguidores implícitos y explícitos de estos equipos. Como métricas, le interesa ver las visitas y los clics en el sitio de mercadotecnia.
+Por ejemplo, desea ofrecer una experiencia personalizada para cada una de las siguientes regiones: Dortmund, Frankfurt y Bochum, y para los usuarios que son seguidores implícitos y explícitos de estos equipos. Como métricas, le interesa ver las visitas y los clics en el sitio de productos.
 
-Desea diseñar un [!UICONTROL Prueba A/B] actividad (50/50 dividido) entre la experiencia predeterminada y la experiencia personalizada (que incluye una decisión de oferta con ofertas para cada región y equipo). Desea utilizar esta actividad para determinar la conversión y el alza de la experiencia personalizada frente al control.
+Desea diseñar un [!UICONTROL Prueba A/B] actividad (división 50/50) entre la experiencia predeterminada y la experiencia personalizada (que incluye una decisión de oferta con ofertas para cada región y equipo). Desea utilizar esta actividad para determinar la conversión y el alza de la experiencia personalizada en comparación con el control.
 
 ### Plataformas de transmisión de juegos
 
-Como comerciante de una organización de juegos, desea ofrecer una oferta personalizada para una plataforma de transmisión de juegos para usuarios de equipos de escritorio y móviles de diferentes regiones geográficas: Alemania, Francia, México y Brasil. Cuando un visitante accede al escritorio o al sitio web móvil desde una de esas regiones geográficas, desea ofrecer una oferta para la transmisión de juegos en el idioma local y con el precio correspondiente para la moneda local.
+Como experto en marketing de una organización de juegos, le interesa ofrecer una oferta personalizada para una plataforma de transmisión de juegos para usuarios de equipos de escritorio y móviles de diferentes regiones geográficas: Alemania, Francia, México y Brasil. Cuando un visitante accede al sitio web de escritorio o móvil desde una de esas ubicaciones geográficas, quiere ofrecer una oferta de transmisión de juegos en línea en el idioma local y con el precio correspondiente en la moneda local.
 
-En [!DNL Adobe Journey Optimizer], puede crear una oferta de página principal personalizada para cada una de las regiones geográficas objetivo, además de una oferta de reserva con una página principal predeterminada. A continuación, puede crear una decisión de oferta que incorpore estas ofertas y sus reglas de idoneidad. A continuación, en [!DNL Target], puede crear un [!DNL Experience Targeting] (XT) e inserte esa decisión de oferta en su sitio web de escritorio o móvil para ofrecer la experiencia personalizada a los visitantes.
+Entrada [!DNL Adobe Journey Optimizer], puede crear una oferta personalizada de página principal a pantalla completa para cada una de las regiones segmentadas, además de una oferta de reserva con una página principal a pantalla completa predeterminada. A continuación, puede crear una decisión de oferta que incorpore estas ofertas y sus reglas de idoneidad. A continuación, en [!DNL Target], puede crear un [!DNL Experience Targeting] (XT) e inserte esa decisión de oferta en su sitio web de escritorio o móvil para ofrecer la experiencia personalizada a los visitantes.
 
-## Cree una experiencia que use una decisión de oferta:
+## Cree una experiencia que utilice una decisión de oferta:
 
-1. Mientras edita o crea un manual [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias] (XT) en la [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en un elemento de página para mostrar el [menú opciones](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Al editar o crear un manual [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias] (XT) actividad en la [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en un elemento de página para mostrar el [menú opciones](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    ![Menú Opciones del Compositor de experiencias visuales](assets/options-menu1.png)
 
@@ -64,50 +64,50 @@ En [!DNL Adobe Journey Optimizer], puede crear una oferta de página principal p
    >
    >También puede crear una experiencia que utilice [!UICONTROL Decisiones de oferta] en el [[!UICONTROL Compositor de experiencias basadas en formularios]](/help/main/c-experiences/form-experience-composer.md).
 
-1. Haga clic en **[!UICONTROL Insertar antes]**, **[!UICONTROL Insertar después]** o **[!UICONTROL Reemplazar contenido]** y haga clic en **[!UICONTROL Decisión de oferta]**.
+1. Clic **[!UICONTROL Insertar antes]**, **[!UICONTROL Insertar después]**, o **[!UICONTROL Reemplazar contenido]**, luego haga clic en **[!UICONTROL Decisión de oferta]**.
 
-   La variable [!UICONTROL Decisión de oferta] está disponible al editar o crear [manual [!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Segmentación de experiencias]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo. Esta opción no está disponible para otros tipos de actividades. Las opciones disponibles en el menú varían en función del elemento seleccionado.
+   El [!UICONTROL Decisión de oferta] está disponible al editar o crear [manual [!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Segmentación de experiencias]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo actividades de. Esta opción no está disponible para otros tipos de actividades. Las opciones disponibles en el menú varían según el elemento seleccionado.
 
    ![Menú Opciones del Compositor de experiencias visuales](assets/options-menu.png)
 
-1. En el **[!UICONTROL Agregar decisión de oferta]** seleccione el entorno limitado y la ubicación que desee.
+1. En el **[!UICONTROL Agregar decisión de oferta]** , seleccione la zona protegida y la ubicación deseadas.
 
-   A [entorno limitado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} en [!DNL Adobe Journey Optimizer] ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta.
+   A [espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta.
 
-   ![Listas desplegables de Simulador para pruebas y Colocaciones en el cuadro de diálogo Agregar decisión de oferta](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
+   ![Listas desplegables Zona protegida y Ubicaciones en el cuadro de diálogo Agregar decisión de oferta](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
 1. Seleccione la decisión de oferta que desee y haga clic en **[!UICONTROL Crear]**.
 
    ![Decisión de oferta seleccionada en el cuadro de diálogo Agregar decisión de oferta](assets/offer-decision.png)
 
-   Su sitio web se muestra en el VEC, donde puede ver la decisión de oferta recién creada en la [!UICONTROL Modificaciones] en el lado derecho. Puede pasar el ratón sobre la modificación y hacer clic en la [!UICONTROL Vista previa] para examinar la decisión de la oferta.
+   Su sitio web se muestra en el VEC, donde puede ver la decisión de oferta recién creada en la [!UICONTROL Modificaciones] en el lado derecho. Puede pasar el ratón sobre la modificación y hacer clic en [!UICONTROL Previsualizar] para examinar la decisión de oferta.
 
    ![Icono de vista previa](assets/preview-icon.png)
 
-   Puede examinar las distintas ofertas contenidas en la oferta haciendo clic en el icono correspondiente en la parte inferior del [!UICONTROL Vista previa de oferta] , incluida la oferta de reserva. Una oferta de reserva es la oferta predeterminada que se muestra cuando un visitante no es apto para ninguna de las ofertas personalizadas de la colección.
+   Puede examinar las distintas ofertas contenidas en la oferta haciendo clic en el icono correspondiente en la parte inferior de la [!UICONTROL Previsualización de oferta] , incluida la oferta de reserva. Una oferta de reserva es la oferta predeterminada que se muestra cuando un visitante no cumple los requisitos para ninguna de las ofertas personalizadas de la colección.
 
    ![Previsualización de oferta](assets/offer-preview.png)
 
-1. Termine de crear la actividad completando la [!UICONTROL Segmentación] y [!UICONTROL Objetivos y configuración] pasos del flujo de trabajo guiado de tres partes.
+1. Termine de crear la actividad completando el [!UICONTROL Segmentación] y [!UICONTROL Objetivos y configuración] pasos del flujo de trabajo guiado de tres partes.
 
    >[!IMPORTANT]
    >
-   >Para garantizar que la variable [!DNL Target] actividad personalizada, asegúrese de que las fechas de inicio y finalización de la actividad actual estén sincronizadas con las fechas de inicio y finalización de la decisión de oferta en [!DNL Adobe Journey Optimizer]. Si la variable [!DNL Target] las fechas de inicio y finalización están fuera del intervalo de fechas de inicio y finalización de la decisión de oferta, el valor predeterminado [!DNL Target] El contenido se muestra a los visitantes.
+   >Para garantizar que la variable [!DNL Target] la actividad está personalizada. asegúrese de que las fechas de inicio y finalización de la actividad actual estén sincronizadas con las fechas de inicio y finalización de la decisión de oferta en [!DNL Adobe Journey Optimizer]. Si la variable [!DNL Target] las fechas de inicio y finalización están fuera del intervalo de fechas de inicio y finalización de la decisión de oferta, el valor predeterminado [!DNL Target] el contenido se muestra a los visitantes.
 
    ![Mensaje de advertencia de decisión de oferta](/help/main/c-integrating-target-with-mac/ajo/assets/offer-decision-warning.png)
 
 ## Notas y limitaciones
 
-Tenga en cuenta la siguiente información cuando trabaje con decisiones de oferta:
+Tenga en cuenta la siguiente información al trabajar con decisiones de oferta:
 
-* La integración de offer decisioning funciona para [!DNL Target] implementaciones basadas en [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Esta función no está disponible al implementar [!DNL Target] con at.js u otros [!DNL Target] SDK.
+* La integración de offer decisioning funciona para [!DNL Target] implementaciones basadas en [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Esta función no está disponible al implementar [!DNL Target] con at.js u otro [!DNL Target] SDK.
 
-* La variable [!DNL Target]/[!DNL Adobe Journey Optimizer] compatibilidad con la integración [manual [!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) y [[!UICONTROL Segmentación de experiencias]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo. Esta función no está disponible para otros tipos de actividades.
+* El [!DNL Target]/[!DNL Adobe Journey Optimizer] La integración admite [manual [!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) y [[!UICONTROL Segmentación de experiencias]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo actividades de. Esta función no está disponible para otros tipos de actividades.
 
-* No puede usar [[!UICONTROL Analytics como fuente de informes]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) si utiliza decisiones de oferta en una actividad. Choose [!DNL Target] como fuente de informes en la variable [!UICONTROL Configuración y objetivos] durante la configuración de la actividad si utiliza las decisiones de oferta en la actividad.
+* No puede utilizar [[!UICONTROL Analytics como fuente de informes]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) si utiliza decisiones de oferta en una actividad. Elegir [!DNL Target] como fuente de informes en la [!UICONTROL Configuración y objetivos] página durante la configuración de la actividad si utiliza decisiones de oferta en la actividad.
 
-* Las ofertas con el tipo de contenido text/html no admiten la entrega de contenido deliveryURL. deliveryURL se admite a través de la variable [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) solo cuando el cliente es responsable de recuperar y componer explícitamente el contenido.
+* Las ofertas con el tipo de contenido text/html no admiten la entrega de contenido deliveryURL. La dirección URL de envío es compatible mediante [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) solo cuando el cliente sea responsable de recuperar y maquetar explícitamente el contenido.
 
-* [!DNL Target] los informes no proporcionan informes a nivel de decisión de oferta.
+* [!DNL Target] La creación de informes de no proporciona informes de nivel de decisión de oferta.
 
-* Visualización [Vínculos de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) para [!DNL Target] las experiencias que contienen decisiones de oferta afectan al límite de frecuencia establecido en [!DNL Adobe Journey Optimizer] para esas decisiones de oferta.
+* Visualización [Vínculos de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) para [!DNL Target] las experiencias que contienen decisiones de oferta afectan a la restricción de frecuencia establecida en [!DNL Adobe Journey Optimizer] para las decisiones de oferta.

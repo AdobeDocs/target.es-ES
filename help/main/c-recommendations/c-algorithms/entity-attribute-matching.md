@@ -1,7 +1,7 @@
 ---
 keywords: reglas de inclusión;criterios de inclusión;recomendaciones;promoción;promociones;filtrado dinámico;dinámico;coincidencia de atributos de entidad
-description: Aprenda a filtrar dinámicamente en Adobe [!DNL Target] Recommendations comparando un grupo de elementos potenciales con un elemento específico con el que el usuario ha interactuado.
-title: ¿Cómo Filtro Por Coincidencia De Atributos De Entidad En Actividades De Recommendations?
+description: Aprenda a filtrar dinámicamente en el Adobe [!DNL Target] Recommendations comparando un grupo de elementos potenciales con un elemento específico con el que el usuario ha interactuado.
+title: ¿Cómo filtro por coincidencia de atributos de entidad en las actividades de Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # Coincidencia de atributos de entidad
 
-Filtre dinámicamente en [!DNL Adobe Target] [!DNL Recommendations] comparando un grupo de posibles elementos de recomendaciones con un elemento específico con el que el usuario ha interactuado.
+Filtrado dinámico en [!DNL Adobe Target] [!DNL Recommendations] al comparar un grupo de posibles elementos de recommendations con un elemento específico con el que el usuario ha interactuado.
 
 >[!NOTE]
 >
->La variable [proceso para crear y usar reglas de inclusión](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) para criterios y promociones es similar, al igual que los casos de uso y los ejemplos.
+>El [proceso para crear y utilizar reglas de inclusión](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) para criterios y promociones es similar, al igual que los casos de uso y ejemplos.
 
-Por ejemplo, recomendar solo elementos que coincidan con la marca del elemento actual como en el siguiente ejemplo:
+Por ejemplo, recomendar solo elementos que coincidan con la marca del elemento actual, como en el siguiente ejemplo:
 
-Si el mbox de una página de aterrizaje de marca devuelve el valor `entity.brand=brandA`y, a continuación, solo se devuelven los productos de Marca A y se muestran en esa página. Del mismo modo, en la página de aterrizaje de la marca B, solo se devuelven los productos de la marca B. Con este tipo de regla de inclusión dinámica, el usuario solo debe especificar una regla de recomendación que devuelva resultados de marca relevantes en todas las páginas de marca, en lugar de especificar una colección o un filtro estático que coincida con cada nombre de marca.
+Si el mbox de una página de aterrizaje de marca devuelve `entity.brand=brandA`, solo se devuelven y se muestran en esa página los productos de la marca A. Del mismo modo, en la página de aterrizaje de la marca B, solo se devuelven los productos de la marca B. Con este tipo de regla de inclusión dinámica, el usuario solo debe especificar una regla de recomendación que devuelva los resultados de marca relevantes en todas las páginas de marca, en lugar de especificar una colección o un filtro estático para que coincida con cada nombre de marca.
 
-Tenga en cuenta que debe enviar la variable `entity.brand` en el mbox de esas páginas de aterrizaje para que esto funcione.
+Tenga en cuenta que debe enviar la `entity.brand` en el mbox de esas páginas de aterrizaje para que esto funcione.
 
 ## Ejemplos de coincidencia de atributos de entidad
 
-[!UICONTROL Coincidencia de atributos de entidad] le permite recomendar solo los elementos que coincidan, por ejemplo:
+[!UICONTROL Coincidencia de atributos de entidad] permite recomendar solo los elementos que coinciden, por ejemplo:
 
-* Un atributo del elemento que el usuario está viendo en este momento
+* Atributo del elemento que el usuario está viendo en este momento
 * El artículo que el usuario vio más recientemente
 * El artículo que el usuario compró más recientemente
 * El artículo que el usuario vio con mayor frecuencia
@@ -38,25 +38,25 @@ Tenga en cuenta que debe enviar la variable `entity.brand` en el mbox de esas p�
 
 ### Recomendación de artículos según la marca
 
-Una vez creadas las reglas de atributos de entidad, filtrarán todas las recomendaciones con atributos que no coincidan con el valor de entidad pasado en la página.
+Una vez creadas las reglas de atributos de entidad, filtrarán todas las recomendaciones con atributos que no coincidan con el valor de entidad pasado a la página.
 
-El siguiente ejemplo muestra recomendaciones que coinciden con la marca de producto mostrada en la página:
+El siguiente ejemplo muestra recomendaciones que coinciden con la marca del producto que se muestra en la página:
 
-Cuando visita una página que incluye un producto de Marca A, la página establece el valor de la variable `entity.brand` como &quot;BrandA&quot;.
+Cuando visita una página que incluye un producto de marca A, la página establece el valor de la variable `entity.brand` parámetro para &quot;BrandA&quot;.
 
 ![Ejemplo de llamada de Target](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
 
-En las recomendaciones de la página, solo verá los productos de Marca A.
+En las recomendaciones de la página, solo verá productos de la marca A.
 
-![Recomendaciones de la marca A](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
+![Recomendaciones de marca A](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
 
-Si a continuación ve la página de producto de Marca B, la variable `entity.brand` se restablecerá a &quot;BrandB&quot; y verá los productos de Marca B recomendados en las páginas de producto de Marca B.
+Si ve una página de producto de Marca B, la variable `entity.brand` El valor se restablecerá a &quot;Marca B&quot; y verá productos de la Marca B recomendados en páginas de productos de la Marca B.
 
-![Recomendaciones de la marca B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
+![Recomendaciones de marca B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
-### Ampliar las ventas a un producto más caro
+### Ampliación de ventas a un producto más caro
 
-Supongamos que es un vendedor de ropa y desea animar a los usuarios a considerar artículos de mayor precio y, por lo tanto, más rentables. Puede utilizar los operadores &quot;es igual que&quot; y &quot;está entre&quot; para promocionar artículos más caros que pertenecen a la misma categoría y a la misma marca. Por ejemplo, un vendedor de zapatos puede promocionar unas zapatillas más caras con el fin de venderlas a un visitante que esté mirando zapatillas, como en la siguiente muestra:
+Supongamos que es un minorista de ropa y desea animar a los usuarios a considerar artículos de mayor precio y, por lo tanto, más rentables. Puede usar los operadores &quot;es igual que&quot; y &quot;está entre&quot; para promocionar artículos más caros que pertenecen a la misma categoría y a la misma marca. Por ejemplo, un minorista de zapatos puede promocionar zapatos de running más caros en un esfuerzo por mejorar la venta de un visitante que mira zapatillas de running, como en el siguiente ejemplo:
 
 ![Ampliación de ventas](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
 
@@ -71,11 +71,11 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### Promoción de productos con etiquetas privadas
+### Promoción de productos de marca privada
 
-Puede combinar filtros dinámicos y estáticos para promocionar productos de etiquetas privadas. Por ejemplo, una empresa de suministro de oficina puede promocionar cartuchos de tóner de la marca propia de la empresa para obtener una venta más rentable para un visitante que observe el tóner y promocionar plumas de la marca propia de la empresa para obtener una venta más rentable para un visitante que esté mirando plumas, como en el siguiente ejemplo:
+Puede combinar filtros dinámicos y estáticos para promocionar productos de etiqueta privada. Por ejemplo, una empresa de suministros de oficina puede promocionar cartuchos de tóner de la marca de la casa de la empresa para impulsar una venta más rentable para un visitante que mira el tóner, y promocionar bolígrafos de la marca de la casa de la empresa para impulsar una venta más rentable para un visitante que mira los bolígrafos, como en el siguiente ejemplo:
 
-![Marca de casa](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
+![Marca de la casa](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
 
 ```
 Entity Attribute Matching

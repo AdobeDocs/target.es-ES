@@ -12,7 +12,7 @@ ht-degree: 97%
 
 ---
 
-# Recomendaciones Comparación entre las actividades Classic y Recommendations en [!DNL Target] Premium
+# Recomendaciones Comparación entre las actividades clásicas y Recommendations en [!DNL Target] Premium
 
 Información para ayudarlo a elegir entre Recommendations Classic y actividades de Recommendations en Target Premium.
 

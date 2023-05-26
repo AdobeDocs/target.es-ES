@@ -1,8 +1,8 @@
 ---
 keywords: entidad;atributos de entidad;pasar información a Recommendations;datos de comportamiento;contador de datos;definir URL relativa;mostrar nivel de inventario;definir precio;definir margen de beneficios;atributos personalizados
-description: Aprenda a utilizar los atributos de entidad para pasar información de producto o contenido a [!DNL Target] Recommendations.
+description: Aprenda a utilizar atributos de entidad para pasar información de producto o contenido a [!DNL Target] Recommendations.
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-title: ¿Cómo Se Utilizan Los Atributos De Entidad?
+title: ¿Cómo se utilizan los atributos de entidad?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
@@ -22,16 +22,16 @@ Las entidades se refieren a los elementos que desea recomendar. Las entidades pu
 
 Tenga en cuenta lo siguiente:
 
-* `entity.id` debe coincidir con la variable `productPurchasedId` se envía a la página de confirmación del pedido y a la página de `productId` se usa en [!DNL Adobe Analytics] informes de productos.
-* Valores de atributo de entidad a los que se pasan [!DNL Recommendations] caducan después de 61 días. Adobe recomienda pasar el valor más reciente de cada atributo de entidad a [!DNL Recommendations] al menos una vez al mes para cada artículo del catálogo.
+* `entity.id` debe coincidir con el `productPurchasedId` se envía a la página de confirmación del pedido y a la `productId` se usa en [!DNL Adobe Analytics] informes de productos.
+* Valores de atributo de entidad que se pasan a [!DNL Recommendations] caduca pasados 61 días. Adobe recomienda pasar el valor más reciente de cada atributo de entidad a [!DNL Recommendations] al menos una vez al mes por cada artículo del catálogo.
 
 La mayoría de los parámetros predefinidos solo aceptan un valor único. Los valores nuevos sobrescriben a los antiguos. El parámetro `categoryId` puede aceptar una lista de valores delimitados por comas para cada categoría que contenga el producto. Los nuevos valores de `categoryId` no sobrescriben los valores existentes, sino que, en cambio, se agregan durante la actualización de entidades (límite de 250 caracteres).
 
-En general, el mbox de información de visualización se parece al siguiente ejemplo si utiliza at.js 1.*x* con `mboxCreate`. Todos los atributos de parámetros de entidad distinguen entre mayúsculas y minúsculas.
+En general, el mbox de información de visualización tiene el siguiente aspecto si utiliza at.js 1.*x* con `mboxCreate`. Todos los atributos de parámetros de entidad distinguen entre mayúsculas y minúsculas.
 
 >[!NOTE]
 >
->Si utiliza at.js 2.*x*, `mboxCreate` (como se usa en el ejemplo siguiente) ya no es compatible. Para pasar información de producto o contenido a [!DNL Recommendations] uso de at.js 2.*x*, use [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
+>Si utiliza at.js 2.*x*, `mboxCreate` (como se utiliza en el ejemplo siguiente) ya no es compatible. Para pasar información de producto o contenido a [!DNL Recommendations] uso de at.js 2.*x*, use [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -79,7 +79,7 @@ Solamente valor único.
 
 Este parámetro obligatorio identifica el producto. Este ID alfanumérico debe ser el mismo en todos los productos de [!DNL Adobe Experience Cloud] que utilice, incluido [!DNL Analytics], a fin de que los distintos productos reconozcan el artículo y compartan los datos sobre él.
 
-La variable `entity.id` Los valores deben *not* contienen espacios, barras diagonales, símbolos, signos de interrogación, símbolos de porcentaje, comas u otros caracteres de puntuación que requieran codificación URL cuando se pasan en una llamada a la API de REST. Se permiten guiones y guiones bajos. Incluida puntuación no válida en un valor `entity.id` hace que algunas funciones de [!DNL Recommendations] fallen.
+El `entity.id` Los valores deben *no* contiene espacios, barras diagonales, el símbolo &amp;, signos de interrogación, símbolos de porcentaje, comas u otros caracteres de puntuación que requieran codificación URL cuando se pasan en una llamada de API REST. Se permiten guiones y guiones bajos. Incluida puntuación no válida en un valor `entity.id` hace que algunas funciones de [!DNL Recommendations] fallen.
 
 Ejemplo: `'entity.id=67833'`
 
@@ -95,9 +95,9 @@ Ejemplo: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Admite varios valores (lista separada por comas).
 
-Categoría de la página actual. entity.categoryID puede incluir varias categorías, como una subsección de rebecas (por ejemplo, mujer, mujer:jerséis, mujer):sweaters:cardigans). Las categorías múltiples deben separarse con comas.
+Categoría de la página actual. entity.categoryID puede incluir varias categorías, como una subsección de rebecas (por ejemplo, mujer, mujer:suéters, mujer:sweaters:cardigans). Las categorías múltiples deben separarse con comas.
 
-La variable `categoryId` está limitada a 250 caracteres.
+El `categoryId` El valor está limitado a 250 caracteres.
 
 >[!NOTE]
 >
@@ -105,19 +105,19 @@ La variable `categoryId` está limitada a 250 caracteres.
 
 Ejemplos:
 
-* Ejemplo de página de detalles del producto: mujer, mujer:suéters, mujer:sweaters:cardigans
+* Ejemplo de página Detalles del producto: mujer, mujer:suéters, mujer:sweaters:cardigans
 * Ejemplo de página de categoría Suéters: mujer:suéters
-* Ejemplo de página de categoría Cardigans: mujeres:sweaters:cardigans
+* Ejemplo de página de categoría Cardigans: mujer:sweaters:cardigans
 
 Para las recomendaciones basadas en categorías, una coma separa el valor de categoría. Los valores separados por comas pasan a ser categorías. También puede definir subcategorías con otro separador, como los dos puntos (:), para separar las subcategorías dentro del valor de categoría.
 
-Por ejemplo, en el siguiente código, la categoría Mujer se divide en varias subcategorías:
+Por ejemplo, en el código siguiente, la categoría Mujer se divide en varias subcategorías:
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-Para la entrega de mbox, se utiliza el nombre de atributo más largo para la clave. Si hay un empate, se utiliza el último atributo. En el ejemplo anterior, la clave de categoría es Mujer:Outerwear:Chaquetas: Caban.
+Para la entrega de mbox, se utiliza el nombre de atributo más largo para la clave. Si hay un empate, se utiliza el último atributo. En el ejemplo anterior, la clave de categoría es Mujer:Outerwear:Chaquetas:Caban.
 
 ### entity.brand
 
@@ -159,11 +159,11 @@ Muestra el nivel de inventario del artículo.
 
 Ejemplo: `'entity.inventory=1'`
 
-**Gestión de atributos de inventario vacíos:** Para la entrega, si tiene una regla de inclusión, una regla de recopilación o una configuración de criterios con `entity.inventory` > 0 o `entity.inventory` = 0 y el producto no tiene inventario establecido, [!DNL Target] evalúa este valor como TRUE e incluye productos donde no se ha establecido el inventario. Como resultado, los productos con inventario no establecido se muestran en los resultados de la recomendación.
+**Gestión de atributos de inventario vacío:** Para la entrega, si tiene una regla de inclusión, una regla de recopilación o una configuración de criterios con `entity.inventory` > 0 o `entity.inventory` = 0 y el producto no tiene inventario establecido, [!DNL Target] evalúa este valor como TRUE e incluye productos donde no hay inventario establecido. Como resultado, los productos con inventario no establecido se muestran en los resultados de la recomendación.
 
 Igualmente, si tiene una regla de exclusión global con `entity.inventory` = 0 y `entity.inventory` no está establecido, [!DNL Target] evalúa esta regla como TRUE y excluye el producto.
 
-**Problema conocido:** La búsqueda de productos no es coherente con la entrega de atributos de valor de inventario que no están establecidos. Por ejemplo, para una regla con `entity.inventory` = 0 , la búsqueda de productos no muestra los productos en los que no se ha establecido el valor de inventario.
+**Problema conocido:** La búsqueda de productos no es coherente con la entrega para los atributos de valor de inventario que no están establecidos. Por ejemplo, para una regla con `entity.inventory` = 0 , la búsqueda de productos no muestra los productos sin valor de inventario establecido.
 
 ### entity.value
 
@@ -187,7 +187,7 @@ Ejemplo: `'entity.margin=1.00'`
 
 Admite varios valores (matriz JSON).
 
-Define hasta 100 variables personalizadas que proporcionan información adicional sobre el artículo. Puede especificar el nombre de los atributos no utilizados para cada atributo personalizado. Por ejemplo, puede crear un atributo personalizado llamado `entity.genre` para definir un libro o una película. Un vendedor de entradas puede crear atributos del lugar de celebración de un actor secundario, como un equipo visitante en un evento deportivo o un acto de apertura en un concierto.
+Define hasta 100 variables personalizadas que proporcionan información adicional sobre el artículo. Puede especificar el nombre de los atributos no utilizados para cada atributo personalizado. Por ejemplo, puede crear un atributo personalizado llamado `entity.genre` para definir un libro o una película. Un vendedor de entradas puede crear atributos del lugar de celebración para un actor secundario, como un equipo visitante en un evento deportivo o un acto de apertura en un concierto.
 
 Restricciones:
 

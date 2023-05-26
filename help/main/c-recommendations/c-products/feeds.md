@@ -1,7 +1,7 @@
 ---
-keywords: fuente de recomendaciones;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
-description: Descubra cómo las fuentes importan entidades en el Adobe [!DNL Target] Recommendations utiliza archivos CSV, el formato de fuente de Búsqueda de productos de Google y las clasificaciones de productos de Analytics.
-title: ¿Cómo utilizo las fuentes en [!DNL Target] ¿Recommendations?
+keywords: fuente de recommendations;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
+description: Descubra cómo las fuentes importan entidades en Adobe [!DNL Target] Recommendations con archivos CSV, el formato de fuente de Búsqueda de productos de Google y las clasificaciones de productos de Analytics.
+title: ¿Cómo utilizo las fuentes en? [!DNL Target] ¿Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
@@ -20,16 +20,16 @@ Utilice fuentes para obtener entidades importadas en [!DNL Adobe Target Recommen
 
 Las fuentes le permiten transferir [Entidades](/help/main/c-recommendations/c-products/products.md) o ampliar los datos de mbox con información que, o bien no está disponible en la página, o bien no es seguro enviar directamente desde la página, como margen, COGS, etc.
 
-Las fuentes permiten pasar información detallada del artículo a [!DNL Recommendations], como ID del producto, categoría, nombre, mensaje y otros atributos.
+Las fuentes permiten pasar información detallada del artículo a [!DNL Recommendations], como el ID del producto, la categoría, el nombre, el mensaje y otros atributos.
 
 Puede seleccionar las columnas de su archivo de clasificaciones de productos de [!DNL Target] o del archivo de Búsqueda de productos de Google que desea enviar al servidor de [!DNL Recommendations].
 
-Estos fragmentos de datos sobre cada elemento se pueden utilizar para:
+Estos datos sobre cada elemento se pueden utilizar para lo siguiente:
 
 * Mostrar valores en diseños
 * Definir reglas de inclusión de criterios
 * Ordenar elementos en diferentes colecciones
-* Aplicar exclusiones a recomendaciones
+* Aplicación de exclusiones a recomendaciones
 
 Las descripciones de los elementos se pueden pasar a [!DNL Target] uso de fuentes o mboxes. Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
 
@@ -48,10 +48,10 @@ La página Fuentes contiene las siguientes columnas:
 
 >[!IMPORTANT]
 >
->Las entidades y los atributos de entidad cargados caducan al cabo de 61 días. Esto implica lo siguiente:
+>Las entidades y atributos de entidad cargados caducan al cabo de 61 días. Esto implica lo siguiente:
 >
->* La fuente debe ejecutarse al menos cada mes para garantizar que el contenido del catálogo no caduque.
->* Al eliminar un elemento del archivo de fuente, no se elimina ese elemento del catálogo. Para eliminar el elemento del catálogo, elimínelo manualmente mediante la interfaz de usuario o la API de Target. O bien, modifique los atributos del artículo (como el inventario) para asegurarse de que el artículo esté excluido de la consideración.
+>* La fuente debe ejecutarse al menos una vez al mes para garantizar que el contenido del catálogo no caduque.
+>* Al eliminar un elemento del archivo de fuentes, no se elimina del catálogo. Para eliminar el elemento del catálogo, elimínelo manualmente mediante la interfaz de usuario o la API de Target. O bien, modifique los atributos del artículo (como el inventario) para asegurarse de que el artículo se excluye de la consideración.
 
 
 ## Tipos de origen
@@ -118,13 +118,13 @@ Si tiene una fuente de productos de Google existente, puede usarla como su archi
 >
 >No es obligatorio usar datos de Google. [!DNL Recommendations] solo utiliza el mismo formato que Google. Puede usar este método para cargar los datos que tenga y utilizar las funciones de programación disponibles. No obstante, debe conservar los nombres de atributo predefinidos de Google al configurar el archivo.
 
-La mayoría de vendedores cargan los productos a Google para que dichos productos se muestren cuando un visitante realice una búsqueda de productos en Google. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Las fuentes de entidades se pueden enviar a [!DNL Recommendations] a través de .xml, .txt o .tsv, y puede usar la variable [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
+La mayoría de vendedores cargan los productos a Google para que dichos productos se muestren cuando un visitante realice una búsqueda de productos en Google. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Las fuentes de entidades se pueden enviar a [!DNL Recommendations] mediante .xml, .txt o .tsv, y puede utilizar el [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
 >El método POST debe estar permitido en el servidor que hospeda el contenido de las fuentes de Google.
 
-Porque [!DNL Recommendations] los usuarios ya configuran fuentes .xml o .txt para enviarlas a Google a través de URL o FTP, las fuentes de entidades aceptan esos datos de productos y los utilizan para crear el catálogo de recomendaciones. Especifique si la fuente existe y si el servidor de Recommendations recupera los datos.
+Porque [!DNL Recommendations] Los usuarios de ya configuran las fuentes .xml o .txt para enviarlas a Google a través de una dirección URL o FTP. Las fuentes de entidades aceptan esos datos de productos y los utilizan para crear el catálogo de Recommendations. Especifique si la fuente existe y si el servidor de Recommendations recupera los datos.
 
 Si utiliza la búsqueda de productos de Google para la carga de las fuentes de entidades, debe tener no obstante un mbox de página de producto en la página si desea mostrar recomendaciones en ella o hacer un seguimiento de las vistas de productos para la entrega de algoritmos basados en vistas.
 
@@ -213,12 +213,12 @@ La clasificación de productos Analytics es la única clasificación disponible 
 
 >[!IMPORTANT]
 >
->Antes de importar los datos de la entidad en [!DNL Recommendations] al usar clasificaciones de productos de Analytics, tenga en cuenta que este no es el método preferido.
+>Antes de importar datos de entidad en [!DNL Recommendations] Al usar clasificaciones de productos de Analytics, tenga en cuenta que este no es el método preferido.
 >
 > Tenga en cuenta las siguientes advertencias:
 >
 >* Las actualizaciones de los atributos de la entidad incurren en un retraso adicional de hasta 24 horas.
->* [!DNL Target] solo admite clasificaciones de productos. El SKU del producto de Analytics debe asignarse al mismo nivel que el de [!DNL Recommendations] `entity.id`. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
+>* [!DNL Target] solo admite clasificaciones de productos. El SKU del producto de Analytics debe asignarse al mismo nivel que la variable [!DNL Recommendations] `entity.id`. Las clasificaciones de Analytics personalizadas se pueden diseñar utilizando Adobe Consulting Services. Póngase en contacto con su administrador de cuenta para resolver sus preguntas.
 
 
 ## Crear fuente   {#steps}
@@ -236,7 +236,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
    * Fuente de productos de Google
    * Clasificaciones de Analytics
 
-   Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). También puede [descargar una guía de CSV de modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
+   Para obtener información sobre los tipos de fuentes CSV y Fuente de productos de Google, consulte [Información general de fuentes](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). También puede [descargar una guía CSV como modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
 
 1. (Condicional) Si ha seleccionado **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede acceder a la fuente.
 
@@ -301,7 +301,7 @@ Estos son los posibles estados de una fuente:
 | Esperando descarga | Target se está preparando para descargar el archivo de fuente. |
 | Descargando del archivo de fuente | Target está descargando el archivo de fuente. |
 | Importando elementos | Target está importando elementos del archivo de fuente. |
-| Fuente importada correctamente a las *horas* | Target ha importado el archivo de fuente en el sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán dentro de poco tiempo en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo más tarde y actualice la página que contenga recomendaciones.<br>Notas:<ul><li>Si los cambios en los atributos de un elemento hacen que se excluya un elemento de las recomendaciones, la exclusión se reflejará inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento ya *no* se excluya de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones no se reflejen aún en la interfaz de usuario Búsqueda en el catálogo. Aparece un estado separado en la Búsqueda en catálogo que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
+| Fuente importada correctamente a las *horas* | Target ha importado el archivo de fuente en el sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán dentro de poco tiempo en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo más tarde y actualice la página que contenga recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se reflejará inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento ya *no* se excluya de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones no se reflejen todavía en la interfaz de usuario Búsqueda en el catálogo. Aparece un estado separado en la Búsqueda en catálogo que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
 | Error en la indexación | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
 | Servidor no encontrado | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
 
@@ -309,7 +309,7 @@ Para actualizar una fuente (por ejemplo, si quiere hacer cambios en la configura
 
 >[!IMPORTANT]
 >
->Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un artículo no está incluido en un archivo de fuente (u otro método de actualización de entidad) al menos una vez cada 60 días, [!DNL Adobe Target] deduce que el elemento ya no es relevante y lo elimina del catálogo.
+>Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un elemento no se incluye en un archivo de fuentes (u otro método de actualización de entidad) al menos una vez cada 60 días, [!DNL Adobe Target] infiere que el elemento ya no es relevante y lo elimina del catálogo.
 
 ### Indicadores de estado de fuente   {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 

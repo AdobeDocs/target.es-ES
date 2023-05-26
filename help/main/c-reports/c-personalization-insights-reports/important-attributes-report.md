@@ -1,6 +1,6 @@
 ---
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;segmentación;automática;informe de segmentación automática;informe;personalización;perspectivas;faq;preguntas frecuentes;atributos importantes
-description: Aprenda a utilizar la variable [!UICONTROL Atributos importantes] informe que muestra los principales atributos que influyeron en el modelo de personalización y su importancia relativa.
+description: Aprenda a utilizar el [!UICONTROL Atributos importantes] que muestra los principales atributos que influyeron en el modelo de personalización y su importancia relativa.
 title: ¿Qué es el informe Atributos importantes?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
@@ -8,58 +8,58 @@ exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1855'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
 # Informe Atributos importantes
 
-Información sobre [!UICONTROL Atributos importantes] uno de los dos informes especializados a disposición de los usuarios de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] actividades (AT).
+Información acerca de [!UICONTROL Atributos importantes] es uno de los dos informes especializados disponibles para los usuarios de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] Actividades de (AT).
 
 >[!NOTE]
 >
->Tenga en cuenta lo siguiente al usar [!UICONTROL Perspectivas de personalización] informes:
+>Tenga en cuenta lo siguiente al utilizar [!UICONTROL Perspectivas de personalización] informes:
 >
 >* Las actividades de AP y AT están disponibles como parte de la solución [!DNL Target Premium]. No se incluyen en [!DNL Target Standard] sin una licencia [!DNL Target Premium].
 >
 >* [!UICONTROL Los informes de Perspectivas de personalización están disponibles solo para actividades de AP y AT que utilizan un objetivo de optimización de conversión. ] Tampoco se admiten las actividades en las que el objetivo de optimización se cambió a la conversión de ingresos después de que la actividad ya estaba activa.
 >
->* [!UICONTROL Perspectivas de personalización] los informes solo están disponibles si la variable [!UICONTROL Objetivo principal] se selecciona en la variable [!UICONTROL Métrica de informes] lista desplegable.
+>* [!UICONTROL Perspectivas de personalización] Los informes de solo están disponibles si la variable [!UICONTROL Objetivo principal] se selecciona en el [!UICONTROL Métrica de informes] lista desplegable.
 >
 >* Los informes de perspectivas de personalización solo son compatibles con el [entorno predeterminado](/help/main/administrating-target/hosts.md).
 >
->* [!UICONTROL Perspectivas de personalización] los informes solo se generan para las actividades que se encuentran en la variable [!UICONTROL Activo] y han sido activados y reciben tráfico durante al menos 15 días.
+>* [!UICONTROL Perspectivas de personalización] los informes solo se generan para las actividades que se encuentran en la variable [!UICONTROL Activo] estado y se han activado y recibido tráfico durante al menos 15 días.
 
 
 En las distintas actividades, distintos atributos son más o menos importantes para el modo en que el modelo decide realizar la personalización. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa.
 
 ## Acceda a la [!UICONTROL Atributos importantes] informe {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Haga clic en **[!UICONTROL Actividades]** y, a continuación, haga clic en el [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) actividad de la lista.
+1. Clic **[!UICONTROL Actividades]** y, a continuación, haga clic en [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) actividad de la lista.
 
    Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Fuente de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas] y [!UICONTROL Fuente de la actividad].
 
 1. Haga clic en **[!UICONTROL Informes]**.
 
-   La variable [Resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) que proporciona información sobre el rendimiento de sus actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos [!UICONTROL Perspectivas de personalización] informes: [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes].
+   El [Resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) El informe muestra, que proporciona información sobre el rendimiento de las actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos [!UICONTROL Perspectivas de personalización] informes: [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes].
 
    ![Informe de resumen de la actividad de Automated Personalization](/help/main/c-reports/assets/summary-report-ap.png)
 
-   Tenga en cuenta que [!UICONTROL Segmentación automática] tiene un icono de gráfico adicional para la vista gráfica de la variable [!UICONTROL Resumen] informe.
+   Tenga en cuenta que [!UICONTROL Segmentación automática] tiene un icono de gráfico adicional para la vista gráfica del [!UICONTROL Resumen] informe.
 
    ![Informe de resumen de la actividad de segmentación automática](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >El informe [!UICONTROL Atributos importantes] no estará disponible hasta al menos 15 días después de que haya activado su actividad. Durante este periodo inicial, no podrá acceder a este informe o hacer clic en el icono [!UICONTROL Atributos importantes]. Transcurridos 15 días, y suponiendo que haya tráfico personalizado suficiente en la actividad, la variable [!UICONTROL Atributos importantes] está disponible.
+   >El informe [!UICONTROL Atributos importantes] no estará disponible hasta al menos 15 días después de que haya activado su actividad. Durante este periodo inicial, no podrá acceder a este informe o hacer clic en el icono [!UICONTROL Atributos importantes]. Transcurridos 15 días, y suponiendo que haya tráfico personalizado suficiente en su actividad, la variable [!UICONTROL Atributos importantes] El informe está disponible.
 
-1. Transcurridos 15 días a partir de la activación de la actividad, haga clic en el **[!UICONTROL Atributos importantes]** icono.
+1. Transcurridos 15 días desde la activación de la actividad, haga clic en **[!UICONTROL Atributos importantes]** icono.
 
    ![Icono Atributos importantes en un informe de Adobe Target](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Seleccione el intervalo de fechas deseado.
 
-   A diferencia de [!UICONTROL Resumen] informe (informe de rendimiento), [!UICONTROL Perspectivas de personalización], incluyendo [!UICONTROL Atributos importantes], solo está disponible para intervalos de fechas fijos: 15 días, 30 días y 60 días.
+   A diferencia del [!UICONTROL Resumen] informe (informe de rendimiento), [!UICONTROL Perspectivas de personalización], incluido [!UICONTROL Atributos importantes], solo está disponible para intervalos de fechas fijos: 15 días, 30 días y 60 días.
 
    Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Observe que “Inicio” aparece atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
 
@@ -67,7 +67,7 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
    Puede acceder a los intervalos de fechas fijos disponibles desde la lista desplegable [!UICONTROL Elegir duración].
 
-   ![Elija la lista desplegable Duración de un informe](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Elija la lista desplegable Duración en un informe](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Revise los datos del informe [!UICONTROL Atributos importantes].
 
@@ -90,7 +90,7 @@ La tabla siguiente explica cómo se interpreta el informe y describe sus element
 
 ## Preguntas más frecuentes sobre Atributos importantes {#section_740910A52FA646B4AC9452F98C2F5719}
 
-Consulte las siguientes preguntas frecuentes para obtener respuestas a las preguntas más frecuentes sobre el uso de la variable [!UICONTROL Atributos importantes] informe.
+Consulte las siguientes preguntas frecuentes para obtener respuestas a preguntas frecuentes acerca del uso de [!UICONTROL Atributos importantes] informe.
 
 ### Los informes de Perspectivas de personalización aún no están disponibles para mi actividad. ¿A qué se debe?
 
@@ -104,13 +104,13 @@ Existen varias razones por las que los informes de [!UICONTROL Perspectivas de p
 
 Un atributo es información sobre un visitante o sobre su visita específica que los algoritmos de personalización utilizan para aprender a personalizar el tráfico. Por ejemplo, un atributo podría ser el tipo de navegador, la ubicación, la hora del día de la visita, etcétera.
 
-Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en modelos de personalización de Target, consulte [Métodos para introducir datos a Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en modelos de personalización de Target, consulte [Métodos para introducir datos a Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}.
 
-### Veo uno o más atributos que no quiero que el modelo use para la formación. ¿Puedo eliminar esos atributos del modelo de formación? {#models-api}
+### Veo uno o más atributos que no quiero que el modelo use para el aprendizaje. ¿Puedo quitarlos del modelo de aprendizaje? {#models-api}
 
-La variable [!UICONTROL API de modelos], también denominada API de Lista de bloqueados, permite a los usuarios ver y administrar la lista de atributos (también llamados funciones) que se utilizan en los modelos de aprendizaje automático para [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] actividades (AT). Si desea excluir uno o más atributos de los que utilizan los modelos para actividades AP o AT, puede utilizar la API de modelos para agregar esos atributos a la &quot;lista de bloqueados&quot;.
+El [!UICONTROL API de modelos], también denominada API de Lista de bloqueados, permite a los usuarios ver y administrar la lista de atributos (también denominados funciones) utilizados en los modelos de aprendizaje automático de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] Actividades de (AT). Si desea excluir uno o más atributos de la utilización por parte de los modelos para actividades AP o AT, puede utilizar la API de modelos para añadir esos atributos a la &quot;lista de bloqueados&quot;.
 
-Para obtener información detallada, consulte [Información general sobre la API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
+Para obtener información detallada, consulte [Información general de API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### ¿La información que aparece en los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] es la misma que la que aparece en la descarga de CSV?
 
@@ -122,9 +122,9 @@ Los informes de Perspectivas de personalización (tanto [!UICONTROL Segmentos au
 
 ### ¿Cómo se crea [!UICONTROL Perspectivas de personalización]?
 
-[!UICONTROL Perspectivas de personalización] se crea empleando una técnica de Adobe con patente en trámite llamada MAGIX (Model Agnostic Globally Interpretable Explanations). Puede obtener más información sobre MAGIX en el documento publicado por el equipo de investigación de Adobe en el [sitio web arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Perspectivas de personalización] se crea empleando una técnica de Adobe con patente en trámite llamada MAGIX (Model Agnostic Globally Interpretable Explanations). Puede obtener más información sobre MAGIX en el artículo publicado por el equipo de investigación del Adobe en el [arXiv.org web](https://arxiv.org/abs/1706.07160).
 
-### Son [!UICONTROL Perspectivas de personalización] está disponible para objetivos de modelado basados en ingresos/objetivo principal?
+### Son [!UICONTROL Perspectivas de personalización] ¿está disponible para objetivos de modelado basados en los ingresos/objetivo principal?
 
 En este momento, [!UICONTROL Perspectivas de personalización] solo está disponible para actividades de optimización de la conversión. En una futura versión añadiremos compatibilidad con las actividades de optimización de los ingresos.
 
@@ -156,6 +156,6 @@ Saber cómo funciona el modelo que proporciona tráfico puede ser útil. Cada pe
 
 ## Problemas conocidos
 
-El siguiente problema está siendo investigado por la [!DNL Target] equipo de ingeniería.
+El siguiente problema está siendo investigado actualmente por el [!DNL Target] equipo de ingeniería.
 
 * Los nombres de los segmentos de [!DNL Adobe Experience Platform] no se muestran en el informe [!UICONTROL Atributos importantes] en el caso de las actividades de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT). (TOP-3813)

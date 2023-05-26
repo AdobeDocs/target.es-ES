@@ -1,7 +1,7 @@
 ---
 keywords: producto;colecciones
-description: Obtenga información sobre las entidades en Adobe [!DNL Target] Recommendations. Las entidades hacen referencia a los elementos que desea recomendar mediante [!DNL Target], como artículos, películas o productos.
-title: ¿Cómo utilizo las entidades?
+description: Más información sobre las entidades de Adobe [!DNL Target] Recommendations. Las entidades hacen referencia a los elementos que desea recomendar mediante [!DNL Target], como artículos, películas o productos.
+title: ¿Cómo se utilizan las entidades?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7

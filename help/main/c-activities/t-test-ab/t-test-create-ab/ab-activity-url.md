@@ -1,5 +1,5 @@
 ---
-keywords: url de actividad;url;dirección URL diferente
+keywords: url de actividad;url;url diferente
 description: Obtenga información sobre cómo especificar la dirección URL de actividad que determina la página que se usa en la prueba y que se abre cuando esta se diseña con Adobe Target.
 title: ¿Qué es la URL de actividad en una actividad A/B?
 feature: A/B Tests
@@ -23,7 +23,7 @@ Cuando se le pida durante la creación de la actividad, indique la dirección UR
 
 ## Especifique una dirección URL diferente
 
-De forma predeterminada, la variable [!UICONTROL Compositor de experiencias visuales] abre la página especificada en su [Configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md)
+De forma predeterminada, la variable [!UICONTROL Compositor de experiencias visuales] abre la página especificada en la [Configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md)
 . Puede especificar una página diferente durante la creación de la actividad.
 
 Para visualizar una página diferente tras abrir el [!UICONTROL Compositor de experiencias visuales], haga clic en el icono de engranaje **[!UICONTROL Configurar]** y, a continuación, seleccione **[!UICONTROL Publicación de página]**. Introduzca la URL en el campo URL de actividad.

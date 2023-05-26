@@ -1,7 +1,7 @@
 ---
 keywords: prueba multivariable;mvt;planificación de mvt;planificar prueba multivariable
-description: Aprenda a planificar una prueba multivariada en Adobe [!DNL Target] para que pueda crear una prueba con éxito.
-title: ¿Cómo planeo una prueba multivariable?
+description: Obtenga información sobre cómo planificar pruebas multivariable en Adobe [!DNL Target] para poder crear una prueba de éxito.
+title: ¿Cómo planifico una prueba multivariable?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

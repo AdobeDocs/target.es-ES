@@ -1,6 +1,6 @@
 ---
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;solo actividad;específica
-description: Aprenda a crear audiencias solo de actividad en Adobe [!DNL Target] que son para un solo uso.
+description: Obtenga información sobre cómo crear audiencias solo de actividad en Adobe [!DNL Target] que son para un solo uso.
 title: ¿Puedo crear una audiencia para usarla una sola vez?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
@@ -17,18 +17,18 @@ Cree audiencias solo de actividad desde el [!DNL Adobe Target] flujo de trabajo 
 
 Las audiencias solo de actividad proporcionan las siguientes ventajas:
 
-* Puede utilizar audiencias solo de actividad para crear una audiencia que quiera usar una única vez y que no desee almacenar en la [!UICONTROL Biblioteca de audiencias]. Las audiencias solo de actividad ayudan a evitar que [!UICONTROL Biblioteca de audiencias] de estar saturado de audiencias que no quiere volver a usar.
-* Las audiencias solo de actividad no pueden verse en la [!UICONTROL Biblioteca de audiencias]. Como estas audiencias no están visibles en la biblioteca, están protegidas de cambios no deseados por parte de otros usuarios de su organización.
+* Puede utilizar audiencias solo de actividad para crear una audiencia que quiera usar una única vez y que no desee almacenar en la [!UICONTROL Biblioteca de audiencias]. Las audiencias solo de actividad ayudan a evitar el [!UICONTROL Biblioteca de audiencias] de estar abarrotado de audiencias que no quiera volver a utilizar.
+* Las audiencias solo de actividad no pueden verse en la [!UICONTROL Biblioteca de audiencias]. Como estas audiencias no son visibles en la biblioteca, están protegidas contra cambios no deseados por parte de otros miembros de la organización.
 
-1. Al crear un [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en el **[!UICONTROL Segmentación]** , haga clic en las tres elipses verticales y, a continuación, haga clic en **[!UICONTROL Reemplazar audiencia]**.
+1. Al crear un [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en el **[!UICONTROL Segmentación]** , haga clic en los tres puntos verticales y, a continuación, haga clic en **[!UICONTROL Reemplazar audiencia]**.
 
    ![Resultado del paso](assets/edit_audience.png)
 
 1. Haga clic en **[!UICONTROL Crear audiencia]**.
 
-1. Haga clic en **[!UICONTROL Solo esta actividad]**.
+1. Clic **[!UICONTROL Solo esta actividad]**.
 
-   ![imagen de solo austeridad de actividad](assets/activity-only-aud.png)
+   ![imagen de solo actividad](assets/activity-only-aud.png)
 
 1. Escriba un nombre descriptivo para la audiencia.
 1. Arrastre y suelte los atributos deseados en el generador de audiencias.
@@ -52,4 +52,4 @@ Tenga en cuenta lo siguiente al trabajar con audiencias solo de actividad:
    Puede utilizar las siguientes alternativas para utilizar reglas de exclusión:
 
    * [Crear y usar una audiencia de biblioteca](/help/main/c-target/c-audiences/create-audience.md) en lugar de una audiencia solo de actividad.
-   * [Combinación de varias](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (hasta 20) biblioteca audiencias en una audiencia solo de actividad. Al combinar audiencias, las reglas de inclusión y exclusión en audiencias de biblioteca individuales se pueden usar incluso cuando la audiencia combinada se guarda como una audiencia solo de actividad.
+   * [Combinación de varios](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (hasta 20) audiencias de biblioteca en una audiencia solo de actividad. Al combinar audiencias, se pueden utilizar reglas de inclusión y exclusión en audiencias de biblioteca individuales incluso cuando la audiencia combinada se guarda como una audiencia solo de actividad.

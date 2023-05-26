@@ -1,6 +1,6 @@
 ---
-keywords: Segmentación;compositor de experiencias visuales;lista de direcciones permitidas;lista de direcciones permitidas;lista de permitidos;lista de permitidos;compositor de experiencias visuales mejorado;vec;resolución de problemas del compositor de experiencias visuales;solución de problemas;eec;compositor de experiencias mejorado;tls;tls 1.2
-description: Obtenga información sobre cómo solucionar problemas que a veces ocurren en el Adobe [!DNL Target] Compositor de experiencias visuales (VEC) y Compositor de experiencias mejorado (EEC) bajo determinadas condiciones.
+keywords: Segmentación;compositor de experiencias visuales;lista de direcciones permitidas;lista de direcciones permitidas;lista de permitidos;lista de permitidos;compositor de experiencias visuales mejorado;vec;solución de problemas del compositor de experiencias visuales;solución de problemas;eec;compositor de experiencias mejorado;tls;tls 1.2
+description: Aprenda a solucionar problemas que a veces se producen en el Adobe [!DNL Target] Compositor de experiencias visuales (VEC) y Compositor de experiencias mejorado (EEC) bajo ciertas condiciones.
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
@@ -11,62 +11,62 @@ ht-degree: 51%
 
 ---
 
-# Resolución de problemas relacionados con el [!UICONTROL Compositor de experiencias visuales] y [!UICONTROL Compositor de experiencias mejorado]
+# Resolución de problemas relacionados con [!UICONTROL Compositor de experiencias visuales] y [!UICONTROL Compositor de experiencias mejorado]
 
-Mostrar problemas y otros problemas que a veces ocurren en la variable [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (CEE) en determinadas condiciones.
+Muestra los problemas y otros problemas que a veces ocurren en la [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) y el [!UICONTROL Compositor de experiencias mejorado] (CEE) en determinadas condiciones.
 
 ## ¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC? {#samesite}
 
-Tenga en cuenta los cambios que afectan al VEC y al EEC al utilizar las siguientes versiones de Chrome:
+Tenga en cuenta los cambios que afectan al VEC y EEC al utilizar las siguientes versiones de Chrome:
 
 >[!NOTE]
 >
->El siguiente cambio afecta a las tres actualizaciones que se describen a continuación:
+>El siguiente cambio afecta a las tres actualizaciones descritas a continuación:
 >
-> * Will *not* poder usar el VEC sin la extensión VEC Helper instalada y habilitada para páginas de sus sitios protegidas con contraseña. Las cookies de inicio de sesión del sitio se consideran cookies de terceros y no se envían con solicitudes de inicio de sesión dentro del editor de VEC en modo Examinar. La única excepción es cuando las cookies de inicio de sesión del sitio ya tienen la variable `SameSite=None` y `Secure` conjunto de atributos.
+> * Will *no* poder utilizar el VEC sin la extensión VEC Helper instalada y habilitada para páginas de sus sitios protegidas con contraseña. Las cookies de inicio de sesión del sitio se consideran cookies de terceros y no se envían con solicitudes de inicio de sesión dentro del editor VEC en modo Examinar. La única excepción es cuando las cookies de inicio de sesión del sitio ya tienen el `SameSite=None` y `Secure` atributos definidos.
 
 
-**Chrome 94 (21 de septiembre de 2021)**: Con los cambios inminentes planificados para la versión de Chrome 94 (21 de septiembre de 2021), el siguiente cambio afecta a todos los usuarios con versiones de Chrome 94+:
+**Chrome 94 (21 de septiembre de 2021)**: Con los cambios inminentes planificados para la versión de Chrome 94 (21 de septiembre de 2021), el siguiente cambio afecta a todos los usuarios con versiones de explorador Chrome 94+:
 
-* El indicador de línea de comandos `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` se eliminará.
+* El indicador de la línea de comandos `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` se eliminará.
 
-**Chrome 91 (25 de mayo de 2021)**: Con los cambios implementados para la versión de Chrome 91 (25 de mayo de 2021), el siguiente cambio afecta a todos los usuarios con versiones de Chrome 91+:
+**Chrome 91 (25 de mayo de 2021)**: Con los cambios implementados para la versión de Chrome 91 (25 de mayo de 2021), el siguiente cambio afecta a todos los usuarios con versiones de explorador Chrome 91 y posteriores:
 
 * Las banderas `#same-site-by-default-cookies` y `#cookies-without-same-site-must-be-secure` se han eliminado de `chrome://flags`. Este comportamiento ahora está habilitado de forma predeterminada.
 
-**Chrome 80 (agosto de 2020)**: Con los cambios implementados en agosto de 2020, todos los usuarios con versiones de navegador Chrome 80+:
+**Chrome 80 (agosto de 2020)**: Con los cambios implementados en agosto de 2020, todos los usuarios con versiones de explorador Chrome 80 y posteriores:
 
-* Will *not* poder descargar [!DNL Target] bibliotecas mientras edita una actividad (cuando no estén en el sitio). Esto se debe a que la llamada de descarga se realiza desde el dominio del cliente hacia un [!DNL Adobe] y se rechaza como no autenticado.
-* El EEC *not* para todos los usuarios porque no es posible establecer el atributo SameSite para las cookies en `adobemc.com domain`. Sin este atributo, el explorador rechaza estas cookies, lo que provoca que el EEC falle.
+* Will *no* poder descargar [!DNL Target] bibliotecas mientras se edita una actividad (cuando aún no están en el sitio). Esto se debe a que la llamada de descarga se realiza desde el dominio del cliente a un [!DNL Adobe] y se rechaza como no autenticado.
+* El EEC *no* para todos los usuarios, ya que no puede establecer el atributo SameSite para las cookies en `adobemc.com domain`. Sin este atributo, el explorador rechaza estas cookies, lo que provoca que el EEC falle.
 
 ### Determinar qué cookies están bloqueadas
 
 Para determinar qué cookies están bloqueadas debido a las políticas de aplicación de cookies de SameSite, utilice las herramientas para desarrolladores de Chrome.
 
-1. Para acceder a las herramientas para desarrolladores, mientras visualiza el VEC en Chrome, haga clic en el botón **[!UICONTROL elipsis]** en la esquina superior derecha de Chrome > **[!UICONTROL Más herramientas]** > **[!UICONTROL Herramientas para desarrolladores]**.
-1. Haga clic en el **[!UICONTROL Red]** pestaña > luego busque las cookies bloqueadas.
+1. Para acceder a las herramientas para desarrolladores, mientras ve el VEC en Chrome, haga clic en **[!UICONTROL elipsis]** en la esquina superior derecha de Chrome > **[!UICONTROL Más herramientas]** > **[!UICONTROL Herramientas para desarrolladores]**.
+1. Haga clic en **[!UICONTROL Red]** pestaña > y busque las cookies bloqueadas.
 
    >[!NOTE]
    >
-   >Utilice la variable **[!UICONTROL Ha bloqueado las cookies]** para facilitar la búsqueda de cookies bloqueadas.
+   >Utilice el **[!UICONTROL Tiene cookies bloqueadas]** para facilitar la búsqueda de cookies bloqueadas.
 
    La siguiente ilustración muestra una cookie bloqueada:
 
-   ![Herramientas para desarrolladores > Pestaña Red que muestra una cookie bloqueada](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
+   ![Pestaña Herramientas para desarrolladores > Red que muestra una cookie bloqueada](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
 
-### [!DNL Adobe Target] Extensión de VEC Helper
+### [!DNL Adobe Target] Extensión VEC Helper
 
-A partir de la versión 0.7.1, la variable [!DNL Adobe Target] La extensión del explorador VEC Helper agrega `SameSite=None` y `Secure` atributos a todas las cookies en las respuestas procedentes de páginas web editadas dentro del VEC cuando la opción &quot;Cookies&quot; está activada en la interfaz de usuario de la extensión:
+A partir de la versión 0.7.1, la variable [!DNL Adobe Target] La extensión del explorador VEC Helper agrega la `SameSite=None` y `Secure` atribuye atributos a todas las cookies en las respuestas procedentes de páginas web editadas dentro del VEC cuando la opción &quot;Cookies&quot; está activada en la interfaz de usuario de la extensión:
 
-![Interfaz de usuario de la extensión de Adobe Target VEC Helper UIAdobe Target VEC Helper](assets/cookies-vec-helper.png)
+![Extensión de Adobe Target VEC Helper UIAxcepción de Adobe Target VEC Helper UI](assets/cookies-vec-helper.png)
 
-### Alternativas y soluciones alternativas
+### Alternativas y soluciones
 
-Utilice una de las siguientes opciones para asegurarse de que el VEC y el EEC sigan funcionando según lo esperado:
+Utilice una de las siguientes opciones para asegurarse de que el VEC y el EEC siguen funcionando según lo esperado:
 
-* Descargue y use la [Extensión de VEC Helper](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+* Descargue y utilice el actualizado [Extensión VEC Helper](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * Utilice el navegador Mozilla Firefox. Firefox aún no está aplicando esta directiva.
-* Utilice los siguientes indicadores para ejecutar Google Chrome desde la línea de comandos hasta el 21 de septiembre de 2021. Después del 21 de septiembre, las funciones que requieren cookies ya no funcionarán en el VEC, como las ventanas emergentes de inicio de sesión o consentimiento de cookies. Si actualiza a Chrome 94, debe generar cookies manualmente con `SameSite=none` y `Secure` en sus sitios web.
+* Utilice los siguientes indicadores para ejecutar Google Chrome desde la línea de comandos hasta el 21 de septiembre de 2021. A partir del 21 de septiembre, las funciones que requieren cookies dejarán de funcionar en el VEC, como el inicio de sesión o las ventanas emergentes de consentimiento de cookies. Si actualiza a Chrome 94, debe generar cookies manualmente con `SameSite=none` y `Secure` en sus sitios web.
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
@@ -74,15 +74,15 @@ Utilice una de las siguientes opciones para asegurarse de que el VEC y el EEC si
 
 ## Does [!DNL Target] ¿admite iframes de varios niveles?
 
-[!DNL Target] no admite iframes de varios niveles. Si el sitio web carga un iframe que tiene un iframe secundario, at.js solo interactúa con el iframe principal. [!DNL Target]Las bibliotecas de no interactúan con el iframe secundario.
+[!DNL Target] no admite iframes de varios niveles. Si el sitio web carga un iframe que tiene un iframe secundario, at.js interactúa únicamente con el iframe principal. [!DNL Target]Las bibliotecas de no interactúan con el iframe secundario.
 
 Como solución alternativa, puede agregar una página en la experiencia con la URL del iframe secundario.
 
 ## Cuando intento editar una página, lo único que veo es un control de número en lugar de mi página. (VEC y EEC)   {#section_313001039F79446DB28C70D932AF5F58}
 
-Esta situación puede ocurrir si la dirección URL contiene un carácter #. Para corregir el problema, cambie en modo Examinar en el Compositor de experiencias visuales y después vuelva a cambiar al modo Componer. El control de número debería desaparecer y la página debería cargarse.
+Esta situación puede suceder si la dirección URL contiene el carácter #. Para corregir el problema, cambie en modo Examinar en el Compositor de experiencias visuales y después vuelva a cambiar al modo Componer. El control de número debería desaparecer y la página debería cargarse.
 
-## Los encabezados Content Security Policy (CSP) bloquean el [!DNL Target] bibliotecas en mi sitio web. (VEC y EEC)   {#section_89A30C7A213D43BFA0822E66B482B803}
+## Los encabezados de Política de seguridad de contenido (CSP) bloquean el [!DNL Target] bibliotecas en mi sitio web. (VEC y EEC)   {#section_89A30C7A213D43BFA0822E66B482B803}
 
 Si los encabezados CSP de su sitio web bloquean las bibliotecas de Target y luego el sitio web se carga pero no es posible editar, asegúrese de que las bibliotecas de Target no estén bloqueadas.
 
@@ -113,11 +113,11 @@ De manera predeterminada, el Compositor de experiencias visuales bloquea element
 
 ## Al cambiar un elemento de la página, se cambian varios elementos. (VEC y EEC)   {#section_309188ACF34942989BE473F63C5710AF}
 
-Si se usa el mismo ID de elemento DOM en varios elementos de la página, al cambiar uno de estos elementos se cambiarán todos los elementos con dicho ID. Para evitar este error, los ID solo han de usarse una vez por página. Esta práctica es una práctica recomendada para HTML estándar. Para obtener más información, consulte [Escenarios de modificación de página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Si se usa el mismo ID de elemento DOM en varios elementos de la página, al cambiar uno de estos elementos se cambiarán todos los elementos con dicho ID. Para evitar este error, los ID solo han de usarse una vez por página. Esta práctica es una práctica recomendada para el HTML estándar. Para obtener más información, consulte [Escenarios de modificación de página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## No puedo modificar experiencias desde un sitio con eliminación de iFrames. (VEC y EEC)   {#section_9FE266B964314F2EB75604B4D7047200}
 
-Este problema se puede solucionar habilitando el Compositor de experiencias mejorado. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]** y, a continuación, active la casilla de verificación que habilita el Compositor de experiencias mejorado. El Compositor de experiencias mejorado utiliza un proxy administrado por Adobe para cargar la página para editarla. Este proxy permite la edición en sitios con eliminación de iFrames y la edición en sitios y páginas donde aún no ha añadido código Adobe Target. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del Compositor de experiencias visuales. En este caso, puede desactivar esta opción para cargar el Compositor de experiencias visuales a través de un iFrame. 
+Este problema se puede solucionar habilitando el Compositor de experiencias mejorado. Clic **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]**, a continuación, active la casilla que habilita el Compositor de experiencias mejorado. El Compositor de experiencias mejorado utiliza un proxy administrado por Adobe para cargar la página para editarla. Este proxy permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha añadido código Adobe Target. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del Compositor de experiencias visuales. En este caso, puede desactivar esta opción para cargar el Compositor de experiencias visuales a través de un iFrame. 
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Consulte “No puedo modificar experiencias desde un sitio con eliminación de i
 
 ## Los estilos de texto negrita y cursiva con Editar texto/HTML o Cambiar texto/HTML no se muestran en la página. A veces el texto desaparece después de aplicar estos cambios de estilo. (VEC y EEC)   {#section_7A71D6DF41084C58B34C18701E8774E5}
 
-Si usa **[!UICONTROL Editar texto / HTML]** en el Compositor de experiencias visuales para actividades A/B o de Segmentación de experiencias o si usa **[!UICONTROL Cambiar texto / HTML]** para actividades de prueba multivariable o de Personalización automatizada para definir que el texto esté en negrita o en cursiva, puede que esos estilos no se apliquen en la página o que el texto desaparezca de la página en el Compositor de experiencias visuales. Esto sucede debido a la forma en que el editor de texto enriquecido aplica estos estilos, puede que interfiera con el marcado del sitio web.
+Si usa **[!UICONTROL Editar texto / HTML]** en el Compositor de experiencias visuales para actividades A/B o de Segmentación de experiencias o si usa **[!UICONTROL Cambiar texto / HTML]** para actividades de prueba multivariable o de Personalización automatizada para definir que el texto esté en negrita o en cursiva, puede que esos estilos no se apliquen en la página o que el texto desaparezca de la página en el Compositor de experiencias visuales. Esto sucede debido a la forma en que el editor de texto enriquecido aplica estos estilos, lo que podría interferir con el marcado del sitio web.
 
 Si ve este problema, haga lo siguiente:
 

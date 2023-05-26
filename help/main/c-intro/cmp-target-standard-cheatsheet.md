@@ -166,7 +166,7 @@ Revise las [reglas de plantilla](/help/main/c-experiences/c-visual-experience-co
 
 **Estoy cansado del mensaje “Permitir que tu navegador cargue secuencias de comandos” cuando intento cargar mi página en el Compositor de experiencias visuales (VEC). ¿Cómo puedo evitar esto?**
 
-Esto se debe a que el sitio tiene contenido mixto, es un sitio que obtiene recursos HTTP y HTTPS. Solicite que su equipo de TI se mueva completamente a HTTPS.
+Esto se debe a que el sitio tiene contenido mixto: es un sitio que recupera recursos HTTP y HTTPS. Solicite que su equipo de TI se mueva completamente a HTTPS.
 
 Hasta que esto suceda, siga las instrucciones en  [Habilitar contenido mixto en el explorador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para que el explorador cargue contenido mixto. Esta es una característica de seguridad de la mayoría de los navegadores modernos.
 
@@ -212,7 +212,7 @@ Una de las formas es utilizar el [Editor de código personalizado](/help/main/c-
 
 Utilice las funciones de composición y exploración para ir a la página que ha elegido y comenzar a crear su experiencia.
 
-![Imagen vec2](assets/vec2.png)
+![imagen vec2](assets/vec2.png)
 
 **¿Cómo puedo ir a la experiencia que he elegido desde el Paso 2 del flujo de trabajo guiado de tres partes de Target (página de orientación)?**
 

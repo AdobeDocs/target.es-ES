@@ -29,13 +29,13 @@ La [plantilla de experiencia Banner de carrusel con miniaturas](https://github.c
 
 La [plantilla de experiencia Banner de carrusel](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) es un carrusel giratorio que normalmente se utiliza en las páginas de inicio y de aterrizaje u otras páginas de entrada de gran volumen. Este carrusel no girará automáticamente a través de las imágenes y se puede interactuar con él directamente haciendo clic en las flechas izquierda y derecha.
 
-![exp-template-banner-carousel image](assets/exp-template-banner-carousel.png)
+![imagen exp-template-banner-carousel](assets/exp-template-banner-carousel.png)
 
 ## Banner de cuenta atrás   {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 La [plantilla de experiencia Banner de cuenta atrás](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) es un banner grande con una cuenta atrás central que normalmente se utiliza en las páginas de inicio y de aterrizaje u otras páginas de entrada de gran volumen.
 
-![exp-template-banner-countdown image](assets/exp-template-banner-countdown.png)
+![imagen exp-template-banner-countdown](assets/exp-template-banner-countdown.png)
 
 ## Botón Generador {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
@@ -47,7 +47,7 @@ La [plantilla de experiencia Botón Generador](https://github.com/Adobe-Marketin
 
 La [plantilla de experiencia Lightbox con cuenta atrás](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) es una ventana emergente de superposición de lightbox que normalmente se utiliza en las páginas de inicio y de aterrizaje u otras páginas de entrada de gran volumen.
 
-![exp-template-lightbox-coundown image](assets/exp-template-lightbox-countdown.png)
+![imagen exp-template-lightbox-countdown](assets/exp-template-lightbox-countdown.png)
 
 ## Lightbox con intento de salida {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
@@ -65,4 +65,4 @@ La [plantilla de experiencia Lightbox](https://github.com/Adobe-Marketing-Cloud/
 
 La [plantilla de experiencia Cinta](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) es una cinta con una anchura del 100 % que se inserta en la parte superior de la página web y que normalmente se utiliza para indicar una venta flash, envío gratuito, evento de seguridad o meteorológico u otro anuncio importante.
 
-![imagen exp-template-ribbon](assets/exp-template-ribbon.png)
+![exp-template-ribbon image](assets/exp-template-ribbon.png)

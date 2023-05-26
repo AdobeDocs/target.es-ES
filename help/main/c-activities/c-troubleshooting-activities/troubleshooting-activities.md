@@ -19,21 +19,21 @@ Si su actividad de [!DNL Adobe Target] no aparece en su sitio, estas sugerencias
 >
 >Además de la siguiente información de solución de problemas, consulte [Solución de problemas de Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) para encontrar vínculos a temas de solución de problemas adicionales, preguntas frecuentes y otra información útil sobre la solución de problemas y otras funciones en [!DNL Adobe Target].
 
-Las secciones siguientes contienen problemas que pueden encontrar con las soluciones sugeridas.
+Las secciones siguientes contienen problemas que pueden surgir con las soluciones sugeridas.
 
 ## He creado una actividad con la IU de [!DNL Target] y no puedo actualizarla mediante la API.
 
-Actividades creadas con [!DNL Target] La interfaz de usuario debe actualizarse mediante la variable [!DNL Target] IU. Las actividades creadas mediante API deben actualizarse mediante esta. Si, originalmente, crea una actividad utilizando la API, por ejemplo, pero luego edita la actividad a través de la [!DNL Target] No todos los cambios se actualizan en la interfaz de usuario. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
+Actividades creadas con [!DNL Target] La interfaz de usuario debe actualizarse mediante la variable [!DNL Target] IU. Las actividades creadas mediante API deben actualizarse mediante esta. Si, originalmente, crea una actividad utilizando la API, por ejemplo, pero luego edita la actividad a través de la [!DNL Target] IU, no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
 
 Como práctica recomendada, intente actualizar la actividad mediante el mismo método (IU o API) que se utilizó para crear la actividad originalmente.
 
 ## Se muestra el contenido predeterminado.
 
-Asegúrese de que la actividad esté completa y se haya activado.
+Asegúrese de que la actividad se haya completado y activado.
 
 ## La actividad no se ejecuta.
 
-**Validar:** Vaya a [!UICONTROL Información general] y compruebe si la prueba está marcada como inactiva o borrador.
+**Validar:** Ir a [!UICONTROL Información general] y ver si la prueba está marcada como inactiva o borrador.
 
 **Opciones:**
 
@@ -73,10 +73,10 @@ Asegúrese de que la actividad esté completa y se haya activado.
 
 **Opciones:**
 
-Después de agregarlo como usuario en [!DNL Target], debe tener la variable [!UICONTROL Aprobador] para crear actividades.
+Después de ser agregado como usuario en [!DNL Target], debe tener el [!UICONTROL Aprobador] para crear actividades de.
 
-* Solicite al administrador de su cuenta que lo apruebe.
-* Si es el administrador, asígnese usted mismo el [!UICONTROL Aprobador] función de **[!UICONTROL Administración]** > **[!UICONTROL Usuarios]** en [!DNL Target].
+* Solicite al administrador de su cuenta que le convierta en aprobador.
+* Si usted es el administrador, asígnese usted mismo la [!UICONTROL Aprobador] rol de **[!UICONTROL Administration]** > **[!UICONTROL Usuarios]** in [!DNL Target].
 
    Consulte [Asignarse a usted mismo la función de aprobador](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -88,24 +88,24 @@ Después de agregarlo como usuario en [!DNL Target], debe tener la variable [!UI
 
 * Recompile la actividad.
 
-Para obtener más información sobre cómo afectan las modificaciones de la página [!DNL Target]La capacidad de visualización de , consulte [Escenarios de modificación de página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para obtener más información sobre cómo afectan las modificaciones de la página [!DNL Target]Capacidad de visualización de, consulte [Escenarios de modificación de página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## La estructura de la página se modifica durante la carga de la página (en tiempo de ejecución).
 
 **Validar:** pregunte al desarrollador.
 
-**Nota:** Para [!DNL Target] para reconocer dónde se deben aplicar los cambios de actividad, evite insertar dinámicamente un elemento con la misma clase o modificar dinámicamente la clase de cualquier elemento del mismo nivel.
+**Nota:** Para que [!DNL Target] para reconocer dónde se deben aplicar los cambios de actividad, evite insertar dinámicamente un elemento con la misma clase o modificar dinámicamente la clase de cualquier elemento del mismo nivel.
 
 **Opciones:**
 
-* Actualice el código de la página para que identifique de forma exclusiva cada elemento que se pruebe (mediante un ID).
+* Actualice el código de la página para identificar de forma exclusiva cada elemento que se pruebe (con un ID).
 * Deje de modificar dinámicamente la clase o los elementos del mismo nivel como se describe más arriba.
 
-Para obtener más información sobre cómo afectan las modificaciones de la página [!DNL Target]La capacidad de visualización de , consulte [Escenarios de modificación de página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para obtener más información sobre cómo afectan las modificaciones de la página [!DNL Target]Capacidad de visualización de, consulte [Escenarios de modificación de página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Otras actividades se ejecutan en la misma página.
 
-**Validar:** Utilice la variable [!UICONTROL Conflictos] para ver si se están ejecutando otras actividades.
+**Validar:** Utilice el [!UICONTROL Conflictos] para ver si se están ejecutando otras actividades.
 
 **Nota:**[!UICONTROL  La pestaña Conflictos no funciona con el módulo de comprobación de plantilla.]
 
@@ -124,18 +124,18 @@ Para obtener más información sobre cómo afectan las modificaciones de la pág
 Realice uno de los siguientes pasos:
 
 * Vuelva a eliminar el script de perfil. Aparece el mensaje de proceso realizado correctamente.
-* Espere unos 10 minutos para que el [!DNL Target] importador que se va a ejecutar. El programa de importación actualiza la lista de scripts de perfil.
+* Espere unos 10 minutos para que la [!DNL Target] importador para ejecutar. El programa de importación actualiza la lista de scripts de perfil.
 
 ## Algunas llamadas de ajax de [!DNL Target] no están funcionando.
 
-**Nota:** Ajax múltiple [!DNL Target] llamadas con el mismo nombre pero parámetros diferentes no funcionan en la misma página. Solo se realiza la primera llamada.
+**Nota:** Ajax múltiple [!DNL Target] las llamadas con el mismo nombre pero parámetros diferentes no funcionan en la misma página. Solo se realiza la primera llamada.
 
 ## Ha activado una actividad mediante la API de [!DNL Target], pero la actividad aparece con el estado [!UICONTROL Inactivo] en la IU de [!DNL Target].
 
-Cuando se realizan determinadas acciones, como activar una actividad fuera de la interfaz de usuario mediante la función [!DNL Target] , la actualización puede tardar hasta diez minutos en propagarse a la interfaz de usuario.
+Cuando se realizan determinadas acciones (por ejemplo, activar una actividad fuera de la interfaz de usuario empleando ) [!DNL Target] API, la actualización puede tardar hasta diez minutos en propagarse a la interfaz de usuario.
 
 ## Después de la conversión de la actividad, el visitante no está en ninguna experiencia.
 
-En casos excepcionales, si la métrica de conversión de la actividad para cumplir los requisitos de una experiencia se envía en la misma solicitud que la calificación de la actividad, es posible que el visitante no esté en ninguna experiencia después de que se envíe la solicitud. En este caso, el visitante ve el contenido predeterminado y el ID de experiencia capturado mediante tokens sería -1. [!DNL Adobe] no recomienda enviar la calificación y conversión de la actividad en el mismo [!DNL Target] solicitud.
+En casos excepcionales, si la métrica de conversión de la actividad para poder optar a una experiencia se envía en la misma solicitud que la calificación de actividad, es posible que el visitante no esté en ninguna experiencia una vez enviada la solicitud. En este caso, el visitante ve contenido predeterminado y el ID de experiencia capturado mediante tokens sería -1. [!DNL Adobe] no recomienda enviar la calificación y conversión de la actividad de la misma manera [!DNL Target] solicitud.
 
-Si desea enviar ambas métricas en la misma solicitud, puede utilizar [!UICONTROL Configuración avanzada] para especificar que el visitante permanecerá en la misma experiencia después de la conversión.
+Si desea enviar ambas métricas en la misma solicitud, puede utilizar [!UICONTROL Configuración avanzada] para especificar que el visitante permanezca en la misma experiencia después de la conversión.

@@ -1,7 +1,7 @@
 ---
 keywords: resolución de problemas;preguntas más frecuentes;FAQ;FAQs;objetivos;audiencias
-description: Ver las preguntas más frecuentes (FAQ) sobre la segmentación de experiencias y las audiencias utilizadas en el Adobe [!DNL Target] actividades.
-title: ¿Dónde puedo encontrar preguntas y respuestas sobre segmentación y audiencias?
+description: Vea las preguntas más frecuentes (FAQ) acerca de la segmentación de experiencias y las audiencias utilizadas en el Adobe [!DNL Target] actividades.
+title: ¿Dónde puedo encontrar preguntas y respuestas acerca de objetivos y audiencias?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 source-git-commit: f3b420631681a922b66b0e58febda536e9812815
@@ -15,9 +15,9 @@ ht-degree: 61%
 
 Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
 
-## ¿Cómo [!DNL Target] evaluar direcciones URL en segmentación? {#url}
+## ¿Cómo? [!DNL Target] ¿evaluar las URL en el direccionamiento? {#url}
 
-Target evalúa las direcciones URL de forma diferente en función de si utiliza la segmentación por URL de audiencia al crear una actividad o de si utiliza la segmentación por URL al crear una audiencia.
+Target evalúa las direcciones URL de forma diferente en función de si utiliza el direccionamiento de URL de audiencia al crear una actividad o si utiliza el direccionamiento de URL al crear una audiencia.
 
 Tenga en cuenta la siguiente URL:
 
@@ -25,11 +25,11 @@ Tenga en cuenta la siguiente URL:
 
 ### Segmentación de URL de audiencia
 
-Para aplicar segmentación por URL de audiencia, al crear una actividad, en la página Experiencias (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono de engranaje, en Entrega de página y, a continuación, especifique la URL que desee.
+Para aplicar la segmentación de URL de audiencia, mientras crea una actividad, en la página Experiencias (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono de engranaje, luego en Entrega de página y especifique la dirección URL deseada.
 
-![URL de envío de página](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![URL de entrega de página](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-La segmentación de URL de audiencia busca una coincidencia exacta de URL. Si la dirección URL coincide, Target no tiene en cuenta ninguna lógica adicional. En la URL anterior, si la actividad está configurada para activarse `www.example.com`, la dirección URL coincide con las siguientes direcciones URL porque la segmentación por URL de audiencia no depende de la consulta:
+El direccionamiento de URL de audiencia busca una coincidencia de URL exacta. Si la dirección URL coincide, Target no tiene en cuenta ninguna lógica adicional. En la URL anterior, si la actividad está configurada para activarse en `www.example.com`Sin embargo, la dirección URL coincide con las siguientes direcciones URL porque la segmentación de direcciones URL de audiencia no depende de las consultas:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -37,15 +37,15 @@ La segmentación de URL de audiencia busca una coincidencia exacta de URL. Si la
 
 Más allá de la segmentación de audiencia en la dirección URL, también puede especificar valores específicos que se pueden incluir en la consulta.
 
-Se ha añadido segmentación por URL de audiencia y segmentación por URL mediante [!UICONTROL Reglas de plantilla] evalúe como objetivo de URL (consulte segmentación de URL a continuación).
+Direccionamiento de URL de audiencia y direccionamiento de URL añadidos mediante [!UICONTROL Reglas de plantilla] evalúe como objetivo de URL (consulte Direccionamiento de URL a continuación).
 
 ### Segmentación de URL
 
-Para aplicar la segmentación por URL, mientras crea una audiencia, haga clic en [!UICONTROL Agregar regla], haga clic en [!UICONTROL Páginas del sitio], seleccione una opción de la primera lista desplegable ([!UICONTROL Página actual], [!UICONTROL Página anterior]o [!UICONTROL Página de aterrizaje]), seleccione [!UICONTROL URL] en la segunda lista desplegable, especifique un evaluador y luego especifique la dirección URL que desee.
+Para aplicar la segmentación por URL, mientras crea una audiencia, haga clic en [!UICONTROL Agregar regla], haga clic en [!UICONTROL Páginas del sitio], seleccione una opción en la primera lista desplegable ([!UICONTROL Página actual], [!UICONTROL Página anterior], o [!UICONTROL Página de aterrizaje]), seleccione [!UICONTROL URL] en la segunda lista desplegable, especifique un evaluador y luego especifique la dirección URL deseada.
 
 ![Páginas del sitio > Página actual > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-El objetivo de URL transforma la URL en un conjunto de reglas para evaluar:
+La segmentación por URL transforma la dirección URL en un conjunto de reglas para evaluar:
 
 * Dirección URL = `example.com/path1?query=something`
 * Dominio de URL = `example.com`
@@ -53,21 +53,21 @@ El objetivo de URL transforma la URL en un conjunto de reglas para evaluar:
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## Al crear cadenas URL complejas, sí [!DNL Target] evaluar toda la URL?
+## Al crear cadenas de URL complejas, hace lo siguiente [!DNL Target] ¿desea evaluar la dirección URL completa?
 
-Si utiliza el mismo nombre de parámetro más de una vez en una cadena de URL, HTTP considera el nombre del primer parámetro e ignora los parámetros subsiguientes con el mismo nombre.
+Si utiliza el mismo nombre de parámetro más de una vez en una cadena URL, HTTP tiene en cuenta el nombre del primer parámetro e ignora los parámetros subsiguientes con el mismo nombre.
 
-Por ejemplo, en la siguiente cadena de URL:
+Por ejemplo, en la siguiente cadena URL:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-la primera instancia de `Category` se evalúa y la segunda `Category` se ignora.
+la primera instancia de `Category` se evalúa y el segundo `Category` se ignora el parámetro.
 
 Una práctica recomendada es tener varios valores asociados a una sola categoría, como se muestra a continuación:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## A la hora de crear audiencias, ¿por qué las audiencias prediseñadas en [!DNL Target] ¿La biblioteca se encuentra en otras categorías? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## Al crear audiencias, ¿por qué las audiencias prediseñadas están en [!DNL Target] ¿La biblioteca se encuentra en otras categorías? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audiencias heredades y existentes de otras categorías. Por ejemplo, la audiencia heredada Biblioteca de objetivos > Nuevos visitantes tiene un equivalente actualizado: Perfil del visitante > Nuevo visitante.
 
@@ -95,7 +95,7 @@ Por ejemplo, es posible que vea las siguientes audiencias: “Usuarios en PC” 
 
 Algunas audiencias de Target están predefinidas, como “Nuevos visitantes” y “Visitantes que repiten”. Los usuarios no pueden cambiar el nombre de estas audiencias predefinidas.
 
-## ¿Por qué no se muestran todos los parámetros de perfil en la variable [!DNL Target] interfaz de usuario? {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## ¿Por qué no se muestran todos los parámetros de perfil en? [!DNL Target] interfaz de usuario? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a [!DNL Target], puede hacerlo por medio del método de API [!UICONTROL Profile Update]. Para obtener más información, consulte [Profile Update](https://developers.adobetarget.com/api/#authentication-tokens) en la documentación de la API de Adobe Target.
 
@@ -103,7 +103,7 @@ Algunas audiencias de Target están predefinidas, como “Nuevos visitantes” y
 
 Las actividades de personalización automatizada se evalúan una vez por sesión. Si hubo sesiones activas que se han calificado para una experiencia en particular y ahora se han agregado nuevas ofertas, los usuarios verán el nuevo contenido junto con las ofertas que se mostraron anteriormente. Debido a que anteriormente se han calificado para esas experiencias, todavía las verían durante la sesión. Si desea evaluar esto en cada visita a una página, debe cambiar al tipo de actividad de segmentación de experiencias (XT).
 
-## ¿Por qué los cambios realizados en las audiencias creadas mediante API no se reflejan en la variable [!DNL Target] ¿IU? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## ¿Por qué los cambios realizados en las audiencias creadas mediante API no se reflejan en la [!DNL Target] ¿IU? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 A diferencia de las ofertas y los scripts de perfil, los cambios realizados por API en las audiencias creadas mediante Target Standard no se sincronizan con la interfaz de usuario de Target.
 

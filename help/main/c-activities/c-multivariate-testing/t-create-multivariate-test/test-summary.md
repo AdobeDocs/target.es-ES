@@ -1,6 +1,6 @@
 ---
 keywords: resumen
-description: Vea el resumen de una actividad de prueba multivariable (MVT) que proporciona información general visual de la actividad de MVT en Adobe Target.
+description: Vea el resumen de una actividad de prueba multivariada (MVT) que proporciona información general visual sobre su actividad MVT en Adobe Target.
 title: ¿Cómo puedo ver el resumen de una actividad de prueba multivariable (MVT)?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
@@ -13,7 +13,7 @@ ht-degree: 62%
 
 # Resumen de la prueba (pruebas multivariable)
 
-El resumen de la prueba ofrece información general visual de su [!DNL Adobe Target] [!UICONTROL Prueba multivariable].
+El resumen de la prueba proporciona información general visual sobre su [!DNL Adobe Target] [!UICONTROL Prueba multivariable].
 
 ![Cuadro de diálogo de resumen de la prueba](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 

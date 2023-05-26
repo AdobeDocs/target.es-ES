@@ -1,13 +1,13 @@
 ---
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;segmentación de audiencia;informe de audiencia;audiencia de informe;segmento;parámetros de perfil personalizados;definición de audiencia;lista de audiencias
-description: Aprenda a utilizar audiencias en [!DNL Adobe Target].
-title: ¿Cómo utilizo la lista de audiencias?
+description: Aprenda a utilizar las audiencias de en [!DNL Adobe Target].
+title: ¿Cómo se utiliza la lista de audiencias?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '818'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -17,26 +17,26 @@ Audiencias en [!DNL Adobe Target] determine quién ve el contenido y las experie
 
 Las audiencias se utilizan siempre que está disponible la determinación de objetivos. Al segmentar una actividad, tiene las siguientes opciones:
 
-* Seleccione una audiencia reutilizable de [!UICONTROL Audiencias] list
-* [Crear una audiencia específica de actividad](/help/main/c-target/creating-activity-only-audience.md) y segmentarlo
-* [Combinación de varias audiencias](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad-hoc
+* Seleccione una audiencia reutilizable del [!UICONTROL Audiencias] lista
+* [Crear una audiencia específica de la actividad](/help/main/c-target/creating-activity-only-audience.md) y segmentarlo
+* [Combinación de varias audiencias](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad hoc
 
-También puede utilizar datos de audiencia recopilados por [!DNL Adobe Analytics] para personalización y segmentación en tiempo real en [!DNL Target] y otros [!DNL Adobe Experience Cloud] aplicaciones. Consulte [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) en el *Componentes de la interfaz central del Experience Cloud* guía.
+También puede utilizar los datos de audiencia recopilados por [!DNL Adobe Analytics] para personalización y segmentación en tiempo real en [!DNL Target] y otros [!DNL Adobe Experience Cloud] aplicaciones. Consulte [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) en el *Componentes de la interfaz central de Experience Cloud* guía.
 
 Existen dos tipos de audiencias en [!DNL Target]:
 
-* **Segmentación de audiencias:** Se utiliza para entregar distintos contenidos a distintos tipos de visitantes.
-* **Informes de audiencia:** Se utiliza para determinar cómo los distintos tipos de visitantes responden al mismo contenido y, así, analizar los resultados de las pruebas.
+* **Audiencias objetivo:** Se utiliza para entregar contenido diferente a diferentes tipos de visitantes.
+* **Audiencias de informes:** Se utiliza para determinar cómo responden los distintos tipos de visitantes al mismo contenido y así poder analizar los resultados de la prueba.
 
    En [!DNL Target], las audiencias de informes solo se pueden configurar si se usa [!DNL Target] como fuente de informes. Si utiliza [ Adobe Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), tiene que configurar la audiencia de informe en [!DNL Analytics].
 
-## Utilice la variable [!UICONTROL Audiencias] list {#use-list}
+## Utilice el [!UICONTROL Audiencias] lista {#use-list}
 
 Para acceder a la lista [!UICONTROL Audiencias], haga clic en **[!UICONTROL Audiencias]** en la barra de menús superior:
 
 ![Lista de audiencias](assets/audiences_list.png)
 
-La variable [!UICONTROL Audiencias] contiene las audiencias que puede utilizar en sus actividades. Utilice la variable [!UICONTROL Audiencias] para crear, editar, duplicar, copiar o combinar audiencias. La lista también indica la fuente donde se creó la audiencia:
+El [!UICONTROL Audiencias] Esta lista contiene las audiencias que puede utilizar en sus actividades de. Utilice el [!UICONTROL Audiencias] lista para crear, editar, duplicar, copiar o combinar audiencias. La lista también indica la fuente donde se creó la audiencia:
 
 * [!DNL Adobe Target]
 * [!DNL Adobe Target Classic]
@@ -45,46 +45,46 @@ La variable [!UICONTROL Audiencias] contiene las audiencias que puede utilizar e
 
    >[!NOTE]
    >
-   >La variable [!DNL Adobe Experience Platform] el origen está disponible para todos [!DNL Target] clientes que utilizan la variable [SDK web de Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o [combinado con audiencias existentes](/help/main/c-target/combining-multiple-audiences.md).
+   >El [!DNL Adobe Experience Platform] fuente disponible para todos [!DNL Target] clientes que utilizan [SDK web de Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}. Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o [combinado con audiencias existentes](/help/main/c-target/combining-multiple-audiences.md).
    >
    >Los usuarios deben tener [!UICONTROL Aprobador] o estado superior en [!DNL Target] para configurar [!DNL Target] [!UICONTROL Destinos] tarjetas en AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
    >
    >Para obtener más información, consulte [Usar audiencias de Adobe Experience Platform](#aep).
 
-Audiencias predefinidas, como &quot;[!UICONTROL Visitantes nuevos]&quot; y &quot;[!UICONTROL Visitantes que regresan],&quot; no se puede cambiar el nombre.
+Audiencias predefinidas, como &quot;[!UICONTROL Nuevos visitantes]&quot; y &quot;[!UICONTROL Visitantes que regresan],&quot; no se puede cambiar de nombre.
 
-Cuando se trabaja con audiencias creadas originalmente en [!DNL Experience Cloud] o [!DNL Adobe Experience Platform], [!DNL Target] le alerta si hace referencia a una audiencia en [!DNL Target] actividades que posteriormente se eliminaron en [!DNL Experience Cloud] o [!DNL Adobe Experience Platform].
+Al trabajar con audiencias que se crearon originalmente en [!DNL Experience Cloud] o [!DNL Adobe Experience Platform], [!DNL Target] le avisa si hace referencia a una audiencia en [!DNL Target] actividades que se han eliminado posteriormente en [!DNL Experience Cloud] o [!DNL Adobe Experience Platform].
 
-* Si se eliminó una audiencia en [!DNL Experience Cloud] o [!DNL Adobe Experience Platform], un icono de advertencia en las dos [!UICONTROL Audiencia] y se muestra el selector de audiencia. Información sobre herramientas en la variable [!DNL Target] La interfaz de usuario también indica que la audiencia se eliminó en [!DNL Experience Cloud] o [!DNL Adobe Experience Platform].
+* Si una audiencia se eliminó en [!DNL Experience Cloud] o [!DNL Adobe Experience Platform], un icono de advertencia en ambos [!UICONTROL Audiencia] y se muestra el selector de audiencias. Información de objeto en [!DNL Target] La interfaz de usuario también indica que la audiencia se eliminó en [!DNL Experience Cloud] o [!DNL Adobe Experience Platform].
 * Si intenta combinar varias audiencias con una audiencia eliminada, o si intenta guardar una actividad que hace referencia a una audiencia eliminada, aparecerá un mensaje de advertencia.
 
-También puede segmentar parámetros de perfil personalizados y parámetros de `user.`. Al crear una audiencia, arrastre los atributos que desee utilizar para segmentar la actividad a la ventana del generador de audiencias. Si no se muestra el atributo deseado, un mbox no lo ha activado. Encontrará otros parámetros personalizados disponibles de mbox en la lista desplegable [!UICONTROL Parámetros personalizados].
+También puede segmentar parámetros de perfil personalizados y parámetros de `user.`. Al crear una audiencia, arrastre los atributos que desee utilizar para segmentar la actividad en la ventana del generador de audiencias. Si el atributo deseado no se muestra, significa que un mbox no ha activado el atributo. Encontrará otros parámetros personalizados disponibles de mbox en la lista desplegable [!UICONTROL Parámetros personalizados].
 
-Utilice la variable [!UICONTROL Filtros] para filtrar la variable [!UICONTROL Audiencias] lista por fuente: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud]y [!DNL Adobe Experience Platform].
+Utilice el [!UICONTROL Filtros] para filtrar el [!UICONTROL Audiencias] lista por origen: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], y [!DNL Adobe Experience Platform].
 
-![Filtros en la [!UICONTROL Audiencias] list](assets/filters.png)
+![Opción Filtros en la [!UICONTROL Audiencias] lista](assets/filters.png)
 
-Utilice la variable [!UICONTROL Buscar audiencias] para buscar [!UICONTROL Audiencias] lista. Puede buscar cualquier parte del nombre de una audiencia, o bien encerrar entre comillas una cadena específica.
+Utilice el [!UICONTROL Buscar audiencias] para buscar en su [!UICONTROL Audiencias] lista. Puede buscar cualquier parte del nombre de una audiencia, o bien encerrar entre comillas una cadena específica.
 
 Puede ordenar la lista [!UICONTROL Audiencias] por nombre o por la fecha de la última modificación. Para ordenar por nombre o fecha, haga clic en el encabezado de columna y, a continuación, seleccione si quiere mostrar las audiencias en orden ascendente o descendente.
 
 ## Ver definiciones de audiencia {#section_11B9C4A777E14D36BA1E925021945780}
 
-Puede ver los detalles de definición de una audiencia en una tarjeta emergente en varios lugares de la sección [!DNL Target] IU sin abrir la audiencia. Esta funcionalidad se aplica a las audiencias creadas en [!DNL Target Standard/Premium] y audiencias importadas de [!DNL Target Classic] o creada mediante API.
+Puede ver los detalles de definición de la audiencia en una tarjeta emergente en varios lugares de la [!DNL Target] IU sin abrir la audiencia. Esta funcionalidad se aplica a las audiencias creadas en [!DNL Target Standard/Premium] y audiencias importadas de [!DNL Target Classic] o creado mediante API.
 
-Por ejemplo, para acceder a la siguiente definición de audiencia, haga clic en el botón [!UICONTROL Ver detalles] para la audiencia deseada:
+Por ejemplo, para acceder a la siguiente definición de audiencia de la tarjeta, haga clic en [!UICONTROL Ver detalles] para la audiencia deseada:
 
 ![Actividades > Definición de audiencia](assets/audience_definition_list.png)
 
-Para acceder a la siguiente definición de audiencia, haga clic en la [!UICONTROL Ver detalles] en el [!UICONTROL Información general] página:
+Para acceder a la siguiente definición de audiencia, haga clic en [!UICONTROL Ver detalles] en el icono de una actividad [!UICONTROL Información general] página:
 
 ![Actividades > Definición de audiencia](assets/view-details-activity-overview.png)
 
-La tarjeta de definición de audiencia muestra el tipo, la fuente y los atributos de la audiencia. Haga clic en **[!UICONTROL Ver detalles completos]** para ver otras actividades que hacen referencia a esa audiencia, si corresponde. Si está viendo una tarjeta de definición de audiencia desde la [!UICONTROL Información general] página, haga clic en **[!UICONTROL Uso de la audiencia]**.
+La tarjeta de definición de audiencia muestra el tipo, la fuente y los atributos de la audiencia. Clic **[!UICONTROL Ver detalles completos]** para ver otras actividades que hagan referencia a esa audiencia, si corresponde. Si está viendo una tarjeta de definición de audiencia desde la actividad de [!UICONTROL Información general] página, haga clic en **[!UICONTROL Uso de audiencia]**.
 
-La información de uso de la audiencia puede ayudarle a evitar impactos accidentales en otras actividades mientras edita audiencias. La información incluye [!UICONTROL Actividades en directo], [!UICONTROL Actividades inactivas], [!UICONTROL Actividades archivadas]y [!UICONTROL Sincronización de actividades]. Esta función está disponible para todas las audiencias (audiencias de biblioteca y  [audiencias solo de actividad](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+La información de uso de la audiencia puede ayudarle a evitar un impacto accidental en otras actividades al editar audiencias. La información incluye [!UICONTROL Actividades activas], [!UICONTROL Actividades inactivas], [!UICONTROL Actividades archivadas], y [!UICONTROL Sincronizando actividades]. Esta función está disponible para todas las audiencias (audiencias de biblioteca y  [audiencias solo de actividad](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
-Si una audiencia es [combinado con otra audiencia](/help/main/c-target/combining-multiple-audiences.md) y la audiencia combinada se utiliza para crear una actividad, la información de uso para ambas audiencias enumera esa actividad recién creada.
+Si una audiencia es [combinado con otra audiencia](/help/main/c-target/combining-multiple-audiences.md) y la audiencia combinada se utiliza para crear una actividad, la información de uso de ambas audiencias enumera la actividad recién creada.
 
 ![imagen audience_definition_list_usage](assets/audience_definition_list_usage.png)
 
@@ -105,13 +105,13 @@ Keep the following points in mind as you work with imported audiences:
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
 
-## Usar audiencias de [!DNL Adobe Experience Platform] {#aep}
+## Uso de audiencias de [!DNL Adobe Experience Platform] {#aep}
 
 Usar audiencias creadas en [!DNL Adobe Experience Platform] proporciona datos de clientes más completos que conducen a una personalización más impactante.
 
 Para obtener más información, consulte [Usar audiencias de [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 
-## Vídeo de formación: Uso de audiencias ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+## Vídeo de formación: Uso de audiencias ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las audiencias.
 

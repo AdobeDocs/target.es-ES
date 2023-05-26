@@ -1,7 +1,7 @@
 ---
 keywords: multivariable;mvt;métricas;definir métricas;métrica de objetivo;configuración de actividades;métrica de éxito;conversión;ingresos;participación
-description: Obtenga información sobre cómo especificar métricas en un Adobe [!DNL Target] Prueba multivariable para determinar si una visita es satisfactoria, como conversión, ingresos y participación.
-title: ¿Cómo establezco métricas de objetivo en una actividad de prueba multivariable (MVT)?
+description: Obtenga información sobre cómo especificar métricas en un Adobe [!DNL Target] Actividad de prueba multivariable para determinar si una visita es satisfactoria; por ejemplo, en el caso de la conversión, los ingresos y la participación.
+title: ¿Cómo configuro métricas de objetivo en una actividad de prueba multivariable (MVT)?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

@@ -1,7 +1,7 @@
 ---
 keywords: afinidad;afinidad de la categoría
-description: Obtenga información sobre la afinidad de la categoría en [!DNL Adobe Target] que captura automáticamente las categorías que visitan los usuarios y luego calcula la afinidad del usuario hacia las categorías, de modo que se pueda establecer como objetivo y se le apliquen segmentos.
-title: ¿Qué es la afinidad de la categoría?
+description: Obtenga información sobre la afinidad de la categoría en [!DNL Adobe Target] que captura automáticamente las categorías que visita un usuario y, a continuación, calcula la afinidad del usuario por la categoría para que se pueda establecer como objetivo y se le apliquen segmentos.
+title: ¿Qué Es La Afinidad De Categoría?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
@@ -13,7 +13,7 @@ ht-degree: 66%
 
 # Afinidad de la categoría
 
-La función de afinidad de la categoría en [!DNL Adobe Target] captura automáticamente las categorías del sitio que visitan los usuarios y luego calcula la afinidad del usuario por cada categoría para que se pueda establecer como objetivo y se le apliquen segmentos. La afinidad de la categoría ayuda a garantizar que el contenido esté dirigido a los visitantes que tienen más probabilidades de actuar sobre esa información.
+La característica de afinidad de la categoría en [!DNL Adobe Target] registra automáticamente las categorías del sitio que visita un usuario y, a continuación, calcula la afinidad del usuario por cada categoría para que se pueda segmentar y segmentar. La afinidad de la categoría ayuda a garantizar que el contenido se orienta a los visitantes que tienen más probabilidades de modificar esa información.
 
 ## Transferir información sobre la afinidad de la categoría a [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
@@ -29,11 +29,11 @@ Puede utilizar `user.categoryAffinities[]` en un script de perfil para devolver 
 
 >[!IMPORTANT]
 >
->La variable `user.categoryId` el atributo utilizado para el algoritmo de afinidad de la categoría es distinto de `entity.categoryId` atributo utilizado para [!DNL Adobe Target Recommendations]recomendaciones de producto y contenido. `user.categoryId` es necesario para rastrear la categoría favorita de un usuario. `entity.categoryId` es necesario para basar las recomendaciones en la categoría o el elemento actual. Pasa ambos valores a [!DNL Target] si desea utilizar ambas capacidades.
+>El `user.categoryId` El atributo utilizado para el algoritmo de afinidad de la categoría es distinto de `entity.categoryId` atributo utilizado para [!DNL Adobe Target Recommendations]&#39; recomendaciones de productos y contenido. `user.categoryId` es necesario para rastrear la categoría favorita de un usuario. `entity.categoryId` es necesario para basar las recomendaciones en la categoría o el elemento actual. Pase ambos valores a [!DNL Target] si desea utilizar ambas funcionalidades.
 
 ## Caso de negocio para la afinidad de la categoría {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-La actividad de un visitante en una sesión (por ejemplo, la categoría que ve con más frecuencia) se puede usar para dirigir las visitas subsiguientes. Se registran todas las páginas de categorías que ve un visitante durante una sesión y su categoría “favorita” se calcula según el modelo de proximidad en tiempo y de frecuencia. A continuación, cada vez que el visitante regresa a la página principal, el área de la imagen primordial se puede dirigir para que muestre contenido relacionado con su categoría favorita.
+La actividad de un visitante en una sesión (por ejemplo, qué categoría ve con mayor frecuencia) puede utilizarse para segmentar visitas posteriores. Se registran todas las páginas de categorías que ve un visitante durante una sesión y su categoría “favorita” se calcula según el modelo de proximidad en tiempo y de frecuencia. A continuación, cada vez que el visitante regresa a la página principal, el área de la imagen primordial se puede dirigir para que muestre contenido relacionado con su categoría favorita.
 
 ## Ejemplo del uso de afinidad de la categoría {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -43,10 +43,10 @@ Pongamos por supuesto que se dedica a la venta de instrumentos musicales por Int
 
 El algoritmo de afinidad de la categoría funciona de la siguiente forma:
 
-* Diez puntos para la primera categoría visualizada
-* Cinco puntos por cada categoría pulsada después del primer
+* Diez puntos por la primera categoría visualizada
+* Cinco puntos por cada categoría pulsada después de la primera.
 * Cuando se hace clic en una categoría nueva, se resta 1 punto de todas las categorías previamente pulsadas.
-* Si ya se hizo clic en una categoría (vista), volver a hacer clic en ella no restará 1 punto del resto de categorías
+* Si ya se hizo clic en una categoría (vista), volver a hacer clic en ella no resta 1 punto del resto de categorías
 * Si se hace clic en una sexta categoría nueva, se abandona la categoría con menos puntos de entre las primeras cinco categorías del cálculo.
 * Al final de la sesión, se dividen todos los valores entre 2.
 
@@ -100,11 +100,11 @@ Cuando la sesión termina y el usuario vuelve al sitio, las puntuaciones se redu
 
 ## Usar la afinidad de la categoría para segmentar {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
-Las secciones siguientes contienen información para ayudarle a usar una audiencia de afinidad de la categoría para segmentar en una actividad.
+Las secciones siguientes contienen información para ayudarle a utilizar una audiencia de afinidad de categoría para segmentar en una actividad.
 
 ### Crear una audiencia para usar la afinidad de la categoría {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. En el **[!UICONTROL Audiencias]** lista, haga clic en **[!UICONTROL Crear audiencia]**.
+1. Desde el **[!UICONTROL Audiencias]** , haga clic en **[!UICONTROL Crear audiencia]**.
 
    O
 
@@ -142,4 +142,4 @@ Las secciones siguientes contienen información para ayudarle a usar una audienc
 
 ### Usar la audiencia de afinidad de la categoría en una actividad {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Puede utilizar audiencias de afinidad de la categoría en cualquier actividad. Durante el flujo de trabajo guiado de tres pasos, en la variable [!UICONTROL Target] , elija la audiencia que desee.
+Puede utilizar audiencias de afinidad de la categoría en cualquier actividad. Durante el flujo de trabajo guiado de tres pasos, en la [!UICONTROL Target] , elija la audiencia que desee.

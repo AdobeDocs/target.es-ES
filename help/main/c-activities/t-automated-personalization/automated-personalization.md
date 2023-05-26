@@ -14,7 +14,7 @@ ht-degree: 82%
 
 # Automated Personalization (AP)
 
-[!UICONTROL Automated Personalization] actividades (AP) en [!DNL Adobe Target] combinar ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones de ofertas a cada visitante en función de su perfil de cliente, con el fin de personalizar el contenido y dirigir las conversiones.
+[!UICONTROL Automated Personalization] Actividades de (AP) en [!DNL Adobe Target] combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones de ofertas a cada visitante en función de su perfil de cliente, con el fin de personalizar el contenido y dirigir las conversiones.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 82%
 
 Al igual que la [!UICONTROL segmentación automática], la [!UICONTROL Personalización automatizada] utiliza un algoritmo de bosque aleatorio, un método puntero de ensamblado de la ciencia de datos, como su principal algoritmo de personalización a fin de determinar la mejor experiencia para mostrar a un visitante. [!UICONTROL La Personalización automatizada] resulta útil en la fase de detección de las pruebas. También es útil para permitir que el aprendizaje de la máquina pueda determinar el contenido más eficaz al segmentar varios visitantes. Con el tiempo, el algoritmo aprende a predecir el contenido más eficaz y muestra el que más probabilidades tiene de ayudarle a lograr sus objetivos.
 
-Para obtener más información sobre cómo [!UICONTROL Automated Personalization] difiere de [!UICONTROL Segmentación automática], consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+Para obtener más información acerca de cómo [!UICONTROL Automated Personalization] difiere de [!UICONTROL Segmentación automática], consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 Los especialistas en marketing implementan un archivo en su sitio, que les permite apuntar y hacer clic en cualquier contenido y, a continuación, crear y seleccionar opciones de contenido adicionales para dicha área utilizando el VEC ([!UICONTROL Compositor de experiencias visuales]). A continuación, el algoritmo determina automáticamente qué parte del contenido se ofrece a cada visitante en función de todos los datos de comportamiento que tiene el sistema del visitante, proporcionando una experiencia personalizada. Como la [!UICONTROL Personalización automatizada] puede adaptarse a los cambios en el comportamiento del visitante, se puede ejecutar sin una fecha de fin determinada para proporcionar un alta y una personalización continuas. A veces, este modo se denomina “siempre-activo”. El experto en marketing no necesita ejecutar una prueba, analizar los resultados y proporcionar un ganador antes de conocer el alza encontrada en la optimización, es decir, un pedido estándar de operaciones para implementar el resultado de una actividad A/B estándar.
 
@@ -32,7 +32,7 @@ Los términos siguientes le resultarán útiles cuando hable sobre la [!UICONTRO
 |---|---|
 | Multi-armed bandit | Un método multi-armed bandit en la optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje. |
 | Bosque aleatorio | El bosque aleatorio es una solución pionera de aprendizaje automático. En el ámbito de la ciencia de datos, es un método de clasificación o regresión del ensamblado que funciona construyendo un gran número de árboles de decisión basados en los atributos del visitante y de la visita. En Target, el bosque aleatorio se utiliza para determinar qué experiencia se prevé que tendrá la mayor probabilidad de conversión (o los mayores ingresos por visita) para cada visitante específico. Para obtener más información sobre el bosque aleatorio, consulte  [Algoritmo de bosque aleatorio](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). |
-| Muestreo Thompson | El objetivo del muestreo Thompson es determinar qué experiencia es la mejor globalmente (no personalizada), al mismo tiempo que se minimiza el &quot;coste&quot; de encontrar esa experiencia. El muestreo Thompson siempre selecciona un ganador, aunque no haya diferencias estadísticas entre las dos experiencias. Para obtener más información, consulte [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Muestreo Thompson | El objetivo del muestreo Thompson es determinar qué experiencia es la mejor globalmente (sin personalizar), al mismo tiempo que se minimiza el &quot;coste&quot; de encontrar esa experiencia. El muestreo Thompson siempre selecciona un ganador, aunque no haya diferencias estadísticas entre las dos experiencias. Para obtener más información, consulte [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 Al utilizar la [!UICONTROL Personalización automatizada], plantéese lo siguiente:
 
@@ -48,7 +48,7 @@ El bosque aleatorio es una solución pionera de aprendizaje automático. En el �
 
 **El modelo de personalización se adapta a los cambios de comportamiento de los visitantes.**
 
-* El método multi-armed bandit garantiza que el modelo siempre esté &quot;gastando&quot; una pequeña fracción de tráfico para seguir aprendiendo durante toda la actividad y para evitar la sobreexplotación de las tendencias aprendidas anteriormente.
+* El método multi-armed bandit garantiza que el modelo siempre &quot;gasta&quot; una pequeña fracción del tráfico para continuar aprendiendo a lo largo de la vida de la actividad y para evitar la sobreexplotación de las tendencias aprendidas anteriormente.
 * Los modelos subyacentes se regeneran cada 24 horas a partir de los últimos datos de comportamiento de los visitantes para garantizar que Target siempre pueda utilizar los cambios de preferencias de los visitantes.
 * Si el algoritmo no es capaz de determinar experiencias ganadoras para visitantes individuales, pasa automáticamente a mostrar la experiencia con mejor rendimiento general, sin dejar por ello de buscar ganadores personalizados. La experiencia con mejor rendimiento se determina empleando el [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 

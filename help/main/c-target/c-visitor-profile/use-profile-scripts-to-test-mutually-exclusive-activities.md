@@ -1,6 +1,6 @@
 ---
-keywords: Script de perfil;atributos de script de perfil;actividades mutuamente excluyentes
-description: Aprenda a utilizar atributos de perfil para configurar pruebas en Adobe [!DNL Target] que comparan varias actividades pero no permiten que los mismos visitantes participen en cada actividad.
+keywords: Script de perfil;atributos de script de perfil;actividades mutuamente exclusivas
+description: Aprenda a utilizar atributos de perfil para configurar pruebas en Adobe [!DNL Target] que comparan varias actividades, pero no permiten que los mismos visitantes participen en cada actividad.
 title: ¿Puedo usar scripts de perfil para probar actividades mutuamente exclusivas?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
@@ -13,16 +13,16 @@ ht-degree: 74%
 
 # Uso de scripts de perfil para probar actividades mutuamente exclusivas
 
-Puede usar atributos de perfil en [!DNL Adobe Target] para configurar pruebas que comparen dos o más actividades pero no permitan que los mismos visitantes participen en cada actividad.
+Puede utilizar atributos de perfil en [!DNL Adobe Target] para configurar pruebas que comparen dos o más actividades pero que no permitan que los mismos visitantes participen en cada actividad.
 
 La prueba de actividades mutuamente exclusivas evita que un visitante de una campaña afecte a los resultados de la prueba para el resto de actividades. Cuando un visitante participa en diversas actividades, puede resultar difícil determinar si se ha producido un alza positiva o negativa de la experiencia del visitante con una actividad o si interacciones entre varias actividades han afectado a los resultados de una o más actividades.
 
-Por ejemplo, puede probar dos áreas del sistema de comercio electrónico. Puede que desee probar a hacer que el botón &quot;Agregar al carro&quot; aparezca rojo en lugar de azul. También puede desear probar un nuevo proceso de cierre de compra que reduzca el número de pasos de cinco a dos. Si ambas actividades tienen el mismo evento de éxito (una compra completada), puede resultar difícil determinar si el botón rojo mejora las conversiones o si las mismas conversiones también aumentan debido al proceso de cierre de compra mejorado. Al separar las pruebas en actividades mutuamente exclusivas, puede probar cada fase de forma independiente.
+Por ejemplo, puede probar dos áreas del sistema de comercio electrónico. Es posible que desee probar a hacer que el botón &quot;Agregar al carro de compras&quot; sea rojo en lugar de azul. También puede desear probar un nuevo proceso de cierre de compra que reduzca el número de pasos de cinco a dos. Si ambas actividades tienen el mismo evento de éxito (una compra completada), puede resultar difícil determinar si el botón rojo mejora las conversiones o si esas mismas conversiones también aumentaron debido al proceso de cierre de compra mejorado. Al separar las pruebas en actividades mutuamente exclusivas, puede probar cada fase de forma independiente.
 
 Tenga en cuenta la siguiente información cuando utilice uno de los siguientes scripts de perfil:
 
 * La secuencia de comandos de perfil debe ejecutarse antes de que la actividad se inicie y la secuencia de comandos no debe modificarse mientras dure la actividad.
-* Esta técnica reduce la cantidad de tráfico en la actividad, lo que puede requerir que la actividad se ejecute durante más tiempo. Debe tener en cuenta este hecho cuando calcule la duración de la actividad.
+* Esta técnica reduce la cantidad de tráfico en la actividad, lo que podría requerir que la actividad se ejecute más tiempo. Debe tener en cuenta este hecho cuando calcule la duración de la actividad.
 
 ## Configuración de dos actividades
 
@@ -45,7 +45,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` comienza una rutina que determina el grupo al que pertenece el visitante. Si el número devuelto está entre 0 y 49, el visitante se asigna a GrupoA. Si el número devuelto está entre 50 y 100, el visitante se asigna a GrupoB. El grupo determina qué actividad ve el visitante.
 
-Después de crear el atributo de perfil, configure la primera actividad para que se dirija a la población deseada exigiendo que el parámetro de perfil de usuario `user.twogroups` coincide con el valor especificado para GrupoA.
+Después de crear el atributo de perfil, configure la primera actividad para dirigirse a la población deseada mediante el requisito de que el parámetro de perfil de usuario sea. `user.twogroups` coincide con el valor especificado para GroupA.
 
 >[!NOTE]
 >

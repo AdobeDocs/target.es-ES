@@ -1,6 +1,6 @@
 ---
-keywords: Segmentación;compositor de experiencias visuales;compositor de experiencias visuales mejorado;vec;resolución de problemas del compositor de experiencias visuales;solución de problemas;eec;compositor de experiencias mejorado;tls;tls 1.2
-description: Obtenga información sobre cómo solucionar problemas que a veces ocurren en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC) bajo determinadas condiciones.
+keywords: Segmentación;compositor de experiencias visuales;compositor de experiencias visuales mejorado;vec;solución de problemas del compositor de experiencias visuales;solución de problemas;eec;compositor de experiencias mejorado;tls;tls 1.2
+description: Aprenda a solucionar problemas que a veces ocurren en el Compositor de experiencias visuales (VEC) y el Compositor de experiencias mejorado (EEC) bajo ciertas condiciones.
 title: ¿Cómo puedo solucionar problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado?
 feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 # Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado
 
-Los problemas de visualización a veces ocurren en la variable [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (CEE) en determinadas condiciones.
+Los problemas de visualización a veces ocurren en [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) y el [!UICONTROL Compositor de experiencias mejorado] (CEE) en determinadas condiciones.
 
 El VEC es una de las características principales de [!DNL Adobe Target]. El VEC es un editor que permite que los comerciantes y diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
 

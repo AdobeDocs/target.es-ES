@@ -1,7 +1,7 @@
 ---
 keywords: experiencia;control;Automated Personalization;segmentación automática
-description: Obtenga información sobre cómo seleccionar una experiencia para utilizarla como control al crear una actividad de Automated Personalization (AP) o de Segmentación automática en Adobe Target.
-title: ¿Cómo puedo usar una experiencia específica como control en una actividad AP?
+description: Obtenga información sobre cómo seleccionar una experiencia para utilizarla como control mientras se crea una actividad de Automated Personalization (AP) o de Segmentación automática (AT) en Adobe Target.
+title: ¿Cómo puedo utilizar una experiencia específica como control en una actividad AP?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -19,13 +19,13 @@ Puede seleccionar una experiencia servida aleatoriamente o una experiencia espec
 
 Esta funcionalidad le permite dirigir el tráfico de control a una experiencia relevante, según el porcentaje de asignación de tráfico configurado en la actividad. Luego puede evaluar los informes de rendimiento del tráfico personalizado respecto al tráfico de control a ese control.
 
-Las opciones para configurar un control en actividades AP y AT son un diferentes a tipos de actividades. En una prueba A/B manual, puede cambiar qué controles se muestran en los informes. El crecimiento se calcula según la tasa de conversión de esa experiencia de control. Puede cambiarlo fácilmente ya que el tráfico se sirve aleatoriamente a cada una de las experiencias incluidas en la actividad, independientemente de la configuración que se establezca en el control. En otras palabras, seleccionar el control no afecta a cómo se sirve el tráfico. En las actividades AP y AT, su decisión sobre qué elegir como control influye en el modo en que se sirve el tráfico de visitantes. Por tanto, es importante que piense bien su decisión.
+Las opciones para configurar un control en actividades AP y AT son un diferentes a tipos de actividades. En una prueba A/B manual, puede cambiar qué controles se muestran en los informes. El crecimiento se calcula según la tasa de conversión de esa experiencia de control. Puede cambiarlo fácilmente ya que el tráfico se sirve aleatoriamente a cada una de las experiencias incluidas en la actividad, independientemente de la configuración que se establezca en el control. En otras palabras, seleccionar el control no afecta al modo en que se sirve el tráfico. En las actividades AP y AT, su decisión sobre qué elegir como control influye en el modo en que se sirve el tráfico de visitantes. Por tanto, es importante que piense bien su decisión.
 
 Hay dos opciones disponibles para el control en las actividades AP y AT: experiencias servidas aleatoriamente o una experiencia específica.
 
-* **Servido aleatoriamente**: Para un control aleatorio, el porcentaje de control de tráfico proporciona todas las experiencias de la actividad de forma aleatoria, sin tener en cuenta el perfil de ese visitante. Puede considerar el control como ayuda para responder a la pregunta: &quot;Si solo ofrezco aleatoriamente una experiencia (u oferta) a los visitantes y no considero sus perfiles, ¿cuál es la tasa de conversión para esa experiencia (u oferta)?&quot; El control es como una prueba A/B dentro de la actividad AI. Tener esta información de la tasa de conversión no personalizada para cada experiencia u oferta puede resultar útil para saber cuándo analizar los resultados de la actividad.
+* **Servido aleatoriamente**: Para un control aleatorio, el porcentaje de control de tráfico proporciona todas las experiencias de la actividad sin tener en cuenta el perfil del visitante. Puede considerar el control como ayuda para responder a la pregunta: &quot;Si solo ofrezco aleatoriamente una experiencia (u oferta) a los visitantes y no considero sus perfiles, ¿cuál es la tasa de conversión de dicha experiencia (u oferta)?&quot; El control es como una prueba A/B dentro de la actividad AI. Tener esta información de la tasa de conversión no personalizada para cada experiencia u oferta puede resultar útil para saber cuándo analizar los resultados de la actividad.
 
-* **Experiencia específica**: Un control de experiencia específico le permite comparar el tráfico servido por los modelos de personalización de Target con una experiencia específica definida por el especialista en marketing (por ejemplo, su página principal predeterminada). Con esta opción, el porcentaje de control de tráfico proporciona tráfico de forma aleatoria solo para esa experiencia.
+* **Experiencia específica**: un control de experiencia específico permite comparar el tráfico proporcionado por los modelos de personalización de Target con una experiencia específica definida por el especialista en marketing (por ejemplo, su página principal predeterminada). Con esta opción, el porcentaje de control de tráfico proporciona tráfico de forma aleatoria solo para esa experiencia.
 
 ## Especificar una experiencia determinada como control
 
