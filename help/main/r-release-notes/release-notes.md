@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 83%
 
 ---
 
@@ -19,14 +19,17 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target] Standard/Premium 23.4.1 (25-27 de abril de 2023)
+## [!DNL Target] Estándar/Premium 23.5.1 (23-25 de mayo de 2023)
 
-Esta versión contiene actualizaciones de seguridad y las siguientes nuevas funciones:
+Esta versión estará disponible según la siguiente programación escalonada:
 
-| Función | Detalles |
-|--- |--- |
-| [!UICONTROL Fragmentos de contenido] de AEM para personalización y experimentación sin encabezado | Use [!UICONTROL fragmentos de contenido] de [!DNL Adobe Experience Manager] (AEM) en las actividades de [!DNL Target]. Combine la facilidad de uso y la potencia de AEM con las eficaces capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para facilitar la personalización y la experimentación sin encabezado.<P>Para obtener más información, consulte [!UICONTROL Fragmentos de contenido]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) de AEM[. |
-| [*Guía para desarrolladores de Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es){target=_blank} | La *Guía para desarrolladores de Adobe Target* se ha trasladado a *[!UICONTROL Adobe Experience League]*. Mover a *[!UICONTROL Experience League]* ayuda en la localización de texto en idiomas adicionales, unifica la búsqueda en *Experience League* para abarcar y ofrecer resultados de búsqueda desde la *[!UICONTROL Guía para profesionales de Adobe Target Business]* y la *[!UICONTROL Guía para desarrolladores de Adobe Target]* y proporciona otras ventajas.<P>Se le redirigirá desde la ubicación anterior a *[!UICONTROL Experience League]* automáticamente. Actualice los marcadores según sea necesario. |
+23 de mayo: Región de Europa, Oriente Medio y África (EMEA) 24 de mayo: Región de Asia y el Pacífico (APAC) 25 de mayo: Región de América
+
+Esta versión incorpora las siguientes mejoras y correcciones nuevas:
+
+* Se ha corregido un problema que impedía que ciertos clientes crearan audiencias con perfiles de visitantes que usaran los operadores &quot;bueno que&quot; o &quot;menor que&quot;. (TGT-45271)
+* Se han realizado varias correcciones de localización en la IU de [!DNL Target].
+* Se ha actualizado la interfaz de usuario de Target en varios lugares para una próxima actualización de la interfaz de usuario (los cambios irán detrás de un indicador de función hasta que se publiquen las actualizaciones).
 
 ## Notas de la versión adicionales y detalles de la versión
 

@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 52%
+source-wordcount: '457'
+ht-degree: 56%
 
 ---
 
@@ -15,29 +15,13 @@ ht-degree: 52%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: 22 de mayo de 2023**
+**Última actualización: 24 de mayo de 2023**
 
 >[!NOTE]
 >
 >Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
-
-## [!DNL Target] Estándar/Premium 23.5.1 (23-25 de mayo de 2023)
-
-Esta versión estará disponible según la siguiente programación escalonada:
-
-23 de mayo: Región de Europa, Oriente Medio y África (EMEA) 24 de mayo: Región de Asia y el Pacífico (APAC) 25 de mayo: Región de América
-
-Esta versión incluye las siguientes nuevas funciones, mejoras y correcciones:
-
-| Función | Detalles |
-|--- |--- |
-| Atributos de perfil de Real-Time CDP compartidos con [!DNL Target] | Los [!UICONTROL Atributos de perfil de Real-Time CDP] se pueden compartir con [!DNL Target] para su uso en ofertas de HTML y JSON.<P>Para obtener más información, consulte [Uso compartido de atributos de perfil de Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
-
-* Se ha corregido un problema que impedía que ciertos clientes crearan audiencias con perfiles de visitantes que usaran los operadores &quot;bueno que&quot; o &quot;menor que&quot;. (TGT-45271)
-* Se han realizado varias correcciones de localización en la IU de [!DNL Target].
-* Se ha actualizado la interfaz de usuario de Target en varios lugares para una próxima actualización de la interfaz de usuario (los cambios irán detrás de un indicador de función hasta que se publiquen las actualizaciones).
 
 ## [!DNL Target] Standard/Premium 23.5.2 (31 de mayo de 2023)
 
@@ -58,6 +42,7 @@ Esta versión incluye las siguientes mejoras:
 | Función | Detalles |
 |--- |--- |
 | [!UICONTROL Modo de control de calidad] para [!UICONTROL Automated Personalization] actividades | [!DNL Adobe Target] [!UICONTROL Modo de control de calidad] ya está disponible para [!UICONTROL Automated Personalization] actividades, reemplazar [!UICONTROL Previsualizar vínculos] funcionalidad.<P>Para obtener más información, consulte [Control de calidad de las actividades.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
+| Atributos de perfil de Real-Time CDP compartidos con [!DNL Target] | Los [!UICONTROL Atributos de perfil de Real-Time CDP] se pueden compartir con [!DNL Target] para su uso en ofertas de HTML y JSON.<P>Para obtener más información, consulte [Uso compartido de atributos de perfil de Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Mejoras de rendimiento para impedir la funcionalidad de duplicados (incluida la reducción del tiempo de carga) mientras que [administración de exclusiones](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] actividades.
 
