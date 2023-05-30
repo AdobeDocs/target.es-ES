@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
+source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 92%
+source-wordcount: '1989'
+ht-degree: 87%
 
 ---
 
@@ -44,6 +44,14 @@ Nada programado en este momento.
 ## Grabaciones de seminarios web anteriores y sesiones de formación
 
 Acceder a las grabaciones de eventos anteriores (cuando estén disponibles):
+
+### El Recorrido de impulsar el crecimiento con la personalización
+
+Sobrecargue la capacidad de su organización para ofrecer personalización, presentada por el Adobe Customer Success Manager, Ramon Céspedes.
+
+Un informe de analistas clave sugiere que las empresas que destacan en personalización generan un 40 por ciento más de ingresos que sus contrapartes. Para satisfacer la demanda de experiencias nuevas, relevantes y altamente personalizadas en cada clic, los especialistas en marketing necesitan disponer del marco y la estrategia adecuados. En este seminario web, únase a los expertos de Adobe para aprender a utilizar el marco de trabajo basado en datos para crear los programas de personalización de su organización e impulsar el éxito.
+
+* [Vínculo de grabación](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### Ajuste de la personalización con tecnología de IA: nuevas funciones de [!DNL Adobe Target] (11 de octubre de 2022)
 
