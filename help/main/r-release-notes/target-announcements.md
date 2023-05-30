@@ -4,7 +4,7 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
+source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
 workflow-type: tm+mt
 source-wordcount: '1889'
 ht-degree: 92%
@@ -31,7 +31,7 @@ Nos acompañarán... [!DNL Adobe Target] expertos: Bill Ozinga, John Mosbaugh, J
 
 * **Miércoles, 21 de junio de 2023**
 * **8:00-9:00 a. m. (PDT, UTC-7)**
-* **[Más información]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+* **[Más información](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
 
 Nos acompañarán los expertos de Adobe Target, Ramon Céspedes y Kevin Jemison. En este evento de AMA (Pregúntame cualquier cosa), los expertos iniciarán sesión y estarán listos para responder cualquiera de tus preguntas relacionadas con los temas tratados en el reciente seminario web del 24 de mayo de 2024 en [El Recorrido de impulsar el crecimiento con la personalización](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
