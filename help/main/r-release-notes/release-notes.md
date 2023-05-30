@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 83%
+source-wordcount: '621'
+ht-degree: 57%
 
 ---
 
@@ -18,6 +18,21 @@ ht-degree: 83%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target] Standard/Premium 23.5.2 (31 de mayo de 2023)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Se ha corregido un problema que provocaba que se mostrara una página en blanco al generar un token de autorización de API de perfil. (TGT-45387 y TGT-45423)
+* Se ha corregido un problema que impedía que se mostrara una imagen en la [!UICONTROL Crear diseño] panel si el nombre de la imagen contiene caracteres GB 18030. (TGT-44614)
+* Se ha corregido un problema por el cual algunos caracteres de símbolo GB 18030 se escapaban incorrectamente en Texto/HTML en experiencias. (TGT-44600)
+* Se ha corregido un problema que generaba informes para [!UICONTROL Personalización automática] actividades para congelar durante el análisis. (TGT-44820)
+* Se ha corregido un problema que impedía buscar una actividad en [!UICONTROL Actividad] página si el nombre de la actividad contiene un corchete ( [ o ] ). (TGT-44777)
+* Se ha corregido un problema que impedía que una actividad se sincronizara si el objetivo de la actividad contenía caracteres especiales. (TGT-44982)
+* Se ha corregido un problema que hacía que no se mostraran actividades en [!DNL Target] IU para el espacio de trabajo predeterminado de determinados clientes. (TGT-45286)
+* Se ha actualizado el comportamiento del indicador No permitir duplicados. Los indicadores de ofertas repetidas excluidas se actualizan para permitir ofertas repetidas si son la oferta de contenido predeterminada (para las API v3 y v4) y permitir opciones duplicadas si las opciones hacen referencia a la oferta de contenido predeterminada y no tienen plantillas definidas. (TNT-46617)
+* Se ha corregido un problema por el cual se agregaba un parámetro de consulta a una dirección URL que impedía que la página se cargara en [!UICONTROL Compositor de experiencias visuales] (VEC). (TGT-44873)
+* Se han realizado varias correcciones de localización en la IU de [!DNL Target].
 
 ## [!DNL Target] Estándar/Premium 23.5.1 (23-25 de mayo de 2023)
 
