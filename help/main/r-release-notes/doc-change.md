@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '2890'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -23,16 +23,16 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Integrar con [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artículo actualizado con información sobre el uso compartido [!UICONTROL Atributos de perfil de Real-Time CDP] con [!DNL Target] para su uso en ofertas de HTML y JSON. |
 |  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los próximos eventos Coffee Break:<ul><li>[!DNL Adobe Target Recommendations] Coffee Break (7 de junio)</li><li>Seguimiento del seminario web de preparación para el programa de personalización (21 de junio)</li></ul> |
 | 23 de mayo | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=es){target=_blank} | Se ha actualizado la nota importante. |
-|  | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de próximas versiones. |
+|  | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han actualizado las notas de versión preliminar de próximas versiones. |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.5.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.4.1 (25-27 de abril de 2023)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| Mayo de 22 | [Integrar con [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Se agregaron los siguientes vídeos nuevos:<ul><li>Configure las variables [!DNL Adobe Target] destino en [!DNL Real-Time Customer Data Platform]</li><li>Activar segmentos y atributos de perfil</li><li>Uso [!DNL Real-Time CDP] segmentos en [!DNL Target]</li><li>Uso [!DNL Real-Time CDP] atributos de perfil en [!DNL Adobe Target]</li></ul> |
+| Mayo de 22 | [Integrar con [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Se agregaron los siguientes vídeos nuevos:<ul><li>Configure el destino de [!DNL Adobe Target] en [!DNL Real-Time Customer Data Platform]</li><li>Activar segmentos y atributos de perfil</li><li>Uso de segmentos de [!DNL Real-Time CDP] en [!DNL Target]</li><li>Uso de atributos de perfil de [!DNL Real-Time CDP] en [!DNL Adobe Target]</li></ul> |
 |  | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=es){target=_blank} | Se ha actualizado la nota importante. |
-| Mayo de 19 | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han actualizado las notas de revisión de próximas versiones. |
+| Mayo de 19 | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han actualizado las notas de versión preliminar de próximas versiones. |
 | 17 de mayo | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información sobre el turno de preguntas y respuestas de la [!UICONTROL Comunidad de Adobe Target] el 24 de mayo de 2023. |
 | 16 de mayo | [Atributos de entidad](/help/main/c-recommendations/c-products/entity-attributes.md) | Se ha indicado que no se permiten &quot;espacios&quot; en `entity.id` valores. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=es){target=_blank} | Se ha actualizado la descripción de `viewsEnabled`. |

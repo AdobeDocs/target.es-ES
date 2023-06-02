@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 59%
+ht-degree: 84%
 
 ---
 
@@ -28,13 +28,13 @@ Esta versión incluye las siguientes mejoras y correcciones:
 | Atributos de perfil de Real-Time CDP compartidos con [!DNL Target] | Los [!UICONTROL Atributos de perfil de Real-Time CDP] se pueden compartir con [!DNL Target] para su uso en ofertas de HTML y JSON.<P>Para obtener más información, consulte [Uso compartido de atributos de perfil de Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Se ha corregido un problema que provocaba que se mostrara una página en blanco al generar un token de autorización de API de perfil. (TGT-45387 y TGT-45423)
-* Se ha corregido un problema que impedía que se mostrara una imagen en la [!UICONTROL Crear diseño] panel si el nombre de la imagen contiene caracteres GB 18030. (TGT-44614)
+* Se ha corregido un problema que impedía que se mostrara una imagen en el panel [!UICONTROL Crear diseño] si el nombre de la imagen contiene GB 18030 caracteres. (TGT-44614)
 * Se ha corregido un problema por el cual algunos caracteres de símbolo GB 18030 se escapaban incorrectamente en Texto/HTML en experiencias. (TGT-44600)
-* Se ha corregido un problema que generaba informes para [!UICONTROL Personalización automática] actividades para congelar durante el análisis. (TGT-44820)
+* Se ha corregido un problema que generaba informes para actvidades de [!UICONTROL Personalización automática] para congelar durante el análisis. (TGT-44820)
 * Se ha corregido un problema que impedía buscar una actividad en [!UICONTROL Actividad] página si el nombre de la actividad contiene un corchete ( [ o ] ). (TGT-44777)
 * Se ha corregido un problema que impedía que una actividad se sincronizara si el objetivo de la actividad contenía caracteres especiales. (TGT-44982)
 * Se ha corregido un problema que hacía que no se mostraran actividades en [!DNL Target] IU para el espacio de trabajo predeterminado de determinados clientes. (TGT-45286)
-* Se ha actualizado el comportamiento del indicador No permitir duplicados. Los indicadores de ofertas repetidas excluidas se actualizan para permitir ofertas repetidas si son la oferta de contenido predeterminada (para las API v3 y v4) y permitir opciones duplicadas si las opciones hacen referencia a la oferta de contenido predeterminada y no tienen plantillas definidas. (TNT-46617)
+* Se ha actualizado el comportamiento del indicador &quot;No permitir duplicados&quot;. Los indicadores de ofertas repetidas excluidas se actualizan para permitir ofertas repetidas si son la oferta de contenido predeterminada (para las API v3 y v4) y permitir opciones duplicadas si las opciones hacen referencia a la oferta de contenido predeterminada y no tienen plantillas definidas. (TNT-46617)
 * Se ha corregido un problema por el cual se agregaba un parámetro de consulta a una dirección URL que impedía que la página se cargara en [!UICONTROL Compositor de experiencias visuales] (VEC). (TGT-44873)
 * Se han realizado varias correcciones de localización en la IU de [!DNL Target].
 
@@ -42,13 +42,15 @@ Esta versión incluye las siguientes mejoras y correcciones:
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
-23 de mayo: Región de Europa, Oriente Medio y África (EMEA) 24 de mayo: Región de Asia y el Pacífico (APAC) 25 de mayo: Región de América
+23 de mayo: Región de Europa, Oriente Medio y África (EMEA)
+24 de mayo: Región de Asia y el Pacífico (APAC)
+25 de mayo: Región de América
 
-Esta versión incorpora las siguientes mejoras y correcciones nuevas:
+Esta versión incluye las siguientes mejoras y correcciones nuevas:
 
-* Se ha corregido un problema que impedía que ciertos clientes crearan audiencias con perfiles de visitantes que usaran los operadores &quot;bueno que&quot; o &quot;menor que&quot;. (TGT-45271)
+* Se ha corregido un problema que impedía que ciertos clientes crearan audiencias con perfiles de visitantes que usaran los operadores &quot;superior a&quot; o &quot;inferior a&quot;. (TGT-45271)
 * Se han realizado varias correcciones de localización en la IU de [!DNL Target].
-* Se ha actualizado la interfaz de usuario de Target en varios lugares para una próxima actualización de la interfaz de usuario (los cambios irán detrás de un indicador de función hasta que se publiquen las actualizaciones).
+* Se ha actualizado la IU de Target en varios lugares para una próxima actualización de la IU (los cambios irán detrás de un indicador de función hasta que se publiquen las actualizaciones).
 
 ## Notas de la versión adicionales y detalles de la versión
 

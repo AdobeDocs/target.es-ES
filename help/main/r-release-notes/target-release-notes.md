@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 87595187e4d45ce8ba042d43ebf45a9ca9ec9a47
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,9 @@ Esta versión incluye las siguientes mejoras:
 
 | Función | Detalles |
 |--- |--- |
-| [!UICONTROL Modo de control de calidad] para [!UICONTROL Automated Personalization] actividades | [!DNL Adobe Target] [!UICONTROL Modo de control de calidad] ya está disponible para [!UICONTROL Automated Personalization] actividades, reemplazar [!UICONTROL Previsualizar vínculos] funcionalidad.<P>Para obtener más información, consulte [Control de calidad de las actividades.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
+| [!UICONTROL Modo de control de calidad] para actividades de [!UICONTROL Automated Personalization] | [!DNL Adobe Target] [!UICONTROL Modo de control de calidad] ya está disponible para actividades de [!UICONTROL Automated Personalization], reemplazar la funcionalidad [!UICONTROL Previsualizar vínculos].<P>Para obtener más información, consulte [Control de calidad de las actividades.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
 
-* Mejoras de rendimiento para impedir la funcionalidad de duplicados (incluida la reducción del tiempo de carga) mientras que [administración de exclusiones](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] actividades.
+* Mejoras de rendimiento para impedir la funcionalidad de duplicados (incluida la reducción del tiempo de carga) mientras que se [administran exclusiones](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) en actividades de [!UICONTROL Automated Personalization].
 
 ## Notas de la versión adicionales y detalles de la versión
 
