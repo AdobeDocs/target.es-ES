@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
+source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 87%
+source-wordcount: '2159'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ Información sobre los próximos Coffee Breaks:
 
 * **Miércoles, 7 de junio de 2023**
 * **8:00-9:00 a. m. (PDT, UTC-7)**
-* **[Más información](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+* **[Más información](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
 
 Nos acompañarán... [!DNL Adobe Target] expertos: Bill Ozinga, John Mosbaugh, Justin Patrick y Eric Thibeault. En este evento de AMA (Pregúntame cualquier cosa), los expertos iniciarán sesión y estarán listos para responder cualquiera de tus preguntas relacionadas con [!DNL Target Recommendations] función.
 
@@ -44,6 +44,21 @@ Nada programado en este momento.
 ## Grabaciones de seminarios web anteriores y sesiones de formación
 
 Acceder a las grabaciones de eventos anteriores (cuando estén disponibles):
+
+### Optimización y personalización de experiencias móviles para entornos autenticados (26 de abril de 2023)
+
+Las marcas deben ofrecer experiencias muy personalizadas y relevantes basadas en las necesidades y los comportamientos específicos de los clientes. Con preguntas acerca de un futuro sin cookies en la tecnología de marketing, los sectores regulados buscan adoptar un marco de participación más sólido y optimizar la interacción del cliente para ofrecerle el contenido y la oferta adecuados.
+
+¿Cómo pueden las marcas de los sectores de servicios financieros y seguros, venta minorista, viajes y hostelería, y telecomunicaciones adoptar las prácticas recomendadas para la optimización y personalización en entornos autenticados? Comprendiendo la importancia de las aplicaciones móviles para la participación y retención de clientes fieles, ¿cómo pueden las marcas habilitar el autoservicio digital o aumentar la adopción de nuevas funciones con experiencias personalizadas?
+
+En esta sesión, aprenda cómo [!DNL Adobe Target] y [!DNL Real-Time CDP] pueden incrementar la participación, los ingresos y la lealtad del cliente dentro de sectores regulados, mientras tratamos lo siguiente:
+
+* Cómo los equipos ofrecen experiencias personalizadas a visitantes anónimos y autenticados
+* Explicación de los permisos de consumidor y las normas de privacidad con personalización
+* Contenido personalizado y ofertas para visitantes autenticados mediante anonimización de identidades
+* Casos de uso únicos para sitios autenticados y seguros en sitios web y móviles
+
+[Vínculo de grabación](https://video.tv.adobe.com/v/3418987){target=_blank}
 
 ### El Recorrido de impulsar el crecimiento con la personalización
 
