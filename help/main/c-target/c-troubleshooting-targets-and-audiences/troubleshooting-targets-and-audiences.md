@@ -4,10 +4,10 @@ description: Vea las preguntas más frecuentes (FAQ) acerca de la segmentación 
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de objetivos y audiencias?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 61%
+source-wordcount: '962'
+ht-degree: 62%
 
 ---
 
@@ -39,7 +39,7 @@ Más allá de la segmentación de audiencia en la dirección URL, también puede
 
 Direccionamiento de URL de audiencia y direccionamiento de URL añadidos mediante [!UICONTROL Reglas de plantilla] evalúe como objetivo de URL (consulte Direccionamiento de URL a continuación).
 
-### Segmentación de URL
+### Segmentación de URL {#url-targeting}
 
 Para aplicar la segmentación por URL, mientras crea una audiencia, haga clic en [!UICONTROL Agregar regla], haga clic en [!UICONTROL Páginas del sitio], seleccione una opción en la primera lista desplegable ([!UICONTROL Página actual], [!UICONTROL Página anterior], o [!UICONTROL Página de aterrizaje]), seleccione [!UICONTROL URL] en la segunda lista desplegable, especifique un evaluador y luego especifique la dirección URL deseada.
 
@@ -47,11 +47,10 @@ Para aplicar la segmentación por URL, mientras crea una audiencia, haga clic en
 
 La segmentación por URL transforma la dirección URL en un conjunto de reglas para evaluar:
 
-* Dirección URL = `example.com/path1?query=something`
-* Dominio de URL = `example.com`
-* Ruta = ruta1/ruta2/ruta3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* Dirección URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* Dominio = `example.com`
+* Ruta = `path1/path2/path3`
+* Consulta = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## Al crear cadenas de URL complejas, hace lo siguiente [!DNL Target] ¿desea evaluar la dirección URL completa?
 
