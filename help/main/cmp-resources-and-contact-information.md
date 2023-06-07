@@ -4,10 +4,10 @@ description: Conozca cuáles son los recursos adicionales para ayudarle a conoce
 title: ¿Dónde puedo encontrar recursos e información de contacto para Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 98%
+source-wordcount: '1211'
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ Customer Care está preparado para ayudarle a solucionar los problemas que pueda
 
 Si tiene problemas o quiere realizar alguna pregunta sobre el uso de Target tiene varias opciones.
 
-Si tiene alguna consulta, puede preguntar a los expertos de Adobe Target en la [comunidad de Experience Cloud](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es), o bien puede preguntarnos por Twitter en [@AdobeExpCare](https://twitter.com/adobeexpcare).
+Si tiene alguna duda, puede preguntar a los expertos de Adobe Target en la [Comunidad de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es){target=_blank} or ask us on [Twitter](https://twitter.com/adobeglobal){target=_blank}.
 
 Si tiene problemas técnicos o quiere registrar un error, contacte con atención al cliente. Para contactar con atención al cliente por teléfono, llame al +1 800 497 0335. Puede encontrar información sobre números de teléfono gratuitos para llamadas desde fuera de Estados Unidos en la página [Números de teléfono regionales de servicio de atención al cliente de Adobe Digital Marketing](https://helpx.adobe.com/es/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Cuando se le pida que seleccione una opción para su producto, presione 3 para contactar con el equipo de Target.
 
@@ -101,7 +101,7 @@ Información que le ayudará a comunicarse con Adobe y a comprender los aspectos
 El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ayudarle y, para ello, le ofrece una serie de opciones de asistencia:
 
 * [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/es/marketing-cloud.html)
-* [Preguntas rápidas a través de Twitter @AdobeExpCare](https://twitter.com/adobeexpcare)
+* Pregúntenos sobre [Twitter](https://twitter.com/adobeglobal){target=_blank}
 * [Apertura de tickets para obtener ayuda del servicio de Asistencia](https://experienceleague.adobe.com/?support-solution=Target&amp;lang=es#support)
 * [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
 * [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/es)

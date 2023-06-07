@@ -5,7 +5,7 @@ title: ¿Cómo puedo integrar Recommendations con el correo electrónico?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 96%
@@ -78,7 +78,7 @@ El elemento `clientcode` es su código de cliente de [!DNL Target]
 >
 >Asegúrese de proporcionar un valor único para `sessionId` y uno para `tntId` o `thirdPartyId` para cada destinatario de correo electrónico (por ejemplo, para cada llamada de API). Si no proporciona valores únicos en estos campos, la respuesta de la API puede ralentizarse o dar error debido al gran número de eventos generados dentro de un solo perfil.
 
-Consulte la [documentación de la API de entrega](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/delivery-api/overview.html) para obtener más información.{target=_blank}
+Consulte la [documentación de la API de entrega](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html) para obtener más información.{target=_blank}
 
 ## Método 2: usar una plantilla de correo electrónico de rawbox {#rawbox}
 
