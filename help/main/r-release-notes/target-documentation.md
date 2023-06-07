@@ -4,10 +4,10 @@ description: Acceda a la documentación y recursos de  [!DNL Adobe Target] , que
 title: ¿Dónde puedo encontrar documentación y recursos para  [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Las siguientes guías y recursos están disponibles para [!DNL Target]:
 | [API de Recommendations de Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank}. | Información sobre las API de [!UICONTROL Recommendations] que le permiten interactuar mediante programación con los servidores de recomendaciones de [!DNL Target]. Estas API se pueden integrar con distintas pilas de aplicaciones para llevar a cabo funciones que normalmente se realizan a través de la interfaz de usuario de [!DNL Target]. |
 | [API de envío del servidor](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=es){target=_blank}. | Información sobre los recursos que componen la API de envíos de Adobe Target. |
 | [SDK del lado del servidor de Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank}. | Explica cómo implementar el lado del servidor de [!DNL Target] mediante SDK. |
-| [SDK para móviles de Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Información sobre la implementación de [!DNL Target] en aplicaciones móviles. |
+| [SDK para móviles de Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html) | Información sobre la implementación de [!DNL Target] en aplicaciones móviles. |
 
 Además de los recursos anteriores, visite la [Comunidad de Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), donde podrá:
 
