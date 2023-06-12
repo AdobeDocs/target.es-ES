@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -22,9 +22,9 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | 5 de junio | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha actualizado la información sobre los eventos siguientes:<ul><li>Se ha actualizado el vínculo de registro para el [!DNL Adobe Target Recommendations] Coffee Break (miércoles, 7 de junio de 2023)</li><li>Se ha añadido información acerca del reciente seminario web &quot;Optimización y personalización de experiencias móviles para entornos autenticados&quot; y se ha agregado un vínculo a la grabación.</li></ul> |
 |  | [Aplicación de una audiencia de informes a una métrica de éxito](/help/main/c-target/apply-reporting-audience-success-metric.md) | Se ha actualizado la sección Consideraciones y se ha añadido la sección Ejemplo. |
 |  | [Preguntas más frecuentes sobre audiencias y segmentación](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Se ha actualizado la sección Direccionamiento de URL. |
-| Mayo de 30 | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.5.2 de [!DNL Target Standard/Premium]. |
-|  | [Integrar con [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artículo actualizado con información sobre el uso compartido [!UICONTROL Atributos de perfil de Real-Time CDP] con [!DNL Target] para su uso en ofertas de HTML y JSON. |
-|  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los próximos eventos Coffee Break:<ul><li>[!DNL Adobe Target Recommendations] Coffee Break (7 de junio)</li><li>Seguimiento del seminario web de preparación para el programa de personalización (21 de junio)</li></ul> |
+| 30 de Mayo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.5.2 de [!DNL Target Standard/Premium]. |
+|  | [Integrar con [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artículo actualizado con información sobre el uso compartido de [!UICONTROL Atributos de perfil de Real-Time CDP] con [!DNL Target] para su uso en ofertas de HTML y JSON. |
+|  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos próximos de Coffee Break:<ul><li>[!DNL Adobe Target Recommendations] Coffee Break (7 de junio)</li><li>Seguimiento del seminario web de preparación para el programa de personalización (21 de junio)</li></ul> |
 | 23 de mayo | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=es){target=_blank} | Se ha actualizado la nota importante. |
 |  | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han actualizado las notas de versión preliminar de próximas versiones. |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.5.1 de [!DNL Target Standard/Premium]. |
@@ -88,5 +88,5 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Crear audiencias en Target](/help/main/c-target/c-audiences/create-audience.md) | Se ha añadido una lista de caracteres y secuencias de caracteres que no se pueden usar en los nombres de audiencia. |
 | 31 de enero | [Límites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Se ha añadido una lista de caracteres permitidos y no permitidos en los nombres de mbox. |
 | 25 de enero | [Crear ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Se ha indicado que la compatibilidad con ofertas JSON en actividades de [!UICONTROL Automated Personalization] (AP) mediante el Compositor de experiencias basadas en formularios está ahora disponible. |
-|  | [Anuncios y eventos de Adobe Target](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de los eventos siguientes:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad: Casos de uso autenticados y móviles para la optimización de experiencias</li></ul> |
+|  | [Anuncios y eventos de Adobe Target](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca del evento siguiente:<ul><li>[!DNL Adobe Target] coffee break de preguntas y respuestas de la comunidad: Casos de uso autenticados y móviles para la optimización de experiencias</li></ul> |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 22.13.3 de [!DNL Target Standard/Premium]. |
