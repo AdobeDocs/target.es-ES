@@ -4,10 +4,10 @@ description: Aprenda a utilizar la integración de  [!DNL Target]/[!DNL Real-Tim
 title: ¿Cómo puedo integrar  [!DNL Target]  con  [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
-workflow-type: ht
-source-wordcount: '1029'
-ht-degree: 100%
+source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
+workflow-type: tm+mt
+source-wordcount: '1076'
+ht-degree: 95%
 
 ---
 
@@ -112,6 +112,8 @@ Para obtener más información, consulte los temas siguientes:
 * [Configuración de destinos de personalización para la personalización de la misma página y de la página siguiente](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=es){target=_blank} en la guía *Información general sobre destinos*.
 * [Conexión de Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es){target=_blank} en la guía *Información general sobre destinos*
 * [Asignación de atributos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=es#map-attributes){target=_blank} en la guía *Información general sobre destinos*.
+* [Activación de audiencias en destinos de personalización de Edge](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} en el *Resumen de destinos* guía.
+* [Personalización de la misma página y de la página siguiente mediante [!DNL Adobe Target] y destinos de Personalización personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} en &quot;Preguntas más frecuentes&quot;, en la sección *Resumen de destinos* guía.
 
 ## Vídeos y publicaciones en blogs {#videos-blogs}
 
