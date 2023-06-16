@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
 workflow-type: tm+mt
 source-wordcount: '2104'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Las marcas deben ofrecer experiencias muy personalizadas y relevantes basadas en
 En esta sesión, aprenda cómo [!DNL Adobe Target] y [!DNL Real-Time CDP] pueden incrementar la participación, los ingresos y la lealtad del cliente dentro de sectores regulados, mientras tratamos lo siguiente:
 
 * Cómo los equipos ofrecen experiencias personalizadas a visitantes anónimos y autenticados
-* Explicación de los permisos de consumidor y las normas de privacidad con personalización
+* Permisos de los consumidores y estándares de privacidad con la personalización
 * Contenido personalizado y ofertas para visitantes autenticados mediante anonimización de identidades
 * Casos de uso únicos para sitios autenticados y seguros en sitios web y móviles
 
