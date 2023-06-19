@@ -4,10 +4,10 @@ description: Aprenda a utilizar las audiencias de en [!DNL Adobe Target].
 title: ¿Cómo se utiliza la lista de audiencias?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 34%
+source-wordcount: '861'
+ht-degree: 33%
 
 ---
 
@@ -28,7 +28,7 @@ Existen dos tipos de audiencias en [!DNL Target]:
 * **Audiencias objetivo:** Se utiliza para entregar contenido diferente a diferentes tipos de visitantes.
 * **Audiencias de informes:** Se utiliza para determinar cómo responden los distintos tipos de visitantes al mismo contenido y así poder analizar los resultados de la prueba.
 
-   En [!DNL Target], las audiencias de informes solo se pueden configurar si se usa [!DNL Target] como fuente de informes. Si utiliza [ Adobe Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), tiene que configurar la audiencia de informe en [!DNL Analytics].
+  En [!DNL Target], las audiencias de informes solo se pueden configurar si se usa [!DNL Target] como fuente de informes. Si utiliza [ Adobe Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), tiene que configurar la audiencia de informe en [!DNL Analytics].
 
 ## Utilice el [!UICONTROL Audiencias] lista {#use-list}
 
@@ -43,13 +43,13 @@ El [!UICONTROL Audiencias] Esta lista contiene las audiencias que puede utilizar
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >El [!DNL Adobe Experience Platform] fuente disponible para todos [!DNL Target] clientes que utilizan [SDK web de Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}. Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o [combinado con audiencias existentes](/help/main/c-target/combining-multiple-audiences.md).
-   >
-   >Los usuarios deben tener [!UICONTROL Aprobador] o estado superior en [!DNL Target] para configurar [!DNL Target] [!UICONTROL Destinos] tarjetas en AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
-   >
-   >Para obtener más información, consulte [Usar audiencias de Adobe Experience Platform](#aep).
+  >[!NOTE]
+  >
+  >El [!DNL Adobe Experience Platform] fuente disponible para todos [!DNL Target] clientes que utilizan [SDK web de Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}. Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o [combinado con audiencias existentes](/help/main/c-target/combining-multiple-audiences.md).
+  >
+  >Los usuarios deben tener [!UICONTROL Aprobador] o estado superior en [!DNL Target] para configurar [!DNL Target] [!UICONTROL Destinos] tarjetas en AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >
+  >Para obtener más información, consulte [Usar audiencias de Adobe Experience Platform](#aep).
 
 Audiencias predefinidas, como &quot;[!UICONTROL Nuevos visitantes]&quot; y &quot;[!UICONTROL Visitantes que regresan],&quot; no se puede cambiar de nombre.
 
@@ -110,6 +110,12 @@ Keep the following points in mind as you work with imported audiences:
 Usar audiencias creadas en [!DNL Adobe Experience Platform] proporciona datos de clientes más completos que conducen a una personalización más impactante.
 
 Para obtener más información, consulte [Usar audiencias de [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## Uso de atributos de perfil de CDP en tiempo real en ofertas de HTML y JSON
+
+Los atributos de perfil de CDP en tiempo real se pueden compartir con Target para su uso en ofertas de HTML y ofertas JSON. Para obtener más información, consulte Integrar con [!DNL Real-Time Customer Data Platform].
+
+Para obtener más información, consulte [Administrar contenido](/help/main/c-experiences/c-manage-content/manage-content.md) y [Creación de ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Vídeo de formación: Uso de audiencias ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
