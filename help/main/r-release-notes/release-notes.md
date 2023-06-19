@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 84%
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
@@ -23,20 +23,24 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
+* Se ha corregido un problema que provocaba que se mostrara una página en blanco al generar un token de autorización de API de perfil. (TGT-45387 y TGT-45423)
+* Se ha corregido un problema que impedía que se mostrara una imagen en el panel [!UICONTROL Crear diseño] si el nombre de la imagen contiene GB 18030 caracteres. (TGT-44614)
+* Se ha corregido un problema por el cual algunos caracteres de símbolos GB 18030 se evitaban incorrectamente en Texto/HTML en experiencias. (TGT-44600)
+* Se ha corregido un problema que generaba informes para actvidades de [!UICONTROL Personalización automática] para congelar durante el análisis. (TGT-44820)
+* Se ha corregido un problema que impedía buscar una actividad en la página [!UICONTROL Actividad] si el nombre de la actividad contiene un corchete ( [ o] ). (TGT-44777)
+* Se ha corregido un problema que impedía que una actividad se sincronizara si el objetivo de la actividad contenía caracteres especiales. (TGT-44982)
+* Se ha corregido un problema que hacía que no se mostraran actividades en la IU de [!DNL Target] para el espacio de trabajo predeterminado para determinados clientes. (TGT-45286)
+* Se ha actualizado el comportamiento del indicador &quot;No permitir duplicados&quot;. Los indicadores de ofertas repetidas excluidas se actualizan para permitir ofertas repetidas si son la oferta de contenido predeterminada (para las API v3 y v4) y permitir opciones duplicadas si las opciones hacen referencia a la oferta de contenido predeterminada y no tienen plantillas definidas. (TNT-46617)
+* Se ha corregido un problema por el cual se agregaba un parámetro de consulta a una dirección URL que impedía que la página se cargara en el [!UICONTROL Compositor de experiencias visuales] (VEC). (TGT-44873)
+* Se han realizado varias correcciones de localización en la IU de [!DNL Target].
+
+## Atributos de perfil de Real-Time CDP compartidos con [!DNL Target]|[!UICONTROL Atributos de perfil de Real-Time CDP] (13 de junio de 2023)
+
+Esta versión incluye la siguiente mejora:
+
 | Función | Detalles |
 |--- |--- |
 | Atributos de perfil de Real-Time CDP compartidos con [!DNL Target] | Los [!UICONTROL Atributos de perfil de Real-Time CDP] se pueden compartir con [!DNL Target] para su uso en ofertas de HTML y JSON.<P>Para obtener más información, consulte [Uso compartido de atributos de perfil de Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
-
-* Se ha corregido un problema que provocaba que se mostrara una página en blanco al generar un token de autorización de API de perfil. (TGT-45387 y TGT-45423)
-* Se ha corregido un problema que impedía que se mostrara una imagen en el panel [!UICONTROL Crear diseño] si el nombre de la imagen contiene GB 18030 caracteres. (TGT-44614)
-* Se ha corregido un problema por el cual algunos caracteres de símbolo GB 18030 se escapaban incorrectamente en Texto/HTML en experiencias. (TGT-44600)
-* Se ha corregido un problema que generaba informes para actvidades de [!UICONTROL Personalización automática] para congelar durante el análisis. (TGT-44820)
-* Se ha corregido un problema que impedía buscar una actividad en [!UICONTROL Actividad] página si el nombre de la actividad contiene un corchete ( [ o ] ). (TGT-44777)
-* Se ha corregido un problema que impedía que una actividad se sincronizara si el objetivo de la actividad contenía caracteres especiales. (TGT-44982)
-* Se ha corregido un problema que hacía que no se mostraran actividades en [!DNL Target] IU para el espacio de trabajo predeterminado de determinados clientes. (TGT-45286)
-* Se ha actualizado el comportamiento del indicador &quot;No permitir duplicados&quot;. Los indicadores de ofertas repetidas excluidas se actualizan para permitir ofertas repetidas si son la oferta de contenido predeterminada (para las API v3 y v4) y permitir opciones duplicadas si las opciones hacen referencia a la oferta de contenido predeterminada y no tienen plantillas definidas. (TNT-46617)
-* Se ha corregido un problema por el cual se agregaba un parámetro de consulta a una dirección URL que impedía que la página se cargara en [!UICONTROL Compositor de experiencias visuales] (VEC). (TGT-44873)
-* Se han realizado varias correcciones de localización en la IU de [!DNL Target].
 
 ## [!DNL Target] Estándar/Premium 23.5.1 (23-25 de mayo de 2023)
 
