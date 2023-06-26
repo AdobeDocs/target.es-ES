@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 286cc7cab27f952208e5dacf6cc0b01129d199b9
+source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 98%
+source-wordcount: '1203'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 26 de junio | [Target para aplicaciones móviles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html){target=_blank} | Se ha añadido un vínculo a la [!DNL Adobe Experience Cloud] tutorial en aplicaciones móviles. |
+| 26 de junio | [Target para aplicaciones móviles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=es){target=_blank} | Se ha añadido un vínculo a la [!DNL Adobe Experience Cloud] tutorial en aplicaciones móviles. |
 | 12 de junio | [Cookies de Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=es){target=_blank} | Artículo actualizado en la *Guía de componentes de la interfaz central de Experience Cloud* que explica las cookies utilizadas por [!DNL Target]. |
 |  | [Inicialización del SDK de Java](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html?lang=es){target=_blank} | Se ha añadido información acerca del parámetro &quot;entorno&quot;. |
 |  | [Inicialización del SDK de Python](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html?lang=es){target=_blank} | Se ha añadido información acerca del parámetro &quot;entorno&quot;. |
