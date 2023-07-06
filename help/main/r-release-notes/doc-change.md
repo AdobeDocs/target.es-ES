@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 96%
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 23.6.1 (del 27 al 29 de junio de 2023)
+## [!DNL Target] Estándar/Premium 23.6.1 (27-29 de junio, 2023)
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 27 de junio | [Control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) | El control de calidad de la actividad ya está disponible para todos los tipos de actividades de Target, incluidas [!UICONTROL Automated Personalization] Actividades de (AP). Se ha eliminado información sobre los vínculos de vista previa. |
-|  | Vista previa de direcciones URL | Dado que todos los tipos de actividades ahora admiten el control de calidad de la actividad, este tema se eliminó y se redirigió a [Control de calidad de actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) tema. |
+| 27 de junio | [Control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) | El control de calidad de la actividad ya está disponible para todos los tipos de actividades de Target, incluidas las actividades de [!UICONTROL Automated Personalization] (AP). Se ha eliminado información sobre los vínculos de vista previa. |
+|  | Vista previa de direcciones URL | Dado que todos los tipos de actividades ahora admiten el control de calidad de la actividad, este tema se eliminó y se redirigió al tema de [Control de calidad de actividad](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.6.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Estándar/Premium 23.5.1 (23-25 de mayo de 2023)
