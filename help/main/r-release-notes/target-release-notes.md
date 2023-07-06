@@ -5,7 +5,7 @@ title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión d
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.6.1 (27-29 de junio)
+## [!DNL Target] Estándar/Premium 23.6.1 (27-29 de junio)
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
