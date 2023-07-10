@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 100%
+source-wordcount: '1290'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 10 de julio | [Consideraciones y limitaciones conocidas](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | Se ha añadido información a la *API de envío de Target* documentación sobre HTTP/2 cómo aplicar nombres de encabezado en minúsculas. |
 | 27 de junio | [Control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) | El control de calidad de la actividad ya está disponible para todos los tipos de actividades de Target, incluidas las actividades de [!UICONTROL Automated Personalization] (AP). Se ha eliminado información sobre los vínculos de vista previa. |
 |  | Vista previa de direcciones URL | Dado que todos los tipos de actividades ahora admiten el control de calidad de la actividad, este tema se eliminó y se redirigió al tema de [Control de calidad de actividad](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.6.1 de [!DNL Target Standard/Premium]. |
