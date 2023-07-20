@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
-workflow-type: ht
-source-wordcount: '1290'
-ht-degree: 100%
+source-git-commit: 0633f2781f113e4d49dbb864d0c04435ba48d13e
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 20 de julio | [Directivas de la política de seguridad de contenido (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Se ha añadido la siguiente pregunta frecuente a *Guía para desarrolladores de Adobe Target*: ¿Cómo puedo permitir o evitar que mi sitio se incruste como un iFrame en dominios externos? |
 | 10 de julio | [Consideraciones y limitaciones conocidas](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations?lang=es){target=_blank} | Se ha añadido información a la documentación de la *API de entrega de destino* sobre HTTP/2 aplicando nombres de encabezado en minúsculas. |
 | 27 de junio | [Control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) | El control de calidad de la actividad ya está disponible para todos los tipos de actividades de Target, incluidas las actividades de [!UICONTROL Automated Personalization] (AP). Se ha eliminado información sobre los vínculos de vista previa. |
 |  | Vista previa de direcciones URL | Dado que todos los tipos de actividades ahora admiten el control de calidad de la actividad, este tema se eliminó y se redirigió al tema de [Control de calidad de actividad](/help/main/c-activities/c-activity-qa/activity-qa.md). |
