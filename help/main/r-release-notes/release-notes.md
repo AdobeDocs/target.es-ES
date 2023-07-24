@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 81%
 
 ---
 
@@ -19,21 +19,19 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target] Estándar/Premium 23.6.1 (27-29 de junio)
+## [!DNL Target] Standard/Premium 23.7.1 (del 24 al 26 de julio)
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
-* **27 de junio**: Región de Europa, Oriente Medio y África (EMEA)
-* **28 de junio**: Región de Asia y el Pacífico (APAC)
-* **29 de junio**: Región de América
+* **Julio de 24**: región de Europa, Oriente Medio y África (EMEA)
+* **Julio de 25**: región Asia-Pacífico (APAC)
+* **Julio de 26**: región de América
 
-Esta versión incluye las siguientes mejoras:
+Esta versión incluye las siguientes mejoras y correcciones:
 
-| Función | Detalles |
-|--- |--- |
-| [!UICONTROL Modo de control de calidad] para actividades de [!UICONTROL Automated Personalization] | [!DNL Adobe Target] [!UICONTROL Modo de control de calidad] ya está disponible para actividades de [!UICONTROL Automated Personalization], reemplazar la funcionalidad [!UICONTROL Previsualizar vínculos].<P>Para obtener más información, consulte [Control de calidad de las actividades.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
-
-* Mejoras de rendimiento para impedir la funcionalidad de duplicados (incluida la reducción del tiempo de carga) mientras que se [administran exclusiones](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) en actividades de [!UICONTROL Automated Personalization].
+* Búsqueda mejorada al [navegación por elementos utilizando la ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en el [!UICONTROL Compositor de experiencias visuales] (VEC) para incluir elementos DOM en la sombra. (TGT-45262)
+* Se ha corregido un problema que impedía que [Cambiar superposición](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) funcionamiento correcto de la configuración. (TGT-45202)
+* Se ha corregido un problema que impedía que algunos clientes descargaran informes de actividad después de recibir el siguiente mensaje de error: &quot;El usuario no tiene autorización para acceder al informe&quot;. (TGT-45724 y TGT-45747)
 
 ## Notas de la versión adicionales y detalles de la versión
 
