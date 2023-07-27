@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 20 de julio | [Directivas de la política de seguridad de contenido (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Se ha añadido la siguiente pregunta frecuente a *Guía para desarrolladores de Adobe Target*: ¿Cómo puedo permitir o evitar que mi sitio se incruste como un iFrame en dominios externos? |
+| 20 de julio | [Directivas de la política de seguridad de contenido (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=es){target=_blank} | Se ha añadido la siguiente pregunta frecuente a la *Guía para desarrolladores de Adobe Target*: ¿Cómo puedo permitir o evitar que mi sitio se integre como un iFrame en dominios externos? |
 | 10 de julio | [Consideraciones y limitaciones conocidas](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations?lang=es){target=_blank} | Se ha añadido información a la documentación de la *API de entrega de destino* sobre HTTP/2 aplicando nombres de encabezado en minúsculas. |
 | 27 de junio | [Control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) | El control de calidad de la actividad ya está disponible para todos los tipos de actividades de Target, incluidas las actividades de [!UICONTROL Automated Personalization] (AP). Se ha eliminado información sobre los vínculos de vista previa. |
 |  | Vista previa de direcciones URL | Dado que todos los tipos de actividades ahora admiten el control de calidad de la actividad, este tema se eliminó y se redirigió al tema de [Control de calidad de actividad](/help/main/c-activities/c-activity-qa/activity-qa.md). |
