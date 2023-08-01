@@ -5,9 +5,9 @@ title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión d
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -23,18 +23,18 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.7.1 (del 24 al 26 de julio)
+## [!DNL Target] Standard/Premium 23.7.1 (24-26 de julio).
 
 Esta versión estará disponible según la siguiente programación escalonada:
 
-* **Julio de 24**: región de Europa, Oriente Medio y África (EMEA)
-* **Julio de 25**: región Asia-Pacífico (APAC)
-* **Julio de 26**: región de América
+* **24 de julio**: región de Europa, Oriente Medio y África (EMEA)
+* **25 de julio**: región de Asia-Pacífico (APAC)
+* **26 de julio**: región de América
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Búsqueda mejorada al [navegación por elementos utilizando la ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en el [!UICONTROL Compositor de experiencias visuales] (VEC) para incluir elementos DOM en la sombra. (TGT-45262)
-* Se ha corregido un problema que impedía que [Cambiar superposición](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) funcionamiento correcto de la configuración. (TGT-45202)
+* Búsqueda mejorada al [navegar por elementos utilizando la ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en el [!UICONTROL Compositor de experiencias visuales] (VEC) para incluir elementos Shadow DOM. (TGT-45262)
+* Se ha corregido un problema que impedía que el ajuste de [Cambiar superposición](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) funcionara correctamente. (TGT-45202)
 * Se ha corregido un problema que impedía que algunos clientes descargaran informes de actividad después de recibir el siguiente mensaje de error: &quot;El usuario no tiene autorización para acceder al informe&quot;. (TGT-45724 y TGT-45747)
 
 ## Notas de la versión adicionales y detalles de la versión
