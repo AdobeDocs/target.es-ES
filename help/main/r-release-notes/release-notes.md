@@ -6,8 +6,8 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: ht
+source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -22,7 +22,6 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 ## [!DNL Adobe Target] Actualización de infraestructura de Edge planificada {#edge}
 
 La actualización de la infraestructura de Edge planificada requiere IP o dominios adicionales para poder incluirlos en la lista de permitidos. Revise e incluya en la lista de permitidos los dominios NAT e IP para implementaciones de Edge 41-48. Las actualizaciones de la infraestructura comienzan el 9 de agosto de 2023.
-&quot;
 
 Para obtener más información, consulte [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=es){target=_blank} en la *Guía para desarrolladores de Adobe Target*.
 
@@ -37,7 +36,7 @@ Esta versión estará disponible según la siguiente programación escalonada:
 Esta versión incluye las siguientes mejoras y correcciones:
 
 * Búsqueda mejorada al [navegar por elementos utilizando la ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en el [!UICONTROL Compositor de experiencias visuales] (VEC) para incluir elementos Shadow DOM. (TGT-45262)
-* Se ha corregido un problema que impedía que el ajuste [Cambiar superposición](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) funcionara correctamente. (TGT-45202)
+* Se ha corregido un problema que impedía que el ajuste de [Cambiar superposición](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) funcionara correctamente. (TGT-45202)
 * Se ha corregido un problema que impedía que algunos clientes descargaran informes de actividad después de recibir el siguiente mensaje de error: &quot;El usuario no tiene autorización para acceder al informe&quot;. (TGT-45724 y TGT-45747)
 
 ## Notas de la versión adicionales y detalles de la versión
