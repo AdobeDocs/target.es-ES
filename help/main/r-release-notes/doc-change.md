@@ -4,16 +4,24 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 96%
+source-wordcount: '1503'
+ht-degree: 94%
 
 ---
 
 # Cambios de la documentación
 
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
+
+## [!DNL Target] Standard/Premium 23.8.1 (9 de agosto de 2023)
+
+| Fecha | Tema | Cambios |
+| --- | --- | --- |
+| 9 de agosto | [Vista previa para móviles en Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Tema actualizado con información sobre las versiones actuales de [!DNL Adobe Experience Platform Mobile SDK]. |
+|  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha agregado información sobre el siguiente seminario web programado para el 17 de agosto de 2023: *Estrategias para lograr el máximo impacto en el retorno con preparación para la temporada alta*. |
+|  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.8.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.7.1 (24-26 de julio de 2023).
 

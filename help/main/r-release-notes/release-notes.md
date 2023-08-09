@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
@@ -25,19 +25,15 @@ La actualización de la infraestructura de Edge planificada requiere IP o domini
 
 Para obtener más información, consulte [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=es){target=_blank} en la *Guía para desarrolladores de Adobe Target*.
 
-## [!DNL Target] Standard/Premium 23.7.1 (24-26 de julio)
-
-Esta versión estará disponible según la siguiente programación escalonada:
-
-* **24 de julio**: región de Europa, Oriente Medio y África (EMEA)
-* **25 de julio**: región de Asia-Pacífico (APAC)
-* **26 de julio**: región de América
+## [!DNL Target] Standard/Premium 23.8.1 (9 de agosto de 2023)
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Búsqueda mejorada al [navegar por elementos utilizando la ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en el [!UICONTROL Compositor de experiencias visuales] (VEC) para incluir elementos Shadow DOM. (TGT-45262)
-* Se ha corregido un problema que impedía que el ajuste de [Cambiar superposición](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) funcionara correctamente. (TGT-45202)
-* Se ha corregido un problema que impedía que algunos clientes descargaran informes de actividad después de recibir el siguiente mensaje de error: &quot;El usuario no tiene autorización para acceder al informe&quot;. (TGT-45724 y TGT-45747)
+* Se ha corregido un problema que, a veces, impedía que las actividades se sincronizaran correctamente, como se muestra en el[!UICONTROL Estado]&quot; en la columna [!UICONTROL Actividad] página de lista. (TGT-46010 y TGT-44831)
+* Se ha corregido un problema que, a veces, impedía que &quot;[!UICONTROL Ver en Analytics]&quot; de mostrar en la página [!UICONTROL Informes] página de actividades que utilizan [!UICONTROL Analytics for Target] (A4T) como fuente de informes. (TGT-45808)
+* Se ha ajustado la presentación de los valores en las tablas para que se muestren como porcentajes en lugar de números con decimales. Por ejemplo, 8 % en lugar de 0,08. (TGT-45548)
+* Se ha corregido un problema que impedía que los clientes usaran el foco del teclado para pasar al siguiente elemento de la [!UICONTROL Objetivos y configuración] página para [!UICONTROL Segmentación de experiencias] Actividades de (XT). (TGT-44526)
+* Se ha corregido un problema que provocaba una pérdida de enfoque del teclado después de abrir &quot;[!UICONTROL Añadir audiencias]&quot; al crear una actividad. (TGT-44525)
 
 ## Notas de la versión adicionales y detalles de la versión
 

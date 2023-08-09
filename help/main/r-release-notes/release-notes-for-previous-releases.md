@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '36974'
+source-wordcount: '37046'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,14 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión: 2023
+
+### [!DNL Target] Standard/Premium 23.7.1 (24-26 de julio).
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Búsqueda mejorada al [navegar por elementos utilizando la ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en el [!UICONTROL Compositor de experiencias visuales] (VEC) para incluir elementos Shadow DOM. (TGT-45262)
+* Se ha corregido un problema que impedía que el ajuste de [Cambiar superposición](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) funcionara correctamente. (TGT-45202)
+* Se ha corregido un problema que impedía que algunos clientes descargaran informes de actividad después de recibir el siguiente mensaje de error: &quot;El usuario no tiene autorización para acceder al informe&quot;. (TGT-45724 y TGT-45747)
 
 ### [!DNL Target] Estándar/Premium 23.6.1 (27-29 de junio)
 
