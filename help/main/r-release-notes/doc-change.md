@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
 source-wordcount: '1503'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | --- | --- | --- |
 | 9 de agosto | [Vista previa para móviles en Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Tema actualizado con información sobre las versiones actuales de [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha agregado información sobre el siguiente seminario web programado para el 17 de agosto de 2023: *Estrategias para lograr el máximo impacto en el retorno con preparación para la temporada alta*. |
-| 7 de agosto | [Detalles de las versiones de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Se ha aclarado la información sobre las versiones compatibles de at.js. |
+| 7 de agosto | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se ha aclarado la información sobre las versiones compatibles de at.js. |
 | 25 de julio | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md#edge) | Se ha añadido información acerca de la actualización de la infraestructura de Edge planificada para el 9 de agosto de 2023. |
 |  | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=es){target=_blank} | Se han actualizado NAT y los dominios/IP para implementaciones de Edge 41-48. |
 | 24 de julio | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.7.1 de [!DNL Target Standard/Premium]. |
