@@ -4,7 +4,7 @@ description: Obtenga información acerca de los cálculos estadísticos utilizad
 title: ¿Cómo puedo obtener información sobre los cálculos estadísticos utilizados en [!UICONTROL Prueba A/B] ¿Actividades?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 5%
@@ -101,7 +101,7 @@ Este cálculo utiliza el método &quot;Delta&quot; y se describe a continuación
 
 ## [!UICONTROL Confianza]
 
-La última columna muestra la confianza en un [!DNL Target] informe. La confianza de una experiencia es una probabilidad (indicada como porcentaje) de obtener un resultado menos extremo que el que se observa, dado que la hipótesis nula es verdadera. En términos de valores p, la confianza mostrada es *1 - valor p*. De forma intuitiva, una mayor confianza significa que es menos probable que la experiencia de control y la que no es de control tengan tasas de conversión iguales.
+La última columna muestra la confianza en un [!DNL Target] informe. La confianza de una experiencia es una probabilidad (denotada como porcentaje) de obtener un resultado tan extremo como el que se observa, dado que la hipótesis nula es cierta. En términos de valores p, la confianza mostrada es *1 - valor p*. De forma intuitiva, una mayor confianza significa que es menos probable que la experiencia de control y la que no es de control tengan tasas de conversión iguales.
 
 Entrada [!DNL Target], un de dos colas **Prueba T de Welch** se realiza entre la experiencia de prueba y la experiencia de control para comprobar si los medios de prueba y las experiencias de control son los mismos. Porque generalmente no sabemos si los tamaños de muestra y las variaciones de dos grupos son los mismos antes de ejecutar el experimento, y [!DNL Target] también le permite enviar porcentajes de tráfico desiguales a cada experiencia, no suponemos que la variación de cada experiencia sea igual. Por lo tanto, se elige la prueba T de Welch en lugar de la prueba T de estudiante.
 
