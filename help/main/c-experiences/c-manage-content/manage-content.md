@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo administrar ofertas de código e i
 title: ¿Cómo administro las ofertas de código e imagen?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 37%
+source-wordcount: '574'
+ht-degree: 36%
 
 ---
 
@@ -59,6 +59,11 @@ Utilice el [!UICONTROL Ofertas] biblioteca en [!DNL Adobe Target] para administr
    * Copiar  
 
    Para obtener información detallada sobre las tareas que se pueden realizar en ofertas y carpetas, consulte [Trabajar con contenido en la biblioteca de recursos](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+   >[!NOTE]
+   >
+   >Las ofertas de imágenes no forman parte de [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modelo.
+
 
 ## Visualización de definiciones de oferta {#section_6B059DD121434E6292CAB393507D010E}
 
