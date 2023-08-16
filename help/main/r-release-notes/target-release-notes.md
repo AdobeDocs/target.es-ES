@@ -5,9 +5,9 @@ title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión d
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.8.1 (9 de agosto de 2023)
+## [!DNL Target] Estándar/Premium 23.8.1 (9 de agosto de 2023)
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha corregido un problema que, a veces, impedía que las actividades se sincronizaran correctamente, como se muestra en el[!UICONTROL Estado]&quot; en la columna [!UICONTROL Actividad] página de lista. (TGT-46010 y TGT-44831)
-* Se ha corregido un problema que, a veces, impedía que &quot;[!UICONTROL Ver en Analytics]&quot; de mostrar en la página [!UICONTROL Informes] página de actividades que utilizan [!UICONTROL Analytics for Target] (A4T) como fuente de informes. (TGT-45808)
-* Se ha ajustado la presentación de los valores en las tablas para que se muestren como porcentajes en lugar de números con decimales. Por ejemplo, 8 % en lugar de 0,08. (TGT-45548)
-* Se ha corregido un problema que impedía que los clientes usaran el foco del teclado para pasar al siguiente elemento de la [!UICONTROL Objetivos y configuración] página para [!UICONTROL Segmentación de experiencias] Actividades de (XT). (TGT-44526)
-* Se ha corregido un problema que provocaba una pérdida de enfoque del teclado después de abrir &quot;[!UICONTROL Añadir audiencias]&quot; al crear una actividad. (TGT-44525)
+* Se ha corregido un problema que, a veces, impedía que las actividades se sincronizaran correctamente, tal como se muestra en la columna [!UICONTROL Estado] de la página de la lista [!UICONTROL Actividad]. (TGT-46010 y TGT-44831)
+* Se ha corregido un problema que, a veces, impedía que “[!UICONTROL Ver en Analytics]” se mostrara en la página [!UICONTROL Informes] de actividades que utilizan [!UICONTROL Analytics for Target] (A4T) como fuente de creación de informes. (TGT-45808)
+* Se ha ajustado la presentación de los valores en las tablas para que se muestren como porcentajes en lugar de números con decimales. Por ejemplo, 8 % en lugar de .08. (TGT-45548)
+* Se ha corregido un problema que impedía que los clientes utilizaran el enfoque del teclado para pasar al siguiente elemento de la página [!UICONTROL Objetivos y configuración] para actividades de [!UICONTROL Segmentación de experiencias] (XT). (TGT-44526)
+* Se ha corregido un problema que provocaba una pérdida de enfoque del teclado después de abrir el diálogo “[!UICONTROL Añadir públicos]” al crear una actividad. (TGT-44525)
 
 ## Notas de la versión adicionales y detalles de la versión
 
