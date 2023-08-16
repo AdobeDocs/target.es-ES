@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y ev
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,25 +19,25 @@ Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [
 
 Regístrese en los siguientes seminarios web para ver cómo utilizan los clientes [!DNL Target] para lograr sus objetivos de personalización y optimización:
 
-### Estrategias para lograr el máximo impacto en el retorno con preparación para la temporada alta
+### Estrategias para lograr el máximo impacto en el retorno de la inversión con preparación para la temporada alta
 
 * **Jueves, 17 de agosto de 2023**
 * **8:00-9:00 a.m. (PDT, UTC-7)**
-* **[Registrarse aquí](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+* **[Regístrese aquí](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
 
-Ofrezca experiencias atractivas a los clientes para mejorar las tasas de conversión. ¿Su empresa está lista para la temporada alta? Únase a nosotros y acceda a consejos de expertos sobre cómo lograr un rendimiento óptimo y un ROI máximo esta vez.
+Ofrezca experiencias atractivas a los clientes para mejorar las tasas de conversión. ¿Su empresa está lista para la temporada alta? Únase a nosotros y acceda a consejos de expertos sobre cómo lograr un rendimiento óptimo y un retorno máximo de la inversión esta vez.
 
 +++Ver detalles
 
-Únase a John Magnusson, administrador de éxito del cliente de Adobe, y Katherine Klein, Director - MarTech y AdTech Solutions, Macy&#39;s Inc. Únase a nosotros para aprender estrategias que afecten de forma significativa a su programa de preparación para la temporada alta.
+Únase a John Magnusson, Adobe Customer Success Manager y Katherine Klein, Director - MarTech y AdTech Solutions, Macy&#39;s Inc. Únase a nosotros para aprender estrategias que afecten de forma significativa a su programa de preparación para la temporada alta.
 
-Los temas incluyen:
+Los temas incluyen los siguientes:
 
 * Creación eficaz de paneles y métricas clave de informes
 * Examinar el impacto de cada canal de marketing
 * Inmersión en el comportamiento de los clientes y las tendencias de compra
-* Identificar las experiencias de los clientes deficientes y mejorarlas mediante pruebas
-* Descubra las áreas de oportunidad para impulsar la conversión del sitio
+* Identificar las experiencias deficientes de los clientes y mejorarlas mediante pruebas
+* Descubrir las áreas de oportunidad para impulsar la conversión del sitio
 
 +++
 
