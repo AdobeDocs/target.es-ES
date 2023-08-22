@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 14 de agosto | [Control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) | Se ha añadido información para aclarar que cargar una página en el sitio con un valor vacío sí lo hace *no* elimine la cookie de control de calidad del explorador cuando at.js 2.*x* se implementa. |
-|  | [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Se ha actualizado la definición de Confianza. |
-|  | [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) | Se ha añadido una nota que explica que las ofertas de imágenes no forman parte de la [!UICONTROL Permisos de usuario de Enterprise] modelo. |
+| 14 de agosto | [Control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) | Se ha añadido información para aclarar que, al cargar una página en el sitio con un valor vacío, *no* se elimina la cookie de control de calidad del explorador cuando at.js 2.*x* se implementa. |
+|  | [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Se ha actualizado la definición de “Confianza”. |
+|  | [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) | Se ha añadido una nota que explica que las ofertas de imágenes no forman parte del modelo de [!UICONTROL Permisos de usuario de la empresa]. |
 | 9 de agosto | [Vista previa para móviles en Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=es){target=_blank} | Tema actualizado con información sobre las versiones actuales de [!DNL Adobe Experience Platform Mobile SDK]. |
 | 9 de agosto | [Vista previa para móviles en Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=es){target=_blank} | Tema actualizado con información sobre las versiones actuales de [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información sobre el siguiente seminario web programado para el 17 de agosto de 2023: *Estrategias para lograr el máximo impacto en el retorno de la inversión con preparación para la temporada alta*. |
