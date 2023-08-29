@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e782fe4a26a624d3c407b991092dc0cfce18fdb7
+source-git-commit: d9179911a9f6cb2eca242822669e2374aebeb970
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 98%
+source-wordcount: '1665'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,10 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 29 de agosto | [Implementar Target con el SDK de AEP Mobile en una aplicación nativa con vistas web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nuevo artículo. |
+| 29 de agosto | [Funciones compatibles con la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Se ha añadido la lista de atributos geográficos admitidos para la segmentación al utilizar la toma de decisiones en el dispositivo (ODD) del lado del cliente. |
+|  | [Información general sobre la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Se ha añadido la lista de atributos geográficos admitidos para la segmentación al utilizar la toma de decisiones en el dispositivo (ODD) del lado del servidor. |
+|  | [Implementar Target con el SDK de AEP Mobile en una aplicación nativa con vistas web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nuevo artículo. |
+|  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de la próxima pausa para café de la comunidad de Adobe Target (30 de agosto de 2023): &quot;Estrategias para lograr el máximo impacto en el retorno de la inversión con la preparación para la temporada alta&quot;. |
 | 14 de agosto | [Control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) | Se ha añadido información para aclarar que, al cargar una página en el sitio con un valor vacío, *no* se elimina la cookie de control de calidad del explorador cuando at.js 2.*x* se implementa. |
 |  | [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Se ha actualizado la definición de “Confianza”. |
 |  | [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) | Se ha añadido una nota que explica que las ofertas de imágenes no forman parte del modelo de [!UICONTROL Permisos de usuario de la empresa]. |
