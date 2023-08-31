@@ -4,10 +4,10 @@ description: Aprenda a evitar los inconvenientes y errores más comunes que las 
 title: ¿Cómo evito errores comunes de pruebas A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
 workflow-type: tm+mt
 source-wordcount: '3898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -41,19 +41,19 @@ Sin embargo, existen dos situaciones en las que hay que prestar especial atenci�
 
 * **Segmentación posterior a las pruebas:** normalmente, los especialistas en marketing diseccionan los resultados de una prueba a partir de los segmentos del visitante al finalizar una prueba A/B. Entre los segmentos más comunes encontramos los de tipo de navegador, tipo de dispositivo, zona geográfica, hora del día y visitantes nuevos frente a visitantes que regresan. Esta práctica, conocida como “segmentación posterior a las pruebas”, ofrece información muy valiosa sobre los segmentos del visitantes. A su vez, los especialistas en marketing pueden usar esta información para crear contenido diferenciado, más relevante y mejor segmentado.
 
-   Si no hay una diferencia real en la tasa de conversión, cada vez que se pruebe un segmento, la probabilidad de un falso positivo es igual al nivel de relevancia. Y, como ya hemos señalado, cuantas más pruebas se ejecuten, más probabilidad habrá de obtener, al menos, un falso positivo en alguna de ellas. En definitiva, cada segmento posterior a una prueba representa una prueba independiente. Con un nivel de relevancia del 5 %, en 20 segmentos posteriores a una prueba existe, de media, un falso positivo. El gráfico anterior muestra cómo aumenta esa probabilidad.
+  Si no hay una diferencia real en la tasa de conversión, cada vez que se pruebe un segmento, la probabilidad de un falso positivo es igual al nivel de relevancia. Y, como ya hemos señalado, cuantas más pruebas se ejecuten, más probabilidad habrá de obtener, al menos, un falso positivo en alguna de ellas. En definitiva, cada segmento posterior a una prueba representa una prueba independiente. Con un nivel de relevancia del 5 %, en 20 segmentos posteriores a una prueba existe, de media, un falso positivo. El gráfico anterior muestra cómo aumenta esa probabilidad.
 
-   Y, como ya hemos señalado, cuantas más pruebas se ejecuten, más probabilidad habrá de obtener, al menos, un falso positivo en alguna de ellas. En esencia, cada segmento posterior a la prueba representa una prueba separada, que aumenta la probabilidad de un falso positivo. Este aumento puede ser incluso más significativo si los segmentos están correlacionados.
+  Y, como ya hemos señalado, cuantas más pruebas se ejecuten, más probabilidad habrá de obtener, al menos, un falso positivo en alguna de ellas. En esencia, cada segmento posterior a la prueba representa una prueba separada, que aumenta la probabilidad de un falso positivo. Este aumento puede ser incluso más significativo si los segmentos están correlacionados.
 
-   ¿Entonces hay que prescindir de la segmentación posterior a las pruebas? No, los segmentos posteriores a las pruebas son útiles. Para evitar el problema de acumulación de falsos positivos en la segmentación posterior a las pruebas, después de identificar un segmento de este tipo se puede probar en una prueba nueva. Otra opción es aplicar la corrección de Bonferroni, que explicamos más adelante.
+  ¿Entonces hay que prescindir de la segmentación posterior a las pruebas? No, los segmentos posteriores a las pruebas son útiles. Para evitar el problema de acumulación de falsos positivos en la segmentación posterior a las pruebas, después de identificar un segmento de este tipo se puede probar en una prueba nueva. Otra opción es aplicar la corrección de Bonferroni, que explicamos más adelante.
 
 * **Realización de pruebas con varias ofertas:** a menudo, los especialistas en marketing prueban más de dos ofertas (o experiencias) para compararlas. Por este motivo, a veces las soluciones de pruebas A/B se llaman pruebas “A/B/n”, donde “n” es el número de ofertas que se prueban simultáneamente.
 
-   Cabe destacar que *cada una* de las ofertas sometidas a prueba tiene una tasa de falsos positivos equivalente al nivel de relevancia, como hemos explicado arriba. Al cotejar varias ofertas en un mismo entorno de pruebas, estará ejecutando varias pruebas de una forma eficaz. Por ejemplo, si compara cinco ofertas en una prueba A/B/C/D/E, se establecen cuatro comparaciones: control con B, control con C, control con D y control con E. Con un nivel de confianza del 95 %, la probabilidad de un falso positivo es del 18,5 % en lugar del 5 %. 2
+  Cabe destacar que *cada una* de las ofertas sometidas a prueba tiene una tasa de falsos positivos equivalente al nivel de relevancia, como hemos explicado arriba. Al cotejar varias ofertas en un mismo entorno de pruebas, estará ejecutando varias pruebas de una forma eficaz. Por ejemplo, si compara cinco ofertas en una prueba A/B/C/D/E, se establecen cuatro comparaciones: control con B, control con C, control con D y control con E. Con un nivel de confianza del 95 %, la probabilidad de un falso positivo es del 18,5 % en lugar del 5 %. 2
 
-   Para mantener el nivel de confianza general en el 95 % y evitar este problema, se debe aplicar lo que se conoce como “corrección de Bonferroni”. Por medio de esta corrección, el nivel de relevancia se divide entre el número de comparaciones para obtener el nivel de relevancia necesario para lograr un nivel de confianza del 95 %.
+  Para mantener el nivel de confianza general en el 95 % y evitar este problema, se debe aplicar lo que se conoce como “corrección de Bonferroni”. Por medio de esta corrección, el nivel de relevancia se divide entre el número de comparaciones para obtener el nivel de relevancia necesario para lograr un nivel de confianza del 95 %.
 
-   Aplicando la corrección de Bonferroni en el ejemplo anterior, se usaría un nivel de relevancia de 5 %/4 = 1,25 %, que es lo mismo que un nivel de confianza del 98,75 % en una prueba individual (100 % - 1,25 % = 98,75 %). Este ajuste mantiene el nivel de confianza real en el 95 % cuando se realizan cuatro pruebas, como en el ejemplo descrito.
+  Aplicando la corrección de Bonferroni en el ejemplo anterior, se usaría un nivel de relevancia de 5 %/4 = 1,25 %, que es lo mismo que un nivel de confianza del 98,75 % en una prueba individual (100 % - 1,25 % = 98,75 %). Este ajuste mantiene el nivel de confianza real en el 95 % cuando se realizan cuatro pruebas, como en el ejemplo descrito.
 
 ## Escollo 2: Declarar ganadores en pruebas de varias ofertas sin una diferencia con relevancia estadística {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
@@ -81,7 +81,7 @@ Hoy en día, los especialistas en marketing emplean una potencia estadística in
 
 Para evitar que esto ocurra, hay que tener en cuenta que el estándar típico para que una prueba arroje resultados fiables es un nivel de confianza del 95 % y una potencia estadística del 80 %. Estos porcentajes indican que la prueba ofrece un 95 % de probabilidad de evitar un falso positivo y un 80 % de evitar un falso negativo.
 
-## Paso 4: Usar pruebas unilaterales {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Escollo 4: Usar pruebas unilaterales {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 Las pruebas unilaterales requieren una diferencia observada más reducida en las tasas de conversión entre las ofertas para declarar un ganador con un cierto nivel de relevancia. Esto parece interesante porque los ganadores se pueden declarar antes y con más frecuencia que cuando se usan pruebas bidireccionales. Sin embargo, sabemos que todo tiene su precio y las pruebas unidireccionales no podían ser menos.
 
@@ -127,7 +127,7 @@ Si cambia manualmente la división de asignación al 100 % para la Experiencia 
 Si desea cambiar los porcentajes o afectar en gran medida el flujo de visitantes en cada experiencia, le recomendamos que cree una nueva actividad o que copie la actividad y luego edite los porcentajes de asignación de tráfico.
 
 Si cambia los porcentajes de diferentes experiencias durante el periodo de prueba, los datos tardan unos días en normalizarse, especialmente si muchos compradores son visitantes que regresan.
-Otro ejemplo: si la asignación de tráfico de la prueba A/B se divide al 50 % y, a continuación, cambia la división al 80/20 %, durante los primeros días posteriores al cambio los resultados pueden aparecer distorsionados. Si el tiempo de conversión medio es elevado, es decir, que se tarda varias horas o incluso días en realizar una compra, dichas conversiones demoradas pueden afectar a los informes. Así pues, en esa primera experiencia en la que el número pasó de 50 a 80 y el tiempo de conversión promedio son dos días, tan solo los visitantes del 50 % de la población se están convirtiendo el primer día de la prueba; a pesar de que hoy el 80 % de la población esté entrando en la experiencia. Esto hace que parezca que la tasa de conversión se ha desmoronado, pero se volverá a normalizar cuando este 80 % de los visitantes han tardado dos días para convertirse.
+Otro ejemplo: si la asignación de tráfico de la prueba A/B se divide al 50 % y, a continuación, cambia la división al 80/20 %, durante los primeros días posteriores al cambio los resultados pueden aparecer distorsionados. Si el tiempo de conversión medio es elevado, es decir, que se tarda varias horas o incluso días en realizar una compra, dichas conversiones demoradas pueden afectar a los informes. Así pues, en esa primera experiencia en la que el número pasó de 50 a 80 y el tiempo de conversión promedio son dos días, tan solo los visitantes del 50 % de la población se están convirtiendo el primer día de la prueba; a pesar de que hoy el 80 % de la población esté entrando en la experiencia. Esto hace que parezca que la tasa de conversión se ha desmoronado, pero se volverá a normalizar cuando este 80 % de los visitantes han tardado dos días para convertirse.
 
 ## Escollo 8: No tener en cuenta los efectos de la novedad {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
