@@ -5,31 +5,28 @@ title: Qué es [!DNL Adobe Customer Journey Analytics] para [!DNL Target] (CJA4T
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 79d4bfa7bbdaea6b779ab548b80fbcf732635ba5
+source-git-commit: bc85a169cd0805a5e424bfca8b5bda9b4861fde3
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 17%
+source-wordcount: '918'
+ht-degree: 12%
 
 ---
 
 # [!DNL Adobe Customer Journey Analytics] como fuente de informes para [!DNL Adobe Target] (CJA4T)
 
-[!DNL Customer Journey Analytics for Target] (CJA4T) es una integración de soluciones cruzadas que le permite crear actividades basadas en [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} métricas de conversión. La integración con CJA4T le permite utilizar [!DNL Customer Journey Analytics] para examinar los resultados. Si utiliza [!DNL Customer Journey Analytics] como fuente de informes de una actividad, todos los informes de dicha actividad se basan en [!DNL Customer Journey Analytics] recopilación de datos.
+El [!DNL Customer Journey Analytics for Target] Integración de (CJA4T) entre [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} y [!DNL Target] proporciona potentes herramientas de análisis y ahorro de tiempo para su programa de optimización.
 
-## Información general
+Las principales ventajas de utilizar [!DNL Customer Journey Analytics] datos en [!DNL Target] son:
 
-La integración de [!DNL Customer Journey Analytics for Target] entre [!DNL Customer Journey Analytics] y [!DNL Target] proporciona potentes herramientas de análisis y ahorro de tiempo para su programa de optimización.
-
-Estos son los tres beneficios principales de utilizar los datos de [!DNL Customer Journey Analytics] en [!DNL Target]:
-
-* Los especialistas en marketing pueden aplicar de forma dinámica métricas de éxito o segmentos de informes de [!DNL Customer Journey Analytics] a los informes de actividad de [!DNL Target] en cualquier momento. No es necesario especificarlo todo antes de ejecutar la actividad.
+* Los especialistas en marketing pueden aplicar dinámicamente [!DNL Customer Journey Analytics] métricas de éxito a [!DNL Target] informes de actividad en cualquier momento. No es necesario especificarlo todo antes de ejecutar la actividad.
 * Una única fuente de datos minimiza la variación que se produce al recopilar datos en dos sistemas independientes.
-* Su existente [!DNL Customer Journey Analytics] La implementación de recopila todos los datos necesarios. No es necesario implementar mboxes en páginas con el único objetivo de recopilar datos para informes.
 
-Tenga en cuenta los siguientes puntos cuando considere la posibilidad de utilizar CJA4T:
+## Consideraciones
+
+Tenga en cuenta lo siguiente antes de utilizar la integración de CJA4T:
 
 * Para usar [!DNL Customer Journey Analytics] como la fuente de informes para [!DNL Target], tanto el usuario como la empresa deben tener acceso a [!DNL Customer Journey Analytics] y a [!DNL Target]. Si necesita acceder a alguna de las soluciones, póngase en contacto con el administrador de su organización o con el representante de la cuenta.
-* Para crear [!DNL Target] actividades con [!DNL Customer Journey Analytics] para informes, debe tener &quot;&quot;[!UICONTROL Aprobador]&quot; o &#39;[!UICONTROL Editor]Función &quot; en [!DNL Target].
+* Para crear [!DNL Target] actividades con [!DNL Customer Journey Analytics] para informar, debe tener el &quot;[!UICONTROL Aprobador]&quot; o &#39;[!UICONTROL Editor]Función &quot; en [!DNL Target].
    * Si tiene un [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) cuenta de, consulte [Especificar funciones y permisos](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Usuarios*.
    * Si tiene un [Target Premium](/help/main/c-intro/intro.md#premium) cuenta de, consulte [Funciones y permisos](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Permisos de usuario de Enterprise*.
 
@@ -37,12 +34,12 @@ Tenga en cuenta los siguientes puntos cuando considere la posibilidad de utiliza
 * Debe usar una de las dos fuentes de informes. No se pueden recopilar datos de una sola actividad para varias fuentes de informes.
 * Cuando se establece [!DNL Customer Journey Analytics] como fuente de informes, se le pedirá que especifique la zona protegida para los informes. Durante la configuración, solo verá las zonas protegidas a las que tiene acceso.
 * Cualquier existente [!DNL Target] Las actividades de siguen utilizando [!DNL Target] recopilación de datos de y no se ven afectados por la activación de CJA4T.
-* CJA4T solo está disponible si tiene [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Se ha planificado la compatibilidad con el conector de datos de Analytics en el futuro.
-* Si tiene alguna pregunta sobre el horario, consulte [Consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#latency){target=_blank} in *Preguntas más frecuentes* en el *Adobe Guía de Customer Analytics*.
+* CJA4T solo está disponible si tiene [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Compatibilidad con el [!DNL Analytics Data Connector] está planificado para el futuro.
+* Si tiene alguna pregunta sobre la temporización, consulte [Consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank} in *Preguntas más frecuentes* en el *Adobe Guía de Customer Analytics*.
 
-## Tipos de actividades compatibles
+## Tipos de actividades compatibles {#supported-activities}
 
-Se admiten los siguientes tipos de actividades al utilizar [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} or [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}:
+Se admiten los siguientes tipos de actividades al utilizar [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} or the [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} Biblioteca JavaScript:
 
 | Tipos de actividad | ¿Compatible con CJA4T? |
 |--- |--- |
@@ -58,7 +55,7 @@ Se admiten los siguientes tipos de actividades al utilizar [SDK web de Adobe Exp
 
 Creación de un [!DNL Target] actividad que utiliza [!DNL Customer Journey Analytics] como la fuente de informes es similar a la configuración de una [!DNL Target] actividad.
 
-1. Desde el **[!UICONTROL Actividades]** , haga clic en **[!UICONTROL Crear actividad]**, luego seleccione el tipo de actividad (según el gráfico de actividad admitido anterior) y comience a configurar la actividad.
+1. Desde el **[!UICONTROL Actividades]** , haga clic en **[!UICONTROL Crear actividad]**, luego seleccione el tipo de actividad (según el [gráfico de actividades compatibles anterior](#supported-activities)) y comience a configurar la actividad.
 1. Cuando llegue a la **[!UICONTROL Objetivos y configuración]** del flujo de trabajo de creación de actividades en tres partes, seleccione **[!DNL Customer Journey Analytics]** como fuente de informes.
 
    ![Customer Journey Analytics como opción de fuente de informes](/help/main/c-integrating-target-with-mac/cja4t/assets/cja-as-reporting-source.png)
@@ -75,7 +72,7 @@ Creación de un [!DNL Target] actividad que utiliza [!DNL Customer Journey Analy
 
 1. Especifique el objetivo de la actividad.
 
-   Debe seleccionar una métrica de éxito para utilizarla como objetivo para cada actividad. Puede elegir una de las [!DNL Target] métricas de conversión o use una variable [!DNL Customer Journey Analytics] métrica.
+   Seleccione una métrica de éxito para utilizarla como objetivo para cada actividad. Puede elegir una de las [!DNL Target] métricas de conversión o use una variable [!DNL Customer Journey Analytics] métrica.
 
    ![Usar una opción de métrica de Customer Journey Analytics en Métrica de objetivo](/help/main/c-integrating-target-with-mac/cja4t/assets/goal-metric.png)
 
@@ -99,7 +96,7 @@ Después de un [!DNL Target] se ha creado la actividad, debe crear una conexión
 
    Para obtener más información, consulte [Adición y configuración de conjuntos de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#add-dataset){target=_blank} in *Crear una conexión* en el *Guía de Adobe Customer Journey Analytics*.
 
-1. Configure el conjunto de datos de búsqueda con el campo Clave como &quot;key&quot; y el campo Clave coincidente con la siguiente ruta:
+1. Configure el conjunto de datos de búsqueda con [!UICONTROL Clave] como &quot;key&quot; y el campo Matching key con la siguiente ruta:
 
    ```
    _experience.decisioning.propositions.scopeDetails.correlationID
