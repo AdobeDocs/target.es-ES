@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1733'
 ht-degree: 91%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 1 de septiembre | [Entornos](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | Se ha actualizado la nota en &quot;Establecer el entorno predeterminado para la creación de informes&quot;. |
 | 30 de agosto | [Privacidad](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | Se ha añadido una nueva sección: Confusión de IP de nivel de flujo de datos al utilizar el SDK web de Adobe Experience Platform |
 |  | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Se ha corregido el lapso de tiempo para esperar que los datos se muestren en los informes en las siguientes preguntas frecuentes: &quot;Acabo de crear una actividad. ¿Por qué no veo ningún dato entrar?&quot; |
 | 29 de agosto | [Funciones compatibles con la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Se ha añadido la lista de atributos geográficos admitidos para la segmentación al utilizar la toma de decisiones en el dispositivo (ODD) del lado del cliente. |
