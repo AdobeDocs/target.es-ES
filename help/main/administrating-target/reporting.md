@@ -5,7 +5,7 @@ title: ¿Cómo configuro la creación de informes en Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 31%
@@ -33,7 +33,7 @@ Puede especificar la siguiente configuración en esta página:
 
 ![Página Informes](/help/main/administrating-target/assets/reporting.png)
 
-## Solución de Reporting Cloud
+## Solución de Reporting Cloud {#solution}
 
 Establezca opciones que determinen los datos que se usan para los resultados y los informes.
 
