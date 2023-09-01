@@ -5,9 +5,9 @@ title: ¿Qué son los entornos y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
+source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 56%
 
 ---
@@ -50,7 +50,7 @@ Para establecer el entorno predeterminado en la creación de informes:
 >
 >Los usuarios de [!DNL Recommendations] deben volver a generar la base de datos de comportamiento y la base de datos de producto si los hosts se cambian de grupo de hosts.
 >
->Si especifica un [entorno predeterminado en una secuencia de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, este entorno anula la configuración de [!DNL Target Recommendations].
+>Si especifica un [entorno predeterminado en una [!DNL Adobe Experience Platform] secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, esta configuración anula la configuración de [!DNL Target].
 
 ## Cambiar el nombre de un entorno {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
