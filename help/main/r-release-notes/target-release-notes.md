@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
-workflow-type: ht
-source-wordcount: '326'
-ht-degree: 100%
+source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 56%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: 9 de agosto de 2023**
+**Última actualización: 4 de septiembre de 2023**
 
 >[!NOTE]
 >
@@ -23,15 +23,24 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target] Estándar/Premium 23.8.1 (9 de agosto de 2023)
+## [!DNL Target] Standard/Premium 23.9.1 (del 6 al 11 de septiembre de 2023)
+
+Esta versión está disponible según la siguiente programación escalonada:
+
+* **6 de septiembre**: región de América
+* **7 de septiembre**: región de Europa, Oriente Medio y África (EMEA)
+* **11 de septiembre**: región Asia-Pacífico (APAC)
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha corregido un problema que, a veces, impedía que las actividades se sincronizaran correctamente, tal como se muestra en la columna [!UICONTROL Estado] de la página de la lista [!UICONTROL Actividad]. (TGT-46010 y TGT-44831)
-* Se ha corregido un problema que, a veces, impedía que “[!UICONTROL Ver en Analytics]” se mostrara en la página [!UICONTROL Informes] de actividades que utilizan [!UICONTROL Analytics for Target] (A4T) como fuente de creación de informes. (TGT-45808)
-* Se ha ajustado la presentación de los valores en las tablas para que se muestren como porcentajes en lugar de números con decimales. Por ejemplo, 8 % en lugar de .08. (TGT-45548)
-* Se ha corregido un problema que impedía que los clientes utilizaran el enfoque del teclado para pasar al siguiente elemento de la página [!UICONTROL Objetivos y configuración] para actividades de [!UICONTROL Segmentación de experiencias] (XT). (TGT-44526)
-* Se ha corregido un problema que provocaba una pérdida de enfoque del teclado después de abrir el diálogo “[!UICONTROL Añadir públicos]” al crear una actividad. (TGT-44525)
+* Se ha corregido un problema que generaba datos de informes incoherentes en la variable [!DNL Target] La interfaz de usuario y [!DNL Adobe Analytics] IU para [!UICONTROL Asignación automática] actividades que utilizan [!UICONTROL Analytics for Target] (A4T) como fuente de informes. (TGT-46112)
+* Se ha aumentado el tiempo de espera para las llamadas del PUT a la API de envío de Target a 15 segundos para evitar errores de tiempo de espera. (TGT-46091)
+* Se ha corregido un problema que mostraba el nombre de informe incorrecto al cambiar entre las variables [!UICONTROL Visualización en tabla] y el [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] informes. (TGT-46040)
+* Se ha mejorado la [!UICONTROL Compositor de experiencias visuales] (VEC) para admitir Lightning DOM (componentes web). (TGT-45422)
+* Se ha corregido un problema que provocaba que las acciones del VEC se aplicaran en el orden incorrecto. En algunos casos, el VEC aplicaba algunas modificaciones de forma asíncrona y añadir modificaciones adicionales a un elemento provocaba errores si ese elemento se mostraba después de un [!UICONTROL Insertar] acción. (TGT-45983)
+* Se ha añadido la capacidad de especificar un selector de CSS en el VEC. (TGT-45958 y TGT-46017)
+* SPA Se ha corregido un problema que se producía al abrir una página de aplicación de una sola página () en el VEC y, a continuación, ir al modo Examinar, provocaba que las flechas Atrás y Adelante no funcionaran correctamente. (TGT-45956)
+* SPA Se ha corregido un problema que impedía que la dirección URL se actualizara de forma coherente al navegar por un sitio web de aplicación de una sola página (). (TGT-45417)
 
 ## Notas de la versión adicionales y detalles de la versión
 
