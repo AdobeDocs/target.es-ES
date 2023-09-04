@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
 source-wordcount: '1733'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Se ha corregido el lapso de tiempo para esperar que los datos se muestren en los informes en las siguientes preguntas frecuentes: &quot;Acabo de crear una actividad. ¿Por qué no veo ningún dato entrar?&quot; |
 | 29 de agosto | [Funciones compatibles con la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Se ha añadido la lista de atributos geográficos admitidos para la segmentación al utilizar la toma de decisiones en el dispositivo (ODD) del lado del cliente. |
 |  | [Información general sobre la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Se ha añadido la lista de atributos geográficos admitidos para la segmentación al utilizar la toma de decisiones en el dispositivo (ODD) del lado del servidor. |
-|  | [Implementar Target con el SDK de AEP Mobile en una aplicación nativa con vistas web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nuevo artículo. |
+|  | [Implementar Target con el SDK de AEP Mobile en una aplicación nativa con vistas web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html?lang=es){target=_blank} | Nuevo artículo. |
 |  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de la próxima pausa para café de la comunidad de Adobe Target (30 de agosto de 2023): &quot;Estrategias para lograr el máximo impacto en el retorno de la inversión con la preparación para la temporada alta&quot;. |
 | 14 de agosto | [Control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) | Se ha añadido información para aclarar que, al cargar una página en el sitio con un valor vacío, *no* se elimina la cookie de control de calidad del explorador cuando at.js 2.*x* se implementa. |
 |  | [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Se ha actualizado la definición de “Confianza”. |
