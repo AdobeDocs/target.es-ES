@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 56%
+source-wordcount: '405'
+ht-degree: 57%
 
 ---
 
@@ -38,7 +38,6 @@ Esta versión incluye las siguientes mejoras y correcciones:
 * Se ha corregido un problema que mostraba el nombre de informe incorrecto al cambiar entre las variables [!UICONTROL Visualización en tabla] y el [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] informes. (TGT-46040)
 * Se ha mejorado la [!UICONTROL Compositor de experiencias visuales] (VEC) para admitir Lightning DOM (componentes web). (TGT-45422)
 * Se ha corregido un problema que provocaba que las acciones del VEC se aplicaran en el orden incorrecto. En algunos casos, el VEC aplicaba algunas modificaciones de forma asíncrona y añadir modificaciones adicionales a un elemento provocaba errores si ese elemento se mostraba después de un [!UICONTROL Insertar] acción. (TGT-45983)
-* Se ha añadido la capacidad de especificar un selector de CSS en el VEC. (TGT-45958 y TGT-46017)
 * SPA Se ha corregido un problema que se producía al abrir una página de aplicación de una sola página () en el VEC y, a continuación, ir al modo Examinar, provocaba que las flechas Atrás y Adelante no funcionaran correctamente. (TGT-45956)
 * SPA Se ha corregido un problema que impedía que la dirección URL se actualizara de forma coherente al navegar por un sitio web de aplicación de una sola página (). (TGT-45417)
 
