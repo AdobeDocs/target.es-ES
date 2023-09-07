@@ -5,9 +5,9 @@ title: ¿Cómo evito errores comunes de pruebas A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Hoy en día, los especialistas en marketing emplean una potencia estadística in
 
 Para evitar que esto ocurra, hay que tener en cuenta que el estándar típico para que una prueba arroje resultados fiables es un nivel de confianza del 95 % y una potencia estadística del 80 %. Estos porcentajes indican que la prueba ofrece un 95 % de probabilidad de evitar un falso positivo y un 80 % de evitar un falso negativo.
 
-## Escollo 4: Usar pruebas unilaterales {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Inconveniente 4: uso de pruebas unilaterales {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 Las pruebas unilaterales requieren una diferencia observada más reducida en las tasas de conversión entre las ofertas para declarar un ganador con un cierto nivel de relevancia. Esto parece interesante porque los ganadores se pueden declarar antes y con más frecuencia que cuando se usan pruebas bidireccionales. Sin embargo, sabemos que todo tiene su precio y las pruebas unidireccionales no podían ser menos.
 
@@ -127,7 +127,7 @@ Si cambia manualmente la división de asignación al 100 % para la Experiencia 
 Si desea cambiar los porcentajes o afectar en gran medida el flujo de visitantes en cada experiencia, le recomendamos que cree una nueva actividad o que copie la actividad y luego edite los porcentajes de asignación de tráfico.
 
 Si cambia los porcentajes de diferentes experiencias durante el periodo de prueba, los datos tardan unos días en normalizarse, especialmente si muchos compradores son visitantes que regresan.
-Otro ejemplo: si la asignación de tráfico de la prueba A/B se divide al 50 % y, a continuación, cambia la división al 80/20 %, durante los primeros días posteriores al cambio los resultados pueden aparecer distorsionados. Si el tiempo de conversión medio es elevado, es decir, que se tarda varias horas o incluso días en realizar una compra, dichas conversiones demoradas pueden afectar a los informes. Así pues, en esa primera experiencia en la que el número pasó de 50 a 80 y el tiempo de conversión promedio son dos días, tan solo los visitantes del 50 % de la población se están convirtiendo el primer día de la prueba; a pesar de que hoy el 80 % de la población esté entrando en la experiencia. Esto hace que parezca que la tasa de conversión se ha desmoronado, pero se volverá a normalizar cuando este 80 % de los visitantes han tardado dos días para convertirse.
+Otro ejemplo: si la asignación de tráfico de la prueba A/B se divide al 50 % y, a continuación, cambia la división al 80/20 %, durante los primeros días posteriores al cambio los resultados pueden aparecer distorsionados. Si el tiempo de conversión medio es elevado, es decir, que se tarda varias horas o incluso días en realizar una compra, dichas conversiones demoradas pueden afectar a los informes. Así pues, en esa primera experiencia en la que el número pasó de 50 a 80 y el tiempo de conversión promedio son dos días, tan solo los visitantes del 50 % de la población se están convirtiendo el primer día de la prueba; a pesar de que hoy el 80 % de la población esté entrando en la experiencia. Esto hace que parezca que la tasa de conversión se ha desmoronado, pero se volverá a normalizar cuando este 80 % de los visitantes han tardado dos días para convertirse.
 
 ## Escollo 8: No tener en cuenta los efectos de la novedad {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
