@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y ev
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2241'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 95%
 
 Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [!DNL Target] Sesiones de coffee break, [!DNL Target] serie de seminarios web, [!DNL Target] Sesiones de generador de habilidades, charlas de desarrollador y mucho más. Los vínculos de las grabaciones anteriores se incluyen si están disponibles.
 
-## [!DNL Adobe Target] Coffee Break de preguntas y respuestas de la comunidad de (30 de agosto de 2023)
+## Coffee break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (30 de agosto de 2023)
 
-* **Tema: &quot;Estrategias para lograr el máximo impacto en el retorno de la inversión con la preparación para la temporada alta&quot;**
+* **Tema: seguimiento del seminario web “Estrategias para lograr el máximo impacto en el retorno de la inversión con la preparación para la temporada alta”**
 * **Miércoles, 30 de agosto de 2023**
 * **8:00-9:00 a.m. (PDT, UTC-7)**
 * **[Regístrese aquí](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
 
-[!DNL Adobe Target] Los expertos John Magnusson y John Mosbaugh estarán disponibles en este evento pregúntame lo que quieras para responder a tus preguntas relacionadas con los temas tratados en el seminario web &quot;Estrategias para lograr el máximo impacto en el retorno de la inversión con la preparación para la temporada alta&quot; (17 de agosto de 2023).
+Los expertos en [!DNL Adobe Target] John Magnusson y John Mosbaugh estarán disponibles en este evento de Pregúntame cualquier cosa para responder a sus preguntas relacionadas con los temas tratados en el seminario web “Estrategias para lograr el máximo impacto en el retorno de la inversión con la preparación para la temporada alta” (17 de agosto de 2023).
 
 +++Ver detalles
 
 Los temas incluyen los siguientes:
 
-* Cómo crear de forma eficaz paneles e informar sobre métricas clave
-* Examen del impacto de cada canal de marketing
+* Creación eficaz de paneles y métricas clave de informes
+* Examinación del impacto de cada canal de marketing
 * Profundización en el comportamiento de los clientes y las tendencias de compra
-* Identificación de experiencias de clientes deficientes y mejora de las mismas mediante pruebas
-* Descubrimiento de áreas de oportunidad para impulsar la conversión del sitio
+* Identificación de las experiencias deficientes de los clientes y mejora mediante pruebas
+* Descubrimiento de las áreas de oportunidad para impulsar la conversión del sitio
 
 +++
 
