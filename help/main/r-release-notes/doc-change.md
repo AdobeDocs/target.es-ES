@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -25,13 +25,13 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 1 de septiembre | [Entornos](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | Se ha actualizado la nota en &quot;Establecer el entorno predeterminado para la creación de informes&quot;. |
-| 30 de agosto | [Privacidad](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | Se ha añadido una nueva sección: Confusión de IP de nivel de flujo de datos al utilizar el SDK web de Adobe Experience Platform |
-|  | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Se ha corregido el lapso de tiempo para esperar que los datos se muestren en los informes en las siguientes preguntas frecuentes: &quot;Acabo de crear una actividad. ¿Por qué no veo ningún dato entrar?&quot; |
-| 29 de agosto | [Funciones compatibles con la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Se ha añadido la lista de atributos geográficos admitidos para la segmentación al utilizar la toma de decisiones en el dispositivo (ODD) del lado del cliente. |
-|  | [Información general sobre la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Se ha añadido la lista de atributos geográficos admitidos para la segmentación al utilizar la toma de decisiones en el dispositivo (ODD) del lado del servidor. |
+| 1 de septiembre | [Entornos](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | Se ha actualizado la nota en “Establecer el entorno predeterminado para la creación de informes”. |
+| 30 de agosto | [Privacidad](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html?lang=es#aep){target=_blank} | Se ha añadido una nueva sección: “Ofuscación de IP a nivel de flujo de datos al usar SDK web de Adobe Experience Platform” |
+|  | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Se ha corregido el lapso de tiempo durante el que se espera que los datos se muestren en los informes en la siguiente pregunta frecuente: “Acabo de crear una actividad. ¿Por qué no entran datos?” |
+| 29 de agosto | [Funciones compatibles con la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html?lang=es){target=_blank} | Se ha añadido la lista de atributos geográficos admitidos para la segmentación al utilizar On-Device Decisioning (ODD) del lado del cliente. |
+|  | [Información general sobre la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=es){target=_blank} | Se ha añadido la lista de atributos geográficos admitidos para la segmentación al utilizar On-Device Decisioning (ODD) del lado del servidor. |
 |  | [Implementar Target con el SDK de AEP Mobile en una aplicación nativa con vistas web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html?lang=es){target=_blank} | Nuevo artículo. |
-|  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de la próxima pausa para café de la comunidad de Adobe Target (30 de agosto de 2023): &quot;Estrategias para lograr el máximo impacto en el retorno de la inversión con la preparación para la temporada alta&quot;. |
+|  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca del próximo Coffee break para la comunidad de Adobe Target (30 de agosto de 2023): Seguimiento del seminario web “Estrategias para lograr el máximo impacto en el retorno de la inversión con la preparación para la temporada alta”. |
 | 14 de agosto | [Control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) | Se ha añadido información para aclarar que, al cargar una página en el sitio con un valor vacío, *no* se elimina la cookie de control de calidad del explorador cuando at.js 2.*x* se implementa. |
 |  | [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Se ha actualizado la definición de “Confianza”. |
 |  | [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) | Se ha añadido una nota que explica que las ofertas de imágenes no forman parte del modelo de [!UICONTROL Permisos de usuario de la empresa]. |
