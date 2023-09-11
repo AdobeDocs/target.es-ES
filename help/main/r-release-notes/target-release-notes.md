@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
+source-git-commit: 571f429596d08f2ecc21006bfda57575b1da3589
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 77%
+source-wordcount: '369'
+ht-degree: 71%
 
 ---
 
@@ -15,13 +15,26 @@ ht-degree: 77%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: 6 de septiembre de 2023**
+**Última actualización: 11 de septiembre de 2023**
 
 >[!NOTE]
 >
 >Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+## [!DNL Target] Standard/Premium 23.9.2 (del 12 al 14 de septiembre de 2023)
+
+Esta versión está disponible según la siguiente programación escalonada:
+
+* **12 de septiembre**: región de América
+* **13 de septiembre**: región Asia-Pacífico (APAC)
+* **14 de septiembre**: región de Europa, Oriente Medio y África (EMEA)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Se ha cambiado el [!DNL Analytics] API para el nuevo [!DNL Analytics] Versión de API 2.0. (TGT-45345)
+* Se han corregido problemas que afectaban a [!UICONTROL Automated Personalization] (AP) para algunos clientes, incluida la sincronización oportuna de la actividad en [!DNL Target] y ofrecer la experiencia esperada en los vínculos de vista previa. (TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1 (del 6 al 11 de septiembre de 2023)
 
