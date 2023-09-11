@@ -4,9 +4,9 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: ht
-source-wordcount: '2241'
+source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
+workflow-type: tm+mt
+source-wordcount: '2128'
 ht-degree: 100%
 
 ---
@@ -14,27 +14,6 @@ ht-degree: 100%
 # Anuncios y eventos de [!DNL Adobe Target]
 
 Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [!DNL Target] Sesiones de coffee break, [!DNL Target] serie de seminarios web, [!DNL Target] Sesiones de generador de habilidades, charlas de desarrollador y mucho más. Los vínculos de las grabaciones anteriores se incluyen si están disponibles.
-
-## Coffee break de preguntas y respuestas de la comunidad de [!DNL Adobe Target] (30 de agosto de 2023)
-
-* **Tema: seguimiento del seminario web “Estrategias para lograr el máximo impacto en el retorno de la inversión con la preparación para la temporada alta”**
-* **Miércoles, 30 de agosto de 2023**
-* **8:00-9:00 a.m. (PDT, UTC-7)**
-* **[Regístrese aquí](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
-
-Los expertos en [!DNL Adobe Target] John Magnusson y John Mosbaugh estarán disponibles en este evento de Pregúntame cualquier cosa para responder a sus preguntas relacionadas con los temas tratados en el seminario web “Estrategias para lograr el máximo impacto en el retorno de la inversión con la preparación para la temporada alta” (17 de agosto de 2023).
-
-+++Ver detalles
-
-Los temas incluyen los siguientes:
-
-* Creación eficaz de paneles y métricas clave de informes
-* Examinación del impacto de cada canal de marketing
-* Profundización en el comportamiento de los clientes y las tendencias de compra
-* Identificación de las experiencias deficientes de los clientes y mejora mediante pruebas
-* Descubrimiento de las áreas de oportunidad para impulsar la conversión del sitio
-
-+++
 
 ## Serie de seminarios web sobre [!DNL Adobe Target] {#webinar-series}
 
