@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 78%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target] Standard/Premium 23.9.2 (del 12 al 14 de septiembre de 2023)
+## [!DNL Target] Standard/Premium 23.9.2 (12-14 de septiembre de 2023)
 
 Esta versión está disponible según la siguiente programación escalonada:
 
@@ -32,7 +32,7 @@ Esta versión incluye las siguientes mejoras y correcciones:
 * Se ha cambiado el [!DNL Analytics] API para el nuevo [!DNL Analytics] Versión de API 2.0. (TGT-45345)
 * Se han corregido problemas que afectaban a [!UICONTROL Automated Personalization] (AP) para algunos clientes, incluida la sincronización oportuna de la actividad en [!DNL Target] y ofrecer la experiencia esperada en los vínculos de vista previa. (TGT-46202)
 
-## [!DNL Target] Standard/Premium 23.9.1 (del 6 al 11 de septiembre de 2023)
+## [!DNL Target] Standard/Premium 23.9.1 (6-11 de septiembre de 2023)
 
 Esta versión está disponible según la siguiente programación escalonada:
 
@@ -42,9 +42,9 @@ Esta versión está disponible según la siguiente programación escalonada:
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha corregido un problema que generaba datos de informes incoherentes en la variable [!DNL Target] La interfaz de usuario y [!DNL Adobe Analytics] IU para [!UICONTROL Asignación automática] actividades que utilizan [!UICONTROL Analytics for Target] (A4T) como fuente de informes. (TGT-46112)
-* Se ha aumentado el tiempo de espera para las llamadas del PUT a la API de envío de Target a 15 segundos para evitar errores de tiempo de espera. (TGT-46091)
-* SPA Se ha corregido un problema que impedía que la dirección URL se actualizara de forma coherente al navegar por un sitio web de aplicación de una sola página (). (TGT-45417)
+* Se ha corregido un problema que generaba datos de creación de informes incoherentes en la IU de [!DNL Target] y de [!DNL Adobe Analytics] para las actividades de [!UICONTROL Asignación automática] que utilizan [!UICONTROL Analytics para Target] (A4T) como fuente de creación de informes. (TGT-46112)
+* Se ha aumentado el tiempo de espera para las llamadas PUT a la API de entrega de Target a 15 segundos para evitar errores de tiempo de espera. (TGT-46091)
+* Se ha corregido un problema que impedía que la dirección URL se actualizara de forma coherente al navegar por un sitio web de aplicación de una sola página (SPA). (TGT-45417)
 
 ## Notas de la versión adicionales y detalles de la versión
 
