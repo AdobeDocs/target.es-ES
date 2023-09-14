@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b103d912b1ae953c44f2ad35da8a7ae83e7be2ae
+source-git-commit: 56435a5603c08b5c7272d3393893c427717c065b
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 64%
+source-wordcount: '369'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: 11 de septiembre de 2023**
+**Última actualización: 14 de septiembre de 2023**
 
 >[!NOTE]
 >
@@ -23,15 +23,32 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.9.3 (18 de septiembre de 2023)
+## [!DNL Target] Standard/Premium 23.9.2 (12-14 de septiembre de 2023)
+
+Esta versión está disponible según la siguiente programación escalonada:
+
+* **12 de septiembre**: región de América
+* **13 de septiembre**: región Asia-Pacífico (APAC)
+* **14 de septiembre**: región de Europa, Oriente Medio y África (EMEA)
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha mejorado el Compositor de experiencias visuales (VEC) para que admita Lightning DOM (componentes web). (TGT-45422)
-* Se ha corregido un problema que provocaba que las acciones del VEC se aplicaran en el orden incorrecto. En algunos casos, el VEC aplicaba algunas modificaciones de forma asíncrona y añadir modificaciones adicionales a un elemento provocaba errores si ese elemento se mostraba después de un [!UICONTROL Insertar] acción. (TGT-45983)
-* Se ha corregido un problema con el VEC [!UICONTROL Superposición] función para admitir elementos en DOM sombreados. (TGT-46217)
-* SPA Se ha corregido un problema que se producía al abrir una página de aplicación de una sola página () en el VEC y, a continuación, ir al modo Examinar, provocaba que las flechas Atrás y Adelante no funcionaran correctamente. (TGT-45956)
-* Se ha corregido un problema que ocasionaba que algunas páginas web fallaran al cargarse en el VEC.
+* Se ha cambiado el [!DNL Analytics] API para el nuevo [!DNL Analytics] Versión de API 2.0. (TGT-45345)
+* Se han corregido problemas que afectaban a [!UICONTROL Automated Personalization] (AP) para algunos clientes, incluida la sincronización oportuna de la actividad en [!DNL Target] y ofrecer la experiencia esperada en los vínculos de vista previa. (TGT-46202)
+
+## [!DNL Target] Standard/Premium 23.9.1 (6-11 de septiembre de 2023)
+
+Esta versión está disponible según la siguiente programación escalonada:
+
+* **6 de septiembre**: región de América
+* **7 de septiembre**: región de Europa, Oriente Medio y África (EMEA)
+* **11 de septiembre**: región Asia-Pacífico (APAC)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Se ha corregido un problema que generaba datos de creación de informes incoherentes en la IU de [!DNL Target] y de [!DNL Adobe Analytics] para las actividades de [!UICONTROL Asignación automática] que utilizan [!UICONTROL Analytics para Target] (A4T) como fuente de creación de informes. (TGT-46112)
+* Se ha aumentado el tiempo de espera para las llamadas PUT a la API de entrega de Target a 15 segundos para evitar errores de tiempo de espera. (TGT-46091)
+* Se ha corregido un problema que impedía que la dirección URL se actualizara de forma coherente al navegar por un sitio web de aplicación de una sola página (SPA). (TGT-45417)
 
 ## Notas de la versión adicionales y detalles de la versión
 
