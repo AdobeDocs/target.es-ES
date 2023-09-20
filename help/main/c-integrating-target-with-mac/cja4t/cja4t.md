@@ -5,10 +5,10 @@ title: ¿Qué es  [!DNL Adobe Customer Journey Analytics]  for  [!DNL Target]  (
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 95%
 
 ---
 
@@ -30,6 +30,7 @@ Tenga en cuenta la siguiente información antes de usar la integración de CJA4T
    * Si tiene una cuenta [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), consulte [Especificar funciones y permisos](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) en *Usuarios*.
    * Si tiene una cuenta [Target Premium](/help/main/c-intro/intro.md#premium), consulte [Funciones y permisos](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) en *Permisos de usuario de la empresa*.
 
+* Debe formar parte de un rol en [!DNL Adobe Experience Platform] para configurar un [!DNL Target] actividad con [!DNL Customer Journey Analytics] como fuente de informes. Para obtener más información, consulte [Agregar un rol en [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html){target=_blank} in *Configuración de permisos* en el *Tutorial de arquitecto de datos e ingeniero.*
 * Según la configuración, la creación de informes se puede cambiar por actividad o por organización. Consulte [Solución en la nube para la creación de informes](/help/main/administrating-target/reporting.md#solution) en *Configuración de creación de informes en Target*.
 * Debe usar una de las dos fuentes de creación de informes. No puede recopilar datos de una única actividad a varias fuentes de creación de informes.
 * Cuando establezca [!DNL Customer Journey Analytics] como fuente de creación de informes, se le pedirá que especifique la zona protegida para su creación de informes. Durante la configuración, solo verá las zonas protegidas a las que tiene acceso.
