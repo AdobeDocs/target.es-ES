@@ -4,10 +4,10 @@ description: Use  [!DNL Analytics]  for  [!DNL Target]  (A4T) para crear activid
 title: ¿Qué es  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
+source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Tenga en cuenta los siguientes puntos cuando vaya a utilizar A4T:
 * Solo se permite una métrica basada en mbox al utilizar A4T.
 * Una llamada de servidor a servidor desde [!DNL Target] hacia [!DNL Analytics] envía la información de actividad y de experiencia a [!DNL Analytics]. Esta integración no genera llamadas al servidor adicionales para [!DNL Target] o [!DNL Analytics].
 
-   En algunas situaciones, las clasificaciones de [!DNL Target] a [!DNL Analytics] falla y las actividades no muestran datos en [!DNL Analytics]. Consulte [Resolución de problemas de integración de Analytics y Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). También puede [ponerse en contacto con Atención al cliente](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) para obtener más ayuda.
+  En algunas situaciones, las clasificaciones de [!DNL Target] a [!DNL Analytics] falla y las actividades no muestran datos en [!DNL Analytics]. Consulte [Resolución de problemas de integración de Analytics y Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). También puede [ponerse en contacto con Atención al cliente](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) para obtener más ayuda.
 
 ## Implementación de A4T
 
@@ -58,7 +58,7 @@ Las secciones siguientes contienen información sobre tipos de actividades compa
 |--- |--- |--- |
 | [Actividad A/B con división de tráfico manual](/help/main/c-activities/t-test-ab/test-ab.md) | Sí |  |
 | [Actividad A/B con asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sí | Consulte [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [Actividad A/B con segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | No |  |
+| [Actividad A/B con segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Sí (at.js)<P>No (SDK web de Platform) | Actualmente, la compatibilidad con A4T para actividades de Segmentación automática solo es compatible para at.js. |
 | [Segmentación de experiencias (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sí |  |
 | [Prueba multivariable (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sí | Requiere una métrica de objetivos basada en mbox para obtener el informe de [!UICONTROL contribución de elementos]. En este momento, el informe de [!UICONTROL contribución de elementos] no admite métricas de [!DNL Analytics]. |
 | [Actividad de Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No |  |
@@ -126,4 +126,3 @@ Este vídeo es una grabación de “[Horario de oficina](/help/main/cmp-resource
 >* [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [¿Qué es el SDK web de Adobe Experience Platform?](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es): Contiene información general sobre el SDK web de Platform.
 >* [Información general de Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=es): Contiene información específica de [!DNL Target] y [!DNL Platform Web SDK].
-
