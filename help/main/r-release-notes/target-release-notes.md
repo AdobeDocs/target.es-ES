@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 75%
+source-wordcount: '603'
+ht-degree: 72%
 
 ---
 
@@ -59,6 +59,23 @@ Esta versión incluye las siguientes mejoras y correcciones:
 * Se ha corregido un problema que generaba datos de creación de informes incoherentes en la IU de [!DNL Target] y de [!DNL Adobe Analytics] para las actividades de [!UICONTROL Asignación automática] que utilizan [!UICONTROL Analytics para Target] (A4T) como fuente de creación de informes. (TGT-46112)
 * Se ha aumentado el tiempo de espera para las llamadas PUT a la API de entrega de Target a 15 segundos para evitar errores de tiempo de espera. (TGT-46091)
 * Se ha corregido un problema que impedía que la dirección URL se actualizara de forma coherente al navegar por un sitio web de aplicación de una sola página (SPA). (TGT-45417)
+
+## [!DNL Target] Standard/Premium 23.5.2 (fecha por determinar)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Selección de criterios de optimización habilitada para [!DNL Adobe Analytics] métricas.
+* Se habilitó la sincronización de audiencias externas mediante trabajos de Sling.
+* Se ha corregido un problema en el cual los grupos de informes SC que contenían un carácter de punto en el nombre no eran compatibles.
+* Funcionalidad habilitada para permitir que los clientes eliminen y editen audiencias integradas.
+
+## [!DNL Target] Standard/Premium 23.5.3 (fecha por determinar)
+
+Esta versión incluye las siguientes mejoras:
+
+| Función | Detalles |
+|--- |--- |
+| [!UICONTROL Modo de control de calidad] para actividades de [!UICONTROL Automated Personalization] | [!DNL Adobe Target] [!UICONTROL Modo de control de calidad] ya está disponible para actividades de [!UICONTROL Automated Personalization], reemplazar la funcionalidad [!UICONTROL Previsualizar vínculos].<P>Para obtener más información, consulte [Control de calidad de las actividades.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
 
 ## Notas de la versión adicionales y detalles de la versión
 

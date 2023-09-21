@@ -1,51 +1,51 @@
 ---
 keywords: Segmentación;segmentación de experiencias;XT;página de aterrizaje;prueba de página de aterrizaje
-description: Aprenda a utilizar las actividades de segmentación de experiencias (XT) en Adobe [!DNL Target] para enviar contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
-title: ¿Qué es una actividad de segmentación de experiencias (XT)?
+description: Aprenda a utilizar [!UICONTROL Segmentación de experiencias] Actividades de (XT) en [!DNL Adobe Target] para enviar contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
+title: Qué es un [!UICONTROL Segmentación de experiencias] (XT) ¿Actividad?
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 93%
+source-wordcount: '499'
+ht-degree: 55%
 
 ---
 
-# Segmentación de experiencias
+# [!UICONTROL Segmentación de experiencias] (XT)
 
-Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
+[!UICONTROL Segmentación de experiencias] (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 
 La segmentación de experiencias, incluyendo [Segmentación geográfica](/help/main/c-target/c-audiences/c-target-rules/geo.md), sirve para definir reglas que dirigen un contenido o experiencia determinados a una audiencia concreta. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintas audiencias.
 
-Cuando los visitantes ven el sitio, Segmentación de experiencias (XT) los evalúa para determinar si cumplen con los criterios establecidos. En caso afirmativo, participan en la actividad y se les muestra la experiencia diseñada para clasificar audiencias. Puede crear experiencias para varias audiencias dentro de una misma actividad.
+Cuando los visitantes ven el sitio, [!UICONTROL Segmentación de experiencias] (XT) evalúa a esos visitantes para determinar si cumplen con los criterios establecidos. Si cumplen los criterios, entran en la actividad y se muestra la experiencia diseñada para las audiencias aptas. Puede crear experiencias para varias audiencias dentro de una misma actividad.
 
-La segmentación de experiencias es un primer paso en el mundo de la personalización y a menudo comienza con las pruebas A/B. Un experto en marketing realiza una prueba A/B y, a través del uso de audiencias de informes, detecta que cada experiencia estimula a una audiencia diferente. La segmentación de experiencias permite al experto aprovechar fácilmente esta información y empezar a utilizar segmentación de contenido a largo plazo para cada uno de estos segmentos de usuarios.
+[!UICONTROL La segmentación de experiencias es un primer paso en el mundo de la personalización y a menudo comienza con las pruebas A/B. ] Un especialista en marketing realiza una prueba A/B y, al usar las audiencias de informes, detecta que cada experiencia estimula a una audiencia diferente. [!UICONTROL Segmentación de experiencias] permite que el experto en marketing utilice fácilmente ese descubrimiento y cambie a la segmentación a largo plazo del contenido para esos diferentes segmentos de usuario.
 
 ## Caso: Segmentación de experiencias
 
-Suponga que su sitio web incluye equipos para actividades al aire libre. Los informes de Prueba A/B indican que tiene tres experiencias que se relacionan con distintas audiencias. Para aprovechar este descubrimiento, quiere mostrar una imagen distinta en la página principal para atraer a estas distintas audiencias, según la ubicación o las aficiones de los visitantes. En este escenario, desea mostrar una imagen de senderismo a visitantes de Nueva Jersey y una imagen de navegación deportiva a visitantes de Hawaii. También tiene una audiencia a la que le gusta el ciclismo. Desea mostrar una tercera imagen que atraiga a su audiencia de ciclismo.
+Suponga que su sitio web incluye equipos para actividades al aire libre. Los informes de prueba A/B indican que tiene tres experiencias que se relacionan con distintas audiencias. Para aplicar este descubrimiento, quiere mostrar una imagen distinta en la página principal para atraer a estas distintas audiencias, según la ubicación o las aficiones de los visitantes. En este escenario, desea mostrar una imagen de senderismo a visitantes de Nueva Jersey y una imagen de navegación deportiva a visitantes de Hawaii. También tiene una audiencia a la que le gusta el ciclismo. Desea mostrar una tercera imagen que atraiga a su audiencia de ciclismo.
 
-Una actividad XT permite dirigir estas tres audiencias con una imagen distinta que atrae a cada audiencia. El vídeo siguiente, *De Pruebas A/B a la Segmentación de experiencias*, muestra cómo crear experiencias dirigidas a ambos estados y una tercera experiencia dirigida a los aficionados del ciclismo. El vídeo también muestra cómo ordenar las tres experiencias para lograr sus objetivos. Vea el vídeo y, a continuación, continúe con [Crear una actividad de segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
+Un [!UICONTROL Segmentación de experiencias] La actividad de le permite dirigirse a estas tres audiencias con una imagen distinta que atrae a cada audiencia. El vídeo siguiente, *De Pruebas A/B a la Segmentación de experiencias*, muestra cómo crear experiencias dirigidas a ambos estados y una tercera experiencia dirigida a los aficionados del ciclismo. El vídeo también muestra cómo ordenar las tres experiencias para lograr sus objetivos. Vea el vídeo y, a continuación, continúe con [Crear una actividad de segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## Vídeos de formación:
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### De pruebas A/B a segmentación de experiencias
+### De pruebas A/B a [!UICONTROL Segmentación de experiencias]
 
-Este vídeo describe cómo se llevan las pruebas A/B al siguiente nivel con Segmentación de experiencias (XT).
+En este vídeo se describe cómo llevar las pruebas A/B al siguiente nivel con [!UICONTROL Segmentación de experiencias].
 
-* Describe el flujo de trabajo guiado de tres pasos para la configuración de una actividad XT
-* Describe cómo se entrega contenido dependiente de la ubicación a audiencias situadas en distintas zonas geográficas
+* Describa el flujo de trabajo guiado de tres pasos para configurar una [!UICONTROL Segmentación de experiencias] actividad
+* Describa cómo distribuir contenido específico de una ubicación a audiencias de diferentes áreas geográficas
 * Describe cómo se reordenan las experiencias para asegurar que cada contenido se envíe a la audiencia correcta
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Tipos de actividad (9:03)
 
-En este vídeo se describen los tipos de actividades disponibles en Target Standard/Premium. La segmentación de experiencias se describe a partir del minuto 5:15.
+En este vídeo se describen los tipos de actividades disponibles en [!DNL Target]. [!UICONTROL La segmentación de experiencias se describe a partir del minuto 5:15.]
 
-* Describe los tipos de actividades incluidas en [!DNL Adobe Target]
+* Describe los tipos de actividades incluidas en [!DNL Target]
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 

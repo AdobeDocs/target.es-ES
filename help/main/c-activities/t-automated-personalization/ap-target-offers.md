@@ -1,53 +1,53 @@
 ---
 keywords: personalización automatizada;ofertas;target;audiencia;reglas de segmentación;segmentación
-description: Obtenga información sobre cómo segmentar ofertas individuales para audiencias específicas mediante una actividad de Automated Personalization (AP) en Adobe Target.
-title: ¿Cómo puedo [!DNL Target] ¿Ofertas de Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: Aprenda a segmentar ofertas individuales para audiencias específicas mediante una [!UICONTROL Automated Personalization] Actividad de (AP) en [!DNL Adobe Target].
+title: ¿Cómo Puedo Hacer Target? [!UICONTROL Automated Personalization] ¿Ofertas?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 87%
+source-wordcount: '380'
+ht-degree: 34%
 
 ---
 
-# [!DNL Target] Ofertas de Automated Personalization
+# Target [!UICONTROL Automated Personalization] ofertas
 
 En un [!DNL Adobe Target] [!DNL Automated Personalization] (AP) , puede segmentar ofertas para audiencias específicas.
 
-El uso de esta funcionalidad reduce el número de ofertas que un visitante específico puede ver. Por ejemplo, considere una actividad de AP con tres ofertas. La oferta 1 tiene una regla de segmentación que limita su exposición a la audiencia A. Dos visitantes vieron esta actividad de AP.
+El uso de esta funcionalidad reduce el número de ofertas que un visitante específico puede ver. Por ejemplo, considere una [!UICONTROL Automated Personalization] actividad que tiene tres ofertas. La oferta 1 tiene una regla de segmentación que limita su exposición a la audiencia A. Dos visitantes vieron esta actividad de 
 
-|  | Visitante 1 | Visitante 2 |
+| | Visitante 1 | Visitante 2 |
 |--- |--- |--- |
-| Clasificación de audiencia | Audiencia A | Audiencia B |
+| Calificación de audiencia | Audiencia A | Audiencia B |
 | Puntuación del modelo de personalización de Target de la oferta 1 | 90 | 90 |
 | Puntuación del modelo de personalización de Target de la oferta 2 | 50 | 70 |
 | Puntuación del modelo de personalización de Target de la oferta 3 | 80 | 60 |
 
-En este caso, el visitante 1 vería la oferta 1 (porque cuenta como parte de la audiencia A), que tiene la puntuación más alta para ese visitante. Sin embargo, el visitante 2 vería la oferta 2 aunque su mayor puntuación sea para la oferta 1, ya que no forma parte de la audiencia A. Este ejemplo demuestra por qué, para satisfacer las necesidades comerciales, las reglas de segmentación deben utilizarse con moderación. El uso de estas reglas puede reducir la eficacia de los modelos de personalización de Target.
+En esta situación, el Visitante 1 ve la Oferta 1 (porque este visitante cumple los requisitos para formar parte de la Audiencia A), que tiene la puntuación más alta para ese visitante. Sin embargo, el Visitante 2 ve la Oferta 2 aunque la puntuación más alta sea para la Oferta 1, ya que el Visitante 2 no forma parte de la Audiencia A. Este ejemplo demuestra por qué las reglas de segmentación deben utilizarse con moderación para satisfacer las necesidades comerciales. Añadir estas reglas puede reducir la eficacia de [!DNL Target] modelos de personalización.
 
 ## Configure las reglas de segmentación
 
-1. Cree una [actividad de Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) que contenga las ofertas que quiera segmentar.
-1. Después de configurar las ofertas para la actividad en el Compositor de experiencias visuales, haga clic en **[!UICONTROL Administrar contenido]**.
+1. Crear un [Actividad de Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) que contenga las ofertas que desee segmentar.
+1. Después de configurar las ofertas para la actividad en [!UICONTROL Compositor de experiencias visuales], haga clic en **[!UICONTROL Administrar contenido]**.
 
    ![Administrar contenido](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-   Se abre el cuadro de diálogo Administrar contenido.
+   El [!UICONTROL Administrar contenido] aparece el cuadro de diálogo.
 
-1. Haga clic en la pestaña Ofertas.
+1. Haga clic en **[!UICONTROL Ofertas]** pestaña.
 
    ![Página de ofertas](/help/main/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
-1. Seleccione las ofertas y audiencias que desee para esa oferta.
+1. Seleccione las ofertas que desee y, a continuación, elija las audiencias a las que desee permitir que vean la oferta.
 
    Para configurar la segmentación de una sola oferta, pase el ratón sobre la oferta que quiera y haga clic en el icono **[!UICONTROL Objetivo]**.
 
-   Para configurar la segmentación de varias ofertas, seleccione las casillas de verificación de las ofertas que desee y haga clic en el icono **[!UICONTROL Segmentación] que aparece en la parte superior derecha de la lista.
+   Para configurar la segmentación de varias ofertas, seleccione las casillas de verificación de las ofertas que desee y haga clic en **[!UICONTROL Segmentación]** que se muestra en la parte superior derecha de la lista.
 
-1. En el cuadro de diálogo [!UICONTROL Elegir audiencia], seleccione la audiencia que desee para las ofertas y haga clic en **[!UICONTROL Listo]** para volver al cuadro de diálogo [!UICONTROL Administrar contenido].
+1. En el [!UICONTROL Elegir audiencia] , seleccione las audiencias que desee para las ofertas y haga clic en **[!UICONTROL Listo]** para volver a la [!UICONTROL Administrar contenido] Cuadro de diálogo.
 
    >[!NOTE]
    >

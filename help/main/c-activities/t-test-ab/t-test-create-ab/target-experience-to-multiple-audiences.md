@@ -1,21 +1,21 @@
 ---
 keywords: varias audiencias;versiones de experiencias;versiones de experiencias de target
-description: Aprenda a dirigir versiones de la misma experiencia a distintas audiencias en Adobe [!DNL Target] Actividades A/B.
+description: Aprenda a dirigir versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] Actividades A/B.
 title: ¿Puedo utilizar varias versiones de una experiencia en una actividad A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 92%
+source-wordcount: '600'
+ht-degree: 56%
 
 ---
 
 # Varias audiencias de una experiencia en una prueba A/B
 
-Puede segmentar versiones de la misma experiencia para distintas audiencias en [!DNL Adobe Target] Actividades A/B. Puede configurar varias audiencias para una experiencia en el Compositor de experiencias visuales o en el Compositor de experiencias basadas en formularios.
+Puede segmentar versiones de la misma experiencia para distintas audiencias en [!DNL Adobe Target] Actividades A/B. Puede configurar varias audiencias para una experiencia en el [!UICONTROL Compositor de experiencias visuales] (VEC) o en el Compositor de experiencias basadas en formularios.
 
-Los usuarios pueden cambiar entre audiencias de experiencias a medida que cambian sus perfiles. No están atrapados en la misma experiencia todo el tiempo que dure la actividad.
+Los visitantes pueden cambiar entre audiencias de experiencia a medida que cambia su perfil. Los visitantes no están atascados en la misma experiencia durante toda la actividad.
 
 Por ejemplo, si un sitio tiene un diseño uniforme en todas las páginas o productos y queremos utilizar la misma experiencia para varias audiencias (p. ej., visitantes con navegadores en distintos idiomas), podemos configurar varias versiones de la experiencia. Podríamos presentar la misma experiencia a los hablantes de inglés y a los de japonés. La diferencia solo estaría en que el texto aparecería en el idioma del visitante. Los datos de la experiencia se recaban independientemente del idioma, por lo que el informe muestra el rendimiento de la experiencia y no la versión.
 
@@ -25,9 +25,9 @@ Al crear distintas versiones de una experiencia, se recibe información más pre
 
 ## Escenario
 
-Vamos a probar dos experiencias, un banner con segmentación geográfica y otro genérico. El banner de cada ubicación geográfica tiene que ser distinto, pero la prueba general consiste en determinar si la segmentación geográfica es mejor que mostrar el contenido genérico. Si configuráramos una experiencia distinta para cada ubicación, estaríamos midiendo el rendimiento de cada ubicación en relación con las demás, no si la segmentación geográfica ayuda más que el banner genérico a lograr los objetivos de éxito.
+Está probando dos experiencias, un banner con objetivo geográfico en lugar de un banner genérico. El titular de cada geografía debe ser diferente, pero la prueba general es determinar si la segmentación geográfica es mejor que mostrar contenido genérico. Si configura una experiencia independiente para cada ubicación, en realidad estaría midiendo el rendimiento de cada ubicación geográfica en comparación con la otra, en lugar de si el targeting geográfico ayuda a alcanzar sus objetivos de éxito cuando se mide con el banner genérico.
 
-En este caso, lo que necesitamos son versiones geográficas de la experiencia para poder probar la experiencia segmentada geográficamente con un control no segmentado geográficamente.
+En este caso, lo que necesita son versiones específicas de la experiencia, para que pueda probar la experiencia de segmentación geográfica con un control sin segmentación geográfica.
 
 1. [Cree una actividad A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) del modo normal.
 
@@ -49,6 +49,6 @@ En este caso, lo que necesitamos son versiones geográficas de la experiencia pa
 
 ## Prácticas recomendadas  
 
-* Elija audiencias que se excluyan entre sí. Si la actividad se creó en el VEC y un visitante se ajusta a más de una audiencia, se devuelve el contenido de todas, pero el que aparece en la página es el de la última audiencia de la lista.
+* Elija audiencias que se excluyan mutuamente. Si la actividad se creó en el VEC y un visitante coincide con más de una audiencia, se devuelve el contenido de cada audiencia y el contenido de la audiencia se muestra por última vez en la página.
 * Las audiencias de participación en la actividad definidas en el diagrama se combinan con las audiencias de experiencia mediante la condición AND. Para participar en la actividad, un visitante debe cumplir los requisitos de la audiencia de la actividad y los requisitos de una de las audiencias de la experiencia.
-* Añada las mismas audiencias como segmentos para los informes. De este modo, se pueden ver los resultados de las pruebas tanto en el nivel superior de experiencia, A comparado con B, como en el nivel inferior de experiencia, A comparado con B solo en el “idioma de navegador ja_JP”. Esto solo funciona para los informes de Target, no para los de Analytics.
+* Añada las mismas audiencias como segmentos para los informes. Esto le ayuda a ver los resultados de las pruebas en el nivel superior de experiencia, A frente a B, y en el nivel inferior de experiencia, A frente a B solo para &quot;idioma del explorador ja_JP&quot;. Esto solo funciona para [!DNL Target]informes basados en, no [!DNL Analytics]Informes basados en.

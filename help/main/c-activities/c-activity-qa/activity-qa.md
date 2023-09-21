@@ -4,10 +4,10 @@ description: Aprenda a utilizar el Adobe [!DNL Target] URL de control de calidad
 title: ¿Cómo realizo actividades de control de calidad?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
+source-git-commit: 9fc17a3d3c0b9f5b07abcd7583e61e7931a040cd
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -69,7 +69,7 @@ Uso de URL de QA en [!DNL Adobe Target] para realizar sencillos controles de cal
 
   `https://www.mysite.com/?at_preview_token=`
 
-* **[!DNL Adobe Experience Platform Web SDK]**: Si el sitio tiene el [[!UICONTROL SDK web de Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} implementado, puede forzar la salida manual cargando una página en su sitio con el `at_qa_mode` parámetro con un valor vacío. Por ejemplo,
+* **[!DNL Adobe Experience Platform Web SDK]**: Si el sitio tiene el [[!UICONTROL SDK web de Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank} implementado, puede forzar la salida manual cargando una página en su sitio con el `at_qa_mode` parámetro con un valor vacío. Por ejemplo,
 
   `https://www.mysite.com/?at_qa_mode=`
 
@@ -111,7 +111,7 @@ Uso de URL de QA en [!DNL Adobe Target] para realizar sencillos controles de cal
 
 * [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 * [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
+* [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es)
 
 La siguiente tabla enumera los distintos tipos de actividades e indica si [!UICONTROL Control de calidad de actividad] El modo es compatible con cada biblioteca:
 
@@ -124,4 +124,3 @@ La siguiente tabla enumera los distintos tipos de actividades e indica si [!UICO
 | [!UICONTROL Segmentación de experiencias] (XT) | Sí | Sí | Sí |
 | [!UICONTROL Prueba multivariada] (MVT) | Sí | Sí | Sí |
 | [!UICONTROL Recommendations] | Sí | Sí | Sí |
-

@@ -1,30 +1,30 @@
 ---
-keywords: estimador de tráfico;personalización automatizada;ap;estimar tráfico;segmentación automática
-description: Usar el Adobe [!DNL Target] Estimador de tráfico para determinar si tiene tráfico suficiente para que la actividad de Automated Personalization se realice correctamente.
-title: ¿Cuánto tráfico se necesita para que la actividad tenga éxito?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+keywords: estimador de tráfico;personalización automatizada;ap;estimar tráfico
+description: Utilice el [!DNL Adobe Target] [!UICONTROL Estimador de tráfico] para determinar si tiene tráfico suficiente para su [!UICONTROL Automated Personalization] actividad para realizar correctamente.
+title: La cantidad de tráfico necesario para un [!UICONTROL Automated Personalization] ¿Actividad?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 13%
+source-wordcount: '779'
+ht-degree: 10%
 
 ---
 
 # Calcular el tráfico necesario para realizar una prueba con éxito
 
-El [!DNL Adobe Target] [!UICONTROL Estimador de tráfico] proporciona comentarios que le permiten saber si tiene tráfico suficiente para su [!UICONTROL Automated Personalization] actividad para realizar correctamente.
+El [!DNL Adobe Target] [!UICONTROL Estimador de tráfico] proporciona comentarios que le permiten saber si tiene tráfico suficiente para su [!UICONTROL Automated Personalization] La actividad (AP) debe realizarse correctamente.
 
-Debido a un [!UICONTROL Automated Personalization] La actividad de utiliza varias combinaciones de ofertas, es importante saber cuánto tráfico se requiere para proporcionar resultados significativos. El [!UICONTROL Estimador de tráfico] utiliza estadísticas sobre su página y el número de experiencias que se están probando para estimar la cantidad de tráfico y la duración de la prueba necesaria para que la actividad tenga éxito.
+Porque [!UICONTROL Automated Personalization] Las actividades de utilizan varias combinaciones de ofertas, por lo que es importante saber cuánto tráfico se requiere para proporcionar resultados significativos. El [!UICONTROL Estimador de tráfico] utiliza estadísticas sobre su página y el número de experiencias que se están probando para estimar la cantidad de tráfico y la duración de la prueba necesaria para que la actividad tenga éxito.
 
 El [!UICONTROL Estimador de tráfico] determina si hay tráfico suficiente para generar modelos personalizados comparando las impresiones de página estimadas y la tasa de conversión típica de las páginas. Para lograr una actividad con éxito, lo ideal es que el tamaño de muestra correcto garantice que el contenido personalizado esté listo dentro del 50 % de la duración de la actividad o en 14 días, lo que sea menos. Este proceso permite tiempo suficiente para obtener contenido personalizado y aprender qué contenido entregar.
 
-Recuerde que [!DNL Target] proporciona experiencias de forma aleatoria hasta que se crean los algoritmos de personalización. El icono de marca de verificación junto a cada oferta muestra cuándo el modelo de esa oferta está listo y [!DNL Target] puede empezar a enviar contenido personalizado. Ya que se espera un alza solo después de que los modelos estén listos, la indicación visual permite establecer la expectativa adecuada. Utilice el [!UICONTROL Estimador de tráfico] en el [!UICONTROL Compositor de experiencias visuales] (VEC) para obtener una guía de cuándo están listos los modelos.
+Recuerde que [!DNL Target] proporciona experiencias de forma aleatoria hasta que se crean los algoritmos de personalización. El icono de marca de verificación junto a cada oferta muestra cuándo el modelo de esa oferta está listo y [!DNL Target] puede empezar a enviar contenido personalizado. Dado que el alza solo se espera después de que los modelos estén listos, la indicación visual le permite establecer la expectativa correcta. Utilice el [!UICONTROL Estimador de tráfico] en el [!UICONTROL Compositor de experiencias visuales] (VEC) para obtener una guía de cuándo están listos los modelos.
 
 ## Uso del estimador de tráfico
 
-1. Desde el [!UICONTROL Compositor de experiencias visuales], haga clic en **[!UICONTROL Tráfico]**.
+1. Desde el [!UICONTROL Experiencias] página de la [!UICONTROL Compositor de experiencias visuales] en un [!UICONTROL Automated Personalization] actividad, haga clic en  **[!UICONTROL Tráfico]** icono.
 
    ![Icono de tráfico](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 

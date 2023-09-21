@@ -1,40 +1,40 @@
 ---
 keywords: Segmentación;analytics;servidor de seguimiento;analytics for target;a4t
-description: Obtenga información sobre cómo configurar una actividad en Adobe [!DNL Target] para usar Adobe Analytics como fuente de informes. Esta integración se denomina Analytics for [!DNL Target] (A4T).
-title: ¿Cómo se puede usar los datos de Analytics en Target?
+description: Obtenga información sobre cómo configurar una actividad en [!DNL Adobe Target] para utilizar [!DNL Adobe Analytics] como fuente de informes (A4T).
+title: ¿Cómo puedo usar [!DNL Analytics] Datos en [!DNL Target]?
 feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 8682c24cf1740171dd2ce1862b3bdce1e2082869
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 80%
+source-wordcount: '498'
+ht-degree: 19%
 
 ---
 
-# Usar datos de Analytics
+# Uso de [!DNL Adobe Analytics] datos
 
 Puede configurar una actividad en [!DNL Adobe Target] para utilizar [!DNL Adobe Analytics] como fuente de informes (A4T).
 
-Para obtener información detallada sobre la configuración de Analytics como fuente de datos para Target, consulte [Adobe Analytics como fuente de informes para Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+Para obtener información detallada sobre la configuración de [!DNL Analytics] como fuente de datos para [!DNL Target], consulte [Adobe Analytics como fuente de informes para Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-Antes de configurar una actividad que use Analytics como fuente de informes, establezca el objetivo de la actividad, como mejorar los ingresos por visitante (RPV) o aumentar los clics en el carro de compras. Seleccione una métrica de éxito final para la campaña. Aunque puede seleccionar métricas adicionales en cualquier momento en Analytics, es necesario que especifique una métrica en particular en torno a la cual desea que gire la prueba.
-
->[!NOTE]
->
->La opción Adobe Analytics está disponible si ha vinculado su cuenta de Adobe Experience Cloud con Analytics y Target aunque no haya configurado la integración entre Target y Analytics en la cuenta.
-
-Si selecciona Analytics como fuente de informes para Target, debe seleccionar también un grupo de informes de Analytics en el que recibir los datos de la actividad en Target. Para ello, elija primero una de las empresas de Analytics a la que esté asociada su cuenta y, a continuación, seleccione el grupo de informes adecuado para la actividad. Solo se podrán seleccionar los grupos de informes que estén aprovisionados para conectarse a Adobe Target. Si no ve los grupos de informes previstos, cierre la sesión y vuelva a iniciarla en Adobe Experience Cloud para probar de nuevo. Si aún no aparece el grupo de informes en la lista, póngase en contacto con el Servicio de atención al cliente.
-
-Analytics for Target requiere un servidor de seguimiento para registrar los resultados correctamente. En el campo Servidor de seguimiento, aparecerá un servidor de seguimiento predeterminado. Si usa más de un servidor de seguimiento, debe asegurarse de incluir el servidor correcto en este campo. Consulte [Usar un servidor de seguimiento de Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obtener más información.
+Antes de configurar una actividad que utiliza [!DNL Analytics] como fuente de informes, establezca el objetivo de la actividad (por ejemplo, mejorar los ingresos por visitante (RPV) o aumentar los clics en el carro de compras). Seleccione una métrica de éxito final para la actividad. Aunque puede seleccionar métricas adicionales en cualquier momento en [!DNL Analytics]No obstante, debe especificar una métrica concreta a la que espere que afecte esta prueba.
 
 >[!NOTE]
 >
->Si utiliza Adobe Analytics como fuente de informes de la actividad, no es necesario que especifique un servidor de seguimiento durante la creación de la actividad en la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
+>El [!DNL Adobe Analytics] La opción está disponible si ha vinculado su [!DNL Adobe Experience Cloud] cuenta con ambos [!DNL Analytics] y [!DNL Target], incluso si la integración entre [!DNL Target] y [!DNL Analytics] no se ha configurado para su cuenta.
 
-Cuando se configura una actividad después de establecer Analytics como fuente de informes, ya no se pueden configurar audiencias para los informes. Los segmentos de Analytics se encuentran disponibles en el informe Actividades de Target.
+Al seleccionar [!DNL Analytics] como fuente de informes para [!DNL Target], seleccione una [!DNL Analytics] grupo de informes que recibir [!DNL Target] datos de actividad. Para especificar una fuente de informes, elija primero una de las siguientes opciones [!DNL Analytics] asocia su cuenta a y, a continuación, selecciona el grupo de informes correspondiente a la actividad. Solo los grupos de informes que estén aprovisionados para conectarse a [!DNL Adobe Target] están disponibles para su selección. Si no ve el grupo de informes que espera, primero cierre la sesión y vuelva a iniciarla en [!DNL Adobe Experience Cloud] para intentarlo de nuevo. Si el grupo de informes sigue sin aparecer en la lista, póngase en contacto con el Servicio de atención al cliente.
 
-Debe seleccionar una métrica de éxito que se utilizará como objetivo en cada prueba. El objetivo de la prueba es la actividad de conversión que nos indica una campaña de éxito. La práctica recomendada es no ejecutar nunca una prueba sin tener como objetivo mejorar de una manera específica. Puede elegir cualquier métrica de Analytics disponible en el selector de métricas de Analytics.
+[!UICONTROL Analytics for Target] (A4T) requiere un servidor de seguimiento para informar correctamente de los resultados. Aparece un servidor de seguimiento predeterminado en la [!UICONTROL Servidor de seguimiento] field. Si utiliza más de un servidor de seguimiento, asegúrese de incluir el servidor de seguimiento correcto en este campo. Consulte [Uso de un servidor de seguimiento de Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obtener más información.
+
+>[!NOTE]
+>
+>Si utiliza [!DNL Adobe Analytics] como fuente de informes de la actividad, no es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
+
+Al configurar una actividad después de configurarla [!DNL Analytics] como fuente de informes, no hay opción de configurar audiencias para los informes. [!DNL Analytics] Los segmentos de están disponibles en [!DNL Target] [!UICONTROL Actividades] informe.
+
+Debe seleccionar una métrica de éxito para utilizarla como objetivo para cada actividad. El objetivo de actividad es la actividad de conversión que indica que una actividad ha tenido éxito. La práctica recomendada es no ejecutar nunca una prueba sin tener como objetivo mejorar de una manera específica. Puede elegir cualquier [!DNL Analytics] métrica disponible en el [!DNL Analytics] selector de métricas.
 
 El hecho de definir un objetivo no significa que no se pueda utilizar otra métrica al evaluar los resultados de la prueba. Por el contrario, el objetivo es un recordatorio del aspecto que se desea mejorar con la prueba.
 
-Una vez que un visitante consigue el objetivo, ya no se le vuelve a incluir en la campaña. Si el visitante volviera a incluirse en la campaña después de haber completado una actividad, se le contabilizará como nuevo visitante.
+Una vez que un visitante completa su objetivo, ese visitante ya no se incluye en la actividad. Si el visitante vuelve a entrar en su actividad después de completar una actividad de, ese visitante se cuenta como un visitante nuevo.

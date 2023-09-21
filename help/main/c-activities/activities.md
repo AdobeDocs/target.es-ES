@@ -1,13 +1,13 @@
 ---
 keywords: actividades;actividades;tipos de actividades;editar actividad;acciones de actividades;atributo de actividad;filtro de lista de actividades;limitaciones de actividades;personalizar;personalización;actividades
-description: Descubra cómo funcionan las actividades en Adobe [!DNL Target] le permite personalizar el contenido para audiencias específicas y probar los diseños de página
-title: ¿Cómo puedo personalizar el contenido y probar los diseños de página con Target?
+description: Descubra cómo funcionan las actividades en Adobe [!DNL Target] le permite personalizar el contenido para audiencias específicas y probar los diseños de página.
+title: ¿Cómo puedo personalizar el contenido y probar los diseños de página con [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 92%
+source-wordcount: '2465'
+ht-degree: 45%
 
 ---
 
@@ -17,64 +17,84 @@ Las actividades de [!DNL Adobe Target] le permiten personalizar el contenido par
 
 Por ejemplo, podría diseñar una actividad que pruebe dos páginas de aterrizaje diferentes: una que destaque información sobre calzado de verano de mujer y otra que destaque ropa de verano más general. La actividad determina las condiciones que controlan cuándo aparece cada una de estas páginas de aterrizaje y las métricas que determinan qué página tiene mayor éxito. La actividad está configurada para comenzar y finalizar cuando se cumplan unas condiciones específicas como, por ejemplo, entre fechas concretas o que comience cuando se apruebe la actividad y finalice cuando se desactive.
 
-Al diseñar una actividad, debería planificarla con mucho cuidado. Determine cuándo comenzará la actividad y la duración que tendrá. A continuación, enumere las ofertas y asigne una audiencia segmentada a cada una de ellas.
-
-## Tipos de actividades
-
-Target incluye varios tipos de actividades. En la tabla siguiente se proporciona una descripción general de cada tipo de actividad con vínculos para ayudarle a obtener más información. Para elegir mejor el mejor tipo de actividad, también hemos creado la [Guía de actividades de Adobe Target](/help/main/c-activities/target-activities-guide.md).
-
-| Tipo de actividad | Descripción |
-|--- |--- |
-| [Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md) | Una prueba A/B compara dos o más versiones del contenido de su sitio web para comprobar cuál mejora más las conversiones durante un periodo previamente establecido.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de prueba A/B](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de asignación automática](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | La segmentación automática utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación automática](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Uso de datos de Analytics](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Puede configurar una actividad para que use [!DNL Adobe Analytics] como fuente de informes. Para este tipo de actividad es necesario que vincule su cuenta de [!DNL Adobe Experience Cloud] con [!DNL Analytics] y [!DNL Target]. |
-| [Prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing (MVT o prueba multivariada) compara combinaciones de ofertas en elementos de una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica e identifica qué elemento tiene mayor impacto en el éxito de la actividad. |
-| [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) | Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación de experiencias](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | La Automated Personalization (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante en función de su perfil de cliente, con el fin de personalizar el contenido y dirigir las conversiones. |
-| [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![ Target Premium](/help/main/assets/premium.png) | Una recomendación determina el modo en que se sugiere un producto a un usuario del sitio web según las actividades que este realice en el sitio.<br>Por ejemplo, puede que quiera animar a los usuarios que compran una mochila a que consideren la opción de comprar botas y bastones de senderismo. Podría crear una recomendación que muestre artículos que a menudo se compran juntos, empleando el algoritmo “Otras personas que compraron esto también compraron aquello”. O puede que quiera animar a los visitantes a pasar más tiempo en su sitio multimedia mediante la recomendación de un vídeo similar al que están viendo, empleando el algoritmo “Otras personas que han visto esto también vieron aquello”.<br>**Nota:** Ahora puede incluir recomendaciones dentro de la prueba A/B (incluidas las actividades de asignación automática y segmentación automática) y actividades de segmentación de experiencias (XT). Consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+Al diseñar una actividad, debería planificarla con mucho cuidado. Determine cuándo se inicia la actividad y cuánto dura. A continuación, enumere las ofertas y asigne una audiencia segmentada a cada una de ellas.
 
 ## lista de actividades {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
-La lista [!UICONTROL Actividades] es la vista predeterminada al abrir [!DNL Target]. Desde esta página, puede crear nuevas actividades y administrar las actividades existentes.
+La lista [!UICONTROL Actividades] es la vista predeterminada al abrir [!DNL Target]. Puede crear actividades desde esta página y administrar las actividades existentes.
 
 También puede mostrar la lista [!UICONTROL Actividades] haciendo clic en la pestaña [!UICONTROL Actividades] en la parte superior de la [!DNL Target]interfaz de usuario.
 
-![lista de actividades](/help/main/c-activities/assets/activities-list.png)
+![lista de actividades](/help/main/c-activities/assets/activities-list-new.png)
 
-En la lista Actividades encontrará una descripción general de todas las actividades:
+El [!UICONTROL Actividades] proporciona una descripción general de todas las actividades y permite realizar varias acciones:
 
 | Elemento | Descripción |
 |--- |--- |
-| Tipo | El tipo de actividad, como A/B o MVT. |
-| Nombre | El nombre de la actividad. |
-| Dirección URL | La dirección URL aparece en el texto más claro debajo del nombre.<br>La dirección URL de la actividad indica dónde se muestra la actividad. De este modo, se puede identificar rápidamente una actividad y determinar si ya se está realizando una prueba en una página en particular.<br>Si se realiza una prueba en varias direcciones URL, se indica mediante un vínculo cuántas direcciones URL más se están usando. Haga clic en el vínculo para ver la lista completa de direcciones URL de esa actividad.<br>Puede buscar según la dirección URL. Utilice la lista desplegable situada junto al cuadro de búsqueda y seleccione [!UICONTROL Buscar URL]. |
-| Estado | Las actividades pueden tener uno de los estados siguientes:<ul><li>**Activa:** la actividad está ejecutándose.</li><li>**Borrador:** se ha iniciado la configuración de la actividad, pero aún no está lista para ejecutarse.</li><li>**Programada:** la actividad está preparada para activarse en la fecha y hora de inicio especificadas.</li><li>**Inactiva:** la actividad se ha pausado o desactivado.</li><li>**Sincronizando**: la actividad se ha guardado y se está sincronizando con la red de entrega de Target.</li><li>**Completada**: se han alcanzado la fecha y hora de finalización especificadas para la actividad y esta ya no se sirve.</li><li>**Archivada**: se archivó la actividad. Puede activar una actividad archivada para volver a usarla.</li></ul>**Nota:** Cuando se realizan determinadas acciones (por ejemplo, activar una actividad fuera de la interfaz de usuario empleando métodos API), los cambios pueden tardar hasta 10 minutos en propagarse a la IU. |
-| Fuente | Muestra dónde se creó la actividad:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager.  (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
-| Opción de toma de decisiones en el dispositivo | Después de crear una actividad que cumple los requisitos para la toma de decisiones en el dispositivo, se puede ver una etiqueta que dice Apto para la toma de decisiones en el dispositivo en la página Información general de la actividad.<br>Esta etiqueta no significa que la actividad siempre se entregue mediante la toma de decisiones en el dispositivo. Solo cuando at.js 2.5.0+ esté configurado para utilizar la toma de decisiones en el dispositivo se ejecutará esta actividad en el dispositivo. Si at.js 2.5.0+ no está configurado para utilizar en el dispositivo, esta actividad se entregará a través de una llamada al servidor realizada desde at.js.<br>Consulte [Decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank}. |
-| Propiedad | Muestra la [propiedad](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) de la actividad. |
-| Alza estimada en ingresos | Muestra el aumento previsto en ingresos si el 100 % de la audiencia ve la experiencia ganadora.<br>Se calcula utilizando la fórmula siguiente:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br> el número resultante se redondea a un decimal, como máximo, si la forma corta tiene un solo dígito antes del decimal. Por ejemplo: 1,6 millones de dólares, 60 mil dólares, 900 dólares, 8500 dólares, 205 mil dólares<br> En esta columna se muestra “---” para las actividades que no tienen datos suficientes para convocar un concurso ganador o que no tienen una previsión del coste.Para obtener más información, <br>consulte [Alza estimada en ingresos](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
-| Última actualización | La fecha y el autor de la última actualización de la actividad. |
+| Carril de navegación izquierdo | Cambie entre las actividades guardadas o activas y las fallidas o [actividades de borrador](/help/main/c-activities/edit-activity.md). |
+| [!UICONTROL Mostrar filtros] icono<P>![Mostrar icono de filtros](/help/main/c-activities/assets/show-filters-icon.png) | Acceder a filtros haciendo clic en **[!UICONTROL Mostrar filtros]** cerca de la parte superior de la lista.<P>Para obtener más información, consulte [Aplicar filtros a la lista Actividades](#filters) más abajo. |
+| Cuadro de búsqueda | Busque rápidamente una actividad o reduzca el número de actividades que se muestran en la [!UICONTROL Actividad] lista. Puede buscar por [!UICONTROL Nombre], [!UICONTROL URL], o [!UICONTROL ID]. |
+| [!UICONTROL Crear actividad] | Cree una actividad. Para obtener más información sobre la creación de los distintos tipos de actividades, consulte: <ul><li>[Crear una prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[Creación de una actividad de asignación automática](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[Creación de una actividad de segmentación automática](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[Cree una actividad de Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[Crear una actividad de segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[Crear una prueba multivariable](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[Crear una actividad de Recommendations](/help/main/c-recommendations/recommendations.md)</li></ul>Para obtener más información sobre cada tipo, consulte [Tipos de actividades](#types) más abajo. |
+| [!UICONTROL Crear vínculo de vista previa para móviles]<P>![Menú Más acciones](/help/main/c-activities/assets/icon-create-mobile-link.png) | Uso [vínculos de vista previa para móviles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=es) para realizar sencillos controles de calidad integrales para actividades de aplicaciones móviles.<P>Haga clic en **Más opciones** (los puntos suspensivos verticales), seleccione el icono **Crear vínculo de vista previa para móviles** y, a continuación, elija las actividades que desea probar en dispositivos móviles. |
+| Personalizar tabla<P>![Icono Personalizar tabla](/help/main/c-activities/assets/icon-customize-table.png) | Cambiar qué columnas se muestran en la [!UICONTROL Actividad] haciendo clic en el icono **[!UICONTROL Personalizar tabla]** en la parte superior derecha de la tabla y, a continuación, seleccione o anule la selección de las columnas deseadas.<P>Los cambios se aplican a su cuenta y permanecen activos incluso después de cerrar sesión en [!DNL Target]. |
+| Casillas de verificación de operaciones masivas | Realizar operaciones masivas en todas las actividades o en las actividades seleccionadas.<P>Para obtener una lista de las acciones disponibles (en función de los permisos y el estado de la actividad), consulte [Realizar acciones rápidas](#quick-actions) más abajo. |
+| [!UICONTROL Tipo] | El tipo de actividad. El [!UICONTROL Tipo] permite identificar rápidamente cada actividad por tipo. <ul><li>AB-M: manual [!UICONTROL Prueba A/B]</li><li>AB-AA: [!UICONTROL Asignación automática]</li><li>AB-AT: [!UICONTROL Segmentación automática]</li><li>AP: [!UICONTROL Automated Personalization]</li><li>XT: [!UICONTROL Segmentación de experiencias]</li><li>MVT: [!UICONTROL Prueba multivariable]</li><li>GRABAR: [!UICONTROL Recommendations]</li></ul>Para obtener más información sobre cada tipo, consulte [Tipos de actividades](#types) más abajo. |
+| [!UICONTROL Nombre] | El nombre de la actividad. Haga clic en el nombre de una actividad para mostrar el [!UICONTROL Información general] página. <P>Haga clic en **[!UICONTROL Información rápida]** junto al nombre de cada actividad para ver más información sobre esa actividad en una tarjeta emergente.<p>Haga clic en **[!UICONTROL Más acciones]** (los puntos suspensivos horizontales) junto al nombre de cada actividad para abrir un menú que le permita realizar acciones rápidas en una actividad. Las siguientes acciones están disponibles (según los permisos y el estado de la actividad): [!UICONTROL Editar], [!UICONTROL Activar], [!UICONTROL Desactivar], [!UICONTROL Copiar], [!UICONTROL Eliminar], y [!UICONTROL Archivar]. Para obtener más información sobre cada acción, consulte [Realizar acciones rápidas](#quick-actions) más abajo.<P>Haga clic en el encabezado de la tabla para ordenar la lista alfabéticamente en orden ascendente o descendente por nombre. |
+| [!UICONTROL Estado] | Las actividades pueden tener uno de los estados siguientes:<ul><li>**Activa:** la actividad está ejecutándose.</li><li>**Borrador**: se ha iniciado la configuración de la actividad, pero la actividad se encuentra en [modo borrador](/help/main/c-activities/edit-activity.md) y aún no está listo para ejecutarse.</li><li>**Programada:** la actividad está preparada para activarse en la fecha y hora de inicio especificadas.</li><li>**Inactiva:** la actividad se ha pausado o desactivado.</li><li>**Sincronizando**[!DNL Target]: la actividad se ha guardado y se está sincronizando con la red de entrega de </li><li>**Finalizado**: se han alcanzado la fecha y hora de finalización especificadas para la actividad y esta ya no se sirve.</li><li>**Archivada**: se archivó la actividad. Puede activar una actividad archivada para volver a usarla.</li></ul>**Nota:**[!DNL Target] Cuando se realizan determinadas acciones (por ejemplo, activar una actividad fuera de la interfaz de usuario empleando métodos API), los cambios pueden tardar hasta 10 minutos en propagarse a la IU.[!DNL Target] |
+| [!UICONTROL Última actualización] | La fecha y hora en que se actualizó la actividad por última vez y quién la actualizó.<P>Haga clic en el encabezado de la tabla para ordenar la lista en orden ascendente o descendente por fecha. |
+| [!UICONTROL Prioridad] | La prioridad de la actividad.<P>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<P>En función de su [configuración](/help/main/administrating-target/reporting.md), el [!DNL Target] IU y opciones de [!UICONTROL Prioridad] variar. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. |
+| [!UICONTROL Propiedad] | Muestra la [propiedad](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) de la actividad.<P>Los permisos de usuario de Enterprise son un [Target Premium](/help/main/c-intro/intro.md#premium) función. |
+| [!UICONTROL Alza estimada en ingresos] | Muestra el aumento previsto en ingresos si el 100 % de la audiencia ve la experiencia ganadora.<P>Se calcula mediante la fórmula siguiente:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>El número se redondea con un decimal como máximo si la forma condensada tiene un solo dígito antes del decimal. Por ejemplo: 1,6 millones de dólares, 60 000 dólares, 900 dólares, 8500 dólares, 205 000 dólares<P>En esta columna se muestra &quot;---&quot; para las actividades que no tienen datos suficientes para convocar un concurso ganador o que no tienen una previsión del coste.<P>Para obtener más información, consulte [Alza estimada en ingresos](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
+| [!UICONTROL Fuente] | Muestra dónde se creó la actividad: [!DNL Adobe Target], [API de Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html), o [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
+| [!UICONTROL Ubicación] | La dirección URL de la actividad indica dónde se muestra la actividad. Esta columna le ayuda a identificar rápidamente una actividad y determinar si una página en particular ya tiene una actividad en ejecución.<P>Si una actividad se ejecuta en varias direcciones URL, se indica mediante un vínculo cuántas direcciones URL más se están utilizando. Haga clic en el vínculo para ver la lista completa de direcciones URL de esa actividad.<P>Puede buscar según la dirección URL. Utilice la lista desplegable situada junto al cuadro de búsqueda y seleccione [!UICONTROL URL]. |
+| Autor | El nombre de la persona que creó la actividad. |
+| [!UICONTROL Método de toma de decisiones] | El método de toma de decisiones utilizado en cada actividad: [Del Lado Del Servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=es) o [Lado del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html). |
 
-Desplace el cursor sobre una actividad para ver las acciones disponibles.
+## Tipos de actividades.  {#types}
 
-![Acciones de la lista de actividades](/help/main/c-activities/assets/activities_list_hover.png)
+[!DNL Target] incluye varios tipos de actividades. En la tabla siguiente se proporciona una descripción general de cada tipo de actividad con vínculos para ayudarle a obtener más información. Para elegir mejor el mejor tipo de actividad, también hemos creado la [Guía de actividades de Adobe Target](/help/main/c-activities/target-activities-guide.md).
 
-Las siguientes acciones están disponibles (en función de sus permisos):
+| Tipo de actividad | Descripción |
+|--- |--- |
+| [Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md) | Las pruebas A/B comparan dos o más versiones del contenido de su sitio web para ver cuál mejora más las conversiones durante un período de prueba previamente establecido. |
+| [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | [!UICONTROL Asignación automática], un tipo de prueba A/B, identifica un ganador entre dos o más experiencias y le reasigna automáticamente a este más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo. |
+| [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<P>![Target Premium](/help/main/assets/premium.png) | La segmentación automática, un tipo de prueba A/B, utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing, y ofrece a cada visitante la experiencia más adaptada en función del perfil de cada cliente y del comportamiento de visitantes anteriores con perfiles similares, para personalizar el contenido y dirigir las conversiones. |
+| [Prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | [!UICONTROL Multivariate Testing] (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad. |
+| [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) | [!UICONTROL Segmentación de experiencias] (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing. |
+| [Personalización automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<P>![Target Premium](/help/main/assets/premium.png) | [!UICONTROL Automated Personalization] (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante en función de su perfil de cliente, personalizar el contenido y dirigir las conversiones. |
+| [Recommendations](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | Una recomendación determina el modo en que se sugiere un producto al visitante de un sitio web según las actividades que este realice en el sitio.<P>Por ejemplo, puede que quiera animar a los usuarios que compran una mochila a que consideren la opción de comprar botas y bastones de senderismo. Podría crear una recomendación que muestre artículos que a menudo se compran juntos, empleando el algoritmo “Otras personas que compraron esto también compraron aquello”. O puede que quiera animar a los visitantes a pasar más tiempo en su sitio multimedia mediante la recomendación de vídeos similares al vídeo que están viendo, empleando el algoritmo &quot;Otras personas que han visto esto también vieron aquello&quot;.<P>**NOTA**: También puede incluir recomendaciones dentro de [!UICONTROL Prueba A/B], [!UICONTROL Asignación automática], [!UICONTROL Segmentación automática], y [!UICONTROL Segmentación de experiencias] Actividades de (XT). Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
+
+## Aplicar filtros a la lista Actividades {#filters}
+
+Acceder a filtros haciendo clic en **[!UICONTROL Mostrar filtros]** cerca de la parte superior de la lista.
+
+![Opciones de filtro](/help/main/c-activities/assets/show-filters-options.png)
+
+El menú permite filtrar las actividades según los atributos siguientes: |Detalles|de atributo| | — | — | |[!UICONTROL Tipo]|Filtrar por [tipo de actividad](#types).| |[!UICONTROL Estado]|Filtrar por estado de actividad.| |[!UICONTROL Fuente de informes]|Filtrar por fuente de informes.<ul><li>[Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md): muestra las actividades que utilizan [!UICONTROL Analytics for Target] (A4T) como fuente de informes.</li><li>[Target](/help/main/c-reports/reports.md): muestra las actividades que utilizan [!DNL Target] como fuente de informes.</li></ul>| |[!UICONTROL Compositor de experiencias]|Filtro con el que se ha utilizado el compositor de experiencias durante la creación de la actividad:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): Muestra las actividades creadas con el [!UICONTROL Compositor de experiencias visuales] (VEC).</li><li>[Basado en formulario](/help/main/c-experiences/form-experience-composer.md): muestra las actividades creadas con el [!UICONTROL Compositor de experiencias basadas en formularios].</li></ul>| |[!UICONTROL Tipo de métrica]|Filtro por el que [métrica de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md) se eligió durante la creación de la actividad.<ul><li>Conversión</li><li>Ingresos</li><li>Participación</li></ul>| |[!UICONTROL Método de toma de decisiones]|Filtre por el método de toma de decisiones utilizado en cada actividad<ul><li>[Del Lado Del Servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=es): muestra las actividades que utilizan la toma de decisiones del lado del servidor.</li><li>[Lado del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): muestra las actividades que utilizan la toma de decisiones del lado del cliente.</li></ul>| |[!UICONTROL Origen de actividad]|Filtre por el origen de actividad utilizado para crear cada actividad.<ul><li>[!DNL Adobe Target]</li><li>[API de Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)</li><li>[Adobe Experience Manager. ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[Servicios Adobe Mobile](https://developer.adobe.com/client-sdks/documentation/)</li></ul>| |[!UICONTROL Propiedad]|Filtrar por [propiedad](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) en el que se creó la actividad.|
+
+## Realizar acciones rápidas {#quick-actions}
+
+Haga clic en **[!UICONTROL Más acciones]** (los puntos suspensivos horizontales) junto al nombre de cada actividad para abrir un menú que le permita realizar acciones rápidas en una actividad.
+
+![Opciones de acciones rápidas](/help/main/c-activities/assets/quick-actions.png)
+
+Las siguientes acciones están disponibles (según los permisos y el estado de la actividad):
 
 | Acción | Descripción |
 | --- | --- |
-| Editar | Cambia la actividad. Todas las actividades se pueden editar.<br>Para obtener más información sobre las distintas formas de editar actividades, consulte [Editar una actividad o guardarla como borrador](/help/main/c-activities/edit-activity.md). |
-| Desactivar | Detiene una actividad activa o programada. Las campañas desactivadas se pueden reactivar o archivar<br>Si desactiva o archiva una actividad y la reactiva más adelante, el visitante seguirá formando parte de esa actividad después de la reactivación, si estaba en ella antes de la desactivación o del archivado. No se atribuirá a esa actividad ninguna métrica de conversión registrada durante el tiempo entre los dos eventos. |
-| Activar | Inicia una actividad inactiva o preparada. |
-| Archivar | Enviar la actividad al archivo. De forma predeterminada, las actividades archivadas se dejan de incluir en la lista de actividades. Si quiere verlas, cambie el filtro de la lista de actividades para que se incluyan. Puede activar una actividad archivada para volver a usarla.<br>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en ella antes de la desactivación o del archivado. No se atribuirá a esa actividad ninguna métrica de conversión registrada durante el tiempo entre los dos eventos. |
-| Copiar | Copia una actividad. Se pueden copiar todas las actividades. Al copiar una actividad, se crea una nueva actividad con el mismo nombre y se anexa el texto “copia”. Por ejemplo, una prueba llamada “Ofertas de navegador” se copiará en “Ofertas de navegador copia”.<br>Las ofertas visuales se copian con la actividad. Puede editar las ofertas de forma segura en la copia sin que la actividad original se vea afectada. La única excepción son las imágenes y las ofertas guardadas en la carpeta Contenido/Recursos. |
-| Eliminar | Eliminar un borrador o una actividad.<BR>**NOTA**: Las actividades eliminadas no se pueden recuperar. A menos que esté absolutamente seguro de que nunca necesitará esta actividad, utilice la acción [!UICONTROL Archivar]. A continuación, puede reactivar la actividad si es necesario. |
+| [!UICONTROL Editar  ] | Cambia la actividad. Todas las actividades se pueden editar.<P>Para obtener más información sobre las distintas formas de editar actividades, consulte [Editar una actividad o guardarla como borrador](/help/main/c-activities/edit-activity.md). |
+| [!UICONTROL Desactivar] | Detiene una actividad activa o programada. Una actividad desactivada se puede reactivar o archivar.<P>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en ella antes de la desactivación o del archivado. No se atribuirá a esa actividad ninguna métrica de conversión registrada durante el tiempo entre los dos eventos. |
+| [!UICONTROL Activar] | Inicie una actividad inactiva o una actividad que esté lista para activarse. |
+| [!UICONTROL Archivar] | Enviar la actividad al archivo. De forma predeterminada, las actividades archivadas ya no aparecen en [!UICONTROL Actividades] lista. Si quiere verlas, cambie el filtro de la lista de actividades para que se incluyan. Puede activar una actividad archivada para volver a usarla.<P>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en esa actividad antes de la desactivación o del archivado. No se atribuirá a esa actividad ninguna métrica de conversión registrada durante el tiempo entre los dos eventos. |
+| [!UICONTROL Copiar] | Copia una actividad. Se pueden copiar todas las actividades. Al copiar una actividad, se crea una nueva actividad con el mismo nombre y se anexa el texto “copia”. Por ejemplo, una prueba llamada “Ofertas de navegador” se copiará en “Ofertas de navegador copia”.<P>Las ofertas visuales se copian con la actividad. Puede editar las ofertas de forma segura en la copia sin que la actividad original se vea afectada. La única excepción son las imágenes y las ofertas guardadas en la carpeta Contenido/Recursos. |
+| [!UICONTROL Eliminar] | Eliminar un borrador o una actividad.<P>**NOTA**: Las actividades eliminadas no se pueden recuperar. A menos que esté seguro de que nunca necesitará esta actividad, utilice el [!UICONTROL Archivar] acción. A continuación, puede reactivar la actividad si es necesario. |
 
-Tenga en cuenta los detalles siguientes sobre la lista de Actividades:
+## Consideraciones
 
-* Las actividades archivadas y finalizadas no se incluyen en la lista [!UICONTROL Actividades]. Para verlas, fíltrelas con la configuración avanzada de filtrado del carril izquierdo.
-* En cuanto una actividad creada originalmente en [!DNL Target Classic] se desactiva o elimina, se elimina de [!DNL Target Standard/Premium]. Las actividades eliminadas creadas originalmente en [!DNL Target Classic] no se envían a la carpeta [!UICONTROL Archivo] de [!DNL Target Standard/Premium]. La funcionalidad de carpeta archivada se aplica solo a las actividades creadas en [!DNL Target Standard/Premium].
+Tenga en cuenta los siguientes detalles sobre [!UICONTROL Actividad] lista:
+
+* Las actividades archivadas y finalizadas no se incluyen en la lista [!UICONTROL Actividades]. Para ver estas actividades, filtre mediante la variable [Icono Filtros](#filters) al principio de la lista.
+* Cuando se cree una actividad originalmente en [!DNL Target Classic] se desactiva o elimina, y se elimina de [!DNL Target Standard/Premium]. Las actividades eliminadas creadas originalmente en [!DNL Target Classic] no se envían a la carpeta [!UICONTROL Archivo] de [!DNL Target Standard/Premium]. La funcionalidad de carpeta archivada se aplica solo a las actividades creadas en [!DNL Target Standard/Premium].
 * Todos los tipos de actividades que no son [!UICONTROL Personalización automatizada](AP), [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] le dan la opción de usar [!DNL Target] o [!DNL Adobe Analytics] como fuente de datos. [!UICONTROL La personalización automatizada], [!UICONTROL la asignación automática] y [!UICONTROL la segmentación automática] *siempre* utilizan datos de [!DNL Target].
 * Las actividades están disponibles en varios canales:
 
@@ -83,47 +103,6 @@ Tenga en cuenta los detalles siguientes sobre la lista de Actividades:
    * Correo electrónico y otros canales de adquisición o sitios de socios
    * Aplicaciones móviles
    * Cualquier otro sitio donde se pueda publicar contenido etiquetado
-
-## Organización y filtro de la lista de actividades {#section_41DAD479FFF740E2BB67BF4825955670}
-
-De manera predeterminada, la lista se ordena por la fecha de la última modificación de la actividad, con la más reciente al principio. Sin embargo, hay varias opciones de filtrado que le pueden ayudar a personalizar la lista para que se muestren las actividades que le interesa consultar.
-
-### Búsqueda {#search-heading}
-
-Utilice el campo de búsqueda para buscar las actividades que cumplen sus criterios de búsqueda.
-
-![Búsqueda de actividades](/help/main/c-activities/assets/activities_search_new.png)
-
-El campo de búsqueda incluye un menú desplegable para ayudarle a limitar la búsqueda. Solo tiene que especificar uno de los siguientes filtros de búsqueda:  [!UICONTROL Nombre de la actividad] y [!UICONTROL URL].
-
-### Filtros de la lista de actividades
-
-Puede seleccionar filtros de la lista de actividades para determinar qué actividades aparecen en la lista.
-
-![Filtro de las actividades por tipo](/help/main/c-activities/assets/activities_filters_new.png)
-
-Se puede filtrar por las siguientes opciones. En cada categoría, si no hay nada seleccionado, el valor predeterminado es Todos.
-
-| Categoría de filtro | Filtro |
-|--- |--- |
-| Tipo | Prueba A/B: [manual](/help/main/c-activities/t-test-ab/test-ab.md), [asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) y [segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md).<br>[Personalización automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>[Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md)<br>[Prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommendations](/help/main/c-recommendations/recommendations.md) |
-| Estado | Activa<br>Borrador<br>Programada<br>Inactiva<br>Sincronizando<br>Completada<br>Archivada |
-| Opción de toma de decisiones en el dispositivo | Sí<br>No |
-| Fuente de informes | Target<br>Analytics |
-| Compositor de experiencias | Visual<br>Basadas en formularios |
-| Tipo de métricas | Conversión<br>Ingreso<br>Participación |
-| Fuente de la actividad | Adobe Target<br>Adobe Target Classic<br>Adobe Experience Manager<br>Adobe Mobile Services |
-
-### Organización por atributo de actividad
-
-Haga clic en uno de los encabezados siguientes para cambiar si las actividades se muestran en orden ascendente o descendente, según el encabezado seleccionado.
-
-* Tipo
-* Nombre
-
-![Orden ascendente de la lista de actividades](/help/main/c-activities/assets/activities_list_ascending.png)
-
-![Deshabilitación de la sugerencia del día](/help/main/c-activities/assets/tip-disable-new.png)
 
 ## Limitaciones   {#section_049D4684403A4E07B998067EB8E9BE56}
 
@@ -135,37 +114,25 @@ Cada actividad de Target tiene las siguientes limitaciones de contenido:
 | Ofertas en cada experiencia | 350 |
 | Selectores de seguimiento de clics en métricas | 50 |
 | Mboxes en métricas | 50 |
-| Audiencias y ubicaciones | 50 La combinación de audiencias y ubicaciones (mbox) no debería superar el límite de 50. |
+| Audiencias y ubicaciones | 50 combinaciones de audiencias y ubicaciones (mbox) no deben superar el límite de 50. |
 
 La actividad no se puede guardar si supera alguno de estos límites.
 
-Si incrementa los números de estos artículos en su actividad, también se incrementa el tiempo que se tarda en sincronizar la actividad en Target.
+El aumento del número de estos elementos en la actividad también aumenta el tiempo que se tarda en sincronizar la actividad [!DNL Target].
 
-Para límites adicionales del Compositor de experiencias visuales, consulte [Limitaciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+Para límites adicionales de la V[!UICONTROL Compositor de experiencias visuales] VEC, consulte [Limitaciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 ## Atributos importados en [!DNL Target] para actividades actualizadas fuera de [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
-Si las actividades creadas en [!DNL Target] se actualizan desde fuera de [!DNL Target] (por ejemplo, mediante Adobe I/O), los siguientes atributos de actividad se importan de vuelta en [!DNL Target]:
+Si las actividades creadas en [!DNL Target] se actualizan desde fuera de [!DNL Target] (por ejemplo, mediante API), los siguientes atributos de actividad se importan de nuevo en [!DNL Target]: `thirdpartyId`, `startDate`, `endDate`, `status`, `priority`, y `marketingCloudMetadata(remoteModifiedBy)`.
 
-`thirdpartyId`
-
-`startDate`
-
-`endDate`
-
-`status`
-
-`priority`
-
-`marketingCloudMetadata(remoteModifiedBy)`
-
-Este trabajo de importación se ejecuta cuando se abre la página de actividades, con un retardo máximo de diez minutos. (KB-1526)
+Este trabajo de importación se ejecuta cuando se abre la página de actividades, con un retraso máximo de diez minutos.
 
 ## Vídeos de formación {#section_BE80D13A2E81460C885F902010E1AD87}
 
-Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
+El siguiente vídeo contiene más información sobre los conceptos mencionados en este artículo.
 
-### Tipos de actividades (9:03) ![Distintivo de información general](/help/main/assets/overview.png)
+### Tipos de actividad (9:03)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 

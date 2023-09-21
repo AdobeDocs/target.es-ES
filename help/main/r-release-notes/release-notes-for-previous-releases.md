@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '37233'
+source-wordcount: '37216'
 ht-degree: 96%
 
 ---
@@ -2933,10 +2933,6 @@ La versión Adobe Target Standard/Premium 16.5.1 (19 de mayo de 2016) incluye la
   <tr> 
    <td colname="col1"> Versiones de las experiencias </td> 
    <td colname="col2"> <p>Ahora, se pueden configurar versiones dirigidas a distintas audiencias dentro de las actividades A/B. </p> <p>Consulte <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local">Destino de una experiencia a varias audiencias</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Direcciones URL de control de calidad/vista previa </td> 
-   <td colname="col2"> <p>Las direcciones URL de vista previa ya están disponibles para el compositor de experiencias basado en formularios. </p> <p>Consulte <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">Ver direcciones URL de experiencias</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Algoritmos personalizados de Recommendations </td> 

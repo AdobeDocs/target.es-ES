@@ -1,13 +1,13 @@
 ---
 keywords: url de actividad;url;url diferente
-description: Obtenga información sobre cómo especificar la dirección URL de actividad que determina la página que se usa en la prueba y que se abre cuando esta se diseña con Adobe Target.
+description: Obtenga información sobre cómo especificar la dirección URL de actividad que determina la página que se usa en la prueba y que se abre cuando se diseña la prueba mediante [!DNL Adobe Target].
 title: ¿Qué es la URL de actividad en una actividad A/B?
 feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6bca763d24649349dbc7cdf6e5f2dbc4ac0a480d
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 73%
+source-wordcount: '316'
+ht-degree: 64%
 
 ---
 
@@ -23,31 +23,30 @@ Cuando se le pida durante la creación de la actividad, indique la dirección UR
 
 ## Especifique una dirección URL diferente
 
-De forma predeterminada, la variable [!UICONTROL Compositor de experiencias visuales] abre la página especificada en la [Configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md)
-. Puede especificar una página diferente durante la creación de la actividad.
+De forma predeterminada, la variable [!UICONTROL Compositor de experiencias visuales] abre la página especificada en la [Configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
 
-Para visualizar una página diferente tras abrir el [!UICONTROL Compositor de experiencias visuales], haga clic en el icono de engranaje **[!UICONTROL Configurar]** y, a continuación, seleccione **[!UICONTROL Publicación de página]**. Introduzca la URL en el campo URL de actividad.
+1. Para mostrar una página diferente después de [!UICONTROL Compositor de experiencias visuales] abre, en la **[!UICONTROL Experiencias]** , haga clic en **[!UICONTROL Configurar]** icono de engranaje y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
 
-![Cuadro de diálogo Entrega de páginas](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
+1. Especifique la dirección URL en la **[!UICONTROL URL]** field.
 
-Haga clic en **[!UICONTROL Agregar regla de plantilla]** para agregar más páginas o secciones a la actividad.
+   ![Cuadro de diálogo Entrega de páginas](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
-Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
+1. (Condicional) Haga clic en **[!UICONTROL Agregar regla de plantilla]** para agregar más páginas o secciones a la actividad.
 
-* Dirección URL
-* Dominio
-* Ruta
-* Fragmento hash (#)
-* Consulta
-* Parámetro de mbox
+   Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
 
-Se pueden unir reglas adicionales a la dirección URL de la actividad con Y u O. Todas las reglas que agregue se evalúan entre sí con Y.
+   * Dirección URL
+   * Dominio
+   * Ruta
+   * Fragmento hash (#)
+   * Consulta
+   * Parámetro de mbox
 
-Haga clic en **[!UICONTROL Guardar]** cuando haya finalizado.
+   Se pueden unir reglas adicionales a la dirección URL de la actividad con Y u O. Todas las reglas que agregue se evalúan entre sí con Y.
 
->[!NOTE]
->
->Si introduce una dirección URL de un sitio que no incluye el código estándar [!DNL Target] de JavaScript, no podrá seleccionar elementos de la página.
+1. Haga clic en **[!UICONTROL Guardar]** cuando haya finalizado.
+
+Si introduce una dirección URL de un sitio que no incluye el código estándar [!DNL Target] de JavaScript, no podrá seleccionar elementos de la página.
 
 De manera predeterminada, el [!UICONTROL compositor de experiencias visuales] no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar **[!UICONTROL Representar con JavaScript]** si quiere modificar estos elementos con el [!UICONTROL compositor de experiencias visuales].
 
