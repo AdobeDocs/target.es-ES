@@ -4,7 +4,7 @@ description: Aprenda a solucionar problemas que a veces se producen en el Adobe 
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias mejorado?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 42%
@@ -21,15 +21,15 @@ Esto se puede resolver mediante la inclusión en la lista de permitidos de las s
 
 Solicite a su equipo de TI que realice la lista de permitidos de las siguientes direcciones IP:
 
-* 34.253.100.20
-* 34.248.100.23
-* 52.49.228.246
-* 54.205.42.123
-* 107.22.177.39
-* 52.201.5.105
-* 52.193.211.177
-* 18.180.24.249
-* 52.194.154.154
+* 52.18.97.86
+* 52.209.31.20
+* 52.214.41.220
+* 54.144.66.225
+* 54.82.53.36
+* 34.206.104.26
+* 3.115.90.128
+* 18.178.137.67
+* 3.112.77.52
 
 Puede ver el siguiente mensaje de error en [!DNL Target]:
 
@@ -41,11 +41,11 @@ Lo que sigue son motivos por los que podría ver este mensaje de error y remedio
 
 * **Problema**[!UICONTROL : el dominio del sitio web (ISP) está bloqueando el Compositor de experiencias mejorado].
 
-   **Solución:** Lista de permitidos las direcciones IP enumeradas anteriormente.
+  **Solución:** Lista de permitidos las direcciones IP enumeradas anteriormente.
 
 * **Problema:** Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente utiliza la configuración predeterminada de 1.2. Antes de la [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admite TLS 1.0. Para obtener más información, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-   **Solución:**[!UICONTROL  vea la siguiente pregunta (El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio que usan TLS 1.2).]
+  **Solución:**[!UICONTROL  vea la siguiente pregunta (El Compositor de experiencias visuales mejorado no se carga en las páginas seguras en mi sitio que usan TLS 1.2).]
 
 ## El EEC no se carga en páginas seguras de mi sitio que utilizan TLS 1.0. (Solo EEC)   {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
