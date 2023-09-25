@@ -4,10 +4,10 @@ description: Descubra cómo funcionan las actividades en Adobe [!DNL Target] le 
 title: ¿Cómo puedo personalizar el contenido y probar los diseños de página con [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
+source-git-commit: 4b62017fe4dca61b5b05c7778f3a02cf446c17f7
 workflow-type: tm+mt
-source-wordcount: '2465'
-ht-degree: 45%
+source-wordcount: '2487'
+ht-degree: 44%
 
 ---
 
@@ -24,6 +24,11 @@ Al diseñar una actividad, debería planificarla con mucho cuidado. Determine cu
 La lista [!UICONTROL Actividades] es la vista predeterminada al abrir [!DNL Target]. Puede crear actividades desde esta página y administrar las actividades existentes.
 
 También puede mostrar la lista [!UICONTROL Actividades] haciendo clic en la pestaña [!UICONTROL Actividades] en la parte superior de la [!DNL Target]interfaz de usuario.
+
+>[!NOTE]
+>
+>La siguiente ilustración y tabla muestra la funcionalidad de la interfaz de usuario de la lista de actividades actualizada que se encuentra en la versión beta y que se lanzará próximamente.
+
 
 ![lista de actividades](/help/main/c-activities/assets/activities-list-new.png)
 
