@@ -7,9 +7,9 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -19,14 +19,14 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target] Standard/Premium 23.9.3 (18 de septiembre de 2023)
+## [!DNL Target] Standard/Premium 23.9.3 (18 de septiembre de 2023)
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha mejorado la [!UICONTROL Compositor de experiencias visuales] (VEC) para admitir Lightning Web Components (Light DOM). (TGT-45422)
-* Se ha corregido un problema que provocaba que las acciones del VEC se aplicaran en el orden incorrecto. En algunos casos, el VEC aplicaba algunas modificaciones de forma asíncrona y añadir modificaciones adicionales a un elemento provocaba errores si ese elemento se mostraba después de un [!UICONTROL Insertar] acción. También corrige la URL del VEC que ahora se actualiza al hacer clic en los vínculos de anclaje. (TGT-45983)
-* Se ha corregido un problema con el VEC [!UICONTROL Superposición] función, que ahora admite elementos en DOM sombreados. (TGT-45202 y TGT-45262)
-* SPA Se ha corregido un problema que se producía al abrir una página Aplicación de una sola página () en el VEC y, a continuación, ir a [!UICONTROL Examinar] El modo hacía que las flechas Atrás y Adelante no funcionaran correctamente. (TGT-45956)
+* Se ha mejorado el [!UICONTROL Compositor de experiencias visuales] (VEC) para admitir Lightning Web Components (Light DOM). (TGT-45422)
+* Se ha corregido un problema que provocaba que las acciones del VEC se aplicaran en el orden incorrecto. En algunos casos, el VEC aplicaba algunas modificaciones de forma asíncrona y al añadir modificaciones adicionales a un elemento se producían errores si ese elemento se mostraba después de una acción [!UICONTROL Insertar]. También corrige la URL del VEC que ahora se actualiza al hacer clic en los vínculos de anclaje. (TGT-45983)
+* Se ha corregido un problema con la función [!UICONTROL Superposición] del VEC, que ahora admite elementos en Shadow DOMs. (TGT-45202 y TGT-45262)
+* Se ha corregido un problema que se producía cuando al abrir una página de aplicación de una sola página (SPA) en el VEC y, a continuación, ir al modo [!UICONTROL Examinar] las flechas Atrás y Adelante no funcionaban correctamente. (TGT-45956)
 * Se ha corregido un problema que impedía que algunas páginas web se cargaran en el VEC. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (12-14 de septiembre de 2023)
