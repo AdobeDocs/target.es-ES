@@ -1,13 +1,13 @@
 ---
 keywords: mvt;prueba multivariable;ofertas;combinaciones
-description: Aprenda a utilizar el Compositor de experiencias visuales (VEC) en Adobe [!DNL Target] para crear las ofertas que desea incluir en la prueba multivariable (MVT).
-title: ¿Cómo se crean combinaciones en pruebas multivariable (MVT)?
+description: Aprenda a utilizar el [!UICONTROL Compositor de experiencias visuales] (VEC) en Adobe [!DNL Target] para crear las ofertas que desea incluir en su [!UICONTROL Prueba multivariable] (MVT).
+title: ¿Cómo se crean combinaciones en una? [!UICONTROL Prueba multivariable] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 88%
+source-wordcount: '509'
+ht-degree: 71%
 
 ---
 
@@ -31,7 +31,7 @@ Pruebe varias ofertas de imágenes en una ubicación para determinar qué imagen
 
    ![Opción Cambiar imagen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
-1. Seleccione todas las imágenes que quiera incluir en la prueba y haga clic en **[!UICONTROL Guardar]**.
+1. Seleccione todas las imágenes que desee incluir en la prueba y haga clic en **[!UICONTROL Guardar]**.
 
    ![Cuadro de diálogo Seleccionar contenido, utilizado para agregar imágenes](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
@@ -58,9 +58,9 @@ Cada oferta de texto/HTML se convierte en una experiencia independiente en esa u
 ## Prácticas recomendadas   {#section_2E98C23D2F1A460FA732A31799CE6291}
 
 * No incluya en la prueba más ubicaciones de las necesarias. Cada experiencia que incluya en la prueba aumenta considerablemente la cantidad de tráfico y el tiempo necesario para obtener resultados aceptables. Por ejemplo, si tiene elementos de página con tres ofertas cada uno, hay nueve combinaciones posibles (3x3). Cuando hay tres elementos, de los cuales dos contienen tres ofertas posibles y uno tiene dos ofertas, se generan 18 opciones (3x3x2). Los números aumentan considerablemente con cada elemento y oferta adicional.
-* Ahora, al crear pruebas multivariable, puede excluir más del 10 % de las experiencias de la prueba siempre y cuando tenga en cuenta la advertencia de utilizar la creación de informes sin conexión para el análisis.
+* Al crear pruebas multivariable, puede excluir más del 10 % de las experiencias de la prueba, siempre y cuando tenga en cuenta la advertencia de utilizar la creación de informes sin conexión para el análisis.
 * Aproveche las características de vista previa para evitar combinaciones de contenido no deseadas. Por ejemplo, es posible que tenga dos imágenes que ofrezcan descuentos distintos en el mismo artículo o servicio. Mostrar las dos imágenes en la misma página no sería lógico y es probable que genere confusión.
-* Utilice el Estimador de tráfico para asegurarse de que la prueba está diseñada para la cantidad de tráfico que recibe su página. Asegúrese de que el Estimador de tráfico aprueba la configuración de la prueba, para que pueda obtener los resultados que desea.
+* Utilice el [Estimador de tráfico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) para asegurarse de que la prueba está diseñada para la cantidad de tráfico que recibe su página. Asegúrese de que el Estimador de tráfico dé luz verde a la configuración de la prueba para que pueda obtener los resultados que desea.
 * Debe contar con un mínimo de tres elementos que probar. Si tiene menos, ejecute una serie de  pruebas A/B.
-* Es recomendable que las alternativas de cada elemento sean bastante diferentes entre sí.
+* Las alternativas de cada elemento deben ser significativamente diferentes entre sí.
 * Aunque no es necesario, es aconsejable que cada elemento tenga el mismo número de alternativas.

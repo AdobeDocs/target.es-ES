@@ -1,13 +1,13 @@
 ---
 keywords: Pruebas multivariable;URL de actividad
-description: Obtenga información sobre cómo especificar la dirección URL de actividad que determina la página que se usa en la prueba y que se abre cuando se diseña la actividad de prueba multivariable con Adobe Target.
-title: ¿Qué es la URL de actividad en una actividad multivariable (MVT)?
+description: Obtenga información sobre cómo especificar la dirección URL de la actividad que determina la página que se usa en la prueba y que se abre cuando la variable [!UICONTROL Prueba multivariable] la actividad está diseñada con [!DNL Adobe Target].
+title: ¿Qué es la URL de actividad en un? [!UICONTROL Prueba multivariable] ¿Actividad de (MVT)?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 70%
 
 ---
 
@@ -38,13 +38,13 @@ Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
 * Consulta
 * Parámetro
 
-Se pueden unir reglas adicionales a la dirección URL de la actividad con Y u O. Todas las reglas que agregue se evalúan entre sí con Y.
+Se pueden unir reglas adicionales a la dirección URL de la actividad con AND u OR. Todas las reglas que agregue se evalúan entre sí con AND.
 
 Haga clic en **[!UICONTROL Guardar]** cuando haya finalizado.
 
 >[!NOTE]
 >
->Si escribe una dirección URL de un sitio que no incluye el código de JavaScript de Target Standard, no podrá seleccionar elementos de página.
+>Si escribe una dirección URL de un sitio que no incluye el [!DNL Target] Código JavaScript, no se pueden seleccionar elementos de página.
 
 De manera predeterminada, el VEC no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar **[!UICONTROL Representar con JavaScript]** si quiere modificar estos elementos con el [!UICONTROL compositor de experiencias visuales].
 
