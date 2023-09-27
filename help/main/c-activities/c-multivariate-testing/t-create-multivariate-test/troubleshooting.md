@@ -1,28 +1,28 @@
 ---
 keywords: Pruebas multivariable;solucionar problemas;solución de problemas;mvt
-description: Explore los posibles desafíos a los que se podría enfrentar al usar actividades de prueba multivariable (MVT) en Adobe Target, junto con soluciones sugeridas.
-title: ¿Cómo puedo solucionar problemas de las pruebas multivariable?
+description: Explore los posibles desafíos a los que se podría enfrentar al utilizar [!UICONTROL Prueba multivariable] Actividades de (MVT) en [!DNL Adobe Target], junto con las soluciones sugeridas.
+title: ¿Cómo puedo solucionar problemas de un [!UICONTROL Prueba multivariable]?
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 42%
+source-wordcount: '174'
+ht-degree: 21%
 
 ---
 
-# Resolución de problemas de pruebas multivariada
+# Solucionar problemas [!UICONTROL Prueba multivariable] actividades
 
-Este tema contiene sugerencias para resolver algunos problemas que podrían producirse al diseñar un [!UICONTROL Multivariado] Prueba de (MVT) en [!DNL Adobe Target].
+Este artículo contiene sugerencias para resolver algunos problemas que podrían producirse al diseñar una [!UICONTROL Prueba multivariable] (MVT) en [!DNL Adobe Target].
 
 * Al editar una actividad, si ha utilizado [!DNL Analytics]Las métricas basadas en y el grupo de informes no se cargan (aparece el control de número). Cambie las métricas a. [!DNL Target] y, a continuación, cambie a [!DNL Analytics]métrica basada en. Ahora el grupo de informes debería cargarse.
 * Si realiza cambios en una prueba que ya se está ejecutando, puede restablecer la prueba y sus datos.
 
-   [!DNL Target] permite editar una actividad en directo. Tenga en cuenta que si modifica una actividad que se está publicando, podría restablecer la prueba y es posible que los informes no reconozcan algunos cambios.
+  [!DNL Target] permite editar una actividad en directo. Si edita una actividad en curso, se podría restablecer la prueba, por lo que los informes podrían no reconocer algunos de los cambios.
 
-   Puede realizar pequeños cambios con total seguridad, como por ejemplo, modificar ofertas de texto o de html.
+  Puede realizar pequeños cambios con total seguridad, como por ejemplo, modificar ofertas de texto o de html.
 
-   Estas son las acciones específicas que restablecen los informes y los nombres de experiencias:
+  Las acciones específicas que restablecen los nombres y los informes de las experiencias incluyen:
 
    * Añadir una nueva ubicación
    * Eliminar una ubicación
