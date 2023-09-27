@@ -1,25 +1,25 @@
 ---
 keywords: prueba multivariable;mvt;planificación de mvt;planificar prueba multivariable
-description: Obtenga información sobre cómo planificar pruebas multivariable en Adobe [!DNL Target] para poder crear una prueba de éxito.
-title: ¿Cómo planifico una prueba multivariable?
+description: Obtenga información sobre cómo planificar una [!UICONTROL Prueba multivariable] in [!DNL Adobe Target] para poder crear una prueba de éxito.
+title: ¿Cómo planifico una [!UICONTROL Prueba multivariable]?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 92%
+source-wordcount: '293'
+ht-degree: 65%
 
 ---
 
-# Planificar una prueba multivariable
+# Planificar una [!UICONTROL Prueba multivariable]
 
-Con las [!UICONTROL pruebas multivariadas] (MVT) en [!DNL Adobe Target] se requiere cierta planificación para poder crear una prueba con resultados satisfactorios.
+[!UICONTROL Pruebas multivariable] Actividades de (MVT) en [!DNL Adobe Target] es necesario realizar alguna planificación para poder crear una prueba de éxito.
 
-Las MVT deben disponer de tráfico suficiente para generar resultados útiles. Antes de configurar la prueba, debe conocer la cantidad de tráfico que normalmente recibe, incluido el número de impresiones y conversiones. Con esta información, habrá menos probabilidades de que diseñe una prueba cuyos requisitos excedan el tráfico de su sitio.
+La prueba multivariable requiere tráfico suficiente para generar resultados útiles. Antes de configurar la prueba, debe conocer la cantidad de tráfico que normalmente recibe, incluido el número de impresiones y conversiones. Tener esta información ayuda a reducir la probabilidad de diseñar una prueba con requisitos que superen el tráfico del sitio.
 
-Es recomendable que los elementos sean independientes entre sí. (Por ejemplo, no realice una prueba del diseño y del contenido a la vez).
+Los elementos deben ser independientes entre sí. Por ejemplo, no realice una prueba del diseño y del contenido a la vez.
 
-Examine el código HTML de las páginas en las que desea realizar la prueba. Asegúrese de que los elementos HTML de su sitio no tengan ID de DOM duplicados. Los ID duplicados pueden ocasionar que el mismo fragmento de contenido se publique en más de una ubicación.
+Examine el código de HTML de las páginas que desea probar. Asegúrese de que los elementos HTML de su sitio no tengan ID de DOM duplicados. Los ID duplicados pueden ocasionar que el mismo fragmento de contenido se publique en más de una ubicación.
 
 Planifique la prueba de los elementos de la página que tienen probabilidad de generar resultados relevantes. Por ejemplo, un banner o una imagen a pantalla completa (hero) tienen más posibilidades de generar conversiones que un cambio en el pie de página. Si incluye elementos con menos influencia en la prueba, solo conseguirá aumentar el tráfico y el tiempo necesario para probar los elementos más destacados de la página.
 
@@ -27,7 +27,7 @@ Por último, antes de crear la prueba, debe crear el contenido que desea probar.
 
 ## Vídeo de formación: Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo explicamos cómo planificar y crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target.
+En este vídeo se muestra cómo planificar y crear una prueba multivariable con el [!DNL Target] flujo de trabajo guiado de tres pasos.
 
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
