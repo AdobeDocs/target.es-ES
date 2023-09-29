@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
+workflow-type: tm+mt
+source-wordcount: '872'
+ht-degree: 75%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 100%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target] Standard/Premium 23.9.4 (del 2 al 4 de octubre de 2023)
+
+Esta versión está disponible según la siguiente programación escalonada:
+
+* **2 de octubre**: región de Europa, Oriente Medio y África (EMEA)
+* **3 de octubre**: región de América
+* **4 de octubre**: región Asia-Pacífico (APAC)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+| Función | Detalles |
+| --- | --- |
+| [!UICONTROL Actividades] Actualización de IU<P>y<P>[!UICONTROL Fuentes] Actualización de IU | Como parte de [!DNL Adobe Target] esfuerzo continuo del equipo de para mejorar la experiencia del usuario de [!DNL Target] usuarios, esta versión actualiza el [!UICONTROL Actividades] y [!DNL Recommendations] [!UICONTROL Fuentes] páginas en la [!DNL Target] IU. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que añade nuevas mejoras.<P>Para obtener más información, consulte [Actividades](/help/main/c-activities/activities.md) y [Fuentes](/help/main/c-recommendations/c-products/feeds.md). |
+| [!DNL Recommendations] modelo de implementación | El *Patrón de implementación de Recommendations con at.js* Los artículos de le ayudan a comprender y crear sus [!DNL Adobe Target Recommendations] al usar la biblioteca JavaScript at.js.<P>Para obtener información general sobre los patrones de Target, consulte [Información general sobre patrones de implementación](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} en el *Guía para desarrolladores de Adobe Target*.<P>El nuevo patrón de implementación de Recommendations se compone de los siguientes artículos:<ul><li>[Información general sobre el patrón de implementación de Recommendations con at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[Inicializar SDK](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Configuración de la recopilación de datos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Procesar experiencias](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Notificar [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
+
+* Añadido [!UICONTROL Compositor de experiencias visuales] Mejoras de (VEC) para marcos dinámicos. (TGT-44064)
+* Se ha corregido un problema que provocaba que la fecha seleccionada en la `getViewInAnalyticsId` Solicitud de no actualización correcta. Esta corrección ayuda a volver a calcular el [!DNL Analytics] vínculo en creación de informes cuando se cambia la configuración del informe de intervalo de fechas y métricas. (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3 (18 de septiembre de 2023)
 
