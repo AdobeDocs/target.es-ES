@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 24e80632c68724c0eff37a719dbc80d9e3077f82
+source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 89%
+source-wordcount: '683'
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: 28 de septiembre de 2023**
+**Última actualización: 29 de septiembre de 2023**
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Esta versión está disponible según la siguiente programación escalonada:
 Esta versión incluye las siguientes mejoras y correcciones:
 
 * Añadido [!UICONTROL Compositor de experiencias visuales] Mejoras de (VEC) para marcos dinámicos. (TGT-44064)
-* Se ha corregido un problema que provocaba que la fecha seleccionada en la `getViewInAnalyticsId` Solicitud de no actualización correcta. (TGT-46246)
+* Se ha corregido un problema que provocaba que la fecha seleccionada en la `getViewInAnalyticsId` Solicitud de no actualización correcta. Esta corrección ayuda a volver a calcular el [!DNL Analytics] vínculo en creación de informes cuando se cambia la configuración del informe de intervalo de fechas y métricas. (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3 (18 de septiembre de 2023)
 
