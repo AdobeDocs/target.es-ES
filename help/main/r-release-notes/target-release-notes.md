@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
+source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 87%
+source-wordcount: '730'
+ht-degree: 82%
 
 ---
 
@@ -32,6 +32,10 @@ Esta versión está disponible según la siguiente programación escalonada:
 * **4 de octubre**: región Asia-Pacífico (APAC)
 
 Esta versión incluye las siguientes mejoras y correcciones:
+
+| Función | Detalles |
+| --- | --- |
+| [!UICONTROL Actividades] Actualización de IU<P>[!UICONTROL Fuentes] Actualización de IU | Como parte de [!DNL Adobe Target] esfuerzo continuo del equipo de para mejorar la experiencia del usuario de [!DNL Target] usuarios, esta versión actualiza el [!UICONTROL Actividades] y [!DNL Recommendations] [!UICONTROL Fuentes] páginas en la [!DNL Target] IU. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que añade nuevas mejoras. |
 
 * Añadido [!UICONTROL Compositor de experiencias visuales] Mejoras de (VEC) para marcos dinámicos. (TGT-44064)
 * Se ha corregido un problema que provocaba que la fecha seleccionada en la `getViewInAnalyticsId` Solicitud de no actualización correcta. Esta corrección ayuda a volver a calcular el [!DNL Analytics] vínculo en creación de informes cuando se cambia la configuración del informe de intervalo de fechas y métricas. (TGT-46246)
