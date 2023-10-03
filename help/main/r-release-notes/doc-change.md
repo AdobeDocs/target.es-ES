@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
+source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
-source-wordcount: '1987'
-ht-degree: 93%
+source-wordcount: '2016'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 4 de octubre | [Actividades](/help/main/c-activities/activities.md) | Se han actualizado el texto y las imágenes para reflejar la actualización de la IU incluida en la [!DNL Target] Versión 23.9.4 de. |
+|  | [Fuentes](/help/main/c-recommendations/c-products/feeds.md) | Se han actualizado el texto y las imágenes para reflejar la actualización de la IU incluida en la [!DNL Target] Versión 23.9.4 de. |
 | 2 de octubre | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.9.3 de [!DNL Target Standard/Premium]. |
 |  | [[!DNL Recommendations] modelo de implementación](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} | El nuevo *Patrón de implementación de Recommendations con at.js* Los artículos de le ayudan a comprender y crear sus [!DNL Adobe Target Recommendations] al usar la biblioteca JavaScript at.js.<P>Para obtener información general acerca de [!DNL Target] patrones, consulte [Información general sobre patrones de implementación](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} en el *Guía para desarrolladores de Adobe Target*.<P>El nuevo patrón de implementación de Recommendations se compone de los siguientes artículos:<ul><li>[Información general sobre el patrón de implementación de Recommendations con at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[Inicializar SDK](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Configuración de la recopilación de datos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Procesar experiencias](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Notificar [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 | 29 de septiembre | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han añadido notas de versión preliminar para [!DNL Target Standard/Premium] versión 23.9.3. |
