@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -76,10 +76,10 @@ Esta versión incluye las siguientes mejoras y correcciones:
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Selección de criterios de optimización habilitada para [!DNL Adobe Analytics] métricas.
-* Se habilitó la sincronización de audiencias externas mediante trabajos de Sling.
+* Selección de criterios de optimización habilitada para métricas de [!DNL Adobe Analytics].
+* Se habilitó la sincronización de públicos externos mediante trabajos de Sling.
 * Se ha corregido un problema en el cual los grupos de informes SC que contenían un carácter de punto en el nombre no eran compatibles.
-* Funcionalidad habilitada para permitir que los clientes eliminen y editen audiencias integradas.
+* Funcionalidad habilitada para permitir que los clientes eliminen y editen públicos integrados.
 
 ## [!DNL Target] Standard/Premium 23.5.3 (fecha por determinar)
 

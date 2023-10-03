@@ -9,7 +9,7 @@ exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ Tenga en cuenta la siguiente información antes de usar la integración de CJA4T
    * Si tiene una cuenta [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), consulte [Especificar funciones y permisos](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) en *Usuarios*.
    * Si tiene una cuenta [Target Premium](/help/main/c-intro/intro.md#premium), consulte [Funciones y permisos](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) en *Permisos de usuario de la empresa*.
 
-* Debe formar parte de un rol en [!DNL Adobe Experience Platform] para configurar un [!DNL Target] actividad con [!DNL Customer Journey Analytics] como fuente de informes. Para obtener más información, consulte [Agregar un rol en [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html){target=_blank} in *Configuración de permisos* en el *Tutorial de arquitecto de datos e ingeniero.*
+* Debe formar parte de una función en [!DNL Adobe Experience Platform] para configurar una actividad de [!DNL Target] con [!DNL Customer Journey Analytics] como fuente de creación de informes. Para obtener más información, consulte [Agregar una función en [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html?lang=es){target=_blank} en *Configuración de permisos* en el *Tutorial de arquitecto de datos e ingeniero.*
 * Según la configuración, la creación de informes se puede cambiar por actividad o por organización. Consulte [Solución en la nube para la creación de informes](/help/main/administrating-target/reporting.md#solution) en *Configuración de creación de informes en Target*.
 * Debe usar una de las dos fuentes de creación de informes. No puede recopilar datos de una única actividad a varias fuentes de creación de informes.
 * Cuando establezca [!DNL Customer Journey Analytics] como fuente de creación de informes, se le pedirá que especifique la zona protegida para su creación de informes. Durante la configuración, solo verá las zonas protegidas a las que tiene acceso.
