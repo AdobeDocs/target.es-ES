@@ -1,13 +1,13 @@
 ---
-keywords: tokens de respuesta;tokens;complementos;complementos;at.js;respuesta;sdk web de platform
+keywords: tokens de respuesta;tokens;complementos;complementos;at.js;respuesta;sdk web de platform;google analytics
 description: Aprenda a utilizar tokens de respuesta en [!DNL Adobe Target] para generar información específica para la depuración y la integración con herramientas de terceros.
 title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1681'
 ht-degree: 28%
 
 ---
@@ -218,7 +218,7 @@ Como se ha mencionado anteriormente, los tokens de respuesta operan con la infor
 
 ## Envío de datos a Google Analytics
 
-Las secciones siguientes describen cómo realizar envíos [!DNL Target] datos a los Google Analytics. Los datos enviados por tokens de respuesta también se pueden enviar a otras integraciones de terceros.
+Las secciones siguientes describen cómo realizar envíos [!DNL Target] datos a los Google Analytics 4. Los datos enviados por tokens de respuesta también se pueden enviar a otras integraciones de terceros.
 
 ### ![Distintivo de AEP](/help/main/assets/platform.png) Envío de datos a los Google Analytics mediante el SDK web de Platform
 
