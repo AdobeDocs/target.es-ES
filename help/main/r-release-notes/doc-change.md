@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 395b8615c9fe0fb5230021c88afc6917a6620bbe
+source-git-commit: 111b0fd0dee8a91aa792fe89616868e3839a0b0b
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2067'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 10 de octubre | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se han añadido las notas de la versión 2.11.0 de at.js. |
 | 6 de octubre | [Tokens de respuesta](/help/main/administrating-target/response-tokens.md) | Se han actualizado todas las muestras de código. |
 |  | [Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Asignación automática] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=es){target=_blank} | Se ha actualizado todo el tutorial en *[!UICONTROL Tutorials de Adobe Target]* guía. |
 | 4 de octubre | [Actividades](/help/main/c-activities/activities.md) | Se han actualizado el texto y las imágenes para reflejar la actualización de la IU incluida en la [!DNL Target] Versión 23.9.4 de. |
