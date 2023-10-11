@@ -1,13 +1,13 @@
 ---
 keywords: contenido mixto;seguro;inseguro;chrome;solución de problemas;vec;compositor de experiencias visuales;no seguro;http;https;firefox;internet explorer
-description: Aprenda a habilitar contenido mixto en Chrome, Firefox y Edge. Puede habilitar el contenido mixto cuando un explorador bloquee la visualización de una página porque el contenido seguro se mezcla con no seguro.
-title: Cómo se habilita el contenido mixto en mi explorador
+description: Aprenda a habilitar contenido mixto en [!DNL Chrome], [!DNL Firefox], y [!DNL Edge].
+title: Habilitar contenido mixto en mi navegador
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 65%
 
 ---
 
@@ -17,7 +17,7 @@ El contenido mixto se produce si la solicitud inicial es segura a través de HTT
 
 Los exploradores modernos pueden bloquear la visualización de una página o mostrar mensajes de advertencia si el contenido seguro se mezcla con contenido no seguro.
 
-Si el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] intenta abrir una página con contenido mixto. Este mensaje le informa sobre cómo deshabilitar el bloqueo en su explorador. Deshabilitar el bloqueo le permite abrir un sitio HTTP o un sitio que tenga llamadas mixtas (HTTPS y HTTP).
+Si el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] intenta abrir una página con contenido mixto. Este mensaje le informa sobre cómo deshabilitar el bloqueo en su explorador. Deshabilitar el bloqueo le permite abrir un sitio HTTP o un sitio que tenga contenido mixto (HTTPS y HTTP).
 
 ![Advertencia de contenido mixto](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -27,19 +27,19 @@ La configuración de seguridad del navegador podría bloquear el contenido mixto
 
 Si su sitio web se ejecuta en un dominio no seguro (HTTP), debe permitir que el VEC cargue el contenido mixto activo.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Permitir el contenido mixto afecta únicamente al VEC y no al sitio web publicado.
 
 Para obtener más información, consulte [Contenido mixto](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) en el sitio web *Mozilla Developer Network* (MDN).
 
-## Habilitar contenido mixto en Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Habilitar contenido mixto en [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Si va a visitar un sitio a través de una conexión segura, Chrome verificará que el contenido de la página web se haya transmitido correctamente.
+Si va a visitar un sitio a través de una conexión segura, [!DNL Chrome] comprueba que el contenido de la página web se haya transmitido correctamente.
 
-Consulte “[Esta página tiene contenido no seguro](https://support.google.com/chrome/answer/1342714?hl=es)” en la Ayuda de Google Chrome.
+Consulte &quot;[Administrar advertencias sobre sitios no seguros](https://support.google.com/chrome/answer/99020?hl=es)&quot; en la Ayuda de Google Chrome.
 
-Si utiliza el VEC con la última versión de Chrome (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los visitantes del sitio no necesitan completar estos pasos.
+Si utiliza el VEC con la última versión de [!DNL Chrome] (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los visitantes del sitio no necesitan completar estos pasos.
 
 1. Haga clic en el icono de bloqueo (precaución) y, a continuación, haga clic en **[!UICONTROL Configuración del sitio]**.
 
@@ -51,12 +51,12 @@ Si utiliza el VEC con la última versión de Chrome (versión 79.0.3945.117 o po
 
 1. Vuelva a cargar la página del VEC.
 
-## Habilitar contenido mixto en Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Habilitar contenido mixto en [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-De manera predeterminada, Firefox bloquea las páginas con contenido seguro y no seguro. Se recomienda cambiar esta opción de forma permanente para poder usar [!DNL Target]. Los visitantes del sitio no necesitan completar estos pasos.
+De forma predeterminada, [!DNL Firebox] bloquea las páginas que mezclan contenido seguro con contenido no seguro. Debe cambiar esta opción de forma permanente para usar [!DNL Target]. Los visitantes del sitio no necesitan completar estos pasos.
 
 1. En Firefox, escriba `about:config` en la barra de direcciones.
-1. Reconozca el mensaje de advertencia que muestra Firefox.
+1. Reconozca el mensaje de advertencia que muestra [!DNL Firefox].
 
    ![Advertencia de Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
@@ -70,20 +70,18 @@ De manera predeterminada, Firefox bloquea las páginas con contenido seguro y no
 
    ![Seguridad de Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-Reinicie el equipo después de cambiar esta configuración.
+1. Reinicie el equipo después de cambiar esta configuración.
 
-## Habilitar contenido mixto en Microsoft Edge
+## Habilitar contenido mixto en [!DNL Microsoft Edge]
 
-Si va a visitar un sitio a través de una conexión segura, Edge verificará que el contenido de la página web se haya transmitido correctamente.
+Si va a visitar un sitio a través de una conexión segura, [!DNL Edge] comprueba que el contenido de la página web se haya transmitido correctamente.
 
-Si utiliza el VEC con la última versión de Edge, debe actualizar la configuración del sitio. Los visitantes del sitio no necesitan completar estos pasos.
+Si utiliza el VEC con la última versión de [!DNL Edge], debe actualizar la configuración del sitio. Los visitantes del sitio no necesitan completar estos pasos.
 
-1. Haga clic en el icono de bloqueo (precaución) y, a continuación, haga clic en **[!UICONTROL Permisos del sitio]**.
+1. Entrada [!DNL Edge], haga clic en **[!DNL Microsoft Edge]** en la barra de menús, **[!UICONTROL Configuración]**, luego haga clic en **Cookies y permisos del sitio**.
 
-   ![Permisos del sitio en Microsoft Edge](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
+1. Desplazarse a **[!UICONTROL Contenido no seguro]**.
 
-1. Desplácese hasta **[!UICONTROL Contenido no seguro]** y, a continuación, utilice la lista desplegable para cambiar “Bloquear (predeterminado)” por “Permitir”.
-
-   ![Contenido no seguro](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
+1. Clic **[!UICONTROL Contenido no seguro]**, luego haga clic en **[!UICONTROL Añadir]** junto a **[!UICONTROL Permitir]**, agregue el sitio en el que desea permitir contenido no seguro y haga clic en **[!UICONTROL Añadir]**.
 
 1. Vuelva a cargar la página del VEC.
