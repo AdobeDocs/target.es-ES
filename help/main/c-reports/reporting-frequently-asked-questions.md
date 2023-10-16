@@ -4,10 +4,10 @@ description: Explore una lista de preguntas frecuentes y respuestas acerca del A
 title: ¿Dónde puedo encontrar respuestas a preguntas sobre [!DNL Target] ¿Reportando?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 31%
+source-wordcount: '1374'
+ht-degree: 27%
 
 ---
 
@@ -74,9 +74,16 @@ Números de métricas que recoge, por ejemplo, visitas [!DNL Target] son siempre
 
 ## ¿Por qué no hay datos disponibles en el informe de mi actividad? {#section_E4722F6445884130951DF79981C8289B}
 
-Si el contenido de una actividad se entregó correctamente a los usuarios, pero el informe no contiene datos, compruebe si el entorno ([grupo de hosts](/help/main/administrating-target/hosts.md)) correcto está seleccionado en la configuración del informe.
+Si el contenido de una actividad se entregó correctamente a los visitantes, pero el informe no contiene datos, es posible que aparezca el siguiente mensaje de error: &quot;No hay datos disponibles para la configuración de informe seleccionada&quot;.
 
-Si tiene seleccionado un entorno de desarrollo, puede que vea el siguiente mensaje de error: “No hay datos disponibles para la configuración de informe seleccionada”.
+Los datos pueden no aparecer en los informes de actividad por varios motivos:
+
+* No ha seleccionado el entorno correcto en la configuración del informe
+* No tiene ningún tráfico asignado a la experiencia de control
+
+### No ha seleccionado el entorno correcto en la configuración del informe:
+
+Si el contenido de una actividad se entregó correctamente a los usuarios, pero el informe no contiene datos, compruebe si el entorno ([grupo de hosts](/help/main/administrating-target/hosts.md)) correcto está seleccionado en la configuración del informe.
 
 Para cambiar el entorno en el informe de una actividad:
 
@@ -85,10 +92,6 @@ Para cambiar el entorno en el informe de una actividad:
 
    ![Cuadro de diálogo Configuración A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-   >[!NOTE]
-   >
-   >El icono del engranaje no está disponible para informes de [!UICONTROL Personalización automatizada] (AP).
-
 1. En la lista desplegable **[!UICONTROL Entornos]**, seleccione **[!UICONTROL Producción]**.
 
    Puede que no haya datos de informe disponibles si ha seleccionado un entorno de desarrollo.
@@ -96,6 +99,22 @@ Para cambiar el entorno en el informe de una actividad:
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 Para obtener más información sobre los entornos, consulte [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### No tiene ningún tráfico asignado a la experiencia de control
+
+Si el contenido de una actividad se entregó correctamente a los usuarios, pero el informe no contiene datos, asegúrese de que tiene el tráfico asignado a la experiencia de control.
+
+1. Haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes.]**
+1. Haga clic en el icono del engranaje para definir la configuración del informe.
+
+1. Desde el **[!UICONTROL Control]** , seleccione una experiencia que reciba tráfico.
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+>[!NOTE]
+>
+>Para obtener más información sobre cómo actualizar un [!UICONTROL Automated Personalization] (AP) y cambie la experiencia de control a una experiencia que reciba tráfico, consulte [Seleccione el control de la actividad de Automated Personalization o de Segmentación automática](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+
 
 ## ¿Por qué la división del tráfico entre mis experiencias es desigual en mi actividad A/B o MVT? {#uneven}
 
