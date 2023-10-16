@@ -6,10 +6,10 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
+source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1050'
+ht-degree: 97%
 
 ---
 
@@ -125,5 +125,12 @@ Configuración de una vista de datos en [!DNL Customer Journey Analytics]. Las v
    * ID de actividad
 
    ![Opciones de nombres e ID en Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. Para usar [!DNL Target] dimensiones en la [!UICONTROL Experimentación] , configure las siguientes etiquetas de contexto:
+
+   * Para [!UICONTROL Nombre de actividad], use &quot;Experimento de experimentación&quot;.
+   * [!UICONTROL Nombre de experiencia], utilice &quot;Variante de experimento&quot;.
+
+   ![Etiquetas de contexto en el panel Experimentación](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. Termine de configurar cualquier otro campo y haga clic en **[!UICONTROL Guardar y continuar]** cuando termine.
