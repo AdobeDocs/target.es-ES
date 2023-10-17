@@ -4,9 +4,9 @@ description: Explore una lista de preguntas frecuentes y respuestas acerca del A
 title: ¿Dónde puedo encontrar respuestas a preguntas sobre [!DNL Target] ¿Reportando?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1376'
 ht-degree: 27%
 
 ---
@@ -102,7 +102,7 @@ Para obtener más información sobre los entornos, consulte [Hosts](/help/main/a
 
 ### No tiene ningún tráfico asignado a la experiencia de control
 
-Si el contenido de una actividad se entregó correctamente a los usuarios, pero el informe no contiene datos, asegúrese de que tiene el tráfico asignado a la experiencia de control.
+Si el contenido de una actividad se entregó correctamente a los usuarios, pero el informe no contiene datos, asegúrese de utilizar una experiencia con tráfico como experiencia de control.
 
 1. Haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes.]**
 1. Haga clic en el icono del engranaje para definir la configuración del informe.
