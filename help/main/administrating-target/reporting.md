@@ -5,10 +5,10 @@ title: ¿Cómo configuro la creación de informes en Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 31%
+source-wordcount: '690'
+ht-degree: 32%
 
 ---
 
@@ -29,7 +29,7 @@ Puede especificar la siguiente configuración en esta página:
 
 >[!NOTE]
 >
->Tenga en cuenta que la zona horaria, la moneda y las direcciones IP que deben excluirse se aplican a las actividades que utilizan [!DNL Target] informes. Esta configuración no se aplica a las actividades que utilizan [Analytics for Target (A4T)] como fuente de informes (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Tenga en cuenta que la zona horaria, la moneda y las direcciones IP que deben excluirse se aplican a las actividades que utilizan [!DNL Target] informes. Esta configuración no se aplica a las actividades que utilizan [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) como fuente de informes.
 
 ![Página Informes](/help/main/administrating-target/assets/reporting.png)
 
