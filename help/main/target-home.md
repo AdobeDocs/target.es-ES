@@ -4,7 +4,7 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5e77907694ae65f9f2d20b0fe0264b7b03fa290a
+source-git-commit: e005c497f8afc4cda39148f6245fa025d447f1bd
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
@@ -22,7 +22,6 @@ ht-degree: 100%
 >Además de esta guía, también están disponibles las guías de [!DNL Adobe Target] siguientes:
 >
 >- [*Guía para desarrolladores de Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es){target=_blank}
->
 >- [*Tutoriales de Adobe Target*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es){target=_blank}
 >
 >Para obtener información sobre la versión, consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md) en esta guía.
