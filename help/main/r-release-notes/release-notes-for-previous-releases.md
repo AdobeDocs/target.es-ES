@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
+source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
 workflow-type: tm+mt
-source-wordcount: '37216'
+source-wordcount: '37638'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,43 @@ Las notas de la versión se presentan en orden descendente por mes y año de pub
 >Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión: 2023
+
+### [!DNL Target] Estándar/Premium 23.9.4 (4-6 de octubre de 2023)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+| Función | Detalles |
+| --- | --- |
+| [!UICONTROL Actividades] Actualización de la IU<P>y<P>[!UICONTROL Fuentes] Actualización de la IU | Como parte del esfuerzo continuo del equipo de [!DNL Adobe Target] para mejorar la experiencia de usuario para los usuarios de [!DNL Target], esta versión actualiza las páginas [!UICONTROL Actividades] y [!DNL Recommendations] [!UICONTROL Fuentes] en la IU de [!DNL Target]. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que añade nuevas mejoras.<P>Para obtener más información, consulte [Actividades](/help/main/c-activities/activities.md) y [Fuentes](/help/main/c-recommendations/c-products/feeds.md). |
+| Patrón de implementación de [!DNL Recommendations]  | Los artículos sobre el *patrón de implementación de Recommendations con at.js* le ayudan a comprender y crear su implementación de [!DNL Adobe Target Recommendations] cuando utiliza la biblioteca JavaScript at.js.<P>Para obtener más información, consulte [Información general sobre el patrón de implementación de Recommendations con at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=es){target=_blank} en la *Guía para desarrolladores de Adobe Target*. |
+
+* Se han realizado mejoras en [!UICONTROL Visual Experience Composer] (VEC) para marcos dinámicos. (TGT-44064)
+* Se ha corregido un problema que provocaba que la fecha seleccionada en la solicitud de `getViewInAnalyticsId` no se actualizara correctamente. Esta corrección ayuda a volver a calcular el vínculo de [!DNL Analytics] en la creación de informes cuando se cambia la configuración del informe de intervalo de fechas y métricas. (TGT-46246)
+
+### [!DNL Target] Standard/Premium 23.9.3 (18 de septiembre de 2023)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Se ha mejorado el [!UICONTROL Compositor de experiencias visuales] (VEC) para admitir Lightning Web Components (Light DOM). (TGT-45422)
+* Se ha corregido un problema que provocaba que las acciones del VEC se aplicaran en el orden incorrecto. En algunos casos, el VEC aplicaba algunas modificaciones de forma asíncrona y al añadir modificaciones adicionales a un elemento se producían errores si ese elemento se mostraba después de una acción [!UICONTROL Insertar]. También corrige la URL del VEC que ahora se actualiza al hacer clic en los vínculos de anclaje. (TGT-45983)
+* Se ha corregido un problema con la función [!UICONTROL Superposición] del VEC, que ahora admite elementos en Shadow DOMs. (TGT-45202 y TGT-45262)
+* Se ha corregido un problema que se producía cuando al abrir una página de aplicación de una sola página (SPA) en el VEC y, a continuación, ir al modo [!UICONTROL Examinar] las flechas Atrás y Adelante no funcionaban correctamente. (TGT-45956)
+* Se ha corregido un problema que impedía que algunas páginas web se cargaran en el VEC. (TGT-45983)
+
+### [!DNL Target] Standard/Premium 23.9.2 (12-14 de septiembre de 2023)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Se ha cambiado la API [!DNL Analytics] a la nueva versión 2.0 de API [!DNL Analytics]. (TGT-45345)
+* Se han corregido problemas que afectaban a [!UICONTROL Automated Personalization] (AP) para algunos clientes, incluida la sincronización oportuna de la actividad en [!DNL Target] backend y ofrecer la experiencia esperada en los vínculos de vista previa. (TGT-46202)
+
+### [!DNL Target] Standard/Premium 23.9.1 (6-11 de septiembre de 2023)
+
+Esta versión incluye las siguientes mejoras y correcciones:
+
+* Se ha corregido un problema que generaba datos de creación de informes incoherentes en la IU de [!DNL Target] y de [!DNL Adobe Analytics] para las actividades de [!UICONTROL Asignación automática] que utilizan [!UICONTROL Analytics para Target] (A4T) como fuente de creación de informes. (TGT-46112)
+* Se ha aumentado el tiempo de espera para las llamadas PUT a la API de entrega de Target a 15 segundos para evitar errores de tiempo de espera. (TGT-46091)
+* Se ha corregido un problema que impedía que la dirección URL se actualizara de forma coherente al navegar por un sitio web de aplicación de una sola página (SPA). (TGT-45417)
 
 ### [!DNL Adobe Target] Actualización de infraestructura de Edge planificada {#edge}
 
