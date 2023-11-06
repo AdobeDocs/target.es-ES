@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: aef672454e3f5fe2980411b821de1cf49f1ec4f9
 workflow-type: tm+mt
-source-wordcount: '2144'
-ht-degree: 99%
+source-wordcount: '2149'
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 28 de octubre | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se han añadido detalles acerca de la versión 2.11.2 de at.js. |
-| 25 de octubre | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información acerca de [!UICONTROL Actividades] actualización de la interfaz de usuario de la página (25 de octubre de 2023) |
+| 28 de octubre | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se ha añadido información sobre la versión 2.11.2 de at.js. |
+| 25 de octubre | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información sobre la actualización de la interfaz de usuario de la página [!UICONTROL Actividades] (25 de octubre de 2023) |
 | 24 de octubre | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.10.2 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.9.1 (6-11 de septiembre de 2023)
@@ -28,7 +28,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 17 de octubre | [Preguntas más frecuentes sobre la creación de informes](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | Se ha actualizado la siguiente pregunta frecuente: ¿Por qué no hay datos disponibles para el informe de mi actividad? &quot; |
-| 11 de octubre | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Se ha actualizado la información sobre la compatibilidad de A4T con [!DNL Adobe Experience Platform Web SDK]. |
+| 11 de octubre | [[!DNL Adobe Analytics] como fuente de informes para  [!DNL Adobe Target]  (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Se ha actualizado la información sobre la compatibilidad de A4T con [!DNL Adobe Experience Platform Web SDK]. |
 | 10 de octubre | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se han añadido las notas de la versión 2.11.0 de at.js. |
 | 6 de octubre | [Tokens de respuesta](/help/main/administrating-target/response-tokens.md) | Se han actualizado todas las muestras de código. |
 |  | [Configuración de informes de A4T en [!DNL Analysis Workspace] para actividades de [!UICONTROL Asignación automática] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=es){target=_blank} | Se ha actualizado todo el tutorial en la guía *[!UICONTROL Tutoriales de Adobe Target]*. |
