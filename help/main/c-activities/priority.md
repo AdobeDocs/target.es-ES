@@ -1,29 +1,29 @@
 ---
 keywords: configuración;prioridad
-description: Descubra cómo Adobe [!DNL Target] determina qué actividad (o actividades) se envía a una página de forma diferente en función de cuál [!DNL Target] y qué función de creación de actividades está utilizando.
+description: Descubra cómo [!DNL Adobe Target] determina qué actividad (o actividades) se envía a una página de forma diferente en función de qué [!DNL Target] y qué función de creación de actividades está utilizando.
 title: ¿Cómo [!DNL Target] ¿Asignar prioridad a diferentes actividades?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 18765a82b5dca94654a412e2012a3f6c1a7b5128
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 87%
+source-wordcount: '1105'
+ht-degree: 40%
 
 ---
 
 # Prioridad
 
-Target determina qué actividad (o actividades) ofrece en una página de forma diferente en función de qué interfaz de Target y de qué función de creación de actividades (Compositor de experiencias visuales o Compositor basado en formularios) esté usando.
+[!DNL Adobe Target] determina qué actividad (o actividades) se envía a una página de forma diferente en función de qué [!DNL Target] y qué función de creación de actividades ([[!UICONTROL Compositor de experiencias visuales]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md)) que está utilizando.
 
-## Solo Compositor de experiencias visuales de Target Standard/Premium o Compositor basado en formularios usando Global [!DNL Target] Solo solicitud {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!DNL Target Standard/Premium] [!UICONTROL Compositor de experiencias visuales] solo o [!UICONTROL Compositor de experiencias basadas en formularios] uso de un global [!DNL Target] solo solicitar {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
-Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor de experiencias visuales, se puede devolver el contenido de varias actividades para la misma llamada. Las actividades se ofrecen según el siguiente flujo de decisiones:
+Si su empresa utiliza [!DNL Target Standard/Premium] y el [!UICONTROL Compositor de experiencias visuales] exclusivamente, el contenido de varias actividades se puede devolver para la misma llamada. Las actividades se ofrecen según el siguiente flujo de decisiones:
 
-1. La llamada del servidor de Target llega a Target con información sobre la dirección URL.
-1. Target recupera todas las actividades que se están realizando en esa dirección URL.
-1. Target intenta relacionar al visitante con actividades.
+1. El [!DNL Target] la llamada al servidor llega a [!DNL Target] con información sobre la dirección URL.
+1. [!DNL Target] recupera todas las actividades que se están realizando en esa dirección URL.
+1. [!DNL Target] intenta relacionar al visitante con actividades.
 
-   Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
+   Si el visitante ya está en un [!UICONTROL Prueba A/B] o [!UICONTROL Prueba multivariable] actividad, coinciden con esa actividad hasta que se convierten. Si anteriormente estaban en un [!UICONTROL Segmentación de experiencias] actividad, deben coincidir de nuevo con ella. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
 
 1. Se devuelve a la página el contenido de todas las actividades y experiencias con las que el visitante se ve relacionado.
 1. Si el contenido de cada actividad hace referencia a diferentes.  [selectores CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), se muestra todo el contenido.
@@ -32,43 +32,43 @@ Si en su empresa se utiliza Target Standard/Premium y únicamente el Compositor 
 
    >[!IMPORTANT]
    >
-   >Target devuelve el contenido de todas las actividades que hay en la página, empezando por el contenido con prioridad más baja, que se sobrescribe con cada actividad (de la más baja a la más alta). En la mayoría de los casos, el resultado es que se muestra el contenido con la prioridad más alta. Sin embargo, si una actividad con prioridad menor altera la estructura del DOM de la página, es posible que la actividad con prioridad mayor no reconozca la estructura de la página y se muestre el contenido de menor prioridad. Los resultados de todas las actividades que se ejecutan en la página se contabilizan y se reflejan en los informes.
+   >[!DNL Target] devuelve el contenido de todas las actividades que hay en la página, empezando por el contenido con prioridad más baja, que se sobrescribe con cada actividad (de la más baja a la más alta). Normalmente, esto hace que se muestre el contenido de mayor prioridad. Sin embargo, si una actividad de prioridad inferior altera la estructura del DOM para la página, es posible que la actividad de prioridad superior no reconozca la estructura de la página, por lo que se muestra el contenido de prioridad inferior. Los resultados de todas las actividades que se ejecutan en la página se contabilizan y se reflejan en los informes.
 
-1. Si varias actividades comparten el mismo nivel de prioridad, hay dos factores que deshacen el empate:
+1. Si varias actividades comparten un nivel de prioridad, existen dos desempates:
 
    * Si solo una actividad tiene segmentación de la audiencia, se muestra esa actividad.
-   * Si todas o ninguna tienen segmentación, se muestra la actividad que se aprobó en primer lugar.
+   * Si todos o ninguno tiene segmentación, se muestra la actividad que se aprobó primero.
 
-## Compositor basado en formularios de Target Standard/Premium y [!DNL Target] Compositor de experiencias visuales de Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
+## [!DNL Target Standard/Premium] [!UICONTROL Compositor de experiencias basadas en formularios] y [!DNL Target Standard/Premium] [!UICONTROL Compositor de experiencias visuales] {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
 >Esta información también se aplica a cualquier campaña en ejecución creada en [!DNL Target Classic].
 
-Si en su empresa se utiliza el compositor basado en formularios en Target Standard/Premium y el Compositor de experiencias visuales en Target Standard/Premium, se puede ofrecer el contenido de varias actividades del Compositor de experiencias visuales, pero solo una actividad del flujo de trabajo basado en formularios. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
+Si su empresa utiliza [!UICONTROL Compositor de experiencias basadas en formularios] in [!DNL Target Standard/Premium] y el [!DNL Target Standard/Premium] [!UICONTROL Compositor de experiencias visuales], luego contenido de varios [!UICONTROL Compositor de experiencias visuales] Las actividades de pueden entregar, pero solo una actividad del flujo de trabajo basado en formularios. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
-1. La llamada al servidor de Target llega a Target con información sobre [!DNL Target] solicitud y URL.
-1. Target Classic y Standard extraen todas las actividades que se ejecutan en ese [!DNL Target] solicitud.
-1. Target intenta relacionar al visitante con actividades.
+1. [!DNL Target] la llamada al servidor llega a [!DNL Target] con información acerca de [!DNL Target] solicitud y URL.
+1. [!DNL Target Classic] y [!DNL Target Standard/Premium] extraiga todas las actividades que se ejecuten en ese [!DNL Target] solicitud.
+1. [!DNL Target] intenta relacionar al visitante con actividades.
 
-   Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
+   Si el visitante ya está en un [!UICONTROL Prueba A/B] o [!UICONTROL Prueba multivariable] actividad, coinciden en esa prueba hasta que se convierten. Si anteriormente estaban en un [!UICONTROL Segmentación de experiencias] actividad, deben coincidir de nuevo con ella. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
 
-1. Si la máxima prioridad es una actividad basada en formularios, se devuelve el contenido de esa actividad junto con todo el contenido de actividad coincidente de las actividades del Compositor de experiencias visuales.
-1. Si la prioridad más alta corresponde a una actividad del Compositor de experiencias visuales, se devuelve el contenido de todas las actividades del Compositor de experiencias visuales, pero no el contenido de las actividades de Target Classic o basadas en formularios.
+1. Si una actividad basada en formularios es la prioridad más alta, se devuelve ese contenido de actividad junto con todo el contenido de actividad coincidente de [!UICONTROL Compositor de experiencias visuales] actividades.
+1. Si un [!UICONTROL Compositor de experiencias visuales] la actividad es la prioridad más alta y, a continuación, el contenido de todas las coincidencias [!UICONTROL Compositor de experiencias visuales] se devuelve ninguna actividad, pero no [!DNL Target Classic] o se devuelve el contenido de la actividad basado en formularios.
 
    Los resultados de todas las actividades que se ejecutan en la página se contabilizan y se reflejan en los informes.
 
 **Ejemplo**
 
-Si tiene dos actividades, una que segmenta por la palabra clave de búsqueda por marca “Nike” y una segunda actividad que segmenta por la palabra clave sin marca “zapatillas”, se comprobarán las prioridades de las dos actividades. Si la actividad de “Nike” tiene una prioridad mayor, se muestra ese contenido. Del mismo modo, si la actividad de “zapatillas” tiene una prioridad mayor, se muestra ese contenido.
+Si tiene dos actividades, una que segmenta por la palabra clave de búsqueda por marca &quot;Nike&quot; y una segunda actividad que segmenta por la palabra clave sin marca &quot;zapatillas&quot;, se comprobarán las prioridades de ambas actividades. Si la actividad de “Nike” tiene una prioridad mayor, se muestra ese contenido. Del mismo modo, si la actividad de “zapatillas” tiene una prioridad mayor, se muestra ese contenido.
 
 Si ambas actividades segmentadas tienen la misma prioridad, se muestra la última actividad que se vio. Si el visitante es nuevo en la página, se muestra la última actividad que se activó.
 
-## Compositor basado en formularios de Target Standard/Premium con compatibilidad no global [!DNL Target] Solicitudes {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## [!DNL Target Standard/Premium] [!UICONTROL Compositor de experiencias basadas en formularios] con no global [!DNL Target] solicitudes {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
->Esta información también se aplica a cualquier campaña en ejecución creada en Target Classic.
+>Esta información también se aplica a cualquier actividad en ejecución creada en [!DNL Target Classic].
 
 Si su empresa utiliza [!DNL Target] solicitudes distintas de la global [!DNL Target] solicitud en el compositor basado en formularios, solo se puede devolver contenido de una actividad por llamada. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
@@ -76,23 +76,23 @@ Si su empresa utiliza [!DNL Target] solicitudes distintas de la global [!DNL Tar
 1. [!DNL Target] extrae todas las actividades que se ejecutan en [!DNL Target] solicitud.
 1. [!DNL Target] intenta relacionar al visitante con la actividad de mayor prioridad.
 
-   Si el visitante ya se encuentra en una prueba A/B o multivariable, se relacionará con esa prueba hasta que genere una conversión. Si anteriormente se encontraba en una actividad de segmentación de experiencias, se tiene que volver a relacionar con esta. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
+   Si el visitante ya está en un [!UICONTROL Prueba A/B] o [!UICONTROL Prueba multivariable] actividad, coinciden con esa actividad hasta que se convierten. Si anteriormente estaban en un [!UICONTROL Segmentación de experiencias] actividad, deben coincidir de nuevo con ella. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
 
-1. Si varias actividades comparten el mismo nivel de prioridad, hay dos factores que deshacen el empate:
+1. Si varias actividades comparten un nivel de prioridad, existen dos desempates:
 
    * Si solo una actividad tiene segmentación de la audiencia, se muestra esa actividad.
-   * Si todas o ninguna tienen segmentación, se muestra la actividad que se aprobó en primer lugar.
+   * Si todos o ninguno tiene segmentación, se muestra la actividad que se aprobó primero.
 
 ## Ejemplos {#section_F6A788AAC3884A2FA03E47F0557A1213}
 
 >[!NOTE]
 >
->Los valores de prioridad varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999. Para obtener más información, consulte  [Configuración de actividades](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Los valores de prioridad varían en función de la configuración. Puede utilizar la configuración heredada de [!UICONTROL Baja], [!UICONTROL Mediana], o [!UICONTROL Alta]o puede habilitar prioridades específicas de 0 a 999. Para obtener más información, consulte [Configuración de actividades](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Dos campañas de Target Classic usan solicitudes de Target no globales**
+**Dos [!DNL Target Classic] Las actividades de utilizan variables no globales [!DNL Target] solicitudes**
 
-* Campaña 1: homePageHero, offer1, prioridad alta
-* Campaña 2: homePageHero, offer2, prioridad baja
+* Actividad 1: homePageHero, oferta1, prioridad alta
+* Actividad 2: homePageHero, offer2, prioridad baja
 
 Respuesta: offer1
 
@@ -112,20 +112,20 @@ Respuesta: visualExpCompOffer1, visualExpCompOffer2
 
 >[!NOTE]
 >
->Es la misma respuesta que en el segundo caso de uso descrito anteriormente, porque Target Classic no gestiona los conflictos de selectores. Target Standard detecta ese comportamiento y otros casos de uso en los que los selectores pueden entrar en conflicto tanto en DOM como visualmente (normalmente, se lleva a cabo en el nivel de editor de experiencias o en el modo de simulación de campañas).
+>Es la misma respuesta que en el segundo caso de uso anterior porque [!DNL Target Classic] no se han gestionado los conflictos de selectores. [!DNL Target Standard/Premium] detecta ese comportamiento y otros casos de uso en los que los selectores podrían entrar en conflicto tanto en DOM como visualmente (normalmente, se lleva a cabo en el nivel de editor de experiencias o en el modo de simulación de actividades).
 
-**Dos actividades utilizan ofertas creadas en el Compositor de experiencias visuales y dos emplean campañas de Target Classic**
+**Dos actividades utilizan ofertas creadas en [!UICONTROL Compositor de experiencias visuales] y dos [!DNL Target Classic] actividades**
 
 * Actividad 1: target-global-mbox, selector1, visualExpCompOffer1, prioridad media
 * Actividad 2: target-global-mbox, selector2, visualExpCompOffer2, prioridad baja
-* Campaña 1: target-global-mbox, oferta1, prioridad alta
-* Campaña 2: target-global-mbox, oferta2, prioridad baja
+* Actividad 1: target-global-mbox, oferta1, prioridad alta
+* Actividad 2: target-global-mbox, offer2, prioridad baja
 
 Respuesta: oferta1, visualExpCompOffer2, visualExpCompOffer1
 
 >[!NOTE]
 >
->En el orden de las respuestas combinadas, el contenido clásico va antes (solo se ofrecerá una respuesta clásica como en el primer caso de uso) y, después, el Compositor de experiencias visuales ofrece respuestas en orden inverso de prioridad.
+>El orden de las respuestas combinadas es el siguiente [!DNL Target Classic] el contenido es lo primero. Solo uno [!DNL Target Classic] la respuesta se sirve como en el caso de uso 1 y, a continuación, [!UICONTROL Compositor de experiencias visuales] ofrecen respuestas ordenadas por prioridad invertida.
 
 ## Vídeo de formación: Configuración de actividades (3:02)
 
