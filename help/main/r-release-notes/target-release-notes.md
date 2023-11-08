@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
+source-git-commit: 4d32ae98c90b881e14b33a76ad51ea7662aeebc4
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 53%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: 25 de octubre de 2023**
+**Última actualización: 7 de noviembre de 2023**
 
 >[!NOTE]
 >
@@ -23,23 +23,22 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## Actualización de la interfaz de usuario de la página [!UICONTROL Actividades] (25 de octubre de 2023)
+## [!DNL Target] Standard/Premium 23.11.1 (13 y 14 de noviembre de 2023)
 
-Como parte del esfuerzo continuo del equipo de [!DNL Adobe Target] para mejorar la experiencia de usuario para los usuarios de [!DNL Target], esta versión actualiza la página [!UICONTROL Actividades] en la IU de [!DNL Target]. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que añade nuevas mejoras.
+Esta versión estará disponible según la siguiente programación escalonada:
 
-Desde el miércoles 25 de octubre, un porcentaje de clientes dispone de acceso a la nueva IU y los demás clientes recibirán acceso en los próximos días.
+* **Noviembre de 13**: región Asia-Pacífico (APAC)
+* **Noviembre de 14**: región de América
+* **Noviembre de 14**: región de Europa, Oriente Medio y África (EMEA)
 
-Para obtener más información, consulte [Actividades](/help/main/c-activities/activities.md).
+Esta versión incluye las siguientes correcciones:
 
-## [!DNL Target] Estándar/Premium 23.10.2 (24 de octubre de 2023)
-
-Esta versión incluye las siguientes mejoras y correcciones:
-
-* Se ha mejorado la nueva IU de [!UICONTROL Actividades] para que el [!UICONTROL Compositor de experiencias visuales] (VEC) se abra con la configuración predeterminada para `selectorCriteria` al crear una nueva actividad. (TGT-46586)
-* Se ha solucionado un problema que impedía que algunos clientes editaran elementos en modo [!UICONTROL Compositor] al utilizar el VEC. (TGT-46470)
-* Se ha añadido la posibilidad de especificar un selector preferido genérico al utilizar atributos personalizados. (TGT-46545)
-* Se ha solucionado un problema que, algunas veces, impedía que un informe [!UICONTROL Segmentación automática] que utiliza [!UICONTROL Analytics para Target] (A4T) se mostrara en la IU [!DNL Target], aunque el informe se mostrara correctamente en [!DNL Adobe Analysis Workspace]. (TGT-46494)
-* Se han actualizado varias cadenas localizadas en la interfaz de usuario de Target. (TGT-18899)
+* Se ha mejorado la [Control de calidad de actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) para permitir a los clientes no permitir ofertas duplicadas para experiencias en [!UICONTROL Automated Personalization] actividades. (TGT-46627)
+* Se ha añadido información de objeto en [!DNL Target] IU para ayudar a los clientes a comprender por qué podría no haber datos disponibles en los informes de actividad si no se asigna tráfico a la experiencia de control. En la información del objeto se incluye un vínculo para obtener más información: [¿Por qué no hay datos disponibles para el informe de mi actividad?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
+* Se ha corregido un problema que impedía que las actividades de se mostraran correctamente en la [!UICONTROL Actividades] para algunos clientes. (TGT-46830)
+* Se ha corregido un problema que impedía que algunos clientes vieran los datos de informes de las actividades que utilizan [!UICONTROL Analytics for Target] (A4T) como fuente de informes. (TGT-46557)
+* Se ha corregido un problema que a veces provocaba lo siguiente [!UICONTROL Ver en Analytics] Vínculo en las páginas de informes de actividad para que no funcionen correctamente en las actividades que utilizan [!UICONTROL Analytics for Target] (A4T) como fuente de informes. (TGT-46731)
+* Se ha corregido un problema que impedía los datos de para [!UICONTROL Alza] y [!UICONTROL Confianza] para mostrarse correctamente en la [!DNL Target] IU para actividades que utilizan [!UICONTROL Analytics for Target] (A4T) como fuente de informes. (TGT-46592, TGT-46554 y TGT-46586)
 
 ## Notas de la versión adicionales y detalles de la versión
 
