@@ -4,10 +4,10 @@ description: Aprenda a utilizar las fechas y horas de inicio y finalización par
 title: ¿Puedo segmentar visitantes que visitan mi sitio en momentos específicos?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 44%
+source-wordcount: '453'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,11 @@ Por ejemplo, con el [función de audiencias combinadas ad hoc](/help/main/c-targ
 
    >[!NOTE]
    >
-   >La zona horaria de las fechas de inicio/fin aparece como GMT +/-NN:NN, donde NN:NN es la diferencia con respecto a la zona GMT. Refleja la zona horaria de la cuenta, no la del visitante. Por ejemplo, la zona horaria de California sería GMT -08:00.
+   >Tenga en cuenta lo siguiente:
+   >
+   >* La zona horaria de las fechas de inicio/fin aparece como GMT +/-NN:NN, donde NN:NN es la diferencia con respecto a la zona GMT. Refleja la zona horaria de la cuenta, no la del visitante. Por ejemplo, la zona horaria de California sería GMT -08:00.
+   >
+   >* [!DNL Target] Las audiencias de hora no tienen en cuenta los cambios del horario de verano (DST). Debe actualizar las audiencias manualmente para tener en cuenta los cambios de DST.
 
 1. (Condicional) Haga clic en **[!UICONTROL Establecer frecuencia]** para establecer patrones recurrentes, incluidos los días de las semanas y las horas.
 
