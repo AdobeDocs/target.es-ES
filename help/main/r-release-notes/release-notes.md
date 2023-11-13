@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 84%
 
 ---
 
@@ -27,15 +27,23 @@ Desde el miércoles 25 de octubre, un porcentaje de clientes dispone de acceso a
 
 Para obtener más información, consulte [Actividades](/help/main/c-activities/activities.md).
 
-## [!DNL Target] Estándar/Premium 23.10.2 (24 de octubre de 2023)
+## [!DNL Target] Estándar/Premium 23.11.1 (13 y 14 de noviembre de 2023)
+
+Esta versión está programada para los siguientes días:
+
+* **13 de noviembre**: región Asia-Pacífico (APAC)
+* **14 de noviembre**: región de América
+* **14 de noviembre**: región de Europa, Oriente Medio y África (EMEA)
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha mejorado la nueva IU de [!UICONTROL Actividades] para que el [!UICONTROL Compositor de experiencias visuales] (VEC) se abra con la configuración predeterminada para `selectorCriteria` al crear una nueva actividad. (TGT-46586)
-* Se ha solucionado un problema que impedía que algunos clientes editaran elementos en modo [!UICONTROL Compositor] al utilizar el VEC. (TGT-46470)
-* Se ha añadido la posibilidad de especificar un selector preferido genérico al utilizar atributos personalizados. (TGT-46545)
-* Se ha solucionado un problema que, algunas veces, impedía que un informe [!UICONTROL Segmentación automática] que utiliza [!UICONTROL Analytics para Target] (A4T) se mostrara en la IU [!DNL Target], aunque el informe se mostrara correctamente en [!DNL Adobe Analysis Workspace]. (TGT-46494)
-* Se han actualizado varias cadenas localizadas en la interfaz de usuario de Target. (TGT-18899)
+* Se ha mejorado la [Control de calidad de actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) función para admitir [no permitir ofertas duplicadas](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) para experiencias en [!UICONTROL Automated Personalization] actividades. (TGT-46627)
+* Se ha añadido información de objeto en la IU de [!DNL Target] para ayudar a los clientes a comprender por qué podría no haber datos disponibles en los informes de actividad si no se asigna tráfico a la experiencia de control. En la información de objeto se incluye un vínculo para obtener más información: [¿Por qué no hay datos disponibles para el informe de actividad?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
+* Se ha corregido un problema que impedía que las actividades se mostraran correctamente en la página [!UICONTROL Actividades] de algunos clientes. (TGT-46830)
+* Se han corregido los siguientes problemas que afectaban a las actividades que utilizan [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) como fuente de informes:
+   * Se ha corregido un problema que impedía que algunos clientes vieran los datos de los informes. (TGT-46557)
+   * Se ha corregido un problema que a veces provocaba lo siguiente [!UICONTROL Ver en Analytics] Vínculo en las páginas de informes de actividad para no funcionar correctamente. (TGT-46731)
+   * Se ha corregido un problema que impedía los datos de para [!UICONTROL Alza] y [!UICONTROL Confianza] para mostrarse correctamente en la [!DNL Target] IU. (TGT-46592, TGT-46554 y TGT-46586)
 
 ## Notas de la versión adicionales y detalles de la versión
 
