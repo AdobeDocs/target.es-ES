@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+source-git-commit: 0cf2cda5c765887d9c64a85ade56f3e8f6c58db0
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 100%
+source-wordcount: '2261'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
-| 24 de octubre | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.11.1 de [!DNL Target Standard/Premium]. |
+| 16 de noviembre | [API de actualización de perfiles en lote](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Se ha añadido la siguiente advertencia: &quot;Las actualizaciones generalmente se producen en menos de una hora, pero pueden tardar hasta 24 horas en reflejarse&quot;. |
+| Noviembre de 13 | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.11.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Estándar/Premium 23.10.2 (24 de octubre de 2023)
 
