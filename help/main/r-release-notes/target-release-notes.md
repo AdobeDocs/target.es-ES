@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -33,13 +33,13 @@ Esta versión está programada para los siguientes días:
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* Se ha mejorado la [Control de calidad de actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) función para admitir [no permitir ofertas duplicadas](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) para experiencias en [!UICONTROL Automated Personalization] actividades. (TGT-46627)
+* Se ha mejorado la funcionalidad de [Control de calidad de actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) para que admita [la exclusión de ofertas duplicadas ](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)para experiencias en las actividades de [!UICONTROL  Automated Personalization]. (TGT-46627)
 * Se ha añadido información de objeto en la IU de [!DNL Target] para ayudar a los clientes a comprender por qué podría no haber datos disponibles en los informes de actividad si no se asigna tráfico a la experiencia de control. En la información de objeto se incluye un vínculo para obtener más información: [¿Por qué no hay datos disponibles para el informe de actividad?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
 * Se ha corregido un problema que impedía que las actividades se mostraran correctamente en la página [!UICONTROL Actividades] de algunos clientes. (TGT-46830)
-* Se han corregido los siguientes problemas que afectaban a las actividades que utilizan [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) como fuente de informes:
-   * Se ha corregido un problema que impedía que algunos clientes vieran los datos de los informes. (TGT-46557)
-   * Se ha corregido un problema que a veces provocaba lo siguiente [!UICONTROL Ver en Analytics] Vínculo en las páginas de informes de actividad para no funcionar correctamente. (TGT-46731)
-   * Se ha corregido un problema que impedía los datos de para [!UICONTROL Alza] y [!UICONTROL Confianza] para mostrarse correctamente en la [!DNL Target] IU. (TGT-46592, TGT-46554 y TGT-46586)
+* Se han solucionado los siguientes problemas que afectaban a las actividades que utilizan [[!UICONTROL Analytics para Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) como fuente de creación de informes:
+   * Se ha solucionado un problema que impedía que algunos clientes vieran los datos de creación de informes. (TGT-46557)
+   * Se ha solucionado un problema que a veces provocaba que el vínculo [!UICONTROL Ver en Analytics] de las páginas de creación de informes de actividad no funcionara correctamente. (TGT-46731)
+   * Se ha solucionado un problema que impedía que los datos de [!UICONTROL Alza] y [!UICONTROL Confianza] se mostraran correctamente en la IU de [!DNL Target]. (TGT-46592, TGT-46554 y TGT-46586)
 
 ## Notas de la versión adicionales y detalles de la versión
 
