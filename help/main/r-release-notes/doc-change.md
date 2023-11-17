@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '2314'
-ht-degree: 96%
+source-wordcount: '2356'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | Noviembre de 17 | [Primeros pasos del administrador](/help/main/administrating-target/start-target.md) | Se ha añadido la siguiente nota importante:<ul><li>Usuarios con [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] derechos en la [!DNL Adobe Admin Console] Puede editar o cambiar todos los ajustes de la [!UICONTROL Administration] página de [!DNL Target], independientemente de su [!DNL Target] función. Usuarios sin [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] derechos en la [!DNL Adobe Admin Console] debe tener el específico [!DNL Target] función para realizar estos cambios.1</li></ul> |
+|  | [Límites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Se ha actualizado la sección con información sobre cómo [!DNL Target] gestiona el truncamiento en at.js 2.*x* y el [!DNL Adobe Experience Platform Web SDK]. |
+|  | [API de entrega](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Se han añadido redirecciones a la documentación actual de la API de entrega y se ha desaprobado la documentación heredada (`http://developers.adobetarget.com/api/delivery-api/`). Actualice los marcadores según sea necesario. |
 | 16 de noviembre | [API de actualización de perfiles en lote](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Se ha añadido la siguiente advertencia: &quot;Las actualizaciones generalmente se producen en menos de una hora, pero pueden tardar hasta 24 horas en reflejarse&quot;. |
 | Noviembre de 13 | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.11.1 de [!DNL Target Standard/Premium]. |
 
