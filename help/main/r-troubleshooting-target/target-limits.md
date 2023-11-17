@@ -5,9 +5,9 @@ title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro ti
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1610'
 ht-degree: 80%
 
 ---
@@ -169,7 +169,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 * **Límite**: 256 caracteres.
 
-  Los valores más largos que este se truncan al utilizar at.js 1.*x*. Si envía más de 256 caracteres al utilizar at.js 2.*x* o el [!DNL Adobe Experience Platform Web SDK], recibirá un mensaje de error (los valores no se truncan automáticamente).
+  Los valores con más de 256 caracteres se truncan al utilizar at.js 1.*x*. Recibirá un mensaje de error al enviar valores con más de 256 caracteres al utilizar at.js 2.*x* o el [!DNL Adobe Experience Platform Web SDK]. Los valores no se truncan automáticamente.
 
 ### Nombres de perfiles In-mbox
 
