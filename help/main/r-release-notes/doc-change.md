@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0cf2cda5c765887d9c64a85ade56f3e8f6c58db0
+source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 98%
+source-wordcount: '2314'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Noviembre de 17 | [Primeros pasos del administrador](/help/main/administrating-target/start-target.md) | Se ha añadido la siguiente nota importante:<ul><li>Usuarios con [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] derechos en la [!DNL Adobe Admin Console] Puede editar o cambiar todos los ajustes de la [!UICONTROL Administration] página de [!DNL Target], independientemente de su [!DNL Target] función. Usuarios sin [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] derechos en la [!DNL Adobe Admin Console] debe tener el específico [!DNL Target] función para realizar estos cambios.1</li></ul> |
 | 16 de noviembre | [API de actualización de perfiles en lote](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Se ha añadido la siguiente advertencia: &quot;Las actualizaciones generalmente se producen en menos de una hora, pero pueden tardar hasta 24 horas en reflejarse&quot;. |
 | Noviembre de 13 | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.11.1 de [!DNL Target Standard/Premium]. |
 
