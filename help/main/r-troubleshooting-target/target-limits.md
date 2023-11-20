@@ -5,9 +5,9 @@ title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro ti
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
+source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1604'
 ht-degree: 80%
 
 ---
@@ -179,7 +179,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 * **Límite**: 250 caracteres.
 
-  Para la API de entrega (at.js 2.*x*), Integraciones de mbox por lotes V2 y SDK web de AEP (alloy.js), nombres de mbox *lata* contener caracteres alfanuméricos (A-Z, a-z, 0-9) y cualquiera de los siguientes caracteres:
+  Para [!DNL Delivery API] (at.js 2.*x*), Batch mbox V2 y [!DNL Adobe Experience Platform Web SDK] Integraciones de (alloy.js), nombres de mbox *lata* contener caracteres alfanuméricos (A-Z, a-z, 0-9) y cualquiera de los siguientes caracteres:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
