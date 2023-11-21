@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2373'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 21 de noviembre | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se han añadido las notas de la versión 2.11.3 de at.js. |
 | Noviembre de 17 | [Primeros pasos del administrador](/help/main/administrating-target/start-target.md) | Se ha añadido la siguiente nota importante:<ul><li>Usuarios con [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] derechos en la [!DNL Adobe Admin Console] Puede editar o cambiar todos los ajustes de la [!UICONTROL Administration] página de [!DNL Target], independientemente de su [!DNL Target] función. Usuarios sin [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] derechos en la [!DNL Adobe Admin Console] debe tener el específico [!DNL Target] función para realizar estos cambios.1</li></ul> |
 |  | [Límites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Se ha actualizado la sección con información sobre cómo [!DNL Target] gestiona el truncamiento en at.js 2.*x* y el [!DNL Adobe Experience Platform Web SDK]. |
 |  | [API de entrega](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Se han añadido redirecciones a la documentación actual de la API de entrega y se ha desaprobado la documentación heredada (`http://developers.adobetarget.com/api/delivery-api/`). Actualice los marcadores según sea necesario. |
