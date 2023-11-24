@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
 source-wordcount: '2373'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 21 de noviembre | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se han añadido las notas de la versión 2.11.3 de at.js. |
-| Noviembre de 17 | [Primeros pasos del administrador](/help/main/administrating-target/start-target.md) | Se ha añadido la siguiente nota importante:<ul><li>Usuarios con [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] derechos en la [!DNL Adobe Admin Console] Puede editar o cambiar todos los ajustes de la [!UICONTROL Administration] página de [!DNL Target], independientemente de su [!DNL Target] función. Usuarios sin [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] derechos en la [!DNL Adobe Admin Console] debe tener el específico [!DNL Target] función para realizar estos cambios.1</li></ul> |
-|  | [Límites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Se ha actualizado la sección con información sobre cómo [!DNL Target] gestiona el truncamiento en at.js 2.*x* y el [!DNL Adobe Experience Platform Web SDK]. |
-|  | [API de entrega](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Se han añadido redirecciones a la documentación actual de la API de entrega y se ha desaprobado la documentación heredada (`http://developers.adobetarget.com/api/delivery-api/`). Actualice los marcadores según sea necesario. |
-| 16 de noviembre | [API de actualización de perfiles en lote](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Se ha añadido la siguiente advertencia: &quot;Las actualizaciones generalmente se producen en menos de una hora, pero pueden tardar hasta 24 horas en reflejarse&quot;. |
-| Noviembre de 13 | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.11.1 de [!DNL Target Standard/Premium]. |
+| 17 de noviembre | [Primeros pasos del administrador](/help/main/administrating-target/start-target.md) | Se ha añadido la siguiente nota importante:<ul><li>Los usuarios con derechos de [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] en la [!DNL Adobe Admin Console] pueden editar o cambiar toda la configuración de la página de [!UICONTROL Administración] de [!DNL Target], independientemente de su función de [!DNL Target]. Los usuarios sin derechos de [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] en la [!DNL Adobe Admin Console] debe tener la función de [!DNL Target] específica para realizar estos cambios.1</li></ul> |
+|  | [Límites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Se ha actualizado la sección con información acerca de cómo [!DNL Target] gestiona el truncamiento en at.js 2.*x* y [!DNL Adobe Experience Platform Web SDK]. |
+|  | [API de entrega](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=es){target=_blank} | Se han añadido redirecciones a la documentación de la API de entrega actual y la documentación heredada ha quedado obsoleta (`http://developers.adobetarget.com/api/delivery-api/`). Actualice los marcadores según sea necesario. |
+| 16 de noviembre | [API de actualización de perfiles en lote](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=es){target=_blank} | Se ha añadido la siguiente advertencia: “Las actualizaciones generalmente se producen en menos de una hora, pero pueden tardar hasta 24 horas en reflejarse”. |
+| 13 de noviembre | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 23.11.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Estándar/Premium 23.10.2 (24 de octubre de 2023)
 
