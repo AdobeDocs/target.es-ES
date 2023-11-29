@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
+source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 100%
+source-wordcount: '2417'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 29 de noviembre | [API de actualización de perfil en lote](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=es){target=_blank} | Se aclararon las diferencias sobre cómo [!DNL Target] gestiona los atributos del cliente al crear un perfil para un usuario [!DNL Target] aún no ha visto al usar [!UICONTROL API de actualización de perfil en lote] v2 en oposición a v1. |
 | 21 de noviembre | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se han añadido las notas de la versión 2.11.3 de at.js. |
 | 17 de noviembre | [Primeros pasos del administrador](/help/main/administrating-target/start-target.md) | Se ha añadido la siguiente nota importante:<ul><li>Los usuarios con derechos de [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] en la [!DNL Adobe Admin Console] pueden editar o cambiar toda la configuración de la página de [!UICONTROL Administración] de [!DNL Target], independientemente de su función de [!DNL Target]. Los usuarios sin derechos de [!UICONTROL Administrador de productos] o [!UICONTROL Administrador del sistema] en la [!DNL Adobe Admin Console] debe tener la función de [!DNL Target] específica para realizar estos cambios.1</li></ul> |
 |  | [Límites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Se ha actualizado la sección con información acerca de cómo [!DNL Target] gestiona el truncamiento en at.js 2.*x* y [!DNL Adobe Experience Platform Web SDK]. |
