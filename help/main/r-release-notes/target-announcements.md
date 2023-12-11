@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y ev
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2242'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,19 +17,20 @@ Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [
 
 ## [!DNL Adobe Target Community] Coffee Break
 
-* **Aprendizaje automático e informes y análisis de IA**
-* **jueves, 06 de diciembre de 2023**
-* **8:00 - 9:00 a. m. (PST -8 GMT)**
+* **Aprendizaje automático y creación de informes y análisis sobre IA**
+* **jueves, 6 de diciembre de 2023**
+* **De 8:00 a 9:00 a. m. (PST, GMT-8)**
 * **[Regístrese aquí](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
 
-Unirse [!DNL Adobe Target] Los expertos Brent Kostak, Cristinel Anastasoaie, Drew Burns y Marisol St. John en un evento &quot;pregúntenme cualquier cosa&quot; para debatir sobre el aprendizaje automático y los informes y análisis de IA en [!DNL Adobe Target].
+Unirse [!DNL Adobe Target]a los expertos Brent Kostak, Cristinel Anastasoaie, Drew Burns y Marisol St. John en un evento &quot;pregúntenme cualquier cosa&quot; para debatir sobre el aprendizaje automático y la creación de informes y análisis de IA en [!DNL Adobe Target].
 
-+++Detalles Esta discusión se centrará en los siguientes temas:
++++Detalles
+Esta discusión tiene el enfoque en los siguientes temas:
 
-* ¿Le entusiasman la inteligencia artificial y la inteligencia artificial y desea comprender mejor el éxito de los informes en sus actividades?
+* ¿Le entusiasman el aprendizaje automático y la IA y desea comprender mejor el éxito de la creación de informes en sus actividades?
 * ¿Busca nuevas ideas y casos de uso en los que pueda utilizar la personalización en tiempo real para contenido, ofertas y mensajería?
-* ¿Quiere conocer las prácticas recomendadas para crear actividades basadas en formularios para pruebas en el lado del servidor?
-* ¿Desea mejorar el análisis y la medición de la actividad en? [!UICONTROL Analytics for Target] ¿Informes de (A4T)?
+* ¿Quiere conocer las prácticas recomendadas para crear actividades basadas en formularios para pruebas del lado del servidor?
+* ¿Desea mejorar el análisis y la medición de la actividad en creación de informes de [!UICONTROL Analytics for Target] de (A4T)?
 * ¿Sienten curiosidad sus equipos por saber cómo ampliar más allá de las pruebas A/B con pruebas y personalización en experiencias autenticadas y de clientes conocidos?
 
 +++
