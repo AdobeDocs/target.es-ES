@@ -4,7 +4,7 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
 workflow-type: tm+mt
 source-wordcount: '2348'
 ht-degree: 89%
@@ -30,22 +30,22 @@ Esta serie de seminarios web en directo resaltará los aspectos clave [!DNL Adob
 +++Fechas y detalles
 
 * **Arte de lo posible**
-* **Martes, 16 de enero de 2024**
-* **De 10:00 a 11:00 a. m. (PST, GMT-8)**
+   * **Martes, 16 de enero de 2024**
+   * **De 10:00 a 11:00 a. m. (PST, GMT-8)**
 
-El núcleo de la madurez de la personalización es la inteligencia artificial y el aprendizaje automático. [!DNL Adobe Target] aprovecha estas tecnologías para comprender el comportamiento del usuario, predecir las preferencias y adaptar el contenido de forma dinámica. Al aprovechar el poder de la IA y el ML, descubra cómo las marcas se están moviendo más allá de las pruebas A/B estáticas y la personalización basada en reglas para ofrecer experiencias dinámicas y relevantes para el contexto.
+     El núcleo de la madurez de la personalización es la inteligencia artificial y el aprendizaje automático. [!DNL Adobe Target] aprovecha estas tecnologías para comprender el comportamiento del usuario, predecir las preferencias y adaptar el contenido de forma dinámica. Al aprovechar el poder de la IA y el ML, descubra cómo las marcas se están moviendo más allá de las pruebas A/B estáticas y la personalización basada en reglas para ofrecer experiencias dinámicas y relevantes para el contexto.
 
 * **Recommendations de alto rendimiento**
-* **Martes, 13 de febrero de 2024**
-* **De 10:00 a 11:00 a. m. (PST, GMT-8)**
+   * **Martes, 13 de febrero de 2024**
+   * **De 10:00 a 11:00 a. m. (PST, GMT-8)**
 
-Descubra cómo los algoritmos de recomendación pueden cambiar las reglas del juego para las empresas, lo que aumenta la participación y los ingresos. Desde sugerencias de productos personalizadas hasta recomendaciones de contenido, la capacidad de guiar a los usuarios sin problemas a través de su recorrido contribuye directamente a desbloquear un crecimiento comercial significativo.
+     Descubra cómo los algoritmos de recomendación pueden cambiar las reglas del juego para las empresas, lo que aumenta la participación y los ingresos. Desde sugerencias de productos personalizadas hasta recomendaciones de contenido, la capacidad de guiar a los usuarios sin problemas a través de su recorrido contribuye directamente a desbloquear un crecimiento comercial significativo.
 
 * **Desbloquear la personalización con tecnología de IA**
-* **Martes, 12 de marzo de 2024**
-* **De 10:00 a 11:00 a. m. (PST, GMT-8)**
+   * **Martes, 12 de marzo de 2024**
+   * **De 10:00 a 11:00 a. m. (PST, GMT-8)**
 
-[!DNL Adobe Target] facilita las funciones de personalización impulsadas por IA en todas las etapas del ciclo de vida del cliente para experiencias personalizadas de 1 a 1. Desde la adquisición hasta la retención, descubra cómo las empresas obtienen perspectivas para racionalizar los procesos, minimizar los esfuerzos manuales y ofrecer experiencias contextuales y atractivas a escala de los clientes.
+     [!DNL Adobe Target] facilita las funciones de personalización impulsadas por IA en todas las etapas del ciclo de vida del cliente para experiencias personalizadas de 1 a 1. Desde la adquisición hasta la retención, descubra cómo las empresas obtienen perspectivas para racionalizar los procesos, minimizar los esfuerzos manuales y ofrecer experiencias contextuales y atractivas a escala de los clientes.
 
 +++
 
