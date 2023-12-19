@@ -5,9 +5,9 @@ title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Tar
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2360'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
