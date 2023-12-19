@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y ev
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2348'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [
 
 ## Serie de seminarios web sobre madurez de la personalización de Adobe Target 2024
 
-Esta serie de seminarios web en directo resaltará los aspectos clave [!DNL Adobe Target] Funciones, casos de uso y sugerencias para desbloquear la personalización basada en IA a medida que los clientes amplían su recorrido de experimentación y personalización con [!DNL Adobe Experience Platform].
+Esta serie de seminarios web en directo resaltará las [!DNL Adobe Target] funcionalidades, casos de uso y sugerencias principales para desbloquear la personalización basada en IA a medida que los clientes amplían su recorrido de experimentación y personalización con [!DNL Adobe Experience Platform].
 
-¿Por qué debería asistir?
+Por qué debería asistir:
 
-* **Descubra los casos de uso principales**: Transforme las visiones en realidad con un modelo para la optimización inteligente, la maduración [!DNL Adobe Target] clientes, más allá de la experimentación basada en reglas y las pruebas A/B.
-* **Maximice las capacidades únicas**: adapte las experiencias para que tengan éxito con recomendaciones de alto rendimiento para maximizar el retorno de la inversión, los ingresos y la conversión.
-* **Estrategias de personalización avanzadas**: profundización en las técnicas avanzadas de IA/ML para escalar el impacto empresarial, interesar a nuevos segmentos/audiencias y ajustar los modelos de personalización para las experiencias optimizadas
+* **Descubra los casos de uso principales**: Transforme las visiones en realidad con un modelo para la optimización inteligente, y la maduración de[!DNL Adobe Target] clientes, más allá de la experimentación basada en reglas y las pruebas A/B.
+* **Maximice las funcionalidades únicas**: adapte las experiencias para que tengan éxito con recomendaciones de alto rendimiento para maximizar el retorno de la inversión, los ingresos y la conversión.
+* **Estrategias de personalización avanzadas**: profundización en las técnicas avanzadas de IA/ML para escalar el impacto empresarial, interesar a nuevos segmentos/públicos y ajustar los modelos de personalización para las experiencias optimizadas
 
 * **[Regístrese aquí](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -35,7 +35,7 @@ Esta serie de seminarios web en directo resaltará los aspectos clave [!DNL Adob
 
      El núcleo de la madurez de la personalización es la inteligencia artificial y el aprendizaje automático. [!DNL Adobe Target] aprovecha estas tecnologías para comprender el comportamiento del usuario, predecir las preferencias y adaptar el contenido de forma dinámica. Al aprovechar el poder de la IA y el ML, descubra cómo las marcas se están moviendo más allá de las pruebas A/B estáticas y la personalización basada en reglas para ofrecer experiencias dinámicas y relevantes para el contexto.
 
-* **Recommendations de alto rendimiento**
+* **Recomendaciones de alto rendimiento**
    * **Martes, 13 de febrero de 2024**
    * **De 10:00 a 11:00 a. m. (PST, GMT-8)**
 
@@ -45,7 +45,7 @@ Esta serie de seminarios web en directo resaltará los aspectos clave [!DNL Adob
    * **Martes, 12 de marzo de 2024**
    * **De 10:00 a 11:00 a. m. (PST, GMT-8)**
 
-     [!DNL Adobe Target] facilita las funciones de personalización impulsadas por IA en todas las etapas del ciclo de vida del cliente para experiencias personalizadas de 1 a 1. Desde la adquisición hasta la retención, descubra cómo las empresas obtienen perspectivas para racionalizar los procesos, minimizar los esfuerzos manuales y ofrecer experiencias contextuales y atractivas a escala de los clientes.
+     [!DNL Adobe Target] facilita las funcionalidades de personalización impulsadas por IA en todas las etapas del ciclo de vida del cliente para experiencias personalizadas de 1 a 1. Desde la adquisición hasta la retención, descubra cómo las empresas obtienen perspectivas para racionalizar los procesos, minimizar los esfuerzos manuales y ofrecer experiencias contextuales y atractivas a escala de los clientes.
 
 +++
 
