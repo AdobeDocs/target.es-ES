@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Ta
 title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 78%
+source-wordcount: '675'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ Se pueden segmentar los siguientes navegadores:
 * Microsoft Edge
 * Opera
 * iPad
-* iPhone|
+* iPhone
 
 Hay dos formar de segmentar según el navegador:
 
@@ -38,7 +38,7 @@ Hay dos formar de segmentar según el navegador:
 
 * **Regla de audiencia del explorador personalizada:** Una audiencia personalizada le permite dirigirse a varios exploradores o configurar reglas o exclusiones para exploradores, versiones de exploradores o idiomas específicos. Esta funcionalidad proporciona una flexibilidad considerable a la hora de segmentar una actividad según los atributos del explorador.
 
-   1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
+   1. En el [!DNL Target] interfaz, haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
    1. Asigne un nombre a la audiencia y añada una descripción opcional.
    1. Arrastrar y soltar **[!UICONTROL Explorador]** en el Generador de audiencias.
 
@@ -47,14 +47,15 @@ Hay dos formar de segmentar según el navegador:
    1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
       * **Tipo:** dirija la actividad a un navegador o exclúyalo. Consulte [Tipo](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-      * **Idioma:** dirija la actividad ciertos navegadores que estén configurados en idiomas específicos o exclúyalos. Consulte [Idioma](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+      * **Idioma:** Dirija la actividad ciertos navegadores configurados en idiomas específicos o exclúyalos. Consulte [Idioma](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Versión:** dirija la actividad a ciertas versiones del navegador o exclúyalas. Consulte [Versión](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+
    1. (Opcional) Configure reglas adicionales para la audiencia.
    1. Haga clic en **[!UICONTROL Finalizado]**.
 
-   El siguiente ejemplo muestra una audiencia que incluye a los usuarios de Microsoft Edge en las versiones 91 o 92:
+  El siguiente ejemplo muestra una audiencia que incluye a los usuarios de Microsoft Edge en las versiones 91 o 92:
 
-   ![Target Edge 91 o 92](assets/target_edge.png)
+  ![Target Edge 91 o 92](assets/target_edge.png)
 
 ## Opciones del navegador {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -113,7 +114,7 @@ Seleccione **[!UICONTROL Versión]** y, a continuación, elija un operador:
 * Es menor que
 * Es menor que o igual a
 
-Escriba el nombre de la versión. En el campo de texto solo se pueden introducir versiones principales. Es decir, la versión especificada incluye las versiones secundarias de la principal. Por ejemplo, si especifica la versión 10, también se incluyen los visitantes de la versión 10.1.
+Escriba el número de versión. En el campo de texto solo se pueden introducir versiones principales. Es decir, la versión especificada incluye las versiones secundarias de la principal. Por ejemplo, si especifica la versión 10, también se incluyen los visitantes de la versión 10.1.
 
 Si hay varias opciones, se conectan con un parámetro O.
 
