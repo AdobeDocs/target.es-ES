@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Ta
 title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 77c8a3460b800183481637723b9631c11157d143
+source-git-commit: 1e1641a52478e21bba4a1991f62809c7046dd33e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 51%
@@ -141,35 +141,35 @@ Si tiene audiencias dirigidas a iPads o iPhone que utilizan [!UICONTROL Explorad
 
 Se pueden utilizar los siguientes ajustes a partir de ahora:
 
-* Para coincidencias de explorador [!DNL Apple]: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL matches] [!DNL Apple]
+* **Para coincidencias de explorador[!DNL Apple]**: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL matches] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* Para las coincidencias de navegador y tableta: [!UICONTROL Móvil] > [!UICONTROL es tableta] > [!UICONTROL true]
+* **Para las coincidencias de navegador y tableta**: [!UICONTROL Móvil] > [!UICONTROL es tableta] > [!UICONTROL true]
 
   ![mobile es tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* Para coincidencias de explorador con iPad: [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPad] con un contenedor Y con [!UICONTROL Móvil] > [!UICONTROL Es tableta] es [!DNL true]
+* **Para coincidencias de explorador con iPad**: [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPad] con un contenedor Y con [!UICONTROL Móvil] > [!UICONTROL Es tableta] es [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* Para coincidencias de explorador con iPhone: [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPhone] con un contenedor Y con [!UICONTROL Móvil] > [!UICONTROL Es un teléfono móvil] es [!DNL true]
+* **Para coincidencias de explorador con iPhone**: [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPhone] con un contenedor Y con [!UICONTROL Móvil] > [!UICONTROL Es un teléfono móvil] es [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 Existen muchas otras configuraciones posibles que se pueden utilizar, por ejemplo, cuando se niegan condiciones. Algunos ejemplos de condiciones negadas podrían tener el siguiente aspecto:
 
-* Para un explorador que no coincide con iPhone: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL no coincide con] [!UICONTROL Apple] con un contenedor O con [!UICONTROL Móvil] > [!UICONTROL Es un teléfono móvil] es [!UICONTROL false]
+* **Para el navegador no coincide con iPhone**: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL no coincide con] [!UICONTROL Apple] con un contenedor O con [!UICONTROL Móvil] > [!UICONTROL Es un teléfono móvil] es [!UICONTROL false]
 
   ![No es un teléfono móvil](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* Para un explorador que no coincide con iPad: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL no coincide con] [!UICONTROL Apple] con un contenedor O con [!UICONTROL Móvil] > [!UICONTROL Es tableta] es [!UICONTROL false].
+* **Para el navegador no coincide con iPad**: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL no coincide con] [!UICONTROL Apple] con un contenedor O con [!UICONTROL Móvil] > [!UICONTROL Es tableta] es [!UICONTROL false].
 
   ![No es tableta](/help/main/r-release-notes/assets/tablet-false.png)
 
 Si utiliza `user.browserType` en segmentos de JavaScript, los cambios podrían incluir lo siguiente:
 
-* BrowserType es iPhone
+* **BrowserType es iPhone**:
 
   Reemplazar:
 
@@ -179,7 +179,7 @@ Si utiliza `user.browserType` en segmentos de JavaScript, los cambios podrían i
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType no es iPhone
+* **BrowserType no es iPhone**:
 
   Reemplazar:
 
@@ -189,7 +189,7 @@ Si utiliza `user.browserType` en segmentos de JavaScript, los cambios podrían i
 
   `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType es iPad
+* **BrowserType es iPad**:
 
   Reemplazar:
 
@@ -199,7 +199,7 @@ Si utiliza `user.browserType` en segmentos de JavaScript, los cambios podrían i
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
 
-* BrowserType no es iPad
+* **BrowserType no es iPad**:
 
   Reemplazar:
 
