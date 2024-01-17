@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Ta
 title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 54%
+source-wordcount: '943'
+ht-degree: 53%
 
 ---
 
@@ -145,15 +145,15 @@ Se pueden utilizar los siguientes ajustes a partir de ahora:
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL Móvil] > [!UICONTROL es tableta]
+* [!UICONTROL Móvil] > [!UICONTROL es tableta] > [!UICONTROL true]
 
   ![mobile es tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPad]
+* [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPad] con un contenedor Y con [!UICONTROL Móvil] > [!UICONTROL Es tableta] es [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPhone]
+* [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPhone] con un contenedor Y con [!UICONTROL Móvil] > [!UICONTROL Es un teléfono móvil] es [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
