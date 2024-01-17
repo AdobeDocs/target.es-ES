@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b76a0541b181ee5ebe88f2d11f5556c6c7b91126
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 50%
+source-wordcount: '421'
+ht-degree: 51%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 50%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: miércoles, 16 de enero de 2024**
+**Última actualización: jueves, 17 de enero de 2024**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 
 | Desaprobación | Detalles |
 |--- |--- |
-| [!DNL iPad] y [!DNL iPhone] que se van a retirar del [Atributo de explorador](/help/main/c-target/c-audiences/c-target-rules/browser.md) se utiliza para crear audiencias.<p>Fecha de desuso:<P>miércoles, 30 de abril de 2024 | [!DNL Adobe Target] le permite [segmentar en cualquiera de los atributos de categoría](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluidos los usuarios que utilizan un específico [opciones del navegador o](/help/main/c-target/c-audiences/c-target-rules/browser.md) cuando visiten su página.<P><B>A partir del 30 de abril de 2024, iPad y iPhone se eliminarán de las versiones de disponibles [!UICONTROL Explorador] escriba lista desplegable al crear categorías para audiencias.</b><P>Si tiene audiencias dirigidas a iPads o iPhone que utilizan [!UICONTROL Explorador] debe cambiar esta configuración antes del 30 de abril de 2024 para garantizar que estas audiencias sigan funcionando según lo esperado.<P>En adelante, se debe utilizar la siguiente configuración:<ul><li>[!UICONTROL Móvil] > [!UICONTROL es tableta]<P>![mobile es tablet](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+| [!DNL iPad] y [!DNL iPhone] que se van a retirar del [Atributo de explorador](/help/main/c-target/c-audiences/c-target-rules/browser.md) se utiliza para crear audiencias.<p>Fecha de desuso:<P>miércoles, 30 de abril de 2024 | [!DNL Adobe Target] le permite [segmentar en cualquiera de los atributos de categoría](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluidos los usuarios que utilizan un específico [opciones del navegador o](/help/main/c-target/c-audiences/c-target-rules/browser.md) cuando visiten su página.<P><B>A partir del 30 de abril de 2024, iPad y iPhone se eliminarán de las versiones de disponibles [!UICONTROL Explorador] escriba lista desplegable al crear categorías para audiencias.</b><P>Si tiene audiencias dirigidas a iPads o iPhone que utilizan [!UICONTROL Explorador] debe cambiar esta configuración antes del 30 de abril de 2024 para garantizar que estas audiencias sigan funcionando según lo esperado.<p>Para ver ejemplos de configuraciones alternativas, consulte [Obsolescencia de iPad y iPhone a partir del atributo de audiencia del explorador (30 de abril de 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22, 23 y 25 de enero de 2024)
 
