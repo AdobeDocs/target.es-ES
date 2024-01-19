@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 62%
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
 
-## [!DNL Target] Standard/Premium 24.1.1 (22, 23 y 25 de enero de 2024)
+## [!DNL Target] Standard/Premium 24.1.1 (22, 23, 24 y 25 de enero de 2024)
 
 Esta versión está programada para los siguientes días:
 
@@ -35,11 +35,11 @@ Esta versión está programada para los siguientes días:
 Esta versión incluye las siguientes mejoras y correcciones:
 
 * [!UICONTROL Analytics for Target] Las actividades de (A4T) con métricas de objetivo de ingresos no mostraban &quot;Ingresos&quot; como nombre de columna y la métrica de ingresos no se mostraba en formato ($) en los informes. Se trata de un problema estético que se ha corregido. (TGT-46995)
-* Se ha corregido un problema que provocaba que los intervalos de fechas de creación de informes no funcionaran correctamente. (TGT-47396)
-* Se ha corregido un problema que provocaba que se mostrara un estado incorrecto en la [!UICONTROL Todas las actividades] después de que los clientes activaran o desactivaran una actividad mediante [!UICONTROL Más acciones] icono. (TGT-47367)
+* Se ha corregido un problema que hacía que los intervalos de fecha de los informes no funcionaran correctamente. (TGT-47396)
+* Se ha corregido un problema que provocaba que se mostrara un estado incorrecto en la página [!UICONTROL Todas las actividades] después de que los clientes activaran o desactivaran una actividad mediante el icono de [!UICONTROL Más acciones]. (TGT-47367)
 * Se ha corregido un problema que provocaba que [!UICONTROL Atributos importantes] informe que no se mostrará para un solo cliente. (TGT-47272)
 * Se ha corregido un problema que provocaba que se mostrara un mensaje &quot;Carga útil no válida&quot; cuando un solo cliente intentaba habilitar &quot;Requerir autenticación&quot;. (TGT-47195)
-* Se han actualizado varias cadenas localizadas en [!DNL Target] IU.
+* Se han actualizado varias cadenas localizadas en la IU de [!DNL Target].
 
 ## Notas de la versión adicionales y detalles de la versión
 
